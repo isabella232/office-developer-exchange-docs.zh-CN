@@ -1,0 +1,84 @@
+---
+title: 引用
+manager: sethgros
+ms.date: 09/17/2015
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+api_name:
+- References
+api_type:
+- schema
+ms.assetid: d78f9a48-cd24-452f-af65-4c01933227ce
+description: 引用元素表示用于将答复原始消息相关联的新闻标头。
+ms.openlocfilehash: bf9230107c1ec3d4a8eb025635ec48fdf8d4b341
+ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19827035"
+---
+# <a name="references"></a>引用
+
+**引用**元素表示用于将答复原始消息相关联的新闻标头。 
+  
+```xml
+<References/>
+```
+
+ **string**
+## <a name="attributes-and-elements"></a>属性和元素
+
+如下章节中介绍了属性、子元素和父元素。
+  
+### <a name="attributes"></a>属性
+
+无。
+  
+### <a name="child-elements"></a>子元素
+
+无。
+  
+### <a name="parent-elements"></a>父元素
+
+|**元素**|**说明**|
+|:-----|:-----|
+|[RemoveItem](removeitem.md) <br/> |从 Exchange 存储中删除一个项目。  <br/> |
+|[Message](message-ex15websvcsotherref.md) <br/> |表示 Exchange 电子邮件。  <br/> |
+|[MeetingMessage](meetingmessage.md) <br/> |表示 Exchange 存储中的会议。  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |表示 Exchange 存储中的会议请求。  <br/> |
+|[MeetingResponse](meetingresponse.md) <br/> |表示 Exchange 存储中的会议响应。  <br/> |
+|[MeetingCancellation](meetingcancellation.md) <br/> |表示 Exchange 存储中的会议取消。  <br/> |
+|[AcceptItem](acceptitem.md) <br/> |表示接受答复会议要求。  <br/> |
+|[TentativelyAcceptItem](tentativelyacceptitem.md) <br/> |表示一个暂定答复会议要求。  <br/> |
+|[DeclineItem](declineitem.md) <br/> |表示谢绝答复会议要求。  <br/> |
+|[ReplyToItem](replytoitem.md) <br/> |包含对 Exchange 存储中的项的创建者的答复。  <br/> |
+|[ReplyAllToItem](replyalltoitem.md) <br/> |包含对所有确定收件人的 Exchange 存储中的项的答复。  <br/> |
+|[ForwardItem](forwarditem.md) <br/> |包含要转发给收件人的 Exchange 存储区项。  <br/> |
+|[CancelCalendarItem](cancelcalendaritem.md) <br/> |表示用于取消会议的响应对象。  <br/> |
+|[PostItem](postitem.md) <br/> |代表一个 Exchange 存储中的公告项目。 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 中引入了此元素。  <br/> |
+   
+## <a name="text-value"></a>文本值
+
+文本值表示的新闻标头。
+  
+## <a name="remarks"></a>备注
+
+描述此元素的架构位于正在运行 Microsoft Exchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
+  
+## <a name="element-information"></a>元素信息
+
+|||
+|:-----|:-----|
+|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|架构名称  <br/> |类型架构  <br/> |
+|验证文件  <br/> |Types.xsd  <br/> |
+|可以为空  <br/> |False  <br/> |
+   
+## <a name="see-also"></a>另请参阅
+
+
+
+- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+
