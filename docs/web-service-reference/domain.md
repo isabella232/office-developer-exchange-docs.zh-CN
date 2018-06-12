@@ -1,0 +1,72 @@
+---
+title: 域
+manager: sethgros
+ms.date: 09/17/2015
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+api_name:
+- Domain
+api_type:
+- schema
+ms.assetid: 7e45a061-856f-4b44-b053-a7c4d5ad569e
+description: 域元素标识单个 SMTP 域。
+ms.openlocfilehash: 78eb1edfd347a513b84b9c15d143d76425041e85
+ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19753974"
+---
+# <a name="domain"></a>域
+
+**域**元素标识单个 SMTP 域。 
+  
+```xml
+<Domain Name="" IncludeSubdomains="" />
+```
+
+ **StmpDomain**
+## <a name="attributes-and-elements"></a>属性和元素
+
+如下章节中介绍了属性、子元素和父元素。
+  
+### <a name="attributes"></a>属性
+
+|**属性**|**说明**|
+|:-----|:-----|
+|名称  <br/> |标识域的名称。 此属性是必需的。  <br/> |
+|IncludeSubdomains  <br/> |指示是否由**Name**属性标识的域的子域均被视为内部。 此属性是可选的。  <br/> |
+   
+### <a name="child-elements"></a>子元素
+
+无。
+  
+### <a name="parent-elements"></a>父元素
+
+|**元素**|**说明**|
+|:-----|:-----|
+|[InternalDomains (SmtpDomainList)](internaldomains-smtpdomainlist.md) <br/> |标识组织的内部 SMTP 域的列表。  <br/> |
+   
+## <a name="text-value"></a>文本值
+
+无。
+  
+## <a name="remarks"></a>备注
+
+描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
+  
+## <a name="element-information"></a>元素信息
+
+|||
+|:-----|:-----|
+|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|架构名称  <br/> |类型架构  <br/> |
+|验证文件  <br/> |Types.xsd  <br/> |
+|可以为空  <br/> |False  <br/> |
+   
+## <a name="see-also"></a>另请参阅
+
+- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+

@@ -1,0 +1,44 @@
+---
+title: ExtendedAttribute
+manager: sethgros
+ms.date: 11/16/2014
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+ms.assetid: 1dc4eee7-ad47-4aad-963b-b2b8c6cb89e7
+description: ExtendedAttribute 元素旨在仅供内部使用。
+ms.openlocfilehash: d505d2e05c0b971efcaa895882a62181fd84c71d
+ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19754208"
+---
+# <a name="extendedattribute"></a>ExtendedAttribute
+
+**ExtendedAttribute**元素旨在仅供内部使用。 
+
+## <a name="attributes-and-elements"></a>属性和元素
+
+如下章节中介绍了属性、子元素和父元素。
+  
+### <a name="attributes"></a>属性
+
+无。
+  
+### <a name="child-elements"></a>子元素
+
+无。
+  
+### <a name="parent-elements"></a>父元素
+
+无。
+  
+## <a name="remarks"></a>备注
+
+Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
+  
+描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
+  
+
