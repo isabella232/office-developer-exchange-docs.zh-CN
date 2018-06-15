@@ -16,7 +16,7 @@ ms.openlocfilehash: 49677b6d61f525b469679ec3fdcb8aadcca7239d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/15/2018
 ms.locfileid: "19827348"
 ---
 # <a name="sendnotificationresponsemessage"></a>SendNotificationResponseMessage
