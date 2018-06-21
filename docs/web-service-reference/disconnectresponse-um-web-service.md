@@ -15,7 +15,7 @@ ms.openlocfilehash: 47d432065f0c983a511e2ffda1ba789546a82f2f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19753911"
 ---
 # <a name="disconnectresponse-um-web-service"></a>DisconnectResponse （UM web 服务）

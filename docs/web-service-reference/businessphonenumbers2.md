@@ -12,7 +12,7 @@ ms.openlocfilehash: 8a03e102223e5542d6a672c4f47305cef84b850b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19753408"
 ---
 # <a name="businessphonenumbers2"></a>BusinessPhoneNumbers2

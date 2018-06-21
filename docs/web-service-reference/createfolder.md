@@ -1,5 +1,5 @@
 ---
-title: SendItemResponse
+title: CreateFolder
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,29 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 api_name:
-- SendItemResponse
+- CreateFolder
 api_type:
 - schema
-ms.assetid: 26ac41c7-57d9-473e-ab7a-bae93e1d2aba
-description: SendItemResponse 元素定义 SendItem 请求的响应。
-ms.openlocfilehash: 41f450e1d4c95f7ba389adcaa2ed7e18ea74d61c
+ms.assetid: 110bada1-517b-4bd6-870d-7086dc879e5d
+description: CreateFolder元素定义要在 Exchange 存储区中创建文件夹的请求。
+ms.openlocfilehash: e30af23b8ed8669053b94be460d62fbf7abf24c9
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/21/2018
-ms.locfileid: "19827339"
+ms.locfileid: "19753637"
 ---
-# <a name="senditemresponse"></a>SendItemResponse
+# <a name="createfolder"></a>CreateFolder
 
-**SendItemResponse**元素定义 SendItem 请求的响应。 
+本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **CreateFolder**元素定义要在 Exchange 存储区中创建文件夹的请求。 
   
 ```xml
-<SendItemResponse>
-   <ResponseMessages/>
-</SendItemResponse>
+<CreateFolder>
+   <ParentFolderId/>
+   <Folders/>
+</CreateFolder>
 ```
 
- **SendItemResponseType**
+ **CreateFolderType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
 如下章节中介绍了属性、子元素和父元素。
@@ -42,7 +43,8 @@ ms.locfileid: "19827339"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |包含为 Exchange Web 服务请求的响应消息。  <br/> |
+|[ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md) <br/> |该元素标识在其中创建新文件夹的位置。  <br/> |
+|[Folders](folders-ex15websvcsotherref.md) <br/> |包含要创建的所有文件夹的元素。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -65,10 +67,8 @@ ms.locfileid: "19827339"
 
 
 
-[SendItem 操作](senditem-operation.md)
-  
-[SendItem](senditem.md)
+[CreateFolder Operation](createfolder-operation.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+[Creating Folders (Exchange Web Services)](http://msdn.microsoft.com/library/3b15b0ec-8691-45ed-9a24-a91ff732d6cf%28Office.15%29.aspx)
 

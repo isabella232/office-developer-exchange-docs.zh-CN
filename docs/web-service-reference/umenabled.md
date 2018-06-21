@@ -16,7 +16,7 @@ ms.openlocfilehash: 8324e02136adc6704bc0badb77131e9671ee569f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19838305"
 ---
 # <a name="umenabled"></a>UmEnabled
@@ -50,7 +50,7 @@ ms.locfileid: "19838305"
 
 **UmEnabled**元素的文本值为**true** ，如果帐户; 启用了统一消息否则，值为**false**。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素是必需的。
   

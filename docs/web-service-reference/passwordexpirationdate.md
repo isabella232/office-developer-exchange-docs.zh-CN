@@ -12,7 +12,7 @@ ms.openlocfilehash: 5fbe807ce30971e181db3db01a51f8b3e24dfd18
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19826699"
 ---
 # <a name="passwordexpirationdate"></a>PasswordExpirationDate

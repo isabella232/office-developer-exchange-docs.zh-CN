@@ -16,7 +16,7 @@ ms.openlocfilehash: 5cad36c6fcff782195fdb285e2d3c4f3c5ec0f1e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19753783"
 ---
 # <a name="delete-foldersync"></a>删除 (FolderSync)
@@ -57,7 +57,7 @@ ms.locfileid: "19753783"
 |:-----|:-----|
 |[更改 （层次结构）](changes-hierarchy.md) <br/> |包含表示的客户端上的文件夹和运行 Microsoft Exchange Server 2007 的计算机上的文件夹之间的差异的类型的更改类型排序的数组。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于安装了客户端访问服务器角色的 Exchange 2007 计算机的 EWS 虚拟目录中。
   

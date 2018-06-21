@@ -16,7 +16,7 @@ ms.openlocfilehash: d33bf22af4ddf6b2f6d8d8d434168264acfaea7c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19826881"
 ---
 # <a name="primarysmtpaddress"></a>PrimarySmtpAddress
@@ -52,7 +52,7 @@ ms.locfileid: "19826881"
 
 需要安装一个代表 SMTP 地址的文本值。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Web 服务需要邮箱由的邮箱的主 SMTP 地址。 不接受代理地址或其他地址。
   

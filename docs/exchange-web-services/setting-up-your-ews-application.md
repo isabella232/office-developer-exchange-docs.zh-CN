@@ -10,7 +10,7 @@ ms.openlocfilehash: b8f402d3c4555f971b08fd891b5b64ca49a57e0d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19753003"
 ---
 # <a name="setting-up-your-ews-application"></a>EWS 应用程序设置
