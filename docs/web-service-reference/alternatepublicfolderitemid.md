@@ -1,0 +1,88 @@
+---
+title: AlternatePublicFolderItemId
+manager: sethgros
+ms.date: 09/17/2015
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+api_name:
+- AlternatePublicFolderItemId
+api_type:
+- schema
+ms.assetid: a67df9b9-8fdb-42de-b9c5-8377b71fa3d9
+description: AlternatePublicFolderItemId 元素描述将转换为另一个标识符格式的公用文件夹项标识符。 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 中引入了此元素。
+ms.openlocfilehash: 2240f3ff80c2c5b705611c3cf9286faa62d204cc
+ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19753144"
+---
+# <a name="alternatepublicfolderitemid"></a>AlternatePublicFolderItemId
+
+**AlternatePublicFolderItemId**元素描述将转换为另一个标识符格式的公用文件夹项标识符。 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 中引入了此元素。 
+  
+- [ConvertId](convertid.md)
+  
+- [SourceIds](sourceids.md)
+  
+- [AlternatePublicFolderItemId](alternatepublicfolderitemid.md)
+  
+```xml
+<AlternatePublicFolderItemId FolderId="" Format="" ItemId=""/>
+```
+
+ **AlternatePublicFolderItemIdType**
+## <a name="attributes-and-elements"></a>属性和元素
+
+如下章节中介绍了属性、子元素和父元素。
+  
+### <a name="attributes"></a>属性
+
+|**属性**|**说明**|
+|:-----|:-----|
+|文件夹 Id  <br/> |标识的公用文件夹的包含公用文件夹项。 此属性是必需的。  <br/> |
+|格式  <br/> |标识描述要转换的公用文件夹项标识符的格式。 此属性是必需的。  <br/> |
+|ItemId  <br/> |标识符要转换的公用文件夹项。 此属性是必需的。  <br/> |
+   
+#### <a name="format-attribute-values"></a>Format 属性值
+
+|**值**|**说明**|
+|:-----|:-----|
+|EwsLegacyId  <br/> |描述所产生的 Exchange Web 服务的初始发行版本的 Exchange 2007 中的标识符。  <br/> |
+|EwsId  <br/> |描述所产生的开头 Exchange 2007 SP1 的 Exchange Web 服务的标识符。  <br/> |
+|EntryId  <br/> |描述 MAPI 标识符，如 PR_ENTRYID 属性中所示。  <br/> |
+|HexEntryId  <br/> |介绍 PR_ENTRYID 属性的十六进制编码表示形式。 这是可用性日历事件标识符的格式。  <br/> |
+|StoreId  <br/> |描述 Exchange 存储区标识符。  <br/> |
+|OwaId  <br/> |介绍 Outlook Web Access 标识符。  <br/> |
+   
+### <a name="child-elements"></a>子元素
+
+无。
+  
+### <a name="parent-elements"></a>父元素
+
+|**元素**|**说明**|
+|:-----|:-----|
+|[SourceIds](sourceids.md) <br/> |包含要转换的源标识符。 Exchange 2007 SP1 中引入了此元素。  <br/> |
+   
+## <a name="remarks"></a>备注
+
+描述此元素的架构位于正在运行 Microsoft Exchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
+  
+## <a name="element-information"></a>元素信息
+
+|||
+|:-----|:-----|
+|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|架构名称  <br/> |类型架构  <br/> |
+|验证文件  <br/> |Types.xsd  <br/> |
+|可以为空  <br/> |True  <br/> |
+   
+## <a name="see-also"></a>另请参阅
+
+- [ConvertId 操作](convertid-operation.md)
+- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [转换标识符](http://msdn.microsoft.com/library/a5391746-b6ef-4f48-8fc8-8255258651aa%28Office.15%29.aspx)
+
