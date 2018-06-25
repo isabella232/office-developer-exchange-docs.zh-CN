@@ -16,22 +16,22 @@ ms.openlocfilehash: 0e93be7b14cb1ca6a2a9821b016f7bdc0e8d7772
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825673"
 ---
-# <a name="getstreamingevents-operation"></a><span data-ttu-id="42d9a-103">GetStreamingEvents 操作</span><span class="sxs-lookup"><span data-stu-id="42d9a-103">GetStreamingEvents operation</span></span>
+# <a name="getstreamingevents-operation"></a><span data-ttu-id="d2ec1-103">GetStreamingEvents 操作</span><span class="sxs-lookup"><span data-stu-id="d2ec1-103">GetStreamingEvents operation</span></span>
 
-<span data-ttu-id="42d9a-104">查找有关**GetStreamingEvents** EWS 操作的信息。</span><span class="sxs-lookup"><span data-stu-id="42d9a-104">Find information about the **GetStreamingEvents** EWS operation.</span></span> 
+<span data-ttu-id="d2ec1-104">查找有关**GetStreamingEvents** EWS 操作的信息。</span><span class="sxs-lookup"><span data-stu-id="d2ec1-104">Find information about the **GetStreamingEvents** EWS operation.</span></span> 
   
-<span data-ttu-id="42d9a-105">流式处理订阅客户端使用**GetStreamingEvents**操作从客户端访问服务器请求通知。</span><span class="sxs-lookup"><span data-stu-id="42d9a-105">The **GetStreamingEvents** operation is used by streaming subscription clients to request notifications from the Client Access server.</span></span> <span data-ttu-id="42d9a-106">**GetStreamingEvents**响应中返回的数组项和发生的事件的邮箱中上次通知。</span><span class="sxs-lookup"><span data-stu-id="42d9a-106">The **GetStreamingEvents** response returns an array of items and events that have occurred in a mailbox since the last the notification.</span></span> 
+<span data-ttu-id="d2ec1-105">流式处理订阅客户端使用**GetStreamingEvents**操作从客户端访问服务器请求通知。</span><span class="sxs-lookup"><span data-stu-id="d2ec1-105">The **GetStreamingEvents** operation is used by streaming subscription clients to request notifications from the Client Access server.</span></span> <span data-ttu-id="d2ec1-106">**GetStreamingEvents**响应中返回的数组项和发生的事件的邮箱中上次通知。</span><span class="sxs-lookup"><span data-stu-id="d2ec1-106">The **GetStreamingEvents** response returns an array of items and events that have occurred in a mailbox since the last the notification.</span></span> 
   
-## <a name="getstreamingevents-request-example"></a><span data-ttu-id="42d9a-107">GetStreamingEvents 请求示例</span><span class="sxs-lookup"><span data-stu-id="42d9a-107">GetStreamingEvents request example</span></span>
+## <a name="getstreamingevents-request-example"></a><span data-ttu-id="d2ec1-107">GetStreamingEvents 请求示例</span><span class="sxs-lookup"><span data-stu-id="d2ec1-107">GetStreamingEvents request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="42d9a-108">说明</span><span class="sxs-lookup"><span data-stu-id="42d9a-108">Description</span></span>
+### <a name="description"></a><span data-ttu-id="d2ec1-108">说明</span><span class="sxs-lookup"><span data-stu-id="d2ec1-108">Description</span></span>
 
-<span data-ttu-id="42d9a-109">**GetStreamingEvents**操作的下面的示例演示如何请求的事件和订阅的订阅标识符标识与关联的项目。</span><span class="sxs-lookup"><span data-stu-id="42d9a-109">The following example of a **GetStreamingEvents** operation shows how to request the events and items that are associated with a subscription that is identified by the subscription identifier.</span></span> 
+<span data-ttu-id="d2ec1-109">**GetStreamingEvents**操作的下面的示例演示如何请求的事件和订阅的订阅标识符标识与关联的项目。</span><span class="sxs-lookup"><span data-stu-id="d2ec1-109">The following example of a **GetStreamingEvents** operation shows how to request the events and items that are associated with a subscription that is identified by the subscription identifier.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="42d9a-110">代码</span><span class="sxs-lookup"><span data-stu-id="42d9a-110">Code</span></span>
+### <a name="code"></a><span data-ttu-id="d2ec1-110">代码</span><span class="sxs-lookup"><span data-stu-id="d2ec1-110">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -47,23 +47,23 @@ ms.locfileid: "19825673"
 </soap:Envelope>
 ```
 
-### <a name="getstreamingevents-request-elements"></a><span data-ttu-id="42d9a-111">GetStreamingEvents 请求元素</span><span class="sxs-lookup"><span data-stu-id="42d9a-111">GetStreamingEvents request elements</span></span>
+### <a name="getstreamingevents-request-elements"></a><span data-ttu-id="d2ec1-111">GetStreamingEvents 请求元素</span><span class="sxs-lookup"><span data-stu-id="d2ec1-111">GetStreamingEvents request elements</span></span>
 
-<span data-ttu-id="42d9a-112">请求中使用以下元素：</span><span class="sxs-lookup"><span data-stu-id="42d9a-112">The following elements are used in the request:</span></span>
+<span data-ttu-id="d2ec1-112">请求中使用以下元素：</span><span class="sxs-lookup"><span data-stu-id="d2ec1-112">The following elements are used in the request:</span></span>
   
-- [<span data-ttu-id="42d9a-113">GetStreamingEvents</span><span class="sxs-lookup"><span data-stu-id="42d9a-113">GetStreamingEvents</span></span>](getstreamingevents.md)
+- [<span data-ttu-id="d2ec1-113">GetStreamingEvents</span><span class="sxs-lookup"><span data-stu-id="d2ec1-113">GetStreamingEvents</span></span>](getstreamingevents.md)
     
-- [<span data-ttu-id="42d9a-114">SubscriptionId (GetStreamingEvents)</span><span class="sxs-lookup"><span data-stu-id="42d9a-114">SubscriptionId (GetStreamingEvents)</span></span>](subscriptionid-getstreamingevents.md)
+- [<span data-ttu-id="d2ec1-114">SubscriptionId (GetStreamingEvents)</span><span class="sxs-lookup"><span data-stu-id="d2ec1-114">SubscriptionId (GetStreamingEvents)</span></span>](subscriptionid-getstreamingevents.md)
     
-- [<span data-ttu-id="42d9a-115">ConnectionTimeout</span><span class="sxs-lookup"><span data-stu-id="42d9a-115">ConnectionTimeout</span></span>](connectiontimeout.md)
+- [<span data-ttu-id="d2ec1-115">ConnectionTimeout</span><span class="sxs-lookup"><span data-stu-id="d2ec1-115">ConnectionTimeout</span></span>](connectiontimeout.md)
     
-## <a name="successful-getstreamingevents-response-example"></a><span data-ttu-id="42d9a-116">成功 GetStreamingEvents 响应示例</span><span class="sxs-lookup"><span data-stu-id="42d9a-116">Successful GetStreamingEvents response example</span></span>
+## <a name="successful-getstreamingevents-response-example"></a><span data-ttu-id="d2ec1-116">成功 GetStreamingEvents 响应示例</span><span class="sxs-lookup"><span data-stu-id="d2ec1-116">Successful GetStreamingEvents response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="42d9a-117">说明</span><span class="sxs-lookup"><span data-stu-id="42d9a-117">Description</span></span>
+### <a name="description"></a><span data-ttu-id="d2ec1-117">说明</span><span class="sxs-lookup"><span data-stu-id="d2ec1-117">Description</span></span>
 
-<span data-ttu-id="42d9a-118">**GetStreamingEvents**响应的下面的示例演示时收到新的电子邮件发送到客户端的通知。</span><span class="sxs-lookup"><span data-stu-id="42d9a-118">The following example of a **GetStreamingEvents** response shows the notifications that are sent to the client when a new email message is received.</span></span> <span data-ttu-id="42d9a-119">它包括下面的事件通知： CreatedEvent、 NewMail 和 ModifiedEvent。</span><span class="sxs-lookup"><span data-stu-id="42d9a-119">It includes notifications for the following events: CreatedEvent, NewMail, and ModifiedEvent.</span></span> 
+<span data-ttu-id="d2ec1-118">**GetStreamingEvents**响应的下面的示例演示时收到新的电子邮件发送到客户端的通知。</span><span class="sxs-lookup"><span data-stu-id="d2ec1-118">The following example of a **GetStreamingEvents** response shows the notifications that are sent to the client when a new email message is received.</span></span> <span data-ttu-id="d2ec1-119">它包括下面的事件通知： CreatedEvent、 NewMail 和 ModifiedEvent。</span><span class="sxs-lookup"><span data-stu-id="d2ec1-119">It includes notifications for the following events: CreatedEvent, NewMail, and ModifiedEvent.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="42d9a-120">代码</span><span class="sxs-lookup"><span data-stu-id="42d9a-120">Code</span></span>
+### <a name="code"></a><span data-ttu-id="d2ec1-120">代码</span><span class="sxs-lookup"><span data-stu-id="d2ec1-120">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -102,31 +102,31 @@ ms.locfileid: "19825673"
 </soap:Body>
 ```
 
-### <a name="getstreamingevents-response-elements"></a><span data-ttu-id="42d9a-121">GetStreamingEvents 响应元素</span><span class="sxs-lookup"><span data-stu-id="42d9a-121">GetStreamingEvents response elements</span></span>
+### <a name="getstreamingevents-response-elements"></a><span data-ttu-id="d2ec1-121">GetStreamingEvents 响应元素</span><span class="sxs-lookup"><span data-stu-id="d2ec1-121">GetStreamingEvents response elements</span></span>
 
-<span data-ttu-id="42d9a-122">在响应中使用以下元素：</span><span class="sxs-lookup"><span data-stu-id="42d9a-122">The following elements are used in the response:</span></span>
+<span data-ttu-id="d2ec1-122">在响应中使用以下元素：</span><span class="sxs-lookup"><span data-stu-id="d2ec1-122">The following elements are used in the response:</span></span>
   
-- [<span data-ttu-id="42d9a-123">GetStreamingEventsResponse</span><span class="sxs-lookup"><span data-stu-id="42d9a-123">GetStreamingEventsResponse</span></span>](getstreamingeventsresponse.md)
+- [<span data-ttu-id="d2ec1-123">GetStreamingEventsResponse</span><span class="sxs-lookup"><span data-stu-id="d2ec1-123">GetStreamingEventsResponse</span></span>](getstreamingeventsresponse.md)
     
-- [<span data-ttu-id="42d9a-124">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="42d9a-124">ResponseMessages</span></span>](responsemessages.md)
+- [<span data-ttu-id="d2ec1-124">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="d2ec1-124">ResponseMessages</span></span>](responsemessages.md)
     
-- [<span data-ttu-id="42d9a-125">GetStreamingEventsResponseMessage</span><span class="sxs-lookup"><span data-stu-id="42d9a-125">GetStreamingEventsResponseMessage</span></span>](getstreamingeventsresponsemessage.md)
+- [<span data-ttu-id="d2ec1-125">GetStreamingEventsResponseMessage</span><span class="sxs-lookup"><span data-stu-id="d2ec1-125">GetStreamingEventsResponseMessage</span></span>](getstreamingeventsresponsemessage.md)
     
-- [<span data-ttu-id="42d9a-126">NotesFolderPermissionLevel</span><span class="sxs-lookup"><span data-stu-id="42d9a-126">NotesFolderPermissionLevel</span></span>](notesfolderpermissionlevel.md)
+- [<span data-ttu-id="d2ec1-126">NotesFolderPermissionLevel</span><span class="sxs-lookup"><span data-stu-id="d2ec1-126">NotesFolderPermissionLevel</span></span>](notesfolderpermissionlevel.md)
     
-- [<span data-ttu-id="42d9a-127">通知</span><span class="sxs-lookup"><span data-stu-id="42d9a-127">Notification</span></span>](notification-ex15websvcsotherref.md)
+- [<span data-ttu-id="d2ec1-127">通知</span><span class="sxs-lookup"><span data-stu-id="d2ec1-127">Notification</span></span>](notification-ex15websvcsotherref.md)
     
-- [<span data-ttu-id="42d9a-128">SubscriptionId (GetStreamingEvents)</span><span class="sxs-lookup"><span data-stu-id="42d9a-128">SubscriptionId (GetStreamingEvents)</span></span>](subscriptionid-getstreamingevents.md)
+- [<span data-ttu-id="d2ec1-128">SubscriptionId (GetStreamingEvents)</span><span class="sxs-lookup"><span data-stu-id="d2ec1-128">SubscriptionId (GetStreamingEvents)</span></span>](subscriptionid-getstreamingevents.md)
     
-<span data-ttu-id="42d9a-129">若要查找的响应消息**GetStreamingEvents**操作的其他选项，浏览的架构层次结构。</span><span class="sxs-lookup"><span data-stu-id="42d9a-129">To find other options for the response message of the **GetStreamingEvents** operation, explore the schema hierarchy.</span></span> <span data-ttu-id="42d9a-130">启动[通知](notification-ex15websvcsotherref.md)元素。</span><span class="sxs-lookup"><span data-stu-id="42d9a-130">Start at the [Notification](notification-ex15websvcsotherref.md) element.</span></span> 
+<span data-ttu-id="d2ec1-129">若要查找的响应消息**GetStreamingEvents**操作的其他选项，浏览的架构层次结构。</span><span class="sxs-lookup"><span data-stu-id="d2ec1-129">To find other options for the response message of the **GetStreamingEvents** operation, explore the schema hierarchy.</span></span> <span data-ttu-id="d2ec1-130">启动[通知](notification-ex15websvcsotherref.md)元素。</span><span class="sxs-lookup"><span data-stu-id="d2ec1-130">Start at the [Notification](notification-ex15websvcsotherref.md) element.</span></span> 
   
-## <a name="getstreamingevents-error-response-example"></a><span data-ttu-id="42d9a-131">GetStreamingEvents 错误响应示例</span><span class="sxs-lookup"><span data-stu-id="42d9a-131">GetStreamingEvents error response example</span></span>
+## <a name="getstreamingevents-error-response-example"></a><span data-ttu-id="d2ec1-131">GetStreamingEvents 错误响应示例</span><span class="sxs-lookup"><span data-stu-id="d2ec1-131">GetStreamingEvents error response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="42d9a-132">说明</span><span class="sxs-lookup"><span data-stu-id="42d9a-132">Description</span></span>
+### <a name="description"></a><span data-ttu-id="d2ec1-132">说明</span><span class="sxs-lookup"><span data-stu-id="d2ec1-132">Description</span></span>
 
-<span data-ttu-id="42d9a-133">下面的示例演示对**GetStreamingEvents**请求错误响应。</span><span class="sxs-lookup"><span data-stu-id="42d9a-133">The following example shows an error response to a **GetStreamingEvents** request.</span></span> 
+<span data-ttu-id="d2ec1-133">下面的示例演示对**GetStreamingEvents**请求错误响应。</span><span class="sxs-lookup"><span data-stu-id="d2ec1-133">The following example shows an error response to a **GetStreamingEvents** request.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="42d9a-134">代码</span><span class="sxs-lookup"><span data-stu-id="42d9a-134">Code</span></span>
+### <a name="code"></a><span data-ttu-id="d2ec1-134">代码</span><span class="sxs-lookup"><span data-stu-id="d2ec1-134">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -153,29 +153,29 @@ ms.locfileid: "19825673"
 </soap:Envelope>
 ```
 
-## <a name="remarks"></a><span data-ttu-id="42d9a-135">备注</span><span class="sxs-lookup"><span data-stu-id="42d9a-135">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d2ec1-135">注解</span><span class="sxs-lookup"><span data-stu-id="d2ec1-135">Remarks</span></span>
 
-<span data-ttu-id="42d9a-136">当处理**GetStreamingEvents**请求，客户端访问服务器将执行以下步骤：</span><span class="sxs-lookup"><span data-stu-id="42d9a-136">When processing a **GetStreamingEvents** request, the Client Access server performs the following steps:</span></span> 
+<span data-ttu-id="d2ec1-136">当处理**GetStreamingEvents**请求，客户端访问服务器将执行以下步骤：</span><span class="sxs-lookup"><span data-stu-id="d2ec1-136">When processing a **GetStreamingEvents** request, the Client Access server performs the following steps:</span></span> 
   
-1. <span data-ttu-id="42d9a-137">确认请求的[SubscriptionId (GetStreamingEvents)](subscriptionid-getstreamingevents.md)是有效的订阅的客户端访问服务器上承载。</span><span class="sxs-lookup"><span data-stu-id="42d9a-137">The [SubscriptionId (GetStreamingEvents)](subscriptionid-getstreamingevents.md) of the request is confirmed to be a valid subscription that is hosted on the Client Access server.</span></span> <span data-ttu-id="42d9a-138">如果不存在，则**GetStreamingEvents**调用将失败。</span><span class="sxs-lookup"><span data-stu-id="42d9a-138">If it is not, the **GetStreamingEvents** call fails.</span></span> 
+1. <span data-ttu-id="d2ec1-137">确认请求的[SubscriptionId (GetStreamingEvents)](subscriptionid-getstreamingevents.md)是有效的订阅的客户端访问服务器上承载。</span><span class="sxs-lookup"><span data-stu-id="d2ec1-137">The [SubscriptionId (GetStreamingEvents)](subscriptionid-getstreamingevents.md) of the request is confirmed to be a valid subscription that is hosted on the Client Access server.</span></span> <span data-ttu-id="d2ec1-138">如果不存在，则**GetStreamingEvents**调用将失败。</span><span class="sxs-lookup"><span data-stu-id="d2ec1-138">If it is not, the **GetStreamingEvents** call fails.</span></span> 
     
-2. <span data-ttu-id="42d9a-139">验证请求身份验证的用户的 SMTP 地址拥有模拟权限。</span><span class="sxs-lookup"><span data-stu-id="42d9a-139">The SMTP address of the authenticated user for the request is validated to have impersonation rights.</span></span> <span data-ttu-id="42d9a-140">如果未显示，请**GetStreamingEvents**请求失败。</span><span class="sxs-lookup"><span data-stu-id="42d9a-140">If they do not, the **GetStreamingEvents** request fails.</span></span> 
+2. <span data-ttu-id="d2ec1-139">验证请求身份验证的用户的 SMTP 地址拥有模拟权限。</span><span class="sxs-lookup"><span data-stu-id="d2ec1-139">The SMTP address of the authenticated user for the request is validated to have impersonation rights.</span></span> <span data-ttu-id="d2ec1-140">如果未显示，请**GetStreamingEvents**请求失败。</span><span class="sxs-lookup"><span data-stu-id="d2ec1-140">If they do not, the **GetStreamingEvents** request fails.</span></span> 
     
-3. <span data-ttu-id="42d9a-141">订阅队列中等待要发送给客户端的事件查询。</span><span class="sxs-lookup"><span data-stu-id="42d9a-141">The subscription queue is queried for events that are waiting to be sent to the client.</span></span> <span data-ttu-id="42d9a-142">如果不为空队列，从队列的前 50 个事件是从队列中拉取和编码到通知。</span><span class="sxs-lookup"><span data-stu-id="42d9a-142">If the queue is not empty, the first 50 events from the queue are pulled from the queue and encoded into a notification.</span></span>
+3. <span data-ttu-id="d2ec1-141">订阅队列中等待要发送给客户端的事件查询。</span><span class="sxs-lookup"><span data-stu-id="d2ec1-141">The subscription queue is queried for events that are waiting to be sent to the client.</span></span> <span data-ttu-id="d2ec1-142">如果不为空队列，从队列的前 50 个事件是从队列中拉取和编码到通知。</span><span class="sxs-lookup"><span data-stu-id="d2ec1-142">If the queue is not empty, the first 50 events from the queue are pulled from the queue and encoded into a notification.</span></span>
     
-4. <span data-ttu-id="42d9a-143">如果在队列中不发现的任何事件， [StatusEvent](statusevent.md)生成，且编码到通知响应。</span><span class="sxs-lookup"><span data-stu-id="42d9a-143">If no events are found in the queue, a [StatusEvent](statusevent.md) is generated and encoded into a notification response.</span></span> 
+4. <span data-ttu-id="d2ec1-143">如果在队列中不发现的任何事件， [StatusEvent](statusevent.md)生成，且编码到通知响应。</span><span class="sxs-lookup"><span data-stu-id="d2ec1-143">If no events are found in the queue, a [StatusEvent](statusevent.md) is generated and encoded into a notification response.</span></span> 
     
-5. <span data-ttu-id="42d9a-144">通知响应将返回到客户端。</span><span class="sxs-lookup"><span data-stu-id="42d9a-144">The notification response is returned to the client.</span></span>
+5. <span data-ttu-id="d2ec1-144">通知响应将返回到客户端。</span><span class="sxs-lookup"><span data-stu-id="d2ec1-144">The notification response is returned to the client.</span></span>
     
-6. <span data-ttu-id="42d9a-145">从订阅队列中删除包含在的通知的事件和客户端访问服务器本地最后一个水印订阅设置为返回的最后一个事件水印。</span><span class="sxs-lookup"><span data-stu-id="42d9a-145">The events that are included in the notification are removed from the subscription queue and the Client Access server-local last watermark for the subscription is set to the watermark of the last event that is returned.</span></span>
+6. <span data-ttu-id="d2ec1-145">从订阅队列中删除包含在的通知的事件和客户端访问服务器本地最后一个水印订阅设置为返回的最后一个事件水印。</span><span class="sxs-lookup"><span data-stu-id="d2ec1-145">The events that are included in the notification are removed from the subscription queue and the Client Access server-local last watermark for the subscription is set to the watermark of the last event that is returned.</span></span>
     
-7. <span data-ttu-id="42d9a-146">订阅超时计时器重置。</span><span class="sxs-lookup"><span data-stu-id="42d9a-146">The timeout timer for the subscription is reset.</span></span>
+7. <span data-ttu-id="d2ec1-146">订阅超时计时器重置。</span><span class="sxs-lookup"><span data-stu-id="d2ec1-146">The timeout timer for the subscription is reset.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="42d9a-147">另请参阅</span><span class="sxs-lookup"><span data-stu-id="42d9a-147">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d2ec1-147">另请参阅</span><span class="sxs-lookup"><span data-stu-id="d2ec1-147">See also</span></span>
 
 
 
-[<span data-ttu-id="42d9a-148">订阅操作</span><span class="sxs-lookup"><span data-stu-id="42d9a-148">Subscribe operation</span></span>](subscribe-operation.md)
+[<span data-ttu-id="d2ec1-148">订阅操作</span><span class="sxs-lookup"><span data-stu-id="d2ec1-148">Subscribe operation</span></span>](subscribe-operation.md)
   
-[<span data-ttu-id="42d9a-149">取消操作</span><span class="sxs-lookup"><span data-stu-id="42d9a-149">Unsubscribe operation</span></span>](unsubscribe-operation.md)
+[<span data-ttu-id="d2ec1-149">取消操作</span><span class="sxs-lookup"><span data-stu-id="d2ec1-149">Unsubscribe operation</span></span>](unsubscribe-operation.md)
 

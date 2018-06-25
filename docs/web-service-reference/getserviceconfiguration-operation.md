@@ -16,20 +16,20 @@ ms.openlocfilehash: 7fdc4d8defac3d6d352c121483bf8a4c735d9629
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825667"
 ---
-# <a name="getserviceconfiguration-operation"></a><span data-ttu-id="1d4bc-104">GetServiceConfiguration 操作</span><span class="sxs-lookup"><span data-stu-id="1d4bc-104">GetServiceConfiguration operation</span></span>
+# <a name="getserviceconfiguration-operation"></a><span data-ttu-id="3d9e5-104">GetServiceConfiguration 操作</span><span class="sxs-lookup"><span data-stu-id="3d9e5-104">GetServiceConfiguration operation</span></span>
 
-<span data-ttu-id="1d4bc-105">**GetServiceConfiguration**操作获取的服务的指定类型的配置信息。</span><span class="sxs-lookup"><span data-stu-id="1d4bc-105">The **GetServiceConfiguration** operation gets configuration information for the specified type of service.</span></span> <span data-ttu-id="1d4bc-106">此操作可返回的统一消息、 保护规则和邮件提示服务配置设置。</span><span class="sxs-lookup"><span data-stu-id="1d4bc-106">This operation can return configuration settings for the Unified Messaging, Protection Rules, and Mail Tips services.</span></span> 
+<span data-ttu-id="3d9e5-105">**GetServiceConfiguration**操作获取的服务的指定类型的配置信息。</span><span class="sxs-lookup"><span data-stu-id="3d9e5-105">The **GetServiceConfiguration** operation gets configuration information for the specified type of service.</span></span> <span data-ttu-id="3d9e5-106">此操作可返回的统一消息、 保护规则和邮件提示服务配置设置。</span><span class="sxs-lookup"><span data-stu-id="3d9e5-106">This operation can return configuration settings for the Unified Messaging, Protection Rules, and Mail Tips services.</span></span> 
   
-## <a name="getserviceconfiguration-request-example"></a><span data-ttu-id="1d4bc-107">GetServiceConfiguration 请求示例</span><span class="sxs-lookup"><span data-stu-id="1d4bc-107">GetServiceConfiguration request example</span></span>
+## <a name="getserviceconfiguration-request-example"></a><span data-ttu-id="3d9e5-107">GetServiceConfiguration 请求示例</span><span class="sxs-lookup"><span data-stu-id="3d9e5-107">GetServiceConfiguration request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="1d4bc-108">说明</span><span class="sxs-lookup"><span data-stu-id="1d4bc-108">Description</span></span>
+### <a name="description"></a><span data-ttu-id="3d9e5-108">说明</span><span class="sxs-lookup"><span data-stu-id="3d9e5-108">Description</span></span>
 
-<span data-ttu-id="1d4bc-109">**GetServiceConfiguration**请求的下面的示例演示如何以形成一个请求以获取统一消息服务的配置信息。</span><span class="sxs-lookup"><span data-stu-id="1d4bc-109">The following example of a **GetServiceConfiguration** request shows how to form a request to get configuration information for the Unified Messaging service.</span></span> 
+<span data-ttu-id="3d9e5-109">**GetServiceConfiguration**请求的下面的示例演示如何以形成一个请求以获取统一消息服务的配置信息。</span><span class="sxs-lookup"><span data-stu-id="3d9e5-109">The following example of a **GetServiceConfiguration** request shows how to form a request to get configuration information for the Unified Messaging service.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="1d4bc-110">代码</span><span class="sxs-lookup"><span data-stu-id="1d4bc-110">Code</span></span>
+### <a name="code"></a><span data-ttu-id="3d9e5-110">代码</span><span class="sxs-lookup"><span data-stu-id="3d9e5-110">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -51,13 +51,13 @@ ms.locfileid: "19825667"
 </soap:Envelope>
 ```
 
-## <a name="getserviceconfiguration-response-example"></a><span data-ttu-id="1d4bc-111">GetServiceConfiguration 响应示例</span><span class="sxs-lookup"><span data-stu-id="1d4bc-111">GetServiceConfiguration response example</span></span>
+## <a name="getserviceconfiguration-response-example"></a><span data-ttu-id="3d9e5-111">GetServiceConfiguration 响应示例</span><span class="sxs-lookup"><span data-stu-id="3d9e5-111">GetServiceConfiguration response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="1d4bc-112">说明</span><span class="sxs-lookup"><span data-stu-id="1d4bc-112">Description</span></span>
+### <a name="description"></a><span data-ttu-id="3d9e5-112">说明</span><span class="sxs-lookup"><span data-stu-id="3d9e5-112">Description</span></span>
 
-<span data-ttu-id="1d4bc-113">下面的示例演示对**GetServiceConfiguration**请求成功响应。</span><span class="sxs-lookup"><span data-stu-id="1d4bc-113">The following example shows a successful response to the **GetServiceConfiguration** request.</span></span> 
+<span data-ttu-id="3d9e5-113">下面的示例演示对**GetServiceConfiguration**请求成功响应。</span><span class="sxs-lookup"><span data-stu-id="3d9e5-113">The following example shows a successful response to the **GetServiceConfiguration** request.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="1d4bc-114">代码</span><span class="sxs-lookup"><span data-stu-id="1d4bc-114">Code</span></span>
+### <a name="code"></a><span data-ttu-id="3d9e5-114">代码</span><span class="sxs-lookup"><span data-stu-id="3d9e5-114">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -93,13 +93,13 @@ ms.locfileid: "19825667"
 </s:Envelope>
 ```
 
-## <a name="getserviceconfiguration-error-response-example"></a><span data-ttu-id="1d4bc-115">GetServiceConfiguration 错误响应示例</span><span class="sxs-lookup"><span data-stu-id="1d4bc-115">GetServiceConfiguration Error response example</span></span>
+## <a name="getserviceconfiguration-error-response-example"></a><span data-ttu-id="3d9e5-115">GetServiceConfiguration 错误响应示例</span><span class="sxs-lookup"><span data-stu-id="3d9e5-115">GetServiceConfiguration Error response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="1d4bc-116">说明</span><span class="sxs-lookup"><span data-stu-id="1d4bc-116">Description</span></span>
+### <a name="description"></a><span data-ttu-id="3d9e5-116">说明</span><span class="sxs-lookup"><span data-stu-id="3d9e5-116">Description</span></span>
 
-<span data-ttu-id="1d4bc-117">下面的示例演示对**GetServiceConfiguration**请求错误响应。</span><span class="sxs-lookup"><span data-stu-id="1d4bc-117">The following example shows an error response to the **GetServiceConfiguration** request.</span></span> <span data-ttu-id="1d4bc-118">不正确配置名称导致出现此错误。</span><span class="sxs-lookup"><span data-stu-id="1d4bc-118">This error was caused by an incorrect configuration name.</span></span> 
+<span data-ttu-id="3d9e5-117">下面的示例演示对**GetServiceConfiguration**请求错误响应。</span><span class="sxs-lookup"><span data-stu-id="3d9e5-117">The following example shows an error response to the **GetServiceConfiguration** request.</span></span> <span data-ttu-id="3d9e5-118">不正确配置名称导致出现此错误。</span><span class="sxs-lookup"><span data-stu-id="3d9e5-118">This error was caused by an incorrect configuration name.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="1d4bc-119">代码</span><span class="sxs-lookup"><span data-stu-id="1d4bc-119">Code</span></span>
+### <a name="code"></a><span data-ttu-id="3d9e5-119">代码</span><span class="sxs-lookup"><span data-stu-id="3d9e5-119">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -129,11 +129,11 @@ ms.locfileid: "19825667"
 </s:Envelope>
 ```
 
-## <a name="see-also"></a><span data-ttu-id="1d4bc-120">另请参阅</span><span class="sxs-lookup"><span data-stu-id="1d4bc-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3d9e5-120">另请参阅</span><span class="sxs-lookup"><span data-stu-id="3d9e5-120">See also</span></span>
 
 
 
-[<span data-ttu-id="1d4bc-121">Exchange 中的 EWS 操作</span><span class="sxs-lookup"><span data-stu-id="1d4bc-121">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
+[<span data-ttu-id="3d9e5-121">Exchange 中的 EWS 操作</span><span class="sxs-lookup"><span data-stu-id="3d9e5-121">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
   
-- [<span data-ttu-id="1d4bc-122">在交换 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="1d4bc-122">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="3d9e5-122">在交换 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="3d9e5-122">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 
