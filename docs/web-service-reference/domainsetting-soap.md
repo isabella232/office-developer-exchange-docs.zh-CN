@@ -13,12 +13,12 @@ ms.openlocfilehash: f1c7a30ee221c5f3ca1358d0f3c3aca5c3467159
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753987"
 ---
-# <a name="domainsetting-soap"></a><span data-ttu-id="f2d79-103">DomainSetting (SOAP)</span><span class="sxs-lookup"><span data-stu-id="f2d79-103">DomainSetting (SOAP)</span></span>
+# <a name="domainsetting-soap"></a><span data-ttu-id="15a94-103">DomainSetting (SOAP)</span><span class="sxs-lookup"><span data-stu-id="15a94-103">DomainSetting (SOAP)</span></span>
 
-<span data-ttu-id="f2d79-104">**DomainSetting**元素包含由[GetDomainSettings 操作 (SOAP)](getdomainsettings-operation-soap.md)操作请求返回的域设置。</span><span class="sxs-lookup"><span data-stu-id="f2d79-104">The **DomainSetting** element contains domain settings that are returned by the [GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md) operation request.</span></span> 
+<span data-ttu-id="15a94-104">**DomainSetting**元素包含由[GetDomainSettings 操作 (SOAP)](getdomainsettings-operation-soap.md)操作请求返回的域设置。</span><span class="sxs-lookup"><span data-stu-id="15a94-104">The **DomainSetting** element contains domain settings that are returned by the [GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md) operation request.</span></span> 
   
 ```XML
 <DomainSetting>
@@ -26,41 +26,41 @@ ms.locfileid: "19753987"
 </DomainSetting>
 ```
 
- <span data-ttu-id="f2d79-105">**DomainSetting**</span><span class="sxs-lookup"><span data-stu-id="f2d79-105">**DomainSetting**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="f2d79-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="f2d79-106">Attributes and elements</span></span>
+ <span data-ttu-id="15a94-105">**DomainSetting**</span><span class="sxs-lookup"><span data-stu-id="15a94-105">**DomainSetting**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="15a94-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="15a94-106">Attributes and elements</span></span>
 
-<span data-ttu-id="f2d79-107">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="f2d79-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="15a94-107">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="15a94-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="f2d79-108">属性</span><span class="sxs-lookup"><span data-stu-id="f2d79-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="15a94-108">属性</span><span class="sxs-lookup"><span data-stu-id="15a94-108">Attributes</span></span>
 
-<span data-ttu-id="f2d79-109">无。</span><span class="sxs-lookup"><span data-stu-id="f2d79-109">None.</span></span>
+<span data-ttu-id="15a94-109">无。</span><span class="sxs-lookup"><span data-stu-id="15a94-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="f2d79-110">子元素</span><span class="sxs-lookup"><span data-stu-id="f2d79-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="15a94-110">子元素</span><span class="sxs-lookup"><span data-stu-id="15a94-110">Child elements</span></span>
 
-|<span data-ttu-id="f2d79-111">**元素**</span><span class="sxs-lookup"><span data-stu-id="f2d79-111">**Element**</span></span>|<span data-ttu-id="f2d79-112">**说明**</span><span class="sxs-lookup"><span data-stu-id="f2d79-112">**Description**</span></span>|
+|<span data-ttu-id="15a94-111">**元素**</span><span class="sxs-lookup"><span data-stu-id="15a94-111">**Element**</span></span>|<span data-ttu-id="15a94-112">**说明**</span><span class="sxs-lookup"><span data-stu-id="15a94-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="f2d79-113">名称 (SOAP)</span><span class="sxs-lookup"><span data-stu-id="f2d79-113">Name (SOAP)</span></span>](name-soap.md) <br/> |<span data-ttu-id="f2d79-114">代表设置的名称。</span><span class="sxs-lookup"><span data-stu-id="f2d79-114">Represents the name of a setting.</span></span>  <br/> |
+|[<span data-ttu-id="15a94-113">名称 (SOAP)</span><span class="sxs-lookup"><span data-stu-id="15a94-113">Name (SOAP)</span></span>](name-soap.md) <br/> |<span data-ttu-id="15a94-114">代表设置的名称。</span><span class="sxs-lookup"><span data-stu-id="15a94-114">Represents the name of a setting.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="f2d79-115">父元素</span><span class="sxs-lookup"><span data-stu-id="f2d79-115">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="15a94-115">父元素</span><span class="sxs-lookup"><span data-stu-id="15a94-115">Parent elements</span></span>
 
-|<span data-ttu-id="f2d79-116">**元素**</span><span class="sxs-lookup"><span data-stu-id="f2d79-116">**Element**</span></span>|<span data-ttu-id="f2d79-117">**说明**</span><span class="sxs-lookup"><span data-stu-id="f2d79-117">**Description**</span></span>|
+|<span data-ttu-id="15a94-116">**元素**</span><span class="sxs-lookup"><span data-stu-id="15a94-116">**Element**</span></span>|<span data-ttu-id="15a94-117">**说明**</span><span class="sxs-lookup"><span data-stu-id="15a94-117">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="f2d79-118">DomainSettings (SOAP)</span><span class="sxs-lookup"><span data-stu-id="f2d79-118">DomainSettings (SOAP)</span></span>](domainsettings-soap.md) <br/> |<span data-ttu-id="f2d79-119">表示已提交的自动发现请求中或由自动发现响应返回的域设置。</span><span class="sxs-lookup"><span data-stu-id="f2d79-119">Represents the domain settings that were submitted in an Autodiscover request or returned by an Autodiscover response.</span></span>  <br/> |
+|[<span data-ttu-id="15a94-118">DomainSettings (SOAP)</span><span class="sxs-lookup"><span data-stu-id="15a94-118">DomainSettings (SOAP)</span></span>](domainsettings-soap.md) <br/> |<span data-ttu-id="15a94-119">表示已提交的自动发现请求中或由自动发现响应返回的域设置。</span><span class="sxs-lookup"><span data-stu-id="15a94-119">Represents the domain settings that were submitted in an Autodiscover request or returned by an Autodiscover response.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="f2d79-120">文本值</span><span class="sxs-lookup"><span data-stu-id="f2d79-120">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="15a94-120">文本值</span><span class="sxs-lookup"><span data-stu-id="15a94-120">Text value</span></span>
 
-<span data-ttu-id="f2d79-121">无。</span><span class="sxs-lookup"><span data-stu-id="f2d79-121">None.</span></span>
+<span data-ttu-id="15a94-121">无。</span><span class="sxs-lookup"><span data-stu-id="15a94-121">None.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="f2d79-122">元素信息</span><span class="sxs-lookup"><span data-stu-id="f2d79-122">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="15a94-122">元素信息</span><span class="sxs-lookup"><span data-stu-id="15a94-122">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="f2d79-123">命名空间</span><span class="sxs-lookup"><span data-stu-id="f2d79-123">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|<span data-ttu-id="f2d79-124">架构名称</span><span class="sxs-lookup"><span data-stu-id="f2d79-124">Schema Name</span></span>  <br/> |<span data-ttu-id="f2d79-125">自动发现架构</span><span class="sxs-lookup"><span data-stu-id="f2d79-125">Autodiscover schema</span></span>  <br/> |
-|<span data-ttu-id="f2d79-126">验证文件</span><span class="sxs-lookup"><span data-stu-id="f2d79-126">Validation File</span></span>  <br/> |<span data-ttu-id="f2d79-127">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="f2d79-127">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="f2d79-128">可以为空</span><span class="sxs-lookup"><span data-stu-id="f2d79-128">Can be Empty</span></span>  <br/> |<span data-ttu-id="f2d79-129">True</span><span class="sxs-lookup"><span data-stu-id="f2d79-129">True</span></span>  <br/> |
+|<span data-ttu-id="15a94-123">命名空间</span><span class="sxs-lookup"><span data-stu-id="15a94-123">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|<span data-ttu-id="15a94-124">架构名称</span><span class="sxs-lookup"><span data-stu-id="15a94-124">Schema Name</span></span>  <br/> |<span data-ttu-id="15a94-125">自动发现架构</span><span class="sxs-lookup"><span data-stu-id="15a94-125">Autodiscover schema</span></span>  <br/> |
+|<span data-ttu-id="15a94-126">验证文件</span><span class="sxs-lookup"><span data-stu-id="15a94-126">Validation File</span></span>  <br/> |<span data-ttu-id="15a94-127">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="15a94-127">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="15a94-128">可以为空</span><span class="sxs-lookup"><span data-stu-id="15a94-128">Can be Empty</span></span>  <br/> |<span data-ttu-id="15a94-129">True</span><span class="sxs-lookup"><span data-stu-id="15a94-129">True</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="f2d79-130">另请参阅</span><span class="sxs-lookup"><span data-stu-id="f2d79-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="15a94-130">另请参阅</span><span class="sxs-lookup"><span data-stu-id="15a94-130">See also</span></span>
 
-- [<span data-ttu-id="f2d79-131">GetDomainSettings 操作 (SOAP)</span><span class="sxs-lookup"><span data-stu-id="f2d79-131">GetDomainSettings operation (SOAP)</span></span>](getdomainsettings-operation-soap.md)
+- [<span data-ttu-id="15a94-131">GetDomainSettings 操作 (SOAP)</span><span class="sxs-lookup"><span data-stu-id="15a94-131">GetDomainSettings operation (SOAP)</span></span>](getdomainsettings-operation-soap.md)
 

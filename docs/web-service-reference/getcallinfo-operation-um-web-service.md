@@ -15,20 +15,20 @@ ms.openlocfilehash: 36f9cba3690520ebb457a4cb2bfbcde3fea4b8dc
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754475"
 ---
-# <a name="getcallinfo-operation-um-web-service"></a><span data-ttu-id="6bd2b-103">GetCallInfo 操作 （UM web 服务）</span><span class="sxs-lookup"><span data-stu-id="6bd2b-103">GetCallInfo operation (UM web service)</span></span>
+# <a name="getcallinfo-operation-um-web-service"></a><span data-ttu-id="92307-103">GetCallInfo 操作 （UM web 服务）</span><span class="sxs-lookup"><span data-stu-id="92307-103">GetCallInfo operation (UM web service)</span></span>
 
-<span data-ttu-id="6bd2b-104">GetCallInfo 操作返回由[CallId （UM web 服务）](callid-um-web-service.md)指定的出站呼叫的状态。</span><span class="sxs-lookup"><span data-stu-id="6bd2b-104">The GetCallInfo operation returns the status of the outbound call that is specified by [CallId (UM web service)](callid-um-web-service.md).</span></span>
+<span data-ttu-id="92307-104">GetCallInfo 操作返回由[CallId （UM web 服务）](callid-um-web-service.md)指定的出站呼叫的状态。</span><span class="sxs-lookup"><span data-stu-id="92307-104">The GetCallInfo operation returns the status of the outbound call that is specified by [CallId (UM web service)](callid-um-web-service.md).</span></span>
   
-## <a name="getcallinfo-request-example"></a><span data-ttu-id="6bd2b-105">GetCallInfo 请求示例</span><span class="sxs-lookup"><span data-stu-id="6bd2b-105">GetCallInfo request example</span></span>
+## <a name="getcallinfo-request-example"></a><span data-ttu-id="92307-105">GetCallInfo 请求示例</span><span class="sxs-lookup"><span data-stu-id="92307-105">GetCallInfo request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="6bd2b-106">说明</span><span class="sxs-lookup"><span data-stu-id="6bd2b-106">Description</span></span>
+### <a name="description"></a><span data-ttu-id="92307-106">说明</span><span class="sxs-lookup"><span data-stu-id="92307-106">Description</span></span>
 
-<span data-ttu-id="6bd2b-107">GetCallInfo 请求的下面的示例演示如何以形成一个请求以获取有关指定的出站呼叫的信息。</span><span class="sxs-lookup"><span data-stu-id="6bd2b-107">The following example of a GetCallInfo request shows how to form a request to get information about a specified outbound call.</span></span>
+<span data-ttu-id="92307-107">GetCallInfo 请求的下面的示例演示如何以形成一个请求以获取有关指定的出站呼叫的信息。</span><span class="sxs-lookup"><span data-stu-id="92307-107">The following example of a GetCallInfo request shows how to form a request to get information about a specified outbound call.</span></span>
   
-### <a name="code"></a><span data-ttu-id="6bd2b-108">代码</span><span class="sxs-lookup"><span data-stu-id="6bd2b-108">Code</span></span>
+### <a name="code"></a><span data-ttu-id="92307-108">代码</span><span class="sxs-lookup"><span data-stu-id="92307-108">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -41,13 +41,13 @@ ms.locfileid: "19754475"
 </soap:Envelope>
 ```
 
-## <a name="successful-getcallinfo-response-example"></a><span data-ttu-id="6bd2b-109">成功 GetCallInfo 响应示例</span><span class="sxs-lookup"><span data-stu-id="6bd2b-109">Successful GetCallInfo response example</span></span>
+## <a name="successful-getcallinfo-response-example"></a><span data-ttu-id="92307-109">成功 GetCallInfo 响应示例</span><span class="sxs-lookup"><span data-stu-id="92307-109">Successful GetCallInfo response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="6bd2b-110">说明</span><span class="sxs-lookup"><span data-stu-id="6bd2b-110">Description</span></span>
+### <a name="description"></a><span data-ttu-id="92307-110">说明</span><span class="sxs-lookup"><span data-stu-id="92307-110">Description</span></span>
 
-<span data-ttu-id="6bd2b-111">GetCallInfo 响应的下面的示例演示 GetCallInfo 请求的响应。</span><span class="sxs-lookup"><span data-stu-id="6bd2b-111">The following example of a GetCallInfo response shows a response to a GetCallInfo request.</span></span>
+<span data-ttu-id="92307-111">GetCallInfo 响应的下面的示例演示 GetCallInfo 请求的响应。</span><span class="sxs-lookup"><span data-stu-id="92307-111">The following example of a GetCallInfo response shows a response to a GetCallInfo request.</span></span>
   
-### <a name="code"></a><span data-ttu-id="6bd2b-112">代码</span><span class="sxs-lookup"><span data-stu-id="6bd2b-112">Code</span></span>
+### <a name="code"></a><span data-ttu-id="92307-112">代码</span><span class="sxs-lookup"><span data-stu-id="92307-112">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?> 
@@ -63,17 +63,17 @@ ms.locfileid: "19754475"
 </soap:Envelope>
 ```
 
-## <a name="see-also"></a><span data-ttu-id="6bd2b-113">另请参阅</span><span class="sxs-lookup"><span data-stu-id="6bd2b-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="92307-113">另请参阅</span><span class="sxs-lookup"><span data-stu-id="92307-113">See also</span></span>
 
 
 
-[<span data-ttu-id="6bd2b-114">GetCallInfo （UM web 服务）</span><span class="sxs-lookup"><span data-stu-id="6bd2b-114">GetCallInfo (UM web service)</span></span>](getcallinfo-um-web-service.md)
+[<span data-ttu-id="92307-114">GetCallInfo （UM web 服务）</span><span class="sxs-lookup"><span data-stu-id="92307-114">GetCallInfo (UM web service)</span></span>](getcallinfo-um-web-service.md)
   
-[<span data-ttu-id="6bd2b-115">GetCallInfoResponse （UM web 服务）</span><span class="sxs-lookup"><span data-stu-id="6bd2b-115">GetCallInfoResponse (UM web service)</span></span>](getcallinforesponse-um-web-service.md)
+[<span data-ttu-id="92307-115">GetCallInfoResponse （UM web 服务）</span><span class="sxs-lookup"><span data-stu-id="92307-115">GetCallInfoResponse (UM web service)</span></span>](getcallinforesponse-um-web-service.md)
   
-[<span data-ttu-id="6bd2b-116">CallId （UM web 服务）</span><span class="sxs-lookup"><span data-stu-id="6bd2b-116">CallId (UM web service)</span></span>](callid-um-web-service.md)
+[<span data-ttu-id="92307-116">CallId （UM web 服务）</span><span class="sxs-lookup"><span data-stu-id="92307-116">CallId (UM web service)</span></span>](callid-um-web-service.md)
   
-[<span data-ttu-id="6bd2b-117">CallState （UM web 服务）</span><span class="sxs-lookup"><span data-stu-id="6bd2b-117">CallState (UM web service)</span></span>](callstate-um-web-service.md)
+[<span data-ttu-id="92307-117">CallState （UM web 服务）</span><span class="sxs-lookup"><span data-stu-id="92307-117">CallState (UM web service)</span></span>](callstate-um-web-service.md)
   
-[<span data-ttu-id="6bd2b-118">EventCause （UM web 服务）</span><span class="sxs-lookup"><span data-stu-id="6bd2b-118">EventCause (UM web service)</span></span>](eventcause-um-web-service.md)
+[<span data-ttu-id="92307-118">EventCause （UM web 服务）</span><span class="sxs-lookup"><span data-stu-id="92307-118">EventCause (UM web service)</span></span>](eventcause-um-web-service.md)
 

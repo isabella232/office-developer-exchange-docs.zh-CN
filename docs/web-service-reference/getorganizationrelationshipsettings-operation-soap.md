@@ -11,11 +11,11 @@ ms.openlocfilehash: 7bd716822b33698c7055058f39af44d05ba4700b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754628"
 ---
-# <a name="getorganizationrelationshipsettings-operation-soap"></a><span data-ttu-id="a865d-105">GetOrganizationRelationshipSettings 操作 (SOAP)</span><span class="sxs-lookup"><span data-stu-id="a865d-105">GetOrganizationRelationshipSettings operation (SOAP)</span></span>
+# <a name="getorganizationrelationshipsettings-operation-soap"></a><span data-ttu-id="44a5e-105">GetOrganizationRelationshipSettings 操作 (SOAP)</span><span class="sxs-lookup"><span data-stu-id="44a5e-105">GetOrganizationRelationshipSettings operation (SOAP)</span></span>
 
-<span data-ttu-id="a865d-106">**GetOrganizationRelationshipSetting**操作从具有映射以至少一个**电子邮件地址**为声明中的**DomainNames**属性中的至少一个域的所有匹配 OrganizationRelationships 检索的设置令牌。</span><span class="sxs-lookup"><span data-stu-id="a865d-106">The **GetOrganizationRelationshipSetting** operation retrieves the settings from all matching OrganizationRelationships that have at least one domain in the **DomainNames** property that maps to at least to one **EmailAddress** claim in the token.</span></span> <span data-ttu-id="a865d-107">**GetOrganizationRelationshipSetting**操作是仅供内部使用。</span><span class="sxs-lookup"><span data-stu-id="a865d-107">The **GetOrganizationRelationshipSetting** operation is for internal use only.</span></span> <span data-ttu-id="a865d-108">客户端不使用此操作。</span><span class="sxs-lookup"><span data-stu-id="a865d-108">This operation is not used by clients.</span></span> 
+<span data-ttu-id="44a5e-106">**GetOrganizationRelationshipSetting**操作从具有映射以至少一个**电子邮件地址**为声明中的**DomainNames**属性中的至少一个域的所有匹配 OrganizationRelationships 检索的设置令牌。</span><span class="sxs-lookup"><span data-stu-id="44a5e-106">The **GetOrganizationRelationshipSetting** operation retrieves the settings from all matching OrganizationRelationships that have at least one domain in the **DomainNames** property that maps to at least to one **EmailAddress** claim in the token.</span></span> <span data-ttu-id="44a5e-107">**GetOrganizationRelationshipSetting**操作是仅供内部使用。</span><span class="sxs-lookup"><span data-stu-id="44a5e-107">The **GetOrganizationRelationshipSetting** operation is for internal use only.</span></span> <span data-ttu-id="44a5e-108">客户端不使用此操作。</span><span class="sxs-lookup"><span data-stu-id="44a5e-108">This operation is not used by clients.</span></span> 
   
 

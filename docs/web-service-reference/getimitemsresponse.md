@@ -12,12 +12,12 @@ ms.openlocfilehash: d1a4684504e8b88222615962816da3df761579c5
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754580"
 ---
-# <a name="getimitemsresponse"></a><span data-ttu-id="4d8dc-103">GetImItemsResponse</span><span class="sxs-lookup"><span data-stu-id="4d8dc-103">GetImItemsResponse</span></span>
+# <a name="getimitemsresponse"></a><span data-ttu-id="5a292-103">GetImItemsResponse</span><span class="sxs-lookup"><span data-stu-id="5a292-103">GetImItemsResponse</span></span>
 
-<span data-ttu-id="4d8dc-104">**GetImItemsResponse**元素定义**GetImItems**请求的响应。</span><span class="sxs-lookup"><span data-stu-id="4d8dc-104">The **GetImItemsResponse** element defines a response to a **GetImItems** request.</span></span> 
+<span data-ttu-id="5a292-104">**GetImItemsResponse**元素定义**GetImItems**请求的响应。</span><span class="sxs-lookup"><span data-stu-id="5a292-104">The **GetImItemsResponse** element defines a response to a **GetImItems** request.</span></span> 
   
 ```XML
 <GetImItemsResponse>
@@ -29,36 +29,36 @@ ms.locfileid: "19754580"
 </GetImItemsResponse>
 ```
 
- <span data-ttu-id="4d8dc-105">**GetImItemsResponseMessageType**</span><span class="sxs-lookup"><span data-stu-id="4d8dc-105">**GetImItemsResponseMessageType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="4d8dc-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="4d8dc-106">Attributes and elements</span></span>
+ <span data-ttu-id="5a292-105">**GetImItemsResponseMessageType**</span><span class="sxs-lookup"><span data-stu-id="5a292-105">**GetImItemsResponseMessageType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="5a292-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="5a292-106">Attributes and elements</span></span>
 
-<span data-ttu-id="4d8dc-107">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="4d8dc-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="5a292-107">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="5a292-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="4d8dc-108">属性</span><span class="sxs-lookup"><span data-stu-id="4d8dc-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="5a292-108">属性</span><span class="sxs-lookup"><span data-stu-id="5a292-108">Attributes</span></span>
 
-<span data-ttu-id="4d8dc-109">无。</span><span class="sxs-lookup"><span data-stu-id="4d8dc-109">None.</span></span>
+<span data-ttu-id="5a292-109">无。</span><span class="sxs-lookup"><span data-stu-id="5a292-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="4d8dc-110">子元素</span><span class="sxs-lookup"><span data-stu-id="4d8dc-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="5a292-110">子元素</span><span class="sxs-lookup"><span data-stu-id="5a292-110">Child elements</span></span>
 
-<span data-ttu-id="4d8dc-111">[MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md) | [ImItemList](imitemlist.md)</span><span class="sxs-lookup"><span data-stu-id="4d8dc-111">[MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md) | [ImItemList](imitemlist.md)</span></span>
+<span data-ttu-id="5a292-111">[MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md) | [ImItemList](imitemlist.md)</span><span class="sxs-lookup"><span data-stu-id="5a292-111">[MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md) | [ImItemList](imitemlist.md)</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="4d8dc-112">父元素</span><span class="sxs-lookup"><span data-stu-id="4d8dc-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="5a292-112">父元素</span><span class="sxs-lookup"><span data-stu-id="5a292-112">Parent elements</span></span>
 
-<span data-ttu-id="4d8dc-113">无。</span><span class="sxs-lookup"><span data-stu-id="4d8dc-113">None.</span></span>
+<span data-ttu-id="5a292-113">无。</span><span class="sxs-lookup"><span data-stu-id="5a292-113">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="4d8dc-114">备注</span><span class="sxs-lookup"><span data-stu-id="4d8dc-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5a292-114">备注</span><span class="sxs-lookup"><span data-stu-id="5a292-114">Remarks</span></span>
 
-<span data-ttu-id="4d8dc-115">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="4d8dc-115">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="5a292-115">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="5a292-115">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="4d8dc-116">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="4d8dc-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="5a292-116">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="5a292-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="4d8dc-117">元素信息</span><span class="sxs-lookup"><span data-stu-id="4d8dc-117">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="5a292-117">元素信息</span><span class="sxs-lookup"><span data-stu-id="5a292-117">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="4d8dc-118">命名空间</span><span class="sxs-lookup"><span data-stu-id="4d8dc-118">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="4d8dc-119">架构名称</span><span class="sxs-lookup"><span data-stu-id="4d8dc-119">Schema name</span></span>  <br/> |<span data-ttu-id="4d8dc-120">消息架构</span><span class="sxs-lookup"><span data-stu-id="4d8dc-120">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="4d8dc-121">验证文件</span><span class="sxs-lookup"><span data-stu-id="4d8dc-121">Validation file</span></span>  <br/> |<span data-ttu-id="4d8dc-122">messages.xsd</span><span class="sxs-lookup"><span data-stu-id="4d8dc-122">messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="4d8dc-123">可以为空</span><span class="sxs-lookup"><span data-stu-id="4d8dc-123">Can be empty</span></span>  <br/> ||
+|<span data-ttu-id="5a292-118">命名空间</span><span class="sxs-lookup"><span data-stu-id="5a292-118">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="5a292-119">架构名称</span><span class="sxs-lookup"><span data-stu-id="5a292-119">Schema name</span></span>  <br/> |<span data-ttu-id="5a292-120">消息架构</span><span class="sxs-lookup"><span data-stu-id="5a292-120">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="5a292-121">验证文件</span><span class="sxs-lookup"><span data-stu-id="5a292-121">Validation file</span></span>  <br/> |<span data-ttu-id="5a292-122">messages.xsd</span><span class="sxs-lookup"><span data-stu-id="5a292-122">messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="5a292-123">可以为空</span><span class="sxs-lookup"><span data-stu-id="5a292-123">Can be empty</span></span>  <br/> ||
    
 

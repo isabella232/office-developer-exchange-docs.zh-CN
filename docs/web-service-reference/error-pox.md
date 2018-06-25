@@ -13,20 +13,20 @@ ms.openlocfilehash: 3135a352365fe3000ce2d202ad78452d5c8ccc7f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754144"
 ---
-# <a name="error-pox"></a><span data-ttu-id="0d7e2-103">错误 (POX)</span><span class="sxs-lookup"><span data-stu-id="0d7e2-103">Error (POX)</span></span>
+# <a name="error-pox"></a><span data-ttu-id="aff37-103">错误 (POX)</span><span class="sxs-lookup"><span data-stu-id="aff37-103">Error (POX)</span></span>
 
-<span data-ttu-id="0d7e2-104">**Error**元素包含自动发现错误响应。</span><span class="sxs-lookup"><span data-stu-id="0d7e2-104">The **Error** element contains an Autodiscover error response.</span></span> 
+<span data-ttu-id="aff37-104">**Error**元素包含自动发现错误响应。</span><span class="sxs-lookup"><span data-stu-id="aff37-104">The **Error** element contains an Autodiscover error response.</span></span> 
   
-[<span data-ttu-id="0d7e2-105">自动发现 (POX)</span><span class="sxs-lookup"><span data-stu-id="0d7e2-105">AutoDiscover (POX)</span></span>](autodiscover-pox.md)
+[<span data-ttu-id="aff37-105">自动发现 (POX)</span><span class="sxs-lookup"><span data-stu-id="aff37-105">AutoDiscover (POX)</span></span>](autodiscover-pox.md)
   
-[<span data-ttu-id="0d7e2-106">响应 (POX)</span><span class="sxs-lookup"><span data-stu-id="0d7e2-106">Response (POX)</span></span>](response-pox.md)
+[<span data-ttu-id="aff37-106">响应 (POX)</span><span class="sxs-lookup"><span data-stu-id="aff37-106">Response (POX)</span></span>](response-pox.md)
   
-[<span data-ttu-id="0d7e2-107">帐户 (POX)</span><span class="sxs-lookup"><span data-stu-id="0d7e2-107">Account (POX)</span></span>](account-pox.md)
+[<span data-ttu-id="aff37-107">帐户 (POX)</span><span class="sxs-lookup"><span data-stu-id="aff37-107">Account (POX)</span></span>](account-pox.md)
   
-[<span data-ttu-id="0d7e2-108">错误 (POX)</span><span class="sxs-lookup"><span data-stu-id="0d7e2-108">Error (POX)</span></span>](error-pox.md)
+[<span data-ttu-id="aff37-108">错误 (POX)</span><span class="sxs-lookup"><span data-stu-id="aff37-108">Error (POX)</span></span>](error-pox.md)
   
 ```xml
 <Error Time="" Id="">
@@ -36,34 +36,34 @@ ms.locfileid: "19754144"
 </Error>
 ```
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="0d7e2-109">属性和元素</span><span class="sxs-lookup"><span data-stu-id="0d7e2-109">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="aff37-109">属性和元素</span><span class="sxs-lookup"><span data-stu-id="aff37-109">Attributes and elements</span></span>
 
-<span data-ttu-id="0d7e2-110">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="0d7e2-110">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="aff37-110">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="aff37-110">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="0d7e2-111">属性</span><span class="sxs-lookup"><span data-stu-id="0d7e2-111">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="aff37-111">属性</span><span class="sxs-lookup"><span data-stu-id="aff37-111">Attributes</span></span>
 
-|<span data-ttu-id="0d7e2-112">**属性**</span><span class="sxs-lookup"><span data-stu-id="0d7e2-112">**Attribute**</span></span>|<span data-ttu-id="0d7e2-113">**说明**</span><span class="sxs-lookup"><span data-stu-id="0d7e2-113">**Description**</span></span>|
+|<span data-ttu-id="aff37-112">**属性**</span><span class="sxs-lookup"><span data-stu-id="aff37-112">**Attribute**</span></span>|<span data-ttu-id="aff37-113">**说明**</span><span class="sxs-lookup"><span data-stu-id="aff37-113">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="0d7e2-114">时间</span><span class="sxs-lookup"><span data-stu-id="0d7e2-114">Time</span></span>  <br/> |<span data-ttu-id="0d7e2-115">表示时返回的错误响应时间。</span><span class="sxs-lookup"><span data-stu-id="0d7e2-115">Represents the time when the error response was returned.</span></span>  <br/> |
-|<span data-ttu-id="0d7e2-116">Id</span><span class="sxs-lookup"><span data-stu-id="0d7e2-116">Id</span></span>  <br/> |<span data-ttu-id="0d7e2-117">代表为运行 Microsoft Exchange Server 2007 的安装了客户端访问服务器角色的计算机的名称的哈希值。</span><span class="sxs-lookup"><span data-stu-id="0d7e2-117">Represents a hash of the name of the computer that is running Microsoft Exchange Server 2007 that has the Client Access server role installed.</span></span>  <br/> |
+|<span data-ttu-id="aff37-114">时间</span><span class="sxs-lookup"><span data-stu-id="aff37-114">Time</span></span>  <br/> |<span data-ttu-id="aff37-115">表示时返回的错误响应时间。</span><span class="sxs-lookup"><span data-stu-id="aff37-115">Represents the time when the error response was returned.</span></span>  <br/> |
+|<span data-ttu-id="aff37-116">Id</span><span class="sxs-lookup"><span data-stu-id="aff37-116">Id</span></span>  <br/> |<span data-ttu-id="aff37-117">代表为运行 Microsoft Exchange Server 2007 的安装了客户端访问服务器角色的计算机的名称的哈希值。</span><span class="sxs-lookup"><span data-stu-id="aff37-117">Represents a hash of the name of the computer that is running Microsoft Exchange Server 2007 that has the Client Access server role installed.</span></span>  <br/> |
    
-### <a name="child-elements"></a><span data-ttu-id="0d7e2-118">子元素</span><span class="sxs-lookup"><span data-stu-id="0d7e2-118">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="aff37-118">子元素</span><span class="sxs-lookup"><span data-stu-id="aff37-118">Child elements</span></span>
 
-|<span data-ttu-id="0d7e2-119">**元素**</span><span class="sxs-lookup"><span data-stu-id="0d7e2-119">**Element**</span></span>|<span data-ttu-id="0d7e2-120">**说明**</span><span class="sxs-lookup"><span data-stu-id="0d7e2-120">**Description**</span></span>|
+|<span data-ttu-id="aff37-119">**元素**</span><span class="sxs-lookup"><span data-stu-id="aff37-119">**Element**</span></span>|<span data-ttu-id="aff37-120">**说明**</span><span class="sxs-lookup"><span data-stu-id="aff37-120">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="0d7e2-121">ErrorCode (POX)</span><span class="sxs-lookup"><span data-stu-id="0d7e2-121">ErrorCode (POX)</span></span>](errorcode-pox.md) <br/> |<span data-ttu-id="0d7e2-122">包含自动发现响应的错误的错误代码。</span><span class="sxs-lookup"><span data-stu-id="0d7e2-122">Contains the error code for an error Autodiscover response.</span></span>  <br/> |
-|[<span data-ttu-id="0d7e2-123">消息 (POX)</span><span class="sxs-lookup"><span data-stu-id="0d7e2-123">Message (POX)</span></span>](message-pox.md) <br/> |<span data-ttu-id="0d7e2-124">包含错误自动发现响应的错误消息。</span><span class="sxs-lookup"><span data-stu-id="0d7e2-124">Contains the error message for an error Autodiscover response.</span></span>  <br/> |
-|[<span data-ttu-id="0d7e2-125">DebugData (POX)</span><span class="sxs-lookup"><span data-stu-id="0d7e2-125">DebugData (POX)</span></span>](debugdata-pox.md) <br/> |<span data-ttu-id="0d7e2-126">包含错误自动发现响应的调试数据。</span><span class="sxs-lookup"><span data-stu-id="0d7e2-126">Contains the debug data for an error Autodiscover response.</span></span>  <br/> |
+|[<span data-ttu-id="aff37-121">ErrorCode (POX)</span><span class="sxs-lookup"><span data-stu-id="aff37-121">ErrorCode (POX)</span></span>](errorcode-pox.md) <br/> |<span data-ttu-id="aff37-122">包含自动发现响应的错误的错误代码。</span><span class="sxs-lookup"><span data-stu-id="aff37-122">Contains the error code for an error Autodiscover response.</span></span>  <br/> |
+|[<span data-ttu-id="aff37-123">消息 (POX)</span><span class="sxs-lookup"><span data-stu-id="aff37-123">Message (POX)</span></span>](message-pox.md) <br/> |<span data-ttu-id="aff37-124">包含错误自动发现响应的错误消息。</span><span class="sxs-lookup"><span data-stu-id="aff37-124">Contains the error message for an error Autodiscover response.</span></span>  <br/> |
+|[<span data-ttu-id="aff37-125">DebugData (POX)</span><span class="sxs-lookup"><span data-stu-id="aff37-125">DebugData (POX)</span></span>](debugdata-pox.md) <br/> |<span data-ttu-id="aff37-126">包含错误自动发现响应的调试数据。</span><span class="sxs-lookup"><span data-stu-id="aff37-126">Contains the debug data for an error Autodiscover response.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="0d7e2-127">父元素</span><span class="sxs-lookup"><span data-stu-id="0d7e2-127">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="aff37-127">父元素</span><span class="sxs-lookup"><span data-stu-id="aff37-127">Parent elements</span></span>
 
-|<span data-ttu-id="0d7e2-128">**元素**</span><span class="sxs-lookup"><span data-stu-id="0d7e2-128">**Element**</span></span>|<span data-ttu-id="0d7e2-129">**说明**</span><span class="sxs-lookup"><span data-stu-id="0d7e2-129">**Description**</span></span>|
+|<span data-ttu-id="aff37-128">**元素**</span><span class="sxs-lookup"><span data-stu-id="aff37-128">**Element**</span></span>|<span data-ttu-id="aff37-129">**说明**</span><span class="sxs-lookup"><span data-stu-id="aff37-129">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="0d7e2-130">帐户 (POX)</span><span class="sxs-lookup"><span data-stu-id="0d7e2-130">Account (POX)</span></span>](account-pox.md) <br/> |<span data-ttu-id="0d7e2-131">包含自动发现错误响应。</span><span class="sxs-lookup"><span data-stu-id="0d7e2-131">Contains an Autodiscover error response.</span></span>  <br/> |
+|[<span data-ttu-id="aff37-130">帐户 (POX)</span><span class="sxs-lookup"><span data-stu-id="aff37-130">Account (POX)</span></span>](account-pox.md) <br/> |<span data-ttu-id="aff37-131">包含自动发现错误响应。</span><span class="sxs-lookup"><span data-stu-id="aff37-131">Contains an Autodiscover error response.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="0d7e2-132">另请参阅</span><span class="sxs-lookup"><span data-stu-id="0d7e2-132">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="aff37-132">另请参阅</span><span class="sxs-lookup"><span data-stu-id="aff37-132">See also</span></span>
 
 
 
-[<span data-ttu-id="0d7e2-133">Exchange POX 自动发现 XML 元素</span><span class="sxs-lookup"><span data-stu-id="0d7e2-133">POX Autodiscover XML elements for Exchange</span></span>](pox-autodiscover-xml-elements-for-exchange.md)
+[<span data-ttu-id="aff37-133">Exchange POX 自动发现 XML 元素</span><span class="sxs-lookup"><span data-stu-id="aff37-133">POX Autodiscover XML elements for Exchange</span></span>](pox-autodiscover-xml-elements-for-exchange.md)
 

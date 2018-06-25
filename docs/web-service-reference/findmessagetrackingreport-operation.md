@@ -16,16 +16,16 @@ ms.openlocfilehash: 103655b1c190f43bd11cfd3bfeabc22422d726a1
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754353"
 ---
-# <a name="findmessagetrackingreport-operation"></a><span data-ttu-id="4671e-103">FindMessageTrackingReport 操作</span><span class="sxs-lookup"><span data-stu-id="4671e-103">FindMessageTrackingReport operation</span></span>
+# <a name="findmessagetrackingreport-operation"></a><span data-ttu-id="f47e1-103">FindMessageTrackingReport 操作</span><span class="sxs-lookup"><span data-stu-id="f47e1-103">FindMessageTrackingReport operation</span></span>
 
-<span data-ttu-id="4671e-104">**FindMessageTrackingReport**操作查找符合指定的条件的邮件。</span><span class="sxs-lookup"><span data-stu-id="4671e-104">The **FindMessageTrackingReport** operation finds messages that meet the specified criteria.</span></span> 
+<span data-ttu-id="f47e1-104">**FindMessageTrackingReport**操作查找符合指定的条件的邮件。</span><span class="sxs-lookup"><span data-stu-id="f47e1-104">The **FindMessageTrackingReport** operation finds messages that meet the specified criteria.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="4671e-105">另请参阅</span><span class="sxs-lookup"><span data-stu-id="4671e-105">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f47e1-105">另请参阅</span><span class="sxs-lookup"><span data-stu-id="f47e1-105">See also</span></span>
 
-- [<span data-ttu-id="4671e-106">Exchange 中的 EWS 操作</span><span class="sxs-lookup"><span data-stu-id="4671e-106">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
+- [<span data-ttu-id="f47e1-106">Exchange 中的 EWS 操作</span><span class="sxs-lookup"><span data-stu-id="f47e1-106">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
   
-- [<span data-ttu-id="4671e-107">在交换 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="4671e-107">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="f47e1-107">在交换 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="f47e1-107">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 
