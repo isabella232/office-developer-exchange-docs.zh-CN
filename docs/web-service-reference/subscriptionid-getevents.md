@@ -16,65 +16,65 @@ ms.openlocfilehash: 8867b7da7c75cfd9d41f708c0481627d5186cc14
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827622"
 ---
-# <a name="subscriptionid-getevents"></a><span data-ttu-id="e2b09-103">SubscriptionId (GetEvents)</span><span class="sxs-lookup"><span data-stu-id="e2b09-103">SubscriptionId (GetEvents)</span></span>
+# <a name="subscriptionid-getevents"></a><span data-ttu-id="95152-103">SubscriptionId (GetEvents)</span><span class="sxs-lookup"><span data-stu-id="95152-103">SubscriptionId (GetEvents)</span></span>
 
-<span data-ttu-id="e2b09-104">**SubscriptionId**元素表示订阅的标识符。</span><span class="sxs-lookup"><span data-stu-id="e2b09-104">The **SubscriptionId** element represents the identifier for a subscription.</span></span> 
+<span data-ttu-id="95152-104">**SubscriptionId**元素表示订阅的标识符。</span><span class="sxs-lookup"><span data-stu-id="95152-104">The **SubscriptionId** element represents the identifier for a subscription.</span></span> 
   
 ```xml
 <SubscriptionId/>
 ```
 
- <span data-ttu-id="e2b09-105">**SubscriptionIdType**</span><span class="sxs-lookup"><span data-stu-id="e2b09-105">**SubscriptionIdType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="e2b09-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="e2b09-106">Attributes and elements</span></span>
+ <span data-ttu-id="95152-105">**SubscriptionIdType**</span><span class="sxs-lookup"><span data-stu-id="95152-105">**SubscriptionIdType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="95152-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="95152-106">Attributes and elements</span></span>
 
-<span data-ttu-id="e2b09-107">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="e2b09-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="95152-107">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="95152-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="e2b09-108">属性</span><span class="sxs-lookup"><span data-stu-id="e2b09-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="95152-108">属性</span><span class="sxs-lookup"><span data-stu-id="95152-108">Attributes</span></span>
 
-<span data-ttu-id="e2b09-109">无。</span><span class="sxs-lookup"><span data-stu-id="e2b09-109">None.</span></span>
+<span data-ttu-id="95152-109">无。</span><span class="sxs-lookup"><span data-stu-id="95152-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="e2b09-110">子元素</span><span class="sxs-lookup"><span data-stu-id="e2b09-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="95152-110">子元素</span><span class="sxs-lookup"><span data-stu-id="95152-110">Child elements</span></span>
 
-<span data-ttu-id="e2b09-111">无。</span><span class="sxs-lookup"><span data-stu-id="e2b09-111">None.</span></span>
+<span data-ttu-id="95152-111">无。</span><span class="sxs-lookup"><span data-stu-id="95152-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="e2b09-112">父元素</span><span class="sxs-lookup"><span data-stu-id="e2b09-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="95152-112">父元素</span><span class="sxs-lookup"><span data-stu-id="95152-112">Parent elements</span></span>
 
-|<span data-ttu-id="e2b09-113">**元素**</span><span class="sxs-lookup"><span data-stu-id="e2b09-113">**Element**</span></span>|<span data-ttu-id="e2b09-114">**说明**</span><span class="sxs-lookup"><span data-stu-id="e2b09-114">**Description**</span></span>|
+|<span data-ttu-id="95152-113">**元素**</span><span class="sxs-lookup"><span data-stu-id="95152-113">**Element**</span></span>|<span data-ttu-id="95152-114">**说明**</span><span class="sxs-lookup"><span data-stu-id="95152-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="e2b09-115">GetEvents</span><span class="sxs-lookup"><span data-stu-id="e2b09-115">GetEvents</span></span>](getevents.md) <br/> |<span data-ttu-id="e2b09-116">表示从服务器请求通知使用拉客户端的操作。</span><span class="sxs-lookup"><span data-stu-id="e2b09-116">Represents the operation used by pull clients to request notifications from the server.</span></span>  <br/> |
-|[<span data-ttu-id="e2b09-117">通知</span><span class="sxs-lookup"><span data-stu-id="e2b09-117">Notification</span></span>](notification-ex15websvcsotherref.md) <br/> |<span data-ttu-id="e2b09-118">包含有关订阅和自上次通知以来发生的事件的信息。</span><span class="sxs-lookup"><span data-stu-id="e2b09-118">Contains information about the subscription and the events that have occurred since the last notification.</span></span>  <br/> |
-|[<span data-ttu-id="e2b09-119">SubscribeResponseMessage</span><span class="sxs-lookup"><span data-stu-id="e2b09-119">SubscribeResponseMessage</span></span>](subscriberesponsemessage.md) <br/> |<span data-ttu-id="e2b09-120">包含状态和 Subscribe 请求的结果。</span><span class="sxs-lookup"><span data-stu-id="e2b09-120">Contains the status and result of a Subscribe request.</span></span>  <br/> |
-|[<span data-ttu-id="e2b09-121">取消订阅</span><span class="sxs-lookup"><span data-stu-id="e2b09-121">Unsubscribe</span></span>](unsubscribe.md) <br/> |<span data-ttu-id="e2b09-122">包含用于取消订阅的属性。</span><span class="sxs-lookup"><span data-stu-id="e2b09-122">Contains the properties used to unsubscribe from a subscription.</span></span>  <br/> |
+|[<span data-ttu-id="95152-115">GetEvents</span><span class="sxs-lookup"><span data-stu-id="95152-115">GetEvents</span></span>](getevents.md) <br/> |<span data-ttu-id="95152-116">表示从服务器请求通知使用拉客户端的操作。</span><span class="sxs-lookup"><span data-stu-id="95152-116">Represents the operation used by pull clients to request notifications from the server.</span></span>  <br/> |
+|[<span data-ttu-id="95152-117">通知</span><span class="sxs-lookup"><span data-stu-id="95152-117">Notification</span></span>](notification-ex15websvcsotherref.md) <br/> |<span data-ttu-id="95152-118">包含有关订阅和自上次通知以来发生的事件的信息。</span><span class="sxs-lookup"><span data-stu-id="95152-118">Contains information about the subscription and the events that have occurred since the last notification.</span></span>  <br/> |
+|[<span data-ttu-id="95152-119">SubscribeResponseMessage</span><span class="sxs-lookup"><span data-stu-id="95152-119">SubscribeResponseMessage</span></span>](subscriberesponsemessage.md) <br/> |<span data-ttu-id="95152-120">包含状态和 Subscribe 请求的结果。</span><span class="sxs-lookup"><span data-stu-id="95152-120">Contains the status and result of a Subscribe request.</span></span>  <br/> |
+|[<span data-ttu-id="95152-121">取消订阅</span><span class="sxs-lookup"><span data-stu-id="95152-121">Unsubscribe</span></span>](unsubscribe.md) <br/> |<span data-ttu-id="95152-122">包含用于取消订阅的属性。</span><span class="sxs-lookup"><span data-stu-id="95152-122">Contains the properties used to unsubscribe from a subscription.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="e2b09-123">文本值</span><span class="sxs-lookup"><span data-stu-id="e2b09-123">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="95152-123">文本值</span><span class="sxs-lookup"><span data-stu-id="95152-123">Text value</span></span>
 
-<span data-ttu-id="e2b09-124">文本值是必需的。</span><span class="sxs-lookup"><span data-stu-id="e2b09-124">A text value is required.</span></span> <span data-ttu-id="e2b09-125">文本值是一个 GUID。</span><span class="sxs-lookup"><span data-stu-id="e2b09-125">The text value is a GUID.</span></span>
+<span data-ttu-id="95152-124">文本值是必需的。</span><span class="sxs-lookup"><span data-stu-id="95152-124">A text value is required.</span></span> <span data-ttu-id="95152-125">文本值是一个 GUID。</span><span class="sxs-lookup"><span data-stu-id="95152-125">The text value is a GUID.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="e2b09-126">备注</span><span class="sxs-lookup"><span data-stu-id="e2b09-126">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="95152-126">注解</span><span class="sxs-lookup"><span data-stu-id="95152-126">Remarks</span></span>
 
-<span data-ttu-id="e2b09-127">创建订阅时由客户端访问服务器生成的 GUID 值，该值代表订阅标识符。</span><span class="sxs-lookup"><span data-stu-id="e2b09-127">The GUID that represents the subscription identifier is generated by the Client Access server when the subscription is created.</span></span>
+<span data-ttu-id="95152-127">创建订阅时由客户端访问服务器生成的 GUID 值，该值代表订阅标识符。</span><span class="sxs-lookup"><span data-stu-id="95152-127">The GUID that represents the subscription identifier is generated by the Client Access server when the subscription is created.</span></span>
   
-<span data-ttu-id="e2b09-128">描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="e2b09-128">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="95152-128">描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="95152-128">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="e2b09-129">元素信息</span><span class="sxs-lookup"><span data-stu-id="e2b09-129">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="95152-129">元素信息</span><span class="sxs-lookup"><span data-stu-id="95152-129">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="e2b09-130">命名空间</span><span class="sxs-lookup"><span data-stu-id="e2b09-130">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="e2b09-131">架构名称</span><span class="sxs-lookup"><span data-stu-id="e2b09-131">Schema name</span></span>  <br/> |<span data-ttu-id="e2b09-132">邮件架构</span><span class="sxs-lookup"><span data-stu-id="e2b09-132">messages schema</span></span>  <br/> |
-|<span data-ttu-id="e2b09-133">验证文件</span><span class="sxs-lookup"><span data-stu-id="e2b09-133">Validation file</span></span>  <br/> |<span data-ttu-id="e2b09-134">messages.xsd</span><span class="sxs-lookup"><span data-stu-id="e2b09-134">messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="e2b09-135">可以为空</span><span class="sxs-lookup"><span data-stu-id="e2b09-135">Can be empty</span></span>  <br/> |<span data-ttu-id="e2b09-136">False</span><span class="sxs-lookup"><span data-stu-id="e2b09-136">False</span></span>  <br/> |
+|<span data-ttu-id="95152-130">命名空间</span><span class="sxs-lookup"><span data-stu-id="95152-130">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="95152-131">架构名称</span><span class="sxs-lookup"><span data-stu-id="95152-131">Schema name</span></span>  <br/> |<span data-ttu-id="95152-132">邮件架构</span><span class="sxs-lookup"><span data-stu-id="95152-132">messages schema</span></span>  <br/> |
+|<span data-ttu-id="95152-133">验证文件</span><span class="sxs-lookup"><span data-stu-id="95152-133">Validation file</span></span>  <br/> |<span data-ttu-id="95152-134">messages.xsd</span><span class="sxs-lookup"><span data-stu-id="95152-134">messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="95152-135">可以为空</span><span class="sxs-lookup"><span data-stu-id="95152-135">Can be empty</span></span>  <br/> |<span data-ttu-id="95152-136">False</span><span class="sxs-lookup"><span data-stu-id="95152-136">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="e2b09-137">另请参阅</span><span class="sxs-lookup"><span data-stu-id="e2b09-137">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="95152-137">另请参阅</span><span class="sxs-lookup"><span data-stu-id="95152-137">See also</span></span>
 
 
 
-[<span data-ttu-id="e2b09-138">订阅操作</span><span class="sxs-lookup"><span data-stu-id="e2b09-138">Subscribe operation</span></span>](subscribe-operation.md)
+[<span data-ttu-id="95152-138">订阅操作</span><span class="sxs-lookup"><span data-stu-id="95152-138">Subscribe operation</span></span>](subscribe-operation.md)
   
-[<span data-ttu-id="e2b09-139">GetEvents 操作</span><span class="sxs-lookup"><span data-stu-id="e2b09-139">GetEvents operation</span></span>](getevents-operation.md)
+[<span data-ttu-id="95152-139">GetEvents 操作</span><span class="sxs-lookup"><span data-stu-id="95152-139">GetEvents operation</span></span>](getevents-operation.md)
   
-[<span data-ttu-id="e2b09-140">取消操作</span><span class="sxs-lookup"><span data-stu-id="e2b09-140">Unsubscribe operation</span></span>](unsubscribe-operation.md)
+[<span data-ttu-id="95152-140">取消操作</span><span class="sxs-lookup"><span data-stu-id="95152-140">Unsubscribe operation</span></span>](unsubscribe-operation.md)
 

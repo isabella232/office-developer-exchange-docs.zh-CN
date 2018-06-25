@@ -12,12 +12,12 @@ ms.openlocfilehash: b2b3e93101a9ae2ad4241e6aad79825c190c5222
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826437"
 ---
-# <a name="meetingsuggestions"></a><span data-ttu-id="f0627-103">MeetingSuggestions</span><span class="sxs-lookup"><span data-stu-id="f0627-103">MeetingSuggestions</span></span>
+# <a name="meetingsuggestions"></a><span data-ttu-id="80737-103">MeetingSuggestions</span><span class="sxs-lookup"><span data-stu-id="80737-103">MeetingSuggestions</span></span>
 
-<span data-ttu-id="f0627-104">**MeetingSuggestions**元素指定包含实体提取的结果的**MeetingSuggestion**元素的数组。</span><span class="sxs-lookup"><span data-stu-id="f0627-104">The **MeetingSuggestions** element specifies an array of **MeetingSuggestion** elements that contain entity extraction results.</span></span> 
+<span data-ttu-id="80737-104">**MeetingSuggestions**元素指定包含实体提取的结果的**MeetingSuggestion**元素的数组。</span><span class="sxs-lookup"><span data-stu-id="80737-104">The **MeetingSuggestions** element specifies an array of **MeetingSuggestion** elements that contain entity extraction results.</span></span> 
   
 ```XML
 <MeetingSuggestions>
@@ -25,36 +25,36 @@ ms.locfileid: "19826437"
 </MeetingSuggestions>
 ```
 
- <span data-ttu-id="f0627-105">**ArrayOfMeetingSuggestionsType**</span><span class="sxs-lookup"><span data-stu-id="f0627-105">**ArrayOfMeetingSuggestionsType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="f0627-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="f0627-106">Attributes and elements</span></span>
+ <span data-ttu-id="80737-105">**ArrayOfMeetingSuggestionsType**</span><span class="sxs-lookup"><span data-stu-id="80737-105">**ArrayOfMeetingSuggestionsType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="80737-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="80737-106">Attributes and elements</span></span>
 
-<span data-ttu-id="f0627-107">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="f0627-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="80737-107">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="80737-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="f0627-108">属性</span><span class="sxs-lookup"><span data-stu-id="f0627-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="80737-108">属性</span><span class="sxs-lookup"><span data-stu-id="80737-108">Attributes</span></span>
 
-<span data-ttu-id="f0627-109">无。</span><span class="sxs-lookup"><span data-stu-id="f0627-109">None.</span></span>
+<span data-ttu-id="80737-109">无。</span><span class="sxs-lookup"><span data-stu-id="80737-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="f0627-110">子元素</span><span class="sxs-lookup"><span data-stu-id="f0627-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="80737-110">子元素</span><span class="sxs-lookup"><span data-stu-id="80737-110">Child elements</span></span>
 
-[<span data-ttu-id="f0627-111">MeetingSuggestion</span><span class="sxs-lookup"><span data-stu-id="f0627-111">MeetingSuggestion</span></span>](meetingsuggestion.md)
+[<span data-ttu-id="80737-111">MeetingSuggestion</span><span class="sxs-lookup"><span data-stu-id="80737-111">MeetingSuggestion</span></span>](meetingsuggestion.md)
   
-### <a name="parent-elements"></a><span data-ttu-id="f0627-112">父元素</span><span class="sxs-lookup"><span data-stu-id="f0627-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="80737-112">父元素</span><span class="sxs-lookup"><span data-stu-id="80737-112">Parent elements</span></span>
 
-[<span data-ttu-id="f0627-113">EntityExtractionResult</span><span class="sxs-lookup"><span data-stu-id="f0627-113">EntityExtractionResult</span></span>](entityextractionresult.md)
+[<span data-ttu-id="80737-113">EntityExtractionResult</span><span class="sxs-lookup"><span data-stu-id="80737-113">EntityExtractionResult</span></span>](entityextractionresult.md)
   
-## <a name="remarks"></a><span data-ttu-id="f0627-114">备注</span><span class="sxs-lookup"><span data-stu-id="f0627-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="80737-114">备注</span><span class="sxs-lookup"><span data-stu-id="80737-114">Remarks</span></span>
 
-<span data-ttu-id="f0627-115">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="f0627-115">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="80737-115">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="80737-115">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="f0627-116">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="f0627-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="80737-116">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="80737-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="f0627-117">元素信息</span><span class="sxs-lookup"><span data-stu-id="f0627-117">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="80737-117">元素信息</span><span class="sxs-lookup"><span data-stu-id="80737-117">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="f0627-118">命名空间</span><span class="sxs-lookup"><span data-stu-id="f0627-118">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="f0627-119">架构名称</span><span class="sxs-lookup"><span data-stu-id="f0627-119">Schema name</span></span>  <br/> |<span data-ttu-id="f0627-120">类型架构</span><span class="sxs-lookup"><span data-stu-id="f0627-120">Types schema</span></span>  <br/> |
-|<span data-ttu-id="f0627-121">验证文件</span><span class="sxs-lookup"><span data-stu-id="f0627-121">Validation file</span></span>  <br/> |<span data-ttu-id="f0627-122">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="f0627-122">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="f0627-123">可以为空</span><span class="sxs-lookup"><span data-stu-id="f0627-123">Can be empty</span></span>  <br/> ||
+|<span data-ttu-id="80737-118">命名空间</span><span class="sxs-lookup"><span data-stu-id="80737-118">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="80737-119">架构名称</span><span class="sxs-lookup"><span data-stu-id="80737-119">Schema name</span></span>  <br/> |<span data-ttu-id="80737-120">类型架构</span><span class="sxs-lookup"><span data-stu-id="80737-120">Types schema</span></span>  <br/> |
+|<span data-ttu-id="80737-121">验证文件</span><span class="sxs-lookup"><span data-stu-id="80737-121">Validation file</span></span>  <br/> |<span data-ttu-id="80737-122">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="80737-122">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="80737-123">可以为空</span><span class="sxs-lookup"><span data-stu-id="80737-123">Can be empty</span></span>  <br/> ||
    
 

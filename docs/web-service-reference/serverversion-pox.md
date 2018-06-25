@@ -13,52 +13,52 @@ ms.openlocfilehash: ef0562e166094d75d0dd92f5f48bb558e11a2cad
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827391"
 ---
-# <a name="serverversion-pox"></a><span data-ttu-id="cb094-103">ServerVersion (POX)</span><span class="sxs-lookup"><span data-stu-id="cb094-103">ServerVersion (POX)</span></span>
+# <a name="serverversion-pox"></a><span data-ttu-id="e123e-103">ServerVersion (POX)</span><span class="sxs-lookup"><span data-stu-id="e123e-103">ServerVersion (POX)</span></span>
 
-<span data-ttu-id="cb094-104">**ServerVersion**元素均表示运行 Microsoft Exchange Server 的计算机的版本号。</span><span class="sxs-lookup"><span data-stu-id="cb094-104">The **ServerVersion** element represents the version number of the computer that is running Microsoft Exchange Server.</span></span> 
+<span data-ttu-id="e123e-104">**ServerVersion**元素均表示运行 Microsoft Exchange Server 的计算机的版本号。</span><span class="sxs-lookup"><span data-stu-id="e123e-104">The **ServerVersion** element represents the version number of the computer that is running Microsoft Exchange Server.</span></span> 
   
-- [<span data-ttu-id="cb094-105">自动发现 (POX)</span><span class="sxs-lookup"><span data-stu-id="cb094-105">AutoDiscover (POX)</span></span>](autodiscover-pox.md) 
-- [<span data-ttu-id="cb094-106">响应 (POX)</span><span class="sxs-lookup"><span data-stu-id="cb094-106">Response (POX)</span></span>](response-pox.md)
-- [<span data-ttu-id="cb094-107">帐户 (POX)</span><span class="sxs-lookup"><span data-stu-id="cb094-107">Account (POX)</span></span>](account-pox.md)
-- [<span data-ttu-id="cb094-108">协议 (POX)</span><span class="sxs-lookup"><span data-stu-id="cb094-108">Protocol (POX)</span></span>](protocol-pox.md)
-- [<span data-ttu-id="cb094-109">ServerVersion (POX)</span><span class="sxs-lookup"><span data-stu-id="cb094-109">ServerVersion (POX)</span></span>](serverversion-pox.md)
+- [<span data-ttu-id="e123e-105">自动发现 (POX)</span><span class="sxs-lookup"><span data-stu-id="e123e-105">AutoDiscover (POX)</span></span>](autodiscover-pox.md) 
+- [<span data-ttu-id="e123e-106">响应 (POX)</span><span class="sxs-lookup"><span data-stu-id="e123e-106">Response (POX)</span></span>](response-pox.md)
+- [<span data-ttu-id="e123e-107">帐户 (POX)</span><span class="sxs-lookup"><span data-stu-id="e123e-107">Account (POX)</span></span>](account-pox.md)
+- [<span data-ttu-id="e123e-108">协议 (POX)</span><span class="sxs-lookup"><span data-stu-id="e123e-108">Protocol (POX)</span></span>](protocol-pox.md)
+- [<span data-ttu-id="e123e-109">ServerVersion (POX)</span><span class="sxs-lookup"><span data-stu-id="e123e-109">ServerVersion (POX)</span></span>](serverversion-pox.md)
   
 ```xml
 <ServerVersion/>
 ```
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="cb094-110">属性和元素</span><span class="sxs-lookup"><span data-stu-id="cb094-110">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="e123e-110">属性和元素</span><span class="sxs-lookup"><span data-stu-id="e123e-110">Attributes and elements</span></span>
 
-<span data-ttu-id="cb094-111">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="cb094-111">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="e123e-111">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="e123e-111">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="cb094-112">属性</span><span class="sxs-lookup"><span data-stu-id="cb094-112">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="e123e-112">属性</span><span class="sxs-lookup"><span data-stu-id="e123e-112">Attributes</span></span>
 
-<span data-ttu-id="cb094-113">无。</span><span class="sxs-lookup"><span data-stu-id="cb094-113">None.</span></span>
+<span data-ttu-id="e123e-113">无。</span><span class="sxs-lookup"><span data-stu-id="e123e-113">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="cb094-114">子元素</span><span class="sxs-lookup"><span data-stu-id="cb094-114">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="e123e-114">子元素</span><span class="sxs-lookup"><span data-stu-id="e123e-114">Child elements</span></span>
 
-<span data-ttu-id="cb094-115">无。</span><span class="sxs-lookup"><span data-stu-id="cb094-115">None.</span></span>
+<span data-ttu-id="e123e-115">无。</span><span class="sxs-lookup"><span data-stu-id="e123e-115">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="cb094-116">父元素</span><span class="sxs-lookup"><span data-stu-id="cb094-116">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="e123e-116">父元素</span><span class="sxs-lookup"><span data-stu-id="e123e-116">Parent elements</span></span>
 
-|<span data-ttu-id="cb094-117">**元素**</span><span class="sxs-lookup"><span data-stu-id="cb094-117">**Element**</span></span>|<span data-ttu-id="cb094-118">**说明**</span><span class="sxs-lookup"><span data-stu-id="cb094-118">**Description**</span></span>|
+|<span data-ttu-id="e123e-117">**元素**</span><span class="sxs-lookup"><span data-stu-id="e123e-117">**Element**</span></span>|<span data-ttu-id="e123e-118">**说明**</span><span class="sxs-lookup"><span data-stu-id="e123e-118">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="cb094-119">协议 (POX)</span><span class="sxs-lookup"><span data-stu-id="cb094-119">Protocol (POX)</span></span>](protocol-pox.md) <br/> |<span data-ttu-id="cb094-120">包含客户端连接到运行 Microsoft Exchange 已安装了客户端访问服务器角色的计算机的规格。</span><span class="sxs-lookup"><span data-stu-id="cb094-120">Contains the specifications for connecting a client to the computer that is running Microsoft Exchange that has the Client Access server role installed.</span></span>  <br/> |
+|[<span data-ttu-id="e123e-119">协议 (POX)</span><span class="sxs-lookup"><span data-stu-id="e123e-119">Protocol (POX)</span></span>](protocol-pox.md) <br/> |<span data-ttu-id="e123e-120">包含客户端连接到运行 Microsoft Exchange 已安装了客户端访问服务器角色的计算机的规格。</span><span class="sxs-lookup"><span data-stu-id="e123e-120">Contains the specifications for connecting a client to the computer that is running Microsoft Exchange that has the Client Access server role installed.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="cb094-121">文本值</span><span class="sxs-lookup"><span data-stu-id="cb094-121">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="e123e-121">文本值</span><span class="sxs-lookup"><span data-stu-id="e123e-121">Text value</span></span>
 
-<span data-ttu-id="cb094-122">文本值表示 Exchange server 版本数。</span><span class="sxs-lookup"><span data-stu-id="cb094-122">The text value represents the Exchange server version number.</span></span>
+<span data-ttu-id="e123e-122">文本值表示 Exchange server 版本数。</span><span class="sxs-lookup"><span data-stu-id="e123e-122">The text value represents the Exchange server version number.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="cb094-123">备注</span><span class="sxs-lookup"><span data-stu-id="cb094-123">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e123e-123">注解</span><span class="sxs-lookup"><span data-stu-id="e123e-123">Remarks</span></span>
 
-<span data-ttu-id="cb094-124">**ServerVersion**值才等于 EXCH 或 EXPR[类型 (POX)](type-pox.md)元素是否有效。</span><span class="sxs-lookup"><span data-stu-id="cb094-124">The **ServerVersion** value is only valid if the [Type (POX)](type-pox.md) element is equal to EXCH or EXPR.</span></span> <span data-ttu-id="cb094-125">**ServerVersion**值是一个十六进制数字，包含 MajorVersion、 MinorVersion 和 MajorBuildNumber 的服务器。</span><span class="sxs-lookup"><span data-stu-id="cb094-125">The **ServerVersion** value is a hexadecimal number that contains the MajorVersion, MinorVersion, and MajorBuildNumber of the server.</span></span> 
+<span data-ttu-id="e123e-124">**ServerVersion**值才等于 EXCH 或 EXPR[类型 (POX)](type-pox.md)元素是否有效。</span><span class="sxs-lookup"><span data-stu-id="e123e-124">The **ServerVersion** value is only valid if the [Type (POX)](type-pox.md) element is equal to EXCH or EXPR.</span></span> <span data-ttu-id="e123e-125">**ServerVersion**值是一个十六进制数字，包含 MajorVersion、 MinorVersion 和 MajorBuildNumber 的服务器。</span><span class="sxs-lookup"><span data-stu-id="e123e-125">The **ServerVersion** value is a hexadecimal number that contains the MajorVersion, MinorVersion, and MajorBuildNumber of the server.</span></span> 
   
-## <a name="example"></a><span data-ttu-id="cb094-126">示例</span><span class="sxs-lookup"><span data-stu-id="cb094-126">Example</span></span>
+## <a name="example"></a><span data-ttu-id="e123e-126">示例</span><span class="sxs-lookup"><span data-stu-id="e123e-126">Example</span></span>
 
-<span data-ttu-id="cb094-127">下面的示例 coverts **ServerVersion**值，它是以获取和显示 MajorVersion、 MinorVersion 和 MajorBuildNumber 自动发现响应中返回。</span><span class="sxs-lookup"><span data-stu-id="cb094-127">The following example coverts a **ServerVersion** value that is returned in an Autodiscover response to obtain and display the MajorVersion, MinorVersion, and MajorBuildNumber.</span></span> <span data-ttu-id="cb094-128">本示例可输入**ServerVersion**值的十六进制值。</span><span class="sxs-lookup"><span data-stu-id="cb094-128">This example enables you to enter a hexadecimal value for the **ServerVersion** value.</span></span> <span data-ttu-id="cb094-129">如果没有**ServerVersion**输入值，使用默认**ServerVersion**值为 738180DA。</span><span class="sxs-lookup"><span data-stu-id="cb094-129">If no **ServerVersion** value is entered, a default **ServerVersion** value of 738180DA is used.</span></span> 
+<span data-ttu-id="e123e-127">下面的示例 coverts **ServerVersion**值，它是以获取和显示 MajorVersion、 MinorVersion 和 MajorBuildNumber 自动发现响应中返回。</span><span class="sxs-lookup"><span data-stu-id="e123e-127">The following example coverts a **ServerVersion** value that is returned in an Autodiscover response to obtain and display the MajorVersion, MinorVersion, and MajorBuildNumber.</span></span> <span data-ttu-id="e123e-128">本示例可输入**ServerVersion**值的十六进制值。</span><span class="sxs-lookup"><span data-stu-id="e123e-128">This example enables you to enter a hexadecimal value for the **ServerVersion** value.</span></span> <span data-ttu-id="e123e-129">如果没有**ServerVersion**输入值，使用默认**ServerVersion**值为 738180DA。</span><span class="sxs-lookup"><span data-stu-id="e123e-129">If no **ServerVersion** value is entered, a default **ServerVersion** value of 738180DA is used.</span></span> 
   
 ```csharp
 static void Main(string[] args)
@@ -103,7 +103,7 @@ static void Main(string[] args)
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="cb094-130">另请参阅</span><span class="sxs-lookup"><span data-stu-id="cb094-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e123e-130">另请参阅</span><span class="sxs-lookup"><span data-stu-id="e123e-130">See also</span></span>
 
-- [<span data-ttu-id="cb094-131">Exchange POX 自动发现 XML 元素</span><span class="sxs-lookup"><span data-stu-id="cb094-131">POX Autodiscover XML elements for Exchange</span></span>](pox-autodiscover-xml-elements-for-exchange.md)
+- [<span data-ttu-id="e123e-131">Exchange POX 自动发现 XML 元素</span><span class="sxs-lookup"><span data-stu-id="e123e-131">POX Autodiscover XML elements for Exchange</span></span>](pox-autodiscover-xml-elements-for-exchange.md)
 

@@ -12,12 +12,12 @@ ms.openlocfilehash: 7632c922666742d6ab9428a2b1e78ae6a1d544b6
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825784"
 ---
-# <a name="groups-arrayofimgrouptype"></a><span data-ttu-id="ddf13-103">组 (ArrayOfImGroupType)</span><span class="sxs-lookup"><span data-stu-id="ddf13-103">Groups (ArrayOfImGroupType)</span></span>
+# <a name="groups-arrayofimgrouptype"></a><span data-ttu-id="bfd24-103">组 (ArrayOfImGroupType)</span><span class="sxs-lookup"><span data-stu-id="bfd24-103">Groups (ArrayOfImGroupType)</span></span>
 
-<span data-ttu-id="ddf13-104">**Groups**元素表示即时消息 (IM) 组的数组。</span><span class="sxs-lookup"><span data-stu-id="ddf13-104">The **Groups** element represents an array of instant messaging (IM) groups.</span></span> 
+<span data-ttu-id="bfd24-104">**Groups**元素表示即时消息 (IM) 组的数组。</span><span class="sxs-lookup"><span data-stu-id="bfd24-104">The **Groups** element represents an array of instant messaging (IM) groups.</span></span> 
   
 ```XML
 <Groups>
@@ -25,28 +25,28 @@ ms.locfileid: "19825784"
 </Groups>
 ```
 
-<span data-ttu-id="ddf13-105">**ArrayOfImGroupType**</span><span class="sxs-lookup"><span data-stu-id="ddf13-105">**ArrayOfImGroupType**</span></span>
+<span data-ttu-id="bfd24-105">**ArrayOfImGroupType**</span><span class="sxs-lookup"><span data-stu-id="bfd24-105">**ArrayOfImGroupType**</span></span>
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="ddf13-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="ddf13-106">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="bfd24-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="bfd24-106">Attributes and elements</span></span>
 
-<span data-ttu-id="ddf13-107">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="ddf13-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="bfd24-107">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="bfd24-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="ddf13-108">属性</span><span class="sxs-lookup"><span data-stu-id="ddf13-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="bfd24-108">属性</span><span class="sxs-lookup"><span data-stu-id="bfd24-108">Attributes</span></span>
 
-<span data-ttu-id="ddf13-109">无。</span><span class="sxs-lookup"><span data-stu-id="ddf13-109">None.</span></span>
+<span data-ttu-id="bfd24-109">无。</span><span class="sxs-lookup"><span data-stu-id="bfd24-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="ddf13-110">子元素</span><span class="sxs-lookup"><span data-stu-id="ddf13-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="bfd24-110">子元素</span><span class="sxs-lookup"><span data-stu-id="bfd24-110">Child elements</span></span>
 
-[<span data-ttu-id="ddf13-111">ImGroup</span><span class="sxs-lookup"><span data-stu-id="ddf13-111">ImGroup</span></span>](imgroup.md)
+[<span data-ttu-id="bfd24-111">ImGroup</span><span class="sxs-lookup"><span data-stu-id="bfd24-111">ImGroup</span></span>](imgroup.md)
   
-### <a name="parent-elements"></a><span data-ttu-id="ddf13-112">父元素</span><span class="sxs-lookup"><span data-stu-id="ddf13-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="bfd24-112">父元素</span><span class="sxs-lookup"><span data-stu-id="bfd24-112">Parent elements</span></span>
 
-[<span data-ttu-id="ddf13-113">ImItemList</span><span class="sxs-lookup"><span data-stu-id="ddf13-113">ImItemList</span></span>](imitemlist.md)
+[<span data-ttu-id="bfd24-113">ImItemList</span><span class="sxs-lookup"><span data-stu-id="bfd24-113">ImItemList</span></span>](imitemlist.md)
   
-## <a name="remarks"></a><span data-ttu-id="ddf13-114">备注</span><span class="sxs-lookup"><span data-stu-id="ddf13-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bfd24-114">备注</span><span class="sxs-lookup"><span data-stu-id="bfd24-114">Remarks</span></span>
 
-<span data-ttu-id="ddf13-115">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="ddf13-115">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="bfd24-115">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="bfd24-115">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="ddf13-116">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="ddf13-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="bfd24-116">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="bfd24-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
 

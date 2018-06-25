@@ -16,59 +16,59 @@ ms.openlocfilehash: 2440e6c1501331d715d0e5ceb31b3b928122f927
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826519"
 ---
-# <a name="netshowurl"></a><span data-ttu-id="3d16f-103">NetShowUrl</span><span class="sxs-lookup"><span data-stu-id="3d16f-103">NetShowUrl</span></span>
+# <a name="netshowurl"></a><span data-ttu-id="68aaf-103">NetShowUrl</span><span class="sxs-lookup"><span data-stu-id="68aaf-103">NetShowUrl</span></span>
 
-<span data-ttu-id="3d16f-104">**NetShowUrl**元素指定的 Microsoft NetShow 联机会议的 URL。</span><span class="sxs-lookup"><span data-stu-id="3d16f-104">The **NetShowUrl** element specifies the URL for a Microsoft NetShow online meeting.</span></span> 
+<span data-ttu-id="68aaf-104">**NetShowUrl**元素指定的 Microsoft NetShow 联机会议的 URL。</span><span class="sxs-lookup"><span data-stu-id="68aaf-104">The **NetShowUrl** element specifies the URL for a Microsoft NetShow online meeting.</span></span> 
   
 ```xml
 <NetShowUrl/>
 ```
 
- <span data-ttu-id="3d16f-105">**string**</span><span class="sxs-lookup"><span data-stu-id="3d16f-105">**string**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="3d16f-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="3d16f-106">Attributes and elements</span></span>
+ <span data-ttu-id="68aaf-105">**string**</span><span class="sxs-lookup"><span data-stu-id="68aaf-105">**string**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="68aaf-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="68aaf-106">Attributes and elements</span></span>
 
-<span data-ttu-id="3d16f-107">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="3d16f-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="68aaf-107">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="68aaf-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="3d16f-108">属性</span><span class="sxs-lookup"><span data-stu-id="3d16f-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="68aaf-108">属性</span><span class="sxs-lookup"><span data-stu-id="68aaf-108">Attributes</span></span>
 
-<span data-ttu-id="3d16f-109">无。</span><span class="sxs-lookup"><span data-stu-id="3d16f-109">None.</span></span>
+<span data-ttu-id="68aaf-109">无。</span><span class="sxs-lookup"><span data-stu-id="68aaf-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="3d16f-110">子元素</span><span class="sxs-lookup"><span data-stu-id="3d16f-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="68aaf-110">子元素</span><span class="sxs-lookup"><span data-stu-id="68aaf-110">Child elements</span></span>
 
-<span data-ttu-id="3d16f-111">无。</span><span class="sxs-lookup"><span data-stu-id="3d16f-111">None.</span></span>
+<span data-ttu-id="68aaf-111">无。</span><span class="sxs-lookup"><span data-stu-id="68aaf-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="3d16f-112">父元素</span><span class="sxs-lookup"><span data-stu-id="3d16f-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="68aaf-112">父元素</span><span class="sxs-lookup"><span data-stu-id="68aaf-112">Parent elements</span></span>
 
-|<span data-ttu-id="3d16f-113">**元素**</span><span class="sxs-lookup"><span data-stu-id="3d16f-113">**Element**</span></span>|<span data-ttu-id="3d16f-114">**说明**</span><span class="sxs-lookup"><span data-stu-id="3d16f-114">**Description**</span></span>|
+|<span data-ttu-id="68aaf-113">**元素**</span><span class="sxs-lookup"><span data-stu-id="68aaf-113">**Element**</span></span>|<span data-ttu-id="68aaf-114">**说明**</span><span class="sxs-lookup"><span data-stu-id="68aaf-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="3d16f-115">MeetingRequest</span><span class="sxs-lookup"><span data-stu-id="3d16f-115">MeetingRequest</span></span>](meetingrequest.md) <br/> |<span data-ttu-id="3d16f-116">表示 Exchange 存储中的会议。</span><span class="sxs-lookup"><span data-stu-id="3d16f-116">Represents a meeting in the Exchange store.</span></span>  <br/> |
-|[<span data-ttu-id="3d16f-117">日历项目</span><span class="sxs-lookup"><span data-stu-id="3d16f-117">CalendarItem</span></span>](calendaritem.md) <br/> |<span data-ttu-id="3d16f-118">表示 Exchange 日历项。</span><span class="sxs-lookup"><span data-stu-id="3d16f-118">Represents an Exchange calendar item.</span></span>  <br/> |
+|[<span data-ttu-id="68aaf-115">MeetingRequest</span><span class="sxs-lookup"><span data-stu-id="68aaf-115">MeetingRequest</span></span>](meetingrequest.md) <br/> |<span data-ttu-id="68aaf-116">表示 Exchange 存储中的会议。</span><span class="sxs-lookup"><span data-stu-id="68aaf-116">Represents a meeting in the Exchange store.</span></span>  <br/> |
+|[<span data-ttu-id="68aaf-117">日历项目</span><span class="sxs-lookup"><span data-stu-id="68aaf-117">CalendarItem</span></span>](calendaritem.md) <br/> |<span data-ttu-id="68aaf-118">表示 Exchange 日历项。</span><span class="sxs-lookup"><span data-stu-id="68aaf-118">Represents an Exchange calendar item.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="3d16f-119">文本值</span><span class="sxs-lookup"><span data-stu-id="3d16f-119">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="68aaf-119">文本值</span><span class="sxs-lookup"><span data-stu-id="68aaf-119">Text value</span></span>
 
-<span data-ttu-id="3d16f-120">如果使用此元素，则需要代表 URL 的文本值。</span><span class="sxs-lookup"><span data-stu-id="3d16f-120">A text value that represents a URL is required if this element is used.</span></span>
+<span data-ttu-id="68aaf-120">如果使用此元素，则需要代表 URL 的文本值。</span><span class="sxs-lookup"><span data-stu-id="68aaf-120">A text value that represents a URL is required if this element is used.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="3d16f-121">备注</span><span class="sxs-lookup"><span data-stu-id="3d16f-121">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="68aaf-121">注解</span><span class="sxs-lookup"><span data-stu-id="68aaf-121">Remarks</span></span>
 
-<span data-ttu-id="3d16f-122">此 NetShowUrl 属性为读写的组织者的日历项目。</span><span class="sxs-lookup"><span data-stu-id="3d16f-122">This NetShowUrl property is read-writable for the organizer's calendar item.</span></span> <span data-ttu-id="3d16f-123">它是只读的会议请求和与会者。</span><span class="sxs-lookup"><span data-stu-id="3d16f-123">It is read-only for meeting requests and for attendees.</span></span>
+<span data-ttu-id="68aaf-122">此 NetShowUrl 属性为读写的组织者的日历项目。</span><span class="sxs-lookup"><span data-stu-id="68aaf-122">This NetShowUrl property is read-writable for the organizer's calendar item.</span></span> <span data-ttu-id="68aaf-123">它是只读的会议请求和与会者。</span><span class="sxs-lookup"><span data-stu-id="68aaf-123">It is read-only for meeting requests and for attendees.</span></span>
   
-<span data-ttu-id="3d16f-124">描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="3d16f-124">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="68aaf-124">描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="68aaf-124">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="3d16f-125">元素信息</span><span class="sxs-lookup"><span data-stu-id="3d16f-125">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="68aaf-125">元素信息</span><span class="sxs-lookup"><span data-stu-id="68aaf-125">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="3d16f-126">命名空间</span><span class="sxs-lookup"><span data-stu-id="3d16f-126">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="3d16f-127">架构名称</span><span class="sxs-lookup"><span data-stu-id="3d16f-127">Schema name</span></span>  <br/> |<span data-ttu-id="3d16f-128">类型架构</span><span class="sxs-lookup"><span data-stu-id="3d16f-128">Types schema</span></span>  <br/> |
-|<span data-ttu-id="3d16f-129">验证文件</span><span class="sxs-lookup"><span data-stu-id="3d16f-129">Validation file</span></span>  <br/> |<span data-ttu-id="3d16f-130">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="3d16f-130">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="3d16f-131">可以为空</span><span class="sxs-lookup"><span data-stu-id="3d16f-131">Can be empty</span></span>  <br/> |<span data-ttu-id="3d16f-132">False</span><span class="sxs-lookup"><span data-stu-id="3d16f-132">False</span></span>  <br/> |
+|<span data-ttu-id="68aaf-126">命名空间</span><span class="sxs-lookup"><span data-stu-id="68aaf-126">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="68aaf-127">架构名称</span><span class="sxs-lookup"><span data-stu-id="68aaf-127">Schema name</span></span>  <br/> |<span data-ttu-id="68aaf-128">类型架构</span><span class="sxs-lookup"><span data-stu-id="68aaf-128">Types schema</span></span>  <br/> |
+|<span data-ttu-id="68aaf-129">验证文件</span><span class="sxs-lookup"><span data-stu-id="68aaf-129">Validation file</span></span>  <br/> |<span data-ttu-id="68aaf-130">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="68aaf-130">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="68aaf-131">可以为空</span><span class="sxs-lookup"><span data-stu-id="68aaf-131">Can be empty</span></span>  <br/> |<span data-ttu-id="68aaf-132">False</span><span class="sxs-lookup"><span data-stu-id="68aaf-132">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="3d16f-133">另请参阅</span><span class="sxs-lookup"><span data-stu-id="3d16f-133">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="68aaf-133">另请参阅</span><span class="sxs-lookup"><span data-stu-id="68aaf-133">See also</span></span>
 
 
 
-- [<span data-ttu-id="3d16f-134">在交换 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="3d16f-134">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="68aaf-134">在交换 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="68aaf-134">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

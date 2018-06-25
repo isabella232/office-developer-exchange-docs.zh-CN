@@ -16,12 +16,12 @@ ms.openlocfilehash: 41f450e1d4c95f7ba389adcaa2ed7e18ea74d61c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827339"
 ---
-# <a name="senditemresponse"></a><span data-ttu-id="deef2-103">SendItemResponse</span><span class="sxs-lookup"><span data-stu-id="deef2-103">SendItemResponse</span></span>
+# <a name="senditemresponse"></a><span data-ttu-id="51d79-103">SendItemResponse</span><span class="sxs-lookup"><span data-stu-id="51d79-103">SendItemResponse</span></span>
 
-<span data-ttu-id="deef2-104">**SendItemResponse**元素定义 SendItem 请求的响应。</span><span class="sxs-lookup"><span data-stu-id="deef2-104">The **SendItemResponse** element defines a response to a SendItem request.</span></span> 
+<span data-ttu-id="51d79-104">**SendItemResponse**元素定义 SendItem 请求的响应。</span><span class="sxs-lookup"><span data-stu-id="51d79-104">The **SendItemResponse** element defines a response to a SendItem request.</span></span> 
   
 ```xml
 <SendItemResponse>
@@ -29,46 +29,46 @@ ms.locfileid: "19827339"
 </SendItemResponse>
 ```
 
- <span data-ttu-id="deef2-105">**SendItemResponseType**</span><span class="sxs-lookup"><span data-stu-id="deef2-105">**SendItemResponseType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="deef2-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="deef2-106">Attributes and elements</span></span>
+ <span data-ttu-id="51d79-105">**SendItemResponseType**</span><span class="sxs-lookup"><span data-stu-id="51d79-105">**SendItemResponseType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="51d79-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="51d79-106">Attributes and elements</span></span>
 
-<span data-ttu-id="deef2-107">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="deef2-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="51d79-107">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="51d79-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="deef2-108">属性</span><span class="sxs-lookup"><span data-stu-id="deef2-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="51d79-108">属性</span><span class="sxs-lookup"><span data-stu-id="51d79-108">Attributes</span></span>
 
-<span data-ttu-id="deef2-109">无。</span><span class="sxs-lookup"><span data-stu-id="deef2-109">None.</span></span>
+<span data-ttu-id="51d79-109">无。</span><span class="sxs-lookup"><span data-stu-id="51d79-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="deef2-110">子元素</span><span class="sxs-lookup"><span data-stu-id="deef2-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="51d79-110">子元素</span><span class="sxs-lookup"><span data-stu-id="51d79-110">Child elements</span></span>
 
-|<span data-ttu-id="deef2-111">**元素**</span><span class="sxs-lookup"><span data-stu-id="deef2-111">**Element**</span></span>|<span data-ttu-id="deef2-112">**说明**</span><span class="sxs-lookup"><span data-stu-id="deef2-112">**Description**</span></span>|
+|<span data-ttu-id="51d79-111">**元素**</span><span class="sxs-lookup"><span data-stu-id="51d79-111">**Element**</span></span>|<span data-ttu-id="51d79-112">**说明**</span><span class="sxs-lookup"><span data-stu-id="51d79-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="deef2-113">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="deef2-113">ResponseMessages</span></span>](responsemessages.md) <br/> |<span data-ttu-id="deef2-114">包含为 Exchange Web 服务请求的响应消息。</span><span class="sxs-lookup"><span data-stu-id="deef2-114">Contains the response messages for an Exchange Web Services request.</span></span>  <br/> |
+|[<span data-ttu-id="51d79-113">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="51d79-113">ResponseMessages</span></span>](responsemessages.md) <br/> |<span data-ttu-id="51d79-114">包含为 Exchange Web 服务请求的响应消息。</span><span class="sxs-lookup"><span data-stu-id="51d79-114">Contains the response messages for an Exchange Web Services request.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="deef2-115">父元素</span><span class="sxs-lookup"><span data-stu-id="deef2-115">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="51d79-115">父元素</span><span class="sxs-lookup"><span data-stu-id="51d79-115">Parent elements</span></span>
 
-<span data-ttu-id="deef2-116">无。</span><span class="sxs-lookup"><span data-stu-id="deef2-116">None.</span></span>
+<span data-ttu-id="51d79-116">无。</span><span class="sxs-lookup"><span data-stu-id="51d79-116">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="deef2-117">备注</span><span class="sxs-lookup"><span data-stu-id="deef2-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="51d79-117">备注</span><span class="sxs-lookup"><span data-stu-id="51d79-117">Remarks</span></span>
 
-<span data-ttu-id="deef2-118">描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="deef2-118">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="51d79-118">描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="51d79-118">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="deef2-119">元素信息</span><span class="sxs-lookup"><span data-stu-id="deef2-119">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="51d79-119">元素信息</span><span class="sxs-lookup"><span data-stu-id="51d79-119">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="deef2-120">命名空间</span><span class="sxs-lookup"><span data-stu-id="deef2-120">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="deef2-121">架构名称</span><span class="sxs-lookup"><span data-stu-id="deef2-121">Schema name</span></span>  <br/> |<span data-ttu-id="deef2-122">消息架构</span><span class="sxs-lookup"><span data-stu-id="deef2-122">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="deef2-123">验证文件</span><span class="sxs-lookup"><span data-stu-id="deef2-123">Validation file</span></span>  <br/> |<span data-ttu-id="deef2-124">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="deef2-124">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="deef2-125">可以为空</span><span class="sxs-lookup"><span data-stu-id="deef2-125">Can be empty</span></span>  <br/> |<span data-ttu-id="deef2-126">False</span><span class="sxs-lookup"><span data-stu-id="deef2-126">False</span></span>  <br/> |
+|<span data-ttu-id="51d79-120">命名空间</span><span class="sxs-lookup"><span data-stu-id="51d79-120">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="51d79-121">架构名称</span><span class="sxs-lookup"><span data-stu-id="51d79-121">Schema name</span></span>  <br/> |<span data-ttu-id="51d79-122">消息架构</span><span class="sxs-lookup"><span data-stu-id="51d79-122">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="51d79-123">验证文件</span><span class="sxs-lookup"><span data-stu-id="51d79-123">Validation file</span></span>  <br/> |<span data-ttu-id="51d79-124">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="51d79-124">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="51d79-125">可以为空</span><span class="sxs-lookup"><span data-stu-id="51d79-125">Can be empty</span></span>  <br/> |<span data-ttu-id="51d79-126">False</span><span class="sxs-lookup"><span data-stu-id="51d79-126">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="deef2-127">另请参阅</span><span class="sxs-lookup"><span data-stu-id="deef2-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="51d79-127">另请参阅</span><span class="sxs-lookup"><span data-stu-id="51d79-127">See also</span></span>
 
 
 
-[<span data-ttu-id="deef2-128">SendItem 操作</span><span class="sxs-lookup"><span data-stu-id="deef2-128">SendItem operation</span></span>](senditem-operation.md)
+[<span data-ttu-id="51d79-128">SendItem 操作</span><span class="sxs-lookup"><span data-stu-id="51d79-128">SendItem operation</span></span>](senditem-operation.md)
   
-[<span data-ttu-id="deef2-129">SendItem</span><span class="sxs-lookup"><span data-stu-id="deef2-129">SendItem</span></span>](senditem.md)
+[<span data-ttu-id="51d79-129">SendItem</span><span class="sxs-lookup"><span data-stu-id="51d79-129">SendItem</span></span>](senditem.md)
 
 
-- [<span data-ttu-id="deef2-130">在交换 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="deef2-130">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="51d79-130">在交换 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="51d79-130">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

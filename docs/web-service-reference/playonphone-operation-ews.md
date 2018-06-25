@@ -16,20 +16,20 @@ ms.openlocfilehash: ec77720c69862e210316d61975b0d58c9530a40c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826819"
 ---
-# <a name="playonphone-operation-ews"></a><span data-ttu-id="deea5-103">PlayOnPhone 操作 (EWS)</span><span class="sxs-lookup"><span data-stu-id="deea5-103">PlayOnPhone operation (EWS)</span></span>
+# <a name="playonphone-operation-ews"></a><span data-ttu-id="70a22-103">PlayOnPhone 操作 (EWS)</span><span class="sxs-lookup"><span data-stu-id="70a22-103">PlayOnPhone operation (EWS)</span></span>
 
-<span data-ttu-id="deea5-104">**PlayOnPhone**操作发起出站呼叫，并通过电话播放消息。</span><span class="sxs-lookup"><span data-stu-id="deea5-104">The **PlayOnPhone** operation initiates an outbound call and plays a message over the telephone.</span></span> 
+<span data-ttu-id="70a22-104">**PlayOnPhone**操作发起出站呼叫，并通过电话播放消息。</span><span class="sxs-lookup"><span data-stu-id="70a22-104">The **PlayOnPhone** operation initiates an outbound call and plays a message over the telephone.</span></span> 
   
-## <a name="playonphone-request-example"></a><span data-ttu-id="deea5-105">PlayOnPhone 请求示例</span><span class="sxs-lookup"><span data-stu-id="deea5-105">PlayOnPhone request example</span></span>
+## <a name="playonphone-request-example"></a><span data-ttu-id="70a22-105">PlayOnPhone 请求示例</span><span class="sxs-lookup"><span data-stu-id="70a22-105">PlayOnPhone request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="deea5-106">说明</span><span class="sxs-lookup"><span data-stu-id="deea5-106">Description</span></span>
+### <a name="description"></a><span data-ttu-id="70a22-106">说明</span><span class="sxs-lookup"><span data-stu-id="70a22-106">Description</span></span>
 
-<span data-ttu-id="deea5-107">**PlayOnPhone**请求的下面的示例演示如何以形成一个请求在电话上播放消息。</span><span class="sxs-lookup"><span data-stu-id="deea5-107">The following example of a **PlayOnPhone** request shows how to form a request to play a message on a phone.</span></span> 
+<span data-ttu-id="70a22-107">**PlayOnPhone**请求的下面的示例演示如何以形成一个请求在电话上播放消息。</span><span class="sxs-lookup"><span data-stu-id="70a22-107">The following example of a **PlayOnPhone** request shows how to form a request to play a message on a phone.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="deea5-108">代码</span><span class="sxs-lookup"><span data-stu-id="deea5-108">Code</span></span>
+### <a name="code"></a><span data-ttu-id="70a22-108">代码</span><span class="sxs-lookup"><span data-stu-id="70a22-108">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -50,13 +50,13 @@ ms.locfileid: "19826819"
 </soap:Envelope>
 ```
 
-## <a name="playonphone-response-example"></a><span data-ttu-id="deea5-109">PlayOnPhone 响应示例</span><span class="sxs-lookup"><span data-stu-id="deea5-109">PlayOnPhone response example</span></span>
+## <a name="playonphone-response-example"></a><span data-ttu-id="70a22-109">PlayOnPhone 响应示例</span><span class="sxs-lookup"><span data-stu-id="70a22-109">PlayOnPhone response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="deea5-110">说明</span><span class="sxs-lookup"><span data-stu-id="deea5-110">Description</span></span>
+### <a name="description"></a><span data-ttu-id="70a22-110">说明</span><span class="sxs-lookup"><span data-stu-id="70a22-110">Description</span></span>
 
-<span data-ttu-id="deea5-111">下面的示例演示对**PlayOnPhone**请求成功响应。</span><span class="sxs-lookup"><span data-stu-id="deea5-111">The following example shows a successful response to the **PlayOnPhone** request.</span></span> 
+<span data-ttu-id="70a22-111">下面的示例演示对**PlayOnPhone**请求成功响应。</span><span class="sxs-lookup"><span data-stu-id="70a22-111">The following example shows a successful response to the **PlayOnPhone** request.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="deea5-112">代码</span><span class="sxs-lookup"><span data-stu-id="deea5-112">Code</span></span>
+### <a name="code"></a><span data-ttu-id="70a22-112">代码</span><span class="sxs-lookup"><span data-stu-id="70a22-112">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -83,8 +83,8 @@ ms.locfileid: "19826819"
 </s:Envelope>
 ```
 
-## <a name="see-also"></a><span data-ttu-id="deea5-113">另请参阅</span><span class="sxs-lookup"><span data-stu-id="deea5-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="70a22-113">另请参阅</span><span class="sxs-lookup"><span data-stu-id="70a22-113">See also</span></span>
 
-- [<span data-ttu-id="deea5-114">Exchange 中的 EWS 操作</span><span class="sxs-lookup"><span data-stu-id="deea5-114">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
-- [<span data-ttu-id="deea5-115">在交换 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="deea5-115">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="70a22-114">Exchange 中的 EWS 操作</span><span class="sxs-lookup"><span data-stu-id="70a22-114">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
+- [<span data-ttu-id="70a22-115">在交换 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="70a22-115">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

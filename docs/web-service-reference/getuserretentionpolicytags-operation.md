@@ -12,33 +12,33 @@ ms.openlocfilehash: 2b1267ce6822c7bad05ad2ef88547ba75c632ab0
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825700"
 ---
-# <a name="getuserretentionpolicytags-operation"></a><span data-ttu-id="36669-103">GetUserRetentionPolicyTags 操作</span><span class="sxs-lookup"><span data-stu-id="36669-103">GetUserRetentionPolicyTags operation</span></span>
+# <a name="getuserretentionpolicytags-operation"></a><span data-ttu-id="cb755-103">GetUserRetentionPolicyTags 操作</span><span class="sxs-lookup"><span data-stu-id="cb755-103">GetUserRetentionPolicyTags operation</span></span>
 
-<span data-ttu-id="36669-104">查找有关**GetUserRetentionPolicyTags** EWS 操作的信息。</span><span class="sxs-lookup"><span data-stu-id="36669-104">Find information about the **GetUserRetentionPolicyTags** EWS operation.</span></span> 
+<span data-ttu-id="cb755-104">查找有关**GetUserRetentionPolicyTags** EWS 操作的信息。</span><span class="sxs-lookup"><span data-stu-id="cb755-104">Find information about the **GetUserRetentionPolicyTags** EWS operation.</span></span> 
   
-<span data-ttu-id="36669-105">**GetUserRetentionPolicyTags**操作获取所有默认、 系统文件夹和与用户通过系统策略关联或已由用户应用个人标记的列表。</span><span class="sxs-lookup"><span data-stu-id="36669-105">The **GetUserRetentionPolicyTags** operation gets a list of all default, system folder, and personal tags that are associated with a user by means of a system policy or that were applied by the user.</span></span> 
+<span data-ttu-id="cb755-105">**GetUserRetentionPolicyTags**操作获取所有默认、 系统文件夹和与用户通过系统策略关联或已由用户应用个人标记的列表。</span><span class="sxs-lookup"><span data-stu-id="cb755-105">The **GetUserRetentionPolicyTags** operation gets a list of all default, system folder, and personal tags that are associated with a user by means of a system policy or that were applied by the user.</span></span> 
   
-<span data-ttu-id="36669-106">Exchange Server 2013 中引入了此操作。</span><span class="sxs-lookup"><span data-stu-id="36669-106">This operation was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="cb755-106">Exchange Server 2013 中引入了此操作。</span><span class="sxs-lookup"><span data-stu-id="cb755-106">This operation was introduced in Exchange Server 2013.</span></span>
   
-## <a name="using-the-getuserretentionpolicytags-operation"></a><span data-ttu-id="36669-107">使用 GetUserRetentionPolicyTags 操作</span><span class="sxs-lookup"><span data-stu-id="36669-107">Using the GetUserRetentionPolicyTags operation</span></span>
+## <a name="using-the-getuserretentionpolicytags-operation"></a><span data-ttu-id="cb755-107">使用 GetUserRetentionPolicyTags 操作</span><span class="sxs-lookup"><span data-stu-id="cb755-107">Using the GetUserRetentionPolicyTags operation</span></span>
 
-<span data-ttu-id="36669-108">此操作返回的显示名称、 保留 ID、 保留期、 保留类型、 保留操作和说明标记和**IsVisible**、 **OptedInto**和**IsArchive**属性的值。</span><span class="sxs-lookup"><span data-stu-id="36669-108">This operation returns the display name, retention ID, retention period, retention type, retention action, and description tags, and the values for the **IsVisible**, **OptedInto**, and **IsArchive** properties.</span></span> 
+<span data-ttu-id="cb755-108">此操作返回的显示名称、 保留 ID、 保留期、 保留类型、 保留操作和说明标记和**IsVisible**、 **OptedInto**和**IsArchive**属性的值。</span><span class="sxs-lookup"><span data-stu-id="cb755-108">This operation returns the display name, retention ID, retention period, retention type, retention action, and description tags, and the values for the **IsVisible**, **OptedInto**, and **IsArchive** properties.</span></span> 
   
-### <a name="getuserretentionpolicytags-operation-soap-headers"></a><span data-ttu-id="36669-109">GetUserRetentionPolicyTags 操作 SOAP 标头</span><span class="sxs-lookup"><span data-stu-id="36669-109">GetUserRetentionPolicyTags operation SOAP headers</span></span>
+### <a name="getuserretentionpolicytags-operation-soap-headers"></a><span data-ttu-id="cb755-109">GetUserRetentionPolicyTags 操作 SOAP 标头</span><span class="sxs-lookup"><span data-stu-id="cb755-109">GetUserRetentionPolicyTags operation SOAP headers</span></span>
 
-<span data-ttu-id="36669-110">**GetUserRetentionPolicyTags**操作可以使用下表中列出的 SOAP 标头。</span><span class="sxs-lookup"><span data-stu-id="36669-110">The **GetUserRetentionPolicyTags** operation can use the SOAP headers that are listed in the following table.</span></span> 
+<span data-ttu-id="cb755-110">**GetUserRetentionPolicyTags**操作可以使用下表中列出的 SOAP 标头。</span><span class="sxs-lookup"><span data-stu-id="cb755-110">The **GetUserRetentionPolicyTags** operation can use the SOAP headers that are listed in the following table.</span></span> 
   
-|<span data-ttu-id="36669-111">**标头名称**</span><span class="sxs-lookup"><span data-stu-id="36669-111">**Header name**</span></span>|<span data-ttu-id="36669-112">**元素**</span><span class="sxs-lookup"><span data-stu-id="36669-112">**Element**</span></span>|<span data-ttu-id="36669-113">**说明**</span><span class="sxs-lookup"><span data-stu-id="36669-113">**Description**</span></span>|
+|<span data-ttu-id="cb755-111">**标头名称**</span><span class="sxs-lookup"><span data-stu-id="cb755-111">**Header name**</span></span>|<span data-ttu-id="cb755-112">**元素**</span><span class="sxs-lookup"><span data-stu-id="cb755-112">**Element**</span></span>|<span data-ttu-id="cb755-113">**说明**</span><span class="sxs-lookup"><span data-stu-id="cb755-113">**Description**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="36669-114">**RequestVersion**</span><span class="sxs-lookup"><span data-stu-id="36669-114">**RequestVersion**</span></span> <br/> |[<span data-ttu-id="36669-115">RequestServerVersion</span><span class="sxs-lookup"><span data-stu-id="36669-115">RequestServerVersion</span></span>](requestserverversion.md) <br/> |<span data-ttu-id="36669-116">标识操作请求的架构版本。</span><span class="sxs-lookup"><span data-stu-id="36669-116">Identifies the schema version for the operation request.</span></span> <span data-ttu-id="36669-117">这是适用于请求。</span><span class="sxs-lookup"><span data-stu-id="36669-117">This is applicable to a request.</span></span>  <br/> |
-|<span data-ttu-id="36669-118">**ServerVersion**</span><span class="sxs-lookup"><span data-stu-id="36669-118">**ServerVersion**</span></span> <br/> |[<span data-ttu-id="36669-119">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="36669-119">ServerVersionInfo</span></span>](serverversioninfo.md) <br/> |<span data-ttu-id="36669-120">标识响应该请求的服务器的版本。</span><span class="sxs-lookup"><span data-stu-id="36669-120">Identifies the version of the server that responded to the request.</span></span> <span data-ttu-id="36669-121">这是适用于响应。</span><span class="sxs-lookup"><span data-stu-id="36669-121">This is applicable to a response.</span></span>  <br/> |
+|<span data-ttu-id="cb755-114">**RequestVersion**</span><span class="sxs-lookup"><span data-stu-id="cb755-114">**RequestVersion**</span></span> <br/> |[<span data-ttu-id="cb755-115">RequestServerVersion</span><span class="sxs-lookup"><span data-stu-id="cb755-115">RequestServerVersion</span></span>](requestserverversion.md) <br/> |<span data-ttu-id="cb755-116">标识操作请求的架构版本。</span><span class="sxs-lookup"><span data-stu-id="cb755-116">Identifies the schema version for the operation request.</span></span> <span data-ttu-id="cb755-117">这是适用于请求。</span><span class="sxs-lookup"><span data-stu-id="cb755-117">This is applicable to a request.</span></span>  <br/> |
+|<span data-ttu-id="cb755-118">**ServerVersion**</span><span class="sxs-lookup"><span data-stu-id="cb755-118">**ServerVersion**</span></span> <br/> |[<span data-ttu-id="cb755-119">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="cb755-119">ServerVersionInfo</span></span>](serverversioninfo.md) <br/> |<span data-ttu-id="cb755-120">标识响应该请求的服务器的版本。</span><span class="sxs-lookup"><span data-stu-id="cb755-120">Identifies the version of the server that responded to the request.</span></span> <span data-ttu-id="cb755-121">这是适用于响应。</span><span class="sxs-lookup"><span data-stu-id="cb755-121">This is applicable to a response.</span></span>  <br/> |
    
-## <a name="getuserretentionpolicytags-operation-request-example"></a><span data-ttu-id="36669-122">GetUserRetentionPolicyTags 操作请求示例</span><span class="sxs-lookup"><span data-stu-id="36669-122">GetUserRetentionPolicyTags operation request example</span></span>
+## <a name="getuserretentionpolicytags-operation-request-example"></a><span data-ttu-id="cb755-122">GetUserRetentionPolicyTags 操作请求示例</span><span class="sxs-lookup"><span data-stu-id="cb755-122">GetUserRetentionPolicyTags operation request example</span></span>
 
-<span data-ttu-id="36669-123">**GetUserRetentionPolicyTags**操作请求的下面的示例演示如何获取当前用户标记的列表。</span><span class="sxs-lookup"><span data-stu-id="36669-123">The following example of a **GetUserRetentionPolicyTags** operation request shows how to get a list of tags for the current user.</span></span> 
+<span data-ttu-id="cb755-123">**GetUserRetentionPolicyTags**操作请求的下面的示例演示如何获取当前用户标记的列表。</span><span class="sxs-lookup"><span data-stu-id="cb755-123">The following example of a **GetUserRetentionPolicyTags** operation request shows how to get a list of tags for the current user.</span></span> 
   
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -56,13 +56,13 @@ ms.locfileid: "19825700"
 </soap:Envelope>
 ```
 
-<span data-ttu-id="36669-124">请求 SOAP 正文包含以下元素：</span><span class="sxs-lookup"><span data-stu-id="36669-124">The request SOAP body contains the following element:</span></span>
+<span data-ttu-id="cb755-124">请求 SOAP 正文包含以下元素：</span><span class="sxs-lookup"><span data-stu-id="cb755-124">The request SOAP body contains the following element:</span></span>
   
-- [<span data-ttu-id="36669-125">GetUserRetentionPolicyTags</span><span class="sxs-lookup"><span data-stu-id="36669-125">GetUserRetentionPolicyTags</span></span>](getuserretentionpolicytags.md)
+- [<span data-ttu-id="cb755-125">GetUserRetentionPolicyTags</span><span class="sxs-lookup"><span data-stu-id="cb755-125">GetUserRetentionPolicyTags</span></span>](getuserretentionpolicytags.md)
     
-## <a name="successful-getuserretentionpolicytags-operation-response"></a><span data-ttu-id="36669-126">成功 GetUserRetentionPolicyTags 操作响应</span><span class="sxs-lookup"><span data-stu-id="36669-126">Successful GetUserRetentionPolicyTags operation response</span></span>
+## <a name="successful-getuserretentionpolicytags-operation-response"></a><span data-ttu-id="cb755-126">成功 GetUserRetentionPolicyTags 操作响应</span><span class="sxs-lookup"><span data-stu-id="cb755-126">Successful GetUserRetentionPolicyTags operation response</span></span>
 
-<span data-ttu-id="36669-127">下面的示例演示对**GetUserRetentionPolicyTags**操作请求成功响应。</span><span class="sxs-lookup"><span data-stu-id="36669-127">The following example shows a successful response to a **GetUserRetentionPolicyTags** operation request.</span></span> 
+<span data-ttu-id="cb755-127">下面的示例演示对**GetUserRetentionPolicyTags**操作请求成功响应。</span><span class="sxs-lookup"><span data-stu-id="cb755-127">The following example shows a successful response to a **GetUserRetentionPolicyTags** operation request.</span></span> 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -157,41 +157,41 @@ ms.locfileid: "19825700"
 
 ```
 
-<span data-ttu-id="36669-128">响应 SOAP 正文中包含以下元素：</span><span class="sxs-lookup"><span data-stu-id="36669-128">The response SOAP body contains the following elements:</span></span>
+<span data-ttu-id="cb755-128">响应 SOAP 正文中包含以下元素：</span><span class="sxs-lookup"><span data-stu-id="cb755-128">The response SOAP body contains the following elements:</span></span>
   
-- [<span data-ttu-id="36669-129">GetUserRetentionPolicyTagsResponse</span><span class="sxs-lookup"><span data-stu-id="36669-129">GetUserRetentionPolicyTagsResponse</span></span>](getuserretentionpolicytagsresponse.md)
+- [<span data-ttu-id="cb755-129">GetUserRetentionPolicyTagsResponse</span><span class="sxs-lookup"><span data-stu-id="cb755-129">GetUserRetentionPolicyTagsResponse</span></span>](getuserretentionpolicytagsresponse.md)
     
-- [<span data-ttu-id="36669-130">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="36669-130">ResponseCode</span></span>](responsecode.md)
+- [<span data-ttu-id="cb755-130">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="cb755-130">ResponseCode</span></span>](responsecode.md)
     
-- [<span data-ttu-id="36669-131">RetentionPolicyTags</span><span class="sxs-lookup"><span data-stu-id="36669-131">RetentionPolicyTags</span></span>](retentionpolicytags.md)
+- [<span data-ttu-id="cb755-131">RetentionPolicyTags</span><span class="sxs-lookup"><span data-stu-id="cb755-131">RetentionPolicyTags</span></span>](retentionpolicytags.md)
     
-- [<span data-ttu-id="36669-132">RetentionPolicyTag</span><span class="sxs-lookup"><span data-stu-id="36669-132">RetentionPolicyTag</span></span>](retentionpolicytag.md)
+- [<span data-ttu-id="cb755-132">RetentionPolicyTag</span><span class="sxs-lookup"><span data-stu-id="cb755-132">RetentionPolicyTag</span></span>](retentionpolicytag.md)
     
-- [<span data-ttu-id="36669-133">显示名称 (字符串)</span><span class="sxs-lookup"><span data-stu-id="36669-133">DisplayName (string)</span></span>](displayname-string.md)
+- [<span data-ttu-id="cb755-133">显示名称 (字符串)</span><span class="sxs-lookup"><span data-stu-id="cb755-133">DisplayName (string)</span></span>](displayname-string.md)
     
-- [<span data-ttu-id="36669-134">RetentionId</span><span class="sxs-lookup"><span data-stu-id="36669-134">RetentionId</span></span>](retentionid.md)
+- [<span data-ttu-id="cb755-134">RetentionId</span><span class="sxs-lookup"><span data-stu-id="cb755-134">RetentionId</span></span>](retentionid.md)
     
-- [<span data-ttu-id="36669-135">RetentionPeriod</span><span class="sxs-lookup"><span data-stu-id="36669-135">RetentionPeriod</span></span>](retentionperiod.md)
+- [<span data-ttu-id="cb755-135">RetentionPeriod</span><span class="sxs-lookup"><span data-stu-id="cb755-135">RetentionPeriod</span></span>](retentionperiod.md)
     
-- [<span data-ttu-id="36669-136">类型 (ElcFolderType)</span><span class="sxs-lookup"><span data-stu-id="36669-136">Type (ElcFolderType)</span></span>](type-elcfoldertype.md)
+- [<span data-ttu-id="cb755-136">类型 (ElcFolderType)</span><span class="sxs-lookup"><span data-stu-id="cb755-136">Type (ElcFolderType)</span></span>](type-elcfoldertype.md)
     
-- [<span data-ttu-id="36669-137">RetentionAction</span><span class="sxs-lookup"><span data-stu-id="36669-137">RetentionAction</span></span>](retentionaction.md)
+- [<span data-ttu-id="cb755-137">RetentionAction</span><span class="sxs-lookup"><span data-stu-id="cb755-137">RetentionAction</span></span>](retentionaction.md)
     
-- [<span data-ttu-id="36669-138">说明</span><span class="sxs-lookup"><span data-stu-id="36669-138">Description</span></span>](description.md)
+- [<span data-ttu-id="cb755-138">说明</span><span class="sxs-lookup"><span data-stu-id="cb755-138">Description</span></span>](description.md)
     
-- [<span data-ttu-id="36669-139">IsVisible</span><span class="sxs-lookup"><span data-stu-id="36669-139">IsVisible</span></span>](isvisible.md)
+- [<span data-ttu-id="cb755-139">IsVisible</span><span class="sxs-lookup"><span data-stu-id="cb755-139">IsVisible</span></span>](isvisible.md)
     
-- [<span data-ttu-id="36669-140">OptedInto</span><span class="sxs-lookup"><span data-stu-id="36669-140">OptedInto</span></span>](optedinto.md)
+- [<span data-ttu-id="cb755-140">OptedInto</span><span class="sxs-lookup"><span data-stu-id="cb755-140">OptedInto</span></span>](optedinto.md)
     
-- [<span data-ttu-id="36669-141">IsArchive</span><span class="sxs-lookup"><span data-stu-id="36669-141">IsArchive</span></span>](isarchive.md)
+- [<span data-ttu-id="cb755-141">IsArchive</span><span class="sxs-lookup"><span data-stu-id="cb755-141">IsArchive</span></span>](isarchive.md)
     
-## <a name="getuserretentionpolicytags-operation-error-response"></a><span data-ttu-id="36669-142">GetUserRetentionPolicyTags 操作错误响应</span><span class="sxs-lookup"><span data-stu-id="36669-142">GetUserRetentionPolicyTags operation error response</span></span>
+## <a name="getuserretentionpolicytags-operation-error-response"></a><span data-ttu-id="cb755-142">GetUserRetentionPolicyTags 操作错误响应</span><span class="sxs-lookup"><span data-stu-id="cb755-142">GetUserRetentionPolicyTags operation error response</span></span>
 
-<span data-ttu-id="36669-143">是通用的 EWS 的错误代码，请参阅[ResponseCode](responsecode.md)。</span><span class="sxs-lookup"><span data-stu-id="36669-143">For error codes that are generic to EWS, see [ResponseCode](responsecode.md).</span></span>
+<span data-ttu-id="cb755-143">是通用的 EWS 的错误代码，请参阅[ResponseCode](responsecode.md)。</span><span class="sxs-lookup"><span data-stu-id="cb755-143">For error codes that are generic to EWS, see [ResponseCode](responsecode.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="36669-144">另请参阅</span><span class="sxs-lookup"><span data-stu-id="36669-144">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="cb755-144">另请参阅</span><span class="sxs-lookup"><span data-stu-id="cb755-144">See also</span></span>
 
 
 
-[<span data-ttu-id="36669-145">EWS 中的保留策略</span><span class="sxs-lookup"><span data-stu-id="36669-145">Retention policies in EWS</span></span>](http://msdn.microsoft.com/library/a132872f-0228-4bcb-aac2-bf64fb07e58e%28Office.15%29.aspx)
+[<span data-ttu-id="cb755-145">EWS 中的保留策略</span><span class="sxs-lookup"><span data-stu-id="cb755-145">Retention policies in EWS</span></span>](http://msdn.microsoft.com/library/a132872f-0228-4bcb-aac2-bf64fb07e58e%28Office.15%29.aspx)
 
