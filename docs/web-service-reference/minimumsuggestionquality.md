@@ -16,7 +16,7 @@ ms.openlocfilehash: ac79682bd761f678f23fc2d698a50fd7704f6fab
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826468"
 ---
 # <a name="minimumsuggestionquality"></a>MinimumSuggestionQuality
@@ -63,7 +63,7 @@ ms.locfileid: "19826468"
 |**公平** <br/> |使用[GoodThreshold](goodthreshold.md)元素设置了被视为公平的百分比。  <br/> |
 |**不佳** <br/> |50%或更多与会者有与建议的会议时间冲突。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 如果使用[SuggestionsViewOptions](suggestionsviewoptions.md)元素，此元素是必需的。 
   

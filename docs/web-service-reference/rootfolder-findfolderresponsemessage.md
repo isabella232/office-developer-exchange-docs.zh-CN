@@ -16,7 +16,7 @@ ms.openlocfilehash: 1cd79d5fa34318e7fe29606df84cbf0ef0520b93
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827253"
 ---
 # <a name="rootfolder-findfolderresponsemessage"></a>RootFolder (FindFolderResponseMessage)
@@ -56,7 +56,7 @@ ms.locfileid: "19827253"
 |:-----|:-----|
 |[FindFolderResponseMessage](findfolderresponsemessage.md) <br/> |包含状态和[FindFolder 操作](findfolder-operation.md)请求的结果。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于运行 Microsoft Exchange Server 2010 的安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
   

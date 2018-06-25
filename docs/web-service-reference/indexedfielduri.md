@@ -16,7 +16,7 @@ ms.openlocfilehash: 6a75e8855ecabf15ca31bb1e05d569c258a43b0b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825909"
 ---
 # <a name="indexedfielduri"></a>IndexedFieldURI

@@ -16,7 +16,7 @@ ms.openlocfilehash: 93c6f90d0866ae13618391b8544ab593fe33922b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826886"
 ---
 # <a name="previouswatermark"></a>PreviousWatermark
@@ -50,7 +50,7 @@ ms.locfileid: "19826886"
 
 文本值是必需的。 文本值表示最新的水印。 文本值不能为空字符串。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 **PreviousWatermark**属性可确定上次成功通知客户端。 例如，如果订阅具有三个事件水印 1、 2 和 3，并将下一个通知发送**PreviousWatermark**值为 3，客户端可以进行比较此值为水印值接收的最后一个通知。 这样，客户端以确保事件的连续性。 
   

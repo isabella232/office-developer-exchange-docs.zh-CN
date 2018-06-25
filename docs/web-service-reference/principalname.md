@@ -16,7 +16,7 @@ ms.openlocfilehash: d8557ce0435a11a5602372517db1f576028a9c97
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826882"
 ---
 # <a name="principalname"></a>PrincipalName
@@ -50,7 +50,7 @@ ms.locfileid: "19826882"
 
 文本值表示的用户的 UPN。 在 Active Directory 目录服务的用户对象上存在此值。 此部件包含用户登录名和域名标识所在的域中的用户帐户，采用以下格式： `someone@example.com`。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于运行 Microsoft Exchange Server 2010 的安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
   

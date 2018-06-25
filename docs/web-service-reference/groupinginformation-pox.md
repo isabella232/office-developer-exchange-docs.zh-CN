@@ -11,7 +11,7 @@ ms.openlocfilehash: bcde002c794ac79d9515befc0755c1f954ee8706
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825781"
 ---
 # <a name="groupinginformation-pox"></a>GroupingInformation (POX)
@@ -54,7 +54,7 @@ ms.locfileid: "19825781"
 
 其他邮箱的**GroupingInformation**元素的值进行比较的文本值。 具有相同的值，并使用相同的 Exchange Web Services (EWS) 终点的邮箱的组合可以在一起，以维护关联。 有关详细信息，请参阅[在 Exchange 维护一组订阅和邮箱服务器之间的关联](http://msdn.microsoft.com/library/1bda4094-88c3-4f61-9219-6ee70f6e81cf%28Office.15%29.aspx)。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 **GroupingInformation**元素仅适用于具有[类型 (POX)](type-pox.md)子元素的值为"EXPR"的**协议**元素。 
   

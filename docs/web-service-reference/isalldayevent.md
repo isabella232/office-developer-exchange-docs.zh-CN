@@ -16,7 +16,7 @@ ms.openlocfilehash: 81cf1e7d8338275540f264de7cbf194005e7770c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825983"
 ---
 # <a name="isalldayevent"></a>IsAllDayEvent
@@ -51,7 +51,7 @@ ms.locfileid: "19825983"
 
 如果此元素是包含，则需要一个文本值，它代表一个布尔值。 值为**true**指示该项表示全天事件。 如果值为**false**指示项目跨越小于用户的工作时间。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 全天事件跨持续时间的工作时间内定义的邮箱。
   

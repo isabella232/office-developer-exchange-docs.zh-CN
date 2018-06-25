@@ -12,7 +12,7 @@ ms.openlocfilehash: 735a962e6abca5ff81194242ea747a05bf92424e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826225"
 ---
 # <a name="language"></a>语言

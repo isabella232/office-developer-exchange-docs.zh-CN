@@ -12,7 +12,7 @@ ms.openlocfilehash: 735be6a0f6ec53bd0e270fa7a4d5dc43af926b88
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826200"
 ---
 # <a name="lastattempttime"></a>LastAttemptTime

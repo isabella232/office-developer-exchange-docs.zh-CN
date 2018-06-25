@@ -16,7 +16,7 @@ ms.openlocfilehash: 0d2bc131763c4ffa399fe9397d247d89a84e0d1b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826241"
 ---
 # <a name="location"></a>位置

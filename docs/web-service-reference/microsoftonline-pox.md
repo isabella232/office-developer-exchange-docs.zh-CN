@@ -11,7 +11,7 @@ ms.openlocfilehash: b952bfda17b30dcf29812697d225db32718d9781
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826458"
 ---
 # <a name="microsoftonline-pox"></a>MicrosoftOnline (POX)
@@ -48,7 +48,7 @@ ms.locfileid: "19826458"
 |:-----|:-----|
 |[帐户 (POX)](account-pox.md) <br/> |指定用户帐户设置，或包含错误响应。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 文本值指示是否在用户邮箱位于 Exchange Online 中。 值是**true**如果用户的邮箱位于承载在 Exchange Online;否则为**false**。
   

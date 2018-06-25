@@ -12,7 +12,7 @@ ms.openlocfilehash: f3220d957482ea04c46b014cdf1c67025d5ec21a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827346"
 ---
 # <a name="sendprompt"></a>SendPrompt

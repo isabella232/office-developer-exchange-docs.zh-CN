@@ -16,7 +16,7 @@ ms.openlocfilehash: df60294e7d83b1459e5cca7d75c2b6b4bb9d931d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826281"
 ---
 # <a name="mailboxdata"></a>MailboxData
@@ -61,7 +61,7 @@ ms.locfileid: "19826281"
 |:-----|:-----|
 |[MailboxDataArray](mailboxdataarray.md) <br/> |包含要查询的可用性信息的邮箱列表。  <br/> 以下是此元素的 XPath:  <br/>  `/GetUserAvailabilityRequest/MailboxDataArray[i]` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 客户端应用程序可以定义一个许多**MailboxData**元素。 
   

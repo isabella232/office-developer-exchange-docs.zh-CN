@@ -13,7 +13,7 @@ ms.openlocfilehash: d2b9ce663d8245a78acd088b0622406c0dfcb4da
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827374"
 ---
 # <a name="serverdn-pox"></a>ServerDN (POX)
@@ -56,7 +56,7 @@ ms.locfileid: "19827374"
 
 文本值表示 Exchange 服务器的可分辨的名称。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 [类型 (POX)](type-pox.md)等于汇兑损益时才使用**ServerDN**值 
   

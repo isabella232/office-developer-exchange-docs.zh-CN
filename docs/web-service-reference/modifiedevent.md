@@ -16,7 +16,7 @@ ms.openlocfilehash: fb464fb0a270d8ca7d33d40e5425e260970b2f1e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826482"
 ---
 # <a name="modifiedevent"></a>ModifiedEvent
@@ -59,7 +59,7 @@ ms.locfileid: "19826482"
 |:-----|:-----|
 |[通知](notification-ex15websvcsotherref.md) <br/> |包含有关订阅和自上次通知以来发生的事件的信息。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 为文件夹中的项目的每次修改生成两个已修改的事件。 一个事件是与更改的项相关的。 与项目的父文件夹相关其他事件。 这是针对创建订阅的同一个文件夹。 与文件夹关联的事件用于通信的潜在更改到的文件夹的[UnreadCount](unreadcount.md)属性。 
   

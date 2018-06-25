@@ -16,7 +16,7 @@ ms.openlocfilehash: 3254becf8c6885f7d6dc401ecf31da149e7de2d4
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825945"
 ---
 # <a name="intendedfreebusystatus"></a>IntendedFreeBusyStatus

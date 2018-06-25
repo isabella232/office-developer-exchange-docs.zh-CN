@@ -16,7 +16,7 @@ ms.openlocfilehash: fded5cd1891a406f0979cf4bec7321779d70ab3a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825733"
 ---
 # <a name="globallastdeliverytime"></a>GlobalLastDeliveryTime
@@ -58,7 +58,7 @@ ms.locfileid: "19825733"
 
 **GlobalLastDeliveryTime**元素的文本值的日期和时间的邮箱中的所有文件夹中最后一次此对话中收到的邮件。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素是在 Exchange Server 2010 Service Pack 1 (SP1) 中引入的。描述此元素的架构位于承载 Exchange Web 服务的 IIS 虚拟目录。
   

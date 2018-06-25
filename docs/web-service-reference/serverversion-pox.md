@@ -13,7 +13,7 @@ ms.openlocfilehash: ef0562e166094d75d0dd92f5f48bb558e11a2cad
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827391"
 ---
 # <a name="serverversion-pox"></a>ServerVersion (POX)
@@ -52,7 +52,7 @@ ms.locfileid: "19827391"
 
 文本值表示 Exchange server 版本数。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 **ServerVersion**值才等于 EXCH 或 EXPR[类型 (POX)](type-pox.md)元素是否有效。 **ServerVersion**值是一个十六进制数字，包含 MajorVersion、 MinorVersion 和 MajorBuildNumber 的服务器。 
   

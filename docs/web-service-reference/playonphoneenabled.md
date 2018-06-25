@@ -16,7 +16,7 @@ ms.openlocfilehash: 1a6c5c41a4fe723f37d07ad0151dfbd6512cf4f7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826829"
 ---
 # <a name="playonphoneenabled"></a>PlayOnPhoneEnabled
@@ -50,7 +50,7 @@ ms.locfileid: "19826829"
 
 **PlayOnPhoneEnabled**元素具有值为**true** ，如果播放接听电话启用的帐户;否则，值为**false**。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素是必需的。
   

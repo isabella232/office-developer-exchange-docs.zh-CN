@@ -11,7 +11,7 @@ ms.openlocfilehash: 3823236081961128b31bb2c0f563062897c55814
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825950"
 ---
 # <a name="internalurl-pox"></a>InternalUrl (POX)
@@ -45,7 +45,7 @@ ms.locfileid: "19825950"
 
 文本值表示可用于访问通讯簿服务器或从用户的组织内部的用户的邮箱的 URL。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 **InternalUrl**元素中可能存在一个响应，其中具有与**Type**属性值为"mapiHttp"[协议 (POX)](protocol-pox.md)元素。 
   

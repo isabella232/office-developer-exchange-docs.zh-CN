@@ -13,7 +13,7 @@ ms.openlocfilehash: 4ad3003603a4b62101a76082713f62752b43ecaa
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825846"
 ---
 # <a name="hostname-soap"></a>主机名 (SOAP)

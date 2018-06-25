@@ -16,7 +16,7 @@ ms.openlocfilehash: 25a60b44dbdca89d431dc202f06acb3055958a72
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826109"
 ---
 # <a name="isteamtask"></a>IsTeamTask

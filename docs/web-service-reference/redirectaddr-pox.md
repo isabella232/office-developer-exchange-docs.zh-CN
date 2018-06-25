@@ -13,7 +13,7 @@ ms.openlocfilehash: fe15054b9962fc2decf52ac3c42536e36358948a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827020"
 ---
 # <a name="redirectaddr-pox"></a>RedirectAddr (POX)
@@ -54,7 +54,7 @@ ms.locfileid: "19827020"
 
 文本值代表应用于后续的自动发现请求的电子邮件地址。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 如果此元素的自动发现响应中存在，请通过使用**RedirectAddr**元素的文本值中进行另一个请求。 
   

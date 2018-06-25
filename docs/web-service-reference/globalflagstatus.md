@@ -16,7 +16,7 @@ ms.openlocfilehash: 0c560c065463b8b619f96ecef73d1120b216ca35
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825713"
 ---
 # <a name="globalflagstatus"></a>GlobalFlagStatus

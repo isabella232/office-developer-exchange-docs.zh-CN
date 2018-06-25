@@ -12,7 +12,7 @@ ms.openlocfilehash: 60fbb3ad34c9ba34e96c91da99d44a17843c0138
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827230"
 ---
 # <a name="retentionpolicytags"></a>RetentionPolicyTags

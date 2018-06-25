@@ -12,7 +12,7 @@ ms.openlocfilehash: 146ece430436c60fced53d4dfbfd7d92c0e42e98
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826352"
 ---
 # <a name="markasjunkresponsemessage"></a>MarkAsJunkResponseMessage

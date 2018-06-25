@@ -16,7 +16,7 @@ ms.openlocfilehash: fe001b70633198c0c1351e3c11c9542ed556a938
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825743"
 ---
 # <a name="globalunreadcount"></a>GlobalUnreadCount

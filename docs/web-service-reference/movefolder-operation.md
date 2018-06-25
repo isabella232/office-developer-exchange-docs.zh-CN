@@ -16,14 +16,14 @@ ms.openlocfilehash: 5da6929f11ce9ba74db190db6d799f25974d2192
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826490"
 ---
 # <a name="movefolder-operation"></a>MoveFolder 操作
 
 MoveFolder 操作将从指定的文件夹的文件夹，并将其放入另一个文件夹。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 MoveFolder 操作类似于 CopyFolder 操作。 不能移动可分辨的文件夹。 您可以将多个文件夹一次移动到目标文件夹。
   

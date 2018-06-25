@@ -16,7 +16,7 @@ ms.openlocfilehash: 73d052ef16bc51cd574eb8b04e21546f97347258
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826476"
 ---
 # <a name="month"></a>月
@@ -51,7 +51,7 @@ ms.locfileid: "19826476"
 
 文本值是必需的。 此值表示相应月份的序号排名的匹配项，并且必须是介于 1 和 12。 这是短整数数据类型。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 [StandardTime](standardtime.md)元素，其中包含的值为 5 [DayOrder](dayorder.md)元素的值为 10， **Month**元素和的值为星期日[(TimeZone) DayOfWeek](dayofweek-timezone.md)元素是指从标准时间的转换第十个月的第五个星期日发生夏时制。 
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: 5303a7568e017999f2be69c50588832748b5668a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827610"
 ---
 # <a name="subject-calendareventdetails"></a>主题 (CalendarEventDetails)

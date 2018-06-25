@@ -16,7 +16,7 @@ ms.openlocfilehash: f2d927ae18ac68523d4cdd173f0474fbbeb36c98
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827390"
 ---
 # <a name="serverreplywithmessage"></a>ServerReplyWithMessage

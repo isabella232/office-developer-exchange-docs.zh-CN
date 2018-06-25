@@ -13,7 +13,7 @@ ms.openlocfilehash: 3b634f1a3a3d44b6aae1a826a005149200641dcb
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827027"
 ---
 # <a name="redirecturl-pox"></a>RedirectUrl (POX)
@@ -54,7 +54,7 @@ ms.locfileid: "19827027"
 
 文本值表示用于获取自动发现设置客户端访问服务器的 URL。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 客户端应用程序应停止 10 次重定向后重定向。
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: 382b4d866c95de98bd444cd6226d71813889d4f4
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825757"
 ---
 # <a name="groupattendeeconflictdata"></a>GroupAttendeeConflictData
@@ -66,7 +66,7 @@ ms.locfileid: "19825757"
 |:-----|:-----|
 |[AttendeeConflictDataArray](attendeeconflictdataarray.md) <br/> |包含标识[GetUserAvailability 操作](getuseravailability-operation.md)中的查询与会者冲突数据的数组。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 [GetUserAvailabilityRequest](getuseravailabilityrequest.md)中的与会者解析为通讯组列表时，可以在响应中存在的**GroupAttendeeConflictData**元素。 **GroupAttendeeConflictData**元素标识三种状态的通讯组列表的成员： 可用、 冲突，或没有数据。 通讯组列表扩展将支持多达 100 个成员。 因此， [NumberOfMembers](numberofmembers.md)元素可以包含 100 个成员的最大值。 通讯组列表扩展是递归。 如果通讯组列表中包含子通讯组列表扩展到超过 100 个成员的总父成员资格，子通讯组列表不会被展开，并将计数为一个条目的[NumberOfMembersWithNoData](numberofmemberswithnodata.md)元素计数。 如果可以展开子通讯组列表，并且总父成员资格不会展开到超过 100 个成员，扩展其成员资格和成员计数添加到**GroupAttendeeConflictData**元素的子元素。 
   

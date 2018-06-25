@@ -16,7 +16,7 @@ ms.openlocfilehash: 406a1974899e89243f52ba7a56afcc172c4f3df6
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825786"
 ---
 # <a name="groups"></a>组
@@ -50,7 +50,7 @@ ms.locfileid: "19825786"
 |:-----|:-----|
 |[RootFolder (FindItemResponseMessage)](rootfolder-finditemresponsemessage.md) <br/> |包含[FindItem 操作](finditem-operation.md)操作过程中的单个根文件夹搜索的结果。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 一个[GroupedItems](groupeditems.md)实例中每个不同组结果，则会发生。 
   

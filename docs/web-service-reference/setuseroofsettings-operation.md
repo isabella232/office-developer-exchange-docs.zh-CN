@@ -16,7 +16,7 @@ ms.openlocfilehash: 51c2f9488f38a4adb0e291c11adc2ebfe3426f25
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827469"
 ---
 # <a name="setuseroofsettings-operation"></a>SetUserOofSettings 操作

@@ -16,7 +16,7 @@ ms.openlocfilehash: e0eb1fbd7155040508daf253f5eb4b1352d7426d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827485"
 ---
 # <a name="sharingfolderid"></a>SharingFolderId

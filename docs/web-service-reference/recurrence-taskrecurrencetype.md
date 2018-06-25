@@ -16,7 +16,7 @@ ms.openlocfilehash: ae2bb35e89a0a50c7ca67cb0e580427150afb99e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827006"
 ---
 # <a name="recurrence-taskrecurrencetype"></a>定期 (TaskRecurrenceType)

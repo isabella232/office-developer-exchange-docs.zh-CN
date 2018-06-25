@@ -16,7 +16,7 @@ ms.openlocfilehash: 8443cf834dfdf104daeaaa92fdee3742c3fa3719
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827162"
 ---
 # <a name="resolvenames-operation"></a>ResolveNames 操作
@@ -27,7 +27,7 @@ ms.locfileid: "19827162"
 
 此操作可用于验证别名并解析为适当的邮箱的用户的显示名称。 如果存在不明确的名称， **ResolveNames**操作响应将提供有关每个邮箱用户的信息，以便客户端应用程序可以解析名称。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 ResolveNames 响应返回最多 100 候选人。 返回 100 候选人应该是查找操作中遇到的第一个 100。
   

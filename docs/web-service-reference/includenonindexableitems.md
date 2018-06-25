@@ -12,7 +12,7 @@ ms.openlocfilehash: ae91a3c6db82aea1d45940603d0ff2064d29f43f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825904"
 ---
 # <a name="includenonindexableitems"></a>IncludeNonIndexableItems

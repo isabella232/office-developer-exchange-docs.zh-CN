@@ -16,7 +16,7 @@ ms.openlocfilehash: c57a7fb4abc2f7ee7b599f56f016811d6ff2c21c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827277"
 ---
 # <a name="saveditemfolderid"></a>SavedItemFolderId

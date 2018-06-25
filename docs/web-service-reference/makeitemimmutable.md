@@ -12,7 +12,7 @@ ms.openlocfilehash: 63c05fd3572c7b4ab93fe098d9165a117849ef02
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826337"
 ---
 # <a name="makeitemimmutable"></a>MakeItemImmutable

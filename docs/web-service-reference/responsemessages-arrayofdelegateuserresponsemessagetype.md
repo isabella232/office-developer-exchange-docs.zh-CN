@@ -16,7 +16,7 @@ ms.openlocfilehash: e4b5567f3ded003e9648eb8ebebfadf8f1748d6c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827193"
 ---
 # <a name="responsemessages-arrayofdelegateuserresponsemessagetype"></a>ResponseMessages (ArrayOfDelegateUserResponseMessageType)
@@ -53,7 +53,7 @@ ms.locfileid: "19827193"
 |[UpdateDelegateResponse](updatedelegateresponse.md) <br/> |包含状态和[UpdateDelegate 操作](updatedelegate-operation.md)请求的结果。  <br/> |
 |[RemoveDelegateResponse](removedelegateresponse.md) <br/> |包含状态和[RemoveDelegate 操作](removedelegate-operation.md)请求的结果。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 [AddDelegate 操作](adddelegate-operation.md)、 [GetDelegate 操作](getdelegate-operation.md)、 [UpdateDelegate 操作](updatedelegate-operation.md)和[RemoveDelegate 操作](removedelegate-operation.md)中使用此元素。 委托管理操作响应的不同于其他响应结构。 委托管理响应消息是强类型。
   

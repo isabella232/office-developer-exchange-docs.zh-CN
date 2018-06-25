@@ -16,7 +16,7 @@ ms.openlocfilehash: e3db685fc4e72e4332eab4a95afb5f844d04c35e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826097"
 ---
 # <a name="isreadreceiptrequested"></a>IsReadReceiptRequested
@@ -62,7 +62,7 @@ ms.locfileid: "19826097"
 
 文本值为**true**指示的已读的回执请求来自项目的收件人。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 如果**IsReadReceiptRequested**为**true**，设置为**true**的[IsRead](isread.md)发送已读的回执。 收件人可以禁止显示设置**IsRead**属性之前提交[SuppressReadReceipt](suppressreadreceipt.md) response 对象已读的回执。 
   

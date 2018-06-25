@@ -12,7 +12,7 @@ ms.openlocfilehash: 7f26b61692c3690074b7c328c53d63087550da15
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826347"
 ---
 # <a name="managers"></a>经理

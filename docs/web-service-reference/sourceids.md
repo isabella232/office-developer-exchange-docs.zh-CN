@@ -16,7 +16,7 @@ ms.openlocfilehash: c9ee9fd01367f714e1cb3770e2be5161cb45d98f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827522"
 ---
 # <a name="sourceids"></a>SourceIds
@@ -58,7 +58,7 @@ ms.locfileid: "19827522"
 |:-----|:-----|
 |[ConvertId](convertid.md) <br/> |定义转换 Exchange 支持格式之间的项目和文件夹标识符的请求。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于运行 Exchange Server 已安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
   

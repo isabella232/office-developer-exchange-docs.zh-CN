@@ -11,7 +11,7 @@ ms.openlocfilehash: 0a62c5145da97976de12e7cdc29800a332877b44
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827489"
 ---
 # <a name="sharingurl-pox"></a>SharingUrl (POX)
@@ -54,7 +54,7 @@ ms.locfileid: "19827489"
 
 文本值表示为跨组织共享日历和联系人使用的共享服务器的 URL。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 **SharingUrl**元素是**协议**元素的可选子元素。 
   

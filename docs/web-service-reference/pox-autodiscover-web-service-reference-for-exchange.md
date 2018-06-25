@@ -13,7 +13,7 @@ ms.openlocfilehash: a8797fe714fd23049094c3ec2475b93fec4282c0
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826867"
 ---
 # <a name="pox-autodiscover-web-service-reference-for-exchange"></a>Exchange POX 自动发现 web 服务引用

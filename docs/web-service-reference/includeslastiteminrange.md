@@ -16,7 +16,7 @@ ms.openlocfilehash: b4786c5aa81e9b4fee98e7ed4238215ff327443e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825906"
 ---
 # <a name="includeslastiteminrange"></a>IncludesLastItemInRange

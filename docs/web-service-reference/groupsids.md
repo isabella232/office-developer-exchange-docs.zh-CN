@@ -16,7 +16,7 @@ ms.openlocfilehash: c24c8ea3c3b7d37f41986997ed924c951b4a48ef
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825790"
 ---
 # <a name="groupsids"></a>GroupSids

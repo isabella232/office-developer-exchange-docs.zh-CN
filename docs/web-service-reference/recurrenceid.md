@@ -16,7 +16,7 @@ ms.openlocfilehash: 078bec85e1ca1530137f9935365d7dd3e530ea34
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827005"
 ---
 # <a name="recurrenceid"></a>RecurrenceId
@@ -54,7 +54,7 @@ ms.locfileid: "19827005"
 
 文本值表示标识日历匹配项的日期/时间值。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此属性与[UID](uid.md)属性用于确定定期日历项目的特定实例。 
   

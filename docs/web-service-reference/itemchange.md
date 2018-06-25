@@ -16,7 +16,7 @@ ms.openlocfilehash: d10ce96cacb0be7411c4e8230ebc9b2803b7a5b1
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826145"
 ---
 # <a name="itemchange"></a>ItemChange
@@ -60,7 +60,7 @@ ms.locfileid: "19826145"
 |:-----|:-----|
 |[ItemChanges](itemchanges.md) <br/> |包含确定项目和更新以应用于项目的[ItemChange](itemchange.md)元素的数组。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/UpdateItem/ItemChanges` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 可在**ItemChange**元素只能包含单个[ItemId](itemid.md)、 [OccurrenceItemId](occurrenceitemid.md)或[RecurringMasterItemId](recurringmasteritemid.md)元素。 
   

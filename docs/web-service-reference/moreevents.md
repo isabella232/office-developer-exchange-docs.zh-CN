@@ -16,7 +16,7 @@ ms.openlocfilehash: cc3f7ed3b4b5f5ce27a9d45d508506bfa62e5086
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826489"
 ---
 # <a name="moreevents"></a>MoreEvents
@@ -50,7 +50,7 @@ ms.locfileid: "19826489"
 
 文本值表示的布尔值。 值为**true**指示多个事件队列中。 如果值为**false**指示的多个事件不会在队列中。 此属性是只读的。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 对于出现通知，此元素中的一个**true**值指示客户端应发出另一个 GetEvents 请求以获取剩余的事件。 假定客户端规范需要事件通知的最小的延迟，GetEvents 请求应继续连续连续，直到**false** **MoreEvents**值返回。 
   

@@ -12,7 +12,7 @@ ms.openlocfilehash: 60d987f475bed5d630a1238550e4d14578ebd0d5
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827016"
 ---
 # <a name="recurringmasteritemidranges"></a>RecurringMasterItemIdRanges

@@ -13,7 +13,7 @@ ms.openlocfilehash: e58ae82ea5ec9d39db0f9219f6019df7da24a343
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826926"
 ---
 # <a name="protocol-pox"></a>协议 (POX)
@@ -147,7 +147,7 @@ ms.locfileid: "19826926"
 |:-----|:-----|
 |[帐户 (POX)](account-pox.md) <br/> |指定用户帐户的设置。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 其[操作 (POX)](action-pox.md)值，它等于**设置**的响应中存在**协议**元素。
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: 2e901ae0df56542f56f247184254294735018468
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826254"
 ---
 # <a name="mailbox-availability"></a>邮箱 （可用性）
@@ -56,7 +56,7 @@ ms.locfileid: "19826254"
 |[GetUserOofSettingsRequest](getuseroofsettingsrequest.md) <br/> |用于获取邮箱用户的外出 (OOF) 设置和消息。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/GetUserOofSettingsRequest` <br/> |
 |[SetUserOofSettingsRequest](setuseroofsettingsrequest.md) <br/> |用于设置邮箱用户的 OOF 设置和消息。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/SetUserOofSettingsRequest` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 电子邮件地址用于标识日历文件夹包含 OOF 设置。 
   

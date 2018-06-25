@@ -16,7 +16,7 @@ ms.openlocfilehash: 484b185db63c9692eaca7e43c49d6e95375a1a98
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827251"
 ---
 # <a name="rootitemid"></a>RootItemId
@@ -57,7 +57,7 @@ ms.locfileid: "19827251"
 |:-----|:-----|
 |[DeleteAttachmentResponseMessage](deleteattachmentresponsemessage.md) <br/> |包含状态和 DeleteAttachment 请求的结果。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 在 DeleteAttachment 响应中仅使用**RootItemId**元素。 这标识的根项目标识符，和更重要的是，与父项的新更改键。 
   

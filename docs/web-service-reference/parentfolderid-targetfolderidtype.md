@@ -16,7 +16,7 @@ ms.openlocfilehash: 61072e1dd3321beb5f3b76d9accf20530b443796
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826686"
 ---
 # <a name="parentfolderid-targetfolderidtype"></a>ParentFolderId (TargetFolderIdType)
@@ -57,7 +57,7 @@ ms.locfileid: "19826686"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 两个子元素用于定义将包含新文件夹的文件夹。 您必须选择[文件夹 Id](folderid.md)或[DistinguishedFolderId](distinguishedfolderid.md)元素来标识新的文件夹的父文件夹。 不能同时使用这两个元素。 此元素需要创建文件夹。 
   

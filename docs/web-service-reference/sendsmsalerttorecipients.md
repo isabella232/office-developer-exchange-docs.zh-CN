@@ -16,7 +16,7 @@ ms.openlocfilehash: b28202c71257fccca67879713d5d7df03f69b06d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827347"
 ---
 # <a name="sendsmsalerttorecipients"></a>SendSMSAlertToRecipients

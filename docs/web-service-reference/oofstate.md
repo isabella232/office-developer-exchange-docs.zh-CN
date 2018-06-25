@@ -16,7 +16,7 @@ ms.openlocfilehash: f97c050aec102b384fa4d98e6dee43befd4dc9ca
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826651"
 ---
 # <a name="oofstate"></a>OofState
@@ -59,7 +59,7 @@ ms.locfileid: "19826651"
     
 **计划**表示由[持续时间 (UserOofSettings)](duration-useroofsettings.md)元素标识时间段内 OOF 状态设置为**已启用**。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素是 SetUsersOofSettingRequest 消息和 GetUserOofSettingResponse 消息中必需的。
   

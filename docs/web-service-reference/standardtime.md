@@ -16,7 +16,7 @@ ms.openlocfilehash: 726c31ffba06c1c437711b88444ec5eba45b520d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827546"
 ---
 # <a name="standardtime"></a>StandardTime
@@ -63,7 +63,7 @@ ms.locfileid: "19827546"
 |:-----|:-----|
 |[TimeZone （可用性）](timezone-availability.md) <br/> | 包含标识时区信息的元素。 此元素还包含有关标准时间和夏时制之间的转换的信息。 <br/><br/>下面是此元素的 XPath 表达式： <br/> <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone` <br/> <br/> `/GetUserAvailabilityRequest/TimeZone` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 **StandardTime**元素表示一个偏移的时间表示的[斜线 (UTC)](bias-utc.md)元素。 子[Bias](bias.md)元素等于 0，标准时间时等于从由[斜线 (UTC)](bias-utc.md)元素的 UTC 的偏向偏移量。 
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: 9777660b1a54bfb5afb6e569ba1009a1654bdef3
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826635"
 ---
 # <a name="numberofmembers"></a>NumberOfMembers
@@ -64,7 +64,7 @@ ms.locfileid: "19826635"
 |:-----|:-----|
 |[GroupAttendeeConflictData](groupattendeeconflictdata.md) <br/> |包含有关可用的用户数、 用户拥有冲突，数和不具有可用性信息通讯组列表中建议的会议时间的用户数的聚合冲突信息。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray/GroupAttendeeConflictData` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 **NumberOfMembers**元素的最大值为 100。 
   

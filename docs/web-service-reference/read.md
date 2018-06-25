@@ -16,7 +16,7 @@ ms.openlocfilehash: cd9c2c9802c78b202418e3947f5b5718b0f676cc
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826948"
 ---
 # <a name="read"></a>已阅读

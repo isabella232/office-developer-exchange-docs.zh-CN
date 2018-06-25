@@ -16,7 +16,7 @@ ms.openlocfilehash: 3678bd94851633fcca9817c020106670b57d110c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826245"
 ---
 # <a name="location-calendareventdetails"></a>位置 (CalendarEventDetails)
@@ -66,7 +66,7 @@ ms.locfileid: "19826245"
 
 此元素响应中返回时所需的文本值。 此元素可以包含空字符串。 如果使用[CalendarEventDetails](calendareventdetails.md)元素，此元素是可选的。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素可映射到 PR_Location MAPI 命名属性。
   

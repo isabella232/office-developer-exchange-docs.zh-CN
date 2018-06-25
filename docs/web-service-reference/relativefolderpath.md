@@ -12,7 +12,7 @@ ms.openlocfilehash: f568d282e47a41c0aaf6d70ef383e5ef3e2b54bf
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827051"
 ---
 # <a name="relativefolderpath"></a>RelativeFolderPath

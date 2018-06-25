@@ -16,7 +16,7 @@ ms.openlocfilehash: 0328ea80725f81dce81e5a7730046e3978ae6df1
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826533"
 ---
 # <a name="nickname"></a>Nickname

@@ -16,7 +16,7 @@ ms.openlocfilehash: f2f9093777a3914de067ef63827de6cf354fc12d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826042"
 ---
 # <a name="isinline"></a>IsInline
@@ -51,7 +51,7 @@ ms.locfileid: "19826042"
 
 此元素可以是**true**或**false**。 默认值为 **false** 。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于运行 Microsoft Exchange Server 已安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
   

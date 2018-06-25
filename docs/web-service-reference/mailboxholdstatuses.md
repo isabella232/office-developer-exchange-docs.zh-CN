@@ -12,7 +12,7 @@ ms.openlocfilehash: a81223b2e8ec24ba67ea29b645675213a2f87a67
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826291"
 ---
 # <a name="mailboxholdstatuses"></a>MailboxHoldStatuses

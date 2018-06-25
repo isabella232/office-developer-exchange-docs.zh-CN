@@ -16,7 +16,7 @@ ms.openlocfilehash: 241a56ee23e87d6a4320b93cc65b1f5aa1f60120
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826163"
 ---
 # <a name="items"></a>项目
@@ -76,7 +76,7 @@ ms.locfileid: "19826163"
 |[RootFolder (FindItemResponseMessage)](rootfolder-finditemresponsemessage.md) <br/> |[FindItem 操作](finditem-operation.md)过程中包含单个根文件夹的搜索的结果。  <br/> |
 |[UpdateItemResponseMessage](updateitemresponsemessage.md) <br/> |包含状态和[UpdateItem 操作](updateitem-operation.md)请求的结果。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 有关组[CreateItem operation，](createitem-operation.md)请求中的项的信息，请参阅[项目 (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)。
   

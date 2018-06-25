@@ -16,7 +16,7 @@ ms.openlocfilehash: 7baeb0ab87ffb43ba9d6b4016477888aa4ed613e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827294"
 ---
 # <a name="responsecode"></a>ResponseCode
@@ -586,7 +586,7 @@ ms.locfileid: "19827294"
 |ErrorInvalidLicense  <br/> |用户不具有有效的许可证。  <br/> |
 |ErrorMessagePerFolderCountReceiveQuotaExceeded  <br/> |每个文件夹的邮件接收已超出配额。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素不需要，并且不包含在所有响应。 
   

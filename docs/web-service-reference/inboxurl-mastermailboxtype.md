@@ -12,7 +12,7 @@ ms.openlocfilehash: 3d4b18cd24a4ce0cc5594f11ff3b72a5d64e24dc
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825901"
 ---
 # <a name="inboxurl-mastermailboxtype"></a>InboxUrl (MasterMailboxType)

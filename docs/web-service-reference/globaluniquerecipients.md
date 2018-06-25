@@ -16,7 +16,7 @@ ms.openlocfilehash: 5eb6e60d3ece8d8369f4603e36ffaaf72a3e459d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825742"
 ---
 # <a name="globaluniquerecipients"></a>GlobalUniqueRecipients

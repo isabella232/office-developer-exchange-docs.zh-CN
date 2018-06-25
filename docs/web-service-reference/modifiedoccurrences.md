@@ -16,7 +16,7 @@ ms.openlocfilehash: 53f60740bcaa2de6713e1b6a3d2874153285645a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826472"
 ---
 # <a name="modifiedoccurrences"></a>ModifiedOccurrences
@@ -51,7 +51,7 @@ ms.locfileid: "19826472"
 |[日历项目](calendaritem.md) <br/> |表示 Exchange 日历项。  <br/> |
 |[MeetingRequest](meetingrequest.md) <br/> |表示 Exchange 存储中的会议请求。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素是如果[CalendarItemType](calendaritemtype.md) RecurringMaster 值有效。 
   

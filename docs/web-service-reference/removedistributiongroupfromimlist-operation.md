@@ -12,7 +12,7 @@ ms.openlocfilehash: 9999f98a5698dd33c22e22fdf86bd00a2d053b52
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827096"
 ---
 # <a name="removedistributiongroupfromimlist-operation"></a>RemoveDistributionGroupFromImList 操作

@@ -16,7 +16,7 @@ ms.openlocfilehash: b24a029bfacd6cc40e85a201b8ca90efd7790e9f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826991"
 ---
 # <a name="recipients-arrayofrecipientstype"></a>收件人 (ArrayOfRecipientsType)

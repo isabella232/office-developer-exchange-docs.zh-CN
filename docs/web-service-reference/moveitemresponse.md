@@ -16,7 +16,7 @@ ms.openlocfilehash: 5d1dd0c64880e819e789a0f9f3935168c65b4b28
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826491"
 ---
 # <a name="moveitemresponse"></a>MoveItemResponse

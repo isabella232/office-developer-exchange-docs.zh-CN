@@ -12,7 +12,7 @@ ms.openlocfilehash: 53b82729f86ad91d187e1cdfc0fa410ce8ddf16c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826684"
 ---
 # <a name="pagesize"></a>PageSize

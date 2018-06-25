@@ -12,7 +12,7 @@ ms.openlocfilehash: 496d0a58ebec68c2292088f87ba4aec336c23d80
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826780"
 ---
 # <a name="phoneticfullname"></a>PhoneticFullName

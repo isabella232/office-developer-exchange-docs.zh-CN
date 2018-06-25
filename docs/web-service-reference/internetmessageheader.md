@@ -16,7 +16,7 @@ ms.openlocfilehash: 9457cdabe99c0adcb8183cbc039cc86db881fec7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825952"
 ---
 # <a name="internetmessageheader"></a>InternetMessageHeader
@@ -52,7 +52,7 @@ ms.locfileid: "19825952"
 
 文本值表示标头的值。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 下面是 EWS 托管 API 扩展属性**PR_TRANSPORT_MESSAGE_HEADERS**属性的定义。 
   

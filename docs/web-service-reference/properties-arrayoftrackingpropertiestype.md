@@ -16,7 +16,7 @@ ms.openlocfilehash: 079d2d2c101fdeb7f26d65798048c3c6c59f3e94
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826897"
 ---
 # <a name="properties-arrayoftrackingpropertiestype"></a>属性 (ArrayOfTrackingPropertiesType)

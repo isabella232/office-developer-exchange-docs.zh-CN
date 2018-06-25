@@ -16,7 +16,7 @@ ms.openlocfilehash: 8f6890ec2bcc9a961f69331fb20f5cad8a59bf38
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825806"
 ---
 # <a name="haspicture"></a>HasPicture

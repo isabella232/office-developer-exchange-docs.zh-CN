@@ -12,7 +12,7 @@ ms.openlocfilehash: 2e450a72081a31c805c74bffc3a446034d4f24e7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827217"
 ---
 # <a name="retentiondate"></a>RetentionDate

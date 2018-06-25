@@ -12,7 +12,7 @@ ms.openlocfilehash: c98b44ba829137006c9aeb231e3f3439deec4687
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827078"
 ---
 # <a name="removecontactfromimlist"></a>RemoveContactFromImList

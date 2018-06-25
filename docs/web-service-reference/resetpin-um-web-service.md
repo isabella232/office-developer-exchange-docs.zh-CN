@@ -15,7 +15,7 @@ ms.openlocfilehash: 3b6e68b7292d0c660c1980cc977981bef2a5e053
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827147"
 ---
 # <a name="resetpin-um-web-service"></a>ResetPIN （UM web 服务）

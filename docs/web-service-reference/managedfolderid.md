@@ -16,7 +16,7 @@ ms.openlocfilehash: acdb69f82678633baff12c46494c39015c36d233
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826340"
 ---
 # <a name="managedfolderid"></a>ManagedFolderId
@@ -50,7 +50,7 @@ ms.locfileid: "19826340"
 
 需要为此元素的文本值。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 **ManagedFolderId**标识符值相当于通过检索的**Guid**属性`Get-ManagedFolder`Microsoft Windows Powershell 命令。 它也是在 Active Directory 目录服务中的托管文件夹**objectGUID**属性的值。 
   

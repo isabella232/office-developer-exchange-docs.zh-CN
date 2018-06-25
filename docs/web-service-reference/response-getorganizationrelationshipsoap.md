@@ -11,7 +11,7 @@ ms.openlocfilehash: 97bef9ab9f0b860e62646703c35d539b7922a65a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827174"
 ---
 # <a name="response-getorganizationrelationship-soap"></a>响应 (GetOrganizationRelationship) (SOAP)

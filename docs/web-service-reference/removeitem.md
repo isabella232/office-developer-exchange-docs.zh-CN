@@ -16,7 +16,7 @@ ms.openlocfilehash: 6897363eba602e6a135ad255822197f9296dd44a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827108"
 ---
 # <a name="removeitem"></a>RemoveItem
@@ -53,7 +53,7 @@ ms.locfileid: "19827108"
 |[项目 (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md) <br/> |包含由[ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md)元素的文件夹中创建的项的数组。  <br/> |
 |[ResponseObjects](responseobjects.md) <br/> |包含与 Exchange 存储中的项相关联的所有响应对象的集合。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
  仅对[MeetingCancellation](meetingcancellation.md)有效**RemoveItem** 。 否则，将引发错误。
   

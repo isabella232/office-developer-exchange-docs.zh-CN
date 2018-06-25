@@ -16,7 +16,7 @@ ms.openlocfilehash: e214918f9795e9e29061d4aac72ab144d2b24267
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827592"
 ---
 # <a name="statusevent"></a>StatusEvent
@@ -50,7 +50,7 @@ ms.locfileid: "19827592"
 |:-----|:-----|
 |[通知](notification-ex15websvcsotherref.md) <br/> |包含有关订阅和自上次通知以来发生的事件的信息。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 **StatusEvent**元素返回在通知中的以下原因之一： 
   

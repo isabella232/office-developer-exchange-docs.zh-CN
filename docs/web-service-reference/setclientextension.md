@@ -12,7 +12,7 @@ ms.openlocfilehash: 9e0a2926e25d74657ddf8a50ec88e77af0fc4ea1
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827398"
 ---
 # <a name="setclientextension"></a>SetClientExtension

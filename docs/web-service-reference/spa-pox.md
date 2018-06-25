@@ -13,7 +13,7 @@ ms.openlocfilehash: 1fb0f3bb40e64be89eae7dfc208d51387f532191
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827533"
 ---
 # <a name="spa-pox"></a>SPA (POX)
@@ -56,7 +56,7 @@ ms.locfileid: "19827533"
 
 文本值指示是否需要 SPA。 **上**的文本值时，SPA 是必需的。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 如果此元素不存在，默认值设置为**上**。
   

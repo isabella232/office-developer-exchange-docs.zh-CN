@@ -16,7 +16,7 @@ ms.openlocfilehash: 18e53221ecdf60df195445ed7692c03795bdcc1e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826717"
 ---
 # <a name="percentcomplete"></a>PercentComplete
@@ -50,7 +50,7 @@ ms.locfileid: "19826717"
 
 所需的文本值，该值代表介于 0 和 100 之间的整数。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 将**PercentComplete**设置为 100 具有相同的效果设置[CompleteDate](completedate.md)元素或设置为**已完成**的[Status](status.md)元素。 在请求中，这些属性的设置至少两个，最后一个处理的属性将确定设置这些元素的值。 例如，如果**PercentComplete**为 100， [CompleteDate](completedate.md)是 2007 年 1 月 1 日和[状态](status.md)为 NotStarted，并且按此顺序流式传输属性，效果将为任务的[状态](status.md)设置为 NotStarted， [CompleteDate](completedate.md)为**null**，并且为 0 的**完成百分比**。 
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: 6a38e63bbcf010ab6dca8f66440a2b0a559cf88d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827551"
 ---
 # <a name="startdate-recurrence"></a>StartDate （重复）

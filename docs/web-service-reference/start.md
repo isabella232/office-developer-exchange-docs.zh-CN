@@ -16,7 +16,7 @@ ms.openlocfilehash: 8d013990e650b497abfa947938a69eed3fed7474
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827545"
 ---
 # <a name="start"></a>入门
@@ -56,7 +56,7 @@ ms.locfileid: "19827545"
 
 文本值表示持续时间的开始。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 UpdateItem 操作可以设置 Exchange 存储项目的[开始](start.md)和[结束](end-ex15websvcsotherref.md)时间。 在 UpdateItem 请求中，可以没有还设置的**结束**时间设置**开始**时间。 如果**开始**时间晚于的**结束**时间，这会导致错误。 注意客户端应用程序必须执行**结束**时间的**开始**时间才能保留持续时间的更改时调整。 
   

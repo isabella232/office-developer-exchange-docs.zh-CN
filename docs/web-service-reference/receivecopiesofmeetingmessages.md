@@ -16,7 +16,7 @@ ms.openlocfilehash: e39a5d3255268b418fa956959da5ae0ea062d831
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826967"
 ---
 # <a name="receivecopiesofmeetingmessages"></a>ReceiveCopiesOfMeetingMessages
@@ -50,7 +50,7 @@ ms.locfileid: "19826967"
 
 文本值为**true**指示代理接收会议邮件的副本。 文本值为**false**指示委托不会收到会议邮件的副本。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 当**ReceiveCopiesOfMeetingMessages**设置为**false**时，委托仍可以发送消息代表主体，但不是会收到任何与会议相关的消息。
   

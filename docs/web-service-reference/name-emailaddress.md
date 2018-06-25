@@ -16,7 +16,7 @@ ms.openlocfilehash: 6d30f06c3bfd77d2715798349ab084cdf81f21a6
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826505"
 ---
 # <a name="name-emailaddress"></a>名称 （电子邮件地址）
@@ -52,7 +52,7 @@ ms.locfileid: "19826505"
 
 如果使用此元素，则需要的文本值。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素可以发生最一次中的[电子邮件 (EmailAddressType)](email-emailaddresstype.md)元素。 此元素不是必需的。 
   

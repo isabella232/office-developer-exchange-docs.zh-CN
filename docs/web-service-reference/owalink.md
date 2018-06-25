@@ -12,7 +12,7 @@ ms.openlocfilehash: 71d2875f058d69e85755c256b6f817f8448d4f7e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826670"
 ---
 # <a name="owalink"></a>OwaLink

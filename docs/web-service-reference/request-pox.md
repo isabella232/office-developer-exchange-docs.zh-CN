@@ -13,7 +13,7 @@ ms.openlocfilehash: ed6b0a80e83e160287f382a881dc5405bfb47a37
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827124"
 ---
 # <a name="request-pox"></a>请求 (POX)

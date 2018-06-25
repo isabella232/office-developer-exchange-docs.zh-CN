@@ -16,7 +16,7 @@ ms.openlocfilehash: 5f757bf1f79f7e2a00fb886db50e6ea0eaed1a4a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826932"
 ---
 # <a name="pullsubscriptionrequest"></a>PullSubscriptionRequest

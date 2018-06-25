@@ -16,7 +16,7 @@ ms.openlocfilehash: b6d5c150cd874d1aced7f2d83ff36409e0738728
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826975"
 ---
 # <a name="recipientis"></a>RecipientIs
@@ -49,7 +49,7 @@ ms.locfileid: "19826975"
 |[条件](condition.md) <br/> |确定要执行该规则的操作部分必须满足的条件。  <br/> |
 |[和 (ProtectionRuleAndType)](and-protectionruleandtype.md) <br/> |指示所有子元素必须都匹配计算结果为**true**。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于运行 Microsoft Exchange Server 2010 的安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
   

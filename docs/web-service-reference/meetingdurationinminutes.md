@@ -16,7 +16,7 @@ ms.openlocfilehash: 2ff60b69fb352c2ac7316f1ca231bb04da67ead2
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826433"
 ---
 # <a name="meetingdurationinminutes"></a>MeetingDurationInMinutes

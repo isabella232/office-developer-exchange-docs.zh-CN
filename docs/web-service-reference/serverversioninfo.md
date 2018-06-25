@@ -16,7 +16,7 @@ ms.openlocfilehash: aff8a6542e2ae6fb1148dd29051b7b33ad90eeff
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827389"
 ---
 # <a name="serverversioninfo"></a>ServerVersionInfo
@@ -49,7 +49,7 @@ ms.locfileid: "19827389"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素的 Exchange Web 服务响应消息的 SOAP 标头中返回。
   

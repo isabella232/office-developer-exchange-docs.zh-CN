@@ -11,7 +11,7 @@ ms.openlocfilehash: 6fb2f1a97279ee7f2e94c008474ddfed088faea1
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826928"
 ---
 # <a name="publicfolderserver-pox"></a>PublicFolderServer (POX)
@@ -54,7 +54,7 @@ ms.locfileid: "19826928"
 
 文本值表示的用户的公用文件夹服务器的 FQDN。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 **PublicFolderServer**元素是**协议**元素的可选子元素。 
   

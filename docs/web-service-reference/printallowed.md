@@ -12,7 +12,7 @@ ms.openlocfilehash: 85c18f3a6bd8f1705d0e21b99bae15484348f777
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826880"
 ---
 # <a name="printallowed"></a>PrintAllowed

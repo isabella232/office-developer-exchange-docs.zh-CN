@@ -16,7 +16,7 @@ ms.openlocfilehash: addb86ece2be3091ac55a52ee2f16f5c5f72ae41
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825958"
 ---
 # <a name="invalidrecipient-mailtips"></a>InvalidRecipient （邮件提示）

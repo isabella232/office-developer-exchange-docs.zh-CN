@@ -16,7 +16,7 @@ ms.openlocfilehash: 45336e296c39161704ce6e0d51fba1d2c61797b1
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827102"
 ---
 # <a name="removeoutlookruleblob"></a>RemoveOutlookRuleBlob
@@ -54,7 +54,7 @@ ms.locfileid: "19827102"
 
 文本值为**true**指示应删除 Outlook 规则 blob。 文本值为**false**指示 Outlook 规则 blob 应不会删除。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 将此元素设置为**true**以允许收件箱规则更新。 
   

@@ -15,7 +15,7 @@ ms.openlocfilehash: 5f4d59c5497158e5afbc8bb5db4900bd129df50b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826113"
 ---
 # <a name="isumenabled-um-web-service"></a>IsUMEnabled （UM web 服务）
@@ -47,7 +47,7 @@ ms.locfileid: "19826113"
 
 如果此元素是包含，则需要一个文本值，它代表一个布尔值。 值为**true**指示邮箱启用统一消息。 如果值为**false**意味着邮箱未启用统一消息。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 若要确定是否将邮箱启用统一消息，请使用[IsUMEnabled 操作 （UM web 服务）](isumenabled-operation-um-web-service.md)。
   

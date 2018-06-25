@@ -16,7 +16,7 @@ ms.openlocfilehash: a02c3b5711a657311428d67cccabd9c8c231db67
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827256"
 ---
 # <a name="routingtype-emailaddresstype"></a>RoutingType (EmailAddressType)
@@ -52,7 +52,7 @@ ms.locfileid: "19827256"
 
 文本值表示路由类型。 SMTP 是此元素的典型的文本值。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素是可选的[邮箱](mailbox.md)元素中。 可用性操作使用另一个[RoutingType (EmailAddress)](routingtype-emailaddress.md)元素。 
   

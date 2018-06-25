@@ -16,7 +16,7 @@ ms.openlocfilehash: 3f19e2ac14b412ef8d1ab59eb069f0223cf782ac
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827617"
 ---
 # <a name="submittime"></a>SubmitTime

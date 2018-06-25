@@ -16,7 +16,7 @@ ms.openlocfilehash: 9c5d71a23e1e4b77d2a50016aa4d765d872d04cc
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826157"
 ---
 # <a name="itemid"></a>ItemId

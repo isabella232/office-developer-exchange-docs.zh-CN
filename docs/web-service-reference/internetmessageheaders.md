@@ -16,7 +16,7 @@ ms.openlocfilehash: 2da529a8a3532cebb2791b285b7673c962a2a656
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825954"
 ---
 # <a name="internetmessageheaders"></a>InternetMessageHeaders
@@ -63,7 +63,7 @@ ms.locfileid: "19825954"
 |[任务](task.md) <br/> |表示 Exchange 存储中的任务。  <br/> |
 |[TentativelyAcceptItem](tentativelyacceptitem.md) <br/> |表示暂时接受的会议请求答复。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 下面是 EWS 托管 API 扩展属性**PR_TRANSPORT_MESSAGE_HEADERS**属性的定义。 
   

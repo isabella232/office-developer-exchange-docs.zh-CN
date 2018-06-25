@@ -16,7 +16,7 @@ ms.openlocfilehash: 60f2d42f09347611559137c494d93036f1192829
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826465"
 ---
 # <a name="mimecontent"></a>MimeContent
@@ -50,7 +50,7 @@ ms.locfileid: "19826465"
 
 如果使用此元素，则需要一个表示 base64Binary MIME 流文本值。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 消息内容经历的编码然后将其存储在**MimeContent**值的以下三个级别： 
   

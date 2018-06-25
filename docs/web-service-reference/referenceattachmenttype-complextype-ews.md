@@ -11,7 +11,7 @@ ms.openlocfilehash: da9ff2b73f86bba3003c31dec009ea11a9b26b32
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827030"
 ---
 # <a name="referenceattachmenttype-complextype-ews"></a>ReferenceAttachmentType 复杂类型 (EWS)

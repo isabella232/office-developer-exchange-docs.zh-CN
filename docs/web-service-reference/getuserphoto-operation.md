@@ -12,7 +12,7 @@ ms.openlocfilehash: 4465ac7115d96f5b6ef39e467663c9bf1c70e99e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825694"
 ---
 # <a name="getuserphoto-operation"></a>GetUserPhoto 操作

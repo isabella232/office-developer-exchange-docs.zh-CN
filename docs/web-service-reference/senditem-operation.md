@@ -16,7 +16,7 @@ ms.openlocfilehash: 780778b1599d0d5e5f4b6e5b58b67773bbe18cda
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827336"
 ---
 # <a name="senditem-operation"></a>SendItem Operation

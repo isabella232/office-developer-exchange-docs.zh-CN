@@ -16,7 +16,7 @@ ms.openlocfilehash: 99c8c69424a0a9d9594005fdf6b2ceba53e6288a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826451"
 ---
 # <a name="mergedfreebusyintervalinminutes"></a>MergedFreeBusyIntervalInMinutes
@@ -56,7 +56,7 @@ ms.locfileid: "19826451"
 
 文本值是必需的。 文本值表示以分钟为单位的时间。 默认值为 30 分钟。 六个分钟是最小间隔，一天 （1440 分钟） 是此元素的最大时间间隔。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 [RequestedView](requestedview.md)元素等于**MergedOnly**、 **FreeBusyMerged**或**DetailedMerge**时，才使用此值。 这是 integer 数据类型。 包含此元素的定义的时间间隔的流[MergedFreeBusy](mergedfreebusy.md)元素中返回。 
   

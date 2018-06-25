@@ -12,7 +12,7 @@ ms.openlocfilehash: 982a3cb163caf718c83844dd56c305511366ea5d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826767"
 ---
 # <a name="phonenumbers-arrayofphoneentitiestype"></a>PhoneNumbers (ArrayOfPhoneEntitiesType)

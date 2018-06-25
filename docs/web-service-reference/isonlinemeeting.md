@@ -16,7 +16,7 @@ ms.openlocfilehash: 5a56b0b9828d6f6bec83fc0ad0f8f9579b471a72
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826061"
 ---
 # <a name="isonlinemeeting"></a>IsOnlineMeeting
@@ -51,7 +51,7 @@ ms.locfileid: "19826061"
 
 如果使用此元素，则需要一个文本值，它代表一个布尔值。 值为**true**指示会议处于联机状态。 如果值为**false**指示会议未处于联机状态。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 读写的组织者的日历项目的 IsOnlineMeeting 属性。 它是只读的会议请求和与会者的日历项目。
   

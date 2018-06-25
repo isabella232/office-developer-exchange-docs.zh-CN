@@ -16,7 +16,7 @@ ms.openlocfilehash: 8044cb2b52cb572fad8731253dffa34de9d097fa
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825746"
 ---
 # <a name="goodthreshold"></a>GoodThreshold
@@ -56,7 +56,7 @@ ms.locfileid: "19825746"
 
 文本值是必需的。 预期的整数值是 0 到 50 之间。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 如果使用[SuggestionsViewOptions](suggestionsviewoptions.md)元素，此元素是必需的。 **GoodThreshold**元素还决定哪些会议被视为公平。 它具有冲突的与会者的百分比小于比良好的阈值和高于 50%，建议的会议时间限定为公平。 良好的阈值以及 50 等于定义良好/公平阈值的百分比。 
   

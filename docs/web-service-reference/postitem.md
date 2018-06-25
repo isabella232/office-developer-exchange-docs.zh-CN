@@ -16,7 +16,7 @@ ms.openlocfilehash: 3fb6d6cfe334999c93ca0238547dd5aee8150a5f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826866"
 ---
 # <a name="postitem"></a>PostItem

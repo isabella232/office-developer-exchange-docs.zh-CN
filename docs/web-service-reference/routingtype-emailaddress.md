@@ -16,7 +16,7 @@ ms.openlocfilehash: a0a6cf312bcb1d4b4818a82bc8d8d3e3f33ad6f6
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827255"
 ---
 # <a name="routingtype-emailaddress"></a>RoutingType （电子邮件地址）
@@ -51,7 +51,7 @@ ms.locfileid: "19827255"
 
 文本值是可选的。 唯一有效的值是 SMTP。 如果未提供值，使用 SMTP 的默认值。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素可以发生最一次中的[电子邮件 (EmailAddressType)](email-emailaddresstype.md)元素。 此元素不是必需的。 此元素存在包含将来的协议。 另一个**RoutingType**元素用于访问用户的邮箱中的项。 
   

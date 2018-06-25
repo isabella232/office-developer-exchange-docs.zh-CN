@@ -16,7 +16,7 @@ ms.openlocfilehash: 7af8e063c3bfd77bd87b80463c11c58d996626b5
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826143"
 ---
 # <a name="item"></a>项目
@@ -136,7 +136,7 @@ ms.locfileid: "19826143"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 请务必注意**ItemType**是[任务](task.md)、[日历项目](calendaritem.md)、[联系人](contact.md)、 [DistributionList](distributionlist.md)和[消息](message-ex15websvcsotherref.md)的基类型。
   

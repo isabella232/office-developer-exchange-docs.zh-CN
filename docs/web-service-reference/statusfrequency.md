@@ -16,7 +16,7 @@ ms.openlocfilehash: 402f8978c0ec6b377dfa020f23595c8954509a07
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827589"
 ---
 # <a name="statusfrequency"></a>StatusFrequency
@@ -56,7 +56,7 @@ ms.locfileid: "19827589"
 
 如果使用此元素，则需要表示一个整数的文本值。 此元素的可能值是 1 到 1440 之间，非独占。 此元素是可选的。 默认值为 30 分钟。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 服务器使用**StatusFrequency**值时不会收到来自客户端的推送通知或状态 ping 响应重试推送通知。 如果服务器未收到响应，它重试停止发送通知前几次发送通知。 Ews，默认重试时间间隔为 30 秒，并且后续重试次数总是 double 最后一个重试时间间隔的时间。 重试次数并不精确，与他们可以延迟由于服务器上的其他负载。 下表显示了如何分配的默认**StatusFrequency**值 （假定服务器不会遇到任何延迟） 在 30 分钟内发生的重试间隔。 
   

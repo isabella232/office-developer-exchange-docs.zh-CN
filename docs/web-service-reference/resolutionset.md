@@ -16,7 +16,7 @@ ms.openlocfilehash: ad7bd31c85051e8c80aea25aa9e6f2914cf0ad01
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827160"
 ---
 # <a name="resolutionset"></a>ResolutionSet
@@ -64,7 +64,7 @@ ms.locfileid: "19827160"
 |:-----|:-----|
 |[ResolveNamesResponseMessage](resolvenamesresponsemessage.md) <br/> |包含状态和 ResolveNames 请求的结果。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 **ResolutionSet**元素可以包含最多 100 解析实体。 
   

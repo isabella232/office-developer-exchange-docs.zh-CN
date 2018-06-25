@@ -11,7 +11,7 @@ ms.openlocfilehash: 43ebb328e31cdec11412e80b743d4d4393b7960a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827507"
 ---
 # <a name="smtpaddress-pox"></a>SmtpAddress (POX)
@@ -54,7 +54,7 @@ ms.locfileid: "19827507"
 
 文本值表示分配给公用文件夹存储为用户配置的 SMTP 地址。 此 SMTP 地址可以自动发现请求的[电子邮件地址 (POX)](emailaddress-pox.md)元素中，用于发现公用文件夹设置。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 **SmtpAddress**元素是**PublicFolderInformation**元素的必需的子元素。 
   

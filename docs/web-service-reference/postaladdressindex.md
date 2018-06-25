@@ -16,7 +16,7 @@ ms.openlocfilehash: b99e7f2f9bbeeb7cdeaed7258e4d7c33bfc446d3
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826852"
 ---
 # <a name="postaladdressindex"></a>PostalAddressIndex

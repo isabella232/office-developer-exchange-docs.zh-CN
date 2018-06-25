@@ -16,7 +16,7 @@ ms.openlocfilehash: 7d84547eafe4e77fb23a792fbf15633dbf93d775
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826436"
 ---
 # <a name="meetingworkspaceurl"></a>MeetingWorkspaceUrl
@@ -51,7 +51,7 @@ ms.locfileid: "19826436"
 
 如果使用此元素，则需要代表 URL 的文本值。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 MeetingWorkspaceUrl 属性为读写的组织者的日历项目。 它是只读的会议请求和与会者的日历项目。
   

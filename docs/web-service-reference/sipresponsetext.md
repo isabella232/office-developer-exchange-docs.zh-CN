@@ -16,7 +16,7 @@ ms.openlocfilehash: 3856275c74b51e29db5884ed490715e9f286eb8b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827502"
 ---
 # <a name="sipresponsetext"></a>SIPResponseText
@@ -50,7 +50,7 @@ ms.locfileid: "19827502"
 
 SIP 响应文本。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于安装了客户端访问服务器角色与运行 Exchange Server 的计算机的 /ews/ 目录中。
   

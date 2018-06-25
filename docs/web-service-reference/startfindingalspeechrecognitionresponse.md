@@ -12,7 +12,7 @@ ms.openlocfilehash: 430f0ba93abfb64f9c6f687fcf179860666013e3
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827556"
 ---
 # <a name="startfindingalspeechrecognitionresponse"></a>StartFindInGALSpeechRecognitionResponse

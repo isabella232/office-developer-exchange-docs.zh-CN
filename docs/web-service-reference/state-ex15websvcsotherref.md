@@ -16,7 +16,7 @@ ms.openlocfilehash: caa9541d30eaa04cc3f2dda0ebbf687b156c4f64
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827565"
 ---
 # <a name="state"></a>状态

@@ -12,7 +12,7 @@ ms.openlocfilehash: c08b8a3d537c062d3a1a8ed59823bc0f74eea426
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826133"
 ---
 # <a name="isvisible"></a>IsVisible

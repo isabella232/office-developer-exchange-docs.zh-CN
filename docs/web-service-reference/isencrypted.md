@@ -16,7 +16,7 @@ ms.openlocfilehash: 582a1f197d4ee6b60af91b1a178d79163b50052c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826003"
 ---
 # <a name="isencrypted"></a>进行加密

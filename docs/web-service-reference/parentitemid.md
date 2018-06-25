@@ -16,7 +16,7 @@ ms.openlocfilehash: 9bd875ee5ead8b87996288a640e1bb14e3a5e8b8
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826703"
 ---
 # <a name="parentitemid"></a>ParentItemId
@@ -55,7 +55,7 @@ ms.locfileid: "19826703"
 |:-----|:-----|
 |[CreateAttachment](createattachment.md) <br/> |定义在邮箱中创建项目附件的请求。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/CreateAttachment` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素是[CreateAttachment 操作](createattachment-operation.md)中必需的。 此元素基本上是[ItemId](itemid.md)元素相同。 
   

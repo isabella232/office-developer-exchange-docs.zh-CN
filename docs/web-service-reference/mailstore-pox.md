@@ -11,7 +11,7 @@ ms.openlocfilehash: 4c82c7b61752cf7d91287a3968f6c642f4943855
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826301"
 ---
 # <a name="mailstore-pox"></a>MailStore (POX)
@@ -56,7 +56,7 @@ ms.locfileid: "19826301"
 |:-----|:-----|
 |[协议 (POX)](protocol-pox.md) <br/> |包含客户端连接到客户端访问服务器的规范。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 与**Type**属性值为"mapiHttp"[协议 (POX)](protocol-pox.md)元素的响应中存在的**MailStore**元素。 
   

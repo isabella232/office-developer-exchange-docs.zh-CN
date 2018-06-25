@@ -16,7 +16,7 @@ ms.openlocfilehash: 73d597f6534ea29f7d26d6526c48631251521ae5
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826704"
 ---
 # <a name="pendingmailtips"></a>PendingMailTips

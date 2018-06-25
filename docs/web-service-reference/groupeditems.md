@@ -16,7 +16,7 @@ ms.openlocfilehash: f8aed9b78fc54307f44b96a45e5c31a4cc76ab50
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825756"
 ---
 # <a name="groupeditems"></a>GroupedItems
@@ -64,7 +64,7 @@ ms.locfileid: "19825756"
 |:-----|:-----|
 |[组](groups.md) <br/> |包含标识[FindItem 操作](finditem-operation.md)请求中使用的搜索和聚合条件找到的组的集合。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于运行 Microsoft Exchange Server 2010 的安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
   

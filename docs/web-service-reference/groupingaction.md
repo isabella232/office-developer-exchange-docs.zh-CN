@@ -12,7 +12,7 @@ ms.openlocfilehash: 4b04b992f62c366ff7a059ab26c43fc9f0ce7108
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825775"
 ---
 # <a name="groupingaction"></a>GroupingAction

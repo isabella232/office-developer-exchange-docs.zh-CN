@@ -12,7 +12,7 @@ ms.openlocfilehash: 2d8eea6418ad68866c6026c06b8a0f0f384eda6c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826290"
 ---
 # <a name="mailboxid"></a>MailboxId

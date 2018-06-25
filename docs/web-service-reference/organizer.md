@@ -16,7 +16,7 @@ ms.openlocfilehash: b723578a1b52cd5f6e9bd869a15430453adfa291
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826662"
 ---
 # <a name="organizer"></a>组织者

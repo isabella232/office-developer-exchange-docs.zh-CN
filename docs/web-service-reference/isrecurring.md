@@ -16,7 +16,7 @@ ms.openlocfilehash: dfb0c28fe225792c7128409a8cf010627c624fe0
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826104"
 ---
 # <a name="isrecurring"></a>IsRecurring
@@ -52,7 +52,7 @@ ms.locfileid: "19826104"
 
 表示一个布尔值的文本值是必需的。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 下表显示了如何将**IsRecurring**属性设置为不同的日历项目类型为组织者和与会者和会议请求和更新。 
   

@@ -12,7 +12,7 @@ ms.openlocfilehash: ac9d3262784d8052486c631ef3e99e650d4757c7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827293"
 ---
 # <a name="searcharchiveonly"></a>SearchArchiveOnly

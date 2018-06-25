@@ -12,7 +12,7 @@ ms.openlocfilehash: 6f238e26083366320ba04b187e3e41771cbd14ba
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825863"
 ---
 # <a name="imaddresses-arrayofstringattributedvaluestype"></a>ImAddresses (ArrayOfStringAttributedValuesType)

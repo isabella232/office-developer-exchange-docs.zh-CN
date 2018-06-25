@@ -16,7 +16,7 @@ ms.openlocfilehash: 4dd23b45dcc397e29e67fc08b29dd773e50f0db1
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826688"
 ---
 # <a name="parentfolderids"></a>ParentFolderIds
@@ -54,7 +54,7 @@ ms.locfileid: "19826688"
 |[FindItem](finditem.md) <br/> |定义查找邮箱中的项目的请求。  <br/> |
 |[ResolveNames](resolvenames.md) <br/> |定义请求解析模糊名称。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 [文件夹 Id](folderid.md)或[DistinguishedFolderId](distinguishedfolderid.md)元素，则必须使用**ParentFolderIds**元素。 搜索可以定义任意的数量的文件夹。 
   

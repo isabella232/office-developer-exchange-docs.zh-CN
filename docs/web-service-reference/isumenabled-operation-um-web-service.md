@@ -15,7 +15,7 @@ ms.openlocfilehash: 9d94a359d6b11e41762d21aa2fe5501bd9f7b577
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826107"
 ---
 # <a name="isumenabled-operation-um-web-service"></a>IsUMEnabled 操作 （UM web 服务）

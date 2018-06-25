@@ -12,7 +12,7 @@ ms.openlocfilehash: 3e989a285d0f571656b7e50c2f2b59928bfa3081
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825933"
 ---
 # <a name="inlineimageurltemplate"></a>InlineImageUrlTemplate

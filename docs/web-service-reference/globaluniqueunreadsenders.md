@@ -16,7 +16,7 @@ ms.openlocfilehash: ae088577f5aac0c7c3ee9c11fde184b70ab12e64
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825749"
 ---
 # <a name="globaluniqueunreadsenders"></a>GlobalUniqueUnreadSenders

@@ -12,7 +12,7 @@ ms.openlocfilehash: dd2cd8bba2c4cc7d08e88787d648e96ea996a251
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825840"
 ---
 # <a name="homefaxes"></a>HomeFaxes

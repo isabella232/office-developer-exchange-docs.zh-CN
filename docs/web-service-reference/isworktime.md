@@ -16,7 +16,7 @@ ms.openlocfilehash: c687b29df226ebb28cdf01d3a2da62590f790924
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826135"
 ---
 # <a name="isworktime"></a>IsWorkTime

@@ -12,7 +12,7 @@ ms.openlocfilehash: 1e904ac4d7f525b2d12cfe83f0da33b9ed474066
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826197"
 ---
 # <a name="language-discoverysearchconfigurationtype"></a>语言 (DiscoverySearchConfigurationType)
@@ -44,7 +44,7 @@ ms.locfileid: "19826197"
 
 区域性或语言的**语言 (DiscoverySearchConfigurationType)** 元素的文本值。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素指定[SearchMailboxes 操作](searchmailboxes-operation.md)或[SetHoldOnMailboxes 操作](setholdonmailboxes-operation.md)中指定的日期范围的格式。
   

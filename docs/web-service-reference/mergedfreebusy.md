@@ -16,7 +16,7 @@ ms.openlocfilehash: 542b9fae0c36b0236bd806e8a9117753968e812c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826449"
 ---
 # <a name="mergedfreebusy"></a>MergedFreeBusy
@@ -68,7 +68,7 @@ ms.locfileid: "19826449"
     
 忙/闲信息的数据流的文本值。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 由的[MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md)和[TimeWindow](timewindow.md)元素定义此元素提供的数据流。 [TimeWindow](timewindow.md)元素定义查询可用性的时间跨度。 [MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md)元素定义如何从[TimeWindow](timewindow.md)元素所需时间分为**MergedFreeBusy**元素中返回的时间间隔。 **MergedFreeBusy**流中的每个数字代表[MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md)元素定义一个单个时间间隔。 下表列出各个间隔的可能值。 
   

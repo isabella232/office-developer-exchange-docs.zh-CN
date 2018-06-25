@@ -16,7 +16,7 @@ ms.openlocfilehash: 69f1f6f12d10044045b72dd644536e742c479b9e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827191"
 ---
 # <a name="responsemessage"></a>ResponseMessage
@@ -49,7 +49,7 @@ ms.locfileid: "19827191"
 |:-----|:-----|
 |成功  <br/> |介绍的已完成的请求。  <br/> |
 |警告  <br/> | 介绍了未处理的请求。 如果请求中的项目处理和无法处理后续项时出错，则可能会返回一条警告。 <br/><br/>警告的一些可能原因如下：  <br/><br/>-在 Exchange 存储过程批次中处于脱机状态。  <br/>-Active Directory 目录服务处于脱机状态。  <br/>的移动邮箱。  <br/>(MDB)-邮件数据库处于脱机状态。  <br/>的已过期密码。  <br/>超出了-配额。  <br/> |
-|Error  <br/> | 描述无法满足请求。 <br/><br/>错误的一些可能原因如下：  <br/><br/>-无效属性或元素  <br/>-属性或超出范围的元素  <br/>-未知标记  <br/>-属性或元素在上下文中无效  <br/>-未授权访问尝试的任何客户端  <br/>的有效的客户端的呼叫的响应中服务器端失败  <br/> <br/> [ResponseCode](responsecode.md)和[MessageText](messagetext.md)元素中，可以找到有关错误的信息。  <br/> |
+|错误  <br/> | 描述无法满足请求。 <br/><br/>错误的一些可能原因如下：  <br/><br/>-无效属性或元素  <br/>-属性或超出范围的元素  <br/>-未知标记  <br/>-属性或元素在上下文中无效  <br/>-未授权访问尝试的任何客户端  <br/>的有效的客户端的呼叫的响应中服务器端失败  <br/> <br/> [ResponseCode](responsecode.md)和[MessageText](messagetext.md)元素中，可以找到有关错误的信息。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -69,7 +69,7 @@ ms.locfileid: "19827191"
 |[GetUserOofSettingsResponse](getuseroofsettingsresponse.md) <br/> |包含响应结果和用户的 OOF 设置。  <br/><br/> 以下是此元素的 XPath 2.0 表达式：  <br/><br/>  `/GetUserOofSettingsResponse` <br/> |
 |[SetUserOofSettingsResponse](setuseroofsettingsresponse.md) <br/> |包含结果的尝试的[SetUserOofSettingsRequest](setuseroofsettingsrequest.md)消息。 <br/> <br/> 以下是此元素的 XPath 2.0 表达式：  <br/><br/>  `/SetUserOofSettingsResponse` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 适用于所有 Exchange Web 服务响应**ResponseMessageType**类型。 **ResponseMessageType**类型是由下列复杂类型扩展： 
   

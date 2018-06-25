@@ -16,7 +16,7 @@ ms.openlocfilehash: 4bc32ed5626d692fc73dfa8bd7c46923aba72f9e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827552"
 ---
 # <a name="startdatetime"></a>开始日期时间

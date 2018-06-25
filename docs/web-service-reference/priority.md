@@ -16,7 +16,7 @@ ms.openlocfilehash: 49e9bda063d8766ff49c8a2e9574c986bcfdbeb2
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826888"
 ---
 # <a name="priority"></a>优先级

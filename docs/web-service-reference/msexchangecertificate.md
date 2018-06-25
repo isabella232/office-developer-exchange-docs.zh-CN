@@ -12,7 +12,7 @@ ms.openlocfilehash: 8d07198012485b5c6d22e1fb4721890bf9a5eb39
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826498"
 ---
 # <a name="msexchangecertificate"></a>MSExchangeCertificate

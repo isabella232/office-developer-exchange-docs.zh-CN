@@ -16,7 +16,7 @@ ms.openlocfilehash: e90313c1b8616658932de4b394d4a2b3ed0fd054
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826462"
 ---
 # <a name="messagetext"></a>MessageText
@@ -89,7 +89,7 @@ ms.locfileid: "19826462"
 |[GetServiceConfigurationResponse](getserviceconfigurationresponse.md) <br/> |包含**GetServiceConfiguration**请求的响应。  <br/> |
 |[ServiceConfigurationResponseMessageType](serviceconfigurationresponsemessagetype.md) <br/> |包含服务配置设置。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素不需要，并且不包含在所有响应。 返回的错误消息时，此元素是包含。 
   

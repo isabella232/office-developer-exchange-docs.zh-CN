@@ -16,7 +16,7 @@ ms.openlocfilehash: 7cd8f3452a744e0c9a98fd3698dffb9ed8721a6c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827014"
 ---
 # <a name="recurringdatetransition"></a>RecurringDateTransition
@@ -57,7 +57,7 @@ ms.locfileid: "19827014"
 |[切换](transitions.md) <br/> |表示所在的时区转换的集合。  <br/> |
 |[TransitionsGroup](transitionsgroup.md) <br/> |表示所在的时区转换的集合。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 无法由[RecurringDateTransition](recurringdatetransition.md)元素所在的时区转换的一个示例是发生月 15 日每年的转换。 
   

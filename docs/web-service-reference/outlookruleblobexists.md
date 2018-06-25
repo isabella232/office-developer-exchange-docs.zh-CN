@@ -16,7 +16,7 @@ ms.openlocfilehash: a738377cd3c1d69b90ac39ca479b03b3220d5bc5
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826679"
 ---
 # <a name="outlookruleblobexists"></a>OutlookRuleBlobExists

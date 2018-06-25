@@ -16,7 +16,7 @@ ms.openlocfilehash: 1919c335197c83999875a17397e9c9d4405d1e3f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827407"
 ---
 # <a name="setfolderfield"></a>SetFolderField
@@ -58,7 +58,7 @@ ms.locfileid: "19827407"
 |:-----|:-----|
 |[Updates 文件夹](updates-folder.md) <br/> |包含一组定义的元素的 append、 设置和删除对文件夹属性的更改。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 如果该属性存在，该属性值设置为指定的值。 如果属性不存在，该属性创建指定的值。
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: 3f26b947313b8c53f70e2a89b9a6bdd17840a055
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825995"
 ---
 # <a name="isautomaticreply"></a>IsAutomaticReply

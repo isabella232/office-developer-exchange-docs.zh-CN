@@ -16,7 +16,7 @@ ms.openlocfilehash: 9c286fcf9752d591d53323f45a264f4bdd078c1c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826912"
 ---
 # <a name="protectionrulesconfiguration"></a>ProtectionRulesConfiguration
@@ -58,7 +58,7 @@ ms.locfileid: "19826912"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 保护规则服务配置由一组规则、 内部域和刷新间隔。
   

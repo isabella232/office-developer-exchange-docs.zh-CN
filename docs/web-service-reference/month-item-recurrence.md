@@ -16,7 +16,7 @@ ms.openlocfilehash: 64c76283deec70cb6996c9f424b689a9c87f2890
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826478"
 ---
 # <a name="month-item-recurrence"></a>每月 （项重复）

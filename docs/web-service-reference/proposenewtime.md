@@ -12,7 +12,7 @@ ms.openlocfilehash: 4a0238d94b29993def8009fae62380bb2c02e8b6
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826904"
 ---
 # <a name="proposenewtime"></a>ProposeNewTime

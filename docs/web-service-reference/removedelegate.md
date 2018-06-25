@@ -16,7 +16,7 @@ ms.openlocfilehash: 27618b1767c99b26a5f4c06e97a20e063b598d9d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827085"
 ---
 # <a name="removedelegate"></a>RemoveDelegate

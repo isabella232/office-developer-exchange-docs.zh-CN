@@ -16,7 +16,7 @@ ms.openlocfilehash: 388b944cfa16899cb2376320882f5087396d7b82
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826474"
 ---
 # <a name="message"></a>邮件
@@ -170,7 +170,7 @@ ms.locfileid: "19826474"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 可用性操作使用另一个**邮件**元素，[邮件 （可用性）](message-availability.md)可返回 OOF 邮件。 
   

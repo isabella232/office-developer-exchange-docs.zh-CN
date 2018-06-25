@@ -12,7 +12,7 @@ ms.openlocfilehash: 0d0981d050fa388e83eaa8408b60d305296c1f36
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827284"
 ---
 # <a name="searchablemailbox"></a>SearchableMailbox

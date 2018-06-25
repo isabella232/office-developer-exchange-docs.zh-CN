@@ -16,7 +16,7 @@ ms.openlocfilehash: 1ea79be394124431aa1279ee94d5e5c6331d377b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826435"
 ---
 # <a name="meetingtime"></a>MeetingTime
@@ -64,7 +64,7 @@ ms.locfileid: "19826435"
 
 所需的文本值，该值代表**dateTime**值。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 [MeetingTime](meetingtime.md)元素是[建议](suggestion.md)元素的必需的子元素。 
   

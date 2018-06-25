@@ -16,7 +16,7 @@ ms.openlocfilehash: 29fd2184e83f66a9b7e7db4173a765cee2922be8
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826514"
 ---
 # <a name="modify"></a>修改

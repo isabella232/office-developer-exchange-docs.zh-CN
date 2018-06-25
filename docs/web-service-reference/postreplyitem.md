@@ -16,7 +16,7 @@ ms.openlocfilehash: 70a0d6a7c670d0f16a55e66e7ef329331a04a5f8
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826868"
 ---
 # <a name="postreplyitem"></a>PostReplyItem

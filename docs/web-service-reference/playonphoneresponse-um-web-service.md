@@ -15,7 +15,7 @@ ms.openlocfilehash: 482739d924bbac1d58624e50596af48cc405a3ef
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826832"
 ---
 # <a name="playonphoneresponse-um-web-service"></a>PlayOnPhoneResponse （UM web 服务）

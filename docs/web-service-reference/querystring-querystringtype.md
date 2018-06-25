@@ -16,7 +16,7 @@ ms.openlocfilehash: 410405638b3f8628dc589049873cfea1f153310c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826943"
 ---
 # <a name="querystring-querystringtype"></a>查询字符串 (QueryStringType)
@@ -54,7 +54,7 @@ ms.locfileid: "19826943"
 
 **QueryString**元素文本值表示由使用[高级查询语法 (AQS)](http://msdn.microsoft.com/en-us/library/aa965711%28VS.85%29.aspx)的子集的邮箱查询。 请参阅备注部分的有关支持的语法查询字符串选项的信息。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 在 Exchange Server 2010 中，此元素是 XML 架构 string 类型。 在版本的 Exchange 开头 Exchange Server 2013，包括 Exchange Online，此元素的类型是**QueryStringType**。 此更改不会将任何现有的客户端，因为它将添加三个新的可选属性。 
   

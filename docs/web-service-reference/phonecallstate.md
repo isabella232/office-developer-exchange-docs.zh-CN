@@ -16,7 +16,7 @@ ms.openlocfilehash: 184a7400810711442e565d1ef37094bd63b00914
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826761"
 ---
 # <a name="phonecallstate"></a>PhoneCallState
@@ -63,7 +63,7 @@ ms.locfileid: "19826761"
 |转接  <br/> |呼叫被转接至其他目标。  <br/> |
 |转接  <br/> |是要将呼叫转接至其他目标。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于运行 Microsoft Exchange Server 2010 的安装了客户端访问服务器角色的计算机的 /ews/ 目录中。
   

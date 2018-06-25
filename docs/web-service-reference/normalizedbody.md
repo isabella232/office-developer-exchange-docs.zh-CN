@@ -12,7 +12,7 @@ ms.openlocfilehash: 07c2176d2c8a7473c06b7e42f8bcbbe6670581ef
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826548"
 ---
 # <a name="normalizedbody"></a>NormalizedBody

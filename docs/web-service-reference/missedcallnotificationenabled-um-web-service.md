@@ -15,7 +15,7 @@ ms.openlocfilehash: 6bebbe6eeb40a259f0c51355a3fea838e8671706
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826477"
 ---
 # <a name="missedcallnotificationenabled-um-web-service"></a>MissedCallNotificationEnabled （UM web 服务）

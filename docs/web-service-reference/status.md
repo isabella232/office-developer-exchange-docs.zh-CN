@@ -16,7 +16,7 @@ ms.openlocfilehash: 224b61913a5ae8e5b4aa0d756a9f2488df2741bd
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827584"
 ---
 # <a name="status"></a>状态
@@ -60,7 +60,7 @@ ms.locfileid: "19827584"
     
 - 延迟
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 设置[CompleteDate](completedate.md)与将[PercentComplete](percentcomplete.md)设置为 100 或**已完成****状态**的效果相同。 在请求中，这些属性的设置至少两个，最后一个处理的属性将确定设置这些元素的值。 例如，如果**PercentComplete**为 100， **CompleteDate**是 1/1/2007，并且**状态**为 NotStarted，并按此顺序流式传输属性，效果将任务的**状态**设置为 NotStarted， **CompleteDate**为**null**，并且为 0 的**完成百分比**。 
   

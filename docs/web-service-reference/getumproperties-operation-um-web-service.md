@@ -15,7 +15,7 @@ ms.openlocfilehash: 8878099bbd907fe0648f7d64dde3cd9600c2c45f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825678"
 ---
 # <a name="getumproperties-operation-um-web-service"></a>GetUMProperties 操作 （UM web 服务）

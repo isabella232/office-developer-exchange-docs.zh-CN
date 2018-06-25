@@ -15,14 +15,14 @@ ms.openlocfilehash: e6417b86ce17c0d34fe857cf1209a18972cbef63
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827146"
 ---
 # <a name="resetpin-operation-um-web-service"></a>ResetPIN 操作 （UM web 服务）
 
 ResetPIN 操作更改为新的随机值的 PIN （TUI 密码）。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 ResetPIN 操作创建一个新的 PIN，基于 PIN 策略。 如果操作成功，对邮箱的用户发送电子邮件包含新的 PIN。 如果操作失败，它将引发异常，其中包含有关失败情况的信息。
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: 0bc61d6dc32cd0db80599348f1d04c62774954d7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826827"
 ---
 # <a name="playonphonedialstring-exchange-web-services"></a>PlayOnPhoneDialString （Exchange Web 服务）
@@ -50,7 +50,7 @@ ms.locfileid: "19826827"
 
 此元素的文本值是播放接听电话拨号字符串。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素是必需的。
   

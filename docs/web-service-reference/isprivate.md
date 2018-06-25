@@ -16,7 +16,7 @@ ms.openlocfilehash: 37c0357b3eab2314ee74e1c98287b3dc05a3bf26
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826095"
 ---
 # <a name="isprivate"></a>IsPrivate
@@ -66,7 +66,7 @@ ms.locfileid: "19826095"
 
 表示一个布尔值的文本值是必需的。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 如果使用此元素，则将不会在响应中包含的[CalendarEventDetails](calendareventdetails.md)元素中的其他元素。 
   

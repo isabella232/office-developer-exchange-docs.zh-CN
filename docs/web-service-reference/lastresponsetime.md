@@ -16,7 +16,7 @@ ms.openlocfilehash: 77f79d87be0b88f8c91c04438a2541643aad8858
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826205"
 ---
 # <a name="lastresponsetime"></a>LastResponseTime
@@ -50,7 +50,7 @@ ms.locfileid: "19826205"
 
 需要安装一个文本值，表示的日期和最新的响应的时间。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于运行 MicrosoftExchange 2007 已安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
   

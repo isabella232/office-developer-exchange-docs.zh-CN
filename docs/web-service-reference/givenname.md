@@ -16,7 +16,7 @@ ms.openlocfilehash: a9c8e6b075a480bc54414d0ead11918a50223b56
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825710"
 ---
 # <a name="givenname"></a>GivenName
@@ -50,7 +50,7 @@ ms.locfileid: "19825710"
 
 如果使用此元素，则需要一个表示联系人的给定名称的文本值。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 给定名称通常是联系人的名字。
   

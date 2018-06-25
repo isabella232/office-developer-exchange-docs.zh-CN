@@ -16,7 +16,7 @@ ms.openlocfilehash: 8b6d201fe35c99a65f920ed7f60c33a2271fbd2e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826470"
 ---
 # <a name="messagexml"></a>MessageXml
@@ -92,7 +92,7 @@ ms.locfileid: "19826470"
 |[GetServiceConfigurationResponse](getserviceconfigurationresponse.md) <br/> |包含**GetServiceConfiguration**请求的响应。  <br/> |
 |[ServiceConfigurationResponseMessageType](serviceconfigurationresponsemessagetype.md) <br/> |包含服务配置设置。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素不需要，并且不包含在所有响应。 它是包含错误消息。 涉及文件夹或项目， **MessageXML**元素的请求中将包含一个或多个元素包含导致出错的属性的 Uri。 此示例是[FieldURI](fielduri.md)元素。 
   

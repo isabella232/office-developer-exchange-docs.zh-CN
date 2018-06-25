@@ -13,7 +13,7 @@ ms.openlocfilehash: 5045c0c5a9f15d5a31ac2e884b942e00dfb1f520
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827037"
 ---
 # <a name="referralport-pox"></a>ReferralPort (POX)
@@ -56,7 +56,7 @@ ms.locfileid: "19827037"
 
 文本值表示用于访问 Exchange 服务器的端口。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 [类型 (POX)](type-pox.md)元素等于 EXCH 或 EXPR 时才使用**ReferralPort**元素。 
   

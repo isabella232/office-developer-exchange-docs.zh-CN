@@ -13,7 +13,7 @@ ms.openlocfilehash: 6b9d31f3b7bca087652f04e4943becc5ac4e68e7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827132"
 ---
 # <a name="requestedserverversion-soap"></a>RequestedServerVersion (SOAP)

@@ -16,7 +16,7 @@ ms.openlocfilehash: 8b23f5142a15c099c30209ea48cd04f4af4e8c6a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825762"
 ---
 # <a name="groupindex"></a>GroupIndex
@@ -64,7 +64,7 @@ ms.locfileid: "19825762"
 
 文本值是必需的。 此属性是只读的。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素仅出现在[FindItem 操作](finditem-operation.md)响应。 
   

@@ -12,7 +12,7 @@ ms.openlocfilehash: a0e4f9390d5dc368388b5a20e38796c6c0157a40
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825943"
 ---
 # <a name="instancekey"></a>InstanceKey

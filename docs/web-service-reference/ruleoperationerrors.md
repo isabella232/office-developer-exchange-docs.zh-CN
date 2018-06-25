@@ -12,7 +12,7 @@ ms.openlocfilehash: 7dc85b5cd84af5ad00511a3df2b31ee3541e12b7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827261"
 ---
 # <a name="ruleoperationerrors"></a>RuleOperationErrors

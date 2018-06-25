@@ -16,7 +16,7 @@ ms.openlocfilehash: f32f778daa6fa3fea93ab2bc1951f2407dcf7f80
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825910"
 ---
 # <a name="indexedpagefolderview"></a>IndexedPageFolderView
@@ -61,7 +61,7 @@ ms.locfileid: "19825910"
 |:-----|:-----|
 |[FindFolder](findfolder.md) <br/> |定义查找邮箱中的文件夹的请求。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/FindFolder` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 从最终查找涉及将移至原点标识的偏移量。 此外，将指针向后移动请求的记录数。 例如，如果有 100 条记录，偏移量为 25 从末尾，从 75 开始搜索。 如果返回了 10 条记录，10 个附加到 65 记录，并返回记录到 75 65 指针是向后移动。 下一个索引为 64。 从页面结尾的下一步偏移量为 100 减 64 其等于 36。 从结束后，若要获取的已编制索引的下一页的下一步偏移量值为 36。
   

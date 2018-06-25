@@ -16,7 +16,7 @@ ms.openlocfilehash: c18d7d4505c618792497c32c7499eab9ac82989e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827314"
 ---
 # <a name="securityidentifier"></a>SecurityIdentifier
@@ -47,7 +47,7 @@ ms.locfileid: "19827314"
 |[GroupIdentifier](groupidentifier.md) <br/> |代表单个安全标识符和 Active Directory 对象所在的组帐户成员属性。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/SerializedSecurityContext/GroupSids/GroupIdentifier[i]` <br/> |
 |[RestrictedGroupIdentifier](restrictedgroupidentifier.md) <br/> |表示组安全标识符和用户令牌内受限制的组的属性。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 简单对象访问协议 (SOAP) 标头中使用此元素。
   

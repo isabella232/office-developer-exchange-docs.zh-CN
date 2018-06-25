@@ -13,7 +13,7 @@ ms.openlocfilehash: f7ec1dea29a7d3ad6d470ef7812390d179fe1d2a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826243"
 ---
 # <a name="legacydn-pox"></a>LegacyDN (POX)
@@ -47,7 +47,7 @@ ms.locfileid: "19826243"
 
 文本值表示用户的旧的电子邮件地址。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md)元素是自动发现请求的其他元素。 运行 Microsoft Exchange Server 2007 的计算机上存在的邮箱时使用它。 
   

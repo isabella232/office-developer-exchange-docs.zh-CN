@@ -16,7 +16,7 @@ ms.openlocfilehash: 2440e6c1501331d715d0e5ceb31b3b928122f927
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826519"
 ---
 # <a name="netshowurl"></a>NetShowUrl
@@ -51,7 +51,7 @@ ms.locfileid: "19826519"
 
 如果使用此元素，则需要代表 URL 的文本值。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此 NetShowUrl 属性为读写的组织者的日历项目。 它是只读的会议请求和与会者。
   

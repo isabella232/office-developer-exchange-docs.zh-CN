@@ -16,7 +16,7 @@ ms.openlocfilehash: 7710227720264432c325f95da894cbbbd4748dc0
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827145"
 ---
 # <a name="requestedview"></a>RequestedView
@@ -65,7 +65,7 @@ ms.locfileid: "19827145"
 |Detailed  <br/> |表示的旧的状态信息： 闲、 忙、 暂定、 和 OOF;约会; 的开始/结束时间和主题、 位置和重要性如约会的各种属性。 此请求的视图将返回的最大量为其特权发出请求的用户的信息。 如果合并忙/闲信息仅为可用，为与用户的 Microsoft Exchange Server 2003 林请求信息**MergedOnly**将返回。 否则，将返回**FreeBusy**或**Detailed** 。  <br/> |
 |DetailedMerged  <br/> |代表中的所有属性**Detailed**与合并忙/闲信息的数据流。 如果合并忙/闲信息仅为可用，则将返回**MergedOnly** 。 否则，将返回**FreeBusyMerged**或**DetailedMerged** 。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素的设置的值与[FreeBusyViewType](freebusyviewtype.md)元素在响应中返回。 
   

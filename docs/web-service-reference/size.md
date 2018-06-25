@@ -16,7 +16,7 @@ ms.openlocfilehash: 15ee0bce6bc5fa2065cef4ecee40d7a6d65e3249
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827509"
 ---
 # <a name="size"></a>大小

@@ -12,7 +12,7 @@ ms.openlocfilehash: bb1d64b98f5e1ab4cdbe4a297ded46d00b27b364
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827418"
 ---
 # <a name="setholdonmailboxesresponse"></a>SetHoldOnMailboxesResponse

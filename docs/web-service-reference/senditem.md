@@ -16,7 +16,7 @@ ms.openlocfilehash: c5ce52ee4643219aa31ae59e8b7d40d7a904c8ab
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827340"
 ---
 # <a name="senditem"></a>SendItem
@@ -59,7 +59,7 @@ ms.locfileid: "19827340"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 如果发送发送邮件文件夹中的项目，删除发送的项目并将它的一个副本置于发送邮件文件夹。
   

@@ -13,7 +13,7 @@ ms.openlocfilehash: ae0fd3d52e8efde82a667063a604cf591ebd933e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826236"
 ---
 # <a name="legacydn-soap"></a>LegacyDN (SOAP)

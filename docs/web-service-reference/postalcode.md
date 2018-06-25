@@ -16,7 +16,7 @@ ms.openlocfilehash: 853c65e0ac2fe182b1d188996948eaab6a1b7165
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826857"
 ---
 # <a name="postalcode"></a>PostalCode
