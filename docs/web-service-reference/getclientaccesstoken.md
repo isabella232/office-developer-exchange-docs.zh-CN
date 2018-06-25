@@ -12,7 +12,7 @@ ms.openlocfilehash: 5b5420c5f44d770293c77c0c0ae5c927da3aa856
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754478"
 ---
 # <a name="getclientaccesstoken"></a>GetClientAccessToken

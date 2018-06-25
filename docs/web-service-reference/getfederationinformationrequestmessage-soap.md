@@ -13,7 +13,7 @@ ms.openlocfilehash: f684c41e495d7878058615aa6257e1af5d83f396
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754563"
 ---
 # <a name="getfederationinformationrequestmessage-soap"></a>GetFederationInformationRequestMessage (SOAP)

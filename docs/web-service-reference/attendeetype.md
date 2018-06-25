@@ -16,7 +16,7 @@ ms.openlocfilehash: a08532ed78296102ee252c1e0c40beee7ca8ea5d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753288"
 ---
 # <a name="attendeetype"></a>AttendeeType
@@ -66,7 +66,7 @@ ms.locfileid: "19753288"
 |聊天室  <br/> |表示用于会议的会议室资源邮箱实体。  <br/> |
 |资源  <br/> |如 TV 或计划在会议中使用的投影仪资源。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素是[MailboxData](mailboxdata.md)元素的必需的子元素。 此元素[MailboxData](mailboxdata.md)元素中只能出现一次。 描述此元素的架构位于运行 MicrosoftExchange Server 2007 的安装了客户端访问服务器角色的计算机的 /EWS/ 目录中。 
   

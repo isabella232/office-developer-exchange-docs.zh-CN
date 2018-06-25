@@ -16,7 +16,7 @@ ms.openlocfilehash: 836b0f6a5140a37e1584f571cb8e26534fe7a25f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754252"
 ---
 # <a name="externalaudience"></a>ExternalAudience
@@ -57,7 +57,7 @@ ms.locfileid: "19754252"
 |**已知** <br/> |邮箱用户的组织外部的电子邮件发件人发送给用户的消息将仅接收外部 OOF 消息响应如果发件人是用户的 Exchange 中存储的联系人列表。  <br/> |
 |**All** <br/> |邮箱用户的组织外部的电子邮件发件人将邮件发送到用户将收到外部 OOF 消息响应。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素共享[AllowExternalOof](allowexternaloof.md)元素类型相同。 
   

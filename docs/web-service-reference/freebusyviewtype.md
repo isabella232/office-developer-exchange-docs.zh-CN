@@ -16,7 +16,7 @@ ms.openlocfilehash: fe965d062f72d99dff7148f4d00b12fd8c4e1366
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754443"
 ---
 # <a name="freebusyviewtype"></a>FreeBusyViewType
@@ -69,7 +69,7 @@ ms.locfileid: "19754443"
 |Detailed  <br/> |表示的旧的状态信息： 闲、 忙、 暂定、 和 OOF;约会; 的开始/结束时间和主题、 位置和重要性如约会的各种属性。 此请求的视图将返回的最大量为其特权发出请求的用户的信息。 如果合并忙/闲信息仅为可用，为与用户的 Microsoft Exchange Server 2003 林请求信息**MergedOnly**将返回。 否则，将返回**FreeBusy**或**Detailed** 。  <br/> 如果通讯组列表指定**Detailed** ，则列表的成员的忙/闲信息合并，并返回**MergedOnly** 。  <br/> |
 |DetailedMerged  <br/> |代表中的所有属性**Detailed**与合并闲/忙时间信息的数据流。 如果只有合并忙/闲信息可用，例如，如果该邮箱存在运行 Exchange 2003 的计算机上，将返回**MergedOnly** 。 否则，将返回**FreeBusyMerged**或**DetailedMerged** 。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 如果使用[FreeBusyView](freebusyview.md)元素，此元素是必需的。 [RequestedView](requestedview.md)元素中指定返回的忙/闲信息的类型。 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。 
   

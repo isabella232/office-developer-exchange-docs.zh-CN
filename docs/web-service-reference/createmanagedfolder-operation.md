@@ -16,7 +16,7 @@ ms.openlocfilehash: 2c2af53dc5dbe1e6fcbc7f3b1174a856e51e4905
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753677"
 ---
 # <a name="createmanagedfolder-operation"></a>CreateManagedFolder 操作
@@ -32,7 +32,7 @@ CreateManagedFolder 操作将托管的自定义文件夹添加到用户的邮箱
   
 您可以使用的 FindFolder 和 GetFolder 操作访问托管的文件夹。 FindFolder 用于搜索中指定的父文件夹的文件夹。 这可以使用，以使托管的文件夹可以尝试添加重复的托管自定义文件夹到相同的目录之前发现文件夹中。 GetFolder FindFolder 操作之后用于获取有关托管自定义文件夹的详细信息。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 有关如何设置邮件记录管理 (MRM) 策略的信息，请参阅[如何创建托管文件夹邮箱策略](http://go.microsoft.com/fwlink/?LinkId=100975)。
   

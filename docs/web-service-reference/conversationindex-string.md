@@ -12,7 +12,7 @@ ms.openlocfilehash: 7ae8083aea826726752f1cd3c9f3689fd0dd3fb5
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753584"
 ---
 # <a name="conversationindex-string"></a>ConversationIndex （字符串）
@@ -46,7 +46,7 @@ ms.locfileid: "19753584"
 
 String 值，它代表对话的索引。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素是必需的。
   

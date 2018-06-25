@@ -12,7 +12,7 @@ ms.openlocfilehash: 694b3578e127a84dfd2fb844c6e81b28553b687c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753436"
 ---
 # <a name="carphones"></a>CarPhones

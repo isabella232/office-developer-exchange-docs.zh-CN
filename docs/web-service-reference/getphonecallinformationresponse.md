@@ -16,7 +16,7 @@ ms.openlocfilehash: 5a03d63198cd00997b8975b18a5ae0eb5fca1af2
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754663"
 ---
 # <a name="getphonecallinformationresponse"></a>GetPhoneCallInformationResponse
@@ -65,7 +65,7 @@ ms.locfileid: "19754663"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于安装了客户端访问服务器角色与运行 Exchange Server 的计算机的 EWS 虚拟目录中。
   

@@ -12,7 +12,7 @@ ms.openlocfilehash: 8d63aa6f640053fec91b9a4627dbef1ade127a43
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754088"
 ---
 # <a name="emailtext-setencryptionconfigurationtype"></a>EmailText (SetEncryptionConfigurationType)

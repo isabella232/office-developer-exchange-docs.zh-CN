@@ -12,7 +12,7 @@ ms.openlocfilehash: 05eeef7f7194c1dc05be93ed13ebff93d5013e94
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754458"
 ---
 # <a name="getappmanifestsresponsemessage"></a>GetAppManifestsResponseMessage
@@ -45,7 +45,7 @@ ms.locfileid: "19754458"
 |:-----|:-----|
 |成功  <br/> |指示成功。  <br/> |
 |警告  <br/> |指示警告。  <br/> |
-|Error  <br/> |指示错误。  <br/> |
+|错误  <br/> |指示错误。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 

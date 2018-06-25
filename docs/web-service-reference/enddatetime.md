@@ -16,7 +16,7 @@ ms.openlocfilehash: ad596c6441e7bdb10b4e886a8d0f3ba183c43c3e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754119"
 ---
 # <a name="enddatetime"></a>EndDateTime

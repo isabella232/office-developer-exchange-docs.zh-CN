@@ -16,7 +16,7 @@ ms.openlocfilehash: ef93ed4684427a74a4fd2c38b4020ecb743fbaaf
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754195"
 ---
 # <a name="expanddl"></a>ExpandDL
@@ -48,7 +48,7 @@ ms.locfileid: "19754195"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 只能将一个通讯组列表执行通讯组列表扩展。 通讯组列表扩展不递归。
   

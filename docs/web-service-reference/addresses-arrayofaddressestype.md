@@ -12,7 +12,7 @@ ms.openlocfilehash: c1ee79611da1d19ce85202f9e3c0f68c421e98c2
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753129"
 ---
 # <a name="addresses-arrayofaddressestype"></a>地址 (ArrayOfAddressesType)

@@ -10,7 +10,7 @@ ms.openlocfilehash: 0dd990cc82762936e7827115685ce0178eafb5ae
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752780"
 ---
 # <a name="get-domain-settings-from-an-exchange-server"></a>从 Exchange 服务器获取域设置

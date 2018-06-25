@@ -16,7 +16,7 @@ ms.openlocfilehash: dab9142eebf7691862e7970a7d1e8f5874393b94
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754307"
 ---
 # <a name="fileas"></a>FileAs
@@ -51,7 +51,7 @@ ms.locfileid: "19754307"
 
 如果使用此元素，则需要用于表示字符串的文本值。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 **FileAs**元素用于不同的完整名称或公司名称的名称对联系人和通讯组列表进行排序。 
   

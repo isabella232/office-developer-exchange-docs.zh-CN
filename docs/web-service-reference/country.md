@@ -12,7 +12,7 @@ ms.openlocfilehash: 83462afedc542fa69cbb8c54c91d0bbc8c746fb4
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753620"
 ---
 # <a name="country"></a>国家（地区）

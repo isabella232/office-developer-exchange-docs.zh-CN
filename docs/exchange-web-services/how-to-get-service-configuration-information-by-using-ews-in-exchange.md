@@ -10,7 +10,7 @@ ms.openlocfilehash: e84a563bb094a2fe03e08f8e1a81b2b054d45850
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752777"
 ---
 # <a name="get-service-configuration-information-by-using-ews-in-exchange"></a>要在 Exchange 使用 EWS 获取服务配置信息

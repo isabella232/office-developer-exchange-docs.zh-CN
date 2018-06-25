@@ -16,7 +16,7 @@ ms.openlocfilehash: 8a82ff28ad1d0dc965a3284c1d0eac9b2fa38301
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754410"
 ---
 # <a name="forwarditem"></a>ForwardItem
@@ -76,7 +76,7 @@ ms.locfileid: "19754410"
 |[ResponseObjects](responseobjects.md) <br/> |包含与 Exchange 存储中的项相关联的所有响应对象的集合。  <br/> |
 |[项目 (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md) <br/> |包含由[ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md)元素的文件夹中创建的项的数组。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 [从](from.md)元素应设置为主体的电子邮件地址，如果由代理人转发项目。 如果代理不会设置[From](from.md)属性，将显示项目已发送直接从代理人的邮箱。 
   

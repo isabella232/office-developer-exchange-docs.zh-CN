@@ -16,7 +16,7 @@ ms.openlocfilehash: 4987685d0c3cefdfad4f5be1368776a5b859bf94
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753767"
 ---
 # <a name="dayofweekindex"></a>DayOfWeekIndex
@@ -58,7 +58,7 @@ ms.locfileid: "19753767"
 - 第四    
 - 最后一个
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 例如，某个月份的第二个星期一可能会出现在月的第三个星期。 如果一个月开始在某个星期五，相应月份的第一周将仅包含几天，并且不包含星期一。 因此的第一个星期一者必须发生在第二个星期。
   

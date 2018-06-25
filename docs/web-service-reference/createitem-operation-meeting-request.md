@@ -16,14 +16,14 @@ ms.openlocfilehash: a8aea688e46376906554952ce8ec45022cf613e9
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753663"
 ---
 # <a name="createitem-operation-meeting-request"></a>CreateItem operation，（会议请求）
 
 使用 CreateItem operation 响应会议请求。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 CreateItem operation，提供用于响应会议请求的三个选项： 接受、 暂时接受或拒绝。 
   

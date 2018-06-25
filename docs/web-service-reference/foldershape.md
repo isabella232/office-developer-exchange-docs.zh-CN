@@ -16,7 +16,7 @@ ms.openlocfilehash: 8ebdd70ef13ee9f0cce9020b9212576cba782be4
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754408"
 ---
 # <a name="foldershape"></a>FolderShape
@@ -54,7 +54,7 @@ ms.locfileid: "19754408"
 |[GetFolder](getfolder.md) <br/> |定义从 Exchange 存储中获取文件夹的请求。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/GetFolder` <br/> |
 |[SyncFolderHierarchy](syncfolderhierarchy.md) <br/> |定义同步客户端上的文件夹层次结构的请求。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/SyncFolderHierarchy` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 **FolderShape**元素是[FindFolder](findfolder.md)元素的必需的子元素。 
   

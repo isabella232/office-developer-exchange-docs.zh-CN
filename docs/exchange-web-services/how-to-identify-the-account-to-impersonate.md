@@ -10,7 +10,7 @@ ms.openlocfilehash: 78df4b511a9947d4d815b2802a53ab178b14622b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752783"
 ---
 # <a name="identify-the-account-to-impersonate"></a>确定要模拟的帐户

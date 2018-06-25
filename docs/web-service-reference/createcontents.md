@@ -16,7 +16,7 @@ ms.openlocfilehash: f84ffdd2e6b485436d9e4ccd5f03a6e2c57fcfd1
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753631"
 ---
 # <a name="createcontents"></a>CreateContents
@@ -50,7 +50,7 @@ ms.locfileid: "19753631"
 
 文本值为**true**指示客户端可以创建内容表。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此属性仅可用于文件夹对象。
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: d403eb5ca15623d3a973f7b224dbcde5529cf1bc
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753625"
 ---
 # <a name="createattachment"></a>CreateAttachment
@@ -50,7 +50,7 @@ ms.locfileid: "19753625"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 为存储项不存在项目附件。 仅存在为项目附件或另一个附件。 只能通过使用[GetAttachment](getattachment.md)请求检索项附件。 
   

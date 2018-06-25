@@ -12,7 +12,7 @@ ms.openlocfilehash: b39a9e85c58f253511acaa21f62e1a4277fd56e8
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754578"
 ---
 # <a name="getimitemlist"></a>GetImItemList

@@ -16,7 +16,7 @@ ms.openlocfilehash: 69b27d23fd75d4c1a274f31dfa419b759dbb2bbe
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753323"
 ---
 # <a name="baseshape"></a>BaseShape
@@ -75,7 +75,7 @@ ms.locfileid: "19753323"
 |任务  <br/> |文件夹 Id，显示名称过去截止计数、 总计、 子文件夹计数  <br/> |
 |笔记  <br/> |文件夹 Id，显示名称、 总计、 子文件夹计数  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 若要返回除外标识[BaseShape](baseshape.md)元素的属性，请使用[AdditionalProperties](additionalproperties.md)元素。 
   

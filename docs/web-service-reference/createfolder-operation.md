@@ -16,7 +16,7 @@ ms.openlocfilehash: 97156d4a3747cacbdcf9563d21d93a0aa44c3358
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753642"
 ---
 # <a name="createfolder-operation"></a>CreateFolder Operation

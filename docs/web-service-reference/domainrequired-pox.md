@@ -13,7 +13,7 @@ ms.openlocfilehash: f314b9d27d1b4ee472d249ec49af1a785ff9ac25
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753972"
 ---
 # <a name="domainrequired-pox"></a>DomainRequired (POX)
@@ -52,7 +52,7 @@ ms.locfileid: "19753972"
 
 文本值指示是否需要身份验证的域。 可能的值为**在**打开和**关闭**。 如果值为**上**，后续请求必须包含用户的帐户的域。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 如果在[使用 LoginName (POX)](loginname-pox.md)元素中，不指定域或未指定**LoginName**元素，用户必须输入的域之前身份验证将失败。 
   

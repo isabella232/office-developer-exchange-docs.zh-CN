@@ -10,7 +10,7 @@ ms.openlocfilehash: 077dd923710a1a7f5cad4c822cbbd58ab3603661
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753019"
 ---
 # <a name="verifying-the-results-of-an-ews-or-ews-managed-api-call"></a>验证 EWS 或 EWS 托管 API 调用的结果

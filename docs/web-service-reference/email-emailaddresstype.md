@@ -16,7 +16,7 @@ ms.openlocfilehash: 0e7848d7c4f5001ed86b06d11af1d7623b4bf1f0
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754037"
 ---
 # <a name="email-emailaddresstype"></a>电子邮件 (EmailAddressType)
@@ -59,7 +59,7 @@ ms.locfileid: "19754037"
 |:-----|:-----|
 |[MailboxData](mailboxdata.md) <br/> |代表单个邮箱用户和类型的数据的选项，将返回有关邮箱用户。  <br/> 以下是此元素的 XPath:  <br/>  `/GetUserAvailabilityRequest/MailboxDataArray[i]/MailboxData` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于运行 MicrosoftExchange Server 2007 的安装了客户端访问服务器角色的计算机的 /EWS/ 目录中。
   

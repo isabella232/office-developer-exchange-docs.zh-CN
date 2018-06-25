@@ -12,7 +12,7 @@ ms.openlocfilehash: 1d0bc2f9d26e11d8d2710693d67843ad2f339a5d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754574"
 ---
 # <a name="getholdonmailboxes-operation"></a>GetHoldOnMailboxes 操作

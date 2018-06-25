@@ -12,7 +12,7 @@ ms.openlocfilehash: ed8e2fa72b0eb007925742e6d194f3a391b3f3cb
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754152"
 ---
 # <a name="errorcode"></a>错误代码

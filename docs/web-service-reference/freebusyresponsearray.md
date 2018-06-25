@@ -16,7 +16,7 @@ ms.openlocfilehash: cc6022c28213667c40dc00b5627ed88c4f78e2f2
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754426"
 ---
 # <a name="freebusyresponsearray"></a>FreeBusyResponseArray
@@ -54,7 +54,7 @@ ms.locfileid: "19754426"
 |:-----|:-----|
 |[GetUserAvailabilityResponse](getuseravailabilityresponse.md) <br/> |包含定义用户可用性信息或建议的会议时间信息的属性。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/GetUserAvailabilityResponse` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素，则不请求忙/闲信息不包含在 GetUserAvailability 响应。
   

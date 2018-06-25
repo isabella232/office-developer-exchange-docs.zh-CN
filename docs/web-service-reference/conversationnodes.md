@@ -12,7 +12,7 @@ ms.openlocfilehash: 62ec061f6d03abb9db7e511722e5570e70d65772
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753598"
 ---
 # <a name="conversationnodes"></a>ConversationNodes

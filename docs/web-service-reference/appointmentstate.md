@@ -16,7 +16,7 @@ ms.openlocfilehash: 05e92a3fea10a84518b0680c425011a91bc43d93
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753248"
 ---
 # <a name="appointmentstate"></a>AppointmentState
@@ -51,7 +51,7 @@ ms.locfileid: "19753248"
 
 此元素包含代表设置位的文本值。 这是整数窗体中。 此元素是只读的。 仅将在响应中返回它。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 返回的整数值表示的约会状态位掩码。 下表介绍了每一位。
   

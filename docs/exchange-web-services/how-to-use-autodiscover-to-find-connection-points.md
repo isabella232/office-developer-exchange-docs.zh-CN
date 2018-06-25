@@ -10,7 +10,7 @@ ms.openlocfilehash: 653fcd1c094c23c3e89e903b7194b96720802b51
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752895"
 ---
 # <a name="use-autodiscover-to-find-connection-points"></a>使用 Autodiscover 以查找连接点

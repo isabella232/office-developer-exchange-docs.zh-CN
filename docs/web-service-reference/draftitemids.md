@@ -12,7 +12,7 @@ ms.openlocfilehash: f6639b20641ff68fff989d2de5fa4ec2c550d5ce
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753989"
 ---
 # <a name="draftitemids"></a>DraftItemIds

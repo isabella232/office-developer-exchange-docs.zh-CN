@@ -11,7 +11,7 @@ ms.openlocfilehash: d8905d098c9978c3413f67e9a1b2443a52fb0d1f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754096"
 ---
 # <a name="emwsurl-pox"></a>EmwsUrl (POX)
@@ -50,7 +50,7 @@ ms.locfileid: "19754096"
 
 文本值表示用户的 EWS 终结点的 URL。 它等效于[EwsUrl (POX)](ewsurl-pox.md)元素。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 **EmwsUrl**元素是**协议**元素的可选子元素。 
   

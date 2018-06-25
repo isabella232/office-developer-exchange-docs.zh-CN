@@ -16,7 +16,7 @@ ms.openlocfilehash: e1b9e337f633dbf6fda159c28725d3fb8dcd55a6
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754396"
 ---
 # <a name="folders"></a>文件夹
@@ -62,7 +62,7 @@ ms.locfileid: "19754396"
 |[RootFolder (FindFolderResponseMessage)](rootfolder-findfolderresponsemessage.md) <br/> |包含搜索[FindFolder 操作](findfolder-operation.md)过程中的单个根文件夹的结果。  <br/> |
 |[UpdateFolderResponseMessage](updatefolderresponsemessage.md) <br/> |包含状态和的单个结果[UpdateFolder 操作](updatefolder-operation.md)请求。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素是[ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md)元素的必需的子元素。 
   

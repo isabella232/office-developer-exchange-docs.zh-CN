@@ -12,7 +12,7 @@ ms.openlocfilehash: 8b4d5952dedb4de0201d2ecf2219c69f65f7dc09
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753135"
 ---
 # <a name="aggregationrestriction"></a>AggregationRestriction
@@ -42,7 +42,7 @@ ms.locfileid: "19753135"
 
 [FindPeople](findpeople.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 **AggregationRestriction**元素可以包含使用**SearchExpression**替换组任何子元素。 属于**SearchExpression**替换组元素：[包含](contains.md)[排除](excludes.md)、 [Exists](exists.md)、[不](not.md)、[或](or.md)、[和](and.md)、 [IsEqualTo](isequalto.md)、 [IsNotEqualTo](isnotequalto.md)， [IsGreaterThan](isgreaterthan.md)， [IsGreaterThanOrEqualTo](isgreaterthanorequalto.md)、 [IsLessThan](islessthan.md)和[IsLessThanOrEqualTo](islessthanorequalto.md)。
   

@@ -10,7 +10,7 @@ ms.openlocfilehash: cb0c16a74e68b5a16ef0f2011f65b22675950f58
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752723"
 ---
 # <a name="handling-notification-related-errors-in-ews-in-exchange"></a>在 Exchange 处理与通知相关 EWS 中的错误
@@ -21,7 +21,7 @@ ms.locfileid: "19752723"
   
 **表 1。与通知相关的错误和如何处理它们**
 
-|Error|您尝试对时发生...|处理由...|
+|错误|您尝试对时发生...|处理由...|
 |:-----|:-----|:-----|
 |**ErrorExceededConnectionCount** |打开要获取事件时达到的连接限制的帐户打开流式连接的连接。 | <ul><li>使用[模拟](http://technet.microsoft.com/en-us/library/dd776119%28v=exchg.150%29.aspx)到[打开连接](how-to-maintain-affinity-between-group-of-subscriptions-and-mailbox-server.md#bk_throttling)。</li><li>使用较少的连接可获取事件。 通过[使用关联](how-to-maintain-affinity-between-group-of-subscriptions-and-mailbox-server.md)和[放置 200 订阅 Id 同一组中的最大](how-to-maintain-affinity-between-group-of-subscriptions-and-mailbox-server.md#bk_howdoimaintain)最大化中每个连接的订阅数。 然后可以使用相同的连接以检索整个组，从而减少了所需的连接数的事件。</li><li>  更改 HangingConnectionLimit Exchange 内部部署的 web.config 文件中覆盖三个打开的连接的默认值的值。 Exchange Online 有默认的 10，HangingConnectionLimit 不可配置。</li></ul> |
 |**ErrorExceededSubscriptionCount** |创建订阅过多。 [EwsMaxSubscriptions](http://msdn.microsoft.com/en-us/library/microsoft.exchange.data.directory.systemconfiguration.throttlingpolicy.ewsmaxsubscriptions%28v=exchg.150%29.aspx)限制策略参数确定帐户可以创建的订阅的最大的数目。 | <ul><li>使用[模拟](http://technet.microsoft.com/en-us/library/dd776119%28v=exchg.150%29.aspx)为[创建订阅](how-to-maintain-affinity-between-group-of-subscriptions-and-mailbox-server.md#bk_throttling)。</li><li>减少的订阅数。</li></ul> |

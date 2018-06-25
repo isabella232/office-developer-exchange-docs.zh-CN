@@ -12,7 +12,7 @@ ms.openlocfilehash: 2511a2acf0eb2eb24f06e98a1c660d289687bd02
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753332"
 ---
 # <a name="birthdays"></a>生日

@@ -11,7 +11,7 @@ ms.openlocfilehash: 4727e7054c02a4b5d454cb880691ecc01a075327
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754425"
 ---
 # <a name="freebusyaccessenabled-soap"></a>FreeBusyAccessEnabled (SOAP)
@@ -45,7 +45,7 @@ ms.locfileid: "19754425"
 
 文本值为**true**的**FreeBusyAccessEnabled**元素指示共享关系应该用于检索忙/闲信息从组织中的用户。 如果值为**false**指示应禁止显示的共享的关系。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 使用此元素以允许或禁止从服务器忙/闲信息。 
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: 66b69d57246942e551de2f683949870823e2e4e1
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754186"
 ---
 # <a name="excludeconflicts"></a>ExcludeConflicts
@@ -58,7 +58,7 @@ ms.locfileid: "19754186"
 
 文本值是必需的。 可能的值为布尔值**true**或**false**。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素是必需的。
   

@@ -11,7 +11,7 @@ ms.openlocfilehash: fb9bd92611998acc52fab0ea3e3c1ecb3e507faa
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754000"
 ---
 # <a name="ecpurl-aggr-pox"></a>EcpUrl aggr (POX)
@@ -54,7 +54,7 @@ ms.locfileid: "19754000"
 
 文本值表示可以结合使用[EcpUrl (POX)](ecpurl-pox.md)元素的值生成一个 URL，可用于访问电子邮件的用户的聚合设置的部分 URL。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 **EcpUrl aggr**元素是**协议**元素的可选子元素。 
   

@@ -12,7 +12,7 @@ ms.openlocfilehash: 5e542f750e83f0fe6a078bf6230ffe1d0cc6680d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753635"
 ---
 # <a name="createdtime"></a>CreatedTime

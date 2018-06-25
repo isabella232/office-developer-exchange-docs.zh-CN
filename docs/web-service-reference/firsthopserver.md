@@ -16,7 +16,7 @@ ms.openlocfilehash: 1852b95f94b174b57c8175a45035a97686384c20
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754364"
 ---
 # <a name="firsthopserver"></a>FirstHopServer

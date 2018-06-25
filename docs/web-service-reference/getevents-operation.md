@@ -16,7 +16,7 @@ ms.openlocfilehash: 1a23a9d570a4554e54becb7927f25dff89888c74
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754531"
 ---
 # <a name="getevents-operation"></a>GetEvents 操作
@@ -26,7 +26,7 @@ ms.locfileid: "19754531"
 > [!IMPORTANT]
 > **DeleteUserConfiguration**操作将触发事件通知系统移动的事件。 用户配置对象将移至转储程序。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 对日历项目的更改可能会导致生成的多个事件。 这些事件是正在更改为正常的日历操作中，或两者的一部分的忙/闲数据存储项在邮箱中创建的临时项目的结果。 项目的事件类"IPM。Web 服务客户端应忽略 SchedulePlus.FreeBusy.BinaryData"。 在创建; 后删除临时项目因此，如果尝试检索这些项，将返回错误，指出找不到该项目。
   
@@ -181,7 +181,7 @@ ms.locfileid: "19754531"
 </soap:Envelope>
 ```
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 当处理**GetEvents**请求，客户端访问服务器将执行以下步骤： 
   

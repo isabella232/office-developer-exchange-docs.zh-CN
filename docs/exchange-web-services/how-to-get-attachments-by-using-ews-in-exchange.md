@@ -10,7 +10,7 @@ ms.openlocfilehash: 2e1b3cfb346abd068695f66b01f9e34f1f5ff03f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752781"
 ---
 # <a name="get-attachments-by-using-ews-in-exchange"></a>使用 EWS 在 Exchange 服务器获取附件

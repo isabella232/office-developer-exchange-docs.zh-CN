@@ -12,7 +12,7 @@ ms.openlocfilehash: 14c970fcbe20567546e99e637c9c78c6003d9c0f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754407"
 ---
 # <a name="formattedaddress"></a>FormattedAddress

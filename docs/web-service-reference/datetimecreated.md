@@ -16,7 +16,7 @@ ms.openlocfilehash: 5cfd4e73295bc6823e76d901a21f4745c5fda977
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753747"
 ---
 # <a name="datetimecreated"></a>DateTimeCreated
@@ -61,7 +61,7 @@ ms.locfileid: "19753747"
 
 文本值表示的日期和时间时创建的邮箱中的项目。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 使用日历响应对象更新关联的日历项目的[DateTimeCreated](datetimecreated.md)属性。 **DateTimeCreated**属性保持不变的预期的行为。 例如，用户 A 发送会议请求的用户 B 接受会议请求的标识符的会议请求。 关联的日历项目的**DateTimeCreated**属性更改。 
   

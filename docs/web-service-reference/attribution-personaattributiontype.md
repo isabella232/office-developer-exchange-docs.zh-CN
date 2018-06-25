@@ -12,7 +12,7 @@ ms.openlocfilehash: 0e800c92c75bf0c475d4bffd33d6ab49f9ad9a9a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753291"
 ---
 # <a name="attribution-personaattributiontype"></a>归属 (PersonaAttributionType)

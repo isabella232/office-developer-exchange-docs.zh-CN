@@ -16,7 +16,7 @@ ms.openlocfilehash: 39c8c8ef84ff445e8f44ebb9f2285ccfc42353a7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754438"
 ---
 # <a name="from"></a>From
@@ -63,7 +63,7 @@ ms.locfileid: "19754438"
 |[CancelCalendarItem](cancelcalendaritem.md) <br/> |表示用于取消会议的响应对象。  <br/> |
 |[PostItem](postitem.md) <br/> |代表一个 Exchange 存储中的公告项目。 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 中引入了此元素。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素用于"代表发送"电子邮件。
   

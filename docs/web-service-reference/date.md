@@ -16,7 +16,7 @@ ms.openlocfilehash: 98dc9d6c599222c819b2c9ed1bacd05758ae1655
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753737"
 ---
 # <a name="date"></a>日期

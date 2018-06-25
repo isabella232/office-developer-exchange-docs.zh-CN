@@ -16,7 +16,7 @@ ms.openlocfilehash: 6e0bb90e197ce22bcd982a6d51954a88f3a2cf03
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753488"
 ---
 # <a name="connectingsid"></a>ConnectingSID
@@ -57,7 +57,7 @@ ms.locfileid: "19753488"
 |:-----|:-----|
 |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |请求的 SOAP 标头中使用。 如果此元素存在，调用方尝试模拟**ExchangeImpersonation**元素中包含的帐户。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/ExchangeImpersonation` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 调用帐户必须具有**ms exch 模拟**客户端访问服务器和**ms-exch MayImpersonate**上右右上也包含要模拟的邮箱的邮箱数据库或 Active Directory 用户或联系人对象。 
   

@@ -11,7 +11,7 @@ ms.openlocfilehash: 85e1ad785b35649238ac3944f51472addf617c20
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754121"
 ---
 # <a name="endpoint-soap"></a>终结点 (SOAP)
@@ -45,7 +45,7 @@ ms.locfileid: "19754121"
 
 文本值表示的终结点的安全令牌的 web 服务。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 终结点用于通信的安全令牌的 web 服务。
   

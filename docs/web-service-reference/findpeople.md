@@ -12,7 +12,7 @@ ms.openlocfilehash: 79c8a4324cd217232442b781c33223296d8015e5
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754357"
 ---
 # <a name="findpeople"></a>FindPeople

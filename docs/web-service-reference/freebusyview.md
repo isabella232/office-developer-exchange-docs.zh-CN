@@ -16,7 +16,7 @@ ms.openlocfilehash: d0d603f18642a94e841a1a6bb8e8849aa6b5b273
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754428"
 ---
 # <a name="freebusyview"></a>FreeBusyView
@@ -64,7 +64,7 @@ ms.locfileid: "19754428"
 |:-----|:-----|
 |[FreeBusyResponse](freebusyresponse.md) <br/> |包含单个邮箱用户的忙/闲信息。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 中发生的顺序排列的所有子元素。 提供此元素的详细程度取决于所请求者授予的权限。
   

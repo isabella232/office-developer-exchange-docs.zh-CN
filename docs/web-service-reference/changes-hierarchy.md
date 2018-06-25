@@ -16,7 +16,7 @@ ms.openlocfilehash: 15e4f9f37c5e4a4083260dcf379a49beb2260030
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753449"
 ---
 # <a name="changes-hierarchy"></a>更改 （层次结构）
@@ -66,7 +66,7 @@ ms.locfileid: "19753449"
 
 表示一个布尔值的文本值是必需的。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于安装了客户端访问服务器角色的 Exchange 2007 计算机的 EWS 虚拟目录中。
   

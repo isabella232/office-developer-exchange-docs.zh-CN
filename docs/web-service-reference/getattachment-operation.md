@@ -16,7 +16,7 @@ ms.openlocfilehash: c260033208bf49c60463c09041d8ffcc52a8f5c2
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754469"
 ---
 # <a name="getattachment-operation"></a>GetAttachment 操作

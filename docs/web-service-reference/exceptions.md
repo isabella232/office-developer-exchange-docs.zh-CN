@@ -16,7 +16,7 @@ ms.openlocfilehash: b875b4dc0029bb9e0bc2bb50c41569fb72ef9268
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754185"
 ---
 # <a name="exceptions"></a>异常
@@ -120,7 +120,7 @@ ms.locfileid: "19754185"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 规则谓词用作规则条件或例外。
   

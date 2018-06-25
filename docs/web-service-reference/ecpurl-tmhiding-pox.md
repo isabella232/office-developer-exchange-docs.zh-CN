@@ -11,7 +11,7 @@ ms.openlocfilehash: 461e9780dbd657ba0ba8b9ce9ea4fe902cba9698
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754016"
 ---
 # <a name="ecpurl-tmhiding-pox"></a>EcpUrl tmHiding (POX)
@@ -59,7 +59,7 @@ ms.locfileid: "19754016"
 | 
   _Id_ <br/> |SMTP 电子邮件地址或 X500 可分辨名称的站点邮箱。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 **EcpUrl tmHiding**元素是**协议**元素的可选子元素。 
   

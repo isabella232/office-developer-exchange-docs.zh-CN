@@ -16,7 +16,7 @@ ms.openlocfilehash: 73450bf69c6b122e806d85011975159e348ad740
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754118"
 ---
 # <a name="enddaterecurrence"></a>EndDateRecurrence

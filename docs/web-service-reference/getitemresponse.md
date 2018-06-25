@@ -16,7 +16,7 @@ ms.openlocfilehash: 73805cf007a8d9d00d47b2b819935b5229c6e14d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754605"
 ---
 # <a name="getitemresponse"></a>GetItemResponse

@@ -12,7 +12,7 @@ ms.openlocfilehash: 997319193311ef9267d8f6ff14c70bfe40e2634b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754501"
 ---
 # <a name="getconversationitemsresponsemessage"></a>GetConversationItemsResponseMessage
@@ -46,7 +46,7 @@ ms.locfileid: "19754501"
 |:-----|:-----|
 |成功  <br/> |指示成功。  <br/> |
 |警告  <br/> |指示警告。  <br/> |
-|Error  <br/> |指示错误。  <br/> |
+|错误  <br/> |指示错误。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 

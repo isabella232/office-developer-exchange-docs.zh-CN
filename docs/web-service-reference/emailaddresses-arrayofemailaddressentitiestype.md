@@ -12,7 +12,7 @@ ms.openlocfilehash: 8d96d49ef2420f269197e47577efb956daa64e53
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754057"
 ---
 # <a name="emailaddresses-arrayofemailaddressentitiestype"></a>EmailAddresses (ArrayOfEmailAddressEntitiesType)

@@ -16,7 +16,7 @@ ms.openlocfilehash: 3953488fb0b57fcf01c2fb99039478bbe03c7f5d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754143"
 ---
 # <a name="entry-phonenumber"></a>条目 (PhoneNumber)

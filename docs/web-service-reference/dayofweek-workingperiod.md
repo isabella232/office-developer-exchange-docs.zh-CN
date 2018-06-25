@@ -16,7 +16,7 @@ ms.openlocfilehash: a6a68017291ba13f45b3970307669222d583fcbb
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753768"
 ---
 # <a name="dayofweek-workingperiod"></a>DayOfWeek (WorkingPeriod)
@@ -70,7 +70,7 @@ ms.locfileid: "19753768"
     
 将该顺序返回的文本值。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 请务必注意，此元素和可用性[(TimeZone) DayOfWeek](dayofweek-timezone.md)元素之间的区别是类型。 
   

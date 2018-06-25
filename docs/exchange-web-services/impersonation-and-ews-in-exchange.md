@@ -10,7 +10,7 @@ ms.openlocfilehash: f8a215874475034f0d147b80a05cae414e6438f9
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752899"
 ---
 # <a name="impersonation-and-ews-in-exchange"></a>模拟和 Exchange 中的 EWS

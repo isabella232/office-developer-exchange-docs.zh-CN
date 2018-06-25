@@ -16,7 +16,7 @@ ms.openlocfilehash: 3f4f72224269717325d2fbf56f0a25fab20352a4
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753581"
 ---
 # <a name="conversationindex"></a>ConversationIndex
@@ -63,7 +63,7 @@ ms.locfileid: "19753581"
 
 文本值表示的二进制格式**Base64Binary**标识符。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于 Exchange 服务器已安装了客户端访问服务器角色的 EWS 虚拟目录中。
   

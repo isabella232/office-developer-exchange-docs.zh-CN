@@ -16,7 +16,7 @@ ms.openlocfilehash: 3c3ee682dd009e5c4bec940637a7dfa3c11f8402
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754586"
 ---
 # <a name="getinboxrules"></a>GetInboxRules

@@ -13,7 +13,7 @@ ms.openlocfilehash: f1c7a30ee221c5f3ca1358d0f3c3aca5c3467159
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753987"
 ---
 # <a name="domainsetting-soap"></a>DomainSetting (SOAP)

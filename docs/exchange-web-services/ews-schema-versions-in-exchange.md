@@ -10,7 +10,7 @@ ms.openlocfilehash: dd8e85547666ba0bf3a1a38775260268594f2a8b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752728"
 ---
 # <a name="ews-schema-versions-in-exchange"></a>Exchange 中的 EWS 架构版本

@@ -16,7 +16,7 @@ ms.openlocfilehash: 73e3972bb53d6bf59e5156098bad06bcde5f0155
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754423"
 ---
 # <a name="freebusyresponse"></a>FreeBusyResponse
@@ -58,7 +58,7 @@ ms.locfileid: "19754423"
 |:-----|:-----|
 |[FreeBusyResponseArray](freebusyresponsearray.md) <br/> |包含请求的用户的可用性信息和响应状态。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素，则不请求忙/闲信息不包含在 GetUserAvailability 响应。
   

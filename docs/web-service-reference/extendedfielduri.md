@@ -16,7 +16,7 @@ ms.openlocfilehash: 8d946aec8ae2c5e6bb4ca3f1d8ee74250262d373
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754229"
 ---
 # <a name="extendedfielduri"></a>ExtendedFieldURI
@@ -71,7 +71,7 @@ ms.locfileid: "19754229"
 |CurrencyArray  <br/> |解释为分的数量的 64 位整数的数组。  <br/> |
 |双精度数  <br/> |64 位浮点值。  <br/> |
 |DoubleArray  <br/> |64 位浮点值的数组。  <br/> |
-|Error  <br/> |SCODE 值;32 位无符号的整数。  <br/> 不使用限制或获取设置值。 这仅用于报告已存在。  <br/> |
+|错误  <br/> |SCODE 值;32 位无符号的整数。  <br/> 不使用限制或获取设置值。 这仅用于报告已存在。  <br/> |
 |Float  <br/> |32 位的浮点值。  <br/> |
 |FloatArray  <br/> |32 位浮点值的数组。  <br/> |
 |整数  <br/> |带符号的 32 位 (Int32) 整数。  <br/> |
@@ -116,7 +116,7 @@ ms.locfileid: "19754229"
 |[Contains](contains.md) <br/> |代表一个搜索表达式，确定给定的属性是否包含提供常量的字符串值。  <br/> |
 |[FieldOrder](fieldorder.md) <br/> |代表用于对结果进行排序的单个字段，并指示排序的方向。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 与其他属性结合使用，不能使用某些属性。 使用了无效的扩展的属性属性组合中的任何请求将生成一条错误消息。
   

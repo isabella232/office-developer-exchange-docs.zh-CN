@@ -16,14 +16,14 @@ ms.openlocfilehash: 655455b46d4a3192b294bee9d85352d95ded49ae
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754328"
 ---
 # <a name="findfolder-operation"></a>FindFolder Operation
 
 **FindFolder**操作使用 Exchange Web 服务来查找标识的文件夹的子文件夹，并返回描述这组子文件夹的属性集。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 FindFolder 返回仅第一个 512 个字节的任何流式属性。 对于 Unicode，它使用以 null 结尾的 Unicode 字符串中返回的前 255 个字符。
   

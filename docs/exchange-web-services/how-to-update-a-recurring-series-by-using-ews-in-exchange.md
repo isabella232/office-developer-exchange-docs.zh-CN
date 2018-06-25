@@ -10,7 +10,7 @@ ms.openlocfilehash: 03f414845674bfcacca62ef96fdb84f8b8823920
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752882"
 ---
 # <a name="update-a-recurring-series-by-using-ews-in-exchange"></a>在 Exchange 使用 EWS 更新定期系列

@@ -16,7 +16,7 @@ ms.openlocfilehash: f318b34c98dd42487b8ca3791ba915fb91d629a5
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754281"
 ---
 # <a name="externalreply"></a>ExternalReply

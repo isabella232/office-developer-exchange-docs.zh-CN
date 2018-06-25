@@ -16,7 +16,7 @@ ms.openlocfilehash: 834166be3d882fa8c0533cfcc2999600430b82ce
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753960"
 ---
 # <a name="distinguishedfolderid"></a>DistinguishedFolderId
@@ -116,7 +116,7 @@ ms.locfileid: "19753960"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 **DistinguishedFolderId**解析为**文件夹 Id**。 
   

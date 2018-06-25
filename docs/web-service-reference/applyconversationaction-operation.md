@@ -16,7 +16,7 @@ ms.openlocfilehash: 2a485b84ee87aec2ed807e3f4f0901b83432fa0a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753192"
 ---
 # <a name="applyconversationaction-operation"></a>ApplyConversationAction 操作
@@ -57,7 +57,7 @@ ms.locfileid: "19753192"
 </soap:Envelope>
 ```
 
-### <a name="remarks"></a>备注
+### <a name="remarks"></a>注解
 
 对话和文件夹标识符具有已缩短要保留可读性。
   

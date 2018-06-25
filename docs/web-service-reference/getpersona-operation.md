@@ -12,7 +12,7 @@ ms.openlocfilehash: c6ac357eaa34e9bae2fe0a79a4a2d02449100e78
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754654"
 ---
 # <a name="getpersona-operation"></a>GetPersona 操作

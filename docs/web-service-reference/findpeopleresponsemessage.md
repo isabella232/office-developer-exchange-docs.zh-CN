@@ -12,7 +12,7 @@ ms.openlocfilehash: 205f20b26b5097d24de45c5a5f9681f3557a6f87
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754365"
 ---
 # <a name="findpeopleresponsemessage"></a>FindPeopleResponseMessage

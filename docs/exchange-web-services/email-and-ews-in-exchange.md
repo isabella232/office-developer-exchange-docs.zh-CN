@@ -10,7 +10,7 @@ ms.openlocfilehash: d222be7409a3c3f4613a2be39b83b977fabb09e8
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752712"
 ---
 # <a name="email-and-ews-in-exchange"></a>电子邮件和 Exchange 中的 EWS

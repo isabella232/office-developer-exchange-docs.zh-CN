@@ -13,7 +13,7 @@ ms.openlocfilehash: 62a1243235ad9c2f36d7894f8fe8e41280b7ec4d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753166"
 ---
 # <a name="applicationuri-soap"></a>ApplicationUri (SOAP)

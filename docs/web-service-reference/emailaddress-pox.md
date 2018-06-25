@@ -13,7 +13,7 @@ ms.openlocfilehash: 7675ef18565d27db62f5662e651e982176001815
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754044"
 ---
 # <a name="emailaddress-pox"></a>EMailAddress (POX)
@@ -50,7 +50,7 @@ ms.locfileid: "19754044"
 
 文本值表示用户的电子邮件地址。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 [LegacyDN (POX)](legacydn-pox.md)元素提供自动发现请求的替代的元素。 
   

@@ -12,7 +12,7 @@ ms.openlocfilehash: 1767d6bfaee335717e33e0345c605025a073335c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754063"
 ---
 # <a name="emails2"></a>Emails2

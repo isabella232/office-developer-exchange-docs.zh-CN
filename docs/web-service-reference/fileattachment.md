@@ -16,7 +16,7 @@ ms.openlocfilehash: 5ce7aef753313aa9430f640bb3c26f652b8c1c43
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754310"
 ---
 # <a name="fileattachment"></a>FileAttachment

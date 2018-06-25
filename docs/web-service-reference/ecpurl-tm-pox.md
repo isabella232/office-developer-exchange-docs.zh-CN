@@ -11,7 +11,7 @@ ms.openlocfilehash: 786459cab98f8c169f768b6ef850792e8111761a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754013"
 ---
 # <a name="ecpurl-tm-pox"></a>EcpUrl tm (POX)
@@ -54,7 +54,7 @@ ms.locfileid: "19754013"
 
 文本值表示可以结合使用[EcpUrl (POX)](ecpurl-pox.md)元素的值生成一个可用于访问用户的站点邮箱的列表的 URL 的部分 URL。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 **EcpUrl tm**元素是**协议**元素的可选子元素。 
   

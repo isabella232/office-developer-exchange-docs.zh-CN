@@ -11,7 +11,7 @@ ms.openlocfilehash: 38471db7b7e046e43425b132b1716033c1c96afd
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754010"
 ---
 # <a name="ecpurl-sms-pox"></a>EcpUrl sms (POX)
@@ -54,7 +54,7 @@ ms.locfileid: "19754010"
 
 文本值表示可以结合使用[EcpUrl (POX)](ecpurl-pox.md)元素的值生成一个 URL，可用于访问用户的短信设置的部分 URL。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 **EcpUrl sms**元素是**协议**元素的可选子元素。 
   

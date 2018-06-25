@@ -12,7 +12,7 @@ ms.openlocfilehash: 2a4d1fe357656fe29d8572e7f32a4bc2e4a6131e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754684"
 ---
 # <a name="getsearchablemailboxesresponsemessage"></a>GetSearchableMailboxesResponseMessage
@@ -46,7 +46,7 @@ ms.locfileid: "19754684"
 |:-----|:-----|
 |成功  <br/> |指示成功。  <br/> |
 |警告  <br/> |指示警告。  <br/> |
-|Error  <br/> |指示错误。  <br/> |
+|错误  <br/> |指示错误。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 

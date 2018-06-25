@@ -16,7 +16,7 @@ ms.openlocfilehash: 59e071cbd402c49f4dcc4370059883f3f45409ae
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754380"
 ---
 # <a name="flagstatus"></a>FlagStatus

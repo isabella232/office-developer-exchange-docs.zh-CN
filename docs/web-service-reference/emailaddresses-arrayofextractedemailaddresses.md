@@ -12,7 +12,7 @@ ms.openlocfilehash: 46a6c2fb2dcd5d4587460c2d5d518a4795271da9
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754065"
 ---
 # <a name="emailaddresses-arrayofextractedemailaddresses"></a>EmailAddresses (ArrayOfExtractedEmailAddresses)

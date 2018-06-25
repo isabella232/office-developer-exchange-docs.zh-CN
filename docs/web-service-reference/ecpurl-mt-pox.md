@@ -11,7 +11,7 @@ ms.openlocfilehash: 13954a4dab8e81f4ba75b3578e6ba7f67f4b8b96
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754002"
 ---
 # <a name="ecpurl-mt-pox"></a>EcpUrl 黑 (POX)
@@ -61,7 +61,7 @@ ms.locfileid: "19754002"
 | _Mbx_ <br/> |邮箱所有者的 SMTP 地址。  <br/> |
 | _发件人_ <br/> |发件人 SMTP 地址。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 **EcpUrl 黑**元素是**协议**元素的可选子元素。 
   

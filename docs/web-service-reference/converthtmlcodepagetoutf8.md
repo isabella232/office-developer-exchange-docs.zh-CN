@@ -12,7 +12,7 @@ ms.openlocfilehash: aff6579835097a273101188c02a9919003b71b58
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753599"
 ---
 # <a name="converthtmlcodepagetoutf8"></a>ConvertHtmlCodePageToUTF8
@@ -46,7 +46,7 @@ ms.locfileid: "19753599"
 
 文本值为**true**的**ConvertHtmlCodePageToUTF8**元素表示的 HTML 正文将转换为 UTF8。 文本值为**false**指示的 HTML 正文不会转换为 UTF8。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 如果未在请求中指定的**ConvertHtmlCodePageToUTF8**元素，则，使用默认值为**true** 。 
   

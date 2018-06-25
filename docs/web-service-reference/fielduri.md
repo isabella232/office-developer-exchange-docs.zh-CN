@@ -16,7 +16,7 @@ ms.openlocfilehash: 82d1bd49819710fe54cfd9343bdd327798709954
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754344"
 ---
 # <a name="fielduri"></a>FieldURI
@@ -414,7 +414,7 @@ ms.locfileid: "19754344"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素是[路径](path.md)替换组的一部分。 
   

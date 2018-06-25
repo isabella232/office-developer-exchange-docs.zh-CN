@@ -16,7 +16,7 @@ ms.openlocfilehash: 88adbe566270d759986e9b55afd4827c0513ca43
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753708"
 ---
 # <a name="currentmeetingtime"></a>CurrentMeetingTime
@@ -52,7 +52,7 @@ ms.locfileid: "19753708"
 |:-----|:-----|
 |[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |包含选项的获取会议建议信息。  <br/> 以下是此元素的 XPath:  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素不是必需的。
   

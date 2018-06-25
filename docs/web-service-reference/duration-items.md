@@ -16,7 +16,7 @@ ms.openlocfilehash: e0992688f8fbaf8a9dea0e21e3dbea43ef2d161b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754001"
 ---
 # <a name="duration-items"></a>持续时间 （项）

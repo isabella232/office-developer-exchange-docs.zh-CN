@@ -16,7 +16,7 @@ ms.openlocfilehash: ace800982c284cf65ff22d92c711197ee5ee1d06
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753478"
 ---
 # <a name="conflictingmeetingcount"></a>ConflictingMeetingCount
@@ -51,7 +51,7 @@ ms.locfileid: "19753478"
 
 文本值表示一个整数。 此属性是只读的。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 日历项被视为发生时，至少在部件中，为相同的日历文件夹中的另一个日历项同时冲突。 如果日历项目 noncalendar 文件夹中，将与默认的日历文件夹中的日历项目进行比较。 与默认的日历文件夹中的日历项目，会议请求进行比较。
   

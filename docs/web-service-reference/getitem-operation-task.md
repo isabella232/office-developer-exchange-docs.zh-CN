@@ -16,14 +16,14 @@ ms.openlocfilehash: 412710f32ed8702e1a28a596833c3a7e47e3ed76
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754608"
 ---
 # <a name="getitem-operation-task"></a>GetItem 操作 （任务）
 
 GetItem operation，用于从 Exchange 存储中获取任务。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 GetItem 请求的任务的格式为 GetItem 相同的任何其他项目类型。 唯一的区别是其他属性可以请求响应形状中。 此类其他属性必须是与任务相关的属性或扩展的属性。
   

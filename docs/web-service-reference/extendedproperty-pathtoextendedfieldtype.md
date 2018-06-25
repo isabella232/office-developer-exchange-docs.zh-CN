@@ -12,7 +12,7 @@ ms.openlocfilehash: 7541fa6330ee96f7791febfabc672dbcf0e95b54
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754245"
 ---
 # <a name="extendedproperty-pathtoextendedfieldtype"></a>ExtendedProperty (PathToExtendedFieldType)
@@ -71,7 +71,7 @@ ms.locfileid: "19754245"
 |CurrencyArray  <br/> |指示的货币值的数组。  <br/> |
 |双精度数  <br/> |指示**双**。  <br/> |
 |DoubleArray  <br/> |指示**双精度**值的数组。  <br/> |
-|Error  <br/> |指示错误。 这是错误报告的目的。 限制或获取或设置值不能使用它。  <br/> |
+|错误  <br/> |指示错误。 这是错误报告的目的。 限制或获取或设置值不能使用它。  <br/> |
 |Float  <br/> |指示**float**。  <br/> |
 |FloatArray  <br/> |指示的**浮点**值的数组。  <br/> |
 |整数  <br/> |指示整数。  <br/> |

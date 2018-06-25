@@ -12,7 +12,7 @@ ms.openlocfilehash: 71c841ce6df2ed7dcbbf77597b26f3e3e742a7fb
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753188"
 ---
 # <a name="addimcontacttogroup"></a>AddImContactToGroup

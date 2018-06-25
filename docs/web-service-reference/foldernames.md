@@ -16,7 +16,7 @@ ms.openlocfilehash: 819b3c2df1cfcae3a5d4a48539e369a00b1f7229
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754394"
 ---
 # <a name="foldernames"></a>FolderNames

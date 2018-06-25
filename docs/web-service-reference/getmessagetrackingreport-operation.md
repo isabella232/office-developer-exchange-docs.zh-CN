@@ -16,7 +16,7 @@ ms.openlocfilehash: 0e2e26c2bbe98aff75817ab24f413b7f975e145a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754617"
 ---
 # <a name="getmessagetrackingreport-operation"></a>GetMessageTrackingReport 操作

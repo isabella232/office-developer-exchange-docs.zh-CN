@@ -12,7 +12,7 @@ ms.openlocfilehash: 413ace449002b72cedc03a973ca2f56d46b6b6de
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753573"
 ---
 # <a name="conversation-conversationresponsetype"></a>对话 (ConversationResponseType)

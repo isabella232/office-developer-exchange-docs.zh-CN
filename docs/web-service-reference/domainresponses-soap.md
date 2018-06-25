@@ -13,7 +13,7 @@ ms.openlocfilehash: 77a3efc1605337ab436f6aea2b61a67f22e4f8ce
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753981"
 ---
 # <a name="domainresponses-soap"></a>DomainResponses (SOAP)

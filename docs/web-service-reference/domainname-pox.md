@@ -13,7 +13,7 @@ ms.openlocfilehash: c38d2e470bd174ab6dd7e5e1dd3eee23daea5e69
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753976"
 ---
 # <a name="domainname-pox"></a>DomainName (POX)
@@ -52,7 +52,7 @@ ms.locfileid: "19753976"
 
 文本值指定用户的域。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 如果未不指定任何值，默认身份验证是用作用户主体名称 (UPN) 格式的电子邮件地址。 例如：\<用户名\>@\<域\>。
   

@@ -11,7 +11,7 @@ ms.openlocfilehash: c978608982a2795af1683b4b2121435a02149935
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754424"
 ---
 # <a name="freebusyaccesslevel-soap"></a>FreeBusyAccessLevel (SOAP)
@@ -41,7 +41,7 @@ ms.locfileid: "19754424"
 |:-----|:-----|
 |[OrganizationRelationshipSettings (SOAP)](organizationrelationshipsettings-soap.md) <br/> |代表单个组织的组织关系的列表。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素指定的忙/闲信息的详细信息，将在响应中返回的最大，并指示外部共享的忙/闲数据的级别。 
   

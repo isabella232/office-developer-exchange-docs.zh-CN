@@ -16,7 +16,7 @@ ms.openlocfilehash: 610d9e214a8de648ece667799bb5e67dfcc358f7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754030"
 ---
 # <a name="effectiverights"></a>EffectiveRights
@@ -81,7 +81,7 @@ ms.locfileid: "19754030"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 GetFolder、 GetItem、 FindFolder、 FindItem、 SyncFolderHierarchy 和 SyncFolderItems 响应中支持**EffectiveRights** 。 文件夹和项目的**AllProperties**形状中的公开**EffectiveRights**属性。 
   

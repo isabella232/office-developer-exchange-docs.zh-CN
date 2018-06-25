@@ -11,7 +11,7 @@ ms.openlocfilehash: 29b27ffe9ef3c18a3b6471ca4a42956a43a5aaa6
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754014"
 ---
 # <a name="ecpurl-tmediting-pox"></a>EcpUrl tmEditing (POX)
@@ -59,7 +59,7 @@ ms.locfileid: "19754014"
 | 
   _Id_ <br/> |SMTP 电子邮件地址或 X500 可分辨名称的站点邮箱。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 **EcpUrl tmEditing**元素是**协议**元素的可选子元素。 
   

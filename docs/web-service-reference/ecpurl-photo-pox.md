@@ -11,7 +11,7 @@ ms.openlocfilehash: e02a444d6809fe70274cda2cc8db6375e868edb9
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754009"
 ---
 # <a name="ecpurl-photo-pox"></a>EcpUrl 照片 (POX)
@@ -54,7 +54,7 @@ ms.locfileid: "19754009"
 
 文本值表示可以结合使用[EcpUrl (POX)](ecpurl-pox.md)元素的值生成一个 URL，可用于查看或更改用户的当前照片的部分 URL。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 **EcpUrl 照片**元素是**协议**元素的可选子元素。 
   

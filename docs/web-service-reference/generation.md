@@ -16,7 +16,7 @@ ms.openlocfilehash: 2b6be1a96223da8c70b042475cc7c8f0a67c000b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754447"
 ---
 # <a name="generation"></a>生成
@@ -50,7 +50,7 @@ ms.locfileid: "19754447"
 
 如果使用此元素，则需要的文本值。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素表示由 PR_Generation MAPI 属性相同的信息。
   

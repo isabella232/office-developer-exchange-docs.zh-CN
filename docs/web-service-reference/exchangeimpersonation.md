@@ -16,7 +16,7 @@ ms.openlocfilehash: aedeff22cda865ce1eec80dab9760d49fdc178f7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754183"
 ---
 # <a name="exchangeimpersonation"></a>ExchangeImpersonation
@@ -50,7 +50,7 @@ ms.locfileid: "19754183"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 调用帐户必须具有**ms exch 模拟**客户端访问服务器和**ms-exch MayImpersonate**上右右上也包含要模拟的邮箱的邮箱数据库或 Active Directory 用户/联系人对象。 
   

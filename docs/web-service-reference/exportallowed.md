@@ -12,7 +12,7 @@ ms.openlocfilehash: 5c07941e0a79394bbdaa1a1f62b20adedfe7a9bf
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754204"
 ---
 # <a name="exportallowed"></a>ExportAllowed

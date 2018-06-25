@@ -10,7 +10,7 @@ ms.openlocfilehash: f56717eaced5db9028c556c6c2d9aa7794f4988e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752729"
 ---
 # <a name="autodiscover-for-exchange"></a>Exchange 自动发现

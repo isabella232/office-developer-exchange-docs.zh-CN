@@ -10,7 +10,7 @@ ms.openlocfilehash: 9b54bfd75f7d68f08c767171d99251b5ce86b7c4
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752719"
 ---
 # <a name="distribution-groups-and-ews-in-exchange"></a>通讯组和 Exchange 中的 EWS

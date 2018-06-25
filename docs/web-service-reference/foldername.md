@@ -16,7 +16,7 @@ ms.openlocfilehash: 56a7a7d256624c5103c88a333222807519d21501
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754397"
 ---
 # <a name="foldername"></a>FolderName
@@ -56,7 +56,7 @@ ms.locfileid: "19754397"
 
 文本值是必需的。 文本值表示的文件夹名称。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 尽管可以使用 Exchange Web 服务添加到邮箱的托管自定义文件夹，但不能使用相同的技术以访问可用托管自定义文件夹的列表。 通过使用 Exchange 命令行管理程序命令或通过使用 Active Directory 目录服务的 API 的接口，您可以获取托管自定义文件夹的列表。 文件夹名称为相应的 Active Directory 对象的名称。
   

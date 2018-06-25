@@ -16,7 +16,7 @@ ms.openlocfilehash: 73e4eb782a4f54c113ea9a9b67fcf185a9028153
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754191"
 ---
 # <a name="excludes"></a>排除
@@ -57,7 +57,7 @@ ms.locfileid: "19754191"
 |[And](and.md) <br/> |代表一个搜索表达式，使您可以执行两个或多个搜索表达式之间 Boolean 和操作。 如果 And 中包含的搜索表达式都**为真**，和操作的结果为**true** 。  <br/> |
 |[或](or.md) <br/> |表示对它所包含的搜索表达式执行逻辑或搜索表达式。 如果任何其子返回**true**，则将返回**true** [或](or.md)元素。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
  如果执行下面的 AND 操作将解析为 0，**排除**将解析为**true** : 
   

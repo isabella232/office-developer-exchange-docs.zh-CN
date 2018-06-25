@@ -16,7 +16,7 @@ ms.openlocfilehash: 1d2558dba41ec3e7ae2711bb2dc26f54cada827a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753480"
 ---
 # <a name="conflictingmeetings"></a>ConflictingMeetings
@@ -51,7 +51,7 @@ ms.locfileid: "19753480"
 |[MeetingRequest](meetingrequest.md) <br/> |表示 Exchange 存储中的会议请求。  <br/> |
 |[日历项目](calendaritem.md) <br/> |表示 Exchange 日历项。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 如果使用此元素，则它必须包含一个或多个子元素。
   

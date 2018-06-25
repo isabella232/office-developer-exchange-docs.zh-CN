@@ -10,7 +10,7 @@ ms.openlocfilehash: 6de27d585e467d900941f34b2210877d17205502
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752720"
 ---
 # <a name="handling-synchronization-related-errors-in-ews-in-exchange"></a>在 Exchange 处理同步相关 EWS 中的错误

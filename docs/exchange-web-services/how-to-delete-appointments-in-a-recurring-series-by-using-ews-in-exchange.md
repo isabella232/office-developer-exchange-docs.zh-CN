@@ -10,7 +10,7 @@ ms.openlocfilehash: 5e4d95058808adf8db159000bdf90c1f92945338
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752786"
 ---
 # <a name="delete-appointments-in-a-recurring-series-by-using-ews-in-exchange"></a>使用 EWS 在 Exchange 中删除定期系列中的约会

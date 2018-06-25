@@ -16,7 +16,7 @@ ms.openlocfilehash: 03ee678611a6cf58a7256ded67ab4d0a8a06a7ee
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753766"
 ---
 # <a name="dayorder"></a>DayOrder
@@ -52,7 +52,7 @@ ms.locfileid: "19753766"
 
 文本值是必需的。 **DayOrder**元素的值可以是 1 到 5。 此元素的最大值可以是 4 或 5，具体取决于的月和年。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 [StandardTime](standardtime.md)元素，其中包含的值为 5 **DayOrder**元素的值为 10， [Month](month.md)元素和的值为星期日[(TimeZone) DayOfWeek](dayofweek-timezone.md)元素是指从标准时间的转换第十个月的第五个星期日发生夏时制。 
   

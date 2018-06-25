@@ -16,7 +16,7 @@ ms.openlocfilehash: 532862fc5299364e51ed469047deaea058692e83
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754274"
 ---
 # <a name="acceptitem"></a>AcceptItem
@@ -83,7 +83,7 @@ ms.locfileid: "19754274"
 |[ResponseObjects](responseobjects.md) <br/> |包含与 Exchange 存储中的项相关联的所有响应对象的集合。  <br/> |
 |[项目 (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md) <br/> |包含在由[ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md)元素标识的文件夹中创建的项的数组。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于安装了客户端访问服务器角色的 Exchange 服务器 EWS 目录中。
   

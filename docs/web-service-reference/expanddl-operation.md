@@ -16,7 +16,7 @@ ms.openlocfilehash: e4654120881f81a79358e0e7c0ab016f94db3288
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754205"
 ---
 # <a name="expanddl-operation"></a>ExpandDL 操作
@@ -46,7 +46,7 @@ ExpandDL 操作使用位于 Exchange.asmx Web 服务。 此 Web 服务方法接�
 > [!IMPORTANT]
 > 显示名称不是唯一的。 多个帐户可以共享相同的显示名称。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 不支持递归扩展。 可以在单个呼叫中展开只有一个通讯组列表。 如果多个通讯组列表匹配条件，Web 服务报告的错误。 客户端应用程序可以使用模糊名称解析 (ANR) 以查找不明确的通讯组列表，然后选择所需的通讯组列表的正确的电子邮件地址作为参数用于[ExpandDL 操作](expanddl-operation.md)。 有关详细信息，请参阅[ResolveNames 操作](resolvenames-operation.md)。
   

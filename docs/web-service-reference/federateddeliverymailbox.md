@@ -16,7 +16,7 @@ ms.openlocfilehash: 4a9250455f8de3ede25f2b5ba9433690137ca1d3
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754293"
 ---
 # <a name="federateddeliverymailbox"></a>FederatedDeliveryMailbox

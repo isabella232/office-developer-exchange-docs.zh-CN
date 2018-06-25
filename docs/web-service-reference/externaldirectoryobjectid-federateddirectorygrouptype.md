@@ -12,7 +12,7 @@ ms.openlocfilehash: 4d437e6290d439b97ac12d102f285b7dfcb89b64
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754254"
 ---
 # <a name="externaldirectoryobjectid-federateddirectorygrouptype"></a>ExternalDirectoryObjectId (FederatedDirectoryGroupType)

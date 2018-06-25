@@ -10,7 +10,7 @@ ms.openlocfilehash: e1a414f7c6f13bd61a58403c9d2be546c0226a69
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752877"
 ---
 # <a name="set-the-ews-service-url-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 设置 EWS 服务 URL

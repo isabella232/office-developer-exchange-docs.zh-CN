@@ -16,7 +16,7 @@ ms.openlocfilehash: 046a985ae4696616d28a0891ffe0aa8cc0552307
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754180"
 ---
 # <a name="ews-xml-elements-in-exchange"></a>Exchange 中的 EWS XML 元素

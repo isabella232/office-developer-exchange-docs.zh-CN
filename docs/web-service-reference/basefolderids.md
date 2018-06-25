@@ -16,7 +16,7 @@ ms.openlocfilehash: 960e4d9c1d6eb37bf988bf163e696cbba3e1ef6f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753308"
 ---
 # <a name="basefolderids"></a>BaseFolderIds
@@ -52,7 +52,7 @@ ms.locfileid: "19753308"
 |:-----|:-----|
 |[SearchParameters](searchparameters.md) <br/> |表示定义搜索文件夹的参数。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 **BaseFolderIds**元素必须包含至少一个[文件夹 Id](folderid.md)或[DistinguishedFolderId](distinguishedfolderid.md)元素。 
   

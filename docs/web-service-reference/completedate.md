@@ -16,7 +16,7 @@ ms.openlocfilehash: 00a1ec25be737ec0a5cc874063e1bce19a96cee0
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753461"
 ---
 # <a name="completedate"></a>CompleteDate
@@ -51,7 +51,7 @@ ms.locfileid: "19753461"
 
 如果使用此元素，则需要一个文本值，表示的日期和时间。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 设置**CompleteDate**与将[PercentComplete](percentcomplete.md)设置为 100 或**已完成**[状态](status.md)的效果相同。 在请求中，这些属性的设置至少两个，最后一个处理的属性将确定设置这些元素的值。 例如，如果[PercentComplete](percentcomplete.md)为 100， **CompleteDate**是 2007 年 1 月 1 日和[状态](status.md)为**NotStarted**，并且该顺序流式传输属性，将效果设置为 NotStarted**任务的[状态](status.md)**， [CompleteDate](completedate.md)为**null**，并且为 0 的[完成百分比](percentcomplete.md)。 
   

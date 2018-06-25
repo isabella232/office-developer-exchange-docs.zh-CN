@@ -16,7 +16,7 @@ ms.openlocfilehash: fa66d253b4fc6bd5c29a39c5323f59bf323a906f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753627"
 ---
 # <a name="cchksgfilespageinfo-struct"></a>CChkSGFiles.PAGE_INFO 结构
@@ -74,7 +74,7 @@ Struct PAGE_INFO
   
 无符号的 64 位整数。 保留以备今后使用。 此字段的值必须调用**ErrCheckDbPages**之前设置为 0 （零）。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 调用**ErrCheckDbPages**函数的**rgPageInfo**参数是一个数组**页\_INFO**结构。 必须有一个**页\_INFO**要检查每个数据库页的结构。 
   

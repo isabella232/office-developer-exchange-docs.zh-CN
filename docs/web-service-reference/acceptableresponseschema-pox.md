@@ -13,7 +13,7 @@ ms.openlocfilehash: 16444b6b3e17c6774416f90a5a056d0e8025287d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754250"
 ---
 # <a name="acceptableresponseschema-pox"></a>AcceptableResponseSchema (POX)

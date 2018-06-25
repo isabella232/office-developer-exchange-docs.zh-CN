@@ -16,7 +16,7 @@ ms.openlocfilehash: adb2de56b7610aa92b5bf5b8d43ac22f35021b64
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754147"
 ---
 # <a name="error"></a>Error

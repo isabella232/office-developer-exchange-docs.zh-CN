@@ -16,7 +16,7 @@ ms.openlocfilehash: 8f98ca5dd304eadffc307fa47620b7db6401c782
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754662"
 ---
 # <a name="getphonecallinformation-operation"></a>GetPhoneCallInformation 操作

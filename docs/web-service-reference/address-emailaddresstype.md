@@ -16,7 +16,7 @@ ms.openlocfilehash: 2a2d409edcc3a04bf82c6da0080183becfc9b25b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753191"
 ---
 # <a name="address-emailaddresstype"></a>地址 (EmailAddressType)

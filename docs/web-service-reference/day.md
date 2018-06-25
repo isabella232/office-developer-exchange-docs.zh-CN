@@ -16,7 +16,7 @@ ms.openlocfilehash: 01d1bf7833a89c0bb9a2b1af95ec8dfc627336d9
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753756"
 ---
 # <a name="day"></a>日

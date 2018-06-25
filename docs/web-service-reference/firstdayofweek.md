@@ -16,7 +16,7 @@ ms.openlocfilehash: 99858d17213d077ce7c51ad1c746588f2f3939a7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754370"
 ---
 # <a name="firstdayofweek"></a>FirstDayOfWeek

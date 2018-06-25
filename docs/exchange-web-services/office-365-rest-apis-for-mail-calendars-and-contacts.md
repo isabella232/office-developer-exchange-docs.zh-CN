@@ -10,7 +10,7 @@ ms.openlocfilehash: d42d3ff0b68dfbf23d5a4eebb826a6d39a4ac116
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753001"
 ---
 # <a name="office-365-rest-apis-for-mail-calendars-and-contacts"></a>Office 365 的邮件、 日历和联系人 REST Api

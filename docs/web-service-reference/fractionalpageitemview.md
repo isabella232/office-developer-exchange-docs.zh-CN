@@ -16,7 +16,7 @@ ms.openlocfilehash: 38c35d2b68dabfca1a43ab034deaf72c47b0ea66
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754418"
 ---
 # <a name="fractionalpageitemview"></a>FractionalPageItemView
@@ -54,7 +54,7 @@ ms.locfileid: "19754418"
 |:-----|:-----|
 |[FindItem](finditem.md) <br/> |定义查找邮箱中的项目的请求。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/FindItem` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 通过一小部分介绍了从找到项集开始的分页的视图偏移量。 分数，由**分子**和**分母**属性定义，介绍的信息页的起始位置。 例如，如果**分子**等于四**分母**等于 5，返回的信息开始的项的页面位于五分之四中到结果集中的方式。 
   

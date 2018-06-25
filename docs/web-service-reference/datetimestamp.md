@@ -16,7 +16,7 @@ ms.openlocfilehash: 6b81057b0e07d0607aba6f52d54220debc38b0ff
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753759"
 ---
 # <a name="datetimestamp"></a>DateTimeStamp

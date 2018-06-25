@@ -16,7 +16,7 @@ ms.openlocfilehash: 15cea49eb250336cdc6b7d551d53951aff1372c2
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753614"
 ---
 # <a name="count"></a>计数
@@ -60,7 +60,7 @@ ms.locfileid: "19753614"
 
 文本值为整数类型的值，该值代表[UpdateItem 操作](updateitem-operation.md)响应中的冲突数量。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于运行 Microsoft Exchange Server 2010 的安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
   

@@ -12,7 +12,7 @@ ms.openlocfilehash: b7a5097de734777a71559703ed2d54199edd952e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753262"
 ---
 # <a name="archivesourcefolderid"></a>ArchiveSourceFolderId

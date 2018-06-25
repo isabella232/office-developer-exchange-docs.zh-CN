@@ -16,7 +16,7 @@ ms.openlocfilehash: fed60275a007f2796c60d936def7a937e4982f29
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753623"
 ---
 # <a name="createattachment-operation"></a>CreateAttachment 操作
@@ -311,7 +311,7 @@ CreateAttachment 请求的下面的示例演示如何创建项目附件。
     
 - [附件](attachments-ex15websvcsotherref.md)
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 如果多个附件附加到单个往返中的项目，最后一个响应消息中的 RootItemChangeKey 是项的表示具有附件的新更改键。
   

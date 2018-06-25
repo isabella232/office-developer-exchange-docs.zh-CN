@@ -16,7 +16,7 @@ ms.openlocfilehash: 7dd9d48356932c82dbc048a85b9f02437c6366de
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753053"
 ---
 # <a name="agentlist"></a>agentList

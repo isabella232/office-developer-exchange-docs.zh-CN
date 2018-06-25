@@ -16,7 +16,7 @@ ms.openlocfilehash: 62a5492372fd80173d58e965376b7c8c466825a6
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754003"
 ---
 # <a name="duration-useroofsettings"></a>持续时间 (UserOofSettings)
@@ -54,7 +54,7 @@ ms.locfileid: "19754003"
 |[OofSettings](oofsettings.md) <br/> |包含 OOF 设置。<br/><br/>以下是此元素的 XPath 表达式：<br/><br/>`/GetUserOofSettingsResponse/OofSettings` <br/> |
 |[外出](outofoffice.md) <br/> |定义外出 (OOF) 响应消息和发送响应消息邮箱的持续时间。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 **持续时间**类型也是[DetailedSuggestionsWindow](detailedsuggestionswindow.md)、 [TimeWindow](timewindow.md)和[外出](outofoffice.md)元素的类型。 
   

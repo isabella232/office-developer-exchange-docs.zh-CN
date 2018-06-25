@@ -12,7 +12,7 @@ ms.openlocfilehash: 22561e5086c144e25d7e04b68ec6674b87c4718d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753645"
 ---
 # <a name="createfolderpath-operation"></a>CreateFolderPath 操作

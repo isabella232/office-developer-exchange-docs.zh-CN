@@ -10,7 +10,7 @@ ms.openlocfilehash: 65b5b2ef1eba66877d5b6f6c3d4237a26a254196
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752778"
 ---
 # <a name="export-items-by-using-ews-in-exchange"></a>在 Exchange 使用 EWS 导出项目

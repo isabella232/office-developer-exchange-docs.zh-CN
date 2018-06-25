@@ -16,7 +16,7 @@ ms.openlocfilehash: 3f8b42ff4ac88eaef53d1d4ec1d61212bc14b8c7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754389"
 ---
 # <a name="folderchange"></a>FolderChange
@@ -59,7 +59,7 @@ ms.locfileid: "19754389"
 |:-----|:-----|
 |[FolderChanges](folderchanges.md) <br/> |表示的文件夹的更改的集合。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/UpdateFolder/FolderChanges` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于运行 Exchange Server 2007 的安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
   

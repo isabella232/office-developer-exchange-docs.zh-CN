@@ -15,7 +15,7 @@ ms.openlocfilehash: fcf2839c1e2e40a22d6b6a856608f52f2c9c2a1a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754049"
 ---
 # <a name="emailaddress-nonemptystringtype"></a>EmailAddress (NonEmptyStringType)
@@ -51,7 +51,7 @@ ms.locfileid: "19754049"
 
 需要安装一个代表 SMTP 地址的文本值。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 **EmailAddress**元素可以表示 SMTP 或旧版 Exchange 可分辨名称 (也称为 DN) 地址。 **EmailAddress**元素是唯一的必需的[邮箱](mailbox.md)元素。 
   

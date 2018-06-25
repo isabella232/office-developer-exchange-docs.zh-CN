@@ -16,7 +16,7 @@ ms.openlocfilehash: 5764a164d5af183b8f313955ace5274dc6023a6a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754393"
 ---
 # <a name="folderid"></a>文件夹 Id
@@ -70,7 +70,7 @@ ms.locfileid: "19754393"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 所有**文件夹 Id**元素是**FolderIdType**类型。 **文件夹 Id**元素中除其类型扩展**BaseFolderType**元素中每种情况下都需要或其中的**文件夹 Id**元素是选择的一部分。 查看架构的详细信息。 
   

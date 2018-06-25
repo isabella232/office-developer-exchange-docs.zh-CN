@@ -12,7 +12,7 @@ ms.openlocfilehash: d235ed182ffdd2c181359b6e869c613da9a9dd74
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754536"
 ---
 # <a name="getencryptionconfiguration"></a>GetEncryptionConfiguration

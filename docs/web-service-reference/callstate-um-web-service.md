@@ -15,7 +15,7 @@ ms.openlocfilehash: e751c2e38783c6634a44d8e1b830a9224cdf300a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753431"
 ---
 # <a name="callstate-um-web-service"></a>CallState （UM web 服务）

@@ -10,7 +10,7 @@ ms.openlocfilehash: 911495c74f4c74114a86b1a3a98c9200db338b34
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752733"
 ---
 # <a name="get-started-with-ews-client-applications"></a>开始使用 EWS 客户端应用程序

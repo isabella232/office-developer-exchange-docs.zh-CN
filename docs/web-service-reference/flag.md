@@ -12,7 +12,7 @@ ms.openlocfilehash: f30f435e8f064d7165ae52de737bbd75b0546206
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754375"
 ---
 # <a name="flag"></a>标志

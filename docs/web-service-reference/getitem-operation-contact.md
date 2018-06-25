@@ -16,7 +16,7 @@ ms.openlocfilehash: 8d7436421f0c54a49345e8ef6b37cb442bca4277
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754600"
 ---
 # <a name="getitem-operation-contact"></a>GetItem 操作 （联系人）

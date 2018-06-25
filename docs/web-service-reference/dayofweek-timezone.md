@@ -16,7 +16,7 @@ ms.openlocfilehash: 7816b90000be36cf3a3354d26d978684bfdcfe40
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753761"
 ---
 # <a name="dayofweek-timezone"></a>DayOfWeek (TimeZone)
@@ -64,7 +64,7 @@ ms.locfileid: "19753761"
 - Weekday   
 - WeekendDay
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 [StandardTime](standardtime.md)元素，其中包含的值为 5 [DayOrder](dayorder.md)元素的值为 10， [Month](month.md)元素和的值为星期日**DayOfWeek**元素是指从标准时间转换为夏时制第十个月的第五个星期日节约时间发生。 
   

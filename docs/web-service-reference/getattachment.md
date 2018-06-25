@@ -16,7 +16,7 @@ ms.openlocfilehash: fb639c86a0654e8f9e9601310f7c2f5b0fc7d729
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754466"
 ---
 # <a name="getattachment"></a>GetAttachment
@@ -50,7 +50,7 @@ ms.locfileid: "19754466"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 [AttachmentShape](attachmentshape.md)元素不需要确定在响应中返回的属性。 [GetAttachment 操作](getattachment-operation.md)返回的名称、 ContentType、 ContentId、 ContentLocation 和附件的文件的内容属性。 对于项目的附件，返回的属性的名称、 ContentType、 ContentId、 ContentLocation 和附加的项的所有属性。 这是等价于[GetItem](getitem.md)请求中使用 AllProperties 基本形状。 
   

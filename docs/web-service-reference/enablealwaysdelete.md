@@ -16,7 +16,7 @@ ms.openlocfilehash: f86765c641604afbf13ac962f4b34fbd8de56200
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754104"
 ---
 # <a name="enablealwaysdelete"></a>EnableAlwaysDelete

@@ -16,7 +16,7 @@ ms.openlocfilehash: 099ec33663baa2414a0c28b90364523b6191c697
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752692"
 ---
 # <a name="cchksgfileserrterm-function"></a>CChkSGFiles.ErrTerm 函数
@@ -46,7 +46,7 @@ Vitual ERRErrTerm
 
 从[ERR](cchksgfiles-err-enumeration.md)枚举错误代码。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 **CChkSGFiles**对象确定是否已实际签**ErrInit**函数注册的所有数据库。 此对象使用**ErrCheckDbPages**函数以验证相同数量的页面由**ErrCheckDbHeaders**函数实际上已验证的数据库。 如果正确的每个数据库中的页面数不成功进行检查，则**ErrTerm**函数将返回错误。 
   

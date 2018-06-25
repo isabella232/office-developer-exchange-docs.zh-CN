@@ -10,7 +10,7 @@ ms.openlocfilehash: aad7604511687d1482914183979e954f79572af9
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752880"
 ---
 # <a name="stream-notifications-about-mailbox-events-by-using-ews-in-exchange"></a>有关在 Exchange 中使用 EWS 邮箱事件流通知

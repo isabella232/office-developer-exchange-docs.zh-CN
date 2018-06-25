@@ -11,7 +11,7 @@ ms.openlocfilehash: f478db53e120f108c64e415e43141761d7914f71
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753999"
 ---
 # <a name="ecpurl-extinstall-pox"></a>EcpUrl extinstall (POX)
@@ -54,7 +54,7 @@ ms.locfileid: "19753999"
 
 文本值表示可以结合使用[EcpUrl (POX)](ecpurl-pox.md)元素的值生成一个可用于查看或更改当前用户的邮箱中安装邮件应用程序的 URL 的部分 URL。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 **EcpUrl extinstall**元素是**协议**元素的可选子元素。 
   
