@@ -16,7 +16,7 @@ ms.openlocfilehash: 0f2707bede5e49174ed62a35ba704e39c0c48e9f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838580"
 ---
 # <a name="workingperiod"></a>WorkingPeriod
@@ -68,7 +68,7 @@ ms.locfileid: "19838580"
 |:-----|:-----|
 |[WorkingPeriodArray](workingperiodarray.md) <br/> |包含处理期间邮箱用户的信息。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/WorkingPeriodArray` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 中发生的顺序排列的所有子元素。 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

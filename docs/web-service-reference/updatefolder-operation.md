@@ -16,7 +16,7 @@ ms.openlocfilehash: b33937bb09f0dcbe3d3ed61bbf5233423f320d9c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838372"
 ---
 # <a name="updatefolder-operation"></a>UpdateFolder Operation
@@ -29,7 +29,7 @@ UpdateFolder 操作用于修改 Exchange 存储中现有项目的属性。 每�
     
 - 包含新值更新字段中，如果更新不删除文件夹。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 可对项目执行三个基本 update 操作。 下表列出了这些操作。
   

@@ -13,7 +13,7 @@ ms.openlocfilehash: 5fecf3103553a82ed2aeeecfc1e4e1b9fe38583c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838293"
 ---
 # <a name="ttl-pox"></a>TTL (POX)
@@ -56,7 +56,7 @@ ms.locfileid: "19838293"
 
 文本值表示生存时间中的设置期间保持有效的时间。 值为零表示该重新发现功能，则不需要。 如果未不指定任何值，此元素的默认值为 1 小时。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 **TTL**元素表示的时间过后，应使用自动发现请求重新发现设置。 
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: 0bc1b69ef564bb4e239d9845a4b1a0133292ff12
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838238"
 ---
 # <a name="timezonedefinitions"></a>TimeZoneDefinitions

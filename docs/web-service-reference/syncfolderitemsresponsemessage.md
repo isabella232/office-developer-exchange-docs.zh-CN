@@ -16,7 +16,7 @@ ms.openlocfilehash: 9bb32232143df56ad9de93480e10a5941e68025a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838180"
 ---
 # <a name="syncfolderitemsresponsemessage"></a>SyncFolderItemsResponseMessage

@@ -16,7 +16,7 @@ ms.openlocfilehash: ce3eaa470ef592c5a8e5a7ef24c377bb2feeca2e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838461"
 ---
 # <a name="userconfiguration"></a>UserConfiguration

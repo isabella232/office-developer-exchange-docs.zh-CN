@@ -16,7 +16,7 @@ ms.openlocfilehash: 9a8a25443db05d8d7da28772b84edcf80cd9a921
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838430"
 ---
 # <a name="updateuserconfigurationresponse"></a>UpdateUserConfigurationResponse
@@ -46,7 +46,7 @@ ms.locfileid: "19838430"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于运行 Microsoft Exchange Server 2010 的安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
   

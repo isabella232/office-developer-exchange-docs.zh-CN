@@ -16,7 +16,7 @@ ms.openlocfilehash: d1f5593f6b86745aa27d86e9d25487f5855cb0cc
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838335"
 ---
 # <a name="uniqueunreadsenders"></a>UniqueUnreadSenders
@@ -62,7 +62,7 @@ ms.locfileid: "19838335"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素是在 Exchange Server 2010 Service Pack 1 (SP1) 中引入的。描述此元素的架构位于承载 Exchange Web 服务的 IIS 虚拟目录。
   

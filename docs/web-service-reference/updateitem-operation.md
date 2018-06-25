@@ -16,14 +16,14 @@ ms.openlocfilehash: 009ba16315017c4418fbd71d49744015c4d6d1b1
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838401"
 ---
 # <a name="updateitem-operation"></a>UpdateItem Operation
 
 **UpdateItem**操作用于修改 Exchange 存储中现有项目的属性。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 您可以在项目上执行三个基本 update 操作。 下表列出了您可以执行的操作。
   

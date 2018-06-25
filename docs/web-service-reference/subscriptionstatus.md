@@ -16,7 +16,7 @@ ms.openlocfilehash: 1f6de15f7a3b07714899aef2ff74a8d556f8ca1d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838155"
 ---
 # <a name="subscriptionstatus"></a>SubscriptionStatus
@@ -54,7 +54,7 @@ ms.locfileid: "19838155"
     
 - 取消订阅
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素描述订阅的状态。 推送订阅客户端应用程序发送回运行 Exchange 2007 的计算机的状态具有每个推送通知之后安装了客户端访问服务器角色。 如果**SubscriptionStatus**值等于**取消订阅**，客户端访问服务器将停止发送通知，并结束订阅。 如果**SubscriptionStatus**值等于**确定**，则客户端访问服务器将继续发送通知。
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: 09ff317ae0b2ebf1eadc89dc3bb1cf5b3ae19dcb
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838163"
 ---
 # <a name="suggestionsviewoptions"></a>SuggestionsViewOptions
@@ -69,7 +69,7 @@ ms.locfileid: "19838163"
 |:-----|:-----|
 |[GetUserAvailabilityRequest](getuseravailabilityrequest.md) <br/> |包含用于获取用户的可用性信息的参数。 这是根元素。  <br/> 以下是此元素的 XPath:  <br/>  `/GetUserAvailabilityRequest` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素不需要，并且如果使用可以只发生一次。 如果[FreeBusyViewOptions](freebusyviewoptions.md)元素的值不为 null，则此值可以是 null。 
   

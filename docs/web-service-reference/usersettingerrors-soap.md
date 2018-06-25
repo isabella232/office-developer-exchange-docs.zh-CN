@@ -13,7 +13,7 @@ ms.openlocfilehash: 4477c30145d2cb187a4309d018512537af974ee8
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838496"
 ---
 # <a name="usersettingerrors-soap"></a>UserSettingErrors (SOAP)

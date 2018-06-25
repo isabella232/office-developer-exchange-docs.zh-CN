@@ -16,7 +16,7 @@ ms.openlocfilehash: 02712f05dc3373a532d769f476341b78ad25a79c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838579"
 ---
 # <a name="workingperiodarray"></a>WorkingPeriodArray
@@ -62,7 +62,7 @@ ms.locfileid: "19838579"
 |:-----|:-----|
 |[WorkingHours](workinghours-ex15websvcsotherref.md) <br/> |表示所在的时区设置和请求的邮箱用户的工作时间。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 如果使用[WorkingHours](workinghours-ex15websvcsotherref.md)元素，此元素是必需的。 中发生的顺序排列的所有子元素。 
   

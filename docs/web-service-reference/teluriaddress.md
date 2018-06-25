@@ -12,7 +12,7 @@ ms.openlocfilehash: ffb165496b4da5e9b751bcafcfc4b8e221486dfe
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838194"
 ---
 # <a name="teluriaddress"></a>TelUriAddress

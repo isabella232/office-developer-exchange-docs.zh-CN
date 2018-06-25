@@ -12,7 +12,7 @@ ms.openlocfilehash: eb451e611c4922fa3b9cff7edec54dfb8260f5f5
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838154"
 ---
 # <a name="subscriptionid-getstreamingevents"></a>SubscriptionId (GetStreamingEvents)
@@ -46,7 +46,7 @@ ms.locfileid: "19838154"
 
 文本值是必需的。 文本值是一个 GUID。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 创建订阅时由客户端访问服务器生成的 GUID 值，该值代表订阅标识符。
   

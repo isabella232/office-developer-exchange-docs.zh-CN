@@ -16,7 +16,7 @@ ms.openlocfilehash: 4cd00232bcc233f6534d844418f523c248ce54bf
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838388"
 ---
 # <a name="updatefolderresponsemessage"></a>UpdateFolderResponseMessage
@@ -72,7 +72,7 @@ ms.locfileid: "19838388"
 |:-----|:-----|
 |[ResponseMessages](responsemessages.md) <br/> |包含为 Exchange Web 服务请求的响应消息。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于运行 Microsoft Exchange Server 2010 的安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
   

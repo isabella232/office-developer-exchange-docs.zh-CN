@@ -16,7 +16,7 @@ ms.openlocfilehash: 716487fb7ed64dbaa6fa97caf1ea608e4673d2ef
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838212"
 ---
 # <a name="time"></a>时间
@@ -51,7 +51,7 @@ ms.locfileid: "19838212"
 
 文本值代表小时、 分钟和秒采用以下格式： mm: ss。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 [DaylightTime](daylighttime.md)元素**时间**元素时，它代表从夏时制转换为标准时间发生的一天的时间。 [StandardTime](standardtime.md)元素中的[时间](time.md)元素时，它代表从标准时间转换为夏时，发生此事件的一天的时间。 
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: 05858b4d62b72b3ff9904c90652bb1bff78ceb41
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838237"
 ---
 # <a name="timewindow"></a>TimeWindow
@@ -58,7 +58,7 @@ ms.locfileid: "19838237"
 |:-----|:-----|
 |[FreeBusyViewOptions](freebusyviewoptions.md) <br/> |指定响应中返回的忙/闲信息的类型。  <br/> 以下是此元素的 XPath:  <br/>  `/GetUserAvailabilityRequest/FreeBusyViewOptions` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 以下时间段内的最大值为 42 天。 可以修改此最大值。 所有请求的用户的最大值超出的可用性信息将都返回错误。 如果任何约会部分中的[StartTime](starttime.md)和[EndTime](endtime.md)元素定义的时间跨度，该约会包含完整地复制。 
   

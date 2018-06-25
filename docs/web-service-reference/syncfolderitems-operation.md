@@ -16,14 +16,14 @@ ms.openlocfilehash: 6b2e4694ac793e17a2b7cb2edb2cb9e6a4a105ea
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838176"
 ---
 # <a name="syncfolderitems-operation"></a>SyncFolderItems 操作
 
 SyncFolderItems 操作同步 Exchange server 和客户端之间的项目。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 SyncFolderItems 操作将返回最多个 512 更改。 若要获取的其他更改，必须执行后续 SyncFolderItems 请求。 
   

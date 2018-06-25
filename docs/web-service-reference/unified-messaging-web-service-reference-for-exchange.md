@@ -15,7 +15,7 @@ ms.openlocfilehash: 12ee91c5a8b7e1ba23b937f142a9ae2835697fef
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838316"
 ---
 # <a name="unified-messaging-web-service-reference-for-exchange"></a>Exchange 统一的消息 web 服务引用

@@ -16,7 +16,7 @@ ms.openlocfilehash: 2363e243a833f580b4b5701b7d39d9ba9420f35a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838336"
 ---
 # <a name="unknownattendeeconflictdata"></a>UnknownAttendeeConflictData
@@ -62,7 +62,7 @@ ms.locfileid: "19838336"
 |:-----|:-----|
 |[AttendeeConflictDataArray](attendeeconflictdataarray.md) <br/> |包含标识[GetUserAvailability 操作](getuseravailability-operation.md)中的查询与会者冲突数据的数组。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Attendee 是未知的如果它无法解析对 Active Directory 目录服务对象。 如果无法确定为用户、 组或联系人与会者无法解析。 例如，与会者不会解析是否已启用邮件的公用文件夹。
   

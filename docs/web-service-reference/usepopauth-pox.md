@@ -13,7 +13,7 @@ ms.openlocfilehash: be03568d697b1f5461d49dba388a1d3f1008a67e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838452"
 ---
 # <a name="usepopauth-pox"></a>UsePOPAuth (POX)
@@ -56,7 +56,7 @@ ms.locfileid: "19838452"
 
 文本值指示是否为 SMTP 还使用 POP3 类型的帐户提供的身份验证信息。 可能的值为**在**打开和**关闭**。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 SMTP[类型 (POX)](type-pox.md)时，仅使用**UsePOPAuth**元素。 
   

@@ -13,7 +13,7 @@ ms.openlocfilehash: 8d5d6aec67ab183743d7aae9f5d1f303d2949cd0
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838545"
 ---
 # <a name="webclienturls-soap"></a>WebClientUrls (SOAP)

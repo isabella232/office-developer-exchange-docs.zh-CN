@@ -16,7 +16,7 @@ ms.openlocfilehash: 98b447cd49685b49f73f75f12d921a65749be245
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838348"
 ---
 # <a name="unresolvedentry"></a>UnresolvedEntry
@@ -54,7 +54,7 @@ ms.locfileid: "19838348"
 
 文本值表示公共联系人或通讯组列表的名称。 字符串的最小长度是一个字符。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素的文本值用于解析名称针对以下字段：
   

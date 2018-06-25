@@ -11,7 +11,7 @@ ms.openlocfilehash: 0b28444727e21a98925b6d1062bcbbac62c68981
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838182"
 ---
 # <a name="targetautodiscoverepr-soap"></a>TargetAutodiscoverEpr (SOAP)
@@ -45,7 +45,7 @@ ms.locfileid: "19838182"
 
 此元素的文本值是组织关系的统一资源标识符 (URI)。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素指定的服务器的外部组织的自动发现 URL。 
   

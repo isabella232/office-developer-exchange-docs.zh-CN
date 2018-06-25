@@ -11,7 +11,7 @@ ms.openlocfilehash: b070d85b32d5bce8461ac4e930329f237885bad7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838256"
 ---
 # <a name="tokenissuers-soap"></a>TokenIssuers (SOAP)
@@ -45,7 +45,7 @@ ms.locfileid: "19838256"
 |:-----|:-----|
 |[GetFederationInformationResponse (SOAP)](getfederationinformationresponse-soap.md) <br/> |包含[GetFederationInformation 操作 (SOAP)](getfederationinformation-operation-soap.md)响应。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 **TokenIssuers**代表[TokenIssuer (SOAP)](tokenissuer-soap.md)元素，用于自动发现的集合。 
   

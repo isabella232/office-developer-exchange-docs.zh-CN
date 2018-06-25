@@ -12,7 +12,7 @@ ms.openlocfilehash: dac2c80cfa964ca8e880e9be8a561c8e3ed09780
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838258"
 ---
 # <a name="torecipients-arrayofsmtpaddresstype"></a>ToRecipients (ArrayOfSmtpAddressType)

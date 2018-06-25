@@ -16,7 +16,7 @@ ms.openlocfilehash: 0a26002689e131959f09318b01d97ffb73b605f9
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838234"
 ---
 # <a name="timeout"></a>Timeout
@@ -50,7 +50,7 @@ ms.locfileid: "19838234"
 
 如果使用此元素，则需要表示一个整数的文本值。 此元素的可能值是 1 到 1440 之间，非独占。 此元素是必需的。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 成功的 GetEvents 请求重置订阅超时计时器。
   

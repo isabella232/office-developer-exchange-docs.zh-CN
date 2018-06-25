@@ -16,7 +16,7 @@ ms.openlocfilehash: d595ae77de293a1975e15102f3f2c3395e6da633
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838158"
 ---
 # <a name="suggestionarray"></a>SuggestionArray

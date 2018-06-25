@@ -12,7 +12,7 @@ ms.openlocfilehash: 9675b72b36fd1ac5e298b2998ed683a1ba6452f7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838327"
 ---
 # <a name="uninstallappresponse"></a>UninstallAppResponse

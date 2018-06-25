@@ -16,7 +16,7 @@ ms.openlocfilehash: 8096c14956d132a631b0ade6f2eae12a2bff9c06
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838543"
 ---
 # <a name="webclientreadformquerystring"></a>WebClientReadFormQueryString
@@ -61,7 +61,7 @@ ms.locfileid: "19838543"
 
 如果使用此元素，则需要用于表示字符串的文本值。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Outlook Web App 的 URL 的项标识符的项的 EWS 标识符。 可以对 URL 进行编码 EWS 的项标识符，并将其追加到查询字符串以获取项目的 Outlook Web App 的 URL。
   

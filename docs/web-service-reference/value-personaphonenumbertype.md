@@ -12,7 +12,7 @@ ms.openlocfilehash: ceab2cf4ce37c30392ff44c353221cf317d12707
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838507"
 ---
 # <a name="value-personaphonenumbertype"></a>值 (PersonaPhoneNumberType)

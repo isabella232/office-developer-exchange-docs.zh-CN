@@ -16,7 +16,7 @@ ms.openlocfilehash: dc2466e8039819edc82294ff05f1746ada64cb43
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838253"
 ---
 # <a name="timezone-availability"></a>TimeZone （可用性）
@@ -55,7 +55,7 @@ ms.locfileid: "19838253"
 |[GetUserAvailabilityRequest](getuseravailabilityrequest.md) <br/> |包含用于获取用户的可用性信息的参数。 这是根元素。  <br/> GetUserAvailabilityRequest 消息中的**TimeZone**元素表示请求中的日期时间值指定的时区。 可用性服务返回的 DateTime 值也是在此所在的时区。  <br/> 以下是此元素的 XPath:  <br/>  `/GetUserAvailabilityRequest` <br/> |
 |[WorkingHours](workinghours-ex15websvcsotherref.md) <br/> |表示所在的时区设置和请求的邮箱用户的工作时间。  <br/> GetUserAvailabilityResponse 消息中的**TimeZone**元素表示请求的邮箱用户所在的时区设置。  <br/> 以下是此元素的 XPath:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素是[GetUserAvailabilityRequest](getuseravailabilityrequest.md)元素中必需的。 此元素发生最一次或至少零次时的父元素是[WorkingHours](workinghours-ex15websvcsotherref.md)元素。 
   

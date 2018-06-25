@@ -16,7 +16,7 @@ ms.openlocfilehash: 519712ed10958cf556c8fb29372326ade3c31c90
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838564"
 ---
 # <a name="when"></a>在执行

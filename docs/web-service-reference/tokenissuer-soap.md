@@ -11,7 +11,7 @@ ms.openlocfilehash: 1c267fc6cbfdadd471c568473cc9aeeafb43ae2d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838244"
 ---
 # <a name="tokenissuer-soap"></a>TokenIssuer (SOAP)
@@ -47,7 +47,7 @@ ms.locfileid: "19838244"
 |:-----|:-----|
 |[TokenIssuers (SOAP)](tokenissuers-soap.md) <br/> |表示安全令牌服务[Uri (SOAP)](uri-soap.md)的集合和[终结点 (SOAP)](endpoint-soap.md)。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 使用**TokenIssuer**元素指定安全令牌服务时使用安全令牌。 
   

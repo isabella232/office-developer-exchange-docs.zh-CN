@@ -16,7 +16,7 @@ ms.openlocfilehash: 306e5f226a56694bb1ff32362f77e7dff80865ad
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838344"
 ---
 # <a name="unknownentries"></a>UnknownEntries
@@ -51,7 +51,7 @@ ms.locfileid: "19838344"
 |[PermissionSet (PermissionSetType)](permissionset-permissionsettype.md) <br/> |包含所有配置的文件夹的权限。 Exchange 2007 SP1 中引入了此元素。  <br/> |
 |[PermissionSet (CalendarPermissionSetType)](permissionset-calendarpermissionsettype.md) <br/> |包含所有配置的日历文件夹的权限。 Exchange 2007 SP1 中引入了此元素。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 可以通过使用[SetFolderField](setfolderfield.md)元素 UpdateFolder 操作从文件夹中删除未知的条目。 通过使用 UpdateFolder 操作的 SetFolderField 选项重置 PermissionSet 时，将删除未知的条目。 Exchange Web 服务不支持各项的删除。 
   

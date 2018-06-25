@@ -16,7 +16,7 @@ ms.openlocfilehash: 847c0244a8847364e29ea584b0c0b721f00d3064
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838178"
 ---
 # <a name="syncscope"></a>SyncScope
@@ -57,7 +57,7 @@ ms.locfileid: "19838178"
 |NormalItems  <br/> |指定同步响应中返回的仅文件夹中的项目。  <br/> |
 |NormalAndAssociatedItems  <br/> |指定同步响应中返回的两个项目中的文件夹和文件夹的相关信息。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于运行 Microsoft Exchange Server 已安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
   

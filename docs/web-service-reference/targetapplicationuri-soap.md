@@ -11,7 +11,7 @@ ms.openlocfilehash: fa401d4c1e8c1460804f116d840fe21129957852
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838181"
 ---
 # <a name="targetapplicationuri-soap"></a>TargetApplicationUri (SOAP)
@@ -41,7 +41,7 @@ ms.locfileid: "19838181"
 |:-----|:-----|
 |[OrganizationRelationshipSettings (SOAP)](organizationrelationshipsettings-soap.md) <br/> |代表单个组织的组织关系的列表  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素定义的目标外部组织的 URI。
   

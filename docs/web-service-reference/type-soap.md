@@ -13,7 +13,7 @@ ms.openlocfilehash: 1aff509144492d369b2f4c71ace2972e6f0e96cf
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838299"
 ---
 # <a name="type-soap"></a>类型 (SOAP)

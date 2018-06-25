@@ -12,7 +12,7 @@ ms.openlocfilehash: 5c8e880f035ed74776a7c77e4b4e60ca46d66d4e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838255"
 ---
 # <a name="tokentype"></a>TokenType

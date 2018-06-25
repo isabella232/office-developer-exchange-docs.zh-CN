@@ -16,7 +16,7 @@ ms.openlocfilehash: c53779422b87adebed370a1ed88e4e91c7a2dcaf
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838568"
 ---
 # <a name="workinghours"></a>WorkingHours
@@ -62,7 +62,7 @@ ms.locfileid: "19838568"
 |:-----|:-----|
 |[FreeBusyView](freebusyview.md) <br/> |包含特定用户的可用性信息。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 中发生的顺序排列的所有子元素。 提供此元素的详细程度取决于所请求者授予的权限。
   

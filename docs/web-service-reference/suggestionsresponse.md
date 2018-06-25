@@ -16,7 +16,7 @@ ms.openlocfilehash: 614b58a1df8e340c6be468ccddd3b37537d32591
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838162"
 ---
 # <a name="suggestionsresponse"></a>SuggestionsResponse
@@ -56,7 +56,7 @@ ms.locfileid: "19838162"
 |:-----|:-----|
 |[GetUserAvailabilityResponse](getuseravailabilityresponse.md) <br/> |包含请求的用户的可用性信息。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/GetUserAvailabilityResponse` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素，则[SuggestionsViewOptions](suggestionsviewoptions.md)未设置 GetUserAvailability 请求消息中不包含在 GetUserAvailability 响应。 
   

@@ -16,14 +16,14 @@ ms.openlocfilehash: d6f966fa663300b476383a136d30cf611d6bfb9b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838400"
 ---
 # <a name="updateitem-operation-task"></a>UpdateItem 操作 （任务）
 
 UpdateItem 操作用于更新 Exchange 存储中的任务项属性。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 您无法使用 Exchange Web 服务发送任务请求。 Exchange Web 服务可以返回由 MicrosoftOfficeOutlook 创建的任务请求。 如果已发送的任务请求，请求更新任务将返回错误。
   

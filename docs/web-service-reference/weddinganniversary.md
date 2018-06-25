@@ -16,7 +16,7 @@ ms.openlocfilehash: a0b8333c776195dc53973c6663a4f91f4d8c9aba
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838551"
 ---
 # <a name="weddinganniversary"></a>WeddingAnniversary

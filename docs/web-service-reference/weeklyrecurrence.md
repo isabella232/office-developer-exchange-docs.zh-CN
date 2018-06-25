@@ -16,7 +16,7 @@ ms.openlocfilehash: 78bc76dd63c6737786df02f336217dc8de9a3a67
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838553"
 ---
 # <a name="weeklyrecurrence"></a>WeeklyRecurrence
@@ -59,7 +59,7 @@ ms.locfileid: "19838553"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 如果没有等于每周定期模式的第一个匹配项的日期的定期主项目的[开始](start.md)和[结束](end-ex15websvcsotherref.md)日期，所在的时区偏移的信息将丢失。 
   

@@ -12,7 +12,7 @@ ms.openlocfilehash: 794252da6b3e6b6e6f36181c1811a2a001bfaf53
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838166"
 ---
 # <a name="suppressreadreceipts"></a>SuppressReadReceipts

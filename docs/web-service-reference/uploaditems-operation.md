@@ -16,7 +16,7 @@ ms.openlocfilehash: 6b002d531c7011b18ae1f88adfc2923d5a51e81c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838434"
 ---
 # <a name="uploaditems-operation"></a>UploadItems 操作

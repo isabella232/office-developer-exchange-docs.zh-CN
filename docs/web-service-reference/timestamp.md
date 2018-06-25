@@ -16,7 +16,7 @@ ms.openlocfilehash: d020d9a4cf3a128d26e0ff2b83be9f3deb024339
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838279"
 ---
 # <a name="timestamp"></a>时间戳
@@ -55,7 +55,7 @@ ms.locfileid: "19838279"
 
 此属性是只读的。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素是主要可供使用的事件频率的客户端确定中。 这是不存在于[StatusEvent](statusevent.md)中。
   

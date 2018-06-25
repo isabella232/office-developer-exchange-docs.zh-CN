@@ -16,7 +16,7 @@ ms.openlocfilehash: 3ad8f66ecdf21062c00c2a6ac6f65fac875da38c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838317"
 ---
 # <a name="unifiedmessagingconfiguration"></a>UnifiedMessagingConfiguration

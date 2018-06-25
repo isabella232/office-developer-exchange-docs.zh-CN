@@ -12,7 +12,7 @@ ms.openlocfilehash: 340677a293a7c468baf5ee2f723da0b99d9afd3c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838453"
 ---
 # <a name="user-mailboxassociationtype"></a>用户 (MailboxAssociationType)

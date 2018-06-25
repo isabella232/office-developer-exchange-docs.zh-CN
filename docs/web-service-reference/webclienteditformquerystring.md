@@ -16,7 +16,7 @@ ms.openlocfilehash: a7503c3896899e8d2da6aced7b8d259f9b8aaceb
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838541"
 ---
 # <a name="webclienteditformquerystring"></a>WebClientEditFormQueryString
@@ -60,7 +60,7 @@ ms.locfileid: "19838541"
 
 如果使用此元素，则需要用于表示字符串的文本值。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 启动与 Exchange Server 2013，包括 Exchange Online 的 Exchange 版本使用来自[WebClientReadFormQueryString](webclientreadformquerystring.md)元素的信息来打开 Outlook Web App 中的草稿项，然后使用 UI 编辑草稿项目。 **WebClientEditFormQueryString**元素不适用于启动与 Exchange Server 2013，包括 Exchange Online 的 Exchange 版本。 
   

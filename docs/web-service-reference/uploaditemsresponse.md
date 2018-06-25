@@ -16,7 +16,7 @@ ms.openlocfilehash: 67b8f9aa7741c66ff792a036f8c18e8c1ae57b8f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838438"
 ---
 # <a name="uploaditemsresponse"></a>UploadItemsResponse

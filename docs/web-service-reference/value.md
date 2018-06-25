@@ -16,7 +16,7 @@ ms.openlocfilehash: 4b8674d267b78f0384f9457e794e88ace8234826
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838520"
 ---
 # <a name="value"></a>值
@@ -52,7 +52,7 @@ ms.locfileid: "19838520"
 
 文本值必须是兼容与由 ExtendedFieldURI 的 PropertyType 属性的类型。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 **Value**元素可以出现在两个扩展的单角色和多值属性实例。 对于单值实例，但仍然[ExtendedProperty](extendedproperty.md)元素的直接子级。 对于多值实例，但仍然的直接子级的**Values**集合。 
   

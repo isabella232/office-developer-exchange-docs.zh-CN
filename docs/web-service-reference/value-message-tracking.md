@@ -16,7 +16,7 @@ ms.openlocfilehash: 152e4fe61a4cff8013ae02900bd84bf244ae84a9
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838508"
 ---
 # <a name="value-message-tracking"></a>值 （邮件跟踪）
@@ -51,7 +51,7 @@ ms.locfileid: "19838508"
 
 文本值是可选的。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素可以发生在[TrackingPropertyType](trackingpropertytype.md)元素中最一次。 
   

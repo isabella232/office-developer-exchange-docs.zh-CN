@@ -16,7 +16,7 @@ ms.openlocfilehash: cec11d9f2c24a250483c5be6e273f981fdf0a8e6
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838257"
 ---
 # <a name="token"></a>Token

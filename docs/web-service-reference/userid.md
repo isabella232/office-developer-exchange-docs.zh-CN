@@ -16,7 +16,7 @@ ms.openlocfilehash: 8e9867f5a8cdd62dd2dae55fbf527595ac14f46d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838469"
 ---
 # <a name="userid"></a>UserId

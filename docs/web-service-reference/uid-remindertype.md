@@ -12,7 +12,7 @@ ms.openlocfilehash: e0ad877eee29937b93e2659f84769938c983f11d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838302"
 ---
 # <a name="uid-remindertype"></a>UID (ReminderType)

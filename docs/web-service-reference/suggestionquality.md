@@ -16,7 +16,7 @@ ms.openlocfilehash: e67e0149226b36c22cdd00acd78f6582f826dd3e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838160"
 ---
 # <a name="suggestionquality"></a>SuggestionQuality
@@ -72,7 +72,7 @@ ms.locfileid: "19838160"
     
 - **不佳**小于 50%的用户和资源的建议的会议时间。 
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 **SuggestionQuality**类型也是[DayQuality](dayquality.md)和[MinimumSuggestionQuality](minimumsuggestionquality.md)元素的类型。 
   
