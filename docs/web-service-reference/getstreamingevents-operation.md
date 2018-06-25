@@ -16,7 +16,7 @@ ms.openlocfilehash: 0e93be7b14cb1ca6a2a9821b016f7bdc0e8d7772
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825673"
 ---
 # <a name="getstreamingevents-operation"></a>GetStreamingEvents 操作
@@ -153,7 +153,7 @@ ms.locfileid: "19825673"
 </soap:Envelope>
 ```
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 当处理**GetStreamingEvents**请求，客户端访问服务器将执行以下步骤： 
   

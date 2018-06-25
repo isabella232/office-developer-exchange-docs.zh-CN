@@ -16,7 +16,7 @@ ms.openlocfilehash: 5283d35e11350ef10ed8cc01527e787ef54be927
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825677"
 ---
 # <a name="getsharingmetadata"></a>GetSharingMetadata
