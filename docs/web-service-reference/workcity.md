@@ -12,51 +12,51 @@ ms.openlocfilehash: 31737c4fbdd4a2e292b650f70b46a163ce11393a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838570"
 ---
-# <a name="workcity"></a><span data-ttu-id="dd996-103">WorkCity</span><span class="sxs-lookup"><span data-stu-id="dd996-103">WorkCity</span></span>
+# <a name="workcity"></a><span data-ttu-id="ede4a-103">WorkCity</span><span class="sxs-lookup"><span data-stu-id="ede4a-103">WorkCity</span></span>
 
-<span data-ttu-id="dd996-104">**WorkCity**元素指定关联的个人其中工作的城市。</span><span class="sxs-lookup"><span data-stu-id="dd996-104">The **WorkCity** element specifies the city where the associated persona works.</span></span> 
+<span data-ttu-id="ede4a-104">**WorkCity**元素指定关联的个人其中工作的城市。</span><span class="sxs-lookup"><span data-stu-id="ede4a-104">The **WorkCity** element specifies the city where the associated persona works.</span></span> 
   
 ```XML
 <WorkCity></WorkCity>
 ```
 
- <span data-ttu-id="dd996-105">**string**</span><span class="sxs-lookup"><span data-stu-id="dd996-105">**string**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="dd996-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="dd996-106">Attributes and elements</span></span>
+ <span data-ttu-id="ede4a-105">**string**</span><span class="sxs-lookup"><span data-stu-id="ede4a-105">**string**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="ede4a-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="ede4a-106">Attributes and elements</span></span>
 
-<span data-ttu-id="dd996-107">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="dd996-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="ede4a-107">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="ede4a-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="dd996-108">属性</span><span class="sxs-lookup"><span data-stu-id="dd996-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="ede4a-108">属性</span><span class="sxs-lookup"><span data-stu-id="ede4a-108">Attributes</span></span>
 
-<span data-ttu-id="dd996-109">无。</span><span class="sxs-lookup"><span data-stu-id="dd996-109">None.</span></span>
+<span data-ttu-id="ede4a-109">无。</span><span class="sxs-lookup"><span data-stu-id="ede4a-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="dd996-110">子元素</span><span class="sxs-lookup"><span data-stu-id="dd996-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="ede4a-110">子元素</span><span class="sxs-lookup"><span data-stu-id="ede4a-110">Child elements</span></span>
 
-<span data-ttu-id="dd996-111">无。</span><span class="sxs-lookup"><span data-stu-id="dd996-111">None.</span></span>
+<span data-ttu-id="ede4a-111">无。</span><span class="sxs-lookup"><span data-stu-id="ede4a-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="dd996-112">父元素</span><span class="sxs-lookup"><span data-stu-id="dd996-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="ede4a-112">父元素</span><span class="sxs-lookup"><span data-stu-id="ede4a-112">Parent elements</span></span>
 
-[<span data-ttu-id="dd996-113">角色</span><span class="sxs-lookup"><span data-stu-id="dd996-113">Persona</span></span>](persona.md)
+[<span data-ttu-id="ede4a-113">角色</span><span class="sxs-lookup"><span data-stu-id="ede4a-113">Persona</span></span>](persona.md)
   
-## <a name="text-value"></a><span data-ttu-id="dd996-114">文本值</span><span class="sxs-lookup"><span data-stu-id="dd996-114">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="ede4a-114">文本值</span><span class="sxs-lookup"><span data-stu-id="ede4a-114">Text value</span></span>
 
-<span data-ttu-id="dd996-115">**WorkCity**元素的文本值是在其中相关联的角色的工作方式的市/县。</span><span class="sxs-lookup"><span data-stu-id="dd996-115">The text value of the **WorkCity** element is the city in which the associated persona works.</span></span> 
+<span data-ttu-id="ede4a-115">**WorkCity**元素的文本值是在其中相关联的角色的工作方式的市/县。</span><span class="sxs-lookup"><span data-stu-id="ede4a-115">The text value of the **WorkCity** element is the city in which the associated persona works.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="dd996-116">备注</span><span class="sxs-lookup"><span data-stu-id="dd996-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ede4a-116">备注</span><span class="sxs-lookup"><span data-stu-id="ede4a-116">Remarks</span></span>
 
-<span data-ttu-id="dd996-117">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="dd996-117">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="ede4a-117">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="ede4a-117">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="dd996-118">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="dd996-118">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="ede4a-118">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="ede4a-118">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="dd996-119">元素信息</span><span class="sxs-lookup"><span data-stu-id="dd996-119">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="ede4a-119">元素信息</span><span class="sxs-lookup"><span data-stu-id="ede4a-119">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="dd996-120">命名空间</span><span class="sxs-lookup"><span data-stu-id="dd996-120">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="dd996-121">架构名称</span><span class="sxs-lookup"><span data-stu-id="dd996-121">Schema name</span></span>  <br/> |<span data-ttu-id="dd996-122">类型架构</span><span class="sxs-lookup"><span data-stu-id="dd996-122">Types schema</span></span>  <br/> |
-|<span data-ttu-id="dd996-123">验证文件</span><span class="sxs-lookup"><span data-stu-id="dd996-123">Validation file</span></span>  <br/> |<span data-ttu-id="dd996-124">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="dd996-124">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="dd996-125">可以为空</span><span class="sxs-lookup"><span data-stu-id="dd996-125">Can be empty</span></span>  <br/> ||
+|<span data-ttu-id="ede4a-120">命名空间</span><span class="sxs-lookup"><span data-stu-id="ede4a-120">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="ede4a-121">架构名称</span><span class="sxs-lookup"><span data-stu-id="ede4a-121">Schema name</span></span>  <br/> |<span data-ttu-id="ede4a-122">类型架构</span><span class="sxs-lookup"><span data-stu-id="ede4a-122">Types schema</span></span>  <br/> |
+|<span data-ttu-id="ede4a-123">验证文件</span><span class="sxs-lookup"><span data-stu-id="ede4a-123">Validation file</span></span>  <br/> |<span data-ttu-id="ede4a-124">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="ede4a-124">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="ede4a-125">可以为空</span><span class="sxs-lookup"><span data-stu-id="ede4a-125">Can be empty</span></span>  <br/> ||
    
 

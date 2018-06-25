@@ -12,12 +12,12 @@ ms.openlocfilehash: 8b413c20b50e4ccd6b4dc427e70b921ad34c7949
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838595"
 ---
-# <a name="yomilastnames"></a><span data-ttu-id="ca10b-103">YomiLastNames</span><span class="sxs-lookup"><span data-stu-id="ca10b-103">YomiLastNames</span></span>
+# <a name="yomilastnames"></a><span data-ttu-id="9a040-103">YomiLastNames</span><span class="sxs-lookup"><span data-stu-id="9a040-103">YomiLastNames</span></span>
 
-<span data-ttu-id="ca10b-104">**YomiLastNames**元素指定拼音日语的最后一个名称的数组和为相关联的角色其源归属的标识符。</span><span class="sxs-lookup"><span data-stu-id="ca10b-104">The **YomiLastNames** element specifies an array of phonetic Japanese last names and the identifiers of their source attributions for the associated persona.</span></span> 
+<span data-ttu-id="9a040-104">**YomiLastNames**元素指定拼音日语的最后一个名称的数组和为相关联的角色其源归属的标识符。</span><span class="sxs-lookup"><span data-stu-id="9a040-104">The **YomiLastNames** element specifies an array of phonetic Japanese last names and the identifiers of their source attributions for the associated persona.</span></span> 
   
 ```XML
 <YomiLastNames>
@@ -25,36 +25,36 @@ ms.locfileid: "19838595"
 </YomiLastNames>
 ```
 
- <span data-ttu-id="ca10b-105">**ArrayOfStringAttributedValuesType**</span><span class="sxs-lookup"><span data-stu-id="ca10b-105">**ArrayOfStringAttributedValuesType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="ca10b-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="ca10b-106">Attributes and elements</span></span>
+ <span data-ttu-id="9a040-105">**ArrayOfStringAttributedValuesType**</span><span class="sxs-lookup"><span data-stu-id="9a040-105">**ArrayOfStringAttributedValuesType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="9a040-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="9a040-106">Attributes and elements</span></span>
 
-<span data-ttu-id="ca10b-107">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="ca10b-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="9a040-107">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="9a040-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="ca10b-108">属性</span><span class="sxs-lookup"><span data-stu-id="ca10b-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="9a040-108">属性</span><span class="sxs-lookup"><span data-stu-id="9a040-108">Attributes</span></span>
 
-<span data-ttu-id="ca10b-109">无。</span><span class="sxs-lookup"><span data-stu-id="ca10b-109">None.</span></span>
+<span data-ttu-id="9a040-109">无。</span><span class="sxs-lookup"><span data-stu-id="9a040-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="ca10b-110">子元素</span><span class="sxs-lookup"><span data-stu-id="ca10b-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="9a040-110">子元素</span><span class="sxs-lookup"><span data-stu-id="9a040-110">Child elements</span></span>
 
-[<span data-ttu-id="ca10b-111">StringAttributedValue</span><span class="sxs-lookup"><span data-stu-id="ca10b-111">StringAttributedValue</span></span>](stringattributedvalue.md)
+[<span data-ttu-id="9a040-111">StringAttributedValue</span><span class="sxs-lookup"><span data-stu-id="9a040-111">StringAttributedValue</span></span>](stringattributedvalue.md)
   
-### <a name="parent-elements"></a><span data-ttu-id="ca10b-112">父元素</span><span class="sxs-lookup"><span data-stu-id="ca10b-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="9a040-112">父元素</span><span class="sxs-lookup"><span data-stu-id="9a040-112">Parent elements</span></span>
 
-[<span data-ttu-id="ca10b-113">角色</span><span class="sxs-lookup"><span data-stu-id="ca10b-113">Persona</span></span>](persona.md)
+[<span data-ttu-id="9a040-113">角色</span><span class="sxs-lookup"><span data-stu-id="9a040-113">Persona</span></span>](persona.md)
   
-## <a name="remarks"></a><span data-ttu-id="ca10b-114">备注</span><span class="sxs-lookup"><span data-stu-id="ca10b-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="9a040-114">备注</span><span class="sxs-lookup"><span data-stu-id="9a040-114">Remarks</span></span>
 
-<span data-ttu-id="ca10b-115">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="ca10b-115">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="9a040-115">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="9a040-115">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="ca10b-116">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="ca10b-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="9a040-116">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="9a040-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="ca10b-117">元素信息</span><span class="sxs-lookup"><span data-stu-id="ca10b-117">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="9a040-117">元素信息</span><span class="sxs-lookup"><span data-stu-id="9a040-117">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="ca10b-118">命名空间</span><span class="sxs-lookup"><span data-stu-id="ca10b-118">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="ca10b-119">架构名称</span><span class="sxs-lookup"><span data-stu-id="ca10b-119">Schema name</span></span>  <br/> |<span data-ttu-id="ca10b-120">类型架构</span><span class="sxs-lookup"><span data-stu-id="ca10b-120">Types schema</span></span>  <br/> |
-|<span data-ttu-id="ca10b-121">验证文件</span><span class="sxs-lookup"><span data-stu-id="ca10b-121">Validation file</span></span>  <br/> |<span data-ttu-id="ca10b-122">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="ca10b-122">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="ca10b-123">可以为空</span><span class="sxs-lookup"><span data-stu-id="ca10b-123">Can be empty</span></span>  <br/> ||
+|<span data-ttu-id="9a040-118">命名空间</span><span class="sxs-lookup"><span data-stu-id="9a040-118">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="9a040-119">架构名称</span><span class="sxs-lookup"><span data-stu-id="9a040-119">Schema name</span></span>  <br/> |<span data-ttu-id="9a040-120">类型架构</span><span class="sxs-lookup"><span data-stu-id="9a040-120">Types schema</span></span>  <br/> |
+|<span data-ttu-id="9a040-121">验证文件</span><span class="sxs-lookup"><span data-stu-id="9a040-121">Validation file</span></span>  <br/> |<span data-ttu-id="9a040-122">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="9a040-122">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="9a040-123">可以为空</span><span class="sxs-lookup"><span data-stu-id="9a040-123">Can be empty</span></span>  <br/> ||
    
 
