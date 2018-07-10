@@ -51,7 +51,7 @@ ms.locfileid: "19752899"
     
 - <span data-ttu-id="bbe15-134">通常，**通过 ApplicationImpersonation**角色授予专用于特定应用程序或应用程序的组的服务帐户，而不是用户帐户。</span><span class="sxs-lookup"><span data-stu-id="bbe15-134">Typically, the **ApplicationImpersonation** role is granted to a service account dedicated to a particular application or group of applications, rather than a user account.</span></span> <span data-ttu-id="bbe15-135">您可以根据需要您可以创建多个或尽可能少的服务帐户。</span><span class="sxs-lookup"><span data-stu-id="bbe15-135">You can create as many or as few service accounts as you need.</span></span> 
     
-<span data-ttu-id="bbe15-136">您可以阅读更多有关[配置模拟](how-to-configure-impersonation.md)，但您应使用您的 Exchange 管理员以确保所需的服务帐户创建的[权限和访问](http://technet.microsoft.com/en-us/library/dd351175%28v=exchg.150%29.aspx)满足的安全要求与您组织。</span><span class="sxs-lookup"><span data-stu-id="bbe15-136">You can read more about [configuring impersonation](how-to-configure-impersonation.md), but you should work with your Exchange administrator to ensure that the service accounts that you need are created with the [permissions and access](http://technet.microsoft.com/en-us/library/dd351175%28v=exchg.150%29.aspx) that meet the security requirements of your organization.</span></span> 
+<span data-ttu-id="bbe15-136">您可以阅读更多有关[配置模拟](how-to-configure-impersonation.md)，但您应使用您的 Exchange 管理员以确保所需的服务帐户创建的[权限和访问](http://technet.microsoft.com/zh-cn/library/dd351175%28v=exchg.150%29.aspx)满足的安全要求与您组织。</span><span class="sxs-lookup"><span data-stu-id="bbe15-136">You can read more about [configuring impersonation](how-to-configure-impersonation.md), but you should work with your Exchange administrator to ensure that the service accounts that you need are created with the [permissions and access](http://technet.microsoft.com/zh-cn/library/dd351175%28v=exchg.150%29.aspx) that meet the security requirements of your organization.</span></span> 
   
 ## <a name="in-this-section"></a><span data-ttu-id="bbe15-137">本节内容</span><span class="sxs-lookup"><span data-stu-id="bbe15-137">In this section</span></span>
 
@@ -68,6 +68,6 @@ ms.locfileid: "19752899"
     
 - [<span data-ttu-id="bbe15-143">代理访问和 Exchange 中的 EWS</span><span class="sxs-lookup"><span data-stu-id="bbe15-143">Delegate access and EWS in Exchange</span></span>](delegate-access-and-ews-in-exchange.md)
     
-- [<span data-ttu-id="bbe15-144">Exchange 2013 权限</span><span class="sxs-lookup"><span data-stu-id="bbe15-144">Exchange 2013 Permissions</span></span>](http://technet.microsoft.com/en-us/library/dd351175%28v=exchg.150%29.aspx)
+- [<span data-ttu-id="bbe15-144">Exchange 2013 权限</span><span class="sxs-lookup"><span data-stu-id="bbe15-144">Exchange 2013 Permissions</span></span>](http://technet.microsoft.com/zh-cn/library/dd351175%28v=exchg.150%29.aspx)
     
 

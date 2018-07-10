@@ -42,7 +42,7 @@ ms.locfileid: "19826144"
   
 ## <a name="text-value"></a><span data-ttu-id="f0215-114">文本值</span><span class="sxs-lookup"><span data-stu-id="f0215-114">Text value</span></span>
 
-<span data-ttu-id="f0215-115">文本值可以是"Unlimited"或任何[Timespan](http://msdn.microsoft.com/en-us/library/1ecy8h51%28v=vs.110%29.aspx)值的字符串值。</span><span class="sxs-lookup"><span data-stu-id="f0215-115">The text value can be "Unlimited" or the string value of any [Timespan](http://msdn.microsoft.com/en-us/library/1ecy8h51%28v=vs.110%29.aspx) value.</span></span> 
+<span data-ttu-id="f0215-115">文本值可以是"Unlimited"或任何[Timespan](http://msdn.microsoft.com/zh-cn/library/1ecy8h51%28v=vs.110%29.aspx)值的字符串值。</span><span class="sxs-lookup"><span data-stu-id="f0215-115">The text value can be "Unlimited" or the string value of any [Timespan](http://msdn.microsoft.com/zh-cn/library/1ecy8h51%28v=vs.110%29.aspx) value.</span></span> 
   
 ## <a name="remarks"></a><span data-ttu-id="f0215-116">备注</span><span class="sxs-lookup"><span data-stu-id="f0215-116">Remarks</span></span>
 

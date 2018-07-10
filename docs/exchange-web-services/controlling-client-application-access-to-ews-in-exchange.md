@@ -69,19 +69,19 @@ ms.locfileid: "19752706"
 
 <span data-ttu-id="d0df6-142">管理员使用下面的 Exchange 命令行管理程序 cmdlet 配置 EWS 访问控制：</span><span class="sxs-lookup"><span data-stu-id="d0df6-142">Administrators use the following Exchange Management Shell cmdlets to configure EWS access controls:</span></span> 
   
-- [<span data-ttu-id="d0df6-143">Get-casmailbox</span><span class="sxs-lookup"><span data-stu-id="d0df6-143">Get-CASMailbox</span></span>](http://technet.microsoft.com/en-us/library/bb124754.aspx)
+- [<span data-ttu-id="d0df6-143">Get-casmailbox</span><span class="sxs-lookup"><span data-stu-id="d0df6-143">Get-CASMailbox</span></span>](http://technet.microsoft.com/zh-cn/library/bb124754.aspx)
     
-- [<span data-ttu-id="d0df6-144">设置 CASMailbox</span><span class="sxs-lookup"><span data-stu-id="d0df6-144">Set-CASMailbox</span></span>](http://technet.microsoft.com/en-us/library/bb125264.aspx)
+- [<span data-ttu-id="d0df6-144">设置 CASMailbox</span><span class="sxs-lookup"><span data-stu-id="d0df6-144">Set-CASMailbox</span></span>](http://technet.microsoft.com/zh-cn/library/bb125264.aspx)
     
-- [<span data-ttu-id="d0df6-145">Get-organizationconfig</span><span class="sxs-lookup"><span data-stu-id="d0df6-145">Get-OrganizationConfig</span></span>](http://technet.microsoft.com/en-us/library/aa997571.aspx)
+- [<span data-ttu-id="d0df6-145">Get-organizationconfig</span><span class="sxs-lookup"><span data-stu-id="d0df6-145">Get-OrganizationConfig</span></span>](http://technet.microsoft.com/zh-cn/library/aa997571.aspx)
     
-- [<span data-ttu-id="d0df6-146">Set-organizationconfig</span><span class="sxs-lookup"><span data-stu-id="d0df6-146">Set-OrganizationConfig</span></span>](http://technet.microsoft.com/en-us/library/aa997443.aspx)
+- [<span data-ttu-id="d0df6-146">Set-organizationconfig</span><span class="sxs-lookup"><span data-stu-id="d0df6-146">Set-OrganizationConfig</span></span>](http://technet.microsoft.com/zh-cn/library/aa997443.aspx)
     
 ## <a name="see-also"></a><span data-ttu-id="d0df6-147">另请参阅</span><span class="sxs-lookup"><span data-stu-id="d0df6-147">See also</span></span>
 
 - [<span data-ttu-id="d0df6-148">Start using web services in Exchange</span><span class="sxs-lookup"><span data-stu-id="d0df6-148">Start using web services in Exchange</span></span>](start-using-web-services-in-exchange.md)  
 - [<span data-ttu-id="d0df6-149">在 Exchange 控制对 EWS 的访问</span><span class="sxs-lookup"><span data-stu-id="d0df6-149">Control access to EWS in Exchange</span></span>](how-to-control-access-to-ews-in-exchange.md)
-- [<span data-ttu-id="d0df6-150">Exchange Server PowerShell （Exchange 命令行管理程序）</span><span class="sxs-lookup"><span data-stu-id="d0df6-150">Exchange Server PowerShell (Exchange Management Shell)</span></span>](https://docs.microsoft.com/en-us/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps)
-- [<span data-ttu-id="d0df6-151">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="d0df6-151">Windows PowerShell</span></span>](http://msdn.microsoft.com/en-us/library/dd835506%28v=vs.85%29.aspx)
+- [<span data-ttu-id="d0df6-150">Exchange Server PowerShell （Exchange 命令行管理程序）</span><span class="sxs-lookup"><span data-stu-id="d0df6-150">Exchange Server PowerShell (Exchange Management Shell)</span></span>](https://docs.microsoft.com/zh-cn/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps)
+- [<span data-ttu-id="d0df6-151">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="d0df6-151">Windows PowerShell</span></span>](http://msdn.microsoft.com/zh-cn/library/dd835506%28v=vs.85%29.aspx)
     
 

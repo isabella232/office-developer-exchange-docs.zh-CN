@@ -36,9 +36,9 @@ ms.locfileid: "19752914"
     
 <span data-ttu-id="81a64-117">您可以使用邮件应用程序用户; 自定义的 Outlook Web App 体验如果，但是，您想要自定义"外观"Outlook Web app，请参阅 TechNet 上的以下文章：</span><span class="sxs-lookup"><span data-stu-id="81a64-117">You can use mail apps to customize the Outlook Web App experience for your users; if, however, you want to customize the "look and feel" of Outlook Web App, see these articles on TechNet:</span></span>
   
-- [<span data-ttu-id="81a64-118">为 Outlook Web App 中创建主题</span><span class="sxs-lookup"><span data-stu-id="81a64-118">Create a theme for Outlook Web App</span></span>](http://technet.microsoft.com/en-us/library/bb201700%28v=exchg.150%29.aspx)
+- [<span data-ttu-id="81a64-118">为 Outlook Web App 中创建主题</span><span class="sxs-lookup"><span data-stu-id="81a64-118">Create a theme for Outlook Web App</span></span>](http://technet.microsoft.com/zh-cn/library/bb201700%28v=exchg.150%29.aspx)
     
-- [<span data-ttu-id="81a64-119">自定义 Outlook Web App 登录、 语言选择和错误页</span><span class="sxs-lookup"><span data-stu-id="81a64-119">Customize the Outlook Web App sign-in, language selection, and error pages</span></span>](http://technet.microsoft.com/en-us/library/ee633483%28v=exchg.150%29.aspx)
+- [<span data-ttu-id="81a64-119">自定义 Outlook Web App 登录、 语言选择和错误页</span><span class="sxs-lookup"><span data-stu-id="81a64-119">Customize the Outlook Web App sign-in, language selection, and error pages</span></span>](http://technet.microsoft.com/zh-cn/library/ee633483%28v=exchg.150%29.aspx)
     
 <span data-ttu-id="81a64-120">您的组织可以在要限制对授权用户访问的内部服务器上安装邮件应用程序或您和其他邮件应用程序开发人员可以将邮件应用程序置于[Office 商店](http://office.microsoft.com/store/)出售向公众。</span><span class="sxs-lookup"><span data-stu-id="81a64-120">Your organization can install mail apps on an internal server to limit access to authorized users, or you and other mail app developers can put mail apps on the [Office Store](http://office.microsoft.com/store/) for sale to the general public.</span></span> <span data-ttu-id="81a64-121">运行 Outlook 的任何人都可以下载、 安装和使用市场中的邮件应用程序。</span><span class="sxs-lookup"><span data-stu-id="81a64-121">Anyone who is running Outlook can download, install, and use mail apps from the marketplace.</span></span> 
   
@@ -54,7 +54,7 @@ ms.locfileid: "19752914"
   
 - <span data-ttu-id="81a64-130">邮件应用程序用户[授予 EWS 访问](controlling-client-application-access-to-ews-in-exchange.md)。</span><span class="sxs-lookup"><span data-stu-id="81a64-130">[Grant EWS access](controlling-client-application-access-to-ews-in-exchange.md) to the mail apps user.</span></span> 
     
-- <span data-ttu-id="81a64-131">在客户端访问服务器 EWS 目录上[设置为 true 的"OAuthAuthentication"](http://technet.microsoft.com/en-us/library/aa997233%28v=exchg.150%29.aspx) 。</span><span class="sxs-lookup"><span data-stu-id="81a64-131">[Set "OAuthAuthentication" to true](http://technet.microsoft.com/en-us/library/aa997233%28v=exchg.150%29.aspx) on the Client Access Server EWS directory.</span></span> 
+- <span data-ttu-id="81a64-131">在客户端访问服务器 EWS 目录上[设置为 true 的"OAuthAuthentication"](http://technet.microsoft.com/zh-cn/library/aa997233%28v=exchg.150%29.aspx) 。</span><span class="sxs-lookup"><span data-stu-id="81a64-131">[Set "OAuthAuthentication" to true](http://technet.microsoft.com/zh-cn/library/aa997233%28v=exchg.150%29.aspx) on the Client Access Server EWS directory.</span></span> 
     
 <span data-ttu-id="81a64-132">您还需要以确保您的应用程序请求读/写邮箱权限 for Office[权限模型](http://msdn.microsoft.com/library/5bca69f2-b287-4e19-8f0f-78d896b2a3d3%28Office.15%29.aspx)应用程序中。</span><span class="sxs-lookup"><span data-stu-id="81a64-132">You also need to make sure that your app requests the read/write mailbox permission in the apps for Office [permission model](http://msdn.microsoft.com/library/5bca69f2-b287-4e19-8f0f-78d896b2a3d3%28Office.15%29.aspx).</span></span>
   
@@ -87,7 +87,7 @@ ms.locfileid: "19752914"
     
 - [<span data-ttu-id="81a64-165">指定 Outlook 外接程序对用户邮箱的访问权限</span><span class="sxs-lookup"><span data-stu-id="81a64-165">Understanding Outlook add-in permissions</span></span>](http://msdn.microsoft.com/library/5bca69f2-b287-4e19-8f0f-78d896b2a3d3%28Office.15%29.aspx)
     
-- [<span data-ttu-id="81a64-166">Set-webservicesvirtualdirectory</span><span class="sxs-lookup"><span data-stu-id="81a64-166">Set-WebServicesVirtualDirectory</span></span>](http://technet.microsoft.com/en-us/library/aa997233%28v=exchg.150%29.aspx)
+- [<span data-ttu-id="81a64-166">Set-webservicesvirtualdirectory</span><span class="sxs-lookup"><span data-stu-id="81a64-166">Set-WebServicesVirtualDirectory</span></span>](http://technet.microsoft.com/zh-cn/library/aa997233%28v=exchg.150%29.aspx)
     
 - [<span data-ttu-id="81a64-167">Outlook 邮件应用程序： 发出 EWS 请求</span><span class="sxs-lookup"><span data-stu-id="81a64-167">Mail apps for Outlook: Make an EWS request</span></span>](http://code.msdn.microsoft.com/office/Mail-apps-for-Outlook-Make-770b2528)
     

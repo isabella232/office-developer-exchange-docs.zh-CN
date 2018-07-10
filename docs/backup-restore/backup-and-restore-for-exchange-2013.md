@@ -54,7 +54,7 @@ ms.locfileid: "19752685"
     
 ## <a name="see-also"></a><span data-ttu-id="61cc1-148">另请参阅</span><span class="sxs-lookup"><span data-stu-id="61cc1-148">See also</span></span>
 
-- [<span data-ttu-id="61cc1-149">卷影复制服务 (Windows)</span><span class="sxs-lookup"><span data-stu-id="61cc1-149">Volume Shadow Copy Service (Windows)</span></span>](http://msdn.microsoft.com/en-us/library/windows/desktop/bb968832%28v=vs.85%29.aspx)   
+- [<span data-ttu-id="61cc1-149">卷影复制服务 (Windows)</span><span class="sxs-lookup"><span data-stu-id="61cc1-149">Volume Shadow Copy Service (Windows)</span></span>](http://msdn.microsoft.com/zh-cn/library/windows/desktop/bb968832%28v=vs.85%29.aspx)   
 - [<span data-ttu-id="61cc1-150">在 Exchange 中浏览 EWS 托管 API、EWS 和 Web 服务</span><span class="sxs-lookup"><span data-stu-id="61cc1-150">Explore the EWS Managed API, EWS, and web services in Exchange</span></span>](../exchange-web-services/explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)  
 - [<span data-ttu-id="61cc1-151">Exchange 命令行管理程序</span><span class="sxs-lookup"><span data-stu-id="61cc1-151">Exchange Management Shell</span></span>](../management/exchange-management-shell.md)   
 - [<span data-ttu-id="61cc1-152">在 Exchange 传输代理</span><span class="sxs-lookup"><span data-stu-id="61cc1-152">Transport agents in Exchange</span></span>](../transport-agents/transport-agents-in-exchange-2013.md) 

@@ -29,7 +29,7 @@ ms.locfileid: "19752783"
   
 ## <a name="identifying-the-user-account-to-impersonate"></a><span data-ttu-id="f1179-110">标识要模拟的用户帐户</span><span class="sxs-lookup"><span data-stu-id="f1179-110">Identifying the user account to impersonate</span></span>
 
-<span data-ttu-id="f1179-111">您的应用程序可以使用 EWS 托管 API 或 EWS SOAP 请求来标识模拟的用户帐户。</span><span class="sxs-lookup"><span data-stu-id="f1179-111">Your application can use either the EWS Managed API or EWS SOAP requests to identify the user account that it is impersonating.</span></span> <span data-ttu-id="f1179-112">EWS 托管 API 使用的[ExchangeService.ImpersonatedUserId](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.impersonateduserid.aspx)属性标识模拟的用户。</span><span class="sxs-lookup"><span data-stu-id="f1179-112">The EWS Managed API uses the [ExchangeService.ImpersonatedUserId](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.impersonateduserid.aspx) property to identify the impersonated user.</span></span> <span data-ttu-id="f1179-113">EWS 使用[ExchangeImpersonation](http://msdn.microsoft.com/library/d8cbac49-47d0-4745-a2a7-545d33f8da93%28Office.15%29.aspx)元素，如以下 XML 片段中所示。</span><span class="sxs-lookup"><span data-stu-id="f1179-113">EWS uses the [ExchangeImpersonation](http://msdn.microsoft.com/library/d8cbac49-47d0-4745-a2a7-545d33f8da93%28Office.15%29.aspx) element, as shown in the following XML fragment.</span></span> 
+<span data-ttu-id="f1179-111">您的应用程序可以使用 EWS 托管 API 或 EWS SOAP 请求来标识模拟的用户帐户。</span><span class="sxs-lookup"><span data-stu-id="f1179-111">Your application can use either the EWS Managed API or EWS SOAP requests to identify the user account that it is impersonating.</span></span> <span data-ttu-id="f1179-112">EWS 托管 API 使用的[ExchangeService.ImpersonatedUserId](http://msdn.microsoft.com/zh-cn/library/microsoft.exchange.webservices.data.exchangeservice.impersonateduserid.aspx)属性标识模拟的用户。</span><span class="sxs-lookup"><span data-stu-id="f1179-112">The EWS Managed API uses the [ExchangeService.ImpersonatedUserId](http://msdn.microsoft.com/zh-cn/library/microsoft.exchange.webservices.data.exchangeservice.impersonateduserid.aspx) property to identify the impersonated user.</span></span> <span data-ttu-id="f1179-113">EWS 使用[ExchangeImpersonation](http://msdn.microsoft.com/library/d8cbac49-47d0-4745-a2a7-545d33f8da93%28Office.15%29.aspx)元素，如以下 XML 片段中所示。</span><span class="sxs-lookup"><span data-stu-id="f1179-113">EWS uses the [ExchangeImpersonation](http://msdn.microsoft.com/library/d8cbac49-47d0-4745-a2a7-545d33f8da93%28Office.15%29.aspx) element, as shown in the following XML fragment.</span></span> 
   
 ```XML
 <soap:Header>
@@ -47,7 +47,7 @@ ms.locfileid: "19752783"
 
 <span data-ttu-id="f1179-117">SMTP 电子邮件地址是相关联的用户帐户的主电子邮件地址。</span><span class="sxs-lookup"><span data-stu-id="f1179-117">The SMTP email address is the primary email address that is associated with a user account.</span></span>
   
-<span data-ttu-id="f1179-118">EWS 托管 API 应用程序，在您指定的 SMTP 电子邮件地址以及[ConnectingIdType.SMTP](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.connectingidtype.aspx)枚举值。</span><span class="sxs-lookup"><span data-stu-id="f1179-118">In an EWS Managed API application, you specify the SMTP email address along with the [ConnectingIdType.SMTP](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.connectingidtype.aspx) enumeration value.</span></span> 
+<span data-ttu-id="f1179-118">EWS 托管 API 应用程序，在您指定的 SMTP 电子邮件地址以及[ConnectingIdType.SMTP](http://msdn.microsoft.com/zh-cn/library/microsoft.exchange.webservices.data.connectingidtype.aspx)枚举值。</span><span class="sxs-lookup"><span data-stu-id="f1179-118">In an EWS Managed API application, you specify the SMTP email address along with the [ConnectingIdType.SMTP](http://msdn.microsoft.com/zh-cn/library/microsoft.exchange.webservices.data.connectingidtype.aspx) enumeration value.</span></span> 
   
 ```cs
 exchangeServiceInstance.ImpersonatedUserId = new ImpersonatedUserId(ConnectingIdType.SMTP, "alisa@contoso.com");
@@ -69,7 +69,7 @@ exchangeServiceInstance.ImpersonatedUserId = new ImpersonatedUserId(ConnectingId
 
 <span data-ttu-id="f1179-121">UPN 包含的用户帐户的位置的完全限定的域名 (FQDN)。</span><span class="sxs-lookup"><span data-stu-id="f1179-121">The UPN contains the fully qualified domain name (FQDN) for the location of the user account.</span></span> <span data-ttu-id="f1179-122">这不一定是用户的邮箱域。</span><span class="sxs-lookup"><span data-stu-id="f1179-122">This is not necessarily the user's mailbox domain.</span></span> <span data-ttu-id="f1179-123">**UserPrincipleName**属性必须正确设置 Active Directory 域服务 (AD DS) 中的用户帐户的用户查找成功。</span><span class="sxs-lookup"><span data-stu-id="f1179-123">The **UserPrincipleName** attribute must be set correctly on the user account in Active Directory Domain Services (AD DS) for the user lookup to succeed.</span></span> 
   
-<span data-ttu-id="f1179-124">EWS 托管 API 应用程序，在您指定的 UPN [ConnectingIdType.PrincipleName](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.connectingidtype.aspx)枚举值。</span><span class="sxs-lookup"><span data-stu-id="f1179-124">In an EWS Managed API application, you specify the UPN along with the [ConnectingIdType.PrincipleName](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.connectingidtype.aspx) enumeration value.</span></span> 
+<span data-ttu-id="f1179-124">EWS 托管 API 应用程序，在您指定的 UPN [ConnectingIdType.PrincipleName](http://msdn.microsoft.com/zh-cn/library/microsoft.exchange.webservices.data.connectingidtype.aspx)枚举值。</span><span class="sxs-lookup"><span data-stu-id="f1179-124">In an EWS Managed API application, you specify the UPN along with the [ConnectingIdType.PrincipleName](http://msdn.microsoft.com/zh-cn/library/microsoft.exchange.webservices.data.connectingidtype.aspx) enumeration value.</span></span> 
   
 ```cs
 exchangeServiceInstance.ImpersonatedUserId = new ImpersonatedUserId(ConnectingIdType.PrincipleName, "alias@billing.contoso.com");
@@ -91,7 +91,7 @@ exchangeServiceInstance.ImpersonatedUserId = new ImpersonatedUserId(ConnectingId
 
 <span data-ttu-id="f1179-127">SID 是用于模拟安全描述符定义语言 (SDDL) 窗体中的帐户的标识符。</span><span class="sxs-lookup"><span data-stu-id="f1179-127">The SID is the identifier of the account to be impersonated in security descriptor definition language (SDDL) form.</span></span>
   
-<span data-ttu-id="f1179-128">EWS 托管 API 应用程序，在您指定的 SID [ConnectingIdType.SID](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.connectingidtype.aspx)枚举值。</span><span class="sxs-lookup"><span data-stu-id="f1179-128">In an EWS Managed API application, you specify the SID along with the [ConnectingIdType.SID](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.connectingidtype.aspx) enumeration value.</span></span> 
+<span data-ttu-id="f1179-128">EWS 托管 API 应用程序，在您指定的 SID [ConnectingIdType.SID](http://msdn.microsoft.com/zh-cn/library/microsoft.exchange.webservices.data.connectingidtype.aspx)枚举值。</span><span class="sxs-lookup"><span data-stu-id="f1179-128">In an EWS Managed API application, you specify the SID along with the [ConnectingIdType.SID](http://msdn.microsoft.com/zh-cn/library/microsoft.exchange.webservices.data.connectingidtype.aspx) enumeration value.</span></span> 
   
 ```cs
 exchangeServiceInstance.ImpersonatedUserId = new ImpersonatedUserId(ConnectingIdType.SID, "S-1-5-21-1493619105-1843311271-3936346804-1118");
@@ -116,7 +116,7 @@ exchangeServiceInstance.ImpersonatedUserId = new ImpersonatedUserId(ConnectingId
     
 - [<span data-ttu-id="f1179-132">使用 Exchange 模拟添加约会</span><span class="sxs-lookup"><span data-stu-id="f1179-132">Add appointments by using Exchange impersonation</span></span>](how-to-add-appointments-by-using-exchange-impersonation.md)
     
-- [<span data-ttu-id="f1179-133">ExchangeService 类</span><span class="sxs-lookup"><span data-stu-id="f1179-133">ExchangeService class</span></span>](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.aspx)
+- [<span data-ttu-id="f1179-133">ExchangeService 类</span><span class="sxs-lookup"><span data-stu-id="f1179-133">ExchangeService class</span></span>](http://msdn.microsoft.com/zh-cn/library/microsoft.exchange.webservices.data.exchangeservice.aspx)
     
 - [<span data-ttu-id="f1179-134">ExchangeImpersonation</span><span class="sxs-lookup"><span data-stu-id="f1179-134">ExchangeImpersonation</span></span>](http://msdn.microsoft.com/library/d8cbac49-47d0-4745-a2a7-545d33f8da93%28Office.15%29.aspx)
     

@@ -44,7 +44,7 @@ ms.locfileid: "19826935"
    
 ## <a name="text-value"></a><span data-ttu-id="ef0d0-119">文本值</span><span class="sxs-lookup"><span data-stu-id="ef0d0-119">Text value</span></span>
 
-<span data-ttu-id="ef0d0-120">**QueryString**文本值表示邮箱查询使用[高级查询语法 (AQS)](http://msdn.microsoft.com/en-us/library/aa965711%28VS.85%29.aspx)的子集。</span><span class="sxs-lookup"><span data-stu-id="ef0d0-120">The **QueryString** text value represents a mailbox query made by using a subset of [Advanced Query Syntax (AQS)](http://msdn.microsoft.com/en-us/library/aa965711%28VS.85%29.aspx).</span></span> <span data-ttu-id="ef0d0-121">有关此元素的语法的信息，请参阅[QueryString (QueryStringType)](querystring-querystringtype.md)。</span><span class="sxs-lookup"><span data-stu-id="ef0d0-121">For information about the syntax for this element, see [QueryString (QueryStringType)](querystring-querystringtype.md).</span></span>
+<span data-ttu-id="ef0d0-120">**QueryString**文本值表示邮箱查询使用[高级查询语法 (AQS)](http://msdn.microsoft.com/zh-cn/library/aa965711%28VS.85%29.aspx)的子集。</span><span class="sxs-lookup"><span data-stu-id="ef0d0-120">The **QueryString** text value represents a mailbox query made by using a subset of [Advanced Query Syntax (AQS)](http://msdn.microsoft.com/zh-cn/library/aa965711%28VS.85%29.aspx).</span></span> <span data-ttu-id="ef0d0-121">有关此元素的语法的信息，请参阅[QueryString (QueryStringType)](querystring-querystringtype.md)。</span><span class="sxs-lookup"><span data-stu-id="ef0d0-121">For information about the syntax for this element, see [QueryString (QueryStringType)](querystring-querystringtype.md).</span></span>
   
 ## <a name="remarks"></a><span data-ttu-id="ef0d0-122">备注</span><span class="sxs-lookup"><span data-stu-id="ef0d0-122">Remarks</span></span>
 

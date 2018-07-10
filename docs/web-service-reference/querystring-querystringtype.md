@@ -52,7 +52,7 @@ ms.locfileid: "19826943"
    
 ## <a name="text-value"></a><span data-ttu-id="aa7de-125">文本值</span><span class="sxs-lookup"><span data-stu-id="aa7de-125">Text value</span></span>
 
-<span data-ttu-id="aa7de-126">**QueryString**元素文本值表示由使用[高级查询语法 (AQS)](http://msdn.microsoft.com/en-us/library/aa965711%28VS.85%29.aspx)的子集的邮箱查询。</span><span class="sxs-lookup"><span data-stu-id="aa7de-126">The **QueryString** element text value represents a mailbox query that is made by using a subset of [Advanced Query Syntax (AQS)](http://msdn.microsoft.com/en-us/library/aa965711%28VS.85%29.aspx).</span></span> <span data-ttu-id="aa7de-127">请参阅备注部分的有关支持的语法查询字符串选项的信息。</span><span class="sxs-lookup"><span data-stu-id="aa7de-127">See the remarks section for information about the supported syntax options for query strings.</span></span>
+<span data-ttu-id="aa7de-126">**QueryString**元素文本值表示由使用[高级查询语法 (AQS)](http://msdn.microsoft.com/zh-cn/library/aa965711%28VS.85%29.aspx)的子集的邮箱查询。</span><span class="sxs-lookup"><span data-stu-id="aa7de-126">The **QueryString** element text value represents a mailbox query that is made by using a subset of [Advanced Query Syntax (AQS)](http://msdn.microsoft.com/zh-cn/library/aa965711%28VS.85%29.aspx).</span></span> <span data-ttu-id="aa7de-127">请参阅备注部分的有关支持的语法查询字符串选项的信息。</span><span class="sxs-lookup"><span data-stu-id="aa7de-127">See the remarks section for information about the supported syntax options for query strings.</span></span>
   
 ## <a name="remarks"></a><span data-ttu-id="aa7de-128">注解</span><span class="sxs-lookup"><span data-stu-id="aa7de-128">Remarks</span></span>
 

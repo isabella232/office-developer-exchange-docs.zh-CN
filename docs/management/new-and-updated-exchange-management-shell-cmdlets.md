@@ -734,6 +734,6 @@ ms.locfileid: "19753066"
 
 - [<span data-ttu-id="15ef6-463">Exchange 命令行管理程序 cmdlet 输入和输出类型</span><span class="sxs-lookup"><span data-stu-id="15ef6-463">Exchange Management Shell cmdlet input and output types</span></span>](exchange-management-shell-cmdlet-input-and-output-types.md)    
 - [<span data-ttu-id="15ef6-464">使用 Exchange 命令行管理程序中获取邮件用户的列表</span><span class="sxs-lookup"><span data-stu-id="15ef6-464">Get a list of mail users by using the Exchange Management Shell</span></span>](how-to-get-a-list-of-mail-users-by-using-the-exchange-management-shell.md)    
-- [<span data-ttu-id="15ef6-465">Exchange 2013 cmdlet</span><span class="sxs-lookup"><span data-stu-id="15ef6-465">Exchange 2013 cmdlets</span></span>](http://technet.microsoft.com/en-us/library/bb124413%28v=exchg.150%29.aspx)
+- [<span data-ttu-id="15ef6-465">Exchange 2013 cmdlet</span><span class="sxs-lookup"><span data-stu-id="15ef6-465">Exchange 2013 cmdlets</span></span>](http://technet.microsoft.com/zh-cn/library/bb124413%28v=exchg.150%29.aspx)
     
 

@@ -76,6 +76,6 @@ ms.locfileid: "19752689"
 ## <a name="see-also"></a><span data-ttu-id="38ccd-140">另请参阅</span><span class="sxs-lookup"><span data-stu-id="38ccd-140">See also</span></span>
 
 - [<span data-ttu-id="38ccd-141">Exchange Online 和 Exchange 开发</span><span class="sxs-lookup"><span data-stu-id="38ccd-141">Exchange Online and Exchange development</span></span>](../exchange-server-development.md)
-- [<span data-ttu-id="38ccd-142">备份、 还原和灾难恢复</span><span class="sxs-lookup"><span data-stu-id="38ccd-142">Backup, Restore, and Disaster Recovery</span></span>](http://technet.microsoft.com/en-us/library/dd876874)
+- [<span data-ttu-id="38ccd-142">备份、 还原和灾难恢复</span><span class="sxs-lookup"><span data-stu-id="38ccd-142">Backup, Restore, and Disaster Recovery</span></span>](http://technet.microsoft.com/zh-cn/library/dd876874)
     
 

@@ -80,7 +80,7 @@ ms.locfileid: "19752759"
 ## <a name="see-also"></a><span data-ttu-id="b9080-144">另请参阅</span><span class="sxs-lookup"><span data-stu-id="b9080-144">See also</span></span>
 
 - [<span data-ttu-id="b9080-145">Impersonation and EWS in Exchange</span><span class="sxs-lookup"><span data-stu-id="b9080-145">Impersonation and EWS in Exchange</span></span>](impersonation-and-ews-in-exchange.md)
-- [<span data-ttu-id="b9080-146">ApplicationImpersonation 角色</span><span class="sxs-lookup"><span data-stu-id="b9080-146">ApplicationImpersonation role</span></span>](http://technet.microsoft.com/en-us/library/dd776119%28v=exchg.150%29.aspx)   
+- [<span data-ttu-id="b9080-146">ApplicationImpersonation 角色</span><span class="sxs-lookup"><span data-stu-id="b9080-146">ApplicationImpersonation role</span></span>](http://technet.microsoft.com/zh-cn/library/dd776119%28v=exchg.150%29.aspx)   
 - [<span data-ttu-id="b9080-147">新 ManagementRoleAssignment</span><span class="sxs-lookup"><span data-stu-id="b9080-147">New-ManagementRoleAssignment</span></span>](http://msdn.microsoft.com/library/34d4f2e3-f2c5-49e1-a6a9-1366da65a78c.aspx)    
 - [<span data-ttu-id="b9080-148">Get-managementroleassignment</span><span class="sxs-lookup"><span data-stu-id="b9080-148">Get-ManagementRoleAssignment</span></span>](http://msdn.microsoft.com/library/a3a6ee46-061b-444a-8639-43a416309445.aspx)
     

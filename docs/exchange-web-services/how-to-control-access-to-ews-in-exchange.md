@@ -24,10 +24,10 @@ ms.locfileid: "19752754"
 
 <span data-ttu-id="dda87-109">可以使用下面的 Exchange 命令行管理程序 cmdlet 查看当前的访问配置和设置 EWS 访问控制：</span><span class="sxs-lookup"><span data-stu-id="dda87-109">You can use the following Exchange Management Shell cmdlets to view the current access configuration and set EWS access controls:</span></span>
   
-- <span data-ttu-id="dda87-110">[Get-casmailbox](http://technet.microsoft.com/en-us/library/bb124754.aspx) -显示哪些参数设置为特定邮箱。</span><span class="sxs-lookup"><span data-stu-id="dda87-110">[Get-CASMailbox](http://technet.microsoft.com/en-us/library/bb124754.aspx) - Shows you what parameters are set for a particular mailbox.</span></span>   
-- <span data-ttu-id="dda87-111">[设置 CASMailbox](http://technet.microsoft.com/en-us/library/bb125264.aspx) -特定邮箱的设置参数。</span><span class="sxs-lookup"><span data-stu-id="dda87-111">[Set-CASMailbox](http://technet.microsoft.com/en-us/library/bb125264.aspx) - Sets parameters for a particular mailbox.</span></span>    
-- <span data-ttu-id="dda87-112">[Get-organizationconfig](http://technet.microsoft.com/en-us/library/aa997571.aspx) -显示整个组织的参数。</span><span class="sxs-lookup"><span data-stu-id="dda87-112">[Get-OrganizationConfig](http://technet.microsoft.com/en-us/library/aa997571.aspx) - Shows you the parameters for the entire organization.</span></span>    
-- <span data-ttu-id="dda87-113">[Set-organizationconfig](http://technet.microsoft.com/en-us/library/aa997443.aspx) -设置为整个组织的参数。</span><span class="sxs-lookup"><span data-stu-id="dda87-113">[Set-OrganizationConfig](http://technet.microsoft.com/en-us/library/aa997443.aspx) - Sets the parameters for the entire organization.</span></span> 
+- <span data-ttu-id="dda87-110">[Get-casmailbox](http://technet.microsoft.com/zh-cn/library/bb124754.aspx) -显示哪些参数设置为特定邮箱。</span><span class="sxs-lookup"><span data-stu-id="dda87-110">[Get-CASMailbox](http://technet.microsoft.com/zh-cn/library/bb124754.aspx) - Shows you what parameters are set for a particular mailbox.</span></span>   
+- <span data-ttu-id="dda87-111">[设置 CASMailbox](http://technet.microsoft.com/zh-cn/library/bb125264.aspx) -特定邮箱的设置参数。</span><span class="sxs-lookup"><span data-stu-id="dda87-111">[Set-CASMailbox](http://technet.microsoft.com/zh-cn/library/bb125264.aspx) - Sets parameters for a particular mailbox.</span></span>    
+- <span data-ttu-id="dda87-112">[Get-organizationconfig](http://technet.microsoft.com/zh-cn/library/aa997571.aspx) -显示整个组织的参数。</span><span class="sxs-lookup"><span data-stu-id="dda87-112">[Get-OrganizationConfig](http://technet.microsoft.com/zh-cn/library/aa997571.aspx) - Shows you the parameters for the entire organization.</span></span>    
+- <span data-ttu-id="dda87-113">[Set-organizationconfig](http://technet.microsoft.com/zh-cn/library/aa997443.aspx) -设置为整个组织的参数。</span><span class="sxs-lookup"><span data-stu-id="dda87-113">[Set-OrganizationConfig](http://technet.microsoft.com/zh-cn/library/aa997443.aspx) - Sets the parameters for the entire organization.</span></span> 
 
 <span data-ttu-id="dda87-114"><a name="bk_Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="dda87-114"></span></span>
 
@@ -52,7 +52,7 @@ ms.locfileid: "19752754"
 
 - [<span data-ttu-id="dda87-135">EWS 应用程序设置</span><span class="sxs-lookup"><span data-stu-id="dda87-135">Setting up your EWS application</span></span>](setting-up-your-ews-application.md)    
 - [<span data-ttu-id="dda87-136">在 Exchange 控制客户端应用程序访问 EWS</span><span class="sxs-lookup"><span data-stu-id="dda87-136">Controlling client application access to EWS in Exchange</span></span>](controlling-client-application-access-to-ews-in-exchange.md)   
-- [<span data-ttu-id="dda87-137">Exchange Server PowerShell （Exchange 命令行管理程序）</span><span class="sxs-lookup"><span data-stu-id="dda87-137">Exchange Server PowerShell (Exchange Management Shell)</span></span>](https://docs.microsoft.com/en-us/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps) 
-- [<span data-ttu-id="dda87-138">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="dda87-138">Windows PowerShell</span></span>](http://msdn.microsoft.com/en-us/library/dd835506%28v=vs.85%29.aspx)
+- [<span data-ttu-id="dda87-137">Exchange Server PowerShell （Exchange 命令行管理程序）</span><span class="sxs-lookup"><span data-stu-id="dda87-137">Exchange Server PowerShell (Exchange Management Shell)</span></span>](https://docs.microsoft.com/zh-cn/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps) 
+- [<span data-ttu-id="dda87-138">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="dda87-138">Windows PowerShell</span></span>](http://msdn.microsoft.com/zh-cn/library/dd835506%28v=vs.85%29.aspx)
     
 

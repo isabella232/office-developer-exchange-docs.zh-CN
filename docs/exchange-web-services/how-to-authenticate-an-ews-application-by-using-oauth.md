@@ -32,7 +32,7 @@ ms.locfileid: "19752745"
   
 - <span data-ttu-id="1c0d5-113">[Office 365 开发人员帐户](http://office.microsoft.com/compare-office-365-for-business-plans-FX102918419.aspx.aspx)。</span><span class="sxs-lookup"><span data-stu-id="1c0d5-113">An [Office 365 developer account](http://office.microsoft.com/compare-office-365-for-business-plans-FX102918419.aspx.aspx).</span></span> <span data-ttu-id="1c0d5-114">您可以使用试用帐户来测试您的应用程序</span><span class="sxs-lookup"><span data-stu-id="1c0d5-114">You can use a trial account to test your application</span></span>
     
-- <span data-ttu-id="1c0d5-115">[用于.NET 的 Azure AD 身份验证库](http://msdn.microsoft.com/en-us/library/office/jj573266.aspx.aspx)。</span><span class="sxs-lookup"><span data-stu-id="1c0d5-115">The [Azure AD Authentication Library for .NET](http://msdn.microsoft.com/en-us/library/office/jj573266.aspx.aspx).</span></span>
+- <span data-ttu-id="1c0d5-115">[用于.NET 的 Azure AD 身份验证库](http://msdn.microsoft.com/zh-cn/library/office/jj573266.aspx.aspx)。</span><span class="sxs-lookup"><span data-stu-id="1c0d5-115">The [Azure AD Authentication Library for .NET](http://msdn.microsoft.com/zh-cn/library/office/jj573266.aspx.aspx).</span></span>
     
 - <span data-ttu-id="1c0d5-116">[EWS 托管 API](https://github.com/officedev/ews-managed-api.aspx)。</span><span class="sxs-lookup"><span data-stu-id="1c0d5-116">[The EWS Managed API](https://github.com/officedev/ews-managed-api.aspx).</span></span>
 

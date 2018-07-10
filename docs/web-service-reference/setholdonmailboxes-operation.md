@@ -39,7 +39,7 @@ ms.locfileid: "19827412"
    
 ## <a name="setholdonmailboxes-operation-request-example-apply-a-hold-on-a-mailbox"></a><span data-ttu-id="0c8fa-126">SetHoldOnMailboxes 操作请求示例： 对邮箱应用保留</span><span class="sxs-lookup"><span data-stu-id="0c8fa-126">SetHoldOnMailboxes operation request example: Apply a hold on a mailbox</span></span>
 
-<span data-ttu-id="0c8fa-127">**SetHoldOnMailboxes**操作请求的下面的示例演示如何在两个邮箱应用保留。</span><span class="sxs-lookup"><span data-stu-id="0c8fa-127">The following example of a **SetHoldOnMailboxes** operation request shows how to apply a hold on two mailboxes.</span></span> <span data-ttu-id="0c8fa-128">使用[New-mailboxsearch](http://technet.microsoft.com/en-us/library/dd298064.aspx)命令创建邮箱保留项。</span><span class="sxs-lookup"><span data-stu-id="0c8fa-128">The mailbox hold was created by using the [New-MailboxSearch](http://technet.microsoft.com/en-us/library/dd298064.aspx) command.</span></span> 
+<span data-ttu-id="0c8fa-127">**SetHoldOnMailboxes**操作请求的下面的示例演示如何在两个邮箱应用保留。</span><span class="sxs-lookup"><span data-stu-id="0c8fa-127">The following example of a **SetHoldOnMailboxes** operation request shows how to apply a hold on two mailboxes.</span></span> <span data-ttu-id="0c8fa-128">使用[New-mailboxsearch](http://technet.microsoft.com/zh-cn/library/dd298064.aspx)命令创建邮箱保留项。</span><span class="sxs-lookup"><span data-stu-id="0c8fa-128">The mailbox hold was created by using the [New-MailboxSearch](http://technet.microsoft.com/zh-cn/library/dd298064.aspx) command.</span></span> 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
