@@ -6,9 +6,9 @@
     - name: Web 服务
       href: exchange-web-services/explore-the-ews-managed-api-ews-and-web-services-in-exchange.md
       items:
-        - name: 最近更新
+        - name: 新增功能
           href: exchange-web-services/whats-new-in-ews-and-other-web-services-in-exchange.md
-        - name: 入门
+        - name: 开始
           href: exchange-web-services/start-using-web-services-in-exchange.md
           items:
             - name: 体系结构
@@ -26,11 +26,11 @@
                   href: exchange-web-services/how-to-communicate-with-ews-by-using-the-ews-managed-api.md
                 - name: 跟踪请求和响应
                   href: exchange-web-services/how-to-trace-requests-responses-to-troubleshoot-ews-managed-api-applications.md
-            - name: 开始使用 EWS 客户端应用程序
+            - name: EWS 客户端应用程序入门
               href: exchange-web-services/get-started-with-ews-client-applications.md
             - name: Exchange 产品版本中的 EWS 功能
               href: exchange-web-services/ews-functionality-in-exchange-product-versions.md
-            - name: EWS 应用程序设置
+            - name: 设置 EWS 应用程序
               href: exchange-web-services/setting-up-your-ews-application.md
               items:
                 - name: 设置开发环境
@@ -38,7 +38,7 @@
                 - name: 控制客户端应用程序访问
                   href: exchange-web-services/controlling-client-application-access-to-ews-in-exchange.md
                   items:
-                    - name: 控制他人对 EWS 访问
+                    - name: 控制对 EWS 的访问
                       href: exchange-web-services/how-to-control-access-to-ews-in-exchange.md
                 - name: 管理用户访问
                   href: exchange-web-services/managing-user-access-by-using-ews-in-exchange.md
@@ -47,16 +47,16 @@
             - name: 身份验证
               href: exchange-web-services/authentication-and-ews-in-exchange.md
               items:
-                - name: EWS 应用程序通过使用 OAuth 进行身份验证
+                - name: 使用 OAuth 对 EWS 应用程序进行身份验证
                   href: exchange-web-services/how-to-authenticate-an-ews-application-by-using-oauth.md
             - name: 自动发现
               href: exchange-web-services/autodiscover-for-exchange.md
               items:
-                - name: 使用 SCP 查找来查找自动发现终结点
+                - name: 使用 SCP 查找找到自动发现终结点
                   href: exchange-web-services/how-to-find-autodiscover-endpoints-by-using-scp-lookup-in-exchange.md
-                - name: 生成自动发现终结点的列表
+                - name: 生成自动发现终结点列表
                   href: exchange-web-services/how-to-generate-a-list-of-autodiscover-endpoints.md
-                - name: 使用 Autodiscover 以查找连接点
+                - name: 使用自动发现查找连接点
                   href: exchange-web-services/how-to-use-autodiscover-to-find-connection-points.md
                 - name: 获取用户设置
                   href: exchange-web-services/how-to-get-user-settings-from-exchange-by-using-autodiscover.md
@@ -64,13 +64,13 @@
                   href: exchange-web-services/how-to-get-domain-settings-from-an-exchange-server.md
                 - name: 使用自动发现刷新配置信息
                   href: exchange-web-services/how-to-refresh-configuration-information-by-using-autodiscover.md
-                - name: 处理自动发现的错误消息
+                - name: 处理自动发现错误消息
                   href: exchange-web-services/handling-autodiscover-error-messages.md
-                - name: 提高自动发现性能
+                - name: 提升自动发现性能
                   href: exchange-web-services/improving-performance-when-using-autodiscover-for-exchange.md
-            - name: 面向 Outlook 和 EWS 的邮件应用程序
+            - name: Outlook 相关邮件应用程序和 EWS
               href: exchange-web-services/mail-apps-for-outlook-and-ews-in-exchange.md
-            - name: Office 365 REST Api
+            - name: Office 365 REST API
               href: exchange-web-services/office-365-rest-apis-for-mail-calendars-and-contacts.md
             - name: 许可证信息
               href: exchange-web-services/license-information.md
@@ -86,11 +86,11 @@
               items:
                 - name: 获取服务配置信息
                   href: exchange-web-services/how-to-get-service-configuration-information-by-using-ews-in-exchange.md
-            - name: 比较 Exchange Online 和 Exchange 内部部署客户端编程 （英文）
+            - name: 比较 Exchange Online 和 Exchange 本地客户端编程
               href: exchange-web-services/comparing-exchange-online-and-exchange-on-premises-client-programming.md
             - name: 限制
               href: exchange-web-services/ews-throttling-in-exchange.md
-            - name: EWS 托管 API 的重新分发要求
+            - name: EWS 托管 API 的再分发要求
               href: exchange-web-services/redistribution-requirements-for-the-ews-managed-api.md
             - name: 检测客户端请求
               href: exchange-web-services/instrumenting-client-requests-for-ews-and-rest-in-exchange.md
@@ -125,9 +125,9 @@
                   href: exchange-web-services/how-to-get-room-lists-by-using-ews-in-exchange.md
                 - name: 获取忙/闲信息
                   href: exchange-web-services/how-to-get-free-busy-information-by-using-ews-in-exchange.md
-                - name: 建议新的会议时间
+                - name: 提议新的会议时间
                   href: exchange-web-services/how-to-propose-a-new-meeting-time-by-using-ews-in-exchange.md
-                - name: 批次中的进程的日历项目
+                - name: 批量处理日历项目
                   href: exchange-web-services/how-to-process-calendar-items-in-batches-in-exchange.md
                 - name: 定期日历项目和 EWS
                   href: exchange-web-services/recurrence-patterns-and-ews.md
@@ -142,67 +142,67 @@
                       href: exchange-web-services/how-to-update-a-recurring-series-by-using-ews.md
                     - name: 更新定期系列
                       href: exchange-web-services/how-to-update-a-recurring-series-by-using-ews-in-exchange.md
-            - name: 委派访问
+            - name: 代理访问
               href: exchange-web-services/delegate-access-and-ews-in-exchange.md
               items:
-                - name: 添加和删除代理人
+                - name: 添加和删除代理
                   href: exchange-web-services/how-to-add-and-remove-delegates-by-using-ews-in-exchange.md
-                - name: 作为代理人访问日历
+                - name: 作为代理访问日历
                   href: exchange-web-services/how-to-access-a-calendar-as-a-delegate-by-using-ews-in-exchange.md
-                - name: 作为代理人的访问联系人
+                - name: 作为代理访问联系人
                   href: exchange-web-services/how-to-access-contacts-as-a-delegate-by-using-ews-in-exchange.md
-                - name: 作为代理人的访问电子邮件
+                - name: 作为代理访问电子邮件
                   href: exchange-web-services/how-to-access-email-as-a-delegate-by-using-ews-in-exchange.md
                 - name: 设置文件夹权限
                   href: exchange-web-services/how-to-set-folder-permissions-for-another-user-by-using-ews-in-exchange.md
-                - name: 处理委派相关错误
+                - name: 处理代理相关错误
                   href: exchange-web-services/handling-delegation-related-errors-in-ews-in-exchange.md
             - name: 通讯组
               href: exchange-web-services/distribution-groups-and-ews-in-exchange.md
               items:
                 - name: 创建联系人组
                   href: exchange-web-services/how-to-create-contact-groups-by-using-ews-in-exchange.md
-                - name: 展开通讯组
+                - name: 扩展通讯组
                   href: exchange-web-services/how-to-expand-distribution-groups-by-using-ews-in-exchange-2013.md
             - name: 电子数据展示
               href: exchange-web-services/ediscovery-in-ews-in-exchange.md
-            - name: Email
+            - name: 电子邮件
               href: exchange-web-services/email-and-ews-in-exchange.md
               items:
                 - name: 电子邮件属性和元素
                   href: exchange-web-services/email-properties-and-elements-in-ews-in-exchange.md
                 - name: 发送电子邮件
                   href: exchange-web-services/how-to-send-email-messages-by-using-ews-in-exchange.md
-                - name: 响应电子邮件
+                - name: 回复电子邮件
                   href: exchange-web-services/how-to-respond-to-email-messages-by-using-ews-in-exchange.md
                 - name: 移动和复制电子邮件
                   href: exchange-web-services/how-to-move-and-copy-email-messages-by-using-ews-in-exchange.md
-                - name: 使用对话
+                - name: 处理对话
                   href: exchange-web-services/how-to-work-with-conversations-by-using-ews-in-exchange.md
                 - name: 从电子邮件提取实体
                   href: exchange-web-services/how-to-extract-an-entity-from-an-email-message-by-using-ews-in-exchange.md
-                - name: 批次中的过程电子邮件
+                - name: 批量处理电子邮件
                   href: exchange-web-services/how-to-process-email-messages-in-batches-by-using-ews-in-exchange.md
             - name: 文件夹和项目
               href: exchange-web-services/folders-and-items-in-ews-in-exchange.md
               items:
-                - name: 使用文件夹
+                - name: 处理文件夹
                   href: exchange-web-services/how-to-work-with-folders-by-using-ews-in-exchange.md
-                - name: 使用隐藏文件夹
+                - name: 处理隐藏文件夹
                   href: exchange-web-services/how-to-work-with-hidden-folders-by-using-ews-in-exchange.md
-                - name: 使用项目
+                - name: 处理项目
                   href: exchange-web-services/how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md
                 - name: 删除项目
                   href: exchange-web-services/deleting-items-by-using-ews-in-exchange.md
                   items:
-                    - name: 提取有关删除相关邮箱事件的通知
+                    - name: 删除相关邮箱事件的拉取通知
                       href: exchange-web-services/pull-notifications-for-ews-deletion-related-mailbox-events-in-exchange.md
                     - name: 处理删除相关错误
                       href: exchange-web-services/handling-deletion-related-errors-in-ews-in-exchange.md
                 - name: 导出和导入项目
                   href: exchange-web-services/exporting-and-importing-items-by-using-ews-in-exchange.md
                   items:
-                    - name: 项目导出
+                    - name: 导出项目
                       href: exchange-web-services/how-to-export-items-by-using-ews-in-exchange.md
                     - name: 导入项目
                       href: exchange-web-services/how-to-import-items-by-using-ews-in-exchange.md
@@ -213,7 +213,7 @@
               items:
                 - name: 配置模拟
                   href: exchange-web-services/how-to-configure-impersonation.md
-                - name: 确定要模拟的帐户
+                - name: 识别要模拟的帐户
                   href: exchange-web-services/how-to-identify-the-account-to-impersonate.md
                 - name: 使用 Exchange 模拟添加约会
                   href: exchange-web-services/how-to-add-appointments-by-using-exchange-impersonation.md
@@ -222,57 +222,57 @@
               items:
                 - name: 管理收件箱规则
                   href: exchange-web-services/how-to-manage-inbox-rules-by-using-ews-in-exchange.md
-                - name: 添加和删除电子邮件地址从阻止的发件人列表
+                - name: 在阻止发件人列表中添加和删除电子邮件地址
                   href: exchange-web-services/how-to-add-and-remove-email-addresses-from-blocked-senders-list-by-using-ews.md
             - name: 通知和事件
               href: exchange-web-services/notification-subscriptions-mailbox-events-and-ews-in-exchange.md
               items:
                 - name: 流通知
                   href: exchange-web-services/how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md
-                - name: 提取通知
+                - name: 拉取通知
                   href: exchange-web-services/how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md
                 - name: 维护相关性
                   href: exchange-web-services/how-to-maintain-affinity-between-group-of-subscriptions-and-mailbox-server.md
-                - name: 处理与通知相关的错误
+                - name: 处理通知相关错误
                   href: exchange-web-services/handling-notification-related-errors-in-ews-in-exchange.md
             - name: 邮箱同步
               href: exchange-web-services/mailbox-synchronization-and-ews-in-exchange.md
               items:
                 - name: 同步文件夹
                   href: exchange-web-services/how-to-synchronize-folders-by-using-ews-in-exchange.md
-                - name: 同步项
+                - name: 同步项目
                   href: exchange-web-services/how-to-synchronize-items-by-using-ews-in-exchange.md
-                - name: 处理与同步相关的错误
+                - name: 处理同步相关错误
                   href: exchange-web-services/handling-synchronization-related-errors-in-ews-in-exchange.md
-            - name: 持久的应用程序设置
+            - name: 永久性应用程序设置
               href: exchange-web-services/persistent-application-settings-in-ews-in-exchange.md
               items:
-                - name: 管理持久的应用程序设置
+                - name: 管理永久性应用程序设置
                   href: exchange-web-services/how-to-manage-persistent-application-settings-by-using-ews-in-exchange.md
             - name: 人员和联系人
               href: exchange-web-services/people-and-contacts-in-ews-in-exchange.md
               items:
-                - name: 批次中的过程联系人
+                - name: 批量处理联系人
                   href: exchange-web-services/how-to-process-contacts-in-batches-by-using-ews-in-exchange.md
-                - name: 解析模糊名称
+                - name: 解析不确定的名称
                   href: exchange-web-services/how-to-resolve-ambiguous-names-by-using-ews-in-exchange-2013.md
                 - name: 获取用户照片
                   href: exchange-web-services/how-to-get-user-photos-by-using-ews-in-exchange.md
-            - name: 属性和扩展的属性
+            - name: 属性和扩展属性
               href: exchange-web-services/properties-and-extended-properties-in-ews-in-exchange.md
               items:
-                - name: 设置 x 标头
+                - name: 预配 X 标头
                   href: exchange-web-services/how-to-provision-x-headers-by-using-ews-in-exchange.md
-                - name: EWS 与属性相关的错误
+                - name: EWS 属性相关错误
                   href: exchange-web-services/ews-property-related-errors.md
             - name: 属性集和响应形状
               href: exchange-web-services/property-sets-and-response-shapes-in-ews-in-exchange.md
             - name: 公用文件夹
               href: exchange-web-services/public-folder-access-with-ews-in-exchange.md
               items:
-                - name: 将公用文件夹层次结构请求路由
+                - name: 路由公用文件夹层次结构请求
                   href: exchange-web-services/how-to-route-public-folder-hierarchy-requests.md
-                - name: 将公用文件夹内容请求路由
+                - name: 路由公用文件夹内容请求
                   href: exchange-web-services/how-to-route-public-folder-content-requests.md
             - name: 搜索
               href: exchange-web-services/search-and-ews-in-exchange.md
@@ -281,27 +281,27 @@
                   href: exchange-web-services/how-to-use-search-filters-with-ews-in-exchange.md
                 - name: 执行 AQS 搜索
                   href: exchange-web-services/how-to-perform-an-aqs-search-by-using-ews-in-exchange.md
-                - name: 执行分页的搜索
+                - name: 执行分页搜索
                   href: exchange-web-services/how-to-perform-paged-searches-by-using-ews-in-exchange.md
-                - name: 执行分组的搜索
+                - name: 执行分组搜索
                   href: exchange-web-services/how-to-perform-grouped-searches-by-using-ews-in-exchange.md
-                - name: 使用搜索文件夹
+                - name: 处理搜索文件夹
                   href: exchange-web-services/how-to-work-with-search-folders-by-using-ews-in-exchange.md
-            - name: 时区和 Exchange 中的 EWS
+            - name: Exchange 中的时区和 EWS
               href: exchange-web-services/time-zones-and-ews-in-exchange.md
               items:
-                - name: 在特定时间区域中创建约会
+                - name: 在一个特定时区创建约会
                   href: exchange-web-services/how-to-create-appointments-in-a-specific-time-zone-by-using-ews-in-exchange.md
-                - name: 更新约会所在的时区
+                - name: 更新约会时区
                   href: exchange-web-services/how-to-update-the-time-zone-for-an-appointment-by-using-ews-in-exchange.md
-            - name: EWS 应用程序疑难解答
+            - name: EWS 应用程序故障诊断
               href: exchange-web-services/tools-and-resources-for-troubleshooting-ews-applications-for-exchange.md
             - name: 验证 EWS 或 EWS 托管 API 调用的结果
               href: exchange-web-services/verifying-the-results-of-an-ews-or-ews-managed-api-call.md
-        - name: Web 服务引用
+        - name: Web 服务参考
           href: web-service-reference/web-services-reference-for-exchange.md
           items:
-            - name: EWS 参考 （英文）
+            - name: EWS 参考
               href: web-service-reference/ews-reference-for-exchange.md
               items:
                 - name: EWS 操作
@@ -329,26 +329,26 @@
                       href: web-service-reference/convertid-operation.md
                     - name: CopyFolder 操作
                       href: web-service-reference/copyfolder-operation.md
-                    - name: CopyItem Operation
+                    - name: CopyItem 操作
                       href: web-service-reference/copyitem-operation.md
                     - name: CreateAttachment 操作
                       href: web-service-reference/createattachment-operation.md
-                    - name: CreateFolder Operation
+                    - name: CreateFolder 操作
                       href: web-service-reference/createfolder-operation.md
                     - name: CreateFolderPath 操作
                       href: web-service-reference/createfolderpath-operation.md
-                    - name: CreateItem Operation
+                    - name: CreateItem 操作
                       href: web-service-reference/createitem-operation.md
                       items:
-                        - name: CreateItem operation，（电子邮件）
+                        - name: CreateItem 操作（电子邮件）
                           href: web-service-reference/createitem-operation-email-message.md
-                        - name: CreateItem operation，（日历项）
+                        - name: CreateItem 操作（日历项目）
                           href: web-service-reference/createitem-operation-calendar-item.md
-                        - name: CreateItem operation，（会议请求）
+                        - name: CreateItem 操作（会议请求）
                           href: web-service-reference/createitem-operation-meeting-request.md
-                        - name: CreateItem operation，（任务）
+                        - name: CreateItem 操作（任务）
                           href: web-service-reference/createitem-operation-task.md
-                        - name: CreateItem operation，（联系人）
+                        - name: CreateItem 操作（联系人）
                           href: web-service-reference/createitem-operation-contact.md
                         - name: CreateItem (AcceptSharingInvitation)
                           href: web-service-reference/createitem-acceptsharinginvitation.md
@@ -360,7 +360,7 @@
                       href: web-service-reference/deleteattachment-operation.md
                     - name: DeleteFolder 操作
                       href: web-service-reference/deletefolder-operation.md
-                    - name: 删除项操作
+                    - name: DeleteItem 操作
                       href: web-service-reference/deleteitem-operation.md
                     - name: DeleteUserConfiguration 操作
                       href: web-service-reference/deleteuserconfiguration-operation.md
@@ -374,11 +374,11 @@
                       href: web-service-reference/expanddl-operation.md
                     - name: ExportItems 操作
                       href: web-service-reference/exportitems-operation.md
-                    - name: FindConversation Operation
+                    - name: FindConversation 操作
                       href: web-service-reference/findconversation-operation.md
-                    - name: FindFolder Operation
+                    - name: FindFolder 操作
                       href: web-service-reference/findfolder-operation.md
-                    - name: FindItem Operation
+                    - name: FindItem 操作
                       href: web-service-reference/finditem-operation.md
                     - name: FindMessageTrackingReport 操作
                       href: web-service-reference/findmessagetrackingreport-operation.md
@@ -392,7 +392,7 @@
                       href: web-service-reference/getattachment-operation.md
                     - name: GetClientAccessToken 操作
                       href: web-service-reference/getclientaccesstoken-operation.md
-                    - name: GetConversationItems operation
+                    - name: GetConversationItems 操作
                       href: web-service-reference/getconversationitems-operation.md
                     - name: GetDelegate 操作
                       href: web-service-reference/getdelegate-operation.md
@@ -400,7 +400,7 @@
                       href: web-service-reference/getdiscoverysearchconfiguration-operation.md
                     - name: GetEvents 操作
                       href: web-service-reference/getevents-operation.md
-                    - name: GetFolder Operation
+                    - name: GetFolder 操作
                       href: web-service-reference/getfolder-operation.md
                     - name: GetHoldOnMailboxes 操作
                       href: web-service-reference/getholdonmailboxes-operation.md
@@ -410,16 +410,16 @@
                       href: web-service-reference/getimitems-operation.md
                     - name: GetInboxRules 操作
                       href: web-service-reference/getinboxrules-operation.md
-                    - name: GetItem Operation
+                    - name: GetItem 操作
                       href: web-service-reference/getitem-operation.md
                       items:
-                        - name: GetItem 操作 （电子邮件）
+                        - name: GetItem 操作（电子邮件）
                           href: web-service-reference/getitem-operation-email-message.md
-                        - name: GetItem 操作 （日历项）
+                        - name: GetItem 操作（日历项目）
                           href: web-service-reference/getitem-operation-calendar-item.md
-                        - name: GetItem 操作 （任务）
+                        - name: GetItem 操作（任务）
                           href: web-service-reference/getitem-operation-task.md
-                        - name: GetItem 操作 （联系人）
+                        - name: GetItem 操作（联系人）
                           href: web-service-reference/getitem-operation-contact.md
                     - name: GetMailTips 操作
                       href: web-service-reference/getmailtips-operation.md
@@ -467,11 +467,11 @@
                       href: web-service-reference/installapp-operation.md
                     - name: MarkAllItemsAsRead 操作
                       href: web-service-reference/markallitemsasread-operation.md
-                    - name: MarkAsJunk Operation
+                    - name: MarkAsJunk 操作
                       href: web-service-reference/markasjunk-operation.md
                     - name: MoveFolder 操作
                       href: web-service-reference/movefolder-operation.md
-                    - name: MoveItem Operation
+                    - name: MoveItem 操作
                       href: web-service-reference/moveitem-operation.md
                     - name: PerformReminderAction 操作
                       href: web-service-reference/performreminderaction-operation.md
@@ -493,7 +493,7 @@
                       href: web-service-reference/resolvenames-operation.md
                     - name: SearchMailboxes 操作
                       href: web-service-reference/searchmailboxes-operation.md
-                    - name: SendItem Operation
+                    - name: SendItem 操作
                       href: web-service-reference/senditem-operation.md
                     - name: SetHoldOnMailboxes 操作
                       href: web-service-reference/setholdonmailboxes-operation.md
@@ -503,7 +503,7 @@
                       href: web-service-reference/setimlistmigrationcompleted-operation.md
                     - name: SetUserOofSettings 操作
                       href: web-service-reference/setuseroofsettings-operation.md
-                    - name: 订阅操作
+                    - name: Subscribe 操作
                       href: web-service-reference/subscribe-operation.md
                     - name: SyncFolderHierarchy 操作
                       href: web-service-reference/syncfolderhierarchy-operation.md
@@ -511,20 +511,20 @@
                       href: web-service-reference/syncfolderitems-operation.md
                     - name: UninstallApp 操作
                       href: web-service-reference/uninstallapp-operation.md
-                    - name: 取消操作
+                    - name: Unsubscribe 操作
                       href: web-service-reference/unsubscribe-operation.md
                     - name: UpdateDelegate 操作
                       href: web-service-reference/updatedelegate-operation.md
-                    - name: UpdateFolder Operation
+                    - name: UpdateFolder 操作
                       href: web-service-reference/updatefolder-operation.md
                     - name: UpdateInboxRules 操作
                       href: web-service-reference/updateinboxrules-operation.md
-                    - name: UpdateItem Operation
+                    - name: UpdateItem 操作
                       href: web-service-reference/updateitem-operation.md
                       items:
-                        - name: UpdateItem 操作 （任务）
+                        - name: UpdateItem 操作（任务）
                           href: web-service-reference/updateitem-operation-task.md
-                        - name: UpdateItem 操作 （联系人）
+                        - name: UpdateItem 操作（联系人）
                           href: web-service-reference/updateitem-operation-contact.md
                     - name: UpdateUserConfiguration 操作
                       href: web-service-reference/updateuserconfiguration-operation.md
@@ -547,23 +547,23 @@
                       href: web-service-reference/acceptsharinginvitation.md
                     - name: AccessLevel
                       href: web-service-reference/accesslevel.md
-                    - name: 准确性
+                    - name: Accuracy
                       href: web-service-reference/accuracy.md
                     - name: ActingAs
                       href: web-service-reference/actingas.md
-                    - name: 操作 (ConversationActionTypeType)
+                    - name: Action (ConversationActionTypeType)
                       href: web-service-reference/action-conversationactiontypetype.md
-                    - name: 操作 (ProtectionRuleActionType)
+                    - name: Action (ProtectionRuleActionType)
                       href: web-service-reference/action-protectionruleactiontype.md
-                    - name: 操作 (SetClientExtensionActionType)
+                    - name: Action (SetClientExtensionActionType)
                       href: web-service-reference/action-setclientextensionactiontype.md
                     - name: ActionUrl
                       href: web-service-reference/actionurl.md
-                    - name: 操作
+                    - name: Actions
                       href: web-service-reference/actions.md
-                    - name: 操作 (ArrayOfSetClientExtensionActionsType)
+                    - name: Actions (ArrayOfSetClientExtensionActionsType)
                       href: web-service-reference/actions-arrayofsetclientextensionactionstype.md
-                    - name: 操作 (RuleActionsType)
+                    - name: Actions (RuleActionsType)
                       href: web-service-reference/actions-ruleactionstype.md
                     - name: ActionType (HoldActionType)
                       href: web-service-reference/actiontype-holdactiontype.md
@@ -603,17 +603,17 @@
                       href: web-service-reference/addnewteluricontacttogroup.md
                     - name: AddNewTelUriContactToGroupResponse
                       href: web-service-reference/addnewteluricontacttogroupresponse.md
-                    - name: 地址 (ContactType)
+                    - name: Address (ContactType)
                       href: web-service-reference/address-contacttype.md
-                    - name: 地址 (EmailAddressType)
+                    - name: Address (EmailAddressType)
                       href: web-service-reference/address-emailaddresstype.md
-                    - name: 地址 （字符串）
+                    - name: Address (string)
                       href: web-service-reference/address-string.md
                     - name: AddressEntity
                       href: web-service-reference/addressentity.md
-                    - name: 地址 (ArrayOfAddressEntitiesType)
+                    - name: Addresses (ArrayOfAddressEntitiesType)
                       href: web-service-reference/addresses-arrayofaddressentitiestype.md
-                    - name: 地址 (ArrayOfAddressesType)
+                    - name: Addresses (ArrayOfAddressesType)
                       href: web-service-reference/addresses-arrayofaddressestype.md
                     - name: AddressListId
                       href: web-service-reference/addresslistid.md
@@ -627,9 +627,9 @@
                       href: web-service-reference/aggregationrestriction.md
                     - name: Alias
                       href: web-service-reference/alias.md
-                    - name: 别名 (FederatedDirectoryGroupType)
+                    - name: Alias (FederatedDirectoryGroupType)
                       href: web-service-reference/alias-federateddirectorygrouptype.md
-                    - name: 别名 (MasterMailboxType)
+                    - name: Alias (MasterMailboxType)
                       href: web-service-reference/alias-mastermailboxtype.md
                     - name: AllInternal
                       href: web-service-reference/allinternal.md
@@ -649,13 +649,13 @@
                       href: web-service-reference/altitudeaccuracy.md
                     - name: And
                       href: web-service-reference/and.md
-                    - name: 和 (ProtectionRuleAndType)
+                    - name: And (ProtectionRuleAndType)
                       href: web-service-reference/and-protectionruleandtype.md
-                    - name: 批注
+                    - name: Annotation
                       href: web-service-reference/annotation.md
                     - name: ApiVersionSupported
                       href: web-service-reference/apiversionsupported.md
-                    - name: 应用程序
+                    - name: App
                       href: web-service-reference/app.md
                     - name: AppendToFolderField
                       href: web-service-reference/appendtofolderfield.md
@@ -685,7 +685,7 @@
                       href: web-service-reference/approvaldecisiontime.md
                     - name: ApprovalRequestData
                       href: web-service-reference/approvalrequestdata.md
-                    - name: 应用程序
+                    - name: Apps
                       href: web-service-reference/apps.md
                     - name: AppStatus
                       href: web-service-reference/appstatus-ex15websvcsotherref.md
@@ -699,7 +699,7 @@
                       href: web-service-reference/archivesourcefolderid.md
                     - name: ArchiveTag
                       href: web-service-reference/archivetag.md
-                    - name: 参数
+                    - name: Argument
                       href: web-service-reference/argument.md
                     - name: AssignCategories
                       href: web-service-reference/assigncategories.md
@@ -721,35 +721,35 @@
                       href: web-service-reference/attachlongpathname.md
                     - name: AttachmentId
                       href: web-service-reference/attachmentid.md
-                    - name: AttachmentId （GetAttachment 和 DeleteAttachment）
+                    - name: AttachmentId (GetAttachment and DeleteAttachment)
                       href: web-service-reference/attachmentid-getattachment-and-deleteattachment.md
                     - name: AttachmentIds
                       href: web-service-reference/attachmentids.md
-                    - name: 附件
+                    - name: Attachments
                       href: web-service-reference/attachments-ex15websvcsotherref.md
                     - name: AttachmentShape
                       href: web-service-reference/attachmentshape.md
                     - name: AttemptCount
                       href: web-service-reference/attemptcount.md
-                    - name: 与会者
+                    - name: Attendee
                       href: web-service-reference/attendee.md
                     - name: AttendeeConflictDataArray
                       href: web-service-reference/attendeeconflictdataarray.md
                     - name: AttendeeLocation
                       href: web-service-reference/attendeelocation.md
-                    - name: 与会者
+                    - name: Attendees
                       href: web-service-reference/attendees.md
                     - name: AttendeeType
                       href: web-service-reference/attendeetype.md
-                    - name: 归属 (PersonaAttributionType)
+                    - name: Attribution (PersonaAttributionType)
                       href: web-service-reference/attribution-personaattributiontype.md
-                    - name: 归属 （字符串）
+                    - name: Attribution (string)
                       href: web-service-reference/attribution-string.md
-                    - name: 归属 (ArrayOfPersonaAttributionsType)
+                    - name: Attributions (ArrayOfPersonaAttributionsType)
                       href: web-service-reference/attributions-arrayofpersonaattributionstype.md
-                    - name: 归属 (ArrayOfValueAttributionsType)
+                    - name: Attributions (ArrayOfValueAttributionsType)
                       href: web-service-reference/attributions-arrayofvalueattributionstype.md
-                    - name: 音频数据
+                    - name: AudioData
                       href: web-service-reference/audiodata.md
                     - name: Base64Binary
                       href: web-service-reference/base64binary.md
@@ -771,7 +771,7 @@
                       href: web-service-reference/begintime.md
                     - name: Bias
                       href: web-service-reference/bias.md
-                    - name: 斜线 (UTC)
+                    - name: Bias (UTC)
                       href: web-service-reference/bias-utc.md
                     - name: BillingInformation
                       href: web-service-reference/billinginformation.md
@@ -779,7 +779,7 @@
                       href: web-service-reference/binarydata.md
                     - name: Birthday
                       href: web-service-reference/birthday.md
-                    - name: 生日
+                    - name: Birthdays
                       href: web-service-reference/birthdays.md
                     - name: Bitmask
                       href: web-service-reference/bitmask.md
@@ -787,9 +787,9 @@
                       href: web-service-reference/blockexternalimages.md
                     - name: BlockStatus
                       href: web-service-reference/blockstatus.md
-                    - name: 正文
+                    - name: Bodies
                       href: web-service-reference/bodies.md
-                    - name: 正文
+                    - name: Body
                       href: web-service-reference/body.md
                     - name: BodyContentAttributedValue
                       href: web-service-reference/bodycontentattributedvalue.md
@@ -821,7 +821,7 @@
                       href: web-service-reference/calendarfolder.md
                     - name: CalendarFolderPermissionLevel
                       href: web-service-reference/calendarfolderpermissionlevel.md
-                    - name: 日历项目
+                    - name: CalendarItem
                       href: web-service-reference/calendaritem.md
                     - name: CalendarItemType
                       href: web-service-reference/calendaritemtype.md
@@ -853,7 +853,7 @@
                       href: web-service-reference/canrenameormove.md
                     - name: CarPhones
                       href: web-service-reference/carphones.md
-                    - name: 类别
+                    - name: Categories
                       href: web-service-reference/categories-ex15websvcsotherref.md
                     - name: CcRecipients
                       href: web-service-reference/ccrecipients.md
@@ -861,17 +861,17 @@
                       href: web-service-reference/changecount.md
                     - name: ChangeHighlights
                       href: web-service-reference/changehighlights.md
-                    - name: 更改 （层次结构）
+                    - name: Changes (Hierarchy)
                       href: web-service-reference/changes-hierarchy.md
-                    - name: 更改 （项）
+                    - name: Changes (Items)
                       href: web-service-reference/changes-items.md
                     - name: ChildFolderCount
                       href: web-service-reference/childfoldercount.md
                     - name: Children
                       href: web-service-reference/children.md
-                    - name: 子级 (ArrayOfStringArrayAttributedValuesType)
+                    - name: Children (ArrayOfStringArrayAttributedValuesType)
                       href: web-service-reference/children-arrayofstringarrayattributedvaluestype.md
-                    - name: 市/县
+                    - name: City
                       href: web-service-reference/city.md
                     - name: ClientExtension
                       href: web-service-reference/clientextension.md
@@ -897,15 +897,15 @@
                       href: web-service-reference/completefindingalspeechrecognitionresponse.md
                     - name: CompleteName
                       href: web-service-reference/completename.md
-                    - name: 条件
+                    - name: Condition
                       href: web-service-reference/condition.md
-                    - name: 条件 (RestrictionType)
+                    - name: Condition (RestrictionType)
                       href: web-service-reference/condition-restrictiontype.md
-                    - name: 条件
+                    - name: Conditions
                       href: web-service-reference/conditions.md
                     - name: ConferenceType
                       href: web-service-reference/conferencetype.md
-                    - name: 配置名
+                    - name: ConfigurationName
                       href: web-service-reference/configurationname.md
                     - name: ConfigurationRequestDetails
                       href: web-service-reference/configurationrequestdetails.md
@@ -923,19 +923,19 @@
                       href: web-service-reference/connectionstatus.md
                     - name: ConnectionTimeout
                       href: web-service-reference/connectiontimeout.md
-                    - name: 常量
+                    - name: Constant
                       href: web-service-reference/constant.md
-                    - name: 联系人
+                    - name: Contact
                       href: web-service-reference/contact.md
-                    - name: 联系人 (ContactType)
+                    - name: Contact (ContactType)
                       href: web-service-reference/contact-contacttype.md
                     - name: ContactId
                       href: web-service-reference/contactid.md
                     - name: ContactIds
                       href: web-service-reference/contactids.md
-                    - name: 联系人
+                    - name: Contacts
                       href: web-service-reference/contacts-ex15websvcsotherref.md
-                    - name: 联系人 (ArrayOfContactsType)
+                    - name: Contacts (ArrayOfContactsType)
                       href: web-service-reference/contacts-arrayofcontactstype.md
                     - name: ContactsFolder
                       href: web-service-reference/contactsfolder.md
@@ -961,7 +961,7 @@
                       href: web-service-reference/containssubjectorbodystrings.md
                     - name: ContainsSubjectStrings
                       href: web-service-reference/containssubjectstrings.md
-                    - name: 内容
+                    - name: Content
                       href: web-service-reference/content.md
                     - name: ContentExpiryDate
                       href: web-service-reference/contentexpirydate.md
@@ -975,11 +975,11 @@
                       href: web-service-reference/contenttype.md
                     - name: ContextFolderId
                       href: web-service-reference/contextfolderid.md
-                    - name: 对话 (ConversationRequestType)
+                    - name: Conversation (ConversationRequestType)
                       href: web-service-reference/conversation-conversationrequesttype.md
-                    - name: 对话 (ConversationResponseType)
+                    - name: Conversation (ConversationResponseType)
                       href: web-service-reference/conversation-conversationresponsetype.md
-                    - name: 对话 (ConversationType)
+                    - name: Conversation (ConversationType)
                       href: web-service-reference/conversation-conversationtype.md
                     - name: ConversationAction
                       href: web-service-reference/conversationaction.md
@@ -989,7 +989,7 @@
                       href: web-service-reference/conversationid.md
                     - name: ConversationIndex
                       href: web-service-reference/conversationindex.md
-                    - name: ConversationIndex （字符串）
+                    - name: ConversationIndex (string)
                       href: web-service-reference/conversationindex-string.md
                     - name: ConversationLastSyncTime
                       href: web-service-reference/conversationlastsynctime.md
@@ -997,7 +997,7 @@
                       href: web-service-reference/conversationnode.md
                     - name: ConversationNodes
                       href: web-service-reference/conversationnodes.md
-                    - name: 对话
+                    - name: Conversations
                       href: web-service-reference/conversations-ex15websvcsotherref.md
                     - name: ConversationShape
                       href: web-service-reference/conversationshape.md
@@ -1027,15 +1027,15 @@
                       href: web-service-reference/copyitemresponsemessage.md
                     - name: CopyToFolder
                       href: web-service-reference/copytofolder.md
-                    - name: 计数
+                    - name: Count
                       href: web-service-reference/count.md
-                    - name: 国家（地区）
+                    - name: Country
                       href: web-service-reference/country.md
                     - name: CountryOrRegion
                       href: web-service-reference/countryorregion.md
-                    - name: 创建 (FolderSync)
+                    - name: Create (FolderSync)
                       href: web-service-reference/create-foldersync.md
-                    - name: 创建 (ItemSync)
+                    - name: Create (ItemSync)
                       href: web-service-reference/create-itemsync.md
                     - name: CreateAssociated
                       href: web-service-reference/createassociated.md
@@ -1097,17 +1097,17 @@
                       href: web-service-reference/dailyrecurrence.md
                     - name: DailyRegeneration
                       href: web-service-reference/dailyregeneration.md
-                    - name: 数据
+                    - name: Data
                       href: web-service-reference/data.md
-                    - name: 数据 (base64Binary)
+                    - name: Data (base64Binary)
                       href: web-service-reference/data-base64binary.md
                     - name: DataType
                       href: web-service-reference/datatype.md
-                    - name: 日期
+                    - name: Date
                       href: web-service-reference/date.md
-                    - name: 日期 (MessageTracking)
+                    - name: Date (MessageTracking)
                       href: web-service-reference/date-messagetracking.md
-                    - name: 日期时间
+                    - name: DateTime
                       href: web-service-reference/datetime.md
                     - name: DateTimeCreated
                       href: web-service-reference/datetimecreated.md
@@ -1119,9 +1119,9 @@
                       href: web-service-reference/datetimesent.md
                     - name: DateTimeStamp
                       href: web-service-reference/datetimestamp.md
-                    - name: 日
+                    - name: Day
                       href: web-service-reference/day.md
-                    - name: 夏时制
+                    - name: Daylight
                       href: web-service-reference/daylight.md
                     - name: DaylightTime
                       href: web-service-reference/daylighttime.md
@@ -1143,7 +1143,7 @@
                       href: web-service-reference/daysofweek-daysofweektype.md
                     - name: DeclineItem
                       href: web-service-reference/declineitem.md
-                    - name: 消除
+                    - name: Deduplication
                       href: web-service-reference/deduplication.md
                     - name: DelegatePermissions
                       href: web-service-reference/delegatepermissions.md
@@ -1159,9 +1159,9 @@
                       href: web-service-reference/delegator.md
                     - name: Delete
                       href: web-service-reference/delete.md
-                    - name: 删除 (FolderSync)
+                    - name: Delete (FolderSync)
                       href: web-service-reference/delete-foldersync.md
-                    - name: 删除 (ItemSync)
+                    - name: Delete (ItemSync)
                       href: web-service-reference/delete-itemsync.md
                     - name: DeleteAttachment
                       href: web-service-reference/deleteattachment.md
@@ -1187,7 +1187,7 @@
                       href: web-service-reference/deletefolderresponsemessage.md
                     - name: DeleteFromFolderStateDefinition
                       href: web-service-reference/deletefromfolderstatedefinition.md
-                    - name: 删除项
+                    - name: DeleteItem
                       href: web-service-reference/deleteitem.md
                     - name: DeleteItemField
                       href: web-service-reference/deleteitemfield.md
@@ -1215,11 +1215,11 @@
                       href: web-service-reference/deliverystatus.md
                     - name: Department
                       href: web-service-reference/department.md
-                    - name: 部门
+                    - name: Departments
                       href: web-service-reference/departments.md
-                    - name: 说明
+                    - name: Description
                       href: web-service-reference/description.md
-                    - name: 说明 (MasterMailboxType)
+                    - name: Description (MasterMailboxType)
                       href: web-service-reference/description-mastermailboxtype.md
                     - name: DescriptiveLinkKey
                       href: web-service-reference/descriptivelinkkey.md
@@ -1231,7 +1231,7 @@
                       href: web-service-reference/diagnostics.md
                     - name: DiagnosticsLevel
                       href: web-service-reference/diagnosticslevel.md
-                    - name: DialString （Exchange web 服务）
+                    - name: DialString（Exchange Web 服务）
                       href: web-service-reference/dialstring-exchange-web-services.md
                     - name: Dictionary
                       href: web-service-reference/dictionary.md
@@ -1271,7 +1271,7 @@
                       href: web-service-reference/displayname-mastermailboxtype.md
                     - name: DisplayName (NonEmptyStringType)
                       href: web-service-reference/displayname-nonemptystringtype.md
-                    - name: DisplayName （字符串）
+                    - name: DisplayName (string)
                       href: web-service-reference/displayname-string.md
                     - name: DisplayName (VotingOptionDataType)
                       href: web-service-reference/displayname-votingoptiondatatype.md
@@ -1307,19 +1307,19 @@
                       href: web-service-reference/distributionlist.md
                     - name: DLExpansion
                       href: web-service-reference/dlexpansion.md
-                    - name: 域
+                    - name: Domain
                       href: web-service-reference/domain.md
-                    - name: 域 （邮件跟踪）
+                    - name: Domain (Message Tracking)
                       href: web-service-reference/domain-message-tracking.md
-                    - name: 域控制器 (MasterMailboxType)
+                    - name: DomainController (MasterMailboxType)
                       href: web-service-reference/domaincontroller-mastermailboxtype.md
                     - name: DraftItemIds
                       href: web-service-reference/draftitemids.md
                     - name: DueDate
                       href: web-service-reference/duedate.md
-                    - name: 持续时间 （项）
+                    - name: Duration (Items)
                       href: web-service-reference/duration-items.md
-                    - name: 持续时间 (UserOofSettings)
+                    - name: Duration (UserOofSettings)
                       href: web-service-reference/duration-useroofsettings.md
                     - name: EditAllowed
                       href: web-service-reference/editallowed.md
@@ -1327,13 +1327,13 @@
                       href: web-service-reference/edititems.md
                     - name: EffectiveRights
                       href: web-service-reference/effectiverights.md
-                    - name: 电子邮件 （电子邮件地址）
+                    - name: Email (EmailAddress)
                       href: web-service-reference/email-emailaddress.md
-                    - name: 电子邮件 (EmailAddressType)
+                    - name: Email (EmailAddressType)
                       href: web-service-reference/email-emailaddresstype.md
-                    - name: 电子邮件 （字符串）
+                    - name: Email (String)
                       href: web-service-reference/email-string.md
-                    - name: EmailAddress （电子邮件地址）
+                    - name: EmailAddress (EmailAddress)
                       href: web-service-reference/emailaddress-emailaddress.md
                     - name: EmailAddress (EmailAddressType)
                       href: web-service-reference/emailaddress-emailaddresstype.md
@@ -1341,7 +1341,7 @@
                       href: web-service-reference/emailaddress-getpersonatype.md
                     - name: EmailAddress (NonEmptyStringType)
                       href: web-service-reference/emailaddress-nonemptystringtype.md
-                    - name: EmailAddress （字符串）
+                    - name: EmailAddress (string)
                       href: web-service-reference/emailaddress-string.md
                     - name: EmailAddressAttributedValue
                       href: web-service-reference/emailaddressattributedvalue.md
@@ -1381,9 +1381,9 @@
                       href: web-service-reference/encryptedsharedfolderdatacollection.md
                     - name: 'End '
                       href: web-service-reference/end-ex15websvcsotherref.md
-                    - name: 结束 (ChangeHighlightsType)
+                    - name: End (ChangeHighlightsType)
                       href: web-service-reference/end-changehighlightstype.md
-                    - name: EndDate （重复）
+                    - name: EndDate (Recurrence)
                       href: web-service-reference/enddate-recurrence.md
                     - name: EndDate (ReminderType)
                       href: web-service-reference/enddate-remindertype.md
@@ -1393,7 +1393,7 @@
                       href: web-service-reference/enddatetime.md
                     - name: EndNodeUrl
                       href: web-service-reference/endnodeurl.md
-                    - name: 结束时间
+                    - name: EndTime
                       href: web-service-reference/endtime.md
                     - name: EndTime (ReminderMessageDataType)
                       href: web-service-reference/endtime-remindermessagedatatype.md
@@ -1409,21 +1409,21 @@
                       href: web-service-reference/enhancedlocation.md
                     - name: EntityExtractionResult
                       href: web-service-reference/entityextractionresult.md
-                    - name: 条目 （电子邮件地址）
+                    - name: Entry (EmailAddress)
                       href: web-service-reference/entry-emailaddress.md
-                    - name: 条目 (IMAddress)
+                    - name: Entry (IMAddress)
                       href: web-service-reference/entry-imaddress.md
-                    - name: 条目 (PhoneNumber)
+                    - name: Entry (PhoneNumber)
                       href: web-service-reference/entry-phonenumber.md
-                    - name: 条目 (PhysicalAddress)
+                    - name: Entry (PhysicalAddress)
                       href: web-service-reference/entry-physicaladdress.md
-                    - name: 错误
+                    - name: Error
                       href: web-service-reference/error.md
-                    - name: 错误
+                    - name: Errors
                       href: web-service-reference/errors-ex15websvcsotherref.md
-                    - name: 错误代码
+                    - name: ErrorCode
                       href: web-service-reference/errorcode.md
-                    - name: ErrorCode （整数）
+                    - name: ErrorCode (int)
                       href: web-service-reference/errorcode-int.md
                     - name: ErrorCode (ItemIndexErrorType)
                       href: web-service-reference/errorcode-itemindexerrortype.md
@@ -1445,7 +1445,7 @@
                       href: web-service-reference/eventtypes.md
                     - name: ExceptionFieldURI
                       href: web-service-reference/exceptionfielduri.md
-                    - name: 异常
+                    - name: Exceptions
                       href: web-service-reference/exceptions.md
                     - name: ExchangeImpersonation
                       href: web-service-reference/exchangeimpersonation.md
@@ -1453,7 +1453,7 @@
                       href: web-service-reference/exchangestoreid.md
                     - name: ExcludeConflicts
                       href: web-service-reference/excludeconflicts.md
-                    - name: 排除
+                    - name: Excludes
                       href: web-service-reference/excludes.md
                     - name: ExecutedSearchScope
                       href: web-service-reference/executedsearchscope.md
@@ -1523,7 +1523,7 @@
                       href: web-service-reference/fieldorder.md
                     - name: FieldURI
                       href: web-service-reference/fielduri.md
-                    - name: FieldUri （规则）
+                    - name: FieldUri (Rule)
                       href: web-service-reference/fielduri-rule.md
                     - name: FieldURIOrConstant
                       href: web-service-reference/fielduriorconstant.md
@@ -1589,7 +1589,7 @@
                       href: web-service-reference/firstname.md
                     - name: FirstOccurrence
                       href: web-service-reference/firstoccurrence.md
-                    - name: 标志
+                    - name: Flag
                       href: web-service-reference/flag.md
                     - name: FlaggedForAction
                       href: web-service-reference/flaggedforaction.md
@@ -1603,7 +1603,7 @@
                       href: web-service-reference/folderchanges.md
                     - name: FolderClass
                       href: web-service-reference/folderclass.md
-                    - name: 文件夹 Id
+                    - name: FolderId
                       href: web-service-reference/folderid.md
                     - name: FolderIds
                       href: web-service-reference/folderids.md
@@ -1613,7 +1613,7 @@
                       href: web-service-reference/foldername.md
                     - name: FolderNames
                       href: web-service-reference/foldernames.md
-                    - name: 文件夹
+                    - name: Folders
                       href: web-service-reference/folders-ex15websvcsotherref.md
                     - name: FolderShape
                       href: web-service-reference/foldershape.md
@@ -1657,9 +1657,9 @@
                       href: web-service-reference/fromdate.md
                     - name: FullName
                       href: web-service-reference/fullname.md
-                    - name: 生成
+                    - name: Generation
                       href: web-service-reference/generation.md
-                    - name: 生成
+                    - name: Generations
                       href: web-service-reference/generations.md
                     - name: GetAppManifests
                       href: web-service-reference/getappmanifests.md
@@ -1903,9 +1903,9 @@
                       href: web-service-reference/globalunreadcount.md
                     - name: GoodThreshold
                       href: web-service-reference/goodthreshold.md
-                    - name: 组 (ArrayOfFederatedDirectoryGroupsType)
+                    - name: Group (ArrayOfFederatedDirectoryGroupsType)
                       href: web-service-reference/group-arrayoffederateddirectorygroupstype.md
-                    - name: 组 (MailboxAssociationType)
+                    - name: Group (MailboxAssociationType)
                       href: web-service-reference/group-mailboxassociationtype.md
                     - name: GroupAttendeeConflictData
                       href: web-service-reference/groupattendeeconflictdata.md
@@ -1925,11 +1925,11 @@
                       href: web-service-reference/groupingaction.md
                     - name: GroupingAction (ItemType)
                       href: web-service-reference/groupingaction-itemtype.md
-                    - name: 组
+                    - name: Groups
                       href: web-service-reference/groups.md
-                    - name: 组 (ArrayOfFederatedDirectoryGroupsType)
+                    - name: Groups (ArrayOfFederatedDirectoryGroupsType)
                       href: web-service-reference/groups-arrayoffederateddirectorygroupstype.md
-                    - name: 组 (ArrayOfImGroupType)
+                    - name: Groups (ArrayOfImGroupType)
                       href: web-service-reference/groups-arrayofimgrouptype.md
                     - name: GroupSids
                       href: web-service-reference/groupsids.md
@@ -1967,7 +1967,7 @@
                       href: web-service-reference/hiddenrecipient.md
                     - name: HighlightTerms
                       href: web-service-reference/highlightterms.md
-                    - name: 业余爱好
+                    - name: Hobbies
                       href: web-service-reference/hobbies.md
                     - name: HoldId
                       href: web-service-reference/holdid.md
@@ -1979,7 +1979,7 @@
                       href: web-service-reference/homecitysortkey.md
                     - name: HomeFaxes
                       href: web-service-reference/homefaxes.md
-                    - name: 主页
+                    - name: HomePage
                       href: web-service-reference/homepage.md
                     - name: HomePhones
                       href: web-service-reference/homephones.md
@@ -1989,7 +1989,7 @@
                       href: web-service-reference/iconindex.md
                     - name: ID
                       href: web-service-reference/id.md
-                    - name: ID （字符串）
+                    - name: ID (String)
                       href: web-service-reference/id-string.md
                     - name: Id (EmailAddressType)
                       href: web-service-reference/id-emailaddresstype.md
@@ -2003,13 +2003,13 @@
                       href: web-service-reference/identitydetails.md
                     - name: IdOfFolderToShare
                       href: web-service-reference/idoffoldertoshare.md
-                    - name: Id
+                    - name: Ids
                       href: web-service-reference/ids.md
-                    - name: 忽略
+                    - name: Ignore
                       href: web-service-reference/ignore.md
                     - name: ImAddress (NonEmptyStringType)
                       href: web-service-reference/imaddress-nonemptystringtype.md
-                    - name: ImAddress （字符串）
+                    - name: ImAddress (String)
                       href: web-service-reference/imaddress-string.md
                     - name: ImAddresses
                       href: web-service-reference/imaddresses.md
@@ -2067,7 +2067,7 @@
                       href: web-service-reference/individualattendeeconflictdata.md
                     - name: Initials
                       href: web-service-reference/initials.md
-                    - name: 首字母缩写 (ArrayOfStringAttributedValuesType)
+                    - name: Initials (ArrayOfStringAttributedValuesType)
                       href: web-service-reference/initials-arrayofstringattributedvaluestype.md
                     - name: InlineImageUrlTemplate
                       href: web-service-reference/inlineimageurltemplate.md
@@ -2085,7 +2085,7 @@
                       href: web-service-reference/instancekey.md
                     - name: IntendedFreeBusyStatus
                       href: web-service-reference/intendedfreebusystatus.md
-                    - name: 用途
+                    - name: Intent
                       href: web-service-reference/intent.md
                     - name: InternalDomains (SmtpDomainList)
                       href: web-service-reference/internaldomains-smtpdomainlist.md
@@ -2103,7 +2103,7 @@
                       href: web-service-reference/interval.md
                     - name: InvalidRecipient
                       href: web-service-reference/invalidrecipient.md
-                    - name: InvalidRecipient （邮件提示）
+                    - name: InvalidRecipient (MailTips)
                       href: web-service-reference/invalidrecipient-mailtips.md
                     - name: InvalidRecipients
                       href: web-service-reference/invalidrecipients.md
@@ -2125,7 +2125,7 @@
                       href: web-service-reference/iscancelled.md
                     - name: IsClutter
                       href: web-service-reference/isclutter.md
-                    - name: 程序
+                    - name: IsComplete
                       href: web-service-reference/iscomplete.md
                     - name: IsContactPhoto
                       href: web-service-reference/iscontactphoto.md
@@ -2139,7 +2139,7 @@
                       href: web-service-reference/isdraft.md
                     - name: IsEnabled
                       href: web-service-reference/isenabled.md
-                    - name: 进行加密
+                    - name: IsEncrypted
                       href: web-service-reference/isencrypted.md
                     - name: IsEqualTo
                       href: web-service-reference/isequalto.md
@@ -2253,9 +2253,9 @@
                       href: web-service-reference/isworktime.md
                     - name: IsWritable
                       href: web-service-reference/iswritable.md
-                    - name: 项目
+                    - name: Item
                       href: web-service-reference/item.md
-                    - name: 项目 (UploadItemType)
+                    - name: Item (UploadItemType)
                       href: web-service-reference/item-uploaditemtype.md
                     - name: ItemAttachment
                       href: web-service-reference/itemattachment.md
@@ -2281,15 +2281,15 @@
                       href: web-service-reference/itemids.md
                     - name: ItemIds (NonEmptyArrayOfItemIdsType)
                       href: web-service-reference/itemids-nonemptyarrayofitemidstype.md
-                    - name: 项目
+                    - name: Items
                       href: web-service-reference/items.md
-                    - name: 项目 (ArrayOfNonIndexableItemDetailsType)
+                    - name: Items (ArrayOfNonIndexableItemDetailsType)
                       href: web-service-reference/items-arrayofnonindexableitemdetailstype.md
-                    - name: 项目 (ArrayOfSearchPreviewItemsType)
+                    - name: Items (ArrayOfSearchPreviewItemsType)
                       href: web-service-reference/items-arrayofsearchpreviewitemstype.md
-                    - name: 项目 (NonEmptyArrayOfAllItemsType)
+                    - name: Items (NonEmptyArrayOfAllItemsType)
                       href: web-service-reference/items-nonemptyarrayofallitemstype.md
-                    - name: 项目 (NonEmptyArrayOfUploadItemsType)
+                    - name: Items (NonEmptyArrayOfUploadItemsType)
                       href: web-service-reference/items-nonemptyarrayofuploaditemstype.md
                     - name: ItemShape
                       href: web-service-reference/itemshape.md
@@ -2309,9 +2309,9 @@
                       href: web-service-reference/journalfolderpermissionlevel.md
                     - name: KeepProperties
                       href: web-service-reference/keepproperties.md
-                    - name: 关键字
+                    - name: Keyword
                       href: web-service-reference/keyword.md
-                    - name: 关键字
+                    - name: Keywords
                       href: web-service-reference/keywords-ex15websvcsotherref.md
                     - name: KeywordStat
                       href: web-service-reference/keywordstat.md
@@ -2319,9 +2319,9 @@
                       href: web-service-reference/keywordstatisticssearchresult.md
                     - name: KeywordStats
                       href: web-service-reference/keywordstats.md
-                    - name: 语言
+                    - name: Language
                       href: web-service-reference/language.md
-                    - name: 语言 (DiscoverySearchConfigurationType)
+                    - name: Language (DiscoverySearchConfigurationType)
                       href: web-service-reference/language-discoverysearchconfigurationtype.md
                     - name: LargeAudienceCap
                       href: web-service-reference/largeaudiencecap.md
@@ -2343,7 +2343,7 @@
                       href: web-service-reference/lastresponsetime.md
                     - name: Latitude
                       href: web-service-reference/latitude.md
-                    - name: 旧版 Dn
+                    - name: LegacyDN
                       href: web-service-reference/legacydn.md
                     - name: LegacyDn (FederatedDirectoryGroupType)
                       href: web-service-reference/legacydn-federateddirectorygrouptype.md
@@ -2353,15 +2353,15 @@
                       href: web-service-reference/legacyfreebusystatus.md
                     - name: LobbyBypass
                       href: web-service-reference/lobbybypass.md
-                    - name: 位置
+                    - name: Location
                       href: web-service-reference/location.md
-                    - name: 位置 (CalendarEventDetails)
+                    - name: Location (CalendarEventDetails)
                       href: web-service-reference/location-calendareventdetails.md
-                    - name: 位置 (ReminderMessageDataType)
+                    - name: Location (ReminderMessageDataType)
                       href: web-service-reference/location-remindermessagedatatype.md
                     - name: LocationBasedStateDefinition
                       href: web-service-reference/locationbasedstatedefinition.md
-                    - name: 位置
+                    - name: Locations
                       href: web-service-reference/locations.md
                     - name: LocationSource
                       href: web-service-reference/locationsource.md
@@ -2371,11 +2371,11 @@
                       href: web-service-reference/longitude.md
                     - name: Mailbox
                       href: web-service-reference/mailbox.md
-                    - name: 邮箱 （字符串）
+                    - name: Mailbox (string)
                       href: web-service-reference/mailbox-string.md
-                    - name: 邮箱 （可用性）
+                    - name: Mailbox (Availability)
                       href: web-service-reference/mailbox-availability.md
-                    - name: 邮箱 (PreviewItemMailboxType)
+                    - name: Mailbox (PreviewItemMailboxType)
                       href: web-service-reference/mailbox-previewitemmailboxtype.md
                     - name: MailboxCulture
                       href: web-service-reference/mailboxculture.md
@@ -2383,11 +2383,11 @@
                       href: web-service-reference/mailboxdata.md
                     - name: MailboxDataArray
                       href: web-service-reference/mailboxdataarray.md
-                    - name: 邮箱 (ArrayOfStringsType)
+                    - name: Mailboxes (ArrayOfStringsType)
                       href: web-service-reference/mailboxes-arrayofstringstype.md
-                    - name: 邮箱 (ArrayOfUserMailboxesType)
+                    - name: Mailboxes (ArrayOfUserMailboxesType)
                       href: web-service-reference/mailboxes-arrayofusermailboxestype.md
-                    - name: 邮箱 (NonEmptyArrayOfLegacyDNsType)
+                    - name: Mailboxes (NonEmptyArrayOfLegacyDNsType)
                       href: web-service-reference/mailboxes-nonemptyarrayoflegacydnstype.md
                     - name: MailboxFull
                       href: web-service-reference/mailboxfull.md
@@ -2419,7 +2419,7 @@
                       href: web-service-reference/mailboxtype.md
                     - name: MailboxType (MasterMailboxType)
                       href: web-service-reference/mailboxtype-mastermailboxtype.md
-                    - name: 邮件提示
+                    - name: MailTips
                       href: web-service-reference/mailtips.md
                     - name: MailTipsConfiguration (MailTipsServiceConfiguration)
                       href: web-service-reference/mailtipsconfiguration-mailtipsserviceconfiguration.md
@@ -2441,13 +2441,13 @@
                       href: web-service-reference/managementrole.md
                     - name: Manager
                       href: web-service-reference/manager.md
-                    - name: 经理
+                    - name: Managers
                       href: web-service-reference/managers.md
                     - name: ManagerMailbox
                       href: web-service-reference/managermailbox.md
-                    - name: 清单
+                    - name: Manifest
                       href: web-service-reference/manifest.md
-                    - name: 清单
+                    - name: Manifests
                       href: web-service-reference/manifests.md
                     - name: MarkAllItemsAsRead
                       href: web-service-reference/markallitemsasread.md
@@ -2475,7 +2475,7 @@
                       href: web-service-reference/maximumnonworkhourresultsbyday.md
                     - name: MaximumResultsByDay
                       href: web-service-reference/maximumresultsbyday.md
-                    - name: 大化
+                    - name: MaximumSize
                       href: web-service-reference/maximumsize.md
                     - name: MaxItems
                       href: web-service-reference/maxitems.md
@@ -2511,11 +2511,11 @@
                       href: web-service-reference/meetingtimezone.md
                     - name: MeetingWorkspaceUrl
                       href: web-service-reference/meetingworkspaceurl.md
-                    - name: 成员
+                    - name: Member
                       href: web-service-reference/member-ex15websvcsotherref.md
-                    - name: 成员
+                    - name: Members
                       href: web-service-reference/members.md
-                    - name: 成员 (MemberListType)
+                    - name: Members (MemberListType)
                       href: web-service-reference/members-memberlisttype.md
                     - name: MemberCorrelationKey
                       href: web-service-reference/membercorrelationkey.md
@@ -2523,9 +2523,9 @@
                       href: web-service-reference/mergedfreebusy.md
                     - name: MergedFreeBusyIntervalInMinutes
                       href: web-service-reference/mergedfreebusyintervalinminutes.md
-                    - name: 邮件
+                    - name: Message
                       href: web-service-reference/message-ex15websvcsotherref.md
-                    - name: 消息 （可用性）
+                    - name: Message (Availability)
                       href: web-service-reference/message-availability.md
                     - name: MessageClassifications
                       href: web-service-reference/messageclassifications.md
@@ -2547,7 +2547,7 @@
                       href: web-service-reference/messagetypes.md
                     - name: MessageXml
                       href: web-service-reference/messagexml.md
-                    - name: 元数据
+                    - name: Metadata
                       href: web-service-reference/metadata-ex15websvcsotherref.md
                     - name: MiddleName
                       href: web-service-reference/middlename.md
@@ -2571,15 +2571,15 @@
                       href: web-service-reference/modifiedevent.md
                     - name: ModifiedOccurrences
                       href: web-service-reference/modifiedoccurrences.md
-                    - name: 修改
+                    - name: Modify
                       href: web-service-reference/modify.md
                     - name: ModifyRecipientsAllowed
                       href: web-service-reference/modifyrecipientsallowed.md
-                    - name: 月
+                    - name: Month
                       href: web-service-reference/month.md
-                    - name: 每月 （所在的时区转换）
+                    - name: Month (Time Zone Transition)
                       href: web-service-reference/month-time-zone-transition.md
-                    - name: 每月 （项重复）
+                    - name: Month (Item Recurrence)
                       href: web-service-reference/month-item-recurrence.md
                     - name: MonthlyRegeneration
                       href: web-service-reference/monthlyregeneration.md
@@ -2609,17 +2609,17 @@
                       href: web-service-reference/mustdisplaycomment.md
                     - name: MyResponseType
                       href: web-service-reference/myresponsetype.md
-                    - name: 名称 (AttachmentType)
+                    - name: Name (AttachmentType)
                       href: web-service-reference/name-attachmenttype.md
-                    - name: 名称 (EmailAddressType)
+                    - name: Name (EmailAddressType)
                       href: web-service-reference/name-emailaddresstype.md
-                    - name: 名称 （电子邮件地址）
+                    - name: Name (EmailAddress)
                       href: web-service-reference/name-emailaddress.md
-                    - name: 名称 (ExtendedAttributeType)
+                    - name: Name (ExtendedAttributeType)
                       href: web-service-reference/name-extendedattributetype.md
-                    - name: 名称 （邮件跟踪）
+                    - name: Name (Message Tracking)
                       href: web-service-reference/name-message-tracking.md
-                    - name: 名称 （字符串）
+                    - name: Name (string)
                       href: web-service-reference/name-string.md
                     - name: NetShowUrl
                       href: web-service-reference/netshowurl.md
@@ -2637,7 +2637,7 @@
                       href: web-service-reference/nextpredictedaction-itemtype.md
                     - name: Nickname
                       href: web-service-reference/nickname.md
-                    - name: 昵称
+                    - name: Nicknames
                       href: web-service-reference/nicknames.md
                     - name: NoEndRecurrence
                       href: web-service-reference/noendrecurrence.md
@@ -2653,19 +2653,19 @@
                       href: web-service-reference/normalizedbody.md
                     - name: NormalizedBodyType
                       href: web-service-reference/normalizedbodytype.md
-                    - name: 不
+                    - name: Not
                       href: web-service-reference/not.md
-                    - name: 备注 （联系人）
+                    - name: Notes (Contact)
                       href: web-service-reference/notes-contact.md
                     - name: NotesFolderPermissionLevel
                       href: web-service-reference/notesfolderpermissionlevel.md
-                    - name: 通知
+                    - name: Notification
                       href: web-service-reference/notification-ex15websvcsotherref.md
-                    - name: 通知
+                    - name: Notifications
                       href: web-service-reference/notifications.md
                     - name: NotSentToMe
                       href: web-service-reference/notsenttome.md
-                    - name: 数字
+                    - name: Number
                       href: web-service-reference/number.md
                     - name: NumberedRecurrence
                       href: web-service-reference/numberedrecurrence.md
@@ -2679,9 +2679,9 @@
                       href: web-service-reference/numberofmemberswithnodata.md
                     - name: NumberOfOccurrences
                       href: web-service-reference/numberofoccurrences.md
-                    - name: 匹配项
+                    - name: Occurrence
                       href: web-service-reference/occurrence.md
-                    - name: 出现 （所在的时区转换）
+                    - name: Occurrence (Time Zone Transition)
                       href: web-service-reference/occurrence-time-zone-transition.md
                     - name: OccurrenceDate
                       href: web-service-reference/occurrencedate.md
@@ -2707,7 +2707,7 @@
                       href: web-service-reference/oofstate.md
                     - name: OpenAsAdminOrSystemService
                       href: web-service-reference/openasadminorsystemservice.md
-                    - name: 操作
+                    - name: Operations
                       href: web-service-reference/operations.md
                     - name: OperationIndex
                       href: web-service-reference/operationindex.md
@@ -2715,11 +2715,11 @@
                       href: web-service-reference/optedinto.md
                     - name: OptionalAttendees
                       href: web-service-reference/optionalattendees.md
-                    - name: 或
+                    - name: Or
                       href: web-service-reference/or.md
                     - name: OrganizationMainPhones
                       href: web-service-reference/organizationmainphones.md
-                    - name: 组织者
+                    - name: Organizer
                       href: web-service-reference/organizer.md
                     - name: OrganizerLocation
                       href: web-service-reference/organizerlocation.md
@@ -2741,7 +2741,7 @@
                       href: web-service-reference/othertelephones.md
                     - name: OutlookRuleBlobExists
                       href: web-service-reference/outlookruleblobexists.md
-                    - name: 外出
+                    - name: OutOfOffice
                       href: web-service-reference/outofoffice.md
                     - name: OwaLink
                       href: web-service-reference/owalink.md
@@ -2757,7 +2757,7 @@
                       href: web-service-reference/pageitemreference.md
                     - name: PageItemSize
                       href: web-service-reference/pageitemsize.md
-                    - name: 寻呼机
+                    - name: Pagers
                       href: web-service-reference/pagers.md
                     - name: PageSize
                       href: web-service-reference/pagesize.md
@@ -2777,11 +2777,11 @@
                       href: web-service-reference/parentitemid.md
                     - name: PasswordExpirationDate
                       href: web-service-reference/passwordexpirationdate.md
-                    - name: 路径
+                    - name: Path
                       href: web-service-reference/path.md
                     - name: PendingMailTips
                       href: web-service-reference/pendingmailtips.md
-                    - name: 人员
+                    - name: People
                       href: web-service-reference/people.md
                     - name: PeopleUrl (FederatedDirectoryGroupType)
                       href: web-service-reference/peopleurl-federateddirectorygrouptype.md
@@ -2791,23 +2791,23 @@
                       href: web-service-reference/performreminderaction.md
                     - name: PerformReminderActionResponse
                       href: web-service-reference/performreminderactionresponse.md
-                    - name: 句点
+                    - name: Period
                       href: web-service-reference/period.md
-                    - name: 时间段
+                    - name: Periods
                       href: web-service-reference/periods.md
                     - name: PermanentDelete
                       href: web-service-reference/permanentdelete.md
-                    - name: 权限
+                    - name: Permission
                       href: web-service-reference/permission.md
                     - name: PermissionLevel
                       href: web-service-reference/permissionlevel.md
-                    - name: 权限
+                    - name: Permissions
                       href: web-service-reference/permissions.md
                     - name: PermissionSet (PermissionSetType)
                       href: web-service-reference/permissionset-permissionsettype.md
                     - name: PermissionSet (CalendarPermissionSetType)
                       href: web-service-reference/permissionset-calendarpermissionsettype.md
-                    - name: 角色
+                    - name: Persona
                       href: web-service-reference/persona.md
                     - name: PersonaId
                       href: web-service-reference/personaid.md
@@ -2815,7 +2815,7 @@
                       href: web-service-reference/personalhomepages.md
                     - name: PersonaObjectStatus
                       href: web-service-reference/personaobjectstatus.md
-                    - name: 角色
+                    - name: Personas
                       href: web-service-reference/personas-ex15websvcsotherref.md
                     - name: PersonaShape
                       href: web-service-reference/personashape.md
@@ -2823,9 +2823,9 @@
                       href: web-service-reference/personatype.md
                     - name: PersonName
                       href: web-service-reference/personname.md
-                    - name: 电话
+                    - name: Phone
                       href: web-service-reference/phone.md
-                    - name: 电话 (PhoneEntityType)
+                    - name: Phone (PhoneEntityType)
                       href: web-service-reference/phone-phoneentitytype.md
                     - name: PhoneCallId
                       href: web-service-reference/phonecallid.md
@@ -2853,7 +2853,7 @@
                       href: web-service-reference/phoneticlastname.md
                     - name: Photo
                       href: web-service-reference/photo.md
-                    - name: 照片 (MasterMailboxType)
+                    - name: Photo (MasterMailboxType)
                       href: web-service-reference/photo-mastermailboxtype.md
                     - name: PhotoUrl
                       href: web-service-reference/photourl.md
@@ -2863,13 +2863,13 @@
                       href: web-service-reference/physicaladdresses.md
                     - name: PictureData
                       href: web-service-reference/picturedata.md
-                    - name: PlayOnPhone （Exchange web 服务）
+                    - name: PlayOnPhone（Exchange Web 服务）
                       href: web-service-reference/playonphone-exchange-web-services.md
                     - name: PlayOnPhoneDialString
                       href: web-service-reference/playonphonedialstring-exchange-web-services.md
                     - name: PlayOnPhoneEnabled
                       href: web-service-reference/playonphoneenabled.md
-                    - name: PlayOnPhoneResponse （Exchange web 服务）
+                    - name: PlayOnPhoneResponse（Exchange Web 服务）
                       href: web-service-reference/playonphoneresponse-exchange-web-services.md
                     - name: PolicyNudgeRulesConfiguration
                       href: web-service-reference/policynudgerulesconfiguration.md
@@ -2881,7 +2881,7 @@
                       href: web-service-reference/portaltext-encryptionconfigurationresponsetype.md
                     - name: PortalText (SetEncryptionConfigurationType)
                       href: web-service-reference/portaltext-setencryptionconfigurationtype.md
-                    - name: 位置
+                    - name: Position
                       href: web-service-reference/position.md
                     - name: PostalAddress (PersonaPostalAddressType)
                       href: web-service-reference/postaladdress-personapostaladdresstype.md
@@ -2905,9 +2905,9 @@
                       href: web-service-reference/predictedactionreason.md
                     - name: PredictedActionReasons
                       href: web-service-reference/predictedactionreasons.md
-                    - name: 演示者
+                    - name: Presenters
                       href: web-service-reference/presenters.md
-                    - name: 预览
+                    - name: Preview
                       href: web-service-reference/preview-ex15websvcsotherref.md
                     - name: PreviewItemResponseShape
                       href: web-service-reference/previewitemresponseshape.md
@@ -2917,25 +2917,25 @@
                       href: web-service-reference/previouswatermark.md
                     - name: PrimarySmtpAddress
                       href: web-service-reference/primarysmtpaddress.md
-                    - name: PrimarySmtpAddress （字符串）
+                    - name: PrimarySmtpAddress (string)
                       href: web-service-reference/primarysmtpaddress-string.md
                     - name: PrincipalName
                       href: web-service-reference/principalname.md
                     - name: PrintAllowed
                       href: web-service-reference/printallowed.md
-                    - name: 优先级
+                    - name: Priority
                       href: web-service-reference/priority.md
                     - name: ProcessRightAway
                       href: web-service-reference/processrightaway.md
                     - name: Profession
                       href: web-service-reference/profession.md
-                    - name: 专业
+                    - name: Professions
                       href: web-service-reference/professions.md
                     - name: ProgrammaticAccessAllowed
                       href: web-service-reference/programmaticaccessallowed.md
-                    - name: 属性 (ArrayOfStringsType)
+                    - name: Properties (ArrayOfStringsType)
                       href: web-service-reference/properties-arrayofstringstype.md
-                    - name: 属性 (ArrayOfTrackingPropertiesType)
+                    - name: Properties (ArrayOfTrackingPropertiesType)
                       href: web-service-reference/properties-arrayoftrackingpropertiestype.md
                     - name: ProposedEnd
                       href: web-service-reference/proposedend.md
@@ -2965,21 +2965,21 @@
                       href: web-service-reference/purportedsender.md
                     - name: PushSubscriptionRequest
                       href: web-service-reference/pushsubscriptionrequest.md
-                    - name: 查询
+                    - name: Query
                       href: web-service-reference/query.md
-                    - name: 查询字符串 (QueryStringType)
+                    - name: QueryString (QueryStringType)
                       href: web-service-reference/querystring-querystringtype.md
-                    - name: 查询字符串 （字符串）
+                    - name: QueryString (String)
                       href: web-service-reference/querystring-string.md
                     - name: RadioPhones
                       href: web-service-reference/radiophones.md
                     - name: Range
                       href: web-service-reference/range.md
-                    - name: 范围
+                    - name: Ranges
                       href: web-service-reference/ranges.md
                     - name: RawMasterTableXml
                       href: web-service-reference/rawmastertablexml.md
-                    - name: 已阅读
+                    - name: Read
                       href: web-service-reference/read.md
                     - name: ReadFlag
                       href: web-service-reference/readflag.md
@@ -3005,9 +3005,9 @@
                       href: web-service-reference/recipientfilter.md
                     - name: RecipientIs
                       href: web-service-reference/recipientis.md
-                    - name: 收件人 (ArrayOfRecipientsType)
+                    - name: Recipients (ArrayOfRecipientsType)
                       href: web-service-reference/recipients-arrayofrecipientstype.md
-                    - name: 收件人 (ArrayOfSmtpAddressType)
+                    - name: Recipients (ArrayOfSmtpAddressType)
                       href: web-service-reference/recipients-arrayofsmtpaddresstype.md
                     - name: RecipientTrackingEvent
                       href: web-service-reference/recipienttrackingevent.md
@@ -3017,9 +3017,9 @@
                       href: web-service-reference/recognitionid.md
                     - name: RecognitionResult
                       href: web-service-reference/recognitionresult.md
-                    - name: 定期 (RecurrenceType)
+                    - name: Recurrence (RecurrenceType)
                       href: web-service-reference/recurrence-recurrencetype.md
-                    - name: 定期 (TaskRecurrenceType)
+                    - name: Recurrence (TaskRecurrenceType)
                       href: web-service-reference/recurrence-taskrecurrencetype.md
                     - name: RecurrenceId
                       href: web-service-reference/recurrenceid.md
@@ -3035,17 +3035,17 @@
                       href: web-service-reference/recurringmasteritemidranges.md
                     - name: ReferenceAttachment
                       href: web-service-reference/referenceattachment.md
-                    - name: ReferenceAttachmentType 复杂类型
+                    - name: ReferenceAttachmentType complexType
                       href: web-service-reference/referenceattachmenttype-complextype-ews.md
                     - name: RedirectToRecipients
                       href: web-service-reference/redirecttorecipients.md
-                    - name: 相同引用
+                    - name: ReferenceId
                       href: web-service-reference/referenceid.md
                     - name: ReferenceItemId
                       href: web-service-reference/referenceitemid.md
-                    - name: 引用
+                    - name: References
                       href: web-service-reference/references.md
-                    - name: 优化器
+                    - name: Refiner
                       href: web-service-reference/refiner.md
                     - name: Refiners
                       href: web-service-reference/refiners.md
@@ -3063,7 +3063,7 @@
                       href: web-service-reference/relativeyearlyrecurrence.md
                     - name: RelevanceScore
                       href: web-service-reference/relevancescore.md
-                    - name: 提醒
+                    - name: Reminder
                       href: web-service-reference/reminder.md
                     - name: ReminderDueBy
                       href: web-service-reference/reminderdueby.md
@@ -3081,7 +3081,7 @@
                       href: web-service-reference/reminderminutesbeforestart.md
                     - name: ReminderNextTime
                       href: web-service-reference/remindernexttime.md
-                    - name: 提醒
+                    - name: Reminders
                       href: web-service-reference/reminders.md
                     - name: ReminderText
                       href: web-service-reference/remindertext.md
@@ -3121,7 +3121,7 @@
                       href: web-service-reference/replyalltoitem.md
                     - name: ReplyBody
                       href: web-service-reference/replybody.md
-                    - name: 回复
+                    - name: ReplyTo
                       href: web-service-reference/replyto.md
                     - name: ReplyToItem
                       href: web-service-reference/replytoitem.md
@@ -3139,7 +3139,7 @@
                       href: web-service-reference/requesttype.md
                     - name: RequiredAttendees
                       href: web-service-reference/requiredattendees.md
-                    - name: 解决方案
+                    - name: Resolution
                       href: web-service-reference/resolution.md
                     - name: ResolutionSet
                       href: web-service-reference/resolutionset.md
@@ -3149,7 +3149,7 @@
                       href: web-service-reference/resolvenamesresponse.md
                     - name: ResolveNamesResponseMessage
                       href: web-service-reference/resolvenamesresponsemessage.md
-                    - name: 资源
+                    - name: Resources
                       href: web-service-reference/resources.md
                     - name: ResponseCode
                       href: web-service-reference/responsecode.md
@@ -3173,7 +3173,7 @@
                       href: web-service-reference/restrictedgroupidentifier.md
                     - name: RestrictedGroupSids
                       href: web-service-reference/restrictedgroupsids.md
-                    - name: 限制
+                    - name: Restriction
                       href: web-service-reference/restriction.md
                     - name: ResultType
                       href: web-service-reference/resulttype.md
@@ -3203,15 +3203,15 @@
                       href: web-service-reference/rightsmanagementlicensedata.md
                     - name: RMSTemplateId
                       href: web-service-reference/rmstemplateid.md
-                    - name: 角色
+                    - name: Role
                       href: web-service-reference/role.md
-                    - name: 聊天室
+                    - name: Room
                       href: web-service-reference/room.md
                     - name: RoomList
                       href: web-service-reference/roomlist.md
                     - name: RoomLists
                       href: web-service-reference/roomlists.md
-                    - name: 聊天室
+                    - name: Rooms
                       href: web-service-reference/rooms.md
                     - name: RootAddress
                       href: web-service-reference/rootaddress.md
@@ -3223,31 +3223,31 @@
                       href: web-service-reference/rootitemid.md
                     - name: RoutingType (EmailAddressType)
                       href: web-service-reference/routingtype-emailaddresstype.md
-                    - name: RoutingType （电子邮件地址）
+                    - name: RoutingType (EmailAddress)
                       href: web-service-reference/routingtype-emailaddress.md
                     - name: Rule
                       href: web-service-reference/rule.md
-                    - name: 规则 (RuleType)
+                    - name: Rule (RuleType)
                       href: web-service-reference/rule-ruletype.md
-                    - name: 规则 Id
+                    - name: RuleId
                       href: web-service-reference/ruleid.md
                     - name: RuleOperationError
                       href: web-service-reference/ruleoperationerror.md
                     - name: RuleOperationErrors
                       href: web-service-reference/ruleoperationerrors.md
-                    - name: '规则 '
+                    - name: 'Rules '
                       href: web-service-reference/rules-ex15websvcsotherref.md
                     - name: SavedItemFolderId
                       href: web-service-reference/saveditemfolderid.md
                     - name: SchemaVersionSupported
                       href: web-service-reference/schemaversionsupported.md
-                    - name: 学校
+                    - name: Schools
                       href: web-service-reference/schools.md
-                    - name: 范围 (ClientAccessTokenRequestType)
+                    - name: Scope (ClientAccessTokenRequestType)
                       href: web-service-reference/scope-clientaccesstokenrequesttype.md
-                    - name: 范围 (HighlightTermType)
+                    - name: Scope (HighlightTermType)
                       href: web-service-reference/scope-highlighttermtype.md
-                    - name: 范围 (NonEmptyStringType)
+                    - name: Scope (NonEmptyStringType)
                       href: web-service-reference/scope-nonemptystringtype.md
                     - name: SearchableMailbox
                       href: web-service-reference/searchablemailbox.md
@@ -3289,15 +3289,15 @@
                       href: web-service-reference/securityidentifier.md
                     - name: SeekToConditionPageItemView
                       href: web-service-reference/seektoconditionpageitemview.md
-                    - name: 发件人
+                    - name: Sender
                       href: web-service-reference/sender.md
-                    - name: 发件人 (EmailAddressType)
+                    - name: Sender (EmailAddressType)
                       href: web-service-reference/sender-emailaddresstype.md
-                    - name: 发件人 （字符串）
+                    - name: Sender (string)
                       href: web-service-reference/sender-string.md
                     - name: SenderDepartments
                       href: web-service-reference/senderdepartments.md
-                    - name: 发件人
+                    - name: Senders
                       href: web-service-reference/senders.md
                     - name: SenderSmtpAddress
                       href: web-service-reference/sendersmtpaddress.md
@@ -3335,7 +3335,7 @@
                       href: web-service-reference/senttoorccme.md
                     - name: SerializedSecurityContext
                       href: web-service-reference/serializedsecuritycontext.md
-                    - name: 服务器 (MessageTracking)
+                    - name: Server (MessageTracking)
                       href: web-service-reference/server-messagetracking.md
                     - name: ServerHint
                       href: web-service-reference/serverhint.md
@@ -3407,9 +3407,9 @@
                       href: web-service-reference/sipresponsecode.md
                     - name: SIPResponseText
                       href: web-service-reference/sipresponsetext.md
-                    - name: 大小
+                    - name: Size
                       href: web-service-reference/size.md
-                    - name: 大小 (long)
+                    - name: Size (long)
                       href: web-service-reference/size-long.md
                     - name: SizeRequested
                       href: web-service-reference/sizerequested.md
@@ -3433,23 +3433,23 @@
                       href: web-service-reference/sourceids.md
                     - name: SpecificUsers
                       href: web-service-reference/specificusers.md
-                    - name: 配偶姓名
+                    - name: SpouseName
                       href: web-service-reference/spousename.md
                     - name: SpouseNames
                       href: web-service-reference/spousenames.md
-                    - name: 标准
+                    - name: Standard
                       href: web-service-reference/standard.md
                     - name: StandardGroupBy
                       href: web-service-reference/standardgroupby.md
                     - name: StandardTime
                       href: web-service-reference/standardtime.md
-                    - name: 入门
+                    - name: Start
                       href: web-service-reference/start.md
                     - name: StartDate
                       href: web-service-reference/startdate.md
-                    - name: StartDate （重复）
+                    - name: StartDate (Recurrence)
                       href: web-service-reference/startdate-recurrence.md
-                    - name: 开始日期时间
+                    - name: StartDateTime
                       href: web-service-reference/startdatetime.md
                     - name: StartFindInGALSpeechRecognition
                       href: web-service-reference/startfindingalspeechrecognition.md
@@ -3467,17 +3467,17 @@
                       href: web-service-reference/starttimezoneid.md
                     - name: StartWallClock
                       href: web-service-reference/startwallclock.md
-                    - name: 状态
+                    - name: State
                       href: web-service-reference/state-ex15websvcsotherref.md
-                    - name: 状态 (TeamMailboxLifecycleStateType)
+                    - name: State (TeamMailboxLifecycleStateType)
                       href: web-service-reference/state-teammailboxlifecyclestatetype.md
                     - name: StateDefinition
                       href: web-service-reference/statedefinition.md
-                    - name: 状态
+                    - name: Status
                       href: web-service-reference/status.md
-                    - name: 状态 (HoldStatusType)
+                    - name: Status (HoldStatusType)
                       href: web-service-reference/status-holdstatustype.md
-                    - name: 状态 (MemberStatusType)
+                    - name: Status (MemberStatusType)
                       href: web-service-reference/status-memberstatustype.md
                     - name: StatusDescription
                       href: web-service-reference/statusdescription.md
@@ -3501,15 +3501,15 @@
                       href: web-service-reference/stringarrayattributedvalue.md
                     - name: StringAttributedValue
                       href: web-service-reference/stringattributedvalue.md
-                    - name: 主题 (CalendarEventDetails)
+                    - name: Subject (CalendarEventDetails)
                       href: web-service-reference/subject-calendareventdetails.md
-                    - name: 主题
+                    - name: Subject
                       href: web-service-reference/subject.md
                     - name: SubmittedTime
                       href: web-service-reference/submittedtime.md
                     - name: SubmitTime
                       href: web-service-reference/submittime.md
-                    - name: 订阅
+                    - name: Subscribe
                       href: web-service-reference/subscribe.md
                     - name: SubscribeResponse
                       href: web-service-reference/subscriberesponse.md
@@ -3523,7 +3523,7 @@
                       href: web-service-reference/subscriptionstatus.md
                     - name: Suffix
                       href: web-service-reference/suffix.md
-                    - name: 建议
+                    - name: Suggestion
                       href: web-service-reference/suggestion.md
                     - name: SuggestionArray
                       href: web-service-reference/suggestionarray.md
@@ -3541,9 +3541,9 @@
                       href: web-service-reference/suppressreadreceipt.md
                     - name: SuppressReadReceipts
                       href: web-service-reference/suppressreadreceipts.md
-                    - name: 姓
+                    - name: Surname
                       href: web-service-reference/surname.md
-                    - name: 姓
+                    - name: Surnames
                       href: web-service-reference/surnames.md
                     - name: SyncFolderHierarchy
                       href: web-service-reference/syncfolderhierarchy.md
@@ -3565,7 +3565,7 @@
                       href: web-service-reference/syncstate-ex15websvcsotherref.md
                     - name: SyncState (base64Binary)
                       href: web-service-reference/syncstate-base64binary.md
-                    - name: 任务
+                    - name: Task
                       href: web-service-reference/task.md
                     - name: TasksFolder
                       href: web-service-reference/tasksfolder.md
@@ -3589,37 +3589,37 @@
                       href: web-service-reference/templatename.md
                     - name: TentativelyAcceptItem
                       href: web-service-reference/tentativelyacceptitem.md
-                    - name: 术语
+                    - name: Term
                       href: web-service-reference/term.md
                     - name: TextBody
                       href: web-service-reference/textbody.md
-                    - name: 时间
+                    - name: Time
                       href: web-service-reference/time.md
-                    - name: 时间 (TimeChangeType)
+                    - name: Time (TimeChangeType)
                       href: web-service-reference/time-timechangetype.md
                     - name: TimeOffset
                       href: web-service-reference/timeoffset.md
                     - name: Timeout
                       href: web-service-reference/timeout.md
-                    - name: 超时 （持续时间）
+                    - name: Timeout (duration)
                       href: web-service-reference/timeout-duration.md
-                    - name: 时间戳
+                    - name: TimeStamp
                       href: web-service-reference/timestamp.md
                     - name: TimeWindow
                       href: web-service-reference/timewindow.md
-                    - name: TimeZone （可用性）
+                    - name: TimeZone (Availability)
                       href: web-service-reference/timezone-availability.md
-                    - name: TimeZone （项）
+                    - name: TimeZone (Item)
                       href: web-service-reference/timezone-item.md
                     - name: TimeZoneContext
                       href: web-service-reference/timezonecontext.md
-                    - name: 时区定义
+                    - name: TimeZoneDefinition
                       href: web-service-reference/timezonedefinition.md
                     - name: TimeZoneDefinitions
                       href: web-service-reference/timezonedefinitions.md
-                    - name: 标题
+                    - name: Title
                       href: web-service-reference/title.md
-                    - name: 标题
+                    - name: Titles
                       href: web-service-reference/titles.md
                     - name: To
                       href: web-service-reference/to.md
@@ -3629,9 +3629,9 @@
                       href: web-service-reference/tofolderid.md
                     - name: Token
                       href: web-service-reference/token.md
-                    - name: 令牌 (ClientAccessTokenType)
+                    - name: Token (ClientAccessTokenType)
                       href: web-service-reference/token-clientaccesstokentype.md
-                    - name: 令牌 （字符串）
+                    - name: Token (String)
                       href: web-service-reference/token-string.md
                     - name: TokenRequest
                       href: web-service-reference/tokenrequest.md
@@ -3661,9 +3661,9 @@
                       href: web-service-reference/totalwork.md
                     - name: TrackingPropertyType
                       href: web-service-reference/trackingpropertytype.md
-                    - name: 转换
+                    - name: Transition
                       href: web-service-reference/transition.md
-                    - name: 切换
+                    - name: Transitions
                       href: web-service-reference/transitions.md
                     - name: TransitionsGroup
                       href: web-service-reference/transitionsgroup.md
@@ -3677,11 +3677,11 @@
                       href: web-service-reference/ttl-clientaccesstokentypetype.md
                     - name: TTYTDDPhoneNumbers
                       href: web-service-reference/ttytddphonenumbers.md
-                    - name: 类型 (ElcFolderType)
+                    - name: Type (ElcFolderType)
                       href: web-service-reference/type-elcfoldertype.md
-                    - name: 类型 （字符串）
+                    - name: Type (string)
                       href: web-service-reference/type-string.md
-                    - name: 类型 (UserConfiguration)
+                    - name: Type (UserConfiguration)
                       href: web-service-reference/type-userconfiguration.md
                     - name: UID
                       href: web-service-reference/uid.md
@@ -3723,15 +3723,15 @@
                       href: web-service-reference/unreadcount.md
                     - name: UnresolvedEntry
                       href: web-service-reference/unresolvedentry.md
-                    - name: 取消订阅
+                    - name: Unsubscribe
                       href: web-service-reference/unsubscribe.md
                     - name: UnsubscribeResponse
                       href: web-service-reference/unsubscriberesponse.md
                     - name: UnsubscribeResponseMessage
                       href: web-service-reference/unsubscriberesponsemessage.md
-                    - name: 更新 (FolderSync)
+                    - name: Update (FolderSync)
                       href: web-service-reference/update-foldersync.md
-                    - name: 更新 (ItemSync)
+                    - name: Update (ItemSync)
                       href: web-service-reference/update-itemsync.md
                     - name: UpdateDelegate
                       href: web-service-reference/updatedelegate.md
@@ -3767,9 +3767,9 @@
                       href: web-service-reference/updatemailboxassociationresponse.md
                     - name: UpdateMailboxAssociationResponseMessage
                       href: web-service-reference/updatemailboxassociationresponsemessage.md
-                    - name: Updates 文件夹
+                    - name: Updates (Folder)
                       href: web-service-reference/updates-folder.md
-                    - name: 更新 （项）
+                    - name: Updates (Item)
                       href: web-service-reference/updates-item.md
                     - name: UpdateUserConfiguration
                       href: web-service-reference/updateuserconfiguration.md
@@ -3789,9 +3789,9 @@
                       href: web-service-reference/urlentity.md
                     - name: Urls
                       href: web-service-reference/urls.md
-                    - name: Url (ArrayOfUrlEntitiesType)
+                    - name: Urls (ArrayOfUrlEntitiesType)
                       href: web-service-reference/urls-arrayofurlentitiestype.md
-                    - name: 用户 (MailboxAssociationType)
+                    - name: User (MailboxAssociationType)
                       href: web-service-reference/user-mailboxassociationtype.md
                     - name: UserConfiguration
                       href: web-service-reference/userconfiguration.md
@@ -3805,7 +3805,7 @@
                       href: web-service-reference/userenabledextensions.md
                     - name: UserId
                       href: web-service-reference/userid.md
-                    - name: UserId （字符串）
+                    - name: UserId (string)
                       href: web-service-reference/userid-string.md
                     - name: UserIds
                       href: web-service-reference/userids.md
@@ -3825,31 +3825,31 @@
                       href: web-service-reference/usersmimecertificate.md
                     - name: ValidationErrors
                       href: web-service-reference/validationerrors.md
-                    - name: 值
+                    - name: Value
                       href: web-service-reference/value.md
-                    - name: 值 (ArrayOfStringValueType)
+                    - name: Value (ArrayOfStringValueType)
                       href: web-service-reference/value-arrayofstringvaluetype.md
-                    - name: 值 (BodyContentType)
+                    - name: Value (BodyContentType)
                       href: web-service-reference/value-bodycontenttype.md
-                    - name: 值 (EmailAddressType)
+                    - name: Value (EmailAddressType)
                       href: web-service-reference/value-emailaddresstype.md
-                    - name: 值 (ExtendedAttributeType)
+                    - name: Value (ExtendedAttributeType)
                       href: web-service-reference/value-extendedattributetype.md
-                    - name: 值 (ExtendedPropertyType)
+                    - name: Value (ExtendedPropertyType)
                       href: web-service-reference/value-extendedpropertytype.md
-                    - name: 值 （邮件跟踪）
+                    - name: Value (Message Tracking)
                       href: web-service-reference/value-message-tracking.md
-                    - name: 值 (PersonaPhoneNumberType)
+                    - name: Value (PersonaPhoneNumberType)
                       href: web-service-reference/value-personaphonenumbertype.md
-                    - name: 值 (PersonaPostalAddressType)
+                    - name: Value (PersonaPostalAddressType)
                       href: web-service-reference/value-personapostaladdresstype.md
-                    - name: 值 (ProtectionRuleValueType)
+                    - name: Value (ProtectionRuleValueType)
                       href: web-service-reference/value-protectionrulevaluetype.md
-                    - name: 值 (UserConfiguration)
+                    - name: Value (UserConfiguration)
                       href: web-service-reference/value-userconfiguration.md
-                    - name: 值
+                    - name: Values
                       href: web-service-reference/values.md
-                    - name: 值 (ArrayOfStringValueType)
+                    - name: Values (ArrayOfStringValueType)
                       href: web-service-reference/values-arrayofstringvaluetype.md
                     - name: ViewPrivateItems
                       href: web-service-reference/viewprivateitems.md
@@ -3859,7 +3859,7 @@
                       href: web-service-reference/votingoptiondata.md
                     - name: VotingResponse
                       href: web-service-reference/votingresponse.md
-                    - name: 水印
+                    - name: Watermark
                       href: web-service-reference/watermark.md
                     - name: WebClientEditFormQueryString
                       href: web-service-reference/webclienteditformquerystring.md
@@ -3873,7 +3873,7 @@
                       href: web-service-reference/weeklyrecurrence.md
                     - name: WeeklyRegeneration
                       href: web-service-reference/weeklyregeneration.md
-                    - name: 在执行
+                    - name: When
                       href: web-service-reference/when.md
                     - name: WithinDateRange
                       href: web-service-reference/withindaterange.md
@@ -3895,7 +3895,7 @@
                       href: web-service-reference/wouldrepair.md
                     - name: XmlData
                       href: web-service-reference/xmldata.md
-                    - name: 年
+                    - name: Year
                       href: web-service-reference/year.md
                     - name: YearlyRegeneration
                       href: web-service-reference/yearlyregeneration.md
@@ -3911,12 +3911,12 @@
                       href: web-service-reference/yomilastname.md
                     - name: YomiLastNames
                       href: web-service-reference/yomilastnames.md
-            - name: EWS 托管 API 参考 （英文）
+            - name: EWS 托管 API 参考
               href: 'https://msdn.microsoft.com/EN-US/library/jj220535(v=exchg.80).aspx'
-            - name: 自动发现 web 服务引用
+            - name: 自动发现 Web 服务参考
               href: web-service-reference/autodiscover-web-service-reference-for-exchange.md
               items:
-                - name: SOAP 自动发现 web 服务引用
+                - name: SOAP 自动发现 Web 服务参考
                   href: web-service-reference/soap-autodiscover-web-service-reference-for-exchange.md
                   items:
                     - name: GetDomainSettings 操作 (SOAP)
@@ -3964,15 +3964,15 @@
                           href: web-service-reference/documentsharinglocationcollectionsetting-soap.md
                         - name: DomainNames (SOAP)
                           href: web-service-reference/domainnames-soap.md
-                        - name: 域 (SOAP)
+                        - name: Domain (SOAP)
                           href: web-service-reference/domain-soap.md
-                        - name: 域 (GetFederationInformation) (SOAP)
+                        - name: Domain (GetFederationInformation) (SOAP)
                           href: web-service-reference/domain-getfederationinformationsoap.md
                         - name: DomainResponse (SOAP)
                           href: web-service-reference/domainresponse-soap.md
                         - name: DomainResponses (SOAP)
                           href: web-service-reference/domainresponses-soap.md
-                        - name: 域 (SOAP)
+                        - name: Domains (SOAP)
                           href: web-service-reference/domains-soap.md
                         - name: DomainSettingError (SOAP)
                           href: web-service-reference/domainsettingerror-soap.md
@@ -3986,7 +3986,7 @@
                           href: web-service-reference/domainstringsetting-soap.md
                         - name: EncryptionMethod (SOAP)
                           href: web-service-reference/encryptionmethod-soap.md
-                        - name: 终结点 (SOAP)
+                        - name: Endpoint (SOAP)
                           href: web-service-reference/endpoint-soap.md
                         - name: ErrorCode (SOAP)
                           href: web-service-reference/errorcode-soap.md
@@ -3994,7 +3994,7 @@
                           href: web-service-reference/errormessage-soap.md
                         - name: ExternalAccessAllowed (SOAP)
                           href: web-service-reference/externalaccessallowed-soap.md
-                        - name: 文件扩展名 (SOAP)
+                        - name: FileExtension (SOAP)
                           href: web-service-reference/fileextension-soap.md
                         - name: FreeBusyAccessEnabled (SOAP)
                           href: web-service-reference/freebusyaccessenabled-soap.md
@@ -4032,7 +4032,7 @@
                           href: web-service-reference/getusersettingsresponse-soap.md
                         - name: GetUserSettingsResponseMessage (SOAP)
                           href: web-service-reference/getusersettingsresponsemessage-soap.md
-                        - name: 主机名 (SOAP)
+                        - name: Hostname (SOAP)
                           href: web-service-reference/hostname-soap.md
                         - name: IsDefault (SOAP)
                           href: web-service-reference/isdefault-soap.md
@@ -4040,7 +4040,7 @@
                           href: web-service-reference/legacydn-soap.md
                         - name: LocationUrl (SOAP)
                           href: web-service-reference/locationurl-soap.md
-                        - name: 邮箱 (SOAP)
+                        - name: Mailbox (SOAP)
                           href: web-service-reference/mailbox-soap.md
                         - name: MailTipsAccessEnabled (SOAP)
                           href: web-service-reference/mailtipsaccessenabled-soap.md
@@ -4056,13 +4056,13 @@
                           href: web-service-reference/minorbuildnumber-soap.md
                         - name: MinorVersion (SOAP)
                           href: web-service-reference/minorversion-soap.md
-                        - name: 名称 (SOAP)
+                        - name: Name (SOAP)
                           href: web-service-reference/name-soap.md
                         - name: OrganizationRelationshipSettingsCollection (SOAP)
                           href: web-service-reference/organizationrelationshipsettingscollection-soap.md
                         - name: OrganizationRelationshipSettings (SOAP)
                           href: web-service-reference/organizationrelationshipsettings-soap.md
-                        - name: 端口 (SOAP)
+                        - name: Port (SOAP)
                           href: web-service-reference/port-soap.md
                         - name: ProtocolConnection (SOAP)
                           href: web-service-reference/protocolconnection-soap.md
@@ -4072,13 +4072,13 @@
                           href: web-service-reference/protocolconnections-soap.md
                         - name: RedirectTarget (SOAP)
                           href: web-service-reference/redirecttarget-soap.md
-                        - name: 请求 (SOAP)
+                        - name: Request (SOAP)
                           href: web-service-reference/request-soap.md
-                        - name: 请求 (GetDomainSettings) (SOAP)
+                        - name: Request (GetDomainSettings) (SOAP)
                           href: web-service-reference/request-getdomainsettingssoap.md
-                        - name: 请求 (GetFederationInformation) (SOAP)
+                        - name: Request (GetFederationInformation) (SOAP)
                           href: web-service-reference/request-getfederationinformationsoap.md
-                        - name: 请求 (GetOrganizationRelationship) (SOAP)
+                        - name: Request (GetOrganizationRelationship) (SOAP)
                           href: web-service-reference/request-getorganizationrelationshipsoap.md
                         - name: RequestedVersion (SOAP)
                           href: web-service-reference/requestedversion-soap.md
@@ -4086,21 +4086,21 @@
                           href: web-service-reference/requestedserverversion-soap.md
                         - name: RequestedSettings (SOAP)
                           href: web-service-reference/requestedsettings-soap.md
-                        - name: 响应 (SOAP)
+                        - name: Response (SOAP)
                           href: web-service-reference/response-soap.md
-                        - name: 响应 (GetDomainSettings) (SOAP)
+                        - name: Response (GetDomainSettings) (SOAP)
                           href: web-service-reference/response-getdomainsettingssoap.md
-                        - name: 响应 (GetFederationInformation) (SOAP)
+                        - name: Response (GetFederationInformation) (SOAP)
                           href: web-service-reference/response-getfederationinformationsoap.md
-                        - name: 响应 (GetOrganizationRelationship) (SOAP)
+                        - name: Response (GetOrganizationRelationship) (SOAP)
                           href: web-service-reference/response-getorganizationrelationshipsoap.md
-                        - name: 服务器 (SOAP)
+                        - name: Server (SOAP)
                           href: web-service-reference/server-soap.md
                         - name: ServerVersionInfo (SOAP)
                           href: web-service-reference/serverversioninfo-soap.md
                         - name: ServiceUrl (SOAP)
                           href: web-service-reference/serviceurl-soap.md
-                        - name: 设置 (SOAP)
+                        - name: Setting (SOAP)
                           href: web-service-reference/setting-soap.md
                         - name: SettingName (SOAP)
                           href: web-service-reference/settingname-soap.md
@@ -4120,19 +4120,19 @@
                           href: web-service-reference/tokenissuer-soap.md
                         - name: TokenIssuers (SOAP)
                           href: web-service-reference/tokenissuers-soap.md
-                        - name: 类型 (SOAP)
+                        - name: Type (SOAP)
                           href: web-service-reference/type-soap.md
                         - name: Uri (SOAP)
                           href: web-service-reference/uri-soap.md
                         - name: Url (SOAP)
                           href: web-service-reference/url-soap.md
-                        - name: 用户 (SOAP)
+                        - name: User (SOAP)
                           href: web-service-reference/user-soap.md
-                        - name: 用户回音 (SOAP)
+                        - name: UserResponse (SOAP)
                           href: web-service-reference/userresponse-soap.md
                         - name: UserResponses (SOAP)
                           href: web-service-reference/userresponses-soap.md
-                        - name: 用户 (SOAP)
+                        - name: Users (SOAP)
                           href: web-service-reference/users-soap.md
                         - name: UserSetting (SOAP)
                           href: web-service-reference/usersetting-soap.md
@@ -4140,11 +4140,11 @@
                           href: web-service-reference/usersettingerror-soap.md
                         - name: UserSettingErrors (SOAP)
                           href: web-service-reference/usersettingerrors-soap.md
-                        - name: 用户设置 (SOAP)
+                        - name: UserSettings (SOAP)
                           href: web-service-reference/usersettings-soap.md
-                        - name: 值 (SOAP)
+                        - name: Value (SOAP)
                           href: web-service-reference/value-soap.md
-                        - name: 版本 (SOAP)
+                        - name: Version (SOAP)
                           href: web-service-reference/version-soap.md
                         - name: WebClientUrl (SOAP)
                           href: web-service-reference/webclienturl-soap.md
@@ -4152,7 +4152,7 @@
                           href: web-service-reference/webclienturlcollectionsetting-soap.md
                         - name: WebClientUrls (SOAP)
                           href: web-service-reference/webclienturls-soap.md
-                - name: POX 自动发现 web 服务引用
+                - name: POX 自动发现 Web 服务参考
                   href: web-service-reference/pox-autodiscover-web-service-reference-for-exchange.md
                   items:
                     - name: POX 自动发现请求
@@ -4164,13 +4164,13 @@
                       items:
                         - name: AcceptableResponseSchema (POX)
                           href: web-service-reference/acceptableresponseschema-pox.md
-                        - name: 帐户 (POX)
+                        - name: Account (POX)
                           href: web-service-reference/account-pox.md
                         - name: AccountType (POX)
                           href: web-service-reference/accounttype-pox.md
-                        - name: 操作 (POX)
+                        - name: Action (POX)
                           href: web-service-reference/action-pox.md
-                        - name: 通讯簿 (POX)
+                        - name: AddressBook (POX)
                           href: web-service-reference/addressbook-pox.md
                         - name: ASUrl (POX)
                           href: web-service-reference/asurl-pox.md
@@ -4178,7 +4178,7 @@
                           href: web-service-reference/authpackage-pox.md
                         - name: AuthRequired (POX)
                           href: web-service-reference/authrequired-pox.md
-                        - name: 自动发现 (POX)
+                        - name: AutoDiscover (POX)
                           href: web-service-reference/autodiscover-pox.md
                         - name: AutoDiscoverSMTPAddress (POX)
                           href: web-service-reference/autodiscoversmtpaddress-pox.md
@@ -4198,27 +4198,27 @@
                           href: web-service-reference/domainrequired-pox.md
                         - name: EcpUrl (POX)
                           href: web-service-reference/ecpurl-pox.md
-                        - name: EcpUrl aggr (POX)
+                        - name: EcpUrl-aggr (POX)
                           href: web-service-reference/ecpurl-aggr-pox.md
-                        - name: EcpUrl extinstall (POX)
+                        - name: EcpUrl-extinstall (POX)
                           href: web-service-reference/ecpurl-extinstall-pox.md
-                        - name: EcpUrl 黑 (POX)
+                        - name: EcpUrl-mt (POX)
                           href: web-service-reference/ecpurl-mt-pox.md
-                        - name: EcpUrl 照片 (POX)
+                        - name: EcpUrl-photo (POX)
                           href: web-service-reference/ecpurl-photo-pox.md
-                        - name: EcpUrl 发布 (POX)
+                        - name: EcpUrl-publish (POX)
                           href: web-service-reference/ecpurl-publish-pox.md
-                        - name: EcpUrl 寄信人 (POX)
+                        - name: EcpUrl-ret (POX)
                           href: web-service-reference/ecpurl-ret-pox.md
-                        - name: EcpUrl sms (POX)
+                        - name: EcpUrl-sms (POX)
                           href: web-service-reference/ecpurl-sms-pox.md
-                        - name: EcpUrl tm (POX)
+                        - name: EcpUrl-tm (POX)
                           href: web-service-reference/ecpurl-tm-pox.md
-                        - name: EcpUrl tmCreating (POX)
+                        - name: EcpUrl-tmCreating (POX)
                           href: web-service-reference/ecpurl-tmcreating-pox.md
-                        - name: EcpUrl tmEditing (POX)
+                        - name: EcpUrl-tmEditing (POX)
                           href: web-service-reference/ecpurl-tmediting-pox.md
-                        - name: EcpUrl tmHiding (POX)
+                        - name: EcpUrl-tmHiding (POX)
                           href: web-service-reference/ecpurl-tmhiding-pox.md
                         - name: EcpUrl-um (POX)
                           href: web-service-reference/ecpurl-um-pox.md
@@ -4226,7 +4226,7 @@
                           href: web-service-reference/emailaddress-pox.md
                         - name: EmwsUrl (POX)
                           href: web-service-reference/emwsurl-pox.md
-                        - name: 错误 (POX)
+                        - name: Error (POX)
                           href: web-service-reference/error-pox.md
                         - name: ErrorCode (POX)
                           href: web-service-reference/errorcode-pox.md
@@ -4234,15 +4234,15 @@
                           href: web-service-reference/ewspartnerurl-pox.md
                         - name: EwsUrl (POX)
                           href: web-service-reference/ewsurl-pox.md
-                        - name: 外部 (POX)
+                        - name: External (POX)
                           href: web-service-reference/external-pox.md
                         - name: ExternalUrl (POX)
                           href: web-service-reference/externalurl-pox.md
                         - name: GroupingInformation (POX)
                           href: web-service-reference/groupinginformation-pox.md
-                        - name: 图像 (POX)
+                        - name: Image (POX)
                           href: web-service-reference/image-pox.md
-                        - name: 内部 (POX)
+                        - name: Internal (POX)
                           href: web-service-reference/internal-pox.md
                         - name: InternalUrl (POX)
                           href: web-service-reference/internalurl-pox.md
@@ -4256,13 +4256,13 @@
                           href: web-service-reference/ipv4start-pox.md
                         - name: LegacyDN (POX)
                           href: web-service-reference/legacydn-pox.md
-                        - name: 使用 LoginName (POX)
+                        - name: LoginName (POX)
                           href: web-service-reference/loginname-pox.md
                         - name: MailStore (POX)
                           href: web-service-reference/mailstore-pox.md
                         - name: MdbDN (POX)
                           href: web-service-reference/mdbdn-pox.md
-                        - name: 消息 (POX)
+                        - name: Message (POX)
                           href: web-service-reference/message-pox.md
                         - name: MicrosoftOnline (POX)
                           href: web-service-reference/microsoftonline-pox.md
@@ -4274,9 +4274,9 @@
                           href: web-service-reference/oofurl-pox.md
                         - name: OWAUrl (POX)
                           href: web-service-reference/owaurl-pox.md
-                        - name: 端口 (POX)
+                        - name: Port (POX)
                           href: web-service-reference/port-pox.md
-                        - name: 协议 (POX)
+                        - name: Protocol (POX)
                           href: web-service-reference/protocol-pox.md
                         - name: PublicFolderInformation (POX)
                           href: web-service-reference/publicfolderinformation-pox.md
@@ -4288,11 +4288,11 @@
                           href: web-service-reference/redirecturl-pox.md
                         - name: ReferralPort (POX)
                           href: web-service-reference/referralport-pox.md
-                        - name: 请求 (POX)
+                        - name: Request (POX)
                           href: web-service-reference/request-pox.md
-                        - name: 响应 (POX)
+                        - name: Response (POX)
                           href: web-service-reference/response-pox.md
-                        - name: 服务器 (POX)
+                        - name: Server (POX)
                           href: web-service-reference/server-pox.md
                         - name: ServerDN (POX)
                           href: web-service-reference/serverdn-pox.md
@@ -4312,130 +4312,130 @@
                           href: web-service-reference/ssl-pox.md
                         - name: TTL (POX)
                           href: web-service-reference/ttl-pox.md
-                        - name: 类型 (POX)
+                        - name: Type (POX)
                           href: web-service-reference/type-pox.md
                         - name: UMUrl (POX)
                           href: web-service-reference/umurl-pox.md
                         - name: UsePOPAuth (POX)
                           href: web-service-reference/usepopauth-pox.md
-                        - name: 用户 (POX)
+                        - name: User (POX)
                           href: web-service-reference/user-pox.md
-            - name: 统一的消息 web 服务引用
+            - name: 统一消息 Web 服务参考
               href: web-service-reference/unified-messaging-web-service-reference-for-exchange.md
               items:
-                - name: 统一的消息 web 服务操作
+                - name: 统一消息 Web 服务操作
                   href: web-service-reference/unified-messaging-web-service-operations-for-exchange.md
                   items:
-                    - name: 断开连接操作 （UM web 服务）
+                    - name: Disconnect 操作（UM Web 服务）
                       href: web-service-reference/disconnect-operation-um-web-service.md
-                    - name: GetCallInfo 操作 （UM web 服务）
+                    - name: GetCallInfo 操作（UM Web 服务）
                       href: web-service-reference/getcallinfo-operation-um-web-service.md
-                    - name: GetUMProperties 操作 （UM web 服务）
+                    - name: GetUMProperties 操作（UM Web 服务）
                       href: web-service-reference/getumproperties-operation-um-web-service.md
-                    - name: IsUMEnabled 操作 （UM web 服务）
+                    - name: IsUMEnabled 操作（UM Web 服务）
                       href: web-service-reference/isumenabled-operation-um-web-service.md
-                    - name: PlayOnPhone 操作 （UM web 服务）
+                    - name: PlayOnPhone 操作（UM Web 服务）
                       href: web-service-reference/playonphone-operation-um-web-service.md
-                    - name: PlayOnPhoneGreeting 操作 （UM web 服务）
+                    - name: PlayOnPhoneGreeting 操作（UM Web 服务）
                       href: web-service-reference/playonphonegreeting-operation-um-web-service.md
-                    - name: ResetPIN 操作 （UM web 服务）
+                    - name: ResetPIN 操作（UM Web 服务）
                       href: web-service-reference/resetpin-operation-um-web-service.md
-                    - name: SetMissedCallNotificationEnabled 操作 （UM web 服务）
+                    - name: SetMissedCallNotificationEnabled 操作（UM Web 服务）
                       href: web-service-reference/setmissedcallnotificationenabled-operation-um-web-service.md
-                    - name: SetOofStatus 操作 （UM web 服务）
+                    - name: SetOofStatus 操作（UM Web 服务）
                       href: web-service-reference/setoofstatus-operation-um-web-service.md
-                    - name: SetPlayOnPhoneDialString 操作 （UM web 服务）
+                    - name: SetPlayOnPhoneDialString 操作（UM Web 服务）
                       href: web-service-reference/setplayonphonedialstring-operation-um-web-service.md
-                    - name: SetTelephoneAccessFolderEmail 操作 （UM web 服务）
+                    - name: SetTelephoneAccessFolderEmail 操作（UM Web 服务）
                       href: web-service-reference/settelephoneaccessfolderemail-operation-um-web-service.md
-                - name: 统一的消息 web 服务 XML 元素
+                - name: 统一消息 Web 服务 XML 元素
                   href: web-service-reference/unified-messaging-web-service-xml-elements-for-exchange.md
                   items:
-                    - name: base64FolderId （UM web 服务）
+                    - name: base64FolderId（UM Web 服务）
                       href: web-service-reference/base64folderid-um-web-service.md
-                    - name: CallId （UM web 服务）
+                    - name: CallId（UM Web 服务）
                       href: web-service-reference/callid-um-web-service.md
-                    - name: CallState （UM web 服务）
+                    - name: CallState（UM Web 服务）
                       href: web-service-reference/callstate-um-web-service.md
-                    - name: dialString （UM web 服务）
+                    - name: dialString（UM Web 服务）
                       href: web-service-reference/dialstring-um-web-service.md
-                    - name: 断开连接 （UM web 服务）
+                    - name: Disconnect（UM Web 服务）
                       href: web-service-reference/disconnect-um-web-service.md
-                    - name: DisconnectResponse （UM web 服务）
+                    - name: DisconnectResponse（UM Web 服务）
                       href: web-service-reference/disconnectresponse-um-web-service.md
-                    - name: entryId （UM web 服务）
+                    - name: entryId（UM Web 服务）
                       href: web-service-reference/entryid-um-web-service.md
-                    - name: EventCause （UM web 服务）
+                    - name: EventCause（UM Web 服务）
                       href: web-service-reference/eventcause-um-web-service.md
-                    - name: GetCallInfo （UM web 服务）
+                    - name: GetCallInfo（UM Web 服务）
                       href: web-service-reference/getcallinfo-um-web-service.md
-                    - name: GetCallInfoResponse （UM web 服务）
+                    - name: GetCallInfoResponse（UM Web 服务）
                       href: web-service-reference/getcallinforesponse-um-web-service.md
-                    - name: GetUMProperties （UM web 服务）
+                    - name: GetUMProperties（UM Web 服务）
                       href: web-service-reference/getumproperties-um-web-service.md
-                    - name: GetUMPropertiesResponse （UM web 服务）
+                    - name: GetUMPropertiesResponse（UM Web 服务）
                       href: web-service-reference/getumpropertiesresponse-um-web-service.md
-                    - name: GreetingType （UM web 服务）
+                    - name: GreetingType（UM Web 服务）
                       href: web-service-reference/greetingtype-um-web-service.md
-                    - name: IsUMEnabled （UM web 服务）
+                    - name: IsUMEnabled（UM Web 服务）
                       href: web-service-reference/isumenabled-um-web-service.md
-                    - name: IsUMEnabledResponse （UM web 服务）
+                    - name: IsUMEnabledResponse（UM Web 服务）
                       href: web-service-reference/isumenabledresponse-um-web-service.md
-                    - name: OofStatus （UM web 服务）
+                    - name: OofStatus（UM Web 服务）
                       href: web-service-reference/oofstatus-um-web-service.md
-                    - name: PlayOnPhoneGreeting （UM web 服务）
+                    - name: PlayOnPhoneGreeting（UM Web 服务）
                       href: web-service-reference/playonphonegreeting-um-web-service.md
-                    - name: PlayOnPhoneGreetingResponse （UM web 服务）
+                    - name: PlayOnPhoneGreetingResponse（UM Web 服务）
                       href: web-service-reference/playonphonegreetingresponse-um-web-service.md
-                    - name: PlayOnPhone （UM web 服务）
+                    - name: PlayOnPhone（UM Web 服务）
                       href: web-service-reference/playonphone-um-web-service.md
-                    - name: PlayOnPhoneResponse （UM web 服务）
+                    - name: PlayOnPhoneResponse（UM Web 服务）
                       href: web-service-reference/playonphoneresponse-um-web-service.md
-                    - name: ResetPIN （UM web 服务）
+                    - name: ResetPIN（UM Web 服务）
                       href: web-service-reference/resetpin-um-web-service.md
-                    - name: ResetPINResponse （UM web 服务）
+                    - name: ResetPINResponse（UM Web 服务）
                       href: web-service-reference/resetpinresponse-um-web-service.md
-                    - name: SetMissedCallNotificationEnabled （UM web 服务）
+                    - name: SetMissedCallNotificationEnabled（UM Web 服务）
                       href: web-service-reference/setmissedcallnotificationenabled-um-web-service.md
-                    - name: SetMissedCallNotificationEnabledResponse （UM web 服务）
+                    - name: SetMissedCallNotificationEnabledResponse（UM Web 服务）
                       href: web-service-reference/setmissedcallnotificationenabledresponse-um-web-service.md
-                    - name: SetOofStatus （UM web 服务）
+                    - name: SetOofStatus（UM Web 服务）
                       href: web-service-reference/setoofstatus-um-web-service.md
-                    - name: SetOofStatusResponse （UM web 服务）
+                    - name: SetOofStatusResponse（UM Web 服务）
                       href: web-service-reference/setoofstatusresponse-um-web-service.md
-                    - name: SetPlayOnPhoneDialString （UM web 服务）
+                    - name: SetPlayOnPhoneDialString（UM Web 服务）
                       href: web-service-reference/setplayonphonedialstring-um-web-service.md
-                    - name: SetPlayOnPhoneDialStringResponse （UM web 服务）
+                    - name: SetPlayOnPhoneDialStringResponse（UM Web 服务）
                       href: web-service-reference/setplayonphonedialstringresponse-um-web-service.md
-                    - name: SetTelephoneAccessFolderEmail （UM web 服务）
+                    - name: SetTelephoneAccessFolderEmail（UM Web 服务）
                       href: web-service-reference/settelephoneaccessfolderemail-um-web-service.md
-                    - name: SetTelephoneAccessFolderEmailResponse （UM web 服务）
+                    - name: SetTelephoneAccessFolderEmailResponse（UM Web 服务）
                       href: web-service-reference/settelephoneaccessfolderemailresponse-um-web-service.md
-                    - name: 状态 （UM web 服务-SetMissedCallNotificationEnabled）
+                    - name: Status（UM Web 服务 - SetMissedCallNotificationEnabled）
                       href: web-service-reference/status-um-web-servicesetmissedcallnotificationenabled.md
-                    - name: 状态 （UM web 服务-SetOofStatus）
+                    - name: Status（UM Web 服务 - SetOofStatus）
                       href: web-service-reference/status-um-web-servicesetoofstatus.md
-                    - name: MissedCallNotificationEnabled （UM web 服务）
+                    - name: MissedCallNotificationEnabled（UM Web 服务）
                       href: web-service-reference/missedcallnotificationenabled-um-web-service.md
-                    - name: PlayOnPhoneDialString （UM web 服务）
+                    - name: PlayOnPhoneDialString（UM Web 服务）
                       href: web-service-reference/playonphonedialstring-um-web-service.md
-                    - name: TelephoneAccessNumbers （UM web 服务）
+                    - name: TelephoneAccessNumbers（UM Web 服务）
                       href: web-service-reference/telephoneaccessnumbers-um-web-service.md
-                    - name: TelephoneAccessFolderEmail （UM web 服务）
+                    - name: TelephoneAccessFolderEmail（UM Web 服务）
                       href: web-service-reference/telephoneaccessfolderemail-um-web-service.md
-            - name: EWS 自动生成的代理引用
+            - name: EWS 自动生成代理参考
               href: 'https://msdn.microsoft.com/EN-US/library/jj190899(v=exchg.150).aspx'
-    - name: Exchange Management Shell
+    - name: Exchange 命令行管理程序
       href: management/exchange-management-shell.md
       items:
         - name: 创建 Exchange 命令行管理程序工具
           href: management/create-exchange-management-shell-tools.md
           items:
-            - name: 新增和经过更新的 cmdlet
+            - name: 新增和更新的 cmdlet
               href: management/new-and-updated-exchange-management-shell-cmdlets.md
-            - name: Cmdlet 的输入和输出类型
+            - name: cmdlet 输入和输出类型
               href: management/exchange-management-shell-cmdlet-input-and-output-types.md
-            - name: 获取邮件用户的列表
+            - name: 获取邮件用户列表
               href: management/how-to-get-a-list-of-mail-users-by-using-the-exchange-management-shell.md
             - name: 使用 cmdlet 响应
               href: management/how-to-use-the-exchange-management-shell-cmdlet-response.md
@@ -4444,13 +4444,13 @@
     - name: 传输代理
       href: transport-agents/transport-agents-in-exchange-2013.md
       items:
-        - name: 新增和经过更新的传输代理 Api
+        - name: 新增和更新的传输代理 API
           href: transport-agents/new-and-updated-transport-agent-apis-in-exchange-2013.md
         - name: 代码示例
           href: transport-agents/transport-agent-code-samples-for-exchange-2013.md
         - name: 传输代理概念
           href: transport-agents/transport-agent-concepts-in-exchange-2013.md
-        - name: 读取和修改传输管道中的邮件
+        - name: 阅读和修改传输管道中的邮件
           href: transport-agents/reading-and-modifying-messages-in-the-exchange-2013-transport-pipeline.md
         - name: 创建传输代理
           href: transport-agents/creating-transport-agents-for-exchange-2013.md
@@ -4461,13 +4461,13 @@
               href: transport-agents/how-to-create-an-smtpreceiveagent-transport-agent-for-exchange-2013.md
             - name: 创建 DeliveryAgent 传输代理
               href: transport-agents/how-to-create-a-deliveryagent-transport-agent-for-exchange-2013.md
-        - name: 传输代理参考 （英文）
+        - name: 传输代理参考
           href: transport-agents/transport-agent-reference-for-exchange-2013.md
           items:
             - name: 代理配置文件元素
               href: transport-agents/agents-configuration-file-elements-for-exchange-2013.md
               items:
-                - name: 代理
+                - name: agent
                   href: transport-agents/agent.md
                 - name: agentExecution
                   href: transport-agents/agentexecution.md
@@ -4479,7 +4479,7 @@
                   href: transport-agents/messagesnapshot.md
                 - name: mexRuntime
                   href: transport-agents/mexruntime.md
-                - name: 监控
+                - name: monitoring
                   href: transport-agents/monitoring.md
             - name: 传输代理命名空间
               href: transport-agents/transport-agent-namespaces-in-exchange-2013.md
@@ -4491,20 +4491,20 @@
           items:
             - name: 事务日志和检查点文件
               href: backup-restore/transaction-logs-and-checkpoint-files-for-backup-and-restore-in-exchange.md
-            - name: Exchange 编写器
+            - name: Exchange 书写器
               href: backup-restore/exchange-writer-in-exchange-2013.md
-        - name: 构建备份和还原应用程序
+        - name: 生成备份和还原应用程序
           href: backup-restore/build-backup-and-restore-applications-for-exchange-2013.md
           items:
-            - name: 备份操作的类型
+            - name: 备份操作类型
               href: backup-restore/types-of-backup-operations-for-exchange-2013.md
             - name: 还原 Exchange 2013 数据库
               href: backup-restore/restoring-exchange-2013-databases.md
             - name: 使用 CHKSGFILES API 验证备份完整性
               href: backup-restore/how-to-validate-backup-integrity-by-using-the-chksgfiles-api-in-exchange.md
-            - name: 使用 Eseutil 工具中验证备份完整性
+            - name: 使用 Eseutil 工具验证备份完整性
               href: backup-restore/how-to-validate-backup-integrity-by-using-the-eseutil-tool-in-exchange-2013.md
-        - name: CChkSGFiles 类参考 （英文）
+        - name: CChkSGFiles 类参考
           href: backup-restore/cchksgfiles-class-reference.md
           items:
             - name: CChkSGFiles.CMaxDbPerSG 函数
@@ -4519,7 +4519,7 @@
               href: backup-restore/cchksgfiles-errcheckdbpages-function.md
             - name: CChkSGFiles.ErrCheckLogs 函数
               href: backup-restore/cchksgfiles-errchecklogs-function.md
-            - name: CChkSGFiles.ErrGetHeader 函数 （保留）
+            - name: CChkSGFiles.ErrGetHeader 函数（预留）
               href: backup-restore/cchksgfiles-errgetheader-function-reserved.md
             - name: CChkSGFiles.ErrInit 函数
               href: backup-restore/cchksgfiles-errinit-function.md
@@ -4535,5 +4535,5 @@
               href: backup-restore/cchksgfiles-page_info-struct.md
             - name: CChkSGFiles.PgnoFromFileOffset 函数
               href: backup-restore/cchksgfiles-pgnofromfileoffset-function.md
-    - name: 服务器 API 参考 （英文）
+    - name: 服务器 API 参考
       href: 'https://msdn.microsoft.com/en-us/library/dn186243(v=exchg.150).aspx'
