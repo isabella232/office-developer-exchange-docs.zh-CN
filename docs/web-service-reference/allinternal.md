@@ -14,7 +14,7 @@ ms.assetid: b7e5072f-5d9f-4ee0-b58b-4d75d878ea1c
 description: 如果电子邮件的所有收件人均为发件人组织的内部人员，AllInternal 元素的值为 true。
 ms.openlocfilehash: 0ffd4178e711e3117497eed682e3fd3e0594989b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753136"
@@ -30,9 +30,9 @@ ms.locfileid: "19753136"
  **ProtectionRuleAllInternalType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -51,7 +51,7 @@ ms.locfileid: "19753136"
 
 **AllInternal** 元素必须为空。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

@@ -14,7 +14,7 @@ ms.assetid: 5d9ea76f-e14d-4424-8842-0c3cc3305119
 description: Companies 元素表示与某个联系人或任务相关联的公司集合。
 ms.openlocfilehash: 5b8ac20d4a02017881f941d12380fe29078f51cc
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753458"
@@ -32,9 +32,9 @@ ms.locfileid: "19753458"
  **ArrayOfStringsType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -48,10 +48,10 @@ ms.locfileid: "19753458"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[联系人](contact.md) <br/> |表示 Exchange 存储中的联系人。  <br/> |
+|[Contact](contact.md) <br/> |表示 Exchange 存储中的联系人。  <br/> |
 |[任务](task.md) <br/> |表示 Exchange 存储中的任务。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

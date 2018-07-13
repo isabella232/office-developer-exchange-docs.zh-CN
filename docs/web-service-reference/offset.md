@@ -14,7 +14,7 @@ ms.assetid: dcbb9d85-d90c-4363-b4c9-d081ad03f407
 description: Offset 元素描述与 BaseOffset 的时差。BaseOffset 元素和 Offset 元素一起标识时间是标准时间还是夏令时。
 ms.openlocfilehash: d85fef0d67633733f6aa1943d70413ea70a528d6
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826642"
@@ -30,9 +30,9 @@ ms.locfileid: "19826642"
  **duration**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -51,7 +51,7 @@ ms.locfileid: "19826642"
 
 文本值表示与协调世界时 (UTC) 的时差。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 Microsoft Exchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

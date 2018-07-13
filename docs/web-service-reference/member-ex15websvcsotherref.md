@@ -1,5 +1,5 @@
 ---
-title: Member
+title: 成员
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -14,12 +14,12 @@ ms.assetid: af9c5ff8-02a4-41fc-876d-14ac05f1ee77
 description: Member 元素表示通讯组列表成员。
 ms.openlocfilehash: c38e2ed24e78b5199d4d65cce27a00a8e6704037
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826434"
 ---
-# <a name="member"></a>Member
+# <a name="member"></a>成员
 
 本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **Member** 元素表示通讯组列表成员。 
   
@@ -34,13 +34,13 @@ ms.locfileid: "19826434"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**说明**|
 |:-----|:-----|
-|项  <br/> |为通讯组列表成员提供的唯一标识符。此属性是可选的。  <br/> |
+|键  <br/> |为通讯组列表成员提供的唯一标识符。此属性是可选的。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -55,7 +55,7 @@ ms.locfileid: "19826434"
 |:-----|:-----|
 |[成员 (MemberListType)](members-memberlisttype.md) <br/> |包含通讯组列表成员的列表。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

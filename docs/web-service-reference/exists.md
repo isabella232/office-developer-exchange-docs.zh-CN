@@ -14,7 +14,7 @@ ms.assetid: 55d568bd-8dbc-4d50-b9d7-54b74a54d4b5
 description: Exists 元素表示搜索表达式，如果某个项目上存在，则该表达式会返回 true。
 ms.openlocfilehash: d30f4b505afcac32afbfeaf2289c964ba145668e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754194"
@@ -32,9 +32,9 @@ ms.locfileid: "19754194"
  **ExistsType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -55,7 +55,7 @@ ms.locfileid: "19754194"
 |[And](and.md) <br/> |表示能够使您在两个或多个搜索表达式之间执行布尔 And 操作的搜索表达式。如果 And 中包含的搜索表达式为 **true**，则 And 操作的结果为 **true**。  <br/> |
 |[或](or.md) <br/> |表示在其包含的搜索表达式上执行逻辑 OR 的搜索表达式。如果其任何子级返回 [true](or.md)，则 **或** 将返回 **true**。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 Microsoft Exchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

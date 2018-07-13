@@ -1,5 +1,5 @@
 ---
-title: Contacts
+title: 联系人
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -14,12 +14,12 @@ ms.assetid: 0cc67cdf-9707-45e7-92c6-fa83a016cdbe
 description: Contacts 元素包含与任务相关联的联系人列表。
 ms.openlocfilehash: da7963d30f58f7da52e76e3f7f1d0f7fd68abf74
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753498"
 ---
-# <a name="contacts"></a>Contacts
+# <a name="contacts"></a>联系人
 
 本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **Contacts** 元素包含与任务相关联的联系人列表。 
   
@@ -32,9 +32,9 @@ ms.locfileid: "19753498"
  **ArrayOfStringsType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -50,7 +50,7 @@ ms.locfileid: "19753498"
 |:-----|:-----|
 |[任务](task.md) <br/> |表示 Exchange 存储中的任务。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

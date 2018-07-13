@@ -1,5 +1,5 @@
 ---
-title: Interval
+title: 时间间隔
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -14,12 +14,12 @@ ms.assetid: d0c97a5f-96be-40c6-b7d4-abf4c3870adf
 description: Interval 元素定义两个连续周期性项目之间的间隔。
 ms.openlocfilehash: 55d26b5b1b51aca3effa93a2e6852c1ae57ef4b0
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19825962"
 ---
-# <a name="interval"></a>Interval
+# <a name="interval"></a>时间间隔
 
 本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **Interval** 元素定义两个连续周期性项目之间的间隔。 
   
@@ -30,9 +30,9 @@ ms.locfileid: "19825962"
  **int**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -57,7 +57,7 @@ ms.locfileid: "19825962"
 
 需要表示整数的一个文本值。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
