@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 0e3e6e5f-06d0-499b-8ca4-d36036521658
 description: ParentFolderId 元素标识的文件夹中创建一个新的文件夹或搜索 FindConversation 操作的文件夹。
-ms.openlocfilehash: 61072e1dd3321beb5f3b76d9accf20530b443796
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 8e80b9b342274a8b2004838ebd16f8425a2d3fa3
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826686"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353824"
 ---
 # <a name="parentfolderid-targetfolderidtype"></a>ParentFolderId (TargetFolderIdType)
 
@@ -29,13 +29,19 @@ ms.locfileid: "19826686"
 </ParentFolderId>
 ```
 
+```xml
+<ParentFolderId>
+   <FolderId/> 
+</ParentFolderId>
+```
+
 **TargetFolderIdType**
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
 **ParentFolderId**元素包含两个子元素。 子元素的架构中相互排斥。 
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -43,7 +49,7 @@ ms.locfileid: "19826686"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[文件夹 Id](folderid.md) <br/> |包含所需的标识符和文件夹中的可选更改密钥其创建一个新文件夹或[FindConversation 操作](findconversation-operation.md)搜索文件夹。 使用此元素不包括[DistinguishedFolderId](distinguishedfolderid.md)元素的使用。  <br/> |
+|[FolderId](folderid.md) <br/> |包含所需的标识符和文件夹中的可选更改密钥其创建一个新文件夹或[FindConversation 操作](findconversation-operation.md)搜索文件夹。 使用此元素不包括[DistinguishedFolderId](distinguishedfolderid.md)元素的使用。  <br/> |
 |[DistinguishedFolderId](distinguishedfolderid.md) <br/> |标识默认的 Microsoft Exchange Server 2007 文件夹。 使用此元素不包括[文件夹 Id](folderid.md)元素的使用。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
@@ -57,7 +63,7 @@ ms.locfileid: "19826686"
 
 无。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 两个子元素用于定义将包含新文件夹的文件夹。 您必须选择[文件夹 Id](folderid.md)或[DistinguishedFolderId](distinguishedfolderid.md)元素来标识新的文件夹的父文件夹。 不能同时使用这两个元素。 此元素需要创建文件夹。 
   
@@ -76,7 +82,7 @@ ms.locfileid: "19826686"
    
 ## <a name="see-also"></a>另请参阅
 
-- [CreateFolder Operation](createfolder-operation.md)
-- [FindConversation Operation](findconversation-operation.md)
+- [CreateFolder 操作](createfolder-operation.md)
+- [FindConversation 操作](findconversation-operation.md)
 - [Creating Folders (Exchange Web Services)](http://msdn.microsoft.com/library/3b15b0ec-8691-45ed-9a24-a91ff732d6cf%28Office.15%29.aspx)
 

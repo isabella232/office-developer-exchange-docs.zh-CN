@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: c4565eb4-b537-466c-b1ff-11602533812b
 description: DeletedEvent 元素表示删除项或文件夹的事件。
-ms.openlocfilehash: f06ca0727916f415c648e876f88bf7eacef5a5ff
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5ddc909ffc9c74ea6b423610e915d5b9ff9bff43
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753795"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354405"
 ---
 # <a name="deletedevent"></a>DeletedEvent
 
@@ -32,13 +32,22 @@ ms.locfileid: "19753795"
 </DeletedEvent>
 ```
 
+```xml
+<DeletedEvent>
+   <Watermark/>
+   <TimeStamp/>
+   <FolderId/>
+   <ParentFolderId/>
+</DeletedEvent>
+```
+
 **BaseObjectChangedEventType**
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -46,9 +55,9 @@ ms.locfileid: "19753795"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[水印](watermark.md) <br/> |代表邮箱事件表格中的事件书签。  <br/> |
-|[时间戳](timestamp.md) <br/> |代表已删除的项目或文件夹邮箱事件的时间戳。  <br/> |
-|[文件夹 Id](folderid.md) <br/> |代表已删除文件夹的标识符。  <br/> |
+|[Watermark](watermark.md) <br/> |代表邮箱事件表格中的事件书签。  <br/> |
+|[TimeStamp](timestamp.md) <br/> |代表已删除的项目或文件夹邮箱事件的时间戳。  <br/> |
+|[FolderId](folderid.md) <br/> |代表已删除文件夹的标识符。  <br/> |
 |[ItemId](itemid.md) <br/> |代表已删除的项目的标识符。  <br/> |
 |[ParentFolderId](parentfolderid.md) <br/> |代表已删除项的父文件夹或删除之前的文件夹的标识符。  <br/> |
    
@@ -58,7 +67,7 @@ ms.locfileid: "19753795"
 |:-----|:-----|
 |[通知](notification-ex15websvcsotherref.md) <br/> |包含有关订阅和自上次通知以来发生的事件的信息。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -73,7 +82,7 @@ ms.locfileid: "19753795"
    
 ## <a name="see-also"></a>另请参阅
 
-- [订阅操作](subscribe-operation.md)  
+- [Subscribe 操作](subscribe-operation.md)  
 - [GetEvents 操作](getevents-operation.md)  
-- [取消操作](unsubscribe-operation.md)
+- [Unsubscribe 操作](unsubscribe-operation.md)
 

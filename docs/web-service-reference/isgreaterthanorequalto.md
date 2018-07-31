@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 373cc954-314d-40e2-be03-cc08aefc0d5b
 description: IsGreaterThanOrEqualTo 元素均表示一个搜索表达式，比较并以常量值或另一个属性，并返回 true，如果第一个属性大于或等于第二个属性。
-ms.openlocfilehash: 81df79d15e6c5c8d301e69a822d038588ce42325
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c469f2535ab717e7bc09b6317e01f0f8b3be8170
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826030"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354370"
 ---
 # <a name="isgreaterthanorequalto"></a>IsGreaterThanOrEqualTo
 
@@ -30,12 +30,27 @@ ms.locfileid: "19826030"
 </IsGreaterThanOrEqualTo>
 ```
 
- **IsGreaterThanOrEqualToType**
+```xml
+<IsGreaterThanOrEqualTo>
+   <IndexedFieldURI/>
+   <FieldURIOrConstant/>
+</IsGreaterThanOrEqualTo>
+```
+
+```xml
+<IsGreaterThanOrEqualTo>
+   <ExtendedFieldURI/> 
+   <FieldURIOrConstant/>
+</IsGreaterThanOrEqualTo>
+```
+
+**IsGreaterThanOrEqualToType**
+
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -71,8 +86,6 @@ ms.locfileid: "19826030"
 |可以为空  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>另请参阅
-
-
 
 - [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

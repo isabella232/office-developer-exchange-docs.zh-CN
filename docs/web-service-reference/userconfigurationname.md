@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 6947dd03-9727-4379-9b9d-42373fa120c7
 description: UserConfigurationName 元素均表示用户配置对象的名称。 用户配置对象名称为用户配置对象的标识符。
-ms.openlocfilehash: 40580343e92493c3d39b090371708269ec3274b9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 33b3fc316a06b8088eb20a71788a9e6a3394d0d4
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838460"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354300"
 ---
 # <a name="userconfigurationname"></a>UserConfigurationName
 
@@ -29,12 +29,19 @@ ms.locfileid: "19838460"
 </UserConfigurationName>
 ```
 
- **UserConfigurationNameType**
+```XML
+<UserConfigurationName Name="">
+   <DistinguishedFolderId/> 
+</UserConfigurationName>
+```
+
+**UserConfigurationNameType**
+
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**说明**|
 |:-----|:-----|
@@ -44,7 +51,7 @@ ms.locfileid: "19838460"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[文件夹 Id](folderid.md) <br/> |代表包含用户配置对象的文件夹的文件夹标识符。  <br/> |
+|[FolderId](folderid.md) <br/> |代表包含用户配置对象的文件夹的文件夹标识符。  <br/> |
 |[DistinguishedFolderId](distinguishedfolderid.md) <br/> |代表包含用户配置对象的文件夹的可分辨的文件夹名称。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
@@ -59,7 +66,7 @@ ms.locfileid: "19838460"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -73,8 +80,6 @@ ms.locfileid: "19838460"
 |可以为空  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>另请参阅
-
-
 
 - [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

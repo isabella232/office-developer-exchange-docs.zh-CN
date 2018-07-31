@@ -1,5 +1,5 @@
 ---
-title: 外出
+title: OutOfOffice
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -12,14 +12,14 @@ api_type:
 - schema
 ms.assetid: fe1256ab-5c0f-467d-abb3-b38a2dc312ae
 description: 外出元素表示响应消息和发送响应消息持续时间。
-ms.openlocfilehash: 4e1e06ee332c44aeba03e1343c8c3258a2c9631e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f35b84d7a8a37c7a57b58c97fd0d37318bb50a33
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826675"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354265"
 ---
-# <a name="outofoffice"></a>外出
+# <a name="outofoffice"></a>OutOfOffice
 
 **外出**元素表示响应消息和发送响应消息持续时间。 
   
@@ -30,12 +30,19 @@ ms.locfileid: "19826675"
 </OutOfOffice>
 ```
 
- **OutOfOfficeMailTip**
+```XML
+<OutOfOffice>
+   <ReplyBody/>
+</OutOfOffice>
+```
+
+**OutOfOfficeMailTip**
+
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -44,19 +51,19 @@ ms.locfileid: "19826675"
 |**元素**|**说明**|
 |:-----|:-----|
 |[ReplyBody](replybody.md) <br/> |包含 Office 外出 (OOF) 邮件和消息所使用的语言。  <br/> |
-|[持续时间 (UserOofSettings)](duration-useroofsettings.md) <br/> |包含如果[OofState](oofstate.md)元素设置为计划，则启用 OOF 状态的工期。  <br/> |
+|[Duration (UserOofSettings)](duration-useroofsettings.md) <br/> |包含如果[OofState](oofstate.md)元素设置为计划，则启用 OOF 状态的工期。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[邮件提示](mailtips.md) <br/> |表示的邮件提示的各种类型的值。  <br/> |
+|[MailTips](mailtips.md) <br/> |表示的邮件提示的各种类型的值。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -70,8 +77,6 @@ ms.locfileid: "19826675"
 |可以为空  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>另请参阅
-
-
 
 - [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

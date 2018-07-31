@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: b4fff4c9-c625-4d2a-9d14-bb28a5da5baf
 description: 了解如何使用 Exchange 时影响 EWS 的限制策略。
-ms.openlocfilehash: e7966f67753b3998235e000a022e41c90fa227b8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 64393c173a6fc60cd4be969e8c7457d5b0109713
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752771"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354013"
 ---
 # <a name="ews-throttling-in-exchange"></a>限制在 Exchange 中的 EWS
 
@@ -110,9 +110,11 @@ Guid                     : 2c10dab6-de28-1937-ad8g-535832613a08
   
 > [!TIP]
 > 我们建议您设计遵守默认限制策略的应用程序。 仅对默认限制策略，如果客户端应用程序设计无法容纳默认策略进行更改。 注意限制较少的限制策略可能产生负面影响服务可靠性。 
-  
-## <a name="throttling-considerations-for-applications-that-use-ews-impersonation"></a>限制使用 EWS 模拟的应用程序的注意事项
+
 <a name="bk_ThrottlingConsiderations"> </a>
+
+## <a name="throttling-considerations-for-applications-that-use-ews-impersonation"></a>限制使用 EWS 模拟的应用程序的注意事项
+
 
 [模拟](impersonation-and-ews-in-exchange.md)是使一个帐户以访问多个帐户的授权方法。 时的服务帐户模拟用户，它将充当用户并因此假定已分配给这些用户的权限。 日志文件以模拟用户记录访问。 管理员使用基于角色的访问控制 (RBAC) 来配置模拟通过 Exchange 命令行管理程序。 
   
@@ -222,20 +224,22 @@ while (fiResults.MoreAvailable == true);
 
 并发指的特定用户的连接数。 连接保留从开始，直到响应发送给请求者收到的请求。 如果用户尝试进行更多并发请求多于其策略允许，新连接尝试失败。 但是，保持有效现有连接。 限制策略可以通过多种不同的方式影响并发。
   
-**EWSMaxConcurrency**限制策略参数可设置特定用户可针对 Exchange 服务器一次拥有的并发连接的数。 若要确定的最大并发连接允许数，请考虑 Outlook 客户端将使用的连接。 Outlook 2007 和 Outlook 2010 使用 EWS 访问可用性和外出 (OOF) 信息。 Mac Outlook 2011 使用 EWS 的所有客户端访问功能。 正在连接到用户邮箱的 Outlook 客户端数，根据用户可用的并发连接数可能会受到限制。 此外，如果您的应用程序使用单个的安全性上下文时同时连接到多个邮箱，务必考虑**EWSMaxConcurrency**策略的值。 有关单一安全环境使用并发连接的详细信息，请参阅上文中的[应用程序使用 EWS 模拟的限制注意事项](http://msdn.microsoft.com/library/961f773a-8b8e-4b4f-a4b9-64305e107ca4.aspx#bk_ThrottlingConsiderations)。 
+**EWSMaxConcurrency**限制策略参数可设置特定用户可针对 Exchange 服务器一次拥有的并发连接的数。 若要确定的最大并发连接允许数，请考虑 Outlook 客户端将使用的连接。 Outlook 2007 和 Outlook 2010 使用 EWS 访问可用性和外出 (OOF) 信息。 Mac Outlook 2011 使用 EWS 的所有客户端访问功能。 正在连接到用户邮箱的 Outlook 客户端数，根据用户可用的并发连接数可能会受到限制。 此外，如果您的应用程序使用单个的安全性上下文时同时连接到多个邮箱，务必考虑**EWSMaxConcurrency**策略的值。 有关单一安全环境使用并发连接的详细信息，请参阅上文中的[应用程序使用 EWS 模拟的限制注意事项](#bk_ThrottlingConsiderations)。 
   
 同时连接到多个邮箱的应用程序必须能够在客户端跟踪资源使用情况。 由于 EWS 操作是基于请求/响应，可确保您的应用程序函数也在**EWSMaxConcurrency**阈值内通过跟踪发生的请求和响应时开始之间的连接数收到的、 并且确保不超过 10 打开请求同时发生。 
   
 **EWSFindCountLimit** policy 参数指定**FindItem**或**FindFolder**操作可用于客户端访问服务器一次一个用户的最大结果大小。 如果应用程序 （或具有潜在的多个应用程序） 使返回 100 个项目每个特定用户的两个并发 EWS **FindItem**请求，根据特定用户的预算**EWSFindCountLimit**费用将 200。 返回的第一个请求，预算将降至 100，并为零第二个请求返回时，将预算。 如果同一应用程序已进行 1000年个项的两个并发请求，预算值将为 2000年个项目，其超过**EWSFindCountLimit**值。 如果项目的用户的预算低于零下, 一个请求会导致错误之前用户的预算重新充电到一个或多。 
+
+<a name="bk_ThrottlingNotifications"> </a>
   
 ## <a name="throttling-considerations-for-ews-notification-applications"></a>限制 EWS 通知应用程序的注意事项
-<a name="bk_ThrottlingNotifications"> </a>
+
 
 如果您要构建 EWS 通知使用应用程序推送、 拉，或流式处理通知，您应考虑**EWSMaxSubscriptions** **EWSMaxConcurrency**限制策略和**的含义HangingConnectionLimit**。 
   
 **EWSMaxSubscriptions**策略参数指定活动推送、 提取、 和用户可同时拥有特定客户端访问服务器的流式订阅的最大数量。 不同版本的 Exchange 具有不同的默认值为此参数。 用户可以订阅邮箱中的所有文件夹使用**SubscribeToAllFolders**属性-此服务使用单个订阅根据**EWSMaxSubscriptions**预算。 用户可以订阅单个文件夹，每个文件夹订阅计数达到**EWSMaxSubscriptions**预算，最多限制设置由**EWSMaxSubscriptions**参数的值 （例如，用户可以订阅 20 日历如果**EWSMaxSubscriptions**设为 20 的不同邮箱中文件夹）。 
   
-有关模拟和**EWSMaxSubscriptions**参数的信息，请参阅上文中的[应用程序使用 EWS 模拟的限制注意事项](ews-throttling-in-exchange.md#bk_ThrottlingConsiderations)。 
+有关模拟和**EWSMaxSubscriptions**参数的信息，请参阅上文中的[应用程序使用 EWS 模拟的限制注意事项](#bk_ThrottlingConsiderations)。 
   
 **EWSMaxConcurrency** policy 参数也可以是 EWS 通知; 问题例如： 
   

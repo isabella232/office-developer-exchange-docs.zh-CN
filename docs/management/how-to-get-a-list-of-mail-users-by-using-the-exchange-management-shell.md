@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8b790dc8-5c4f-4acf-bbe7-63523395fbe7
 description: 了解如何使用 Exchange 命令行管理程序 cmdlet 创建一个工具，返回的 Exchange 邮箱用户列表。
-ms.openlocfilehash: 6f64330a11e372bffbea2fcd88bcfa0231ec0f28
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e9493571e98760e5a11674db9a552111c1ec29b2
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753024"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353999"
 ---
 # <a name="get-a-list-of-mail-users-by-using-the-exchange-management-shell"></a>使用 Exchange 命令行管理程序中获取邮件用户的列表
 
@@ -65,9 +65,9 @@ ms.locfileid: "19753024"
   
 此方法需要以下参数：
   
--  **liveIDConnectionUri**&ndash;一个字符串，包含 Exchange Online 将验证应用程序的服务器的 URI。 Exchange Online 运行 Office 365 中，如果 URI 是https://outlook.office365.com/PowerShell-LiveID;否则，URI 为 https://\<servername\>/PowerShell-LiveID。 
+-  **liveIDConnectionUri**&ndash;一个字符串，包含 Exchange Online 将验证应用程序的服务器的 URI。 Exchange Online 运行 Office 365 中，如果 URI 是`https://outlook.office365.com/PowerShell-LiveID`;否则，URI 是`https://<servername>/PowerShell-LiveID`。 
     
--  **schemaUri**&ndash;一个字符串，包含定义的 Exchange 命令行管理程序架构的架构文档的 URI。 Uri 的架构http://schemas.microsoft.com/powershell/Microsoft.Exchange。 
+-  **schemaUri**&ndash;一个字符串，包含定义的 Exchange 命令行管理程序架构的架构文档的 URI。 Uri 的架构`http://schemas.microsoft.com/powershell/Microsoft.Exchange`。 
     
 -  **凭据**&ndash; [PSCredential](http://msdn.microsoft.com/en-us/library/system.management.automation.pscredential%28VS.85%29.aspx)对象，其中包含正在运行应用程序的用户的凭据。 
     

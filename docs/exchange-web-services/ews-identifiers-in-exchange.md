@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 39b6b20b-e081-4347-9e15-9b8cf829fdf0
 description: 了解有关 Exchange 和如何您 EWS 托管 API 和 EWS 应用程序中使用它们的标识符。
-ms.openlocfilehash: c09b54c8ec4f443a64f8222094ccf0a5e1f750e7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: fbf6d7756f73b1c5d345f3b34deeb7ea8a347986
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752737"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353971"
 ---
 # <a name="ews-identifiers-in-exchange"></a>Exchange 中的 EWS 标识符
 
@@ -34,9 +34,9 @@ EWS 中的标识符是不适用于 EWS 托管 API 以及。 EWS 托管 API 中�
   
 **表 1。EWS 中的对象标识符**
 
-|**对象**|**标识符**|**它与 EwsId 有何关系？**|
+|**对象**|**标示符**|**它与 EwsId 有何关系？**|
 |:-----|:-----|:-----|
-|[日历项目](http://msdn.microsoft.com/library/b0c1fd27-b6da-46e5-88b8-88f00c71ba80%28Office.15%29.aspx) <br/> |[ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx)子元素包含的日历项目的唯一标识符。  <br/> |针对此项目 EwsId 相同的[ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx)子元素。  <br/> |
+|[CalendarItem](http://msdn.microsoft.com/library/b0c1fd27-b6da-46e5-88b8-88f00c71ba80%28Office.15%29.aspx) <br/> |[ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx)子元素包含的日历项目的唯一标识符。  <br/> |针对此项目 EwsId 相同的[ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx)子元素。  <br/> |
 |[ConversationId](http://msdn.microsoft.com/library/d5f1ddb3-9af3-4677-a6ba-111b304a951e%28Office.15%29.aspx) <br/> |**Id**属性包含此项是的一部分的会话的标识符。  <br/> |针对此项目 EwsId 相同的**Id**属性。  <br/> |
 |[AttachmentId](http://msdn.microsoft.com/library/55a5fd77-60d1-40fa-8144-770600cedc6a%28Office.15%29.aspx) <br/> |提供的附件的唯一标识符。 [RootItemId](http://msdn.microsoft.com/library/f613c705-17ce-48ce-aa64-4dc2cea25e31%28Office.15%29.aspx)属性包含附件附加到根存储项的唯一标识符。  <br/> |附件可案例[AttachmentId](http://msdn.microsoft.com/library/55a5fd77-60d1-40fa-8144-770600cedc6a%28Office.15%29.aspx)是 EwsId 相同的 Exchange 存储中的其他项。 在所有情况下， [RootItemId](http://msdn.microsoft.com/library/f613c705-17ce-48ce-aa64-4dc2cea25e31%28Office.15%29.aspx)是 EwsId，因为它引用存储中的项。  <br/> |
 |[PersonaId](http://msdn.microsoft.com/library/eec3a468-afd5-4d72-a61e-cd1964fb686c%28Office.15%29.aspx) <br/> |**Id**属性返回一个字符串，包含角色的标识符。  <br/> |为该角色 EwsId 相同的**Id**属性。  <br/> |
@@ -121,19 +121,15 @@ Outlook Web 应用程序使用它自己的标识符，在 Url 以访问文件夹
 |EwsLegacyId  <br/> |适用于 Exchange 2007 EwsId。  <br/> |
 |EwsId  <br/> |适用于 Exchange Online 和 Exchange 2007 sp1 开始的 Exchange 版本 EwsId。  <br/> |
 |StoreId  <br/> |Exchange 存储区标识符的文件夹和项目的存储位置。  <br/> |
-|OwaId  <br/> |使用与 Exchange 2007 和 Exchange 2010 中的 Outlook Web App 的 Outlook Web App 标识符。  <br/> > [!NOTE]> Exchange Online 和 Exchange 开头 Exchange 2013 版本用于 Outlook Web App EwsId。           |
+|OwaId  <br/> |使用与 Exchange 2007 和 Exchange 2010 中的 Outlook Web App 的 Outlook Web App 标识符。 <br/><br/>**注意**： Exchange Online 和 Exchange 开头 Exchange 2013 版本使用 EwsId 适用于 Outlook Web App。           |
 |EntryId  <br/> |通常被称为 MAPI 邮件的**PR_ENTRYID**属性 MAPI 标识符。  <br/> |
 |HexEntryId  <br/> |**PR_ENTRYID**属性用于可用性日历事件标识符的十六进制编码表示形式。 这也是 Outlook 使用标识符格式。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
-
-- [开发 Exchange Web 服务客户端](develop-web-service-clients-for-exchange.md)
-    
-- [ConvertId 操作](http://msdn.microsoft.com/library/47d96cf6-9e2f-4fc0-9682-7258d3fbf918%28Office.15%29.aspx)
-    
-- [服务错误枚举](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.serviceerror%28v=exchg.80%29.aspx)
-    
+- [开发 Exchange Web 服务客户端](develop-web-service-clients-for-exchange.md)  
+- [ConvertId 操作](http://msdn.microsoft.com/library/47d96cf6-9e2f-4fc0-9682-7258d3fbf918%28Office.15%29.aspx)  
+- [服务错误枚举](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.serviceerror%28v=exchg.80%29.aspx) 
 - [通过在 Exchange 使用 EWS 中删除项目](deleting-items-by-using-ews-in-exchange.md)
     
 

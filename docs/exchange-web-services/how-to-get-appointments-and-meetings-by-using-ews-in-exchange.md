@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 1bae582a-8cb3-4e77-be2a-7e107fad26fe
 description: 了解如何在 Exchange 使用 EWS 托管 API 或 EWS 获取约会和会议。
-ms.openlocfilehash: 0f5eb135142e807f30f48f01d7948fbdbf147ac2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c78d70ca2266bd192b82f644d902ad8c958d2d4a
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752776"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353691"
 ---
 # <a name="get-appointments-and-meetings-by-using-ews-in-exchange"></a>在 Exchange 使用 EWS 获取约会和会议
 
@@ -50,19 +50,24 @@ ms.locfileid: "19752776"
 
 ```
 
+<br/>
+
 下面是代码示例的输出。
   
-您从 2013 年 8 日 21/到 2013-9 日 20 的日历的前五个约会是： 
+```text
+The first five appointments on your calendar from 8/21/2013 to 9/20/2013 are: 
   
-Subject: Contoso 开发人员团队会议开始： 2013 年 8 日 21/12:30:00 最终： 2013-8 日 21 1:00:00
+Subject: Contoso devs team meeting Start: 8/21/2013 12:30:00 PM End: 8/21/2013 1:00:00 PM
   
-Subject： 每日状态会议开始： 2013-8 日 21 1:00:00 最终： 2013 年 8 日 21/2:00:00
+Subject: Daily status meeting Start: 8/21/2013 1:00:00 PM End: 8/21/2013 2:00:00 PM
   
-Subject： 午餐与销售团队开始： 2013-8 日 21 2:30:00 最终： 2013 年 8 日 21/3:30:00
+Subject: Lunch with sales team Start: 8/21/2013 2:30:00 PM End: 8/21/2013 3:30:00 PM
   
-主题： 在俱乐部开始网球： 2013-8 日 22 11:00:00 最终： 2013 年 8 日 22/12:00:00
+Subject: Tennis at the club Start: 8/22/2013 11:00:00 AM End: 8/22/2013 12:00:00 PM
   
-Subject： 联机培训网络广播： 2013-8 日 22 2:00:00 最终： 2013 年 8 日 22/3:00:00
+Subject: Online training webcast: 8/22/2013 2:00:00 PM End: 8/22/2013 3:00:00 PM
+```
+
 ## <a name="get-appointments-by-using-ews"></a>通过使用 EWS 获取约会
 <a name="bk_xml"> </a>
 
@@ -89,6 +94,8 @@ Subject： 联机培训网络广播： 2013-8 日 22 2:00:00 最终： 2013 年 
   </soap:Body>
 </soap:Envelope>
 ```
+
+<br/>
 
 以下 XML 显示了**GetFolder**响应。 请注意，以便于阅读缩短**文件夹 Id**和**更改密钥**属性。 
   
@@ -119,6 +126,8 @@ Subject： 联机培训网络广播： 2013-8 日 22 2:00:00 最终： 2013 年 
 </s:Envelope>
 ```
 
+<br/>
+
 以下 XML 显示了用于返回请求的约会**FindItem**请求。 请注意，以便于阅读缩短**文件夹 Id**和**更改密钥**属性。 
   
 ```XML
@@ -148,6 +157,8 @@ Subject： 联机培训网络广播： 2013-8 日 22 2:00:00 最终： 2013 年 
   </soap:Body>
 </soap:Envelope>
 ```
+
+<br/>
 
 以下 XML 显示了**FindItem**响应。 请注意，以便于阅读缩短**ItemID**和**更改密钥**属性。 
   
@@ -218,14 +229,10 @@ xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
 ## <a name="see-also"></a>另请参阅
 <a name="bk_additional"> </a>
 
-- [Calendars and EWS in Exchange](calendars-and-ews-in-exchange.md)
-    
-- [使用 Exchange 2013 中的 EWS 中创建约会和会议](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)
-    
-- [在 Exchange 使用 EWS 更新约会和会议](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)
-    
-- [删除约会，并在 Exchange 使用 EWS 取消会议](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md)
-    
+- [Calendars and EWS in Exchange](calendars-and-ews-in-exchange.md)   
+- [使用 Exchange 2013 中的 EWS 中创建约会和会议](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)  
+- [在 Exchange 使用 EWS 更新约会和会议](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)  
+- [删除约会，并在 Exchange 使用 EWS 取消会议](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md) 
 - [开发 Exchange Web 服务客户端](develop-web-service-clients-for-exchange.md)
     
 

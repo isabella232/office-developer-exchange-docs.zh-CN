@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 60ac3f7b-ba8a-4c93-99f7-c27002caff93
 description: 了解用于管理客户端应用程序访问 EWS 的选项。
-ms.openlocfilehash: 29a640178afc9814a0b2232225ae4307e49afed2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e3a0e07b733b4ebc070ab6b3fc73c8aec4b62785
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752706"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353061"
 ---
 # <a name="controlling-client-application-access-to-ews-in-exchange"></a>在 Exchange 控制客户端应用程序访问 EWS
 
@@ -34,7 +34,8 @@ ms.locfileid: "19752706"
     
 由发送 HTTP web 请求中的用户代理字符串标识应用程序。
   
-> [!安全注释] 应用程序级阻止不安全功能。 容易造假用户代理字符串。 如果 EWS 访问允许应用程序，则该应用程序必须仍提供凭据的服务器进行身份验证应用程序可以连接到 EWS 之前。 
+> [!IMPORTANT]
+> 应用程序级阻止不是一项安全功能。 容易造假用户代理字符串。 如果 EWS 访问允许应用程序，则该应用程序必须仍提供凭据的服务器进行身份验证应用程序可以连接到 EWS 之前。 
   
 管理员还可以配置为按以下方式连接到 EWS 的邮箱所有者的访问控制： 
   
@@ -69,12 +70,9 @@ ms.locfileid: "19752706"
 
 管理员使用下面的 Exchange 命令行管理程序 cmdlet 配置 EWS 访问控制： 
   
-- [Get-casmailbox](http://technet.microsoft.com/en-us/library/bb124754.aspx)
-    
-- [设置 CASMailbox](http://technet.microsoft.com/en-us/library/bb125264.aspx)
-    
-- [Get-organizationconfig](http://technet.microsoft.com/en-us/library/aa997571.aspx)
-    
+- [Get-casmailbox](http://technet.microsoft.com/en-us/library/bb124754.aspx)   
+- [设置 CASMailbox](http://technet.microsoft.com/en-us/library/bb125264.aspx)   
+- [Get-organizationconfig](http://technet.microsoft.com/en-us/library/aa997571.aspx)   
 - [Set-organizationconfig](http://technet.microsoft.com/en-us/library/aa997443.aspx)
     
 ## <a name="see-also"></a>另请参阅

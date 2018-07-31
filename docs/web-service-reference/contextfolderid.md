@@ -12,24 +12,21 @@ api_type:
 - schema
 ms.assetid: 48de92aa-e124-42b5-89bc-cdce5e93d78b
 description: ContextFolderId 元素指示使用文件夹的操作的目标文件夹。 此元素必须存在时复制、 删除、 移动和目标文件夹中的对话项目上设置只读的状态。
-ms.openlocfilehash: bd863d0395b9b9d7b437833acfb656fec4580985
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 94428a079be6da8873c777556771579a7110fb62
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753568"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354279"
 ---
 # <a name="contextfolderid"></a>ContextFolderId
 
 **ContextFolderId**元素指示使用文件夹的操作的目标文件夹。 此元素必须存在时复制、 删除、 移动和目标文件夹中的对话项目上设置只读的状态。 
   
-[ApplyConversationAction](applyconversationaction.md)
-  
-[ConversationActions](conversationactions.md)
-  
-[ConversationAction](conversationaction.md)
-  
-[ContextFolderId](contextfolderid.md)
+- [ApplyConversationAction](applyconversationaction.md) 
+- [ConversationActions](conversationactions.md)
+- [ConversationAction](conversationaction.md)
+- [ContextFolderId](contextfolderid.md)
   
 ```XML
 <ContextFolderId>
@@ -37,12 +34,20 @@ ms.locfileid: "19753568"
 </ContextFolderId>
 ```
 
- **TargetFolderIdType**
+```XML
+<ContextFolderId>
+   <DistinguishedFolderId/>
+</ContextFolderId>
+```
+
+
+**TargetFolderIdType**
+
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -50,7 +55,7 @@ ms.locfileid: "19753568"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[文件夹 Id](folderid.md) <br/> |包含，上下文文件夹的标识符和更改键。  <br/> |
+|[FolderId](folderid.md) <br/> |包含，上下文文件夹的标识符和更改键。  <br/> |
 |[DistinguishedFolderId](distinguishedfolderid.md) <br/> |标识可以通过名称引用的文件夹。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
@@ -78,7 +83,5 @@ ms.locfileid: "19753568"
    
 ## <a name="see-also"></a>另请参阅
 
-
-
-[ApplyConversationAction 操作](applyconversationaction-operation.md)
+- [ApplyConversationAction 操作](applyconversationaction-operation.md)
 

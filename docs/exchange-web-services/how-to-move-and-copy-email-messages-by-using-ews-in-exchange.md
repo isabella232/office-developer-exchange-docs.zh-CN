@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 4771668f-5623-4397-a5c0-b75a7ba01698
 description: 了解如何移动和复制在 Exchange 使用 EWS 托管 API 或 EWS 的电子邮件。
-ms.openlocfilehash: 16f0604a16785c34dd04bdabedeedd331668a479
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 44d5834176b55ad041befbad2230b8b507a12ecc
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752850"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353467"
 ---
 # <a name="move-and-copy-email-messages-by-using-ews-in-exchange"></a>移动和复制在 Exchange 使用 EWS 的电子邮件
 
@@ -28,7 +28,7 @@ ms.locfileid: "19752850"
    
 请务必注意当移动或复制到一个不同的文件夹的电子邮件时，在新文件夹中具有唯一项目 ID，创建一个新项，而且原始邮件将被删除。 如果您正在移动或复制电子邮件中的同一邮箱的两个文件夹之间，将新项返回响应，它可以访问新项目 id。 但是，如果您正在移动或复制或邮箱和公用文件夹之间的两个邮箱的电子邮件，在响应中不返回新项目。 若要访问该方案中的移动的消息，使用 EWS 托管 API [FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)方法或 EWS [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)操作，为[PidTagSearchKey](http://msdn.microsoft.com/en-us/library/cc839918.aspx) (0x300B0102) 属性中，[创建扩展的属性定义](properties-and-extended-properties-in-ews-in-exchange.md)或创建和设置自定义扩展属性，然后搜索新文件夹中的自定义扩展属性。 
   
-删除电子邮件是不同于项目移动到已删除邮件文件夹。 如果您使用 EWS 托管 API [Item.Delete](http://msdn.microsoft.com/en-us/library/office/dd635072%28v=exchg.80%29.aspx)方法或 EWS[删除项](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx)操作，在请求中指定的项已从原始文件夹，并副本处于已删除邮件文件夹具有新的项 id。 与移动或复制任何项，不同的新项目不会返回**Delete**方法或**删除项**操作响应中。 [删除电子邮件使用 EWS 托管 API](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_deleteewsma)涉及的步骤或[EWS](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_deleteews)从 Exchange 存储中删除任何泛型项目相同。 
+删除电子邮件是不同于项目移动到已删除邮件文件夹。 如果您使用 EWS 托管 API [Item.Delete](http://msdn.microsoft.com/en-us/library/office/dd635072%28v=exchg.80%29.aspx)方法或 EWS[删除项](../web-service-reference/deleteitem-operation.md)操作，在请求中指定的项已从原始文件夹，并副本处于已删除邮件文件夹具有新的项 id。 与移动或复制任何项，不同的新项目不会返回**Delete**方法或**删除项**操作响应中。 [删除电子邮件使用 EWS 托管 API](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_deleteewsma)涉及的步骤或[EWS](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_deleteews)从 Exchange 存储中删除任何泛型项目相同。 
   
 ## <a name="move-an-email-message-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 移动电子邮件
 <a name="bk_moveewsma"> </a>

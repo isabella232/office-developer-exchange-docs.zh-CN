@@ -1,5 +1,5 @@
 ---
-title: 条件
+title: Condition
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -12,14 +12,14 @@ api_type:
 - schema
 ms.assetid: 0790a3f2-cb31-4036-a757-7821aa0722cb
 description: Condition 元素标识规则执行的操作部分必须满足的条件。
-ms.openlocfilehash: ed605946f99aa63416337cd0e731c931176a8ed4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d49f2984799b15c0499af59abecbb34abe15f7c3
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753473"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353558"
 ---
-# <a name="condition"></a>条件
+# <a name="condition"></a>Condition
 
 **Condition**元素标识规则执行的操作部分必须满足的条件。 
   
@@ -29,12 +29,37 @@ ms.locfileid: "19753473"
 </Condition>
 ```
 
- **ProtectionRuleConditionType**
+```xml
+<Condition> 
+    <SenderDepartments/> 
+</Condition>
+```
+
+```xml
+<Condition> 
+    <True/> 
+</Condition>
+```
+
+```xml
+<Condition> 
+    <Recipients/> 
+</Condition>
+```
+
+```xml
+<Condition> 
+    <And/> 
+</Condition>
+```
+
+**ProtectionRuleConditionType**
+
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -58,7 +83,7 @@ ms.locfileid: "19753473"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -72,8 +97,6 @@ ms.locfileid: "19753473"
 |可以为空  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>另请参阅
-
-
 
 - [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

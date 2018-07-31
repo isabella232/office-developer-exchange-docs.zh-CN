@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 455f475b-cb19-4e7a-8ff3-92f7028fceb0
 description: 了解如何创建、 获取、 更新和删除使用 EWS 托管 API 或 EWS 在 Exchange 中单个呼叫的联系人的批次。
-ms.openlocfilehash: 7dfbda7fe5e077f92bcf7ebd40af40d76c2d2d22
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ce1a61615767f3b03354bc79b036582613f15e7e
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752872"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354027"
 ---
 # <a name="process-contacts-in-batches-by-using-ews-in-exchange"></a>在 Exchange 使用 EWS 的批次中的过程联系人
 
@@ -26,7 +26,7 @@ ms.locfileid: "19752872"
 |创建批处理中的联系人  <br/> |[ExchangeService.CreateItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.createitems%28v=exchg.80%29.aspx) <br/> |[CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) <br/> |
 |获取批次中的联系人  <br/> |[ExchangeService.BindToItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.bindtoitems%28v=exchg.80%29.aspx)或[ExchangeService.LoadPropertiesForItems](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice.loadpropertiesforitems%28v=exchg.80%29.aspx) <br/> |[GetItem](http://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) <br/> |
 |更新批次中的联系人  <br/> |[ExchangeService.UpdateItems](http://msdn.microsoft.com/en-us/library/dd634705%28v=exchg.80%29.aspx) <br/> |[UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> |
-|删除批次中的联系人  <br/> |[ExchangeService.DeleteItems](http://msdn.microsoft.com/en-us/library/dd635460%28v=exchg.80%29.aspx) <br/> |[删除项](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx) <br/> |
+|删除批次中的联系人  <br/> |[ExchangeService.DeleteItems](http://msdn.microsoft.com/en-us/library/dd635460%28v=exchg.80%29.aspx) <br/> |[DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |
    
 在本文中，您将了解如何通过使用 EWS 托管 API 或 EWS 完成的联系人的批次的基本任务。
   
@@ -360,7 +360,7 @@ public static void BatchDeleteContactItems(ExchangeService service, Collection<I
 ## <a name="delete-contacts-in-batches-by-using-ews"></a>使用 EWS 删除批次中的联系人
 <a name="bk_EWSMADelete"> </a>
 
-下面的代码示例中所示，您可以使用[删除项](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx)EWS 操作中，删除批次中的联系人。 这也是 EWS 托管 API 时您使用 EWS 托管 API 到[删除批次中的联系人](#bk_EWSMADelete)发送的 XML 请求。 为便于阅读缩短了**ItemId**属性。 
+下面的代码示例中所示，您可以使用[删除项](../web-service-reference/deleteitem-operation.md)EWS 操作中，删除批次中的联系人。 这也是 EWS 托管 API 时您使用 EWS 托管 API 到[删除批次中的联系人](#bk_EWSMADelete)发送的 XML 请求。 为便于阅读缩短了**ItemId**属性。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -393,7 +393,7 @@ xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   
 使用 EWS 托管 API 验证成功的批处理过程，您可以检查[ServiceResponseCollection](http://msdn.microsoft.com/en-us/library/dd633715%28v=exchg.80%29.aspx)的[OverallResult](http://msdn.microsoft.com/en-us/library/dd634515%28v=exchg.80%29.aspx)属性等于[ServiceResult.Success](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresult%28v=exchg.80%29.aspx)。 如果是这样，所有联系人都已成功都处理。 如果**OverallResult**不等于**ServiceResult.Success**，一个或多个联系人未成功处理。 每个**ServiceResponseCollection**中返回的对象包含以下属性： 
   
-- [错误代码](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresponse.errorcode%28v=exchg.80%29.aspx)
+- [ErrorCode](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresponse.errorcode%28v=exchg.80%29.aspx)
     
 - [ErrorDetails](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresponse.errordetails%28v=exchg.80%29.aspx)
     

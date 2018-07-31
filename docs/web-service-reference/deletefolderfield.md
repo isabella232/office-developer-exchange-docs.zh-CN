@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: f9c2187b-4c60-4358-b4b4-ede50eadae48
 description: DeleteFolderField 元素均表示 UpdateFolder 呼叫期间，从文件夹中删除给定的属性的操作。
-ms.openlocfilehash: d0a5fb18c5f3445982a6417007ad6af9b1b365af
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 60d4a5c19d89c109913e83fea99c2f7910566c72
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753802"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354090"
 ---
 # <a name="deletefolderfield"></a>DeleteFolderField
 
@@ -35,12 +35,25 @@ ms.locfileid: "19753802"
 </DeleteFolderField>
 ```
 
- **DeleteFolderFieldType**
+```xml
+<DeleteFolderField>
+   <ExtendedFieldURI/>
+</DeleteFolderField>
+```
+
+```xml
+<DeleteFolderField>
+   <IndexedFieldURI/>
+</DeleteFolderField>
+```
+
+**DeleteFolderFieldType**
+
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   

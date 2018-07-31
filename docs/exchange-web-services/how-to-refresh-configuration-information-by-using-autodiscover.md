@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: c2f3c6a5-e8ea-4375-b41a-686a6f238d33
 description: 了解如何以及何时使用自动发现刷新 Exchange 连接的配置信息。
-ms.openlocfilehash: ef3b61781cbafa6e7b873336a050c0b8c33a28ec
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 764909fbe5e4cd62ba6e05bfa4b2c417ef41a9ae
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752896"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353054"
 ---
 # <a name="refresh-configuration-information-by-using-autodiscover"></a>使用自动发现刷新配置信息
 
@@ -67,12 +67,12 @@ EWS 应用程序在首次运行时自动发现提供好方法，用于收集需�
 |:-----|:-----|:-----|
 |DNS 或网络失败错误<br/><br/> 示例： 找不到主机名。  <br/> |[ServiceRemoteException](https://msdn.microsoft.com/library/Microsoft.Exchange.WebServices.Data.ServiceRemoteException.aspx) <br/> |可能通过尝试自动发现解决任何错误，指示服务器无法找到或无法联系。 <br/><br/> 您缓存的 EWS 终结点可能不再有效，并且自动发现可能能够您指向新的服务器。  <br/> |
 |HTTP 状态错误<br/><br/> 示例： 503 服务不可用  <br/> |[ServiceRemoteException](https://msdn.microsoft.com/library/Microsoft.Exchange.WebServices.Data.ServiceRemoteException.aspx) <br/> |HTTP 状态错误可能不同的原因。<br/><br/> 但是，最好尝试自动发现新的 EWS 终结点可供用户。  <br/> |
-|EWS 错误代码 <br/><br/> 示例： ErrorConnectionFailed <br/> |[ResponseCodeType](https://msdn.microsoft.com/library/Microsoft.Exchange.WebServices.Data.ResponseCodeType.aspx) <br/> | 大多数 EWS 错误代码不保证刷新配置信息。<br/><br/> 但是，以下专门指示需要更新的配置信息：<br/>- **ErrorConnectionFailed** <br/>- **ErrorMailboxMoveInProgress** <br/> |
+|EWS 错误代码 <br/><br/> 示例： ErrorConnectionFailed <br/> |[ResponseCodeType](../web-service-reference/responsecode.md) <br/> | 大多数 EWS 错误代码不保证刷新配置信息。<br/><br/> 但是，以下专门指示需要更新的配置信息：<br/>- **ErrorConnectionFailed** <br/>- **ErrorMailboxMoveInProgress** <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
 - [Exchange 自动发现](autodiscover-for-exchange.md)  
-- [生成自动发现终结点的列表](how-to-generate-a-list-of-autodiscover-endpoints.md)   
+- [生成自动发现终结点列表](how-to-generate-a-list-of-autodiscover-endpoints.md)   
 - [通过使用自动发现 Exchange 中获取用户设置](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
     
 

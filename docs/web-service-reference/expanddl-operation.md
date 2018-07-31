@@ -1,7 +1,7 @@
 ---
 title: ExpandDL 操作
 manager: sethgros
-ms.date: 09/17/2015
+ms.date: 07/27/2018
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 1f7837e7-9eff-4e10-9577-c40f7ed6af94
 description: ExpandDL 操作公开完整的通讯组列表成员身份。
-ms.openlocfilehash: e4654120881f81a79358e0e7c0ab016f94db3288
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 4af6198ff15407b7fb71cdb4010ff6ce035460d0
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754205"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353740"
 ---
 # <a name="expanddl-operation"></a>ExpandDL 操作
 
@@ -46,7 +46,7 @@ ExpandDL 操作使用位于 Exchange.asmx Web 服务。 此 Web 服务方法接�
 > [!IMPORTANT]
 > 显示名称不是唯一的。 多个帐户可以共享相同的显示名称。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 不支持递归扩展。 可以在单个呼叫中展开只有一个通讯组列表。 如果多个通讯组列表匹配条件，Web 服务报告的错误。 客户端应用程序可以使用模糊名称解析 (ANR) 以查找不明确的通讯组列表，然后选择所需的通讯组列表的正确的电子邮件地址作为参数用于[ExpandDL 操作](expanddl-operation.md)。 有关详细信息，请参阅[ResolveNames 操作](resolvenames-operation.md)。
   
@@ -64,17 +64,18 @@ ExpandDL 请求的下面的示例演示如何以形成展开私有通讯组列�
   
 ### <a name="code"></a>代码
 
-```XML
+```xml
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <t:RequestServerVersion Version="Exchange2013_SP1" />
+  </soap:Header>
   <soap:Body>
-    <ExpandDL xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-              xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
-        <t:Mailbox>
-          <t:ItemId Id="xASUAd==" ChangeKey="AAts0Q=="/>
-        </t:Mailbox>
-    </ExpandDL>
+    <m:ExpandDL>
+      <m:Mailbox>
+       <t:EmailAddress>test</t:EmailAddress>
+      </m:Mailbox>
+    </m:ExpandDL>
   </soap:Body>
 </soap:Envelope>
 ```
@@ -91,7 +92,7 @@ ExpandDL 请求的下面的示例演示如何以形成展开公用通讯组列�
   
 ### <a name="code"></a>代码
 
-```XML
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
                xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
@@ -146,7 +147,7 @@ ExpandDL 响应的下面的示例演示上述请求的响应。 通讯组列表�
   
 ### <a name="code"></a>代码
 
-```XML
+```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
@@ -226,7 +227,7 @@ ExpandDL 响应的下面的示例演示上述请求的响应。 通讯组列表�
   
 ### <a name="code"></a>代码
 
-```XML
+```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 8e71cb44-1df6-444a-add7-0c1363863f65
 description: 文件夹元素包含在文件夹操作中使用的文件夹的数组。
-ms.openlocfilehash: e1b9e337f633dbf6fda159c28725d3fb8dcd55a6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 34372f2480825c7a9977eeae8e730c201307f36b
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754396"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353586"
 ---
 # <a name="folders"></a>文件夹
 
@@ -29,12 +29,37 @@ ms.locfileid: "19754396"
 </Folders>
 ```
 
- **ArrayOfFoldersType**或**NonEmptyArrayOfFoldersType**
+```xml
+<Folders>
+   <ContactsFolder/> 
+</Folders>
+```
+
+```xml
+<Folders>
+   <TasksFolder/>
+</Folders>
+```
+
+```xml
+<Folders>
+   <CalendarFolder/>
+</Folders>
+```
+
+```xml
+<Folders>
+   <SearchFolder/> 
+</Folders>
+```
+
+**ArrayOfFoldersType**或**NonEmptyArrayOfFoldersType**
+
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -62,7 +87,7 @@ ms.locfileid: "19754396"
 |[RootFolder (FindFolderResponseMessage)](rootfolder-findfolderresponsemessage.md) <br/> |包含搜索[FindFolder 操作](findfolder-operation.md)过程中的单个根文件夹的结果。  <br/> |
 |[UpdateFolderResponseMessage](updatefolderresponsemessage.md) <br/> |包含状态和的单个结果[UpdateFolder 操作](updatefolder-operation.md)请求。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此元素是[ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md)元素的必需的子元素。 
   
@@ -79,7 +104,5 @@ ms.locfileid: "19754396"
    
 ## <a name="see-also"></a>另请参阅
 
-
-
-[ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md)
+- [ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md)
 

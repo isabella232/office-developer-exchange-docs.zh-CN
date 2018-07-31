@@ -1,5 +1,5 @@
 ---
-title: 通知
+title: Notification
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -12,14 +12,14 @@ api_type:
 - schema
 ms.assetid: c9070936-0930-438e-839c-91127256a6c8
 description: 通知元素包含有关订阅和自上次通知以来发生的事件的信息。
-ms.openlocfilehash: a769d8988eb68d0fa0b02f3838cd891e714571b6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 942ec18521fc484a7a3aa1385fb54f480ce9d11f
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826547"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354349"
 ---
-# <a name="notification"></a>通知
+# <a name="notification"></a>Notification
 
 **通知**元素包含有关订阅和自上次通知以来发生的事件的信息。 
   
@@ -32,12 +32,76 @@ ms.locfileid: "19826547"
 </Notification>
 ```
 
- **NotificationType**
+```xml
+<Notification>
+   <SubscriptionId/>
+   <PreviousWatermark/>
+   <MoreEvents/>
+   <CreatedEvent/>
+</Notification>
+```
+
+```xml
+<Notification>
+   <SubscriptionId/>
+   <PreviousWatermark/>
+   <MoreEvents/>
+   <DeletedEvent/>
+</Notification>
+```
+
+```xml
+<Notification>
+   <SubscriptionId/>
+   <PreviousWatermark/>
+   <MoreEvents/>
+   <ModifiedEvent/>
+</Notification>
+```
+
+```xml
+<Notification>
+   <SubscriptionId/>
+   <PreviousWatermark/>
+   <MoreEvents/>
+   <MovedEvent/>
+</Notification>
+```
+
+```xml
+<Notification>
+   <SubscriptionId/>
+   <PreviousWatermark/>
+   <MoreEvents/>
+   <NewMailEvent/>
+</Notification>
+```
+
+```xml
+<Notification>
+   <SubscriptionId/>
+   <PreviousWatermark/>
+   <MoreEvents/>
+   <StatusEvent/>
+</Notification>
+```
+
+```xml
+<Notification>
+   <SubscriptionId/>
+   <PreviousWatermark/>
+   <MoreEvents/>
+   <FreeBusyChangedEvent/>
+</Notification>
+```
+
+**NotificationType**
+
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -68,7 +132,7 @@ ms.locfileid: "19826547"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -83,13 +147,8 @@ ms.locfileid: "19826547"
    
 ## <a name="see-also"></a>另请参阅
 
-
-
-[订阅操作](subscribe-operation.md)
-  
-[GetEvents 操作](getevents-operation.md)
-  
-[GetStreamingEvents 操作](getstreamingevents-operation.md)
-  
-[取消操作](unsubscribe-operation.md)
+- [Subscribe 操作](subscribe-operation.md) 
+- [GetEvents 操作](getevents-operation.md) 
+- [GetStreamingEvents 操作](getstreamingevents-operation.md) 
+- [Unsubscribe 操作](unsubscribe-operation.md)
 

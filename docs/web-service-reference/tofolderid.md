@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: bd6a4265-ad40-43f6-bcc4-0bf5df4e984c
 description: ToFolderId 元素均表示复制或移动项目或文件夹的目标的文件夹。
-ms.openlocfilehash: a48309f0b7f5c9bf667fc2eb653a0502832bc996
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9d2fd6c177711cfe3a5d3415320440259e2f5289
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838246"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353656"
 ---
 # <a name="tofolderid"></a>ToFolderId
 
@@ -29,12 +29,19 @@ ms.locfileid: "19838246"
 </ToFolderId>
 ```
 
- **TargetFolderIdType**
+```xml
+<ToFolderId>
+   <DistinguishedFolderId/>
+</ToFolderId>
+```
+
+**TargetFolderIdType**
+
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,19 +49,19 @@ ms.locfileid: "19838246"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[文件夹 Id](folderid.md) <br/> |包含用于复制或移动的项或文件夹的目标文件夹的标识符。  <br/> |
+|[FolderId](folderid.md) <br/> |包含用于复制或移动的项或文件夹的目标文件夹的标识符。  <br/> |
 |[DistinguishedFolderId](distinguishedfolderid.md) <br/> |标识命名的目标文件夹复制或移动的项或文件夹。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[MoveFolder](movefolder.md) <br/> |定义将文件夹移 Exchange 存储中的请求。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/MoveFolder` <br/> |
-|[CopyFolder](copyfolder.md) <br/> |定义在 Exchange 存储中复制文件夹的请求。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/CopyFolder` <br/> |
-|[MoveItem](moveitem.md) <br/> |定义在 Exchange 存储中移动项目的请求。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/MoveItem` <br/> |
-|[CopyItem](copyitem.md) <br/> |定义在 Exchange 存储中复制项的请求。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/CopyItem` <br/> |
+|[MoveFolder](movefolder.md) <br/> |定义将文件夹移 Exchange 存储中的请求。  <br/> 下面是此元素的 XPath 表达式:    <br/>  `/MoveFolder` <br/> |
+|[CopyFolder](copyfolder.md) <br/> |定义在 Exchange 存储中复制文件夹的请求。  <br/> 下面是此元素的 XPath 表达式:    <br/>  `/CopyFolder` <br/> |
+|[MoveItem](moveitem.md) <br/> |定义在 Exchange 存储中移动项目的请求。  <br/> 下面是此元素的 XPath 表达式:    <br/>  `/MoveItem` <br/> |
+|[CopyItem](copyitem.md) <br/> |定义在 Exchange 存储中复制项的请求。  <br/> 下面是此元素的 XPath 表达式:    <br/>  `/CopyItem` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -69,13 +76,8 @@ ms.locfileid: "19838246"
    
 ## <a name="see-also"></a>另请参阅
 
-
-
-[MoveFolder 操作](movefolder-operation.md)
-  
-[CopyFolder 操作](copyfolder-operation.md)
-  
-[MoveItem 操作](moveitem-operation.md)
-  
-[CopyItem 操作](copyitem-operation.md)
+- [MoveFolder 操作](movefolder-operation.md)  
+- [CopyFolder 操作](copyfolder-operation.md) 
+- [MoveItem 操作](moveitem-operation.md) 
+- [CopyItem 操作](copyitem-operation.md)
 

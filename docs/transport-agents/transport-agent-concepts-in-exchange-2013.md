@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0c700af8-2792-4d3f-8571-8860e0550d8e
 description: 查找有关如何传输代理管道和服务器角色体系结构在 Exchange 2013 影响传输代理开发，以及可用于开发传输代理的类的信息。
-ms.openlocfilehash: 9ddee0d68c9104357f84322b2cce7c5f2576d871
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 6f7a03e16b260117c6ee27b86ec0e55b5346e301
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753089"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353705"
 ---
 # <a name="transport-agent-concepts-in-exchange-2013"></a>传输代理 Exchange 2013 中的概念
 
@@ -100,7 +100,7 @@ ms.locfileid: "19753089"
 |代理类型  <br/> |中心基类  <br/> |代理基类  <br/> |
 |SMTP 接收  <br/> |[SmtpReceiveAgentFactory](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgentFactory.aspx) <br/> |[SmtpReceiveAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.aspx) <br/> |
 |路由  <br/> |[RoutingAgentFactory](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgentFactory.aspx) <br/> |[RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx) <br/> |
-|传递  <br/> |[DeliveryAgentFactory\<管理器\>](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Delivery.DeliveryAgentFactory`1.aspx) <br/> |[DeliveryAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Delivery.DeliveryAgent.aspx) <br/> |
+|传递  <br/> |[DeliveryAgentFactory\<管理器\>](https://msdn.microsoft.com/en-us/library/dd877550(v=exchg.150).aspx) <br/> |[DeliveryAgent](https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.transport.delivery.deliveryagent(v=exchg.150).aspx) <br/> |
    
 属性和方法可用于访问传输事件和消息，提供了这些中心和代理的基类。 在您从这些类继承的代理中实现类。 在代理工厂派生类中，重写**CreateAgent**方法，以便它返回代理类的新实例。 
   

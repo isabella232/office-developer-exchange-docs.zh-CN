@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: b5d85eb2-5e15-4d01-ad49-6289e735ad8a
 description: IsLessThanOrEqualTo 元素均表示一个搜索表达式的比较一个常数值的属性或另一个属性，并返回 true 的第一个属性是否小于或等于第二个。
-ms.openlocfilehash: 9aeb688ec68e13635ac3083119899bcd55045f7a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 8e312505b467952b5503b8ad51ed3fd62e92ad09
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826043"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353481"
 ---
 # <a name="islessthanorequalto"></a>IsLessThanOrEqualTo
 
@@ -30,12 +30,27 @@ ms.locfileid: "19826043"
 </IsLessThanOrEqualTo>
 ```
 
- **IsLessThanOrEqualToType**
+```xml
+<IsLessThanOrEqualTo>
+   <IndexedFieldURI/> 
+   <FieldURIOrConstant/>
+</IsLessThanOrEqualTo>
+```
+
+```xml
+<IsLessThanOrEqualTo>
+   <ExtendedFieldURI/> 
+   <FieldURIOrConstant/>
+</IsLessThanOrEqualTo>
+```
+
+**IsLessThanOrEqualToType**
+
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -71,8 +86,6 @@ ms.locfileid: "19826043"
 |可以为空  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>另请参阅
-
-
 
 - [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

@@ -12,30 +12,130 @@ api_type:
 - schema
 ms.assetid: 8c69db7b-54b5-4ae2-abca-4d6e0937a790
 description: SetFolderField 元素表示的 UpdateFolder 操作中的文件夹上设置单个属性的值更新。
-ms.openlocfilehash: 1919c335197c83999875a17397e9c9d4405d1e3f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ed5c055c697865d5eb728d269c6f4c7ce60f4b5c
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827407"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353285"
 ---
 # <a name="setfolderfield"></a>SetFolderField
 
 **SetFolderField**元素表示的 UpdateFolder 操作中的文件夹上设置单个属性的值更新。 
-  
+
 ```xml
 <SetFolderField>
    <FieldURI/>
    <Folder/>
 </SetFolderField>
 ```
+  
+```xml
+<SetFolderField>
+   <IndexedFieldURI/> 
+   <SearchFolder/> 
+</SetFolderField>
+```
 
- **SetFolderFieldType**
+```xml
+<SetFolderField>
+   <FieldURI/> 
+   <TasksFolder/>
+</SetFolderField>
+```
+
+```xml
+<SetFolderField>
+   <ExtendedFieldURI/> 
+   <CalendarFolder/> 
+</SetFolderField>
+```
+
+```xml
+<SetFolderField>
+   <ExtendedFieldURI/> 
+   <SearchFolder/>
+</SetFolderField>
+```
+
+```xml
+<SetFolderField>
+   <ExtendedFieldURI/> 
+   <Folder/> 
+</SetFolderField>
+```
+
+```xml
+<SetFolderField>
+    <IndexedFieldURI/> 
+    <TasksFolder/>
+</SetFolderField>
+```
+
+```xml
+<SetFolderField>
+   <FieldURI/> 
+   <SearchFolder/>
+</SetFolderField>
+```
+
+```xml
+<SetFolderField>
+   <FieldURI/> 
+   <CalendarFolder/> 
+</SetFolderField>
+```
+
+```xml
+<SetFolderField>
+   <ExtendedFieldURI/> 
+   <TasksFolder/> 
+</SetFolderField>
+```
+
+```xml
+<SetFolderField>
+   <IndexedFieldURI/> 
+   <CalendarFolder/> 
+</SetFolderField>
+```
+
+```xml
+<SetFolderField>
+   <IndexedFieldURI/> 
+   <Folder/>
+</SetFolderField>
+```
+
+```xml
+<SetFolderField>
+    <FieldURI/> 
+    <ContactsFolder/>
+</SetFolderField>
+```
+
+```xml
+<SetFolderField>
+   <ExtendedFieldURI/> 
+   <ContactsFolder/>
+</SetFolderField>
+```
+
+```xml
+<SetFolderField>
+   <IndexedFieldURI/> 
+   <ContactsFolder/> 
+</SetFolderField>
+```
+
+
+**SetFolderFieldType**
+
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -58,7 +158,7 @@ ms.locfileid: "19827407"
 |:-----|:-----|
 |[Updates 文件夹](updates-folder.md) <br/> |包含一组定义的元素的 append、 设置和删除对文件夹属性的更改。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果该属性存在，该属性值设置为指定的值。 如果属性不存在，该属性创建指定的值。
   
@@ -75,10 +175,6 @@ ms.locfileid: "19827407"
    
 ## <a name="see-also"></a>另请参阅
 
-
-
-[UpdateFolder Operation](updatefolder-operation.md)
-
-
+- [UpdateFolder 操作](updatefolder-operation.md)
 - [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

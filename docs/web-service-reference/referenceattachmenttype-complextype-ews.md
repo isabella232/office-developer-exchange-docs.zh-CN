@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 18bfa012-e903-d7f3-528a-31ccceb65463
-ms.openlocfilehash: da9ff2b73f86bba3003c31dec009ea11a9b26b32
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c53686ccd032cabcc3f64a3a6684f29afe63a9b1
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827030"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354174"
 ---
 # <a name="referenceattachmenttype-complextype-ews"></a>ReferenceAttachmentType 复杂类型 (EWS)
 
@@ -47,7 +47,7 @@ ms.locfileid: "19827030"
 
 |**元素**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|[AttachLongPathName](http://msdn.microsoft.com/library/98464422-2c13-8d33-0fe3-b1978f2d5b4a%28Office.15%29.aspx) <br/> |xs:string  <br/> ||
+|[AttachLongPathName](attachlongpathname.md) <br/> |xs:string  <br/> ||
    
 ### <a name="attributes"></a>属性
 

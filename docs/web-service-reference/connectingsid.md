@@ -12,20 +12,19 @@ api_type:
 - schema
 ms.assetid: 56d6aa52-8fa6-4773-9046-44a6f4f5d97c
 description: ConnectingSID 元素均表示用于模拟使用 ExchangeImpersonation SOAP 标头时的帐户。
-ms.openlocfilehash: 6e0bb90e197ce22bcd982a6d51954a88f3a2cf03
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a30f11721506989a84f52dd04c328974f4483956
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753488"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354335"
 ---
 # <a name="connectingsid"></a>ConnectingSID
 
 **ConnectingSID**元素均表示用于模拟使用 ExchangeImpersonation SOAP 标头时的帐户。 
   
-[ExchangeImpersonation](exchangeimpersonation.md)
-  
-[ConnectingSID](connectingsid.md)
+- [ExchangeImpersonation](exchangeimpersonation.md) 
+- [ConnectingSID](connectingsid.md)
   
 ```xml
 <ConnectingSID>
@@ -33,12 +32,31 @@ ms.locfileid: "19753488"
 </ConnectingSID>
 ```
 
- **ConnectingSIDType**
+```xml
+<ConnectingSID>
+   <SmtpAddress/>
+</ConnectingSID>
+```
+
+```xml
+<ConnectingSID>
+    <SID/> 
+</ConnectingSID>
+```
+
+```xml
+<ConnectingSID>
+   <PrimarySmtpAddress/>
+</ConnectingSID>
+```
+
+**ConnectingSIDType**
+
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -55,9 +73,9 @@ ms.locfileid: "19753488"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ExchangeImpersonation](exchangeimpersonation.md) <br/> |请求的 SOAP 标头中使用。 如果此元素存在，调用方尝试模拟**ExchangeImpersonation**元素中包含的帐户。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/ExchangeImpersonation` <br/> |
+|[ExchangeImpersonation](exchangeimpersonation.md) <br/> |请求的 SOAP 标头中使用。 如果此元素存在，调用方尝试模拟**ExchangeImpersonation**元素中包含的帐户。  <br/> 下面是此元素的 XPath 表达式:    <br/>  `/ExchangeImpersonation` <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 调用帐户必须具有**ms exch 模拟**客户端访问服务器和**ms-exch MayImpersonate**上右右上也包含要模拟的邮箱的邮箱数据库或 Active Directory 用户或联系人对象。 
   
@@ -74,7 +92,5 @@ ms.locfileid: "19753488"
    
 ## <a name="see-also"></a>另请参阅
 
-
-
-[EWS 中的服务器到服务器授权](http://msdn.microsoft.com/library/f1610a20-672d-448b-8c00-5b0fbcaf31cb%28Office.15%29.aspx)
+- [EWS 中的服务器到服务器授权](http://msdn.microsoft.com/library/f1610a20-672d-448b-8c00-5b0fbcaf31cb%28Office.15%29.aspx)
 

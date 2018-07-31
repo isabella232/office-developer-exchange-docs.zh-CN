@@ -1,19 +1,19 @@
 ---
-title: 搜索和 Exchange 中的 EWS
+title: 搜索和交换中的 EWS
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 9fa5b836-857e-401d-9450-51e7dbc69104
 description: 了解如何使用 EWS 托管 API 或 EWS 在 Exchange 搜索的项目。
-ms.openlocfilehash: da24258ba94b842fa97fff92148620344c939f05
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 1a8ed6be71d88a02c4ef935864ca15888df90a38
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753014"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354055"
 ---
-# <a name="search-and-ews-in-exchange"></a>搜索和 Exchange 中的 EWS
+# <a name="search-and-ews-in-exchange"></a>搜索和交换中的 EWS
 
 了解如何使用 EWS 托管 API 或 EWS 在 Exchange 搜索的项目。
   
@@ -115,8 +115,8 @@ view.PropertySet = new PropertySet(ItemSchema.Subject, ItemSchema.DateTimeReceiv
 |:-----|:-----|:-----|
 |浅  <br/> |项目和文件夹  <br/> |浅表搜索被限制为要搜索的文件夹的直接子级。  <br/> |
 |深  <br/> |（仅与搜索文件夹） 项和文件夹  <br/> |深入搜索以递归方式搜索所搜索的文件夹和子文件夹。  <br/> |
-|关联  <br/> |项目  <br/> |关联的搜索仅包括相关的项，从要搜索的文件夹。 关联的项目的文件夹中的隐藏的项目。  <br/> |
-|带有 SoftDeleted  <br/> |项目和文件夹  <br/> |此遍历类型已被弃用。 带有 SoftDeleted 搜索仅包含项目中的转储程序。 转储程序已由[Recoverable Items Folder](http://technet.microsoft.com/en-us/library/ee364755%28v=exchg.150%29.aspx(Office.15).aspx) in Exchange Online、 Exchange Online 作为 Office 365 的一部分和版本的 Exchange 启动与 Exchange 2010 取代。  <br/> |
+|关联  <br/> |Items  <br/> |关联的搜索仅包括相关的项，从要搜索的文件夹。 关联的项目的文件夹中的隐藏的项目。  <br/> |
+|带有 SoftDeleted  <br/> |项目和文件夹  <br/> |此遍历类型已被弃用。 带有 SoftDeleted 搜索仅包含项目中的转储程序。 转储程序已由[Recoverable Items Folder](https://docs.microsoft.com/en-us/exchange/policy-and-compliance/recoverable-items-folder/recoverable-items-folder) in Exchange Online、 Exchange Online 作为 Office 365 的一部分和版本的 Exchange 启动与 Exchange 2010 取代。  <br/> |
    
 ## <a name="managing-search-results"></a>管理搜索结果
 <a name="bk_ManageSearchResults"> </a>
@@ -188,7 +188,7 @@ static void CreateSearchFolder(ExchangeService service)
 
 - [开发 Exchange Web 服务客户端](develop-web-service-clients-for-exchange.md)
     
-- [可恢复的项目文件夹](http://technet.microsoft.com/en-us/library/ee364755%28v=exchg.150%29.aspx(Office.15).aspx)
+- [可恢复的项目文件夹](https://docs.microsoft.com/en-us/exchange/policy-and-compliance/recoverable-items-folder/recoverable-items-folder)
     
 - [ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)
     

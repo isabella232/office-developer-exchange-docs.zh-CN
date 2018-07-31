@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: e7998023-e5e0-465c-91fa-2aa6d1559f64
 description: ParentFolderIds 元素标识 FindItem 和 FindFolder 操作搜索的文件夹。
-ms.openlocfilehash: 4dd23b45dcc397e29e67fc08b29dd773e50f0db1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 7c4dcc98d1cabc8e97f2846880c73111dd307dfb
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826688"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354167"
 ---
 # <a name="parentfolderids"></a>ParentFolderIds
 
@@ -29,13 +29,19 @@ ms.locfileid: "19826688"
 <ParentFolderIds>
 ```
 
+```xml
+<ParentFolderIds>
+   <FolderId/> 
+<ParentFolderIds>
+```
+
 **NonEmptyArrayOfBaseFolderIdsType**
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -43,7 +49,7 @@ ms.locfileid: "19826688"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[文件夹 Id](folderid.md) <br/> |包含一个文件夹的标识符和更改键。 此元素或[DistinguishedFolderId](distinguishedfolderid.md)元素，则必须使用**ParentFolderIds**元素。  <br/> |
+|[FolderId](folderid.md) <br/> |包含一个文件夹的标识符和更改键。 此元素或[DistinguishedFolderId](distinguishedfolderid.md)元素，则必须使用**ParentFolderIds**元素。  <br/> |
 |[DistinguishedFolderId](distinguishedfolderid.md) <br/> |标识可以通过名称引用的 Microsoft Exchange Server 2007 文件夹。 此元素或[文件夹 Id](folderid.md)元素，则必须使用**ParentFolderIds**元素。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
@@ -54,7 +60,7 @@ ms.locfileid: "19826688"
 |[FindItem](finditem.md) <br/> |定义查找邮箱中的项目的请求。  <br/> |
 |[ResolveNames](resolvenames.md) <br/> |定义请求解析模糊名称。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 [文件夹 Id](folderid.md)或[DistinguishedFolderId](distinguishedfolderid.md)元素，则必须使用**ParentFolderIds**元素。 搜索可以定义任意的数量的文件夹。 
   
@@ -88,7 +94,7 @@ ms.locfileid: "19826688"
    
 ## <a name="see-also"></a>另请参阅
 
-- [FindFolder Operation](findfolder-operation.md)  
+- [FindFolder 操作](findfolder-operation.md)  
 - [FindItem 操作](finditem-operation.md) 
 - [ResolveNames 操作](resolvenames-operation.md)
 

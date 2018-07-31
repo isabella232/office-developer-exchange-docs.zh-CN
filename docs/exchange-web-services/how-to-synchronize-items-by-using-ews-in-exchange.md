@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 886e7d35-9096-480b-8a8c-a7db27da06c2
 description: 了解如何使用 EWS 托管 API 或 EWS 获取中的列表的所有项目的文件夹或已发生更改的列表在文件夹中，以便同步您的客户端。
-ms.openlocfilehash: ce29a77cee595c2358441e4a22d32d45e78c6e60
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 8763c053463e4787741ef992ddb99d29be4192fc
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752886"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353782"
 ---
 # <a name="synchronize-items-by-using-ews-in-exchange"></a>使用 EWS 在 Exchange 同步的项目
 
@@ -107,6 +107,8 @@ while (moreChangesAvailable);
 </soap:Envelope>
 ```
 
+<a name="bk_responsesyncfolderitems"> </a>
+
 下面的示例演示后处理来自客户端的**SyncFolderItems**操作请求服务器返回的 XML 响应。 初始响应包括[创建](http://msdn.microsoft.com/library/cb5e64a2-66a5-4447-921e-7c13efb8f6bf%28Office.15%29.aspx)元素的五个项目，因为所有项目被都视为新期间初始同步。 为了方便读取，已缩短一些属性和元素的值。 
   
 ```XML
@@ -176,7 +178,7 @@ while (moreChangesAvailable);
 ## <a name="get-the-changes-since-the-last-sync-by-using-ews"></a>使用 EWS 获取上次同步后所做的更改
 <a name="bk_ewsexamplec"> </a>
 
-下面的示例演示 XML 请求收件箱中获取项目的更改的列表，使用[SyncFolderItems](http://msdn.microsoft.com/library/7f0de089-8876-47ec-a871-df118ceae75d%28Office.15%29.aspx)操作。 这也是 XML 请求 EWS 托管 API 发送时[检索到收件箱的更改的列表](#bk_cesyncongoingewsma)。 本示例将[SyncState](http://msdn.microsoft.com/library/e5ebaae3-0f07-481d-ac67-d9687a3c7ac3%28Office.15%29.aspx)元素的值设置为在[以前的响应](http://msdn.microsoft.com/library/886e7d35-9096-480b-8a8c-a7db27da06c2bk_ewsexamplea%28Office.15%29.aspx)中返回的值。 并用于演示，本示例将[BaseShape](http://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx)元素设置为**AllProperties**而不是**IdOnly**显示返回的其他属性。 [同步的最佳做法](mailbox-synchronization-and-ews-in-exchange.md#bk_bestpractices)是将[BaseShape](http://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx)元素设置为**IdOnly** 。 为便于阅读缩短了**SyncState**的值。 
+下面的示例演示 XML 请求收件箱中获取项目的更改的列表，使用[SyncFolderItems](http://msdn.microsoft.com/library/7f0de089-8876-47ec-a871-df118ceae75d%28Office.15%29.aspx)操作。 这也是 XML 请求 EWS 托管 API 发送时[检索到收件箱的更改的列表](#bk_cesyncongoingewsma)。 本示例将[SyncState](http://msdn.microsoft.com/library/e5ebaae3-0f07-481d-ac67-d9687a3c7ac3%28Office.15%29.aspx)元素的值设置为在[以前的响应](#bk_responsesyncfolderitems)中返回的值。 并用于演示，本示例将[BaseShape](http://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx)元素设置为**AllProperties**而不是**IdOnly**显示返回的其他属性。 [同步的最佳做法](mailbox-synchronization-and-ews-in-exchange.md#bk_bestpractices)是将[BaseShape](http://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx)元素设置为**IdOnly** 。 为便于阅读缩短了**SyncState**的值。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

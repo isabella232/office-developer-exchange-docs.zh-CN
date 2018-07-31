@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: fb2952e2-cbfe-43ac-b746-f071faa7665c
 description: 了解如何创建、 获取、 更新或通过使用 EWS 的 EWS 托管 API 在 Exchange 中删除的单个呼叫中的日历项目批次。
-ms.openlocfilehash: 2c92b492d9b51d0a5ac3140af22e5527e7bf19be
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e18e74490b536c07e90c64f76f81c98b4eab6024
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752885"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353845"
 ---
 # <a name="process-calendar-items-in-batches-in-exchange"></a>在 Exchange 处理批次中的日历项目
 
@@ -26,7 +26,7 @@ ms.locfileid: "19752885"
 |在批处理中创建日历项  <br/> |[CreateItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.createitems%28v=exchg.80%29.aspx) <br/> |[CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) <br/> |
 |获取批次中的日历项目  <br/> |[BindToItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.bindtoitems%28v=exchg.80%29.aspx) <br/> |[GetItem](http://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) <br/> |
 |更新批次中的日历项目  <br/> |[UpdateItems](http://msdn.microsoft.com/en-us/library/dd634705%28v=exchg.80%29.aspx) <br/> |[UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> |
-|删除批次中的日历项目  <br/> |[DeleteItems](http://msdn.microsoft.com/en-us/library/dd635460%28v=exchg.80%29.aspx) <br/> |[删除项](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx) <br/> |
+|删除批次中的日历项目  <br/> |[DeleteItems](http://msdn.microsoft.com/en-us/library/dd635460%28v=exchg.80%29.aspx) <br/> |[DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |
    
 在本文中，您将了解如何通过使用 EWS 托管 API 或 EWS 完成的日历项目的批次的基本任务。
   
@@ -698,7 +698,7 @@ public static void BatchDeleteCalendarItemsTwice(ExchangeService service, Collec
 ## <a name="delete-calendar-items-in-batches-by-using-ews"></a>使用 EWS 删除批次中的日历项目
 <a name="bk_deleteews"> </a>
 
-下面的代码示例中所示，您可以使用[删除项](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx)EWS 操作中，删除批次中的日历项目。 这也是使用 EWS 托管 API 到[删除批次中的日历项目](#bk_deleteewsma)时，将发送 EWS 托管 API 的 XML 请求。 
+下面的代码示例中所示，您可以使用[删除项](../web-service-reference/deleteitem-operation.md)EWS 操作中，删除批次中的日历项目。 这也是使用 EWS 托管 API 到[删除批次中的日历项目](#bk_deleteewsma)时，将发送 EWS 托管 API 的 XML 请求。 
   
 为便于阅读缩短**ItemId**和**更改密钥**属性。 
   
@@ -806,7 +806,7 @@ public static void BatchDeleteCalendarItemsTwice(ExchangeService service, Collec
   
 使用 EWS 托管 API 验证成功的批处理过程，您可以检查[ServiceResponseCollection](http://msdn.microsoft.com/en-us/library/dd633715%28v=exchg.80%29.aspx)的[OverallResult](http://msdn.microsoft.com/en-us/library/dd634515%28v=exchg.80%29.aspx)属性等于[ServiceResult.Success](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresult%28v=exchg.80%29.aspx)。 如果是这样，所有日历项目都已成功都处理。 如果**OverallResult**不等于**ServiceResult.Success**，一个或多个日历项目的未成功处理。 每个**ServiceResponseCollection**中返回的对象包含以下属性： 
   
-- [错误代码](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresponse.errorcode%28v=exchg.80%29.aspx)
+- [ErrorCode](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresponse.errorcode%28v=exchg.80%29.aspx)
     
 - [ErrorDetails](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresponse.errordetails%28v=exchg.80%29.aspx)
     

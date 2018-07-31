@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 240d1776-7adc-46cd-9099-88ffeba0a8aa
 description: 了解如何使用 EWS 托管 API 和 EWS 在 Exchange 提供对用户邮箱的代理访问。
-ms.openlocfilehash: 0416ed1889a7c235a35cb49290d39d3ccfc28c49
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 344255d86a51e13b21f1eda5113d292395d7cb8f
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752722"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354048"
 ---
 # <a name="delegate-access-and-ews-in-exchange"></a>代理访问和 Exchange 中的 EWS
 
@@ -142,7 +142,7 @@ FindItemsResults<Item> results = service.FindItems(new FolderId(WellKnownFolderN
   
 ### <a name="implicit-access-and-ews"></a>隐式访问和 EWS
 
-如果项目 ID 检索到[FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)操作，该项目 ID 可用于在后续[GetItem](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx)操作中绑定到项。 然后，您可以调用[UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx)、[删除项](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx)或[CopyItem](http://msdn.microsoft.com/library/bcc68f9e-d511-4c29-bba6-ed535524624a%28Office.15%29.aspx)操作 — 或需要项目 ID 的任何操作，根据需要完成您的任务。 只要委派到的文件夹包含的项目具有适当的权限 （和，如果适用，文件夹项目将移至），代理人可以根据其权限级别进行更改。 
+如果项目 ID 检索到[FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)操作，该项目 ID 可用于在后续[GetItem](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx)操作中绑定到项。 然后，您可以调用[UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx)、[删除项](../web-service-reference/deleteitem-operation.md)或[CopyItem](http://msdn.microsoft.com/library/bcc68f9e-d511-4c29-bba6-ed535524624a%28Office.15%29.aspx)操作 — 或需要项目 ID 的任何操作，根据需要完成您的任务。 只要委派到的文件夹包含的项目具有适当的权限 （和，如果适用，文件夹项目将移至），代理人可以根据其权限级别进行更改。 
   
 ## <a name="in-this-section"></a>本节内容
 <a name="bk_implicit"> </a>

@@ -1,19 +1,19 @@
 ---
-title: EWS 应用程序通过使用 OAuth 进行身份验证
+title: 使用 OAuth 对 EWS 应用程序进行身份验证
 manager: sethgros
-ms.date: 1/15/2015
+ms.date: 07/27/2018
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 1d8d57f9-4df5-4f21-9bbb-a89e0e259052
 description: 了解如何使用 EWS 托管 API 应用程序的 OAuth 身份验证。
-ms.openlocfilehash: 66bbc0525ecf78407e853da0c8dcdec92791ca56
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 8b6a3fd72e42a36e31f261205292de28ef341270
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752745"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353579"
 ---
-# <a name="authenticate-an-ews-application-by-using-oauth"></a>EWS 应用程序通过使用 OAuth 进行身份验证
+# <a name="authenticate-an-ews-application-by-using-oauth"></a>使用 OAuth 对 EWS 应用程序进行身份验证
 
 了解如何使用 EWS 托管 API 应用程序的 OAuth 身份验证。
   
@@ -30,9 +30,9 @@ ms.locfileid: "19752745"
   
 若要使用本文中的代码，您将需要有权访问以下：
   
-- [Office 365 开发人员帐户](http://office.microsoft.com/compare-office-365-for-business-plans-FX102918419.aspx.aspx)。 您可以使用试用帐户来测试您的应用程序
+- [Office 365 开发人员帐户](https://docs.microsoft.com/en-us/office/developer-program/office-365-developer-program)。 试用帐户可用于测试您的应用程序。
     
-- [用于.NET 的 Azure AD 身份验证库](http://msdn.microsoft.com/en-us/library/office/jj573266.aspx.aspx)。
+- [用于.NET 的 Azure AD 身份验证库](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries)。
     
 - [EWS 托管 API](https://github.com/officedev/ews-managed-api.aspx)。
 
@@ -40,7 +40,7 @@ ms.locfileid: "19752745"
 
 ## <a name="register-your-application"></a>注册您的应用程序
 
-若要使用 OAuth，应用程序必须具有一个客户端标识符和应用程序标识应用程序的 URI。 如果您尚未尚未注册您的应用程序与 Azure Active Directory 服务，您将需要手动将您的应用程序添加按照下[注册您的应用程序](http://msdn.microsoft.com/en-us/office/office365/howto/test-and-deploy-apps.aspx)的步骤。
+若要使用 OAuth，应用程序必须具有一个客户端标识符和应用程序标识应用程序的 URI。 如果您尚未尚未注册您的应用程序与 Azure Active Directory 服务，您将需要手动将您的应用程序添加按照在[注册您的应用程序](https://apps.dev.microsoft.com/#/appList)的步骤。
 
 <a name="bk_getToken"> </a>
 
@@ -178,6 +178,6 @@ namespace TestV1App
 ## <a name="see-also"></a>另请参阅
 
 - [身份验证和 Exchange 中的 EWS](authentication-and-ews-in-exchange.md)    
-- [测试和部署 Office 365 应用程序](http://msdn.microsoft.com/en-us/office/office365/howto/test-and-deploy-apps.aspx)
+
     
 

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: b53ed47a-3d01-4c4e-ad32-fb0532872aad
 description: 了解可用于在 Exchange 2013 传输代理读取、 写入和修改邮件的.NET Framework 类。
-ms.openlocfilehash: c2a5d764140b86ddec49d51ec969aab63eb34f19
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a39d6ecaeb837ce2760d762107e78aa8d4f09f7c
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753090"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354006"
 ---
 # <a name="reading-and-modifying-messages-in-the-exchange-2013-transport-pipeline"></a>读取和修改 Exchange 2013 传输管道中的邮件
 
@@ -89,7 +89,7 @@ ICalendar 命名空间提供的 iCalendar 数据，除了支持结构和类可�
   
 [CalendarReader](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.aspx)和[CalendarWriter](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarWriter.aspx)类用于读取和写入 iCalendar 流数据。 
   
-CalendarReader 到其构造函数将作为参数的可读的[流](https://msdn.microsoft.com/library/System.IO.Stream.aspx)。 然后可以使用[ReadFirstChildComponent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ReadFirstChildComponent.aspx) 、 [ReadNextSiblingComponent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ReadNextSiblingComponent.aspx)和[ReadNextComponent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ReadNextComponent.aspx)方法按顺序访问中的数据流的 iCalendar 组件。 根据您已为[ComplianceMode](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ComplianceMode.aspx)属性设置的值，iCalendar 流中的错误会导致引发异常，或将导致[ComplianceStatus](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ComplianceStatus.aspx)属性设置为非[兼容](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarComplianceStatus.Compliant.aspx)的值。 您可以检查此属性以发现任何问题传入 iCalendar 数据。 
+CalendarReader 到其构造函数将作为参数的可读的[流](https://msdn.microsoft.com/library/System.IO.Stream.aspx)。 然后可以使用[ReadFirstChildComponent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ReadFirstChildComponent.aspx)、 [ReadNextSiblingComponent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ReadNextSiblingComponent.aspx)和[ReadNextComponent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ReadNextComponent.aspx)方法按顺序访问中的数据流的 iCalendar 组件。 根据您已为[ComplianceMode](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ComplianceMode.aspx)属性设置的值，iCalendar 流中的错误会导致引发异常，或将导致[ComplianceStatus](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ComplianceStatus.aspx)属性设置为非[兼容](https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.contenttypes.icalendar.calendarcompliancestatus.aspx)的值。 您可以检查此属性以发现任何问题传入 iCalendar 数据。 
   
 [CalendarWriter](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarWriter.aspx)类到其构造函数将作为参数的可写的[流](https://msdn.microsoft.com/library/System.IO.Stream.aspx)。 
   
@@ -116,7 +116,7 @@ MIME 命名空间提供了使您能够创建、 访问和修改 MIME 文档的�
   
 [MimeDocument](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeDocument.aspx)类封装 dom。 [MimeReader](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeReader.aspx)和[MimeWriter](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeWriter.aspx)类表示状态计算机。 基于接收的输入和调用的方法及其状态发生更改。 图表 2 至 5 是显示，对于[MimeReader](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeReader.aspx)对象，方法是有效从每个状态和状态可能会导致调用简化的状态切换图表。 
   
-若要使用这些图表，按照从一种状态的箭头，到下一步，注意在方法调用或返回导致的状态更改的值。 例如，在第一个图表中，假定您已创建 MimeReader 所属的 stream 的开头。 若要获取为部件标题的状态，请调用该顺序[ReadNextPart](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeReader.ReadNextPart.aspx)或[ReadFirstChildPart](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeReader.ReadFirstChildPart.aspx) ，之一。 如果有标头 （即，如果 MIME 是格式正确），您将输入到部件标题状态。 否则，将引发异常。 
+若要使用这些图表，按照从一种状态的箭头，到下一步，注意在方法调用或返回导致的状态更改的值。 例如，在第一个图表中，假定您已创建 MimeReader 所属的 stream 的开头。 若要获取为部件标题的状态，请调用该顺序[ReadNextPart](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeReader.ReadNextPart.aspx)或[ReadFirstChildPart](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeReader.ReadFirstChildPart.aspx)，之一。 如果有标头 （即，如果 MIME 是格式正确），您将输入到部件标题状态。 否则，将引发异常。 
   
 **图 2。MimeReader 对象的简化的状态转换关系图**
 

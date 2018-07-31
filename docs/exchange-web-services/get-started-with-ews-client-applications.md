@@ -1,19 +1,19 @@
 ---
-title: 开始使用 EWS 客户端应用程序
+title: EWS 客户端应用程序入门
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e6fd5c23-0ba5-4a7b-bdde-4a553447069f
 description: 使用 Exchange Web Services (EWS) 在 Exchange 中创建首个应用程序。
-ms.openlocfilehash: 911495c74f4c74114a86b1a3a98c9200db338b34
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 06606bdc2b37c8bf65b8b10dc7a516bdc911b256
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752733"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353775"
 ---
-# <a name="get-started-with-ews-client-applications"></a>开始使用 EWS 客户端应用程序
+# <a name="get-started-with-ews-client-applications"></a>EWS 客户端应用程序入门
 
 使用 Exchange Web Services (EWS) 在 Exchange 中创建首个应用程序。
   
@@ -31,7 +31,7 @@ EWS 运行状况不全面的服务应用程序可用于访问几乎所有存储�
     
 验证了您可以发送和接收电子邮件从 Exchange 服务器后，即可设置开发环境。 您可以使用 Outlook Web App 验证可以发送电子邮件。
   
-您还需要知道的 EWS 终结点的您的服务器的 URL。 在生产应用程序，您应使用[自动发现](autodiscover-for-exchange.md)来确定 EWS URL。 本文中的示例使用 Office 365 EWS 终结点 URL， https://outlook.office365.com/EWS/Exchange.asmx。 准备就绪后，[下一步](#bk_next)部分的自动发现的详细信息链接。 
+您还需要知道的 EWS 终结点的您的服务器的 URL。 在生产应用程序，您应使用[自动发现](autodiscover-for-exchange.md)来确定 EWS URL。 本文中的示例使用 Office 365 EWS 终结点 URL， `https://outlook.office365.com/EWS/Exchange.asmx`。 准备就绪后，[下一步](#bk_next)部分的自动发现的详细信息链接。 
   
 如果您要测试您的应用程序使用 Exchange 服务器的默认自签名证书，您需要创建满足组织的安全要求的[证书验证方法](how-to-validate-a-server-certificate-for-the-ews-managed-api.md)。 
   

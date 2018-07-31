@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 9a83df96-aca0-42b3-b8f5-2b414f0363f1
 description: 查找可帮助您选择您的 Exchange 的 EWS 应用程序的正确的身份验证标准的信息。
-ms.openlocfilehash: c81b29cbe9aa3c658a8f776876366fd0875b2669
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a4aae4678f1d6ffa5c08350f0bcccce5a4885f20
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752704"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353663"
 ---
 # <a name="authentication-and-ews-in-exchange"></a>身份验证和 Exchange 中的 EWS
 
@@ -41,13 +41,13 @@ Exchange 提供了您可供选择的以下身份验证选项：
 |:-----|:-----|
 | OAuth 是行业标准身份验证协议。<br/><br/>第三方提供程序管理身份验证。 您的应用程序没有收集和存储 Exchange 凭据。<br/><br/>更少担心，因为您的应用程序将不透明的令牌仅接收身份验证提供程序;因此，在您的应用程序安全性遭到破坏仅可以公开令牌，而不是用户的 Exchange 凭据。  <br/> | OAuth 依赖于第三方身份验证提供程序。 这可以施加额外的成本，在您的组织或您的客户。<br/><br/>此 OAuth 标准是更加难以实现比基本身份验证。<br/><br/>若要实现 OAuth，您需要将您的应用程序与身份验证提供程序和 Exchange 服务器集成。  <br/> |
    
-为了帮助减少缺点，您可以使用[Microsoft Azure AD 身份验证库](http://msdn.microsoft.com/library/a03f39fa-7ba4-4182-a98e-55562a64b8f3%28Office.15%29.aspx)(ADAL) 为在云中还是内部部署 Active Directory 域服务 (AD DS) 的用户进行身份验证，然后获取访问令牌的保护呼叫到Exchange 服务器。 Exchange Online 要求由受支持的 ADAL; Azure Active Directory 服务颁发的令牌但是，您可以使用任何第三方库。 
+为了帮助减少缺点，您可以使用[Microsoft Azure AD 身份验证库](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries)(ADAL) 为在云中还是内部部署 Active Directory 域服务 (AD DS) 的用户进行身份验证，然后获取访问令牌的保护呼叫到Exchange 服务器。 Exchange Online 要求由受支持的 ADAL; Azure Active Directory 服务颁发的令牌但是，您可以使用任何第三方库。 
   
 若要了解有关 EWS 应用程序中使用 OAuth 身份验证的详细信息，请参阅以下资源：
   
-- [Office 365 试用版](http://office.microsoft.com/compare-office-365-for-business-plans-FX102918419.aspx?CR_CC=200061904&amp;WT.srch=1&amp;WT.mc_ID=PS_bing_O365Comm_office%20365%20trial_Text)，设置要用于测试客户端应用程序的 Exchange 服务器。
+- [Office 365 试用版](https://docs.microsoft.com/en-us/office/developer-program/office-365-developer-program)，设置要用于测试客户端应用程序的 Exchange 服务器。
     
-- [适用于.NET的Azure AD身份验证库](http://msdn.microsoft.com/library/a03f39fa-7ba4-4182-a98e-55562a64b8f3%28Office.15%29.aspx)
+- [适用于.NET的Azure AD身份验证库](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries)
     
 - [配置 Azure Active Directory](http://msdn.microsoft.com/library/055e1155-2d4d-4c85-b44e-d406872ba595%28Office.15%29.aspx)，若要启用应用程序使用 OAuth 令牌的身份验证。
     

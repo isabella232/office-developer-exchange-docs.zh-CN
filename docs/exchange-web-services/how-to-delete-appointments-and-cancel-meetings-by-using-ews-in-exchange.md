@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 42412265-3968-468a-a8c2-7e8af3c6deb9
 description: 了解如何通过使用 EWS 的 EWS 托管 API 在 Exchange 中删除约会和会议。
-ms.openlocfilehash: bd7eac803fedffc51133324259f68fd25652fcff
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c71272bf753432a9f343adc917b444424fe3ba33
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752770"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354076"
 ---
 # <a name="delete-appointments-and-cancel-meetings-by-using-ews-in-exchange"></a>删除约会，并在 Exchange 使用 EWS 取消会议
 
@@ -21,15 +21,16 @@ ms.locfileid: "19752770"
   
 **表 1。EWS 托管 API 方法和删除约会和会议的 EWS 操作**
 
-|**EWS 托管的 API 方法**|**EWS 操作**|**它的用途**|
+|**EWS 托管的 API 方法**|**EWS 操作**|**功能**|
 |:-----|:-----|:-----|
-|[Appointment.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) <br/> |[删除项](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx) <br/> |删除约会。  <br/> |
-|[Appointment.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) <br/> |[CreateItem （日历项）](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) <br/> |删除会议。  <br/> |
+|[Appointment.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) <br/> |[DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |删除约会。  <br/> |
+|[Appointment.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) <br/> |[CreateItem （日历项）](../web-service-reference/createitem-operation-calendar-item.md) <br/> |删除会议。  <br/> |
    
-请注意，通过使用 EWS 删除约会时，您使用[删除项](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx)操作，但不是删除会议时，使用[CreateItem](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx)操作。 这看起来可能起来不够直观，但这是因为您需要创建一个会议与会者到邮件要发送会议取消通知的响应对象。 
-  
-## <a name="delete-an-appointment-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 删除约会
+请注意，通过使用 EWS 删除约会时，您使用[删除项](../web-service-reference/deleteitem-operation.md)操作，但不是删除会议时，使用[CreateItem](../web-service-reference/createitem-operation-calendar-item.md)操作。 这看起来可能起来不够直观，但这是因为您需要创建一个会议与会者到邮件要发送会议取消通知的响应对象。 
+
 <a name="bk_DeleteApptEWSMA"> </a>
+
+## <a name="delete-an-appointment-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 删除约会
 
 下面的代码示例演示如何使用[Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx)方法从日历文件夹，删除约会和[ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)方法以验证通过在已删除邮件文件夹中查找的约会已被删除。 
   
@@ -63,7 +64,7 @@ Console.WriteLine("The appointment " + "\"" + deletedItem.Subject + "\"" + " is 
 
 请求和响应 XML 下面的示例中对应于中[删除通过使用 EWS 托管 API 约会](#bk_DeleteApptEWSMA)的 EWS 托管 API 代码进行调用。 请求和响应以及显示验证约会项目处于已删除邮件文件夹的 XML。
   
-下面的示例演示请求 XML[删除项](http://msdn.microsoft.com/library/e2152410-41ce-1fe7-8169-f206d5081ebc%28Office.15%29.aspx)操作删除约会。 
+下面的示例演示请求 XML[删除项](../web-service-reference/deleteitem-operation.md)操作删除约会。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -86,7 +87,7 @@ Console.WriteLine("The appointment " + "\"" + deletedItem.Subject + "\"" + " is 
 
 ```
 
-下面的示例显示了响应由[删除项操作](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx)返回的 XML。 为便于阅读缩短**ItemId**和**更改密钥**属性。 
+下面的示例显示了响应由[删除项](../web-service-reference/deleteitem-operation.md)操作返回的 XML。 为便于阅读缩短**ItemId**和**更改密钥**属性。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

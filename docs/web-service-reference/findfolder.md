@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: b8a59740-d978-454c-9629-a10792385ba0
 description: FindFolder元素定义的请求，以便查找邮箱中的文件夹。
-ms.openlocfilehash: d41283547c443e38e2e87379a7224df9c89f901d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 69fbaebc5615ac7d19512770658cde83e4d352df
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754327"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353530"
 ---
 # <a name="findfolder"></a>FindFolder
 
@@ -32,12 +32,22 @@ ms.locfileid: "19754327"
 </FindFolder>
 ```
 
- **FindFolderType**
+```xml
+<FindFolder Traversal="Shallow/Deep/SoftDeleted">
+   <FolderShape/>
+   <FractionalPageFolderView/>
+   <Restriction/>
+   <ParentFolderIds/>
+</FindFolder>
+```
+
+**FindFolderType**
+
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**说明**|
 |:-----|:-----|
@@ -65,7 +75,7 @@ ms.locfileid: "19754327"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 Microsoft Exchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -73,7 +83,7 @@ ms.locfileid: "19754327"
 
 FindFolder 请求的下面的示例演示如何在窗体中查找位于收件箱中的所有文件夹的请求。
   
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
   xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
@@ -101,7 +111,5 @@ FindFolder 请求的下面的示例演示如何在窗体中查找位于收件箱
    
 ## <a name="see-also"></a>另请参阅
 
-
-
-[FindFolder Operation](findfolder-operation.md)
+- [FindFolder Operation](findfolder-operation.md)
 

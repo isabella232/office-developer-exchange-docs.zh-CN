@@ -1,5 +1,5 @@
 ---
-title: 更新 (FolderSync)
+title: Update (FolderSync)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -12,26 +12,22 @@ api_type:
 - schema
 ms.assetid: 47ed8edb-2a94-471b-b965-93f91456252e
 description: 更新元素标识一个文件夹中的本地客户端存储更新。
-ms.openlocfilehash: 6d4a6233df41ea95e1fd9b394502bfb2728bddb6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: bf49741b2478edff450f114dc1464a0528072bea
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838361"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353502"
 ---
-# <a name="update-foldersync"></a>更新 (FolderSync)
+# <a name="update-foldersync"></a>Update (FolderSync)
 
 **更新**元素标识一个文件夹中的本地客户端存储更新。 
   
-[SyncFolderHierarchyResponse](syncfolderhierarchyresponse.md)
-  
-[ResponseMessages](responsemessages.md)
-  
-[SyncFolderHierarchyResponseMessage](syncfolderhierarchyresponsemessage.md)
-  
-[更改 （层次结构）](changes-hierarchy.md)
-  
-[更新 (FolderSync)](update-foldersync.md)
+- [SyncFolderHierarchyResponse](syncfolderhierarchyresponse.md) 
+- [ResponseMessages](responsemessages.md) 
+- [SyncFolderHierarchyResponseMessage](syncfolderhierarchyresponsemessage.md)  
+- [Changes (Hierarchy)](changes-hierarchy.md) 
+- [更新 (FolderSync)](update-foldersync.md)
   
 ```xml
 <Update>
@@ -39,12 +35,37 @@ ms.locfileid: "19838361"
 </Update>
 ```
 
- **SyncFolderHierarchyCreateOrUpdateType**
+```xml
+<Update>
+   <CalendarFolder/>
+</Update>
+```
+
+```xml
+<Update>
+   <ContactsFolder/>
+</Update>
+```
+
+```xml
+<Update>
+   <TasksFolder/>
+</Update>
+```
+
+```xml
+<Update>
+   <SearchFolder/>
+</Update>
+```
+
+**SyncFolderHierarchyCreateOrUpdateType**
+
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -62,9 +83,9 @@ ms.locfileid: "19838361"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[更改 （层次结构）](changes-hierarchy.md) <br/> |包含表示的客户端上的文件夹和 Exchange 服务器上的文件夹之间的差异的类型的更改类型排序的数组。  <br/> |
+|[Changes (Hierarchy)](changes-hierarchy.md) <br/> |包含表示的客户端上的文件夹和 Exchange 服务器上的文件夹之间的差异的类型的更改类型排序的数组。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -79,10 +100,6 @@ ms.locfileid: "19838361"
    
 ## <a name="see-also"></a>另请参阅
 
-
-
-[SyncFolderItems 操作](syncfolderitems-operation.md)
-
-
+- [SyncFolderItems 操作](syncfolderitems-operation.md)
 - [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

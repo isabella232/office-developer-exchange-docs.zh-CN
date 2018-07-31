@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 4a15bbc3-5b93-4193-b9ec-da32f0a9a552
 description: OccurrenceItemId 元素标识定期项目的一个匹配项。
-ms.openlocfilehash: e3d7b6efc49775f54219ce0dc0ec39a34a95f8fd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 073639ecbca6ffda872e9253b7c7e44c3541f13b
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826639"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353460"
 ---
 # <a name="occurrenceitemid"></a>OccurrenceItemId
 
@@ -31,9 +31,9 @@ ms.locfileid: "19826639"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**说明**|
 |:-----|:-----|
@@ -51,13 +51,13 @@ ms.locfileid: "19826639"
 |:-----|:-----|
 |[GlobalItemIds](globalitemids.md) <br/> |包含的项标识符的邮箱中的所有对话项的集合。  <br/> |
 |[ItemIds](itemids.md) <br/> | 包含唯一标识的项目和匹配项，用于删除、 发送、 获取、 移动或在 Exchange 存储中复制项的定期主项目。 <br/><br/>下面是此元素的 XPath 表达式： <br/><br/>  `/DeleteItem/ItemIds` <br/>  `/SendItem/ItemIds` <br/>  `/GetItem/ItemIds` <br/><br/>**注意**： [MoveItem 操作](moveitem-operation.md)和[CopyItem 操作](copyitem-operation.md)仅使用单个日历项和定期主项目。 项目出现，则使用这些操作无效。           |
-|[ItemChange](itemchange.md) <br/> |包含项标识符和更新应用到的项。<br/><br/> 以下是此元素的 XPath 表达式：  <br/>  `/UpdateItem/ItemChanges/ItemChange[i]` <br/> |
+|[ItemChange](itemchange.md) <br/> |包含项标识符和更新应用到的项。<br/><br/> 下面是此元素的 XPath 表达式:    <br/>  `/UpdateItem/ItemChanges/ItemChange[i]` <br/> |
    
 ## <a name="text-value"></a>文本值
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -81,6 +81,6 @@ ms.locfileid: "19826639"
 ## <a name="see-also"></a>另请参阅
 
 - [RecurringMasterItemId](recurringmasteritemid.md)
-- [FindConversation Operation](findconversation-operation.md)
+- [FindConversation 操作](findconversation-operation.md)
 - [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

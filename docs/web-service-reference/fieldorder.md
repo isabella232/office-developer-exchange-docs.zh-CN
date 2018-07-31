@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: b9364842-bbe2-4221-afef-bf5022bc89ec
 description: FieldOrder 元素表示要用于对结果进行排序的单个字段，并指示用于排序的方向。
-ms.openlocfilehash: 10e28f066f7fa6799bf6b03b694d98825f95626d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 320a7b821cc593e7dd60a8f8adb23bcd600f71f8
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754297"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353299"
 ---
 # <a name="fieldorder"></a>FieldOrder
 
@@ -29,12 +29,25 @@ ms.locfileid: "19754297"
 </FieldOrder>
 ```
 
- **FieldOrderType**
+```xml
+<FieldOrder Order="">
+   <ExtendedFieldURI/> 
+</FieldOrder>
+```
+
+```xml
+<FieldOrder Order="">
+   <IndexedFieldURI/>
+</FieldOrder>
+```
+
+**FieldOrderType**
+
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**说明**|
 |:-----|:-----|

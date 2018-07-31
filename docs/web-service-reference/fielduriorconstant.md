@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 89d7a87e-7c93-49b8-83ec-8798e08c1052
 description: FieldURIOrConstant 元素表示的属性或常量值用于比较与另一个属性。
-ms.openlocfilehash: 5195feec2a314d9ec15dc4a25a7a014aded1696a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a24c2fa044e03d0ac6f900625e325600903df8d0
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754303"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354223"
 ---
 # <a name="fielduriorconstant"></a>FieldURIOrConstant
 
@@ -29,12 +29,31 @@ ms.locfileid: "19754303"
 </FieldURIOrConstant>
 ```
 
- **FieldURIOrConstantType**
+```xml
+<FieldURIOrConstant>
+    <IndexedFieldURI/> 
+</FieldURIOrConstant>
+```
+
+```xml
+<FieldURIOrConstant>
+   <FieldURI/>
+</FieldURIOrConstant>
+```
+
+```xml
+<FieldURIOrConstant>
+   <ExtendedFieldURI/> 
+</FieldURIOrConstant>
+```
+
+**FieldURIOrConstantType**
+
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -58,7 +77,7 @@ ms.locfileid: "19754303"
 |[IsLessThanOrEqualTo](islessthanorequalto.md) <br/> |代表一个搜索表达式，将一个常数值的属性或其他属性进行比较，并返回的第一个属性为小于或等于第二个值或属性时为 true。  <br/> |
 |[IsNotEqualTo](isnotequalto.md) <br/> |代表一个搜索表达式的比较一个常数值的属性或另一个属性，并返回 true 如果值不相同。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 Microsoft Exchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -66,8 +85,7 @@ ms.locfileid: "19754303"
 
 下面的 XML 示例演示用于常量和字段 URI FieldURIOrConstant 元素。
   
-```
-[xml]
+```xml
 <Restriction>
   <Or xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
     <IsEqualTo>
@@ -96,8 +114,6 @@ ms.locfileid: "19754303"
 |可以为空  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>另请参阅
-
-
 
 - [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

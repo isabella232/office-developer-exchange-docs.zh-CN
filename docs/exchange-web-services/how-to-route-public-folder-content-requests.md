@@ -1,19 +1,19 @@
 ---
-title: 将公用文件夹内容请求路由
+title: 路由公用文件夹内容请求
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 59d2f05e-90fb-471e-ac06-70becc15b295
 description: 有关公用文件夹信息涉及公用文件夹需要路由到公用文件夹邮箱的内容的所有请求的都包含目标文件夹的内容。 若要将请求路由到该邮箱，您需要设置为特定值的 X AnchorMailbox 和 X PublicFolderMailbox 标头。
-ms.openlocfilehash: ad36c1526a24d815ec690879d633774d429ed36c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 64fafecb9882b17a3394e54640df78f7aa180343
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752891"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354020"
 ---
-# <a name="route-public-folder-content-requests"></a>将公用文件夹内容请求路由
+# <a name="route-public-folder-content-requests"></a>路由公用文件夹内容请求
 
 有关公用文件夹信息涉及公用文件夹需要路由到公用文件夹邮箱的内容的所有请求的都包含目标文件夹的内容。 若要将请求路由到该邮箱，您需要设置为特定值的**X AnchorMailbox**和**X PublicFolderMailbox**标头。 
   
@@ -29,9 +29,11 @@ ms.locfileid: "19752891"
 您已确定的标头值后，请[进行公用文件夹内容请求时](#bk_setheadervalues)进行包括。
   
 本文中的步骤是特定于公用文件夹内容请求。 若要确定您的请求是公用文件夹层次结构或内容的请求，请参阅[路由的公用文件夹请求](public-folder-access-with-ews-in-exchange.md#bk_routing)。
-  
-## <a name="determine-the-guid-of-the-public-folder-mailbox-by-using-the-ews-managed-api"></a>通过使用 EWS 托管 API 来确定公用文件夹邮箱的 GUID
+
 <a name="bk_determineguidewsma"> </a>
+
+## <a name="determine-the-guid-of-the-public-folder-mailbox-by-using-the-ews-managed-api"></a>通过使用 EWS 托管 API 来确定公用文件夹邮箱的 GUID
+
 
 若要确定公用文件夹内容邮箱的 GUID，使用下面的代码示例，执行以下任务： 
   
@@ -104,9 +106,10 @@ public static string CompareGuidsForEquality(List<string> list)
 如果您收到错误"失败的请求。 基本连接已关闭： 无法建立信任关系为 SSL/TLS 安全通道"，您需要[添加对验证回调方法的调用](how-to-validate-a-server-certificate-for-the-ews-managed-api.md)。 代码示例中包含的占位符和注释的方法。
   
 如果相同的公用文件夹的根目录下的所有公用文件夹邮箱的邮箱 GUID，该示例指示使用时[调用自动发现](#bk_makeautodrequest)控制台输出和返回值的地址。 如果邮箱的邮箱 GUID 不相同的公用文件夹的根目录下的所有公用文件夹，您需要[进行的自动发现请求](#bk_makeautodrequest)上与您内容的请求中的文件夹关联的地址。 
-  
-## <a name="determine-the-guid-of-the-public-folder-mailbox-by-using-ews"></a>使用 EWS 确定公用文件夹邮箱的 GUID
+
 <a name="bk_determineguidews"> </a>
+
+## <a name="determine-the-guid-of-the-public-folder-mailbox-by-using-ews"></a>使用 EWS 确定公用文件夹邮箱的 GUID
 
 下面的代码示例演示如何通过使用 EWS [FindFolder](http://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx)操作检索**PR_REPLICA_LIST** (0x66980102) 属性的值。 对于[ExtendedFieldURI](http://msdn.microsoft.com/library/b3c6ea3a-9ead-44b9-9d99-64ecf12bde23%28Office.15%29.aspx)元素中， **PropertyTag**属性设置为**PR_REPLICA_LIST**属性的十进制值 (26264) 和**PropertyType**属性设置为**二进制**。
   
@@ -194,7 +197,7 @@ Expect: 100-continue
   
 |**参数**|**说明**|
 |:-----|:-----|
-|emailAddress  <br/> |返回的地址`GetMailboxGuidAddress`中[确定的公用文件夹邮箱 GUID](http://msdn.microsoft.com/library/bk_determineguidewsma.aspx)方法。  <br/> |
+|emailAddress  <br/> |返回的地址`GetMailboxGuidAddress`中[确定的公用文件夹邮箱 GUID](#bk_determineguidewsma)方法。  <br/> |
 |-skipSOAP  <br/> |指示 POX 自动发现请求所需。  <br/> |
 |身份验证 authEmailAddress  <br/> |邮箱用户的电子邮件地址，用于进行身份验证。 系统将提示您输入邮箱用户的密码，当您运行示例。  <br/> |
    
@@ -234,7 +237,7 @@ Expect: 100-continue
 
 |**EWS 托管 API 方法**|**EWS 操作**|
 |:-----|:-----|
-|[Item.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) <br/> [Item.Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.update%28v=exchg.80%29.aspx) <br/> [Item.Copy](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.copy%28v=exchg.80%29.aspx) <br/> [Item.Move](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.move%28v=exchg.80%29.aspx) <br/> [Item.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.delete%28v=exchg.80%29.aspx) <br/> [Folder.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) <br/> [Folder.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx) <br/> |[CreateItem](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) <br/> [GetItem](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) <br/> [UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> [CopyItem](http://msdn.microsoft.com/library/bcc68f9e-d511-4c29-bba6-ed535524624a%28Office.15%29.aspx) <br/> [MoveItem](http://msdn.microsoft.com/library/dcf40fa7-7796-4a5c-bf5b-7a509a18d208%28Office.15%29.aspx) <br/> [删除项](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx) <br/> [GetFolder](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) <br/> [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) <br/> |
+|[Item.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) <br/> [Item.Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.update%28v=exchg.80%29.aspx) <br/> [Item.Copy](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.copy%28v=exchg.80%29.aspx) <br/> [Item.Move](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.move%28v=exchg.80%29.aspx) <br/> [Item.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.delete%28v=exchg.80%29.aspx) <br/> [Folder.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) <br/> [Folder.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx) <br/> |[CreateItem](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) <br/> [GetItem](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) <br/> [UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> [CopyItem](http://msdn.microsoft.com/library/bcc68f9e-d511-4c29-bba6-ed535524624a%28Office.15%29.aspx) <br/> [MoveItem](http://msdn.microsoft.com/library/dcf40fa7-7796-4a5c-bf5b-7a509a18d208%28Office.15%29.aspx) <br/> [DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> [GetFolder](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) <br/> [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) <br/> |
    
 若要使用 EWS 托管 API 添加这些标头，请使用[HttpHeaders.Add](http://msdn.microsoft.com/en-us/library/system.net.http.headers.httpheaders.add%28v=vs.118%29.aspx)方法。 
   
@@ -277,7 +280,7 @@ Expect: 100-continue
 
 - [使用 EWS 在 Exchange 公用文件夹访问。](public-folder-access-with-ews-in-exchange.md)    
 - [Exchange 自动发现](autodiscover-for-exchange.md)    
-- [生成自动发现终结点的列表](how-to-generate-a-list-of-autodiscover-endpoints.md)   
+- [生成自动发现终结点列表](how-to-generate-a-list-of-autodiscover-endpoints.md)   
 - [通过使用自动发现 Exchange 中获取用户设置](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
     
 

@@ -1,5 +1,5 @@
 ---
-title: 定期 (TaskRecurrenceType)
+title: Recurrence (TaskRecurrenceType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -12,14 +12,14 @@ api_type:
 - schema
 ms.assetid: 99f8414a-9110-4721-a6e5-ebf225d7ed0a
 description: Recurrence 元素包含定期周期性任务信息。
-ms.openlocfilehash: ae2bb35e89a0a50c7ca67cb0e580427150afb99e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 0ec43447e47050a0bd483d8441da88e4a7f08923
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827006"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354419"
 ---
-# <a name="recurrence-taskrecurrencetype"></a>定期 (TaskRecurrenceType)
+# <a name="recurrence-taskrecurrencetype"></a>Recurrence (TaskRecurrenceType)
 
 **Recurrence**元素包含定期周期性任务信息。 
   
@@ -30,12 +30,217 @@ ms.locfileid: "19827006"
 </Recurrence>
 ```
 
- **TaskRecurrenceType**
+```xml
+<Recurrence>
+      <WeeklyRecurrence/> 
+      <NoEndRecurrence/> 
+</Recurrence>
+```
+
+```xml
+<Recurrence>
+      <RelativeMonthlyRecurrence/> 
+      <NumberedRecurrence/>
+</Recurrence>
+```
+
+```xml
+<Recurrence>
+      <AbsoluteMonthlyRecurrence/> 
+      <EndDateRecurrence/>
+</Recurrence>
+```
+
+```xml
+<Recurrence>
+      <MonthlyRegeneration/> 
+      <NumberedRecurrence/>
+</Recurrence>
+```
+
+```xml
+<Recurrence>
+      <DailyRegeneration/> 
+      <EndDateRecurrence/> 
+</Recurrence>
+```
+
+```xml
+<Recurrence>
+       <DailyRegeneration/> 
+       <NumberedRecurrence/>
+</Recurrence>
+```
+
+```xml
+<Recurrence>
+      <DailyRegeneration/> 
+      <NoEndRecurrence/>
+</Recurrence>
+```
+
+```xml
+<Recurrence>
+       <MonthlyRegeneration/> 
+       <NoEndRecurrence/> 
+</Recurrence>
+```
+
+```xml
+<Recurrence>
+      <YearlyRegeneration/> 
+      <NoEndRecurrence/> 
+</Recurrence>
+```
+
+```xml
+<Recurrence>
+      <YearlyRegeneration/> 
+      <EndDateRecurrence/>
+</Recurrence>
+```
+
+```xml
+<Recurrence>
+      <AbsoluteMonthlyRecurrence/> 
+      <NumberedRecurrence/> 
+</Recurrence>
+```
+
+```xml
+<Recurrence>
+      <WeeklyRegeneration/> 
+      <NumberedRecurrence/>
+</Recurrence>
+```
+
+```xml
+<Recurrence>
+      <RelativeMonthlyRecurrence/> 
+      <EndDateRecurrence/> 
+</Recurrence>
+```
+
+```xml
+<Recurrence>
+      <RelativeYearlyRecurrence/> 
+      <NumberedRecurrence/>
+</Recurrence>
+```
+
+```xml
+<Recurrence>
+      <WeeklyRegeneration/> 
+      <NoEndRecurrence/> 
+</Recurrence>
+```
+
+```xml
+<Recurrence>
+      <AbsoluteYearlyRecurrence/> 
+      <NumberedRecurrence/> 
+</Recurrence>
+```
+
+```xml
+<Recurrence>
+      <RelativeMonthlyRecurrence/> 
+      <NoEndRecurrence/>
+</Recurrence>
+```
+
+```xml
+<Recurrence>
+      <YearlyRegeneration/> 
+      <NumberedRecurrence/>
+</Recurrence>
+```
+
+```xml
+<Recurrence>
+      <WeeklyRecurrence/> 
+      <EndDateRecurrence/> 
+</Recurrence>
+```
+
+```xml
+<Recurrence>
+      <RelativeYearlyRecurrence/> 
+      <EndDateRecurrence/>
+</Recurrence>
+```
+
+```xml
+<Recurrence>
+       <MonthlyRegeneration/> 
+       <EndDateRecurrence/>
+</Recurrence>
+```
+
+```xml
+<Recurrence>
+      <AbsoluteYearlyRecurrence/> 
+      <NoEndRecurrence/> 
+</Recurrence>
+```
+
+```xml
+<Recurrence>
+      <AbsoluteMonthlyRecurrence/> 
+      <NoEndRecurrence/> 
+</Recurrence>
+```
+
+```xml
+<Recurrence>
+       <DailyRecurrence/> 
+       <EndDateRecurrence/>
+</Recurrence>
+```
+
+```xml
+<Recurrence>
+      <WeeklyRegeneration/> 
+      <EndDateRecurrence/>
+</Recurrence>
+```
+
+```xml
+<Recurrence>
+      <AbsoluteYearlyRecurrence/> 
+      <EndDateRecurrence/> 
+</Recurrence>
+```
+
+```xml
+<Recurrence>
+      <DailyRecurrence/> 
+      <NoEndRecurrence/>
+</Recurrence>
+```
+
+```xml
+<Recurrence>
+      <DailyRecurrence/> 
+      <NumberedRecurrence/>
+</Recurrence>
+```
+
+```xml
+<Recurrence>
+      <WeeklyRecurrence/> 
+      <NumberedRecurrence/>
+</Recurrence>
+```
+
+
+**TaskRecurrenceType**
+
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -63,7 +268,7 @@ ms.locfileid: "19827006"
 |:-----|:-----|
 |[任务](task.md) <br/> |表示 Exchange 存储中的任务。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -77,8 +282,6 @@ ms.locfileid: "19827006"
 |可以为空  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>另请参阅
-
-
 
 - [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

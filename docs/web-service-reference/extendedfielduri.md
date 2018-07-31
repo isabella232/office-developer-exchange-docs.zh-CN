@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: b3c6ea3a-9ead-44b9-9d99-64ecf12bde23
 description: ExtendedFieldURI 元素标识扩展的 MAPI 属性。
-ms.openlocfilehash: 8d946aec8ae2c5e6bb4ca3f1d8ee74250262d373
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 50ce46652863b0c534d09d58d4b9f7c8095deef2
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754229"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353789"
 ---
 # <a name="extendedfielduri"></a>ExtendedFieldURI
 
@@ -27,21 +27,22 @@ ms.locfileid: "19754229"
 <ExtendedFieldURI DistinguishedPropertySetId="" PropertySetId="" PropertyTag="" PropertyName="" PropertyId="" PropertyType="" />
 ```
 
- **PathToExtendedFieldType**
+**PathToExtendedFieldType**
+
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**说明**|
 |:-----|:-----|
-|**DistinguishedPropertySetId** <br/> |定义的已知属性设置为扩展的 MAPI 属性的 Id。  <br/> 如果使用此属性，则不能使用**PropertySetId**和**PropertyTag**属性。 **PropertyId**或**PropertyName**属性，并具有**PropertyType**属性，必须使用此属性。  <br/> 本主题后面**DistinguishedPropertySetId**属性表列出了此属性的可能值。  <br/> 此属性是可选的。  <br/> |
-|**PropertySetId** <br/> |标识通过其标识 GUID 扩展属性集或命名空间的 MAPI。  <br/> 如果使用此属性，则不能使用**DistinguishedPropertySetId**和**PropertyTag**属性。 **PropertyId**或**PropertyName**属性，并具有**PropertyType**属性，必须使用此属性。  <br/> 此属性是可选的。  <br/> |
-|**PropertyTag** <br/> |标识不带标记的类型部分的属性标记。 可以为十六进制数或一个简短的整数表示**PropertyTag** 。  <br/> 1 到 999 之间 0x8000 和 0xFFFE 表示自定义范围的属性。 当邮箱数据库首次遇到的自定义属性时，它会将该自定义属性分配 0x8000 0xFFFE 自定义属性范围内的属性标记。 给定的自定义属性标记将很可能数据库而异。 因此，按属性标记的自定义属性请求可能返回不同的属性在不同的数据库。 自定义属性禁止**PropertyTag**属性的使用。 而是使用**PropertySetId**属性和**PropertyName**或**PropertyId**属性。  <br/> > [!IMPORTANT]> 访问 0x8000 和 0xFFFE 之间的任何自定义属性，通过使用 GUID + 名称/id。           如果使用**PropertyTag**属性，则不能使用**DistinguishedPropertySetId**、 **PropertySetId**、 **PropertyName**、 和**PropertyId**属性。  <br/> 此属性是可选的。  <br/> > [!NOTE]> 不能在自定义范围内 0x8000 0xFFFE 属性使用属性标记属性。 您必须在这种情况下使用的命名的属性。           |
-|**PropertyName** <br/> |按其名称中标识的扩展的属性。 此属性必须在使用**DistinguishedPropertySetId**或**PropertySetId**加以。  <br/> 如果使用此属性，则不能使用**PropertyId**和**PropertyTag**属性。  <br/> 此属性是可选的。  <br/> |
-|**PropertyId** <br/> |用于标识其调度 id 扩展的属性 十进制或十六进制格式可以标识调度 ID。 此属性必须在使用**DistinguishedPropertySetId**或**PropertySetId**加以。  <br/> 如果使用此属性，则不能使用**PropertyName**和**PropertyTag**属性。  <br/> 此属性是可选的。  <br/> |
-|**PropertyType** <br/> |表示一个属性标记的属性类型。 这对应于属性标记中的最低有效字。  <br/> 本主题后面的 PropertyType 属性表包含此属性的可能值。  <br/> 此属性是必需的。  <br/> |
+|**DistinguishedPropertySetId** <br/> |定义的已知属性设置为扩展的 MAPI 属性的 Id。<br/><br/>如果使用此属性，则不能使用**PropertySetId**和**PropertyTag**属性。 **PropertyId**或**PropertyName**属性，并具有**PropertyType**属性，必须使用此属性。<br/><br/>本主题后面**DistinguishedPropertySetId**属性表列出了此属性的可能值。<br/><br/>此属性是可选的。  <br/> |
+|**PropertySetId** <br/> |标识通过其标识 GUID 扩展属性集或命名空间的 MAPI。<br/><br/>如果使用此属性，则不能使用**DistinguishedPropertySetId**和**PropertyTag**属性。 **PropertyId**或**PropertyName**属性，并具有**PropertyType**属性，必须使用此属性。<br/><br/>此属性是可选的。  <br/> |
+|**PropertyTag** <br/> |标识不带标记的类型部分的属性标记。 可以为十六进制数或一个简短的整数表示**PropertyTag** 。<br/><br/>1 到 999 之间 0x8000 和 0xFFFE 表示自定义范围的属性。 当邮箱数据库首次遇到的自定义属性时，它会将该自定义属性分配 0x8000 0xFFFE 自定义属性范围内的属性标记。 给定的自定义属性标记将很可能数据库而异。 因此，按属性标记的自定义属性请求可能返回不同的属性在不同的数据库。 自定义属性禁止**PropertyTag**属性的使用。 而是使用**PropertySetId**属性和**PropertyName**或**PropertyId**属性。<br/><br/>**重要说明**： 访问 0x8000 和 0xFFFE 之间的任何自定义属性，通过使用 GUID + 名称/id。 如果使用**PropertyTag**属性，则不能使用**DistinguishedPropertySetId**、 **PropertySetId**、 **PropertyName**、 和**PropertyId**属性。<br/><br/>此属性是可选的。<br/><br/>**注意**： 不能在自定义范围内 0x8000 0xFFFE 属性使用属性标记属性。 您必须在这种情况下使用的命名的属性。           |
+|**PropertyName** <br/> |按其名称中标识的扩展的属性。 此属性必须在使用**DistinguishedPropertySetId**或**PropertySetId**加以。<br/><br/>如果使用此属性，则不能使用**PropertyId**和**PropertyTag**属性。<br/><br/>此属性是可选的。  <br/> |
+|**PropertyId** <br/> |用于标识其调度 id 扩展的属性 十进制或十六进制格式可以标识调度 ID。 此属性必须在使用**DistinguishedPropertySetId**或**PropertySetId**加以。<br/><br/>如果使用此属性，则不能使用**PropertyName**和**PropertyTag**属性。<br/><br/>此属性是可选的。  <br/> |
+|**PropertyType** <br/> |表示一个属性标记的属性类型。 这对应于属性标记中的最低有效字。<br/><br/>本主题后面的 PropertyType 属性表包含此属性的可能值。<br/><br/>此属性是必需的。  <br/> |
    
 #### <a name="distinguishedpropertysetid-attribute"></a>DistinguishedPropertySetId 属性
 
@@ -62,7 +63,7 @@ ms.locfileid: "19754229"
 |:-----|:-----|
 |ApplicationTime  <br/> |一个 double 值，它将被解释为日期和时间。 整数部分是日期，小数部分是时间。  <br/> |
 |ApplicationTimeArray  <br/> |解释为日期和时间的双精度值的数组。  <br/> |
-|二进制  <br/> |Base64 编码的二进制值。  <br/> |
+|二进制数  <br/> |Base64 编码的二进制值。  <br/> |
 |BinaryArray  <br/> |Base64 编码的二进制值的数组。  <br/> |
 |Boolean  <br/> |布尔值**true**或**false**。  <br/> |
 |CLSID  <br/> |一个 GUID 的字符串。  <br/> |
@@ -85,7 +86,7 @@ ms.locfileid: "19754229"
 |ShortArray  <br/> |签名 16 位整数的数组。  <br/> |
 |SystemTime  <br/> |一个 FILETIME 结构的窗体中的 64 位整数日期和时间值。  <br/> |
 |SystemTimeArray  <br/> |一个 FILETIME 结构的窗体中的 64 位整数日期和时间值的数组。  <br/> |
-|String  <br/> |Unicode 字符串。  <br/> |
+|字符串  <br/> |Unicode 字符串。  <br/> |
 |StringArray  <br/> |Unicode 字符串数组。  <br/> |
    
 ### <a name="child-elements"></a>子元素
@@ -97,7 +98,7 @@ ms.locfileid: "19754229"
 |**元素**|**说明**|
 |:-----|:-----|
 |[ExtendedProperty](extendedproperty.md) <br/> |标识文件夹和项扩展的属性。  <br/> |
-|[AdditionalProperties](additionalproperties.md) <br/> | 标识其他属性。  <br/>  下面是此元素的 XPath 表达式：  <br/>  `/FindFolder/FolderShape/AdditionalProperties` <br/>  `/GetFolder/FolderShape/AdditionalProperties` <br/>  `/SyncFolderHierarchy/FolderShape/AdditionalProperties` <br/>  `/GetItem/ItemShape/AdditionalProperties` <br/>  `/FindItem/ItemShape/AdditionalProperties` <br/>  `/SyncFolderItems/ItemShape/AdditionalProperties` <br/>  `/GetAttachment/AttachmentShape/AdditionalProperties` <br/> |
+|[AdditionalProperties](additionalproperties.md) <br/> | 标识其他属性。<br/><br/>下面是此元素的 XPath 表达式：<br/><br/>`/FindFolder/FolderShape/AdditionalProperties` <br/>  `/GetFolder/FolderShape/AdditionalProperties` <br/>  `/SyncFolderHierarchy/FolderShape/AdditionalProperties` <br/>  `/GetItem/ItemShape/AdditionalProperties` <br/>  `/FindItem/ItemShape/AdditionalProperties` <br/>  `/SyncFolderItems/ItemShape/AdditionalProperties` <br/>  `/GetAttachment/AttachmentShape/AdditionalProperties` <br/> |
 |[SetItemField](setitemfield.md) <br/> |表示更新到单个[UpdateItem 操作](updateitem-operation.md)中的项目的属性。  <br/> |
 |[SetFolderField](setfolderfield.md) <br/> |表示对[UpdateFolder Operation](updatefolder-operation.md)中的文件夹上的单个属性的更新。  <br/> |
 |[DeleteItemField](deleteitemfield.md) <br/> |代表[UpdateItem 操作](updateitem-operation.md)期间，从项目中删除给定的属性删除操作。  <br/> |
@@ -116,14 +117,16 @@ ms.locfileid: "19754229"
 |[Contains](contains.md) <br/> |代表一个搜索表达式，确定给定的属性是否包含提供常量的字符串值。  <br/> |
 |[FieldOrder](fieldorder.md) <br/> |代表用于对结果进行排序的单个字段，并指示排序的方向。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 与其他属性结合使用，不能使用某些属性。 使用了无效的扩展的属性属性组合中的任何请求将生成一条错误消息。
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
 > [!NOTE]
-> 在 Microsoft.NET long 类型的值是 64 位有符号的整数，而在 MAPI 和 COM、 long 类型的值是 32 位整数。 大多数开发人员将使用 Microsoft.NET Framework 开发 Exchange Web 服务客户端应用程序。 因此，.NET 命名使用而不是 MAPI 命名。 例如，PR_MESSAGE_FLAGS MAPI 属性 0x0E07，为 PT_LONG 类型。 在.NET 中，则被视为一个整数。 PR_MESSAGE_FLAGS 扩展的属性定义为\<t:ExtendedFieldURI PropertyTag ="0x0E07"PropertyType ="整数"/\>。 
+> 在 Microsoft.NET long 类型的值是 64 位有符号的整数，而在 MAPI 和 COM、 long 类型的值是 32 位整数。 大多数开发人员将使用 Microsoft.NET Framework 开发 Exchange Web 服务客户端应用程序。 因此，.NET 命名使用而不是 MAPI 命名。
+> 
+> 例如，PR_MESSAGE_FLAGS MAPI 属性 0x0E07，是 PT\_长键入。 在.NET 中，则被视为一个整数。 PR_MESSAGE_FLAGS 扩展的属性定义为`<t:ExtendedFieldURI PropertyTag="0x0E07" PropertyType="Integer"/>`。 
   
 ## <a name="example"></a>示例
 
@@ -180,12 +183,7 @@ ms.locfileid: "19754229"
    
 ## <a name="see-also"></a>另请参阅
 
-
-
-[FieldURI](fielduri.md)
-  
-[IndexedFieldURI](indexedfielduri.md)
-
-
+- [FieldURI](fielduri.md)
+- [IndexedFieldURI](indexedfielduri.md)
 - [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

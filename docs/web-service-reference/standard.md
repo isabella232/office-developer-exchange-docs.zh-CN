@@ -1,5 +1,5 @@
 ---
-title: 标准
+title: Standard
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -12,14 +12,14 @@ api_type:
 - schema
 ms.assetid: d598f0a6-e296-423f-8ce5-3da57cfd8189
 description: 标准元素均表示的日期和时间更改时夏时制为标准时间的时间。
-ms.openlocfilehash: 1c9be4cf35773583078bc8e16ddf44433d3ad98c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c121e959f243d982cfe50ed6b4ef39a82dae2cc8
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827536"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353432"
 ---
-# <a name="standard"></a>标准
+# <a name="standard"></a>Standard
 
 **标准**元素均表示的日期和时间更改时夏时制为标准时间的时间。 
   
@@ -31,12 +31,21 @@ ms.locfileid: "19827536"
 </Standard>
 ```
 
- **TimeChangeType**
+```xml
+<Standard TimeZoneName="">
+   <Offset/>
+   <AbsoluteDate/>
+   <Time/>
+</Standard>
+```
+
+**TimeChangeType**
+
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**说明**|
 |:-----|:-----|
@@ -49,7 +58,7 @@ ms.locfileid: "19827536"
 |[Offset](offset.md) <br/> |介绍从[BaseOffset](baseoffset.md)的偏移量。 **BaseOffset**元素中，以及**偏移**元素标识时间是否标准时间或夏令时。  <br/> |
 |[RelativeYearlyRecurrence](relativeyearlyrecurrence.md) <br/> |介绍所在的时区转换日期相对的每年定期模式。  <br/> |
 |[AbsoluteDate](absolutedate.md) <br/> |表示当时间从标准时间或夏令时更改时的日期。  <br/> |
-|[时间 (TimeChangeType)](time-timechangetype.md) <br/> |介绍当时间更改标准时间和夏时制之间的时间。  <br/> |
+|[Time (TimeChangeType)](time-timechangetype.md) <br/> |介绍当时间更改标准时间和夏时制之间的时间。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -71,8 +80,6 @@ ms.locfileid: "19827536"
 |可以为空  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>另请参阅
-
-
 
 - [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

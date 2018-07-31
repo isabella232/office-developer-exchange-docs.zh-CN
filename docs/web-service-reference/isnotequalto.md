@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: e2eff26c-3403-45cd-bb74-1eb98c7dbfcd
 description: IsNotEqualTo 元素均表示一个搜索表达式的比较一个常数值的属性或另一个属性，并返回 true 如果值不相同。
-ms.openlocfilehash: c11f5ba5b8c0672bba0b9ae2a76211ac7d5d94ad
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 75b580d97fbadbf3aa28c29159973f53768df624
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826059"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353250"
 ---
 # <a name="isnotequalto"></a>IsNotEqualTo
 
@@ -30,12 +30,27 @@ ms.locfileid: "19826059"
 </IsNotEqualTo>
 ```
 
- **IsNotEqualToType**
+```xml
+<IsNotEqualTo>
+   <ExtendedFieldURI/> 
+   <FieldURIOrConstant/>
+</IsNotEqualTo>
+```
+
+```xml
+<IsNotEqualTo>
+   <IndexedFieldURI/>
+   <FieldURIOrConstant/>
+</IsNotEqualTo>
+```
+
+**IsNotEqualToType**
+
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -73,8 +88,6 @@ ms.locfileid: "19826059"
 |可以为空  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>另请参阅
-
-
 
 - [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

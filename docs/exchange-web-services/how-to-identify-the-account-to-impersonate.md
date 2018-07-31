@@ -1,19 +1,19 @@
 ---
-title: 确定要模拟的帐户
+title: 识别要模拟的帐户
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: c7749f12-b97f-48d9-88e5-a545e108efb0
 description: 了解服务应用程序如何使用 EWS 来确定要模拟的用户。
-ms.openlocfilehash: 78df4b511a9947d4d815b2802a53ab178b14622b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 01c6ee797359c38c8539257003a2f110fdf253cf
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752783"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354293"
 ---
-# <a name="identify-the-account-to-impersonate"></a>确定要模拟的帐户
+# <a name="identify-the-account-to-impersonate"></a>识别要模拟的帐户
 
 了解服务应用程序如何使用 EWS 来确定要模拟的用户。
   
@@ -75,7 +75,7 @@ EWS 托管 API 应用程序，在您指定的 UPN [ConnectingIdType.PrincipleNam
 exchangeServiceInstance.ImpersonatedUserId = new ImpersonatedUserId(ConnectingIdType.PrincipleName, "alias@billing.contoso.com");
 ```
 
-在 EWS SOAP 请求中， [PrincipalName 元素 （ConnectingSIDType 复杂类型） (EWS)](http://msdn.microsoft.com/library/6aac5388-c971-817b-b0bb-095a2639c6de%28Office.15%29.aspx)元素包含用户帐户的 UPN。 
+在 EWS SOAP 请求中， [PrincipalName 元素 （ConnectingSIDType 复杂类型） (EWS)](../web-service-reference/principalname.md)元素包含用户帐户的 UPN。 
   
 ```XML
 <soap:Header>

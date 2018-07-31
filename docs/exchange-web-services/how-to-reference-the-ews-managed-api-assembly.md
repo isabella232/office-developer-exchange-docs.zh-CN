@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 130990db-6297-42dc-9f5d-f68a2400872a
 description: 查找有关如何引用 EWS 托管 API 程序集信息。
-ms.openlocfilehash: af7b1ec449c24e7fa4db89abb30e5ebc9f8d329e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a08ce43d139440186f611049fa1e457ea44f0362
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752871"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353684"
 ---
 # <a name="reference-the-ews-managed-api-assembly"></a>EWS 托管 API 程序集参考
 
@@ -20,7 +20,12 @@ ms.locfileid: "19752871"
 EWS 托管 API 提供了简单和全功能的接口，以开发和扩展的应用程序使用 Exchange Web Services (EWS)。 无论您使用 Visual Studio 或其他代码编辑器开发 EWS 托管 API 应用程序，您需要做出的 EWS 托管 API 集的引用。 如果您尚未已安装 EWS 托管 API，请确保[下载 API](http://aka.ms/ews-managed-api-readme)。
   
 > [!NOTE]
->  [!注释]  EWS 托管 API 现在已经作为开放源项目在 [GitHub](https://github.com/officedev/ews-managed-api) 上可用。您可以使用开放源库执行以下操作： >  为 API 提供缺陷修复和增强功能。 >  在修补程序和增强功能在正式的版本中可用之前获取它们。 >  访问最全面且最新的 API 实现，将其用作参考或在新的平台上创建新库。 >  我们欢迎您通过 GitHub 做出 [贡献](https://github.com/OfficeDev/ews-managed-api/blob/master/CONTRIBUTING.md)。 
+> [!注释] EWS 托管 API 现在已经作为开放源项目在 [GitHub](https://github.com/officedev/ews-managed-api) 上可用。 您可以使用开放源代码库到： 
+> - 为 API 提供缺陷修复和增强功能。 
+> - 在修补程序和增强功能在正式的版本中可用之前获取它们。 
+> - 访问最全面且最新的 API 实现，将其用作参考或在新的平台上创建新库。
+> 
+>  我们欢迎 GitHub 通过您[的贡献](https://github.com/OfficeDev/ews-managed-api/blob/master/CONTRIBUTING.md)。 
   
 ## <a name="referencing-the-assembly"></a>引用该程序集
 

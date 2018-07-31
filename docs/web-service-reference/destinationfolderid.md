@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 77d2d222-320b-4aab-88e4-934ef177f55c
 description: DestinationFolderId 元素指示的副本的目标文件夹，并移动操作。
-ms.openlocfilehash: 5fb6cae7db9cdb09e23b3627e26e695ecf6418f2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: bfbacb9c82a681c7963ab5164c43cbb648e726cd
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753848"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353376"
 ---
 # <a name="destinationfolderid"></a>DestinationFolderId
 
@@ -34,12 +34,19 @@ ms.locfileid: "19753848"
 </DestinationFolderId>
 ```
 
- **TargetFolderIdType**
+```XML
+<DestinationFolderId>
+   <DistinguishedFolderId/>
+</DestinationFolderId>
+```
+
+**TargetFolderIdType**
+
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -47,7 +54,7 @@ ms.locfileid: "19753848"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[文件夹 Id](folderid.md) <br/> |包含目标文件夹的标识符和更改键。  <br/> |
+|[FolderId](folderid.md) <br/> |包含目标文件夹的标识符和更改键。  <br/> |
 |[DistinguishedFolderId](distinguishedfolderid.md) <br/> |标识可以通过名称引用的文件夹。  <br/> |
    
 ### <a name="parent-elements"></a>父元素

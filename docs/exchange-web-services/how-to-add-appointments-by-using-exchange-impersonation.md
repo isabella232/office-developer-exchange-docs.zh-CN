@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 78d5e51b-900f-4302-b9a8-fdc9aa4b65a5
 description: 了解如何使用模拟 EWS 的 EWS 托管 API 在 Exchange 将约会添加到用户的日历。
-ms.openlocfilehash: fe737658b88aca66d8b4c2860245db000888ba17
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ab10a7d65a5603a84e12d918dd54198927d88b8a
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752765"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353453"
 ---
 # <a name="add-appointments-by-using-exchange-impersonation"></a>使用 Exchange 模拟添加约会
 
@@ -195,12 +195,12 @@ EWS 允许您应用程序使用模拟将项目添加到代表日历的日历所�
     
 - [配置模拟](how-to-configure-impersonation.md)
     
-- [确定要模拟的帐户](how-to-identify-the-account-to-impersonate.md)
+- [识别要模拟的帐户](how-to-identify-the-account-to-impersonate.md)
     
 - [使用 Exchange 2013 中的 EWS 中创建约会和会议](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)
     
-- [CreateItem operation，（日历项）](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx)
+- [CreateItem 操作（日历项目）](../web-service-reference/createitem-operation-calendar-item.md)
     
-- [ExchangeService.ImpersonatedUserId 属性](http://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.impersonateduserid.aspx.aspx)
+- [ExchangeService.ImpersonatedUserId 属性](https://docs.microsoft.com/en-us/dotnet/api/microsoft.exchange.webservices.data.exchangeservice.impersonateduserid?view=exchange-ews-api)
     
 

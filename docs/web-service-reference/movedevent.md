@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 572f8b40-dfa8-47bc-b0c1-e1a7138506fd
 description: MovedEvent 元素表示在其中项目或文件夹从一个父文件夹移到另一个父文件夹的事件。
-ms.openlocfilehash: a375f421ca9159103e47b515729316b21149c68a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 07f9c02ea194187a9fdfb1e27b19eb311392f51f
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826479"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353257"
 ---
 # <a name="movedevent"></a>MovedEvent
 
@@ -34,12 +34,25 @@ ms.locfileid: "19826479"
 </MovedEvent>
 ```
 
- **MovedCopiedEventType**
+```xml
+<MovedEvent>
+   <Watermark/>
+   <TimeStamp/>
+   <FolderId/>
+   <ParentFolderId/>
+   <OldFolderId/>
+   <OldParentFolderId/>
+</MovedEvent>
+```
+
+
+**MovedCopiedEventType**
+
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -47,9 +60,9 @@ ms.locfileid: "19826479"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[水印](watermark.md) <br/> |代表邮箱事件表格中的事件书签。  <br/> |
-|[时间戳](timestamp.md) <br/> |代表移动项目/文件夹邮箱事件的时间戳。  <br/> |
-|[文件夹 Id](folderid.md) <br/> |代表移动文件夹的标识符。  <br/> |
+|[Watermark](watermark.md) <br/> |代表邮箱事件表格中的事件书签。  <br/> |
+|[TimeStamp](timestamp.md) <br/> |代表移动项目/文件夹邮箱事件的时间戳。  <br/> |
+|[FolderId](folderid.md) <br/> |代表移动文件夹的标识符。  <br/> |
 |[ItemId](itemid.md) <br/> |代表移动项目的标识符。  <br/> |
 |[ParentFolderId](parentfolderid.md) <br/> |表示包含移动的项目或文件夹的文件夹的标识符。  <br/> |
 |[OldFolderId](oldfolderid.md) <br/> |它已移动或复制之前，请包含原始文件夹的文件夹标识符。  <br/> |
@@ -62,7 +75,7 @@ ms.locfileid: "19826479"
 |:-----|:-----|
 |[通知](notification-ex15websvcsotherref.md) <br/> |包含有关订阅和自上次通知以来发生的事件的信息。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -77,11 +90,7 @@ ms.locfileid: "19826479"
    
 ## <a name="see-also"></a>另请参阅
 
-
-
-[订阅操作](subscribe-operation.md)
-  
-[GetEvents 操作](getevents-operation.md)
-  
-[取消操作](unsubscribe-operation.md)
+- [Subscribe 操作](subscribe-operation.md) 
+- [GetEvents 操作](getevents-operation.md) 
+- [Unsubscribe 操作](unsubscribe-operation.md)
 

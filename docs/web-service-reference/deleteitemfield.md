@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 3893be6a-49a7-49f6-bf53-c7f819ec3f87
 description: DeleteItemField 元素均表示 UpdateItem 呼叫期间，从项目中删除给定的属性的操作。
-ms.openlocfilehash: 2388bd10379211a31890b7c4f27920431ce444c8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 571227eece8f717c1bf5da27cfab8ae50dfe3572
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753812"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353880"
 ---
 # <a name="deleteitemfield"></a>DeleteItemField
 
@@ -26,7 +26,7 @@ ms.locfileid: "19753812"
 - [UpdateItem](updateitem.md)  
 - [ItemChanges](itemchanges.md) 
 - [ItemChange](itemchange.md) 
-- [更新 （项）](updates-item.md) 
+- [Updates (Item)](updates-item.md) 
 - [DeleteItemField](deleteitemfield.md)
   
 ```xml
@@ -35,12 +35,25 @@ ms.locfileid: "19753812"
 </DeleteItemField>
 ```
 
- **DeleteItemFieldType**
+```xml
+<DeleteItemField>
+   <IndexedFieldURI/> 
+</DeleteItemField>
+```
+
+```xml
+<DeleteItemField>
+   <ExtendedFieldURI/>
+</DeleteItemField>
+```
+
+**DeleteItemFieldType**
+
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -56,9 +69,9 @@ ms.locfileid: "19753812"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[更新 （项）](updates-item.md) <br/> |包含一组定义的元素的 append、 设置和删除项目属性更改。  <br/><br/>以下是此元素的 XPath 表达式：<br/>`/UpdateItem/ItemChanges/ItemChange[i]/Updates` <br/> |
+|[Updates (Item)](updates-item.md) <br/> |包含一组定义的元素的 append、 设置和删除项目属性更改。  <br/><br/>下面是此元素的 XPath 表达式:  <br/>`/UpdateItem/ItemChanges/ItemChange[i]/Updates` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 Microsoft Exchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

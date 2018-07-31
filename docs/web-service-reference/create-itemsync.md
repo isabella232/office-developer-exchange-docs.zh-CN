@@ -1,5 +1,5 @@
 ---
-title: 创建 (ItemSync)
+title: Create (ItemSync)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -12,26 +12,22 @@ api_type:
 - schema
 ms.assetid: cb5e64a2-66a5-4447-921e-7c13efb8f6bf
 description: 创建元素标识在本地客户端库中创建的单个项。
-ms.openlocfilehash: 39056bcaab3577b1b729421118a45571910922fc
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d49e54c64f7bd53dcb296d998a856c20570d81be
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753621"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353943"
 ---
-# <a name="create-itemsync"></a>创建 (ItemSync)
+# <a name="create-itemsync"></a>Create (ItemSync)
 
 **创建**元素标识在本地客户端库中创建的单个项。 
   
-[SyncFolderItemsResponse](syncfolderitemsresponse.md)
-  
-[ResponseMessages](responsemessages.md)
-  
-[SyncFolderItemsResponseMessage](syncfolderitemsresponsemessage.md)
-  
-[更改 （项）](changes-items.md)
-  
-[创建 (ItemSync)](create-itemsync.md)
+- [SyncFolderItemsResponse](syncfolderitemsresponse.md) 
+- [ResponseMessages](responsemessages.md) 
+- [SyncFolderItemsResponseMessage](syncfolderitemsresponsemessage.md) 
+- [Changes (Items)](changes-items.md) 
+- [Create (ItemSync)](create-itemsync.md)
   
 ```xml
 <Create>
@@ -39,12 +35,67 @@ ms.locfileid: "19753621"
 </Create>
 ```
 
- **SyncFolderItemsCreateOrUpdateType**
+```xml
+<Create>
+   <Task/> 
+</Create>
+```
+
+```xml
+<Create>
+   <MeetingResponse/>
+</Create>
+```
+
+```xml
+<Create>
+   <CalendarItem/>
+</Create>
+```
+
+```xml
+<Create>
+   <MeetingMessage/>
+</Create>
+```
+
+```xml
+<Create>
+   <DistributionList/>
+</Create>
+```
+
+```xml
+<Create>
+   <MeetingCancellation/>
+</Create>
+```
+
+```xml
+<Create>
+   <MeetingRequest/> 
+</Create>
+```
+
+```xml
+<Create>
+   <Message/> 
+</Create>
+```
+
+```xml
+<Create>
+   <Contact/> 
+</Create>
+```
+
+**SyncFolderItemsCreateOrUpdateType**
+
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -53,8 +104,8 @@ ms.locfileid: "19753621"
 |**元素**|**说明**|
 |:-----|:-----|
 |[Item](item.md) <br/> |表示要创建的泛型 Exchange 项目。  <br/> |
-|[Message](message-ex15websvcsotherref.md) <br/> |代表要创建 Exchange 电子邮件。  <br/> |
-|[日历项目](calendaritem.md) <br/> |表示要创建 Exchange 日历项。  <br/> |
+|[邮件](message-ex15websvcsotherref.md) <br/> |代表要创建 Exchange 电子邮件。  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |表示要创建 Exchange 日历项。  <br/> |
 |[Contact](contact.md) <br/> |表示要创建 Exchange 联系人项。  <br/> |
 |[DistributionList](distributionlist.md) <br/> |代表创建的通讯组列表。  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |代表要创建的会议消息。  <br/> |
@@ -67,9 +118,9 @@ ms.locfileid: "19753621"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[更改 （项）](changes-items.md) <br/> |包含表示客户端上的项目和 Exchange 服务器上的项目之间的差异的类型的更改类型序列数组。  <br/> |
+|[Changes (Items)](changes-items.md) <br/> |包含表示客户端上的项目和 Exchange 服务器上的项目之间的差异的类型的更改类型序列数组。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -84,10 +135,6 @@ ms.locfileid: "19753621"
    
 ## <a name="see-also"></a>另请参阅
 
-
-
-[SyncFolderItems 操作](syncfolderitems-operation.md)
-
-
+- [SyncFolderItems 操作](syncfolderitems-operation.md)
 - [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

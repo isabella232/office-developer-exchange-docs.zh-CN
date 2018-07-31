@@ -1,19 +1,19 @@
 ---
-title: EWS exchange 的客户端设计概述
+title: Exchange 的 EWS 客户端设计概述
 manager: sethgros
 ms.date: 3/11/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: b26f67aa-7c66-4d7d-98b3-746f26ab37f4
 description: 了解如何使用 EWS 开发针对 Exchange 的设计注意事项。
-ms.openlocfilehash: ea0e1ad3f8402d19a6163f3320a2a17f08f3ea2a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 10e1c78bdd93dc5aede6e3f9337aa70b0214b770
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752721"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353901"
 ---
-# <a name="ews-client-design-overview-for-exchange"></a>EWS exchange 的客户端设计概述
+# <a name="ews-client-design-overview-for-exchange"></a>Exchange 的 EWS 客户端设计概述
 
 了解如何使用 EWS 开发针对 Exchange 的设计注意事项。 
   
@@ -120,18 +120,12 @@ EWS Java API 是在[GitHub](https://github.com/OfficeDev/ews-java-api)可更新�
 ## <a name="in-this-section"></a>本节内容
 <a name="bk_inthissection"> </a>
 
-- [Exchange 和 EWS 托管 API 中的 web 服务 API 功能可用性](web-service-api-feature-availability-in-exchange-and-the-ews-managed-api.md)
-    
-- [Exchange 中的 EWS 架构版本](ews-schema-versions-in-exchange.md)
-    
-- [Exchange 中的 EWS 的配置选项](configuration-options-for-ews-in-exchange.md)
-    
-- [比较 Exchange Online 和 Exchange 内部部署客户端编程 （英文）](comparing-exchange-online-and-exchange-on-premises-client-programming.md)
-    
-- [限制在 Exchange 中的 EWS](ews-throttling-in-exchange.md)
-    
-- [EWS 托管 API 的重新分发要求](redistribution-requirements-for-the-ews-managed-api.md)
-    
+- [Exchange 和 EWS 托管 API 中的 web 服务 API 功能可用性](web-service-api-feature-availability-in-exchange-and-the-ews-managed-api.md)   
+- [Exchange 中的 EWS 架构版本](ews-schema-versions-in-exchange.md)  
+- [Exchange 中的 EWS 的配置选项](configuration-options-for-ews-in-exchange.md)  
+- [比较 Exchange Online 和 Exchange 本地客户端编程](comparing-exchange-online-and-exchange-on-premises-client-programming.md)   
+- [限制在 Exchange 中的 EWS](ews-throttling-in-exchange.md)  
+- [EWS 托管 API 的再分发要求](redistribution-requirements-for-the-ews-managed-api.md)  
 - [在 Exchange 检测 EWS 和 REST 的客户端请求](instrumenting-client-requests-for-ews-and-rest-in-exchange.md)
     
 ## <a name="see-also"></a>另请参阅
