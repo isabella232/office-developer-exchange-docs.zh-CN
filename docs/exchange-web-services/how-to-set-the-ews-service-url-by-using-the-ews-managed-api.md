@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: cddf6525-1c04-484b-a911-56c2f0f1f7b6
-description: 本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 查找有关如何在 EWS Managed API 应用程序中设置 EWS 服务 URL 的信息。
+description: 查找有关如何在 EMS 托管 API 应用程序中设置 EWS 服务 URL 的信息。
 ms.openlocfilehash: e1a414f7c6f13bd61a58403c9d2be546c0226a69
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752877"
 ---
 # <a name="set-the-ews-service-url-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 设置 EWS 服务 URL
 
-本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 查找有关如何在 EWS Managed API 应用程序中设置 EWS 服务 URL 的信息。
+查找有关如何在 EMS 托管 API 应用程序中设置 EWS 服务 URL 的信息。
   
-服务 URL 是 Exchange 用于与 Exchange Web Services (EWS) 通信的地址。当您的 EWS Managed API 应用程序具有此地址，并且有相应的权限[与 EWS 通信](how-to-communicate-with-ews-by-using-the-ews-managed-api.md)后，即可调用 [ExchangeService 类](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)。内部部署 Exchange 服务器的服务 URL 可能如下所示。 
+服务 URL 是 Exchange 用于与 Exchange Web Services (EWS) 通信的地址。当您的 EWS Managed API 应用程序具有此地址，并且有相应的权限[与 EWS 通信](how-to-communicate-with-ews-by-using-the-ews-managed-api.md)后，即可调用 [ExchangeService 类](http://msdn.microsoft.com/zh-CN/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)。内部部署 Exchange 服务器的服务 URL 可能如下所示。 
   
 ```HTML
 https://computer.domain.contoso.com/EWS/Exchange.asmx
@@ -28,7 +28,7 @@ https://computer.domain.contoso.com/EWS/Exchange.asmx
 ## <a name="set-the-ews-service-url-by-using-the-autodiscover-service"></a>使用自动发现服务设置 EWS 服务 URL
 <a name="bk_SetURLusingAutoDiscover"> </a>
 
-[AutodiscoverUrl](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.autodiscoverurl%28v=exchg.80%29.aspx) 方法使用电子邮件地址设置 [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) 终结点，并使您的应用程序可以使用 **ExchangeService** 代理类中包含的任何方法。以下示例显示如何使用 **AutodiscoverURL** 方法。 
+[AutodiscoverUrl](http://msdn.microsoft.com/zh-CN/library/microsoft.exchange.webservices.data.exchangeservice.autodiscoverurl%28v=exchg.80%29.aspx) 方法使用电子邮件地址设置 [ExchangeService](http://msdn.microsoft.com/zh-CN/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) 终结点，并使您的应用程序可以使用 **ExchangeService** 代理类中包含的任何方法。以下示例显示如何使用 **AutodiscoverURL** 方法。 
   
 ```cs
 // Create the binding.
@@ -58,9 +58,9 @@ service.Url = new Uri("https://computername.domain.contoso.com/EWS/Exchange.asmx
 ## <a name="see-also"></a>另请参阅
 
 - [EWS 托管 API 客户端应用程序入门](get-started-with-ews-managed-api-client-applications.md)   
-- [设置您的 Exchange 应用程序开发环境](setting-up-your-exchange-application-development-environment.md)   
-- [在 Exchange 控制对 EWS 的访问](how-to-control-access-to-ews-in-exchange.md) 
-- [使用 EWS 托管 API 与 EWS 通信](how-to-communicate-with-ews-by-using-the-ews-managed-api.md)  
-- [使用 Autodiscover 以查找连接点](how-to-use-autodiscover-to-find-connection-points.md)
+- [设置 Exchange 应用程序开发环境](setting-up-your-exchange-application-development-environment.md)   
+- [在 Exchange 中控制对 EWS 的访问](how-to-control-access-to-ews-in-exchange.md) 
+- [使用 EWS 托管 API 与 EWS 进行通信](how-to-communicate-with-ews-by-using-the-ews-managed-api.md)  
+- [使用自动发现查找连接点](how-to-use-autodiscover-to-find-connection-points.md)
     
 

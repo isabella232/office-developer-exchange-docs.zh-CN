@@ -1,5 +1,5 @@
 ---
-title: Mailbox
+title: 邮箱
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -14,12 +14,12 @@ ms.assetid: befc70fd-51cb-4258-884c-80c9050f0e82
 description: Mailbox 元素标识启用了邮件的 Active Directory 对象。
 ms.openlocfilehash: e9fa21f3678249a9ac13d567b88beaf0177f989f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19826258"
 ---
-# <a name="mailbox"></a>Mailbox
+# <a name="mailbox"></a>邮箱
 
 本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **Mailbox** 元素标识启用了邮件的 Active Directory 对象。 
   
@@ -37,9 +37,9 @@ ms.locfileid: "19826258"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -49,7 +49,7 @@ ms.locfileid: "19826258"
 |:-----|:-----|
 |[名称 (EmailAddressType)](name-emailaddresstype.md) <br/> |定义邮箱用户的名称。此元素是可选的。  <br/> |
 |[EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) <br/> |定义邮箱用户的简单邮件传输协议 (SMTP)地址。此元素是可选的。  <br/> |
-|[RoutingType （电子邮件地址）](routingtype-emailaddress.md) <br/> |定义用于邮箱路由。默认值为 SMTP。此元素是可选的。  <br/> |
+|[RoutingType (EmailAddress)](routingtype-emailaddress.md) <br/> |定义用于邮箱路由。默认值为 SMTP。此元素是可选的。  <br/> |
 |[MailboxType](mailboxtype.md) <br/> |定义邮箱用户的邮箱类型。此元素是可选的。  <br/> |
 |[ItemId](itemid.md) <br/> |定义用户联系人文件夹收件人的联系人或私人通讯组列表的项标识符。此元素为可选。  <br/> |
    
@@ -61,7 +61,7 @@ ms.locfileid: "19826258"
 |[ToRecipients](torecipients.md) <br/> |包含项目的收件人数组。  <br/> |
 |[CcRecipients](ccrecipients.md) <br/> |表示将收到邮件副本的收件人集合。  <br/> |
 |[BccRecipients](bccrecipients.md) <br/> |表示接收电子邮件的密件抄送 (Bcc) 的收件人集合。  <br/> |
-|[回复](replyto.md) <br/> |标识副本应发送到的电子邮件地址数组。  <br/> |
+|[ReplyTo](replyto.md) <br/> |标识副本应发送到的电子邮件地址数组。  <br/> |
 |[发件人](sender.md) <br/> |标识项目的发件人。  <br/> |
 |[发件人](from.md) <br/> |表示邮件发件人的地址。  <br/> |
 |[Organizer](organizer.md) <br/> |表示会议的组织者。  <br/> |
@@ -82,7 +82,7 @@ ms.locfileid: "19826258"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) 和 [ItemId](itemid.md) 元素识别邮箱或通讯组列表。 
 
@@ -107,5 +107,5 @@ ms.locfileid: "19826258"
    
 ## <a name="see-also"></a>另请参阅
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

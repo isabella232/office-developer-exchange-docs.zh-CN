@@ -1,5 +1,5 @@
 ---
-title: 在 Exchange 使用 EWS 发送电子邮件
+title: 在 Exchange 中使用 EWS 发送电子邮件
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,12 +8,12 @@ ms.assetid: 5290fafe-8b51-4275-a27e-baf497fc969c
 description: 本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 了解在 Exchange 中如何使用 EWS 托管 API 或 EWS 发送新的或草稿电子邮件，或者发送延迟的电子邮件。
 ms.openlocfilehash: f09babfcc420d4cbc563ed6605ba555fd9f8c7e9
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752876"
 ---
-# <a name="send-email-messages-by-using-ews-in-exchange"></a>在 Exchange 使用 EWS 发送电子邮件
+# <a name="send-email-messages-by-using-ews-in-exchange"></a>在 Exchange 中使用 EWS 发送电子邮件
 
 本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 了解在 Exchange 中如何使用 EWS 托管 API 或 EWS 发送新的或草稿电子邮件，或者发送延迟的电子邮件。
   
@@ -23,15 +23,15 @@ ms.locfileid: "19752876"
 
 |**任务**|**EWS 托管的 API 方法**|**EWS 操作**|
 |:-----|:-----|:-----|
-|发送新的电子邮件  <br/> |[EmailMessage.SendAndSaveCopy](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.sendandsavecopy%28v=exchg.80%29.aspx) <br/> |[CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) <br/> |
-|发送现有电子邮件  <br/> |[EmailMessage.Send](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.send%28v=exchg.80%29.aspx) <br/> |[SendItem](http://msdn.microsoft.com/library/337b89ef-e1b7-45ed-92f3-8abe4200e4c7%28Office.15%29.aspx) <br/> |
+|发送新的电子邮件  <br/> |[EmailMessage.SendAndSaveCopy](http://msdn.microsoft.com/zh-CN/library/microsoft.exchange.webservices.data.emailmessage.sendandsavecopy%28v=exchg.80%29.aspx) <br/> |[CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) <br/> |
+|发送现有电子邮件  <br/> |[EmailMessage.Send](http://msdn.microsoft.com/zh-CN/library/microsoft.exchange.webservices.data.emailmessage.send%28v=exchg.80%29.aspx) <br/> |[SendItem](http://msdn.microsoft.com/library/337b89ef-e1b7-45ed-92f3-8abe4200e4c7%28Office.15%29.aspx) <br/> |
    
 ## <a name="send-a-new-email-message-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 发送新的电子邮件
 <a name="bk_sendnewewsma"> </a>
 
-以下代码示例介绍如何使用 [EmailMessage](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage%28v=exchg.80%29.aspx) 对象创建电子邮件，使用 [SendAndSaveCopy](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.sendandsavecopy%28v=exchg.80%29.aspx) 方法将邮件发送给收件人并将邮件保存在"已发送邮件"文件夹中。 
+以下代码示例介绍如何使用 [EmailMessage](http://msdn.microsoft.com/zh-CN/library/microsoft.exchange.webservices.data.emailmessage%28v=exchg.80%29.aspx) 对象创建电子邮件，使用 [SendAndSaveCopy](http://msdn.microsoft.com/zh-CN/library/microsoft.exchange.webservices.data.emailmessage.sendandsavecopy%28v=exchg.80%29.aspx) 方法将邮件发送给收件人并将邮件保存在"已发送邮件"文件夹中。 
   
-此示例假定 **service** 是有效的 [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) 对象，且用户已通过 Exchange 服务器的身份验证。 
+此示例假定 **service** 是有效的 [ExchangeService](http://msdn.microsoft.com/zh-CN/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) 对象，且用户已通过 Exchange 服务器的身份验证。 
   
 ```cs
 // Create an email message and provide it with connection 
@@ -82,16 +82,16 @@ Console.WriteLine("An email with the subject '" + message.Subject + "' has been 
 </soap:Envelope>
 ```
 
-服务器使用 **CreateItemResponse** 邮件响应 [CreateItem](http://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) 请求，其中包括 [ResponseCode](http://msdn.microsoft.com/en-us/library/aa580757%28v=exchg.150%29.aspx) 值 **NoError**（表示电子邮件创建成功）和新创建邮件的 [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx)。 
+服务器使用 **CreateItemResponse** 邮件响应 [CreateItem](http://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) 请求，其中包括 [ResponseCode](http://msdn.microsoft.com/zh-CN/library/aa580757%28v=exchg.150%29.aspx) 值 **NoError**（表示电子邮件创建成功）和新创建邮件的 [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx)。 
   
 ## <a name="send-a-draft-email-message-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 发送草稿电子邮件
 <a name="bk_senddraftewsma"> </a>
 
-以下代码示例介绍如何发送存储在"草稿"文件夹中的邮件，如[使用 EWS 托管的 API 创建一封电子邮件](email-and-ews-in-exchange.md#bk_createewsma)中所示。首先，使用 [Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.bind%28v=exchg.80%29.aspx) 方法检索邮件，然后使用 [Send](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.send%28v=exchg.80%29.aspx) 方法发送电子邮件，如以下代码示例中所示。请注意，此方法不会将已发送的邮件保存在"已发送邮件"文件夹中。 
+以下代码示例介绍如何发送存储在"草稿"文件夹中的邮件，如[使用 EWS 托管的 API 创建一封电子邮件](email-and-ews-in-exchange.md#bk_createewsma)中所示。首先，使用 [Bind](http://msdn.microsoft.com/zh-CN/library/microsoft.exchange.webservices.data.emailmessage.bind%28v=exchg.80%29.aspx) 方法检索邮件，然后使用 [Send](http://msdn.microsoft.com/zh-CN/library/microsoft.exchange.webservices.data.emailmessage.send%28v=exchg.80%29.aspx) 方法发送电子邮件，如以下代码示例中所示。请注意，此方法不会将已发送的邮件保存在"已发送邮件"文件夹中。 
   
-在这种情况下，会将 [EmailMessageSchema.Subject](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.itemschema.subject%28v=exchg.80%29.aspx) 和 [EmailMessageSchema.ToRecipients](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessageschema.torecipients%28v=exchg.80%29.aspx) 属性添加到 [PropertySet](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.propertyset%28v=exchg.80%29.aspx)，以便值可以包含在控制台输出中。 
+在这种情况下，会将 [EmailMessageSchema.Subject](http://msdn.microsoft.com/zh-CN/library/microsoft.exchange.webservices.data.itemschema.subject%28v=exchg.80%29.aspx) 和 [EmailMessageSchema.ToRecipients](http://msdn.microsoft.com/zh-CN/library/microsoft.exchange.webservices.data.emailmessageschema.torecipients%28v=exchg.80%29.aspx) 属性添加到 [PropertySet](http://msdn.microsoft.com/zh-CN/library/microsoft.exchange.webservices.data.propertyset%28v=exchg.80%29.aspx)，以便值可以包含在控制台输出中。 
   
-此示例假定 **service** 是有效的 [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) 对象，且用户已通过 Exchange 服务器的身份验证。 
+此示例假定 **service** 是有效的 [ExchangeService](http://msdn.microsoft.com/zh-CN/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) 对象，且用户已通过 Exchange 服务器的身份验证。 
   
 ```cs
 // As a best practice, create a property set that limits the properties returned by the Bind method to only those that are required.
@@ -111,7 +111,7 @@ Console.WriteLine("An email with the subject '" + message.Subject + "' has been 
   
 第一封邮件 **GetItem** 请求邮件指定要绑定到的草稿电子邮件的 [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx)，[ItemShape](http://msdn.microsoft.com/library/c5604161-bbc0-40bc-ad75-ff7e837d745f%28Office.15%29.aspx) 元素中的元素限制要包含在 **GetItem** 响应中的结果。 **ItemShape** 元素的 [BaseShape](http://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) 为 **IdOnly**，[AdditionalProperties](http://msdn.microsoft.com/library/7a269aed-dcfd-4c3e-9e14-094e53828101%28Office.15%29.aspx) 元素包括项目架构中的 [Subject](http://msdn.microsoft.com/library/24af8e3b-3074-4c8c-8d0a-52446508d044%28Office.15%29.aspx) 属性和邮件架构中的 **ToRecipients** 属性的 **FieldURI** 值，这意味着在响应中仅向客户端返回 **ItemId**、[Subject](http://msdn.microsoft.com/library/c140d6c2-deb1-4f67-a908-9397197c4ae7%28Office.15%29.aspx) 和 [ToRecipients](http://msdn.microsoft.com/library/72dc3be8-30bb-4ae1-acf4-fb94ff490631%28Office.15%29.aspx) 元素。有关限制调用中返回的值的详细信息以及 **BaseShape** 元素的含义，请参阅 [属性集和响应形状在 EWS 在 Exchange](property-sets-and-response-shapes-in-ews-in-exchange.md)。
   
-这也是调用 [Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.bind%28v=exchg.80%29.aspx) 方法时 EWS 托管 API 发送的 XML 请求。某些属性和元素的值已缩短，以方便读取。 
+这也是调用 [Bind](http://msdn.microsoft.com/zh-CN/library/microsoft.exchange.webservices.data.emailmessage.bind%28v=exchg.80%29.aspx) 方法时 EWS 托管 API 发送的 XML 请求。某些属性和元素的值已缩短，以方便读取。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -214,9 +214,9 @@ Console.WriteLine("An email with the subject '" + message.Subject + "' has been 
 ## <a name="send-a-delayed-email-message-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 发送延迟的电子邮件
 <a name="bk_senddelayedewsma"> </a>
 
-以下代码示例介绍如何使用 [EmailMessage](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage%28v=exchg.80%29.aspx) 对象创建电子邮件，如何使用 [ExtendedPropertyDefinition](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.extendedpropertydefinition%28v=exchg.80%29.aspx) 类创建 [PidTagDeferredSendTime](http://msdn.microsoft.com/en-us/library/cc840017.aspx) (0x3FEF0040) 属性的属性定义，如何使用 [SendAndSaveCopy](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.sendandsavecopy%28v=exchg.80%29.aspx) 方法发送延迟的邮件并将邮件保存在"已发送邮件"文件夹中。 
+以下代码示例介绍如何使用 [EmailMessage](http://msdn.microsoft.com/zh-CN/library/microsoft.exchange.webservices.data.emailmessage%28v=exchg.80%29.aspx) 对象创建电子邮件，如何使用 [ExtendedPropertyDefinition](http://msdn.microsoft.com/zh-CN/library/microsoft.exchange.webservices.data.extendedpropertydefinition%28v=exchg.80%29.aspx) 类创建 [PidTagDeferredSendTime](http://msdn.microsoft.com/zh-CN/library/cc840017.aspx) (0x3FEF0040) 属性的属性定义，如何使用 [SendAndSaveCopy](http://msdn.microsoft.com/zh-CN/library/microsoft.exchange.webservices.data.emailmessage.sendandsavecopy%28v=exchg.80%29.aspx) 方法发送延迟的邮件并将邮件保存在"已发送邮件"文件夹中。 
   
-此示例假定 **service** 是有效的 [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) 对象，且用户已通过 Exchange 服务器的身份验证。 
+此示例假定 **service** 是有效的 [ExchangeService](http://msdn.microsoft.com/zh-CN/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) 对象，且用户已通过 Exchange 服务器的身份验证。 
   
 ```cs
 // Create a new email message. 
@@ -247,7 +247,7 @@ message.SendAndSaveCopy();
 ## <a name="send-a-delayed-email-message-by-using-ews"></a>使用 EWS 发送延迟的电子邮件
 <a name="bk_senddelayedews"> </a>
 
-以下代码示例介绍如何使用 [MessageDisposition](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) 值为 **SendAndSaveCopy** 的 **CreateItem** 操作创建电子邮件，如何使用 [ExtendedProperty](http://msdn.microsoft.com/library/f9701409-b620-4afe-b9ee-4c1e95507af7%28Office.15%29.aspx) 元素为 [PidTagDeferredSendTime](http://msdn.microsoft.com/en-us/library/cc840017.aspx) (0x3FEF0040) 属性创建属性定义以设置发送邮件的时间，以及如何使用 [SavedItemFolderId](http://msdn.microsoft.com/library/4b8b475c-9ca5-48c9-acb0-8848b53be1ce%28Office.15%29.aspx) 元素将已发送的邮件保存在"已发送邮件"文件夹中。 
+以下代码示例介绍如何使用 [MessageDisposition](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) 值为 **SendAndSaveCopy** 的 **CreateItem** 操作创建电子邮件，如何使用 [ExtendedProperty](http://msdn.microsoft.com/library/f9701409-b620-4afe-b9ee-4c1e95507af7%28Office.15%29.aspx) 元素为 [PidTagDeferredSendTime](http://msdn.microsoft.com/zh-CN/library/cc840017.aspx) (0x3FEF0040) 属性创建属性定义以设置发送邮件的时间，以及如何使用 [SavedItemFolderId](http://msdn.microsoft.com/library/4b8b475c-9ca5-48c9-acb0-8848b53be1ce%28Office.15%29.aspx) 元素将已发送的邮件保存在"已发送邮件"文件夹中。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -292,8 +292,8 @@ message.SendAndSaveCopy();
 ## <a name="see-also"></a>另请参阅
 
 
-- [电子邮件和 Exchange 中的 EWS](email-and-ews-in-exchange.md)
+- [Exchange 中的电子邮件和 EMS](email-and-ews-in-exchange.md)
     
-- [在 Exchange 使用 EWS 响应电子邮件](how-to-respond-to-email-messages-by-using-ews-in-exchange.md)
+- [在 Exchange 中使用 EWS 响应电子邮件](how-to-respond-to-email-messages-by-using-ews-in-exchange.md)
     
 

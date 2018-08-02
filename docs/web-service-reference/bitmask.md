@@ -14,7 +14,7 @@ ms.assetid: fc7eeac2-555f-4cbc-8b48-26d9ed67748a
 description: Bitmask 元素表示要在 不包括 限制操作中使用的十六进制或十进制掩码。
 ms.openlocfilehash: 86c8c61f22d8d620a9139280b2a43ed7fec4727d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753343"
@@ -31,13 +31,13 @@ ms.locfileid: "19753343"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**说明**|
 |:-----|:-----|
-|**Value** | 表示十进制或十六进制位掩码。 下面的正则表达式被表示的值：<br/>((0x|0X)[0-9A-Fa-f]*)|([0-9] *)。<br/><br/>下面是此属性的十六进制值的示例：<br/>-0x12AF<br/>-0X334AE<br/><br/>下面是此属性的十进制值的示例：<br/>-10<br/>-255<br/>-4562 |
+|**值** | 表示十进制或十六进制位掩码。 由以下正则表达式表示值：<br/>`((0x|0X)[0-9A-Fa-f]*)|([0-9]*)`。<br/><br/>以下是此属性的十六进制值的示例：<br/>- 0x12AF<br/>- 0X334AE<br/><br/>以下是此属性的十进制值的示例：<br/>- 10<br/>- 255<br/>- 4562 |
    
 ### <a name="child-elements"></a>子元素
 
@@ -49,7 +49,7 @@ ms.locfileid: "19753343"
 |:-----|:-----|
 |[不包括](excludes.md) <br/> |执行这些属性的位掩码。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 十六进制值必须有 0x 或 0X 的前缀。如果不存在此前缀，则假定该值为十进制数。
   
@@ -66,5 +66,5 @@ ms.locfileid: "19753343"
    
 ## <a name="see-also"></a>另请参阅
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

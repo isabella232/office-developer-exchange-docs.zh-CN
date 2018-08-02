@@ -8,18 +8,18 @@ ms.assetid: 899ba15b-336d-4f9b-8563-318c61e43713
 description: 寻找信息以帮助您开发适用于 Exchange 的 EWS 和 Web 服务客户端应用程序。
 ms.openlocfilehash: 2b8b032124e45dda7c83932d519ffb87bcdb5514
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19752701"
 ---
 # <a name="develop-web-service-clients-for-exchange"></a>开发 Exchange Web 服务客户端
 
-本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 寻找信息以帮助您开发适用于 Exchange 的 EWS 和 Web 服务客户端应用程序。
+寻找信息以帮助您开发适用于 Exchange 的 EWS 和 Web 服务客户端应用程序。
   
 本节中的文章介绍如何将 Exchange 客户端应用程序中的 EWS 和 Web 服务用于 Exchange Online、作为 Office 365 一部分的 Exchange Online，以及从 Exchange 2013 开始的本地 Exchange 版本，并提供向您展示如何执行特定任务的示例。 
   
-## <a name="in-this-section"></a>本节中
+## <a name="in-this-section"></a>本节内容
 
 - [在 Exchange 中 EWS 存档](archiving-in-ews-in-exchange.md)
     

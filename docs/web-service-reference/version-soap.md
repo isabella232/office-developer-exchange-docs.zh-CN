@@ -11,7 +11,7 @@ ms.assetid: 47c9216e-6bfe-48c8-a27a-26f70db8e8d5
 description: Version 元素表示服务器产品版本的说明。
 ms.openlocfilehash: b8284880646cb82e6af6715523467021f080b8e7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838529"
@@ -27,9 +27,9 @@ ms.locfileid: "19838529"
  **string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -47,7 +47,7 @@ ms.locfileid: "19838529"
 
 **Version** 元素的值是服务器产品版本的说明。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **Version** 元素包含在响应的 SOAP 标头中。 
   

@@ -14,7 +14,7 @@ ms.assetid: 812948d8-c7db-45ce-bb3a-77233a53a974
 description: Folder 元素定义要创建、获取、查找、同步或更新的文件夹。
 ms.openlocfilehash: ecfea52d2105599372a22b78778ac0d0d066bc60
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754390"
@@ -42,9 +42,9 @@ ms.locfileid: "19754390"
  **FolderType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -52,7 +52,7 @@ ms.locfileid: "19754390"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[文件夹 Id](folderid.md) <br/> |包含一个文件夹的标识符和更改键。  <br/> |
+|[FolderId](folderid.md) <br/> |包含一个文件夹的标识符和更改键。  <br/> |
 |[ParentFolderId](parentfolderid.md) <br/> |表示包含该文件夹的父文件夹的标识符。  <br/> |
 |[FolderClass](folderclass.md) <br/> |表示给定文件夹的文件夹类。  <br/> |
 |[显示名称 (字符串)](displayname-string.md) <br/> |包含文件夹的显示名称。  <br/> |
@@ -74,7 +74,7 @@ ms.locfileid: "19754390"
 |[更新 (FolderSync)](update-foldersync.md) <br/> |标识要在本地客户端存储中更新单个文件夹。  <br/> |
 |[Folders](folders-ex15websvcsotherref.md) <br/> |包含一数组的文件夹操作中使用的文件夹。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 Exchange 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -94,5 +94,5 @@ ms.locfileid: "19754390"
 [SyncFolderItems 操作](syncfolderitems-operation.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

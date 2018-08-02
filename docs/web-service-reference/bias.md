@@ -14,7 +14,7 @@ ms.assetid: ae10aa44-e6d3-483d-a3e6-bb9c45966810
 description: Bias 元素表示由标准时间和夏令时的 偏置 (UTC) 元素标识的与协调世界时 (UTC) 时差的时差。此值以分钟为单位。
 ms.openlocfilehash: 770bf97b030ac1293595560bc269f54896e35a15
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19753331"
@@ -31,9 +31,9 @@ ms.locfileid: "19753331"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -52,7 +52,7 @@ ms.locfileid: "19753331"
 
 文本值是必需的。文本值表示一个整数。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 用于确定本地时间的时差只能由一个 **Bias** 元素提供。由 [DaylightTime](daylighttime.md) 元素或 [StandardTime](standardtime.md) 元素提供的 Bias 元素值的总和加上 [偏置 (UTC)](bias-utc.md) 元素来标识本地时间。 
   
@@ -92,5 +92,5 @@ ms.locfileid: "19753331"
 ## <a name="see-also"></a>另请参阅
 
 - [GetUserAvailability 操作](getuseravailability-operation.md)
-- [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [获取用户可用性](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 
