@@ -70,7 +70,7 @@
                   href: exchange-web-services/improving-performance-when-using-autodiscover-for-exchange.md
             - name: Outlook 相关邮件应用程序和 EWS
               href: exchange-web-services/mail-apps-for-outlook-and-ews-in-exchange.md
-            - name: Office 365 REST API
+            - name: Microsoft Graph REST API
               href: exchange-web-services/office-365-rest-apis-for-mail-calendars-and-contacts.md
             - name: 许可证信息
               href: exchange-web-services/license-information.md
@@ -3912,7 +3912,7 @@
                     - name: YomiLastNames
                       href: web-service-reference/yomilastnames.md
             - name: EWS 托管 API 参考
-              href: 'https://msdn.microsoft.com/zh-cn/library/jj220535(v=exchg.80).aspx'
+              href: 'https://msdn.microsoft.com/EN-US/library/jj220535(v=exchg.80).aspx'
             - name: 自动发现 Web 服务参考
               href: web-service-reference/autodiscover-web-service-reference-for-exchange.md
               items:
@@ -4424,7 +4424,7 @@
                     - name: TelephoneAccessFolderEmail（UM Web 服务）
                       href: web-service-reference/telephoneaccessfolderemail-um-web-service.md
             - name: EWS 自动生成代理参考
-              href: 'https://msdn.microsoft.com/zh-cn/library/jj190899(v=exchg.150).aspx'
+              href: 'https://msdn.microsoft.com/EN-US/library/jj190899(v=exchg.150).aspx'
     - name: Exchange 命令行管理程序
       href: management/exchange-management-shell.md
       items:
@@ -4536,4 +4536,4 @@
             - name: CChkSGFiles.PgnoFromFileOffset 函数
               href: backup-restore/cchksgfiles-pgnofromfileoffset-function.md
     - name: 服务器 API 参考
-      href: 'https://msdn.microsoft.com/zh-cn/library/dn186243(v=exchg.150).aspx'
+      href: 'https://msdn.microsoft.com/en-us/library/dn186243(v=exchg.150).aspx'
