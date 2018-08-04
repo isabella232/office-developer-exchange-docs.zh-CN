@@ -70,7 +70,7 @@
                   href: exchange-web-services/improving-performance-when-using-autodiscover-for-exchange.md
             - name: Outlook 相关邮件应用程序和 EWS
               href: exchange-web-services/mail-apps-for-outlook-and-ews-in-exchange.md
-            - name: Office 365 REST API
+            - name: Microsoft Graph REST API
               href: exchange-web-services/office-365-rest-apis-for-mail-calendars-and-contacts.md
             - name: 许可证信息
               href: exchange-web-services/license-information.md
