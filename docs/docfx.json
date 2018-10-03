@@ -47,6 +47,7 @@
 	   "ms.prod" : "exchange",
 	   "ms.author": "o365devx",
 	   "author": "o365devx",
+	   "contributors_to_exclude": ["nivnar"],
 	   "bilingual_type": "hover over"
     },
     "fileMetadata": {
