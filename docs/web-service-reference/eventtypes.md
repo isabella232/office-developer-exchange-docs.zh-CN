@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 29ded9e5-f191-4aa3-bc3e-500de2fc8818
 description: EventTypes 元素包含用于创建订阅事件通知类型的集合。
-ms.openlocfilehash: f4c622376f6b607ed390511d7bb5f0f723889420
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 7ea783dc0bf73abf992616b1f86c7621c5b36fc8
+ms.sourcegitcommit: 25cbbc6707e4ec0621c5c46baf7fe49be42d3297
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754164"
+ms.lasthandoff: 10/07/2018
+ms.locfileid: "25440835"
 ---
 # <a name="eventtypes"></a>EventTypes
 
@@ -32,9 +32,9 @@ ms.locfileid: "19754164"
  **NonEmptyArrayOfNotificationEventTypesType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -56,7 +56,7 @@ ms.locfileid: "19754164"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -73,11 +73,11 @@ ms.locfileid: "19754164"
 
 
 
-[订阅操作](subscribe-operation.md)
+[Subscribe 操作](subscribe-operation.md)
   
 [GetEvents 操作](getevents-operation.md)
   
 [GetStreamingEvents 操作](getstreamingevents-operation.md)
   
-[取消操作](unsubscribe-operation.md)
+[Unsubscribe 操作](unsubscribe-operation.md)
 
