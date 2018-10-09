@@ -1,0 +1,40 @@
+---
+title: Exchange Web Services (EWS) 托管 API 参考
+manager: sethgros
+ms.date: 09/17/2015
+ms.audience: Developer
+ms.topic: reference
+localization_priority: Normal
+api_type:
+- schema
+ms.assetid: c6ca36f4-a67c-4e3c-aae7-9ead7b704e15
+description: 了解有关在 EWS 托管 API 中包含的命名空间。
+ms.openlocfilehash: 78797ba5124cb47da5430491d3be23bbaf0371a7
+ms.sourcegitcommit: 25cbbc6707e4ec0621c5c46baf7fe49be42d3297
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/07/2018
+ms.locfileid: "25440981"
+---
+# <a name="ews-managed-api-reference"></a><span data-ttu-id="a05cf-103">EWS 托管 API 参考</span><span class="sxs-lookup"><span data-stu-id="a05cf-103">EWS Managed API reference</span></span>
+
+<span data-ttu-id="a05cf-104">**适用于**：EWS 托管 API | Exchange Online | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013 | Office 365</span><span class="sxs-lookup"><span data-stu-id="a05cf-104">**Applies to**: EWS Managed API | Exchange Online | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013 | Office 365</span></span>
+
+<span data-ttu-id="a05cf-105">Exchange Web Services (EWS) 托管 API 包括两个 API：Microsoft.Exchange.WebServices.dll 和 Microsoft.Exchange.WebServices.Auth.dll。</span><span class="sxs-lookup"><span data-stu-id="a05cf-105">The Exchange Web Services (EWS) Managed API includes two APIs: Microsoft.Exchange.WebServices.dll and Microsoft.Exchange.WebServices.Auth.dll.</span></span>
+
+## <a name="ews-managed-api-namespaces"></a><span data-ttu-id="a05cf-106">EWS 托管 API 命名空间</span><span class="sxs-lookup"><span data-stu-id="a05cf-106">EWS Managed API</span></span>
+
+|<span data-ttu-id="a05cf-107">命名空间</span><span class="sxs-lookup"><span data-stu-id="a05cf-107">Namespace</span></span> |<span data-ttu-id="a05cf-108">说明</span><span class="sxs-lookup"><span data-stu-id="a05cf-108">Description</span></span> |
+|:---------|:-----------|
+|[<span data-ttu-id="a05cf-109">Microsoft.Exchange.WebServices.Auth.Validation</span><span class="sxs-lookup"><span data-stu-id="a05cf-109">Microsoft.Exchange.WebServices.Auth.Validation</span></span>](https://docs.microsoft.com/dotnet/api/microsoft.exchange.webservices.auth.validation?view=exchange-ews-api) |<span data-ttu-id="a05cf-110">包含用于验证从 Exchange 服务器发送的用户标识令牌的类型和方法。</span><span class="sxs-lookup"><span data-stu-id="a05cf-110">Contains types and methods that are used to validate user identity tokens sent from an Exchange server.</span></span> <span data-ttu-id="a05cf-111">Microsoft.Exchange.WebServices.Auth.Validation 命名空间适用于面向 Exchange Online 的客户端和 Exchange Server 2013 以后的 Exchange 版本。</span><span class="sxs-lookup"><span data-stu-id="a05cf-111">The Microsoft.Exchange.WebServices.Auth.Validation namespace is applicable to clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span></span> <span data-ttu-id="a05cf-112">此命名空间包含在 Microsoft.Exchange.WebServices.Auth.dll API 中。</span><span class="sxs-lookup"><span data-stu-id="a05cf-112">This namespace is included in the Microsoft.Exchange.WebServices.Auth.dll API.</span></span>|
+|[<span data-ttu-id="a05cf-113">Microsoft.Exchange.WebServices.Autodiscover</span><span class="sxs-lookup"><span data-stu-id="a05cf-113">Microsoft.Exchange.WebServices.Autodiscover</span></span>](https://docs.microsoft.com/dotnet/api/microsoft.exchange.webservices.autodiscover?view=exchange-ews-api)|<span data-ttu-id="a05cf-114">包含用于与由 Exchange Server 托管的自动发现服务进行通信的类型。</span><span class="sxs-lookup"><span data-stu-id="a05cf-114">Contains types that are used to communicate with the Autodiscover service that is hosted by an Exchange Server.</span></span> <span data-ttu-id="a05cf-115">此命名空间也用于查找 Active Directory 域服务 (AD DS) 中的服务连接点对象。</span><span class="sxs-lookup"><span data-stu-id="a05cf-115">This namespace is also used to look up service connection point objects in Active Directory Doman Services (AD DS).</span></span> <span data-ttu-id="a05cf-116">自动发现服务向 EWS 客户端提供配置信息。</span><span class="sxs-lookup"><span data-stu-id="a05cf-116">The Autodiscover services provide configuration information to EWS clients.</span></span> <span data-ttu-id="a05cf-117">这使客户端能够面向适当的服务 URL。</span><span class="sxs-lookup"><span data-stu-id="a05cf-117">This enables the clients to target the appropriate service URL.</span></span><br/><br/><span data-ttu-id="a05cf-118">命名空间功能可用于面向在 Microsoft Exchange Server 2007 中引入的 POX 自动发现服务，服务连接点对象将查找客户端是否联接了域，或 Exchange Server 2010 中引入的 SOAP 自动发现终结点。</span><span class="sxs-lookup"><span data-stu-id="a05cf-118">The namespace functionality can be used to target the POX Autodiscover service introduced in Microsoft Exchange Server 2007, the service connection point object lookup if the client is domain joined, or the SOAP Autodiscover endpoint introduced in Exchange Server 2010.</span></span> <span data-ttu-id="a05cf-119">此命名空间中的主要类型是 [AutodiscoverService 类](https://docs.microsoft.com/dotnet/api/microsoft.exchange.webservices.autodiscover.autodiscoverservice?view=exchange-ews-api)。</span><span class="sxs-lookup"><span data-stu-id="a05cf-119">The main type in this namespace is the [AutodiscoverService class](https://docs.microsoft.com/dotnet/api/microsoft.exchange.webservices.autodiscover.autodiscoverservice?view=exchange-ews-api).</span></span> <span data-ttu-id="a05cf-120">此命名空间包含在 Microsoft.Exchange.WebServices.dll API 中。</span><span class="sxs-lookup"><span data-stu-id="a05cf-120">This namespace is included in the Microsoft.Exchange.WebServices.dll API.</span></span>|
+|[<span data-ttu-id="a05cf-121">Microsoft.Exchange.WebServices.Data</span><span class="sxs-lookup"><span data-stu-id="a05cf-121">Microsoft.Exchange.WebServices.Data</span></span>](https://docs.microsoft.com/dotnet/api/microsoft.exchange.webservices.data?view=exchange-ews-api)| <span data-ttu-id="a05cf-122">包含通过 EWS 与 Exchange Server 进行通信的类型。</span><span class="sxs-lookup"><span data-stu-id="a05cf-122">Contains types that are used to communicate with an Exchange server by means of EWS.</span></span> <span data-ttu-id="a05cf-123">此命名空间提供核心 EWS 托管 API 功能。</span><span class="sxs-lookup"><span data-stu-id="a05cf-123">This namespace provides the core EWS Managed API functionality.</span></span> <span data-ttu-id="a05cf-124">此命名空间中的主要类型是 [ExchangeService 类](https://docs.microsoft.com/dotnet/api/microsoft.exchange.webservices.data.exchangeservice?view=exchange-ews-api)。</span><span class="sxs-lookup"><span data-stu-id="a05cf-124">The main type in this namespace is the [ExchangeService class](https://docs.microsoft.com/dotnet/api/microsoft.exchange.webservices.data.exchangeservice?view=exchange-ews-api).</span></span>|
+
+## <a name="see-also"></a><span data-ttu-id="a05cf-125">另请参阅</span><span class="sxs-lookup"><span data-stu-id="a05cf-125">See also</span></span>
+
+- [<span data-ttu-id="a05cf-126">Exchange Web 服务应用</span><span class="sxs-lookup"><span data-stu-id="a05cf-126">Web services reference for Exchange</span></span>](web-services-reference-for-exchange.md)
+- [<span data-ttu-id="a05cf-127">在 Exchange 中探索 EWS 托管 API、EWS 和 Web 服务</span><span class="sxs-lookup"><span data-stu-id="a05cf-127">Explore the EWS Managed API, EWS, and web services in Exchange</span></span>](../exchange-web-services/explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)
+- [<span data-ttu-id="a05cf-128">EWS 中的新增功能和 Exchange 中的 其他 Web 服务</span><span class="sxs-lookup"><span data-stu-id="a05cf-128">What’s new in EWS and other web services in Exchange</span></span>](../exchange-web-services/whats-new-in-ews-and-other-web-services-in-exchange.md)
+- [<span data-ttu-id="a05cf-129">开始使用 Exchange 中的 Web 服务</span><span class="sxs-lookup"><span data-stu-id="a05cf-129">Start using web services in Exchange</span></span>](../exchange-web-services/start-using-web-services-in-exchange.md)
+- [<span data-ttu-id="a05cf-130">开发 Exchange Web 服务客户端</span><span class="sxs-lookup"><span data-stu-id="a05cf-130">Develop web service clients for Exchange</span></span>](../exchange-web-services/develop-web-service-clients-for-exchange.md)
+
