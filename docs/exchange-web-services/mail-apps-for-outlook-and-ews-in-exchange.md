@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 821c8eb9-bb58-42e8-9a3a-61ca635cba59
 description: 查找有关 Outlook 加载项和如何使用 EWS 在 Exchange 中的信息。
-ms.openlocfilehash: fc004108c7f31ea6475d61f4e2cd2289b13d27f5
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: 7eae834fe0bb93e2e94f094e811ab6cf002fc71b
+ms.sourcegitcommit: 42eecc78e7aed7e95f73370d6c39ab8f4e96bf68
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353635"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25541636"
 ---
 # <a name="outlook-add-ins-and-ews-in-exchange"></a>Outlook 加载项和 Exchange 中的 EWS
 
@@ -42,7 +42,7 @@ Outlook 加载项提供了单一界面和使用 web 标准来使您能够创建�
 
 您的组织可以在要限制对授权用户访问的内部服务器上安装邮件应用程序或您和其他邮件应用程序开发人员可以将邮件应用程序置于[Office 商店](http://office.microsoft.com/store/)出售向公众。 运行 Outlook 的任何人都可以下载、 安装和使用市场中的邮件应用程序。
 
-如果您想要了解有关创建邮件应用程序，则签出[Outlook 外接程序文档](/outlook/add-ins/index.md)或[发出 EWS 请求](http://code.msdn.microsoft.com/exchange/Mail-apps-for-Outlook-Make-770b2528)示例。
+如果您想要了解有关创建邮件应用程序，则签出[Outlook 外接程序文档](/outlook/add-ins)或[发出 EWS 请求](http://code.msdn.microsoft.com/exchange/Mail-apps-for-Outlook-Make-770b2528)示例。
 
 ## <a name="ews-and-outlook-add-ins"></a>EWS 和 Outlook 加载项
 
@@ -79,7 +79,7 @@ Outlook 加载项提供了单一界面和使用 web 标准来使您能够创建�
 
 - [Mailbox.makeEwsRequestAsync 方法（适用于 Office 的 JavaScript API）](http://msdn.microsoft.com/library/2ec380e0-4a67-4146-92a6-6a39f65dc6f2%28Office.15%29.aspx)
 
-- [Outlook 外接程序](https://docs.microsoft.com/en-us/outlook/add-ins/)
+- [Outlook 外接程序](https://docs.microsoft.com/outlook/add-ins)
 
 - [Mailbox.getUserIdentityTokenAsync 方法（适用于 Office 的 JavaScript API）](http://msdn.microsoft.com/library/c658518b-6867-41a0-99cf-810303e4c539%28Office.15%29.aspx)
 
