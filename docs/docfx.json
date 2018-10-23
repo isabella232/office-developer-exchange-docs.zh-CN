@@ -48,7 +48,9 @@
 	   "ms.author": "o365devx",
 	   "author": "o365devx",
 	   "contributors_to_exclude": ["nivnar"],
-	   "bilingual_type": "hover over"
+	   "bilingual_type": "hover over",
+	   "feedback_system": "None",
+	   "hide_comments": true
     },
     "fileMetadata": {
  	"ms.technology": 
