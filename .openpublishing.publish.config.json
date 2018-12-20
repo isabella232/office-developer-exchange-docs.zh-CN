@@ -4,27 +4,35 @@
       "docset_name": "officedocs-dev-exchange-docs",
       "build_source_folder": "docs",
       "build_output_subfolder": "officedocs-dev-exchange-docs",
-      "locale": "zh-CN",
+      "locale": "zh-cn",
       "monikers": [],
       "moniker_ranges": [],
       "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
       "build_entry_point": "docs",
       "template_folder": "_themes"
     }
   ],
-  "notification_subscribers": [],
-  "branches_to_filter": [
+  "notification_subscribers": ["mor-oitac-eng@moravia.com"],
+  "sync_notification_subscribers": [],
+ "branches_to_filter": [
     "live",
     "master-sxs"
   ],
-  "continue_with_document_error": true,
+  "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/office-developer-exchange-docs",
+  "git_repository_branch_open_to_public_contributors": "master",
   "skip_source_output_uploading": false,
+  "continue_with_document_error": true,
   "need_preview_pull_request": false,
   "contribution_branch_mappings": {},
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
-      "url": "https://github.com/Microsoft/templates.docs.msft.zh-CN",
+      "url": "https://github.com/Microsoft/templates.docs.msft.zh-cn",
       "branch": "master",
       "branch_mapping": {}
     },
@@ -49,14 +57,19 @@
       "Publish",
       "Pdf"
     ],
+    "live-sxs": [
+      "Publish",
+      "Pdf"
+    ],
     "master": [
       "Publish",
       "Pdf"
     ]
   },
   "need_generate_pdf_url_template": true,
+  "need_generate_pdf": true,
   "targets": {
-    "pdf": {
+    "Pdf": {
       "template_folder": "_themes.pdf"
     }
   }
