@@ -7,57 +7,57 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5ae2292f-fc5f-49fa-88a7-34ba86ff21f9
-description: StartWallClock 元素指定时区会议发生的位置中的会议的开始时间。
-ms.openlocfilehash: 24fcc314daf1732b5167e1fa865e6f544ca34db6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: StartWallClock 元素指定会议在会议召开的位置所在的时区的开始时间。
+ms.openlocfilehash: 6022de4659dd12579b0545b5d3ffd2ea9b8a103d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827569"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460006"
 ---
-# <a name="startwallclock"></a><span data-ttu-id="79593-103">StartWallClock</span><span class="sxs-lookup"><span data-stu-id="79593-103">StartWallClock</span></span>
+# <a name="startwallclock"></a><span data-ttu-id="ded09-103">StartWallClock</span><span class="sxs-lookup"><span data-stu-id="ded09-103">StartWallClock</span></span>
 
-<span data-ttu-id="79593-104">**StartWallClock**元素指定时区会议发生的位置中的会议的开始时间。</span><span class="sxs-lookup"><span data-stu-id="79593-104">The **StartWallClock** element specifies the start time of a meeting in the time zone of the location in which the meeting takes place.</span></span> 
+<span data-ttu-id="ded09-104">**StartWallClock**元素指定会议在会议召开的位置所在的时区的开始时间。</span><span class="sxs-lookup"><span data-stu-id="ded09-104">The **StartWallClock** element specifies the start time of a meeting in the time zone of the location in which the meeting takes place.</span></span> 
   
 ```XML
 <StartWallClock></StartWallClock>
 ```
 
-<span data-ttu-id="79593-105">**dateTime**</span><span class="sxs-lookup"><span data-stu-id="79593-105">**dateTime**</span></span>
+<span data-ttu-id="ded09-105">**dateTime**</span><span class="sxs-lookup"><span data-stu-id="ded09-105">**dateTime**</span></span>
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="79593-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="79593-106">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="ded09-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="ded09-106">Attributes and elements</span></span>
 
-<span data-ttu-id="79593-107">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="79593-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="ded09-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="ded09-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="79593-108">属性</span><span class="sxs-lookup"><span data-stu-id="79593-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="ded09-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="ded09-108">Attributes</span></span>
 
-<span data-ttu-id="79593-109">无。</span><span class="sxs-lookup"><span data-stu-id="79593-109">None.</span></span>
+<span data-ttu-id="ded09-109">无。</span><span class="sxs-lookup"><span data-stu-id="ded09-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="79593-110">子元素</span><span class="sxs-lookup"><span data-stu-id="79593-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="ded09-110">子元素</span><span class="sxs-lookup"><span data-stu-id="ded09-110">Child elements</span></span>
 
-<span data-ttu-id="79593-111">无。</span><span class="sxs-lookup"><span data-stu-id="79593-111">None.</span></span>
+<span data-ttu-id="ded09-111">无。</span><span class="sxs-lookup"><span data-stu-id="ded09-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="79593-112">父元素</span><span class="sxs-lookup"><span data-stu-id="79593-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="ded09-112">父元素</span><span class="sxs-lookup"><span data-stu-id="ded09-112">Parent elements</span></span>
 
-<span data-ttu-id="79593-113">[日历项目](calendaritem.md) | [MeetingRequest](meetingrequest.md)</span><span class="sxs-lookup"><span data-stu-id="79593-113">[CalendarItem](calendaritem.md) | [MeetingRequest](meetingrequest.md)</span></span>
+<span data-ttu-id="ded09-113">[CalendarItem](calendaritem.md)  | [MeetingRequest](meetingrequest.md)</span><span class="sxs-lookup"><span data-stu-id="ded09-113">[CalendarItem](calendaritem.md) | [MeetingRequest](meetingrequest.md)</span></span>
   
-## <a name="text-value"></a><span data-ttu-id="79593-114">文本值</span><span class="sxs-lookup"><span data-stu-id="79593-114">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="ded09-114">文本值</span><span class="sxs-lookup"><span data-stu-id="ded09-114">Text value</span></span>
 
-<span data-ttu-id="79593-115">**StartWallClock**元素的文本值是会议发生的位置所在的时区参加会议的开始时间。</span><span class="sxs-lookup"><span data-stu-id="79593-115">The text value of the **StartWallClock** element is the start time of a meeting in the time zone of the location in which the meeting takes place.</span></span> 
+<span data-ttu-id="ded09-115">**StartWallClock**元素的文本值是会议在会议召开的位置所在时区的开始时间。</span><span class="sxs-lookup"><span data-stu-id="ded09-115">The text value of the **StartWallClock** element is the start time of a meeting in the time zone of the location in which the meeting takes place.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="79593-116">备注</span><span class="sxs-lookup"><span data-stu-id="79593-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ded09-116">备注</span><span class="sxs-lookup"><span data-stu-id="ded09-116">Remarks</span></span>
 
-<span data-ttu-id="79593-117">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="79593-117">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="ded09-117">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="ded09-117">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="79593-118">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="79593-118">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="ded09-118">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="ded09-118">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="79593-119">元素信息</span><span class="sxs-lookup"><span data-stu-id="79593-119">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="ded09-119">元素信息</span><span class="sxs-lookup"><span data-stu-id="ded09-119">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="79593-120">命名空间</span><span class="sxs-lookup"><span data-stu-id="79593-120">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="79593-121">架构名称</span><span class="sxs-lookup"><span data-stu-id="79593-121">Schema name</span></span>  <br/> |<span data-ttu-id="79593-122">类型架构</span><span class="sxs-lookup"><span data-stu-id="79593-122">Types schema</span></span>  <br/> |
-|<span data-ttu-id="79593-123">验证文件</span><span class="sxs-lookup"><span data-stu-id="79593-123">Validation file</span></span>  <br/> |<span data-ttu-id="79593-124">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="79593-124">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="79593-125">可以为空</span><span class="sxs-lookup"><span data-stu-id="79593-125">Can be empty</span></span>  <br/> ||
+|<span data-ttu-id="ded09-120">命名空间</span><span class="sxs-lookup"><span data-stu-id="ded09-120">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="ded09-121">架构名称</span><span class="sxs-lookup"><span data-stu-id="ded09-121">Schema name</span></span>  <br/> |<span data-ttu-id="ded09-122">类型架构</span><span class="sxs-lookup"><span data-stu-id="ded09-122">Types schema</span></span>  <br/> |
+|<span data-ttu-id="ded09-123">验证文件</span><span class="sxs-lookup"><span data-stu-id="ded09-123">Validation file</span></span>  <br/> |<span data-ttu-id="ded09-124">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="ded09-124">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="ded09-125">可以为空</span><span class="sxs-lookup"><span data-stu-id="ded09-125">Can be empty</span></span>  <br/> ||
    
 

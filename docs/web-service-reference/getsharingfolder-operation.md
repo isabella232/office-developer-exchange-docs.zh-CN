@@ -12,41 +12,41 @@ api_type:
 - schema
 ms.assetid: 75fee92a-a7f8-4a62-ad2b-17acbaada186
 description: GetSharingFolder 操作获取指定的共享文件夹的本地文件夹标识符。
-ms.openlocfilehash: 23adb10b22623fcbc1dd6b33bd674afafdaa8b19
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: cf66eb390b0287e89bb8402f26a2e728868a2b18
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825670"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460510"
 ---
-# <a name="getsharingfolder-operation"></a><span data-ttu-id="698b9-103">GetSharingFolder 操作</span><span class="sxs-lookup"><span data-stu-id="698b9-103">GetSharingFolder operation</span></span>
+# <a name="getsharingfolder-operation"></a><span data-ttu-id="85e9c-103">GetSharingFolder 操作</span><span class="sxs-lookup"><span data-stu-id="85e9c-103">GetSharingFolder operation</span></span>
 
-<span data-ttu-id="698b9-104">**GetSharingFolder**操作获取指定的共享文件夹的本地文件夹标识符。</span><span class="sxs-lookup"><span data-stu-id="698b9-104">The **GetSharingFolder** operation gets the local folder identifier of a specified shared folder.</span></span> 
+<span data-ttu-id="85e9c-104">**GetSharingFolder**操作获取指定的共享文件夹的本地文件夹标识符。</span><span class="sxs-lookup"><span data-stu-id="85e9c-104">The **GetSharingFolder** operation gets the local folder identifier of a specified shared folder.</span></span> 
   
-## <a name="soap-headers"></a><span data-ttu-id="698b9-105">SOAP 标头</span><span class="sxs-lookup"><span data-stu-id="698b9-105">SOAP Headers</span></span>
+## <a name="soap-headers"></a><span data-ttu-id="85e9c-105">SOAP 标头</span><span class="sxs-lookup"><span data-stu-id="85e9c-105">SOAP Headers</span></span>
 
-<span data-ttu-id="698b9-106">**GetSharingFolder**操作可以使用列出并在下表中所述的 SOAP 标头。</span><span class="sxs-lookup"><span data-stu-id="698b9-106">The **GetSharingFolder** operation can use the SOAP headers that are listed and described in the following table.</span></span> 
+<span data-ttu-id="85e9c-106">**GetSharingFolder**操作可以使用下表中列出和描述的 SOAP 标头。</span><span class="sxs-lookup"><span data-stu-id="85e9c-106">The **GetSharingFolder** operation can use the SOAP headers that are listed and described in the following table.</span></span> 
   
-|<span data-ttu-id="698b9-107">**Header**</span><span class="sxs-lookup"><span data-stu-id="698b9-107">**Header**</span></span>|<span data-ttu-id="698b9-108">**元素**</span><span class="sxs-lookup"><span data-stu-id="698b9-108">**Element**</span></span>|<span data-ttu-id="698b9-109">**说明**</span><span class="sxs-lookup"><span data-stu-id="698b9-109">**Description**</span></span>|
+|<span data-ttu-id="85e9c-107">**Header**</span><span class="sxs-lookup"><span data-stu-id="85e9c-107">**Header**</span></span>|<span data-ttu-id="85e9c-108">**元素**</span><span class="sxs-lookup"><span data-stu-id="85e9c-108">**Element**</span></span>|<span data-ttu-id="85e9c-109">**说明**</span><span class="sxs-lookup"><span data-stu-id="85e9c-109">**Description**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="698b9-110">RequestVersion</span><span class="sxs-lookup"><span data-stu-id="698b9-110">RequestVersion</span></span>  <br/> |[<span data-ttu-id="698b9-111">RequestServerVersion</span><span class="sxs-lookup"><span data-stu-id="698b9-111">RequestServerVersion</span></span>](requestserverversion.md) <br/> |<span data-ttu-id="698b9-112">标识操作请求的架构版本。</span><span class="sxs-lookup"><span data-stu-id="698b9-112">Identifies the schema version for the operation request.</span></span>  <br/> |
-|<span data-ttu-id="698b9-113">ServerVersion</span><span class="sxs-lookup"><span data-stu-id="698b9-113">ServerVersion</span></span>  <br/> |[<span data-ttu-id="698b9-114">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="698b9-114">ServerVersionInfo</span></span>](serverversioninfo.md) <br/> |<span data-ttu-id="698b9-115">标识响应该请求的服务器的版本。</span><span class="sxs-lookup"><span data-stu-id="698b9-115">Identifies the version of the server that responded to the request.</span></span>  <br/> |
+|<span data-ttu-id="85e9c-110">RequestVersion</span><span class="sxs-lookup"><span data-stu-id="85e9c-110">RequestVersion</span></span>  <br/> |[<span data-ttu-id="85e9c-111">RequestServerVersion</span><span class="sxs-lookup"><span data-stu-id="85e9c-111">RequestServerVersion</span></span>](requestserverversion.md) <br/> |<span data-ttu-id="85e9c-112">标识操作请求的架构版本。</span><span class="sxs-lookup"><span data-stu-id="85e9c-112">Identifies the schema version for the operation request.</span></span>  <br/> |
+|<span data-ttu-id="85e9c-113">ServerVersion</span><span class="sxs-lookup"><span data-stu-id="85e9c-113">ServerVersion</span></span>  <br/> |[<span data-ttu-id="85e9c-114">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="85e9c-114">ServerVersionInfo</span></span>](serverversioninfo.md) <br/> |<span data-ttu-id="85e9c-115">标识响应请求的服务器版本。</span><span class="sxs-lookup"><span data-stu-id="85e9c-115">Identifies the version of the server that responded to the request.</span></span>  <br/> |
    
-## <a name="getsharingfolder-request-example"></a><span data-ttu-id="698b9-116">GetSharingFolder 请求示例</span><span class="sxs-lookup"><span data-stu-id="698b9-116">GetSharingFolder request example</span></span>
+## <a name="getsharingfolder-request-example"></a><span data-ttu-id="85e9c-116">GetSharingFolder 请求示例</span><span class="sxs-lookup"><span data-stu-id="85e9c-116">GetSharingFolder request example</span></span>
 
-### <a name="getting-the-local-folder-identifier-by-specifying-the-sharedfolderid-element-of-the-folder-being-shared"></a><span data-ttu-id="698b9-117">通过指定 SharedFolderId 元素的共享文件夹中获取的本地文件夹标识符</span><span class="sxs-lookup"><span data-stu-id="698b9-117">Getting the Local Folder Identifier by Specifying the SharedFolderId Element of the Folder Being Shared</span></span>
+### <a name="getting-the-local-folder-identifier-by-specifying-the-sharedfolderid-element-of-the-folder-being-shared"></a><span data-ttu-id="85e9c-117">通过指定要共享的文件夹的 SharedFolderId 元素获取本地文件夹标识符</span><span class="sxs-lookup"><span data-stu-id="85e9c-117">Getting the Local Folder Identifier by Specifying the SharedFolderId Element of the Folder Being Shared</span></span>
 
-<span data-ttu-id="698b9-118">下面的代码示例演示如何以形成一个请求以获取正在共享的文件夹的相对应的本地文件夹的标识符。</span><span class="sxs-lookup"><span data-stu-id="698b9-118">The following code example shows how to form a request to get the identifier of the local folder that corresponds to the folder that is being shared.</span></span> <span data-ttu-id="698b9-119">通过包含的共享文件夹的邮箱的 SMTP 地址和[SharedFolderId](sharedfolderid.md)元素表示该文件夹的标识符标识的共享文件夹。</span><span class="sxs-lookup"><span data-stu-id="698b9-119">The folder that is being shared is identified by the SMTP address of the mailbox that contains the folder that is being shared and by the [SharedFolderId](sharedfolderid.md) element that represents the identifier of that folder.</span></span> <span data-ttu-id="698b9-120">本示例中，由 user1@contoso.com 拥有的共享文件夹。</span><span class="sxs-lookup"><span data-stu-id="698b9-120">In this example, the folder that is being shared is owned by user1@contoso.com.</span></span> 
+<span data-ttu-id="85e9c-118">下面的代码示例演示如何形成一个请求，以获取与所共享的文件夹对应的本地文件夹的标识符。</span><span class="sxs-lookup"><span data-stu-id="85e9c-118">The following code example shows how to form a request to get the identifier of the local folder that corresponds to the folder that is being shared.</span></span> <span data-ttu-id="85e9c-119">共享的文件夹由包含要共享的文件夹的邮箱的 SMTP 地址和代表该文件夹的标识符的[SharedFolderId](sharedfolderid.md)元素标识。</span><span class="sxs-lookup"><span data-stu-id="85e9c-119">The folder that is being shared is identified by the SMTP address of the mailbox that contains the folder that is being shared and by the [SharedFolderId](sharedfolderid.md) element that represents the identifier of that folder.</span></span> <span data-ttu-id="85e9c-120">在此示例中，共享的文件夹由 user1@contoso.com 拥有。</span><span class="sxs-lookup"><span data-stu-id="85e9c-120">In this example, the folder that is being shared is owned by user1@contoso.com.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="698b9-121">代码</span><span class="sxs-lookup"><span data-stu-id="698b9-121">Code</span></span>
+### <a name="code"></a><span data-ttu-id="85e9c-121">代码</span><span class="sxs-lookup"><span data-stu-id="85e9c-121">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010"/>
   </soap:Header>
@@ -59,19 +59,19 @@ ms.locfileid: "19825670"
 </soap:Envelope>
 ```
 
-### <a name="getting-the-local-folder-identifier-by-specifying-the-datatype-element-of-the-folder-being-shared"></a><span data-ttu-id="698b9-122">通过指定数据类型元素的共享文件夹中获取的本地文件夹标识符</span><span class="sxs-lookup"><span data-stu-id="698b9-122">Getting the Local Folder Identifier by Specifying the DataType Element of the Folder Being Shared</span></span>
+### <a name="getting-the-local-folder-identifier-by-specifying-the-datatype-element-of-the-folder-being-shared"></a><span data-ttu-id="85e9c-122">通过指定要共享的文件夹的 DataType 元素获取本地文件夹标识符</span><span class="sxs-lookup"><span data-stu-id="85e9c-122">Getting the Local Folder Identifier by Specifying the DataType Element of the Folder Being Shared</span></span>
 
-<span data-ttu-id="698b9-123">下面的代码示例演示如何以形成一个请求以获取正在共享的文件夹的相对应的本地文件夹的标识符。</span><span class="sxs-lookup"><span data-stu-id="698b9-123">The following code example shows how to form a request to get the identifier of the local folder that corresponds to the folder that is being shared.</span></span> <span data-ttu-id="698b9-124">包含的共享文件夹的邮箱的 SMTP 地址和代表该文件夹中的数据类型的[数据类型](datatype.md)元素标识要共享的文件夹。</span><span class="sxs-lookup"><span data-stu-id="698b9-124">The folder that is being shared is identified by the SMTP address of the mailbox that contains the folder that is being shared and by the [DataType](datatype.md) element that represents the type of data in that folder.</span></span> <span data-ttu-id="698b9-125">本示例中，共享文件夹是 user1@contoso.com 所拥有的联系人文件夹。</span><span class="sxs-lookup"><span data-stu-id="698b9-125">In this example, the folder that is being shared is the Contacts folder that is owned by user1@contoso.com.</span></span> 
+<span data-ttu-id="85e9c-123">下面的代码示例演示如何形成一个请求，以获取与所共享的文件夹对应的本地文件夹的标识符。</span><span class="sxs-lookup"><span data-stu-id="85e9c-123">The following code example shows how to form a request to get the identifier of the local folder that corresponds to the folder that is being shared.</span></span> <span data-ttu-id="85e9c-124">共享的文件夹由包含要共享的文件夹的邮箱的 SMTP 地址和表示该文件夹中的数据类型的[DataType](datatype.md)元素标识。</span><span class="sxs-lookup"><span data-stu-id="85e9c-124">The folder that is being shared is identified by the SMTP address of the mailbox that contains the folder that is being shared and by the [DataType](datatype.md) element that represents the type of data in that folder.</span></span> <span data-ttu-id="85e9c-125">在此示例中，共享的文件夹是由 user1@contoso.com 拥有的 "联系人" 文件夹。</span><span class="sxs-lookup"><span data-stu-id="85e9c-125">In this example, the folder that is being shared is the Contacts folder that is owned by user1@contoso.com.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="698b9-126">代码</span><span class="sxs-lookup"><span data-stu-id="698b9-126">Code</span></span>
+### <a name="code"></a><span data-ttu-id="85e9c-126">代码</span><span class="sxs-lookup"><span data-stu-id="85e9c-126">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010"/>
   </soap:Header>
@@ -84,17 +84,17 @@ ms.locfileid: "19825670"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a><span data-ttu-id="698b9-127">注释</span><span class="sxs-lookup"><span data-stu-id="698b9-127">Comments</span></span>
+### <a name="comments"></a><span data-ttu-id="85e9c-127">备注</span><span class="sxs-lookup"><span data-stu-id="85e9c-127">Comments</span></span>
 
-<span data-ttu-id="698b9-128">有关的**数据类型**元素的可能值的信息，请参阅[数据类型](datatype.md)。</span><span class="sxs-lookup"><span data-stu-id="698b9-128">For information about the possible values of the **DataType** element, see [DataType](datatype.md).</span></span>
+<span data-ttu-id="85e9c-128">有关**datatype**元素的可能值的信息，请参阅[datatype](datatype.md)。</span><span class="sxs-lookup"><span data-stu-id="85e9c-128">For information about the possible values of the **DataType** element, see [DataType](datatype.md).</span></span>
   
-## <a name="successful-getsharingfolder-response"></a><span data-ttu-id="698b9-129">成功的 GetSharingFolder 响应</span><span class="sxs-lookup"><span data-stu-id="698b9-129">Successful GetSharingFolder Response</span></span>
+## <a name="successful-getsharingfolder-response"></a><span data-ttu-id="85e9c-129">成功的 GetSharingFolder 响应</span><span class="sxs-lookup"><span data-stu-id="85e9c-129">Successful GetSharingFolder Response</span></span>
 
-### <a name="description"></a><span data-ttu-id="698b9-130">说明</span><span class="sxs-lookup"><span data-stu-id="698b9-130">Description</span></span>
+### <a name="description"></a><span data-ttu-id="85e9c-130">说明</span><span class="sxs-lookup"><span data-stu-id="85e9c-130">Description</span></span>
 
-<span data-ttu-id="698b9-131">下面的示例演示对**GetSharingFolder**请求成功响应。</span><span class="sxs-lookup"><span data-stu-id="698b9-131">The following example shows a successful response to a **GetSharingFolder** request.</span></span> <span data-ttu-id="698b9-132">[SharingFolderId](sharingfolderid.md)元素的**Id**属性代表的本地文件夹中的共享的关系的标识符。</span><span class="sxs-lookup"><span data-stu-id="698b9-132">The **Id** attribute of the [SharingFolderId](sharingfolderid.md) element represents the identifier of the local folder in the sharing relationship.</span></span> 
+<span data-ttu-id="85e9c-131">下面的示例演示对**GetSharingFolder**请求的成功响应。</span><span class="sxs-lookup"><span data-stu-id="85e9c-131">The following example shows a successful response to a **GetSharingFolder** request.</span></span> <span data-ttu-id="85e9c-132">[SharingFolderId](sharingfolderid.md)元素的**Id**属性表示共享关系中的本地文件夹的标识符。</span><span class="sxs-lookup"><span data-stu-id="85e9c-132">The **Id** attribute of the [SharingFolderId](sharingfolderid.md) element represents the identifier of the local folder in the sharing relationship.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="698b9-133">代码</span><span class="sxs-lookup"><span data-stu-id="698b9-133">Code</span></span>
+### <a name="code"></a><span data-ttu-id="85e9c-133">代码</span><span class="sxs-lookup"><span data-stu-id="85e9c-133">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -107,13 +107,13 @@ ms.locfileid: "19825670"
                          MajorBuildNumber="639" 
                          MinorBuildNumber="11" 
                          Version="Exchange2010" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
     <GetSharingFolderResponseMessage ResponseClass="Success"
-                                xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-                                xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                                xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+                                xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                                xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseCode>NoError</m:ResponseCode>
       <m:SharingFolderId Id="AAMkAD=" ChangeKey="AwAAA=" />
     </GetSharingFolderResponseMessage>
@@ -121,13 +121,13 @@ ms.locfileid: "19825670"
 </soap:Envelope>
 ```
 
-## <a name="getsharingfolder-error-response"></a><span data-ttu-id="698b9-134">GetSharingFolder 错误响应</span><span class="sxs-lookup"><span data-stu-id="698b9-134">GetSharingFolder error response</span></span>
+## <a name="getsharingfolder-error-response"></a><span data-ttu-id="85e9c-134">GetSharingFolder 错误响应</span><span class="sxs-lookup"><span data-stu-id="85e9c-134">GetSharingFolder error response</span></span>
 
-### <a name="description"></a><span data-ttu-id="698b9-135">说明</span><span class="sxs-lookup"><span data-stu-id="698b9-135">Description</span></span>
+### <a name="description"></a><span data-ttu-id="85e9c-135">说明</span><span class="sxs-lookup"><span data-stu-id="85e9c-135">Description</span></span>
 
-<span data-ttu-id="698b9-136">下面的示例演示对**GetSharingFolder**请求错误响应。</span><span class="sxs-lookup"><span data-stu-id="698b9-136">The following example shows an error response to a **GetSharingFolder** request.</span></span> <span data-ttu-id="698b9-137">本示例中，因为该请求指定的[SharingFolderId](sharingfolderid.md)和[数据类型](datatype.md)元素，将发生错误。</span><span class="sxs-lookup"><span data-stu-id="698b9-137">In this example, the error occurred because the request specified both the [SharingFolderId](sharingfolderid.md) and [DataType](datatype.md) elements.</span></span> <span data-ttu-id="698b9-138">请注意，只能有一个或多个这些两个元素可以指定，但不是能同时。</span><span class="sxs-lookup"><span data-stu-id="698b9-138">Note that only one or the other of those two elements can be specified, but not both.</span></span> 
+<span data-ttu-id="85e9c-136">下面的示例演示对**GetSharingFolder**请求的错误响应。</span><span class="sxs-lookup"><span data-stu-id="85e9c-136">The following example shows an error response to a **GetSharingFolder** request.</span></span> <span data-ttu-id="85e9c-137">在此示例中，由于请求同时指定了[SharingFolderId](sharingfolderid.md)和[DataType](datatype.md)元素，导致错误发生。</span><span class="sxs-lookup"><span data-stu-id="85e9c-137">In this example, the error occurred because the request specified both the [SharingFolderId](sharingfolderid.md) and [DataType](datatype.md) elements.</span></span> <span data-ttu-id="85e9c-138">请注意，只能指定这两个元素中的一个或多个，但不能同时指定这两个元素。</span><span class="sxs-lookup"><span data-stu-id="85e9c-138">Note that only one or the other of those two elements can be specified, but not both.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="698b9-139">代码</span><span class="sxs-lookup"><span data-stu-id="698b9-139">Code</span></span>
+### <a name="code"></a><span data-ttu-id="85e9c-139">代码</span><span class="sxs-lookup"><span data-stu-id="85e9c-139">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -140,13 +140,13 @@ ms.locfileid: "19825670"
                          MajorBuildNumber="639" 
                          MinorBuildNumber="11" 
                          Version="Exchange2010" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
     <GetSharingFolderResponseMessage ResponseClass="Error" 
-                                xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-                                xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                                xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+                                xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                                xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:MessageText>Either DataType or SharedFolderId must be specified, but not both.</m:MessageText>
       <m:ResponseCode>ErrorInvalidGetSharingFolderRequest</m:ResponseCode>
       <m:DescriptiveLinkKey>0</m:DescriptiveLinkKey>
@@ -155,20 +155,20 @@ ms.locfileid: "19825670"
 </soap:Envelope>
 ```
 
-## <a name="see-also"></a><span data-ttu-id="698b9-140">另请参阅</span><span class="sxs-lookup"><span data-stu-id="698b9-140">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="85e9c-140">另请参阅</span><span class="sxs-lookup"><span data-stu-id="85e9c-140">See also</span></span>
 
 
 
-[<span data-ttu-id="698b9-141">GetSharingFolder</span><span class="sxs-lookup"><span data-stu-id="698b9-141">GetSharingFolder</span></span>](getsharingfolder.md)
+[<span data-ttu-id="85e9c-141">GetSharingFolder</span><span class="sxs-lookup"><span data-stu-id="85e9c-141">GetSharingFolder</span></span>](getsharingfolder.md)
   
-[<span data-ttu-id="698b9-142">GetSharingFolderType</span><span class="sxs-lookup"><span data-stu-id="698b9-142">GetSharingFolderType</span></span>](https://msdn.microsoft.com/library/ExchangeWebServices.GetSharingFolderType.aspx)
+[<span data-ttu-id="85e9c-142">GetSharingFolderType</span><span class="sxs-lookup"><span data-stu-id="85e9c-142">GetSharingFolderType</span></span>](https://msdn.microsoft.com/library/ExchangeWebServices.GetSharingFolderType.aspx)
   
-[<span data-ttu-id="698b9-143">GetSharingFolderResponseMessage</span><span class="sxs-lookup"><span data-stu-id="698b9-143">GetSharingFolderResponseMessage</span></span>](getsharingfolderresponsemessage.md)
+[<span data-ttu-id="85e9c-143">GetSharingFolderResponseMessage</span><span class="sxs-lookup"><span data-stu-id="85e9c-143">GetSharingFolderResponseMessage</span></span>](getsharingfolderresponsemessage.md)
   
-[<span data-ttu-id="698b9-144">GetSharingFolderResponseMessageType</span><span class="sxs-lookup"><span data-stu-id="698b9-144">GetSharingFolderResponseMessageType</span></span>](https://msdn.microsoft.com/library/ExchangeWebServices.GetSharingFolderResponseMessageType.aspx)
+[<span data-ttu-id="85e9c-144">GetSharingFolderResponseMessageType</span><span class="sxs-lookup"><span data-stu-id="85e9c-144">GetSharingFolderResponseMessageType</span></span>](https://msdn.microsoft.com/library/ExchangeWebServices.GetSharingFolderResponseMessageType.aspx)
 
 
-[<span data-ttu-id="698b9-145">Exchange 中的 EWS 操作</span><span class="sxs-lookup"><span data-stu-id="698b9-145">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
+[<span data-ttu-id="85e9c-145">Exchange 中的 EWS 操作</span><span class="sxs-lookup"><span data-stu-id="85e9c-145">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
   
-- [<span data-ttu-id="698b9-146">在交换 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="698b9-146">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="85e9c-146">Exchange 中的 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="85e9c-146">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

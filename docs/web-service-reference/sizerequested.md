@@ -7,68 +7,68 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: e86f98b6-83b5-4530-80eb-dc5df42e2c62
-description: SizeRequested 元素包含 GetUserPhoto 操作的请求的照片大小。
-ms.openlocfilehash: 43e422512b1e8f06e410e533e9ae1dc49283d5f6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: SizeRequested 元素包含 GetUserPhoto 操作请求的照片大小。
+ms.openlocfilehash: 2e79bbb158fa9a22cbd3ec08fcd6e60429e113b4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827504"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460454"
 ---
-# <a name="sizerequested"></a><span data-ttu-id="409b1-103">SizeRequested</span><span class="sxs-lookup"><span data-stu-id="409b1-103">SizeRequested</span></span>
+# <a name="sizerequested"></a><span data-ttu-id="ef3ee-103">SizeRequested</span><span class="sxs-lookup"><span data-stu-id="ef3ee-103">SizeRequested</span></span>
 
-<span data-ttu-id="409b1-104">**SizeRequested**元素包含**GetUserPhoto**操作的请求的照片大小。</span><span class="sxs-lookup"><span data-stu-id="409b1-104">The **SizeRequested** element contains the requested photo size for a **GetUserPhoto** operation.</span></span> 
+<span data-ttu-id="ef3ee-104">**SizeRequested**元素包含**GetUserPhoto**操作请求的照片大小。</span><span class="sxs-lookup"><span data-stu-id="ef3ee-104">The **SizeRequested** element contains the requested photo size for a **GetUserPhoto** operation.</span></span> 
   
 ```XML
 <SizeRequested>HR48x48 | HR64x64 | HR96X96 | HR120X120 | HR240X240 | HR360X360 | HR432X432 | HR504X504 | HR648X648</SizeRequested>
 ```
 
- <span data-ttu-id="409b1-105">**UserPhotoSizeType**</span><span class="sxs-lookup"><span data-stu-id="409b1-105">**UserPhotoSizeType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="409b1-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="409b1-106">Attributes and elements</span></span>
+ <span data-ttu-id="ef3ee-105">**UserPhotoSizeType**</span><span class="sxs-lookup"><span data-stu-id="ef3ee-105">**UserPhotoSizeType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="ef3ee-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="ef3ee-106">Attributes and elements</span></span>
 
-<span data-ttu-id="409b1-107">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="409b1-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="ef3ee-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="ef3ee-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="409b1-108">属性</span><span class="sxs-lookup"><span data-stu-id="409b1-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="ef3ee-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="ef3ee-108">Attributes</span></span>
 
-<span data-ttu-id="409b1-109">无。</span><span class="sxs-lookup"><span data-stu-id="409b1-109">None.</span></span>
+<span data-ttu-id="ef3ee-109">无。</span><span class="sxs-lookup"><span data-stu-id="ef3ee-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="409b1-110">子元素</span><span class="sxs-lookup"><span data-stu-id="409b1-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="ef3ee-110">子元素</span><span class="sxs-lookup"><span data-stu-id="ef3ee-110">Child elements</span></span>
 
-<span data-ttu-id="409b1-111">无。</span><span class="sxs-lookup"><span data-stu-id="409b1-111">None.</span></span>
+<span data-ttu-id="ef3ee-111">无。</span><span class="sxs-lookup"><span data-stu-id="ef3ee-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="409b1-112">父元素</span><span class="sxs-lookup"><span data-stu-id="409b1-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="ef3ee-112">父元素</span><span class="sxs-lookup"><span data-stu-id="ef3ee-112">Parent elements</span></span>
 
-[<span data-ttu-id="409b1-113">GetUserPhoto</span><span class="sxs-lookup"><span data-stu-id="409b1-113">GetUserPhoto</span></span>](getuserphoto.md)
+[<span data-ttu-id="ef3ee-113">GetUserPhoto</span><span class="sxs-lookup"><span data-stu-id="ef3ee-113">GetUserPhoto</span></span>](getuserphoto.md)
   
-## <a name="text-value"></a><span data-ttu-id="409b1-114">文本值</span><span class="sxs-lookup"><span data-stu-id="409b1-114">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="ef3ee-114">文本值</span><span class="sxs-lookup"><span data-stu-id="ef3ee-114">Text value</span></span>
 
-<span data-ttu-id="409b1-115">**SizeRequested**元素的文本值是从服务器返回的数字图像请求的照片大小。</span><span class="sxs-lookup"><span data-stu-id="409b1-115">The text value of the **SizeRequested** element is the requested photo size of a digital image returned from the server.</span></span> <span data-ttu-id="409b1-116">下表标识**SizeRequested**元素的文本值。</span><span class="sxs-lookup"><span data-stu-id="409b1-116">The following table identifies the text values for the **SizeRequested** element.</span></span> 
+<span data-ttu-id="ef3ee-115">**SizeRequested**元素的文本值是从服务器返回的数字图像的请求照片大小。</span><span class="sxs-lookup"><span data-stu-id="ef3ee-115">The text value of the **SizeRequested** element is the requested photo size of a digital image returned from the server.</span></span> <span data-ttu-id="ef3ee-116">下表标识了**SizeRequested**元素的文本值。</span><span class="sxs-lookup"><span data-stu-id="ef3ee-116">The following table identifies the text values for the **SizeRequested** element.</span></span> 
   
-|<span data-ttu-id="409b1-117">**值**</span><span class="sxs-lookup"><span data-stu-id="409b1-117">**Value**</span></span>|<span data-ttu-id="409b1-118">**含义**</span><span class="sxs-lookup"><span data-stu-id="409b1-118">**Meaning**</span></span>|
+|<span data-ttu-id="ef3ee-117">**值**</span><span class="sxs-lookup"><span data-stu-id="ef3ee-117">**Value**</span></span>|<span data-ttu-id="ef3ee-118">**含义**</span><span class="sxs-lookup"><span data-stu-id="ef3ee-118">**Meaning**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="409b1-119">HR48x48</span><span class="sxs-lookup"><span data-stu-id="409b1-119">HR48x48</span></span>  <br/> |<span data-ttu-id="409b1-120">48 像素高并 48 像素宽，图像。</span><span class="sxs-lookup"><span data-stu-id="409b1-120">The image is 48 pixels high and 48 pixels wide.</span></span>  <br/> |
-|<span data-ttu-id="409b1-121">HR64x64</span><span class="sxs-lookup"><span data-stu-id="409b1-121">HR64x64</span></span>  <br/> |<span data-ttu-id="409b1-122">64 像素高并 64 像素宽，图像。</span><span class="sxs-lookup"><span data-stu-id="409b1-122">The image is 64 pixels high and 64 pixels wide.</span></span>  <br/> |
-|<span data-ttu-id="409b1-123">HR96x96</span><span class="sxs-lookup"><span data-stu-id="409b1-123">HR96x96</span></span>  <br/> |<span data-ttu-id="409b1-124">96 像素高并 96 像素宽，图像。</span><span class="sxs-lookup"><span data-stu-id="409b1-124">The image is 96 pixels high and 96 pixels wide.</span></span>  <br/> |
-|<span data-ttu-id="409b1-125">HR120x120</span><span class="sxs-lookup"><span data-stu-id="409b1-125">HR120x120</span></span>  <br/> |<span data-ttu-id="409b1-126">120 像素高并 120 像素宽，图像。</span><span class="sxs-lookup"><span data-stu-id="409b1-126">The image is 120 pixels high and 120 pixels wide.</span></span>  <br/> |
-|<span data-ttu-id="409b1-127">HR240x240</span><span class="sxs-lookup"><span data-stu-id="409b1-127">HR240x240</span></span>  <br/> |<span data-ttu-id="409b1-128">240 像素高并 240 像素宽，图像。</span><span class="sxs-lookup"><span data-stu-id="409b1-128">The image is 240 pixels high and 240 pixels wide.</span></span>  <br/> |
-|<span data-ttu-id="409b1-129">HR360x360</span><span class="sxs-lookup"><span data-stu-id="409b1-129">HR360x360</span></span>  <br/> |<span data-ttu-id="409b1-130">360 像素高并 360 像素宽，图像。</span><span class="sxs-lookup"><span data-stu-id="409b1-130">The image is 360 pixels high and 360 pixels wide.</span></span>  <br/> |
-|<span data-ttu-id="409b1-131">HR432x432</span><span class="sxs-lookup"><span data-stu-id="409b1-131">HR432x432</span></span>  <br/> |<span data-ttu-id="409b1-132">432 像素高并 432 像素宽，图像。</span><span class="sxs-lookup"><span data-stu-id="409b1-132">The image is 432 pixels high and 432 pixels wide.</span></span>  <br/> |
-|<span data-ttu-id="409b1-133">HR504x504</span><span class="sxs-lookup"><span data-stu-id="409b1-133">HR504x504</span></span>  <br/> |<span data-ttu-id="409b1-134">504 像素高并 504 像素宽，图像。</span><span class="sxs-lookup"><span data-stu-id="409b1-134">The image is 504 pixels high and 504 pixels wide.</span></span>  <br/> |
-|<span data-ttu-id="409b1-135">HR648x648</span><span class="sxs-lookup"><span data-stu-id="409b1-135">HR648x648</span></span>  <br/> |<span data-ttu-id="409b1-136">648 像素 x 高并 648 像素宽，图像。</span><span class="sxs-lookup"><span data-stu-id="409b1-136">The image is 648 pixels high and 648 pixels wide.</span></span>  <br/> |
+|<span data-ttu-id="ef3ee-119">HR48x48</span><span class="sxs-lookup"><span data-stu-id="ef3ee-119">HR48x48</span></span>  <br/> |<span data-ttu-id="ef3ee-120">图像的高度为48像素，宽度为48像素。</span><span class="sxs-lookup"><span data-stu-id="ef3ee-120">The image is 48 pixels high and 48 pixels wide.</span></span>  <br/> |
+|<span data-ttu-id="ef3ee-121">HR64x64</span><span class="sxs-lookup"><span data-stu-id="ef3ee-121">HR64x64</span></span>  <br/> |<span data-ttu-id="ef3ee-122">图像的高度为64像素，宽度为64像素。</span><span class="sxs-lookup"><span data-stu-id="ef3ee-122">The image is 64 pixels high and 64 pixels wide.</span></span>  <br/> |
+|<span data-ttu-id="ef3ee-123">HR96x96</span><span class="sxs-lookup"><span data-stu-id="ef3ee-123">HR96x96</span></span>  <br/> |<span data-ttu-id="ef3ee-124">图像的高度为96像素，宽度为96像素。</span><span class="sxs-lookup"><span data-stu-id="ef3ee-124">The image is 96 pixels high and 96 pixels wide.</span></span>  <br/> |
+|<span data-ttu-id="ef3ee-125">HR120x120</span><span class="sxs-lookup"><span data-stu-id="ef3ee-125">HR120x120</span></span>  <br/> |<span data-ttu-id="ef3ee-126">图像的高度为120像素，宽度为120像素。</span><span class="sxs-lookup"><span data-stu-id="ef3ee-126">The image is 120 pixels high and 120 pixels wide.</span></span>  <br/> |
+|<span data-ttu-id="ef3ee-127">HR240x240</span><span class="sxs-lookup"><span data-stu-id="ef3ee-127">HR240x240</span></span>  <br/> |<span data-ttu-id="ef3ee-128">图像的高度为240像素，宽度为240像素。</span><span class="sxs-lookup"><span data-stu-id="ef3ee-128">The image is 240 pixels high and 240 pixels wide.</span></span>  <br/> |
+|<span data-ttu-id="ef3ee-129">HR360x360</span><span class="sxs-lookup"><span data-stu-id="ef3ee-129">HR360x360</span></span>  <br/> |<span data-ttu-id="ef3ee-130">图像的高度为360像素，宽度为360像素。</span><span class="sxs-lookup"><span data-stu-id="ef3ee-130">The image is 360 pixels high and 360 pixels wide.</span></span>  <br/> |
+|<span data-ttu-id="ef3ee-131">HR432x432</span><span class="sxs-lookup"><span data-stu-id="ef3ee-131">HR432x432</span></span>  <br/> |<span data-ttu-id="ef3ee-132">图像的高度为432像素，宽度为432像素。</span><span class="sxs-lookup"><span data-stu-id="ef3ee-132">The image is 432 pixels high and 432 pixels wide.</span></span>  <br/> |
+|<span data-ttu-id="ef3ee-133">HR504x504</span><span class="sxs-lookup"><span data-stu-id="ef3ee-133">HR504x504</span></span>  <br/> |<span data-ttu-id="ef3ee-134">图像的高度为504像素，宽度为504像素。</span><span class="sxs-lookup"><span data-stu-id="ef3ee-134">The image is 504 pixels high and 504 pixels wide.</span></span>  <br/> |
+|<span data-ttu-id="ef3ee-135">HR648x648</span><span class="sxs-lookup"><span data-stu-id="ef3ee-135">HR648x648</span></span>  <br/> |<span data-ttu-id="ef3ee-136">图像的高度为648像素，宽度为648像素。</span><span class="sxs-lookup"><span data-stu-id="ef3ee-136">The image is 648 pixels high and 648 pixels wide.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="409b1-137">备注</span><span class="sxs-lookup"><span data-stu-id="409b1-137">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ef3ee-137">备注</span><span class="sxs-lookup"><span data-stu-id="ef3ee-137">Remarks</span></span>
 
-<span data-ttu-id="409b1-138">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="409b1-138">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="ef3ee-138">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="ef3ee-138">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="409b1-139">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="409b1-139">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="ef3ee-139">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="ef3ee-139">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="409b1-140">元素信息</span><span class="sxs-lookup"><span data-stu-id="409b1-140">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="ef3ee-140">元素信息</span><span class="sxs-lookup"><span data-stu-id="ef3ee-140">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="409b1-141">命名空间</span><span class="sxs-lookup"><span data-stu-id="409b1-141">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="409b1-142">架构名称</span><span class="sxs-lookup"><span data-stu-id="409b1-142">Schema name</span></span>  <br/> |<span data-ttu-id="409b1-143">消息架构</span><span class="sxs-lookup"><span data-stu-id="409b1-143">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="409b1-144">验证文件</span><span class="sxs-lookup"><span data-stu-id="409b1-144">Validation file</span></span>  <br/> |<span data-ttu-id="409b1-145">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="409b1-145">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="409b1-146">可以为空</span><span class="sxs-lookup"><span data-stu-id="409b1-146">Can be empty</span></span>  <br/> ||
+|<span data-ttu-id="ef3ee-141">命名空间</span><span class="sxs-lookup"><span data-stu-id="ef3ee-141">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="ef3ee-142">架构名称</span><span class="sxs-lookup"><span data-stu-id="ef3ee-142">Schema name</span></span>  <br/> |<span data-ttu-id="ef3ee-143">消息架构</span><span class="sxs-lookup"><span data-stu-id="ef3ee-143">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="ef3ee-144">验证文件</span><span class="sxs-lookup"><span data-stu-id="ef3ee-144">Validation file</span></span>  <br/> |<span data-ttu-id="ef3ee-145">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="ef3ee-145">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="ef3ee-146">可以为空</span><span class="sxs-lookup"><span data-stu-id="ef3ee-146">Can be empty</span></span>  <br/> ||
    
 

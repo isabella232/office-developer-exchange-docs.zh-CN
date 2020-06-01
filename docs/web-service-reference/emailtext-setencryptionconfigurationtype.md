@@ -1,5 +1,5 @@
 ---
-title: EmailText (SetEncryptionConfigurationType)
+title: EmailText （SetEncryptionConfigurationType）
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,38 +7,38 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: df981e16-c8b2-416f-90dc-9732065a20bf
-description: 仅供内部使用旨在 EmailText (SetEncryptionConfigurationType) 元素。
-ms.openlocfilehash: 8d63aa6f640053fec91b9a4627dbef1ade127a43
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: EmailText （SetEncryptionConfigurationType）元素仅供内部使用。
+ms.openlocfilehash: 38cf4082a47366a1549df31424cd4cdc189c6ae9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754088"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460181"
 ---
-# <a name="emailtext-setencryptionconfigurationtype"></a><span data-ttu-id="fc07d-103">EmailText (SetEncryptionConfigurationType)</span><span class="sxs-lookup"><span data-stu-id="fc07d-103">EmailText (SetEncryptionConfigurationType)</span></span>
+# <a name="emailtext-setencryptionconfigurationtype"></a><span data-ttu-id="4d2ad-103">EmailText （SetEncryptionConfigurationType）</span><span class="sxs-lookup"><span data-stu-id="4d2ad-103">EmailText (SetEncryptionConfigurationType)</span></span>
 
-<span data-ttu-id="fc07d-104">仅供内部使用旨在**EmailText (SetEncryptionConfigurationType)** 元素。</span><span class="sxs-lookup"><span data-stu-id="fc07d-104">The **EmailText (SetEncryptionConfigurationType)** element is intended for internal use only.</span></span> 
+<span data-ttu-id="4d2ad-104">**EmailText （SetEncryptionConfigurationType）** 元素仅供内部使用。</span><span class="sxs-lookup"><span data-stu-id="4d2ad-104">The **EmailText (SetEncryptionConfigurationType)** element is intended for internal use only.</span></span> 
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="fc07d-105">属性和元素</span><span class="sxs-lookup"><span data-stu-id="fc07d-105">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="4d2ad-105">属性和元素</span><span class="sxs-lookup"><span data-stu-id="4d2ad-105">Attributes and elements</span></span>
 
-<span data-ttu-id="fc07d-106">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="fc07d-106">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="4d2ad-106">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="4d2ad-106">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="fc07d-107">属性</span><span class="sxs-lookup"><span data-stu-id="fc07d-107">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="4d2ad-107">Attributes</span><span class="sxs-lookup"><span data-stu-id="4d2ad-107">Attributes</span></span>
 
-<span data-ttu-id="fc07d-108">无。</span><span class="sxs-lookup"><span data-stu-id="fc07d-108">None.</span></span>
+<span data-ttu-id="4d2ad-108">无。</span><span class="sxs-lookup"><span data-stu-id="4d2ad-108">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="fc07d-109">子元素</span><span class="sxs-lookup"><span data-stu-id="fc07d-109">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="4d2ad-109">子元素</span><span class="sxs-lookup"><span data-stu-id="4d2ad-109">Child elements</span></span>
 
-<span data-ttu-id="fc07d-110">无。</span><span class="sxs-lookup"><span data-stu-id="fc07d-110">None.</span></span>
+<span data-ttu-id="4d2ad-110">无。</span><span class="sxs-lookup"><span data-stu-id="4d2ad-110">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="fc07d-111">父元素</span><span class="sxs-lookup"><span data-stu-id="fc07d-111">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="4d2ad-111">父元素</span><span class="sxs-lookup"><span data-stu-id="4d2ad-111">Parent elements</span></span>
 
-<span data-ttu-id="fc07d-112">无。</span><span class="sxs-lookup"><span data-stu-id="fc07d-112">None.</span></span>
+<span data-ttu-id="4d2ad-112">无。</span><span class="sxs-lookup"><span data-stu-id="4d2ad-112">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="fc07d-113">备注</span><span class="sxs-lookup"><span data-stu-id="fc07d-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4d2ad-113">说明</span><span class="sxs-lookup"><span data-stu-id="4d2ad-113">Remarks</span></span>
 
-<span data-ttu-id="fc07d-114">Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="fc07d-114">This element was introduced in Exchange Server 2013 Service Pack 1 (SP1).</span></span>
+<span data-ttu-id="4d2ad-114">Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="4d2ad-114">This element was introduced in Exchange Server 2013 Service Pack 1 (SP1).</span></span>
   
-<span data-ttu-id="fc07d-115">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="fc07d-115">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="4d2ad-115">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="4d2ad-115">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
 
