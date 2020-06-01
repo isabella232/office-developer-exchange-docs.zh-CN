@@ -1,5 +1,5 @@
 ---
-title: 日期时间
+title: 日期/时间
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 9c6ecd4c-779c-4fa5-8082-dd2bc0a751f4
-description: DateTime 元素均表示的日期和时间发生所在的时区转换。
-ms.openlocfilehash: e8212e375a691a00b8d830dbd34c87a8eef91e53
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: DateTime 元素表示时区转换发生的日期和时间。
+ms.openlocfilehash: 109fc1107ddf59d3e8aea12b267775503ac462ce
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753742"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44442876"
 ---
-# <a name="datetime"></a>日期时间
+# <a name="datetime"></a>日期/时间
 
-**DateTime**元素均表示的日期和时间发生所在的时区转换。 
+**DateTime**元素表示时区转换发生的日期和时间。 
   
 ```xml
 <DateTime/>
@@ -31,9 +31,9 @@ ms.locfileid: "19753742"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -45,13 +45,13 @@ ms.locfileid: "19753742"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[AbsoluteDateTransition](absolutedatetransition.md) <br/> |代表在特定日期和在特定时间发生的时区转换。  <br/> |
+|[AbsoluteDateTransition](absolutedatetransition.md) <br/> |表示在特定日期和特定时间发生的时区转换。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**DateTime**元素的文本值表示的日期和时间发生所在的时区转换。 
+**DateTime**元素的文本值表示时区转换发生的日期和时间。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -59,12 +59,12 @@ ms.locfileid: "19753742"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 
