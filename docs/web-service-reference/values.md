@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 4b14c714-51fa-4225-82ad-83ba9f611824
-description: Values 元素包含扩展属性的值的集合。
-ms.openlocfilehash: 9c1c07262fa0085487b9a7081c8f72ee55e5ca99
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Values 元素包含扩展属性值的集合。
+ms.openlocfilehash: 2018f7a734725abe8d8e456492862d1142fda205
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838524"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465203"
 ---
-# <a name="values"></a><span data-ttu-id="ca996-103">值</span><span class="sxs-lookup"><span data-stu-id="ca996-103">Values</span></span>
+# <a name="values"></a><span data-ttu-id="42050-103">值</span><span class="sxs-lookup"><span data-stu-id="42050-103">Values</span></span>
 
-<span data-ttu-id="ca996-104">**Values**元素包含扩展属性的值的集合。</span><span class="sxs-lookup"><span data-stu-id="ca996-104">The **Values** element contains a collection of values for an extended property.</span></span> 
+<span data-ttu-id="42050-104">**Values**元素包含扩展属性值的集合。</span><span class="sxs-lookup"><span data-stu-id="42050-104">The **Values** element contains a collection of values for an extended property.</span></span> 
   
 ```xml
 <Values>
@@ -29,42 +29,42 @@ ms.locfileid: "19838524"
 </Values>
 ```
 
-<span data-ttu-id="ca996-105">**NonEmptyArrayOfPropertyValuesType**</span><span class="sxs-lookup"><span data-stu-id="ca996-105">**NonEmptyArrayOfPropertyValuesType**</span></span>
+<span data-ttu-id="42050-105">**NonEmptyArrayOfPropertyValuesType**</span><span class="sxs-lookup"><span data-stu-id="42050-105">**NonEmptyArrayOfPropertyValuesType**</span></span>
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="ca996-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="ca996-106">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="42050-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="42050-106">Attributes and elements</span></span>
 
-<span data-ttu-id="ca996-107">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="ca996-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="42050-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="42050-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="ca996-108">属性</span><span class="sxs-lookup"><span data-stu-id="ca996-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="42050-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="42050-108">Attributes</span></span>
 
-<span data-ttu-id="ca996-109">无。</span><span class="sxs-lookup"><span data-stu-id="ca996-109">None.</span></span>
+<span data-ttu-id="42050-109">无。</span><span class="sxs-lookup"><span data-stu-id="42050-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="ca996-110">子元素</span><span class="sxs-lookup"><span data-stu-id="ca996-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="42050-110">子元素</span><span class="sxs-lookup"><span data-stu-id="42050-110">Child elements</span></span>
 
-|<span data-ttu-id="ca996-111">**元素**</span><span class="sxs-lookup"><span data-stu-id="ca996-111">**Element**</span></span>|<span data-ttu-id="ca996-112">**说明**</span><span class="sxs-lookup"><span data-stu-id="ca996-112">**Description**</span></span>|
+|<span data-ttu-id="42050-111">**元素**</span><span class="sxs-lookup"><span data-stu-id="42050-111">**Element**</span></span>|<span data-ttu-id="42050-112">**说明**</span><span class="sxs-lookup"><span data-stu-id="42050-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="ca996-113">Value</span><span class="sxs-lookup"><span data-stu-id="ca996-113">Value</span></span>](value.md) <br/> |<span data-ttu-id="ca996-114">包含扩展属性的值。</span><span class="sxs-lookup"><span data-stu-id="ca996-114">Contains a value of an extended property.</span></span>  <br/> |
+|[<span data-ttu-id="42050-113">值</span><span class="sxs-lookup"><span data-stu-id="42050-113">Value</span></span>](value.md) <br/> |<span data-ttu-id="42050-114">包含扩展属性的值。</span><span class="sxs-lookup"><span data-stu-id="42050-114">Contains a value of an extended property.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="ca996-115">父元素</span><span class="sxs-lookup"><span data-stu-id="ca996-115">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="42050-115">父元素</span><span class="sxs-lookup"><span data-stu-id="42050-115">Parent elements</span></span>
 
-|<span data-ttu-id="ca996-116">**元素**</span><span class="sxs-lookup"><span data-stu-id="ca996-116">**Element**</span></span>|<span data-ttu-id="ca996-117">**说明**</span><span class="sxs-lookup"><span data-stu-id="ca996-117">**Description**</span></span>|
+|<span data-ttu-id="42050-116">**元素**</span><span class="sxs-lookup"><span data-stu-id="42050-116">**Element**</span></span>|<span data-ttu-id="42050-117">**说明**</span><span class="sxs-lookup"><span data-stu-id="42050-117">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="ca996-118">ExtendedProperty</span><span class="sxs-lookup"><span data-stu-id="ca996-118">ExtendedProperty</span></span>](extendedproperty.md) <br/> |<span data-ttu-id="ca996-119">标识文件夹和项扩展的属性。</span><span class="sxs-lookup"><span data-stu-id="ca996-119">Identifies extended properties on folders and items.</span></span>  <br/> |
+|[<span data-ttu-id="42050-118">ExtendedProperty</span><span class="sxs-lookup"><span data-stu-id="42050-118">ExtendedProperty</span></span>](extendedproperty.md) <br/> |<span data-ttu-id="42050-119">标识文件夹和项的扩展属性。</span><span class="sxs-lookup"><span data-stu-id="42050-119">Identifies extended properties on folders and items.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="ca996-120">备注</span><span class="sxs-lookup"><span data-stu-id="ca996-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="42050-120">说明</span><span class="sxs-lookup"><span data-stu-id="42050-120">Remarks</span></span>
 
-<span data-ttu-id="ca996-121">描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="ca996-121">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="42050-121">描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="42050-121">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="ca996-122">元素信息</span><span class="sxs-lookup"><span data-stu-id="ca996-122">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="42050-122">元素信息</span><span class="sxs-lookup"><span data-stu-id="42050-122">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="ca996-123">命名空间</span><span class="sxs-lookup"><span data-stu-id="ca996-123">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="ca996-124">架构名称</span><span class="sxs-lookup"><span data-stu-id="ca996-124">Schema name</span></span>  <br/> |<span data-ttu-id="ca996-125">类型架构</span><span class="sxs-lookup"><span data-stu-id="ca996-125">Types schema</span></span>  <br/> |
-|<span data-ttu-id="ca996-126">验证文件</span><span class="sxs-lookup"><span data-stu-id="ca996-126">Validation file</span></span>  <br/> |<span data-ttu-id="ca996-127">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="ca996-127">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="ca996-128">可以为空</span><span class="sxs-lookup"><span data-stu-id="ca996-128">Can be empty</span></span>  <br/> |<span data-ttu-id="ca996-129">False</span><span class="sxs-lookup"><span data-stu-id="ca996-129">False</span></span>  <br/> |
+|<span data-ttu-id="42050-123">命名空间</span><span class="sxs-lookup"><span data-stu-id="42050-123">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="42050-124">架构名称</span><span class="sxs-lookup"><span data-stu-id="42050-124">Schema name</span></span>  <br/> |<span data-ttu-id="42050-125">类型架构</span><span class="sxs-lookup"><span data-stu-id="42050-125">Types schema</span></span>  <br/> |
+|<span data-ttu-id="42050-126">验证文件</span><span class="sxs-lookup"><span data-stu-id="42050-126">Validation file</span></span>  <br/> |<span data-ttu-id="42050-127">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="42050-127">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="42050-128">可以为空</span><span class="sxs-lookup"><span data-stu-id="42050-128">Can be empty</span></span>  <br/> |<span data-ttu-id="42050-129">False</span><span class="sxs-lookup"><span data-stu-id="42050-129">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="ca996-130">另请参阅</span><span class="sxs-lookup"><span data-stu-id="ca996-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="42050-130">另请参阅</span><span class="sxs-lookup"><span data-stu-id="42050-130">See also</span></span>
 
-- [<span data-ttu-id="ca996-131">在交换 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="ca996-131">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="42050-131">Exchange 中的 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="42050-131">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

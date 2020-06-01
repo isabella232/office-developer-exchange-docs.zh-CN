@@ -11,61 +11,61 @@ api_name:
 api_type:
 - schema
 ms.assetid: 4db469ae-1515-47ea-9905-6aabf199febd
-description: IsNotSupported 元素指示是否无法使用 Api 的托管的代码修改该规则。
-ms.openlocfilehash: 2468d47dbfdcaf1a28ed1a4afb1e7ea60147d1dc
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: IsNotSupported 元素指示是否不能使用托管代码 Api 修改规则。
+ms.openlocfilehash: e2d0c506209978fd5e8702e0de6cddf2e9c4b7fa
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826057"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465833"
 ---
-# <a name="isnotsupported"></a><span data-ttu-id="6b9c9-103">IsNotSupported</span><span class="sxs-lookup"><span data-stu-id="6b9c9-103">IsNotSupported</span></span>
+# <a name="isnotsupported"></a><span data-ttu-id="a4b3d-103">IsNotSupported</span><span class="sxs-lookup"><span data-stu-id="a4b3d-103">IsNotSupported</span></span>
 
-<span data-ttu-id="6b9c9-104">**IsNotSupported**元素指示是否无法使用 Api 的托管的代码修改该规则。</span><span class="sxs-lookup"><span data-stu-id="6b9c9-104">The **IsNotSupported** element indicates whether the rule cannot be modified by using the managed code APIs.</span></span> 
+<span data-ttu-id="a4b3d-104">**IsNotSupported**元素指示是否不能使用托管代码 api 修改规则。</span><span class="sxs-lookup"><span data-stu-id="a4b3d-104">The **IsNotSupported** element indicates whether the rule cannot be modified by using the managed code APIs.</span></span> 
   
 ```XML
 <IsNotSupported/>
 ```
 
- <span data-ttu-id="6b9c9-105">**Boolean**</span><span class="sxs-lookup"><span data-stu-id="6b9c9-105">**Boolean**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="6b9c9-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="6b9c9-106">Attributes and elements</span></span>
+ <span data-ttu-id="a4b3d-105">**Boolean**</span><span class="sxs-lookup"><span data-stu-id="a4b3d-105">**Boolean**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="a4b3d-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="a4b3d-106">Attributes and elements</span></span>
 
-<span data-ttu-id="6b9c9-107">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="6b9c9-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="a4b3d-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="a4b3d-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="6b9c9-108">属性</span><span class="sxs-lookup"><span data-stu-id="6b9c9-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="a4b3d-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="a4b3d-108">Attributes</span></span>
 
-<span data-ttu-id="6b9c9-109">无。</span><span class="sxs-lookup"><span data-stu-id="6b9c9-109">None.</span></span>
+<span data-ttu-id="a4b3d-109">无。</span><span class="sxs-lookup"><span data-stu-id="a4b3d-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="6b9c9-110">子元素</span><span class="sxs-lookup"><span data-stu-id="6b9c9-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="a4b3d-110">子元素</span><span class="sxs-lookup"><span data-stu-id="a4b3d-110">Child elements</span></span>
 
-<span data-ttu-id="6b9c9-111">无。</span><span class="sxs-lookup"><span data-stu-id="6b9c9-111">None.</span></span>
+<span data-ttu-id="a4b3d-111">无。</span><span class="sxs-lookup"><span data-stu-id="a4b3d-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="6b9c9-112">父元素</span><span class="sxs-lookup"><span data-stu-id="6b9c9-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="a4b3d-112">父元素</span><span class="sxs-lookup"><span data-stu-id="a4b3d-112">Parent elements</span></span>
 
-|<span data-ttu-id="6b9c9-113">**元素**</span><span class="sxs-lookup"><span data-stu-id="6b9c9-113">**Element**</span></span>|<span data-ttu-id="6b9c9-114">**说明**</span><span class="sxs-lookup"><span data-stu-id="6b9c9-114">**Description**</span></span>|
+|<span data-ttu-id="a4b3d-113">**元素**</span><span class="sxs-lookup"><span data-stu-id="a4b3d-113">**Element**</span></span>|<span data-ttu-id="a4b3d-114">**说明**</span><span class="sxs-lookup"><span data-stu-id="a4b3d-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="6b9c9-115">规则 (RuleType)</span><span class="sxs-lookup"><span data-stu-id="6b9c9-115">Rule (RuleType)</span></span>](rule-ruletype.md) <br/> |<span data-ttu-id="6b9c9-116">表示用户的邮箱中的规则。</span><span class="sxs-lookup"><span data-stu-id="6b9c9-116">Represents a rule in the user's mailbox.</span></span>  <br/> |
+|[<span data-ttu-id="a4b3d-115">规则 (RuleType)</span><span class="sxs-lookup"><span data-stu-id="a4b3d-115">Rule (RuleType)</span></span>](rule-ruletype.md) <br/> |<span data-ttu-id="a4b3d-116">表示用户的邮箱中的规则。</span><span class="sxs-lookup"><span data-stu-id="a4b3d-116">Represents a rule in the user's mailbox.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="6b9c9-117">文本值</span><span class="sxs-lookup"><span data-stu-id="6b9c9-117">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="a4b3d-117">文本值</span><span class="sxs-lookup"><span data-stu-id="a4b3d-117">Text value</span></span>
 
-<span data-ttu-id="6b9c9-118">文本值为**true**指示规则不能使用托管的代码 Api 进行修改。</span><span class="sxs-lookup"><span data-stu-id="6b9c9-118">A text value of **true** indicates that the rule cannot be modified by using the managed code APIs.</span></span> <span data-ttu-id="6b9c9-119">如果值为**false**指示可以使用 Api 的托管的代码修改规则。</span><span class="sxs-lookup"><span data-stu-id="6b9c9-119">A value of **false** indicates that the rule can be modified by using the managed code APIs.</span></span> 
+<span data-ttu-id="a4b3d-118">如果文本值为**true** ，则表示无法使用托管代码 api 修改规则。</span><span class="sxs-lookup"><span data-stu-id="a4b3d-118">A text value of **true** indicates that the rule cannot be modified by using the managed code APIs.</span></span> <span data-ttu-id="a4b3d-119">**如果值为 false** ，则表示可以使用托管代码 api 修改规则。</span><span class="sxs-lookup"><span data-stu-id="a4b3d-119">A value of **false** indicates that the rule can be modified by using the managed code APIs.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="6b9c9-120">备注</span><span class="sxs-lookup"><span data-stu-id="6b9c9-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a4b3d-120">说明</span><span class="sxs-lookup"><span data-stu-id="a4b3d-120">Remarks</span></span>
 
-<span data-ttu-id="6b9c9-121">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="6b9c9-121">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="a4b3d-121">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="a4b3d-121">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="6b9c9-122">元素信息</span><span class="sxs-lookup"><span data-stu-id="6b9c9-122">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="a4b3d-122">元素信息</span><span class="sxs-lookup"><span data-stu-id="a4b3d-122">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="6b9c9-123">命名空间</span><span class="sxs-lookup"><span data-stu-id="6b9c9-123">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="6b9c9-124">架构名称</span><span class="sxs-lookup"><span data-stu-id="6b9c9-124">Schema Name</span></span>  <br/> |<span data-ttu-id="6b9c9-125">消息架构</span><span class="sxs-lookup"><span data-stu-id="6b9c9-125">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="6b9c9-126">验证文件</span><span class="sxs-lookup"><span data-stu-id="6b9c9-126">Validation File</span></span>  <br/> |<span data-ttu-id="6b9c9-127">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="6b9c9-127">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="6b9c9-128">可以为空</span><span class="sxs-lookup"><span data-stu-id="6b9c9-128">Can be Empty</span></span>  <br/> |<span data-ttu-id="6b9c9-129">True</span><span class="sxs-lookup"><span data-stu-id="6b9c9-129">True</span></span>  <br/> |
+|<span data-ttu-id="a4b3d-123">命名空间</span><span class="sxs-lookup"><span data-stu-id="a4b3d-123">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="a4b3d-124">架构名称</span><span class="sxs-lookup"><span data-stu-id="a4b3d-124">Schema Name</span></span>  <br/> |<span data-ttu-id="a4b3d-125">消息架构</span><span class="sxs-lookup"><span data-stu-id="a4b3d-125">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="a4b3d-126">验证文件</span><span class="sxs-lookup"><span data-stu-id="a4b3d-126">Validation File</span></span>  <br/> |<span data-ttu-id="a4b3d-127">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="a4b3d-127">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="a4b3d-128">可以为空</span><span class="sxs-lookup"><span data-stu-id="a4b3d-128">Can be Empty</span></span>  <br/> |<span data-ttu-id="a4b3d-129">True</span><span class="sxs-lookup"><span data-stu-id="a4b3d-129">True</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="6b9c9-130">另请参阅</span><span class="sxs-lookup"><span data-stu-id="6b9c9-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a4b3d-130">另请参阅</span><span class="sxs-lookup"><span data-stu-id="a4b3d-130">See also</span></span>
 
 
 
-- [<span data-ttu-id="6b9c9-131">在交换 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="6b9c9-131">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="a4b3d-131">Exchange 中的 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="a4b3d-131">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 
