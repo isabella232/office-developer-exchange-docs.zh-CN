@@ -1,5 +1,5 @@
 ---
-title: 响应 (POX)
+title: 响应（POX）
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
@@ -8,23 +8,23 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 002b72f2-f94d-467c-8e6c-b3818f7e51dc
-description: 适用范围：
-ms.openlocfilehash: 0e8775c895f1b6d674b9a0141d55c64f57d236b0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 应用于：
+ms.openlocfilehash: 30f6a5c2c6e3034fde8849ab1fced3519029b1f9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827177"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44448973"
 ---
-# <a name="response-pox"></a>响应 (POX)
+# <a name="response-pox"></a>响应（POX）
 
 
   
 **Response**元素包含来自自动发现服务的响应。 
   
-[自动发现 (POX)](autodiscover-pox.md)
+[自动发现（POX）](autodiscover-pox.md)
   
-[响应 (POX)](response-pox.md)
+[响应（POX）](response-pox.md)
   
 ```xml
 <Response>
@@ -35,9 +35,9 @@ ms.locfileid: "19827177"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -45,18 +45,18 @@ ms.locfileid: "19827177"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[用户 (POX)](user-pox.md) <br/> |提供特定于用户的信息。 此元素是可选的。  <br/> |
-|[帐户 (POX)](account-pox.md) <br/> |指定用户帐户的设置。  <br/> |
+|[User （POX）](user-pox.md) <br/> |提供用户特定的信息。 此元素为可选。  <br/> |
+|[帐户（POX）](account-pox.md) <br/> |指定用户的帐户设置。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[自动发现 (POX)](autodiscover-pox.md) <br/> |自动发现响应中根元素。  <br/> |
+|[自动发现（POX）](autodiscover-pox.md) <br/> |自动发现响应中的根元素。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
 
 
-[Exchange POX 自动发现 XML 元素](pox-autodiscover-xml-elements-for-exchange.md)
+[Exchange 的 POX 自动发现 XML 元素](pox-autodiscover-xml-elements-for-exchange.md)
 
