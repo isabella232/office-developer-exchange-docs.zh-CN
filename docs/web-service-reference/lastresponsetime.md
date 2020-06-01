@@ -11,61 +11,61 @@ api_name:
 api_type:
 - schema
 ms.assetid: 8e66979e-4e3b-4183-aaf5-a45d8380ede5
-description: LastResponseTime 元素均表示的日期和时间收到的最新响应。
-ms.openlocfilehash: 77f79d87be0b88f8c91c04438a2541643aad8858
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: LastResponseTime 元素表示收到的最新响应的日期和时间。
+ms.openlocfilehash: 45740d1a31d9b04bbc5062e7ff8b05629abd84c4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826205"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455378"
 ---
-# <a name="lastresponsetime"></a><span data-ttu-id="8e142-103">LastResponseTime</span><span class="sxs-lookup"><span data-stu-id="8e142-103">LastResponseTime</span></span>
+# <a name="lastresponsetime"></a><span data-ttu-id="65721-103">LastResponseTime</span><span class="sxs-lookup"><span data-stu-id="65721-103">LastResponseTime</span></span>
 
-<span data-ttu-id="8e142-104">**LastResponseTime**元素均表示的日期和时间收到的最新响应。</span><span class="sxs-lookup"><span data-stu-id="8e142-104">The **LastResponseTime** element represents the date and time of the latest response received.</span></span> 
+<span data-ttu-id="65721-104">**LastResponseTime**元素表示收到的最新响应的日期和时间。</span><span class="sxs-lookup"><span data-stu-id="65721-104">The **LastResponseTime** element represents the date and time of the latest response received.</span></span> 
   
 ```xml
 <LastResponseTime/>
 ```
 
- <span data-ttu-id="8e142-105">**DateTime**</span><span class="sxs-lookup"><span data-stu-id="8e142-105">**DateTime**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="8e142-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="8e142-106">Attributes and elements</span></span>
+ <span data-ttu-id="65721-105">**DateTime**</span><span class="sxs-lookup"><span data-stu-id="65721-105">**DateTime**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="65721-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="65721-106">Attributes and elements</span></span>
 
-<span data-ttu-id="8e142-107">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="8e142-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="65721-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="65721-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="8e142-108">属性</span><span class="sxs-lookup"><span data-stu-id="8e142-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="65721-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="65721-108">Attributes</span></span>
 
-<span data-ttu-id="8e142-109">无。</span><span class="sxs-lookup"><span data-stu-id="8e142-109">None.</span></span>
+<span data-ttu-id="65721-109">无。</span><span class="sxs-lookup"><span data-stu-id="65721-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="8e142-110">子元素</span><span class="sxs-lookup"><span data-stu-id="8e142-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="65721-110">子元素</span><span class="sxs-lookup"><span data-stu-id="65721-110">Child elements</span></span>
 
-<span data-ttu-id="8e142-111">无。</span><span class="sxs-lookup"><span data-stu-id="8e142-111">None.</span></span>
+<span data-ttu-id="65721-111">无。</span><span class="sxs-lookup"><span data-stu-id="65721-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="8e142-112">父元素</span><span class="sxs-lookup"><span data-stu-id="8e142-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="65721-112">父元素</span><span class="sxs-lookup"><span data-stu-id="65721-112">Parent elements</span></span>
 
-|<span data-ttu-id="8e142-113">**元素**</span><span class="sxs-lookup"><span data-stu-id="8e142-113">**Element**</span></span>|<span data-ttu-id="8e142-114">**说明**</span><span class="sxs-lookup"><span data-stu-id="8e142-114">**Description**</span></span>|
+|<span data-ttu-id="65721-113">**元素**</span><span class="sxs-lookup"><span data-stu-id="65721-113">**Element**</span></span>|<span data-ttu-id="65721-114">**说明**</span><span class="sxs-lookup"><span data-stu-id="65721-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="8e142-115">参与者</span><span class="sxs-lookup"><span data-stu-id="8e142-115">Attendee</span></span>](attendee.md) <br/> |<span data-ttu-id="8e142-116">代表与会者和会议的资源。</span><span class="sxs-lookup"><span data-stu-id="8e142-116">Represents attendees and resources for a meeting.</span></span>  <br/> |
+|[<span data-ttu-id="65721-115">与会者</span><span class="sxs-lookup"><span data-stu-id="65721-115">Attendee</span></span>](attendee.md) <br/> |<span data-ttu-id="65721-116">表示会议的与会者和资源。</span><span class="sxs-lookup"><span data-stu-id="65721-116">Represents attendees and resources for a meeting.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="8e142-117">文本值</span><span class="sxs-lookup"><span data-stu-id="8e142-117">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="65721-117">文本值</span><span class="sxs-lookup"><span data-stu-id="65721-117">Text value</span></span>
 
-<span data-ttu-id="8e142-118">需要安装一个文本值，表示的日期和最新的响应的时间。</span><span class="sxs-lookup"><span data-stu-id="8e142-118">A text value that represents the date and time of the latest response is required.</span></span>
+<span data-ttu-id="65721-118">需要表示最新响应的日期和时间的文本值。</span><span class="sxs-lookup"><span data-stu-id="65721-118">A text value that represents the date and time of the latest response is required.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="8e142-119">注解</span><span class="sxs-lookup"><span data-stu-id="8e142-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="65721-119">备注</span><span class="sxs-lookup"><span data-stu-id="65721-119">Remarks</span></span>
 
-<span data-ttu-id="8e142-120">描述此元素的架构位于运行 MicrosoftExchange 2007 已安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="8e142-120">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange 2007 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="65721-120">描述此元素的架构位于运行 MicrosoftExchange 2007 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="65721-120">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange 2007 that has the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="8e142-121">元素信息</span><span class="sxs-lookup"><span data-stu-id="8e142-121">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="65721-121">元素信息</span><span class="sxs-lookup"><span data-stu-id="65721-121">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="8e142-122">命名空间</span><span class="sxs-lookup"><span data-stu-id="8e142-122">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="8e142-123">架构名称</span><span class="sxs-lookup"><span data-stu-id="8e142-123">Schema name</span></span>  <br/> |<span data-ttu-id="8e142-124">类型架构</span><span class="sxs-lookup"><span data-stu-id="8e142-124">Types schema</span></span>  <br/> |
-|<span data-ttu-id="8e142-125">验证文件</span><span class="sxs-lookup"><span data-stu-id="8e142-125">Validation file</span></span>  <br/> |<span data-ttu-id="8e142-126">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="8e142-126">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="8e142-127">可以为空</span><span class="sxs-lookup"><span data-stu-id="8e142-127">Can be empty</span></span>  <br/> |<span data-ttu-id="8e142-128">False</span><span class="sxs-lookup"><span data-stu-id="8e142-128">False</span></span>  <br/> |
+|<span data-ttu-id="65721-122">命名空间</span><span class="sxs-lookup"><span data-stu-id="65721-122">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="65721-123">架构名称</span><span class="sxs-lookup"><span data-stu-id="65721-123">Schema name</span></span>  <br/> |<span data-ttu-id="65721-124">类型架构</span><span class="sxs-lookup"><span data-stu-id="65721-124">Types schema</span></span>  <br/> |
+|<span data-ttu-id="65721-125">验证文件</span><span class="sxs-lookup"><span data-stu-id="65721-125">Validation file</span></span>  <br/> |<span data-ttu-id="65721-126">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="65721-126">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="65721-127">可以为空</span><span class="sxs-lookup"><span data-stu-id="65721-127">Can be empty</span></span>  <br/> |<span data-ttu-id="65721-128">False</span><span class="sxs-lookup"><span data-stu-id="65721-128">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="8e142-129">另请参阅</span><span class="sxs-lookup"><span data-stu-id="8e142-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="65721-129">另请参阅</span><span class="sxs-lookup"><span data-stu-id="65721-129">See also</span></span>
 
 
 
-- [<span data-ttu-id="8e142-130">在交换 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="8e142-130">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="65721-130">Exchange 中的 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="65721-130">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 
