@@ -1,5 +1,5 @@
 ---
-title: 取消操作
+title: 取消订阅操作
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,32 +11,32 @@ api_name:
 api_type:
 - schema
 ms.assetid: 994a9d2b-1501-4804-90f0-12bd914496ec
-description: 取消操作用于结束请求通知订阅。 使用此操作，而不是让订阅超时。 此操作才有效出现通知。
-ms.openlocfilehash: 64514a718d473f0fd7d0320bd1ccecddb1940ac8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 取消订阅操作用于结束拉取通知订阅。 使用此操作，而不是允许订阅超时。 此操作仅对 pull 通知有效。
+ms.openlocfilehash: 054f89af1ba5c780c7de5016a6dfe34086c97f02
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838357"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468024"
 ---
-# <a name="unsubscribe-operation"></a>取消操作
+# <a name="unsubscribe-operation"></a>取消订阅操作
 
-取消操作用于结束请求通知订阅。 使用此操作，而不是让订阅超时。 此操作才有效出现通知。
+取消订阅操作用于结束拉取通知订阅。 使用此操作，而不是允许订阅超时。 此操作仅对 pull 通知有效。
   
 ## <a name="unsubscribe-request-example"></a>取消订阅请求示例
 
 ### <a name="description"></a>说明
 
-下面的示例演示发送，以取消订阅通知服务的客户端的 SOAP XML 消息。
+下面的示例显示发送到从通知服务取消订阅客户端的 SOAP XML 消息。
   
 ### <a name="code"></a>代码
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <Unsubscribe xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <Unsubscribe xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <SubscriptionId>e6fbf5c1-7e26-4bc6-a5f2-882063d5e34e</SubscriptionId>  
     </Unsubscribe>
   </soap:Body>
@@ -49,13 +49,13 @@ ms.locfileid: "19838357"
   
 - [取消订阅](unsubscribe.md)
     
-- [SubscriptionId (GetEvents)](subscriptionid-getevents.md)
+- [SubscriptionId （GetEvents）](subscriptionid-getevents.md)
     
-## <a name="successful-unsubscribe-response-example"></a>成功取消订阅响应示例
+## <a name="successful-unsubscribe-response-example"></a>成功的取消订阅响应示例
 
 ### <a name="description"></a>说明
 
-下面的示例演示取消订阅请求的成功响应。
+下面的示例演示对取消订阅请求的成功响应。
   
 ### <a name="code"></a>代码
 
@@ -66,12 +66,12 @@ ms.locfileid: "19838357"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="628" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <UnsubscribeResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <UnsubscribeResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:UnsubscribeResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -84,7 +84,7 @@ ms.locfileid: "19838357"
 
 ### <a name="unsubscribe-response-elements"></a>取消订阅响应元素
 
-在响应中使用以下元素：
+响应中使用以下元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -100,7 +100,7 @@ ms.locfileid: "19838357"
 
 ### <a name="description"></a>说明
 
-下面的示例取消订阅错误响应发生响应尝试使用找不到订阅标识符取消订阅 Exchange 存储中。
+以下是取消订阅错误响应的示例，以响应使用无法位于 Exchange 存储中的订阅标识符进行取消订阅。
   
 ### <a name="code"></a>代码
 
@@ -111,12 +111,12 @@ ms.locfileid: "19838357"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="628" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <UnsubscribeResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <UnsubscribeResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:UnsubscribeResponseMessage ResponseClass="Error">
           <m:MessageText>The specified subscription was not found.</m:MessageText>
@@ -151,5 +151,5 @@ ms.locfileid: "19838357"
 
 - [订阅操作](subscribe-operation.md)
 - [GetEvents 操作](getevents-operation.md)
-- [使用请求订阅](http://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
+- [使用请求订阅](https://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
 

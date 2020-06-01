@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6e4cd194-0696-4fec-8ab0-e1d349ed0be0
 description: Description 元素指定保留策略的描述性文本。
-ms.openlocfilehash: e001733e7011610dc09c2cce389104d74894772d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a399d4072220e3fa9199f0a3eb760e886b7b4ee6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753846"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467884"
 ---
 # <a name="description"></a>说明
 
@@ -26,9 +26,9 @@ ms.locfileid: "19753846"
  **string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -40,11 +40,11 @@ ms.locfileid: "19753846"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[RetentionPolicyTag](retentionpolicytag.md) <br/> |指定的邮箱项目的保留策略。  <br/> |
+|[Get-retentionpolicytag](retentionpolicytag.md) <br/> |指定邮箱项目的保留策略。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**Description**元素的文本值是一个 string 值，介绍了保留策略。 
+**Description**元素的文本值是一个描述保留策略的字符串值。 
   
 ## <a name="remarks"></a>备注
 
@@ -56,12 +56,12 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |types.xsd  <br/> |
+|验证文件  <br/> |类型 .xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

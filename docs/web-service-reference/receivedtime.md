@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f348e832-47a7-4c14-a5b9-2fc9b47d01e9
-description: ReceivedTime 元素指定项目已接收到的时间。
-ms.openlocfilehash: 677f51ada34cbcc8d050abb92c8eefdec89adfcd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ReceivedTime 元素指定接收项目的时间。
+ms.openlocfilehash: 32f7148f8d717a51f831aa13d740f1342c943912
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826976"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468213"
 ---
 # <a name="receivedtime"></a>ReceivedTime
 
-**ReceivedTime**元素指定项目已接收到的时间。 
+**ReceivedTime**元素指定接收项目的时间。 
   
 ```XML
 <ReceivedTime></ReceivedTime>
@@ -26,9 +26,9 @@ ms.locfileid: "19826976"
  **dateTime**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,7 +42,7 @@ ms.locfileid: "19826976"
   
 ## <a name="text-value"></a>文本值
 
-**ReceivedTime**元素的文本值的日期和项目已接收的时间。 
+**ReceivedTime**元素的文本值是接收项目的日期和时间。 
   
 ## <a name="remarks"></a>备注
 
@@ -54,7 +54,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> ||

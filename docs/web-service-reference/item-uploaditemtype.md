@@ -1,5 +1,5 @@
 ---
-title: 项目 (UploadItemType)
+title: Item （UploadItemType）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,23 +7,23 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ab7058f2-615f-4393-a0d4-af76727f37e9
-description: Item 元素表示单个项目上载到邮箱。
-ms.openlocfilehash: 8fecef9a2368a44e38633eb9fddaa8197620f6a1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Item 元素代表要上传到邮箱中的单个项目。
+ms.openlocfilehash: 82c0fdf89c06ddfb812c2b2f1899b589eedeb7d8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826138"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467548"
 ---
-# <a name="item-uploaditemtype"></a>项目 (UploadItemType)
+# <a name="item-uploaditemtype"></a>Item （UploadItemType）
 
-**Item**元素表示单个项目上载到邮箱。 
+**Item**元素代表要上传到邮箱中的单个项目。 
   
 [UploadItems](uploaditems.md)
   
-[项目 (NonEmptyArrayOfUploadItemsType)](items-nonemptyarrayofuploaditemstype.md)
+[项目（NonEmptyArrayOfUploadItemsType）](items-nonemptyarrayofuploaditemstype.md)
   
-[项目 (UploadItemType)](item-uploaditemtype.md)
+[Item （UploadItemType）](item-uploaditemtype.md)
   
 ```XML
 <Item CreateAction="" IsAssociated="">
@@ -36,42 +36,42 @@ ms.locfileid: "19826138"
  **UploadItemType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**说明**|
 |:-----|:-----|
-|**CreateAction** <br/> |指定用于将项目上载到邮箱的操作。 此属性是必需的。  <br/> |
-|**IsAssociated** <br/> |指定是否已上载的项目是关联文件夹项。 此属性是一个布尔值。 值为**true**指示项关联的项目的文件夹。 此属性是可选的。  <br/> |
+|**CreateAction** <br/> |指定用于将项目上载到邮箱的操作。 此特性是必需的。  <br/> |
+|**IsAssociated** <br/> |指定上传的项目是否是与文件夹相关联的项目。 此属性是一个布尔值。 **如果值为 true** ，则表示该项目是一个与文件夹相关联的项目。 此特性是可选的。  <br/> |
    
-#### <a name="createaction-attribute"></a>创建动作属性
+#### <a name="createaction-attribute"></a>CreateAction 属性
 
 |**值**|**说明**|
 |:-----|:-----|
-|**CreateNew** <br/> |指示原始项目的新副本上载到邮箱。 [ItemId](itemid.md)元素必须存在，如果使用了 CreateNew 值。 在响应中返回新的项标识符。  <br/> |
-|**更新** <br/> |指定将由**ItemId**元素指示的项进行了更新。 如果不存在**ItemId**元素或项目中由[ParentFolderId](parentfolderid.md)元素标识的文件夹不存在，则返回错误。  <br/> |
-|**UpdateOrCreate** <br/> |指示尝试首先进行更新此项目。 如果项目不存在**ParentFolderId**元素所指定的文件夹中，将创建一个新项。  <br/> |
+|**CreateNew** <br/> |指示将原始项目的新副本上载到邮箱。 如果使用了 CreateNew 值，则必须不存在[ItemId](itemid.md)元素。 在响应中返回新的项目标识符。  <br/> |
+|**更新** <br/> |指定由**ItemId**元素指示的项目将更新。 如果**ItemId**元素不存在或项目不存在于由[ParentFolderId](parentfolderid.md)元素标识的文件夹中，则会返回错误。  <br/> |
+|**UpdateOrCreate** <br/> |指示第一次尝试更新项目。 如果**ParentFolderId**元素指定的文件夹中不存在该项目，则会创建一个新项目。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
-|**元素**|**说明**|
+|**元素**|**描述**|
 |:-----|:-----|
-|[ParentFolderId](parentfolderid.md) <br/> |表示在其中创建新项目或包含要更新的项的父文件夹的标识符。  <br/> |
-|[ItemId](itemid.md) <br/> |包含要创建或更新 Exchange 存储中的项的唯一标识符和更改键。  <br/> |
-|[数据 (base64Binary)](data-base64binary.md) <br/> |包含要上载到邮箱的单个项的数据。  <br/> |
+|[ParentFolderId](parentfolderid.md) <br/> |表示在其中创建新项目或包含要更新的项目的父文件夹的标识符。  <br/> |
+|[ItemId](itemid.md) <br/> |包含要在 Exchange 存储中创建或更新的项目的唯一标识符和更改密钥。  <br/> |
+|[Data （base64Binary）](data-base64binary.md) <br/> |包含要上传到邮箱中的单个项目的数据。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
-|**元素**|**说明**|
+|**元素**|**描述**|
 |:-----|:-----|
-|[项目 (NonEmptyArrayOfUploadItemsType)](items-nonemptyarrayofuploaditemstype.md) <br/> |包含项目上载到邮箱的数组。  <br/> |
+|[项目（NonEmptyArrayOfUploadItemsType）](items-nonemptyarrayofuploaditemstype.md) <br/> |包含要上载到邮箱的项的数组。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   
@@ -79,7 +79,7 @@ ms.locfileid: "19826138"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |

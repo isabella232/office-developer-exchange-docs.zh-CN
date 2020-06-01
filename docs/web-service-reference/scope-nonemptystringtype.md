@@ -1,5 +1,5 @@
 ---
-title: 范围 (NonEmptyStringType)
+title: 范围（NonEmptyStringType）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 7efb6fd9-1615-469e-96f6-0f7846ad9b44
-description: Scope 元素指定的邮件跟踪报告的范围。
-ms.openlocfilehash: 534ed23916a60b246c7cb5be4a59d086980a7c37
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Scope 元素指定邮件跟踪报告的范围。
+ms.openlocfilehash: f86f6198e84e094e61ee569f6d005549316bbb9b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827280"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466939"
 ---
-# <a name="scope-nonemptystringtype"></a>范围 (NonEmptyStringType)
+# <a name="scope-nonemptystringtype"></a>范围（NonEmptyStringType）
 
-**Scope**元素指定的邮件跟踪报告的范围。 
+**Scope**元素指定邮件跟踪报告的范围。 
   
 ```XML
 <Scope>Organization | Forest | Site</Scope>
@@ -30,9 +30,9 @@ ms.locfileid: "19827280"
  **NonEmptyStringType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,19 +42,19 @@ ms.locfileid: "19827280"
   
 ### <a name="parent-elements"></a>父元素
 
-[FindMessageTrackingReport](findmessagetrackingreport.md) | [GetMessageTrackingReport](getmessagetrackingreport.md)
+[FindMessageTrackingReport](findmessagetrackingreport.md)  | [GetMessageTrackingReport](getmessagetrackingreport.md)
   
 ## <a name="text-value"></a>文本值
 
-下表列出了可能的**范围**元素的值。 
+下表列出了**Scope**元素的可能值。 
   
 |**值**|**说明**|
 |:-----|:-----|
-|组织  <br/> |邮件跟踪范围跨越组织。  <br/> |
-|林  <br/> |邮件跟踪范围跨跨林。  <br/> |
-|网站  <br/> |邮件跟踪范围跨整个网站。  <br/> |
+|组织  <br/> |邮件跟踪作用域跨越整个组织。  <br/> |
+|林  <br/> |邮件跟踪作用域跨林分布。  <br/> |
+|Site  <br/> |邮件跟踪作用域跨越一个站点。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -62,7 +62,7 @@ ms.locfileid: "19827280"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -71,5 +71,5 @@ ms.locfileid: "19827280"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

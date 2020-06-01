@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: cf3f9d7a-2add-4457-b009-2929220f90b5
 description: RequestedServerVersion元素指定一个Autodiscover 方法调用的目标的服务器版本。
-ms.openlocfilehash: 6b9d31f3b7bca087652f04e4943becc5ac4e68e7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ff63c82943bdd3476a4284f5aa2075fc9c0194b9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827132"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467905"
 ---
 # <a name="requestedserverversion-soap"></a>RequestedServerVersion (SOAP)
 
@@ -27,9 +27,9 @@ ms.locfileid: "19827132"
  **ExchangeVersion**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -62,9 +62,9 @@ ms.locfileid: "19827132"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |架构名称  <br/> |自动发现架构  <br/> |
-|验证文件  <br/> |messages.xsd  <br/> |
+|验证文件  <br/> |消息 .xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
    
 

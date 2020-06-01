@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 12f2934a-008c-4236-b8b3-7c7b6b5707e2
-description: NonIndexableItemStatistics 元素包含数组的无法索引的项目的统计信息。
-ms.openlocfilehash: 1414053b6d39f4cd08ccfd1a11faaf1b13c2052b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: NonIndexableItemStatistics 元素包含无法编制索引的项的一系列统计信息。
+ms.openlocfilehash: 5a11bd4d7ef0c574f26580613063a885530176f9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826544"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466729"
 ---
 # <a name="nonindexableitemstatistics"></a>NonIndexableItemStatistics
 
-**NonIndexableItemStatistics**元素包含数组的无法索引的项目的统计信息。 
+**NonIndexableItemStatistics**元素包含无法编制索引的项的一系列统计信息。 
   
 ```XML
 <NonIndexableItemStatistics>
@@ -28,9 +28,9 @@ ms.locfileid: "19826544"
  **ArrayOfNonIndexableItemStatisticsType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -40,7 +40,7 @@ ms.locfileid: "19826544"
   
 ### <a name="parent-elements"></a>父元素
 
-[GetNonIndexableItemStatisticsResponse](getnonindexableitemstatisticsresponse.md) [GetNonIndexableItemStatisticsResponseMessage](getnonindexableitemstatisticsresponsemessage.md)
+[GetNonIndexableItemStatisticsResponse](getnonindexableitemstatisticsresponse.md) 、 [GetNonIndexableItemStatisticsResponseMessage](getnonindexableitemstatisticsresponsemessage.md)
   
 ## <a name="remarks"></a>备注
 
@@ -52,7 +52,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -64,5 +64,5 @@ Exchange Server 2013 中引入了此元素。
 [GetNonIndexableItemStatistics 操作](getnonindexableitemstatistics-operation.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

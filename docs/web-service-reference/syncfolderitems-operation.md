@@ -11,38 +11,38 @@ api_name:
 api_type:
 - schema
 ms.assetid: 7f0de089-8876-47ec-a871-df118ceae75d
-description: SyncFolderItems 操作同步 Exchange server 和客户端之间的项目。
-ms.openlocfilehash: 6b2e4694ac793e17a2b7cb2edb2cb9e6a4a105ea
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: SyncFolderItems 操作在 Exchange 服务器和客户端之间同步项目。
+ms.openlocfilehash: 1a28d895eda11dd43f77ec2662a60a426cfc463c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838176"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468143"
 ---
 # <a name="syncfolderitems-operation"></a>SyncFolderItems 操作
 
-SyncFolderItems 操作同步 Exchange server 和客户端之间的项目。
+SyncFolderItems 操作在 Exchange 服务器和客户端之间同步项目。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-SyncFolderItems 操作将返回最多个 512 更改。 若要获取的其他更改，必须执行后续 SyncFolderItems 请求。 
+SyncFolderItems 操作将返回最多512个更改。 必须执行后续的 SyncFolderItems 请求以获取其他更改。 
   
-它不能返回正文或附件之类的属性，因此 SyncFolderItems 是类似于 FindItem 操作。 如果 SyncFolderItems 操作不会返回所需的属性，您可以使用[GetItem 操作](getitem-operation.md)获取一组特定的属性，它由 SyncFolderItems 返回的每个项目。 
+SyncFolderItems 类似于 FindItem 操作，因为它无法返回正文或附件等属性。 如果 SyncFolderItems 操作不返回所需的属性，则可以使用[GetItem 操作](getitem-operation.md)获取 SyncFolderItems 返回的每个项目的特定属性集。 
   
 ## <a name="syncfolderitems-request-example"></a>SyncFolderItems 请求示例
 
 ### <a name="description"></a>说明
 
-SyncFolderItems 请求的下面的示例演示如何同步文件夹中的项目。 本示例演示不是第一个同步发生的已发送邮件文件夹的文件夹项目同步。 首次尝试与 Exchange server 同步客户端的请求中不包括[SyncState](syncstate-ex15websvcsotherref.md)元素。 同步文件夹层次结构中的项目的第一次尝试将返回所有项目在邮箱中排除[忽略](ignore.md)元素中标识的项目。 此 SyncFolderItems 请求将尝试自上次同步同步到文件夹项目的所有更改。 此请求将忽略尝试同步中的[忽略](ignore.md)元素标识一项。 
+下面的 SyncFolderItems 请求示例演示如何同步文件夹中的项目。 本示例显示 "已发送邮件" 文件夹中未发生的第一次同步的文件夹项目同步。 在第一次尝试将客户端与 Exchange 服务器同步时，请求中不包含[SyncState](syncstate-ex15websvcsotherref.md)元素。 第一次尝试同步文件夹层次结构中的项时，将返回邮箱中的所有项，而不包括在[Ignore](ignore.md)元素中标识的项。 此 SyncFolderItems 请求将尝试同步自上次同步之后对文件夹项所做的所有更改。 此请求将忽略对[ignore](ignore.md)元素中标识的项进行同步的尝试。 
   
 ### <a name="code"></a>代码
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <SyncFolderItems xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <SyncFolderItems xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ItemShape>
         <t:BaseShape>Default</t:BaseShape>
       </ItemShape>
@@ -59,11 +59,11 @@ SyncFolderItems 请求的下面的示例演示如何同步文件夹中的项目�
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>注释
+### <a name="comments"></a>备注
 
-已缩短[SyncState](syncstate-ex15websvcsotherref.md)元素 base64 编码的数据和[ItemId](itemid.md)元素的**Id**属性，以保留可读性。 
+[SyncState](syncstate-ex15websvcsotherref.md)元素 base64 编码的数据和[ItemId](itemid.md)元素**Id**属性已缩短，以保持可读性。 
   
-### <a name="request-elements"></a>请求元素
+### <a name="request-elements"></a>Request 元素
 
 请求中使用以下元素：
   
@@ -89,7 +89,7 @@ SyncFolderItems 请求的下面的示例演示如何同步文件夹中的项目�
 
 ### <a name="description"></a>说明
 
-下面的示例演示对 SyncFolderItems 请求成功响应。 本示例中，从已发送邮件文件夹同步会议请求。
+下面的示例演示对 SyncFolderItems 请求的成功响应。 在此示例中，会议请求将从 "已发送邮件" 文件夹中同步。
   
 ### <a name="code"></a>代码
 
@@ -101,12 +101,12 @@ SyncFolderItems 请求的下面的示例演示如何同步文件夹中的项目�
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" 
                          MajorBuildNumber="628" MinorBuildNumber="0" 
-      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <SyncFolderItemsResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                             xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                             xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <SyncFolderItemsResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                             xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                             xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:SyncFolderItemsResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -142,13 +142,13 @@ SyncFolderItems 请求的下面的示例演示如何同步文件夹中的项目�
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>注释
+### <a name="comments"></a>备注
 
-已缩短[SyncState](syncstate-ex15websvcsotherref.md)元素 base64 编码的数据和[ItemId](itemid.md)元素的**Id**属性，以保留可读性。 
+[SyncState](syncstate-ex15websvcsotherref.md)元素 base64 编码的数据和[ItemId](itemid.md)元素**Id**属性已缩短，以保持可读性。 
   
-### <a name="successful-response-elements"></a>成功响应元素
+### <a name="successful-response-elements"></a>成功的响应元素
 
-在响应中使用以下元素：
+响应中使用以下元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -164,15 +164,15 @@ SyncFolderItems 请求的下面的示例演示如何同步文件夹中的项目�
     
 - [IncludesLastItemInRange](includeslastiteminrange.md)
     
-- [更改 （项）](changes-items.md)
+- [更改（项目）](changes-items.md)
     
-- [创建 (ItemSync)](create-itemsync.md)
+- [创建（ItemSync）](create-itemsync.md)
     
 - [MeetingRequest](meetingrequest.md)
     
 - [ItemId](itemid.md)
     
-- [Subject](subject.md)
+- [主题](subject.md)
     
 - [Sensitivity](sensitivity.md)
     
@@ -184,27 +184,27 @@ SyncFolderItems 请求的下面的示例演示如何同步文件夹中的项目�
     
 - [IntendedFreeBusyStatus](intendedfreebusystatus.md)
     
-- [Start](start.md)
+- [开始](start.md)
     
-- [结束](end-ex15websvcsotherref.md)
+- [停止](end-ex15websvcsotherref.md)
     
-- [位置](location.md)
+- [Location](location.md)
     
 - [Organizer](organizer.md)
     
-- [Mailbox](mailbox.md)
+- [邮箱](mailbox.md)
     
 - [名称 (EmailAddressType)](name-emailaddresstype.md)
     
 - [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md)
     
-- [RoutingType (EmailAddressType)](routingtype-emailaddresstype.md)
+- [RoutingType （EmailAddressType）](routingtype-emailaddresstype.md)
     
 ## <a name="syncfolderitems-error-response"></a>SyncFolderItems 错误响应
 
 ### <a name="description"></a>说明
 
-下面的示例演示对 SyncFolderItems 请求错误响应。 无效的 SyncState 导致出现此错误。
+下面的示例演示对 SyncFolderItems 请求的错误响应。 此错误是由无效的 SyncState 所致。
   
 ### <a name="code"></a>代码
 
@@ -216,12 +216,12 @@ SyncFolderItems 请求的下面的示例演示如何同步文件夹中的项目�
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" 
                          MajorBuildNumber="628" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <SyncFolderItemsResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                             xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                             xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <SyncFolderItemsResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                             xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                             xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:SyncFolderItemsResponseMessage ResponseClass="Error">
           <m:MessageText>Synchronization state data is corrupt or otherwise invalid.</m:MessageText>
@@ -262,5 +262,5 @@ SyncFolderItems 请求的下面的示例演示如何同步文件夹中的项目�
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

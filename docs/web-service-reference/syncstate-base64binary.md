@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 89650cd4-c790-4a37-b5e5-46a57501e100
 description: SyncState 元素指定对话的同步状态。
-ms.openlocfilehash: 18fb4fe60085c9ae2f84adc0d4a6df514302d759
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 85c525176931b66354ebdd8873673f04c6a722f3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838177"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468136"
 ---
 # <a name="syncstate-base64binary"></a>SyncState (base64Binary)
 
@@ -26,9 +26,9 @@ ms.locfileid: "19838177"
  **base64Binary**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -38,11 +38,11 @@ ms.locfileid: "19838177"
   
 ### <a name="parent-elements"></a>父元素
 
-[对话 (ConversationRequestType)](conversation-conversationrequesttype.md) | [对话 (ConversationResponseType)](conversation-conversationresponsetype.md)
+[对话（ConversationRequestType）](conversation-conversationrequesttype.md)  | [对话（ConversationResponseType）](conversation-conversationresponsetype.md)
   
 ## <a name="text-value"></a>文本值
 
-**SyncState**元素的文本值是进行对话的同步状态。 
+**SyncState**元素的文本值是对话的同步状态。 
   
 ## <a name="remarks"></a>备注
 
@@ -54,7 +54,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |false  <br/> |

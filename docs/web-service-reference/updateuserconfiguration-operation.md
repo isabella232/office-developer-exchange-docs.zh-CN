@@ -11,31 +11,31 @@ api_name:
 api_type:
 - schema
 ms.assetid: eda73b62-6a3a-43ae-8fd9-f30892811f27
-description: UpdateUserConfiguration 操作可更新的文件夹的用户配置对象。
-ms.openlocfilehash: 9da7c7ba15b3cf6b35f0489db539660aefa2e40a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: UpdateUserConfiguration 操作将更新文件夹上的用户配置对象。
+ms.openlocfilehash: 95fe6518fa30104463ec7f0aec8f786183eb513b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838425"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468542"
 ---
 # <a name="updateuserconfiguration-operation"></a>UpdateUserConfiguration 操作
 
-**UpdateUserConfiguration**操作可更新的文件夹的用户配置对象。 
+**UpdateUserConfiguration**操作将更新文件夹上的用户配置对象。 
   
 ## <a name="updateuserconfiguration-request-example"></a>UpdateUserConfiguration 请求示例
 
 ### <a name="description"></a>说明
 
-**UpdateUserConfiguration**请求的下面的示例演示如何以形成一个请求来更新用户配置对象上草稿文件夹。 
+以下示例的**UpdateUserConfiguration**请求显示如何在 "草稿" 文件夹中形成更新用户配置对象的请求。 
   
 ### <a name="code"></a>代码
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
                xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
@@ -69,7 +69,7 @@ ms.locfileid: "19838425"
 
 ### <a name="description"></a>说明
 
-下面的示例演示对**UpdateUserConfiguration**请求成功响应。 
+下面的示例演示对**UpdateUserConfiguration**请求的成功响应。 
   
 ### <a name="code"></a>代码
 
@@ -82,15 +82,15 @@ ms.locfileid: "19838425"
                          MajorBuildNumber="639" 
                          MinorBuildNumber="20" 
                          Version="Exchange2010" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:UpdateUserConfigurationResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:UpdateUserConfigurationResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:UpdateUserConfigurationResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -107,5 +107,5 @@ ms.locfileid: "19838425"
 
 [Exchange 中的 EWS 操作](ews-operations-in-exchange.md)
   
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

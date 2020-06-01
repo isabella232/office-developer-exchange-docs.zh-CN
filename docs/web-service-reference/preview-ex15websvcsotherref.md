@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5d33f557-c9d5-4f7f-82c0-d800412f8b7e
-description: 预览元素指定显示项目的前 256 个字符。
-ms.openlocfilehash: 38589f8d8efb58e109de59ebf9b5e56556ab58af
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Preview 元素指定要显示的项的前256个字符。
+ms.openlocfilehash: 883a9b7ed45add423cbe942d1eabb90c53ac1ddf
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826876"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468108"
 ---
 # <a name="preview"></a>预览
 
-**预览**元素指定显示项目的前 256 个字符。 
+**Preview**元素指定要显示的项的前256个字符。 
   
 ```XML
 <Preview></Preview>
@@ -26,9 +26,9 @@ ms.locfileid: "19826876"
  **string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -38,11 +38,11 @@ ms.locfileid: "19826876"
   
 ### <a name="parent-elements"></a>父元素
 
-[对话 (ConversationType)](conversation-conversationtype.md) | [SearchPreviewItem](searchpreviewitem.md) | [项](item.md) | [联系人](contact.md) | [消息](message-ex15websvcsotherref.md) | [DistributionList](distributionlist.md) | [日历项目](calendaritem.md) | [PostItem](postitem.md) | [任务](task.md)
+[对话（ConversationType）](conversation-conversationtype.md)  | [SearchPreviewItem](searchpreviewitem.md)  | [项](item.md)  | [联系人](contact.md)  | [邮件](message-ex15websvcsotherref.md)  | [DistributionList](distributionlist.md)  | [CalendarItem](calendaritem.md)  | [PostItem](postitem.md)  | [任务](task.md)
   
 ## <a name="text-value"></a>文本值
 
-预览元素的文本值的项目的前 256 个字符。
+Preview 元素的文本值是项目的前256个字符。
   
 ## <a name="remarks"></a>备注
 
@@ -54,7 +54,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> ||

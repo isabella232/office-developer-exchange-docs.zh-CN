@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: e9e3f50c-5a7b-49c7-a9ea-117959c08352
-description: MailboxData 元素均表示单个邮箱用户和类型的数据的选项，将返回有关邮箱用户。
-ms.openlocfilehash: df60294e7d83b1459e5cca7d75c2b6b4bb9d931d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: MailboxData 元素表示单个邮箱用户，以及有关邮箱用户要返回的数据类型的选项。
+ms.openlocfilehash: bfcb8c01d40af81097c7d9868006fe9b7b5519d4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826281"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467247"
 ---
 # <a name="mailboxdata"></a>MailboxData
 
-**MailboxData**元素均表示单个邮箱用户和类型的数据的选项，将返回有关邮箱用户。 
+**MailboxData**元素表示单个邮箱用户，以及有关邮箱用户要返回的数据类型的选项。 
   
 - [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
@@ -41,9 +41,9 @@ ms.locfileid: "19826281"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -51,28 +51,28 @@ ms.locfileid: "19826281"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[电子邮件 (EmailAddressType)](email-emailaddresstype.md) <br/> |表示 GetUserAvailability 查询的邮箱用户。  <br/> |
-|[AttendeeType](attendeetype.md) <br/> |表示与会者的[电子邮件 (EmailAddressType)](email-emailaddresstype.md)元素中标识的类型。 这是请求中使用的会议建议。  <br/> |
-|[ExcludeConflicts](excludeconflicts.md) <br/> |指定是否返回建议与会者之间发生冲突的日历时间的时间。  <br/> |
+|[电子邮件（EmailAddressType）](email-emailaddresstype.md) <br/> |表示 GetUserAvailability 查询的邮箱用户。  <br/> |
+|[AttendeeType](attendeetype.md) <br/> |表示在[Email （EmailAddressType）](email-emailaddresstype.md)元素中标识的与会者的类型。 这用于会议建议的请求。  <br/> |
+|[ExcludeConflicts](excludeconflicts.md) <br/> |指定是否为日历时间返回在与会者之间发生冲突的建议时间。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[MailboxDataArray](mailboxdataarray.md) <br/> |包含要查询的可用性信息的邮箱列表。  <br/> 以下是此元素的 XPath:  <br/>  `/GetUserAvailabilityRequest/MailboxDataArray[i]` <br/> |
+|[MailboxDataArray](mailboxdataarray.md) <br/> |包含要查询可用性信息的邮箱的列表。  <br/> 以下是此元素的 XPath：  <br/>  `/GetUserAvailabilityRequest/MailboxDataArray[i]` <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-客户端应用程序可以定义一个许多**MailboxData**元素。 
+客户端应用程序可以定义一个到多个**MailboxData**元素。 
   
 > [!NOTE]
-> 描述此元素的架构位于运行 Exchange Server 2007 的安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。 
+> 描述此元素的架构位于运行 Exchange Server 2007 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。 
   
 ## <a name="example"></a>示例
 
 ```xml
 <MailboxDataArray>
-  <MailboxData xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+  <MailboxData xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
     <Email>
       <Name></Name>
       <Address>someone@ExServer.example.com</Address>
@@ -88,7 +88,7 @@ ms.locfileid: "19826281"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -97,5 +97,5 @@ ms.locfileid: "19826281"
 
 - [GetUserAvailability 操作](getuseravailability-operation.md)
 - [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
-- [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

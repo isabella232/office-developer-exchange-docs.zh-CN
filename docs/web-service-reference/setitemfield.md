@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 85284fcb-bd1e-4fda-9dab-cb4cd637cd5b
-description: SetItemField 元素表示更新到单个 UpdateItem 操作中的项目的属性。
-ms.openlocfilehash: bd3e5bca3d61325ef3f218c5ada535346247f391
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: SetItemField 元素表示对 UpdateItem 操作中项的单个属性的更新。
+ms.openlocfilehash: b4606eb7d94b9d0c4c5bcd5a2b56d73a4d4270cb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353796"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467422"
 ---
 # <a name="setitemfield"></a>SetItemField
 
-**SetItemField**元素表示更新到单个[UpdateItem 操作](updateitem-operation.md)中的项目的属性。
+**SetItemField**元素表示对[UpdateItem 操作](updateitem-operation.md)中项的单个属性的更新。
   
 ```xml
 <SetItemField>
@@ -250,23 +250,23 @@ ms.locfileid: "21353796"
 |:-----|:-----|
 |[FieldURI](fielduri.md) <br/> |标识由 URI 频繁引用的属性。  <br/> |
 |[IndexedFieldURI](indexedfielduri.md) <br/> |标识词典中的各个成员。  <br/> |
-|[ExtendedFieldURI](extendedfielduri.md) <br/> |标识扩展的 MAPI 属性设置。  <br/> |
+|[ExtendedFieldURI](extendedfielduri.md) <br/> |确定要设置的扩展 MAPI 属性。  <br/> |
 |[项目](item.md) <br/> |表示 Exchange 存储中的项。  <br/> |
-|[邮件](message-ex15websvcsotherref.md) <br/> |代表要更新 Exchange 电子邮件。  <br/> |
-|[CalendarItem](calendaritem.md) <br/> |代表要更新 Exchange 日历项。  <br/> |
-|[Contact](contact.md) <br/> |代表要更新 Exchange 联系人项。  <br/> |
-|[DistributionList](distributionlist.md) <br/> |代表要更新的通讯组列表。  <br/> |
-|[MeetingMessage](meetingmessage.md) <br/> |代表要更新的会议消息。  <br/> |
+|[邮件](message-ex15websvcsotherref.md) <br/> |表示要更新的 Exchange 电子邮件。  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |表示要更新的 Exchange 日历项目。  <br/> |
+|[联系人](contact.md) <br/> |表示要更新的 Exchange 联系人项目。  <br/> |
+|[DistributionList](distributionlist.md) <br/> |表示要更新的通讯组列表。  <br/> |
+|[MeetingMessage](meetingmessage.md) <br/> |表示要更新的会议邮件。  <br/> |
 |[MeetingRequest](meetingrequest.md) <br/> |表示要更新的会议请求。  <br/> |
-|[MeetingResponse](meetingresponse.md) <br/> |代表要更新的会议响应。  <br/> |
-|[MeetingCancellation](meetingcancellation.md) <br/> |代表要更新会议取消。  <br/> |
-|[任务](task.md) <br/> |代表要更新的任务。  <br/> |
+|[MeetingResponse](meetingresponse.md) <br/> |表示要更新的会议响应。  <br/> |
+|[MeetingCancellation](meetingcancellation.md) <br/> |表示要更新的会议取消。  <br/> |
+|[Task](task.md) <br/> |表示要更新的任务。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Updates (Item)](updates-item.md) <br/> |包含一组定义的元素的 append、 设置和删除项目属性更改。  <br/> |
+|[更新（项目）](updates-item.md) <br/> |包含一组元素，这些元素定义追加、设置和删除对项目属性所做的更改。  <br/> |
    
 ## <a name="remarks"></a>说明
 
@@ -276,7 +276,7 @@ ms.locfileid: "21353796"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |

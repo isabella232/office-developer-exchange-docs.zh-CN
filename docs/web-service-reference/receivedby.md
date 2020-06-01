@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: ac84c9c5-d2fe-4b6f-bf4d-0444131d835b
-description: ReceivedBy 元素标识委派访问方案中的委托。
-ms.openlocfilehash: 7918fa3320223e5cf02dd225912adfae3181e29c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ReceivedBy 元素标识代理访问方案中的委派。
+ms.openlocfilehash: 7cee996c15e81f77d71f42e052b14b1d21772ba1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826969"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468248"
 ---
 # <a name="receivedby"></a>ReceivedBy
 
-**ReceivedBy**元素标识委派访问方案中的委托。 
+**ReceivedBy**元素标识代理访问方案中的委派。 
   
 ```xml
 <ReceivedBy>
@@ -32,9 +32,9 @@ ms.locfileid: "19826969"
  **SingleRecipientType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -63,17 +63,17 @@ ms.locfileid: "19826969"
    
 ## <a name="remarks"></a>备注
 
-**ReceivedRepresenting**元素与**从**结合使用并**ReceivedBy**元素中的委派访问方案。 下表列出了这些元素表示委派访问方案中的实体。 
+**ReceivedRepresenting**元素与代理访问方案中的**From**和**ReceivedBy**元素一起使用。 下表列出了这些元素在代理访问方案中表示的实体。 
   
-**委派访问方案中的元素**
+**代理访问方案中的元素**
 
-|**元素**|**元素表示的实体**|
+|**元素**|**元素所表示的实体**|
 |:-----|:-----|
-|[发件人](from.md) <br/> |第三方  <br/> |
-|[ReceivedBy](receivedby.md) <br/> |委托  <br/> |
-|[ReceivedRepresenting](receivedrepresenting.md) <br/> |Principal  <br/> |
+|[From](from.md) <br/> |ThirdParty  <br/> |
+|[ReceivedBy](receivedby.md) <br/> |委派用户  <br/> |
+|[ReceivedRepresenting](receivedrepresenting.md) <br/> |校长  <br/> |
    
-在委派访问方案中，如果第三方将会议请求发送到的主体拥有代理人，代理人将看到新的会议请求。 这些元素启用代理人来区分直接向他们发送的邮件和消息发送给他们由于代理人转接规则。
+在代理访问方案中，如果 ThirdParty 向具有代理的主体发送会议请求，则代理将看到一个新的会议请求。 这些元素使代理能够区分直接发送给他们的邮件和发送给他们的邮件，因为它是一个代理转发规则。
   
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -81,7 +81,7 @@ ms.locfileid: "19826969"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -90,5 +90,5 @@ ms.locfileid: "19826969"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

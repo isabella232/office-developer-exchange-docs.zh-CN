@@ -11,47 +11,47 @@ api_name:
 api_type:
 - schema
 ms.assetid: 03f618ac-ad1a-4772-9b81-c5bb0f12d6ab
-description: UpdateDelegate 操作更新委派权限的主体的邮箱。
-ms.openlocfilehash: 9f69d784617d10d8902a260bbf6639703dd33b6d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: UpdateDelegate 操作将更新对主体邮箱的委派权限。
+ms.openlocfilehash: b7cf5325d925f8d6588115a8657a2077e940f9d2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838365"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44468556"
 ---
 # <a name="updatedelegate-operation"></a>UpdateDelegate 操作
 
-**UpdateDelegate**操作更新委派权限的主体的邮箱。 
+**UpdateDelegate**操作将更新对主体邮箱的委派权限。 
   
 ## <a name="soap-headers"></a>SOAP 标头
 
-**UpdateDelegate**操作可以使用列出并在下表中所述的 SOAP 标头。 
+**UpdateDelegate**操作可以使用下表中列出和描述的 SOAP 标头。 
   
 |**Header**|**元素**|**说明**|
 |:-----|:-----|:-----|
-|模拟  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |标识模拟客户端应用程序的用户。  <br/> |
-|MailboxCulture  <br/> |[MailboxCulture](mailboxculture.md) <br/> |标识用于访问邮箱的 RFC3066 区域性。  <br/> |
+|模拟  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |标识客户端应用程序模拟的用户。  <br/> |
+|MailboxCulture  <br/> |[MailboxCulture](mailboxculture.md) <br/> |标识要用于访问邮箱的 RFC3066 区域性。  <br/> |
 |RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。  <br/> |
-|ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应该请求的服务器的版本。  <br/> |
+|ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器版本。  <br/> |
    
 ## <a name="updatedelegate-request-example"></a>UpdateDelegate 请求示例
 
 ### <a name="description"></a>说明
 
-**UpdateDelegate**请求的下面的示例演示了如何更新委托 user1 的帐户的权限。 User2 授予无权限级别的任务文件夹，并授予查看专用的项目的权限。 User3 被授予日记文件夹的审阅者权限。 会议请求发送到的代理人，并为 User1 发送有关请求的信息。 
+下面的**UpdateDelegate**请求示例演示如何在 user1's 帐户上更新委派权限。 为操作2授予 "任务" 文件夹的 "无" 权限级别，并向其授予查看私人性质项目的权限。 User3 将为 "日记" 文件夹授予 "审阅者" 权限。 将会议请求发送给代理，并向 User1 发送有关请求的信息。 
   
 ### <a name="code"></a>代码
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1"/>
   </soap:Header>
   <soap:Body>
-    <UpdateDelegate xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-                    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <UpdateDelegate xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+                    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <Mailbox>
         <t:EmailAddress>user1@example.com</t:EmailAddress>
       </Mailbox>
@@ -80,15 +80,15 @@ ms.locfileid: "19838365"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>注释
+### <a name="comments"></a>备注
 
-[UpdateDelegate](updatedelegate.md)请求不需要更新应用到代理人。 客户端可以更改仅**DeliverMeetingMessage**设置。 
+[UpdateDelegate](updatedelegate.md)请求不要求将更新应用到委派。 客户端只能更改**DeliverMeetingMessage**设置。 
   
 ## <a name="updatedelegate-response-example"></a>UpdateDelegate 响应示例
 
 ### <a name="description"></a>说明
 
-下面的示例演示对**UpdateDelegate**操作成功响应。 
+下面的示例演示对**UpdateDelegate**操作的成功响应。 
   
 ### <a name="code"></a>代码
 
@@ -103,12 +103,12 @@ ms.locfileid: "19838365"
                          MajorBuildNumber="206"
                          MinorBuildNumber="0"
                          Version="Exchange2007_SP1"
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <m:UpdateDelegateResponse xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+    <m:UpdateDelegateResponse xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
                               ResponseClass="Success"
-                              xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+                              xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseCode>NoError</m:ResponseCode>
       <m:ResponseMessages>
         <m:DelegateUserResponseMessageType ResponseClass="Success">
@@ -145,7 +145,7 @@ ms.locfileid: "19838365"
 
 ### <a name="description"></a>说明
 
-下面的示例演示**UpdateDelegate**请求错误响应。 由于该委托不存在的主体的代理人列表中生成错误。 
+下面的示例演示对**UpdateDelegate**请求的错误响应。 由于委派在主体的代理列表中不存在，因此生成错误。 
   
 ### <a name="code"></a>代码
 
@@ -160,12 +160,12 @@ ms.locfileid: "19838365"
                          MajorBuildNumber="206" 
                          MinorBuildNumber="0" 
                          Version="Exchange2007_SP1" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <m:UpdateDelegateResponse xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+    <m:UpdateDelegateResponse xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
                               ResponseClass="Success" 
-                              xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+                              xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseCode>NoError</m:ResponseCode>
       <m:ResponseMessages>
         <m:DelegateUserResponseMessageType ResponseClass="Error">
@@ -183,5 +183,5 @@ ms.locfileid: "19838365"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

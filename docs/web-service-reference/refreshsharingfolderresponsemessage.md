@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 53ee65bd-cf75-4e04-9b27-eff1b040ae82
-description: RefreshSharingFolderResponseMessage 元素包含状态和单个 RefreshSharingFolder 操作请求的结果。
-ms.openlocfilehash: 9dbb66c294439f33a9307d51c03dd1cd127e95e2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: RefreshSharingFolderResponseMessage 元素包含单个 RefreshSharingFolder 操作请求的状态和结果。
+ms.openlocfilehash: f2cc357298d523b418d2c45598639627c5a63252
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827052"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468668"
 ---
 # <a name="refreshsharingfolderresponsemessage"></a>RefreshSharingFolderResponseMessage
 
-**RefreshSharingFolderResponseMessage**元素包含状态和的单个结果[RefreshSharingFolder 操作](refreshsharingfolder-operation.md)请求。 
+**RefreshSharingFolderResponseMessage**元素包含单个[RefreshSharingFolder 操作](refreshsharingfolder-operation.md)请求的状态和结果。 
   
 ```xml
 <RefreshSharingFolderResponseMessage ResponseClass="">
@@ -35,38 +35,38 @@ ms.locfileid: "19827052"
  **RefreshSharingFolderResponseMessageType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**说明**|
 |:-----|:-----|
-|**ResponseClass** <br/> | 介绍响应的状态。 <br/><br/>下面是此属性有效值：  <br/><br/>-成功  <br/>-警告  <br/>-错误  <br/> |
+|**ResponseClass** <br/> | 描述响应的状态。 <br/><br/>以下值对此属性有效：  <br/><br/>-成功  <br/>-警告  <br/>-错误  <br/> |
    
 #### <a name="responseclass-attribute-values"></a>ResponseClass 属性值
 
 |**值**|**说明**|
 |:-----|:-----|
-|**成功** <br/> |介绍的已完成的请求。  <br/> |
-|**Warning** <br/> | 介绍了未处理的请求。 如果请求中的项目处理和无法处理后续项时出错，则可能会返回一条警告。 <br/><br/>以下是源的警告的示例： <br/> <br/>-在 Exchange 存储过程批次中处于脱机状态。  <br/>-Active Directory 目录服务处于脱机状态。  <br/>的已移动邮箱。  <br/>(MDB)-邮件数据库处于脱机状态。  <br/>的已过期密码。  <br/>已超出-配额。  <br/> |
-|**Error** <br/> | 描述无法满足请求。 <br/><br/>错误的来源的示例如下：  <br/><br/>-无效属性或元素  <br/>-属性或超出范围的元素  <br/>-未知标记  <br/>-属性或元素在上下文中无效  <br/>-未授权访问尝试的任何客户端  <br/>的有效的客户端的呼叫的响应中服务器端失败  <br/><br/>  [ResponseCode](responsecode.md)和[MessageText](messagetext.md)元素中，可以找到有关错误的信息。  <br/> |
+|**Success** <br/> |描述已完成的请求。  <br/> |
+|**警告** <br/> | 介绍未处理的请求。 如果在处理请求中的项目时出现错误，并且无法处理后续项目，则可能会返回一个警告。 <br/><br/>以下是警告源的示例： <br/> <br/>-Exchange 存储在批处理过程中处于脱机状态。  <br/>-Active Directory 目录服务脱机。  <br/>-邮箱已移动。  <br/>-邮件数据库（MDB）处于脱机状态。  <br/>-密码已过期。  <br/>-已超出配额。  <br/> |
+|**Error** <br/> | 介绍无法满足的请求。 <br/><br/>以下是错误源的示例：  <br/><br/>-属性或元素无效  <br/>-属性或元素越界  <br/>-未知标记  <br/>-Context 中的属性或元素无效  <br/>-任何客户端的未经授权访问尝试  <br/>-响应有效客户端调用的服务器端故障  <br/><br/>  有关错误的信息可以在[ResponseCode](responsecode.md)和[MessageText](messagetext.md)元素中找到。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
-|**元素**|**说明**|
+|**元素**|**描述**|
 |:-----|:-----|
-|[MessageText](messagetext.md) <br/> |提供的响应状态的文本说明。  <br/> |
-|[ResponseCode](responsecode.md) <br/> |提供标识的特定错误的请求时遇到的错误代码。  <br/> |
-|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |当前未使用，保留以供将来使用。 此元素包含一个值为 0。  <br/> |
-|[MessageXml](messagexml.md) <br/> |提供了其他错误响应信息。  <br/> |
+|[MessageText](messagetext.md) <br/> |提供响应状态的文本说明。  <br/> |
+|[ResponseCode](responsecode.md) <br/> |提供用于标识请求遇到的特定错误的错误代码。  <br/> |
+|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |当前未使用，并已保留以供将来使用。 此元素包含值0。  <br/> |
+|[MessageXml](messagexml.md) <br/> |提供其他错误响应信息。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
-|**元素**|**说明**|
+|**元素**|**描述**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |包含为 Exchange Web 服务请求的响应消息。  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |包含 Exchange Web 服务请求的响应消息。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述该元素的架构位于 IIS 虚拟目录正在运行 Microsoft Exchange Server 的计算机的主机交换 Web 服务已安装了客户端访问服务器角色。
   
@@ -74,7 +74,7 @@ ms.locfileid: "19827052"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -82,5 +82,5 @@ ms.locfileid: "19827052"
 ## <a name="see-also"></a>另请参阅
 
 - [RefreshSharingFolder 操作](refreshsharingfolder-operation.md)
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

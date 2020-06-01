@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: c48c6388-8449-4622-bc38-6f0e84293872
-description: TotalCount 元素均表示给定文件夹中的项目总数。
-ms.openlocfilehash: e4a7bcb70d04bc5bcf66087c0272732a7be1231a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: TotalCount 元素表示给定文件夹中项的总计数。
+ms.openlocfilehash: 3d068b558cddf73265b6bbff9fb0760738e54cec
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838265"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467520"
 ---
 # <a name="totalcount"></a>TotalCount
 
-**TotalCount**元素均表示给定文件夹中的项目总数。 
+**TotalCount**元素表示给定文件夹中项的总计数。 
   
 ```xml
 <TotalCount/>
@@ -30,9 +30,9 @@ ms.locfileid: "19838265"
  **int**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -45,16 +45,16 @@ ms.locfileid: "19838265"
 |**元素**|**说明**|
 |:-----|:-----|
 |[Folder](folder.md) <br/> |表示邮箱中的文件夹。  <br/> |
-|[CalendarFolder](calendarfolder.md) <br/> |表示邮箱中的日历文件夹。  <br/> |
-|[ContactsFolder](contactsfolder.md) <br/> |表示邮箱中的联系人文件夹。  <br/> |
+|[CalendarFolder](calendarfolder.md) <br/> |代表邮箱中的 "日历" 文件夹。  <br/> |
+|[ContactsFolder](contactsfolder.md) <br/> |表示邮箱中的 "联系人" 文件夹。  <br/> |
 |[SearchFolder](searchfolder.md) <br/> |表示邮箱中的搜索文件夹。  <br/> |
 |[TasksFolder](tasksfolder.md) <br/> |表示邮箱中的任务文件夹。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-文本值表示的整数值。 此属性是只读的。
+该文本值表示一个整数值。 此属性是只读的。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -62,7 +62,7 @@ ms.locfileid: "19838265"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -71,5 +71,5 @@ ms.locfileid: "19838265"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

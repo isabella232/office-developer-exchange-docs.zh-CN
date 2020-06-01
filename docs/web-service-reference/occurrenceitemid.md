@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 4a15bbc3-5b93-4193-b9ec-da32f0a9a552
-description: OccurrenceItemId 元素标识定期项目的一个匹配项。
-ms.openlocfilehash: 073639ecbca6ffda872e9253b7c7e44c3541f13b
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: OccurrenceItemId 元素标识定期项目的单个事件。
+ms.openlocfilehash: 37c3a2442afb3302bca88ef0301e98013ff0319b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353460"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468374"
 ---
 # <a name="occurrenceitemid"></a>OccurrenceItemId
 
-**OccurrenceItemId**元素标识定期项目的一个匹配项。 
+**OccurrenceItemId**元素标识定期项目的单个事件。 
   
 ```XML
 <OccurrenceItemId RecurringMasterId="" ChangeKey="" InstanceIndex=""/>
@@ -37,9 +37,9 @@ ms.locfileid: "21353460"
 
 |**属性**|**说明**|
 |:-----|:-----|
-|**RecurringMasterId** <br/> |标识定期项目的定期母的版。 此属性是必需的。  <br/> |
-|**更改密钥** <br/> |标识定期主控形状或项匹配项的特定版本。 如果定期主控形状或其出现的任何更改，**更改密钥**更改。 **更改密钥**是相同的定期主控形状和所有匹配项。  <br/> |
-|**InstanceIndex** <br/> |标识项目匹配项的索引。 此属性是必需的。 此值表示的整数。  <br/> |
+|**RecurringMasterId** <br/> |标识定期项目的定期母版。 此特性是必需的。  <br/> |
+|**ChangeKey** <br/> |标识定期母版或项目发生的特定版本。 如果定期主数据或其任何发生发生更改，则**ChangeKey**会发生更改。 对于定期母版和所有事件， **ChangeKey**是相同的。  <br/> |
+|**InstanceIndex** <br/> |标识项目发生的索引。 此特性是必需的。 此值表示一个整数。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -49,9 +49,9 @@ ms.locfileid: "21353460"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GlobalItemIds](globalitemids.md) <br/> |包含的项标识符的邮箱中的所有对话项的集合。  <br/> |
-|[ItemIds](itemids.md) <br/> | 包含唯一标识的项目和匹配项，用于删除、 发送、 获取、 移动或在 Exchange 存储中复制项的定期主项目。 <br/><br/>下面是此元素的 XPath 表达式： <br/><br/>  `/DeleteItem/ItemIds` <br/>  `/SendItem/ItemIds` <br/>  `/GetItem/ItemIds` <br/><br/>**注意**： [MoveItem 操作](moveitem-operation.md)和[CopyItem 操作](copyitem-operation.md)仅使用单个日历项和定期主项目。 项目出现，则使用这些操作无效。           |
-|[ItemChange](itemchange.md) <br/> |包含项标识符和更新应用到的项。<br/><br/> 下面是此元素的 XPath 表达式:    <br/>  `/UpdateItem/ItemChanges/ItemChange[i]` <br/> |
+|[GlobalItemIds](globalitemids.md) <br/> |包含邮箱中所有会话项目的项标识符的集合。  <br/> |
+|[ItemIds](itemids.md) <br/> | 包含项目、具体值项目和定期主项目的唯一标识，这些标识用于删除、发送、获取、移动或复制 Exchange 存储中的项目。 <br/><br/>下面是此元素的 XPath 表达式： <br/><br/>  `/DeleteItem/ItemIds` <br/>  `/SendItem/ItemIds` <br/>  `/GetItem/ItemIds` <br/><br/>**注意**： [MoveItem 操作](moveitem-operation.md)和[CopyItem 操作](copyitem-operation.md)仅适用于单个日历项目和定期的主项目。 通过这些操作，项目发生次数无效。           |
+|[ItemChange](itemchange.md) <br/> |包含项目标识符和要应用于项目的更新。<br/><br/> 下面是此元素的 XPath 表达式：   <br/>  `/UpdateItem/ItemChanges/ItemChange[i]` <br/> |
    
 ## <a name="text-value"></a>文本值
 
@@ -63,7 +63,7 @@ ms.locfileid: "21353460"
   
 ## <a name="example"></a>示例
 
-以下示例标识具有标识 34vswe4 定期项目的第四个匹配项。
+下面的示例确定具有标识34vswe4 的定期项的第四次发生。
   
 ```XML
 <OccurrenceItemId RecurringMasterId="34vswe4" InstanceIndex="4" />
@@ -73,7 +73,7 @@ ms.locfileid: "21353460"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -82,5 +82,5 @@ ms.locfileid: "21353460"
 
 - [RecurringMasterItemId](recurringmasteritemid.md)
 - [FindConversation 操作](findconversation-operation.md)
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

@@ -11,26 +11,26 @@ api_name:
 api_type:
 - schema
 ms.assetid: a88cbe99-7968-454d-a545-4f92c330909f
-description: UploadItems 操作将项目的数据流上载到 Exchange 邮箱。
-ms.openlocfilehash: 6b002d531c7011b18ae1f88adfc2923d5a51e81c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: UploadItems 操作将项目流上载到 Exchange 邮箱中。
+ms.openlocfilehash: 57e722c7775baa090736875077781cee869c3b01
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838434"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468500"
 ---
 # <a name="uploaditems-operation"></a>UploadItems 操作
 
-**UploadItems**操作将项目的数据流上载到 Exchange 邮箱。 
+**UploadItems**操作将项目流上载到 Exchange 邮箱中。 
   
 > [!IMPORTANT]
-> **UploadItems**操作限制为 25 MB 的 base64 编码的数据的最大导入负载 MicrosoftExchange Server 2010 Service Pack 1 (SP1) 中。 可以在 web.config 文件中更改该设置。 
+> **UploadItems**操作在 MicrosoftExchange Server 2010 Service Pack 1 （SP1）中受到限制，可在 base64 编码数据的25MB 中使用最大的导入负载。 可以在 web.config 文件中更改该设置。 
   
 ## <a name="uploaditems-request-example"></a>UploadItems 请求示例
 
 ### <a name="description"></a>说明
 
-**UploadItems**请求的下面的示例演示如何将两个项目上载到邮箱。 第一项是新项目。 第二项是邮箱中的现有项目的更新的版本。 
+以下示例的**UploadItems**请求显示如何将两个项目上传到邮箱中。 第一项是一个新项。 第二个项目是邮箱中现有项目的更新版本。 
   
 ### <a name="code"></a>代码
 
@@ -39,8 +39,8 @@ ms.locfileid: "19838434"
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010_SP1" />
   </soap:Header>
@@ -78,11 +78,11 @@ ms.locfileid: "19838434"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>注释
+### <a name="comments"></a>备注
 
-已缩短标识符和项目数据，以保留可读性。
+标识符和项目数据已缩短，以保持可读性。
   
-### <a name="request-elements"></a>请求元素
+### <a name="request-elements"></a>Request 元素
 
 请求中使用以下元素：
   
@@ -90,21 +90,21 @@ ms.locfileid: "19838434"
     
 - [UploadItems](uploaditems.md)
     
-- [项目 (NonEmptyArrayOfUploadItemsType)](items-nonemptyarrayofuploaditemstype.md)
+- [项目（NonEmptyArrayOfUploadItemsType）](items-nonemptyarrayofuploaditemstype.md)
     
-- [项目 (UploadItemType)](item-uploaditemtype.md)
+- [Item （UploadItemType）](item-uploaditemtype.md)
     
 - [ParentFolderId](parentfolderid.md)
     
-- [数据 (base64Binary)](data-base64binary.md)
+- [Data （base64Binary）](data-base64binary.md)
     
 - [ItemId](itemid.md)
     
-## <a name="successful-uploaditems-response-example"></a>成功 UploadItems 响应示例
+## <a name="successful-uploaditems-response-example"></a>成功的 UploadItems 响应示例
 
 ### <a name="description"></a>说明
 
-下面的示例演示对**UploadItems**请求成功响应。 
+下面的示例演示对**UploadItems**请求的成功响应。 
   
 ### <a name="code"></a>代码
 
@@ -117,15 +117,15 @@ ms.locfileid: "19838434"
                          MajorBuildNumber="164"
                          MinorBuildNumber="0"
                          Version="Exchange2010_SP1"
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:UploadItemsResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                           xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:UploadItemsResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                           xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:UploadItemsResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -141,13 +141,13 @@ ms.locfileid: "19838434"
 </s:Envelope>
 ```
 
-### <a name="comments"></a>注释
+### <a name="comments"></a>备注
 
-项标识符具有已缩短要保留可读性。
+项目标识符已缩短，以保持可读性。
   
-### <a name="response-elements"></a>响应元素
+### <a name="response-elements"></a>Response 元素
 
-在响应中使用以下元素：
+响应中使用以下元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -165,7 +165,7 @@ ms.locfileid: "19838434"
 
 ### <a name="description"></a>说明
 
-下面的示例演示包含由尝试更新找不到的邮箱中的项导致的错误**UploadItems**请求的响应。 
+下面的示例演示对**UploadItems**请求的响应，该请求包含尝试更新无法在邮箱中找到的项目时导致的错误。 
   
 ### <a name="code"></a>代码
 
@@ -178,15 +178,15 @@ ms.locfileid: "19838434"
                          MajorBuildNumber="164" 
                          MinorBuildNumber="0" 
                          Version="Exchange2010_SP1" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:UploadItemsResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                           xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:UploadItemsResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                           xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:UploadItemsResponseMessage ResponseClass="Error">
           <m:MessageText>The specified object was not found in the store.</m:MessageText>
@@ -226,5 +226,5 @@ ms.locfileid: "19838434"
 
 [Exchange 中的 EWS 操作](ews-operations-in-exchange.md)
   
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

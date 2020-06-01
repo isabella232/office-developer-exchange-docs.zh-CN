@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: c2413f0b-8c03-46ae-9990-13338b3c53a6
-description: SortOrder 元素定义项 FindItem 或 FindConversation 请求中的排序方式。
-ms.openlocfilehash: e20e5eab7972616c90079786abd78a0f7fedfebe
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: SortOrder 元素定义如何在 FindItem 或 FindConversation 请求中对项目进行排序。
+ms.openlocfilehash: b520bb3ca6daadc777e7235b2b7420a12e425048
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827519"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468367"
 ---
 # <a name="sortorder"></a>SortOrder
 
-**SortOrder**元素定义项**FindItem**或**FindConversation**请求中的排序方式。 
+**SortOrder**元素定义如何在**FindItem**或**FindConversation**请求中对项目进行排序。 
   
 ```xml
 <SortOrder>
@@ -32,9 +32,9 @@ ms.locfileid: "19827519"
  **NonEmptyArrayOfFieldOrdersType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,20 +42,20 @@ ms.locfileid: "19827519"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[FieldOrder](fieldorder.md) <br/> |代表用于对结果进行排序的单个字段，并指示排序的方向。 可能包括一个或多个这些元素。 指定排序的顺序应用[FieldOrder](fieldorder.md)元素。  <br/> |
+|[FieldOrder](fieldorder.md) <br/> |代表对结果进行排序所依据的单个字段，并指示排序的方向。 其中可以包含一个或多个元素。 [FieldOrder](fieldorder.md)元素是按指定的排序顺序应用的。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[FindItem](finditem.md) <br/> |定义查找邮箱中的项目的请求。  <br/> 下面是此元素的 XPath 表达式:  `/FindItem` <br/> |
-|[FindConversation](findconversation.md) <br/> |定义查找邮箱中的对话的请求。  <br/> |
+|[FindItem](finditem.md) <br/> |定义在邮箱中查找项目的请求。  <br/> 下面是此元素的 XPath 表达式:  `/FindItem` <br/> |
+|[FindConversation](findconversation.md) <br/> |定义在邮箱中查找对话的请求。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -63,7 +63,7 @@ ms.locfileid: "19827519"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -74,8 +74,8 @@ ms.locfileid: "19827519"
 
 [FindItem 操作](finditem-operation.md)
   
-[FindConversation Operation](findconversation-operation.md)
+[FindConversation 操作](findconversation-operation.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

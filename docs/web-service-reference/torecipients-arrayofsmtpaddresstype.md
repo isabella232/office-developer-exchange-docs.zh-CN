@@ -1,5 +1,5 @@
 ---
-title: ToRecipients (ArrayOfSmtpAddressType)
+title: ToRecipients （ArrayOfSmtpAddressType）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0e6fb89c-de19-48e7-af63-c41ebdf0b8e9
-description: ToRecipients 元素指定收件人，向其发送项目的列表。
-ms.openlocfilehash: dac2c80cfa964ca8e880e9be8a561c8e3ed09780
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ToRecipients 元素指定要向其发送邮件的收件人的列表。
+ms.openlocfilehash: 09b2b1036d8553d4171819bb9e59bbbb01583cb6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838258"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44468577"
 ---
-# <a name="torecipients-arrayofsmtpaddresstype"></a>ToRecipients (ArrayOfSmtpAddressType)
+# <a name="torecipients-arrayofsmtpaddresstype"></a>ToRecipients （ArrayOfSmtpAddressType）
 
-**ToRecipients**元素指定收件人，向其发送项目的列表。 
+**ToRecipients**元素指定要向其发送邮件的收件人的列表。 
   
 ```XML
 <ToRecipients>
@@ -28,9 +28,9 @@ ms.locfileid: "19838258"
  **ArrayOfSmtpAddressType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -52,7 +52,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> ||

@@ -10,17 +10,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: db01f574-ab6c-45c2-aaac-404cec37790b
-description: SetMissedCallNotificationEnabled 元素定义 SetMissedCallNotificationEnabled 操作 （UM web 服务） 请求的请求。
-ms.openlocfilehash: 0e556dec70ba0092fb2889b8c384f4952571dbab
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: SetMissedCallNotificationEnabled 元素定义对 SetMissedCallNotificationEnabled 操作（UM web 服务）请求的请求。
+ms.openlocfilehash: 9e498c1e100dfbbfc007c33df9728d312384522f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827435"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468164"
 ---
 # <a name="setmissedcallnotificationenabled-um-web-service"></a>SetMissedCallNotificationEnabled （UM web 服务）
 
-**SetMissedCallNotificationEnabled**元素定义[SetMissedCallNotificationEnabled 操作 （UM web 服务）](setmissedcallnotificationenabled-operation-um-web-service.md)请求的请求。 
+**SetMissedCallNotificationEnabled**元素定义对[SETMISSEDCALLNOTIFICATIONENABLED 操作（UM web 服务）](setmissedcallnotificationenabled-operation-um-web-service.md)请求的请求。 
   
 [SetMissedCallNotificationEnabled （UM web 服务）](setmissedcallnotificationenabled-um-web-service.md)
   
@@ -33,9 +33,9 @@ ms.locfileid: "19827435"
  **complexType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -43,7 +43,7 @@ ms.locfileid: "19827435"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[状态 （UM web 服务-SetMissedCallNotificationEnabled）](status-um-web-servicesetmissedcallnotificationenabled.md) <br/> |定义在[SetMissedCallNotificationEnabled 操作 （UM web 服务）](setmissedcallnotificationenabled-operation-um-web-service.md)请求中使用的值。  <br/> |
+|[Status （UM web 服务-SetMissedCallNotificationEnabled）](status-um-web-servicesetmissedcallnotificationenabled.md) <br/> |定义要在[SetMissedCallNotificationEnabled 操作（UM web 服务）](setmissedcallnotificationenabled-operation-um-web-service.md)请求中使用的值。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -57,7 +57,7 @@ ms.locfileid: "19827435"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |邮件  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -66,5 +66,5 @@ ms.locfileid: "19827435"
 
 
 
-[SetMissedCallNotificationEnabled 操作 （UM web 服务）](setmissedcallnotificationenabled-operation-um-web-service.md)
+[SetMissedCallNotificationEnabled 操作（UM web 服务）](setmissedcallnotificationenabled-operation-um-web-service.md)
 

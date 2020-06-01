@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: fc4d77d5-6200-4cf3-848a-1088fec0e0d6
-description: LocationSource 元素指定关联的邮政地址，例如，联系人或电话簿原点有关的信息。
-ms.openlocfilehash: 7f5cf5fcca0a72287593349fcf5090a74225d012
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: LocationSource 元素指定有关关联邮政地址的来源的信息，例如，联系人或电话簿。
+ms.openlocfilehash: ceba52c43d1c798bb8f5492b779c7c45d7d00b0b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826248"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467100"
 ---
 # <a name="locationsource"></a>LocationSource
 
-**LocationSource**元素指定关联的邮政地址，例如，联系人或电话簿原点有关的信息。 
+**LocationSource**元素指定有关关联邮政地址的来源的信息，例如，联系人或电话簿。 
   
 ```XML
 <LocationSource> None | LocationServices | PhonebookServices | Device | Contact | Resource </LocationSource>
@@ -26,9 +26,9 @@ ms.locfileid: "19826248"
  **LocationSourceType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -38,22 +38,22 @@ ms.locfileid: "19826248"
   
 ### <a name="parent-elements"></a>父元素
 
-[值 (PersonaPostalAddressType)](value-personapostaladdresstype.md) | [PostalAddress (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md)
+[Value （PersonaPostalAddressType）](value-personapostaladdresstype.md)  | [省略（PersonaPostalAddressType）](postaladdress-personapostaladdresstype.md)
   
 ## <a name="text-value"></a>文本值
 
-下表中列出的**LocationSource**元素的文本值： 
+下表列出了**LocationSource**元素的文本值： 
   
-**LocationSource 元素的文本值**
+**LocationSource 元素文本值**
 
 |**值**|**说明**|
 |:-----|:-----|
-|无  <br/> |没有任何位置源。  <br/> |
-|LocationServices  <br/> |从位置服务已获得的信息。  <br/> |
-|PhonebookServices  <br/> |从通讯簿服务已获得的信息。  <br/> |
-|设备  <br/> |从设备已获得的信息。  <br/> |
-|联系人  <br/> |从联系人已获得的信息。  <br/> |
-|资源  <br/> |从一个资源已获得的信息。  <br/> |
+|无  <br/> |没有位置源。  <br/> |
+|LocationServices  <br/> |信息是从位置服务获取的。  <br/> |
+|PhonebookServices  <br/> |此信息是通过电话簿服务获取的。  <br/> |
+|设备  <br/> |信息是从设备获取的。  <br/> |
+|Contact  <br/> |信息是从联系人获取的。  <br/> |
+|Resource  <br/> |信息是从资源获取的。  <br/> |
    
 ## <a name="remarks"></a>备注
 

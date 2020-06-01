@@ -1,5 +1,5 @@
 ---
-title: 消息 (POX)
+title: Message （POX）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,21 +8,21 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: b0124b70-28ab-4484-ac81-465a42f42776
-description: 消息元素包含自动发现响应的错误的错误消息。
-ms.openlocfilehash: fdcf2f4c7021948aad1ad25392c91203656aaa75
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Message 元素包含错误发现响应的错误消息。
+ms.openlocfilehash: 5e2f9d5b2f9ad45359f180f1121a34ccf9cd89cc
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826448"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44467989"
 ---
-# <a name="message-pox"></a>消息 (POX)
+# <a name="message-pox"></a>Message （POX）
 
-**消息**元素包含自动发现响应的错误的错误消息。 
+**Message**元素包含错误发现响应的错误消息。 
   
-[错误 (POX)](error-pox.md)
+[错误（POX）](error-pox.md)
   
-[消息 (POX)](message-pox.md)
+[Message （POX）](message-pox.md)
   
 ```xml
 <Message/>
@@ -30,9 +30,9 @@ ms.locfileid: "19826448"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -44,15 +44,15 @@ ms.locfileid: "19826448"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[错误 (POX)](error-pox.md) <br/> |包含自动发现错误响应。  <br/> |
+|[错误（POX）](error-pox.md) <br/> |包含自动发现错误响应。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-文本值表示自动发现响应的错误的错误的消息。
+文本值表示错误发现响应的错误消息。
   
 ## <a name="see-also"></a>另请参阅
 
 
 
-[Exchange POX 自动发现 XML 元素](pox-autodiscover-xml-elements-for-exchange.md)
+[Exchange 的 POX 自动发现 XML 元素](pox-autodiscover-xml-elements-for-exchange.md)
 

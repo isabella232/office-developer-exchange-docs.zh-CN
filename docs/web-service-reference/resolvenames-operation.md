@@ -11,35 +11,35 @@ api_name:
 api_type:
 - schema
 ms.assetid: 6b4eb4b3-9ad6-4804-a09f-7e20cfea4dbb
-description: ResolveNames 操作解析不明确的电子邮件地址和显示名称。
-ms.openlocfilehash: 8443cf834dfdf104daeaaa92fdee3742c3fa3719
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ResolveNames 操作可解析不明确的电子邮件地址和显示名称。
+ms.openlocfilehash: 51728addddd2bfb9d35b874ae8c11e83a4c8629b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827162"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468276"
 ---
 # <a name="resolvenames-operation"></a>ResolveNames 操作
 
-**ResolveNames**操作解析不明确的电子邮件地址和显示名称。 
+**ResolveNames**操作可解析不明确的电子邮件地址和显示名称。 
   
 ## <a name="using-the-resolvenames-operation"></a>使用 ResolveNames 操作
 
-此操作可用于验证别名并解析为适当的邮箱的用户的显示名称。 如果存在不明确的名称， **ResolveNames**操作响应将提供有关每个邮箱用户的信息，以便客户端应用程序可以解析名称。 
+此操作可用于验证别名并将显示名称解析为相应的邮箱用户。 如果存在不明确的名称， **ResolveNames**操作响应将提供有关每个邮箱用户的信息，以便客户端应用程序可以解析这些名称。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-ResolveNames 响应返回最多 100 候选人。 返回 100 候选人应该是查找操作中遇到的第一个 100。
+ResolveNames 响应将返回最大为100个候选人。 返回的100候选项是在查找操作中遇到的第一个100。
   
-多值数组中保存前缀的路由类型，如 smtp 或 sip，与电子邮件地址。 无法解析的名称，例如"sip:User1@Contoso.com"的开头添加路由类型时， **ResolveNames**操作执行针对该数组的每个值的部分匹配。 如果不指定传送类型， **ResolveNames**将默认为 smtp 的路由类型、 匹配到主 smtp 地址属性，以及不搜索多值数组。 
+带有前缀路由类型（如 smtp 或 sip）的电子邮件地址保存在多值数组中。 当您在未解析名称的开头添加路由类型（如 "sip:User1@Contoso.com"）时， **ResolveNames**操作将对该数组的每个值执行部分匹配。 如果不指定路由类型， **ResolveNames**将默认为 smtp 的路由类型，将其与主 smtp 地址属性相匹配，而不会搜索多值数组。 
   
-可以在单个请求中指定只有一个不明确的名称。 首先，搜索 active Directory，然后搜索用户的联系人文件夹。 来自用户的联系人文件夹解析的项有一个非空**ItemId**属性，然后可以使用 GetItem 请求中。 如果是私人通讯组列表的 ID，然后它可在[ExpandDL 操作](expanddl-operation.md)。 如果**ReturnFullContactData**属性设置为**true**，则找到**ResolveNames**操作的 Active Directory 条目将返回描述[联系人](contact.md)的其他属性。 **ReturnFullContactData**属性不会影响的联系人和专用返回的数据从用户的联系人文件夹的通讯组列表。 
+在一个请求中只能指定一个不明确的名称。 先搜索 Active Directory，然后再搜索用户的 "联系人" 文件夹。 从用户的联系人文件夹解析的条目具有非 null 的**ItemId**属性，该属性随后可在 GetItem 请求中使用。 如果是私有通讯组列表的 ID，则可在[ExpandDL 操作](expanddl-operation.md)中使用。 如果将**ReturnFullContactData**属性设置为**true**，则使用**ResolveNames**操作找到的 Active Directory 条目将返回描述[联系人](contact.md)的其他属性。 **ReturnFullContactData**属性不会影响用户的联系人文件夹中的联系人和私有通讯组列表返回的数据。 
   
 ## <a name="resolvenames-request-example"></a>ResolveNames 请求示例
 
 ### <a name="description"></a>说明
 
-**ResolveNames**请求的下面的示例演示如何解决用户的条目。
+以下示例的**ResolveNames**请求显示如何解析用户的输入。
   
 ### <a name="code"></a>代码
 
@@ -48,10 +48,10 @@ ResolveNames 响应返回最多 100 候选人。 返回 100 候选人应该是�
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <ResolveNames xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-                  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+    <ResolveNames xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+                  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
                   ReturnFullContactData="true">
       <UnresolvedEntry>User2</UnresolvedEntry>
     </ResolveNames>
@@ -59,22 +59,22 @@ ResolveNames 响应返回最多 100 候选人。 返回 100 候选人应该是�
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>注释
+### <a name="comments"></a>备注
 
-对此请求的响应将返回"Jo"或"英里。"开头的所有条目 返回的项是公用邮箱、 公共和私有通讯组列表和联系人。
+对此请求的响应将返回以 "Jo" 或 "Mi" 开头的所有条目。 返回的项目为公用邮箱、公用和私人通讯组列表和联系人。
   
 > [!NOTE]
-> 仅在默认的个人联系人文件夹中的联系人进行搜索。 
+> 仅搜索默认 "个人联系人" 文件夹中的联系人。 
   
 以下是**ResolveNames**请求的可能结果： 
   
-- 不包含解析的实体的响应将返回**ResponseClass**属性值等于**错误**。 **MessageText**元素将包含"**未找到结果**"。
+- 不包含已解析实体的响应将返回**ResponseClass**属性值等于**Error**。 **MessageText**元素将包含 "**找不到任何结果**"。
     
-- 包含单个解析的实体的响应将返回**ResponseClass**属性值等于**成功**。
+- 包含单个已解析实体的响应将返回一个等于**Success**的**ResponseClass**属性值。
     
-- 包含多个可能的实体的响应将返回**ResponseClass**属性值等于**警告**。 在这种情况下，实体无法解析为唯一标识。 **MessageText**元素将包含"找到多个结果。" 
+- 包含多个可能的实体的响应将返回一个等于**警告**的**ResponseClass**属性值。 在这种情况下，无法将实体解析为唯一标识。 **MessageText**元素将包含 "找到多个结果"。 
     
-### <a name="request-elements"></a>请求元素
+### <a name="request-elements"></a>Request 元素
 
 请求中使用以下元素：
   
@@ -82,11 +82,11 @@ ResolveNames 响应返回最多 100 候选人。 返回 100 候选人应该是�
     
 - [UnresolvedEntry](unresolvedentry.md)
     
-## <a name="successful-resolvenames-operation-response-example"></a>成功 ResolveNames 操作响应示例
+## <a name="successful-resolvenames-operation-response-example"></a>成功的 ResolveNames 操作响应示例
 
 ### <a name="description"></a>说明
 
-下面的示例演示对**ResolveNames**请求成功响应。 
+下面的示例演示对**ResolveNames**请求的成功响应。 
   
 ### <a name="code"></a>代码
 
@@ -97,12 +97,12 @@ ResolveNames 响应返回最多 100 候选人。 返回 100 候选人应该是�
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <ResolveNamesResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                          xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <ResolveNamesResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                          xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:ResolveNamesResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -130,9 +130,9 @@ ResolveNames 响应返回最多 100 候选人。 返回 100 候选人应该是�
 </soap:Envelope>
 ```
 
-### <a name="successful-resolvenames-response-elements"></a>成功 ResolveNames 响应元素
+### <a name="successful-resolvenames-response-elements"></a>成功的 ResolveNames 响应元素
 
-在响应中使用以下元素：
+响应中使用以下元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -146,25 +146,25 @@ ResolveNames 响应返回最多 100 候选人。 返回 100 候选人应该是�
     
 - [ResolutionSet](resolutionset.md)
     
-- [解决方法](resolution.md)
+- [解决方案](resolution.md)
     
-- [Mailbox](mailbox.md)
+- [邮箱](mailbox.md)
     
 - [名称 (EmailAddressType)](name-emailaddresstype.md)
     
 - [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md)
     
-- [RoutingType (EmailAddressType)](routingtype-emailaddresstype.md)
+- [RoutingType （EmailAddressType）](routingtype-emailaddresstype.md)
     
 - [MailboxType](mailboxtype.md)
     
-- [Contact](contact.md)
+- [联系人](contact.md)
     
 - [显示名称 (字符串)](displayname-string.md)
     
 - [EmailAddresses](emailaddresses.md)
     
-- [条目 （电子邮件地址）](entry-emailaddress.md)
+- [条目（EmailAddress）](entry-emailaddress.md)
     
 - [ContactSource](contactsource.md)
     
@@ -172,7 +172,7 @@ ResolveNames 响应返回最多 100 候选人。 返回 100 候选人应该是�
 
 ### <a name="description"></a>说明
 
-下面的示例演示对**ResolveNames**请求错误响应。 尝试解析无法解析名称被导致错误。 
+下面的示例演示对**ResolveNames**请求的错误响应。 错误是由尝试解析无法解析的名称导致的。 
   
 ### <a name="code"></a>代码
 
@@ -183,12 +183,12 @@ ResolveNames 响应返回最多 100 候选人。 返回 100 候选人应该是�
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <ResolveNamesResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                          xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <ResolveNamesResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                          xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:ResolveNamesResponseMessage ResponseClass="Error">
           <m:MessageText>No results were found.</m:MessageText>
@@ -226,5 +226,5 @@ ResolveNames 响应返回最多 100 候选人。 返回 100 候选人应该是�
 [ExpandDL 操作](expanddl-operation.md)
 
 
-[使用名称解析](http://msdn.microsoft.com/library/9257fb07-89d2-46eb-b885-e2173fe6fbc1%28Office.15%29.aspx)
+[使用名称解析](https://msdn.microsoft.com/library/9257fb07-89d2-46eb-b885-e2173fe6fbc1%28Office.15%29.aspx)
 

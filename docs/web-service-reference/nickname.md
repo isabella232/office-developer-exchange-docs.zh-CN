@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 3d35b207-d28c-4f3f-8b00-55339d30d19a
 description: Nickname 元素表示联系人昵称。
-ms.openlocfilehash: 0328ea80725f81dce81e5a7730046e3978ae6df1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
-ms.translationtype: HT
+ms.openlocfilehash: cc562d1fc0f02cb3e6742ac951005a8b965bc543
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826533"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466799"
 ---
 # <a name="nickname"></a>Nickname
 
@@ -62,7 +62,7 @@ ms.locfileid: "19826533"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -70,5 +70,5 @@ ms.locfileid: "19826533"
 ## <a name="see-also"></a>另请参阅
 
 - [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
-- [创建联系人（Exchange Web 服务）](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+- [创建联系人（Exchange Web 服务）](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
 

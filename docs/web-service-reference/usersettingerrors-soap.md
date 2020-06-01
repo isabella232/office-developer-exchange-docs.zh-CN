@@ -1,5 +1,5 @@
 ---
-title: UserSettingErrors (SOAP)
+title: UserSettingErrors （SOAP）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,17 +8,17 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: a9b94bae-cab9-412d-a811-801e849ed6c5
-description: UserSettingErrors 元素表示不会返回的设置的信息的集合。
-ms.openlocfilehash: 4477c30145d2cb187a4309d018512537af974ee8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: UserSettingErrors 元素表示无法返回的设置的相关信息的集合。
+ms.openlocfilehash: a6cc0fe114bd511dc4136532986b552c28b0d5c2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838496"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467121"
 ---
-# <a name="usersettingerrors-soap"></a>UserSettingErrors (SOAP)
+# <a name="usersettingerrors-soap"></a>UserSettingErrors （SOAP）
 
-**UserSettingErrors**元素表示不会返回的设置的信息的集合。 
+**UserSettingErrors**元素表示无法返回的设置的相关信息的集合。 
   
 ```XML
 <UserSettingErrors>
@@ -29,9 +29,9 @@ ms.locfileid: "19838496"
  **UserSettingErrors**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -39,13 +39,13 @@ ms.locfileid: "19838496"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[UserSettingError (SOAP)](usersettingerror-soap.md) <br/> |代表在检索用户设置时返回的错误。  <br/> |
+|[UserSettingError （SOAP）](usersettingerror-soap.md) <br/> |表示检索用户设置时返回的错误。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[用户回音 (SOAP)](userresponse-soap.md) <br/> |代表对单个用户 GetUserSettings 请求的响应。  <br/> |
+|[UserResponse （SOAP）](userresponse-soap.md) <br/> |表示对单个用户的 GetUserSettings 请求的响应。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
@@ -55,7 +55,7 @@ ms.locfileid: "19838496"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |架构名称  <br/> |自动发现架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
@@ -64,5 +64,5 @@ ms.locfileid: "19838496"
 
 
 
-[SOAP Exchange 2013 自动发现 XML 元素](soap-autodiscover-xml-elements-for-exchange-2013.md)
+[Exchange 2013 的 SOAP 自动发现 XML 元素](soap-autodiscover-xml-elements-for-exchange-2013.md)
 

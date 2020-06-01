@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8e24e672-7b17-49c8-b368-a078ca1d4dd1
 description: Language 元素包含用于搜索查询的语言。
-ms.openlocfilehash: 735a962e6abca5ff81194242ea747a05bf92424e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 3d1843ea5d38f5efee8453623f450a4486e4d18b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826225"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468696"
 ---
 # <a name="language"></a>语言
 
@@ -26,9 +26,9 @@ ms.locfileid: "19826225"
  **string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -38,11 +38,11 @@ ms.locfileid: "19826225"
   
 ### <a name="parent-elements"></a>父元素
 
-[SetHoldOnMailboxes](setholdonmailboxes.md) | [SearchMailboxes](searchmailboxes.md)
+[SetHoldOnMailboxes](setholdonmailboxes.md)  | [SearchMailboxes](searchmailboxes.md)
   
 ## <a name="text-value"></a>文本值
 
-**Language**元素的文本值是在发现搜索在搜索中使用的语言。 
+**Language**元素的文本值是发现搜索中使用的语言。 
   
 ## <a name="remarks"></a>备注
 
@@ -54,7 +54,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> ||

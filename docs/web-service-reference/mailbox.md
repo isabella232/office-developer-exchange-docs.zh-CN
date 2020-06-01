@@ -1,5 +1,5 @@
 ---
-title: 邮箱
+title: Mailbox
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: befc70fd-51cb-4258-884c-80c9050f0e82
 description: Mailbox 元素标识启用了邮件的 Active Directory 对象。
-ms.openlocfilehash: e9fa21f3678249a9ac13d567b88beaf0177f989f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
-ms.translationtype: HT
+ms.openlocfilehash: 284c3ff6f9fece57611169a4ec41eeaa273c6ad3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826258"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468199"
 ---
 # <a name="mailbox"></a>邮箱
 
@@ -100,7 +100,7 @@ ms.locfileid: "19826258"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |

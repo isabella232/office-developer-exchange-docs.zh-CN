@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a190bbec-c71b-4e6a-880b-55854c724d8c
-description: 查找信息 RemoveImContactFromGroup EWS 操作。
-ms.openlocfilehash: 8c9af251014dbddabb439ed5bf5dc35580da6a90
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 查找有关 RemoveImContactFromGroup EWS 操作的信息。
+ms.openlocfilehash: 4750ef57794c3da540ac36baa8ef6ef093939ea1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827099"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466967"
 ---
 # <a name="removeimcontactfromgroup-operation"></a>RemoveImContactFromGroup 操作
 
 查找有关**RemoveImContactFromGroup** EWS 操作的信息。 
   
-**RemoveImContactFromGroup**操作从 IM 组中删除单个 IM 联系人。 
+**RemoveImContactFromGroup**操作从 im 组中删除单个 im 联系人。 
   
 Exchange Server 2013 中引入了此操作。
   
 ## <a name="using-the-removeimcontactfromgroup-operation"></a>使用 RemoveImContactFromGroup 操作
 
-**RemoveImContactFromGroup**操作采用两个参数： 一个联系人项目标识符和相应的即时消息 (IM) 组从中删除该联系人。 
+**RemoveImContactFromGroup**操作采用两个参数：联系人项目标识符，以及从中删除联系人的相应即时消息（IM）组。 
   
 ### <a name="removeimcontactfromgroup-operation-soap-headers"></a>RemoveImContactFromGroup 操作 SOAP 标头
 
@@ -33,23 +33,23 @@ Exchange Server 2013 中引入了此操作。
   
 |**标头名称**|**元素**|**说明**|
 |:-----|:-----|:-----|
-|**模拟** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |标识模拟客户端应用程序的用户。 适用于请求此标头。  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |定义 RFC 3066 中，"标记的标识的语言"，以用于访问邮箱标识与的区域性。 适用于请求此标头。  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。 适用于请求此标头。  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应该请求的服务器的版本。 适用于响应此标头。  <br/> |
+|**模拟** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |标识客户端应用程序模拟的用户。 此标头适用于请求。  <br/> |
+|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |确定用于访问邮箱的区域性（如 RFC 3066 中定义的用于标识语言的标记）。 此标头适用于请求。  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。 此标头适用于请求。  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器版本。 此标头适用于响应。  <br/> |
    
 ## <a name="removeimcontactfromgroup-operation-request-example"></a>RemoveImContactFromGroup 操作请求示例
 
-**RemoveImContactFromGroup**操作请求的下面的示例演示如何从 IM 组中删除 IM 联系人。 
+下面的**RemoveImContactFromGroup**操作请求示例演示如何从 im 组中删除 im 联系人。 
   
 > [!NOTE]
-> 组和联系人标识符具有已缩短要保留可读性。 
+> 组和联系人标识符已缩短，以保持可读性。 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
       <t:MailboxCulture>en-US</t:MailboxCulture>
@@ -73,9 +73,9 @@ Exchange Server 2013 中引入了此操作。
     
 - [GroupId](groupid.md)
     
-## <a name="successful-removeimcontactfromgroup-operation-response"></a>成功 RemoveImContactFromGroup 操作响应
+## <a name="successful-removeimcontactfromgroup-operation-response"></a>成功的 RemoveImContactFromGroup 操作响应
 
-下面的示例演示对**RemoveImContactFromGroup**操作请求成功响应。 
+下面的示例演示对**RemoveImContactFromGroup**操作请求的成功响应。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -86,22 +86,22 @@ Exchange Server 2013 中引入了此操作。
                            MajorBuildNumber="349" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <RemoveImContactFromGroupResponse ResponseClass="Success" 
-                                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <ResponseCode>NoError</ResponseCode>
       </RemoveImContactFromGroupResponse>
    </s:Body>
 </s:Envelope>
 ```
 
-响应 SOAP 正文中包含以下元素：
+响应 SOAP 正文包含以下元素：
   
 - [RemoveImContactFromGroupResponse](removeimcontactfromgroupresponse.md)
     
@@ -109,7 +109,7 @@ Exchange Server 2013 中引入了此操作。
     
 ## <a name="removeimcontactfromgroup-operation-errorinvalidimcontactid-error-response"></a>RemoveImContactFromGroup 操作 ErrorInvalidImContactId 错误响应
 
-下面的示例演示对**RemoveImContactFromGroup**操作请求错误响应。 尝试删除不存在联系人项目的 IM 组中时发生了以下错误响应。 
+下面的示例演示对**RemoveImContactFromGroup**操作请求的错误响应。 当尝试删除 IM 组中不存在的联系人项时，将发生以下错误响应。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -120,15 +120,15 @@ Exchange Server 2013 中引入了此操作。
                            MajorBuildNumber="349" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <RemoveImContactFromGroupResponse ResponseClass="Error" 
-                                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <MessageText>The specified Im Contact Id is invalid.</MessageText>
          <ResponseCode>ErrorInvalidImContactId</ResponseCode>
          <DescriptiveLinkKey>0</DescriptiveLinkKey>
@@ -137,7 +137,7 @@ Exchange Server 2013 中引入了此操作。
 </s:Envelope>
 ```
 
-响应 SOAP 正文中包含以下元素：
+响应 SOAP 正文包含以下元素：
   
 - [RemoveImContactFromGroupResponse](removeimcontactfromgroupresponse.md)
     
@@ -149,7 +149,7 @@ Exchange Server 2013 中引入了此操作。
     
 ## <a name="see-also"></a>另请参阅
 
-- [人员和 Exchange 中的 EWS 中的联系人](http://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx)
+- [人员和 Exchange 中的 EWS 中的联系人](https://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx)
     
 - [AddDistributionGroupToImList](adddistributiongrouptoimlist-operation.md)
     

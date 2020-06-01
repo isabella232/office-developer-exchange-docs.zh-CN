@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: d581a12a-2b8e-4960-ae14-c8c4aa0b1849
-description: MaximumResultsByDay 元素指定的每一天响应中返回的建议的会议次数。
-ms.openlocfilehash: 69ab4e0b23f85e5b8786ba2dd934850cadc88f0e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: MaximumResultsByDay 元素指定响应中返回的每一天的建议会议时间数。
+ms.openlocfilehash: 46d5c35a83034b8b968901fbc4ee57d046b6c164
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826381"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44468416"
 ---
 # <a name="maximumresultsbyday"></a>MaximumResultsByDay
 
-**MaximumResultsByDay**元素指定的每一天响应中返回的建议的会议次数。 
+**MaximumResultsByDay**元素指定响应中返回的每一天的建议会议时间数。 
   
 [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
@@ -37,9 +37,9 @@ ms.locfileid: "19826381"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -51,24 +51,24 @@ ms.locfileid: "19826381"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |包含选项的获取会议建议信息。  <br/> 以下是此元素的 XPath:  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
+|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |包含用于获取会议建议信息的选项。  <br/> 以下是此元素的 XPath：  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
    
 ## <a name="text-value"></a>文本值
 
 文本值是必需的。文本值表示一个整数。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
-如果使用[SuggestionsViewOptions](suggestionsviewoptions.md)元素，此元素是必需的。 
+如果使用[SuggestionsViewOptions](suggestionsviewoptions.md)元素，则此元素是必需的。 
   
 > [!NOTE]
-> 描述此元素的架构位于运行 Microsoft® Exchange Server 2007 的安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。 
+> 描述此元素的架构位于运行 Microsoft® Exchange Server 2007 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。 
   
 ## <a name="element-information"></a>元素信息
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -76,5 +76,5 @@ ms.locfileid: "19826381"
 ## <a name="see-also"></a>另请参阅
 
 - [GetUserAvailability 操作](getuseravailability-operation.md)
-- [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [获取用户可用性](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 72dc3be8-30bb-4ae1-acf4-fb94ff490631
 description: ToRecipients元素中包含收件人的项的数组。这是一项主要收件人。
-ms.openlocfilehash: 2913705cad52c041809769fe58efc3d616f40462
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 39ee359e1eaf3d0b6455fb1734222e78054dc7f3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838263"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467541"
 ---
 # <a name="torecipients"></a>ToRecipients
 
@@ -32,9 +32,9 @@ ms.locfileid: "19838263"
  **ArrayOfRecipientsType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -72,7 +72,7 @@ ms.locfileid: "19838263"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -81,5 +81,5 @@ ms.locfileid: "19838263"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

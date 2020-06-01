@@ -1,5 +1,5 @@
 ---
-title: 端口 (SOAP)
+title: 端口（SOAP）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,17 +8,17 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 7db8ceb3-0bca-4822-a1aa-f0947b770f26
-description: 端口元素均表示要使用的协议的端口号。
-ms.openlocfilehash: 2213dc1ba9f604f515c8b6ccf013dc44fa541a67
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Port 元素表示要用于协议的端口号。
+ms.openlocfilehash: 8ed75cbbfbc111e17ef08acbd71329a419b4e285
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826841"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467723"
 ---
-# <a name="port-soap"></a>端口 (SOAP)
+# <a name="port-soap"></a>端口（SOAP）
 
-**端口**元素均表示要使用的协议的端口号。 
+**Port**元素表示要用于协议的端口号。 
   
 ```XML
 <Port/>
@@ -27,9 +27,9 @@ ms.locfileid: "19826841"
  **int**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -41,17 +41,17 @@ ms.locfileid: "19826841"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ProtocolConnection (SOAP)](protocolconnection-soap.md) <br/> |代表协议连接的服务器 Web 客户端。  <br/> |
+|[ProtocolConnection （SOAP）](protocolconnection-soap.md) <br/> |表示服务器 Web 客户端的协议连接。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-值为要使用的协议的端口号。
+值是要用于协议的端口号。
   
 ## <a name="element-information"></a>元素信息
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |架构名称  <br/> |自动发现架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |

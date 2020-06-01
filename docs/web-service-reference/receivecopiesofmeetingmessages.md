@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 65217ca8-6aea-47eb-a989-e6cce25f5f09
-description: ReceiveCopiesOfMeetingMessages 元素指示代理是否接收发往主体的会议相关邮件的副本。 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 中引入了此元素。
-ms.openlocfilehash: e39a5d3255268b418fa956959da5ae0ea062d831
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ReceiveCopiesOfMeetingMessages 元素指示代理是否接收发往主体的与会议相关的邮件的副本。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
+ms.openlocfilehash: af6e220304f88c4db00ab675077dcd9bf581ea9e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826967"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468262"
 ---
 # <a name="receivecopiesofmeetingmessages"></a>ReceiveCopiesOfMeetingMessages
 
-**ReceiveCopiesOfMeetingMessages**元素指示代理是否接收发往主体的会议相关邮件的副本。 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 中引入了此元素。 
+**ReceiveCopiesOfMeetingMessages**元素指示代理是否接收发往主体的与会议相关的邮件的副本。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
   
 ```xml
 <ReceiveCopiesOfMeetingMessages>true or false</ReceiveCopiesOfMeetingMessages>
@@ -30,9 +30,9 @@ ms.locfileid: "19826967"
  **Boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -44,15 +44,15 @@ ms.locfileid: "19826967"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[DelegateUser](delegateuser.md) <br/> |标识要添加或更新的邮箱中的单个委托。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
+|[DelegateUser](delegateuser.md) <br/> |标识要在邮箱中添加或更新的单个代理。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-文本值为**true**指示代理接收会议邮件的副本。 文本值为**false**指示委托不会收到会议邮件的副本。 
+如果文本值为**true，则**表示代理将接收会议邮件的副本。 如果文本值为**false** ，则表示代理不会收到会议邮件的副本。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-当**ReceiveCopiesOfMeetingMessages**设置为**false**时，委托仍可以发送消息代表主体，但不是会收到任何与会议相关的消息。
+当**ReceiveCopiesOfMeetingMessages**设置为**false**时，代理仍可以代表主体发送邮件，但不会收到任何与会议相关的邮件。
   
 描述此元素的架构位于正在运行 Microsoft Exchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -60,7 +60,7 @@ ms.locfileid: "19826967"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -74,8 +74,8 @@ ms.locfileid: "19826967"
 [UpdateDelegate 操作](updatedelegate-operation.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 
 
-[添加代理人](http://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
+[添加委派](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
 

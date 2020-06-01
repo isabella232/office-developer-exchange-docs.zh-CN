@@ -9,17 +9,17 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 96b4c288-c4d5-4378-8fc1-1a3ae98eedc9
-description: True 元素指定始终与相匹配的条件。
-ms.openlocfilehash: 959bcf268a575182c4e0f5cdfe81c56999df055c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: True 元素指定始终匹配的条件。
+ms.openlocfilehash: 6ac0bc407c9c4cab23805d042e67d99359900137
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838290"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467401"
 ---
 # <a name="true"></a>True
 
-**True**元素指定始终与相匹配的条件。 
+**True**元素指定始终匹配的条件。 
   
 ```xml
 <True/>
@@ -29,9 +29,9 @@ ms.locfileid: "19838290"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -50,7 +50,7 @@ ms.locfileid: "19838290"
 
 此元素必须为空。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -58,12 +58,12 @@ ms.locfileid: "19838290"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

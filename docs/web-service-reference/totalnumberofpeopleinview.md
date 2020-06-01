@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f1037fef-628b-4e44-96e7-a701a9ca8404
-description: TotalNumberOfPeopleInView 元素指定的角色 FindPeople 响应中返回的总数。
-ms.openlocfilehash: 5f45bb928a363c218271281c013a5af2155c6e53
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: TotalNumberOfPeopleInView 元素指定在 FindPeople 响应中返回的总角色数。
+ms.openlocfilehash: d89aa65d595814a7277f85e569ca10f9058c6aac
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838273"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467506"
 ---
 # <a name="totalnumberofpeopleinview"></a>TotalNumberOfPeopleInView
 
-**TotalNumberOfPeopleInView**元素指定的角色**FindPeople**响应中返回的总数。 
+**TotalNumberOfPeopleInView**元素指定在**FindPeople**响应中返回的总角色数。 
   
 ```XML
 <TotalNumberOfPeopleInView></TotalNumberOfPeopleInView>
@@ -26,9 +26,9 @@ ms.locfileid: "19838273"
  **int**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,7 +42,7 @@ ms.locfileid: "19838273"
   
 ## <a name="text-value"></a>文本值
 
-**TotalNumberOfPeopleInView**元素的文本值是角色**FindPeople**响应中返回的总数。 
+**TotalNumberOfPeopleInView**元素的文本值是**FindPeople**响应中返回的总角色数。 
   
 ## <a name="remarks"></a>备注
 
@@ -54,9 +54,9 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
-|验证文件  <br/> |messages.xsd  <br/> |
+|验证文件  <br/> |消息 .xsd  <br/> |
 |可以为空  <br/> ||
    
 

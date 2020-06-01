@@ -10,17 +10,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 01d07114-5764-4ea7-948c-1ae95c287f0c
-description: SetTelephoneAccessFolderEmailResponse 元素定义 SetTelephoneAccessFolderEmail 操作 （UM web 服务） 请求的响应。
-ms.openlocfilehash: 8558a0efd45cc1b2e0bbaac8a93e4c3e498cef74
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: SetTelephoneAccessFolderEmailResponse 元素定义对 SetTelephoneAccessFolderEmail 操作（UM web 服务）请求的响应。
+ms.openlocfilehash: 85f0f764b2a6a1555fb03d31fbe91bf3d6e2f701
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827460"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467310"
 ---
 # <a name="settelephoneaccessfolderemailresponse-um-web-service"></a>SetTelephoneAccessFolderEmailResponse （UM web 服务）
 
-**SetTelephoneAccessFolderEmailResponse**元素定义[SetTelephoneAccessFolderEmail 操作 （UM web 服务）](settelephoneaccessfolderemail-operation-um-web-service.md)请求的响应。 
+**SetTelephoneAccessFolderEmailResponse**元素定义对[SETTELEPHONEACCESSFOLDEREMAIL 操作（UM web 服务）](settelephoneaccessfolderemail-operation-um-web-service.md)请求的响应。 
   
 [SetTelephoneAccessFolderEmailResponse （UM web 服务）](settelephoneaccessfolderemailresponse-um-web-service.md)
   
@@ -31,9 +31,9 @@ ms.locfileid: "19827460"
  **complexType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -53,7 +53,7 @@ ms.locfileid: "19827460"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |邮件  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
@@ -62,5 +62,5 @@ ms.locfileid: "19827460"
 
 
 
-[SetTelephoneAccessFolderEmail 操作 （UM web 服务）](settelephoneaccessfolderemail-operation-um-web-service.md)
+[SetTelephoneAccessFolderEmail 操作（UM web 服务）](settelephoneaccessfolderemail-operation-um-web-service.md)
 

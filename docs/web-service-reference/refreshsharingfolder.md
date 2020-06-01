@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 14571c28-effa-430a-802e-82fb99bafa7f
 description: RefreshSharingFolder元素定义一个要刷新指定的本地文件夹的请求。它是RefreshSharingFolder 操作的基本元素。
-ms.openlocfilehash: b09e311d0ba38b0cdcc9fe0864ed3e2b0151b0fd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 4454607fa2c3114cc7279fd7c30f8aee74707baa
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827043"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467926"
 ---
 # <a name="refreshsharingfolder"></a>RefreshSharingFolder
 
@@ -30,9 +30,9 @@ ms.locfileid: "19827043"
  **RefreshSharingFolderType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -46,7 +46,7 @@ ms.locfileid: "19827043"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述该元素的架构位于 IIS 虚拟目录正在运行 Microsoft Exchange Server 的计算机的主机交换 Web 服务已安装了客户端访问服务器角色。
   
@@ -54,7 +54,7 @@ ms.locfileid: "19827043"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -63,5 +63,5 @@ ms.locfileid: "19827043"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

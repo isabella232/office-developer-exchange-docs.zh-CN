@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 8ff5df18-1989-4217-b4c0-599232911d0c
-description: MaxRecipientsPerGetMailTipsRequest 元素指示可以传递给 GetMailTips 操作的收件人的最大数量。
-ms.openlocfilehash: 4c873fe534582e582bf5b1c1d5fd2789616e056a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: MaxRecipientsPerGetMailTipsRequest 元素指示可传递给 GetMailTips 操作的最大收件人数。
+ms.openlocfilehash: cec343182b364fce040d5e32928cbeb569a22124
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826386"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468402"
 ---
 # <a name="maxrecipientspergetmailtipsrequest"></a>MaxRecipientsPerGetMailTipsRequest
 
-**MaxRecipientsPerGetMailTipsRequest**元素指示可以传递到[GetMailTips 操作](getmailtips-operation.md)的收件人的最大数量。
+**MaxRecipientsPerGetMailTipsRequest**元素指示可传递给[GetMailTips 操作](getmailtips-operation.md)的最大收件人数。
   
 ```XML
 <MaxRecipientsPerGetMailTipsRequest/>
@@ -30,9 +30,9 @@ ms.locfileid: "19826386"
  **int**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -48,9 +48,9 @@ ms.locfileid: "19826386"
    
 ## <a name="text-value"></a>文本值
 
-文本值是一个整数，表示可以传递到[GetMailTips 操作](getmailtips-operation.md)的收件人的最大数。
+Text 值是一个整数，表示可传递给[GetMailTips 操作](getmailtips-operation.md)的最大收件人数。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -58,7 +58,7 @@ ms.locfileid: "19826386"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -70,5 +70,5 @@ ms.locfileid: "19826386"
 [GetMailTips 操作](getmailtips-operation.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

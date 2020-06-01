@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 40381d8e-e9dc-403f-9d78-87a09ad09d58
-description: ProxySecurityContext 元素使用的计算机的运行 Microsoft Exchange Server 2007 的客户端访问服务器角色安装并不使用 Exchange Web 服务操作的 HTTP 代理。 此元素是在 Exchange Server 2007 Service Pack 1 (SP1) 中引入的。
-ms.openlocfilehash: 44934ab037169419c61f3817384f0a61504f5850
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ProxySecurityContext 元素由运行 Microsoft Exchange Server 2007 且已安装客户端访问服务器角色且不用于 Exchange Web 服务操作的计算机的 HTTP 代理使用。 此元素是在 Exchange Server 2007 Service Pack 1 （SP1）中引入的。
+ms.openlocfilehash: 1566a8b22fd285f8c56d2a6579006ba906dd899c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826923"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468507"
 ---
 # <a name="proxysecuritycontext"></a>ProxySecurityContext
 
-**ProxySecurityContext**元素使用的计算机的运行 Microsoft Exchange Server 2007 的客户端访问服务器角色安装并不使用 Exchange Web 服务操作的 HTTP 代理。 此元素是在 Exchange Server 2007 Service Pack 1 (SP1) 中引入的。 
+**ProxySecurityContext**元素由运行 Microsoft Exchange server 2007 且已安装客户端访问服务器角色且不用于 Exchange Web 服务操作的计算机的 HTTP 代理使用。 此元素是在 Exchange Server 2007 Service Pack 1 （SP1）中引入的。 
   
 ```xml
 <ProxySecurityContext/>
@@ -30,9 +30,9 @@ ms.locfileid: "19826923"
  **ProxySecurityContextType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -44,7 +44,7 @@ ms.locfileid: "19826923"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 Microsoft Exchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -52,7 +52,7 @@ ms.locfileid: "19826923"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -61,5 +61,5 @@ ms.locfileid: "19826923"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

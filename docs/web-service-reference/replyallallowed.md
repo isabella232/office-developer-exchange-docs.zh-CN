@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d22f68cf-b18b-45d0-a9ff-414b7db0e67e
-description: ReplyAllAllowed 元素指定的所有权限允许的回复是否托管数据。
-ms.openlocfilehash: cf814e6f27a734afc51b633bf832126a57d7ca5f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ReplyAllAllowed 元素指定是否允许对权限托管数据进行全部答复。
+ms.openlocfilehash: 56dfe7670ed87581999bfe0a340bcc72c99d04ea
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827105"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467912"
 ---
 # <a name="replyallallowed"></a>ReplyAllAllowed
 
-**ReplyAllAllowed**元素指定的所有权限允许的回复是否托管数据。 
+**ReplyAllAllowed**元素指定是否允许对权限托管数据进行全部答复。 
   
 ```XML
 <ReplyAllAllowed> true | false </ReplyAllAllowed>
@@ -26,9 +26,9 @@ ms.locfileid: "19827105"
  **Boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,7 +42,7 @@ ms.locfileid: "19827105"
   
 ## <a name="text-value"></a>文本值
 
-文本值为**true**的**ReplyAllAllowed**元素指示所有权限允许的回复托管数据。 如果值为**false**指示，不允许所有的答复。 
+如果**ReplyAllAllowed**元素的文本值为**true** ，则表示允许权限托管数据的全部答复。 **如果值为 false** ，则表示不允许全部答复。 
   
 ## <a name="remarks"></a>备注
 
@@ -54,7 +54,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> ||

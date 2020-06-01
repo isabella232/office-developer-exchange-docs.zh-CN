@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3ba567bf-2c6c-4a6b-9ae8-3eea22d849de
-description: YomiCompanyName 元素指定关联的个人日语拼音公司名称。
-ms.openlocfilehash: 9369567a7610ac2f576f8d02fbf230f06c6a9d27
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: YomiCompanyName 元素指定关联的角色的拼音日语公司名称。
+ms.openlocfilehash: 52966aaec8e0ea0ec0f89c15c0ff0dc83521881d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838587"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467114"
 ---
 # <a name="yomicompanyname"></a>YomiCompanyName
 
-**YomiCompanyName**元素指定关联的个人日语拼音公司名称。 
+**YomiCompanyName**元素指定关联的角色的拼音日语公司名称。 
   
 ```XML
 <YomiCompanyName></YomiCompanyName>
@@ -26,9 +26,9 @@ ms.locfileid: "19838587"
  **string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,7 +42,7 @@ ms.locfileid: "19838587"
   
 ## <a name="text-value"></a>文本值
 
-**YomiCompanyName**元素的文本值是角色的日语拼音公司名称的相关联。 
+**YomiCompanyName**元素的文本值是相关联的角色的拼音日语公司名称。 
   
 ## <a name="remarks"></a>备注
 
@@ -54,7 +54,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> ||

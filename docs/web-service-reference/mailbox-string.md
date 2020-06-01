@@ -1,5 +1,5 @@
 ---
-title: 邮箱 （字符串）
+title: 邮箱 (字符串)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,14 +8,14 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 15a1758e-6a5c-4e85-acb9-374abe81b9c7
 description: 邮箱元素包含邮箱的标识符。
-ms.openlocfilehash: 3bdddd43944aa85f065a162b09cd3c8fdfc21da6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 3a115f40360aebfdb818580464c08e61a527ac55
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826256"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467275"
 ---
-# <a name="mailbox-string"></a>邮箱 （字符串）
+# <a name="mailbox-string"></a>邮箱 (字符串)
 
 **邮箱**元素包含邮箱的标识符。 
   
@@ -27,9 +27,9 @@ ms.locfileid: "19826256"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -39,7 +39,7 @@ ms.locfileid: "19826256"
   
 ### <a name="parent-elements"></a>父元素
 
-[NonIndexableItemStatistic](nonindexableitemstatistic.md) | [MailboxHoldStatus](mailboxholdstatus.md) | [FailedMailbox](failedmailbox.md) | [MailboxSearchScope](mailboxsearchscope.md)
+[NonIndexableItemStatistic](nonindexableitemstatistic.md)  | [MailboxHoldStatus](mailboxholdstatus.md)  | [FailedMailbox](failedmailbox.md)  | [MailboxSearchScope](mailboxsearchscope.md)
   
 ## <a name="text-value"></a>文本值
 

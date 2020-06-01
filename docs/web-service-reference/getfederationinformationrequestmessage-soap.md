@@ -1,5 +1,5 @@
 ---
-title: GetFederationInformationRequestMessage (SOAP)
+title: GetFederationInformationRequestMessage （SOAP）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,17 +8,17 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 3b0f5841-0c8f-4a9d-be75-cdf6cc2c35ab
-description: GetFederationInformationRequestMessage 元素为安全令牌服务 (STS) 准备调用请求配置数据的服务器。
-ms.openlocfilehash: f684c41e495d7878058615aa6257e1af5d83f396
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: GetFederationInformationRequestMessage 元素准备对服务器的调用，以请求安全令牌服务（STS）的配置数据。
+ms.openlocfilehash: cc1e4d67f5bba6e571aeb94d3f27b67baac4c224
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754563"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467023"
 ---
-# <a name="getfederationinformationrequestmessage-soap"></a>GetFederationInformationRequestMessage (SOAP)
+# <a name="getfederationinformationrequestmessage-soap"></a>GetFederationInformationRequestMessage （SOAP）
 
-**GetFederationInformationRequestMessage**元素为安全令牌服务 (STS) 准备调用请求配置数据的服务器。 
+**GetFederationInformationRequestMessage**元素准备对服务器的调用，以请求安全令牌服务（STS）的配置数据。 
   
 ```XML
 <GetFederationInformationRequestMessage>
@@ -29,9 +29,9 @@ ms.locfileid: "19754563"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -39,7 +39,7 @@ ms.locfileid: "19754563"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[请求 (GetFederationInformation) (SOAP)](request-getfederationinformationsoap.md) <br/> |代表**GetFederationInformation**请求。  <br/> |
+|[请求（GetFederationInformation）（SOAP）](request-getfederationinformationsoap.md) <br/> |表示**GetFederationInformation**请求。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -53,7 +53,7 @@ ms.locfileid: "19754563"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |架构名称  <br/> |自动发现架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |

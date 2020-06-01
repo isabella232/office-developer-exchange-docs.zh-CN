@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 971784d1-6860-4833-bb26-0e930fa11c21
-description: ItemClasses 元素包含列表项类的值，该值代表当前文件夹中的会话项目的所有项类。
-ms.openlocfilehash: 62ea5b624025b3f012249afd1763e2b393ef5caa
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ItemClasses 元素包含项类的列表，这些类表示当前文件夹中的会话项目的所有项目类。
+ms.openlocfilehash: 39118bf845429bb198874ae4e6b424c6339b1964
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826150"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467296"
 ---
 # <a name="itemclasses-arrayofitemclasstype"></a>ItemClasses (ArrayOfItemClassType)
 
-**ItemClasses**元素包含列表项类的值，该值代表当前文件夹中的会话项目的所有项类。 
+**ItemClasses**元素包含项类的列表，这些类表示当前文件夹中的会话项目的所有项目类。 
   
 [FindConversationResponse](findconversationresponse.md)
   
@@ -36,9 +36,9 @@ ms.locfileid: "19826150"
  **ArrayOfItemClassType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -46,7 +46,7 @@ ms.locfileid: "19826150"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ItemClass](itemclass.md) <br/> |表示项目的消息类。  <br/> |
+|[ItemClass](itemclass.md) <br/> |表示项目的邮件类。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -58,7 +58,7 @@ ms.locfileid: "19826150"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   
@@ -66,7 +66,7 @@ ms.locfileid: "19826150"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -80,5 +80,5 @@ ms.locfileid: "19826150"
 [ApplyConversationAction 操作](applyconversationaction-operation.md)
 
 
-[Conversations in EWS](http://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
+[Conversations in EWS](https://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
 

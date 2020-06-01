@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d4af8eee-7001-4a8e-b9bd-d14882f2406b
-description: IsWritable 元素指定是否可以向写入基础联系人或 Active Directory 收件人。
-ms.openlocfilehash: 03f258d01ecfc12dfa4e09ac88f4a75340d2acf3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: IsWritable 元素指定基础联系人或 Active Directory 收件人是否可以写入。
+ms.openlocfilehash: 96075adc1772027456f8829eee43bdc734644c09
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826158"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467569"
 ---
 # <a name="iswritable"></a>IsWritable
 
-**IsWritable**元素指定是否可以向写入基础联系人或 Active Directory 收件人。 
+**IsWritable**元素指定基础联系人或 Active Directory 收件人是否可以写入。 
   
 ```XML
 <IsWritable> true | false </IsWritable>
@@ -26,9 +26,9 @@ ms.locfileid: "19826158"
  **Boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -38,11 +38,11 @@ ms.locfileid: "19826158"
   
 ### <a name="parent-elements"></a>父元素
 
-[归属 (PersonaAttributionType)](attribution-personaattributiontype.md)
+[归属（PersonaAttributionType）](attribution-personaattributiontype.md)
   
 ## <a name="text-value"></a>文本值
 
-文本值为**true**的**IsWritable**元素指示的联系人或 Active Directory 对象是可供写访问权限。 如果值为**false**指示的联系人或 Active Directory 对象不可用的写访问权限。 
+如果**IsWritable**元素的文本值为**true** ，则表示联系人或 Active Directory 对象可用于写入访问。 如果值为**false** ，则表示联系人或 Active Directory 对象不可用于写访问。 
   
 ## <a name="remarks"></a>备注
 

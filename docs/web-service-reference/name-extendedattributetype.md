@@ -1,5 +1,5 @@
 ---
-title: 名称 (ExtendedAttributeType)
+title: 名称（ExtendedAttributeType）
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,23 +7,23 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d72e9f7e-2795-44f1-a55f-06b94f5e41ea
-description: Name (ExtendedAttributeType) 元素旨在仅供内部使用。
-ms.openlocfilehash: 8b39524dc2f76008af0afdda94b94d66e78a21b4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Name （ExtendedAttributeType）元素仅供内部使用。
+ms.openlocfilehash: 3244923cf1c3bb4147af8c8cf9ddb488f2cbc5e0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826500"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466918"
 ---
-# <a name="name-extendedattributetype"></a>名称 (ExtendedAttributeType)
+# <a name="name-extendedattributetype"></a>名称（ExtendedAttributeType）
 
-**Name (ExtendedAttributeType)** 元素旨在仅供内部使用。 
+**Name （ExtendedAttributeType）** 元素仅供内部使用。 
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19826500"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   

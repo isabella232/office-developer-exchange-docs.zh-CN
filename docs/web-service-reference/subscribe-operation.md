@@ -11,32 +11,32 @@ api_name:
 api_type:
 - schema
 ms.assetid: f17c3d08-c79e-41f1-ba31-6e41e7aafd87
-description: Subscribe 操作用于订阅推送或抽取通知客户端应用程序。 务必要注意的请求消息和响应的结构是事件通知的类型而有所不同。
-ms.openlocfilehash: f6cacab80c8ca2e505ab63a162a161fcf5de8585
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 订阅操作用于将客户端应用程序订阅 "推送" 或 "请求" 通知。 请务必注意，请求消息和响应的结构是不同的，具体取决于事件通知的类型。
+ms.openlocfilehash: c40e0e434f698c6535ff5d03fd4d45a453959dd6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827619"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44467044"
 ---
 # <a name="subscribe-operation"></a>订阅操作
 
-Subscribe 操作用于订阅推送或抽取通知客户端应用程序。 务必要注意的请求消息和响应的结构是事件通知的类型而有所不同。 
+订阅操作用于将客户端应用程序订阅 "推送" 或 "请求" 通知。 请务必注意，请求消息和响应的结构是不同的，具体取决于事件通知的类型。 
   
-## <a name="pull-subscription-subscribe-request-example"></a>拉出订阅订阅请求示例
+## <a name="pull-subscription-subscribe-request-example"></a>请求订阅订阅请求示例
 
 ### <a name="description"></a>说明
 
-下面的代码示例演示如何订阅请求事件通知订阅。 订阅通知客户端应用程序，如果新邮件添加到收件箱并从收件箱中删除项目。 订阅将超时，如果客户端不要求 10 分钟内事件的信息。 如果订阅过期，必须建立新的订阅继续请求通知。
+下面的代码示例演示如何订阅 pull 事件通知订阅。 如果新邮件已添加到收件箱中，并且从收件箱中删除了某个项目，订阅将通知客户端应用程序。 如果客户端未在10分钟内请求有关事件的信息，订阅将超时。 如果订阅过期，则必须建立新订阅才能继续请求通知。
   
 ### <a name="code"></a>代码
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <Subscribe xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <Subscribe xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <PullSubscriptionRequest>
         <t:FolderIds>
           <t:DistinguishedFolderId Id="inbox"/>
@@ -70,13 +70,13 @@ Subscribe 操作用于订阅推送或抽取通知客户端应用程序。 务必
     
 - [Timeout](timeout.md)
     
-若要查找的请求邮件订阅操作的其他选项，浏览的架构层次结构。 启动[PullSubscriptionRequest](pullsubscriptionrequest.md)元素。 
+若要查找订阅操作的请求邮件的其他选项，请浏览架构层次结构。 从[PullSubscriptionRequest](pullsubscriptionrequest.md)元素开始。 
   
-## <a name="successful-pull-subscription-subscribe-response-example"></a>成功的拉出订阅订阅响应示例
+## <a name="successful-pull-subscription-subscribe-response-example"></a>成功的请求订阅订阅响应示例
 
 ### <a name="description"></a>说明
 
-下面的示例演示成功拉订阅响应。 则响应中包含的订阅标识符和水印用于获取的与订阅关联的事件的数组。 订阅标识符还用于取消订阅客户端。
+下面的示例展示了一个成功的请求订阅响应。 响应包含订阅标识符和用于获取与订阅关联的事件数组的水印。 订阅标识符还用于从订阅中取消订阅客户端。
   
 ### <a name="code"></a>代码
 
@@ -87,12 +87,12 @@ Subscribe 操作用于订阅推送或抽取通知客户端应用程序。 务必
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="628" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <SubscribeResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                       xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <SubscribeResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                       xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:SubscribeResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -105,9 +105,9 @@ Subscribe 操作用于订阅推送或抽取通知客户端应用程序。 务必
 </soap:Envelope>
 ```
 
-### <a name="pull-subscription-subscribe-response-elements"></a>拉出订阅的订阅响应元素
+### <a name="pull-subscription-subscribe-response-elements"></a>请求订阅订阅响应元素
 
-在响应中使用以下元素：
+响应中使用以下元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -119,15 +119,15 @@ Subscribe 操作用于订阅推送或抽取通知客户端应用程序。 务必
     
 - [ResponseCode](responsecode.md)
     
-- [SubscriptionId (GetEvents)](subscriptionid-getevents.md)
+- [SubscriptionId （GetEvents）](subscriptionid-getevents.md)
     
-- [水印](watermark.md)
+- [Watermark](watermark.md)
     
-## <a name="pull-subscription-subscribe-error-response-example"></a>拉出订阅订阅错误响应示例
+## <a name="pull-subscription-subscribe-error-response-example"></a>请求订阅订阅错误响应示例
 
 ### <a name="description"></a>说明
 
-下面的示例演示的 Subscribe 请求错误响应。 尝试使用代理访问订阅通知的情况下，将引起错误。
+下面的示例演示对订阅请求的错误响应。 此错误是由于尝试使用代理访问来订阅通知而引起的。
   
 ### <a name="code"></a>代码
 
@@ -138,12 +138,12 @@ Subscribe 操作用于订阅推送或抽取通知客户端应用程序。 务必
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <SubscribeResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                       xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <SubscribeResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                       xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:SubscribeResponseMessage ResponseClass="Error">
           <m:MessageText>Subscriptions are not supported for delegate user access.</m:MessageText>
@@ -156,7 +156,7 @@ Subscribe 操作用于订阅推送或抽取通知客户端应用程序。 务必
 </soap:Envelope>
 ```
 
-### <a name="pull-subscription-error-response-elements"></a>拉出订阅错误响应元素
+### <a name="pull-subscription-error-response-elements"></a>请求订阅错误响应元素
 
 错误响应中使用以下元素：
   
@@ -174,26 +174,26 @@ Subscribe 操作用于订阅推送或抽取通知客户端应用程序。 务必
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-## <a name="push-subscription-request-example"></a>推送预订请求示例
+## <a name="push-subscription-request-example"></a>推送订阅请求示例
 
 ### <a name="description"></a>说明
 
-下面的代码示例演示如何订阅推送事件通知订阅。 请求标识要监视的文件夹、 要监视的事件、 状态通知的频率和客户端侦听的推送通知的 Web 服务的 URL 的类型。
+下面的代码示例演示如何订阅推送事件通知订阅。 请求标识要监视的文件夹、要监视的事件类型、状态通知的频率以及侦听推送通知的客户端 Web 服务的 URL。
   
 ### <a name="code"></a>代码
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
     <Subscribe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-      <PushSubscriptionRequest xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-        <FolderIds xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+      <PushSubscriptionRequest xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+        <FolderIds xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <DistinguishedFolderId Id="inbox" />
         </FolderIds>
-        <EventTypes xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <EventTypes xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <EventType>NewMailEvent</EventType>
           <EventType>CopiedEvent</EventType>
           <EventType>CreatedEvent</EventType>
@@ -201,19 +201,19 @@ Subscribe 操作用于订阅推送或抽取通知客户端应用程序。 务必
           <EventType>ModifiedEvent</EventType>
           <EventType>MovedEvent</EventType>
         </EventTypes>
-        <StatusFrequency xmlns="http://schemas.microsoft.com/exchange/services/2006/types">1</StatusFrequency>
-        <URL xmlns="http://schemas.microsoft.com/exchange/services/2006/types">http://clientWebService/Service.asmx</URL>
+        <StatusFrequency xmlns="https://schemas.microsoft.com/exchange/services/2006/types">1</StatusFrequency>
+        <URL xmlns="https://schemas.microsoft.com/exchange/services/2006/types">http://clientWebService/Service.asmx</URL>
       </PushSubscriptionRequest>
     </Subscribe>
   </soap:Body>
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>注释
+### <a name="comments"></a>备注
 
-发送的客户端 Web 服务必须设置之前推送通知订阅请求;否则为第一个通知不会发送到有效的终结点和推送通知将失败。 有关详细信息，请参阅[推送通知示例应用程序](http://msdn.microsoft.com/library/db1f8523-fa44-483f-bdb6-ab5939b52eee%28Office.15%29.aspx)。
+在发送推送通知订阅请求之前，必须设置客户端 Web 服务;否则，将不会向有效终结点发送第一个通知，并且推送通知将失败。 有关详细信息，请参阅[推送通知示例应用程序](https://msdn.microsoft.com/library/db1f8523-fa44-483f-bdb6-ab5939b52eee%28Office.15%29.aspx)。
   
-当您重新订阅创建新的[SubscriptionId (GetEvents)](subscriptionid-getevents.md) 。 使用以前的订阅水印重新订阅在以前的订阅结束的地方。 
+当您重新订阅时，将创建一个新的[SubscriptionId （GetEvents）](subscriptionid-getevents.md) 。 使用之前订阅的水印在上一个订阅结束的位置使用重新订阅。 
   
 ### <a name="push-subscription-request-elements"></a>推送订阅请求元素
 
@@ -239,7 +239,7 @@ Subscribe 操作用于订阅推送或抽取通知客户端应用程序。 务必
 
 ### <a name="description"></a>说明
 
-下面的示例演示一个成功的推送订阅响应。 
+下面的示例展示了一个成功的推送订阅响应。 
   
 ### <a name="code"></a>代码
 
@@ -250,12 +250,12 @@ Subscribe 操作用于订阅推送或抽取通知客户端应用程序。 务必
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="628" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <SubscribeResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                       xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <SubscribeResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                       xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseMessages>
         <SubscribeResponseMessage ResponseClass="Success">
           <ResponseCode>NoError</ResponseCode>
@@ -270,7 +270,7 @@ Subscribe 操作用于订阅推送或抽取通知客户端应用程序。 务必
 
 ### <a name="push-subscription-response-elements"></a>推送订阅响应元素
 
-在响应中使用以下元素：
+响应中使用以下元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -282,20 +282,20 @@ Subscribe 操作用于订阅推送或抽取通知客户端应用程序。 务必
     
 - [ResponseCode](responsecode.md)
     
-- [SubscriptionId (GetEvents)](subscriptionid-getevents.md)
+- [SubscriptionId （GetEvents）](subscriptionid-getevents.md)
     
-- [水印](watermark.md)
+- [Watermark](watermark.md)
     
 ## <a name="see-also"></a>另请参阅
 
 
 
-[取消操作](unsubscribe-operation.md)
+[取消订阅操作](unsubscribe-operation.md)
   
 [GetEvents 操作](getevents-operation.md)
 
 
-[使用请求订阅](http://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
+[使用请求订阅](https://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
   
-[推送通知示例应用程序](http://msdn.microsoft.com/library/db1f8523-fa44-483f-bdb6-ab5939b52eee%28Office.15%29.aspx)
+[推送通知示例应用程序](https://msdn.microsoft.com/library/db1f8523-fa44-483f-bdb6-ab5939b52eee%28Office.15%29.aspx)
 

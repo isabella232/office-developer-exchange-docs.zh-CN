@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 339005cd-a3b9-47dd-bc7b-a860b699625b
 description: SearchableMailbox元素指定邮箱GetSearchableMailboxes请求中返回。
-ms.openlocfilehash: 0d0981d050fa388e83eaa8408b60d305296c1f36
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f790d9a707f10f64a776b2fc35255c233ad854b6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827284"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44467450"
 ---
 # <a name="searchablemailbox"></a>SearchableMailbox
 
@@ -34,9 +34,9 @@ ms.locfileid: "19827284"
  **SearchableMailboxType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -58,7 +58,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> ||

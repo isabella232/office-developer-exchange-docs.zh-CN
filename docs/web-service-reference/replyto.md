@@ -1,5 +1,5 @@
 ---
-title: 回复
+title: ReplyTo
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 6b6ae792-e2c4-4aa0-95cb-b49b446f1e08
-description: 回复元素标识数组答复应发送到的地址。
-ms.openlocfilehash: 0ceb4f5edb75bbfe52a7a7156da3c2a328bea346
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ReplyTo 元素标识应将答复发送到的地址数组。
+ms.openlocfilehash: 08f9edce76fd01111922a2a07d1a63e288a0c1ee
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827115"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468325"
 ---
-# <a name="replyto"></a>回复
+# <a name="replyto"></a>ReplyTo
 
-**回复**元素标识数组答复应发送到的地址。 
+**ReplyTo**元素标识应将答复发送到的地址数组。 
   
 ```xml
 <ReplyTo>
@@ -32,9 +32,9 @@ ms.locfileid: "19827115"
  **ArrayOfRecipientsType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,7 +42,7 @@ ms.locfileid: "19827115"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Mailbox](mailbox.md) <br/> |标识已启用邮件的 Active Directory 目录服务对象向其发送答复。  <br/> |
+|[Mailbox](mailbox.md) <br/> |标识将答复发送到的已启用邮件的 Active Directory 目录服务对象。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -62,7 +62,7 @@ ms.locfileid: "19827115"
 |[ForwardItem](forwarditem.md) <br/> |包含要转发给收件人的 Exchange 存储区项。  <br/> |
 |[CancelCalendarItem](cancelcalendaritem.md) <br/> |表示用于取消会议的响应对象。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 Microsoft Exchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -70,7 +70,7 @@ ms.locfileid: "19827115"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -79,5 +79,5 @@ ms.locfileid: "19827115"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

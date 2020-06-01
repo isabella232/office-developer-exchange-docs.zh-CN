@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 3725cbd4-9bc1-4f7d-8929-b2c68cb46114
-description: MinimumSuggestionQuality 元素定义会议建议的响应中返回的质量。
-ms.openlocfilehash: ac79682bd761f678f23fc2d698a50fd7704f6fab
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: MinimumSuggestionQuality 元素定义要在响应中返回的会议建议的质量。
+ms.openlocfilehash: c85cbf65a63ac0b09408c14e01889f97a05b27b0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826468"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467478"
 ---
 # <a name="minimumsuggestionquality"></a>MinimumSuggestionQuality
 
-**MinimumSuggestionQuality**元素定义会议建议的响应中返回的质量。 
+**MinimumSuggestionQuality**元素定义要在响应中返回的会议建议的质量。 
   
 [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
@@ -36,9 +36,9 @@ ms.locfileid: "19826468"
  **SuggestionQuality**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -48,9 +48,9 @@ ms.locfileid: "19826468"
   
 ### <a name="parent-elements"></a>父元素
 
-|**元素**|**说明**|
+|**元素**|**描述**|
 |:-----|:-----|
-|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |包含选项的获取会议建议信息。  <br/> 以下是此元素的 XPath:  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
+|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |包含用于获取会议建议信息的选项。  <br/> 以下是此元素的 XPath：  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
    
 ## <a name="text-value"></a>文本值
 
@@ -58,14 +58,14 @@ ms.locfileid: "19826468"
   
 |**值**|**说明**|
 |:-----|:-----|
-|**非常好** <br/> |0%的与会者具有与建议的会议时间冲突。  <br/> |
-|**良好** <br/> |使用[GoodThreshold](goodthreshold.md)元素设置了被视为良好的百分比。  <br/> |
-|**公平** <br/> |使用[GoodThreshold](goodthreshold.md)元素设置了被视为公平的百分比。  <br/> |
-|**不佳** <br/> |50%或更多与会者有与建议的会议时间冲突。  <br/> |
+|**极好** <br/> |0% 的与会者有与建议会议时间的冲突。  <br/> |
+|**Good** <br/> |被视为 "正常" 的百分比通过使用[GoodThreshold](goodthreshold.md)元素进行设置。  <br/> |
+|**大量** <br/> |被视为公平的百分比是通过使用[GoodThreshold](goodthreshold.md)元素设置的。  <br/> |
+|**较差** <br/> |50% 或更多与会者与建议的会议时间有冲突。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-如果使用[SuggestionsViewOptions](suggestionsviewoptions.md)元素，此元素是必需的。 
+如果使用[SuggestionsViewOptions](suggestionsviewoptions.md)元素，则此元素是必需的。 
   
 > [!NOTE]
 > 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。 
@@ -74,7 +74,7 @@ ms.locfileid: "19826468"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -86,5 +86,5 @@ ms.locfileid: "19826468"
 [GetUserAvailability 操作](getuseravailability-operation.md)
 
 
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[获取用户可用性](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 1512428d-ce22-4da9-b1c1-446b4bcd0a21
-description: TooBigGroupAttendeeConflictData 元素均表示为通讯组列表中已解决 attendee 但太大，无法展开通讯组列表。
-ms.openlocfilehash: 1137368d13cb5b88fd2a7866cadc6d69b783c75b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: TooBigGroupAttendeeConflictData 元素表示作为通讯组列表解析但通讯组列表太大而无法展开的与会者。
+ms.openlocfilehash: 407a4a49e5f32c81439063f47df2e131dd663a4f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838276"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468598"
 ---
 # <a name="toobiggroupattendeeconflictdata"></a>TooBigGroupAttendeeConflictData
 
-**TooBigGroupAttendeeConflictData**元素均表示为通讯组列表中已解决 attendee 但太大，无法展开通讯组列表。 
+**TooBigGroupAttendeeConflictData**元素表示作为通讯组列表解析但通讯组列表太大而无法展开的与会者。 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -46,9 +46,9 @@ ms.locfileid: "19838276"
  **TooBigGroupAttendeeConflictData**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -60,11 +60,11 @@ ms.locfileid: "19838276"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[AttendeeConflictDataArray](attendeeconflictdataarray.md) <br/> |与会者[GetUserAvailabilityRequest](getuseravailabilityrequest.md)中标识为包含数组的冲突数据。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray` <br/> |
+|[AttendeeConflictDataArray](attendeeconflictdataarray.md) <br/> |包含[GetUserAvailabilityRequest](getuseravailabilityrequest.md)中标识的与会者的冲突数据数组。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray` <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-不能扩展包含超过 100 个成员的通讯组列表。
+包含超过100个成员的通讯组列表无法展开。
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -72,7 +72,7 @@ ms.locfileid: "19838276"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -86,5 +86,5 @@ ms.locfileid: "19838276"
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

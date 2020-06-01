@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 87382d9b-0c02-49ec-85dc-3f5918df3195
 description: UmEnabled 元素指示是否为帐户启用统一消息。
-ms.openlocfilehash: 8324e02136adc6704bc0badb77131e9671ee569f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 7ba7be69868cb439177702f74ff4a2f12875b7ff
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838305"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468353"
 ---
 # <a name="umenabled"></a>UmEnabled
 
@@ -30,9 +30,9 @@ ms.locfileid: "19838305"
  **Boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -44,13 +44,13 @@ ms.locfileid: "19838305"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[UnifiedMessagingConfiguration](unifiedmessagingconfiguration.md) <br/> |包含服务统一消息服务的配置信息。  <br/> |
+|[UnifiedMessagingConfiguration](unifiedmessagingconfiguration.md) <br/> |包含统一消息服务的服务配置信息。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**UmEnabled**元素的文本值为**true** ，如果帐户; 启用了统一消息否则，值为**false**。
+如果为帐户启用了统一消息，则**UmEnabled**元素的文本值为**true** ; 否则为 false。否则，该值为**false**。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
 此元素是必需的。
   
@@ -60,7 +60,7 @@ ms.locfileid: "19838305"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -69,5 +69,5 @@ ms.locfileid: "19838305"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

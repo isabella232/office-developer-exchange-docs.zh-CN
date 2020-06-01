@@ -10,17 +10,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 8e6bf0b1-ff76-474c-ac0f-621b6ab89212
-description: MissedCallNotificationEnabled 元素包含一个值，指示是否对 GetUMProperties 操作 （UM web 服务） 请求的响应中启用未接的来电通知。
-ms.openlocfilehash: 6bebbe6eeb40a259f0c51355a3fea838e8671706
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: MissedCallNotificationEnabled 元素包含一个值，该值指示是否在对 GetUMProperties 操作（UM web 服务）请求的响应中启用未接来电通知。
+ms.openlocfilehash: e2f18027c56be1408c27d5f687fe90f8ffd724db
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826477"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44468654"
 ---
 # <a name="missedcallnotificationenabled-um-web-service"></a>MissedCallNotificationEnabled （UM web 服务）
 
-**MissedCallNotificationEnabled**元素包含一个值，指示是否对[GetUMProperties 操作 （UM web 服务）](getumproperties-operation-um-web-service.md)请求的响应中启用未接的来电通知。 
+**MissedCallNotificationEnabled**元素包含一个值，该值指示是否在对[GETUMPROPERTIES 操作（UM web 服务）](getumproperties-operation-um-web-service.md)请求的响应中启用未接来电通知。 
   
 [GetUMPropertiesResponse （UM web 服务）](getumpropertiesresponse-um-web-service.md)
   
@@ -33,9 +33,9 @@ ms.locfileid: "19826477"
  **Boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -47,11 +47,11 @@ ms.locfileid: "19826477"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GetUMPropertiesResponse （UM web 服务）](getumpropertiesresponse-um-web-service.md) <br/> |定义[GetUMProperties 操作 （UM web 服务）](getumproperties-operation-um-web-service.md)请求的响应。  <br/> |
+|[GetUMPropertiesResponse （UM web 服务）](getumpropertiesresponse-um-web-service.md) <br/> |定义对[GetUMProperties 操作（UM web 服务）](getumproperties-operation-um-web-service.md)请求的响应。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-Boolean 的文本值为 required。 以下是可能的值：
+布尔文本值是必需的。 以下是可能的值：
   
 - True
     
@@ -61,7 +61,7 @@ Boolean 的文本值为 required。 以下是可能的值：
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |邮件  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -70,7 +70,7 @@ Boolean 的文本值为 required。 以下是可能的值：
 
 
 
-[GetUMProperties 操作 （UM web 服务）](getumproperties-operation-um-web-service.md)
+[GetUMProperties 操作（UM web 服务）](getumproperties-operation-um-web-service.md)
   
-[SetMissedCallNotificationEnabled 操作 （UM web 服务）](setmissedcallnotificationenabled-operation-um-web-service.md)
+[SetMissedCallNotificationEnabled 操作（UM web 服务）](setmissedcallnotificationenabled-operation-um-web-service.md)
 

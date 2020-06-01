@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: c4f729aa-674e-43b2-97f2-bf49740b0a34
-description: RecipientTrackingEvents 元素表示一条消息的一个或多个事件的集合。
-ms.openlocfilehash: 5fa5df422eff533891d021b77d5443b314d36244
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: RecipientTrackingEvents 元素表示邮件的一个或多个事件的集合。
+ms.openlocfilehash: c0b25a0e22d13bc1f26768b9b7089d96eb2e8cfc
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826993"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468479"
 ---
 # <a name="recipienttrackingevents"></a>RecipientTrackingEvents
 
-**RecipientTrackingEvents**元素表示一条消息的一个或多个事件的集合。 
+**RecipientTrackingEvents**元素表示邮件的一个或多个事件的集合。 
   
 ```XML
 <RecipientTrackingEvents>
@@ -32,9 +32,9 @@ ms.locfileid: "19826993"
  **ArrayOfRecipientTrackingEventType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,15 +42,15 @@ ms.locfileid: "19826993"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[RecipientTrackingEvent](recipienttrackingevent.md) <br/> |包含用于跟踪报告中的特定事件的详细信息。  <br/> |
+|[RecipientTrackingEvent](recipienttrackingevent.md) <br/> |包含跟踪报告中特定事件的详细信息。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[MessageTrackingReport](messagetrackingreport.md) <br/> |包含在[GetMessageTrackingReport 操作](getmessagetrackingreport-operation.md)中返回一条消息。  <br/> |
+|[Search-messagetrackingreport](messagetrackingreport.md) <br/> |包含在[GetMessageTrackingReport 操作](getmessagetrackingreport-operation.md)中返回一条消息。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -58,7 +58,7 @@ ms.locfileid: "19826993"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -70,5 +70,5 @@ ms.locfileid: "19826993"
 [GetMessageTrackingReport 操作](getmessagetrackingreport-operation.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

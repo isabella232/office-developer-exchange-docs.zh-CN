@@ -7,23 +7,23 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 147121c9-516a-41f5-a506-0f646cdc653b
-description: 仅供内部使用旨在 IsPinned (FederatedDirectoryGroupType) 元素。
-ms.openlocfilehash: 67a80aed8367900cc54c20ec4f20fef648e61f05
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: IsPinned （FederatedDirectoryGroupType）元素仅供内部使用。
+ms.openlocfilehash: ad4063964d7de197ba39c91f5605a86755fa0ce1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826090"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468451"
 ---
 # <a name="ispinned-federateddirectorygrouptype"></a>IsPinned (FederatedDirectoryGroupType)
 
-仅供内部使用旨在**IsPinned (FederatedDirectoryGroupType)** 元素。 
+**IsPinned （FederatedDirectoryGroupType）** 元素仅供内部使用。 
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19826090"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   

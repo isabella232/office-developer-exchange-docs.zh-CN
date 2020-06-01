@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: da1b8c88-c650-455d-b749-0cd160b012d8
-description: OldParentFolderId 元素包含的项或已复制或移动的文件夹的父文件夹的标识符。
-ms.openlocfilehash: 1c4a51755c4194939dd797efa31cf5410b02bf85
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: OldParentFolderId 元素包含已复制或移动的项或文件夹的父文件夹的标识符。
+ms.openlocfilehash: ad787e95f95b551393878b15783461d93ac08481
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826644"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467226"
 ---
 # <a name="oldparentfolderid"></a>OldParentFolderId
 
-**OldParentFolderId**元素包含的项或已复制或移动的文件夹的父文件夹的标识符。 
+**OldParentFolderId**元素包含已复制或移动的项或文件夹的父文件夹的标识符。 
   
 ```xml
 <OldParentFolderId Id="" ChangeKey=""/>
@@ -30,15 +30,14 @@ ms.locfileid: "19826644"
  **FolderIdType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**说明**|
 |:-----|:-----|
-|
-  **Id** <br/> |包含一个字符串，标识 Exchange 存储中的文件夹。 此属性是必需的。  <br/> |
-|**更改密钥** <br/> |包含一个字符串，标识的文件夹的 Id 属性标识的版本。 此属性是可选的。 使用此属性以确保正确版本的文件夹使用。  <br/> |
+|**Id** <br/> |包含标识 Exchange 存储中的文件夹的字符串。 此特性是必需的。  <br/> |
+|**ChangeKey** <br/> |包含标识由 Id 属性标识的文件夹版本的字符串。 此特性是可选的。 使用此属性可确保使用的是正确的文件夹版本。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -48,10 +47,10 @@ ms.locfileid: "19826644"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[CopiedEvent](copiedevent.md) <br/> |表示复制的项或文件夹的事件。  <br/> |
-|[MovedEvent](movedevent.md) <br/> |表示在其中项目或文件夹从一个父文件夹移到另一个父文件夹的事件。  <br/> |
+|[CopiedEvent](copiedevent.md) <br/> |表示在其中复制项目或文件夹的事件。  <br/> |
+|[MovedEvent](movedevent.md) <br/> |代表将项目或文件夹从一个父文件夹移动到另一个父文件夹的事件。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 Microsoft Exchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -59,7 +58,7 @@ ms.locfileid: "19826644"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -72,8 +71,8 @@ ms.locfileid: "19826644"
   
 [GetEvents 操作](getevents-operation.md)
   
-[取消操作](unsubscribe-operation.md)
+[取消订阅操作](unsubscribe-operation.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

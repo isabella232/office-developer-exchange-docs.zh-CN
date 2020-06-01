@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 041b3d48-8f43-47f3-869f-72b66bef372a
-description: MessageClassifications 元素均表示必须在应用的条件或例外顺序中的传入邮件标记邮件分类。
-ms.openlocfilehash: 402377907efbc9bb63d875f3f66b314dfc4b788d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: MessageClassifications 元素表示必须在传入邮件上标记的邮件分类，以便条件或例外情况适用。
+ms.openlocfilehash: 63481aa8903c4e9637870130eb9154118471c3b0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826471"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44467968"
 ---
 # <a name="messageclassifications"></a>MessageClassifications
 
-**MessageClassifications**元素均表示必须在应用的条件或例外顺序中的传入邮件标记邮件分类。 
+**MessageClassifications**元素表示必须在传入邮件上标记的邮件分类，以便条件或例外情况适用。 
   
 ```XML
 <MessageClassifications>
@@ -32,7 +32,7 @@ ms.locfileid: "19826471"
  **ArrayOfStringsType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
 ### <a name="attributes"></a>属性
 
@@ -42,7 +42,7 @@ ms.locfileid: "19826471"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[字符串](string.md) <br/> |代表邮件分类。  <br/> |
+|[字符串](string.md) <br/> |表示邮件分类。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -55,7 +55,7 @@ ms.locfileid: "19826471"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -63,7 +63,7 @@ ms.locfileid: "19826471"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
@@ -72,5 +72,5 @@ ms.locfileid: "19826471"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

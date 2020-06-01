@@ -1,5 +1,5 @@
 ---
-title: 邮箱 (ArrayOfUserMailboxesType)
+title: 邮箱（ArrayOfUserMailboxesType）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9e433049-3ff9-467d-ad2a-c767a22f9fbb
-description: 邮箱元素包含数组的邮箱。
-ms.openlocfilehash: 21cb1f8155ffc8e65e1ee6298c8c4e69f34478f5
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 邮箱元素包含一个邮箱数组。
+ms.openlocfilehash: b3af9b831b7877bcfb030422b8fb44ccc6b61d5c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826287"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468150"
 ---
-# <a name="mailboxes-arrayofusermailboxestype"></a>邮箱 (ArrayOfUserMailboxesType)
+# <a name="mailboxes-arrayofusermailboxestype"></a>邮箱（ArrayOfUserMailboxesType）
 
-**邮箱**元素包含数组的邮箱。 
+**邮箱**元素包含一个邮箱数组。 
   
 ```XML
 <Mailboxes>
@@ -29,9 +29,9 @@ ms.locfileid: "19826287"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -53,7 +53,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> ||

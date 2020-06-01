@@ -1,30 +1,30 @@
 ---
-title: MicrosoftOnline (POX)
+title: MicrosoftOnline （POX）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 0b88f02a-9c50-44b3-841b-560b24e37af5
-description: MicrosoftOnline 元素包含一个值，指示是否在用户邮箱位于 Exchange Online 或 Exchange Online 作为 Office 365 的一部分。
-ms.openlocfilehash: b952bfda17b30dcf29812697d225db32718d9781
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: MicrosoftOnline 元素包含一个值，该值指示用户的邮箱是否托管在 Exchange Online 或 Exchange Online 中作为 Office 365 的一部分。
+ms.openlocfilehash: f3144a673a4c98aad821e21c562141b0ae00f426
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826458"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467982"
 ---
-# <a name="microsoftonline-pox"></a>MicrosoftOnline (POX)
+# <a name="microsoftonline-pox"></a>MicrosoftOnline （POX）
 
-**MicrosoftOnline**元素包含一个值，指示是否在用户邮箱位于 Exchange Online 或 Exchange Online 作为 Office 365 的一部分。 
+**MicrosoftOnline**元素包含一个值，该值指示用户的邮箱是否托管在 exchange Online 或 exchange online 中作为 Office 365 的一部分。 
   
-[自动发现 (POX)](autodiscover-pox.md)
+[自动发现（POX）](autodiscover-pox.md)
   
-[响应 (POX)](response-pox.md)
+[响应（POX）](response-pox.md)
   
-[帐户 (POX)](account-pox.md)
+[帐户（POX）](account-pox.md)
   
-[MicrosoftOnline (POX)](microsoftonline-pox.md)
+[MicrosoftOnline （POX）](microsoftonline-pox.md)
   
 ```XML
 <MicrosoftOnline/>
@@ -32,9 +32,9 @@ ms.locfileid: "19826458"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -46,15 +46,15 @@ ms.locfileid: "19826458"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[帐户 (POX)](account-pox.md) <br/> |指定用户帐户设置，或包含错误响应。  <br/> |
+|[帐户（POX）](account-pox.md) <br/> |指定用户的帐户设置或包含错误响应。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-文本值指示是否在用户邮箱位于 Exchange Online 中。 值是**true**如果用户的邮箱位于承载在 Exchange Online;否则为**false**。
+该文本值指示用户的邮箱是否托管在 Exchange Online 中。 如果用户的邮箱托管在 Exchange Online 中，则此值为**true** ;否则**为 false**。
   
 ## <a name="see-also"></a>另请参阅
 
 
 
-[Exchange POX 自动发现 XML 元素](pox-autodiscover-xml-elements-for-exchange.md)
+[Exchange 的 POX 自动发现 XML 元素](pox-autodiscover-xml-elements-for-exchange.md)
 
