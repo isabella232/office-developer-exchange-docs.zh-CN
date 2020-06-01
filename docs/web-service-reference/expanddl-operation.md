@@ -11,23 +11,23 @@ api_name:
 api_type:
 - schema
 ms.assetid: 1f7837e7-9eff-4e10-9577-c40f7ed6af94
-description: ExpandDL 操作公开完整的通讯组列表成员身份。
-ms.openlocfilehash: 4af6198ff15407b7fb71cdb4010ff6ce035460d0
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: ExpandDL 操作将公开通讯组列表的完整成员身份。
+ms.openlocfilehash: 8edaf057538e2c1136465f0ff7937c14477b2c47
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353740"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44454048"
 ---
 # <a name="expanddl-operation"></a>ExpandDL 操作
 
-ExpandDL 操作公开完整的通讯组列表成员身份。
+ExpandDL 操作将公开通讯组列表的完整成员身份。
   
 ## <a name="using-the-expanddl-web-method"></a>使用 ExpandDL Web 方法
 
-ExpandDL 操作使用位于 Exchange.asmx Web 服务。 此 Web 服务方法接受是公共通讯组列表扩展的[电子邮件地址 (NonEmptyStringType)](emailaddress-nonemptystringtype.md)子元素或专用的扩展[ItemId](itemid.md)子元素可以包含一个[邮箱](mailbox.md)元素通讯组列表。 
+ExpandDL 操作使用位于位于 .asmx 中的 Web 服务。 此 Web 服务方法接受一个[邮箱](mailbox.md)元素，该元素可包含一个[EmailAddress （NonEmptyStringType）](emailaddress-nonemptystringtype.md)子元素，用于扩展公共通讯组列表或用于扩展专用通讯组列表的[ItemId](itemid.md)子元素。 
   
-公用通讯组列表可以展开使用下列选项之一：
+可以使用以下任一项扩展公用通讯组列表：
   
 1. 通讯组列表别名
     
@@ -37,36 +37,36 @@ ExpandDL 操作使用位于 Exchange.asmx Web 服务。 此 Web 服务方法接�
     
 4. X500
     
-5. Exchange 旧版地址
+5. Exchange 旧地址
     
 6. 通讯组列表名称
     
 7. 显示名称
     
 > [!IMPORTANT]
-> 显示名称不是唯一的。 多个帐户可以共享相同的显示名称。 
+> 显示名称不是唯一的。 多个帐户可以共享同一个显示名称。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-不支持递归扩展。 可以在单个呼叫中展开只有一个通讯组列表。 如果多个通讯组列表匹配条件，Web 服务报告的错误。 客户端应用程序可以使用模糊名称解析 (ANR) 以查找不明确的通讯组列表，然后选择所需的通讯组列表的正确的电子邮件地址作为参数用于[ExpandDL 操作](expanddl-operation.md)。 有关详细信息，请参阅[ResolveNames 操作](resolvenames-operation.md)。
+不支持递归展开。 一次调用只能扩展一个通讯组列表。 如果有多个通讯组列表匹配条件，Web 服务会报告错误。 客户端应用程序可以使用不明确的名称解析（ANR）来查找不明确的通讯组列表，然后选择所需通讯组列表的正确电子邮件地址作为[ExpandDL 操作](expanddl-operation.md)的参数。 有关详细信息，请参阅[ResolveNames operation](resolvenames-operation.md)。
   
-公用通讯组列表在 Active Directory 中的位置。 它们可以是任何已启用邮件的或动态通讯组。 不应从通讯簿中隐藏组和每个成员都应具有一个非空电子邮件地址。 通讯组列表的成员可以是启用邮件的用户和联系人、 公用文件夹和已启用邮件的通讯组列表和动态组。
+公用通讯组列表位于 Active Directory 中。 可以是任何启用邮件的通讯组或动态通讯组。 在地址列表中不应隐藏该组，并且每个成员都应具有非空电子邮件地址。 通讯组列表的成员可以是启用邮件的用户和联系人、公用文件夹以及启用邮件的通讯组列表和动态组。
   
-私人通讯组列表位于用户邮箱的联系人文件夹中。 私人通讯组列表没有电子邮件地址，因此其存储项标识符的 ExpandDL 请求中使用。 私有通讯组列表成员可以是任何启用邮件的用户、 联系人或从 Active Directory 通讯组列表或联系人或私有通讯组列表从用户的联系人文件夹。
+专用通讯组列表位于用户邮箱的 "联系人" 文件夹中。 专用通讯组列表不具有电子邮件地址，因此在 ExpandDL 请求中使用其存储项目标识符。 私有通讯组列表的成员可以是任何启用邮件的用户、联系人或来自 Active Directory 的联系人或通讯组列表，或者来自用户的联系人文件夹的联系人或个人通讯组列表。
   
-联系人或私人通讯组列表，在响应中返回的项标识符。 这可以用于获取有关对象的信息或以展开私有通讯组列表中的成员身份。
+对于联系人或专用通讯组列表，将在响应中返回项目标识符。 这可用于获取有关对象的信息或展开私有通讯组列表中的成员资格。
   
 ## <a name="expanddl-private-distribution-list-request-example"></a>ExpandDL 私有通讯组列表请求示例
 
 ### <a name="description"></a>说明
 
-ExpandDL 请求的下面的示例演示如何以形成展开私有通讯组列表的请求。
+以下示例的 ExpandDL 请求显示如何构成展开私有通讯组列表的请求。
   
 ### <a name="code"></a>代码
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013_SP1" />
   </soap:Header>
@@ -80,25 +80,25 @@ ExpandDL 请求的下面的示例演示如何以形成展开私有通讯组列�
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>注释
+### <a name="comments"></a>备注
 
-若要展开私有通讯组列表，则[邮箱](mailbox.md)元素将包含该[ItemId](itemid.md)元素标识用户的邮箱中的私人通讯组列表。 
+若要展开私有通讯组列表，[邮箱](mailbox.md)元素将包含用于标识用户邮箱中的专用通讯组列表的[ItemId](itemid.md)元素。 
   
-## <a name="expanddl-public-distribution-list-request-example"></a>ExpandDL 公用通讯组列表请求示例
+## <a name="expanddl-public-distribution-list-request-example"></a>ExpandDL 公共通讯组列表请求示例
 
 ### <a name="description"></a>说明
 
-ExpandDL 请求的下面的示例演示如何以形成展开公用通讯组列表的请求。 该示例演示如何使用以展开通讯组列表的显示名称。
+以下示例的 ExpandDL 请求显示如何构成展开公共通讯组列表的请求。 该示例演示如何使用显示名称展开通讯组列表。
   
 ### <a name="code"></a>代码
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <ExpandDL xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-              xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <ExpandDL xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+              xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
         <t:Mailbox>
           <t:EmailAddress>TheDistributionList</t:EmailAddress>
         </t:Mailbox>
@@ -107,43 +107,43 @@ ExpandDL 请求的下面的示例演示如何以形成展开公用通讯组列�
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>注释
+### <a name="comments"></a>备注
 
-对此请求的响应将包含标识通讯组列表中的每个邮箱的**邮箱**元素。 如果通讯组列表包含在通讯组列表中，必须在单独的通讯组列表扩展执行上嵌入的通讯组列表。 如果通讯组列表不包含任何成员或请求的通讯组列表不存在， **ResponseClass**属性将不包含的值等于成功。 
+对此请求的响应将包含标识通讯组列表中的每个邮箱的**邮箱**元素。 如果通讯组列表中包含通讯组列表，则必须对嵌入的通讯组列表执行单独的通讯组列表展开。 如果通讯组列表没有成员或请求的通讯组列表不存在，则**ResponseClass**属性将包含一个等于 "成功" 的值。 
   
-### <a name="request-elements"></a>请求元素
+### <a name="request-elements"></a>Request 元素
 
 请求中使用以下元素：
   
 - [ExpandDL](expanddl.md)
     
-- [Mailbox](mailbox.md)
+- [邮箱](mailbox.md)
     
-- [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md)用于标识公用通讯组列表。 [ItemId](itemid.md)元素用于标识私人通讯组列表。 
+- [EmailAddress （NonEmptyStringType）](emailaddress-nonemptystringtype.md)用于标识公用通讯组列表。 [ItemId](itemid.md)元素用于标识私有通讯组列表。 
     
 > [!NOTE]
-> 介绍这些元素的架构位于运行 MicrosoftExchange Server 2007 的安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。 
+> 描述这些元素的架构位于运行 MicrosoftExchange Server 2007 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。 
   
-## <a name="successful-expanddl-response-example"></a>成功 ExpandDL 响应示例
+## <a name="successful-expanddl-response-example"></a>成功的 ExpandDL 响应示例
 
 ### <a name="description"></a>说明
 
-ExpandDL 响应的下面的示例演示上述请求的响应。 通讯组列表扩展介绍以下： 
+下面的 ExpandDL 响应示例显示对上面所述请求的响应。 通讯组列表扩展介绍了以下内容： 
   
-- 通讯组列表的响应中返回的成员数。
+- 响应中返回的通讯组列表的成员数。
     
-- 是否则响应中包含通讯组列表的所有的成员。
+- 响应是否包含通讯组列表的所有成员。
     
 - 邮箱的名称。
     
 - 邮箱的电子邮件地址。
     
-- 邮箱路由类型。
+- 邮箱的路由类型。
     
 - 邮箱的类型。
     
 > [!NOTE]
-> 响应; 中不包括通讯组列表名称因此，您必须跟踪的请求的名称。 
+> 响应中不包含通讯组列表名称;因此，必须跟踪请求中的名称。 
   
 ### <a name="code"></a>代码
 
@@ -155,12 +155,12 @@ ExpandDL 响应的下面的示例演示上述请求的响应。 通讯组列表�
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" 
                          MajorBuildNumber="628" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <ExpandDLResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                      xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <ExpandDLResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                      xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:ExpandDLResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -191,9 +191,9 @@ ExpandDL 响应的下面的示例演示上述请求的响应。 通讯组列表�
 </soap:Envelope>
 ```
 
-### <a name="successful-response-elements"></a>成功响应元素
+### <a name="successful-response-elements"></a>成功的响应元素
 
-在响应中使用以下元素：
+响应中使用以下元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -207,23 +207,23 @@ ExpandDL 响应的下面的示例演示上述请求的响应。 通讯组列表�
     
 - [DLExpansion](dlexpansion.md)
     
-- [Mailbox](mailbox.md)
+- [邮箱](mailbox.md)
     
 - [名称 (EmailAddressType)](name-emailaddresstype.md)
     
 - [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md)
     
-- [RoutingType (EmailAddressType)](routingtype-emailaddresstype.md)
+- [RoutingType （EmailAddressType）](routingtype-emailaddresstype.md)
     
 - [MailboxType](mailboxtype.md)
     
-若要查找的响应消息 ExpandDL 操作的其他选项，浏览的架构层次结构。 启动[ExpandDLResponse](expanddlresponse.md)元素。 
+若要查找 ExpandDL 操作的响应邮件的其他选项，请浏览架构层次结构。 从[ExpandDLResponse](expanddlresponse.md)元素开始。 
   
 ## <a name="expanddl-error-response"></a>ExpandDL 错误响应
 
 ### <a name="description"></a>说明
 
-下面的示例演示 ExpandDL 请求错误响应。
+下面的示例演示对 ExpandDL 请求的错误响应。
   
 ### <a name="code"></a>代码
 
@@ -235,12 +235,12 @@ ExpandDL 响应的下面的示例演示上述请求的响应。 通讯组列表�
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" 
                          MajorBuildNumber="628" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <ExpandDLResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                      xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <ExpandDLResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                      xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:ExpandDLResponseMessage ResponseClass="Error">
           <m:MessageText>No results are found.</m:MessageText>
@@ -271,10 +271,10 @@ ExpandDL 响应的下面的示例演示上述请求的响应。 通讯组列表�
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-若要查找的响应消息 ExpandDL 操作的其他选项，浏览的架构层次结构。 启动[ExpandDLResponse](expanddlresponse.md)元素。 
+若要查找 ExpandDL 操作的响应邮件的其他选项，请浏览架构层次结构。 从[ExpandDLResponse](expanddlresponse.md)元素开始。 
   
 ## <a name="see-also"></a>另请参阅
 
 - [ResolveNames 操作](resolvenames-operation.md)
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1601ad86-d391-449f-889b-50ecbd310dd5
-description: GetClientIntent 元素旨在仅供内部使用。
-ms.openlocfilehash: f7e5abfff60edc328b2d00576093b39e849438c3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: GetClientIntent 元素仅供内部使用。
+ms.openlocfilehash: 3620511146f93a96d79a1427ab0903a8984fa500
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754485"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455637"
 ---
 # <a name="getclientintent"></a>GetClientIntent
 
-**GetClientIntent**元素旨在仅供内部使用。 
+**GetClientIntent**元素仅供内部使用。 
   
 ```XML
 <GetClientIntent />
@@ -26,9 +26,9 @@ ms.locfileid: "19754485"
  ****
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -40,7 +40,7 @@ ms.locfileid: "19754485"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 中引入了此元素。
   
@@ -50,9 +50,9 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
-|验证文件  <br/> |messages.xsd  <br/> |
+|验证文件  <br/> |消息 .xsd  <br/> |
 |可以为空  <br/> ||
    
 

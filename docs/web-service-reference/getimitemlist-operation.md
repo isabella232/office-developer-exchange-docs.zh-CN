@@ -7,13 +7,13 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: e31d14e1-0c1f-4b69-98b7-157d59c13698
-description: 查找信息 GetImItemList EWS 操作。
-ms.openlocfilehash: 3977b0ad31e819cd973ce261ba3152b3840003b3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 查找有关 GetImItemList EWS 操作的信息。
+ms.openlocfilehash: aabe84054b93e7de8af6145942493a0224932e45
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754584"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456064"
 ---
 # <a name="getimitemlist-operation"></a>GetImItemList 操作
 
@@ -21,7 +21,7 @@ ms.locfileid: "19754584"
   
 ## <a name="using-the-getimitemlist-operation"></a>使用 GetImItemList 操作
 
-**GetImItemList**操作中检索的即时消息 (IM) 组的列表和 IM 联系人邮箱中的角色。 **GetImItemList**操作不采用任何参数。 
+**GetImItemList**操作检索邮箱中的即时消息（IM）组和 IM 联系人角色的列表。 **GetImItemList**操作不采用任何参数。 
   
 Exchange Server 2013 中引入了此操作。
   
@@ -31,20 +31,20 @@ Exchange Server 2013 中引入了此操作。
   
 |**标头名称**|**元素**|**说明**|
 |:-----|:-----|:-----|
-|**模拟** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |标识模拟客户端应用程序的用户。 适用于请求此标头。  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |定义 RFC 3066 中，"标记的标识的语言"，以用于访问邮箱标识与的区域性。 适用于请求此标头。  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。 适用于请求此标头。  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应该请求的服务器的版本。 适用于响应此标头。  <br/> |
+|**模拟** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |标识客户端应用程序模拟的用户。 此标头适用于请求。  <br/> |
+|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |确定用于访问邮箱的区域性（如 RFC 3066 中定义的用于标识语言的标记）。 此标头适用于请求。  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。 此标头适用于请求。  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器版本。 此标头适用于响应。  <br/> |
    
-## <a name="getimitemlist-operation-request-example-request-your-im-items-list"></a>GetImItemList 操作请求示例： 请求您的 IM 项目列表
+## <a name="getimitemlist-operation-request-example-request-your-im-items-list"></a>GetImItemList 操作请求示例：请求即时消息项目列表
 
-**GetImItemList**操作请求的下面的示例演示如何请求的 IM 组的列表和 IM 联系人邮箱中的角色。 **GetImItemList**元素是 SOAP 正文中的唯一元素选项。 
+以下示例的**GetImItemList**操作请求显示如何请求邮箱中的 im 组和 im 联系人角色的列表。 **GetImItemList**元素是 SOAP 正文中唯一的元素选项。 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
       <t:MailboxCulture>en-US</t:MailboxCulture>
@@ -59,14 +59,14 @@ Exchange Server 2013 中引入了此操作。
   
 - [GetImItemList](getimitemlist.md)
     
-## <a name="successful-getimitemlist-operation-response"></a>成功 GetImItemList 操作响应
+## <a name="successful-getimitemlist-operation-response"></a>成功的 GetImItemList 操作响应
 
-下面的示例演示对**GetImItemList**操作请求成功响应。 则响应中包含四个 IM 组。 IM 组中的三个 — 其他联系人、 标记，和收藏夹 — 是 Exchange 存储中的默认组。 MyCustomGroup2 组是用户创建自定义组。 其他联系人和标记组没有成员。 收藏夹组具有单个联系人的成员。 MyCustomGroup2 具有两个成员的联系人。 提供了项标识符，以便可以执行后续**GetItem**请求以获取有关 IM 联系人详细信息。 
+下面的示例演示对**GetImItemList**操作请求的成功响应。 响应包含四个 IM 组。 三个 IM 组（"其他联系人"、"标记" 和 "收藏夹"）是 Exchange 存储中的默认组。 MyCustomGroup2 组是自定义的用户创建的组。 其他联系人和带标记的组没有成员。 "收藏夹" 组具有单个联系人成员。 MyCustomGroup2 有两个成员联系人。 提供了项目标识符，以便可以执行后续的**GetItem**请求，以获取有关 IM 联系人的详细信息。 
   
-本示例返回两个角色。 第一个角色表示两个联系人项目： 安 Smith 和 Tony Smith。 **个人**对象中返回的组合的联系人信息。 第二个角色表示 Terence Adams 的显示名称与单个联系人。 
+此示例返回两个角色。 第一个角色代表两个联系人项目： Anthony Smith 和 Tony Smith。 在**Persona**对象中返回组合的联系信息。 第二个角色表示单个联系人，其显示名称为 Terence Adams。 
   
 > [!NOTE]
-> Exchange 存储区标识符、 项标识符、 源标识符、 文件夹标识符和个人标识符已缩短要保留可读性。 
+> Exchange 存储标识符、项目标识符、源标识符、文件夹标识符和角色标识符已缩短，以保持可读性。 
   
 ```XML
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
@@ -76,18 +76,18 @@ Exchange Server 2013 中引入了此操作。
                            MajorBuildNumber="349" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" />
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" />
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <GetImItemListResponse ResponseClass="Success" 
-                             xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                             xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <ResponseCode>NoError</ResponseCode>
          <ImItemList>
-            <Groups xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <Groups xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
                <ImGroup>
                   <DisplayName>Other Contacts</DisplayName>
                   <GroupType>IPM.DistList.MOC.OtherContacts</GroupType>
@@ -123,7 +123,7 @@ Exchange Server 2013 中引入了此操作。
                   </MemberCorrelationKey>
                </ImGroup>
             </Groups>
-            <Personas xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <Personas xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
                <Persona>
                   <PersonaId Id="AAQkAGQ1MjJjMTBkLTc4YkZmRkYQAQAFgxE1nBcqRGgYWWorM9/+s=" />
                   <PersonaType>Person</PersonaType>
@@ -348,7 +348,7 @@ Exchange Server 2013 中引入了此操作。
 </s:Envelope>
 ```
 
-响应 SOAP 正文中包含以下元素：
+响应 SOAP 正文包含以下元素：
   
 - [GetImItemListResponse](getimitemlistresponse.md)
     
@@ -366,7 +366,7 @@ Exchange Server 2013 中引入了此操作。
     
 - [ItemId](itemid.md)
     
-- [角色](personas-ex15websvcsotherref.md)
+- [人数](personas-ex15websvcsotherref.md)
     
 - [PersonaId](personaid.md)
     
@@ -384,23 +384,23 @@ Exchange Server 2013 中引入了此操作。
     
 - [GivenName](givenname.md)
     
-- [姓](surname.md)
+- [姓氏](surname.md)
     
 - [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md)
     
 - [名称 (EmailAddressType)](name-emailaddresstype.md)
     
-- [RoutingType (EmailAddressType)](routingtype-emailaddresstype.md)
+- [RoutingType （EmailAddressType）](routingtype-emailaddresstype.md)
     
-- [EmailAddresses (ArrayOfEmailAddressesType)](emailaddresses-arrayofemailaddressestype.md)
+- [EmailAddresses （ArrayOfEmailAddressesType）](emailaddresses-arrayofemailaddressestype.md)
     
 - [ImAddress （字符串）](imaddress-string.md)
     
 - [RelevanceScore](relevancescore.md)
     
-- [归属 (ArrayOfPersonaAttributionsType)](attributions-arrayofpersonaattributionstype.md)
+- [归属（ArrayOfPersonaAttributionsType）](attributions-arrayofpersonaattributionstype.md)
     
-- [归属 (PersonaAttributionType)](attribution-personaattributiontype.md)
+- [归属（PersonaAttributionType）](attribution-personaattributiontype.md)
     
 - [ID （字符串）](id-string.md)
     
@@ -412,7 +412,7 @@ Exchange Server 2013 中引入了此操作。
     
 - [IsHidden](ishidden.md)
     
-- [文件夹 Id](folderid.md)
+- [FolderId](folderid.md)
     
 - [StringAttributedValue](stringattributedvalue.md)
     
@@ -422,7 +422,7 @@ Exchange Server 2013 中引入了此操作。
     
 - [GivenNames](givennames.md)
     
-- [姓](surnames.md)
+- [Surnames](surnames.md)
     
 - [HomePhones](homephones.md)
     
@@ -436,22 +436,22 @@ Exchange Server 2013 中引入了此操作。
     
 - [ImAddresses](imaddresses.md)
     
-- [值 (ExtendedPropertyType)](value-extendedpropertytype.md)
+- [Value （ExtendedPropertyType）](value-extendedpropertytype.md)
     
 ## <a name="getimitemlist-operation-error-response"></a>GetImItemList 操作错误响应
 
-下面的示例演示对**GetImItemList**操作请求错误响应。 这是对包含将不正确请求的服务器版本中的 SOAP 标头的请求的响应。 此错误响应 SOAP 故障，并不表示 EWS 架构中。 
+下面的示例演示对**GetImItemList**操作请求的错误响应。 这是对在 SOAP 标头中包含不正确的请求服务器版本的请求的响应。 此错误响应是一个 SOAP 错误，在 EWS 架构中不表示。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
    <s:Body>
       <s:Fault>
-         <faultcode xmlns:a="http://schemas.microsoft.com/exchange/services/2006/types">a:ErrorIncorrectSchemaVersion</faultcode>
+         <faultcode xmlns:a="https://schemas.microsoft.com/exchange/services/2006/types">a:ErrorIncorrectSchemaVersion</faultcode>
          <faultstring xml:lang="en-US">The request is valid but does not specify the correct server version in the RequestServerVersion SOAP header.  Ensure that the RequestServerVersion SOAP header is set with the correct RequestServerVersionValue.</faultstring>
          <detail>
-            <e:ResponseCode xmlns:e="http://schemas.microsoft.com/exchange/services/2006/errors">ErrorIncorrectSchemaVersion</e:ResponseCode>
-            <e:Message xmlns:e="http://schemas.microsoft.com/exchange/services/2006/errors">The request is valid but does not specify the correct server version in the RequestServerVersion SOAP header.  Ensure that the RequestServerVersion SOAP header is set with the correct RequestServerVersionValue.</e:Message>
+            <e:ResponseCode xmlns:e="https://schemas.microsoft.com/exchange/services/2006/errors">ErrorIncorrectSchemaVersion</e:ResponseCode>
+            <e:Message xmlns:e="https://schemas.microsoft.com/exchange/services/2006/errors">The request is valid but does not specify the correct server version in the RequestServerVersion SOAP header.  Ensure that the RequestServerVersion SOAP header is set with the correct RequestServerVersionValue.</e:Message>
          </detail>
       </s:Fault>
    </s:Body>
@@ -462,7 +462,7 @@ Exchange Server 2013 中引入了此操作。
 
 - [AddImGroup 操作](addimgroup-operation.md)
     
-- [人员和 Exchange 中的 EWS 中的联系人](http://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx)
+- [人员和 Exchange 中的 EWS 中的联系人](https://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx)
     
 - [GetImItems 操作](getimitems-operation.md)
     

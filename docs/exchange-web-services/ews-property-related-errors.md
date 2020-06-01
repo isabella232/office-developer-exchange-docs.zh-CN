@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 1c4c5969-7bdd-4021-be0e-cae99e86cf2c
 description: 了解如何处理属性相关 EWS 应用程序中的错误。
-ms.openlocfilehash: f214ab40c3717178c6957a9da93bdf89999fc1d3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5863ab4e06bd968aa38b6fdec471e09c5e23f54a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752718"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455406"
 ---
 # <a name="ews-property-related-errors"></a>EWS 与属性相关的错误
 
@@ -42,7 +42,7 @@ ms.locfileid: "19752718"
 |ErrorNoFolderClassOverride  <br/> |对新文件夹不是基文件夹类型设置文件夹类。  <br/> |使用一般文件夹类型设置文件夹类。  <br/> |
 |ErrorNoPropertyTagForCustomProperties  <br/> |根据属性标记引用的自定义扩展的属性。  <br/> |更新代码以引用自定义扩展属性的属性集标识符和属性名称或属性的调度标识符。  <br/> |
 |ErrorObjectTypeChanged  <br/> |设置或更新的架构类型不匹配的项的项类。  <br/> |更新您的代码，以使项目类匹配项的架构类型。  <br/> |
-|ErrorPropertyUpdate  <br/> |更新属性具有无效的属性值。  <br/> |在[UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx)请求中提交它之前检查该属性值。  <br/> |
+|ErrorPropertyUpdate  <br/> |更新属性具有无效的属性值。  <br/> |在[UpdateItem](https://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx)请求中提交它之前检查该属性值。  <br/> |
 |ErrorRequiredPropertyMissing  <br/> |发送 CreateAttachment 请求中缺少必需的属性。  <br/> |更新代码以将缺少的属性设置为指定的响应中返回的属性路径。  <br/> |
 |ErrorUnsupportedMapiPropertyType  <br/> |使用扩展的属性类型的类型对象、 对象数组、 错误或 null。  <br/> |更新代码以使用受限制的扩展的属性类型。  <br/> |
 |ErrorUnsupportedPathForQuery  <br/> |搜索限制中使用了不支持的属性的路径。  <br/> |更改搜索限制，以排除不受支持的属性路径。  <br/> |

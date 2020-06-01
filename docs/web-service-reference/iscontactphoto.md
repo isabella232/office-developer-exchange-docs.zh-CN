@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: ae36b5f9-a787-4863-9dbc-258ad724801d
-description: IsContactPhoto 元素指示文件附件是否是联系人的图片。
-ms.openlocfilehash: a015cd9bdb34ea9275952d5fe252a30cacf888ac
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: IsContactPhoto 元素指示文件附件是否为联系人图片。
+ms.openlocfilehash: f60e558ab4f20b59c1d5ae51f9dfca430feeff00
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825999"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455546"
 ---
 # <a name="iscontactphoto"></a>IsContactPhoto
 
-**IsContactPhoto**元素指示文件附件是否是联系人的图片。 
+**IsContactPhoto**元素指示文件附件是否为联系人图片。 
   
 ```xml
 <IsContactPhoto>true or false</IsContactPhoto>
@@ -30,9 +30,9 @@ ms.locfileid: "19825999"
  **boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -44,21 +44,21 @@ ms.locfileid: "19825999"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[FileAttachment](fileattachment.md) <br/> |代表附加到 Exchange 存储中的项的文件。  <br/> |
+|[FileAttachment](fileattachment.md) <br/> |代表附加到 Exchange 存储中的项目的文件。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-此元素可以是**true**或**false**。 默认值为 **false** 。
+此元素可以是**true** ，也可以是**false**。 默认值为 **false**。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-描述此元素的架构位于运行 Microsoft Exchange Server 已安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
+描述此元素的架构位于运行 Microsoft Exchange Server 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
   
 ## <a name="element-information"></a>元素信息
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -67,5 +67,5 @@ ms.locfileid: "19825999"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

@@ -1,5 +1,5 @@
 ---
-title: AlternateMailboxCollectionSetting (SOAP)
+title: AlternateMailboxCollectionSetting （SOAP）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -9,14 +9,14 @@ api_type:
 - schema
 ms.assetid: 0ba37d5b-3c19-4fdd-a196-b4723e6ba1b0
 description: AlternateMailboxCollectionSetting 元素包含备用邮箱设置的集合。
-ms.openlocfilehash: 4abff2a36b3937a9a24e44104d18722b5e5b5ec5
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 549aa297ca44106e1539080c369d6e7060a0bd43
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753140"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456225"
 ---
-# <a name="alternatemailboxcollectionsetting-soap"></a>AlternateMailboxCollectionSetting (SOAP)
+# <a name="alternatemailboxcollectionsetting-soap"></a>AlternateMailboxCollectionSetting （SOAP）
 
 **AlternateMailboxCollectionSetting**元素包含备用邮箱设置的集合。 
   
@@ -29,9 +29,9 @@ ms.locfileid: "19753140"
  **AlternateMailboxCollectionSetting**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -39,7 +39,7 @@ ms.locfileid: "19753140"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[AlternateMailboxes (SOAP)](alternatemailboxes-soap.md) <br/> |表示备用邮箱的集合。  <br/> |
+|[AlternateMailboxes （SOAP）](alternatemailboxes-soap.md) <br/> |代表备用邮箱的集合。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -53,12 +53,12 @@ ms.locfileid: "19753140"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |架构名称  <br/> |自动发现架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
-- [Exchange SOAP 自动发现 web 服务引用](soap-autodiscover-web-service-reference-for-exchange.md)
+- [Exchange 的 SOAP 自动发现 web 服务参考](soap-autodiscover-web-service-reference-for-exchange.md)
 

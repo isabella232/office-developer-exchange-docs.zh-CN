@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 56020078-50b4-4880-894a-a9f234033cfb
-description: ItemClass 元素均表示项目的消息类。
-ms.openlocfilehash: 7f146a8472362b8f3cd4062a4af2ce452e204742
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ItemClass 元素表示项目的邮件类。
+ms.openlocfilehash: 31d46b2b41b4b22ca5afeb842d7b0e0d16677920
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826149"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455413"
 ---
 # <a name="itemclass"></a>ItemClass
 
-**ItemClass**元素均表示项目的消息类。 
+**ItemClass**元素表示项目的邮件类。 
   
 ```XML
 <ItemClass/>
@@ -30,9 +30,9 @@ ms.locfileid: "19826149"
  **ItemClassType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -45,13 +45,13 @@ ms.locfileid: "19826149"
 |**元素**|**说明**|
 |:-----|:-----|
 |[AcceptItem](acceptitem.md) <br/> |表示接受答复会议要求。  <br/> |
-|[日历项目](calendaritem.md) <br/> |表示 Exchange 日历项。  <br/> |
-|[联系人](contact.md) <br/> |表示 Exchange 联系人项目。  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |表示 Exchange 日历项。  <br/> |
+|[Contact](contact.md) <br/> |表示 Exchange 联系人项目。  <br/> |
 |[对话 (ConversationType)](conversation-conversationtype.md) <br/> |表示单个对话。  <br/> |
 |[DeclineItem](declineitem.md) <br/> |表示谢绝答复会议要求。  <br/> |
 |[DistributionList](distributionlist.md) <br/> |表示通讯组列表。  <br/> |
-|[GlobalItemClasses](globalitemclasses.md) <br/> |包含列表项类的值，该值代表的邮箱中的会话项目的所有项类。  <br/> |
-|[Item](item.md) <br/> |表示的泛型 Exchange 项目。  <br/> |
+|[GlobalItemClasses](globalitemclasses.md) <br/> |包含表示邮箱中会话项目的所有项目类别的项目类别的列表。  <br/> |
+|[项](item.md) <br/> |表示通用 Exchange 项。  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |表示 Exchange 存储中的会议取消。  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |表示 Exchange 存储中的会议。  <br/> |
 |[MeetingRequest](meetingrequest.md) <br/> |表示 Exchange 存储中的会议请求。  <br/> |
@@ -63,11 +63,11 @@ ms.locfileid: "19826149"
    
 ## <a name="text-value"></a>文本值
 
-可能需要的项目类型与一致的文本值。 例如，如果您正在创建或更新一条消息，IPM。注意或与邮件一致的另一个类，则需要。 不允许空值。 但是，如果您正在创建或更新项，则空类型是有效。
+可能需要与项目类型一致的文本值。 例如，如果要创建或更新邮件，IPM。注释或另一个与消息一致的类是必需的。 不允许使用空值。 但如果要创建或更新项，则空类型是有效的。
   
-返回一个错误如果**ItemClass**设置为不一致的项目类型的值。 例如，一条消息**ItemClass**不能设置为**ItemClass**值的任务。 
+如果**ItemClass**设置为与项目类型不一致的值，则返回错误。 例如，不能将邮件的**ItemClass**设置为任务的**ItemClass**值。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -75,7 +75,7 @@ ms.locfileid: "19826149"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
@@ -84,5 +84,5 @@ ms.locfileid: "19826149"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

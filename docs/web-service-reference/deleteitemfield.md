@@ -11,22 +11,22 @@ api_name:
 api_type:
 - schema
 ms.assetid: 3893be6a-49a7-49f6-bf53-c7f819ec3f87
-description: DeleteItemField 元素均表示 UpdateItem 呼叫期间，从项目中删除给定的属性的操作。
-ms.openlocfilehash: 571227eece8f717c1bf5da27cfab8ae50dfe3572
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: DeleteItemField 元素表示在 UpdateItem 调用过程中从项中删除给定属性的操作。
+ms.openlocfilehash: e6f5ee8a1130d7c040f3ddd94021eff6d4a758b0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353880"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455672"
 ---
 # <a name="deleteitemfield"></a>DeleteItemField
 
-**DeleteItemField**元素均表示 UpdateItem 呼叫期间，从项目中删除给定的属性的操作。 
+**DeleteItemField**元素表示在 UpdateItem 调用过程中从项中删除给定属性的操作。 
  
 - [UpdateItem](updateitem.md)  
 - [ItemChanges](itemchanges.md) 
 - [ItemChange](itemchange.md) 
-- [Updates (Item)](updates-item.md) 
+- [更新（项目）](updates-item.md) 
 - [DeleteItemField](deleteitemfield.md)
   
 ```xml
@@ -62,14 +62,14 @@ ms.locfileid: "21353880"
 |**元素**|**说明**|
 |:-----|:-----|
 |[FieldURI](fielduri.md) <br/> |标识由 URI 频繁引用的属性。  <br/> |
-|[IndexedFieldURI](indexedfielduri.md) <br/> |标识字典属性中的各个成员。  <br/> |
-|[ExtendedFieldURI](extendedfielduri.md) <br/> |标识扩展的 MAPI 属性。  <br/> |
+|[IndexedFieldURI](indexedfielduri.md) <br/> |标识 dictionary 属性的各个成员。  <br/> |
+|[ExtendedFieldURI](extendedfielduri.md) <br/> |标识扩展 MAPI 属性。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Updates (Item)](updates-item.md) <br/> |包含一组定义的元素的 append、 设置和删除项目属性更改。  <br/><br/>下面是此元素的 XPath 表达式:  <br/>`/UpdateItem/ItemChanges/ItemChange[i]/Updates` <br/> |
+|[更新（项目）](updates-item.md) <br/> |包含一组元素，这些元素定义追加、设置和删除对项目属性所做的更改。  <br/><br/>下面是此元素的 XPath 表达式： <br/>`/UpdateItem/ItemChanges/ItemChange[i]/Updates` <br/> |
    
 ## <a name="remarks"></a>说明
 
@@ -79,7 +79,7 @@ ms.locfileid: "21353880"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |

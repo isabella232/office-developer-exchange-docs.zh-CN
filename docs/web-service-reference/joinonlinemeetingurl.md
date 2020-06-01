@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6a819bff-b6fc-4082-b311-179267ae8b4f
-description: JoinOnlineMeetingUrl 元素指定要加入联机会议 URL。
-ms.openlocfilehash: 642cfaccefc5342f705d9555377c7ec985c09f6c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: JoinOnlineMeetingUrl 元素指定要加入联机会议的 URL。
+ms.openlocfilehash: 57fb6c144d673f7e25b98e5450759f42312564a4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826187"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44454125"
 ---
 # <a name="joinonlinemeetingurl"></a>JoinOnlineMeetingUrl
 
-**JoinOnlineMeetingUrl**元素指定要加入联机会议 URL。 
+**JoinOnlineMeetingUrl**元素指定要加入联机会议的 URL。 
   
 ```XML
 <JoinOnlineMeetingUrl></JoinOnlineMeetingUrl>
@@ -26,9 +26,9 @@ ms.locfileid: "19826187"
  **string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -38,11 +38,11 @@ ms.locfileid: "19826187"
   
 ### <a name="parent-elements"></a>父元素
 
-[日历项目](calendaritem.md)
+[CalendarItem](calendaritem.md)
   
 ## <a name="text-value"></a>文本值
 
-**JoinOnlineMeetingUrl**元素的文本值是联机会议的 URL。 
+**JoinOnlineMeetingUrl**元素的文本值是指向联机会议的 URL。 
   
 ## <a name="remarks"></a>备注
 

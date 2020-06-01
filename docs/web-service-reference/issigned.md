@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: a4f90fe5-2834-4621-9aa3-b561f74d4674
-description: IsSigned 元素指示传入邮件是否必须登录的条件或例外应用的顺序。
-ms.openlocfilehash: 33ff204260465490c701c6573ff4140967ac625a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: IsSigned 元素指示是否必须签署传入的邮件，以便条件或例外情况适用。
+ms.openlocfilehash: fe8551d01e6f9e813da8936f15b0b7ba1d4ce56c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826105"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455525"
 ---
 # <a name="issigned"></a>IsSigned
 
-**IsSigned**元素指示传入邮件是否必须登录的条件或例外应用的顺序。 
+**IsSigned**元素指示是否必须签署传入的邮件，以便条件或例外情况适用。 
   
 ```XML
 <IsSigned>true | false</IsSigned>
@@ -30,9 +30,9 @@ ms.locfileid: "19826105"
  **Boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -49,9 +49,9 @@ ms.locfileid: "19826105"
    
 ## <a name="text-value"></a>文本值
 
-文本值为**true**指示邮件必须登录的条件或例外应用的顺序。 文本值为**false**指示邮件不需要进行签名的条件或例外应用。 
+如果文本值为**true** ，则表示必须对邮件进行签名，以便条件或例外情况适用。 如果文本值为**false** ，则表示无需签署该邮件即可应用的条件或例外。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -59,7 +59,7 @@ ms.locfileid: "19826105"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
@@ -68,5 +68,5 @@ ms.locfileid: "19826105"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

@@ -1,5 +1,5 @@
 ---
-title: CChkSGFiles.NO_FLAGS 枚举
+title: NO_FLAGS CChkSGFiles 枚举
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -11,29 +11,29 @@ api_name:
 api_type:
 - dllExport
 ms.assetid: 6b18b645-fec4-429a-9900-62ad0f19bf96
-description: 上次修改时间： 2013 年 2 月 22 日
-ms.openlocfilehash: dbe4cedf2011a1607a6db55dc064bd42dc229123
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 上次修改时间：2013年2月22日
+ms.openlocfilehash: a55bcf2c845b6896105d446a14a70cc45fbc3de2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753636"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455357"
 ---
-# <a name="cchksgfilesnoflags-enumeration"></a>CChkSGFiles.NO_FLAGS 枚举
+# <a name="cchksgfilesno_flags-enumeration"></a>NO_FLAGS CChkSGFiles 枚举
 
 **适用于：** Exchange Server 2003 |Exchange Server 2007 |Exchange Server 2010 |Exchange Server 2013
   
-充当大多数**CCheckSGFiles**类函数接受**ulFlags**参数的占位符值。 
+充当大多数**CCheckSGFiles**类函数接受的**ulFlags**参数的占位符值。 
   
 ```cs
 Enum { NO_FLAGS = 0 }
 
 ```
 
-## <a name="requirements"></a>要求
+## <a name="requirements"></a>Requirements
 
-Exchange Server 2013 只包括 CHKSGFILES API 的 64 位版本。
+Exchange Server 2013 仅包含64位版本的 CHKSGFILES API。
   
-下运行该应用程序的帐户必须具有对要检查的数据库和日志文件的读取访问权限。
+运行应用程序所使用的帐户必须具有对要检查的数据库和日志文件的读取访问权限。
   
 

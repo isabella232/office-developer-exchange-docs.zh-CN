@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 8e66979e-4e3b-4183-aaf5-a45d8380ede5
-description: LastResponseTime 元素均表示的日期和时间收到的最新响应。
-ms.openlocfilehash: 77f79d87be0b88f8c91c04438a2541643aad8858
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: LastResponseTime 元素表示收到的最新响应的日期和时间。
+ms.openlocfilehash: 45740d1a31d9b04bbc5062e7ff8b05629abd84c4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826205"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455378"
 ---
 # <a name="lastresponsetime"></a>LastResponseTime
 
-**LastResponseTime**元素均表示的日期和时间收到的最新响应。 
+**LastResponseTime**元素表示收到的最新响应的日期和时间。 
   
 ```xml
 <LastResponseTime/>
@@ -30,9 +30,9 @@ ms.locfileid: "19826205"
  **DateTime**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -44,21 +44,21 @@ ms.locfileid: "19826205"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[参与者](attendee.md) <br/> |代表与会者和会议的资源。  <br/> |
+|[与会者](attendee.md) <br/> |表示会议的与会者和资源。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-需要安装一个文本值，表示的日期和最新的响应的时间。
+需要表示最新响应的日期和时间的文本值。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-描述此元素的架构位于运行 MicrosoftExchange 2007 已安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
+描述此元素的架构位于运行 MicrosoftExchange 2007 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
   
 ## <a name="element-information"></a>元素信息
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -67,5 +67,5 @@ ms.locfileid: "19826205"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

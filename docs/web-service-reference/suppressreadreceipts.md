@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f0805560-7a2f-455b-94d2-ec4f1e3652c3
-description: 应禁止显示 SuppressReadReceipts 元素指示是否读回执。
-ms.openlocfilehash: 794252da6b3e6b6e6f36181c1811a2a001bfaf53
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: SuppressReadReceipts 元素指示是否应禁止显示已读回执。
+ms.openlocfilehash: aa604d4907582bd73727ba664958a589a222f9cb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838166"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455931"
 ---
 # <a name="suppressreadreceipts"></a>SuppressReadReceipts
 
-**SuppressReadReceipts**元素指示是否读取应禁止显示回执。 
+**SuppressReadReceipts**元素指示是否应禁止显示已读回执。 
   
 ```XML
 <SuppressReadReceipts>true | false</SuppressReadReceipts>
@@ -26,9 +26,9 @@ ms.locfileid: "19838166"
  **Boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -38,11 +38,11 @@ ms.locfileid: "19838166"
   
 ### <a name="parent-elements"></a>父元素
 
-[ConversationAction](conversationaction.md) | [MarkAllItemsAsRead](markallitemsasread.md)
+[ConversationAction](conversationaction.md)  | [MarkAllItemsAsRead](markallitemsasread.md)
   
 ## <a name="text-value"></a>文本值
 
-文本值为**true**的**SuppressReadReciepts**元素指示的 read 回执被禁止。 如果值为**false**指示的 read 将向发件人发送回执。 
+如果**SuppressReadReciepts**元素的文本值为**true** ，则表示已取消阅读回执。 **如果值为 false** ，则表示已读回执将发送给发件人。 
   
 ## <a name="remarks"></a>备注
 
@@ -54,7 +54,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> ||

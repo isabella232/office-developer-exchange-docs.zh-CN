@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 51186691-46d2-4d5c-b8bc-4ee2bb20fbe7
-description: 查找信息 GetImItems EWS 操作。
-ms.openlocfilehash: 4335cc22b22dc5f102f2221f7fdb22a506ba026f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 查找有关 GetImItems EWS 操作的信息。
+ms.openlocfilehash: 960f4683dd478b0e5f8cf18fa8d1593b7433a249
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754585"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456043"
 ---
 # <a name="getimitems-operation"></a>GetImItems 操作
 
 查找有关**GetImItems** EWS 操作的信息。 
   
-**GetImItems**操作中检索有关即时消息 (IM) 组的信息和 IM 联系角色。 
+**GetImItems**操作检索有关即时消息（IM）组和 IM 联系人角色的信息。 
   
 Exchange Server 2013 中引入了此操作。
   
 ## <a name="using-the-getimitems-operation"></a>使用 GetImItems 操作
 
-**GetImItems**操作接受组和联系人项目标识符，并返回一组和联系人信息。 响应中返回的属性集是由扩展属性，多个联系人的标识符，组标识符标识和扩展属性定义作为参数。 
+**GetImItems**操作接受组和联系人项目标识符，并返回有关组和联系人的一组信息。 在响应中返回的属性集由扩展属性、多个联系人标识符、组标识符和扩展属性定义标识为参数。 
   
 ### <a name="getimitems-operation-soap-headers"></a>GetImItems 操作 SOAP 标头
 
@@ -33,23 +33,23 @@ Exchange Server 2013 中引入了此操作。
   
 |**标头名称**|**元素**|**说明**|
 |:-----|:-----|:-----|
-|**模拟** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |标识模拟客户端应用程序的用户。 适用于请求此标头。  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |定义 RFC 3066 中，"标记的标识的语言"，以用于访问邮箱标识与的区域性。 适用于请求此标头。  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。 适用于请求此标头。  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应该请求的服务器的版本。 适用于响应此标头。  <br/> |
+|**模拟** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |标识客户端应用程序模拟的用户。 此标头适用于请求。  <br/> |
+|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |确定用于访问邮箱的区域性（如 RFC 3066 中定义的用于标识语言的标记）。 此标头适用于请求。  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。 此标头适用于请求。  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器版本。 此标头适用于响应。  <br/> |
    
-## <a name="getimitems-operation-request-example-get-detailed-information-about-im-contacts-and-groups"></a>GetImItems 操作请求示例： 获取有关 IM 联系人和组的详细的信息
+## <a name="getimitems-operation-request-example-get-detailed-information-about-im-contacts-and-groups"></a>GetImItems 操作请求示例：获取有关 IM 联系人和组的详细信息
 
-**GetImItems**操作请求的下面的示例演示如何请求 IM 联系人和组的详细的信息。 **GetImItems**操作可以请求一个或多个联系人或组详细信息。 扩展的属性还可用于获取自定义属性的组和联系人。 如果请求的扩展属性不存在的项，响应将忽略请求的属性，并返回的默认属性集的响应。 此示例演示如何通过使用扩展的属性获取的显示名称。 
+以下示例的**GetImItems**操作请求显示如何请求有关 IM 联系人和组的详细信息。 **GetImItems**操作可以请求一个或多个联系人或组的详细信息。 您还可以使用扩展属性获取组和联系人的自定义属性。 如果某一项上不存在请求的扩展属性，则响应将忽略所请求的属性，并返回默认属性集的响应。 本示例演示如何使用扩展属性获取显示名称。 
   
 > [!NOTE]
-> 所有项目标识符，本文中的更改项具有已截短要保留可读性。 此操作的服务，请注意，更改项将被忽略。 
+> 本文中的所有项目标识符和更改密钥都已缩短，以保持可读性。 请注意，服务将忽略此操作的更改键。 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
       <t:MailboxCulture>en-US</t:MailboxCulture>
@@ -78,15 +78,15 @@ Exchange Server 2013 中引入了此操作。
     
 - [ItemId](itemid.md)
     
-- [GroupIds](groupids.md)
+- [Groupid](groupids.md)
     
 - [ExtendedProperties (NonEmptyArrayOfExtendedFieldURIs)](extendedproperties-nonemptyarrayofextendedfielduris.md)
     
-- [ExtendedProperty (PathToExtendedFieldType)](extendedproperty-pathtoextendedfieldtype.md)
+- [ExtendedProperty （PathToExtendedFieldType）](extendedproperty-pathtoextendedfieldtype.md)
     
-## <a name="successful-getimitems-operation-response"></a>成功 GetImItems 操作响应
+## <a name="successful-getimitems-operation-response"></a>成功的 GetImItems 操作响应
 
-下面的示例演示对**GetImItems**请求以获取 IM 联系人和组的成功响应。 扩展属性中请求的显示名称。 IM 联系人角色的形式返回。 
+以下示例显示了对获取 IM 联系人和组的**GetImItems**请求的成功响应。 在扩展属性中请求显示名称。 IM 联系人以角色的形式返回。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -97,18 +97,18 @@ Exchange Server 2013 中引入了此操作。
                            MajorBuildNumber="556" 
                            MinorBuildNumber="8" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <GetImItemsResponse ResponseClass="Success" 
-                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <ResponseCode>NoError</ResponseCode>
          <ImItemList>
-            <Groups xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <Groups xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
                <ImGroup>
                   <DisplayName>Exchange SDK Team</DisplayName>
                   <GroupType>IPM.DistList.MOC.UserGroup</GroupType>
@@ -124,7 +124,7 @@ Exchange Server 2013 中引入了此操作。
                   </ExtendedProperties>
                </ImGroup>
             </Groups>
-            <Personas xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <Personas xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
                <Persona>
                   <PersonaId Id="AAQkADEzOTBZImBzN5J/uHXc="/>
                   <PersonaType>Person</PersonaType>
@@ -189,7 +189,7 @@ Exchange Server 2013 中引入了此操作。
 </s:Envelope>
 ```
 
-响应 SOAP 正文中包含以下元素：
+响应 SOAP 正文包含以下元素：
   
 - [GetImItemsResponse](getimitemsresponse.md)
     
@@ -197,7 +197,7 @@ Exchange Server 2013 中引入了此操作。
     
 - [ImItemList](imitemlist.md)
     
-- [组 (ArrayOfImGroupType)](groups-arrayofimgrouptype.md)
+- [组（ArrayOfImGroupType）](groups-arrayofimgrouptype.md)
     
 - [ImGroup](imgroup.md)
     
@@ -213,9 +213,9 @@ Exchange Server 2013 中引入了此操作。
     
 - [ExtendedProperties (NonEmptyArrayOfExtendedFieldURIs)](extendedproperties-nonemptyarrayofextendedfielduris.md)
     
-- [ExtendedProperty (PathToExtendedFieldType)](extendedproperty-pathtoextendedfieldtype.md)
+- [ExtendedProperty （PathToExtendedFieldType）](extendedproperty-pathtoextendedfieldtype.md)
     
-- [角色](personas-ex15websvcsotherref.md)
+- [人数](personas-ex15websvcsotherref.md)
     
 - [PersonaId](personaid.md)
     
@@ -235,9 +235,9 @@ Exchange Server 2013 中引入了此操作。
     
 - [RelevanceScore](relevancescore.md)
     
-- [归属 (ArrayOfPersonaAttributionsType)](attributions-arrayofpersonaattributionstype.md)
+- [归属（ArrayOfPersonaAttributionsType）](attributions-arrayofpersonaattributionstype.md)
     
-- [归属 (PersonaAttributionType)](attribution-personaattributiontype.md)
+- [归属（PersonaAttributionType）](attribution-personaattributiontype.md)
     
 - [ID （字符串）](id-string.md)
     
@@ -255,11 +255,11 @@ Exchange Server 2013 中引入了此操作。
     
 - [ImAddresses](imaddresses.md)
     
-- [值 (ExtendedPropertyType)](value-extendedpropertytype.md)
+- [Value （ExtendedPropertyType）](value-extendedpropertytype.md)
     
 ## <a name="getimitems-operation-error-response"></a>GetImItems 操作错误响应
 
-**GetImItems**操作不验证标识符，并且如果无效联系人或组标识符提供给服务不会返回预期的**ErrorInvalidImContactId**或**ErrorInvalidImGroupId**错误响应。 
+如果向服务提供了无效的联系人或组标识符，则**GetImItems**操作不会验证标识符，也不会返回预期的**ErrorInvalidImContactId**或**ErrorInvalidImGroupId**错误响应。 
   
 ## <a name="see-also"></a>另请参阅
 

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 48e7e067-049c-4184-8026-071e6f558e8a
-description: IsEqualTo 元素均表示一个搜索表达式的比较一个常数值的属性或另一个属性，并计算结果为 true，如果二者相等。
-ms.openlocfilehash: 733032819e6875fa878c1cd631d173a1c48ecdfe
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: IsEqualTo 元素表示搜索表达式，该表达式将属性与常数值或其他属性进行比较，如果它们相等，则计算结果为 true。
+ms.openlocfilehash: 857192443ab0520bb26ead399bc5364cc862a4fb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353159"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455294"
 ---
 # <a name="isequalto"></a>IsEqualTo
 
-**IsEqualTo**元素均表示一个搜索表达式的比较一个常数值的属性或另一个属性，并计算结果为 true，如果二者相等。 
+**IsEqualTo**元素表示搜索表达式，该表达式将属性与常数值或其他属性进行比较，如果它们相等，则计算结果为 true。 
   
 ```xml
 <IsEqualTo>
@@ -61,7 +61,7 @@ ms.locfileid: "21353159"
 |[FieldURI](fielduri.md) <br/> |标识由 URI 频繁引用的属性。  <br/> |
 |[IndexedFieldURI](indexedfielduri.md) <br/> |标识词典中的各个成员。  <br/> |
 |[ExtendedFieldURI](extendedfielduri.md) <br/> |标识 MAPI 属性。  <br/> |
-|[FieldURIOrConstant](fielduriorconstant.md) <br/> |代表属性或以常量值，用于比较与另一个属性。  <br/> |
+|[FieldURIOrConstant](fielduriorconstant.md) <br/> |表示与其他属性进行比较时要使用的属性或常数值。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -69,12 +69,12 @@ ms.locfileid: "21353159"
 |:-----|:-----|
 |[限制](restriction.md) <br/> |表示用于在 FindItem/FindFolder 中筛选项目或文件夹和搜索文件夹操作的限制或查询。  <br/> |
 |[not](not.md) <br/> |表示对其包含的搜索表达式的布尔值求反的搜索表达式。  <br/> |
-|[And](and.md) <br/> |代表一个搜索表达式，使您可以执行两个或多个搜索表达式之间 Boolean 和操作。 如果 And 中包含的搜索表达式都**为真**，和操作的结果为**true** 。  <br/> |
-|[或](or.md) <br/> |表示在其包含的搜索表达式上执行逻辑 OR 的搜索表达式。 [或](or.md)将返回 true 如果任何其子返回 true。 **Or** 必须有两个或多个子级。  <br/> |
+|[And](and.md) <br/> |表示允许您在两个或多个搜索表达式之间执行布尔 And 运算的搜索表达式。 如果和中包含的所有搜索表达式均**为 true**，则 and 操作的结果为**true** 。  <br/> |
+|[或](or.md) <br/> |表示在其包含的搜索表达式上执行逻辑 OR 的搜索表达式。 [或者](or.md)，如果其任何子级返回 true，则返回 true。 **Or** 必须有两个或多个子级。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
-若要执行字符串比较，应考虑使用[Contains](contains.md)元素，它提供选项匹配参数，如案例和空格。 将[不](not.md)元素中[包含](contains.md)元素结合使用，以否定结果。 
+若要执行字符串比较，请考虑使用[Contains](contains.md)元素，因为它提供了匹配参数的选项，如大小写和空格。 将[Not](not.md)元素与[Contains](contains.md)元素一起使用可对结果取负。 
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -82,12 +82,12 @@ ms.locfileid: "21353159"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

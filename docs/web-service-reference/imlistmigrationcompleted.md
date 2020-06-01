@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6eed9502-5d9e-4345-ba23-3582ff487147
-description: ImListMigrationCompleted 元素指示是否在 Exchange 存储包含使用即时消息客户端的即时消息项目。
-ms.openlocfilehash: 25f1b583b354a71958fbc8052c492726dc0eb7db
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ImListMigrationCompleted 元素指示 Exchange 存储是否包含即时消息客户端使用的即时消息项目。
+ms.openlocfilehash: 09f37d6e3663aab7cb98fc922f727ddd604f2acd
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825893"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456022"
 ---
 # <a name="imlistmigrationcompleted"></a>ImListMigrationCompleted
 
-**ImListMigrationCompleted**元素指示是否在 Exchange 存储包含即时消息使用即时消息客户端的项目。 
+**ImListMigrationCompleted**元素指示 Exchange 存储是否包含即时消息客户端使用的即时消息项目。 
   
 ```XML
 <ImListMigrationCompleted>true | false</ImListMigrationCompleted>
@@ -26,9 +26,9 @@ ms.locfileid: "19825893"
  **Boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,7 +42,7 @@ ms.locfileid: "19825893"
   
 ## <a name="text-value"></a>文本值
 
-文本值为**true**的**ImListMigrationCompleted**元素指示存储已迁移到 Exchange 即时消息联系人存储。 如果值为**false**指示尚未迁移的即时消息联系人存储。 
+如果**ImListMigrationCompleted**元素的文本值为**true** ，则表示即时消息联系人存储已迁移到 Exchange 存储。 **如果值为 false** ，则表示即时消息联系人存储尚未迁移。 
   
 ## <a name="remarks"></a>备注
 
@@ -54,7 +54,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> ||

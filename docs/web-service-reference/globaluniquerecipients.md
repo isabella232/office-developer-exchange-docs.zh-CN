@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 67379c1c-85d9-4b11-8f17-ad9d24904788
 description: GlobalUniqueRecipients元素中包含聚合在一个邮箱之间进行对话的收件人列表。
-ms.openlocfilehash: 5eb6e60d3ece8d8369f4603e36ffaaf72a3e459d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 3481c43b99f75a05a8e7fbe5a288e04708290d83
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825742"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456036"
 ---
 # <a name="globaluniquerecipients"></a>GlobalUniqueRecipients
 
@@ -40,9 +40,9 @@ ms.locfileid: "19825742"
  **ArrayOfStringsType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -62,7 +62,7 @@ ms.locfileid: "19825742"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   
@@ -70,9 +70,9 @@ ms.locfileid: "19825742"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |types.xsd  <br/> |
+|验证文件  <br/> |类型 .xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>另请参阅
@@ -84,5 +84,5 @@ ms.locfileid: "19825742"
 [ApplyConversationAction 操作](applyconversationaction-operation.md)
 
 
-[Conversations in EWS](http://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
+[Conversations in EWS](https://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
 

@@ -1,5 +1,5 @@
 ---
-title: 删除 (FolderSync)
+title: Delete （FolderSync）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,23 +11,23 @@ api_name:
 api_type:
 - schema
 ms.assetid: c4397d91-43ef-40a9-a80e-d31501a33caa
-description: 删除元素标识为在本地客户端库删除单个文件夹。
-ms.openlocfilehash: 5cad36c6fcff782195fdb285e2d3c4f3c5ec0f1e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Delete 元素标识要在本地客户端存储中删除的单个文件夹。
+ms.openlocfilehash: 68f8687b8cf0723d7fd63a3d55da8ef7c2f98f8e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753783"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44454979"
 ---
-# <a name="delete-foldersync"></a>删除 (FolderSync)
+# <a name="delete-foldersync"></a>Delete （FolderSync）
 
-**删除**元素标识为在本地客户端库删除单个文件夹。 
+**Delete**元素标识要在本地客户端存储中删除的单个文件夹。 
   
 - [SyncFolderHierarchyResponse](syncfolderhierarchyresponse.md)  
 - [ResponseMessages](responsemessages.md)  
 - [SyncFolderHierarchyResponseMessage](syncfolderhierarchyresponsemessage.md)  
-- [更改 （层次结构）](changes-hierarchy.md)  
-- [删除 (FolderSync)](delete-foldersync.md)
+- [更改（层次结构）](changes-hierarchy.md)  
+- [Delete （FolderSync）](delete-foldersync.md)
   
 ```xml
 <Delete>
@@ -39,9 +39,9 @@ ms.locfileid: "19753783"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -49,15 +49,15 @@ ms.locfileid: "19753783"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[文件夹 Id](folderid.md) <br/> |包含一个文件夹的标识符和更改键。  <br/> |
+|[FolderId](folderid.md) <br/> |包含一个文件夹的标识符和更改键。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[更改 （层次结构）](changes-hierarchy.md) <br/> |包含表示的客户端上的文件夹和运行 Microsoft Exchange Server 2007 的计算机上的文件夹之间的差异的类型的更改类型排序的数组。  <br/> |
+|[更改（层次结构）](changes-hierarchy.md) <br/> |包含更改类型的序列化数组，这些类型代表客户端上的文件夹与运行 Microsoft Exchange Server 2007 的计算机上的文件夹之间的差异类型。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
 描述此元素的架构位于安装了客户端访问服务器角色的 Exchange 2007 计算机的 EWS 虚拟目录中。
   
@@ -65,7 +65,7 @@ ms.locfileid: "19753783"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -74,5 +74,5 @@ ms.locfileid: "19753783"
 
 - [SyncFolderHierarchy 操作](syncfolderhierarchy-operation.md)
 - [Exchange 的 EWS 引用](ews-reference-for-exchange.md)
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

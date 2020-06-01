@@ -1,35 +1,35 @@
 ---
-title: 在 Exchange 使用 EWS 更新约会所在的时区
+title: 使用 Exchange 中的 EWS 更新约会的时区
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: dc2240c1-5500-4d5c-97d5-09d63ffd30d5
-description: 了解如何通过使用 EWS 的 EWS 托管 API 在 Exchange 更新现有约会或会议的时区。
-ms.openlocfilehash: 535eb9f546d9a4353408579f3a24750f32237699
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 了解如何使用 Exchange 中的 EWS 托管 API 或 EWS 更新现有约会或会议的时区。
+ms.openlocfilehash: 064f99997b7c3d1197cb8d1ee6a24f8fb874f706
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752894"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455840"
 ---
-# <a name="update-the-time-zone-for-an-appointment-by-using-ews-in-exchange"></a>在 Exchange 使用 EWS 更新约会所在的时区
+# <a name="update-the-time-zone-for-an-appointment-by-using-ews-in-exchange"></a>使用 Exchange 中的 EWS 更新约会的时区
 
-了解如何通过使用 EWS 的 EWS 托管 API 在 Exchange 更新现有约会或会议的时区。
+了解如何使用 Exchange 中的 EWS 托管 API 或 EWS 更新现有约会或会议的时区。
   
-当创建了 Exchange 日历约会或会议后，用于指定的开始和结束时间的时区另存为约会创建所在的时区。 您可以通过使用 EWS 托管 API 或 EWS 更改该所在的时区。 但是，更改约会上的时区具有对约会的开始和结束时间其他效果。
+在 Exchange 日历上创建约会或会议时，用于指定开始和结束时间的时区将保存为约会的创建时区。 您可以使用 EWS 托管 API 或 EWS 更改该时区。 但是，更改约会上的时区会对约会的开始时间和结束时间产生其他影响。
   
-时间值存储在 Exchange 服务器以协调世界时 (UTC)。 因此，如果约会设置为 1:00 (13:00) 在启动在东部时区 (UTC-05:00)，值为 6:00 (18:00) 存储在服务器上，假定该时区在其标准时间阶段。 时在其他时区查看该约会时，添加或从 UTC 值来确定特定于所在的时区的时间中减去适当的小时数。 例如，如果约会开始时间 1:00 在东部 (下午 6:00 UTC)，并查看来自客户端在太平洋时区 (UTC-08:00)，时区特定开始时间，为该客户端将为 10:00 (18:00-08:00)。
+时间值以协调通用时间（UTC）的形式存储在 Exchange 服务器上。 因此，如果约会设置为在东部时区（UTC-05:00）中以 1:00 PM （13:00）开始，则该值在服务器上存储为 6:00 PM （18:00），假定时区处于其标准时间阶段。 在其他时区中查看该约会时，将从 UTC 值中添加或减去相应的小时数，以确定特定时区的时间。 例如，如果约会的开始时间为东部时间下午1:00 （6:00 PM UTC），并且在太平洋时区（UTC-08:00）中从客户端查看，则该客户端的时区特定开始时间为 10:00 AM （18:00-08:00）。
   
-更新时所在的时区的约会不更新开始和结束时间的情况下，服务器将更新保留为相同的特定于所在的时区的时间的开始和结束时间在服务器上存储的 UTC 值。 例如，假设 1:00 东部约会。 作为 18:00 UTC 的服务器上存储的时间。 如果约会的时区更改为太平洋时区，服务器会转移到 1:00 的开始时间太平洋 (21:00 UTC)。
+当您更新约会的时区而不更新开始和结束时间时，服务器将更新存储在服务器上的 UTC 值，以使开始时间和结束时间与时区特定的时间相同。 例如，请考虑 "东部时间下午 1:00" 约会。 时间存储为服务器上的 18:00 UTC。 如果约会的时区更改为 "太平洋时区"，则服务器将开始时间更改为 "太平洋时间 1:00 PM （21:00 UTC）"。
   
-您可以通过显式设置的开始和结束时间来更改此行为。
+您可以通过显式设置开始时间和结束时间来更改此行为。
   
 ## <a name="updating-the-time-zone-on-an-existing-appointment-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 更新现有约会上的时区
 
-以下示例中，在 EWS 托管 API 用于通过更新的**Appointment.StartTimeZone**和**Appointment.EndTimeZone**属性更新为中央所在的时区的现有约会上的时区。 如果_shiftAppointnment_参数设置为**true**，代码不明确设置的开始和结束时间在约会。 在这种情况下，服务器将 shift 的开始和结束时间，以使其保持在新的时区中相同的相对于所在的时区的时间。 如果设置为**false**，则代码将转换显式可在 UTC 保留同时约会的开始和结束的时间。 
+在下面的示例中，通过更新**StartTimeZone**和**EndTimeZone**属性，可以使用 EWS 托管 API 将现有约会上的时区更新为中央时区。 如果将_shiftAppointnment_参数设置为**true**，则代码不会显式设置约会的开始时间和结束时间。 在这种情况下，服务器将移动开始和结束时间，以使其在新时区中的相对时区相同。 如果设置为**false**，则代码将显式转换开始时间和结束时间，以在 UTC 时间内保持约会。 
 
-本示例假定已初始化**ExchangeService**对象，在[凭据](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx)和[Url](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx)属性的有效值。 
+此示例假定已使用[凭据](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx)和[Url](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx)属性中的有效值对**ExchangeService**对象进行了初始化。 
   
 ```cs
 static void UpdateAppointmentTimeZone(ExchangeService service, ItemId apptId, bool shiftAppointment)
@@ -112,7 +112,7 @@ static void UpdateAppointmentTimeZone(ExchangeService service, ItemId apptId, bo
 }
 ```
 
-该示例用于更新约会的开始，在 1:00 东部和在下午 2:00 结束东部，与_shiftAppointment_参数设置为 true，则和[ExchangeService.TimeZone](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.timezone%28v=exchg.80%29.aspx)属性设置为东部时区、 输出看起来如下所示。 
+当使用此示例更新从美国东部时间下午1:00 点开始的约会，并在美国东部时间下午2:00 结束时，将_shiftAppointment_参数设置为 true，并将[ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.timezone%28v=exchg.80%29.aspx)属性设置为东部时区，输出如下所示： 
   
 ```MS-DOS
 Before update:
@@ -129,7 +129,7 @@ After update:
   End time zone: (UTC-06:00) Central Time (US &amp; Canada)
 ```
 
-该示例使用_shiftAppointment_参数设置为 false，与和重新设置为东部时区的**TimeZone**属性更新了同一约会时, 的输出如下所稍有不同。 
+当使用此示例将_shiftAppointment_参数设置为 false，并再次将**时区**属性设置为东部时区时，输出的外观略有不同。 
   
 ```MS-DOS
 Before update:
@@ -146,18 +146,18 @@ After update:
   End time zone: (UTC-06:00) Central Time (US &amp; Canada)
 ```
 
-请注意，不会更改的开始和结束时间。 这是因为时间以东部时间正在解释区域 （因为**TimeZone**属性设置为东部时区），和时间值已更新，以防止约会从进行切换。 
+请注意，开始时间和结束时间不会发生变化。 这是因为时间是在东部时区进行解释（因为 "**时区**" 属性设置为 "东部时区"），并且时间值已更新，以防止约会发生变化。 
   
 ## <a name="updating-the-time-zone-on-an-existing-appointment-by-using-ews"></a>使用 EWS 更新现有约会上的时区
 
-以下示例 EWS [UpdateItem 操作](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx)请求更新对约会所在的时区。 本示例仅更新[StartTimeZone](http://msdn.microsoft.com/library/d38c4dc1-4ecb-42a1-8d57-a451b16a2de2%28Office.15%29.aspx)和[EndTimeZone](http://msdn.microsoft.com/library/6c53c337-be60-4d22-9e9e-a0c140c5e913%28Office.15%29.aspx)元素，以便服务器将 shift 以使其保持在同一时间区域相对时间中新的时区的约会的开始和结束时间。 为便于阅读将被截**ItemId**元素的值。 
+下面的示例 EWS [UpdateItem 操作](https://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx)请求更新约会上的时区。 本示例仅更新[StartTimeZone](https://msdn.microsoft.com/library/d38c4dc1-4ecb-42a1-8d57-a451b16a2de2%28Office.15%29.aspx)和[EndTimeZone](https://msdn.microsoft.com/library/6c53c337-be60-4d22-9e9e-a0c140c5e913%28Office.15%29.aspx)元素，因此服务器将移动约会的开始和结束时间，以使其在新时区中的时间与时区相对应。 为了提高可读性， **ItemId**元素的值被缩短。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010" />
   </soap:Header>
@@ -187,14 +187,14 @@ After update:
 </soap:Envelope>
 ```
 
-以下示例请求更新所在的时区的约会，并通过显式设置的**开始**和**结束**元素日还更新的开始和结束时间。 为便于阅读将被截**ItemId**元素的值。 
+下面的示例请求更新约会的时区，并通过显式设置**start**和**end**元素来更新开始和结束时间。 为了提高可读性， **ItemId**元素的值被缩短。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010" />
   </soap:Header>
@@ -239,7 +239,7 @@ After update:
 ## <a name="see-also"></a>另请参阅
 
 - [时区和 Exchange 中的 EWS](time-zones-and-ews-in-exchange.md)   
-- [通过在 Exchange 使用 EWS 特定时区中创建约会](how-to-create-appointments-in-a-specific-time-zone-by-using-ews-in-exchange.md)   
-- [在 Exchange 使用 EWS 更新约会和会议](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)
+- [使用 Exchange 中的 EWS 在特定时区中创建约会](how-to-create-appointments-in-a-specific-time-zone-by-using-ews-in-exchange.md)   
+- [使用 Exchange 中的 EWS 更新约会和会议](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)
     
 

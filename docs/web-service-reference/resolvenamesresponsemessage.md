@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: edcdaf58-ef63-412e-8c58-409213e6ab0d
-description: ResolveNamesResponseMessage 元素包含状态和 ResolveNames 操作请求的结果。
-ms.openlocfilehash: 953a1f0b19c078d969ffe175c22df02b58c5e939
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ResolveNamesResponseMessage 元素包含 ResolveNames 操作请求的状态和结果。
+ms.openlocfilehash: 12f32008dbbc603fca7adf26057f1f1904d3cfb2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827170"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455595"
 ---
 # <a name="resolvenamesresponsemessage"></a>ResolveNamesResponseMessage
 
-**ResolveNamesResponseMessage**元素包含状态和[ResolveNames 操作](resolvenames-operation.md)请求的结果。 
+**ResolveNamesResponseMessage**元素包含[ResolveNames 操作](resolvenames-operation.md)请求的状态和结果。 
   
 - [ResolveNamesResponse](resolvenamesresponse.md) 
 - [ResponseMessages](responsemessages.md)
@@ -40,47 +40,47 @@ ms.locfileid: "19827170"
  **ResolveNamesResponseMessageType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**说明**|
 |:-----|:-----|
-|**ResponseClass** <br/> | 描述[ResolveNames 操作](resolvenames-operation.md)的响应的状态。 <br/><br/>下面是此属性有效值：  <br/><br/>-成功  <br/>-警告  <br/>-错误  <br/> |
+|**ResponseClass** <br/> | 描述[ResolveNames 操作](resolvenames-operation.md)响应的状态。 <br/><br/>以下值对此属性有效：  <br/><br/>-成功  <br/>-警告  <br/>-错误  <br/> |
    
 #### <a name="responseclass-attribute"></a>ResponseClass 属性
 
 |**值**|**说明**|
 |:-----|:-----|
-|**成功** <br/> |介绍的已完成的请求。 请求的名称是明确，则响应中包含单个收件人时，将发生这种情况。  <br/> |
-|**Warning** <br/> | 介绍了未处理的请求。 如果请求中的项目处理和无法处理后续项时出错，则可能会返回一条警告。 <br/><br/>以下是源的警告的示例：  <br/><br/>在批处理期间脱机-Exchange 存储。  <br/>-Active Directory 域服务 (AD DS) 将脱机。  <br/>的移动邮箱。  <br/>-邮箱数据库 (MDB) 脱机。  <br/>的已过期密码。  <br/>超出了-配额。  <br/>-请求的名称不明确，则响应中包含多个收件人。  <br/> |
-|**Error** <br/> | 描述无法满足请求。 <br/><br/>错误的来源的示例如下：  <br/><br/>的无法解析请求的名称。  <br/>-属性或元素无效。  <br/>-属性或元素超出范围。  <br/>的未知标记。  <br/>-属性或元素在上下文中无效。  <br/>的将出现的任何客户端未经授权的访问尝试。  <br/>的有效的客户端的呼叫的响应中出现服务器端故障。  <br/>  <br/>[ResponseCode](responsecode.md)和[MessageText](messagetext.md)元素中，可以找到有关错误的信息。  <br/> |
+|**Success** <br/> |描述已完成的请求。 当请求的名称明确且响应包含单个收件人时，会出现这种情况。  <br/> |
+|**警告** <br/> | 介绍未处理的请求。 如果在处理请求中的项目时出现错误，并且无法处理后续项目，则可能会返回一个警告。 <br/><br/>以下是警告源的示例：  <br/><br/>-Exchange 存储在批处理过程中脱机。  <br/>-Active Directory 域服务（AD DS）脱机。  <br/>-移动邮箱。  <br/>-邮箱数据库（MDB）脱机。  <br/>-密码已过期。  <br/>-超出配额。  <br/>-请求的名称不明确，响应中包含多个收件人。  <br/> |
+|**Error** <br/> | 介绍无法满足的请求。 <br/><br/>以下是错误源的示例：  <br/><br/>-无法解析请求的名称。  <br/>-属性或元素无效。  <br/>-属性或元素超出范围。  <br/>-标记未知。  <br/>-上下文中的属性或元素无效。  <br/>-发生任何客户端的未经授权的访问尝试。  <br/>-响应有效的客户端调用时发生服务器端故障。  <br/>  <br/>有关错误的信息可以在[ResponseCode](responsecode.md)和[MessageText](messagetext.md)元素中找到。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
-|**元素**|**说明**|
+|**元素**|**描述**|
 |:-----|:-----|
-|[MessageText](messagetext.md) <br/> |提供的响应状态的文本说明。  <br/> |
-|[ResponseCode](responsecode.md) <br/> |提供有关请求错误的信息。  <br/> |
-|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |当前未使用，供将来使用。 它包含的值为 0。  <br/> |
-|[MessageXml](messagexml.md) <br/> |提供了其他错误响应信息。  <br/> |
-|[ResolutionSet](resolutionset.md) <br/> |包含的不明确名称解析的数组。  <br/> |
+|[MessageText](messagetext.md) <br/> |提供响应状态的文本说明。  <br/> |
+|[ResponseCode](responsecode.md) <br/> |提供有关请求的错误消息。  <br/> |
+|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |当前未使用，并保留以供将来使用。 它包含值0。  <br/> |
+|[MessageXml](messagexml.md) <br/> |提供其他错误响应信息。  <br/> |
+|[ResolutionSet](resolutionset.md) <br/> |包含一个不明确名称的分辨率数组。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
-|**元素**|**说明**|
+|**元素**|**描述**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |包含为 Exchange Web 服务请求的响应消息。  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |包含 Exchange Web 服务请求的响应消息。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-描述此元素的架构位于运行 Microsoft Exchange Server 2010 的安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
+描述此元素的架构位于运行 Microsoft Exchange Server 2010 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
   
 ## <a name="element-information"></a>元素信息
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |

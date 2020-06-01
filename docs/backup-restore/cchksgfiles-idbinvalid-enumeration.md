@@ -1,5 +1,5 @@
 ---
-title: CChkSGFiles.iDbInvalid 枚举
+title: IDbInvalid 枚举 CChkSGFiles
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -11,29 +11,29 @@ api_name:
 api_type:
 - dllExport
 ms.assetid: 3d2b754f-2161-4377-b5f8-35abe3033b68
-description: 上次修改时间： 2013 年 2 月 22 日
-ms.openlocfilehash: e0dbe4998217a4dcd237b6dfa3385cc71a2b03e7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 上次修改时间：2013年2月22日
+ms.openlocfilehash: 5a2d32da114391a623d5b0cc2d6c5ca49db78148
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753626"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455504"
 ---
-# <a name="cchksgfilesidbinvalid-enumeration"></a>CChkSGFiles.iDbInvalid 枚举
+# <a name="cchksgfilesidbinvalid-enumeration"></a>IDbInvalid 枚举 CChkSGFiles
 
 **适用于：** Exchange Server 2003 |Exchange Server 2007 |Exchange Server 2010 |Exchange Server 2013
   
-指示数据库无效索引。
+指示无效的数据库索引。
   
 ```cs
 Enum { iDbInvalid = 0xFFFFFFF }
 
 ```
 
-## <a name="requirements"></a>要求
+## <a name="requirements"></a>Requirements
 
-Exchange Server 2013 只包括 CHKSGFILES API 的 64 位版本。
+Exchange Server 2013 仅包含64位版本的 CHKSGFILES API。
   
-下运行该应用程序的帐户必须具有对要检查的数据库和日志文件的读取访问权限。
+运行应用程序所使用的帐户必须具有对要检查的数据库和日志文件的读取访问权限。
   
 

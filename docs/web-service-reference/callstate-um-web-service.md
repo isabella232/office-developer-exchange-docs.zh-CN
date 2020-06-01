@@ -10,17 +10,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 88670707-12f7-41c5-ac81-dda0c354a2cb
-description: CallState 元素包含一个值，指示的呼叫状态。
-ms.openlocfilehash: e751c2e38783c6634a44d8e1b830a9224cdf300a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: CallState 元素包含一个值，该值指示呼叫的状态。
+ms.openlocfilehash: 44614c460286ff49ebc2373263c1827c6be5cc08
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753431"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44454608"
 ---
 # <a name="callstate-um-web-service"></a>CallState （UM web 服务）
 
-**CallState**元素包含一个值，指示的呼叫状态。 
+**CallState**元素包含一个值，该值指示呼叫的状态。 
   
 [GetCallInfoResponse （UM web 服务）](getcallinforesponse-um-web-service.md)
   
@@ -33,9 +33,9 @@ ms.locfileid: "19753431"
  **UMCallState**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -47,33 +47,33 @@ ms.locfileid: "19753431"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GetCallInfoResponse （UM web 服务）](getcallinforesponse-um-web-service.md) <br/> |定义对[GetCallInfo 操作 （UM web 服务）](getcallinfo-operation-um-web-service.md)的响应。  <br/> |
+|[GetCallInfoResponse （UM web 服务）](getcallinforesponse-um-web-service.md) <br/> |定义对[GetCallInfo 操作（UM web 服务）](getcallinfo-operation-um-web-service.md)的响应。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
 文本值是必需的。 以下是可能的值：
   
-- 空闲时间
+- 待机
     
 - 正在连接
     
-- 收到通知
+- 收到
     
 - 已连接
     
 - 已断开连接
     
-- 传入
+- 即将
     
-- 转接
+- 传输
     
-- 转接
+- 发送
     
 ## <a name="element-information"></a>元素信息
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/message  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/message  <br/> |
 |架构名称  <br/> |邮件  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -82,7 +82,7 @@ ms.locfileid: "19753431"
 
 
 
-[GetCallInfo 操作 （UM web 服务）](getcallinfo-operation-um-web-service.md)
+[GetCallInfo 操作（UM web 服务）](getcallinfo-operation-um-web-service.md)
   
 [GetCallInfoResponse （UM web 服务）](getcallinforesponse-um-web-service.md)
 

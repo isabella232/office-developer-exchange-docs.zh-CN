@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c9778823-f290-4827-ba19-5f391ed4f877
-description: MailboxScope 元素标识是否搜索或进行对话的提取应跨越主邮箱、 存档邮箱或两个主要并存档邮箱。
-ms.openlocfilehash: 89c9776079d686b114d6b744150f1c6df3711eab
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: MailboxScope 元素确定对话的搜索或获取是否应跨越主邮箱、存档邮箱或主邮箱和存档邮箱。
+ms.openlocfilehash: 92823c06d4fe186917c3cfb532eda821bd6a95a7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826293"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455371"
 ---
 # <a name="mailboxscope"></a>MailboxScope
 
-**MailboxScope**元素标识是否搜索或进行对话的提取应跨越主邮箱、 存档邮箱或两个主要并存档邮箱。 
+**MailboxScope**元素确定对话的搜索或获取是否应跨越主邮箱、存档邮箱或主邮箱和存档邮箱。 
   
 ```XML
 <MailboxScope> PrimaryOnly | ArchiveOnly | All </MailboxScope>
@@ -27,9 +27,9 @@ ms.locfileid: "19826293"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -39,11 +39,11 @@ ms.locfileid: "19826293"
   
 ### <a name="parent-elements"></a>父元素
 
-[FindConversation](findconversation.md) | [GetConversationItems](getconversationitems.md) | [对话 (ConversationType)](conversation-conversationtype.md)
+[FindConversation](findconversation.md)  | [GetConversationItems](getconversationitems.md)  | [对话（ConversationType）](conversation-conversationtype.md)
   
 ## <a name="text-value"></a>文本值
 
-**MailboxScope**元素的文本值是用于查找的作用域或获取项目在任一主邮箱跨对话中，存档邮箱或两个主和存档邮箱。 **PrimaryOnly**文本值表示目标用户的主邮箱的范围。 **ArchiveOnly**文本值表示目标用户的存档邮箱的范围。 文本值的**所有**表示目标的主邮箱和存档邮箱的范围。 
+**MailboxScope**元素的文本值是在整个主邮箱、存档邮箱或主邮箱和存档邮箱中查找或获取项目的作用域。 **PrimaryOnly**的文本值表示针对某个用户的主邮箱的作用域。 **ArchiveOnly**的文本值表示针对某个用户的存档邮箱的作用域。 "**全部**" 文本值表示一个作用域，该作用域面向主邮箱和存档邮箱。 
   
 ## <a name="remarks"></a>备注
 
@@ -55,7 +55,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |false  <br/> |

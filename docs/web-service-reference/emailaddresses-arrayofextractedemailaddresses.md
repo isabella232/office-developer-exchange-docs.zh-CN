@@ -1,5 +1,5 @@
 ---
-title: EmailAddresses (ArrayOfExtractedEmailAddresses)
+title: EmailAddresses （ArrayOfExtractedEmailAddresses）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2c1996b7-a711-416a-9792-998290a87835
-description: EmailAddresses 元素指定数组提取电子邮件地址。
-ms.openlocfilehash: 46a6c2fb2dcd5d4587460c2d5d518a4795271da9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: EmailAddresses 元素指定一组已提取的电子邮件地址。
+ms.openlocfilehash: 2a93829d5079b5b71af7bb29124ed03ac929ab1b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754065"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456183"
 ---
-# <a name="emailaddresses-arrayofextractedemailaddresses"></a>EmailAddresses (ArrayOfExtractedEmailAddresses)
+# <a name="emailaddresses-arrayofextractedemailaddresses"></a>EmailAddresses （ArrayOfExtractedEmailAddresses）
 
-**EmailAddresses**元素指定数组提取电子邮件地址。 
+**EmailAddresses**元素指定一组已提取的电子邮件地址。 
   
 ```XML
 <EmailAddresses>
@@ -28,9 +28,9 @@ ms.locfileid: "19754065"
  **ArrayOfExtractedEmailAddresses**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -40,7 +40,7 @@ ms.locfileid: "19754065"
   
 ### <a name="parent-elements"></a>父元素
 
-[联系人 (ContactType)](contact-contacttype.md)
+[Contact （ContactType）](contact-contacttype.md)
   
 ## <a name="remarks"></a>备注
 
@@ -52,7 +52,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> ||

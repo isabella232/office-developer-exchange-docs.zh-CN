@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: c7e3035e-a4ef-4c11-8cb0-214790a554ff
-description: IsEnabled 元素指示是否启用规则。
-ms.openlocfilehash: d0f0a77ec1ec952ac1cd9d9ad686ccfcb8f70c42
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: IsEnabled 元素指示是否已启用该规则。
+ms.openlocfilehash: 7a150dc4a27cf4ff7da9825d1daae2b747088539
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826000"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455308"
 ---
 # <a name="isenabled"></a>IsEnabled
 
-**IsEnabled**元素指示是否启用规则。 
+**IsEnabled**元素指示是否已启用该规则。 
   
 ```XML
 <IsEnabled/>
@@ -30,9 +30,9 @@ ms.locfileid: "19826000"
  **Boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -48,9 +48,9 @@ ms.locfileid: "19826000"
    
 ## <a name="text-value"></a>文本值
 
-指示文本值为**true**的规则启用，并且可以执行。 如果值为**false**指示无法执行规则。 
+如果文本值为**true** ，则表示已启用并可执行该规则。 **如果值为 false** ，则表示无法执行该规则。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -58,7 +58,7 @@ ms.locfileid: "19826000"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
@@ -67,5 +67,5 @@ ms.locfileid: "19826000"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

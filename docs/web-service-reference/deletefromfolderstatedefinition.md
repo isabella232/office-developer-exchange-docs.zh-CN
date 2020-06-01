@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3aba59a0-f12a-48b5-842b-11cf4530dd51
-description: 从文件夹中删除项时，DeleteFromFolderStateDefinition 元素指定的状态。
-ms.openlocfilehash: 7b6374b9fa55d3b08569e8ac9e247dd6e5bebc24
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: DeleteFromFolderStateDefinition 元素指定从文件夹中删除项目时的状态。
+ms.openlocfilehash: 0ea8c61a6839790869781d5d87ca81772b2e38d6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753807"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455721"
 ---
 # <a name="deletefromfolderstatedefinition"></a>DeleteFromFolderStateDefinition
 
-从文件夹中删除项时， **DeleteFromFolderStateDefinition**元素指定的状态。 
+**DeleteFromFolderStateDefinition**元素指定从文件夹中删除项目时的状态。 
   
 ```XML
 <DeleteFromFolderStateDefinition>
@@ -29,9 +29,9 @@ ms.locfileid: "19753807"
  **DeleteFromFolderStateDefinitionType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -39,8 +39,8 @@ ms.locfileid: "19753807"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[出现 （所在的时区转换）](occurrence-time-zone-transition.md) <br/> |指定日历项的匹配项的日期。  <br/> |
-|[IsOccurrencePresent](isoccurrencepresent.md) <br/> |指定一个布尔值，该值指示是否存在日历项匹配项。  <br/> |
+|[事件（时区转换）](occurrence-time-zone-transition.md) <br/> |指定日历项的发生日期。  <br/> |
+|[IsOccurrencePresent](isoccurrencepresent.md) <br/> |指定一个布尔值，该值指示是否存在日历项。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -58,12 +58,12 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |types.xsd  <br/> |
+|验证文件  <br/> |类型 .xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

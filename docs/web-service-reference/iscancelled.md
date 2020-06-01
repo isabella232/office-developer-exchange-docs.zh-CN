@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 50c1e97f-2913-47a1-8457-60428a3c5b92
-description: IsCancelled 元素指示是否已取消约会或会议。
-ms.openlocfilehash: 594b8a9ccb535f074a8cf1da060373f640231a29
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: IsCancelled 元素指示约会或会议是否已被取消。
+ms.openlocfilehash: 946c9d956da9cf31e9fa08d4ab6f4950b11214b9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825993"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455567"
 ---
 # <a name="iscancelled"></a>IsCancelled
 
-**IsCancelled**元素指示是否已取消约会或会议。 
+**IsCancelled**元素指示约会或会议是否已被取消。 
   
 ```xml
 <IsCancelled/>
@@ -30,9 +30,9 @@ ms.locfileid: "19825993"
  **Boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -44,14 +44,14 @@ ms.locfileid: "19825993"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[日历项目](calendaritem.md) <br/> |表示 Exchange 日历项。  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |表示 Exchange 日历项。  <br/> |
 |[MeetingRequest](meetingrequest.md) <br/> |表示 Exchange 存储中的会议请求。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-如果此元素是包含，则需要一个文本值，它代表一个布尔值。 值为**true**指示日历项目已被取消。 如果值为**false**指示日历项目不被取消。 
+如果包含此元素，则需要一个表示布尔值的文本值。 **如果值为 true** ，则表示已取消日历项目。 **如果值为 false** ，则表示日历项目尚未取消。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -59,7 +59,7 @@ ms.locfileid: "19825993"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -68,5 +68,5 @@ ms.locfileid: "19825993"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 
