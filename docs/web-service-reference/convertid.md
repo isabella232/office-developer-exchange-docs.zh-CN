@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 9684c22c-29d4-4f7f-befc-8cd41da56d38
-description: ConvertId 元素定义转换支持 Exchange 格式之间的项目和文件夹标识符的请求。 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 中引入了此元素。
-ms.openlocfilehash: 956f6464fd9013f9e72d2915f21c3b011d0add5b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ConvertId 元素定义了在受支持的 Exchange 格式之间转换项目和文件夹标识符的请求。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
+ms.openlocfilehash: d421baf1f29fb59a8c6eb2b09e1fa0e8a38ffaa4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753593"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44452536"
 ---
-# <a name="convertid"></a><span data-ttu-id="8e245-104">ConvertId</span><span class="sxs-lookup"><span data-stu-id="8e245-104">ConvertId</span></span>
+# <a name="convertid"></a><span data-ttu-id="30dc5-104">ConvertId</span><span class="sxs-lookup"><span data-stu-id="30dc5-104">ConvertId</span></span>
 
-<span data-ttu-id="8e245-105">**ConvertId**元素定义转换支持 Exchange 格式之间的项目和文件夹标识符的请求。</span><span class="sxs-lookup"><span data-stu-id="8e245-105">The **ConvertId** element defines a request to convert item and folder identifiers between supported Exchange formats.</span></span> <span data-ttu-id="8e245-106">Microsoft Exchange Server 2007 Service Pack 1 (SP1) 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="8e245-106">This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).</span></span> 
+<span data-ttu-id="30dc5-105">**ConvertId**元素定义了在受支持的 Exchange 格式之间转换项目和文件夹标识符的请求。</span><span class="sxs-lookup"><span data-stu-id="30dc5-105">The **ConvertId** element defines a request to convert item and folder identifiers between supported Exchange formats.</span></span> <span data-ttu-id="30dc5-106">在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="30dc5-106">This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).</span></span> 
   
 ```xml
 <ConvertId DestinationFormat="">
@@ -29,60 +29,60 @@ ms.locfileid: "19753593"
 </ConvertId>
 ```
 
- <span data-ttu-id="8e245-107">**ConvertIdType**</span><span class="sxs-lookup"><span data-stu-id="8e245-107">**ConvertIdType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="8e245-108">属性和元素</span><span class="sxs-lookup"><span data-stu-id="8e245-108">Attributes and elements</span></span>
+ <span data-ttu-id="30dc5-107">**ConvertIdType**</span><span class="sxs-lookup"><span data-stu-id="30dc5-107">**ConvertIdType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="30dc5-108">属性和元素</span><span class="sxs-lookup"><span data-stu-id="30dc5-108">Attributes and elements</span></span>
 
-<span data-ttu-id="8e245-109">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="8e245-109">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="30dc5-109">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="30dc5-109">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="8e245-110">属性</span><span class="sxs-lookup"><span data-stu-id="8e245-110">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="30dc5-110">Attributes</span><span class="sxs-lookup"><span data-stu-id="30dc5-110">Attributes</span></span>
 
-|<span data-ttu-id="8e245-111">**属性**</span><span class="sxs-lookup"><span data-stu-id="8e245-111">**Attribute**</span></span>|<span data-ttu-id="8e245-112">**说明**</span><span class="sxs-lookup"><span data-stu-id="8e245-112">**Description**</span></span>|
+|<span data-ttu-id="30dc5-111">**属性**</span><span class="sxs-lookup"><span data-stu-id="30dc5-111">**Attribute**</span></span>|<span data-ttu-id="30dc5-112">**说明**</span><span class="sxs-lookup"><span data-stu-id="30dc5-112">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="8e245-113">**DestinationFormat**</span><span class="sxs-lookup"><span data-stu-id="8e245-113">**DestinationFormat**</span></span> <br/> |<span data-ttu-id="8e245-114">描述将返回所有已转换的标识符的标识符格式。</span><span class="sxs-lookup"><span data-stu-id="8e245-114">Describes the identifier format that will be returned for all the converted identifiers.</span></span> <span data-ttu-id="8e245-115">DestinationFormat 由 IdFormatType 描述。</span><span class="sxs-lookup"><span data-stu-id="8e245-115">The DestinationFormat is described by the IdFormatType.</span></span>  <br/> |
+|<span data-ttu-id="30dc5-113">**DestinationFormat**</span><span class="sxs-lookup"><span data-stu-id="30dc5-113">**DestinationFormat**</span></span> <br/> |<span data-ttu-id="30dc5-114">描述将为所有转换的标识符返回的标识符格式。</span><span class="sxs-lookup"><span data-stu-id="30dc5-114">Describes the identifier format that will be returned for all the converted identifiers.</span></span> <span data-ttu-id="30dc5-115">DestinationFormat 由 IdFormatType 描述。</span><span class="sxs-lookup"><span data-stu-id="30dc5-115">The DestinationFormat is described by the IdFormatType.</span></span>  <br/> |
    
-#### <a name="destinationformat-attribute"></a><span data-ttu-id="8e245-116">DestinationFormat 属性</span><span class="sxs-lookup"><span data-stu-id="8e245-116">DestinationFormat Attribute</span></span>
+#### <a name="destinationformat-attribute"></a><span data-ttu-id="30dc5-116">DestinationFormat 属性</span><span class="sxs-lookup"><span data-stu-id="30dc5-116">DestinationFormat Attribute</span></span>
 
-|<span data-ttu-id="8e245-117">**值**</span><span class="sxs-lookup"><span data-stu-id="8e245-117">**Value**</span></span>|<span data-ttu-id="8e245-118">**说明**</span><span class="sxs-lookup"><span data-stu-id="8e245-118">**Description**</span></span>|
+|<span data-ttu-id="30dc5-117">**值**</span><span class="sxs-lookup"><span data-stu-id="30dc5-117">**Value**</span></span>|<span data-ttu-id="30dc5-118">**说明**</span><span class="sxs-lookup"><span data-stu-id="30dc5-118">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="8e245-119">**EwsLegacyId**</span><span class="sxs-lookup"><span data-stu-id="8e245-119">**EwsLegacyId**</span></span> <br/> |<span data-ttu-id="8e245-120">表示用于初始发行版 Exchange 2007 中提供的 Exchange Web 服务标识符的标识符格式。</span><span class="sxs-lookup"><span data-stu-id="8e245-120">Represents the identifier format that is used for Exchange Web Services identifiers that are provided in the initial release version of Exchange 2007.</span></span>  <br/> |
-|<span data-ttu-id="8e245-121">**EwsId**</span><span class="sxs-lookup"><span data-stu-id="8e245-121">**EwsId**</span></span> <br/> |<span data-ttu-id="8e245-122">表示用于启动与 Exchange Server 2007 SP1 的 Exchange Web 服务标识符的标识符格式。</span><span class="sxs-lookup"><span data-stu-id="8e245-122">Represents the identifier format that is used for Exchange Web Services identifiers starting with Exchange Server 2007 SP1.</span></span>  <br/> |
-|<span data-ttu-id="8e245-123">**EntryId**</span><span class="sxs-lookup"><span data-stu-id="8e245-123">**EntryId**</span></span> <br/> |<span data-ttu-id="8e245-124">表示的 MAPI 标识符，如 PR_ENTRYID 属性中所示。</span><span class="sxs-lookup"><span data-stu-id="8e245-124">Represents the MAPI identifier, as in the PR_ENTRYID property.</span></span>  <br/> |
-|<span data-ttu-id="8e245-125">**HexEntryId**</span><span class="sxs-lookup"><span data-stu-id="8e245-125">**HexEntryId**</span></span> <br/> |<span data-ttu-id="8e245-126">代表可用性日历事件标识符。</span><span class="sxs-lookup"><span data-stu-id="8e245-126">Represents the availability calendar event identifier.</span></span> <span data-ttu-id="8e245-127">这是 PR_ENTRYID 属性的十六进制编码表示形式。</span><span class="sxs-lookup"><span data-stu-id="8e245-127">This is a hexadecimal-encoded representation of the PR_ENTRYID property.</span></span>  <br/> |
-|<span data-ttu-id="8e245-128">**StoreId**</span><span class="sxs-lookup"><span data-stu-id="8e245-128">**StoreId**</span></span> <br/> |<span data-ttu-id="8e245-129">表示 Exchange 存储区标识符。</span><span class="sxs-lookup"><span data-stu-id="8e245-129">Represents the Exchange store identifier.</span></span>  <br/> |
-|<span data-ttu-id="8e245-130">**OwaId**</span><span class="sxs-lookup"><span data-stu-id="8e245-130">**OwaId**</span></span> <br/> |<span data-ttu-id="8e245-131">代表 Outlook Web Access 标识符格式。</span><span class="sxs-lookup"><span data-stu-id="8e245-131">Represents the Outlook Web Access identifier format.</span></span>  <br/> |
+|<span data-ttu-id="30dc5-119">**EwsLegacyId**</span><span class="sxs-lookup"><span data-stu-id="30dc5-119">**EwsLegacyId**</span></span> <br/> |<span data-ttu-id="30dc5-120">表示用于 exchange Web 服务标识符的标识符格式，这些标识符在 Exchange 2007 的初始发布版本中提供。</span><span class="sxs-lookup"><span data-stu-id="30dc5-120">Represents the identifier format that is used for Exchange Web Services identifiers that are provided in the initial release version of Exchange 2007.</span></span>  <br/> |
+|<span data-ttu-id="30dc5-121">**EwsId**</span><span class="sxs-lookup"><span data-stu-id="30dc5-121">**EwsId**</span></span> <br/> |<span data-ttu-id="30dc5-122">表示用于从 Exchange Server 2007 SP1 开始的 Exchange Web 服务标识符的标识符格式。</span><span class="sxs-lookup"><span data-stu-id="30dc5-122">Represents the identifier format that is used for Exchange Web Services identifiers starting with Exchange Server 2007 SP1.</span></span>  <br/> |
+|<span data-ttu-id="30dc5-123">**EntryId**</span><span class="sxs-lookup"><span data-stu-id="30dc5-123">**EntryId**</span></span> <br/> |<span data-ttu-id="30dc5-124">代表 MAPI 标识符，如 PR_ENTRYID 属性中所示。</span><span class="sxs-lookup"><span data-stu-id="30dc5-124">Represents the MAPI identifier, as in the PR_ENTRYID property.</span></span>  <br/> |
+|<span data-ttu-id="30dc5-125">**HexEntryId**</span><span class="sxs-lookup"><span data-stu-id="30dc5-125">**HexEntryId**</span></span> <br/> |<span data-ttu-id="30dc5-126">表示可用性日历事件标识符。</span><span class="sxs-lookup"><span data-stu-id="30dc5-126">Represents the availability calendar event identifier.</span></span> <span data-ttu-id="30dc5-127">这是 PR_ENTRYID 属性的十六进制编码表示形式。</span><span class="sxs-lookup"><span data-stu-id="30dc5-127">This is a hexadecimal-encoded representation of the PR_ENTRYID property.</span></span>  <br/> |
+|<span data-ttu-id="30dc5-128">**StoreId**</span><span class="sxs-lookup"><span data-stu-id="30dc5-128">**StoreId**</span></span> <br/> |<span data-ttu-id="30dc5-129">表示 Exchange 存储区标识符。</span><span class="sxs-lookup"><span data-stu-id="30dc5-129">Represents the Exchange store identifier.</span></span>  <br/> |
+|<span data-ttu-id="30dc5-130">**OwaId**</span><span class="sxs-lookup"><span data-stu-id="30dc5-130">**OwaId**</span></span> <br/> |<span data-ttu-id="30dc5-131">表示 Outlook Web Access 标识符格式。</span><span class="sxs-lookup"><span data-stu-id="30dc5-131">Represents the Outlook Web Access identifier format.</span></span>  <br/> |
    
-### <a name="child-elements"></a><span data-ttu-id="8e245-132">子元素</span><span class="sxs-lookup"><span data-stu-id="8e245-132">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="30dc5-132">子元素</span><span class="sxs-lookup"><span data-stu-id="30dc5-132">Child elements</span></span>
 
-|<span data-ttu-id="8e245-133">**元素**</span><span class="sxs-lookup"><span data-stu-id="8e245-133">**Element**</span></span>|<span data-ttu-id="8e245-134">**说明**</span><span class="sxs-lookup"><span data-stu-id="8e245-134">**Description**</span></span>|
+|<span data-ttu-id="30dc5-133">**元素**</span><span class="sxs-lookup"><span data-stu-id="30dc5-133">**Element**</span></span>|<span data-ttu-id="30dc5-134">**描述**</span><span class="sxs-lookup"><span data-stu-id="30dc5-134">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="8e245-135">SourceIds</span><span class="sxs-lookup"><span data-stu-id="8e245-135">SourceIds</span></span>](sourceids.md) <br/> |<span data-ttu-id="8e245-136">包含要转换的源标识符。</span><span class="sxs-lookup"><span data-stu-id="8e245-136">Contains the source identifiers to convert.</span></span>  <br/> |
+|[<span data-ttu-id="30dc5-135">SourceIds</span><span class="sxs-lookup"><span data-stu-id="30dc5-135">SourceIds</span></span>](sourceids.md) <br/> |<span data-ttu-id="30dc5-136">包含要转换的源标识符。</span><span class="sxs-lookup"><span data-stu-id="30dc5-136">Contains the source identifiers to convert.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="8e245-137">父元素</span><span class="sxs-lookup"><span data-stu-id="8e245-137">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="30dc5-137">父元素</span><span class="sxs-lookup"><span data-stu-id="30dc5-137">Parent elements</span></span>
 
-<span data-ttu-id="8e245-138">无。</span><span class="sxs-lookup"><span data-stu-id="8e245-138">None.</span></span>
+<span data-ttu-id="30dc5-138">无。</span><span class="sxs-lookup"><span data-stu-id="30dc5-138">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="8e245-139">备注</span><span class="sxs-lookup"><span data-stu-id="8e245-139">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="30dc5-139">说明</span><span class="sxs-lookup"><span data-stu-id="30dc5-139">Remarks</span></span>
 
-<span data-ttu-id="8e245-140">描述此元素的架构位于正在运行 Microsoft Exchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="8e245-140">The schema that describes this element is located in the EWS virtual directory of the computer that is running Microsoft Exchange Server 2007 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="30dc5-140">描述此元素的架构位于正在运行 Microsoft Exchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="30dc5-140">The schema that describes this element is located in the EWS virtual directory of the computer that is running Microsoft Exchange Server 2007 that has the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="8e245-141">元素信息</span><span class="sxs-lookup"><span data-stu-id="8e245-141">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="30dc5-141">元素信息</span><span class="sxs-lookup"><span data-stu-id="30dc5-141">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="8e245-142">命名空间</span><span class="sxs-lookup"><span data-stu-id="8e245-142">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="8e245-143">架构名称</span><span class="sxs-lookup"><span data-stu-id="8e245-143">Schema Name</span></span>  <br/> |<span data-ttu-id="8e245-144">邮件架构</span><span class="sxs-lookup"><span data-stu-id="8e245-144">messages schema</span></span>  <br/> |
-|<span data-ttu-id="8e245-145">验证文件</span><span class="sxs-lookup"><span data-stu-id="8e245-145">Validation File</span></span>  <br/> |<span data-ttu-id="8e245-146">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="8e245-146">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="8e245-147">可以为空</span><span class="sxs-lookup"><span data-stu-id="8e245-147">Can be Empty</span></span>  <br/> |<span data-ttu-id="8e245-148">False</span><span class="sxs-lookup"><span data-stu-id="8e245-148">False</span></span>  <br/> |
+|<span data-ttu-id="30dc5-142">命名空间</span><span class="sxs-lookup"><span data-stu-id="30dc5-142">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="30dc5-143">架构名称</span><span class="sxs-lookup"><span data-stu-id="30dc5-143">Schema Name</span></span>  <br/> |<span data-ttu-id="30dc5-144">邮件架构</span><span class="sxs-lookup"><span data-stu-id="30dc5-144">messages schema</span></span>  <br/> |
+|<span data-ttu-id="30dc5-145">验证文件</span><span class="sxs-lookup"><span data-stu-id="30dc5-145">Validation File</span></span>  <br/> |<span data-ttu-id="30dc5-146">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="30dc5-146">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="30dc5-147">可以为空</span><span class="sxs-lookup"><span data-stu-id="30dc5-147">Can be Empty</span></span>  <br/> |<span data-ttu-id="30dc5-148">False</span><span class="sxs-lookup"><span data-stu-id="30dc5-148">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="8e245-149">另请参阅</span><span class="sxs-lookup"><span data-stu-id="8e245-149">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="30dc5-149">另请参阅</span><span class="sxs-lookup"><span data-stu-id="30dc5-149">See also</span></span>
 
 
 
-[<span data-ttu-id="8e245-150">ConvertId 操作</span><span class="sxs-lookup"><span data-stu-id="8e245-150">ConvertId operation</span></span>](convertid-operation.md)
+[<span data-ttu-id="30dc5-150">ConvertId 操作</span><span class="sxs-lookup"><span data-stu-id="30dc5-150">ConvertId operation</span></span>](convertid-operation.md)
 
 
-- [<span data-ttu-id="8e245-151">在交换 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="8e245-151">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="30dc5-151">Exchange 中的 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="30dc5-151">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 
 
-[<span data-ttu-id="8e245-152">转换标识符</span><span class="sxs-lookup"><span data-stu-id="8e245-152">Converting Identifiers</span></span>](http://msdn.microsoft.com/library/a5391746-b6ef-4f48-8fc8-8255258651aa%28Office.15%29.aspx)
+[<span data-ttu-id="30dc5-152">转换标识符</span><span class="sxs-lookup"><span data-stu-id="30dc5-152">Converting Identifiers</span></span>](https://msdn.microsoft.com/library/a5391746-b6ef-4f48-8fc8-8255258651aa%28Office.15%29.aspx)
 
