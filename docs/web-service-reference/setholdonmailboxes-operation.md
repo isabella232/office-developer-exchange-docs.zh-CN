@@ -1,31 +1,34 @@
 ---
 title: SetHoldOnMailboxes 操作
 manager: sethgros
-ms.date: 09/17/2015
+ms.date: 01/24/2020
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9015a0d8-3495-461b-aa79-797d23169585
-description: 查找信息 SetHoldOnMailboxes EWS 操作。
-ms.openlocfilehash: 1091ed14ceb25dfd275499b9db47ae4e41b5f1a0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 查找有关 SetHoldOnMailboxes EWS 操作的信息。
+ms.openlocfilehash: 4d79ba9f616974b9415ae9eae23b8f5fdb0ab205
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827412"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44448392"
 ---
 # <a name="setholdonmailboxes-operation"></a>SetHoldOnMailboxes 操作
 
+> [!IMPORTANT]
+> 从2020年4月1日起，SetHoldOnMailboxes 操作将不再在 Exchange Online 中可用。 此操作不会受到 Exchange Server 内部部署版本的影响。 有关详细信息，请参阅[在 Exchange Online 中停用旧版电子数据展示工具](https://docs.microsoft.com/microsoft-365/compliance/legacy-ediscovery-retirement#getsearchablemailboxes-setholdonmailboxes-and-getholdonmailboxes-operations-in-the-ews-api)。
+
 查找有关**SetHoldOnMailboxes** EWS 操作的信息。 
   
-**SetHoldOnMailboxes**操作邮箱上设置邮箱保留策略。 
+**SetHoldOnMailboxes**操作设置邮箱的邮箱保留策略。 
   
 Exchange Server 2013 中引入了此操作。
   
 ## <a name="using-the-setholdonmailboxes-operation"></a>使用 SetHoldOnMailboxes 操作
 
-**SetHoldOnMailboxes**操作将在邮箱保留设置为一个或多个邮箱。 
+**SetHoldOnMailboxes**操作将邮箱保留在一个或多个邮箱上。 
   
 ### <a name="setholdonmailboxes-operation-soap-headers"></a>SetHoldOnMailboxes 操作 SOAP 标头
 
@@ -33,19 +36,19 @@ Exchange Server 2013 中引入了此操作。
   
 |**标头名称**|**元素**|**说明**|
 |:-----|:-----|:-----|
-|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |标识服务器角色所需顺序呼叫者发出请求。 适用于请求此标头。  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。 适用于请求此标头。  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应该请求的服务器的版本。 适用于响应此标头。  <br/> |
+|**Get-managementrole** <br/> |[Get-managementrole](managementrole.md) <br/> |标识调用方发出请求所需的服务器角色。 此标头适用于请求。  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。 此标头适用于请求。  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器版本。 此标头适用于响应。  <br/> |
    
-## <a name="setholdonmailboxes-operation-request-example-apply-a-hold-on-a-mailbox"></a>SetHoldOnMailboxes 操作请求示例： 对邮箱应用保留
+## <a name="setholdonmailboxes-operation-request-example-apply-a-hold-on-a-mailbox"></a>SetHoldOnMailboxes 操作请求示例：对邮箱应用保留
 
-**SetHoldOnMailboxes**操作请求的下面的示例演示如何在两个邮箱应用保留。 使用[New-mailboxsearch](http://technet.microsoft.com/en-us/library/dd298064.aspx)命令创建邮箱保留项。 
+以下示例的**SetHoldOnMailboxes**操作请求显示如何对两个邮箱应用保留。 邮箱保留是使用[new-mailboxsearch](https://technet.microsoft.com/library/dd298064.aspx)命令创建的。 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
    </soap:Header>
@@ -71,25 +74,25 @@ Exchange Server 2013 中引入了此操作。
   
 - [SetHoldOnMailboxes](setholdonmailboxes.md)
     
-- [ActionType (HoldActionType)](actiontype-holdactiontype.md)
+- [ActionType （HoldActionType）](actiontype-holdactiontype.md)
     
 - [HoldId](holdid.md)
     
 - [Query](query.md)
     
-- [邮箱 (ArrayOfStringsType)](mailboxes-arrayofstringstype.md)
+- [邮箱（ArrayOfStringsType）](mailboxes-arrayofstringstype.md)
     
-- [字符串](string.md)
+- [String](string.md)
     
 - [Language](language.md)
     
 - [IncludeNonIndexableItems](includenonindexableitems.md)
     
-- [消除](deduplication.md)
+- [项](deduplication.md)
     
-## <a name="successful-setholdonmailboxes-operation-response"></a>成功 SetHoldOnMailboxes 操作响应
+## <a name="successful-setholdonmailboxes-operation-response"></a>成功的 SetHoldOnMailboxes 操作响应
 
-下面的示例演示成功响应**SetHoldOnMailboxes**操作请求要将两个邮箱置于保留。 
+下面的示例演示对**SetHoldOnMailboxes**操作请求的成功响应，以将两个邮箱置于保留状态。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -100,20 +103,20 @@ Exchange Server 2013 中引入了此操作。
                            MajorBuildNumber="526" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <SetHoldOnMailboxesResponse ResponseClass="Success" 
-                                  xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                  xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <ResponseCode>NoError</ResponseCode>
          <MailboxHoldResult>
-            <HoldId xmlns="http://schemas.microsoft.com/exchange/services/2006/types">HoldId2</HoldId>
-            <Query xmlns="http://schemas.microsoft.com/exchange/services/2006/types">test</Query>
-            <MailboxHoldStatuses xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <HoldId xmlns="https://schemas.microsoft.com/exchange/services/2006/types">HoldId2</HoldId>
+            <Query xmlns="https://schemas.microsoft.com/exchange/services/2006/types">test</Query>
+            <MailboxHoldStatuses xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
                <MailboxHoldStatus>
                   <Mailbox>o=First/ou=Exchange(DLT)/cn=Recipients/cn=1fa441ff5e4749ba43ecc0fd94c21adf-Willi</Mailbox>
                   <Status>Pending</Status>
@@ -132,7 +135,7 @@ Exchange Server 2013 中引入了此操作。
 
 ```
 
-响应 SOAP 正文中包含以下元素：
+响应 SOAP 正文包含以下元素：
   
 - [SetHoldOnMailboxesResponse](setholdonmailboxesresponse.md)
     
@@ -150,13 +153,13 @@ Exchange Server 2013 中引入了此操作。
     
 - [邮箱 (字符串)](mailbox-string.md)
     
-- [状态 (HoldStatusType)](status-holdstatustype.md)
+- [状态（HoldStatusType）](status-holdstatustype.md)
     
 - [AdditionalInfo](additionalinfo.md)
     
 ## <a name="setholdonmailboxes-operation-error-response"></a>SetHoldOnMailboxes 操作错误响应
 
-下面的示例演示对**SetHoldOnMailboxes**操作请求错误响应。 这是包含正确指定的邮箱标识符请求的响应。 
+下面的示例演示对**SetHoldOnMailboxes**操作请求的错误响应。 这是对包含错误指定的邮箱标识符的请求的响应。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -167,15 +170,15 @@ Exchange Server 2013 中引入了此操作。
                            MajorBuildNumber="526" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013"
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <SetHoldOnMailboxesResponse ResponseClass="Error" 
-                                  xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                  xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <MessageText>No mailbox is specified for hold operation. If specified in the request, then it could be the object does not exist in AD or is a Distribution Group.</MessageText>
          <ResponseCode>ErrorInvalidOperation</ResponseCode>
          <DescriptiveLinkKey>0</DescriptiveLinkKey>
@@ -195,7 +198,7 @@ Exchange Server 2013 中引入了此操作。
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-通用到 EWS 且特定于此操作的其他错误代码，请参阅[ResponseCode](responsecode.md)。
+有关对 EWS 通用的其他错误代码以及特定于此操作的错误代码，请参阅[ResponseCode](responsecode.md)。
   
 ## <a name="see-also"></a>另请参阅
 
