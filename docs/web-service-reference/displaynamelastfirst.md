@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d392e138-a514-4bce-81b1-1f484e353d1c
-description: DisplayNameLastFirst 元素指定关联的个人的显示名称为格式，姓氏第一个名称。
-ms.openlocfilehash: 68ebf0e91e216cffa1ba8db425de248f0d4e77b7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: DisplayNameLastFirst 元素以格式、姓氏、名字指定关联角色的显示名称。
+ms.openlocfilehash: d569a87ce77a4f1840ed4f865e671399726ede78
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753951"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463158"
 ---
 # <a name="displaynamelastfirst"></a>DisplayNameLastFirst
 
-**DisplayNameLastFirst**元素指定关联的个人的显示名称为的格式，"姓氏"，"名字"。 
+**DisplayNameLastFirst**元素指定格式为 "Last name"，"First name" 的关联角色的显示名称。 
   
 ```XML
 <DisplayNameLastFirst></DisplayNameLastFirst>
@@ -26,9 +26,9 @@ ms.locfileid: "19753951"
  **string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -40,11 +40,11 @@ ms.locfileid: "19753951"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[角色](persona.md) <br/> |指定一组个人**GetPersona**请求返回的数据。  <br/> |
+|[角色](persona.md) <br/> |指定由**GetPersona**请求返回的一组角色数据。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-字符串值，该值指定的显示名称，与姓首先**DisplayNameLastFirst**元素的文本值。 
+**DisplayNameLastFirst**元素的文本值是一个 string 值，它指定显示名称，姓先是。 
   
 ## <a name="remarks"></a>备注
 
@@ -56,12 +56,12 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |types.xsd  <br/> |
+|验证文件  <br/> |类型 .xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

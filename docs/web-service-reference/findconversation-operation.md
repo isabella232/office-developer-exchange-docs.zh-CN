@@ -1,5 +1,5 @@
 ---
-title: FindConversation Operation
+title: FindConversation 操作
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,23 +11,23 @@ api_name:
 api_type:
 - schema
 ms.assetid: 2384908a-c203-45b6-98aa-efd6a4c23aac
-description: FindConversation 操作枚举文件夹中的对话的列表。
-ms.openlocfilehash: 7ef2167fef96a5e8441c543cac5b6800534c2eab
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: FindConversation 操作枚举文件夹中的对话列表。
+ms.openlocfilehash: ef768807431ff3e02c6af7277c1c2a750607ed92
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754332"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462652"
 ---
-# <a name="findconversation-operation"></a>FindConversation Operation
+# <a name="findconversation-operation"></a>FindConversation 操作
 
-**FindConversation**操作枚举文件夹中的对话的列表。 
+**FindConversation**操作枚举文件夹中的对话列表。 
   
 ## <a name="findconversation-request-example"></a>FindConversation 请求示例
 
 ### <a name="description"></a>说明
 
-**FindConversation**请求的下面的示例演示如何窗体的收件箱文件夹中找到的第一个对话的请求。 
+以下示例的**FindConversation**请求显示如何在 "收件箱" 文件夹中形成查找第一个对话的请求。 
   
 ### <a name="code"></a>代码
 
@@ -36,8 +36,8 @@ ms.locfileid: "19754332"
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010_SP1" />
   </soap:Header>
@@ -52,7 +52,7 @@ ms.locfileid: "19754332"
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>请求元素
+### <a name="request-elements"></a>Request 元素
 
 请求中使用以下元素：
   
@@ -66,11 +66,11 @@ ms.locfileid: "19754332"
     
 - [DistinguishedFolderId](distinguishedfolderid.md)
     
-## <a name="successful-findconversation-response-example"></a>成功 FindConversation 响应示例
+## <a name="successful-findconversation-response-example"></a>成功的 FindConversation 响应示例
 
 ### <a name="description"></a>说明
 
-下面的示例演示对**FindConversation**请求成功响应。 
+下面的示例演示对**FindConversation**请求的成功响应。 
   
 ### <a name="code"></a>代码
 
@@ -83,18 +83,18 @@ ms.locfileid: "19754332"
                          MajorBuildNumber="91" 
                          MinorBuildNumber="0" 
                          Version="Exchange2010_SP1" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <FindConversationResponse ResponseClass="Success" 
-                              xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                              xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseCode>NoError</ResponseCode>
       <Conversations>
-        <t:Conversation xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+        <t:Conversation xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
           <t:ConversationId Id="AAQkADRlZDhjZDVlLzYtNDcyZi1i32hHpdc="/>
           <t:ConversationTopic>Have you heard about EWS?</t:ConversationTopic>
           <t:UniqueRecipients>
@@ -146,13 +146,13 @@ ms.locfileid: "19754332"
 </s:Envelope>
 ```
 
-### <a name="comment"></a>Comment
+### <a name="comment"></a>评论
 
-在示例中的项目和对话标识符具有已缩短要保留可读性。
+示例中的项和对话标识符已缩短，以保持可读性。
   
-### <a name="successful-response-elements"></a>成功响应元素
+### <a name="successful-response-elements"></a>成功的响应元素
 
-在响应中使用以下元素：
+响应中使用以下元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -168,7 +168,7 @@ ms.locfileid: "19754332"
     
 - [UniqueRecipients](uniquerecipients.md)
     
-- [字符串](string.md)
+- [String](string.md)
     
 - [GlobalUniqueRecipients](globaluniquerecipients.md)
     
@@ -190,7 +190,7 @@ ms.locfileid: "19754332"
     
 - [UnreadCount](unreadcount.md)
     
-- [Size](size.md)
+- [大小](size.md)
     
 - [GlobalSize](globalsize.md)
     
@@ -214,7 +214,7 @@ ms.locfileid: "19754332"
 
 ### <a name="description"></a>说明
 
-下面的示例演示对**FindConversation**请求的架构验证错误导致出现错误响应。 
+下面的示例演示对由架构验证错误导致的**FindConversation**请求的错误响应。 
   
 ### <a name="code"></a>代码
 
@@ -223,15 +223,15 @@ ms.locfileid: "19754332"
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
   <s:Body>
     <s:Fault>
-      <faultcode xmlns:a="http://schemas.microsoft.com/exchange/services/2006/types">a:ErrorSchemaValidation</faultcode>
-      <faultstring xml:lang="en-US">The request failed schema validation: The 'Id' attribute is invalid - The value 'inbox1' is invalid according to its datatype 'http://schemas.microsoft.com/exchange/services/2006/types:DistinguishedFolderIdNameType' - The Enumeration constraint failed.</faultstring>
+      <faultcode xmlns:a="https://schemas.microsoft.com/exchange/services/2006/types">a:ErrorSchemaValidation</faultcode>
+      <faultstring xml:lang="en-US">The request failed schema validation: The 'Id' attribute is invalid - The value 'inbox1' is invalid according to its datatype 'https://schemas.microsoft.com/exchange/services/2006/types:DistinguishedFolderIdNameType' - The Enumeration constraint failed.</faultstring>
       <detail>
-        <e:ResponseCode xmlns:e="http://schemas.microsoft.com/exchange/services/2006/errors">ErrorSchemaValidation</e:ResponseCode>
-        <e:Message xmlns:e="http://schemas.microsoft.com/exchange/services/2006/errors">The request failed schema validation.</e:Message>
-        <t:MessageXml xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+        <e:ResponseCode xmlns:e="https://schemas.microsoft.com/exchange/services/2006/errors">ErrorSchemaValidation</e:ResponseCode>
+        <e:Message xmlns:e="https://schemas.microsoft.com/exchange/services/2006/errors">The request failed schema validation.</e:Message>
+        <t:MessageXml xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
           <t:LineNumber>14</t:LineNumber>
           <t:LinePosition>34</t:LinePosition>
-          <t:Violation>The 'Id' attribute is invalid - The value 'inbox1' is invalid according to its datatype 'http://schemas.microsoft.com/exchange/services/2006/types:DistinguishedFolderIdNameType' - The Enumeration constraint failed.</t:Violation>
+          <t:Violation>The 'Id' attribute is invalid - The value 'inbox1' is invalid according to its datatype 'https://schemas.microsoft.com/exchange/services/2006/types:DistinguishedFolderIdNameType' - The Enumeration constraint failed.</t:Violation>
         </t:MessageXml>
       </detail>
     </s:Fault>
@@ -247,11 +247,11 @@ ms.locfileid: "19754332"
     
 - faultstring
     
-- 详细信息
+- 介绍
     
 - [ResponseCode](responsecode.md)
     
-- 邮件
+- 消息
     
 - [MessageXml](messagexml.md)
     
@@ -259,7 +259,7 @@ ms.locfileid: "19754332"
     
 - LinePosition
     
-- 冲突
+- 非法
     
 ## <a name="see-also"></a>另请参阅
 
@@ -270,8 +270,8 @@ ms.locfileid: "19754332"
 
 [Exchange 中的 EWS 操作](ews-operations-in-exchange.md)
   
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 
 
-[Conversations in EWS](http://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
+[Conversations in EWS](https://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
 

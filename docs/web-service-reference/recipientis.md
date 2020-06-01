@@ -1,5 +1,5 @@
 ---
-title: RecipientIs
+title: 收件人是
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5d2fd7ce-6137-4b3c-a716-c0218dcc8a09
-description: RecipientIs 元素指定任何收件人的电子邮件匹配的任何子值 (ProtectionRuleValueType) 元素中指定的收件人。
-ms.openlocfilehash: b6d5c150cd874d1aced7f2d83ff36409e0738728
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 收件人是元素指定电子邮件的任何收件人与子值（ProtectionRuleValueType）元素中的任何指定收件人相匹配。
+ms.openlocfilehash: 8f27c4484ce310c62f9bab0e6ffeea2bfac1d3ef
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826975"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463879"
 ---
-# <a name="recipientis"></a>RecipientIs
+# <a name="recipientis"></a>收件人是
 
-**RecipientIs**元素指定任何收件人的电子邮件匹配的任何子[值 (ProtectionRuleValueType)](value-protectionrulevaluetype.md)元素中指定的收件人。 
+**收件人是**元素指定电子邮件的任何收件人与子[值（ProtectionRuleValueType）](value-protectionrulevaluetype.md)元素中的任何指定收件人相匹配。 
   
 ```xml
 <RecipientIs>   <Value/></RecipientIs>
@@ -30,9 +30,9 @@ ms.locfileid: "19826975"
  **ProtectionRuleRecipientIsType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -40,24 +40,24 @@ ms.locfileid: "19826975"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[值 (ProtectionRuleValueType)](value-protectionrulevaluetype.md) <br/> |标识收件人。  <br/> |
+|[Value （ProtectionRuleValueType）](value-protectionrulevaluetype.md) <br/> |标识收件人。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
 |[条件](condition.md) <br/> |确定要执行该规则的操作部分必须满足的条件。  <br/> |
-|[和 (ProtectionRuleAndType)](and-protectionruleandtype.md) <br/> |指示所有子元素必须都匹配计算结果为**true**。  <br/> |
+|[和 (ProtectionRuleAndType)](and-protectionruleandtype.md) <br/> |指示所有子元素都必须匹配以求值为**true**。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-描述此元素的架构位于运行 Microsoft Exchange Server 2010 的安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
+描述此元素的架构位于运行 Microsoft Exchange Server 2010 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
   
 ## <a name="element-information"></a>元素信息
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -66,5 +66,5 @@ ms.locfileid: "19826975"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

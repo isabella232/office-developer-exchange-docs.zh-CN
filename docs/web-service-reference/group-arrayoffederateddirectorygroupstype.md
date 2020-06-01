@@ -1,5 +1,5 @@
 ---
-title: 组 (ArrayOfFederatedDirectoryGroupsType)
+title: Group （ArrayOfFederatedDirectoryGroupsType）
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,23 +7,23 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0474a5b4-1a48-4df6-a094-baf35d9a1083
-description: 仅供内部使用旨在组 (ArrayOfFederatedDirectoryGroupsType) 元素。
-ms.openlocfilehash: b426203a7b54cddac737e3e6a7f860b8592f6e10
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Group （ArrayOfFederatedDirectoryGroupsType）元素仅供内部使用。
+ms.openlocfilehash: 7938b571f7cc48dd60b14429b8e21bad1eb26300
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825752"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462827"
 ---
-# <a name="group-arrayoffederateddirectorygroupstype"></a>组 (ArrayOfFederatedDirectoryGroupsType)
+# <a name="group-arrayoffederateddirectorygroupstype"></a>Group （ArrayOfFederatedDirectoryGroupsType）
 
-仅供内部使用旨在**组 (ArrayOfFederatedDirectoryGroupsType)** 元素。 
+**Group （ArrayOfFederatedDirectoryGroupsType）** 元素仅供内部使用。 
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19825752"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   

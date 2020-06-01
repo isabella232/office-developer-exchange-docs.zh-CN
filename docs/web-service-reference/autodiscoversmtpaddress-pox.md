@@ -1,5 +1,5 @@
 ---
-title: AutoDiscoverSMTPAddress (POX)
+title: AutoDiscoverSMTPAddress （POX）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,24 +7,24 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7763d11a-b338-4a02-8a01-938859c05dfb
 description: AutoDiscoverSMTPAddress 元素包含用于自动发现过程的用户的 SMTP 地址。
-ms.openlocfilehash: 6f44fc30fcf96bc059aa9412f5c3c5b8f596d2fc
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: cd40fac8b7ab4eaa9ea50e82d6fc8bdbd4c3c7b1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753303"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463949"
 ---
-# <a name="autodiscoversmtpaddress-pox"></a>AutoDiscoverSMTPAddress (POX)
+# <a name="autodiscoversmtpaddress-pox"></a>AutoDiscoverSMTPAddress （POX）
 
 **AutoDiscoverSMTPAddress**元素包含用于自动发现过程的用户的 SMTP 地址。 
   
-- [自动发现 (POX)](autodiscover-pox.md)
+- [自动发现（POX）](autodiscover-pox.md)
   
-- [响应 (POX)](response-pox.md)
+- [响应（POX）](response-pox.md)
   
-- [用户 (POX)](user-pox.md)
+- [User （POX）](user-pox.md)
   
-- [AutoDiscoverSMTPAddress (POX)](autodiscoversmtpaddress-pox.md)
+- [AutoDiscoverSMTPAddress （POX）](autodiscoversmtpaddress-pox.md)
   
 ```XML
 <AutoDiscoverSMTPAddress/>
@@ -32,9 +32,9 @@ ms.locfileid: "19753303"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -46,17 +46,17 @@ ms.locfileid: "19753303"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[用户 (POX)](user-pox.md) <br/> |提供特定于用户的信息。  <br/> |
+|[User （POX）](user-pox.md) <br/> |提供用户特定的信息。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-文本值表示用于自动发现过程的用户的 SMTP 地址。
+Text 值表示用于自动发现过程的用户的 SMTP 地址。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-**AutoDiscoverSMTPAddress**元素是**用户**元素的可选子元素。 
+**AutoDiscoverSMTPAddress**元素是**User**元素的可选子元素。 
   
 ## <a name="see-also"></a>另请参阅
 
-- [Exchange POX 自动发现 XML 元素](pox-autodiscover-xml-elements-for-exchange.md)
+- [Exchange 的 POX 自动发现 XML 元素](pox-autodiscover-xml-elements-for-exchange.md)
 

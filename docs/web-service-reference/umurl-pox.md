@@ -1,5 +1,5 @@
 ---
-title: UMUrl (POX)
+title: UMUrl （POX）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -9,26 +9,26 @@ api_type:
 - schema
 ms.assetid: c55b7bf5-3702-4923-b7c9-b0928cde1de2
 description: UMUrl 元素指定已启用邮件的用户的统一消息 Web 服务的最佳实例的 URL。
-ms.openlocfilehash: f6259430bf9c53c8d0670cdab0dcec4cc6f18213
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c80f874e13ac3909ee51bbc63dded100a1e41524
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838304"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463025"
 ---
-# <a name="umurl-pox"></a>UMUrl (POX)
+# <a name="umurl-pox"></a>UMUrl （POX）
 
 **UMUrl**元素指定已启用邮件的用户的统一消息 Web 服务的最佳实例的 URL。 
   
-[自动发现 (POX)](autodiscover-pox.md)
+[自动发现（POX）](autodiscover-pox.md)
   
-[响应 (POX)](response-pox.md)
+[响应（POX）](response-pox.md)
   
-[帐户 (POX)](account-pox.md)
+[帐户（POX）](account-pox.md)
   
-[协议 (POX)](protocol-pox.md)
+[协议（POX）](protocol-pox.md)
   
-[UMUrl (POX)](umurl-pox.md)
+[UMUrl （POX）](umurl-pox.md)
   
 ```xml
 <UMUrl/>
@@ -36,9 +36,9 @@ ms.locfileid: "19838304"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -50,15 +50,15 @@ ms.locfileid: "19838304"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[协议 (POX)](protocol-pox.md) <br/> |包含客户端连接到运行 Microsoft Exchange Server 2007 的安装了客户端访问服务器角色的计算机的规格。  <br/> |
+|[协议（POX）](protocol-pox.md) <br/> |包含用于将客户端连接到运行 Microsoft Exchange Server 2007 且安装了客户端访问服务器角色的计算机的规范。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-文本值指定为 Exchange 拓扑安装了统一消息服务器角色的 Exchange 服务器的 URL。
+该文本值指定为 Exchange 拓扑安装了统一消息服务器角色的 Exchange 服务器的 URL。
   
 ## <a name="see-also"></a>另请参阅
 
 
 
-[Exchange POX 自动发现 XML 元素](pox-autodiscover-xml-elements-for-exchange.md)
+[Exchange 的 POX 自动发现 XML 元素](pox-autodiscover-xml-elements-for-exchange.md)
 

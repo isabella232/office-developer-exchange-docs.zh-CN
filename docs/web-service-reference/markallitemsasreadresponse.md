@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 07dedaa8-17aa-4553-b8e2-e3f82c40ae1e
-description: MarkAllItemsAsReadResponse 元素指定 MarkAllItemsAsRead 请求的响应。
-ms.openlocfilehash: fc0cbc9d6e0082b92620a18c8dc707a9eaecf4c1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: MarkAllItemsAsReadResponse 元素指定对 MarkAllItemsAsRead 请求的响应。
+ms.openlocfilehash: 011aa34886b4f50542c68661d9b61be3a3ce3a1f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826345"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463886"
 ---
 # <a name="markallitemsasreadresponse"></a>MarkAllItemsAsReadResponse
 
-**MarkAllItemsAsReadResponse**元素指定**MarkAllItemsAsRead**请求的响应。 
+**MarkAllItemsAsReadResponse**元素指定对**MarkAllItemsAsRead**请求的响应。 
   
 ```XML
 <MarkAllItemsAsReadResponse>
@@ -28,9 +28,9 @@ ms.locfileid: "19826345"
  **MarkAllItemsAsReadResponseType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,7 +42,7 @@ ms.locfileid: "19826345"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 中引入了此元素。
   
@@ -52,9 +52,9 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
-|验证文件  <br/> |messages.xsd  <br/> |
+|验证文件  <br/> |消息 .xsd  <br/> |
 |可以为空  <br/> ||
    
 

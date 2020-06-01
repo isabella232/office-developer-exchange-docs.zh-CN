@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 538b7a85-11d7-4daa-8458-09b540760e8b
 description: HasAttachments元素表示一个属性，如果某项有至少一个可见附件或者包含附件当会话包含至少一个项的设置为true 。此属性是只读的。
-ms.openlocfilehash: e76e0ecbb357396540f0d1649cf5062edfb18660
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: cc4e4ec0eac1c749723facc8cd780da41b0d8150
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825801"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462920"
 ---
 # <a name="hasattachments"></a>HasAttachments
 
@@ -30,9 +30,9 @@ ms.locfileid: "19825801"
  **Boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -44,7 +44,7 @@ ms.locfileid: "19825801"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[日历项目](calendaritem.md) <br/> |表示 Exchange 日历项。  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |表示 Exchange 日历项。  <br/> |
 |[条件](conditions.md) <br/> |表示条件，履行时, 将触发该规则的规则操作。  <br/> |
 |[联系人](contact.md) <br/> |表示 Exchange 联系人项目。  <br/> |
 |[对话 (ConversationType)](conversation-conversationtype.md) <br/> |表示单个对话。  <br/> |
@@ -72,7 +72,7 @@ ms.locfileid: "19825801"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |

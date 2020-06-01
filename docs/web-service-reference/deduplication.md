@@ -1,5 +1,5 @@
 ---
-title: 消除
+title: 项
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a38acc3d-29a8-4466-81a4-73cb30fe5e80
-description: 消除元素指示搜索结果是否应移除重复项。
-ms.openlocfilehash: 3f06bb1dccd0677b7fd43c4ad82eda54a0c3f812
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 重复数据删除元素指示搜索结果是否应删除重复项。
+ms.openlocfilehash: c39f980658aba7036cfabb3b51af5a41005f97b6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753775"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463711"
 ---
-# <a name="deduplication"></a>消除
+# <a name="deduplication"></a>项
 
-**消除**元素指示搜索结果是否应移除重复项。 
+**重复数据删除**元素指示搜索结果是否应删除重复项。 
   
 ```XML
 <Deduplication> true | false </Deduplication>
@@ -27,9 +27,9 @@ ms.locfileid: "19753775"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -39,11 +39,11 @@ ms.locfileid: "19753775"
   
 ### <a name="parent-elements"></a>父元素
 
-[SearchMailboxes](searchmailboxes.md) | [SetHoldOnMailboxes](setholdonmailboxes.md)
+[SearchMailboxes](searchmailboxes.md)  | [SetHoldOnMailboxes](setholdonmailboxes.md)
   
 ## <a name="text-value"></a>文本值
 
-文本值为**true**的消除元素指示搜索结果可能不包含重复的项目。 如果值为**false**指示搜索结果可能包含重复的项目。 
+对于重复数据删除元素，文本值为**true**表示搜索结果可能不包含重复项。 **如果值为 false** ，则表示搜索结果可能包含重复项。 
   
 ## <a name="remarks"></a>备注
 
@@ -55,9 +55,9 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |types.xsd  <br/> |
+|验证文件  <br/> |类型 .xsd  <br/> |
 |可以为空  <br/> |false  <br/> |
    
 

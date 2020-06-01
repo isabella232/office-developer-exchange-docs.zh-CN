@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1af216b3-13ea-498e-b4fc-23513755d731
-description: 查找信息 ArchiveItem EWS 操作。
-ms.openlocfilehash: 954943acefef8da61e92de5f8857ca023ca4fc9f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 查找有关 ArchiveItem EWS 操作的信息。
+ms.openlocfilehash: d1e18122e67c36babbc8bf01d305309e2b17b568
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753259"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463431"
 ---
 # <a name="archiveitem-operation"></a>ArchiveItem 操作
 
 查找有关**ArchiveItem** EWS 操作的信息。 
   
-**ArchiveItem**操作将项目移动到邮箱用户的存档邮箱。 
+**ArchiveItem**操作将项目移动到邮箱用户的存档邮箱中。 
   
 Exchange Server 2013 中引入了此操作。
   
 ## <a name="using-the-archiveitem-operation"></a>使用 ArchiveItem 操作
 
-**ArchiveItem**操作所需的请求中标识为这些项目移动到存档邮箱和目标文件夹的项目的两个参数。 必须按顺序执行此操作，以启用存档邮箱。 有关如何启用存档邮箱的信息，请参阅[管理就地存档](http://technet.microsoft.com/en-us/library/jj651146.aspx)。
+**ArchiveItem**操作在请求中使用两个参数，这些参数标识要移至存档邮箱的项目以及这些项目的目标文件夹。 若要使此操作正常运行，必须启用存档邮箱。 有关如何启用存档邮箱的信息，请参阅[管理就地存档](https://technet.microsoft.com/library/jj651146.aspx)。
   
 ### <a name="archiveitem-operation-soap-headers"></a>ArchiveItem 操作 SOAP 标头
 
@@ -33,25 +33,25 @@ Exchange Server 2013 中引入了此操作。
   
 |**标头名称**|**元素**|**说明**|
 |:-----|:-----|:-----|
-|**模拟** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |标识模拟客户端应用程序的用户。 适用于请求此标头。  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |标识的企业文化，，如 RFC 3066，**标识的语言标记**，以用于访问邮箱中所定义。 适用于请求此标头。  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。 适用于请求此标头。  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应该请求的服务器的版本。 适用于响应此标头。  <br/> |
+|**模拟** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |标识客户端应用程序模拟的用户。 此标头适用于请求。  <br/> |
+|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |确定用于访问邮箱的 RFC 3066 中定义的区域性（用于**标识语言的标记**）。 此标头适用于请求。  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。 此标头适用于请求。  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器版本。 此标头适用于响应。  <br/> |
    
-## <a name="archiveitem-operation-request-example-move-an-item-to-the-archive-inbox-folder"></a>ArchiveItem 操作请求示例： 将项目移动到存档收件箱文件夹
+## <a name="archiveitem-operation-request-example-move-an-item-to-the-archive-inbox-folder"></a>ArchiveItem 操作请求示例：将项目移动到存档收件箱文件夹
 
-**ArchiveItem**操作请求的下面的示例演示如何将项目移动到存档收件箱文件夹。 
+以下示例的**ArchiveItem**操作请求显示如何将项目移动到存档收件箱文件夹。 
   
 > [!NOTE]
-> 所有项目标识符，本文中的更改项具有已截短要保留可读性。 
+> 本文中的所有项目标识符和更改密钥都已缩短，以保持可读性。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013"/>
    </soap:Header>
@@ -76,9 +76,9 @@ Exchange Server 2013 中引入了此操作。
 - [ItemIds](itemids.md)   
 - [ItemId](itemid.md)
     
-## <a name="successful-archiveitem-operation-response"></a>成功 ArchiveItem 操作响应
+## <a name="successful-archiveitem-operation-response"></a>成功的 ArchiveItem 操作响应
 
-下面的示例演示对**ArchiveItem**操作请求将项目移动到存档邮箱的成功响应。 
+下面的示例演示对**ArchiveItem**操作请求的成功响应，以将项目移动到存档邮箱。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -89,15 +89,15 @@ Exchange Server 2013 中引入了此操作。
                            MajorBuildNumber="526" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-      <m:ArchiveItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                             xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+      <m:ArchiveItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                             xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
          <m:ResponseMessages>
             <m:ArchiveItemResponseMessage ResponseClass="Success">
                <m:ResponseCode>NoError</m:ResponseCode>
@@ -109,7 +109,7 @@ Exchange Server 2013 中引入了此操作。
 </s:Envelope>
 ```
 
-响应 SOAP 正文中包含以下元素：
+响应 SOAP 正文包含以下元素：
   
 - [ArchiveItemResponse](archiveitemresponse.md)    
 - [ResponseMessages](responsemessages.md)   
@@ -119,7 +119,7 @@ Exchange Server 2013 中引入了此操作。
     
 ## <a name="archiveitem-operation-error-response"></a>ArchiveItem 操作错误响应
 
-下面的示例演示**ArchiveItem**操作请求错误响应。 这是对存档项目时没有为用户启用存档邮箱的有效请求的响应。 
+下面的示例演示对**ArchiveItem**操作请求的错误响应。 这是在未为用户启用存档邮箱的情况中对项目进行存档的有效请求的响应。 
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -130,15 +130,15 @@ Exchange Server 2013 中引入了此操作。
                            MajorBuildNumber="556" 
                            MinorBuildNumber="8" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-      <m:ArchiveItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                             xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+      <m:ArchiveItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                             xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
          <m:ResponseMessages>
             <m:ArchiveItemResponseMessage ResponseClass="Error">
                <m:MessageText>Archive mailbox is not enabled for this user.</m:MessageText>
@@ -162,11 +162,11 @@ Exchange Server 2013 中引入了此操作。
 - [DescriptiveLinkKey](descriptivelinkkey.md)    
 - [Items](items.md)
     
-通用到 EWS 且特定于此操作的其他错误代码，请参阅[ResponseCode](responsecode.md)。
+有关对 EWS 通用的其他错误代码以及特定于此操作的错误代码，请参阅[ResponseCode](responsecode.md)。
   
 ## <a name="see-also"></a>另请参阅
 
 - [Exchange 中的 EWS 操作](ews-operations-in-exchange.md) 
-- [在 Exchange 中 EWS 存档](http://msdn.microsoft.com/library/78ae179b-ae4f-4f64-911a-e0c70e0fa314%28Office.15%29.aspx)
+- [在 Exchange 中 EWS 存档](https://msdn.microsoft.com/library/78ae179b-ae4f-4f64-911a-e0c70e0fa314%28Office.15%29.aspx)
     
 

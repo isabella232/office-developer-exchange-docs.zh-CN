@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 6fd8a6b8-d813-43ff-991b-0e9e782fe00e
 description: CopyToFolder元素指定文件夹的标识符可将项目复制到该电子邮件。
-ms.openlocfilehash: b641c23b7aed11ae85157e2ed01cfa9d61d07e0a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 7cdda0f9769f909255c9b76f78ac7094a8dfc8f8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753612"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463172"
 ---
 # <a name="copytofolder"></a>CopyToFolder
 
@@ -33,9 +33,9 @@ ms.locfileid: "19753612"
  **TargetFolderIdType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -43,7 +43,7 @@ ms.locfileid: "19753612"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[文件夹 Id](folderid.md) <br/> |包含用于复制或移动的项或文件夹的目标文件夹的标识符。  <br/> |
+|[FolderId](folderid.md) <br/> |包含用于复制或移动的项或文件夹的目标文件夹的标识符。  <br/> |
 |[DistinguishedFolderId](distinguishedfolderid.md) <br/> |标识命名的目标文件夹复制或移动的项或文件夹。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
@@ -56,7 +56,7 @@ ms.locfileid: "19753612"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -64,7 +64,7 @@ ms.locfileid: "19753612"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
@@ -76,5 +76,5 @@ ms.locfileid: "19753612"
 [MoveToFolder](movetofolder.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

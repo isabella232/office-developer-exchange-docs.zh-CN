@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 16d63d10-3566-4eda-802a-fcef5458d2e7
-description: AddImGroup 元素定义添加一个新的即时消息组的请求。
-ms.openlocfilehash: 0a7f949b4965b7da631904576ed664dbbd31967b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: AddImGroup 元素定义一个添加新的即时消息组的请求。
+ms.openlocfilehash: dc9ae442cf546df872fc0fe4300071d3c0ec73da
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753107"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462806"
 ---
 # <a name="addimgroup"></a>AddImGroup
 
-**AddImGroup**元素定义添加一个新的即时消息组的请求。 
+**AddImGroup**元素定义一个添加新的即时消息组的请求。 
   
 ```XML
 <AddImGroup>
@@ -28,9 +28,9 @@ ms.locfileid: "19753107"
  **AddImGroupType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,7 +42,7 @@ DisplayName
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 中引入了此元素。
   
@@ -52,9 +52,9 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
-|验证文件  <br/> |messages.xsd  <br/> |
+|验证文件  <br/> |消息 .xsd  <br/> |
 |可以为空  <br/> |false  <br/> |
    
 

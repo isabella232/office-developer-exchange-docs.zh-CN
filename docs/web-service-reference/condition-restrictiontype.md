@@ -1,5 +1,5 @@
 ---
-title: 条件 (RestrictionType)
+title: 条件（RestrictionType）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 4fdb373e-bf1b-4cb0-bbfb-444c6c6cec50
-description: Condition 元素指定用于标识的末尾搜索 FindItem 或 FindConversation 操作的条件。
-ms.openlocfilehash: 513fc21be52a90698f1c292d6d20d7cdaab07371
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Condition 元素指定用于标识 FindItem 或 FindConversation 操作的搜索的结束的条件。
+ms.openlocfilehash: 00c5b5e615ed9b253c79dae9dc2b89c797853089
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753472"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463935"
 ---
-# <a name="condition-restrictiontype"></a>条件 (RestrictionType)
+# <a name="condition-restrictiontype"></a>条件（RestrictionType）
 
-**Condition**元素指定用于标识的末尾搜索**FindItem**或**FindConversation**操作的条件。 
+**Condition**元素指定用于标识**FindItem**或**FindConversation**操作的搜索的结束的条件。 
   
 ```XML
 <Condition>
@@ -28,9 +28,9 @@ ms.locfileid: "19753472"
  **RestrictionType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -38,13 +38,13 @@ ms.locfileid: "19753472"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[SearchExpression](searchexpression.md) <br/> |代表限制中的替代的元素的抽象元素。  <br/> |
+|[SearchExpression](searchexpression.md) <br/> |表示限制中的替代元素的抽象元素。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[SeekToConditionPageItemView](seektoconditionpageitemview.md) <br/> |标识用于标识的末尾搜索、 搜索和返回，最大条目的搜索方向的起始索引**FindItem**或**FindConversation**操作的条件。  <br/> |
+|[SeekToConditionPageItemView](seektoconditionpageitemview.md) <br/> |标识用于标识搜索的结束的条件、搜索的起始索引、要返回的最大项数以及**FindItem**或**FindConversation**操作的搜索说明。  <br/> |
    
 ## <a name="remarks"></a>备注
 
@@ -56,14 +56,14 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |types.xsd  <br/> |
+|验证文件  <br/> |类型 .xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

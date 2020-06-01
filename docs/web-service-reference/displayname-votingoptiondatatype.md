@@ -1,5 +1,5 @@
 ---
-title: DisplayName (VotingOptionDataType)
+title: DisplayName （VotingOptionDataType）
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 08e89583-438c-4c9f-8475-3bc28f555e95
-description: DisplayName (VotingOptionDataType) 元素指定投票选项的显示名称。
-ms.openlocfilehash: 09f593000fd318ae90a31d961b33c8fe3879f7c9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: DisplayName （VotingOptionDataType）元素指定投票选项的显示名称。
+ms.openlocfilehash: 42291dc032517a13259fde01217b3543d3329f7d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753939"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463599"
 ---
-# <a name="displayname-votingoptiondatatype"></a>DisplayName (VotingOptionDataType)
+# <a name="displayname-votingoptiondatatype"></a>DisplayName （VotingOptionDataType）
 
-**DisplayName (VotingOptionDataType)** 元素指定投票选项的显示名称。 
+**DisplayName （VotingOptionDataType）** 元素指定投票选项的显示名称。 
   
 ```XML
 <DisplayName />
@@ -26,9 +26,9 @@ ms.locfileid: "19753939"
  **string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,9 +42,9 @@ ms.locfileid: "19753939"
   
 ## <a name="text-value"></a>文本值
 
-**DisplayName (VotingOptionDataType)** 元素的文本值是投票选项的显示名称。 
+**DisplayName （VotingOptionDataType）** 元素的文本值是投票选项的显示名称。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   
@@ -54,7 +54,7 @@ Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
@@ -62,5 +62,5 @@ Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
 ## <a name="see-also"></a>另请参阅
 
 - [VotingOptionData](votingoptiondata.md)
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

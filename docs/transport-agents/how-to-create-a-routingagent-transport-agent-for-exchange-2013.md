@@ -1,5 +1,5 @@
 ---
-title: 创建 Exchange 2013 RoutingAgent 传输代理
+title: 为 Exchange 2013 创建 RoutingAgent 传输代理
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,42 +7,42 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3f0e745f-9289-4f31-8877-926692a8c133
-description: 了解如何创建自定义 RoutingAgent 传输代理与 Exchange 2013 一起使用。
-ms.openlocfilehash: d07f68494acd26940a4837bbbfc7a0505114bd20
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 了解如何创建自定义 RoutingAgent 传输代理以与 Exchange 2013 一起使用。
+ms.openlocfilehash: 9acf30be0dd795098f757effaa34b2e72183b000
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753067"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463697"
 ---
-# <a name="create-a-routingagent-transport-agent-for-exchange-2013"></a>创建 Exchange 2013 RoutingAgent 传输代理
+# <a name="create-a-routingagent-transport-agent-for-exchange-2013"></a>为 Exchange 2013 创建 RoutingAgent 传输代理
 
-了解如何创建自定义 RoutingAgent 传输代理与 Exchange 2013 一起使用。
+了解如何创建自定义 RoutingAgent 传输代理以与 Exchange 2013 一起使用。
   
 **适用于：** Exchange Server 2013
   
 相关的代码段和示例应用程序：
 
-- [Exchange 2013： 构建带宽日志记录传输代理](http://code.msdn.microsoft.com/Exchange/Exchange-2013-Build-a-d61a4aaa)
+- [Exchange 2013：构建带宽日志记录传输代理](https://code.msdn.microsoft.com/Exchange/Exchange-2013-Build-a-d61a4aaa)
   
-[RoutingAgentFactory](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgentFactory.aspx)和[RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx)类是旨在运行 Exchange Server 2013 邮箱服务器上的传输服务上的传输代理的基类。 [RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx)类提供了为其可能在您 RoutingAgent 传输代理中实现处理程序下表中列出的事件。 
+[RoutingAgentFactory](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgentFactory.aspx)和[RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx)类是用于传输代理的基类，这些类旨在在 Exchange Server 2013 邮箱服务器上的传输服务上运行。 [RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx)类提供下表中列出的可在您的 RoutingAgent 传输代理中实现其处理程序的事件。 
   
-**表 1。RoutingAgent 类事件**
+**表1。RoutingAgent 类事件**
 
-|**事件**|**说明**|
+|**Event**|**说明**|
 |:-----|:-----|
-|[OnCategorizedMessage](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnCategorizedMessage.aspx) <br/> |如果需要，发生后服务器执行内容转换。  <br/> |
-|[OnResolvedMessage](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnResolvedMessage.aspx) <br/> |已解决所有收件人的邮件后，在由路由之前，发生此事件。  <br/> |
-|[OnRoutedMessage](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnRoutedMessage.aspx) <br/> |如果需要，发生后将邮件路由到下一个跃点服务器，并执行内容转换。 服务器可能使用更多资源处理比[OnSubmittedMessage](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnSubmittedMessage.aspx)事件[OnRoutedMessage](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnRoutedMessage.aspx)事件中的每条消息，因为服务器将执行任何所需的内容转换和确定邮件路由中的下一个跃点之前，它在[OnRoutedMessage](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnRoutedMessage.aspx)事件处理程序中执行代码。  <br/> |
-|[OnSubmittedMessage](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnSubmittedMessage.aspx) <br/> |邮件脱离提交队列后发生。 如果您 RoutingAgent 传输代理不需要内容转换、 已解析的收件人或传送的数据，请使用[OnSubmittedMessage](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnSubmittedMessage.aspx)事件。  <br/> |
+|[OnCategorizedMessage](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnCategorizedMessage.aspx) <br/> |在服务器执行内容转换（如果需要）时，发生此事件。  <br/> |
+|[OnResolvedMessage](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnResolvedMessage.aspx) <br/> |在解决邮件的所有收件人和确定路由之前发生。  <br/> |
+|[OnRoutedMessage](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnRoutedMessage.aspx) <br/> |在服务器将邮件路由到下一个跃点并执行内容转换（如果需要）之后，发生此事件。 服务器可能会使用更多资源处理[OnRoutedMessage](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnRoutedMessage.aspx)事件中的每个邮件，而不是[OnSubmittedMessage](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnSubmittedMessage.aspx)事件，因为在执行[OnRoutedMessage](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnRoutedMessage.aspx)事件处理程序中的代码之前，服务器将执行任何必要的内容转换并确定邮件路由中的下一个跃点。  <br/> |
+|[OnSubmittedMessage](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnSubmittedMessage.aspx) <br/> |在邮件离开提交队列之后发生。 如果 RoutingAgent 传输代理不需要内容转换、解析的收件人或路由数据，则使用[OnSubmittedMessage](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnSubmittedMessage.aspx)事件。  <br/> |
    
 ## <a name="creating-a-custom-routingagent-transport-agent"></a>创建自定义 RoutingAgent 传输代理
 
-以下过程介绍如何创建自定义 RoutingAgent 传输代理。 
+下面的过程介绍如何创建自定义 RoutingAgent 传输代理。 
   
 ### <a name="to-create-the-transport-agent"></a>创建传输代理
 
-1. 添加命名空间的引用。
+1. 添加对命名空间的引用。
     
    ```cs
       using Microsoft.Exchange.Data.Mime;
@@ -51,9 +51,9 @@ ms.locfileid: "19753067"
   
    ```
 
-   Exchange 服务器上，您可以找到这些命名空间。 通过添加对这些命名空间的引用，您将有权[RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx)成员以及其他中使用的类[Exchange 2013： 生成带宽日志记录传输代理](http://code.msdn.microsoft.com/Exchange/Exchange-2013-Build-a-d61a4aaa)示例。 
+   您可以在您的 Exchange 服务器上找到这些命名空间。 通过添加对这些命名空间的引用，您将有权访问[RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx)成员以及 Exchange 2013 中使用的其他类[：构建带宽日志记录传输代理](https://code.msdn.microsoft.com/Exchange/Exchange-2013-Build-a-d61a4aaa)示例。 
     
-2. 实现[RoutingAgentFactory](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgentFactory.aspx)类派生的类。 
+2. 为[RoutingAgentFactory](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgentFactory.aspx)类实现派生类。 
     
    ```cs
       public class BandwidthLoggerFactory : RoutingAgentFactory
@@ -66,9 +66,9 @@ ms.locfileid: "19753067"
   
    ```
 
-   此代码将实例化派生的类，重写**CreateAgent**方法以创建新自定义代理的实例。 此外可以在此类，以执行自定义代码重写其他方法，例如**关闭**。 
+   此代码将实例化派生类并重写**CreateAgent**方法，以创建新的自定义代理的实例。 此外，还可以在此类中重写其他方法（如**Close**），以执行自定义代码。 
     
-3. 定义您的代理。
+3. 定义代理。
     
    ```cs
       public class BandwidthLogger : RoutingAgent
@@ -85,12 +85,12 @@ ms.locfileid: "19753067"
   
    ```
 
-   定义您的代理类后，您可以将您添加自定义功能。 在此示例中的两个事件[OnSubmittedMessage](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnSubmittedMessage.aspx)和[OnRoutedMessage](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnRoutedMessage.aspx)重定向到自定义事件处理程序。 
+   在定义代理类之后，可以添加自定义功能。 在此示例中，将两个事件[OnSubmittedMessage](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnSubmittedMessage.aspx)和[OnRoutedMessage](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnRoutedMessage.aspx)重定向到自定义事件处理程序。 
     
 ## <a name="see-also"></a>另请参阅
 
-- [传输代理 Exchange 2013 中的概念](transport-agent-concepts-in-exchange-2013.md)    
-- [Exchange 2013 的传输代理引用](transport-agent-reference-for-exchange-2013.md)    
+- [Exchange 2013 中的传输代理概念](transport-agent-concepts-in-exchange-2013.md)    
+- [Exchange 2013 的传输代理参考](transport-agent-reference-for-exchange-2013.md)    
 - [RoutingAgentFactory](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgentFactory.aspx)    
 - [RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx)
     

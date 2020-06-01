@@ -1,5 +1,5 @@
 ---
-title: 收件人 (ArrayOfRecipientsType)
+title: 收件人（ArrayOfRecipientsType）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: f4b71403-cbae-4176-8b2e-3597048c057b
-description: 收件人元素均表示接收邮件的副本的收件人的集合。
-ms.openlocfilehash: b24a029bfacd6cc40e85a201b8ca90efd7790e9f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 收件人元素表示接收邮件副本的收件人的集合。
+ms.openlocfilehash: 0e18152a8143b888ad27f48137c06613694f5713
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826991"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463872"
 ---
-# <a name="recipients-arrayofrecipientstype"></a>收件人 (ArrayOfRecipientsType)
+# <a name="recipients-arrayofrecipientstype"></a>收件人（ArrayOfRecipientsType）
 
-**收件人**元素均表示接收邮件的副本的收件人的集合。 
+**收件人**元素表示接收邮件副本的收件人的集合。 
   
 ```XML
 <Recipients>
@@ -32,9 +32,9 @@ ms.locfileid: "19826991"
  **ArrayOfRecipientsType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -48,13 +48,13 @@ ms.locfileid: "19826991"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GetMailTips](getmailtips.md) <br/> |包含要检索的收件人和类型的邮件提示。  <br/> |
+|[GetMailTips](getmailtips.md) <br/> |包含要检索的邮件提示的收件人和类型。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -62,7 +62,7 @@ ms.locfileid: "19826991"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -71,5 +71,5 @@ ms.locfileid: "19826991"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

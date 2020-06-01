@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a3334bb2-90dc-4fe1-96d9-890b13d9ff30
-description: AddressListId 元素指定的地址列表的标识符。
-ms.openlocfilehash: d8a513559b7d127559537b43d7c6c0a4db121702
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: AddressListId 元素指定地址列表的标识符。
+ms.openlocfilehash: c33944bf6e41903a5de596628e1ce7ba9f7421e1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753127"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463606"
 ---
 # <a name="addresslistid"></a>AddressListId
 
-**AddressListId**元素指定的地址列表的标识符。 
+**AddressListId**元素指定地址列表的标识符。 
   
 ```XML
 <AddressListId Id="">
@@ -27,14 +27,13 @@ ms.locfileid: "19753127"
  **AddressListIdType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**说明**|
 |:-----|:-----|
-|
-  **Id** <br/> |一个 string 地址列表标识符。 此属性是必需的。  <br/> |
+|**Id** <br/> |字符串地址列表标识符。 此特性是必需的。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -44,10 +43,10 @@ ms.locfileid: "19753127"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ContextFolderId](contextfolderid.md) <br/> |指示使用文件夹的操作的目标文件夹。 此元素必须存在时复制、 删除、 移动和目标文件夹中的对话项目上设置只读的状态。  <br/> |
-|[CopyToFolder](copytofolder.md) <br/> |指定电子邮件项目复制到其中的文件夹的标识符。  <br/> |
-|[DestinationFolderId](destinationfolderid.md) <br/> |指示副本的目标文件夹，并移动操作。  <br/> |
-|[MoveToFolder](movetofolder.md) <br/> |指定电子邮件项目移至其中的文件夹的标识符  <br/> |
+|[ContextFolderId](contextfolderid.md) <br/> |指示针对使用文件夹的操作的文件夹。 在复制、删除、移动和设置目标文件夹中会话项的读取状态时，必须存在此元素。  <br/> |
+|[CopyToFolder](copytofolder.md) <br/> |指定要将电子邮件项目复制到其中的文件夹的标识符。  <br/> |
+|[DestinationFolderId](destinationfolderid.md) <br/> |指示复制和移动操作的目标文件夹。  <br/> |
+|[MoveToFolder](movetofolder.md) <br/> |指定将电子邮件项目移至其中的文件夹的标识符  <br/> |
    
 ## <a name="remarks"></a>备注
 
@@ -59,12 +58,12 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |types.xsd  <br/> |
+|验证文件  <br/> |类型 .xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

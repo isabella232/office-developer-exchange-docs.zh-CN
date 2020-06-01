@@ -1,5 +1,5 @@
 ---
-title: 备注 （联系人）
+title: 注释（联系人）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: e851914a-24be-431c-8d6c-cbedfc0652a9
-description: 注释元素包含联系人的补充信息。
-ms.openlocfilehash: 0969f0b36df12a0dc4b05eed9c062fbda9c93ae7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Notes 元素包含附属联系人信息。
+ms.openlocfilehash: bde0ec875e282e88ed4ba19153c758c4069d40cd
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826551"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462631"
 ---
-# <a name="notes-contact"></a>备注 （联系人）
+# <a name="notes-contact"></a>注释（联系人）
 
-**注释**元素包含联系人的补充信息。 
+**Notes**元素包含附属联系人信息。 
   
 ```XML
 <Notes/>
@@ -26,9 +26,9 @@ ms.locfileid: "19826551"
  **string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -44,9 +44,9 @@ ms.locfileid: "19826551"
    
 ## <a name="text-value"></a>文本值
 
-文本值是一个字符串，表示补充的联系人信息。
+Text 值是一个代表附属联系人信息的字符串。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -56,7 +56,7 @@ Exchange Server 2010 Service Pack 2 (SP2) 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -65,8 +65,8 @@ Exchange Server 2010 Service Pack 2 (SP2) 中引入了此元素。
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 
 
-[Creating Contacts (Exchange Web Services)](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+[创建联系人（Exchange Web 服务）](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
 

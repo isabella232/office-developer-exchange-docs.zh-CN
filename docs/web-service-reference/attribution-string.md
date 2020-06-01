@@ -1,5 +1,5 @@
 ---
-title: 归属 （字符串）
+title: 特性（string）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,28 +7,28 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 736be0bc-12c4-410e-bd17-a89f996ac432
-description: 属性元素指定用来标识角色属性的字符串。
-ms.openlocfilehash: 227379db8a77fb8cba7b4337e74d985bc5af65d2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 归属元素指定用于标识角色属性的字符串。
+ms.openlocfilehash: 9a3243904c02c3bdeea7e4a4e7dcb240d4ad3563
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753289"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464159"
 ---
-# <a name="attribution-string"></a>归属 （字符串）
+# <a name="attribution-string"></a>特性（string）
 
-**属性**元素指定用来标识角色属性的字符串。 
+**归属**元素指定用于标识角色属性的字符串。 
   
 ```XML
 <Attribution></Attribution>
 ```
 
- **将**
+ **xs： string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -40,11 +40,11 @@ ms.locfileid: "19753289"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[归属 (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md) <br/> |指定其关联的**值**元素的归属的数组。  <br/> |
+|[归属（ArrayOfValueAttributionsType）](attributions-arrayofvalueattributionstype.md) <br/> |为其关联的**Value**元素指定归属的数组。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**属性**元素的文本值是一个 string 值，对源联系人属性的属性值。 
+**归属**元素的文本值是一个 string 值，它对源联系人的属性值进行属性。 
   
 ## <a name="remarks"></a>备注
 
@@ -56,12 +56,12 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |types.xsd  <br/> |
+|验证文件  <br/> |类型 .xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

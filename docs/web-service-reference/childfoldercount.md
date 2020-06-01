@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: e0e4eabd-802f-4dd0-9911-89e08c66a15e
-description: ChildFolderCount 元素均表示文件夹中包含的直接子文件夹的数。 此属性是只读的。
-ms.openlocfilehash: db2ed19b23f046d296fea17533fbeadbf8a584c5
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ChildFolderCount 元素表示文件夹中包含的直接子文件夹的数目。 此属性是只读的。
+ms.openlocfilehash: 6ea3b9c000c7836b55c6bf359c95870ed28350e0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753448"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463942"
 ---
 # <a name="childfoldercount"></a>ChildFolderCount
 
-**ChildFolderCount**元素均表示文件夹中包含的直接子文件夹的数。 此属性是只读的。 
+**ChildFolderCount**元素表示文件夹中包含的直接子文件夹的数目。 此属性是只读的。 
   
 ```xml
 <ChildFolderCount/>
@@ -30,9 +30,9 @@ ms.locfileid: "19753448"
  **int**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -45,8 +45,8 @@ ms.locfileid: "19753448"
 |**元素**|**说明**|
 |:-----|:-----|
 |[Folder](folder.md) <br/> |表示邮箱中的文件夹。  <br/> |
-|[CalendarFolder](calendarfolder.md) <br/> |表示邮箱中的日历文件夹。  <br/> |
-|[ContactsFolder](contactsfolder.md) <br/> |表示邮箱中的联系人文件夹。  <br/> |
+|[CalendarFolder](calendarfolder.md) <br/> |代表邮箱中的 "日历" 文件夹。  <br/> |
+|[ContactsFolder](contactsfolder.md) <br/> |表示邮箱中的 "联系人" 文件夹。  <br/> |
 |[SearchFolder](searchfolder.md) <br/> |表示邮箱中的搜索文件夹。  <br/> |
 |[TasksFolder](tasksfolder.md) <br/> |表示邮箱中的任务文件夹。  <br/> |
    
@@ -54,7 +54,7 @@ ms.locfileid: "19753448"
 
 文本值表示一个整数。 此属性是只读的。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -62,7 +62,7 @@ ms.locfileid: "19753448"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -71,5 +71,5 @@ ms.locfileid: "19753448"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

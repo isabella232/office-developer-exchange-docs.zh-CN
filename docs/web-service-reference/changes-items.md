@@ -1,5 +1,5 @@
 ---
-title: 更改 （项）
+title: 更改（项目）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: d3139fef-0455-4b89-babd-5d6783b50a58
-description: 更改元素包含序列的数组的更改类型表示客户端上的项目和 Exchange 服务器上的项目之间的差异的类型。
-ms.openlocfilehash: 8e38597276e3e3051a5c1494619d3220280e401f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Change 元素包含更改类型的序列数组，这些类型表示客户端上的项与 Exchange 服务器上的项之间的差异类型。
+ms.openlocfilehash: 6fda7b5602f172bae84ad7b211db2811def4f883
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753445"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463263"
 ---
-# <a name="changes-items"></a>更改 （项）
+# <a name="changes-items"></a>更改（项目）
 
-**更改**元素包含序列的数组的更改类型表示客户端上的项目和 Exchange 服务器上的项目之间的差异的类型。 
+Change**元素包含更改类型**的序列数组，这些类型表示客户端上的项与 Exchange 服务器上的项之间的差异类型。 
   
 [SyncFolderItemsResponse](syncfolderitemsresponse.md)
   
@@ -29,7 +29,7 @@ ms.locfileid: "19753445"
   
 [SyncFolderItemsResponseMessage](syncfolderitemsresponsemessage.md)
   
-[更改 （项）](changes-items.md)
+[更改（项目）](changes-items.md)
   
 ```xml
 <Changes>
@@ -42,9 +42,9 @@ ms.locfileid: "19753445"
  **SyncFolderItemsChangesType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -52,26 +52,26 @@ ms.locfileid: "19753445"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[创建 (ItemSync)](create-itemsync.md) <br/> |标识在本地客户端库中创建的单个项。  <br/> |
-|[更新 (ItemSync)](update-itemsync.md) <br/> |标识要更新本地客户端存储中的单个项。  <br/> |
-|[删除 (ItemSync)](delete-itemsync.md) <br/> |标识要删除在本地客户端库中的单个项。  <br/> |
-|[ReadFlagChange](readflagchange.md) <br/> |读取项目后，在[SyncFolderItems 操作](syncfolderitems-operation.md)响应中返回。 此属性是只读的。  <br/> |
+|[创建（ItemSync）](create-itemsync.md) <br/> |标识要在本地客户端存储中创建的单个项目。  <br/> |
+|[Update （ItemSync）](update-itemsync.md) <br/> |标识要在本地客户端存储中更新的单个项目。  <br/> |
+|[Delete （ItemSync）](delete-itemsync.md) <br/> |标识要在本地客户端存储中删除的单个项。  <br/> |
+|[ReadFlagChange](readflagchange.md) <br/> |在已读取项目时，在[SyncFolderItems 操作](syncfolderitems-operation.md)响应中返回。 此属性是只读的。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[SyncFolderItemsResponseMessage](syncfolderitemsresponsemessage.md) <br/> |包含状态和[SyncFolderItems 操作](syncfolderitems-operation.md)请求的结果。  <br/> |
+|[SyncFolderItemsResponseMessage](syncfolderitemsresponsemessage.md) <br/> |包含[SyncFolderItems 操作](syncfolderitems-operation.md)请求的状态和结果。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-描述此元素的架构位于运行 Microsoft Exchange Server 2010 的安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
+描述此元素的架构位于运行 Microsoft Exchange Server 2010 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
   
 ## <a name="element-information"></a>元素信息
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -83,5 +83,5 @@ ms.locfileid: "19753445"
 [SyncFolderItems 操作](syncfolderitems-operation.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

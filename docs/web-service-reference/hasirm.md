@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: fedc04e0-cfd2-4652-a2a8-51de859ae847
-description: HasIrm 元素指定对话和当前文件夹中的至少一个邮件是否 IRM 受保护的邮件。
-ms.openlocfilehash: c129370d7920da7cf1f9f32eed2f075e6c21cf8b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: HasIrm 元素指定会话中是否至少有一封邮件，以及当前文件夹是否为受 IRM 保护的邮件。
+ms.openlocfilehash: 1596610ed5f6b2bac353900624fbec9140aaa693
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825803"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462778"
 ---
 # <a name="hasirm"></a>HasIrm
 
-**HasIrm**元素指定对话和当前文件夹中的至少一个邮件是否 IRM 受保护的邮件。 
+**HasIrm**元素指定会话中是否至少有一封邮件，以及当前文件夹是否为受 IRM 保护的邮件。 
   
 ```XML
 <HasIrm> true | false </HasIrm>
@@ -26,9 +26,9 @@ ms.locfileid: "19825803"
  **Boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,9 +42,9 @@ ms.locfileid: "19825803"
   
 ## <a name="text-value"></a>文本值
 
-如果对话和当前文件夹中的至少一个邮件具有 IRM， **HasIrm**元素的文本值为**true** 。 否则，值为**false**。
+如果对话中至少有一封邮件，并且当前文件夹中有 IRM，则**HasIrm**元素的文本值为**true** 。 否则，该值为**false**。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   
@@ -54,7 +54,7 @@ Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
@@ -66,5 +66,5 @@ Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
 [对话 (ConversationType)](conversation-conversationtype.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

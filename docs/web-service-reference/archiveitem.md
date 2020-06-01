@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c2172e61-876a-4f76-bc9c-263c8be11429
-description: ArchiveItem 元素包含源文件夹 Id 和项目 Id 关联的存档项目的数组。
-ms.openlocfilehash: 7f2d79f5a9e6798fafcf64e8b1bb680390800992
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ArchiveItem 元素包含源文件夹 Id 和关联存档项的项 Id 的数组。
+ms.openlocfilehash: e1694619c90160084980cb8f3a7c8a0ed1876295
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753256"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463403"
 ---
 # <a name="archiveitem"></a>ArchiveItem
 
-**ArchiveItem**元素包含源文件夹 Id 和项目 Id 关联的存档项目的数组。 
+**ArchiveItem**元素包含源文件夹 Id 和关联存档项的项 id 的数组。 
   
 ```XML
 <ArchiveItem>
@@ -29,21 +29,21 @@ ms.locfileid: "19753256"
  **ArchiveItemType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
 ### <a name="child-elements"></a>子元素
 
-[ArchiveSourceFolderId](archivesourcefolderid.md) | [ItemIds](itemids.md)
+[ArchiveSourceFolderId](archivesourcefolderid.md)  | [ItemIds](itemids.md)
   
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 中引入了此元素。
   
@@ -53,9 +53,9 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
-|验证文件  <br/> |messages.xsd  <br/> |
+|验证文件  <br/> |消息 .xsd  <br/> |
 |可以为空  <br/> |false  <br/> |
    
 

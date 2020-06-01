@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 70639472-64bb-456a-8b40-dce727542443
-description: ContainsBodyStrings 元素表示必须显示在正文中的条件或例外应用的顺序的传入消息的字符串。
-ms.openlocfilehash: 5993bd4061298e82a2393768eccb051326564e98
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ContainsBodyStrings 元素指示必须出现在传入邮件正文中的字符串，以便条件或例外情况适用。
+ms.openlocfilehash: 008261ab94b1bed33cc72cacf7abe7aa58927d1a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753525"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463802"
 ---
 # <a name="containsbodystrings"></a>ContainsBodyStrings
 
-**ContainsBodyStrings**元素表示必须显示在正文中的条件或例外应用的顺序的传入消息的字符串。 
+**ContainsBodyStrings**元素指示必须出现在传入邮件正文中的字符串，以便条件或例外情况适用。 
   
 ```XML
 <ContainsBodyStrings>
@@ -32,9 +32,9 @@ ms.locfileid: "19753525"
  **ArrayOfStringsType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,7 +42,7 @@ ms.locfileid: "19753525"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[字符串](string.md) <br/> |表示必须显示在正文中的条件或例外应用的顺序的传入消息的字符串。  <br/> |
+|[字符串](string.md) <br/> |表示必须出现在传入邮件正文中的字符串，以便条件或例外情况适用。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -55,7 +55,7 @@ ms.locfileid: "19753525"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -63,7 +63,7 @@ ms.locfileid: "19753525"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
@@ -72,5 +72,5 @@ ms.locfileid: "19753525"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

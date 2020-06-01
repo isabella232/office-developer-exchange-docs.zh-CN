@@ -1,5 +1,5 @@
 ---
-title: 部门
+title: Department
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 1a5bca89-0769-4497-8ca0-4e6b908f8eaa
 description: Department 元素表示联系人的工作部门。
-ms.openlocfilehash: 5dc66632b999106689c0741b7738bebd6e9ae2f9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
-ms.translationtype: HT
+ms.openlocfilehash: b9057f3ebfcb989eec188a0eba22ebfc0ecc24bd
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753836"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464124"
 ---
 # <a name="department"></a>部门
 
@@ -58,12 +58,12 @@ ms.locfileid: "19753836"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
-- [创建联系人（Exchange Web 服务）](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+- [创建联系人（Exchange Web 服务）](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
 

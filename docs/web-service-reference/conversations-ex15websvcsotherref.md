@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 1d18f98c-6457-45e9-a934-32da20885ac6
-description: 对话元素包含一个数组 FindConversation 响应中返回的对话。
-ms.openlocfilehash: cd36364bd975d1464af9a1114c64c29543b4ec47
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 对话元素包含在 FindConversation 响应中返回的一组对话。
+ms.openlocfilehash: 8af1023db51dd955c544422520ec5565f09f5372
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753595"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463795"
 ---
 # <a name="conversations"></a>对话
 
-**对话**元素包含一个数组**FindConversation**响应中返回的对话。 
+**对话**元素包含在**FindConversation**响应中返回的一组对话。 
   
 [FindConversationResponse](findconversationresponse.md)
   
@@ -36,9 +36,9 @@ ms.locfileid: "19753595"
  **ArrayOfConversationsType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -52,13 +52,13 @@ ms.locfileid: "19753595"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[FindConversationResponse](findconversationresponse.md) <br/> |定义**FindConversation**请求的响应。  <br/> |
+|[FindConversationResponse](findconversationresponse.md) <br/> |定义对**FindConversation**请求的响应。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   
@@ -66,7 +66,7 @@ ms.locfileid: "19753595"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -75,8 +75,8 @@ ms.locfileid: "19753595"
 
 
 
-[FindConversation Operation](findconversation-operation.md)
+[FindConversation 操作](findconversation-operation.md)
 
 
-[Conversations in EWS](http://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
+[Conversations in EWS](https://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
 

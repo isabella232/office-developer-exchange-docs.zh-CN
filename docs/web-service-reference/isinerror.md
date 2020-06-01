@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: f56e6c31-a566-4761-8755-d90ffe6fe790
 description: IsInError元素指示该规则是否处于出错状态。
-ms.openlocfilehash: 9f77bbe11106174d0e82c5257e08c3728d67c60c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9e642c9f89434bdcad97b0c16dc35f99196051d7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826033"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464215"
 ---
 # <a name="isinerror"></a>IsInError
 
@@ -30,9 +30,9 @@ ms.locfileid: "19826033"
  **Boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -50,7 +50,7 @@ ms.locfileid: "19826033"
 
 文本值 **true**表示规则是在错误条件。 **false**表示规则不处于错误状态。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -58,7 +58,7 @@ ms.locfileid: "19826033"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
@@ -67,5 +67,5 @@ ms.locfileid: "19826033"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

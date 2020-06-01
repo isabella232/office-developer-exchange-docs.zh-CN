@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 76a7ea58-a44f-49b8-baba-d21302d742ad
-description: MoreEvents 元素指示队列传送到客户端中是否有多个事件。
-ms.openlocfilehash: cc3f7ed3b4b5f5ce27a9d45d508506bfa62e5086
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: MoreEvents 元素指示队列中是否存在要传递到客户端的更多事件。
+ms.openlocfilehash: fd12dd2e2e64ce1711e553ba5eb29bd0eb64c892
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826489"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462729"
 ---
 # <a name="moreevents"></a>MoreEvents
 
-**MoreEvents**元素指示队列传送到客户端中是否有多个事件。 
+**MoreEvents**元素指示队列中是否存在要传递到客户端的更多事件。 
   
 ```xml
 <MoreEvents/>
@@ -30,9 +30,9 @@ ms.locfileid: "19826489"
  **Boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -44,17 +44,17 @@ ms.locfileid: "19826489"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[通知](notification-ex15websvcsotherref.md) <br/> |包含有关订阅和自上次通知以来发生的事件的信息。  <br/> |
+|[通知](notification-ex15websvcsotherref.md) <br/> |包含有关订阅以及上次通知之后发生的事件的信息。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-文本值表示的布尔值。 值为**true**指示多个事件队列中。 如果值为**false**指示的多个事件不会在队列中。 此属性是只读的。 
+该文本值表示一个布尔值。 **如果值为 true，则**表示队列中有更多事件。 **如果值为 false** ，则表示队列中没有其他事件。 此属性是只读的。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-对于出现通知，此元素中的一个**true**值指示客户端应发出另一个 GetEvents 请求以获取剩余的事件。 假定客户端规范需要事件通知的最小的延迟，GetEvents 请求应继续连续连续，直到**false** **MoreEvents**值返回。 
+在请求通知的情况下，此元素中的**true**值指示客户端应发出另一个 GetEvents 请求，以获取剩余事件。 假定客户端规范要求的事件通知的最低延迟，则 GetEvents 请求应持续持续连续，直到返回**false** **MoreEvents**值。 
   
-对于推送通知**MoreEvents** **true**值指示客户端，另一个通知请求将发送到客户端提供剩余的事件。 类似于出现通知，这些后续请求将继续连续连续直到客户端访问服务器上的事件队列为空。 
+在推送通知的情况下， **MoreEvents**的**true**值向客户端指明将向客户端发送另一个通知请求，以传递其余事件。 与 Pull 通知类似，这些后续请求将继续连续持续连续，直到客户端访问服务器上的事件队列为空。 
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -62,7 +62,7 @@ ms.locfileid: "19826489"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -75,5 +75,5 @@ ms.locfileid: "19826489"
   
 [GetEvents 操作](getevents-operation.md)
   
-[取消操作](unsubscribe-operation.md)
+[取消订阅操作](unsubscribe-operation.md)
 

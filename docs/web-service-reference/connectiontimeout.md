@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 14da68a0-bcca-4281-a774-47644baa4ee9
-description: ConnectionTimeout 元素指定要保持连接处于打开状态的分钟数。
-ms.openlocfilehash: 2bb40ba502853c70ef107c4c740fdfe7073abe31
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ConnectionTimeout 元素指定保持连接打开的分钟数。
+ms.openlocfilehash: 671e3cf5466ee8b3543036811708bd7f54afdcce
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753485"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463851"
 ---
 # <a name="connectiontimeout"></a>ConnectionTimeout
 
-**ConnectionTimeout**元素指定要保持连接处于打开状态的分钟数。 
+**ConnectionTimeout**元素指定保持连接打开的分钟数。 
   
 [GetStreamingEvents 操作](getstreamingevents-operation.md)
   
@@ -34,9 +34,9 @@ ms.locfileid: "19753485"
  **int**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -48,11 +48,11 @@ ms.locfileid: "19753485"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GetStreamingEvents](getstreamingevents.md) <br/> |定义一个请求以获取从流式连接的事件通知。  <br/> |
+|[GetStreamingEvents](getstreamingevents.md) <br/> |定义从流式连接获取事件通知的请求。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-文本值表示一个整数，描述的最大分钟时间来保持打开状态的流式连接数。 值必须是介于 1 到 30，非独占之间。
+该文本值表示一个整数，该整数描述将流式连接保持打开状态的最长时间（以分钟为单位）。 值必须介于1和30之间（含这两个值）。
   
 ## <a name="remarks"></a>备注
 
@@ -62,7 +62,7 @@ ms.locfileid: "19753485"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -74,5 +74,5 @@ ms.locfileid: "19753485"
 [GetStreamingEvents 操作](getstreamingevents-operation.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

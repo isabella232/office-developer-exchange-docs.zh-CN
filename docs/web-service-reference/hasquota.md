@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: b6e4fef0-92a9-415f-81ae-0c5ecb7c12ad
-description: HasQuota 元素指示托管的文件夹是否有配额。
-ms.openlocfilehash: 26f14ee7c9d4de267733bca11f7884d1d391b3dd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: HasQuota 元素指示托管文件夹是否具有配额。
+ms.openlocfilehash: 6e32aa4c69943774be928339936cca5016c58d85
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825807"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462750"
 ---
 # <a name="hasquota"></a>HasQuota
 
-**HasQuota**元素指示托管的文件夹是否有配额。 
+**HasQuota**元素指示托管文件夹是否具有配额。 
   
 ```xml
 <HasQuota/>
@@ -30,9 +30,9 @@ ms.locfileid: "19825807"
  **Boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -48,9 +48,9 @@ ms.locfileid: "19825807"
    
 ## <a name="text-value"></a>文本值
 
-文本值表示的布尔值。 值为**true**指示文件夹具有配额;如果值为**false**指示文件夹没有配额。 
+该文本值表示一个布尔值。 **如果值为 true** ，则表示文件夹具有配额;**如果值为 false** ，则表示文件夹没有配额。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -58,7 +58,7 @@ ms.locfileid: "19825807"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -67,5 +67,5 @@ ms.locfileid: "19825807"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

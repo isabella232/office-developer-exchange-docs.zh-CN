@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 15ff513d-f39e-44ed-a13f-ab3f86fa37e1
-description: HasChanged 元素指示是否已更改用户的照片。
-ms.openlocfilehash: b0129e3d3acb43ada16a824e3d21706999d7053c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: HasChanged 元素指示用户的照片是否已更改。
+ms.openlocfilehash: d777220f55d33cde548d8257cf249b57481a43f8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825802"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462785"
 ---
 # <a name="haschanged"></a>HasChanged
 
-**HasChanged**元素指示是否已更改用户的照片。 
+**HasChanged**元素指示用户的照片是否已更改。 
   
 ```XML
 <HasChanged> true | false </HasChanged>
@@ -26,9 +26,9 @@ ms.locfileid: "19825802"
  ****
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,7 +42,7 @@ ms.locfileid: "19825802"
   
 ## <a name="text-value"></a>文本值
 
-文本值为**true**的**HasChanged**元素指示照片已更改所返回的最后一次。 如果值为**false**指示最后一次它返回未更改的照片。 
+如果**HasChanged**元素的文本值为**true** ，则表示自上次返回后照片已发生更改。 **如果值为 false** ，则表示照片自上次返回后未发生更改。 
   
 ## <a name="remarks"></a>备注
 
@@ -54,7 +54,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> ||

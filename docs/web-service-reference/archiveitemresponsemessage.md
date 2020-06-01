@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2ac58d6f-e019-4352-b82f-8ac67a171e63
-description: ArchiveItemResponseMessage 元素指定 ArchiveItem 请求的响应消息。
-ms.openlocfilehash: a7832e2cb4ec91a0871de5979fd1b418c0626aa6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ArchiveItemResponseMessage 元素指定对 ArchiveItem 请求的响应消息。
+ms.openlocfilehash: 24d09d63cab6805194e35031d8590290573de0a9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753260"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463389"
 ---
 # <a name="archiveitemresponsemessage"></a>ArchiveItemResponseMessage
 
-**ArchiveItemResponseMessage**元素指定**ArchiveItem**请求的响应消息。 
+**ArchiveItemResponseMessage**元素指定对**ArchiveItem**请求的响应消息。 
   
 ```XML
 <ArchiveItemResponseMessage ResponseClass="">
@@ -32,9 +32,9 @@ ms.locfileid: "19753260"
  **ItemInfoResponseMessageType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**说明**|
 |:-----|:-----|
@@ -50,19 +50,19 @@ ms.locfileid: "19753260"
    
 ### <a name="child-elements"></a>子元素
 
-|**元素**|**说明**|
+|**元素**|**描述**|
 |:-----|:-----|
-|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |当前未使用，保留以供将来使用。  <br/> |
+|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |当前未使用，并已保留以供将来使用。  <br/> |
 |[Items](items.md) <br/> |包含项的数组。  <br/> |
-|[MessageText](messagetext.md) <br/> |提供的响应状态的文本说明。  <br/> |
-|[MessageXml](messagexml.md) <br/> |提供了其他错误响应信息。  <br/> |
+|[MessageText](messagetext.md) <br/> |提供响应状态的文本说明。  <br/> |
+|[MessageXml](messagexml.md) <br/> |提供其他错误响应信息。  <br/> |
 |[ResponseCode](responsecode.md) <br/> |提供有关请求的状态信息。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
-|**元素**|**说明**|
+|**元素**|**描述**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |包含为 Exchange Web 服务请求的响应消息。  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |包含 Exchange Web 服务请求的响应消息。  <br/> |
    
 ## <a name="remarks"></a>备注
 
@@ -74,12 +74,12 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
-|验证文件  <br/> |messages.xsd  <br/> |
+|验证文件  <br/> |消息 .xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

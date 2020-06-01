@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 013c17c9-cb37-4028-9fe6-c3f47441d0f7
-description: DisplayNameFirstLast 元素指定关联的个人的显示名称为的格式，名字、 姓氏。
-ms.openlocfilehash: 7a8c269c7e1b03448d176a630fbcae979926bdf4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: DisplayNameFirstLast 元素指定 "名称"、"姓"、"姓" 格式的关联角色的显示名称。
+ms.openlocfilehash: 6ba35b6a17a64d46655e51691847b9aecbf52f40
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753940"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464110"
 ---
 # <a name="displaynamefirstlast"></a>DisplayNameFirstLast
 
-**DisplayNameFirstLast**元素指定关联的个人的显示名称为的格式，"名字"，"姓氏"。 
+**DisplayNameFirstLast**元素指定 "名"、"First name"、"Last name" 格式的关联角色的显示名称。 
   
 ```XML
 <DisplayNameFirstLast>
@@ -26,9 +26,9 @@ ms.locfileid: "19753940"
  **string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -40,11 +40,11 @@ ms.locfileid: "19753940"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[角色](persona.md) <br/> |指定一组个人**GetPersona**请求返回的数据。  <br/> |
+|[角色](persona.md) <br/> |指定由**GetPersona**请求返回的一组角色数据。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**DisplayNameFirstLast**元素的文本值是一个首先包含的显示名称，具有给定名称的字符串值。 
+**DisplayNameFirstLast**元素的文本值是一个包含显示名称的字符串值，其中先具有给定的名称。 
   
 ## <a name="remarks"></a>备注
 
@@ -56,12 +56,12 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |types.xsd  <br/> |
+|验证文件  <br/> |类型 .xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

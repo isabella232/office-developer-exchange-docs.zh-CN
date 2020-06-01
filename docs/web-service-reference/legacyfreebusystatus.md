@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: ee5f3046-b79f-4f68-9455-1a688cee2745
-description: LegacyFreeBusyStatus 元素表示的日历项目的忙/闲状态。
-ms.openlocfilehash: 681d7256dbef09c6c43d33ea1fc92b5d05e73a41
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: LegacyFreeBusyStatus 元素表示日历项目的忙/闲状态。
+ms.openlocfilehash: ecbcae0862c9c02c0a4a61012816e4c2c6ea07b7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826247"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463228"
 ---
 # <a name="legacyfreebusystatus"></a>LegacyFreeBusyStatus
 
-**LegacyFreeBusyStatus**元素表示的日历项目的忙/闲状态。 
+**LegacyFreeBusyStatus**元素表示日历项目的忙/闲状态。 
   
 ```xml
 <LegacyFreeBusyStatus/>
@@ -31,9 +31,9 @@ ms.locfileid: "19826247"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -45,21 +45,21 @@ ms.locfileid: "19826247"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[日历项目](calendaritem.md) <br/> |表示 Exchange 日历项。  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |表示 Exchange 日历项。  <br/> |
 |[MeetingRequest](meetingrequest.md) <br/> |表示 Exchange 存储中的会议请求。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-需要为此元素的文本值。 此元素的可能的文本值如下：
+此元素需要一个文本值。 以下是此元素的可能的文本值：
   
-- 免费 
-- 暂定
+- 空闲 
+- 暂
 - 忙碌
 - OOF
 - WorkingElsewhere
 - NoData
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -67,12 +67,12 @@ ms.locfileid: "19826247"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

@@ -1,5 +1,5 @@
 ---
-title: LegacyDN (SOAP)
+title: LegacyDN （SOAP）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,17 +8,17 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 837072fa-1fd9-4288-b826-5e9fdb2ea35c
-description: LegacyDN 元素表示的备用邮箱旧的可分辨的名称。
-ms.openlocfilehash: ae0fd3d52e8efde82a667063a604cf591ebd933e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: LegacyDN 元素表示备用邮箱旧版可分辨名称。
+ms.openlocfilehash: de7c4f98072c325e1bac34cd552598307b5a8c00
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826236"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463242"
 ---
-# <a name="legacydn-soap"></a>LegacyDN (SOAP)
+# <a name="legacydn-soap"></a>LegacyDN （SOAP）
 
-**LegacyDN**元素表示的备用邮箱旧的可分辨的名称。 
+**LegacyDN**元素表示备用邮箱旧版可分辨名称。 
   
 ```XML
 <LegacyDN/>
@@ -28,9 +28,9 @@ ms.locfileid: "19826236"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,22 +42,22 @@ ms.locfileid: "19826236"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[AlternateMailbox (SOAP)](alternatemailbox-soap.md) <br/> |代表一个备用的邮箱。  <br/> |
+|[AlternateMailbox （SOAP）](alternatemailbox-soap.md) <br/> |代表备用邮箱。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**LegacyDN**元素的值是旧的备用邮箱的可分辨的名称。 
+**LegacyDN**元素的值是备用邮箱旧版可分辨名称。 
   
 ## <a name="element-information"></a>元素信息
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |架构名称  <br/> |自动发现架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
-- [AlternateMailboxCollectionSetting (SOAP)](alternatemailboxcollectionsetting-soap.md)
+- [AlternateMailboxCollectionSetting （SOAP）](alternatemailboxcollectionsetting-soap.md)
 

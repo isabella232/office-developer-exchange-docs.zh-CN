@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ca77431e-2d6c-48e0-a20e-e8616c6fa157
-description: DisplayNameLastFirstHeader 元素指定标头的显示名称姓首先。
-ms.openlocfilehash: edcc5d51da0c40bba859ad13f357affc902981be
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: DisplayNameLastFirstHeader 元素指定显示名称的标头，首先是姓。
+ms.openlocfilehash: 4987ace53b3ad6ecabed7644071436777fb3b926
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753952"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463144"
 ---
 # <a name="displaynamelastfirstheader"></a>DisplayNameLastFirstHeader
 
-**DisplayNameLastFirstHeader**元素指定标头的显示名称姓首先。 
+**DisplayNameLastFirstHeader**元素指定显示名称的标头，首先是姓。 
   
 ```xml
 <DisplayNameLastFirstHeader></DisplayNameLastFirstHeader>
@@ -26,9 +26,9 @@ ms.locfileid: "19753952"
  **string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -40,11 +40,11 @@ ms.locfileid: "19753952"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[角色](persona.md) <br/> |指定一组个人**GetPersona**请求返回的数据。  <br/> |
+|[角色](persona.md) <br/> |指定由**GetPersona**请求返回的一组角色数据。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**DisplayNameLastFirstHeader**元素的文本值是一个 string 值，指定的显示名称，首先 surname。 
+**DisplayNameLastFirstHeader**元素的文本值是一个 string 值，它指定显示名称 "姓"。 
   
 ## <a name="remarks"></a>备注
 
@@ -56,12 +56,12 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |types.xsd  <br/> |
+|验证文件  <br/> |类型 .xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

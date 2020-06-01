@@ -7,23 +7,23 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: b34629f3-19a8-4add-a06c-a160c4288dae
-description: AttachLongPathName 元素旨在仅供内部使用。
-ms.openlocfilehash: cb763844d66e91c8fe89efa5002890373b22ac6e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: AttachLongPathName 元素仅供内部使用。
+ms.openlocfilehash: f8a120e56eb1d20e99f6054eef003ddade22fea2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753286"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464264"
 ---
 # <a name="attachlongpathname"></a>AttachLongPathName
 
-**AttachLongPathName**元素旨在仅供内部使用。 
+**AttachLongPathName**元素仅供内部使用。 
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19753286"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   

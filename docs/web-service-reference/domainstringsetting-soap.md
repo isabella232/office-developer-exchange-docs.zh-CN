@@ -1,5 +1,5 @@
 ---
-title: DomainStringSetting (SOAP)
+title: DomainStringSetting （SOAP）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,17 +8,17 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 268805b5-baf7-4826-b92e-cb9f9f5792ea
-description: DomainStringSetting 元素均表示的值是 string 类型的域设置。
-ms.openlocfilehash: 860a2d60f55c22e0404be5f0dd0d1fec41fe48f2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: DomainStringSetting 元素表示域设置的值的类型为 string 类型。
+ms.openlocfilehash: 791c4598d9f1ed471c3ce3b6083498b5da0f2b72
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753985"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463585"
 ---
-# <a name="domainstringsetting-soap"></a>DomainStringSetting (SOAP)
+# <a name="domainstringsetting-soap"></a>DomainStringSetting （SOAP）
 
-**DomainStringSetting**元素均表示的值是 string 类型的域设置。 
+**DomainStringSetting**元素表示域设置的值的类型为 string 类型。 
   
 ```XML
 <DomainStringSetting>
@@ -30,9 +30,9 @@ ms.locfileid: "19753985"
  **DomainStringSetting**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -40,8 +40,8 @@ ms.locfileid: "19753985"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[名称 (SOAP)](name-soap.md) <br/> |代表设置的名称。  <br/> |
-|[值 (SOAP)](value-soap.md) <br/> |代表用户设置值。  <br/> |
+|[名称（SOAP）](name-soap.md) <br/> |表示设置的名称。  <br/> |
+|[Value （SOAP）](value-soap.md) <br/> |表示用户设置值。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -55,7 +55,7 @@ ms.locfileid: "19753985"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |架构名称  <br/> |自动发现架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |

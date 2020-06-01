@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 593e0c79-9ec2-4040-a6a3-3c5c61cbdf7c
-description: NonIndexableItemStatistic 元素包含无法索引项的单个统计信息
-ms.openlocfilehash: e604f73216aab4cca259bc6cb7eb80a2fd36cd23
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: NonIndexableItemStatistic 元素包含无法编制索引的项目的单个统计信息
+ms.openlocfilehash: cc7bee9fd2759a16dd16538d6712e40ceb005fec
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826540"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462680"
 ---
 # <a name="nonindexableitemstatistic"></a>NonIndexableItemStatistic
 
-**NonIndexableItemStatistic**元素包含无法索引项的单个统计信息 
+**NonIndexableItemStatistic**元素包含无法编制索引的项目的单个统计信息 
   
 ```XML
 <NonIndexableItemStatistic>
@@ -30,15 +30,15 @@ ms.locfileid: "19826540"
  **NonIndexableItemStatisticType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
 ### <a name="child-elements"></a>子元素
 
-[邮箱 （字符串）](mailbox-string.md) | [ItemCount](itemcount.md) | [ErrorMessage](errormessage.md)
+[邮箱（字符串）](mailbox-string.md)  | [ItemCount](itemcount.md)  | [ErrorMessage](errormessage.md)
   
 ### <a name="parent-elements"></a>父元素
 
@@ -54,7 +54,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |

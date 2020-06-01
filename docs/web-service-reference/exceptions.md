@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 7cd63ac2-3441-4ed4-915b-6f90af4b28fc
-description: 例外元素标识表示收件箱规则的所有可用规则例外条件的例外。
-ms.openlocfilehash: b875b4dc0029bb9e0bc2bb50c41569fb72ef9268
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Exception 元素标识代表收件箱规则的所有可用的规则例外条件的例外。
+ms.openlocfilehash: 1afc2980391ee588f9b9b813b87c2c699de3a6df
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754185"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463354"
 ---
 # <a name="exceptions"></a>异常
 
-**例外**元素标识表示收件箱规则的所有可用规则例外条件的例外。 
+Exception**元素标识**代表收件箱规则的所有可用的规则例外条件的例外。 
   
 ```XML
 <Conditions>
@@ -65,9 +65,9 @@ ms.locfileid: "19754185"
  **RulePredicatesType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -75,54 +75,54 @@ ms.locfileid: "19754185"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Categories](categories-ex15websvcsotherref.md) <br/> |包含必须应用于的条件或例外应用的顺序中的传入邮件的类别。  <br/> |
-|[ContainsBodyStrings](containsbodystrings.md) <br/> |指示必须显示在正文中的条件或例外应用的顺序的传入消息的字符串。  <br/> |
-|[ContainsHeaderStrings](containsheaderstrings.md) <br/> |Indicaqtes 必须应用的条件或例外顺序中的传入消息头中显示的字符串。  <br/> |
-|[ContainsRecipientStrings](containsrecipientstrings.md) <br/> |指示必须出现在**ToRecipients**或**CcRecipients**属性中的条件或例外应用的顺序的传入消息的字符串。  <br/> |
-|[ContainsSenderStrings](containssenderstrings.md) <br/> |指示必须出现在**From**属性中的条件或例外应用的顺序的传入消息的字符串。  <br/> |
-|[ContainsSubjectOrBodyStrings](containssubjectorbodystrings.md) <br/> |指示必须出现在正文或中的条件或例外应用的顺序的传入邮件的主题的字符串。  <br/> |
-|[ContainsSubjectStrings](containssubjectstrings.md) <br/> |指示必须在主题中的条件或例外应用的顺序的传入消息中显示的字符串。  <br/> |
-|[FlaggedForAction](flaggedforaction.md) <br/> |指定对传入邮件中的条件或例外的顺序应用操作值，必须在出现的标志。  <br/> |
-|[FromAddresses](fromaddresses.md) <br/> |指示必须从其发送传入消息的条件或例外的顺序应用中的电子邮件地址。  <br/> |
-|[FromConnectedAccounts](fromconnectedaccounts.md) <br/> |表示具有已聚合中的条件或例外的顺序应用传入消息的电子邮件帐户名。  <br/> |
-|[HasAttachments](hasattachments.md) <br/> |指示是否具有传入消息，使其具有附件中的条件或例外应用的顺序。  <br/> |
-|[Importance](importance.md) <br/> |指定对传入邮件中的条件或例外应用的顺序标的重要性。  <br/> |
-|[IsApprovalRequest](isapprovalrequest.md) <br/> |指示是否必须审批请求中的条件或例外的顺序应用传入消息。  <br/> |
-|[IsAutomaticForward](isautomaticforward.md) <br/> |指示是否必须按条件或例外的顺序应用自动转发传入消息。  <br/> |
-|[IsAutomaticReply](isautomaticreply.md) <br/> |指示是否必须按条件或例外的顺序应用的自动答复传入消息。  <br/> |
-|[进行加密](isencrypted.md) <br/> |指示是否必须 S/MIME 加密的条件或例外的顺序应用传入消息。  <br/> |
-|[IsMeetingRequest](ismeetingrequest.md) <br/> |指示是否必须传入消息会议请求中的条件或例外应用的顺序。  <br/> |
-|[IsMeetingResponse](ismeetingresponse.md) <br/> |指示是否必须会议传入消息的条件或例外的顺序应用中的响应。  <br/> |
-|[IsNDR](isndr.md) <br/> |指示的条件或例外应用的顺序中的传入邮件是否必须以未送达报告 (Ndr)。  <br/> |
-|[IsPermissionControlled](ispermissioncontrolled.md) <br/> |指示传入邮件是否必须进行的条件或例外应用的顺序中控制权限 (受 RMS 保护)  <br/> |
-|[IsReadReceipt](isreadreceipt.md) <br/> |指示是否必须读取传入消息中的条件或例外应用的顺序的回执。  <br/> |
-|[IsSigned](issigned.md) <br/> |指示传入邮件是否必须 S/MIME 签名中的条件或例外应用的顺序。  <br/> |
-|[IsVoicemail](isvoicemail.md) <br/> |指示是否传入消息必须应用的条件或例外顺序中的语音邮件消息。  <br/> |
-|[ItemClasses](itemclasses.md) <br/> |代表必须在应用的条件或例外顺序中的传入邮件标记的项类。  <br/> |
-|[MessageClassifications](messageclassifications.md) <br/> |代表必须在应用的条件或例外顺序中的传入邮件标记邮件分类。  <br/> |
-|[NotSentToMe](notsenttome.md) <br/> |指示是否中的条件或例外应用的顺序的传入消息的**ToRecipients**属性中不能邮箱的所有者。  <br/> |
-|[SentCcMe](sentccme.md) <br/> |指示是否要应用的条件或例外顺序中的传入消息的**CcRecipients**属性中的邮箱的所有者。  <br/> |
-|[SentOnlyToMe](sentonlytome.md) <br/> |指示是否邮箱所有者必须是唯一的条件或例外应用的顺序中的传入消息的**ToRecipients**属性中。  <br/> |
-|[SentToAddresses](senttoaddresses.md) <br/> |指示需要中的条件或例外的顺序应用发送给传入消息的电子邮件地址。  <br/> |
-|[SentToMe](senttome.md) <br/> |指示是否要应用的条件或例外顺序中的传入消息的**ToRecipients**属性中的邮箱的所有者。  <br/> |
-|[SentToOrCcMe](senttoorccme.md) <br/> |指示是否要应用的条件或例外顺序中的传入消息的**ToRecipients**或**CcRecipients**属性中的邮箱的所有者。  <br/> |
-|[Sensitivity](sensitivity.md) <br/> |指示必须在应用的条件或例外顺序中的传入邮件标记的敏感度。  <br/> |
-|[WithinDateRange](withindaterange.md) <br/> |指定在其中传入消息必须已收到的条件或例外的顺序应用中的日期范围。  <br/> |
-|[WithinSizeRange](withinsizerange.md) <br/> |指定的条件或例外的顺序应用必须传入消息的最小和最大大小。  <br/> |
+|[Categories](categories-ex15websvcsotherref.md) <br/> |包含必须应用于传入邮件的类别，以便条件或例外情况适用。  <br/> |
+|[ContainsBodyStrings](containsbodystrings.md) <br/> |指示必须出现在传入邮件正文中的字符串，以便条件或例外情况适用。  <br/> |
+|[ContainsHeaderStrings](containsheaderstrings.md) <br/> |Indicaqtes 必须出现在传入邮件头中的字符串，以便条件或例外情况适用。  <br/> |
+|[ContainsRecipientStrings](containsrecipientstrings.md) <br/> |指示必须出现在传入邮件的**ToRecipients**或**CcRecipients**属性中的字符串，以便条件或例外情况适用。  <br/> |
+|[ContainsSenderStrings](containssenderstrings.md) <br/> |指示必须出现在传入邮件的**From**属性中的字符串，以便条件或例外情况适用。  <br/> |
+|[ContainsSubjectOrBodyStrings](containssubjectorbodystrings.md) <br/> |指示必须出现在传入邮件的正文或主题中的字符串，以便条件或例外情况适用。  <br/> |
+|[ContainsSubjectStrings](containssubjectstrings.md) <br/> |指示必须出现在传入邮件主题中的字符串，以便条件或例外情况适用。  <br/> |
+|[FlaggedForAction](flaggedforaction.md) <br/> |指定必须出现在传入邮件上的 action 值标志，以便条件或例外情况适用。  <br/> |
+|[FromAddresses](fromaddresses.md) <br/> |指示必须将传入邮件发送到的电子邮件地址，以便条件或例外情况适用。  <br/> |
+|[FromConnectedAccounts](fromconnectedaccounts.md) <br/> |表示要对其进行聚合的传入邮件的电子邮件帐户名称，以便条件或例外情况适用。  <br/> |
+|[HasAttachments](hasattachments.md) <br/> |指示传入的邮件是否必须具有附件，以便条件或例外情况适用。  <br/> |
+|[Importance](importance.md) <br/> |指定在传入邮件上标记的重要性，以便条件或例外情况适用。  <br/> |
+|[IsApprovalRequest](isapprovalrequest.md) <br/> |指示传入的邮件是否必须是审批请求，以便条件或例外情况适用。  <br/> |
+|[IsAutomaticForward](isautomaticforward.md) <br/> |指示传入的邮件是否必须自动转发，以便条件或例外情况适用。  <br/> |
+|[IsAutomaticReply](isautomaticreply.md) <br/> |指示传入的邮件是否必须是自动答复，以便条件或例外情况适用。  <br/> |
+|[IsEncrypted](isencrypted.md) <br/> |指示传入的邮件是否必须进行 S/MIME 加密，以便条件或例外情况适用。  <br/> |
+|[IsMeetingRequest](ismeetingrequest.md) <br/> |指示传入的邮件是否必须为会议请求，以便条件或例外情况适用。  <br/> |
+|[IsMeetingResponse](ismeetingresponse.md) <br/> |指示传入的邮件是否必须是会议响应，以便条件或例外情况适用。  <br/> |
+|[IsNDR](isndr.md) <br/> |指示传入的邮件是否必须为未送达报告（Ndr），以便条件或例外情况适用。  <br/> |
+|[IsPermissionControlled](ispermissioncontrolled.md) <br/> |指示传入的邮件是否必须受权限控制（受 RMS 保护），以便条件或例外情况适用  <br/> |
+|[IsReadReceipt](isreadreceipt.md) <br/> |指示传入的邮件是否必须为 "已读" 回执，以便条件或例外情况适用。  <br/> |
+|[IsSigned](issigned.md) <br/> |指示传入的邮件是否必须进行 S/MIME 签名，以便条件或例外情况适用。  <br/> |
+|[IsVoicemail](isvoicemail.md) <br/> |指示传入的邮件是否必须是语音邮件，以便条件或例外情况适用。  <br/> |
+|[ItemClasses](itemclasses.md) <br/> |表示必须在传入的邮件上标记的项目类，以便条件或例外情况适用。  <br/> |
+|[MessageClassifications](messageclassifications.md) <br/> |表示必须在传入的邮件上标记的邮件分类，以便条件或例外情况适用。  <br/> |
+|[NotSentToMe](notsenttome.md) <br/> |指示邮箱的所有者是否不得在传入邮件的**ToRecipients**属性中，以便条件或例外情况适用。  <br/> |
+|[SentCcMe](sentccme.md) <br/> |指示邮箱的所有者是否必须在传入邮件的**CcRecipients**属性中，以便条件或例外情况适用。  <br/> |
+|[SentOnlyToMe](sentonlytome.md) <br/> |指示在传入邮件的**ToRecipients**属性中，邮箱的所有者是否必须是唯一的，以便条件或例外情况适用。  <br/> |
+|[SentToAddresses](senttoaddresses.md) <br/> |指示必须向其发送传入邮件的电子邮件地址，以便条件或例外情况适用。  <br/> |
+|[SentToMe](senttome.md) <br/> |指示邮箱的所有者是否必须在传入邮件的**ToRecipients**属性中，以便条件或例外情况适用。  <br/> |
+|[SentToOrCcMe](senttoorccme.md) <br/> |指示邮箱所有者是否必须在传入邮件的**ToRecipients**或**CcRecipients**属性中，以便条件或例外情况适用。  <br/> |
+|[Sensitivity](sensitivity.md) <br/> |指示必须在传入邮件上标记的灵敏度，以便条件或例外情况适用。  <br/> |
+|[WithinDateRange](withindaterange.md) <br/> |指定要在其中接收传入邮件的日期范围，以便条件或例外情况适用。  <br/> |
+|[WithinSizeRange](withinsizerange.md) <br/> |指定传入邮件必须满足的最小和最大大小，以便条件或例外情况适用。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[规则 (RuleType)](rule-ruletype.md) <br/> |包含单一规则并代表用户的邮箱中的规则。  <br/> |
+|[规则 (RuleType)](rule-ruletype.md) <br/> |包含单个规则并表示用户邮箱中的规则。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
 无。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
-规则谓词用作规则条件或例外。
+规则谓词用作规则条件或异常。
   
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -130,7 +130,7 @@ ms.locfileid: "19754185"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
@@ -142,5 +142,5 @@ ms.locfileid: "19754185"
 [条件](conditions.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

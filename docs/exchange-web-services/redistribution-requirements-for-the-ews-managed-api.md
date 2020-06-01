@@ -1,41 +1,41 @@
 ---
-title: EWS 托管 API 的重新分发要求
+title: EWS 托管 API 的再分发要求
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 8b206274-eaa4-40d3-b504-af27335c8f43
-description: 了解如何在应用程序再发行 EWS 托管 API 程序集。
-ms.openlocfilehash: d8fc57c4a2b3ed7d6218aeeed0fe88c2d3e0fbe0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 了解如何使用应用程序重新分发 EWS 托管 API 程序集。
+ms.openlocfilehash: e64b4cdb8938caa819ba30621112a25946ef0424
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753004"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463823"
 ---
-# <a name="redistribution-requirements-for-the-ews-managed-api"></a>EWS 托管 API 的重新分发要求
+# <a name="redistribution-requirements-for-the-ews-managed-api"></a>EWS 托管 API 的再分发要求
 
-了解如何在应用程序再发行 EWS 托管 API 程序集。
+了解如何使用应用程序重新分发 EWS 托管 API 程序集。
   
-在设计 EWS 托管 API 应用程序时，您还需要考虑如何您将其释放到您的用户。 
+在设计 EWS 托管 API 应用程序时，您还需要考虑将其发布给用户的方式。 
   
-## <a name="redistributing-your-ews-managed-api-application"></a>重新分发 EWS 托管 API 应用程序
+## <a name="redistributing-your-ews-managed-api-application"></a>重新分发您的 EWS 托管 API 应用程序
 
-除非您的应用程序位于 Exchange 服务器上，您将需要重新分发本 EWS 托管 API 的程序集。 EWS 托管 API 下载包含两个程序集，您可以重新分发本： Microsoft.Exchange.WebServices.dll 和 Microsoft.Exchange.WebServices.Auth.dll。 如何将发布 EWS 托管 API 应用程序在设计时，请牢记以下信息：
+除非您的应用程序位于 Exchange 服务器上，否则您将需要重新发布 EWS 托管 API 程序集。 EWS 托管 API 下载包含两个可以重新发布的程序集： WebServices 和 WebServices。. "。 在设计如何释放 EWS 托管 API 应用程序时，请记住以下信息：
   
-- EWS 托管 API 旨在以便您可以下载它并将其与您的 Exchange 服务器的应用程序。 此外，您的应用程序可以下载 EWS 托管 API。
+- EWS 托管 API 的设计使您可以下载它，并将其与面向 Exchange server 的应用程序一起分发。 或者，您的应用程序可以下载 EWS 托管 API。
     
-- EWS 托管 API 可用于与运行 Exchange Online、 Exchange Online 作为 Office 365 的一部分或 Exchange 开头 Exchange Server 2007 的本地版本的 Exchange 服务器进行通信。
+- 您可以使用 EWS 托管 API 与运行 Exchange Online 的 Exchange 服务器、作为 Office 365 的一部分的 Exchange Online 或从 Exchange Server 2007 开始的 Exchange 内部部署版本进行通信。
     
-- EWS 托管 API 开头 2.1 版的版本中，您可以安装在全局程序集缓存 (GAC) 中的 API。 MSI 将自动添加到 GAC DLL，并将访问每个计算机为基础，而不上每个用户分别。
+- 在从版本2.1 开始的 EWS 托管 API 的各个版本中，您可以在全局程序集缓存（GAC）中安装 API。 MSI 将自动将 DLL 添加到 GAC 中，并且可以在每台计算机上访问，而不是每个用户都可以访问。
     
-许可条款都包含在 EWS 托管 API 下载。 查看有关如何使用 EWS 托管 API 的权威信息条款。
+该许可条款包含在 EWS 托管 API 下载中。 查看有关可以使用 EWS 托管 API 执行的操作的权威信息的术语。
   
 ## <a name="see-also"></a>另请参阅
 
 
 - [Exchange 的 EWS 客户端设计概述](ews-client-design-overview-for-exchange.md)
     
-- [EWS 托管 API （下载）](http://aka.ms/ews-managed-api-readme)
+- [EWS 托管 API （下载）](https://aka.ms/ews-managed-api-readme)
     
 

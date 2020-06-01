@@ -1,5 +1,5 @@
 ---
-title: 地址 （字符串）
+title: Address （string）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: a3cdfcbd-d0c5-46d6-8daa-52405fc63ff0
-description: 在 Address 元素表示邮箱用户的电子邮件地址。
-ms.openlocfilehash: 07c634d6166d88a8912bc66081a13671e600c801
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Address 元素表示邮箱用户的电子邮件地址。
+ms.openlocfilehash: 839107050f22df5c00cb4dea9c531563df52933d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753125"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463641"
 ---
-# <a name="address-string"></a>地址 （字符串）
+# <a name="address-string"></a>Address （string）
 
-**在 Address**元素表示邮箱用户的电子邮件地址。 
+**Address**元素表示邮箱用户的电子邮件地址。 
   
 ```xml
 <Address>...</Address>
@@ -30,9 +30,9 @@ ms.locfileid: "19753125"
  **string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -44,16 +44,16 @@ ms.locfileid: "19753125"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[电子邮件 (EmailAddressType)](email-emailaddresstype.md) <br/> |指定 MailboxData 对象的电子邮件地址。 此元素使用[GetUserAvailability 操作](getuseravailability-operation.md)。<br/><br/> 以下是此元素的 XPath:<br/><br/>  `/GetUserAvailabilityRequest/MailboxDataArray/MailboxData[i]/Email` <br/> |
-|[邮箱 （可用性）](mailbox-availability.md) <br/> | 表示 SetUserOofSettings 或 GetUserOofSettings 请求的邮箱用户。<br/><br/>  下面是此元素的 XPath 表达式：<br/><br/>  `/GetUserOofSettingsRequest/Mailbox` <br/>  `/SetUserOofSettingsRequest/Mailbox` <br/> |
+|[电子邮件（EmailAddressType）](email-emailaddresstype.md) <br/> |指定 MailboxData 对象的电子邮件地址。 此元素在[GetUserAvailability 操作](getuseravailability-operation.md)中使用。<br/><br/> 以下是此元素的 XPath：<br/><br/>  `/GetUserAvailabilityRequest/MailboxDataArray/MailboxData[i]/Email` <br/> |
+|[邮箱（可用性）](mailbox-availability.md) <br/> | 表示 SetUserOofSettings 或 GetUserOofSettings 请求的邮箱用户。<br/><br/>  下面是此元素的 XPath 表达式：<br/><br/>  `/GetUserOofSettingsRequest/Mailbox` <br/>  `/SetUserOofSettingsRequest/Mailbox` <br/> |
    
 ## <a name="text-value"></a>文本值
 
-如果使用此元素，则需要的文本值。
+如果使用此元素，则需要一个 text 值。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此元素可以发生在[电子邮件 (EmailAddressType)](email-emailaddresstype.md)元素和[邮箱 （可用性）](mailbox-availability.md)元素中最一次。 
+此元素最多可在[电子邮件（EmailAddressType）](email-emailaddresstype.md)元素和[邮箱（可用性）](mailbox-availability.md)元素中出现一次。 
   
 > [!NOTE]
 > 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。 
@@ -62,7 +62,7 @@ ms.locfileid: "19753125"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -75,5 +75,5 @@ ms.locfileid: "19753125"
 - [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
 - [GetUserOofSettingsRequest](getuseroofsettingsrequest.md)
 - [SetUserOofSettingsRequest](setuseroofsettingsrequest.md)
-- [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

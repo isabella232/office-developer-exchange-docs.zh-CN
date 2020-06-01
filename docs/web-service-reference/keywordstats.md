@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 79b24034-6456-4c9c-adf6-03d06024c4e8
 description: KeywordStats 元素指定一个或多个 KeywordStat 元素的列表。
-ms.openlocfilehash: d1f68059375fc0359b46d60b0184adc268d8fffb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: bf471c1712a96b44dbc533a2cb26e32546a6db38
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826193"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463291"
 ---
 # <a name="keywordstats"></a>KeywordStats
 
@@ -28,9 +28,9 @@ ms.locfileid: "19826193"
  **ArrayOfKeywordStatisticsSearchResultsType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   

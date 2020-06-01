@@ -11,31 +11,31 @@ api_name:
 api_type:
 - schema
 ms.assetid: eb5b8ab6-9743-481c-aac9-f9aa889bd353
-description: CreateUserConfiguration 操作在文件夹中创建用户配置对象。
-ms.openlocfilehash: 5f0eb7d18736008af39199cbc52cc3a6e6abda09
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: CreateUserConfiguration 操作将在文件夹上创建一个用户配置对象。
+ms.openlocfilehash: 0c9233146d21c7014be15896426b968106485200
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753681"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463781"
 ---
 # <a name="createuserconfiguration-operation"></a>CreateUserConfiguration 操作
 
-**CreateUserConfiguration**操作在文件夹中创建用户配置对象。 
+**CreateUserConfiguration**操作将在文件夹上创建一个用户配置对象。 
   
 ## <a name="createuserconfiguration-request-example"></a>CreateUserConfiguration 请求示例
 
 ### <a name="description"></a>说明
 
-**CreateUserConfiguration**请求的下面的示例演示如何窗体上草稿文件夹中创建用户配置对象的请求。 
+以下示例的**CreateUserConfiguration**请求显示如何在 "草稿" 文件夹中形成创建用户配置对象的请求。 
   
 ### <a name="code"></a>代码
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
                xmlns:xs="http://www.w3.org/2001/XMLSchema">
   
@@ -71,7 +71,7 @@ ms.locfileid: "19753681"
 
 ### <a name="description"></a>说明
 
-下面的示例演示对**CreateUserConfiguration**请求成功响应。 
+下面的示例演示对**CreateUserConfiguration**请求的成功响应。 
   
 ### <a name="code"></a>代码
 
@@ -84,15 +84,15 @@ ms.locfileid: "19753681"
                          MajorBuildNumber="639" 
                          MinorBuildNumber="20" 
                          Version="Exchange2010" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:CreateUserConfigurationResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:CreateUserConfigurationResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:CreateUserConfigurationResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -109,5 +109,5 @@ ms.locfileid: "19753681"
 
 [Exchange 中的 EWS 操作](ews-operations-in-exchange.md)
   
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

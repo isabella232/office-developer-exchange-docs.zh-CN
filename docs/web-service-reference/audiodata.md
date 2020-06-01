@@ -1,5 +1,5 @@
 ---
-title: 音频数据
+title: AudioData
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,23 +7,23 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5c6d8aab-566a-4247-8bb6-52d8cd133f9d
-description: 仅供内部使用旨在的音频数据元素。
-ms.openlocfilehash: 3e9777ea9106b7444baf2873961e1642c4e13f3d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: AudioData 元素仅供内部使用。
+ms.openlocfilehash: 3a07f231c1de984e39c6ebc4bd79b42142af6309
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753292"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463984"
 ---
-# <a name="audiodata"></a>音频数据
+# <a name="audiodata"></a>AudioData
 
-仅供内部使用旨在的**音频数据**元素。 
+**AudioData**元素仅供内部使用。 
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19753292"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 中引入了此元素。
   
