@@ -11,39 +11,39 @@ api_name:
 api_type:
 - schema
 ms.assetid: 153e4440-495b-4972-9811-2fbea740142a
-description: GetUserOofSettings 操作获取邮箱用户的外出 (OOF) 设置和消息。
-ms.openlocfilehash: 75a734999842cc33c213e02dc114f23372ae51fd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: GetUserOofSettings 操作将获取邮箱用户的外出（OOF）设置和邮件。
+ms.openlocfilehash: 622faa622b0ea231a6331ff62631885d4252c1f5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825691"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457695"
 ---
 # <a name="getuseroofsettings-operation"></a>GetUserOofSettings 操作
 
-**GetUserOofSettings**操作获取邮箱用户的外出 (OOF) 设置和消息。 
+**GetUserOofSettings**操作将获取邮箱用户的外出（OOF）设置和邮件。 
   
 ## <a name="soap-headers"></a>SOAP 标头
 
-**GetUserOofSettings**操作可以使用列出并在下表中所述的 SOAP 标头。 
+**GetUserOofSettings**操作可以使用下表中列出和描述的 SOAP 标头。 
   
 |**Header**|**元素**|**说明**|
 |:-----|:-----|:-----|
-|模拟  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |标识模拟客户端应用程序的用户。  <br/> |
-|ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应该请求的服务器的版本。  <br/> |
+|模拟  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |标识客户端应用程序模拟的用户。  <br/> |
+|ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器版本。  <br/> |
    
 ## <a name="using-the-getuseroofsettings-operation"></a>使用 GetUserOofSettings 操作
 
-**GetUserOofSettings**操作提供对用户的 OOF 设置的访问。 用户标识的用户的电子邮件地址。 如果启用 OOF OOF 消息为 null，没有 OOF 邮件发送。 
+**GetUserOofSettings**操作提供对用户的 OOF 设置的访问权限。 用户由用户的电子邮件地址标识。 如果 OOF 邮件为 null 且启用了 OOF 功能，则不会发送 OOF 邮件。 
   
 > [!IMPORTANT]
-> 如果 OOF 邮件均通过 MicrosoftOfficeOutlook 设置，此操作将以 HTML 格式返回 OOF 邮件。 
+> 如果 OOF 邮件是由 MicrosoftOfficeOutlook 设置的，则此操作将返回 HTML 格式的 OOF 邮件。 
   
 ## <a name="getuseroofsettings-request-example"></a>GetUserOofSettings 请求示例
 
 ### <a name="description"></a>说明
 
-下面的示例演示了获取对单个用户的 OOF 信息**GetUserOofSettings**请求。 
+下面的示例演示一个**GetUserOofSettings**请求，该请求获取单个用户的 OOF 信息。 
   
 ### <a name="code"></a>代码
 
@@ -53,8 +53,8 @@ ms.locfileid: "19825691"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <GetUserOofSettingsRequest xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-      <Mailbox xmlns ="http://schemas.microsoft.com/exchange/services/2006/types">
+    <GetUserOofSettingsRequest xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+      <Mailbox xmlns ="https://schemas.microsoft.com/exchange/services/2006/types">
         <Address>User1@example.com</Address>
       </Mailbox>
     </GetUserOofSettingsRequest>
@@ -62,21 +62,21 @@ ms.locfileid: "19825691"
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>请求元素
+### <a name="request-elements"></a>Request 元素
 
 请求中使用以下元素：
   
 - [GetUserOofSettingsRequest](getuseroofsettingsrequest.md)
     
-- [邮箱 （可用性）](mailbox-availability.md)
+- [邮箱（可用性）](mailbox-availability.md)
     
-- [地址 （字符串）](address-string.md)
+- [Address （string）](address-string.md)
     
-## <a name="successful-getuseroofsettings-response-example"></a>成功 GetUserOofSettings 响应示例
+## <a name="successful-getuseroofsettings-response-example"></a>成功的 GetUserOofSettings 响应示例
 
 ### <a name="description"></a>说明
 
-下面的示例演示包含 OOF 邮件禁用的 OOF 状态。
+以下示例显示了带有 OOF 邮件的已禁用 OOF 状态。
   
 ### <a name="code"></a>代码
 
@@ -87,14 +87,14 @@ ms.locfileid: "19825691"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <GetUserOofSettingsResponse xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetUserOofSettingsResponse xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseMessage ResponseClass="Success">
         <ResponseCode>NoError</ResponseCode>
       </ResponseMessage>
-      <OofSettings xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+      <OofSettings xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <OofState>Disabled</OofState>
         <ExternalAudience>All</ExternalAudience>
         <Duration>
@@ -114,9 +114,9 @@ ms.locfileid: "19825691"
 </soap:Envelope>
 ```
 
-### <a name="successful-getuseroofsettings-response-elements"></a>成功 GetUserOofSettings 响应元素
+### <a name="successful-getuseroofsettings-response-elements"></a>成功的 GetUserOofSettings 响应元素
 
-在响应中使用以下元素：
+响应中使用以下元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -132,17 +132,17 @@ ms.locfileid: "19825691"
     
 - [ExternalAudience](externalaudience.md)
     
-- [持续时间 (UserOofSettings)](duration-useroofsettings.md)
+- [持续时间（UserOofSettings）](duration-useroofsettings.md)
     
 - [StartTime](starttime.md)
     
-- [结束时间](endtime.md)
+- [EndTime](endtime.md)
     
 - [InternalReply](internalreply.md)
     
 - [ExternalReply](externalreply.md)
     
-- [Message](message-ex15websvcsotherref.md)
+- [邮件](message-ex15websvcsotherref.md)
     
 - [AllowExternalOof](allowexternaloof.md)
     
@@ -150,7 +150,7 @@ ms.locfileid: "19825691"
 
 ### <a name="description"></a>说明
 
-下面的示例演示错误响应导致尝试访问其他用户的 OOF 信息。
+下面的示例演示尝试访问另一个用户的 OOF 信息时导致的错误响应。
   
 ### <a name="code"></a>代码
 
@@ -161,7 +161,7 @@ ms.locfileid: "19825691"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
     <soap:Fault>
@@ -169,7 +169,7 @@ ms.locfileid: "19825691"
       <faultstring>Microsoft.Exchange.Data.Storage.AccessDeniedException: User is not mailbox owner. User = S-1-5-21-3642464542-282065186-3871681729-1155, MailboxGuid = S-1-5-21-3642464542-282065186-3871681729-1156 ---> User is not mailbox owner. </faultstring>
       <faultactor>https://CAS01.example.com/EWS/Exchange.asmx</faultactor>
       <detail>
-        <ErrorCode xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">-2146233088</ErrorCode>
+        <ErrorCode xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">-2146233088</ErrorCode>
       </detail>
     </soap:Fault>
   </soap:Body>
@@ -180,5 +180,5 @@ ms.locfileid: "19825691"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

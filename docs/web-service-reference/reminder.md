@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 54dd748a-23a5-4ea2-88f2-b74c68a3c48f
-description: 提醒元素指定的任务或日历项目的提醒。
-ms.openlocfilehash: cfa1160bd25f5045a3da5a98f081c9dcb3debe7b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: "\"提醒\" 元素指定任务或日历项目的提醒。"
+ms.openlocfilehash: 71e54d920a169b8060d22bb7d7d294208c344c2e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827056"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457485"
 ---
 # <a name="reminder"></a>提醒
 
-**提醒**元素指定的任务或日历项目的提醒。 
+"**提醒**" 元素指定任务或日历项目的提醒。 
   
 ```XML
 <Reminder>
@@ -37,19 +37,19 @@ ms.locfileid: "19827056"
  **ReminderType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
 ### <a name="child-elements"></a>子元素
 
-[主题](subject.md) | [位置](location.md) | [ReminderTime](remindertime.md) | [StartDate](startdate.md) | [EndDate (ReminderType)](enddate-remindertype.md) | [ItemId](itemid.md) | [RecurringMasterItemId (ItemIdType)](recurringmasteritemid-itemidtype.md)  |  [ReminderGroup](remindergroup.md) | [UID](uid.md)
+[主题](subject.md)  | [位置](location.md)  | [ReminderTime](remindertime.md)  | [起始日期](startdate.md)  | [结束日期（ReminderType）](enddate-remindertype.md)  | [ItemId](itemid.md)  | [RecurringMasterItemId （ItemIdType）](recurringmasteritemid-itemidtype.md)  | [ReminderGroup](remindergroup.md)  | [UID](uid.md)
   
 ### <a name="parent-elements"></a>父元素
 
-[Reminders](reminders.md)
+[提醒](reminders.md)
   
 ## <a name="remarks"></a>备注
 
@@ -61,7 +61,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -70,8 +70,8 @@ Exchange Server 2013 中引入了此元素。
 
 
 
-[Reminders](reminders.md)
+[提醒](reminders.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

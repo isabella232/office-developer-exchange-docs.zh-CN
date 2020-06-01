@@ -1,5 +1,5 @@
 ---
-title: CreateItem operation，（联系人）
+title: CreateItem 操作（联系人）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,27 +11,27 @@ api_name:
 api_type:
 - schema
 ms.assetid: 417e994b-0a17-4c24-9527-04796b80b029
-description: CreateItem operation，用于在 Exchange 存储中创建的联系人。
-ms.openlocfilehash: 05e4715f3c6675401ae7afac852395f7459c02c9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: CreateItem 操作用于在 Exchange 存储区中创建联系人。
+ms.openlocfilehash: e1d78392b94d328cf687655cd93e6c9568f6274f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753660"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457121"
 ---
-# <a name="createitem-operation-contact"></a>CreateItem operation，（联系人）
+# <a name="createitem-operation-contact"></a>CreateItem 操作（联系人）
 
-CreateItem operation，用于在 Exchange 存储中创建的联系人。
+CreateItem 操作用于在 Exchange 存储区中创建联系人。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-不支持私有通讯组列表的创建。 [CompleteName](completename.md)容器内的所有属性都是只读的因此无法在联系人项目上设置。 
+不支持创建专用通讯组列表。 [CompleteName](completename.md)容器中的所有属性都是只读的，不能在联系人项目上进行设置。 
   
 ## <a name="createitem-request-example"></a>CreateItem 请求示例
 
 ### <a name="description"></a>说明
 
-一个有效的 CreateItem SOAP 请求的下面的示例演示如何在默认联系人文件夹中创建一个联系人。
+以下是有效 CreateItem SOAP 请求的示例演示如何在默认的 "联系人" 文件夹中创建联系人。
   
 ### <a name="code"></a>代码
 
@@ -40,9 +40,9 @@ CreateItem operation，用于在 Exchange 存储中创建的联系人。
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
- xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+ xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <CreateItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" >
+    <CreateItem xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" >
       <SavedItemFolderId>
         <t:DistinguishedFolderId Id="contacts"/>
       </SavedItemFolderId>
@@ -74,9 +74,9 @@ CreateItem operation，用于在 Exchange 存储中创建的联系人。
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>请求元素
+### <a name="request-elements"></a>Request 元素
 
-在响应中使用以下元素：
+响应中使用以下元素：
   
 - [CreateItem](createitem.md)
     
@@ -84,25 +84,25 @@ CreateItem operation，用于在 Exchange 存储中创建的联系人。
     
 - [DistinguishedFolderId](distinguishedfolderid.md)
     
-- [项目 (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)
+- [项目（NonEmptyArrayOfAllItemsType）](items-nonemptyarrayofallitemstype.md)
     
-- [Contact](contact.md)
+- [联系人](contact.md)
     
 - [FileAs](fileas.md)
     
 - [GivenName](givenname.md)
     
-- [公司名称](companyname.md)
+- [CompanyName](companyname.md)
     
 - [EmailAddresses](emailaddresses.md)
     
-- [条目 （电子邮件地址）](entry-emailaddress.md)
+- [条目（EmailAddress）](entry-emailaddress.md)
     
 - [PhysicalAddresses](physicaladdresses.md)
     
-- [条目 (PhysicalAddress)](entry-physicaladdress.md)
+- [条目（PhysicalAddress）](entry-physicaladdress.md)
     
-- [街道](street.md)
+- [地址](street.md)
     
 - [市/县](city.md)
     
@@ -112,17 +112,17 @@ CreateItem operation，用于在 Exchange 存储中创建的联系人。
     
 - [PhoneNumbers](phonenumbers.md)
     
-- [条目 (PhoneNumber)](entry-phonenumber.md)
+- [条目（PhoneNumber）](entry-phonenumber.md)
     
 - [JobTitle](jobtitle.md)
     
-- [姓](surname.md)
+- [姓氏](surname.md)
     
-## <a name="successful-createitem-request"></a>成功 CreateItem 请求
+## <a name="successful-createitem-request"></a>成功的 CreateItem 请求
 
 ### <a name="description"></a>说明
 
-下面的示例演示创建联系人 CreateItem 请求的成功响应。 本示例中，则响应中包含新创建的项目的标识符。
+下面的示例演示对创建了联系人的 CreateItem 请求的成功响应。 在此示例中，响应包含新创建的项目的标识符。
   
 ### <a name="code"></a>代码
 
@@ -133,12 +133,12 @@ CreateItem operation，用于在 Exchange 存储中创建的联系人。
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="602" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <CreateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CreateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CreateItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -154,13 +154,13 @@ CreateItem operation，用于在 Exchange 存储中创建的联系人。
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>注释
+### <a name="comments"></a>备注
 
-已缩短的项标识符，若要保留可读性。
+项目标识符已缩短，以保持可读性。
   
-### <a name="successful-response-elements"></a>成功响应元素
+### <a name="successful-response-elements"></a>成功的响应元素
 
-在响应中使用以下元素：
+响应中使用以下元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -172,17 +172,17 @@ CreateItem operation，用于在 Exchange 存储中创建的联系人。
     
 - [ResponseCode](responsecode.md)
     
-- [项目 (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)
+- [项目（NonEmptyArrayOfAllItemsType）](items-nonemptyarrayofallitemstype.md)
     
-- [Contact](contact.md)
+- [联系人](contact.md)
     
 - [ItemId](itemid.md)
     
-## <a name="invalid-createitem-request-example"></a>无效的 CreateItem 请求示例
+## <a name="invalid-createitem-request-example"></a>CreateItem 请求示例无效
 
 ### <a name="description"></a>说明
 
-下面的示例演示请求包含有效的 XML，但不兼容的说明。 搜索文件夹中无法创建联系人。
+下面的示例演示一个包含有效的 XML 但不兼容的指令的请求。 无法在搜索文件夹中创建联系人。
   
 ### <a name="code"></a>代码
 
@@ -190,9 +190,9 @@ CreateItem operation，用于在 Exchange 存储中创建的联系人。
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <CreateItem xmlns='http://schemas.microsoft.com/exchange/services/2006/messages'>
+    <CreateItem xmlns='https://schemas.microsoft.com/exchange/services/2006/messages'>
       <SavedItemFolderId>
         <t:DistinguishedFolderId Id='searchfolders'/>
       </SavedItemFolderId>
@@ -206,11 +206,11 @@ CreateItem operation，用于在 Exchange 存储中创建的联系人。
 </soap:Envelope>
 ```
 
-## <a name="createitem-contact-error-response"></a>CreateItem （联系人） 错误响应
+## <a name="createitem-contact-error-response"></a>CreateItem （联系人）错误响应
 
 ### <a name="description"></a>说明
 
-下面的示例演示对 CreateItem （联系人） 请求错误响应。
+下面的示例演示对 CreateItem （联系人）请求的错误响应。
   
 ### <a name="code"></a>代码
 
@@ -221,12 +221,12 @@ CreateItem operation，用于在 Exchange 存储中创建的联系人。
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="602" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <CreateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CreateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CreateItemResponseMessage ResponseClass="Error">
           <m:MessageText>Cannot create a contact in a non-contact Folder.</m:MessageText>
@@ -258,7 +258,7 @@ CreateItem operation，用于在 Exchange 存储中创建的联系人。
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-- [项目 (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)
+- [项目（NonEmptyArrayOfAllItemsType）](items-nonemptyarrayofallitemstype.md)
     
 ## <a name="see-also"></a>另请参阅
 

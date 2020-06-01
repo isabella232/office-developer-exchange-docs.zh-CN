@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5d8c367a-67e9-43b3-8be0-6362d2152431
 description: SearchMailboxes 元素指示 SearchMailboxes 请求的开头。
-ms.openlocfilehash: cf8007be3201e2248f27371c2a80c960735a3ced
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 7ccc94157ef6bde7b6ba86e70c16ef6e90d712fa
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827306"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456799"
 ---
 # <a name="searchmailboxes"></a>SearchMailboxes
 
@@ -36,21 +36,21 @@ ms.locfileid: "19827306"
  **SearchMailboxesType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
 ### <a name="child-elements"></a>子元素
 
-[SearchQueries](searchqueries.md) | [ResultType](resulttype.md) | [PreviewItemResponseShape](previewitemresponseshape.md) | [SortBy](sortby.md) | [语言](language.md) | [消除](deduplication.md) | [PageSize](pagesize.md)  |  [PageItemReference](pageitemreference.md) | [PageDirection](pagedirection.md)
+[SearchQueries](searchqueries.md)  | [ResultType](resulttype.md)  | [PreviewItemResponseShape](previewitemresponseshape.md)  | [SortBy](sortby.md)  | [语言](language.md)  | [删除](deduplication.md)  | [PageSize](pagesize.md)  | [PageItemReference](pageitemreference.md)  | [PageDirection](pagedirection.md)
   
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 中引入了此元素。
   
@@ -60,7 +60,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |false  <br/> |

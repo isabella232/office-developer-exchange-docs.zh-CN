@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 4044c0a1-cd88-41ae-9cc4-a7cf2b279094
-description: GetUserConfiguration 元素表示请求以获取用户配置对象。
-ms.openlocfilehash: 81f2ca4995de69d6547412ec699a2ceaddcce385
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: GetUserConfiguration 元素表示获取用户配置对象的请求。
+ms.openlocfilehash: 46a2a5ebbabfc038692a5de83e0a960e05295061
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825688"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457709"
 ---
 # <a name="getuserconfiguration"></a>GetUserConfiguration
 
-**GetUserConfiguration**元素表示请求以获取用户配置对象。 
+**GetUserConfiguration**元素表示获取用户配置对象的请求。 
   
 ```XML
 <GetUserConfiguration>
@@ -33,9 +33,9 @@ ms.locfileid: "19825688"
  **GetUserConfigurationType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -43,8 +43,8 @@ ms.locfileid: "19825688"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[UserConfigurationName](userconfigurationname.md) <br/> |代表用户配置对象的名称。 此元素必须存在于 GetUserConfiguration 请求中。  <br/> |
-|[UserConfigurationProperties](userconfigurationproperties.md) <br/> |指定要返回的用户配置属性类型。 此元素必须存在于 GetUserConfiguration 请求中。  <br/> |
+|[UserConfigurationName](userconfigurationname.md) <br/> |表示用户配置对象的名称。 GetUserConfiguration 请求中必须存在此元素。  <br/> |
+|[UserConfigurationProperties](userconfigurationproperties.md) <br/> |指定要返回的用户配置属性类型。 GetUserConfiguration 请求中必须存在此元素。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -54,7 +54,7 @@ ms.locfileid: "19825688"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -62,7 +62,7 @@ ms.locfileid: "19825688"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -71,5 +71,5 @@ ms.locfileid: "19825688"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

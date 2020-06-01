@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: fa10fcdb-f947-4958-ad5a-afaed1661f52
-description: ImAddress 元素包含主即时消息的个人的地址。
-ms.openlocfilehash: 3d4af2a7df14e68a2c829b1e8d0a18493fb06f55
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ImAddress 元素包含角色的主即时消息地址。
+ms.openlocfilehash: 2cfb8c7e0ccf5454fd5a201819882acbe0924e4a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825860"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456463"
 ---
 # <a name="imaddress-string"></a>ImAddress （字符串）
 
-**ImAddress**元素包含主即时消息的个人的地址。 
+**ImAddress**元素包含角色的主即时消息地址。 
   
 ```XML
 <ImAddress></ImAddress>
@@ -26,9 +26,9 @@ ms.locfileid: "19825860"
  **string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -54,7 +54,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> ||

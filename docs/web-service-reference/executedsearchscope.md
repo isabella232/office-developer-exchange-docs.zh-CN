@@ -11,28 +11,28 @@ api_name:
 api_type:
 - schema
 ms.assetid: 2de5f0ad-43f2-4d38-b520-06540066564e
-description: ExecutedSearchScope 元素包含执行从中获取搜索结果的搜索范围。
-ms.openlocfilehash: ece9fdfc156cedad2a9fa181897145ae4eea20a0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ExecutedSearchScope 元素包含为获取搜索结果而执行的搜索的范围。
+ms.openlocfilehash: 828fe3800b8c13a0e18c0daba6cdeab140a1c394
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754193"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456967"
 ---
 # <a name="executedsearchscope"></a>ExecutedSearchScope
 
-**ExecutedSearchScope**元素包含执行从中获取搜索结果的搜索范围。 
+**ExecutedSearchScope**元素包含为获取搜索结果而执行的搜索的范围。 
   
 ```xml
 <ExecutedSearchScope/>
 ```
 
- **字符串**
+ **String**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -44,7 +44,7 @@ ms.locfileid: "19754193"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) <br/> |包含状态和的单个结果[FindMessageTrackingReport 操作](findmessagetrackingreport-operation.md)请求。  <br/> |
+|[FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) <br/> |包含单个[FindMessageTrackingReport 操作](findmessagetrackingreport-operation.md)请求的状态和结果。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
@@ -58,7 +58,7 @@ ms.locfileid: "19754193"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -70,5 +70,5 @@ ms.locfileid: "19754193"
 [FindMessageTrackingReport 操作](findmessagetrackingreport-operation.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

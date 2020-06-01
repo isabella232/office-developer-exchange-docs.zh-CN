@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: d220064f-ff4d-4537-8077-adf94f2cbdbd
 description: UpdateInboxRules元素定义的请求来更新服务器存储区中邮箱的收件箱规则。
-ms.openlocfilehash: 73af3efcbf4320604576b724acf18530b8b86b26
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d604604d582d28c07eaa75d3239082d1b6735e65
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838390"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456358"
 ---
 # <a name="updateinboxrules"></a>UpdateInboxRules
 
@@ -34,9 +34,9 @@ ms.locfileid: "19838390"
  **UpdateInboxRulesRequestType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -56,7 +56,7 @@ ms.locfileid: "19838390"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -64,7 +64,7 @@ ms.locfileid: "19838390"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
@@ -76,5 +76,5 @@ ms.locfileid: "19838390"
 [UpdateInboxRules 操作](updateinboxrules-operation.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

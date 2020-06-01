@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f02c8331-0a4e-4d01-adc2-2b93ed838a42
 description: ConvertHtmlCodePageToUTF8 元素指示是否将项目 HTML 正文转换为 UTF8。
-ms.openlocfilehash: aff6579835097a273101188c02a9919003b71b58
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a714eacd8cc105146a1471f062ec35dc16730d61
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753599"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457590"
 ---
 # <a name="converthtmlcodepagetoutf8"></a>ConvertHtmlCodePageToUTF8
 
@@ -23,12 +23,12 @@ ms.locfileid: "19753599"
 <ConvertHtmlCodePageToUTF8/>
 ```
 
- **xs: boolean**
+ **xs： boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -40,15 +40,15 @@ ms.locfileid: "19753599"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ItemShape](itemshape.md) <br/> |标识要返回的响应中的属性集。  <br/> |
+|[ItemShape](itemshape.md) <br/> |标识要在响应中返回的一组属性。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-文本值为**true**的**ConvertHtmlCodePageToUTF8**元素表示的 HTML 正文将转换为 UTF8。 文本值为**false**指示的 HTML 正文不会转换为 UTF8。 
+如果**ConvertHtmlCodePageToUTF8**元素的文本值为**true** ，则指示 HTML 正文将转换为 UTF8。 如果文本值为**false** ，则表示 HTML 正文不转换为 UTF8。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-如果未在请求中指定的**ConvertHtmlCodePageToUTF8**元素，则，使用默认值为**true** 。 
+如果请求中未指定**ConvertHtmlCodePageToUTF8**元素，则使用默认值**true** 。 
   
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   
@@ -56,7 +56,7 @@ ms.locfileid: "19753599"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -65,5 +65,5 @@ ms.locfileid: "19753599"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: bbbc56e4-8cc1-43ae-b70a-9a8d6bb0f399
-description: ExportItems 元素表示的项目导出邮箱中的请求。
-ms.openlocfilehash: 055012166bb125dfcf86070f2e23496bf0209b51
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ExportItems 元素表示从邮箱导出项目的请求。
+ms.openlocfilehash: 6e4996f62ea5051e6dc235ee7255057f16b3855b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754203"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457268"
 ---
 # <a name="exportitems"></a>ExportItems
 
-**ExportItems**元素表示的项目导出邮箱中的请求。 
+**ExportItems**元素表示从邮箱导出项目的请求。 
   
 [ExportItems](exportitems.md)
   
@@ -34,9 +34,9 @@ ms.locfileid: "19754203"
  **ExportItemsType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -44,7 +44,7 @@ ms.locfileid: "19754203"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ItemIds (NonEmptyArrayOfItemIdsType)](itemids-nonemptyarrayofitemidstype.md) <br/> |包含确定要导出邮箱中的项的项标识符的数组。  <br/> |
+|[ItemIds (NonEmptyArrayOfItemIdsType)](itemids-nonemptyarrayofitemidstype.md) <br/> |包含项标识符的数组，这些标识符标识要从邮箱中导出的项。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -54,7 +54,7 @@ ms.locfileid: "19754203"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   
@@ -62,7 +62,7 @@ ms.locfileid: "19754203"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |

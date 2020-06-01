@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 282576cb-a921-49f7-8748-64158fd50c41
-description: CreateFolderPath 元素用于创建的文件夹路径，包括父文件夹 Id 和相对文件夹路径。
-ms.openlocfilehash: bfe31d894cfaa0f36da2d1d0045f723e0d261759
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: CreateFolderPath 元素用于创建文件夹路径，并包含父文件夹 Id 和相对文件夹路径。
+ms.openlocfilehash: e6ce6c9b6e12a6a0fb6792b63368a79c87d06f07
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753643"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457534"
 ---
 # <a name="createfolderpath"></a>CreateFolderPath
 
-**CreateFolderPath**元素用于创建的文件夹路径，包括父文件夹 Id 和相对文件夹路径。 
+**CreateFolderPath**元素用于创建文件夹路径，并包含父文件夹 Id 和相对文件夹路径。 
   
 ```XML
 <CreateFolderPath>
@@ -29,21 +29,21 @@ ms.locfileid: "19753643"
  **CreateFolderPathType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
 ### <a name="child-elements"></a>子元素
 
-[ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md) | [RelativeFolderPath](relativefolderpath.md)
+[ParentFolderId （TargetFolderIdType）](parentfolderid-targetfolderidtype.md)  | [RelativeFolderPath](relativefolderpath.md)
   
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 中引入了此元素。
   
@@ -53,9 +53,9 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
-|验证文件  <br/> |messages.xsd  <br/> |
+|验证文件  <br/> |消息 .xsd  <br/> |
 |可以为空  <br/> |false  <br/> |
    
 

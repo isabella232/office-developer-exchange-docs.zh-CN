@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 7ab6edd5-c7ed-4701-8de3-d7dc7ecfa9c2
-description: IsReadReceiptRequested 元素指示的项目的发件人是否请求已读的回执。
-ms.openlocfilehash: e3db685fc4e72e4332eab4a95afb5f844d04c35e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: IsReadReceiptRequested 元素指示项目的发件人是否请求已读回执。
+ms.openlocfilehash: ff0c512ef23b315d4de1194432408f5b408029d9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826097"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457786"
 ---
 # <a name="isreadreceiptrequested"></a>IsReadReceiptRequested
 
-**IsReadReceiptRequested**元素指示的项目的发件人是否请求已读的回执。 
+**IsReadReceiptRequested**元素指示项目的发件人是否请求已读回执。 
   
 ```xml
 <IsReadReceiptRequested/>
@@ -30,9 +30,9 @@ ms.locfileid: "19826097"
  **Boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -56,15 +56,15 @@ ms.locfileid: "19826097"
 |[ReplyToItem](replytoitem.md) <br/> |包含对 Exchange 存储中的项的创建者的答复。  <br/> |
 |[ReplyAllToItem](replyalltoitem.md) <br/> |包含对所有确定收件人的 Exchange 存储中的项的答复。  <br/> |
 |[ForwardItem](forwarditem.md) <br/> |包含要转发给收件人的 Exchange 存储区项。  <br/> |
-|[CancelCalendarItem](cancelcalendaritem.md) <br/> |代表用来取消会议响应对象 thatis。  <br/> |
+|[CancelCalendarItem](cancelcalendaritem.md) <br/> |表示用于取消会议的 thatis 响应对象。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-文本值为**true**指示的已读的回执请求来自项目的收件人。 
+如果文本值为**true** ，则表示已从项目的收件人请求已读回执。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-如果**IsReadReceiptRequested**为**true**，设置为**true**的[IsRead](isread.md)发送已读的回执。 收件人可以禁止显示设置**IsRead**属性之前提交[SuppressReadReceipt](suppressreadreceipt.md) response 对象已读的回执。 
+如果**IsReadReceiptRequested**为**true**，则将[IsRead](isread.md)设置为**true**将发送已读回执。 收件人可以在设置**IsRead**属性之前，通过提交[SuppressReadReceipt](suppressreadreceipt.md)响应对象来禁止已读回执。 
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -72,7 +72,7 @@ ms.locfileid: "19826097"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -81,5 +81,5 @@ ms.locfileid: "19826097"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

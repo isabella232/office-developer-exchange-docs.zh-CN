@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 199d1839-f061-4070-a977-874b0c08e5be
-description: IdOfFolderToShare 元素均表示将共享的服务器上的文件夹的标识符。
-ms.openlocfilehash: 1e3e53819f23bbc5753ac21b9e3ea6593ac4826c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: IdOfFolderToShare 元素表示服务器上将共享的文件夹的标识符。
+ms.openlocfilehash: 93a4740d9adefbb35aae071f0a6bfcb4b2021b4d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825853"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457625"
 ---
 # <a name="idoffoldertoshare"></a>IdOfFolderToShare
 
-**IdOfFolderToShare**元素均表示将共享的服务器上的文件夹的标识符。 
+**IdOfFolderToShare**元素表示服务器上将共享的文件夹的标识符。 
   
 ```
 <IdOfFolderToShare Id="" ChangeKey="" />
@@ -30,14 +30,14 @@ ms.locfileid: "19825853"
  **FolderIdType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**说明**|
 |:-----|:-----|
-|Id  <br/> |包含一个字符串，标识 Exchange 存储中的文件夹。 此属性是必需的。  <br/> |
-|更改密钥  <br/> |包含一个字符串，标识的文件夹的 Id 属性标识的版本。 此属性是可选的。 使用此属性以确保正确版本的文件夹使用。  <br/> |
+|Id  <br/> |包含标识 Exchange 存储中的文件夹的字符串。 此特性是必需的。  <br/> |
+|ChangeKey  <br/> |包含标识由 Id 属性标识的文件夹版本的字符串。 此特性是可选的。 使用此属性可确保使用的是正确的文件夹版本。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -47,9 +47,9 @@ ms.locfileid: "19825853"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GetSharingMetadata](getsharingmetadata.md) <br/> |定义一个请求以获取标识共享邀请的不透明的身份验证令牌。  <br/> |
+|[GetSharingMetadata](getsharingmetadata.md) <br/> |定义一个请求，以获取标识共享邀请的不透明身份验证令牌。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述该元素的架构位于 IIS 虚拟目录正在运行 Microsoft Exchange Server 的计算机的主机交换 Web 服务已安装了客户端访问服务器角色。
   
@@ -57,7 +57,7 @@ ms.locfileid: "19825853"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -69,5 +69,5 @@ ms.locfileid: "19825853"
 [GetSharingMetadata 操作](getsharingmetadata-operation.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

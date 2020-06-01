@@ -1,5 +1,5 @@
 ---
-title: DayOfWeek (WorkingPeriod)
+title: DayOfWeek （WorkingPeriod）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 7a8a8cc1-392b-4db5-bb76-710477e31396
-description: DayOfWeek 元素包含计划的邮箱用户的工作日的列表。
-ms.openlocfilehash: a6a68017291ba13f45b3970307669222d583fcbb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: DayOfWeek 元素包含为邮箱用户计划的工作日的列表。
+ms.openlocfilehash: 06d4a7d5541b3b71fcbf9be9beb7512d06853283
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753768"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457443"
 ---
-# <a name="dayofweek-workingperiod"></a>DayOfWeek (WorkingPeriod)
+# <a name="dayofweek-workingperiod"></a>DayOfWeek （WorkingPeriod）
 
-**DayOfWeek**元素包含计划的邮箱用户的工作日的列表。 
+**DayOfWeek**元素包含为邮箱用户计划的工作日的列表。 
   
 - [GetUserAvailabilityResponse](getuseravailabilityresponse.md)  
 - [FreeBusyResponseArray](freebusyresponsearray.md)  
@@ -30,7 +30,7 @@ ms.locfileid: "19753768"
 - [WorkingHours](workinghours-ex15websvcsotherref.md)  
 - [WorkingPeriodArray](workingperiodarray.md) 
 - [WorkingPeriod](workingperiod.md)  
-- [DayOfWeek (WorkingPeriod)](dayofweek-workingperiod.md)
+- [DayOfWeek （WorkingPeriod）](dayofweek-workingperiod.md)
   
 ```xml
 <DayOfWeek>Sunday Monday Tuesday Wednesday Thursday Friday Saturday</DayOfWeek>
@@ -40,9 +40,9 @@ ms.locfileid: "19753768"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -54,25 +54,25 @@ ms.locfileid: "19753768"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[WorkingPeriod](workingperiod.md) <br/> |包含工作周的那几天和邮箱用户的时间。<br/><br/>以下是此元素的 XPath 表达式：<br/><br/>`/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/WorkingPeriodArray/WorkingPeriod[i[` <br/> |
+|[WorkingPeriod](workingperiod.md) <br/> |包含邮箱用户的工作周天数和小时数。<br/><br/>下面是此元素的 XPath 表达式： <br/><br/>`/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/WorkingPeriodArray/WorkingPeriod[i[` <br/> |
    
 ## <a name="text-value"></a>文本值
 
-如果邮箱用户均设置为表示工作周的天，则返回的文本值。 此元素的可能值如下：
+如果邮箱用户的天数设置为表示工作周，则返回一个文本值。 以下是此元素的可能值：
   
 - 星期日    
-- 周一    
-- 周二    
-- 周三    
-- 周四    
-- 周五    
-- 周六 
+- 星期一    
+- 星期二    
+- 星期三    
+- 星期四    
+- 星期五    
+- 星期六 
     
-将该顺序返回的文本值。
+文本值将按该顺序返回。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-请务必注意，此元素和可用性[(TimeZone) DayOfWeek](dayofweek-timezone.md)元素之间的区别是类型。 
+请务必注意，此元素与可用性[DayOfWeek （时区）](dayofweek-timezone.md)元素之间的差异在于类型。 
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -80,7 +80,7 @@ ms.locfileid: "19753768"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -89,5 +89,5 @@ ms.locfileid: "19753768"
 
 - [GetUserAvailability 操作](getuseravailability-operation.md)  
 - [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
-- [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

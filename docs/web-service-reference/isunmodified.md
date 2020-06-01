@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: bf09bf20-5c86-4335-b6e4-df41e9af52fd
-description: IsUnmodified 元素指示项目是否被修改过。
-ms.openlocfilehash: 86baf8c1c6afe7db5edaaac954df81f723c6bf40
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: IsUnmodified 元素指示是否修改了项目。
+ms.openlocfilehash: c577d4344cf644ce1e3bb9650760d0ee294561a0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826130"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458150"
 ---
 # <a name="isunmodified"></a>IsUnmodified
 
-**IsUnmodified**元素指示项目是否被修改过。 
+**IsUnmodified**元素指示是否修改了项目。 
   
 ```xml
 <IsUnmodified/>
@@ -30,9 +30,9 @@ ms.locfileid: "19826130"
  **Boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -44,8 +44,8 @@ ms.locfileid: "19826130"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[日历项目](calendaritem.md) <br/> |表示 Exchange 日历项。  <br/> |
-|[联系人](contact.md) <br/> |表示 Exchange 联系人项目。  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |表示 Exchange 日历项。  <br/> |
+|[Contact](contact.md) <br/> |表示 Exchange 联系人项目。  <br/> |
 |[DistributionList](distributionlist.md) <br/> |表示通讯组列表。  <br/> |
 |[项目](item.md) <br/> |表示 Exchange 存储中的项。  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |表示 Exchange 存储中的会议取消。  <br/> |
@@ -58,9 +58,9 @@ ms.locfileid: "19826130"
    
 ## <a name="text-value"></a>文本值
 
-文本值为**true**指示项目被修改。 文本值为**false**指示项已被修改。 
+如果文本值为**true** ，则表示该项目未被修改。 如果文本值为**false** ，则表示项目已被修改。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -68,7 +68,7 @@ ms.locfileid: "19826130"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -77,5 +77,5 @@ ms.locfileid: "19826130"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

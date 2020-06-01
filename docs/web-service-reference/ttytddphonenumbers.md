@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1e10ca10-3cf6-4f84-92f1-61eaa277f83a
-description: TTYTDDPhoneNumbers 元素指定的 TTY 或 TDD 文本电话号码数组和为相关联的角色其源归属的标识符。
-ms.openlocfilehash: 437c470579479b6305762e9174a5cf0ac831589e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: TTYTDDPhoneNumbers 元素为关联角色指定 TTY 或 TDD 文本电话号码的数组以及其源归属的标识符。
+ms.openlocfilehash: 2a68953537b2f1e1e9a60da8f41c98024451ea36
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838298"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457065"
 ---
 # <a name="ttytddphonenumbers"></a>TTYTDDPhoneNumbers
 
-**TTYTDDPhoneNumbers**元素指定的 TTY 或 TDD 文本电话号码数组和为相关联的角色其源归属的标识符。 
+**TTYTDDPhoneNumbers**元素为关联角色指定 TTY 或 TDD 文本电话号码的数组以及其源归属的标识符。 
   
 ```XML
 <TTYTDDPhoneNumbers>
@@ -28,9 +28,9 @@ ms.locfileid: "19838298"
  **ArrayOfPhoneNumberAttributedValuesType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -52,7 +52,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |false  <br/> |

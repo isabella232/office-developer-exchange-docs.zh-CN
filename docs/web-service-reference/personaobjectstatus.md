@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1354c86e-7740-42c4-9e63-b372b3906846
-description: PersonaObjectStatus 元素指定关联的角色中的信息是否整个或部分。
-ms.openlocfilehash: e216807f8b7d9de47b9cf40c10676579b8086547
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: PersonaObjectStatus 元素指定关联的角色中的信息是完整的还是部分的。
+ms.openlocfilehash: 66dbe30cebb0aa5845d9580ad057d1cf5ab9b037
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826741"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457233"
 ---
 # <a name="personaobjectstatus"></a>PersonaObjectStatus
 
-**PersonaObjectStatus**元素指定关联的角色中的信息是否整个或部分。 
+**PersonaObjectStatus**元素指定关联的角色中的信息是完整的还是部分的。 
   
 ```XML
 <PersonaObjectStatus></PersonaObjectStatus>
@@ -26,9 +26,9 @@ ms.locfileid: "19826741"
  **string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,7 +42,7 @@ ms.locfileid: "19826741"
   
 ## <a name="text-value"></a>文本值
 
-**PersonaObjectStatus**元素的文本值指示角色是否整个或部分。 
+**PersonaObjectStatus**元素的文本值指示角色是完整角色还是部分角色。 
   
 ## <a name="remarks"></a>备注
 
@@ -54,7 +54,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> ||

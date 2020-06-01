@@ -1,73 +1,73 @@
 ---
-title: 在 Exchange 检测 EWS 和 REST 的客户端请求
+title: 检测对 EWS 和 REST 在 Exchange 中的客户端请求
 manager: sethgros
 ms.date: 4/13/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 330de503-498d-447e-b4a9-c20fc1699fd1
-description: 了解 EWS 和 REST 请求和响应，可帮助您监视和解决 Exchange 应用程序中的 HTTP 标头。
-ms.openlocfilehash: bcf362952c29956729c44397043a56bf3603d0af
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 了解 EWS 和 REST 请求中的 HTTP 标头，以及可帮助您监视 Exchange 应用程序并对其进行故障排除的响应。
+ms.openlocfilehash: 3a8ce889ec7a6b9e70ec25a95ac248902f48ca6c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752910"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456302"
 ---
-# <a name="instrumenting-client-requests-for-ews-and-rest-in-exchange"></a>在 Exchange 检测 EWS 和 REST 的客户端请求
+# <a name="instrumenting-client-requests-for-ews-and-rest-in-exchange"></a>检测对 EWS 和 REST 在 Exchange 中的客户端请求
 
-了解 EWS 和 REST 请求和响应，可帮助您监视和解决 Exchange 应用程序中的 HTTP 标头。
+了解 EWS 和 REST 请求中的 HTTP 标头，以及可帮助您监视 Exchange 应用程序并对其进行故障排除的响应。
   
-这曾经发生在您？ 您的应用程序的用户报告时发生的错误。 您想要调查，但不能重现问题。 对于用户，消失了错误和剩下非常少的可操作数据。 低效不是吗？ 让我们看一下如何主动做好准备对于此方案，并希望避免失望将来。
+是否曾对你发生这种情况？ 您的应用程序的用户报告了意外错误。 您想要调查，但不能再现。 用户的错误已消失，并且你已离开非常少可操作的数据。 令人沮丧，不是吗？ 让我们来看看如何主动准备此方案，并避免将来出现挫折。
   
-## <a name="add-instrumentation-to-requests"></a>添加对请求的规范
+## <a name="add-instrumentation-to-requests"></a>向请求添加检测
 
-我们建议您将附加 HTTP 标头添加到您的请求，以便于进行故障。 以便可以在如果您需要更高版本检索，您应记录的某个位置 （例如，日志文件） 中此信息。 这是非常有用的时检查网络流量和也是非常有用，如果您与 Microsoft 支持部门联系以寻求帮助。
+建议您向请求添加其他 HTTP 标头，以便于进行故障排除。 应将此信息记录保留在某个位置（例如，在日志文件中），以便稍后在需要时检索此信息。 这在检查网络流量时很有帮助，如果你联系 Microsoft 支持部门寻求帮助，也很有用。
   
-**表 1。请求标头的疑难解答**
+**表1。用于故障排除的请求标头**
 
-|**HTTP 标头 (EWS)**|**EWS 托管 API 等效项**|**备注**|
+|**HTTP 标头（EWS）**|**EWS 托管 API 等效项**|**注释**|
 |:-----|:-----|:-----|
-|用户代理  <br/> |[ExchangeService.UserAgent](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.useragent%28v=exchg.80%29.aspx) <br/> |设置为标识客户端应用程序的唯一值。<br/><br/> 使用相同的值的所有应用程序发送允许 Microsoft 帮助解决呼叫失败的请求，应该会在发生。  <br/> |
-|客户端请求 id  <br/> |[ExchangeService.ClientRequestId](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.clientrequestid%28v=exchg.80%29.aspx) <br/> |此设置为您的应用程序发送的每个请求的不同唯一值。<br/><br/> 我们建议您使用的 GUID。 此唯一标识符旨在用于关联两个系统之间的活动的出现错误。  <br/> |
-|返回客户端请求 id  <br/> |[ExchangeService.ReturnClientRequestId](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.returnclientrequestid%28v=exchg.80%29.aspx) <br/> |此设置为**true**以信号到 Exchange 服务器，它应在相应的响应中返回您客户端请求 id 的值。<br/><br/> 您可以使用此关联请求和响应网络跟踪或 EWS 托管 API 跟踪。  <br/> |
-|X ClientStatistics  <br/> |[ExchangeService.SendClientLatencies](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.sendclientlatencies%28v=exchg.80%29.aspx) <br/> |如果您的应用程序访问 Exchange Online 或 Exchange Online 作为 Office 365 的一部分，用于向 Microsoft[报告 EWS 延迟](#bk_ReportLatency)。  <br/> |
+|用户代理  <br/> |[ExchangeService。 UserAgent](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.useragent%28v=exchg.80%29.aspx) <br/> |将此值设置为标识客户端应用程序的唯一值。<br/><br/> 如果你的应用程序发送的所有请求使用相同的值，Microsoft 可以在出现呼叫故障时帮助解决呼叫故障。  <br/> |
+|客户端请求 id  <br/> |[ExchangeService。 ClientRequestId](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.clientrequestid%28v=exchg.80%29.aspx) <br/> |对于您的应用程序发送的每个请求，请将此值设置为不同的唯一值。<br/><br/> 建议使用 GUID。 此唯一标识符用于在两个系统之间关联活动，以便在发生错误时进行关联。  <br/> |
+|返回-客户端请求 id  <br/> |[ExchangeService。 ReturnClientRequestId](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.returnclientrequestid%28v=exchg.80%29.aspx) <br/> |将此值设置为**true** ，以向 Exchange 服务器发出信号，告知 Exchange 服务器它应在相应的响应中返回客户端请求 id 的值。<br/><br/> 您可以使用此项在网络跟踪或 EWS 托管 API 跟踪中关联请求和响应。  <br/> |
+|X-ClientStatistics  <br/> |[ExchangeService。 SendClientLatencies](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.sendclientlatencies%28v=exchg.80%29.aspx) <br/> |用于向 Microsoft[报告 EWS 延迟](#bk_ReportLatency)（如果应用程序作为 Office 365 的一部分访问 exchange Online 或 exchange online）。  <br/> |
    
-## <a name="log-information-from-responses"></a>来自响应的日志信息
+## <a name="log-information-from-responses"></a>记录响应中的信息
 
-就像您的客户端可以向其发送的请求添加其他检测，Exchange 会将其他检测向 HTTP 标头的窗体中的响应。 您的客户端应捕获转请求 instrumentation 信息以及此信息。
+正如您的客户端可以向其发送的请求中添加额外的规范一样，Exchange 会将其他检测添加到 HTTP 头形式的响应中。 您的客户端应捕获此信息以与请求检测信息一起使用。
   
 > [!NOTE]
-> 如果您使用 EWS 托管 API，没有直接等效项的 HTTP 标头。 但是，可以通过[ExchangeService.HttpResponseHeaders](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.httpresponseheaders%28v=exchg.80%29.aspx)属性访问所有 HTTP 响应标头。 
+> 如果使用 EWS 托管 API，则 HTTP 头没有直接等效项。 但是，可以通过[ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.httpresponseheaders%28v=exchg.80%29.aspx)属性访问所有 HTTP 响应头。 
   
-**表 2。HTTP 响应标头**
+**表2。HTTP 响应头**
 
 |**HTTP 标头**|**说明**|
 |:-----|:-----|
-|请求 id  <br/> |对应于此响应该请求服务器生成的 ID。  <br/> |
-|客户端请求 id  <br/> |请求中的客户端请求 id 标头的值。<br/><br/> 此标头才存在，如果请求包含返回客户端请求 id 标头，具有值为**true**。  <br/> |
-|X-feserver  <br/> |处理请求的客户端访问服务器的 FQDN。  <br/> |
-|X-targetbeserver  <br/> |处理请求的邮箱服务器的 FQDN。  <br/> |
-|X-diaginfo  <br/> |附加诊断信息，具体取决于该请求。  <br/> |
-|x-ms 诊断  <br/> | 此标头才适用如果请求中使用 OAuth 身份验证。<br/><br/> 它包含指定的 OAuth 身份验证失败的原因的显式错误代码。<br/><br/> 它采用以下格式：`errorId;reason="reason"error_type="error type"`<br/><br/> **原因**字段是可读错误的说明。<br/><br/> **ErrorId**字段是一个整数，和**错误\_类型**字段的字符串表示形式的整数，如下所示：<ul><li>2000000： 无效\_签名</li><li>2000001： 无效\_标记</li><li>  2000002： 令牌\_过期</li><li>2000003： 无效\_资源</li><li>2000004： 无效\_租户  </li><li>2000005： 无效\_用户</li><li>2000006： 无效\_客户端</li><li>2000007： 内部\_错误</li><li>2000008： 无效\_授予</li></ul> |
+|请求 id  <br/> |与此响应对应的请求的服务器生成 ID。  <br/> |
+|客户端请求 id  <br/> |请求中的客户端请求 id 标头的值。<br/><br/> 仅当请求包含的返回客户端请求 id 标头的值**为 true**时，才会出现此标头。  <br/> |
+|X-FEServer  <br/> |处理请求的客户端访问服务器的 FQDN。  <br/> |
+|X-TargetBEServer  <br/> |处理请求的邮箱服务器的 FQDN。  <br/> |
+|X-X-diaginfo  <br/> |其他诊断信息，具体取决于请求。  <br/> |
+|x-ms-诊断  <br/> | 只有在请求中使用 OAuth 身份验证时，此标头才适用。<br/><br/> 它包含显式错误代码，用于指定 OAuth 身份验证失败的原因。<br/><br/> 它采用以下格式：`errorId;reason="reason"error_type="error type"`<br/><br/> **原因**字段是可读的错误的说明。<br/><br/> **ErrorId**字段是一个整数，**错误 \_ 类型**字段是该整数的字符串表示形式，如下所示：<ul><li>2000000： \_ 签名无效</li><li>2000001： \_ 令牌无效</li><li>  2000002：令牌已 \_ 过期</li><li>2000003： \_ 资源无效</li><li>2000004： \_ 租户无效  </li><li>2000005： \_ 用户无效</li><li>2000006： \_ 客户端无效</li><li>2000007：内部 \_ 错误</li><li>2000008： \_ 授予无效</li></ul> |
    
 ## <a name="report-ews-latency-to-microsoft"></a>向 Microsoft 报告 EWS 延迟
 <a name="bk_ReportLatency"> </a>
 
-如果您的应用程序使用 EWS 托管 API 或 EWS 连接到 Exchange Online，您可以直接向 Microsoft 报告 EWS 请求中的延迟。 通过 X ClientStatistics 请求标头传递信息。 如果您使用 EWS 托管 API，您只需执行的[ExchangeService.SendClientLatencies](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.sendclientlatencies%28v=exchg.80%29.aspx)属性设置为**true**。 如果您使用 EWS，您需要测量之间发出请求和接收响应的时间，然后将 X ClientStatistics 标头添加到您的应用程序发送，使用以下格式的下一个 EWS 请求。
+如果应用程序使用 EWS 托管 API 或 EWS 连接到 Exchange Online，则可以将 EWS 请求中的延迟直接报告给 Microsoft。 通过 ClientStatistics 请求标头传递信息。 如果您使用 EWS 托管 API，您只需将[ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.sendclientlatencies%28v=exchg.80%29.aspx)属性设置为**true**。 如果使用 EWS，则需要测量发出请求和接收响应之间的时间，然后使用以下格式将 ClientStatistics 头添加到应用程序发送的下一个 EWS 请求。
   
 `X-ClientStatistics: MessageId=<value of request-id header>,ResponseTime=<time in milliseconds>,SoapAction=<EWS operation>`
   
-我们维护这些延迟的报告，并使用它们持续改进 Exchange Online 中的 EWS 服务。
+我们维护这些延迟的报告，并使用它们在 Exchange Online 中持续改进 EWS 服务。
   
 ## <a name="next-steps"></a>后续步骤
 <a name="bk_ReportLatency"> </a>
 
-添加客户端检测到您的应用程序后，您更好地做好如果出现错误。 如果发生这种情况，您可以使用您检测数据到[解决您的应用程序](tools-and-resources-for-troubleshooting-ews-applications-for-exchange.md)。
+向应用程序添加了客户端规范后，如果出现问题，则会更好地进行准备。 如果发生这种情况，您可以使用检测数据对[应用程序进行故障排除](tools-and-resources-for-troubleshooting-ews-applications-for-exchange.md)。
   
 ## <a name="see-also"></a>另请参阅
 
 - [Exchange 的 EWS 客户端设计概述](ews-client-design-overview-for-exchange.md)
-- [跟踪请求和响应解决 EWS 托管 API 应用程序](how-to-trace-requests-responses-to-troubleshoot-ews-managed-api-applications.md)
+- [跟踪请求和响应以便解决 EWS 托管 API 应用程序的故障](how-to-trace-requests-responses-to-troubleshoot-ews-managed-api-applications.md)
 - [工具和资源来解决 exchange 的 EWS 应用程序](tools-and-resources-for-troubleshooting-ews-applications-for-exchange.md)
     
 

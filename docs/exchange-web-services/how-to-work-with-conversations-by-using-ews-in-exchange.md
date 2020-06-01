@@ -1,50 +1,50 @@
 ---
-title: 通过在 Exchange 使用 EWS 来处理对话
+title: 使用 Exchange 中的 EWS 处理对话
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 7750528c-acb2-43e5-a1e1-ee201c0e1730
-description: 了解如何查找对话、 适用于对话的操作和 Exchange 使用 EWS 托管 API 或 EWS 对话中获取项。
-ms.openlocfilehash: 71ef7674086607e1544111071928f3dd74073a77
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 了解如何在 Exchange 中使用 EWS 托管 API 或 EWS 在对话中查找对话、将操作应用于对话以及获取对话中的项目。
+ms.openlocfilehash: 2dc66195f8d37836c32fc33737728c61fc5444ae
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752911"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456786"
 ---
-# <a name="work-with-conversations-by-using-ews-in-exchange"></a>通过在 Exchange 使用 EWS 来处理对话
+# <a name="work-with-conversations-by-using-ews-in-exchange"></a>使用 Exchange 中的 EWS 处理对话
 
-了解如何查找对话、 适用于对话的操作和 Exchange 使用 EWS 托管 API 或 EWS 对话中获取项。
+了解如何在 Exchange 中使用 EWS 托管 API 或 EWS 在对话中查找对话、将操作应用于对话以及获取对话中的项目。
   
-在 Exchange 的上下文中，对话是一种方式进行分组和管理一组相关的电子邮件。 他们还可以提供一种方法查看相关的邮件。 Exchange 定义基于线程中的第一个电子邮件**消息 ID**值的对话。 全部答复和相关的消息引用其**引用**中的原始消息的**消息 ID**标头和 **-答复**邮件头。 
+在 Exchange 上下文中，对话是一组相关的电子邮件分组和管理的方法。 它们还可以提供查看相关邮件的方法。 Exchange 根据线程中第一封电子邮件的**邮件 ID**值定义对话。 所有答复和相关邮件引用原始邮件的**邮件 ID**头，并在其**引用**和**答复**邮件头中。 
   
-此外，在 SOAP 信封，为每个邮箱中接收的消息 Exchange 将设置特定的属性和元素。
+此外，在 SOAP 信封中，对于邮箱中收到的每封邮件，Exchange 都会设置特定的属性和元素。
   
-**表 1。对话属性和元素上所有电子邮件设置**
+**表1。在所有电子邮件上设置的对话属性和元素**
 
 |**EWS 托管 API 属性**|**EWS 元素**|**说明**|
 |:-----|:-----|:-----|
-|[ConversationTopic](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.conversationtopic%28v=exchg.80%29.aspx) <br/> |[ConversationTopic](http://msdn.microsoft.com/library/46cacf42-4039-4c8a-9b20-c42cdd9f2760%28Office.15%29.aspx) <br/> |包含对原始邮件已设置主题值的规范化窗体。 这是**线程主题**邮件头相同。 此值是只读的。  <br/> |
-|[ConversationIndex](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.conversationindex%28v=exchg.80%29.aspx) <br/> |[ConversationIndex](http://msdn.microsoft.com/library/fdf47e22-8d93-4ae4-883b-0c9f07f48724%28Office.15%29.aspx) <br/> |代表会话中的项的位置。 这是**线程索引**邮件头相同。 此值是只读的。  <br/> |
+|[ConversationTopic](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.conversationtopic%28v=exchg.80%29.aspx) <br/> |[ConversationTopic](https://msdn.microsoft.com/library/46cacf42-4039-4c8a-9b20-c42cdd9f2760%28Office.15%29.aspx) <br/> |包含原始邮件上设置的使用者值的规范化形式。 这与**线程主题**邮件头相同。 此值为只读。  <br/> |
+|[ConversationIndex](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.conversationindex%28v=exchg.80%29.aspx) <br/> |[ConversationIndex](https://msdn.microsoft.com/library/fdf47e22-8d93-4ae4-883b-0c9f07f48724%28Office.15%29.aspx) <br/> |表示项目在对话中的位置。 这与**线程索引**邮件头相同。 此值为只读。  <br/> |
    
-Exchange 相同的**ConversationTopic**值应用于回复到第一条消息，然后更新**ConversationIndex**值，表示相对于原始邮件消息的位置。 如果发生更改的电子邮件线程主题，Exchange 将新**ConversationTopic**值和新的**ConversationIndex**值适用于新的对话。 
+Exchange 将相同的**ConversationTopic**值应用于对第一封邮件的答复，然后更新**ConversationIndex**值以表示邮件相对于原始邮件的位置。 如果电子邮件线程的主题发生更改，Exchange 会将新的**ConversationTopic**值和新的**ConversationIndex**值应用于新对话。 
   
-**表 2。EWS 托管 API 方法和用于处理的对话的 EWS 操作**
+**表2。用于处理对话的 EWS 托管 API 方法和 EWS 操作**
 
-|**若要...**|**使用此 EWS 托管 API 方法**|**使用此 EWS 操作**|
+|**若要...**|**使用此 EWS 托管 API 方法或方法**|**使用此 EWS 操作**|
 |:-----|:-----|:-----|
-|查找对话  <br/> |[ExchangeService.FindConversation](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.findconversation%28v=exchg.80%29.aspx) <br/> |[FindConversation](http://msdn.microsoft.com/library/2384908a-c203-45b6-98aa-efd6a4c23aac%28Office.15%29.aspx) <br/> |
-|应用对话操作  <br/> |[Conversation.EnableAlwaysCategorizeItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.conversation.enablealwayscategorizeitems%28v=exchg.80%29.aspx) <br/> [Conversation.EnableAlwaysDeleteItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.conversation.enablealwaysdeleteitems%28v=exchg.80%29.aspx) <br/> [Conversation.EnableAlwaysMoveItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.conversation.enablealwaysmoveitems%28v=exchg.80%29.aspx) <br/> [ExchangeService.CopyItemsInConversations](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.copyitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService.DeleteItemsInConversations](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.deleteitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService.DisableAlwaysCategorizeItemsInConversations](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.disablealwayscategorizeitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService.DisableAlwaysDeleteItemsInConversations](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.disablealwaysdeleteitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService.DisableAlwaysMoveItemsInConversations](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.disablealwaysmoveitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService.EnableAlwaysCategorizeItemsInConversations](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.enablealwayscategorizeitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService.EnableAlwaysDeleteItemsInConversations](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.enablealwaysdeleteitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService.EnableAlwaysMoveItemsInConversations](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.enablealwaysmoveitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService.MoveItemsInConversations](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.moveitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService.SetFlagStatusForItemsInConversations](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.setflagstatusforitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService.SetReadStateForItemsInConversations](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.setreadstateforitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService.SetRetentionPolicyForItemsInConversations](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice.setretentionpolicyforitemsinconversations%28v=exchg.80%29.aspx) <br/> |[ApplyConversationAction](http://msdn.microsoft.com/library/73d7943d-d361-4f8b-9948-d85f886efa1a%28Office.15%29.aspx) <br/> |
-|获取一个或多个对话中的项  <br/> |[ExchangeService.GetConversationItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.getconversationitems%28v=exchg.80%29.aspx) <br/> |[GetConversationItems](http://msdn.microsoft.com/library/8ae00a99-b37b-4194-829c-fe300db6ab99%28Office.15%29.aspx) <br/> |
+|查找对话  <br/> |[ExchangeService。 FindConversation](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.findconversation%28v=exchg.80%29.aspx) <br/> |[FindConversation](https://msdn.microsoft.com/library/2384908a-c203-45b6-98aa-efd6a4c23aac%28Office.15%29.aspx) <br/> |
+|应用对话操作  <br/> |[EnableAlwaysCategorizeItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.conversation.enablealwayscategorizeitems%28v=exchg.80%29.aspx) <br/> [EnableAlwaysDeleteItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.conversation.enablealwaysdeleteitems%28v=exchg.80%29.aspx) <br/> [EnableAlwaysMoveItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.conversation.enablealwaysmoveitems%28v=exchg.80%29.aspx) <br/> [ExchangeService。 CopyItemsInConversations](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.copyitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService。 DeleteItemsInConversations](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.deleteitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService。 DisableAlwaysCategorizeItemsInConversations](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.disablealwayscategorizeitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService。 DisableAlwaysDeleteItemsInConversations](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.disablealwaysdeleteitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService。 DisableAlwaysMoveItemsInConversations](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.disablealwaysmoveitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService。 EnableAlwaysCategorizeItemsInConversations](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.enablealwayscategorizeitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService。 EnableAlwaysDeleteItemsInConversations](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.enablealwaysdeleteitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService。 EnableAlwaysMoveItemsInConversations](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.enablealwaysmoveitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService。 MoveItemsInConversations](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.moveitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService。 SetFlagStatusForItemsInConversations](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.setflagstatusforitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService。 SetReadStateForItemsInConversations](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.setreadstateforitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService。 SetRetentionPolicyForItemsInConversations](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.exchangeservice.setretentionpolicyforitemsinconversations%28v=exchg.80%29.aspx) <br/> |[ApplyConversationAction](https://msdn.microsoft.com/library/73d7943d-d361-4f8b-9948-d85f886efa1a%28Office.15%29.aspx) <br/> |
+|获取一个或多个对话中的项目  <br/> |[ExchangeService。 GetConversationItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.getconversationitems%28v=exchg.80%29.aspx) <br/> |[GetConversationItems](https://msdn.microsoft.com/library/8ae00a99-b37b-4194-829c-fe300db6ab99%28Office.15%29.aspx) <br/> |
 
 <a name="bk_findewsma"> </a>
 
-## <a name="find-a-conversation-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 来查找对话
+## <a name="find-a-conversation-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 查找对话
 
-下面的示例中所示，您可以通过使用[ExchangeService.FindConversation](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.findconversation%28v=exchg.80%29.aspx) EWS 托管 API 方法中，找到对话。 此示例获取主题包含单词收件箱文件夹的前 10 的对话"新闻"。 该示例然后将写入到控制台窗口的对话主题、 传递上次和全局唯一的收件人列表。 
+您可以使用[ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.findconversation%28v=exchg.80%29.aspx) EWS 托管 API 方法查找对话，如下面的示例所示。 本示例获取 "收件箱" 文件夹中的前10个对话，其中包含包含 "新闻" 一词的主题。 然后，该示例将对话主题、上一次传递时间和全局唯一收件人列表写入控制台窗口。 
   
-此示例假定 **service** 是有效的 [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) 对象，并且已向 Exchange 服务器对该用户进行身份验证。 
+此示例假定 **service** 是有效的 [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) 对象，且用户已通过 Exchange 服务器的身份验证。 
   
 ```cs
 static void FindConversation(ExchangeService service)
@@ -75,14 +75,14 @@ static void FindConversation(ExchangeService service)
 
 ## <a name="find-a-conversation-by-using-ews"></a>使用 EWS 查找对话
 
-下面的示例中所示，您可以使用[FindConversation](http://msdn.microsoft.com/library/2384908a-c203-45b6-98aa-efd6a4c23aac%28Office.15%29.aspx) EWS 操作中，找到对话。 此示例获取主题包含单词收件箱文件夹的前 10 个对话"新闻"。 这也是使用 EWS 托管 API 对[查找对话](#bk_findewsma)时，将发送 EWS 托管 API 的 XML 请求。
+您可以通过使用[FindConversation](https://msdn.microsoft.com/library/2384908a-c203-45b6-98aa-efd6a4c23aac%28Office.15%29.aspx) EWS 操作找到对话，如下面的示例所示。 本示例获取 "收件箱" 文件夹中的前十个对话，其中包含包含 "新闻" 一词的主题。 这也是当您使用 EWS 托管 API[查找对话](#bk_findewsma)时，EWS 托管 api 发送的 XML 请求。
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -101,31 +101,31 @@ static void FindConversation(ExchangeService service)
 
 ```
 
-服务器响应**FindConversation**请求[FindConversationResponse](http://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx)邮件包含[ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx)值**NoError**以指示操作成功完成。 响应还包括具有主题包含单词"新闻"的邮箱中的唯一的对话。 
+服务器使用[FindConversationResponse](https://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx)邮件响应**FindConversation**请求，其中包括[ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx)值**NoError** ，以指示操作成功完成。 该响应还包括邮箱中的唯一对话，该邮箱包含包含 "新闻" 一词的主题。 
   
-为便于阅读变短了**ItemId**、**更改密钥**和**ConversationId**元素。 
+为了提高可读性， **ItemId**、 **ChangeKey**和**ConversationId**元素已缩短。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15"
                          MinorVersion="0"
                          MajorBuildNumber="883"
                          MinorBuildNumber="10"
                          Version="V2_10"
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <FindConversationResponse ResponseClass="Success"
-                              xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                              xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseCode>NoError</ResponseCode>
       <Conversations>
-        <Conversation xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <Conversation xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <ConversationId Id="aO2NM+Q=" />
           <ConversationTopic>Today's top news headlines</ConversationTopic>
           <UniqueRecipients>
@@ -190,11 +190,11 @@ static void FindConversation(ExchangeService service)
 
 ## <a name="apply-conversation-actions-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 应用对话操作
 
-下面的示例中所示，可以应用于对话使用大量 EWS 托管 API 方法的对话操作。 本示例将类别添加到现有对话中的项目，并将相同的类别应用于对话中的未来项目。 它还会显示如何启用自动进入对话中的项目的文件夹。 本示例中，项目移动到草稿文件夹中。
+您可以使用多个 EWS 托管 API 方法将对话操作应用到对话中，如以下示例所示。 本示例将类别添加到对话中的现有项目，并将相同的类别应用于会话中的未来项目。 它还演示如何启用自动将对话中的项目移动到文件夹中。 在此示例中，将项目移至 "草稿" 文件夹。
   
-此示例假定 **service** 是有效的 [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) 对象，并且已向 Exchange 服务器对该用户进行身份验证。 
+此示例假定 **service** 是有效的 [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) 对象，且用户已通过 Exchange 服务器的身份验证。 
   
-应用对话操作的方法的完整列表，请参阅表 2。
+有关应用对话操作的方法的完整列表，请参阅表2。
   
 ```cs
 static void ApplyConversationActions(ExchangeService service, Conversation conversation)
@@ -219,16 +219,16 @@ static void ApplyConversationActions(ExchangeService service, Conversation conve
 
 ## <a name="apply-conversation-actions-by-using-ews"></a>使用 EWS 应用对话操作
 
-您可以应用对话操作、 如分类、 删除和移动，请使用[ApplyConversationAction](http://msdn.microsoft.com/library/73d7943d-d361-4f8b-9948-d85f886efa1a%28Office.15%29.aspx)操作，如下面的示例中所示。 本示例将类别添加到现有对话中的项目，并将相同的类别应用于对话中的未来项目。 它还会显示如何启用自动进入对话中的项目的文件夹。本示例中，项目移动到草稿文件夹中。 这也是使用 EWS 托管 API[应用对话操作](#bk_applyewsma)时，将发送 EWS 托管 API 的 XML 请求。
+您可以使用[ApplyConversationAction](https://msdn.microsoft.com/library/73d7943d-d361-4f8b-9948-d85f886efa1a%28Office.15%29.aspx)操作来应用对话操作，例如分类、删除和移动，如下面的示例所示。 本示例将类别添加到对话中的现有项目，并将相同的类别应用于会话中的未来项目。 它还演示如何启用自动将对话中的项目移动到文件夹;在此示例中，将项目移至 "草稿" 文件夹。 这也是在使用 EWS 托管 API[应用对话操作](#bk_applyewsma)时，EWS 托管 api 发送的 XML 请求。
   
-为便于阅读缩短了**ConversationId**元素。 
+为了提高可读性， **ConversationId**元素已缩短。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -249,17 +249,17 @@ static void ApplyConversationActions(ExchangeService service, Conversation conve
 </soap:Envelope>
 ```
 
-服务器响应**ApplyConversationAction**请求[ApplyConversationActionResponse](http://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx)邮件包含[ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx)值**NoError**以指示操作成功完成。 
+服务器使用[ApplyConversationActionResponse](https://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx)邮件响应**ApplyConversationAction**请求，其中包括[ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx)值**NoError** ，以指示操作成功完成。 
 
 <a name="bk_getitemssingleewsma"> </a>
 
-## <a name="get-items-in-a-single-conversation-by-using-the-conversation-identifier-in-the-ews-managed-api"></a>通过使用 EWS 托管 API 中的对话标识符单个会话中获取项
+## <a name="get-items-in-a-single-conversation-by-using-the-conversation-identifier-in-the-ews-managed-api"></a>使用 EWS 托管 API 中的对话标识符获取单个对话中的项目
 
-使用[ExchangeService.GetConversationItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.getconversationitems%28v=exchg.80%29.aspx) EWS 托管 API 方法，可以在对话中获取项。 该示例提供的收件箱中的第一个对话的对话节点集。 在响应中，以及对话索引和 parent 对话索引属性返回的项标识符、 主题和每个项目的接收的时间。 您可以使用对话索引属性重新构造节点层次结构。 
+您可以通过使用[ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.getconversationitems%28v=exchg.80%29.aspx) EWS 托管 API 方法在对话中获取项目。 本示例为 "收件箱" 中的第一个对话提供了一组对话节点。 响应中返回每个项目的项目标识符、主题和接收时间，以及会话索引和父对话索引属性。 您可以使用对话索引属性重新构造节点的层次结构。 
   
-本示例中，默认已删除邮件和草稿文件夹中的所有对话项目将被都忽略。
+在此示例中，将忽略默认的 "已删除邮件" 和 "草稿" 文件夹中的所有对话项目。
   
-此示例假定 **service** 是有效的 [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) 对象，并且已向 Exchange 服务器对该用户进行身份验证。 
+此示例假定 **service** 是有效的 [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) 对象，且用户已通过 Exchange 服务器的身份验证。 
   
 ```cs
 static void GetConversationItemsSingleConversation(ExchangeService service)
@@ -315,17 +315,17 @@ static void GetConversationItemsSingleConversation(ExchangeService service)
 
 ```
 
-我们建议您缓存后续请求会话中获取项的**SyncState**属性。 
+我们建议您缓存**SyncState**属性，以获取后续请求以获取会话中的项目。 
 
 <a name="bk_getitemsmanyewsma"> </a>
 
-## <a name="get-items-in-many-conversations-by-using-the-conversationrequest-object-in-the-ews-managed-api"></a>通过使用 EWS 托管 API 中的 ConversationRequest 对象在很多对话中获取项
+## <a name="get-items-in-many-conversations-by-using-the-conversationrequest-object-in-the-ews-managed-api"></a>使用 EWS 托管 API 中的 ConversationRequest 对象获取多个对话中的项目
 
-您可以使用[ConversationRequest](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.conversationrequest%28v=exchg.80%29.aspx)对象和[ExchangeService.GetConversationItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.getconversationitems%28v=exchg.80%29.aspx) EWS 托管 API 方法获取两个或多个对话中的项。 此示例在收件箱中的前两个对话提供一组对话节点。 将在响应中，以及对话索引和 parent 对话索引属性返回的项标识符、 主题和接收的时间为每个项目。 您可以使用对话索引属性重新构造节点层次结构。 本示例假定收件箱中的前两个项目的不同的对话。 
+您可以使用[ConversationRequest](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.conversationrequest%28v=exchg.80%29.aspx)对象和[ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.getconversationitems%28v=exchg.80%29.aspx)托管 API 方法从两个或多个对话中获取项目。 本示例为 "收件箱" 中的前两个对话提供了一组对话节点。 将在响应中返回每个项目的项目标识符、主题和接收时间，以及会话索引和父对话索引属性。 您可以使用对话索引属性重新构造节点的层次结构。 本示例假定收件箱中的前两个项目来自不同的对话。 
   
-本示例中，默认已删除邮件和草稿文件夹中的所有对话项目将被都忽略。
+在此示例中，将忽略默认的 "已删除邮件" 和 "草稿" 文件夹中的所有对话项目。
   
-此示例假定 **service** 是有效的 [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) 对象，并且已向 Exchange 服务器对该用户进行身份验证。 
+此示例假定 **service** 是有效的 [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) 对象，且用户已通过 Exchange 服务器的身份验证。 
   
 ```cs
 static void GetConversationItemsManyConversations(ExchangeService service)
@@ -390,26 +390,26 @@ static void GetConversationItemsManyConversations(ExchangeService service)
 
 ```
 
-作为最佳实践，我们建议您返回仅属性的客户端应用程序要求，而不是使用**FirstClassProperties**选项**BasePropertySet**类。 我们建议您缓存后续请求会话中获取项的**SyncState**属性。 
+作为一种最佳做法，我们建议您仅返回客户端应用程序所需的属性，而不是使用**BasePropertySet**类的**FirstClassProperties**选项。 我们建议您缓存**SyncState**属性，以获取后续请求以获取会话中的项目。 
 
 <a name="bk_getitemsews"> </a>
 
-## <a name="get-items-in-conversations-by-using-the-conversation-identifier-in-ews"></a>通过使用 EWS 中的对话标识符对话中获取项
+## <a name="get-items-in-conversations-by-using-the-conversation-identifier-in-ews"></a>使用 EWS 中的会话标识符获取对话中的项目
 
-使用[GetConversationItems](http://msdn.microsoft.com/library/8ae00a99-b37b-4194-829c-fe300db6ab99%28Office.15%29.aspx) EWS 操作，可以在对话中获取项。 该示例提供一的组对话节点的收件箱中的第一个对话。 在响应中，以及对话索引和 parent 对话索引属性返回的项标识符、 主题和每个项目的接收的时间。 您可以使用对话索引属性重新构造节点层次结构。 
+您可以通过使用[GetConversationItems](https://msdn.microsoft.com/library/8ae00a99-b37b-4194-829c-fe300db6ab99%28Office.15%29.aspx) EWS 操作获取对话中的项目。 本示例为 "收件箱" 中的第一个对话提供一组对话节点。 响应中返回每个项目的项目标识符、主题和接收时间，以及会话索引和父对话索引属性。 您可以使用对话索引属性重新构造节点的层次结构。 
   
-本示例中，默认已删除邮件和草稿文件夹中的所有对话项目将被都忽略。
+在此示例中，将忽略默认的 "已删除邮件" 和 "草稿" 文件夹中的所有对话项目。
   
-为便于阅读缩短了**ConversationId**元素。 
+为了提高可读性， **ConversationId**元素已缩短。 
   
-从多个对话中获取项，包括其他**对话**元素。 
+若要从多个对话中获取项目，请包含其他**对话**元素。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m=http://schemas.microsoft.com/exchange/services/2006/messages
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m=https://schemas.microsoft.com/exchange/services/2006/messages
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -437,27 +437,27 @@ static void GetConversationItemsManyConversations(ExchangeService service)
 </soap:Envelope>
 ```
 
-服务器响应**GetConversationItems**请求[GetConversationItemsResponse](http://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx)邮件包含[ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx)值**NoError**以指示操作成功完成。 响应还包括[ConversationNodes](http://msdn.microsoft.com/library/5c8a35b8-a940-4b3e-8768-9ba95766fd79%28Office.15%29.aspx)对话中。 
+服务器使用[GetConversationItemsResponse](https://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx)邮件响应**GetConversationItems**请求，其中包括[ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx)值**NoError** ，以指示操作成功完成。 该响应还包括对话中的[ConversationNodes](https://msdn.microsoft.com/library/5c8a35b8-a940-4b3e-8768-9ba95766fd79%28Office.15%29.aspx) 。 
   
-为便于阅读变短了**ItemId**、 **SyncState**和**ConversationId**元素。 
+为了提高可读性， **ItemId**、 **SyncState**和**ConversationId**元素已缩短。 
   
 ```XML
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15"
                          MinorVersion="0"
                          MajorBuildNumber="873"
                          MinorBuildNumber="9"
                          Version="V2_9"
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:GetConversationItemsResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                                    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:GetConversationItemsResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                                    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:GetConversationItemsResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -563,23 +563,23 @@ static void GetConversationItemsManyConversations(ExchangeService service)
 
 ## <a name="version-differences"></a>版本差异
 
-当您使用 Exchange Server 2010 Service Pack 1 (SP1) 时， [FindConversation](http://msdn.microsoft.com/en-us/library/office/jj220668%28v=exchg.80%29.aspx)方法具有较少的可用选项和[FindConversation](http://msdn.microsoft.com/library/2384908a-c203-45b6-98aa-efd6a4c23aac%28Office.15%29.aspx)操作中请求具有较少的元素。 
+使用 Exchange Server 2010 Service Pack 1 （SP1）时， [FindConversation](https://msdn.microsoft.com/library/office/jj220668%28v=exchg.80%29.aspx)方法的可用选项较少，并且[FindConversation](https://msdn.microsoft.com/library/2384908a-c203-45b6-98aa-efd6a4c23aac%28Office.15%29.aspx)操作的元素在请求中较少。 
   
-**表 3。Exchange 2010 SP1 版本支持 FindConversation**
+**表3。适用于 FindConversation 的 Exchange 2010 SP1 版本支持**
 
 |**EWS 托管的 API 方法**|**EWS 元素**|
 |:-----|:-----|
-|[FindConversation （ViewBase，文件夹 Id）](http://msdn.microsoft.com/en-us/library/office/jj220668%28v=exchg.80%29.aspx) <br/> |[IndexedPageItemView](http://msdn.microsoft.com/library/6d1b0b04-cc35-4a57-bd7a-824136d14fda%28Office.15%29.aspx) <br/> [SortOrder](http://msdn.microsoft.com/library/c2413f0b-8c03-46ae-9990-13338b3c53a6%28Office.15%29.aspx) <br/> [ParentFolderId](http://msdn.microsoft.com/library/0e3e6e5f-06d0-499b-8ca4-d36036521658%28Office.15%29.aspx) <br/> |
+|[FindConversation （ViewBase，FolderId）](https://msdn.microsoft.com/library/office/jj220668%28v=exchg.80%29.aspx) <br/> |[IndexedPageItemView](https://msdn.microsoft.com/library/6d1b0b04-cc35-4a57-bd7a-824136d14fda%28Office.15%29.aspx) <br/> [SortOrder](https://msdn.microsoft.com/library/c2413f0b-8c03-46ae-9990-13338b3c53a6%28Office.15%29.aspx) <br/> [ParentFolderId](https://msdn.microsoft.com/library/0e3e6e5f-06d0-499b-8ca4-d36036521658%28Office.15%29.aspx) <br/> |
    
-[GetConversationItems](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice.getconversationitems%28v=exchg.80%29.aspx) EWS 托管 API 方法和[GetConversationItems](http://msdn.microsoft.com/library/8ae00a99-b37b-4194-829c-fe300db6ab99%28Office.15%29.aspx) EWS 操作是在 Exchange Server 2013 中引入的。 表 2 中所列，针对早期版本 Exchange 的应用程序仅可加入对话，应用对话操作。 
+Exchange Server 2013 中引入了[GetConversationItems](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.exchangeservice.getconversationitems%28v=exchg.80%29.aspx) EWS 托管 API 方法和[GetConversationItems](https://msdn.microsoft.com/library/8ae00a99-b37b-4194-829c-fe300db6ab99%28Office.15%29.aspx) EWS 操作。 面向 Exchange 早期版本的应用程序只能将对话操作应用于对话，如表2中所示。 
   
-**FindConversation** EWS 托管 API 方法和**FindConversation** EWS 方法不在 Exchange 2007 或 Exchange 2010 的初始发行版中可用。 
+**FindConversation** EWS 托管 API 方法和**FindConversation** EWS 方法在 exchange 2010 的初始发布版本或 exchange 2007 中不可用。 
   
 ## <a name="see-also"></a>另请参阅
 
-- [电子邮件和 Exchange 中的 EWS](email-and-ews-in-exchange.md)
-- [在 Exchange 中使用 EWS 使用搜索筛选器](how-to-use-search-filters-with-ews-in-exchange.md)   
-- [Exchange 2013： 查找对话在邮箱中以编程方式](http://code.msdn.microsoft.com/exchange/Exchange-2013-Find-d4b6b3af)    
-- [Exchange 2013： 应用操作来管理邮箱中的对话](http://code.msdn.microsoft.com/exchange/Exchange-2013-Apply-accde0b5)
+- [Exchange 中的电子邮件和 EMS](email-and-ews-in-exchange.md)
+- [在 Exchange 中将搜索筛选器与 EWS 结合使用](how-to-use-search-filters-with-ews-in-exchange.md)   
+- [Exchange 2013：以编程方式在邮箱中查找对话](https://code.msdn.microsoft.com/exchange/Exchange-2013-Find-d4b6b3af)    
+- [Exchange 2013：应用操作以管理邮箱中的对话](https://code.msdn.microsoft.com/exchange/Exchange-2013-Apply-accde0b5)
     
 

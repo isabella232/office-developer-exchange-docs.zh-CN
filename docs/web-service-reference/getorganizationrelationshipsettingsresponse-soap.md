@@ -1,22 +1,22 @@
 ---
-title: GetOrganizationRelationshipSettingsResponse (SOAP)
+title: GetOrganizationRelationshipSettingsResponse （SOAP）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2f43b817-92c2-4e04-8095-479d790f768c
-description: GetOrganizationRelationshipSettingsResponse 元素包含 GetOrganizationRelationshipSettings 操作 (SOAP) 响应。 GetOrganizationRelationshipSettingsResponse 元素是仅供内部使用。 客户端不使用此元素。
-ms.openlocfilehash: 907113df2186a93345c6e0bc7dd470909508bd38
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: GetOrganizationRelationshipSettingsResponse 元素包含 GetOrganizationRelationshipSettings 操作（SOAP）响应。 GetOrganizationRelationshipSettingsResponse 元素仅供内部使用。 客户端不使用此元素。
+ms.openlocfilehash: 0f34fbc6577b379dd0ac379564c5e6bbd940d379
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754634"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457919"
 ---
-# <a name="getorganizationrelationshipsettingsresponse-soap"></a>GetOrganizationRelationshipSettingsResponse (SOAP)
+# <a name="getorganizationrelationshipsettingsresponse-soap"></a>GetOrganizationRelationshipSettingsResponse （SOAP）
 
-**GetOrganizationRelationshipSettingsResponse**元素包含[GetOrganizationRelationshipSettings 操作 (SOAP)](getorganizationrelationshipsettings-operation-soap.md)响应。 **GetOrganizationRelationshipSettingsResponse**元素是仅供内部使用。 客户端不使用此元素。 
+**GetOrganizationRelationshipSettingsResponse**元素包含[GETORGANIZATIONRELATIONSHIPSETTINGS 操作（SOAP）](getorganizationrelationshipsettings-operation-soap.md)响应。 **GetOrganizationRelationshipSettingsResponse**元素仅供内部使用。 客户端不使用此元素。 
   
 ```XML
 <GetOrganizationRelationshipSettingResponse>
@@ -29,9 +29,9 @@ ms.locfileid: "19754634"
  **GetOrganizationRelationshipSettingsResponse**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -39,9 +39,9 @@ ms.locfileid: "19754634"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ErrorCode (SOAP)](errorcode-soap.md) <br/> |代表由自动发现服务返回的错误代码。  <br/> |
-|[ErrorMessage (SOAP)](errormessage-soap.md) <br/> |代表相关联的自动发现服务返回的错误代码的邮件。  <br/> |
-|[OrganizationRelationshipSettingsCollection (SOAP)](organizationrelationshipsettingscollection-soap.md) <br/> |表示与查询匹配的组织关系的集合。  <br/> |
+|[ErrorCode （SOAP）](errorcode-soap.md) <br/> |表示自动发现服务返回的错误代码。  <br/> |
+|[ErrorMessage （SOAP）](errormessage-soap.md) <br/> |表示与自动发现服务返回的错误代码相关联的消息。  <br/> |
+|[OrganizationRelationshipSettingsCollection （SOAP）](organizationrelationshipsettingscollection-soap.md) <br/> |表示与查询匹配的组织关系的集合。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -55,7 +55,7 @@ ms.locfileid: "19754634"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |架构名称  <br/> |自动发现架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
@@ -64,5 +64,5 @@ ms.locfileid: "19754634"
 
 
 
-[GetOrganizationRelationshipSettings 操作 (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
+[GetOrganizationRelationshipSettings 操作（SOAP）](getorganizationrelationshipsettings-operation-soap.md)
 

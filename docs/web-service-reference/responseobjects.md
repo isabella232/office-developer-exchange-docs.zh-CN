@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: ad29e064-3f3d-4b7b-aa4c-9ec27326381d
-description: ResponseObjects 元素包含与 Exchange 存储中的项相关联的所有响应对象的集合。
-ms.openlocfilehash: b1d95063439f5089665d2aad97d747665caef0ca
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ResponseObjects 元素包含与 Exchange 存储中的项目关联的所有响应对象的集合。
+ms.openlocfilehash: 675bfda4addb38535736efc0c790577ff4739108
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827197"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457436"
 ---
 # <a name="responseobjects"></a>ResponseObjects
 
-**ResponseObjects**元素包含与 Exchange 存储中的项相关联的所有响应对象的集合。 
+**ResponseObjects**元素包含与 Exchange 存储中的项目关联的所有响应对象的集合。 
   
 ```XML
 <ResponseObjects>
@@ -42,9 +42,9 @@ ms.locfileid: "19827197"
  **NonEmptyArrayOfResponseObjectsType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -58,18 +58,18 @@ ms.locfileid: "19827197"
 |[ReplyToItem](replytoitem.md) <br/> |包含对 Exchange 存储中的项的创建者的答复。  <br/> |
 |[ForwardItem](forwarditem.md) <br/> |包含要转发给收件人的 Exchange 存储区项。  <br/> |
 |[ReplyAllToItem](replyalltoitem.md) <br/> |包含对所有确定收件人的 Exchange 存储中的项的答复。  <br/> |
-|[CancelCalendarItem](cancelcalendaritem.md) <br/> |代表用来取消会议的响应对象。  <br/> |
+|[CancelCalendarItem](cancelcalendaritem.md) <br/> |表示用于取消会议的响应对象。  <br/> |
 |[RemoveItem](removeitem.md) <br/> |从 Exchange 存储中删除一个项目。  <br/> |
-|[PostReplyItem](postreplyitem.md) <br/> |包含一个公告项目答复。 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 中引入了此元素。  <br/> |
-|[SuppressReadReceipt](suppressreadreceipt.md) <br/> |用于取消读的回执请求。  <br/> |
-|[AcceptSharingInvitation](acceptsharinginvitation.md) <br/> |用于接受邀请，允许访问其他用户的日历或联系人数据。  <br/> |
+|[PostReplyItem](postreplyitem.md) <br/> |包含对帖子项的答复。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。  <br/> |
+|[SuppressReadReceipt](suppressreadreceipt.md) <br/> |用于禁止阅读回执请求。  <br/> |
+|[AcceptSharingInvitation](acceptsharinginvitation.md) <br/> |用于接受允许访问其他用户的 "日历" 或 "联系人" 数据的邀请。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[日历项目](calendaritem.md) <br/> |表示 Exchange 日历项。  <br/> |
-|[联系人](contact.md) <br/> |表示 Exchange 联系人项目。  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |表示 Exchange 日历项。  <br/> |
+|[Contact](contact.md) <br/> |表示 Exchange 联系人项目。  <br/> |
 |[DistributionList](distributionlist.md) <br/> |表示通讯组列表。  <br/> |
 |[项目](item.md) <br/> |表示 Exchange 存储中的项。  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |表示 Exchange 存储中的会议取消。  <br/> |
@@ -80,7 +80,7 @@ ms.locfileid: "19827197"
 |[RemoveItem](removeitem.md) <br/> |从 Exchange 存储中删除一个项目。  <br/> |
 |[任务](task.md) <br/> |表示 Exchange 存储中的任务。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -88,7 +88,7 @@ ms.locfileid: "19827197"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -97,5 +97,5 @@ ms.locfileid: "19827197"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

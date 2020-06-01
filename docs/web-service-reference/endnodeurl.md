@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5e57ce96-895d-40c5-a670-19f3bc610dbd
-description: EndNodeUrl 元素指定在 Office 商店中的邮件应用程序的 URL。
-ms.openlocfilehash: 96569bed513de136dbe975879ba41e33d99d5693
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: EndNodeUrl 元素指定 Office 应用商店中邮件应用程序的 URL。
+ms.openlocfilehash: 0ace98bd41c49a31d528b08d0d0f4011d783866c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754120"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458402"
 ---
 # <a name="endnodeurl"></a>EndNodeUrl
 
-**EndNodeUrl**元素指定在 Office 商店中的邮件应用程序的 URL。 
+**EndNodeUrl**元素指定 Office 应用商店中邮件应用程序的 URL。 
   
 ```XML
 <EndNodeUrl/>
@@ -26,9 +26,9 @@ ms.locfileid: "19754120"
  **string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,9 +42,9 @@ ms.locfileid: "19754120"
   
 ## <a name="text-value"></a>文本值
 
-**EndNodeUrl**元素的文本值是 Office 商店中的邮件应用程序的 URL。 
+**EndNodeUrl**元素的文本值是 Office 应用商店中邮件应用程序的 URL。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   
@@ -54,7 +54,7 @@ Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> | http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> | https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |不适用  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -66,5 +66,5 @@ Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
 [元数据](metadata-ex15websvcsotherref.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

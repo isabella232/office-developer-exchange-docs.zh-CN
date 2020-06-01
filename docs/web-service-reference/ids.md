@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: c54cdeaf-6761-4d1a-a329-fb279f0e2a64
-description: Id 元素中包含时区定义标识符的数组。
-ms.openlocfilehash: e4f8afb1292b3cb9f3990d4613b7461050976a59
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Ids 元素包含时区定义标识符的数组。
+ms.openlocfilehash: 1c5a6974c8d3abc318ff122f3db09d8c3472dc65
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825856"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457618"
 ---
 # <a name="ids"></a>Id
 
-**Id**元素中包含时区定义标识符的数组。 
+**Ids**元素包含时区定义标识符的数组。 
   
 ```XML
 <Ids>
@@ -32,9 +32,9 @@ ms.locfileid: "19825856"
  **NonEmptyArrayOfTimeZoneIdType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,19 +42,19 @@ ms.locfileid: "19825856"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Id (TimeZone)](id-timezone.md) <br/> |标识一个时区定义的元素。  <br/> |
+|[Id （时区）](id-timezone.md) <br/> |标识单个时区定义的元素。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GetServerTimeZones](getservertimezones.md) <br/> |定义从 Exchange 服务器中检索时区定义的请求。  <br/> |
+|[GetServerTimeZones](getservertimezones.md) <br/> |定义从 Exchange 服务器检索时区定义的请求。  <br/> |
    
 ## <a name="element-information"></a>元素信息
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -63,5 +63,5 @@ ms.locfileid: "19825856"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

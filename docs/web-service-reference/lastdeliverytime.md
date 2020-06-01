@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 23d02ceb-f28e-40f2-8f63-673723a50e2a
-description: LastDeliveryTime 元素包含上次当前文件夹中的此对话中收到的邮件的传递时间。
-ms.openlocfilehash: 240f6acaf3e5249686ab26501a26ee3e0f337b0f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: LastDeliveryTime 元素包含上次在此对话中的当前文件夹中收到的邮件的传递时间。
+ms.openlocfilehash: 77147693a9394e983575afa6fcfda242f8f76ae3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826198"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458108"
 ---
 # <a name="lastdeliverytime"></a>LastDeliveryTime
 
-**LastDeliveryTime**元素包含上次当前文件夹中的此对话中收到的邮件的传递时间。 
+**LastDeliveryTime**元素包含上次在此对话中的当前文件夹中收到的邮件的传递时间。 
   
 [FindConversationResponse](findconversationresponse.md)
   
@@ -35,12 +35,12 @@ ms.locfileid: "19826198"
 <LastDeliveryTime/>
 ```
 
- **xs:dateTime**
+ **xs： dateTime**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -56,7 +56,7 @@ ms.locfileid: "19826198"
    
 ## <a name="text-value"></a>文本值
 
-**LastDeliveryTime**元素的文本值的日期和时间上次当前文件夹中的此对话中收到的邮件。 
+**LastDeliveryTime**元素的文本值是当前文件夹中此对话中上次收到的邮件的日期和时间。 
   
 ## <a name="remarks"></a>备注
 
@@ -66,7 +66,7 @@ ms.locfileid: "19826198"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -80,8 +80,8 @@ ms.locfileid: "19826198"
 [ApplyConversationAction 操作](applyconversationaction-operation.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 
 
-[Conversations in EWS](http://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
+[Conversations in EWS](https://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
 

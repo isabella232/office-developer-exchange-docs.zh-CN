@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 55d568bd-8dbc-4d50-b9d7-54b74a54d4b5
 description: Exists 元素表示搜索表达式，如果某个项目上存在，则该表达式会返回 true。
-ms.openlocfilehash: d30f4b505afcac32afbfeaf2289c964ba145668e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
-ms.translationtype: HT
+ms.openlocfilehash: b5e7a24c5214574ef385cd6ffca87ed5f861c188
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754194"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456946"
 ---
 # <a name="exists"></a>Exists
 
@@ -63,7 +63,7 @@ ms.locfileid: "19754194"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -72,5 +72,5 @@ ms.locfileid: "19754194"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

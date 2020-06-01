@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 90841617-3b83-4124-8125-0293c9470f4a
-description: IsUndecidedApprovalRequest 元素指定的审批请求邮件是否已作用于。
-ms.openlocfilehash: 82b4624df5b2fe7ca212fdf76248e1ccfa3a081f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: IsUndecidedApprovalRequest 元素指定是否已对审批请求邮件执行操作。
+ms.openlocfilehash: 0949cf64b8583c4b3fa5a1700475f01cc480f69f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826127"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458171"
 ---
 # <a name="isundecidedapprovalrequest"></a>IsUndecidedApprovalRequest
 
-**IsUndecidedApprovalRequest**元素指定的审批请求邮件是否已作用于。 
+**IsUndecidedApprovalRequest**元素指定是否已对审批请求邮件执行操作。 
   
 ```XML
 <IsUndecidedApprovalRequest> true | false </IsUndecidedApprovalRequest>
@@ -26,9 +26,9 @@ ms.locfileid: "19826127"
  **Boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,9 +42,9 @@ ms.locfileid: "19826127"
   
 ## <a name="text-value"></a>文本值
 
-如果审批请求消息不作用于**IsUndecidedApprovalRequest**元素的文本值 **，则返回 true** 。 如果值为**false**指示审批请求，已决定。 
+如果尚未处理审批请求邮件，则**IsUndecidedApprovalRequest**元素的文本值为**true** 。 **如果值为 false** ，则表示已决定批准请求。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   
@@ -54,7 +54,7 @@ Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
@@ -66,5 +66,5 @@ Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
 [ApprovalRequestData](approvalrequestdata.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

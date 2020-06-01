@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: acbb29e4-d853-4302-8e32-7018775d54e4
 description: GetServiceConfiguration 元素定义 GetServiceConfiguration 请求。
-ms.openlocfilehash: 7ff7124ff062f21a02fc69b86b7cc7367ba3fcb6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e9357a9e3be22e129c4910c01231f9dbd22a2dbe
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825666"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457870"
 ---
 # <a name="getserviceconfiguration"></a>GetServiceConfiguration
 
@@ -33,9 +33,9 @@ ms.locfileid: "19825666"
  **GetServiceConfigurationType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -43,7 +43,7 @@ ms.locfileid: "19825666"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ActingAs](actingas.md) <br/> |标识用户呼叫者发送为。 此元素是可选的。 如果此元素不存在，则假定为经过身份验证的用户为发件人。 **ActingAs**元素必须包含针对请求发件人提示。 如果**ActingAs**元素缺少，不包括路由类型，不包括电子邮件地址、 包含无效的电子邮件地址，不能解决 Active Directory 域中的用户，可以在响应中返回 ErrorInvalidArgument 错误服务 (AD DS)，或将解析为 AD DS 中的多个用户。  <br/> |
+|[ActingAs](actingas.md) <br/> |标识呼叫者发送的人。 此元素为可选。 如果此元素不存在，则假定已通过身份验证的用户成为发件人。 若要请求发件人提示，必须包含**ActingAs**元素。 如果**ActingAs**元素缺失、不包含路由类型、不包含电子邮件地址、包含无效的电子邮件地址、不会解析为 Active Directory 域服务（AD ds）中的用户或解析为 AD ds 中的多个用户，则会在响应中返回 ErrorInvalidArgument 错误。  <br/> |
 |[RequestedConfiguration](requestedconfiguration.md) <br/> |包含请求的服务配置。 此元素是必需的。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
@@ -54,7 +54,7 @@ ms.locfileid: "19825666"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -62,7 +62,7 @@ ms.locfileid: "19825666"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -71,5 +71,5 @@ ms.locfileid: "19825666"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

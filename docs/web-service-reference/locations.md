@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 764d6a6e-e13b-4cd5-ad68-60bb422eebce
-description: 位置元素指定的位置值的数组和为相关联的角色其源归属的标识符。
-ms.openlocfilehash: 308fbdda4062b418a8925aa99d025b96e096778d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Location 元素指定位置值的数组以及关联角色的源归属的标识符。
+ms.openlocfilehash: d72371a6ee05b395142abca164c4fa2cc5757611
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826249"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458080"
 ---
 # <a name="locations"></a>位置
 
-**位置**元素指定的位置值的数组和为相关联的角色其源归属的标识符。 
+Location**元素指定位置值**的数组以及关联角色的源归属的标识符。 
   
 ```XML
 <Locations>
@@ -28,9 +28,9 @@ ms.locfileid: "19826249"
  **ArrayOfStringAttributedValuesType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   

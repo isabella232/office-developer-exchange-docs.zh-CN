@@ -11,19 +11,19 @@ api_name:
 api_type:
 - schema
 ms.assetid: 13084726-ab24-4009-be99-c4a4273c9e05
-description: StandardTime 元素表示的时间相对于协调世界时 (UTC) 表示斜线 (UTC) 元素的偏移量。 此元素还包含有关从观测到夏令时的区域中的夏令时转换为标准时间的信息。
-ms.openlocfilehash: 726c31ffba06c1c437711b88444ec5eba45b520d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: StandardTime 元素表示相对于由偏差（UTC）元素表示的协调世界时（UTC）的时间的偏移量。 此元素还包含有关从观测到夏令时的区域中的夏令时转换为标准时间的信息。
+ms.openlocfilehash: 793f058840d4fd9216f03e660f5be0f7564906cf
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827546"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456400"
 ---
 # <a name="standardtime"></a>StandardTime
 
-**StandardTime**元素表示的时间相对于协调世界时 (UTC) 表示[斜线 (UTC)](bias-utc.md)元素的偏移量。 此元素还包含有关从观测到夏令时的区域中的夏令时转换为标准时间的信息。 
+**StandardTime**元素表示相对于由[偏差（utc）](bias-utc.md)元素表示的协调世界时（utc）的时间的偏移量。 此元素还包含有关从观测到夏令时的区域中的夏令时转换为标准时间的信息。 
   
-- [TimeZone （可用性）](timezone-availability.md)
+- [时区（可用性）](timezone-availability.md)
 - [StandardTime](standardtime.md)
   
 ```xml
@@ -40,9 +40,9 @@ ms.locfileid: "19827546"
  **SerializableTimeZoneTime**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -50,29 +50,29 @@ ms.locfileid: "19827546"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Bias](bias.md) <br/> |表示从由标准时间和夏时制的[斜线 (UTC)](bias-utc.md)元素的 UTC 偏移的偏移量。 此值以分钟为单位。  <br/> |
-|[Time](time.md) <br/> |标准时间和夏时制表示转换时间。  <br/> |
-|[DayOrder](dayorder.md) <br/> |表示一天[(TimeZone) DayOfWeek](dayofweek-timezone.md)元素，表示转换 from 和 to 标准时间和夏时制的日期中指定的 _n_th 匹配项。  <br/> |
-|[month](month.md) <br/> |标准时间和夏时制表示转换月份。  <br/> |
-|[DayOfWeek (TimeZone)](dayofweek-timezone.md) <br/> |代表星期几切换到以及从标准时间和夏时制当发生。  <br/> |
-|[year()](year.md) <br/> |定义更改这取决于一年的时区。 此元素是可选的。 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 中引入了此元素。  <br/> |
+|[偏置](bias.md) <br/> |表示从 UTC 偏移量（由标准时间和夏令时的[偏置（UTC）](bias-utc.md)元素标识）的偏移量。 此值以分钟为单位。  <br/> |
+|[Time](time.md) <br/> |表示从标准时间到夏令时和夏时制的过渡时间。  <br/> |
+|[DayOrder](dayorder.md) <br/> |表示在 DayOfWeek （时区）元素中指定的、表示从到标准时间和夏时制转换的日期的[（时区）](dayofweek-timezone.md)元素中指定的日期的 _n_th 事件。  <br/> |
+|[Month](month.md) <br/> |表示一年的转换月份和标准时间以及夏时制。  <br/> |
+|[DayOfWeek （时区）](dayofweek-timezone.md) <br/> |表示从标准时间和夏时制转换到的一周中的某一天。  <br/> |
+|[Year](year.md) <br/> |定义根据年份变化的时区。 此元素为可选。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[TimeZone （可用性）](timezone-availability.md) <br/> | 包含标识时区信息的元素。 此元素还包含有关标准时间和夏时制之间的转换的信息。 <br/><br/>下面是此元素的 XPath 表达式： <br/> <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone` <br/> <br/> `/GetUserAvailabilityRequest/TimeZone` <br/> |
+|[时区（可用性）](timezone-availability.md) <br/> | 包含标识时区信息的元素。 此元素还包含有关标准时间和夏时制之间转换的信息。 <br/><br/>下面是此元素的 XPath 表达式： <br/> <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone` <br/> <br/> `/GetUserAvailabilityRequest/TimeZone` <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-**StandardTime**元素表示一个偏移的时间表示的[斜线 (UTC)](bias-utc.md)元素。 子[Bias](bias.md)元素等于 0，标准时间时等于从由[斜线 (UTC)](bias-utc.md)元素的 UTC 的偏向偏移量。 
+**StandardTime**元素表示由[偏置（UTC）](bias-utc.md)元素表示的偏移时间。 当子[偏移](bias.md)元素等于0时，标准时间等于由[偏置（UTC）](bias-utc.md)元素表示的 UTC 偏差偏移量。 
   
 ## <a name="example"></a>示例
 
-下面的示例演示一个区域夏时制观察到的位置。 从夏时制转换为标准时间观察到凌晨 2 在第十个月的第五个星期日。
+下面的示例展示了夏时制时间遵循的区域。 从夏时制转换到标准时间的时间为凌晨2点。 第十个月的第五个星期日。
   
 ```xml
-<TimeZone xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+<TimeZone xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
   <Bias>480</Bias>
   <StandardTime>
     <Bias>0</Bias>
@@ -95,7 +95,7 @@ ms.locfileid: "19827546"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -103,5 +103,5 @@ ms.locfileid: "19827546"
 ## <a name="see-also"></a>另请参阅
 
 - [GetUserAvailability 操作](getuseravailability-operation.md)
-- [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [获取用户可用性](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 68f607f5-7271-46a6-8ffc-91878185a683
-description: GoodThreshold 元素指定必须打开顺序若要成为合格的良好建议的会议时间的时间段的时间段的与会者的百分比。
-ms.openlocfilehash: 8044cb2b52cb572fad8731253dffa34de9d097fa
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: GoodThreshold 元素指定必须处于打开状态的与会者的百分比，以使时间段的时间段处于限定状态以作为一个合理的建议会议时间。
+ms.openlocfilehash: 34ea433ad7315d61df8cf8e22bae1166d3210af3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825746"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457310"
 ---
 # <a name="goodthreshold"></a>GoodThreshold
 
-**GoodThreshold**元素指定必须打开顺序若要成为合格的良好建议的会议时间的时间段的时间段的与会者的百分比。 
+**GoodThreshold**元素指定必须处于打开状态的与会者的百分比，以使时间段的时间段处于限定状态以作为一个合理的建议会议时间。 
   
 [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
@@ -36,9 +36,9 @@ ms.locfileid: "19825746"
  **int**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -50,15 +50,15 @@ ms.locfileid: "19825746"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |包含选项的获取会议建议信息。  <br/> 以下是此元素的 XPath:  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
+|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |包含用于获取会议建议信息的选项。  <br/> 以下是此元素的 XPath：  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
    
 ## <a name="text-value"></a>文本值
 
-文本值是必需的。 预期的整数值是 0 到 50 之间。
+文本值是必需的。 预期的整数值介于0到50之间。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-如果使用[SuggestionsViewOptions](suggestionsviewoptions.md)元素，此元素是必需的。 **GoodThreshold**元素还决定哪些会议被视为公平。 它具有冲突的与会者的百分比小于比良好的阈值和高于 50%，建议的会议时间限定为公平。 良好的阈值以及 50 等于定义良好/公平阈值的百分比。 
+如果使用[SuggestionsViewOptions](suggestionsviewoptions.md)元素，则此元素是必需的。 **GoodThreshold**元素还确定哪些会议被视为公平。 其冲突的与会者所占的百分比小于 "好" 阈值和高于50%，建议会议时间为 "公平"。 正常阈值加上50等于定义正常/公平阈值的百分比。 
   
 > [!NOTE]
 > 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。 
@@ -67,7 +67,7 @@ ms.locfileid: "19825746"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -79,5 +79,5 @@ ms.locfileid: "19825746"
 [GetUserAvailability 操作](getuseravailability-operation.md)
 
 
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[获取用户可用性](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: ff24ea15-0cd7-407d-a378-73ec16451870
-description: DeletedOccurrence 元素均表示定期日历项目的已删除的匹配项。
-ms.openlocfilehash: f12a2ba20f87f7803e492d8422b68c8ecdf9d797
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: DeletedOccurrence 元素表示定期日历项目的已删除事件。
+ms.openlocfilehash: 814a81934786963ae5e7ea3a40406834c27b64ce
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753794"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457835"
 ---
 # <a name="deletedoccurrence"></a>DeletedOccurrence
 
-**DeletedOccurrence**元素均表示定期日历项目的已删除的匹配项。 
+**DeletedOccurrence**元素表示定期日历项目的已删除事件。 
   
 ```xml
 <DeletedOccurrence>
@@ -32,9 +32,9 @@ ms.locfileid: "19753794"
  **DeletedOccurrenceInfoType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,15 +42,15 @@ ms.locfileid: "19753794"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Start](start.md) <br/> |代表已删除的匹配项的定期日历项目的开始时间。  <br/> |
+|[Start](start.md) <br/> |表示定期日历项目的已删除事件的开始时间。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[DeletedOccurrences](deletedoccurrences.md) <br/> |包含数组的定期日历项目的已删除匹配项。  <br/> |
+|[DeletedOccurrences](deletedoccurrences.md) <br/> |包含定期日历项目的已删除事件数组。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -58,7 +58,7 @@ ms.locfileid: "19753794"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |

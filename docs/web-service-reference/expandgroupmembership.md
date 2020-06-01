@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8989e96b-8fa1-4858-93b2-2cbdb30b9ca9
-description: ExpandGroupMembership 元素指示是否展开 GetSearchableMailboxes 请求返回组的成员。
-ms.openlocfilehash: 11bfcf6893a147c726c94df77f7d9a9dfbaa773e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ExpandGroupMembership 元素指示是否展开 GetSearchableMailboxes 请求返回的组的成员身份。
+ms.openlocfilehash: 8a94aa3da165ecc13282127e75c8d166f3972ead
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754201"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456904"
 ---
 # <a name="expandgroupmembership"></a>ExpandGroupMembership
 
-**ExpandGroupMembership**元素指示是否展开**GetSearchableMailboxes**请求返回组的成员。 
+**ExpandGroupMembership**元素指示是否展开**GetSearchableMailboxes**请求返回的组的成员身份。 
   
 ```XML
 <ExpandGroupMembership>true | false</ExpandGroupMembership>
@@ -26,9 +26,9 @@ ms.locfileid: "19754201"
  **Boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -38,11 +38,11 @@ ms.locfileid: "19754201"
   
 ### <a name="parent-elements"></a>父元素
 
-[GetDiscoverySearchConfiguration](getdiscoverysearchconfiguration.md) | [GetSearchableMailboxes](getsearchablemailboxes.md)
+[GetDiscoverySearchConfiguration](getdiscoverysearchconfiguration.md)  | [GetSearchableMailboxes](getsearchablemailboxes.md)
   
 ## <a name="text-value"></a>文本值
 
-文本值为**true**的**ExpandGroupElement**元素指示展开组成员身份。 如果值为**false**指示的组成员身份不展开以显示组的成员。 
+如果**ExpandGroupElement**元素的文本值为**true** ，则表明组成员身份已展开。 **如果值为 false** ，则表示不展开组成员身份以显示组的成员。 
   
 ## <a name="remarks"></a>备注
 
@@ -54,9 +54,9 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
-|验证文件  <br/> |messages.xsd  <br/> |
+|验证文件  <br/> |消息 .xsd  <br/> |
 |可以为空  <br/> |false  <br/> |
    
 

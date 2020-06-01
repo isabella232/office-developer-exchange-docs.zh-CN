@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 9dbb83ed-1ded-48f3-8e06-2489fc8b28d5
-description: DelegationState 元素均表示委派的任务的状态。
-ms.openlocfilehash: 00b0e41ae223f1c70f9a3a21662e8858f8690a86
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: DelegationState 元素表示委派任务的状态。
+ms.openlocfilehash: b938b5a2240283c265006dd47cd6ff475ad80978
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753782"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457366"
 ---
 # <a name="delegationstate"></a>DelegationState
 
-**DelegationState**元素均表示委派的任务的状态。 
+**DelegationState**元素表示委派任务的状态。 
   
 ```xml
 <DelegationState/>
@@ -31,9 +31,9 @@ ms.locfileid: "19753782"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -49,21 +49,21 @@ ms.locfileid: "19753782"
    
 ## <a name="text-value"></a>文本值
 
-这是只读属性。 以下是可能的值：
+这是一个只读属性。 以下是可能的值：
   
 - NoMatch
     
 - OwnNew
     
-- 拥有
+- 所有权
     
-- 接受
+- Accepted
     
-- 拒绝
+- 邀请
     
 - Max
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
 Microsoft Exchange Server 2007 中的 Exchange Web 服务不支持任务分配。
   
@@ -73,12 +73,12 @@ Microsoft Exchange Server 2007 中的 Exchange Web 服务不支持任务分配�
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

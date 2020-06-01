@@ -1,5 +1,5 @@
 ---
-title: 域 （邮件跟踪）
+title: 域（邮件跟踪）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 4e8e9efa-8885-4ca5-bf90-424e63768dc3
-description: 域元素均表示要搜索的域。
-ms.openlocfilehash: dc161557b59acc580d918f2e196457714bce4ba9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Domain 元素表示要搜索的域。
+ms.openlocfilehash: 77da9028766881b9bc633e1b3318cd4d70c6b72f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753968"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457023"
 ---
-# <a name="domain-message-tracking"></a>域 （邮件跟踪）
+# <a name="domain-message-tracking"></a>域（邮件跟踪）
 
-**域**元素均表示要搜索的域。 
+**Domain**元素表示要搜索的域。 
   
 ```XML
 <Domain/>
@@ -30,9 +30,9 @@ ms.locfileid: "19753968"
  **NonEmptyStringType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -48,9 +48,9 @@ ms.locfileid: "19753968"
    
 ## <a name="text-value"></a>文本值
 
-如果使用此元素，则需要用于表示字符串的文本值。
+如果使用此元素，则需要一个表示字符串的文本值。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -58,12 +58,12 @@ ms.locfileid: "19753968"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

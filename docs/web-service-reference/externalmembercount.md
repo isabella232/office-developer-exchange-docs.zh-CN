@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: bd0e82da-7391-4ba3-acb4-31d3517d51d0
-description: ExternalMemberCount 元素均表示组中的外部成员数。
-ms.openlocfilehash: 8848a455f7562c893a0ef4bb7c92c273699ce31c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ExternalMemberCount 元素表示组中的外部成员的计数。
+ms.openlocfilehash: a01c28a009328e163e151bbf540e8298d27d998b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754277"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456918"
 ---
 # <a name="externalmembercount"></a>ExternalMemberCount
 
-**ExternalMemberCount**元素均表示组中的外部成员数。 
+**ExternalMemberCount**元素表示组中的外部成员的计数。 
   
 ```XML
 <ExternalMemberCount/>
@@ -30,9 +30,9 @@ ms.locfileid: "19754277"
  **int**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -44,13 +44,13 @@ ms.locfileid: "19754277"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[邮件提示](mailtips.md) <br/> |表示的邮件提示的各种类型的值。  <br/> |
+|[邮件提示](mailtips.md) <br/> |表示各种邮件提示类型的值。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-文本值是一个整数，表示组中的外部成员的数目。
+Text 值是一个整数，表示组中的外部成员的数量。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -58,7 +58,7 @@ ms.locfileid: "19754277"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -67,5 +67,5 @@ ms.locfileid: "19754277"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

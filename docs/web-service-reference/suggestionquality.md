@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 734f1a58-adda-4830-973e-e84bf7b870d5
-description: SuggestionQuality 元素均表示建议的会议时间的质量。
-ms.openlocfilehash: e67e0149226b36c22cdd00acd78f6582f826dd3e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: SuggestionQuality 元素表示建议的会议时间的质量。
+ms.openlocfilehash: 3f8c15ccabd03687dc386a0328020cbc0bc802c4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838160"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457975"
 ---
 # <a name="suggestionquality"></a>SuggestionQuality
 
-**SuggestionQuality**元素均表示建议的会议时间的质量。 
+**SuggestionQuality**元素表示建议的会议时间的质量。 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -44,9 +44,9 @@ ms.locfileid: "19838160"
  **SuggestionQuality**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -58,21 +58,21 @@ ms.locfileid: "19838160"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[建议](suggestion.md) <br/> |代表单个会议时间建议。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]` <br/> |
+|[建议](suggestion.md) <br/> |表示单个会议时间建议。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]` <br/> |
    
 ## <a name="text-value"></a>文本值
 
-所需的文本值，该值代表**SuggestionQuality**值。 以下是可能的值： 
+一个代表**SuggestionQuality**值的文本值是必需的。 以下是可能的值： 
   
-- **极好**100%的用户和资源的建议的会议时间。 
+- **理想**的100% 的用户和资源可用于建议的会议时间。 
     
-- **良好**用户和资源可用的最小百分比是等于或大于[GoodThreshold](goodthreshold.md)元素的值以及 50。 
+- **正常**可用的用户和资源的最小百分比等于或大于[GoodThreshold](goodthreshold.md)元素的值加上50。 
     
-- **公平**用户和资源可用于建议的会议时间的最大百分比等于[GoodThreshold](goodthreshold.md)元素的值以及 50。 **公平**的质量的会议时间的最小值为 50%。 
+- **公平**可用于建议会议时间的用户和资源的最大百分比等于[GoodThreshold](goodthreshold.md)元素值加上50。 **合理**质量会议时间的最小值为50%。 
     
-- **不佳**小于 50%的用户和资源的建议的会议时间。 
+- **较差**少于50% 的用户和资源可用于建议的会议时间。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
 **SuggestionQuality**类型也是[DayQuality](dayquality.md)和[MinimumSuggestionQuality](minimumsuggestionquality.md)元素的类型。 
   
@@ -82,7 +82,7 @@ ms.locfileid: "19838160"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -96,5 +96,5 @@ ms.locfileid: "19838160"
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

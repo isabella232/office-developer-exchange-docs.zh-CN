@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 71bd62c6-3fec-48db-9a5e-02121e9bc20b
-description: 区域性元素均表示邮箱中的给定项目的区域性。
-ms.openlocfilehash: 0971397e5cc3fa27c986c67b6beffd4336640ad6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Culture 元素表示邮箱中的给定项目的区域性。
+ms.openlocfilehash: ee0fa4d25f3be769aff0a9a50c2f311ab6179b31
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753696"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458339"
 ---
 # <a name="culture"></a>Culture
 
-**区域性**元素均表示邮箱中的给定项目的区域性。 
+**Culture**元素表示邮箱中的给定项目的区域性。 
   
 ```xml
 <Culture/>
@@ -30,9 +30,9 @@ ms.locfileid: "19753696"
  **Language**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -44,8 +44,8 @@ ms.locfileid: "19753696"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[日历项目](calendaritem.md) <br/> |表示 Exchange 日历项。  <br/> |
-|[联系人](contact.md) <br/> |表示 Exchange 联系人项目。  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |表示 Exchange 日历项。  <br/> |
+|[Contact](contact.md) <br/> |表示 Exchange 联系人项目。  <br/> |
 |[DistributionList](distributionlist.md) <br/> |表示通讯组列表。  <br/> |
 |[项目](item.md) <br/> |表示 Exchange 存储中的项。  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |表示 Exchange 存储中的会议取消。  <br/> |
@@ -58,9 +58,9 @@ ms.locfileid: "19753696"
    
 ## <a name="text-value"></a>文本值
 
-文本值指示在 Exchange Web 服务操作中使用的语言。 使用 RFC 1766 区域性标识符; 指定区域性例如，EN-US。
+该文本值指示在 Exchange Web 服务操作中使用的语言。 区域性是使用 RFC 1766 区域性标识符指定的;例如，en-us。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 Microsoft Exchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -68,7 +68,7 @@ ms.locfileid: "19753696"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -77,5 +77,5 @@ ms.locfileid: "19753696"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

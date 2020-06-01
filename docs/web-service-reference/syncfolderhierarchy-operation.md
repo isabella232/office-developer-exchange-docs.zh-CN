@@ -11,35 +11,35 @@ api_name:
 api_type:
 - schema
 ms.assetid: b31916b1-bc6c-4451-a475-b7c5417f752d
-description: SyncFolderHierarchy 操作将同步的计算机的运行 Microsoft Exchange Server 2010 和客户端之间的文件夹。
-ms.openlocfilehash: 33c886d5eec64a9ff2ccc667eedfc2d4cc8dcfd5
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: SyncFolderHierarchy 操作将在运行 Microsoft Exchange Server 2010 的计算机和客户端之间同步文件夹。
+ms.openlocfilehash: 1c7ad2413064161ba54e8a7a30bfcd6f23f218bd
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838169"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456428"
 ---
 # <a name="syncfolderhierarchy-operation"></a>SyncFolderHierarchy 操作
 
-SyncFolderHierarchy 操作将同步的计算机的运行 Microsoft Exchange Server 2010 和客户端之间的文件夹。
+SyncFolderHierarchy 操作将在运行 Microsoft Exchange Server 2010 的计算机和客户端之间同步文件夹。
   
 > [!NOTE]
-> SyncFolderHierarchy 操作不返回文件夹时的[UnreadCount](unreadcount.md)或[TotalCount](totalcount.md)属性已更改。 
+> 当[UnreadCount](unreadcount.md)或[TotalCount](totalcount.md)属性发生更改时，SyncFolderHierarchy 操作不会返回文件夹。 
   
 ## <a name="syncfolderhierarchy-request-example"></a>SyncFolderHierarchy 请求示例
 
 ### <a name="description"></a>说明
 
-SyncFolderHierarchy 请求的下面的示例演示如何同步客户端与 Exchange server 的文件夹层次结构。 本示例显示了已完成同步至少一次文件夹层次结构。 首次尝试与 Exchange server 同步客户端的请求中不包括[SyncState](syncstate-ex15websvcsotherref.md)元素。 第一个请求将返回的邮箱中的所有文件夹。 将在[SyncFolderHierarchyResponse](syncfolderhierarchyresponse.md)返回[SyncState](syncstate-ex15websvcsotherref.md)元素。 此元素用于同步后续 SyncFolderHierarchy 请求的状态。
+以下示例的 SyncFolderHierarchy 请求显示如何将客户端文件夹层次结构与 Exchange 服务器同步。 此示例显示至少已同步一次的文件夹层次结构。 在第一次尝试将客户端与 Exchange 服务器同步时，请求中不包含[SyncState](syncstate-ex15websvcsotherref.md)元素。 第一个请求将返回邮箱中的所有文件夹。 [SyncState](syncstate-ex15websvcsotherref.md)元素将在[SyncFolderHierarchyResponse](syncfolderhierarchyresponse.md)中返回。 此元素用于同步后续 SyncFolderHierarchy 请求的状态。
   
 ### <a name="code"></a>代码
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <SyncFolderHierarchy  xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <SyncFolderHierarchy  xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <FolderShape>
         <t:BaseShape>AllProperties</t:BaseShape>
       </FolderShape>
@@ -49,11 +49,11 @@ SyncFolderHierarchy 请求的下面的示例演示如何同步客户端与 Excha
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>注释
+### <a name="comments"></a>备注
 
-已缩短[SyncState](syncstate-ex15websvcsotherref.md)元素 base64 编码的数据，以保留可读性。 
+[SyncState](syncstate-ex15websvcsotherref.md)元素 base64 编码的数据已缩短，以保持可读性。 
   
-### <a name="request-elements"></a>请求元素
+### <a name="request-elements"></a>Request 元素
 
 请求中使用以下元素：
   
@@ -66,13 +66,13 @@ SyncFolderHierarchy 请求的下面的示例演示如何同步客户端与 Excha
 - [SyncState](syncstate-ex15websvcsotherref.md)
     
 > [!NOTE]
-> 介绍这些元素的架构位于运行 MicrosoftExchange Server 2007 的安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。 
+> 描述这些元素的架构位于运行 MicrosoftExchange Server 2007 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。 
   
 ## <a name="successful-syncfolderhierarchy-response"></a>成功的 SyncFolderHierarchy 响应
 
 ### <a name="description"></a>说明
 
-下面的示例演示对 SyncFolderHierarchy 请求成功响应。 本示例中，已同步的新文件夹。
+下面的示例演示对 SyncFolderHierarchy 请求的成功响应。 在此示例中，已同步一个新文件夹。
   
 ### <a name="code"></a>代码
 
@@ -84,12 +84,12 @@ SyncFolderHierarchy 请求的下面的示例演示如何同步客户端与 Excha
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" 
                          MajorBuildNumber="628" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <SyncFolderHierarchyResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                                 xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                                 xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <SyncFolderHierarchyResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                                 xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                                 xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:SyncFolderHierarchyResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -115,13 +115,13 @@ SyncFolderHierarchy 请求的下面的示例演示如何同步客户端与 Excha
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>注释
+### <a name="comments"></a>备注
 
-已缩短[SyncState](syncstate-ex15websvcsotherref.md)元素 base64 编码的数据和文件夹标识符数据，以保留可读性。 
+[SyncState](syncstate-ex15websvcsotherref.md)元素 base64 编码的数据和文件夹标识符数据已缩短，以保持可读性。 
   
-### <a name="successful-response-elements"></a>成功响应元素
+### <a name="successful-response-elements"></a>成功的响应元素
 
-在响应中使用以下元素：
+响应中使用以下元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -137,13 +137,13 @@ SyncFolderHierarchy 请求的下面的示例演示如何同步客户端与 Excha
     
 - [IncludesLastFolderInRange](includeslastfolderinrange.md)
     
-- [更改 （层次结构）](changes-hierarchy.md)
+- [更改（层次结构）](changes-hierarchy.md)
     
 - [创建 (FolderSync)](create-foldersync.md)
     
 - [Folder](folder.md)
     
-- [文件夹 Id](folderid.md)
+- [FolderId](folderid.md)
     
 - [ParentFolderId](parentfolderid.md)
     
@@ -161,7 +161,7 @@ SyncFolderHierarchy 请求的下面的示例演示如何同步客户端与 Excha
 
 ### <a name="description"></a>说明
 
-下面的示例演示对 SyncFolderHierarchy 请求错误响应。 无效的 SyncState 导致出现此错误。
+下面的示例演示对 SyncFolderHierarchy 请求的错误响应。 此错误是由无效的 SyncState 所致。
   
 ### <a name="code"></a>代码
 
@@ -173,12 +173,12 @@ SyncFolderHierarchy 请求的下面的示例演示如何同步客户端与 Excha
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" 
                          MajorBuildNumber="628" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <SyncFolderHierarchyResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                                 xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                                 xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <SyncFolderHierarchyResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                                 xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                                 xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:SyncFolderHierarchyResponseMessage ResponseClass="Error">
           <m:MessageText>Synchronization state data is corrupted or otherwise invalid.</m:MessageText>
@@ -219,5 +219,5 @@ SyncFolderHierarchy 请求的下面的示例演示如何同步客户端与 Excha
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

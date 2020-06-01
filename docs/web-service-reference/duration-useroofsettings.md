@@ -1,5 +1,5 @@
 ---
-title: 持续时间 (UserOofSettings)
+title: 持续时间（UserOofSettings）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 01d67af3-658e-4acd-93e3-441ae827fdd3
-description: 持续时间元素指定如果 OofState 元素设置为计划，则启用外出 (oof) 状态的持续时间。
-ms.openlocfilehash: 62a5492372fd80173d58e965376b7c8c466825a6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Duration 元素指定将 OofState 元素设置为 "计划" 时，"外出" （OOF）状态为 "已启用" 的持续时间。
+ms.openlocfilehash: 0ba0f1ea7498781c0cccb072c7ea0fa05414764c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754003"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457296"
 ---
-# <a name="duration-useroofsettings"></a>持续时间 (UserOofSettings)
+# <a name="duration-useroofsettings"></a>持续时间（UserOofSettings）
 
-**持续时间**元素指定如果[OofState](oofstate.md)元素设置为**计划**，则启用外出 (oof) 状态的持续时间。
+**Duration**元素指定将[OofState](oofstate.md)元素设置为 "**计划**" 时，"外出" （OOF）状态为 "已启用" 的持续时间。
   
 ```XML
 <Duration>
@@ -30,12 +30,12 @@ ms.locfileid: "19754003"
 </Duration>
 ```
 
- **持续时间**
+ **Duration**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -43,18 +43,18 @@ ms.locfileid: "19754003"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[StartTime](starttime.md) <br/> |代表设置 OOF 状态的时间跨度的开头。 此元素是必需的。  <br/> |
-|[结束时间](endtime.md) <br/> |表示的末尾使用 OOF 状态设置的时间跨度。 此元素是必需的。  <br/> |
+|[StartTime](starttime.md) <br/> |表示具有 OOF 状态的时间范围集的开始时间。 此元素是必需的。  <br/> |
+|[EndTime](endtime.md) <br/> |表示具有 OOF 状态的时间范围设置的结束时间。 此元素是必需的。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[UserOofSettings](useroofsettings.md) <br/> |指定 OOF 设置。  <br/><br/>以下是此元素的 XPath 表达式：<br/><br/>`/SetUserOofSettingsRequest/UserOofSettings` <br/> |
-|[OofSettings](oofsettings.md) <br/> |包含 OOF 设置。<br/><br/>以下是此元素的 XPath 表达式：<br/><br/>`/GetUserOofSettingsResponse/OofSettings` <br/> |
-|[外出](outofoffice.md) <br/> |定义外出 (OOF) 响应消息和发送响应消息邮箱的持续时间。  <br/> |
+|[UserOofSettings](useroofsettings.md) <br/> |指定 OOF 设置。  <br/><br/>下面是此元素的 XPath 表达式： <br/><br/>`/SetUserOofSettingsRequest/UserOofSettings` <br/> |
+|[OofSettings](oofsettings.md) <br/> |包含 OOF 设置。<br/><br/>下面是此元素的 XPath 表达式： <br/><br/>`/GetUserOofSettingsResponse/OofSettings` <br/> |
+|[外出](outofoffice.md) <br/> |定义 "外出（OOF）" 响应消息和发送邮箱响应邮件的持续时间。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
 **持续时间**类型也是[DetailedSuggestionsWindow](detailedsuggestionswindow.md)、 [TimeWindow](timewindow.md)和[外出](outofoffice.md)元素的类型。 
   
@@ -62,19 +62,19 @@ ms.locfileid: "19754003"
   
 ## <a name="example"></a>示例
 
-[SetUserOofSettings 操作](setuseroofsettings-operation.md)请求的下面的示例将[OofState](oofstate.md)设置为**已启用**，内部和外部 OOF 邮件，并将 OOF 的持续时间设置为 10 天。
+以下示例的[SetUserOofSettings 操作](setuseroofsettings-operation.md)请求将[OofState](oofstate.md)设置为 "**启用**"、"内部和外部 OOF" 邮件，并将 "oof" 的持续时间设置为10天。
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <SetUserOofSettingsRequest xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-      <Mailbox xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+    <SetUserOofSettingsRequest xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+      <Mailbox xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <Name>David Alexander</Name>
         <Address>someone@example.com</Address>
         <RoutingType>SMTP</RoutingType>
       </Mailbox>
-      <UserOofSettings xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+      <UserOofSettings xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <OofState>Enabled</OofState>
         <ExternalAudience>All</ExternalAudience>
         <Duration>
@@ -98,7 +98,7 @@ ms.locfileid: "19754003"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |

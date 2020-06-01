@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 110bada1-517b-4bd6-870d-7086dc879e5d
 description: CreateFolder元素定义要在 Exchange 存储区中创建文件夹的请求。
-ms.openlocfilehash: e30af23b8ed8669053b94be460d62fbf7abf24c9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c2a971a6b827553a1632c2a86e4d36e3b83a2de3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753637"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457541"
 ---
 # <a name="createfolder"></a>CreateFolder
 
@@ -33,9 +33,9 @@ ms.locfileid: "19753637"
  **CreateFolderType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -43,14 +43,14 @@ ms.locfileid: "19753637"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md) <br/> |该元素标识在其中创建新文件夹的位置。  <br/> |
+|[ParentFolderId （TargetFolderIdType）](parentfolderid-targetfolderidtype.md) <br/> |该元素标识在其中创建新文件夹的位置。  <br/> |
 |[Folders](folders-ex15websvcsotherref.md) <br/> |包含要创建的所有文件夹的元素。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -58,7 +58,7 @@ ms.locfileid: "19753637"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -67,8 +67,8 @@ ms.locfileid: "19753637"
 
 
 
-[CreateFolder Operation](createfolder-operation.md)
+[CreateFolder 操作](createfolder-operation.md)
 
 
-[Creating Folders (Exchange Web Services)](http://msdn.microsoft.com/library/3b15b0ec-8691-45ed-9a24-a91ff732d6cf%28Office.15%29.aspx)
+[Creating Folders (Exchange Web Services)](https://msdn.microsoft.com/library/3b15b0ec-8691-45ed-9a24-a91ff732d6cf%28Office.15%29.aspx)
 

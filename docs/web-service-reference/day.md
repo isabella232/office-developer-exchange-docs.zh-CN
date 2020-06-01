@@ -1,5 +1,5 @@
 ---
-title: 日
+title: Day
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: d3b2dc66-486a-41d1-bff3-606f0bf92715
-description: Day 元素表示在所在的时区转换发生相应月份的某一天。
-ms.openlocfilehash: 01d1bf7833a89c0bb9a2b1af95ec8dfc627336d9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Day 元素表示在每月的哪一天发生时区转换。
+ms.openlocfilehash: 8ee5ed2e996a6a4b84648df41faf2718784b9d30
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753756"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457478"
 ---
-# <a name="day"></a>日
+# <a name="day"></a>Day
 
-**Day**元素表示在所在的时区转换发生相应月份的某一天。 
+**Day**元素表示在每月的哪一天发生时区转换。 
   
 ```xml
 <Day/>
@@ -31,9 +31,9 @@ ms.locfileid: "19753756"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -49,9 +49,9 @@ ms.locfileid: "19753756"
    
 ## <a name="text-value"></a>文本值
 
-**Day**元素的文本值是一个整数，表示在所在的时区转换发生相应月份的某一天。 
+**Day**元素的文本值是一个整数，表示在每月的哪一天发生时区转换。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -59,12 +59,12 @@ ms.locfileid: "19753756"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

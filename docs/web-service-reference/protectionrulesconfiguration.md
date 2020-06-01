@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: e5b4699a-476e-4053-bb52-873eb921c046
 description: ProtectionRulesConfiguration 元素包含保护规则服务的服务配置信息。
-ms.openlocfilehash: 9c286fcf9752d591d53323f45a264f4bdd078c1c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e664fba78f170c9f4c59b49b3a08c0dd2e4ed4cd
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826912"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456746"
 ---
 # <a name="protectionrulesconfiguration"></a>ProtectionRulesConfiguration
 
@@ -33,20 +33,20 @@ ms.locfileid: "19826912"
  **ProtectionRulesServiceConfiguration**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**说明**|
 |:-----|:-----|
-|**RefreshInterval** <br/> |指定频率，在整个小时内，客户端应保护规则从服务器请求。 此属性是必需的其值必须等于或大于 1 的整数。  <br/> |
+|**RefreshInterval** <br/> |指定客户端应从服务器请求保护规则的间隔（以整小时为单位）。 此属性是必需的，它的值必须是大于或等于1的整数。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[规则](rules-ex15websvcsotherref.md) <br/> |保护规则数组。 此元素是必需的。  <br/> |
-|[InternalDomains (SmtpDomainList)](internaldomains-smtpdomainlist.md) <br/> |标识组织的内部 SMTP 域的列表。 此元素是必需的。  <br/> |
+|[原则](rules-ex15websvcsotherref.md) <br/> |一组保护规则。 此元素是必需的。  <br/> |
+|[InternalDomains （SmtpDomainList）](internaldomains-smtpdomainlist.md) <br/> |标识组织的内部 SMTP 域的列表。 此元素是必需的。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -58,9 +58,9 @@ ms.locfileid: "19826912"
 
 无。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
-保护规则服务配置由一组规则、 内部域和刷新间隔。
+保护规则服务配置由规则、内部域和刷新间隔的列表组成。
   
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -68,7 +68,7 @@ ms.locfileid: "19826912"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -77,5 +77,5 @@ ms.locfileid: "19826912"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

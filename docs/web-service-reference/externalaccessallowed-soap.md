@@ -1,22 +1,22 @@
 ---
-title: ExternalAccessAllowed (SOAP)
+title: ExternalAccessAllowed （SOAP）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 967df8c0-ee95-4202-b037-0c4b9fbbf5ee
-description: ExternalAccessAllowed 元素指示是否可用于外部连接共享位置的文档。
-ms.openlocfilehash: 7d2a4027fe6de0c24191272d65605310af6a16bf
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ExternalAccessAllowed 元素指示文档共享位置是否可用于外部连接。
+ms.openlocfilehash: eb0ce0067a9ac9deea78b2778ce7f9e493ffb26f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754260"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457961"
 ---
-# <a name="externalaccessallowed-soap"></a>ExternalAccessAllowed (SOAP)
+# <a name="externalaccessallowed-soap"></a>ExternalAccessAllowed （SOAP）
 
-**ExternalAccessAllowed**元素指示是否可用于外部连接共享位置的文档。 
+**ExternalAccessAllowed**元素指示文档共享位置是否可用于外部连接。 
   
 ```XML
 <ExternalAccessAllowed /> 
@@ -25,9 +25,9 @@ ms.locfileid: "19754260"
  **Boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -39,17 +39,17 @@ ms.locfileid: "19754260"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[DocumentSharingLocation (SOAP)](documentsharinglocation-soap.md) <br/> |代表共享位置为文档的位置和元数据信息。  <br/> |
+|[DocumentSharingLocation （SOAP）](documentsharinglocation-soap.md) <br/> |表示文档共享位置的位置和元数据信息。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**ExternalAccessAllowed**元素的布尔值指示是否可用于外部连接的共享位置。 
+**ExternalAccessAllowed**元素的布尔值指示共享位置是否可用于外部连接。 
   
 ## <a name="element-information"></a>元素信息
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |架构名称  <br/> |自动发现架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
@@ -61,7 +61,7 @@ ms.locfileid: "19754260"
 [GetUserSettings 操作 (SOAP)](getusersettings-operation-soap.md)
 
 
-[Exchange 的自动发现 web 服务引用](autodiscover-web-service-reference-for-exchange.md)
+[Exchange 的自动发现 web 服务参考](autodiscover-web-service-reference-for-exchange.md)
   
-[SOAP Exchange 2013 自动发现 XML 元素](soap-autodiscover-xml-elements-for-exchange-2013.md)
+[Exchange 2013 的 SOAP 自动发现 XML 元素](soap-autodiscover-xml-elements-for-exchange-2013.md)
 

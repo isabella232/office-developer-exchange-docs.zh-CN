@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 812948d8-c7db-45ce-bb3a-77233a53a974
 description: Folder 元素定义要创建、获取、查找、同步或更新的文件夹。
-ms.openlocfilehash: ecfea52d2105599372a22b78778ac0d0d066bc60
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
-ms.translationtype: HT
+ms.openlocfilehash: 156813b3f7ecc6a2e1437f473ae1daa76b138e6e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754390"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457247"
 ---
 # <a name="folder"></a>Folder
 
@@ -35,7 +35,7 @@ ms.locfileid: "19754390"
    <ManagedFolderInformation/>
    <UnreadCount/>
    <PermissionSet/>
-      <EffectiveRights/>
+   <EffectiveRights/>
 </Folder>
 ```
 
@@ -82,7 +82,7 @@ ms.locfileid: "19754390"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |

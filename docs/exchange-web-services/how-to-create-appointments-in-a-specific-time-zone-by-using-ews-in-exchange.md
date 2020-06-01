@@ -1,38 +1,38 @@
 ---
-title: 通过在 Exchange 使用 EWS 特定时区中创建约会
+title: 使用 Exchange 中的 EWS 在特定时区中创建约会
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e68aaa27-250e-4170-b099-077a979c127c
-description: 了解如何通过使用 EWS 的 EWS 托管 API 在 Exchange 中特定时区创建约会。
-ms.openlocfilehash: 1725498847f89a417b62a06fb8a3109af5c4deb0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 了解如何使用 Exchange 中的 EWS 托管 API 或 EWS 在特定时区中创建约会。
+ms.openlocfilehash: 9b1160a9d62ab092d1b60265eba1ad953be0032b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752767"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456855"
 ---
-# <a name="create-appointments-in-a-specific-time-zone-by-using-ews-in-exchange"></a>通过在 Exchange 使用 EWS 特定时区中创建约会
+# <a name="create-appointments-in-a-specific-time-zone-by-using-ews-in-exchange"></a>使用 Exchange 中的 EWS 在特定时区中创建约会
 
-了解如何通过使用 EWS 的 EWS 托管 API 在 Exchange 中特定时区创建约会。
+了解如何使用 Exchange 中的 EWS 托管 API 或 EWS 在特定时区中创建约会。
   
-当创建了 Exchange 日历约会或会议后，用于指定的开始和结束时间的时区另存为约会创建所在的时区。 该时区是还用于[解释不具有指定的显式时区的日期和时间值](time-zones-and-ews-in-exchange.md)，因此很重要了解您的选项以指定时区。
+在 Exchange 日历上创建约会或会议时，用于指定开始和结束时间的时区将保存为约会的创建时区。 该时区也用于[解释未指定显式时区的日期和时间值](time-zones-and-ews-in-exchange.md)，因此，了解用于指定时区的选项非常重要。
   
-## <a name="creating-appointments-in-different-time-zones-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 位于不同时区创建约会
+## <a name="creating-appointments-in-different-time-zones-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 在不同时区创建约会
 
-创建约会或会议使用 EWS 托管 API 时，可以针对指定时区的三个选项：
+使用 EWS 托管 API 创建约会或会议时，有三个用于指定时区的选项：
   
-- 若要使用的计算机所在的时区执行您 EWS 托管 API 时，不指定时区时创建[ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象。 
+- 若要使用在其中执行 EWS 托管 API 的计算机的时区，请不要在创建[ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象时指定时区。 
     
-- 若要使用的所有日期/时间属性的某个特定的时区，包括属性时创建一个新的约会或会议，时区中指定**ExchangeService**对象的构造函数。 
+- 若要将特定时区用于所有日期/时间属性（包括创建新约会或会议时的属性），请在**ExchangeService**对象的构造函数中指定一个时区。 
     
-- 若要使用比[ExchangeService.TimeZone](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.timezone%28v=exchg.80%29.aspx)属性中指定一个不同的时区，使用[Appointment.StartTimeZone](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.starttimezone%28v=exchg.80%29.aspx)和[Appointment.EndTimeZone](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.endtimezone%28v=exchg.80%29.aspx)属性。 
+- 若要使用与[ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.timezone%28v=exchg.80%29.aspx)属性中指定的时区不同的时区，请使用[StartTimeZone](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.starttimezone%28v=exchg.80%29.aspx)和[EndTimeZone](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.endtimezone%28v=exchg.80%29.aspx)属性。 
     
     > [!NOTE]
-    > 当[ExchangeService.RequestedServerVersion](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.requestedserverversion%28v=exchg.80%29.aspx)属性设置为**Exchange2010**或更高版本， **EndTimeZone**属性才可用。 如果不可用，设置**StartTimeZone**适用于约会的开始和结束时间。 
+    > 仅当[ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.requestedserverversion%28v=exchg.80%29.aspx)属性设置为**Exchange2010**或更高版本时， **EndTimeZone**属性才可用。 如果不可用，则设置**StartTimeZone**将应用于约会的开始时间和结束时间。 
   
-在以下示例中，使用 EWS 托管 API 创建三个约会。 每个约会是设置为在启动 1:00 从现在起，两天中未指定的时区和结束一小时更高版本。 通过使用默认 EWS 托管 API 行为情况下，在客户端计算机时区创建的第一个约会。 通过使用**Appointment.StartTimeZone**和**Appointment.EndTimeZone**属性情况下，在中央所在的时区创建第二个。 第三个山地时间区域中创建使用**ExchangeService.TimeZone**属性。 
+在下面的示例中，将使用 EWS 托管 API 创建三个约会。 每个约会都设置为从现在起两天的时间（未指定的时区）1:00 开始，并在稍后结束一个小时。 在客户端计算机的时区中，使用默认的 EWS 托管 API 行为创建第一个约会。 使用**StartTimeZone**和**EndTimeZone**属性在中央时区中创建第二个。 第三个是在山地时区中使用**ExchangeService**属性创建的。 
   
 ```cs
 using Microsoft.Exchange.WebServices.Data;
@@ -124,26 +124,26 @@ static void CreateAppointments(string userEmail, SecureString userPass)
 }
 ```
 
-本示例在东部时区，配置客户端计算机上执行和查看从客户端配置在东部时区，其显示在 1:00，它会创建三个约会时 2:00 和下午 3:00，分别。
+在东部时区配置的客户端计算机上执行此示例时，将从在东部时区中配置的客户端查看这三个约会，它们分别显示为 1:00 PM、2:00 PM 和 3:00 PM。
   
-## <a name="creating-appointments-in-different-time-zones-by-using-ews"></a>使用 EWS 不同时区中创建约会
+## <a name="creating-appointments-in-different-time-zones-by-using-ews"></a>使用 EWS 在不同时区创建约会
 
-创建约会或会议使用 EWS 时，可以针对指定时区的三个选项：
+使用 EWS 创建约会或会议时，有三个用于指定时区的选项：
   
-- 若要使用协调世界时 (UTC)，不包括[TimeZoneContext](http://msdn.microsoft.com/library/573c462b-aa1d-4ba0-8852-e3f48b26873b%28Office.15%29.aspx)元素、 [MeetingTimeZone](http://msdn.microsoft.com/library/413b47d9-8126-462c-9a4f-4e771a5e8889%28Office.15%29.aspx)元素 (仅在 Exchange 2007 中)，或[StartTimeZone](http://msdn.microsoft.com/library/d38c4dc1-4ecb-42a1-8d57-a451b16a2de2%28Office.15%29.aspx)和[EndTimeZone](http://msdn.microsoft.com/library/6c53c337-be60-4d22-9e9e-a0c140c5e913%28Office.15%29.aspx)元素 (Exchange 2010 及更高版本) 中[CreateItem operation，](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx)请求。 
+- 若要使用协调通用时间（UTC），请不要在[CreateItem 操作](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx)请求中包含[TimeZoneContext](https://msdn.microsoft.com/library/573c462b-aa1d-4ba0-8852-e3f48b26873b%28Office.15%29.aspx)元素、 [MeetingTimeZone](https://msdn.microsoft.com/library/413b47d9-8126-462c-9a4f-4e771a5e8889%28Office.15%29.aspx)元素（仅限 Exchange 2007）或[StartTimeZone](https://msdn.microsoft.com/library/d38c4dc1-4ecb-42a1-8d57-a451b16a2de2%28Office.15%29.aspx)和[EndTimeZone](https://msdn.microsoft.com/library/6c53c337-be60-4d22-9e9e-a0c140c5e913%28Office.15%29.aspx)元素（exchange 2010 及更高版本）。 
     
-- 若要使用的所有日期/时间属性的某个特定的时区，包括属性时创建一个新的约会或会议，某个时区的元素中指定[TimeZoneContext](http://msdn.microsoft.com/library/573c462b-aa1d-4ba0-8852-e3f48b26873b%28Office.15%29.aspx) [CreateItem operation，](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx)请求中。 
+- 若要将特定时区用于所有日期/时间属性（包括创建新约会或会议时的属性），请在[CreateItem 操作](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx)请求中的[TimeZoneContext](https://msdn.microsoft.com/library/573c462b-aa1d-4ba0-8852-e3f48b26873b%28Office.15%29.aspx)元素中指定一个时区。 
     
-- 若要使用与[TimeZoneContext](http://msdn.microsoft.com/library/573c462b-aa1d-4ba0-8852-e3f48b26873b%28Office.15%29.aspx)元素中指定不同的时区，包括[TimeZoneContext](http://msdn.microsoft.com/library/573c462b-aa1d-4ba0-8852-e3f48b26873b%28Office.15%29.aspx)元素、 [MeetingTimeZone](http://msdn.microsoft.com/library/413b47d9-8126-462c-9a4f-4e771a5e8889%28Office.15%29.aspx)元素 (仅在 Exchange 2007 中) 或[StartTimeZone](http://msdn.microsoft.com/library/d38c4dc1-4ecb-42a1-8d57-a451b16a2de2%28Office.15%29.aspx)和[EndTimeZone](http://msdn.microsoft.com/library/6c53c337-be60-4d22-9e9e-a0c140c5e913%28Office.15%29.aspx)元素 （Exchange 2010 及更高版本) [CreateItem operation，](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx)请求中。 
+- 若要使用与[TimeZoneContext](https://msdn.microsoft.com/library/573c462b-aa1d-4ba0-8852-e3f48b26873b%28Office.15%29.aspx)元素中指定的时区不同的时区，请在[EndTimeZone 操作](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx)请求中包含[TimeZoneContext](https://msdn.microsoft.com/library/573c462b-aa1d-4ba0-8852-e3f48b26873b%28Office.15%29.aspx)元素、 [MeetingTimeZone](https://msdn.microsoft.com/library/413b47d9-8126-462c-9a4f-4e771a5e8889%28Office.15%29.aspx)元素（仅限 exchange 2007）或[StartTimeZone](https://msdn.microsoft.com/library/d38c4dc1-4ecb-42a1-8d57-a451b16a2de2%28Office.15%29.aspx)和[CreateItem](https://msdn.microsoft.com/library/6c53c337-be60-4d22-9e9e-a0c140c5e913%28Office.15%29.aspx)元素（exchange 2010 及更高版本）。 
     
-以下示例[CreateItem operation，](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx)请求创建约会使用 UTC。 请注意**TimeZoneContext**元素、 **StartTimeZone**元素和**EndTimeZone**元素不存在。 以 UTC 表示**Start**和**End**元素的值。 
+下面的示例[CreateItem 操作](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx)请求使用 UTC 创建约会。 请注意， **TimeZoneContext**元素、 **StartTimeZone**元素和**EndTimeZone**元素不存在。 "**开始**" 和 "**结束**" 元素值以 UTC 表示。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010" />
   </soap:Header>
@@ -162,14 +162,14 @@ static void CreateAppointments(string userEmail, SecureString userPass)
 </soap:Envelope>
 ```
 
-以下示例[CreateItem operation，](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx)请求使用的**StartTimeZone**和**EndTimeZone**元素来指定约会中央所在的时区。 请注意**TimeZoneContext**元素不存在。 但是，如果它已存在， **StartTimeZone**和**EndTimeZone**元素的值会覆盖它的值。 同样，以 UTC 表示**Start**和**End**元素的值。 
+下面的示例[CreateItem 操作](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx)请求使用**StartTimeZone**和**EndTimeZone**元素指定约会的中央时区。 请注意， **TimeZoneContext**元素不存在。 但是，如果它存在，则**StartTimeZone**和**EndTimeZone**元素的值将覆盖其值。 同样，**开始**和**结束**元素值以 UTC 表示。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010" />
   </soap:Header>
@@ -190,14 +190,14 @@ static void CreateAppointments(string userEmail, SecureString userPass)
 </soap:Envelope>
 ```
 
-以下示例[CreateItem operation，](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx)请求将**TimeZoneContext**元素设置为山地所在的时区。 请注意的**StartTimeZone**和**EndTimeZone**元素不存在。 同样，以 UTC 表示**Start**和**End**元素的值。 
+下面的示例[CreateItem 操作](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx)请求将**TimeZoneContext**元素设置为山区时区。 请注意，" **StartTimeZone** " 和 " **EndTimeZone** " 元素不存在。 同样，**开始**和**结束**元素值以 UTC 表示。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010" />
     <t:TimeZoneContext>
@@ -219,19 +219,19 @@ static void CreateAppointments(string userEmail, SecureString userPass)
 </soap:Envelope>
 ```
 
-从客户端配置在东部时区，其显示在 1:00，查看以前的 EWS 示例请求创建的三个约会时 2:00 和下午 3:00，分别。
+当由在东部时区配置的客户端查看前 EWS 示例创建的三个约会时，它们分别显示在 1:00 PM、2:00 PM 和 3:00 PM 处。
   
 ## 
 
-既然您知道如何在特定时间区域中创建约会，您可能希望为另一个[更新现有约会上的时区](how-to-update-the-time-zone-for-an-appointment-by-using-ews-in-exchange.md)。 
+现在，您已了解如何在特定时区中创建约会，您可能需要将[现有约会上的时区更新](how-to-update-the-time-zone-for-an-appointment-by-using-ews-in-exchange.md)到不同的约会。 
   
 ## <a name="see-also"></a>另请参阅
 
 
 - [时区和 Exchange 中的 EWS](time-zones-and-ews-in-exchange.md)
     
-- [在 Exchange 使用 EWS 更新约会所在的时区](how-to-update-the-time-zone-for-an-appointment-by-using-ews-in-exchange.md)
+- [使用 Exchange 中的 EWS 更新约会的时区](how-to-update-the-time-zone-for-an-appointment-by-using-ews-in-exchange.md)
     
-- [使用 Exchange 2013 中的 EWS 中创建约会和会议](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)
+- [使用 Exchange 2013 中的 EWS 创建约会和会议](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)
     
 

@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 54e3ba52-08a6-4d48-8a44-6fd5fdbffb25
-description: RelativeFolderPath 元素包含一个数组指示要创建的文件夹路径的相对文件夹路径的文件夹。
-ms.openlocfilehash: f568d282e47a41c0aaf6d70ef383e5ef3e2b54bf
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: RelativeFolderPath 元素包含一个文件夹数组，这些文件夹指示要创建的文件夹路径的相对文件夹路径。
+ms.openlocfilehash: 8a0fc0020943afdbe6cd4c79d51d61337f8dd329
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827051"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457156"
 ---
 # <a name="relativefolderpath"></a>RelativeFolderPath
 
-**RelativeFolderPath**元素包含一个数组指示要创建的文件夹路径的相对文件夹路径的文件夹。 
+**RelativeFolderPath**元素包含一个文件夹数组，这些文件夹指示要创建的文件夹路径的相对文件夹路径。 
   
 ```XML
 <RelativeFolderPath>
@@ -32,15 +32,15 @@ ms.locfileid: "19827051"
  **NonEmptyArrayOfFoldersType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
 ### <a name="child-elements"></a>子元素
 
-[文件夹](folder.md) | [CalendarFolder](calendarfolder.md) | [ContactsFolder](contactsfolder.md) | [SearchFolder](searchfolder.md) | [TasksFolder](tasksfolder.md)
+[文件夹](folder.md)  | [CalendarFolder](calendarfolder.md)  | [ContactsFolder](contactsfolder.md)  | [SearchFolder](searchfolder.md)  | [TasksFolder](tasksfolder.md)
   
 ### <a name="parent-elements"></a>父元素
 
@@ -56,7 +56,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> ||

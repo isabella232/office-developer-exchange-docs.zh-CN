@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5acceb42-a757-4c74-ab1c-b1abf7bf1e0a
-description: ExchangeStoreId 元素指定的即时消息 (IM) 组标识符。
-ms.openlocfilehash: 815e9c2f368558ea38efce3671dbdc33d4d97168
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ExchangeStoreId 元素指定即时消息（IM）组标识符。
+ms.openlocfilehash: c1b1e1830987449eeb7ea186d00743ea9cc75a77
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754187"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456988"
 ---
 # <a name="exchangestoreid"></a>ExchangeStoreId
 
-**ExchangeStoreId**元素指定的即时消息 (IM) 组标识符。 
+**ExchangeStoreId**元素指定即时消息（IM）组标识符。 
   
 ```XML
 <ExchangeStoreId Id="" ChangeKey=""/>
@@ -26,14 +26,14 @@ ms.locfileid: "19754187"
  **ItemIdType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**说明**|
 |:-----|:-----|
 |Id  <br/> |**Id**属性的文本值是组的标识符。  <br/> |
-|更改密钥  <br/> |**更改密钥**属性的文本值是组的更改密钥。  <br/> |
+|ChangeKey  <br/> |**ChangeKey**属性的文本值是组的更改键。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -43,7 +43,7 @@ ms.locfileid: "19754187"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ImGroup](imgroup.md) <br/> |代表一个即时消息的组。  <br/> |
+|[ImGroup](imgroup.md) <br/> |表示即时消息组。  <br/> |
    
 ## <a name="remarks"></a>备注
 
@@ -55,14 +55,14 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |types.xsd  <br/> |
+|验证文件  <br/> |类型 .xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

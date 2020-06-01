@@ -1,5 +1,5 @@
 ---
-title: CreateItem (AcceptSharingInvitation)
+title: CreateItem （AcceptSharingInvitation）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,34 +11,34 @@ api_name:
 api_type:
 - schema
 ms.assetid: 710c893a-3037-4f04-b336-aefedd36c406
-description: 使用 CreateItem operation 接受邀请共享其他用户的日历或联系人数据。
-ms.openlocfilehash: 993ef0402e624af69f632af5bdce4c02bd9d41f3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: CreateItem 操作用于接受共享其他用户的日历或联系人数据的邀请。
+ms.openlocfilehash: eda846b72f42fe886497b355d9cddade7c5f4044
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753654"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457513"
 ---
-# <a name="createitem-acceptsharinginvitation"></a>CreateItem (AcceptSharingInvitation)
+# <a name="createitem-acceptsharinginvitation"></a>CreateItem （AcceptSharingInvitation）
 
-使用**CreateItem** operation 接受邀请共享其他用户的日历或联系人数据。 
+**CreateItem**操作用于接受共享其他用户的日历或联系人数据的邀请。 
   
 ## <a name="accept-sharing-invitation-request-example"></a>接受共享邀请请求示例
 
 ### <a name="description"></a>说明
 
-下面的示例演示如何以接受共享邀请。
+下面的示例展示了如何接受共享邀请。
   
 ### <a name="code"></a>代码
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <CreateItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-      <Items xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-        <AcceptSharingInvitation xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+    <CreateItem xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+      <Items xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+        <AcceptSharingInvitation xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <ReferenceItemId Id="AAAlAFVzZ" ChangeKey="CwAAABYAA" />
         </AcceptSharingInvitation>
       </Items>
@@ -47,7 +47,7 @@ ms.locfileid: "19753654"
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>请求元素
+### <a name="request-elements"></a>Request 元素
 
 请求中使用以下元素：
   
@@ -59,11 +59,11 @@ ms.locfileid: "19753654"
     
 - [ReferenceItemId](referenceitemid.md)
     
-### <a name="comments"></a>注释
+### <a name="comments"></a>备注
 
-已缩短的项标识符和更改密钥，以保留可读性。
+项目标识符和更改密钥已缩短，以保持可读性。
   
-## <a name="successful-accept-sharing-invitation-response-example"></a>成功接受共享邀请响应示例
+## <a name="successful-accept-sharing-invitation-response-example"></a>成功的接受共享邀请响应示例
 
 ### <a name="description"></a>说明
 
@@ -82,12 +82,12 @@ ms.locfileid: "19753654"
                          MajorBuildNumber="639" 
                          MinorBuildNumber="11" 
                          Version="Exchange2010" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <CreateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CreateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CreateItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -99,9 +99,9 @@ ms.locfileid: "19753654"
 </soap:Envelope>
 ```
 
-### <a name="successful-response-elements"></a>成功响应元素
+### <a name="successful-response-elements"></a>成功的响应元素
 
-在响应中使用以下元素：
+响应中使用以下元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -119,7 +119,7 @@ ms.locfileid: "19753654"
 
 ### <a name="description"></a>说明
 
-下面的示例演示对**CreateItem**请求错误响应。 错误由试图以接受共享邀请的找不到 Exchange 存储中。 
+下面的示例演示对**CreateItem**请求的错误响应。 此错误是由于尝试接受在 Exchange 存储中找不到的共享邀请而引起的。 
   
 ### <a name="code"></a>代码
 
@@ -134,12 +134,12 @@ ms.locfileid: "19753654"
                          MajorBuildNumber="639" 
                          MinorBuildNumber="11" 
                          Version="Exchange2010" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <CreateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CreateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CreateItemResponseMessage ResponseClass="Error">
           <m:MessageText>The specified object was not found in the store.</m:MessageText>

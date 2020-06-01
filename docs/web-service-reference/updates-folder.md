@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: b047e3a4-a5ab-4098-b7a0-273bc809e702
 description: Updates元素中包含的一组定义的元素追加、 设置，以及删除对文件夹属性的更改。
-ms.openlocfilehash: 31f25b1e88fb8756f189a6d75259dd4fc198582f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 3282171dfc188a9d4735a19a97e80fe0e2f79b89
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838427"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457177"
 ---
 # <a name="updates-folder"></a>Updates 文件夹
 
@@ -43,9 +43,9 @@ ms.locfileid: "19838427"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -63,7 +63,7 @@ ms.locfileid: "19838427"
 |:-----|:-----|
 |[FolderChange](folderchange.md) <br/> |表示要在单个文件夹上进行的更改的集合。  <br/> 下面是此元素的 XPath 表达式:  `/UpdateFolder/FolderChanges/FolderChange[i]` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -71,13 +71,13 @@ ms.locfileid: "19838427"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
-- [UpdateFolder Operation](updatefolder-operation.md)
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [UpdateFolder 操作](updatefolder-operation.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

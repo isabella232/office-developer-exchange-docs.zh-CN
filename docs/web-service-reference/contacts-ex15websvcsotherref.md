@@ -1,5 +1,5 @@
 ---
-title: 联系人
+title: Contacts
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 0cc67cdf-9707-45e7-92c6-fa83a016cdbe
 description: Contacts 元素包含与任务相关联的联系人列表。
-ms.openlocfilehash: da7963d30f58f7da52e76e3f7f1d0f7fd68abf74
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
-ms.translationtype: HT
+ms.openlocfilehash: c2b7bbadd494081a3e47b7b6c489218fab31d574
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753498"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458388"
 ---
 # <a name="contacts"></a>联系人
 
@@ -58,7 +58,7 @@ ms.locfileid: "19753498"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -67,5 +67,5 @@ ms.locfileid: "19753498"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

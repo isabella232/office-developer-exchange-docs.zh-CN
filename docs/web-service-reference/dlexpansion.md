@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 9e50278d-fe6a-45e2-a72b-0fb06809e128
-description: DLExpansion 元素包含一个数组包含通讯组列表中的邮箱。
-ms.openlocfilehash: 06081b4aba761a7137f921b3bc1c8d6b2afab88c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: DLExpansion 元素包含一个包含在通讯组列表中的邮箱数组。
+ms.openlocfilehash: 079ad1c0f114d201f5d1b91c3fd9bb45b943cc1a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753967"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456995"
 ---
 # <a name="dlexpansion"></a>DLExpansion
 
-**DLExpansion**元素包含一个数组包含通讯组列表中的邮箱。 
+**DLExpansion**元素包含一个包含在通讯组列表中的邮箱数组。 
   
 - [ExpandDLResponse](expanddlresponse.md) 
 - [ResponseMessages](responsemessages.md) 
@@ -37,17 +37,17 @@ ms.locfileid: "19753967"
  **ArrayOfDLExpansionType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**说明**|
 |:-----|:-----|
-|**IndexedPagingOffset** <br/> |表示使用索引的页面视图时，则在下一个请求时应使用的下一个索引。  <br/> |
-|**NumeratorOffset** <br/> |代表要使用分数页面视图时使用的下一个请求的新分子值。  <br/> |
-|**AbsoluteDenominator** <br/> |代表下一个分母使用分数页面视图时用于下一个请求。  <br/> |
-|**IncludesLastItemInRange** <br/> |指示当前结果是否包含在查询中的最后一项，以便不需要其他分页。  <br/> |
-|**TotalItemsInView** <br/> |代表视图中的项目的总数。  <br/> |
+|**IndexedPagingOffset** <br/> |表示在使用索引页视图时应用于下一个请求的下一个索引。  <br/> |
+|**NumeratorOffset** <br/> |表示在使用分数页面视图时用于下一个请求的新的分子值。  <br/> |
+|**AbsoluteDenominator** <br/> |表示使用分数页面视图时用于下一个请求的下一个分母。  <br/> |
+|**IncludesLastItemInRange** <br/> |指示当前结果是否包含查询中的最后一项，以便不需要进行其他分页。  <br/> |
+|**TotalItemsInView** <br/> |表示视图中的项目总数。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -59,9 +59,9 @@ ms.locfileid: "19753967"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ExpandDLResponseMessage](expanddlresponsemessage.md) <br/> |包含状态和单个 ExpandDL 请求的结果。  <br/> |
+|[ExpandDLResponseMessage](expanddlresponsemessage.md) <br/> |包含单个 ExpandDL 请求的状态和结果。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 Microsoft Exchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -69,7 +69,7 @@ ms.locfileid: "19753967"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |

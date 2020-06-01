@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: cfdf01a9-0191-47c7-a7ad-5254d8bdee4a
 description: CreateManagedFolder元素定义添加到邮箱托管自定义文件夹的请求。
-ms.openlocfilehash: 4acc931de2a8665db092c3b309d914f0a3c67558
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 01fe8b7341c38ad33089c56271434ad3f9a4e5f0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753676"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458360"
 ---
 # <a name="createmanagedfolder"></a>CreateManagedFolder
 
@@ -33,9 +33,9 @@ ms.locfileid: "19753676"
  **CreateManagedFolderRequestType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -50,7 +50,7 @@ ms.locfileid: "19753676"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 发出请求的用户帐户必须具有在其中创建托管的文件夹邮箱 FullAccess 权限。您可以使用与 Exchange 管理外壳 **Add-MailboxPermission** cmdlet  _ -AccessRights _参数分配 FullAccess 权限。 
   
@@ -67,7 +67,7 @@ ms.locfileid: "19753676"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -81,7 +81,7 @@ ms.locfileid: "19753676"
 [FindFolder Operation](findfolder-operation.md)
 
 
-[Finding Folders](http://msdn.microsoft.com/library/9124d868-017a-43f0-b915-5c0082cacec9%28Office.15%29.aspx)
+[Finding Folders](https://msdn.microsoft.com/library/9124d868-017a-43f0-b915-5c0082cacec9%28Office.15%29.aspx)
   
-[Adding Managed Folders](http://msdn.microsoft.com/library/846658c6-7043-40fb-8439-19f97c2a967f%28Office.15%29.aspx)
+[Adding Managed Folders](https://msdn.microsoft.com/library/846658c6-7043-40fb-8439-19f97c2a967f%28Office.15%29.aspx)
 

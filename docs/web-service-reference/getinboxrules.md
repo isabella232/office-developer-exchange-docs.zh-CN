@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 7a54992d-03a6-4afc-a2e4-dcdc9ce54194
 description: GetInboxRules元素定义一个请求，以获取有关服务器存储中的邮箱的收件箱规则。
-ms.openlocfilehash: 3c3ee682dd009e5c4bec940637a7dfa3c11f8402
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 890592fd3f87fc5592a618a2febf28e4daf0dbe4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754586"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457926"
 ---
 # <a name="getinboxrules"></a>GetInboxRules
 
@@ -32,9 +32,9 @@ ms.locfileid: "19754586"
  **GetInboxRulesRequestType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -48,7 +48,7 @@ ms.locfileid: "19754586"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -56,7 +56,7 @@ ms.locfileid: "19754586"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |

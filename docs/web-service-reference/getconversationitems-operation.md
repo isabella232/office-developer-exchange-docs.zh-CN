@@ -1,5 +1,5 @@
 ---
-title: GetConversationItems operation
+title: GetConversationItems 操作
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,24 +8,24 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8ae00a99-b37b-4194-829c-fe300db6ab99
 description: 查找有关 GetConversationItems 操作的信息。
-ms.openlocfilehash: 9d9fb9cc04bcbb5846162c77c852defa51dff98b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ddeb5386e56653a32ca2e6d212518704cd0f0c58
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754498"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457779"
 ---
-# <a name="getconversationitems-operation"></a>GetConversationItems operation
+# <a name="getconversationitems-operation"></a>GetConversationItems 操作
 
 查找有关**GetConversationItems**操作的信息。 
   
-**GetConversationItems**操作获取对话中的节点到组织中的项目的一个或多个的设置。 
+**GetConversationItems**操作获取组织到对话中的节点的一组或多组项目。 
   
 Exchange Server 2013 中引入了此操作。
   
 ## <a name="using-the-getconversationitems-operation"></a>使用 GetConversationItems 操作
 
-您可以使用**GetConversationItems**操作获取的两个主对话和存档邮箱中的项目。 
+您可以使用**GetConversationItems**操作获取主邮箱和存档邮箱的会话中的项目。 
   
 ### <a name="getconversationitems-operation-soap-headers"></a>GetConversationItems 操作 SOAP 标头
 
@@ -33,22 +33,22 @@ Exchange Server 2013 中引入了此操作。
   
 |**标头名称**|**元素**|**说明**|
 |:-----|:-----|:-----|
-|**模拟** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |标识模拟客户端应用程序的用户。 适用于请求此标头。  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。 此元素的最小值是**Exchange2013**。 适用于请求此标头。  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应该请求的服务器的版本。 适用于响应此标头。  <br/> |
+|**模拟** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |标识客户端应用程序模拟的用户。 此标头适用于请求。  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。 此元素的最小值为**Exchange2013**。 此标头适用于请求。  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器版本。 此标头适用于响应。  <br/> |
    
-## <a name="getconversationitems-operation-request-example-get-items-in-a-single-conversation"></a>GetConversationItems 操作请求示例： 单个会话中获取项
+## <a name="getconversationitems-operation-request-example-get-items-in-a-single-conversation"></a>GetConversationItems 操作请求示例：获取单个对话中的项目
 
-**GetConversationItems**操作请求的下面的示例演示如何在单个对话中，项目中的已删除邮件和草稿文件夹位于除外获取对话的所有项目。 项标识符、 主题和项目的邮箱中接收的时间，将包含响应中返回每个项目。 
+下面的**GetConversationItems**操作请求示例演示如何在单个对话中获取所有对话项目，但 "已删除邮件" 和 "草稿" 文件夹中的项目除外。 响应中返回的每个项目都将包含一个项目标识符、一个主题以及在邮箱中接收项目的时间。 
   
 > [!NOTE]
-> 所有项目标识符，本文中的更改项具有已截短要保留可读性。 
+> 本文中的所有项目标识符和更改密钥都已缩短，以保持可读性。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
@@ -77,13 +77,13 @@ Exchange Server 2013 中引入了此操作。
 </soap:Envelope>
 ```
 
-**GetConversationItems**请求此示例不包括以下选项： 
+此**GetConversationItems**请求的示例中不包含以下选项： 
   
-- [MaxItemsToReturn](maxitemstoreturn.md)元素，设置要在响应中返回的项的最大数目。 
+- [MaxItemsToReturn](maxitemstoreturn.md)元素，该元素设置响应中返回的最大项目数。 
     
-- [MailboxScope](mailboxscope.md)元素，它通过指示**GetConversationItems**操作是否执行主邮箱、 存档邮箱中或两个邮箱上设置邮箱范围。 
+- [MailboxScope](mailboxscope.md)元素，它通过指示是否要对主邮箱、存档邮箱或这两个邮箱执行**GetConversationItems**操作来设置邮箱作用域。 
     
-- [SyncState (base64Binary)](syncstate-base64binary.md)元素，设置要仅获取对话项目的新的或更新对话中的同步状态。 此元素设置为每个对话。 
+- [SyncState （base64Binary）](syncstate-base64binary.md)元素，该元素将同步状态设置为仅获取会话中新的或已更新的对话项目。 此元素是为每个对话设置的。 
     
 请求 SOAP 正文包含以下元素：
   
@@ -101,17 +101,17 @@ Exchange Server 2013 中引入了此操作。
     
 - [DistinguishedFolderId](distinguishedfolderid.md)
     
-- [SortOrder (ConversationNodeSortOrder)](sortorder-conversationnodesortorder.md)
+- [SortOrder （ConversationNodeSortOrder）](sortorder-conversationnodesortorder.md)
     
-- [Conversations](conversations-ex15websvcsotherref.md)
+- [对话](conversations-ex15websvcsotherref.md)
     
-- [对话 (ConversationRequestType)](conversation-conversationrequesttype.md)
+- [对话（ConversationRequestType）](conversation-conversationrequesttype.md)
     
 - [ConversationId](conversationid.md)
     
-## <a name="successful-getconversationitems-operation-response"></a>成功 GetConversationItems 操作响应
+## <a name="successful-getconversationitems-operation-response"></a>成功的 GetConversationItems 操作响应
 
-下面的示例演示了单个会话中获取项的**GetConversationItems**操作请求成功响应。 
+下面的示例演示对**GetConversationItems**操作请求的成功响应，以获取单个对话中的项目。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -122,15 +122,15 @@ Exchange Server 2013 中引入了此操作。
                            MajorBuildNumber="545"
                            MinorBuildNumber="11"
                            Version="Exchange2013"
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-      <m:GetConversationItemsResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                                      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+      <m:GetConversationItemsResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                                      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
          <m:ResponseMessages>
             <m:GetConversationItemsResponseMessage ResponseClass="Success">
                <m:ResponseCode>NoError</m:ResponseCode>
@@ -201,9 +201,9 @@ Exchange Server 2013 中引入了此操作。
 </s:Envelope>
 ```
 
-我们建议您保存的后续**GetConversationItems**操作请求 SyncState。 
+建议您为后续的**GetConversationItems**操作请求保存 SyncState。 
   
-响应 SOAP 正文中包含以下元素：
+响应 SOAP 正文包含以下元素：
   
 - [GetConversationItemsResponse](getconversationitemsresponse.md)
     
@@ -213,7 +213,7 @@ Exchange Server 2013 中引入了此操作。
     
 - [ResponseCode](responsecode.md)
     
-- [对话 (ConversationResponseType)](conversation-conversationresponsetype.md)
+- [对话（ConversationResponseType）](conversation-conversationresponsetype.md)
     
 - [ConversationId](conversationid.md)
     
@@ -225,28 +225,28 @@ Exchange Server 2013 中引入了此操作。
     
 - [InternetMessageId](internetmessageid.md)
     
-- [项目 (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)
+- [项目（NonEmptyArrayOfAllItemsType）](items-nonemptyarrayofallitemstype.md)
     
-- [Message](message-ex15websvcsotherref.md)
+- [邮件](message-ex15websvcsotherref.md)
     
 - [ItemId](itemid.md)
     
-- [Subject](subject.md)
+- [主题](subject.md)
     
 - [DateTimeReceived](datetimereceived.md)
     
 ## <a name="getconversationitems-operation-error-response"></a>GetConversationItems 操作错误响应
 
-下面的示例显示邮箱，或将被忽略的文件夹中，对话的所有项目都位于其中任一不再存在的会话中获取项的**GetConversationItems**操作请求错误响应。 
+下面的示例演示对**GetConversationItems**操作请求的错误响应，以获取对话中不再存在于邮箱中的项目，或在忽略的文件夹中的所有对话项目所在的位置。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
-    <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="556" MinorBuildNumber="8" Version="Exchange2013" xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" xmlns="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+    <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="556" MinorBuildNumber="8" Version="Exchange2013" xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" xmlns="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:GetConversationItemsResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:GetConversationItemsResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:GetConversationItemsResponseMessage ResponseClass="Error">
           <m:MessageText>The specified object was not found in the store.</m:MessageText>
@@ -265,6 +265,6 @@ Exchange Server 2013 中引入了此操作。
     
 - [ApplyConversationAction 操作](applyconversationaction-operation.md)
     
-- [FindConversation Operation](findconversation-operation.md)
+- [FindConversation 操作](findconversation-operation.md)
     
 

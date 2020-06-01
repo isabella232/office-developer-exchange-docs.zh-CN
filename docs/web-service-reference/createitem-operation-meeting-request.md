@@ -1,5 +1,5 @@
 ---
-title: CreateItem operation，（会议请求）
+title: CreateItem 操作（会议请求）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,39 +11,39 @@ api_name:
 api_type:
 - schema
 ms.assetid: fe136881-a804-456a-8552-8a1bea5eb9c8
-description: 使用 CreateItem operation 响应会议请求。
-ms.openlocfilehash: a8aea688e46376906554952ce8ec45022cf613e9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: CreateItem 操作用于响应会议请求。
+ms.openlocfilehash: f9e6bd1742e6a30d08736ea67c0ff80b7a18e88a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753663"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457107"
 ---
-# <a name="createitem-operation-meeting-request"></a>CreateItem operation，（会议请求）
+# <a name="createitem-operation-meeting-request"></a>CreateItem 操作（会议请求）
 
-使用 CreateItem operation 响应会议请求。
+CreateItem 操作用于响应会议请求。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-CreateItem operation，提供用于响应会议请求的三个选项： 接受、 暂时接受或拒绝。 
+CreateItem 操作提供了三个用于响应会议请求的选项： "接受"、"暂定接受" 或 "拒绝"。 
   
 ## <a name="accept-meeting-request-example"></a>接受会议请求示例
 
 ### <a name="description"></a>说明
 
-下面的示例演示如何接受会议请求的邀请。
+下面的示例展示了如何接受会议请求邀请。
   
 ### <a name="code"></a>代码
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <CreateItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
+    <CreateItem xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
                 MessageDisposition="SendAndSaveCopy">
       <Items>
-        <AcceptItem xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <AcceptItem xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <ReferenceItemId Id="AAAlAFVzZ"
                            ChangeKey="CwAAABYAA"/>
         </AcceptItem>
@@ -53,11 +53,11 @@ CreateItem operation，提供用于响应会议请求的三个选项： 接受�
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>注释
+### <a name="comments"></a>备注
 
-若要暂时接受或拒绝会议请求中，使用来代替[AcceptItem](acceptitem.md)元素[TentativelyAcceptItem](tentativelyacceptitem.md)或[DeclineItem](declineitem.md)元素。 
+若要暂时接受或拒绝会议请求，请使用[TentativelyAcceptItem](tentativelyacceptitem.md)或[DeclineItem](declineitem.md)元素代替[AcceptItem](acceptitem.md)元素。 
   
-已缩短的项标识符和更改密钥，以保留可读性。
+项目标识符和更改密钥已缩短，以保持可读性。
   
 ### <a name="accepting-meeting-request-elements"></a>接受会议请求元素
 
@@ -65,17 +65,17 @@ CreateItem operation，提供用于响应会议请求的三个选项： 接受�
   
 - [CreateItem](createitem.md)
     
-- [项目 (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)
+- [项目（NonEmptyArrayOfAllItemsType）](items-nonemptyarrayofallitemstype.md)
     
 - [AcceptItem](acceptitem.md)
     
 - [ReferenceItemId](referenceitemid.md)
     
-## <a name="successful-accept-meeting-response-example"></a>成功接受会议响应示例
+## <a name="successful-accept-meeting-response-example"></a>成功的接受会议响应示例
 
 ### <a name="description"></a>说明
 
-下面的示例演示对 CreateItem 请求成功响应。
+下面的示例演示对 CreateItem 请求的成功响应。
   
 ### <a name="code"></a>代码
 
@@ -86,12 +86,12 @@ CreateItem operation，提供用于响应会议请求的三个选项： 接受�
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <CreateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CreateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CreateItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -103,9 +103,9 @@ CreateItem operation，提供用于响应会议请求的三个选项： 接受�
 </soap:Envelope>
 ```
 
-### <a name="successful-response-elements"></a>成功响应元素
+### <a name="successful-response-elements"></a>成功的响应元素
 
-在响应中使用以下元素：
+响应中使用以下元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -123,7 +123,7 @@ CreateItem operation，提供用于响应会议请求的三个选项： 接受�
 
 ### <a name="description"></a>说明
 
-下面的示例演示对 CreateItem 请求错误响应。 错误由尝试接受会议请求的找不到 Exchange 存储中。
+下面的示例演示对 CreateItem 请求的错误响应。 此错误是由于尝试接受在 Exchange 存储中找不到的会议请求而引起的。
   
 ### <a name="code"></a>代码
 
@@ -134,12 +134,12 @@ CreateItem operation，提供用于响应会议请求的三个选项： 接受�
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <CreateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CreateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CreateItemResponseMessage ResponseClass="Error">
           <m:MessageText>The specified object was not found in the store.</m:MessageText>
@@ -179,5 +179,5 @@ CreateItem operation，提供用于响应会议请求的三个选项： 接受�
 
 [CreateItem 操作](createitem-operation.md)
   
-[CreateItem operation，（日历项）](createitem-operation-calendar-item.md)
+[CreateItem 操作（日历项目）](createitem-operation-calendar-item.md)
 
