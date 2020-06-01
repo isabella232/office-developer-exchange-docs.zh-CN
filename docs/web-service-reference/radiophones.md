@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ea650c84-0b3e-4099-bb76-9619949b4092
-description: RadioPhones 元素指定的单选电话号码数组和为相关联的角色其源归属的标识符。
-ms.openlocfilehash: 0363852de889ad92b01e40f11665fdf61ecfa073
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: RadioPhones 元素指定收音机电话号码的数组以及关联角色的源归属的标识符。
+ms.openlocfilehash: d77980c40e3b87bab9a3d82ead079cc5dd651d33
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826938"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461630"
 ---
-# <a name="radiophones"></a><span data-ttu-id="ab8c0-103">RadioPhones</span><span class="sxs-lookup"><span data-stu-id="ab8c0-103">RadioPhones</span></span>
+# <a name="radiophones"></a><span data-ttu-id="b6bba-103">RadioPhones</span><span class="sxs-lookup"><span data-stu-id="b6bba-103">RadioPhones</span></span>
 
-<span data-ttu-id="ab8c0-104">**RadioPhones**元素指定的单选电话号码数组和为相关联的角色其源归属的标识符。</span><span class="sxs-lookup"><span data-stu-id="ab8c0-104">The **RadioPhones** element specifies an array of radio phone numbers and the identifiers of their source attributions for the associated persona.</span></span> 
+<span data-ttu-id="b6bba-104">**RadioPhones**元素指定收音机电话号码的数组以及关联角色的源归属的标识符。</span><span class="sxs-lookup"><span data-stu-id="b6bba-104">The **RadioPhones** element specifies an array of radio phone numbers and the identifiers of their source attributions for the associated persona.</span></span> 
   
 ```XML
 <RadioPhones>
@@ -25,36 +25,36 @@ ms.locfileid: "19826938"
 </RadioPhones>
 ```
 
- <span data-ttu-id="ab8c0-105">**ArrayOfPhoneNumberAttributedValuesType**</span><span class="sxs-lookup"><span data-stu-id="ab8c0-105">**ArrayOfPhoneNumberAttributedValuesType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="ab8c0-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="ab8c0-106">Attributes and elements</span></span>
+ <span data-ttu-id="b6bba-105">**ArrayOfPhoneNumberAttributedValuesType**</span><span class="sxs-lookup"><span data-stu-id="b6bba-105">**ArrayOfPhoneNumberAttributedValuesType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="b6bba-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="b6bba-106">Attributes and elements</span></span>
 
-<span data-ttu-id="ab8c0-107">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="ab8c0-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="b6bba-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="b6bba-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="ab8c0-108">属性</span><span class="sxs-lookup"><span data-stu-id="ab8c0-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="b6bba-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="b6bba-108">Attributes</span></span>
 
-<span data-ttu-id="ab8c0-109">无。</span><span class="sxs-lookup"><span data-stu-id="ab8c0-109">None.</span></span>
+<span data-ttu-id="b6bba-109">无。</span><span class="sxs-lookup"><span data-stu-id="b6bba-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="ab8c0-110">子元素</span><span class="sxs-lookup"><span data-stu-id="ab8c0-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="b6bba-110">子元素</span><span class="sxs-lookup"><span data-stu-id="b6bba-110">Child elements</span></span>
 
-[<span data-ttu-id="ab8c0-111">PhoneNumberAttributedValue</span><span class="sxs-lookup"><span data-stu-id="ab8c0-111">PhoneNumberAttributedValue</span></span>](phonenumberattributedvalue.md)
+[<span data-ttu-id="b6bba-111">PhoneNumberAttributedValue</span><span class="sxs-lookup"><span data-stu-id="b6bba-111">PhoneNumberAttributedValue</span></span>](phonenumberattributedvalue.md)
   
-### <a name="parent-elements"></a><span data-ttu-id="ab8c0-112">父元素</span><span class="sxs-lookup"><span data-stu-id="ab8c0-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="b6bba-112">父元素</span><span class="sxs-lookup"><span data-stu-id="b6bba-112">Parent elements</span></span>
 
-[<span data-ttu-id="ab8c0-113">角色</span><span class="sxs-lookup"><span data-stu-id="ab8c0-113">Persona</span></span>](persona.md)
+[<span data-ttu-id="b6bba-113">角色</span><span class="sxs-lookup"><span data-stu-id="b6bba-113">Persona</span></span>](persona.md)
   
-## <a name="remarks"></a><span data-ttu-id="ab8c0-114">备注</span><span class="sxs-lookup"><span data-stu-id="ab8c0-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b6bba-114">备注</span><span class="sxs-lookup"><span data-stu-id="b6bba-114">Remarks</span></span>
 
-<span data-ttu-id="ab8c0-115">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="ab8c0-115">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="b6bba-115">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="b6bba-115">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="ab8c0-116">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="ab8c0-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="b6bba-116">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="b6bba-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="ab8c0-117">元素信息</span><span class="sxs-lookup"><span data-stu-id="ab8c0-117">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="b6bba-117">元素信息</span><span class="sxs-lookup"><span data-stu-id="b6bba-117">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="ab8c0-118">命名空间</span><span class="sxs-lookup"><span data-stu-id="ab8c0-118">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="ab8c0-119">架构名称</span><span class="sxs-lookup"><span data-stu-id="ab8c0-119">Schema name</span></span>  <br/> |<span data-ttu-id="ab8c0-120">类型架构</span><span class="sxs-lookup"><span data-stu-id="ab8c0-120">Types schema</span></span>  <br/> |
-|<span data-ttu-id="ab8c0-121">验证文件</span><span class="sxs-lookup"><span data-stu-id="ab8c0-121">Validation file</span></span>  <br/> |<span data-ttu-id="ab8c0-122">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="ab8c0-122">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="ab8c0-123">可以为空</span><span class="sxs-lookup"><span data-stu-id="ab8c0-123">Can be empty</span></span>  <br/> ||
+|<span data-ttu-id="b6bba-118">命名空间</span><span class="sxs-lookup"><span data-stu-id="b6bba-118">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="b6bba-119">架构名称</span><span class="sxs-lookup"><span data-stu-id="b6bba-119">Schema name</span></span>  <br/> |<span data-ttu-id="b6bba-120">类型架构</span><span class="sxs-lookup"><span data-stu-id="b6bba-120">Types schema</span></span>  <br/> |
+|<span data-ttu-id="b6bba-121">验证文件</span><span class="sxs-lookup"><span data-stu-id="b6bba-121">Validation file</span></span>  <br/> |<span data-ttu-id="b6bba-122">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="b6bba-122">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="b6bba-123">可以为空</span><span class="sxs-lookup"><span data-stu-id="b6bba-123">Can be empty</span></span>  <br/> ||
    
 

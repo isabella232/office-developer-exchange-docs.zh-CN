@@ -12,16 +12,16 @@ api_type:
 - schema
 ms.assetid: 48687a78-e757-4c04-9641-bf4302c6b565
 description: CalendarFolder元素表示主要包含日历项目的文件夹。
-ms.openlocfilehash: 7dc90706eb45eb4617a68b9fdcf37669921af966
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: dcd0ab9d7dea1152766997de0618b3dcceed5567
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753409"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461490"
 ---
-# <a name="calendarfolder"></a><span data-ttu-id="5d3be-103">CalendarFolder</span><span class="sxs-lookup"><span data-stu-id="5d3be-103">CalendarFolder</span></span>
+# <a name="calendarfolder"></a><span data-ttu-id="3151b-103">CalendarFolder</span><span class="sxs-lookup"><span data-stu-id="3151b-103">CalendarFolder</span></span>
 
-<span data-ttu-id="5d3be-104">本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **CalendarFolder**元素表示主要包含日历项目的文件夹。</span><span class="sxs-lookup"><span data-stu-id="5d3be-104">The **CalendarFolder** element represents a folder that primarily contains calendar items.</span></span> 
+<span data-ttu-id="3151b-104">本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **CalendarFolder**元素表示主要包含日历项目的文件夹。</span><span class="sxs-lookup"><span data-stu-id="3151b-104">The **CalendarFolder** element represents a folder that primarily contains calendar items.</span></span> 
   
 ```xml
 <CalendarFolder>
@@ -39,57 +39,57 @@ ms.locfileid: "19753409"
 </CalendarFolder>
 ```
 
- <span data-ttu-id="5d3be-105">**CalendarFolderType**</span><span class="sxs-lookup"><span data-stu-id="5d3be-105">**CalendarFolderType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="5d3be-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="5d3be-106">Attributes and elements</span></span>
+ <span data-ttu-id="3151b-105">**CalendarFolderType**</span><span class="sxs-lookup"><span data-stu-id="3151b-105">**CalendarFolderType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="3151b-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="3151b-106">Attributes and elements</span></span>
 
-<span data-ttu-id="5d3be-107">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="5d3be-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="3151b-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="3151b-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="5d3be-108">属性</span><span class="sxs-lookup"><span data-stu-id="5d3be-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="3151b-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="3151b-108">Attributes</span></span>
 
-<span data-ttu-id="5d3be-109">无。</span><span class="sxs-lookup"><span data-stu-id="5d3be-109">None.</span></span>
+<span data-ttu-id="3151b-109">无。</span><span class="sxs-lookup"><span data-stu-id="3151b-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="5d3be-110">子元素</span><span class="sxs-lookup"><span data-stu-id="5d3be-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="3151b-110">子元素</span><span class="sxs-lookup"><span data-stu-id="3151b-110">Child elements</span></span>
 
-|<span data-ttu-id="5d3be-111">**元素**</span><span class="sxs-lookup"><span data-stu-id="5d3be-111">**Element**</span></span>|<span data-ttu-id="5d3be-112">**说明**</span><span class="sxs-lookup"><span data-stu-id="5d3be-112">**Description**</span></span>|
+|<span data-ttu-id="3151b-111">**元素**</span><span class="sxs-lookup"><span data-stu-id="3151b-111">**Element**</span></span>|<span data-ttu-id="3151b-112">**说明**</span><span class="sxs-lookup"><span data-stu-id="3151b-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="5d3be-113">文件夹 Id</span><span class="sxs-lookup"><span data-stu-id="5d3be-113">FolderId</span></span>](folderid.md) <br/> |<span data-ttu-id="5d3be-114">包含一个文件夹的标识符和更改键。</span><span class="sxs-lookup"><span data-stu-id="5d3be-114">Contains the identifier and change key of a folder.</span></span>  <br/> |
-|[<span data-ttu-id="5d3be-115">ParentFolderId</span><span class="sxs-lookup"><span data-stu-id="5d3be-115">ParentFolderId</span></span>](parentfolderid.md) <br/> |<span data-ttu-id="5d3be-116">表示包含该文件夹的父文件夹的标识符。</span><span class="sxs-lookup"><span data-stu-id="5d3be-116">Represents the identifier of the parent folder that contains the folder.</span></span>  <br/> |
-|[<span data-ttu-id="5d3be-117">FolderClass</span><span class="sxs-lookup"><span data-stu-id="5d3be-117">FolderClass</span></span>](folderclass.md) <br/> |<span data-ttu-id="5d3be-118">表示给定文件夹的文件夹类。</span><span class="sxs-lookup"><span data-stu-id="5d3be-118">Represents the folder class for a given folder.</span></span>  <br/> |
-|[<span data-ttu-id="5d3be-119">显示名称 (字符串)</span><span class="sxs-lookup"><span data-stu-id="5d3be-119">DisplayName (string)</span></span>](displayname-string.md) <br/> |<span data-ttu-id="5d3be-120">包含文件夹的显示名称。</span><span class="sxs-lookup"><span data-stu-id="5d3be-120">Contains the display name of a folder.</span></span>  <br/> |
-|[<span data-ttu-id="5d3be-121">TotalCount</span><span class="sxs-lookup"><span data-stu-id="5d3be-121">TotalCount</span></span>](totalcount.md) <br/> |<span data-ttu-id="5d3be-122">表示给定文件夹中的项目总数。</span><span class="sxs-lookup"><span data-stu-id="5d3be-122">Represents the total count of items within a given folder.</span></span>  <br/> |
-|[<span data-ttu-id="5d3be-123">ChildFolderCount</span><span class="sxs-lookup"><span data-stu-id="5d3be-123">ChildFolderCount</span></span>](childfoldercount.md) <br/> |<span data-ttu-id="5d3be-p101">表示文件夹中包含的子文件夹数。此属性是只读的。</span><span class="sxs-lookup"><span data-stu-id="5d3be-p101">Represents the number of child folders that are contained within a folder. This property is read-only.</span></span>  <br/> |
-|[<span data-ttu-id="5d3be-126">ExtendedProperty</span><span class="sxs-lookup"><span data-stu-id="5d3be-126">ExtendedProperty</span></span>](extendedproperty.md) <br/> |<span data-ttu-id="5d3be-127">标识文件夹的扩展的属性。</span><span class="sxs-lookup"><span data-stu-id="5d3be-127">Identifies extended properties on folders.</span></span>  <br/> |
-|[<span data-ttu-id="5d3be-128">ManagedFolderInformation</span><span class="sxs-lookup"><span data-stu-id="5d3be-128">ManagedFolderInformation</span></span>](managedfolderinformation.md) <br/> |<span data-ttu-id="5d3be-129">包含有关托管文件夹的信息。</span><span class="sxs-lookup"><span data-stu-id="5d3be-129">Contains information about a managed folder.</span></span>  <br/> |
-|[<span data-ttu-id="5d3be-130">EffectiveRights</span><span class="sxs-lookup"><span data-stu-id="5d3be-130">EffectiveRights</span></span>](effectiverights.md) <br/> |<span data-ttu-id="5d3be-p102">包含客户端的权利基础的项或文件夹的权限设置。此元素是只读的。</span><span class="sxs-lookup"><span data-stu-id="5d3be-p102">Contains the client's rights based on the permission settings for the item or folder. This element is read-only.</span></span>  <br/> |
-|[<span data-ttu-id="5d3be-133">SharingEffectiveRights (CalendarPermissionReadAccessType)</span><span class="sxs-lookup"><span data-stu-id="5d3be-133">SharingEffectiveRights (CalendarPermissionReadAccessType)</span></span>](sharingeffectiverights-calendarpermissionreadaccesstype.md) <br/> |<span data-ttu-id="5d3be-134">指示用户正在共享的日历数据的权限。</span><span class="sxs-lookup"><span data-stu-id="5d3be-134">Indicates the permissions that the user has for the calendar data that is being shared.</span></span>  <br/> |
-|[<span data-ttu-id="5d3be-135">PermissionSet (CalendarPermissionSetType)</span><span class="sxs-lookup"><span data-stu-id="5d3be-135">PermissionSet (CalendarPermissionSetType)</span></span>](permissionset-calendarpermissionsettype.md) <br/> |<span data-ttu-id="5d3be-136">包含日历文件夹的所有已配置的权限。</span><span class="sxs-lookup"><span data-stu-id="5d3be-136">Contains all the configured permissions for a calendar folder.</span></span>  <br/> |
+|[<span data-ttu-id="3151b-113">FolderId</span><span class="sxs-lookup"><span data-stu-id="3151b-113">FolderId</span></span>](folderid.md) <br/> |<span data-ttu-id="3151b-114">包含一个文件夹的标识符和更改键。</span><span class="sxs-lookup"><span data-stu-id="3151b-114">Contains the identifier and change key of a folder.</span></span>  <br/> |
+|[<span data-ttu-id="3151b-115">ParentFolderId</span><span class="sxs-lookup"><span data-stu-id="3151b-115">ParentFolderId</span></span>](parentfolderid.md) <br/> |<span data-ttu-id="3151b-116">表示包含该文件夹的父文件夹的标识符。</span><span class="sxs-lookup"><span data-stu-id="3151b-116">Represents the identifier of the parent folder that contains the folder.</span></span>  <br/> |
+|[<span data-ttu-id="3151b-117">FolderClass</span><span class="sxs-lookup"><span data-stu-id="3151b-117">FolderClass</span></span>](folderclass.md) <br/> |<span data-ttu-id="3151b-118">表示给定文件夹的文件夹类。</span><span class="sxs-lookup"><span data-stu-id="3151b-118">Represents the folder class for a given folder.</span></span>  <br/> |
+|[<span data-ttu-id="3151b-119">显示名称 (字符串)</span><span class="sxs-lookup"><span data-stu-id="3151b-119">DisplayName (string)</span></span>](displayname-string.md) <br/> |<span data-ttu-id="3151b-120">包含文件夹的显示名称。</span><span class="sxs-lookup"><span data-stu-id="3151b-120">Contains the display name of a folder.</span></span>  <br/> |
+|[<span data-ttu-id="3151b-121">TotalCount</span><span class="sxs-lookup"><span data-stu-id="3151b-121">TotalCount</span></span>](totalcount.md) <br/> |<span data-ttu-id="3151b-122">表示给定文件夹中的项目总数。</span><span class="sxs-lookup"><span data-stu-id="3151b-122">Represents the total count of items within a given folder.</span></span>  <br/> |
+|[<span data-ttu-id="3151b-123">ChildFolderCount</span><span class="sxs-lookup"><span data-stu-id="3151b-123">ChildFolderCount</span></span>](childfoldercount.md) <br/> |<span data-ttu-id="3151b-p101">表示文件夹中包含的子文件夹数。此属性是只读的。</span><span class="sxs-lookup"><span data-stu-id="3151b-p101">Represents the number of child folders that are contained within a folder. This property is read-only.</span></span>  <br/> |
+|[<span data-ttu-id="3151b-126">ExtendedProperty</span><span class="sxs-lookup"><span data-stu-id="3151b-126">ExtendedProperty</span></span>](extendedproperty.md) <br/> |<span data-ttu-id="3151b-127">标识文件夹的扩展的属性。</span><span class="sxs-lookup"><span data-stu-id="3151b-127">Identifies extended properties on folders.</span></span>  <br/> |
+|[<span data-ttu-id="3151b-128">ManagedFolderInformation</span><span class="sxs-lookup"><span data-stu-id="3151b-128">ManagedFolderInformation</span></span>](managedfolderinformation.md) <br/> |<span data-ttu-id="3151b-129">包含有关托管文件夹的信息。</span><span class="sxs-lookup"><span data-stu-id="3151b-129">Contains information about a managed folder.</span></span>  <br/> |
+|[<span data-ttu-id="3151b-130">EffectiveRights</span><span class="sxs-lookup"><span data-stu-id="3151b-130">EffectiveRights</span></span>](effectiverights.md) <br/> |<span data-ttu-id="3151b-p102">包含客户端的权利基础的项或文件夹的权限设置。此元素是只读的。</span><span class="sxs-lookup"><span data-stu-id="3151b-p102">Contains the client's rights based on the permission settings for the item or folder. This element is read-only.</span></span>  <br/> |
+|[<span data-ttu-id="3151b-133">SharingEffectiveRights (CalendarPermissionReadAccessType)</span><span class="sxs-lookup"><span data-stu-id="3151b-133">SharingEffectiveRights (CalendarPermissionReadAccessType)</span></span>](sharingeffectiverights-calendarpermissionreadaccesstype.md) <br/> |<span data-ttu-id="3151b-134">指示用户正在共享的日历数据的权限。</span><span class="sxs-lookup"><span data-stu-id="3151b-134">Indicates the permissions that the user has for the calendar data that is being shared.</span></span>  <br/> |
+|[<span data-ttu-id="3151b-135">PermissionSet （CalendarPermissionSetType）</span><span class="sxs-lookup"><span data-stu-id="3151b-135">PermissionSet (CalendarPermissionSetType)</span></span>](permissionset-calendarpermissionsettype.md) <br/> |<span data-ttu-id="3151b-136">包含日历文件夹的所有已配置的权限。</span><span class="sxs-lookup"><span data-stu-id="3151b-136">Contains all the configured permissions for a calendar folder.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="5d3be-137">父元素</span><span class="sxs-lookup"><span data-stu-id="5d3be-137">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="3151b-137">父元素</span><span class="sxs-lookup"><span data-stu-id="3151b-137">Parent elements</span></span>
 
-|<span data-ttu-id="5d3be-138">**元素**</span><span class="sxs-lookup"><span data-stu-id="5d3be-138">**Element**</span></span>|<span data-ttu-id="5d3be-139">**说明**</span><span class="sxs-lookup"><span data-stu-id="5d3be-139">**Description**</span></span>|
+|<span data-ttu-id="3151b-138">**元素**</span><span class="sxs-lookup"><span data-stu-id="3151b-138">**Element**</span></span>|<span data-ttu-id="3151b-139">**说明**</span><span class="sxs-lookup"><span data-stu-id="3151b-139">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="5d3be-140">AppendToFolderField</span><span class="sxs-lookup"><span data-stu-id="5d3be-140">AppendToFolderField</span></span>](appendtofolderfield.md) <br/> |<span data-ttu-id="5d3be-141">指定要在[UpdateFolder Operation](updatefolder-operation.md)期间追加到文件夹属性数据。</span><span class="sxs-lookup"><span data-stu-id="5d3be-141">Specifies data to append to a folder property during an [UpdateFolder operation](updatefolder-operation.md).</span></span>  <br/> |
-|[<span data-ttu-id="5d3be-142">创建 (FolderSync)</span><span class="sxs-lookup"><span data-stu-id="5d3be-142">Create (FolderSync)</span></span>](create-foldersync.md) <br/> |<span data-ttu-id="5d3be-143">标识要在本地客户端存储中创建一个文件夹。</span><span class="sxs-lookup"><span data-stu-id="5d3be-143">Identifies a single folder to create in the local client store.</span></span>  <br/> |
-|[<span data-ttu-id="5d3be-144">SetFolderField</span><span class="sxs-lookup"><span data-stu-id="5d3be-144">SetFolderField</span></span>](setfolderfield.md) <br/> |<span data-ttu-id="5d3be-145">表示对[UpdateFolder Operation](updatefolder-operation.md)中的文件夹上的单个属性的更新。</span><span class="sxs-lookup"><span data-stu-id="5d3be-145">Represents an update to a single property on a folder in an [UpdateFolder operation](updatefolder-operation.md).</span></span>  <br/> |
-|[<span data-ttu-id="5d3be-146">更新 (FolderSync)</span><span class="sxs-lookup"><span data-stu-id="5d3be-146">Update (FolderSync)</span></span>](update-foldersync.md) <br/> |<span data-ttu-id="5d3be-147">标识要在本地客户端存储中更新单个文件夹。</span><span class="sxs-lookup"><span data-stu-id="5d3be-147">Identifies a single folder to update in the local client store.</span></span>  <br/> |
-|[<span data-ttu-id="5d3be-148">Folders</span><span class="sxs-lookup"><span data-stu-id="5d3be-148">Folders</span></span>](folders-ex15websvcsotherref.md) <br/> |<span data-ttu-id="5d3be-149">包含一数组的文件夹操作中使用的文件夹。</span><span class="sxs-lookup"><span data-stu-id="5d3be-149">Contains an array of folders that are used in folder operations.</span></span>  <br/> |
+|[<span data-ttu-id="3151b-140">AppendToFolderField</span><span class="sxs-lookup"><span data-stu-id="3151b-140">AppendToFolderField</span></span>](appendtofolderfield.md) <br/> |<span data-ttu-id="3151b-141">指定要在[UpdateFolder Operation](updatefolder-operation.md)期间追加到文件夹属性数据。</span><span class="sxs-lookup"><span data-stu-id="3151b-141">Specifies data to append to a folder property during an [UpdateFolder operation](updatefolder-operation.md).</span></span>  <br/> |
+|[<span data-ttu-id="3151b-142">创建 (FolderSync)</span><span class="sxs-lookup"><span data-stu-id="3151b-142">Create (FolderSync)</span></span>](create-foldersync.md) <br/> |<span data-ttu-id="3151b-143">标识要在本地客户端存储中创建一个文件夹。</span><span class="sxs-lookup"><span data-stu-id="3151b-143">Identifies a single folder to create in the local client store.</span></span>  <br/> |
+|[<span data-ttu-id="3151b-144">SetFolderField</span><span class="sxs-lookup"><span data-stu-id="3151b-144">SetFolderField</span></span>](setfolderfield.md) <br/> |<span data-ttu-id="3151b-145">表示对[UpdateFolder Operation](updatefolder-operation.md)中的文件夹上的单个属性的更新。</span><span class="sxs-lookup"><span data-stu-id="3151b-145">Represents an update to a single property on a folder in an [UpdateFolder operation](updatefolder-operation.md).</span></span>  <br/> |
+|[<span data-ttu-id="3151b-146">更新 (FolderSync)</span><span class="sxs-lookup"><span data-stu-id="3151b-146">Update (FolderSync)</span></span>](update-foldersync.md) <br/> |<span data-ttu-id="3151b-147">标识要在本地客户端存储中更新单个文件夹。</span><span class="sxs-lookup"><span data-stu-id="3151b-147">Identifies a single folder to update in the local client store.</span></span>  <br/> |
+|[<span data-ttu-id="3151b-148">Folders</span><span class="sxs-lookup"><span data-stu-id="3151b-148">Folders</span></span>](folders-ex15websvcsotherref.md) <br/> |<span data-ttu-id="3151b-149">包含一数组的文件夹操作中使用的文件夹。</span><span class="sxs-lookup"><span data-stu-id="3151b-149">Contains an array of folders that are used in folder operations.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="5d3be-150">备注</span><span class="sxs-lookup"><span data-stu-id="5d3be-150">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3151b-150">说明</span><span class="sxs-lookup"><span data-stu-id="3151b-150">Remarks</span></span>
 
-<span data-ttu-id="5d3be-151">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="5d3be-151">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="3151b-151">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="3151b-151">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="5d3be-152">元素信息</span><span class="sxs-lookup"><span data-stu-id="5d3be-152">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="3151b-152">元素信息</span><span class="sxs-lookup"><span data-stu-id="3151b-152">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="5d3be-153">命名空间</span><span class="sxs-lookup"><span data-stu-id="5d3be-153">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="5d3be-154">架构名称</span><span class="sxs-lookup"><span data-stu-id="5d3be-154">Schema Name</span></span>  <br/> |<span data-ttu-id="5d3be-155">类型架构</span><span class="sxs-lookup"><span data-stu-id="5d3be-155">Types schema</span></span>  <br/> |
-|<span data-ttu-id="5d3be-156">验证文件</span><span class="sxs-lookup"><span data-stu-id="5d3be-156">Validation File</span></span>  <br/> |<span data-ttu-id="5d3be-157">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="5d3be-157">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="5d3be-158">可以为空</span><span class="sxs-lookup"><span data-stu-id="5d3be-158">Can be Empty</span></span>  <br/> |<span data-ttu-id="5d3be-159">False</span><span class="sxs-lookup"><span data-stu-id="5d3be-159">False</span></span>  <br/> |
+|<span data-ttu-id="3151b-153">命名空间</span><span class="sxs-lookup"><span data-stu-id="3151b-153">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="3151b-154">架构名称</span><span class="sxs-lookup"><span data-stu-id="3151b-154">Schema Name</span></span>  <br/> |<span data-ttu-id="3151b-155">类型架构</span><span class="sxs-lookup"><span data-stu-id="3151b-155">Types schema</span></span>  <br/> |
+|<span data-ttu-id="3151b-156">验证文件</span><span class="sxs-lookup"><span data-stu-id="3151b-156">Validation File</span></span>  <br/> |<span data-ttu-id="3151b-157">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="3151b-157">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="3151b-158">可以为空</span><span class="sxs-lookup"><span data-stu-id="3151b-158">Can be Empty</span></span>  <br/> |<span data-ttu-id="3151b-159">False</span><span class="sxs-lookup"><span data-stu-id="3151b-159">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="5d3be-160">另请参阅</span><span class="sxs-lookup"><span data-stu-id="5d3be-160">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3151b-160">另请参阅</span><span class="sxs-lookup"><span data-stu-id="3151b-160">See also</span></span>
 
 
 
-- [<span data-ttu-id="5d3be-161">在交换 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="5d3be-161">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="3151b-161">Exchange 中的 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="3151b-161">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5c8a35b8-a940-4b3e-8768-9ba95766fd79
 description: ConversationNodes 元素指定会话节点的集合。
-ms.openlocfilehash: 62ec061f6d03abb9db7e511722e5570e70d65772
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 39ffb97f1004535e2fc70b58f8d56afe129e8ee2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753598"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461392"
 ---
-# <a name="conversationnodes"></a><span data-ttu-id="fc3fb-103">ConversationNodes</span><span class="sxs-lookup"><span data-stu-id="fc3fb-103">ConversationNodes</span></span>
+# <a name="conversationnodes"></a><span data-ttu-id="1b073-103">ConversationNodes</span><span class="sxs-lookup"><span data-stu-id="1b073-103">ConversationNodes</span></span>
 
-<span data-ttu-id="fc3fb-104">**ConversationNodes**元素指定会话节点的集合。</span><span class="sxs-lookup"><span data-stu-id="fc3fb-104">The **ConversationNodes** element specifies a collection of conversation nodes.</span></span> 
+<span data-ttu-id="1b073-104">**ConversationNodes**元素指定会话节点的集合。</span><span class="sxs-lookup"><span data-stu-id="1b073-104">The **ConversationNodes** element specifies a collection of conversation nodes.</span></span> 
   
 ```XML
 <ConversationNodes>
@@ -25,45 +25,45 @@ ms.locfileid: "19753598"
 </ConversationNodes>
 ```
 
- <span data-ttu-id="fc3fb-105">**ArrayOfConversationNodesType**</span><span class="sxs-lookup"><span data-stu-id="fc3fb-105">**ArrayOfConversationNodesType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="fc3fb-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="fc3fb-106">Attributes and elements</span></span>
+ <span data-ttu-id="1b073-105">**ArrayOfConversationNodesType**</span><span class="sxs-lookup"><span data-stu-id="1b073-105">**ArrayOfConversationNodesType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="1b073-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="1b073-106">Attributes and elements</span></span>
 
-<span data-ttu-id="fc3fb-107">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="fc3fb-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="1b073-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="1b073-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="fc3fb-108">属性</span><span class="sxs-lookup"><span data-stu-id="fc3fb-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="1b073-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="1b073-108">Attributes</span></span>
 
-<span data-ttu-id="fc3fb-109">无。</span><span class="sxs-lookup"><span data-stu-id="fc3fb-109">None.</span></span>
+<span data-ttu-id="1b073-109">无。</span><span class="sxs-lookup"><span data-stu-id="1b073-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="fc3fb-110">子元素</span><span class="sxs-lookup"><span data-stu-id="fc3fb-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="1b073-110">子元素</span><span class="sxs-lookup"><span data-stu-id="1b073-110">Child elements</span></span>
 
-|<span data-ttu-id="fc3fb-111">**元素**</span><span class="sxs-lookup"><span data-stu-id="fc3fb-111">**Element**</span></span>|<span data-ttu-id="fc3fb-112">**说明**</span><span class="sxs-lookup"><span data-stu-id="fc3fb-112">**Description**</span></span>|
+|<span data-ttu-id="1b073-111">**元素**</span><span class="sxs-lookup"><span data-stu-id="1b073-111">**Element**</span></span>|<span data-ttu-id="1b073-112">**说明**</span><span class="sxs-lookup"><span data-stu-id="1b073-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="fc3fb-113">ConversationNode</span><span class="sxs-lookup"><span data-stu-id="fc3fb-113">ConversationNode</span></span>](conversationnode.md) <br/> |<span data-ttu-id="fc3fb-114">在对话中指定的节点。</span><span class="sxs-lookup"><span data-stu-id="fc3fb-114">Specifies a node in a conversation.</span></span>  <br/> |
+|[<span data-ttu-id="1b073-113">ConversationNode</span><span class="sxs-lookup"><span data-stu-id="1b073-113">ConversationNode</span></span>](conversationnode.md) <br/> |<span data-ttu-id="1b073-114">指定对话中的节点。</span><span class="sxs-lookup"><span data-stu-id="1b073-114">Specifies a node in a conversation.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="fc3fb-115">父元素</span><span class="sxs-lookup"><span data-stu-id="fc3fb-115">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="1b073-115">父元素</span><span class="sxs-lookup"><span data-stu-id="1b073-115">Parent elements</span></span>
 
-|<span data-ttu-id="fc3fb-116">**元素**</span><span class="sxs-lookup"><span data-stu-id="fc3fb-116">**Element**</span></span>|<span data-ttu-id="fc3fb-117">**说明**</span><span class="sxs-lookup"><span data-stu-id="fc3fb-117">**Description**</span></span>|
+|<span data-ttu-id="1b073-116">**元素**</span><span class="sxs-lookup"><span data-stu-id="1b073-116">**Element**</span></span>|<span data-ttu-id="1b073-117">**说明**</span><span class="sxs-lookup"><span data-stu-id="1b073-117">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="fc3fb-118">对话 (ConversationResponseType)</span><span class="sxs-lookup"><span data-stu-id="fc3fb-118">Conversation (ConversationResponseType)</span></span>](conversation-conversationresponsetype.md) <br/> |<span data-ttu-id="fc3fb-119">表示**GetConversationItems**响应中返回单个对话。</span><span class="sxs-lookup"><span data-stu-id="fc3fb-119">Represents a single conversation returned in a **GetConversationItems** response.</span></span>  <br/> |
+|[<span data-ttu-id="1b073-118">对话（ConversationResponseType）</span><span class="sxs-lookup"><span data-stu-id="1b073-118">Conversation (ConversationResponseType)</span></span>](conversation-conversationresponsetype.md) <br/> |<span data-ttu-id="1b073-119">代表**GetConversationItems**响应中返回的单个对话。</span><span class="sxs-lookup"><span data-stu-id="1b073-119">Represents a single conversation returned in a **GetConversationItems** response.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="fc3fb-120">备注</span><span class="sxs-lookup"><span data-stu-id="fc3fb-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1b073-120">备注</span><span class="sxs-lookup"><span data-stu-id="1b073-120">Remarks</span></span>
 
-<span data-ttu-id="fc3fb-121">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="fc3fb-121">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="1b073-121">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="1b073-121">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="fc3fb-122">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="fc3fb-122">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="1b073-122">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="1b073-122">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="fc3fb-123">元素信息</span><span class="sxs-lookup"><span data-stu-id="fc3fb-123">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="1b073-123">元素信息</span><span class="sxs-lookup"><span data-stu-id="1b073-123">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="fc3fb-124">命名空间</span><span class="sxs-lookup"><span data-stu-id="fc3fb-124">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="fc3fb-125">架构名称</span><span class="sxs-lookup"><span data-stu-id="fc3fb-125">Schema Name</span></span>  <br/> |<span data-ttu-id="fc3fb-126">类型架构</span><span class="sxs-lookup"><span data-stu-id="fc3fb-126">Type schema</span></span>  <br/> |
-|<span data-ttu-id="fc3fb-127">验证文件</span><span class="sxs-lookup"><span data-stu-id="fc3fb-127">Validation File</span></span>  <br/> |<span data-ttu-id="fc3fb-128">types.xsd</span><span class="sxs-lookup"><span data-stu-id="fc3fb-128">types.xsd</span></span>  <br/> |
-|<span data-ttu-id="fc3fb-129">可以为空</span><span class="sxs-lookup"><span data-stu-id="fc3fb-129">Can Be Empty</span></span>  <br/> ||
+|<span data-ttu-id="1b073-124">命名空间</span><span class="sxs-lookup"><span data-stu-id="1b073-124">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="1b073-125">架构名称</span><span class="sxs-lookup"><span data-stu-id="1b073-125">Schema Name</span></span>  <br/> |<span data-ttu-id="1b073-126">类型架构</span><span class="sxs-lookup"><span data-stu-id="1b073-126">Type schema</span></span>  <br/> |
+|<span data-ttu-id="1b073-127">验证文件</span><span class="sxs-lookup"><span data-stu-id="1b073-127">Validation File</span></span>  <br/> |<span data-ttu-id="1b073-128">类型 .xsd</span><span class="sxs-lookup"><span data-stu-id="1b073-128">types.xsd</span></span>  <br/> |
+|<span data-ttu-id="1b073-129">可以为空</span><span class="sxs-lookup"><span data-stu-id="1b073-129">Can Be Empty</span></span>  <br/> ||
    
-## <a name="see-also"></a><span data-ttu-id="fc3fb-130">另请参阅</span><span class="sxs-lookup"><span data-stu-id="fc3fb-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1b073-130">另请参阅</span><span class="sxs-lookup"><span data-stu-id="1b073-130">See also</span></span>
 
 
 
-- [<span data-ttu-id="fc3fb-131">在交换 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="fc3fb-131">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="1b073-131">Exchange 中的 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="1b073-131">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 
