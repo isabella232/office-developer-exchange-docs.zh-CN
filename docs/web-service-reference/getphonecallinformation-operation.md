@@ -11,31 +11,31 @@ api_name:
 api_type:
 - schema
 ms.assetid: 418bd6ca-39d9-49a9-841e-7a71ede1fa51
-description: GetPhoneCallInformation 操作返回指定的电话呼叫的信息。
-ms.openlocfilehash: 8f98ca5dd304eadffc307fa47620b7db6401c782
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: GetPhoneCallInformation 操作将返回有关指定电话呼叫的信息。
+ms.openlocfilehash: 231b160713526f44433188e2b1e3bd98012370b1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754662"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458311"
 ---
-# <a name="getphonecallinformation-operation"></a><span data-ttu-id="d7214-103">GetPhoneCallInformation 操作</span><span class="sxs-lookup"><span data-stu-id="d7214-103">GetPhoneCallInformation operation</span></span>
+# <a name="getphonecallinformation-operation"></a><span data-ttu-id="d6c2b-103">GetPhoneCallInformation 操作</span><span class="sxs-lookup"><span data-stu-id="d6c2b-103">GetPhoneCallInformation operation</span></span>
 
-<span data-ttu-id="d7214-104">**GetPhoneCallInformation**操作返回指定的电话呼叫的信息。</span><span class="sxs-lookup"><span data-stu-id="d7214-104">The **GetPhoneCallInformation** operation returns information about the specified telephone call.</span></span> 
+<span data-ttu-id="d6c2b-104">**GetPhoneCallInformation**操作将返回有关指定电话呼叫的信息。</span><span class="sxs-lookup"><span data-stu-id="d6c2b-104">The **GetPhoneCallInformation** operation returns information about the specified telephone call.</span></span> 
   
-## <a name="getphonecallinformation-request-example"></a><span data-ttu-id="d7214-105">GetPhoneCallInformation 请求示例</span><span class="sxs-lookup"><span data-stu-id="d7214-105">GetPhoneCallInformation request example</span></span>
+## <a name="getphonecallinformation-request-example"></a><span data-ttu-id="d6c2b-105">GetPhoneCallInformation 请求示例</span><span class="sxs-lookup"><span data-stu-id="d6c2b-105">GetPhoneCallInformation request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="d7214-106">说明</span><span class="sxs-lookup"><span data-stu-id="d7214-106">Description</span></span>
+### <a name="description"></a><span data-ttu-id="d6c2b-106">说明</span><span class="sxs-lookup"><span data-stu-id="d6c2b-106">Description</span></span>
 
-<span data-ttu-id="d7214-107">**GetPhoneCallInformation**请求的下面的示例演示如何以形成一个请求以获取有关特定的电话呼叫的信息。</span><span class="sxs-lookup"><span data-stu-id="d7214-107">The following example of a **GetPhoneCallInformation** request shows how to form a request to get information about a specific telephone call.</span></span> 
+<span data-ttu-id="d6c2b-107">以下示例的**GetPhoneCallInformation**请求显示如何形成请求，以获取有关特定电话呼叫的信息。</span><span class="sxs-lookup"><span data-stu-id="d6c2b-107">The following example of a **GetPhoneCallInformation** request shows how to form a request to get information about a specific telephone call.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="d7214-108">代码</span><span class="sxs-lookup"><span data-stu-id="d7214-108">Code</span></span>
+### <a name="code"></a><span data-ttu-id="d6c2b-108">代码</span><span class="sxs-lookup"><span data-stu-id="d6c2b-108">Code</span></span>
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
                xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
@@ -49,13 +49,13 @@ ms.locfileid: "19754662"
 </soap:Envelope>
 ```
 
-## <a name="getphonecallinformation-response-example"></a><span data-ttu-id="d7214-109">GetPhoneCallInformation 响应示例</span><span class="sxs-lookup"><span data-stu-id="d7214-109">GetPhoneCallInformation response example</span></span>
+## <a name="getphonecallinformation-response-example"></a><span data-ttu-id="d6c2b-109">GetPhoneCallInformation 响应示例</span><span class="sxs-lookup"><span data-stu-id="d6c2b-109">GetPhoneCallInformation response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="d7214-110">说明</span><span class="sxs-lookup"><span data-stu-id="d7214-110">Description</span></span>
+### <a name="description"></a><span data-ttu-id="d6c2b-110">说明</span><span class="sxs-lookup"><span data-stu-id="d6c2b-110">Description</span></span>
 
-<span data-ttu-id="d7214-111">下面的示例演示对**GetPhoneCallInformation**请求成功响应。</span><span class="sxs-lookup"><span data-stu-id="d7214-111">The following example shows a successful response to the **GetPhoneCallInformation** request.</span></span> <span data-ttu-id="d7214-112">响应表示当前连接电话呼叫。</span><span class="sxs-lookup"><span data-stu-id="d7214-112">The response represents a telephone call that is currently connected.</span></span> 
+<span data-ttu-id="d6c2b-111">下面的示例演示对**GetPhoneCallInformation**请求的成功响应。</span><span class="sxs-lookup"><span data-stu-id="d6c2b-111">The following example shows a successful response to the **GetPhoneCallInformation** request.</span></span> <span data-ttu-id="d6c2b-112">响应表示当前已连接的电话呼叫。</span><span class="sxs-lookup"><span data-stu-id="d6c2b-112">The response represents a telephone call that is currently connected.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="d7214-113">代码</span><span class="sxs-lookup"><span data-stu-id="d7214-113">Code</span></span>
+### <a name="code"></a><span data-ttu-id="d6c2b-113">代码</span><span class="sxs-lookup"><span data-stu-id="d6c2b-113">Code</span></span>
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -66,27 +66,27 @@ ms.locfileid: "19754662"
                          MajorBuildNumber="639" 
                          MinorBuildNumber="20" 
                          Version="Exchange2010" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <GetPhoneCallInformationResponse ResponseClass="Success" 
-                                     xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                     xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseCode>NoError</ResponseCode>
-      <m:PhoneCallInformation xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
-        <t:PhoneCallState xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">Connected</t:PhoneCallState>
-        <t:ConnectionFailureCause xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">None</t:ConnectionFailureCause>
+      <m:PhoneCallInformation xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
+        <t:PhoneCallState xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">Connected</t:PhoneCallState>
+        <t:ConnectionFailureCause xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">None</t:ConnectionFailureCause>
       </m:PhoneCallInformation>
     </GetPhoneCallInformationResponse>
   </s:Body>
 </s:Envelope>
 ```
 
-## <a name="see-also"></a><span data-ttu-id="d7214-114">另请参阅</span><span class="sxs-lookup"><span data-stu-id="d7214-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d6c2b-114">另请参阅</span><span class="sxs-lookup"><span data-stu-id="d6c2b-114">See also</span></span>
 
-- [<span data-ttu-id="d7214-115">Exchange 中的 EWS 操作</span><span class="sxs-lookup"><span data-stu-id="d7214-115">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
-- [<span data-ttu-id="d7214-116">在交换 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="d7214-116">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="d6c2b-115">Exchange 中的 EWS 操作</span><span class="sxs-lookup"><span data-stu-id="d6c2b-115">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
+- [<span data-ttu-id="d6c2b-116">Exchange 中的 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="d6c2b-116">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

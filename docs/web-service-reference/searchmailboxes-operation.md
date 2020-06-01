@@ -7,48 +7,51 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8a67c1d8-d021-4e68-aa62-35f7d9c2edc7
-description: 查找信息 SearchMailboxes EWS 操作。
-ms.openlocfilehash: 141ea466a24f3cb400a8e0b63e2162c1eae5d7f8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 查找有关 SearchMailboxes EWS 操作的信息。
+ms.openlocfilehash: 9ec7e9dd4ef17f22f236e64ca1fdbeb65e6e56fe
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827296"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456751"
 ---
-# <a name="searchmailboxes-operation"></a><span data-ttu-id="60dd0-103">SearchMailboxes 操作</span><span class="sxs-lookup"><span data-stu-id="60dd0-103">SearchMailboxes operation</span></span>
+# <a name="searchmailboxes-operation"></a><span data-ttu-id="cb830-103">SearchMailboxes 操作</span><span class="sxs-lookup"><span data-stu-id="cb830-103">SearchMailboxes operation</span></span>
 
-<span data-ttu-id="60dd0-104">查找有关**SearchMailboxes** EWS 操作的信息。</span><span class="sxs-lookup"><span data-stu-id="60dd0-104">Find information about the **SearchMailboxes** EWS operation.</span></span> 
-  
-<span data-ttu-id="60dd0-105">**SearchMailboxes**操作搜索词的项的邮箱中的邮箱项目。</span><span class="sxs-lookup"><span data-stu-id="60dd0-105">The **SearchMailboxes** operation searches mailboxes for occurrences of terms in mailbox items.</span></span> 
-  
-<span data-ttu-id="60dd0-106">Exchange Server 2013 中引入了此操作。</span><span class="sxs-lookup"><span data-stu-id="60dd0-106">This operation was introduced in Exchange Server 2013.</span></span>
-  
-## <a name="using-the-searchmailboxes-operation"></a><span data-ttu-id="60dd0-107">使用 SearchMailboxes 操作</span><span class="sxs-lookup"><span data-stu-id="60dd0-107">Using the SearchMailboxes operation</span></span>
+> [!NOTE]
+> <span data-ttu-id="cb830-104">此操作已弃用，Microsoft 不再支持它。</span><span class="sxs-lookup"><span data-stu-id="cb830-104">This operation is deprecated, and no longer supported by Microsoft.</span></span>  <span data-ttu-id="cb830-105">作为替换，请使用[FindItem](finditem-operation.md)操作。</span><span class="sxs-lookup"><span data-stu-id="cb830-105">As a replacement, please use the [FindItem](finditem-operation.md) operation.</span></span>
 
-<span data-ttu-id="60dd0-108">**SearchMailboxes**操作可以使用多个同时搜索查询执行发现搜索在多个邮箱。</span><span class="sxs-lookup"><span data-stu-id="60dd0-108">The **SearchMailboxes** operation can use many simultaneous search queries to perform discovery search on multiple mailboxes.</span></span> <span data-ttu-id="60dd0-109">结果可以是任一统计信息的次数发生搜索词，也包含搜索词的项的预览。</span><span class="sxs-lookup"><span data-stu-id="60dd0-109">The results can be either statistical information about the number of times search terms occur, or a preview of the items that contain the search terms.</span></span> 
+<span data-ttu-id="cb830-106">查找有关**SearchMailboxes** EWS 操作的信息。</span><span class="sxs-lookup"><span data-stu-id="cb830-106">Find information about the **SearchMailboxes** EWS operation.</span></span> 
   
-### <a name="searchmailboxes-operation-soap-headers"></a><span data-ttu-id="60dd0-110">SearchMailboxes 操作 SOAP 标头</span><span class="sxs-lookup"><span data-stu-id="60dd0-110">SearchMailboxes operation SOAP headers</span></span>
+<span data-ttu-id="cb830-107">**SearchMailboxes**操作在邮箱中搜索邮箱项目中出现的术语。</span><span class="sxs-lookup"><span data-stu-id="cb830-107">The **SearchMailboxes** operation searches mailboxes for occurrences of terms in mailbox items.</span></span> 
+  
+<span data-ttu-id="cb830-108">Exchange Server 2013 中引入了此操作。</span><span class="sxs-lookup"><span data-stu-id="cb830-108">This operation was introduced in Exchange Server 2013.</span></span>
+  
+## <a name="using-the-searchmailboxes-operation"></a><span data-ttu-id="cb830-109">使用 SearchMailboxes 操作</span><span class="sxs-lookup"><span data-stu-id="cb830-109">Using the SearchMailboxes operation</span></span>
 
-<span data-ttu-id="60dd0-111">**SearchMailboxes**操作可以使用下表中列出的 SOAP 标头。</span><span class="sxs-lookup"><span data-stu-id="60dd0-111">The **SearchMailboxes** operation can use the SOAP headers that are listed in the following table.</span></span> 
+<span data-ttu-id="cb830-110">**SearchMailboxes**操作可以使用多个同时进行的搜索查询对多个邮箱执行发现搜索。</span><span class="sxs-lookup"><span data-stu-id="cb830-110">The **SearchMailboxes** operation can use many simultaneous search queries to perform discovery search on multiple mailboxes.</span></span> <span data-ttu-id="cb830-111">结果可以是有关搜索词发生次数的统计信息，也可以是包含搜索词的项目的预览。</span><span class="sxs-lookup"><span data-stu-id="cb830-111">The results can be either statistical information about the number of times search terms occur, or a preview of the items that contain the search terms.</span></span> 
   
-|<span data-ttu-id="60dd0-112">**标头名称**</span><span class="sxs-lookup"><span data-stu-id="60dd0-112">**Header name**</span></span>|<span data-ttu-id="60dd0-113">**元素**</span><span class="sxs-lookup"><span data-stu-id="60dd0-113">**Element**</span></span>|<span data-ttu-id="60dd0-114">**说明**</span><span class="sxs-lookup"><span data-stu-id="60dd0-114">**Description**</span></span>|
+### <a name="searchmailboxes-operation-soap-headers"></a><span data-ttu-id="cb830-112">SearchMailboxes 操作 SOAP 标头</span><span class="sxs-lookup"><span data-stu-id="cb830-112">SearchMailboxes operation SOAP headers</span></span>
+
+<span data-ttu-id="cb830-113">**SearchMailboxes**操作可以使用下表中列出的 SOAP 标头。</span><span class="sxs-lookup"><span data-stu-id="cb830-113">The **SearchMailboxes** operation can use the SOAP headers that are listed in the following table.</span></span> 
+  
+|<span data-ttu-id="cb830-114">**标头名称**</span><span class="sxs-lookup"><span data-stu-id="cb830-114">**Header name**</span></span>|<span data-ttu-id="cb830-115">**元素**</span><span class="sxs-lookup"><span data-stu-id="cb830-115">**Element**</span></span>|<span data-ttu-id="cb830-116">**说明**</span><span class="sxs-lookup"><span data-stu-id="cb830-116">**Description**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="60dd0-115">**ManagementRole**</span><span class="sxs-lookup"><span data-stu-id="60dd0-115">**ManagementRole**</span></span> <br/> |[<span data-ttu-id="60dd0-116">ManagementRole</span><span class="sxs-lookup"><span data-stu-id="60dd0-116">ManagementRole</span></span>](managementrole.md) <br/> |<span data-ttu-id="60dd0-117">标识服务器角色所需顺序呼叫者发出请求。</span><span class="sxs-lookup"><span data-stu-id="60dd0-117">Identifies the server roles that are necessary in order for the caller to make the request.</span></span> <span data-ttu-id="60dd0-118">适用于请求此标头。</span><span class="sxs-lookup"><span data-stu-id="60dd0-118">This header is applicable to a request.</span></span>  <br/> |
-|<span data-ttu-id="60dd0-119">**RequestVersion**</span><span class="sxs-lookup"><span data-stu-id="60dd0-119">**RequestVersion**</span></span> <br/> |[<span data-ttu-id="60dd0-120">RequestServerVersion</span><span class="sxs-lookup"><span data-stu-id="60dd0-120">RequestServerVersion</span></span>](requestserverversion.md) <br/> |<span data-ttu-id="60dd0-121">标识操作请求的架构版本。</span><span class="sxs-lookup"><span data-stu-id="60dd0-121">Identifies the schema version for the operation request.</span></span> <span data-ttu-id="60dd0-122">适用于请求此标头。</span><span class="sxs-lookup"><span data-stu-id="60dd0-122">This header is applicable to a request.</span></span>  <br/> |
-|<span data-ttu-id="60dd0-123">**ServerVersion**</span><span class="sxs-lookup"><span data-stu-id="60dd0-123">**ServerVersion**</span></span> <br/> |[<span data-ttu-id="60dd0-124">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="60dd0-124">ServerVersionInfo</span></span>](serverversioninfo.md) <br/> |<span data-ttu-id="60dd0-125">标识响应该请求的服务器的版本。</span><span class="sxs-lookup"><span data-stu-id="60dd0-125">Identifies the version of the server that responded to the request.</span></span> <span data-ttu-id="60dd0-126">适用于响应此标头。</span><span class="sxs-lookup"><span data-stu-id="60dd0-126">This header is applicable to a response.</span></span>  <br/> |
+|<span data-ttu-id="cb830-117">**Get-managementrole**</span><span class="sxs-lookup"><span data-stu-id="cb830-117">**ManagementRole**</span></span> <br/> |[<span data-ttu-id="cb830-118">Get-managementrole</span><span class="sxs-lookup"><span data-stu-id="cb830-118">ManagementRole</span></span>](managementrole.md) <br/> |<span data-ttu-id="cb830-119">标识调用方发出请求所需的服务器角色。</span><span class="sxs-lookup"><span data-stu-id="cb830-119">Identifies the server roles that are necessary in order for the caller to make the request.</span></span> <span data-ttu-id="cb830-120">此标头适用于请求。</span><span class="sxs-lookup"><span data-stu-id="cb830-120">This header is applicable to a request.</span></span>  <br/> |
+|<span data-ttu-id="cb830-121">**RequestVersion**</span><span class="sxs-lookup"><span data-stu-id="cb830-121">**RequestVersion**</span></span> <br/> |[<span data-ttu-id="cb830-122">RequestServerVersion</span><span class="sxs-lookup"><span data-stu-id="cb830-122">RequestServerVersion</span></span>](requestserverversion.md) <br/> |<span data-ttu-id="cb830-123">标识操作请求的架构版本。</span><span class="sxs-lookup"><span data-stu-id="cb830-123">Identifies the schema version for the operation request.</span></span> <span data-ttu-id="cb830-124">此标头适用于请求。</span><span class="sxs-lookup"><span data-stu-id="cb830-124">This header is applicable to a request.</span></span>  <br/> |
+|<span data-ttu-id="cb830-125">**ServerVersion**</span><span class="sxs-lookup"><span data-stu-id="cb830-125">**ServerVersion**</span></span> <br/> |[<span data-ttu-id="cb830-126">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="cb830-126">ServerVersionInfo</span></span>](serverversioninfo.md) <br/> |<span data-ttu-id="cb830-127">标识响应请求的服务器版本。</span><span class="sxs-lookup"><span data-stu-id="cb830-127">Identifies the version of the server that responded to the request.</span></span> <span data-ttu-id="cb830-128">此标头适用于响应。</span><span class="sxs-lookup"><span data-stu-id="cb830-128">This header is applicable to a response.</span></span>  <br/> |
    
-## <a name="searchmailboxes-operation-request-example-search-mailboxes-for-number-of-search-term-hits"></a><span data-ttu-id="60dd0-127">SearchMailboxes 操作请求示例： 搜索邮箱搜索术语命中数</span><span class="sxs-lookup"><span data-stu-id="60dd0-127">SearchMailboxes operation request example: Search mailboxes for number of search term hits</span></span>
+## <a name="searchmailboxes-operation-request-example-search-mailboxes-for-number-of-search-term-hits"></a><span data-ttu-id="cb830-129">SearchMailboxes 操作请求示例：搜索邮箱中搜索词命中数</span><span class="sxs-lookup"><span data-stu-id="cb830-129">SearchMailboxes operation request example: Search mailboxes for number of search term hits</span></span>
 
-<span data-ttu-id="60dd0-128">**SearchMailboxes**操作请求的下面的示例演示如何使用两个不同的查询搜索术语显示每个邮箱中有关多少次的统计信息的三个不同的邮箱。</span><span class="sxs-lookup"><span data-stu-id="60dd0-128">The following example of a **SearchMailboxes** operation request shows how to use two different queries to search three different mailboxes for statistical information about how many times a term appears in each mailbox.</span></span> 
+<span data-ttu-id="cb830-130">下面的**SearchMailboxes**操作请求示例演示如何使用两个不同的查询来搜索三个不同的邮箱，以获取有关每个邮箱中某个术语出现次数的统计信息。</span><span class="sxs-lookup"><span data-stu-id="cb830-130">The following example of a **SearchMailboxes** operation request shows how to use two different queries to search three different mailboxes for statistical information about how many times a term appears in each mailbox.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="60dd0-129">本示例中，[查询](query.md)元素是 intentionaly 留空。</span><span class="sxs-lookup"><span data-stu-id="60dd0-129">In this example, the [Query](query.md) element is intentionaly left blank.</span></span> <span data-ttu-id="60dd0-130">此时将显示如何成功的请求可包含错误条件，在每个邮箱搜索基础。</span><span class="sxs-lookup"><span data-stu-id="60dd0-130">This shows how a successful request can contain error conditions on a per mailbox search basis.</span></span> 
+> <span data-ttu-id="cb830-131">在此示例中，将 intentionaly 的[查询](query.md)元素留空。</span><span class="sxs-lookup"><span data-stu-id="cb830-131">In this example, the [Query](query.md) element is intentionaly left blank.</span></span> <span data-ttu-id="cb830-132">这说明了成功的请求如何基于每个邮箱搜索来包含错误条件。</span><span class="sxs-lookup"><span data-stu-id="cb830-132">This shows how a successful request can contain error conditions on a per mailbox search basis.</span></span> 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
    </soap:Header>
@@ -85,29 +88,29 @@ ms.locfileid: "19827296"
 
 ```
 
-<span data-ttu-id="60dd0-131">请求 SOAP 正文包含以下元素：</span><span class="sxs-lookup"><span data-stu-id="60dd0-131">The request SOAP body contains the following elements:</span></span>
+<span data-ttu-id="cb830-133">请求 SOAP 正文包含以下元素：</span><span class="sxs-lookup"><span data-stu-id="cb830-133">The request SOAP body contains the following elements:</span></span>
   
-- [<span data-ttu-id="60dd0-132">SearchMailboxes</span><span class="sxs-lookup"><span data-stu-id="60dd0-132">SearchMailboxes</span></span>](searchmailboxes.md)
+- [<span data-ttu-id="cb830-134">SearchMailboxes</span><span class="sxs-lookup"><span data-stu-id="cb830-134">SearchMailboxes</span></span>](searchmailboxes.md)
     
-- [<span data-ttu-id="60dd0-133">SearchQueries</span><span class="sxs-lookup"><span data-stu-id="60dd0-133">SearchQueries</span></span>](searchqueries.md)
+- [<span data-ttu-id="cb830-135">SearchQueries</span><span class="sxs-lookup"><span data-stu-id="cb830-135">SearchQueries</span></span>](searchqueries.md)
     
-- [<span data-ttu-id="60dd0-134">MailboxQuery</span><span class="sxs-lookup"><span data-stu-id="60dd0-134">MailboxQuery</span></span>](mailboxquery.md)
+- [<span data-ttu-id="cb830-136">MailboxQuery</span><span class="sxs-lookup"><span data-stu-id="cb830-136">MailboxQuery</span></span>](mailboxquery.md)
     
-- [<span data-ttu-id="60dd0-135">Query</span><span class="sxs-lookup"><span data-stu-id="60dd0-135">Query</span></span>](query.md)
+- [<span data-ttu-id="cb830-137">Query</span><span class="sxs-lookup"><span data-stu-id="cb830-137">Query</span></span>](query.md)
     
-- [<span data-ttu-id="60dd0-136">MailboxSearchScopes</span><span class="sxs-lookup"><span data-stu-id="60dd0-136">MailboxSearchScopes</span></span>](mailboxsearchscopes.md)
+- [<span data-ttu-id="cb830-138">MailboxSearchScopes</span><span class="sxs-lookup"><span data-stu-id="cb830-138">MailboxSearchScopes</span></span>](mailboxsearchscopes.md)
     
-- [<span data-ttu-id="60dd0-137">MailboxSearchScope</span><span class="sxs-lookup"><span data-stu-id="60dd0-137">MailboxSearchScope</span></span>](mailboxsearchscope.md)
+- [<span data-ttu-id="cb830-139">MailboxSearchScope</span><span class="sxs-lookup"><span data-stu-id="cb830-139">MailboxSearchScope</span></span>](mailboxsearchscope.md)
     
-- [<span data-ttu-id="60dd0-138">邮箱 (字符串)</span><span class="sxs-lookup"><span data-stu-id="60dd0-138">Mailbox (string)</span></span>](mailbox-string.md)
+- [<span data-ttu-id="cb830-140">邮箱 (字符串)</span><span class="sxs-lookup"><span data-stu-id="cb830-140">Mailbox (string)</span></span>](mailbox-string.md)
     
-- [<span data-ttu-id="60dd0-139">SearchScope</span><span class="sxs-lookup"><span data-stu-id="60dd0-139">SearchScope</span></span>](searchscope.md)
+- [<span data-ttu-id="cb830-141">SearchScope</span><span class="sxs-lookup"><span data-stu-id="cb830-141">SearchScope</span></span>](searchscope.md)
     
-- [<span data-ttu-id="60dd0-140">ResultType</span><span class="sxs-lookup"><span data-stu-id="60dd0-140">ResultType</span></span>](resulttype.md)
+- [<span data-ttu-id="cb830-142">ResultType</span><span class="sxs-lookup"><span data-stu-id="cb830-142">ResultType</span></span>](resulttype.md)
     
-## <a name="successful-searchmailboxes-operation-response"></a><span data-ttu-id="60dd0-141">成功 SearchMailboxes 操作响应</span><span class="sxs-lookup"><span data-stu-id="60dd0-141">Successful SearchMailboxes operation response</span></span>
+## <a name="successful-searchmailboxes-operation-response"></a><span data-ttu-id="cb830-143">成功的 SearchMailboxes 操作响应</span><span class="sxs-lookup"><span data-stu-id="cb830-143">Successful SearchMailboxes operation response</span></span>
 
-<span data-ttu-id="60dd0-142">下面的示例演示成功响应**SearchMailboxes**操作请求获取统计信息的目标邮箱中找到搜索词的次数。</span><span class="sxs-lookup"><span data-stu-id="60dd0-142">The following example shows a successful response to a **SearchMailboxes** operation request to get statistical information about the number of times search terms are found in the target mailboxes.</span></span> <span data-ttu-id="60dd0-143">上一次查询包含空的**Query**元素，其中显示失败的邮箱搜索。</span><span class="sxs-lookup"><span data-stu-id="60dd0-143">The last query contains an empty **Query** element, which shows a failed mailbox search.</span></span> 
+<span data-ttu-id="cb830-144">下面的示例演示对**SearchMailboxes**操作请求的成功响应，以获取有关在目标邮箱中找到的搜索词次数的统计信息。</span><span class="sxs-lookup"><span data-stu-id="cb830-144">The following example shows a successful response to a **SearchMailboxes** operation request to get statistical information about the number of times search terms are found in the target mailboxes.</span></span> <span data-ttu-id="cb830-145">最后一个查询包含一个空的**查询**元素，该元素显示失败的邮箱搜索。</span><span class="sxs-lookup"><span data-stu-id="cb830-145">The last query contains an empty **Query** element, which shows a failed mailbox search.</span></span> 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -118,15 +121,15 @@ ms.locfileid: "19827296"
                            MajorBuildNumber="526" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-      <m:SearchMailboxesResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                                 xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+      <m:SearchMailboxesResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                                 xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
          <m:ResponseMessages>
             <m:SearchMailboxesResponseMessage ResponseClass="Success">
                <m:ResponseCode>NoError</m:ResponseCode>
@@ -175,63 +178,63 @@ ms.locfileid: "19827296"
 
 ```
 
-<span data-ttu-id="60dd0-144">响应 SOAP 正文中包含以下元素：</span><span class="sxs-lookup"><span data-stu-id="60dd0-144">The response SOAP body contains the following elements:</span></span>
+<span data-ttu-id="cb830-146">响应 SOAP 正文包含以下元素：</span><span class="sxs-lookup"><span data-stu-id="cb830-146">The response SOAP body contains the following elements:</span></span>
   
-- [<span data-ttu-id="60dd0-145">SearchMailboxesResponse</span><span class="sxs-lookup"><span data-stu-id="60dd0-145">SearchMailboxesResponse</span></span>](searchmailboxesresponse.md)
+- [<span data-ttu-id="cb830-147">SearchMailboxesResponse</span><span class="sxs-lookup"><span data-stu-id="cb830-147">SearchMailboxesResponse</span></span>](searchmailboxesresponse.md)
     
-- [<span data-ttu-id="60dd0-146">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="60dd0-146">ResponseMessages</span></span>](responsemessages.md)
+- [<span data-ttu-id="cb830-148">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="cb830-148">ResponseMessages</span></span>](responsemessages.md)
     
-- [<span data-ttu-id="60dd0-147">SearchMailboxesResponseMessage</span><span class="sxs-lookup"><span data-stu-id="60dd0-147">SearchMailboxesResponseMessage</span></span>](searchmailboxesresponsemessage.md)
+- [<span data-ttu-id="cb830-149">SearchMailboxesResponseMessage</span><span class="sxs-lookup"><span data-stu-id="cb830-149">SearchMailboxesResponseMessage</span></span>](searchmailboxesresponsemessage.md)
     
-- [<span data-ttu-id="60dd0-148">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="60dd0-148">ResponseCode</span></span>](responsecode.md)
+- [<span data-ttu-id="cb830-150">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="cb830-150">ResponseCode</span></span>](responsecode.md)
     
-- [<span data-ttu-id="60dd0-149">SearchMailboxesResult</span><span class="sxs-lookup"><span data-stu-id="60dd0-149">SearchMailboxesResult</span></span>](searchmailboxesresult.md)
+- [<span data-ttu-id="cb830-151">SearchMailboxesResult</span><span class="sxs-lookup"><span data-stu-id="cb830-151">SearchMailboxesResult</span></span>](searchmailboxesresult.md)
     
-- [<span data-ttu-id="60dd0-150">SearchQueries</span><span class="sxs-lookup"><span data-stu-id="60dd0-150">SearchQueries</span></span>](searchqueries.md)
+- [<span data-ttu-id="cb830-152">SearchQueries</span><span class="sxs-lookup"><span data-stu-id="cb830-152">SearchQueries</span></span>](searchqueries.md)
     
-- [<span data-ttu-id="60dd0-151">MailboxQuery</span><span class="sxs-lookup"><span data-stu-id="60dd0-151">MailboxQuery</span></span>](mailboxquery.md)
+- [<span data-ttu-id="cb830-153">MailboxQuery</span><span class="sxs-lookup"><span data-stu-id="cb830-153">MailboxQuery</span></span>](mailboxquery.md)
     
-- [<span data-ttu-id="60dd0-152">Query</span><span class="sxs-lookup"><span data-stu-id="60dd0-152">Query</span></span>](query.md)
+- [<span data-ttu-id="cb830-154">Query</span><span class="sxs-lookup"><span data-stu-id="cb830-154">Query</span></span>](query.md)
     
-- [<span data-ttu-id="60dd0-153">MailboxSearchScopes</span><span class="sxs-lookup"><span data-stu-id="60dd0-153">MailboxSearchScopes</span></span>](mailboxsearchscopes.md)
+- [<span data-ttu-id="cb830-155">MailboxSearchScopes</span><span class="sxs-lookup"><span data-stu-id="cb830-155">MailboxSearchScopes</span></span>](mailboxsearchscopes.md)
     
-- [<span data-ttu-id="60dd0-154">MailboxSearchScope</span><span class="sxs-lookup"><span data-stu-id="60dd0-154">MailboxSearchScope</span></span>](mailboxsearchscope.md)
+- [<span data-ttu-id="cb830-156">MailboxSearchScope</span><span class="sxs-lookup"><span data-stu-id="cb830-156">MailboxSearchScope</span></span>](mailboxsearchscope.md)
     
-- [<span data-ttu-id="60dd0-155">邮箱 (字符串)</span><span class="sxs-lookup"><span data-stu-id="60dd0-155">Mailbox (string)</span></span>](mailbox-string.md)
+- [<span data-ttu-id="cb830-157">邮箱 (字符串)</span><span class="sxs-lookup"><span data-stu-id="cb830-157">Mailbox (string)</span></span>](mailbox-string.md)
     
-- [<span data-ttu-id="60dd0-156">SearchScope</span><span class="sxs-lookup"><span data-stu-id="60dd0-156">SearchScope</span></span>](searchscope.md)
+- [<span data-ttu-id="cb830-158">SearchScope</span><span class="sxs-lookup"><span data-stu-id="cb830-158">SearchScope</span></span>](searchscope.md)
     
-- [<span data-ttu-id="60dd0-157">ResultType</span><span class="sxs-lookup"><span data-stu-id="60dd0-157">ResultType</span></span>](resulttype.md)
+- [<span data-ttu-id="cb830-159">ResultType</span><span class="sxs-lookup"><span data-stu-id="cb830-159">ResultType</span></span>](resulttype.md)
     
-- [<span data-ttu-id="60dd0-158">ItemCount</span><span class="sxs-lookup"><span data-stu-id="60dd0-158">ItemCount</span></span>](itemcount.md)
+- [<span data-ttu-id="cb830-160">ItemCount</span><span class="sxs-lookup"><span data-stu-id="cb830-160">ItemCount</span></span>](itemcount.md)
     
-- [<span data-ttu-id="60dd0-159">大小 (long)</span><span class="sxs-lookup"><span data-stu-id="60dd0-159">Size (long)</span></span>](size-long.md)
+- [<span data-ttu-id="cb830-161">大小（long）</span><span class="sxs-lookup"><span data-stu-id="cb830-161">Size (long)</span></span>](size-long.md)
     
-- [<span data-ttu-id="60dd0-160">PageItemCount</span><span class="sxs-lookup"><span data-stu-id="60dd0-160">PageItemCount</span></span>](pageitemcount.md)
+- [<span data-ttu-id="cb830-162">PageItemCount</span><span class="sxs-lookup"><span data-stu-id="cb830-162">PageItemCount</span></span>](pageitemcount.md)
     
-- [<span data-ttu-id="60dd0-161">KeywordStats</span><span class="sxs-lookup"><span data-stu-id="60dd0-161">KeywordStats</span></span>](keywordstats.md)
+- [<span data-ttu-id="cb830-163">KeywordStats</span><span class="sxs-lookup"><span data-stu-id="cb830-163">KeywordStats</span></span>](keywordstats.md)
     
-- [<span data-ttu-id="60dd0-162">KeywordStat</span><span class="sxs-lookup"><span data-stu-id="60dd0-162">KeywordStat</span></span>](keywordstat.md)
+- [<span data-ttu-id="cb830-164">KeywordStat</span><span class="sxs-lookup"><span data-stu-id="cb830-164">KeywordStat</span></span>](keywordstat.md)
     
-- [<span data-ttu-id="60dd0-163">关键字</span><span class="sxs-lookup"><span data-stu-id="60dd0-163">Keyword</span></span>](keyword.md)
+- [<span data-ttu-id="cb830-165">关键字</span><span class="sxs-lookup"><span data-stu-id="cb830-165">Keyword</span></span>](keyword.md)
     
-- [<span data-ttu-id="60dd0-164">ItemHits</span><span class="sxs-lookup"><span data-stu-id="60dd0-164">ItemHits</span></span>](itemhits.md)
+- [<span data-ttu-id="cb830-166">ItemHits</span><span class="sxs-lookup"><span data-stu-id="cb830-166">ItemHits</span></span>](itemhits.md)
     
-- [<span data-ttu-id="60dd0-165">FailedMailboxes</span><span class="sxs-lookup"><span data-stu-id="60dd0-165">FailedMailboxes</span></span>](failedmailboxes.md)
+- [<span data-ttu-id="cb830-167">FailedMailboxes</span><span class="sxs-lookup"><span data-stu-id="cb830-167">FailedMailboxes</span></span>](failedmailboxes.md)
     
-- [<span data-ttu-id="60dd0-166">FailedMailbox</span><span class="sxs-lookup"><span data-stu-id="60dd0-166">FailedMailbox</span></span>](failedmailbox.md)
+- [<span data-ttu-id="cb830-168">FailedMailbox</span><span class="sxs-lookup"><span data-stu-id="cb830-168">FailedMailbox</span></span>](failedmailbox.md)
     
-- [<span data-ttu-id="60dd0-167">邮箱 (字符串)</span><span class="sxs-lookup"><span data-stu-id="60dd0-167">Mailbox (string)</span></span>](mailbox-string.md)
+- [<span data-ttu-id="cb830-169">邮箱 (字符串)</span><span class="sxs-lookup"><span data-stu-id="cb830-169">Mailbox (string)</span></span>](mailbox-string.md)
     
-- [<span data-ttu-id="60dd0-168">错误代码 (int)</span><span class="sxs-lookup"><span data-stu-id="60dd0-168">ErrorCode (int)</span></span>](errorcode-int.md)
+- [<span data-ttu-id="cb830-170">错误代码 (int)</span><span class="sxs-lookup"><span data-stu-id="cb830-170">ErrorCode (int)</span></span>](errorcode-int.md)
     
-- [<span data-ttu-id="60dd0-169">ErrorMessage</span><span class="sxs-lookup"><span data-stu-id="60dd0-169">ErrorMessage</span></span>](errormessage.md)
+- [<span data-ttu-id="cb830-171">ErrorMessage</span><span class="sxs-lookup"><span data-stu-id="cb830-171">ErrorMessage</span></span>](errormessage.md)
     
-- [<span data-ttu-id="60dd0-170">IsArchive</span><span class="sxs-lookup"><span data-stu-id="60dd0-170">IsArchive</span></span>](isarchive.md)
+- [<span data-ttu-id="cb830-172">IsArchive</span><span class="sxs-lookup"><span data-stu-id="cb830-172">IsArchive</span></span>](isarchive.md)
     
-## <a name="searchmailboxes-operation-error-response"></a><span data-ttu-id="60dd0-171">SearchMailboxes 操作错误响应</span><span class="sxs-lookup"><span data-stu-id="60dd0-171">SearchMailboxes operation error response</span></span>
+## <a name="searchmailboxes-operation-error-response"></a><span data-ttu-id="cb830-173">SearchMailboxes 操作错误响应</span><span class="sxs-lookup"><span data-stu-id="cb830-173">SearchMailboxes operation error response</span></span>
 
-<span data-ttu-id="60dd0-172">下面的示例演示对**SearchMailboxes**操作请求错误响应。</span><span class="sxs-lookup"><span data-stu-id="60dd0-172">The following example shows an error response to a **SearchMailboxes** operation request.</span></span> <span data-ttu-id="60dd0-173">这是对搜索邮箱的邮箱标识符时不正确的请求的响应。</span><span class="sxs-lookup"><span data-stu-id="60dd0-173">This is a response to a request to search a mailbox when the mailbox identifier is incorrect.</span></span> 
+<span data-ttu-id="cb830-174">下面的示例演示对**SearchMailboxes**操作请求的错误响应。</span><span class="sxs-lookup"><span data-stu-id="cb830-174">The following example shows an error response to a **SearchMailboxes** operation request.</span></span> <span data-ttu-id="cb830-175">这是对邮箱标识符不正确时搜索邮箱的请求的响应。</span><span class="sxs-lookup"><span data-stu-id="cb830-175">This is a response to a request to search a mailbox when the mailbox identifier is incorrect.</span></span> 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -242,15 +245,15 @@ ms.locfileid: "19827296"
                            MajorBuildNumber="526" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-      <m:SearchMailboxesResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                                 xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+      <m:SearchMailboxesResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                                 xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
          <m:ResponseMessages>
             <m:SearchMailboxesResponseMessage ResponseClass="Error">
                <m:MessageText>No mailbox is specified for search operation. If specified in the request, 
@@ -292,70 +295,70 @@ ms.locfileid: "19827296"
 
 ```
 
-<span data-ttu-id="60dd0-174">错误响应 SOAP 正文包含以下元素：</span><span class="sxs-lookup"><span data-stu-id="60dd0-174">The error response SOAP body contains the following elements:</span></span>
+<span data-ttu-id="cb830-176">错误响应 SOAP 正文包含以下元素：</span><span class="sxs-lookup"><span data-stu-id="cb830-176">The error response SOAP body contains the following elements:</span></span>
   
-- [<span data-ttu-id="60dd0-175">SearchMailboxesResponse</span><span class="sxs-lookup"><span data-stu-id="60dd0-175">SearchMailboxesResponse</span></span>](searchmailboxesresponse.md)
+- [<span data-ttu-id="cb830-177">SearchMailboxesResponse</span><span class="sxs-lookup"><span data-stu-id="cb830-177">SearchMailboxesResponse</span></span>](searchmailboxesresponse.md)
     
-- [<span data-ttu-id="60dd0-176">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="60dd0-176">ResponseMessages</span></span>](responsemessages.md)
+- [<span data-ttu-id="cb830-178">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="cb830-178">ResponseMessages</span></span>](responsemessages.md)
     
-- [<span data-ttu-id="60dd0-177">SearchMailboxesResponseMessage</span><span class="sxs-lookup"><span data-stu-id="60dd0-177">SearchMailboxesResponseMessage</span></span>](searchmailboxesresponsemessage.md)
+- [<span data-ttu-id="cb830-179">SearchMailboxesResponseMessage</span><span class="sxs-lookup"><span data-stu-id="cb830-179">SearchMailboxesResponseMessage</span></span>](searchmailboxesresponsemessage.md)
     
-- [<span data-ttu-id="60dd0-178">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="60dd0-178">ResponseCode</span></span>](responsecode.md)
+- [<span data-ttu-id="cb830-180">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="cb830-180">ResponseCode</span></span>](responsecode.md)
     
-- [<span data-ttu-id="60dd0-179">SearchMailboxesResult</span><span class="sxs-lookup"><span data-stu-id="60dd0-179">SearchMailboxesResult</span></span>](searchmailboxesresult.md)
+- [<span data-ttu-id="cb830-181">SearchMailboxesResult</span><span class="sxs-lookup"><span data-stu-id="cb830-181">SearchMailboxesResult</span></span>](searchmailboxesresult.md)
     
-- [<span data-ttu-id="60dd0-180">SearchQueries</span><span class="sxs-lookup"><span data-stu-id="60dd0-180">SearchQueries</span></span>](searchqueries.md)
+- [<span data-ttu-id="cb830-182">SearchQueries</span><span class="sxs-lookup"><span data-stu-id="cb830-182">SearchQueries</span></span>](searchqueries.md)
     
-- [<span data-ttu-id="60dd0-181">MailboxQuery</span><span class="sxs-lookup"><span data-stu-id="60dd0-181">MailboxQuery</span></span>](mailboxquery.md)
+- [<span data-ttu-id="cb830-183">MailboxQuery</span><span class="sxs-lookup"><span data-stu-id="cb830-183">MailboxQuery</span></span>](mailboxquery.md)
     
-- [<span data-ttu-id="60dd0-182">Query</span><span class="sxs-lookup"><span data-stu-id="60dd0-182">Query</span></span>](query.md)
+- [<span data-ttu-id="cb830-184">Query</span><span class="sxs-lookup"><span data-stu-id="cb830-184">Query</span></span>](query.md)
     
-- [<span data-ttu-id="60dd0-183">MailboxSearchScopes</span><span class="sxs-lookup"><span data-stu-id="60dd0-183">MailboxSearchScopes</span></span>](mailboxsearchscopes.md)
+- [<span data-ttu-id="cb830-185">MailboxSearchScopes</span><span class="sxs-lookup"><span data-stu-id="cb830-185">MailboxSearchScopes</span></span>](mailboxsearchscopes.md)
     
-- [<span data-ttu-id="60dd0-184">MailboxSearchScope</span><span class="sxs-lookup"><span data-stu-id="60dd0-184">MailboxSearchScope</span></span>](mailboxsearchscope.md)
+- [<span data-ttu-id="cb830-186">MailboxSearchScope</span><span class="sxs-lookup"><span data-stu-id="cb830-186">MailboxSearchScope</span></span>](mailboxsearchscope.md)
     
-- [<span data-ttu-id="60dd0-185">邮箱 (字符串)</span><span class="sxs-lookup"><span data-stu-id="60dd0-185">Mailbox (string)</span></span>](mailbox-string.md)
+- [<span data-ttu-id="cb830-187">邮箱 (字符串)</span><span class="sxs-lookup"><span data-stu-id="cb830-187">Mailbox (string)</span></span>](mailbox-string.md)
     
-- [<span data-ttu-id="60dd0-186">SearchScope</span><span class="sxs-lookup"><span data-stu-id="60dd0-186">SearchScope</span></span>](searchscope.md)
+- [<span data-ttu-id="cb830-188">SearchScope</span><span class="sxs-lookup"><span data-stu-id="cb830-188">SearchScope</span></span>](searchscope.md)
     
-- [<span data-ttu-id="60dd0-187">ResultType</span><span class="sxs-lookup"><span data-stu-id="60dd0-187">ResultType</span></span>](resulttype.md)
+- [<span data-ttu-id="cb830-189">ResultType</span><span class="sxs-lookup"><span data-stu-id="cb830-189">ResultType</span></span>](resulttype.md)
     
-- [<span data-ttu-id="60dd0-188">ItemCount</span><span class="sxs-lookup"><span data-stu-id="60dd0-188">ItemCount</span></span>](itemcount.md)
+- [<span data-ttu-id="cb830-190">ItemCount</span><span class="sxs-lookup"><span data-stu-id="cb830-190">ItemCount</span></span>](itemcount.md)
     
-- [<span data-ttu-id="60dd0-189">大小 (long)</span><span class="sxs-lookup"><span data-stu-id="60dd0-189">Size (long)</span></span>](size-long.md)
+- [<span data-ttu-id="cb830-191">大小（long）</span><span class="sxs-lookup"><span data-stu-id="cb830-191">Size (long)</span></span>](size-long.md)
     
-- [<span data-ttu-id="60dd0-190">PageItemCount</span><span class="sxs-lookup"><span data-stu-id="60dd0-190">PageItemCount</span></span>](pageitemcount.md)
+- [<span data-ttu-id="cb830-192">PageItemCount</span><span class="sxs-lookup"><span data-stu-id="cb830-192">PageItemCount</span></span>](pageitemcount.md)
     
-- [<span data-ttu-id="60dd0-191">PageItemSize</span><span class="sxs-lookup"><span data-stu-id="60dd0-191">PageItemSize</span></span>](pageitemsize.md)
+- [<span data-ttu-id="cb830-193">PageItemSize</span><span class="sxs-lookup"><span data-stu-id="cb830-193">PageItemSize</span></span>](pageitemsize.md)
     
-- [<span data-ttu-id="60dd0-192">FailedMailboxes</span><span class="sxs-lookup"><span data-stu-id="60dd0-192">FailedMailboxes</span></span>](failedmailboxes.md)
+- [<span data-ttu-id="cb830-194">FailedMailboxes</span><span class="sxs-lookup"><span data-stu-id="cb830-194">FailedMailboxes</span></span>](failedmailboxes.md)
     
-- [<span data-ttu-id="60dd0-193">FailedMailbox</span><span class="sxs-lookup"><span data-stu-id="60dd0-193">FailedMailbox</span></span>](failedmailbox.md)
+- [<span data-ttu-id="cb830-195">FailedMailbox</span><span class="sxs-lookup"><span data-stu-id="cb830-195">FailedMailbox</span></span>](failedmailbox.md)
     
-- [<span data-ttu-id="60dd0-194">邮箱 (字符串)</span><span class="sxs-lookup"><span data-stu-id="60dd0-194">Mailbox (string)</span></span>](mailbox-string.md)
+- [<span data-ttu-id="cb830-196">邮箱 (字符串)</span><span class="sxs-lookup"><span data-stu-id="cb830-196">Mailbox (string)</span></span>](mailbox-string.md)
     
-- [<span data-ttu-id="60dd0-195">错误代码 (int)</span><span class="sxs-lookup"><span data-stu-id="60dd0-195">ErrorCode (int)</span></span>](errorcode-int.md)
+- [<span data-ttu-id="cb830-197">错误代码 (int)</span><span class="sxs-lookup"><span data-stu-id="cb830-197">ErrorCode (int)</span></span>](errorcode-int.md)
     
-- [<span data-ttu-id="60dd0-196">ErrorMessage</span><span class="sxs-lookup"><span data-stu-id="60dd0-196">ErrorMessage</span></span>](errormessage.md)
+- [<span data-ttu-id="cb830-198">ErrorMessage</span><span class="sxs-lookup"><span data-stu-id="cb830-198">ErrorMessage</span></span>](errormessage.md)
     
-- [<span data-ttu-id="60dd0-197">IsArchive</span><span class="sxs-lookup"><span data-stu-id="60dd0-197">IsArchive</span></span>](isarchive.md)
+- [<span data-ttu-id="cb830-199">IsArchive</span><span class="sxs-lookup"><span data-stu-id="cb830-199">IsArchive</span></span>](isarchive.md)
     
-<span data-ttu-id="60dd0-198">通用到 EWS 且特定于此操作的其他错误代码，请参阅[ResponseCode](responsecode.md)。</span><span class="sxs-lookup"><span data-stu-id="60dd0-198">For additional error codes that are generic to EWS and specific to this operation, see [ResponseCode](responsecode.md).</span></span>
+<span data-ttu-id="cb830-200">有关对 EWS 通用的其他错误代码以及特定于此操作的错误代码，请参阅[ResponseCode](responsecode.md)。</span><span class="sxs-lookup"><span data-stu-id="cb830-200">For additional error codes that are generic to EWS and specific to this operation, see [ResponseCode](responsecode.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="60dd0-199">另请参阅</span><span class="sxs-lookup"><span data-stu-id="60dd0-199">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="cb830-201">另请参阅</span><span class="sxs-lookup"><span data-stu-id="cb830-201">See also</span></span>
 
-- [<span data-ttu-id="60dd0-200">Exchange 中的 EWS 操作</span><span class="sxs-lookup"><span data-stu-id="60dd0-200">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
+- [<span data-ttu-id="cb830-202">Exchange 中的 EWS 操作</span><span class="sxs-lookup"><span data-stu-id="cb830-202">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
     
-- [<span data-ttu-id="60dd0-201">GetSearchableMailboxes 操作</span><span class="sxs-lookup"><span data-stu-id="60dd0-201">GetSearchableMailboxes operation</span></span>](getsearchablemailboxes-operation.md)
+- [<span data-ttu-id="cb830-203">GetSearchableMailboxes 操作</span><span class="sxs-lookup"><span data-stu-id="cb830-203">GetSearchableMailboxes operation</span></span>](getsearchablemailboxes-operation.md)
     
-- [<span data-ttu-id="60dd0-202">SetHoldOnMailboxes 操作</span><span class="sxs-lookup"><span data-stu-id="60dd0-202">SetHoldOnMailboxes operation</span></span>](setholdonmailboxes-operation.md)
+- [<span data-ttu-id="cb830-204">SetHoldOnMailboxes 操作</span><span class="sxs-lookup"><span data-stu-id="cb830-204">SetHoldOnMailboxes operation</span></span>](setholdonmailboxes-operation.md)
     
-- [<span data-ttu-id="60dd0-203">GetHoldOnMailboxes 操作</span><span class="sxs-lookup"><span data-stu-id="60dd0-203">GetHoldOnMailboxes operation</span></span>](getholdonmailboxes-operation.md)
+- [<span data-ttu-id="cb830-205">GetHoldOnMailboxes 操作</span><span class="sxs-lookup"><span data-stu-id="cb830-205">GetHoldOnMailboxes operation</span></span>](getholdonmailboxes-operation.md)
     
-- [<span data-ttu-id="60dd0-204">GetDiscoverySearchConfiguration 操作</span><span class="sxs-lookup"><span data-stu-id="60dd0-204">GetDiscoverySearchConfiguration operation</span></span>](getdiscoverysearchconfiguration-operation.md)
+- [<span data-ttu-id="cb830-206">GetDiscoverySearchConfiguration 操作</span><span class="sxs-lookup"><span data-stu-id="cb830-206">GetDiscoverySearchConfiguration operation</span></span>](getdiscoverysearchconfiguration-operation.md)
     
-- [<span data-ttu-id="60dd0-205">GetNonIndexableItemDetails 操作</span><span class="sxs-lookup"><span data-stu-id="60dd0-205">GetNonIndexableItemDetails operation</span></span>](getnonindexableitemdetails-operation.md)
+- [<span data-ttu-id="cb830-207">GetNonIndexableItemDetails 操作</span><span class="sxs-lookup"><span data-stu-id="cb830-207">GetNonIndexableItemDetails operation</span></span>](getnonindexableitemdetails-operation.md)
     
-- [<span data-ttu-id="60dd0-206">GetNonIndexableItemStatistics 操作</span><span class="sxs-lookup"><span data-stu-id="60dd0-206">GetNonIndexableItemStatistics operation</span></span>](getnonindexableitemstatistics-operation.md)
+- [<span data-ttu-id="cb830-208">GetNonIndexableItemStatistics 操作</span><span class="sxs-lookup"><span data-stu-id="cb830-208">GetNonIndexableItemStatistics operation</span></span>](getnonindexableitemstatistics-operation.md)
     
 

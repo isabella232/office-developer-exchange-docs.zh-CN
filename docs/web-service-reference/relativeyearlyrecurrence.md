@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 25b67876-9979-4a30-a637-357ea10a93b8
-description: RelativeYearlyRecurrence 元素描述相对的每年定期模式。
-ms.openlocfilehash: ce8d2b134ce1fa34cbce8bd2fa921cab18d908a4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: RelativeYearlyRecurrence 元素描述相对年定期模式。
+ms.openlocfilehash: 2abe09ddfe52c24211ef5d0a392ddecaf15bf7bf
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827057"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456724"
 ---
-# <a name="relativeyearlyrecurrence"></a><span data-ttu-id="bc6bd-103">RelativeYearlyRecurrence</span><span class="sxs-lookup"><span data-stu-id="bc6bd-103">RelativeYearlyRecurrence</span></span>
+# <a name="relativeyearlyrecurrence"></a><span data-ttu-id="ff22b-103">RelativeYearlyRecurrence</span><span class="sxs-lookup"><span data-stu-id="ff22b-103">RelativeYearlyRecurrence</span></span>
 
-<span data-ttu-id="bc6bd-104">**RelativeYearlyRecurrence**元素描述相对的每年定期模式。</span><span class="sxs-lookup"><span data-stu-id="bc6bd-104">The **RelativeYearlyRecurrence** element describes a relative yearly recurrence pattern.</span></span> 
+<span data-ttu-id="ff22b-104">**RelativeYearlyRecurrence**元素描述相对年定期模式。</span><span class="sxs-lookup"><span data-stu-id="ff22b-104">The **RelativeYearlyRecurrence** element describes a relative yearly recurrence pattern.</span></span> 
   
 ```xml
 <RelativeYearlyRecurrence>
@@ -31,48 +31,48 @@ ms.locfileid: "19827057"
 </RelativeYearlyRecurrence>
 ```
 
- <span data-ttu-id="bc6bd-105">**RelativeYearlyRecurrencePatternType**</span><span class="sxs-lookup"><span data-stu-id="bc6bd-105">**RelativeYearlyRecurrencePatternType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="bc6bd-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="bc6bd-106">Attributes and elements</span></span>
+ <span data-ttu-id="ff22b-105">**RelativeYearlyRecurrencePatternType**</span><span class="sxs-lookup"><span data-stu-id="ff22b-105">**RelativeYearlyRecurrencePatternType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="ff22b-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="ff22b-106">Attributes and elements</span></span>
 
-<span data-ttu-id="bc6bd-107">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="bc6bd-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="ff22b-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="ff22b-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="bc6bd-108">属性</span><span class="sxs-lookup"><span data-stu-id="bc6bd-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="ff22b-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="ff22b-108">Attributes</span></span>
 
-<span data-ttu-id="bc6bd-109">无。</span><span class="sxs-lookup"><span data-stu-id="bc6bd-109">None.</span></span>
+<span data-ttu-id="ff22b-109">无。</span><span class="sxs-lookup"><span data-stu-id="ff22b-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="bc6bd-110">子元素</span><span class="sxs-lookup"><span data-stu-id="bc6bd-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="ff22b-110">子元素</span><span class="sxs-lookup"><span data-stu-id="ff22b-110">Child elements</span></span>
 
-|<span data-ttu-id="bc6bd-111">**元素**</span><span class="sxs-lookup"><span data-stu-id="bc6bd-111">**Element**</span></span>|<span data-ttu-id="bc6bd-112">**说明**</span><span class="sxs-lookup"><span data-stu-id="bc6bd-112">**Description**</span></span>|
+|<span data-ttu-id="ff22b-111">**元素**</span><span class="sxs-lookup"><span data-stu-id="ff22b-111">**Element**</span></span>|<span data-ttu-id="ff22b-112">**说明**</span><span class="sxs-lookup"><span data-stu-id="ff22b-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="bc6bd-113">DaysOfWeek (DayOfWeekType)</span><span class="sxs-lookup"><span data-stu-id="bc6bd-113">DaysOfWeek (DayOfWeekType)</span></span>](daysofweek-dayofweektype.md) <br/> |<span data-ttu-id="bc6bd-114">描述项定期模式中使用内容的星期数。</span><span class="sxs-lookup"><span data-stu-id="bc6bd-114">Describes the days of the week that are used in item recurrence patterns.</span></span>  <br/> |
-|[<span data-ttu-id="bc6bd-115">DayOfWeekIndex</span><span class="sxs-lookup"><span data-stu-id="bc6bd-115">DayOfWeekIndex</span></span>](dayofweekindex.md) <br/> |<span data-ttu-id="bc6bd-116">介绍在相对的每年定期模式中使用一个月中的周。</span><span class="sxs-lookup"><span data-stu-id="bc6bd-116">Describes which week in a month is used in a relative yearly recurrence pattern.</span></span>  <br/> |
-|[<span data-ttu-id="bc6bd-117">每月 （项重复）</span><span class="sxs-lookup"><span data-stu-id="bc6bd-117">Month (Item Recurrence)</span></span>](month-item-recurrence.md) <br/> |<span data-ttu-id="bc6bd-118">介绍当每年定期项目发生的月份。</span><span class="sxs-lookup"><span data-stu-id="bc6bd-118">Describes the month when a yearly recurring item occurs.</span></span>  <br/> |
+|[<span data-ttu-id="ff22b-113">DaysOfWeek （DayOfWeekType）</span><span class="sxs-lookup"><span data-stu-id="ff22b-113">DaysOfWeek (DayOfWeekType)</span></span>](daysofweek-dayofweektype.md) <br/> |<span data-ttu-id="ff22b-114">介绍在项目定期模式中使用的一周中的各天。</span><span class="sxs-lookup"><span data-stu-id="ff22b-114">Describes the days of the week that are used in item recurrence patterns.</span></span>  <br/> |
+|[<span data-ttu-id="ff22b-115">DayOfWeekIndex</span><span class="sxs-lookup"><span data-stu-id="ff22b-115">DayOfWeekIndex</span></span>](dayofweekindex.md) <br/> |<span data-ttu-id="ff22b-116">介绍在相对年定期模式中使用某个月中的哪一周。</span><span class="sxs-lookup"><span data-stu-id="ff22b-116">Describes which week in a month is used in a relative yearly recurrence pattern.</span></span>  <br/> |
+|[<span data-ttu-id="ff22b-117">月（项目定期）</span><span class="sxs-lookup"><span data-stu-id="ff22b-117">Month (Item Recurrence)</span></span>](month-item-recurrence.md) <br/> |<span data-ttu-id="ff22b-118">描述每年定期项目发生的月份。</span><span class="sxs-lookup"><span data-stu-id="ff22b-118">Describes the month when a yearly recurring item occurs.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="bc6bd-119">父元素</span><span class="sxs-lookup"><span data-stu-id="bc6bd-119">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="ff22b-119">父元素</span><span class="sxs-lookup"><span data-stu-id="ff22b-119">Parent elements</span></span>
 
-|<span data-ttu-id="bc6bd-120">**元素**</span><span class="sxs-lookup"><span data-stu-id="bc6bd-120">**Element**</span></span>|<span data-ttu-id="bc6bd-121">**说明**</span><span class="sxs-lookup"><span data-stu-id="bc6bd-121">**Description**</span></span>|
+|<span data-ttu-id="ff22b-120">**元素**</span><span class="sxs-lookup"><span data-stu-id="ff22b-120">**Element**</span></span>|<span data-ttu-id="ff22b-121">**说明**</span><span class="sxs-lookup"><span data-stu-id="ff22b-121">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="bc6bd-122">定期 (TaskRecurrenceType)</span><span class="sxs-lookup"><span data-stu-id="bc6bd-122">Recurrence (TaskRecurrenceType)</span></span>](recurrence-taskrecurrencetype.md) <br/> |<span data-ttu-id="bc6bd-123">包含定期周期性任务信息。</span><span class="sxs-lookup"><span data-stu-id="bc6bd-123">Contains recurrence information for recurring tasks.</span></span>  <br/> |
-|[<span data-ttu-id="bc6bd-124">定期 (RecurrenceType)</span><span class="sxs-lookup"><span data-stu-id="bc6bd-124">Recurrence (RecurrenceType)</span></span>](recurrence-recurrencetype.md) <br/> |<span data-ttu-id="bc6bd-125">包含日历项和会议请求的定期模式。</span><span class="sxs-lookup"><span data-stu-id="bc6bd-125">Contains the recurrence pattern for calendar items and meeting requests.</span></span>  <br/> |
-|[<span data-ttu-id="bc6bd-126">标准</span><span class="sxs-lookup"><span data-stu-id="bc6bd-126">Standard</span></span>](standard.md) <br/> |<span data-ttu-id="bc6bd-127">表示当时间从夏令时更改为标准时间时的日期和时间。</span><span class="sxs-lookup"><span data-stu-id="bc6bd-127">Represents the date and time when the time changes from daylight saving time to standard time.</span></span>  <br/> |
-|[<span data-ttu-id="bc6bd-128">夏时制</span><span class="sxs-lookup"><span data-stu-id="bc6bd-128">Daylight</span></span>](daylight.md) <br/> |<span data-ttu-id="bc6bd-129">表示的日期和时间更改时从标准时间到夏时制的时间。</span><span class="sxs-lookup"><span data-stu-id="bc6bd-129">Represents the date and time when the time changes from standard time to daylight saving time.</span></span>  <br/> |
+|[<span data-ttu-id="ff22b-122">重复周期（TaskRecurrenceType）</span><span class="sxs-lookup"><span data-stu-id="ff22b-122">Recurrence (TaskRecurrenceType)</span></span>](recurrence-taskrecurrencetype.md) <br/> |<span data-ttu-id="ff22b-123">包含定期任务的定期信息。</span><span class="sxs-lookup"><span data-stu-id="ff22b-123">Contains recurrence information for recurring tasks.</span></span>  <br/> |
+|[<span data-ttu-id="ff22b-124">重复周期（RecurrenceType）</span><span class="sxs-lookup"><span data-stu-id="ff22b-124">Recurrence (RecurrenceType)</span></span>](recurrence-recurrencetype.md) <br/> |<span data-ttu-id="ff22b-125">包含日历项目和会议请求的定期模式。</span><span class="sxs-lookup"><span data-stu-id="ff22b-125">Contains the recurrence pattern for calendar items and meeting requests.</span></span>  <br/> |
+|[<span data-ttu-id="ff22b-126">标准</span><span class="sxs-lookup"><span data-stu-id="ff22b-126">Standard</span></span>](standard.md) <br/> |<span data-ttu-id="ff22b-127">表示当时间从夏令时更改为标准时间时的日期和时间。</span><span class="sxs-lookup"><span data-stu-id="ff22b-127">Represents the date and time when the time changes from daylight saving time to standard time.</span></span>  <br/> |
+|[<span data-ttu-id="ff22b-128">夏时制</span><span class="sxs-lookup"><span data-stu-id="ff22b-128">Daylight</span></span>](daylight.md) <br/> |<span data-ttu-id="ff22b-129">表示时间从标准时间更改为夏时制的日期和时间。</span><span class="sxs-lookup"><span data-stu-id="ff22b-129">Represents the date and time when the time changes from standard time to daylight saving time.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="bc6bd-130">备注</span><span class="sxs-lookup"><span data-stu-id="bc6bd-130">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ff22b-130">说明</span><span class="sxs-lookup"><span data-stu-id="ff22b-130">Remarks</span></span>
 
-<span data-ttu-id="bc6bd-131">描述此元素的架构位于正在运行 Microsoft Exchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="bc6bd-131">The schema that describes this element is located in the EWS virtual directory of the computer that is running Microsoft Exchange Server 2007 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="ff22b-131">描述此元素的架构位于正在运行 Microsoft Exchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="ff22b-131">The schema that describes this element is located in the EWS virtual directory of the computer that is running Microsoft Exchange Server 2007 that has the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="bc6bd-132">元素信息</span><span class="sxs-lookup"><span data-stu-id="bc6bd-132">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="ff22b-132">元素信息</span><span class="sxs-lookup"><span data-stu-id="ff22b-132">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="bc6bd-133">命名空间</span><span class="sxs-lookup"><span data-stu-id="bc6bd-133">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="bc6bd-134">架构名称</span><span class="sxs-lookup"><span data-stu-id="bc6bd-134">Schema Name</span></span>  <br/> |<span data-ttu-id="bc6bd-135">类型架构</span><span class="sxs-lookup"><span data-stu-id="bc6bd-135">Types schema</span></span>  <br/> |
-|<span data-ttu-id="bc6bd-136">验证文件</span><span class="sxs-lookup"><span data-stu-id="bc6bd-136">Validation File</span></span>  <br/> |<span data-ttu-id="bc6bd-137">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="bc6bd-137">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="bc6bd-138">可以为空</span><span class="sxs-lookup"><span data-stu-id="bc6bd-138">Can be Empty</span></span>  <br/> |<span data-ttu-id="bc6bd-139">False</span><span class="sxs-lookup"><span data-stu-id="bc6bd-139">False</span></span>  <br/> |
+|<span data-ttu-id="ff22b-133">命名空间</span><span class="sxs-lookup"><span data-stu-id="ff22b-133">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="ff22b-134">架构名称</span><span class="sxs-lookup"><span data-stu-id="ff22b-134">Schema Name</span></span>  <br/> |<span data-ttu-id="ff22b-135">类型架构</span><span class="sxs-lookup"><span data-stu-id="ff22b-135">Types schema</span></span>  <br/> |
+|<span data-ttu-id="ff22b-136">验证文件</span><span class="sxs-lookup"><span data-stu-id="ff22b-136">Validation File</span></span>  <br/> |<span data-ttu-id="ff22b-137">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="ff22b-137">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="ff22b-138">可以为空</span><span class="sxs-lookup"><span data-stu-id="ff22b-138">Can be Empty</span></span>  <br/> |<span data-ttu-id="ff22b-139">False</span><span class="sxs-lookup"><span data-stu-id="ff22b-139">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="bc6bd-140">另请参阅</span><span class="sxs-lookup"><span data-stu-id="bc6bd-140">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ff22b-140">另请参阅</span><span class="sxs-lookup"><span data-stu-id="ff22b-140">See also</span></span>
 
 
 
-- [<span data-ttu-id="bc6bd-141">在交换 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="bc6bd-141">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="ff22b-141">Exchange 中的 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="ff22b-141">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

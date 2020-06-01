@@ -1,5 +1,5 @@
 ---
-title: DayOfWeek (TimeZone)
+title: DayOfWeek （时区）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,76 +11,76 @@ api_name:
 api_type:
 - schema
 ms.assetid: 416e8892-ebb1-4fac-82cf-e27549a6c175
-description: DayOfWeek 元素表示在所在的时区转换发生一周中的某一天。
-ms.openlocfilehash: 7816b90000be36cf3a3354d26d978684bfdcfe40
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: DayOfWeek 元素表示发生时区转换的一周中的某一天。
+ms.openlocfilehash: 7bc05f417268ccfb20adae12e2694d8360023ab2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753761"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457842"
 ---
-# <a name="dayofweek-timezone"></a><span data-ttu-id="0789b-103">DayOfWeek (TimeZone)</span><span class="sxs-lookup"><span data-stu-id="0789b-103">DayOfWeek (TimeZone)</span></span>
+# <a name="dayofweek-timezone"></a><span data-ttu-id="7f241-103">DayOfWeek （时区）</span><span class="sxs-lookup"><span data-stu-id="7f241-103">DayOfWeek (TimeZone)</span></span>
 
-<span data-ttu-id="0789b-104">**DayOfWeek**元素表示在所在的时区转换发生一周中的某一天。</span><span class="sxs-lookup"><span data-stu-id="0789b-104">The **DayOfWeek** element represents the day of the week on which the time zone transition occurs.</span></span> 
+<span data-ttu-id="7f241-104">**DayOfWeek**元素表示发生时区转换的一周中的某一天。</span><span class="sxs-lookup"><span data-stu-id="7f241-104">The **DayOfWeek** element represents the day of the week on which the time zone transition occurs.</span></span> 
   
 ```xml
 <DayOfWeek>...</DayOfWeek>
 ```
 
-<span data-ttu-id="0789b-105">**DayOfWeekType**</span><span class="sxs-lookup"><span data-stu-id="0789b-105">**DayOfWeekType**</span></span>
+<span data-ttu-id="7f241-105">**DayOfWeekType**</span><span class="sxs-lookup"><span data-stu-id="7f241-105">**DayOfWeekType**</span></span>
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="0789b-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="0789b-106">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="7f241-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="7f241-106">Attributes and elements</span></span>
 
-<span data-ttu-id="0789b-107">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="0789b-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="7f241-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="7f241-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="0789b-108">属性</span><span class="sxs-lookup"><span data-stu-id="0789b-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="7f241-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="7f241-108">Attributes</span></span>
 
-<span data-ttu-id="0789b-109">无。</span><span class="sxs-lookup"><span data-stu-id="0789b-109">None.</span></span>
+<span data-ttu-id="7f241-109">无。</span><span class="sxs-lookup"><span data-stu-id="7f241-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="0789b-110">子元素</span><span class="sxs-lookup"><span data-stu-id="0789b-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="7f241-110">子元素</span><span class="sxs-lookup"><span data-stu-id="7f241-110">Child elements</span></span>
 
-<span data-ttu-id="0789b-111">无。</span><span class="sxs-lookup"><span data-stu-id="0789b-111">None.</span></span>
+<span data-ttu-id="7f241-111">无。</span><span class="sxs-lookup"><span data-stu-id="7f241-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="0789b-112">父元素</span><span class="sxs-lookup"><span data-stu-id="0789b-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="7f241-112">父元素</span><span class="sxs-lookup"><span data-stu-id="7f241-112">Parent elements</span></span>
 
-|<span data-ttu-id="0789b-113">**元素**</span><span class="sxs-lookup"><span data-stu-id="0789b-113">**Element**</span></span>|<span data-ttu-id="0789b-114">**说明**</span><span class="sxs-lookup"><span data-stu-id="0789b-114">**Description**</span></span>|
+|<span data-ttu-id="7f241-113">**元素**</span><span class="sxs-lookup"><span data-stu-id="7f241-113">**Element**</span></span>|<span data-ttu-id="7f241-114">**说明**</span><span class="sxs-lookup"><span data-stu-id="7f241-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="0789b-115">StandardTime</span><span class="sxs-lookup"><span data-stu-id="0789b-115">StandardTime</span></span>](standardtime.md) <br/> | <span data-ttu-id="0789b-116">表示从时间相对于协调世界时 (UTC)[斜线 (UTC)](bias-utc.md)元素所表示的偏移量。</span><span class="sxs-lookup"><span data-stu-id="0789b-116">Represents an offset from the time relative to Coordinated Universal Time (UTC) represented by the [Bias (UTC)](bias-utc.md) element.</span></span><br/><br/><span data-ttu-id="0789b-117">此元素还包含有关从观测到夏令时的区域中的夏令时转换为标准时间的信息。</span><span class="sxs-lookup"><span data-stu-id="0789b-117">This element also contains information about the transition to standard time from daylight saving time in regions where daylight saving time is observed.</span></span><br/><br/><span data-ttu-id="0789b-118">下面是此元素的 XPath 表达式：</span><span class="sxs-lookup"><span data-stu-id="0789b-118">The following are the XPath expressions to this element:</span></span><br/><br/>`/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone/StandardTime`<br/><br/>`/GetUserAvailabilityRequest/TimeZone/StandardTime` <br/> |
-|[<span data-ttu-id="0789b-119">DaylightTime</span><span class="sxs-lookup"><span data-stu-id="0789b-119">DaylightTime</span></span>](daylighttime.md) <br/> | <span data-ttu-id="0789b-120">表示与相对于 UTC（由观测到夏令时的区域的 [偏置 (UTC)](bias-utc.md) 元素表示）的时间的时差。</span><span class="sxs-lookup"><span data-stu-id="0789b-120">Represents an offset from the time relative to UTC represented by the [Bias (UTC)](bias-utc.md) element in regions where daylight saving time is observed.</span></span><br/><br/><span data-ttu-id="0789b-121">此元素还包含有关何时从标准时间转换到夏令时的信息。</span><span class="sxs-lookup"><span data-stu-id="0789b-121">This element also contains information about when the transition to daylight saving time from standard time occurs.</span></span><br/><br/><span data-ttu-id="0789b-122">下面是此元素的 XPath 表达式：</span><span class="sxs-lookup"><span data-stu-id="0789b-122">The following are the XPath expressions to this element:</span></span><br/><br/>`/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone/DaylightTime`<br/><br/>`/GetUserAvailabilityRequest/TimeZone/DaylightTime` <br/> |
-|[<span data-ttu-id="0789b-123">RecurringDayTransition</span><span class="sxs-lookup"><span data-stu-id="0789b-123">RecurringDayTransition</span></span>](recurringdaytransition.md) <br/> |<span data-ttu-id="0789b-124">表示时区转换发生在每年的同一天。</span><span class="sxs-lookup"><span data-stu-id="0789b-124">Represents a time zone transition that occurs on the same day each year.</span></span>  <br/> |
+|[<span data-ttu-id="7f241-115">StandardTime</span><span class="sxs-lookup"><span data-stu-id="7f241-115">StandardTime</span></span>](standardtime.md) <br/> | <span data-ttu-id="7f241-116">表示相对于[偏差（utc）](bias-utc.md)元素表示的协调世界时（utc）的时间的偏移量。</span><span class="sxs-lookup"><span data-stu-id="7f241-116">Represents an offset from the time relative to Coordinated Universal Time (UTC) represented by the [Bias (UTC)](bias-utc.md) element.</span></span><br/><br/><span data-ttu-id="7f241-117">此元素还包含有关从观测到夏令时的区域中的夏令时转换为标准时间的信息。</span><span class="sxs-lookup"><span data-stu-id="7f241-117">This element also contains information about the transition to standard time from daylight saving time in regions where daylight saving time is observed.</span></span><br/><br/><span data-ttu-id="7f241-118">下面是此元素的 XPath 表达式：</span><span class="sxs-lookup"><span data-stu-id="7f241-118">The following are the XPath expressions to this element:</span></span><br/><br/>`/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone/StandardTime`<br/><br/>`/GetUserAvailabilityRequest/TimeZone/StandardTime` <br/> |
+|[<span data-ttu-id="7f241-119">DaylightTime</span><span class="sxs-lookup"><span data-stu-id="7f241-119">DaylightTime</span></span>](daylighttime.md) <br/> | <span data-ttu-id="7f241-120">表示与相对于 UTC（由观测到夏令时的区域的 [偏置 (UTC)](bias-utc.md) 元素表示）的时间的时差。</span><span class="sxs-lookup"><span data-stu-id="7f241-120">Represents an offset from the time relative to UTC represented by the [Bias (UTC)](bias-utc.md) element in regions where daylight saving time is observed.</span></span><br/><br/><span data-ttu-id="7f241-121">此元素还包含有关何时从标准时间转换到夏令时的信息。</span><span class="sxs-lookup"><span data-stu-id="7f241-121">This element also contains information about when the transition to daylight saving time from standard time occurs.</span></span><br/><br/><span data-ttu-id="7f241-122">下面是此元素的 XPath 表达式：</span><span class="sxs-lookup"><span data-stu-id="7f241-122">The following are the XPath expressions to this element:</span></span><br/><br/>`/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone/DaylightTime`<br/><br/>`/GetUserAvailabilityRequest/TimeZone/DaylightTime` <br/> |
+|[<span data-ttu-id="7f241-123">RecurringDayTransition</span><span class="sxs-lookup"><span data-stu-id="7f241-123">RecurringDayTransition</span></span>](recurringdaytransition.md) <br/> |<span data-ttu-id="7f241-124">表示时区转换发生在每年的同一天。</span><span class="sxs-lookup"><span data-stu-id="7f241-124">Represents a time zone transition that occurs on the same day each year.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="0789b-125">文本值</span><span class="sxs-lookup"><span data-stu-id="0789b-125">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="7f241-125">文本值</span><span class="sxs-lookup"><span data-stu-id="7f241-125">Text value</span></span>
 
-<span data-ttu-id="0789b-126">文本值是必需的。</span><span class="sxs-lookup"><span data-stu-id="0789b-126">A text value is required.</span></span> <span data-ttu-id="0789b-127">由一个枚举，具有以下可能的值表示的文本值：</span><span class="sxs-lookup"><span data-stu-id="0789b-127">The text value is represented by an enumeration that has the following possible values:</span></span>
+<span data-ttu-id="7f241-126">文本值是必需的。</span><span class="sxs-lookup"><span data-stu-id="7f241-126">A text value is required.</span></span> <span data-ttu-id="7f241-127">该文本值由具有以下可能值的枚举表示：</span><span class="sxs-lookup"><span data-stu-id="7f241-127">The text value is represented by an enumeration that has the following possible values:</span></span>
   
-- <span data-ttu-id="0789b-128">星期日</span><span class="sxs-lookup"><span data-stu-id="0789b-128">Sunday</span></span>    
-- <span data-ttu-id="0789b-129">周一</span><span class="sxs-lookup"><span data-stu-id="0789b-129">Monday</span></span>    
-- <span data-ttu-id="0789b-130">周二</span><span class="sxs-lookup"><span data-stu-id="0789b-130">Tuesday</span></span>    
-- <span data-ttu-id="0789b-131">周三</span><span class="sxs-lookup"><span data-stu-id="0789b-131">Wednesday</span></span>    
-- <span data-ttu-id="0789b-132">周四</span><span class="sxs-lookup"><span data-stu-id="0789b-132">Thursday</span></span>    
-- <span data-ttu-id="0789b-133">周五</span><span class="sxs-lookup"><span data-stu-id="0789b-133">Friday</span></span>    
-- <span data-ttu-id="0789b-134">周六</span><span class="sxs-lookup"><span data-stu-id="0789b-134">Saturday</span></span>    
-- <span data-ttu-id="0789b-135">日</span><span class="sxs-lookup"><span data-stu-id="0789b-135">Day</span></span>    
-- <span data-ttu-id="0789b-136">Weekday</span><span class="sxs-lookup"><span data-stu-id="0789b-136">Weekday</span></span>   
-- <span data-ttu-id="0789b-137">WeekendDay</span><span class="sxs-lookup"><span data-stu-id="0789b-137">WeekendDay</span></span>
+- <span data-ttu-id="7f241-128">星期日</span><span class="sxs-lookup"><span data-stu-id="7f241-128">Sunday</span></span>    
+- <span data-ttu-id="7f241-129">星期一</span><span class="sxs-lookup"><span data-stu-id="7f241-129">Monday</span></span>    
+- <span data-ttu-id="7f241-130">星期二</span><span class="sxs-lookup"><span data-stu-id="7f241-130">Tuesday</span></span>    
+- <span data-ttu-id="7f241-131">星期三</span><span class="sxs-lookup"><span data-stu-id="7f241-131">Wednesday</span></span>    
+- <span data-ttu-id="7f241-132">星期四</span><span class="sxs-lookup"><span data-stu-id="7f241-132">Thursday</span></span>    
+- <span data-ttu-id="7f241-133">星期五</span><span class="sxs-lookup"><span data-stu-id="7f241-133">Friday</span></span>    
+- <span data-ttu-id="7f241-134">星期六</span><span class="sxs-lookup"><span data-stu-id="7f241-134">Saturday</span></span>    
+- <span data-ttu-id="7f241-135">Day</span><span class="sxs-lookup"><span data-stu-id="7f241-135">Day</span></span>    
+- <span data-ttu-id="7f241-136">工作日</span><span class="sxs-lookup"><span data-stu-id="7f241-136">Weekday</span></span>   
+- <span data-ttu-id="7f241-137">WeekendDay</span><span class="sxs-lookup"><span data-stu-id="7f241-137">WeekendDay</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="0789b-138">注解</span><span class="sxs-lookup"><span data-stu-id="0789b-138">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7f241-138">备注</span><span class="sxs-lookup"><span data-stu-id="7f241-138">Remarks</span></span>
 
-<span data-ttu-id="0789b-139">[StandardTime](standardtime.md)元素，其中包含的值为 5 [DayOrder](dayorder.md)元素的值为 10， [Month](month.md)元素和的值为星期日**DayOfWeek**元素是指从标准时间转换为夏时制第十个月的第五个星期日节约时间发生。</span><span class="sxs-lookup"><span data-stu-id="0789b-139">A [StandardTime](standardtime.md) element that contains a [DayOrder](dayorder.md) element that has a value of 5, a [Month](month.md) element that has a value of 10, and a **DayOfWeek** element that has a value of Sunday means that the transition from standard time to daylight saving time occurs on the fifth Sunday of the tenth month.</span></span> 
+<span data-ttu-id="7f241-139">包含值为5的[DayOrder](dayorder.md)元素、值为10的[Month](month.md)元素以及值为周日的**DayOfWeek**元素的[StandardTime](standardtime.md)元素，表示从标准时间到夏时制的转换发生在第十个月的第五个星期日。</span><span class="sxs-lookup"><span data-stu-id="7f241-139">A [StandardTime](standardtime.md) element that contains a [DayOrder](dayorder.md) element that has a value of 5, a [Month](month.md) element that has a value of 10, and a **DayOfWeek** element that has a value of Sunday means that the transition from standard time to daylight saving time occurs on the fifth Sunday of the tenth month.</span></span> 
   
-<span data-ttu-id="0789b-140">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="0789b-140">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="7f241-140">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="7f241-140">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="0789b-141">元素信息</span><span class="sxs-lookup"><span data-stu-id="0789b-141">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="7f241-141">元素信息</span><span class="sxs-lookup"><span data-stu-id="7f241-141">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="0789b-142">命名空间</span><span class="sxs-lookup"><span data-stu-id="0789b-142">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="0789b-143">架构名称</span><span class="sxs-lookup"><span data-stu-id="0789b-143">Schema Name</span></span>  <br/> |<span data-ttu-id="0789b-144">类型架构</span><span class="sxs-lookup"><span data-stu-id="0789b-144">Types schema</span></span>  <br/> |
-|<span data-ttu-id="0789b-145">验证文件</span><span class="sxs-lookup"><span data-stu-id="0789b-145">Validation File</span></span>  <br/> |<span data-ttu-id="0789b-146">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="0789b-146">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="0789b-147">可以为空</span><span class="sxs-lookup"><span data-stu-id="0789b-147">Can be Empty</span></span>  <br/> |<span data-ttu-id="0789b-148">False</span><span class="sxs-lookup"><span data-stu-id="0789b-148">False</span></span>  <br/> |
+|<span data-ttu-id="7f241-142">命名空间</span><span class="sxs-lookup"><span data-stu-id="7f241-142">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="7f241-143">架构名称</span><span class="sxs-lookup"><span data-stu-id="7f241-143">Schema Name</span></span>  <br/> |<span data-ttu-id="7f241-144">类型架构</span><span class="sxs-lookup"><span data-stu-id="7f241-144">Types schema</span></span>  <br/> |
+|<span data-ttu-id="7f241-145">验证文件</span><span class="sxs-lookup"><span data-stu-id="7f241-145">Validation File</span></span>  <br/> |<span data-ttu-id="7f241-146">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="7f241-146">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="7f241-147">可以为空</span><span class="sxs-lookup"><span data-stu-id="7f241-147">Can be Empty</span></span>  <br/> |<span data-ttu-id="7f241-148">False</span><span class="sxs-lookup"><span data-stu-id="7f241-148">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="0789b-149">另请参阅</span><span class="sxs-lookup"><span data-stu-id="0789b-149">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7f241-149">另请参阅</span><span class="sxs-lookup"><span data-stu-id="7f241-149">See also</span></span>
 
-- [<span data-ttu-id="0789b-150">GetUserAvailability 操作</span><span class="sxs-lookup"><span data-stu-id="0789b-150">GetUserAvailability operation</span></span>](getuseravailability-operation.md)
-- [<span data-ttu-id="0789b-151">Getting User Availability</span><span class="sxs-lookup"><span data-stu-id="0789b-151">Getting User Availability</span></span>](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [<span data-ttu-id="7f241-150">GetUserAvailability 操作</span><span class="sxs-lookup"><span data-stu-id="7f241-150">GetUserAvailability operation</span></span>](getuseravailability-operation.md)
+- [<span data-ttu-id="7f241-151">获取用户可用性</span><span class="sxs-lookup"><span data-stu-id="7f241-151">Getting User Availability</span></span>](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

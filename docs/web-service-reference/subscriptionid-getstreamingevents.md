@@ -1,5 +1,5 @@
 ---
-title: SubscriptionId (GetStreamingEvents)
+title: SubscriptionId （GetStreamingEvents）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,65 +8,65 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3f86c178-2311-4844-82db-c2a0e469d116
 description: SubscriptionId 元素表示流式订阅的标识符。
-ms.openlocfilehash: eb451e611c4922fa3b9cff7edec54dfb8260f5f5
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: babf02c514e7fe8711f51ac52e425a18f3ab47f7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838154"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457996"
 ---
-# <a name="subscriptionid-getstreamingevents"></a><span data-ttu-id="3229f-103">SubscriptionId (GetStreamingEvents)</span><span class="sxs-lookup"><span data-stu-id="3229f-103">SubscriptionId (GetStreamingEvents)</span></span>
+# <a name="subscriptionid-getstreamingevents"></a><span data-ttu-id="33107-103">SubscriptionId （GetStreamingEvents）</span><span class="sxs-lookup"><span data-stu-id="33107-103">SubscriptionId (GetStreamingEvents)</span></span>
 
-<span data-ttu-id="3229f-104">**SubscriptionId**元素表示流式订阅的标识符。</span><span class="sxs-lookup"><span data-stu-id="3229f-104">The **SubscriptionId** element represents the identifier for a streaming subscription.</span></span> 
+<span data-ttu-id="33107-104">**SubscriptionId**元素表示流式订阅的标识符。</span><span class="sxs-lookup"><span data-stu-id="33107-104">The **SubscriptionId** element represents the identifier for a streaming subscription.</span></span> 
   
 ```XML
 <SubscriptionId/>
 ```
 
- <span data-ttu-id="3229f-105">**SubscriptionIdType**</span><span class="sxs-lookup"><span data-stu-id="3229f-105">**SubscriptionIdType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="3229f-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="3229f-106">Attributes and elements</span></span>
+ <span data-ttu-id="33107-105">**SubscriptionIdType**</span><span class="sxs-lookup"><span data-stu-id="33107-105">**SubscriptionIdType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="33107-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="33107-106">Attributes and elements</span></span>
 
-<span data-ttu-id="3229f-107">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="3229f-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="33107-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="33107-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="3229f-108">属性</span><span class="sxs-lookup"><span data-stu-id="3229f-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="33107-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="33107-108">Attributes</span></span>
 
-<span data-ttu-id="3229f-109">无。</span><span class="sxs-lookup"><span data-stu-id="3229f-109">None.</span></span>
+<span data-ttu-id="33107-109">无。</span><span class="sxs-lookup"><span data-stu-id="33107-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="3229f-110">子元素</span><span class="sxs-lookup"><span data-stu-id="3229f-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="33107-110">子元素</span><span class="sxs-lookup"><span data-stu-id="33107-110">Child elements</span></span>
 
-<span data-ttu-id="3229f-111">无。</span><span class="sxs-lookup"><span data-stu-id="3229f-111">None.</span></span>
+<span data-ttu-id="33107-111">无。</span><span class="sxs-lookup"><span data-stu-id="33107-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="3229f-112">父元素</span><span class="sxs-lookup"><span data-stu-id="3229f-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="33107-112">父元素</span><span class="sxs-lookup"><span data-stu-id="33107-112">Parent elements</span></span>
 
-|<span data-ttu-id="3229f-113">**元素**</span><span class="sxs-lookup"><span data-stu-id="3229f-113">**Element**</span></span>|<span data-ttu-id="3229f-114">**说明**</span><span class="sxs-lookup"><span data-stu-id="3229f-114">**Description**</span></span>|
+|<span data-ttu-id="33107-113">**元素**</span><span class="sxs-lookup"><span data-stu-id="33107-113">**Element**</span></span>|<span data-ttu-id="33107-114">**说明**</span><span class="sxs-lookup"><span data-stu-id="33107-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="3229f-115">GetStreamingEvents</span><span class="sxs-lookup"><span data-stu-id="3229f-115">GetStreamingEvents</span></span>](getstreamingevents.md) <br/> |<span data-ttu-id="3229f-116">表示由客户端用于从服务器请求流通知的操作。</span><span class="sxs-lookup"><span data-stu-id="3229f-116">Represents the operation that is used by clients to request streaming notifications from the server.</span></span>  <br/> |
+|[<span data-ttu-id="33107-115">GetStreamingEvents</span><span class="sxs-lookup"><span data-stu-id="33107-115">GetStreamingEvents</span></span>](getstreamingevents.md) <br/> |<span data-ttu-id="33107-116">表示客户端用来从服务器请求流通知的操作。</span><span class="sxs-lookup"><span data-stu-id="33107-116">Represents the operation that is used by clients to request streaming notifications from the server.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="3229f-117">文本值</span><span class="sxs-lookup"><span data-stu-id="3229f-117">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="33107-117">文本值</span><span class="sxs-lookup"><span data-stu-id="33107-117">Text value</span></span>
 
-<span data-ttu-id="3229f-118">文本值是必需的。</span><span class="sxs-lookup"><span data-stu-id="3229f-118">A text value is required.</span></span> <span data-ttu-id="3229f-119">文本值是一个 GUID。</span><span class="sxs-lookup"><span data-stu-id="3229f-119">The text value is a GUID.</span></span>
+<span data-ttu-id="33107-118">文本值是必需的。</span><span class="sxs-lookup"><span data-stu-id="33107-118">A text value is required.</span></span> <span data-ttu-id="33107-119">该文本值是一个 GUID。</span><span class="sxs-lookup"><span data-stu-id="33107-119">The text value is a GUID.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="3229f-120">注解</span><span class="sxs-lookup"><span data-stu-id="3229f-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="33107-120">备注</span><span class="sxs-lookup"><span data-stu-id="33107-120">Remarks</span></span>
 
-<span data-ttu-id="3229f-121">创建订阅时由客户端访问服务器生成的 GUID 值，该值代表订阅标识符。</span><span class="sxs-lookup"><span data-stu-id="3229f-121">The GUID that represents the subscription identifier is generated by the Client Access server when the subscription is created.</span></span>
+<span data-ttu-id="33107-121">创建订阅时，客户端访问服务器会生成表示订阅标识符的 GUID。</span><span class="sxs-lookup"><span data-stu-id="33107-121">The GUID that represents the subscription identifier is generated by the Client Access server when the subscription is created.</span></span>
   
-<span data-ttu-id="3229f-122">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="3229f-122">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="33107-122">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="33107-122">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="3229f-123">元素信息</span><span class="sxs-lookup"><span data-stu-id="3229f-123">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="33107-123">元素信息</span><span class="sxs-lookup"><span data-stu-id="33107-123">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="3229f-124">命名空间</span><span class="sxs-lookup"><span data-stu-id="3229f-124">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="3229f-125">架构名称</span><span class="sxs-lookup"><span data-stu-id="3229f-125">Schema name</span></span>  <br/> |<span data-ttu-id="3229f-126">类型架构</span><span class="sxs-lookup"><span data-stu-id="3229f-126">Types schema</span></span>  <br/> |
-|<span data-ttu-id="3229f-127">验证文件</span><span class="sxs-lookup"><span data-stu-id="3229f-127">Validation file</span></span>  <br/> |<span data-ttu-id="3229f-128">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="3229f-128">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="3229f-129">可以为空</span><span class="sxs-lookup"><span data-stu-id="3229f-129">Can be empty</span></span>  <br/> |<span data-ttu-id="3229f-130">False</span><span class="sxs-lookup"><span data-stu-id="3229f-130">False</span></span>  <br/> |
+|<span data-ttu-id="33107-124">命名空间</span><span class="sxs-lookup"><span data-stu-id="33107-124">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="33107-125">架构名称</span><span class="sxs-lookup"><span data-stu-id="33107-125">Schema name</span></span>  <br/> |<span data-ttu-id="33107-126">类型架构</span><span class="sxs-lookup"><span data-stu-id="33107-126">Types schema</span></span>  <br/> |
+|<span data-ttu-id="33107-127">验证文件</span><span class="sxs-lookup"><span data-stu-id="33107-127">Validation file</span></span>  <br/> |<span data-ttu-id="33107-128">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="33107-128">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="33107-129">可以为空</span><span class="sxs-lookup"><span data-stu-id="33107-129">Can be empty</span></span>  <br/> |<span data-ttu-id="33107-130">False</span><span class="sxs-lookup"><span data-stu-id="33107-130">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="3229f-131">另请参阅</span><span class="sxs-lookup"><span data-stu-id="3229f-131">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="33107-131">另请参阅</span><span class="sxs-lookup"><span data-stu-id="33107-131">See also</span></span>
 
 
 
-[<span data-ttu-id="3229f-132">GetStreamingEvents 操作</span><span class="sxs-lookup"><span data-stu-id="3229f-132">GetStreamingEvents operation</span></span>](getstreamingevents-operation.md)
+[<span data-ttu-id="33107-132">GetStreamingEvents 操作</span><span class="sxs-lookup"><span data-stu-id="33107-132">GetStreamingEvents operation</span></span>](getstreamingevents-operation.md)
 
 
-- [<span data-ttu-id="3229f-133">在交换 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="3229f-133">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="33107-133">Exchange 中的 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="33107-133">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 
