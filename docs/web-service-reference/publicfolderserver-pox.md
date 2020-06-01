@@ -1,32 +1,32 @@
 ---
-title: PublicFolderServer (POX)
+title: PublicFolderServer （POX）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 37ad46ab-7817-4fdd-ad2d-26cb525cd96b
-description: PublicFolderServer 元素包含的完全限定域名 (FQDN) 的公用文件夹服务器的用户。
-ms.openlocfilehash: 6fb2f1a97279ee7f2e94c008474ddfed088faea1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: PublicFolderServer 元素包含用户的公用文件夹服务器的完全限定域名（FQDN）。
+ms.openlocfilehash: 868eab83d05387f570bc033522121f25f09817c4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826928"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44433684"
 ---
-# <a name="publicfolderserver-pox"></a>PublicFolderServer (POX)
+# <a name="publicfolderserver-pox"></a>PublicFolderServer （POX）
 
-**PublicFolderServer**元素包含的完全限定域名 (FQDN) 的公用文件夹服务器的用户。 
+**PublicFolderServer**元素包含用户的公用文件夹服务器的完全限定域名（FQDN）。 
   
-[自动发现 (POX)](autodiscover-pox.md)
+[自动发现（POX）](autodiscover-pox.md)
   
-[响应 (POX)](response-pox.md)
+[响应（POX）](response-pox.md)
   
-[帐户 (POX)](account-pox.md)
+[帐户（POX）](account-pox.md)
   
-[协议 (POX)](protocol-pox.md)
+[协议（POX）](protocol-pox.md)
   
-[PublicFolderServer (POX)](publicfolderserver-pox.md)
+[PublicFolderServer （POX）](publicfolderserver-pox.md)
   
 ```XML
 <PublicFolderServer/>
@@ -34,9 +34,9 @@ ms.locfileid: "19826928"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -48,19 +48,19 @@ ms.locfileid: "19826928"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[协议 (POX)](protocol-pox.md) <br/> |包含客户端连接到运行 Microsoft Exchange Server 已安装了客户端访问服务器角色的计算机的规格。  <br/> |
+|[协议（POX）](protocol-pox.md) <br/> |包含将客户端连接到运行 Microsoft Exchange Server 且安装了客户端访问服务器角色的计算机的规范。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-文本值表示的用户的公用文件夹服务器的 FQDN。
+该文本值表示用户的公用文件夹服务器的 FQDN。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-**PublicFolderServer**元素是**协议**元素的可选子元素。 
+**PublicFolderServer**元素是**Protocol**元素的可选子元素。 
   
 ## <a name="see-also"></a>另请参阅
 
 
 
-[Exchange POX 自动发现 XML 元素](pox-autodiscover-xml-elements-for-exchange.md)
+[Exchange 的 POX 自动发现 XML 元素](pox-autodiscover-xml-elements-for-exchange.md)
 

@@ -10,17 +10,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 206a2ad1-a01d-4e71-99a1-90c2530423da
-description: PlayOnPhone 元素定义一个请求在电话上播放项目。
-ms.openlocfilehash: 7e5c1e25512a59d1ac3295b476fcc2b6b0f5a2b1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: PlayOnPhone 元素定义一个请求，以在电话上播放某个项目。
+ms.openlocfilehash: 9acbf9edbf4a889506558b24f5736a44d5015d3f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826825"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44434076"
 ---
 # <a name="playonphone-um-web-service"></a>PlayOnPhone （UM web 服务）
 
-**PlayOnPhone**元素定义一个请求在电话上播放项目。 
+**PlayOnPhone**元素定义一个请求，以在电话上播放某个项目。 
   
 [PlayOnPhone （UM web 服务）](playonphone-um-web-service.md)
   
@@ -34,9 +34,9 @@ ms.locfileid: "19826825"
  **complexType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -44,7 +44,7 @@ ms.locfileid: "19826825"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[entryId （UM web 服务）](entryid-um-web-service.md) <br/> |包含表示要在[PlayOnPhone 操作 （UM web 服务）](playonphone-operation-um-web-service.md)请求中的电话上播放的项标识符的值。  <br/> |
+|[entryId （UM web 服务）](entryid-um-web-service.md) <br/> |包含表示要在[PlayOnPhone 操作（UM web 服务）](playonphone-operation-um-web-service.md)请求中的电话上播放的项的标识符的值。  <br/> |
 |[dialString （UM web 服务）](dialstring-um-web-service.md) <br/> |包含要拨打的电话号码的值。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
@@ -59,7 +59,7 @@ ms.locfileid: "19826825"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |邮件  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -68,5 +68,5 @@ ms.locfileid: "19826825"
 
 
 
-[PlayOnPhone 操作 （UM web 服务）](playonphone-operation-um-web-service.md)
+[PlayOnPhone 操作（UM web 服务）](playonphone-operation-um-web-service.md)
 
