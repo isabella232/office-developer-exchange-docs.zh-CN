@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: e1adb8b9-e3d5-469a-b188-822733d2503e
-description: 优先级元素指示是用来运行规则的顺序。
-ms.openlocfilehash: 49e9bda063d8766ff49c8a2e9574c986bcfdbeb2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Priority 元素指示规则的运行顺序。
+ms.openlocfilehash: a5a894bba583618dd04430fc89f125c8920b0202
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826888"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462400"
 ---
 # <a name="priority"></a>优先级
 
-**优先级**元素指示是用来运行规则的顺序。 
+**Priority**元素指示规则的运行顺序。 
   
 ```XML
 <Priority/>
@@ -30,9 +30,9 @@ ms.locfileid: "19826888"
  **int**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -48,9 +48,9 @@ ms.locfileid: "19826888"
    
 ## <a name="text-value"></a>文本值
 
-**优先级**元素的文本值为整数类型的值，该值指示应在其中运行规则执行顺序。 
+**Priority**元素的文本值是一个整数，指示应在其中运行规则的执行顺序。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -58,7 +58,7 @@ ms.locfileid: "19826888"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -67,5 +67,5 @@ ms.locfileid: "19826888"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

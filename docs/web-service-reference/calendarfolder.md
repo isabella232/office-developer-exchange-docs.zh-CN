@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 48687a78-e757-4c04-9641-bf4302c6b565
 description: CalendarFolder元素表示主要包含日历项目的文件夹。
-ms.openlocfilehash: 7dc90706eb45eb4617a68b9fdcf37669921af966
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: dcd0ab9d7dea1152766997de0618b3dcceed5567
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753409"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461490"
 ---
 # <a name="calendarfolder"></a>CalendarFolder
 
@@ -42,9 +42,9 @@ ms.locfileid: "19753409"
  **CalendarFolderType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -52,7 +52,7 @@ ms.locfileid: "19753409"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[文件夹 Id](folderid.md) <br/> |包含一个文件夹的标识符和更改键。  <br/> |
+|[FolderId](folderid.md) <br/> |包含一个文件夹的标识符和更改键。  <br/> |
 |[ParentFolderId](parentfolderid.md) <br/> |表示包含该文件夹的父文件夹的标识符。  <br/> |
 |[FolderClass](folderclass.md) <br/> |表示给定文件夹的文件夹类。  <br/> |
 |[显示名称 (字符串)](displayname-string.md) <br/> |包含文件夹的显示名称。  <br/> |
@@ -62,7 +62,7 @@ ms.locfileid: "19753409"
 |[ManagedFolderInformation](managedfolderinformation.md) <br/> |包含有关托管文件夹的信息。  <br/> |
 |[EffectiveRights](effectiverights.md) <br/> |包含客户端的权利基础的项或文件夹的权限设置。此元素是只读的。  <br/> |
 |[SharingEffectiveRights (CalendarPermissionReadAccessType)](sharingeffectiverights-calendarpermissionreadaccesstype.md) <br/> |指示用户正在共享的日历数据的权限。  <br/> |
-|[PermissionSet (CalendarPermissionSetType)](permissionset-calendarpermissionsettype.md) <br/> |包含日历文件夹的所有已配置的权限。  <br/> |
+|[PermissionSet （CalendarPermissionSetType）](permissionset-calendarpermissionsettype.md) <br/> |包含日历文件夹的所有已配置的权限。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -74,7 +74,7 @@ ms.locfileid: "19753409"
 |[更新 (FolderSync)](update-foldersync.md) <br/> |标识要在本地客户端存储中更新单个文件夹。  <br/> |
 |[Folders](folders-ex15websvcsotherref.md) <br/> |包含一数组的文件夹操作中使用的文件夹。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -82,7 +82,7 @@ ms.locfileid: "19753409"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -91,5 +91,5 @@ ms.locfileid: "19753409"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

@@ -1,5 +1,5 @@
 ---
-title: 组织者
+title: Organizer
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 63892b57-3805-4d60-b9f7-20552a69c241
-description: 组织者元素均表示会议组织的者。
-ms.openlocfilehash: b723578a1b52cd5f6e9bd869a15430453adfa291
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 组织者元素表示会议的组织者。
+ms.openlocfilehash: c1188c9b3a894e86a08b8869045c3647e394f506
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826662"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462414"
 ---
-# <a name="organizer"></a>组织者
+# <a name="organizer"></a>Organizer
 
-**组织者**元素均表示会议组织的者。 
+**组织者**元素表示会议的组织者。 
   
 ```xml
 <Organizer>
@@ -33,9 +33,9 @@ ms.locfileid: "19826662"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -49,10 +49,10 @@ ms.locfileid: "19826662"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[日历项目](calendaritem.md) <br/> |表示 Exchange 日历项。  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |表示 Exchange 日历项。  <br/> |
 |[MeetingRequest](meetingrequest.md) <br/> |表示 Exchange 存储中的会议请求。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -60,12 +60,12 @@ ms.locfileid: "19826662"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 0aaf265d-b723-49c6-8e9c-9ba60141e9ab
-description: DailyRecurrence 元素介绍以天为单位，重复日历项目或任务的频率。
-ms.openlocfilehash: d02c1f7425372d60c10b40527dc5f0d65f923b45
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: DailyRecurrence 元素描述日历项目或任务重复发生的频率（以天为单位）。
+ms.openlocfilehash: d18a04ced19c87996c3a092f6668ab00c5a3f006
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753726"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462169"
 ---
 # <a name="dailyrecurrence"></a>DailyRecurrence
 
-**DailyRecurrence**元素介绍以天为单位，重复日历项目或任务的频率。 
+**DailyRecurrence**元素描述日历项目或任务重复发生的频率（以天为单位）。 
   
 ```xml
 <DailyRecurrence>
@@ -33,9 +33,9 @@ ms.locfileid: "19753726"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -43,16 +43,16 @@ ms.locfileid: "19753726"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Interval](interval.md) <br/> |以天为单位，两个连续的定期项目间中定义的时间间隔。 值必须是介于 1 到 999 之间。  <br/> |
+|[Interval](interval.md) <br/> |定义两个连续定期项目之间的间隔（以天为单位）。 该值必须介于1到999之间。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[定期 (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |包含定期周期性任务信息。  <br/> |
-|[定期 (RecurrenceType)](recurrence-recurrencetype.md) <br/> |包含日历项和会议请求的定期模式。  <br/> |
+|[重复周期（TaskRecurrenceType）](recurrence-taskrecurrencetype.md) <br/> |包含定期任务的定期信息。  <br/> |
+|[重复周期（RecurrenceType）](recurrence-recurrencetype.md) <br/> |包含日历项目和会议请求的定期模式。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -60,12 +60,12 @@ ms.locfileid: "19753726"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

@@ -7,23 +7,23 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1c76bd1d-6099-4966-a93e-865437267e33
-description: OrganizerLocation 元素旨在仅供内部使用。
-ms.openlocfilehash: d9eb88e4ac435746f5e46f7d9b7e4f8c1862b579
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: OrganizerLocation 元素仅供内部使用。
+ms.openlocfilehash: cd60ea3e671037509df4f52c1e34e6bdbf9fadf8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826664"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462386"
 ---
 # <a name="organizerlocation"></a>OrganizerLocation
 
-**OrganizerLocation**元素旨在仅供内部使用。 
+**OrganizerLocation**元素仅供内部使用。 
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19826664"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 中引入了此元素。
   

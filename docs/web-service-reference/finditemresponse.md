@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: c8b316df-d4ab-49b8-96d4-8e9a016730ef
-description: FindItemResponse 元素定义 FindItem 请求的响应。
-ms.openlocfilehash: f30aae5637a0c9d1105054a1185c32707820bd8e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: FindItemResponse 元素定义对 FindItem 请求的响应。
+ms.openlocfilehash: 989adc40a69137dd53289fa48cc65a90259a2e38
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754338"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460608"
 ---
 # <a name="finditemresponse"></a>FindItemResponse
 
-**FindItemResponse**元素定义 FindItem 请求的响应。 
+**FindItemResponse**元素定义对 FindItem 请求的响应。 
   
 [FindItemResponse](finditemresponse.md)
   
@@ -34,9 +34,9 @@ ms.locfileid: "19754338"
  **FindItemResponseType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -44,13 +44,13 @@ ms.locfileid: "19754338"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |包含为 Exchange Web 服务请求的响应消息。  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |包含 Exchange Web 服务请求的响应消息。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -58,7 +58,7 @@ ms.locfileid: "19754338"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -72,5 +72,5 @@ ms.locfileid: "19754338"
 [FindItem](finditem.md)
 
 
-[查找项目](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
+[查找项目](https://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
 

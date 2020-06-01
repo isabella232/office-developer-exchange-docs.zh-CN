@@ -8,42 +8,42 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: a6f4a53d-d7f6-4ad1-8afb-78745c500eaa
-description: GetDomainSettings 操作中检索用户的域的指定的设置。 自动发现返回要发现的域和这些域的请求的设置。
-ms.openlocfilehash: 09b1d610cd415d2d9d7d0098354521ece86f5184
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: GetDomainSettings 操作为用户检索域的指定设置。 自动发现将返回要发现的域以及这些域的请求设置。
+ms.openlocfilehash: fd655e088b73372bc1dd68a740ebc2b516d1804a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754533"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460965"
 ---
 # <a name="getdomainsettings-operation-soap"></a>GetDomainSettings 操作 (SOAP)
 
-**GetDomainSettings**操作中检索用户的域的指定的设置。 自动发现返回要发现的域和这些域的请求的设置。 
+**GetDomainSettings**操作为用户检索域的指定设置。 自动发现将返回要发现的域以及这些域的请求设置。 
   
 ## <a name="getdomainsettings-request-example"></a>GetDomainSettings 请求示例
 
 ### <a name="description"></a>说明
 
-**GetDomainSettings**请求的下面的示例演示用户的**ExternalEWSUrl**域设置的请求。 客户端向服务器发送此请求。 
+以下示例的**GetDomainSettings**请求显示了对用户的**ExternalEWSUrl**域设置的请求。 客户端将此请求发送到服务器。 
   
 ### <a name="code"></a>代码
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?> 
-<soap:Envelope xmlns:a="http://schemas.microsoft.com/exchange/2010/Autodiscover"
+<soap:Envelope xmlns:a="https://schemas.microsoft.com/exchange/2010/Autodiscover"
                xmlns:wsa="http://www.w3.org/2005/08/addressing"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
     <soap:Header> 
         <a:RequestedServerVersion>Exchange2010</a:RequestedServerVersion>
-        <wsa:Action>http://schemas.microsoft.com/exchange/2010/
+        <wsa:Action>https://schemas.microsoft.com/exchange/2010/
             Autodiscover/Autodiscover/GetDomainSettings</wsa:Action>
         <wsa:To>
             https://autodiscover.exchange.microsoft.com/autodiscover/autodiscover.svc
         </wsa:To>
     </soap:Header> 
     <soap:Body> 
-        <a:GetDomainSettingsRequestMessage xmlns:a="http://schemas.microsoft.com
+        <a:GetDomainSettingsRequestMessage xmlns:a="https://schemas.microsoft.com
             /exchange/2010/Autodiscover"> 
             <a:Request> 
                 <a:Domains> 
@@ -58,37 +58,37 @@ ms.locfileid: "19754533"
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>请求元素
+### <a name="request-elements"></a>Request 元素
 
 请求中使用以下元素：
   
-- [GetDomainSettingsRequestMessage (SOAP)](getdomainsettingsrequestmessage-soap.md)
+- [GetDomainSettingsRequestMessage （SOAP）](getdomainsettingsrequestmessage-soap.md)
     
 - [请求 (SOAP)](request-soap.md)
     
-- [域 (SOAP)](domains-soap.md)
+- [域（SOAP）](domains-soap.md)
     
-- [域 (SOAP)](domain-soap.md)
+- [域（SOAP）](domain-soap.md)
     
-- [RequestedSettings (SOAP)](requestedsettings-soap.md)
+- [RequestedSettings （SOAP）](requestedsettings-soap.md)
     
-- [设置 (SOAP)](setting-soap.md)
+- [设置（SOAP）](setting-soap.md)
     
 ## <a name="getdomainsettings-response-example"></a>GetDomainSettings 响应示例
 
 ### <a name="description"></a>说明
 
-下面的示例演示对**GetDomainSettings**请求服务器发送到客户端的成功响应。 
+下面的示例演示对服务器发送到客户端的**GetDomainSettings**请求的成功响应。 
   
 ### <a name="code"></a>代码
 
 ```XML
 //www.w3.org/2005/08/addressing"> 
     <s:Header> 
-        <a:Action s:mustUnderstand="1">http://schemas.microsoft.com/exchange/2010/ 
+        <a:Action s:mustUnderstand="1">https://schemas.microsoft.com/exchange/2010/ 
             Autodiscover/Autodiscover/GetDomainSettingsResponse
         </a:Action> 
-        <h:ServerVersionInfo xmlns:h="http://schemas.microsoft.com/exchange/2010/Autodiscover" 
+        <h:ServerVersionInfo xmlns:h="https://schemas.microsoft.com/exchange/2010/Autodiscover" 
             xmlns:i="http://www.w3.org/2001/XMLSchema-instance"> 
         <h:MajorVersion>14</h:MajorVersion> 
         <h:MinorVersion>0</h:MinorVersion> 
@@ -98,7 +98,7 @@ ms.locfileid: "19754533"
         </h:ServerVersionInfo>
     </s:Header> 
     <s:Body> 
-        <GetDomainSettingsResponseMessage xmlns="http://schemas.microsoft.com/exchange/2010/Autodiscover"> 
+        <GetDomainSettingsResponseMessage xmlns="https://schemas.microsoft.com/exchange/2010/Autodiscover"> 
             <Response xmlns:i="http://www.w3.org/2001/XMLSchema-instance"> 
                 <ErrorCode>NoError</ErrorCode> 
                 <ErrorMessage /> 
@@ -122,33 +122,33 @@ ms.locfileid: "19754533"
 </s:Envelope>
 ```
 
-### <a name="response-elements"></a>响应元素
+### <a name="response-elements"></a>Response 元素
 
-在响应中使用以下元素：
+响应中使用以下元素：
   
-- [GetDomainSettingsResponseMessage (SOAP)](getdomainsettingsresponsemessage-soap.md)
+- [GetDomainSettingsResponseMessage （SOAP）](getdomainsettingsresponsemessage-soap.md)
     
-- [响应 (SOAP)](response-soap.md)
+- [响应（SOAP）](response-soap.md)
     
-- [ErrorCode (SOAP)](errorcode-soap.md)
+- [ErrorCode （SOAP）](errorcode-soap.md)
     
-- [ErrorMessage (SOAP)](errormessage-soap.md)
+- [ErrorMessage （SOAP）](errormessage-soap.md)
     
-- [DomainResponses (SOAP)](domainresponses-soap.md)
+- [DomainResponses （SOAP）](domainresponses-soap.md)
     
-- [DomainResponse (SOAP)](domainresponse-soap.md)
+- [DomainResponse （SOAP）](domainresponse-soap.md)
     
-- [DomainSettingErrors (SOAP)](domainsettingerrors-soap.md)
+- [DomainSettingErrors （SOAP）](domainsettingerrors-soap.md)
     
-- [DomainSettings (SOAP)](domainsettings-soap.md)
+- [DomainSettings （SOAP）](domainsettings-soap.md)
     
-- [DomainSetting (SOAP)](domainsetting-soap.md)
+- [DomainSetting （SOAP）](domainsetting-soap.md)
     
-- [名称 (SOAP)](name-soap.md)
+- [名称（SOAP）](name-soap.md)
     
-- [值 (SOAP)](value-soap.md)
+- [Value （SOAP）](value-soap.md)
     
-- [RedirectTarget (SOAP)](redirecttarget-soap.md)
+- [RedirectTarget （SOAP）](redirecttarget-soap.md)
     
 ## <a name="see-also"></a>另请参阅
 

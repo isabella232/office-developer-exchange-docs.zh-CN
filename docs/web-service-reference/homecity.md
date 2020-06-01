@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 410efc09-5c38-46fb-85b5-eb365be0ba35
-description: HomeCity 元素指定关联的个人住宅地址的城市。
-ms.openlocfilehash: 1d9c3153d3c6232082f699697fc7faf108b43c70
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: HomeCity 元素指定关联角色的住宅地址所在的城市。
+ms.openlocfilehash: 25fccaf0441fa3d9e258ae35f938ad0fc7a5a9eb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825832"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460867"
 ---
 # <a name="homecity"></a>HomeCity
 
-**HomeCity**元素指定关联的个人住宅地址的城市。 
+**HomeCity**元素指定关联角色的住宅地址所在的城市。 
   
 ```XML
 <HomeCity></HomeCity>
@@ -26,9 +26,9 @@ ms.locfileid: "19825832"
  **string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -40,11 +40,11 @@ ms.locfileid: "19825832"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[角色](persona.md) <br/> |指定一组个人**GetPersona**请求返回的数据。  <br/> |
+|[角色](persona.md) <br/> |指定由**GetPersona**请求返回的一组角色数据。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**HomeCity**元素的文本值是一个 string 值，指定市/县。 
+**HomeCity**元素的文本值是一个指定城市的字符串值。 
   
 ## <a name="remarks"></a>备注
 
@@ -56,14 +56,14 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |types.xsd  <br/> |
+|验证文件  <br/> |类型 .xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

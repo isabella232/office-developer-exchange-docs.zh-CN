@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c3c26063-9f3d-414d-84b7-4a2e12281157
 description: ContactString 元素指定联系人的显示名称。
-ms.openlocfilehash: b65a50e167fd05c85a19e45a4453a3a36c4616e4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: cecb742c3ddfca5633c28b2018314394e3af12a3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753541"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461497"
 ---
 # <a name="contactstring"></a>ContactString
 
@@ -26,9 +26,9 @@ ms.locfileid: "19753541"
  **string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -40,11 +40,11 @@ ms.locfileid: "19753541"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[联系人 (ContactType)](contact-contacttype.md) <br/> |指定统一联系人存储库中的联系人。  <br/> |
+|[Contact （ContactType）](contact-contacttype.md) <br/> |指定统一联系人存储库中的联系人。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**ContactString**元素的文本值是指定的显示名称的字符串值。 
+**ContactString**元素的文本值是指定显示名称的字符串值。 
   
 ## <a name="remarks"></a>备注
 
@@ -56,14 +56,14 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |types.xsd  <br/> |
+|验证文件  <br/> |类型 .xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

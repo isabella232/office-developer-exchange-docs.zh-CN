@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: a4a953b8-0710-416c-95ef-59e51eba9982
-description: CalendarView 元素定义为显示日历中一组中返回日历项 FindItem 操作。
-ms.openlocfilehash: 79b5ad268a8013092c1122c99bdcd10d876abf2c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: CalendarView 元素将 FindItem 操作定义为返回日历中显示的日历项目。
+ms.openlocfilehash: e547a4b2db5c09ebefd9a072da6cc4733818002e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753427"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462260"
 ---
 # <a name="calendarview"></a>CalendarView
 
-**CalendarView**元素定义为显示日历中一组中返回日历项[FindItem 操作](finditem-operation.md)。 
+**CalendarView**元素将[FindItem 操作](finditem-operation.md)定义为返回日历中显示的日历项目。 
   
 [FindItem](finditem.md)
   
@@ -35,15 +35,15 @@ ms.locfileid: "19753427"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**说明**|
 |:-----|:-----|
-|**MaxEntriesReturned** <br/> |最大个数要 FindItem 响应中返回的结果。  <br/> |
-|**StartDate** <br/> |标识查询的日历项目的时间范围内的开始。 具有之前不会返回**StartDate**结束时间的所有日历项。 可以采用协调世界时 (UTC) 格式，如 2006年中所示指定的**起始日期**值-01-02T12:00:00Z，或格式为本地时间和时区偏移指定的位置，如所示 2006年-01-02T04:00:00-08:00。  <br/><br/>此属性是必需的。  <br/> |
-|**EndDate** <br/> |标识查询日历项目的时间范围的末尾。 不会返回所有已是或**结束日期**之后的开始时间的日历项目。 **EndDate**的值可以指定以 UTC 格式，如下所示 2006年-02-02T12:00:00Z，或格式为本地时间和时区偏移指定的位置，如所示 2006年-02-02T04:00:00-08:00。  <br/><br/>**EndDate**必须大于或等于**StartDate**;否则将返回错误。 此属性是必需的。  <br/> |
+|**MaxEntriesReturned** <br/> |描述在 FindItem 响应中返回的最大结果数。  <br/> |
+|**StartDate** <br/> |标识为日历项目查询的时间范围的开始时间。 将不返回开始**日期**前结束时间的所有日历项目。 开始**日期**值可以指定为协调世界时（UTC）格式，如 2006-01-02T12：00：00Z，或以指定本地时间和时区偏移量的格式（如 2006-01-02T04：00：00：00：00：00：00：00：00：00：00）。  <br/><br/>此特性是必需的。  <br/> |
+|**EndDate** <br/> |标识为日历项目查询的时间范围的结束时间。 将不返回开始时间或**结束时间结束**的所有日历项目。 **结束**日期的值可以指定为 UTC 格式，如 2006-02-02T12：00：00Z，或以指定本地时间和时区偏移量的格式（如 2006-02-02T04：00： 00-08：00中所示）。  <br/><br/>**结束**日期必须大于或等于开始**日期**;否则，将返回错误。 此特性是必需的。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -53,15 +53,15 @@ ms.locfileid: "19753427"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[FindItem](finditem.md) <br/> |定义查找邮箱中的项目的请求。<br/><br/> 以下是此元素的 XPath 表达式：  <br/>  `/FindItem` <br/> |
+|[FindItem](finditem.md) <br/> |定义在邮箱中查找项目的请求。<br/><br/> 下面是此元素的 XPath 表达式：   <br/>  `/FindItem` <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-如果 FindItem 请求中指定的**CalendarView**元素，则 Web 服务返回的单个日历项和匹配项的**StartDate**和**EndDate**指定的范围内的定期日历项目的列表。
+如果在 FindItem 请求中指定了**CalendarView**元素，则 Web 服务将在**起始日期**和**结束**日期指定的范围内返回单个日历项目和定期日历项目的匹配项的列表。
   
-如果未在 FindItem 请求中指定的**CalendarView**元素，Web 服务返回的单个日历项和定期母版日历项目的列表。 不展开定期日历项目的日历发生次数。 
+如果 FindItem 请求中未指定**CalendarView**元素，则 Web 服务将返回单个日历项目和定期主日历项目的列表。 不展开定期日历项目的日历事件。 
   
-应只进行 CalendarView 查询使用下列属性之一，因为它们支持更快的日历查询。
+CalendarView 查询应仅使用下列属性，因为它们支持更快的日历查询。
   
 ### <a name="recurrence-blob-properties"></a>定期 blob 属性
   
@@ -95,7 +95,7 @@ ms.locfileid: "19753427"
     
 - ChangeHighlight
     
-### <a name="calculated-from-the-primary-recurrence-blob-or-master"></a>从主定期 blob 或主控形状计算
+### <a name="calculated-from-the-primary-recurrence-blob-or-master"></a>通过主定期 blob 或主机计算
   
 - ItemId
     
@@ -121,11 +121,11 @@ ms.locfileid: "19753427"
     
 - TimeZoneDefinitionEnd
     
-### <a name="master-calendar-item-properties"></a>母版日历项目属性
+### <a name="master-calendar-item-properties"></a>主日历项目属性
   
 - EntryId
     
-- 更改密钥
+- ChangeKey
     
 - ItemClass
     
@@ -165,16 +165,16 @@ ms.locfileid: "19753427"
   
 ## <a name="example"></a>示例
 
-下面的示例演示一个 FindItem 请求。 成功的请求返回一个响应，其中包括在 2006年启动的日历项目-05-18T00:00:00-08:00 或之后和已结束之前 2006年-05-19T00:00:00-08:00。
+下面的示例展示了一个 FindItem 请求。 成功的请求将返回一个响应，其中包括在2006年-18T00：00：00：00：00：00：00：00：00：00：00：00：00：00：00： 00-08：00之前开始的日历项目。
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <FindItem Traversal="Shallow" xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <FindItem Traversal="Shallow" xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ItemShape>
         <t:BaseShape>IdOnly</t:BaseShape>
         <t:AdditionalProperties>
@@ -196,7 +196,7 @@ ms.locfileid: "19753427"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -204,5 +204,5 @@ ms.locfileid: "19753427"
 ## <a name="see-also"></a>另请参阅
 
 - [FindItem 操作](finditem-operation.md)
-- [查找项目](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
+- [查找项目](https://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
 

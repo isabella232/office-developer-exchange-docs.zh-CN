@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a0eb444d-8e2e-478b-b785-2b9787ffb226
-description: HasEndTimeChanged 元素指定是否已更改为会议的结束时间。
-ms.openlocfilehash: 046bb302d6f7052c6f1757ce393583b305311e2f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: HasEndTimeChanged 元素指定会议的结束时间是否已更改。
+ms.openlocfilehash: 15ad52c7b7581cce5ca96ba5ff4e8a1c130a02cf
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825805"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461784"
 ---
 # <a name="hasendtimechanged"></a>HasEndTimeChanged
 
-**HasEndTimeChanged**元素指定是否已更改为会议的结束时间。 
+**HasEndTimeChanged**元素指定会议的结束时间是否已更改。 
   
 ```XML
 <HasEndTimeChanged>true | false</HasEndTimeChanged>
@@ -26,9 +26,9 @@ ms.locfileid: "19825805"
  **Boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -40,11 +40,11 @@ ms.locfileid: "19825805"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ChangeHighlights](changehighlights.md) <br/> |指定会议的两种版本之间的更改请求消息。  <br/> |
+|[ChangeHighlights](changehighlights.md) <br/> |指定会议请求邮件的两个版本之间的变化。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-文本值为**true**的**HasEndTimeChanged**元素指示会议的结束时间已更改。 如果值为**false**指示会议的结束时间未更改。 
+如果**HasEndTimeChanged**元素的文本值为**true** ，则表示会议的结束时间已更改。 **如果值为 false** ，则表示会议的结束时间未发生变化。 
   
 ## <a name="remarks"></a>备注
 
@@ -56,14 +56,14 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |types.xsd  <br/> |
+|验证文件  <br/> |类型 .xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

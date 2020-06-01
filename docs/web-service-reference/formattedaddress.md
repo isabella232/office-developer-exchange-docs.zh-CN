@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 643f8663-1fab-4625-a7e9-5724e352972b
-description: FormattedAddress 元素指定关联的邮政地址的格式的显示值。
-ms.openlocfilehash: 14c970fcbe20567546e99e637c9c78c6003d9c0f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: FormattedAddress 元素指定关联的邮政地址的格式化显示值。
+ms.openlocfilehash: 9150a3bb5bc81f7afecdafbf0cc33fafff597578
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754407"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461938"
 ---
 # <a name="formattedaddress"></a>FormattedAddress
 
-**FormattedAddress**元素指定关联的邮政地址的格式的显示值。 
+**FormattedAddress**元素指定关联的邮政地址的格式化显示值。 
   
 ```XML
 <FormattedAddress></FormattedAddress>
@@ -26,9 +26,9 @@ ms.locfileid: "19754407"
  **string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -40,12 +40,12 @@ ms.locfileid: "19754407"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[值 (PersonaPostalAddressType)](value-personapostaladdresstype.md) <br/> |指定与邮寄地址关联的信息。  <br/> |
-|[PostalAddress (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md) <br/> |指定位置的邮政地址。  <br/> |
+|[Value （PersonaPostalAddressType）](value-personapostaladdresstype.md) <br/> |指定与邮政地址相关联的信息。  <br/> |
+|[省略（PersonaPostalAddressType）](postaladdress-personapostaladdresstype.md) <br/> |指定位置的邮政地址。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**FormattedAddress**元素的文本值是一个 string 值，指定格式化的地址。 
+**FormattedAddress**元素的文本值是一个 string 值，用于指定已设置格式的地址。 
   
 ## <a name="remarks"></a>备注
 
@@ -57,14 +57,14 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |types.xsd  <br/> |
+|验证文件  <br/> |类型 .xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

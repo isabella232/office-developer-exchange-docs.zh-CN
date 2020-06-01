@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3704435b-9c84-4cff-a2a0-8288b4ca31ae
 description: GetClientAccessToken元素中包含一个请求以获取客户端访问令牌。
-ms.openlocfilehash: 5b5420c5f44d770293c77c0c0ae5c927da3aa856
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f0306f0d608300131ecbde500ed3b62eab0c7c66
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754478"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461091"
 ---
 # <a name="getclientaccesstoken"></a>GetClientAccessToken
 
@@ -28,9 +28,9 @@ ms.locfileid: "19754478"
  **GetClientAccessTokenType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,7 +42,7 @@ ms.locfileid: "19754478"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 中引入了此元素。
   
@@ -52,9 +52,9 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
-|验证文件  <br/> |messages.xsd  <br/> |
+|验证文件  <br/> |消息 .xsd  <br/> |
 |可以为空  <br/> ||
    
 

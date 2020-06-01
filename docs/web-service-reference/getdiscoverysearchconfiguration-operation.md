@@ -7,31 +7,31 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8a54a6dc-110c-4972-a8bc-5ddb43c4b857
-description: 查找信息 GetDiscoverySearchConfiguration EWS 操作。
-ms.openlocfilehash: a50463e575bf5a4ffdafc357d91563b0ca0486f4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 查找有关 GetDiscoverySearchConfiguration EWS 操作的信息。
+ms.openlocfilehash: 4db435988a9954b921e7851986b6f92ffedbad94
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754515"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461021"
 ---
 # <a name="getdiscoverysearchconfiguration-operation"></a>GetDiscoverySearchConfiguration 操作
 
 查找有关**GetDiscoverySearchConfiguration** EWS 操作的信息。 
   
-**GetDiscoverySearchConfiguration**操作返回配置信息的就地保留，保存查询搜索和启用了发现搜索邮箱。 
+**GetDiscoverySearchConfiguration**操作返回就地保留的配置信息、已保存的发现搜索以及为发现搜索启用的邮箱。 
   
 Exchange Server 2013 中引入了此操作。
   
 ## <a name="using-the-getdiscoverysearchconfiguration-operation"></a>使用 GetDiscoverySearchConfiguration 操作
 
-**GetDiscoverySearchConfiguration**操作提供发现搜索的配置信息。 请求可以包含一个或多个以下参数： 
+**GetDiscoverySearchConfiguration**操作提供发现搜索的配置信息。 请求可以包含以下一个或多个参数： 
   
-1. [SearchId](searchid.md) — 标识保存的发现搜索在搜索。 如果该参数为发送请求中，将忽略其他参数的值。 
+1. [SearchId](searchid.md) —标识已保存的发现搜索。 如果在请求中发送此参数，则忽略其他参数的值。 
     
-2. [ExpandGroupMembership](expandgroupmembership.md) — 指示是否在响应中展开组成员身份。 值为**true**指示组成员身份为展开，以便在响应中返回所有可搜索的邮箱。 如果值为**false**指示只有组响应中返回。 
+2. [ExpandGroupMembership](expandgroupmembership.md) —指示是否在响应中展开组成员资格。 值**为 true**表示组成员身份已展开，以便在响应中返回所有可搜索的邮箱。 **如果值为 false** ，则表示只在响应中返回组。 
     
-3. [InPlaceHoldConfigurationOnly](inplaceholdconfigurationonly.md) — 指示是否可搜索的所有邮箱都返回除了就地保留配置。 值为**true**指示返回的仅的就地保留配置。 如果值为**false**指示除了就地保留标识符返回的可搜索的邮箱的所有标识符。 如果此元素不存在，则的默认行为是相当于值**false**。 
+3. [InPlaceHoldConfigurationOnly](inplaceholdconfigurationonly.md) —指示除了就地保留配置之外，是否还返回所有可搜索的邮箱。 **True**值表示仅返回就地保留配置。 **如果值为 false** ，则表示除了就地保留标识符之外，还返回所有可搜索的邮箱标识符。 如果此元素不存在，则默认行为等效于值**false**。 
     
 ### <a name="getdiscoverysearchconfiguration-operation-soap-headers"></a>GetDiscoverySearchConfiguration 操作 SOAP 标头
 
@@ -39,19 +39,19 @@ Exchange Server 2013 中引入了此操作。
   
 |**标头名称**|**元素**|**说明**|
 |:-----|:-----|:-----|
-|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |标识服务器角色所需顺序呼叫者发出请求。 适用于请求此标头。  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。 适用于请求此标头。  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应该请求的服务器的版本。 适用于响应此标头。  <br/> |
+|**Get-managementrole** <br/> |[Get-managementrole](managementrole.md) <br/> |标识调用方发出请求所需的服务器角色。 此标头适用于请求。  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。 此标头适用于请求。  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器版本。 此标头适用于响应。  <br/> |
    
-## <a name="getdiscoverysearchconfiguration-operation-request-example-get-the-discovery-search-configuration-for-a-saved-search"></a>GetDiscoverySearchConfiguration 操作请求示例： 获取已保存的搜索的发现搜索配置
+## <a name="getdiscoverysearchconfiguration-operation-request-example-get-the-discovery-search-configuration-for-a-saved-search"></a>GetDiscoverySearchConfiguration 操作请求示例：获取保存的搜索的发现搜索配置
 
-**GetDiscoverySearchConfiguration**操作请求的下面的示例演示如何请求的名为"MyDiscSearchFor sbrown"已保存的搜索配置。 [ExpandGroupMembership](expandgroupmembership.md)和[InPlaceHoldConfigurationOnly](inplaceholdconfigurationonly.md)元素的参数将被忽略。 
+以下示例的**GetDiscoverySearchConfiguration**操作请求显示如何请求配置名为 "MyDiscSearchFor-sbrown" 的已保存搜索。 [ExpandGroupMembership](expandgroupmembership.md)和[InPlaceHoldConfigurationOnly](inplaceholdconfigurationonly.md)元素的参数将被忽略。 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
    </soap:Header>
@@ -76,21 +76,21 @@ Exchange Server 2013 中引入了此操作。
     
 - [InPlaceHoldConfigurationOnly](inplaceholdconfigurationonly.md)
     
-## <a name="successful-getdiscoverysearchconfiguration-operation-response-request-for-a-single-saved-search"></a>成功 GetDiscoverySearchConfiguration 操作响应： 单个已保存的搜索请求
+## <a name="successful-getdiscoverysearchconfiguration-operation-response-request-for-a-single-saved-search"></a>成功的 GetDiscoverySearchConfiguration 操作响应：请求单个已保存的搜索
 
-下面的示例演示对**GetDiscoverySearchConfiguration**操作请求若要获取的已保存的搜索名为"MyDiscSearchFor sbrown"配置成功响应。 
+下面的示例演示对**GetDiscoverySearchConfiguration**操作请求的成功响应，以获取名为 "MyDiscSearchFor-sbrown" 的已保存搜索的配置。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
-    <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="526" MinorBuildNumber="0" Version="Exchange2013" xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" xmlns="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+    <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="526" MinorBuildNumber="0" Version="Exchange2013" xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" xmlns="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <GetDiscoverySearchConfigurationResponse ResponseClass="Success" xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetDiscoverySearchConfigurationResponse ResponseClass="Success" xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseCode>NoError</ResponseCode>
       <DiscoverySearchConfigurations>
-        <DiscoverySearchConfiguration xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <DiscoverySearchConfiguration xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <SearchId>MyDiscSearchFor-sbrown</SearchId>
           <SearchQuery>test item</SearchQuery>
           <SearchableMailboxes>
@@ -111,7 +111,7 @@ Exchange Server 2013 中引入了此操作。
 </s:Envelope>
 ```
 
-响应 SOAP 正文中包含以下元素：
+响应 SOAP 正文包含以下元素：
   
 - [GetDiscoverySearchConfigurationResponse](getdiscoverysearchconfigurationresponse.md)
     
@@ -141,11 +141,11 @@ Exchange Server 2013 中引入了此操作。
     
 - [IsMembershipGroup](ismembershipgroup.md)
     
-- [相同引用](referenceid.md)
+- [ReferenceId](referenceid.md)
     
-## <a name="successful-getdiscoverysearchconfiguration-operation-response-request-for-in-place-holds"></a>成功 GetDiscoverySearchConfiguration 操作响应： 请求的就地保留
+## <a name="successful-getdiscoverysearchconfiguration-operation-response-request-for-in-place-holds"></a>成功的 GetDiscoverySearchConfiguration 操作响应：就地保留请求
 
-下面的示例演示成功响应**GetDiscoverySearchConfiguration**操作请求仅获取就地保留。 
+下面的示例演示对**GetDiscoverySearchConfiguration**操作请求的成功响应，仅获取就地保留。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -156,24 +156,24 @@ Exchange Server 2013 中引入了此操作。
                            MajorBuildNumber="526" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <GetDiscoverySearchConfigurationResponse ResponseClass="Success" 
-                                               xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                               xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <ResponseCode>NoError</ResponseCode>
          <DiscoverySearchConfigurations>
-            <DiscoverySearchConfiguration xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <DiscoverySearchConfiguration xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
                <SearchId>MyDiscSearchFor-sbrown</SearchId>
                <SearchQuery>test item</SearchQuery>
                <InPlaceHoldIdentity>3f37d90f53144558a80814ef0272749a9</InPlaceHoldIdentity>
                <ManagedByOrganization/>
             </DiscoverySearchConfiguration>
-            <DiscoverySearchConfiguration xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <DiscoverySearchConfiguration xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
                <SearchId>MyDiscSearch</SearchId>
                <SearchQuery>test</SearchQuery>
                <InPlaceHoldIdentity>6ea486f0f3f140efb044682a2e782abdf</InPlaceHoldIdentity>
@@ -186,7 +186,7 @@ Exchange Server 2013 中引入了此操作。
 
 ```
 
-响应 SOAP 正文中包含以下元素：
+响应 SOAP 正文包含以下元素：
   
 - [GetDiscoverySearchConfigurationResponse](getdiscoverysearchconfigurationresponse.md)
     
@@ -204,9 +204,9 @@ Exchange Server 2013 中引入了此操作。
     
 - [ManagedByOrganization](managedbyorganization.md)
     
-## <a name="successful-getdiscoverysearchconfiguration-operation-response-request-for-all-saved-discovery-search-configurations"></a>成功 GetDiscoverySearchConfiguration 操作响应： 请求的所有保存发现搜索配置
+## <a name="successful-getdiscoverysearchconfiguration-operation-response-request-for-all-saved-discovery-search-configurations"></a>成功的 GetDiscoverySearchConfiguration 操作响应：请求所有已保存的发现搜索配置
 
-下面的示例演示对**GetDiscoverySearchConfiguration**操作请求，以获取所有已保存的查询搜索的成功响应。 
+下面的示例演示对**GetDiscoverySearchConfiguration**操作请求的成功响应，以获取所有已保存的发现搜索。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -217,18 +217,18 @@ Exchange Server 2013 中引入了此操作。
                            MajorBuildNumber="526" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <GetDiscoverySearchConfigurationResponse ResponseClass="Success" 
-                                               xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                               xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <ResponseCode>NoError</ResponseCode>
          <DiscoverySearchConfigurations>
-            <DiscoverySearchConfiguration xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <DiscoverySearchConfiguration xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
                <SearchId>MyDiscSearchFor-sbrown</SearchId>
                <SearchQuery>test item</SearchQuery>
                <SearchableMailboxes>
@@ -243,7 +243,7 @@ Exchange Server 2013 中引入了此操作。
                   </SearchableMailbox>
                </SearchableMailboxes>
             </DiscoverySearchConfiguration>
-            <DiscoverySearchConfiguration xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <DiscoverySearchConfiguration xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
                <SearchId>MyDiscSearch</SearchId>
                <SearchQuery>test</SearchQuery>
                <SearchableMailboxes>
@@ -273,7 +273,7 @@ Exchange Server 2013 中引入了此操作。
 </s:Envelope>
 ```
 
-响应 SOAP 正文中包含以下元素：
+响应 SOAP 正文包含以下元素：
   
 - [GetDiscoverySearchConfigurationResponse](getdiscoverysearchconfigurationresponse.md)
     
@@ -303,11 +303,11 @@ Exchange Server 2013 中引入了此操作。
     
 - [IsMembershipGroup](ismembershipgroup.md)
     
-- [相同引用](referenceid.md)
+- [ReferenceId](referenceid.md)
     
 ## <a name="getdiscoverysearchconfiguration-operation-error-response"></a>GetDiscoverySearchConfiguration 操作错误响应
 
-下面的示例演示对**GetDiscoverySearchConfiguration**操作请求错误响应。 这是要获取的服务器未找到已保存的搜索请求的响应。 
+下面的示例演示对**GetDiscoverySearchConfiguration**操作请求的错误响应。 这是对获取在服务器上找不到的已保存搜索的请求的响应。 
   
 ```XML
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
@@ -317,15 +317,15 @@ Exchange Server 2013 中引入了此操作。
                            MajorBuildNumber="526" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <GetDiscoverySearchConfigurationResponse ResponseClass="Error" 
-                                               xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                               xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <MessageText>Search configuration corresponding to the search id was not found.</MessageText>
          <ResponseCode>ErrorInvalidArgument</ResponseCode>
          <DescriptiveLinkKey>0</DescriptiveLinkKey>
@@ -348,7 +348,7 @@ Exchange Server 2013 中引入了此操作。
     
 - [DiscoverySearchConfigurations](discoverysearchconfigurations.md)
     
-通用到 EWS 且特定于此操作的其他错误代码，请参阅[ResponseCode](responsecode.md)。
+有关对 EWS 通用的其他错误代码以及特定于此操作的错误代码，请参阅[ResponseCode](responsecode.md)。
   
 ## <a name="see-also"></a>另请参阅
 

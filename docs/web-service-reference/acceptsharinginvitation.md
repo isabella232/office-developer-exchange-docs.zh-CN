@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 3c2a47d6-490d-425b-8893-089a4f8882cd
-description: AcceptSharingInvitation 元素用于接受邀请，允许访问其他用户的日历或联系人数据。
-ms.openlocfilehash: 06439739e6cc544d5039ac9d18e0452b1d42a0ed
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: AcceptSharingInvitation 元素用于接受允许访问其他用户的 "日历" 或 "联系人" 数据的邀请。
+ms.openlocfilehash: c8cdae707bd122e74fa0e284163d1540d857c3de
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754249"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461707"
 ---
 # <a name="acceptsharinginvitation"></a>AcceptSharingInvitation
 
-**AcceptSharingInvitation**元素用于接受邀请，允许访问其他用户的日历或联系人数据。 
+**AcceptSharingInvitation**元素用于接受允许访问其他用户的 "日历" 或 "联系人" 数据的邀请。 
   
 ```xml
 <AcceptSharingInvitation>
@@ -32,9 +32,9 @@ ms.locfileid: "19754249"
  **AcceptSharingInvitationType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,16 +42,16 @@ ms.locfileid: "19754249"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ReferenceItemId](referenceitemid.md) <br/> |标识响应对象引用的项。  <br/> |
+|[ReferenceItemId](referenceitemid.md) <br/> |标识 response 对象引用的项。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ResponseObjects](responseobjects.md) <br/> |包含与 Exchange 存储中的项相关联的所有响应对象的集合。  <br/> |
-|[项目 (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md) <br/> |包含由[ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md)元素的文件夹中创建的项的数组。  <br/> |
+|[ResponseObjects](responseobjects.md) <br/> |包含与 Exchange 存储中的项目关联的所有响应对象的集合。  <br/> |
+|[项目（NonEmptyArrayOfAllItemsType）](items-nonemptyarrayofallitemstype.md) <br/> |包含要在由[ParentFolderId （TargetFolderIdType）](parentfolderid-targetfolderidtype.md)元素标识的文件夹中创建的项的数组。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -59,13 +59,13 @@ ms.locfileid: "19754249"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
-- [CreateItem (AcceptSharingInvitation)](createitem-acceptsharinginvitation.md)
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [CreateItem （AcceptSharingInvitation）](createitem-acceptsharinginvitation.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

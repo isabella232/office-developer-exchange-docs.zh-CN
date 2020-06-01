@@ -1,5 +1,5 @@
 ---
-title: ErrorCode (POX)
+title: ErrorCode （POX）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,21 +8,21 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 064d73e4-45b7-4797-828e-9df590830db8
-description: ErrorCode 元素包含自动发现响应的错误的错误代码。
-ms.openlocfilehash: ede0230ed119c07a00c9681daa193dd2a5419926
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ErrorCode 元素包含错误发现响应的错误代码。
+ms.openlocfilehash: 9dcd681c00aefcfb88f1f8a58be3aa2ccd0bb72b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754150"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460650"
 ---
-# <a name="errorcode-pox"></a>ErrorCode (POX)
+# <a name="errorcode-pox"></a>ErrorCode （POX）
 
-**ErrorCode**元素包含自动发现响应的错误的错误代码。 
+**ErrorCode**元素包含错误发现响应的错误代码。 
   
-[错误 (POX)](error-pox.md)
+[错误（POX）](error-pox.md)
   
-[ErrorCode (POX)](errorcode-pox.md)
+[ErrorCode （POX）](errorcode-pox.md)
   
 ```xml
 <ErrorCode/>
@@ -30,9 +30,9 @@ ms.locfileid: "19754150"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -44,15 +44,15 @@ ms.locfileid: "19754150"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[错误 (POX)](error-pox.md) <br/> |包含自动发现错误响应。  <br/> |
+|[错误（POX）](error-pox.md) <br/> |包含自动发现错误响应。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-文本值表示自动发现响应的错误的错误代码。
+该文本值表示错误发现响应的错误代码。
   
 ## <a name="see-also"></a>另请参阅
 
 
 
-[Exchange POX 自动发现 XML 元素](pox-autodiscover-xml-elements-for-exchange.md)
+[Exchange 的 POX 自动发现 XML 元素](pox-autodiscover-xml-elements-for-exchange.md)
 

@@ -1,5 +1,5 @@
 ---
-title: 关联
+title: Association
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 021e49c4-3019-465b-9de1-e1fa8169bea6
 description: Association 元素仅供内部使用。
-ms.openlocfilehash: 63501f5c72340472a67ae89cdd5835025fb8c843
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
-ms.translationtype: HT
+ms.openlocfilehash: cd5a9cb31834121a490e974215e652de928b71c6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753276"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460874"
 ---
 # <a name="association"></a>关联
 

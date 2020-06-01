@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5ac60472-a565-43d1-a5fb-8be0c9511f82
-description: ServerHint 元素均表示跟踪远程站点或林的邮件中的起始点。
-ms.openlocfilehash: 96953f70c239254d15b9d8173f951b52ca95a546
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ServerHint 元素表示跟踪远程站点或林中的邮件的起始点。
+ms.openlocfilehash: 76a719901f4e4d1da67ce377ab8b73e4a4592dc4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827376"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461987"
 ---
 # <a name="serverhint"></a>ServerHint
 
-**ServerHint**元素均表示跟踪远程站点或林的邮件中的起始点。 
+**ServerHint**元素表示跟踪远程站点或林中的邮件的起始点。 
   
 ```xml
 <ServerHint/>
@@ -30,9 +30,9 @@ ms.locfileid: "19827376"
  **string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -44,13 +44,13 @@ ms.locfileid: "19827376"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[FindMessageTrackingReport](findmessagetrackingreport.md) <br/> |指定条件的邮件，以查找的类型。  <br/> |
+|[FindMessageTrackingReport](findmessagetrackingreport.md) <br/> |指定要查找的邮件类型的条件。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   
@@ -58,7 +58,7 @@ ms.locfileid: "19827376"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -70,5 +70,5 @@ ms.locfileid: "19827376"
 [FindMessageTrackingReport 操作](findmessagetrackingreport-operation.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

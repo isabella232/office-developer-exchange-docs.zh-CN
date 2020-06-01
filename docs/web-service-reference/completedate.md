@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: b2b53b87-6a0b-4a55-bcfc-3bf67d3c1700
-description: CompleteDate 元素均表示已完成项目的日期。
-ms.openlocfilehash: 00a1ec25be737ec0a5cc874063e1bce19a96cee0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: CompleteDate 元素表示项目完成的日期。
+ms.openlocfilehash: fff3d5d3105bf63c9cdd34cbcf828d57ca287b86
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753461"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461420"
 ---
 # <a name="completedate"></a>CompleteDate
 
-**CompleteDate**元素均表示已完成项目的日期。 
+**CompleteDate**元素表示项目完成的日期。 
   
 ```xml
 <CompleteDate/>
@@ -30,9 +30,9 @@ ms.locfileid: "19753461"
  **DateTime**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -45,15 +45,15 @@ ms.locfileid: "19753461"
 |**元素**|**说明**|
 |:-----|:-----|
 |[任务](task.md) <br/> |表示 Exchange 存储中的任务。  <br/> |
-|[Flag](flag.md) <br/> |邮箱项目上指定的标志。  <br/> |
+|[Flag](flag.md) <br/> |指定邮箱项目的标志。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-如果使用此元素，则需要一个文本值，表示的日期和时间。
+如果使用此元素，则表示日期和时间的文本值是必需的。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-设置**CompleteDate**与将[PercentComplete](percentcomplete.md)设置为 100 或**已完成**[状态](status.md)的效果相同。 在请求中，这些属性的设置至少两个，最后一个处理的属性将确定设置这些元素的值。 例如，如果[PercentComplete](percentcomplete.md)为 100， **CompleteDate**是 2007 年 1 月 1 日和[状态](status.md)为**NotStarted**，并且该顺序流式传输属性，将效果设置为 NotStarted**任务的[状态](status.md)**， [CompleteDate](completedate.md)为**null**，并且为 0 的[完成百分比](percentcomplete.md)。 
+设置**CompleteDate**与将[百分比](percentcomplete.md)设置为100或将[状态](status.md)设置为 "已**完成**" 具有相同的效果。 在设置至少两个属性中的一个请求中，最后处理的属性将确定为这些元素设置的值。 例如，如果[百分比](percentcomplete.md)为100，则**CompleteDate**为 2007 1 月1日，且[状态](status.md)为**NotStarted**，并且按该顺序对属性进行了流式处理，则效果是将任务的[状态](status.md)设置为**NotStarted**，将[CompleteDate](completedate.md)设置为 null，[并将](percentcomplete.md)**值**为0。 
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -61,7 +61,7 @@ ms.locfileid: "19753461"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -70,10 +70,10 @@ ms.locfileid: "19753461"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 
 
-[创建任务](http://msdn.microsoft.com/library/0ef97334-e8a0-4f67-a23a-dd9e2bbad49f%28Office.15%29.aspx)
+[创建任务](https://msdn.microsoft.com/library/0ef97334-e8a0-4f67-a23a-dd9e2bbad49f%28Office.15%29.aspx)
   
-[删除任务](http://msdn.microsoft.com/library/a3d7e25f-8a35-4901-b1d9-d31f418ab340%28Office.15%29.aspx)
+[删除任务](https://msdn.microsoft.com/library/a3d7e25f-8a35-4901-b1d9-d31f418ab340%28Office.15%29.aspx)
 

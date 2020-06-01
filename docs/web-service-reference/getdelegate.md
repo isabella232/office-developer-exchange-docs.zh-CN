@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 6d5efe59-596f-46f8-bdc6-ca9cded9bb8e
-description: GetDelegate 元素定义一个请求以获取有关委派给邮箱的信息。 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 中引入了此元素。
-ms.openlocfilehash: e31d6bd4f4387094beb467fcc4dff31ca7ec5d62
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: GetDelegate 元素定义一个请求，以获取有关邮箱的代理的信息。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
+ms.openlocfilehash: bd7fb55800b51eb2d69184bc4e04cdef3e6b9a89
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754513"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461028"
 ---
 # <a name="getdelegate"></a>GetDelegate
 
-**GetDelegate**元素定义一个请求以获取有关委派给邮箱的信息。 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 中引入了此元素。 
+**GetDelegate**元素定义一个请求，以获取有关邮箱的代理的信息。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
   
 ```xml
 <GetDelegate IncludePermissions="">
@@ -33,33 +33,33 @@ ms.locfileid: "19754513"
  **GetDelegateType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**说明**|
 |:-----|:-----|
-|**IncludePermissions** <br/> |指示响应是否包含为每个委派用户的权限设置。  <br/> |
+|**IncludePermissions** <br/> |指示响应是否包含每个代理用户的权限设置。  <br/> |
    
 #### <a name="includepermissions-attribute-values"></a>IncludePermissions 属性值
 
 |**值**|**说明**|
 |:-----|:-----|
-|**True** <br/> |授予的用户权限返回除了[UserId](userid.md)元素中返回的委托用户信息。  <br/> |
-|**False** <br/> |将返回[用户 Id](userid.md)信息。  <br/> |
+|**True** <br/> |除了在[UserId](userid.md)元素中返回的代理用户信息之外，还返回委派用户权限。  <br/> |
+|**False** <br/> |将返回[UserId](userid.md)信息。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
-|**元素**|**说明**|
+|**元素**|**描述**|
 |:-----|:-----|
-|[Mailbox](mailbox.md) <br/> |标识的主体的邮箱。  <br/> |
-|[UserIds](userids.md) <br/> |包含委派用户获取主体的邮箱的数组。 Exchange 2007 SP1 中引入了此元素。  <br/> |
+|[Mailbox](mailbox.md) <br/> |标识主体的邮箱。  <br/> |
+|[UserIds](userids.md) <br/> |包含要从主体邮箱获取的代理用户的数组。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 Microsoft Exchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -67,7 +67,7 @@ ms.locfileid: "19754513"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -79,5 +79,5 @@ ms.locfileid: "19754513"
 [GetDelegate 操作](getdelegate-operation.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

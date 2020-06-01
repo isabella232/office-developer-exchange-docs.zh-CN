@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 55e17121-aad0-4f90-889f-2c3512e9579c
-description: CanDelete 元素指示客户是否可以删除的托管的文件夹。
-ms.openlocfilehash: b70b28bd6b3c9452f5d7f249f453218d555754da
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: CanDelete 元素指示某个托管文件夹是否可由客户删除。
+ms.openlocfilehash: 5fe16c276bdb0c5b3b73ca63099559d3e869db3e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753433"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461588"
 ---
 # <a name="candelete"></a>CanDelete
 
-**CanDelete**元素指示客户是否可以删除的托管的文件夹。 
+**CanDelete**元素指示某个托管文件夹是否可由客户删除。 
   
 ```xml
 <CanDelete/>
@@ -30,9 +30,9 @@ ms.locfileid: "19753433"
  **Boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -48,11 +48,11 @@ ms.locfileid: "19753433"
    
 ## <a name="text-value"></a>文本值
 
-如果此元素是存在，则需要一个文本值，它代表一个布尔值。 值为**true**指示可以删除该文件夹;如果值为**false**意味着不能删除该文件夹。 
+如果存在此元素，则需要一个表示布尔值的文本值。 **如果值为 true** ，则表示可以删除文件夹;**如果值为 false** ，则表示无法删除文件夹。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-若要删除的托管的文件夹，使用[DeleteFolder 操作](deletefolder-operation.md)。
+若要删除托管文件夹，请使用[DeleteFolder 操作](deletefolder-operation.md)。
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -60,7 +60,7 @@ ms.locfileid: "19753433"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -72,8 +72,8 @@ ms.locfileid: "19753433"
 [CreateManagedFolder 操作](createmanagedfolder-operation.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 
 
-[删除文件夹](http://msdn.microsoft.com/library/1958add5-5071-4239-adb2-40f7a7d74aee%28Office.15%29.aspx)
+[删除文件夹](https://msdn.microsoft.com/library/1958add5-5071-4239-adb2-40f7a7d74aee%28Office.15%29.aspx)
 

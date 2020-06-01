@@ -1,5 +1,5 @@
 ---
-title: 主机名 (SOAP)
+title: Hostname （SOAP）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,17 +8,17 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 2ef2ab0d-ba70-46bd-80bb-c1e08da9e9bd
-description: 主机名元素均表示完整的计算机的计算机名称的主机名部分。
-ms.openlocfilehash: 4ad3003603a4b62101a76082713f62752b43ecaa
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Hostname 元素表示计算机的完整计算机名称的主机名部分。
+ms.openlocfilehash: 2c368e710dc192302bc63bd74bba35d84c5ab705
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825846"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460811"
 ---
-# <a name="hostname-soap"></a>主机名 (SOAP)
+# <a name="hostname-soap"></a>Hostname （SOAP）
 
-**主机名**元素均表示完整的计算机的计算机名称的主机名部分。 
+**Hostname**元素表示计算机的完整计算机名称的主机名部分。 
   
 ```XML
 <Hostname/>
@@ -27,9 +27,9 @@ ms.locfileid: "19825846"
  **string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -41,17 +41,17 @@ ms.locfileid: "19825846"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ProtocolConnection (SOAP)](protocolconnection-soap.md) <br/> |代表协议连接的服务器 Web 客户端。  <br/> |
+|[ProtocolConnection （SOAP）](protocolconnection-soap.md) <br/> |表示服务器 Web 客户端的协议连接。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**主机名**元素的文本值是计算机的完整的计算机名称的主机名部分。 
+**Hostname**元素的文本值是计算机的完整计算机名称的主机名部分。 
   
 ## <a name="element-information"></a>元素信息
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |架构名称  <br/> |自动发现架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |

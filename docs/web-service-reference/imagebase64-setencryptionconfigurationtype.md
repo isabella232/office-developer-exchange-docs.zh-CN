@@ -7,23 +7,23 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 64905c0b-b923-4e31-84aa-e687eba31b17
-description: ImageBase64 仅供内部使用应 (SetEncryptionConfigurationType) 元素。
-ms.openlocfilehash: 3deca2419b70ac530581bd0160a3f63ea32a359d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ImageBase64 （SetEncryptionConfigurationType）元素仅供内部使用。
+ms.openlocfilehash: f1584911b6124a4ac1688bd64899b07308ad5d68
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825884"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460902"
 ---
 # <a name="imagebase64-setencryptionconfigurationtype"></a>ImageBase64 (SetEncryptionConfigurationType)
 
-**ImageBase64 (SetEncryptionConfigurationType)** 元素旨在仅供内部使用。 
+**ImageBase64 （SetEncryptionConfigurationType）** 元素仅供内部使用。 
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19825884"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   

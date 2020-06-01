@@ -1,5 +1,5 @@
 ---
-title: Create (ItemSync)
+title: 创建（ItemSync）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,23 +11,23 @@ api_name:
 api_type:
 - schema
 ms.assetid: cb5e64a2-66a5-4447-921e-7c13efb8f6bf
-description: 创建元素标识在本地客户端库中创建的单个项。
-ms.openlocfilehash: d49e54c64f7bd53dcb296d998a856c20570d81be
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: Create 元素标识要在本地客户端存储中创建的单个项目。
+ms.openlocfilehash: b9c0f28333594a6c17ee9581a227fc4773874fd6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353943"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460797"
 ---
-# <a name="create-itemsync"></a>Create (ItemSync)
+# <a name="create-itemsync"></a>创建（ItemSync）
 
-**创建**元素标识在本地客户端库中创建的单个项。 
+**Create**元素标识要在本地客户端存储中创建的单个项目。 
   
 - [SyncFolderItemsResponse](syncfolderitemsresponse.md) 
 - [ResponseMessages](responsemessages.md) 
 - [SyncFolderItemsResponseMessage](syncfolderitemsresponsemessage.md) 
-- [Changes (Items)](changes-items.md) 
-- [Create (ItemSync)](create-itemsync.md)
+- [更改（项目）](changes-items.md) 
+- [创建（ItemSync）](create-itemsync.md)
   
 ```xml
 <Create>
@@ -103,22 +103,22 @@ ms.locfileid: "21353943"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Item](item.md) <br/> |表示要创建的泛型 Exchange 项目。  <br/> |
-|[邮件](message-ex15websvcsotherref.md) <br/> |代表要创建 Exchange 电子邮件。  <br/> |
-|[CalendarItem](calendaritem.md) <br/> |表示要创建 Exchange 日历项。  <br/> |
-|[Contact](contact.md) <br/> |表示要创建 Exchange 联系人项。  <br/> |
-|[DistributionList](distributionlist.md) <br/> |代表创建的通讯组列表。  <br/> |
-|[MeetingMessage](meetingmessage.md) <br/> |代表要创建的会议消息。  <br/> |
+|[Item](item.md) <br/> |表示要创建的通用 Exchange 项。  <br/> |
+|[邮件](message-ex15websvcsotherref.md) <br/> |表示要创建的 Exchange 电子邮件。  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |代表要创建的 Exchange 日历项目。  <br/> |
+|[联系人](contact.md) <br/> |表示要创建的 Exchange 联系人项。  <br/> |
+|[DistributionList](distributionlist.md) <br/> |表示要创建的通讯组列表。  <br/> |
+|[MeetingMessage](meetingmessage.md) <br/> |表示要创建的会议消息。  <br/> |
 |[MeetingRequest](meetingrequest.md) <br/> |表示要创建的会议请求。  <br/> |
-|[MeetingResponse](meetingresponse.md) <br/> |代表要创建的会议响应。  <br/> |
-|[MeetingCancellation](meetingcancellation.md) <br/> |代表取消会议创建。  <br/> |
-|[任务](task.md) <br/> |代表要创建的任务。  <br/> |
+|[MeetingResponse](meetingresponse.md) <br/> |表示要创建的会议响应。  <br/> |
+|[MeetingCancellation](meetingcancellation.md) <br/> |表示要创建的会议取消。  <br/> |
+|[Task](task.md) <br/> |表示要创建的任务。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Changes (Items)](changes-items.md) <br/> |包含表示客户端上的项目和 Exchange 服务器上的项目之间的差异的类型的更改类型序列数组。  <br/> |
+|[更改（项目）](changes-items.md) <br/> |包含更改类型的序列数组，这些类型表示客户端上的项与 Exchange 服务器上的项之间的差异类型。  <br/> |
    
 ## <a name="remarks"></a>说明
 
@@ -128,7 +128,7 @@ ms.locfileid: "21353943"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -136,5 +136,5 @@ ms.locfileid: "21353943"
 ## <a name="see-also"></a>另请参阅
 
 - [SyncFolderItems 操作](syncfolderitems-operation.md)
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

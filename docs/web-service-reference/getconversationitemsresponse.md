@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8f271894-01cb-4ee3-ba2f-6464e19518ac
-description: GetConversationItemsResponse 元素定义 GetConversationItems 请求的响应。
-ms.openlocfilehash: b7dbb5cd7c3829d51167cb9499ba80edcd4dbdc3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: GetConversationItemsResponse 元素定义对 GetConversationItems 请求的响应。
+ms.openlocfilehash: 8c1663ef757148ecb6ebda059412b4fbdc503d07
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754496"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461084"
 ---
 # <a name="getconversationitemsresponse"></a>GetConversationItemsResponse
 
-**GetConversationItemsResponse**元素定义**GetConversationItems**请求的响应。 
+**GetConversationItemsResponse**元素定义对**GetConversationItems**请求的响应。 
   
 ```XML
 <GetConversationItemsResponse>
@@ -28,9 +28,9 @@ ms.locfileid: "19754496"
  **GetConversationItemsResponseType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,7 +42,7 @@ ms.locfileid: "19754496"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 中引入了此元素。
   
@@ -52,9 +52,9 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
-|验证文件  <br/> |messages.xsd  <br/> |
+|验证文件  <br/> |消息 .xsd  <br/> |
 |可以为空  <br/> ||
    
 

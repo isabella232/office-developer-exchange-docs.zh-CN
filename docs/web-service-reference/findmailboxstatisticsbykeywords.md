@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: cfe0f0ff-5fea-4db8-ac96-a5724c85ed2f
-description: FindMailboxStatisticsByKeywords 元素指定按关键字搜索的邮箱统计信息的请求。
-ms.openlocfilehash: e667f13b66e439dca88d73a5e05d74846183928c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: FindMailboxStatisticsByKeywords 元素指定按关键字搜索邮箱统计信息的请求。
+ms.openlocfilehash: e22c7d8dc849d3fd45d6cb158030cbd82119437e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754343"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462526"
 ---
 # <a name="findmailboxstatisticsbykeywords"></a>FindMailboxStatisticsByKeywords
 
-**FindMailboxStatisticsByKeywords**元素指定按关键字搜索的邮箱统计信息的请求。 
+**FindMailboxStatisticsByKeywords**元素指定按关键字搜索邮箱统计信息的请求。 
   
 ```XML
 <FindMailboxStatisticsByKeywords>
@@ -38,9 +38,9 @@ ms.locfileid: "19754343"
  **FindMailboxStatisticsByKeywordsType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -48,23 +48,23 @@ ms.locfileid: "19754343"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[邮箱 (ArrayOfUserMailboxesType)](mailboxes-arrayofusermailboxestype.md) <br/> |包含受保留的邮箱的数组。  <br/> |
-|[Keywords](keywords-ex15websvcsotherref.md) <br/> |指定搜索的关键字。  <br/> |
+|[邮箱（ArrayOfUserMailboxesType）](mailboxes-arrayofusermailboxestype.md) <br/> |包含受保留影响的邮箱数组。  <br/> |
+|[Keywords](keywords-ex15websvcsotherref.md) <br/> |指定用于搜索的关键字。  <br/> |
 |[Language](language.md) <br/> |包含用于搜索查询的语言。  <br/> |
 |[发件人](senders.md) <br/> |指定 SMTP 地址的数组。  <br/> |
-|[收件人 (ArrayOfSmtpAddressType)](recipients-arrayofsmtpaddresstype.md) <br/> |指定的邮件收件人的数组。  <br/> |
+|[收件人（ArrayOfSmtpAddressType）](recipients-arrayofsmtpaddresstype.md) <br/> |指定邮件的收件人数组。  <br/> |
 |[FromDate](fromdate.md) <br/> |指定发送邮件的日期。  <br/> |
-|[ToDate](todate.md) <br/> |指定收到邮件的日期。  <br/> |
-|[MessageTypes](messagetypes.md) <br/> |指定要搜索消息的的数组。  <br/> |
-|[SearchDumpster](searchdumpster.md) <br/> |指定是否在已删除项目中搜索。  <br/> |
-|[IncludePersonalArchive](includepersonalarchive.md) <br/> |指定是否在搜索中包括个人存档。  <br/> |
-|[IncludeUnsearchableItems](includeunsearchableitems.md) <br/> |指定是否包含无法搜索的项目。  <br/> |
+|[ToDate](todate.md) <br/> |指定接收邮件的日期。  <br/> |
+|[MessageTypes](messagetypes.md) <br/> |指定要搜索的邮件数组。  <br/> |
+|[SearchDumpster](searchdumpster.md) <br/> |指定是否在 "已删除邮件" 中搜索。  <br/> |
+|[IncludePersonalArchive](includepersonalarchive.md) <br/> |指定是否在搜索中包含个人存档。  <br/> |
+|[IncludeUnsearchableItems](includeunsearchableitems.md) <br/> |指定是否包括无法搜索的项目。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -72,14 +72,14 @@ ms.locfileid: "19754343"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
-|验证文件  <br/> |messages.xsd  <br/> |
+|验证文件  <br/> |消息 .xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

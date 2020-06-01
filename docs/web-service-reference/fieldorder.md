@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: b9364842-bbe2-4221-afef-bf5022bc89ec
-description: FieldOrder 元素表示要用于对结果进行排序的单个字段，并指示用于排序的方向。
-ms.openlocfilehash: 320a7b821cc593e7dd60a8f8adb23bcd600f71f8
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: FieldOrder 元素表示对结果进行排序所依据的单个字段，并指示排序的方向。
+ms.openlocfilehash: 19dee7175d541dd99b53e004ea8ccd785b619184
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353299"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461259"
 ---
 # <a name="fieldorder"></a>FieldOrder
 
-**FieldOrder**元素表示要用于对结果进行排序的单个字段，并指示用于排序的方向。 
+**FieldOrder**元素表示对结果进行排序所依据的单个字段，并指示排序的方向。 
   
 ```xml
 <FieldOrder Order="">
@@ -51,7 +51,7 @@ ms.locfileid: "21353299"
 
 |**属性**|**说明**|
 |:-----|:-----|
-|**Order** <br/> | 描述排序顺序的方向。<br/><br/> 以下是可能的值： <br/> <br/>-升序  <br/>-降序  <br/> |
+|**Order** <br/> | 描述排序次序的方向。<br/><br/> 以下是可能的值： <br/> <br/>-升序  <br/>-降序  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -65,9 +65,9 @@ ms.locfileid: "21353299"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[SortOrder](sortorder.md) <br/> |定义项 FindItem 请求中的排序方式。  <br/> 下面是此元素的 XPath 表达式:  `/FindItem/SortOrder` <br/> |
+|[SortOrder](sortorder.md) <br/> |定义如何在 FindItem 请求中对项目进行排序。  <br/> 下面是此元素的 XPath 表达式:  `/FindItem/SortOrder` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 Microsoft Exchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -75,12 +75,12 @@ ms.locfileid: "21353299"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

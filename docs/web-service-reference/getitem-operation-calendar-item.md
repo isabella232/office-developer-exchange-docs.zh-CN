@@ -1,5 +1,5 @@
 ---
-title: GetItem 操作 （日历项）
+title: GetItem 操作（日历项目）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,32 +11,32 @@ api_name:
 api_type:
 - schema
 ms.assetid: a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8
-description: GetItem 操作获取从 Exchange 存储的日历项目。
-ms.openlocfilehash: 69bce0f0cc7b5c986f9bf4767c3cd429a309e50d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: GetItem 操作从 Exchange 存储中获取日历项目。
+ms.openlocfilehash: 09fe92af12f03ce4cebd1e98f4e01c087ace64f9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754588"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460615"
 ---
-# <a name="getitem-operation-calendar-item"></a>GetItem 操作 （日历项）
+# <a name="getitem-operation-calendar-item"></a>GetItem 操作（日历项目）
 
-GetItem 操作获取从 Exchange 存储的日历项目。
+GetItem 操作从 Exchange 存储中获取日历项目。
   
 ## <a name="getitem-request-example"></a>GetItem 请求示例
 
 ### <a name="description"></a>说明
 
-GetItem 请求的下面的示例演示如何以形成一个请求以获取的标识和项目的主题。
+以下示例的 GetItem 请求显示如何形成请求以获取项目的标识和主题。
   
 ### <a name="code"></a>代码
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <GetItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetItem xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ItemShape>
         <t:BaseShape>IdOnly</t:BaseShape>
         <t:AdditionalProperties>
@@ -51,7 +51,7 @@ GetItem 请求的下面的示例演示如何以形成一个请求以获取的标
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>请求元素
+### <a name="request-elements"></a>Request 元素
 
 请求中使用以下元素：
   
@@ -72,16 +72,16 @@ GetItem 请求的下面的示例演示如何以形成一个请求以获取的标
 > [!NOTE]
 > 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。 
   
-若要查找的请求邮件 GetItem 操作的其他选项，浏览的架构层次结构。 启动[GetItem](getitem.md)元素。 
+若要查找 GetItem 操作的请求消息的其他选项，请浏览架构层次结构。 从[GetItem](getitem.md)元素开始。 
   
 ## <a name="successful-getitem-response"></a>成功的 GetItem 响应
 
 ### <a name="description"></a>说明
 
-下面的示例演示对 GetItem 请求成功响应。 创建此响应该请求使用 IdOnly baseshape。 本示例中，响应返回仅的项的 ID。 
+下面的示例演示对 GetItem 请求的成功响应。 创建此响应的请求使用 IdOnly baseshape。 在此示例中，响应仅返回项目的 ID。 
   
 > [!NOTE]
-> 已缩短项目 ID 和更改密钥，以保留可读性。 
+> 项目 ID 和更改密钥已缩短，以保持可读性。 
   
 ### <a name="code"></a>代码
 
@@ -92,12 +92,12 @@ GetItem 请求的下面的示例演示如何以形成一个请求以获取的标
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="602" MinorBuildNumber="0" 
-                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"/>
+                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"/>
   </soap:Header>
   <soap:Body>
-    <GetItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                   xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                   xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                   xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                   xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:GetItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -115,10 +115,10 @@ GetItem 请求的下面的示例演示如何以形成一个请求以获取的标
 
 ### <a name="description"></a>说明
 
-下面的示例演示对 GetItem 请求成功响应。 创建此响应该请求使用默认 baseshape。 本示例中，响应返回日历项目的默认形状。
+下面的示例演示对 GetItem 请求的成功响应。 创建此响应的请求使用默认 baseshape。 在此示例中，响应返回日历项目的默认形状。
   
 > [!NOTE]
-> 已缩短项目 ID 和更改密钥，以保留可读性。 
+> 项目 ID 和更改密钥已缩短，以保持可读性。 
   
 ### <a name="code"></a>代码
 
@@ -129,12 +129,12 @@ GetItem 请求的下面的示例演示如何以形成一个请求以获取的标
                 xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="602" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"/>
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"/>
   </soap:Header>
   <soap:Body>
-    <GetItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                     xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                     xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                     xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                     xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:GetItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -166,7 +166,7 @@ GetItem 请求的下面的示例演示如何以形成一个请求以获取的标
 
 ### <a name="description"></a>说明
 
-下面的示例演示对 GetItem 请求成功响应。 创建此响应该请求使用 AllProperties baseshape。 本示例中，响应返回日历项目的 AllProperties 形状。
+下面的示例演示对 GetItem 请求的成功响应。 创建此响应的请求使用 AllProperties baseshape。 在此示例中，响应返回日历项目的 AllProperties 形状。
   
 ### <a name="code"></a>代码
 
@@ -177,12 +177,12 @@ GetItem 请求的下面的示例演示如何以形成一个请求以获取的标
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="602" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"/>
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"/>
   </soap:Header>
   <soap:Body>
-    <GetItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                     xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                     xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                     xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                     xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:GetItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -263,13 +263,13 @@ GetItem 请求的下面的示例演示如何以形成一个请求以获取的标
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>注释
+### <a name="comments"></a>备注
 
-若要查找的响应消息 GetItem 操作的其他选项，浏览的架构层次结构。 启动[GetItemResponse](getitemresponse.md)元素。 
+若要查找 GetItem 操作的响应邮件的其他选项，请浏览架构层次结构。 从[GetItemResponse](getitemresponse.md)元素开始。 
   
-### <a name="successful-response-elements"></a>成功响应元素
+### <a name="successful-response-elements"></a>成功的响应元素
 
-在响应中使用以下元素：
+响应中使用以下元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -283,7 +283,7 @@ GetItem 请求的下面的示例演示如何以形成一个请求以获取的标
     
 - [Items](items.md)
     
-- [日历项目](calendaritem.md)
+- [CalendarItem](calendaritem.md)
     
 - [ItemId](itemid.md)
     
@@ -297,7 +297,7 @@ GetItem 请求的下面的示例演示如何以形成一个请求以获取的标
     
 - [DateTimeReceived](datetimereceived.md)
     
-- [Size](size.md)
+- [大小](size.md)
     
 - [Importance](importance.md)
     
@@ -331,11 +331,11 @@ GetItem 请求的下面的示例演示如何以形成一个请求以获取的标
     
 - [HasAttachments](hasattachments.md)
     
-- [区域性](culture.md)
+- [Culture](culture.md)
     
-- [Start](start.md)
+- [开始](start.md)
     
-- [结束](end-ex15websvcsotherref.md)
+- [停止](end-ex15websvcsotherref.md)
     
 - [IsAllDayEvent](isalldayevent.md)
     
@@ -355,13 +355,13 @@ GetItem 请求的下面的示例演示如何以形成一个请求以获取的标
     
 - [Organizer](organizer.md)
     
-- [Mailbox](mailbox.md)
+- [邮箱](mailbox.md)
     
 - [名称 (EmailAddressType)](name-emailaddresstype.md)
     
 - [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md)
     
-- [RoutingType (EmailAddressType)](routingtype-emailaddresstype.md)
+- [RoutingType （EmailAddressType）](routingtype-emailaddresstype.md)
     
 - [ConflictingMeetingCount](conflictingmeetingcount.md)
     
@@ -369,11 +369,11 @@ GetItem 请求的下面的示例演示如何以形成一个请求以获取的标
     
 - [ConflictingMeetings](conflictingmeetings.md)
     
-- [位置](location.md)
+- [Location](location.md)
     
-- [持续时间 （项）](duration-items.md)
+- [持续时间（项目）](duration-items.md)
     
-- [TimeZone （项）](timezone-item.md)
+- [时区（项目）](timezone-item.md)
     
 - [AppointmentSequenceNumber](appointmentsequencenumber.md)
     

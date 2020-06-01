@@ -11,23 +11,23 @@ api_name:
 api_type:
 - schema
 ms.assetid: 24d10a15-b942-415e-9024-a6375708f326
-description: GetAttachment 操作用于检索现有 Exchange 存储中的项目的附件。
-ms.openlocfilehash: c260033208bf49c60463c09041d8ffcc52a8f5c2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: GetAttachment 操作用于检索 Exchange 存储中项目的现有附件。
+ms.openlocfilehash: ac7eafd61c62b077a8d20e5fd8d004924bf06cf1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754469"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461287"
 ---
 # <a name="getattachment-operation"></a>GetAttachment 操作
 
-GetAttachment 操作用于检索现有 Exchange 存储中的项目的附件。
+GetAttachment 操作用于检索 Exchange 存储中项目的现有附件。
   
 ## <a name="getattachment-request-example"></a>GetAttachment 请求示例
 
 ### <a name="description"></a>说明
 
-GetAttachment 请求的下面的示例演示如何获取附件。
+下面的 GetAttachment 请求示例演示如何获取附件。
   
 ### <a name="code"></a>代码
 
@@ -36,10 +36,10 @@ GetAttachment 请求的下面的示例演示如何获取附件。
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <GetAttachment xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <GetAttachment xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <AttachmentShape/>
       <AttachmentIds>
         <t:AttachmentId Id="AAAtAEFkbWluaX..."/>
@@ -49,16 +49,16 @@ xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>注释
+### <a name="comments"></a>备注
 
-[AttachmentShape](attachmentshape.md)元素可以指定应返回哪些附件信息。 空[AttachmentShape](attachmentshape.md)元素有效，并且将呈现您没有文本正文类型，具有和没有任何其他属性的项目附件的 MIME 内容的附件。 
+[AttachmentShape](attachmentshape.md)元素允许您指定应返回的附件信息。 空的[AttachmentShape](attachmentshape.md)元素有效，并将呈现不包含任何其他属性的项目附件的 MIME 内容的附件。 
   
-[AttachmentIds](attachmentids.md)集允许您指定要返回的一个或多个附件标识符。 请注意，这些属于 RequestAttachmentIdType，因此您收到来自**CreateAttachment**任何 AttachmentIds 必须具有的**RootItemId**和**RootItemChangeKey**属性将它们传递给**GetAttachment**之前删除的类型。
+[会话](attachmentids.md)集合允许您指定一个或多个要返回的附件标识符。 请注意，这些类型的类型为 RequestAttachmentIdType，因此从**CreateAttachment**收到的任何会话在将其传递到**RootItemChangeKey**之前，必须删除**RootItemId**和**GetAttachment**属性。
   
 > [!NOTE]
-> 已缩短的附件标识符和更改密钥，以保留可读性。 
+> 附件标识符和更改密钥已缩短，以保持可读性。 
   
-### <a name="request-elements"></a>请求元素
+### <a name="request-elements"></a>Request 元素
 
 请求中使用以下元素：
   
@@ -66,7 +66,7 @@ xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
     
 - [AttachmentShape](attachmentshape.md)
     
-- [AttachmentIds](attachmentids.md)
+- [会话](attachmentids.md)
     
 - [AttachmentId （GetAttachment 和 DeleteAttachment）](attachmentid-getattachment-and-deleteattachment.md)
     
@@ -74,7 +74,7 @@ xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
 
 ### <a name="description"></a>说明
 
-下面的示例演示对 GetAttachment 请求成功响应。 本示例返回的文件附件。
+下面的示例演示对 GetAttachment 请求的成功响应。 本示例返回一个文件附件。
   
 ### <a name="code"></a>代码
 
@@ -85,12 +85,12 @@ xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="662" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"/>
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"/>
   </soap:Header>
   <soap:Body>
-    <GetAttachmentResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                           xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetAttachmentResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                           xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:GetAttachmentResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -108,13 +108,13 @@ xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>注释
+### <a name="comments"></a>备注
 
-GetAttachment 响应邮件将始终包含完整的附件;也就是说，所有属性将始终都为包含。 对于文件附件，这些属性的[名称 (AttachmentType)](name-attachmenttype.md)、 [ContentType](contenttype.md)、 [ContentId](contentid.md)、 [ContentLocation](contentlocation.md)，和[内容](content.md)。 对于项目的附件，这些属性的[名称 (AttachmentType)](name-attachmenttype.md)、 [ContentType](contenttype.md)、 [ContentId](contentid.md)、 [ContentLocation](contentlocation.md)和所有项目的属性， **AllProperties**形状象使用 GetItem 呼叫中。 [AttachmentShape](attachmentshape.md)元素中，如果存在此参数，将允许使用者应用程序请求的项目附件的其他扩展的属性。 
+GetAttachment 的响应邮件始终包含完整的附件;也就是说，将始终包含所有属性。 对于文件附件，这些属性是[名称（AttachmentType）](name-attachmenttype.md)、 [ContentType](contenttype.md)、 [ContentId](contentid.md)、 [ContentLocation](contentlocation.md)和[Content](content.md)。 对于项目附件，这些属性是[名称（AttachmentType）](name-attachmenttype.md)、 [ContentType](contenttype.md)、 [ContentId](contentid.md)、 [ContentLocation](contentlocation.md)和项目的所有属性，就像**AllProperties**形状已在 GetItem 调用中使用一样。 [AttachmentShape](attachmentshape.md)元素（如果存在）将允许使用者应用程序请求项目附件的其他扩展属性。 
   
-### <a name="successful-response-elements"></a>成功响应元素
+### <a name="successful-response-elements"></a>成功的响应元素
 
-在响应中使用以下元素：
+响应中使用以下元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -132,9 +132,9 @@ GetAttachment 响应邮件将始终包含完整的附件;也就是说，所有�
     
 - [AttachmentId （GetAttachment 和 DeleteAttachment）](attachmentid-getattachment-and-deleteattachment.md)
     
-- [名称 (AttachmentType)](name-attachmenttype.md)
+- [名称（AttachmentType）](name-attachmenttype.md)
     
-- [内容](content.md)
+- [Content](content.md)
     
 ## <a name="see-also"></a>另请参阅
 

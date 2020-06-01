@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 6b82122b-5544-4adf-91b7-ef2db7d5046f
-description: ItemIds 元素包含唯一标识的项目和匹配项，用于删除、 发送、 获取、 移动或在 Exchange 存储中复制项的定期主项目。
-ms.openlocfilehash: 1bd4d6f4593a7c3b418561269d8b29707cc6030c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ItemIds 元素包含项目、具体值项目和定期主项目的唯一标识，这些标识用于删除、发送、获取、移动或复制 Exchange 存储中的项目。
+ms.openlocfilehash: bbd594ce2610bd625b0e16a0383fda552ee9eb19
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826155"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460601"
 ---
 # <a name="itemids"></a>ItemIds
   
-**ItemIds**元素包含唯一标识的项目和匹配项，用于删除、 发送、 获取、 移动或在 Exchange 存储中复制项的定期主项目。
+**ItemIds**元素包含项目、具体值项目和定期主项目的唯一标识，这些标识用于删除、发送、获取、移动或复制 Exchange 存储中的项目。
   
 ```xml
 <ItemIds>
@@ -35,9 +35,9 @@ ms.locfileid: "19826155"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。 
+下面各部分介绍了属性、子元素和父元素。 
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -45,22 +45,22 @@ ms.locfileid: "19826155"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ItemId](itemid.md) <br/> |包含在 Exchange 存储中的项目的唯一标识符和更改的键。  <br/> |
-|[OccurrenceItemId](occurrenceitemid.md) <br/> |标识定期项目的一个匹配项。  <br/> |
-|[RecurringMasterItemId](recurringmasteritemid.md) <br/> |标识通过其相关的匹配项的标识符之一确定定期主项目。  <br/> |
+|[ItemId](itemid.md) <br/> |包含 Exchange 存储中某项的唯一标识符和更改键。  <br/> |
+|[OccurrenceItemId](occurrenceitemid.md) <br/> |标识定期项目的单个事件。  <br/> |
+|[RecurringMasterItemId](recurringmasteritemid.md) <br/> |通过标识一个 "定期" 主项目的 "标识符" 标识该项目。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
 |[对话 (ConversationType)](conversation-conversationtype.md) <br/> |表示单个对话。  <br/> |
-|[删除项](deleteitem.md) <br/> |定义删除 Exchange 存储中的项目的请求。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/DeleteItem` <br/> |
-|[SendItem](senditem.md) <br/> |定义发送 Exchange 存储中的项目的请求的根元素。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/SendItem` <br/> |
-|[GetItem](getitem.md) <br/> |定义从 Exchange 存储中获取项的请求。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/GetItem` <br/> |
-|[MoveItem](moveitem.md) <br/> |定义将项目移 Exchange 存储中的请求。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/MoveItem` <br/> |
-|[CopyItem](copyitem.md) <br/> |定义在 Exchange 存储中复制项的请求。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/CopyItem` <br/> |
+|[DeleteItem](deleteitem.md) <br/> |定义在 Exchange 存储中删除项目的请求。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/DeleteItem` <br/> |
+|[SendItem](senditem.md) <br/> |定义在 Exchange 存储中发送邮件的请求的根元素。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/SendItem` <br/> |
+|[GetItem](getitem.md) <br/> |定义从 Exchange 存储中获取项目的请求。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/GetItem` <br/> |
+|[MoveItem](moveitem.md) <br/> |定义在 Exchange 存储中移动项目的请求。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/MoveItem` <br/> |
+|[CopyItem](copyitem.md) <br/> |定义在 Exchange 存储中复制项目的请求。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/CopyItem` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -68,17 +68,17 @@ ms.locfileid: "19826155"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
-- [删除项操作](deleteitem-operation.md)
+- [DeleteItem 操作](deleteitem-operation.md)
 - [SendItem 操作](senditem-operation.md) 
 - [GetItem 操作](getitem-operation.md)
 - [MoveItem 操作](moveitem-operation.md)
 - [CopyItem 操作](copyitem-operation.md)
-- [FindConversation Operation](findconversation-operation.md)
+- [FindConversation 操作](findconversation-operation.md)
 

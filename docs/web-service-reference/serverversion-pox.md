@@ -1,5 +1,5 @@
 ---
-title: ServerVersion (POX)
+title: ServerVersion （POX）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,23 +8,23 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 2c0bc41c-2452-4fc8-a19c-0e85f9fdbc4a
-description: ServerVersion 元素均表示运行 Microsoft Exchange Server 的计算机的版本号。
-ms.openlocfilehash: ef0562e166094d75d0dd92f5f48bb558e11a2cad
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ServerVersion 元素表示运行 Microsoft Exchange Server 的计算机的版本号。
+ms.openlocfilehash: 3ef531a69d2dd00ee9784c9eb191684ce517e842
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827391"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461966"
 ---
-# <a name="serverversion-pox"></a>ServerVersion (POX)
+# <a name="serverversion-pox"></a>ServerVersion （POX）
 
-**ServerVersion**元素均表示运行 Microsoft Exchange Server 的计算机的版本号。 
+**ServerVersion**元素表示运行 Microsoft Exchange Server 的计算机的版本号。 
   
-- [自动发现 (POX)](autodiscover-pox.md) 
-- [响应 (POX)](response-pox.md)
-- [帐户 (POX)](account-pox.md)
-- [协议 (POX)](protocol-pox.md)
-- [ServerVersion (POX)](serverversion-pox.md)
+- [自动发现（POX）](autodiscover-pox.md) 
+- [响应（POX）](response-pox.md)
+- [帐户（POX）](account-pox.md)
+- [协议（POX）](protocol-pox.md)
+- [ServerVersion （POX）](serverversion-pox.md)
   
 ```xml
 <ServerVersion/>
@@ -32,9 +32,9 @@ ms.locfileid: "19827391"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -46,19 +46,19 @@ ms.locfileid: "19827391"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[协议 (POX)](protocol-pox.md) <br/> |包含客户端连接到运行 Microsoft Exchange 已安装了客户端访问服务器角色的计算机的规格。  <br/> |
+|[协议（POX）](protocol-pox.md) <br/> |包含将客户端连接到运行 Microsoft Exchange 且安装了客户端访问服务器角色的计算机的规范。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-文本值表示 Exchange server 版本数。
+该文本值代表 Exchange 服务器版本号。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-**ServerVersion**值才等于 EXCH 或 EXPR[类型 (POX)](type-pox.md)元素是否有效。 **ServerVersion**值是一个十六进制数字，包含 MajorVersion、 MinorVersion 和 MajorBuildNumber 的服务器。 
+仅当[Type （POX）](type-pox.md)元素等于 EXCH 或 EXPR 时， **ServerVersion**值才有效。 **ServerVersion**值是一个十六进制数，包含服务器的 MajorVersion、MinorVersion 和 MajorBuildNumber。 
   
 ## <a name="example"></a>示例
 
-下面的示例 coverts **ServerVersion**值，它是以获取和显示 MajorVersion、 MinorVersion 和 MajorBuildNumber 自动发现响应中返回。 本示例可输入**ServerVersion**值的十六进制值。 如果没有**ServerVersion**输入值，使用默认**ServerVersion**值为 738180DA。 
+下面的示例 coverts 在自动发现响应中返回的**ServerVersion**值，以获取并显示 MajorVersion、MinorVersion 和 MajorBuildNumber。 本示例使您能够为**ServerVersion**值输入十六进制值。 如果未输入**ServerVersion**值，则使用默认的**ServerVersion**值738180DA。 
   
 ```csharp
 static void Main(string[] args)
@@ -105,5 +105,5 @@ static void Main(string[] args)
 
 ## <a name="see-also"></a>另请参阅
 
-- [Exchange POX 自动发现 XML 元素](pox-autodiscover-xml-elements-for-exchange.md)
+- [Exchange 的 POX 自动发现 XML 元素](pox-autodiscover-xml-elements-for-exchange.md)
 

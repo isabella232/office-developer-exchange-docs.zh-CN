@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: fa4b1447-dc7b-47ad-a677-78fcee443dc6
-description: PolicyTag 元素指定项目或文件夹的保留标识符。
-ms.openlocfilehash: d6cd5aab1145f6006912541c8f8c1d0a91d1e17e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: PolicyTag 元素指定项目或文件夹中的保留标识符。
+ms.openlocfilehash: ddc4d890d1e514586ba5ea7f6a8b541b2e4786c7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826835"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460895"
 ---
 # <a name="policytag"></a>PolicyTag
 
-**PolicyTag**元素指定项目或文件夹的保留标识符。 
+**PolicyTag**元素指定项目或文件夹中的保留标识符。 
   
 ```xml
 <PolicyTag IsExplicit="true | false"></PolicyTag>
@@ -26,13 +26,13 @@ ms.locfileid: "19826835"
  **RetentionTagType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**说明**|
 |:-----|:-----|
-|IsExplicit  <br/> |指示是否策略标记显式设置项目或文件夹。  <br/> 文本值为**true**的**IsExplicit**属性指示上的项目或文件夹的显式设置策略标记。 文本值为**false**指示的隐式的项目或基于父文件夹策略标记文件夹上设置了策略标记。  <br/> |
+|IsExplicit  <br/> |指示是否对项目或文件夹显式设置了策略标记。  <br/> **IsExplicit**属性的文本值为**true**表示已在项或文件夹上显式设置了策略标记。 如果文本值为**false** ，则表示已基于父文件夹策略标记对项目或文件夹隐式设置了策略标记。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -40,7 +40,7 @@ ms.locfileid: "19826835"
   
 ### <a name="parent-elements"></a>父元素
 
-[SearchPreviewItem](searchpreviewitem.md) | [项](item.md) | [联系人](contact.md) | [消息](message-ex15websvcsotherref.md) | [DistributionList](distributionlist.md) | [日历项目](calendaritem.md) | [PostItem](postitem.md) | [任务](task.md)
+[SearchPreviewItem](searchpreviewitem.md)  | [项](item.md)  | [联系人](contact.md)  | [邮件](message-ex15websvcsotherref.md)  | [DistributionList](distributionlist.md)  | [CalendarItem](calendaritem.md)  | [PostItem](postitem.md)  | [任务](task.md)
   
 ## <a name="text-value"></a>文本值
 
@@ -56,7 +56,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> ||

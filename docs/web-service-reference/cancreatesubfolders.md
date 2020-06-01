@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 4404a1cc-6d3f-4996-9647-58a740e8f883
 description: CanCreateSubFolders元素指示用户是否有权限的文件夹中创建子文件夹。在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
-ms.openlocfilehash: 234cbf604a3f0f5aa6e7fa896b7b6735516bd9ec
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d8e89c7a07ef1788717f5012840f5b8f79d319e6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753435"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461595"
 ---
 # <a name="cancreatesubfolders"></a>CanCreateSubFolders
 
@@ -30,9 +30,9 @@ ms.locfileid: "19753435"
  **Boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -51,7 +51,7 @@ ms.locfileid: "19753435"
 
 **true**的一个文字值指示用户可以在该文件夹中创建子文件夹。 **false**表示用户不能在文件夹中创建子文件夹。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 Microsoft Exchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -59,7 +59,7 @@ ms.locfileid: "19753435"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -68,8 +68,8 @@ ms.locfileid: "19753435"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 
 
-[Setting Folder-Level Permissions](http://msdn.microsoft.com/library/c7530e86-5112-401c-b10a-9c054ae59f07%28Office.15%29.aspx)
+[Setting Folder-Level Permissions](https://msdn.microsoft.com/library/c7530e86-5112-401c-b10a-9c054ae59f07%28Office.15%29.aspx)
 

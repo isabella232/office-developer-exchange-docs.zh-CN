@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 9c604ca3-10fe-4760-b7fd-8b52f1a0c712
-description: MessageTrackingReportId 元素表示通过其邮件 ID、 组织邮件找、 在其已提交提交邮件，服务器和内部 ID 的唯一标识消息的消息。
-ms.openlocfilehash: 8e0d85b203b8a34acedb5f6b9fe46359d5e0b97c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: MessageTrackingReportId 元素表示邮件的邮件 ID、在其中找到邮件的组织、提交邮件的服务器以及唯一标识该邮件的内部 ID。
+ms.openlocfilehash: d6e92593d55608e260634602c2aab694804d716d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826456"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460594"
 ---
 # <a name="messagetrackingreportid"></a>MessageTrackingReportId
 
-**MessageTrackingReportId**元素表示通过其邮件 ID、 组织邮件找、 在其已提交提交邮件，服务器和内部 ID 的唯一标识消息的消息。 
+**MessageTrackingReportId**元素表示邮件的邮件 ID、在其中找到邮件的组织、提交邮件的服务器以及唯一标识该邮件的内部 ID。 
   
 ```XML
 <MessageTrackingReportId/>
@@ -30,9 +30,9 @@ ms.locfileid: "19826456"
  **NonEmptyStringType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -44,14 +44,14 @@ ms.locfileid: "19826456"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GetMessageTrackingReport](getmessagetrackingreport.md) <br/> |包含要检索完整的邮件跟踪报告的指定 ID 的[GetMessageTrackingReport 操作](getmessagetrackingreport-operation.md)的请求  <br/> |
-|[MessageTrackingSearchResult](messagetrackingsearchresult.md) <br/> |包含单个邮件结果[FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md)元素。  <br/> |
+|[GetMessageTrackingReport](getmessagetrackingreport.md) <br/> |包含[GetMessageTrackingReport 操作](getmessagetrackingreport-operation.md)的请求，以检索指定 ID 的完整邮件跟踪报告。  <br/> |
+|[MessageTrackingSearchResult](messagetrackingsearchresult.md) <br/> |包含[FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md)元素的单个邮件结果。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-如果使用此元素，则需要用于表示字符串的文本值。
+如果使用此元素，则需要一个表示字符串的文本值。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -59,7 +59,7 @@ ms.locfileid: "19826456"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -71,5 +71,5 @@ ms.locfileid: "19826456"
 [GetMessageTrackingReport 操作](getmessagetrackingreport-operation.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

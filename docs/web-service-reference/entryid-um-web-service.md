@@ -10,17 +10,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: ce62eab5-0079-493b-be1f-52b62fdf35dc
-description: EntryId 元素包含值，表示要在 PlayOnPhone 操作 （UM web 服务） 请求中的电话上播放的项的标识符。
-ms.openlocfilehash: 2bd9499a1be3935e10f9e2953a52cc8ffc18ade9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: EntryId 元素包含一个值，该值表示要在 PlayOnPhone 操作（UM web 服务）请求中的电话上播放的项目的标识符。
+ms.openlocfilehash: 5b0ad5c5af682f7589d94219955dde646cd2897a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754141"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460692"
 ---
 # <a name="entryid-um-web-service"></a>entryId （UM web 服务）
 
-**EntryId**元素包含值，表示要在[PlayOnPhone 操作 （UM web 服务）](playonphone-operation-um-web-service.md)请求中的电话上播放的项的标识符。 
+**EntryId**元素包含一个值，该值表示要在[PLAYONPHONE 操作（UM web 服务）](playonphone-operation-um-web-service.md)请求中的电话上播放的项目的标识符。 
   
 [PlayOnPhone （UM web 服务）](playonphone-um-web-service.md)
   
@@ -35,9 +35,9 @@ ms.locfileid: "19754141"
  **string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -59,7 +59,7 @@ ms.locfileid: "19754141"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |邮件  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -68,7 +68,7 @@ ms.locfileid: "19754141"
 
 
 
-[PlayOnPhone 操作 （UM web 服务）](playonphone-operation-um-web-service.md)
+[PlayOnPhone 操作（UM web 服务）](playonphone-operation-um-web-service.md)
   
 [PlayOnPhone （UM web 服务）](playonphone-um-web-service.md)
   

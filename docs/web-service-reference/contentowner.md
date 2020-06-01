@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a1741eda-c232-4d89-8abc-50b2627ad29b
 description: ContentOwner 元素指定内容所有者的名称。
-ms.openlocfilehash: bbc5e69918e31fca639a0fab4987cf7d3541848d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 08dafcac2f9ad4be19e0cb3ccd03249a997e0fa3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753565"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461476"
 ---
 # <a name="contentowner"></a>ContentOwner
 
@@ -26,9 +26,9 @@ ms.locfileid: "19753565"
  **string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -44,7 +44,7 @@ ms.locfileid: "19753565"
    
 ## <a name="text-value"></a>文本值
 
-ContentOwner 元素的文本值是一个字符串，指定的内容的到期日期。
+ContentOwner 元素的文本值是一个字符串，用于指定内容的到期日期。
   
 ## <a name="remarks"></a>备注
 
@@ -56,14 +56,14 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |types.xsd  <br/> |
+|验证文件  <br/> |类型 .xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

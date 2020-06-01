@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 5c20ec3a-0bee-4e67-b220-586ed0d601c9
 description: CcRecipients元素代表将收到一份邮件的收件人的集合。
-ms.openlocfilehash: 0afe19cfae49dbf48c685296a83ab1330b631d04
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 57d0e2d3b2c44fbd7bb30696002b27e83d1e274e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753440"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462204"
 ---
 # <a name="ccrecipients"></a>CcRecipients
 
@@ -32,9 +32,9 @@ ms.locfileid: "19753440"
  **ArrayOfRecipientsType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -72,7 +72,7 @@ ms.locfileid: "19753440"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -81,5 +81,5 @@ ms.locfileid: "19753440"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

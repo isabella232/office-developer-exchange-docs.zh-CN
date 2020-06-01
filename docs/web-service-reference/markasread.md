@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 404842e1-fbdb-480d-a1d8-ba1ab2c9fb1e
-description: MarkAsRead 元素表示邮件是否被标记为只读。
-ms.openlocfilehash: b453ad73912e99b6fd3aed84b03a7d2fc2b6a294
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: MarkAsRead 元素指示是否将邮件标记为已读。
+ms.openlocfilehash: 691409a4eace8885d36f4b30b8eef1aca8c332a6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826355"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461763"
 ---
 # <a name="markasread"></a>MarkAsRead
 
-**MarkAsRead**元素表示邮件是否被标记为只读。 
+**MarkAsRead**元素指示是否将邮件标记为已读。 
   
 ```XML
 <MarkAsRead>true | false</MarkAsRead>
@@ -30,9 +30,9 @@ ms.locfileid: "19826355"
  **Boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -48,9 +48,9 @@ ms.locfileid: "19826355"
    
 ## <a name="text-value"></a>文本值
 
-文本值为**true**指示邮件，必须标记为已读。 如果值为**false**指示邮件，不得标记为已读。 
+如果文本值为**true** ，则表示必须将邮件标记为已读。 **如果值为 false，则**表示邮件不能标记为已读。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -58,7 +58,7 @@ ms.locfileid: "19826355"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
@@ -67,5 +67,5 @@ ms.locfileid: "19826355"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

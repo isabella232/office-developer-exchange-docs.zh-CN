@@ -1,5 +1,5 @@
 ---
-title: 错误
+title: Error
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: b1f54673-578a-496b-99f5-0fde2c669278
 description: Error 元素表示特定规则属性值、谓词属性值或操作属性值上的单一验证错误。
-ms.openlocfilehash: adb2de56b7610aa92b5bf5b8d43ac22f35021b64
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
-ms.translationtype: HT
+ms.openlocfilehash: 9c28f63aa79446d89152868c81c85ffa7b3a8b39
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754147"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460678"
 ---
 # <a name="error"></a>错误
 
@@ -68,7 +68,7 @@ ms.locfileid: "19754147"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
@@ -77,5 +77,5 @@ ms.locfileid: "19754147"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

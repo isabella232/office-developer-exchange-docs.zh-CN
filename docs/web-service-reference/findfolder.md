@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: b8a59740-d978-454c-9629-a10792385ba0
 description: FindFolder元素定义的请求，以便查找邮箱中的文件夹。
-ms.openlocfilehash: 69fbaebc5615ac7d19512770658cde83e4d352df
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: 248047206a661afe723543e52c51b57847148423
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353530"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462575"
 ---
 # <a name="findfolder"></a>FindFolder
 
@@ -59,11 +59,11 @@ ms.locfileid: "21353530"
 |:-----|:-----|
 |浅  <br/> |指示 FindFolder 操作来搜索仅标识的文件夹并返回只有文件夹 Id 尚未删除的项。这被称为浅层遍历。  <br/> |
 |深  <br/> |指示 FindFolder 操作来标识的父文件夹的所有子文件夹中搜索并返回只有文件夹 Id 尚未删除的项。这被称为 deep 遍历。  <br/> |
-|带有 SoftDeleted  <br/> |指示要执行浅跨度搜索已删除的项的 FindFolder 操作。  <br/> |
+|SoftDeleted  <br/> |指示要执行浅跨度搜索已删除的项的 FindFolder 操作。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
-|**元素**|**说明**|
+|**元素**|**描述**|
 |:-----|:-----|
 |[FolderShape](foldershape.md) <br/> |标识要在 FindFolder 响应中包含的文件夹属性。  <br/> |
 |[IndexedPageFolderView](indexedpagefolderview.md) <br/> |描述如何分页的物料信息 FindFolder 响应中返回。此元素是可选的。  <br/> |
@@ -86,9 +86,9 @@ FindFolder 请求的下面的示例演示如何在窗体中查找位于收件箱
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <FindFolder Traversal="Shallow" xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <FindFolder Traversal="Shallow" xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <FolderShape>
         <t:BaseShape>Default</t:BaseShape>
       </FolderShape>
@@ -104,7 +104,7 @@ FindFolder 请求的下面的示例演示如何在窗体中查找位于收件箱
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |

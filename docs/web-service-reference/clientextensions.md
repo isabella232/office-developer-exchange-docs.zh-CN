@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0073d195-75fd-4c89-97e0-2ad6d91f99f9
 description: ClientExtensions 元素包含有关应用程序的用户和配置信息的数组。
-ms.openlocfilehash: c2f2511154daaded09ba0e8d811baf9ce30ca138
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 016b4c910f3c21a20d72b926a1c568925aa9d37e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753456"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461455"
 ---
 # <a name="clientextensions"></a>ClientExtensions
 
@@ -28,9 +28,9 @@ ms.locfileid: "19753456"
  **ArrayOfClientExtensionsType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -44,7 +44,7 @@ ms.locfileid: "19753456"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GetClientExtensionResponse](getclientextensionresponse.md) <br/> |代表要获取有关应用程序的配置信息的响应。  <br/> |
+|[GetClientExtensionResponse](getclientextensionresponse.md) <br/> |表示获取有关应用程序的配置信息的响应。  <br/> |
    
 ## <a name="remarks"></a>备注
 

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 7ca9c57c-9519-442c-a9f4-dca2b0309716
-description: NumberOfMembersWithNoData 元素表示没有已发布忙/闲数据到建议的会议的时间比较通讯组列表成员数。 此元素表示太大通讯组列表的成员或拥有无数据状态的成员。
-ms.openlocfilehash: f73978df47bd8240dd5dabfbbf74523525e3270f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: NumberOfMembersWithNoData 元素表示没有发布的忙/闲数据的通讯组列表成员的数量，以与建议的会议时间进行比较。 此元素表示通讯组列表的成员过大或没有数据状态的成员。
+ms.openlocfilehash: df41adc14f4c35c0e24d0f3c54f74a63527859d6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826637"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462547"
 ---
 # <a name="numberofmemberswithnodata"></a>NumberOfMembersWithNoData
 
-**NumberOfMembersWithNoData**元素表示没有已发布忙/闲数据到建议的会议的时间比较通讯组列表成员数。 此元素表示太大通讯组列表的成员或拥有**无数据**状态的成员。 
+**NumberOfMembersWithNoData**元素表示没有发布的忙/闲数据的通讯组列表成员的数量，以与建议的会议时间进行比较。 此元素表示通讯组列表的成员过大或没有**数据**状态的成员。 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -48,9 +48,9 @@ ms.locfileid: "19826637"
  **int**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -62,15 +62,15 @@ ms.locfileid: "19826637"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GroupAttendeeConflictData](groupattendeeconflictdata.md) <br/> |包含有关可用的用户数、 用户拥有冲突，数和不具有可用性信息通讯组列表中建议的会议时间的用户数的聚合冲突信息。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray/GroupAttendeeConflictData` <br/> |
+|[GroupAttendeeConflictData](groupattendeeconflictdata.md) <br/> |包含有关可用用户数的聚合冲突信息、有冲突的用户数以及在通讯组列表中没有可用性信息的用户数量建议的会议时间。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray/GroupAttendeeConflictData` <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-组中没有邮箱中的联系人是通讯组列表成员中没有日历数据的示例。 联系人可能还必须**无数据**状态，原因如下： 
+没有邮箱的组中的联系人是不具有日历数据的通讯组列表成员的一个示例。 由于以下原因，联系人也可能没有**数据**状态： 
   
-- 没有足够的权限。
+- 权限不足。
     
-- 太大，无法展开通讯组列表。
+- 通讯组列表太大，无法扩展。
     
 - Active Directory 目录服务不可用。
     
@@ -80,7 +80,7 @@ ms.locfileid: "19826637"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -94,5 +94,5 @@ ms.locfileid: "19826637"
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

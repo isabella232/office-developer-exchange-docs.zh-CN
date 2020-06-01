@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: bc32e0f4-61e9-4c9f-9a03-90a07eb51c53
 description: ForwardAllowed 元素指定是否启用转发电子邮件。
-ms.openlocfilehash: 4baa170a531cc9021102ff2255afc113f40e2348
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 3c722809bf68239c7d776108cb60d98afbed6e93
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754412"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461931"
 ---
 # <a name="forwardallowed"></a>ForwardAllowed
 
@@ -26,9 +26,9 @@ ms.locfileid: "19754412"
  **Boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -44,7 +44,7 @@ ms.locfileid: "19754412"
    
 ## <a name="text-value"></a>文本值
 
-文本值为**true**的**ForwardAllowed**元素指示指示允许转发电子邮件。 如果值为**false**指示，不允许进行转接。 
+如果**ForwardAllowed**元素的文本值为**true** ，则表示允许转发电子邮件。 **如果值为 false** ，则表示不允许进行转发。 
   
 ## <a name="remarks"></a>备注
 
@@ -56,14 +56,14 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |types.xsd  <br/> |
+|验证文件  <br/> |类型 .xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

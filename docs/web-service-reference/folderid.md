@@ -1,5 +1,5 @@
 ---
-title: 文件夹 Id
+title: FolderId
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 00d14e3e-4365-4f21-8f88-eaeea73b9bf7
-description: 文件夹 Id 元素包含标识符和更改密钥的文件夹。
-ms.openlocfilehash: 5764a164d5af183b8f313955ace5274dc6023a6a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: FolderId 元素包含文件夹的标识符和更改键。
+ms.openlocfilehash: 7aa5070fa7a2c51303c7159de04fe277f909a874
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754393"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461385"
 ---
-# <a name="folderid"></a>文件夹 Id
+# <a name="folderid"></a>FolderId
 
-**文件夹 Id**元素包含标识符和更改密钥的文件夹。 
+**FolderId**元素包含文件夹的标识符和更改键。 
   
 ```XML
 <FolderId Id="" ChangeKey="" />
@@ -30,14 +30,14 @@ ms.locfileid: "19754393"
  **FolderIdType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**说明**|
 |:-----|:-----|
-|Id  <br/> |包含一个字符串，标识 Exchange 存储中的文件夹。 此属性是必需的。  <br/> |
-|更改密钥  <br/> |包含一个字符串，标识的文件夹的 Id 属性标识的版本。 此属性是可选的。 使用此属性以确保正确版本的文件夹使用。  <br/> |
+|Id  <br/> |包含标识 Exchange 存储中的文件夹的字符串。 此特性是必需的。  <br/> |
+|ChangeKey  <br/> |包含标识由 Id 属性标识的文件夹版本的字符串。 此特性是可选的。 使用此属性可确保使用的是正确的文件夹版本。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -47,32 +47,32 @@ ms.locfileid: "19754393"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ContextFolderId](contextfolderid.md) <br/> |指示使用文件夹的操作的目标文件夹。  <br/> |
-|[CopiedEvent](copiedevent.md) <br/> |表示复制的项或文件夹的事件。  <br/> |
-|[DestinationFolderId](destinationfolderid.md) <br/> |指示副本的目标文件夹，并移动操作。  <br/> |
-|[ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md) <br/> | 标识在其中创建新的文件夹或项目的文件夹。  <br/><br/>  下面是此元素的 XPath 表达式：<br/>  <br/> `/CreateItem/ParentFolderId` <br/><br/>  `/CreateFolder/ParentFolderId` <br/> |
-|[BaseFolderIds](basefolderids.md) <br/> |代表将用于确定搜索文件夹的内容的文件夹的集合。  <br/> |
-|[删除 (FolderSync)](delete-foldersync.md) <br/> |标识为在本地客户端库删除单个文件夹。  <br/> |
+|[ContextFolderId](contextfolderid.md) <br/> |指示针对使用文件夹的操作的文件夹。  <br/> |
+|[CopiedEvent](copiedevent.md) <br/> |表示在其中复制项目或文件夹的事件。  <br/> |
+|[DestinationFolderId](destinationfolderid.md) <br/> |指示复制和移动操作的目标文件夹。  <br/> |
+|[ParentFolderId （TargetFolderIdType）](parentfolderid-targetfolderidtype.md) <br/> | 标识在其中创建新文件夹或项目的文件夹。  <br/><br/>  下面是此元素的 XPath 表达式：<br/>  <br/> `/CreateItem/ParentFolderId` <br/><br/>  `/CreateFolder/ParentFolderId` <br/> |
+|[BaseFolderIds](basefolderids.md) <br/> |表示将挖掘的文件夹集合，以确定搜索文件夹的内容。  <br/> |
+|[Delete （FolderSync）](delete-foldersync.md) <br/> |标识要在本地客户端存储中删除的单个文件夹。  <br/> |
 |[Folder](folder.md) <br/> |表示邮箱中的文件夹。  <br/> |
-|[CalendarFolder](calendarfolder.md) <br/> |表示邮箱中的日历文件夹。  <br/> |
+|[CalendarFolder](calendarfolder.md) <br/> |代表邮箱中的 "日历" 文件夹。  <br/> |
 |[FolderChange](folderchange.md) <br/> |表示要在单个文件夹上进行的更改的集合。  <br/> 下面是此元素的 XPath 表达式:  `/UpdateFolder/FolderChanges/FolderChange` <br/> |
 |[ContactsFolder](contactsfolder.md) <br/> |表示邮箱中的联系人文件夹。  <br/> |
 |[SearchFolder](searchfolder.md) <br/> |表示邮箱中的搜索文件夹。  <br/> |
 |[TasksFolder](tasksfolder.md) <br/> |表示邮箱中的任务文件夹。  <br/> |
-|[ToFolderId](tofolderid.md) <br/> | 表示复制或移动项目或文件夹的目标文件夹。 <br/> <br/>  下面是此元素的 XPath 表达式： <br/> <br/>  `/MoveFolder/ToFolderId` <br/> <br/> `/CopyFolder/ToFolderId` <br/> <br/> `/MoveItem/ToFolderId`<br/> <br/>  `/CopyItem/ToFolderId` <br/> |
-|[SavedItemFolderId](saveditemfolderid.md) <br/> | 标识用于更新、 发送和在 Exchange 存储中创建项目的操作的目标文件夹。  <br/><br/>  下面是此元素的 XPath 表达式： <br/> <br/>  `/CreateItem/SavedItemFolderId` <br/><br/>  `/UpdateItem/SavedItemFolderId` <br/><br/>  `/SendItem/SavedItemFolderId` <br/> |
-|[SyncFolderId](syncfolderid.md) <br/> |代表包含要同步的项的文件夹。  <br/> |
-|[UserConfigurationName](userconfigurationname.md) <br/> |代表用户配置对象的名称。 用户配置对象名称为用户配置对象的标识符。  <br/> |
-|[CopyToFolder](copytofolder.md) <br/> |标识的文件夹的电子邮件项目将被复制到的 ID。  <br/> |
-|[MoveToFolder](movetofolder.md) <br/> |标识的文件夹的电子邮件项目将移动到的 ID。  <br/> |
+|[ToFolderId](tofolderid.md) <br/> | 代表复制或移动的项或文件夹的目标文件夹。 <br/> <br/>  下面是此元素的 XPath 表达式： <br/> <br/>  `/MoveFolder/ToFolderId` <br/> <br/> `/CopyFolder/ToFolderId` <br/> <br/> `/MoveItem/ToFolderId`<br/> <br/>  `/CopyItem/ToFolderId` <br/> |
+|[SavedItemFolderId](saveditemfolderid.md) <br/> | 标识在 Exchange 存储中更新、发送和创建项目的操作的目标文件夹。  <br/><br/>  下面是此元素的 XPath 表达式： <br/> <br/>  `/CreateItem/SavedItemFolderId` <br/><br/>  `/UpdateItem/SavedItemFolderId` <br/><br/>  `/SendItem/SavedItemFolderId` <br/> |
+|[SyncFolderId](syncfolderid.md) <br/> |表示包含要同步的项目的文件夹。  <br/> |
+|[UserConfigurationName](userconfigurationname.md) <br/> |表示用户配置对象的名称。 "用户配置" 对象名称是 "用户配置" 对象的标识符。  <br/> |
+|[CopyToFolder](copytofolder.md) <br/> |标识电子邮件项目将复制到的文件夹的 ID。  <br/> |
+|[MoveToFolder](movetofolder.md) <br/> |标识电子邮件项目将移动到的文件夹的 ID。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
 无。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
-所有**文件夹 Id**元素是**FolderIdType**类型。 **文件夹 Id**元素中除其类型扩展**BaseFolderType**元素中每种情况下都需要或其中的**文件夹 Id**元素是选择的一部分。 查看架构的详细信息。 
+所有**FolderId**元素均属于**FolderIdType**类型。 除了其类型扩展了**BaseFolderType**的元素或**FolderId**元素是选项的一部分的元素中， **FolderId**元素都是必需的。 有关详细信息，请查看架构。 
   
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -80,13 +80,13 @@ ms.locfileid: "19754393"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
-- [Creating Folders (Exchange Web Services)](http://msdn.microsoft.com/library/3b15b0ec-8691-45ed-9a24-a91ff732d6cf%28Office.15%29.aspx)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Creating Folders (Exchange Web Services)](https://msdn.microsoft.com/library/3b15b0ec-8691-45ed-9a24-a91ff732d6cf%28Office.15%29.aspx)
 

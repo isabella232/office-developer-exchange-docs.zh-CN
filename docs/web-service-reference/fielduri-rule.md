@@ -1,5 +1,5 @@
 ---
-title: FieldUri （规则）
+title: FieldUri (规则)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: cecdea78-de9c-48be-ae31-03877feafeec
-description: FieldURI 元素指定的规则字段导致验证错误的 URI。
-ms.openlocfilehash: 88ba54994625d3a950b58e900f28c986c31eddac
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: FieldURI 元素指定导致验证错误的规则字段的 URI。
+ms.openlocfilehash: 3d88efdf951af580f81b5e2e7a544dcdf70ea830
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754295"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461245"
 ---
-# <a name="fielduri-rule"></a>FieldUri （规则）
+# <a name="fielduri-rule"></a>FieldUri (规则)
 
-**FieldURI**元素指定的规则字段导致验证错误的 URI。 
+**FieldURI**元素指定导致验证错误的规则字段的 URI。 
   
 ```XML
 <FieldURI/>
@@ -26,9 +26,9 @@ ms.locfileid: "19754295"
  **RuleFieldURIType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -40,13 +40,13 @@ ms.locfileid: "19754295"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Error](error.md) <br/> |代表对特定规则属性值、 谓词属性值或 action 属性值的单个验证错误。  <br/> |
+|[Error](error.md) <br/> |表示特定规则属性值、谓词属性值或 action 属性值上的单个验证错误。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-此元素的文本值仅限于以下字符串之一：
+此元素的文本值被限制为以下字符串之一：
   
-- 规则 Id
+- RuleId
     
 - DisplayName
     
@@ -56,75 +56,75 @@ ms.locfileid: "19754295"
     
 - 操作
     
-- 条件： 类别
+- 条件：类别
     
-- ContainsBodyStrings 条件：
+- 条件： ContainsBodyStrings
     
-- ContainsHeaderStrings 条件：
+- 条件： ContainsHeaderStrings
     
-- ContainsRecipientStrings 条件：
+- 条件： ContainsRecipientStrings
     
-- ContainsSenderStrings 条件：
+- 条件： ContainsSenderStrings
     
-- ContainsSubjectOrBodyStrings 条件：
+- 条件： ContainsSubjectOrBodyStrings
     
-- ContainsSubjectStrings 条件：
+- 条件： ContainsSubjectStrings
     
-- FlaggedForAction 条件：
+- 条件： FlaggedForAction
     
-- FromAddresses 条件：
+- 条件： FromAddresses
     
-- FromConnectedAccounts 条件：
+- 条件： FromConnectedAccounts
     
-- HasAttachments 条件：
+- 条件： HasAttachments
     
-- 条件： 重要性
+- 条件：重要性
     
-- IsApprovalRequest 条件：
+- 条件： IsApprovalRequest
     
-- IsAutomaticForward 条件：
+- 条件： IsAutomaticForward
     
-- IsAutomaticReply 条件：
+- 条件： IsAutomaticReply
     
-- 进行加密条件：
+- 条件： IsEncrypted
     
-- IsMeetingRequest 条件：
+- 条件： IsMeetingRequest
     
-- IsMeetingResponse 条件：
+- 条件： IsMeetingResponse
     
-- IsNDR 条件：
+- 条件： IsNDR
     
-- IsPermissionControlled 条件：
+- 条件： IsPermissionControlled
     
-- IsReadReceipt 条件：
+- 条件： IsReadReceipt
     
-- IsSigned 条件：
+- 条件： IsSigned
     
-- IsVoicemail 条件：
+- 条件： IsVoicemail
     
-- ItemClasses 条件：
+- 条件： ItemClasses
     
-- MessageClassifications 条件：
+- 条件： MessageClassifications
     
-- NotSentToMe 条件：
+- 条件： NotSentToMe
     
-- SentCcMe 条件：
+- 条件： SentCcMe
     
-- SentOnlyToMe 条件：
+- 条件： SentOnlyToMe
     
-- SentToAddresses 条件：
+- 条件： SentToAddresses
     
-- SentToMe 条件：
+- 条件： SentToMe
     
-- SentToOrCcMe 条件：
+- 条件： SentToOrCcMe
     
-- 敏感度条件：
+- 条件：敏感度
     
-- WithinDateRange 条件：
+- 条件： WithinDateRange
     
-- WithinSizeRange 条件：
+- 条件： WithinSizeRange
     
-- 异常： 类别
+- 异常：类别
     
 - 异常： ContainsBodyStrings
     
@@ -146,7 +146,7 @@ ms.locfileid: "19754295"
     
 - 异常： HasAttachments
     
-- 异常： 重要性
+- 异常：重要性
     
 - 异常： IsApprovalRequest
     
@@ -154,7 +154,7 @@ ms.locfileid: "19754295"
     
 - 异常： IsAutomaticReply
     
-- 异常： 进行加密
+- 异常： IsEncrypted
     
 - 异常： IsMeetingRequest
     
@@ -186,37 +186,37 @@ ms.locfileid: "19754295"
     
 - 异常： SentToOrCcMe
     
-- 异常： 敏感度
+- 异常：敏感度
     
 - 异常： WithinDateRange
     
 - 异常： WithinSizeRange
     
-- AssignCategories 操作：
+- 操作： AssignCategories
     
-- CopyToFolder 操作：
+- 操作： CopyToFolder
     
-- 删除操作：
+- 操作：删除
     
-- ForwardAsAttachmentToRecipients 操作：
+- 操作： ForwardAsAttachmentToRecipients
     
-- ForwardToRecipients 操作：
+- 操作： ForwardToRecipients
     
-- MarkImportance 操作：
+- 操作： MarkImportance
     
-- MarkAsRead 操作：
+- 操作： MarkAsRead
     
-- MoveToFolder 操作：
+- 操作： MoveToFolder
     
-- PermanentDelete 操作：
+- 操作： PermanentDelete
     
-- RedirectToRecipients 操作：
+- 操作： RedirectToRecipients
     
-- SendSMSAlertToRecipients 操作：
+- 操作： SendSMSAlertToRecipients
     
-- ServerReplyWithMessage 操作：
+- 操作： ServerReplyWithMessage
     
-- StopProcessingRules 操作：
+- 操作： StopProcessingRules
     
 - IsEnabled
     
@@ -226,7 +226,7 @@ ms.locfileid: "19754295"
     
 - 异常
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -234,7 +234,7 @@ ms.locfileid: "19754295"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -243,5 +243,5 @@ ms.locfileid: "19754295"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

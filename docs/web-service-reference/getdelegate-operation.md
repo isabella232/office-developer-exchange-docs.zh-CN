@@ -11,47 +11,47 @@ api_name:
 api_type:
 - schema
 ms.assetid: 849b2c9e-4685-4bd1-9adb-aba0fcc52650
-description: GetDelegate 操作中检索指定邮箱的代理设置。
-ms.openlocfilehash: bd1a0add54ee5fd1c23b4ba09a921a9061afa394
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: GetDelegate 操作检索指定邮箱的代理设置。
+ms.openlocfilehash: 400bf5d1cafcbb789aaa749c62c7a908622d4ddb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754510"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461063"
 ---
 # <a name="getdelegate-operation"></a>GetDelegate 操作
 
-**GetDelegate**操作中检索指定邮箱的代理设置。 
+**GetDelegate**操作检索指定邮箱的代理设置。 
   
 ## <a name="soap-headers"></a>SOAP 标头
 
-**GetDelegate**操作可以使用列出并在下表中所述的 SOAP 标头。 
+**GetDelegate**操作可以使用下表中列出和描述的 SOAP 标头。 
   
 |**Header**|**元素**|**说明**|
 |:-----|:-----|:-----|
-|模拟  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |标识模拟客户端应用程序的用户。  <br/> |
-|MailboxCulture  <br/> |[MailboxCulture](mailboxculture.md) <br/> |标识用于访问邮箱的 RFC3066 区域性。  <br/> |
+|模拟  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |标识客户端应用程序模拟的用户。  <br/> |
+|MailboxCulture  <br/> |[MailboxCulture](mailboxculture.md) <br/> |标识要用于访问邮箱的 RFC3066 区域性。  <br/> |
 |RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。  <br/> |
-|ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应该请求的服务器的版本。  <br/> |
+|ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器版本。  <br/> |
    
 ## <a name="getdelegate-request-example"></a>GetDelegate 请求示例
 
 ### <a name="description"></a>说明
 
-下面的代码示例演示如何检索所有 user3 的邮箱设置的代理人的代理设置。 在响应中返回的每个用户的所有权限。
+下面的代码示例演示如何检索 user3's 邮箱上设置的所有代理的代理设置。 在响应中返回每个用户的所有权限。
   
 ### <a name="code"></a>代码
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1"/>
   </soap:Header>
   <soap:Body>
-    <GetDelegate xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-                 xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+    <GetDelegate xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+                 xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
                  IncludePermissions="true">
       <Mailbox>
         <t:EmailAddress>user3@example.com</t:EmailAddress>
@@ -61,18 +61,18 @@ ms.locfileid: "19754510"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>注释
+### <a name="comments"></a>备注
 
-[UserId](userid.md)元素用于指定各个用户，而不是返回所有用户邮箱中具有代理访问权限。 
+您可以使用[UserId](userid.md)元素来指定单个用户，而不是返回对邮箱具有代理访问权限的所有用户。 
   
 > [!NOTE]
-> Exchange Web Services (EWS) 不支持管理组代理人。 如果主体已安全组代理人调用**GetDelegate**操作，EWS 将返回错误。 
+> Exchange Web 服务（EWS）不支持管理组委派。 如果为具有安全组委派的主体调用**GetDelegate**操作，EWS 将返回错误。 
   
 ## <a name="getdelegate-response-example"></a>GetDelegate 响应示例
 
 ### <a name="description"></a>说明
 
-**GetDelegate**响应的下面的示例演示对**GetDelegate**请求成功响应。 则响应中包含有关委派访问权限的信息，代理人可以查看专用项目，无论代理接收副本的会议邮件，并向其会议是否已传送请求。 
+下面的**GetDelegate**响应示例显示了对**GetDelegate**请求的成功响应。 响应包含有关代理访问权限的信息，代理是否可以查看私人项目、代理是否接收会议邮件的副本以及会议请求的送达者。 
   
 ### <a name="code"></a>代码
 
@@ -87,12 +87,12 @@ ms.locfileid: "19754510"
                          MajorBuildNumber="206" 
                          MinorBuildNumber="0" 
                          Version="Exchange2007_SP1" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <m:GetDelegateResponse xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+    <m:GetDelegateResponse xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
                            ResponseClass="Success" 
-                           xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+                           xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseCode>NoError</m:ResponseCode>
       <m:ResponseMessages>
         <m:DelegateUserResponseMessageType ResponseClass="Success">
@@ -122,5 +122,5 @@ ms.locfileid: "19754510"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 06bc95d7-121c-433b-bd27-c2b0eb8c011f
-description: UniqueBody 元素均表示一个 HTML 片段或代表此对话的唯一正文的纯文本。
-ms.openlocfilehash: 49d3607926e0b985074d79cde76cad084f537f01
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: UniqueBody 元素表示一个 HTML 片段或纯文本，表示此对话的唯一正文。
+ms.openlocfilehash: 0a8d52c7d4eb8bda9fd41c4c25e448523185df93
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838325"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461917"
 ---
 # <a name="uniquebody"></a>UniqueBody
 
-**UniqueBody**元素均表示一个 HTML 片段或代表此对话的唯一正文的纯文本。 
+**UniqueBody**元素表示一个 HTML 片段或纯文本，表示此对话的唯一正文。 
   
 ```XML
 <UniqueBody BodyType=""/>
@@ -30,20 +30,20 @@ ms.locfileid: "19838325"
  **BodyType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**说明**|
 |:-----|:-----|
-|**BodyType** <br/> |介绍如何将项目正文存储在项。  <br/> |
+|**BodyType** <br/> |介绍项正文在项中的存储方式。  <br/> |
    
-#### <a name="bodytype-attribute"></a>BodyType 属性
+#### <a name="bodytype-attribute"></a>Office.mailboxenums.bodytype 属性
 
 |**值**|**说明**|
 |:-----|:-----|
-|**HTML** <br/> |将所有正文都转换为 HTML。  <br/> |
-|**Text** <br/> |将所有正文都转换为纯文本。  <br/> |
+|**HTML** <br/> |将所有正文转换为 HTML。  <br/> |
+|**Text** <br/> |将所有正文转换为纯文本。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -51,10 +51,10 @@ ms.locfileid: "19838325"
   
 ### <a name="parent-elements"></a>父元素
 
-|**元素**|**说明**|
+|**元素**|**描述**|
 |:-----|:-----|
-|[日历项目](calendaritem.md) <br/> |表示 Exchange 日历项。  <br/> |
-|[联系人](contact.md) <br/> |表示 Exchange 联系人项目。  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |表示 Exchange 日历项。  <br/> |
+|[Contact](contact.md) <br/> |表示 Exchange 联系人项目。  <br/> |
 |[DistributionList](distributionlist.md) <br/> |表示通讯组列表。  <br/> |
 |[项目](item.md) <br/> |表示 Exchange 存储中的项。  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |表示 Exchange 存储中的会议取消。  <br/> |
@@ -62,7 +62,7 @@ ms.locfileid: "19838325"
 |[MeetingRequest](meetingrequest.md) <br/> |表示 Exchange 存储中的会议请求。  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |表示 Exchange 存储中的会议响应。  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |表示 Exchange 电子邮件。  <br/> |
-|[PostItem](postitem.md) <br/> |代表一个 Exchange 存储中的公告项目。  <br/> |
+|[PostItem](postitem.md) <br/> |表示 Exchange 存储中的公告项。  <br/> |
 |[RemoveItem](removeitem.md) <br/> |从 Exchange 存储中删除一个项目。  <br/> |
 |[任务](task.md) <br/> |表示 Exchange 存储中的任务。  <br/> |
    
@@ -70,7 +70,7 @@ ms.locfileid: "19838325"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -78,7 +78,7 @@ ms.locfileid: "19838325"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -87,5 +87,5 @@ ms.locfileid: "19838325"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

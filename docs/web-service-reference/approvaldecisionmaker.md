@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 12e055c3-e7a4-4dbc-8385-bbf69571a0ce
-description: ApprovalDecisionMaker 元素指定进行审批决策的人员的显示名称。
-ms.openlocfilehash: e2b5b612006c2ac732e5978d8a6126f9567ff17a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ApprovalDecisionMaker 元素指定做出审批决策的人员的显示名称。
+ms.openlocfilehash: d64b9d1816d4df99093ef4d60610e9946f3f98ec
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753249"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461644"
 ---
 # <a name="approvaldecisionmaker"></a>ApprovalDecisionMaker
 
-**ApprovalDecisionMaker**元素指定进行审批决策的人员的显示名称。 
+**ApprovalDecisionMaker**元素指定做出审批决策的人员的显示名称。 
   
 ```XML
 <ApprovalDecisionMaker />
@@ -26,9 +26,9 @@ ms.locfileid: "19753249"
  **string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,9 +42,9 @@ ms.locfileid: "19753249"
   
 ## <a name="text-value"></a>文本值
 
-**ApprovalDecisionMaker**元素的文本值的显示名称。 
+**ApprovalDecisionMaker**元素的文本值是一个显示名称。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   
@@ -54,7 +54,7 @@ Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
@@ -62,5 +62,5 @@ Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
 ## <a name="see-also"></a>另请参阅
 
 - [ApprovalRequestData](approvalrequestdata.md)
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

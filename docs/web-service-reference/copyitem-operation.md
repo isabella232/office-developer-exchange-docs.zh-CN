@@ -1,5 +1,5 @@
 ---
-title: CopyItem Operation
+title: CopyItem 操作
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,32 +11,32 @@ api_name:
 api_type:
 - schema
 ms.assetid: bcc68f9e-d511-4c29-bba6-ed535524624a
-description: CopyItem 操作项复制，并将项目放入不同的文件夹。
-ms.openlocfilehash: 95d2371e9185aa25f40eaec37dda54276a54d321
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: CopyItem 操作将复制项目，并将项目放在不同的文件夹中。
+ms.openlocfilehash: ec07700a5ebbdc8774aa2134919634b8dfd02406
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753609"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462176"
 ---
-# <a name="copyitem-operation"></a>CopyItem Operation
+# <a name="copyitem-operation"></a>CopyItem 操作
 
-**CopyItem**操作项复制，并将项目放入不同的文件夹。 
+**CopyItem**操作将复制项目，并将项目放在不同的文件夹中。 
   
 ## <a name="copyitem-request-example"></a>CopyItem 请求示例
 
 ### <a name="description"></a>说明
 
-**CopyItem**请求的下面的示例演示如何将项目复制到收件箱的请求的表单。 
+以下示例的**CopyItem**请求显示如何构成将项目复制到收件箱的请求。 
   
 ### <a name="code"></a>代码
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <CopyItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CopyItem xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ToFolderId>
         <t:DistinguishedFolderId Id="inbox"/>
       </ToFolderId>
@@ -48,12 +48,12 @@ ms.locfileid: "19753609"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>注释
+### <a name="comments"></a>备注
 
 > [!NOTE]
-> 已缩短文件夹 ID 和更改密钥，以保留可读性。 
+> 文件夹 ID 和更改密钥已缩短，以保持可读性。 
   
-### <a name="request-elements"></a>请求元素
+### <a name="request-elements"></a>Request 元素
 
 请求中使用以下元素：
   
@@ -68,17 +68,17 @@ ms.locfileid: "19753609"
 - [ItemId](itemid.md)
     
 > [!NOTE]
-> 描述此元素的架构位于运行 Microsoft Exchange Server 2010 的安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。 
+> 描述此元素的架构位于运行 Microsoft Exchange Server 2010 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。 
   
-若要查找的请求邮件**CopyItem**操作的其他选项，浏览的架构层次结构。 启动[CopyItem](copyitem.md)元素。 
+若要查找**CopyItem**操作的请求消息的其他选项，请浏览架构层次结构。 从[CopyItem](copyitem.md)元素开始。 
   
 ## <a name="successful-copyitem-response"></a>成功的 CopyItem 响应
 
 ### <a name="description"></a>说明
 
-下面的示例演示对**CopyItem**请求成功响应。 
+下面的示例演示对**CopyItem**请求的成功响应。 
   
-响应消息中返回的新项的项标识符。 项标识符到公用文件夹**CopyItem**操作不返回跨邮箱或邮箱的响应中。 
+在响应消息中返回新项目的项目标识符。 在对跨邮箱或邮箱到公用文件夹**CopyItem**操作的响应中，不会返回项目标识符。 
   
 ### <a name="code"></a>代码
 
@@ -89,12 +89,12 @@ ms.locfileid: "19753609"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="595" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <CopyItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                      xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CopyItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                      xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CopyItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -110,9 +110,9 @@ ms.locfileid: "19753609"
 </soap:Envelope>
 ```
 
-### <a name="successful-response-elements"></a>成功响应元素
+### <a name="successful-response-elements"></a>成功的响应元素
 
-在响应中使用以下元素：
+响应中使用以下元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -126,13 +126,13 @@ ms.locfileid: "19753609"
     
 - [Items](items.md)
     
-若要查找的响应消息**CopyItem**操作的其他选项，浏览的架构层次结构。 启动[CopyItemResponse](copyitemresponse.md)元素。 
+若要查找**CopyItem**操作的响应邮件的其他选项，请浏览架构层次结构。 从[CopyItemResponse](copyitemresponse.md)元素开始。 
   
 ## <a name="copyitem-error-response"></a>CopyItem 错误响应
 
 ### <a name="description"></a>说明
 
-下面的示例演示对**CopyItem**请求错误响应。 
+下面的示例演示对**CopyItem**请求的错误响应。 
   
 ### <a name="code"></a>代码
 
@@ -143,12 +143,12 @@ ms.locfileid: "19753609"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="595" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <CopyItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                      xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CopyItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                      xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CopyItemResponseMessage ResponseClass="Error">
           <m:MessageText>Id is malformed.</m:MessageText>
@@ -182,11 +182,11 @@ ms.locfileid: "19753609"
     
 - [Items](items.md)
     
-若要查找错误响应消息的**CopyItem**操作的其他选项，浏览的架构层次结构。 启动[CopyItemResponse](copyitemresponse.md)元素。 
+若要查找**CopyItem**操作的错误响应消息的其他选项，请浏览架构层次结构。 从[CopyItemResponse](copyitemresponse.md)元素开始。 
   
 ## <a name="see-also"></a>另请参阅
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

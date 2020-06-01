@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: dda6534d-7e52-4654-b746-3631c454cb4d
-description: ConversationIndex 元素指定在对话中的节点的位置。
-ms.openlocfilehash: 7ae8083aea826726752f1cd3c9f3689fd0dd3fb5
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ConversationIndex 元素指定对话中节点的位置。
+ms.openlocfilehash: 2475c42d1ee1c0bef55fe7d5e96d555c981d775d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753584"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461441"
 ---
 # <a name="conversationindex-string"></a>ConversationIndex （字符串）
 
-**ConversationIndex**元素指定在对话中的节点的位置。 
+**ConversationIndex**元素指定对话中节点的位置。 
   
 ```XML
 <ConversationIndex></ConversationIndex>
@@ -26,9 +26,9 @@ ms.locfileid: "19753584"
  **string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -40,30 +40,30 @@ ms.locfileid: "19753584"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ConversationNode](conversationnode.md) <br/> |在对话中指定的节点。  <br/> |
+|[ConversationNode](conversationnode.md) <br/> |指定对话中的节点。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-String 值，它代表对话的索引。
+表示对话索引的字符串值。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
 此元素是必需的。
   
-适用于 Exchange Online 和版本的开头 Exchange 2013 的 Microsoft Exchange Server 的目标设定的客户端的**ConversationIndex**元素。 
+**ConversationIndex**元素适用于面向 exchange Online 的客户端和从 exchange 2013 开始的 Microsoft Exchange Server 版本。 
   
 ## <a name="element-information"></a>元素信息
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |types.xsd  <br/> |
+|验证文件  <br/> |类型 .xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

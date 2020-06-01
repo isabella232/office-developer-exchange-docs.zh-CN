@@ -1,5 +1,5 @@
 ---
-title: AuthRequired (POX)
+title: Resolver.rst.authrequired （POX）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,27 +8,27 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 241a23ee-d2a2-4724-b794-d0d523d480a2
-description: AuthRequired 元素指定是否需要身份验证。
-ms.openlocfilehash: b747f53766b6b914955c5e41b63462b9b44bff4e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Resolver.rst.authrequired 元素指定是否需要身份验证。
+ms.openlocfilehash: 25e3aff6a6db719c7f466e30fd6166e602f2d418
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753299"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461623"
 ---
-# <a name="authrequired-pox"></a>AuthRequired (POX)
+# <a name="authrequired-pox"></a>Resolver.rst.authrequired （POX）
 
-**AuthRequired**元素指定是否需要身份验证。 
+**Resolver.rst.authrequired**元素指定是否需要身份验证。 
   
-- [自动发现 (POX)](autodiscover-pox.md)
+- [自动发现（POX）](autodiscover-pox.md)
   
-- [响应 (POX)](response-pox.md)
+- [响应（POX）](response-pox.md)
   
-- [帐户 (POX)](account-pox.md)
+- [帐户（POX）](account-pox.md)
   
-- [协议 (POX)](protocol-pox.md)
+- [协议（POX）](protocol-pox.md)
   
-- [AuthRequired (POX)](authrequired-pox.md)
+- [Resolver.rst.authrequired （POX）](authrequired-pox.md)
   
 ```xml
 <AuthRequired>on or off</AuthRequired>
@@ -36,9 +36,9 @@ ms.locfileid: "19753299"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -50,13 +50,13 @@ ms.locfileid: "19753299"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[协议 (POX)](protocol-pox.md) <br/> |包含客户端连接到运行 Microsoft Exchange Server 2007 的安装了客户端访问服务器角色的计算机的规格。  <br/> |
+|[协议（POX）](protocol-pox.md) <br/> |包含用于将客户端连接到运行 Microsoft Exchange Server 2007 且安装了客户端访问服务器角色的计算机的规范。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-文本值指定是否需要身份验证。 可能的值为**在**打开和**关闭**。 如果不指定一个值，则默认值是**在上**。 
+该文本值指定是否需要身份验证。 可能的值为 **"开" 或 "** **关**"。 如果未指定值，则默认值为**on**。 
   
 ## <a name="see-also"></a>另请参阅
 
-- [Exchange POX 自动发现 XML 元素](pox-autodiscover-xml-elements-for-exchange.md)
+- [Exchange 的 POX 自动发现 XML 元素](pox-autodiscover-xml-elements-for-exchange.md)
 

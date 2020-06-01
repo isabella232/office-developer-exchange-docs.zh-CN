@@ -1,5 +1,5 @@
 ---
-title: PhoneNumbers (ArrayOfPhonesType)
+title: PhoneNumbers （ArrayOfPhonesType）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,14 +8,14 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 748663cc-13ef-4799-91ce-f559050a9fb1
 description: PhoneNumbers 元素指定电话号码的数组。
-ms.openlocfilehash: 5a77cb9ea13848a50f9d82195b97db4f43ea3fdd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: de777fd27072a8b7767717b46b7d5674e960bbc2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826766"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461693"
 ---
-# <a name="phonenumbers-arrayofphonestype"></a>PhoneNumbers (ArrayOfPhonesType)
+# <a name="phonenumbers-arrayofphonestype"></a>PhoneNumbers （ArrayOfPhonesType）
 
 **PhoneNumbers**元素指定电话号码的数组。 
   
@@ -28,9 +28,9 @@ ms.locfileid: "19826766"
  **ArrayOfPhonesType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -40,7 +40,7 @@ ms.locfileid: "19826766"
   
 ### <a name="parent-elements"></a>父元素
 
-[联系人 (ContactType)](contact-contacttype.md)
+[Contact （ContactType）](contact-contacttype.md)
   
 ## <a name="remarks"></a>备注
 
@@ -52,7 +52,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> ||

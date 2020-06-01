@@ -11,21 +11,21 @@ api_name:
 api_type:
 - schema
 ms.assetid: e9f70726-db08-4089-839e-a41007d0a473
-description: CreateRuleOperation 元素均表示要创建新的收件箱规则操作。
-ms.openlocfilehash: c531f222ffe886e6ef53a99609cfa27e84fd6107
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: CreateRuleOperation 元素表示用于创建新的收件箱规则的操作。
+ms.openlocfilehash: df857544e6d5840a3f738740114195e4c4bb5798
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753680"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460769"
 ---
 # <a name="createruleoperation"></a>CreateRuleOperation
 
-**CreateRuleOperation**元素均表示要创建新的收件箱规则操作。 
+**CreateRuleOperation**元素表示用于创建新的收件箱规则的操作。 
   
 [UpdateInboxRules](updateinboxrules.md)
   
-[操作](operations.md)
+[Operations](operations.md)
   
 ```xml
 <CreateRuleOperation>
@@ -36,9 +36,9 @@ ms.locfileid: "19753680"
  **CreateRuleOperationType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -46,19 +46,19 @@ ms.locfileid: "19753680"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[规则 (RuleType)](rule-ruletype.md) <br/> |表示用户的邮箱中创建的规则。  <br/> |
+|[规则 (RuleType)](rule-ruletype.md) <br/> |代表要在用户邮箱中创建的规则。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[操作](operations.md) <br/> |包含可在收件箱中执行的操作。  <br/> |
+|[Operations](operations.md) <br/> |包含可在收件箱中执行的操作。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -66,7 +66,7 @@ ms.locfileid: "19753680"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -82,5 +82,5 @@ ms.locfileid: "19753680"
 [DeleteRuleOperation](deleteruleoperation.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

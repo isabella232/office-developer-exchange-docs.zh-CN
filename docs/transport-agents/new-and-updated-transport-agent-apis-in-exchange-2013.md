@@ -1,5 +1,5 @@
 ---
-title: 新增和经过更新的传输代理 Exchange 2013 中的 Api
+title: Exchange 2013 中的新的和更新的传输代理 Api
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,33 +7,33 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0a1ad73a-3085-4793-af4d-e4216484c93e
-description: 找出哪些 Api 是新的或更新 Exchange 2013 中的传输代理。
-ms.openlocfilehash: 0caafaf9629da1066d14357416862a7d67b961aa
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 了解 Exchange 2013 中新的或更新的用于传输代理的 Api。
+ms.openlocfilehash: 9cb099757512081347e23bc619c42417929f0f70
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753083"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461819"
 ---
-# <a name="new-and-updated-transport-agent-apis-in-exchange-2013"></a>新增和经过更新的传输代理 Exchange 2013 中的 Api
+# <a name="new-and-updated-transport-agent-apis-in-exchange-2013"></a>Exchange 2013 中的新的和更新的传输代理 Api
 
-找出哪些 Api 是新的或更新 Exchange 2013 中的传输代理。
+了解 Exchange 2013 中新的或更新的用于传输代理的 Api。
 
 **适用于：** Exchange Server 2013 
   
-本文列出了类型的新的或更新 Exchange Server 2013 中影响传输代理。 若要了解体系结构更改在 Exchange 2013 的影响传输代理，请参阅[传输代理概念在 Exchange 2013](transport-agent-concepts-in-exchange-2013.md)。
+本文列出了在 Exchange Server 2013 中新增或更新的类型，这些类型会影响传输代理。 若要了解影响传输代理的 Exchange 2013 中的体系结构更改，请参阅[exchange 2013 中的传输代理概念](transport-agent-concepts-in-exchange-2013.md)。
   
-## <a name="new-types-for-transport-agent-development-in-exchange-2013"></a>在 Exchange 2013 中的传输代理开发的新类型
+## <a name="new-types-for-transport-agent-development-in-exchange-2013"></a>Exchange 2013 中的传输代理开发的新类型
 
-以下类型的新在 Exchange 2013:
+以下类型是 Exchange 2013 中的新类型：
   
 - [NextHopCategory](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.NextHopCategory.aspx)
     
 - [RiskLevel](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.RiskLevel.aspx)
     
-## <a name="updated-types-for-transport-agent-development-in-exchange-2013"></a>更新的类型的传输代理开发在 Exchange 2013
+## <a name="updated-types-for-transport-agent-development-in-exchange-2013"></a>Exchange 2013 中传输代理开发的更新类型
 
-Exchange 2013 中更新了以下类型：
+已在 Exchange 2013 中更新以下类型：
   
 - [ExchangeConfigurationException](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ExchangeConfigurationException.aspx)
     
@@ -81,7 +81,7 @@ Exchange 2013 中更新了以下类型：
     
 - [EnvelopeRecipientCollection](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.EnvelopeRecipientCollection.aspx)
     
-- [EnvelopeRecipientCollection.Enumerator](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.EnvelopeRecipientCollection.Enumerator.aspx)
+- [EnvelopeRecipientCollection](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.EnvelopeRecipientCollection.Enumerator.aspx)
     
 - [MailItem](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.MailItem.aspx)
     
@@ -97,17 +97,17 @@ Exchange 2013 中更新了以下类型：
     
 - [RoutingDomain](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.RoutingDomain.aspx)
     
-- [路由主机](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.RoutingHost.aspx)
+- [RoutingHost](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.RoutingHost.aspx)
     
 - [RoutingOverride](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.RoutingOverride.aspx)
     
 - [AttachmentCollection](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Email.AttachmentCollection.aspx)
     
-- [AttachmentCollection.Enumerator](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Email.AttachmentCollection.Enumerator.aspx)
+- [AttachmentCollection](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Email.AttachmentCollection.Enumerator.aspx)
     
 - [EmailRecipientCollection](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Email.EmailRecipientCollection.aspx)
     
-- [EmailRecipientCollection.Enumerator](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Email.EmailRecipientCollection.Enumerator.aspx)
+- [EmailRecipientCollection](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Email.EmailRecipientCollection.Enumerator.aspx)
     
 - [QueuedMessageEventSource](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.QueuedMessageEventSource.aspx)
     
@@ -137,8 +137,8 @@ Exchange 2013 中更新了以下类型：
     
 ## <a name="see-also"></a>另请参阅
 
-- [传输代理 Exchange 2013 中的概念](transport-agent-concepts-in-exchange-2013.md)  
+- [Exchange 2013 中的传输代理概念](transport-agent-concepts-in-exchange-2013.md)  
 - [创建 Exchange 2013 的传输代理](creating-transport-agents-for-exchange-2013.md)  
-- [Exchange 2013 的传输代理引用](transport-agent-reference-for-exchange-2013.md)
+- [Exchange 2013 的传输代理参考](transport-agent-reference-for-exchange-2013.md)
     
 

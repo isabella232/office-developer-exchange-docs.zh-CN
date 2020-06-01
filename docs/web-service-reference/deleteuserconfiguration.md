@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 91b18b6a-d904-476c-996d-b041e859da1e
-description: DeleteUserConfiguration 元素表示要删除的用户配置对象的请求。
-ms.openlocfilehash: e357c32f95cddc866b77b6f1172ab260837b061b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: DeleteUserConfiguration 元素表示一个删除用户配置对象的请求。
+ms.openlocfilehash: 04668ead48e7c321ed7e91cbbeb67c6154c02283
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753815"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460755"
 ---
 # <a name="deleteuserconfiguration"></a>DeleteUserConfiguration
 
-**DeleteUserConfiguration**元素表示要删除的用户配置对象的请求。 
+**DeleteUserConfiguration**元素表示一个删除用户配置对象的请求。 
   
 ```xml
 <DeleteUserConfiguration>
@@ -32,9 +32,9 @@ ms.locfileid: "19753815"
  **DeleteUserConfigurationType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,7 +42,7 @@ ms.locfileid: "19753815"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[UserConfigurationName](userconfigurationname.md) <br/> |代表要删除的用户配置对象的名称。  <br/> |
+|[UserConfigurationName](userconfigurationname.md) <br/> |表示要删除的用户配置对象的名称。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -52,7 +52,7 @@ ms.locfileid: "19753815"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -60,12 +60,12 @@ ms.locfileid: "19753815"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

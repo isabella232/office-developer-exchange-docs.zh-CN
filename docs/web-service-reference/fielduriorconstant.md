@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 89d7a87e-7c93-49b8-83ec-8798e08c1052
-description: FieldURIOrConstant 元素表示的属性或常量值用于比较与另一个属性。
-ms.openlocfilehash: a24c2fa044e03d0ac6f900625e325600903df8d0
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: FieldURIOrConstant 元素表示与其他属性进行比较时要使用的属性或常数值。
+ms.openlocfilehash: 8b5cb888a3bd2026b15e38fc8c005ab5ef5a2b11
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21354223"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461224"
 ---
 # <a name="fielduriorconstant"></a>FieldURIOrConstant
 
-**FieldURIOrConstant**元素表示的属性或常量值用于比较与另一个属性。 
+**FieldURIOrConstant**元素表示与其他属性进行比较时要使用的属性或常数值。 
   
 ```xml
 <FieldURIOrConstant>
@@ -61,7 +61,7 @@ ms.locfileid: "21354223"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[常量](constant.md) <br/> |标识限制中的以常量值。  <br/> |
+|[常量](constant.md) <br/> |标识限制中的常量值。  <br/> |
 |[FieldURI](fielduri.md) <br/> |标识由 URI 频繁引用的属性。  <br/> |
 |[IndexedFieldURI](indexedfielduri.md) <br/> |标识词典中的各个成员。  <br/> |
 |[ExtendedFieldURI](extendedfielduri.md) <br/> |标识 MAPI 属性。  <br/> |
@@ -70,12 +70,12 @@ ms.locfileid: "21354223"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[IsEqualTo](isequalto.md) <br/> |代表一个搜索表达式的比较一个常数值的属性或另一个属性，并计算结果为 true，如果二者相等。  <br/> |
-|[IsGreaterThan](isgreaterthan.md) <br/> |代表一个搜索表达式，将一个常数值的属性或其他属性进行比较，并返回的第一个属性为更高版本时为 true。  <br/> |
-|[IsGreaterThanOrEqualTo](isgreaterthanorequalto.md) <br/> |代表一个搜索表达式，将一个常数值的属性或其他属性进行比较，并返回的第一个属性为大于或等于第二个值或属性时为 true。  <br/> |
-|[IsLessThan](islessthan.md) <br/> |代表一个搜索表达式，将一个常数值的属性或其他属性进行比较，并返回的第一个属性为小于第二个值或属性时为 true。  <br/> |
-|[IsLessThanOrEqualTo](islessthanorequalto.md) <br/> |代表一个搜索表达式，将一个常数值的属性或其他属性进行比较，并返回的第一个属性为小于或等于第二个值或属性时为 true。  <br/> |
-|[IsNotEqualTo](isnotequalto.md) <br/> |代表一个搜索表达式的比较一个常数值的属性或另一个属性，并返回 true 如果值不相同。  <br/> |
+|[IsEqualTo](isequalto.md) <br/> |表示搜索表达式，该表达式将属性与常数值或其他属性进行比较，如果它们相等，则计算结果为 true。  <br/> |
+|[IsGreaterThan](isgreaterthan.md) <br/> |表示用于将属性与常数值或其他属性进行比较的搜索表达式，如果第一个属性较大，则返回 true。  <br/> |
+|[IsGreaterThanOrEqualTo](isgreaterthanorequalto.md) <br/> |表示一个搜索表达式，该表达式将属性与一个常数值或另一个属性进行比较，如果第一个属性大于或等于第二个值或属性，则返回 true。  <br/> |
+|[IsLessThan](islessthan.md) <br/> |表示一个搜索表达式，该表达式将属性与一个常数值或另一个属性进行比较，如果第一个属性小于第二个值或属性，则返回 true。  <br/> |
+|[IsLessThanOrEqualTo](islessthanorequalto.md) <br/> |表示一个搜索表达式，该表达式将属性与一个常数值或另一个属性进行比较，如果第一个属性小于或等于第二个值或属性，则返回 true。  <br/> |
+|[IsNotEqualTo](isnotequalto.md) <br/> |表示用于将属性与常量值或其他属性进行比较的搜索表达式，如果值不相同，则返回 true。  <br/> |
    
 ## <a name="remarks"></a>说明
 
@@ -83,11 +83,11 @@ ms.locfileid: "21354223"
   
 ## <a name="example"></a>示例
 
-下面的 XML 示例演示用于常量和字段 URI FieldURIOrConstant 元素。
+以下 XML 示例显示了与常量和字段 URI 一起使用的 FieldURIOrConstant 元素。
   
 ```xml
 <Restriction>
-  <Or xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+  <Or xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
     <IsEqualTo>
       <FieldURI FieldURI="item:DateTimeCreated"/>
       <FieldURIOrConstant>
@@ -108,12 +108,12 @@ ms.locfileid: "21354223"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

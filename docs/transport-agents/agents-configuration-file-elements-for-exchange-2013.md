@@ -11,48 +11,48 @@ api_name:
 api_type:
 - schema
 ms.assetid: 3047653b-d712-46c1-ae0a-73f3975f5e9d
-description: Exchange 2013 中的 agents.config 和 fetagents.config 配置文件中查找信息的 XML 元素。
-ms.openlocfilehash: dd58c4bc21a968db2ca5b13e0c53f7058b29f233
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 查找有关 Exchange 2013 中的代理 .config 和 fetagents 配置文件中的 XML 元素的信息。
+ms.openlocfilehash: f19fe8316a78cef668db881e630562d3be8be64a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753062"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461567"
 ---
 # <a name="agents-configuration-file-elements-for-exchange-2013"></a>Exchange 2013 的代理配置文件元素
 
-Exchange 2013 中的 agents.config 和 fetagents.config 配置文件中查找信息的 XML 元素。
+查找有关 Exchange 2013 中的代理 .config 和 fetagents 配置文件中的 XML 元素的信息。
   
 **适用于：** Exchange Server 2013
   
-在客户端访问或邮箱服务器角色安装在 Exchange 服务器上时，安装程序将创建 XML 文件包含有关服务器安装的代理的配置信息。 您不能直接写入此文件。 
+当您在 Exchange 服务器上安装客户端访问或邮箱服务器角色时，安装程序将创建一个 XML 文件，其中包含有关安装在服务器上的代理的配置信息。 您不能直接写入此文件。 
   
-前端传输服务客户端访问服务器上运行，并将写入到一个名为 fetagents.config 文件。传输服务和邮箱传输服务在邮箱服务器上运行并写入到一个名为 agents.config 文件。Fetagents.config 和 agents.config 文件将具有已客户端访问服务器角色和邮箱服务器角色的计算机。 
+前端传输服务在客户端访问服务器上运行，并写入到名为 fetagents 的文件中。传输服务和邮箱传输服务在邮箱服务器上运行，并写入到名为 agent 的文件中。同时具有客户端访问服务器角色和邮箱服务器角色的计算机将同时具有 fetagents 和代理 .config 文件。 
   
-写入这些文件的唯一受支持的方法是在 Exchange 命令行管理程序中使用的传输代理 cmdlet。 有关传输代理 cmdlet 的信息，请参阅 TechNet 上的[邮件流 Cmdlet](http://technet.microsoft.com/en-us/library/aa998553%28v=exchg.150%29.aspx) 。 
+写入这些文件的唯一受支持的方法是使用 Exchange 命令行管理程序中的传输代理 cmdlet。 有关传输代理 cmdlet 的信息，请参阅 TechNet 上的[邮件流 cmdlet](https://technet.microsoft.com/library/aa998553%28v=exchg.150%29.aspx) 。 
   
 > [!NOTE]
-> 为了区别扩展的客户端访问服务器上的前端传输服务的代理和邮箱服务器上的传输服务，请传输代理 cmdlet 具有_TransportService_参数值为"集线器"传输服务和前端传输服务的"前端"。 
+> 若要区分在客户端访问服务器上扩展前端传输服务的代理和邮箱服务器上的传输服务，传输代理 cmdlet 具有一个_set-transportservice_参数，其中包含值为 "Hub" 的传输服务和前端传输服务的 "前端"。 
   
-您可以阅读 agents.config 或 fetagents.config 文件，以确定存在和一个或多个代理服务器上的配置信息。 本文档提供可用于读取 agents.config 文件或 fetagents.config 中的信息的引用。这两个这些文件的格式是相同的。 本文档并未提供有关如何编写对文件的信息。
+您可以读取代理 .config 或 fetagents 文件，以确定服务器上的一个或多个代理的状态和配置信息。 本文档提供了一个引用，可用于读取代理 .config 文件或 fetagents 中的信息。这两个文件的格式相同。 本文档不提供有关如何写入文件的信息。
   
 > [!CAUTION]
-> 使用不受支持的方法写入 agents.config 文件或 fetagents.config 可能会产生意外的结果，包括失败的传输服务或传输代理。 不写入直接对这些文件。 使用 Exchange 命令行管理程序传输代理 cmdlet 用于向这些文件写入仅受支持的方法。 
+> 使用不受支持的方法写入代理 .config 文件或 fetagents 可能会产生意外的结果，包括失败的传输服务或传输代理，或者两者兼有。 不要直接写入这些文件中的任何一个。 写入这些文件的唯一受支持的方法是使用 Exchange 命令行管理程序传输代理 cmdlet。 
   
 ## <a name="location-of-the-transport-agent-configuration-files"></a>传输代理配置文件的位置
 <a name="bk_ConfigLoc"> </a>
 
-安装 Exchange 2013 时，安装程序创建的 XML 文件的 agents.config.template 或 fetagents.config.template，具体取决于服务器角色安装，在名为\<ExchangeInstallFolder\>\TransportRoles\Agents文件夹 (其中\<ExchangeInstallFolder\>是您安装 Exchange 2013 的文件夹)。 如果安装了客户端访问服务器角色，Exchange 2013 fetagents.config.template 文件复制到 fetagents.config。如果您安装邮箱服务器角色，Exchange 2013 agents.config.template 文件复制到 agents.config。Exchange 2013 读取和写入此文件，当您更改在服务器上的传输代理配置。
+安装 Exchange 2013 时，安装程序将根据所安装的服务器角色创建一个名为 "fetagents" 或 "" 的 XML 文件。在 " \<ExchangeInstallFolder\> \TransportRoles\Agents" 文件夹中（其中 \<ExchangeInstallFolder\> 是您在其中安装 Exchange 2013 的文件夹）中的 "模板"。 如果您安装了客户端访问服务器角色，则 Exchange 2013 会将 fetagents 文件复制到 fetagents。如果安装了邮箱服务器角色，Exchange 2013 会将代理 .config 文件复制到代理 .config。当您在服务器上更改传输代理配置时，Exchange 2013 将读取并写入此文件。
   
 ## <a name="verifying-a-transport-agent-installation"></a>验证传输代理安装
 <a name="bk_verifyinstall"> </a>
 
-您可以使用.NET Framework 提供读取和验证 agents.config 或 fetagents.config XML 文件的 XML 功能。 若要验证的安装和配置的传输代理，读取 XML 配置文件中的，并找到对应于传输代理的[代理](agent.md)元素。 特定传输代理**代理**元素不存在，如果未安装传输代理。 如果安装了传输代理，您可以阅读**代理**元素以确定其配置的属性。 
+您可以使用 .NET Framework 提供的 XML 功能来读取和验证代理 .config 或 fetagents XML 文件。 若要验证传输代理的安装和配置，请阅读配置文件中的 XML，并查找与传输代理对应的[agent](agent.md)元素。 如果特定传输代理的**代理**元素不存在，则不会安装传输代理。 如果已安装传输代理，则可以读取**agent**元素的属性以确定其配置。 
   
-## <a name="configuration-file-element-hierarchy"></a>配置文件的元素层次结构
+## <a name="configuration-file-element-hierarchy"></a>配置文件元素层次结构
 <a name="bk_elementref"> </a>
 
-下面的代码演示配置 XML 文件中的元素层次结构。
+以下代码显示配置 XML 文件中的元素层次结构。
   
 ```XML
 <configuration>
@@ -85,14 +85,14 @@ Exchange 2013 中的 agents.config 和 fetagents.config 配置文件中查找信
     
 - [mexRuntime](mexruntime.md)
     
-- [监控](monitoring.md)
+- [监视](monitoring.md)
     
 ## <a name="see-also"></a>另请参阅
 
-- [在 Exchange 传输代理](transport-agents-in-exchange-2013.md)
-- [传输代理 Exchange 2013 中的概念](transport-agent-concepts-in-exchange-2013.md)
-- [Exchange 2013 的传输代理引用](transport-agent-reference-for-exchange-2013.md)
-- [传输代理 Exchange 2013 中的命名空间](transport-agent-namespaces-in-exchange-2013.md)
-- [邮件流 Cmdlet](https://docs.microsoft.com/en-us/powershell/exchange/?view=exchange-ps)
+- [Exchange 中的传输代理](transport-agents-in-exchange-2013.md)
+- [Exchange 2013 中的传输代理概念](transport-agent-concepts-in-exchange-2013.md)
+- [Exchange 2013 的传输代理参考](transport-agent-reference-for-exchange-2013.md)
+- [Exchange 2013 中的传输代理命名空间](transport-agent-namespaces-in-exchange-2013.md)
+- [邮件流 Cmdlet](https://docs.microsoft.com/powershell/exchange/?view=exchange-ps)
     
 

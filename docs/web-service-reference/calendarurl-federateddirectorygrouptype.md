@@ -7,23 +7,23 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0606c8a9-813c-4d7c-8080-db812069668e
-description: 仅供内部使用旨在 CalendarUrl (FederatedDirectoryGroupType) 元素。
-ms.openlocfilehash: e169d6c40ec01303a74529d4ee538a2b058e81fb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: CalendarUrl （FederatedDirectoryGroupType）元素仅供内部使用。
+ms.openlocfilehash: 71d139a20700ab208c6c53ffaa67c0902cd940bf
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753419"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460825"
 ---
 # <a name="calendarurl-federateddirectorygrouptype"></a>CalendarUrl (FederatedDirectoryGroupType)
 
-仅供内部使用旨在**CalendarUrl (FederatedDirectoryGroupType)** 元素。 
+**CalendarUrl （FederatedDirectoryGroupType）** 元素仅供内部使用。 
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19753419"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   

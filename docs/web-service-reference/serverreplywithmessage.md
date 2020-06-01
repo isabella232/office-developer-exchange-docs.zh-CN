@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 113c6ff2-9592-44f0-b542-54e4d5122ccb
-description: ServerReplyWithMessage 元素指示是将作为答复传入邮件发送的模板邮件 ID。
-ms.openlocfilehash: f2d927ae18ac68523d4cdd173f0474fbbeb36c98
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ServerReplyWithMessage 元素指示要发送为对传入邮件的答复的模板邮件的 ID。
+ms.openlocfilehash: faaa054018a17be3ff59b9fc385b3d846d39c3f1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827390"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461973"
 ---
 # <a name="serverreplywithmessage"></a>ServerReplyWithMessage
 
-**ServerReplyWithMessage**元素指示是将作为答复传入邮件发送的模板邮件 ID。 
+**ServerReplyWithMessage**元素指示要发送为对传入邮件的答复的模板邮件的 ID。 
   
 ```XML
 <ServerReplyWithMessage>
@@ -32,9 +32,9 @@ ms.locfileid: "19827390"
  **ItemIdType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,7 +42,7 @@ ms.locfileid: "19827390"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ItemId](itemid.md) <br/> |代表 Exchange 存储中的项的唯一标识符和更改键。  <br/> |
+|[ItemId](itemid.md) <br/> |表示 Exchange 存储中项的唯一标识符和更改键。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -54,7 +54,7 @@ ms.locfileid: "19827390"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -62,7 +62,7 @@ ms.locfileid: "19827390"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
@@ -71,5 +71,5 @@ ms.locfileid: "19827390"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

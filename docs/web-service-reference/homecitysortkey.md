@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 21761cb0-4514-4adb-a659-59a3f2f0a6e1
-description: HomeCitySortKey 元素均表示所在的城市的排序关键字。
-ms.openlocfilehash: c2d013ce8a1f5baad058169ca3babe27466ce528
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: HomeCitySortKey 元素表示家庭所在城市的排序关键字。
+ms.openlocfilehash: 8a6c96f7de8915259d1151fc4ddb9b6148a864b6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825835"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460860"
 ---
 # <a name="homecitysortkey"></a>HomeCitySortKey
 
-**HomeCitySortKey**元素均表示所在的城市的排序关键字。 
+**HomeCitySortKey**元素表示家庭所在城市的排序关键字。 
   
 ```XML
 <HomeCitySortKey></HomeCitySortKey>
@@ -26,9 +26,9 @@ ms.locfileid: "19825835"
  **string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,7 +42,7 @@ ms.locfileid: "19825835"
   
 ## <a name="text-value"></a>文本值
 
-角色所在城市名称排序关键字**HomeCitySortKey**元素的文本值。 
+**HomeCitySortKey**元素的文本值是角色的住宅城市名称的排序关键字。 
   
 ## <a name="remarks"></a>备注
 
@@ -54,7 +54,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> ||

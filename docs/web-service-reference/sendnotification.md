@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: e45c4451-a286-4aec-a691-119ec41c58e0
-description: SendNotification 元素包含由客户端应用程序运行 Microsoft Exchange Server 2007 的计算机发送推送通知。
-ms.openlocfilehash: 2288dbb5cf97b57a64b3c645eb72836342f4c178
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: SendNotification 元素包含运行 Microsoft Exchange Server 2007 的计算机发送给客户端应用程序的推送通知。
+ms.openlocfilehash: 49f2f6cb7f5c8e1171b54ff965ee1d22accc9bf2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827345"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462113"
 ---
 # <a name="sendnotification"></a>SendNotification
 
-**SendNotification**元素包含由客户端应用程序运行 Microsoft Exchange Server 2007 的计算机发送推送通知。 
+**SendNotification**元素包含运行 Microsoft Exchange Server 2007 的计算机发送给客户端应用程序的推送通知。 
   
 ```xml
 <SendNotification>
@@ -32,9 +32,9 @@ ms.locfileid: "19827345"
  **SendNotificationResponseType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,13 +42,13 @@ ms.locfileid: "19827345"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |包含由客户端访问服务器发送的推送通知。  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |包含客户端访问服务器发送的推送通知。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -56,7 +56,7 @@ ms.locfileid: "19827345"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -65,10 +65,10 @@ ms.locfileid: "19827345"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 
 
-[EWS 中的事件通知](http://msdn.microsoft.com/library/4fd4b351-d35c-4ccc-9ed9-878932ab9d50%28Office.15%29.aspx)
+[EWS 中的事件通知](https://msdn.microsoft.com/library/4fd4b351-d35c-4ccc-9ed9-878932ab9d50%28Office.15%29.aspx)
   
-[推送通知示例应用程序](http://msdn.microsoft.com/library/db1f8523-fa44-483f-bdb6-ab5939b52eee%28Office.15%29.aspx)
+[推送通知示例应用程序](https://msdn.microsoft.com/library/db1f8523-fa44-483f-bdb6-ab5939b52eee%28Office.15%29.aspx)
 

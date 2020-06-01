@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: dcff5ccc-31dc-4941-9f71-d6519133aebb
 description: ExportAllowed 元素指定是否启用导出。
-ms.openlocfilehash: 5c07941e0a79394bbdaa1a1f62b20adedfe7a9bf
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f5a9aa3040c45d535ef338010bb37bcedb797ffc
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754204"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460629"
 ---
 # <a name="exportallowed"></a>ExportAllowed
 
@@ -26,9 +26,9 @@ ms.locfileid: "19754204"
  **Boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -44,9 +44,9 @@ ms.locfileid: "19754204"
    
 ## <a name="text-value"></a>文本值
 
-文本值为**true**的**ExportAllowed**元素表示允许为导出。 如果值为**false**指示不允许导出。 
+如果**ExportAllowed**元素的文本值为**true** ，则表示允许导出。 **如果值为 false** ，则表示不允许导出。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 此元素为可选。
   
@@ -58,14 +58,14 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |types.xsd  <br/> |
+|验证文件  <br/> |类型 .xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 
