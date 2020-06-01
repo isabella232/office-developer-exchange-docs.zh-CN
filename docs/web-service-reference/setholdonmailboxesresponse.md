@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 909194d6-e2b1-4774-bf29-04ed4318df1d
-description: SetHoldOnMailboxesResponse 元素均表示 SetHoldOnMailboxes 请求的响应。
-ms.openlocfilehash: bb1d64b98f5e1ab4cdbe4a297ded46d00b27b364
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: SetHoldOnMailboxesResponse 元素表示对 SetHoldOnMailboxes 请求的响应。
+ms.openlocfilehash: 37ad5c6e8f880831a98ff2e649a92cee99930889
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827418"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44438080"
 ---
-# <a name="setholdonmailboxesresponse"></a><span data-ttu-id="6b7f1-103">SetHoldOnMailboxesResponse</span><span class="sxs-lookup"><span data-stu-id="6b7f1-103">SetHoldOnMailboxesResponse</span></span>
+# <a name="setholdonmailboxesresponse"></a><span data-ttu-id="2f343-103">SetHoldOnMailboxesResponse</span><span class="sxs-lookup"><span data-stu-id="2f343-103">SetHoldOnMailboxesResponse</span></span>
 
-<span data-ttu-id="6b7f1-104">**SetHoldOnMailboxesResponse**元素均表示**SetHoldOnMailboxes**请求的响应。</span><span class="sxs-lookup"><span data-stu-id="6b7f1-104">The **SetHoldOnMailboxesResponse** element represents a response to a **SetHoldOnMailboxes** request.</span></span> 
+<span data-ttu-id="2f343-104">**SetHoldOnMailboxesResponse**元素表示对**SetHoldOnMailboxes**请求的响应。</span><span class="sxs-lookup"><span data-stu-id="2f343-104">The **SetHoldOnMailboxesResponse** element represents a response to a **SetHoldOnMailboxes** request.</span></span> 
   
 ```XML
 <SetHoldOnMailboxesResponse>
@@ -29,36 +29,36 @@ ms.locfileid: "19827418"
 </SetHoldOnMailboxesResponse>
 ```
 
- <span data-ttu-id="6b7f1-105">**SetHoldOnMailboxesResponseMessageType**</span><span class="sxs-lookup"><span data-stu-id="6b7f1-105">**SetHoldOnMailboxesResponseMessageType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="6b7f1-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="6b7f1-106">Attributes and elements</span></span>
+ <span data-ttu-id="2f343-105">**SetHoldOnMailboxesResponseMessageType**</span><span class="sxs-lookup"><span data-stu-id="2f343-105">**SetHoldOnMailboxesResponseMessageType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="2f343-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="2f343-106">Attributes and elements</span></span>
 
-<span data-ttu-id="6b7f1-107">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="6b7f1-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="2f343-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="2f343-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="6b7f1-108">属性</span><span class="sxs-lookup"><span data-stu-id="6b7f1-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="2f343-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="2f343-108">Attributes</span></span>
 
-<span data-ttu-id="6b7f1-109">无。</span><span class="sxs-lookup"><span data-stu-id="6b7f1-109">None.</span></span>
+<span data-ttu-id="2f343-109">无。</span><span class="sxs-lookup"><span data-stu-id="2f343-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="6b7f1-110">子元素</span><span class="sxs-lookup"><span data-stu-id="6b7f1-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="2f343-110">子元素</span><span class="sxs-lookup"><span data-stu-id="2f343-110">Child elements</span></span>
 
-<span data-ttu-id="6b7f1-111">[MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md) | [MailboxHoldResult](mailboxholdresult.md)</span><span class="sxs-lookup"><span data-stu-id="6b7f1-111">[MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md) | [MailboxHoldResult](mailboxholdresult.md)</span></span>
+<span data-ttu-id="2f343-111">[MessageText](messagetext.md)  | [ResponseCode](responsecode.md)  | [DescriptiveLinkKey](descriptivelinkkey.md)  | [MessageXml](messagexml.md)  | [MailboxHoldResult](mailboxholdresult.md)</span><span class="sxs-lookup"><span data-stu-id="2f343-111">[MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md) | [MailboxHoldResult](mailboxholdresult.md)</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="6b7f1-112">父元素</span><span class="sxs-lookup"><span data-stu-id="6b7f1-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="2f343-112">父元素</span><span class="sxs-lookup"><span data-stu-id="2f343-112">Parent elements</span></span>
 
-<span data-ttu-id="6b7f1-113">无。</span><span class="sxs-lookup"><span data-stu-id="6b7f1-113">None.</span></span>
+<span data-ttu-id="2f343-113">无。</span><span class="sxs-lookup"><span data-stu-id="2f343-113">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="6b7f1-114">备注</span><span class="sxs-lookup"><span data-stu-id="6b7f1-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="2f343-114">说明</span><span class="sxs-lookup"><span data-stu-id="2f343-114">Remarks</span></span>
 
-<span data-ttu-id="6b7f1-115">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="6b7f1-115">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="2f343-115">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="2f343-115">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="6b7f1-116">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="6b7f1-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="2f343-116">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="2f343-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="6b7f1-117">元素信息</span><span class="sxs-lookup"><span data-stu-id="6b7f1-117">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="2f343-117">元素信息</span><span class="sxs-lookup"><span data-stu-id="2f343-117">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="6b7f1-118">命名空间</span><span class="sxs-lookup"><span data-stu-id="6b7f1-118">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="6b7f1-119">架构名称</span><span class="sxs-lookup"><span data-stu-id="6b7f1-119">Schema name</span></span>  <br/> |<span data-ttu-id="6b7f1-120">消息架构</span><span class="sxs-lookup"><span data-stu-id="6b7f1-120">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="6b7f1-121">验证文件</span><span class="sxs-lookup"><span data-stu-id="6b7f1-121">Validation file</span></span>  <br/> |<span data-ttu-id="6b7f1-122">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="6b7f1-122">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="6b7f1-123">可以为空</span><span class="sxs-lookup"><span data-stu-id="6b7f1-123">Can be empty</span></span>  <br/> |<span data-ttu-id="6b7f1-124">false</span><span class="sxs-lookup"><span data-stu-id="6b7f1-124">false</span></span>  <br/> |
+|<span data-ttu-id="2f343-118">命名空间</span><span class="sxs-lookup"><span data-stu-id="2f343-118">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="2f343-119">架构名称</span><span class="sxs-lookup"><span data-stu-id="2f343-119">Schema name</span></span>  <br/> |<span data-ttu-id="2f343-120">消息架构</span><span class="sxs-lookup"><span data-stu-id="2f343-120">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="2f343-121">验证文件</span><span class="sxs-lookup"><span data-stu-id="2f343-121">Validation file</span></span>  <br/> |<span data-ttu-id="2f343-122">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="2f343-122">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="2f343-123">可以为空</span><span class="sxs-lookup"><span data-stu-id="2f343-123">Can be empty</span></span>  <br/> |<span data-ttu-id="2f343-124">false</span><span class="sxs-lookup"><span data-stu-id="2f343-124">false</span></span>  <br/> |
    
 
