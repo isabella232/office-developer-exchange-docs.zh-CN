@@ -11,65 +11,65 @@ api_name:
 api_type:
 - schema
 ms.assetid: e0e4eabd-802f-4dd0-9911-89e08c66a15e
-description: ChildFolderCount 元素均表示文件夹中包含的直接子文件夹的数。 此属性是只读的。
-ms.openlocfilehash: db2ed19b23f046d296fea17533fbeadbf8a584c5
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ChildFolderCount 元素表示文件夹中包含的直接子文件夹的数目。 此属性是只读的。
+ms.openlocfilehash: 6ea3b9c000c7836b55c6bf359c95870ed28350e0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753448"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463942"
 ---
-# <a name="childfoldercount"></a><span data-ttu-id="55a38-104">ChildFolderCount</span><span class="sxs-lookup"><span data-stu-id="55a38-104">ChildFolderCount</span></span>
+# <a name="childfoldercount"></a><span data-ttu-id="ff6d0-104">ChildFolderCount</span><span class="sxs-lookup"><span data-stu-id="ff6d0-104">ChildFolderCount</span></span>
 
-<span data-ttu-id="55a38-105">**ChildFolderCount**元素均表示文件夹中包含的直接子文件夹的数。</span><span class="sxs-lookup"><span data-stu-id="55a38-105">The **ChildFolderCount** element represents the number of immediate child folders that are contained within a folder.</span></span> <span data-ttu-id="55a38-106">此属性是只读的。</span><span class="sxs-lookup"><span data-stu-id="55a38-106">This property is read-only.</span></span> 
+<span data-ttu-id="ff6d0-105">**ChildFolderCount**元素表示文件夹中包含的直接子文件夹的数目。</span><span class="sxs-lookup"><span data-stu-id="ff6d0-105">The **ChildFolderCount** element represents the number of immediate child folders that are contained within a folder.</span></span> <span data-ttu-id="ff6d0-106">此属性是只读的。</span><span class="sxs-lookup"><span data-stu-id="ff6d0-106">This property is read-only.</span></span> 
   
 ```xml
 <ChildFolderCount/>
 ```
 
- <span data-ttu-id="55a38-107">**int**</span><span class="sxs-lookup"><span data-stu-id="55a38-107">**int**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="55a38-108">属性和元素</span><span class="sxs-lookup"><span data-stu-id="55a38-108">Attributes and elements</span></span>
+ <span data-ttu-id="ff6d0-107">**int**</span><span class="sxs-lookup"><span data-stu-id="ff6d0-107">**int**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="ff6d0-108">属性和元素</span><span class="sxs-lookup"><span data-stu-id="ff6d0-108">Attributes and elements</span></span>
 
-<span data-ttu-id="55a38-109">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="55a38-109">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="ff6d0-109">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="ff6d0-109">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="55a38-110">属性</span><span class="sxs-lookup"><span data-stu-id="55a38-110">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="ff6d0-110">Attributes</span><span class="sxs-lookup"><span data-stu-id="ff6d0-110">Attributes</span></span>
 
-<span data-ttu-id="55a38-111">无。</span><span class="sxs-lookup"><span data-stu-id="55a38-111">None.</span></span>
+<span data-ttu-id="ff6d0-111">无。</span><span class="sxs-lookup"><span data-stu-id="ff6d0-111">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="55a38-112">子元素</span><span class="sxs-lookup"><span data-stu-id="55a38-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="ff6d0-112">子元素</span><span class="sxs-lookup"><span data-stu-id="ff6d0-112">Child elements</span></span>
 
-<span data-ttu-id="55a38-113">无。</span><span class="sxs-lookup"><span data-stu-id="55a38-113">None.</span></span>
+<span data-ttu-id="ff6d0-113">无。</span><span class="sxs-lookup"><span data-stu-id="ff6d0-113">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="55a38-114">父元素</span><span class="sxs-lookup"><span data-stu-id="55a38-114">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="ff6d0-114">父元素</span><span class="sxs-lookup"><span data-stu-id="ff6d0-114">Parent elements</span></span>
 
-|<span data-ttu-id="55a38-115">**元素**</span><span class="sxs-lookup"><span data-stu-id="55a38-115">**Element**</span></span>|<span data-ttu-id="55a38-116">**说明**</span><span class="sxs-lookup"><span data-stu-id="55a38-116">**Description**</span></span>|
+|<span data-ttu-id="ff6d0-115">**元素**</span><span class="sxs-lookup"><span data-stu-id="ff6d0-115">**Element**</span></span>|<span data-ttu-id="ff6d0-116">**说明**</span><span class="sxs-lookup"><span data-stu-id="ff6d0-116">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="55a38-117">Folder</span><span class="sxs-lookup"><span data-stu-id="55a38-117">Folder</span></span>](folder.md) <br/> |<span data-ttu-id="55a38-118">表示邮箱中的文件夹。</span><span class="sxs-lookup"><span data-stu-id="55a38-118">Represents a folder in a mailbox.</span></span>  <br/> |
-|[<span data-ttu-id="55a38-119">CalendarFolder</span><span class="sxs-lookup"><span data-stu-id="55a38-119">CalendarFolder</span></span>](calendarfolder.md) <br/> |<span data-ttu-id="55a38-120">表示邮箱中的日历文件夹。</span><span class="sxs-lookup"><span data-stu-id="55a38-120">Represents a Calendar folder in a mailbox.</span></span>  <br/> |
-|[<span data-ttu-id="55a38-121">ContactsFolder</span><span class="sxs-lookup"><span data-stu-id="55a38-121">ContactsFolder</span></span>](contactsfolder.md) <br/> |<span data-ttu-id="55a38-122">表示邮箱中的联系人文件夹。</span><span class="sxs-lookup"><span data-stu-id="55a38-122">Represents a Contacts folder in a mailbox.</span></span>  <br/> |
-|[<span data-ttu-id="55a38-123">SearchFolder</span><span class="sxs-lookup"><span data-stu-id="55a38-123">SearchFolder</span></span>](searchfolder.md) <br/> |<span data-ttu-id="55a38-124">表示邮箱中的搜索文件夹。</span><span class="sxs-lookup"><span data-stu-id="55a38-124">Represents a search folder in a mailbox.</span></span>  <br/> |
-|[<span data-ttu-id="55a38-125">TasksFolder</span><span class="sxs-lookup"><span data-stu-id="55a38-125">TasksFolder</span></span>](tasksfolder.md) <br/> |<span data-ttu-id="55a38-126">表示邮箱中的任务文件夹。</span><span class="sxs-lookup"><span data-stu-id="55a38-126">Represents a Tasks folder in a mailbox.</span></span>  <br/> |
+|[<span data-ttu-id="ff6d0-117">Folder</span><span class="sxs-lookup"><span data-stu-id="ff6d0-117">Folder</span></span>](folder.md) <br/> |<span data-ttu-id="ff6d0-118">表示邮箱中的文件夹。</span><span class="sxs-lookup"><span data-stu-id="ff6d0-118">Represents a folder in a mailbox.</span></span>  <br/> |
+|[<span data-ttu-id="ff6d0-119">CalendarFolder</span><span class="sxs-lookup"><span data-stu-id="ff6d0-119">CalendarFolder</span></span>](calendarfolder.md) <br/> |<span data-ttu-id="ff6d0-120">代表邮箱中的 "日历" 文件夹。</span><span class="sxs-lookup"><span data-stu-id="ff6d0-120">Represents a Calendar folder in a mailbox.</span></span>  <br/> |
+|[<span data-ttu-id="ff6d0-121">ContactsFolder</span><span class="sxs-lookup"><span data-stu-id="ff6d0-121">ContactsFolder</span></span>](contactsfolder.md) <br/> |<span data-ttu-id="ff6d0-122">表示邮箱中的 "联系人" 文件夹。</span><span class="sxs-lookup"><span data-stu-id="ff6d0-122">Represents a Contacts folder in a mailbox.</span></span>  <br/> |
+|[<span data-ttu-id="ff6d0-123">SearchFolder</span><span class="sxs-lookup"><span data-stu-id="ff6d0-123">SearchFolder</span></span>](searchfolder.md) <br/> |<span data-ttu-id="ff6d0-124">表示邮箱中的搜索文件夹。</span><span class="sxs-lookup"><span data-stu-id="ff6d0-124">Represents a search folder in a mailbox.</span></span>  <br/> |
+|[<span data-ttu-id="ff6d0-125">TasksFolder</span><span class="sxs-lookup"><span data-stu-id="ff6d0-125">TasksFolder</span></span>](tasksfolder.md) <br/> |<span data-ttu-id="ff6d0-126">表示邮箱中的任务文件夹。</span><span class="sxs-lookup"><span data-stu-id="ff6d0-126">Represents a Tasks folder in a mailbox.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="55a38-127">文本值</span><span class="sxs-lookup"><span data-stu-id="55a38-127">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="ff6d0-127">文本值</span><span class="sxs-lookup"><span data-stu-id="ff6d0-127">Text value</span></span>
 
-<span data-ttu-id="55a38-128">文本值表示一个整数。</span><span class="sxs-lookup"><span data-stu-id="55a38-128">The text value represents an integer.</span></span> <span data-ttu-id="55a38-129">此属性是只读的。</span><span class="sxs-lookup"><span data-stu-id="55a38-129">This property is read-only.</span></span>
+<span data-ttu-id="ff6d0-128">文本值表示一个整数。</span><span class="sxs-lookup"><span data-stu-id="ff6d0-128">The text value represents an integer.</span></span> <span data-ttu-id="ff6d0-129">此属性是只读的。</span><span class="sxs-lookup"><span data-stu-id="ff6d0-129">This property is read-only.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="55a38-130">备注</span><span class="sxs-lookup"><span data-stu-id="55a38-130">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ff6d0-130">说明</span><span class="sxs-lookup"><span data-stu-id="ff6d0-130">Remarks</span></span>
 
-<span data-ttu-id="55a38-131">描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="55a38-131">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="ff6d0-131">描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="ff6d0-131">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="55a38-132">元素信息</span><span class="sxs-lookup"><span data-stu-id="55a38-132">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="ff6d0-132">元素信息</span><span class="sxs-lookup"><span data-stu-id="ff6d0-132">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="55a38-133">命名空间</span><span class="sxs-lookup"><span data-stu-id="55a38-133">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="55a38-134">架构名称</span><span class="sxs-lookup"><span data-stu-id="55a38-134">Schema Name</span></span>  <br/> |<span data-ttu-id="55a38-135">类型架构</span><span class="sxs-lookup"><span data-stu-id="55a38-135">Types schema</span></span>  <br/> |
-|<span data-ttu-id="55a38-136">验证文件</span><span class="sxs-lookup"><span data-stu-id="55a38-136">Validation File</span></span>  <br/> |<span data-ttu-id="55a38-137">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="55a38-137">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="55a38-138">可以为空</span><span class="sxs-lookup"><span data-stu-id="55a38-138">Can be Empty</span></span>  <br/> |<span data-ttu-id="55a38-139">False</span><span class="sxs-lookup"><span data-stu-id="55a38-139">False</span></span>  <br/> |
+|<span data-ttu-id="ff6d0-133">命名空间</span><span class="sxs-lookup"><span data-stu-id="ff6d0-133">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="ff6d0-134">架构名称</span><span class="sxs-lookup"><span data-stu-id="ff6d0-134">Schema Name</span></span>  <br/> |<span data-ttu-id="ff6d0-135">类型架构</span><span class="sxs-lookup"><span data-stu-id="ff6d0-135">Types schema</span></span>  <br/> |
+|<span data-ttu-id="ff6d0-136">验证文件</span><span class="sxs-lookup"><span data-stu-id="ff6d0-136">Validation File</span></span>  <br/> |<span data-ttu-id="ff6d0-137">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="ff6d0-137">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="ff6d0-138">可以为空</span><span class="sxs-lookup"><span data-stu-id="ff6d0-138">Can be Empty</span></span>  <br/> |<span data-ttu-id="ff6d0-139">False</span><span class="sxs-lookup"><span data-stu-id="ff6d0-139">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="55a38-140">另请参阅</span><span class="sxs-lookup"><span data-stu-id="55a38-140">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ff6d0-140">另请参阅</span><span class="sxs-lookup"><span data-stu-id="ff6d0-140">See also</span></span>
 
 
 
-- [<span data-ttu-id="55a38-141">在交换 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="55a38-141">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="ff6d0-141">Exchange 中的 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="ff6d0-141">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

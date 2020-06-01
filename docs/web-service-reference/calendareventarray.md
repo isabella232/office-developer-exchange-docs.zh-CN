@@ -11,27 +11,27 @@ api_name:
 api_type:
 - schema
 ms.assetid: a00f7f56-d7f1-429d-ae02-97043718c864
-description: CalendarEventArray 元素包含一组唯一的日历项目事件表示所请求的用户的可用性。
-ms.openlocfilehash: 2e56b7b2b94e12401ba708dfca94101064d625e1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: CalendarEventArray 元素包含表示所请求的用户的可用性的一组唯一的日历项匹配项。
+ms.openlocfilehash: 6badba2477a9d48c6d109740de454e2815d3c211
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753406"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463368"
 ---
-# <a name="calendareventarray"></a><span data-ttu-id="a01bd-103">CalendarEventArray</span><span class="sxs-lookup"><span data-stu-id="a01bd-103">CalendarEventArray</span></span>
+# <a name="calendareventarray"></a><span data-ttu-id="03351-103">CalendarEventArray</span><span class="sxs-lookup"><span data-stu-id="03351-103">CalendarEventArray</span></span>
 
-<span data-ttu-id="a01bd-104">**CalendarEventArray**元素包含一组唯一的日历项目事件表示所请求的用户的可用性。</span><span class="sxs-lookup"><span data-stu-id="a01bd-104">The **CalendarEventArray** element contains a set of unique calendar item occurrences that represent the requested user's availability.</span></span> 
+<span data-ttu-id="03351-104">**CalendarEventArray**元素包含表示所请求的用户的可用性的一组唯一的日历项匹配项。</span><span class="sxs-lookup"><span data-stu-id="03351-104">The **CalendarEventArray** element contains a set of unique calendar item occurrences that represent the requested user's availability.</span></span> 
   
-[<span data-ttu-id="a01bd-105">GetUserAvailabilityResponse</span><span class="sxs-lookup"><span data-stu-id="a01bd-105">GetUserAvailabilityResponse</span></span>](getuseravailabilityresponse.md)
+[<span data-ttu-id="03351-105">GetUserAvailabilityResponse</span><span class="sxs-lookup"><span data-stu-id="03351-105">GetUserAvailabilityResponse</span></span>](getuseravailabilityresponse.md)
   
-[<span data-ttu-id="a01bd-106">FreeBusyResponseArray</span><span class="sxs-lookup"><span data-stu-id="a01bd-106">FreeBusyResponseArray</span></span>](freebusyresponsearray.md)
+[<span data-ttu-id="03351-106">FreeBusyResponseArray</span><span class="sxs-lookup"><span data-stu-id="03351-106">FreeBusyResponseArray</span></span>](freebusyresponsearray.md)
   
-[<span data-ttu-id="a01bd-107">FreeBusyResponse</span><span class="sxs-lookup"><span data-stu-id="a01bd-107">FreeBusyResponse</span></span>](freebusyresponse.md)
+[<span data-ttu-id="03351-107">FreeBusyResponse</span><span class="sxs-lookup"><span data-stu-id="03351-107">FreeBusyResponse</span></span>](freebusyresponse.md)
   
-[<span data-ttu-id="a01bd-108">FreeBusyView</span><span class="sxs-lookup"><span data-stu-id="a01bd-108">FreeBusyView</span></span>](freebusyview.md)
+[<span data-ttu-id="03351-108">FreeBusyView</span><span class="sxs-lookup"><span data-stu-id="03351-108">FreeBusyView</span></span>](freebusyview.md)
   
-[<span data-ttu-id="a01bd-109">CalendarEventArray</span><span class="sxs-lookup"><span data-stu-id="a01bd-109">CalendarEventArray</span></span>](calendareventarray.md)
+[<span data-ttu-id="03351-109">CalendarEventArray</span><span class="sxs-lookup"><span data-stu-id="03351-109">CalendarEventArray</span></span>](calendareventarray.md)
   
 ```xml
 <CalendarEventArray>
@@ -39,50 +39,50 @@ ms.locfileid: "19753406"
 </CalendarEventArray>
 ```
 
- <span data-ttu-id="a01bd-110">**ArrayOfCalendarEvent**</span><span class="sxs-lookup"><span data-stu-id="a01bd-110">**ArrayOfCalendarEvent**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="a01bd-111">属性和元素</span><span class="sxs-lookup"><span data-stu-id="a01bd-111">Attributes and elements</span></span>
+ <span data-ttu-id="03351-110">**ArrayOfCalendarEvent**</span><span class="sxs-lookup"><span data-stu-id="03351-110">**ArrayOfCalendarEvent**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="03351-111">属性和元素</span><span class="sxs-lookup"><span data-stu-id="03351-111">Attributes and elements</span></span>
 
-<span data-ttu-id="a01bd-112">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="a01bd-112">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="03351-112">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="03351-112">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="a01bd-113">属性</span><span class="sxs-lookup"><span data-stu-id="a01bd-113">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="03351-113">Attributes</span><span class="sxs-lookup"><span data-stu-id="03351-113">Attributes</span></span>
 
-<span data-ttu-id="a01bd-114">无。</span><span class="sxs-lookup"><span data-stu-id="a01bd-114">None.</span></span>
+<span data-ttu-id="03351-114">无。</span><span class="sxs-lookup"><span data-stu-id="03351-114">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="a01bd-115">子元素</span><span class="sxs-lookup"><span data-stu-id="a01bd-115">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="03351-115">子元素</span><span class="sxs-lookup"><span data-stu-id="03351-115">Child elements</span></span>
 
-|<span data-ttu-id="a01bd-116">**元素**</span><span class="sxs-lookup"><span data-stu-id="a01bd-116">**Element**</span></span>|<span data-ttu-id="a01bd-117">**说明**</span><span class="sxs-lookup"><span data-stu-id="a01bd-117">**Description**</span></span>|
+|<span data-ttu-id="03351-116">**元素**</span><span class="sxs-lookup"><span data-stu-id="03351-116">**Element**</span></span>|<span data-ttu-id="03351-117">**说明**</span><span class="sxs-lookup"><span data-stu-id="03351-117">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="a01bd-118">CalendarEvent</span><span class="sxs-lookup"><span data-stu-id="a01bd-118">CalendarEvent</span></span>](calendarevent.md) <br/> |<span data-ttu-id="a01bd-119">代表独特的日历项匹配项。</span><span class="sxs-lookup"><span data-stu-id="a01bd-119">Represents a unique calendar item occurrence.</span></span>  <br/> |
+|[<span data-ttu-id="03351-118">CalendarEvent</span><span class="sxs-lookup"><span data-stu-id="03351-118">CalendarEvent</span></span>](calendarevent.md) <br/> |<span data-ttu-id="03351-119">代表唯一的日历项目事件。</span><span class="sxs-lookup"><span data-stu-id="03351-119">Represents a unique calendar item occurrence.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="a01bd-120">父元素</span><span class="sxs-lookup"><span data-stu-id="a01bd-120">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="03351-120">父元素</span><span class="sxs-lookup"><span data-stu-id="03351-120">Parent elements</span></span>
 
-|<span data-ttu-id="a01bd-121">**元素**</span><span class="sxs-lookup"><span data-stu-id="a01bd-121">**Element**</span></span>|<span data-ttu-id="a01bd-122">**说明**</span><span class="sxs-lookup"><span data-stu-id="a01bd-122">**Description**</span></span>|
+|<span data-ttu-id="03351-121">**元素**</span><span class="sxs-lookup"><span data-stu-id="03351-121">**Element**</span></span>|<span data-ttu-id="03351-122">**说明**</span><span class="sxs-lookup"><span data-stu-id="03351-122">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="a01bd-123">FreeBusyView</span><span class="sxs-lookup"><span data-stu-id="a01bd-123">FreeBusyView</span></span>](freebusyview.md) <br/> |<span data-ttu-id="a01bd-124">包含特定用户的可用性信息。</span><span class="sxs-lookup"><span data-stu-id="a01bd-124">Contains availability information for a specific user.</span></span>  <br/> <span data-ttu-id="a01bd-125">以下是此元素的 XPath 2.0 表达式：</span><span class="sxs-lookup"><span data-stu-id="a01bd-125">The following is the XPath 2.0 expression to this element:</span></span>  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView` <br/> |
+|[<span data-ttu-id="03351-123">FreeBusyView</span><span class="sxs-lookup"><span data-stu-id="03351-123">FreeBusyView</span></span>](freebusyview.md) <br/> |<span data-ttu-id="03351-124">包含特定用户的可用性信息。</span><span class="sxs-lookup"><span data-stu-id="03351-124">Contains availability information for a specific user.</span></span>  <br/> <span data-ttu-id="03351-125">以下是此元素的 XPath 2.0 表达式：</span><span class="sxs-lookup"><span data-stu-id="03351-125">The following is the XPath 2.0 expression to this element:</span></span>  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView` <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="a01bd-126">注解</span><span class="sxs-lookup"><span data-stu-id="a01bd-126">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="03351-126">备注</span><span class="sxs-lookup"><span data-stu-id="03351-126">Remarks</span></span>
 
-<span data-ttu-id="a01bd-127">提供此元素的详细程度取决于所请求者授予的权限。</span><span class="sxs-lookup"><span data-stu-id="a01bd-127">The level of detail provided by this element depends on the permissions granted to the requestor.</span></span> <span data-ttu-id="a01bd-128">[FreeBusyViewType](freebusyviewtype.md)元素设置为**FreeBusy**、 **FreeBusyMerged**、 **Detailed**或**DetailedMerged**时包含此元素。</span><span class="sxs-lookup"><span data-stu-id="a01bd-128">This element is included when the [FreeBusyViewType](freebusyviewtype.md) element is set to **FreeBusy**, **FreeBusyMerged**, **Detailed**, or **DetailedMerged**.</span></span> <span data-ttu-id="a01bd-129">如果没有日历项目存在于请求的时间窗口中，此元素不包括任何子元素。</span><span class="sxs-lookup"><span data-stu-id="a01bd-129">This element does not include any child elements if no calendar items are present in the requested time window.</span></span> 
+<span data-ttu-id="03351-127">此元素提供的详细信息级别取决于授予请求者的权限。</span><span class="sxs-lookup"><span data-stu-id="03351-127">The level of detail provided by this element depends on the permissions granted to the requestor.</span></span> <span data-ttu-id="03351-128">当[FreeBusyViewType](freebusyviewtype.md)元素设置为**FreeBusy**、 **FreeBusyMerged**、**详细**或**DetailedMerged**时，将包含此元素。</span><span class="sxs-lookup"><span data-stu-id="03351-128">This element is included when the [FreeBusyViewType](freebusyviewtype.md) element is set to **FreeBusy**, **FreeBusyMerged**, **Detailed**, or **DetailedMerged**.</span></span> <span data-ttu-id="03351-129">如果请求的时间窗口中不存在日历项目，则此元素不包含任何子元素。</span><span class="sxs-lookup"><span data-stu-id="03351-129">This element does not include any child elements if no calendar items are present in the requested time window.</span></span> 
   
-<span data-ttu-id="a01bd-130">描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="a01bd-130">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="03351-130">描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="03351-130">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="a01bd-131">元素信息</span><span class="sxs-lookup"><span data-stu-id="a01bd-131">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="03351-131">元素信息</span><span class="sxs-lookup"><span data-stu-id="03351-131">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="a01bd-132">命名空间</span><span class="sxs-lookup"><span data-stu-id="a01bd-132">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="a01bd-133">架构名称</span><span class="sxs-lookup"><span data-stu-id="a01bd-133">Schema Name</span></span>  <br/> |<span data-ttu-id="a01bd-134">类型架构</span><span class="sxs-lookup"><span data-stu-id="a01bd-134">Types schema</span></span>  <br/> |
-|<span data-ttu-id="a01bd-135">验证文件</span><span class="sxs-lookup"><span data-stu-id="a01bd-135">Validation File</span></span>  <br/> |<span data-ttu-id="a01bd-136">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="a01bd-136">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="a01bd-137">可以为空</span><span class="sxs-lookup"><span data-stu-id="a01bd-137">Can be Empty</span></span>  <br/> |<span data-ttu-id="a01bd-138">False</span><span class="sxs-lookup"><span data-stu-id="a01bd-138">False</span></span>  <br/> |
+|<span data-ttu-id="03351-132">命名空间</span><span class="sxs-lookup"><span data-stu-id="03351-132">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="03351-133">架构名称</span><span class="sxs-lookup"><span data-stu-id="03351-133">Schema Name</span></span>  <br/> |<span data-ttu-id="03351-134">类型架构</span><span class="sxs-lookup"><span data-stu-id="03351-134">Types schema</span></span>  <br/> |
+|<span data-ttu-id="03351-135">验证文件</span><span class="sxs-lookup"><span data-stu-id="03351-135">Validation File</span></span>  <br/> |<span data-ttu-id="03351-136">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="03351-136">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="03351-137">可以为空</span><span class="sxs-lookup"><span data-stu-id="03351-137">Can be Empty</span></span>  <br/> |<span data-ttu-id="03351-138">False</span><span class="sxs-lookup"><span data-stu-id="03351-138">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="a01bd-139">另请参阅</span><span class="sxs-lookup"><span data-stu-id="a01bd-139">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="03351-139">另请参阅</span><span class="sxs-lookup"><span data-stu-id="03351-139">See also</span></span>
 
 
 
-[<span data-ttu-id="a01bd-140">GetUserAvailability 操作</span><span class="sxs-lookup"><span data-stu-id="a01bd-140">GetUserAvailability operation</span></span>](getuseravailability-operation.md)
+[<span data-ttu-id="03351-140">GetUserAvailability 操作</span><span class="sxs-lookup"><span data-stu-id="03351-140">GetUserAvailability operation</span></span>](getuseravailability-operation.md)
   
-[<span data-ttu-id="a01bd-141">GetUserAvailabilityResponse</span><span class="sxs-lookup"><span data-stu-id="a01bd-141">GetUserAvailabilityResponse</span></span>](getuseravailabilityresponse.md)
+[<span data-ttu-id="03351-141">GetUserAvailabilityResponse</span><span class="sxs-lookup"><span data-stu-id="03351-141">GetUserAvailabilityResponse</span></span>](getuseravailabilityresponse.md)
 
 
-[<span data-ttu-id="a01bd-142">Getting User Availability</span><span class="sxs-lookup"><span data-stu-id="a01bd-142">Getting User Availability</span></span>](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[<span data-ttu-id="03351-142">Getting User Availability</span><span class="sxs-lookup"><span data-stu-id="03351-142">Getting User Availability</span></span>](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 
