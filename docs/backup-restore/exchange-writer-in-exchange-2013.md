@@ -1,5 +1,5 @@
 ---
-title: Exchange 2013 中的 Exchange 编写器
+title: Exchange 2013 中的 exchange 编写器
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,77 +7,77 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ec126433-9f0a-46ec-a685-ff4af2f97bc1
-description: 查找有关 Exchange 书写器信息 Exchange 2013 中备份和还原操作。
-ms.openlocfilehash: a4dc5963ab24a83969efc6e425b38a35276f3aa3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 查找有关用于备份和还原操作的 Exchange 2013 中的 Exchange 编写器的信息。
+ms.openlocfilehash: 44270a87c38b08d274d389fa6e46f3864da13ed2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752684"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44452886"
 ---
-# <a name="exchange-writer-in-exchange-2013"></a>Exchange 2013 中的 Exchange 编写器
+# <a name="exchange-writer-in-exchange-2013"></a>Exchange 2013 中的 exchange 编写器
 
-查找有关 Exchange 书写器信息 Exchange 2013 中备份和还原操作。 
+查找有关用于备份和还原操作的 Exchange 2013 中的 Exchange 编写器的信息。 
   
 **适用于：** Exchange Server 2013 
   
-Exchange 作者负责备份和还原 Exchange Server 2013 中的活动数据库。 Exchange 书写器还支持其中卷影副本针对采取复制实例的数据库和事务日志文件的所选的数据库的备份功能。 
+Exchange 编写器负责备份和还原活动 Exchange Server 2013 数据库。 Exchange 编写器还支持所选数据库的备份功能，其中卷影副本针对数据库和事务日志文件的复制实例进行。 
   
-## <a name="overview-of-the-exchange-writer"></a>Exchange 书写器的概述
+## <a name="overview-of-the-exchange-writer"></a>Exchange 编写器概述
 <a name="bk_Overview"> </a>
 
-Exchange 2013 包括数据库移动功能，以便在不同的 Exchange 服务器，以提高数据库可用性和站点恢复之间复制的数据库。 其他数据库副本的数据库可用性组 (DAG) 提供 Exchange 备份使用额外的资源的副本位置提供的重要机会。 此外，而不是活动数据库主控形状副本备份，因为副本的不会备份期间长的时间段。 
+Exchange 2013 包括数据库移动功能，这些功能使数据库能够在不同的 Exchange 服务器之间进行复制，以提高数据库可用性和站点恢复能力。 数据库可用性组（DAG）中的其他数据库副本为 Exchange 备份提供了可在副本位置使用的额外资源的有价值的机会。 此外，由于备份副本（而不是活动数据库主控形状），因此副本在备份期间可能会在更长时间内不可用。 
   
-Exchange 书写器配合 （代表申请者操作系统） 的 Exchange 服务来准备备份的数据库文件、 冻结 IO 活动生成 Exchange 事务之前备份数据库，然后取消冻结和截断备份完成后，则日志文件。
+Exchange 编写器与 Exchange 服务协调（代表请求者进行操作）以准备用于备份的数据库文件，在备份数据库之前冻结 Exchange 事务产生的 IO 活动，然后在备份完成后取消冻结和截断日志文件。
   
-在还原期间，您的备份和还原应用程序指示要与 Exchange 存储 （代表申请者操作系统） 协调，以验证还原目标，重命名数据库文件，如有必要，然后重播事务的 Exchange 编写器根据需要日志。 Exchange 编写器支持的备份和恢复。
+在还原过程中，您的备份和还原应用程序指示 Exchange 编写器与 Exchange 存储区进行协调（代表请求者进行操作）以验证还原目标，如有必要，请重命名数据库文件，然后根据需要重放事务日志。 Exchange 编写器支持备份和还原。
   
-Exchange 编写器任何安装了邮箱服务器角色的 Exchange 服务器上可用。 
+Exchange 编写器在安装了邮箱服务器角色的任何 Exchange 服务器上均可用。 
   
 ## <a name="exchange-writer-configuration-settings"></a>Exchange 编写器配置设置
 <a name="bk_ExchangeWriterConfig"> </a>
 
-Exchange writer for VSS 使用各种设置和必须正确设置和备份和还原操作过程中保留的值。 这些配置设置存储在 Exchange 编写器元数据文档。 如果备份应用程序不会保留这些设置，您可能会遇到意外的错误，当您尝试备份 Exchange 数据库时。 
+用于 VSS 的 Exchange 编写器使用在备份和还原操作过程中必须正确设置和保留的各种设置和值。 这些配置设置存储在 Exchange 编写器元数据文档中。 如果备份应用程序不保留这些设置，则在尝试备份 Exchange 数据库时可能会遇到意外错误。 
   
-下表列出了公开有关数据库备份的组件的元数据的 VSS 接口。 这些接口所需获取 Exchange 编写器元数据文档用于执行 Exchange 存储的备份。
+下表列出了公开有关数据库备份组件的元数据的 VSS 接口。 这些接口是获取用于执行 Exchange 存储备份的 Exchange 编写器元数据文档所必需的。
   
-**表 1。VSS 接口**
+**表1。VSS 接口**
 
 |**VSS 接口**|**说明**|
 |:-----|:-----|
-|IVssWMComponent  <br/> |允许访问存储在 Exchange 书写器的组件信息。  <br/> |
-|IVssExamineWriterMetadata  <br/> |允许请求的备份和还原应用程序检查 Exchange 编写器元数据。 Exchange 编写器元数据文档包含特定于 Exchange 2013 的值和请求的备份和还原应用程序需要，以便它可以正确指定相应的组件备份的参数。  <br/> |
-|IVssComponent  <br/> |包含用于检查和修改有关请求者的备份的组件文档中包含的组件的信息的方法。 仅获取对象已明确添加到此文档[IVssBackupComponents::AddComponent](http://msdn.microsoft.com/en-us/library/windows/desktop/aa382646%28v=vs.85%29.aspx)方法这些组件。  <br/> |
-|IVssBackupComponents  <br/> |用于请求的备份和还原应用程序轮询 Exchange 作者有关文件状态和运行备份和还原操作。 [IVssBackupComponents::SetBackupState](http://msdn.microsoft.com/en-us/library/windows/desktop/aa382833%28v=vs.85%29.aspx)方法定义的备份操作是否是完整，复制，增量备份或差异备份。 [IVssBackupComponents::AddRestoreSubcomponent](http://msdn.microsoft.com/en-us/library/windows/desktop/aa382649%28v=vs.85%29.aspx)方法定义可选择用于还原操作的 Exchange 2013 数据库的子组件。  <br/> |
+|IVssWMComponent  <br/> |允许访问存储在 Exchange 编写器中的组件信息。  <br/> |
+|IVssExamineWriterMetadata  <br/> |允许请求的备份和还原应用程序检查 Exchange 编写器的元数据。 Exchange 编写器元数据文档包含请求的备份和还原应用程序所需的 Exchange 2013 特定的值和参数，以便可以正确指定用于备份的相应组件。  <br/> |
+|IVssComponent  <br/> |包含检查和修改有关请求者的备份组件文档中包含的组件的信息的方法。 仅可为已通过[IVssBackupComponents：： AddComponent](https://msdn.microsoft.com/library/windows/desktop/aa382646%28v=vs.85%29.aspx)方法显式添加到此文档中的组件获取对象。  <br/> |
+|IVssBackupComponents  <br/> |由请求的备份和还原应用程序用来轮询 Exchange 编写器，以轮询文件状态和运行备份和还原操作。 [IVssBackupComponents：： SetBackupState](https://msdn.microsoft.com/library/windows/desktop/aa382833%28v=vs.85%29.aspx)方法定义备份操作是完整备份、副本备份、增量备份还是差异备份。 [IVssBackupComponents：： AddRestoreSubcomponent](https://msdn.microsoft.com/library/windows/desktop/aa382649%28v=vs.85%29.aspx)方法定义可为还原操作选择的 Exchange 2013 数据库的子组件。  <br/> |
    
-在 Windows Server 文件系统中，Exchange 2013 数据库存储为单个数据库文件扩展名 *.edb。Exchange 编写器公开 *.edb 作为数据库组件，同时事务日志 (*.log) 和检查点文件 (*.chk) 合并为单个组件，称为日志组件。 有关 Exchange 数据库文件的详细信息，请参阅[Exchange 2013 的备份和还原概念](backup-and-restore-concepts-for-exchange-2013.md)。
+在 Windows Server 文件系统中，Exchange 2013 数据库存储为带有扩展名 .edb 的单个数据库文件 *。Exchange 编写器将 *.edb 公开为数据库组件，而事务日志（*.log）和检查点文件（*.chk）合并到一个组件（称为 "日志组件"）中。 有关 Exchange 数据库文件的详细信息，请参阅[exchange 2013 的备份和还原概念](backup-and-restore-concepts-for-exchange-2013.md)。
   
-## <a name="interactions-between-the-exchange-writer-vss-and-vss-requesters"></a>Exchange 编写器、 VSS 和 VSS 之间的交互请求者
+## <a name="interactions-between-the-exchange-writer-vss-and-vss-requesters"></a>Exchange 编写器、VSS 和 VSS 请求程序之间的交互
 <a name="bk_interactions"> </a>
 
-Exchange 作者，VSS 之间的高级交互期间备份操作的 Exchange 2013，如下所示，：
+在备份操作过程中，VSS、Exchange 编写器和 Exchange 2013 之间的高级交互如下所示：
   
 1. 备份程序（或代理）运行一项计划作业。 
     
-2. 备份和还原应用程序中的 VSS 请求者向所选的 Exchange 2013 数据库卷影副本的 VSS 发送命令。 
+2. 备份和还原应用程序中的 VSS 请求者将命令发送到 VSS，以拍摄选定的 Exchange 2013 数据库的卷影副本。 
     
-3. VSS 与要准备快照备份的 Exchange 编写器进行通信。 Exchange 2013 禁止针对数据库的管理操作和检查卷依赖项，同时允许在只读访问挂起到所选实例的数据库和事务日志文件的所有写操作。 
+3. VSS 与 Exchange 编写器进行通信以准备快照备份。 Exchange 2013 禁止对数据库执行管理操作，检查卷依赖项，并挂起对数据库和事务日志文件的选定实例的所有写入操作，同时允许只读访问。 
     
-4. VSS 与适当的存储提供程序创建包含 Exchange 2013 数据库的存储卷的卷影副本进行通信。 
+4. VSS 与相应的存储提供程序通信，以创建包含 Exchange 2013 数据库的存储卷的卷影副本。 
     
-5. VSS 发布 Exchange 2013，以恢复普通操作。 
+5. VSS 发布 Exchange 2013 以恢复普通操作。 
     
-6. VSS 请求者验证物理信号备份已成功之前设置的备份的一致性。 Exchange 2013 截断事务日志 （如果数据库是 DAG 的一部分，日志截断复制所有副本之间），并记录数据库的上次备份的时间。
+6. VSS 请求者在发出备份成功的信号之前验证备份集的物理一致性。 Exchange 2013 截断事务日志（如果数据库是 DAG 的一部分，则在所有副本中复制日志截断，并记录数据库的最后备份时间。
     
-VSS 序列化与 Exchange 书写器[OnPrepareBackup](http://msdn.microsoft.com/en-us/library/windows/desktop/aa381571%28v=vs.85%29.aspx)方法使用起始和结束与[OnPostSnapshot](http://msdn.microsoft.com/en-us/library/windows/desktop/aa381568%28v=vs.85%29.aspx)方法的请求者的交互。 通常情况下，Exchange 书写器等待使用卷影副本的时间的大部分时发生**OnPostSnapshot**方法之后, 的卷影副本一致性验证之前完成的备份。 Exchange 书写器支持并行**OnPostSnapshot**和[OnBackupComplete](http://msdn.microsoft.com/en-us/library/windows/desktop/aa381557%28v=vs.85%29.aspx)之间的备份。
+VSS 将请求者与 Exchange 编写器的交互序列化从[OnPrepareBackup](https://msdn.microsoft.com/library/windows/desktop/aa381571%28v=vs.85%29.aspx)方法开始，并以[OnPostSnapshot](https://msdn.microsoft.com/library/windows/desktop/aa381568%28v=vs.85%29.aspx)方法结束。 通常情况下，在完成备份之前，如果卷影副本的一致性被确认，则 Exchange 编写器在使用卷影副本时所花的时间将在**OnPostSnapshot**方法之后发生。 Exchange 编写器支持**OnPostSnapshot**和[OnBackupComplete](https://msdn.microsoft.com/library/windows/desktop/aa381557%28v=vs.85%29.aspx)之间的并行备份。
   
-Exchange 2013 不允许并发的同一个数据库的备份。 只有一个备份作业可以针对给定数据库运行一次。 当运行备份时，在 Exchange 存储会将数据库置于备份正在进行中状态。 在完成的备份过程或重新启动该服务，此内存中状态为清除状态。 承载的 Exchange 编写器服务重新启动后，重新启动操作系统后，或进行故障转移群集时，内存中备份正在进行中状态和其关联的数据将丢失。 任何这些事件将导致失败的备份作业。
+Exchange 2013 不允许对同一个数据库进行并发备份。 一次仅可对给定数据库运行一个备份作业。 在备份运行时，Exchange 存储会将数据库置于正在进行的备份状态。 此内存中的状态在备份过程完成或服务重新启动时清除。 当重新启动承载 Exchange 编写器的服务、重新启动操作系统或发生群集故障转移时，内存中的正在进行的备份状态及其关联的数据将会丢失。 这些事件中的任何一种都将导致备份作业失败。
   
-备份启动事务日志文件截断触发根据要执行备份的类型。 在非 DAG 配置 Exchange 作者将截断事务日志文件的完整或增量备份成功完成。 在 DAG 复制配置，将复制服务延迟日志截断，直到所有必要的日志文件被重播到所有其他副本。 复制服务备份日志文件从活动和复制日志文件路径，日志文件已成功应用到复制数据库和两个活动数据库和数据库副本检查点已通过验证后将删除备份要删除的日志文件。
+根据要执行的备份类型触发备份启动的事务日志文件截断。 在非 DAG 配置中，Exchange 编写器将在完成成功的完整备份或增量备份时截断事务日志文件。 在 DAG 复制配置中，复制服务将延迟日志截断，直到将所有必要的日志文件重播到其他所有副本。 复制服务在验证日志文件是否已成功应用于复制数据库，并且两个活动数据库和数据库副本检查点都已传递要删除的日志文件后，将从主动和副本日志文件路径中删除备份的日志文件。
   
 ## <a name="see-also"></a>另请参阅
 
-- [事务日志和备份和还原 Exchange 2013 中的检查点文件](transaction-logs-and-checkpoint-files-for-backup-and-restore-in-exchange.md)
+- [Exchange 2013 中用于备份和还原的事务日志和检查点文件](transaction-logs-and-checkpoint-files-for-backup-and-restore-in-exchange.md)
     
 - [Exchange 2013 的备份和还原概念](backup-and-restore-concepts-for-exchange-2013.md)
     

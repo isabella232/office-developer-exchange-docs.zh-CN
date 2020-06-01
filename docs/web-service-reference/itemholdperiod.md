@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 30369db5-4d45-40e8-bc83-3236667fc404
-description: ItemHoldPeriod 元素指定的时间来保存与邮箱查询匹配的内容量。
-ms.openlocfilehash: 212d765aa3f0493dd4f3051de483fa08a6fa8ac7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ItemHoldPeriod 元素指定保留与邮箱查询匹配的内容的时间长度。
+ms.openlocfilehash: 185666b72cc96dd88605b7baa6433d070e7ebc91
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826144"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44452284"
 ---
 # <a name="itemholdperiod"></a>ItemHoldPeriod
 
-**ItemHoldPeriod**元素指定的时间来保存与邮箱查询匹配的内容量。 
+**ItemHoldPeriod**元素指定保留与邮箱查询匹配的内容的时间长度。 
   
 ```XML
 <ItemHoldPeriod/>
@@ -26,9 +26,9 @@ ms.locfileid: "19826144"
  **string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,9 +42,9 @@ ms.locfileid: "19826144"
   
 ## <a name="text-value"></a>文本值
 
-文本值可以是"Unlimited"或任何[Timespan](http://msdn.microsoft.com/en-us/library/1ecy8h51%28v=vs.110%29.aspx)值的字符串值。 
+文本值可以是 "无限制"，也可以是任何[Timespan](https://msdn.microsoft.com/library/1ecy8h51%28v=vs.110%29.aspx)值的字符串值。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   
@@ -54,7 +54,7 @@ Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
@@ -66,5 +66,5 @@ Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
 [SetHoldOnMailboxes](setholdonmailboxes.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 
