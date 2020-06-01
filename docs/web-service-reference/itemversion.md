@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: dd8275df-11ad-4d24-95c4-291b123e8509
-description: ItemVersion 元素旨在仅供内部使用。
-ms.openlocfilehash: 7ffbe1727cef9e4b78b951ba5c2b3c1303502280
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ItemVersion 元素仅供内部使用。
+ms.openlocfilehash: 94d45e98f144840138ef3bc21c0a98d0196543b1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826162"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459270"
 ---
 # <a name="itemversion"></a>ItemVersion
 
-**ItemVersion**元素旨在仅供内部使用。 
+**ItemVersion**元素仅供内部使用。 
   
 ```XML
 <ItemVersion />
@@ -26,9 +26,9 @@ ms.locfileid: "19826162"
  ****
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -40,7 +40,7 @@ ms.locfileid: "19826162"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 中引入了此元素。
   

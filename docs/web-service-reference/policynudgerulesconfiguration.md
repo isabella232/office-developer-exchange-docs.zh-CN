@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: e6f7c824-1284-4a65-a459-9fc22b66e30a
 description: PolicyNudgeRulesConfiguration 元素包含数据丢失防护配置数据。
-ms.openlocfilehash: ecea1dac44526fee7c439cd5e1eb318c38d274f6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: dd801fe140dee66d153e388781f97254d1a2f2ef
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826833"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459607"
 ---
 # <a name="policynudgerulesconfiguration"></a>PolicyNudgeRulesConfiguration
 
@@ -26,9 +26,9 @@ ms.locfileid: "19826833"
  **PolicyNudgeRulesServiceConfiguration**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -40,9 +40,9 @@ ms.locfileid: "19826833"
 
 [ServiceConfigurationResponseMessageType](serviceconfigurationresponsemessagetype.md)
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-Exchange Web Services 架构定义内容不可**PolicyNudgeRulesConfiguration**元素。 
+**PolicyNudgeRulesConfiguration**元素内容未定义为 Exchange Web Services 架构。 
   
 Exchange Server 2013 中引入了此元素。
   
@@ -52,7 +52,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> ||

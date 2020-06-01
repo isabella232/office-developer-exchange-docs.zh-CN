@@ -1,5 +1,5 @@
 ---
-title: SharePointUrl (MasterMailboxType)
+title: SharePointUrl （MasterMailboxType）
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,23 +7,23 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2c0e86ed-8156-48de-9b22-c627db273e1e
-description: 仅供内部使用旨在 SharePointUrl (MasterMailboxType) 元素。
-ms.openlocfilehash: 6f919b21bf43a94b318da5b6a56d5df5db5338c2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: SharePointUrl （MasterMailboxType）元素仅供内部使用。
+ms.openlocfilehash: a4c9f83c8717f9f96293faf3fbc944bad693fe7a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827479"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458612"
 ---
-# <a name="sharepointurl-mastermailboxtype"></a>SharePointUrl (MasterMailboxType)
+# <a name="sharepointurl-mastermailboxtype"></a>SharePointUrl （MasterMailboxType）
 
-仅供内部使用旨在**SharePointUrl (MasterMailboxType)** 元素。 
+**SharePointUrl （MasterMailboxType）** 元素仅供内部使用。 
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19827479"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   

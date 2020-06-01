@@ -10,17 +10,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 0ba4225a-784e-4e6e-bd20-be45f0f7597c
-description: OofStatus 元素包含一个值，该 indicaties 发出 GetUMProperties 操作 （UM web 服务） 请求的用户的统一消息外出状态。
-ms.openlocfilehash: 1fe358a8bfea3c509220d6705a238ae832de37e8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: OofStatus 元素包含一个值，该值为发出 GetUMProperties 操作（UM web 服务）请求的用户 indicaties 统一消息 "外出" 状态。
+ms.openlocfilehash: 80b1d5aa508579eec14637ed10c322b5fbb670da
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826650"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460573"
 ---
 # <a name="oofstatus-um-web-service"></a>OofStatus （UM web 服务）
 
-**OofStatus**元素包含一个值，该 indicaties 发出[GetUMProperties 操作 （UM web 服务）](getumproperties-operation-um-web-service.md)请求的用户的统一消息外出状态。 
+**OofStatus**元素包含一个值，该值为发出[GETUMPROPERTIES 操作（UM web 服务）](getumproperties-operation-um-web-service.md)请求的用户 indicaties 统一消息 "外出" 状态。 
   
 [GetUMPropertiesResponse （UM web 服务）](getumpropertiesresponse-um-web-service.md)
   
@@ -39,9 +39,9 @@ ms.locfileid: "19826650"
  **Boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -53,11 +53,11 @@ ms.locfileid: "19826650"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GetUMPropertiesResponse （UM web 服务）](getumpropertiesresponse-um-web-service.md) <br/> |定义[GetUMProperties 操作 （UM web 服务）](getumproperties-operation-um-web-service.md)请求的响应。  <br/> |
+|[GetUMPropertiesResponse （UM web 服务）](getumpropertiesresponse-um-web-service.md) <br/> |定义对[GetUMProperties 操作（UM web 服务）](getumproperties-operation-um-web-service.md)请求的响应。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-Boolean 的文本值为 required。 以下是可能的值：
+布尔文本值是必需的。 以下是可能的值：
   
 - True
     
@@ -67,7 +67,7 @@ Boolean 的文本值为 required。 以下是可能的值：
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |邮件  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -76,7 +76,7 @@ Boolean 的文本值为 required。 以下是可能的值：
 
 
 
-[GetUMProperties 操作 （UM web 服务）](getumproperties-operation-um-web-service.md)
+[GetUMProperties 操作（UM web 服务）](getumproperties-operation-um-web-service.md)
   
 [GetUMPropertiesResponse （UM web 服务）](getumpropertiesresponse-um-web-service.md)
 

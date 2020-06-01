@@ -1,5 +1,5 @@
 ---
-title: 项目 (ArrayOfSearchPreviewItemsType)
+title: 项目（ArrayOfSearchPreviewItemsType）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6b860638-d655-4a49-91c4-60e59b596b48
-description: 项目元素指定为 SearchMailboxes 操作的结果项可用于预览的列表。
-ms.openlocfilehash: 6c6b4410ec4f6fa3d7c49d43b515908353233794
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Items 元素指定可供预览的项的列表用作 SearchMailboxes 操作的结果。
+ms.openlocfilehash: 99d8af67370b75774def0db3b6c274c65a432aab
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826153"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459859"
 ---
-# <a name="items-arrayofsearchpreviewitemstype"></a>项目 (ArrayOfSearchPreviewItemsType)
+# <a name="items-arrayofsearchpreviewitemstype"></a>项目（ArrayOfSearchPreviewItemsType）
 
-**项目**元素指定为**SearchMailboxes**操作的结果项可用于预览的列表。 
+**Items**元素指定可供预览的项的列表用作**SearchMailboxes**操作的结果。 
   
 ```XML
 <Items>
@@ -28,9 +28,9 @@ ms.locfileid: "19826153"
  **ArrayOfSearchPreviewItemsType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   

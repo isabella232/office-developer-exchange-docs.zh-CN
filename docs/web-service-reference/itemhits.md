@@ -7,28 +7,28 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7b0d54f5-1a04-4781-9f4a-d3e933a8b235
-description: ItemHits 元素标识找到关键字的次数。
-ms.openlocfilehash: f980b957c3b07d8ff45c32bbbd8f0465f0d77b22
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ItemHits 元素标识找到一个关键字的次数。
+ms.openlocfilehash: a7e9165e2628fc1b66323b1d19a9c24131909e34
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826147"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460307"
 ---
 # <a name="itemhits"></a>ItemHits
 
-**ItemHits**元素标识找到关键字的次数。 
+**ItemHits**元素标识找到一个关键字的次数。 
   
 ```XML
 <ItemHits></ItemHits>
 ```
 
- **整数**
+ **整除**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,7 +42,7 @@ ms.locfileid: "19826147"
   
 ## <a name="text-value"></a>文本值
 
-**ItemHits**元素的文本值是在关键字搜索中找到的关键字的次数。 
+**ItemHits**元素的文本值是关键字在关键字搜索中找到的次数。 
   
 ## <a name="remarks"></a>备注
 

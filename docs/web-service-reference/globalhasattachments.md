@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 3d075e93-14bc-479d-957f-9b7873d1db39
 description: GlobalHasAttachments元素中包含一个值，指示是否至少一个对话邮箱中的邮件带有附件。
-ms.openlocfilehash: 85443c45f611a2f4bff392ffecb26029564d7558
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e314e8e5c06ca7d7820b910c05b381765e88911f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825715"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459474"
 ---
 # <a name="globalhasattachments"></a>GlobalHasAttachments
 
@@ -38,9 +38,9 @@ ms.locfileid: "19825715"
  **Boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -66,7 +66,7 @@ ms.locfileid: "19825715"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -80,5 +80,5 @@ ms.locfileid: "19825715"
 [ApplyConversationAction 操作](applyconversationaction-operation.md)
 
 
-[Conversations in EWS](http://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
+[Conversations in EWS](https://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
 

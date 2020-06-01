@@ -1,5 +1,5 @@
 ---
-title: EndDate （重复）
+title: 结束日期（定期）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,28 +11,28 @@ api_name:
 api_type:
 - schema
 ms.assetid: 16026595-26f8-4770-8a6d-0d3e4157effd
-description: EndDate 元素均表示一个周期性任务或日历项目已 EndDateRecurrence 图案类型的结束日期。
-ms.openlocfilehash: b8570a069fc0a2d05044a9c85ab2d5c39d70ccdf
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 结束日期元素表示定期任务或具有 EndDateRecurrence 模式类型的日历项目的结束日期。
+ms.openlocfilehash: 53d9b04faf1d8f740c858080b5fcbeadf577df0d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754105"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460160"
 ---
-# <a name="enddate-recurrence"></a>EndDate （重复）
+# <a name="enddate-recurrence"></a>结束日期（定期）
 
-**EndDate**元素均表示一个周期性任务或日历项目已 EndDateRecurrence 图案类型的结束日期。 
+**结束**日期元素表示定期任务或具有 EndDateRecurrence 模式类型的日历项目的结束日期。 
   
 ```xml
 <EndDate/>
 ```
 
- **日期**
+ **date**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -44,13 +44,13 @@ ms.locfileid: "19754105"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[EndDateRecurrence](enddaterecurrence.md) <br/> |介绍的开始日期和结束日期的项目定期模式。  <br/> |
+|[EndDateRecurrence](enddaterecurrence.md) <br/> |描述项目定期模式的开始日期和结束日期。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-如果使用此元素，则需要表示日期的文本值。 值不能大于 9 月 1 日，4500 00:00:00。
+如果使用此元素，则表示日期的文本值是必需的。 值不能大于 4500 00:00:00 的9月1日。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -58,7 +58,7 @@ ms.locfileid: "19754105"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -67,5 +67,5 @@ ms.locfileid: "19754105"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

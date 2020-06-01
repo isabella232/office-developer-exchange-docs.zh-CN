@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: c9ef0fcb-4265-4e60-9986-fff0f211d00b
-description: LastOccurrence 元素均表示定期日历项目的最后一个实例。
-ms.openlocfilehash: 2c8fdfc0005e86c9dda84a48ae1d3692b5134ca8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: LastOccurrence 元素表示定期日历项目的最后一个事件。
+ms.openlocfilehash: 8771bbed166cfb6fdcf4d1dfe4fa0812013e2667
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826209"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459810"
 ---
 # <a name="lastoccurrence"></a>LastOccurrence
 
-**LastOccurrence**元素均表示定期日历项目的最后一个实例。 
+**LastOccurrence**元素表示定期日历项目的最后一个事件。 
   
 ```xml
 <LastOccurrence>
@@ -35,9 +35,9 @@ ms.locfileid: "19826209"
  **OccurrenceInfoType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -45,21 +45,21 @@ ms.locfileid: "19826209"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ItemId](itemid.md) <br/> |包含定期日历项目的最后一个匹配项的唯一标识符和更改键。  <br/> |
-|[Start](start.md) <br/> |代表定期日历项目的最后一次的开始时间。  <br/> |
-|[结束](end-ex15websvcsotherref.md) <br/> |代表结束时间的定期日历项目的最后一个实例。  <br/> |
-|[OriginalStart](originalstart.md) <br/> |代表定期日历项目的最后一个匹配项的原始开始时间。  <br/> |
+|[ItemId](itemid.md) <br/> |包含定期日历项目的最后一个事件的唯一标识符和更改键。  <br/> |
+|[开始](start.md) <br/> |表示定期日历项目的最后一个事件的开始时间。  <br/> |
+|[停止](end-ex15websvcsotherref.md) <br/> |表示定期日历项目的最后一个事件的结束时间。  <br/> |
+|[OriginalStart](originalstart.md) <br/> |表示定期日历项目的上一次发生的原始开始时间。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[日历项目](calendaritem.md) <br/> |表示 Exchange 日历项。  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |表示 Exchange 日历项。  <br/> |
 |[MeetingRequest](meetingrequest.md) <br/> |表示 Exchange 存储中的会议请求。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此元素是如果[CalendarItemType](calendaritemtype.md) RecurringMaster 值有效。 
+如果[CalendarItemType](calendaritemtype.md)具有 RecurringMaster 值，则此元素有效。 
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -67,7 +67,7 @@ ms.locfileid: "19826209"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |

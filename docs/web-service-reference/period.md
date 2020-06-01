@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 2f9cf6af-c531-4d7d-90c9-1a1db504d890
-description: 期间元素定义的一个特定的时区的阶段名称、 时间偏移和唯一标识符。
-ms.openlocfilehash: 3b5d5877e6d9baffdfe536a0feec3b25b6d2883f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Period 元素定义时区的特定阶段的名称、时间偏移和唯一标识符。
+ms.openlocfilehash: a7c36a9de01fd0484a7df75de3b5525992ef7ee7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826726"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459719"
 ---
 # <a name="period"></a>句点
 
-**段**元素定义的一个特定的时区的阶段名称、 时间偏移和唯一标识符。 
+**Period**元素定义时区的特定阶段的名称、时间偏移和唯一标识符。 
   
 ```xml
 <Period Bias="" Name="" Id=""/>
@@ -30,15 +30,15 @@ ms.locfileid: "19826726"
  **PeriodType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**说明**|
 |:-----|:-----|
-|Bias  <br/> |Xs:duration 值，该值代表时段的时间偏移从协调世界时 (UTC)。  <br/> |
-|名称  <br/> |一个字符串值，该值代表时段的描述性名称。  <br/> |
-|Id  <br/> |一个字符串值，表示为期间的标识符。  <br/> |
+|Bias  <br/> |一个 xs： duration 值，表示与时间段协调世界时（UTC）的时间偏移量。  <br/> |
+|名称  <br/> |一个 string 值，它代表句点的描述性名称。  <br/> |
+|Id  <br/> |一个 string 值，它代表句点的标识符。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -48,13 +48,13 @@ ms.locfileid: "19826726"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[时间段](periods.md) <br/> |代表一个数组定义的时间偏移量的时区的不同阶段的时间段。  <br/> |
+|[课时](periods.md) <br/> |表示定义时区的不同阶段的时间偏移量的一组句点。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -62,7 +62,7 @@ ms.locfileid: "19826726"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -71,5 +71,5 @@ ms.locfileid: "19826726"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

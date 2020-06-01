@@ -7,28 +7,28 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1344a087-88ea-472a-bebf-9b45245592fb
-description: AttendeeLocation 元素指定与会者的日历项目的位置。
-ms.openlocfilehash: 4670f1fa59fec4cf1e2b35a1380f6205677ce5af
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: AttendeeLocation 元素指定日历项目的与会者的位置。
+ms.openlocfilehash: 34a4ee8ea5f4c59cce6eebd8977bd4733f7c7134
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753284"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460342"
 ---
 # <a name="attendeelocation"></a>AttendeeLocation
 
-**AttendeeLocation**元素指定与会者的日历项目的位置。 
+**AttendeeLocation**元素指定日历项目的与会者的位置。 
   
 ```XML
 <AttendeeLocation></AttendeeLocation>
 ```
 
- **将**
+ **xs： string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -40,11 +40,11 @@ ms.locfileid: "19753284"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[LocationBasedStateDefinition](locationbasedstatedefinition.md) <br/> |基于位置时，请指定的状态。  <br/> |
+|[LocationBasedStateDefinition](locationbasedstatedefinition.md) <br/> |指定当它基于位置时的状态。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-AttendeeLocation 元素的文本值是选的与会者位置。
+AttendeeLocation 元素的文本值是 attendess 位置。
   
 ## <a name="remarks"></a>备注
 
@@ -56,12 +56,12 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |types.xsd  <br/> |
+|验证文件  <br/> |类型 .xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

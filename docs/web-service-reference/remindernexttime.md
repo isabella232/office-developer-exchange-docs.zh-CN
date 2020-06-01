@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a5c3eac6-b4e4-4155-8555-3b5df3f4da17
-description: ReminderNextTime 元素指定的日期和时间下次提醒。
-ms.openlocfilehash: 835a6a3baac7aa9fb1af298eb041d1f9aa64b06b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ReminderNextTime 元素指定下一个提醒的日期和时间。
+ms.openlocfilehash: ed382304435bf0c0e656848c11b6660c021b5d58
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827072"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458535"
 ---
 # <a name="remindernexttime"></a>ReminderNextTime
 
-**ReminderNextTime**元素指定的日期和时间下次提醒。 
+**ReminderNextTime**元素指定下一个提醒的日期和时间。 
   
 ```XML
 <ReminderNextTime></ReminderNextTime>
@@ -26,9 +26,9 @@ ms.locfileid: "19827072"
  **dateTime**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -38,11 +38,11 @@ ms.locfileid: "19827072"
   
 ### <a name="parent-elements"></a>父元素
 
-[SearchPreviewItem](searchpreviewitem.md) | [项](item.md) | [联系人](contact.md) | [消息](message-ex15websvcsotherref.md) | [DistributionList](distributionlist.md) | [日历项目](calendaritem.md) | [PostItem](postitem.md) | [任务](task.md)
+[SearchPreviewItem](searchpreviewitem.md)  | [项](item.md)  | [联系人](contact.md)  | [邮件](message-ex15websvcsotherref.md)  | [DistributionList](distributionlist.md)  | [CalendarItem](calendaritem.md)  | [PostItem](postitem.md)  | [任务](task.md)
   
 ## <a name="text-value"></a>文本值
 
-**ReminderNextTime**元素的文本值的日期和时间的下一计划间隔。 
+**ReminderNextTime**元素的文本值是下一个计划提醒的日期和时间。 
   
 ## <a name="remarks"></a>备注
 
@@ -54,7 +54,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> ||

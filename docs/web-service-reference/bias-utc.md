@@ -1,5 +1,5 @@
 ---
-title: 斜线 (UTC)
+title: 偏差（UTC）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 15790d5a-5134-457b-8f2b-d9dee1f807a2
-description: Bias 元素表示的常规的偏移量与协调世界时 (UTC)。 此值以分钟为单位。
-ms.openlocfilehash: 43613593565ca15be97bd2a98dbe5c512dbe5fc7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 偏置元素表示与协调世界时（UTC）的常规偏移量。 此值以分钟为单位。
+ms.openlocfilehash: d95284aa28e59542d1a1ee40686163138b015702
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753327"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460244"
 ---
-# <a name="bias-utc"></a>斜线 (UTC)
+# <a name="bias-utc"></a>偏差（UTC）
 
-**Bias**元素表示的常规的偏移量与协调世界时 (UTC)。 此值以分钟为单位。 
+**偏置**元素表示与协调世界时（UTC）的常规偏移量。 此值以分钟为单位。 
   
 ```xml
 <TimeZone>
@@ -33,9 +33,9 @@ ms.locfileid: "19753327"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -47,22 +47,22 @@ ms.locfileid: "19753327"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[TimeZone （可用性）](timezone-availability.md) <br/> | 标识的请求的日期时间信息的容器。 此元素包含有关标准时间和夏时制之间的转换的信息。  <br/><br/>下面是此元素的 XPath 表达式：<br/><br/>   `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone` <br/><br/>`/GetUserAvailabilityRequest/TimeZone` <br/> |
+|[时区（可用性）](timezone-availability.md) <br/> | 标识请求的日期时间信息的容器。 此元素包含有关标准时间和夏时制之间的过渡的信息。  <br/><br/>下面是此元素的 XPath 表达式：<br/><br/>   `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone` <br/><br/>`/GetUserAvailabilityRequest/TimeZone` <br/> |
    
 ## <a name="text-value"></a>文本值
 
 文本值是必需的。文本值表示一个整数。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
-架构中的第二个[Bias](bias.md)元素表示从协调世界时 (UTC) 偏移的偏移量。 
+架构中的第二个[偏向](bias.md)元素表示与协调世界时（UTC）偏移量的偏移量。 
   
 ## <a name="example"></a>示例
 
-下面的示例演示标识偏移量 8 小时从 UTC 的客户端应用程序 XML 请求的一部分。
+下面的示例显示了 XML 请求的一部分，它在客户端应用程序上标识从 UTC 到 UTC 的偏移量为8小时。
   
 ```xml
-<TimeZone xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+<TimeZone xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
   <Bias>480</Bias>
   <StandardTime>
     <Bias>0</Bias>
@@ -85,7 +85,7 @@ ms.locfileid: "19753327"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -93,6 +93,6 @@ ms.locfileid: "19753327"
 ## <a name="see-also"></a>另请参阅
 
 - [GetUserAvailability 操作](getuseravailability-operation.md)  
-- [Bias](bias.md)
-- [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [偏置](bias.md)
+- [Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

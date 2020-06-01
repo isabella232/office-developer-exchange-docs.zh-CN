@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 31211d0b-da0e-450c-8df2-159571fa3a19
-description: CompleteFindInGALSpeechRecognition 元素旨在仅供内部使用。
-ms.openlocfilehash: 2fe3cfef55c97b8bb827d5adf785f285481bdcbb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: CompleteFindInGALSpeechRecognition 元素仅供内部使用。
+ms.openlocfilehash: 11d8153f262ea115798e0f00b43bd47390b69688
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753466"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459039"
 ---
 # <a name="completefindingalspeechrecognition"></a>CompleteFindInGALSpeechRecognition
 
-**CompleteFindInGALSpeechRecognition**元素旨在仅供内部使用。 
+**CompleteFindInGALSpeechRecognition**元素仅供内部使用。 
   
 ```XML
 <CompleteFindInGALSpeechRecognition />
@@ -25,9 +25,9 @@ ms.locfileid: "19753466"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -39,7 +39,7 @@ ms.locfileid: "19753466"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 中引入了此元素。
   
@@ -49,9 +49,9 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
-|验证文件  <br/> |messages.xsd  <br/> |
+|验证文件  <br/> |消息 .xsd  <br/> |
 |可以为空  <br/> ||
    
 

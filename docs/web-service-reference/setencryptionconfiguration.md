@@ -7,23 +7,23 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8beccc00-3515-4ecd-85f0-c0f2b03e8f7d
-description: SetEncryptionConfiguration 元素旨在仅供内部使用。
-ms.openlocfilehash: a52a55394a3ff05f66db28fcefde85bd9cded738
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: SetEncryptionConfiguration 元素仅供内部使用。
+ms.openlocfilehash: a4f0d2118fbefb5ed345a96b4760e5eb152a604e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827403"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459018"
 ---
 # <a name="setencryptionconfiguration"></a>SetEncryptionConfiguration
 
-**SetEncryptionConfiguration**元素旨在仅供内部使用。 
+**SetEncryptionConfiguration**元素仅供内部使用。 
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19827403"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   

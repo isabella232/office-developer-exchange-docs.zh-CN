@@ -7,28 +7,28 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 14c2c8bd-db54-4b03-9a97-190ff9e908b3
-description: 海拔元素指定邮政地址海拔的高度。
-ms.openlocfilehash: 03517dd3ffa38e435da8f4f5f3aae23f276411bf
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 海拔元素指定邮政地址的海拔高度。
+ms.openlocfilehash: 7cbb3872cd0ad53b1617f9f712633e19e6fe397d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753143"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458836"
 ---
 # <a name="altitude"></a>Altitude
 
-**海拔**元素指定邮政地址海拔的高度。 
+**海拔**元素指定邮政地址的海拔高度。 
   
 ```XML
 <Altitude></Altitude>
 ```
 
- **xs:double**
+ **xs： double**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -40,11 +40,11 @@ ms.locfileid: "19753143"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[PostalAddress (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md) <br/> |指定位置的邮政地址。  <br/> |
+|[省略（PersonaPostalAddressType）](postaladdress-personapostaladdresstype.md) <br/> |指定位置的邮政地址。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-海拔元素的文本值的邮政地址海拔高度。
+海拔高度元素的文本值是邮政地址的海拔高度。
   
 ## <a name="remarks"></a>备注
 
@@ -56,12 +56,12 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |types.xsd  <br/> |
+|验证文件  <br/> |类型 .xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

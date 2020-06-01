@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 107ec73e-083a-4956-9d37-33d4734cc157
-description: UnknownEntries 元素包含一个数组无法解析针对 Active Directory 目录服务的未知的权限条目。 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 中引入了此元素。
-ms.openlocfilehash: 306e5f226a56694bb1ff32362f77e7dff80865ad
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: UnknownEntries 元素包含无法针对 Active Directory 目录服务解析的未知权限条目数组。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
+ms.openlocfilehash: 68cb2518b895ca0a74e6b9ed649ee92b7502ab05
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838344"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459417"
 ---
 # <a name="unknownentries"></a>UnknownEntries
 
-**UnknownEntries**元素包含一个数组无法解析针对 Active Directory 目录服务的未知的权限条目。 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 中引入了此元素。 
+**UnknownEntries**元素包含无法针对 Active directory 目录服务解析的未知权限条目数组。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
   
 ```xml
 <UnknownEntries>
@@ -32,9 +32,9 @@ ms.locfileid: "19838344"
  **ArrayOfUnknownEntriesType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,18 +42,18 @@ ms.locfileid: "19838344"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[UnknownEntry](unknownentry.md) <br/> |表示无法解析的 Active directory 的单个未知的权限条目。 Exchange 2007 SP1 中引入了此元素。  <br/> |
+|[UnknownEntry](unknownentry.md) <br/> |代表单个无法对 Active Directory 进行解析的未知权限条目。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[PermissionSet (PermissionSetType)](permissionset-permissionsettype.md) <br/> |包含所有配置的文件夹的权限。 Exchange 2007 SP1 中引入了此元素。  <br/> |
-|[PermissionSet (CalendarPermissionSetType)](permissionset-calendarpermissionsettype.md) <br/> |包含所有配置的日历文件夹的权限。 Exchange 2007 SP1 中引入了此元素。  <br/> |
+|[PermissionSet (PermissionSetType)](permissionset-permissionsettype.md) <br/> |包含为文件夹配置的所有权限。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
+|[PermissionSet （CalendarPermissionSetType）](permissionset-calendarpermissionsettype.md) <br/> |包含为 "日历" 文件夹配置的所有权限。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-可以通过使用[SetFolderField](setfolderfield.md)元素 UpdateFolder 操作从文件夹中删除未知的条目。 通过使用 UpdateFolder 操作的 SetFolderField 选项重置 PermissionSet 时，将删除未知的条目。 Exchange Web 服务不支持各项的删除。 
+您可以通过将 UpdateFolder 操作与[SetFolderField](setfolderfield.md)元素一起使用，从文件夹中删除未知条目。 使用 UpdateFolder 操作的 SetFolderField 选项重置 PermissionSet 时，将删除未知的条目。 Exchange Web 服务不支持删除单个条目。 
   
 描述此元素的架构位于正在运行 Microsoft Exchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -61,7 +61,7 @@ ms.locfileid: "19838344"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -70,11 +70,11 @@ ms.locfileid: "19838344"
 
 
 
-[UpdateFolder Operation](updatefolder-operation.md)
+[UpdateFolder 操作](updatefolder-operation.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 
 
-[Setting Folder-Level Permissions](http://msdn.microsoft.com/library/c7530e86-5112-401c-b10a-9c054ae59f07%28Office.15%29.aspx)
+[Setting Folder-Level Permissions](https://msdn.microsoft.com/library/c7530e86-5112-401c-b10a-9c054ae59f07%28Office.15%29.aspx)
 

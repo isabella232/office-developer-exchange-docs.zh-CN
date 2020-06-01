@@ -1,5 +1,5 @@
 ---
-title: TimeZone （可用性）
+title: 时区（可用性）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: d662ffae-1f93-4c08-85a4-c69de2f7c681
-description: TimeZone 元素包含标识时区信息的元素。 此元素还包含有关标准时间和夏时制之间的转换的信息。
-ms.openlocfilehash: dc2466e8039819edc82294ff05f1746ada64cb43
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 时区元素包含标识时区信息的元素。 此元素还包含有关标准时间和夏时制之间转换的信息。
+ms.openlocfilehash: ba4b0a4805dba54450e01e89c5e9ef746404b716
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838253"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460272"
 ---
-# <a name="timezone-availability"></a>TimeZone （可用性）
+# <a name="timezone-availability"></a>时区（可用性）
 
-**TimeZone**元素包含标识时区信息的元素。 此元素还包含有关标准时间和夏时制之间的转换的信息。 
+**时区**元素包含标识时区信息的元素。 此元素还包含有关标准时间和夏时制之间转换的信息。 
   
 ```xml
 <TimeZone>
@@ -34,9 +34,9 @@ ms.locfileid: "19838253"
  **SerializableTimeZone**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -44,7 +44,7 @@ ms.locfileid: "19838253"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[斜线 (UTC)](bias-utc.md) <br/> |从协调世界时 (UTC) 表示的常规的偏移量。 此值以分钟为单位。  <br/> |
+|[偏差（UTC）](bias-utc.md) <br/> |表示与协调世界时（UTC）的常规偏移量。 此值以分钟为单位。  <br/> |
 |[StandardTime](standardtime.md) <br/> |表示与相对于 UTC（由 [偏置 (UTC)](bias-utc.md) 元素表示）的时间的时差。此元素还包含有关从观测到夏令时的区域中的夏令时转换为标准时间的信息。  <br/> |
 |[DaylightTime](daylighttime.md) <br/> |表示与相对于 UTC（由观测到夏令时的区域的 [偏置 (UTC)](bias-utc.md) 元素表示）的时间的时差。此元素还包含有关何时从标准时间转换到夏令时的信息。  <br/> |
    
@@ -52,19 +52,19 @@ ms.locfileid: "19838253"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GetUserAvailabilityRequest](getuseravailabilityrequest.md) <br/> |包含用于获取用户的可用性信息的参数。 这是根元素。  <br/> GetUserAvailabilityRequest 消息中的**TimeZone**元素表示请求中的日期时间值指定的时区。 可用性服务返回的 DateTime 值也是在此所在的时区。  <br/> 以下是此元素的 XPath:  <br/>  `/GetUserAvailabilityRequest` <br/> |
-|[WorkingHours](workinghours-ex15websvcsotherref.md) <br/> |表示所在的时区设置和请求的邮箱用户的工作时间。  <br/> GetUserAvailabilityResponse 消息中的**TimeZone**元素表示请求的邮箱用户所在的时区设置。  <br/> 以下是此元素的 XPath:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours` <br/> |
+|[GetUserAvailabilityRequest](getuseravailabilityrequest.md) <br/> |包含用于获取用户可用性信息的参数。 这是一个根元素。  <br/> GetUserAvailabilityRequest 消息中的**时区**元素表示在其中指定请求中的 DateTime 值的时区。 可用性服务返回的日期/时间值也在此时区中。  <br/> 以下是此元素的 XPath：  <br/>  `/GetUserAvailabilityRequest` <br/> |
+|[WorkingHours](workinghours-ex15websvcsotherref.md) <br/> |表示所请求的邮箱用户的时区设置和工作时间。  <br/> GetUserAvailabilityResponse 消息中的**时区**元素表示请求的邮箱用户的时区设置。  <br/> 以下是此元素的 XPath：  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours` <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此元素是[GetUserAvailabilityRequest](getuseravailabilityrequest.md)元素中必需的。 此元素发生最一次或至少零次时的父元素是[WorkingHours](workinghours-ex15websvcsotherref.md)元素。 
+在[GetUserAvailabilityRequest](getuseravailabilityrequest.md)元素中，此元素是必需的。 当 parent 元素是[WorkingHours](workinghours-ex15websvcsotherref.md)元素时，此元素最多执行一次或至少出现零次。 
   
 ## <a name="example"></a>示例
 
-下面的示例演示标识与客户端应用程序中的 8 小时的 UTC 偏移量 XML 请求的一部分。
+下面的示例显示了 XML 请求的一部分，它标识客户端应用程序中的 UTC 时间为8小时的偏移量。
   
 ```XML
-<TimeZone xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+<TimeZone xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
   <Bias>480</Bias>
   <StandardTime>
     <Bias>0</Bias>
@@ -87,7 +87,7 @@ ms.locfileid: "19838253"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -98,8 +98,8 @@ ms.locfileid: "19838253"
 
 [GetUserAvailability 操作](getuseravailability-operation.md)
   
-[Bias](bias.md)
+[偏置](bias.md)
 
 
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

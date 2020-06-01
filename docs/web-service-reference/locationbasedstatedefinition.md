@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2bb2cb78-e168-414e-8d07-414ab5c69185
-description: LocationBasedStateDefinition 元素旨在仅供内部使用。
-ms.openlocfilehash: 378d57418156e09ab0ce0bb33d4dc8e6cfdb53b1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: LocationBasedStateDefinition 元素仅供内部使用。
+ms.openlocfilehash: dd1e97b2071eeb82f7c9032b83ea52f83ee4a1ec
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826240"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460300"
 ---
 # <a name="locationbasedstatedefinition"></a>LocationBasedStateDefinition
 
-**LocationBasedStateDefinition**元素旨在仅供内部使用。 
+**LocationBasedStateDefinition**元素仅供内部使用。 
   
 ```XML
 <LocationBasedStateDefinition />
@@ -25,9 +25,9 @@ ms.locfileid: "19826240"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -39,7 +39,7 @@ ms.locfileid: "19826240"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 中引入了此元素。
   

@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: e86f98b6-83b5-4530-80eb-dc5df42e2c62
-description: SizeRequested 元素包含 GetUserPhoto 操作的请求的照片大小。
-ms.openlocfilehash: 43e422512b1e8f06e410e533e9ae1dc49283d5f6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: SizeRequested 元素包含 GetUserPhoto 操作请求的照片大小。
+ms.openlocfilehash: 2e79bbb158fa9a22cbd3ec08fcd6e60429e113b4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827504"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460454"
 ---
 # <a name="sizerequested"></a>SizeRequested
 
-**SizeRequested**元素包含**GetUserPhoto**操作的请求的照片大小。 
+**SizeRequested**元素包含**GetUserPhoto**操作请求的照片大小。 
   
 ```XML
 <SizeRequested>HR48x48 | HR64x64 | HR96X96 | HR120X120 | HR240X240 | HR360X360 | HR432X432 | HR504X504 | HR648X648</SizeRequested>
@@ -26,9 +26,9 @@ ms.locfileid: "19827504"
  **UserPhotoSizeType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,19 +42,19 @@ ms.locfileid: "19827504"
   
 ## <a name="text-value"></a>文本值
 
-**SizeRequested**元素的文本值是从服务器返回的数字图像请求的照片大小。 下表标识**SizeRequested**元素的文本值。 
+**SizeRequested**元素的文本值是从服务器返回的数字图像的请求照片大小。 下表标识了**SizeRequested**元素的文本值。 
   
 |**值**|**含义**|
 |:-----|:-----|
-|HR48x48  <br/> |48 像素高并 48 像素宽，图像。  <br/> |
-|HR64x64  <br/> |64 像素高并 64 像素宽，图像。  <br/> |
-|HR96x96  <br/> |96 像素高并 96 像素宽，图像。  <br/> |
-|HR120x120  <br/> |120 像素高并 120 像素宽，图像。  <br/> |
-|HR240x240  <br/> |240 像素高并 240 像素宽，图像。  <br/> |
-|HR360x360  <br/> |360 像素高并 360 像素宽，图像。  <br/> |
-|HR432x432  <br/> |432 像素高并 432 像素宽，图像。  <br/> |
-|HR504x504  <br/> |504 像素高并 504 像素宽，图像。  <br/> |
-|HR648x648  <br/> |648 像素 x 高并 648 像素宽，图像。  <br/> |
+|HR48x48  <br/> |图像的高度为48像素，宽度为48像素。  <br/> |
+|HR64x64  <br/> |图像的高度为64像素，宽度为64像素。  <br/> |
+|HR96x96  <br/> |图像的高度为96像素，宽度为96像素。  <br/> |
+|HR120x120  <br/> |图像的高度为120像素，宽度为120像素。  <br/> |
+|HR240x240  <br/> |图像的高度为240像素，宽度为240像素。  <br/> |
+|HR360x360  <br/> |图像的高度为360像素，宽度为360像素。  <br/> |
+|HR432x432  <br/> |图像的高度为432像素，宽度为432像素。  <br/> |
+|HR504x504  <br/> |图像的高度为504像素，宽度为504像素。  <br/> |
+|HR648x648  <br/> |图像的高度为648像素，宽度为648像素。  <br/> |
    
 ## <a name="remarks"></a>备注
 
@@ -66,7 +66,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> ||

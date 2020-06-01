@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8f7276aa-e354-40e4-b9cb-950fad46ac93
-description: UniqueBodyType 元素指定唯一的正文是否以文本或 HTML 格式返回。
-ms.openlocfilehash: c6eb4ec4e39a0c5355775a635db4c63efc666820
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: UniqueBodyType 元素指定是否以文本或 HTML 格式返回唯一正文。
+ms.openlocfilehash: 7e6c4631ef589555ce4d5da747c200ffe956f3a1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838332"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459438"
 ---
 # <a name="uniquebodytype"></a>UniqueBodyType
 
-**UniqueBodyType**元素指定唯一的正文是否以文本或 HTML 格式返回。 
+**UniqueBodyType**元素指定是否以文本或 HTML 格式返回唯一正文。 
   
 ```XML
 <UniqueBodyType> Best | HTML | Text </UniqueBodyType>
@@ -26,9 +26,9 @@ ms.locfileid: "19838332"
  **BodyTypeResponseType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,17 +42,17 @@ ms.locfileid: "19838332"
   
 ## <a name="text-value"></a>文本值
 
-**UniqueBodyType**元素的文本值指示返回的唯一的正文格式。 下表列出了此元素的可能值。 
+**UniqueBodyType**元素的文本值指示中返回的唯一正文的格式。 下表列出了此元素的可能值。 
   
 ****
 
 |**值**|**说明**|
 |:-----|:-----|
-|最佳  <br/> |响应将返回正文文本的丰富的可用内容。 这很有用，如果不知道的内容是否是文本或 HTML。  <br/> 返回的正文将文本，如果存储的正文采用纯文本。 否则，如果存储的正文采用 HTML 或 RTF 格式响应将返回 HTML。  <br/> 这是默认值。  <br/> |
-|HTML  <br/> |响应将以 HTML 形式返回唯一的正文。  <br/> |
-|Text  <br/> |响应将以纯文本形式返回唯一的正文。  <br/> |
+|最好  <br/> |响应将返回正文文本的最丰富的可用内容。 如果不知道内容是文本还是 HTML，这将非常有用。  <br/> 如果存储的正文为纯文本，则返回的正文将为文本。 否则，如果存储的正文是 HTML 格式或 RTF 格式，则响应将返回 HTML。  <br/> 此值为默认值。  <br/> |
+|HTML  <br/> |响应将以 HTML 形式返回唯一正文。  <br/> |
+|文本  <br/> |响应将以纯文本形式返回唯一正文。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   
@@ -62,7 +62,7 @@ Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
@@ -74,5 +74,5 @@ Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
 [ItemShape](itemshape.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

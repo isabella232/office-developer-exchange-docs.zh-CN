@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 6aea4cb7-ca14-4949-8e7f-660b565f6556
-description: IsReminderSet 元素指示是否已设置日历事件提醒。
-ms.openlocfilehash: 589178072baca652bff2779e64a212fb90478247
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: IsReminderSet 元素指示是否已为日历事件设置提醒。
+ms.openlocfilehash: e2f5fa072b549bdaf636a15313e7dfe72172f768
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826100"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460335"
 ---
 # <a name="isreminderset"></a>IsReminderSet
 
-**IsReminderSet**元素指示是否已设置日历事件提醒。 
+**IsReminderSet**元素指示是否已为日历事件设置提醒。 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -46,9 +46,9 @@ ms.locfileid: "19826100"
  **boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -60,13 +60,13 @@ ms.locfileid: "19826100"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[CalendarEventDetails](calendareventdetails.md) <br/> |提供有关日历事件的其他信息。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]/CalendarEventDetails` <br/> |
+|[CalendarEventDetails](calendareventdetails.md) <br/> |提供有关日历事件的其他信息。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]/CalendarEventDetails` <br/> |
    
 ## <a name="text-value"></a>文本值
 
-此元素响应中返回时所需的文本值。 如果[CalendarEventDetails](calendareventdetails.md)元素使用除非[IsPrivate](isprivate.md)元素设置为**true**，则需要此元素。
+如果在响应中返回此元素，则需要一个 text 值。 如果使用[CalendarEventDetails](calendareventdetails.md)元素，则此元素是必需的，除非[IsPrivate](isprivate.md)元素设置为**true**。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -74,7 +74,7 @@ ms.locfileid: "19826100"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -88,5 +88,5 @@ ms.locfileid: "19826100"
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

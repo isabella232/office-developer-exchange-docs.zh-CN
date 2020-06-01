@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 51992f35-54be-4424-8d3f-c3a3a1d05a4d
-description: TelexNumbers 元素指定的电报数字数组和为相关联的角色其源归属的标识符。
-ms.openlocfilehash: 8aaaf0db542db36b06631690937b794374036a28
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: TelexNumbers 元素指定电报号码的数组以及其关联角色源归属的标识符。
+ms.openlocfilehash: fc236fe9b1f0229dd2de687e9f2967eefcbf928b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838196"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459950"
 ---
 # <a name="telexnumbers"></a>TelexNumbers
 
-**TelexNumbers**元素指定的电报数字数组和为相关联的角色其源归属的标识符。 
+**TelexNumbers**元素指定电报号码的数组以及其关联角色源归属的标识符。 
   
 ```XML
 <TelexNumbers>
@@ -28,9 +28,9 @@ ms.locfileid: "19838196"
  **ArrayOfPhoneNumberAttributedValuesType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -52,7 +52,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |false  <br/> |

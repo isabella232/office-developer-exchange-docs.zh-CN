@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: e37963f4-af9e-4481-b389-16175711e66d
 description: DeleteFolder元素定义删除从 Exchange 存储中的邮箱文件夹的请求。
-ms.openlocfilehash: d31f98f26f537104e40b303de4199f45c65f49c7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: eb705a47b78b19c79b2e87561ba3696ed40e09cd
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753804"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458766"
 ---
 # <a name="deletefolder"></a>DeleteFolder
 
@@ -32,9 +32,9 @@ ms.locfileid: "19753804"
  **DeleteFolderType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**说明**|
 |:-----|:-----|
@@ -50,7 +50,7 @@ ms.locfileid: "19753804"
    
 ### <a name="child-elements"></a>子元素
 
-|**元素**|**说明**|
+|**元素**|**描述**|
 |:-----|:-----|
 |[FolderIds](folderids.md) <br/> |包含用于标识要删除的文件夹的文件夹标识符的数组。  <br/> |
    
@@ -62,7 +62,7 @@ ms.locfileid: "19753804"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **MoveToDeletedItems** 和 **HardDelete** 选项是事务性的这意味着，Web 服务调用完成时，数据库将邮件移至已删除邮件文件夹或从Exchange数据库中永久删除该项目。这种行为是相同的MicrosoftExchange Server 2007和Exchange Server 2010。 
   
@@ -72,7 +72,7 @@ ms.locfileid: "19753804"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |

@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7121ba52-726f-48c1-9b32-8c8a4468d9f0
-description: RemoveImGroup 元素表示要删除的即时消息的组的请求。
-ms.openlocfilehash: d60460c05ed0bbbc4864c4f806d90e7a887fb254
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: RemoveImGroup 元素表示一个删除即时消息组的请求。
+ms.openlocfilehash: 08b13d5474b2da52f8a56a2c2ee4434462a17dbd
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827098"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460013"
 ---
 # <a name="removeimgroup"></a>RemoveImGroup
 
-**RemoveImGroup**元素表示要删除的即时消息的组的请求。 
+**RemoveImGroup**元素表示一个删除即时消息组的请求。 
   
 ```XML
 <RemoveImGroup>
@@ -28,9 +28,9 @@ ms.locfileid: "19827098"
  **RemoveImGroupType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,7 +42,7 @@ ms.locfileid: "19827098"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 中引入了此元素。
   
@@ -52,7 +52,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> ||

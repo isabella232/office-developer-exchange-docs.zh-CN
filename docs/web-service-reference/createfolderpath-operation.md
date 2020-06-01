@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5a10aa5e-3f25-4ec3-a0b9-284c30918a1f
-description: 查找信息 CreateFolderPath EWS 操作。
-ms.openlocfilehash: 22561e5086c144e25d7e04b68ec6674b87c4718d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 查找有关 CreateFolderPath EWS 操作的信息。
+ms.openlocfilehash: a8d42cbef854d900c5fb6b72c730dd1e2b903aec
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753645"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458899"
 ---
 # <a name="createfolderpath-operation"></a>CreateFolderPath 操作
 
 查找有关**CreateFolderPath** EWS 操作的信息。 
   
-**CreateFolderPath**操作创建文件夹层次结构。 
+**CreateFolderPath**操作将创建一个文件夹层次结构。 
   
 Exchange Server 2013 中引入了此操作。
   
 ## <a name="using-the-createfolderpath-operation"></a>使用 CreateFolderPath 操作
 
-**CreateFolderPath**操作请求所需的文件夹和父文件夹标识符数组，并创建文件夹层次结构根据数组中的文件夹的顺序。 
+**CreateFolderPath**操作请求采用文件夹和父文件夹标识符的数组，并根据数组中文件夹的顺序创建文件夹层次结构。 
   
 ### <a name="createfolderpath-operation-soap-headers"></a>CreateFolderPath 操作 SOAP 标头
 
@@ -33,24 +33,24 @@ Exchange Server 2013 中引入了此操作。
   
 |**标头名称**|**元素**|**说明**|
 |:-----|:-----|:-----|
-|**模拟** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |标识模拟客户端应用程序的用户。 适用于请求此标头。  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |定义 RFC 3066 中，"标记的标识的语言"，以用于访问邮箱标识与的区域性。 适用于请求此标头。  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。 适用于请求此标头。  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应该请求的服务器的版本。 适用于响应此标头。  <br/> |
-|**TimeZoneContext** <br/> |[TimeZoneContext](timezonecontext.md) <br/> |标识**DateTime**属性的时区范围。 适用于请求此标头。  <br/> |
+|**模拟** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |标识客户端应用程序模拟的用户。 此标头适用于请求。  <br/> |
+|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |确定用于访问邮箱的区域性（如 RFC 3066 中定义的用于标识语言的标记）。 此标头适用于请求。  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。 此标头适用于请求。  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器版本。 此标头适用于响应。  <br/> |
+|**TimeZoneContext** <br/> |[TimeZoneContext](timezonecontext.md) <br/> |标识**DateTime**属性的时区范围。 此标头适用于请求。  <br/> |
    
-## <a name="createfolderpath-operation-request-example-create-a-folder-hierarchy"></a>CreateFolderPath 操作请求示例： 创建文件夹层次结构
+## <a name="createfolderpath-operation-request-example-create-a-folder-hierarchy"></a>CreateFolderPath 操作请求示例：创建文件夹层次结构
 
-**CreateFolderPath**操作请求的下面的示例演示如何创建三个文件夹的文件夹层次结构深度在默认收件箱文件夹中。 
+下面的**CreateFolderPath**操作请求示例演示如何在默认的 "收件箱" 文件夹中创建三个文件夹的文件夹层次结构。 
   
 > [!NOTE]
-> 所有项目标识符，本文中的更改项具有已截短要保留可读性。 
+> 本文中的所有项目标识符和更改密钥都已缩短，以保持可读性。 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
       <t:MailboxCulture>en-US</t:MailboxCulture>
@@ -84,7 +84,7 @@ Exchange Server 2013 中引入了此操作。
   
 - [CreateFolderPath](createfolderpath.md)
     
-- [ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md)
+- [ParentFolderId （TargetFolderIdType）](parentfolderid-targetfolderidtype.md)
     
 - [DistinguishedFolderId](distinguishedfolderid.md)
     
@@ -94,9 +94,9 @@ Exchange Server 2013 中引入了此操作。
     
 - [显示名称 (字符串)](displayname-string.md)
     
-## <a name="successful-createfolderpath-operation-response"></a>成功 CreateFolderPath 操作响应
+## <a name="successful-createfolderpath-operation-response"></a>成功的 CreateFolderPath 操作响应
 
-下面的示例演示成功响应**CreateFolderPath**操作请求创建一个文件夹层次结构三文件夹深度在默认收件箱文件夹中。 
+下面的示例演示如何成功地响应在默认 "收件箱" 文件夹中创建文件夹层次结构深度为3个文件夹的**CreateFolderPath**操作请求。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -107,14 +107,14 @@ Exchange Server 2013 中引入了此操作。
                            MajorBuildNumber="526" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-      <m:CreateFolderPathResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                                  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+      <m:CreateFolderPathResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                                  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
          <m:ResponseMessages>
             <m:CreateFolderPathResponseMessage ResponseClass="Success">
                <m:ResponseCode>NoError</m:ResponseCode>
@@ -159,7 +159,7 @@ Exchange Server 2013 中引入了此操作。
 
 ```
 
-响应 SOAP 正文中包含以下元素：
+响应 SOAP 正文包含以下元素：
   
 - [CreateFolderPathResponse](createfolderpathresponse.md)
     
@@ -173,7 +173,7 @@ Exchange Server 2013 中引入了此操作。
     
 - [Folder](folder.md)
     
-- [文件夹 Id](folderid.md)
+- [FolderId](folderid.md)
     
 - [显示名称 (字符串)](displayname-string.md)
     
@@ -185,7 +185,7 @@ Exchange Server 2013 中引入了此操作。
     
 ## <a name="createfolderpath-operation-error-response"></a>CreateFolderPath 操作错误响应
 
-下面的示例演示对**CreateFolderPath**操作请求错误响应。 这是对请求创建两个文件夹，其中第一个不具有显示名称属性设置的响应。 没有显示 name 属性，无法创建层次结构中的第一个文件夹且无法创建第二个文件夹，因为未创建层次结构中的父文件夹。 
+下面的示例演示对**CreateFolderPath**操作请求的错误响应。 这是对创建两个文件夹的请求的响应，其中第一个文件夹没有显示名称属性集。 层次结构中的第一个文件夹不能在没有显示名称属性的情况下创建，并且无法创建第二个文件夹，因为层次结构中的父文件夹未创建。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -195,15 +195,15 @@ Exchange Server 2013 中引入了此操作。
                            MajorBuildNumber="556" 
                            MinorBuildNumber="14" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-      <m:CreateFolderPathResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                                  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+      <m:CreateFolderPathResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                                  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
          <m:ResponseMessages>
             <m:CreateFolderPathResponseMessage ResponseClass="Error">
                <m:MessageText>The folder save operation failed due to invalid property values.</m:MessageText>
@@ -247,7 +247,7 @@ Exchange Server 2013 中引入了此操作。
     
 - [Folders](folders-ex15websvcsotherref.md)
     
-通用到 EWS 且特定于此操作的其他错误代码，请参阅[ResponseCode](responsecode.md)。
+有关对 EWS 通用的其他错误代码以及特定于此操作的错误代码，请参阅[ResponseCode](responsecode.md)。
   
 ## <a name="see-also"></a>另请参阅
 

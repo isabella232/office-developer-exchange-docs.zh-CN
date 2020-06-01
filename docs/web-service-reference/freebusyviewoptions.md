@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: c07f3ddb-874b-4d30-a60e-7e5c7793bb6f
-description: FreeBusyViewOptions 元素指定的响应中返回的忙/闲信息的类型。
-ms.openlocfilehash: 703fc6a3625d24cf874a785600e13ee4505b506f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: FreeBusyViewOptions 元素指定响应中返回的忙/闲信息的类型。
+ms.openlocfilehash: b67d3f461e0edaa82f074f75b0c1c54efc8af4d0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754431"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459572"
 ---
 # <a name="freebusyviewoptions"></a>FreeBusyViewOptions
 
-**FreeBusyViewOptions**元素指定的响应中返回的忙/闲信息的类型。 
+**FreeBusyViewOptions**元素指定响应中返回的忙/闲信息的类型。 
   
 [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
@@ -39,9 +39,9 @@ ms.locfileid: "19754431"
  **FreeBusyViewOptionsType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -49,34 +49,34 @@ ms.locfileid: "19754431"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[TimeWindow](timewindow.md) <br/> |标识查询的用户的可用性信息的时间跨度。  <br/> |
-|[MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md) <br/> |代表**FreeBusyMerged**视图中的两个连续插槽之间的时间差异。  <br/> |
-|[RequestedView](requestedview.md) <br/> |定义的客户端请求的日历信息的类型。  <br/> |
+|[TimeWindow](timewindow.md) <br/> |标识查询的用户可用性信息的时间跨度。  <br/> |
+|[MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md) <br/> |表示**FreeBusyMerged**视图中两个连续的插槽之间的时间差。  <br/> |
+|[RequestedView](requestedview.md) <br/> |定义客户端请求的日历信息的类型。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GetUserAvailabilityRequest](getuseravailabilityrequest.md) <br/> |包含用于获取用户的可用性信息的参数。 这是根元素。  <br/> 以下是此元素的 XPath:  <br/>  `/GetUserAvailabilityRequest` <br/> |
+|[GetUserAvailabilityRequest](getuseravailabilityrequest.md) <br/> |包含用于获取用户可用性信息的参数。 这是一个根元素。  <br/> 以下是此元素的 XPath：  <br/>  `/GetUserAvailabilityRequest` <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此元素不需要，并且如果使用可以只发生一次。 如果[SuggestionsViewOptions](suggestionsviewoptions.md)元素的值不为 null，则此值可以是 null。 
+此元素不是必需的，并且仅在使用时才会出现一次。 如果[SuggestionsViewOptions](suggestionsviewoptions.md)元素的值不为 null，则此值可以为 null。 
   
 > [!NOTE]
-> 描述此元素的架构位于运行 Microsoft® Exchange Server 2007 的安装了客户端访问服务器角色的计算机的 /epi/ 目录中。 
+> 描述此元素的架构位于运行 Microsoft® Exchange Server 2007 且安装了客户端访问服务器角色的计算机的/epi/目录中。 
   
 ## <a name="example"></a>示例
 
-下面的示例获取会议和 60 分钟的间隔中的忙/闲流的列表。
+下面的示例获取一个列表，其中列出了会议和忙/闲流的时间间隔（以60分钟为单位）。
   
 ```
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <GetUserAvailabilityRequest xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-      <TimeZone xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+    <GetUserAvailabilityRequest xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+      <TimeZone xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <Bias>480</Bias>
         <StandardTime>
           <Bias>0</Bias>
@@ -94,7 +94,7 @@ ms.locfileid: "19754431"
         </DaylightTime>
       </TimeZone>
       <MailboxDataArray>
-        <MailboxData xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <MailboxData xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <Email>
             <Name></Name>
             <Address>someone@ExServer.example.com</Address>
@@ -105,7 +105,7 @@ ms.locfileid: "19754431"
           <ExcludeNonWorkingHours>false</ExcludeNonWorkingHours>
         </MailboxData>
       </MailboxDataArray>
-      <FreeBusyViewOptions xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+      <FreeBusyViewOptions xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <TimeWindow>
           <StartTime>2006-02-06T00:00:00</StartTime>
           <EndTime>2006-02-25T23:59:59</EndTime>
@@ -122,7 +122,7 @@ ms.locfileid: "19754431"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -134,5 +134,5 @@ ms.locfileid: "19754431"
 [GetUserAvailability 操作](getuseravailability-operation.md)
 
 
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[获取用户可用性](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

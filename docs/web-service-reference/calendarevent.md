@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 91958c01-1fcb-4ac0-8601-5e5b434c988a
-description: CalendarEvent 元素均表示唯一日历项匹配项。
-ms.openlocfilehash: f7fff7ba511ca12813dd4c2d694e89c97589ba31
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: CalendarEvent 元素表示唯一的日历项目事件。
+ms.openlocfilehash: 8bf37c907ed726e33dd2b1eff9add5d6235704da
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753405"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459074"
 ---
 # <a name="calendarevent"></a>CalendarEvent
 
-**CalendarEvent**元素均表示唯一日历项匹配项。 
+**CalendarEvent**元素表示唯一的日历项目事件。 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -47,9 +47,9 @@ ms.locfileid: "19753405"
  **CalendarEvent**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -57,20 +57,20 @@ ms.locfileid: "19753405"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[StartTime](starttime.md) <br/> |表示日历事件的开始。 这是一个必需的子元素。  <br/> |
-|[结束时间](endtime.md) <br/> |代表日历事件的末尾。 这是一个必需的子元素。  <br/> |
-|[BusyType](busytype.md) <br/> |表示为日历事件设置忙/闲状态。 这是一个必需的子元素。  <br/> |
-|[CalendarEventDetails](calendareventdetails.md) <br/> |提供日历事件的其他信息。 这是一个可选子元素。  <br/> |
+|[StartTime](starttime.md) <br/> |表示日历事件的开始。 这是必需的子元素。  <br/> |
+|[EndTime](endtime.md) <br/> |表示日历事件的结束。 这是必需的子元素。  <br/> |
+|[BusyType](busytype.md) <br/> |代表日历事件的忙/闲状态设置。 这是必需的子元素。  <br/> |
+|[CalendarEventDetails](calendareventdetails.md) <br/> |提供日历事件的其他信息。 这是一个可选的子元素。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[CalendarEventArray](calendareventarray.md) <br/> |包含一组唯一的日历项目事件表示所请求的用户的可用性。  <br/> 以下是此元素的 XPath 2.0 表达式：  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray` <br/> |
+|[CalendarEventArray](calendareventarray.md) <br/> |包含一组代表所请求用户的可用性的唯一的日历项目匹配项。  <br/> 以下是此元素的 XPath 2.0 表达式：  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray` <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-客户端的时区中返回的约会和会议的时间。 中发生的顺序排列的所有子元素。 提供此元素的详细程度取决于所请求者授予的权限。
+约会和会议时间按客户端的时区返回。 所有子元素都按它们出现的顺序列出。 此元素提供的详细信息级别取决于授予请求者的权限。
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -78,7 +78,7 @@ ms.locfileid: "19753405"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -92,5 +92,5 @@ ms.locfileid: "19753405"
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

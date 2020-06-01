@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 7906711b-80a1-42ae-8b33-26eeac036a5a
-description: GetUserAvailabilityRequest 元素包含用于获取用户的可用性信息的参数。 这是根元素。
-ms.openlocfilehash: 5440f739b09bfbe27ad97cba99c08756686594f7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: GetUserAvailabilityRequest 元素包含用于获取用户可用性信息的参数。 这是一个根元素。
+ms.openlocfilehash: 6c2e2c5452b6379171e49cf6aea2d437152ecb9b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825683"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459116"
 ---
 # <a name="getuseravailabilityrequest"></a>GetUserAvailabilityRequest
 
-**GetUserAvailabilityRequest**元素包含用于获取用户的可用性信息的参数。 这是根元素。 
+**GetUserAvailabilityRequest**元素包含用于获取用户可用性信息的参数。 这是一个根元素。 
   
 ```xml
 <GetUserAvailabilityRequest>
@@ -35,9 +35,9 @@ ms.locfileid: "19825683"
  **GetUserAvailabilityRequestType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -45,30 +45,30 @@ ms.locfileid: "19825683"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[TimeZone （可用性）](timezone-availability.md) <br/> |包含标识时区信息的元素。 此元素还包含有关标准时间和夏时制之间的转换的信息。  <br/> |
-|[MailboxDataArray](mailboxdataarray.md) <br/> |包含要查询的可用性信息的邮箱列表。  <br/> |
+|[时区（可用性）](timezone-availability.md) <br/> |包含标识时区信息的元素。 此元素还包含有关标准时间和夏时制之间转换的信息。  <br/> |
+|[MailboxDataArray](mailboxdataarray.md) <br/> |包含要查询可用性信息的邮箱的列表。  <br/> |
 |[FreeBusyViewOptions](freebusyviewoptions.md) <br/> |指定响应中返回的忙/闲信息的类型。  <br/> |
-|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |包含选项的获取会议建议信息。  <br/> |
+|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |包含用于获取会议建议信息的选项。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
-描述此元素的架构位于运行 Microsoft Exchange Server 2007 的安装了客户端访问服务器角色的计算机的 /EWS/ 目录中。
+描述此元素的架构位于运行 Microsoft Exchange Server 2007 且安装了客户端访问服务器角色的计算机的/EWS/目录中。
   
 ## <a name="example"></a>示例
 
-下面的示例演示忙/闲信息的请求。
+以下示例显示忙/闲信息的请求。
   
 ```
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <GetUserAvailabilityRequest xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-      <TimeZone xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+    <GetUserAvailabilityRequest xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+      <TimeZone xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <Bias>480</Bias>
         <StandardTime>
           <Bias>0</Bias>
@@ -86,7 +86,7 @@ ms.locfileid: "19825683"
         </DaylightTime>
       </TimeZone>
       <MailboxDataArray>
-        <MailboxData xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <MailboxData xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <Email>
             <Name></Name>
             <Address>someone@exchangeserver.example.com</Address>
@@ -97,7 +97,7 @@ ms.locfileid: "19825683"
           <ExcludeNonWorkingHours>false</ExcludeNonWorkingHours>
         </MailboxData>
       </MailboxDataArray>
-      <FreeBusyViewOptions xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+      <FreeBusyViewOptions xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <TimeWindow>
           <StartTime>2006-02-06T00:00:00</StartTime>
           <EndTime>2006-02-30T23:59:59</EndTime>
@@ -114,7 +114,7 @@ ms.locfileid: "19825683"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -128,5 +128,5 @@ ms.locfileid: "19825683"
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

@@ -7,28 +7,28 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 90709f5b-4a1d-49d2-9236-ecd02bb3cdf8
-description: LargeAudienceCap 元素指定的最大电子邮件收件人数。
-ms.openlocfilehash: c207ad37b01e582ebe68f179186354b6d7f8e691
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: LargeAudienceCap 元素指定电子邮件的最大收件人数。
+ms.openlocfilehash: 932cac7ac1a62de7066573bbb2db3d0a338b2379
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826196"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460104"
 ---
 # <a name="largeaudiencecap"></a>LargeAudienceCap
 
-**LargeAudienceCap**元素指定的最大电子邮件收件人数。 
+**LargeAudienceCap**元素指定电子邮件的最大收件人数。 
   
 ```XML
 <LargeAudienceCap></LargeAudienceCap>
 ```
 
- **整数**
+ **整除**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,7 +42,7 @@ ms.locfileid: "19826196"
   
 ## <a name="text-value"></a>文本值
 
-**LargeAudienceCap**元素的文本值的最大可以发送电子邮件中的收件人数。 
+**LargeAudienceCap**元素的文本值是可在电子邮件中进行寻址的最大收件人数。 
   
 ## <a name="remarks"></a>备注
 

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: dcbb9d85-d90c-4363-b4c9-d081ad03f407
 description: Offset 元素描述与 BaseOffset 的时差。BaseOffset 元素和 Offset 元素一起标识时间是标准时间还是夏令时。
-ms.openlocfilehash: d85fef0d67633733f6aa1943d70413ea70a528d6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
-ms.translationtype: HT
+ms.openlocfilehash: 74ad87026c2cb89f3b0c35218c91f81380029963
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826642"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459754"
 ---
 # <a name="offset"></a>Offset
 
@@ -59,7 +59,7 @@ ms.locfileid: "19826642"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -68,5 +68,5 @@ ms.locfileid: "19826642"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

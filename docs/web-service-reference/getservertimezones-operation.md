@@ -11,33 +11,33 @@ api_name:
 api_type:
 - schema
 ms.assetid: 680173e1-e916-466b-b573-5a3182316345
-description: GetServerTimeZones 操作返回从 Exchange 服务器可用的时区定义的信息。
-ms.openlocfilehash: 9b202d510a599c9082d075228be4c479a2086753
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: GetServerTimeZones 操作将返回来自 Exchange 服务器上可用的时区定义的信息。
+ms.openlocfilehash: 1afe7fe13501af4a14f72c731703fe41e1f33049
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754686"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460538"
 ---
 # <a name="getservertimezones-operation"></a>GetServerTimeZones 操作
 
-**GetServerTimeZones**操作返回从 Exchange 服务器可用的时区定义的信息。 
+**GetServerTimeZones**操作将返回来自 Exchange 服务器上可用的时区定义的信息。 
   
 ## <a name="soap-headers"></a>SOAP 标头
 
-**GetServerTimeZones**操作可以使用列出并在下表中所述的 SOAP 标头。 
+**GetServerTimeZones**操作可以使用下表中列出和描述的 SOAP 标头。 
   
 |**Header**|**元素**|**说明**|
 |:-----|:-----|:-----|
-|MailboxCulture  <br/> |[MailboxCulture](mailboxculture.md) <br/> |标识用于访问邮箱的 RFC3066 区域性。  <br/> |
+|MailboxCulture  <br/> |[MailboxCulture](mailboxculture.md) <br/> |标识要用于访问邮箱的 RFC3066 区域性。  <br/> |
 |RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。  <br/> |
-|ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应该请求的服务器的版本。  <br/> |
+|ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器版本。  <br/> |
    
 ## <a name="getservertimezones-request-examples"></a>GetServerTimeZones 请求示例
 
-### <a name="getting-the-name-and-identifier-of-each-time-zone"></a>获取的名称和每个时区的标识符
+### <a name="getting-the-name-and-identifier-of-each-time-zone"></a>获取每个时区的名称和标识符
 
-下面的代码示例演示如何检索的名称和标识符在东部标准时间和太平洋标准时间时区。
+下面的代码示例演示如何检索东部标准时间和太平洋标准时间时区的名称和标识符。
   
 ### <a name="code"></a>代码
 
@@ -45,8 +45,8 @@ ms.locfileid: "19754686"
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010"/>
   </soap:Header>
@@ -61,13 +61,13 @@ ms.locfileid: "19754686"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>注释
+### <a name="comments"></a>备注
 
-[Id (TimeZone)](id-timezone.md)中的每个元素包含所在的时区定义所请求的标识符。 要请求的所有时区的信息，请省略请求中的[Id](ids.md)元素。 
+每个[Id （时区）](id-timezone.md)元素包含所请求的时区定义的标识符。 若要请求所有时区的信息，请省略请求中的[id](ids.md)元素。 
   
 ### <a name="getting-the-full-definition-of-each-time-zone"></a>获取每个时区的完整定义
 
-下面的代码示例演示如何检索东部标准时间所在的时区的全职区域定义。
+下面的代码示例演示如何检索东部标准时间时区的完整时区定义。
   
 ### <a name="code"></a>代码
 
@@ -75,8 +75,8 @@ ms.locfileid: "19754686"
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010"/>
   </soap:Header>
@@ -90,15 +90,15 @@ ms.locfileid: "19754686"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>注释
+### <a name="comments"></a>备注
 
-[Id (TimeZone)](id-timezone.md)中的每个元素包含所在的时区定义所请求的标识符。 要请求的所有时区的信息，请省略请求中的[Id](ids.md)元素。 
+每个[Id （时区）](id-timezone.md)元素包含所请求的时区定义的标识符。 若要请求所有时区的信息，请省略请求中的[id](ids.md)元素。 
   
 ## <a name="getservertimezones-response-examples"></a>GetServerTimeZones 响应示例
 
-### <a name="receiving-the-time-zone-name-and-identifier-only"></a>仅接收所在的时区名称和标识符
+### <a name="receiving-the-time-zone-name-and-identifier-only"></a>仅接收时区名称和标识符
 
-**GetServerTimeZones**响应的下面的示例演示**ReturnFullTimeZoneData**属性设置为**false**的**GetServerTimeZones**请求的成功响应。 则响应中包含的名称和标识符在东部标准时间和太平洋标准时间时区。
+下面的**GetServerTimeZones**响应示例显示了对**ReturnFullTimeZoneData**属性设置为**false**的**GetServerTimeZones**请求的成功响应。 响应包含东部标准时间和太平洋标准时间时区的名称和标识符。
   
 ### <a name="code"></a>代码
 
@@ -113,11 +113,11 @@ ms.locfileid: "19754686"
                          MajorBuildNumber="639" 
                          MinorBuildNumber="11" 
                          Version="Exchange2010" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <GetServerTimeZonesResponse xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-                                xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetServerTimeZonesResponse xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+                                xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:GetServerTimeZonesResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</ResponseCode>
@@ -132,9 +132,9 @@ ms.locfileid: "19754686"
 </soap:Envelope>
 ```
 
-### <a name="receiving-a-full-time-zone-definition"></a>接收全职区域定义
+### <a name="receiving-a-full-time-zone-definition"></a>接收完整时区定义
 
-**GetServerTimeZones**响应的下面的示例演示**ReturnFullTimeZoneData**属性设置为**true**的**GetServerTimeZones**请求的成功响应。 则响应中包含东部标准时间所在的时区的全职区域定义。
+下面的**GetServerTimeZones**响应示例显示了对**ReturnFullTimeZoneData**属性设置为**true**的**GetServerTimeZones**请求的成功响应。 响应包含东部标准时间时区的完整时区定义。
   
 ### <a name="code"></a>代码
 
@@ -149,11 +149,11 @@ ms.locfileid: "19754686"
                          MajorBuildNumber="639" 
                          MinorBuildNumber="11" 
                          Version="Exchange2010" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <GetServerTimeZonesResponse xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-                                xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetServerTimeZonesResponse xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+                                xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:GetServerTimeZonesResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</ResponseCode>
@@ -230,5 +230,5 @@ ms.locfileid: "19754686"
 
 [Exchange 中的 EWS 操作](ews-operations-in-exchange.md)
   
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

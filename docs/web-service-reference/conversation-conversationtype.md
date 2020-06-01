@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 59d014cd-5886-49ea-8d36-ba5de7e675de
-description: 对话元素均表示一个对话。
-ms.openlocfilehash: e1ae055d6a77fc5a9b483341830b978e0c1a5b5a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 会话元素表示单个对话。
+ms.openlocfilehash: 9969a6cfe1f977b1c24e03771f231f4eb03d1ac6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753580"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458934"
 ---
 # <a name="conversation-conversationtype"></a>对话 (ConversationType)
 
-**对话**元素均表示一个对话。 
+**会话**元素表示单个对话。 
   
 [FindConversationResponse](findconversationresponse.md)
   
@@ -64,9 +64,9 @@ ms.locfileid: "19753580"
  **ConversationType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -75,45 +75,45 @@ ms.locfileid: "19753580"
 |**元素**|**说明**|
 |:-----|:-----|
 |[ConversationId](conversationid.md) <br/> |表示对话的标识符。  <br/> |
-|[ConversationTopic](conversationtopic.md) <br/> |代表对话主题。 此元素是只读的。  <br/> |
-|[UniqueRecipients](uniquerecipients.md) <br/> |包含特定文件夹从聚合对话的收件人列表。 此元素是只读的。  <br/> |
-|[GlobalUniqueRecipients](globaluniquerecipients.md) <br/> |包含跨邮箱聚合对话的收件人列表。 此元素是只读的。  <br/> |
-|[UniqueUnreadSenders](uniqueunreadsenders.md) <br/> |包含所有已发送邮件的当前文件夹中的此对话中当前未读的人员列表。 此元素是只读的。  <br/> |
-|[GlobalUniqueUnreadSenders](globaluniqueunreadsenders.md) <br/> |包含所有已发送邮件的邮箱中的所有文件夹中的当前未读此对话中的人员列表。  <br/> |
-|[UniqueSenders](uniquesenders.md) <br/> |包含当前文件夹中的会话项目的所有发件人的列表。 此元素是只读的。  <br/> |
-|[GlobalUniqueSenders](globaluniquesenders.md) <br/> |包含所有发件人的邮箱中的会话项目的列表。  <br/> |
-|[LastDeliveryTime](lastdeliverytime.md) <br/> |包含上次当前文件夹中的此对话中收到的邮件的传递时间。  <br/> |
-|[GlobalLastDeliveryTime](globallastdeliverytime.md) <br/> |包含在邮箱中的所有文件夹上次此对话中收到的邮件的传递时间。  <br/> |
-|[类别](categories-ex15websvcsotherref.md) <br/> |包含字符串标识应用于当前文件夹中的所有对话项目的类别的集合。  <br/> |
-|[GlobalCategories](globalcategories.md) <br/> |包含在邮箱中的所有对话项目类别列表。  <br/> |
-|[FlagStatus](flagstatus.md) <br/> |包含当前文件夹中的会话项目的聚合的标志状态。  <br/> |
-|[GlobalFlagStatus](globalflagstatus.md) <br/> |包含聚合的标志状态的邮箱中的所有对话项。  <br/> |
-|[HasAttachments](hasattachments.md) <br/> |包含一个值，指示当前文件夹中的至少一个对话项目是否包含附件。  <br/> |
-|[GlobalHasAttachments](globalhasattachments.md) <br/> |包含一个值，指示是否为邮箱中的至少一个对话项目包含附件。  <br/> |
-|[MessageCount](messagecount.md) <br/> |包含当前文件夹中的会话项目的总数。  <br/> |
-|[GlobalMessageCount](globalmessagecount.md) <br/> |包含邮箱中的对话项目的总数。  <br/> |
-|[UnreadCount](unreadcount.md) <br/> |包含文件夹中的未读的对话项目的计数。  <br/> |
-|[GlobalUnreadCount](globalunreadcount.md) <br/> |包含邮箱中的所有未读的对话项目的计数。  <br/> |
-|[Size](size.md) <br/> |包含来自当前文件夹中的所有对话项目的大小计算出的对话大小。  <br/> |
-|[GlobalSize](globalsize.md) <br/> |包含计算从邮箱中的所有对话项目的大小的对话的大小。  <br/> |
-|[ItemClasses (ArrayOfItemClassType)](itemclasses-arrayofitemclasstype.md) <br/> |包含列表项类的值，该值代表当前文件夹中的会话项目的所有项类。  <br/> |
-|[GlobalItemClasses](globalitemclasses.md) <br/> |包含列表项类的值，该值代表的邮箱中的会话项目的所有项类。  <br/> |
-|[Importance](importance.md) <br/> |包含当前文件夹中的所有对话项目的聚合的重要性。  <br/> |
-|[GlobalImportance](globalimportance.md) <br/> |包含聚合的邮箱中的所有对话项目的重要性。  <br/> |
-|[ItemIds](itemids.md) <br/> |包含当前文件夹中的所有对话项目的项标识符的集合。  <br/> |
-|[GlobalItemIds](globalitemids.md) <br/> |包含的项标识符的邮箱中的所有对话项的集合。  <br/> |
+|[ConversationTopic](conversationtopic.md) <br/> |代表 "对话" 主题。 此元素是只读的。  <br/> |
+|[UniqueRecipients](uniquerecipients.md) <br/> |包含从特定文件夹聚合的对话的收件人列表。 此元素是只读的。  <br/> |
+|[GlobalUniqueRecipients](globaluniquerecipients.md) <br/> |包含在邮箱中聚合的对话的收件人列表。 此元素是只读的。  <br/> |
+|[UniqueUnreadSenders](uniqueunreadsenders.md) <br/> |包含已发送当前文件夹中此对话中当前未读邮件的所有人员的列表。 此元素是只读的。  <br/> |
+|[GlobalUniqueUnreadSenders](globaluniqueunreadsenders.md) <br/> |包含所有已在此对话中的所有文件夹中发送当前未读邮件的人员的列表。  <br/> |
+|[UniqueSenders](uniquesenders.md) <br/> |包含当前文件夹中会话项目的所有发件人的列表。 此元素是只读的。  <br/> |
+|[GlobalUniqueSenders](globaluniquesenders.md) <br/> |包含邮箱中对话项目的所有发件人的列表。  <br/> |
+|[LastDeliveryTime](lastdeliverytime.md) <br/> |包含此对话中的当前文件夹中上次收到的邮件的传递时间。  <br/> |
+|[GlobalLastDeliveryTime](globallastdeliverytime.md) <br/> |包含此对话中的邮件在邮箱中的所有文件夹中最后一次接收的传递时间。  <br/> |
+|[类别](categories-ex15websvcsotherref.md) <br/> |包含标识应用于当前文件夹中的所有会话项的类别的字符串的集合。  <br/> |
+|[GlobalCategories](globalcategories.md) <br/> |包含邮箱中所有会话项目的类别列表。  <br/> |
+|[FlagStatus](flagstatus.md) <br/> |包含当前文件夹中的会话项目的聚合标志状态。  <br/> |
+|[GlobalFlagStatus](globalflagstatus.md) <br/> |包含邮箱中所有会话项目的聚合标志状态。  <br/> |
+|[HasAttachments](hasattachments.md) <br/> |包含一个值，该值指示当前文件夹中是否至少有一个对话项包含附件。  <br/> |
+|[GlobalHasAttachments](globalhasattachments.md) <br/> |包含一个值，该值指示邮箱中是否至少有一个对话项目具有附件。  <br/> |
+|[MessageCount](messagecount.md) <br/> |包含当前文件夹中的对话项目总数。  <br/> |
+|[GlobalMessageCount](globalmessagecount.md) <br/> |包含邮箱中的对话项目总数。  <br/> |
+|[UnreadCount](unreadcount.md) <br/> |包含文件夹中未读对话项的计数。  <br/> |
+|[GlobalUnreadCount](globalunreadcount.md) <br/> |包含邮箱中所有未读对话项的计数。  <br/> |
+|[大小](size.md) <br/> |包含从当前文件夹中所有会话项目的大小计算得出的对话大小。  <br/> |
+|[GlobalSize](globalsize.md) <br/> |包含从邮箱中所有会话项目的大小计算出的对话的大小。  <br/> |
+|[ItemClasses (ArrayOfItemClassType)](itemclasses-arrayofitemclasstype.md) <br/> |包含项类的列表，这些类表示当前文件夹中的会话项的所有项类。  <br/> |
+|[GlobalItemClasses](globalitemclasses.md) <br/> |包含表示邮箱中会话项目的所有项目类别的项目类别的列表。  <br/> |
+|[Importance](importance.md) <br/> |包含当前文件夹中所有会话项目的合计重要性。  <br/> |
+|[GlobalImportance](globalimportance.md) <br/> |包含邮箱中所有会话项目的合计重要性。  <br/> |
+|[ItemIds](itemids.md) <br/> |包含当前文件夹中所有会话项的项标识符的集合。  <br/> |
+|[GlobalItemIds](globalitemids.md) <br/> |包含邮箱中所有会话项目的项标识符的集合。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Conversations](conversations-ex15websvcsotherref.md) <br/> |包含数组**FindConversation**响应中返回的对话。  <br/> |
+|[对话](conversations-ex15websvcsotherref.md) <br/> |包含在**FindConversation**响应中返回的一组对话。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   
@@ -121,7 +121,7 @@ ms.locfileid: "19753580"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -135,5 +135,5 @@ ms.locfileid: "19753580"
 [ApplyConversationAction 操作](applyconversationaction-operation.md)
 
 
-[Conversations in EWS](http://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
+[Conversations in EWS](https://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
 

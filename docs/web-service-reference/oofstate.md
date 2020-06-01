@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 3c486a38-06da-4382-ad20-664d067d76ac
-description: OofState 元素用于获取或设置用户的外出 (OOF) 状态。
-ms.openlocfilehash: f97c050aec102b384fa4d98e6dee43befd4dc9ca
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: OofState 元素用于获取或设置用户的外出（OOF）状态。
+ms.openlocfilehash: 6aef7d989ee6978019a483f2673895e68a88a7c5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826651"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459733"
 ---
 # <a name="oofstate"></a>OofState
 
-**OofState**元素用于获取或设置用户的外出 (OOF) 状态。 
+**OofState**元素用于获取或设置用户的外出（OOF）状态。 
   
 ```xml
 <OofState>Disabled or Enabled or Scheduled</OofState>
@@ -30,9 +30,9 @@ ms.locfileid: "19826651"
  **OofState**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -44,42 +44,42 @@ ms.locfileid: "19826651"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[UserOofSettings](useroofsettings.md) <br/> |指定 OOF 设置。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/SetUserOofSettingsRequest/UserOofSettings` <br/> |
-|[OofSettings](oofsettings.md) <br/> |包含 OOF 设置。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/GetUserOofSettingsResponse/OofSettings` <br/> |
+|[UserOofSettings](useroofsettings.md) <br/> |指定 OOF 设置。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/SetUserOofSettingsRequest/UserOofSettings` <br/> |
+|[OofSettings](oofsettings.md) <br/> |包含 OOF 设置。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/GetUserOofSettingsResponse/OofSettings` <br/> |
    
 ## <a name="text-value"></a>文本值
 
-需要**OofState**元素的文本值。 以下列表包含此元素的可能值： 
+**OofState**元素需要 text 值。 以下列表包含此元素的可能值： 
   
-- **已禁用**
+- **Disabled**
     
 - **Enabled**
     
-- **计划**
+- **Scheduled**
     
-**计划**表示由[持续时间 (UserOofSettings)](duration-useroofsettings.md)元素标识时间段内 OOF 状态设置为**已启用**。 
+"**计划**的值" 表示将 OOF 状态设置为 "[持续时间（UserOofSettings）](duration-useroofsettings.md) " 元素所标识的时间段内的 "**已启用**"。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此元素是 SetUsersOofSettingRequest 消息和 GetUserOofSettingResponse 消息中必需的。
+SetUsersOofSettingRequest 消息和 GetUserOofSettingResponse 消息中都需要此元素。
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
 ## <a name="example"></a>示例
 
-下面的示例 SetUserOofSettings 请求的启用**OofState**。
+下面的 SetUserOofSettings 请求示例启用**OofState**。
   
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <SetUserOofSettingsRequest xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-      <Mailbox xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+    <SetUserOofSettingsRequest xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+      <Mailbox xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <Name>David Alexander</Name>
         <Address>someone@example.com</Address>
         <RoutingType>SMTP</RoutingType>
       </Mailbox>
-      <UserOofSettings xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+      <UserOofSettings xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <OofState>Enabled</OofState>
         <ExternalAudience>All</ExternalAudience>
         <Duration>
@@ -102,7 +102,7 @@ ms.locfileid: "19826651"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |

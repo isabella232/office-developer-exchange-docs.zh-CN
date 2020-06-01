@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 4a24ff79-f1ae-43a1-9ac2-49baf3eaa173
-description: GetMailTips 元素均表示要检索的收件人和类型的邮件提示。
-ms.openlocfilehash: aad3b3d9dd578d0c92bf7d48ee8b78b58c63e23d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: GetMailTips 元素表示要检索的邮件提示的收件人和类型。
+ms.openlocfilehash: 8ff71ed5d52f713e11188b07c8c93aeee7dfa44d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754611"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458633"
 ---
 # <a name="getmailtips"></a>GetMailTips
 
-**GetMailTips**元素均表示要检索的收件人和类型的邮件提示。 
+**GetMailTips**元素表示要检索的邮件提示的收件人和类型。 
   
 ```XML
 <GetMailTips>
@@ -34,9 +34,9 @@ ms.locfileid: "19754611"
  **GetMailTipsType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -44,9 +44,9 @@ ms.locfileid: "19754611"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[SendingAs](sendingas.md) <br/> |包含用户试图将作为发送电子邮件地址。  <br/> |
-|[收件人 (ArrayOfRecipientsType)](recipients-arrayofrecipientstype.md) <br/> |包含要检查邮件提示的收件人列表。  <br/> |
-|[MailTipsRequested](mailtipsrequested.md) <br/> |包含邮件提示从的服务请求的类型。  <br/> |
+|[SendingAs](sendingas.md) <br/> |包含用户尝试作为其发送的电子邮件地址。  <br/> |
+|[收件人（ArrayOfRecipientsType）](recipients-arrayofrecipientstype.md) <br/> |包含要检查邮件提示的收件人列表。  <br/> |
+|[MailTipsRequested](mailtipsrequested.md) <br/> |包含从服务请求的邮件提示的类型。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -56,7 +56,7 @@ ms.locfileid: "19754611"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -64,7 +64,7 @@ ms.locfileid: "19754611"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -73,5 +73,5 @@ ms.locfileid: "19754611"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

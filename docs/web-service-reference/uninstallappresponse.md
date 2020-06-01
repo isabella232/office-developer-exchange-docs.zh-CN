@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0e3f13cc-e3b3-4eea-9128-12c98b5197f4
-description: UninstallAppResponse 元素指定 UninstallApp 请求的响应。
-ms.openlocfilehash: 9675b72b36fd1ac5e298b2998ed683a1ba6452f7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: UninstallAppResponse 元素指定对 UninstallApp 请求的响应。
+ms.openlocfilehash: 12d74669aed0c380e32dd568bb99b88c30fdb22d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838327"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459452"
 ---
 # <a name="uninstallappresponse"></a>UninstallAppResponse
 
-**UninstallAppResponse**元素指定**UninstallApp**请求的响应。 
+**UninstallAppResponse**元素指定对**UninstallApp**请求的响应。 
   
 ```XML
 <UninstallAppResponse>
@@ -31,21 +31,21 @@ ms.locfileid: "19838327"
  **UninstallAppResponseType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
 ### <a name="child-elements"></a>子元素
 
-[MessageXml](messagexml.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md)
+[MessageXml](messagexml.md)  | [ResponseCode](responsecode.md)  | [DescriptiveLinkKey](descriptivelinkkey.md)  | [MessageXml](messagexml.md)
   
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 中引入了此元素。
   
@@ -55,7 +55,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> ||

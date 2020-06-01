@@ -5,87 +5,87 @@ ms.date: 03/9/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: fd9ef706-1e01-49fa-af6f-2f6d3e173c16
-description: 在 Exchange 中了解有关定期模式和定期系列。
-ms.openlocfilehash: ac10e9b9a347abb5907b77f0e0e7315e4e86d97a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 了解 Exchange 中的定期模式和定期系列。
+ms.openlocfilehash: 681dfee7e0a66a483b8638810da5e4e0ac0f05ac
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753012"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459326"
 ---
 # <a name="recurrence-patterns-and-ews"></a>定期模式和 EWS
 
-在 Exchange 中了解有关定期模式和定期系列。
+了解 Exchange 中的定期模式和定期系列。
   
-定期系列是约会或会议的重复根据定义的模式。 定期系列可以特定次数，也可以无限期重复。 此外，定期系列可以具有不继承的匹配项，其余的模式，它可以从模式已删除的匹配项的例外。 您可以使用 EWS 托管 API 和 EWS 使用定期系列和其关联的日历项目。
+定期系列是根据定义的模式重复的约会或会议。 定期系列可以有特定次数，也可以无限重复。 此外，定期系列也可能具有不遵循其余事件的模式的例外，并且可能会发生已从模式中删除的事件。 您可以使用 EWS 托管 API 和 EWS 来处理定期系列及其关联的日历项目。
   
 ## <a name="recurring-calendar-items"></a>定期日历项目
 
-所有日历项目都分为以下四个类别：
+所有日历项目都属于以下四种类别之一：
   
 - 非定期日历项目
     
 - 定期母版
     
-- 出现系列
+- 系列中的匹配项
     
-- 修改的出现系列，称作异常
+- 修改了系列（称为 "异常"）中的匹配项
     
-在本文中，我们来看看是定期系列的一部分的日历项目的三种类型。
+在本文中，我们将查看属于定期系列的三种类型的日历项目。
   
-它是有助于您了解如何定期系列的 Exchange 服务器上实现。 而不是定期系列中创建一个单独的不同项，每次，服务器在日历中，称为定期主创建只有一个实际项。 定期主控形状的格式为非常类似于非定期约会，并添加了定期模式信息。 然后，服务器会生成基于定期模式的约会信息，使用此过程称为扩展的客户端请求的响应中的匹配项。 这些生成的匹配项不会永久存储在服务器上。 这是重要了解，因为您搜索的日历项目的方式确定您将收到哪些信息以及是否扩展发生此事件。
+了解如何在 Exchange 服务器上实施定期系列。 服务器只会在日历中创建一个实际项目（称为 "定期母版"），而不是为定期系列中的每个事件创建单独的不同项目。 定期母版的格式与非定期约会非常相似，并且添加了定期模式信息。 然后，服务器将根据定期模式（使用一个名为 "展开" 的过程）来响应客户端对约会信息的请求生成事件。 这些生成的事件不会永久存储在服务器上。 这一点很重要，因为您搜索日历项目的方式将决定您接收的信息以及是否进行扩展。
   
 ## <a name="recurrence-patterns"></a>定期模式
 
-定期系列，使扩展关键是定期模式。 定期模式在定期主机上，找到并描述了一组条件的计算依据的日期和时间的定期主控形状。
+可使扩展成为可能的定期系列的关键部分是定期模式。 定期母版中发现定期模式，并介绍了一组依据定期母版的日期和时间计算具体值的条件。
   
-**表 1。可用的定期模式**
+**表1。可用定期模式**
 
 |**EWS 托管 API 类**|**EWS 元素**|**示例**|
 |:-----|:-----|:-----|
-|[Recurrence.DailyPattern](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.recurrence.dailypattern%28v=exchg.80%29.aspx) <br/> |[DailyRecurrence](http://msdn.microsoft.com/library/0aaf265d-b723-49c6-8e9c-9ba60141e9ab%28Office.15%29.aspx) <br/> |重复每天。  <br/> 重复每隔一天。  <br/> |
-|[Recurrence.MonthlyPattern](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.recurrence.monthlypattern%28v=exchg.80%29.aspx) <br/> |[AbsoluteMonthlyRecurrence](http://msdn.microsoft.com/library/178fa0ae-9dfc-417f-933c-d657d31c2161%28Office.15%29.aspx) <br/> |相应月份的第十个天每月重复。  <br/> 重复上个月的第二十一个天的其他每月。  <br/> |
-|[Recurrence.RelativeMonthlyPattern](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.recurrence.relativemonthlypattern%28v=exchg.80%29.aspx) <br/> |[RelativeMonthlyRecurrence](http://msdn.microsoft.com/library/a76595db-7460-44ac-ac2a-53241caa33a7%28Office.15%29.aspx) <br/> |每月的第二个星期二重复。  <br/> 重复上个月每三个月的第三个星期四。  <br/> |
-|[Recurrence.RelativeYearlyPattern](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.recurrence.relativeyearlypattern%28v=exchg.80%29.aspx) <br/> |[RelativeYearlyRecurrence](http://msdn.microsoft.com/library/25b67876-9979-4a30-a637-357ea10a93b8%28Office.15%29.aspx) <br/> |每年重复年 8 月的第一个星期一。  <br/> |
-|[Recurrence.WeeklyPattern](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.recurrence.weeklypattern%28v=exchg.80%29.aspx) <br/> |[WeeklyRecurrence](http://msdn.microsoft.com/library/69c41dd5-597c-45bc-be3f-e2f2b5615aa3%28Office.15%29.aspx) <br/> |重复每个星期一。  <br/> 对每个星期二和星期四重复每隔一周。  <br/> |
-|[Recurrence.YearlyPattern](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.recurrence.yearlypattern%28v=exchg.80%29.aspx) <br/> |[AbsoluteYearlyRecurrence](http://msdn.microsoft.com/library/96f53e2c-3893-4f6e-a78a-ac179f45c5db%28Office.15%29.aspx) <br/> |重复上年 9 月 1st 每年。  <br/> |
+|[DailyPattern](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.recurrence.dailypattern%28v=exchg.80%29.aspx) <br/> |[DailyRecurrence](https://msdn.microsoft.com/library/0aaf265d-b723-49c6-8e9c-9ba60141e9ab%28Office.15%29.aspx) <br/> |每日重复一次。  <br/> 每隔一天重复一次。  <br/> |
+|[MonthlyPattern](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.recurrence.monthlypattern%28v=exchg.80%29.aspx) <br/> |[AbsoluteMonthlyRecurrence](https://msdn.microsoft.com/library/178fa0ae-9dfc-417f-933c-d657d31c2161%28Office.15%29.aspx) <br/> |每月的第十天重复一次。  <br/> 每隔一个月的第二十天重复每个月。  <br/> |
+|[RelativeMonthlyPattern](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.recurrence.relativemonthlypattern%28v=exchg.80%29.aspx) <br/> |[RelativeMonthlyRecurrence](https://msdn.microsoft.com/library/a76595db-7460-44ac-ac2a-53241caa33a7%28Office.15%29.aspx) <br/> |在每月的第二个星期二重复此操作。  <br/> 在每三个月的每月的第三个星期四重复。  <br/> |
+|[RelativeYearlyPattern](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.recurrence.relativeyearlypattern%28v=exchg.80%29.aspx) <br/> |[RelativeYearlyRecurrence](https://msdn.microsoft.com/library/25b67876-9979-4a30-a637-357ea10a93b8%28Office.15%29.aspx) <br/> |在每年8月的第一个星期一重复此操作。  <br/> |
+|[WeeklyPattern](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.recurrence.weeklypattern%28v=exchg.80%29.aspx) <br/> |[WeeklyRecurrence](https://msdn.microsoft.com/library/69c41dd5-597c-45bc-be3f-e2f2b5615aa3%28Office.15%29.aspx) <br/> |每星期一重复一次。  <br/> 每隔一个星期重复每个星期二和星期四。  <br/> |
+|[YearlyPattern](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.recurrence.yearlypattern%28v=exchg.80%29.aspx) <br/> |[AbsoluteYearlyRecurrence](https://msdn.microsoft.com/library/96f53e2c-3893-4f6e-a78a-ac179f45c5db%28Office.15%29.aspx) <br/> |每年的第9月重复一次。  <br/> |
    
-定期结束时的其他重要的定期模式的信息。 这可以表示任一设置次数为、 结束日期，或为具有无结束。
+定期模式的另一条重要信息是定期结束的时间。 这可表示为一组的出现次数、结束日期或没有结束日期。
   
-**表 2。结束的定期系列选项**
+**表2。定期系列结束的选项**
 
 |**EWS 托管 API 方法/属性**|**EWS 元素**|**说明**|
 |:-----|:-----|:-----|
-|[Recurrence.NumberOfOccurrences](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.recurrence.numberofoccurrences%28v=exchg.80%29.aspx) <br/> |[NumberedRecurrence](http://msdn.microsoft.com/library/53746909-ef21-4764-8715-a7769b943cca%28Office.15%29.aspx) <br/> |此属性或元素的值指定次数。  <br/> |
-|[Recurrence.EndDate](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.recurrence.enddate%28v=exchg.80%29.aspx) <br/> |[EndDateRecurrence](http://msdn.microsoft.com/library/a5ee2504-db84-49ee-870c-cca9269f2e26%28Office.15%29.aspx) <br/> |此属性或元素指定日期或之前，将位于系列中的最后一个匹配项。  <br/> |
-|[Recurrence.HasEnd](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.recurrence.hasend%28v=exchg.80%29.aspx) <br/> [Recurrence.NeverEnds](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.recurrence.neverends%28v=exchg.80%29.aspx) <br/> |[NoEndRecurrence](http://msdn.microsoft.com/library/ab2ebd9c-388e-45f1-abf9-56e293ef123b%28Office.15%29.aspx) <br/> |数据系列有无结束。  <br/> |
+|[NumberOfOccurrences](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.recurrence.numberofoccurrences%28v=exchg.80%29.aspx) <br/> |[NumberedRecurrence](https://msdn.microsoft.com/library/53746909-ef21-4764-8715-a7769b943cca%28Office.15%29.aspx) <br/> |此属性或元素的值指定出现的次数。  <br/> |
+|[定期结束日期](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.recurrence.enddate%28v=exchg.80%29.aspx) <br/> |[EndDateRecurrence](https://msdn.microsoft.com/library/a5ee2504-db84-49ee-870c-cca9269f2e26%28Office.15%29.aspx) <br/> |系列中的最后一个匹配项位于此属性或元素指定的日期之前或之前。  <br/> |
+|[HasEnd](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.recurrence.hasend%28v=exchg.80%29.aspx) <br/> [NeverEnds](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.recurrence.neverends%28v=exchg.80%29.aspx) <br/> |[NoEndRecurrence](https://msdn.microsoft.com/library/ab2ebd9c-388e-45f1-abf9-56e293ef123b%28Office.15%29.aspx) <br/> |系列没有结尾。  <br/> |
    
-## <a name="expanded-vs-non-expanded-views"></a>与非扩展视图扩展
+## <a name="expanded-vs-non-expanded-views"></a>展开和未展开的视图
 
-使用 EWS 托管 API （或与**CalendarView**元素中的 ews **FindItem**操作） 中的**FindAppointments**方法调用只有展开过程。 这隐藏定期主约会从结果集中，并且改为向该定期系列的展开的视图。 在结果集中包含的匹配项和定期主例外的范围内的日历视图的参数。 相反，使用 EWS 托管 API （或与**IndexedPageItemView**或**FractionalPageItemView**元素中的 ews **FindItem**操作） 中的**FindItems**方法不会调用只有展开过程，以及出现和不包括例外。 让我们看一下示例进行比较的两种方法。 
+在 EWS 托管 API （或使用 EWS 中的**CalendarView**元素的**FindItem**操作）中使用**FindAppointments**方法可调用展开进程。 这将从结果集中隐藏定期主约会，而是显示该定期系列的展开视图。 在 "日历" 视图的参数中的定期主控形状的出现和例外情况将包含在结果集中。 与此相反，在 EWS 托管 API （或在 EWS 中使用**IndexedPageItemView**或**FractionalPageItemView**元素的**FindItem**操作）中使用**FindItems**方法不会调用展开过程，并且不会包含事件和异常。 我们来看一个比较这两种方法的示例。 
   
-**表 3。方法和查找约会的操作**
+**表3。查找约会的方法和操作**
 
-|**EWS 托管的 API 方法**|**EWS 操作**|**展开系列？**|**在结果中包含的项目**|
+|**EWS 托管的 API 方法**|**EWS 操作**|**扩展系列？**|**结果中包含的项**|
 |:-----|:-----|:-----|:-----|
-|[ExchangeService.FindAppointments](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.findappointments%28v=exchg.80%29.aspx) <br/> |[FindItem 操作](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) [CalendarView](http://msdn.microsoft.com/library/a4a953b8-0710-416c-95ef-59e51eba9982%28Office.15%29.aspx)元素  <br/> |是  <br/> |非定期约会的定期系列和定期系列的例外的单个匹配项  <br/> |
-|[ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) <br/> |[FindItem 操作](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)与[IndexedPageItemView](http://msdn.microsoft.com/library/6d1b0b04-cc35-4a57-bd7a-824136d14fda%28Office.15%29.aspx)元素或[FractionalPageItemView](http://msdn.microsoft.com/library/4111afec-35e7-4c6f-b291-9bbba603f633%28Office.15%29.aspx)元素  <br/> |否  <br/> |非定期约会和主控形状的定期约会  <br/> |
+|[ExchangeService。 FindAppointments](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.findappointments%28v=exchg.80%29.aspx) <br/> |带有[CalendarView](https://msdn.microsoft.com/library/a4a953b8-0710-416c-95ef-59e51eba9982%28Office.15%29.aspx)元素的[FindItem 操作](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)  <br/> |是  <br/> |非定期约会、定期系列的单个事件和定期系列的例外  <br/> |
+|[ExchangeService。 FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) <br/> |带有[IndexedPageItemView](https://msdn.microsoft.com/library/6d1b0b04-cc35-4a57-bd7a-824136d14fda%28Office.15%29.aspx)元素或[FractionalPageItemView](https://msdn.microsoft.com/library/4111afec-35e7-4c6f-b291-9bbba603f633%28Office.15%29.aspx)元素的[FindItem 操作](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)  <br/> |否  <br/> |非定期约会和定期主约会  <br/> |
    
-Sadie 只是已签名她的孩子为游泳团队。 团队有实践上午 8:30，在每个星期三上午开头 7 月 2 日，最后一个实践正在上年 8 月 6。 不希望忘记实践，Sadie 添加到其日历提醒她的定期约会。
+Sadie 已为我们的 "泳道" 团队注册了她的儿子。 团队每星期三上午8:30 上午（从7月2日）开始，最后一次实践在8月6日进行练习。 如果不想忘记实践，Sadie 会将定期约会添加到其日历以提醒她。
   
-**表 4。Sadie 的定期约会**
+**表4。Sadie 的定期约会**
 
-|**约会字段**|**值**|
+|**约会域**|**值**|
 |:-----|:-----|
-|主题  <br/> |Swim 团队实践  <br/> |
-|入门  <br/> |上午 8:30 2014 年 7 月 2日日  <br/> |
-|End  <br/> |10:00 2014 年 7 月 2日日  <br/> |
-|重复  <br/> |每个星期三  <br/> |
-|最后一个匹配项  <br/> |上午 8:30 2014 年 8 月 6日日  <br/> |
+|Subject  <br/> |泳道团队实践  <br/> |
+|开始  <br/> |7月2日，2014 8:30 AM  <br/> |
+|End  <br/> |7月2日，2014 10:00 AM  <br/> |
+|再次  <br/> |每个星期三  <br/> |
+|最后一个匹配项  <br/> |8月6日，2014 8:30 AM  <br/> |
    
-快速介绍一下日历显示小组有六个实践总数。 但是，没有在日历中的六个不同的约会项目。 而是只有一个代表系列的定期主约会。
+快速查看 "日历" 表示该团队总共有六个实践。 但是，日历中没有六个截然不同的约会项目。 相反，只有一个定期主机约会代表系列。
   
-现在让我们看一下查找 Sadie 的日历年 7 月内发生的约会。 下面的代码示例使用 Exchange 托管 API 中的**FindItems**方法，以生成 Sadie 的日历的非扩展视图。 
+现在，我们来看看在 Sadie 的日历中查找七月发生的约会。 下面的代码示例使用 Exchange 托管 API 中的**FindItems**方法生成 Sadie 的日历的非展开视图。 
   
 ```cs
 PropertySet propSet = new PropertySet(AppointmentSchema.Subject,
@@ -114,14 +114,14 @@ foreach(Item appt in results.Items)
 }
 ```
 
-该代码将导致以下[FindItem 操作](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)请求与[IndexedPageItemView](http://msdn.microsoft.com/library/6d1b0b04-cc35-4a57-bd7a-824136d14fda%28Office.15%29.aspx)元素。 
+该代码将导致以下带有[IndexedPageItemView](https://msdn.microsoft.com/library/6d1b0b04-cc35-4a57-bd7a-824136d14fda%28Office.15%29.aspx)元素的[FindItem 操作](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)请求。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
     <t:TimeZoneContext>
@@ -165,21 +165,21 @@ foreach(Item appt in results.Items)
 </soap:Envelope>
 ```
 
-服务器响应包含只有一个项目，定期主控形状，由**RecurringMaster** [CalendarItemType](http://msdn.microsoft.com/library/1feb0788-adf7-4a7c-830c-005214ad930f%28Office.15%29.aspx)元素值。 为便于阅读缩短了[ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx)元素的值。 
+服务器响应仅包括单个项目，即定期主控形状，由[CalendarItemType](https://msdn.microsoft.com/library/1feb0788-adf7-4a7c-830c-005214ad930f%28Office.15%29.aspx)元素值**RecurringMaster**指示。 为了提高可读性， [ItemId](https://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx)元素的值已缩短。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="939" MinorBuildNumber="16" Version="V2_11" 
-        xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-        xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
         xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:FindItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:FindItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:FindItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -202,7 +202,7 @@ foreach(Item appt in results.Items)
 </s:Envelope>
 ```
 
-现在让我们比较与扩展视图。 下面的代码示例使用 EWS 托管 API 中的**FindAppointments**方法来创建扩展的 Sadie 的日历视图。 
+现在，让我们与展开的视图进行比较。 下面的代码示例使用 EWS 托管 API 中的**FindAppointments**方法来创建 Sadie 的日历的展开视图。 
   
 ```cs
 PropertySet propSet = new PropertySet(AppointmentSchema.Subject,
@@ -220,14 +220,14 @@ foreach(Appointment appt in results.Items)
 }
 ```
 
-此代码将导致以下[FindItem 操作](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)请求[CalendarView](http://msdn.microsoft.com/library/a4a953b8-0710-416c-95ef-59e51eba9982%28Office.15%29.aspx)元素。 
+此代码将导致以下带有[CalendarView](https://msdn.microsoft.com/library/a4a953b8-0710-416c-95ef-59e51eba9982%28Office.15%29.aspx)元素的[FindItem 操作](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)请求。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
     <t:TimeZoneContext>
@@ -255,21 +255,21 @@ foreach(Appointment appt in results.Items)
 </soap:Envelope>
 ```
 
-此时，服务器响应包括五个匹配项，一个用于年 7 月中的每个星期三。 所有这些项上的[CalendarItemType](http://msdn.microsoft.com/library/1feb0788-adf7-4a7c-830c-005214ad930f%28Office.15%29.aspx)元素具有**匹配项**的值。 请注意定期主不存在的响应中。 为便于阅读变短了[ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx)元素的值。 
+这次，服务器响应包含五次，每个7月一个星期三。 这些项上的[CalendarItemType](https://msdn.microsoft.com/library/1feb0788-adf7-4a7c-830c-005214ad930f%28Office.15%29.aspx)元素都有值**发生**。 请注意，响应中不存在定期主控形状。 为了提高可读性， [ItemId](https://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx)元素的值已缩短。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="939" MinorBuildNumber="16" Version="V2_11" 
-        xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-        xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
         xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:FindItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:FindItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:FindItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -324,23 +324,23 @@ foreach(Appointment appt in results.Items)
 </s:Envelope>
 ```
 
-定期主控形状、 发生或异常后，您始终可以[检索的其他相关的项](how-to-access-a-recurring-series-by-using-ews-in-exchange.md)。 给定的匹配项或异常，您可以检索定期主控形状，反之亦然。
+在有一个定期母版、一个事件或例外的情况下，您始终可以[检索其他相关项目](how-to-access-a-recurring-series-by-using-ews-in-exchange.md)。 在出现或异常的情况下，您可以检索定期母版，反之亦然。
   
 ## <a name="working-with-recurring-calendar-items"></a>使用定期日历项目
 
-您使用统一的方法和操作来处理定期系列使用以使用非定期日历项目。 不同之处在于，具体取决于您使用这些操作或方法调用该项目，您采取的操作可以应用于整个数据系列或只发生一次。 [定期母版上执行的操作](how-to-update-a-recurring-series-by-using-ews-in-exchange.md)将应用于系列中所有匹配项时[执行一次或异常的操作](how-to-update-a-recurring-series-by-using-ews.md)将只应用于该出现或异常。 
+您可以使用所有相同的方法和操作与定期系列配合使用，以处理非定期日历项目。 不同之处在于，根据您用于调用这些方法或操作的项目，所执行的操作可以应用于整个系列，也可以只应用于单个事件。 [对定期母版执行的操作](how-to-update-a-recurring-series-by-using-ews-in-exchange.md)将应用于系列中的所有事件，而[对单个事件或例外项执行的操作](how-to-update-a-recurring-series-by-using-ews.md)只会应用于该事件或例外。 
   
 ## <a name="in-this-section"></a>本节内容
 
 - [在 Exchange 中使用 EWS 访问定期系列](how-to-access-a-recurring-series-by-using-ews-in-exchange.md)
     
-- [使用 EWS 在 Exchange 中创建定期系列](how-to-create-a-recurring-series-by-using-ews-in-exchange.md)
+- [使用 Exchange 中的 EWS 创建定期系列](how-to-create-a-recurring-series-by-using-ews-in-exchange.md)
     
-- [使用 EWS 在 Exchange 中删除定期系列中的约会](how-to-delete-appointments-in-a-recurring-series-by-using-ews-in-exchange.md)
+- [在 Exchange 中使用 EWS 删除定期系列中的约会](how-to-delete-appointments-in-a-recurring-series-by-using-ews-in-exchange.md)
     
 - [使用 EWS 更新定期系列](how-to-update-a-recurring-series-by-using-ews.md)
     
-- [在 Exchange 使用 EWS 更新定期系列](how-to-update-a-recurring-series-by-using-ews-in-exchange.md)
+- [在 Exchange 中使用 EWS 更新定期系列](how-to-update-a-recurring-series-by-using-ews-in-exchange.md)
     
 ## <a name="see-also"></a>另请参阅
 
@@ -349,6 +349,6 @@ foreach(Appointment appt in results.Items)
     
 - [开发 Exchange Web 服务客户端](develop-web-service-clients-for-exchange.md)
     
-- [在 Exchange 使用 EWS 获取约会和会议](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md)
+- [使用 Exchange 中的 EWS 获取约会和会议](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md)
     
 

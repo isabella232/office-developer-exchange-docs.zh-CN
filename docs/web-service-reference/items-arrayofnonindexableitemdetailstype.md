@@ -1,5 +1,5 @@
 ---
-title: 项目 (ArrayOfNonIndexableItemDetailsType)
+title: 项目（ArrayOfNonIndexableItemDetailsType）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: da795880-12b4-4341-bcb8-31616f4ba46f
-description: 项目元素包含一个数组非可索引的项目的项目详细信息。
-ms.openlocfilehash: b272479051edc70534c7b5b45410f8a9d5e3f97f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Items 元素包含非索引项的项详细信息数组。
+ms.openlocfilehash: 81ca175933b0d23a939f6fdc45cb5a10e7157350
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826154"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459901"
 ---
-# <a name="items-arrayofnonindexableitemdetailstype"></a>项目 (ArrayOfNonIndexableItemDetailsType)
+# <a name="items-arrayofnonindexableitemdetailstype"></a>项目（ArrayOfNonIndexableItemDetailsType）
 
-**项目**元素包含一个数组非可索引的项目的项目详细信息。 
+**Items**元素包含非索引项的项详细信息数组。 
   
 ```XML
 <Items>
@@ -28,9 +28,9 @@ ms.locfileid: "19826154"
  **ArrayOfNonIndexableItemDetailsType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -52,7 +52,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -64,5 +64,5 @@ Exchange Server 2013 中引入了此元素。
 [GetNonIndexableItemDetails 操作](getnonindexableitemdetails-operation.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

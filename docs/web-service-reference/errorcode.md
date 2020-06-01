@@ -1,5 +1,5 @@
 ---
-title: 错误代码
+title: 错误
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0bb00cee-c66b-4f34-b99d-355458f5e83b
-description: ErrorCode 元素均表示描述什么失败规则验证错误代码为每个规则谓词或操作的验证。
-ms.openlocfilehash: ed8e2fa72b0eb007925742e6d194f3a391b3f3cb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ErrorCode 元素表示一个规则验证错误代码，该代码描述对每个规则谓词或操作的验证失败的情况。
+ms.openlocfilehash: 6432aeee786d74a9afcb346cb66765f9001257de
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754152"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460076"
 ---
-# <a name="errorcode"></a>错误代码
+# <a name="errorcode"></a>错误
 
-**ErrorCode**元素均表示描述什么失败规则验证错误代码为每个规则谓词或操作的验证。 
+**ErrorCode**元素表示一个规则验证错误代码，该代码描述对每个规则谓词或操作的验证失败的情况。 
   
 ```XML
 <ErrorCode/>
@@ -26,9 +26,9 @@ ms.locfileid: "19754152"
  **RuleValidationErrorCodeType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -40,11 +40,11 @@ ms.locfileid: "19754152"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Error](error.md) <br/> |代表对特定规则属性值、 谓词属性值或 action 属性值的单个验证错误。  <br/> |
+|[Error](error.md) <br/> |表示特定规则属性值、谓词属性值或 action 属性值上的单个验证错误。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-此元素的文本值仅限于以下字符串之一：
+此元素的文本值被限制为以下字符串之一：
   
 - ADOperationFailure
     
@@ -94,7 +94,7 @@ ms.locfileid: "19754152"
     
 - UnsupportedRule
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -102,7 +102,7 @@ ms.locfileid: "19754152"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -111,5 +111,5 @@ ms.locfileid: "19754152"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

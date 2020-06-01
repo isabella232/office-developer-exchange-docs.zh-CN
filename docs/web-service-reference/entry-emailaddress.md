@@ -1,5 +1,5 @@
 ---
-title: 条目 （电子邮件地址）
+title: 条目（EmailAddress）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -12,14 +12,14 @@ api_type:
 - schema
 ms.assetid: b028c5c7-3494-4ecd-96d1-78783daa660f
 description: Entry 元素表示联系人的单个电子邮件地址。
-ms.openlocfilehash: 1852584e507c38da030815c37f85f7c4af4e2ba4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 766d67cda10b02c07a7677e541fddfc38a4285cf
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754134"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459642"
 ---
-# <a name="entry-emailaddress"></a>条目 （电子邮件地址）
+# <a name="entry-emailaddress"></a>条目（EmailAddress）
 
 **Entry**元素表示联系人的单个电子邮件地址。 
   
@@ -31,16 +31,16 @@ ms.locfileid: "19754134"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**说明**|
 |:-----|:-----|
-|**注册表项** <br/> | 标识的电子邮件地址。<br/><br/>以下是该属性可能的值：<br/><br/>-EmailAddress1  <br/>-EmailAddress2  <br/>-EmailAddress3 <br/><br/>  此属性是必需的。  <br/> |
-|**名称** <br/> |定义邮箱用户的名称。 此属性是可选的。  <br/> |
-|**RoutingType** <br/> |定义用于邮箱路由。 默认值为 SMTP。 此属性是可选的。  <br/> |
-|**MailboxType** <br/> |定义邮箱用户的邮箱类型。 此属性是可选的。  <br/> |
+|**Key** <br/> | 标识电子邮件地址。<br/><br/>以下是该属性可能的值：<br/><br/>- EmailAddress1  <br/>- EmailAddress2  <br/>- EmailAddress3 <br/><br/>  此特性是必需的。  <br/> |
+|**名称** <br/> |定义邮箱用户的名称。 此特性是可选的。  <br/> |
+|**RoutingType** <br/> |定义供邮箱使用的路由。 默认为 SMTP。 此特性是可选的。  <br/> |
+|**MailboxType** <br/> |定义邮箱用户的类型。 此特性是可选的。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -50,7 +50,7 @@ ms.locfileid: "19754134"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[EmailAddresses](emailaddresses.md) <br/> |表示一个联系人的电子邮件地址的集合。  <br/> |
+|[EmailAddresses](emailaddresses.md) <br/> |表示联系人的电子邮件地址的集合。  <br/> |
    
 ## <a name="remarks"></a>备注
 
@@ -62,12 +62,12 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

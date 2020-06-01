@@ -1,5 +1,5 @@
 ---
-title: 标记
+title: Token
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 62b700e1-88c7-41ef-b431-d7af4a8b54a7
 description: Token 元素包含表示共享数据标识令牌的加密数据。
-ms.openlocfilehash: cec11d9f2c24a250483c5be6e273f981fdf0a8e6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
-ms.translationtype: HT
+ms.openlocfilehash: c2e80082f9b4ecb96defdca8c5f0223a945661ba
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838257"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458906"
 ---
 # <a name="token"></a>标记
 
@@ -54,7 +54,7 @@ ms.locfileid: "19838257"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |

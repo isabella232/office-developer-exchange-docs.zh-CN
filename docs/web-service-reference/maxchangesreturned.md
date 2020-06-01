@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: f471db84-a666-4dfa-9993-8ca9113a0384
-description: MaxChangesReturned 元素介绍可以同步响应中返回的更改的最大数量。
-ms.openlocfilehash: c3719b12b7e3e2f83a9454c7b68432b375d78614
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: MaxChangesReturned 元素描述同步响应中可返回的最大更改数。
+ms.openlocfilehash: caf96b6e95f2e63d0e544ead26fbea18cd637861
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826395"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460083"
 ---
 # <a name="maxchangesreturned"></a>MaxChangesReturned
 
-**MaxChangesReturned**元素介绍可以同步响应中返回的更改的最大数量。 
+**MaxChangesReturned**元素描述同步响应中可返回的最大更改数。 
   
 [SyncFolderItems](syncfolderitems.md)
   
@@ -34,9 +34,9 @@ ms.locfileid: "19826395"
  **int**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -48,13 +48,13 @@ ms.locfileid: "19826395"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[SyncFolderItems](syncfolderitems.md) <br/> |定义同步 Exchange 存储区文件夹中的项目的请求。  <br/> |
+|[SyncFolderItems](syncfolderitems.md) <br/> |定义对 Exchange 存储文件夹中的项目进行同步的请求。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-文本值表示一个整数，描述单个同步呼叫中返回的项的最大数目。 值必须是介于 1 和 512，非独占之间。
+该文本值表示一个整数，该整数描述在单个同步调用中返回的最大项目数。 该值必须介于1和512之间（含这两个值）。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -62,7 +62,7 @@ ms.locfileid: "19826395"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -74,5 +74,5 @@ ms.locfileid: "19826395"
 [SyncFolderItems 操作](syncfolderitems-operation.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

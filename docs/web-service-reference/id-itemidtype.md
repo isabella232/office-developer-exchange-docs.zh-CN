@@ -1,5 +1,5 @@
 ---
-title: ID (ItemIdType)
+title: ID （ItemIdType）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a9909ed2-fdc5-4b1f-b7db-1f517add8eb3
-description: Id 元素指定项目的标识符。
-ms.openlocfilehash: a0abd81de0fc30bc5168543fc75f44d470eef100
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Id 元素指定项的标识符。
+ms.openlocfilehash: bc4ffa91f9375b33e89fa4e03b2a1d6a7974dc44
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825849"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459319"
 ---
-# <a name="id-itemidtype"></a>ID (ItemIdType)
+# <a name="id-itemidtype"></a>ID （ItemIdType）
 
-**Id**元素指定项目的标识符。 
+**Id**元素指定项的标识符。 
   
 ```XML
 <Id Id="" ChangeKey=""/>
@@ -26,14 +26,14 @@ ms.locfileid: "19825849"
  **ItemIdType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**说明**|
 |:-----|:-----|
 |Id  <br/> |**Id**属性的文本值是项目的标识符。  <br/> |
-|更改密钥  <br/> |**更改密钥**属性的文本值是项的更改键。  <br/> |
+|ChangeKey  <br/> |**ChangeKey**属性的文本值是项的更改键。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -53,7 +53,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> ||

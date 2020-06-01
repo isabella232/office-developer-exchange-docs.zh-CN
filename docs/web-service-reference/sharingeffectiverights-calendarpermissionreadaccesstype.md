@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: b519f642-a9ef-4300-92e6-ed8202855fde
-description: SharingEffectiveRights 元素指示正在共享的日历数据的用户具有的权限。
-ms.openlocfilehash: e7d2aa061650c33d27de042ae8a6348f9a7d3430
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: SharingEffectiveRights 元素指示用户对要共享的日历数据所具有的权限。
+ms.openlocfilehash: 5581e9cc001608a124ae94e69eba836f6fd98520
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827480"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458577"
 ---
 # <a name="sharingeffectiverights-calendarpermissionreadaccesstype"></a>SharingEffectiveRights (CalendarPermissionReadAccessType)
 
-**SharingEffectiveRights**元素指示正在共享的日历数据的用户具有的权限。 
+**SharingEffectiveRights**元素指示用户对要共享的日历数据所具有的权限。 
   
 ```XML
 <SharingEffectiveRights>None | TimeOnly | TimeAndSubjectAndLocation | FullDetails</SharingEffectiveRights>
@@ -30,9 +30,9 @@ ms.locfileid: "19827480"
  **CalendarPermissionReadAccessType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,9 +42,9 @@ ms.locfileid: "19827480"
   
 ### <a name="parent-elements"></a>父元素
 
-|**元素**|**说明**|
+|**元素**|**描述**|
 |:-----|:-----|
-|[CalendarFolder](calendarfolder.md) <br/> |表示主要包含日历项目的文件夹。  <br/> |
+|[CalendarFolder](calendarfolder.md) <br/> |代表主要包含日历项目的文件夹。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
@@ -52,12 +52,12 @@ ms.locfileid: "19827480"
   
 |**值**|**说明**|
 |:-----|:-----|
-|无  <br/> |指示用户没有权限在日历中查看的项目。  <br/> |
-|TimeOnly  <br/> |指示用户有权在日历中查看仅忙/闲时间。  <br/> |
-|TimeAndSubjectAndLocation  <br/> |指示用户有权查看忙/闲时间中日历的主题和约会的位置。  <br/> |
-|FullDetails  <br/> |指示用户有权查看日历，包括忙/闲时间和主题、 位置和约会的详细信息中的所有项目。  <br/> |
+|无  <br/> |指示用户不具有查看日历中的项目的权限。  <br/> |
+|TimeOnly  <br/> |指示用户具有仅查看日历中的忙/闲时间的权限。  <br/> |
+|TimeAndSubjectAndLocation  <br/> |指示用户有权查看日历中的忙/闲时间以及约会的主题和位置。  <br/> |
+|FullDetails  <br/> |指示用户有权查看日历中的所有项目，包括忙/闲时间、主题、位置和约会的详细信息。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -65,7 +65,7 @@ ms.locfileid: "19827480"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -74,5 +74,5 @@ ms.locfileid: "19827480"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 3e16163f-cffe-4c4e-9a2a-00245d25ba96
-description: ContainsSenderStrings 元素表示必须出现在 From 属性中的条件或例外应用的顺序的传入消息的字符串。
-ms.openlocfilehash: d174c0d7e2cbfd5b671a825a867d3ee7e24c2f2a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ContainsSenderStrings 元素指示必须出现在传入邮件的 From 属性中的字符串，以便条件或例外情况适用。
+ms.openlocfilehash: e7b78f1311d288db7969a0024bde84433e18d37f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753539"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458976"
 ---
 # <a name="containssenderstrings"></a>ContainsSenderStrings
 
-**ContainsSenderStrings**元素表示必须出现在**From**属性中的条件或例外应用的顺序的传入消息的字符串。 
+**ContainsSenderStrings**元素指示必须出现在传入邮件的**From**属性中的字符串，以便条件或例外情况适用。 
   
 ```XML
 <ContainsSenderStrings>
@@ -32,9 +32,9 @@ ms.locfileid: "19753539"
  **ArrayOfStringsType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,7 +42,7 @@ ms.locfileid: "19753539"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[字符串](string.md) <br/> |表示必须出现在**From**属性中的条件或例外应用的顺序的传入消息的字符串。  <br/> |
+|[字符串](string.md) <br/> |表示必须出现在传入邮件的**From**属性中的字符串，以便条件或例外情况适用。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -55,7 +55,7 @@ ms.locfileid: "19753539"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -63,7 +63,7 @@ ms.locfileid: "19753539"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
@@ -72,5 +72,5 @@ ms.locfileid: "19753539"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

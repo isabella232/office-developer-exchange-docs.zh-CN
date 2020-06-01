@@ -7,23 +7,23 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7244dda1-cb35-4513-a64f-301e7645e790
-description: GlobalObjectId 元素旨在仅供内部使用。
-ms.openlocfilehash: 3ccf15562d503873456afc30a5d1ea7ab858ffba
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: GlobalObjectId 元素仅供内部使用。
+ms.openlocfilehash: 5b78873bef5cdec08394864f9bcb7e7ea0c41466
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825740"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459088"
 ---
 # <a name="globalobjectid-getclientintenttype"></a>GlobalObjectId (GetClientIntentType)
 
-**GlobalObjectId**元素旨在仅供内部使用。 
+**GlobalObjectId**元素仅供内部使用。 
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19825740"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 中引入了此元素。
   

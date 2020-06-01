@@ -1,5 +1,5 @@
 ---
-title: GetItem 操作 （联系人）
+title: GetItem 操作（联系人）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,23 +11,23 @@ api_name:
 api_type:
 - schema
 ms.assetid: 6b96dace-1260-4b83-869a-7c31c5583daa
-description: GetItem operation，用于从 Exchange 存储中获取联系人项目。
-ms.openlocfilehash: 8d7436421f0c54a49345e8ef6b37cb442bca4277
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: GetItem 操作用于从 Exchange 存储中获取联系人项目。
+ms.openlocfilehash: 93e8dbe28e130ab64d4b8d12d2befde1f77ae8fa
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754600"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460020"
 ---
-# <a name="getitem-operation-contact"></a>GetItem 操作 （联系人）
+# <a name="getitem-operation-contact"></a>GetItem 操作（联系人）
 
-GetItem operation，用于从 Exchange 存储中获取联系人项目。
+GetItem 操作用于从 Exchange 存储中获取联系人项目。
   
-## <a name="getitem-contact-request-example"></a>GetItem （联系人） 请求示例
+## <a name="getitem-contact-request-example"></a>GetItem （Contact）请求示例
 
 ### <a name="description"></a>说明
 
-下面的示例演示如何从 Exchange 存储中获取项。
+下面的示例演示如何从 Exchange 存储中获取项目。
   
 ### <a name="code"></a>代码
 
@@ -35,9 +35,9 @@ GetItem operation，用于从 Exchange 存储中获取联系人项目。
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <GetItem xmlns='http://schemas.microsoft.com/exchange/services/2006/messages'>
+    <GetItem xmlns='https://schemas.microsoft.com/exchange/services/2006/messages'>
       <ItemShape>
         <t:BaseShape>AllProperties</t:BaseShape>
       </ItemShape>
@@ -49,14 +49,14 @@ GetItem operation，用于从 Exchange 存储中获取联系人项目。
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>注释
+### <a name="comments"></a>备注
 
-从 Exchange 存储中获取项的请求所需的所有项类型的同一窗体。 将不同的不同项目请求的响应，因为其他项返回基于响应形状上的其他信息。
+从 Exchange 存储区获取项目的请求将为所有项目类型采用相同的表单。 对不同项目的请求的响应将有所不同，因为不同的项目会返回基于响应形状的不同信息。
   
 > [!NOTE]
-> 已缩短的项标识符，若要保留可读性。 
+> 项目标识符已缩短，以保持可读性。 
   
-### <a name="request-elements"></a>请求元素
+### <a name="request-elements"></a>Request 元素
 
 请求中使用以下元素：
   
@@ -70,11 +70,11 @@ GetItem operation，用于从 Exchange 存储中获取联系人项目。
     
 - [ItemId](itemid.md)
     
-## <a name="successful-getitem-contact-response"></a>成功 GetItem （联系人） 响应
+## <a name="successful-getitem-contact-response"></a>成功的 GetItem （联系人）响应
 
 ### <a name="description"></a>说明
 
-下面的代码示例显示**AllProperties**[BaseShape](baseshape.md)成功的 GetItem 响应。
+下面的代码示例演示了对**AllProperties**[BaseShape](baseshape.md)的成功的 GetItem 响应。
   
 ### <a name="code"></a>代码
 
@@ -85,12 +85,12 @@ GetItem operation，用于从 Exchange 存储中获取联系人项目。
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="602" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <GetItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                     xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                     xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                     xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                     xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:GetItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -151,13 +151,13 @@ GetItem operation，用于从 Exchange 存储中获取联系人项目。
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>注释
+### <a name="comments"></a>备注
 
-已缩短的项标识符，若要保留可读性。
+项目标识符已缩短，以保持可读性。
   
-### <a name="successful-response-elements"></a>成功响应元素
+### <a name="successful-response-elements"></a>成功的响应元素
 
-下列元素用于在响应中与联系人项目的**AllProperties**响应形状 GetItem 请求。 
+以下元素用于响应 GetItem 请求，其中包含联系人项目的**AllProperties**的响应形状。 
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -171,7 +171,7 @@ GetItem operation，用于从 Exchange 存储中获取联系人项目。
     
 - [Items](items.md)
     
-- [Contact](contact.md)
+- [联系人](contact.md)
     
 - [ItemId](itemid.md)
     
@@ -185,7 +185,7 @@ GetItem operation，用于从 Exchange 存储中获取联系人项目。
     
 - [DateTimeReceived](datetimereceived.md)
     
-- [Size](size.md)
+- [大小](size.md)
     
 - [Importance](importance.md)
     
@@ -205,7 +205,7 @@ GetItem operation，用于从 Exchange 存储中获取联系人项目。
     
 - [HasAttachments](hasattachments.md)
     
-- [区域性](culture.md)
+- [Culture](culture.md)
     
 - [FileAs](fileas.md)
     
@@ -215,27 +215,27 @@ GetItem operation，用于从 Exchange 存储中获取联系人项目。
     
 - [GivenName](givenname.md)
     
-- [首字母缩写](initials.md)
+- [缩写](initials.md)
     
 - [CompleteName](completename.md)
     
 - [FirstName](firstname.md)
     
-- [姓氏](lastname.md)
+- [LastName](lastname.md)
     
 - [FullName](fullname.md)
     
-- [公司名称](companyname.md)
+- [CompanyName](companyname.md)
     
 - [EmailAddresses](emailaddresses.md)
     
-- [条目 （电子邮件地址）](entry-emailaddress.md)
+- [条目（EmailAddress）](entry-emailaddress.md)
     
 - [PhysicalAddresses](physicaladdresses.md)
     
-- [条目 (PhysicalAddress)](entry-physicaladdress.md)
+- [条目（PhysicalAddress）](entry-physicaladdress.md)
     
-- [街道](street.md)
+- [地址](street.md)
     
 - [市/县](city.md)
     
@@ -245,17 +245,17 @@ GetItem operation，用于从 Exchange 存储中获取联系人项目。
     
 - [PhoneNumbers](phonenumbers.md)
     
-- [条目 (PhoneNumber)](entry-phonenumber.md)
+- [条目（PhoneNumber）](entry-phonenumber.md)
     
 - [JobTitle](jobtitle.md)
     
-- [姓](surname.md)
+- [姓氏](surname.md)
     
-## <a name="invalid-getitem-contact-request-example"></a>无效的 GetItem （联系人） 请求示例
+## <a name="invalid-getitem-contact-request-example"></a>无效的 GetItem （Contact）请求示例
 
 ### <a name="description"></a>说明
 
-下面的代码示例显示了无效的请求。
+下面的代码示例演示一个无效请求。
   
 ### <a name="code"></a>代码
 
@@ -263,9 +263,9 @@ GetItem operation，用于从 Exchange 存储中获取联系人项目。
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <GetItem xmlns='http://schemas.microsoft.com/exchange/services/2006/messages'>
+    <GetItem xmlns='https://schemas.microsoft.com/exchange/services/2006/messages'>
       <ItemShape>
         <t:BaseShape>AllProperties</t:BaseShape>
         <t:IncludeMimeContent>true</t:IncludeMimeContent>
@@ -278,15 +278,15 @@ GetItem operation，用于从 Exchange 存储中获取联系人项目。
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>注释
+### <a name="comments"></a>备注
 
-项标识符具有已缩短要保留可读性。
+项目标识符已缩短，以保持可读性。
   
-## <a name="getitem-contact-error-response"></a>GetItem （联系人） 错误响应
+## <a name="getitem-contact-error-response"></a>GetItem （联系人）错误响应
 
 ### <a name="description"></a>说明
 
-下面的代码示例显示错误响应 GetItem （联系人） 的请求。
+下面的代码示例演示对 GetItem （联系人）请求的错误响应。
   
 ### <a name="code"></a>代码
 
@@ -297,12 +297,12 @@ GetItem operation，用于从 Exchange 存储中获取联系人项目。
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="602" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <GetItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                     xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                     xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                     xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                     xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:GetItemResponseMessage ResponseClass="Error">
           <m:MessageText>Mime conversion is not supported for this item type.</m:MessageText>
@@ -343,5 +343,5 @@ GetItem operation，用于从 Exchange 存储中获取联系人项目。
 [GetItem 操作](getitem-operation.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

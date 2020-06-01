@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: db28dbcb-d051-4e5c-a9c2-4b8d5149b4e1
-description: ShowExternalRecipientCount 元素指示是否 GetMailTips 操作的使用者具有显示邮件提示指示邮件要发送到外部收件人的数量。
-ms.openlocfilehash: 1fd3ceb629689c560dc60afe01f0413602f79a0d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ShowExternalRecipientCount 元素指示 GetMailTips 操作的使用者是否必须显示指示向其发送邮件的外部收件人数的邮件提示。
+ms.openlocfilehash: fc32e5c4a95f0e33b5532af9c77d31bd6446e641
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827491"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460468"
 ---
 # <a name="showexternalrecipientcount"></a>ShowExternalRecipientCount
 
-**ShowExternalRecipientCount**元素指示是否[GetMailTips 操作](getmailtips-operation.md)的使用者具有显示邮件提示指示邮件要发送到外部收件人的数量。 
+**ShowExternalRecipientCount**元素指示[GetMailTips 操作](getmailtips-operation.md)的使用者是否必须显示指示向其发送邮件的外部收件人数的邮件提示。 
   
 ```XML
 <ShowExternalRecipientCount>true | false</ShowExternalRecipientCount>
@@ -30,9 +30,9 @@ ms.locfileid: "19827491"
  **Boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -48,9 +48,9 @@ ms.locfileid: "19827491"
    
 ## <a name="text-value"></a>文本值
 
-此元素的文本值为**true** ，如果[GetMailTips 操作](getmailtips-operation.md)的使用者必须显示邮件提示指示邮件要发送到外部收件人的数量。 如果[GetMailTips 操作](getmailtips-operation.md)的使用者没有显示指示邮件要发送到外部收件人数的邮件提示，则值为**false** 。 
+如果[GetMailTips 操作](getmailtips-operation.md)的使用者必须显示指示邮件的目标外部收件人数的邮件提示，则此元素的文本值为**true** 。 如果[GetMailTips 操作](getmailtips-operation.md)的使用者不一定要显示指示邮件地址为的外部收件人数的邮件提示，则值为**false** 。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -58,7 +58,7 @@ ms.locfileid: "19827491"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -70,5 +70,5 @@ ms.locfileid: "19827491"
 [GetMailTips 操作](getmailtips-operation.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

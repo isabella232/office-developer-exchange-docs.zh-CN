@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 70e41268-c231-4587-9d23-e46927fe5272
-description: UnknownAttendeeConflictData 元素均表示无法解析与会者或与会者不是用户、 通讯组列表或联系人。
-ms.openlocfilehash: 2363e243a833f580b4b5701b7d39d9ba9420f35a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: UnknownAttendeeConflictData 元素表示不能解析的与会者或不是用户、通讯组列表或联系人的与会者。
+ms.openlocfilehash: b4362e0117e3939c21342a1ab8079d95512aec79
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838336"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459866"
 ---
 # <a name="unknownattendeeconflictdata"></a>UnknownAttendeeConflictData
 
-**UnknownAttendeeConflictData**元素均表示无法解析与会者或与会者不是用户、 通讯组列表或联系人。 
+**UnknownAttendeeConflictData**元素表示不能解析的与会者或不是用户、通讯组列表或联系人的与会者。 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -46,9 +46,9 @@ ms.locfileid: "19838336"
  **UnknownAttendeeConflictData**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -60,11 +60,11 @@ ms.locfileid: "19838336"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[AttendeeConflictDataArray](attendeeconflictdataarray.md) <br/> |包含标识[GetUserAvailability 操作](getuseravailability-operation.md)中的查询与会者冲突数据的数组。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray` <br/> |
+|[AttendeeConflictDataArray](attendeeconflictdataarray.md) <br/> |包含在[GetUserAvailability 操作](getuseravailability-operation.md)中标识的被查询的与会者的冲突数据数组。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray` <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-Attendee 是未知的如果它无法解析对 Active Directory 目录服务对象。 如果无法确定为用户、 组或联系人与会者无法解析。 例如，与会者不会解析是否已启用邮件的公用文件夹。
+如果某个与会者无法针对 Active Directory 目录服务对象进行解析，则该与会者是未知的。 如果与会者无法确定为用户、组或联系人，则无法解析该与会者。 例如，如果某个与会者是已启用邮件的公用文件夹，则不会对其进行解析。
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -72,7 +72,7 @@ Attendee 是未知的如果它无法解析对 Active Directory 目录服务对�
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -86,5 +86,5 @@ Attendee 是未知的如果它无法解析对 Active Directory 目录服务对�
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

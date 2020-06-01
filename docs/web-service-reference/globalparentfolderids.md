@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8f5fcbcb-05ed-462a-99cf-a6b112a4aef6
 description: GlobalParentFolderIds 元素指定全局父文件夹的标识符。
-ms.openlocfilehash: b0ff9ab00f3e46351b5a2db9bc4b6282fa4385cd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 11c520fa0f4a1ed6d6c9d694b407e39cd036b9cd
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825747"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459095"
 ---
 # <a name="globalparentfolderids"></a>GlobalParentFolderIds
 
@@ -29,9 +29,9 @@ ms.locfileid: "19825747"
  **NonEmptyArrayOfBaseFolderIdsType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -39,8 +39,8 @@ ms.locfileid: "19825747"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[文件夹 Id](folderid.md) <br/> |包含一个文件夹的标识符和更改键。  <br/> |
-|[DistinguishedFolderId](distinguishedfolderid.md) <br/> |标识可以通过名称引用的文件夹。  <br/> |
+|[FolderId](folderid.md) <br/> |包含一个文件夹的标识符和更改键。  <br/> |
+|[DistinguishedFolderId](distinguishedfolderid.md) <br/> |标识可通过名称引用的文件夹。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -58,14 +58,14 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |types.xsd  <br/> |
+|验证文件  <br/> |类型 .xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 26d4fae0-8c78-4705-b5e8-d6033712c41e
-description: BusyType 元素表示为日历事件设置忙/闲状态。
-ms.openlocfilehash: 6484bc70c6a05084e5d2bc1738b575fbebe4c132
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: BusyType 元素表示为日历事件设置的忙/闲状态。
+ms.openlocfilehash: 7c2d18c21156a8603d3caeeb796a56c5d8afcba5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753403"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459081"
 ---
 # <a name="busytype"></a>BusyType
 
-**BusyType**元素表示为日历事件设置忙/闲状态。 
+**BusyType**元素表示为日历事件设置的忙/闲状态。 
   
 ```xml
 <BusyType>Free or Tentative or Busy or OOF or NoData</BusyType>
@@ -30,9 +30,9 @@ ms.locfileid: "19753403"
  **BusyType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -44,16 +44,16 @@ ms.locfileid: "19753403"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[IndividualAttendeeConflictData](individualattendeeconflictdata.md) <br/> |包含用户或联系人的忙/闲信息建议的会议时间时将发生时间窗口的状态。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray/IndividualAttendeeConflictData` <br/> |
-|[CalendarEvent](calendarevent.md) <br/> |代表独特的日历项匹配项。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]` <br/> |
+|[IndividualAttendeeConflictData](individualattendeeconflictdata.md) <br/> |包含与建议的会议时间同时发生的时间窗口的用户或联系人的忙/闲状态。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray/IndividualAttendeeConflictData` <br/> |
+|[CalendarEvent](calendarevent.md) <br/> |代表唯一的日历项目事件。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]` <br/> |
    
 ## <a name="text-value"></a>文本值
 
-需要为此元素的文本值。 值为 string 类型。 [BusyType](busytype.md)元素的可能值如下： 
+此元素需要一个文本值。 值为字符串类型。 以下是[BusyType](busytype.md)元素的可能值： 
   
-- 免费
+- 空闲
     
-- 暂定
+- 暂
     
 - 忙碌
     
@@ -61,7 +61,7 @@ ms.locfileid: "19753403"
     
 - NoData
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -69,7 +69,7 @@ ms.locfileid: "19753403"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -83,5 +83,5 @@ ms.locfileid: "19753403"
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

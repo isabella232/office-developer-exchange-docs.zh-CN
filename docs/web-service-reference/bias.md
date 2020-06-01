@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: ae10aa44-e6d3-483d-a3e6-bb9c45966810
 description: Bias 元素表示由标准时间和夏令时的 偏置 (UTC) 元素标识的与协调世界时 (UTC) 时差的时差。此值以分钟为单位。
-ms.openlocfilehash: 770bf97b030ac1293595560bc269f54896e35a15
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
-ms.translationtype: HT
+ms.openlocfilehash: 6c9dce88f3eece9c793fb018114f07a85c7cb89b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753331"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460237"
 ---
 # <a name="bias"></a>Bias
 
@@ -61,7 +61,7 @@ ms.locfileid: "19753331"
 下面的示例显示 XML 请求的一部分，该请求标识通过从 UTC 时差调整 -60 分钟来观测夏令时的用户。这实际上造成与 UTC 偏差 420 分钟。
   
 ```xml
-<TimeZone xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+<TimeZone xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
   <Bias>480</Bias>
   <StandardTime>
     <Bias>0</Bias>
@@ -84,7 +84,7 @@ ms.locfileid: "19753331"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -92,5 +92,5 @@ ms.locfileid: "19753331"
 ## <a name="see-also"></a>另请参阅
 
 - [GetUserAvailability 操作](getuseravailability-operation.md)
-- [获取用户可用性](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [获取用户可用性](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

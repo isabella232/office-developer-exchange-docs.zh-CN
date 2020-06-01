@@ -10,17 +10,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 19873b72-ec12-4811-ae5f-6b61f2dbf0cc
-description: GetUMProperties 元素定义 GetUMProperties 操作 （UM web 服务） 请求。
-ms.openlocfilehash: bfae288c341bc5d3605282cf78393ef7dceed494
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: GetUMProperties 元素定义 GetUMProperties 操作（UM web 服务）请求。
+ms.openlocfilehash: 2cab45ec6b1058f459b65992cf7345f1be171ce7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825680"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459130"
 ---
 # <a name="getumproperties-um-web-service"></a>GetUMProperties （UM web 服务）
 
-**GetUMProperties**元素定义[GetUMProperties 操作 （UM web 服务）](getumproperties-operation-um-web-service.md)请求。 
+**GetUMProperties**元素定义[GETUMPROPERTIES 操作（UM web 服务）](getumproperties-operation-um-web-service.md)请求。 
   
 [GetUMProperties （UM web 服务）](getumproperties-um-web-service.md)
   
@@ -31,9 +31,9 @@ ms.locfileid: "19825680"
  **complexType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -53,7 +53,7 @@ ms.locfileid: "19825680"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |邮件  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
@@ -62,5 +62,5 @@ ms.locfileid: "19825680"
 
 
 
-[GetUMProperties 操作 （UM web 服务）](getumproperties-operation-um-web-service.md)
+[GetUMProperties 操作（UM web 服务）](getumproperties-operation-um-web-service.md)
 

@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5ae2292f-fc5f-49fa-88a7-34ba86ff21f9
-description: StartWallClock 元素指定时区会议发生的位置中的会议的开始时间。
-ms.openlocfilehash: 24fcc314daf1732b5167e1fa865e6f544ca34db6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: StartWallClock 元素指定会议在会议召开的位置所在的时区的开始时间。
+ms.openlocfilehash: 6022de4659dd12579b0545b5d3ffd2ea9b8a103d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827569"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460006"
 ---
 # <a name="startwallclock"></a>StartWallClock
 
-**StartWallClock**元素指定时区会议发生的位置中的会议的开始时间。 
+**StartWallClock**元素指定会议在会议召开的位置所在的时区的开始时间。 
   
 ```XML
 <StartWallClock></StartWallClock>
@@ -27,9 +27,9 @@ ms.locfileid: "19827569"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -39,11 +39,11 @@ ms.locfileid: "19827569"
   
 ### <a name="parent-elements"></a>父元素
 
-[日历项目](calendaritem.md) | [MeetingRequest](meetingrequest.md)
+[CalendarItem](calendaritem.md)  | [MeetingRequest](meetingrequest.md)
   
 ## <a name="text-value"></a>文本值
 
-**StartWallClock**元素的文本值是会议发生的位置所在的时区参加会议的开始时间。 
+**StartWallClock**元素的文本值是会议在会议召开的位置所在时区的开始时间。 
   
 ## <a name="remarks"></a>备注
 
@@ -55,7 +55,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> ||

@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 18dc3a97-cc0a-4092-934e-a6e86f52e668
-description: IsPermanentFailure 元素表示索引项的上一次尝试是否成功。
-ms.openlocfilehash: 39592c15394a57e1c6aa1183ed0ccedeb085e6ea
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: IsPermanentFailure 元素指示先前对项目编制索引的尝试是否未成功。
+ms.openlocfilehash: 48a13eebfa16c538c1b10d92f080d51f1b318d12
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826085"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460391"
 ---
 # <a name="ispermanentfailure"></a>IsPermanentFailure
 
-**IsPermanentFailure**元素表示索引项的上一次尝试是否成功。 
+**IsPermanentFailure**元素指示先前对项目编制索引的尝试是否未成功。 
   
 ```XML
 <IsPermanentFailure>true | false</IsPermanentFailure>
@@ -26,9 +26,9 @@ ms.locfileid: "19826085"
  **Boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,7 +42,7 @@ ms.locfileid: "19826085"
   
 ## <a name="text-value"></a>文本值
 
-文本值为**true**的**IsPermanentFailure**元素表示索引邮箱项目上一次尝试成功。 如果值为**false**指示索引邮箱项目上一次尝试成功。 
+如果**IsPermanentFailure**元素的文本值为**true，则**表示以前对邮箱项目的索引尝试未成功。 **如果值为 false** ，则表示之前对邮箱项目的索引尝试已成功。 
   
 ## <a name="remarks"></a>备注
 
@@ -54,7 +54,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |false  <br/> |

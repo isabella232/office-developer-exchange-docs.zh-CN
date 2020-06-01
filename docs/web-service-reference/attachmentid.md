@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 55a5fd77-60d1-40fa-8144-770600cedc6a
-description: AttachmentId 元素标识项目或文件附件。 在 CreateAttachment 响应中使用此元素。
-ms.openlocfilehash: 2910503d1661ca3aaeeb4e319deb39f6b57c5c0a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: AttachmentId 元素标识项目或文件附件。 此元素在 CreateAttachment 响应中使用。
+ms.openlocfilehash: b5dc9299b615f0fc01b8afcbaabf0ec7996e53d1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753277"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459109"
 ---
 # <a name="attachmentid"></a>AttachmentId
 
-**AttachmentId**元素标识项目或文件附件。 在 CreateAttachment 响应中使用此元素。 
+**AttachmentId**元素标识项目或文件附件。 此元素在 CreateAttachment 响应中使用。 
   
 ```xml
 <AttachmentId Id="" RootItemId="" RootItemChangeKey="" />
@@ -30,16 +30,15 @@ ms.locfileid: "19753277"
  **AttachmentIdType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**说明**|
 |:-----|:-----|
-|
-  **Id** <br/> |标识附件的唯一标识符。  <br/> |
-|**RootItemId** <br/> |标识附件附加到根存储项的唯一标识符。  <br/> |
-|**RootItemChangeKey** <br/> |标识附件附加到根存储项的更改键。  <br/> |
+|**Id** <br/> |标识附件的唯一标识符。  <br/> |
+|**RootItemId** <br/> |标识附件所附加到的根存储项的唯一标识符。  <br/> |
+|**RootItemChangeKey** <br/> |标识附件附加到的根存储项的更改键。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -49,14 +48,14 @@ ms.locfileid: "19753277"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ItemAttachment](itemattachment.md) <br/> |代表附加到另一个 Exchange 项目的 Exchange 项目。  <br/> |
-|[FileAttachment](fileattachment.md) <br/> |代表附加到 Exchange 存储中的项的文件。  <br/> |
+|[ItemAttachment](itemattachment.md) <br/> |表示附加到另一个 Exchange 项目的 Exchange 项目。  <br/> |
+|[FileAttachment](fileattachment.md) <br/> |代表附加到 Exchange 存储中的项目的文件。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-请务必注意创建附件时，已更改的根项目的更改键。
+请务必注意，创建附件时，会更改根项的更改密钥。
   
-DeleteAttachment 和 GetAttachment 请求中使用[AttachmentId （GetAttachment 和 DeleteAttachment）](attachmentid-getattachment-and-deleteattachment.md)元素。 
+[AttachmentId （GetAttachment 和 DeleteAttachment）](attachmentid-getattachment-and-deleteattachment.md)元素在 DeleteAttachment 和 GetAttachment 请求中使用。 
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -64,12 +63,12 @@ DeleteAttachment 和 GetAttachment 请求中使用[AttachmentId （GetAttachment
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 78a09c3a-1646-4c55-95a2-1109fb11e1c6
-description: Userid 元素包含一个数组委派用户获取或删除主体的邮箱。 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 中引入了此元素。
-ms.openlocfilehash: 277ae96fdbc30f1b39ef20553e10ff1de3ff7a8b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: UserIds 元素包含要从主体邮箱中获取或删除的委派用户的数组。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
+ms.openlocfilehash: de4661226c154ef0d2d5ac55c57405e20c4d2aee
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838472"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459775"
 ---
 # <a name="userids"></a>UserIds
 
-**Userid**元素包含一个数组委派用户获取或删除主体的邮箱。 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 中引入了此元素。 
+**UserIds**元素包含要从主体邮箱中获取或删除的委派用户的数组。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
   
 ```xml
 <UserIds>
@@ -32,9 +32,9 @@ ms.locfileid: "19838472"
  **ArrayOfUserIdType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,16 +42,16 @@ ms.locfileid: "19838472"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[用户 Id](userid.md) <br/> |标识用于获取或删除主体的邮箱的代理人。 Exchange 2007 SP1 中引入了此元素。  <br/> |
+|[UserId](userid.md) <br/> |标识要从主体邮箱中获取或删除的代理。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GetDelegate](getdelegate.md) <br/> |定义请求以获取有关委派给邮箱的信息。 Exchange 2007 SP1 中引入了此元素。  <br/> |
-|[RemoveDelegate](removedelegate.md) <br/> |定义请求以从邮箱删除代理人。 Exchange 2007 SP1 中引入了此元素。  <br/> |
+|[GetDelegate](getdelegate.md) <br/> |定义请求以获取有关委派给邮箱的信息。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
+|[RemoveDelegate](removedelegate.md) <br/> |定义请求以从邮箱删除代理人。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 Microsoft Exchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -59,7 +59,7 @@ ms.locfileid: "19838472"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -73,5 +73,5 @@ ms.locfileid: "19838472"
 [RemoveDelegate 操作](removedelegate-operation.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

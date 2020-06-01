@@ -1,5 +1,5 @@
 ---
-title: UpdateItem Operation
+title: UpdateItem 操作
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,44 +11,44 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4
-description: UpdateItem 操作用于修改 Exchange 存储中现有项目的属性。
-ms.openlocfilehash: 009ba16315017c4418fbd71d49744015c4d6d1b1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: UpdateItem 操作用于修改 Exchange 存储中现有项的属性。
+ms.openlocfilehash: c001b7656862144023e9704cb04e6b4c0030f9df
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838401"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459389"
 ---
-# <a name="updateitem-operation"></a>UpdateItem Operation
+# <a name="updateitem-operation"></a>UpdateItem 操作
 
-**UpdateItem**操作用于修改 Exchange 存储中现有项目的属性。 
+**UpdateItem**操作用于修改 Exchange 存储中现有项的属性。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-您可以在项目上执行三个基本 update 操作。 下表列出了您可以执行的操作。
+您可以对项目执行三个基本的更新操作。 下表列出了您可以执行的操作。
   
 |**操作**|**说明**|
 |:-----|:-----|
-|追加  <br/> |将数据添加到现有属性。 此操作可保留当前的数据。 追加不适用于所有属性。  <br/> |
-|设置  <br/> |如果属性包含数据，或创建属性并设置其值，如果属性不存在，将替换为属性的数据。 设置操作仅适用于可写属性。  <br/> |
-|Delete  <br/> |从项目中删除属性。 这与属性设置为空值。 完成此操作后，该属性不存在的项目。 删除才适用于可写属性。  <br/> |
+|Append  <br/> |将数据添加到现有属性。 此操作将保留当前数据。 Append 不应用于所有属性。  <br/> |
+|Set  <br/> |如果属性包含数据，则替换属性的数据; 或者，如果属性不存在，则创建属性并设置其值。 Set 操作仅适用于可写属性。  <br/> |
+|删除  <br/> |从项目中删除属性。 这与将属性设置为空值不同。 完成此操作后，该项目的属性不存在。 删除仅适用于可写属性。  <br/> |
    
-**UpdateItem**呼叫可修改一个或多个项目和对每个项目的一个或多个属性。 [ItemChanges](itemchanges.md)元素包含要执行此呼叫的一部分的所有的修改。 [ItemChange](itemchange.md)元素， [ItemChanges](itemchanges.md)元素的子元素均表示单个项目上执行的修改。 [ItemChange](itemchange.md)元素包含一组可对单个项目执行的 update 操作。 [更新 （项）](updates-item.md)元素中包含这些更改。 [ItemId](itemid.md)元素标识要更新的项。 若要更新的项的多个属性， [SetItemField](setitemfield.md)、 [AppendToItemField](appendtoitemfield.md)或[DeleteItemField](deleteitemfield.md)必须提供需要更新的每个属性。 
+**UpdateItem**调用可用于修改一个或多个项目，以及每个项目上的一个或多个属性。 [ItemChanges](itemchanges.md)元素包含要作为此调用的一部分执行的所有修改。 [ItemChange](itemchange.md)元素（ [ItemChanges](itemchanges.md)元素的子元素）表示要对单个项目执行的修改。 [ItemChange](itemchange.md)元素包含一组可对单个项目执行的更新操作。 这些更改包含在[Updates （Item）](updates-item.md)元素中。 [ItemId](itemid.md)元素标识要更新的项。 若要更新一个项的多个属性，必须为需要更新的每个属性提供[SetItemField](setitemfield.md)、 [AppendToItemField](appendtoitemfield.md)或[DeleteItemField](deleteitemfield.md) 。 
   
 > [!NOTE]
-> 指定它们的顺序应用更新操作。 
+> 将按指定的顺序应用更新操作。 
   
-对于每个更改，您必须使用其新的值指定要更改的属性的路径和该项目的表示形式。 删除操作是略有不同的这是的只有属性应删除的路径，则需要。 组和追加操作，指定的路径必须指向同一属性中的项目表示要设置的。 如果这些不同，则将返回错误。
+对于每个更改，您必须指定要更改的属性的路径以及该项目的表示形式的新值。 删除操作略有不同，只有应删除的属性的路径是必需的。 对于 set 和 append 操作，指定的路径必须引用在项目表示形式中设置的同一属性。 如果这些不同，将返回错误。
   
-**UpdateItem**操作可以设置 Exchange 存储项目的[开始](start.md)和[结束](end-ex15websvcsotherref.md)时间。 在**UpdateItem**请求中，可以没有还设置的[结束](end-ex15websvcsotherref.md)时间设置[开始](start.md)时间。 如果[开始](start.md)时间晚于的[结束](end-ex15websvcsotherref.md)时间，这会导致错误。 注意客户端应用程序必须调整[开始](start.md)时间才能保留持续时间的更改时的[结束](end-ex15websvcsotherref.md)时间。 
+**UpdateItem**操作可以设置 Exchange 存储项的[开始](start.md)和[结束](end-ex15websvcsotherref.md)时间。 在**UpdateItem**请求中，可以设置[开始](start.md)时间，而不同时设置[结束](end-ex15websvcsotherref.md)时间。 如果[开始](start.md)时间晚于[结束](end-ex15websvcsotherref.md)时间，这可能会导致错误。 请注意，客户端应用程序必须调整[开始](start.md)时间更改的[结束](end-ex15websvcsotherref.md)时间，以便保留持续时间。 
   
-更新单个日历项目时成为定期主日历项，您必须[MeetingTimeZone](meetingtimezone.md)属性的设置**UpdateItem**操作才能保留的日历项目的原始时区。 
+如果将单个日历项目更新为定期主日历项目，则必须通过**UpdateItem**操作设置[MeetingTimeZone](meetingtimezone.md)属性，以便保留日历项目的原始时区。 
   
 ## <a name="setitemfield-request-example"></a>SetItemField 请求示例
 
 ### <a name="description"></a>说明
 
-**UpdateItem**请求的下面的示例演示如何设置对项目的 sensitivity 属性。 
+以下示例的**UpdateItem**请求显示如何设置项目的敏感度属性。 
   
 ### <a name="code"></a>代码
 
@@ -57,10 +57,10 @@ ms.locfileid: "19838401"
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
     <UpdateItem MessageDisposition="SaveOnly" ConflictResolution="AutoResolve" 
-                xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ItemChanges>
         <t:ItemChange>
           <t:ItemId Id="AAAtAEFkb..." ChangeKey="CQAAABYAAAB..."/>
@@ -79,9 +79,9 @@ ms.locfileid: "19838401"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>注释
+### <a name="comments"></a>备注
 
-已缩短的项标识符和更改密钥，以保留可读性。
+项目标识符和更改密钥已缩短，以保持可读性。
   
 ### <a name="setitemfield-request-elements"></a>SetItemField 请求元素
 
@@ -95,13 +95,13 @@ ms.locfileid: "19838401"
     
 - [ItemId](itemid.md)
     
-- [更新 （项）](updates-item.md)
+- [更新（项目）](updates-item.md)
     
 - [SetItemField](setitemfield.md)
     
 - [FieldURI](fielduri.md)
     
-- [Message](message-ex15websvcsotherref.md)
+- [邮件](message-ex15websvcsotherref.md)
     
 - [Sensitivity](sensitivity.md)
     
@@ -109,7 +109,7 @@ ms.locfileid: "19838401"
 
 ### <a name="description"></a>说明
 
-**UpdateItem**请求的下面的示例演示如何将文本追加到的项的 body 属性。 
+以下示例的**UpdateItem**请求显示如何将文本追加到项的 body 属性。 
   
 ### <a name="code"></a>代码
 
@@ -118,10 +118,10 @@ ms.locfileid: "19838401"
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
   xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
     <UpdateItem MessageDisposition="SaveOnly" ConflictResolution="AutoResolve" 
-                xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ItemChanges>
         <t:ItemChange>
           <t:ItemId Id="AAAtAEFkbW..." ChangeKey="CQAAABYA..."/>
@@ -140,17 +140,17 @@ ms.locfileid: "19838401"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>注释
+### <a name="comments"></a>备注
 
 以下属性支持 append 操作：
   
-- **消息： 回复**
+- **邮件： ReplyTo**
     
-- **项目： 正文**
+- **项目：正文**
     
 - 所有收件人和与会者集合属性
     
-已缩短的项标识符和更改密钥，以保留可读性。
+项目标识符和更改密钥已缩短，以保持可读性。
   
 ### <a name="appendtoitemfield-request-elements"></a>AppendToItemField 请求元素
 
@@ -164,13 +164,13 @@ ms.locfileid: "19838401"
     
 - [ItemId](itemid.md)
     
-- [更新 （项）](updates-item.md)
+- [更新（项目）](updates-item.md)
     
 - [AppendToItemField](appendtoitemfield.md)
     
 - [FieldURI](fielduri.md)
     
-- [Message](message-ex15websvcsotherref.md)
+- [邮件](message-ex15websvcsotherref.md)
     
 - [Body](body.md)
     
@@ -178,7 +178,7 @@ ms.locfileid: "19838401"
 
 ### <a name="description"></a>说明
 
-**UpdateItem**请求的下面的示例演示如何删除上一个项目的属性。 
+下面的**UpdateItem**请求示例演示如何删除项的属性。 
   
 ### <a name="code"></a>代码
 
@@ -186,10 +186,10 @@ ms.locfileid: "19838401"
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
-  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
     <UpdateItem MessageDisposition="SaveOnly" ConflictResolution="AutoResolve" 
-                xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ItemChanges>
         <t:ItemChange>
           <t:ItemId Id="AAAtAEFkbWluaXN0cm..." ChangeKey="CQAAABYAA..."/>
@@ -205,9 +205,9 @@ ms.locfileid: "19838401"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>注释
+### <a name="comments"></a>备注
 
-已缩短的项标识符和更改密钥，以保留可读性。
+项目标识符和更改密钥已缩短，以保持可读性。
   
 ### <a name="deleteitemfield-request-elements"></a>DeleteItemField 请求元素
 
@@ -221,7 +221,7 @@ ms.locfileid: "19838401"
     
 - [ItemId](itemid.md)
     
-- [更新 （项）](updates-item.md)
+- [更新（项目）](updates-item.md)
     
 - [DeleteItemField](deleteitemfield.md)
     
@@ -231,7 +231,7 @@ ms.locfileid: "19838401"
 
 ### <a name="description"></a>说明
 
-下面的示例演示对**UpdateItem**请求成功响应。 
+下面的示例演示对**UpdateItem**请求的成功响应。 
   
 ### <a name="code"></a>代码
 
@@ -242,12 +242,12 @@ ms.locfileid: "19838401"
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="664" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"/>
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"/>
   </soap:Header>
   <soap:Body>
-    <UpdateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-      xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <UpdateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+      xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:UpdateItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -263,13 +263,13 @@ ms.locfileid: "19838401"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>注释
+### <a name="comments"></a>备注
 
-已缩短的项标识符和更改密钥，以保留可读性。
+项目标识符和更改密钥已缩短，以保持可读性。
   
-### <a name="successful-response-elements"></a>成功响应元素
+### <a name="successful-response-elements"></a>成功的响应元素
 
-在响应中使用以下元素：
+响应中使用以下元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -283,7 +283,7 @@ ms.locfileid: "19838401"
     
 - [Items](items.md)
     
-- [Message](message-ex15websvcsotherref.md)
+- [邮件](message-ex15websvcsotherref.md)
     
 - [ItemId](itemid.md)
     
@@ -291,15 +291,15 @@ ms.locfileid: "19838401"
 
 
 
-[UpdateItem 操作 （任务）](updateitem-operation-task.md)
+[UpdateItem 操作（任务）](updateitem-operation-task.md)
   
-[UpdateItem 操作 （联系人）](updateitem-operation-contact.md)
+[UpdateItem 操作（联系人）](updateitem-operation-contact.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 
 
-[更新联系人](http://msdn.microsoft.com/library/9a865953-b94a-4229-b632-2dee433314be%28Office.15%29.aspx)
+[更新联系人](https://msdn.microsoft.com/library/9a865953-b94a-4229-b632-2dee433314be%28Office.15%29.aspx)
   
-[更新任务](http://msdn.microsoft.com/library/0a1bf360-d40c-4a99-929b-4c73a14394d5%28Office.15%29.aspx)
+[更新任务](https://msdn.microsoft.com/library/0a1bf360-d40c-4a99-929b-4c73a14394d5%28Office.15%29.aspx)
 

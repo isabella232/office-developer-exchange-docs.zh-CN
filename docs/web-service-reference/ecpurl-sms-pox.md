@@ -1,32 +1,32 @@
 ---
-title: EcpUrl sms (POX)
+title: EcpUrl-sms （POX）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: f5e5e589-ee16-42a8-9cd4-ae3909fc869b
-description: EcpUrl sms 元素指定可以结合使用 EcpUrl (POX) 元素的值生成一个 URL，可用于访问已启用邮件的用户的短信服务 (SMS) 设置的部分 URL。
-ms.openlocfilehash: 38471db7b7e046e43425b132b1716033c1c96afd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: EcpUrl 元素指定一个部分 URL，该 URL 可以与 EcpUrl （POX）元素的值相结合，以生成可用于为启用邮件的用户访问短信服务（SMS）设置的 URL。
+ms.openlocfilehash: 24f475e7f2d54fa565cc90796a983c0bd842e4da
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754010"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458682"
 ---
-# <a name="ecpurl-sms-pox"></a>EcpUrl sms (POX)
+# <a name="ecpurl-sms-pox"></a>EcpUrl-sms （POX）
 
-**EcpUrl sms**元素指定可以结合使用[EcpUrl (POX)](ecpurl-pox.md)元素的值生成一个 URL，可用于访问已启用邮件的用户的短信服务 (SMS) 设置的部分 URL。 
+**EcpUrl**元素指定一个部分 url，该 url 可以与[EcpUrl （POX）](ecpurl-pox.md)元素的值相结合，以生成可用于为启用邮件的用户访问短信服务（SMS）设置的 url。 
   
-[自动发现 (POX)](autodiscover-pox.md)
+[自动发现（POX）](autodiscover-pox.md)
   
-[响应 (POX)](response-pox.md)
+[响应（POX）](response-pox.md)
   
-[帐户 (POX)](account-pox.md)
+[帐户（POX）](account-pox.md)
   
-[协议 (POX)](protocol-pox.md)
+[协议（POX）](protocol-pox.md)
   
-[EcpUrl sms (POX)](ecpurl-sms-pox.md)
+[EcpUrl-sms （POX）](ecpurl-sms-pox.md)
   
 ```XML
 <EcpUrl-sms/>
@@ -34,9 +34,9 @@ ms.locfileid: "19754010"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -48,19 +48,19 @@ ms.locfileid: "19754010"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[协议 (POX)](protocol-pox.md) <br/> |包含客户端连接到运行 Microsoft Exchange Server 已安装了客户端访问服务器角色的计算机的规格。  <br/> |
+|[协议（POX）](protocol-pox.md) <br/> |包含将客户端连接到运行 Microsoft Exchange Server 且安装了客户端访问服务器角色的计算机的规范。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-文本值表示可以结合使用[EcpUrl (POX)](ecpurl-pox.md)元素的值生成一个 URL，可用于访问用户的短信设置的部分 URL。 
+Text 值表示一个可与[EcpUrl （POX）](ecpurl-pox.md)元素的值结合使用的部分 url，以生成可用于访问用户的 SMS 设置的 URL。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-**EcpUrl sms**元素是**协议**元素的可选子元素。 
+**EcpUrl**元素是**Protocol**元素的可选子元素。 
   
 ## <a name="see-also"></a>另请参阅
 
 
 
-[Exchange POX 自动发现 XML 元素](pox-autodiscover-xml-elements-for-exchange.md)
+[Exchange 的 POX 自动发现 XML 元素](pox-autodiscover-xml-elements-for-exchange.md)
 

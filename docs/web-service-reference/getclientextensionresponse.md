@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ef4b1aba-a55d-4d64-ac80-5d4e6c4e72bd
-description: GetClientExtensionResponse 元素包含响应获取应用程序的配置信息。
-ms.openlocfilehash: 523a103ec9397b0dce08aa47b074303c9e6ac897
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: GetClientExtensionResponse 元素包含获取有关应用程序的配置信息的响应。
+ms.openlocfilehash: 65c1995fe75b3894607d27ed65548fbbdce0664a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754484"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459516"
 ---
 # <a name="getclientextensionresponse"></a>GetClientExtensionResponse
 
-**GetClientExtensionResponse**元素包含响应获取应用程序的配置信息。 
+**GetClientExtensionResponse**元素包含获取有关应用程序的配置信息的响应。 
   
 ```XML
 <GetClientExtensionResponse>
@@ -33,21 +33,21 @@ ms.locfileid: "19754484"
  **ClientExtensionResponseType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
 ### <a name="child-elements"></a>子元素
 
-[MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md) | [ClientExtensions](clientextensions.md) | [RawMasterTableXml](rawmastertablexml.md)
+[MessageText](messagetext.md)  | [ResponseCode](responsecode.md)  | [DescriptiveLinkKey](descriptivelinkkey.md)  | [MessageXml](messagexml.md)  | [ClientExtensions](clientextensions.md)  | [RawMasterTableXml](rawmastertablexml.md)
   
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 中引入了此元素。
   
@@ -57,7 +57,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |false  <br/> |
