@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: a0363c42-6d35-4074-bc17-946eb12736ff
-description: PhoneCallInformation 元素指定的电话呼叫的状态信息。
-ms.openlocfilehash: e64e7b38b3801c60df8a966e95d980746533d3a4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: PhoneCallInformation 元素指定电话呼叫的状态信息。
+ms.openlocfilehash: 75370bccb841818a8302bdd055ad96fd16b2e8df
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826758"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468843"
 ---
 # <a name="phonecallinformation"></a>PhoneCallInformation
 
-**PhoneCallInformation**元素指定的电话呼叫的状态信息。 
+**PhoneCallInformation**元素指定电话呼叫的状态信息。 
   
 ```XML
 <PhoneCallInformation>
@@ -35,9 +35,9 @@ ms.locfileid: "19826758"
  **PhoneCallInformationType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -45,18 +45,18 @@ ms.locfileid: "19826758"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[PhoneCallState](phonecallstate.md) <br/> |指定的电话的状态。 此元素是必需的。  <br/> |
+|[PhoneCallState](phonecallstate.md) <br/> |指定电话呼叫的状态。 此元素是必需的。  <br/> |
 |[ConnectionFailureCause](connectionfailurecause.md) <br/> |指定连接失败的原因。 此元素是必需的。  <br/> |
-|[SIPResponseText](sipresponsetext.md) <br/> |指定的 SIP 响应文本。 此元素是可选的。  <br/> |
-|[SIPResponseCode](sipresponsecode.md) <br/> |指定的 SIP 响应代码。 此元素是可选的。  <br/> |
+|[SIPResponseText](sipresponsetext.md) <br/> |指定 SIP 响应文本。 此元素为可选。  <br/> |
+|[SIPResponseCode](sipresponsecode.md) <br/> |指定 SIP 响应代码。 此元素为可选。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GetPhoneCallInformationResponse](getphonecallinformationresponse.md) <br/> |定义[GetPhoneCallInformation 操作](getphonecallinformation-operation.md)请求的响应。  <br/> |
+|[GetPhoneCallInformationResponse](getphonecallinformationresponse.md) <br/> |定义对[GetPhoneCallInformation 操作](getphonecallinformation-operation.md)请求的响应。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -64,7 +64,7 @@ ms.locfileid: "19826758"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -73,5 +73,5 @@ ms.locfileid: "19826758"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

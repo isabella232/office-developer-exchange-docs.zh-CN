@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ccb4cd62-9779-4ca7-a4fe-5a96e6af8f48
-description: Query 元素包含搜索查询的保留。
-ms.openlocfilehash: bbbbd1f6645b0a594c452a4de5e37a0496b53837
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Query 元素包含用于保留的搜索查询。
+ms.openlocfilehash: 52b7f58ee0304621d37fc592a0377f5fd82cea29
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826934"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468857"
 ---
 # <a name="query"></a>查询
 
-**Query**元素包含搜索查询的保留。 
+**Query**元素包含用于保留的搜索查询。 
   
 ```XML
 <Query></Query>
@@ -26,9 +26,9 @@ ms.locfileid: "19826934"
  **string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -38,11 +38,11 @@ ms.locfileid: "19826934"
   
 ### <a name="parent-elements"></a>父元素
 
-[SetHoldOnMailboxes](setholdonmailboxes.md) | [MailboxHoldResult](mailboxholdresult.md) | [MailboxQuery](mailboxquery.md)
+[SetHoldOnMailboxes](setholdonmailboxes.md)  | [MailboxHoldResult](mailboxholdresult.md)  | [MailboxQuery](mailboxquery.md)
   
 ## <a name="text-value"></a>文本值
 
-**Query**元素的文本值是发现搜索的搜索查询字符串。 
+**查询**元素的文本值是发现搜索的搜索查询字符串。 
   
 ## <a name="remarks"></a>备注
 
@@ -54,7 +54,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> ||

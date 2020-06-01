@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 145c5cc7-a894-4f0b-a6ea-358cddfb5c33
-description: PullSubscriptionRequest 元素均表示对基于请求的事件通知订阅的订阅。
-ms.openlocfilehash: 5f757bf1f79f7e2a00fb886db50e6ea0eaed1a4a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: PullSubscriptionRequest 元素表示对基于请求的事件通知订阅的订阅。
+ms.openlocfilehash: fb9712c9e1481678c2821ee344052783d5c25bf9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826932"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468864"
 ---
 # <a name="pullsubscriptionrequest"></a>PullSubscriptionRequest
 
-**PullSubscriptionRequest**元素均表示对基于请求的事件通知订阅的订阅。 
+**PullSubscriptionRequest**元素表示对基于请求的事件通知订阅的订阅。 
   
 [订阅](subscribe.md)
   
@@ -39,22 +39,22 @@ ms.locfileid: "19826932"
  **PullSubscriptionRequestType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**说明**|
 |:-----|:-----|
-|**SubscribeToAllFolders** <br/> |指示是否订阅所有可用文件夹。 此属性是可选的。  <br/> |
+|**SubscribeToAllFolders** <br/> |指示是否订阅所有可用的文件夹。 此特性是可选的。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[FolderIds](folderids.md) <br/> |包含用于标识要监视的事件通知文件夹的文件夹标识符的数组。  <br/> |
-|[EventTypes](eventtypes.md) <br/> |包含用于创建订阅事件通知的集合。  <br/> |
-|[水印](watermark.md) <br/> |代表邮箱事件表格中的事件书签。 这用于在由水印事件创建启动订阅。 如果找不到订阅请求从水印，向客户端将返回错误响应。 如果水印已超过 30 天或水印从未邮箱中存在，则可能发生此错误。  <br/> |
-|[Timeout](timeout.md) <br/> |表示的工期，以分钟为单位订阅可以持续为空闲状态 GetEvents 请求从客户端。  <br/> |
+|[FolderIds](folderids.md) <br/> |包含用于标识要监视其事件通知的文件夹的文件夹标识符的数组。  <br/> |
+|[EventTypes](eventtypes.md) <br/> |包含用于创建订阅的事件通知的集合。  <br/> |
+|[Watermark](watermark.md) <br/> |表示邮箱事件表中的事件书签。 这用于创建在由水印表示的事件处启动的订阅。 如果找不到订阅请求中的水印，将向客户端返回错误响应。 如果水印的时间超过30天或者水印从未出现在邮箱中，则可能会出现此错误。  <br/> |
+|[Timeout](timeout.md) <br/> |表示订阅可以保持空闲状态的持续时间（以分钟为单位），而无需客户端的 GetEvents 请求。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -66,7 +66,7 @@ ms.locfileid: "19826932"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -74,7 +74,7 @@ ms.locfileid: "19826932"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -89,8 +89,8 @@ ms.locfileid: "19826932"
   
 [GetEvents 操作](getevents-operation.md)
   
-[取消操作](unsubscribe-operation.md)
+[取消订阅操作](unsubscribe-operation.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

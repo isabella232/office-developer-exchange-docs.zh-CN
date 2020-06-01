@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 1811df99-ca5b-48a3-b160-b3fd70320c34
-description: UserConfiguration 元素定义的单个用户配置对象。
-ms.openlocfilehash: ce3eaa470ef592c5a8e5a7ef24c377bb2feeca2e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: UserConfiguration 元素定义单个用户配置对象。
+ms.openlocfilehash: 1217f5d591570c2d8df49a116b6bf35c243d1e0e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838461"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468906"
 ---
 # <a name="userconfiguration"></a>UserConfiguration
 
-**UserConfiguration**元素定义的单个用户配置对象。 
+**UserConfiguration**元素定义单个用户配置对象。 
   
 ```XML
 <UserConfiguration>
@@ -36,9 +36,9 @@ ms.locfileid: "19838461"
  **UserConfigurationType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -46,21 +46,21 @@ ms.locfileid: "19838461"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[UserConfigurationName](userconfigurationname.md) <br/> |代表用户配置对象的名称。 创建用户配置对象时，必须使用此元素。  <br/> |
-|[ItemId](itemid.md) <br/> |定义的用户配置对象项标识符。  <br/> |
-|"词典" <br/> |定义一组用户配置对象的词典属性条目。  <br/> |
-|[XmlData](xmldata.md) <br/> |包含 XML 数据属性的用户配置对象的新内容。  <br/> |
-|[BinaryData](binarydata.md) <br/> |包含二进制数据属性的用户配置对象的新内容。  <br/> |
+|[UserConfigurationName](userconfigurationname.md) <br/> |表示用户配置对象的名称。 创建用户配置对象时，必须使用此元素。  <br/> |
+|[ItemId](itemid.md) <br/> |定义 "用户配置对象" 项标识符。  <br/> |
+|"词典" <br/> |为用户配置对象定义一组字典属性项。  <br/> |
+|[XmlData](xmldata.md) <br/> |包含用户配置对象的 XML 数据属性内容。  <br/> |
+|[BinaryData](binarydata.md) <br/> |包含用户配置对象的二进制数据属性内容。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[CreateUserConfiguration](createuserconfiguration.md) <br/> |表示要创建用户配置对象的请求。  <br/> |
-|[GetUserConfigurationResponseMessage](getuserconfigurationresponsemessage.md) <br/> |代表一个响应，其中返回的用户配置对象。  <br/> |
-|[UpdateUserConfiguration](updateuserconfiguration.md) <br/> |表示要更新的用户配置对象的请求。  <br/> |
+|[CreateUserConfiguration](createuserconfiguration.md) <br/> |表示创建用户配置对象的请求。  <br/> |
+|[GetUserConfigurationResponseMessage](getuserconfigurationresponsemessage.md) <br/> |表示返回用户配置对象的响应。  <br/> |
+|[UpdateUserConfiguration](updateuserconfiguration.md) <br/> |表示一个更新用户配置对象的请求。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -68,7 +68,7 @@ ms.locfileid: "19838461"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -77,5 +77,5 @@ ms.locfileid: "19838461"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

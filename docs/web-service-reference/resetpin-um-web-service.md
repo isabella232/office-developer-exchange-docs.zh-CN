@@ -10,17 +10,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 383f0735-1caa-4675-a6e1-6dba6c5b1a28
-description: ResetPIN 元素定义 ResetPIN 操作 （UM web 服务） 请求。
-ms.openlocfilehash: 3b6e68b7292d0c660c1980cc977981bef2a5e053
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ResetPIN 元素定义 ResetPIN 操作（UM web 服务）请求。
+ms.openlocfilehash: de175797b202219df994708680ac8ab750b02880
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827147"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44468850"
 ---
 # <a name="resetpin-um-web-service"></a>ResetPIN （UM web 服务）
 
-ResetPIN 元素定义[ResetPIN 操作 （UM web 服务）](resetpin-operation-um-web-service.md)请求。 
+ResetPIN 元素定义[ResetPIN 操作（UM web 服务）](resetpin-operation-um-web-service.md)请求。 
   
 [ResetPIN （UM web 服务）](resetpin-um-web-service.md)
   
@@ -31,9 +31,9 @@ ResetPIN 元素定义[ResetPIN 操作 （UM web 服务）](resetpin-operation-um
  **complexType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -53,7 +53,7 @@ ResetPIN 元素定义[ResetPIN 操作 （UM web 服务）](resetpin-operation-um
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |邮件  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
@@ -62,5 +62,5 @@ ResetPIN 元素定义[ResetPIN 操作 （UM web 服务）](resetpin-operation-um
 
 
 
-[ResetPIN 操作 （UM web 服务）](resetpin-operation-um-web-service.md)
+[ResetPIN 操作（UM web 服务）](resetpin-operation-um-web-service.md)
 

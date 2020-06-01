@@ -11,28 +11,28 @@ api_name:
 api_type:
 - schema
 ms.assetid: 089c2e7c-38d1-4245-8d97-646b6a720d10
-description: Title 元素表示联系人的标题。
-ms.openlocfilehash: 316622e09702130feea2abc66cc40bf8b39ae3f5
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Title 元素表示联系人的职务。
+ms.openlocfilehash: a9948d7a9d48e8cdb03d676992cad342861bb211
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838272"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468752"
 ---
 # <a name="title"></a>标题
 
-**Title**元素表示联系人的标题。 
+**Title**元素表示联系人的职务。 
   
 ```xml
 <Title/>
 ```
 
- **字符串**
+ **String**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -48,9 +48,9 @@ ms.locfileid: "19838272"
    
 ## <a name="text-value"></a>文本值
 
-一个字符串，表示联系人的标题的文本值。
+Text 值是一个字符串，表示联系人的职务。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -58,7 +58,7 @@ ms.locfileid: "19838272"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -67,8 +67,8 @@ ms.locfileid: "19838272"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 
 
-[Creating Contacts (Exchange Web Services)](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+[创建联系人（Exchange Web 服务）](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
 

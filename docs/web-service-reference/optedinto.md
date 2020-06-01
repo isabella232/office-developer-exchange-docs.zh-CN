@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 083a23d9-acc3-4c15-9d30-c20bf7e6808d
-description: OptedInto 元素指定一个布尔值，该值指示是否用户选择加入的保留策略。
-ms.openlocfilehash: 0d8fb2b07c6c98ba6973ab6efabe9c35d2d1ac12
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: OptedInto 元素指定一个布尔值，该值指示用户是否选择保留策略。
+ms.openlocfilehash: 1095a8c2527546b8c945dd7efb5c0218f9a151c8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826657"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468766"
 ---
 # <a name="optedinto"></a>OptedInto
 
-**OptedInto**元素指定一个布尔值，该值指示是否用户选择加入的保留策略。 
+**OptedInto**元素指定一个布尔值，该值指示用户是否选择保留策略。 
   
 ```XML
 <OptedInto>true | false</OptedInto>
@@ -26,9 +26,9 @@ ms.locfileid: "19826657"
  **Boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -38,11 +38,11 @@ ms.locfileid: "19826657"
   
 ### <a name="parent-elements"></a>父元素
 
-[RetentionPolicyTag](retentionpolicytag.md)
+[Get-retentionpolicytag](retentionpolicytag.md)
   
 ## <a name="text-value"></a>文本值
 
-文本值为**true**的**OptedInto**元素表示，用户选择加入的保留策略。 如果值为**false**指示的用户未选择不使用保留策略。 
+如果**OptedInto**元素的文本值为**true** ，则指示用户选择保留策略。 **如果值为 false** ，则表示用户未选择保留策略。 
   
 ## <a name="remarks"></a>备注
 
@@ -54,7 +54,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> ||

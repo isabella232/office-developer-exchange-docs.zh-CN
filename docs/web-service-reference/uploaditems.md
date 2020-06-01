@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: fd2b9545-7213-4427-95ae-71a155b75971
-description: UploadItems 元素表示项上载到邮箱的请求。
-ms.openlocfilehash: d3cd69cdb744431daeede736c2e156c8ab92a79b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: UploadItems 元素表示将项目上传到邮箱的请求。
+ms.openlocfilehash: 8fdb7253926e030085374b650e792349e598ee4a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838436"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468822"
 ---
 # <a name="uploaditems"></a>UploadItems
 
-**UploadItems**元素表示项上载到邮箱的请求。 
+**UploadItems**元素表示将项目上传到邮箱的请求。 
   
 [UploadItems](uploaditems.md)
   
@@ -34,9 +34,9 @@ ms.locfileid: "19838436"
  **UploadItemsType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -44,7 +44,7 @@ ms.locfileid: "19838436"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[项目 (NonEmptyArrayOfUploadItemsType)](items-nonemptyarrayofuploaditemstype.md) <br/> |包含项目上载到邮箱的数组。  <br/> |
+|[项目（NonEmptyArrayOfUploadItemsType）](items-nonemptyarrayofuploaditemstype.md) <br/> |包含要上载到邮箱中的项的数组。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -54,7 +54,7 @@ ms.locfileid: "19838436"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   
@@ -62,7 +62,7 @@ ms.locfileid: "19838436"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
