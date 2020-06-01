@@ -3,15 +3,15 @@ title: 电子邮件和 Exchange 中的 EWS
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 4d7bdb37-f7f1-409f-9749-f8bcde7dc52a
 description: 了解如何处理电子邮件，包括在 Exchange 中如何创建电子邮件以及如何通过使用 EWS 托管的 API 或 EWS 执行其他电子邮件相关任务。
-ms.openlocfilehash: 2cd4613635bd2a5ecc061b50b0aecbdde1d32d46
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+localization_priority: Priority
+ms.openlocfilehash: 323d9d2cc40aa86044a439ad53e53a4808916783
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353670"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455441"
 ---
 # <a name="email-and-ews-in-exchange"></a>电子邮件和 Exchange 中的 EWS
 
@@ -19,27 +19,27 @@ ms.locfileid: "21353670"
   
 
   
-其核心是，Exchange 与电子邮件有关。但是，电子邮件是怎么形成的呢？电子邮件是 Exchange 中的一种[强类型的邮件](folders-and-items-in-ews-in-exchange.md#bk_item)，这意味着它们包含一组特定[属性](email-properties-and-elements-in-ews-in-exchange.md)，甚至在发送之前也是如此。电子邮件可由 EWS 托管的 API 中的 [EmailMessage](http://msdn.microsoft.com/zh-CN/library/microsoft.exchange.webservices.data.emailmessage%28v=exchg.80%29.aspx) 类以及由 EWS 中的 [Message](http://msdn.microsoft.com/library/2400b33c-43b2-4fc2-b6fb-275a99e0e810%28Office.15%29.aspx) 元素及其子元素进行表示。 
+其核心是，Exchange 与电子邮件有关。但是，电子邮件是怎么形成的呢？电子邮件是 Exchange 中的一种[强类型的邮件](folders-and-items-in-ews-in-exchange.md#bk_item)，这意味着它们包含一组特定[属性](email-properties-and-elements-in-ews-in-exchange.md)，甚至在发送之前也是如此。电子邮件可由 EWS 托管的 API 中的 [EmailMessage](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage%28v=exchg.80%29.aspx) 类以及由 EWS 中的 [Message](https://msdn.microsoft.com/library/2400b33c-43b2-4fc2-b6fb-275a99e0e810%28Office.15%29.aspx) 元素及其子元素进行表示。 
   
-在 EWS 托管的 API 中， **EmailMessage** 对象由 [Item](http://msdn.microsoft.com/zh-CN/library/microsoft.exchange.webservices.data.item%28v=exchg.80%29.aspx) 对象派生而来。 **EmailMessage** 类通过提供其他属性（如在几乎所有邮件方案中常见的 **EmailMessage.Sender** 和 [EmailMessage.IsRead](http://msdn.microsoft.com/zh-CN/library/microsoft.exchange.webservices.data.emailmessage.sender%28v=exchg.80%29.aspx)）扩展 [Item](http://msdn.microsoft.com/zh-CN/library/office/microsoft.exchange.webservices.data.emailmessage.isread%28v=exchg.80%29.aspx) 类。当您获取、更新或删除电子邮件时，在大多数情况下您可以通过使用 **EmailMessage** 对象或基 **Item** 对象来实现，具体取决于您正在使用的属性是在 [EmailMessageSchema](http://msdn.microsoft.com/zh-CN/library/microsoft.exchange.webservices.data.emailmessageschema%28v=exchg.80%29.aspx) 中还是在 [ItemSchema](http://msdn.microsoft.com/zh-CN/library/microsoft.exchange.webservices.data.itemschema%28v=exchg.80%29.aspx) 类中。项目的创建会由于 **Item** 类没有构造函数而有所不同，因此当您要创建一封电子邮件时，您将使用 [EmailMessage 构造函数](http://msdn.microsoft.com/zh-CN/library/office/microsoft.exchange.webservices.data.emailmessage.emailmessage%28v=exchg.80%29.aspx)进行创建以及使用 [EmailMessage.Save](http://msdn.microsoft.com/zh-CN/library/microsoft.exchange.webservices.data.emailmessage.save%28v=exchg.80%29.aspx) 或 [EmailMessage.SendAndSaveCopy](http://msdn.microsoft.com/zh-CN/library/microsoft.exchange.webservices.data.emailmessage.sendandsavecopy%28v=exchg.80%29.aspx) 方法来保存它，或发送并保存它。 
+在 EWS 托管的 API 中， **EmailMessage** 对象由 [Item](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item%28v=exchg.80%29.aspx) 对象派生而来。 **EmailMessage** 类通过提供其他属性（如在几乎所有邮件方案中常见的 **EmailMessage.Sender** 和 [EmailMessage.IsRead](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.sender%28v=exchg.80%29.aspx)）扩展 [Item](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.emailmessage.isread%28v=exchg.80%29.aspx) 类。当您获取、更新或删除电子邮件时，在大多数情况下您可以通过使用 **EmailMessage** 对象或基 **Item** 对象来实现，具体取决于您正在使用的属性是在 [EmailMessageSchema](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessageschema%28v=exchg.80%29.aspx) 中还是在 [ItemSchema](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.itemschema%28v=exchg.80%29.aspx) 类中。项目的创建会由于 **Item** 类没有构造函数而有所不同，因此当您要创建一封电子邮件时，您将使用 [EmailMessage 构造函数](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.emailmessage.emailmessage%28v=exchg.80%29.aspx)进行创建以及使用 [EmailMessage.Save](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.save%28v=exchg.80%29.aspx) 或 [EmailMessage.SendAndSaveCopy](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.sendandsavecopy%28v=exchg.80%29.aspx) 方法来保存它，或发送并保存它。 
   
-同样，在 EWS 中使用 [CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) 操作和 [Message](http://msdn.microsoft.com/library/2400b33c-43b2-4fc2-b6fb-275a99e0e810%28Office.15%29.aspx) 元素来创建一封电子邮件。若要通过使用 EWS 获取、更新或删除电子邮件，那么除了其他属性可用于电子邮件这一事实之外，正在进行修改的邮件是一封电子邮件的事实就显得不重要了。用于其他强类型邮件的相同操作还可用于电子邮件。 
+同样，在 EWS 中使用 [CreateItem](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) 操作和 [Message](https://msdn.microsoft.com/library/2400b33c-43b2-4fc2-b6fb-275a99e0e810%28Office.15%29.aspx) 元素来创建一封电子邮件。若要通过使用 EWS 获取、更新或删除电子邮件，那么除了其他属性可用于电子邮件这一事实之外，正在进行修改的邮件是一封电子邮件的事实就显得不重要了。用于其他强类型邮件的相同操作还可用于电子邮件。 
   
 |**任务**|**EWS 托管的 API 方法**|**EWS 操作**|
 |:-----|:-----|:-----|
-|创建  <br/> |[EmailMessage.Save](http://msdn.microsoft.com/zh-CN/library/microsoft.exchange.webservices.data.emailmessage.save%28v=exchg.80%29.aspx) <br/> |[CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) <br/> |
-|获取  <br/> |[EmailMessage.Bind](http://msdn.microsoft.com/zh-CN/library/microsoft.exchange.webservices.data.emailmessage.bind%28v=exchg.80%29.aspx) <br/> |[GetItem](http://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) <br/> |
-|更新  <br/> |[Item.Update](http://msdn.microsoft.com/zh-CN/library/dd635915%28v=exchg.80%29.aspx) <br/> |[UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> |
-|Delete  <br/> |[Item.Delete](http://msdn.microsoft.com/zh-CN/library/dd635072%28v=exchg.80%29.aspx) <br/> |[DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |
+|创建  <br/> |[EmailMessage.Save](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.save%28v=exchg.80%29.aspx) <br/> |[CreateItem](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) <br/> |
+|获取  <br/> |[EmailMessage.Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.bind%28v=exchg.80%29.aspx) <br/> |[GetItem](https://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) <br/> |
+|更新  <br/> |[Item.Update](https://msdn.microsoft.com/library/dd635915%28v=exchg.80%29.aspx) <br/> |[UpdateItem](https://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> |
+|Delete  <br/> |[Item.Delete](https://msdn.microsoft.com/library/dd635072%28v=exchg.80%29.aspx) <br/> |[DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |
    
 因为电子邮件只是[强类型的邮件](folders-and-items-in-ews-in-exchange.md#bk_item)，所以在某些情况下您操作它们的方式与您[操作常规邮件](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md)的方式是相同的。 
   
 ## <a name="create-an-email-message-by-using-the-ews-managed-api"></a>使用 EWS 托管的 API 创建一封电子邮件
 <a name="bk_createewsma"> </a>
 
-您可以通过使用 EWS 托管的 API [Save](http://msdn.microsoft.com/zh-CN/library/microsoft.exchange.webservices.data.emailmessage.save%28v=exchg.80%29.aspx) 方法创建一封电子邮件，如以下示例的代码所示。 请注意，该示例仅将邮件保存在“草稿”文件夹中，不会发送此邮件。 有关如何发送邮件或一键创建并发送邮件的信息，请参阅[使用 Exchange 中的 EWS 发送电子邮件](how-to-send-email-messages-by-using-ews-in-exchange.md)。
+您可以通过使用 EWS 托管的 API [Save](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.save%28v=exchg.80%29.aspx) 方法创建一封电子邮件，如以下示例的代码所示。 请注意，该示例仅将邮件保存在“草稿”文件夹中，不会发送此邮件。 有关如何发送邮件或一键创建并发送邮件的信息，请参阅[使用 Exchange 中的 EWS 发送电子邮件](how-to-send-email-messages-by-using-ews-in-exchange.md)。
   
-此示例假定 **service** 是有效的 [ExchangeService](http://msdn.microsoft.com/zh-CN/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) 对象，且用户已通过 Exchange 服务器的身份验证。 
+此示例假定 **service** 是有效的 [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) 对象，且用户已通过 Exchange 服务器的身份验证。 
   
 ```cs
 // Create a new email message.
@@ -57,14 +57,14 @@ Console.WriteLine("A draft email message with the subject '" + message.Subject +
 ## <a name="create-an-email-message-by-using-ews"></a>使用 EWS 创建一封电子邮件
 <a name="bk_createews"> </a>
 
-您可以通过使用 EWS [CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) 操作创建一封电子邮件，如以下示例所示。 这也是当您 [创建电子邮件](#bk_createewsma)时，EWS 托管的 API 将发送的 XML 请求。 请注意，以下示例仅将邮件保存在“草稿”文件夹中，不会发送此邮件。 有关如何发送邮件或一键创建并发送邮件的信息，请参阅[使用 Exchange 中的 EWS 发送电子邮件](how-to-send-email-messages-by-using-ews-in-exchange.md)。
+您可以通过使用 EWS [CreateItem](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) 操作创建一封电子邮件，如以下示例所示。 这也是当您 [创建电子邮件](#bk_createewsma)时，EWS 托管的 API 将发送的 XML 请求。 请注意，以下示例仅将邮件保存在“草稿”文件夹中，不会发送此邮件。 有关如何发送邮件或一键创建并发送邮件的信息，请参阅[使用 Exchange 中的 EWS 发送电子邮件](how-to-send-email-messages-by-using-ews-in-exchange.md)。
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010_SP2" />
   </soap:Header>
@@ -90,7 +90,7 @@ Console.WriteLine("A draft email message with the subject '" + message.Subject +
 
 ```
 
-服务器使用 **CreateItemResponse** 邮件响应 [CreateItem](http://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) 请求，其中包括 [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) 值 **NoError**（表示电子邮件创建成功）和新创建邮件的 [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx)。 
+服务器使用 **CreateItemResponse** 邮件响应 [CreateItem](https://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) 请求，其中包括 [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) 值 **NoError**（表示电子邮件创建成功）和新创建邮件的 [ItemId](https://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx)。 
   
 ## <a name="get-update-and-delete-an-email-message-by-using-the-ews-managed-api"></a>通过使用 EWS 托管的 API 获取、更新和删除电子邮件
 <a name="bk_getewsma"> </a>

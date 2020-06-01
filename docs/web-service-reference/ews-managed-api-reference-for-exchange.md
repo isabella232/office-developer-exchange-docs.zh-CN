@@ -4,17 +4,17 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
 api_type:
 - schema
 ms.assetid: c6ca36f4-a67c-4e3c-aae7-9ead7b704e15
 description: 了解有关在 EWS 托管 API 中包含的命名空间。
-ms.openlocfilehash: 78797ba5124cb47da5430491d3be23bbaf0371a7
-ms.sourcegitcommit: 25cbbc6707e4ec0621c5c46baf7fe49be42d3297
+localization_priority: Priority
+ms.openlocfilehash: aa5dd71bf1e9962611a8ea8471aca0c60aa232e8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/07/2018
-ms.locfileid: "25440981"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466750"
 ---
 # <a name="ews-managed-api-reference"></a>EWS 托管 API 参考
 
@@ -32,8 +32,8 @@ Exchange Web Services (EWS) 托管 API 包括两个 API：Microsoft.Exchange.Web
 
 ## <a name="see-also"></a>另请参阅
 
-- [Exchange Web 服务应用](web-services-reference-for-exchange.md)
-- [在 Exchange 中探索 EWS 托管 API、EWS 和 Web 服务](../exchange-web-services/explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)
+- [Exchange Web 服务参考](web-services-reference-for-exchange.md)
+- [探索 Exchange 中 EWS 托管 API、EWS 和 Web 服务](../exchange-web-services/explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)
 - [EWS 中的新增功能和 Exchange 中的 其他 Web 服务](../exchange-web-services/whats-new-in-ews-and-other-web-services-in-exchange.md)
 - [开始使用 Exchange 中的 Web 服务](../exchange-web-services/start-using-web-services-in-exchange.md)
 - [开发 Exchange Web 服务客户端](../exchange-web-services/develop-web-service-clients-for-exchange.md)

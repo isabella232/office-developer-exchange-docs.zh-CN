@@ -3,15 +3,15 @@ title: Exchange 自动发现
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: da0f9402-4e35-42c7-a15e-1e9e4e966e8b
 description: 了解 Exchange 中的自动发现服务。
-ms.openlocfilehash: f56717eaced5db9028c556c6c2d9aa7794f4988e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+localization_priority: Priority
+ms.openlocfilehash: 913ec3fef93900a1b5fa7aa342e8bca149c88b7b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752729"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44437755"
 ---
 # <a name="autodiscover-for-exchange"></a>Exchange 自动发现
 
@@ -24,7 +24,7 @@ Exchange 自动发现服务为客户端应用程序提供一种在尽量减少�
 
 自动发现过程基本分为三个阶段。在第一阶段，您生成潜在自动发现服务器列表，在第二阶段，您尝试列表中的每台服务器，直到您（有可能）收到成功的响应。如果您的候选服务器均未成功，您可以跳至第三阶段，这是查找自动发现终结点的"最后一招"。
   
-EWS Managed API 中的 [ExchangeService.AutodiscoverUrl](http://msdn.microsoft.com/zh-CN/library/microsoft.exchange.webservices.data.exchangeservice.autodiscoverurl%28v=exchg.80%29.aspx) 方法为您实施此过程的三个阶段，因此如果您使用 EWS Managed API，则无需担心需要自己实施自动发现。下图显示了自动发现过程的这三个阶段。 
+EWS Managed API 中的 [ExchangeService.AutodiscoverUrl](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.autodiscoverurl%28v=exchg.80%29.aspx) 方法为您实施此过程的三个阶段，因此如果您使用 EWS Managed API，则无需担心需要自己实施自动发现。下图显示了自动发现过程的这三个阶段。 
   
 **图 1. 自动发现过程的三个阶段**
 
@@ -40,7 +40,7 @@ EWS Managed API 中的 [ExchangeService.AutodiscoverUrl](http://msdn.microsoft.c
 |**查找位置**|**您将找到的结果**|
 |:-----|:-----|
 |Active Directory 域服务 (AD DS)  <br/> |对于已加入域的客户端，这是要查找的第一个位置。Exchange 在 AD DS 中发布服务连接点 (SCP) 对象，这样就可以根据 Active Directory 站点将自动发现请求发送到服务器。[SCP 查找](how-to-find-autodiscover-endpoints-by-using-scp-lookup-in-exchange.md)的结果应位于候选列表顶部。  <br/><br/>**注意**：SCP 查找不适用于未加入域或无权访问 Active Directory 服务器的客户端。 在这种情况下，应跳过 SCP 查找。 <br/>|
-|用户的电子邮件地址域  <br/> | 自动发现可定义从用户电子邮件地址的域部分派生的两种标准终结点 URL 形式：  <br/>`"https://" + domain + "/autodiscover/autodiscover" +  *fileExtension*`  <br/>`"https://autodiscover." + domain + "/autodiscover/autodiscover" +  *fileExtension*`<br/><br/>  *文件扩展名*  的值取决于您使用的自动发现访问方法： [SOAP](http://msdn.microsoft.com/library/61c21ea9-7fea-4f56-8ada-bf80e1e6b074%28Office.15%29.aspx) 或 [POX](http://msdn.microsoft.com/library/877152f0-f4b1-4f63-b2ce-924f4bdf2d20%28Office.15%29.aspx)。SOAP 服务使用".svc"文件扩展名，POX 使用".xml"。  <br/> |
+|用户的电子邮件地址域  <br/> | 自动发现可定义从用户电子邮件地址的域部分派生的两种标准终结点 URL 形式：  <br/>`"https://" + domain + "/autodiscover/autodiscover" +  *fileExtension*`  <br/>`"https://autodiscover." + domain + "/autodiscover/autodiscover" +  *fileExtension*`<br/><br/>  *文件扩展名*  的值取决于您使用的自动发现访问方法： [SOAP](https://msdn.microsoft.com/library/61c21ea9-7fea-4f56-8ada-bf80e1e6b074%28Office.15%29.aspx) 或 [POX](https://msdn.microsoft.com/library/877152f0-f4b1-4f63-b2ce-924f4bdf2d20%28Office.15%29.aspx)。SOAP 服务使用".svc"文件扩展名，POX 使用".xml"。  <br/> |
    
 下图演示如何生成自动发现终结点列表。
   
@@ -72,9 +72,9 @@ EWS Managed API 中的 [ExchangeService.AutodiscoverUrl](http://msdn.microsoft.c
 
 |**如果您使用…**|**通过以下方式发送请求…**|
 |:-----|:-----|
-|EWS Managed API  <br/> |[GetUserSettings](http://msdn.microsoft.com/zh-CN/library/microsoft.exchange.webservices.autodiscover.autodiscoverservice.getusersettings%28v=exchg.80%29.aspx) 方法。  <br/> |
-|SOAP 自动发现服务  <br/> |[GetUserSettings](http://msdn.microsoft.com/library/758d965c-ef63-4de4-9120-e293abf14ff8%28Office.15%29.aspx) 操作。  <br/> |
-|POX 自动发现服务  <br/> |具有[自动发现请求正文](http://msdn.microsoft.com/library/75671b1d-f35b-497b-8d8c-706f3f2535fd%28Office.15%29.aspx)的 HTTP POST。  <br/> |
+|EWS Managed API  <br/> |[GetUserSettings](https://msdn.microsoft.com/library/microsoft.exchange.webservices.autodiscover.autodiscoverservice.getusersettings%28v=exchg.80%29.aspx) 方法。  <br/> |
+|SOAP 自动发现服务  <br/> |[GetUserSettings](https://msdn.microsoft.com/library/758d965c-ef63-4de4-9120-e293abf14ff8%28Office.15%29.aspx) 操作。  <br/> |
+|POX 自动发现服务  <br/> |具有[自动发现请求正文](https://msdn.microsoft.com/library/75671b1d-f35b-497b-8d8c-706f3f2535fd%28Office.15%29.aspx)的 HTTP POST。  <br/> |
    
 ### <a name="phase-3-trying-other-alternatives"></a>阶段 3：尝试其他选择
 <a name="bk_Phase3"> </a>
@@ -102,9 +102,9 @@ EWS Managed API 中的 [ExchangeService.AutodiscoverUrl](http://msdn.microsoft.c
 
 |**选项**|**优点**|**缺点**|
 |:-----|:-----|:-----|
-|[EWS Managed API](get-started-with-ews-managed-api-client-applications.md) <br/> | 为您实施自动发现过程。<br/><br/>使用 SOAP 和 POX 自动发现服务。<br/><br/>适用于 Exchange Online、作为 Office 365 一部分的 Exchange Online 或从 Exchange 2007 SP1 起的 Exchange 版本。<br/><br/>易于使用。  <br/> | 限制为 [Microsoft.Exchange.WebServices.Autodiscover.UserSettingName](http://msdn.microsoft.com/zh-CN/library/microsoft.exchange.webservices.autodiscover.usersettingname%28v=EXCHG.80%29.aspx) 枚举中可用的用户设置。<br/><br/>仅适用于 .NET Framework 应用程序。  <br/> |
-|[SOAP 自动发现](http://msdn.microsoft.com/library/61c21ea9-7fea-4f56-8ada-bf80e1e6b074%28Office.15%29.aspx) <br/> | 独立于平台。<br/><br/>使您可以只请求您感兴趣的设置。  <br/> | 在 Exchange 2007 中不可用。  <br/> |
-|[POX 自动发现](http://msdn.microsoft.com/library/877152f0-f4b1-4f63-b2ce-924f4bdf2d20%28Office.15%29.aspx) <br/> | 独立于平台。<br/><br/>在 Exchange Online 中以及从 Exchange 2007 SP1 起的所有 Exchange 版本中受支持。  <br/> | 不允许您请求特定设置。  <br/> |
+|[EWS Managed API](get-started-with-ews-managed-api-client-applications.md) <br/> | 为您实施自动发现过程。<br/><br/>使用 SOAP 和 POX 自动发现服务。<br/><br/>适用于 Exchange Online、作为 Office 365 一部分的 Exchange Online 或从 Exchange 2007 SP1 起的 Exchange 版本。<br/><br/>易于使用。  <br/> | 限制为 [Microsoft.Exchange.WebServices.Autodiscover.UserSettingName](https://msdn.microsoft.com/library/microsoft.exchange.webservices.autodiscover.usersettingname%28v=EXCHG.80%29.aspx) 枚举中可用的用户设置。<br/><br/>仅适用于 .NET Framework 应用程序。  <br/> |
+|[SOAP 自动发现](https://msdn.microsoft.com/library/61c21ea9-7fea-4f56-8ada-bf80e1e6b074%28Office.15%29.aspx) <br/> | 独立于平台。<br/><br/>使您可以只请求您感兴趣的设置。  <br/> | 在 Exchange 2007 中不可用。  <br/> |
+|[POX 自动发现](https://msdn.microsoft.com/library/877152f0-f4b1-4f63-b2ce-924f4bdf2d20%28Office.15%29.aspx) <br/> | 独立于平台。<br/><br/>在 Exchange Online 中以及从 Exchange 2007 SP1 起的所有 Exchange 版本中受支持。  <br/> | 不允许您请求特定设置。  <br/> |
    
 ## <a name="in-this-section"></a>本节内容
 
@@ -127,8 +127,8 @@ EWS Managed API 中的 [ExchangeService.AutodiscoverUrl](http://msdn.microsoft.c
 ## <a name="see-also"></a>另请参阅
 
 - [开始使用 Exchange 中的 Web 服务](start-using-web-services-in-exchange.md)    
-- [Exchange 2013：使用自动发现获取用户设置](http://code.msdn.microsoft.com/Exchange-2013-Get-user-7e22c86e)
-- [自动发现检查器示例](http://code.msdn.microsoft.com/exchange/Autodiscover-Checker-e1ebca42)  
+- [Exchange 2013：使用自动发现获取用户设置](https://code.msdn.microsoft.com/Exchange-2013-Get-user-7e22c86e)
+- [自动发现检查器示例](https://code.msdn.microsoft.com/exchange/Autodiscover-Checker-e1ebca42)  
 - [开发 Exchange Web 服务客户端](develop-web-service-clients-for-exchange.md)
     
 
