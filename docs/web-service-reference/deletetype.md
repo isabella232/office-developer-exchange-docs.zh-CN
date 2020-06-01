@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 6e3136cd-9cb4-493a-aa85-9678f719002d
-description: DeleteType 元素指示如何删除会话中的项目。
-ms.openlocfilehash: abaa0c3d8b7001b2f42a38d1c82475edba32d2c5
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: DeleteType 元素指示如何删除对话中的项目。
+ms.openlocfilehash: 199f7afc29fe866865509d2fb90d24944113d5c0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753814"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44442631"
 ---
 # <a name="deletetype"></a>DeleteType
 
-**DeleteType**元素指示如何删除会话中的项目。 
+**DeleteType**元素指示如何删除对话中的项目。 
   
 - [ApplyConversationAction](applyconversationaction.md)  
 - [ConversationActions](conversationactions.md)  
@@ -35,9 +35,9 @@ ms.locfileid: "19753814"
  **DisposalType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -49,17 +49,17 @@ ms.locfileid: "19753814"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ConversationAction](conversationaction.md) <br/> |包含要应用于单个会话的单个操作。  <br/> |
+|[ConversationAction](conversationaction.md) <br/> |包含要应用于单个对话的单个操作。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**DeleteType**元素的文本值指示如何删除会话中的项目。 以下是可能的文本值： 
+**DeleteType**元素的文本值指示如何删除对话中的项目。 以下是可能的文本值： 
   
-- HardDelete-指示邮箱数据库从对话中的项目被永久删除。
+- HardDelete-表示会话中的项目从邮箱数据库中永久删除。
     
-- MoveToDeleteItems-指示对话中的项目已移动到已删除邮件文件夹。
+- MoveToDeleteItems-指示将会话中的项目移动到 "已删除邮件" 文件夹。
     
-- SoftDelete-指示对话中的项目是否已移动到转储程序如果转储程序已启用。
+- SoftDelete-指示如果转储程序已启用，则会将会话中的项目移至转储程序。
     
 ## <a name="remarks"></a>备注
 
@@ -69,7 +69,7 @@ ms.locfileid: "19753814"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -77,5 +77,5 @@ ms.locfileid: "19753814"
 ## <a name="see-also"></a>另请参阅
 
 - [ApplyConversationAction 操作](applyconversationaction-operation.md)
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 
