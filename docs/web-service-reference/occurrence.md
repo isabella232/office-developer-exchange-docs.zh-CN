@@ -1,5 +1,5 @@
 ---
-title: 匹配项
+title: 重复
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: d292b99c-b896-40b7-be5d-2cb314c9481f
-description: 出现元素均表示定期日历项目的一个已修改匹配项。
-ms.openlocfilehash: 5a40faa9b885a235d30e7f41830d1eefe2ed23c3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 具体值元素表示定期日历项目的单个修改事件。
+ms.openlocfilehash: c3a6bcce23f0bb1125dbd2a5bb86e9b20039a4e1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826653"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466316"
 ---
-# <a name="occurrence"></a>匹配项
+# <a name="occurrence"></a>重复
 
-**出现**元素均表示定期日历项目的一个已修改匹配项。 
+**具体**值元素表示定期日历项目的单个修改事件。 
   
 ```xml
 <Occurrence>
@@ -36,9 +36,9 @@ ms.locfileid: "19826653"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -47,17 +47,17 @@ ms.locfileid: "19826653"
 |**元素**|**说明**|
 |:-----|:-----|
 |[ItemId](itemid.md) <br/> |包含定期日历项目的已修改事件的唯一标识符和更改键。  <br/> |
-|[Start](start.md) <br/> |代表已修改事件的定期日历项目的开始时间。  <br/> |
-|[结束](end-ex15websvcsotherref.md) <br/> |代表定期日历项目的已修改事件的结束时间。  <br/> |
-|[OriginalStart](originalstart.md) <br/> |代表定期日历项目的已修改事件的原始开始时间。  <br/> |
+|[开始](start.md) <br/> |表示定期日历项目的已修改事件的开始时间。  <br/> |
+|[停止](end-ex15websvcsotherref.md) <br/> |表示定期日历项目的已修改事件的结束时间。  <br/> |
+|[OriginalStart](originalstart.md) <br/> |表示定期日历项目的已修改事件的原始开始时间。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ModifiedOccurrences](modifiedoccurrences.md) <br/> |包含的定期日历项目匹配项，以便它们是不同的定期主项目已修改的集合。  <br/> |
+|[ModifiedOccurrences](modifiedoccurrences.md) <br/> |包含已修改的定期日历项目匹配项的集合，以便它们不同于定期主项目。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -65,12 +65,12 @@ ms.locfileid: "19826653"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

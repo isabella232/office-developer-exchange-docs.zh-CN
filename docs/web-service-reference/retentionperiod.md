@@ -7,28 +7,28 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 49db6a4f-4a20-4495-8f76-d756cc895b66
-description: RetentionPeriod 元素指定的保留策略是有效的天数。
-ms.openlocfilehash: cd1c667d21c4dd47ed282076ce7843150389c46e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: RetentionPeriod 元素指定保留策略生效的天数。
+ms.openlocfilehash: c9d049e2c1ed4e8abdec9faa7b8e365468d3d2ac
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827220"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465189"
 ---
 # <a name="retentionperiod"></a>RetentionPeriod
 
-**RetentionPeriod**元素指定的保留策略是有效的天数。 
+**RetentionPeriod**元素指定保留策略生效的天数。 
   
 ```XML
 <RetentionPeriod></RetentionPeriod>
 ```
 
- **整数**
+ **整除**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -38,11 +38,11 @@ ms.locfileid: "19827220"
   
 ### <a name="parent-elements"></a>父元素
 
-[RetentionPolicyTag](retentionpolicytag.md)
+[Get-retentionpolicytag](retentionpolicytag.md)
   
 ## <a name="text-value"></a>文本值
 
-**RetentionPeriod**元素的文本值的保留策略是有效的项目的天数。 
+**RetentionPeriod**元素的文本值是保留策略对项目有效的天数。 
   
 ## <a name="remarks"></a>备注
 
@@ -54,7 +54,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> ||

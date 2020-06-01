@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9199aeb2-abdf-40c5-8743-40b61853c951
-description: UpdatedItemIds 元素指定更新的提醒项目的标识符。
-ms.openlocfilehash: b95ebb20823706e68b1fd66dc64f756808bb7375
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: UpdatedItemIds 元素指定更新的提醒项的标识符。
+ms.openlocfilehash: 4a87bf50f90e80c0c887ee3a66b9f201ea1c8440
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838371"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465034"
 ---
 # <a name="updateditemids"></a>UpdatedItemIds
 
-**UpdatedItemIds**元素指定更新的提醒项目的标识符。 
+**UpdatedItemIds**元素指定更新的提醒项的标识符。 
   
 ```XML
 <UpdatedItemIds>
@@ -29,9 +29,9 @@ ms.locfileid: "19838371"
  **NonEmptyArrayOfItemIdsType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -49,13 +49,13 @@ Exchange Server 2013 中引入了此元素。
   
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
-如果[PerformReminderAction](performreminderaction-operation.md)操作未成功完成或未在服务器上进行任何更改，则为空值返回**UpdatedItemIds**元素。 
+如果[PerformReminderAction](performreminderaction-operation.md)操作未成功完成，或者服务器上未进行任何更改，则**UpdatedItemIds**元素将作为空值返回。 
   
 ## <a name="element-information"></a>元素信息
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
@@ -67,5 +67,5 @@ Exchange Server 2013 中引入了此元素。
 [PerformReminderActionResponse](performreminderactionresponse.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

@@ -11,45 +11,45 @@ api_name:
 api_type:
 - schema
 ms.assetid: 012d8cc5-648c-4ba0-a155-15c422b1e994
-description: AddDelegate 操作添加一个或多个代理人到主体的邮箱和设置特定的访问权限。
-ms.openlocfilehash: 28d4ded2625efc3d6eade44f5fafc06c2ffca7ae
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: AddDelegate 操作将一个或多个委派添加到主体的邮箱，并设置特定的访问权限。
+ms.openlocfilehash: 80adbe71d69be1025dc9593c6a9002bc68fdcb76
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753101"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466512"
 ---
 # <a name="adddelegate-operation"></a>AddDelegate 操作
 
-**AddDelegate**操作添加一个或多个代理人到主体的邮箱和设置特定的访问权限。 
+**AddDelegate**操作将一个或多个委派添加到主体的邮箱，并设置特定的访问权限。 
   
 ## <a name="soap-headers"></a>SOAP 标头
 
-**AddDelegate**操作可以使用列出并在下表中所述的 SOAP 标头。 
+**AddDelegate**操作可以使用下表中列出和描述的 SOAP 标头。 
   
 |**Header**|**元素**|**说明**|
 |:-----|:-----|:-----|
-|模拟  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |标识模拟客户端应用程序的用户。  <br/> |
-|MailboxCulture  <br/> |[MailboxCulture](mailboxculture.md) <br/> |标识用于访问邮箱的 RFC3066 区域性。  <br/> |
+|模拟  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |标识客户端应用程序模拟的用户。  <br/> |
+|MailboxCulture  <br/> |[MailboxCulture](mailboxculture.md) <br/> |标识要用于访问邮箱的 RFC3066 区域性。  <br/> |
 |RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。  <br/> |
-|ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应该请求的服务器的版本。  <br/> |
+|ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器版本。  <br/> |
    
 ## <a name="adddelegate-request-example"></a>AddDelegate 请求示例
 
 ### <a name="description"></a>说明
 
-**AddDelegate**请求的下面的示例演示尝试向 user1 委派权限授予文件夹所拥有的 user2。 User1 将授予 user2 的日历文件夹和审阅者级别为 user2 的联系人文件夹的权限的作者级权限。 User1 将不会收到会议邮件的副本，并且将无法查看 user2 的邮箱中的专用的项目。 会议请求将发送到 user1 和 user2。 
+下面的**AddDelegate**请求示例显示了向用户2拥有的文件夹授予对 user1 委派权限的尝试。 User1 拥有对 user2's 联系人文件夹的 user2's 日历文件夹和审阅者级别权限的作者级别权限。 User1 将不会收到会议邮件的副本，并且无法查看 user2's 邮箱中的私人项目。 将向 user1 和用户2发送会议请求。 
   
 ### <a name="code"></a>代码
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1"/>
   </soap:Header>
-  <soap:Body xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+  <soap:Body xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
     <AddDelegate>
       <Mailbox>
         <t:EmailAddress>user2@example.com</t:EmailAddress>
@@ -77,7 +77,7 @@ ms.locfileid: "19753101"
 
 ### <a name="description"></a>说明
 
-**AddDelegate**响应的下面的示例演示对**AddDelegate**请求成功响应。 
+下面的**AddDelegate**响应示例显示了对**AddDelegate**请求的成功响应。 
   
 ### <a name="code"></a>代码
 
@@ -92,12 +92,12 @@ ms.locfileid: "19753101"
                          MajorBuildNumber="206" 
                          MinorBuildNumber="0" 
                          Version="Exchange2007_SP1" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <m:AddDelegateResponse xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+    <m:AddDelegateResponse xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
                            ResponseClass="Success" 
-                           xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+                           xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseCode>NoError</m:ResponseCode>
       <m:ResponseMessages>
         <m:DelegateUserResponseMessageType ResponseClass="Success">
@@ -122,7 +122,7 @@ ms.locfileid: "19753101"
 
 ### <a name="description"></a>说明
 
-下面的示例演示对添加已添加到的主体的邮箱代理人的请求的响应。
+下面的示例演示对添加代理（已添加到主体邮箱）的请求的响应。
   
 ### <a name="code"></a>代码
 
@@ -137,12 +137,12 @@ ms.locfileid: "19753101"
                          MajorBuildNumber="206" 
                          MinorBuildNumber="0" 
                          Version="Exchange2007_SP1" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <m:AddDelegateResponse xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+    <m:AddDelegateResponse xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
                            ResponseClass="Success"
-                           xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+                           xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseCode>NoError</m:ResponseCode>
       <m:ResponseMessages>
         <m:DelegateUserResponseMessageType ResponseClass="Error">
@@ -156,11 +156,11 @@ ms.locfileid: "19753101"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>注释
+### <a name="comments"></a>备注
 
-如果尝试添加代理时返回的 ErrorDelegateAlreadyExists 响应代码，使用[GetDelegate 操作](getdelegate-operation.md)获得代理人，当前的所有权限，然后使用[UpdateDelegate 操作](updatedelegate-operation.md)设置新的权限。 
+如果在尝试添加委派时返回 ErrorDelegateAlreadyExists 响应代码，请使用[GetDelegate 操作](getdelegate-operation.md)获取代理的所有当前权限，然后使用[UpdateDelegate 操作](updatedelegate-operation.md)来设置新权限。 
   
 ## <a name="see-also"></a>另请参阅
 
-- [添加代理人](http://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
+- [添加委派](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
 

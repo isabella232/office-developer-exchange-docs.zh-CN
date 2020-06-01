@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 54f45774-00a0-4392-af1b-8c5f2208a53f
-description: InPlaceHoldIdentity 元素指定保留邮箱项目保留项的标识。
-ms.openlocfilehash: 954e6ad6c3e0b7786d6bbb8230dba913a32359bc
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: InPlaceHoldIdentity 元素指定保留邮箱项目的保留的标识。
+ms.openlocfilehash: a06f72e478e7dc5bd1a499dceefeb352b14d7362
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825938"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466092"
 ---
 # <a name="inplaceholdidentity"></a>InPlaceHoldIdentity
 
-**InPlaceHoldIdentity**元素指定保留邮箱项目保留项的标识。 
+**InPlaceHoldIdentity**元素指定保留邮箱项目的保留的标识。 
   
 ```XML
 <InPlaceHoldIdentity></InPlaceHoldIdentity>
@@ -26,9 +26,9 @@ ms.locfileid: "19825938"
  **string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -38,7 +38,7 @@ ms.locfileid: "19825938"
   
 ### <a name="parent-elements"></a>父元素
 
-[SetHoldOnMailboxes](setholdonmailboxes.md) | [DiscoverySearchConfiguration](discoverysearchconfiguration.md)
+[SetHoldOnMailboxes](setholdonmailboxes.md)  | [DiscoverySearchConfiguration](discoverysearchconfiguration.md)
   
 ## <a name="text-value"></a>文本值
 
@@ -54,7 +54,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -66,5 +66,5 @@ Exchange Server 2013 中引入了此元素。
 [SetHoldOnMailboxes 操作](setholdonmailboxes-operation.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

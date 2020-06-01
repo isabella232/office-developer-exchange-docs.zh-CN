@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 7fafd1c8-cd29-43a0-b383-f6595f934f48
-description: And 元素指定所有子元素必须都匹配来计算结果为 true。
-ms.openlocfilehash: 9e0128ee3fa2b6ffdc5975946694475afec53c25
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 和元素指定所有子元素都必须匹配以求值为 true。
+ms.openlocfilehash: ba898ccd77518971afaf713d1c7c7955f46465d5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753147"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464733"
 ---
 # <a name="and-protectionruleandtype"></a>和 (ProtectionRuleAndType)
 
-**和**元素指定的所有子元素必须都匹配计算结果为**true**。
+**和**元素指定所有子元素都必须匹配以求值为**true**。
   
 ```xml
 <And>
@@ -36,9 +36,9 @@ ms.locfileid: "19753147"
  **ProtectionRuleAndType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -46,11 +46,11 @@ ms.locfileid: "19753147"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[AllInternal](allinternal.md) <br/> |如果所有收件人的电子邮件的发件人的组织内部的计算结果为**true** 。  <br/> |
+|[AllInternal](allinternal.md) <br/> |如果电子邮件的所有收件人均为发件人的组织内部，则计算结果为**true** 。  <br/> |
 |**And** <br/> |指定所有子元素都必须匹配以使值为 **true**。  <br/> |
-|[RecipientIs](recipientis.md) <br/> |指定任何收件人的电子邮件匹配的任何子[值 (ProtectionRuleValueType)](value-protectionrulevaluetype.md)元素中指定的收件人。  <br/> |
-|[SenderDepartments](senderdepartments.md) <br/> |指定发件人的部门匹配任何子[值 (ProtectionRuleValueType)](value-protectionrulevaluetype.md)元素中指定的部门。  <br/> |
-|[True](true.md) <br/> |指定始终匹配条件。  <br/> |
+|[收件人是](recipientis.md) <br/> |指定电子邮件的任何收件人与子[值（ProtectionRuleValueType）](value-protectionrulevaluetype.md)元素中的任何指定收件人相匹配。  <br/> |
+|[SenderDepartments](senderdepartments.md) <br/> |指定发件人的部门与子[值（ProtectionRuleValueType）](value-protectionrulevaluetype.md)元素中的任何指定的部门相匹配。  <br/> |
+|[True](true.md) <br/> |指定始终匹配的条件。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -63,7 +63,7 @@ ms.locfileid: "19753147"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -71,12 +71,12 @@ ms.locfileid: "19753147"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 10d0739c-2591-4768-935c-b131b26e974d
-description: SetClientExtension 元素包含一个请求设置客户端扩展。
-ms.openlocfilehash: 9e0a2926e25d74657ddf8a50ec88e77af0fc4ea1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: SetClientExtension 元素包含设置客户端扩展的请求。
+ms.openlocfilehash: a856cd6b7063f7399e584b9932fcaf7fdc53094e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827398"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466162"
 ---
 # <a name="setclientextension"></a>SetClientExtension
 
-**SetClientExtension**元素包含一个请求设置客户端扩展。 
+**SetClientExtension**元素包含设置客户端扩展的请求。 
   
 ```XML
 <SetClientExtension>
@@ -28,21 +28,21 @@ ms.locfileid: "19827398"
  **SetClientExtensionType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
 ### <a name="child-elements"></a>子元素
 
-[操作 (ArrayOfSetClientExtensionActionsType)](actions-arrayofsetclientextensionactionstype.md)
+[操作（ArrayOfSetClientExtensionActionsType）](actions-arrayofsetclientextensionactionstype.md)
   
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 中引入了此元素。
   
@@ -52,7 +52,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |false  <br/> |

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ba686738-e654-404d-ab54-83c71d030350
 description: FindPeopleResponseMessage 元素指定 FindPeople 请求的响应消息。
-ms.openlocfilehash: 205f20b26b5097d24de45c5a5f9681f3557a6f87
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5a2ce7b8643fff9d4a93b62459638d3a99605c98
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754365"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466372"
 ---
 # <a name="findpeopleresponsemessage"></a>FindPeopleResponseMessage
 
@@ -33,15 +33,15 @@ ms.locfileid: "19754365"
  **FindPeopleResponseMessageType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
 ### <a name="child-elements"></a>子元素
 
-[MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md) | [人员](people.md) | [TotalNumberOfPeopleInView](totalnumberofpeopleinview.md)
+[MessageText](messagetext.md)  | [ResponseCode](responsecode.md)  | [DescriptiveLinkKey](descriptivelinkkey.md)  | [MessageXml](messagexml.md)  | [人员](people.md)  | [TotalNumberOfPeopleInView](totalnumberofpeopleinview.md)
   
 ### <a name="parent-elements"></a>父元素
 
@@ -57,7 +57,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |false  <br/> |

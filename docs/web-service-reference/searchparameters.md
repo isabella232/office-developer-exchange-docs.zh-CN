@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 34602cb1-dc33-4552-a98c-3e77f614daa3
-description: SearchParameters 元素表示定义搜索文件夹的参数。
-ms.openlocfilehash: b534574a1292d78c8df99f5186990b114fc4e70a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: SearchParameters 元素表示用于定义搜索文件夹的参数。
+ms.openlocfilehash: cd9f255621b17d01113392e67a0301b01b70f326
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827299"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466666"
 ---
 # <a name="searchparameters"></a>SearchParameters
 
-**SearchParameters**元素表示定义搜索文件夹的参数。 
+**SearchParameters**元素表示用于定义搜索文件夹的参数。 
   
 ```xml
 <SearchParameters Traversal="">
@@ -33,28 +33,28 @@ ms.locfileid: "19827299"
  **SearchParametersType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**说明**|
 |:-----|:-----|
-|**遍历** <br/> |介绍如何搜索文件夹遍历的文件夹层次结构。 **深入**或**浅表**搜索的选项。  <br/> |
+|**遍历** <br/> |介绍搜索文件夹如何遍历文件夹层次结构。 选项包括**深度**搜索或**浅表**搜索。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
 |**元素**|**说明**|
 |:-----|:-----|
 |[限制](restriction.md) <br/> |表示用于在 FindItem/FindFolder 中筛选项目或文件夹和搜索文件夹操作的限制或查询。  <br/> |
-|[BaseFolderIds](basefolderids.md) <br/> |代表将用于确定搜索文件夹的内容的文件夹的集合。  <br/> |
+|[BaseFolderIds](basefolderids.md) <br/> |表示将挖掘的文件夹集合，以确定搜索文件夹的内容。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[SearchFolder](searchfolder.md) <br/> |表示包含在邮箱中的搜索文件夹。  <br/> |
+|[SearchFolder](searchfolder.md) <br/> |表示邮箱中包含的搜索文件夹。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 Microsoft Exchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -62,7 +62,7 @@ ms.locfileid: "19827299"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -71,5 +71,5 @@ ms.locfileid: "19827299"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

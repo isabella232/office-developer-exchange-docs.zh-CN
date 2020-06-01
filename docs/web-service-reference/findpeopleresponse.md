@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 95f016a9-002f-4be3-abd6-f5e3528afd44
-description: FindPeopleResponse 元素指定 FindPeople 请求的响应。
-ms.openlocfilehash: 4f2c2f6069a515d5153ea488b35182d8b35f029f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: FindPeopleResponse 元素指定对 FindPeople 请求的响应。
+ms.openlocfilehash: b969ac3f7bc2bbd3fc77bf753a15696c3b6d8216
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754359"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466400"
 ---
 # <a name="findpeopleresponse"></a>FindPeopleResponse
 
-**FindPeopleResponse**元素指定**FindPeople**请求的响应。 
+**FindPeopleResponse**元素指定对**FindPeople**请求的响应。 
   
 ```XML
 <FindPeopleResponse ResponseClass=" Success | Warning | Error ">
@@ -33,9 +33,9 @@ ms.locfileid: "19754359"
  **FindPeopleResponseMessageType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**说明**|
 |:-----|:-----|
@@ -51,18 +51,18 @@ ms.locfileid: "19754359"
    
 ### <a name="child-elements"></a>子元素
 
-|**元素**|**说明**|
+|**元素**|**描述**|
 |:-----|:-----|
-|[人员](people.md) <br/> |指定个人数据作为**FindPeople**请求的结果返回的数组。  <br/> |
-|[TotalNumberOfPeopleInView](totalnumberofpeopleinview.md) <br/> |指定的角色的服务器上存储返回**FindPeople**请求的总数。  <br/> |
-|[MessageText](messagetext.md) <br/> |提供的响应状态的文本说明。  <br/> |
+|[人员](people.md) <br/> |指定作为**FindPeople**请求的结果返回的角色数据数组。  <br/> |
+|[TotalNumberOfPeopleInView](totalnumberofpeopleinview.md) <br/> |指定由**FindPeople**请求返回的服务器上存储的角色的总数。  <br/> |
+|[MessageText](messagetext.md) <br/> |提供响应状态的文本说明。  <br/> |
 |[ResponseCode](responsecode.md) <br/> |提供有关请求的状态信息。  <br/> |
-|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |当前未使用，保留以供将来使用。  <br/> |
-|[MessageXml](messagexml.md) <br/> |提供了其他错误响应信息。  <br/> |
+|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |当前未使用，并已保留以供将来使用。  <br/> |
+|[MessageXml](messagexml.md) <br/> |提供其他错误响应信息。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
-|**元素**|**说明**|
+|**元素**|**描述**|
 |:-----|:-----|
 |[ResponseMessages](responsemessages.md) <br/> |指定响应消息的数组。  <br/> |
    
@@ -76,14 +76,14 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
-|验证文件  <br/> |messages.xsd  <br/> |
+|验证文件  <br/> |消息 .xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

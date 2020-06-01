@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 542e7b90-eafe-4711-a9d7-71bbc30d9646
-description: IsPartiallyIndexed 元素表示该项目部分编制索引。
-ms.openlocfilehash: e780fac23aeec1d80e547a47b322073fecdc2a0b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: IsPartiallyIndexed 元素指示是否对项目进行部分索引。
+ms.openlocfilehash: 4bf0c3e5dd7b75a90ac087958fbceda334306af1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826082"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466484"
 ---
 # <a name="ispartiallyindexed"></a>IsPartiallyIndexed
 
-**IsPartiallyIndexed**元素表示该项目部分编制索引。 
+**IsPartiallyIndexed**元素指示是否对项目进行部分索引。 
   
 ```XML
 <IsPartiallyIndexed>true | false</IsPartiallyIndexed>
@@ -26,9 +26,9 @@ ms.locfileid: "19826082"
  **Boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,7 +42,7 @@ ms.locfileid: "19826082"
   
 ## <a name="text-value"></a>文本值
 
-文本值为**true**的**IsPartiallyIndexed**元素指示邮箱项目部分编制索引。 如果值为**false**指示不部分索引邮箱项目。 
+如果**IsPartiallyIndexed**元素的文本值为**true** ，则表示该邮箱项目已部分编制索引。 如果值为**false** ，则表示未对邮箱项目进行部分索引。 
   
 ## <a name="remarks"></a>备注
 
@@ -54,7 +54,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |false  <br/> |

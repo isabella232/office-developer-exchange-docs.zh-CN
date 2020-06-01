@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 706c6387-c648-4ccc-85e6-12a07b66da2f
-description: PrimarySmtpAddress 元素指定的邮箱的主要简单邮件传输协议 (SMTP) 地址。
-ms.openlocfilehash: a103513c7cac94bd4923c12ed402b81c5d794e1f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: PrimarySmtpAddress 元素指定邮箱的主要简单邮件传输协议（SMTP）地址。
+ms.openlocfilehash: 5881e3f7cff709318d38943799d5f9c0f3779c15
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826878"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466190"
 ---
 # <a name="primarysmtpaddress-string"></a>PrimarySmtpAddress （字符串）
 
-**PrimarySmtpAddress**元素指定的邮箱的主要简单邮件传输协议 (SMTP) 地址。 
+**PrimarySmtpAddress**元素指定邮箱的主要简单邮件传输协议（SMTP）地址。 
   
 ```XML
 <PrimarySmtpAddress></PrimarySmtpAddress>
@@ -26,9 +26,9 @@ ms.locfileid: "19826878"
  **string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -38,11 +38,11 @@ ms.locfileid: "19826878"
   
 ### <a name="parent-elements"></a>父元素
 
-[UserId （字符串）](userid-string.md) | [邮箱 (PreviewItemMailboxType)](mailbox-previewitemmailboxtype.md) | [SearchableMailbox](searchablemailbox.md)
+[UserId （string）](userid-string.md)  | [邮箱（PreviewItemMailboxType）](mailbox-previewitemmailboxtype.md)  | [SearchableMailbox](searchablemailbox.md)
   
 ## <a name="text-value"></a>文本值
 
-**PrimarySmtpAddress**元素的文本值的邮箱的主 SMTP 地址。 
+**PrimarySmtpAddress**元素的文本值是邮箱的主 SMTP 地址。 
   
 ## <a name="remarks"></a>备注
 
@@ -54,7 +54,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> ||

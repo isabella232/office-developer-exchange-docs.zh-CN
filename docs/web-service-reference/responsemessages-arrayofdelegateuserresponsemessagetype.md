@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 14819975-ce54-4f0e-9f90-d4b275895ea0
-description: ResponseMessages 元素包含 Exchange Web 服务代理管理请求的响应消息。
-ms.openlocfilehash: e4b5567f3ded003e9648eb8ebebfadf8f1748d6c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ResponseMessages 元素包含 Exchange Web 服务委派管理请求的响应消息。
+ms.openlocfilehash: 6b035f4ee46af1750a275e2c61b2cddea06b37a1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827193"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465455"
 ---
 # <a name="responsemessages-arrayofdelegateuserresponsemessagetype"></a>ResponseMessages (ArrayOfDelegateUserResponseMessageType)
 
-**ResponseMessages**元素包含 Exchange Web 服务代理管理请求的响应消息。 
+**ResponseMessages**元素包含 Exchange Web 服务委派管理请求的响应消息。 
   
 ```
 <ResponseMessages>
@@ -32,9 +32,9 @@ ms.locfileid: "19827193"
  **ArrayOfDelegateUserResponseMessageType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,28 +42,28 @@ ms.locfileid: "19827193"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[DelegateUserResponseMessageType](delegateuserresponsemessagetype.md) <br/> |包含委派管理操作的响应消息。  <br/> |
+|[DelegateUserResponseMessageType](delegateuserresponsemessagetype.md) <br/> |包含用于委派管理操作的响应消息。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[AddDelegateResponse](adddelegateresponse.md) <br/> |包含状态和[AddDelegate 操作](adddelegate-operation.md)请求的结果。  <br/> |
-|[GetDelegateResponse](getdelegateresponse.md) <br/> |包含状态和[GetDelegate 操作](getdelegate-operation.md)请求的结果。  <br/> |
-|[UpdateDelegateResponse](updatedelegateresponse.md) <br/> |包含状态和[UpdateDelegate 操作](updatedelegate-operation.md)请求的结果。  <br/> |
-|[RemoveDelegateResponse](removedelegateresponse.md) <br/> |包含状态和[RemoveDelegate 操作](removedelegate-operation.md)请求的结果。  <br/> |
+|[AddDelegateResponse](adddelegateresponse.md) <br/> |包含[AddDelegate 操作](adddelegate-operation.md)请求的状态和结果。  <br/> |
+|[GetDelegateResponse](getdelegateresponse.md) <br/> |包含[GetDelegate 操作](getdelegate-operation.md)请求的状态和结果。  <br/> |
+|[UpdateDelegateResponse](updatedelegateresponse.md) <br/> |包含[UpdateDelegate 操作](updatedelegate-operation.md)请求的状态和结果。  <br/> |
+|[RemoveDelegateResponse](removedelegateresponse.md) <br/> |包含[RemoveDelegate 操作](removedelegate-operation.md)请求的状态和结果。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-[AddDelegate 操作](adddelegate-operation.md)、 [GetDelegate 操作](getdelegate-operation.md)、 [UpdateDelegate 操作](updatedelegate-operation.md)和[RemoveDelegate 操作](removedelegate-operation.md)中使用此元素。 委托管理操作响应的不同于其他响应结构。 委托管理响应消息是强类型。
+此元素在[AddDelegate 操作](adddelegate-operation.md)、 [GetDelegate 操作](getdelegate-operation.md)、 [UpdateDelegate 操作](updatedelegate-operation.md)和[RemoveDelegate 操作](removedelegate-operation.md)中使用。 委派管理操作响应的结构不同于其他响应。 委托管理响应消息是强类型的。
   
-描述此元素的架构位于安装了客户端访问服务器角色与运行 Exchange Server 的计算机的 EWS 虚拟目录中。
+描述此元素的架构位于运行 Exchange Server 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
   
 ## <a name="element-information"></a>元素信息
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -81,5 +81,5 @@ ms.locfileid: "19827193"
 [RemoveDelegate 操作](removedelegate-operation.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

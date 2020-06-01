@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ff1b6b1c-3557-41d4-8aa6-9528fdb3a21a
 description: NewReminderTime 元素指定提醒的新时间。
-ms.openlocfilehash: 9f3f509942c673c916cc646cd9519240aef6ea06
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a10f7e481b474501f33dba4c09060766568952b0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826531"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465952"
 ---
 # <a name="newremindertime"></a>NewReminderTime
 
@@ -26,9 +26,9 @@ ms.locfileid: "19826531"
  **string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,7 +42,7 @@ ms.locfileid: "19826531"
   
 ## <a name="text-value"></a>文本值
 
-**NewReminderTime**元素的文本值是提醒的新时间。 [ActionType](actiontype-reminderactiontype.md)元素设置为**Snooze**，以便提醒延迟时使用**NewReminderTime**元素。 **NewReminderTime**的值必须大于[ReminderTime](remindertime.md) [GetReminders 操作](getreminders-operation.md)返回。
+**NewReminderTime**元素的文本值是提醒的新时间。 当[ActionType](actiontype-reminderactiontype.md)元素设置为 "**暂停**" 时，将使用**NewReminderTime**元素，以便延迟提醒。 **NewReminderTime**的值必须大于[GetReminders 操作](getreminders-operation.md)返回的[ReminderTime](remindertime.md) 。
   
 ## <a name="remarks"></a>备注
 
@@ -54,7 +54,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -66,5 +66,5 @@ Exchange Server 2013 中引入了此元素。
 [ReminderItemAction](reminderitemaction.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

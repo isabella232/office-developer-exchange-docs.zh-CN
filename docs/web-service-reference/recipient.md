@@ -1,5 +1,5 @@
 ---
-title: Recipient
+title: 收件人
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 52adbb30-3bfd-48aa-9ea8-9f7d3b4bee44
-description: 收件人元素均表示的收件人其发生此事件。
-ms.openlocfilehash: e8e8f9d6031d27c7441017c85eb26a143258b183
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 收件人元素表示发生事件的收件人。
+ms.openlocfilehash: eb7e85acf3c2b898b3f0bff4b63168d344e1daa8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826971"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465854"
 ---
-# <a name="recipient"></a>Recipient
+# <a name="recipient"></a>收件人
 
-**收件人**元素均表示的收件人其发生此事件。 
+**收件人**元素表示发生事件的收件人。 
   
 ```XML
 <Recipient>
@@ -36,9 +36,9 @@ ms.locfileid: "19826971"
  **EmailAddressType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -46,24 +46,24 @@ ms.locfileid: "19826971"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[名称 (EmailAddressType)](name-emailaddresstype.md) <br/> |代表邮箱用户的名称。 此元素是可选的。  <br/> |
-|[EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) <br/> |定义邮箱用户的主要简单邮件传输协议 (SMTP) 的地址。 此元素是可选的。  <br/> |
-|[RoutingType （电子邮件地址）](routingtype-emailaddress.md) <br/> |定义用于邮箱路由。 默认值为 SMTP。 此元素是可选的。  <br/> |
-|[MailboxType](mailboxtype.md) <br/> |表示由的电子邮件地址的邮箱的类型。 此元素是可选的。  <br/> |
+|[名称 (EmailAddressType)](name-emailaddresstype.md) <br/> |表示邮箱用户的名称。 此元素为可选。  <br/> |
+|[EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) <br/> |定义邮箱用户的主要简单邮件传输协议（SMTP）地址。 此元素为可选。  <br/> |
+|[RoutingType (EmailAddress)](routingtype-emailaddress.md) <br/> |定义供邮箱使用的路由。 默认值为 SMTP。 此元素为可选。  <br/> |
+|[MailboxType](mailboxtype.md) <br/> |代表电子邮件地址所代表的邮箱类型。 此元素为可选。  <br/> |
 |[ItemId](itemid.md) <br/> |定义用户的联系人文件夹中的收件人的联系人或个人通讯组列表的项标识符。此元素是可选的。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[RecipientTrackingEvent](recipienttrackingevent.md) <br/> |包含收件人为一个事件的信息。  <br/> |
-|[FindMessageTrackingReport](findmessagetrackingreport.md) <br/> |指定条件的邮件，以查找的类型。  <br/> |
+|[RecipientTrackingEvent](recipienttrackingevent.md) <br/> |包含收件人的单个事件的信息。  <br/> |
+|[FindMessageTrackingReport](findmessagetrackingreport.md) <br/> |指定要查找的邮件类型的条件。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -71,7 +71,7 @@ ms.locfileid: "19826971"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -80,5 +80,5 @@ ms.locfileid: "19826971"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

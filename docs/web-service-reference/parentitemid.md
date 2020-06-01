@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 72dc4391-72db-44d2-85d9-4718d59886a7
-description: ParentItemId 元素标识链接到关联的附件的父项。
-ms.openlocfilehash: 9bd875ee5ead8b87996288a640e1bb14e3a5e8b8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ParentItemId 元素标识链接到相关联的附件的父项目。
+ms.openlocfilehash: 4f3e33da0af2438948313f0e335cd03e076d135a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826703"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465742"
 ---
 # <a name="parentitemid"></a>ParentItemId
 
-**ParentItemId**元素标识链接到关联的附件的父项。 
+**ParentItemId**元素标识链接到相关联的附件的父项目。 
   
 - [CreateAttachment](createattachment.md)
   
@@ -35,15 +35,14 @@ ms.locfileid: "19826703"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**说明**|
 |:-----|:-----|
-|
-  **Id** <br/> |标识要关联带附件的 Exchange 存储中的单个项。 此值是一个字符串。 此属性是必需的。  <br/> |
-|**更改密钥** <br/> |标识未指定由 Exchange 存储中的**Id**属性标识的项目的版本。 这用于确保更新带附件时，使用当前项目。 此值是一个字符串。 此属性是可选的。  <br/> |
+|**Id** <br/> |标识与附件关联的 Exchange 存储中的单个项目。 此值为字符串。 此特性是必需的。  <br/> |
+|**ChangeKey** <br/> |标识由 Exchange 存储中的**Id**属性标识的项目的未指定版本。 这用于确保在使用附件更新当前项时使用它。 此值为字符串。 此特性是可选的。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -53,11 +52,11 @@ ms.locfileid: "19826703"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[CreateAttachment](createattachment.md) <br/> |定义在邮箱中创建项目附件的请求。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/CreateAttachment` <br/> |
+|[CreateAttachment](createattachment.md) <br/> |定义在邮箱中创建项目附件的请求。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/CreateAttachment` <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此元素是[CreateAttachment 操作](createattachment-operation.md)中必需的。 此元素基本上是[ItemId](itemid.md)元素相同。 
+在[CreateAttachment 操作](createattachment-operation.md)中，此元素是必需的。 此元素基本上与[ItemId](itemid.md)元素相同。 
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -65,7 +64,7 @@ ms.locfileid: "19826703"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |[http://schemas.microsoft.com/exchange/services/2006/messages](http://schemas.microsoft.com/exchange/services/2006/messages) <br/> |
+|命名空间  <br/> |[https://schemas.microsoft.com/exchange/services/2006/messages](https://schemas.microsoft.com/exchange/services/2006/messages) <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |

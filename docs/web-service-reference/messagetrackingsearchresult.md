@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 8ea77aa8-b93f-4287-be36-0a9da06e0946
 description: MessageTrackingSearchResult 元素包含 FindMessageTrackingReportResponse 元素的单个邮件结果。
-ms.openlocfilehash: ad4fb9d9e2266222303bd2015a7afba0bb46721b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 27e70cd9e11b480ab6bbb9b28275f142da7c76ac
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826460"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466680"
 ---
 # <a name="messagetrackingsearchresult"></a>MessageTrackingSearchResult
 
@@ -40,9 +40,9 @@ ms.locfileid: "19826460"
  **FindMessageTrackingSearchResultType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -50,15 +50,15 @@ ms.locfileid: "19826460"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Subject](subject.md) <br/> |包含电子邮件主题。  <br/> |
-|[发件人 (EmailAddressType)](sender-emailaddresstype.md) <br/> |包含电子邮件发件人的地址。  <br/> |
-|[PurportedSender](purportedsender.md) <br/> |包含声称的发件人的电子邮件的联系人信息。  <br/> |
-|[收件人 (ArrayOfRecipientsType)](recipients-arrayofrecipientstype.md) <br/> |包含的电子邮件地址收到此消息的列表。  <br/> |
-|[SubmittedTime](submittedtime.md) <br/> |包含已提交提交邮件的时间。  <br/> |
-|[MessageTrackingReportId](messagetrackingreportid.md) <br/> |包含内部 ID 标识的传输数据库中的消息。  <br/> |
-|[PreviousHopServer](previoushopserver.md) <br/> |包含林中的以前接受邮件服务器的名称。  <br/> |
-|[FirstHopServer](firsthopserver.md) <br/> |包含林中的先接受邮件服务器的名称。  <br/> |
-|[属性 (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md) <br/> |包含一个或多个跟踪属性的列表。  <br/> |
+|[主题](subject.md) <br/> |包含电子邮件主题。  <br/> |
+|[发件人（EmailAddressType）](sender-emailaddresstype.md) <br/> |包含电子邮件发件人的地址。  <br/> |
+|[PurportedSender](purportedsender.md) <br/> |包含所声称的电子邮件发件人的联系人信息。  <br/> |
+|[收件人（ArrayOfRecipientsType）](recipients-arrayofrecipientstype.md) <br/> |包含收到此邮件的电子邮件地址的列表。  <br/> |
+|[SubmittedTime](submittedtime.md) <br/> |包含提交邮件的时间。  <br/> |
+|[MessageTrackingReportId](messagetrackingreportid.md) <br/> |包含标识传输数据库中的邮件的内部 ID。  <br/> |
+|[PreviousHopServer](previoushopserver.md) <br/> |包含之前接受邮件的林中的服务器的名称。  <br/> |
+|[FirstHopServer](firsthopserver.md) <br/> |包含在林中第一次接受邮件的服务器的名称。  <br/> |
+|[Properties （ArrayOfTrackingPropertiesType）](properties-arrayoftrackingpropertiestype.md) <br/> |包含一个或多个跟踪属性的列表。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -70,7 +70,7 @@ ms.locfileid: "19826460"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   
@@ -78,7 +78,7 @@ ms.locfileid: "19826460"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -90,5 +90,5 @@ ms.locfileid: "19826460"
 [FindMessageTrackingReport 操作](findmessagetrackingreport-operation.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

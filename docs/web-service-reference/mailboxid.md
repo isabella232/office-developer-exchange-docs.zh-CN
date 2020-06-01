@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: bcef790d-094f-40ba-b4cf-8abd9c79cc7a
-description: MailboxId 元素指定访问发现搜索邮箱的标识符。
-ms.openlocfilehash: 2d8eea6418ad68866c6026c06b8a0f0f384eda6c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: MailboxId 元素指定通过发现搜索访问的邮箱的标识符。
+ms.openlocfilehash: 7ec43492010dfb54f3e847d037425f9ed919559c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826290"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466365"
 ---
 # <a name="mailboxid"></a>MailboxId
 
-**MailboxId**元素指定访问发现搜索邮箱的标识符。 
+**MailboxId**元素指定通过发现搜索访问的邮箱的标识符。 
   
 ```XML
 <MailboxId></MailboxId>
@@ -27,9 +27,9 @@ ms.locfileid: "19826290"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -39,11 +39,11 @@ ms.locfileid: "19826290"
   
 ### <a name="parent-elements"></a>父元素
 
-[MailboxStat](mailboxstat.md) | [邮箱 (PreviewItemMailboxType)](mailbox-previewitemmailboxtype.md)
+[MailboxStat](mailboxstat.md)  | [邮箱（PreviewItemMailboxType）](mailbox-previewitemmailboxtype.md)
   
 ## <a name="text-value"></a>文本值
 
-**MailboxId**元素的文本值是访问发现搜索邮箱的邮箱标识符。 
+**MailboxId**元素的文本值是可用于发现搜索的邮箱的邮箱标识符。 
   
 ## <a name="remarks"></a>备注
 
@@ -55,7 +55,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> ||

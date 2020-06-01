@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f15c7b9e-a670-4a11-bb62-2a298c91f142
 description: RuleOperationErrors元素表示一个数组的规则上有一个错误的每个规则字段的验证错误。
-ms.openlocfilehash: 7dc85b5cd84af5ad00511a3df2b31ee3541e12b7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d547155f3cbf9eedd0f9bfac7bf3768b3630b50e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827261"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44464950"
 ---
 # <a name="ruleoperationerrors"></a>RuleOperationErrors
 
@@ -32,9 +32,9 @@ ms.locfileid: "19827261"
  **ArrayOfRuleOperationErrorsType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -54,7 +54,7 @@ ms.locfileid: "19827261"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -62,7 +62,7 @@ ms.locfileid: "19827261"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
@@ -74,5 +74,5 @@ ms.locfileid: "19827261"
 [UpdateInboxRules](updateinboxrules.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

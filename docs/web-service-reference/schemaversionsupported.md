@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 578b1682-f3e1-4ccc-aa24-d2ca1a9de596
 description: SchemaVersionSupported 元素包含客户端支持的清单架构的版本。
-ms.openlocfilehash: 0b27a6f16f310ffe10ab819fc1046d4b0b6ecaa2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: df70d8ecf78b4f9b99ceaa3c28d2b1831a1c6171
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827272"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465791"
 ---
 # <a name="schemaversionsupported"></a>SchemaVersionSupported
 
@@ -26,9 +26,9 @@ ms.locfileid: "19827272"
  **string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -38,13 +38,13 @@ ms.locfileid: "19827272"
   
 ### <a name="parent-elements"></a>父元素
 
-[GetAppManifests](getappmanifests.md)
+[Getappmanifests 已](getappmanifests.md)
   
 ## <a name="text-value"></a>文本值
 
-**SchemaVersionSupported**元素的文本值包含客户端支持的清单架构的版本。 此值指示清单应返回到客户端的响应中的应用程序。 
+**SchemaVersionSupported**元素的文本值包含客户端支持的清单架构的版本。 此值指示应在响应中向客户端返回哪些应用程序清单。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   
@@ -52,7 +52,7 @@ Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> | http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> | https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |不适用  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -61,8 +61,8 @@ Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
 
 
 
-[GetAppManifests](getappmanifests.md)
+[Getappmanifests 已](getappmanifests.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

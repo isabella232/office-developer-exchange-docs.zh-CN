@@ -1,5 +1,5 @@
 ---
-title: ArrayOfDomainResponse (SOAP)
+title: ArrayOfDomainResponse （SOAP）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,17 +8,17 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 6dbd9221-e019-4981-bcdb-ea370331f407
-description: ArrayOfDomainResponse 元素包含数组的每个请求的域设置的响应。
-ms.openlocfilehash: 7dec7f4e3df2fd0d7d1fcd4f08bc74a2b432af1b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ArrayOfDomainResponse 元素包含每个请求的域的设置的响应数组。
+ms.openlocfilehash: 382a62ed14e7015c2a25f06b6f9cfc1be4f9e66b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753265"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44466015"
 ---
-# <a name="arrayofdomainresponse-soap"></a>ArrayOfDomainResponse (SOAP)
+# <a name="arrayofdomainresponse-soap"></a>ArrayOfDomainResponse （SOAP）
 
-**ArrayOfDomainResponse**元素包含数组的每个请求的域设置的响应。 
+**ArrayOfDomainResponse**元素包含每个请求的域的设置的响应数组。 
   
 ```XML
 <ArrayOfDomainResponse>
@@ -29,9 +29,9 @@ ms.locfileid: "19753265"
  **ArrayOfDomainResponse**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -39,7 +39,7 @@ ms.locfileid: "19753265"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[DomainResponse (SOAP)](domainresponse-soap.md) <br/> |包含指定的域的请求的设置。  <br/> |
+|[DomainResponse （SOAP）](domainresponse-soap.md) <br/> |包含指定域的请求的设置。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -53,7 +53,7 @@ ms.locfileid: "19753265"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |架构名称  <br/> |自动发现架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |

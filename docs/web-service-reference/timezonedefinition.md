@@ -1,5 +1,5 @@
 ---
-title: 时区定义
+title: TimeZoneDefinition
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: b005a80c-addb-4409-beff-e5162076752c
-description: 时区定义元素指定时间段和定义时区的切换。
-ms.openlocfilehash: ffd5ed0c862af794e4aff2387f508849b1d5fd5d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: TimeZoneDefinition 元素指定用于定义时区的周期和转换。
+ms.openlocfilehash: 58d34556686bfc77244b5829798eada51a1df843
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838248"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466064"
 ---
-# <a name="timezonedefinition"></a>时区定义
+# <a name="timezonedefinition"></a>TimeZoneDefinition
 
-**时区定义**元素指定时间段和定义时区的切换。 
+**TimeZoneDefinition**元素指定用于定义时区的周期和转换。 
   
 ```XML
 <TimeZoneDefinition Id="" Name="">
@@ -35,31 +35,31 @@ ms.locfileid: "19838248"
  **TimeZoneDefinitionType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**说明**|
 |:-----|:-----|
-|Id  <br/> |代表时区的唯一标识符。  <br/> |
-|名称  <br/> |代表时区的描述性名称。  <br/> |
+|Id  <br/> |表示时区的唯一标识符。  <br/> |
+|名称  <br/> |表示时区的描述性名称。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[时间段](periods.md) <br/> |表示定义的时间偏移量的时区的不同阶段的[时间段](period.md)元素的数组。  <br/> |
-|[TransitionsGroups](transitionsgroups.md) <br/> |代表指定时区转换的[TransitionsGroup](transitionsgroup.md)元素的数组。  <br/> |
-|[切换](transitions.md) <br/> |代表所在的时区转换的数组。  <br/> |
+|[课时](periods.md) <br/> |表示用于定义时区的不同阶段的时间偏移量的[Period](period.md)元素的数组。  <br/> |
+|[TransitionsGroups](transitionsgroups.md) <br/> |表示[TransitionsGroup](transitionsgroup.md)元素的数组，这些元素指定时区转换。  <br/> |
+|[移交](transitions.md) <br/> |表示时区转换的数组。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[TimeZoneDefinitions](timezonedefinitions.md) <br/> |代表所在的时区定义的数组。  <br/> |
-|[TimeZoneContext](timezonecontext.md) <br/> |表示用于范围对象的创建、 更新和使用 Exchange Web Services (EWS) 检索 DateTime 属性的默认时区定义。  <br/> |
+|[TimeZoneDefinitions](timezonedefinitions.md) <br/> |表示时区定义的数组。  <br/> |
+|[TimeZoneContext](timezonecontext.md) <br/> |表示用于限定使用 Exchange Web 服务（EWS）创建、更新和检索的对象的日期/时间属性的默认时区定义。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -67,7 +67,7 @@ ms.locfileid: "19838248"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -76,5 +76,5 @@ ms.locfileid: "19838248"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

@@ -1,5 +1,5 @@
 ---
-title: 聊天室
+title: 所属
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -12,20 +12,20 @@ api_type:
 - schema
 ms.assetid: 57b6079a-3d83-4429-861e-c551e9e1a991
 description: 聊天室元素是表示会议室的一个或多个元素的列表。
-ms.openlocfilehash: e95112d3d565da29c309e45710ffc0ea9b4d5064
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f8b60a9680f6abba459ebecc96613abfdd93766d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827249"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466183"
 ---
-# <a name="rooms"></a>聊天室
+# <a name="rooms"></a>所属
 
 **聊天室**元素是表示会议室的一个或多个元素的列表。 
   
 [GetRoomsResponse](getroomsresponse.md)
   
-[聊天室](rooms.md)
+[所属](rooms.md)
   
 ```xml
 <Rooms>   <Room/></Rooms>
@@ -34,9 +34,9 @@ ms.locfileid: "19827249"
  **ArrayOfRoomsType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -44,7 +44,7 @@ ms.locfileid: "19827249"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[聊天室](room.md) <br/> |定义电子邮件地址和代表会议室的显示名称。  <br/> |
+|[房间](room.md) <br/> |定义表示会议室的电子邮件地址和显示名称。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -52,15 +52,15 @@ ms.locfileid: "19827249"
 |:-----|:-----|
 |[GetRoomsResponse](getroomsresponse.md) <br/> ||
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-描述此元素的架构位于运行 Microsoft Exchange Server 已安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
+描述此元素的架构位于运行 Microsoft Exchange Server 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
   
 ## <a name="element-information"></a>元素信息
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -72,5 +72,5 @@ ms.locfileid: "19827249"
 [GetRooms 操作](getrooms-operation.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

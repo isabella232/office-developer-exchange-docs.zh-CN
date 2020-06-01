@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: efeb5a93-c77f-44f1-b9af-8759acd2c8b5
-description: PageItemReference 元素指定页面项目的引用。
-ms.openlocfilehash: 36f22fee2cd8ef4743476e7d12512504daee12e4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: PageItemReference 元素指定对页面项目的引用。
+ms.openlocfilehash: ff53f82f6346e24f7d73373330ce4f5abb5ec475
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826683"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465644"
 ---
 # <a name="pageitemreference"></a>PageItemReference
 
-**PageItemReference**元素指定页面项目的引用。 
+**PageItemReference**元素指定对页面项目的引用。 
   
 ```XML
 <PageItemReference></PageItemReference>
@@ -26,9 +26,9 @@ ms.locfileid: "19826683"
  **string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,7 +42,7 @@ ms.locfileid: "19826683"
   
 ## <a name="text-value"></a>文本值
 
-**PageItemReference**元素的文本值是页面项目的引用。 
+**PageItemReference**元素的文本值是对页面项的引用。 
   
 ## <a name="remarks"></a>备注
 
@@ -54,7 +54,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> ||

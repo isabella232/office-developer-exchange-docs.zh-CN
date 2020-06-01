@@ -1,5 +1,5 @@
 ---
-title: ActionType (ReminderActionType)
+title: ActionType （ReminderActionType）
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0ffcdcf4-8ea3-483c-bb7f-0cd84126120c
-description: ActionType 元素指定要在提醒上执行的操作。
-ms.openlocfilehash: 361259f733756995fae2c2c2390013a728e475a4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ActionType 元素指定要对提醒执行的操作。
+ms.openlocfilehash: 5c62b2dd945b23a5ff2bb824385c45dbc617a5a5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753095"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465056"
 ---
-# <a name="actiontype-reminderactiontype"></a>ActionType (ReminderActionType)
+# <a name="actiontype-reminderactiontype"></a>ActionType （ReminderActionType）
 
-**ActionType**元素指定要在提醒上执行的操作。 
+**ActionType**元素指定要对提醒执行的操作。 
   
 ```XML
 <ActionType> Dismiss | Snooze </ActionType>
@@ -26,9 +26,9 @@ ms.locfileid: "19753095"
  **ReminderActionType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,7 +42,7 @@ ms.locfileid: "19753095"
   
 ## <a name="text-value"></a>文本值
 
-**ActionType**元素的文本值指定要在提醒上执行的操作。 **Dismiss**的文本值指示应消除提醒。 **Snooze**的文本值指示提醒，应推迟到[NewReminderTime](newremindertime.md)元素所指定的时间。 
+**ActionType**元素的文本值指定要对提醒执行的操作。 "**取消**" 文本值表示应消除提醒。 "**推迟**" 的文本值表示提醒应延迟到[NewReminderTime](newremindertime.md)元素指定的时间。 
   
 ## <a name="remarks"></a>备注
 
@@ -54,7 +54,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -62,5 +62,5 @@ Exchange Server 2013 中引入了此元素。
 ## <a name="see-also"></a>另请参阅
 
 - [ReminderItemAction](reminderitemaction.md)
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

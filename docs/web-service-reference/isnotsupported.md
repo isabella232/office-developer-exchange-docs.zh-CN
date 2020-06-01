@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 4db469ae-1515-47ea-9905-6aabf199febd
-description: IsNotSupported 元素指示是否无法使用 Api 的托管的代码修改该规则。
-ms.openlocfilehash: 2468d47dbfdcaf1a28ed1a4afb1e7ea60147d1dc
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: IsNotSupported 元素指示是否不能使用托管代码 Api 修改规则。
+ms.openlocfilehash: e2d0c506209978fd5e8702e0de6cddf2e9c4b7fa
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826057"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465833"
 ---
 # <a name="isnotsupported"></a>IsNotSupported
 
-**IsNotSupported**元素指示是否无法使用 Api 的托管的代码修改该规则。 
+**IsNotSupported**元素指示是否不能使用托管代码 api 修改规则。 
   
 ```XML
 <IsNotSupported/>
@@ -30,9 +30,9 @@ ms.locfileid: "19826057"
  **Boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -48,9 +48,9 @@ ms.locfileid: "19826057"
    
 ## <a name="text-value"></a>文本值
 
-文本值为**true**指示规则不能使用托管的代码 Api 进行修改。 如果值为**false**指示可以使用 Api 的托管的代码修改规则。 
+如果文本值为**true** ，则表示无法使用托管代码 api 修改规则。 **如果值为 false** ，则表示可以使用托管代码 api 修改规则。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -58,7 +58,7 @@ ms.locfileid: "19826057"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
@@ -67,5 +67,5 @@ ms.locfileid: "19826057"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a31ac268-5061-4272-a433-ffaea2fbcfa9
-description: IsOrganizer 元素指定一个布尔值，该值指示此人是否为会议的 organizer。
-ms.openlocfilehash: 5fd775cfc0a296c08d19d0468d96aa36ba67ddd0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: IsOrganizer 元素指定一个布尔值，该值指示此人是否为会议的组织者。
+ms.openlocfilehash: 45b7a66068dc00f6e60b7380240bea6836282fd4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826063"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44466561"
 ---
 # <a name="isorganizer"></a>IsOrganizer
 
-**IsOrganizer**元素指定一个布尔值，该值指示此人是否为会议的 organizer。 
+**IsOrganizer**元素指定一个布尔值，该值指示此人是否为会议的组织者。 
   
 ```XML
 <IsOrganizer>true | false</IsOrganizer>
@@ -26,9 +26,9 @@ ms.locfileid: "19826063"
  **Boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -40,12 +40,12 @@ ms.locfileid: "19826063"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[日历项目](calendaritem.md) <br/> |表示 Exchange 日历项。  <br/> |
-|[MeetingMessage](meetingmessage.md) <br/> |表示会议消息。  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |表示 Exchange 日历项。  <br/> |
+|[MeetingMessage](meetingmessage.md) <br/> |表示会议邮件。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-文本值为**true**的**IsOrganizer**元素指示的日历项目或会议邮件已由用户创建。 如果值为**false**指示的日历项目或会议邮件不创建 bv 用户。 
+如果**IsOrganizer**元素的文本值为**true** ，则表示日历项目或会议邮件是由用户创建的。 **如果值为 false** ，则表示未 bv 用户创建日历项目或会议邮件。 
   
 ## <a name="remarks"></a>备注
 
@@ -57,14 +57,14 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |types.xsd  <br/> |
+|验证文件  <br/> |类型 .xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

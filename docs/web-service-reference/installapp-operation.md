@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 596eae95-3e78-489a-8bb2-d2dd4a026405
-description: 查找信息 InstallApp EWS 操作。
-ms.openlocfilehash: ccc5d2dde949070bae905ff1ebb182c892f07fcb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 查找有关 InstallApp EWS 操作的信息。
+ms.openlocfilehash: ae6aab7f7176aa827bafa9abf1aa67d458d309d2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825951"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465686"
 ---
 # <a name="installapp-operation"></a>InstallApp 操作
 
 查找有关**InstallApp** EWS 操作的信息。 
   
-**InstallApp**操作的邮箱中的 Outlook 安装邮件应用程序。 
+**InstallApp**操作将为 Outlook 在邮箱中安装邮件应用程序。 
   
 Exchange Server 2013 中引入了此操作。
   
 ## <a name="using-the-installapp-operation"></a>使用 InstallApp 操作
 
-**InstallApp**操作所需的单个参数，标识用于安装的邮件应用程序。 参数包含 base64 编码的邮件应用程序清单。 
+**InstallApp**操作采用一个标识要安装的邮件应用程序的参数。 参数包含邮件应用程序的 base64 编码的清单。 
   
 ### <a name="installapp-operation-soap-headers"></a>InstallApp 操作 SOAP 标头
 
@@ -33,21 +33,21 @@ Exchange Server 2013 中引入了此操作。
   
 |**标头名称**|**元素**|**说明**|
 |:-----|:-----|:-----|
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。 适用于请求此标头。  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应该请求的服务器的版本。 适用于响应此标头。  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。 此标头适用于请求。  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器版本。 此标头适用于响应。  <br/> |
    
-## <a name="installapp-operation-request-example-install-a-mail-app-in-a-mailbox"></a>InstallApp 操作请求示例： 在邮箱中安装邮件应用程序
+## <a name="installapp-operation-request-example-install-a-mail-app-in-a-mailbox"></a>InstallApp 操作请求示例：在邮箱中安装邮件应用程序
 
-**InstallApp**操作请求的下面的示例演示如何安装 Outlook 邮件应用程序。 可以通过使用[GetAppManifests 操作](getappmanifests-operation.md)找到应用程序清单。
+下面的**InstallApp**操作请求示例演示如何为 Outlook 安装邮件应用程序。 可以通过使用[getappmanifests 已操作](getappmanifests-operation.md)找到应用程序清单。
   
 > [!NOTE]
-> Base64 编码的应用程序清单已被任意截断以保留可读性和不代表一个有效的清单。 
+> Base64 编码的应用程序清单已被随意截断以保留可读性，并且不代表有效的清单。 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
    </soap:Header>
@@ -64,11 +64,11 @@ Exchange Server 2013 中引入了此操作。
   
 - [InstallApp](installapp.md)
     
-- [Manifest](manifest.md)
+- [清单](manifest.md)
     
-## <a name="successful-installapp-operation-response"></a>成功 InstallApp 操作响应
+## <a name="successful-installapp-operation-response"></a>成功的 InstallApp 操作响应
 
-下面的示例演示安装邮件应用程序的**InstallApp**操作请求成功响应。 
+下面的示例演示对**InstallApp**操作请求的成功响应，以安装邮件应用程序。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -79,22 +79,22 @@ Exchange Server 2013 中引入了此操作。
                            MajorBuildNumber="556" 
                            MinorBuildNumber="14" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <InstallAppResponse ResponseClass="Success" 
-                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <ResponseCode>NoError</ResponseCode>
       </InstallAppResponse>
    </s:Body>
 </s:Envelope>
 ```
 
-响应 SOAP 正文中包含以下元素：
+响应 SOAP 正文包含以下元素：
   
 - [InstallAppResponse](installappresponse.md)
     
@@ -102,7 +102,7 @@ Exchange Server 2013 中引入了此操作。
     
 ## <a name="installapp-operation-error-response"></a>InstallApp 操作错误响应
 
-下面的示例演示**InstallApp**操作请求错误响应。 这是包含清单无效请求的响应。 
+下面的示例演示对**InstallApp**操作请求的错误响应。 这是对包含无效清单的请求的响应。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -113,15 +113,15 @@ Exchange Server 2013 中引入了此操作。
                            MajorBuildNumber="556" 
                            MinorBuildNumber="14" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <InstallAppResponse ResponseClass="Error" 
-                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <MessageText>This app can't be installed. Missing OfficeApp element.</MessageText>
          <ResponseCode>ErrorInternalServerError</ResponseCode>
          <DescriptiveLinkKey>0</DescriptiveLinkKey>
@@ -149,7 +149,7 @@ Exchange Server 2013 中引入了此操作。
     
 - [UninstallApp 操作](uninstallapp-operation.md)
     
-- [GetAppManifests](getappmanifests.md)
+- [Getappmanifests 已](getappmanifests.md)
     
 - [GetAppMarketplaceUrl 操作](getappmarketplaceurl-operation.md)
     

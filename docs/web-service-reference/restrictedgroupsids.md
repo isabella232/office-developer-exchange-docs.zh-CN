@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 569ab552-5616-444a-a7f5-de366a684a34
-description: RestrictedGroupSids 元素从用户的令牌表示受限制的组的集合。
-ms.openlocfilehash: fcfee809261c7ed0a4e0d092c091841fec641e46
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: RestrictedGroupSids 元素表示用户令牌中受限制的组的集合。
+ms.openlocfilehash: 739a73d2ac4bdbbee03650d035271b5c8d9ea25a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827201"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465357"
 ---
 # <a name="restrictedgroupsids"></a>RestrictedGroupSids
 
-**RestrictedGroupSids**元素从用户的令牌表示受限制的组的集合。 
+**RestrictedGroupSids**元素表示用户令牌中受限制的组的集合。 
   
 ```xml
 <RestrictedGroupSids>
@@ -32,9 +32,9 @@ ms.locfileid: "19827201"
  **NonEmptyArrayOfRestrictedGroupIdentifiersType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,15 +42,15 @@ ms.locfileid: "19827201"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[RestrictedGroupIdentifier](restrictedgroupidentifier.md) <br/> |表示组安全标识符 (SID) 和受限制的组的属性。  <br/> |
+|[RestrictedGroupIdentifier](restrictedgroupidentifier.md) <br/> |表示受限制的组的组安全标识符（SID）和属性。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[SerializedSecurityContext](serializedsecuritycontext.md) <br/> |用于服务器到服务器身份验证中的令牌序列化的 SOAP 标头。 不支持令牌序列化。  <br/> |
+|[SerializedSecurityContext](serializedsecuritycontext.md) <br/> |在服务器到服务器身份验证中用于令牌序列化的 SOAP 标头中使用。 不支持令牌序列化。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 Microsoft Exchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -58,7 +58,7 @@ ms.locfileid: "19827201"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -67,5 +67,5 @@ ms.locfileid: "19827201"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

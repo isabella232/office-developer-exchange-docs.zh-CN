@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 3efb7abb-0e91-4d8a-9fa2-3dec8bd17c30
 description: ManagedFolderId 元素包含托管文件夹的文件夹 ID。
-ms.openlocfilehash: acdb69f82678633baff12c46494c39015c36d233
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: eacfe580342e6667fd9fc84ad953a5e4070b6ed7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826340"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465819"
 ---
 # <a name="managedfolderid"></a>ManagedFolderId
 
@@ -30,9 +30,9 @@ ms.locfileid: "19826340"
  **string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -48,11 +48,11 @@ ms.locfileid: "19826340"
    
 ## <a name="text-value"></a>文本值
 
-需要为此元素的文本值。
+此元素需要一个文本值。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-**ManagedFolderId**标识符值相当于通过检索的**Guid**属性`Get-ManagedFolder`Microsoft Windows Powershell 命令。 它也是在 Active Directory 目录服务中的托管文件夹**objectGUID**属性的值。 
+**ManagedFolderId**标识符值等效于 Microsoft Windows Powershell 命令检索的**Guid**属性 `Get-ManagedFolder` 。 它也是 Active Directory 目录服务中托管文件夹的**objectGUID**属性的值。 
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -60,7 +60,7 @@ ms.locfileid: "19826340"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -72,10 +72,10 @@ ms.locfileid: "19826340"
 [CreateManagedFolder 操作](createmanagedfolder-operation.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 
 
-[删除文件夹](http://msdn.microsoft.com/library/1958add5-5071-4239-adb2-40f7a7d74aee%28Office.15%29.aspx)
+[删除文件夹](https://msdn.microsoft.com/library/1958add5-5071-4239-adb2-40f7a7d74aee%28Office.15%29.aspx)
   
-[Adding Managed Folders](http://msdn.microsoft.com/library/846658c6-7043-40fb-8439-19f97c2a967f%28Office.15%29.aspx)
+[Adding Managed Folders](https://msdn.microsoft.com/library/846658c6-7043-40fb-8439-19f97c2a967f%28Office.15%29.aspx)
 

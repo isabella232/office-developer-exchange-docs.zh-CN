@@ -1,5 +1,5 @@
 ---
-title: 年
+title: 年份
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 93bf2847-53fa-496c-9a1e-dc9a9ffd0b9f
-description: Year 元素用于定义更改这取决于一年的时区。 此元素是可选的。 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 中引入了此元素。
-ms.openlocfilehash: 95d75f9c6166fc26e86534346fb07292a7fb3dcd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Year 元素用于定义根据年份变化的时区。 此元素为可选。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
+ms.openlocfilehash: cc83f9b2137f151f3f8ef0ceaf603ec036989961
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838589"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465168"
 ---
-# <a name="year"></a>年
+# <a name="year"></a>年份
 
-**Year**元素用于定义更改这取决于一年的时区。 此元素是可选的。 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 中引入了此元素。 
+**Year**元素用于定义根据年份变化的时区。 此元素为可选。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
   
 ```xml
 <Year/>
@@ -31,9 +31,9 @@ ms.locfileid: "19838589"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -45,14 +45,14 @@ ms.locfileid: "19838589"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[StandardTime](standardtime.md) <br/> |表示的时间相对于协调世界时 (UTC) 表示[斜线 (UTC)](bias-utc.md)元素的偏移量。  <br/> |
-|[DaylightTime](daylighttime.md) <br/> |表示从时间相对于协调世界时 (UTC) 表示的夏时制观察到的位置的区域中的[斜线 (UTC)](bias-utc.md)元素的偏移量。  <br/> |
+|[StandardTime](standardtime.md) <br/> |表示相对于[偏差（utc）](bias-utc.md)元素所表示的协调世界时（utc）的时间的偏移量。  <br/> |
+|[DaylightTime](daylighttime.md) <br/> |表示相对于协调世界时（UTC）的时间的偏移量，由观察到夏时制的区域中的[偏置（utc）](bias-utc.md)元素表示。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-Year 元素接受一个字符串，表示一年。 YYYY 年份格式。
+Year 元素接受表示一年的字符串。 年格式为 YYYY。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 Microsoft Exchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -60,12 +60,12 @@ Year 元素接受一个字符串，表示一年。 YYYY 年份格式。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: fccdedc0-83ed-4bb7-a1d2-623e70d1a7bf
 description: SourceId 元素指定角色中的属性化联系人的标识符。
-ms.openlocfilehash: b08c28f93318a01e45a0d9cb812fef01905694ac
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a795f9fa2cc2084bee34c82b6df9567c79d430eb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827521"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465756"
 ---
 # <a name="sourceid"></a>SourceId
 
@@ -26,14 +26,14 @@ ms.locfileid: "19827521"
  **ItemIdType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**说明**|
 |:-----|:-----|
 |Id  <br/> |**Id**属性的文本值是联系人的标识符。  <br/> |
-|更改密钥  <br/> |**更改密钥**属性的文本值是联系人的更改键。  <br/> |
+|ChangeKey  <br/> |**ChangeKey**属性的文本值是联系人的更改键。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -41,7 +41,7 @@ ms.locfileid: "19827521"
   
 ### <a name="parent-elements"></a>父元素
 
-[归属 (PersonaAttributionType)](attribution-personaattributiontype.md)
+[归属（PersonaAttributionType）](attribution-personaattributiontype.md)
   
 ## <a name="remarks"></a>备注
 
@@ -53,7 +53,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> ||

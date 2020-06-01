@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3bdf5955-1212-48a1-b3b5-743086866c91
-description: RetentionAction 元素指定与保留标记的项上执行的操作。
-ms.openlocfilehash: 54a1038f2e56aad66f89522423ccfbd69dc44a80
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: RetentionAction 元素指定对带有保留标记的项目执行的操作。
+ms.openlocfilehash: c16988413e732ddc3cd6ebc355cb73c4d96550c7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827215"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465231"
 ---
 # <a name="retentionaction"></a>RetentionAction
 
-**RetentionAction**元素指定与保留标记的项上执行的操作。 
+**RetentionAction**元素指定对带有保留标记的项目执行的操作。 
   
 ```XML
 <RetentionAction> None | MoveToDeletedItems | MoveToFolder | DeleteAndAllowRecovery | PermanentlyDelete | MarkAsPastRetentionLimit | MoveToArchive <RetentionAction>
@@ -26,9 +26,9 @@ ms.locfileid: "19827215"
  **RetentionActionType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -38,25 +38,25 @@ ms.locfileid: "19827215"
   
 ### <a name="parent-elements"></a>父元素
 
-[RetentionPolicyTag](retentionpolicytag.md)
+[Get-retentionpolicytag](retentionpolicytag.md)
   
 ## <a name="text-value"></a>文本值
 
-**RetentionAction**元素的文本值是在项目上执行的操作。 下面的列表包含**RetentionAction**元素的文本值。 
+**RetentionAction**元素的文本值是对项目执行的操作。 以下列表包含**RetentionAction**元素的文本值。 
   
-> 项目上执行**无**-任何操作。 
+> **无**-对项目不执行任何操作。 
     
-> **MoveToDeletedItems** -项目移动到默认删除邮件文件夹。 
+> **MoveToDeletedItems** -将项目移动到默认的 "已删除邮件" 文件夹。 
     
-> **MoveToFolder** -项目移动到指定的文件夹。 
+> **MoveToFolder** -将项目移动到指定的文件夹。 
     
-> **DeleteAndAllowRecovery** -项目被删除，并置于转储程序。 
+> **DeleteAndAllowRecovery** -将删除该项目并将其放入转储程序中。 
     
-> 从邮箱永久删除**PermanentlyDelete** -项目。 
+> **PermanentlyDelete** -项目从邮箱中永久删除。 
     
-> **MarkAsPastRetentionLimit** -项目标记为具有超过保留时间限制。 
+> **MarkAsPastRetentionLimit** -项目被标记为已超过保留时间限制。 
     
-> **MoveToArchive** -项目移动到存档邮箱。 
+> **MoveToArchive** -将项目移动到存档邮箱。 
     
 ## <a name="remarks"></a>备注
 
@@ -68,7 +68,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> ||

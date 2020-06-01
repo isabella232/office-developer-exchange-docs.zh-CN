@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 1dbb130a-e4eb-4baf-ae07-2568a8375bff
-description: RootAddress 元素均表示启动 RecipientTrackingEvent 事件的事件的第一个地址。
-ms.openlocfilehash: afe544d6ee8dea4cb416ad033ed2cd68976ec087
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: RootAddress 元素表示为 RecipientTrackingEvent 事件启动事件的第一个地址。
+ms.openlocfilehash: e020ff07f271bdde6c2a4172141097dcba66f64e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827250"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465091"
 ---
 # <a name="rootaddress"></a>RootAddress
 
-**RootAddress**元素均表示启动[RecipientTrackingEvent](recipienttrackingevent.md)事件的事件的第一个地址。 
+**RootAddress**元素表示为[RecipientTrackingEvent](recipienttrackingevent.md)事件启动事件的第一个地址。 
   
 ```xml
 <RootAddress/>
@@ -30,9 +30,9 @@ ms.locfileid: "19827250"
  **NonEmptyStringType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -44,7 +44,7 @@ ms.locfileid: "19827250"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[RecipientTrackingEvent](recipienttrackingevent.md) <br/> |包含收件人为一个事件的信息。  <br/> |
+|[RecipientTrackingEvent](recipienttrackingevent.md) <br/> |包含收件人的单个事件的信息。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
@@ -58,7 +58,7 @@ ms.locfileid: "19827250"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -70,5 +70,5 @@ ms.locfileid: "19827250"
 [GetMessageTrackingReport 操作](getmessagetrackingreport-operation.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

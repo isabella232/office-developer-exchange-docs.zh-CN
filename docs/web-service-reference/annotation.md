@@ -1,5 +1,5 @@
 ---
-title: 批注
+title: Annotation
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,28 +7,28 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: e0392635-9d0f-46d5-84ef-0a8a3036479a
-description: 注释元素包含由用户添加的可选说明。
-ms.openlocfilehash: e0170ef9940b64d4c6a10a08182189571f2beb5a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Annotation 元素包含用户添加的可选注释。
+ms.openlocfilehash: 291d875085f9bc13e92a14b844b66878f5e6eb2a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753146"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44466113"
 ---
-# <a name="annotation"></a>批注
+# <a name="annotation"></a>Annotation
 
-**注释**元素包含由用户添加的可选说明。 
+**Annotation**元素包含用户添加的可选注释。 
   
 ```XML
 <Annotation></Annotation>
 ```
 
- **将**
+ **xs： string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -40,11 +40,11 @@ ms.locfileid: "19753146"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[EnhancedLocation](enhancedlocation.md) <br/> |指定有关位置如姓名、 地址和可选注释的位置信息。  <br/> |
+|[EnhancedLocation](enhancedlocation.md) <br/> |指定位置信息，如名称、地址和关于某个位置的可选注释。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-注释元素的文本值是一个位置有关的用户添加的注释。
+"Annotation" 元素的文本值是用户添加的关于某个位置的注释。
   
 ## <a name="remarks"></a>备注
 
@@ -56,12 +56,12 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |types.xsd  <br/> |
+|验证文件  <br/> |类型 .xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

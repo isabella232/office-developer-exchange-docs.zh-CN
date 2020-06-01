@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 628acf0b-3ebc-42f1-8ce2-7a02b4c8141f
-description: SetUserOofSettingsRequest 元素包含用于设置用户的外出 (OOF) 设置的邮箱的参数。
-ms.openlocfilehash: ed54bb1d066da7b15605fb81931a6ef75dfc61bf
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: SetUserOofSettingsRequest 元素包含用于设置邮箱用户的外出（OOF）设置的参数。
+ms.openlocfilehash: 10edc9809fd72f80c316de1c6688eaedec4f93df
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827474"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466148"
 ---
 # <a name="setuseroofsettingsrequest"></a>SetUserOofSettingsRequest
 
-**SetUserOofSettingsRequest**元素包含用于设置用户的外出 (OOF) 设置的邮箱的参数。 
+**SetUserOofSettingsRequest**元素包含用于设置邮箱用户的外出（OOF）设置的参数。 
   
 ```xml
 <SetUserOofSettingsRequest>
@@ -33,9 +33,9 @@ ms.locfileid: "19827474"
  **SetUserOofSettingsRequest**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -43,32 +43,32 @@ ms.locfileid: "19827474"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[邮箱 （可用性）](mailbox-availability.md) <br/> |标识 SetUserOofSettings 或 GetUserOofSettings 请求的邮箱用户。  <br/> |
+|[邮箱（可用性）](mailbox-availability.md) <br/> |标识 SetUserOofSettings 或 GetUserOofSettings 请求的邮箱用户。  <br/> |
 |[UserOofSettings](useroofsettings.md) <br/> |指定 OOF 设置。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
 ## <a name="example"></a>示例
 
-下面的示例 SetUserOofSettings 请求的设置十天 OOF 设置。
+以下示例的 SetUserOofSettings 请求将 OOF 设置设置为10天。
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <SetUserOofSettingsRequest xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-      <Mailbox xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+    <SetUserOofSettingsRequest xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+      <Mailbox xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <Name>David Alexander</Name>
         <Address>someone@example.com</Address>
         <RoutingType>SMTP</RoutingType>
       </Mailbox>
-      <UserOofSettings xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+      <UserOofSettings xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <OofState>Enabled</OofState>
         <ExternalAudience>All</ExternalAudience>
         <Duration>
@@ -91,7 +91,7 @@ ms.locfileid: "19827474"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |

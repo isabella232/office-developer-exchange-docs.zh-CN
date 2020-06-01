@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1124eac3-ebf2-4b81-96d3-96838c840433
-description: PictureData 元素包含图片的数据流。
-ms.openlocfilehash: fb1dcd6ba2ea2b84cd7abd460adc31d3d86e8d87
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: PictureData 元素包含图片数据流。
+ms.openlocfilehash: 1d131e88a4927b0b0d3d873ea73973389b46e615
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826822"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466253"
 ---
 # <a name="picturedata"></a>PictureData
 
-**PictureData**元素包含图片的数据流。 
+**PictureData**元素包含图片数据流。 
   
 ```XML
 <PictureData></PictureData>
@@ -26,9 +26,9 @@ ms.locfileid: "19826822"
  **base64Binary**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -54,7 +54,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> ||

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ddb276c4-6c8a-46ef-a2eb-46b6a0bfce09
 description: SearchMailboxesResult 元素包含 SearchMailboxes 请求的结果。
-ms.openlocfilehash: 93e5837216ef8942b77ac2a91f5ef5f0ad001756
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 79d593d99762aedc6290578b5458f9ac3cad3d26
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827300"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466701"
 ---
 # <a name="searchmailboxesresult"></a>SearchMailboxesResult
 
@@ -38,15 +38,15 @@ ms.locfileid: "19827300"
  **SearchMailboxesResultType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
 ### <a name="child-elements"></a>子元素
 
-[SearchQueries](searchqueries.md) | [ResultType](resulttype.md) | [ItemCount](itemcount.md) | [大小 (long)](size-long.md) | [PageItemCount](pageitemcount.md) | [PageItemSize](pageitemsize.md) | [KeywordStats](keywordstats.md) | [项目 （ArrayOfSearchPreviewItemsType)](items-arrayofsearchpreviewitemstype.md) | [FailedMailboxes](failedmailboxes.md) | [精简程序](refiners.md) | [MailboxStats](mailboxstats.md)
+[SearchQueries](searchqueries.md)  | [ResultType](resulttype.md)  | [ItemCount](itemcount.md)  | [大小（long）](size-long.md)  | [PageItemCount](pageitemcount.md)  | [PageItemSize](pageitemsize.md)  | [KeywordStats](keywordstats.md)  | [项目（ArrayOfSearchPreviewItemsType）](items-arrayofsearchpreviewitemstype.md)  | [FailedMailboxes](failedmailboxes.md)  | [精简条件](refiners.md)  | [MailboxStats](mailboxstats.md)
   
 ### <a name="parent-elements"></a>父元素
 
@@ -62,7 +62,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |false  <br/> |

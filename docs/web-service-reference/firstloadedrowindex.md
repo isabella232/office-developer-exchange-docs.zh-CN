@@ -7,23 +7,23 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 75f988f3-0b04-470c-8943-fb1f4fef9a87
-description: FirstLoadedRowIndex 元素旨在仅供内部使用。
-ms.openlocfilehash: 351026ccb8f886d082b3ec3b662cd26b9d7a9555
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: FirstLoadedRowIndex 元素仅供内部使用。
+ms.openlocfilehash: 0dbb5c08e03e5283e34cf38db0b9e371c5f92393
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754361"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466358"
 ---
 # <a name="firstloadedrowindex"></a>FirstLoadedRowIndex
 
-**FirstLoadedRowIndex**元素旨在仅供内部使用。 
+**FirstLoadedRowIndex**元素仅供内部使用。 
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19754361"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   

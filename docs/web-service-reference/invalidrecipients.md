@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: e4e7b50e-2fa9-4649-94a6-6002f341ecc4
 description: InvalidRecipients元素表示无效的收件人共享请求的文件夹。
-ms.openlocfilehash: 02ad8935bde347c563875bf5bfb31968b70d81b6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 99e0817f0ff873c4732b03cc7d68aa8e0070813c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825966"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465560"
 ---
 # <a name="invalidrecipients"></a>InvalidRecipients
 
@@ -32,9 +32,9 @@ ms.locfileid: "19825966"
  **ArrayOfInvalidRecipientsType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -51,7 +51,7 @@ ms.locfileid: "19825966"
 |[GetSharingMetadataResponse](getsharingmetadataresponse.md) <br/> |定义一个[GetSharingMetadata 操作](getsharingmetadata-operation.md)请求的响应。  <br/> |
 |[GetSharingMetadataResponseMessage](getsharingmetadataresponsemessage.md) <br/> |包含状态和一个[GetSharingMetadata 操作](getsharingmetadata-operation.md)请求的结果。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -59,7 +59,7 @@ ms.locfileid: "19825966"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -71,5 +71,5 @@ ms.locfileid: "19825966"
 [GetSharingMetadata 操作](getsharingmetadata-operation.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

@@ -7,28 +7,28 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f536e264-8c4d-4cc5-bab8-22a4fa38de39
-description: StoreEntryId 元素包含项目的 Exchange 存储区标识符。
-ms.openlocfilehash: dfd38e445ff0c5966116e984d712a45b6b1b8485
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: StoreEntryId 元素包含项目的 Exchange 存储标识符。
+ms.openlocfilehash: 669ea937da6c08b50877c24aeb450fe975326247
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827600"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465154"
 ---
 # <a name="storeentryid"></a>StoreEntryId
 
-**StoreEntryId**元素包含项目的 Exchange 存储区标识符。 
+**StoreEntryId**元素包含项目的 Exchange 存储标识符。 
   
 ```XML
 <StoreEntryId/>
 ```
 
- **xs:base64Binary**
+ **xs： base64Binary**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -41,13 +41,13 @@ ms.locfileid: "19827600"
 |**元素名**|**说明**|
 |:-----|:-----|
 |[AcceptItem](acceptitem.md) <br/> |表示接受答复会议要求。  <br/> |
-|[日历项目](calendaritem.md) <br/> |表示 Exchange 日历项。  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |表示 Exchange 日历项。  <br/> |
 |[条件](conditions.md) <br/> |表示履行时将触发规则的规则操作的条件。  <br/> |
 |[联系人](contact.md) <br/> |表示对 Exchange 存储中的联系人项目。  <br/> |
 |[DeclineItem](declineitem.md) <br/> |表示谢绝答复会议要求。  <br/> |
 |[DistributionList](distributionlist.md) <br/> |表示通讯组列表。  <br/> |
-|[异常](exceptions.md) <br/> |代表收件箱规则的所有可用规则例外条件。  <br/> |
-|[Item](item.md) <br/> |表示的泛型 Exchange 项目。  <br/> |
+|[异常](exceptions.md) <br/> |代表收件箱规则的所有可用的规则例外条件。  <br/> |
+|[项](item.md) <br/> |表示通用 Exchange 项。  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |表示 Exchange 存储中的会议取消。  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |表示 Exchange 存储中的会议。  <br/> |
 |[MeetingRequest](meetingrequest.md) <br/> |表示 Exchange 存储中的会议请求。  <br/> |
@@ -59,9 +59,9 @@ ms.locfileid: "19827600"
    
 ## <a name="text-value"></a>文本值
 
-文本值是一个字符串，表示存储项标识符。
+Text 值是一个字符串，表示存储项的标识符。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

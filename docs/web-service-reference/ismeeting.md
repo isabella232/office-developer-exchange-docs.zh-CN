@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 6ce22f17-7a31-46c4-b643-0894d087e852
-description: IsMeeting 元素指示日历项目是否会议或约会。
-ms.openlocfilehash: bb1349a8690450882e6beac0ccd84a8d03272a7d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: IsMeeting 元素指示日历项目是会议还是约会。
+ms.openlocfilehash: fd72766977567210cd08b47d0723cd73aa53a622
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826051"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465966"
 ---
 # <a name="ismeeting"></a>IsMeeting
 
-**IsMeeting**元素指示日历项目是否会议或约会。 
+**IsMeeting**元素指示日历项目是会议还是约会。 
   
 ```xml
 <IsMeeting/>
@@ -30,9 +30,9 @@ ms.locfileid: "19826051"
  **Boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -44,14 +44,14 @@ ms.locfileid: "19826051"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[日历项目](calendaritem.md) <br/> |表示 Exchange 日历项。  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |表示 Exchange 日历项。  <br/> |
 |[MeetingRequest](meetingrequest.md) <br/> |表示 Exchange 存储中的会议请求。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-如果此元素是包含，则需要一个文本值，它代表一个布尔值。 值为**true**指示日历项目是一个会议。 如果值为**false**指示日历项目为约会。 
+如果包含此元素，则需要一个表示布尔值的文本值。 **如果值为 true** ，则表示日历项目是会议。 如果值为**false** ，则表示日历项目是约会。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -59,7 +59,7 @@ ms.locfileid: "19826051"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -68,5 +68,5 @@ ms.locfileid: "19826051"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

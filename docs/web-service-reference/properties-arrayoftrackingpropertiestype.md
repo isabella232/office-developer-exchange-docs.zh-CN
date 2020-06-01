@@ -1,5 +1,5 @@
 ---
-title: 属性 (ArrayOfTrackingPropertiesType)
+title: Properties （ArrayOfTrackingPropertiesType）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -12,20 +12,20 @@ api_type:
 - schema
 ms.assetid: 175566d2-fd62-45a2-8518-2827912cec88
 description: Properties 元素包含一个或多个跟踪属性的列表。
-ms.openlocfilehash: 079d2d2c101fdeb7f26d65798048c3c6c59f3e94
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 007a4dc14c84c47ea7af8ccacc554c134d563e44
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826897"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44465630"
 ---
-# <a name="properties-arrayoftrackingpropertiestype"></a>属性 (ArrayOfTrackingPropertiesType)
+# <a name="properties-arrayoftrackingpropertiestype"></a>Properties （ArrayOfTrackingPropertiesType）
 
 **Properties**元素包含一个或多个跟踪属性的列表。 
   
 - [FindMessageTrackingReport](findmessagetrackingreport.md)
   
-- [属性 (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md)
+- [Properties （ArrayOfTrackingPropertiesType）](properties-arrayoftrackingpropertiestype.md)
   
 ```xml
 <Properties>
@@ -37,9 +37,9 @@ ms.locfileid: "19826897"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -47,25 +47,25 @@ ms.locfileid: "19826897"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[TrackingPropertyType](trackingpropertytype.md) <br/> |表示字符串用于创建邮件跟踪报告的属性的名称 / 值的对。  <br/> |
+|[TrackingPropertyType](trackingpropertytype.md) <br/> |表示用于创建邮件跟踪报告的属性的字符串的名称和值对。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[FindMessageTrackingReport](findmessagetrackingreport.md) <br/> |指定条件的邮件，以查找的类型。  <br/> |
-|[FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) <br/> |包含状态和的单个结果[FindMessageTrackingReport 操作](findmessagetrackingreport-operation.md)请求。  <br/> |
-|[GetMessageTrackingReport](getmessagetrackingreport.md) <br/> |包含要检索完整的邮件跟踪报告的指定 ID 的[GetMessageTrackingReport 操作](getmessagetrackingreport-operation.md)的请求  <br/> |
-|[GetMessageTrackingReportResponse](getmessagetrackingreportresponse.md) <br/> |包含结果的单个[GetMessageTrackingReport 操作](getmessagetrackingreport-operation.md)请求。  <br/> |
-|[RecipientTrackingEvent](recipienttrackingevent.md) <br/> |包含收件人为一个事件的信息。  <br/> |
-|[MessageTrackingReport](messagetrackingreport.md) <br/> |包含在[GetMessageTrackingReport 操作](getmessagetrackingreport-operation.md)中返回一条消息。  <br/> |
-|[MessageTrackingSearchResult](messagetrackingsearchresult.md) <br/> |包含单个邮件结果[FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md)元素。  <br/> |
+|[FindMessageTrackingReport](findmessagetrackingreport.md) <br/> |指定要查找的邮件类型的条件。  <br/> |
+|[FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) <br/> |包含单个[FindMessageTrackingReport 操作](findmessagetrackingreport-operation.md)请求的状态和结果。  <br/> |
+|[GetMessageTrackingReport](getmessagetrackingreport.md) <br/> |包含[GetMessageTrackingReport 操作](getmessagetrackingreport-operation.md)的请求，以检索指定 ID 的完整邮件跟踪报告。  <br/> |
+|[GetMessageTrackingReportResponse](getmessagetrackingreportresponse.md) <br/> |包含单个[GetMessageTrackingReport 操作](getmessagetrackingreport-operation.md)请求的结果。  <br/> |
+|[RecipientTrackingEvent](recipienttrackingevent.md) <br/> |包含收件人的单个事件的信息。  <br/> |
+|[Search-messagetrackingreport](messagetrackingreport.md) <br/> |包含在[GetMessageTrackingReport 操作](getmessagetrackingreport-operation.md)中返回一条消息。  <br/> |
+|[MessageTrackingSearchResult](messagetrackingsearchresult.md) <br/> |包含[FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md)元素的单个邮件结果。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   
@@ -73,7 +73,7 @@ ms.locfileid: "19826897"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -82,5 +82,5 @@ ms.locfileid: "19826897"
 
 - [FindMessageTrackingReport 操作](findmessagetrackingreport-operation.md)
 - [GetMessageTrackingReport 操作](getmessagetrackingreport-operation.md)
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

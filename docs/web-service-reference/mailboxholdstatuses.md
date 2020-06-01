@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f0bd3d6f-bb21-4b5d-9e6a-b19530a1a3fd
 description: MailboxHoldStatuses 元素指定一个或多个 MailboxHoldStatus 元素的列表。
-ms.openlocfilehash: a81223b2e8ec24ba67ea29b645675213a2f87a67
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 8b51fe0ab5daadffcbd91f51963abe094bf31342
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826291"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466379"
 ---
 # <a name="mailboxholdstatuses"></a>MailboxHoldStatuses
 
@@ -29,9 +29,9 @@ ms.locfileid: "19826291"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -53,7 +53,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> ||

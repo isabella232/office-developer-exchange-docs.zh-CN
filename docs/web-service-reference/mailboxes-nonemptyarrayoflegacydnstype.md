@@ -1,5 +1,5 @@
 ---
-title: 邮箱 (NonEmptyArrayOfLegacyDNsType)
+title: 邮箱（NonEmptyArrayOfLegacyDNsType）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8e44bc49-8c99-472c-a507-0b5c25db9322
-description: 邮箱元素指定邮箱标识旧的可分辨名称的数组。
-ms.openlocfilehash: 11e66e61fc6f20bec8b92ac5107e82bf92daba8f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 邮箱元素指定由旧版可分辨名称标识的邮箱数组。
+ms.openlocfilehash: 7e84a0d1c9ff53e45f8e844136f61de66f6d0ab4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826285"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465980"
 ---
-# <a name="mailboxes-nonemptyarrayoflegacydnstype"></a>邮箱 (NonEmptyArrayOfLegacyDNsType)
+# <a name="mailboxes-nonemptyarrayoflegacydnstype"></a>邮箱（NonEmptyArrayOfLegacyDNsType）
 
-**邮箱**元素指定邮箱标识旧的可分辨名称的数组。 
+**邮箱**元素指定由旧版可分辨名称标识的邮箱数组。 
   
 ```XML
 <Mailboxes>
@@ -29,15 +29,15 @@ ms.locfileid: "19826285"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
 ### <a name="child-elements"></a>子元素
 
-[旧版 Dn](legacydn.md)
+[LegacyDN](legacydn.md)
   
 ### <a name="parent-elements"></a>父元素
 
@@ -53,7 +53,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> ||

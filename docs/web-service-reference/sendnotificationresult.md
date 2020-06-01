@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: fa9d6202-fa66-4f10-9858-53f4f1ce14bc
-description: SendNotificationResult 元素包含推送通知的客户端应用程序的响应。
-ms.openlocfilehash: 9acaa396430cf4e06a9c996834874d19dcab50ac
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: SendNotificationResult 元素包含客户端应用程序到推送通知的响应。
+ms.openlocfilehash: 4ee9a0dda3d887f8fbfa2c2b34a9a077e7af37ba
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827350"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464887"
 ---
 # <a name="sendnotificationresult"></a>SendNotificationResult
 
-**SendNotificationResult**元素包含推送通知的客户端应用程序的响应。 
+**SendNotificationResult**元素包含客户端应用程序到推送通知的响应。 
   
 ```xml
 <SendNotificationResult>
@@ -32,9 +32,9 @@ ms.locfileid: "19827350"
  **SendNotificationResultType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,13 +42,13 @@ ms.locfileid: "19827350"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[SubscriptionStatus](subscriptionstatus.md) <br/> |介绍推送订阅的状态。  <br/> |
+|[SubscriptionStatus](subscriptionstatus.md) <br/> |描述推送订阅的状态。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -56,7 +56,7 @@ ms.locfileid: "19827350"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -65,5 +65,5 @@ ms.locfileid: "19827350"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

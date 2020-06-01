@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: b7e5072f-5d9f-4ee0-b58b-4d75d878ea1c
 description: 如果电子邮件的所有收件人均为发件人组织的内部人员，AllInternal 元素的值为 true。
-ms.openlocfilehash: 0ffd4178e711e3117497eed682e3fd3e0594989b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
-ms.translationtype: HT
+ms.openlocfilehash: c5ffe15eca5d680994acb62913ebf5effacce214
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753136"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464831"
 ---
 # <a name="allinternal"></a>AllInternal
 
@@ -59,12 +59,12 @@ ms.locfileid: "19753136"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

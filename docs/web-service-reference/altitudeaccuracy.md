@@ -7,28 +7,28 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: aadc1f90-e9ab-4411-b51f-2d43e5e22f2a
-description: AltitudeAccuracy 元素指定邮政地址的海拔属性的准确性。
-ms.openlocfilehash: 09ec86e4913327feb47067f5e5de7a60efc47bc5
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: AltitudeAccuracy 元素指定邮政地址的海拔属性的精度。
+ms.openlocfilehash: 3025982baae130421e5d48aa76ea8dc073f7a656
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753139"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464747"
 ---
 # <a name="altitudeaccuracy"></a>AltitudeAccuracy
 
-**AltitudeAccuracy**元素指定邮政地址的海拔属性的准确性。 
+**AltitudeAccuracy**元素指定邮政地址的海拔属性的精度。 
   
 ```XML
 <AltitudeAccuracy></AltitudeAccuracy>
 ```
 
- **xs:double**
+ **xs： double**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -40,11 +40,11 @@ ms.locfileid: "19753139"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[PostalAddress (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md) <br/> |指定位置的邮政地址。  <br/> |
+|[省略（PersonaPostalAddressType）](postaladdress-personapostaladdresstype.md) <br/> |指定位置的邮政地址。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**AltitudeAccuracy**元素的文本值是邮寄地址的海拔属性的准确性估计值。 
+**AltitudeAccuracy**元素的文本值是通信地址的海拔高度属性的准确性估计值。 
   
 ## <a name="remarks"></a>备注
 
@@ -56,12 +56,12 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |types.xsd  <br/> |
+|验证文件  <br/> |类型 .xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

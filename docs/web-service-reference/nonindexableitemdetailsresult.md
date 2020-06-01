@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7cbdbc21-5405-4cbc-8ca0-d7b0257927aa
 description: NonIndexableItemDetailsResult 元素指定 GetNonIndexableItemDetails WSDL 操作的结果。
-ms.openlocfilehash: 6e271f2cf0e37f26b945332c94167b6a42354115
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 647f58b5e7285af70bbfb3a203ba71c9a3ccebcc
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826535"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465441"
 ---
 # <a name="nonindexableitemdetailsresult"></a>NonIndexableItemDetailsResult
 
@@ -29,19 +29,19 @@ ms.locfileid: "19826535"
  **NonIndexableItemDetailResultType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
 ### <a name="child-elements"></a>子元素
 
-[项目 (ArrayOfNonIndexableItemDetailsType)](items-arrayofnonindexableitemdetailstype.md) [FailedMailboxes](failedmailboxes.md)
+[Items （ArrayOfNonIndexableItemDetailsType）](items-arrayofnonindexableitemdetailstype.md) 、 [FailedMailboxes](failedmailboxes.md)
   
 ### <a name="parent-elements"></a>父元素
 
-[GetNonIndexableItemDetailsResponse](getnonindexableitemdetailsresponse.md) [GetNonIndexableItemDetailsResponseMessage](getnonindexableitemdetailsresponsemessage.md)
+[GetNonIndexableItemDetailsResponse](getnonindexableitemdetailsresponse.md) 、 [GetNonIndexableItemDetailsResponseMessage](getnonindexableitemdetailsresponsemessage.md)
   
 ## <a name="remarks"></a>备注
 
@@ -53,7 +53,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -65,5 +65,5 @@ Exchange Server 2013 中引入了此元素。
 [GetNonIndexableItemDetails 操作](getnonindexableitemdetails-operation.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

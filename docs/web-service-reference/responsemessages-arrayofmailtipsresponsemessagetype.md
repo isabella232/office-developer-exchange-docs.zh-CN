@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 00878187-fac2-45b9-ba1c-df7ffac71089
-description: ResponseMessages 元素均表示列表的邮件提示响应。
-ms.openlocfilehash: 80610af191f3fa600abe2ba8dbba2aac63f3ab1e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ResponseMessages 元素表示邮件提示响应邮件的列表。
+ms.openlocfilehash: 2db58029ead9332b832006bc81d751d77df54b07
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827192"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465448"
 ---
 # <a name="responsemessages-arrayofmailtipsresponsemessagetype"></a>ResponseMessages (ArrayOfMailTipsResponseMessageType)
 
-**ResponseMessages**元素均表示列表的邮件提示响应。 
+**ResponseMessages**元素表示邮件提示响应邮件的列表。 
   
 ```XML
 <ResponseMessages>
@@ -32,9 +32,9 @@ ms.locfileid: "19827192"
  **ArrayOfMailTipsResponseMessageType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,19 +42,19 @@ ms.locfileid: "19827192"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[MailTipsResponseMessageType](mailtipsresponsemessagetype.md) <br/> |代表邮件提示设置。  <br/> |
+|[MailTipsResponseMessageType](mailtipsresponsemessagetype.md) <br/> |代表 "邮件提示设置"。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GetMailTipsResponse](getmailtipsresponse.md) <br/> |代表响应消息[GetMailTips 操作](getmailtips-operation.md)。  <br/> |
+|[GetMailTipsResponse](getmailtipsresponse.md) <br/> |表示[GetMailTips 操作](getmailtips-operation.md)的响应消息。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -62,7 +62,7 @@ ms.locfileid: "19827192"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -74,5 +74,5 @@ ms.locfileid: "19827192"
 [GetMailTips 操作](getmailtips-operation.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

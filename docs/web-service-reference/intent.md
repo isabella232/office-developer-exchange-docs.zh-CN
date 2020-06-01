@@ -1,5 +1,5 @@
 ---
-title: 用途
+title: 意图
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,23 +7,23 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1e9a5bae-5b24-43cd-9b83-a21da58c9fdd
-description: Intent 元素旨在仅供内部使用。
-ms.openlocfilehash: 4a9fe2dcabc3124f3f21a8edce46bf6e1591cc06
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 意向元素仅供内部使用。
+ms.openlocfilehash: bf82e7f1054a20de7e5ce8b9b0d5889669570a63
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825948"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465602"
 ---
-# <a name="intent"></a>用途
+# <a name="intent"></a>意图
 
-**用途**元素旨在仅供内部使用。 
+**意向**元素仅供内部使用。 
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19825948"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 中引入了此元素。
   
@@ -45,7 +45,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> ||

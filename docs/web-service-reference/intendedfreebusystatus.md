@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 0e0fa898-69a4-4c57-8bb2-52f716b5b478
-description: IntendedFreeBusyStatus 元素均表示与会议请求相关联的日历项目的预期的状态。
-ms.openlocfilehash: 3254becf8c6885f7d6dc401ecf31da149e7de2d4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: IntendedFreeBusyStatus 元素表示与会议请求相关联的日历项目的预期状态。
+ms.openlocfilehash: c5502bcfb308aa2f02a9575ab43f80261b5fa4ed
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825945"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465616"
 ---
 # <a name="intendedfreebusystatus"></a>IntendedFreeBusyStatus
 
-**IntendedFreeBusyStatus**元素均表示与会议请求相关联的日历项目的预期的状态。 
+**IntendedFreeBusyStatus**元素表示与会议请求相关联的日历项目的预期状态。 
   
 ```xml
 <IntendedFreeBusyStatus/>
@@ -30,9 +30,9 @@ ms.locfileid: "19825945"
  **LegacyFreeBusyType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -48,11 +48,11 @@ ms.locfileid: "19825945"
    
 ## <a name="text-value"></a>文本值
 
-文本值是必需的。 此元素的可能值如下：
+文本值是必需的。 以下是此元素的可能值：
   
-- 免费
+- 空闲
     
-- 暂定
+- 暂
     
 - 忙碌
     
@@ -60,7 +60,7 @@ ms.locfileid: "19825945"
     
 - NoData
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 Microsoft Exchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -68,7 +68,7 @@ ms.locfileid: "19825945"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -77,5 +77,5 @@ ms.locfileid: "19825945"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

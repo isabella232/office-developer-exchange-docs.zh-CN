@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 1d784ded-b874-4eb1-8f6d-2e0e03330e1e
-description: InternalReply 元素包含外出 (oof) 响应发送给用户的域或受信任的域中的其他用户。
-ms.openlocfilehash: ac5e9eadac7f45c233007ffb05f4d2430875ec52
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: InternalReply 元素包含向用户域或受信任域中的其他用户发送的外出（OOF）响应。
+ms.openlocfilehash: 24c278ebd3acf83e87fbf72650eb3d5d438d5c22
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825955"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465581"
 ---
 # <a name="internalreply"></a>InternalReply
 
-**InternalReply**元素包含外出 (oof) 响应发送给用户的域或受信任的域中的其他用户。 
+**InternalReply**元素包含向用户域或受信任域中的其他用户发送的外出（OOF）响应。 
   
 ```XML
 <InternalReply>
@@ -32,46 +32,46 @@ ms.locfileid: "19825955"
  **ReplyBody**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**说明**|
 |:-----|:-----|
-|xml: lang  <br/> |指定**InternalReply**消息中使用的语言。 此属性的可能值由 IETF RFC 3066 定义。  <br/> |
+|xml： lang  <br/> |指定在**InternalReply**消息中使用的语言。 此属性的可能值由 IETF RFC 3066 定义。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[消息 （可用性）](message-availability.md) <br/> |包含 OOF 响应。  <br/> |
+|[邮件（可用性）](message-availability.md) <br/> |包含 OOF 响应。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[UserOofSettings](useroofsettings.md) <br/> |指定 OOF 设置。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/SetUserOofSettingsRequest/UserOofSettings` <br/> |
-|[OofSettings](oofsettings.md) <br/> |包含 OOF 设置。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/GetUserOofSettingsResponse/OofSettings` <br/> |
+|[UserOofSettings](useroofsettings.md) <br/> |指定 OOF 设置。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/SetUserOofSettingsRequest/UserOofSettings` <br/> |
+|[OofSettings](oofsettings.md) <br/> |包含 OOF 设置。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/GetUserOofSettingsResponse/OofSettings` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
 ## <a name="example"></a>示例
 
-SetUserOofSettings 请求的下面的示例将[OofState](oofstate.md)设置为**已启用**，将 OOF 的持续时间设置为 10 天，并设置内部和外部 OOF 邮件。
+以下示例的 SetUserOofSettings 请求将[OofState](oofstate.md)设置为 "**启用**"，将 "OOF" 的持续时间设置为10天，并设置内部和外部 OOF 邮件。
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <SetUserOofSettingsRequest xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-      <Mailbox xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+    <SetUserOofSettingsRequest xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+      <Mailbox xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <Name>David Alexander</Name>
         <Address>someone@example.com</Address>
         <RoutingType>SMTP</RoutingType>
       </Mailbox>
-      <UserOofSettings xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+      <UserOofSettings xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <OofState>Enabled</OofState>
         <ExternalAudience>All</ExternalAudience>
         <Duration>
@@ -94,7 +94,7 @@ SetUserOofSettings 请求的下面的示例将[OofState](oofstate.md)设置为**
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |

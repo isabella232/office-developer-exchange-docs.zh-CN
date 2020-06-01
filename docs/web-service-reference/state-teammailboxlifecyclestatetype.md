@@ -1,5 +1,5 @@
 ---
-title: 状态 (TeamMailboxLifecycleStateType)
+title: State （TeamMailboxLifecycleStateType）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3b1bc531-6988-41c3-9aad-3f5ad5b732a9
-description: 状态元素包含对网站邮箱设置的生命周期状态。
-ms.openlocfilehash: accd70d36cc34e7364387b98a2e94c56b91f012f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: State 元素包含在网站邮箱上设置的生命周期状态。
+ms.openlocfilehash: 597946b48649d997f8dd57823b4e0fcc091a6f84
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827571"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465161"
 ---
-# <a name="state-teammailboxlifecyclestatetype"></a>状态 (TeamMailboxLifecycleStateType)
+# <a name="state-teammailboxlifecyclestatetype"></a>State （TeamMailboxLifecycleStateType）
 
-**状态**元素包含对网站邮箱设置的生命周期状态。 
+**State**元素包含在网站邮箱上设置的生命周期状态。 
   
 ```XML
 <State> Active | Closed | Unlinked | PendingDelete </State>
@@ -27,9 +27,9 @@ ms.locfileid: "19827571"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -43,7 +43,7 @@ ms.locfileid: "19827571"
   
 ## <a name="text-value"></a>文本值
 
-**状态**元素的文本值是站点邮箱设置的生命周期状态。 **活动**的文本值指示站点邮箱正在使用中。 **已关闭**文本值表示的站点邮箱已关闭，并不是正在使用中。 **未链接**文本值表示的站点邮箱不链接到的基于 web 的协作环境。 **活动**、**已关闭**，和**PendingDelete**值都是互斥的但**未链接**值不互相互斥其他值。 **PendingDelete**文本值指示站点邮箱当前删除未决。 站点邮箱具有要关闭之前可以将其设置为**PendingDelete**。
+**State**元素的文本值是在网站邮箱上设置的生命周期状态。 **活动**的文本值表示网站邮箱处于活动使用状态。 "**已关闭**" 文本值表示网站邮箱已关闭，未处于活动使用状态。 未**链接**的文本值表示网站邮箱未链接到基于 web 的协作环境。 **活动**、**闭合**和**PendingDelete**值是互斥的，但未**链接**的值不与其他值互斥。 文本值为**PendingDelete**表示网站邮箱正在等待删除。 必须先关闭网站邮箱，然后才能将其设置为**PendingDelete**。
   
 ## <a name="remarks"></a>备注
 
@@ -55,7 +55,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> ||

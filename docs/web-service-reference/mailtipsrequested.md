@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 8037bbe5-a37f-4f77-8209-27a94f9095ef
-description: MailTipsRequested 元素包含的邮件提示从的服务请求的类型。
-ms.openlocfilehash: fa2bef394ea8473aa65bdc2f1d39c0794186fdc6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: MailTipsRequested 元素包含从服务请求的邮件提示的类型。
+ms.openlocfilehash: bcb2ebf15e628a04e8507f938d385cf113f2f2a3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826348"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465896"
 ---
 # <a name="mailtipsrequested"></a>MailTipsRequested
 
-**MailTipsRequested**元素包含的邮件提示从的服务请求的类型。 
+**MailTipsRequested**元素包含从服务请求的邮件提示的类型。 
   
 ```XML
 <MailTipsRequested/>
@@ -30,9 +30,9 @@ ms.locfileid: "19826348"
  **MailTipTypes**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,9 +42,9 @@ ms.locfileid: "19826348"
   
 ### <a name="parent-elements"></a>父元素
 
-|**元素**|**说明**|
+|**元素**|**描述**|
 |:-----|:-----|
-|[GetMailTips](getmailtips.md) <br/> |包含要检索的收件人和类型的邮件提示。  <br/> |
+|[GetMailTips](getmailtips.md) <br/> |包含要检索的邮件提示的收件人和类型。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
@@ -52,18 +52,18 @@ ms.locfileid: "19826348"
   
 |**值**|**说明**|
 |:-----|:-----|
-|所有  <br/> |代表所有可用的邮件提示。  <br/> |
-|OutOfOfficeMessage  <br/> |代表外出 (OOF) 邮件。  <br/> |
-|MailboxFullStatus  <br/> |表示邮箱已满的状态。  <br/> |
+|所有  <br/> |表示所有可用的邮件提示。  <br/> |
+|OutOfOfficeMessage  <br/> |代表 "外出" （OOF）邮件。  <br/> |
+|MailboxFullStatus  <br/> |表示已满的邮箱的状态。  <br/> |
 |CustomMailTip  <br/> |代表自定义邮件提示。  <br/> |
-|ExternalMemberCount  <br/> |表示外部成员计数。  <br/> |
+|ExternalMemberCount  <br/> |表示外部成员的计数。  <br/> |
 |TotalMemberCount  <br/> |表示所有成员的计数。  <br/> |
-|MaxMessageSize  <br/> |表示收件人可以接受的最大邮件大小。  <br/> |
-|DeliveryRestriction  <br/> |指示传递限制是否将到达收件人阻止发件人的邮件。  <br/> |
-|ModerationStatus  <br/> |指示是否将由审阅者审查发件人的邮件。  <br/> |
-|InvalidRecipient  <br/> |指示收件人无效。  <br/> |
+|MaxMessageSize  <br/> |表示收件人可接受的最大邮件大小。  <br/> |
+|DeliveryRestriction  <br/> |指示传递限制是否将阻止发件人的邮件到达收件人。  <br/> |
+|ModerationStatus  <br/> |指示审阅者是否会检查发件人的邮件。  <br/> |
+|InvalidRecipient  <br/> |指示收件人是否无效。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -71,7 +71,7 @@ ms.locfileid: "19826348"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -80,5 +80,5 @@ ms.locfileid: "19826348"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

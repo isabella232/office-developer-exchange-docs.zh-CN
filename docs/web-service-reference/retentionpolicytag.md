@@ -1,5 +1,5 @@
 ---
-title: RetentionPolicyTag
+title: Get-retentionpolicytag
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f46679d0-9236-41e2-8624-72300079c67c
-description: RetentionPolicyTag 元素指定的邮箱项目的保留策略。
-ms.openlocfilehash: 2525f6d7a0ca583342d28dd9f4857a69b3a8c05a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Get-retentionpolicytag 元素指定邮箱项目的保留策略。
+ms.openlocfilehash: 3ece841e14e6cf11ab15e4a4d8b83a778ae32e46
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827226"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465175"
 ---
-# <a name="retentionpolicytag"></a>RetentionPolicyTag
+# <a name="retentionpolicytag"></a>Get-retentionpolicytag
 
-**RetentionPolicyTag**元素指定的邮箱项目的保留策略。 
+**Get-retentionpolicytag**元素指定邮箱项目的保留策略。 
   
 ```XML
 <RetentionPolicyTag>
@@ -36,15 +36,15 @@ ms.locfileid: "19827226"
  **RetentionPolicyTagType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
 ### <a name="child-elements"></a>子元素
 
-[DisplayName （字符串）](displayname-string.md) | [RetentionId](retentionid.md) | [RetentionPeriod](retentionperiod.md) | [类型 (ElcFolderType)](type-elcfoldertype.md) | [RetentionAction](retentionaction.md) | [说明](description.md) | [IsVisible](isvisible.md)  |  [OptedInto](optedinto.md) | [IsArchive](isarchive.md)
+[DisplayName （string）](displayname-string.md)  | [RetentionId](retentionid.md)  | [RetentionPeriod](retentionperiod.md)  | [类型（ElcFolderType）](type-elcfoldertype.md)  | [RetentionAction](retentionaction.md)  | [说明](description.md)  | [IsVisible](isvisible.md)  | [OptedInto](optedinto.md)  | [IsArchive](isarchive.md)
   
 ### <a name="parent-elements"></a>父元素
 
@@ -60,7 +60,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> ||

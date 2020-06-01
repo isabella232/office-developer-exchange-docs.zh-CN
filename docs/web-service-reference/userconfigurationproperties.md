@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: c143a6ec-62ad-4d48-b844-b1ad88054bc1
-description: UserConfigurationProperties 元素指定要获取 GetUserConfiguration 操作中的属性类型。
-ms.openlocfilehash: 4f993765bb7c36f28a41a3f2fa7e28698a3f709e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: UserConfigurationProperties 元素指定要在 GetUserConfiguration 操作中获取的属性类型。
+ms.openlocfilehash: af6bee64516a7410d96ecc7581e8e819f550ddc1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838464"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466491"
 ---
 # <a name="userconfigurationproperties"></a>UserConfigurationProperties
 
-**UserConfigurationProperties**元素指定要获取 GetUserConfiguration 操作中的属性类型。 
+**UserConfigurationProperties**元素指定要在 GetUserConfiguration 操作中获取的属性类型。 
   
 ```xml
 <UserConfigurationProperties>Id | Dictionary | XmlData | BinaryData | All</UserConfigurationProperties>
@@ -30,9 +30,9 @@ ms.locfileid: "19838464"
  **UserConfigurationPropertyType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,9 +42,9 @@ ms.locfileid: "19838464"
   
 ### <a name="parent-elements"></a>父元素
 
-|**元素**|**说明**|
+|**元素**|**描述**|
 |:-----|:-----|
-|[GetUserConfiguration](getuserconfiguration.md) <br/> |指定要获取的用户配置对象的请求。  <br/> |
+|[GetUserConfiguration](getuserconfiguration.md) <br/> |指定获取用户配置对象的请求。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
@@ -52,13 +52,13 @@ ms.locfileid: "19838464"
   
 |**值**|**说明**|
 |:-----|:-----|
-|Id  <br/> |指定的 identifier 属性。  <br/> |
-|Dictionary  <br/> |指定词典属性类型。  <br/> |
-|XmlData  <br/> |指定属性的 XML 数据的类型。  <br/> |
+|Id  <br/> |指定标识符属性。  <br/> |
+|Dictionary  <br/> |指定字典属性类型。  <br/> |
+|XmlData  <br/> |指定 XML 数据属性类型。  <br/> |
 |BinaryData  <br/> |指定二进制数据属性类型。  <br/> |
-|所有  <br/> |指定标识符、 字典、 XML 数据和二进制数据属性类型。  <br/> |
+|所有  <br/> |指定标识符、字典、XML 数据和二进制数据属性类型。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -66,7 +66,7 @@ ms.locfileid: "19838464"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -75,5 +75,5 @@ ms.locfileid: "19838464"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

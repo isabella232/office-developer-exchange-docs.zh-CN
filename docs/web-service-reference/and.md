@@ -1,5 +1,5 @@
 ---
-title: 和
+title: And
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 790246c2-37ad-49a8-91b9-6186d743b011
 description: And 元素表示允许您在两个或多个搜索表达式之间执行布尔 AND 操作的搜索表达式。如果 And 元素中包含的所有搜索表达式为 true，则 AND 操作的结果为 true。
-ms.openlocfilehash: d287d57d68aeca7127325dc8fb65fd0190e5b5eb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
-ms.translationtype: HT
+ms.openlocfilehash: f5239f19c2b5a931eefa9ff4a9dd8ed9d775bae2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753149"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464719"
 ---
 # <a name="and"></a>和
 
@@ -43,7 +43,7 @@ ms.locfileid: "19753149"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[SearchExpression](searchexpression.md) <br/> | 表示某个限制范围内表达式的基类。And 操作中必须有两个或多个搜索表达式。  <br/><br/>  必须将以下元素之一替换为 **SearchExpression** 元素：<ul><li> [Exists](exists.md)</li><li>[不包括](excludes.md)</li><li>[IsEqualTo](isequalto.md)</li><li>[IsNotEqualTo](isnotequalto.md)</li><li>[IsGreaterThan](isgreaterthan.md)</li><li>[IsGreaterThanOrEqualTo](isgreaterthanorequalto.md)</li><li>[IsLessThan](islessthan.md)</li><li>[IsLessThanOrEqualTo](islessthanorequalto.md)</li><li>[Contains](contains.md)</li><li>[not](not.md)</li><li>**And**</li><li>[或](or.md) </li></ul> |
+|[SearchExpression](searchexpression.md) <br/> | 表示某个限制范围内表达式的基类。And 操作中必须有两个或多个搜索表达式。  <br/><br/>  必须将以下元素之一替换为 **SearchExpression** 元素：<ul><li> [Exists](exists.md)</li><li>[不包括](excludes.md)</li><li>[IsEqualTo](isequalto.md)</li><li>[IsNotEqualTo](isnotequalto.md)</li><li>[IsGreaterThan](isgreaterthan.md)</li><li>[IsGreaterThanOrEqualTo](isgreaterthanorequalto.md)</li><li>[IsLessThan](islessthan.md)</li><li>[IsLessThanOrEqualTo](islessthanorequalto.md)</li><li>[Contains](contains.md)</li><li>[Not](not.md)</li><li>**And**</li><li>[或](or.md) </li></ul> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -62,12 +62,12 @@ ms.locfileid: "19753149"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

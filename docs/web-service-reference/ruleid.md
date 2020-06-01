@@ -1,5 +1,5 @@
 ---
-title: 规则 Id
+title: RuleId
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -12,14 +12,14 @@ api_type:
 - schema
 ms.assetid: 456e3c34-e536-456a-ac40-7fd4f94c0bad
 description: RuleId 元素指定规则标识符。
-ms.openlocfilehash: 4dfa71c9fb6ee362d776487952199f2430e5e4a9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 28fda7abbbbfd43be38d1ac4e5c37d37037993bc
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827260"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44464992"
 ---
-# <a name="ruleid"></a>规则 Id
+# <a name="ruleid"></a>RuleId
 
 **RuleId**元素指定规则标识符。 
   
@@ -30,9 +30,9 @@ ms.locfileid: "19827260"
  **string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -45,13 +45,13 @@ ms.locfileid: "19827260"
 |**元素**|**说明**|
 |:-----|:-----|
 |[规则 (RuleType)](rule-ruletype.md) <br/> |表示用户的邮箱中的规则。  <br/> |
-|[DeleteRuleOperation](deleteruleoperation.md) <br/> |代表要删除现有的收件箱规则操作。  <br/> |
+|[DeleteRuleOperation](deleteruleoperation.md) <br/> |表示删除现有收件箱规则的操作。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-文本值是一个 string 值，该值代表规则。
+Text 值是表示该规则的字符串值。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -59,7 +59,7 @@ ms.locfileid: "19827260"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
@@ -68,5 +68,5 @@ ms.locfileid: "19827260"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

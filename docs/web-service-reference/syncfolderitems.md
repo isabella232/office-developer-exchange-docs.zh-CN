@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 463ed78c-bf82-4cd8-971a-d18425e9e7be
-description: SyncFolderItems 元素定义同步 Exchange 存储区文件夹中的项目的请求。
-ms.openlocfilehash: 368e19babfccaeab40380103495c63d30647905c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: SyncFolderItems 元素定义对 Exchange 存储文件夹中的项目进行同步的请求。
+ms.openlocfilehash: 0fa5b1544d5627d1423287369e72f97662c28d12
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838174"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465147"
 ---
 # <a name="syncfolderitems"></a>SyncFolderItems
 
-**SyncFolderItems**元素定义同步 Exchange 存储区文件夹中的项目的请求。 
+**SyncFolderItems**元素定义对 Exchange 存储文件夹中的项目进行同步的请求。 
   
 ```xml
 <SyncFolderItems>
@@ -36,9 +36,9 @@ ms.locfileid: "19838174"
  **SyncFolderItemsType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -46,28 +46,28 @@ ms.locfileid: "19838174"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ItemShape](itemshape.md) <br/> |标识项目属性和 SyncFolderItems 响应中包括的内容。 此元素是必需的。  <br/> |
-|[SyncFolderId](syncfolderid.md) <br/> |代表包含要同步的项的文件夹。 此元素是必需的。  <br/> |
-|[SyncState](syncstate-ex15websvcsotherref.md) <br/> |包含 base64 编码的同步数据的每个请求成功后都会更新窗体。 这用于标识的同步状态。 此元素是可选的。  <br/> |
-|[忽略](ignore.md) <br/> |标识同步过程中跳过的项目。 此元素是可选的。  <br/> |
-|[MaxChangesReturned](maxchangesreturned.md) <br/> |介绍可以同步响应中返回的更改的最大数量。 此元素是必需的。  <br/> |
-|[SyncScope](syncscope.md) <br/> |指定是否同步响应中返回项目或项目和文件夹的相关信息。 此元素是可选的。  <br/> |
+|[ItemShape](itemshape.md) <br/> |标识要包含在 SyncFolderItems 响应中的项目属性和内容。 此元素是必需的。  <br/> |
+|[SyncFolderId](syncfolderid.md) <br/> |表示包含要同步的项目的文件夹。 此元素是必需的。  <br/> |
+|[SyncState](syncstate-ex15websvcsotherref.md) <br/> |包含在每次成功请求后更新的、base64 编码的格式的同步数据。 这用于标识同步状态。 此元素为可选。  <br/> |
+|[忽略](ignore.md) <br/> |确定在同步过程中要跳过的项。 此元素为可选。  <br/> |
+|[MaxChangesReturned](maxchangesreturned.md) <br/> |描述同步响应中可返回的最大更改数。 此元素是必需的。  <br/> |
+|[SyncScope](syncscope.md) <br/> |指定是否在同步响应中仅返回项目或项目和文件夹相关信息。 此元素为可选。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
-描述此元素的架构位于运行 Microsoft Exchange Server 已安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
+描述此元素的架构位于运行 Microsoft Exchange Server 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
   
 ## <a name="element-information"></a>元素信息
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |邮件架构  <br/> |
-|验证文件  <br/> |messages.xsd  <br/> |
+|验证文件  <br/> |消息 .xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>另请参阅
@@ -77,5 +77,5 @@ ms.locfileid: "19838174"
 [SyncFolderItems 操作](syncfolderitems-operation.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 
