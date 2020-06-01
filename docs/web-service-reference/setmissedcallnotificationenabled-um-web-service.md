@@ -10,19 +10,19 @@ api_name:
 api_type:
 - schema
 ms.assetid: db01f574-ab6c-45c2-aaac-404cec37790b
-description: SetMissedCallNotificationEnabled 元素定义 SetMissedCallNotificationEnabled 操作 （UM web 服务） 请求的请求。
-ms.openlocfilehash: 0e556dec70ba0092fb2889b8c384f4952571dbab
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: SetMissedCallNotificationEnabled 元素定义对 SetMissedCallNotificationEnabled 操作（UM web 服务）请求的请求。
+ms.openlocfilehash: 9e498c1e100dfbbfc007c33df9728d312384522f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827435"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468164"
 ---
-# <a name="setmissedcallnotificationenabled-um-web-service"></a><span data-ttu-id="48e1a-103">SetMissedCallNotificationEnabled （UM web 服务）</span><span class="sxs-lookup"><span data-stu-id="48e1a-103">SetMissedCallNotificationEnabled (UM web service)</span></span>
+# <a name="setmissedcallnotificationenabled-um-web-service"></a><span data-ttu-id="d029c-103">SetMissedCallNotificationEnabled （UM web 服务）</span><span class="sxs-lookup"><span data-stu-id="d029c-103">SetMissedCallNotificationEnabled (UM web service)</span></span>
 
-<span data-ttu-id="48e1a-104">**SetMissedCallNotificationEnabled**元素定义[SetMissedCallNotificationEnabled 操作 （UM web 服务）](setmissedcallnotificationenabled-operation-um-web-service.md)请求的请求。</span><span class="sxs-lookup"><span data-stu-id="48e1a-104">The **SetMissedCallNotificationEnabled** element defines a request for a [SetMissedCallNotificationEnabled operation (UM web service)](setmissedcallnotificationenabled-operation-um-web-service.md) request.</span></span> 
+<span data-ttu-id="d029c-104">**SetMissedCallNotificationEnabled**元素定义对[SETMISSEDCALLNOTIFICATIONENABLED 操作（UM web 服务）](setmissedcallnotificationenabled-operation-um-web-service.md)请求的请求。</span><span class="sxs-lookup"><span data-stu-id="d029c-104">The **SetMissedCallNotificationEnabled** element defines a request for a [SetMissedCallNotificationEnabled operation (UM web service)](setmissedcallnotificationenabled-operation-um-web-service.md) request.</span></span> 
   
-[<span data-ttu-id="48e1a-105">SetMissedCallNotificationEnabled （UM web 服务）</span><span class="sxs-lookup"><span data-stu-id="48e1a-105">SetMissedCallNotificationEnabled (UM web service)</span></span>](setmissedcallnotificationenabled-um-web-service.md)
+[<span data-ttu-id="d029c-105">SetMissedCallNotificationEnabled （UM web 服务）</span><span class="sxs-lookup"><span data-stu-id="d029c-105">SetMissedCallNotificationEnabled (UM web service)</span></span>](setmissedcallnotificationenabled-um-web-service.md)
   
 ```xml
 <SetMissedCallNotificationEnabled>
@@ -30,41 +30,41 @@ ms.locfileid: "19827435"
 </SetMissedCallNotificationEnabled>
 ```
 
- <span data-ttu-id="48e1a-106">**complexType**</span><span class="sxs-lookup"><span data-stu-id="48e1a-106">**complexType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="48e1a-107">属性和元素</span><span class="sxs-lookup"><span data-stu-id="48e1a-107">Attributes and elements</span></span>
+ <span data-ttu-id="d029c-106">**complexType**</span><span class="sxs-lookup"><span data-stu-id="d029c-106">**complexType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="d029c-107">属性和元素</span><span class="sxs-lookup"><span data-stu-id="d029c-107">Attributes and elements</span></span>
 
-<span data-ttu-id="48e1a-108">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="48e1a-108">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="d029c-108">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="d029c-108">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="48e1a-109">属性</span><span class="sxs-lookup"><span data-stu-id="48e1a-109">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="d029c-109">Attributes</span><span class="sxs-lookup"><span data-stu-id="d029c-109">Attributes</span></span>
 
-<span data-ttu-id="48e1a-110">无。</span><span class="sxs-lookup"><span data-stu-id="48e1a-110">None.</span></span>
+<span data-ttu-id="d029c-110">无。</span><span class="sxs-lookup"><span data-stu-id="d029c-110">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="48e1a-111">子元素</span><span class="sxs-lookup"><span data-stu-id="48e1a-111">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="d029c-111">子元素</span><span class="sxs-lookup"><span data-stu-id="d029c-111">Child elements</span></span>
 
-|<span data-ttu-id="48e1a-112">**元素**</span><span class="sxs-lookup"><span data-stu-id="48e1a-112">**Element**</span></span>|<span data-ttu-id="48e1a-113">**说明**</span><span class="sxs-lookup"><span data-stu-id="48e1a-113">**Description**</span></span>|
+|<span data-ttu-id="d029c-112">**元素**</span><span class="sxs-lookup"><span data-stu-id="d029c-112">**Element**</span></span>|<span data-ttu-id="d029c-113">**说明**</span><span class="sxs-lookup"><span data-stu-id="d029c-113">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="48e1a-114">状态 （UM web 服务-SetMissedCallNotificationEnabled）</span><span class="sxs-lookup"><span data-stu-id="48e1a-114">Status (UM web service - SetMissedCallNotificationEnabled)</span></span>](status-um-web-servicesetmissedcallnotificationenabled.md) <br/> |<span data-ttu-id="48e1a-115">定义在[SetMissedCallNotificationEnabled 操作 （UM web 服务）](setmissedcallnotificationenabled-operation-um-web-service.md)请求中使用的值。</span><span class="sxs-lookup"><span data-stu-id="48e1a-115">Defines the value to use in a [SetMissedCallNotificationEnabled operation (UM web service)](setmissedcallnotificationenabled-operation-um-web-service.md) request.</span></span>  <br/> |
+|[<span data-ttu-id="d029c-114">Status （UM web 服务-SetMissedCallNotificationEnabled）</span><span class="sxs-lookup"><span data-stu-id="d029c-114">Status (UM web service - SetMissedCallNotificationEnabled)</span></span>](status-um-web-servicesetmissedcallnotificationenabled.md) <br/> |<span data-ttu-id="d029c-115">定义要在[SetMissedCallNotificationEnabled 操作（UM web 服务）](setmissedcallnotificationenabled-operation-um-web-service.md)请求中使用的值。</span><span class="sxs-lookup"><span data-stu-id="d029c-115">Defines the value to use in a [SetMissedCallNotificationEnabled operation (UM web service)](setmissedcallnotificationenabled-operation-um-web-service.md) request.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="48e1a-116">父元素</span><span class="sxs-lookup"><span data-stu-id="48e1a-116">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="d029c-116">父元素</span><span class="sxs-lookup"><span data-stu-id="d029c-116">Parent elements</span></span>
 
-<span data-ttu-id="48e1a-117">无。</span><span class="sxs-lookup"><span data-stu-id="48e1a-117">None.</span></span>
+<span data-ttu-id="d029c-117">无。</span><span class="sxs-lookup"><span data-stu-id="d029c-117">None.</span></span>
   
-## <a name="text-value"></a><span data-ttu-id="48e1a-118">文本值</span><span class="sxs-lookup"><span data-stu-id="48e1a-118">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="d029c-118">文本值</span><span class="sxs-lookup"><span data-stu-id="d029c-118">Text value</span></span>
 
-<span data-ttu-id="48e1a-119">无。</span><span class="sxs-lookup"><span data-stu-id="48e1a-119">None.</span></span>
+<span data-ttu-id="d029c-119">无。</span><span class="sxs-lookup"><span data-stu-id="d029c-119">None.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="48e1a-120">元素信息</span><span class="sxs-lookup"><span data-stu-id="48e1a-120">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="d029c-120">元素信息</span><span class="sxs-lookup"><span data-stu-id="d029c-120">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="48e1a-121">命名空间</span><span class="sxs-lookup"><span data-stu-id="48e1a-121">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="48e1a-122">架构名称</span><span class="sxs-lookup"><span data-stu-id="48e1a-122">Schema Name</span></span>  <br/> |<span data-ttu-id="48e1a-123">邮件</span><span class="sxs-lookup"><span data-stu-id="48e1a-123">Messages</span></span>  <br/> |
-|<span data-ttu-id="48e1a-124">验证文件</span><span class="sxs-lookup"><span data-stu-id="48e1a-124">Validation File</span></span>  <br/> |<span data-ttu-id="48e1a-125">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="48e1a-125">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="48e1a-126">可以为空</span><span class="sxs-lookup"><span data-stu-id="48e1a-126">Can be Empty</span></span>  <br/> |<span data-ttu-id="48e1a-127">False</span><span class="sxs-lookup"><span data-stu-id="48e1a-127">False</span></span>  <br/> |
+|<span data-ttu-id="d029c-121">命名空间</span><span class="sxs-lookup"><span data-stu-id="d029c-121">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="d029c-122">架构名称</span><span class="sxs-lookup"><span data-stu-id="d029c-122">Schema Name</span></span>  <br/> |<span data-ttu-id="d029c-123">邮件</span><span class="sxs-lookup"><span data-stu-id="d029c-123">Messages</span></span>  <br/> |
+|<span data-ttu-id="d029c-124">验证文件</span><span class="sxs-lookup"><span data-stu-id="d029c-124">Validation File</span></span>  <br/> |<span data-ttu-id="d029c-125">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="d029c-125">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="d029c-126">可以为空</span><span class="sxs-lookup"><span data-stu-id="d029c-126">Can be Empty</span></span>  <br/> |<span data-ttu-id="d029c-127">False</span><span class="sxs-lookup"><span data-stu-id="d029c-127">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="48e1a-128">另请参阅</span><span class="sxs-lookup"><span data-stu-id="48e1a-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d029c-128">另请参阅</span><span class="sxs-lookup"><span data-stu-id="d029c-128">See also</span></span>
 
 
 
-[<span data-ttu-id="48e1a-129">SetMissedCallNotificationEnabled 操作 （UM web 服务）</span><span class="sxs-lookup"><span data-stu-id="48e1a-129">SetMissedCallNotificationEnabled operation (UM web service)</span></span>](setmissedcallnotificationenabled-operation-um-web-service.md)
+[<span data-ttu-id="d029c-129">SetMissedCallNotificationEnabled 操作（UM web 服务）</span><span class="sxs-lookup"><span data-stu-id="d029c-129">SetMissedCallNotificationEnabled operation (UM web service)</span></span>](setmissedcallnotificationenabled-operation-um-web-service.md)
 

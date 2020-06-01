@@ -11,71 +11,71 @@ api_name:
 api_type:
 - schema
 ms.assetid: 561b8941-1c26-4bbe-aa0f-b49ec8a79af5
-description: InReplyTo 元素均表示到此项是答复项目的标识符。
-ms.openlocfilehash: 440bcfed3e510da8d34a5dd81c775d05a1f713a2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: InReplyTo 元素表示此项目是其回复项目的标识符。
+ms.openlocfilehash: 3dac4f31f1468f942e0da040a482dd272a7655da
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825939"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44467072"
 ---
-# <a name="inreplyto"></a><span data-ttu-id="08571-103">InReplyTo</span><span class="sxs-lookup"><span data-stu-id="08571-103">InReplyTo</span></span>
+# <a name="inreplyto"></a><span data-ttu-id="0f19d-103">InReplyTo</span><span class="sxs-lookup"><span data-stu-id="0f19d-103">InReplyTo</span></span>
 
-<span data-ttu-id="08571-104">**InReplyTo**元素均表示到此项是答复项目的标识符。</span><span class="sxs-lookup"><span data-stu-id="08571-104">The **InReplyTo** element represents the identifier of the item to which this item is a reply.</span></span> 
+<span data-ttu-id="0f19d-104">**InReplyTo**元素表示此项目是其回复项目的标识符。</span><span class="sxs-lookup"><span data-stu-id="0f19d-104">The **InReplyTo** element represents the identifier of the item to which this item is a reply.</span></span> 
   
 ```xml
 <InReplyTo/>
 ```
 
- <span data-ttu-id="08571-105">**string**</span><span class="sxs-lookup"><span data-stu-id="08571-105">**string**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="08571-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="08571-106">Attributes and elements</span></span>
+ <span data-ttu-id="0f19d-105">**string**</span><span class="sxs-lookup"><span data-stu-id="0f19d-105">**string**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="0f19d-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="0f19d-106">Attributes and elements</span></span>
 
-<span data-ttu-id="08571-107">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="08571-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="0f19d-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="0f19d-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="08571-108">属性</span><span class="sxs-lookup"><span data-stu-id="08571-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="0f19d-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="0f19d-108">Attributes</span></span>
 
-<span data-ttu-id="08571-109">无。</span><span class="sxs-lookup"><span data-stu-id="08571-109">None.</span></span>
+<span data-ttu-id="0f19d-109">无。</span><span class="sxs-lookup"><span data-stu-id="0f19d-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="08571-110">子元素</span><span class="sxs-lookup"><span data-stu-id="08571-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="0f19d-110">子元素</span><span class="sxs-lookup"><span data-stu-id="0f19d-110">Child elements</span></span>
 
-<span data-ttu-id="08571-111">无。</span><span class="sxs-lookup"><span data-stu-id="08571-111">None.</span></span>
+<span data-ttu-id="0f19d-111">无。</span><span class="sxs-lookup"><span data-stu-id="0f19d-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="08571-112">父元素</span><span class="sxs-lookup"><span data-stu-id="08571-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="0f19d-112">父元素</span><span class="sxs-lookup"><span data-stu-id="0f19d-112">Parent elements</span></span>
 
-|<span data-ttu-id="08571-113">**元素**</span><span class="sxs-lookup"><span data-stu-id="08571-113">**Element**</span></span>|<span data-ttu-id="08571-114">**说明**</span><span class="sxs-lookup"><span data-stu-id="08571-114">**Description**</span></span>|
+|<span data-ttu-id="0f19d-113">**元素**</span><span class="sxs-lookup"><span data-stu-id="0f19d-113">**Element**</span></span>|<span data-ttu-id="0f19d-114">**说明**</span><span class="sxs-lookup"><span data-stu-id="0f19d-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="08571-115">日历项目</span><span class="sxs-lookup"><span data-stu-id="08571-115">CalendarItem</span></span>](calendaritem.md) <br/> |<span data-ttu-id="08571-116">表示 Exchange 日历项。</span><span class="sxs-lookup"><span data-stu-id="08571-116">Represents an Exchange calendar item.</span></span>  <br/> |
-|[<span data-ttu-id="08571-117">联系人</span><span class="sxs-lookup"><span data-stu-id="08571-117">Contact</span></span>](contact.md) <br/> |<span data-ttu-id="08571-118">表示 Exchange 联系人项目。</span><span class="sxs-lookup"><span data-stu-id="08571-118">Represents an Exchange contact item.</span></span>  <br/> |
-|[<span data-ttu-id="08571-119">DistributionList</span><span class="sxs-lookup"><span data-stu-id="08571-119">DistributionList</span></span>](distributionlist.md) <br/> |<span data-ttu-id="08571-120">表示通讯组列表。</span><span class="sxs-lookup"><span data-stu-id="08571-120">Represents a distribution list.</span></span>  <br/> |
-|[<span data-ttu-id="08571-121">项目</span><span class="sxs-lookup"><span data-stu-id="08571-121">Item</span></span>](item.md) <br/> |<span data-ttu-id="08571-122">表示 Exchange 存储中的项。</span><span class="sxs-lookup"><span data-stu-id="08571-122">Represents an item in the Exchange store.</span></span>  <br/> |
-|[<span data-ttu-id="08571-123">MeetingCancellation</span><span class="sxs-lookup"><span data-stu-id="08571-123">MeetingCancellation</span></span>](meetingcancellation.md) <br/> |<span data-ttu-id="08571-124">表示 Exchange 存储中的会议取消。</span><span class="sxs-lookup"><span data-stu-id="08571-124">Represents a meeting cancellation in the Exchange store.</span></span>  <br/> |
-|[<span data-ttu-id="08571-125">MeetingMessage</span><span class="sxs-lookup"><span data-stu-id="08571-125">MeetingMessage</span></span>](meetingmessage.md) <br/> |<span data-ttu-id="08571-126">表示 Exchange 存储中的会议。</span><span class="sxs-lookup"><span data-stu-id="08571-126">Represents a meeting in the Exchange store.</span></span>  <br/> |
-|[<span data-ttu-id="08571-127">MeetingRequest</span><span class="sxs-lookup"><span data-stu-id="08571-127">MeetingRequest</span></span>](meetingrequest.md) <br/> |<span data-ttu-id="08571-128">表示 Exchange 存储中的会议请求。</span><span class="sxs-lookup"><span data-stu-id="08571-128">Represents a meeting request in the Exchange store.</span></span>  <br/> |
-|[<span data-ttu-id="08571-129">MeetingResponse</span><span class="sxs-lookup"><span data-stu-id="08571-129">MeetingResponse</span></span>](meetingresponse.md) <br/> |<span data-ttu-id="08571-130">表示 Exchange 存储中的会议响应。</span><span class="sxs-lookup"><span data-stu-id="08571-130">Represents a meeting response in the Exchange store.</span></span>  <br/> |
-|[<span data-ttu-id="08571-131">Message</span><span class="sxs-lookup"><span data-stu-id="08571-131">Message</span></span>](message-ex15websvcsotherref.md) <br/> |<span data-ttu-id="08571-132">表示 Exchange 电子邮件。</span><span class="sxs-lookup"><span data-stu-id="08571-132">Represents an Exchange e-mail message.</span></span>  <br/> |
-|[<span data-ttu-id="08571-133">RemoveItem</span><span class="sxs-lookup"><span data-stu-id="08571-133">RemoveItem</span></span>](removeitem.md) <br/> |<span data-ttu-id="08571-134">从 Exchange 存储中删除一个项目。</span><span class="sxs-lookup"><span data-stu-id="08571-134">Removes an item from the Exchange store.</span></span>  <br/> |
-|[<span data-ttu-id="08571-135">任务</span><span class="sxs-lookup"><span data-stu-id="08571-135">Task</span></span>](task.md) <br/> |<span data-ttu-id="08571-136">表示 Exchange 存储中的任务。</span><span class="sxs-lookup"><span data-stu-id="08571-136">Represents a task in the Exchange store.</span></span>  <br/> |
+|[<span data-ttu-id="0f19d-115">CalendarItem</span><span class="sxs-lookup"><span data-stu-id="0f19d-115">CalendarItem</span></span>](calendaritem.md) <br/> |<span data-ttu-id="0f19d-116">表示 Exchange 日历项。</span><span class="sxs-lookup"><span data-stu-id="0f19d-116">Represents an Exchange calendar item.</span></span>  <br/> |
+|[<span data-ttu-id="0f19d-117">Contact</span><span class="sxs-lookup"><span data-stu-id="0f19d-117">Contact</span></span>](contact.md) <br/> |<span data-ttu-id="0f19d-118">表示 Exchange 联系人项目。</span><span class="sxs-lookup"><span data-stu-id="0f19d-118">Represents an Exchange contact item.</span></span>  <br/> |
+|[<span data-ttu-id="0f19d-119">DistributionList</span><span class="sxs-lookup"><span data-stu-id="0f19d-119">DistributionList</span></span>](distributionlist.md) <br/> |<span data-ttu-id="0f19d-120">表示通讯组列表。</span><span class="sxs-lookup"><span data-stu-id="0f19d-120">Represents a distribution list.</span></span>  <br/> |
+|[<span data-ttu-id="0f19d-121">项目</span><span class="sxs-lookup"><span data-stu-id="0f19d-121">Item</span></span>](item.md) <br/> |<span data-ttu-id="0f19d-122">表示 Exchange 存储中的项。</span><span class="sxs-lookup"><span data-stu-id="0f19d-122">Represents an item in the Exchange store.</span></span>  <br/> |
+|[<span data-ttu-id="0f19d-123">MeetingCancellation</span><span class="sxs-lookup"><span data-stu-id="0f19d-123">MeetingCancellation</span></span>](meetingcancellation.md) <br/> |<span data-ttu-id="0f19d-124">表示 Exchange 存储中的会议取消。</span><span class="sxs-lookup"><span data-stu-id="0f19d-124">Represents a meeting cancellation in the Exchange store.</span></span>  <br/> |
+|[<span data-ttu-id="0f19d-125">MeetingMessage</span><span class="sxs-lookup"><span data-stu-id="0f19d-125">MeetingMessage</span></span>](meetingmessage.md) <br/> |<span data-ttu-id="0f19d-126">表示 Exchange 存储中的会议。</span><span class="sxs-lookup"><span data-stu-id="0f19d-126">Represents a meeting in the Exchange store.</span></span>  <br/> |
+|[<span data-ttu-id="0f19d-127">MeetingRequest</span><span class="sxs-lookup"><span data-stu-id="0f19d-127">MeetingRequest</span></span>](meetingrequest.md) <br/> |<span data-ttu-id="0f19d-128">表示 Exchange 存储中的会议请求。</span><span class="sxs-lookup"><span data-stu-id="0f19d-128">Represents a meeting request in the Exchange store.</span></span>  <br/> |
+|[<span data-ttu-id="0f19d-129">MeetingResponse</span><span class="sxs-lookup"><span data-stu-id="0f19d-129">MeetingResponse</span></span>](meetingresponse.md) <br/> |<span data-ttu-id="0f19d-130">表示 Exchange 存储中的会议响应。</span><span class="sxs-lookup"><span data-stu-id="0f19d-130">Represents a meeting response in the Exchange store.</span></span>  <br/> |
+|[<span data-ttu-id="0f19d-131">Message</span><span class="sxs-lookup"><span data-stu-id="0f19d-131">Message</span></span>](message-ex15websvcsotherref.md) <br/> |<span data-ttu-id="0f19d-132">表示 Exchange 电子邮件。</span><span class="sxs-lookup"><span data-stu-id="0f19d-132">Represents an Exchange e-mail message.</span></span>  <br/> |
+|[<span data-ttu-id="0f19d-133">RemoveItem</span><span class="sxs-lookup"><span data-stu-id="0f19d-133">RemoveItem</span></span>](removeitem.md) <br/> |<span data-ttu-id="0f19d-134">从 Exchange 存储中删除一个项目。</span><span class="sxs-lookup"><span data-stu-id="0f19d-134">Removes an item from the Exchange store.</span></span>  <br/> |
+|[<span data-ttu-id="0f19d-135">任务</span><span class="sxs-lookup"><span data-stu-id="0f19d-135">Task</span></span>](task.md) <br/> |<span data-ttu-id="0f19d-136">表示 Exchange 存储中的任务。</span><span class="sxs-lookup"><span data-stu-id="0f19d-136">Represents a task in the Exchange store.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="08571-137">文本值</span><span class="sxs-lookup"><span data-stu-id="08571-137">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="0f19d-137">文本值</span><span class="sxs-lookup"><span data-stu-id="0f19d-137">Text value</span></span>
 
-<span data-ttu-id="08571-138">文本值表示一个标识项目的字符串。</span><span class="sxs-lookup"><span data-stu-id="08571-138">The text value represents a string that identifies an item.</span></span>
+<span data-ttu-id="0f19d-138">该文本值表示一个标识项目的字符串。</span><span class="sxs-lookup"><span data-stu-id="0f19d-138">The text value represents a string that identifies an item.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="08571-139">备注</span><span class="sxs-lookup"><span data-stu-id="08571-139">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="0f19d-139">说明</span><span class="sxs-lookup"><span data-stu-id="0f19d-139">Remarks</span></span>
 
-<span data-ttu-id="08571-140">描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="08571-140">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="0f19d-140">描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="0f19d-140">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="08571-141">元素信息</span><span class="sxs-lookup"><span data-stu-id="08571-141">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="0f19d-141">元素信息</span><span class="sxs-lookup"><span data-stu-id="0f19d-141">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="08571-142">命名空间</span><span class="sxs-lookup"><span data-stu-id="08571-142">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="08571-143">架构名称</span><span class="sxs-lookup"><span data-stu-id="08571-143">Schema Name</span></span>  <br/> |<span data-ttu-id="08571-144">类型架构</span><span class="sxs-lookup"><span data-stu-id="08571-144">Types schema</span></span>  <br/> |
-|<span data-ttu-id="08571-145">验证文件</span><span class="sxs-lookup"><span data-stu-id="08571-145">Validation File</span></span>  <br/> |<span data-ttu-id="08571-146">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="08571-146">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="08571-147">可以为空</span><span class="sxs-lookup"><span data-stu-id="08571-147">Can be Empty</span></span>  <br/> |<span data-ttu-id="08571-148">False</span><span class="sxs-lookup"><span data-stu-id="08571-148">False</span></span>  <br/> |
+|<span data-ttu-id="0f19d-142">命名空间</span><span class="sxs-lookup"><span data-stu-id="0f19d-142">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="0f19d-143">架构名称</span><span class="sxs-lookup"><span data-stu-id="0f19d-143">Schema Name</span></span>  <br/> |<span data-ttu-id="0f19d-144">类型架构</span><span class="sxs-lookup"><span data-stu-id="0f19d-144">Types schema</span></span>  <br/> |
+|<span data-ttu-id="0f19d-145">验证文件</span><span class="sxs-lookup"><span data-stu-id="0f19d-145">Validation File</span></span>  <br/> |<span data-ttu-id="0f19d-146">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="0f19d-146">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="0f19d-147">可以为空</span><span class="sxs-lookup"><span data-stu-id="0f19d-147">Can be Empty</span></span>  <br/> |<span data-ttu-id="0f19d-148">False</span><span class="sxs-lookup"><span data-stu-id="0f19d-148">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="08571-149">另请参阅</span><span class="sxs-lookup"><span data-stu-id="08571-149">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0f19d-149">另请参阅</span><span class="sxs-lookup"><span data-stu-id="0f19d-149">See also</span></span>
 
 
 
-- [<span data-ttu-id="08571-150">在交换 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="08571-150">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="0f19d-150">Exchange 中的 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="0f19d-150">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

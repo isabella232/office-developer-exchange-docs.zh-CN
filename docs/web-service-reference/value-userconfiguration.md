@@ -1,5 +1,5 @@
 ---
-title: 值 (UserConfiguration)
+title: Value （UserConfiguration）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,57 +11,57 @@ api_name:
 api_type:
 - schema
 ms.assetid: 4f3c54e9-df5e-4cf4-8171-91f1e1cb2dbd
-description: Value 元素以字符串形式指定的词典对象值。
-ms.openlocfilehash: 6d4e1b027760d0f8f6da16f97cdb45f0c7c4bc88
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Value 元素将 dictionary 对象的值指定为字符串。
+ms.openlocfilehash: ec1c06c5e730af8b40b5c868cc73efa481876591
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838515"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44468059"
 ---
-# <a name="value-userconfiguration"></a><span data-ttu-id="f42dc-103">值 (UserConfiguration)</span><span class="sxs-lookup"><span data-stu-id="f42dc-103">Value (UserConfiguration)</span></span>
+# <a name="value-userconfiguration"></a><span data-ttu-id="366ee-103">Value （UserConfiguration）</span><span class="sxs-lookup"><span data-stu-id="366ee-103">Value (UserConfiguration)</span></span>
 
-<span data-ttu-id="f42dc-104">**Value**元素以字符串形式指定的词典对象值。</span><span class="sxs-lookup"><span data-stu-id="f42dc-104">The **Value** element specifies the dictionary object value as a string.</span></span> 
+<span data-ttu-id="366ee-104">**Value**元素将 dictionary 对象的值指定为字符串。</span><span class="sxs-lookup"><span data-stu-id="366ee-104">The **Value** element specifies the dictionary object value as a string.</span></span> 
   
 ```xml
 <Value/>
 ```
 
-<span data-ttu-id="f42dc-105">**string**</span><span class="sxs-lookup"><span data-stu-id="f42dc-105">**string**</span></span>
+<span data-ttu-id="366ee-105">**string**</span><span class="sxs-lookup"><span data-stu-id="366ee-105">**string**</span></span>
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="f42dc-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="f42dc-106">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="366ee-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="366ee-106">Attributes and elements</span></span>
 
-<span data-ttu-id="f42dc-107">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="f42dc-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="366ee-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="366ee-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="f42dc-108">属性</span><span class="sxs-lookup"><span data-stu-id="f42dc-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="366ee-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="366ee-108">Attributes</span></span>
 
-<span data-ttu-id="f42dc-109">无。</span><span class="sxs-lookup"><span data-stu-id="f42dc-109">None.</span></span>
+<span data-ttu-id="366ee-109">无。</span><span class="sxs-lookup"><span data-stu-id="366ee-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="f42dc-110">子元素</span><span class="sxs-lookup"><span data-stu-id="f42dc-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="366ee-110">子元素</span><span class="sxs-lookup"><span data-stu-id="366ee-110">Child elements</span></span>
 
-<span data-ttu-id="f42dc-111">无。</span><span class="sxs-lookup"><span data-stu-id="f42dc-111">None.</span></span>
+<span data-ttu-id="366ee-111">无。</span><span class="sxs-lookup"><span data-stu-id="366ee-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="f42dc-112">父元素</span><span class="sxs-lookup"><span data-stu-id="f42dc-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="366ee-112">父元素</span><span class="sxs-lookup"><span data-stu-id="366ee-112">Parent elements</span></span>
 
-|<span data-ttu-id="f42dc-113">**元素**</span><span class="sxs-lookup"><span data-stu-id="f42dc-113">**Element**</span></span>|<span data-ttu-id="f42dc-114">**说明**</span><span class="sxs-lookup"><span data-stu-id="f42dc-114">**Description**</span></span>|
+|<span data-ttu-id="366ee-113">**元素**</span><span class="sxs-lookup"><span data-stu-id="366ee-113">**Element**</span></span>|<span data-ttu-id="366ee-114">**说明**</span><span class="sxs-lookup"><span data-stu-id="366ee-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="f42dc-115">DictionaryKey</span><span class="sxs-lookup"><span data-stu-id="f42dc-115">DictionaryKey</span></span>](dictionarykey.md) <br/> |<span data-ttu-id="f42dc-116">指定词典属性的词典键。</span><span class="sxs-lookup"><span data-stu-id="f42dc-116">Specifies the dictionary key for a dictionary property.</span></span>  <br/> |
-|[<span data-ttu-id="f42dc-117">DictionaryValue</span><span class="sxs-lookup"><span data-stu-id="f42dc-117">DictionaryValue</span></span>](dictionaryvalue.md) <br/> |<span data-ttu-id="f42dc-118">指定字典词典属性的值。</span><span class="sxs-lookup"><span data-stu-id="f42dc-118">Specifies the dictionary value for a dictionary property.</span></span>  <br/> |
+|[<span data-ttu-id="366ee-115">DictionaryKey</span><span class="sxs-lookup"><span data-stu-id="366ee-115">DictionaryKey</span></span>](dictionarykey.md) <br/> |<span data-ttu-id="366ee-116">指定 dictionary 属性的字典键。</span><span class="sxs-lookup"><span data-stu-id="366ee-116">Specifies the dictionary key for a dictionary property.</span></span>  <br/> |
+|[<span data-ttu-id="366ee-117">DictionaryValue</span><span class="sxs-lookup"><span data-stu-id="366ee-117">DictionaryValue</span></span>](dictionaryvalue.md) <br/> |<span data-ttu-id="366ee-118">指定 dictionary 属性的字典值。</span><span class="sxs-lookup"><span data-stu-id="366ee-118">Specifies the dictionary value for a dictionary property.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="f42dc-119">注解</span><span class="sxs-lookup"><span data-stu-id="f42dc-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="366ee-119">备注</span><span class="sxs-lookup"><span data-stu-id="366ee-119">Remarks</span></span>
 
-<span data-ttu-id="f42dc-120">描述此元素的架构位于运行 Microsoft Exchange Server 2010 的安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="f42dc-120">The schema that describes this element is located in the EWS virtual directory of the computer that is running Microsoft Exchange Server 2010 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="366ee-120">描述此元素的架构位于运行 Microsoft Exchange Server 2010 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="366ee-120">The schema that describes this element is located in the EWS virtual directory of the computer that is running Microsoft Exchange Server 2010 that has the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="f42dc-121">元素信息</span><span class="sxs-lookup"><span data-stu-id="f42dc-121">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="366ee-121">元素信息</span><span class="sxs-lookup"><span data-stu-id="366ee-121">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="f42dc-122">命名空间</span><span class="sxs-lookup"><span data-stu-id="f42dc-122">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="f42dc-123">架构名称</span><span class="sxs-lookup"><span data-stu-id="f42dc-123">Schema Name</span></span>  <br/> |<span data-ttu-id="f42dc-124">类型架构</span><span class="sxs-lookup"><span data-stu-id="f42dc-124">Types schema</span></span>  <br/> |
-|<span data-ttu-id="f42dc-125">验证文件</span><span class="sxs-lookup"><span data-stu-id="f42dc-125">Validation File</span></span>  <br/> |<span data-ttu-id="f42dc-126">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="f42dc-126">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="f42dc-127">可以为空</span><span class="sxs-lookup"><span data-stu-id="f42dc-127">Can be Empty</span></span>  <br/> |<span data-ttu-id="f42dc-128">False</span><span class="sxs-lookup"><span data-stu-id="f42dc-128">False</span></span>  <br/> |
+|<span data-ttu-id="366ee-122">命名空间</span><span class="sxs-lookup"><span data-stu-id="366ee-122">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="366ee-123">架构名称</span><span class="sxs-lookup"><span data-stu-id="366ee-123">Schema Name</span></span>  <br/> |<span data-ttu-id="366ee-124">类型架构</span><span class="sxs-lookup"><span data-stu-id="366ee-124">Types schema</span></span>  <br/> |
+|<span data-ttu-id="366ee-125">验证文件</span><span class="sxs-lookup"><span data-stu-id="366ee-125">Validation File</span></span>  <br/> |<span data-ttu-id="366ee-126">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="366ee-126">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="366ee-127">可以为空</span><span class="sxs-lookup"><span data-stu-id="366ee-127">Can be Empty</span></span>  <br/> |<span data-ttu-id="366ee-128">False</span><span class="sxs-lookup"><span data-stu-id="366ee-128">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="f42dc-129">另请参阅</span><span class="sxs-lookup"><span data-stu-id="f42dc-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="366ee-129">另请参阅</span><span class="sxs-lookup"><span data-stu-id="366ee-129">See also</span></span>
 
-- [<span data-ttu-id="f42dc-130">在交换 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="f42dc-130">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="366ee-130">Exchange 中的 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="366ee-130">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

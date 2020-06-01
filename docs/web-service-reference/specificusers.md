@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 121b0063-5447-4063-8e54-d3fcbb8cd2be
 description: SpecificUsers 元素指定可以访问应用程序的电子邮件帐户。
-ms.openlocfilehash: 59b99ab165e7a099816fb07e126ac912f0858c9c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ef003b6da20031f82d9a8be1dc1d1187288d6f60
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827529"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467632"
 ---
-# <a name="specificusers"></a><span data-ttu-id="bb3d8-103">SpecificUsers</span><span class="sxs-lookup"><span data-stu-id="bb3d8-103">SpecificUsers</span></span>
+# <a name="specificusers"></a><span data-ttu-id="cdb51-103">SpecificUsers</span><span class="sxs-lookup"><span data-stu-id="cdb51-103">SpecificUsers</span></span>
 
-<span data-ttu-id="bb3d8-104">**SpecificUsers**元素指定可以访问应用程序的电子邮件帐户。</span><span class="sxs-lookup"><span data-stu-id="bb3d8-104">The **SpecificUsers** element specifies the email accounts that can access the app.</span></span> 
+<span data-ttu-id="cdb51-104">**SpecificUsers**元素指定可以访问应用程序的电子邮件帐户。</span><span class="sxs-lookup"><span data-stu-id="cdb51-104">The **SpecificUsers** element specifies the email accounts that can access the app.</span></span> 
   
 ```XML
 <SpecificUsers>
@@ -25,36 +25,36 @@ ms.locfileid: "19827529"
 </SpecificUsers>
 ```
 
- <span data-ttu-id="bb3d8-105">**ArrayOfStringsType**</span><span class="sxs-lookup"><span data-stu-id="bb3d8-105">**ArrayOfStringsType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="bb3d8-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="bb3d8-106">Attributes and elements</span></span>
+ <span data-ttu-id="cdb51-105">**ArrayOfStringsType**</span><span class="sxs-lookup"><span data-stu-id="cdb51-105">**ArrayOfStringsType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="cdb51-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="cdb51-106">Attributes and elements</span></span>
 
-<span data-ttu-id="bb3d8-107">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="bb3d8-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="cdb51-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="cdb51-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="bb3d8-108">属性</span><span class="sxs-lookup"><span data-stu-id="bb3d8-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="cdb51-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="cdb51-108">Attributes</span></span>
 
-<span data-ttu-id="bb3d8-109">无。</span><span class="sxs-lookup"><span data-stu-id="bb3d8-109">None.</span></span>
+<span data-ttu-id="cdb51-109">无。</span><span class="sxs-lookup"><span data-stu-id="cdb51-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="bb3d8-110">子元素</span><span class="sxs-lookup"><span data-stu-id="bb3d8-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="cdb51-110">子元素</span><span class="sxs-lookup"><span data-stu-id="cdb51-110">Child elements</span></span>
 
-[<span data-ttu-id="bb3d8-111">字符串</span><span class="sxs-lookup"><span data-stu-id="bb3d8-111">String</span></span>](string.md)
+[<span data-ttu-id="cdb51-111">String</span><span class="sxs-lookup"><span data-stu-id="cdb51-111">String</span></span>](string.md)
   
-### <a name="parent-elements"></a><span data-ttu-id="bb3d8-112">父元素</span><span class="sxs-lookup"><span data-stu-id="bb3d8-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="cdb51-112">父元素</span><span class="sxs-lookup"><span data-stu-id="cdb51-112">Parent elements</span></span>
 
-[<span data-ttu-id="bb3d8-113">ClientExtension</span><span class="sxs-lookup"><span data-stu-id="bb3d8-113">ClientExtension</span></span>](clientextension.md)
+[<span data-ttu-id="cdb51-113">ClientExtension</span><span class="sxs-lookup"><span data-stu-id="cdb51-113">ClientExtension</span></span>](clientextension.md)
   
-## <a name="remarks"></a><span data-ttu-id="bb3d8-114">备注</span><span class="sxs-lookup"><span data-stu-id="bb3d8-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="cdb51-114">备注</span><span class="sxs-lookup"><span data-stu-id="cdb51-114">Remarks</span></span>
 
-<span data-ttu-id="bb3d8-115">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="bb3d8-115">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="cdb51-115">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="cdb51-115">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="bb3d8-116">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="bb3d8-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="cdb51-116">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="cdb51-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="bb3d8-117">元素信息</span><span class="sxs-lookup"><span data-stu-id="bb3d8-117">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="cdb51-117">元素信息</span><span class="sxs-lookup"><span data-stu-id="cdb51-117">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="bb3d8-118">命名空间</span><span class="sxs-lookup"><span data-stu-id="bb3d8-118">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="bb3d8-119">架构名称</span><span class="sxs-lookup"><span data-stu-id="bb3d8-119">Schema name</span></span>  <br/> |<span data-ttu-id="bb3d8-120">类型架构</span><span class="sxs-lookup"><span data-stu-id="bb3d8-120">Types schema</span></span>  <br/> |
-|<span data-ttu-id="bb3d8-121">验证文件</span><span class="sxs-lookup"><span data-stu-id="bb3d8-121">Validation file</span></span>  <br/> |<span data-ttu-id="bb3d8-122">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="bb3d8-122">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="bb3d8-123">可以为空</span><span class="sxs-lookup"><span data-stu-id="bb3d8-123">Can be empty</span></span>  <br/> |<span data-ttu-id="bb3d8-124">false</span><span class="sxs-lookup"><span data-stu-id="bb3d8-124">false</span></span>  <br/> |
+|<span data-ttu-id="cdb51-118">命名空间</span><span class="sxs-lookup"><span data-stu-id="cdb51-118">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="cdb51-119">架构名称</span><span class="sxs-lookup"><span data-stu-id="cdb51-119">Schema name</span></span>  <br/> |<span data-ttu-id="cdb51-120">类型架构</span><span class="sxs-lookup"><span data-stu-id="cdb51-120">Types schema</span></span>  <br/> |
+|<span data-ttu-id="cdb51-121">验证文件</span><span class="sxs-lookup"><span data-stu-id="cdb51-121">Validation file</span></span>  <br/> |<span data-ttu-id="cdb51-122">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="cdb51-122">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="cdb51-123">可以为空</span><span class="sxs-lookup"><span data-stu-id="cdb51-123">Can be empty</span></span>  <br/> |<span data-ttu-id="cdb51-124">false</span><span class="sxs-lookup"><span data-stu-id="cdb51-124">false</span></span>  <br/> |
    
 

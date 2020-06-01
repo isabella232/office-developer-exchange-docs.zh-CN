@@ -1,5 +1,5 @@
 ---
-title: 相同引用
+title: ReferenceId
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,56 +7,56 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6ec106a5-82f7-4b28-a951-11936877e303
-description: 相同引用元素指定邮箱的参考标识符。
-ms.openlocfilehash: a3ae82ed40c64883efeb050eef83d2470e26af63
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ReferenceId 元素指定邮箱的引用标识符。
+ms.openlocfilehash: 98dd9fabf645ea01646ec46ca12cb73b400d8c46
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827034"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468073"
 ---
-# <a name="referenceid"></a><span data-ttu-id="74b15-103">相同引用</span><span class="sxs-lookup"><span data-stu-id="74b15-103">ReferenceId</span></span>
+# <a name="referenceid"></a><span data-ttu-id="cf3aa-103">ReferenceId</span><span class="sxs-lookup"><span data-stu-id="cf3aa-103">ReferenceId</span></span>
 
-<span data-ttu-id="74b15-104">**相同引用**元素指定邮箱的参考标识符。</span><span class="sxs-lookup"><span data-stu-id="74b15-104">The **ReferenceId** element specifies the reference identifier for the mailbox.</span></span> 
+<span data-ttu-id="cf3aa-104">**ReferenceId**元素指定邮箱的引用标识符。</span><span class="sxs-lookup"><span data-stu-id="cf3aa-104">The **ReferenceId** element specifies the reference identifier for the mailbox.</span></span> 
   
 ```XML
 <ReferenceId></ReferenceId>
 ```
 
- <span data-ttu-id="74b15-105">**string**</span><span class="sxs-lookup"><span data-stu-id="74b15-105">**string**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="74b15-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="74b15-106">Attributes and elements</span></span>
+ <span data-ttu-id="cf3aa-105">**string**</span><span class="sxs-lookup"><span data-stu-id="cf3aa-105">**string**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="cf3aa-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="cf3aa-106">Attributes and elements</span></span>
 
-<span data-ttu-id="74b15-107">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="74b15-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="cf3aa-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="cf3aa-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="74b15-108">属性</span><span class="sxs-lookup"><span data-stu-id="74b15-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="cf3aa-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="cf3aa-108">Attributes</span></span>
 
-<span data-ttu-id="74b15-109">无。</span><span class="sxs-lookup"><span data-stu-id="74b15-109">None.</span></span>
+<span data-ttu-id="cf3aa-109">无。</span><span class="sxs-lookup"><span data-stu-id="cf3aa-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="74b15-110">子元素</span><span class="sxs-lookup"><span data-stu-id="74b15-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="cf3aa-110">子元素</span><span class="sxs-lookup"><span data-stu-id="cf3aa-110">Child elements</span></span>
 
-<span data-ttu-id="74b15-111">无。</span><span class="sxs-lookup"><span data-stu-id="74b15-111">None.</span></span>
+<span data-ttu-id="cf3aa-111">无。</span><span class="sxs-lookup"><span data-stu-id="cf3aa-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="74b15-112">父元素</span><span class="sxs-lookup"><span data-stu-id="74b15-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="cf3aa-112">父元素</span><span class="sxs-lookup"><span data-stu-id="cf3aa-112">Parent elements</span></span>
 
-[<span data-ttu-id="74b15-113">SearchableMailbox</span><span class="sxs-lookup"><span data-stu-id="74b15-113">SearchableMailbox</span></span>](searchablemailbox.md)
+[<span data-ttu-id="cf3aa-113">SearchableMailbox</span><span class="sxs-lookup"><span data-stu-id="cf3aa-113">SearchableMailbox</span></span>](searchablemailbox.md)
   
-## <a name="text-value"></a><span data-ttu-id="74b15-114">文本值</span><span class="sxs-lookup"><span data-stu-id="74b15-114">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="cf3aa-114">文本值</span><span class="sxs-lookup"><span data-stu-id="cf3aa-114">Text value</span></span>
 
-<span data-ttu-id="74b15-115">**相同引用**元素的文本值是引用标识符的邮箱。</span><span class="sxs-lookup"><span data-stu-id="74b15-115">The text value of the **ReferenceId** element is the reference identifier of a mailbox.</span></span> 
+<span data-ttu-id="cf3aa-115">**ReferenceId**元素的文本值是邮箱的引用标识符。</span><span class="sxs-lookup"><span data-stu-id="cf3aa-115">The text value of the **ReferenceId** element is the reference identifier of a mailbox.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="74b15-116">备注</span><span class="sxs-lookup"><span data-stu-id="74b15-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="cf3aa-116">备注</span><span class="sxs-lookup"><span data-stu-id="cf3aa-116">Remarks</span></span>
 
-<span data-ttu-id="74b15-117">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="74b15-117">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="cf3aa-117">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="cf3aa-117">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="74b15-118">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="74b15-118">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="cf3aa-118">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="cf3aa-118">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="74b15-119">元素信息</span><span class="sxs-lookup"><span data-stu-id="74b15-119">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="cf3aa-119">元素信息</span><span class="sxs-lookup"><span data-stu-id="cf3aa-119">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="74b15-120">命名空间</span><span class="sxs-lookup"><span data-stu-id="74b15-120">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="74b15-121">架构名称</span><span class="sxs-lookup"><span data-stu-id="74b15-121">Schema name</span></span>  <br/> |<span data-ttu-id="74b15-122">类型架构</span><span class="sxs-lookup"><span data-stu-id="74b15-122">Types schema</span></span>  <br/> |
-|<span data-ttu-id="74b15-123">验证文件</span><span class="sxs-lookup"><span data-stu-id="74b15-123">Validation file</span></span>  <br/> |<span data-ttu-id="74b15-124">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="74b15-124">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="74b15-125">可以为空</span><span class="sxs-lookup"><span data-stu-id="74b15-125">Can be empty</span></span>  <br/> ||
+|<span data-ttu-id="cf3aa-120">命名空间</span><span class="sxs-lookup"><span data-stu-id="cf3aa-120">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="cf3aa-121">架构名称</span><span class="sxs-lookup"><span data-stu-id="cf3aa-121">Schema name</span></span>  <br/> |<span data-ttu-id="cf3aa-122">类型架构</span><span class="sxs-lookup"><span data-stu-id="cf3aa-122">Types schema</span></span>  <br/> |
+|<span data-ttu-id="cf3aa-123">验证文件</span><span class="sxs-lookup"><span data-stu-id="cf3aa-123">Validation file</span></span>  <br/> |<span data-ttu-id="cf3aa-124">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="cf3aa-124">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="cf3aa-125">可以为空</span><span class="sxs-lookup"><span data-stu-id="cf3aa-125">Can be empty</span></span>  <br/> ||
    
 

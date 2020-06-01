@@ -11,62 +11,62 @@ api_name:
 api_type:
 - schema
 ms.assetid: 2f33b29b-163b-4106-a74d-6fb76ec38951
-description: SID 元素表示用于模拟或委派访问权限的帐户的安全描述符定义语言 (SDDL) 窗体的安全标识符 (SID)。
-ms.openlocfilehash: efcea42c12ec1d26ea31fdb8de337c37a2338a96
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: SID 元素表示用于模拟或代理访问的帐户的安全标识符（SID）的安全描述符定义语言（SDDL）形式。
+ms.openlocfilehash: 0e3f740e9a056f7c0042049d97757b5f2d3c441d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827492"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468045"
 ---
-# <a name="sid"></a><span data-ttu-id="71fb5-103">SID</span><span class="sxs-lookup"><span data-stu-id="71fb5-103">SID</span></span>
+# <a name="sid"></a><span data-ttu-id="f1b42-103">SID</span><span class="sxs-lookup"><span data-stu-id="f1b42-103">SID</span></span>
 
-<span data-ttu-id="71fb5-104">**SID**元素表示用于模拟或委派访问权限的帐户的安全描述符定义语言 (SDDL) 窗体的安全标识符 (SID)。</span><span class="sxs-lookup"><span data-stu-id="71fb5-104">The **SID** element represents the security descriptor definition language (SDDL) form of the security identifier (SID) for the account to use for impersonation or delegate access.</span></span> 
+<span data-ttu-id="f1b42-104">**SID**元素表示用于模拟或代理访问的帐户的安全标识符（SID）的安全描述符定义语言（SDDL）形式。</span><span class="sxs-lookup"><span data-stu-id="f1b42-104">The **SID** element represents the security descriptor definition language (SDDL) form of the security identifier (SID) for the account to use for impersonation or delegate access.</span></span> 
   
 ```xml
 <SID/>
 ```
 
- <span data-ttu-id="71fb5-105">**SIDType**</span><span class="sxs-lookup"><span data-stu-id="71fb5-105">**SIDType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="71fb5-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="71fb5-106">Attributes and elements</span></span>
+ <span data-ttu-id="f1b42-105">**SIDType**</span><span class="sxs-lookup"><span data-stu-id="f1b42-105">**SIDType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="f1b42-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="f1b42-106">Attributes and elements</span></span>
 
-<span data-ttu-id="71fb5-107">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="71fb5-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="f1b42-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="f1b42-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="71fb5-108">属性</span><span class="sxs-lookup"><span data-stu-id="71fb5-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="f1b42-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="f1b42-108">Attributes</span></span>
 
-<span data-ttu-id="71fb5-109">无。</span><span class="sxs-lookup"><span data-stu-id="71fb5-109">None.</span></span>
+<span data-ttu-id="f1b42-109">无。</span><span class="sxs-lookup"><span data-stu-id="f1b42-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="71fb5-110">子元素</span><span class="sxs-lookup"><span data-stu-id="71fb5-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="f1b42-110">子元素</span><span class="sxs-lookup"><span data-stu-id="f1b42-110">Child elements</span></span>
 
-<span data-ttu-id="71fb5-111">无。</span><span class="sxs-lookup"><span data-stu-id="71fb5-111">None.</span></span>
+<span data-ttu-id="f1b42-111">无。</span><span class="sxs-lookup"><span data-stu-id="f1b42-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="71fb5-112">父元素</span><span class="sxs-lookup"><span data-stu-id="71fb5-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="f1b42-112">父元素</span><span class="sxs-lookup"><span data-stu-id="f1b42-112">Parent elements</span></span>
 
-|<span data-ttu-id="71fb5-113">**元素**</span><span class="sxs-lookup"><span data-stu-id="71fb5-113">**Element**</span></span>|<span data-ttu-id="71fb5-114">**说明**</span><span class="sxs-lookup"><span data-stu-id="71fb5-114">**Description**</span></span>|
+|<span data-ttu-id="f1b42-113">**元素**</span><span class="sxs-lookup"><span data-stu-id="f1b42-113">**Element**</span></span>|<span data-ttu-id="f1b42-114">**说明**</span><span class="sxs-lookup"><span data-stu-id="f1b42-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="71fb5-115">ConnectingSID</span><span class="sxs-lookup"><span data-stu-id="71fb5-115">ConnectingSID</span></span>](connectingsid.md) <br/> |<span data-ttu-id="71fb5-116">代表用于模拟使用 ExchangeImpersonation SOAP 标头时的帐户。</span><span class="sxs-lookup"><span data-stu-id="71fb5-116">Represents an account to impersonate when using the ExchangeImpersonation SOAP header.</span></span>  <br/> <span data-ttu-id="71fb5-117">以下是此元素的 XPath 表达式：</span><span class="sxs-lookup"><span data-stu-id="71fb5-117">The following is the XPath expression to this element:</span></span>  <br/>  `/ExchangeImpersonation/ConnectingSID` <br/> |
-|[<span data-ttu-id="71fb5-118">用户 Id</span><span class="sxs-lookup"><span data-stu-id="71fb5-118">UserId</span></span>](userid.md) <br/> |<span data-ttu-id="71fb5-119">标识委派用户与文件夹访问权限。</span><span class="sxs-lookup"><span data-stu-id="71fb5-119">Identifies a delegate user or a user with folder access permissions.</span></span>  <br/> |
+|[<span data-ttu-id="f1b42-115">ConnectingSID</span><span class="sxs-lookup"><span data-stu-id="f1b42-115">ConnectingSID</span></span>](connectingsid.md) <br/> |<span data-ttu-id="f1b42-116">表示在使用 ExchangeImpersonation SOAP 标头时要模拟的帐户。</span><span class="sxs-lookup"><span data-stu-id="f1b42-116">Represents an account to impersonate when using the ExchangeImpersonation SOAP header.</span></span>  <br/> <span data-ttu-id="f1b42-117">下面是此元素的 XPath 表达式： </span><span class="sxs-lookup"><span data-stu-id="f1b42-117">The following is the XPath expression to this element:</span></span>  <br/>  `/ExchangeImpersonation/ConnectingSID` <br/> |
+|[<span data-ttu-id="f1b42-118">UserId</span><span class="sxs-lookup"><span data-stu-id="f1b42-118">UserId</span></span>](userid.md) <br/> |<span data-ttu-id="f1b42-119">标识代理用户或具有文件夹访问权限的用户。</span><span class="sxs-lookup"><span data-stu-id="f1b42-119">Identifies a delegate user or a user with folder access permissions.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="71fb5-120">文本值</span><span class="sxs-lookup"><span data-stu-id="71fb5-120">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="f1b42-120">文本值</span><span class="sxs-lookup"><span data-stu-id="f1b42-120">Text value</span></span>
 
-<span data-ttu-id="71fb5-121">文本值的字符串表示形式 SID。</span><span class="sxs-lookup"><span data-stu-id="71fb5-121">The text value is a string representation of a SID.</span></span>
+<span data-ttu-id="f1b42-121">文本值是 SID 的字符串表示形式。</span><span class="sxs-lookup"><span data-stu-id="f1b42-121">The text value is a string representation of a SID.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="71fb5-122">注解</span><span class="sxs-lookup"><span data-stu-id="71fb5-122">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f1b42-122">备注</span><span class="sxs-lookup"><span data-stu-id="f1b42-122">Remarks</span></span>
 
-<span data-ttu-id="71fb5-123">描述此元素的架构位于安装了客户端访问服务器角色与运行 Exchange Server 的计算机的 EWS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="71fb5-123">The schema that describes this element is located in the EWS virtual directory of the computer that is running Exchange Server with the Client Access server role installed.</span></span>
+<span data-ttu-id="f1b42-123">描述此元素的架构位于运行 Exchange Server 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="f1b42-123">The schema that describes this element is located in the EWS virtual directory of the computer that is running Exchange Server with the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="71fb5-124">元素信息</span><span class="sxs-lookup"><span data-stu-id="71fb5-124">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="f1b42-124">元素信息</span><span class="sxs-lookup"><span data-stu-id="f1b42-124">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="71fb5-125">命名空间</span><span class="sxs-lookup"><span data-stu-id="71fb5-125">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="71fb5-126">架构名称</span><span class="sxs-lookup"><span data-stu-id="71fb5-126">Schema Name</span></span>  <br/> |<span data-ttu-id="71fb5-127">类型架构</span><span class="sxs-lookup"><span data-stu-id="71fb5-127">Types schema</span></span>  <br/> |
-|<span data-ttu-id="71fb5-128">验证文件</span><span class="sxs-lookup"><span data-stu-id="71fb5-128">Validation File</span></span>  <br/> |<span data-ttu-id="71fb5-129">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="71fb5-129">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="71fb5-130">可以为空</span><span class="sxs-lookup"><span data-stu-id="71fb5-130">Can be Empty</span></span>  <br/> |<span data-ttu-id="71fb5-131">False</span><span class="sxs-lookup"><span data-stu-id="71fb5-131">False</span></span>  <br/> |
+|<span data-ttu-id="f1b42-125">命名空间</span><span class="sxs-lookup"><span data-stu-id="f1b42-125">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="f1b42-126">架构名称</span><span class="sxs-lookup"><span data-stu-id="f1b42-126">Schema Name</span></span>  <br/> |<span data-ttu-id="f1b42-127">类型架构</span><span class="sxs-lookup"><span data-stu-id="f1b42-127">Types schema</span></span>  <br/> |
+|<span data-ttu-id="f1b42-128">验证文件</span><span class="sxs-lookup"><span data-stu-id="f1b42-128">Validation File</span></span>  <br/> |<span data-ttu-id="f1b42-129">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="f1b42-129">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="f1b42-130">可以为空</span><span class="sxs-lookup"><span data-stu-id="f1b42-130">Can be Empty</span></span>  <br/> |<span data-ttu-id="f1b42-131">False</span><span class="sxs-lookup"><span data-stu-id="f1b42-131">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="71fb5-132">另请参阅</span><span class="sxs-lookup"><span data-stu-id="71fb5-132">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f1b42-132">另请参阅</span><span class="sxs-lookup"><span data-stu-id="f1b42-132">See also</span></span>
 
 
 
-- [<span data-ttu-id="71fb5-133">在交换 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="71fb5-133">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="f1b42-133">Exchange 中的 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="f1b42-133">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

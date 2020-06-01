@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3365e58c-adb3-4d92-92cc-acc95ce36cca
 description: SetClientExtensionResponseMessage 元素指定 SetClientExtension 请求的响应消息。
-ms.openlocfilehash: 29d126c84f2db6f9c674a5840547451847442e15
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 3743d2f1643bece044ff7b7c8ccac95bbd7401ea
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827405"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468717"
 ---
-# <a name="setclientextensionresponsemessage"></a><span data-ttu-id="170db-103">SetClientExtensionResponseMessage</span><span class="sxs-lookup"><span data-stu-id="170db-103">SetClientExtensionResponseMessage</span></span>
+# <a name="setclientextensionresponsemessage"></a><span data-ttu-id="4d726-103">SetClientExtensionResponseMessage</span><span class="sxs-lookup"><span data-stu-id="4d726-103">SetClientExtensionResponseMessage</span></span>
 
-<span data-ttu-id="170db-104">**SetClientExtensionResponseMessage**元素指定**SetClientExtension**请求的响应消息。</span><span class="sxs-lookup"><span data-stu-id="170db-104">The **SetClientExtensionResponseMessage** element specifies the response message for a **SetClientExtension** request.</span></span> 
+<span data-ttu-id="4d726-104">**SetClientExtensionResponseMessage**元素指定**SetClientExtension**请求的响应消息。</span><span class="sxs-lookup"><span data-stu-id="4d726-104">The **SetClientExtensionResponseMessage** element specifies the response message for a **SetClientExtension** request.</span></span> 
   
 ```XML
 <SetClientExtensionResponseMessage>
@@ -28,36 +28,36 @@ ms.locfileid: "19827405"
 </SetClientExtensionResponseMessage>
 ```
 
- <span data-ttu-id="170db-105">**ResponseMessageType**</span><span class="sxs-lookup"><span data-stu-id="170db-105">**ResponseMessageType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="170db-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="170db-106">Attributes and elements</span></span>
+ <span data-ttu-id="4d726-105">**ResponseMessageType**</span><span class="sxs-lookup"><span data-stu-id="4d726-105">**ResponseMessageType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="4d726-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="4d726-106">Attributes and elements</span></span>
 
-<span data-ttu-id="170db-107">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="170db-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="4d726-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="4d726-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="170db-108">属性</span><span class="sxs-lookup"><span data-stu-id="170db-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="4d726-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="4d726-108">Attributes</span></span>
 
-<span data-ttu-id="170db-109">无。</span><span class="sxs-lookup"><span data-stu-id="170db-109">None.</span></span>
+<span data-ttu-id="4d726-109">无。</span><span class="sxs-lookup"><span data-stu-id="4d726-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="170db-110">子元素</span><span class="sxs-lookup"><span data-stu-id="170db-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="4d726-110">子元素</span><span class="sxs-lookup"><span data-stu-id="4d726-110">Child elements</span></span>
 
-<span data-ttu-id="170db-111">[MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md)</span><span class="sxs-lookup"><span data-stu-id="170db-111">[MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md)</span></span>
+<span data-ttu-id="4d726-111">[MessageText](messagetext.md)  | [ResponseCode](responsecode.md)  | [DescriptiveLinkKey](descriptivelinkkey.md)  | [MessageXml](messagexml.md)</span><span class="sxs-lookup"><span data-stu-id="4d726-111">[MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md)</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="170db-112">父元素</span><span class="sxs-lookup"><span data-stu-id="170db-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="4d726-112">父元素</span><span class="sxs-lookup"><span data-stu-id="4d726-112">Parent elements</span></span>
 
-[<span data-ttu-id="170db-113">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="170db-113">ResponseMessages</span></span>](responsemessages.md)
+[<span data-ttu-id="4d726-113">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="4d726-113">ResponseMessages</span></span>](responsemessages.md)
   
-## <a name="remarks"></a><span data-ttu-id="170db-114">备注</span><span class="sxs-lookup"><span data-stu-id="170db-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4d726-114">备注</span><span class="sxs-lookup"><span data-stu-id="4d726-114">Remarks</span></span>
 
-<span data-ttu-id="170db-115">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="170db-115">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="4d726-115">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="4d726-115">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="170db-116">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="170db-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="4d726-116">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="4d726-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="170db-117">元素信息</span><span class="sxs-lookup"><span data-stu-id="170db-117">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="4d726-117">元素信息</span><span class="sxs-lookup"><span data-stu-id="4d726-117">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="170db-118">命名空间</span><span class="sxs-lookup"><span data-stu-id="170db-118">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="170db-119">架构名称</span><span class="sxs-lookup"><span data-stu-id="170db-119">Schema name</span></span>  <br/> |<span data-ttu-id="170db-120">类型架构</span><span class="sxs-lookup"><span data-stu-id="170db-120">Types schema</span></span>  <br/> |
-|<span data-ttu-id="170db-121">验证文件</span><span class="sxs-lookup"><span data-stu-id="170db-121">Validation file</span></span>  <br/> |<span data-ttu-id="170db-122">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="170db-122">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="170db-123">可以为空</span><span class="sxs-lookup"><span data-stu-id="170db-123">Can be empty</span></span>  <br/> ||
+|<span data-ttu-id="4d726-118">命名空间</span><span class="sxs-lookup"><span data-stu-id="4d726-118">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="4d726-119">架构名称</span><span class="sxs-lookup"><span data-stu-id="4d726-119">Schema name</span></span>  <br/> |<span data-ttu-id="4d726-120">类型架构</span><span class="sxs-lookup"><span data-stu-id="4d726-120">Types schema</span></span>  <br/> |
+|<span data-ttu-id="4d726-121">验证文件</span><span class="sxs-lookup"><span data-stu-id="4d726-121">Validation file</span></span>  <br/> |<span data-ttu-id="4d726-122">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="4d726-122">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="4d726-123">可以为空</span><span class="sxs-lookup"><span data-stu-id="4d726-123">Can be empty</span></span>  <br/> ||
    
 

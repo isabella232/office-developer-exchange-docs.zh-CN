@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 1157b042-6dce-4cdc-9700-e22b749da39f
-description: ReceivedRepresenting 元素标识委派访问方案中的主体。
-ms.openlocfilehash: 1587fcae6975b986711e7223e50c60658833cc80
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ReceivedRepresenting 元素标识代理访问方案中的主体。
+ms.openlocfilehash: f444fb88be9c0df174f0c1490cf7c499cc0c0539
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826973"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468220"
 ---
-# <a name="receivedrepresenting"></a><span data-ttu-id="7571d-103">ReceivedRepresenting</span><span class="sxs-lookup"><span data-stu-id="7571d-103">ReceivedRepresenting</span></span>
+# <a name="receivedrepresenting"></a><span data-ttu-id="dc3b1-103">ReceivedRepresenting</span><span class="sxs-lookup"><span data-stu-id="dc3b1-103">ReceivedRepresenting</span></span>
 
-<span data-ttu-id="7571d-104">**ReceivedRepresenting**元素标识委派访问方案中的主体。</span><span class="sxs-lookup"><span data-stu-id="7571d-104">The **ReceivedRepresenting** element identifies the principal in a delegate access scenario.</span></span> 
+<span data-ttu-id="dc3b1-104">**ReceivedRepresenting**元素标识代理访问方案中的主体。</span><span class="sxs-lookup"><span data-stu-id="dc3b1-104">The **ReceivedRepresenting** element identifies the principal in a delegate access scenario.</span></span> 
   
 ```xml
 <ReceivedRepresenting>
@@ -29,66 +29,66 @@ ms.locfileid: "19826973"
 </ReceivedRepresenting>
 ```
 
- <span data-ttu-id="7571d-105">**SingleRecipientType**</span><span class="sxs-lookup"><span data-stu-id="7571d-105">**SingleRecipientType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="7571d-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="7571d-106">Attributes and elements</span></span>
+ <span data-ttu-id="dc3b1-105">**SingleRecipientType**</span><span class="sxs-lookup"><span data-stu-id="dc3b1-105">**SingleRecipientType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="dc3b1-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="dc3b1-106">Attributes and elements</span></span>
 
-<span data-ttu-id="7571d-107">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="7571d-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="dc3b1-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="dc3b1-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="7571d-108">属性</span><span class="sxs-lookup"><span data-stu-id="7571d-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="dc3b1-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="dc3b1-108">Attributes</span></span>
 
-<span data-ttu-id="7571d-109">无。</span><span class="sxs-lookup"><span data-stu-id="7571d-109">None.</span></span>
+<span data-ttu-id="dc3b1-109">无。</span><span class="sxs-lookup"><span data-stu-id="dc3b1-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="7571d-110">子元素</span><span class="sxs-lookup"><span data-stu-id="7571d-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="dc3b1-110">子元素</span><span class="sxs-lookup"><span data-stu-id="dc3b1-110">Child elements</span></span>
 
-|<span data-ttu-id="7571d-111">**元素**</span><span class="sxs-lookup"><span data-stu-id="7571d-111">**Element**</span></span>|<span data-ttu-id="7571d-112">**说明**</span><span class="sxs-lookup"><span data-stu-id="7571d-112">**Description**</span></span>|
+|<span data-ttu-id="dc3b1-111">**元素**</span><span class="sxs-lookup"><span data-stu-id="dc3b1-111">**Element**</span></span>|<span data-ttu-id="dc3b1-112">**说明**</span><span class="sxs-lookup"><span data-stu-id="dc3b1-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="7571d-113">Mailbox</span><span class="sxs-lookup"><span data-stu-id="7571d-113">Mailbox</span></span>](mailbox.md) <br/> |<span data-ttu-id="7571d-114">标识已启用邮件的Active Directory目录服务对象。</span><span class="sxs-lookup"><span data-stu-id="7571d-114">Identifies a mail-enabled Active Directory directory service object.</span></span>  <br/> |
+|[<span data-ttu-id="dc3b1-113">Mailbox</span><span class="sxs-lookup"><span data-stu-id="dc3b1-113">Mailbox</span></span>](mailbox.md) <br/> |<span data-ttu-id="dc3b1-114">标识已启用邮件的Active Directory目录服务对象。</span><span class="sxs-lookup"><span data-stu-id="dc3b1-114">Identifies a mail-enabled Active Directory directory service object.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="7571d-115">父元素</span><span class="sxs-lookup"><span data-stu-id="7571d-115">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="dc3b1-115">父元素</span><span class="sxs-lookup"><span data-stu-id="dc3b1-115">Parent elements</span></span>
 
-|<span data-ttu-id="7571d-116">**元素**</span><span class="sxs-lookup"><span data-stu-id="7571d-116">**Element**</span></span>|<span data-ttu-id="7571d-117">**说明**</span><span class="sxs-lookup"><span data-stu-id="7571d-117">**Description**</span></span>|
+|<span data-ttu-id="dc3b1-116">**元素**</span><span class="sxs-lookup"><span data-stu-id="dc3b1-116">**Element**</span></span>|<span data-ttu-id="dc3b1-117">**说明**</span><span class="sxs-lookup"><span data-stu-id="dc3b1-117">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="7571d-118">Message</span><span class="sxs-lookup"><span data-stu-id="7571d-118">Message</span></span>](message-ex15websvcsotherref.md) <br/> |<span data-ttu-id="7571d-119">表示 Exchange 电子邮件。</span><span class="sxs-lookup"><span data-stu-id="7571d-119">Represents an Exchange e-mail message.</span></span>  <br/> |
-|[<span data-ttu-id="7571d-120">MeetingMessage</span><span class="sxs-lookup"><span data-stu-id="7571d-120">MeetingMessage</span></span>](meetingmessage.md) <br/> |<span data-ttu-id="7571d-121">表示 Exchange 存储中的会议。</span><span class="sxs-lookup"><span data-stu-id="7571d-121">Represents a meeting in the Exchange store.</span></span>  <br/> |
-|[<span data-ttu-id="7571d-122">MeetingRequest</span><span class="sxs-lookup"><span data-stu-id="7571d-122">MeetingRequest</span></span>](meetingrequest.md) <br/> |<span data-ttu-id="7571d-123">表示 Exchange 存储中的会议请求。</span><span class="sxs-lookup"><span data-stu-id="7571d-123">Represents a meeting request in the Exchange store.</span></span>  <br/> |
-|[<span data-ttu-id="7571d-124">MeetingResponse</span><span class="sxs-lookup"><span data-stu-id="7571d-124">MeetingResponse</span></span>](meetingresponse.md) <br/> |<span data-ttu-id="7571d-125">表示 Exchange 存储中的会议响应。</span><span class="sxs-lookup"><span data-stu-id="7571d-125">Represents a meeting response in the Exchange store.</span></span>  <br/> |
-|[<span data-ttu-id="7571d-126">MeetingCancellation</span><span class="sxs-lookup"><span data-stu-id="7571d-126">MeetingCancellation</span></span>](meetingcancellation.md) <br/> |<span data-ttu-id="7571d-127">表示 Exchange 存储中的会议取消。</span><span class="sxs-lookup"><span data-stu-id="7571d-127">Represents a meeting cancellation in the Exchange store.</span></span>  <br/> |
-|[<span data-ttu-id="7571d-128">AcceptItem</span><span class="sxs-lookup"><span data-stu-id="7571d-128">AcceptItem</span></span>](acceptitem.md) <br/> |<span data-ttu-id="7571d-129">表示接受答复会议要求。</span><span class="sxs-lookup"><span data-stu-id="7571d-129">Represents an Accept reply to a meeting request.</span></span>  <br/> |
-|[<span data-ttu-id="7571d-130">TentativelyAcceptItem</span><span class="sxs-lookup"><span data-stu-id="7571d-130">TentativelyAcceptItem</span></span>](tentativelyacceptitem.md) <br/> |<span data-ttu-id="7571d-131">表示一个暂定答复会议要求。</span><span class="sxs-lookup"><span data-stu-id="7571d-131">Represents a Tentative reply to a meeting request.</span></span>  <br/> |
-|[<span data-ttu-id="7571d-132">DeclineItem</span><span class="sxs-lookup"><span data-stu-id="7571d-132">DeclineItem</span></span>](declineitem.md) <br/> |<span data-ttu-id="7571d-133">表示谢绝答复会议要求。</span><span class="sxs-lookup"><span data-stu-id="7571d-133">Represents a Decline reply to a meeting request.</span></span>  <br/> |
-|[<span data-ttu-id="7571d-134">ReplyToItem</span><span class="sxs-lookup"><span data-stu-id="7571d-134">ReplyToItem</span></span>](replytoitem.md) <br/> |<span data-ttu-id="7571d-135">包含对 Exchange 存储中的项的创建者的答复。</span><span class="sxs-lookup"><span data-stu-id="7571d-135">Contains a reply to the creator of an item in the Exchange store.</span></span>  <br/> |
-|[<span data-ttu-id="7571d-136">ReplyAllToItem</span><span class="sxs-lookup"><span data-stu-id="7571d-136">ReplyAllToItem</span></span>](replyalltoitem.md) <br/> |<span data-ttu-id="7571d-137">包含对所有确定收件人的 Exchange 存储中的项的答复。</span><span class="sxs-lookup"><span data-stu-id="7571d-137">Contains a reply to all identified recipients of an item in the Exchange store.</span></span>  <br/> |
-|[<span data-ttu-id="7571d-138">ForwardItem</span><span class="sxs-lookup"><span data-stu-id="7571d-138">ForwardItem</span></span>](forwarditem.md) <br/> |<span data-ttu-id="7571d-139">包含要转发给收件人的 Exchange 存储区项。</span><span class="sxs-lookup"><span data-stu-id="7571d-139">Contains an Exchange store item to forward to recipients.</span></span>  <br/> |
-|[<span data-ttu-id="7571d-140">CancelCalendarItem</span><span class="sxs-lookup"><span data-stu-id="7571d-140">CancelCalendarItem</span></span>](cancelcalendaritem.md) <br/> |<span data-ttu-id="7571d-141">表示用于取消会议的响应对象。</span><span class="sxs-lookup"><span data-stu-id="7571d-141">Represents the response object that is used to cancel a meeting.</span></span>  <br/> |
+|[<span data-ttu-id="dc3b1-118">Message</span><span class="sxs-lookup"><span data-stu-id="dc3b1-118">Message</span></span>](message-ex15websvcsotherref.md) <br/> |<span data-ttu-id="dc3b1-119">表示 Exchange 电子邮件。</span><span class="sxs-lookup"><span data-stu-id="dc3b1-119">Represents an Exchange e-mail message.</span></span>  <br/> |
+|[<span data-ttu-id="dc3b1-120">MeetingMessage</span><span class="sxs-lookup"><span data-stu-id="dc3b1-120">MeetingMessage</span></span>](meetingmessage.md) <br/> |<span data-ttu-id="dc3b1-121">表示 Exchange 存储中的会议。</span><span class="sxs-lookup"><span data-stu-id="dc3b1-121">Represents a meeting in the Exchange store.</span></span>  <br/> |
+|[<span data-ttu-id="dc3b1-122">MeetingRequest</span><span class="sxs-lookup"><span data-stu-id="dc3b1-122">MeetingRequest</span></span>](meetingrequest.md) <br/> |<span data-ttu-id="dc3b1-123">表示 Exchange 存储中的会议请求。</span><span class="sxs-lookup"><span data-stu-id="dc3b1-123">Represents a meeting request in the Exchange store.</span></span>  <br/> |
+|[<span data-ttu-id="dc3b1-124">MeetingResponse</span><span class="sxs-lookup"><span data-stu-id="dc3b1-124">MeetingResponse</span></span>](meetingresponse.md) <br/> |<span data-ttu-id="dc3b1-125">表示 Exchange 存储中的会议响应。</span><span class="sxs-lookup"><span data-stu-id="dc3b1-125">Represents a meeting response in the Exchange store.</span></span>  <br/> |
+|[<span data-ttu-id="dc3b1-126">MeetingCancellation</span><span class="sxs-lookup"><span data-stu-id="dc3b1-126">MeetingCancellation</span></span>](meetingcancellation.md) <br/> |<span data-ttu-id="dc3b1-127">表示 Exchange 存储中的会议取消。</span><span class="sxs-lookup"><span data-stu-id="dc3b1-127">Represents a meeting cancellation in the Exchange store.</span></span>  <br/> |
+|[<span data-ttu-id="dc3b1-128">AcceptItem</span><span class="sxs-lookup"><span data-stu-id="dc3b1-128">AcceptItem</span></span>](acceptitem.md) <br/> |<span data-ttu-id="dc3b1-129">表示接受答复会议要求。</span><span class="sxs-lookup"><span data-stu-id="dc3b1-129">Represents an Accept reply to a meeting request.</span></span>  <br/> |
+|[<span data-ttu-id="dc3b1-130">TentativelyAcceptItem</span><span class="sxs-lookup"><span data-stu-id="dc3b1-130">TentativelyAcceptItem</span></span>](tentativelyacceptitem.md) <br/> |<span data-ttu-id="dc3b1-131">表示一个暂定答复会议要求。</span><span class="sxs-lookup"><span data-stu-id="dc3b1-131">Represents a Tentative reply to a meeting request.</span></span>  <br/> |
+|[<span data-ttu-id="dc3b1-132">DeclineItem</span><span class="sxs-lookup"><span data-stu-id="dc3b1-132">DeclineItem</span></span>](declineitem.md) <br/> |<span data-ttu-id="dc3b1-133">表示谢绝答复会议要求。</span><span class="sxs-lookup"><span data-stu-id="dc3b1-133">Represents a Decline reply to a meeting request.</span></span>  <br/> |
+|[<span data-ttu-id="dc3b1-134">ReplyToItem</span><span class="sxs-lookup"><span data-stu-id="dc3b1-134">ReplyToItem</span></span>](replytoitem.md) <br/> |<span data-ttu-id="dc3b1-135">包含对 Exchange 存储中的项的创建者的答复。</span><span class="sxs-lookup"><span data-stu-id="dc3b1-135">Contains a reply to the creator of an item in the Exchange store.</span></span>  <br/> |
+|[<span data-ttu-id="dc3b1-136">ReplyAllToItem</span><span class="sxs-lookup"><span data-stu-id="dc3b1-136">ReplyAllToItem</span></span>](replyalltoitem.md) <br/> |<span data-ttu-id="dc3b1-137">包含对所有确定收件人的 Exchange 存储中的项的答复。</span><span class="sxs-lookup"><span data-stu-id="dc3b1-137">Contains a reply to all identified recipients of an item in the Exchange store.</span></span>  <br/> |
+|[<span data-ttu-id="dc3b1-138">ForwardItem</span><span class="sxs-lookup"><span data-stu-id="dc3b1-138">ForwardItem</span></span>](forwarditem.md) <br/> |<span data-ttu-id="dc3b1-139">包含要转发给收件人的 Exchange 存储区项。</span><span class="sxs-lookup"><span data-stu-id="dc3b1-139">Contains an Exchange store item to forward to recipients.</span></span>  <br/> |
+|[<span data-ttu-id="dc3b1-140">CancelCalendarItem</span><span class="sxs-lookup"><span data-stu-id="dc3b1-140">CancelCalendarItem</span></span>](cancelcalendaritem.md) <br/> |<span data-ttu-id="dc3b1-141">表示用于取消会议的响应对象。</span><span class="sxs-lookup"><span data-stu-id="dc3b1-141">Represents the response object that is used to cancel a meeting.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="7571d-142">备注</span><span class="sxs-lookup"><span data-stu-id="7571d-142">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="dc3b1-142">备注</span><span class="sxs-lookup"><span data-stu-id="dc3b1-142">Remarks</span></span>
 
-<span data-ttu-id="7571d-143">**ReceivedRepresenting**元素与**从**结合使用并**ReceivedBy**元素中的委派访问方案。</span><span class="sxs-lookup"><span data-stu-id="7571d-143">The **ReceivedRepresenting** element is used together with the **From** and **ReceivedBy** elements in delegate access scenarios.</span></span> <span data-ttu-id="7571d-144">下表列出了这些元素表示委派访问方案中的实体。</span><span class="sxs-lookup"><span data-stu-id="7571d-144">The following table lists the entities that these elements represent in a delegate access scenario.</span></span> 
+<span data-ttu-id="dc3b1-143">**ReceivedRepresenting**元素与代理访问方案中的**From**和**ReceivedBy**元素一起使用。</span><span class="sxs-lookup"><span data-stu-id="dc3b1-143">The **ReceivedRepresenting** element is used together with the **From** and **ReceivedBy** elements in delegate access scenarios.</span></span> <span data-ttu-id="dc3b1-144">下表列出了这些元素在代理访问方案中表示的实体。</span><span class="sxs-lookup"><span data-stu-id="dc3b1-144">The following table lists the entities that these elements represent in a delegate access scenario.</span></span> 
   
-<span data-ttu-id="7571d-145">**委派访问方案中的元素**</span><span class="sxs-lookup"><span data-stu-id="7571d-145">**Elements in a delegate access scenario**</span></span>
+<span data-ttu-id="dc3b1-145">**代理访问方案中的元素**</span><span class="sxs-lookup"><span data-stu-id="dc3b1-145">**Elements in a delegate access scenario**</span></span>
 
-|<span data-ttu-id="7571d-146">**元素**</span><span class="sxs-lookup"><span data-stu-id="7571d-146">**Element**</span></span>|<span data-ttu-id="7571d-147">**元素表示的实体**</span><span class="sxs-lookup"><span data-stu-id="7571d-147">**Entity that the element represent**</span></span>|
+|<span data-ttu-id="dc3b1-146">**元素**</span><span class="sxs-lookup"><span data-stu-id="dc3b1-146">**Element**</span></span>|<span data-ttu-id="dc3b1-147">**元素所表示的实体**</span><span class="sxs-lookup"><span data-stu-id="dc3b1-147">**Entity that the element represent**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="7571d-148">发件人</span><span class="sxs-lookup"><span data-stu-id="7571d-148">From</span></span>](from.md) <br/> |<span data-ttu-id="7571d-149">第三方</span><span class="sxs-lookup"><span data-stu-id="7571d-149">ThirdParty</span></span>  <br/> |
-|[<span data-ttu-id="7571d-150">ReceivedBy</span><span class="sxs-lookup"><span data-stu-id="7571d-150">ReceivedBy</span></span>](receivedby.md) <br/> |<span data-ttu-id="7571d-151">委托</span><span class="sxs-lookup"><span data-stu-id="7571d-151">Delegate</span></span>  <br/> |
-|[<span data-ttu-id="7571d-152">ReceivedRepresenting</span><span class="sxs-lookup"><span data-stu-id="7571d-152">ReceivedRepresenting</span></span>](receivedrepresenting.md) <br/> |<span data-ttu-id="7571d-153">Principal</span><span class="sxs-lookup"><span data-stu-id="7571d-153">Principal</span></span>  <br/> |
+|[<span data-ttu-id="dc3b1-148">From</span><span class="sxs-lookup"><span data-stu-id="dc3b1-148">From</span></span>](from.md) <br/> |<span data-ttu-id="dc3b1-149">ThirdParty</span><span class="sxs-lookup"><span data-stu-id="dc3b1-149">ThirdParty</span></span>  <br/> |
+|[<span data-ttu-id="dc3b1-150">ReceivedBy</span><span class="sxs-lookup"><span data-stu-id="dc3b1-150">ReceivedBy</span></span>](receivedby.md) <br/> |<span data-ttu-id="dc3b1-151">委派用户</span><span class="sxs-lookup"><span data-stu-id="dc3b1-151">Delegate</span></span>  <br/> |
+|[<span data-ttu-id="dc3b1-152">ReceivedRepresenting</span><span class="sxs-lookup"><span data-stu-id="dc3b1-152">ReceivedRepresenting</span></span>](receivedrepresenting.md) <br/> |<span data-ttu-id="dc3b1-153">校长</span><span class="sxs-lookup"><span data-stu-id="dc3b1-153">Principal</span></span>  <br/> |
    
-<span data-ttu-id="7571d-154">在委派访问方案中，如果第三方将会议请求发送到的主体拥有代理人，代理人将看到新的会议请求。</span><span class="sxs-lookup"><span data-stu-id="7571d-154">In a delegate access scenario, if a ThirdParty sends a meeting request to a Principal who has a Delegate, the Delegate will see a new meeting request.</span></span> <span data-ttu-id="7571d-155">这些元素启用代理人来区分直接向他们发送的邮件和消息发送给他们由于代理人转接规则。</span><span class="sxs-lookup"><span data-stu-id="7571d-155">These elements enable delegates to distinguish between messages that are sent directly to them and messages that are sent to them because of a delegate forwarding rule.</span></span>
+<span data-ttu-id="dc3b1-154">在代理访问方案中，如果 ThirdParty 向具有代理的主体发送会议请求，则代理将看到一个新的会议请求。</span><span class="sxs-lookup"><span data-stu-id="dc3b1-154">In a delegate access scenario, if a ThirdParty sends a meeting request to a Principal who has a Delegate, the Delegate will see a new meeting request.</span></span> <span data-ttu-id="dc3b1-155">这些元素使代理能够区分直接发送给他们的邮件和发送给他们的邮件，因为它是一个代理转发规则。</span><span class="sxs-lookup"><span data-stu-id="dc3b1-155">These elements enable delegates to distinguish between messages that are sent directly to them and messages that are sent to them because of a delegate forwarding rule.</span></span>
   
-<span data-ttu-id="7571d-156">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="7571d-156">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="dc3b1-156">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="dc3b1-156">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="7571d-157">元素信息</span><span class="sxs-lookup"><span data-stu-id="7571d-157">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="dc3b1-157">元素信息</span><span class="sxs-lookup"><span data-stu-id="dc3b1-157">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="7571d-158">命名空间</span><span class="sxs-lookup"><span data-stu-id="7571d-158">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="7571d-159">架构名称</span><span class="sxs-lookup"><span data-stu-id="7571d-159">Schema Name</span></span>  <br/> |<span data-ttu-id="7571d-160">类型架构</span><span class="sxs-lookup"><span data-stu-id="7571d-160">Types schema</span></span>  <br/> |
-|<span data-ttu-id="7571d-161">验证文件</span><span class="sxs-lookup"><span data-stu-id="7571d-161">Validation File</span></span>  <br/> |<span data-ttu-id="7571d-162">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="7571d-162">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="7571d-163">可以为空</span><span class="sxs-lookup"><span data-stu-id="7571d-163">Can be Empty</span></span>  <br/> |<span data-ttu-id="7571d-164">False</span><span class="sxs-lookup"><span data-stu-id="7571d-164">False</span></span>  <br/> |
+|<span data-ttu-id="dc3b1-158">命名空间</span><span class="sxs-lookup"><span data-stu-id="dc3b1-158">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="dc3b1-159">架构名称</span><span class="sxs-lookup"><span data-stu-id="dc3b1-159">Schema Name</span></span>  <br/> |<span data-ttu-id="dc3b1-160">类型架构</span><span class="sxs-lookup"><span data-stu-id="dc3b1-160">Types schema</span></span>  <br/> |
+|<span data-ttu-id="dc3b1-161">验证文件</span><span class="sxs-lookup"><span data-stu-id="dc3b1-161">Validation File</span></span>  <br/> |<span data-ttu-id="dc3b1-162">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="dc3b1-162">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="dc3b1-163">可以为空</span><span class="sxs-lookup"><span data-stu-id="dc3b1-163">Can be Empty</span></span>  <br/> |<span data-ttu-id="dc3b1-164">False</span><span class="sxs-lookup"><span data-stu-id="dc3b1-164">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="7571d-165">另请参阅</span><span class="sxs-lookup"><span data-stu-id="7571d-165">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="dc3b1-165">另请参阅</span><span class="sxs-lookup"><span data-stu-id="dc3b1-165">See also</span></span>
 
 
 
-- [<span data-ttu-id="7571d-166">在交换 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="7571d-166">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="dc3b1-166">Exchange 中的 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="dc3b1-166">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 
