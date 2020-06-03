@@ -12,12 +12,12 @@ ms.openlocfilehash: b3af9b831b7877bcfb030422b8fb44ccc6b61d5c
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468150"
 ---
-# <a name="mailboxes-arrayofusermailboxestype"></a><span data-ttu-id="13b8b-103">邮箱（ArrayOfUserMailboxesType）</span><span class="sxs-lookup"><span data-stu-id="13b8b-103">Mailboxes (ArrayOfUserMailboxesType)</span></span>
+# <a name="mailboxes-arrayofusermailboxestype"></a><span data-ttu-id="2eaa6-103">邮箱（ArrayOfUserMailboxesType）</span><span class="sxs-lookup"><span data-stu-id="2eaa6-103">Mailboxes (ArrayOfUserMailboxesType)</span></span>
 
-<span data-ttu-id="13b8b-104">**邮箱**元素包含一个邮箱数组。</span><span class="sxs-lookup"><span data-stu-id="13b8b-104">The **Mailboxes** element contains an array of mailboxes.</span></span> 
+<span data-ttu-id="2eaa6-104">**邮箱**元素包含一个邮箱数组。</span><span class="sxs-lookup"><span data-stu-id="2eaa6-104">The **Mailboxes** element contains an array of mailboxes.</span></span> 
   
 ```XML
 <Mailboxes>
@@ -25,37 +25,37 @@ ms.locfileid: "44468150"
 </Mailboxes>
 ```
 
-<span data-ttu-id="13b8b-105">**ArrayOfUserMailboxesType**</span><span class="sxs-lookup"><span data-stu-id="13b8b-105">**ArrayOfUserMailboxesType**</span></span>
+<span data-ttu-id="2eaa6-105">**ArrayOfUserMailboxesType**</span><span class="sxs-lookup"><span data-stu-id="2eaa6-105">**ArrayOfUserMailboxesType**</span></span>
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="13b8b-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="13b8b-106">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="2eaa6-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="2eaa6-106">Attributes and elements</span></span>
 
-<span data-ttu-id="13b8b-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="13b8b-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="2eaa6-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="2eaa6-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="13b8b-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="13b8b-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="2eaa6-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="2eaa6-108">Attributes</span></span>
 
-<span data-ttu-id="13b8b-109">无。</span><span class="sxs-lookup"><span data-stu-id="13b8b-109">None.</span></span>
+<span data-ttu-id="2eaa6-109">无。</span><span class="sxs-lookup"><span data-stu-id="2eaa6-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="13b8b-110">子元素</span><span class="sxs-lookup"><span data-stu-id="13b8b-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="2eaa6-110">子元素</span><span class="sxs-lookup"><span data-stu-id="2eaa6-110">Child elements</span></span>
 
-[<span data-ttu-id="13b8b-111">UserMailbox</span><span class="sxs-lookup"><span data-stu-id="13b8b-111">UserMailbox</span></span>](usermailbox.md)
+[<span data-ttu-id="2eaa6-111">UserMailbox</span><span class="sxs-lookup"><span data-stu-id="2eaa6-111">UserMailbox</span></span>](usermailbox.md)
   
-### <a name="parent-elements"></a><span data-ttu-id="13b8b-112">父元素</span><span class="sxs-lookup"><span data-stu-id="13b8b-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="2eaa6-112">父元素</span><span class="sxs-lookup"><span data-stu-id="2eaa6-112">Parent elements</span></span>
 
-[<span data-ttu-id="13b8b-113">FindMailboxStatisticsByKeywords</span><span class="sxs-lookup"><span data-stu-id="13b8b-113">FindMailboxStatisticsByKeywords</span></span>](findmailboxstatisticsbykeywords.md)
+[<span data-ttu-id="2eaa6-113">FindMailboxStatisticsByKeywords</span><span class="sxs-lookup"><span data-stu-id="2eaa6-113">FindMailboxStatisticsByKeywords</span></span>](findmailboxstatisticsbykeywords.md)
   
-## <a name="remarks"></a><span data-ttu-id="13b8b-114">备注</span><span class="sxs-lookup"><span data-stu-id="13b8b-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="2eaa6-114">备注</span><span class="sxs-lookup"><span data-stu-id="2eaa6-114">Remarks</span></span>
 
-<span data-ttu-id="13b8b-115">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="13b8b-115">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="2eaa6-115">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="2eaa6-115">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="13b8b-116">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="13b8b-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="2eaa6-116">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="2eaa6-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="13b8b-117">元素信息</span><span class="sxs-lookup"><span data-stu-id="13b8b-117">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="2eaa6-117">元素信息</span><span class="sxs-lookup"><span data-stu-id="2eaa6-117">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="13b8b-118">命名空间</span><span class="sxs-lookup"><span data-stu-id="13b8b-118">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="13b8b-119">架构名称</span><span class="sxs-lookup"><span data-stu-id="13b8b-119">Schema name</span></span>  <br/> |<span data-ttu-id="13b8b-120">消息架构</span><span class="sxs-lookup"><span data-stu-id="13b8b-120">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="13b8b-121">验证文件</span><span class="sxs-lookup"><span data-stu-id="13b8b-121">Validation file</span></span>  <br/> |<span data-ttu-id="13b8b-122">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="13b8b-122">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="13b8b-123">可以为空</span><span class="sxs-lookup"><span data-stu-id="13b8b-123">Can be empty</span></span>  <br/> ||
+|<span data-ttu-id="2eaa6-118">命名空间</span><span class="sxs-lookup"><span data-stu-id="2eaa6-118">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="2eaa6-119">架构名称</span><span class="sxs-lookup"><span data-stu-id="2eaa6-119">Schema name</span></span>  <br/> |<span data-ttu-id="2eaa6-120">消息架构</span><span class="sxs-lookup"><span data-stu-id="2eaa6-120">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="2eaa6-121">验证文件</span><span class="sxs-lookup"><span data-stu-id="2eaa6-121">Validation file</span></span>  <br/> |<span data-ttu-id="2eaa6-122">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="2eaa6-122">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="2eaa6-123">可以为空</span><span class="sxs-lookup"><span data-stu-id="2eaa6-123">Can be empty</span></span>  <br/> ||
    
 

@@ -11,62 +11,62 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5ad37ceb-2922-4420-9051-c29d0d57c420
-description: SharingFolderId 元素均表示共享关系中的本地文件夹的标识符。
-ms.openlocfilehash: e0eb1fbd7155040508daf253f5eb4b1352d7426d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: SharingFolderId 元素表示共享关系中的本地文件夹的标识符。
+ms.openlocfilehash: 02780251639ee651ca65d8eadded43260852aaf8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827485"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526576"
 ---
-# <a name="sharingfolderid"></a><span data-ttu-id="0e20d-103">SharingFolderId</span><span class="sxs-lookup"><span data-stu-id="0e20d-103">SharingFolderId</span></span>
+# <a name="sharingfolderid"></a><span data-ttu-id="cd9c5-103">SharingFolderId</span><span class="sxs-lookup"><span data-stu-id="cd9c5-103">SharingFolderId</span></span>
 
-<span data-ttu-id="0e20d-104">**SharingFolderId**元素均表示共享关系中的本地文件夹的标识符。</span><span class="sxs-lookup"><span data-stu-id="0e20d-104">The **SharingFolderId** element represents the identifier of the local folder in a sharing relationship.</span></span> 
+<span data-ttu-id="cd9c5-104">**SharingFolderId**元素表示共享关系中的本地文件夹的标识符。</span><span class="sxs-lookup"><span data-stu-id="cd9c5-104">The **SharingFolderId** element represents the identifier of the local folder in a sharing relationship.</span></span> 
   
 ```xml
 <SharingFolderId Id="" ChangeKey="" />
 ```
 
- <span data-ttu-id="0e20d-105">**FolderIdType**</span><span class="sxs-lookup"><span data-stu-id="0e20d-105">**FolderIdType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="0e20d-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="0e20d-106">Attributes and elements</span></span>
+ <span data-ttu-id="cd9c5-105">**FolderIdType**</span><span class="sxs-lookup"><span data-stu-id="cd9c5-105">**FolderIdType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="cd9c5-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="cd9c5-106">Attributes and elements</span></span>
 
-<span data-ttu-id="0e20d-107">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="0e20d-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="cd9c5-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="cd9c5-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="0e20d-108">属性</span><span class="sxs-lookup"><span data-stu-id="0e20d-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="cd9c5-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="cd9c5-108">Attributes</span></span>
 
-|<span data-ttu-id="0e20d-109">**属性**</span><span class="sxs-lookup"><span data-stu-id="0e20d-109">**Attribute**</span></span>|<span data-ttu-id="0e20d-110">**说明**</span><span class="sxs-lookup"><span data-stu-id="0e20d-110">**Description**</span></span>|
+|<span data-ttu-id="cd9c5-109">**属性**</span><span class="sxs-lookup"><span data-stu-id="cd9c5-109">**Attribute**</span></span>|<span data-ttu-id="cd9c5-110">**说明**</span><span class="sxs-lookup"><span data-stu-id="cd9c5-110">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="0e20d-111">Id</span><span class="sxs-lookup"><span data-stu-id="0e20d-111">Id</span></span>  <br/> |<span data-ttu-id="0e20d-112">包含一个字符串，标识 Exchange 存储中的文件夹。</span><span class="sxs-lookup"><span data-stu-id="0e20d-112">Contains a string that identifies a folder in the Exchange store.</span></span> <span data-ttu-id="0e20d-113">此属性是必需的。</span><span class="sxs-lookup"><span data-stu-id="0e20d-113">This attribute is required.</span></span>  <br/> |
-|<span data-ttu-id="0e20d-114">更改密钥</span><span class="sxs-lookup"><span data-stu-id="0e20d-114">ChangeKey</span></span>  <br/> |<span data-ttu-id="0e20d-115">包含一个字符串，标识的文件夹的 Id 属性标识的版本。</span><span class="sxs-lookup"><span data-stu-id="0e20d-115">Contains a string that identifies a version of a folder that is identified by the Id attribute.</span></span> <span data-ttu-id="0e20d-116">此属性是可选的。</span><span class="sxs-lookup"><span data-stu-id="0e20d-116">This attribute is optional.</span></span> <span data-ttu-id="0e20d-117">使用此属性以确保正确版本的文件夹使用。</span><span class="sxs-lookup"><span data-stu-id="0e20d-117">Use this attribute to make sure that the correct version of a folder is used.</span></span>  <br/> |
+|<span data-ttu-id="cd9c5-111">Id</span><span class="sxs-lookup"><span data-stu-id="cd9c5-111">Id</span></span>  <br/> |<span data-ttu-id="cd9c5-112">包含标识 Exchange 存储中的文件夹的字符串。</span><span class="sxs-lookup"><span data-stu-id="cd9c5-112">Contains a string that identifies a folder in the Exchange store.</span></span> <span data-ttu-id="cd9c5-113">此特性是必需的。</span><span class="sxs-lookup"><span data-stu-id="cd9c5-113">This attribute is required.</span></span>  <br/> |
+|<span data-ttu-id="cd9c5-114">ChangeKey</span><span class="sxs-lookup"><span data-stu-id="cd9c5-114">ChangeKey</span></span>  <br/> |<span data-ttu-id="cd9c5-115">包含标识由 Id 属性标识的文件夹版本的字符串。</span><span class="sxs-lookup"><span data-stu-id="cd9c5-115">Contains a string that identifies a version of a folder that is identified by the Id attribute.</span></span> <span data-ttu-id="cd9c5-116">此特性是可选的。</span><span class="sxs-lookup"><span data-stu-id="cd9c5-116">This attribute is optional.</span></span> <span data-ttu-id="cd9c5-117">使用此属性可确保使用的是正确的文件夹版本。</span><span class="sxs-lookup"><span data-stu-id="cd9c5-117">Use this attribute to make sure that the correct version of a folder is used.</span></span>  <br/> |
    
-### <a name="child-elements"></a><span data-ttu-id="0e20d-118">子元素</span><span class="sxs-lookup"><span data-stu-id="0e20d-118">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="cd9c5-118">子元素</span><span class="sxs-lookup"><span data-stu-id="cd9c5-118">Child elements</span></span>
 
-<span data-ttu-id="0e20d-119">无。</span><span class="sxs-lookup"><span data-stu-id="0e20d-119">None.</span></span>
+<span data-ttu-id="cd9c5-119">无。</span><span class="sxs-lookup"><span data-stu-id="cd9c5-119">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="0e20d-120">父元素</span><span class="sxs-lookup"><span data-stu-id="0e20d-120">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="cd9c5-120">父元素</span><span class="sxs-lookup"><span data-stu-id="cd9c5-120">Parent elements</span></span>
 
-|<span data-ttu-id="0e20d-121">**元素**</span><span class="sxs-lookup"><span data-stu-id="0e20d-121">**Element**</span></span>|<span data-ttu-id="0e20d-122">**说明**</span><span class="sxs-lookup"><span data-stu-id="0e20d-122">**Description**</span></span>|
+|<span data-ttu-id="cd9c5-121">**元素**</span><span class="sxs-lookup"><span data-stu-id="cd9c5-121">**Element**</span></span>|<span data-ttu-id="cd9c5-122">**说明**</span><span class="sxs-lookup"><span data-stu-id="cd9c5-122">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="0e20d-123">RefreshSharingFolder</span><span class="sxs-lookup"><span data-stu-id="0e20d-123">RefreshSharingFolder</span></span>](refreshsharingfolder.md) <br/> |<span data-ttu-id="0e20d-124">定义一个请求刷新指定的本地文件夹。</span><span class="sxs-lookup"><span data-stu-id="0e20d-124">Defines a request to refresh the specified local folder.</span></span>  <br/> |
-|[<span data-ttu-id="0e20d-125">GetSharingFolderResponse</span><span class="sxs-lookup"><span data-stu-id="0e20d-125">GetSharingFolderResponse</span></span>](getsharingfolderresponse.md) <br/> |<span data-ttu-id="0e20d-126">定义[GetSharingFolder 操作](getsharingfolder-operation.md)请求的响应。</span><span class="sxs-lookup"><span data-stu-id="0e20d-126">Defines a response to a [GetSharingFolder operation](getsharingfolder-operation.md) request.</span></span>  <br/> |
-|[<span data-ttu-id="0e20d-127">GetSharingFolderResponseMessage</span><span class="sxs-lookup"><span data-stu-id="0e20d-127">GetSharingFolderResponseMessage</span></span>](getsharingfolderresponsemessage.md) <br/> |<span data-ttu-id="0e20d-128">包含状态和的单个结果[GetSharingFolder 操作](getsharingfolder-operation.md)请求。</span><span class="sxs-lookup"><span data-stu-id="0e20d-128">Contains the status and result of a single [GetSharingFolder operation](getsharingfolder-operation.md) request.</span></span>  <br/> |
+|[<span data-ttu-id="cd9c5-123">RefreshSharingFolder</span><span class="sxs-lookup"><span data-stu-id="cd9c5-123">RefreshSharingFolder</span></span>](refreshsharingfolder.md) <br/> |<span data-ttu-id="cd9c5-124">定义刷新指定的本地文件夹的请求。</span><span class="sxs-lookup"><span data-stu-id="cd9c5-124">Defines a request to refresh the specified local folder.</span></span>  <br/> |
+|[<span data-ttu-id="cd9c5-125">GetSharingFolderResponse</span><span class="sxs-lookup"><span data-stu-id="cd9c5-125">GetSharingFolderResponse</span></span>](getsharingfolderresponse.md) <br/> |<span data-ttu-id="cd9c5-126">定义对[GetSharingFolder 操作](getsharingfolder-operation.md)请求的响应。</span><span class="sxs-lookup"><span data-stu-id="cd9c5-126">Defines a response to a [GetSharingFolder operation](getsharingfolder-operation.md) request.</span></span>  <br/> |
+|[<span data-ttu-id="cd9c5-127">GetSharingFolderResponseMessage</span><span class="sxs-lookup"><span data-stu-id="cd9c5-127">GetSharingFolderResponseMessage</span></span>](getsharingfolderresponsemessage.md) <br/> |<span data-ttu-id="cd9c5-128">包含单个[GetSharingFolder 操作](getsharingfolder-operation.md)请求的状态和结果。</span><span class="sxs-lookup"><span data-stu-id="cd9c5-128">Contains the status and result of a single [GetSharingFolder operation](getsharingfolder-operation.md) request.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="0e20d-129">备注</span><span class="sxs-lookup"><span data-stu-id="0e20d-129">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="cd9c5-129">说明</span><span class="sxs-lookup"><span data-stu-id="cd9c5-129">Remarks</span></span>
 
-<span data-ttu-id="0e20d-130">描述该元素的架构位于 IIS 虚拟目录正在运行 Microsoft Exchange Server 的计算机的主机交换 Web 服务已安装了客户端访问服务器角色。</span><span class="sxs-lookup"><span data-stu-id="0e20d-130">The schema that describes this element is located in the IIS Virtual directory that hosts Exchange Web Services of the computer that is running Microsoft Exchange Server that has the Client Access server role installed.</span></span>
+<span data-ttu-id="cd9c5-130">描述该元素的架构位于 IIS 虚拟目录正在运行 Microsoft Exchange Server 的计算机的主机交换 Web 服务已安装了客户端访问服务器角色。</span><span class="sxs-lookup"><span data-stu-id="cd9c5-130">The schema that describes this element is located in the IIS Virtual directory that hosts Exchange Web Services of the computer that is running Microsoft Exchange Server that has the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="0e20d-131">元素信息</span><span class="sxs-lookup"><span data-stu-id="0e20d-131">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="cd9c5-131">元素信息</span><span class="sxs-lookup"><span data-stu-id="cd9c5-131">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="0e20d-132">命名空间</span><span class="sxs-lookup"><span data-stu-id="0e20d-132">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="0e20d-133">架构名称</span><span class="sxs-lookup"><span data-stu-id="0e20d-133">Schema Name</span></span>  <br/> |<span data-ttu-id="0e20d-134">消息架构</span><span class="sxs-lookup"><span data-stu-id="0e20d-134">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="0e20d-135">验证文件</span><span class="sxs-lookup"><span data-stu-id="0e20d-135">Validation File</span></span>  <br/> |<span data-ttu-id="0e20d-136">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="0e20d-136">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="0e20d-137">可以为空</span><span class="sxs-lookup"><span data-stu-id="0e20d-137">Can be Empty</span></span>  <br/> |<span data-ttu-id="0e20d-138">False</span><span class="sxs-lookup"><span data-stu-id="0e20d-138">False</span></span>  <br/> |
+|<span data-ttu-id="cd9c5-132">命名空间</span><span class="sxs-lookup"><span data-stu-id="cd9c5-132">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="cd9c5-133">架构名称</span><span class="sxs-lookup"><span data-stu-id="cd9c5-133">Schema Name</span></span>  <br/> |<span data-ttu-id="cd9c5-134">消息架构</span><span class="sxs-lookup"><span data-stu-id="cd9c5-134">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="cd9c5-135">验证文件</span><span class="sxs-lookup"><span data-stu-id="cd9c5-135">Validation File</span></span>  <br/> |<span data-ttu-id="cd9c5-136">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="cd9c5-136">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="cd9c5-137">可以为空</span><span class="sxs-lookup"><span data-stu-id="cd9c5-137">Can be Empty</span></span>  <br/> |<span data-ttu-id="cd9c5-138">False</span><span class="sxs-lookup"><span data-stu-id="cd9c5-138">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="0e20d-139">另请参阅</span><span class="sxs-lookup"><span data-stu-id="0e20d-139">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="cd9c5-139">另请参阅</span><span class="sxs-lookup"><span data-stu-id="cd9c5-139">See also</span></span>
 
 
 
-- [<span data-ttu-id="0e20d-140">在交换 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="0e20d-140">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="cd9c5-140">Exchange 中的 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="cd9c5-140">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

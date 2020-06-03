@@ -12,12 +12,12 @@ ms.openlocfilehash: 5d16a82a382cb7fc9996db84f775fe6230f512c3
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468920"
 ---
-# <a name="tokenrequest"></a><span data-ttu-id="0689c-103">TokenRequest</span><span class="sxs-lookup"><span data-stu-id="0689c-103">TokenRequest</span></span>
+# <a name="tokenrequest"></a><span data-ttu-id="b1a24-103">TokenRequest</span><span class="sxs-lookup"><span data-stu-id="b1a24-103">TokenRequest</span></span>
 
-<span data-ttu-id="0689c-104">**TokenRequest**元素指定单个令牌请求。</span><span class="sxs-lookup"><span data-stu-id="0689c-104">The **TokenRequest** element specifies a single token request.</span></span> 
+<span data-ttu-id="b1a24-104">**TokenRequest**元素指定单个令牌请求。</span><span class="sxs-lookup"><span data-stu-id="b1a24-104">The **TokenRequest** element specifies a single token request.</span></span> 
   
 ```XML
 <TokenRequest>
@@ -26,36 +26,36 @@ ms.locfileid: "44468920"
 </TokenRequest>
 ```
 
- <span data-ttu-id="0689c-105">**ClientAccessTokenRequestType**</span><span class="sxs-lookup"><span data-stu-id="0689c-105">**ClientAccessTokenRequestType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="0689c-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="0689c-106">Attributes and elements</span></span>
+ <span data-ttu-id="b1a24-105">**ClientAccessTokenRequestType**</span><span class="sxs-lookup"><span data-stu-id="b1a24-105">**ClientAccessTokenRequestType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="b1a24-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="b1a24-106">Attributes and elements</span></span>
 
-<span data-ttu-id="0689c-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="0689c-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="b1a24-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="b1a24-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="0689c-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="0689c-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="b1a24-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="b1a24-108">Attributes</span></span>
 
-<span data-ttu-id="0689c-109">无。</span><span class="sxs-lookup"><span data-stu-id="0689c-109">None.</span></span>
+<span data-ttu-id="b1a24-109">无。</span><span class="sxs-lookup"><span data-stu-id="b1a24-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="0689c-110">子元素</span><span class="sxs-lookup"><span data-stu-id="0689c-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="b1a24-110">子元素</span><span class="sxs-lookup"><span data-stu-id="b1a24-110">Child elements</span></span>
 
-<span data-ttu-id="0689c-111">[ID （字符串）](id-string.md)  | [TokenType （ClientAccessTokenType）](tokentype-clientaccesstokentype.md)</span><span class="sxs-lookup"><span data-stu-id="0689c-111">[ID (String)](id-string.md) | [TokenType (ClientAccessTokenType)](tokentype-clientaccesstokentype.md)</span></span>
+<span data-ttu-id="b1a24-111">[ID （字符串）](id-string.md)  | [TokenType （ClientAccessTokenType）](tokentype-clientaccesstokentype.md)</span><span class="sxs-lookup"><span data-stu-id="b1a24-111">[ID (String)](id-string.md) | [TokenType (ClientAccessTokenType)](tokentype-clientaccesstokentype.md)</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="0689c-112">父元素</span><span class="sxs-lookup"><span data-stu-id="0689c-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="b1a24-112">父元素</span><span class="sxs-lookup"><span data-stu-id="b1a24-112">Parent elements</span></span>
 
-[<span data-ttu-id="0689c-113">TokenRequests</span><span class="sxs-lookup"><span data-stu-id="0689c-113">TokenRequests</span></span>](tokenrequests.md)
+[<span data-ttu-id="b1a24-113">TokenRequests</span><span class="sxs-lookup"><span data-stu-id="b1a24-113">TokenRequests</span></span>](tokenrequests.md)
   
-## <a name="remarks"></a><span data-ttu-id="0689c-114">备注</span><span class="sxs-lookup"><span data-stu-id="0689c-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b1a24-114">备注</span><span class="sxs-lookup"><span data-stu-id="b1a24-114">Remarks</span></span>
 
-<span data-ttu-id="0689c-115">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="0689c-115">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="b1a24-115">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="b1a24-115">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="0689c-116">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="0689c-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="b1a24-116">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="b1a24-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="0689c-117">元素信息</span><span class="sxs-lookup"><span data-stu-id="0689c-117">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="b1a24-117">元素信息</span><span class="sxs-lookup"><span data-stu-id="b1a24-117">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="0689c-118">命名空间</span><span class="sxs-lookup"><span data-stu-id="0689c-118">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="0689c-119">架构名称</span><span class="sxs-lookup"><span data-stu-id="0689c-119">Schema name</span></span>  <br/> |<span data-ttu-id="0689c-120">类型架构</span><span class="sxs-lookup"><span data-stu-id="0689c-120">Types schema</span></span>  <br/> |
-|<span data-ttu-id="0689c-121">验证文件</span><span class="sxs-lookup"><span data-stu-id="0689c-121">Validation file</span></span>  <br/> |<span data-ttu-id="0689c-122">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="0689c-122">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="0689c-123">可以为空</span><span class="sxs-lookup"><span data-stu-id="0689c-123">Can be empty</span></span>  <br/> |<span data-ttu-id="0689c-124">false</span><span class="sxs-lookup"><span data-stu-id="0689c-124">false</span></span>  <br/> |
+|<span data-ttu-id="b1a24-118">命名空间</span><span class="sxs-lookup"><span data-stu-id="b1a24-118">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="b1a24-119">架构名称</span><span class="sxs-lookup"><span data-stu-id="b1a24-119">Schema name</span></span>  <br/> |<span data-ttu-id="b1a24-120">类型架构</span><span class="sxs-lookup"><span data-stu-id="b1a24-120">Types schema</span></span>  <br/> |
+|<span data-ttu-id="b1a24-121">验证文件</span><span class="sxs-lookup"><span data-stu-id="b1a24-121">Validation file</span></span>  <br/> |<span data-ttu-id="b1a24-122">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="b1a24-122">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="b1a24-123">可以为空</span><span class="sxs-lookup"><span data-stu-id="b1a24-123">Can be empty</span></span>  <br/> |<span data-ttu-id="b1a24-124">false</span><span class="sxs-lookup"><span data-stu-id="b1a24-124">false</span></span>  <br/> |
    
 

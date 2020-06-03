@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 74acdbad-d6ee-47e6-82fb-e45ecaaa0500
-description: EventData 元素表示相关联的事件的处理步骤的数据。
-ms.openlocfilehash: 2bf38cd4fd956580b31b6e455b947066f07f5593
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: EventData 元素表示与事件的处理步骤相关联的数据。
+ms.openlocfilehash: ef5da21a3300a6939c60d62584b46ca48b071853
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754163"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526177"
 ---
-# <a name="eventdata"></a><span data-ttu-id="3694d-103">EventData</span><span class="sxs-lookup"><span data-stu-id="3694d-103">EventData</span></span>
+# <a name="eventdata"></a><span data-ttu-id="35ca5-103">EventData</span><span class="sxs-lookup"><span data-stu-id="35ca5-103">EventData</span></span>
 
-<span data-ttu-id="3694d-104">**EventData**元素表示相关联的事件的处理步骤的数据。</span><span class="sxs-lookup"><span data-stu-id="3694d-104">The **EventData** element represents data that is associated with the processing step for the event.</span></span> 
+<span data-ttu-id="35ca5-104">**EventData**元素表示与事件的处理步骤相关联的数据。</span><span class="sxs-lookup"><span data-stu-id="35ca5-104">The **EventData** element represents data that is associated with the processing step for the event.</span></span> 
   
 ```XML
 <EventData>
@@ -29,47 +29,47 @@ ms.locfileid: "19754163"
 </EventData>
 ```
 
- <span data-ttu-id="3694d-105">**ArrayOfStringsType**</span><span class="sxs-lookup"><span data-stu-id="3694d-105">**ArrayOfStringsType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="3694d-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="3694d-106">Attributes and elements</span></span>
+ <span data-ttu-id="35ca5-105">**ArrayOfStringsType**</span><span class="sxs-lookup"><span data-stu-id="35ca5-105">**ArrayOfStringsType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="35ca5-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="35ca5-106">Attributes and elements</span></span>
 
-<span data-ttu-id="3694d-107">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="3694d-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="35ca5-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="35ca5-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="3694d-108">属性</span><span class="sxs-lookup"><span data-stu-id="3694d-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="35ca5-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="35ca5-108">Attributes</span></span>
 
-<span data-ttu-id="3694d-109">无。</span><span class="sxs-lookup"><span data-stu-id="3694d-109">None.</span></span>
+<span data-ttu-id="35ca5-109">无。</span><span class="sxs-lookup"><span data-stu-id="35ca5-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="3694d-110">子元素</span><span class="sxs-lookup"><span data-stu-id="3694d-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="35ca5-110">子元素</span><span class="sxs-lookup"><span data-stu-id="35ca5-110">Child elements</span></span>
 
-|<span data-ttu-id="3694d-111">**元素**</span><span class="sxs-lookup"><span data-stu-id="3694d-111">**Element**</span></span>|<span data-ttu-id="3694d-112">**说明**</span><span class="sxs-lookup"><span data-stu-id="3694d-112">**Description**</span></span>|
+|<span data-ttu-id="35ca5-111">**元素**</span><span class="sxs-lookup"><span data-stu-id="35ca5-111">**Element**</span></span>|<span data-ttu-id="35ca5-112">**说明**</span><span class="sxs-lookup"><span data-stu-id="35ca5-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="3694d-113">字符串</span><span class="sxs-lookup"><span data-stu-id="3694d-113">String</span></span>](string.md) <br/> |<span data-ttu-id="3694d-114">包含一个字符串，标识事件。</span><span class="sxs-lookup"><span data-stu-id="3694d-114">Contains a string that identifies an event.</span></span>  <br/> |
+|[<span data-ttu-id="35ca5-113">字符串</span><span class="sxs-lookup"><span data-stu-id="35ca5-113">String</span></span>](string.md) <br/> |<span data-ttu-id="35ca5-114">包含用于标识事件的字符串。</span><span class="sxs-lookup"><span data-stu-id="35ca5-114">Contains a string that identifies an event.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="3694d-115">父元素</span><span class="sxs-lookup"><span data-stu-id="3694d-115">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="35ca5-115">父元素</span><span class="sxs-lookup"><span data-stu-id="35ca5-115">Parent elements</span></span>
 
-|<span data-ttu-id="3694d-116">**元素**</span><span class="sxs-lookup"><span data-stu-id="3694d-116">**Element**</span></span>|<span data-ttu-id="3694d-117">**说明**</span><span class="sxs-lookup"><span data-stu-id="3694d-117">**Description**</span></span>|
+|<span data-ttu-id="35ca5-116">**元素**</span><span class="sxs-lookup"><span data-stu-id="35ca5-116">**Element**</span></span>|<span data-ttu-id="35ca5-117">**说明**</span><span class="sxs-lookup"><span data-stu-id="35ca5-117">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="3694d-118">RecipientTrackingEvent</span><span class="sxs-lookup"><span data-stu-id="3694d-118">RecipientTrackingEvent</span></span>](recipienttrackingevent.md) <br/> |<span data-ttu-id="3694d-119">包含收件人为一个事件的信息。</span><span class="sxs-lookup"><span data-stu-id="3694d-119">Contains information for a single event for a recipient.</span></span>  <br/> |
+|[<span data-ttu-id="35ca5-118">RecipientTrackingEvent</span><span class="sxs-lookup"><span data-stu-id="35ca5-118">RecipientTrackingEvent</span></span>](recipienttrackingevent.md) <br/> |<span data-ttu-id="35ca5-119">包含收件人的单个事件的信息。</span><span class="sxs-lookup"><span data-stu-id="35ca5-119">Contains information for a single event for a recipient.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="3694d-120">文本值</span><span class="sxs-lookup"><span data-stu-id="3694d-120">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="35ca5-120">文本值</span><span class="sxs-lookup"><span data-stu-id="35ca5-120">Text value</span></span>
 
-<span data-ttu-id="3694d-121">无。</span><span class="sxs-lookup"><span data-stu-id="3694d-121">None.</span></span>
+<span data-ttu-id="35ca5-121">无。</span><span class="sxs-lookup"><span data-stu-id="35ca5-121">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="3694d-122">备注</span><span class="sxs-lookup"><span data-stu-id="3694d-122">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="35ca5-122">说明</span><span class="sxs-lookup"><span data-stu-id="35ca5-122">Remarks</span></span>
 
-<span data-ttu-id="3694d-123">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="3694d-123">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="35ca5-123">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="35ca5-123">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="3694d-124">元素信息</span><span class="sxs-lookup"><span data-stu-id="3694d-124">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="35ca5-124">元素信息</span><span class="sxs-lookup"><span data-stu-id="35ca5-124">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="3694d-125">命名空间</span><span class="sxs-lookup"><span data-stu-id="3694d-125">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="3694d-126">架构名称</span><span class="sxs-lookup"><span data-stu-id="3694d-126">Schema Name</span></span>  <br/> |<span data-ttu-id="3694d-127">类型架构</span><span class="sxs-lookup"><span data-stu-id="3694d-127">Types schema</span></span>  <br/> |
-|<span data-ttu-id="3694d-128">验证文件</span><span class="sxs-lookup"><span data-stu-id="3694d-128">Validation File</span></span>  <br/> |<span data-ttu-id="3694d-129">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="3694d-129">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="3694d-130">可以为空</span><span class="sxs-lookup"><span data-stu-id="3694d-130">Can be Empty</span></span>  <br/> |<span data-ttu-id="3694d-131">False</span><span class="sxs-lookup"><span data-stu-id="3694d-131">False</span></span>  <br/> |
+|<span data-ttu-id="35ca5-125">命名空间</span><span class="sxs-lookup"><span data-stu-id="35ca5-125">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="35ca5-126">架构名称</span><span class="sxs-lookup"><span data-stu-id="35ca5-126">Schema Name</span></span>  <br/> |<span data-ttu-id="35ca5-127">类型架构</span><span class="sxs-lookup"><span data-stu-id="35ca5-127">Types schema</span></span>  <br/> |
+|<span data-ttu-id="35ca5-128">验证文件</span><span class="sxs-lookup"><span data-stu-id="35ca5-128">Validation File</span></span>  <br/> |<span data-ttu-id="35ca5-129">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="35ca5-129">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="35ca5-130">可以为空</span><span class="sxs-lookup"><span data-stu-id="35ca5-130">Can be Empty</span></span>  <br/> |<span data-ttu-id="35ca5-131">False</span><span class="sxs-lookup"><span data-stu-id="35ca5-131">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="3694d-132">另请参阅</span><span class="sxs-lookup"><span data-stu-id="3694d-132">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="35ca5-132">另请参阅</span><span class="sxs-lookup"><span data-stu-id="35ca5-132">See also</span></span>
 
 
 
-- [<span data-ttu-id="3694d-133">在交换 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="3694d-133">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="35ca5-133">Exchange 中的 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="35ca5-133">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 
