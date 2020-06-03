@@ -16,12 +16,12 @@ ms.openlocfilehash: ceb24bc8b31a7d7313add213c26bef5efd3c89ae
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458213"
 ---
-# <a name="getuseravailabilityresponse"></a><span data-ttu-id="a1e04-103">GetUserAvailabilityResponse</span><span class="sxs-lookup"><span data-stu-id="a1e04-103">GetUserAvailabilityResponse</span></span>
+# <a name="getuseravailabilityresponse"></a><span data-ttu-id="9a3ef-103">GetUserAvailabilityResponse</span><span class="sxs-lookup"><span data-stu-id="9a3ef-103">GetUserAvailabilityResponse</span></span>
 
-<span data-ttu-id="a1e04-104">**GetUserAvailabilityResponse**元素是根元素，其中包含用于定义用户可用性信息或建议的会议时间信息的属性。</span><span class="sxs-lookup"><span data-stu-id="a1e04-104">The **GetUserAvailabilityResponse** element is the root element that contains the properties that define user availability information or suggested meeting time information.</span></span> 
+<span data-ttu-id="9a3ef-104">**GetUserAvailabilityResponse**元素是根元素，其中包含用于定义用户可用性信息或建议的会议时间信息的属性。</span><span class="sxs-lookup"><span data-stu-id="9a3ef-104">The **GetUserAvailabilityResponse** element is the root element that contains the properties that define user availability information or suggested meeting time information.</span></span> 
   
 ```xml
 <GetUserAvailabilityResponse>
@@ -30,33 +30,33 @@ ms.locfileid: "44458213"
 </GetUserAvailabilityResponse>
 ```
 
- <span data-ttu-id="a1e04-105">**GetUserAvailabilityResponseType**</span><span class="sxs-lookup"><span data-stu-id="a1e04-105">**GetUserAvailabilityResponseType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="a1e04-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="a1e04-106">Attributes and elements</span></span>
+ <span data-ttu-id="9a3ef-105">**GetUserAvailabilityResponseType**</span><span class="sxs-lookup"><span data-stu-id="9a3ef-105">**GetUserAvailabilityResponseType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="9a3ef-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="9a3ef-106">Attributes and elements</span></span>
 
-<span data-ttu-id="a1e04-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="a1e04-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="9a3ef-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="9a3ef-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="a1e04-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="a1e04-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="9a3ef-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="9a3ef-108">Attributes</span></span>
 
-<span data-ttu-id="a1e04-109">无。</span><span class="sxs-lookup"><span data-stu-id="a1e04-109">None.</span></span>
+<span data-ttu-id="9a3ef-109">无。</span><span class="sxs-lookup"><span data-stu-id="9a3ef-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="a1e04-110">子元素</span><span class="sxs-lookup"><span data-stu-id="a1e04-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="9a3ef-110">子元素</span><span class="sxs-lookup"><span data-stu-id="9a3ef-110">Child elements</span></span>
 
-|<span data-ttu-id="a1e04-111">**元素**</span><span class="sxs-lookup"><span data-stu-id="a1e04-111">**Element**</span></span>|<span data-ttu-id="a1e04-112">**说明**</span><span class="sxs-lookup"><span data-stu-id="a1e04-112">**Description**</span></span>|
+|<span data-ttu-id="9a3ef-111">**元素**</span><span class="sxs-lookup"><span data-stu-id="9a3ef-111">**Element**</span></span>|<span data-ttu-id="9a3ef-112">**说明**</span><span class="sxs-lookup"><span data-stu-id="9a3ef-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="a1e04-113">FreeBusyResponseArray</span><span class="sxs-lookup"><span data-stu-id="a1e04-113">FreeBusyResponseArray</span></span>](freebusyresponsearray.md) <br/> |<span data-ttu-id="a1e04-114">包含请求的用户的可用性信息和响应状态。</span><span class="sxs-lookup"><span data-stu-id="a1e04-114">Contains the requested users' availability information and the response status.</span></span>  <br/> |
-|[<span data-ttu-id="a1e04-115">SuggestionsResponse</span><span class="sxs-lookup"><span data-stu-id="a1e04-115">SuggestionsResponse</span></span>](suggestionsresponse.md) <br/> |<span data-ttu-id="a1e04-116">包含请求的会议建议的响应状态信息和建议数据。</span><span class="sxs-lookup"><span data-stu-id="a1e04-116">Contains response status information and suggestion data for requested meeting suggestions.</span></span>  <br/> |
+|[<span data-ttu-id="9a3ef-113">FreeBusyResponseArray</span><span class="sxs-lookup"><span data-stu-id="9a3ef-113">FreeBusyResponseArray</span></span>](freebusyresponsearray.md) <br/> |<span data-ttu-id="9a3ef-114">包含请求的用户的可用性信息和响应状态。</span><span class="sxs-lookup"><span data-stu-id="9a3ef-114">Contains the requested users' availability information and the response status.</span></span>  <br/> |
+|[<span data-ttu-id="9a3ef-115">SuggestionsResponse</span><span class="sxs-lookup"><span data-stu-id="9a3ef-115">SuggestionsResponse</span></span>](suggestionsresponse.md) <br/> |<span data-ttu-id="9a3ef-116">包含请求的会议建议的响应状态信息和建议数据。</span><span class="sxs-lookup"><span data-stu-id="9a3ef-116">Contains response status information and suggestion data for requested meeting suggestions.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="a1e04-117">父元素</span><span class="sxs-lookup"><span data-stu-id="a1e04-117">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="9a3ef-117">父元素</span><span class="sxs-lookup"><span data-stu-id="9a3ef-117">Parent elements</span></span>
 
-<span data-ttu-id="a1e04-118">无。</span><span class="sxs-lookup"><span data-stu-id="a1e04-118">None.</span></span>
+<span data-ttu-id="9a3ef-118">无。</span><span class="sxs-lookup"><span data-stu-id="9a3ef-118">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="a1e04-119">说明</span><span class="sxs-lookup"><span data-stu-id="a1e04-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="9a3ef-119">说明</span><span class="sxs-lookup"><span data-stu-id="9a3ef-119">Remarks</span></span>
 
-<span data-ttu-id="a1e04-120">描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="a1e04-120">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="9a3ef-120">描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="9a3ef-120">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
   
-## <a name="example"></a><span data-ttu-id="a1e04-121">示例</span><span class="sxs-lookup"><span data-stu-id="a1e04-121">Example</span></span>
+## <a name="example"></a><span data-ttu-id="9a3ef-121">示例</span><span class="sxs-lookup"><span data-stu-id="9a3ef-121">Example</span></span>
 
-<span data-ttu-id="a1e04-122">以下示例的 GetUserAvailability 响应显示对 GetUserAvailability 请求的响应。</span><span class="sxs-lookup"><span data-stu-id="a1e04-122">The following example of a GetUserAvailability response shows a response to a GetUserAvailability request.</span></span>
+<span data-ttu-id="9a3ef-122">以下示例的 GetUserAvailability 响应显示对 GetUserAvailability 请求的响应。</span><span class="sxs-lookup"><span data-stu-id="9a3ef-122">The following example of a GetUserAvailability response shows a response to a GetUserAvailability request.</span></span>
   
 ```
 <?xml version="1.0" encoding="utf-8" ?>
@@ -118,23 +118,23 @@ ms.locfileid: "44458213"
 </GetUserAvailabilityResponse>
 ```
 
-<span data-ttu-id="a1e04-123">[ID](id.md)元素内容被缩短以保持可读性。</span><span class="sxs-lookup"><span data-stu-id="a1e04-123">The [ID](id.md) element contents were shortened to preserve readability.</span></span> 
+<span data-ttu-id="9a3ef-123">[ID](id.md)元素内容被缩短以保持可读性。</span><span class="sxs-lookup"><span data-stu-id="9a3ef-123">The [ID](id.md) element contents were shortened to preserve readability.</span></span> 
   
-## <a name="element-information"></a><span data-ttu-id="a1e04-124">元素信息</span><span class="sxs-lookup"><span data-stu-id="a1e04-124">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="9a3ef-124">元素信息</span><span class="sxs-lookup"><span data-stu-id="9a3ef-124">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="a1e04-125">命名空间</span><span class="sxs-lookup"><span data-stu-id="a1e04-125">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="a1e04-126">架构名称</span><span class="sxs-lookup"><span data-stu-id="a1e04-126">Schema Name</span></span>  <br/> |<span data-ttu-id="a1e04-127">消息架构</span><span class="sxs-lookup"><span data-stu-id="a1e04-127">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="a1e04-128">验证文件</span><span class="sxs-lookup"><span data-stu-id="a1e04-128">Validation File</span></span>  <br/> |<span data-ttu-id="a1e04-129">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="a1e04-129">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="a1e04-130">可以为空</span><span class="sxs-lookup"><span data-stu-id="a1e04-130">Can be Empty</span></span>  <br/> |<span data-ttu-id="a1e04-131">False</span><span class="sxs-lookup"><span data-stu-id="a1e04-131">False</span></span>  <br/> |
+|<span data-ttu-id="9a3ef-125">命名空间</span><span class="sxs-lookup"><span data-stu-id="9a3ef-125">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="9a3ef-126">架构名称</span><span class="sxs-lookup"><span data-stu-id="9a3ef-126">Schema Name</span></span>  <br/> |<span data-ttu-id="9a3ef-127">消息架构</span><span class="sxs-lookup"><span data-stu-id="9a3ef-127">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="9a3ef-128">验证文件</span><span class="sxs-lookup"><span data-stu-id="9a3ef-128">Validation File</span></span>  <br/> |<span data-ttu-id="9a3ef-129">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="9a3ef-129">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="9a3ef-130">可以为空</span><span class="sxs-lookup"><span data-stu-id="9a3ef-130">Can be Empty</span></span>  <br/> |<span data-ttu-id="9a3ef-131">False</span><span class="sxs-lookup"><span data-stu-id="9a3ef-131">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="a1e04-132">另请参阅</span><span class="sxs-lookup"><span data-stu-id="a1e04-132">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9a3ef-132">另请参阅</span><span class="sxs-lookup"><span data-stu-id="9a3ef-132">See also</span></span>
 
 
 
-[<span data-ttu-id="a1e04-133">GetUserAvailabilityRequest</span><span class="sxs-lookup"><span data-stu-id="a1e04-133">GetUserAvailabilityRequest</span></span>](getuseravailabilityrequest.md)
+[<span data-ttu-id="9a3ef-133">GetUserAvailabilityRequest</span><span class="sxs-lookup"><span data-stu-id="9a3ef-133">GetUserAvailabilityRequest</span></span>](getuseravailabilityrequest.md)
 
 
-[<span data-ttu-id="a1e04-134">Getting User Availability</span><span class="sxs-lookup"><span data-stu-id="a1e04-134">Getting User Availability</span></span>](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[<span data-ttu-id="9a3ef-134">Getting User Availability</span><span class="sxs-lookup"><span data-stu-id="9a3ef-134">Getting User Availability</span></span>](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

@@ -12,12 +12,12 @@ ms.openlocfilehash: d9c0524de04e256e94e279fd1ae0bbfd6a5de0f9
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458115"
 ---
-# <a name="keywordstat"></a><span data-ttu-id="ddc2d-103">KeywordStat</span><span class="sxs-lookup"><span data-stu-id="ddc2d-103">KeywordStat</span></span>
+# <a name="keywordstat"></a><span data-ttu-id="c10ef-103">KeywordStat</span><span class="sxs-lookup"><span data-stu-id="c10ef-103">KeywordStat</span></span>
 
-<span data-ttu-id="ddc2d-104">**KeywordStat**元素指定关键字统计信息。</span><span class="sxs-lookup"><span data-stu-id="ddc2d-104">The **KeywordStat** element specifies keyword statistic information.</span></span> 
+<span data-ttu-id="c10ef-104">**KeywordStat**元素指定关键字统计信息。</span><span class="sxs-lookup"><span data-stu-id="c10ef-104">The **KeywordStat** element specifies keyword statistic information.</span></span> 
   
 ```XML
 <KeywordStat>
@@ -27,27 +27,27 @@ ms.locfileid: "44458115"
 </KeywordStat>
 ```
 
- <span data-ttu-id="ddc2d-105">**KeywordStatisticsSearchResultType**</span><span class="sxs-lookup"><span data-stu-id="ddc2d-105">**KeywordStatisticsSearchResultType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="ddc2d-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="ddc2d-106">Attributes and elements</span></span>
+ <span data-ttu-id="c10ef-105">**KeywordStatisticsSearchResultType**</span><span class="sxs-lookup"><span data-stu-id="c10ef-105">**KeywordStatisticsSearchResultType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="c10ef-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="c10ef-106">Attributes and elements</span></span>
 
-<span data-ttu-id="ddc2d-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="ddc2d-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="c10ef-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="c10ef-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="ddc2d-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="ddc2d-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="c10ef-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="c10ef-108">Attributes</span></span>
 
-<span data-ttu-id="ddc2d-109">无。</span><span class="sxs-lookup"><span data-stu-id="ddc2d-109">None.</span></span>
+<span data-ttu-id="c10ef-109">无。</span><span class="sxs-lookup"><span data-stu-id="c10ef-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="ddc2d-110">子元素</span><span class="sxs-lookup"><span data-stu-id="ddc2d-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="c10ef-110">子元素</span><span class="sxs-lookup"><span data-stu-id="c10ef-110">Child elements</span></span>
 
-<span data-ttu-id="ddc2d-111">[关键字](keyword.md)  | [ItemHits](itemhits.md)  | [大小（long）](size-long.md)</span><span class="sxs-lookup"><span data-stu-id="ddc2d-111">[Keyword](keyword.md) | [ItemHits](itemhits.md) | [Size (long)](size-long.md)</span></span>
+<span data-ttu-id="c10ef-111">[关键字](keyword.md)  | [ItemHits](itemhits.md)  | [大小（long）](size-long.md)</span><span class="sxs-lookup"><span data-stu-id="c10ef-111">[Keyword](keyword.md) | [ItemHits](itemhits.md) | [Size (long)](size-long.md)</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="ddc2d-112">父元素</span><span class="sxs-lookup"><span data-stu-id="ddc2d-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="c10ef-112">父元素</span><span class="sxs-lookup"><span data-stu-id="c10ef-112">Parent elements</span></span>
 
-[<span data-ttu-id="ddc2d-113">KeywordStats</span><span class="sxs-lookup"><span data-stu-id="ddc2d-113">KeywordStats</span></span>](keywordstats.md)
+[<span data-ttu-id="c10ef-113">KeywordStats</span><span class="sxs-lookup"><span data-stu-id="c10ef-113">KeywordStats</span></span>](keywordstats.md)
   
-## <a name="remarks"></a><span data-ttu-id="ddc2d-114">备注</span><span class="sxs-lookup"><span data-stu-id="ddc2d-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c10ef-114">备注</span><span class="sxs-lookup"><span data-stu-id="c10ef-114">Remarks</span></span>
 
-<span data-ttu-id="ddc2d-115">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="ddc2d-115">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="c10ef-115">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="c10ef-115">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="ddc2d-116">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="ddc2d-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="c10ef-116">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="c10ef-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
 

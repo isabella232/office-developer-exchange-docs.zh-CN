@@ -16,12 +16,12 @@ ms.openlocfilehash: c3381979e5e6aad51f9ae2bb3e661003ef793be6
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458759"
 ---
-# <a name="externalreply"></a><span data-ttu-id="d34a3-103">ExternalReply</span><span class="sxs-lookup"><span data-stu-id="d34a3-103">ExternalReply</span></span>
+# <a name="externalreply"></a><span data-ttu-id="84f9c-103">ExternalReply</span><span class="sxs-lookup"><span data-stu-id="84f9c-103">ExternalReply</span></span>
 
-<span data-ttu-id="d34a3-104">**ExternalReply**元素包含向收件人域或受信任域外部的地址发送的外出（OOF）响应。</span><span class="sxs-lookup"><span data-stu-id="d34a3-104">The **ExternalReply** element contains the out of office (OOF) response that is sent to addresses outside the recipient's domain or trusted domains.</span></span> 
+<span data-ttu-id="84f9c-104">**ExternalReply**元素包含向收件人域或受信任域外部的地址发送的外出（OOF）响应。</span><span class="sxs-lookup"><span data-stu-id="84f9c-104">The **ExternalReply** element contains the out of office (OOF) response that is sent to addresses outside the recipient's domain or trusted domains.</span></span> 
   
 ```XML
 <ExternalReply>
@@ -29,37 +29,37 @@ ms.locfileid: "44458759"
 </ExternalReply>
 ```
 
- <span data-ttu-id="d34a3-105">**ReplyBody**</span><span class="sxs-lookup"><span data-stu-id="d34a3-105">**ReplyBody**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="d34a3-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="d34a3-106">Attributes and elements</span></span>
+ <span data-ttu-id="84f9c-105">**ReplyBody**</span><span class="sxs-lookup"><span data-stu-id="84f9c-105">**ReplyBody**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="84f9c-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="84f9c-106">Attributes and elements</span></span>
 
-<span data-ttu-id="d34a3-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="d34a3-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="84f9c-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="84f9c-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="d34a3-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="d34a3-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="84f9c-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="84f9c-108">Attributes</span></span>
 
-|<span data-ttu-id="d34a3-109">**属性**</span><span class="sxs-lookup"><span data-stu-id="d34a3-109">**Attribute**</span></span>|<span data-ttu-id="d34a3-110">**说明**</span><span class="sxs-lookup"><span data-stu-id="d34a3-110">**Description**</span></span>|
+|<span data-ttu-id="84f9c-109">**属性**</span><span class="sxs-lookup"><span data-stu-id="84f9c-109">**Attribute**</span></span>|<span data-ttu-id="84f9c-110">**说明**</span><span class="sxs-lookup"><span data-stu-id="84f9c-110">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="d34a3-111">xml： lang</span><span class="sxs-lookup"><span data-stu-id="d34a3-111">xml:lang</span></span>  <br/> |<span data-ttu-id="d34a3-112">指定在**ExternalReply**消息中使用的语言。</span><span class="sxs-lookup"><span data-stu-id="d34a3-112">Specifies the language used in the **ExternalReply** message.</span></span> <span data-ttu-id="d34a3-113">此属性的可能值由 IETF RFC 3066 定义。</span><span class="sxs-lookup"><span data-stu-id="d34a3-113">The possible values for this attribute are defined by IETF RFC 3066.</span></span>  <br/> |
+|<span data-ttu-id="84f9c-111">xml： lang</span><span class="sxs-lookup"><span data-stu-id="84f9c-111">xml:lang</span></span>  <br/> |<span data-ttu-id="84f9c-112">指定在**ExternalReply**消息中使用的语言。</span><span class="sxs-lookup"><span data-stu-id="84f9c-112">Specifies the language used in the **ExternalReply** message.</span></span> <span data-ttu-id="84f9c-113">此属性的可能值由 IETF RFC 3066 定义。</span><span class="sxs-lookup"><span data-stu-id="84f9c-113">The possible values for this attribute are defined by IETF RFC 3066.</span></span>  <br/> |
    
-### <a name="child-elements"></a><span data-ttu-id="d34a3-114">子元素</span><span class="sxs-lookup"><span data-stu-id="d34a3-114">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="84f9c-114">子元素</span><span class="sxs-lookup"><span data-stu-id="84f9c-114">Child elements</span></span>
 
-|<span data-ttu-id="d34a3-115">**元素**</span><span class="sxs-lookup"><span data-stu-id="d34a3-115">**Element**</span></span>|<span data-ttu-id="d34a3-116">**说明**</span><span class="sxs-lookup"><span data-stu-id="d34a3-116">**Description**</span></span>|
+|<span data-ttu-id="84f9c-115">**元素**</span><span class="sxs-lookup"><span data-stu-id="84f9c-115">**Element**</span></span>|<span data-ttu-id="84f9c-116">**说明**</span><span class="sxs-lookup"><span data-stu-id="84f9c-116">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="d34a3-117">邮件（可用性）</span><span class="sxs-lookup"><span data-stu-id="d34a3-117">Message (Availability)</span></span>](message-availability.md) <br/> |<span data-ttu-id="d34a3-118">包含 OOF 响应。</span><span class="sxs-lookup"><span data-stu-id="d34a3-118">Contains the OOF response.</span></span>  <br/> |
+|[<span data-ttu-id="84f9c-117">邮件（可用性）</span><span class="sxs-lookup"><span data-stu-id="84f9c-117">Message (Availability)</span></span>](message-availability.md) <br/> |<span data-ttu-id="84f9c-118">包含 OOF 响应。</span><span class="sxs-lookup"><span data-stu-id="84f9c-118">Contains the OOF response.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="d34a3-119">父元素</span><span class="sxs-lookup"><span data-stu-id="d34a3-119">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="84f9c-119">父元素</span><span class="sxs-lookup"><span data-stu-id="84f9c-119">Parent elements</span></span>
 
-|<span data-ttu-id="d34a3-120">**元素**</span><span class="sxs-lookup"><span data-stu-id="d34a3-120">**Element**</span></span>|<span data-ttu-id="d34a3-121">**说明**</span><span class="sxs-lookup"><span data-stu-id="d34a3-121">**Description**</span></span>|
+|<span data-ttu-id="84f9c-120">**元素**</span><span class="sxs-lookup"><span data-stu-id="84f9c-120">**Element**</span></span>|<span data-ttu-id="84f9c-121">**说明**</span><span class="sxs-lookup"><span data-stu-id="84f9c-121">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="d34a3-122">UserOofSettings</span><span class="sxs-lookup"><span data-stu-id="d34a3-122">UserOofSettings</span></span>](useroofsettings.md) <br/> |<span data-ttu-id="d34a3-123">指定 OOF 设置。</span><span class="sxs-lookup"><span data-stu-id="d34a3-123">Specifies the OOF settings.</span></span>  <br/> <span data-ttu-id="d34a3-124">下面是此元素的 XPath 表达式： </span><span class="sxs-lookup"><span data-stu-id="d34a3-124">The following is the XPath expression to this element:</span></span>  <br/>  `/SetUserOofSettingsRequest/UserOofSettings` <br/> |
-|[<span data-ttu-id="d34a3-125">OofSettings</span><span class="sxs-lookup"><span data-stu-id="d34a3-125">OofSettings</span></span>](oofsettings.md) <br/> |<span data-ttu-id="d34a3-126">包含 OOF 设置。</span><span class="sxs-lookup"><span data-stu-id="d34a3-126">Contains the OOF settings.</span></span>  <br/> <span data-ttu-id="d34a3-127">下面是此元素的 XPath 表达式： </span><span class="sxs-lookup"><span data-stu-id="d34a3-127">The following is the XPath expression to this element:</span></span>  <br/>  `/GetUserOofSettingsResponse/OofSettings` <br/> |
+|[<span data-ttu-id="84f9c-122">UserOofSettings</span><span class="sxs-lookup"><span data-stu-id="84f9c-122">UserOofSettings</span></span>](useroofsettings.md) <br/> |<span data-ttu-id="84f9c-123">指定 OOF 设置。</span><span class="sxs-lookup"><span data-stu-id="84f9c-123">Specifies the OOF settings.</span></span>  <br/> <span data-ttu-id="84f9c-124">下面是此元素的 XPath 表达式： </span><span class="sxs-lookup"><span data-stu-id="84f9c-124">The following is the XPath expression to this element:</span></span>  <br/>  `/SetUserOofSettingsRequest/UserOofSettings` <br/> |
+|[<span data-ttu-id="84f9c-125">OofSettings</span><span class="sxs-lookup"><span data-stu-id="84f9c-125">OofSettings</span></span>](oofsettings.md) <br/> |<span data-ttu-id="84f9c-126">包含 OOF 设置。</span><span class="sxs-lookup"><span data-stu-id="84f9c-126">Contains the OOF settings.</span></span>  <br/> <span data-ttu-id="84f9c-127">下面是此元素的 XPath 表达式： </span><span class="sxs-lookup"><span data-stu-id="84f9c-127">The following is the XPath expression to this element:</span></span>  <br/>  `/GetUserOofSettingsResponse/OofSettings` <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="d34a3-128">说明</span><span class="sxs-lookup"><span data-stu-id="d34a3-128">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="84f9c-128">说明</span><span class="sxs-lookup"><span data-stu-id="84f9c-128">Remarks</span></span>
 
-<span data-ttu-id="d34a3-129">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="d34a3-129">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="84f9c-129">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="84f9c-129">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="example"></a><span data-ttu-id="d34a3-130">示例</span><span class="sxs-lookup"><span data-stu-id="d34a3-130">Example</span></span>
+## <a name="example"></a><span data-ttu-id="84f9c-130">示例</span><span class="sxs-lookup"><span data-stu-id="84f9c-130">Example</span></span>
 
-<span data-ttu-id="d34a3-131">以下示例的 SetUserOofSettings 请求将[OofState](oofstate.md)设置为 "**启用**"，将 "OOF" 的持续时间设置为10天，并设置内部和外部 OOF 邮件。</span><span class="sxs-lookup"><span data-stu-id="d34a3-131">The following example of a SetUserOofSettings request sets the [OofState](oofstate.md) to **Enabled**, sets the duration of OOF to 10 days, and sets the internal and external OOF messages.</span></span>
+<span data-ttu-id="84f9c-131">以下示例的 SetUserOofSettings 请求将[OofState](oofstate.md)设置为 "**启用**"，将 "OOF" 的持续时间设置为10天，并设置内部和外部 OOF 邮件。</span><span class="sxs-lookup"><span data-stu-id="84f9c-131">The following example of a SetUserOofSettings request sets the [OofState](oofstate.md) to **Enabled**, sets the duration of OOF to 10 days, and sets the internal and external OOF messages.</span></span>
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -90,18 +90,18 @@ ms.locfileid: "44458759"
 </soap:Envelope>
 ```
 
-## <a name="element-information"></a><span data-ttu-id="d34a3-132">元素信息</span><span class="sxs-lookup"><span data-stu-id="d34a3-132">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="84f9c-132">元素信息</span><span class="sxs-lookup"><span data-stu-id="84f9c-132">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="d34a3-133">命名空间</span><span class="sxs-lookup"><span data-stu-id="d34a3-133">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="d34a3-134">架构名称</span><span class="sxs-lookup"><span data-stu-id="d34a3-134">Schema Name</span></span>  <br/> |<span data-ttu-id="d34a3-135">类型架构</span><span class="sxs-lookup"><span data-stu-id="d34a3-135">Types schema</span></span>  <br/> |
-|<span data-ttu-id="d34a3-136">验证文件</span><span class="sxs-lookup"><span data-stu-id="d34a3-136">Validation File</span></span>  <br/> |<span data-ttu-id="d34a3-137">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="d34a3-137">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="d34a3-138">可以为空</span><span class="sxs-lookup"><span data-stu-id="d34a3-138">Can be Empty</span></span>  <br/> |<span data-ttu-id="d34a3-139">False</span><span class="sxs-lookup"><span data-stu-id="d34a3-139">False</span></span>  <br/> |
+|<span data-ttu-id="84f9c-133">命名空间</span><span class="sxs-lookup"><span data-stu-id="84f9c-133">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="84f9c-134">架构名称</span><span class="sxs-lookup"><span data-stu-id="84f9c-134">Schema Name</span></span>  <br/> |<span data-ttu-id="84f9c-135">类型架构</span><span class="sxs-lookup"><span data-stu-id="84f9c-135">Types schema</span></span>  <br/> |
+|<span data-ttu-id="84f9c-136">验证文件</span><span class="sxs-lookup"><span data-stu-id="84f9c-136">Validation File</span></span>  <br/> |<span data-ttu-id="84f9c-137">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="84f9c-137">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="84f9c-138">可以为空</span><span class="sxs-lookup"><span data-stu-id="84f9c-138">Can be Empty</span></span>  <br/> |<span data-ttu-id="84f9c-139">False</span><span class="sxs-lookup"><span data-stu-id="84f9c-139">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="d34a3-140">另请参阅</span><span class="sxs-lookup"><span data-stu-id="d34a3-140">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="84f9c-140">另请参阅</span><span class="sxs-lookup"><span data-stu-id="84f9c-140">See also</span></span>
 
 
 
-[<span data-ttu-id="d34a3-141">SetUserOofSettings 操作</span><span class="sxs-lookup"><span data-stu-id="d34a3-141">SetUserOofSettings operation</span></span>](setuseroofsettings-operation.md)
+[<span data-ttu-id="84f9c-141">SetUserOofSettings 操作</span><span class="sxs-lookup"><span data-stu-id="84f9c-141">SetUserOofSettings operation</span></span>](setuseroofsettings-operation.md)
 

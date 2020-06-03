@@ -16,20 +16,20 @@ ms.openlocfilehash: fb28e88d1a47b0ea8f63ed33b1efacae8538e1c8
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458206"
 ---
-# <a name="getuserconfiguration-operation"></a><span data-ttu-id="13b09-103">GetUserConfiguration 操作</span><span class="sxs-lookup"><span data-stu-id="13b09-103">GetUserConfiguration operation</span></span>
+# <a name="getuserconfiguration-operation"></a><span data-ttu-id="66845-103">GetUserConfiguration 操作</span><span class="sxs-lookup"><span data-stu-id="66845-103">GetUserConfiguration operation</span></span>
 
-<span data-ttu-id="13b09-104">**GetUserConfiguration**操作从文件夹中获取用户配置对象。</span><span class="sxs-lookup"><span data-stu-id="13b09-104">The **GetUserConfiguration** operation gets a user configuration object from a folder.</span></span> 
+<span data-ttu-id="66845-104">**GetUserConfiguration**操作从文件夹中获取用户配置对象。</span><span class="sxs-lookup"><span data-stu-id="66845-104">The **GetUserConfiguration** operation gets a user configuration object from a folder.</span></span> 
   
-## <a name="getuserconfiguration-request-example"></a><span data-ttu-id="13b09-105">GetUserConfiguration 请求示例</span><span class="sxs-lookup"><span data-stu-id="13b09-105">GetUserConfiguration request example</span></span>
+## <a name="getuserconfiguration-request-example"></a><span data-ttu-id="66845-105">GetUserConfiguration 请求示例</span><span class="sxs-lookup"><span data-stu-id="66845-105">GetUserConfiguration request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="13b09-106">说明</span><span class="sxs-lookup"><span data-stu-id="13b09-106">Description</span></span>
+### <a name="description"></a><span data-ttu-id="66845-106">Description</span><span class="sxs-lookup"><span data-stu-id="66845-106">Description</span></span>
 
-<span data-ttu-id="13b09-107">以下示例的**GetUserConfiguration**请求显示如何在 "草稿" 文件夹中形成获取用户配置对象的请求。</span><span class="sxs-lookup"><span data-stu-id="13b09-107">The following example of a **GetUserConfiguration** request shows how to form a request to get a user configuration object on the Drafts folder.</span></span> 
+<span data-ttu-id="66845-107">以下示例的**GetUserConfiguration**请求显示如何在 "草稿" 文件夹中形成获取用户配置对象的请求。</span><span class="sxs-lookup"><span data-stu-id="66845-107">The following example of a **GetUserConfiguration** request shows how to form a request to get a user configuration object on the Drafts folder.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="13b09-108">代码</span><span class="sxs-lookup"><span data-stu-id="13b09-108">Code</span></span>
+### <a name="code"></a><span data-ttu-id="66845-108">代码</span><span class="sxs-lookup"><span data-stu-id="66845-108">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -52,13 +52,13 @@ ms.locfileid: "44458206"
 </soap:Envelope>
 ```
 
-## <a name="getuserconfiguration-response-example"></a><span data-ttu-id="13b09-109">GetUserConfiguration 响应示例</span><span class="sxs-lookup"><span data-stu-id="13b09-109">GetUserConfiguration response example</span></span>
+## <a name="getuserconfiguration-response-example"></a><span data-ttu-id="66845-109">GetUserConfiguration 响应示例</span><span class="sxs-lookup"><span data-stu-id="66845-109">GetUserConfiguration response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="13b09-110">说明</span><span class="sxs-lookup"><span data-stu-id="13b09-110">Description</span></span>
+### <a name="description"></a><span data-ttu-id="66845-110">Description</span><span class="sxs-lookup"><span data-stu-id="66845-110">Description</span></span>
 
-<span data-ttu-id="13b09-111">下面的示例演示对**GetUserConfiguration**请求的成功响应。</span><span class="sxs-lookup"><span data-stu-id="13b09-111">The following example shows a successful response to the **GetUserConfiguration** request.</span></span> 
+<span data-ttu-id="66845-111">下面的示例演示对**GetUserConfiguration**请求的成功响应。</span><span class="sxs-lookup"><span data-stu-id="66845-111">The following example shows a successful response to the **GetUserConfiguration** request.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="13b09-112">代码</span><span class="sxs-lookup"><span data-stu-id="13b09-112">Code</span></span>
+### <a name="code"></a><span data-ttu-id="66845-112">代码</span><span class="sxs-lookup"><span data-stu-id="66845-112">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -106,11 +106,11 @@ ms.locfileid: "44458206"
 </s:Envelope>
 ```
 
-## <a name="see-also"></a><span data-ttu-id="13b09-113">另请参阅</span><span class="sxs-lookup"><span data-stu-id="13b09-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="66845-113">另请参阅</span><span class="sxs-lookup"><span data-stu-id="66845-113">See also</span></span>
 
 
 
-[<span data-ttu-id="13b09-114">Exchange 中的 EWS 操作</span><span class="sxs-lookup"><span data-stu-id="13b09-114">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
+[<span data-ttu-id="66845-114">Exchange 中的 EWS 操作</span><span class="sxs-lookup"><span data-stu-id="66845-114">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
   
-- [<span data-ttu-id="13b09-115">Exchange 中的 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="13b09-115">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="66845-115">Exchange 中的 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="66845-115">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 
