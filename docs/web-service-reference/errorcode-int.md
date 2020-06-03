@@ -12,58 +12,58 @@ ms.openlocfilehash: 24170a56e5fa23c3811fcbd27f0240e6ba3c87b7
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460664"
 ---
-# <a name="errorcode-int"></a><span data-ttu-id="dc298-103">错误代码 (int)</span><span class="sxs-lookup"><span data-stu-id="dc298-103">ErrorCode (int)</span></span>
+# <a name="errorcode-int"></a><span data-ttu-id="6b1ea-103">错误代码 (int)</span><span class="sxs-lookup"><span data-stu-id="6b1ea-103">ErrorCode (int)</span></span>
 
-<span data-ttu-id="dc298-104">**ErrorCode**元素指定对邮箱执行的失败的搜索的错误代码。</span><span class="sxs-lookup"><span data-stu-id="dc298-104">The **ErrorCode** element specifies the error code of a failed search performed against a mailbox.</span></span> 
+<span data-ttu-id="6b1ea-104">**ErrorCode**元素指定对邮箱执行的失败的搜索的错误代码。</span><span class="sxs-lookup"><span data-stu-id="6b1ea-104">The **ErrorCode** element specifies the error code of a failed search performed against a mailbox.</span></span> 
   
 ```XML
 <ErrorCode></ErrorCode>
 ```
 
- <span data-ttu-id="dc298-105">**int**</span><span class="sxs-lookup"><span data-stu-id="dc298-105">**int**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="dc298-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="dc298-106">Attributes and elements</span></span>
+ <span data-ttu-id="6b1ea-105">**int**</span><span class="sxs-lookup"><span data-stu-id="6b1ea-105">**int**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="6b1ea-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="6b1ea-106">Attributes and elements</span></span>
 
-<span data-ttu-id="dc298-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="dc298-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="6b1ea-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="6b1ea-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="dc298-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="dc298-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="6b1ea-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="6b1ea-108">Attributes</span></span>
 
-<span data-ttu-id="dc298-109">无。</span><span class="sxs-lookup"><span data-stu-id="dc298-109">None.</span></span>
+<span data-ttu-id="6b1ea-109">无。</span><span class="sxs-lookup"><span data-stu-id="6b1ea-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="dc298-110">子元素</span><span class="sxs-lookup"><span data-stu-id="dc298-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="6b1ea-110">子元素</span><span class="sxs-lookup"><span data-stu-id="6b1ea-110">Child elements</span></span>
 
-<span data-ttu-id="dc298-111">无。</span><span class="sxs-lookup"><span data-stu-id="dc298-111">None.</span></span>
+<span data-ttu-id="6b1ea-111">无。</span><span class="sxs-lookup"><span data-stu-id="6b1ea-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="dc298-112">父元素</span><span class="sxs-lookup"><span data-stu-id="dc298-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="6b1ea-112">父元素</span><span class="sxs-lookup"><span data-stu-id="6b1ea-112">Parent elements</span></span>
 
-|<span data-ttu-id="dc298-113">**元素**</span><span class="sxs-lookup"><span data-stu-id="dc298-113">**Element**</span></span>|<span data-ttu-id="dc298-114">**说明**</span><span class="sxs-lookup"><span data-stu-id="dc298-114">**Description**</span></span>|
+|<span data-ttu-id="6b1ea-113">**元素**</span><span class="sxs-lookup"><span data-stu-id="6b1ea-113">**Element**</span></span>|<span data-ttu-id="6b1ea-114">**说明**</span><span class="sxs-lookup"><span data-stu-id="6b1ea-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="dc298-115">FailedMailbox</span><span class="sxs-lookup"><span data-stu-id="dc298-115">FailedMailbox</span></span>](failedmailbox.md) <br/> |<span data-ttu-id="dc298-116">指定邮箱的保留状态。</span><span class="sxs-lookup"><span data-stu-id="dc298-116">Specifies the hold status of the mailbox.</span></span>  <br/> |
+|[<span data-ttu-id="6b1ea-115">FailedMailbox</span><span class="sxs-lookup"><span data-stu-id="6b1ea-115">FailedMailbox</span></span>](failedmailbox.md) <br/> |<span data-ttu-id="6b1ea-116">指定邮箱的保留状态。</span><span class="sxs-lookup"><span data-stu-id="6b1ea-116">Specifies the hold status of the mailbox.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="dc298-117">文本值</span><span class="sxs-lookup"><span data-stu-id="dc298-117">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="6b1ea-117">文本值</span><span class="sxs-lookup"><span data-stu-id="6b1ea-117">Text value</span></span>
 
-<span data-ttu-id="dc298-118">**ErrorCode**元素的文本值是针对邮箱执行的失败的搜索返回的错误代码。</span><span class="sxs-lookup"><span data-stu-id="dc298-118">The text value of the **ErrorCode** element is the error code returned for a failed search performed against a mailbox.</span></span> 
+<span data-ttu-id="6b1ea-118">**ErrorCode**元素的文本值是针对邮箱执行的失败的搜索返回的错误代码。</span><span class="sxs-lookup"><span data-stu-id="6b1ea-118">The text value of the **ErrorCode** element is the error code returned for a failed search performed against a mailbox.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="dc298-119">备注</span><span class="sxs-lookup"><span data-stu-id="dc298-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6b1ea-119">备注</span><span class="sxs-lookup"><span data-stu-id="6b1ea-119">Remarks</span></span>
 
-<span data-ttu-id="dc298-120">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="dc298-120">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="6b1ea-120">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="6b1ea-120">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="dc298-121">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="dc298-121">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="6b1ea-121">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="6b1ea-121">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="dc298-122">元素信息</span><span class="sxs-lookup"><span data-stu-id="dc298-122">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="6b1ea-122">元素信息</span><span class="sxs-lookup"><span data-stu-id="6b1ea-122">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="dc298-123">命名空间</span><span class="sxs-lookup"><span data-stu-id="dc298-123">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="dc298-124">架构名称</span><span class="sxs-lookup"><span data-stu-id="dc298-124">Schema Name</span></span>  <br/> |<span data-ttu-id="dc298-125">类型架构</span><span class="sxs-lookup"><span data-stu-id="dc298-125">Type schema</span></span>  <br/> |
-|<span data-ttu-id="dc298-126">验证文件</span><span class="sxs-lookup"><span data-stu-id="dc298-126">Validation File</span></span>  <br/> |<span data-ttu-id="dc298-127">类型 .xsd</span><span class="sxs-lookup"><span data-stu-id="dc298-127">types.xsd</span></span>  <br/> |
-|<span data-ttu-id="dc298-128">可以为空</span><span class="sxs-lookup"><span data-stu-id="dc298-128">Can Be Empty</span></span>  <br/> ||
+|<span data-ttu-id="6b1ea-123">命名空间</span><span class="sxs-lookup"><span data-stu-id="6b1ea-123">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="6b1ea-124">架构名称</span><span class="sxs-lookup"><span data-stu-id="6b1ea-124">Schema Name</span></span>  <br/> |<span data-ttu-id="6b1ea-125">类型架构</span><span class="sxs-lookup"><span data-stu-id="6b1ea-125">Type schema</span></span>  <br/> |
+|<span data-ttu-id="6b1ea-126">验证文件</span><span class="sxs-lookup"><span data-stu-id="6b1ea-126">Validation File</span></span>  <br/> |<span data-ttu-id="6b1ea-127">类型 .xsd</span><span class="sxs-lookup"><span data-stu-id="6b1ea-127">types.xsd</span></span>  <br/> |
+|<span data-ttu-id="6b1ea-128">可以为空</span><span class="sxs-lookup"><span data-stu-id="6b1ea-128">Can Be Empty</span></span>  <br/> ||
    
-## <a name="see-also"></a><span data-ttu-id="dc298-129">另请参阅</span><span class="sxs-lookup"><span data-stu-id="dc298-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6b1ea-129">另请参阅</span><span class="sxs-lookup"><span data-stu-id="6b1ea-129">See also</span></span>
 
 
 
-- [<span data-ttu-id="dc298-130">Exchange 中的 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="dc298-130">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="6b1ea-130">Exchange 中的 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="6b1ea-130">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

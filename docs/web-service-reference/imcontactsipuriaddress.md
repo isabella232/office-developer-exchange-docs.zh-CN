@@ -12,51 +12,51 @@ ms.openlocfilehash: 07eff4ef597b689f65241622677e4e4afc9300be
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460706"
 ---
-# <a name="imcontactsipuriaddress"></a><span data-ttu-id="1cb9f-103">ImContactSipUriAddress</span><span class="sxs-lookup"><span data-stu-id="1cb9f-103">ImContactSipUriAddress</span></span>
+# <a name="imcontactsipuriaddress"></a><span data-ttu-id="1a8d6-103">ImContactSipUriAddress</span><span class="sxs-lookup"><span data-stu-id="1a8d6-103">ImContactSipUriAddress</span></span>
 
-<span data-ttu-id="1cb9f-104">**ImContactSipUriAddress**元素包含添加到即时消息（IM）组的联系人的 SIP URI 地址。</span><span class="sxs-lookup"><span data-stu-id="1cb9f-104">The **ImContactSipUriAddress** element contains the SIP URI address of a contact that is added to an instant messaging (IM) group.</span></span> 
+<span data-ttu-id="1a8d6-104">**ImContactSipUriAddress**元素包含添加到即时消息（IM）组的联系人的 SIP URI 地址。</span><span class="sxs-lookup"><span data-stu-id="1a8d6-104">The **ImContactSipUriAddress** element contains the SIP URI address of a contact that is added to an instant messaging (IM) group.</span></span> 
   
 ```XML
 <ImContactSipUriAddress></ImContactSipUriAddress>
 ```
 
- <span data-ttu-id="1cb9f-105">**NonEmptyStringType**</span><span class="sxs-lookup"><span data-stu-id="1cb9f-105">**NonEmptyStringType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="1cb9f-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="1cb9f-106">Attributes and elements</span></span>
+ <span data-ttu-id="1a8d6-105">**NonEmptyStringType**</span><span class="sxs-lookup"><span data-stu-id="1a8d6-105">**NonEmptyStringType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="1a8d6-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="1a8d6-106">Attributes and elements</span></span>
 
-<span data-ttu-id="1cb9f-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="1cb9f-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="1a8d6-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="1a8d6-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="1cb9f-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="1cb9f-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="1a8d6-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="1a8d6-108">Attributes</span></span>
 
-<span data-ttu-id="1cb9f-109">无。</span><span class="sxs-lookup"><span data-stu-id="1cb9f-109">None.</span></span>
+<span data-ttu-id="1a8d6-109">无。</span><span class="sxs-lookup"><span data-stu-id="1a8d6-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="1cb9f-110">子元素</span><span class="sxs-lookup"><span data-stu-id="1cb9f-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="1a8d6-110">子元素</span><span class="sxs-lookup"><span data-stu-id="1a8d6-110">Child elements</span></span>
 
-<span data-ttu-id="1cb9f-111">无。</span><span class="sxs-lookup"><span data-stu-id="1cb9f-111">None.</span></span>
+<span data-ttu-id="1a8d6-111">无。</span><span class="sxs-lookup"><span data-stu-id="1a8d6-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="1cb9f-112">父元素</span><span class="sxs-lookup"><span data-stu-id="1cb9f-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="1a8d6-112">父元素</span><span class="sxs-lookup"><span data-stu-id="1a8d6-112">Parent elements</span></span>
 
-[<span data-ttu-id="1cb9f-113">AddNewTelUriContactToGroup</span><span class="sxs-lookup"><span data-stu-id="1cb9f-113">AddNewTelUriContactToGroup</span></span>](addnewteluricontacttogroup.md)
+[<span data-ttu-id="1a8d6-113">AddNewTelUriContactToGroup</span><span class="sxs-lookup"><span data-stu-id="1a8d6-113">AddNewTelUriContactToGroup</span></span>](addnewteluricontacttogroup.md)
   
-## <a name="text-value"></a><span data-ttu-id="1cb9f-114">文本值</span><span class="sxs-lookup"><span data-stu-id="1cb9f-114">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="1a8d6-114">文本值</span><span class="sxs-lookup"><span data-stu-id="1a8d6-114">Text value</span></span>
 
-<span data-ttu-id="1cb9f-115">**ImContactSipUriAddress**元素的文本值是联系人的 SIP URI 地址。</span><span class="sxs-lookup"><span data-stu-id="1cb9f-115">The text value of the **ImContactSipUriAddress** element is the SIP URI address of a contact.</span></span> 
+<span data-ttu-id="1a8d6-115">**ImContactSipUriAddress**元素的文本值是联系人的 SIP URI 地址。</span><span class="sxs-lookup"><span data-stu-id="1a8d6-115">The text value of the **ImContactSipUriAddress** element is the SIP URI address of a contact.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="1cb9f-116">备注</span><span class="sxs-lookup"><span data-stu-id="1cb9f-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1a8d6-116">备注</span><span class="sxs-lookup"><span data-stu-id="1a8d6-116">Remarks</span></span>
 
-<span data-ttu-id="1cb9f-117">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="1cb9f-117">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="1a8d6-117">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="1a8d6-117">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="1cb9f-118">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="1cb9f-118">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="1a8d6-118">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="1a8d6-118">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="1cb9f-119">元素信息</span><span class="sxs-lookup"><span data-stu-id="1cb9f-119">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="1a8d6-119">元素信息</span><span class="sxs-lookup"><span data-stu-id="1a8d6-119">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="1cb9f-120">命名空间</span><span class="sxs-lookup"><span data-stu-id="1cb9f-120">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="1cb9f-121">架构名称</span><span class="sxs-lookup"><span data-stu-id="1cb9f-121">Schema name</span></span>  <br/> |<span data-ttu-id="1cb9f-122">消息架构</span><span class="sxs-lookup"><span data-stu-id="1cb9f-122">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="1cb9f-123">验证文件</span><span class="sxs-lookup"><span data-stu-id="1cb9f-123">Validation file</span></span>  <br/> |<span data-ttu-id="1cb9f-124">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="1cb9f-124">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="1cb9f-125">可以为空</span><span class="sxs-lookup"><span data-stu-id="1cb9f-125">Can be empty</span></span>  <br/> |<span data-ttu-id="1cb9f-126">False</span><span class="sxs-lookup"><span data-stu-id="1cb9f-126">False</span></span>  <br/> |
+|<span data-ttu-id="1a8d6-120">命名空间</span><span class="sxs-lookup"><span data-stu-id="1a8d6-120">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="1a8d6-121">架构名称</span><span class="sxs-lookup"><span data-stu-id="1a8d6-121">Schema name</span></span>  <br/> |<span data-ttu-id="1a8d6-122">消息架构</span><span class="sxs-lookup"><span data-stu-id="1a8d6-122">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="1a8d6-123">验证文件</span><span class="sxs-lookup"><span data-stu-id="1a8d6-123">Validation file</span></span>  <br/> |<span data-ttu-id="1a8d6-124">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="1a8d6-124">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="1a8d6-125">可以为空</span><span class="sxs-lookup"><span data-stu-id="1a8d6-125">Can be empty</span></span>  <br/> |<span data-ttu-id="1a8d6-126">False</span><span class="sxs-lookup"><span data-stu-id="1a8d6-126">False</span></span>  <br/> |
    
 

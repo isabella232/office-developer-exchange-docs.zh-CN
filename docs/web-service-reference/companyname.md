@@ -16,63 +16,63 @@ ms.openlocfilehash: 35ce49303c1e6009ce6c12b00c51713b39b64ca0
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459053"
 ---
-# <a name="companyname"></a><span data-ttu-id="2b7ba-103">CompanyName</span><span class="sxs-lookup"><span data-stu-id="2b7ba-103">CompanyName</span></span>
+# <a name="companyname"></a><span data-ttu-id="6dc96-103">CompanyName</span><span class="sxs-lookup"><span data-stu-id="6dc96-103">CompanyName</span></span>
 
-<span data-ttu-id="2b7ba-104">"**公司名称" 元素**表示与联系人关联的公司名称。</span><span class="sxs-lookup"><span data-stu-id="2b7ba-104">The **CompanyName** element represents the company name that is associated with a contact.</span></span> 
+<span data-ttu-id="6dc96-104">"**公司名称" 元素**表示与联系人关联的公司名称。</span><span class="sxs-lookup"><span data-stu-id="6dc96-104">The **CompanyName** element represents the company name that is associated with a contact.</span></span> 
   
 ```xml
 <CompanyName/>
 ```
 
- <span data-ttu-id="2b7ba-105">**String**</span><span class="sxs-lookup"><span data-stu-id="2b7ba-105">**String**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="2b7ba-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="2b7ba-106">Attributes and elements</span></span>
+ <span data-ttu-id="6dc96-105">**String**</span><span class="sxs-lookup"><span data-stu-id="6dc96-105">**String**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="6dc96-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="6dc96-106">Attributes and elements</span></span>
 
-<span data-ttu-id="2b7ba-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="2b7ba-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="6dc96-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="6dc96-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="2b7ba-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="2b7ba-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="6dc96-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="6dc96-108">Attributes</span></span>
 
-<span data-ttu-id="2b7ba-109">无。</span><span class="sxs-lookup"><span data-stu-id="2b7ba-109">None.</span></span>
+<span data-ttu-id="6dc96-109">无。</span><span class="sxs-lookup"><span data-stu-id="6dc96-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="2b7ba-110">子元素</span><span class="sxs-lookup"><span data-stu-id="2b7ba-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="6dc96-110">子元素</span><span class="sxs-lookup"><span data-stu-id="6dc96-110">Child elements</span></span>
 
-<span data-ttu-id="2b7ba-111">无。</span><span class="sxs-lookup"><span data-stu-id="2b7ba-111">None.</span></span>
+<span data-ttu-id="6dc96-111">无。</span><span class="sxs-lookup"><span data-stu-id="6dc96-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="2b7ba-112">父元素</span><span class="sxs-lookup"><span data-stu-id="2b7ba-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="6dc96-112">父元素</span><span class="sxs-lookup"><span data-stu-id="6dc96-112">Parent elements</span></span>
 
-|<span data-ttu-id="2b7ba-113">**元素**</span><span class="sxs-lookup"><span data-stu-id="2b7ba-113">**Element**</span></span>|<span data-ttu-id="2b7ba-114">**说明**</span><span class="sxs-lookup"><span data-stu-id="2b7ba-114">**Description**</span></span>|
+|<span data-ttu-id="6dc96-113">**元素**</span><span class="sxs-lookup"><span data-stu-id="6dc96-113">**Element**</span></span>|<span data-ttu-id="6dc96-114">**说明**</span><span class="sxs-lookup"><span data-stu-id="6dc96-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="2b7ba-115">联系人</span><span class="sxs-lookup"><span data-stu-id="2b7ba-115">Contact</span></span>](contact.md) <br/> |<span data-ttu-id="2b7ba-116">表示对 Exchange 存储中的联系人项目。</span><span class="sxs-lookup"><span data-stu-id="2b7ba-116">Represents a contact item in the Exchange store.</span></span>  <br/> |
+|[<span data-ttu-id="6dc96-115">联系人</span><span class="sxs-lookup"><span data-stu-id="6dc96-115">Contact</span></span>](contact.md) <br/> |<span data-ttu-id="6dc96-116">表示对 Exchange 存储中的联系人项目。</span><span class="sxs-lookup"><span data-stu-id="6dc96-116">Represents a contact item in the Exchange store.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="2b7ba-117">文本值</span><span class="sxs-lookup"><span data-stu-id="2b7ba-117">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="6dc96-117">文本值</span><span class="sxs-lookup"><span data-stu-id="6dc96-117">Text value</span></span>
 
-<span data-ttu-id="2b7ba-118">如果使用此元素，则需要一个 text 值。</span><span class="sxs-lookup"><span data-stu-id="2b7ba-118">A text value is required if this element is used.</span></span>
+<span data-ttu-id="6dc96-118">如果使用此元素，则需要一个 text 值。</span><span class="sxs-lookup"><span data-stu-id="6dc96-118">A text value is required if this element is used.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="2b7ba-119">说明</span><span class="sxs-lookup"><span data-stu-id="2b7ba-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6dc96-119">说明</span><span class="sxs-lookup"><span data-stu-id="6dc96-119">Remarks</span></span>
 
-<span data-ttu-id="2b7ba-120">描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="2b7ba-120">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="6dc96-120">描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="6dc96-120">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="2b7ba-121">元素信息</span><span class="sxs-lookup"><span data-stu-id="2b7ba-121">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="6dc96-121">元素信息</span><span class="sxs-lookup"><span data-stu-id="6dc96-121">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="2b7ba-122">命名空间</span><span class="sxs-lookup"><span data-stu-id="2b7ba-122">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="2b7ba-123">架构名称</span><span class="sxs-lookup"><span data-stu-id="2b7ba-123">Schema name</span></span>  <br/> |<span data-ttu-id="2b7ba-124">类型架构</span><span class="sxs-lookup"><span data-stu-id="2b7ba-124">Types schema</span></span>  <br/> |
-|<span data-ttu-id="2b7ba-125">验证文件</span><span class="sxs-lookup"><span data-stu-id="2b7ba-125">Validation file</span></span>  <br/> |<span data-ttu-id="2b7ba-126">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="2b7ba-126">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="2b7ba-127">可以为空</span><span class="sxs-lookup"><span data-stu-id="2b7ba-127">Can be empty</span></span>  <br/> |<span data-ttu-id="2b7ba-128">False</span><span class="sxs-lookup"><span data-stu-id="2b7ba-128">False</span></span>  <br/> |
+|<span data-ttu-id="6dc96-122">命名空间</span><span class="sxs-lookup"><span data-stu-id="6dc96-122">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="6dc96-123">架构名称</span><span class="sxs-lookup"><span data-stu-id="6dc96-123">Schema name</span></span>  <br/> |<span data-ttu-id="6dc96-124">类型架构</span><span class="sxs-lookup"><span data-stu-id="6dc96-124">Types schema</span></span>  <br/> |
+|<span data-ttu-id="6dc96-125">验证文件</span><span class="sxs-lookup"><span data-stu-id="6dc96-125">Validation file</span></span>  <br/> |<span data-ttu-id="6dc96-126">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="6dc96-126">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="6dc96-127">可以为空</span><span class="sxs-lookup"><span data-stu-id="6dc96-127">Can be empty</span></span>  <br/> |<span data-ttu-id="6dc96-128">False</span><span class="sxs-lookup"><span data-stu-id="6dc96-128">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="2b7ba-129">另请参阅</span><span class="sxs-lookup"><span data-stu-id="2b7ba-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6dc96-129">另请参阅</span><span class="sxs-lookup"><span data-stu-id="6dc96-129">See also</span></span>
 
 
 
-- [<span data-ttu-id="2b7ba-130">Exchange 中的 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="2b7ba-130">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="6dc96-130">Exchange 中的 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="6dc96-130">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 
 
-[<span data-ttu-id="2b7ba-131">创建联系人（Exchange Web 服务）</span><span class="sxs-lookup"><span data-stu-id="2b7ba-131">Creating Contacts (Exchange Web Services)</span></span>](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+[<span data-ttu-id="6dc96-131">创建联系人（Exchange Web 服务）</span><span class="sxs-lookup"><span data-stu-id="6dc96-131">Creating Contacts (Exchange Web Services)</span></span>](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
   
-[<span data-ttu-id="2b7ba-132">更新联系人</span><span class="sxs-lookup"><span data-stu-id="2b7ba-132">Updating Contacts</span></span>](https://msdn.microsoft.com/library/9a865953-b94a-4229-b632-2dee433314be%28Office.15%29.aspx)
+[<span data-ttu-id="6dc96-132">更新联系人</span><span class="sxs-lookup"><span data-stu-id="6dc96-132">Updating Contacts</span></span>](https://msdn.microsoft.com/library/9a865953-b94a-4229-b632-2dee433314be%28Office.15%29.aspx)
   
-[<span data-ttu-id="2b7ba-133">删除联系人</span><span class="sxs-lookup"><span data-stu-id="2b7ba-133">Deleting Contacts</span></span>](https://msdn.microsoft.com/library/fcc3dc84-cd3e-455e-a1a7-ae6921c9b588%28Office.15%29.aspx)
+[<span data-ttu-id="6dc96-133">删除联系人</span><span class="sxs-lookup"><span data-stu-id="6dc96-133">Deleting Contacts</span></span>](https://msdn.microsoft.com/library/fcc3dc84-cd3e-455e-a1a7-ae6921c9b588%28Office.15%29.aspx)
 

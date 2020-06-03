@@ -16,65 +16,65 @@ ms.openlocfilehash: b6f2c2d72dd550f7ec8ed9a3415dc0715b3e376f
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460370"
 ---
-# <a name="isread"></a><span data-ttu-id="f2c69-103">IsRead</span><span class="sxs-lookup"><span data-stu-id="f2c69-103">IsRead</span></span>
+# <a name="isread"></a><span data-ttu-id="b1af7-103">IsRead</span><span class="sxs-lookup"><span data-stu-id="b1af7-103">IsRead</span></span>
 
-<span data-ttu-id="f2c69-104">**IsRead**元素指示是否已读取邮件。</span><span class="sxs-lookup"><span data-stu-id="f2c69-104">The **IsRead** element indicates whether a message has been read.</span></span> 
+<span data-ttu-id="b1af7-104">**IsRead**元素指示是否已读取邮件。</span><span class="sxs-lookup"><span data-stu-id="b1af7-104">The **IsRead** element indicates whether a message has been read.</span></span> 
   
 ```XML
 <IsRead/>
 ```
 
- <span data-ttu-id="f2c69-105">**Boolean**</span><span class="sxs-lookup"><span data-stu-id="f2c69-105">**Boolean**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="f2c69-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="f2c69-106">Attributes and elements</span></span>
+ <span data-ttu-id="b1af7-105">**Boolean**</span><span class="sxs-lookup"><span data-stu-id="b1af7-105">**Boolean**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="b1af7-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="b1af7-106">Attributes and elements</span></span>
 
-<span data-ttu-id="f2c69-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="f2c69-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="b1af7-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="b1af7-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="f2c69-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="f2c69-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="b1af7-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="b1af7-108">Attributes</span></span>
 
-<span data-ttu-id="f2c69-109">无。</span><span class="sxs-lookup"><span data-stu-id="f2c69-109">None.</span></span>
+<span data-ttu-id="b1af7-109">无。</span><span class="sxs-lookup"><span data-stu-id="b1af7-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="f2c69-110">子元素</span><span class="sxs-lookup"><span data-stu-id="f2c69-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="b1af7-110">子元素</span><span class="sxs-lookup"><span data-stu-id="b1af7-110">Child elements</span></span>
 
-<span data-ttu-id="f2c69-111">无。</span><span class="sxs-lookup"><span data-stu-id="f2c69-111">None.</span></span>
+<span data-ttu-id="b1af7-111">无。</span><span class="sxs-lookup"><span data-stu-id="b1af7-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="f2c69-112">父元素</span><span class="sxs-lookup"><span data-stu-id="f2c69-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="b1af7-112">父元素</span><span class="sxs-lookup"><span data-stu-id="b1af7-112">Parent elements</span></span>
 
-|<span data-ttu-id="f2c69-113">**元素**</span><span class="sxs-lookup"><span data-stu-id="f2c69-113">**Element**</span></span>|<span data-ttu-id="f2c69-114">**说明**</span><span class="sxs-lookup"><span data-stu-id="f2c69-114">**Description**</span></span>|
+|<span data-ttu-id="b1af7-113">**元素**</span><span class="sxs-lookup"><span data-stu-id="b1af7-113">**Element**</span></span>|<span data-ttu-id="b1af7-114">**说明**</span><span class="sxs-lookup"><span data-stu-id="b1af7-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="f2c69-115">RemoveItem</span><span class="sxs-lookup"><span data-stu-id="f2c69-115">RemoveItem</span></span>](removeitem.md) <br/> |<span data-ttu-id="f2c69-116">从 Exchange 存储中删除一个项目。</span><span class="sxs-lookup"><span data-stu-id="f2c69-116">Removes an item from the Exchange store.</span></span>  <br/> |
-|[<span data-ttu-id="f2c69-117">Message</span><span class="sxs-lookup"><span data-stu-id="f2c69-117">Message</span></span>](message-ex15websvcsotherref.md) <br/> |<span data-ttu-id="f2c69-118">表示 Exchange 电子邮件。</span><span class="sxs-lookup"><span data-stu-id="f2c69-118">Represents an Exchange e-mail message.</span></span>  <br/> |
-|[<span data-ttu-id="f2c69-119">MeetingMessage</span><span class="sxs-lookup"><span data-stu-id="f2c69-119">MeetingMessage</span></span>](meetingmessage.md) <br/> |<span data-ttu-id="f2c69-120">表示 Exchange 存储中的会议。</span><span class="sxs-lookup"><span data-stu-id="f2c69-120">Represents a meeting in the Exchange store.</span></span>  <br/> |
-|[<span data-ttu-id="f2c69-121">MeetingRequest</span><span class="sxs-lookup"><span data-stu-id="f2c69-121">MeetingRequest</span></span>](meetingrequest.md) <br/> |<span data-ttu-id="f2c69-122">表示 Exchange 存储中的会议请求。</span><span class="sxs-lookup"><span data-stu-id="f2c69-122">Represents a meeting request in the Exchange store.</span></span>  <br/> |
-|[<span data-ttu-id="f2c69-123">MeetingResponse</span><span class="sxs-lookup"><span data-stu-id="f2c69-123">MeetingResponse</span></span>](meetingresponse.md) <br/> |<span data-ttu-id="f2c69-124">表示 Exchange 存储中的会议响应。</span><span class="sxs-lookup"><span data-stu-id="f2c69-124">Represents a meeting response in the Exchange store.</span></span>  <br/> |
-|[<span data-ttu-id="f2c69-125">MeetingCancellation</span><span class="sxs-lookup"><span data-stu-id="f2c69-125">MeetingCancellation</span></span>](meetingcancellation.md) <br/> |<span data-ttu-id="f2c69-126">表示 Exchange 存储中的会议取消。</span><span class="sxs-lookup"><span data-stu-id="f2c69-126">Represents a meeting cancellation in the Exchange store.</span></span>  <br/> |
-|[<span data-ttu-id="f2c69-127">PostItem</span><span class="sxs-lookup"><span data-stu-id="f2c69-127">PostItem</span></span>](postitem.md) <br/> |<span data-ttu-id="f2c69-128">表示 Exchange 存储中的公告项。</span><span class="sxs-lookup"><span data-stu-id="f2c69-128">Represents a post item in the Exchange store.</span></span> <span data-ttu-id="f2c69-129">在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="f2c69-129">This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).</span></span>  <br/> |
-|[<span data-ttu-id="f2c69-130">ConversationAction</span><span class="sxs-lookup"><span data-stu-id="f2c69-130">ConversationAction</span></span>](conversationaction.md) <br/> |<span data-ttu-id="f2c69-131">包含要应用于单个对话的单个操作。</span><span class="sxs-lookup"><span data-stu-id="f2c69-131">Contains a single action to be applied to a single conversation.</span></span>  <br/> |
+|[<span data-ttu-id="b1af7-115">RemoveItem</span><span class="sxs-lookup"><span data-stu-id="b1af7-115">RemoveItem</span></span>](removeitem.md) <br/> |<span data-ttu-id="b1af7-116">从 Exchange 存储中删除一个项目。</span><span class="sxs-lookup"><span data-stu-id="b1af7-116">Removes an item from the Exchange store.</span></span>  <br/> |
+|[<span data-ttu-id="b1af7-117">Message</span><span class="sxs-lookup"><span data-stu-id="b1af7-117">Message</span></span>](message-ex15websvcsotherref.md) <br/> |<span data-ttu-id="b1af7-118">表示 Exchange 电子邮件。</span><span class="sxs-lookup"><span data-stu-id="b1af7-118">Represents an Exchange e-mail message.</span></span>  <br/> |
+|[<span data-ttu-id="b1af7-119">MeetingMessage</span><span class="sxs-lookup"><span data-stu-id="b1af7-119">MeetingMessage</span></span>](meetingmessage.md) <br/> |<span data-ttu-id="b1af7-120">表示 Exchange 存储中的会议。</span><span class="sxs-lookup"><span data-stu-id="b1af7-120">Represents a meeting in the Exchange store.</span></span>  <br/> |
+|[<span data-ttu-id="b1af7-121">MeetingRequest</span><span class="sxs-lookup"><span data-stu-id="b1af7-121">MeetingRequest</span></span>](meetingrequest.md) <br/> |<span data-ttu-id="b1af7-122">表示 Exchange 存储中的会议请求。</span><span class="sxs-lookup"><span data-stu-id="b1af7-122">Represents a meeting request in the Exchange store.</span></span>  <br/> |
+|[<span data-ttu-id="b1af7-123">MeetingResponse</span><span class="sxs-lookup"><span data-stu-id="b1af7-123">MeetingResponse</span></span>](meetingresponse.md) <br/> |<span data-ttu-id="b1af7-124">表示 Exchange 存储中的会议响应。</span><span class="sxs-lookup"><span data-stu-id="b1af7-124">Represents a meeting response in the Exchange store.</span></span>  <br/> |
+|[<span data-ttu-id="b1af7-125">MeetingCancellation</span><span class="sxs-lookup"><span data-stu-id="b1af7-125">MeetingCancellation</span></span>](meetingcancellation.md) <br/> |<span data-ttu-id="b1af7-126">表示 Exchange 存储中的会议取消。</span><span class="sxs-lookup"><span data-stu-id="b1af7-126">Represents a meeting cancellation in the Exchange store.</span></span>  <br/> |
+|[<span data-ttu-id="b1af7-127">PostItem</span><span class="sxs-lookup"><span data-stu-id="b1af7-127">PostItem</span></span>](postitem.md) <br/> |<span data-ttu-id="b1af7-128">表示 Exchange 存储中的公告项。</span><span class="sxs-lookup"><span data-stu-id="b1af7-128">Represents a post item in the Exchange store.</span></span> <span data-ttu-id="b1af7-129">在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="b1af7-129">This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).</span></span>  <br/> |
+|[<span data-ttu-id="b1af7-130">ConversationAction</span><span class="sxs-lookup"><span data-stu-id="b1af7-130">ConversationAction</span></span>](conversationaction.md) <br/> |<span data-ttu-id="b1af7-131">包含要应用于单个对话的单个操作。</span><span class="sxs-lookup"><span data-stu-id="b1af7-131">Contains a single action to be applied to a single conversation.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="f2c69-132">文本值</span><span class="sxs-lookup"><span data-stu-id="f2c69-132">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="b1af7-132">文本值</span><span class="sxs-lookup"><span data-stu-id="b1af7-132">Text value</span></span>
 
-<span data-ttu-id="f2c69-133">如果文本值为**true** ，则表示邮件已被阅读。</span><span class="sxs-lookup"><span data-stu-id="f2c69-133">A text value of **true** indicates that the message has been read.</span></span> <span data-ttu-id="f2c69-134">如果文本值为**false** ，则表示邮件尚未阅读。</span><span class="sxs-lookup"><span data-stu-id="f2c69-134">A text value of **false** indicates that the message has not been read.</span></span> 
+<span data-ttu-id="b1af7-133">如果文本值为**true** ，则表示邮件已被阅读。</span><span class="sxs-lookup"><span data-stu-id="b1af7-133">A text value of **true** indicates that the message has been read.</span></span> <span data-ttu-id="b1af7-134">如果文本值为**false** ，则表示邮件尚未阅读。</span><span class="sxs-lookup"><span data-stu-id="b1af7-134">A text value of **false** indicates that the message has not been read.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="f2c69-135">备注</span><span class="sxs-lookup"><span data-stu-id="f2c69-135">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b1af7-135">备注</span><span class="sxs-lookup"><span data-stu-id="b1af7-135">Remarks</span></span>
 
-<span data-ttu-id="f2c69-136">如果[IsReadReceiptRequested](isreadreceiptrequested.md)为**true**，则将**IsRead**设置为**true**将发送已读回执。</span><span class="sxs-lookup"><span data-stu-id="f2c69-136">If [IsReadReceiptRequested](isreadreceiptrequested.md) is **true**, setting **IsRead** to **true** sends a read receipt.</span></span> <span data-ttu-id="f2c69-137">收件人可以在设置**IsRead**属性之前，通过提交[SuppressReadReceipt](suppressreadreceipt.md)响应对象来禁止已读回执。</span><span class="sxs-lookup"><span data-stu-id="f2c69-137">The recipient can suppress read receipts by submitting the [SuppressReadReceipt](suppressreadreceipt.md) response object before setting the **IsRead** property.</span></span> 
+<span data-ttu-id="b1af7-136">如果[IsReadReceiptRequested](isreadreceiptrequested.md)为**true**，则将**IsRead**设置为**true**将发送已读回执。</span><span class="sxs-lookup"><span data-stu-id="b1af7-136">If [IsReadReceiptRequested](isreadreceiptrequested.md) is **true**, setting **IsRead** to **true** sends a read receipt.</span></span> <span data-ttu-id="b1af7-137">收件人可以在设置**IsRead**属性之前，通过提交[SuppressReadReceipt](suppressreadreceipt.md)响应对象来禁止已读回执。</span><span class="sxs-lookup"><span data-stu-id="b1af7-137">The recipient can suppress read receipts by submitting the [SuppressReadReceipt](suppressreadreceipt.md) response object before setting the **IsRead** property.</span></span> 
   
-<span data-ttu-id="f2c69-138">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="f2c69-138">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="b1af7-138">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="b1af7-138">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="f2c69-139">元素信息</span><span class="sxs-lookup"><span data-stu-id="f2c69-139">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="b1af7-139">元素信息</span><span class="sxs-lookup"><span data-stu-id="b1af7-139">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="f2c69-140">命名空间</span><span class="sxs-lookup"><span data-stu-id="f2c69-140">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="f2c69-141">架构名称</span><span class="sxs-lookup"><span data-stu-id="f2c69-141">Schema Name</span></span>  <br/> |<span data-ttu-id="f2c69-142">类型架构</span><span class="sxs-lookup"><span data-stu-id="f2c69-142">Types schema</span></span>  <br/> |
-|<span data-ttu-id="f2c69-143">验证文件</span><span class="sxs-lookup"><span data-stu-id="f2c69-143">Validation File</span></span>  <br/> |<span data-ttu-id="f2c69-144">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="f2c69-144">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="f2c69-145">可以为空</span><span class="sxs-lookup"><span data-stu-id="f2c69-145">Can be Empty</span></span>  <br/> |<span data-ttu-id="f2c69-146">False</span><span class="sxs-lookup"><span data-stu-id="f2c69-146">False</span></span>  <br/> |
+|<span data-ttu-id="b1af7-140">命名空间</span><span class="sxs-lookup"><span data-stu-id="b1af7-140">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="b1af7-141">架构名称</span><span class="sxs-lookup"><span data-stu-id="b1af7-141">Schema Name</span></span>  <br/> |<span data-ttu-id="b1af7-142">类型架构</span><span class="sxs-lookup"><span data-stu-id="b1af7-142">Types schema</span></span>  <br/> |
+|<span data-ttu-id="b1af7-143">验证文件</span><span class="sxs-lookup"><span data-stu-id="b1af7-143">Validation File</span></span>  <br/> |<span data-ttu-id="b1af7-144">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="b1af7-144">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="b1af7-145">可以为空</span><span class="sxs-lookup"><span data-stu-id="b1af7-145">Can be Empty</span></span>  <br/> |<span data-ttu-id="b1af7-146">False</span><span class="sxs-lookup"><span data-stu-id="b1af7-146">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="f2c69-147">另请参阅</span><span class="sxs-lookup"><span data-stu-id="f2c69-147">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b1af7-147">另请参阅</span><span class="sxs-lookup"><span data-stu-id="b1af7-147">See also</span></span>
 
 
 
-- [<span data-ttu-id="f2c69-148">Exchange 中的 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="f2c69-148">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="b1af7-148">Exchange 中的 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="b1af7-148">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

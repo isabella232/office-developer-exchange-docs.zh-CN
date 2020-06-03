@@ -12,42 +12,42 @@ ms.openlocfilehash: 932cac7ac1a62de7066573bbb2db3d0a338b2379
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460104"
 ---
-# <a name="largeaudiencecap"></a><span data-ttu-id="74501-103">LargeAudienceCap</span><span class="sxs-lookup"><span data-stu-id="74501-103">LargeAudienceCap</span></span>
+# <a name="largeaudiencecap"></a><span data-ttu-id="bd9c2-103">LargeAudienceCap</span><span class="sxs-lookup"><span data-stu-id="bd9c2-103">LargeAudienceCap</span></span>
 
-<span data-ttu-id="74501-104">**LargeAudienceCap**元素指定电子邮件的最大收件人数。</span><span class="sxs-lookup"><span data-stu-id="74501-104">The **LargeAudienceCap** element specifies the maximum number of recipients for an email message.</span></span> 
+<span data-ttu-id="bd9c2-104">**LargeAudienceCap**元素指定电子邮件的最大收件人数。</span><span class="sxs-lookup"><span data-stu-id="bd9c2-104">The **LargeAudienceCap** element specifies the maximum number of recipients for an email message.</span></span> 
   
 ```XML
 <LargeAudienceCap></LargeAudienceCap>
 ```
 
- <span data-ttu-id="74501-105">**整除**</span><span class="sxs-lookup"><span data-stu-id="74501-105">**integer**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="74501-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="74501-106">Attributes and elements</span></span>
+ <span data-ttu-id="bd9c2-105">**整除**</span><span class="sxs-lookup"><span data-stu-id="bd9c2-105">**integer**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="bd9c2-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="bd9c2-106">Attributes and elements</span></span>
 
-<span data-ttu-id="74501-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="74501-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="bd9c2-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="bd9c2-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="74501-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="74501-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="bd9c2-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="bd9c2-108">Attributes</span></span>
 
-<span data-ttu-id="74501-109">无。</span><span class="sxs-lookup"><span data-stu-id="74501-109">None.</span></span>
+<span data-ttu-id="bd9c2-109">无。</span><span class="sxs-lookup"><span data-stu-id="bd9c2-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="74501-110">子元素</span><span class="sxs-lookup"><span data-stu-id="74501-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="bd9c2-110">子元素</span><span class="sxs-lookup"><span data-stu-id="bd9c2-110">Child elements</span></span>
 
-<span data-ttu-id="74501-111">无。</span><span class="sxs-lookup"><span data-stu-id="74501-111">None.</span></span>
+<span data-ttu-id="bd9c2-111">无。</span><span class="sxs-lookup"><span data-stu-id="bd9c2-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="74501-112">父元素</span><span class="sxs-lookup"><span data-stu-id="74501-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="bd9c2-112">父元素</span><span class="sxs-lookup"><span data-stu-id="bd9c2-112">Parent elements</span></span>
 
-[<span data-ttu-id="74501-113">MailTipsConfiguration (MailTipsServiceConfiguration)</span><span class="sxs-lookup"><span data-stu-id="74501-113">MailTipsConfiguration (MailTipsServiceConfiguration)</span></span>](mailtipsconfiguration-mailtipsserviceconfiguration.md)
+[<span data-ttu-id="bd9c2-113">MailTipsConfiguration (MailTipsServiceConfiguration)</span><span class="sxs-lookup"><span data-stu-id="bd9c2-113">MailTipsConfiguration (MailTipsServiceConfiguration)</span></span>](mailtipsconfiguration-mailtipsserviceconfiguration.md)
   
-## <a name="text-value"></a><span data-ttu-id="74501-114">文本值</span><span class="sxs-lookup"><span data-stu-id="74501-114">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="bd9c2-114">文本值</span><span class="sxs-lookup"><span data-stu-id="bd9c2-114">Text value</span></span>
 
-<span data-ttu-id="74501-115">**LargeAudienceCap**元素的文本值是可在电子邮件中进行寻址的最大收件人数。</span><span class="sxs-lookup"><span data-stu-id="74501-115">The text value of the **LargeAudienceCap** element is the maximum number of recipients that can be addressed in an email message.</span></span> 
+<span data-ttu-id="bd9c2-115">**LargeAudienceCap**元素的文本值是可在电子邮件中进行寻址的最大收件人数。</span><span class="sxs-lookup"><span data-stu-id="bd9c2-115">The text value of the **LargeAudienceCap** element is the maximum number of recipients that can be addressed in an email message.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="74501-116">备注</span><span class="sxs-lookup"><span data-stu-id="74501-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bd9c2-116">备注</span><span class="sxs-lookup"><span data-stu-id="bd9c2-116">Remarks</span></span>
 
-<span data-ttu-id="74501-117">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="74501-117">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="bd9c2-117">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="bd9c2-117">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="74501-118">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="74501-118">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="bd9c2-118">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="bd9c2-118">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
 

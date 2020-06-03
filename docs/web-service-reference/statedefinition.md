@@ -12,42 +12,42 @@ ms.openlocfilehash: faca89c2c78febe8373cf02f8d84732f2611a6fb
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459509"
 ---
-# <a name="statedefinition"></a><span data-ttu-id="21c4a-103">StateDefinition</span><span class="sxs-lookup"><span data-stu-id="21c4a-103">StateDefinition</span></span>
+# <a name="statedefinition"></a><span data-ttu-id="41892-103">StateDefinition</span><span class="sxs-lookup"><span data-stu-id="41892-103">StateDefinition</span></span>
 
-<span data-ttu-id="21c4a-104">**StateDefinition**元素仅供内部使用。</span><span class="sxs-lookup"><span data-stu-id="21c4a-104">The **StateDefinition** element is intended for internal use only.</span></span> 
+<span data-ttu-id="41892-104">**StateDefinition**元素仅供内部使用。</span><span class="sxs-lookup"><span data-stu-id="41892-104">The **StateDefinition** element is intended for internal use only.</span></span> 
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="21c4a-105">属性和元素</span><span class="sxs-lookup"><span data-stu-id="21c4a-105">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="41892-105">属性和元素</span><span class="sxs-lookup"><span data-stu-id="41892-105">Attributes and elements</span></span>
 
-<span data-ttu-id="21c4a-106">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="21c4a-106">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="41892-106">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="41892-106">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="21c4a-107">Attributes</span><span class="sxs-lookup"><span data-stu-id="21c4a-107">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="41892-107">Attributes</span><span class="sxs-lookup"><span data-stu-id="41892-107">Attributes</span></span>
 
-<span data-ttu-id="21c4a-108">无。</span><span class="sxs-lookup"><span data-stu-id="21c4a-108">None.</span></span>
+<span data-ttu-id="41892-108">无。</span><span class="sxs-lookup"><span data-stu-id="41892-108">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="21c4a-109">子元素</span><span class="sxs-lookup"><span data-stu-id="21c4a-109">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="41892-109">子元素</span><span class="sxs-lookup"><span data-stu-id="41892-109">Child elements</span></span>
 
-<span data-ttu-id="21c4a-110">无。</span><span class="sxs-lookup"><span data-stu-id="21c4a-110">None.</span></span>
+<span data-ttu-id="41892-110">无。</span><span class="sxs-lookup"><span data-stu-id="41892-110">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="21c4a-111">父元素</span><span class="sxs-lookup"><span data-stu-id="21c4a-111">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="41892-111">父元素</span><span class="sxs-lookup"><span data-stu-id="41892-111">Parent elements</span></span>
 
-<span data-ttu-id="21c4a-112">无。</span><span class="sxs-lookup"><span data-stu-id="21c4a-112">None.</span></span>
+<span data-ttu-id="41892-112">无。</span><span class="sxs-lookup"><span data-stu-id="41892-112">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="21c4a-113">说明</span><span class="sxs-lookup"><span data-stu-id="21c4a-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="41892-113">说明</span><span class="sxs-lookup"><span data-stu-id="41892-113">Remarks</span></span>
 
-<span data-ttu-id="21c4a-114">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="21c4a-114">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="41892-114">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="41892-114">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="21c4a-115">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="21c4a-115">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="41892-115">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="41892-115">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="21c4a-116">元素信息</span><span class="sxs-lookup"><span data-stu-id="21c4a-116">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="41892-116">元素信息</span><span class="sxs-lookup"><span data-stu-id="41892-116">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="21c4a-117">命名空间</span><span class="sxs-lookup"><span data-stu-id="21c4a-117">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="21c4a-118">架构名称</span><span class="sxs-lookup"><span data-stu-id="21c4a-118">Schema name</span></span>  <br/> |<span data-ttu-id="21c4a-119">类型架构</span><span class="sxs-lookup"><span data-stu-id="21c4a-119">Types schema</span></span>  <br/> |
-|<span data-ttu-id="21c4a-120">验证文件</span><span class="sxs-lookup"><span data-stu-id="21c4a-120">Validation file</span></span>  <br/> |<span data-ttu-id="21c4a-121">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="21c4a-121">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="21c4a-122">可以为空</span><span class="sxs-lookup"><span data-stu-id="21c4a-122">Can be empty</span></span>  <br/> ||
+|<span data-ttu-id="41892-117">命名空间</span><span class="sxs-lookup"><span data-stu-id="41892-117">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="41892-118">架构名称</span><span class="sxs-lookup"><span data-stu-id="41892-118">Schema name</span></span>  <br/> |<span data-ttu-id="41892-119">类型架构</span><span class="sxs-lookup"><span data-stu-id="41892-119">Types schema</span></span>  <br/> |
+|<span data-ttu-id="41892-120">验证文件</span><span class="sxs-lookup"><span data-stu-id="41892-120">Validation file</span></span>  <br/> |<span data-ttu-id="41892-121">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="41892-121">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="41892-122">可以为空</span><span class="sxs-lookup"><span data-stu-id="41892-122">Can be empty</span></span>  <br/> ||
    
 

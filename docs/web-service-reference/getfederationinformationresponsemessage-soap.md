@@ -13,12 +13,12 @@ ms.openlocfilehash: c3ec4517515e21dcf45cdee5c27c0f17894f8d0b
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460034"
 ---
-# <a name="getfederationinformationresponsemessage-soap"></a><span data-ttu-id="5fba1-103">GetFederationInformationResponseMessage （SOAP）</span><span class="sxs-lookup"><span data-stu-id="5fba1-103">GetFederationInformationResponseMessage (SOAP)</span></span>
+# <a name="getfederationinformationresponsemessage-soap"></a><span data-ttu-id="8e900-103">GetFederationInformationResponseMessage （SOAP）</span><span class="sxs-lookup"><span data-stu-id="8e900-103">GetFederationInformationResponseMessage (SOAP)</span></span>
 
-<span data-ttu-id="5fba1-104">**GetFederationInformationResponseMessage**元素定义对[GETFEDERATIONINFORMATION 操作（SOAP）](getfederationinformation-operation-soap.md)请求的响应。</span><span class="sxs-lookup"><span data-stu-id="5fba1-104">The **GetFederationInformationResponseMessage** element defines a response to a [GetFederationInformation operation (SOAP)](getfederationinformation-operation-soap.md) request.</span></span> 
+<span data-ttu-id="8e900-104">**GetFederationInformationResponseMessage**元素定义对[GETFEDERATIONINFORMATION 操作（SOAP）](getfederationinformation-operation-soap.md)请求的响应。</span><span class="sxs-lookup"><span data-stu-id="8e900-104">The **GetFederationInformationResponseMessage** element defines a response to a [GetFederationInformation operation (SOAP)](getfederationinformation-operation-soap.md) request.</span></span> 
   
 ```XML
 <GetFederationInformationResponseMessage>
@@ -26,37 +26,37 @@ ms.locfileid: "44460034"
 </GetFederationInformationResponseMessage>
 ```
 
- <span data-ttu-id="5fba1-105">**GetFederationInformationResponseMessage**</span><span class="sxs-lookup"><span data-stu-id="5fba1-105">**GetFederationInformationResponseMessage**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="5fba1-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="5fba1-106">Attributes and elements</span></span>
+ <span data-ttu-id="8e900-105">**GetFederationInformationResponseMessage**</span><span class="sxs-lookup"><span data-stu-id="8e900-105">**GetFederationInformationResponseMessage**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="8e900-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="8e900-106">Attributes and elements</span></span>
 
-<span data-ttu-id="5fba1-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="5fba1-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="8e900-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="8e900-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="5fba1-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="5fba1-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="8e900-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="8e900-108">Attributes</span></span>
 
-<span data-ttu-id="5fba1-109">无。</span><span class="sxs-lookup"><span data-stu-id="5fba1-109">None.</span></span>
+<span data-ttu-id="8e900-109">无。</span><span class="sxs-lookup"><span data-stu-id="8e900-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="5fba1-110">子元素</span><span class="sxs-lookup"><span data-stu-id="5fba1-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="8e900-110">子元素</span><span class="sxs-lookup"><span data-stu-id="8e900-110">Child elements</span></span>
 
-|<span data-ttu-id="5fba1-111">**元素**</span><span class="sxs-lookup"><span data-stu-id="5fba1-111">**Element**</span></span>|<span data-ttu-id="5fba1-112">**说明**</span><span class="sxs-lookup"><span data-stu-id="5fba1-112">**Description**</span></span>|
+|<span data-ttu-id="8e900-111">**元素**</span><span class="sxs-lookup"><span data-stu-id="8e900-111">**Element**</span></span>|<span data-ttu-id="8e900-112">**说明**</span><span class="sxs-lookup"><span data-stu-id="8e900-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="5fba1-113">响应（GetFederationInformation）（SOAP）</span><span class="sxs-lookup"><span data-stu-id="5fba1-113">Response (GetFederationInformation) (SOAP)</span></span>](response-getfederationinformationsoap.md) <br/> |<span data-ttu-id="5fba1-114">包含[GetFederationInformation 操作（SOAP）](getfederationinformation-operation-soap.md)响应信息。</span><span class="sxs-lookup"><span data-stu-id="5fba1-114">Contains the [GetFederationInformation operation (SOAP)](getfederationinformation-operation-soap.md) response information.</span></span>  <br/> |
+|[<span data-ttu-id="8e900-113">响应（GetFederationInformation）（SOAP）</span><span class="sxs-lookup"><span data-stu-id="8e900-113">Response (GetFederationInformation) (SOAP)</span></span>](response-getfederationinformationsoap.md) <br/> |<span data-ttu-id="8e900-114">包含[GetFederationInformation 操作（SOAP）](getfederationinformation-operation-soap.md)响应信息。</span><span class="sxs-lookup"><span data-stu-id="8e900-114">Contains the [GetFederationInformation operation (SOAP)](getfederationinformation-operation-soap.md) response information.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="5fba1-115">父元素</span><span class="sxs-lookup"><span data-stu-id="5fba1-115">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="8e900-115">父元素</span><span class="sxs-lookup"><span data-stu-id="8e900-115">Parent elements</span></span>
 
-<span data-ttu-id="5fba1-116">无。</span><span class="sxs-lookup"><span data-stu-id="5fba1-116">None.</span></span>
+<span data-ttu-id="8e900-116">无。</span><span class="sxs-lookup"><span data-stu-id="8e900-116">None.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="5fba1-117">元素信息</span><span class="sxs-lookup"><span data-stu-id="5fba1-117">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="8e900-117">元素信息</span><span class="sxs-lookup"><span data-stu-id="8e900-117">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="5fba1-118">命名空间</span><span class="sxs-lookup"><span data-stu-id="5fba1-118">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|<span data-ttu-id="5fba1-119">架构名称</span><span class="sxs-lookup"><span data-stu-id="5fba1-119">Schema Name</span></span>  <br/> |<span data-ttu-id="5fba1-120">自动发现架构</span><span class="sxs-lookup"><span data-stu-id="5fba1-120">Autodiscover schema</span></span>  <br/> |
-|<span data-ttu-id="5fba1-121">验证文件</span><span class="sxs-lookup"><span data-stu-id="5fba1-121">Validation File</span></span>  <br/> |<span data-ttu-id="5fba1-122">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="5fba1-122">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="5fba1-123">可以为空</span><span class="sxs-lookup"><span data-stu-id="5fba1-123">Can be Empty</span></span>  <br/> |<span data-ttu-id="5fba1-124">True</span><span class="sxs-lookup"><span data-stu-id="5fba1-124">True</span></span>  <br/> |
+|<span data-ttu-id="8e900-118">命名空间</span><span class="sxs-lookup"><span data-stu-id="8e900-118">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|<span data-ttu-id="8e900-119">架构名称</span><span class="sxs-lookup"><span data-stu-id="8e900-119">Schema Name</span></span>  <br/> |<span data-ttu-id="8e900-120">自动发现架构</span><span class="sxs-lookup"><span data-stu-id="8e900-120">Autodiscover schema</span></span>  <br/> |
+|<span data-ttu-id="8e900-121">验证文件</span><span class="sxs-lookup"><span data-stu-id="8e900-121">Validation File</span></span>  <br/> |<span data-ttu-id="8e900-122">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="8e900-122">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="8e900-123">可以为空</span><span class="sxs-lookup"><span data-stu-id="8e900-123">Can be Empty</span></span>  <br/> |<span data-ttu-id="8e900-124">True</span><span class="sxs-lookup"><span data-stu-id="8e900-124">True</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="5fba1-125">另请参阅</span><span class="sxs-lookup"><span data-stu-id="5fba1-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8e900-125">另请参阅</span><span class="sxs-lookup"><span data-stu-id="8e900-125">See also</span></span>
 
 
 
-[<span data-ttu-id="5fba1-126">GetFederationInformation 操作 (SOAP)</span><span class="sxs-lookup"><span data-stu-id="5fba1-126">GetFederationInformation operation (SOAP)</span></span>](getfederationinformation-operation-soap.md)
+[<span data-ttu-id="8e900-126">GetFederationInformation 操作 (SOAP)</span><span class="sxs-lookup"><span data-stu-id="8e900-126">GetFederationInformation operation (SOAP)</span></span>](getfederationinformation-operation-soap.md)
 
