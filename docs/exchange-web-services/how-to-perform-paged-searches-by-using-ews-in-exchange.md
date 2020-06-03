@@ -1,122 +1,122 @@
 ---
-title: 在 Exchange 使用 EWS 执行分页的搜索
+title: 使用 Exchange 中的 EWS 执行分页搜索
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 64ed70e4-32eb-4c25-bfc4-43d1477296e5
-description: 了解如何在您的 EWS 托管 API 或 Exchange 的 EWS 应用程序执行分页的搜索。
-ms.openlocfilehash: 3f82f46d0582b0b7ff8be63de8a7054b5f3cacab
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 了解如何在面向 Exchange 的 EWS 托管 API 或 EWS 应用程序中执行分页搜索。
+localization_priority: Priority
+ms.openlocfilehash: 2b608584918c936f62883b8b444d59c05c5952ff
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752864"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456826"
 ---
-# <a name="perform-paged-searches-by-using-ews-in-exchange"></a>在 Exchange 使用 EWS 执行分页的搜索
+# <a name="perform-paged-searches-by-using-ews-in-exchange"></a>使用 Exchange 中的 EWS 执行分页搜索
 
-了解如何在您的 EWS 托管 API 或 Exchange 的 EWS 应用程序执行分页的搜索。
+了解如何在面向 Exchange 的 EWS 托管 API 或 EWS 应用程序中执行分页搜索。
   
-分页是使您能够控制搜索结果的大小的 EWS 中的功能。 而不是检索整个结果集一个 EWS 响应中，您可以检索在多个 EWS 响应中较小的集。 例如，假设有 10,000 其收件箱中的电子邮件的用户。 假设您无法检索一个非常大的响应，所有 10,000 电子邮件，但您可能想要的拆分到更易于管理的区块带宽或性能原因。 分页为您提供的工具，做到这一点。
+分页是 EWS 中的一项功能，使您能够控制搜索结果的大小。 您可以检索多个 EWS 响应中的较小集，而不是在一个 EWS 响应中检索整个结果集。 例如，假设用户的收件箱中有10000封电子邮件。 Hypothetically，您可以在一个非常大的响应中检索所有10000电子邮件，但由于带宽或性能原因，您可能需要将其分解为更易于管理的区块。 分页为您提供了实现此目的的工具。
   
 > [!NOTE]
-> 时您可以假定 10,000 以检索项目一个请求，实际上，这是由于 EWS 限制太。 若要了解更多信息，请参阅[EWS 限制在 Exchange](ews-throttling-in-exchange.md)。 
+> 虽然您可以 hypothetically 在一个请求中检索10000项，但实际上这不是由于 EWS 限制而造成的。 若要了解详细信息，请参阅[Exchange 中的 EWS 限制](ews-throttling-in-exchange.md)。 
   
-**表 1。EWS 托管 API 和 EWS 中的分页参数**
+**表1。EWS 托管 API 和 EWS 中的分页参数**
 
-|**若要配置或检索...**|**EWS 托管 API，在使用...**|**EWS，在使用...**|
+|**若要配置或检索 .。。**|**在 EWS 托管 API 中，使用 .。。**|**在 EWS 中，使用 .。。**|
 |:-----|:-----|:-----|
-|项目或文件夹的响应中的最大数量  <br/> |[属性查看构造函数](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.itemview.itemview%28v=exchg.80%29.aspx)或[FolderView 构造函数](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folderview.folderview%28v=exchg.80%29.aspx) **pageSize**参数 <br/> 或  <br/> [PagedView.PageSize](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.pagedview.pagesize%28v=exchg.80%29.aspx)属性  <br/> |有关[IndexedPageItemView](http://msdn.microsoft.com/library/6d1b0b04-cc35-4a57-bd7a-824136d14fda%28Office.15%29.aspx)元素或[IndexedPageFolderView](http://msdn.microsoft.com/library/c6dac232-244b-4db0-9a15-5e01b8aa7a7d%28Office.15%29.aspx)元素的**MaxEntriesReturned**属性  <br/> |
-|项目或文件夹的列表中的起始点  <br/> |**属性查看**构造函数或**FolderView**构造函数**offsetBasePoint**参数  <br/> 或  <br/> [PagedView.OffsetBasePoint](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.pagedview.offsetbasepoint%28v=exchg.80%29.aspx)属性  <br/> |有关**IndexedPageItemView**元素或**IndexedPageFolderView**元素的**基点**属性  <br/> |
-|偏移的起始点  <br/> |**Offset**参数**属性查看**构造函数或**FolderView**构造函数  <br/> 或  <br/> [PagedView.Offset](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.pagedview.offset%28v=exchg.80%29.aspx)属性  <br/> |**IndexedPageItemView**元素或**IndexedPageFolderView**元素上的**偏移**属性  <br/> |
-|在服务器上的结果的总数  <br/> |[FindItemsResults.TotalCount](http://msdn.microsoft.com/en-us/library/dd635348%28v=exchg.80%29.aspx)属性或[FindFoldersResults.TotalCount](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.findfoldersresults.totalcount%28v=exchg.80%29.aspx)属性  <br/> |有关[RootFolder (FindItemResponseMessage)](http://msdn.microsoft.com/library/187e009f-efaa-42a8-8962-329a645213ab%28Office.15%29.aspx)元素或[RootFolder (FindFolderResponseMessage)](http://msdn.microsoft.com/library/5089c815-663f-46be-bc59-aed9ee20f94a%28Office.15%29.aspx)元素的**TotalItemsInView**属性  <br/> |
-|第一项或文件夹不包含在当前响应的偏移量  <br/> |[FindItemsResults.NextPageOffset](http://msdn.microsoft.com/en-us/library/ee693014%28v=exchg.80%29.aspx)属性或[FindFoldersResults.NextPageOffset](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.findfoldersresults.nextpageoffset%28v=exchg.80%29.aspx)属性  <br/> |**RootFolder** element 的**IndexedPagingOffset**属性  <br/> |
-|响应包括最后一项或文件夹列表中的标记  <br/> |[FindItemsResults.MoreAvailable](http://msdn.microsoft.com/en-us/library/dd635477%28v=exchg.80%29.aspx)属性或[FindFoldersResults.MoreAvailable](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.findfoldersresults.moreavailable%28v=exchg.80%29.aspx)属性  <br/> |**RootFolder** element 的**IncludesLastItemInRange**属性  <br/> |
+|响应中的最大项目数或文件夹数  <br/> |[ItemView 构造函数](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.itemview.itemview%28v=exchg.80%29.aspx)或[FolderView 构造函数](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folderview.folderview%28v=exchg.80%29.aspx)的**pageSize**参数 <br/> 或  <br/> [PageSize 属性 PagedView](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.pagedview.pagesize%28v=exchg.80%29.aspx)  <br/> |[IndexedPageItemView](https://msdn.microsoft.com/library/6d1b0b04-cc35-4a57-bd7a-824136d14fda%28Office.15%29.aspx)元素或[IndexedPageFolderView](https://msdn.microsoft.com/library/c6dac232-244b-4db0-9a15-5e01b8aa7a7d%28Office.15%29.aspx)元素上的**MaxEntriesReturned**属性  <br/> |
+|项或文件夹列表中的起始点  <br/> |**ItemView**构造函数或**FolderView**构造函数的**offsetBasePoint**参数  <br/> 或  <br/> [OffsetBasePoint 属性 PagedView](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.pagedview.offsetbasepoint%28v=exchg.80%29.aspx)  <br/> |**IndexedPageItemView**元素或**IndexedPageFolderView**元素上的**BasePoint**属性  <br/> |
+|起始点的偏移量  <br/> |**ItemView**构造函数或**FolderView**构造函数的**offset**参数  <br/> 或  <br/> [PagedView](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.pagedview.offset%28v=exchg.80%29.aspx)属性  <br/> |**IndexedPageItemView**元素或**IndexedPageFolderView**元素上的**Offset**属性  <br/> |
+|服务器上的总结果数  <br/> |TotalCount 属性或[FindFoldersResults](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.findfoldersresults.totalcount%28v=exchg.80%29.aspx)属性[FindItemsResults](https://msdn.microsoft.com/library/dd635348%28v=exchg.80%29.aspx)  <br/> |[RootFolder （FindItemResponseMessage）](https://msdn.microsoft.com/library/187e009f-efaa-42a8-8962-329a645213ab%28Office.15%29.aspx)元素或[RootFolder （FindFolderResponseMessage）](https://msdn.microsoft.com/library/5089c815-663f-46be-bc59-aed9ee20f94a%28Office.15%29.aspx)元素上的**TotalItemsInView**属性  <br/> |
+|当前响应中未包含的第一个项目或文件夹的偏移量  <br/> |NextPageOffset 属性或[FindFoldersResults](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.findfoldersresults.nextpageoffset%28v=exchg.80%29.aspx)属性[FindItemsResults](https://msdn.microsoft.com/library/ee693014%28v=exchg.80%29.aspx)  <br/> |**RootFolder**元素上的**IndexedPagingOffset**属性  <br/> |
+|指示符，响应包含列表中的最后一个项目或文件夹  <br/> |MoreAvailable 属性或[FindFoldersResults](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.findfoldersresults.moreavailable%28v=exchg.80%29.aspx)属性[FindItemsResults](https://msdn.microsoft.com/library/dd635477%28v=exchg.80%29.aspx)  <br/> |**RootFolder**元素上的**IncludesLastItemInRange**属性  <br/> |
    
-## <a name="how-paging-works"></a>分页的工作原理
+## <a name="how-paging-works"></a>分页的工作方式
 <a name="bk_HowPagingWorks"> </a>
 
-若要了解分页的工作原理，最好可视化为广告牌对齐并排您住宅之外的字段中的文件夹中的邮件。 您可以看到一些这些广告牌通过神奇窗口。 您可以更改窗口 （以同时查看更多或更少广告牌） 的大小和移动窗口 （来控制您可以查看哪些广告牌）。 此操作的窗口进行分页。 
+若要了解分页的工作方式，将文件夹中的邮件直观地可视化在房屋外部的字段中，将文件夹中的邮件可视化为 billboards。 您可以通过神奇窗口查看其中一些 billboards。 您可以更改窗口的大小（以同时查看更多或更少的 billboards）和移动窗口（以控制您可以查看的 billboards）。 对窗口的此操作进行分页。 
   
-当您的请求发送到 Exchange 服务器上时，您指定要返回的项目数方面窗口的大小。 您可以通过指定的起始点是 （行的开头） 或行末尾和从该表示中的项目数的起点的偏移量设置窗口的位置。 窗口的开头是从起始点的偏移量由指定的项目数。
+当您将请求发送到 Exchange 服务器时，请根据要返回的项目数指定窗口的大小。 您可以通过指定起始点（行的开头或结尾的行的开头）和从该起始点开始的偏移量（用多个项目表示）来设置窗口的位置。 窗口的开头是由起始点的偏移量指定的项目数。
   
-分页获取更感兴趣的位置是服务器的响应，以及如何应用程序可以使用该响应形状及其下一个请求中。 服务器为您提供了三个可用来确定如何配置您在下一个请求"窗口"的信息： 
+在服务器的响应中，分页变得更有趣，以及应用程序如何使用该响应形状其下一个请求。 服务器提供了三个信息，可用于确定如何为下一个请求配置 "窗口"： 
   
-- 是否在响应中的结果在服务器上设置的总体结果中包括的最后一项。
+- 响应中的结果是否包括服务器上的总体结果集中的最后一项。
     
-- 在结果集中在服务器上的项目总数。
+- 服务器上的结果集中的项目总数。
     
-- 下一步的偏移的值应是什么，如果您想要前进到当前响应中不包括在结果集中的下一项，您的窗口。
+- 下一个偏移值应是什么，如果您想要将窗口前进到结果集中不包含在当前响应中的下一项。
     
-让我们看一下简单示例。 假设包含 15 中的邮件收件箱。 您的应用程序发送初始请求检索最多 10 个项目，开头的列表的邮件 （因此偏移量为零）。 服务器响应前 10 的消息，并指示响应不包括最后一项，有 15 项的汇总和下一个偏移应为 10。
+我们来看看一个简单的示例。 设想一下收件箱中有15封邮件。 您的应用程序发送初始请求，以检索最多10个项目（从邮件列表的开头开始）（因此偏移量为零）。 服务器响应前10封邮件，并指示响应不包含最后一项，共15个项目，并且下一个偏移量应为10。
   
-**图 1。请求 10 个项目，在偏移量为 0 列表从头 15 个项目**
+**图1。从15个项目的列表开始处偏移量0请求10个项目**
 
 ![此图显示从包含 15 个项目的列表开始，在偏移量为 0 的情况下，请求 10 个项目的结果。](media/Ex15_PagedSearch_FirstPage.png)
   
-在于偏移量现在是 10，则您的应用程序然后重新发送到服务器，更改只使用相同的请求。 服务器返回最近五项，并指示响应，包括最后一项，有 15 项的汇总和下一个偏移应为 15，（尽管当然，您已达到结束时，因此不会有下偏移量。）
+然后，您的应用程序会将同一请求重新发送给服务器，只是偏移量现在为10。 服务器返回最后五个项目，并指示响应包含的最后一项，共15个项目，并且下一个偏移量应为15个（当然，您已经到达结束，因此不会出现下一个偏移量。）
   
-**图 2。请求 10 个项目，在偏移量为 10 列表从头 15 个项目**
+**图2。在偏移量10处请求10个项目，从15个项目的列表开始**
 
 ![此图显示从包含 15 个项目的列表开始，在偏移量为 10 的情况下，请求 10 个项目的结果。](media/Ex15_PagedSearch_SecondPage.png)
   
-## <a name="design-considerations-for-paging"></a>分页的设计注意事项
+## <a name="design-considerations-for-paging"></a>页面的设计注意事项
 <a name="bk_DesignConsiderations"> </a>
 
-在您的应用程序中进行最有效地使用分页确实需要一些注意事项。 例如，如何大型使您的"窗口"？ 如果在服务器上的结果时移动您"窗口"更改，则该怎么办？
+在应用程序中最大限度地进行分页确实需要考虑一些事项。 例如，将 "窗口" 设置为多大？ 如果您在移动 "窗口" 时服务器上的结果发生了变化，该怎么办？
   
-### <a name="determine-the-size-of-your-window"></a>确定您的窗口的大小
+### <a name="determine-the-size-of-your-window"></a>确定窗口的大小
 
-最大没有"通用的"所有应用程序应使用的条目数。 确定适合您的应用程序的数量取决于多个不同的因素。 但是，最好请记住以下准则：
+所有应用程序都应使用的最大条目数不是 "一种大小适合"。 确定适合您的应用程序的数量取决于几个不同的因素。 但是，请牢记以下准则，这很有帮助：
   
-- 默认情况下，Exchange 限制为 1000年可以在单个请求返回的项的最大数目。
+- 默认情况下，Exchange 会将单个请求中可返回的最大项目数限制为1000。
     
-- 设置为无需发送较少的请求以获取所有项，但无需再等待响应较大数字会产生的最大项数。
+- 将最大条目数设置为较大的数将导致不得不发送较少的请求来获取所有项目，代价是需要等待更长时间进行响应。
     
-- 更快地响应时间，但无需发送多个请求以获取所有项较小的数字结果设置的最大项数。
+- 将最大条目数设置为较小的数目会导致更快的响应速度，代价是需要发送更多请求来获取所有项目。
     
-### <a name="handling-changes-to-the-result-set"></a>对结果集的处理更改
+### <a name="handling-changes-to-the-result-set"></a>处理对结果集所做的更改
 
-在本文前面的简单示例中，用户的收件箱中的项的数目保持不变。 但是，在实际情况下，收件箱中的项目数可以经常更改。 新邮件可以到达，可以删除或移动随时项。 但此影响分页原理？ 我们来修改前面的示例方案，以找出。
+在本文前面的简单示例中，用户的收件箱中的项目数保持不变。 然而，实际上，收件箱中的项目数可能会经常更改。 可以随时删除或删除新邮件，也可以删除或移动项目。 但这对分页有何影响？ 让我们修改更早的示例方案以了解。
   
-我们将再次开头的 15 项中用户的收件箱，并发送了相同的初始请求。 前，服务器将响应前 10 的消息，并指示的响应不包括最后一项，有 15 项的汇总和下一个偏移应为 10，如图 1 中所示。
+我们将再次从用户的收件箱中的15个项目开始，并发送相同的初始请求。 与之前一样，服务器会使用前10封邮件进行响应，并指示响应不包含最后一个项目，总共有15个项目，并且下一个偏移量应为10，如图1所示。
   
-现在，在您的应用程序处理这些 10 个项目时，新邮件到达收件箱，并添加到服务器上设置的结果。 您的应用程序 （仅与偏移量设置为 10） 重新发送到服务器相同的请求。 这次服务器获取后六个项目，并指示在结果集中的 16 项的汇总。
+现在，当您的应用程序处理这10个项目时，新邮件到达收件箱中，并添加到服务器上的结果集中。 应用程序将同一请求重新发送给服务器（仅限偏移量设置为10）。 这次，服务器将返回六个项目，并指示结果集中共有16个项目。
   
-此时您可能想知道是否这甚至一个问题。 毕竟，您获取 16 项后通过两种响应，那么，为什么所有都能够轻松处理？ 答案取决于新项目的列表中放置位置。 对列表进行排序，以便 （通过接收日期/时间） 最早的项目的第一个，在此方案中的问题的任何原因。 新项的列表的结尾处，将会发出，并将第二个响应中包括。
+此时，您可能会想知道这是否是一个问题。 毕竟，您可以通过两个响应获得16个项目，因此为什么要执行所有 fuss？ 答案取决于在列表中放置新项目的位置。 如果已对列表进行排序，以便首先使用最旧的项目（按接收日期/时间），则在这种情况下不会出现问题。 新项将放置在列表的末尾，并将包含在第二个响应中。
   
-**图 3。请求 10 个项目在偏移量为 10 16 项目列表的从头与正在新列表中的第 16 项**
+**图3。从16项列表的开头开始，在偏移量10处请求10个项目，列表中的第16项为新项**
 
 ![此图显示从包含 16 个项目的列表开始，当第 16 个项目添加到列表结束位置时，在偏移量为 10 的情况下，请求 10 个项目的结果。](media/Ex15_PagedSearch_SecondPage_NewItemEnd.png)
   
-如果对列表进行排序，以便最新的项目的第一个，则不同的文章。 在这种情况下，从以前的请求的最后一项以及从原始 15 剩余的五个项目，将为第二个请求中的第一项。 若要将其放在我们虚神奇窗口中，您移动窗口的位置 10，但广告牌本身也移动 1。
+如果对列表进行排序以使最新的项最先开始，则这是一个不同的情景。 在这种情况下，第二个请求中的第一项是上一个请求中的最后一项加上剩余的五个项目（来自原始15个项目）。 为了使其成为我们的假想神奇窗口，您将窗口的位置移动了10，但 billboards 本身也会移动1个。
   
-**图 4。请求在偏移量为 10 16 项目列表的从头正在新列表中的第一项的 10 个项目**
+**图4。从16项列表的开头开始，在偏移量10处请求10个项目，列表中的第一个项目为新项目**
 
 ![此图显示从包含 16 个项目的列表开始，当第 16 个项目添加到列表开始位置时，在偏移量为 10 的情况下，请求 10 个项目的结果。](media/Ex15_PagedSearch_SecondPage_NewItemBeginning.png)
   
-检测到的服务器上的结果的更改的一种方法是使用定位项目的概念。 定位项是您的未处理以及其余的结果，但用于与下一个结果来了解是否具有多项本身进行比较的响应中的其他项。 再次在生成简单的示例中，如果您的应用程序使用的"窗口"大小为 10，实际上设置以返回到 11 最大项数。 您的应用程序像往常一样处理的响应中的前 10 项。 对于最后一项，您的定位点，保存项目的标识符，然后发出下一个请求和偏移量为 10。 如果尚未更改数据，第二个响应中的第一项应匹配定位标记的项标识符。 不匹配的项标识符，如果您知道通过已删除或插入您具有已"分页"列表中的部分数据。
+在服务器上检测对结果所做的更改的一种方法是使用定位项的概念。 定位项是响应中未与结果的其余部分一起处理的其他项目，但用于与下一个结果进行比较，以查看这些项目本身是否发生了移位。 重新构建在简单的示例中，如果您的应用程序使用的是 "窗口" 大小为10，实际上是将要返回的最大项目数设置为11。 您的应用程序照常处理响应中的前10个项目。 对于最后一个项目，将该项目的标识符另存为一个锚点，然后发出偏移量为10的下一个请求。 如果数据未更改，则第二个响应中的第一项应具有与定位点匹配的项标识符。 如果项目标识符不匹配，则知道数据已被删除或插入到已 "分页" 的列表的部分。
   
-即使时您知道数据发生更改，仍需要决定如何做出反应。 没有此问题的通用应答也。 您的操作将取决于您的应用程序和捕获所有项目所旨在的关键程度的特性。 您可能完全忽略，重新启动从开头、 过程或备份跟踪并尝试检测更改发生了变化。
+即使您知道数据已更改，您仍需要决定如何反应。 没有一个适用于此问题的完全不适合的答案。 您的操作将取决于应用程序的性质以及捕获所有项目的关键程度。 您可以完全忽略它，重新启动进程，或再次跟踪，并尝试检测发生更改的位置。
   
-## <a name="example-perform-a-paged-search-by-using-the-ews-managed-api"></a>示例： 使用 EWS 托管 API 执行分页的搜索
+## <a name="example-perform-a-paged-search-by-using-the-ews-managed-api"></a>示例：使用 EWS 托管 API 执行分页搜索
 <a name="bk_PagedSearchEWSMA"> </a>
 
-通过下列 EWS 托管 API 方法支持分页：
+分页受以下 EWS 托管 API 方法支持：
   
-- [ExchangeService.FindFolders](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.findfolders%28v=exchg.80%29.aspx)
+- [ExchangeService。 FindFolders](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.findfolders%28v=exchg.80%29.aspx)
     
-- [ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)
+- [ExchangeService。 FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)
     
-- [Folder.FindFolders](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx)
+- [FindFolders](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx)
     
-- [Folder.FindFolders](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx)
+- [FindFolders](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx)
     
-如果您使用 EWS 托管 API，您的应用程序与[属性查看](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.itemview%28v=exchg.80%29.aspx)或[FolderView](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folderview%28v=exchg.80%29.aspx)类配置分页，并从服务器接收信息关于从[FindItemsResults](http://msdn.microsoft.com/en-us/library/dd635381%28v=exchg.80%29.aspx)或[FindFoldersResults](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.findfoldersresults%28v=exchg.80%29.aspx)分页类。 
+如果您使用 EWS 托管 API，应用程序将使用[ItemView](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.itemview%28v=exchg.80%29.aspx)或[FolderView](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folderview%28v=exchg.80%29.aspx)类配置分页，并从来自[FindItemsResults](https://msdn.microsoft.com/library/dd635381%28v=exchg.80%29.aspx)或[FindFoldersResults](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.findfoldersresults%28v=exchg.80%29.aspx)类的有关页面的服务器接收相关信息。 
   
-以下示例检索使用每个响应中返回五个项目的分页的搜索文件夹中的所有项目。 它还将检索其他项用作定位来检测到的服务器上的结果的更改。 
+下面的示例使用分页搜索来检索文件夹中的所有项目，每个响应中返回5个项目。 它还会检索另一个项，以用作定位点，以检测对服务器上的结果所做的更改。 
   
-本示例假定已初始化**ExchangeService**对象，在[凭据](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx)和[Url](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx)属性的有效值。 
+此示例假定已使用[凭据](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx)和[Url](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx)属性中的有效值对**ExchangeService**对象进行了初始化。 
   
 ```cs
 using Microsoft.Exchange.WebServices.Data;
@@ -173,25 +173,25 @@ static void PageSearchItems(ExchangeService service, WellKnownFolderName folder)
 }
 ```
 
-## <a name="example-perform-a-paged-search-by-using-ews"></a>示例： 使用 EWS 执行分页的搜索
+## <a name="example-perform-a-paged-search-by-using-ews"></a>示例：使用 EWS 执行分页搜索
 <a name="bk_PagedSearchEWS"> </a>
 
-分页支持以下 EWS 操作：
+分页由以下 EWS 操作支持：
   
-- [FindFolder](http://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx)
+- [FindFolder](https://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx)
     
-- [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)
+- [FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)
     
-如果您正在使用 EWS，您的应用程序将页面配置与[IndexedPageItemView](http://msdn.microsoft.com/library/6d1b0b04-cc35-4a57-bd7a-824136d14fda%28Office.15%29.aspx)元素或[IndexedPageFolderView](http://msdn.microsoft.com/library/c6dac232-244b-4db0-9a15-5e01b8aa7a7d%28Office.15%29.aspx)元素，并从服务器接收信息关于从[RootFolder (分页FindItemResponseMessage)](http://msdn.microsoft.com/library/187e009f-efaa-42a8-8962-329a645213ab%28Office.15%29.aspx)元素或[RootFolder (FindFolderResponseMessage)](http://msdn.microsoft.com/library/5089c815-663f-46be-bc59-aed9ee20f94a%28Office.15%29.aspx)元素。 
+如果使用的是 EWS，应用程序将使用[IndexedPageItemView](https://msdn.microsoft.com/library/6d1b0b04-cc35-4a57-bd7a-824136d14fda%28Office.15%29.aspx)元素或[IndexedPageFolderView](https://msdn.microsoft.com/library/c6dac232-244b-4db0-9a15-5e01b8aa7a7d%28Office.15%29.aspx)元素配置分页，并从来自[RootFolder （FindItemResponseMessage）](https://msdn.microsoft.com/library/187e009f-efaa-42a8-8962-329a645213ab%28Office.15%29.aspx)元素或[RootFolder （FindFolderResponseMessage）](https://msdn.microsoft.com/library/5089c815-663f-46be-bc59-aed9ee20f94a%28Office.15%29.aspx)元素的页面接收有关信息。 
   
-在此请求示例中， **FindItem**请求发送的六个项目，在偏移量的用户的收件箱中项目的列表开始从零开始的最大值。 
+在此请求示例中， **FindItem**请求最多为6个项目发送，从用户收件箱中的项目列表的开头偏移零处开始。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
     <t:TimeZoneContext>
@@ -215,21 +215,21 @@ static void PageSearchItems(ExchangeService service, WellKnownFolderName folder)
 </soap:Envelope>
 ```
 
-服务器将返回以下响应，其中包含六个项目。 响应还指示不存在的服务器上，在结果中的八个项的汇总，并且在结果列表中的最后一项不存在此响应。
+服务器返回以下响应，其中包含六个项目。 该响应还指示服务器上的结果中总共有八项，并且结果列表中的最后一项不存在于此响应中。
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="775" MinorBuildNumber="35" Version="V2_4" 
-        xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-        xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
         xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:FindItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:FindItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:FindItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -268,14 +268,14 @@ static void PageSearchItems(ExchangeService service, WellKnownFolderName folder)
 </s:Envelope>
 ```
 
-本示例中，发送了相同的请求，但这次，**偏移量**属性更改为 5，这表明，服务器应返回最多五个从头开始的偏移量处开始六个项。 
+在此示例中，将发送相同的请求，但这次， **Offset**属性将更改为5，这表示服务器最多应从开头偏移量5处开始返回六个项目。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
     <t:TimeZoneContext>
@@ -299,21 +299,21 @@ static void PageSearchItems(ExchangeService service, WellKnownFolderName folder)
 </soap:Envelope>
 ```
 
-服务器发送以下的响应，其中包含三个项目。 响应还指示在结果中的服务器上的项目总数仍 8 个，以及该的最后一项在结果列表包含在此响应。
+服务器发送以下响应，其中包含三个项目。 该响应还指示服务器上的结果中的项目总数仍为8，并且结果列表中的最后一个项目包含在此响应中。
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="775" MinorBuildNumber="35" Version="V2_4" 
-        xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-        xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
         xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:FindItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:FindItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:FindItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -345,18 +345,18 @@ static void PageSearchItems(ExchangeService service, WellKnownFolderName folder)
 
 - [搜索和交换中的 EWS](search-and-ews-in-exchange.md)
     
-- [ExchangeService.FindFolders 方法](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.findfolders%28v=exchg.80%29.aspx)
+- [ExchangeService 方法](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.findfolders%28v=exchg.80%29.aspx)
     
-- [ExchangeService.FindItems 方法](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)
+- [ExchangeService 方法](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)
     
-- [Folder.FindFolders 方法](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx)
+- [FindFolders 方法](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx)
     
-- [Folder.FindFolders 方法](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx)
+- [FindFolders 方法](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx)
     
-- [FindFolder Operation](http://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx)
+- [FindFolder 操作](https://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx)
     
-- [FindItem 操作](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)
+- [FindItem 操作](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)
     
-- [限制在 Exchange 中的 EWS](ews-throttling-in-exchange.md)
+- [Exchange 中的 EWS 限制](ews-throttling-in-exchange.md)
     
 

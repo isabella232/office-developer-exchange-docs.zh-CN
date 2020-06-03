@@ -1,165 +1,165 @@
 ---
-title: 在 Exchange 使用 EWS 执行 AQS 搜索
+title: 在 Exchange 中使用 EWS 执行 AQS 搜索
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: c136901a-313e-4adf-a223-1d090d16917a
-description: 了解如何使用查询字符串和 AQS EWS 托管 API 或 EWS 应用程序中的搜索。
-ms.openlocfilehash: dc859e24fa80cd5627477182979c9cc9527818d6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 了解如何使用 EWS 托管 API 或 EWS 应用程序中的查询字符串和 AQS 进行搜索。
+localization_priority: Priority
+ms.openlocfilehash: 9f611a8d90c6baf0f307897735c6366c82bb63c8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752881"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455714"
 ---
-# <a name="perform-an-aqs-search-by-using-ews-in-exchange"></a>在 Exchange 使用 EWS 执行 AQS 搜索
+# <a name="perform-an-aqs-search-by-using-ews-in-exchange"></a>在 Exchange 中使用 EWS 执行 AQS 搜索
 
-了解如何使用查询字符串和 AQS EWS 托管 API 或 EWS 应用程序中的搜索。
+了解如何使用 EWS 托管 API 或 EWS 应用程序中的查询字符串和 AQS 进行搜索。
   
-查询字符串提供[搜索筛选器](how-to-use-search-filters-with-ews-in-exchange.md)的替代项来表示搜索条件。 使用查询字符串的最大好处是，您无需指定要搜索的一个属性。 您可以只提供一个值，并搜索将应用于所有常用项目字段。 您可以使用高级查询语法 (AQS) 而不是一个简单的值来改进搜索。 但是，查询字符串具有之前将其添加到工具箱应注意以下限制： 
+查询字符串提供了用于表示搜索条件的[搜索筛选器](how-to-use-search-filters-with-ews-in-exchange.md)的替代方法。 使用查询字符串的最大优势在于，无需指定单个要搜索的属性。 您可以只提供一个值，搜索将应用于项目的所有常用字段。 您还可以使用高级查询语法（AQS）而不是简单值来优化搜索。 但是，在将查询字符串添加到工具箱之前，应注意以下限制： 
   
-- **有限的能够搜索特定属性。** 在搜索查询字符串中的简单值时，搜索是针对所有索引属性执行。 可以优化您搜索与特定的属性，但可使用 AQS 字符串中的所有属性有限。 如果您想要搜索的属性不是一个可供 AQS 属性，请考虑使用的搜索筛选器。 
+- **搜索特定属性的功能受限。** 在查询字符串中使用简单值进行搜索时，将对所有索引属性执行搜索。 您可以将搜索限定为特定属性，但可在 AQS 字符串中使用的属性将受到限制。 如果要搜索的属性不是可用于 AQS 的属性之一，请考虑使用搜索筛选器。 
     
-- **不搜索自定义属性。** 查询字符串搜索索引，针对执行和自定义属性不包括在该索引。 如果您需要搜索自定义属性，请改用的搜索筛选器。 
+- **不搜索自定义属性。** 查询字符串搜索是针对索引执行的，而自定义属性不包含在该索引中。 如果需要搜索自定义属性，请改用搜索筛选器。 
     
-- **有限的控制字符串搜索。** 查询字符串搜索始终忽略大小写，并且始终子字符串搜索。 如果您想要执行区分大小写，前缀或完全匹配搜索，将使用的搜索筛选器。 
+- **对字符串搜索的有限控制。** 查询字符串搜索始终忽略大小写，且始终为子字符串搜索。 如果要执行区分大小写、前缀或完全匹配搜索，请使用搜索筛选器。 
     
-- **不可用的文件夹或搜索文件夹。** 搜索文件夹的 EWS 操作不支持使用查询字符串。 此外，搜索文件夹不支持查询字符串。 在这两种情况下，搜索筛选器是唯一的选项。 
+- **不适用于文件夹或搜索文件夹。** 用于搜索文件夹的 EWS 操作不支持使用查询字符串。 此外，搜索文件夹不支持查询字符串。 在这两种情况下，搜索筛选器都是唯一选项。 
     
 ## <a name="creating-a-query-string"></a>创建查询字符串
 <a name="bk_CreateQueryString"> </a>
 
-EWS 托管 API 和 EWS 中的查询字符串被解释为 AQS 语法的子集。 AQS 字符串组成值或冒号 （:） 分隔的关键字/值对。
+EWS 托管 API 和 EWS 中的查询字符串被解释为 AQS 语法的子集。 AQS 字符串由值或关键字/值对组成，由冒号（:) 分隔）。
   
 `keyword:value`
 
-没有关键字指定一个值，则值会搜索索引的所有属性。 如果值配对关键字时，关键字指定要搜索的相应值的属性。
+如果不使用关键字指定值，将在所有索引属性中搜索值。 如果关键字与值成对出现，则关键字指定用于搜索相应值的属性。
   
-**表 1。支持的 AQS 关键字**
+**表1。支持的 AQS 关键字**
 
 |**关键字**|**值类型**|**示例**|
 |:-----|:-----|:-----|
-|subject  <br/> |String  <br/> |主题： 项目  <br/> |
-|body  <br/> |String  <br/> |正文： 销售图表  <br/> |
-|附件  <br/> |String  <br/> |附件： 报告  <br/> |
-|更改为  <br/> |String  <br/> |到:"Sadie Daniels"  <br/> |
-|发件人  <br/> |String  <br/> |从： 希望  <br/> |
-|cc  <br/> |String  <br/> |抄送:"Ronnie Sturgis"  <br/> |
-|bcc  <br/> |String  <br/> |bcc:mack  <br/> |
+|subject  <br/> |String  <br/> |subject： project  <br/> |
+|body  <br/> |String  <br/> |正文：销售数据  <br/> |
+|attachment  <br/> |String  <br/> |附件：报表  <br/> |
+|更改为  <br/> |String  <br/> |to： "Sadie Daniels"  <br/> |
+|发件人  <br/> |String  <br/> |发件人：希望  <br/> |
+|cc  <br/> |String  <br/> |抄送： "Ronnie Sturgis"  <br/> |
+|bcc  <br/> |String  <br/> |密件抄送： mack  <br/> |
 |participants  <br/> |String  <br/> |参与者： sadie  <br/> |
-|category  <br/> |String  <br/> |类别： 项目  <br/> |
-|importance  <br/> |String  <br/> |高重要性：  <br/> |
-|类型  <br/> |项目类型  <br/> |类型： 会议  <br/> |
-|发送  <br/> |日期  <br/> |发送： 12/10/2013年  <br/> |
-|接收  <br/> |日期  <br/> |接收： 昨天  <br/> |
-|hasattachment  <br/> |Boolean  <br/> |具有附件： true  <br/> |
-|isflagged  <br/> |Boolean  <br/> |isflagged:true  <br/> |
-|isread  <br/> |Boolean  <br/> |isread:false  <br/> |
-|size  <br/> |数字  <br/> |大小：\>5000  <br/> |
+|“类别”  <br/> |String  <br/> |类别：项目  <br/> |
+|importance  <br/> |String  <br/> |importance:high  <br/> |
+|kind  <br/> |项目类型  <br/> |种类：会议  <br/> |
+|sent  <br/> |日期  <br/> |已发送： 12/10/2013  <br/> |
+|received  <br/> |日期  <br/> |已接收：昨天  <br/> |
+|hasattachment  <br/> |Boolean  <br/> |有附件： true  <br/> |
+|isflagged  <br/> |Boolean  <br/> |isflagged： true  <br/> |
+|isread  <br/> |Boolean  <br/> |isread： false  <br/> |
+|大小  <br/> |编号  <br/> |大小： \> 5000  <br/> |
    
-我们来看看不同的值类型的工作方式。
+让我们来看看不同的值类型的工作原理。
   
 ### <a name="using-a-string-value-type"></a>使用字符串值类型
 
-默认情况下不区分大小写的前缀子字符串搜索作为搜索是字符串值类型。 这意味着，搜索主题： 项目不匹配任何以下主题： 
+默认情况下，将字符串值类型搜索为不区分大小写的前缀子字符串搜索。 这意味着搜索主题： project 将匹配以下任何主题： 
   
 - 项目会议笔记
     
 - 您是否有项目计划？
     
-- 12 月销售计划
+- 12月销售预测
     
-您可以更改搜索需要通过括在引号的字符串的全字而不是匹配的前缀。 主题的搜索:"项目"将不再匹配项的列表中的"年 12 月销售预测"值。 请注意，则仍不区分大小写。 
+您可以通过将字符串括在引号中，将搜索更改为需要整个词而不是匹配的前缀。 搜索主题： "项目" 将消除匹配项列表中的 "12 月销售预测" 值。 请注意，此值仍不区分大小写。 
   
-如果您在查询字符串中使用多个单词，匹配将需要两个词出现在搜索字段。 例如，搜索主题： 项目计划不匹配任何以下主题： 
+如果在查询字符串中使用多个单词，则匹配要求两个单词都显示在搜索字段中。 例如，搜索主题：项目计划将与以下任何主题匹配： 
   
 - 项目计划
     
 - 您是否有项目计划？
     
-- 请向我发送我们的项目的计划
+- 请向我发送项目计划
     
 - 规划项目里程碑
     
-如果将多个单词括在引号内，将被视为一个短语。 主题的搜索:"项目计划"可以仅匹配前一列表的"项目计划"主题。 
+如果将多个单词括在引号中，则会将它们视为一个短语。 搜索主题： "项目计划" 将仅与上一列表中的 "项目计划" 主题相匹配。 
   
-### <a name="using-an-item-type-value-type"></a>使用项目类型的值类型
+### <a name="using-an-item-type-value-type"></a>使用项目类型值类型
 
-可以用**类型**关键字使用的以下项目类型的值限制为特定类型的项目，如电子邮件或会议请求搜索结果： 
+您可以将以下项目类型值与**kind**关键字结合使用，以将搜索结果限制为只包含特定类型的项目，例如，电子邮件或会议请求： 
   
-- contacts    
+- 联系人    
 - 文档    
-- email    
+- 电子邮件    
 - 传真    
 - im （对应于即时消息）    
 - 日志    
-- 会议 (对应于约会和会议请求)    
-- notes    
-- posts    
-- rssfeeds    
-- tasks    
+- 会议（对应于约会和会议请求）    
+- 注释    
+- 公告    
+- RSS 源    
+- 任务    
 - 语音邮件
     
 ### <a name="using-a-date-value-type"></a>使用日期值类型
 
-您可以通过多种不同的方式搜索日期值类型。 简单的方法是搜索特定日期。 搜索与收到： 12/11/2013年将返回在 2013 年 12 月 11 日上收到的所有项目。 但是，您也可以是宽泛。 搜索与收到： 12/11 将返回年 12 月 11 当前上收到的所有项目。 
+您可以通过多种不同的方式搜索日期值类型。 最简单的是搜索特定日期。 搜索接收时间： 12/11/2013 将返回2013年12月11日收到的所有项目。 但是，也可以不太具体。 搜索接收时间： 12/11 将返回当前年份的12月11日收到的所有项目。 
   
-另一种选择是使用月份名称。 您可以搜索接收： 2013 年 12 月 11 日或年 12 月 11 收到获取相同的结果： 12/11/2013年和已接收： 12/11，分别。 您还可以搜索与收到： 年 12 月即可接收在十二月，将当前年份内的所有项目。 
+另一种方法是使用月份名称。 您可以使用 received：12月11日、2013或12月11日搜索，以获取与接收的相同结果： 12/11/2013 和 received： 12/11。 您还可以使用 "收到：十二月" 进行搜索，以获取在当年的12月内收到的所有项目。 
   
-使用每周的星期几的名称也是一个选项。 搜索与收到： 星期二将返回收到星期二本周的所有项目。 
+使用一周中各天的名称也是一个选项。 搜索接收时间：星期二将返回当前周的所有星期二收到的所有项目。 
   
-日期值类型还支持一组关键字搜索相对于当前时间。 支持以下关键字：
+Date 值类型还支持用于相对于当前时间的搜索的一组关键字。 支持以下关键字：
   
 - 今天  
 - tomorrow
 - yesterday
 - this week    
 - 上个星期    
-- 下个月    
-- 过去的月    
+- 下月    
+- 过去一个月    
 - 明年
     
-此外可以与大于或更少的关系运算符比较日期值类型比，或指定范围运算符 **.** 区域。例如，接收：\>11/30/2013年发送：\>昨天、 = 和 received:12/1/2013..today 均为有效的查询字符串。 
+也可以将 Date 值类型与大于或小于的关系运算符或指定为 range 运算符的范围进行比较 **。.** 例如，接收时间： \> 11/30/2013，已发送： \> = 昨天，接收时间： 12/1/2013。。今天是所有有效的查询字符串。 
   
 ### <a name="using-a-boolean-value-type"></a>使用布尔值类型
 
-布尔值类型可以是"true"或"false"。 值不是区分大小写，因此 isread:false 将产生 isread:FALSE 相同的结果。
+布尔值类型可以是 "true" 或 "false"。 这些值不区分大小写，因此 isread： false 将产生与 isread： FALSE 相同的结果。
   
 ### <a name="using-a-number-value-type"></a>使用数字值类型
 
-可以将数字值类型搜索为完全匹配，但他们还可搜索使用关系运算符类似大于或小于比。 例如，大小： 10000 将返回的大小为完全 10000 个字节，但大小的项目：\>= 10000 将返回具有大小大于或等于 10000 字节的项目。 您可以通过使用区域运算符 （ **.**） 来指定范围。 例如，大小： 7000..8000 将返回具有 7000 和 8000 之间的大小的项。 
+可以将 Number 值类型搜索为精确匹配，但也可以使用大于或小于的关系运算符搜索它们。 例如，size：10000将仅返回大小正好为10000字节的项目，但 size： \> = 10000 将返回大小大于或等于10000字节的项目。 您还可以使用区域运算符（ **...**）指定一个区域。 例如，大小为： 7000. 8000 将返回大小介于7000和8000之间的项目。 
   
 ### <a name="using-logical-operators"></a>使用逻辑运算符
 
 查询字符串支持下列逻辑运算符。
   
-**表 2。受支持的逻辑运算符**
+**表2。支持的逻辑运算符**
 
-|**运算符**|**示例**|
+|**Operator**|**示例**|
 |:-----|:-----|
-|AND  <br/> |项目以及从:"Sadie Daniels"  <br/> 主题:(project AND plan)  <br/> |
-|OR  <br/> |主题： 会议或从:"跃点总数计价"  <br/> 从: ("Sadie Daniels"或者"希望总数计价")  <br/> |
-|NOT  <br/> |并非来自:"Ronnie Sturgis"  <br/> 接收： 不是今天  <br/> |
+|AND  <br/> |项目和 from： "Sadie Daniels"  <br/> subject：（项目和计划）  <br/> |
+|OR  <br/> |主题：会议或发件人： "期望总额"  <br/> from （"Sadie Daniels" 或 "愿望总额"）  <br/> |
+|NOT  <br/> |不是 from： "Ronnie Sturgis"  <br/> 已接收：不是今天  <br/> |
    
-请注意，您可以使用这些运算符一起加入多个条件或一起加入内单个关键字/值对多个值。 但是，当加入多个值中的单个关键字/值对，您应使用括号括在一起的多个值。 若要了解原因，请考虑从与搜索:"Sadie Daniels"或者"总跃点"。 实际上，此搜索被解释为以下条件：
+请注意，可以使用这些运算符将多个条件联接在一起，或在一个关键字/值对中联接多个值。 但是，在单个关键字/值对中联接多个值时，应使用括号将多个值括起来。 若要了解原因，请考虑从 from： "Sadie Daniels" 或 "愿望总额" 中进行搜索。 此搜索实际上被解释为以下条件：
   
-- 该项目是从 Sadie Daniels、 OR
+- 项目来自 Sadie Daniels 或
     
-- 项目中的任何索引属性包含短语"跃点总数计价"。
+- 项目在其任何索引属性中具有短语 "期望总额"。
     
-相比之下，从: ("Sadie Daniels"或者"跃点总数计价") 将被解释为： 
+相比之下，从：（"Sadie Daniels" 或 "愿望总额"）解释为： 
   
-- 该项目是从 Sadie Daniels、 OR
+- 项目来自 Sadie Daniels 或
     
-- 该项目是从跃点总数计价
+- 物料的期望总额
     
-默认运算符时指定多个条件，但没有逻辑运算符包含是成和。 例如，具有附件： true 等效具有主题： 项目： 附件： true 和主题： 项目。
+在指定多个条件但不包含逻辑运算符的情况下，默认运算符为和。 例如，"有附件： true subject：项目等效于：附件： true AND subject：项目"。
   
-## <a name="example-find-items-by-using-a-query-string-and-the-ews-managed-api"></a>示例： 通过查询字符串和 EWS 托管 API 查找项目
+## <a name="example-find-items-by-using-a-query-string-and-the-ews-managed-api"></a>示例：使用查询字符串和 EWS 托管 API 查找项目
 <a name="bk_ExampleEWSMA"> </a>
 
-本示例中，定义调用**SearchWithQueryString**的方法。 计[ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象和[WellKnownFolderName](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.wellknownfoldername%28v=exchg.80%29.aspx)对象，表示作为参数的查询字符串的**字符串**对象。 本示例假定已初始化**ExchangeService**对象，在[凭据](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx)和[Url](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx)属性的有效值。 
+在此示例中，定义了一个名为**SearchWithQueryString**的方法。 它采用一个[ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象、一个[WellKnownFolderName](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.wellknownfoldername%28v=exchg.80%29.aspx)对象和一个代表查询字符串作为参数的**string**对象。 此示例假定已使用[凭据](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx)和[Url](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx)属性中的有效值对**ExchangeService**对象进行了初始化。 
   
 ```cs
 using Microsoft.Exchange.WebServices.Data;
@@ -201,24 +201,24 @@ static void SearchWithQueryString(ExchangeService service, WellKnownFolderName f
 }
 ```
 
-可以使用此方法来搜索与短语主题中的"项目计划"的所有项此例中所示。
+您可以使用此方法在主题中搜索短语为 "项目计划" 的所有项目，如本例中所示。
   
 ```cs
 string queryString = "subject:\"project plan\"";
 SearchWithQueryString(service, WellKnownFolderName.Inbox, queryString);
 ```
 
-## <a name="example-find-items-by-using-a-query-string-and-ews"></a>示例： 使用查询字符串和 EWS 查找项目
+## <a name="example-find-items-by-using-a-query-string-and-ews"></a>示例：使用查询字符串和 EWS 查找项目
 <a name="bk_ExampleEWS"> </a>
 
-本示例中，SOAP [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)请求在与短语主题中的"项目计划"收件箱中查找所有项目。 
+在此示例中，SOAP [FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)请求使用主题中的 "项目计划" 一词查找收件箱中的所有项目。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -249,20 +249,20 @@ SearchWithQueryString(service, WellKnownFolderName.Inbox, queryString);
 </soap:Envelope>
 ```
 
-下面的示例演示从搜索结果的服务器的响应。
+以下示例显示来自具有搜索结果的服务器的响应。
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="712" MinorBuildNumber="22" Version="V2_3" 
-        xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-        xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
         xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:FindItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:FindItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:FindItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -288,8 +288,8 @@ SearchWithQueryString(service, WellKnownFolderName.Inbox, queryString);
 ## <a name="see-also"></a>另请参阅
 
 - [搜索和交换中的 EWS](search-and-ews-in-exchange.md)    
-- [在 Exchange 中使用 EWS 使用搜索筛选器](how-to-use-search-filters-with-ews-in-exchange.md)    
-- [ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)    
-- [FindItem 操作](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)
+- [在 Exchange 中将搜索筛选器与 EWS 结合使用](how-to-use-search-filters-with-ews-in-exchange.md)    
+- [ExchangeService。 FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)    
+- [FindItem 操作](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)
     
 

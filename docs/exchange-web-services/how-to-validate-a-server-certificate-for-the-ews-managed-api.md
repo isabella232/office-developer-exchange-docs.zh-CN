@@ -1,47 +1,47 @@
 ---
-title: EWS 托管 api 验证服务器证书
+title: 验证 EWS 托管 API 的服务器证书
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 1fe0b215-8340-4bc8-a6ce-4f591ca9e353
-description: 了解如何创建和引用证书验证回调方法，以便您可以向 Exchange 服务器发出 EWS 托管 API 请求。
-ms.openlocfilehash: 13d7c51e55308b9e9997697a075c8a9e6b4f10d0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 了解如何创建和引用证书验证回调方法，以便可以对 Exchange 服务器进行 EWS 托管的 API 请求。
+localization_priority: Priority
+ms.openlocfilehash: 195c51ca71890d6092e4182d23990bb528d37095
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752893"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456778"
 ---
-# <a name="validate-a-server-certificate-for-the-ews-managed-api"></a>EWS 托管 api 验证服务器证书
+# <a name="validate-a-server-certificate-for-the-ews-managed-api"></a>验证 EWS 托管 API 的服务器证书
 
-了解如何创建和引用证书验证回调方法，以便您可以向 Exchange 服务器发出 EWS 托管 API 请求。
+了解如何创建和引用证书验证回调方法，以便可以对 Exchange 服务器进行 EWS 托管的 API 请求。
   
-开始 Exchange 2007 sp1 的 Exchange 版本默认情况下，使用自签名的 X509 证书进行身份验证从 EWS 的呼叫。 当您使用 EWS 托管 API 时，您需要创建的证书验证回调方法;否则，EWS 托管 API 请求将失败。 如果使用自动发现服务时，对 EWS 托管 API 自动发现方法的调用将失败， **AutodiscoverLocalException**错误。 如果您使用的 web 生成 web 服务代理，您可能需要创建的验证回调方法，具体取决于如何创建代理。 
+默认情况下，从 Exchange 2007 SP1 开始的 Exchange 版本使用自签名的 X509 证书对来自 EWS 的呼叫进行身份验证。 使用 EWS 托管 API 时，需要创建证书验证回调方法;否则，EWS 托管 API 请求将失败。 如果使用自动发现服务，则对 EWS 托管 API 自动发现方法的调用将失败，并出现**AutodiscoverLocalException**错误。 如果使用的是 web 生成的 web 服务代理，您可能还需要创建验证回调方法，具体取决于代理的创建方式。 
   
 ## <a name="prerequisites-for-creating-a-validation-callback-method"></a>创建验证回调方法的先决条件
 <a name="bk_prereq"> </a>
 
-若要设置以验证服务器证书，请确保以下是，则返回 true: 
+若要设置为验证服务器证书，请确保满足以下条件： 
   
-- 您的 Exchange 服务器对 EWS 使用自签名的证书。 如果管理员已安装到根证书的跟踪的有效证书，您不需要创建的验证回调方法。 
+- 您的 Exchange 服务器使用的是自签名证书的 EWS。 如果管理员已安装了跟踪到根证书的有效证书，则无需创建验证回调方法。 
     
-- 您正在创建的托管的应用程序包括以下所需的.NET Framework 命名空间的引用： 
+- 您正在创建一个包含对以下必需的 .NET Framework 命名空间的引用的托管应用程序： 
     
   - **System.Net**
-  - **System.Net.Security**  
-  - **System.Security.Cryptography.X509Certificates**
+  - **系统 .Net。安全性**  
+  - **X509Certificates 的安全加密**
     
-## <a name="example-callback-method-to-validate-a-server-certificate-for-the-ews-managed-api"></a>示例： 回调方法，以验证服务器证书的 EWS 托管 API
+## <a name="example-callback-method-to-validate-a-server-certificate-for-the-ews-managed-api"></a>示例：用于验证 EWS 托管 API 的服务器证书的回调方法
 <a name="bk_example"> </a>
 
-下面的代码示例演示如何创建 X509 证书验证回调方法的 EWS 托管 API。 此方法将验证 X509 证书，然后仅返回 true，在满足以下条件之一时： 
+下面的代码示例演示如何为 EWS 托管 API 创建 X509 证书验证回调方法。 此方法将验证 X509 证书，并且仅当满足以下任一条件时才返回 true： 
   
-- 证书有效并且跟踪返回到有效的根证书。    
-- 证书有效，并且自签名的服务器所返回它。 
+- 证书有效并将追溯到有效的根证书。    
+- 证书有效，并且由返回它的服务器自行签署。 
     
 > [!IMPORTANT]
-> 此示例中的证书验证回调方法提供足够的安全性开发和测试 EWS 托管 API 应用程序。 但是，它可能为部署应用程序提供足够的安全性。 始终应确保您使用的证书验证回调方法满足组织的安全要求。 
+> 此示例中的证书验证回调方法为 EWS 托管 API 应用程序的开发和测试提供了足够的安全性。 但是，它可能不会为部署的应用程序提供足够的安全性。 应始终确保您使用的证书验证回调方法符合组织的安全要求。 
   
 ```cs
       private static bool CertificateValidationCallBack(
@@ -93,7 +93,7 @@ ms.locfileid: "19752893"
 
 ```
 
-您可以使用.NET **System.Net**命名空间中的**ServicePointManager**类挂钩验证回调方法，通过设置**ServerCertificateValidationCallback**属性。 您可以使用类似于下面的代码示例的代码将**ServerCertificateValidationCallback**属性设置。 
+您可以使用 .NET **System.Net**命名空间中的**ServicePointManager**类，通过设置**ServerCertificateValidationCallback**属性来挂钩验证回调方法。 您可以使用类似于下面的代码示例的代码来设置**ServerCertificateValidationCallback**属性。 
   
 ```cs
 ServicePointManager.ServerCertificateValidationCallback = CertificateValidationCallBack;
@@ -103,17 +103,17 @@ ServicePointManager.ServerCertificateValidationCallback = CertificateValidationC
 ## <a name="next-steps"></a>后续步骤
 <a name="bk_example"> </a>
 
-EWS 托管 API 创建验证回调方法后，您可以使用自动发现服务若要从 Exchange 服务器获取连接点和用户和域设置。 有关详细信息，请参阅以下文章：
+为 EWS 托管 API 创建验证回调方法后，可以使用自动发现服务从 Exchange 服务器获取连接点和用户和域设置。 有关详细信息，请参阅以下文章：
   
-- [使用 Autodiscover 以查找连接点](how-to-use-autodiscover-to-find-connection-points.md)
+- [使用自动发现查找连接点](how-to-use-autodiscover-to-find-connection-points.md)
     
-- [通过使用自动发现 Exchange 中获取用户设置](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
+- [使用自动发现从 Exchange 获取用户设置](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
     
-- [从 Exchange 服务器获取域设置](how-to-get-domain-settings-from-an-exchange-server.md)
+- [获取来自 Exchange 服务器的域设置](how-to-get-domain-settings-from-an-exchange-server.md)
     
 ## <a name="see-also"></a>另请参阅
 
-- [EWS 应用程序设置](setting-up-your-ews-application.md)  
+- [设置 EWS 应用程序](setting-up-your-ews-application.md)  
 - [Start using web services in Exchange](start-using-web-services-in-exchange.md)
     
 

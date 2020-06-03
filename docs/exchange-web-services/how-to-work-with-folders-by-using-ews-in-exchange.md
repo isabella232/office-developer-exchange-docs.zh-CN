@@ -1,42 +1,42 @@
 ---
-title: 在 Exchange 使用 EWS 使用文件夹
+title: 使用 Exchange 中的 EWS 处理文件夹
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 4b3eb746-74c4-42a0-aa2c-742c147f1871
-description: 了解如何创建、 获取、 更新和删除文件夹在 Exchange 使用 EWS 托管 API 或 EWS。
-ms.openlocfilehash: a9a9e5974b2751268f37a1c9faacce43a333bcdb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 了解如何使用 Exchange 中的 EWS 托管 API 或 EWS 创建、获取、更新和删除文件夹。
+localization_priority: Priority
+ms.openlocfilehash: a184d8da4d6949f01f47afc6a9fb7ed30729fd3b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752917"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456379"
 ---
-# <a name="work-with-folders-by-using-ews-in-exchange"></a>在 Exchange 使用 EWS 使用文件夹
+# <a name="work-with-folders-by-using-ews-in-exchange"></a>使用 Exchange 中的 EWS 处理文件夹
 
-了解如何创建、 获取、 更新和删除文件夹在 Exchange 使用 EWS 托管 API 或 EWS。
+了解如何使用 Exchange 中的 EWS 托管 API 或 EWS 创建、获取、更新和删除文件夹。
   
-Exchange 中的 EWS 使用文件夹结构和组织的邮箱。 您可以创建新、 获取、 更新和删除使用 EWS 托管 API 或 EWS 的文件夹。 每个方法或下表中列出的操作是一个[Folder](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder%28v=exchg.80%29.aspx)对象，[文件夹](http://msdn.microsoft.com/library/812948d8-c7db-45ce-bb3a-77233a53a974%28Office.15%29.aspx)类型，或执行[派生的文件夹类或类型之一](folders-and-items-in-ews-in-exchange.md#bk_folders)。
+Exchange 中的 EWS 使用文件夹来组织和整理邮箱。 您可以使用 EWS 托管 API 或 EWS 创建新的、获取、更新和删除文件夹。 下表中列出的每个方法或操作都是针对[folder](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder%28v=exchg.80%29.aspx)对象、[文件夹](https://msdn.microsoft.com/library/812948d8-c7db-45ce-bb3a-77233a53a974%28Office.15%29.aspx)类型或[一个派生的文件夹类或类型](folders-and-items-in-ews-in-exchange.md#bk_folders)执行的。
   
-**表 1。方法和操作的创建、 获取、 更新和删除文件夹**
+**表1。用于创建、获取、更新和删除文件夹的方法和操作**
 
 |**若要...**|**EWS 托管的 API 方法**|**EWS 操作**|
 |:-----|:-----|:-----|
-|创建一个文件夹  <br/> |[Folder.Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.save%28v=exchg.80%29.aspx) <br/> |[CreateFolder](http://msdn.microsoft.com/library/6f6c334c-b190-4e55-8f0a-38f2a018d1b3%28Office.15%29.aspx) <br/> |
-|创建文件夹层次结构  <br/> |不适用  <br/> |[CreateFolderPath](http://msdn.microsoft.com/library/5a10aa5e-3f25-4ec3-a0b9-284c30918a1f%28Office.15%29.aspx) <br/> |
-|获取文件夹  <br/> |[Folder.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) <br/> |[GetFolder](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) <br/> |
-|获取文件夹层次结构  <br/> |[Folder.FindFolders](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx) <br/> |[FindFolder](http://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx) <br/> |
-|更新文件夹  <br/> |[Folder.Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.update%28v=exchg.80%29.aspx) <br/> |[UpdateFolder](http://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx) <br/> |
-|删除文件夹  <br/> |[Folder.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.delete%28v=exchg.80%29.aspx) <br/> |[DeleteFolder](http://msdn.microsoft.com/library/b0f92682-4895-4bcf-a4a1-e4c2e8403979%28Office.15%29.aspx) <br/> |
+|创建文件夹  <br/> |[文件夹。保存](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.save%28v=exchg.80%29.aspx) <br/> |[CreateFolder](https://msdn.microsoft.com/library/6f6c334c-b190-4e55-8f0a-38f2a018d1b3%28Office.15%29.aspx) <br/> |
+|创建文件夹层次结构  <br/> |不可用  <br/> |[CreateFolderPath](https://msdn.microsoft.com/library/5a10aa5e-3f25-4ec3-a0b9-284c30918a1f%28Office.15%29.aspx) <br/> |
+|获取文件夹  <br/> |[文件夹。绑定](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) <br/> |[GetFolder](https://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) <br/> |
+|获取文件夹层次结构  <br/> |[FindFolders](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx) <br/> |[FindFolder](https://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx) <br/> |
+|更新文件夹  <br/> |[文件夹。更新](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.update%28v=exchg.80%29.aspx) <br/> |[UpdateFolder](https://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx) <br/> |
+|删除文件夹  <br/> |[文件夹。删除](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.delete%28v=exchg.80%29.aspx) <br/> |[DeleteFolder](https://msdn.microsoft.com/library/b0f92682-4895-4bcf-a4a1-e4c2e8403979%28Office.15%29.aspx) <br/> |
 
 <a name="bk_createfolderewsma"> </a>
 
-## <a name="create-a-folder-by-using-the-ews-managed-api"></a>通过使用 EWS 托管 API 创建文件夹
+## <a name="create-a-folder-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 创建文件夹
 
-下面的代码示例演示如何使用[文件夹](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder%28v=exchg.80%29.aspx)类创建新的一般文件夹的"自定义文件夹" [DisplayName](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.displayname%28v=exchg.80%29.aspx)和 IPF [FolderClass](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.folderclass%28v=exchg.80%29.aspx)属性值。请注意。 [Folder.Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.save%28v=exchg.80%29.aspx)方法将文件夹另存为收件箱文件夹的子文件夹。 
+下面的代码示例演示如何使用[Folder](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder%28v=exchg.80%29.aspx)类创建一个显示[DisplayName](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.displayname%28v=exchg.80%29.aspx)为 "Custom Folder" 和[FolderClass](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.folderclass%28v=exchg.80%29.aspx)属性值为 IPF 的新通用文件夹。便笺. [Folder](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.save%28v=exchg.80%29.aspx)方法将文件夹另存为 "收件箱" 文件夹的子文件夹。 
   
-这些示例假定该**服务**是有效的[ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象和用户已经过身份验证到 Exchange 服务器。 
+这些示例假定**service**是有效的[ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象，并且用户已通过 Exchange 服务器的身份验证。 
   
 ```cs
 // Create a custom folder.
@@ -47,7 +47,7 @@ folder.FolderClass = "IPF.Note";
 folder.Save(WellKnownFolderName.Inbox);
 ```
 
-若要创建不同类型的文件夹，如[CalendarFolder](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.calendarfolder%28v=exchg.80%29.aspx)、 [ContactsFolder](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.contactsfolder%28v=exchg.80%29.aspx)、 [SearchFolder](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.searchfolder%28v=exchg.80%29.aspx)或[TasksFolder](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.tasksfolder%28v=exchg.80%29.aspx)，创建 （而不是通用的**文件夹**类中） 的特定类的新实例并不设置**FolderClass**属性。 例如，下面的代码示例演示如何创建新[TasksFolder](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.tasksfolder%28v=exchg.80%29.aspx)。
+若要创建其他类型的文件夹（如[CalendarFolder](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.calendarfolder%28v=exchg.80%29.aspx)、 [ContactsFolder](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.contactsfolder%28v=exchg.80%29.aspx)、 [SearchFolder](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.searchfolder%28v=exchg.80%29.aspx)或[TasksFolder](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.tasksfolder%28v=exchg.80%29.aspx)），请创建特定类（而不是通用**folder**类）的新实例，并且不要设置**FolderClass**属性。 例如，下面的代码示例演示如何创建新的[TasksFolder](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.tasksfolder%28v=exchg.80%29.aspx)。
   
 ```cs
 // Create a custom Tasks folder.
@@ -58,25 +58,25 @@ folder.DisplayName = "Custom Tasks";
 folder.Save(WellKnownFolderName.Inbox);
 ```
 
-如果您尝试创建的特定类的实例并设置**FolderClass**属性，则引发[ErrorNoFolderClassOverride](http://msdn.microsoft.com/en-us/library/exchangewebservices.responsecodetype%28v=exchg.80%29.aspx)错误。 
+如果尝试创建特定类的实例，同时又设置**FolderClass**属性，则会引发[ErrorNoFolderClassOverride](https://msdn.microsoft.com/library/exchangewebservices.responsecodetype%28v=exchg.80%29.aspx)错误。 
   
-请注意，您无法使用 EWS 托管 API 批处理创建一个方法调用中的多个文件夹。
+请注意，使用 EWS 托管 API 无法在单个方法调用中批量创建多个文件夹。
   
-## <a name="create-a-folder-by-using-ews"></a>通过使用 EWS 创建文件夹
+## <a name="create-a-folder-by-using-ews"></a>使用 EWS 创建文件夹
 <a name="bk_createfolderews"> </a>
 
-您可以使用 EWS 创建一个文件夹的倍数。
+您可以使用 EWS 创建单个文件夹或多个文件夹。
   
-若要创建一个文件夹，请发送[CreateFolder](http://msdn.microsoft.com/library/6f6c334c-b190-4e55-8f0a-38f2a018d1b3%28Office.15%29.aspx)操作请求消息。 **CreateFolder**操作请求指示父文件夹收件箱、 [DisplayName](http://msdn.microsoft.com/library/e7efbbe1-6629-4d11-bed1-ed899e3f9d77%28Office.15%29.aspx)是"自定义文件夹"，并且[FolderClass](http://msdn.microsoft.com/library/0041d135-2869-4612-89a5-d1aa86aa1093%28Office.15%29.aspx)元素值都 IPF。请注意。 
+若要创建单个文件夹，请发送[CreateFolder](https://msdn.microsoft.com/library/6f6c334c-b190-4e55-8f0a-38f2a018d1b3%28Office.15%29.aspx)操作请求消息。 **CreateFolder**操作请求指示父文件夹是收件箱， [DisplayName](https://msdn.microsoft.com/library/e7efbbe1-6629-4d11-bed1-ed899e3f9d77%28Office.15%29.aspx)为 "Custom Folder"，而[FolderClass](https://msdn.microsoft.com/library/0041d135-2869-4612-89a5-d1aa86aa1093%28Office.15%29.aspx)元素值为 IPF。便笺. 
   
-这也是创建一个新文件夹，然后调用[Folder.Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.save%28v=exchg.80%29.aspx)方法时，将发送 EWS 托管 API 的 XML 请求。 
+这也是在创建新文件夹并调用[folder](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.save%28v=exchg.80%29.aspx)方法时，EWS 托管 API 发送的 XML 请求。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
   </soap:Header>
@@ -96,14 +96,14 @@ folder.Save(WellKnownFolderName.Inbox);
 </soap:Envelope>
 ```
 
-服务器响应**CreateFolder**请求[CreateFolderResponse](http://msdn.microsoft.com/library/158adecc-491a-47d9-af73-acc2cd3f8566%28Office.15%29.aspx)邮件包含**NoError**，这表明已成功创建文件夹，并[文件夹 Id](http://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx)的[ResponseCode](http://msdn.microsoft.com/en-us/library/aa580757%28v=exchg.150%29.aspx)值新创建的消息。 
+服务器使用[CreateFolderResponse](https://msdn.microsoft.com/library/158adecc-491a-47d9-af73-acc2cd3f8566%28Office.15%29.aspx)邮件响应**CreateFolder**请求，其中包括 ResponseCode 值为**NoError**的[ResponseCode](https://msdn.microsoft.com/library/aa580757%28v=exchg.150%29.aspx)值，该值指示文件夹已成功创建，以及新创建的邮件的[FolderId](https://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx) 。 
   
-若要创建多个文件夹，请在**CreateFolder**操作请求邮件中包含多个[文件夹](http://msdn.microsoft.com/library/812948d8-c7db-45ce-bb3a-77233a53a974%28Office.15%29.aspx)元素。 所有新的文件夹必须位于同一个父文件夹。 
+若要创建多个文件夹，请在**CreateFolder**操作请求邮件中包含多个[Folder](https://msdn.microsoft.com/library/812948d8-c7db-45ce-bb3a-77233a53a974%28Office.15%29.aspx)元素。 所有新文件夹都必须位于同一个父文件夹中。 
   
 ## <a name="create-a-folder-hierarchy-by-using-ews"></a>使用 EWS 创建文件夹层次结构
 <a name="bk_createfolderhierarchy"> </a>
 
-通过使用 EWS [CreateFolderPath](http://msdn.microsoft.com/library/5a10aa5e-3f25-4ec3-a0b9-284c30918a1f%28Office.15%29.aspx)操作，可以在单个调用中创建文件夹层次结构。 相同的功能不可用 EWS 托管 API 中。 相反，如果您使用 EWS 托管 API，您可以创建文件夹，逐个[创建通过使用 EWS 文件夹](#bk_createfolderews)中所示。
+您可以通过使用 EWS [CreateFolderPath](https://msdn.microsoft.com/library/5a10aa5e-3f25-4ec3-a0b9-284c30918a1f%28Office.15%29.aspx)操作在单个调用中创建文件夹层次结构。 在 EWS 托管 API 中不提供相同的功能。 相反，如果使用 EWS 托管 API，可以逐个创建文件夹，如[使用 EWS 创建文件夹](#bk_createfolderews)中所示。
   
 > [!NOTE]
 > EWS 托管 API 无法实现此功能。 
@@ -111,9 +111,9 @@ folder.Save(WellKnownFolderName.Inbox);
 ## <a name="get-a-folder-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 获取文件夹
 <a name="bk_getfolderewsma"> </a>
 
-下面的代码示例演示如何使用[Folder.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx)方法来获取收件箱文件夹。 作为最佳实践，限制返回到仅所需要的应用程序的属性。 此示例将限制要创建[属性集](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.propertyset%28v=exchg.80%29.aspx)对象，并将[IdOnly](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.basepropertyset%28v=exchg.80%29.aspx)值应用于[BasePropertySet](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.propertyset.basepropertyset%28v=exchg.80%29.aspx)属性仅包含[Id](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.id%28v=exchg.80%29.aspx)属性的返回属性。 
+下面的代码示例演示如何使用[Folder](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx)方法获取 "收件箱" 文件夹。 作为一种最佳做法，仅将返回的属性限制为您的应用程序所需的属性。 此示例通过创建[PropertySet](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.propertyset%28v=exchg.80%29.aspx)对象并将[IdOnly](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.basepropertyset%28v=exchg.80%29.aspx)值应用于[BasePropertySet](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.propertyset.basepropertyset%28v=exchg.80%29.aspx)属性，将返回的属性限制为仅包含[Id](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.id%28v=exchg.80%29.aspx)属性。 
   
-此示例假定 **service** 是有效的 [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) 对象，并且已向 Exchange 服务器对该用户进行身份验证。 
+此示例假定 **service** 是有效的 [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) 对象，且用户已通过 Exchange 服务器的身份验证。 
   
 ```cs
 // As a best practice, limit the properties returned to only those that are required.
@@ -124,24 +124,24 @@ PropertySet propSet = new PropertySet(BasePropertySet.IdOnly);
 Folder rootfolder = Folder.Bind(service, WellKnownFolderName.Inbox, propSet);
 ```
 
-如果需要返回其他属性，将从[FolderSchema](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folderschema%28v=exchg.80%29.aspx)类的属性添加到**属性集**，或使用重载之一返回第一个类的所有属性的[绑定](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx)的方法。 
+如果需要返回其他属性，请将[FolderSchema](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folderschema%28v=exchg.80%29.aspx)类中的属性添加到**PropertySet**，或使用返回所有第一个类属性的重载[Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx)方法之一。 
   
-请注意，您无法使用 EWS 托管 API 获取多个文件夹一次。 您必须单独对每个文件夹调用**绑定**方法。 
+请注意，您不能使用 EWS 托管 API 一次获取多个文件夹。 您必须分别对每个文件夹调用**Bind**方法。 
   
 ## <a name="get-a-folder-by-using-ews"></a>使用 EWS 获取文件夹
 <a name="bk_getfolderews"> </a>
 
-您可以通过使用 EWS 获取一个文件夹或多个文件夹。
+可以使用 EWS 获取单个文件夹或多个文件夹。
   
-若要获取一个文件夹，请向服务器发送[GetFolder](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx)操作请求消息。 在以下示例中，设置[BaseShape](http://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx)到**IdOnly**，返回因此只有[文件夹 Id](http://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx)指定的文件夹。 [FolderIds](http://msdn.microsoft.com/library/3ff9d15a-7220-4785-ae6b-583a7eb82005%28Office.15%29.aspx)元素表示检索文件夹收件箱文件夹。 
+若要获取单个文件夹，请向服务器发送[GetFolder](https://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx)操作请求消息。 在下面的示例中， [BaseShape](https://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx)设置为**IdOnly**，因此仅返回指定文件夹的[FolderId](https://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx) 。 [FolderIds](https://msdn.microsoft.com/library/3ff9d15a-7220-4785-ae6b-583a7eb82005%28Office.15%29.aspx)元素指示要检索的文件夹是 "收件箱" 文件夹。 
   
-这也是 EWS 托管 API 时您绑定到文件夹，使用[Folder.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx)方法发送的 XML 请求。 
+这也是当您使用[folder](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx)方法绑定到某个文件夹时，EWS 托管 API 发送的 XML 请求。 
   
-若要获取多个文件夹，请在**GetFolder**操作请求邮件中包含多个[FolderIds](http://msdn.microsoft.com/library/812948d8-c7db-45ce-bb3a-77233a53a974%28Office.15%29.aspx)元素。 
+若要获取多个文件夹，请在**GetFolder**操作请求邮件中包含多个[FolderIds](https://msdn.microsoft.com/library/812948d8-c7db-45ce-bb3a-77233a53a974%28Office.15%29.aspx)元素。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
   </soap:Header>
@@ -158,26 +158,26 @@ Folder rootfolder = Folder.Bind(service, WellKnownFolderName.Inbox, propSet);
 </soap:Envelope>
 ```
 
-下面的 XML 示例演示从服务器发送到客户端以响应**GetFolder**操作请求[GetFolderResponse](http://msdn.microsoft.com/library/47abeec8-78dd-4297-8525-099174ec880d%28Office.15%29.aspx)消息。 它只包含收件箱文件夹的[文件夹 Id](http://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx)值。 为了方便读取，已缩短一些属性和元素的值。 
+下面的 XML 示例展示了从服务器发送到客户端以响应**GetFolder**操作请求的[GetFolderResponse](https://msdn.microsoft.com/library/47abeec8-78dd-4297-8525-099174ec880d%28Office.15%29.aspx)消息。 它只包含 "收件箱" 文件夹的[FolderId](https://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx)值。 为了方便读取，已缩短一些属性和元素的值。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15"
                          MinorVersion="0"
                          MajorBuildNumber="800"
                          MinorBuildNumber="16"
                          Version="V2_6"
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:GetFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:GetFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:GetFolderResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -193,14 +193,14 @@ Folder rootfolder = Folder.Bind(service, WellKnownFolderName.Inbox, propSet);
 </s:Envelope>
 ```
 
-## <a name="get-a-folder-hierarchy-by-using-the-ews-managed-api"></a>通过使用 EWS 托管 API 获取文件夹层次结构
+## <a name="get-a-folder-hierarchy-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 获取文件夹层次结构
 <a name="bk_getfolderhierarchyewsma"> </a>
 
-下面的代码示例演示如何检索指定的根文件夹的子文件夹。 此示例检索**MsgFolderRoot**文件夹，是 （邮箱文件夹和项目存储） IPM 子树的根的子文件夹。 
+下面的代码示例演示如何检索指定根文件夹的子文件夹。 本示例将检索**MsgFolderRoot**文件夹的子文件夹，该文件夹是 IPM 子树（存储邮箱文件夹和项目）的根目录。 
   
-本示例中，创建[FolderView](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folderview%28v=exchg.80%29.aspx)类对象来限制[Folder.FindFolders](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx)方法响应的结果。 此方案限制属性可返回与以下： [Id](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.id%28v=exchg.80%29.aspx)、 [DisplayName](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.displayname%28v=exchg.80%29.aspx)和扩展的属性，指示是否文件夹是隐藏的文件夹。 [FolderView.Traversal](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folderview.traversal%28v=EXCHG.80%29.aspx)值设置为深入执行递归搜索，以便服务器检索子文件夹，并将根文件夹设置为**MsgFolderRoot**，，，以便服务器将返回所有用户的文件夹 （和服务器不会返回系统文件夹的非 IPM 子树中）。
+在此示例中，将创建一个[FolderView](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folderview%28v=exchg.80%29.aspx)类对象来限制[FindFolders](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx)方法响应的结果。 此方案将属性限制为返回以下内容： [Id](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.id%28v=exchg.80%29.aspx)、 [DisplayName](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.displayname%28v=exchg.80%29.aspx)和扩展属性，以指示文件夹是否为隐藏文件夹。 将[FolderView](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folderview.traversal%28v=EXCHG.80%29.aspx)值设置为 Deep 以执行递归搜索，以便服务器检索子文件夹，并将根文件夹设置为**MsgFolderRoot**，以便服务器返回用户的所有文件夹（并且服务器不在非 IPM 子树中返回系统文件夹）。
   
-此示例假定 **service** 是有效的 [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) 对象，并且已向 Exchange 服务器对该用户进行身份验证。 
+此示例假定 **service** 是有效的 [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) 对象，且用户已通过 Exchange 服务器的身份验证。 
   
 ```XML
 // Create a new folder view, and pass in the maximum number of folders to return.
@@ -219,19 +219,19 @@ view.Traversal = FolderTraversal.Deep;
 FindFoldersResults findFolderResults = service.FindFolders(WellKnownFolderName.MsgFolderRoot, view);
 ```
 
-## <a name="get-a-folder-hierarchy-by-using-ews"></a>通过使用 EWS 获取文件夹层次结构
+## <a name="get-a-folder-hierarchy-by-using-ews"></a>使用 EWS 获取文件夹层次结构
 <a name="bk_getfolderhierarchyews"> </a>
 
-下面的 XML 示例演示如何使用[FindFolder](http://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx)操作使用 EWS 检索文件夹层次结构。 此示例检索**msgfolderroot**文件夹，是 IPM 子树，及其所有子文件夹的根目录。 **遍历**属性设置为**深入**，以便服务器执行递归搜索文件夹层次结构，并仅在响应中返回文件夹和指定的根目录下的子文件夹。 本示例中， [BaseShape](http://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx)元素设置为**IdOnly** ，以便服务器仅返回[文件夹 Id](http://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx)元素。 若要使输出更易于理解，包括[AdditionalProperties](http://msdn.microsoft.com/library/7a269aed-dcfd-4c3e-9e14-094e53828101%28Office.15%29.aspx)元素中请求，以及**PR_ATTR_HIDDEN** **ExtendedFieldURI**值在结果中包含的**DisplayName**元素属性，以便您知道是否文件夹是隐藏的文件夹。 
+下面的 XML 示例演示如何使用[FindFolder](https://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx)操作检索文件夹层次结构（使用 EWS）。 本示例将检索**msgfolderroot**文件夹，该文件夹是 IPM 子树的根目录及其所有子文件夹。 将 "**遍历**" 属性设置为 "**深度**"，以便服务器执行文件夹层次结构的递归搜索，并且仅在响应中的指定根下返回文件夹和子文件夹。 在此示例中， [BaseShape](https://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx)元素设置为**IdOnly** ，以便服务器仅返回[FolderId](https://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx)元素。 若要使输出更易于理解，请将**DisplayName**元素包含在请求中的[AdditionalProperties](https://msdn.microsoft.com/library/7a269aed-dcfd-4c3e-9e14-094e53828101%28Office.15%29.aspx)元素中，并将其包括在结果中的**ExtendedFieldURI**值和**PR_ATTR_HIDDEN**属性的值中，以便您知道这些文件夹是否为隐藏文件夹。 
   
-这也是在调用[FindFolders](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.findfolders%28v=exchg.80%29.aspx)方法时，将发送 EWS 托管 API 的 XML 请求。 
+这也是当您调用[FindFolders](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.findfolders%28v=exchg.80%29.aspx)方法时，EWS 托管 API 发送的 XML 请求。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
   </soap:Header>
@@ -256,27 +256,27 @@ FindFoldersResults findFolderResults = service.FindFolders(WellKnownFolderName.M
 </soap:Envelope>
 ```
 
-下面的 XML 示例演示从服务器发送到客户端以响应**FindFolder**操作请求[FindFolderResponse](http://msdn.microsoft.com/library/f5dd813c-9698-4a39-8fca-3a825df365ed%28Office.15%29.aspx)消息。 它包含仅[文件夹 Id](http://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx)， [DisplayName](http://msdn.microsoft.com/library/e7efbbe1-6629-4d11-bed1-ed899e3f9d77%28Office.15%29.aspx)，并且的**PR_ATTR_HIDDEN**值扩展**msgrootfolder**文件夹下的所有子文件夹的属性。 如果[Value](http://msdn.microsoft.com/library/9a30cadd-909e-41b1-b4e9-291643dd89c6%28Office.15%29.aspx)元素设置为 true，则文件夹应隐藏客户端视图中。 
+下面的 XML 示例展示了从服务器发送到客户端以响应**FindFolder**操作请求的[FindFolderResponse](https://msdn.microsoft.com/library/f5dd813c-9698-4a39-8fca-3a825df365ed%28Office.15%29.aspx)消息。 它仅包含**msgrootfolder**文件夹下所有子文件夹的**PR_ATTR_HIDDEN**扩展属性的[FolderId](https://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx)、 [DisplayName](https://msdn.microsoft.com/library/e7efbbe1-6629-4d11-bed1-ed899e3f9d77%28Office.15%29.aspx)和值。 如果[Value](https://msdn.microsoft.com/library/9a30cadd-909e-41b1-b4e9-291643dd89c6%28Office.15%29.aspx)元素设置为 true，则该文件夹应在客户端视图中隐藏。 
   
-这也是 EWS 托管 API 发送时使用[FindFolder](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx)方法获取多个文件夹的 XML 响应。 具有已的某些属性和元素的值可以缩短为便于阅读，并且尚未为简便起见包含某些文件夹。 
+这也是在使用[FindFolder](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx)方法获取多个文件夹时，EWS 托管 API 发送的 XML 响应。 某些属性和元素的值已缩短以提高可读性，并且为了简洁起见，一些文件夹未包含在内。 
   
 ```XML
-<?xml version="1.0" encoding="utf-8"?><s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<?xml version="1.0" encoding="utf-8"?><s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15"
                          MinorVersion="0"
                          MajorBuildNumber="815"
                          MinorBuildNumber="6"
                          Version="V2_7"
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:FindFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                          xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:FindFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                          xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:FindFolderResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -337,11 +337,11 @@ FindFoldersResults findFolderResults = service.FindFolders(WellKnownFolderName.M
 ## <a name="update-a-folder-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 更新文件夹
 <a name="bk_updatefolderewsma"> </a>
 
-下面的代码示例演示如何通过使用 EWS 托管 API 更新文件夹的显示名称。
+下面的代码示例演示如何使用 EWS 托管 API 更新文件夹的显示名称。
   
-首先，创建[属性集](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.propertyset%28v=exchg.80%29.aspx)来限制服务器[Folder.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx)响应中返回的属性的数目。 我们建议使用**IdOnly** **BasePropertySet**以减少与 Exchange 数据库的呼叫。 接下来，使用**Bind**方法绑定到的文件夹更新。 然后，更新的[DisplayName](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.displayname%28v=exchg.80%29.aspx)属性，并使用[Folder.Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.update%28v=exchg.80%29.aspx)方法以保存所做的更改。 
+首先，创建一个[PropertySet](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.propertyset%28v=exchg.80%29.aspx)以限制服务器在文件夹中返回的属性的数目。[绑定](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx)响应。 建议使用**IdOnly** **BasePropertySet**来减少对 Exchange 数据库的调用。 接下来，使用**bind**方法绑定到要更新的文件夹。 然后，更新[DisplayName](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.displayname%28v=exchg.80%29.aspx)属性，并使用[文件夹. update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.update%28v=exchg.80%29.aspx)方法保存更改。 
   
-本示例中，我们假定该**服务**是有效的[ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象和用户已经过身份验证到 Exchange 服务器。 本地变量*文件夹 Id*是文件夹的[Id](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.id%28v=exchg.80%29.aspx)的更新。 
+在此示例中，我们假定**service**是有效的[ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象，并且用户已通过 Exchange 服务器的身份验证。 本地变量*folderId*是要更新的文件夹的[Id](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.id%28v=exchg.80%29.aspx) 。 
   
 ```cs
 // As a best practice, only include the ID value in the PropertySet.
@@ -362,15 +362,15 @@ folder.Update();
 
 下面的 XML 示例演示如何使用 EWS 更新文件夹的显示名称。
   
-首先，发送[GetFolder](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx)操作请求邮件以获取更新的文件夹中[获取文件夹层次结构使用 EWS](#bk_getfolderhierarchyews)所示。
+首先，发送[GetFolder](https://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx)操作请求邮件以获取要更新的文件夹，如通过[使用 EWS 获取文件夹层次结构](#bk_getfolderhierarchyews)中所示。
   
-接下来，向要更新文件夹的服务器发送[UpdateFolder](http://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx)操作请求消息。 **UpdateFolder**操作请求更新[DisplayName](http://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx)为"更新自定义文件夹"。 
+接下来，向服务器发送[UpdateFolder](https://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx)操作请求邮件，以更新文件夹。 **UpdateFolder**操作请求将[DisplayName](https://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx)更新为 "更新的自定义文件夹"。 
   
-这也是 XML 请求 EWS 托管 API 发送时使用[Folder.Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.update%28v=exchg.80%29.aspx)方法更新文件夹。 为了方便读取，已缩短一些属性和元素的值。 
+这也是在使用[folder](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.update%28v=exchg.80%29.aspx)方法更新文件夹时，EWS 托管 API 发送的 XML 请求。 为了方便读取，已缩短一些属性和元素的值。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
   </soap:Header>
@@ -394,16 +394,16 @@ folder.Update();
 </soap:Envelope>
 ```
 
-服务器响应包含[UpdateFolderResponse](http://msdn.microsoft.com/library/31f47739-dc9c-46ba-9e3f-cce25dc85e6e%28Office.15%29.aspx)消息**UpdateFolder**请求的[ResponseCode](http://msdn.microsoft.com/en-us/library/aa580757%28v=exchg.150%29.aspx)值**NoError**，以及与更新**已更新的文件夹的[文件夹 Id](http://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx)更改密钥**属性值。 
+服务器使用[UpdateFolderResponse](https://msdn.microsoft.com/library/31f47739-dc9c-46ba-9e3f-cce25dc85e6e%28Office.15%29.aspx)邮件响应**UpdateFolder**请求，其中包括 ResponseCode 值为**NoError**的[ResponseCode](https://msdn.microsoft.com/library/aa580757%28v=exchg.150%29.aspx)值，以及使用更新的**FolderId**属性值更新的文件夹的[ChangeKey](https://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx) 。 
   
 ## <a name="delete-a-folder-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 删除文件夹
 <a name="bk_deletefolderewsma"> </a>
 
-本文提供了一个基本示例，演示如何使用 EWS 托管 API 中删除一个文件夹。 有关删除文件夹的详细信息，请参阅[删除在 Exchange 使用 EWS 的项](deleting-items-by-using-ews-in-exchange.md)。
+本文提供的基本示例展示了如何使用 EWS 托管 API 删除文件夹。 有关删除文件夹的更多详细信息，请参阅[使用 Exchange 中的 EWS 删除项目](deleting-items-by-using-ews-in-exchange.md)。
   
-要通过使用 EWS 托管 API 中删除一个文件夹，首先，使用[Folder.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx)方法绑定到的文件夹的服务对象删除。 接下来，使用[Folder.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.delete%28v=exchg.80%29.aspx)方法使用[HardDelete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.deletemode%28v=exchg.80%29.aspx)删除模式中删除文件夹。 
+若要使用 EWS 托管 API 删除文件夹，请先使用[folder](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx)方法将该服务对象绑定到要删除的文件夹。 下一步，使用[HardDelete](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.deletemode%28v=exchg.80%29.aspx)删除模式删除[文件夹。](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.delete%28v=exchg.80%29.aspx) 
   
-此示例假定 **service** 是有效的 [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) 对象，并且已向 Exchange 服务器对该用户进行身份验证。 本地变量*文件夹 Id*是[Id](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.id%28v=exchg.80%29.aspx)的文件夹中删除。 
+此示例假定 **service** 是有效的 [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) 对象，且用户已通过 Exchange 服务器的身份验证。 本地变量*folderId*是要删除的文件夹的[Id](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.id%28v=exchg.80%29.aspx) 。 
   
 ```cs
 // Bind to an existing folder and get all its properties.
@@ -417,20 +417,20 @@ folder.Delete(DeleteMode.HardDelete);
 ## <a name="delete-a-folder-by-using-ews"></a>使用 EWS 删除文件夹
 <a name="bk_deletefolderews"> </a>
 
-本文提供的基本的 XML 示例，演示如何使用 EWS 删除文件夹。 有关删除文件夹的详细信息，请参阅[删除在 Exchange 使用 EWS 的项](deleting-items-by-using-ews-in-exchange.md)。
+本文提供了一个基本的 XML 示例，演示如何使用 EWS 删除文件夹。 有关删除文件夹的更多详细信息，请参阅[使用 Exchange 中的 EWS 删除项目](deleting-items-by-using-ews-in-exchange.md)。
   
-使用 EWS 中删除一个文件夹，首先，发送[GetFolder](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx)操作请求邮件以获取更新[获取使用 EWS 文件夹](#bk_getfolderews)中所示的文件夹。 
+若要使用 EWS 删除文件夹，请先发送[GetFolder](https://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx)操作请求邮件，以获取要更新的文件夹，如[使用 EWS 获取文件夹](#bk_getfolderews)中所示。 
   
-接下来，向服务器删除文件夹发送[DeleteFolder](http://msdn.microsoft.com/library/b0f92682-4895-4bcf-a4a1-e4c2e8403979%28Office.15%29.aspx)操作请求消息。 **DeleteFolder**操作请求指示**DeleteType** **HardDelete** ，它包括[文件夹 Id](http://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx)的文件夹中删除。 
+接下来，向服务器发送[DeleteFolder](https://msdn.microsoft.com/library/b0f92682-4895-4bcf-a4a1-e4c2e8403979%28Office.15%29.aspx)操作请求邮件以删除该文件夹。 **DeleteFolder**操作请求指示**DeleteType**为**HardDelete** ，并包含要删除的文件夹的[FolderId](https://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx) 。 
   
-这也是 XML 请求 EWS 托管 API 发送时使用[Folder.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.delete%28v=exchg.80%29.aspx)方法删除文件夹。 为了方便读取，已缩短一些属性和元素的值。 
+这也是在使用[folder](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.delete%28v=exchg.80%29.aspx)方法删除文件夹时，EWS 托管 API 发送的 XML 请求。 为了方便读取，已缩短一些属性和元素的值。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
   </soap:Header>
@@ -444,18 +444,18 @@ folder.Delete(DeleteMode.HardDelete);
 </soap:Envelope>
 ```
 
-服务器响应包含[DeleteFolderResponse](http://msdn.microsoft.com/library/27578bda-ef0a-4a33-bccc-2c1bc1735424%28Office.15%29.aspx)消息**DeleteFolder**请求**NoError**，这表明文件夹删除成功[ResponseCode](http://msdn.microsoft.com/en-us/library/aa580757%28v=exchg.150%29.aspx)值。
+服务器使用[DeleteFolderResponse](https://msdn.microsoft.com/library/27578bda-ef0a-4a33-bccc-2c1bc1735424%28Office.15%29.aspx)邮件响应**DeleteFolder**请求，其中包括[ResponseCode](https://msdn.microsoft.com/library/aa580757%28v=exchg.150%29.aspx)值**NoError**，这表示文件夹删除成功。
   
 ## <a name="next-steps"></a>后续步骤
 <a name="bk_nextsteps"> </a>
 
-您已检索到的文件夹的服务器上，或对文件夹进行更改之后，您可能希望为[同步文件夹层次结构](how-to-synchronize-folders-by-using-ews-in-exchange.md)或服务器上的[订阅有关文件夹更改的通知](notification-subscriptions-mailbox-events-and-ews-in-exchange.md)。 
+在检索了服务器上的文件夹或对文件夹进行了更改之后，您可能需要将[文件夹层次结构同步](how-to-synchronize-folders-by-using-ews-in-exchange.md)或订阅有关服务器上的[文件夹更改的通知](notification-subscriptions-mailbox-events-and-ews-in-exchange.md)。 
   
 ## <a name="see-also"></a>另请参阅
 
-- [文件夹和交换中的 EWS 中的项目](folders-and-items-in-ews-in-exchange.md)   
-- [通过在 Exchange 使用 EWS 来处理 Exchange 邮箱项目](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md)    
-- [通过在 Exchange 使用 EWS 中删除项目](deleting-items-by-using-ews-in-exchange.md)   
+- [Exchange 中的 EWS 中的文件夹和项目](folders-and-items-in-ews-in-exchange.md)   
+- [使用 Exchange 中的 EWS 处理 Exchange 邮箱项目](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md)    
+- [使用 Exchange 中的 EWS 删除项目](deleting-items-by-using-ews-in-exchange.md)   
 - [开发 Exchange Web 服务客户端](develop-web-service-clients-for-exchange.md)
     
 

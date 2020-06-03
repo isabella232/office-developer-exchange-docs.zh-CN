@@ -1,33 +1,33 @@
 ---
-title: EWS 应用程序设置
+title: 设置 EWS 应用程序
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 0d45e347-f832-478d-b078-7c2852c0d204
-description: 查找有关的任务所需完成才能创建使用 EWS 托管 API 或 EWS 与 Exchange 通信的应用程序的信息。
-ms.openlocfilehash: b8f402d3c4555f971b08fd891b5b64ca49a57e0d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 查找有关您需要完成的任务的信息，以便创建使用 EWS 托管 API 或 EWS 与 Exchange 进行通信的应用程序。
+localization_priority: Priority
+ms.openlocfilehash: ff5b21a1636a1c4cc1ef6256989e72ba7c21c96d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753003"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463809"
 ---
-# <a name="setting-up-your-ews-application"></a>EWS 应用程序设置
+# <a name="setting-up-your-ews-application"></a>设置 EWS 应用程序
 
-查找有关的任务所需完成才能创建使用 EWS 托管 API 或 EWS 与 Exchange 通信的应用程序的信息。 
+查找有关您需要完成的任务的信息，以便创建使用 EWS 托管 API 或 EWS 与 Exchange 进行通信的应用程序。 
   
-创建客户端应用程序调用 web 服务 Exchange Online、 Exchange Online 作为 Office 365 的一部分或的开头 Exchange 2013 的 Exchange 版本上时，您需要设置您的应用程序与 Exchange 服务器进行通信。 本节中的文章提供向您表明如何使用 Exchange Web Services (EWS) 托管 API 或 EWS XML 请求和响应设置您的应用程序的代码示例。
+当您创建调用 Exchange Online 上的 web 服务的客户端应用程序、作为 Office 365 的一部分的 Exchange Online 或从 Exchange 2013 开始的 Exchange 版本时，您需要将应用程序设置为与 Exchange 服务器进行通信。 本节中的文章提供了代码示例，演示如何使用 Exchange Web 服务（EWS）托管 API 或 EWS XML 请求和响应来设置应用程序。
   
 ## <a name="in-this-section"></a>本节内容
 
-- [设置您的 Exchange 应用程序开发环境](setting-up-your-exchange-application-development-environment.md)
+- [设置 Exchange 应用程序开发环境](setting-up-your-exchange-application-development-environment.md)
     
-- [在 Exchange 控制客户端应用程序访问 EWS](controlling-client-application-access-to-ews-in-exchange.md)
+- [控制对 Exchange 中的 EWS 的客户端应用程序访问](controlling-client-application-access-to-ews-in-exchange.md)
     
-- [使用 EWS 在 Exchange 管理用户访问](managing-user-access-by-using-ews-in-exchange.md)
+- [使用 Exchange 中的 EWS 管理用户访问](managing-user-access-by-using-ews-in-exchange.md)
     
-- [EWS 托管 api 验证服务器证书](how-to-validate-a-server-certificate-for-the-ews-managed-api.md)
+- [验证 EWS 托管 API 的服务器证书](how-to-validate-a-server-certificate-for-the-ews-managed-api.md)
     
 ## <a name="see-also"></a>另请参阅
 

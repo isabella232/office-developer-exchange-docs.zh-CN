@@ -3,101 +3,102 @@ title: Exchange 的 EWS 客户端设计概述
 manager: sethgros
 ms.date: 3/11/2016
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: b26f67aa-7c66-4d7d-98b3-746f26ab37f4
-description: 了解如何使用 EWS 开发针对 Exchange 的设计注意事项。
-ms.openlocfilehash: 10e1c78bdd93dc5aede6e3f9337aa70b0214b770
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: 了解使用 EWS 为 Exchange 进行开发时的设计注意事项。
+localization_priority: Priority
+ms.openlocfilehash: 0ac4fe1be0800008af572ebc296e004aa29d8daf
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353901"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455420"
 ---
 # <a name="ews-client-design-overview-for-exchange"></a>Exchange 的 EWS 客户端设计概述
 
-了解如何使用 EWS 开发针对 Exchange 的设计注意事项。 
+了解使用 EWS 为 Exchange 进行开发时的设计注意事项。 
   
-本文提供有关设计 Exchange Web Services (EWS) 应用程序的概述信息。 您可以使用此信息来确定是否 EWS 运行状况不用于您的应用程序的右 API 和如果哪种类型的客户端实现的则应使用。 本文还提供用于设计 Office 365、 Exchange Online 和 Exchange 版本可以针对应用程序的最佳实践信息从 Exchange 2007，在一个代码库、 和面向内部部署 Exchange 的重要决策点开始与面向 Exchange Online 的服务器。
+本文提供有关设计 Exchange Web 服务（EWS）应用程序的概述信息。 您可以使用此信息来确定 EWS 是否为您的应用程序正确的 API，如果是，则应使用哪种类型的客户端实现。 本文还提供了最佳实践信息，用于设计可将 Office 365、Exchange Online 和 Exchange 的版本从 Exchange 2007、一个代码库和目标目标本地 Exchange 服务器（与目标 Exchange Online 相关的重要决策点）组成的应用程序。
   
-## <a name="is-ews-the-right-api-for-your-application"></a>是 EWS 应用程序的右 API？
+## <a name="is-ews-the-right-api-for-your-application"></a>是否适合您的应用程序的 EWS API？
 <a name="IsEWSRight"> </a>
 
-设计您的应用程序之前，务必要考虑 EWS 是否为您的右 API。 如果您要开发针对 Exchange 服务器或 Exchange Online，EWS 运行状况不首选的客户端访问技术。 启动与 Exchange 2007 的 Exchange 版本的客户端访问开发主要已重点放在 EWS。 在 Outlook 中实现的新客户端访问功能使用 EWS，包括 Exchange 2007 中引入的外出 (OOF) 和可用性功能和 Exchange 2010 中引入的邮件提示和获取聊天室功能。 这表示用于开发 Exchange 客户端应用程序的内部和外部合作伙伴的 ews 提交的投资。
+在开始设计应用程序之前，请务必考虑 EWS 是否为你提供了正确的 API。 如果要针对 Exchange Server 或 Exchange Online 进行开发，则 EWS 是首选的客户端访问技术。 从 Exchange 2007 开始的 Exchange 版本的客户端访问开发主要是以 EWS 为重点。 在 Outlook 中实施的新客户端访问功能使用 EWS，包括 Exchange 2007 中引入的外出（OOF）和可用性功能，以及 Exchange 2010 中引入的邮件提示和获取聊天室功能。 这表示开发 Exchange 客户端应用程序的内部和外部合作伙伴在 EWS 中提交的投资。
   
-EWS 运行状况不 Exchange 客户端应用程序的主要客户端访问 API。 但是，在某些情况下，您可以考虑客户端应用程序开发的其他 Exchange Api。 例如，Exchange ActiveSync 提供 EWS 通过以下优点：
+EWS 是您的 Exchange 客户端应用程序的主要客户端访问 API。 但是，在某些情况下，您可能会考虑其他用于客户端应用程序开发的 Exchange Api。 例如，Exchange ActiveSync 提供了与 EWS 相比的以下优势：
   
-- XML 结构具有已标记化，以使 Exchange ActiveSync 更紧凑协议。  
-- Exchange ActiveSync 包含一种策略机制，以控制客户端访问并提供其他可靠的企业移动消息解决方案。
+- 已对 XML 结构进行了标记，以使 Exchange ActiveSync 成为一种更紧凑的协议。  
+- Exchange ActiveSync 包含用于控制客户端访问和提供其他强健的企业移动消息解决方案的策略机制。
     
 > [!NOTE]
-> 您将需要开发 Exchange ActiveSync 客户端许可证。 若要了解有关 Exchange ActiveSync 和 EWS 之间的差异的信息，请参阅[Exchange ActiveSync 和 Exchange Web Services (EWS) 之间的选择](http://msdn.microsoft.com/en-us/library/dn144954%28v=exchg.140%29.aspx)。 
+> 您需要许可证才能开发 Exchange ActiveSync 客户端。 若要了解 Exchange ActiveSync 和 EWS 之间的差异，请参阅[在 Exchange activesync 和 Exchange Web 服务（EWS）之间进行选择](https://msdn.microsoft.com/library/dn144954%28v=exchg.140%29.aspx)。 
   
-MAPI over HTTP 的 RPC 是 Exchange 客户端应用程序的另一个可编程性选项。 但是，MAPI over HTTP 的 RPC 不提供客户端和服务器之间通信直观的界面。
+MAPI RPC over HTTP 是 Exchange 客户端应用程序的另一个可编程性选项。 但是，MAPI RPC over HTTP 不提供直观的接口用于在客户端和服务器之间进行通信。
   
-有关 Exchange 开发技术的详细信息，请参阅[在 Exchange 浏览 EWS 托管 API 和 EWS，web services](explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)。
+有关 Exchange 开发技术的详细信息，请参阅[在 exchange 中浏览 EWS 托管 API、ews 和 web 服务](explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)。
   
-## <a name="options-for-ews-client-development"></a>EWS 客户端开发选项
+## <a name="options-for-ews-client-development"></a>EWS 客户端开发的选项
 <a name="EWSClientOptions"> </a>
 
-为使用 EWS 开发针对 Exchange 提供了几个选项。 为您的最佳选项取决于开发平台、 工具、 可实现和贵组织的应用程序要求。 以下是四个主要选项可用于构建 EWS 客户端应用程序：
+有几个选项可用于使用 EWS 针对 Exchange 进行开发。 您的最佳选择将取决于您的组织的开发平台、工具、可用的实现和应用程序要求。 以下是可用于构建 EWS 客户端应用程序的四个主要选项：
   
 - EWS Managed API
 - EWS Java API
-- EWS 的自动生成代理
-- 自定义的 EWS 客户端 API
+- EWS 自动生成代理
+- 自定义 EWS 客户端 API
     
 ### <a name="ews-managed-api"></a>EWS 托管 API
 
-[EWS 托管 API](http://aka.ms/ews-managed-api-readme)为自定义 web 服务客户端。 它是.NET Framework 应用程序的标准客户端访问 API。 
+[EWS 托管 API](https://aka.ms/ews-managed-api-readme)是一个自定义 web 服务客户端。 它是用于 .NET Framework 应用程序的标准客户端访问 API。 
   
-下面是一些使用 EWS 托管 API 的好处：
+以下是使用 EWS 托管 API 的一些优点：
   
 - 它提供直观的对象模型。   
-- 它使抽象化 WSDL 和架构文件中的服务说明的复杂性。   
-- 它包括客户端的业务逻辑。   
-- 它处理 web 请求和响应对象序列化和反序列化操作。   
-- 它是 Microsoft 支持。
+- 它简要介绍了 WSDL 和 schema 文件中的服务说明的复杂性。   
+- 它包括客户端业务逻辑。   
+- 它处理 web 请求和响应以及对象序列化和反序列化。   
+- 它是 Microsoft 支持的。
     
-但请注意，EWS 托管 API 不是一个完整的解决方案。 某些功能不是在 EWS 托管 API 实现的。 尽管 EWS 托管 API 不实现 EWS 的所有功能，它可能的最佳选择客户端应用程序开发，原因如下：
+但请注意，EWS 托管 API 并不是一个完整的解决方案。 在 EWS 托管 API 中不实现某些功能。 虽然 EWS 托管 API 不实现所有 EWS 功能，但它可能是客户端应用程序开发的最佳选择，原因如下：
   
-- 您可以使用.NET Framework 开发。
-- 它还实现自动发现，除了 EWS 对象模型的大多数部件。
-- 它可实现 EWS， [ExchangeService](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)类中使用的客户端的业务逻辑。 
+- 您可以使用 .NET Framework 进行开发。
+- 它除了可实现 EWS 对象模型的大多数部分之外，还实现自动发现。
+- 它实现了在[ExchangeService](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)类中使用 EWS 的客户端业务逻辑。 
     
-您可以选择使用 EWS web 服务 API 而不是 EWS 托管 API 出于以下原因之一：
+出于以下任一原因，您可以选择使用 EWS web 服务 API 而不是 EWS 托管 API：
   
-- 您的应用程序不使用.NET Framework。 
-- 您不想要分发的 EWS 托管 API 的程序集。 
-- 您的应用程序使用 EWS 托管 API 中不实现的功能。
+- 您的应用程序不使用 .NET Framework。 
+- 您不希望分发 EWS 托管 API 程序集。 
+- 您的应用程序使用在 EWS 托管 API 中未实现的功能。
     
-若要了解详细信息，请参阅[入门 EWS 托管 API 客户端应用程序](get-started-with-ews-managed-api-client-applications.md)。
+若要了解详细信息，请参阅[EWS 托管 API 客户端应用程序入门](get-started-with-ews-managed-api-client-applications.md)。
   
 > [!NOTE]
-> [!注释] EWS 托管 API 现在已经作为开放源项目在 [GitHub](http://aka.ms/ews-managed-api-github) 上可用。 您可以使用开放源代码库到： 
+> EWS 托管 API 现已作为 [GitHub](https://aka.ms/ews-managed-api-github) 上的开源项目推出。 你可以使用开源库进行以下操作： 
 > - 为 API 提供缺陷修复和增强功能。 
 > - 在修补程序和增强功能在正式的版本中可用之前获取它们。
 > - 访问最全面且最新的 API 实现，将其用作参考或在新的平台上创建新库。
 > 
-> 我们欢迎 GitHub 通过您[的贡献](https://github.com/OfficeDev/ews-managed-api/blob/master/CONTRIBUTING.md)。 
+> 欢迎你通过 GitHub 做出[贡献](https://github.com/OfficeDev/ews-managed-api/blob/master/CONTRIBUTING.md)。 
   
 ### <a name="ews-java-api"></a>EWS Java API
 
-EWS Java API 是在[GitHub](https://github.com/OfficeDev/ews-java-api)可更新并扩展由社区的开放源代码项目。 它 stylistically 类似于[EWS 托管 API](http://msdn.microsoft.com/en-us/library/office/jj220535%28v=exchg.80%29.aspx) ，并通过线路中使用 EWS SOAP 请求和响应。 尽管您无法通过 EWS Java API，使用[最近创建](http://blogs.office.com/2014/08/28/open-sourcing-exchange-web-services-ews-java-api/)的开放源代码项目访问所有[EWS SOAP 操作](http://msdn.microsoft.com/library/cf6fd871-9a65-4f34-8557-c8c71dd7ce09%28Office.15%29.aspx)，但我们要查找到社区此桥梁。 请注意，Microsoft 支持与相应的支持合同，将解决 EWS SOAP 协议，但不是 EWS Java API 本身与相关的任何问题。 EWS Java API 仅供[GitHub](https://github.com/OfficeDev/ews-java-api)上下载和社区的贡献。
-  
-### <a name="ews-autogenerated-proxies"></a>EWS 自动生成的代理
+EWS Java API 是[GitHub](https://github.com/OfficeDev/ews-java-api)上的开放源代码项目，可由社区进行更新和扩展。 Stylistically 类似于[Ews 托管 API](https://msdn.microsoft.com/library/office/jj220535%28v=exchg.80%29.aspx) ，并通过线路使用 ews SOAP 请求和响应。 尽管不能使用 EWS Java API 访问所有[EWS SOAP 操作](https://msdn.microsoft.com/library/cf6fd871-9a65-4f34-8557-c8c71dd7ce09%28Office.15%29.aspx)，但在[最近创建](https://blogs.office.com/2014/08/28/open-sourcing-exchange-web-services-ews-java-api/)的开放源代码项目中，我们正在寻求社区弥补此缺口。 请注意，具有适当支持合同的 Microsoft 支持将解决与 EWS SOAP 协议（而非 EWS Java API 本身）相关的任何问题。 在[GitHub](https://github.com/OfficeDev/ews-java-api)上可下载和社区贡献的 EWS Java API。
 
-自动生成客户端 Api 生成从 EWS WSDL 和 XML 架构定义。 客户端对象模型生成器是可用于许多语言。 一般情况下，自动生成对象模型管理对象序列化和反序列化操作。 它们不包含业务逻辑和自动生成过程通常会使对象模型使用较低直观的项目。 Exchange 支持介绍发送和接收的客户端，但不是的对象模型的 XML。
+  
+### <a name="ews-autogenerated-proxies"></a>EWS 自动生成代理
+
+自动生成的客户端 Api 是从 EWS WSDL 和 XML 架构定义生成的。 客户端对象模型生成器可用于多种语言。 通常情况下，自动生成的对象模型会管理对象的序列化和反序列化。 它们不包括业务逻辑，并且自动生成过程通常会创建项目，以使对象模型不太直观，可供使用。 Exchange 支持涵盖客户端（而不是对象模型）发送和接收的 XML。
   
 ### <a name="custom-ews-client-api"></a>自定义 EWS 客户端 API
 
-对于某些应用程序使用一小组 EWS 功能，您可以创建自定义客户端 API 与 Exchange 进行通信。 这使您可以使用较少的系统资源。 这很有用的客户端的内存约束的设备，如运行微.net 客户端上运行。
+对于某些使用一小部分 EWS 功能的应用程序，您可以创建自定义客户端 API 以与 Exchange 进行通信。 这使您可以消耗更少的系统资源。 对于在内存有限的设备（如运行 .NET 微框架的客户端）上运行的客户端，这非常有用。
   
 ## <a name="ews-client-features"></a>EWS 客户端功能
 <a name="EWSFeatures"> </a>
 
-无论您选择的开发选项，您应考虑如何在您的客户端中实现 EWS 功能。 功能的可用性取决于 EWS 架构版本的应用程序的目标。 因为 EWS 架构和转发-兼容，如果您创建应用程序的目标早期的架构版本，如 Exchange Server 2007 SP1，您的应用程序也能够针对更高版本的架构版本，如 Exchange Server 2013 SP1服务，以及 Exchange Online。 
+无论您选择哪种开发选项，都应考虑如何在客户端中实现 EWS 功能。 功能可用性基于应用程序的目标 EWS 架构版本。 由于 EWS 架构是向后和向前兼容的，因此，如果您创建一个面向早期架构版本的应用程序（如 Exchange Server 2007 SP1），您的应用程序还将针对更高版本的架构版本（如 Exchange Server 2013 SP1 服务）以及 Exchange Online 运行。 
   
-由于特性和功能更新驱动的架构，我们建议您在该目标您想要在客户端应用程序中实现的 EWS 功能使用最早的常见代码库。 多个应用程序可以目标 Exchange2007_SP1 版本，因为 Exchange 2007 SP1 架构包含几乎所有核心 Exchange 功能用于处理项目和 Exchange 存储中的文件夹。 我们建议您保留对每个 EWS 架构版本代码分叉。 以下是当前可用的架构版本。 
+由于功能和功能更新由架构驱动，因此我们建议使用针对要在客户端应用程序中实现的 EWS 功能的最早通用基本代码。 由于 Exchange 2007 SP1 架构包含几乎所有用于在 Exchange 存储中处理项目和文件夹的核心 Exchange 功能，因此许多应用程序可以面向 Exchange2007_SP1 版本。 我们建议您为每个 EWS 架构版本维护代码派生。 以下是当前可用的架构版本。 
   
 ```XML
   <xs:simpleType name="ExchangeVersionType">
@@ -113,24 +114,24 @@ EWS Java API 是在[GitHub](https://github.com/OfficeDev/ews-java-api)可更新�
   </xs:simpleType>
 ```
 
-架构版本会保留在**ExchangeVersionType**简单类型。 
+架构版本在**ExchangeVersionType**简单类型中维护。 
   
-有关每个 EWS 架构版本中可用的功能的信息，请参阅[Exchange 中的 EWS 架构版本](ews-schema-versions-in-exchange.md)。
+有关每个 EWS 架构版本中提供的功能的信息，请参阅[Exchange 中的 EWS 架构版本](ews-schema-versions-in-exchange.md)。
   
 ## <a name="in-this-section"></a>本节内容
 <a name="bk_inthissection"> </a>
 
-- [Exchange 和 EWS 托管 API 中的 web 服务 API 功能可用性](web-service-api-feature-availability-in-exchange-and-the-ews-managed-api.md)   
+- [Exchange 和 EWS 托管 API 中的 Web 服务 API 功能可用性](web-service-api-feature-availability-in-exchange-and-the-ews-managed-api.md)   
 - [Exchange 中的 EWS 架构版本](ews-schema-versions-in-exchange.md)  
-- [Exchange 中的 EWS 的配置选项](configuration-options-for-ews-in-exchange.md)  
+- [Exchange 中 EWS 的配置选项](configuration-options-for-ews-in-exchange.md)  
 - [比较 Exchange Online 和 Exchange 本地客户端编程](comparing-exchange-online-and-exchange-on-premises-client-programming.md)   
-- [限制在 Exchange 中的 EWS](ews-throttling-in-exchange.md)  
+- [Exchange 中的 EWS 限制](ews-throttling-in-exchange.md)  
 - [EWS 托管 API 的再分发要求](redistribution-requirements-for-the-ews-managed-api.md)  
-- [在 Exchange 检测 EWS 和 REST 的客户端请求](instrumenting-client-requests-for-ews-and-rest-in-exchange.md)
+- [检测对 EWS 和 REST 在 Exchange 中的客户端请求](instrumenting-client-requests-for-ews-and-rest-in-exchange.md)
     
 ## <a name="see-also"></a>另请参阅
  
-- [Start using web services in Exchange](start-using-web-services-in-exchange.md)
+- [开始使用 Exchange 中的 Web 服务](start-using-web-services-in-exchange.md)
 - [开发 Exchange Web 服务客户端](develop-web-service-clients-for-exchange.md) 
 - [EWS 应用程序类型](ews-application-types.md)
     

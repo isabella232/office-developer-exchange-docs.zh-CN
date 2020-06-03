@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: bd6a4265-ad40-43f6-bcc4-0bf5df4e984c
-description: ToFolderId 元素均表示复制或移动项目或文件夹的目标的文件夹。
-ms.openlocfilehash: 9d2fd6c177711cfe3a5d3415320440259e2f5289
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: ToFolderId 元素表示复制或移动的项或文件夹的目标文件夹。
+ms.openlocfilehash: c9cceb17fd55b7357d54b37bf4c8da1137d39b6a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353656"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44468773"
 ---
 # <a name="tofolderid"></a>ToFolderId
 
-**ToFolderId**元素均表示复制或移动项目或文件夹的目标的文件夹。 
+**ToFolderId**元素表示复制或移动的项或文件夹的目标文件夹。 
   
 ```xml
 <ToFolderId>
@@ -56,10 +56,10 @@ ms.locfileid: "21353656"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[MoveFolder](movefolder.md) <br/> |定义将文件夹移 Exchange 存储中的请求。  <br/> 下面是此元素的 XPath 表达式:    <br/>  `/MoveFolder` <br/> |
-|[CopyFolder](copyfolder.md) <br/> |定义在 Exchange 存储中复制文件夹的请求。  <br/> 下面是此元素的 XPath 表达式:    <br/>  `/CopyFolder` <br/> |
-|[MoveItem](moveitem.md) <br/> |定义在 Exchange 存储中移动项目的请求。  <br/> 下面是此元素的 XPath 表达式:    <br/>  `/MoveItem` <br/> |
-|[CopyItem](copyitem.md) <br/> |定义在 Exchange 存储中复制项的请求。  <br/> 下面是此元素的 XPath 表达式:    <br/>  `/CopyItem` <br/> |
+|[MoveFolder](movefolder.md) <br/> |定义在 Exchange 存储中移动文件夹的请求。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/MoveFolder` <br/> |
+|[CopyFolder](copyfolder.md) <br/> |定义在 Exchange 存储中复制文件夹的请求。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/CopyFolder` <br/> |
+|[MoveItem](moveitem.md) <br/> |定义在 Exchange 存储中移动项目的请求。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/MoveItem` <br/> |
+|[CopyItem](copyitem.md) <br/> |定义在 Exchange 存储中复制项目的请求。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/CopyItem` <br/> |
    
 ## <a name="remarks"></a>说明
 
@@ -69,7 +69,7 @@ ms.locfileid: "21353656"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |

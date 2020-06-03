@@ -3,38 +3,38 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
 ms.assetid: 6c969133-6036-448b-af39-a3caf9917e98
-description: 在 Exchange 中查找参考信息的 web 服务。
-ms.openlocfilehash: 417ade6956ee5e09fe7ad63f09e59f0079d58613
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 查找 Exchange 中的 web 服务的参考信息。
+localization_priority: Priority
+ms.openlocfilehash: 8bdb3d6c4244bf8e0f092f5a9ffa3de5e8f1c3c2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838539"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467345"
 ---
-# <a name="web-services-reference-for-exchange"></a>Exchange web 服务引用
+# <a name="web-services-reference-for-exchange"></a>Exchange 的 Web 服务参考
 
-在 Exchange 中查找参考信息的 web 服务。
+查找 Exchange 中的 web 服务的参考信息。
   
-本节包含的参考信息的 Api 的目标或包含在 Exchange Online，Exchange Online 作为 Office 365 的一部分和版本的 Exchange 开头 Exchange Server 2007。 本节包括以下内容：
+此部分包括面向 Exchange Online 中的 Api 的参考信息、Exchange Online 作为 Office 365 的一部分以及从 Exchange Server 2007 开始的 Exchange 版本。 本部分包含以下内容：
   
-- [EWS 参考 （英文） Exchange](ews-reference-for-exchange.md) — 包含 API 参考文档的 Exchange Web Services (EWS) API。 这是用于创建客户端和服务的连接到 Exchange 以获得访问邮箱信息的主要 API。 此内容包含有关的 EWS 中, 可用的操作和 XML 参考文档提供有关对发送和接收从 Exchange 的 XML 实例的信息的信息。 
+- [Exchange 的 EWS 参考](ews-reference-for-exchange.md)—包含 Exchange Web 服务（EWS） API 的 API 参考文档。 这是用于创建连接到 Exchange 以获取邮箱信息访问权限的客户端和服务的主要 API。 此内容包含有关 EWS 中可用的操作的信息，以及 XML 参考文档，提供了有关发送到 Exchange 和从 Exchange 接收的实例 XML 的信息。 
     
-- [EWS 托管 API 参考 （英文）](http://msdn.microsoft.com/library/c6ca36f4-a67c-4e3c-aae7-9ead7b704e15%28Office.15%29.aspx) -包含 API 参考文档的 EWS 托管 API。 EWS 托管 API 开发和扩展使用 EWS 的应用程序的简单和全界面。 
+- [Ews 托管 api 参考](ews-managed-api-reference-for-exchange.md)—包含 EWS 托管 API 的 API 参考文档。 EWS 托管 API 是一个简单且功能齐全的界面，用于开发和扩展使用 EWS 的应用程序。 
     
-- [Exchange 的自动发现 web 服务引用](autodiscover-web-service-reference-for-exchange.md)— 包含 XML API 参考 （英文） 提供 Exchange 的自动发现服务。 自动发现 Api 提供了客户端应用程序设置将使他们能够自动发现 Exchange 服务终结点的信息。 
+- [自动发现的 exchange web 服务参考](autodiscover-web-service-reference-for-exchange.md)—包含针对 exchange 提供的自动发现服务的 XML API 参考。 自动发现 Api 为客户端应用程序提供了设置信息，使其能够自动发现 Exchange 服务终结点。 
     
-- [Exchange 统一消息 web 服务引用](unified-messaging-web-service-reference-for-exchange.md)— 包含统一消息 (UM) web 服务的 XML API 参考。 UM web 服务提供在 Exchange UM 功能访问客户端应用程序。 请注意 EWS 还提供了统一消息功能。 
+- [Exchange 的统一消息 web 服务参考](unified-messaging-web-service-reference-for-exchange.md)—包含统一消息（UM） web 服务的 XML API 参考。 UM web 服务提供客户端应用程序对 Exchange 中的 UM 功能的访问权限。 请注意，EWS 还提供了 UM 功能。 
     
-- [EWS 生成 Exchange 的对象模型](http://msdn.microsoft.com/library/67d7d831-9c53-46da-80e4-18f562e71284%28Office.15%29.aspx)— 包含 ExchangeWebServices 命名空间中的自动生成代理类的 API 参考。 
+- [EWS 生成的 Exchange 对象模型](ews-generated-object-models-reference-for-exchange.md)—包含 ExchangeWebServices 命名空间中自动生成的代理类的 API 引用。 
     
     > [!NOTE]
-    > 对于基于开头.NET Framework 3.5 的.NET framework 版本的客户端，建议使用 EWS 托管 API 访问 EWS。 有关详细信息，请参阅[入门 EWS 托管 API 客户端应用程序](http://msdn.microsoft.com/library/c2267733-6f4f-49e5-9614-1e4a24c3af1a%28Office.15%29.aspx)。 
+    > 对于基于 .net framework 3.5 的 .NET Framework 版本的客户端，建议您使用 EWS 托管 API 来访问 EWS。 有关详细信息，请参阅[开始使用 EWS 托管 API 客户端应用程序](../exchange-web-services/get-started-with-ews-managed-api-client-applications.md)。 
   
-有关要使用的 Api 集的信息，请参阅[exchange 的 EWS 客户端设计 overview](http://msdn.microsoft.com/library/b26f67aa-7c66-4d7d-98b3-746f26ab37f4%28Office.15%29.aspx)。
+有关要使用的 Api 集的信息，请参阅[Exchange 的 EWS 客户端设计概述](../exchange-web-services/ews-client-design-overview-for-exchange.md)。
   
-Exchange XML 参考基于客户端和服务器之间发送的 XML 实例。 XML 所述的 EWS 和 SOAP 自动发现服务的 WSDL 和 XSD 文件。 UM web 服务和 POX 自动发现服务没有描述其结构的发布的 WSDL 和架构文件。 服务不具有架构文件的 XML 参考基于可以观察和捕获如互换客户端和服务的 XML 实例。
+Exchange XML 引用基于在客户端和服务器之间发送的 XML 实例。 在 EWS 和 SOAP 自动发现服务的 WSDL 和 XSD 文件中对 XML 进行了介绍。 UM web 服务和 POX 自动发现服务没有已发布的 WSDL 和 schema 文件来描述其结构。 不具有架构文件的服务的 XML 引用基于在客户端和服务之间交换时可以观察和捕获的 XML 实例。
   
 ## <a name="see-also"></a>另请参阅
 

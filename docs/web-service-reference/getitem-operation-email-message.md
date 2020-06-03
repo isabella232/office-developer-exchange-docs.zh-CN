@@ -1,41 +1,41 @@
 ---
-title: GetItem 操作 （电子邮件）
+title: GetItem 操作（电子邮件）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
 api_name:
 - GetItem
 api_type:
 - schema
 ms.assetid: e8492e3b-1c8d-4b14-8070-9530f8306edd
-description: GetItem operation，允许用户访问有关电子邮件的信息。
-ms.openlocfilehash: 133a893ec7cd0c206d9db573f8b952eb3c2286df
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: GetItem 操作允许用户访问有关电子邮件的信息。
+localization_priority: Priority
+ms.openlocfilehash: f8be01cad3d4c4534f66593cbe8bcee477726972
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754601"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459992"
 ---
-# <a name="getitem-operation-email-message"></a>GetItem 操作 （电子邮件）
+# <a name="getitem-operation-email-message"></a>GetItem 操作（电子邮件）
 
-GetItem operation，允许用户访问有关电子邮件的信息。
+GetItem 操作允许用户访问有关电子邮件的信息。
   
-## <a name="using-the-getitem-operation-for-messages"></a>使用 GetItem 操作的邮件
+## <a name="using-the-getitem-operation-for-messages"></a>对邮件使用 GetItem 操作
 
-GetItem 请求必须具有以下信息：
+GetItem 请求必须包含以下信息：
   
-- 要确定要返回的项目信息的[ItemId](itemid.md)元素。 
+- 用于标识要返回的项信息的[ItemId](itemid.md)元素。 
     
-- 要确定要返回的项目属性的[ItemShape](itemshape.md)元素。 
+- 用于标识要返回的项属性的[ItemShape](itemshape.md)元素。 
     
 ## <a name="getitem-request-example"></a>GetItem 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
-GetItem 请求的下面的示例演示如何访问有关电子邮件的信息。
+以下示例的 GetItem 请求显示了如何访问有关电子邮件的信息。
   
 ### <a name="code"></a>代码
 
@@ -45,11 +45,11 @@ GetItem 请求的下面的示例演示如何访问有关电子邮件的信息。
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
   xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
     <GetItem
-      xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+      xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <ItemShape>
         <t:BaseShape>Default</t:BaseShape>
         <t:IncludeMimeContent>true</t:IncludeMimeContent>
@@ -62,7 +62,7 @@ GetItem 请求的下面的示例演示如何访问有关电子邮件的信息。
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>请求元素
+### <a name="request-elements"></a>Request 元素
 
 请求中使用以下元素：
   
@@ -78,11 +78,11 @@ GetItem 请求的下面的示例演示如何访问有关电子邮件的信息。
     
 - [ItemId](itemid.md)
     
-## <a name="successful-getitem-e-mail-message-response-example"></a>成功 GetItem （电子邮件） 响应示例
+## <a name="successful-getitem-e-mail-message-response-example"></a>成功的 GetItem （电子邮件）响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
-下面的示例演示对 GetItem 请求成功响应。
+下面的示例演示对 GetItem 请求的成功响应。
   
 ### <a name="code"></a>代码
 
@@ -93,12 +93,12 @@ GetItem 请求的下面的示例演示如何访问有关电子邮件的信息。
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <GetItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                     xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                     xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                     xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                     xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:GetItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -157,13 +157,13 @@ GetItem 请求的下面的示例演示如何访问有关电子邮件的信息。
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>注释
+### <a name="comments"></a>备注
 
-MIME 内容、 文件夹和项标识符已缩短要保留可读性。
+MIME 内容、文件夹和项目标识符已缩短，以保持可读性。
   
-### <a name="successful-response-elements"></a>成功响应元素
+### <a name="successful-response-elements"></a>成功的响应元素
 
-在响应中使用以下元素：
+响应中使用以下元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -177,19 +177,19 @@ MIME 内容、 文件夹和项标识符已缩短要保留可读性。
     
 - [Items](items.md)
     
-- [Message](message-ex15websvcsotherref.md)
+- [消息](message-ex15websvcsotherref.md)
     
 - [MimeContent](mimecontent.md)
     
 - [ItemId](itemid.md)
     
-- [Subject](subject.md)
+- [主题](subject.md)
     
 - [Sensitivity](sensitivity.md)
     
 - [Body](body.md)
     
-- [Size](size.md)
+- [大小](size.md)
     
 - [DateTimeSent](datetimesent.md)
     
@@ -207,27 +207,27 @@ MIME 内容、 文件夹和项标识符已缩短要保留可读性。
     
 - [ToRecipients](torecipients.md)
     
-- [Mailbox](mailbox.md)
+- [邮箱](mailbox.md)
     
 - [名称 (EmailAddressType)](name-emailaddresstype.md)
     
 - [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md)
     
-- [RoutingType (EmailAddressType)](routingtype-emailaddresstype.md)
+- [RoutingType （EmailAddressType）](routingtype-emailaddresstype.md)
     
 - [IsReadReceiptRequested](isreadreceiptrequested.md)
     
 - [IsDeliveryReceiptRequested](isdeliveryreceiptrequested.md)
     
-- [发件人](from.md)
+- [From](from.md)
     
 - [IsRead](isread.md)
     
-## <a name="getitem-e-mail-message-error-response-example"></a>GetItem （电子邮件） 错误响应示例
+## <a name="getitem-e-mail-message-error-response-example"></a>GetItem （电子邮件）错误响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
-下面的示例演示对 GetItem 请求错误响应。 尝试获取无效的其他属性由导致错误。
+下面的示例演示对 GetItem 请求的错误响应。 错误是由尝试获取无效的附加属性引起的。
   
 ### <a name="code"></a>代码
 
@@ -238,12 +238,12 @@ MIME 内容、 文件夹和项标识符已缩短要保留可读性。
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <GetItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                     xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                     xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                     xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                     xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:GetItemResponseMessage ResponseClass="Error">
           <m:MessageText>Property is not valid for this object type.</m:MessageText>
