@@ -11,21 +11,21 @@ api_name:
 api_type:
 - schema
 ms.assetid: 12942f24-2a8e-4d7f-a137-8da5932a6b46
-description: FindMessageTrackingReport 操作查找符合指定的条件的邮件。
-ms.openlocfilehash: 103655b1c190f43bd11cfd3bfeabc22422d726a1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: FindMessageTrackingReport 操作查找符合指定条件的邮件。
+ms.openlocfilehash: ec3073da4cf3961d3f2fe2727bf0cf0533e0ffb6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754353"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530914"
 ---
-# <a name="findmessagetrackingreport-operation"></a><span data-ttu-id="f47e1-103">FindMessageTrackingReport 操作</span><span class="sxs-lookup"><span data-stu-id="f47e1-103">FindMessageTrackingReport operation</span></span>
+# <a name="findmessagetrackingreport-operation"></a><span data-ttu-id="d3154-103">FindMessageTrackingReport 操作</span><span class="sxs-lookup"><span data-stu-id="d3154-103">FindMessageTrackingReport operation</span></span>
 
-<span data-ttu-id="f47e1-104">**FindMessageTrackingReport**操作查找符合指定的条件的邮件。</span><span class="sxs-lookup"><span data-stu-id="f47e1-104">The **FindMessageTrackingReport** operation finds messages that meet the specified criteria.</span></span> 
+<span data-ttu-id="d3154-104">**FindMessageTrackingReport**操作查找符合指定条件的邮件。</span><span class="sxs-lookup"><span data-stu-id="d3154-104">The **FindMessageTrackingReport** operation finds messages that meet the specified criteria.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="f47e1-105">另请参阅</span><span class="sxs-lookup"><span data-stu-id="f47e1-105">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d3154-105">另请参阅</span><span class="sxs-lookup"><span data-stu-id="d3154-105">See also</span></span>
 
-- [<span data-ttu-id="f47e1-106">Exchange 中的 EWS 操作</span><span class="sxs-lookup"><span data-stu-id="f47e1-106">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
+- [<span data-ttu-id="d3154-106">Exchange 中的 EWS 操作</span><span class="sxs-lookup"><span data-stu-id="d3154-106">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
   
-- [<span data-ttu-id="f47e1-107">在交换 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="f47e1-107">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="d3154-107">Exchange 中的 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="d3154-107">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

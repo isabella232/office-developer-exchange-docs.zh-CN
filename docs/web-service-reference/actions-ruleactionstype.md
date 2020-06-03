@@ -1,5 +1,5 @@
 ---
-title: 操作 (RuleActionsType)
+title: 操作（RuleActionsType）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2afba70c-65f7-458c-a4e6-a2cd9bccc0f9
 description: Actions 元素包含与收件箱规则关联的操作的列表。
-ms.openlocfilehash: 8ed8095ca8b41e037c2c0dad319c9c4ab99ed2bb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: fbef3b69b1688d7c612af018d6a19f9ec1728066
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753187"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529677"
 ---
-# <a name="actions-ruleactionstype"></a><span data-ttu-id="8aebd-103">操作 (RuleActionsType)</span><span class="sxs-lookup"><span data-stu-id="8aebd-103">Actions (RuleActionsType)</span></span>
+# <a name="actions-ruleactionstype"></a><span data-ttu-id="28105-103">操作（RuleActionsType）</span><span class="sxs-lookup"><span data-stu-id="28105-103">Actions (RuleActionsType)</span></span>
 
-<span data-ttu-id="8aebd-104">**Actions**元素包含与收件箱规则关联的操作的列表。</span><span class="sxs-lookup"><span data-stu-id="8aebd-104">The **Actions** element contains a list of actions associated with Inbox rules.</span></span> 
+<span data-ttu-id="28105-104">**Actions**元素包含与收件箱规则关联的操作的列表。</span><span class="sxs-lookup"><span data-stu-id="28105-104">The **Actions** element contains a list of actions associated with Inbox rules.</span></span> 
   
 ```XML
 <Actions>
@@ -37,36 +37,36 @@ ms.locfileid: "19753187"
 </Actions>
 ```
 
- <span data-ttu-id="8aebd-105">**RuleActionsType**</span><span class="sxs-lookup"><span data-stu-id="8aebd-105">**RuleActionsType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="8aebd-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="8aebd-106">Attributes and elements</span></span>
+ <span data-ttu-id="28105-105">**RuleActionsType**</span><span class="sxs-lookup"><span data-stu-id="28105-105">**RuleActionsType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="28105-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="28105-106">Attributes and elements</span></span>
 
-<span data-ttu-id="8aebd-107">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="8aebd-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="28105-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="28105-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="8aebd-108">属性</span><span class="sxs-lookup"><span data-stu-id="8aebd-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="28105-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="28105-108">Attributes</span></span>
 
-<span data-ttu-id="8aebd-109">无。</span><span class="sxs-lookup"><span data-stu-id="8aebd-109">None.</span></span>
+<span data-ttu-id="28105-109">无。</span><span class="sxs-lookup"><span data-stu-id="28105-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="8aebd-110">子元素</span><span class="sxs-lookup"><span data-stu-id="8aebd-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="28105-110">子元素</span><span class="sxs-lookup"><span data-stu-id="28105-110">Child elements</span></span>
 
-<span data-ttu-id="8aebd-111">[AssignCategories](assigncategories.md) | [CopyToFolder](copytofolder.md) | [删除](delete.md) | [ForwardAsAttachmentToRecipients](forwardasattachmenttorecipients.md) | [ForwardToRecipients](forwardtorecipients.md) | [MarkImportance](markimportance.md) | [MarkAsRead](markasread.md)  |  [MoveToFolder](movetofolder.md) | [PermanentDelete](permanentdelete.md) | [RedirectToRecipients](redirecttorecipients.md) | [SendSMSAlertToRecipients](sendsmsalerttorecipients.md) | [ServerReplyWithMessage](serverreplywithmessage.md)  |  [StopProcessingRules](stopprocessingrules.md)</span><span class="sxs-lookup"><span data-stu-id="8aebd-111">[AssignCategories](assigncategories.md) | [CopyToFolder](copytofolder.md) | [Delete](delete.md) | [ForwardAsAttachmentToRecipients](forwardasattachmenttorecipients.md) | [ForwardToRecipients](forwardtorecipients.md) | [MarkImportance](markimportance.md) | [MarkAsRead](markasread.md) | [MoveToFolder](movetofolder.md) | [PermanentDelete](permanentdelete.md) | [RedirectToRecipients](redirecttorecipients.md) | [SendSMSAlertToRecipients](sendsmsalerttorecipients.md) | [ServerReplyWithMessage](serverreplywithmessage.md) | [StopProcessingRules](stopprocessingrules.md)</span></span>
+<span data-ttu-id="28105-111">[AssignCategories](assigncategories.md)  | [CopyToFolder](copytofolder.md)  | [删除](delete.md)  | [ForwardAsAttachmentToRecipients](forwardasattachmenttorecipients.md)  | [ForwardToRecipients](forwardtorecipients.md)  | [MarkImportance](markimportance.md)  | [MarkAsRead](markasread.md)  | [MoveToFolder](movetofolder.md)  | [PermanentDelete](permanentdelete.md)  | [RedirectToRecipients](redirecttorecipients.md)  | [SendSMSAlertToRecipients](sendsmsalerttorecipients.md)  | [ServerReplyWithMessage](serverreplywithmessage.md)  | [StopProcessingRules](stopprocessingrules.md)</span><span class="sxs-lookup"><span data-stu-id="28105-111">[AssignCategories](assigncategories.md) | [CopyToFolder](copytofolder.md) | [Delete](delete.md) | [ForwardAsAttachmentToRecipients](forwardasattachmenttorecipients.md) | [ForwardToRecipients](forwardtorecipients.md) | [MarkImportance](markimportance.md) | [MarkAsRead](markasread.md) | [MoveToFolder](movetofolder.md) | [PermanentDelete](permanentdelete.md) | [RedirectToRecipients](redirecttorecipients.md) | [SendSMSAlertToRecipients](sendsmsalerttorecipients.md) | [ServerReplyWithMessage](serverreplywithmessage.md) | [StopProcessingRules](stopprocessingrules.md)</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="8aebd-112">父元素</span><span class="sxs-lookup"><span data-stu-id="8aebd-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="28105-112">父元素</span><span class="sxs-lookup"><span data-stu-id="28105-112">Parent elements</span></span>
 
-[<span data-ttu-id="8aebd-113">规则 (RuleType)</span><span class="sxs-lookup"><span data-stu-id="8aebd-113">Rule (RuleType)</span></span>](rule-ruletype.md)
+[<span data-ttu-id="28105-113">规则 (RuleType)</span><span class="sxs-lookup"><span data-stu-id="28105-113">Rule (RuleType)</span></span>](rule-ruletype.md)
   
-## <a name="remarks"></a><span data-ttu-id="8aebd-114">备注</span><span class="sxs-lookup"><span data-stu-id="8aebd-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="28105-114">备注</span><span class="sxs-lookup"><span data-stu-id="28105-114">Remarks</span></span>
 
-<span data-ttu-id="8aebd-115">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="8aebd-115">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="28105-115">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="28105-115">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="8aebd-116">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="8aebd-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="28105-116">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="28105-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="8aebd-117">元素信息</span><span class="sxs-lookup"><span data-stu-id="8aebd-117">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="28105-117">元素信息</span><span class="sxs-lookup"><span data-stu-id="28105-117">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="8aebd-118">命名空间</span><span class="sxs-lookup"><span data-stu-id="8aebd-118">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="8aebd-119">架构名称</span><span class="sxs-lookup"><span data-stu-id="8aebd-119">Schema name</span></span>  <br/> |<span data-ttu-id="8aebd-120">类型架构</span><span class="sxs-lookup"><span data-stu-id="8aebd-120">Types schema</span></span>  <br/> |
-|<span data-ttu-id="8aebd-121">验证文件</span><span class="sxs-lookup"><span data-stu-id="8aebd-121">Validation file</span></span>  <br/> |<span data-ttu-id="8aebd-122">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="8aebd-122">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="8aebd-123">可以为空</span><span class="sxs-lookup"><span data-stu-id="8aebd-123">Can be empty</span></span>  <br/> |<span data-ttu-id="8aebd-124">false</span><span class="sxs-lookup"><span data-stu-id="8aebd-124">false</span></span>  <br/> |
+|<span data-ttu-id="28105-118">命名空间</span><span class="sxs-lookup"><span data-stu-id="28105-118">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="28105-119">架构名称</span><span class="sxs-lookup"><span data-stu-id="28105-119">Schema name</span></span>  <br/> |<span data-ttu-id="28105-120">类型架构</span><span class="sxs-lookup"><span data-stu-id="28105-120">Types schema</span></span>  <br/> |
+|<span data-ttu-id="28105-121">验证文件</span><span class="sxs-lookup"><span data-stu-id="28105-121">Validation file</span></span>  <br/> |<span data-ttu-id="28105-122">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="28105-122">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="28105-123">可以为空</span><span class="sxs-lookup"><span data-stu-id="28105-123">Can be empty</span></span>  <br/> |<span data-ttu-id="28105-124">false</span><span class="sxs-lookup"><span data-stu-id="28105-124">false</span></span>  <br/> |
    
 

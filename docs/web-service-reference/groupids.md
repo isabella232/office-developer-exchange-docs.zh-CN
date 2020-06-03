@@ -1,5 +1,5 @@
 ---
-title: GroupIds
+title: Groupid
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 4d32cb3b-eb84-4816-89cd-26dcf5131bc8
-description: GroupIds 元素标识即时消息的组标识符的数组。
-ms.openlocfilehash: 0e463a3a74eb3a4996b521f77e1175913b22d16b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Groupid 元素标识即时消息组标识符的数组。
+ms.openlocfilehash: 7583a197413063289739f0f32d9410047fc2f23d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825763"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530083"
 ---
-# <a name="groupids"></a><span data-ttu-id="2b827-103">GroupIds</span><span class="sxs-lookup"><span data-stu-id="2b827-103">GroupIds</span></span>
+# <a name="groupids"></a><span data-ttu-id="89bfc-103">Groupid</span><span class="sxs-lookup"><span data-stu-id="89bfc-103">GroupIds</span></span>
 
-<span data-ttu-id="2b827-104">**GroupIds**元素标识即时消息的组标识符的数组。</span><span class="sxs-lookup"><span data-stu-id="2b827-104">The **GroupIds** element identifies an array of instant messaging group identifiers.</span></span> 
+<span data-ttu-id="89bfc-104">**Groupid**元素标识即时消息组标识符的数组。</span><span class="sxs-lookup"><span data-stu-id="89bfc-104">The **GroupIds** element identifies an array of instant messaging group identifiers.</span></span> 
   
 ```XML
 <GroupIds>
@@ -28,36 +28,36 @@ ms.locfileid: "19825763"
 </GroupIds>
 ```
 
- <span data-ttu-id="2b827-105">**NonEmptyArrayOfBaseItemIdsType**</span><span class="sxs-lookup"><span data-stu-id="2b827-105">**NonEmptyArrayOfBaseItemIdsType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="2b827-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="2b827-106">Attributes and elements</span></span>
+ <span data-ttu-id="89bfc-105">**NonEmptyArrayOfBaseItemIdsType**</span><span class="sxs-lookup"><span data-stu-id="89bfc-105">**NonEmptyArrayOfBaseItemIdsType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="89bfc-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="89bfc-106">Attributes and elements</span></span>
 
-<span data-ttu-id="2b827-107">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="2b827-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="89bfc-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="89bfc-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="2b827-108">属性</span><span class="sxs-lookup"><span data-stu-id="2b827-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="89bfc-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="89bfc-108">Attributes</span></span>
 
-<span data-ttu-id="2b827-109">无。</span><span class="sxs-lookup"><span data-stu-id="2b827-109">None.</span></span>
+<span data-ttu-id="89bfc-109">无。</span><span class="sxs-lookup"><span data-stu-id="89bfc-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="2b827-110">子元素</span><span class="sxs-lookup"><span data-stu-id="2b827-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="89bfc-110">子元素</span><span class="sxs-lookup"><span data-stu-id="89bfc-110">Child elements</span></span>
 
-<span data-ttu-id="2b827-111">[ItemId](itemid.md) | [OccurrenceItemId](occurrenceitemid.md) | [RecurringMasterItemId](recurringmasteritemid.md) | [RecurringMasterItemIdRanges](recurringmasteritemidranges.md)</span><span class="sxs-lookup"><span data-stu-id="2b827-111">[ItemId](itemid.md) | [OccurrenceItemId](occurrenceitemid.md) | [RecurringMasterItemId](recurringmasteritemid.md) | [RecurringMasterItemIdRanges](recurringmasteritemidranges.md)</span></span>
+<span data-ttu-id="89bfc-111">[ItemId](itemid.md)  | [OccurrenceItemId](occurrenceitemid.md)  | [RecurringMasterItemId](recurringmasteritemid.md)  | [RecurringMasterItemIdRanges](recurringmasteritemidranges.md)</span><span class="sxs-lookup"><span data-stu-id="89bfc-111">[ItemId](itemid.md) | [OccurrenceItemId](occurrenceitemid.md) | [RecurringMasterItemId](recurringmasteritemid.md) | [RecurringMasterItemIdRanges](recurringmasteritemidranges.md)</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="2b827-112">父元素</span><span class="sxs-lookup"><span data-stu-id="2b827-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="89bfc-112">父元素</span><span class="sxs-lookup"><span data-stu-id="89bfc-112">Parent elements</span></span>
 
-[<span data-ttu-id="2b827-113">GetImItems</span><span class="sxs-lookup"><span data-stu-id="2b827-113">GetImItems</span></span>](getimitems.md)
+[<span data-ttu-id="89bfc-113">GetImItems</span><span class="sxs-lookup"><span data-stu-id="89bfc-113">GetImItems</span></span>](getimitems.md)
   
-## <a name="remarks"></a><span data-ttu-id="2b827-114">备注</span><span class="sxs-lookup"><span data-stu-id="2b827-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="89bfc-114">备注</span><span class="sxs-lookup"><span data-stu-id="89bfc-114">Remarks</span></span>
 
-<span data-ttu-id="2b827-115">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="2b827-115">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="89bfc-115">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="89bfc-115">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="2b827-116">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="2b827-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="89bfc-116">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="89bfc-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="2b827-117">元素信息</span><span class="sxs-lookup"><span data-stu-id="2b827-117">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="89bfc-117">元素信息</span><span class="sxs-lookup"><span data-stu-id="89bfc-117">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="2b827-118">命名空间</span><span class="sxs-lookup"><span data-stu-id="2b827-118">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="2b827-119">架构名称</span><span class="sxs-lookup"><span data-stu-id="2b827-119">Schema name</span></span>  <br/> |<span data-ttu-id="2b827-120">消息架构</span><span class="sxs-lookup"><span data-stu-id="2b827-120">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="2b827-121">验证文件</span><span class="sxs-lookup"><span data-stu-id="2b827-121">Validation file</span></span>  <br/> |<span data-ttu-id="2b827-122">messages.xsd</span><span class="sxs-lookup"><span data-stu-id="2b827-122">messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="2b827-123">可以为空</span><span class="sxs-lookup"><span data-stu-id="2b827-123">Can be empty</span></span>  <br/> ||
+|<span data-ttu-id="89bfc-118">命名空间</span><span class="sxs-lookup"><span data-stu-id="89bfc-118">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="89bfc-119">架构名称</span><span class="sxs-lookup"><span data-stu-id="89bfc-119">Schema name</span></span>  <br/> |<span data-ttu-id="89bfc-120">消息架构</span><span class="sxs-lookup"><span data-stu-id="89bfc-120">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="89bfc-121">验证文件</span><span class="sxs-lookup"><span data-stu-id="89bfc-121">Validation file</span></span>  <br/> |<span data-ttu-id="89bfc-122">消息 .xsd</span><span class="sxs-lookup"><span data-stu-id="89bfc-122">messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="89bfc-123">可以为空</span><span class="sxs-lookup"><span data-stu-id="89bfc-123">Can be empty</span></span>  <br/> ||
    
 

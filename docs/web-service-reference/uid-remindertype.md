@@ -1,5 +1,5 @@
 ---
-title: UID (ReminderType)
+title: UID （ReminderType）
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
@@ -7,57 +7,57 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 169e7825-4480-46d2-9f84-cdab27c8bcfb
-description: UID (ReminderType) 元素标识与提醒关联的日历项。
-ms.openlocfilehash: e0ad877eee29937b93e2659f84769938c983f11d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: UID （ReminderType）元素标识与提醒相关联的日历项目。
+ms.openlocfilehash: ab7e59725a87ff21bb2df052b5893abf6217f78a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838302"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530371"
 ---
-# <a name="uid-remindertype"></a><span data-ttu-id="fb08c-103">UID (ReminderType)</span><span class="sxs-lookup"><span data-stu-id="fb08c-103">UID (ReminderType)</span></span>
+# <a name="uid-remindertype"></a><span data-ttu-id="80fd8-103">UID （ReminderType）</span><span class="sxs-lookup"><span data-stu-id="80fd8-103">UID (ReminderType)</span></span>
 
-<span data-ttu-id="fb08c-104">**UID (ReminderType)** 元素标识与提醒关联的日历项。</span><span class="sxs-lookup"><span data-stu-id="fb08c-104">The **UID (ReminderType)** element identifies the calendar item associated with a reminder.</span></span> 
+<span data-ttu-id="80fd8-104">**UID （ReminderType）** 元素标识与提醒相关联的日历项目。</span><span class="sxs-lookup"><span data-stu-id="80fd8-104">The **UID (ReminderType)** element identifies the calendar item associated with a reminder.</span></span> 
   
 ```XML
 <UID />
 ```
 
- <span data-ttu-id="fb08c-105">**string**</span><span class="sxs-lookup"><span data-stu-id="fb08c-105">**string**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="fb08c-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="fb08c-106">Attributes and elements</span></span>
+ <span data-ttu-id="80fd8-105">**string**</span><span class="sxs-lookup"><span data-stu-id="80fd8-105">**string**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="80fd8-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="80fd8-106">Attributes and elements</span></span>
 
-<span data-ttu-id="fb08c-107">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="fb08c-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="80fd8-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="80fd8-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="fb08c-108">属性</span><span class="sxs-lookup"><span data-stu-id="fb08c-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="80fd8-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="80fd8-108">Attributes</span></span>
 
-<span data-ttu-id="fb08c-109">无。</span><span class="sxs-lookup"><span data-stu-id="fb08c-109">None.</span></span>
+<span data-ttu-id="80fd8-109">无。</span><span class="sxs-lookup"><span data-stu-id="80fd8-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="fb08c-110">子元素</span><span class="sxs-lookup"><span data-stu-id="fb08c-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="80fd8-110">子元素</span><span class="sxs-lookup"><span data-stu-id="80fd8-110">Child elements</span></span>
 
-<span data-ttu-id="fb08c-111">无。</span><span class="sxs-lookup"><span data-stu-id="fb08c-111">None.</span></span>
+<span data-ttu-id="80fd8-111">无。</span><span class="sxs-lookup"><span data-stu-id="80fd8-111">None.</span></span>
   
-## <a name="text-value"></a><span data-ttu-id="fb08c-112">文本值</span><span class="sxs-lookup"><span data-stu-id="fb08c-112">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="80fd8-112">文本值</span><span class="sxs-lookup"><span data-stu-id="80fd8-112">Text value</span></span>
 
-<span data-ttu-id="fb08c-113">**UID (ReminderType)** 元素的文本值标识日历项目。</span><span class="sxs-lookup"><span data-stu-id="fb08c-113">The text value of the **UID (ReminderType)** element identifies a calendar item.</span></span> 
+<span data-ttu-id="80fd8-113">**UID （ReminderType）** 元素的文本值标识日历项目。</span><span class="sxs-lookup"><span data-stu-id="80fd8-113">The text value of the **UID (ReminderType)** element identifies a calendar item.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="fb08c-114">备注</span><span class="sxs-lookup"><span data-stu-id="fb08c-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="80fd8-114">备注</span><span class="sxs-lookup"><span data-stu-id="80fd8-114">Remarks</span></span>
 
-<span data-ttu-id="fb08c-115">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="fb08c-115">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="80fd8-115">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="80fd8-115">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="fb08c-116">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="fb08c-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="80fd8-116">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="80fd8-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="fb08c-117">元素信息</span><span class="sxs-lookup"><span data-stu-id="fb08c-117">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="80fd8-117">元素信息</span><span class="sxs-lookup"><span data-stu-id="80fd8-117">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="fb08c-118">命名空间</span><span class="sxs-lookup"><span data-stu-id="fb08c-118">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="fb08c-119">架构名称</span><span class="sxs-lookup"><span data-stu-id="fb08c-119">Schema Name</span></span>  <br/> |<span data-ttu-id="fb08c-120">类型架构</span><span class="sxs-lookup"><span data-stu-id="fb08c-120">Types schema</span></span>  <br/> |
-|<span data-ttu-id="fb08c-121">验证文件</span><span class="sxs-lookup"><span data-stu-id="fb08c-121">Validation File</span></span>  <br/> |<span data-ttu-id="fb08c-122">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="fb08c-122">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="fb08c-123">可以为空</span><span class="sxs-lookup"><span data-stu-id="fb08c-123">Can be Empty</span></span>  <br/> |<span data-ttu-id="fb08c-124">False</span><span class="sxs-lookup"><span data-stu-id="fb08c-124">False</span></span>  <br/> |
+|<span data-ttu-id="80fd8-118">命名空间</span><span class="sxs-lookup"><span data-stu-id="80fd8-118">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="80fd8-119">架构名称</span><span class="sxs-lookup"><span data-stu-id="80fd8-119">Schema Name</span></span>  <br/> |<span data-ttu-id="80fd8-120">类型架构</span><span class="sxs-lookup"><span data-stu-id="80fd8-120">Types schema</span></span>  <br/> |
+|<span data-ttu-id="80fd8-121">验证文件</span><span class="sxs-lookup"><span data-stu-id="80fd8-121">Validation File</span></span>  <br/> |<span data-ttu-id="80fd8-122">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="80fd8-122">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="80fd8-123">可以为空</span><span class="sxs-lookup"><span data-stu-id="80fd8-123">Can be Empty</span></span>  <br/> |<span data-ttu-id="80fd8-124">False</span><span class="sxs-lookup"><span data-stu-id="80fd8-124">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="fb08c-125">另请参阅</span><span class="sxs-lookup"><span data-stu-id="fb08c-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="80fd8-125">另请参阅</span><span class="sxs-lookup"><span data-stu-id="80fd8-125">See also</span></span>
 
 
 
-- [<span data-ttu-id="fb08c-126">在交换 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="fb08c-126">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="80fd8-126">Exchange 中的 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="80fd8-126">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

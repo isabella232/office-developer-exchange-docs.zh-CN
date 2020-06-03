@@ -1,57 +1,63 @@
 ---
 title: GetSearchableMailboxes 操作
 manager: sethgros
-ms.date: 09/17/2015
+ms.date: 01/24/2020
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 47f8ff57-4835-4d2d-9136-44afb31a4cbe
-description: 查找信息 GetSearchableMailboxes EWS 操作。
-ms.openlocfilehash: 5e14288280b23e2555eea4fce0f77743d7d210ce
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 查找有关 GetSearchableMailboxes EWS 操作的信息。
+ms.openlocfilehash: e893a66eb1b638479eeccc6bd7548cb020f37243
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754678"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530837"
 ---
-# <a name="getsearchablemailboxes-operation"></a><span data-ttu-id="e2efb-103">GetSearchableMailboxes 操作</span><span class="sxs-lookup"><span data-stu-id="e2efb-103">GetSearchableMailboxes operation</span></span>
+# <a name="getsearchablemailboxes-operation"></a><span data-ttu-id="7a2c5-103">GetSearchableMailboxes 操作</span><span class="sxs-lookup"><span data-stu-id="7a2c5-103">GetSearchableMailboxes operation</span></span>
 
-<span data-ttu-id="e2efb-104">查找有关**GetSearchableMailboxes** EWS 操作的信息。</span><span class="sxs-lookup"><span data-stu-id="e2efb-104">Find information about the **GetSearchableMailboxes** EWS operation.</span></span> 
-  
-<span data-ttu-id="e2efb-105">**GetSearchableMailboxes**操作获取一作用域的可搜索发现搜索邮箱。</span><span class="sxs-lookup"><span data-stu-id="e2efb-105">The **GetSearchableMailboxes** operation gets a scoped set of searchable mailboxes for discovery searches.</span></span> <span data-ttu-id="e2efb-106">可搜索的邮箱在响应中返回的范围是取决于的搜索筛选器和是否展开通讯组成员身份。</span><span class="sxs-lookup"><span data-stu-id="e2efb-106">The scope of searchable mailboxes returned in the response is determined by the search filter and whether distribution group membership is expanded.</span></span> 
-  
-<span data-ttu-id="e2efb-107">Exchange Server 2013 中引入了此操作。</span><span class="sxs-lookup"><span data-stu-id="e2efb-107">This operation was introduced in Exchange Server 2013.</span></span>
-  
-## <a name="using-the-getsearchablemailboxes-operation"></a><span data-ttu-id="e2efb-108">使用 GetSearchableMailboxes 操作</span><span class="sxs-lookup"><span data-stu-id="e2efb-108">Using the GetSearchableMailboxes operation</span></span>
+> [!IMPORTANT]
+> <span data-ttu-id="7a2c5-104">从2020年4月1日起，GetSearchableMailboxes 操作将不再在 Exchange Online 中可用。</span><span class="sxs-lookup"><span data-stu-id="7a2c5-104">Starting on April 1, 2020, the GetSearchableMailboxes operation will no longer be available in Exchange Online.</span></span> <span data-ttu-id="7a2c5-105">此操作不会受到 Exchange Server 内部部署版本的影响。</span><span class="sxs-lookup"><span data-stu-id="7a2c5-105">This operation won't be affected in on-premises versions of Exchange Server.</span></span> <span data-ttu-id="7a2c5-106">有关详细信息，请参阅[在 Exchange Online 中停用旧版电子数据展示工具](https://docs.microsoft.com/microsoft-365/compliance/legacy-ediscovery-retirement#getsearchablemailboxes-setholdonmailboxes-and-getholdonmailboxes-operations-in-the-ews-api)。</span><span class="sxs-lookup"><span data-stu-id="7a2c5-106">For more information, see [Retirement of legacy eDiscovery tools in Exchange Online](https://docs.microsoft.com/microsoft-365/compliance/legacy-ediscovery-retirement#getsearchablemailboxes-setholdonmailboxes-and-getholdonmailboxes-operations-in-the-ews-api).</span></span>
 
-<span data-ttu-id="e2efb-109">**GetSearchableMailboxes**操作获取有关可搜索的邮箱的信息。</span><span class="sxs-lookup"><span data-stu-id="e2efb-109">The **GetSearchableMailboxes** operation gets information about searchable mailboxes.</span></span> <span data-ttu-id="e2efb-110">可以在请求中传递的以下参数：</span><span class="sxs-lookup"><span data-stu-id="e2efb-110">The following arguments can be passed in the request:</span></span> 
+<span data-ttu-id="7a2c5-107">查找有关**GetSearchableMailboxes** EWS 操作的信息。</span><span class="sxs-lookup"><span data-stu-id="7a2c5-107">Find information about the **GetSearchableMailboxes** EWS operation.</span></span> 
   
-- <span data-ttu-id="e2efb-111">[SearchFilter](searchfilter.md) — 接受作为参数的单个电子邮件别名。</span><span class="sxs-lookup"><span data-stu-id="e2efb-111">[SearchFilter](searchfilter.md) —Accepts a single email alias as an argument.</span></span> 
+<span data-ttu-id="7a2c5-108">**GetSearchableMailboxes**操作获取用于发现搜索的可搜索邮箱的范围集合。</span><span class="sxs-lookup"><span data-stu-id="7a2c5-108">The **GetSearchableMailboxes** operation gets a scoped set of searchable mailboxes for discovery searches.</span></span> <span data-ttu-id="7a2c5-109">响应中返回的可搜索邮箱的范围由搜索筛选器和是否扩展通讯组成员资格决定。</span><span class="sxs-lookup"><span data-stu-id="7a2c5-109">The scope of searchable mailboxes returned in the response is determined by the search filter and whether distribution group membership is expanded.</span></span> 
+
+> [!NOTE] 
+> <span data-ttu-id="7a2c5-110">此操作旨在用于搜索筛选器，并仅检索前几千位;它并不用于详尽的检索。</span><span class="sxs-lookup"><span data-stu-id="7a2c5-110">This operation is intended to be used with the search filter and to retrieve only the first few thousands; it's not intended for exhaustive retrieval.</span></span>
+  
+<span data-ttu-id="7a2c5-111">Exchange Server 2013 中引入了此操作。</span><span class="sxs-lookup"><span data-stu-id="7a2c5-111">This operation was introduced in Exchange Server 2013.</span></span>
+  
+## <a name="using-the-getsearchablemailboxes-operation"></a><span data-ttu-id="7a2c5-112">使用 GetSearchableMailboxes 操作</span><span class="sxs-lookup"><span data-stu-id="7a2c5-112">Using the GetSearchableMailboxes operation</span></span>
+
+<span data-ttu-id="7a2c5-113">**GetSearchableMailboxes**操作获取有关可搜索邮箱的信息。</span><span class="sxs-lookup"><span data-stu-id="7a2c5-113">The **GetSearchableMailboxes** operation gets information about searchable mailboxes.</span></span> <span data-ttu-id="7a2c5-114">可以在请求中传递以下参数：</span><span class="sxs-lookup"><span data-stu-id="7a2c5-114">The following arguments can be passed in the request:</span></span> 
+  
+- <span data-ttu-id="7a2c5-115">[过滤](searchfilter.md)-接受一个电子邮件别名作为参数。</span><span class="sxs-lookup"><span data-stu-id="7a2c5-115">[SearchFilter](searchfilter.md) - Accepts a single email alias as an argument.</span></span> 
     
-- <span data-ttu-id="e2efb-112">[ExpandGroupMembership](expandgroupmembership.md) — 指示是否在响应中返回的结果中展开通讯组成员身份。</span><span class="sxs-lookup"><span data-stu-id="e2efb-112">[ExpandGroupMembership](expandgroupmembership.md) — Indicates whether the distribution group membership is expanded in the results returned in the response.</span></span> 
+- <span data-ttu-id="7a2c5-116">[ExpandGroupMembership](expandgroupmembership.md) -指示是否在响应中返回的结果中扩展通讯组成员资格。</span><span class="sxs-lookup"><span data-stu-id="7a2c5-116">[ExpandGroupMembership](expandgroupmembership.md) - Indicates whether the distribution group membership is expanded in the results returned in the response.</span></span> 
     
-<span data-ttu-id="e2efb-113">如果没有展开通讯组成员身份的搜索筛选器中设置电子邮件别名是通讯组，响应将包含通讯组的邮箱信息。</span><span class="sxs-lookup"><span data-stu-id="e2efb-113">If the email alias set in the search filter is a distribution group and the distribution group membership is not expanded, the response will contain the mailbox information for the distribution group.</span></span> <span data-ttu-id="e2efb-114">如果搜索筛选器中设置电子邮件别名是通讯组扩展的通讯组成员身份以及响应将包含通讯组的成员的每个邮箱的邮箱信息。</span><span class="sxs-lookup"><span data-stu-id="e2efb-114">If the email alias set in the search filter is a distribution group and the distribution group membership is expanded, the response will contain the mailbox information for each mailbox that is a member of the distribution group.</span></span> <span data-ttu-id="e2efb-115">如果搜索筛选器包含单个用户的别名，则响应将包含单个用户的邮箱信息。</span><span class="sxs-lookup"><span data-stu-id="e2efb-115">If the search filter contains a single user's alias, the response will contain the mailbox information for the single user.</span></span> <span data-ttu-id="e2efb-116">如果[GetSearchableMailboxes](getsearchablemailboxes.md)元素为空，则响应将包含所有可搜索的邮箱。</span><span class="sxs-lookup"><span data-stu-id="e2efb-116">The response will contain all searchable mailboxes if the [GetSearchableMailboxes](getsearchablemailboxes.md) element is empty.</span></span> <span data-ttu-id="e2efb-117">这是相同具有空[SearchFilter](searchfilter.md)元素和[ExpandGroupMembership](expandgroupmembership.md)元素设置为**false**。</span><span class="sxs-lookup"><span data-stu-id="e2efb-117">This is the same as having an empty [SearchFilter](searchfilter.md) element and the [ExpandGroupMembership](expandgroupmembership.md) element set to **false**.</span></span>
+<span data-ttu-id="7a2c5-117">如果搜索筛选器中设置的电子邮件别名是通讯组，且通讯组成员身份未扩展，则响应将包含通讯组的邮箱信息。</span><span class="sxs-lookup"><span data-stu-id="7a2c5-117">If the email alias set in the search filter is a distribution group and the distribution group membership is not expanded, the response will contain the mailbox information for the distribution group.</span></span> <span data-ttu-id="7a2c5-118">如果搜索筛选器中设置的电子邮件别名是通讯组，并且展开了通讯组成员身份，则响应将包含作为通讯组成员的每个邮箱的邮箱信息。</span><span class="sxs-lookup"><span data-stu-id="7a2c5-118">If the email alias set in the search filter is a distribution group and the distribution group membership is expanded, the response will contain the mailbox information for each mailbox that is a member of the distribution group.</span></span> <span data-ttu-id="7a2c5-119">如果搜索筛选器包含单个用户的别名，则响应将包含单个用户的邮箱信息。</span><span class="sxs-lookup"><span data-stu-id="7a2c5-119">If the search filter contains a single user's alias, the response will contain the mailbox information for the single user.</span></span> <span data-ttu-id="7a2c5-120">如果[GetSearchableMailboxes](getsearchablemailboxes.md)元素为空，则响应将包含所有可搜索的邮箱。</span><span class="sxs-lookup"><span data-stu-id="7a2c5-120">The response will contain all searchable mailboxes if the [GetSearchableMailboxes](getsearchablemailboxes.md) element is empty.</span></span> <span data-ttu-id="7a2c5-121">这与将空的[过滤](searchfilter.md)元素和[ExpandGroupMembership](expandgroupmembership.md)元素设置为**false**相同。</span><span class="sxs-lookup"><span data-stu-id="7a2c5-121">This is the same as having an empty [SearchFilter](searchfilter.md) element and the [ExpandGroupMembership](expandgroupmembership.md) element set to **false**.</span></span>
   
-### <a name="getsearchablemailboxes-operation-soap-headers"></a><span data-ttu-id="e2efb-118">GetSearchableMailboxes 操作 SOAP 标头</span><span class="sxs-lookup"><span data-stu-id="e2efb-118">GetSearchableMailboxes operation SOAP headers</span></span>
+### <a name="getsearchablemailboxes-operation-soap-headers"></a><span data-ttu-id="7a2c5-122">GetSearchableMailboxes 操作 SOAP 标头</span><span class="sxs-lookup"><span data-stu-id="7a2c5-122">GetSearchableMailboxes operation SOAP headers</span></span>
 
-<span data-ttu-id="e2efb-119">**GetSearchableMailboxes**操作可以使用下表中列出的 SOAP 标头。</span><span class="sxs-lookup"><span data-stu-id="e2efb-119">The **GetSearchableMailboxes** operation can use the SOAP headers that are listed in the following table.</span></span> 
+<span data-ttu-id="7a2c5-123">**GetSearchableMailboxes**操作可以使用下表中列出的 SOAP 标头。</span><span class="sxs-lookup"><span data-stu-id="7a2c5-123">The **GetSearchableMailboxes** operation can use the SOAP headers that are listed in the following table.</span></span> 
   
-|<span data-ttu-id="e2efb-120">**标头名称**</span><span class="sxs-lookup"><span data-stu-id="e2efb-120">**Header name**</span></span>|<span data-ttu-id="e2efb-121">**元素**</span><span class="sxs-lookup"><span data-stu-id="e2efb-121">**Element**</span></span>|<span data-ttu-id="e2efb-122">**说明**</span><span class="sxs-lookup"><span data-stu-id="e2efb-122">**Description**</span></span>|
+|<span data-ttu-id="7a2c5-124">头名称</span><span class="sxs-lookup"><span data-stu-id="7a2c5-124">Header name</span></span>|<span data-ttu-id="7a2c5-125">元素</span><span class="sxs-lookup"><span data-stu-id="7a2c5-125">Element</span></span>|<span data-ttu-id="7a2c5-126">说明</span><span class="sxs-lookup"><span data-stu-id="7a2c5-126">Description</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="e2efb-123">**ManagementRole**</span><span class="sxs-lookup"><span data-stu-id="e2efb-123">**ManagementRole**</span></span> <br/> |[<span data-ttu-id="e2efb-124">ManagementRole</span><span class="sxs-lookup"><span data-stu-id="e2efb-124">ManagementRole</span></span>](managementrole.md) <br/> |<span data-ttu-id="e2efb-125">标识服务器角色所需顺序呼叫者发出请求。</span><span class="sxs-lookup"><span data-stu-id="e2efb-125">Identifies the server roles that are necessary in order for the caller to make the request.</span></span> <span data-ttu-id="e2efb-126">适用于请求此标头。</span><span class="sxs-lookup"><span data-stu-id="e2efb-126">This header is applicable to a request.</span></span>  <br/> |
-|<span data-ttu-id="e2efb-127">**RequestVersion**</span><span class="sxs-lookup"><span data-stu-id="e2efb-127">**RequestVersion**</span></span> <br/> |[<span data-ttu-id="e2efb-128">RequestServerVersion</span><span class="sxs-lookup"><span data-stu-id="e2efb-128">RequestServerVersion</span></span>](requestserverversion.md) <br/> |<span data-ttu-id="e2efb-129">标识操作请求的架构版本。</span><span class="sxs-lookup"><span data-stu-id="e2efb-129">Identifies the schema version for the operation request.</span></span> <span data-ttu-id="e2efb-130">适用于请求此标头。</span><span class="sxs-lookup"><span data-stu-id="e2efb-130">This header is applicable to a request.</span></span>  <br/> |
-|<span data-ttu-id="e2efb-131">**ServerVersion**</span><span class="sxs-lookup"><span data-stu-id="e2efb-131">**ServerVersion**</span></span> <br/> |[<span data-ttu-id="e2efb-132">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="e2efb-132">ServerVersionInfo</span></span>](serverversioninfo.md) <br/> |<span data-ttu-id="e2efb-133">标识响应该请求的服务器的版本。</span><span class="sxs-lookup"><span data-stu-id="e2efb-133">Identifies the version of the server that responded to the request.</span></span> <span data-ttu-id="e2efb-134">适用于响应此标头。</span><span class="sxs-lookup"><span data-stu-id="e2efb-134">This header is applicable to a response.</span></span>  <br/> |
+|<span data-ttu-id="7a2c5-127">**Get-managementrole**</span><span class="sxs-lookup"><span data-stu-id="7a2c5-127">**ManagementRole**</span></span> <br/> |[<span data-ttu-id="7a2c5-128">Get-managementrole</span><span class="sxs-lookup"><span data-stu-id="7a2c5-128">ManagementRole</span></span>](managementrole.md) <br/> |<span data-ttu-id="7a2c5-129">标识调用方发出请求所需的服务器角色。</span><span class="sxs-lookup"><span data-stu-id="7a2c5-129">Identifies the server roles that are necessary in order for the caller to make the request.</span></span> <span data-ttu-id="7a2c5-130">此标头适用于请求。</span><span class="sxs-lookup"><span data-stu-id="7a2c5-130">This header is applicable to a request.</span></span>  <br/> |
+|<span data-ttu-id="7a2c5-131">**RequestVersion**</span><span class="sxs-lookup"><span data-stu-id="7a2c5-131">**RequestVersion**</span></span> <br/> |[<span data-ttu-id="7a2c5-132">RequestServerVersion</span><span class="sxs-lookup"><span data-stu-id="7a2c5-132">RequestServerVersion</span></span>](requestserverversion.md) <br/> |<span data-ttu-id="7a2c5-133">标识操作请求的架构版本。</span><span class="sxs-lookup"><span data-stu-id="7a2c5-133">Identifies the schema version for the operation request.</span></span> <span data-ttu-id="7a2c5-134">此标头适用于请求。</span><span class="sxs-lookup"><span data-stu-id="7a2c5-134">This header is applicable to a request.</span></span>  <br/> |
+|<span data-ttu-id="7a2c5-135">**ServerVersion**</span><span class="sxs-lookup"><span data-stu-id="7a2c5-135">**ServerVersion**</span></span> <br/> |[<span data-ttu-id="7a2c5-136">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="7a2c5-136">ServerVersionInfo</span></span>](serverversioninfo.md) <br/> |<span data-ttu-id="7a2c5-137">标识响应请求的服务器版本。</span><span class="sxs-lookup"><span data-stu-id="7a2c5-137">Identifies the version of the server that responded to the request.</span></span> <span data-ttu-id="7a2c5-138">此标头适用于响应。</span><span class="sxs-lookup"><span data-stu-id="7a2c5-138">This header is applicable to a response.</span></span>  <br/> |
    
-## <a name="getsearchablemailboxes-operation-request-example-request-information-about-a-distribution-group"></a><span data-ttu-id="e2efb-135">GetSearchableMailboxes 操作请求示例： 请求信息的通讯组</span><span class="sxs-lookup"><span data-stu-id="e2efb-135">GetSearchableMailboxes operation request example: Request information about a distribution group</span></span>
+## <a name="getsearchablemailboxes-operation-request-example-request-information-about-a-distribution-group"></a><span data-ttu-id="7a2c5-139">GetSearchableMailboxes 操作请求示例：请求有关通讯组的信息</span><span class="sxs-lookup"><span data-stu-id="7a2c5-139">GetSearchableMailboxes operation request example: Request information about a distribution group</span></span>
 
-<span data-ttu-id="e2efb-136">**GetSearchableMailboxes**操作请求的下面的示例演示如何获取 lolgroup 通讯组的邮箱信息。</span><span class="sxs-lookup"><span data-stu-id="e2efb-136">The following example of a **GetSearchableMailboxes** operation request shows how to get the mailbox information for the lolgroup distribution group.</span></span> 
+<span data-ttu-id="7a2c5-140">以下示例的**GetSearchableMailboxes**操作请求显示如何获取 lolgroup 通讯组的邮箱信息。</span><span class="sxs-lookup"><span data-stu-id="7a2c5-140">The following example of a **GetSearchableMailboxes** operation request shows how to get the mailbox information for the lolgroup distribution group.</span></span> 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
    </soap:Header>
@@ -65,17 +71,15 @@ ms.locfileid: "19754678"
 
 ```
 
-<span data-ttu-id="e2efb-137">请求 SOAP 正文包含以下元素：</span><span class="sxs-lookup"><span data-stu-id="e2efb-137">The request SOAP body contains the following elements:</span></span>
+<span data-ttu-id="7a2c5-141">请求 SOAP 正文包含以下元素：</span><span class="sxs-lookup"><span data-stu-id="7a2c5-141">The request SOAP body contains the following elements:</span></span>
   
-- [<span data-ttu-id="e2efb-138">GetSearchableMailboxes</span><span class="sxs-lookup"><span data-stu-id="e2efb-138">GetSearchableMailboxes</span></span>](getsearchablemailboxes.md)
+- [<span data-ttu-id="7a2c5-142">GetSearchableMailboxes</span><span class="sxs-lookup"><span data-stu-id="7a2c5-142">GetSearchableMailboxes</span></span>](getsearchablemailboxes.md)   
+- [<span data-ttu-id="7a2c5-143">过滤</span><span class="sxs-lookup"><span data-stu-id="7a2c5-143">SearchFilter</span></span>](searchfilter.md)    
+- [<span data-ttu-id="7a2c5-144">ExpandGroupMembership</span><span class="sxs-lookup"><span data-stu-id="7a2c5-144">ExpandGroupMembership</span></span>](expandgroupmembership.md)
     
-- [<span data-ttu-id="e2efb-139">SearchFilter</span><span class="sxs-lookup"><span data-stu-id="e2efb-139">SearchFilter</span></span>](searchfilter.md)
-    
-- [<span data-ttu-id="e2efb-140">ExpandGroupMembership</span><span class="sxs-lookup"><span data-stu-id="e2efb-140">ExpandGroupMembership</span></span>](expandgroupmembership.md)
-    
-## <a name="successful-getsearchablemailboxes-operation-response-get-information-about-a-distribution-group"></a><span data-ttu-id="e2efb-141">成功 GetSearchableMailboxes 操作响应： 获取有关通讯组的信息</span><span class="sxs-lookup"><span data-stu-id="e2efb-141">Successful GetSearchableMailboxes operation response: Get information about a distribution group</span></span>
+## <a name="successful-getsearchablemailboxes-operation-response-get-information-about-a-distribution-group"></a><span data-ttu-id="7a2c5-145">成功的 GetSearchableMailboxes 操作响应：获取有关通讯组的信息</span><span class="sxs-lookup"><span data-stu-id="7a2c5-145">Successful GetSearchableMailboxes operation response: Get information about a distribution group</span></span>
 
-<span data-ttu-id="e2efb-142">下面的示例演示对**GetSearchableMailboxes**操作请求以获得 lolgroup 通讯组的发现信息的成功响应。</span><span class="sxs-lookup"><span data-stu-id="e2efb-142">The following example shows a successful response to a **GetSearchableMailboxes** operation request to get the discovery information for the lolgroup distribution group.</span></span> 
+<span data-ttu-id="7a2c5-146">下面的示例演示对**GetSearchableMailboxes**操作请求的成功响应，以获取 lolgroup 通讯组的发现信息。</span><span class="sxs-lookup"><span data-stu-id="7a2c5-146">The following example shows a successful response to a **GetSearchableMailboxes** operation request to get the discovery information for the lolgroup distribution group.</span></span> 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -86,18 +90,18 @@ ms.locfileid: "19754678"
                            MajorBuildNumber="526" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <GetSearchableMailboxesResponse ResponseClass="Success" 
-                                      xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                      xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <ResponseCode>NoError</ResponseCode>
          <SearchableMailboxes>
-            <SearchableMailbox xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <SearchableMailbox xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
                <Guid>33a408fe-2574-4e3b-49f5-5e1e000a3035</Guid>
                <PrimarySmtpAddress>LOLgroup@contoso.com</PrimarySmtpAddress>
                <IsExternalMailbox>false</IsExternalMailbox>
@@ -113,45 +117,35 @@ ms.locfileid: "19754678"
 
 ```
 
-<span data-ttu-id="e2efb-143">响应 SOAP 正文中包含以下元素：</span><span class="sxs-lookup"><span data-stu-id="e2efb-143">The response SOAP body contains the following elements:</span></span>
+<span data-ttu-id="7a2c5-147">响应 SOAP 正文包含以下元素：</span><span class="sxs-lookup"><span data-stu-id="7a2c5-147">The response SOAP body contains the following elements:</span></span>
   
-- [<span data-ttu-id="e2efb-144">GetSearchableMailboxesResponse</span><span class="sxs-lookup"><span data-stu-id="e2efb-144">GetSearchableMailboxesResponse</span></span>](getsearchablemailboxesresponse.md)
+- [<span data-ttu-id="7a2c5-148">GetSearchableMailboxesResponse</span><span class="sxs-lookup"><span data-stu-id="7a2c5-148">GetSearchableMailboxesResponse</span></span>](getsearchablemailboxesresponse.md)   
+- [<span data-ttu-id="7a2c5-149">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="7a2c5-149">ResponseCode</span></span>](responsecode.md)   
+- [<span data-ttu-id="7a2c5-150">SearchableMailboxes</span><span class="sxs-lookup"><span data-stu-id="7a2c5-150">SearchableMailboxes</span></span>](searchablemailboxes.md)    
+- [<span data-ttu-id="7a2c5-151">SearchableMailbox</span><span class="sxs-lookup"><span data-stu-id="7a2c5-151">SearchableMailbox</span></span>](searchablemailbox.md)    
+- [<span data-ttu-id="7a2c5-152">Guid</span><span class="sxs-lookup"><span data-stu-id="7a2c5-152">Guid</span></span>](guid-ex15websvcsotherref.md)    
+- [<span data-ttu-id="7a2c5-153">PrimarySmtpAddress</span><span class="sxs-lookup"><span data-stu-id="7a2c5-153">PrimarySmtpAddress</span></span>](primarysmtpaddress.md)    
+- [<span data-ttu-id="7a2c5-154">IsExternalMailbox</span><span class="sxs-lookup"><span data-stu-id="7a2c5-154">IsExternalMailbox</span></span>](isexternalmailbox.md)   
+- [<span data-ttu-id="7a2c5-155">ExternalEmailAddress</span><span class="sxs-lookup"><span data-stu-id="7a2c5-155">ExternalEmailAddress</span></span>](externalemailaddress.md)    
+- [<span data-ttu-id="7a2c5-156">显示名称 (字符串)</span><span class="sxs-lookup"><span data-stu-id="7a2c5-156">DisplayName (string)</span></span>](displayname-string.md)    
+- [<span data-ttu-id="7a2c5-157">IsMembershipGroup</span><span class="sxs-lookup"><span data-stu-id="7a2c5-157">IsMembershipGroup</span></span>](ismembershipgroup.md)    
+- [<span data-ttu-id="7a2c5-158">ReferenceId</span><span class="sxs-lookup"><span data-stu-id="7a2c5-158">ReferenceId</span></span>](referenceid.md)
     
-- [<span data-ttu-id="e2efb-145">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="e2efb-145">ResponseCode</span></span>](responsecode.md)
-    
-- [<span data-ttu-id="e2efb-146">SearchableMailboxes</span><span class="sxs-lookup"><span data-stu-id="e2efb-146">SearchableMailboxes</span></span>](searchablemailboxes.md)
-    
-- [<span data-ttu-id="e2efb-147">SearchableMailbox</span><span class="sxs-lookup"><span data-stu-id="e2efb-147">SearchableMailbox</span></span>](searchablemailbox.md)
-    
-- [<span data-ttu-id="e2efb-148">Guid</span><span class="sxs-lookup"><span data-stu-id="e2efb-148">Guid</span></span>](guid-ex15websvcsotherref.md)
-    
-- [<span data-ttu-id="e2efb-149">PrimarySmtpAddress</span><span class="sxs-lookup"><span data-stu-id="e2efb-149">PrimarySmtpAddress</span></span>](primarysmtpaddress.md)
-    
-- [<span data-ttu-id="e2efb-150">IsExternalMailbox</span><span class="sxs-lookup"><span data-stu-id="e2efb-150">IsExternalMailbox</span></span>](isexternalmailbox.md)
-    
-- [<span data-ttu-id="e2efb-151">ExternalEmailAddress</span><span class="sxs-lookup"><span data-stu-id="e2efb-151">ExternalEmailAddress</span></span>](externalemailaddress.md)
-    
-- [<span data-ttu-id="e2efb-152">显示名称 (字符串)</span><span class="sxs-lookup"><span data-stu-id="e2efb-152">DisplayName (string)</span></span>](displayname-string.md)
-    
-- [<span data-ttu-id="e2efb-153">IsMembershipGroup</span><span class="sxs-lookup"><span data-stu-id="e2efb-153">IsMembershipGroup</span></span>](ismembershipgroup.md)
-    
-- [<span data-ttu-id="e2efb-154">相同引用</span><span class="sxs-lookup"><span data-stu-id="e2efb-154">ReferenceId</span></span>](referenceid.md)
-    
-## <a name="successful-getsearchablemailboxes-operation-response-get-information-about-an-expanded-distribution-group"></a><span data-ttu-id="e2efb-155">成功 GetSearchableMailboxes 操作响应： 获取有关扩展的通讯组的信息</span><span class="sxs-lookup"><span data-stu-id="e2efb-155">Successful GetSearchableMailboxes operation response: Get information about an expanded distribution group</span></span>
+## <a name="successful-getsearchablemailboxes-operation-response-get-information-about-an-expanded-distribution-group"></a><span data-ttu-id="7a2c5-159">成功的 GetSearchableMailboxes 操作响应：获取有关展开的通讯组的信息</span><span class="sxs-lookup"><span data-stu-id="7a2c5-159">Successful GetSearchableMailboxes operation response: Get information about an expanded distribution group</span></span>
 
-<span data-ttu-id="e2efb-156">下面的示例演示对**GetSearchableMailboxes**操作请求以获取有关扩展的 lolgroup 通讯组的成员的发现信息的成功响应。</span><span class="sxs-lookup"><span data-stu-id="e2efb-156">The following example shows a successful response to a **GetSearchableMailboxes** operation request to get the discovery information about members of the expanded lolgroup distribution group.</span></span> 
+<span data-ttu-id="7a2c5-160">下面的示例演示对**GetSearchableMailboxes**操作请求的成功响应，以获取有关已展开的 lolgroup 通讯组的成员的发现信息。</span><span class="sxs-lookup"><span data-stu-id="7a2c5-160">The following example shows a successful response to a **GetSearchableMailboxes** operation request to get the discovery information about members of the expanded lolgroup distribution group.</span></span> 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
-    <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="526" MinorBuildNumber="0" Version="Exchange2013" xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" xmlns="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+    <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="526" MinorBuildNumber="0" Version="Exchange2013" xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" xmlns="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <GetSearchableMailboxesResponse ResponseClass="Success" xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetSearchableMailboxesResponse ResponseClass="Success" xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseCode>NoError</ResponseCode>
       <SearchableMailboxes>
-        <SearchableMailbox xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <SearchableMailbox xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <Guid>e2d42cdf-a227-1ec3-486b-6fa0ebaadb9f5</Guid>
           <PrimarySmtpAddress>JSmith@contoso.com</PrimarySmtpAddress>
           <IsExternalMailbox>false</IsExternalMailbox>
@@ -160,7 +154,7 @@ ms.locfileid: "19754678"
           <IsMembershipGroup>false</IsMembershipGroup>
           <ReferenceId>/o=First Organization/ou=Exchange Administrative Group (FYDLT)/cn=Recipients/cn=0a1fc86f883846152405d60956dd02e7-Julia</ReferenceId>
         </SearchableMailbox>
-        <SearchableMailbox xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <SearchableMailbox xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <Guid>45d0fff1-6541-459a-a343-52453b30e12ca</Guid>
           <PrimarySmtpAddress>LMoore@contoso.com</PrimarySmtpAddress>
           <IsExternalMailbox>false</IsExternalMailbox>
@@ -169,7 +163,7 @@ ms.locfileid: "19754678"
           <IsMembershipGroup>false</IsMembershipGroup>
           <ReferenceId>/o=First Organization/ou=Exchange Administrative Group (FYDLT)/cn=Recipients/cn=2910d8f8316f4378bbf9338d8f9d714b-Laura</ReferenceId>
         </SearchableMailbox>
-        <SearchableMailbox xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <SearchableMailbox xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <Guid>3c620d04-8b33-435a-95be-5b939375576</Guid>
           <PrimarySmtpAddress>SBrown@contoso.com</PrimarySmtpAddress>
           <IsExternalMailbox>false</IsExternalMailbox>
@@ -184,33 +178,23 @@ ms.locfileid: "19754678"
 </s:Envelope>
 ```
 
-<span data-ttu-id="e2efb-157">响应 SOAP 正文中包含以下元素：</span><span class="sxs-lookup"><span data-stu-id="e2efb-157">The response SOAP body contains the following elements:</span></span>
+<span data-ttu-id="7a2c5-161">响应 SOAP 正文包含以下元素：</span><span class="sxs-lookup"><span data-stu-id="7a2c5-161">The response SOAP body contains the following elements:</span></span>
   
-- [<span data-ttu-id="e2efb-158">GetSearchableMailboxesResponse</span><span class="sxs-lookup"><span data-stu-id="e2efb-158">GetSearchableMailboxesResponse</span></span>](getsearchablemailboxesresponse.md)
+- [<span data-ttu-id="7a2c5-162">GetSearchableMailboxesResponse</span><span class="sxs-lookup"><span data-stu-id="7a2c5-162">GetSearchableMailboxesResponse</span></span>](getsearchablemailboxesresponse.md)    
+- [<span data-ttu-id="7a2c5-163">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="7a2c5-163">ResponseCode</span></span>](responsecode.md)   
+- [<span data-ttu-id="7a2c5-164">SearchableMailboxes</span><span class="sxs-lookup"><span data-stu-id="7a2c5-164">SearchableMailboxes</span></span>](searchablemailboxes.md)    
+- [<span data-ttu-id="7a2c5-165">SearchableMailbox</span><span class="sxs-lookup"><span data-stu-id="7a2c5-165">SearchableMailbox</span></span>](searchablemailbox.md)    
+- [<span data-ttu-id="7a2c5-166">Guid</span><span class="sxs-lookup"><span data-stu-id="7a2c5-166">Guid</span></span>](guid-ex15websvcsotherref.md)    
+- [<span data-ttu-id="7a2c5-167">PrimarySmtpAddress</span><span class="sxs-lookup"><span data-stu-id="7a2c5-167">PrimarySmtpAddress</span></span>](primarysmtpaddress.md)    
+- [<span data-ttu-id="7a2c5-168">IsExternalMailbox</span><span class="sxs-lookup"><span data-stu-id="7a2c5-168">IsExternalMailbox</span></span>](isexternalmailbox.md)    
+- [<span data-ttu-id="7a2c5-169">ExternalEmailAddress</span><span class="sxs-lookup"><span data-stu-id="7a2c5-169">ExternalEmailAddress</span></span>](externalemailaddress.md)    
+- [<span data-ttu-id="7a2c5-170">显示名称 (字符串)</span><span class="sxs-lookup"><span data-stu-id="7a2c5-170">DisplayName (string)</span></span>](displayname-string.md)    
+- [<span data-ttu-id="7a2c5-171">IsMembershipGroup</span><span class="sxs-lookup"><span data-stu-id="7a2c5-171">IsMembershipGroup</span></span>](ismembershipgroup.md)    
+- [<span data-ttu-id="7a2c5-172">ReferenceId</span><span class="sxs-lookup"><span data-stu-id="7a2c5-172">ReferenceId</span></span>](referenceid.md)
     
-- [<span data-ttu-id="e2efb-159">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="e2efb-159">ResponseCode</span></span>](responsecode.md)
-    
-- [<span data-ttu-id="e2efb-160">SearchableMailboxes</span><span class="sxs-lookup"><span data-stu-id="e2efb-160">SearchableMailboxes</span></span>](searchablemailboxes.md)
-    
-- [<span data-ttu-id="e2efb-161">SearchableMailbox</span><span class="sxs-lookup"><span data-stu-id="e2efb-161">SearchableMailbox</span></span>](searchablemailbox.md)
-    
-- [<span data-ttu-id="e2efb-162">Guid</span><span class="sxs-lookup"><span data-stu-id="e2efb-162">Guid</span></span>](guid-ex15websvcsotherref.md)
-    
-- [<span data-ttu-id="e2efb-163">PrimarySmtpAddress</span><span class="sxs-lookup"><span data-stu-id="e2efb-163">PrimarySmtpAddress</span></span>](primarysmtpaddress.md)
-    
-- [<span data-ttu-id="e2efb-164">IsExternalMailbox</span><span class="sxs-lookup"><span data-stu-id="e2efb-164">IsExternalMailbox</span></span>](isexternalmailbox.md)
-    
-- [<span data-ttu-id="e2efb-165">ExternalEmailAddress</span><span class="sxs-lookup"><span data-stu-id="e2efb-165">ExternalEmailAddress</span></span>](externalemailaddress.md)
-    
-- [<span data-ttu-id="e2efb-166">显示名称 (字符串)</span><span class="sxs-lookup"><span data-stu-id="e2efb-166">DisplayName (string)</span></span>](displayname-string.md)
-    
-- [<span data-ttu-id="e2efb-167">IsMembershipGroup</span><span class="sxs-lookup"><span data-stu-id="e2efb-167">IsMembershipGroup</span></span>](ismembershipgroup.md)
-    
-- [<span data-ttu-id="e2efb-168">相同引用</span><span class="sxs-lookup"><span data-stu-id="e2efb-168">ReferenceId</span></span>](referenceid.md)
-    
-## <a name="getsearchablemailboxes-operation-error-response"></a><span data-ttu-id="e2efb-169">GetSearchableMailboxes 操作错误响应</span><span class="sxs-lookup"><span data-stu-id="e2efb-169">GetSearchableMailboxes operation error response</span></span>
+## <a name="getsearchablemailboxes-operation-error-response"></a><span data-ttu-id="7a2c5-173">GetSearchableMailboxes 操作错误响应</span><span class="sxs-lookup"><span data-stu-id="7a2c5-173">GetSearchableMailboxes operation error response</span></span>
 
-<span data-ttu-id="e2efb-170">下面的示例演示对**GetSearchableMailboxes**操作请求错误响应。</span><span class="sxs-lookup"><span data-stu-id="e2efb-170">The following example shows an error response to a **GetSearchableMailboxes** operation request.</span></span> <span data-ttu-id="e2efb-171">这是对**ExpandGroupMembership**参数设置为**true**时，收到所有可搜索的邮箱的请求的响应。</span><span class="sxs-lookup"><span data-stu-id="e2efb-171">This is a response to a request to get all searchable mailboxes when the **ExpandGroupMembership** argument is set to **true**.</span></span> 
+<span data-ttu-id="7a2c5-174">下面的示例演示对**GetSearchableMailboxes**操作请求的错误响应。</span><span class="sxs-lookup"><span data-stu-id="7a2c5-174">The following example shows an error response to a **GetSearchableMailboxes** operation request.</span></span> <span data-ttu-id="7a2c5-175">这是对在**ExpandGroupMembership**参数设置为**true**时获取所有可搜索邮箱的请求的响应。</span><span class="sxs-lookup"><span data-stu-id="7a2c5-175">This is a response to a request to get all searchable mailboxes when the **ExpandGroupMembership** argument is set to **true**.</span></span> 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -221,15 +205,15 @@ ms.locfileid: "19754678"
                            MajorBuildNumber="526"
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <GetSearchableMailboxesResponse ResponseClass="Error" 
-                                      xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                      xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <MessageText>Cannot use wildcard or empty query when auto group expansion is enabled.</MessageText>
          <ResponseCode>ErrorInvalidArgument</ResponseCode>
          <DescriptiveLinkKey>0</DescriptiveLinkKey>
@@ -240,34 +224,24 @@ ms.locfileid: "19754678"
 
 ```
 
-<span data-ttu-id="e2efb-172">错误响应 SOAP 正文包含以下元素：</span><span class="sxs-lookup"><span data-stu-id="e2efb-172">The error response SOAP body contains the following elements:</span></span>
+<span data-ttu-id="7a2c5-176">错误响应 SOAP 正文包含以下元素：</span><span class="sxs-lookup"><span data-stu-id="7a2c5-176">The error response SOAP body contains the following elements:</span></span>
   
-- [<span data-ttu-id="e2efb-173">GetSearchableMailboxesResponse</span><span class="sxs-lookup"><span data-stu-id="e2efb-173">GetSearchableMailboxesResponse</span></span>](getsearchablemailboxesresponse.md)
+- [<span data-ttu-id="7a2c5-177">GetSearchableMailboxesResponse</span><span class="sxs-lookup"><span data-stu-id="7a2c5-177">GetSearchableMailboxesResponse</span></span>](getsearchablemailboxesresponse.md)  
+- [<span data-ttu-id="7a2c5-178">MessageText</span><span class="sxs-lookup"><span data-stu-id="7a2c5-178">MessageText</span></span>](messagetext.md)   
+- [<span data-ttu-id="7a2c5-179">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="7a2c5-179">ResponseCode</span></span>](responsecode.md)   
+- [<span data-ttu-id="7a2c5-180">DescriptiveLinkKey</span><span class="sxs-lookup"><span data-stu-id="7a2c5-180">DescriptiveLinkKey</span></span>](descriptivelinkkey.md) 
+- [<span data-ttu-id="7a2c5-181">SearchableMailboxes</span><span class="sxs-lookup"><span data-stu-id="7a2c5-181">SearchableMailboxes</span></span>](searchablemailboxes.md)
     
-- [<span data-ttu-id="e2efb-174">MessageText</span><span class="sxs-lookup"><span data-stu-id="e2efb-174">MessageText</span></span>](messagetext.md)
-    
-- [<span data-ttu-id="e2efb-175">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="e2efb-175">ResponseCode</span></span>](responsecode.md)
-    
-- [<span data-ttu-id="e2efb-176">DescriptiveLinkKey</span><span class="sxs-lookup"><span data-stu-id="e2efb-176">DescriptiveLinkKey</span></span>](descriptivelinkkey.md)
-    
-- [<span data-ttu-id="e2efb-177">SearchableMailboxes</span><span class="sxs-lookup"><span data-stu-id="e2efb-177">SearchableMailboxes</span></span>](searchablemailboxes.md)
-    
-<span data-ttu-id="e2efb-178">通用到 EWS 且特定于此操作的其他错误代码，请参阅[ResponseCode](responsecode.md)。</span><span class="sxs-lookup"><span data-stu-id="e2efb-178">For additional error codes that are generic to EWS and specific to this operation, see [ResponseCode](responsecode.md).</span></span>
+<span data-ttu-id="7a2c5-182">有关对 EWS 通用的其他错误代码以及特定于此操作的错误代码，请参阅[ResponseCode](responsecode.md)。</span><span class="sxs-lookup"><span data-stu-id="7a2c5-182">For additional error codes that are generic to EWS and specific to this operation, see [ResponseCode](responsecode.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="e2efb-179">另请参阅</span><span class="sxs-lookup"><span data-stu-id="e2efb-179">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7a2c5-183">另请参阅</span><span class="sxs-lookup"><span data-stu-id="7a2c5-183">See also</span></span>
 
-- [<span data-ttu-id="e2efb-180">Exchange 中的 EWS 操作</span><span class="sxs-lookup"><span data-stu-id="e2efb-180">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
-    
-- [<span data-ttu-id="e2efb-181">SetHoldOnMailboxes 操作</span><span class="sxs-lookup"><span data-stu-id="e2efb-181">SetHoldOnMailboxes operation</span></span>](setholdonmailboxes-operation.md)
-    
-- [<span data-ttu-id="e2efb-182">SearchMailboxes 操作</span><span class="sxs-lookup"><span data-stu-id="e2efb-182">SearchMailboxes operation</span></span>](searchmailboxes-operation.md)
-    
-- [<span data-ttu-id="e2efb-183">GetHoldOnMailboxes 操作</span><span class="sxs-lookup"><span data-stu-id="e2efb-183">GetHoldOnMailboxes operation</span></span>](getholdonmailboxes-operation.md)
-    
-- [<span data-ttu-id="e2efb-184">GetDiscoverySearchConfiguration 操作</span><span class="sxs-lookup"><span data-stu-id="e2efb-184">GetDiscoverySearchConfiguration operation</span></span>](getdiscoverysearchconfiguration-operation.md)
-    
-- [<span data-ttu-id="e2efb-185">GetNonIndexableItemDetails 操作</span><span class="sxs-lookup"><span data-stu-id="e2efb-185">GetNonIndexableItemDetails operation</span></span>](getnonindexableitemdetails-operation.md)
-    
-- [<span data-ttu-id="e2efb-186">GetNonIndexableItemStatistics 操作</span><span class="sxs-lookup"><span data-stu-id="e2efb-186">GetNonIndexableItemStatistics operation</span></span>](getnonindexableitemstatistics-operation.md)
+- [<span data-ttu-id="7a2c5-184">Exchange 中的 EWS 操作</span><span class="sxs-lookup"><span data-stu-id="7a2c5-184">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)   
+- [<span data-ttu-id="7a2c5-185">SetHoldOnMailboxes 操作</span><span class="sxs-lookup"><span data-stu-id="7a2c5-185">SetHoldOnMailboxes operation</span></span>](setholdonmailboxes-operation.md)   
+- [<span data-ttu-id="7a2c5-186">SearchMailboxes 操作</span><span class="sxs-lookup"><span data-stu-id="7a2c5-186">SearchMailboxes operation</span></span>](searchmailboxes-operation.md)   
+- [<span data-ttu-id="7a2c5-187">GetHoldOnMailboxes 操作</span><span class="sxs-lookup"><span data-stu-id="7a2c5-187">GetHoldOnMailboxes operation</span></span>](getholdonmailboxes-operation.md)    
+- [<span data-ttu-id="7a2c5-188">GetDiscoverySearchConfiguration 操作</span><span class="sxs-lookup"><span data-stu-id="7a2c5-188">GetDiscoverySearchConfiguration operation</span></span>](getdiscoverysearchconfiguration-operation.md)   
+- [<span data-ttu-id="7a2c5-189">GetNonIndexableItemDetails 操作</span><span class="sxs-lookup"><span data-stu-id="7a2c5-189">GetNonIndexableItemDetails operation</span></span>](getnonindexableitemdetails-operation.md)   
+- [<span data-ttu-id="7a2c5-190">GetNonIndexableItemStatistics 操作</span><span class="sxs-lookup"><span data-stu-id="7a2c5-190">GetNonIndexableItemStatistics operation</span></span>](getnonindexableitemstatistics-operation.md)
     
 
