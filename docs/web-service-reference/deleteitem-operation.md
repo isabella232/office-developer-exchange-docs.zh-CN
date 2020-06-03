@@ -1,5 +1,5 @@
 ---
-title: 删除项操作
+title: DeleteItem 操作
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,38 +11,38 @@ api_name:
 api_type:
 - schema
 ms.assetid: 3e26c416-fa12-476e-bfd2-5c1f4bb7b348
-description: 删除项操作删除 Exchange 存储中的项目。
-ms.openlocfilehash: 87d7853daa5db0cd87b3f6469c228a584b4d9caf
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: DeleteItem 操作删除 Exchange 存储中的项目。
+ms.openlocfilehash: f068e08ef0d0f590c9ed8274f77d4dae9f942995
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753811"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526933"
 ---
-# <a name="deleteitem-operation"></a>删除项操作
+# <a name="deleteitem-operation"></a>DeleteItem 操作
 
-**删除项**操作删除 Exchange 存储中的项目。 
+**DeleteItem**操作删除 Exchange 存储中的项目。 
   
 > [!NOTE]
-> 代理尝试通过设置 DisposalType 为 MoveToDeletedItems 删除的主体的邮箱中的项目时，将**删除项**操作返回错误响应，其中包括 ErrorCannotDeleteObject 错误代码。 若要将其移动到已删除邮件文件夹中删除项，代理人必须使用[MoveItem 操作](moveitem-operation.md)。 
+> 如果代理尝试通过将 DisposalType 设置为 MoveToDeletedItems 来删除主体邮箱中**的项目**，则将返回包含 ErrorCannotDeleteObject 错误代码的错误响应。 若要通过将项目移动到 "已删除邮件" 文件夹来删除项目，代理必须使用[MoveItem 操作](moveitem-operation.md)。 
   
-## <a name="deleteitem-request-example"></a>删除项请求示例
+## <a name="deleteitem-request-example"></a>DeleteItem 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
-**删除项**请求的下面的示例演示如何从邮箱执行硬删除的项目。 
+以下示例的**DeleteItem**请求显示如何从邮箱中执行项的硬删除。 
   
 > [!NOTE]
-> 已缩短项目 ID 以保留可读性。 
+> 项目 ID 已缩短，以保持可读性。 
   
 ### <a name="code"></a>代码
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <DeleteItem DeleteType="HardDelete" xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <DeleteItem DeleteType="HardDelete" xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ItemIds>
         <t:ItemId Id="AS4AUn=="/>
       </ItemIds>
@@ -51,23 +51,23 @@ ms.locfileid: "19753811"
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>请求元素
+### <a name="request-elements"></a>Request 元素
 
 请求中使用以下元素：
   
-- [删除项](deleteitem.md)
+- [DeleteItem](deleteitem.md)
     
 - [ItemIds](itemids.md)
     
 - [ItemId](itemid.md)
     
-若要查找的请求邮件**删除项**操作的其他选项，浏览的架构层次结构。 在[删除项](deleteitem.md)元素开始。 
+若要查找**DeleteItem**操作的请求消息的其他选项，请浏览架构层次结构。 从[DeleteItem](deleteitem.md)元素开始。 
   
-## <a name="successful-deleteitem-response"></a>成功的删除项响应
+## <a name="successful-deleteitem-response"></a>成功的 DeleteItem 响应
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
-下面的示例演示对**删除项**请求成功响应。 
+下面的示例演示对**DeleteItem**请求的成功响应。 
   
 ### <a name="code"></a>代码
 
@@ -78,12 +78,12 @@ ms.locfileid: "19753811"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="595" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <DeleteItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <DeleteItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:DeleteItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -94,9 +94,9 @@ ms.locfileid: "19753811"
 </soap:Envelope>
 ```
 
-### <a name="successful-response-elements"></a>成功响应元素
+### <a name="successful-response-elements"></a>成功的响应元素
 
-在响应中使用以下元素：
+响应中使用以下元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -108,13 +108,13 @@ ms.locfileid: "19753811"
     
 - [ResponseCode](responsecode.md)
     
-若要查找的响应消息**删除项**操作的其他选项，浏览的架构层次结构。 启动[DeleteItemResponse](deleteitemresponse.md)元素。 
+若要查找**DeleteItem**操作的响应邮件的其他选项，请浏览架构层次结构。 从[DeleteItemResponse](deleteitemresponse.md)元素开始。 
   
-## <a name="deleteitem-error-response"></a>删除项错误响应
+## <a name="deleteitem-error-response"></a>DeleteItem 错误响应
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
-下面的示例演示一个**删除项**请求错误响应。 创建错误，因为该操作尝试删除找不到项 Exchange 存储中。 
+下面的示例演示对**DeleteItem**请求的错误响应。 由于操作尝试删除在 Exchange 存储中找不到的项目，因此创建了错误。 
   
 ### <a name="code"></a>代码
 
@@ -125,12 +125,12 @@ ms.locfileid: "19753811"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="595" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <DeleteItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <DeleteItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:DeleteItemResponseMessage ResponseClass="Error">
           <m:MessageText>The specified object was not found in the store.</m:MessageText>
@@ -161,12 +161,12 @@ ms.locfileid: "19753811"
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-若要查找错误响应消息的**删除项**操作的其他选项，浏览的架构层次结构。 启动[DeleteItemResponse](deleteitemresponse.md)元素。 
+若要查找**DeleteItem**操作的错误响应消息的其他选项，请浏览架构层次结构。 从[DeleteItemResponse](deleteitemresponse.md)元素开始。 
   
 ## <a name="see-also"></a>另请参阅
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
-- [删除联系人](http://msdn.microsoft.com/library/fcc3dc84-cd3e-455e-a1a7-ae6921c9b588%28Office.15%29.aspx)  
-- [删除电子邮件](http://msdn.microsoft.com/library/c40f2f0b-dae0-412f-b716-727e8c0949b4%28Office.15%29.aspx) 
-- [删除任务](http://msdn.microsoft.com/library/a3d7e25f-8a35-4901-b1d9-d31f418ab340%28Office.15%29.aspx)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [删除联系人](https://msdn.microsoft.com/library/fcc3dc84-cd3e-455e-a1a7-ae6921c9b588%28Office.15%29.aspx)  
+- [删除电子邮件](https://msdn.microsoft.com/library/c40f2f0b-dae0-412f-b716-727e8c0949b4%28Office.15%29.aspx) 
+- [删除任务](https://msdn.microsoft.com/library/a3d7e25f-8a35-4901-b1d9-d31f418ab340%28Office.15%29.aspx)
 

@@ -1,5 +1,5 @@
 ---
-title: 数据 (base64Binary)
+title: Data （base64Binary）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,29 +11,29 @@ api_name:
 api_type:
 - schema
 ms.assetid: 26d8c2d0-bed2-4aed-b381-20e2ace6892f
-description: Data 元素包含单个导出的项或项上载到邮箱的数据。
-ms.openlocfilehash: 9560273e31a64edb2254489961733dfe7360ad01
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Data 元素包含要上载到邮箱中的单个导出项目或项目的数据。
+ms.openlocfilehash: 43ee16ca7caf634756ca00a88715d9834adad92b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753728"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526968"
 ---
-# <a name="data-base64binary"></a>数据 (base64Binary)
+# <a name="data-base64binary"></a>Data （base64Binary）
 
-**Data**元素包含单个导出的项或项上载到邮箱的数据。 
+**Data**元素包含要上载到邮箱中的单个导出项目或项目的数据。 
   
 ```XML
 <Data/>
 ```
 
-**xs:base64Binary**
+**xs： base64Binary**
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -45,12 +45,12 @@ ms.locfileid: "19753728"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ExportItemsResponseMessage](exportitemsresponsemessage.md) <br/> |包含状态和请求导出的单个邮箱项目的结果。  <br/> |
-|[项目 (UploadItemType)](item-uploaditemtype.md) <br/> |代表单个项目上载到邮箱。  <br/> |
+|[ExportItemsResponseMessage](exportitemsresponsemessage.md) <br/> |包含导出单个邮箱项目的请求的状态和结果。  <br/> |
+|[Item （UploadItemType）](item-uploaditemtype.md) <br/> |代表要上传到邮箱中的单个项目。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**Data**元素包含的属性名称和导出的项目或将上载到邮箱的项的值。 
+**Data**元素包含导出项目的属性名称和值，或将上载到邮箱中的项目。 
   
 ## <a name="remarks"></a>备注
 
@@ -60,7 +60,7 @@ ms.locfileid: "19753728"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |

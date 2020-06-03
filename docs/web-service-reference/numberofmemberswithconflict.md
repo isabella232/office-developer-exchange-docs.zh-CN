@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: e61154f7-d262-43ec-b2bf-1ba6804b28dc
-description: NumberOfMembersWithConflict 元素表示拥有建议的会议时间冲突的通讯组列表成员数。 此元素表示具有忙碌、 OOF，或暂定状态的成员。
-ms.openlocfilehash: 227783b4bed32686e8e098f88498fe8ebb25e3cc
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: NumberOfMembersWithConflict 元素表示与建议的会议时间有冲突的通讯组列表成员的数量。 此元素表示状态为 "忙碌"、"OOF" 或 "暂定" 的成员。
+ms.openlocfilehash: 3ed81fc8adece140e8a94b08a9c2d94c2d9787c9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826634"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529033"
 ---
 # <a name="numberofmemberswithconflict"></a>NumberOfMembersWithConflict
 
-**NumberOfMembersWithConflict**元素表示拥有建议的会议时间冲突的通讯组列表成员数。 此元素表示具有**忙碌**、 **OOF**，或**暂定**状态的成员。
+**NumberOfMembersWithConflict**元素表示与建议的会议时间有冲突的通讯组列表成员的数量。 此元素表示状态为 "**忙碌**"、" **OOF**" 或 "**暂定**" 的成员。
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -48,9 +48,9 @@ ms.locfileid: "19826634"
  **int**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -62,9 +62,9 @@ ms.locfileid: "19826634"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GroupAttendeeConflictData](groupattendeeconflictdata.md) <br/> |包含有关可用的用户数、 用户拥有冲突，数和不具有可用性信息通讯组列表中建议的会议时间的用户数的聚合冲突信息。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray/GroupAttendeeConflictData[i]` <br/> |
+|[GroupAttendeeConflictData](groupattendeeconflictdata.md) <br/> |包含有关可用用户数的聚合冲突信息、有冲突的用户数以及在通讯组列表中没有可用性信息的用户数量建议的会议时间。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray/GroupAttendeeConflictData[i]` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -72,7 +72,7 @@ ms.locfileid: "19826634"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -86,5 +86,5 @@ ms.locfileid: "19826634"
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

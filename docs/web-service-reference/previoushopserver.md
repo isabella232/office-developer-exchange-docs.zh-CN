@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 74456709-1250-4943-bae0-11a3db44a684
-description: PreviousHopServer 元素均表示以前接受消息的服务器名称。
-ms.openlocfilehash: d9641fdba3b7ef5b487139074c8e475edec9e74c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: PreviousHopServer 元素表示接受邮件的以前的服务器名称。
+ms.openlocfilehash: f85896107c720179d76e0cbeb31588e17c1f3d95
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826879"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528877"
 ---
 # <a name="previoushopserver"></a>PreviousHopServer
 
-**PreviousHopServer**元素均表示以前接受消息的服务器名称。 
+**PreviousHopServer**元素表示接受邮件的以前的服务器名称。 
   
 ```XML
 <PreviousHopServer/>
@@ -30,9 +30,9 @@ ms.locfileid: "19826879"
  **NonEmptyStringType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -44,13 +44,13 @@ ms.locfileid: "19826879"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[MessageTrackingSearchResult](messagetrackingsearchresult.md) <br/> |包含单个邮件结果[FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md)元素。  <br/> |
+|[MessageTrackingSearchResult](messagetrackingsearchresult.md) <br/> |包含[FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md)元素的单个邮件结果。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-如果使用此元素，则需要用于表示字符串的文本值。
+如果使用此元素，则需要一个表示字符串的文本值。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -58,7 +58,7 @@ ms.locfileid: "19826879"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -67,5 +67,5 @@ ms.locfileid: "19826879"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

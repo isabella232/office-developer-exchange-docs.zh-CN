@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 54fcd4ab-bfab-4b69-9841-d2ac827f4d45
-description: BusinessName 元素指定业务的名称。
-ms.openlocfilehash: e266535eafac44a1c118bb86dec7bc72bfa34010
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: BusinessName 元素指定企业的名称。
+ms.openlocfilehash: cea37d61b9614084db7cf9532e5e55ec4f438554
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753391"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527199"
 ---
 # <a name="businessname"></a>BusinessName
 
-**BusinessName**元素指定业务的名称。 
+**BusinessName**元素指定企业的名称。 
   
 ```XML
 <BusinessName></BusinessName>
@@ -26,9 +26,9 @@ ms.locfileid: "19753391"
  **string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -40,11 +40,11 @@ ms.locfileid: "19753391"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[联系人 (ContactType)](contact-contacttype.md) <br/> |指定统一联系人存储库中的联系人。  <br/> |
+|[Contact （ContactType）](contact-contacttype.md) <br/> |指定统一联系人存储库中的联系人。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**BusinessName**元素的文本值是业务的名称。 
+**BusinessName**元素的文本值是企业的名称。 
   
 ## <a name="remarks"></a>备注
 
@@ -56,14 +56,14 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |types.xsd  <br/> |
+|验证文件  <br/> |类型 .xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

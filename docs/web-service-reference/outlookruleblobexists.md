@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: ae1bc448-deb9-4b5b-ab38-4b276abcb650
 description: OutlookRuleBlobExists元素指示在该用户的邮箱中是否存在 Microsoft Outlook 规则 blob。
-ms.openlocfilehash: a738377cd3c1d69b90ac39ca479b03b3220d5bc5
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 6a5c2a2ec0246d38b22279b86772972ea81922c7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826679"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529026"
 ---
 # <a name="outlookruleblobexists"></a>OutlookRuleBlobExists
 
@@ -34,9 +34,9 @@ ms.locfileid: "19826679"
  **Boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -54,7 +54,7 @@ ms.locfileid: "19826679"
 
 **true**的一个文字值表示 Outlook 规则 blob 存在。文本值为 **false**表示 Outlook 规则 blob 不存在。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -62,7 +62,7 @@ ms.locfileid: "19826679"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
@@ -71,5 +71,5 @@ ms.locfileid: "19826679"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

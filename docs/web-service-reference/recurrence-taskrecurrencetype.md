@@ -1,5 +1,5 @@
 ---
-title: Recurrence (TaskRecurrenceType)
+title: 重复周期（TaskRecurrenceType）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 99f8414a-9110-4721-a6e5-ebf225d7ed0a
-description: Recurrence 元素包含定期周期性任务信息。
-ms.openlocfilehash: 0ec43447e47050a0bd483d8441da88e4a7f08923
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: 定期元素包含定期任务的定期信息。
+ms.openlocfilehash: 933fd6b003d8d193e1561f2a22b65ac00237c345
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21354419"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528830"
 ---
-# <a name="recurrence-taskrecurrencetype"></a>Recurrence (TaskRecurrenceType)
+# <a name="recurrence-taskrecurrencetype"></a>重复周期（TaskRecurrenceType）
 
-**Recurrence**元素包含定期周期性任务信息。 
+**定期**元素包含定期任务的定期信息。 
   
 ```xml
 <Recurrence>
@@ -248,19 +248,19 @@ ms.locfileid: "21354419"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[RelativeYearlyRecurrence](relativeyearlyrecurrence.md) <br/> |描述定期任务的相对于每年定期模式。  <br/> |
-|[AbsoluteYearlyRecurrence](absoluteyearlyrecurrence.md) <br/> |代表每年定期模式的定期任务。  <br/> |
-|[RelativeMonthlyRecurrence](relativemonthlyrecurrence.md) <br/> |介绍的相对每月定期模式的定期任务。  <br/> |
-|[AbsoluteMonthlyRecurrence](absolutemonthlyrecurrence.md) <br/> |代表每月定期模式的定期任务。  <br/> |
-|[WeeklyRecurrence](weeklyrecurrence.md) <br/> |介绍频率，周和任务重复的天数。  <br/> |
+|[RelativeYearlyRecurrence](relativeyearlyrecurrence.md) <br/> |描述定期任务的相对年定期模式。  <br/> |
+|[AbsoluteYearlyRecurrence](absoluteyearlyrecurrence.md) <br/> |表示定期任务的每年定期模式。  <br/> |
+|[RelativeMonthlyRecurrence](relativemonthlyrecurrence.md) <br/> |描述定期任务的每月相对定期模式。  <br/> |
+|[AbsoluteMonthlyRecurrence](absolutemonthlyrecurrence.md) <br/> |表示定期任务的每月定期模式。  <br/> |
+|[WeeklyRecurrence](weeklyrecurrence.md) <br/> |描述频率（以周为单位）和任务的重复发生日期。  <br/> |
 |[DailyRecurrence](dailyrecurrence.md) <br/> |描述任务重复出现的频率（以天为单位）。  <br/> |
-|[DailyRegeneration](dailyregeneration.md) <br/> |介绍多少天后完成当前任务的下一个匹配项将到期。  <br/> |
-|[WeeklyRegeneration](weeklyregeneration.md) <br/> |介绍多少周后完成当前任务的下一个匹配项将到期。  <br/> |
-|[MonthlyRegeneration](monthlyregeneration.md) <br/> |介绍多少个月后完成当前任务的下一个匹配项将到期。  <br/> |
-|[YearlyRegeneration](yearlyregeneration.md) <br/> |介绍如何许多年后完成当前任务的下一个匹配项将到期。  <br/> |
+|[DailyRegeneration](dailyregeneration.md) <br/> |介绍当前任务完成后的天数，下一次事件将到期。  <br/> |
+|[WeeklyRegeneration](weeklyregeneration.md) <br/> |介绍当前任务完成后的星期数，下一次事件将到期。  <br/> |
+|[MonthlyRegeneration](monthlyregeneration.md) <br/> |介绍当前任务完成后，下一次事件将到期的月数。  <br/> |
+|[YearlyRegeneration](yearlyregeneration.md) <br/> |介绍当前任务完成后的年数，下一次事件将到期。  <br/> |
 |[NoEndRecurrence](noendrecurrence.md) <br/> |介绍没有定义的结束日期的定期模式。  <br/> 使用此元素不包括[EndDateRecurrence](enddaterecurrence.md)和[NumberedRecurrence](numberedrecurrence.md)元素的使用。  <br/> |
-|[EndDateRecurrence](enddaterecurrence.md) <br/> |介绍的开始日期和结束日期的项目定期模式。  <br/> 使用此元素不包括[NoEndRecurrence](noendrecurrence.md)和[NumberedRecurrence](numberedrecurrence.md)元素的使用。  <br/> [EndDateRecurrence](enddaterecurrence.md)无法一起再生模式。  <br/> |
-|[NumberedRecurrence](numberedrecurrence.md) <br/> |介绍的开始日期和定期项目的次数。  <br/> 使用此元素不包括[NoEndRecurrence](noendrecurrence.md)和[EndDateRecurrence](enddaterecurrence.md)元素的使用。  <br/> |
+|[EndDateRecurrence](enddaterecurrence.md) <br/> |描述项目定期模式的开始日期和结束日期。  <br/> 使用此元素不包括[NoEndRecurrence](noendrecurrence.md)和[NumberedRecurrence](numberedrecurrence.md)元素的使用。  <br/> [EndDateRecurrence](enddaterecurrence.md)不能与再生模式一起使用。  <br/> |
+|[NumberedRecurrence](numberedrecurrence.md) <br/> |描述定期项目的开始日期和发生次数。  <br/> 使用此元素不包括[NoEndRecurrence](noendrecurrence.md)和[EndDateRecurrence](enddaterecurrence.md)元素的使用。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -276,12 +276,12 @@ ms.locfileid: "21354419"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

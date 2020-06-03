@@ -7,23 +7,23 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 49c74470-fe11-4229-b4e5-1fc8588a44d7
-description: JoinedBy 元素旨在仅供内部使用。
-ms.openlocfilehash: a503c29c2d28018017fac74b819e1b5b4ae5a041
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: JoinedBy 元素仅供内部使用。
+ms.openlocfilehash: 61fa84923ccac77c1d6686e3bcc51c30d92bc3b4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826183"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529040"
 ---
 # <a name="joinedby"></a>JoinedBy
 
-**JoinedBy**元素旨在仅供内部使用。 
+**JoinedBy**元素仅供内部使用。 
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19826183"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   

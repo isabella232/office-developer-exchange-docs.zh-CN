@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: c4565eb4-b537-466c-b1ff-11602533812b
-description: DeletedEvent 元素表示删除项或文件夹的事件。
-ms.openlocfilehash: 5ddc909ffc9c74ea6b423610e915d5b9ff9bff43
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: DeletedEvent 元素表示在其中删除项目或文件夹的事件。
+ms.openlocfilehash: 5eb0c947aacc592f81c595da2cc00bf4874f300b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21354405"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526940"
 ---
 # <a name="deletedevent"></a>DeletedEvent
 
-**DeletedEvent**元素表示删除项或文件夹的事件。 
+**DeletedEvent**元素表示在其中删除项目或文件夹的事件。 
   
 ```xml
 <DeletedEvent>
@@ -55,17 +55,17 @@ ms.locfileid: "21354405"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Watermark](watermark.md) <br/> |代表邮箱事件表格中的事件书签。  <br/> |
-|[TimeStamp](timestamp.md) <br/> |代表已删除的项目或文件夹邮箱事件的时间戳。  <br/> |
-|[FolderId](folderid.md) <br/> |代表已删除文件夹的标识符。  <br/> |
-|[ItemId](itemid.md) <br/> |代表已删除的项目的标识符。  <br/> |
-|[ParentFolderId](parentfolderid.md) <br/> |代表已删除项的父文件夹或删除之前的文件夹的标识符。  <br/> |
+|[Watermark](watermark.md) <br/> |表示邮箱事件表中的事件书签。  <br/> |
+|[TimeStamp](timestamp.md) <br/> |表示已删除项目或文件夹邮箱事件的时间戳。  <br/> |
+|[FolderId](folderid.md) <br/> |表示已删除文件夹的标识符。  <br/> |
+|[ItemId](itemid.md) <br/> |表示已删除项的标识符。  <br/> |
+|[ParentFolderId](parentfolderid.md) <br/> |表示删除项目或文件夹在删除之前的父文件夹的标识符。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[通知](notification-ex15websvcsotherref.md) <br/> |包含有关订阅和自上次通知以来发生的事件的信息。  <br/> |
+|[通知](notification-ex15websvcsotherref.md) <br/> |包含有关订阅以及上次通知之后发生的事件的信息。  <br/> |
    
 ## <a name="remarks"></a>说明
 
@@ -75,14 +75,14 @@ ms.locfileid: "21354405"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
-- [Subscribe 操作](subscribe-operation.md)  
+- [订阅操作](subscribe-operation.md)  
 - [GetEvents 操作](getevents-operation.md)  
-- [Unsubscribe 操作](unsubscribe-operation.md)
+- [取消订阅操作](unsubscribe-operation.md)
 

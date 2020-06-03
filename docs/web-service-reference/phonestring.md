@@ -1,5 +1,5 @@
 ---
-title: PhoneString
+title: Phonenumber.phonestring
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 54fd2192-54ca-4e42-b630-a3fbdd8e4239
-description: PhoneString 元素指定的已提取的联系人的电话号码。
-ms.openlocfilehash: 83f8a4f08df00de9721ee9648876718ac593210b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Phonenumber.phonestring 元素指定提取的联系人的电话号码。
+ms.openlocfilehash: cc528b74034d1fd76c19247e72bb5ac00e7734d9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826769"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528886"
 ---
-# <a name="phonestring"></a>PhoneString
+# <a name="phonestring"></a>Phonenumber.phonestring
 
-**PhoneString**元素指定的已提取的联系人的电话号码。 
+**Phonenumber.phonestring**元素指定提取的联系人的电话号码。 
   
 ```XML
 <PhoneString></PhoneString>
@@ -26,9 +26,9 @@ ms.locfileid: "19826769"
  **string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -38,11 +38,11 @@ ms.locfileid: "19826769"
   
 ### <a name="parent-elements"></a>父元素
 
-[电话](phone.md) | [电话 (PhoneEntityType)](phone-phoneentitytype.md)
+[电话](phone.md)  | [电话（PhoneEntityType）](phone-phoneentitytype.md)
   
 ## <a name="text-value"></a>文本值
 
-**PhoneSting**元素的文本值是联系人的已提取的电话号码。 
+**PhoneSting**元素的文本值是提取的联系人的电话号码。 
   
 ## <a name="remarks"></a>备注
 
@@ -54,7 +54,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> ||

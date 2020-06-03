@@ -1,87 +1,87 @@
 ---
-title: 在 Exchange 使用 EWS 执行分组的搜索
+title: 使用 Exchange 中的 EWS 执行分组搜索
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 55de92eb-8e8b-4156-8ad9-dd3828024242
-description: 了解如何在您的 EWS 托管 API 或 Exchange 的 EWS 应用程序执行分组的搜索。
-ms.openlocfilehash: 63a796e2c724351c15287a5596a9a063954f8b40
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 了解如何在面向 Exchange 的 EWS 托管 API 或 EWS 应用程序中执行分组搜索。
+ms.openlocfilehash: 65c6f75ea6b8ab848a263349dcceceead52fa210
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752861"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527918"
 ---
-# <a name="perform-grouped-searches-by-using-ews-in-exchange"></a>在 Exchange 使用 EWS 执行分组的搜索
+# <a name="perform-grouped-searches-by-using-ews-in-exchange"></a>使用 Exchange 中的 EWS 执行分组搜索
 
-了解如何在您的 EWS 托管 API 或 Exchange 的 EWS 应用程序执行分组的搜索。
+了解如何在面向 Exchange 的 EWS 托管 API 或 EWS 应用程序中执行分组搜索。
   
-它们使您能够控制搜索结果如何组织，组合的搜索非常有用。 组织的搜索结果会使您的应用程序处理结果或易于管理的方式将其显示给最终用户可以更轻松。
+分组搜索可用于控制搜索结果的组织方式。 组织的搜索结果可使应用程序更轻松地处理结果，或以可管理的方式将其显示给最终用户。
   
-通过将放在结果集中所有具有到某个组的特定字段相同的值的项目的分组方式。 例如，您可以按发件人，您结果进行分组的同一个人的所有项目都将在单独的组中，并将根据您在视图中指定的顺序排序每个组内的项目。 按聚合值基于您选择的字段排序自己的组。
+通过将结果集中具有相同的特定字段值的所有项放入一个组中，可以进行分组。 例如，您可以按发件人对结果进行分组，同一个人中的所有项目都将位于单独的组中，并且每个组中的项目将根据您在视图中指定的顺序进行排序。 根据所选的字段，组本身按聚合值进行排序。
   
-**表 1。EWS 托管 API 方法和组织的 EWS 操作的搜索结果**
+**表1。用于组织搜索结果的 EWS 托管 API 方法和 EWS 操作**
 
-|**如果您希望...**|**EWS 托管 API，在使用...**|**EWS，在使用...**|
+|**如果您想要 .。。**|**在 EWS 托管 API 中，使用 .。。**|**在 EWS 中，使用 .。。**|
 |:-----|:-----|:-----|
-|将使用您的结果中的特定属性中的相同值的项目组织到组  <br/> |[Grouping.GroupOn](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.grouping.groupon%28v=exchg.80%29.aspx) <br/> |[FieldURI](http://msdn.microsoft.com/library/24af8e3b-3074-4c8c-8d0a-52446508d044%28Office.15%29.aspx)元素作为[GroupBy](http://msdn.microsoft.com/library/9728619b-4674-4b9d-9f6c-e75c6165966c%28Office.15%29.aspx)元素的子元素  <br/> |
-|对每个组中的项目中的特定属性的值进行排序  <br/> |[ItemView.OrderBy](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.itemview.orderby%28v=exchg.80%29.aspx) <br/> |[SortOrder](http://msdn.microsoft.com/library/c2413f0b-8c03-46ae-9990-13338b3c53a6%28Office.15%29.aspx)元素  <br/> |
-|排序组  <br/> |[Grouping.AggregateOn](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.grouping.aggregateon%28v=exchg.80%29.aspx) <br/><br/> [Grouping.AggregateType](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.grouping.aggregatetype%28v=exchg.80%29.aspx) <br/><br/> [Grouping.SortDirection](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.grouping.sortdirection%28v=exchg.80%29.aspx) <br/> |**FieldURI**元素作为[AggregateOn](http://msdn.microsoft.com/library/9b0a03f2-3282-46e1-b1a0-cbb9a0fbe9bb%28Office.15%29.aspx)元素的子元素<br/><br/> **聚合** **AggregateOn**元素的属性<br/><br/>**GroupBy**元素的**顺序**属性  <br/> |
+|将结果中的特定属性中具有相同值的项目组织为组  <br/> |[分组。 GroupOn](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.grouping.groupon%28v=exchg.80%29.aspx) <br/> |[FieldURI](https://msdn.microsoft.com/library/24af8e3b-3074-4c8c-8d0a-52446508d044%28Office.15%29.aspx)元素作为[GroupBy](https://msdn.microsoft.com/library/9728619b-4674-4b9d-9f6c-e75c6165966c%28Office.15%29.aspx)元素的子元素  <br/> |
+|按特定属性中的值对每个组中的项目进行排序  <br/> |[ItemView](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.itemview.orderby%28v=exchg.80%29.aspx) <br/> |[SortOrder](https://msdn.microsoft.com/library/c2413f0b-8c03-46ae-9990-13338b3c53a6%28Office.15%29.aspx)元素  <br/> |
+|对组进行排序  <br/> |[分组。 AggregateOn](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.grouping.aggregateon%28v=exchg.80%29.aspx) <br/><br/> [分组。 AggregateType](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.grouping.aggregatetype%28v=exchg.80%29.aspx) <br/><br/> [分组。 SortDirection](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.grouping.sortdirection%28v=exchg.80%29.aspx) <br/> |**FieldURI**元素作为[AggregateOn](https://msdn.microsoft.com/library/9b0a03f2-3282-46e1-b1a0-cbb9a0fbe9bb%28Office.15%29.aspx)元素的子元素<br/><br/> **AggregateOn**元素上的**聚合**属性<br/><br/>**GroupBy**元素上的**Order**属性  <br/> |
    
-我们来看它循序渐进。
+让我们逐步执行此操作。
   
-## <a name="group-results-by-a-specific-property"></a>结果分组依据特定的属性
+## <a name="group-results-by-a-specific-property"></a>按特定属性对结果进行分组
 <a name="bk_GroupResults"> </a>
 
-使用分组的第一步是选择一个属性，或属性中的 Exchange 存储，分组依据的项目。 EWS 托管 API 公开这些作为类属性对应的类，而 EWS 将它们公开作为 XML 元素。 您可以选择任何属性，包括自定义或扩展属性，但有助于您了解如何项目进行分组根据您选择的属性的值。 
+使用分组的第一步是选择属性或 Exchange 存储中项的属性，以进行分组。 EWS 托管 API 在相应的类上将它们作为类属性公开，而 EWS 将它们公开为 XML 元素。 您可以选择任何属性，包括自定义或扩展属性，但它有助于了解如何根据所选属性的值对项目进行分组。 
 
-选择要作为分组依据的属性中具有相同的值的所有项目将都组合在一起。 这看起来可能明显，但很重要的详细信息。 时会发生什么情况，请考虑您如果按日期/时间属性，如[Item.DateTimeReceived](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.datetimereceived%28v=exchg.80%29.aspx) EWS 托管 API 中或 EWS 中的[DateTimeReceived](http://msdn.microsoft.com/library/8f489bd4-2434-4d0a-91fe-1b5ba7eb5765%28Office.15%29.aspx)元素分组。 意图可能要将结果组织到组中，每个组包含从同一天的项目。 但是，分组查看整个值，其中包括时间。 
+选择 "分组依据" 属性中具有相同值的所有项目将组合在一起。 这看起来可能很明显，但这是一个重要的详细信息。 如果按日期/时间属性（如在 EWS 托管 API 中的[DateTimeReceived](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.datetimereceived%28v=exchg.80%29.aspx)或 ews 中的[DateTimeReceived](https://msdn.microsoft.com/library/8f489bd4-2434-4d0a-91fe-1b5ba7eb5765%28Office.15%29.aspx)元素）进行分组，请考虑所发生的情况。 目的可能是将结果组织到组中，每个组包含同一天的项目。 但是，分组将查看整个值，其中包括时间。 
 
-最终结果是将项目进行分组，以便在同一时间，向第二个，收到的项都处于自己的组。 很可能将到大量的组中的小型每个组中的项目数对结果进行排序。 
+最终结果是将对项目进行分组，以便同时收到的项目在其自己的组中。 结果很可能被分类为大量的组，其中每个组中的项目数较少。 
   
-若要获得的结果设置为较少的组和更多的每个组中的项目，选择是可能的值，如[EmailMessage.From](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.from%28v=exchg.80%29.aspx)或[Item.Categories](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.categories%28v=exchg.80%29.aspx) EWS 托管 API，或[从](http://msdn.microsoft.com/library/5a52d644-3677-4049-874c-12bd5c3080dc%28Office.15%29.aspx)中较小个数的属性或 EWS 中的[类别](http://msdn.microsoft.com/library/d84d4927-b524-4e62-bf3d-1f12fec8c21a%28Office.15%29.aspx)。 下图显示收件箱中显示的电子邮件的列表。 
+若要获取包含较少组以及每个组中的项目数较多的结果集，请选择一个可能具有较小数量的值的属性，例如[EmailMessage](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.from%28v=exchg.80%29.aspx)或 ews 中的[条目。](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.categories%28v=exchg.80%29.aspx)在 ews 托管 API 中的类别或从 ews 中[的](https://msdn.microsoft.com/library/5a52d644-3677-4049-874c-12bd5c3080dc%28Office.15%29.aspx)[类别](https://msdn.microsoft.com/library/d84d4927-b524-4e62-bf3d-1f12fec8c21a%28Office.15%29.aspx)。 下图显示了在收件箱中显示的电子邮件的列表。 
   
-**图 1。收件箱中的邮件**
+**图1。收件箱中的邮件**
 
 ![用户收件箱中的示例邮件列表。](media/Ex15_GroupedSearch_MsgList.png)
   
-如果由**EmailMessage.From**属性图 1 中的项目进行分组，结果将两个组，一个由跃点总数计价发送的邮件，一个由 Sadie Daniels 发送的邮件。 
+如果按**EmailMessage**属性对图1中的项进行分组，则结果将为两个组，一个用于由 "等待总额" 发送的邮件，另一个用于由 "Sadie Daniels" 发送的邮件。 
   
-**图 2。邮件分为组基于 From 属性**
+**图2。根据 From 属性拆分为组的邮件**
 
 ![此图显示按照发件人属性分为两个列表的邮件。](media/Ex15_GroupedSearch_SeparateGroups.png)
   
-## <a name="sort-the-items-within-groups"></a>组中的项进行排序
+## <a name="sort-the-items-within-groups"></a>对组中的项目进行排序
 <a name="bk_SortItems"> </a>
 
-您可以控制项使用 EWS 托管 API 中的[ItemView.OrderBy](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.itemview.orderby%28v=exchg.80%29.aspx)属性或 EWS 中的[SortOrder](http://msdn.microsoft.com/library/c2413f0b-8c03-46ae-9990-13338b3c53a6%28Office.15%29.aspx)元素的排序每个组中。 相同的顺序应用于每个组。 例如，如果排序**Item.DateTimeReceived**属性，按降序顺序在图 1 中的项目项最近收到来自跃点总数计价将跃点总数计价组中，第一个和最近收到来自 Sadie Daniels 项将Sadie Daniels 组中的第一个。 为方便起见，图 2 中的组的已排序这种方式。 
+您可以使用 EWS 托管 API 中的[ItemView](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.itemview.orderby%28v=exchg.80%29.aspx)属性或 ews 中的[SortOrder](https://msdn.microsoft.com/library/c2413f0b-8c03-46ae-9990-13338b3c53a6%28Office.15%29.aspx)元素，控制项目在每个组中的排序方式。 此排序适用于每个组。 例如，如果按项目的顺序对图1中的项进行排序，则**DateTimeReceived**属性以降序排序，最近从 "期望总" 组中接收的项目将成为 "期望总" 组中的第一个，并且最近从 Sadie Daniels 收到的项目将是 Sadie Daniels 组中的第一个。 图2中的组可以方便地以这种方式排序。 
   
-## <a name="sort-the-groups"></a>排序组
+## <a name="sort-the-groups"></a>对组进行排序
 <a name="bk_SortGroups"> </a>
 
-既然您已经您就可以处理的组，最后一步排序自己的组。 组自己未不包含任何特定值，因为分组过程必须为每个组分配排序值。 这是通过 EWS 托管 API 或[FieldURI](http://msdn.microsoft.com/library/24af8e3b-3074-4c8c-8d0a-52446508d044%28Office.15%29.aspx)元素中的[Grouping.AggregateOn](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.grouping.aggregateon%28v=exchg.80%29.aspx)属性指定为 ews [AggregateOn](http://msdn.microsoft.com/library/9b0a03f2-3282-46e1-b1a0-cbb9a0fbe9bb%28Office.15%29.aspx)元素的子元素的每个组中的特定属性的值的聚合。 EWS 托管 API （或 EWS 中的**AggregateOn**元素上的**聚合**属性） 中的[Grouping.AggregateType](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.grouping.aggregatetype%28v=exchg.80%29.aspx)属性指定每个组内的项目中的值分配给组的排序值 — 任一最大值或最小值。 最后，通过 EWS 托管 API 或**Order**属性[GroupBy](http://msdn.microsoft.com/library/9728619b-4674-4b9d-9f6c-e75c6165966c%28Office.15%29.aspx)元素中的 ews 中[Grouping.SortDirection](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.grouping.sortdirection%28v=exchg.80%29.aspx)属性指定排序顺序 （降序或升序）。 
+现在，您已对组进行了结算，最后一步是对组本身进行排序。 由于组本身没有特定的值，因此分组过程必须将一个排序值分配给每个组。 这是通过对每个组中的特定属性的值（由 EWS 托管 API 中的[AggregateOn](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.grouping.aggregateon%28v=exchg.80%29.aspx)属性指定）或[FieldURI](https://msdn.microsoft.com/library/24af8e3b-3074-4c8c-8d0a-52446508d044%28Office.15%29.aspx)元素（以 ews 中的[AggregateOn](https://msdn.microsoft.com/library/9b0a03f2-3282-46e1-b1a0-cbb9a0fbe9bb%28Office.15%29.aspx)元素的子元素）聚合来实现的。 EWS 托管 API （或 EWS 中**AggregateOn**元素的**Aggregate**属性）中的[AggregateType](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.grouping.aggregatetype%28v=exchg.80%29.aspx)属性指定将每个组中的项目的值分配给该组的排序值（最大值或最小值）。 最后，排序顺序（降序或升序）由 EWS 托管 API 中的[SortDirection](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.grouping.sortdirection%28v=exchg.80%29.aspx)属性或 ews 中的[GroupBy](https://msdn.microsoft.com/library/9728619b-4674-4b9d-9f6c-e75c6165966c%28Office.15%29.aspx)元素的**order**属性指定。 
   
-例如，如果从图 2 组按聚合**Item.DateTimeReceived**属性上，使用最小值，并以降序排序中返回的项目在图 3 中显示的顺序。 
+例如，如果按**DateTimeReceived**属性上的聚合对图2中的组进行排序，使用最小值并按降序排序，则按图3所示的顺序返回这些项。 
   
-**图 3。与组的 DateTimeReceived 属性排序的分组的搜索结果**
+**图3。按 DateTimeReceived 属性排序的组的分组搜索结果**
 
 ![此图显示邮件的已排序列表，按照发件人属性分组，各组按照接收的最小日期/时间排序。](media/Ex15_GroupedSearch_Results.png)
   
-以下各节显示如何拉分组和排序一起在代码中。
+以下各节介绍了如何在代码中一起提取分组和排序。
   
-## <a name="example-perform-a-grouped-search-by-using-the-ews-managed-api"></a>示例： 使用 EWS 托管 API 执行分组的搜索
+## <a name="example-perform-a-grouped-search-by-using-the-ews-managed-api"></a>示例：使用 EWS 托管 API 执行分组搜索
 <a name="bk_GroupSearchEWSMA"> </a>
 
-以下 EWS 托管 API 方法可以使用分组：
+下面的 EWS 托管 API 方法可以使用分组：
   
-- [ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)
+- [ExchangeService。 FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)
     
-- [Folder.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx)
+- [FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx)
     
-下面的示例使用**ExchangeService.FindItems**方法;但是，相同的规则和概念适用于**Folder.FindItems**方法。 本示例中，定义调用**GroupItemsByFrom**的方法。 它将[ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象和[WellKnownFolderName](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.wellknownfoldername%28v=exchg.80%29.aspx)对象作为参数。 它请求的文件夹中，按降序排序的**Item.DateTimeReceived**属性排序的**EmailMessage.From**属性分组的前 50 个项目。 按其项目，按降序顺序的最小**Item.DateTimeReceived**属性值排序自己的组。 
+下面的示例使用 FindItems 方法; **ExchangeService**但是，相同的规则和概念也适用于**FindItems**方法。 在此示例中，定义了一个名为**GroupItemsByFrom**的方法。 它采用[ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象和[WellKnownFolderName](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.wellknownfoldername%28v=exchg.80%29.aspx)对象作为参数。 它请求文件夹中的前50个项目，这些项目按**EmailMessage**属性分组，按**DateTimeReceived**属性的降序排列。 组本身按项目的最小**DateTimeReceived**属性值进行排序，以降序排列。 
   
-本示例假定已初始化**ExchangeService**对象，在[凭据](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx)和[Url](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx)属性的有效值。 
+此示例假定已使用[凭据](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx)和[Url](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx)属性中的有效值对**ExchangeService**对象进行了初始化。 
   
 ```cs
 static void GroupItemsByFrom(ExchangeService service, WellKnownFolderName folder)
@@ -128,17 +128,17 @@ static void GroupItemsByFrom(ExchangeService service, WellKnownFolderName folder
 }
 ```
 
-## <a name="example-perform-a-grouped-search-by-using-ews"></a>示例： 使用 EWS 执行分组的搜索
+## <a name="example-perform-a-grouped-search-by-using-ews"></a>示例：使用 EWS 执行分组搜索
 <a name="bk_GroupSearchEWS"> </a>
 
-下面的请求示例演示在文件夹中，**从**元素，按降序排序的**DateTimeReceived**元素分组的前 50 个项目的[FindItem 操作](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)请求。 按其项目，按降序顺序的最小**DateTimeReceived**元素值排序自己的组。 
+以下请求示例显示文件夹中前50个项目的[FindItem 操作](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)请求，这些项目按**From**元素分组，按**DateTimeReceived**元素以降序排序。 组本身按其项的最小**DateTimeReceived**元素值进行排序，以降序排列。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
     <t:TimeZoneContext>
@@ -180,17 +180,17 @@ static void GroupItemsByFrom(ExchangeService service, WellKnownFolderName folder
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="712" MinorBuildNumber="22" Version="V2_3" 
-        xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-        xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
         xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:FindItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:FindItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:FindItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -324,16 +324,16 @@ static void GroupItemsByFrom(ExchangeService service, WellKnownFolderName folder
 ## <a name="version-differences"></a>版本差异
 <a name="bk_VersionDiffs"> </a>
 
-与主要版本 15 中开始和结束的生成 15.0.775.38 返回**组**元素 （的类型**GroupedItemsType**） 代替[GroupedItems](http://msdn.microsoft.com/library/53170df4-4272-4b37-b23f-cd8e2d4a7396%28Office.15%29.aspx)元素的 SOAP 响应的 Exchange 版本。 如果您使用 EWS 托管 API，这将导致[GroupedFindItemsResults.ItemGroups](http://msdn.microsoft.com/en-us/library/office/dd633961%28v=exchg.80%29.aspx)集合包含 0 对象。 如果您使用 EWS，应为**GroupedItems**元素处理**组**元素。 
+Exchange 的版本从主要版本15开始，到 build 15.0.775.38 返回**Group**元素（类型**GROUPEDITEMSTYPE**）替换 SOAP 响应中的[GroupedItems](https://msdn.microsoft.com/library/53170df4-4272-4b37-b23f-cd8e2d4a7396%28Office.15%29.aspx)元素。 如果使用 EWS 托管 API，这将导致[GroupedFindItemsResults](https://msdn.microsoft.com/library/office/dd633961%28v=exchg.80%29.aspx)集合包含0个对象。 如果使用 EWS，则应将**组**元素作为**GroupedItems**元素进行处理。 
   
-主要版本 15 开头的 Exchange 版本与**xsi: nil**属性设置为**true**的 SOAP 响应中返回额外的**组**或**GroupedItems**元素。 如果您使用 EWS 托管 API，这些额外的元素将导致[ServiceXmlDeserializationException](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.servicexmldeserializationexception%28v=exchg.80%29.aspx)引发。 如果您使用 EWS，应忽略这些额外的元素。 
+从主要版本15开始的 Exchange 版本返回额外的**Group**或**GroupedItems**元素，其中**XSI： nil**属性在 SOAP 响应中设置为**true** 。 如果使用 EWS 托管 API，这些额外的元素将导致[ServiceXmlDeserializationException](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.servicexmldeserializationexception%28v=exchg.80%29.aspx)引发。 如果使用 EWS，则应忽略这些额外的元素。 
   
 ## <a name="see-also"></a>另请参阅
 
 - [搜索和交换中的 EWS](search-and-ews-in-exchange.md)    
-- [ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)    
-- [Folder.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx)   
-- [分组类](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.grouping%28v=exchg.80%29.aspx)    
-- [FindItem 操作](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)
+- [ExchangeService。 FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)    
+- [FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx)   
+- [分组类](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.grouping%28v=exchg.80%29.aspx)    
+- [FindItem 操作](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)
     
 

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5829149e-7bfe-4820-bcc6-910e9264acc9
-description: 该路径元素是所有属性标识符的基础架构类型。 此类型为抽象且直接实例文档中，则永远不会发生。
-ms.openlocfilehash: a5a1ca5179ccf339e5a1f15621c92e2870f4f2d9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Path 元素是所有属性标识符的基本架构类型。 此类型是抽象的，永远不会直接出现在实例文档中。
+ms.openlocfilehash: 5ba18084243e9720a76b9ac28023778c6d546bc4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826700"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529012"
 ---
 # <a name="path"></a>路径
 
-该**路径**元素是所有属性标识符的基础架构类型。 此类型为抽象且直接实例文档中，则永远不会发生。 
+**Path**元素是所有属性标识符的基本架构类型。 此类型是抽象的，永远不会直接出现在实例文档中。 
   
 ```xml
 <Path/>
@@ -30,9 +30,9 @@ ms.locfileid: "19826700"
  **BasePathToElementType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -44,9 +44,9 @@ ms.locfileid: "19826700"
 
 无。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
-下列元素用于代替**路径**元素： 
+以下元素用于替换**Path**元素： 
   
 - [FieldURI](fielduri.md)
     
@@ -62,7 +62,7 @@ ms.locfileid: "19826700"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -71,5 +71,5 @@ ms.locfileid: "19826700"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

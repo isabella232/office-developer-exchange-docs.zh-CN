@@ -1,5 +1,5 @@
 ---
-title: 操作 (ConversationActionTypeType)
+title: Action （ConversationActionTypeType）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 8bbc12f2-76c5-4fda-828f-56b2086a0454
-description: Action 元素包含要执行对话 ConversationId 元素所指定的操作。
-ms.openlocfilehash: b468eeaf0c2509bfa53cbd83f497f0bae20a7f68
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Action 元素包含要对 ConversationId 元素指定的会话执行的操作。
+ms.openlocfilehash: f97b04b98cdc29bee9aff5fa1fc6f37400b8314c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753091"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527542"
 ---
-# <a name="action-conversationactiontypetype"></a>操作 (ConversationActionTypeType)
+# <a name="action-conversationactiontypetype"></a>Action （ConversationActionTypeType）
 
-**Action**元素包含要执行对话[ConversationId](conversationid.md)元素所指定的操作。 
+**Action**元素包含要对[ConversationId](conversationid.md)元素指定的会话执行的操作。 
   
 - [ApplyConversationAction](applyconversationaction.md)
   
@@ -29,7 +29,7 @@ ms.locfileid: "19753091"
   
 - [ConversationAction](conversationaction.md)
   
-- [操作 (ConversationActionTypeType)](action-conversationactiontypetype.md)
+- [Action （ConversationActionTypeType）](action-conversationactiontypetype.md)
   
 ```XML
 <Action> AlwaysCategorize | AlwaysDelete | AlwaysMove | Delete | Move | Copy | SetReadState </Action>
@@ -38,9 +38,9 @@ ms.locfileid: "19753091"
  **ConversationActionTypeType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -52,27 +52,27 @@ ms.locfileid: "19753091"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ConversationAction](conversationaction.md) <br/> |包含要应用于单个会话的单个操作。  <br/> |
+|[ConversationAction](conversationaction.md) <br/> |包含要应用于单个对话的单个操作。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**Action**元素的文本值指示将会话上执行哪些操作。 以下是可能的文本值和相应的操作： 
+**Action**元素的文本值指示将对对话执行的操作。 以下是可能的文本值和相应的操作： 
   
-- [Categories](categories-ex15websvcsotherref.md)元素中标识的类别与将自动设置**AlwaysCategorize** -的当前项和会话中的新项目。 
+- **AlwaysCategorize** -将自动使用在 "[类别](categories-ex15websvcsotherref.md)" 元素中标识的类别设置对话中的当前项目和新项目。 
     
-- 将自动删除**AlwaysDelete** -的当前项和会话中的新项目。 删除模式设置[DeleteType](deletetype.md)元素。 
+- **AlwaysDelete** -将自动删除对话中的当前项目和新项目。 删除模式由[DeleteType](deletetype.md)元素设置。 
     
-- **AlwaysMove** -的当前项和会话中的新项目将自动移动到[DestinationFolderId](destinationfolderid.md)元素标识的文件夹。 
+- **AlwaysMove** -将自动将对话中的当前项目和新项目移至[DestinationFolderId](destinationfolderid.md)元素所标识的文件夹。 
     
-- **删除**-对话中的当前项将被删除。 对话中的后续项目将不会被删除。 删除模式设置[DeleteType](deletetype.md)元素。 
+- **删除**-对话中的当前项目将被删除。 会话中的后续项目不会被删除。 删除模式由[DeleteType](deletetype.md)元素设置。 
     
-- **移动**-对话中的当前项目将移动到[DestinationFolderId](destinationfolderid.md)元素标识的文件夹中。 对话中的后续项目将不移动。 
+- **Move** -对话中的当前项目将被移动到由[DestinationFolderId](destinationfolderid.md)元素标识的文件夹。 会话中的后续项目将不会移动。 
     
-- **复制**-对话中的当前项将复制到由[DestinationFolderId](destinationfolderid.md)元素标识的文件夹。 对话中的后续项目不会复制。 
+- **复制**-将对话中的当前项目复制到由[DestinationFolderId](destinationfolderid.md)元素标识的文件夹。 会话中的后续项目不会被复制。 
     
-- **SetReadState** -对话中的当前项将有设置其只读的状态。 由[IsRead](isread.md)元素设置的只读的状态。 
+- **SetReadState** -对话中的当前项目将设置为其读取状态。 读取状态由[IsRead](isread.md)元素设置。 
     
-- **标志**的对话中的当前项会设置由[标志](flag.md)元素定义的标志。 
+- **标记**-对话中的当前项目的[标志元素所](flag.md)定义的标志。 
     
 ## <a name="remarks"></a>备注
 
@@ -82,7 +82,7 @@ ms.locfileid: "19753091"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -90,5 +90,5 @@ ms.locfileid: "19753091"
 ## <a name="see-also"></a>另请参阅
 
 - [ApplyConversationAction 操作](applyconversationaction-operation.md)
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

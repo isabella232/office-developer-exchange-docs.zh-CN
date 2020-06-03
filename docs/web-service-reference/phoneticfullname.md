@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ed08dee7-ba01-4b10-a53a-d28b8e1c3bf9
-description: PhoneticFullName 元素包含一个联系人，包括第一个和最后一个名称，按发音拼写的完整名称。
-ms.openlocfilehash: 496d0a58ebec68c2292088f87ba4aec336c23d80
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: PhoneticFullName 元素包含联系人的全名，包括按发音拼写的名字和姓氏。
+ms.openlocfilehash: a206a33742499858066acd91f02529d35f22b001
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826780"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528837"
 ---
 # <a name="phoneticfullname"></a>PhoneticFullName
 
-**PhoneticFullName**元素包含一个联系人，包括第一个和最后一个名称，按发音拼写的完整名称。 
+**PhoneticFullName**元素包含联系人的全名，包括按发音拼写的名字和姓氏。 
   
 ```XML
 <PhoneticFullName/>
@@ -26,9 +26,9 @@ ms.locfileid: "19826780"
  **string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -44,9 +44,9 @@ ms.locfileid: "19826780"
    
 ## <a name="text-value"></a>文本值
 
-文本值是一个字符串，表示某个联系人，包括第一个和最后一个名称，按发音拼写的完整名称。
+Text 值是一个字符串，表示联系人的全名，包括按发音拼写的名字和姓氏。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -56,7 +56,7 @@ Exchange Server 2010 Service Pack 2 (SP2) 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -65,8 +65,8 @@ Exchange Server 2010 Service Pack 2 (SP2) 中引入了此元素。
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 
 
-[Creating Contacts (Exchange Web Services)](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+[创建联系人（Exchange Web 服务）](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
 

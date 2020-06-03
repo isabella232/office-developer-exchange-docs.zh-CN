@@ -11,20 +11,20 @@ api_name:
 api_type:
 - schema
 ms.assetid: c5e251af-f795-43cc-baaf-95d84475677c
-description: DeleteRuleOperation 元素包含要删除现有的收件箱规则操作。
-ms.openlocfilehash: 3410361e0b896fb0ef01c1873c9f8b0ac99afe58
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: DeleteRuleOperation 元素包含一个删除现有 "收件箱" 规则的操作。
+ms.openlocfilehash: 6b17f7f99f1fd9b9889db00fdf55fba5eef5aba8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753819"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526919"
 ---
 # <a name="deleteruleoperation"></a>DeleteRuleOperation
 
-**DeleteRuleOperation**元素包含要删除现有的收件箱规则操作。 
+**DeleteRuleOperation**元素包含一个删除现有 "收件箱" 规则的操作。 
   
 - [UpdateInboxRules](updateinboxrules.md)
-- [操作](operations.md)
+- [Operations](operations.md)
   
 ```XML
 <DeleteRuleOperation>
@@ -35,9 +35,9 @@ ms.locfileid: "19753819"
  **DeleteRuleOperationType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -45,7 +45,7 @@ ms.locfileid: "19753819"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[规则 Id](ruleid.md) <br/> |指定要删除的规则的标识符。  <br/> |
+|[RuleId](ruleid.md) <br/> |指定要删除的规则的标识符。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -57,7 +57,7 @@ ms.locfileid: "19753819"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -65,7 +65,7 @@ ms.locfileid: "19753819"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -75,5 +75,5 @@ ms.locfileid: "19753819"
 - [UpdateInboxRules](updateinboxrules.md) 
 - [SetRuleOperation](setruleoperation.md) 
 - [CreateRuleOperation](createruleoperation.md)
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

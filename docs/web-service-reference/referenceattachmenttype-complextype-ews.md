@@ -1,5 +1,5 @@
 ---
-title: ReferenceAttachmentType 复杂类型 (EWS)
+title: ReferenceAttachmentType 复杂类型（EWS）
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: ITPro
@@ -7,21 +7,21 @@ ms.topic: article
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 18bfa012-e903-d7f3-528a-31ccceb65463
-ms.openlocfilehash: c53686ccd032cabcc3f64a3a6684f29afe63a9b1
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: 24f5a62eadd490b5b0000dfe048850c44540f266
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21354174"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528732"
 ---
-# <a name="referenceattachmenttype-complextype-ews"></a>ReferenceAttachmentType 复杂类型 (EWS)
+# <a name="referenceattachmenttype-complextype-ews"></a>ReferenceAttachmentType 复杂类型（EWS）
 
 ## <a name="type-information"></a>类型信息
 
 |||
 |:-----|:-----|
-|**命名空间** <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|**架构文件** <br/> |types.xsd  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|**架构文件** <br/> |类型 .xsd  <br/> |
 |**扩展基** <br/> |t:AttachmentType  <br/> |
    
 ## <a name="definition"></a>定义
@@ -41,15 +41,15 @@ ms.locfileid: "21354174"
 
 ## <a name="elements-and-attributes"></a>元素和属性
 
-如果此架构定义了具体要求，如**sequence**， **minOccurs**、 **maxOccurs**和**choice**，请参阅定义部分。 
+如果架构定义了具体要求，如**sequence**、 **minOccurs**、 **maxOccurs**和**choice**，请参阅 "定义" 部分。 
   
 ### <a name="child-elements"></a>子元素
 
 |**元素**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|[AttachLongPathName](attachlongpathname.md) <br/> |xs:string  <br/> ||
+|[AttachLongPathName](attachlongpathname.md) <br/> |xs： string  <br/> ||
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 9c01fdc3-4adf-4e23-bc33-45d2a45ea08b
-description: AlternateId 元素描述要转换请求和响应中的转换标识符的结果中的标识符。
-ms.openlocfilehash: e4d29087b63b52638dd93e4e3b643cdee39a5b97
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: AlternateId 元素描述要在请求中转换的标识符和响应中转换后的标识符的结果。
+ms.openlocfilehash: 26df68bd814c2d323630c6bb40b4c31745017c71
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753138"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527451"
 ---
 # <a name="alternateid"></a>AlternateId
 
-**AlternateId**元素描述要转换请求和响应中的转换标识符的结果中的标识符。 
+**AlternateId**元素描述要在请求中转换的标识符和响应中转换后的标识符的结果。 
   
 ```XML
 <AlternateId Id="" Format="" Mailbox="" IsArchive=""/>
@@ -30,26 +30,26 @@ ms.locfileid: "19753138"
  **AlternateIdType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**说明**|
 |:-----|:-----|
-|Id  <br/> |介绍[ConvertId 操作](convertid-operation.md)请求中的源标识符以及[ConvertId 操作](convertid-operation.md)响应中的目标标识符。  <br/> |
-|格式  <br/> |介绍[ConvertId 操作](convertid-operation.md)请求中的源格式以及[ConvertId 操作](convertid-operation.md)响应中的目标格式。 请求中的[ConvertId](convertid.md)元素的**DestinationFormat**属性描述了目标格式。 此属性是类型**IdFormatType**。  <br/> |
-|Mailbox  <br/> |介绍邮箱主要简单邮件传输协议 (SMTP) 地址包含翻译的标识符。  <br/> |
-|IsArchive  <br/> |指示标识符是否表示存档的项目或文件夹。 值为**true**指示标识符表示存档的项目或文件夹。 此属性是可选的。  <br/> |
+|Id  <br/> |描述[ConvertId 操作](convertid-operation.md)请求中的源标识符，并描述[ConvertId 操作](convertid-operation.md)响应中的目标标识符。  <br/> |
+|Format  <br/> |描述[ConvertId 操作](convertid-operation.md)请求中的源格式，并描述[ConvertId 操作](convertid-operation.md)响应中的目标格式。 目标格式由请求中的[ConvertId](convertid.md)元素的**DestinationFormat**属性描述。 此属性的类型为**IdFormatType**。  <br/> |
+|邮箱  <br/> |描述邮箱主要简单邮件传输协议（SMTP）地址，该地址包含要翻译的标识符。  <br/> |
+|IsArchive  <br/> |指示标识符是否表示存档的项或文件夹。 **如果值为 true** ，则表示标识符表示存档项或文件夹。 此特性是可选的。  <br/> |
    
-#### <a name="format-attribute-values"></a>Format 属性值
+#### <a name="format-attribute-values"></a>格式属性值
 
 |**值**|**说明**|
 |:-----|:-----|
-|EwsLegacyId  <br/> |描述所产生的 Exchange Web 服务的初始发行版本的 Exchange 2007 中的标识符。  <br/> |
-|EwsId  <br/> |描述所产生的开头 Exchange 2007 SP1 的 Exchange Web 服务的标识符。  <br/> |
+|EwsLegacyId  <br/> |介绍 exchange 2007 的初始发布版本中的 Exchange Web 服务生成的标识符。  <br/> |
+|EwsId  <br/> |介绍了 Exchange Web 服务从 Exchange 2007 SP1 开始生成的标识符。  <br/> |
 |EntryId  <br/> |描述 MAPI 标识符，如**PR_ENTRYID**属性中所示。  <br/> |
-|HexEntryId  <br/> |介绍**PR_ENTRYID**属性的十六进制编码表示形式。 这是可用性日历事件标识符的格式。  <br/> |
-|StoreId  <br/> |描述 Exchange 存储区标识符。  <br/> |
+|HexEntryId  <br/> |描述了**PR_ENTRYID**属性的十六进制编码表示形式。 这是可用性日历事件标识符的格式。  <br/> |
+|StoreId  <br/> |描述 Exchange 存储标识符。  <br/> |
 |OwaId  <br/> |介绍 Outlook Web App 标识符。  <br/> |
    
 ### <a name="child-elements"></a>子元素
@@ -58,18 +58,18 @@ ms.locfileid: "19753138"
   
 ### <a name="parent-elements"></a>父元素
 
-|**元素**|**说明**|
+|**元素**|**描述**|
 |:-----|:-----|
-|[ConvertIdResponseMessage](convertidresponsemessage.md) <br/> |包含状态和[ConvertId 操作](convertid-operation.md)请求的结果。  <br/> |
+|[ConvertIdResponseMessage](convertidresponsemessage.md) <br/> |包含[ConvertId 操作](convertid-operation.md)请求的状态和结果。  <br/> |
 |[SourceIds](sourceids.md) <br/> |包含要转换的源标识符。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
 无。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
-**AlternateId**元素介绍两个标识符、 在[ConvertId 操作](convertid-operation.md)要求中，要转换的源标识符和[ConvertIdResponse](convertidresponse.md)元素中转换后的标识符。 
+**AlternateId**元素描述两个标识符：要在[ConvertId 操作](convertid-operation.md)请求中转换的源标识符，以及[ConvertIdResponse](convertidresponse.md)元素中的已转换标识符。 
   
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -77,7 +77,7 @@ ms.locfileid: "19753138"
 
 ||||
 |:-----|:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |消息架构  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |False  <br/> |
@@ -85,6 +85,6 @@ ms.locfileid: "19753138"
 ## <a name="see-also"></a>另请参阅
 
 - [ConvertId 操作](convertid-operation.md)
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
-- [转换标识符](http://msdn.microsoft.com/library/a5391746-b6ef-4f48-8fc8-8255258651aa%28Office.15%29.aspx)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [转换标识符](https://msdn.microsoft.com/library/a5391746-b6ef-4f48-8fc8-8255258651aa%28Office.15%29.aspx)
 

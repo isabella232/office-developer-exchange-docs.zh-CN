@@ -1,5 +1,5 @@
 ---
-title: AutoDiscover (POX)
+title: 自动发现（POX）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -9,18 +9,18 @@ api_type:
 - schema
 ms.assetid: 611fcf5f-780a-42ea-bccb-9462a2f0c095
 description: 自动发现元素是自动发现请求或响应中的根元素。
-ms.openlocfilehash: 0ac0daf20686e627905e9fe3a06722b7a681f3c9
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: 6fc889dc700a9fb068949d3ba5e4e6907b839f3c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353495"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527430"
 ---
-# <a name="autodiscover-pox"></a>AutoDiscover (POX)
+# <a name="autodiscover-pox"></a>自动发现（POX）
 
 **自动发现**元素是自动发现请求或响应中的根元素。 
   
-- [AutoDiscover (POX)](autodiscover-pox.md)
+- [自动发现（POX）](autodiscover-pox.md)
   
 ```xml
  <Autodiscover>
@@ -46,8 +46,8 @@ ms.locfileid: "21353495"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Request (POX)](request-pox.md) <br/> |包含对自动发现服务的请求。  <br/> |
-|[Response (POX)](response-pox.md) <br/> |包含来自自动发现服务的响应。  <br/> |
+|[请求（POX）](request-pox.md) <br/> |包含对自动发现服务的请求。  <br/> |
+|[响应（POX）](response-pox.md) <br/> |包含来自自动发现服务的响应。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -55,5 +55,5 @@ ms.locfileid: "21353495"
   
 ## <a name="see-also"></a>另请参阅
 
-- [Exchange POX 自动发现 XML 元素](pox-autodiscover-xml-elements-for-exchange.md)
+- [Exchange 的 POX 自动发现 XML 元素](pox-autodiscover-xml-elements-for-exchange.md)
 

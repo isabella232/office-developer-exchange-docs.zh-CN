@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: cee14262-7153-44da-bb42-b856e380c4d0
-description: PerformReminderAction 元素指定要执行提醒操作的请求。
-ms.openlocfilehash: d57b7694e9678fc8e096e01c7cca162e5d2d16e8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: PerformReminderAction 元素指定要执行的提醒操作的请求。
+ms.openlocfilehash: 915b15d3fd0663eb554eb1543845f670a2ae0772
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826723"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528998"
 ---
 # <a name="performreminderaction"></a>PerformReminderAction
 
-**PerformReminderAction**元素指定要执行提醒操作的请求。 
+**PerformReminderAction**元素指定要执行的提醒操作的请求。 
   
 ```XML
 <PerformReminderAction>
@@ -28,9 +28,9 @@ ms.locfileid: "19826723"
  **PerformReminderActionType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,7 +42,7 @@ ms.locfileid: "19826723"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 中引入了此元素。
   
@@ -52,7 +52,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -61,5 +61,5 @@ Exchange Server 2013 中引入了此元素。
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

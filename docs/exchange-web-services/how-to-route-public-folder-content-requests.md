@@ -5,45 +5,45 @@ ms.date: 03/9/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 59d2f05e-90fb-471e-ac06-70becc15b295
-description: 有关公用文件夹信息涉及公用文件夹需要路由到公用文件夹邮箱的内容的所有请求的都包含目标文件夹的内容。 若要将请求路由到该邮箱，您需要设置为特定值的 X AnchorMailbox 和 X PublicFolderMailbox 标头。
-ms.openlocfilehash: 64fafecb9882b17a3394e54640df78f7aa180343
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: 需要将涉及公用文件夹内容的所有公用文件夹信息请求路由到包含目标文件夹内容的公用文件夹邮箱。 若要将请求路由到该邮箱，您需要将 X-anchormailbox 和 PublicFolderMailbox 标头设置为特定值。
+ms.openlocfilehash: 523b9c8efc65253f7970fffeb5800e451784522d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21354020"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527733"
 ---
 # <a name="route-public-folder-content-requests"></a>路由公用文件夹内容请求
 
-有关公用文件夹信息涉及公用文件夹需要路由到公用文件夹邮箱的内容的所有请求的都包含目标文件夹的内容。 若要将请求路由到该邮箱，您需要设置为特定值的**X AnchorMailbox**和**X PublicFolderMailbox**标头。 
+需要将涉及公用文件夹内容的所有公用文件夹信息请求路由到包含目标文件夹内容的公用文件夹邮箱。 若要将请求路由到该邮箱，您需要将**x-anchormailbox**和**PublicFolderMailbox**标头设置为特定值。 
   
-下表提供了过程的概述：
+下表提供了该过程的概述：
   
-**公用文件夹概述 （英文)**
+**公用文件夹概述**
 
-|标头|我需要什么？|如何获得它？|
+|标头|我需要什么？|如何获取？|
 |:-----|:-----|:-----|
-|**X AnchorMailbox** <br/> |1。 [X AnchorMailbox 和 X PublicFolderInformation 值](how-to-route-public-folder-hierarchy-requests.md)公用文件夹层次结构邮箱。<br/><br/>2.公用文件夹邮箱包含邮箱内容，将它发送到自动发现服务的 GUID。<br/><br/>  **AutoDiscoverSMTPAddress** Autodisover 响应中将成为**X AnchorMailbox**头的值。  <br/> ![TODO](media/Ex15_PF_PFContent.png)| 1.使用本文中，用于[实现 EWS 托管 API](#bk_determineguidewsma)中的代码示例。 或[使用 EWS](#bk_determineguidews)和转换结果若要获取 GUID。<br/><br/>2。 使用 GUID 以及的域名中[进行的自动发现请求](#bk_makeautodrequest)。<br/><br/>3.使用**AutoDiscoverSMTPAddress**元素对[填充标头的值](#bk_setheadervalues)的自动发现响应中返回的值。  <br/> |
-|**X PublicFolderMailbox** <br/> |完成您的工作，则 X PublicFolderMailbox 值为 X AnchorMailbox 值相同 ！  <br/> |您已成功了 ！  <br/> |
+|**X-X-anchormailbox** <br/> |1. 公用文件夹层次结构邮箱[的 x-x-anchormailbox 和 x PublicFolderInformation 值](how-to-route-public-folder-hierarchy-requests.md)。<br/><br/>2. 包含邮箱内容的公用文件夹邮箱的 GUID，该邮箱内容将发送到自动发现服务。<br/><br/>  Autodisover 响应中的**AutoDiscoverSMTPAddress**将成为**X x-anchormailbox**标头的值。  <br/> ![TODO](media/Ex15_PF_PFContent.png)| 1. 使用本文中的代码示例，这将[实现 EWS 托管 API](#bk_determineguidewsma)。 或[使用 EWS](#bk_determineguidews)并转换结果以获取 GUID。<br/><br/>2. 使用 GUID 加上域名[进行自动发现请求](#bk_makeautodrequest)。<br/><br/>3. 使用自动发现响应中返回的**AutoDiscoverSMTPAddress**元素的值来[填充标头的值](#bk_setheadervalues)。  <br/> |
+|**X-PublicFolderMailbox** <br/> |您的工作已完成，则 PublicFolderMailbox 值与 X-X-anchormailbox 值相同！  <br/> |你已拥有！  <br/> |
    
-您已确定的标头值后，请[进行公用文件夹内容请求时](#bk_setheadervalues)进行包括。
+在确定了标头值之后，请[在创建公用文件夹内容请求时](#bk_setheadervalues)将其包括在内。
   
-本文中的步骤是特定于公用文件夹内容请求。 若要确定您的请求是公用文件夹层次结构或内容的请求，请参阅[路由的公用文件夹请求](public-folder-access-with-ews-in-exchange.md#bk_routing)。
+本文中的步骤特定于公用文件夹内容请求。 若要确定您的请求是否为公用文件夹层次结构或内容请求，请参阅[路由公用文件夹请求](public-folder-access-with-ews-in-exchange.md#bk_routing)。
 
 <a name="bk_determineguidewsma"> </a>
 
-## <a name="determine-the-guid-of-the-public-folder-mailbox-by-using-the-ews-managed-api"></a>通过使用 EWS 托管 API 来确定公用文件夹邮箱的 GUID
+## <a name="determine-the-guid-of-the-public-folder-mailbox-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 确定公用文件夹邮箱的 GUID
 
 
-若要确定公用文件夹内容邮箱的 GUID，使用下面的代码示例，执行以下任务： 
+若要确定公用文件夹内容邮箱的 GUID，请使用下面的代码示例，它执行以下操作： 
   
-- 使用通过[路由的公用文件夹层次结构请求](how-to-route-public-folder-hierarchy-requests.md)检索**X AnchorMailbox**和**X PublicFolderInformation**标头。
+- 使用通过[路由公用文件夹层次结构请求](how-to-route-public-folder-hierarchy-requests.md)检索到的**X-anchormailbox**和**x PublicFolderInformation**的标题。
     
-- 调用 EWS 托管 API [FindFolders](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx)方法，并包括**PR_REPLICA_LIST** (0x66980102) 属性的请求 
+- 调用 EWS 托管 API [FindFolders](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx)方法，并包含**PR_REPLICA_LIST** （0x66980102）属性的请求 
     
-**PR_REPLICA_LIST**值标识邮箱的邮箱的公用文件夹邮箱的已文件夹的内容的 GUID。 **PR_REPLICA_LIST**属性是一个字节数组，但这种情况下强制转换为 GUID。 GUID 和域名串联以形成要呼叫自动发现在其上的地址。 
+**PR_REPLICA_LIST**值标识包含该文件夹内容的公用文件夹邮箱的邮箱 GUID。 **PR_REPLICA_LIST**属性是一个字节数组，但它将强制转换为此方案的 GUID。 GUID 和域名串联在一起，以形成要调用自动发现的地址。 
   
-此示例假定`service`是[ExchangeService](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象的邮箱用户，`PFHAnchorHeader`和`PFHMailboxHeader`是**X AnchorMailbox**和**X PublicFolderMailbox**页眉的值和域是由的域名租户。 
+此示例假定 `service` 为邮箱用户的[ExchangeService](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象， `PFHAnchorHeader` 并且是 `PFHMailboxHeader` **x-x-anchormailbox**和**x PublicFolderMailbox**标头的值，而 domain 是租户使用的域名。 
   
 ```cs
 public static string GetMailboxGuidAddress(ExchangeService service, String PFHAnchorHeader, String PFHMailboxHeader, String domain)
@@ -103,17 +103,17 @@ public static string CompareGuidsForEquality(List<string> list)
 }
 ```
 
-如果您收到错误"失败的请求。 基本连接已关闭： 无法建立信任关系为 SSL/TLS 安全通道"，您需要[添加对验证回调方法的调用](how-to-validate-a-server-certificate-for-the-ews-managed-api.md)。 代码示例中包含的占位符和注释的方法。
+如果收到错误 "请求失败。 基础连接已关闭：无法为 SSL/TLS 安全通道建立信任关系，将需要[添加对验证回调方法的调用](how-to-validate-a-server-certificate-for-the-ews-managed-api.md)。 该方法的占位符和注释包含在代码示例中。
   
-如果相同的公用文件夹的根目录下的所有公用文件夹邮箱的邮箱 GUID，该示例指示使用时[调用自动发现](#bk_makeautodrequest)控制台输出和返回值的地址。 如果邮箱的邮箱 GUID 不相同的公用文件夹的根目录下的所有公用文件夹，您需要[进行的自动发现请求](#bk_makeautodrequest)上与您内容的请求中的文件夹关联的地址。 
+如果公用文件夹根目录下的所有公用文件夹的邮箱 GUID 都相同，则此示例指示在控制台输出中[调用自动发现](#bk_makeautodrequest)时要使用的地址，并将其作为返回值。 如果公用文件夹根目录下的所有公用文件夹的邮箱 GUID 不相同，则需要对与内容请求中的文件夹相关联的地址[进行自动发现请求](#bk_makeautodrequest)。 
 
 <a name="bk_determineguidews"> </a>
 
 ## <a name="determine-the-guid-of-the-public-folder-mailbox-by-using-ews"></a>使用 EWS 确定公用文件夹邮箱的 GUID
 
-下面的代码示例演示如何通过使用 EWS [FindFolder](http://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx)操作检索**PR_REPLICA_LIST** (0x66980102) 属性的值。 对于[ExtendedFieldURI](http://msdn.microsoft.com/library/b3c6ea3a-9ead-44b9-9d99-64ecf12bde23%28Office.15%29.aspx)元素中， **PropertyTag**属性设置为**PR_REPLICA_LIST**属性的十进制值 (26264) 和**PropertyType**属性设置为**二进制**。
+下面的代码示例演示如何使用 EWS [FindFolder](https://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx)操作检索**PR_REPLICA_LIST** （0x66980102）属性的值。 对于[ExtendedFieldURI](https://msdn.microsoft.com/library/b3c6ea3a-9ead-44b9-9d99-64ecf12bde23%28Office.15%29.aspx)元素，将**PropertyTag**属性设置为**PR_REPLICA_LIST**属性的十进制值（26264），并将**recordtype**属性设置为**Binary**。
   
-这也是 XML 请求 EWS 托管 API 发送时您使用**FindFolders**方法[确定使用 EWS 托管 API 的公用文件夹邮箱的 GUID](#bk_determineguidewsma)。
+这也是在使用**FindFolders**方法以[使用 EWS 托管 api 确定公用文件夹邮箱的 GUID](#bk_determineguidewsma)时，EWS 托管 api 发送的 XML 请求。
   
 ```XML
 POST https://outlook.office365.com/EWS/Exchange.asmx HTTP/1.1
@@ -127,7 +127,7 @@ Cookie: ClientId=KZPBLKA9ZMPXAQDW
 Content-Length: 1005
 Expect: 100-continue
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013_SP1" />
   </soap:Header>
@@ -149,15 +149,15 @@ Expect: 100-continue
 </soap:Envelope>
 ```
 
-服务器响应**FindFolder**请求[FindFolderResponse](http://msdn.microsoft.com/library/f5dd813c-9698-4a39-8fca-3a825df365ed%28Office.15%29.aspx)邮件包含**PR_REPLICA_LIST**扩展属性的值。 请注意，属性的值显示在 EWS 响应作为字符串格式的 base64 编码的字节数组。 为便于阅读缩短的响应中某些标头值。 
+服务器使用[FindFolderResponse](https://msdn.microsoft.com/library/f5dd813c-9698-4a39-8fca-3a825df365ed%28Office.15%29.aspx)邮件响应**FindFolder**请求，其中包含**PR_REPLICA_LIST**扩展属性的值。 请注意，该属性的值在 EWS 响应中显示为以64编码的字节数组的字符串格式。 为了提高可读性，响应中的某些标头值会缩短。 
   
 ```XML
-<?xml version="1.0" encoding="utf-8"?><s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<?xml version="1.0" encoding="utf-8"?><s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
-    <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="1019" MinorBuildNumber="15" Version="V2_17" xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" xmlns="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+    <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="1019" MinorBuildNumber="15" Version="V2_17" xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" xmlns="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
   </s:Header>
   <s:Body>
-    <m:FindFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:FindFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:FindFolderResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -188,65 +188,66 @@ Expect: 100-continue
 </s:Envelope>
 ```
 
-若要使用的**PR_REPLICA_LIST**值返回的 XML，MWVjMmEyMzYtZWQ5My00Zjg4LWI5YzYtMzNlNjNmYTRhYTQ0AA = =，若要确定邮箱的邮箱 GUID，必须将值转换为格式类似于如何将值转换中的 GUID[EWS 托管 API 的代码示例](#bk_determineguidewsma)。 创建 SMTP 地址，[自动发现请求](#bk_makeautodrequest)中包含的域名与然后串联 GUID。
+若要使用 XML 中返回的**PR_REPLICA_LIST**的值 MWVjMmEyMzYtZWQ5My00Zjg4LWI5YzYtMzNlNjNmYTRhYTQ0AA = =，以确定邮箱 GUID，则必须将该值转换为 GUID，格式类似于在[EWS 托管 API 代码示例](#bk_determineguidewsma)中如何转换值。 然后，将 GUID 与域名串联在一起，以创建一个 SMTP 地址，该地址包含在[自动发现请求](#bk_makeautodrequest)中。
   
-## <a name="make-an-autodiscover-request"></a>发出的自动发现请求
+## <a name="make-an-autodiscover-request"></a>发出自动发现请求
 <a name="bk_makeautodrequest"> </a>
 
-使用返回的地址`GetMailboxGuidAddress`方法，以调用自动发现。 我们建议您使用[Exchange 2013： 获取使用自动发现的用户设置](http://code.msdn.microsoft.com/exchange/Exchange-2013-Get-user-7e22c86e)调用自动发现服务，因为它简化的自动发现过程为您的代码示例。 此代码示例使用下表中列出的命令行参数来调用 POX 自动发现服务以检索与 GUID 邮箱关联的[AutoDiscoverSMTPAddress](http://msdn.microsoft.com/en-us/library/office/dn750991%28v=exchg.150%29.aspx)值。 
+使用方法返回的地址 `GetMailboxGuidAddress` 调用自动发现。 建议使用[Exchange 2013： Get user settings With 自动发现](https://code.msdn.microsoft.com/exchange/Exchange-2013-Get-user-7e22c86e)代码示例，以调用自动发现服务，因为它可简化自动发现过程。 此代码示例使用下表中列出的命令行参数调用 POX 自动发现服务，以检索与邮箱 GUID 关联的[AutoDiscoverSMTPAddress](https://msdn.microsoft.com/library/office/dn750991%28v=exchg.150%29.aspx)值。 
+
   
 |**参数**|**说明**|
 |:-----|:-----|
-|emailAddress  <br/> |返回的地址`GetMailboxGuidAddress`中[确定的公用文件夹邮箱 GUID](#bk_determineguidewsma)方法。  <br/> |
-|-skipSOAP  <br/> |指示 POX 自动发现请求所需。  <br/> |
-|身份验证 authEmailAddress  <br/> |邮箱用户的电子邮件地址，用于进行身份验证。 系统将提示您输入邮箱用户的密码，当您运行示例。  <br/> |
+|emailAddress  <br/> |`GetMailboxGuidAddress`方法在[确定公用文件夹邮箱的 GUID](#bk_determineguidewsma)时返回的地址。  <br/> |
+|-skipSOAP  <br/> |指示 POX 自动发现请求是必需的。  <br/> |
+|-auth authEmailAddress  <br/> |邮箱用户的电子邮件地址，用于进行身份验证。 在运行此示例时，系统将提示您输入邮箱用户的密码。  <br/> |
    
 例如，命令行参数应如下所示：
   
 `1ec2a236-ed93-4f88-b9c6-33e63fa4aa44@contoso.com -skipSOAP -auth sonyaf@contoso.com`
 
-其中`1ec2a236-ed93-4f88-b9c6-33e63fa4aa44@contoso.com`是**GetMailboxGuidAddress**方法中，返回的地址和`sonyaf@contoso.com`是邮箱用户。 
+其中， `1ec2a236-ed93-4f88-b9c6-33e63fa4aa44@contoso.com` 是**GetMailboxGuidAddress**方法返回的地址， `sonyaf@contoso.com` 是邮箱用户。 
   
-当您运行**Exchange 2013： 获取使用自动发现的用户设置**示例的最后一个自动发现响应应成功和包含邮箱的邮箱 GUID 与关联的所有用户设置。 保存**AutoDiscoverSMTPAddress**用户设置本地，为您将使用的下一步。 
+当您运行**Exchange 2013：使用自动发现示例获取用户设置**时，最后一个自动发现响应应成功，并包含与邮箱 GUID 关联的所有用户设置。 在本地保存**AutoDiscoverSMTPAddress**用户设置，在下一步中将使用该设置。 
   
-此外，如果不想使用**Exchange 2013： 获取使用自动发现的用户设置**示例中，您可以获取**AutoDiscoverSMTPAddress**用户[生成的自动发现终结点列表](how-to-generate-a-list-of-autodiscover-endpoints.md)，由设置，然后发送以下对每个 URL，直到收到成功响应 POX 自动发现请求。
+或者，如果您不想使用**Exchange 2013：使用自动发现示例获取用户设置**，则可以通过[生成自动发现终结点列表](how-to-generate-a-list-of-autodiscover-endpoints.md)来获取**AutoDiscoverSMTPAddress**用户设置，然后向每个 URL 发送以下 POX 自动发现请求，直到您收到成功的响应。
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<Autodiscover xmlns="http://schemas.microsoft.com/exchange/autodiscover/outlook/requestschema/2006">
+<Autodiscover xmlns="https://schemas.microsoft.com/exchange/autodiscover/outlook/requestschema/2006">
   <Request>
     <EMailAddress>1ec2a236-ed93-4f88-b9c6-33e63fa4aa44@contoso.com</EMailAddress>
-    <AcceptableResponseSchema>http://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a</AcceptableResponseSchema>
+    <AcceptableResponseSchema>https://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a</AcceptableResponseSchema>
   </Request>
 </Autodiscover>
 ```
 
-有关自动发现过程的详细信息，请参阅[exchange 自动发现](autodiscover-for-exchange.md)和[生成的自动发现终结点列表](how-to-generate-a-list-of-autodiscover-endpoints.md)中，[获取使用自动发现 Exchange 中的用户设置](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)。
+有关自动发现过程的详细信息，请参阅[exchange 的自动发现](autodiscover-for-exchange.md)，[生成自动发现终结点列表](how-to-generate-a-list-of-autodiscover-endpoints.md)，并[使用自动发现获取 Exchange 中的用户设置](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)。
   
-## <a name="set-the-values-of-the-x-anchormailbox-and-x-publicfoldermailbox-headers"></a>X AnchorMailbox 和 X PublicFolderMailbox 标头的值
+## <a name="set-the-values-of-the-x-anchormailbox-and-x-publicfoldermailbox-headers"></a>设置 X-anchormailbox 和 PublicFolderMailbox 标头的值
 <a name="bk_setheadervalues"> </a>
 
-使用**AutoDiscoverSMTPAddress**获得中[进行的自动发现请求](#bk_makeautodrequest)值，设置公用文件夹内容请求中的**X AnchorMailbox**和**X PublicFolderMailbox**头的值。 
+使用 AutoDiscoverSMTPAddress 中获取的**AutoDiscoverSMTPAddress**的值，在公用文件夹内容[请求中设置](#bk_makeautodrequest) **x-anchormailbox**和**x PublicFolderMailbox**标头的值。 
   
-例如，给定 NewPublicFolder@contoso.com AutoDiscoverSMTPAddress，包括以下标头时调用以下方法或操作。
+例如，给定 AutoDiscoverSMTPAddress 的 NewPublicFolder@contoso.com，在调用以下方法或操作时，请包含以下标头。
   
 `X-AnchorMailbox: NewPublicFolder@contoso.com`<br/>
 `X-PublicFolderMailbox: NewPublicFolder@contoso.com`
 
-**需要 X AncorMailbox 和 X PublicFolder 标头的公用文件夹呼叫**
+**需要 AncorMailbox 和 Set-publicfolder 头的公用文件夹调用**
 
 |**EWS 托管 API 方法**|**EWS 操作**|
 |:-----|:-----|
-|[Item.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) <br/> [Item.Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.update%28v=exchg.80%29.aspx) <br/> [Item.Copy](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.copy%28v=exchg.80%29.aspx) <br/> [Item.Move](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.move%28v=exchg.80%29.aspx) <br/> [Item.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.delete%28v=exchg.80%29.aspx) <br/> [Folder.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) <br/> [Folder.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx) <br/> |[CreateItem](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) <br/> [GetItem](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) <br/> [UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> [CopyItem](http://msdn.microsoft.com/library/bcc68f9e-d511-4c29-bba6-ed535524624a%28Office.15%29.aspx) <br/> [MoveItem](http://msdn.microsoft.com/library/dcf40fa7-7796-4a5c-bf5b-7a509a18d208%28Office.15%29.aspx) <br/> [DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> [GetFolder](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) <br/> [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) <br/> |
+|[Item.Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) <br/> [Item.Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.update%28v=exchg.80%29.aspx) <br/> [项。复制](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.copy%28v=exchg.80%29.aspx) <br/> [Item。 Move](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.move%28v=exchg.80%29.aspx) <br/> [Item.Delete](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.delete%28v=exchg.80%29.aspx) <br/> [文件夹。绑定](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) <br/> [FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx) <br/> |[CreateItem](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) <br/> [GetItem](https://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) <br/> [UpdateItem](https://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> [CopyItem](https://msdn.microsoft.com/library/bcc68f9e-d511-4c29-bba6-ed535524624a%28Office.15%29.aspx) <br/> [MoveItem](https://msdn.microsoft.com/library/dcf40fa7-7796-4a5c-bf5b-7a509a18d208%28Office.15%29.aspx) <br/> [DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> [GetFolder](https://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) <br/> [FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) <br/> |
    
-若要使用 EWS 托管 API 添加这些标头，请使用[HttpHeaders.Add](http://msdn.microsoft.com/en-us/library/system.net.http.headers.httpheaders.add%28v=vs.118%29.aspx)方法。 
+若要使用 EWS 托管 API 添加这些邮件头，请使用[HttpHeaders](https://msdn.microsoft.com/library/system.net.http.headers.httpheaders.add%28v=vs.118%29.aspx)方法。 
   
 ```cs
 service.HttpHeaders.Add("X-AnchorMailbox", "NewPublicFolder@contoso.com");
 service.HttpHeaders.Add("X-PublicFolderMailbox", "NewPublicFolder@contoso.com");
 ```
 
-下面的代码演示[GetFolder](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx)请求**X AnchorMailbox**和**X PublicFolderMailbox**标头设置为在本文中的示例中检索值。 
+以下代码显示了[GetFolder](https://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx)请求，其中**x-X-anchormailbox**和**x PublicFolderMailbox**标头设置为在本文的示例中检索到的值。 
   
 ```XML
 POST https://outlook.office365.com/EWS/Exchange.asmx HTTP/1.1
@@ -259,7 +260,7 @@ Host: outlook.office365.com
 Content-Length: 688
 Expect: 100-continue
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013_SP1" />
   </soap:Header>
@@ -281,6 +282,5 @@ Expect: 100-continue
 - [使用 EWS 在 Exchange 公用文件夹访问。](public-folder-access-with-ews-in-exchange.md)    
 - [Exchange 自动发现](autodiscover-for-exchange.md)    
 - [生成自动发现终结点列表](how-to-generate-a-list-of-autodiscover-endpoints.md)   
-- [通过使用自动发现 Exchange 中获取用户设置](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
-    
-
+- [使用自动发现从 Exchange 获取用户设置](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
+  

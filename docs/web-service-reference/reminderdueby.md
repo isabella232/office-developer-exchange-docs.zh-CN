@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: e28a0485-86af-4a4e-a2ba-3ad2d4ebff6f
-description: ReminderDueBy 元素均表示的日期和时间事件发生。 这使用 ReminderMinutesBeforeStart 元素以确定其何时在显示提醒。
-ms.openlocfilehash: cff8142958108635dd9dfaec425af135dee2f2eb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ReminderDueBy 元素表示事件发生的日期和时间。 ReminderMinutesBeforeStart 元素使用此元素来确定何时显示提醒。
+ms.openlocfilehash: 206534da4498e871e99635b236e500dec573eb5a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827061"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528725"
 ---
 # <a name="reminderdueby"></a>ReminderDueBy
 
-**ReminderDueBy**元素均表示的日期和时间事件发生。 这使用[ReminderMinutesBeforeStart](reminderminutesbeforestart.md)元素以确定其何时在显示提醒。 
+**ReminderDueBy**元素表示事件发生的日期和时间。 [ReminderMinutesBeforeStart](reminderminutesbeforestart.md)元素使用此元素来确定何时显示提醒。 
   
 ```xml
 <ReminderDueBy/>
@@ -30,9 +30,9 @@ ms.locfileid: "19827061"
  **DateTime**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -44,8 +44,8 @@ ms.locfileid: "19827061"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[日历项目](calendaritem.md) <br/> |表示 Exchange 日历项。  <br/> |
-|[联系人](contact.md) <br/> |表示 Exchange 联系人项目。  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |表示 Exchange 日历项。  <br/> |
+|[Contact](contact.md) <br/> |表示 Exchange 联系人项目。  <br/> |
 |[DistributionList](distributionlist.md) <br/> |表示通讯组列表。  <br/> |
 |[项目](item.md) <br/> |表示 Exchange 存储中的项。  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |表示 Exchange 存储中的会议取消。  <br/> |
@@ -58,9 +58,9 @@ ms.locfileid: "19827061"
    
 ## <a name="text-value"></a>文本值
 
-文本值表示的日期和提醒到期的时间。
+文本值表示提醒到期的日期和时间。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -68,7 +68,7 @@ ms.locfileid: "19827061"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -77,5 +77,5 @@ ms.locfileid: "19827061"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

@@ -1,44 +1,44 @@
 ---
-title: 使用 EWS 在 Exchange 管理收件箱规则
+title: 使用 Exchange 中的 EWS 管理收件箱规则
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 982ddb78-5606-44b0-8aba-dbffc60d6085
-description: 了解如何获取、 创建、 更新和使用 EWS 的 EWS 托管 API 在 Exchange 中删除收件箱规则。
-ms.openlocfilehash: 85e166ba57d74c74382b257d01d9bff8f44bade1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 了解如何通过使用 Exchange 中的 EWS 托管 API 或 EWS 来获取、创建、更新和删除收件箱规则。
+ms.openlocfilehash: 7c5d202a85ece1c9bc7227020f9ee8be1f688ce6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752818"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527976"
 ---
-# <a name="manage-inbox-rules-by-using-ews-in-exchange"></a>使用 EWS 在 Exchange 管理收件箱规则
+# <a name="manage-inbox-rules-by-using-ews-in-exchange"></a>使用 Exchange 中的 EWS 管理收件箱规则
 
-了解如何获取、 创建、 更新和使用 EWS 的 EWS 托管 API 在 Exchange 中删除收件箱规则。
+了解如何通过使用 Exchange 中的 EWS 托管 API 或 EWS 来获取、创建、更新和删除收件箱规则。
   
-您可以获取、 创建、 更新和删除使用 EWS 托管 API 或 EWS 的收件箱规则。 无论您使用的技术，您获取和修改的收件箱规则作为集合，而不是单独。 使用相同的方法或操作创建新规则、 更新现有规则，并删除规则。 
+您可以使用 EWS 托管 API 或 EWS 获取、创建、更新和删除收件箱规则。 无论使用哪种技术，都可以作为集合而不是单独的方式来获取和修改收件箱规则。 您可以使用相同的方法或操作来创建新规则、更新现有规则和删除规则。 
   
-**表 1。方法和用于获取和修改收件箱规则操作**
+**表1。用于获取和修改收件箱规则的方法和操作**
 
 |**若要...**|**EWS 托管的 API 方法**|**EWS 操作**|
 |:-----|:-----|:-----|
-|获取收件箱规则  <br/> |[ExchangeService.GetInboxRules](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.getinboxrules%28v=exchg.80%29.aspx) <br/> |[GetInboxRules](http://msdn.microsoft.com/library/b4b2701a-4a23-4acc-8c75-19f7955ad7ae%28Office.15%29.aspx) <br/> |
-|创建、 更新或删除收件箱规则  <br/> |[ExchangeService.UpdateInboxRules](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.updateinboxrules%28v=exchg.80%29.aspx) <br/> |[UpdateInboxRules](http://msdn.microsoft.com/library/f982a237-471e-45c5-a2b5-468cfc53150b%28Office.15%29.aspx) <br/> |
+|获取收件箱规则  <br/> |[ExchangeService。 GetInboxRules](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.getinboxrules%28v=exchg.80%29.aspx) <br/> |[GetInboxRules](https://msdn.microsoft.com/library/b4b2701a-4a23-4acc-8c75-19f7955ad7ae%28Office.15%29.aspx) <br/> |
+|创建、更新或删除收件箱规则  <br/> |[ExchangeService。 UpdateInboxRules](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.updateinboxrules%28v=exchg.80%29.aspx) <br/> |[UpdateInboxRules](https://msdn.microsoft.com/library/f982a237-471e-45c5-a2b5-468cfc53150b%28Office.15%29.aspx) <br/> |
    
-若要创建、 更新或删除收件箱规则使用 EWS 托管 API 或 EWS，必须删除 Outlook 规则，如果存在。 如果您正在使用 EWS 托管 API，您需要执行此操作通过**removeOutlookRulesBlob**参数设置为**true** **ExchangeService.UpdateInboxRules**方法调用中。 如果您正在使用 EWS， [RemoveOutlookRuleBlob](http://msdn.microsoft.com/library/69614475-8bd3-4475-b988-614fe9cad8ef%28Office.15%29.aspx)元素的值设置为**true** **UpdateInboxRules**操作。 我们建议您的应用程序复选[RuleCollection.OutlookRuleBlobExists](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.rulecollection.outlookruleblobexists%28v=exchg.80%29.aspx)属性 （如果您正在使用 EWS 托管 API），或更新收件箱规则之前[OutlookRuleBlobExists](http://msdn.microsoft.com/library/ae1bc448-deb9-4b5b-ab38-4b276abcb650%28Office.15%29.aspx)元素 （如果您正在使用 EWS）。 此属性或元素的值为**true**，如果您的应用程序应任何禁用的规则将会丢失一部分的更新，并继续其权限仅通知用户。
+为了使用 EWS 托管 API 或 EWS 创建、更新或删除收件箱规则，必须删除 Outlook 规则（如果存在）。 如果使用 EWS 托管 API，可以通过在**ExchangeService**方法调用中将**removeOutlookRulesBlob**参数设置为**true**来执行此操作。 如果使用的是 EWS，请在**UpdateInboxRules**操作中将[RemoveOutlookRuleBlob](https://msdn.microsoft.com/library/69614475-8bd3-4475-b988-614fe9cad8ef%28Office.15%29.aspx)元素的值设置为**true** 。 建议您的应用程序检查[RuleCollection](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.rulecollection.outlookruleblobexists%28v=exchg.80%29.aspx)属性（如果您使用 EWS 托管 API）或[OutlookRuleBlobExists](https://msdn.microsoft.com/library/ae1bc448-deb9-4b5b-ab38-4b276abcb650%28Office.15%29.aspx)元素（如果使用 ews），然后再更新收件箱规则。 如果此属性或元素的值为**true**，则应用程序应警告用户，任何禁用的规则将在更新过程中丢失，并且仅继续其权限。
   
-如果调用**UpdateInboxRules** EWS 中删除客户端发送规则。 客户端发送规则存储在客户端在规则文件夹关联的信息 （从故障） 消息和其他地方。 EWS 删除默认情况下，Outlook 将重新创建它的期望值基于此规则从故障消息。 但是，Outlook 无法重新创建还不存在作为扩展规则，规则并且客户端发送规则不存在作为扩展规则。 因此，这些规则都将丢失。 我们建议您考虑此设计解决方案时。 
+调用**UpdateInboxRules**方法时，EWS 将删除客户端发送规则。 客户端发送规则存储在客户端上的规则文件夹相关信息（FAI）消息和其他地方。 EWS 默认情况下，根据 Outlook 将重新创建的预期，EWS 删除此规则 FAI 邮件。 但是，Outlook 无法重新创建也不作为扩展规则存在的规则，并且客户端发送规则不会作为扩展规则存在。 因此，这些规则将丢失。 我们建议您在设计解决方案时考虑这一点。 
   
 > [!NOTE]
-> 本文中的 EWS 托管 API 代码示例使用[通用组实用程序方法](how-to-manage-inbox-rules-by-using-ews-in-exchange.md#bk_UtilitySource)。 从代码示例为简便起见，这些方法都被忽略。 
+> 本文中的 EWS 托管 API 代码示例使用一[组常用的实用工具方法](how-to-manage-inbox-rules-by-using-ews-in-exchange.md#bk_UtilitySource)。 简单起见，代码示例中省略了这些方法。 
   
-## <a name="get-inbox-rules-by-using-the-ews-managed-api"></a>通过使用 EWS 托管 API 获取收件箱规则
+## <a name="get-inbox-rules-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 获取收件箱规则
 <a name="bk_GetRulesEWSMA"> </a>
 
-若要获取当前的收件箱规则，请使用[ExchangeService.GetInboxRules](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.getinboxrules%28v=exchg.80%29.aspx)方法。 此方法返回一个包含所有当前的收件箱规则[RuleCollection](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.rulecollection%28v=exchg.80%29.aspx)对象。 
+若要获取当前收件箱规则，请使用[ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.getinboxrules%28v=exchg.80%29.aspx)方法。 此方法返回一个[RuleCollection](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.rulecollection%28v=exchg.80%29.aspx)对象，该对象包含当前的所有收件箱规则。 
   
-在此示例中，当前的收件箱中的每个规则被传递到 helper 函数 ( **ParseRuleDetails** ) 以显示规则的详细信息。 
+在此示例中，当前收件箱中的每个规则都传递给 helper 函数（ **ParseRuleDetails** ），以显示该规则的详细信息。 
   
 ```cs
 using System;
@@ -73,17 +73,17 @@ private static void GetInboxRules(ExchangeService service, string emailAddress)
 }
 ```
 
-## <a name="get-inbox-rules-by-using-ews"></a>通过使用 EWS 获取收件箱规则
+## <a name="get-inbox-rules-by-using-ews"></a>使用 EWS 获取收件箱规则
 <a name="bk_GetRulesEWS"> </a>
 
-以下 EWS SOAP 请求使用[GetInboxRules 操作](http://msdn.microsoft.com/library/b4b2701a-4a23-4acc-8c75-19f7955ad7ae%28Office.15%29.aspx)检索 sadie@contoso.com 的收件箱规则。 
+下面的 EWS SOAP 请求使用[GetInboxRules 操作](https://msdn.microsoft.com/library/b4b2701a-4a23-4acc-8c75-19f7955ad7ae%28Office.15%29.aspx)检索 Sadie@contoso.com 的收件箱规则。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
 <soap:Header>
   <t:RequestServerVersion Version="Exchange2013" />
 </soap:Header>
@@ -95,24 +95,24 @@ private static void GetInboxRules(ExchangeService service, string emailAddress)
 </soap:Envelope>
 ```
 
-下面的 EWS SOAP 响应中包含 sadie@contoso.com 的当前收件箱规则。
+下面的 EWS SOAP 响应包含 sadie@contoso.com 的当前收件箱规则。
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
 <s:Header>
   <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="712" MinorBuildNumber="22" Version="V2_3" 
-      xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-      xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+      xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+      xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
       xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
 </s:Header>
 <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <GetInboxRulesResponse ResponseClass="Success" xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+  <GetInboxRulesResponse ResponseClass="Success" xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
     <ResponseCode>NoError</ResponseCode>
     <OutlookRuleBlobExists>false</OutlookRuleBlobExists>
     <InboxRules>
-      <Rule xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+      <Rule xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <RuleId>AQAAAAAAASY=</RuleId>
         <DisplayName>Alfred</DisplayName>
         <Priority>1</Priority>
@@ -133,7 +133,7 @@ private static void GetInboxRules(ExchangeService service, string emailAddress)
           <StopProcessingRules>true</StopProcessingRules>
         </Actions>
       </Rule>
-      <Rule xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+      <Rule xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <RuleId>AQAAAAAAASQ=</RuleId>
         <DisplayName>Important</DisplayName>
         <Priority>2</Priority>
@@ -164,9 +164,9 @@ private static void GetInboxRules(ExchangeService service, string emailAddress)
 ## <a name="create-inbox-rules-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 创建收件箱规则
 <a name="bk_CreateRulesEWSMA"> </a>
 
-若要创建规则，请传递给[ExchangeService.UpdateInboxRules](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.updateinboxrules%28v=exchg.80%29.aspx)方法[RuleOperation](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.ruleoperation%28v=exchg.80%29.aspx)对象的集合中包括[CreateRuleOperation](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.createruleoperation%28v=exchg.80%29.aspx)对象。 
+若要创建规则，请在传递给[ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.updateinboxrules%28v=exchg.80%29.aspx)方法的[RuleOperation](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.ruleoperation%28v=exchg.80%29.aspx)对象集合中添加一个[CreateRuleOperation](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.createruleoperation%28v=exchg.80%29.aspx)对象。 
   
-本示例中，创建一个新规则将邮件发送到一个名为"Sales"到收件箱中的子文件夹也称为"Sales"的通讯组列表。
+在此示例中，创建了一个新规则，以将发送到名为 "Sales" 的通讯组列表的邮件移到收件箱的子文件夹（也称为 "销售"）。
   
 ```cs
 using System;
@@ -244,14 +244,14 @@ private static void CreateInboxRule(ExchangeService service, string emailAddress
 ## <a name="create-inbox-rules-by-using-ews"></a>使用 EWS 创建收件箱规则
 <a name="bk_CreateRulesEWS"> </a>
 
-以下 EWS SOAP 请求 sadie@contoso.com 的收件箱中创建"Sales"规则。
+下面的 EWS SOAP 请求在 sadie@contoso .com 的收件箱中创建 "Sales" 规则。
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -299,9 +299,9 @@ private static void CreateInboxRule(ExchangeService service, string emailAddress
 ## <a name="update-inbox-rules-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 更新收件箱规则
 <a name="bk_UpdateRulesEWSMA"> </a>
 
-若要更新的规则，请传递给**UpdateInboxRules**方法**RuleOperation**对象的集合中包括[SetRuleOperation](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.setruleoperation%28v=exchg.80%29.aspx)对象。 
+若要更新规则，请在传递给**UpdateInboxRules**方法的**RuleOperation**对象集合中添加一个[SetRuleOperation](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.setruleoperation%28v=exchg.80%29.aspx)对象。 
   
-本示例中，更新"Sales"规则以添加例外。 如果主题包含单词"紧急"，消息将不会移动到"Sales"子文件夹。
+在此示例中，将更新 "Sales" 规则以添加例外。 如果主题中包含 "Urgent" 一词，则不会将邮件移至 "Sales" 子文件夹。
   
 ```cs
 using System;
@@ -375,14 +375,14 @@ private static void UpdateInboxRule(ExchangeService service, string emailAddress
 ## <a name="update-inbox-rules-by-using-ews"></a>使用 EWS 更新收件箱规则
 <a name="bk_UpdateRulesEWS"> </a>
 
-以下 EWS SOAP 请求更新 sadie@contoso.com 的收件箱中的"Sales"规则。
+下面的 EWS SOAP 请求更新 sadie@contoso .com 的收件箱中的 "Sales" 规则。
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -436,9 +436,9 @@ private static void UpdateInboxRule(ExchangeService service, string emailAddress
 ## <a name="delete-inbox-rules-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 删除收件箱规则
 <a name="bk_DeleteRulesEWSMA"> </a>
 
-若要删除规则，请传递给**UpdateInboxRules**方法**RuleOperation**对象的集合中包括[DeleteRuleOperation](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.deleteruleoperation%28v=exchg.80%29.aspx)对象。 
+若要删除规则，请在传递给**UpdateInboxRules**方法的**RuleOperation**对象集合中添加一个[DeleteRuleOperation](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.deleteruleoperation%28v=exchg.80%29.aspx)对象。 
   
-本示例中，将删除"Sales"规则。
+在此示例中，删除了 "Sales" 规则。
   
 ```cs
 using System;
@@ -509,14 +509,14 @@ private static void DeleteInboxRule(ExchangeService service, string emailAddress
 ## <a name="delete-inbox-rules-by-using-ews"></a>使用 EWS 删除收件箱规则
 <a name="bk_DeleteRulesEWS"> </a>
 
-以下 EWS SOAP 请求从 sadie@contoso.com 的收件箱中删除"Sales"规则。
+下面的 EWS SOAP 请求将从 sadie@contoso 的收件箱中删除 "Sales" 规则。
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -533,10 +533,10 @@ private static void DeleteInboxRule(ExchangeService service, string emailAddress
 </soap:Envelope>
 ```
 
-## <a name="source-for-sample-utility-methods"></a>源示例实用程序方法
+## <a name="source-for-sample-utility-methods"></a>示例实用工具方法的源
 <a name="bk_UtilitySource"> </a>
 
-本文中的 EWS 托管 API 示例使用下面的示例中包含的实用程序方法。
+本文中的 EWS 托管 API 示例使用以下示例中包含的实用工具方法。
   
 ```cs
 private static void ParseRuleDetails(ExchangeService service, Rule rule)
@@ -910,12 +910,12 @@ private static FolderId GetFolderIdByName(ExchangeService service, WellKnownFold
 
 - [Inbox management and EWS in Exchange](inbox-management-and-ews-in-exchange.md)
     
-- [ExchangeService.GetInboxRules 方法](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.getinboxrules%28v=exchg.80%29.aspx)
+- [ExchangeService 方法](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.getinboxrules%28v=exchg.80%29.aspx)
     
-- [ExchangeService.UpdateInboxRules 方法](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.updateinboxrules%28v=exchg.80%29.aspx)
+- [ExchangeService 方法](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.updateinboxrules%28v=exchg.80%29.aspx)
     
-- [GetInboxRules 操作](http://msdn.microsoft.com/library/b4b2701a-4a23-4acc-8c75-19f7955ad7ae%28Office.15%29.aspx)
+- [GetInboxRules 操作](https://msdn.microsoft.com/library/b4b2701a-4a23-4acc-8c75-19f7955ad7ae%28Office.15%29.aspx)
     
-- [UpdateInboxRules 操作](http://msdn.microsoft.com/library/f982a237-471e-45c5-a2b5-468cfc53150b%28Office.15%29.aspx)
+- [UpdateInboxRules 操作](https://msdn.microsoft.com/library/f982a237-471e-45c5-a2b5-468cfc53150b%28Office.15%29.aspx)
     
 

@@ -1,5 +1,5 @@
 ---
-title: PlayOnPhoneGreeting 操作 （UM web 服务）
+title: PlayOnPhoneGreeting 操作（UM web 服务）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,23 +10,23 @@ api_name:
 api_type:
 - schema
 ms.assetid: 6deafc40-290b-4bce-9914-b6bcc529f38a
-description: PlayOnPhoneGreeting 操作创建出站呼叫，并在两个问候语消息之一电话上播放。
-ms.openlocfilehash: 85ba76c7638911678c1ef1aef88f47fdab2c6a4e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: PlayOnPhoneGreeting 操作发出出站呼叫，并在电话上播放两条问候语消息之一。
+ms.openlocfilehash: 3af120b9ac8d7a368742fad2850c924228488662
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826828"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528892"
 ---
-# <a name="playonphonegreeting-operation-um-web-service"></a>PlayOnPhoneGreeting 操作 （UM web 服务）
+# <a name="playonphonegreeting-operation-um-web-service"></a>PlayOnPhoneGreeting 操作（UM web 服务）
 
-PlayOnPhoneGreeting 操作创建出站呼叫，并在两个问候语消息之一电话上播放。
+PlayOnPhoneGreeting 操作发出出站呼叫，并在电话上播放两条问候语消息之一。
   
 ## <a name="playonphonegreeting-request-example"></a>PlayOnPhoneGreeting 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
-PlayOnPhoneGreeting 请求的下面的示例演示如何以形成发送出站呼叫和在电话上播放正常的问候语消息的请求。
+下面的 PlayOnPhoneGreeting 请求示例演示如何在发出出站呼叫和在电话上播放普通问候语消息时形成请求。
   
 ### <a name="code"></a>代码
 
@@ -34,7 +34,7 @@ PlayOnPhoneGreeting 请求的下面的示例演示如何以形成发送出站呼
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <PlayOnPhoneGreeting xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <PlayOnPhoneGreeting xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <GreetingType>NormalCustom</GreetingType>
       <DialString>12345</DialString>
     </PlayOnPhoneGreeting>
@@ -42,11 +42,11 @@ PlayOnPhoneGreeting 请求的下面的示例演示如何以形成发送出站呼
 </soap:Envelope>
 ```
 
-## <a name="successful-playonphonegreeting-response-example"></a>成功 PlayOnPhoneGreeting 响应示例
+## <a name="successful-playonphonegreeting-response-example"></a>成功的 PlayOnPhoneGreeting 响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
-PlayOnPhoneGreeting 响应的下面的示例演示 PlayOnPhoneGreeting 请求的响应。
+下面的 PlayOnPhoneGreeting 响应示例显示对 PlayOnPhoneGreeting 请求的响应。
   
 ### <a name="code"></a>代码
 
@@ -54,7 +54,7 @@ PlayOnPhoneGreeting 响应的下面的示例演示 PlayOnPhoneGreeting 请求的
 <?xml version="1.0" encoding="utf-8" ?> 
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Body>
-    <PlayOnPhoneGreetingResponse xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <PlayOnPhoneGreetingResponse xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
     <PlayOnPhoneGreetingResponse>MjA4MTQ5MmItMTBmZC00ZGFmLThiMzEtNDllNDJjM2Y3MjIxQGRmLWV1bS0wMS5leGNoYW5nZS5jb3JwLm1pY3Jvc29mdC5jb20=</PlayOnPhoneGreetingResponse> 
     </PlayOnPhoneGreetingResponse>
   </soap:Body>
