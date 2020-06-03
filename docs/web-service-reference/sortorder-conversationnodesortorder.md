@@ -1,5 +1,5 @@
 ---
-title: SortOrder (ConversationNodeSortOrder)
+title: SortOrder （ConversationNodeSortOrder）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f9c4295c-8089-4533-b92f-2051eae9afeb
-description: SortOrder 元素指定用于 GetConversationItems 请求的结果的排序顺序。
-ms.openlocfilehash: 397aead62d32e72f991af783bff02e79a6e4b0fb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: SortOrder 元素指定用于 GetConversationItems 请求结果的排序顺序。
+ms.openlocfilehash: 69d362b9f769749bcc9692825b64ff486e8b60a0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827520"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530963"
 ---
-# <a name="sortorder-conversationnodesortorder"></a>SortOrder (ConversationNodeSortOrder)
+# <a name="sortorder-conversationnodesortorder"></a>SortOrder （ConversationNodeSortOrder）
 
-**SortOrder**元素指定用于**GetConversationItems**请求的结果的排序顺序。 
+**SortOrder**元素指定用于**GetConversationItems**请求结果的排序顺序。 
   
 ```XML
 <SortOrder>TreeOrderAscending | TreeOrderDescending | DateOrderAscending | DateOrderDescending</SortOrder>
@@ -26,9 +26,9 @@ ms.locfileid: "19827520"
  **ConversationNodeSortOrder**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,7 +42,7 @@ ms.locfileid: "19827520"
   
 ## <a name="text-value"></a>文本值
 
-**SortOrder**元素的文本值是在其中对话排序的顺序。 **TreeOrderAscending**文本值指示对话了排序根据升序排序的对话树。 **TreeOrderDescending**文本值指示对话了排序根据按降序顺序的对话树。 **DateOrderAscending**文本值指示对话进行排序以升序对话 date。 **DateOrderDescending**文本值指示对话了排序按降序顺序对话 date。 
+**SortOrder**元素的文本值是排列对话的顺序。 **TreeOrderAscending**的文本值表示按升序顺序对对话进行排序。 **TreeOrderDescending**的文本值表示按降序顺序对对话进行排序。 **DateOrderAscending**的文本值表示按照按升序排序的会话日期对对话进行排序。 **DateOrderDescending**的文本值表示根据会话日期的降序对对话进行排序。 
   
 ## <a name="remarks"></a>备注
 
@@ -54,7 +54,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> ||

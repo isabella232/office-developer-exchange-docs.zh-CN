@@ -1,5 +1,5 @@
 ---
-title: SendItem Operation
+title: SendItem 操作
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,21 +11,21 @@ api_name:
 api_type:
 - schema
 ms.assetid: 337b89ef-e1b7-45ed-92f3-8abe4200e4c7
-description: SendItem 操作用于发送电子邮件的位于 Exchange 存储中。
-ms.openlocfilehash: 780778b1599d0d5e5f4b6e5b58b67773bbe18cda
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: SendItem 操作用于发送位于 Exchange 存储中的电子邮件。
+ms.openlocfilehash: 9136379e50723211fe5a483c7f113da4fa125fc1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827336"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530336"
 ---
-# <a name="senditem-operation"></a>SendItem Operation
+# <a name="senditem-operation"></a>SendItem 操作
 
-SendItem 操作用于发送电子邮件的位于 Exchange 存储中。
+SendItem 操作用于发送位于 Exchange 存储中的电子邮件。
   
-## <a name="senditem-e-mail-message-request-example"></a>SendItem （电子邮件） 请求示例
+## <a name="senditem-e-mail-message-request-example"></a>SendItem （电子邮件）请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示如何发送电子邮件。
   
@@ -35,9 +35,9 @@ SendItem 操作用于发送电子邮件的位于 Exchange 存储中。
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <SendItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" 
+    <SendItem xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" 
               SaveItemToFolder="true">
       <ItemIds>
         <t:ItemId Id="AAAtAEF=" ChangeKey="CQAAABY+T" />
@@ -47,11 +47,11 @@ SendItem 操作用于发送电子邮件的位于 Exchange 存储中。
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>注释
+### <a name="comments"></a>备注
 
-已缩短的项标识符，若要保留可读性。
+项目标识符已缩短，以保持可读性。
   
-### <a name="request-elements"></a>请求元素
+### <a name="request-elements"></a>Request 元素
 
 请求中使用以下元素：
   
@@ -61,11 +61,11 @@ SendItem 操作用于发送电子邮件的位于 Exchange 存储中。
     
 - [ItemId](itemid.md)
     
-## <a name="successful-senditem-e-mail-message-response"></a>成功 SendItem （电子邮件） 响应
+## <a name="successful-senditem-e-mail-message-response"></a>成功的 SendItem （电子邮件）响应
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
-下面的示例演示了成功的 SendItem 响应。
+下面的示例展示了一个成功的 SendItem 响应。
   
 ### <a name="code"></a>代码
 
@@ -76,12 +76,12 @@ SendItem 操作用于发送电子邮件的位于 Exchange 存储中。
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="602" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <SendItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                      xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <SendItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                      xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:SendItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -92,9 +92,9 @@ SendItem 操作用于发送电子邮件的位于 Exchange 存储中。
 </soap:Envelope>
 ```
 
-### <a name="successful-response-elements"></a>成功响应元素
+### <a name="successful-response-elements"></a>成功的响应元素
 
-在响应中使用以下元素：
+响应中使用以下元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -106,17 +106,17 @@ SendItem 操作用于发送电子邮件的位于 Exchange 存储中。
     
 - [ResponseCode](responsecode.md)
     
-### <a name="comments"></a>注释
+### <a name="comments"></a>备注
 
-尝试发送电子邮件的主体的草稿文件夹位于 SendAndSaveCopy 选项设置为可分辨的文件夹以无提示方式将无法将发送邮件的副本移至可分辨已发送邮件已发送邮件中保存副本的代理人文件夹。 项目将保留在的主体的草稿文件夹中。 此问题的解决方法是[DistinguishedFolderId](distinguishedfolderid.md)元素中指定的主体的邮箱。 
+尝试发送位于主体的 "草稿" 文件夹中且设置为 "已发送邮件可分辨" 文件夹中的电子邮件的代理将以无提示方式将已发送项目的副本移动到 "已发送邮件" 可分辨文件夹中。 项目将保留在主体的 "草稿" 文件夹中。 此问题的解决方法是在[DistinguishedFolderId](distinguishedfolderid.md)元素中指定主体的邮箱。 
   
-代理人创建一封电子邮件，并将其保存到代理人的邮箱的草稿文件夹时要考虑的其他方案。 如果代理尝试发送项目并将副本保存到的主体的已发送邮件的可分辨文件夹，将邮件发送正确，草稿邮件已发送的邮件未显示在代理人的或主体的代理人的草稿文件夹中保留发送项目文件夹，并响应为成功。
+另一个需要考虑的方案是，当代理创建一封电子邮件并将其保存到代理邮箱的 "草稿" 文件夹中时。 如果代理尝试发送项目并将副本保存到主体的 "已发送邮件" 可分辨文件夹中，则邮件将被正确发送，草稿邮件仍保留在代理的 "草稿" 文件夹中，已发送的邮件不会显示在代理或主体的 "已发送邮件" 文件夹中，并且响应是成功的。
   
-## <a name="invalid-senditem-e-mail-message-request-example"></a>无效的 SendItem （电子邮件） 请求示例
+## <a name="invalid-senditem-e-mail-message-request-example"></a>无效的 SendItem （电子邮件）请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
-下面的代码示例显示了具有无效的标识符的请求的示例。
+以下代码示例显示了带有无效标识符的请求示例。
   
 ### <a name="code"></a>代码
 
@@ -124,9 +124,9 @@ SendItem 操作用于发送电子邮件的位于 Exchange 存储中。
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <SendItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" 
+    <SendItem xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" 
               SaveItemToFolder="true">
       <ItemIds>
         <t:ItemId Id="%BadItemId%" ChangeKey="CQAAABYAAA" />
@@ -136,11 +136,11 @@ SendItem 操作用于发送电子邮件的位于 Exchange 存储中。
 </soap:Envelope>
 ```
 
-## <a name="senditem-e-mail-message-error-response"></a>SendItem （电子邮件） 错误响应
+## <a name="senditem-e-mail-message-error-response"></a>SendItem （电子邮件）错误响应
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
-下面的示例演示包含无效的标识符的 SendItem 请求错误响应。
+下面的示例演示对包含无效标识符的 SendItem 请求的错误响应。
   
 ### <a name="code"></a>代码
 
@@ -151,12 +151,12 @@ SendItem 操作用于发送电子邮件的位于 Exchange 存储中。
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="602" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <SendItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                      xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <SendItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                      xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:SendItemResponseMessage ResponseClass="Error">
           <m:MessageText>Id is malformed.</m:MessageText>
@@ -196,5 +196,5 @@ SendItem 操作用于发送电子邮件的位于 Exchange 存储中。
  **SendItemType**
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

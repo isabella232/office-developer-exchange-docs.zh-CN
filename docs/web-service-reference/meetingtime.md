@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 6e6d2d8b-e8a2-43e6-a715-0fc7d6dd44b9
-description: MeetingTime 元素均表示建议的会议时间。
-ms.openlocfilehash: 1ea79be394124431aa1279ee94d5e5c6331d377b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: MeetingTime 元素表示建议的会议时间。
+ms.openlocfilehash: 3a7031e70eb8b22adc8030c1cec09d33399332ee
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826435"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530448"
 ---
 # <a name="meetingtime"></a>MeetingTime
 
-**MeetingTime**元素均表示建议的会议时间。 
+**MeetingTime**元素表示建议的会议时间。 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -44,9 +44,9 @@ ms.locfileid: "19826435"
  **dateTime**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -58,15 +58,15 @@ ms.locfileid: "19826435"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[建议](suggestion.md) <br/> |代表单个会议时间建议。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]` <br/> |
+|[建议](suggestion.md) <br/> |表示单个会议时间建议。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]` <br/> |
    
 ## <a name="text-value"></a>文本值
 
-所需的文本值，该值代表**dateTime**值。 
+需要一个代表**dateTime**值的文本值。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-[MeetingTime](meetingtime.md)元素是[建议](suggestion.md)元素的必需的子元素。 
+[MeetingTime](meetingtime.md)元素是[建议](suggestion.md)元素的必需子元素。 
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -74,7 +74,7 @@ ms.locfileid: "19826435"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -88,5 +88,5 @@ ms.locfileid: "19826435"
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

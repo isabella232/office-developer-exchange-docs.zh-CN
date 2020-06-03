@@ -1,5 +1,5 @@
 ---
-title: GroupType (FederatedDirectoryGroupType)
+title: GroupType （FederatedDirectoryGroupType）
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,23 +7,23 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 584cc338-9d98-44bc-a89d-f8636bbb6c91
-description: 仅供内部使用旨在 GroupType (FederatedDirectoryGroupType) 元素。
-ms.openlocfilehash: 0b867a8e3aab94ab606afc434f4c23c962463d71
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: GroupType （FederatedDirectoryGroupType）元素仅供内部使用。
+ms.openlocfilehash: 4d47d0f696474804f12d9e38600c1cd6daf9ffa9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825787"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530780"
 ---
-# <a name="grouptype-federateddirectorygrouptype"></a>GroupType (FederatedDirectoryGroupType)
+# <a name="grouptype-federateddirectorygrouptype"></a>GroupType （FederatedDirectoryGroupType）
 
-仅供内部使用旨在**GroupType (FederatedDirectoryGroupType)** 元素。 
+**GroupType （FederatedDirectoryGroupType）** 元素仅供内部使用。 
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19825787"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   

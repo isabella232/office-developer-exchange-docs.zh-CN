@@ -7,23 +7,23 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 767bc328-b527-4e9a-85c6-f11897e43960
-description: NextPredictedAction 元素旨在仅供内部使用。
-ms.openlocfilehash: 2db8b84e8071580fb8e051dd80514dced003cd30
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: NextPredictedAction 元素仅供内部使用。
+ms.openlocfilehash: 4bbd20a3d61df572423e455fdca42e9e42386d77
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826526"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529985"
 ---
 # <a name="nextpredictedaction"></a>NextPredictedAction
 
-**NextPredictedAction**元素旨在仅供内部使用。 
+**NextPredictedAction**元素仅供内部使用。 
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19826526"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 中引入了此元素。
   

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 32b8b08f-65e9-4764-b40a-63245551f4a3
 description: MarkImportance 元素指定要在邮件上标记的重要性。
-ms.openlocfilehash: 32b1fa63ef47327e7d3af717ed9f452e43b16380
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 051307c0943a22e0c46439410806d168603d8a69
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826356"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530879"
 ---
 # <a name="markimportance"></a>MarkImportance
 
@@ -30,9 +30,9 @@ ms.locfileid: "19826356"
  **ImportanceChoicesType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -48,15 +48,15 @@ ms.locfileid: "19826356"
    
 ## <a name="text-value"></a>文本值
 
-此元素的文本值仅限于以下字符串值之一：
+此元素的文本值被限制为以下字符串值之一：
   
-- Low
+- 低
     
-- 常规
+- 一般
     
-- High
+- 高
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -64,7 +64,7 @@ ms.locfileid: "19826356"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
@@ -73,5 +73,5 @@ ms.locfileid: "19826356"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

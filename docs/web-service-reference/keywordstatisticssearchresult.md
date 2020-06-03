@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d0278642-2b15-4605-974e-325b829a0528
 description: KeywordStatisticsSearchResult 元素包含单个关键字搜索结果。
-ms.openlocfilehash: 39aa873dfea15e6df5ac42a804931e7199cff541
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f433640aecb10a01c66f890bb30b7a120df3298f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826195"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530034"
 ---
 # <a name="keywordstatisticssearchresult"></a>KeywordStatisticsSearchResult
 
@@ -32,15 +32,15 @@ ms.locfileid: "19826195"
  **KeywordStatisticsSearchResultType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
 ### <a name="child-elements"></a>子元素
 
-[关键字](keyword.md) | [ItemHits](itemhits.md) | [大小 (long)](size-long.md)
+[关键字](keyword.md)  | [ItemHits](itemhits.md)  | [大小（long）](size-long.md)
   
 ### <a name="parent-elements"></a>父元素
 
@@ -56,7 +56,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> ||

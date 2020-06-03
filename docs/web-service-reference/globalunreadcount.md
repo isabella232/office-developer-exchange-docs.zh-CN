@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5e5ccf3e-2f95-4bf9-b915-8b7e59e807a5
-description: GlobalUnreadCount 元素包含邮箱中的所有未读的对话项目的计数。
-ms.openlocfilehash: fe001b70633198c0c1351e3c11c9542ed556a938
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: GlobalUnreadCount 元素包含邮箱中所有未读对话项的计数。
+ms.openlocfilehash: 976067078908523936769b2856712e3e6908f0c4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825743"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530111"
 ---
 # <a name="globalunreadcount"></a>GlobalUnreadCount
 
-**GlobalUnreadCount**元素包含邮箱中的所有未读的对话项目的计数。 
+**GlobalUnreadCount**元素包含邮箱中所有未读对话项的计数。 
   
 [FindConversationResponse](findconversationresponse.md)
   
@@ -35,12 +35,12 @@ ms.locfileid: "19825743"
 <GlobalUnreadCount/>
 ```
 
- **xs:int**
+ **xs： int**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -56,7 +56,7 @@ ms.locfileid: "19825743"
    
 ## <a name="text-value"></a>文本值
 
-**GlobalUnreadCount**元素的文本值是一个整数值，表示邮箱中的所有未读的对话项目的计数。 
+**GlobalUnreadCount**元素的文本值是一个整数值，表示邮箱中的所有未读对话项的计数。 
   
 ## <a name="remarks"></a>备注
 
@@ -66,7 +66,7 @@ ms.locfileid: "19825743"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -80,5 +80,5 @@ ms.locfileid: "19825743"
 [ApplyConversationAction 操作](applyconversationaction-operation.md)
 
 
-[Conversations in EWS](http://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
+[Conversations in EWS](https://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
 

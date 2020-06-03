@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: a6e9d462-cfa7-40ec-903e-128c95050352
-description: IsGreaterThan 元素均表示一个搜索表达式，将一个常数值的属性或其他属性进行比较，并返回的第一个属性为更高版本时为 true。
-ms.openlocfilehash: dfa7c221bb04e59f1ae12eeb5b9f2e1f09aea3ce
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: IsGreaterThan 元素表示搜索表达式，该表达式将属性与常数值或其他属性进行比较，如果第一个属性较大，则返回 true。
+ms.openlocfilehash: 52f2c1b84e4072649092637de091c0dbd8187032
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353488"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530041"
 ---
 # <a name="isgreaterthan"></a>IsGreaterThan
 
-**IsGreaterThan**元素均表示一个搜索表达式，如果第一个属性大于比较常量值或另一个属性，返回**true**的属性。 
+**IsGreaterThan**元素表示搜索表达式，该表达式将属性与常数值或其他属性进行比较，如果第一个属性较大，则返回**true** 。 
   
 ```xml
 <IsGreaterThan>
@@ -61,7 +61,7 @@ ms.locfileid: "21353488"
 |[FieldURI](fielduri.md) <br/> |标识由 URI 频繁引用的属性。  <br/> |
 |[IndexedFieldURI](indexedfielduri.md) <br/> |标识词典中的各个成员。  <br/> |
 |[ExtendedFieldURI](extendedfielduri.md) <br/> |标识 MAPI 属性。  <br/> |
-|[FieldURIOrConstant](fielduriorconstant.md) <br/> |代表属性或以常量值，用于比较与另一个属性。  <br/> |
+|[FieldURIOrConstant](fielduriorconstant.md) <br/> |表示与其他属性进行比较时要使用的属性或常数值。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -70,9 +70,9 @@ ms.locfileid: "21353488"
 |[限制](restriction.md) <br/> |表示用于在 FindItem/FindFolder 中筛选项目或文件夹和搜索文件夹操作的限制或查询。  <br/> |
 |[not](not.md) <br/> |表示对其包含的搜索表达式的布尔值求反的搜索表达式。  <br/> |
 |[And](and.md) <br/> |表示能够使您在两个或多个搜索表达式之间执行布尔 And 操作的搜索表达式。如果 And 中包含的搜索表达式为 **true**，则 And 操作的结果为 **true**。  <br/> |
-|[或](or.md) <br/> |表示对它所包含的搜索表达式执行逻辑或搜索表达式。 如果其任何子级返回 [true](or.md)，则 **或** 将返回 **true**。  <br/> |
+|[或](or.md) <br/> |表示在其包含的搜索表达式上执行逻辑 OR 的搜索表达式。 如果其任何子级返回 [true](or.md)，则 **或** 将返回 **true**。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -80,12 +80,12 @@ ms.locfileid: "21353488"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

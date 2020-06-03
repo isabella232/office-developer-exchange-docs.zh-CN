@@ -1,5 +1,5 @@
 ---
-title: Url
+title: URL
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c0d41b95-36b9-4e7a-a442-cdea37467abd
-description: Url 元素均表示客户端推送通知的 Web 服务的位置。
-ms.openlocfilehash: 62a48fe3b7d2f169ba83c2a89cba3019c270555c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Url 元素表示用于推送通知的客户端 Web 服务的位置。
+ms.openlocfilehash: 62e139c441eef68db5cf13226d15a83f67135026
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838444"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530928"
 ---
-# <a name="url"></a>Url
+# <a name="url"></a>URL
 
-**Url**元素均表示客户端推送通知的 Web 服务的位置。 
+**Url**元素表示用于推送通知的客户端 Web 服务的位置。 
   
 ```XML
 <Url></Url>
@@ -26,9 +26,9 @@ ms.locfileid: "19838444"
  **string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -40,13 +40,13 @@ ms.locfileid: "19838444"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[PushSubscriptionRequest](pushsubscriptionrequest.md) <br/> |代表对基于推送的事件通知订阅的订阅。  <br/> |
+|[PushSubscriptionRequest](pushsubscriptionrequest.md) <br/> |表示对基于推送的事件通知订阅的订阅。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**Url**元素的文本值是客户端推送通知的 Web 服务的位置。 
+**Url**元素的文本值是用于推送通知的客户端 Web 服务的位置。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

@@ -1,5 +1,5 @@
 ---
-title: 用户设置 (SOAP)
+title: UserSettings （SOAP）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,17 +8,17 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: ac3b827c-2e46-49ef-8c5a-f88084c0a12c
-description: 用户设置元素均表示用户设置的集合。
-ms.openlocfilehash: 177c068077e755af51175c36824fb55a96494dca
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: UserSettings 元素表示用户设置的集合。
+ms.openlocfilehash: 0e1627d4ef42db4e3bd2f4d841bea29fcf947a82
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838494"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530280"
 ---
-# <a name="usersettings-soap"></a>用户设置 (SOAP)
+# <a name="usersettings-soap"></a>UserSettings （SOAP）
 
-**用户设置**元素均表示用户设置的集合。 
+**UserSettings**元素表示用户设置的集合。 
   
 ```XML
 <UserSettings>
@@ -26,12 +26,12 @@ ms.locfileid: "19838494"
 </UserSettings>
 ```
 
- **用户设置**
+ **UserSettings**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -39,13 +39,13 @@ ms.locfileid: "19838494"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[UserSetting (SOAP)](usersetting-soap.md) <br/> |代表单个用户设置。  <br/> |
+|[UserSetting （SOAP）](usersetting-soap.md) <br/> |代表单个用户设置。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[用户回音 (SOAP)](userresponse-soap.md) <br/> |代表对单个用户 GetUserSettings 请求的响应。  <br/> |
+|[UserResponse （SOAP）](userresponse-soap.md) <br/> |表示对单个用户的 GetUserSettings 请求的响应。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
@@ -55,7 +55,7 @@ ms.locfileid: "19838494"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |架构名称  <br/> |自动发现架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
@@ -64,5 +64,5 @@ ms.locfileid: "19838494"
 
 
 
-[SOAP Exchange 2013 自动发现 XML 元素](soap-autodiscover-xml-elements-for-exchange-2013.md)
+[Exchange 2013 的 SOAP 自动发现 XML 元素](soap-autodiscover-xml-elements-for-exchange-2013.md)
 

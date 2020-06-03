@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 26d1a46e-e1d3-44b8-a02d-fa6f83aa5cda
-description: 发件人元素标识的项目的发件人。
-ms.openlocfilehash: a7b06543fadd7cf7ae05f7ae8f86122138e11076
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Sender 元素标识项目的发件人。
+ms.openlocfilehash: f056fefdd5c5832d4b5bf20416e07e376f6a03de
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827323"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530577"
 ---
 # <a name="sender"></a>发件人
 
-**发件人**元素标识的项目的发件人。 
+**Sender**元素标识项目的发件人。 
   
 ```xml
 <Sender>
@@ -32,9 +32,9 @@ ms.locfileid: "19827323"
  **SingleRecipientType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,7 +42,7 @@ ms.locfileid: "19827323"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Mailbox](mailbox.md) <br/> |标识标识发件人的邮件启用 Active Directory 对象。  <br/> |
+|[Mailbox](mailbox.md) <br/> |标识已启用邮件的 Active Directory 对象，用于标识发件人。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -60,10 +60,10 @@ ms.locfileid: "19827323"
 |[ReplyToItem](replytoitem.md) <br/> |包含对 Exchange 存储中的项的创建者的答复。  <br/> |
 |[ReplyAllToItem](replyalltoitem.md) <br/> |包含对所有确定收件人的 Exchange 存储中的项的答复。  <br/> |
 |[ForwardItem](forwarditem.md) <br/> |包含要转发给收件人的 Exchange 存储区项。  <br/> |
-|[CancelCalendarItem](cancelcalendaritem.md) <br/> |代表用来取消会议的响应对象。  <br/> |
-|[PostItem](postitem.md) <br/> |代表一个 Exchange 存储中的公告项目。 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 中引入了此元素。  <br/> |
+|[CancelCalendarItem](cancelcalendaritem.md) <br/> |表示用于取消会议的响应对象。  <br/> |
+|[PostItem](postitem.md) <br/> |表示 Exchange 存储中的公告项。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -71,7 +71,7 @@ ms.locfileid: "19827323"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -80,5 +80,5 @@ ms.locfileid: "19827323"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

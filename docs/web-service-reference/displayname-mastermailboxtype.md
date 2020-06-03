@@ -1,5 +1,5 @@
 ---
-title: DisplayName (MasterMailboxType)
+title: DisplayName （MasterMailboxType）
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,23 +7,23 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2866b1ec-64ba-4d18-9152-a09568d45aa7
-description: DisplayName (MasterMailboxType) 元素旨在仅供内部使用。
-ms.openlocfilehash: b90906f5bdd14f78110fbb26edde880659c02d22
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: DisplayName （MasterMailboxType）元素仅供内部使用。
+ms.openlocfilehash: 2026ad1cde13b11af9bcc2d8c81da5c8b23344e3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753927"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530717"
 ---
-# <a name="displayname-mastermailboxtype"></a>DisplayName (MasterMailboxType)
+# <a name="displayname-mastermailboxtype"></a>DisplayName （MasterMailboxType）
 
-**DisplayName (MasterMailboxType)** 元素旨在仅供内部使用。 
+**DisplayName （MasterMailboxType）** 元素仅供内部使用。 
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19753927"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   

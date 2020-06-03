@@ -7,23 +7,23 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d0b9db28-f9f5-4793-be5c-edd5e4afb0bb
-description: 仅供内部使用旨在 PeopleUrl (FederatedDirectoryGroupType) 元素。
-ms.openlocfilehash: 368f4a5b4c5b03e43bec7439e14132cd5f02ca0c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: PeopleUrl （FederatedDirectoryGroupType）元素仅供内部使用。
+ms.openlocfilehash: e6789fa0f683459f226660bdc3c8dbbe1ec206f9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826714"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529957"
 ---
 # <a name="peopleurl-federateddirectorygrouptype"></a>PeopleUrl (FederatedDirectoryGroupType)
 
-仅供内部使用旨在**PeopleUrl (FederatedDirectoryGroupType)** 元素。 
+**PeopleUrl （FederatedDirectoryGroupType）** 元素仅供内部使用。 
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19826714"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   

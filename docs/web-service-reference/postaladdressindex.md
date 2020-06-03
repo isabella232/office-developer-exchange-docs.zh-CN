@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 170fec26-5cb7-4578-ac09-140da9a6c84e
-description: PostalAddressIndex 元素均表示物理地址的显示类型。
-ms.openlocfilehash: b99e7f2f9bbeeb7cdeaed7258e4d7c33bfc446d3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: PostalAddressIndex 元素表示物理地址的显示类型。
+ms.openlocfilehash: ee2c4c30c82abf74edb5e83daab68a3fcd2d6050
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826852"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529915"
 ---
 # <a name="postaladdressindex"></a>PostalAddressIndex
 
-**PostalAddressIndex**元素均表示物理地址的显示类型。 
+**PostalAddressIndex**元素表示物理地址的显示类型。 
   
 ```xml
 <PostalAddressIndex/>
@@ -30,9 +30,9 @@ ms.locfileid: "19826852"
  **PhysicalAddressIndexType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -44,21 +44,21 @@ ms.locfileid: "19826852"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[联系人](contact.md) <br/> |表示 Exchange 联系人项目。  <br/> |
+|[Contact](contact.md) <br/> |表示 Exchange 联系人项目。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-文本值是必需的。 此元素的可能的文本值如下：
+文本值是必需的。 以下是此元素的可能的文本值：
   
 - 无
     
-- 业务
+- 商业版
     
-- 家庭
+- 主页
     
 - 其他
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -66,7 +66,7 @@ ms.locfileid: "19826852"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -78,12 +78,12 @@ ms.locfileid: "19826852"
  **PostalAddressIndex**
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 
 
-[Creating Contacts (Exchange Web Services)](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+[创建联系人（Exchange Web 服务）](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
   
-[更新联系人](http://msdn.microsoft.com/library/9a865953-b94a-4229-b632-2dee433314be%28Office.15%29.aspx)
+[更新联系人](https://msdn.microsoft.com/library/9a865953-b94a-4229-b632-2dee433314be%28Office.15%29.aspx)
   
-[删除联系人](http://msdn.microsoft.com/library/fcc3dc84-cd3e-455e-a1a7-ae6921c9b588%28Office.15%29.aspx)
+[删除联系人](https://msdn.microsoft.com/library/fcc3dc84-cd3e-455e-a1a7-ae6921c9b588%28Office.15%29.aspx)
 

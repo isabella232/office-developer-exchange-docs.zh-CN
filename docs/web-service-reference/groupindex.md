@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 7a596ff7-6cc3-4626-a52c-538a92202337
-description: GroupIndex 元素表示用于当前组 FindItem 操作调用中的项目的项目进行分组的属性值。
-ms.openlocfilehash: 8b23f5142a15c099c30209ea48cd04f4af4e8c6a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: GroupIndex 元素表示用于对 FindItem 操作调用中当前项组的项进行分组的属性值。
+ms.openlocfilehash: 05f303be92885a15dddf85c85251af04910d835c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825762"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530266"
 ---
 # <a name="groupindex"></a>GroupIndex
 
-**GroupIndex**元素表示用于当前组[FindItem 操作](finditem-operation.md)呼叫中的项目的项目进行分组的属性值。 
+**GroupIndex**元素表示用于对[FindItem 操作](finditem-operation.md)调用中当前项组的项进行分组的属性值。 
   
 [FindItemResponse](finditemresponse.md)
   
@@ -29,7 +29,7 @@ ms.locfileid: "19825762"
   
 [FindItemResponseMessage](finditemresponsemessage.md)
   
-[RootFolder (FindItemResponseMessage)](rootfolder-finditemresponsemessage.md)
+[RootFolder （FindItemResponseMessage）](rootfolder-finditemresponsemessage.md)
   
 [组](groups.md)
   
@@ -44,9 +44,9 @@ ms.locfileid: "19825762"
  **string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -58,23 +58,23 @@ ms.locfileid: "19825762"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GroupedItems](groupeditems.md) <br/> |调用表示项的组合[FindItem 操作](finditem-operation.md)的结果的集合。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/FindItemResponse/ResponseMessages/FindItemResponseMessage/RootFolder/Groups/GroupedItems[i]` <br/> |
+|[GroupedItems](groupeditems.md) <br/> |表示作为分组[FindItem 操作](finditem-operation.md)调用的结果的项的集合。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/FindItemResponse/ResponseMessages/FindItemResponseMessage/RootFolder/Groups/GroupedItems[i]` <br/> |
    
 ## <a name="text-value"></a>文本值
 
 文本值是必需的。 此属性是只读的。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此元素仅出现在[FindItem 操作](finditem-operation.md)响应。 
+此元素仅在[FindItem 操作](finditem-operation.md)响应中出现。 
   
-描述此元素的架构位于运行 Microsoft Exchange Server 2010 的安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
+描述此元素的架构位于运行 Microsoft Exchange Server 2010 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
   
 ## <a name="element-information"></a>元素信息
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -86,5 +86,5 @@ ms.locfileid: "19825762"
 [FindItem 操作](finditem-operation.md)
 
 
-[查找项目](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
+[查找项目](https://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
 

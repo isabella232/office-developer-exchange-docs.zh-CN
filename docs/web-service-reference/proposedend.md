@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a8b574dd-ce26-424f-b0f5-3311d93a4806
-description: ProposedEnd 元素指定会议建议的结束的时间。
-ms.openlocfilehash: fd2a6813f3a936785adc8fcea289cb547d52c8c0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ProposedEnd 元素指定会议的建议结束时间。
+ms.openlocfilehash: 68ad4bb7c3a4d78695ccb88c0994cafd0956828f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826901"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529901"
 ---
 # <a name="proposedend"></a>ProposedEnd
 
-**ProposedEnd**元素指定会议建议的结束的时间。 
+**ProposedEnd**元素指定会议的建议结束时间。 
   
 ```XML
 <ProposedEnd></ProposedEnd>
@@ -26,9 +26,9 @@ ms.locfileid: "19826901"
  **dateTime**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,7 +42,7 @@ ms.locfileid: "19826901"
   
 ## <a name="text-value"></a>文本值
 
-**ProposedEnd**元素的文本值是由会议组织者与会者发送的建议的结束时间。 
+**ProposedEnd**元素的文本值是由与会者发送给会议组织者的建议结束时间。 
   
 ## <a name="remarks"></a>备注
 
@@ -54,7 +54,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |false  <br/> |

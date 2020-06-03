@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5f4ee71c-bde0-4b0d-b426-0c24dfe67585
-description: GetPhoneCallInformation 元素指定要获取电话呼叫的信息的请求。
-ms.openlocfilehash: 2084a8b5e13b3fa03e0bf62439978bbe81d86ce9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: GetPhoneCallInformation 元素指定获取电话呼叫信息的请求。
+ms.openlocfilehash: b835cd301b1c243e88034d1057026ef1305b9038
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754661"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530195"
 ---
 # <a name="getphonecallinformation"></a>GetPhoneCallInformation
 
-**GetPhoneCallInformation**元素指定要获取电话呼叫的信息的请求。 
+**GetPhoneCallInformation**元素指定获取电话呼叫信息的请求。 
   
 ```xml
 <GetPhoneCallInformation>
@@ -32,9 +32,9 @@ ms.locfileid: "19754661"
  **GetPhoneCallInformationType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,7 +42,7 @@ ms.locfileid: "19754661"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[PhoneCallId](phonecallid.md) <br/> |指定的电话呼叫的标识符。  <br/> |
+|[PhoneCallId](phonecallid.md) <br/> |指定电话呼叫的标识符。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -52,7 +52,7 @@ ms.locfileid: "19754661"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -60,7 +60,7 @@ ms.locfileid: "19754661"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -69,5 +69,5 @@ ms.locfileid: "19754661"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

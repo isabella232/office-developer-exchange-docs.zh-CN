@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 6c299de8-2087-4aeb-8e66-2bc7586509a6
 description: ContactsFolder元素表示的邮箱中包含联系人文件夹。
-ms.openlocfilehash: 01302f00d84cfff9713e3b188b7799c537fc0629
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 997b4f603198e6d05a011c4ef6bac7fe4dfbfe52
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753507"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529432"
 ---
 # <a name="contactsfolder"></a>ContactsFolder
 
@@ -42,9 +42,9 @@ ms.locfileid: "19753507"
  **ContactsFolderType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -52,7 +52,7 @@ ms.locfileid: "19753507"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[文件夹 Id](folderid.md) <br/> |包含联系人文件夹的标识符和更改键。  <br/> |
+|[FolderId](folderid.md) <br/> |包含联系人文件夹的标识符和更改键。  <br/> |
 |[ParentFolderId](parentfolderid.md) <br/> |表示包含联系人文件夹的父文件夹的标识符。  <br/> |
 |[FolderClass](folderclass.md) <br/> |表示联系人文件夹的文件夹类。  <br/> |
 |[显示名称 (字符串)](displayname-string.md) <br/> |包含联系人文件夹的显示名称。  <br/> |
@@ -78,7 +78,7 @@ ms.locfileid: "19753507"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -86,7 +86,7 @@ ms.locfileid: "19753507"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -95,5 +95,5 @@ ms.locfileid: "19753507"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

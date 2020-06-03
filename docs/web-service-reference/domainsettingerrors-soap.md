@@ -1,5 +1,5 @@
 ---
-title: DomainSettingErrors (SOAP)
+title: DomainSettingErrors （SOAP）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,17 +8,17 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: a4ce19de-f560-4984-8047-ecbbc86c9b91
-description: DomainSettingsErrors 元素包含错误未能返回的设置信息。
-ms.openlocfilehash: 6ecd23bc556ca32d724581a28cc7c117c6853207
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: DomainSettingsErrors 元素包含无法返回的设置的错误消息。
+ms.openlocfilehash: 4e7ee29c2bc680a1938b75189c2ac3c214f7d2b5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753991"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530703"
 ---
-# <a name="domainsettingerrors-soap"></a>DomainSettingErrors (SOAP)
+# <a name="domainsettingerrors-soap"></a>DomainSettingErrors （SOAP）
 
-**DomainSettingsErrors**元素包含错误未能返回的设置信息。 
+**DomainSettingsErrors**元素包含无法返回的设置的错误消息。 
   
 ```XML
 <DomainSettingsErrors>
@@ -29,9 +29,9 @@ ms.locfileid: "19753991"
  **DomainSettingsErrors**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -39,13 +39,13 @@ ms.locfileid: "19753991"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[DomainSettingError (SOAP)](domainsettingerror-soap.md) <br/> |代表检索域设置时出现的错误。 这表示[GetDomainSettings 操作 (SOAP)](getdomainsettings-operation-soap.md)操作要求中的错误。  <br/> |
+|[DomainSettingError （SOAP）](domainsettingerror-soap.md) <br/> |表示检索域设置时发生的错误。 这表示[GetDomainSettings 操作（SOAP）](getdomainsettings-operation-soap.md)操作请求中的一个错误。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[DomainResponse (SOAP)](domainresponse-soap.md) <br/> |包含指定的域的请求的设置。  <br/> |
+|[DomainResponse （SOAP）](domainresponse-soap.md) <br/> |包含指定域的请求的设置。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
@@ -55,7 +55,7 @@ ms.locfileid: "19753991"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |架构名称  <br/> |自动发现架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |

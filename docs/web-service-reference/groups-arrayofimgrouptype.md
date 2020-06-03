@@ -1,5 +1,5 @@
 ---
-title: 组 (ArrayOfImGroupType)
+title: 组（ArrayOfImGroupType）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 544dbb60-d6cb-47e1-b157-f0166147b6cf
-description: Groups 元素表示即时消息 (IM) 组的数组。
-ms.openlocfilehash: 7632c922666742d6ab9428a2b1e78ae6a1d544b6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Groups 元素表示即时消息（IM）组的数组。
+ms.openlocfilehash: ad866afdecbcac0e555978647e3a46a033361672
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825784"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530069"
 ---
-# <a name="groups-arrayofimgrouptype"></a>组 (ArrayOfImGroupType)
+# <a name="groups-arrayofimgrouptype"></a>组（ArrayOfImGroupType）
 
-**Groups**元素表示即时消息 (IM) 组的数组。 
+**Groups**元素表示即时消息（IM）组的数组。 
   
 ```XML
 <Groups>
@@ -29,9 +29,9 @@ ms.locfileid: "19825784"
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   

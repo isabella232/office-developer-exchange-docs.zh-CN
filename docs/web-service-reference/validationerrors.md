@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 009526aa-22e7-4f5c-be88-079175aa9122
 description: ValidationErrors元素表示一个数组的规则上有一个错误的每个规则字段的验证错误。
-ms.openlocfilehash: c95c8057ad2d16a314d33e3738553b495355fd76
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 0861425b04e03a3e2e54a47a5027d0a11264392d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838497"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530273"
 ---
 # <a name="validationerrors"></a>ValidationErrors
 
@@ -32,9 +32,9 @@ ms.locfileid: "19838497"
  **ArrayOfRuleValidationErrorsType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -54,7 +54,7 @@ ms.locfileid: "19838497"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -62,7 +62,7 @@ ms.locfileid: "19838497"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
@@ -71,5 +71,5 @@ ms.locfileid: "19838497"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

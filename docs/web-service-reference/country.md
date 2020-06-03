@@ -1,5 +1,5 @@
 ---
-title: 国家（地区）
+title: 国家/地区
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,14 +8,14 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f012c2e3-9719-47fc-81ef-ba613263779b
 description: 国家/地区元素标识邮寄地址中的国家/地区标识符。
-ms.openlocfilehash: 83462afedc542fa69cbb8c54c91d0bbc8c746fb4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 7f5a67128c314d8a6f546735c00966319e64ea36
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753620"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529229"
 ---
-# <a name="country"></a>国家（地区）
+# <a name="country"></a>国家/地区
 
 **国家/地区**元素标识邮寄地址中的国家/地区标识符。 
   
@@ -26,9 +26,9 @@ ms.locfileid: "19753620"
  **string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -38,7 +38,7 @@ ms.locfileid: "19753620"
   
 ### <a name="parent-elements"></a>父元素
 
-[PostalAddress (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md)
+[省略（PersonaPostalAddressType）](postaladdress-personapostaladdresstype.md)
   
 ## <a name="text-value"></a>文本值
 
@@ -54,7 +54,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> ||

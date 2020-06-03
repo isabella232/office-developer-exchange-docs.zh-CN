@@ -7,23 +7,23 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0f000b39-e5c8-4a2a-baae-f8cbea0688bc
-description: 仅供内部使用旨在 ExternalDirectoryObjectId (FederatedDirectoryIdentityDetailsType) 元素。
-ms.openlocfilehash: efabffa431b57e8b55122864c93c8f578f14d0ee
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ExternalDirectoryObjectId （FederatedDirectoryIdentityDetailsType）元素仅供内部使用。
+ms.openlocfilehash: 0076a348a6417e1d0768a8f72da0c4029e82a21b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754255"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530591"
 ---
 # <a name="externaldirectoryobjectid-federateddirectoryidentitydetailstype"></a>ExternalDirectoryObjectId (FederatedDirectoryIdentityDetailsType)
 
-仅供内部使用旨在**ExternalDirectoryObjectId (FederatedDirectoryIdentityDetailsType)** 元素。 
+**ExternalDirectoryObjectId （FederatedDirectoryIdentityDetailsType）** 元素仅供内部使用。 
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19754255"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   

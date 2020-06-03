@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 04250f8d-1b83-43ae-8d2f-e052079bf2fc
-description: DisplayNamePrefixes 元素指定的显示名称前缀数组和为相关联的角色其源归属的标识符。
-ms.openlocfilehash: 26a61a07952de5b73ac47b85176cfd6c6e9ca873
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: DisplayNamePrefixes 元素指定显示名称前缀的数组以及关联角色的源归属标识符。
+ms.openlocfilehash: 09e1e974cbe84ec8c7a4848c3367f2501269b797
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753949"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530745"
 ---
 # <a name="displaynameprefixes"></a>DisplayNamePrefixes
 
-**DisplayNamePrefixes**元素指定的显示名称前缀数组和为相关联的角色其源归属的标识符。 
+**DisplayNamePrefixes**元素指定显示名称前缀的数组以及关联角色的源归属标识符。 
   
 ```xml
 <DisplayNamePrefixes>
@@ -28,9 +28,9 @@ ms.locfileid: "19753949"
  **ArrayOfStringAttributedValuesType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -38,13 +38,13 @@ ms.locfileid: "19753949"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[StringAttributedValue](stringattributedvalue.md) <br/> |数组中的关联的个人元素的属性中指定的实例。  <br/> |
+|[StringAttributedValue](stringattributedvalue.md) <br/> |指定与 persona 元素相关联的属性数组中的实例。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[角色](persona.md) <br/> |指定一组个人**GetPersona**请求返回的数据。  <br/> |
+|[角色](persona.md) <br/> |指定由**GetPersona**请求返回的一组角色数据。  <br/> |
    
 ## <a name="remarks"></a>备注
 
@@ -56,12 +56,12 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |types.xsd  <br/> |
+|验证文件  <br/> |类型 .xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

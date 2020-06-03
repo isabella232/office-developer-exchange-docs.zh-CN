@@ -1,5 +1,5 @@
 ---
-title: Excludes
+title: 不包括
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: bbaeddf6-9a67-4ee0-af99-7a7a5bbdc0e1
-description: 排除元素执行指定的属性和提供的值的按位掩码。
-ms.openlocfilehash: febd4171210319d8f7e475f9879c5f895f508713
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: 排除元素执行指定属性的按位掩码和提供的值。
+ms.openlocfilehash: d5fcd8b86b454aa731bd43974b5b7d674fe76ed6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21354384"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530612"
 ---
-# <a name="excludes"></a>Excludes
+# <a name="excludes"></a>不包括
 
-**排除**元素执行指定的属性和提供的值的按位掩码。 
+**排除**元素执行指定属性的按位掩码和提供的值。 
   
 ```xml
 <Excludes>
@@ -61,7 +61,7 @@ ms.locfileid: "21354384"
 |[FieldURI](fielduri.md) <br/> |标识由 URI 频繁引用的属性。  <br/> |
 |[IndexedFieldURI](indexedfielduri.md) <br/> |标识词典中的各个成员。  <br/> |
 |[ExtendedFieldURI](extendedfielduri.md) <br/> |标识 MAPI 属性。  <br/> |
-|[Bitmask](bitmask.md) <br/> |代表用于[排除](excludes.md)限制操作过程中使用十六进制或小数的掩码。 如果位掩码表示的十六进制数，它必须由 0 x 或 0x 作为前缀。 否则，它将被视为十进制数。  <br/> |
+|[位掩码](bitmask.md) <br/> |表示在不[包括](excludes.md)的限制操作期间要使用的十六进制或小数掩码。 如果位掩码代表十六进制数，则它的前缀必须为0x 或0X。 否则，它将被视为十进制数。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -69,20 +69,20 @@ ms.locfileid: "21354384"
 |:-----|:-----|
 |[限制](restriction.md) <br/> |表示用于在 FindItem/FindFolder 中筛选项目或文件夹和搜索文件夹操作的限制或查询。  <br/> |
 |[not](not.md) <br/> |表示对其包含的搜索表达式的布尔值求反的搜索表达式。  <br/> |
-|[And](and.md) <br/> |代表一个搜索表达式，使您可以执行两个或多个搜索表达式之间 Boolean 和操作。 如果 And 中包含的搜索表达式都**为真**，和操作的结果为**true** 。  <br/> |
-|[或](or.md) <br/> |表示对它所包含的搜索表达式执行逻辑或搜索表达式。 如果任何其子返回**true**，则将返回**true** [或](or.md)元素。  <br/> |
+|[And](and.md) <br/> |表示允许您在两个或多个搜索表达式之间执行布尔 And 运算的搜索表达式。 如果和中包含的所有搜索表达式均**为 true**，则 and 操作的结果为**true** 。  <br/> |
+|[或](or.md) <br/> |表示在其包含的搜索表达式上执行逻辑 OR 的搜索表达式。 如果其任何子级返回**true**，则[或](or.md)元素将返回**true** 。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-如果执行下面的 AND 操作将解析为 0，**排除**将解析为**true** : 
+如果对以下项执行的 AND 操作解析为0，则**排除**将解析为**true** ： 
   
 1. 属性的按位值
     
 2. 属性的位掩码值
     
-**排除**可只能应用于该属性的整数值。 属性类型是一个整数之外的任何内容，如果是响应中返回的错误代码为**ErrorUnsupportedPathForQuery** 。 
+"**排除**" 仅可应用于具有整数值的属性。 如果属性类型不是整数，则会在响应中返回**ErrorUnsupportedPathForQuery**的错误代码。 
   
-您可以通过调用 Not(Excludes) 执行还原操作。
+您可以通过不调用（不包括）执行反向操作。
   
 描述此元素的架构位于正在运行 Microsoft Exchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -90,12 +90,12 @@ ms.locfileid: "21354384"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

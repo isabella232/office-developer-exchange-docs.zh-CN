@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: a4593377-22dd-415f-b01d-387389ef650f
-description: MoveItem 元素定义将项目移动 Exchange 存储中的请求。
-ms.openlocfilehash: cd7f35bdabe8a596f4c186df1c8cd54e0ea1c540
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: MoveItem 元素定义了在 Exchange 存储中移动项目的请求。
+ms.openlocfilehash: 61dbb91cc20a71f50999241b3daa21bf8ebfbcc8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826486"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530399"
 ---
 # <a name="moveitem"></a>MoveItem
 
-**MoveItem**元素定义将项目移动 Exchange 存储中的请求。 
+**MoveItem**元素定义了在 Exchange 存储中移动项目的请求。 
   
 ```XML
 <MoveItem>
@@ -34,9 +34,9 @@ ms.locfileid: "19826486"
  **MoveItemType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -44,9 +44,9 @@ ms.locfileid: "19826486"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ToFolderId](tofolderid.md) <br/> |代表移动项的目标文件夹。  <br/> |
-|[ItemIds](itemids.md) <br/> |包含要移动到[ToFolderId](tofolderid.md)元素所表示的文件夹的标识项目的数组。  <br/> |
-|[ReturnNewItemIds](returnnewitemids.md) <br/> |指示是否在响应中返回新的项目的项标识符。  <br/> |
+|[ToFolderId](tofolderid.md) <br/> |表示所移动的项的目标文件夹。  <br/> |
+|[ItemIds](itemids.md) <br/> |包含标识的项的数组，这些项将移至[ToFolderId](tofolderid.md)元素所表示的文件夹中。  <br/> |
+|[ReturnNewItemIds](returnnewitemids.md) <br/> |指示响应中是否返回新项的项标识符。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -56,7 +56,7 @@ ms.locfileid: "19826486"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -64,7 +64,7 @@ ms.locfileid: "19826486"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -76,5 +76,5 @@ ms.locfileid: "19826486"
 [MoveItem 操作](moveitem-operation.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

@@ -1,5 +1,5 @@
 ---
-title: UID (ReminderType)
+title: UID （ReminderType）
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 169e7825-4480-46d2-9f84-cdab27c8bcfb
-description: UID (ReminderType) 元素标识与提醒关联的日历项。
-ms.openlocfilehash: e0ad877eee29937b93e2659f84769938c983f11d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: UID （ReminderType）元素标识与提醒相关联的日历项目。
+ms.openlocfilehash: ab7e59725a87ff21bb2df052b5893abf6217f78a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838302"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530371"
 ---
-# <a name="uid-remindertype"></a>UID (ReminderType)
+# <a name="uid-remindertype"></a>UID （ReminderType）
 
-**UID (ReminderType)** 元素标识与提醒关联的日历项。 
+**UID （ReminderType）** 元素标识与提醒相关联的日历项目。 
   
 ```XML
 <UID />
@@ -26,9 +26,9 @@ ms.locfileid: "19838302"
  **string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -38,7 +38,7 @@ ms.locfileid: "19838302"
   
 ## <a name="text-value"></a>文本值
 
-**UID (ReminderType)** 元素的文本值标识日历项目。 
+**UID （ReminderType）** 元素的文本值标识日历项目。 
   
 ## <a name="remarks"></a>备注
 
@@ -50,7 +50,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -59,5 +59,5 @@ Exchange Server 2013 中引入了此元素。
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

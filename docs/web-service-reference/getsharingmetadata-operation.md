@@ -11,32 +11,32 @@ api_name:
 api_type:
 - schema
 ms.assetid: eaf29427-ecf8-4a5e-9a54-db2e6414b35e
-description: GetSharingMetadata 操作获取标识共享邀请的不透明的身份验证令牌。
-ms.openlocfilehash: e2e04d83310e7a8a731cca655a432325574cd9e8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: GetSharingMetadata 操作获取一个不透明的身份验证令牌，用于标识共享邀请。
+ms.openlocfilehash: 0390b9caa7b2e9847b1e8dcdc1b911a35e3c5864
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825671"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530181"
 ---
 # <a name="getsharingmetadata-operation"></a>GetSharingMetadata 操作
 
-**GetSharingMetadata**操作获取标识共享邀请的不透明的身份验证令牌。 
+**GetSharingMetadata**操作获取一个不透明的身份验证令牌，用于标识共享邀请。 
   
 ## <a name="soap-headers"></a>SOAP 标头
 
-**GetSharingMetadata**操作可以使用列出并在下表中所述的 SOAP 标头。 
+**GetSharingMetadata**操作可以使用下表中列出和描述的 SOAP 标头。 
   
 |**Header**|**元素**|**说明**|
 |:-----|:-----|:-----|
 |RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。  <br/> |
-|ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应该请求的服务器的版本。  <br/> |
+|ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器版本。  <br/> |
    
 ## <a name="getsharingmetadata-request-example"></a>GetSharingMetadata 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
-下面的示例演示如何以形成一个请求以获取标识共享邀请的不透明的身份验证令牌。 本示例中，user1@contoso.com 希望共享 user1@fabikam.com 与 user2@test.com [IdOfFolderToShare](idoffoldertoshare.md)元素指定的文件夹。 
+下面的示例演示如何形成请求以获取标识共享邀请的不透明身份验证令牌。 在此示例中，user1@contoso.com 想要共享由[IdOfFolderToShare](idoffoldertoshare.md)元素使用 user1@fabikam.com 和 user2@test.com 指定的文件夹。 
   
 ### <a name="code"></a>代码
 
@@ -45,8 +45,8 @@ ms.locfileid: "19825671"
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010"/>
   </soap:Header>
@@ -63,15 +63,15 @@ ms.locfileid: "19825671"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>注释
+### <a name="comments"></a>备注
 
-[收件人 (ArrayOfSmtpAddressType)](recipients-arrayofsmtpaddresstype.md)元素包含一个[SmtpAddress](smtpaddress.md)元素的每个预期收件人的共享邀请。 
+[收件人（ArrayOfSmtpAddressType）](recipients-arrayofsmtpaddresstype.md)元素包含共享邀请的每个预期收件人的一个[SmtpAddress](smtpaddress.md)元素。 
   
 ## <a name="successful-getsharingmetadata-response"></a>成功的 GetSharingMetadata 响应
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
-下面的示例演示对**GetSharingMetadata**请求成功响应。 在此示例中，在相应**GetSharingMetadata**请求中指定两个收件人： user1@fabrikam.com 和 user2@test.com。 
+下面的示例演示对**GetSharingMetadata**请求的成功响应。 在此示例中，在对应的**GetSharingMetadata**请求中指定了两个收件人： user1@fabrikam.com 和 user2@test.com。 
   
 ### <a name="code"></a>代码
 
@@ -86,13 +86,13 @@ ms.locfileid: "19825671"
                          MajorBuildNumber="639" 
                          MinorBuildNumber="11" 
                          Version="Exchange2010" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
     <GetSharingMetadataResponseMessage ResponseClass="Success" 
-                                xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-                                xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                                xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+                                xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                                xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseCode>NoError</ResponseCode>
       <m:EncryptedSharedFolderDataCollection>
         <t:EncryptedSharedFolderData>
@@ -154,19 +154,19 @@ ms.locfileid: "19825671"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>注释
+### <a name="comments"></a>备注
 
-则响应中包含由**GetSharingMetadata**请求中指定的有效收件人表示每个组织一个[EncryptedSharedFolderData](encryptedsharedfolderdata.md)元素。 
+响应包含由**GetSharingMetadata**请求中指定的有效收件人表示的每个组织的一个[EncryptedSharedFolderData](encryptedsharedfolderdata.md)元素。 
   
-即使在请求中指定无效收件人，将会成功**GetSharingMetadata**请求。 [InvalidRecipients](invalidrecipients.md)元素包含有关无效收件人的信息。 有关收件人可能无效原因的信息，请参阅[ResponseCode (InvalidRecipientResponseCodeType)](responsecode-invalidrecipientresponsecodetype.md)。
+即使在请求中指定了无效的收件人， **GetSharingMetadata**请求也将成功。 [InvalidRecipients](invalidrecipients.md)元素包含有关无效收件人的信息。 有关收件人可能无效的原因的信息，请参阅[ResponseCode （InvalidRecipientResponseCodeType）](responsecode-invalidrecipientresponsecodetype.md)。
   
-如果所有预期的收件人无效， [EncryptedSharedFolderDataCollection](encryptedsharedfolderdatacollection.md)元素将为空。 
+如果所有预期收件人都无效，则[EncryptedSharedFolderDataCollection](encryptedsharedfolderdatacollection.md)元素将为空。 
   
 ## <a name="getsharingmetadata-error-response"></a>GetSharingMetadata 错误响应
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
-下面的示例演示对**GetSharingMetadata**请求错误响应。 
+下面的示例演示对**GetSharingMetadata**请求的错误响应。 
   
 ### <a name="code"></a>代码
 
@@ -181,13 +181,13 @@ ms.locfileid: "19825671"
                          MajorBuildNumber="639" 
                          MinorBuildNumber="11" 
                          Version="Exchange2010" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
     <GetSharingMetadataResponseMessage ResponseClass="Error" 
-                                xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-                                xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                                xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+                                xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                                xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:MessageText>The SMTP address format is invalid.</MessageText>
       <m:ResponseCode>ErrorInvalidSmtpAddress</ResponseCode>
       <m:DescriptiveLinkKey>0</DescriptiveLinkKey>
@@ -211,5 +211,5 @@ ms.locfileid: "19825671"
 
 [Exchange 中的 EWS 操作](ews-operations-in-exchange.md)
   
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

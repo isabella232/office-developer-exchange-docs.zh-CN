@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 293ed01b-f6a4-4459-819c-933bbfaa2dd7
-description: IsApprovalRequest 元素指示传入邮件是否必须审批请求中的条件或例外应用的顺序。
-ms.openlocfilehash: 45b0836efff3ec9fe644cbaeb7ea7192346422bf
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: IsApprovalRequest 元素指示传入的邮件是否必须是审批请求，以便条件或例外情况适用。
+ms.openlocfilehash: 08ea36820b2680bb2c7e5695eb2dd481154c05eb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825984"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530012"
 ---
 # <a name="isapprovalrequest"></a>IsApprovalRequest
 
-**IsApprovalRequest**元素指示传入邮件是否必须审批请求中的条件或例外应用的顺序。 
+**IsApprovalRequest**元素指示传入的邮件是否必须是审批请求，以便条件或例外情况适用。 
   
 ```XML
 <IsApprovalRequest/>
@@ -30,9 +30,9 @@ ms.locfileid: "19825984"
  **Boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -45,13 +45,13 @@ ms.locfileid: "19825984"
 |**元素**|**说明**|
 |:-----|:-----|
 |[条件](conditions.md) <br/> |表示履行时将触发规则的规则操作的条件。  <br/> |
-|[异常](exceptions.md) <br/> |代表收件箱规则的所有可用规则例外条件。  <br/> |
+|[异常](exceptions.md) <br/> |代表收件箱规则的所有可用的规则例外条件。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-文本值为**true**指示邮件必须审批请求中的条件或例外应用的顺序。 如果值为**false**指示邮件不得审批请求中的条件或例外应用的顺序。 
+如果文本值为**true** ，则表示该邮件必须是审批请求，以便条件或例外情况适用。 如果值为**false** ，则表示该邮件不得为审批请求，以便条件或例外情况适用。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -59,7 +59,7 @@ ms.locfileid: "19825984"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
@@ -68,5 +68,5 @@ ms.locfileid: "19825984"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

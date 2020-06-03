@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: de152be6-fc2f-48bc-a05d-1211935da20a
-description: HasAttachment 元素指定布尔值，该值指示项目是否有附件。
-ms.openlocfilehash: dfe163e0850e835784a43984a34c89f14bfbc59b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: HasAttachment 元素指定一个布尔值，以指示该项目是否具有附件。
+ms.openlocfilehash: c6bc0932a08a1bbec215bb8a974ed746d2961123
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825798"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530259"
 ---
 # <a name="hasattachment"></a>HasAttachment
 
-**HasAttachment**元素指定布尔值，该值指示项目是否有附件。 
+**HasAttachment**元素指定一个布尔值，以指示该项目是否具有附件。 
   
 ```XML
 <HasAttachment> true | false </HasAttachment
@@ -26,9 +26,9 @@ ms.locfileid: "19825798"
  **Boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -40,11 +40,11 @@ ms.locfileid: "19825798"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[SearchPreviewItem](searchpreviewitem.md) <br/> |指定预览邮箱项目的前 256 个字符，而无需打开项目。  <br/> |
+|[SearchPreviewItem](searchpreviewitem.md) <br/> |指定在不打开项目的情况下预览邮箱项目的前256个字符。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-文本值为**true**的**HasAttachment**元素指示项目包含附件。 如果值为**false**指示项目没有附件。 
+如果**HasAttachment**元素的文本值为**true** ，则表示该项目具有附件。 **如果值为 false** ，则表示该项目没有附件。 
   
 ## <a name="remarks"></a>备注
 
@@ -56,14 +56,14 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |types.xsd  <br/> |
+|验证文件  <br/> |类型 .xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 490abe30-7608-407a-923b-a4b3ddbca610
-description: GlobalUniqueUnreadSenders 元素指定已发送邮件的邮箱中的所有文件夹中的当前未读此对话中的所有人的列表。
-ms.openlocfilehash: ae088577f5aac0c7c3ee9c11fde184b70ab12e64
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: GlobalUniqueUnreadSenders 元素指定在此对话中的所有文件夹中已发送当前未读邮件的所有人员的列表。
+ms.openlocfilehash: 5a26053158a262d65993dba4be90888ee97f2112
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825749"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530816"
 ---
 # <a name="globaluniqueunreadsenders"></a>GlobalUniqueUnreadSenders
 
-**GlobalUniqueUnreadSenders**元素指定已发送邮件的邮箱中的所有文件夹中的当前未读此对话中的所有人的列表。 
+**GlobalUniqueUnreadSenders**元素指定在此对话中的所有文件夹中已发送当前未读邮件的所有人员的列表。 
   
 [FindConversationResponse](findconversationresponse.md)
   
@@ -40,9 +40,9 @@ ms.locfileid: "19825749"
  **ArrayOfStringsType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -62,7 +62,7 @@ ms.locfileid: "19825749"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   
@@ -70,7 +70,7 @@ ms.locfileid: "19825749"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -84,5 +84,5 @@ ms.locfileid: "19825749"
 [ApplyConversationAction 操作](applyconversationaction-operation.md)
 
 
-[Conversations in EWS](http://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
+[Conversations in EWS](https://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
 

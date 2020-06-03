@@ -7,28 +7,28 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9279c3ad-f7c8-4bbc-b0a7-2c78416cb39a
-description: 查找信息 GetNonIndexableItemDetails EWS 操作。
-ms.openlocfilehash: 6b0c5afd54ac98f89bc6c5199300c20862c6f207
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 查找有关 GetNonIndexableItemDetails EWS 操作的信息。
+ms.openlocfilehash: a443e04b0622ddbaaeb1bc8c04bfd05679c6207e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754625"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530209"
 ---
 # <a name="getnonindexableitemdetails-operation"></a>GetNonIndexableItemDetails 操作
 
 查找有关**GetNonIndexableItemDetails** EWS 操作的信息。 
   
-**GetNonIndexableItemDetails**操作中检索无法编制索引的项目的详细信息。 这包括但不限于的项标识符的错误代码、 错误说明，当尝试索引项，以及有关文件的其他信息。 
+**GetNonIndexableItemDetails**操作检索有关无法编制索引的项目的详细信息。 这包括但不限于项目标识符、错误代码、错误说明、对项目编制索引时，以及有关文件的其他信息。 
   
 > [!NOTE]
-> 虽然架构指示可以将搜索多个邮箱，在 Exchange 2013 的初始发行版服务只的单个邮箱 nonindexable 项目支持入门项目详细信息。 
+> 虽然架构指示可以搜索多个邮箱，但在 Exchange 2013 的初始发行版中，该服务仅支持获取单个邮箱中 nonindexable 项目的项目详细信息。 
   
 Exchange Server 2013 中引入了此操作。
   
 ## <a name="using-the-getnonindexableitemdetails-operation"></a>使用 GetNonIndexableItemDetails 操作
 
-**GetNonIndexableItemDetails**操作标识无法编制索引的邮箱项目，并提供有关为什么不能编制索引项的信息。 在发现搜索在搜索过程中，不搜索无法编入索引的项目。 
+**GetNonIndexableItemDetails**操作标识无法编制索引的邮箱项目，并提供有关无法对这些项目编制索引的原因的信息。 在发现搜索过程中不会搜索无法编制索引的项目。 
   
 ### <a name="getnonindexableitemdetails-operation-soap-headers"></a>GetNonIndexableItemDetails 操作 SOAP 标头
 
@@ -36,22 +36,22 @@ Exchange Server 2013 中引入了此操作。
   
 |**标头名称**|**元素**|**说明**|
 |:-----|:-----|:-----|
-|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |标识服务器角色所需顺序呼叫者发出请求。 适用于请求此标头。  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。 适用于请求此标头。  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应该请求的服务器的版本。 适用于响应此标头。  <br/> |
+|**Get-managementrole** <br/> |[Get-managementrole](managementrole.md) <br/> |标识调用方发出请求所需的服务器角色。 此标头适用于请求。  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。 此标头适用于请求。  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器版本。 此标头适用于响应。  <br/> |
    
-## <a name="getnonindexableitemdetails-operation-request-example-get-the-details-of-an-item-that-cannot-be-indexed"></a>GetNonIndexableItemDetails 操作请求示例： 获取无法编制索引的项目的详细信息
+## <a name="getnonindexableitemdetails-operation-request-example-get-the-details-of-an-item-that-cannot-be-indexed"></a>GetNonIndexableItemDetails 操作请求示例：获取无法编制索引的项目的详细信息
 
-**GetNonIndexableItemDetails**操作请求的下面的示例演示如何请求不能对单个邮箱编制索引的项目的详细信息。 跨两个主执行搜索和存档邮箱。 
+以下示例的**GetNonIndexableItemDetails**操作请求显示如何请求无法为单个邮箱编制索引的项目的详细信息。 同时在主邮箱和存档邮箱中执行搜索。 
   
 > [!NOTE]
-> 在此示例中的所有旧域名具有缩短要保留可读性。 
+> 此示例中的所有旧版域名都将被缩短以保持可读性。 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
    </soap:Header>
@@ -71,15 +71,15 @@ Exchange Server 2013 中引入了此操作。
   
 - [GetNonIndexableItemDetails](getnonindexableitemdetails.md)
     
-- [邮箱 (NonEmptyArrayOfLegacyDNsType)](mailboxes-nonemptyarrayoflegacydnstype.md)
+- [邮箱（NonEmptyArrayOfLegacyDNsType）](mailboxes-nonemptyarrayoflegacydnstype.md)
     
-- [旧版 Dn](legacydn.md)
+- [LegacyDN](legacydn.md)
     
 - [SearchArchiveOnly](searcharchiveonly.md)
     
-## <a name="successful-getnonindexableitemdetails-operation-response"></a>成功 GetNonIndexableItemDetails 操作响应
+## <a name="successful-getnonindexableitemdetails-operation-response"></a>成功的 GetNonIndexableItemDetails 操作响应
 
-下面的示例演示对**GetNonIndexableItemDetails**操作请求对单个邮箱中获取项不能编制索引的成功响应。 本示例中，不能编制索引中的项是 binaryfile.abc 文件，即的未知格式。 
+下面的示例演示对**GetNonIndexableItemDetails**操作请求的成功响应，以获取无法为单个邮箱编制索引的项目。 此示例中无法编制索引的项目是 binaryfile 文件，该文件的格式未知。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -90,18 +90,18 @@ Exchange Server 2013 中引入了此操作。
                            MajorBuildNumber="526" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <GetNonIndexableItemDetailsResponse ResponseClass="Success" 
-                                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <ResponseCode>NoError</ResponseCode>
          <NonIndexableItemDetailsResult>
-            <Items xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <Items xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
                <NonIndexableItemDetail>
                   <ItemId Id="AQMkAGVmNDAyOQAAAY2fUAAAAA==" ChangeKey="CQAAAA=="/>
                   <ErrorCode>DocumentParserFailure</ErrorCode>
@@ -121,7 +121,7 @@ Exchange Server 2013 中引入了此操作。
 
 ```
 
-响应 SOAP 正文中包含以下元素：
+响应 SOAP 正文包含以下元素：
   
 - [GetNonIndexableItemDetailsResponse](getnonindexableitemdetailsresponse.md)
     
@@ -133,7 +133,7 @@ Exchange Server 2013 中引入了此操作。
     
 - [ItemId](itemid.md)
     
-- [ErrorCode (ItemIndexErrorType)](errorcode-itemindexerrortype.md)
+- [ErrorCode （ItemIndexErrorType）](errorcode-itemindexerrortype.md)
     
 - [ErrorDescription](errordescription.md)
     
@@ -151,7 +151,7 @@ Exchange Server 2013 中引入了此操作。
     
 ## <a name="getnonindexableitemdetails-operation-error-response"></a>GetNonIndexableItemDetails 操作错误响应
 
-下面的示例演示对**GetNonIndexableItemDetails**操作请求错误响应。 这是对获得从多个邮箱无法进行索引的项目的项目详细信息的请求的响应。 
+下面的示例演示对**GetNonIndexableItemDetails**操作请求的错误响应。 这是对获取无法从多个邮箱编制索引的项目的项目详细信息的请求的响应。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -162,13 +162,13 @@ Exchange Server 2013 中引入了此操作。
                            MajorBuildNumber="526" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-      <GetNonIndexableItemDetailsResponse ResponseClass="Error" xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+      <GetNonIndexableItemDetailsResponse ResponseClass="Error" xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <MessageText>Multiple mailboxes is currently not supported, only single mailbox is supported.</MessageText>
          <ResponseCode>ErrorInvalidArgument</ResponseCode>
          <DescriptiveLinkKey>0</DescriptiveLinkKey>
@@ -187,7 +187,7 @@ Exchange Server 2013 中引入了此操作。
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-通用到 EWS 且特定于此操作的其他错误代码，请参阅[ResponseCode](responsecode.md)。
+有关对 EWS 通用的其他错误代码以及特定于此操作的错误代码，请参阅[ResponseCode](responsecode.md)。
   
 ## <a name="see-also"></a>另请参阅
 

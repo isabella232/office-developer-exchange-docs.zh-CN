@@ -7,34 +7,34 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 98161486-e2f2-480f-8d5d-708ba81b208a
-description: EmptyFolder 操作清空邮箱中的文件夹。 （可选） 通过此操作可删除指定的文件夹的子文件夹。 删除子文件夹后，将删除的子文件夹和子文件夹中的邮件。
-ms.openlocfilehash: 0192744516c5a6d24b95915452bfcffecc2d92b7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: EmptyFolder 操作将清空邮箱中的文件夹。 （可选）此操作使您可以删除指定文件夹的子文件夹。 删除子文件夹时，子文件夹和子文件夹中的邮件将被删除。
+ms.openlocfilehash: 1913db74d33f1e6750cd158df5870f257d0e7839
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754094"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530682"
 ---
 # <a name="emptyfolder-operation"></a>EmptyFolder 操作
 
-**EmptyFolder**操作清空邮箱中的文件夹。 （可选） 通过此操作可删除指定的文件夹的子文件夹。 删除子文件夹后，将删除的子文件夹和子文件夹中的邮件。 
+**EmptyFolder**操作将清空邮箱中的文件夹。 （可选）此操作使您可以删除指定文件夹的子文件夹。 删除子文件夹时，子文件夹和子文件夹中的邮件将被删除。 
   
 ## <a name="emptyfolder-request-example"></a>EmptyFolder 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
-**EmptyFolder**请求的此下面的示例演示如何以形成清空文件夹的请求。 本示例删除标识文件夹的所有子文件夹。 
+以下示例的**EmptyFolder**请求显示了如何形成空文件夹的请求。 本示例删除已标识文件夹的所有子文件夹。 
   
 > [!NOTE]
-> 为便于阅读，具有已缩短的**Id**值和[文件夹 Id](folderid.md)元素的**更改密钥**属性。 
+> 为了提高可读性， [FolderId](folderid.md)元素的**Id**和**ChangeKey**属性的值已缩短。 
   
 ### <a name="code"></a>代码
 
 ```XML
 <soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
   <soap:Header>
     <t:RequestServerVersion Version ="Exchange2010_SP1"/>
     </soap:Header>
@@ -49,13 +49,13 @@ ms.locfileid: "19754094"
 
 ```
 
-### <a name="comments"></a>注释
+### <a name="comments"></a>备注
 
 本示例对文件夹执行硬删除。
   
-可通过[DistinguishedFolderId](distinguishedfolderid.md)元素或[FolderIds](folderids.md)元素中使用的[文件夹 Id](folderid.md)元素标识文件夹。 
+可以通过[DistinguishedFolderId](distinguishedfolderid.md)元素或[FolderId](folderid.md)元素标识文件夹，以便在[FolderIds](folderids.md)元素中使用。 
   
-### <a name="request-elements"></a>请求元素
+### <a name="request-elements"></a>Request 元素
 
 请求中使用以下元素：
   
@@ -63,13 +63,13 @@ ms.locfileid: "19754094"
     
 - [FolderIds](folderids.md)
     
-- [文件夹 Id](folderid.md)
+- [FolderId](folderid.md)
     
 ## <a name="successful-emptyfolder-response"></a>成功的 EmptyFolder 响应
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
-下面的示例演示对**EmptyFolder**请求成功响应。 
+下面的示例演示对**EmptyFolder**请求的成功响应。 
   
 ### <a name="code"></a>代码
 
@@ -82,15 +82,15 @@ ms.locfileid: "19754094"
                          MajorBuildNumber="164" 
                          MinorBuildNumber="0" 
                          Version="Exchange2010_SP1"
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:EmptyFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                           xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:EmptyFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                           xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:EmptyFolderResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -102,9 +102,9 @@ ms.locfileid: "19754094"
 
 ```
 
-### <a name="successful-response-elements"></a>成功响应元素
+### <a name="successful-response-elements"></a>成功的响应元素
 
-在响应中使用以下元素：
+响应中使用以下元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -118,9 +118,9 @@ ms.locfileid: "19754094"
     
 ## <a name="emptyfolder-error-response"></a>EmptyFolder 错误响应
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
-下面的示例演示**Emptyfolder**请求错误响应。 创建错误，因为该操作尝试清空找不到的文件夹 Exchange 存储中。 
+下面的示例演示对**Emptyfolder**请求的错误响应。 已创建错误，因为该操作尝试清空 Exchange 存储中未找到的文件夹。 
   
 ### <a name="code"></a>代码
 
@@ -133,16 +133,16 @@ ms.locfileid: "19754094"
             MajorBuildNumber="164" 
             MinorBuildNumber="0" 
             Version="Exchange2010_SP1" 
-            xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-            xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+            xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+            xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
             xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
             xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <m:GetFolderResponse 
-          xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-          xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+          xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+          xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:GetFolderResponseMessage ResponseClass="Error">
           <m:MessageText>Id is malformed.</m:MessageText>
@@ -158,7 +158,7 @@ ms.locfileid: "19754094"
 
 ### <a name="error-response-elements"></a>错误响应元素
 
-在响应中使用以下元素：
+响应中使用以下元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -174,9 +174,9 @@ ms.locfileid: "19754094"
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-- [文件夹](folders-ex15websvcsotherref.md)
+- [Folders](folders-ex15websvcsotherref.md)
     
 ## <a name="see-also"></a>另请参阅
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

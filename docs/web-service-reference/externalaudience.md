@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 79dc2a4c-f7dd-46d1-8f31-149116e1f76e
-description: ExternalAudience 元素设置，或包含一个值，确定向其发送外部外出 (OOF) 邮件。
-ms.openlocfilehash: 836b0f6a5140a37e1584f571cb8e26534fe7a25f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ExternalAudience 元素设置或包含一个值，该值确定外部外出（OOF）邮件的发件人。
+ms.openlocfilehash: b3fcebd9042b07bb9a8294196799ef2a13d78bdd
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754252"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530598"
 ---
 # <a name="externalaudience"></a>ExternalAudience
 
-**ExternalAudience**元素设置，或包含一个值，确定向其发送外部外出 (OOF) 邮件。 
+**ExternalAudience**元素设置或包含一个值，该值确定外部外出（OOF）邮件的发件人。 
   
 ```xml
 <ExternalAudience>None or Known or All</ExternalAudience>
@@ -30,9 +30,9 @@ ms.locfileid: "19754252"
  **ExternalAudience**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,42 +42,42 @@ ms.locfileid: "19754252"
   
 ### <a name="parent-elements"></a>父元素
 
-|**元素**|**说明**|
+|**元素**|**描述**|
 |:-----|:-----|
-|[UserOofSettings](useroofsettings.md) <br/> |指定 OOF 设置。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/SetUserOofSettingsRequest/UserOofSettings` <br/> |
-|[OofSettings](oofsettings.md) <br/> |包含 OOF 设置。  <br/> 以下是此元素的 XPath 表达式：  <br/>  `/GetUserOofSettingsResponse/OofSettings` <br/> |
+|[UserOofSettings](useroofsettings.md) <br/> |指定 OOF 设置。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/SetUserOofSettingsRequest/UserOofSettings` <br/> |
+|[OofSettings](oofsettings.md) <br/> |包含 OOF 设置。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/GetUserOofSettingsResponse/OofSettings` <br/> |
    
 ## <a name="text-value"></a>文本值
 
-需要为此元素的文本值。 下表列出了此元素的可能值。
+此元素需要一个文本值。 下表列出了此元素的可能值。
   
 |**值**|**说明**|
 |:-----|:-----|
-|**None** <br/> |邮箱用户的组织外部的电子邮件发件人将邮件发送到用户不会收到外部 OOF 消息响应。  <br/> |
-|**已知** <br/> |邮箱用户的组织外部的电子邮件发件人发送给用户的消息将仅接收外部 OOF 消息响应如果发件人是用户的 Exchange 中存储的联系人列表。  <br/> |
-|**All** <br/> |邮箱用户的组织外部的电子邮件发件人将邮件发送到用户将收到外部 OOF 消息响应。  <br/> |
+|**无** <br/> |向用户发送邮件的邮箱用户组织外部的电子邮件发件人将不会收到外部 OOF 邮件响应。  <br/> |
+|**叫做** <br/> |如果邮箱用户的组织外部的电子邮件发件人向用户发送邮件，则仅会收到外部 OOF 邮件响应（如果发件人位于用户的 Exchange 存储联系人列表中）。  <br/> |
+|**All** <br/> |将邮件发送给用户的邮箱用户的组织外部的电子邮件发件人将收到外部 OOF 邮件响应。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-此元素共享[AllowExternalOof](allowexternaloof.md)元素类型相同。 
+此元素与[AllowExternalOof](allowexternaloof.md)元素共享相同的类型。 
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
 ## <a name="example"></a>示例
 
-下面的示例的 SetUserOofSettings 请求将 OoFState 设置为**已启用**，将外部访问群体设置为**所有**、 将 OOF 的持续时间设置为 10 天，并设置内部和外部 OOF 邮件。
+以下示例的 SetUserOofSettings 请求将 OoFState 设置为 "**启用**"，将外部受众设置为 "**所有**"，将 "OOF" 的持续时间设置为 "10 天"，并设置内部和外部 OOF 邮件。
   
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <SetUserOofSettingsRequest xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-      <Mailbox xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+    <SetUserOofSettingsRequest xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+      <Mailbox xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <Name>David Alexander</Name>
         <Address>someone@example.com</Address>
         <RoutingType>SMTP</RoutingType>
       </Mailbox>
-      <UserOofSettings xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+      <UserOofSettings xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <OofState>Enabled</OofState>
         <ExternalAudience>All</ExternalAudience>
         <Duration>
@@ -100,7 +100,7 @@ ms.locfileid: "19754252"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |

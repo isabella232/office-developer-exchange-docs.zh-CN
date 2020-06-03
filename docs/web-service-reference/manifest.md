@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: af0d7435-fef6-4f0d-bd22-00e3fa576315
 description: 清单元素包含 base64 编码的应用程序清单文件。
-ms.openlocfilehash: 7388e40a96a082666519d1c67af5b218b2b9ab01
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: faac517bf8a8f03c6ae8abffddaf10421eed1699
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826343"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530535"
 ---
 # <a name="manifest"></a>清单
 
@@ -26,9 +26,9 @@ ms.locfileid: "19826343"
  **base64Binary**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -38,11 +38,11 @@ ms.locfileid: "19826343"
   
 ### <a name="parent-elements"></a>父元素
 
-[清单](manifests.md) | [InstallApp](installapp.md) | [ClientExtension](clientextension.md)
+[清单](manifests.md)  | [InstallApp](installapp.md)  | [ClientExtension](clientextension.md)
   
 ## <a name="text-value"></a>文本值
 
-清单元素的文本值是 ASCII 表示形式二进制 base64 编码格式的客户端应用程序清单文件。
+Manifest 元素的文本值是客户端应用程序清单文件的 base64 二进制编码形式的 ASCII 表示形式。
   
 ## <a name="remarks"></a>备注
 

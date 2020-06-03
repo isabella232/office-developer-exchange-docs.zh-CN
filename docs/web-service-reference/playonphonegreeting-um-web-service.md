@@ -10,17 +10,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 43eda596-3609-4e1b-8502-1db2636535cf
-description: PlayOnPhoneGreeting 元素定义要播放的统一消息电话问候语的请求。
-ms.openlocfilehash: c30140fc60b9e902517b4cc18deb9b61efa61e0c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: PlayOnPhoneGreeting 元素定义一个请求，以在电话上播放统一消息问候语。
+ms.openlocfilehash: 197e4ba671e1711b73b1e7c239339db589357581
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19826836"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529922"
 ---
 # <a name="playonphonegreeting-um-web-service"></a>PlayOnPhoneGreeting （UM web 服务）
 
-**PlayOnPhoneGreeting**元素定义要播放的统一消息电话问候语的请求。 
+**PlayOnPhoneGreeting**元素定义一个请求，以在电话上播放统一消息问候语。 
   
 [PlayOnPhoneGreeting （UM web 服务）](playonphonegreeting-um-web-service.md)
   
@@ -34,9 +34,9 @@ ms.locfileid: "19826836"
  **complexType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -44,7 +44,7 @@ ms.locfileid: "19826836"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GreetingType （UM web 服务）](greetingtype-um-web-service.md) <br/> |定义问候语[PlayOnPhoneGreeting 操作 （UM web 服务）](playonphonegreeting-operation-um-web-service.md)请求中使用的类型。  <br/> |
+|[GreetingType （UM web 服务）](greetingtype-um-web-service.md) <br/> |定义要在[PlayOnPhoneGreeting 操作（UM web 服务）](playonphonegreeting-operation-um-web-service.md)请求中使用的问候语的类型。  <br/> |
 |[dialString （UM web 服务）](dialstring-um-web-service.md) <br/> |包含要拨打的电话号码的值。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
@@ -59,7 +59,7 @@ ms.locfileid: "19826836"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |邮件  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -68,5 +68,5 @@ ms.locfileid: "19826836"
 
 
 
-[PlayOnPhoneGreeting 操作 （UM web 服务）](playonphonegreeting-operation-um-web-service.md)
+[PlayOnPhoneGreeting 操作（UM web 服务）](playonphonegreeting-operation-um-web-service.md)
 
