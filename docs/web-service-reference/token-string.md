@@ -12,51 +12,51 @@ ms.openlocfilehash: b4a819be260e9ba4eecf329011241c9c2b89f332
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462820"
 ---
-# <a name="token-string"></a><span data-ttu-id="c2fd8-103">标记（String）</span><span class="sxs-lookup"><span data-stu-id="c2fd8-103">Token (String)</span></span>
+# <a name="token-string"></a><span data-ttu-id="cb221-103">标记（String）</span><span class="sxs-lookup"><span data-stu-id="cb221-103">Token (String)</span></span>
 
-<span data-ttu-id="c2fd8-104">**Token**元素包含搜索精简程序令牌。</span><span class="sxs-lookup"><span data-stu-id="c2fd8-104">The **Token** element contains a search refiner token.</span></span> 
+<span data-ttu-id="cb221-104">**Token**元素包含搜索精简程序令牌。</span><span class="sxs-lookup"><span data-stu-id="cb221-104">The **Token** element contains a search refiner token.</span></span> 
   
 ```XML
 <Token></Token>
 ```
 
- <span data-ttu-id="c2fd8-105">**string**</span><span class="sxs-lookup"><span data-stu-id="c2fd8-105">**string**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="c2fd8-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="c2fd8-106">Attributes and elements</span></span>
+ <span data-ttu-id="cb221-105">**string**</span><span class="sxs-lookup"><span data-stu-id="cb221-105">**string**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="cb221-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="cb221-106">Attributes and elements</span></span>
 
-<span data-ttu-id="c2fd8-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="c2fd8-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="cb221-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="cb221-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="c2fd8-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="c2fd8-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="cb221-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="cb221-108">Attributes</span></span>
 
-<span data-ttu-id="c2fd8-109">无。</span><span class="sxs-lookup"><span data-stu-id="c2fd8-109">None.</span></span>
+<span data-ttu-id="cb221-109">无。</span><span class="sxs-lookup"><span data-stu-id="cb221-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="c2fd8-110">子元素</span><span class="sxs-lookup"><span data-stu-id="c2fd8-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="cb221-110">子元素</span><span class="sxs-lookup"><span data-stu-id="cb221-110">Child elements</span></span>
 
-<span data-ttu-id="c2fd8-111">无。</span><span class="sxs-lookup"><span data-stu-id="c2fd8-111">None.</span></span>
+<span data-ttu-id="cb221-111">无。</span><span class="sxs-lookup"><span data-stu-id="cb221-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="c2fd8-112">父元素</span><span class="sxs-lookup"><span data-stu-id="c2fd8-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="cb221-112">父元素</span><span class="sxs-lookup"><span data-stu-id="cb221-112">Parent elements</span></span>
 
-[<span data-ttu-id="c2fd8-113">精简程序</span><span class="sxs-lookup"><span data-stu-id="c2fd8-113">Refiner</span></span>](refiner.md)
+[<span data-ttu-id="cb221-113">精简程序</span><span class="sxs-lookup"><span data-stu-id="cb221-113">Refiner</span></span>](refiner.md)
   
-## <a name="text-value"></a><span data-ttu-id="c2fd8-114">文本值</span><span class="sxs-lookup"><span data-stu-id="c2fd8-114">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="cb221-114">文本值</span><span class="sxs-lookup"><span data-stu-id="cb221-114">Text value</span></span>
 
-<span data-ttu-id="c2fd8-115">**Token**元素的文本值是发现搜索的搜索精简令牌。</span><span class="sxs-lookup"><span data-stu-id="c2fd8-115">The text value of the **Token** element is a search refiner token for a discovery search.</span></span> 
+<span data-ttu-id="cb221-115">**Token**元素的文本值是发现搜索的搜索精简令牌。</span><span class="sxs-lookup"><span data-stu-id="cb221-115">The text value of the **Token** element is a search refiner token for a discovery search.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="c2fd8-116">备注</span><span class="sxs-lookup"><span data-stu-id="c2fd8-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="cb221-116">备注</span><span class="sxs-lookup"><span data-stu-id="cb221-116">Remarks</span></span>
 
-<span data-ttu-id="c2fd8-117">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="c2fd8-117">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="cb221-117">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="cb221-117">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="c2fd8-118">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="c2fd8-118">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="cb221-118">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="cb221-118">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="c2fd8-119">元素信息</span><span class="sxs-lookup"><span data-stu-id="c2fd8-119">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="cb221-119">元素信息</span><span class="sxs-lookup"><span data-stu-id="cb221-119">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="c2fd8-120">命名空间</span><span class="sxs-lookup"><span data-stu-id="c2fd8-120">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="c2fd8-121">架构名称</span><span class="sxs-lookup"><span data-stu-id="c2fd8-121">Schema name</span></span>  <br/> |<span data-ttu-id="c2fd8-122">类型架构</span><span class="sxs-lookup"><span data-stu-id="c2fd8-122">Types schema</span></span>  <br/> |
-|<span data-ttu-id="c2fd8-123">验证文件</span><span class="sxs-lookup"><span data-stu-id="c2fd8-123">Validation file</span></span>  <br/> |<span data-ttu-id="c2fd8-124">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="c2fd8-124">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="c2fd8-125">可以为空</span><span class="sxs-lookup"><span data-stu-id="c2fd8-125">Can be empty</span></span>  <br/> ||
+|<span data-ttu-id="cb221-120">命名空间</span><span class="sxs-lookup"><span data-stu-id="cb221-120">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="cb221-121">架构名称</span><span class="sxs-lookup"><span data-stu-id="cb221-121">Schema name</span></span>  <br/> |<span data-ttu-id="cb221-122">类型架构</span><span class="sxs-lookup"><span data-stu-id="cb221-122">Types schema</span></span>  <br/> |
+|<span data-ttu-id="cb221-123">验证文件</span><span class="sxs-lookup"><span data-stu-id="cb221-123">Validation file</span></span>  <br/> |<span data-ttu-id="cb221-124">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="cb221-124">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="cb221-125">可以为空</span><span class="sxs-lookup"><span data-stu-id="cb221-125">Can be empty</span></span>  <br/> ||
    
 

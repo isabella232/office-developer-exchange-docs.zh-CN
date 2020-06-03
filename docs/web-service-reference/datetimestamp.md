@@ -16,55 +16,55 @@ ms.openlocfilehash: 96c3f005e0ffd403afe723bb8b274b7ac2abca1b
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44461406"
 ---
-# <a name="datetimestamp"></a><span data-ttu-id="78e63-103">DateTimeStamp</span><span class="sxs-lookup"><span data-stu-id="78e63-103">DateTimeStamp</span></span>
+# <a name="datetimestamp"></a><span data-ttu-id="26f58-103">DateTimeStamp</span><span class="sxs-lookup"><span data-stu-id="26f58-103">DateTimeStamp</span></span>
 
-<span data-ttu-id="78e63-104">**DateTimeStamp**元素指示日历对象的实例的创建日期和时间。</span><span class="sxs-lookup"><span data-stu-id="78e63-104">The **DateTimeStamp** element indicates the date and time that an instance of a calendar object was created.</span></span> 
+<span data-ttu-id="26f58-104">**DateTimeStamp**元素指示日历对象的实例的创建日期和时间。</span><span class="sxs-lookup"><span data-stu-id="26f58-104">The **DateTimeStamp** element indicates the date and time that an instance of a calendar object was created.</span></span> 
   
 ```xml
 <DateTimeStamp/>
 ```
 
-<span data-ttu-id="78e63-105">**dateTime**</span><span class="sxs-lookup"><span data-stu-id="78e63-105">**dateTime**</span></span>
+<span data-ttu-id="26f58-105">**dateTime**</span><span class="sxs-lookup"><span data-stu-id="26f58-105">**dateTime**</span></span>
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="78e63-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="78e63-106">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="26f58-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="26f58-106">Attributes and elements</span></span>
 
-<span data-ttu-id="78e63-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="78e63-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="26f58-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="26f58-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="78e63-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="78e63-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="26f58-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="26f58-108">Attributes</span></span>
 
-<span data-ttu-id="78e63-109">无。</span><span class="sxs-lookup"><span data-stu-id="78e63-109">None.</span></span>
+<span data-ttu-id="26f58-109">无。</span><span class="sxs-lookup"><span data-stu-id="26f58-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="78e63-110">子元素</span><span class="sxs-lookup"><span data-stu-id="78e63-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="26f58-110">子元素</span><span class="sxs-lookup"><span data-stu-id="26f58-110">Child elements</span></span>
 
-<span data-ttu-id="78e63-111">无。</span><span class="sxs-lookup"><span data-stu-id="78e63-111">None.</span></span>
+<span data-ttu-id="26f58-111">无。</span><span class="sxs-lookup"><span data-stu-id="26f58-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="78e63-112">父元素</span><span class="sxs-lookup"><span data-stu-id="78e63-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="26f58-112">父元素</span><span class="sxs-lookup"><span data-stu-id="26f58-112">Parent elements</span></span>
 
-|<span data-ttu-id="78e63-113">**元素**</span><span class="sxs-lookup"><span data-stu-id="78e63-113">**Element**</span></span>|<span data-ttu-id="78e63-114">**说明**</span><span class="sxs-lookup"><span data-stu-id="78e63-114">**Description**</span></span>|
+|<span data-ttu-id="26f58-113">**元素**</span><span class="sxs-lookup"><span data-stu-id="26f58-113">**Element**</span></span>|<span data-ttu-id="26f58-114">**说明**</span><span class="sxs-lookup"><span data-stu-id="26f58-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="78e63-115">CalendarItem</span><span class="sxs-lookup"><span data-stu-id="78e63-115">CalendarItem</span></span>](calendaritem.md) <br/> |<span data-ttu-id="78e63-116">表示 Exchange 日历项。</span><span class="sxs-lookup"><span data-stu-id="78e63-116">Represents an Exchange calendar item.</span></span>  <br/> |
-|[<span data-ttu-id="78e63-117">MeetingMessage</span><span class="sxs-lookup"><span data-stu-id="78e63-117">MeetingMessage</span></span>](meetingmessage.md) <br/> |<span data-ttu-id="78e63-118">表示会议邮件。</span><span class="sxs-lookup"><span data-stu-id="78e63-118">Represents a meeting message.</span></span>  <br/> |
-|[<span data-ttu-id="78e63-119">MeetingRequest</span><span class="sxs-lookup"><span data-stu-id="78e63-119">MeetingRequest</span></span>](meetingrequest.md) <br/> |<span data-ttu-id="78e63-120">表示会议请求。</span><span class="sxs-lookup"><span data-stu-id="78e63-120">Represents a meeting request.</span></span>  <br/> |
-|[<span data-ttu-id="78e63-121">MeetingResponse</span><span class="sxs-lookup"><span data-stu-id="78e63-121">MeetingResponse</span></span>](meetingresponse.md) <br/> |<span data-ttu-id="78e63-122">表示会议响应。</span><span class="sxs-lookup"><span data-stu-id="78e63-122">Represents a meeting response.</span></span>  <br/> |
-|[<span data-ttu-id="78e63-123">MeetingCancellation</span><span class="sxs-lookup"><span data-stu-id="78e63-123">MeetingCancellation</span></span>](meetingcancellation.md) <br/> |<span data-ttu-id="78e63-124">表示会议取消。</span><span class="sxs-lookup"><span data-stu-id="78e63-124">Represents a meeting cancellation.</span></span>  <br/> |
+|[<span data-ttu-id="26f58-115">CalendarItem</span><span class="sxs-lookup"><span data-stu-id="26f58-115">CalendarItem</span></span>](calendaritem.md) <br/> |<span data-ttu-id="26f58-116">表示 Exchange 日历项。</span><span class="sxs-lookup"><span data-stu-id="26f58-116">Represents an Exchange calendar item.</span></span>  <br/> |
+|[<span data-ttu-id="26f58-117">MeetingMessage</span><span class="sxs-lookup"><span data-stu-id="26f58-117">MeetingMessage</span></span>](meetingmessage.md) <br/> |<span data-ttu-id="26f58-118">表示会议邮件。</span><span class="sxs-lookup"><span data-stu-id="26f58-118">Represents a meeting message.</span></span>  <br/> |
+|[<span data-ttu-id="26f58-119">MeetingRequest</span><span class="sxs-lookup"><span data-stu-id="26f58-119">MeetingRequest</span></span>](meetingrequest.md) <br/> |<span data-ttu-id="26f58-120">表示会议请求。</span><span class="sxs-lookup"><span data-stu-id="26f58-120">Represents a meeting request.</span></span>  <br/> |
+|[<span data-ttu-id="26f58-121">MeetingResponse</span><span class="sxs-lookup"><span data-stu-id="26f58-121">MeetingResponse</span></span>](meetingresponse.md) <br/> |<span data-ttu-id="26f58-122">表示会议响应。</span><span class="sxs-lookup"><span data-stu-id="26f58-122">Represents a meeting response.</span></span>  <br/> |
+|[<span data-ttu-id="26f58-123">MeetingCancellation</span><span class="sxs-lookup"><span data-stu-id="26f58-123">MeetingCancellation</span></span>](meetingcancellation.md) <br/> |<span data-ttu-id="26f58-124">表示会议取消。</span><span class="sxs-lookup"><span data-stu-id="26f58-124">Represents a meeting cancellation.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="78e63-125">文本值</span><span class="sxs-lookup"><span data-stu-id="78e63-125">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="26f58-125">文本值</span><span class="sxs-lookup"><span data-stu-id="26f58-125">Text value</span></span>
 
-<span data-ttu-id="78e63-126">该文本值表示用于标识日历发生情况的日期/时间值。</span><span class="sxs-lookup"><span data-stu-id="78e63-126">The text value represents a date/time value that identifies a calendar occurrence.</span></span>
+<span data-ttu-id="26f58-126">该文本值表示用于标识日历发生情况的日期/时间值。</span><span class="sxs-lookup"><span data-stu-id="26f58-126">The text value represents a date/time value that identifies a calendar occurrence.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="78e63-127">元素信息</span><span class="sxs-lookup"><span data-stu-id="78e63-127">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="26f58-127">元素信息</span><span class="sxs-lookup"><span data-stu-id="26f58-127">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="78e63-128">命名空间</span><span class="sxs-lookup"><span data-stu-id="78e63-128">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="78e63-129">架构名称</span><span class="sxs-lookup"><span data-stu-id="78e63-129">Schema Name</span></span>  <br/> |<span data-ttu-id="78e63-130">类型架构</span><span class="sxs-lookup"><span data-stu-id="78e63-130">Types schema</span></span>  <br/> |
-|<span data-ttu-id="78e63-131">验证文件</span><span class="sxs-lookup"><span data-stu-id="78e63-131">Validation File</span></span>  <br/> |<span data-ttu-id="78e63-132">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="78e63-132">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="78e63-133">可以为空</span><span class="sxs-lookup"><span data-stu-id="78e63-133">Can be Empty</span></span>  <br/> |<span data-ttu-id="78e63-134">False</span><span class="sxs-lookup"><span data-stu-id="78e63-134">False</span></span>  <br/> |
+|<span data-ttu-id="26f58-128">命名空间</span><span class="sxs-lookup"><span data-stu-id="26f58-128">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="26f58-129">架构名称</span><span class="sxs-lookup"><span data-stu-id="26f58-129">Schema Name</span></span>  <br/> |<span data-ttu-id="26f58-130">类型架构</span><span class="sxs-lookup"><span data-stu-id="26f58-130">Types schema</span></span>  <br/> |
+|<span data-ttu-id="26f58-131">验证文件</span><span class="sxs-lookup"><span data-stu-id="26f58-131">Validation File</span></span>  <br/> |<span data-ttu-id="26f58-132">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="26f58-132">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="26f58-133">可以为空</span><span class="sxs-lookup"><span data-stu-id="26f58-133">Can be Empty</span></span>  <br/> |<span data-ttu-id="26f58-134">False</span><span class="sxs-lookup"><span data-stu-id="26f58-134">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="78e63-135">另请参阅</span><span class="sxs-lookup"><span data-stu-id="78e63-135">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="26f58-135">另请参阅</span><span class="sxs-lookup"><span data-stu-id="26f58-135">See also</span></span>
 
-- [<span data-ttu-id="78e63-136">Exchange 中的 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="78e63-136">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="26f58-136">Exchange 中的 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="26f58-136">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

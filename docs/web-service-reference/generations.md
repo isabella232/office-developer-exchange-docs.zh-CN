@@ -12,12 +12,12 @@ ms.openlocfilehash: a3ef0e2c73e2ebd7c121f817b8ea97c5e4d4d333
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463011"
 ---
-# <a name="generations"></a><span data-ttu-id="4fcf5-103">间</span><span class="sxs-lookup"><span data-stu-id="4fcf5-103">Generations</span></span>
+# <a name="generations"></a><span data-ttu-id="1f9b3-103">间</span><span class="sxs-lookup"><span data-stu-id="1f9b3-103">Generations</span></span>
 
-<span data-ttu-id="4fcf5-104">世代**元素为**关联的角色指定代值数组和其源归属的标识符。</span><span class="sxs-lookup"><span data-stu-id="4fcf5-104">The **Generations** element specifies an array of generation values and the identifiers of their source attributions for the associated persona.</span></span> 
+<span data-ttu-id="1f9b3-104">世代**元素为**关联的角色指定代值数组和其源归属的标识符。</span><span class="sxs-lookup"><span data-stu-id="1f9b3-104">The **Generations** element specifies an array of generation values and the identifiers of their source attributions for the associated persona.</span></span> 
   
 ```XML
 <Generations>
@@ -25,45 +25,45 @@ ms.locfileid: "44463011"
 </Generations>
 ```
 
- <span data-ttu-id="4fcf5-105">**ArrayOfStringAttributedValuesType**</span><span class="sxs-lookup"><span data-stu-id="4fcf5-105">**ArrayOfStringAttributedValuesType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="4fcf5-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="4fcf5-106">Attributes and elements</span></span>
+ <span data-ttu-id="1f9b3-105">**ArrayOfStringAttributedValuesType**</span><span class="sxs-lookup"><span data-stu-id="1f9b3-105">**ArrayOfStringAttributedValuesType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="1f9b3-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="1f9b3-106">Attributes and elements</span></span>
 
-<span data-ttu-id="4fcf5-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="4fcf5-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="1f9b3-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="1f9b3-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="4fcf5-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="4fcf5-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="1f9b3-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="1f9b3-108">Attributes</span></span>
 
-<span data-ttu-id="4fcf5-109">无。</span><span class="sxs-lookup"><span data-stu-id="4fcf5-109">None.</span></span>
+<span data-ttu-id="1f9b3-109">无。</span><span class="sxs-lookup"><span data-stu-id="1f9b3-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="4fcf5-110">子元素</span><span class="sxs-lookup"><span data-stu-id="4fcf5-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="1f9b3-110">子元素</span><span class="sxs-lookup"><span data-stu-id="1f9b3-110">Child elements</span></span>
 
-|<span data-ttu-id="4fcf5-111">**元素**</span><span class="sxs-lookup"><span data-stu-id="4fcf5-111">**Element**</span></span>|<span data-ttu-id="4fcf5-112">**说明**</span><span class="sxs-lookup"><span data-stu-id="4fcf5-112">**Description**</span></span>|
+|<span data-ttu-id="1f9b3-111">**元素**</span><span class="sxs-lookup"><span data-stu-id="1f9b3-111">**Element**</span></span>|<span data-ttu-id="1f9b3-112">**说明**</span><span class="sxs-lookup"><span data-stu-id="1f9b3-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="4fcf5-113">StringAttributedValue</span><span class="sxs-lookup"><span data-stu-id="4fcf5-113">StringAttributedValue</span></span>](stringattributedvalue.md) <br/> |<span data-ttu-id="4fcf5-114">指定与 persona 元素相关联的属性数组中的实例。</span><span class="sxs-lookup"><span data-stu-id="4fcf5-114">Specifies an instance in an array of attributes associated with a persona element.</span></span>  <br/> |
+|[<span data-ttu-id="1f9b3-113">StringAttributedValue</span><span class="sxs-lookup"><span data-stu-id="1f9b3-113">StringAttributedValue</span></span>](stringattributedvalue.md) <br/> |<span data-ttu-id="1f9b3-114">指定与 persona 元素相关联的属性数组中的实例。</span><span class="sxs-lookup"><span data-stu-id="1f9b3-114">Specifies an instance in an array of attributes associated with a persona element.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="4fcf5-115">父元素</span><span class="sxs-lookup"><span data-stu-id="4fcf5-115">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="1f9b3-115">父元素</span><span class="sxs-lookup"><span data-stu-id="1f9b3-115">Parent elements</span></span>
 
-|<span data-ttu-id="4fcf5-116">**元素**</span><span class="sxs-lookup"><span data-stu-id="4fcf5-116">**Element**</span></span>|<span data-ttu-id="4fcf5-117">**说明**</span><span class="sxs-lookup"><span data-stu-id="4fcf5-117">**Description**</span></span>|
+|<span data-ttu-id="1f9b3-116">**元素**</span><span class="sxs-lookup"><span data-stu-id="1f9b3-116">**Element**</span></span>|<span data-ttu-id="1f9b3-117">**说明**</span><span class="sxs-lookup"><span data-stu-id="1f9b3-117">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="4fcf5-118">角色</span><span class="sxs-lookup"><span data-stu-id="4fcf5-118">Persona</span></span>](persona.md) <br/> |<span data-ttu-id="4fcf5-119">指定由**GetPersona**请求返回的一组角色数据。</span><span class="sxs-lookup"><span data-stu-id="4fcf5-119">Specifies a set of persona data returned by a **GetPersona** request.</span></span>  <br/> |
+|[<span data-ttu-id="1f9b3-118">角色</span><span class="sxs-lookup"><span data-stu-id="1f9b3-118">Persona</span></span>](persona.md) <br/> |<span data-ttu-id="1f9b3-119">指定由**GetPersona**请求返回的一组角色数据。</span><span class="sxs-lookup"><span data-stu-id="1f9b3-119">Specifies a set of persona data returned by a **GetPersona** request.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="4fcf5-120">备注</span><span class="sxs-lookup"><span data-stu-id="4fcf5-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1f9b3-120">备注</span><span class="sxs-lookup"><span data-stu-id="1f9b3-120">Remarks</span></span>
 
-<span data-ttu-id="4fcf5-121">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="4fcf5-121">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="1f9b3-121">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="1f9b3-121">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="4fcf5-122">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="4fcf5-122">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="1f9b3-122">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="1f9b3-122">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="4fcf5-123">元素信息</span><span class="sxs-lookup"><span data-stu-id="4fcf5-123">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="1f9b3-123">元素信息</span><span class="sxs-lookup"><span data-stu-id="1f9b3-123">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="4fcf5-124">命名空间</span><span class="sxs-lookup"><span data-stu-id="4fcf5-124">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="4fcf5-125">架构名称</span><span class="sxs-lookup"><span data-stu-id="4fcf5-125">Schema Name</span></span>  <br/> |<span data-ttu-id="4fcf5-126">类型架构</span><span class="sxs-lookup"><span data-stu-id="4fcf5-126">Type schema</span></span>  <br/> |
-|<span data-ttu-id="4fcf5-127">验证文件</span><span class="sxs-lookup"><span data-stu-id="4fcf5-127">Validation File</span></span>  <br/> |<span data-ttu-id="4fcf5-128">类型 .xsd</span><span class="sxs-lookup"><span data-stu-id="4fcf5-128">types.xsd</span></span>  <br/> |
-|<span data-ttu-id="4fcf5-129">可以为空</span><span class="sxs-lookup"><span data-stu-id="4fcf5-129">Can Be Empty</span></span>  <br/> ||
+|<span data-ttu-id="1f9b3-124">命名空间</span><span class="sxs-lookup"><span data-stu-id="1f9b3-124">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="1f9b3-125">架构名称</span><span class="sxs-lookup"><span data-stu-id="1f9b3-125">Schema Name</span></span>  <br/> |<span data-ttu-id="1f9b3-126">类型架构</span><span class="sxs-lookup"><span data-stu-id="1f9b3-126">Type schema</span></span>  <br/> |
+|<span data-ttu-id="1f9b3-127">验证文件</span><span class="sxs-lookup"><span data-stu-id="1f9b3-127">Validation File</span></span>  <br/> |<span data-ttu-id="1f9b3-128">类型 .xsd</span><span class="sxs-lookup"><span data-stu-id="1f9b3-128">types.xsd</span></span>  <br/> |
+|<span data-ttu-id="1f9b3-129">可以为空</span><span class="sxs-lookup"><span data-stu-id="1f9b3-129">Can Be Empty</span></span>  <br/> ||
    
-## <a name="see-also"></a><span data-ttu-id="4fcf5-130">另请参阅</span><span class="sxs-lookup"><span data-stu-id="4fcf5-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1f9b3-130">另请参阅</span><span class="sxs-lookup"><span data-stu-id="1f9b3-130">See also</span></span>
 
 
 
-- [<span data-ttu-id="4fcf5-131">Exchange 中的 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="4fcf5-131">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="1f9b3-131">Exchange 中的 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="1f9b3-131">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

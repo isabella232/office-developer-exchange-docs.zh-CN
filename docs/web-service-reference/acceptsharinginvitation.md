@@ -16,12 +16,12 @@ ms.openlocfilehash: c8cdae707bd122e74fa0e284163d1540d857c3de
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44461707"
 ---
-# <a name="acceptsharinginvitation"></a><span data-ttu-id="3dbc1-103">AcceptSharingInvitation</span><span class="sxs-lookup"><span data-stu-id="3dbc1-103">AcceptSharingInvitation</span></span>
+# <a name="acceptsharinginvitation"></a><span data-ttu-id="9988e-103">AcceptSharingInvitation</span><span class="sxs-lookup"><span data-stu-id="9988e-103">AcceptSharingInvitation</span></span>
 
-<span data-ttu-id="3dbc1-104">**AcceptSharingInvitation**元素用于接受允许访问其他用户的 "日历" 或 "联系人" 数据的邀请。</span><span class="sxs-lookup"><span data-stu-id="3dbc1-104">The **AcceptSharingInvitation** element is used to accept an invitation that allows access to another user's calendar or contacts data.</span></span> 
+<span data-ttu-id="9988e-104">**AcceptSharingInvitation**元素用于接受允许访问其他用户的 "日历" 或 "联系人" 数据的邀请。</span><span class="sxs-lookup"><span data-stu-id="9988e-104">The **AcceptSharingInvitation** element is used to accept an invitation that allows access to another user's calendar or contacts data.</span></span> 
   
 ```xml
 <AcceptSharingInvitation>
@@ -29,43 +29,43 @@ ms.locfileid: "44461707"
 </AcceptSharingInvitation>
 ```
 
- <span data-ttu-id="3dbc1-105">**AcceptSharingInvitationType**</span><span class="sxs-lookup"><span data-stu-id="3dbc1-105">**AcceptSharingInvitationType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="3dbc1-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="3dbc1-106">Attributes and elements</span></span>
+ <span data-ttu-id="9988e-105">**AcceptSharingInvitationType**</span><span class="sxs-lookup"><span data-stu-id="9988e-105">**AcceptSharingInvitationType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="9988e-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="9988e-106">Attributes and elements</span></span>
 
-<span data-ttu-id="3dbc1-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="3dbc1-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="9988e-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="9988e-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="3dbc1-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="3dbc1-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="9988e-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="9988e-108">Attributes</span></span>
 
-<span data-ttu-id="3dbc1-109">无。</span><span class="sxs-lookup"><span data-stu-id="3dbc1-109">None.</span></span>
+<span data-ttu-id="9988e-109">无。</span><span class="sxs-lookup"><span data-stu-id="9988e-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="3dbc1-110">子元素</span><span class="sxs-lookup"><span data-stu-id="3dbc1-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="9988e-110">子元素</span><span class="sxs-lookup"><span data-stu-id="9988e-110">Child elements</span></span>
 
-|<span data-ttu-id="3dbc1-111">**元素**</span><span class="sxs-lookup"><span data-stu-id="3dbc1-111">**Element**</span></span>|<span data-ttu-id="3dbc1-112">**说明**</span><span class="sxs-lookup"><span data-stu-id="3dbc1-112">**Description**</span></span>|
+|<span data-ttu-id="9988e-111">**元素**</span><span class="sxs-lookup"><span data-stu-id="9988e-111">**Element**</span></span>|<span data-ttu-id="9988e-112">**说明**</span><span class="sxs-lookup"><span data-stu-id="9988e-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="3dbc1-113">ReferenceItemId</span><span class="sxs-lookup"><span data-stu-id="3dbc1-113">ReferenceItemId</span></span>](referenceitemid.md) <br/> |<span data-ttu-id="3dbc1-114">标识 response 对象引用的项。</span><span class="sxs-lookup"><span data-stu-id="3dbc1-114">Identifies the item to which the response object refers.</span></span>  <br/> |
+|[<span data-ttu-id="9988e-113">ReferenceItemId</span><span class="sxs-lookup"><span data-stu-id="9988e-113">ReferenceItemId</span></span>](referenceitemid.md) <br/> |<span data-ttu-id="9988e-114">标识 response 对象引用的项。</span><span class="sxs-lookup"><span data-stu-id="9988e-114">Identifies the item to which the response object refers.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="3dbc1-115">父元素</span><span class="sxs-lookup"><span data-stu-id="3dbc1-115">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="9988e-115">父元素</span><span class="sxs-lookup"><span data-stu-id="9988e-115">Parent elements</span></span>
 
-|<span data-ttu-id="3dbc1-116">**元素**</span><span class="sxs-lookup"><span data-stu-id="3dbc1-116">**Element**</span></span>|<span data-ttu-id="3dbc1-117">**说明**</span><span class="sxs-lookup"><span data-stu-id="3dbc1-117">**Description**</span></span>|
+|<span data-ttu-id="9988e-116">**元素**</span><span class="sxs-lookup"><span data-stu-id="9988e-116">**Element**</span></span>|<span data-ttu-id="9988e-117">**说明**</span><span class="sxs-lookup"><span data-stu-id="9988e-117">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="3dbc1-118">ResponseObjects</span><span class="sxs-lookup"><span data-stu-id="3dbc1-118">ResponseObjects</span></span>](responseobjects.md) <br/> |<span data-ttu-id="3dbc1-119">包含与 Exchange 存储中的项目关联的所有响应对象的集合。</span><span class="sxs-lookup"><span data-stu-id="3dbc1-119">Contains a collection of all the response objects that are associated with an item in the Exchange store.</span></span>  <br/> |
-|[<span data-ttu-id="3dbc1-120">项目（NonEmptyArrayOfAllItemsType）</span><span class="sxs-lookup"><span data-stu-id="3dbc1-120">Items (NonEmptyArrayOfAllItemsType)</span></span>](items-nonemptyarrayofallitemstype.md) <br/> |<span data-ttu-id="3dbc1-121">包含要在由[ParentFolderId （TargetFolderIdType）](parentfolderid-targetfolderidtype.md)元素标识的文件夹中创建的项的数组。</span><span class="sxs-lookup"><span data-stu-id="3dbc1-121">Contains an array of items to create in the folder that is identified by the [ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md) element.</span></span>  <br/> |
+|[<span data-ttu-id="9988e-118">ResponseObjects</span><span class="sxs-lookup"><span data-stu-id="9988e-118">ResponseObjects</span></span>](responseobjects.md) <br/> |<span data-ttu-id="9988e-119">包含与 Exchange 存储中的项目关联的所有响应对象的集合。</span><span class="sxs-lookup"><span data-stu-id="9988e-119">Contains a collection of all the response objects that are associated with an item in the Exchange store.</span></span>  <br/> |
+|[<span data-ttu-id="9988e-120">项目（NonEmptyArrayOfAllItemsType）</span><span class="sxs-lookup"><span data-stu-id="9988e-120">Items (NonEmptyArrayOfAllItemsType)</span></span>](items-nonemptyarrayofallitemstype.md) <br/> |<span data-ttu-id="9988e-121">包含要在由[ParentFolderId （TargetFolderIdType）](parentfolderid-targetfolderidtype.md)元素标识的文件夹中创建的项的数组。</span><span class="sxs-lookup"><span data-stu-id="9988e-121">Contains an array of items to create in the folder that is identified by the [ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md) element.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="3dbc1-122">说明</span><span class="sxs-lookup"><span data-stu-id="3dbc1-122">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="9988e-122">说明</span><span class="sxs-lookup"><span data-stu-id="9988e-122">Remarks</span></span>
 
-<span data-ttu-id="3dbc1-123">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="3dbc1-123">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="9988e-123">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="9988e-123">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="3dbc1-124">元素信息</span><span class="sxs-lookup"><span data-stu-id="3dbc1-124">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="9988e-124">元素信息</span><span class="sxs-lookup"><span data-stu-id="9988e-124">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="3dbc1-125">命名空间</span><span class="sxs-lookup"><span data-stu-id="3dbc1-125">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="3dbc1-126">架构名称</span><span class="sxs-lookup"><span data-stu-id="3dbc1-126">Schema Name</span></span>  <br/> |<span data-ttu-id="3dbc1-127">类型架构</span><span class="sxs-lookup"><span data-stu-id="3dbc1-127">Types schema</span></span>  <br/> |
-|<span data-ttu-id="3dbc1-128">验证文件</span><span class="sxs-lookup"><span data-stu-id="3dbc1-128">Validation File</span></span>  <br/> |<span data-ttu-id="3dbc1-129">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="3dbc1-129">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="3dbc1-130">可以为空</span><span class="sxs-lookup"><span data-stu-id="3dbc1-130">Can be Empty</span></span>  <br/> |<span data-ttu-id="3dbc1-131">False</span><span class="sxs-lookup"><span data-stu-id="3dbc1-131">False</span></span>  <br/> |
+|<span data-ttu-id="9988e-125">命名空间</span><span class="sxs-lookup"><span data-stu-id="9988e-125">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="9988e-126">架构名称</span><span class="sxs-lookup"><span data-stu-id="9988e-126">Schema Name</span></span>  <br/> |<span data-ttu-id="9988e-127">类型架构</span><span class="sxs-lookup"><span data-stu-id="9988e-127">Types schema</span></span>  <br/> |
+|<span data-ttu-id="9988e-128">验证文件</span><span class="sxs-lookup"><span data-stu-id="9988e-128">Validation File</span></span>  <br/> |<span data-ttu-id="9988e-129">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="9988e-129">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="9988e-130">可以为空</span><span class="sxs-lookup"><span data-stu-id="9988e-130">Can be Empty</span></span>  <br/> |<span data-ttu-id="9988e-131">False</span><span class="sxs-lookup"><span data-stu-id="9988e-131">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="3dbc1-132">另请参阅</span><span class="sxs-lookup"><span data-stu-id="3dbc1-132">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9988e-132">另请参阅</span><span class="sxs-lookup"><span data-stu-id="9988e-132">See also</span></span>
 
-- [<span data-ttu-id="3dbc1-133">CreateItem （AcceptSharingInvitation）</span><span class="sxs-lookup"><span data-stu-id="3dbc1-133">CreateItem (AcceptSharingInvitation)</span></span>](createitem-acceptsharinginvitation.md)
-- [<span data-ttu-id="3dbc1-134">Exchange 中的 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="3dbc1-134">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="9988e-133">CreateItem （AcceptSharingInvitation）</span><span class="sxs-lookup"><span data-stu-id="9988e-133">CreateItem (AcceptSharingInvitation)</span></span>](createitem-acceptsharinginvitation.md)
+- [<span data-ttu-id="9988e-134">Exchange 中的 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="9988e-134">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 
