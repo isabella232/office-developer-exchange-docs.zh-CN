@@ -12,51 +12,51 @@ ms.openlocfilehash: f32fa0ceb301fca88cb0275e99ee9417dea87d2e
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465217"
 ---
-# <a name="retentionid"></a><span data-ttu-id="761a5-103">RetentionId</span><span class="sxs-lookup"><span data-stu-id="761a5-103">RetentionId</span></span>
+# <a name="retentionid"></a><span data-ttu-id="06916-103">RetentionId</span><span class="sxs-lookup"><span data-stu-id="06916-103">RetentionId</span></span>
 
-<span data-ttu-id="761a5-104">**RetentionId**元素指定保留标记标识符。</span><span class="sxs-lookup"><span data-stu-id="761a5-104">The **RetentionId** element specifies the retention tag identifier.</span></span> 
+<span data-ttu-id="06916-104">**RetentionId**元素指定保留标记标识符。</span><span class="sxs-lookup"><span data-stu-id="06916-104">The **RetentionId** element specifies the retention tag identifier.</span></span> 
   
 ```XML
 <RetentionId></RetentionId>
 ```
 
- <span data-ttu-id="761a5-105">**GuidType**</span><span class="sxs-lookup"><span data-stu-id="761a5-105">**GuidType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="761a5-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="761a5-106">Attributes and elements</span></span>
+ <span data-ttu-id="06916-105">**GuidType**</span><span class="sxs-lookup"><span data-stu-id="06916-105">**GuidType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="06916-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="06916-106">Attributes and elements</span></span>
 
-<span data-ttu-id="761a5-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="761a5-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="06916-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="06916-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="761a5-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="761a5-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="06916-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="06916-108">Attributes</span></span>
 
-<span data-ttu-id="761a5-109">无。</span><span class="sxs-lookup"><span data-stu-id="761a5-109">None.</span></span>
+<span data-ttu-id="06916-109">无。</span><span class="sxs-lookup"><span data-stu-id="06916-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="761a5-110">子元素</span><span class="sxs-lookup"><span data-stu-id="761a5-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="06916-110">子元素</span><span class="sxs-lookup"><span data-stu-id="06916-110">Child elements</span></span>
 
-<span data-ttu-id="761a5-111">无。</span><span class="sxs-lookup"><span data-stu-id="761a5-111">None.</span></span>
+<span data-ttu-id="06916-111">无。</span><span class="sxs-lookup"><span data-stu-id="06916-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="761a5-112">父元素</span><span class="sxs-lookup"><span data-stu-id="761a5-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="06916-112">父元素</span><span class="sxs-lookup"><span data-stu-id="06916-112">Parent elements</span></span>
 
-[<span data-ttu-id="761a5-113">Get-retentionpolicytag</span><span class="sxs-lookup"><span data-stu-id="761a5-113">RetentionPolicyTag</span></span>](retentionpolicytag.md)
+[<span data-ttu-id="06916-113">Get-retentionpolicytag</span><span class="sxs-lookup"><span data-stu-id="06916-113">RetentionPolicyTag</span></span>](retentionpolicytag.md)
   
-## <a name="text-value"></a><span data-ttu-id="761a5-114">文本值</span><span class="sxs-lookup"><span data-stu-id="761a5-114">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="06916-114">文本值</span><span class="sxs-lookup"><span data-stu-id="06916-114">Text value</span></span>
 
-<span data-ttu-id="761a5-115">**RetentionId**元素的文本值是以 GUID 形式表示的保留标记标识符。</span><span class="sxs-lookup"><span data-stu-id="761a5-115">The text value of the **RetentionId** element is the retention tag identifier in GUID form.</span></span> 
+<span data-ttu-id="06916-115">**RetentionId**元素的文本值是以 GUID 形式表示的保留标记标识符。</span><span class="sxs-lookup"><span data-stu-id="06916-115">The text value of the **RetentionId** element is the retention tag identifier in GUID form.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="761a5-116">备注</span><span class="sxs-lookup"><span data-stu-id="761a5-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="06916-116">备注</span><span class="sxs-lookup"><span data-stu-id="06916-116">Remarks</span></span>
 
-<span data-ttu-id="761a5-117">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="761a5-117">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="06916-117">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="06916-117">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="761a5-118">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="761a5-118">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="06916-118">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="06916-118">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="761a5-119">元素信息</span><span class="sxs-lookup"><span data-stu-id="761a5-119">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="06916-119">元素信息</span><span class="sxs-lookup"><span data-stu-id="06916-119">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="761a5-120">命名空间</span><span class="sxs-lookup"><span data-stu-id="761a5-120">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="761a5-121">架构名称</span><span class="sxs-lookup"><span data-stu-id="761a5-121">Schema name</span></span>  <br/> |<span data-ttu-id="761a5-122">类型架构</span><span class="sxs-lookup"><span data-stu-id="761a5-122">Types schema</span></span>  <br/> |
-|<span data-ttu-id="761a5-123">验证文件</span><span class="sxs-lookup"><span data-stu-id="761a5-123">Validation file</span></span>  <br/> |<span data-ttu-id="761a5-124">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="761a5-124">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="761a5-125">可以为空</span><span class="sxs-lookup"><span data-stu-id="761a5-125">Can be empty</span></span>  <br/> |<span data-ttu-id="761a5-126">false</span><span class="sxs-lookup"><span data-stu-id="761a5-126">false</span></span>  <br/> |
+|<span data-ttu-id="06916-120">命名空间</span><span class="sxs-lookup"><span data-stu-id="06916-120">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="06916-121">架构名称</span><span class="sxs-lookup"><span data-stu-id="06916-121">Schema name</span></span>  <br/> |<span data-ttu-id="06916-122">类型架构</span><span class="sxs-lookup"><span data-stu-id="06916-122">Types schema</span></span>  <br/> |
+|<span data-ttu-id="06916-123">验证文件</span><span class="sxs-lookup"><span data-stu-id="06916-123">Validation file</span></span>  <br/> |<span data-ttu-id="06916-124">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="06916-124">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="06916-125">可以为空</span><span class="sxs-lookup"><span data-stu-id="06916-125">Can be empty</span></span>  <br/> |<span data-ttu-id="06916-126">false</span><span class="sxs-lookup"><span data-stu-id="06916-126">false</span></span>  <br/> |
    
 
