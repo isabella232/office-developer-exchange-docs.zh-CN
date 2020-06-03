@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 085384f9-dca4-4534-82e2-dd782471d0da
-description: DiscoverySearchConfiguration 元素指定的电子数据展示搜索的配置。
-ms.openlocfilehash: 11bf90d8fe73bb0b308deb7ae51f1443488f87e2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: DiscoverySearchConfiguration 元素指定电子数据展示搜索的配置。
+ms.openlocfilehash: 8819d951f35ccc215bdf0128d2a16b60bbf20f2a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19753913"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529054"
 ---
-# <a name="discoverysearchconfiguration"></a><span data-ttu-id="989df-103">DiscoverySearchConfiguration</span><span class="sxs-lookup"><span data-stu-id="989df-103">DiscoverySearchConfiguration</span></span>
+# <a name="discoverysearchconfiguration"></a><span data-ttu-id="e1475-103">DiscoverySearchConfiguration</span><span class="sxs-lookup"><span data-stu-id="e1475-103">DiscoverySearchConfiguration</span></span>
 
-<span data-ttu-id="989df-104">**DiscoverySearchConfiguration**元素指定的电子数据展示搜索的配置。</span><span class="sxs-lookup"><span data-stu-id="989df-104">The **DiscoverySearchConfiguration** element specifies the configuration for eDiscovery search.</span></span> 
+<span data-ttu-id="e1475-104">**DiscoverySearchConfiguration**元素指定电子数据展示搜索的配置。</span><span class="sxs-lookup"><span data-stu-id="e1475-104">The **DiscoverySearchConfiguration** element specifies the configuration for eDiscovery search.</span></span> 
   
 ```XML
 <DiscoverySearchConfiguration>
@@ -27,45 +27,45 @@ ms.locfileid: "19753913"
 </DiscoverySearchConfiguration>
 ```
 
- <span data-ttu-id="989df-105">**DiscoverySearchConfigurationType**</span><span class="sxs-lookup"><span data-stu-id="989df-105">**DiscoverySearchConfigurationType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="989df-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="989df-106">Attributes and elements</span></span>
+ <span data-ttu-id="e1475-105">**DiscoverySearchConfigurationType**</span><span class="sxs-lookup"><span data-stu-id="e1475-105">**DiscoverySearchConfigurationType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="e1475-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="e1475-106">Attributes and elements</span></span>
 
-<span data-ttu-id="989df-107">如下章节中介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="989df-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="e1475-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="e1475-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="989df-108">属性</span><span class="sxs-lookup"><span data-stu-id="989df-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="e1475-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="e1475-108">Attributes</span></span>
 
-<span data-ttu-id="989df-109">无。</span><span class="sxs-lookup"><span data-stu-id="989df-109">None.</span></span>
+<span data-ttu-id="e1475-109">无。</span><span class="sxs-lookup"><span data-stu-id="e1475-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="989df-110">子元素</span><span class="sxs-lookup"><span data-stu-id="989df-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="e1475-110">子元素</span><span class="sxs-lookup"><span data-stu-id="e1475-110">Child elements</span></span>
 
-|<span data-ttu-id="989df-111">**元素**</span><span class="sxs-lookup"><span data-stu-id="989df-111">**Element**</span></span>|<span data-ttu-id="989df-112">**说明**</span><span class="sxs-lookup"><span data-stu-id="989df-112">**Description**</span></span>|
+|<span data-ttu-id="e1475-111">**元素**</span><span class="sxs-lookup"><span data-stu-id="e1475-111">**Element**</span></span>|<span data-ttu-id="e1475-112">**说明**</span><span class="sxs-lookup"><span data-stu-id="e1475-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="989df-113">SearchId</span><span class="sxs-lookup"><span data-stu-id="989df-113">SearchId</span></span>](searchid.md) <br/> |<span data-ttu-id="989df-114">指定搜索的标识符。</span><span class="sxs-lookup"><span data-stu-id="989df-114">Specifies the identifier of the search.</span></span>  <br/> |
-|[<span data-ttu-id="989df-115">SearchQuery</span><span class="sxs-lookup"><span data-stu-id="989df-115">SearchQuery</span></span>](searchquery.md) <br/> |<span data-ttu-id="989df-116">指定的电子数据展示搜索查询的名称。</span><span class="sxs-lookup"><span data-stu-id="989df-116">Specifies the name of an eDiscovery search query.</span></span>  <br/> |
-|[<span data-ttu-id="989df-117">SearchableMailboxes</span><span class="sxs-lookup"><span data-stu-id="989df-117">SearchableMailboxes</span></span>](searchablemailboxes.md) <br/> |<span data-ttu-id="989df-118">包含从**GetSearchableMailboxes**请求返回的邮箱的列表。</span><span class="sxs-lookup"><span data-stu-id="989df-118">Contains a list of the mailboxes returned from a **GetSearchableMailboxes** request.</span></span>  <br/> |
+|[<span data-ttu-id="e1475-113">SearchId</span><span class="sxs-lookup"><span data-stu-id="e1475-113">SearchId</span></span>](searchid.md) <br/> |<span data-ttu-id="e1475-114">指定搜索的标识符。</span><span class="sxs-lookup"><span data-stu-id="e1475-114">Specifies the identifier of the search.</span></span>  <br/> |
+|[<span data-ttu-id="e1475-115">SearchQuery</span><span class="sxs-lookup"><span data-stu-id="e1475-115">SearchQuery</span></span>](searchquery.md) <br/> |<span data-ttu-id="e1475-116">指定电子数据展示搜索查询的名称。</span><span class="sxs-lookup"><span data-stu-id="e1475-116">Specifies the name of an eDiscovery search query.</span></span>  <br/> |
+|[<span data-ttu-id="e1475-117">SearchableMailboxes</span><span class="sxs-lookup"><span data-stu-id="e1475-117">SearchableMailboxes</span></span>](searchablemailboxes.md) <br/> |<span data-ttu-id="e1475-118">包含从**GetSearchableMailboxes**请求返回的邮箱的列表。</span><span class="sxs-lookup"><span data-stu-id="e1475-118">Contains a list of the mailboxes returned from a **GetSearchableMailboxes** request.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="989df-119">父元素</span><span class="sxs-lookup"><span data-stu-id="989df-119">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="e1475-119">父元素</span><span class="sxs-lookup"><span data-stu-id="e1475-119">Parent elements</span></span>
 
-|<span data-ttu-id="989df-120">**元素**</span><span class="sxs-lookup"><span data-stu-id="989df-120">**Element**</span></span>|<span data-ttu-id="989df-121">**说明**</span><span class="sxs-lookup"><span data-stu-id="989df-121">**Description**</span></span>|
+|<span data-ttu-id="e1475-120">**元素**</span><span class="sxs-lookup"><span data-stu-id="e1475-120">**Element**</span></span>|<span data-ttu-id="e1475-121">**说明**</span><span class="sxs-lookup"><span data-stu-id="e1475-121">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="989df-122">DiscoverySearchConfigurations</span><span class="sxs-lookup"><span data-stu-id="989df-122">DiscoverySearchConfigurations</span></span>](discoverysearchconfigurations.md) <br/> |<span data-ttu-id="989df-123">指定**DiscoverySearchConfiguration**元素的数组。</span><span class="sxs-lookup"><span data-stu-id="989df-123">Specifies an array of **DiscoverySearchConfiguration** elements.</span></span>  <br/> |
+|[<span data-ttu-id="e1475-122">DiscoverySearchConfigurations</span><span class="sxs-lookup"><span data-stu-id="e1475-122">DiscoverySearchConfigurations</span></span>](discoverysearchconfigurations.md) <br/> |<span data-ttu-id="e1475-123">指定**DiscoverySearchConfiguration**元素的数组。</span><span class="sxs-lookup"><span data-stu-id="e1475-123">Specifies an array of **DiscoverySearchConfiguration** elements.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="989df-124">备注</span><span class="sxs-lookup"><span data-stu-id="989df-124">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e1475-124">备注</span><span class="sxs-lookup"><span data-stu-id="e1475-124">Remarks</span></span>
 
-<span data-ttu-id="989df-125">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="989df-125">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="e1475-125">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="e1475-125">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="989df-126">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="989df-126">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="e1475-126">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="e1475-126">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="989df-127">元素信息</span><span class="sxs-lookup"><span data-stu-id="989df-127">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="e1475-127">元素信息</span><span class="sxs-lookup"><span data-stu-id="e1475-127">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="989df-128">命名空间</span><span class="sxs-lookup"><span data-stu-id="989df-128">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="989df-129">架构名称</span><span class="sxs-lookup"><span data-stu-id="989df-129">Schema Name</span></span>  <br/> |<span data-ttu-id="989df-130">消息架构</span><span class="sxs-lookup"><span data-stu-id="989df-130">Message schema</span></span>  <br/> |
-|<span data-ttu-id="989df-131">验证文件</span><span class="sxs-lookup"><span data-stu-id="989df-131">Validation File</span></span>  <br/> |<span data-ttu-id="989df-132">messages.xsd</span><span class="sxs-lookup"><span data-stu-id="989df-132">messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="989df-133">可以为空</span><span class="sxs-lookup"><span data-stu-id="989df-133">Can Be Empty</span></span>  <br/> ||
+|<span data-ttu-id="e1475-128">命名空间</span><span class="sxs-lookup"><span data-stu-id="e1475-128">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="e1475-129">架构名称</span><span class="sxs-lookup"><span data-stu-id="e1475-129">Schema Name</span></span>  <br/> |<span data-ttu-id="e1475-130">消息架构</span><span class="sxs-lookup"><span data-stu-id="e1475-130">Message schema</span></span>  <br/> |
+|<span data-ttu-id="e1475-131">验证文件</span><span class="sxs-lookup"><span data-stu-id="e1475-131">Validation File</span></span>  <br/> |<span data-ttu-id="e1475-132">消息 .xsd</span><span class="sxs-lookup"><span data-stu-id="e1475-132">messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="e1475-133">可以为空</span><span class="sxs-lookup"><span data-stu-id="e1475-133">Can Be Empty</span></span>  <br/> ||
    
-## <a name="see-also"></a><span data-ttu-id="989df-134">另请参阅</span><span class="sxs-lookup"><span data-stu-id="989df-134">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e1475-134">另请参阅</span><span class="sxs-lookup"><span data-stu-id="e1475-134">See also</span></span>
 
-- [<span data-ttu-id="989df-135">在交换 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="989df-135">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="e1475-135">Exchange 中的 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="e1475-135">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

@@ -1,37 +1,37 @@
 ---
-title: 在 Exchange 处理批次中的日历项目
+title: 在 Exchange 中批量处理日历项目
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: fb2952e2-cbfe-43ac-b746-f071faa7665c
-description: 了解如何创建、 获取、 更新或通过使用 EWS 的 EWS 托管 API 在 Exchange 中删除的单个呼叫中的日历项目批次。
-ms.openlocfilehash: e18e74490b536c07e90c64f76f81c98b4eab6024
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: 了解如何通过使用 Exchange 中的 EWS 托管 API 或 EWS 在单个呼叫中创建、获取、更新或删除日历项目的批次。
+ms.openlocfilehash: 10c5c28e4dda27c9ac9770088db122f0a8e8c101
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353845"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527899"
 ---
-# <a name="process-calendar-items-in-batches-in-exchange"></a><span data-ttu-id="c8728-103">在 Exchange 处理批次中的日历项目</span><span class="sxs-lookup"><span data-stu-id="c8728-103">Process calendar items in batches in Exchange</span></span>
+# <a name="process-calendar-items-in-batches-in-exchange"></a><span data-ttu-id="10a59-103">在 Exchange 中批量处理日历项目</span><span class="sxs-lookup"><span data-stu-id="10a59-103">Process calendar items in batches in Exchange</span></span>
 
-<span data-ttu-id="c8728-104">了解如何创建、 获取、 更新或通过使用 EWS 的 EWS 托管 API 在 Exchange 中删除的单个呼叫中的日历项目批次。</span><span class="sxs-lookup"><span data-stu-id="c8728-104">Learn how to create, get, update, or delete batches of calendar items in a single call by using the EWS Managed API or EWS in Exchange.</span></span>
-  
-<span data-ttu-id="c8728-105">您可以使用 EWS 托管 API 或 EWS 用于批处理约会和会议以减少的呼叫数的客户端向 Exchange 服务器。</span><span class="sxs-lookup"><span data-stu-id="c8728-105">You can use the EWS Managed API or EWS to work with batches of appointments and meetings to reduce the number of calls a client makes to an Exchange server.</span></span> <span data-ttu-id="c8728-106">时使用 EWS 托管 API 创建、 获取、 更新和删除一批日历项目，而当您处理单个日历项，则使用[约会](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx)对象方法使用[ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象方法。</span><span class="sxs-lookup"><span data-stu-id="c8728-106">When you use the EWS Managed API to create, get, update, and delete a batch of calendar items, you use [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object methods, whereas when you work with single calendar items, you use [Appointment](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) object methods.</span></span> <span data-ttu-id="c8728-107">如果您使用 EWS，则使用用于单个呼叫的批次呼叫的相同操作。</span><span class="sxs-lookup"><span data-stu-id="c8728-107">If you are using EWS, you use the same operation for batch calls that you use for single calls.</span></span> 
-  
-<span data-ttu-id="c8728-108">**表 1。EWS 托管 API 方法和用于处理的日历项目的批次的 EWS 操作**</span><span class="sxs-lookup"><span data-stu-id="c8728-108">**Table 1. EWS Managed API methods and EWS operations for working with batches of calendar items**</span></span>
+<span data-ttu-id="10a59-104">了解如何通过使用 Exchange 中的 EWS 托管 API 或 EWS 在单个呼叫中创建、获取、更新或删除日历项目的批次。</span><span class="sxs-lookup"><span data-stu-id="10a59-104">Learn how to create, get, update, or delete batches of calendar items in a single call by using the EWS Managed API or EWS in Exchange.</span></span>
 
-|<span data-ttu-id="c8728-109">**若要...**</span><span class="sxs-lookup"><span data-stu-id="c8728-109">**In order to…**</span></span>|<span data-ttu-id="c8728-110">**使用此 EWS 托管 API 方法**</span><span class="sxs-lookup"><span data-stu-id="c8728-110">**Use this EWS Managed API method**</span></span>|<span data-ttu-id="c8728-111">**使用此 EWS 操作**</span><span class="sxs-lookup"><span data-stu-id="c8728-111">**Use this EWS operation**</span></span>|
+<span data-ttu-id="10a59-105">可以使用 EWS 托管 API 或 EWS 来处理批次约会和会议，以减少客户端对 Exchange 服务器进行的呼叫数。</span><span class="sxs-lookup"><span data-stu-id="10a59-105">You can use the EWS Managed API or EWS to work with batches of appointments and meetings to reduce the number of calls a client makes to an Exchange server.</span></span> <span data-ttu-id="10a59-106">当您使用 EWS 托管 API 创建、获取、更新和删除一批日历项目时，可以使用[ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象方法，而在处理单个日历项目时使用的是[约会](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx)对象方法。</span><span class="sxs-lookup"><span data-stu-id="10a59-106">When you use the EWS Managed API to create, get, update, and delete a batch of calendar items, you use [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object methods, whereas when you work with single calendar items, you use [Appointment](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) object methods.</span></span> <span data-ttu-id="10a59-107">如果使用 EWS，则对用于单个呼叫的批处理调用使用相同的操作。</span><span class="sxs-lookup"><span data-stu-id="10a59-107">If you are using EWS, you use the same operation for batch calls that you use for single calls.</span></span>
+
+<span data-ttu-id="10a59-108">**表1。用于处理批次日历项目的 EWS 托管 API 方法和 EWS 操作**</span><span class="sxs-lookup"><span data-stu-id="10a59-108">**Table 1. EWS Managed API methods and EWS operations for working with batches of calendar items**</span></span>
+
+|<span data-ttu-id="10a59-109">**若要...**</span><span class="sxs-lookup"><span data-stu-id="10a59-109">**In order to…**</span></span>|<span data-ttu-id="10a59-110">**使用此 EWS 托管 API 方法**</span><span class="sxs-lookup"><span data-stu-id="10a59-110">**Use this EWS Managed API method**</span></span>|<span data-ttu-id="10a59-111">**使用此 EWS 操作**</span><span class="sxs-lookup"><span data-stu-id="10a59-111">**Use this EWS operation**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="c8728-112">在批处理中创建日历项</span><span class="sxs-lookup"><span data-stu-id="c8728-112">Create calendar items in batches</span></span>  <br/> |[<span data-ttu-id="c8728-113">CreateItems</span><span class="sxs-lookup"><span data-stu-id="c8728-113">CreateItems</span></span>](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.createitems%28v=exchg.80%29.aspx) <br/> |[<span data-ttu-id="c8728-114">CreateItem</span><span class="sxs-lookup"><span data-stu-id="c8728-114">CreateItem</span></span>](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) <br/> |
-|<span data-ttu-id="c8728-115">获取批次中的日历项目</span><span class="sxs-lookup"><span data-stu-id="c8728-115">Get calendar items in batches</span></span>  <br/> |[<span data-ttu-id="c8728-116">BindToItems</span><span class="sxs-lookup"><span data-stu-id="c8728-116">BindToItems</span></span>](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.bindtoitems%28v=exchg.80%29.aspx) <br/> |[<span data-ttu-id="c8728-117">GetItem</span><span class="sxs-lookup"><span data-stu-id="c8728-117">GetItem</span></span>](http://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) <br/> |
-|<span data-ttu-id="c8728-118">更新批次中的日历项目</span><span class="sxs-lookup"><span data-stu-id="c8728-118">Update calendar items in batches</span></span>  <br/> |[<span data-ttu-id="c8728-119">UpdateItems</span><span class="sxs-lookup"><span data-stu-id="c8728-119">UpdateItems</span></span>](http://msdn.microsoft.com/en-us/library/dd634705%28v=exchg.80%29.aspx) <br/> |[<span data-ttu-id="c8728-120">UpdateItem</span><span class="sxs-lookup"><span data-stu-id="c8728-120">UpdateItem</span></span>](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> |
-|<span data-ttu-id="c8728-121">删除批次中的日历项目</span><span class="sxs-lookup"><span data-stu-id="c8728-121">Delete calendar items in batches</span></span>  <br/> |[<span data-ttu-id="c8728-122">DeleteItems</span><span class="sxs-lookup"><span data-stu-id="c8728-122">DeleteItems</span></span>](http://msdn.microsoft.com/en-us/library/dd635460%28v=exchg.80%29.aspx) <br/> |[<span data-ttu-id="c8728-123">DeleteItem</span><span class="sxs-lookup"><span data-stu-id="c8728-123">DeleteItem</span></span>](../web-service-reference/deleteitem-operation.md) <br/> |
-   
-<span data-ttu-id="c8728-124">在本文中，您将了解如何通过使用 EWS 托管 API 或 EWS 完成的日历项目的批次的基本任务。</span><span class="sxs-lookup"><span data-stu-id="c8728-124">In this article, you'll learn how to complete basic tasks for batches of calendar items by using the EWS Managed API or EWS.</span></span>
-  
-<span data-ttu-id="c8728-125">请注意，在本文中 EWS 托管 API 示例中，是否按顺序，调用方法您可以创建、 获取、 更新和删除的日历项目批，然后。</span><span class="sxs-lookup"><span data-stu-id="c8728-125">Note that in the EWS Managed API examples in this article, if the methods are called sequentially, you can create, get, update, and then delete a batch of calendar items.</span></span>
-  
+|<span data-ttu-id="10a59-112">成批创建日历项目</span><span class="sxs-lookup"><span data-stu-id="10a59-112">Create calendar items in batches</span></span>  <br/> |[<span data-ttu-id="10a59-113">CreateItems</span><span class="sxs-lookup"><span data-stu-id="10a59-113">CreateItems</span></span>](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.createitems%28v=exchg.80%29.aspx) <br/> |[<span data-ttu-id="10a59-114">CreateItem</span><span class="sxs-lookup"><span data-stu-id="10a59-114">CreateItem</span></span>](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) <br/> |
+|<span data-ttu-id="10a59-115">批量获取日历项目</span><span class="sxs-lookup"><span data-stu-id="10a59-115">Get calendar items in batches</span></span>  <br/> |[<span data-ttu-id="10a59-116">BindToItems</span><span class="sxs-lookup"><span data-stu-id="10a59-116">BindToItems</span></span>](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.bindtoitems%28v=exchg.80%29.aspx) <br/> |[<span data-ttu-id="10a59-117">GetItem</span><span class="sxs-lookup"><span data-stu-id="10a59-117">GetItem</span></span>](https://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) <br/> |
+|<span data-ttu-id="10a59-118">成批更新日历项目</span><span class="sxs-lookup"><span data-stu-id="10a59-118">Update calendar items in batches</span></span>  <br/> |[<span data-ttu-id="10a59-119">UpdateItems</span><span class="sxs-lookup"><span data-stu-id="10a59-119">UpdateItems</span></span>](https://msdn.microsoft.com/library/dd634705%28v=exchg.80%29.aspx) <br/> |[<span data-ttu-id="10a59-120">UpdateItem</span><span class="sxs-lookup"><span data-stu-id="10a59-120">UpdateItem</span></span>](https://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> |
+|<span data-ttu-id="10a59-121">成批删除日历项目</span><span class="sxs-lookup"><span data-stu-id="10a59-121">Delete calendar items in batches</span></span>  <br/> |[<span data-ttu-id="10a59-122">DeleteItems</span><span class="sxs-lookup"><span data-stu-id="10a59-122">DeleteItems</span></span>](https://msdn.microsoft.com/library/dd635460%28v=exchg.80%29.aspx) <br/> |[<span data-ttu-id="10a59-123">DeleteItem</span><span class="sxs-lookup"><span data-stu-id="10a59-123">DeleteItem</span></span>](../web-service-reference/deleteitem-operation.md) <br/> |
+
+<span data-ttu-id="10a59-124">在本文中，您将了解如何使用 EWS 托管 API 或 EWS 完成批次日历项目的基本任务。</span><span class="sxs-lookup"><span data-stu-id="10a59-124">In this article, you'll learn how to complete basic tasks for batches of calendar items by using the EWS Managed API or EWS.</span></span>
+
+<span data-ttu-id="10a59-125">请注意，在本文的 EWS 托管 API 示例中，如果方法是按顺序调用的，则可以创建、获取、更新和删除一批日历项。</span><span class="sxs-lookup"><span data-stu-id="10a59-125">Note that in the EWS Managed API examples in this article, if the methods are called sequentially, you can create, get, update, and then delete a batch of calendar items.</span></span>
+
 ```cs
 Collection<ItemId> itemIds = BatchCreateCalendarItems(service);
 Collection<Appointment> myAppointments = BatchGetCalendarItems(service, itemIds);
@@ -40,13 +40,13 @@ BatchDeleteCalendarItemsTwice(service, itemIds);
 
 ```
 
-## <a name="create-calendar-items-in-batches-by-using-the-ews-managed-api"></a><span data-ttu-id="c8728-126">通过使用 EWS 托管 API 批次中创建日历项目</span><span class="sxs-lookup"><span data-stu-id="c8728-126">Create calendar items in batches by using the EWS Managed API</span></span>
-<span data-ttu-id="c8728-127"><a name="bk_createewsma"> </a></span><span class="sxs-lookup"><span data-stu-id="c8728-127"></span></span>
+## <a name="create-calendar-items-in-batches-by-using-the-ews-managed-api"></a><span data-ttu-id="10a59-126">使用 EWS 托管 API 成批创建日历项目</span><span class="sxs-lookup"><span data-stu-id="10a59-126">Create calendar items in batches by using the EWS Managed API</span></span>
+<span data-ttu-id="10a59-127"><a name="bk_createewsma"> </a></span><span class="sxs-lookup"><span data-stu-id="10a59-127"><a name="bk_createewsma"> </a></span></span>
 
-<span data-ttu-id="c8728-128">下面的示例中所示，可以创建批次中使用[CreateItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.createitems%28v=exchg.80%29.aspx) EWS 托管 API 方法的日历项目。</span><span class="sxs-lookup"><span data-stu-id="c8728-128">You can create calendar items in batches by using the [CreateItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.createitems%28v=exchg.80%29.aspx) EWS Managed API method, as shown in the following example.</span></span> <span data-ttu-id="c8728-129">本示例创建三个[约会](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx)对象 — 单实例约会、 定期约会和会议，然后将其添加到集合。</span><span class="sxs-lookup"><span data-stu-id="c8728-129">This example creates three [Appointment](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) objects — a single-instance appointment, a recurring appointment, and a meeting — and then adds them to a collection.</span></span> 
-  
-<span data-ttu-id="c8728-130">此示例假定您具有身份验证向 Exchange 服务器，并已获取名为**服务** [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象。</span><span class="sxs-lookup"><span data-stu-id="c8728-130">This example assumes that you have authenticated to an Exchange server and have acquired an [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object named **service**.</span></span> 
-  
+<span data-ttu-id="10a59-128">您可以使用[CreateItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.createitems%28v=exchg.80%29.aspx) EWS 托管 API 方法成批创建日历项目，如下面的示例所示。</span><span class="sxs-lookup"><span data-stu-id="10a59-128">You can create calendar items in batches by using the [CreateItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.createitems%28v=exchg.80%29.aspx) EWS Managed API method, as shown in the following example.</span></span> <span data-ttu-id="10a59-129">本示例创建三个[约会](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx)对象（单个实例约会、一个定期约会和一个会议），然后将其添加到集合中。</span><span class="sxs-lookup"><span data-stu-id="10a59-129">This example creates three [Appointment](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) objects — a single-instance appointment, a recurring appointment, and a meeting — and then adds them to a collection.</span></span>
+
+<span data-ttu-id="10a59-130">此示例假定您已通过 Exchange 服务器的身份验证，并获取了名为 "**服务**" 的[ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象。</span><span class="sxs-lookup"><span data-stu-id="10a59-130">This example assumes that you have authenticated to an Exchange server and have acquired an [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object named **service**.</span></span>
+
 ```cs
 public static Collection<ItemId> BatchCreateCalendarItems(ExchangeService service)
 {
@@ -89,7 +89,7 @@ public static Collection<ItemId> BatchCreateCalendarItems(ExchangeService servic
     Collection<Appointment> calendarItems = new Collection<Appointment>() { appt1, recurrAppt2, meeting3 };
     // Instantiate a collection of item IDs to populate from the values that are returned by the Exchange server.
     Collection<ItemId> itemIds = new Collection<ItemId>();
-            
+
     // Send the batch of Appointment objects.
     // Note that multiple calls to the Exchange server might be made when Appointment objects have attachments.
     // Note also that the the ID of the item collection passed as the first parameter to CreateItems is set on return.
@@ -122,19 +122,19 @@ return itemIds;
 
 ```
 
-<span data-ttu-id="c8728-131">集合中的[约会](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx)对象可以是约会或会议，和单实例或定期系列。</span><span class="sxs-lookup"><span data-stu-id="c8728-131">The [Appointment](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) objects in the collection can be appointments or meetings, and either single instances or a recurring series of either.</span></span> 
-  
-## <a name="create-calendar-items-in-batches-by-using-ews"></a><span data-ttu-id="c8728-132">通过使用 EWS 批次中创建日历项目</span><span class="sxs-lookup"><span data-stu-id="c8728-132">Create calendar items in batches by using EWS</span></span>
-<span data-ttu-id="c8728-133"><a name="bk_createews"> </a></span><span class="sxs-lookup"><span data-stu-id="c8728-133"></span></span>
+<span data-ttu-id="10a59-131">集合中的[约会](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx)对象可以是约会或会议，也可以是单个实例，也可以是的一个定期系列。</span><span class="sxs-lookup"><span data-stu-id="10a59-131">The [Appointment](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) objects in the collection can be appointments or meetings, and either single instances or a recurring series of either.</span></span>
 
-<span data-ttu-id="c8728-134">下面的代码示例中所示，可以创建批次中使用[CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) EWS 操作的日历项目。</span><span class="sxs-lookup"><span data-stu-id="c8728-134">You can create calendar items in batches by using the [CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) EWS operation, as shown in the following code example.</span></span> <span data-ttu-id="c8728-135">这也是使用 EWS 托管 API 创建[批次中的日历项目](#bk_createewsma)时，将发送 EWS 托管 API 的 XML 请求。</span><span class="sxs-lookup"><span data-stu-id="c8728-135">This is also the XML request that the EWS Managed API sends when you use the EWS Managed API to [create calendar items in batches](#bk_createewsma).</span></span>
-  
+## <a name="create-calendar-items-in-batches-by-using-ews"></a><span data-ttu-id="10a59-132">使用 EWS 以批处理方式创建日历项目</span><span class="sxs-lookup"><span data-stu-id="10a59-132">Create calendar items in batches by using EWS</span></span>
+<span data-ttu-id="10a59-133"><a name="bk_createews"> </a></span><span class="sxs-lookup"><span data-stu-id="10a59-133"><a name="bk_createews"> </a></span></span>
+
+<span data-ttu-id="10a59-134">您可以使用[CreateItem](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) EWS 操作在批处理中创建日历项目，如下面的代码示例所示。</span><span class="sxs-lookup"><span data-stu-id="10a59-134">You can create calendar items in batches by using the [CreateItem](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) EWS operation, as shown in the following code example.</span></span> <span data-ttu-id="10a59-135">这也是当您使用 EWS 托管 API[成批创建日历项目](#bk_createewsma)时，EWS 托管 api 发送的 XML 请求。</span><span class="sxs-lookup"><span data-stu-id="10a59-135">This is also the XML request that the EWS Managed API sends when you use the EWS Managed API to [create calendar items in batches](#bk_createewsma).</span></span>
+
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
     <t:TimeZoneContext>
@@ -206,24 +206,24 @@ return itemIds;
 
 ```
 
-<span data-ttu-id="c8728-136">服务器响应**CreateItem**请求[CreateItemResponse](http://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx)消息的新的日历项目，这表明已创建的每个日历项目的每个包含**NoError** [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx)值成功。</span><span class="sxs-lookup"><span data-stu-id="c8728-136">The server responds to the **CreateItem** request with a [CreateItemResponse](http://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) message that includes a [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) value of **NoError** for each of the new calendar items, which indicates that each calendar item was created successfully.</span></span> 
-  
-<span data-ttu-id="c8728-137">注意的日历项目的会议或约会或单个实例或定期系列，根据传递到 Exchange 服务器的每个日历项目的元素的值。</span><span class="sxs-lookup"><span data-stu-id="c8728-137">Note that the calendar items are either meetings or appointments, or single instances or a recurring series, according to the element values of each calendar item passed to the Exchange server.</span></span>
-  
-<span data-ttu-id="c8728-138">以下是来自服务器的响应。</span><span class="sxs-lookup"><span data-stu-id="c8728-138">The following is the response from the server.</span></span> <span data-ttu-id="c8728-139">为便于阅读缩短**ItemId**和**更改密钥**属性。</span><span class="sxs-lookup"><span data-stu-id="c8728-139">The **ItemId** and **ChangeKey** attributes are shortened for readability.</span></span> 
-  
+<span data-ttu-id="10a59-136">服务器使用[CreateItemResponse](https://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx)邮件响应**CreateItem**请求，其中包含每个新日历项目的[ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx)值**NoError** ，这表明已成功创建每个日历项目。</span><span class="sxs-lookup"><span data-stu-id="10a59-136">The server responds to the **CreateItem** request with a [CreateItemResponse](https://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) message that includes a [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) value of **NoError** for each of the new calendar items, which indicates that each calendar item was created successfully.</span></span>
+
+<span data-ttu-id="10a59-137">请注意，根据传递到 Exchange 服务器的每个日历项目的元素值，日历项目是会议或约会，也可以是单个实例或定期系列。</span><span class="sxs-lookup"><span data-stu-id="10a59-137">Note that the calendar items are either meetings or appointments, or single instances or a recurring series, according to the element values of each calendar item passed to the Exchange server.</span></span>
+
+<span data-ttu-id="10a59-138">以下是来自服务器的响应。</span><span class="sxs-lookup"><span data-stu-id="10a59-138">The following is the response from the server.</span></span> <span data-ttu-id="10a59-139">为提高可读性，将缩短**ItemId**和**ChangeKey**属性。</span><span class="sxs-lookup"><span data-stu-id="10a59-139">The **ItemId** and **ChangeKey** attributes are shortened for readability.</span></span>
+
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
-    <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="847" MinorBuildNumber="12" Version="V2_8" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+    <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="847" MinorBuildNumber="12" Version="V2_8"
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:CreateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                          xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:CreateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                          xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:CreateItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -256,13 +256,13 @@ return itemIds;
 
 ```
 
-## <a name="get-calendar-items-in-batches-by-using-the-ews-managed-api"></a><span data-ttu-id="c8728-140">通过使用 EWS 托管 API 获取批次中的日历项目</span><span class="sxs-lookup"><span data-stu-id="c8728-140">Get calendar items in batches by using the EWS Managed API</span></span>
-<span data-ttu-id="c8728-141"><a name="bk_getewsma"> </a></span><span class="sxs-lookup"><span data-stu-id="c8728-141"></span></span>
+## <a name="get-calendar-items-in-batches-by-using-the-ews-managed-api"></a><span data-ttu-id="10a59-140">使用 EWS 托管 API 成批获取日历项目</span><span class="sxs-lookup"><span data-stu-id="10a59-140">Get calendar items in batches by using the EWS Managed API</span></span>
+<span data-ttu-id="10a59-141"><a name="bk_getewsma"> </a></span><span class="sxs-lookup"><span data-stu-id="10a59-141"><a name="bk_getewsma"> </a></span></span>
 
-<span data-ttu-id="c8728-142">下面的示例中所示，可以获取批次中使用[BindToItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.bindtoitems%28v=exchg.80%29.aspx) EWS 托管 API 方法的日历项目。</span><span class="sxs-lookup"><span data-stu-id="c8728-142">You can get calendar items in batches by using the [BindToItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.bindtoitems%28v=exchg.80%29.aspx) EWS Managed API method, as shown in the following example.</span></span> 
-  
-<span data-ttu-id="c8728-143">此示例假定您具有身份验证向 Exchange 服务器，并已获取名为**服务** [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象。</span><span class="sxs-lookup"><span data-stu-id="c8728-143">This example assumes that you have authenticated to an Exchange server and have acquired an [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object named **service**.</span></span> 
-  
+<span data-ttu-id="10a59-142">您可以使用[BindToItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.bindtoitems%28v=exchg.80%29.aspx) EWS 托管 API 方法成批获取日历项目，如下面的示例所示。</span><span class="sxs-lookup"><span data-stu-id="10a59-142">You can get calendar items in batches by using the [BindToItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.bindtoitems%28v=exchg.80%29.aspx) EWS Managed API method, as shown in the following example.</span></span>
+
+<span data-ttu-id="10a59-143">此示例假定您已通过 Exchange 服务器的身份验证，并获取了名为 "**服务**" 的[ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象。</span><span class="sxs-lookup"><span data-stu-id="10a59-143">This example assumes that you have authenticated to an Exchange server and have acquired an [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object named **service**.</span></span>
+
 ```cs
 public static Collection<Appointment> BatchGetCalendarItems(ExchangeService service, Collection<ItemId> itemIds)
 {
@@ -276,7 +276,7 @@ public static Collection<Appointment> BatchGetCalendarItems(ExchangeService serv
                                                    AppointmentSchema.AppointmentType,
                                                    AppointmentSchema.Location,
                                                    AppointmentSchema.RequiredAttendees);
-            
+
     ServiceResponseCollection<GetItemResponse> response = service.BindToItems(itemIds, appointmentProps);
     Collection<Appointment> calendarItems = new Collection<Appointment>();
     foreach (GetItemResponse items in response)
@@ -310,19 +310,19 @@ public static Collection<Appointment> BatchGetCalendarItems(ExchangeService serv
 
 ```
 
-## <a name="get-calendar-items-in-batches-by-using-ews"></a><span data-ttu-id="c8728-144">通过使用 EWS 获取批次中的日历项目</span><span class="sxs-lookup"><span data-stu-id="c8728-144">Get calendar items in batches by using EWS</span></span>
-<span data-ttu-id="c8728-145"><a name="bk_getews"> </a></span><span class="sxs-lookup"><span data-stu-id="c8728-145"></span></span>
+## <a name="get-calendar-items-in-batches-by-using-ews"></a><span data-ttu-id="10a59-144">使用 EWS 按批获取日历项目</span><span class="sxs-lookup"><span data-stu-id="10a59-144">Get calendar items in batches by using EWS</span></span>
+<span data-ttu-id="10a59-145"><a name="bk_getews"> </a></span><span class="sxs-lookup"><span data-stu-id="10a59-145"><a name="bk_getews"> </a></span></span>
 
-<span data-ttu-id="c8728-146">您可以通过使用[GetItem](http://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) EWS 操作的批次中获取日历项目下面的示例中所示。</span><span class="sxs-lookup"><span data-stu-id="c8728-146">You can get calendar items in batches by using the [GetItem](http://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) EWS operation, as shown in the following example.</span></span> <span data-ttu-id="c8728-147">这也是 EWS 托管 API 时您使用 EWS 托管 API[获取日历项批次中的](#bk_getewsma)发送的 XML 请求。</span><span class="sxs-lookup"><span data-stu-id="c8728-147">This is also the XML request that the EWS Managed API sends when you use the EWS Managed API to [get calendar items in batches](#bk_getewsma).</span></span>
-  
-<span data-ttu-id="c8728-148">为便于阅读缩短**ItemId**和**更改密钥**属性。</span><span class="sxs-lookup"><span data-stu-id="c8728-148">The **ItemId** and **ChangeKey** attributes are shortened for readability.</span></span> 
-  
+<span data-ttu-id="10a59-146">您可以使用[GetItem](https://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) EWS 操作在批处理中获取日历项目，如下面的示例所示。</span><span class="sxs-lookup"><span data-stu-id="10a59-146">You can get calendar items in batches by using the [GetItem](https://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) EWS operation, as shown in the following example.</span></span> <span data-ttu-id="10a59-147">这也是当您使用 EWS 托管 API[成批获取日历项目](#bk_getewsma)时，EWS 托管 api 发送的 XML 请求。</span><span class="sxs-lookup"><span data-stu-id="10a59-147">This is also the XML request that the EWS Managed API sends when you use the EWS Managed API to [get calendar items in batches](#bk_getewsma).</span></span>
+
+<span data-ttu-id="10a59-148">为提高可读性，将缩短**ItemId**和**ChangeKey**属性。</span><span class="sxs-lookup"><span data-stu-id="10a59-148">The **ItemId** and **ChangeKey** attributes are shortened for readability.</span></span>
+
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
     <t:TimeZoneContext>
@@ -355,20 +355,20 @@ public static Collection<Appointment> BatchGetCalendarItems(ExchangeService serv
 
 ```
 
-<span data-ttu-id="c8728-149">服务器响应**GetItem**请求[GetItemResponse](http://msdn.microsoft.com/library/8b66de1b-26a6-476c-9585-a96059125716%28Office.15%29.aspx)邮件具有请求属性的每个项，如下面的示例中所示。</span><span class="sxs-lookup"><span data-stu-id="c8728-149">The server responds to the **GetItem** request with a [GetItemResponse](http://msdn.microsoft.com/library/8b66de1b-26a6-476c-9585-a96059125716%28Office.15%29.aspx) message with the requested properties for each item, as shown in the following example.</span></span> 
-  
+<span data-ttu-id="10a59-149">服务器使用[GetItemResponse](https://msdn.microsoft.com/library/8b66de1b-26a6-476c-9585-a96059125716%28Office.15%29.aspx)邮件响应**GetItem**请求，其中包含每个项目的请求属性，如以下示例所示。</span><span class="sxs-lookup"><span data-stu-id="10a59-149">The server responds to the **GetItem** request with a [GetItemResponse](https://msdn.microsoft.com/library/8b66de1b-26a6-476c-9585-a96059125716%28Office.15%29.aspx) message with the requested properties for each item, as shown in the following example.</span></span>
+
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
-    <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="847" MinorBuildNumber="16" Version="V2_8" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+    <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="847" MinorBuildNumber="16" Version="V2_8"
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:GetItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:GetItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:GetItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -474,35 +474,35 @@ public static Collection<Appointment> BatchGetCalendarItems(ExchangeService serv
 
 ```
 
-## <a name="update-calendar-items-in-batches-by-using-the-ews-managed-api"></a><span data-ttu-id="c8728-150">使用 EWS 托管 API 更新批次中的日历项目</span><span class="sxs-lookup"><span data-stu-id="c8728-150">Update calendar items in batches by using the EWS Managed API</span></span>
-<span data-ttu-id="c8728-151"><a name="bk_updateewsma"> </a></span><span class="sxs-lookup"><span data-stu-id="c8728-151"></span></span>
+## <a name="update-calendar-items-in-batches-by-using-the-ews-managed-api"></a><span data-ttu-id="10a59-150">使用 EWS 托管 API 更新批处理中的日历项</span><span class="sxs-lookup"><span data-stu-id="10a59-150">Update calendar items in batches by using the EWS Managed API</span></span>
+<span data-ttu-id="10a59-151"><a name="bk_updateewsma"> </a></span><span class="sxs-lookup"><span data-stu-id="10a59-151"><a name="bk_updateewsma"> </a></span></span>
 
-<span data-ttu-id="c8728-152">下面的示例中所示，您可以通过使用[UpdateItems](http://msdn.microsoft.com/en-us/library/dd634705%28v=exchg.80%29.aspx) EWS 托管 API 方法中，更新批次中的日历项目属性。</span><span class="sxs-lookup"><span data-stu-id="c8728-152">You can update calendar item properties in batches by using the [UpdateItems](http://msdn.microsoft.com/en-us/library/dd634705%28v=exchg.80%29.aspx) EWS Managed API method, as shown in the following example.</span></span> 
-  
-<span data-ttu-id="c8728-153">此示例假定您具有身份验证向 Exchange 服务器，并已获取名为**服务** [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象。</span><span class="sxs-lookup"><span data-stu-id="c8728-153">This example assumes that you have authenticated to an Exchange server and have acquired an [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object named **service**.</span></span> 
-  
+<span data-ttu-id="10a59-152">您可以使用[UpdateItems](https://msdn.microsoft.com/library/dd634705%28v=exchg.80%29.aspx) EWS 托管 API 方法成批更新日历项目属性，如下面的示例所示。</span><span class="sxs-lookup"><span data-stu-id="10a59-152">You can update calendar item properties in batches by using the [UpdateItems](https://msdn.microsoft.com/library/dd634705%28v=exchg.80%29.aspx) EWS Managed API method, as shown in the following example.</span></span>
+
+<span data-ttu-id="10a59-153">此示例假定您已通过 Exchange 服务器的身份验证，并获取了名为 "**服务**" 的[ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象。</span><span class="sxs-lookup"><span data-stu-id="10a59-153">This example assumes that you have authenticated to an Exchange server and have acquired an [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object named **service**.</span></span>
+
 ```cs
-public static Collection<ItemId> BatchUpdateCalendarItems(ExchangeService service, Collection<Appointment> calenderItems)
+public static Collection<ItemId> BatchUpdateCalendarItems(ExchangeService service, Collection<Appointment> calendarItems)
 {
     int i = 1;
     // Appointment item IDs to return.
     Collection<ItemId> itemIds = new Collection<ItemId>();
-            
+
     // Update the subject of each calendar item locally.
-    foreach (Appointment appointment in calenderItems)
+    foreach (Appointment appointment in calendarItems)
     {
         // Update the subject of each calendar item in the collection
         appointment.Subject = "Company headquarters are moving down the street to 1234 Contoso Drive!: " + appointment.Subject.ToString();
-        Console.WriteLine("Updated the subject property for calendar item {0} of {1}, item id {2}.", i, calenderItems.Count, appointment.Id.ToString().Substring(0, 5));
+        Console.WriteLine("Updated the subject property for calendar item {0} of {1}, item id {2}.", i, calendarItems.Count, appointment.Id.ToString().Substring(0, 5));
         i++;
         // Collect item IDs to return instead of appointment objects.
         itemIds.Add(appointment.Id);
     }
     // Send the updated items to the server.
     // This method call results in an UpdateItem call to EWS.
-    ServiceResponseCollection<UpdateItemResponse> response = service.UpdateItems(calenderItems, 
-                                                                                 WellKnownFolderName.Calendar, 
-                                                                                 ConflictResolutionMode.AutoResolve, 
+    ServiceResponseCollection<UpdateItemResponse> response = service.UpdateItems(calendarItems,
+                                                                                 WellKnownFolderName.Calendar,
+                                                                                 ConflictResolutionMode.AutoResolve,
                                                                                  MessageDisposition.SendAndSaveCopy,
                                                                                     SendInvitationsOrCancellationsMode.SendToChangedAndSaveCopy);
     // Display the result of the UpdateItems method call.
@@ -523,21 +523,21 @@ public static Collection<ItemId> BatchUpdateCalendarItems(ExchangeService servic
         }
     }
     return itemIds;
-}  
+}
 
 ```
 
-## <a name="update-calendar-items-in-batches-by-using-ews"></a><span data-ttu-id="c8728-154">使用 EWS 更新批次中的日历项目</span><span class="sxs-lookup"><span data-stu-id="c8728-154">Update calendar items in batches by using EWS</span></span>
-<span data-ttu-id="c8728-155"><a name="bk_updateews"> </a></span><span class="sxs-lookup"><span data-stu-id="c8728-155"></span></span>
+## <a name="update-calendar-items-in-batches-by-using-ews"></a><span data-ttu-id="10a59-154">使用 EWS 更新批次中的日历项目</span><span class="sxs-lookup"><span data-stu-id="10a59-154">Update calendar items in batches by using EWS</span></span>
+<span data-ttu-id="10a59-155"><a name="bk_updateews"> </a></span><span class="sxs-lookup"><span data-stu-id="10a59-155"><a name="bk_updateews"> </a></span></span>
 
-<span data-ttu-id="c8728-156">您可以通过使用[UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) EWS 操作，更新多个日历项目，如下面的代码示例中所示。</span><span class="sxs-lookup"><span data-stu-id="c8728-156">You can update multiple calendar items by using the [UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) EWS operation, as shown in following code example.</span></span> <span data-ttu-id="c8728-157">这也是使用 EWS 托管 API 更新[批次中的日历项目](#bk_updateewsma)时，将发送 EWS 托管 API 的 XML 请求。</span><span class="sxs-lookup"><span data-stu-id="c8728-157">This is also the XML request that the EWS Managed API sends when you use the EWS Managed API to [update calendar items in batches](#bk_updateewsma).</span></span>
-  
+<span data-ttu-id="10a59-156">您可以使用[UpdateItem](https://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) EWS 操作更新多个日历项目，如下面的代码示例所示。</span><span class="sxs-lookup"><span data-stu-id="10a59-156">You can update multiple calendar items by using the [UpdateItem](https://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) EWS operation, as shown in following code example.</span></span> <span data-ttu-id="10a59-157">这也是当您使用 EWS 托管 API[成批更新日历项目](#bk_updateewsma)时，EWS 托管 api 发送的 XML 请求。</span><span class="sxs-lookup"><span data-stu-id="10a59-157">This is also the XML request that the EWS Managed API sends when you use the EWS Managed API to [update calendar items in batches](#bk_updateewsma).</span></span>
+
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
     <t:TimeZoneContext>
@@ -545,7 +545,7 @@ public static Collection<ItemId> BatchUpdateCalendarItems(ExchangeService servic
     </t:TimeZoneContext>
   </soap:Header>
   <soap:Body>
-    <m:UpdateItem MessageDisposition="SendAndSaveCopy" ConflictResolution="AutoResolve" 
+    <m:UpdateItem MessageDisposition="SendAndSaveCopy" ConflictResolution="AutoResolve"
                   SendMeetingInvitationsOrCancellations="SendToChangedAndSaveCopy">
       <m:SavedItemFolderId>
         <t:DistinguishedFolderId Id="calendar" />
@@ -592,20 +592,20 @@ public static Collection<ItemId> BatchUpdateCalendarItems(ExchangeService servic
 
 ```
 
-<span data-ttu-id="c8728-158">服务器响应**UpdateItem**请求使用[UpdateItemResponse](http://msdn.microsoft.com/library/023b79b4-c675-4669-9112-d85499ec4fc4%28Office.15%29.aspx)消息，其中包括[ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **NoError**，这表明，每个更新已成功保存在服务器上的值。</span><span class="sxs-lookup"><span data-stu-id="c8728-158">The server responds to the **UpdateItem** request with an [UpdateItemResponse](http://msdn.microsoft.com/library/023b79b4-c675-4669-9112-d85499ec4fc4%28Office.15%29.aspx) message that includes a [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) value of **NoError**, which indicates that each of the updates was saved successfully on the server.</span></span> <span data-ttu-id="c8728-159">[ConflictResult](http://msdn.microsoft.com/library/08cdd547-4de7-4c7a-b60f-e618dc217d20%28Office.15%29.aspx)元素中报告的所有冲突。</span><span class="sxs-lookup"><span data-stu-id="c8728-159">Any conflicts are reported in the [ConflictResult](http://msdn.microsoft.com/library/08cdd547-4de7-4c7a-b60f-e618dc217d20%28Office.15%29.aspx) element.</span></span> 
-  
+<span data-ttu-id="10a59-158">服务器使用[UpdateItemResponse](https://msdn.microsoft.com/library/023b79b4-c675-4669-9112-d85499ec4fc4%28Office.15%29.aspx)邮件响应**UpdateItem**请求，其中包括[ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx)值**NoError**，这表示每个更新在服务器上成功保存。</span><span class="sxs-lookup"><span data-stu-id="10a59-158">The server responds to the **UpdateItem** request with an [UpdateItemResponse](https://msdn.microsoft.com/library/023b79b4-c675-4669-9112-d85499ec4fc4%28Office.15%29.aspx) message that includes a [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) value of **NoError**, which indicates that each of the updates was saved successfully on the server.</span></span> <span data-ttu-id="10a59-159">任何冲突都会在[ConflictResult](https://msdn.microsoft.com/library/08cdd547-4de7-4c7a-b60f-e618dc217d20%28Office.15%29.aspx)元素中进行报告。</span><span class="sxs-lookup"><span data-stu-id="10a59-159">Any conflicts are reported in the [ConflictResult](https://msdn.microsoft.com/library/08cdd547-4de7-4c7a-b60f-e618dc217d20%28Office.15%29.aspx) element.</span></span>
+
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
-    <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="859" MinorBuildNumber="13" 
-                         Version="V2_8" xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+    <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="859" MinorBuildNumber="13"
+                         Version="V2_8" xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:UpdateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                          xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:UpdateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                          xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:UpdateItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -647,21 +647,21 @@ public static Collection<ItemId> BatchUpdateCalendarItems(ExchangeService servic
 
 ```
 
-## <a name="delete-calendar-items-in-batches-by-using-the-ews-managed-api"></a><span data-ttu-id="c8728-160">使用 EWS 托管 API 删除批次中的日历项目</span><span class="sxs-lookup"><span data-stu-id="c8728-160">Delete calendar items in batches by using the EWS Managed API</span></span>
-<span data-ttu-id="c8728-161"><a name="bk_deleteewsma"> </a></span><span class="sxs-lookup"><span data-stu-id="c8728-161"></span></span>
+## <a name="delete-calendar-items-in-batches-by-using-the-ews-managed-api"></a><span data-ttu-id="10a59-160">使用 EWS 托管 API 成批删除日历项目</span><span class="sxs-lookup"><span data-stu-id="10a59-160">Delete calendar items in batches by using the EWS Managed API</span></span>
+<span data-ttu-id="10a59-161"><a name="bk_deleteewsma"> </a></span><span class="sxs-lookup"><span data-stu-id="10a59-161"><a name="bk_deleteewsma"> </a></span></span>
 
-<span data-ttu-id="c8728-162">下面的示例中所示，您可以使用[DeleteItems](http://msdn.microsoft.com/en-us/library/dd635460%28v=exchg.80%29.aspx) EWS 托管 API 方法中，删除批次中的日历项目。</span><span class="sxs-lookup"><span data-stu-id="c8728-162">You can delete calendar items in batches by using the [DeleteItems](http://msdn.microsoft.com/en-us/library/dd635460%28v=exchg.80%29.aspx) EWS Managed API method, as shown in the following example.</span></span> <span data-ttu-id="c8728-163">本示例将删除请求显示没有异常，但进行呼叫时，则服务器将返回**ErrorItemNotFound**错误，指示要删除的项目未存储中的第二个时间。</span><span class="sxs-lookup"><span data-stu-id="c8728-163">This example makes the deletion request a second time to show that no exceptions are thrown but that the server will return an **ErrorItemNotFound** error to indicate that the items to delete weren't in the store when the call was made.</span></span> <span data-ttu-id="c8728-164">如果已删除项目，或者如果错误项 ID 传递给服务器，则返回此错误。</span><span class="sxs-lookup"><span data-stu-id="c8728-164">This error is returned if the item has already been deleted, or if a bad item ID is passed to the server.</span></span> 
-  
-<span data-ttu-id="c8728-165">此示例假定您具有身份验证向 Exchange 服务器，并已获取名为**服务** [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象。</span><span class="sxs-lookup"><span data-stu-id="c8728-165">This example assumes that you have authenticated to an Exchange server and have acquired an [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object named **service**.</span></span> 
-  
+<span data-ttu-id="10a59-162">您可以使用[DeleteItems](https://msdn.microsoft.com/library/dd635460%28v=exchg.80%29.aspx) EWS 托管 API 方法成批删除日历项目，如下面的示例所示。</span><span class="sxs-lookup"><span data-stu-id="10a59-162">You can delete calendar items in batches by using the [DeleteItems](https://msdn.microsoft.com/library/dd635460%28v=exchg.80%29.aspx) EWS Managed API method, as shown in the following example.</span></span> <span data-ttu-id="10a59-163">本示例将再次发出删除请求，以显示不引发任何异常，并且服务器将返回**ErrorItemNotFound**错误，以指示在进行调用时，存储区中没有要删除的项目。</span><span class="sxs-lookup"><span data-stu-id="10a59-163">This example makes the deletion request a second time to show that no exceptions are thrown but that the server will return an **ErrorItemNotFound** error to indicate that the items to delete weren't in the store when the call was made.</span></span> <span data-ttu-id="10a59-164">如果该项已被删除，或者如果将错误的项目 ID 传递到服务器，则会返回此错误。</span><span class="sxs-lookup"><span data-stu-id="10a59-164">This error is returned if the item has already been deleted, or if a bad item ID is passed to the server.</span></span>
+
+<span data-ttu-id="10a59-165">此示例假定您已通过 Exchange 服务器的身份验证，并获取了名为 "**服务**" 的[ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象。</span><span class="sxs-lookup"><span data-stu-id="10a59-165">This example assumes that you have authenticated to an Exchange server and have acquired an [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object named **service**.</span></span>
+
 ```cs
 public static void BatchDeleteCalendarItemsTwice(ExchangeService service, Collection<ItemId> itemIds)
 {
     // Delete the batch of appointment objects
     // This method call results in a DeleteItem call to EWS.
-    ServiceResponseCollection<ServiceResponse> response = service.DeleteItems(itemIds, 
-                                                                                DeleteMode.MoveToDeletedItems, 
-                                                                                SendCancellationsMode.SendToAllAndSaveCopy, 
+    ServiceResponseCollection<ServiceResponse> response = service.DeleteItems(itemIds,
+                                                                                DeleteMode.MoveToDeletedItems,
+                                                                                SendCancellationsMode.SendToAllAndSaveCopy,
                                                                                 AffectedTaskOccurrence.AllOccurrences);
     int counter = 1;
     // Show the IDs and errors for each message.
@@ -673,7 +673,7 @@ public static void BatchDeleteCalendarItemsTwice(ExchangeService service, Collec
         Console.WriteLine("ErrorMessage: {0}\r\n", resp.ErrorMessage);
         counter++;
     }
-            
+
     // Now attempt to delete the same items again.
     response = service.DeleteItems(itemIds,
                                     DeleteMode.MoveToDeletedItems,
@@ -693,21 +693,21 @@ public static void BatchDeleteCalendarItemsTwice(ExchangeService service, Collec
 
 ```
 
-<span data-ttu-id="c8728-166">**DeleteItems**方法调用第二次时，不会引发异常，但服务器在结果中返回**ErrorItemNotFound**错误。</span><span class="sxs-lookup"><span data-stu-id="c8728-166">When the **DeleteItems** method is called the second time, no exception is thrown, but the server returns an **ErrorItemNotFound** error in the result.</span></span> 
-  
-## <a name="delete-calendar-items-in-batches-by-using-ews"></a><span data-ttu-id="c8728-167">使用 EWS 删除批次中的日历项目</span><span class="sxs-lookup"><span data-stu-id="c8728-167">Delete calendar items in batches by using EWS</span></span>
-<span data-ttu-id="c8728-168"><a name="bk_deleteews"> </a></span><span class="sxs-lookup"><span data-stu-id="c8728-168"></span></span>
+<span data-ttu-id="10a59-166">第二次调用**DeleteItems**方法时，不会引发异常，但服务器会在结果中返回**ErrorItemNotFound**错误。</span><span class="sxs-lookup"><span data-stu-id="10a59-166">When the **DeleteItems** method is called the second time, no exception is thrown, but the server returns an **ErrorItemNotFound** error in the result.</span></span>
 
-<span data-ttu-id="c8728-169">下面的代码示例中所示，您可以使用[删除项](../web-service-reference/deleteitem-operation.md)EWS 操作中，删除批次中的日历项目。</span><span class="sxs-lookup"><span data-stu-id="c8728-169">You can delete calendar items in batches by using the [DeleteItem](../web-service-reference/deleteitem-operation.md) EWS operation, as shown in the following code example.</span></span> <span data-ttu-id="c8728-170">这也是使用 EWS 托管 API 到[删除批次中的日历项目](#bk_deleteewsma)时，将发送 EWS 托管 API 的 XML 请求。</span><span class="sxs-lookup"><span data-stu-id="c8728-170">This is also the XML request that the EWS Managed API sends when you use the EWS Managed API to [delete calendar items in batches](#bk_deleteewsma).</span></span> 
-  
-<span data-ttu-id="c8728-171">为便于阅读缩短**ItemId**和**更改密钥**属性。</span><span class="sxs-lookup"><span data-stu-id="c8728-171">The **ItemId** and **ChangeKey** attributes are shortened for readability.</span></span> 
-  
+## <a name="delete-calendar-items-in-batches-by-using-ews"></a><span data-ttu-id="10a59-167">使用 EWS 以批处理方式删除日历项目</span><span class="sxs-lookup"><span data-stu-id="10a59-167">Delete calendar items in batches by using EWS</span></span>
+<span data-ttu-id="10a59-168"><a name="bk_deleteews"> </a></span><span class="sxs-lookup"><span data-stu-id="10a59-168"><a name="bk_deleteews"> </a></span></span>
+
+<span data-ttu-id="10a59-169">您可以使用[DeleteItem](../web-service-reference/deleteitem-operation.md) EWS 操作在批处理中删除日历项目，如下面的代码示例所示。</span><span class="sxs-lookup"><span data-stu-id="10a59-169">You can delete calendar items in batches by using the [DeleteItem](../web-service-reference/deleteitem-operation.md) EWS operation, as shown in the following code example.</span></span> <span data-ttu-id="10a59-170">这也是在使用 EWS 托管 API[成批删除日历项目](#bk_deleteewsma)时，EWS 托管 api 发送的 XML 请求。</span><span class="sxs-lookup"><span data-stu-id="10a59-170">This is also the XML request that the EWS Managed API sends when you use the EWS Managed API to [delete calendar items in batches](#bk_deleteewsma).</span></span>
+
+<span data-ttu-id="10a59-171">为提高可读性，将缩短**ItemId**和**ChangeKey**属性。</span><span class="sxs-lookup"><span data-stu-id="10a59-171">The **ItemId** and **ChangeKey** attributes are shortened for readability.</span></span>
+
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
     <t:TimeZoneContext>
@@ -715,8 +715,8 @@ public static void BatchDeleteCalendarItemsTwice(ExchangeService service, Collec
     </t:TimeZoneContext>
   </soap:Header>
   <soap:Body>
-    <m:DeleteItem DeleteType="MoveToDeletedItems" 
-                  AffectedTaskOccurrences="AllOccurrences" 
+    <m:DeleteItem DeleteType="MoveToDeletedItems"
+                  AffectedTaskOccurrences="AllOccurrences"
                   SendMeetingCancellations="SendToAllAndSaveCopy">
       <m:ItemIds>
         <t:ItemId Id="AAMkA" ChangeKey="DwAAA" />
@@ -729,21 +729,21 @@ public static void BatchDeleteCalendarItemsTwice(ExchangeService service, Collec
 
 ```
 
-<span data-ttu-id="c8728-172">服务器响应[DeleteItemResponse](http://msdn.microsoft.com/library/86463d66-fe47-4a19-a81b-e24841e816ab%28Office.15%29.aspx)邮件包含已删除的每个项目**NoError** [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx)值**删除项**要求。</span><span class="sxs-lookup"><span data-stu-id="c8728-172">The server responds to the **DeleteItem** request with a [DeleteItemResponse](http://msdn.microsoft.com/library/86463d66-fe47-4a19-a81b-e24841e816ab%28Office.15%29.aspx) message that includes a [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) value of **NoError** for each item that was removed.</span></span> 
-  
+<span data-ttu-id="10a59-172">服务器使用[DeleteItemResponse](https://msdn.microsoft.com/library/86463d66-fe47-4a19-a81b-e24841e816ab%28Office.15%29.aspx)邮件响应**DeleteItem**请求，其中包含已删除的每个项目的[ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx)值**NoError** 。</span><span class="sxs-lookup"><span data-stu-id="10a59-172">The server responds to the **DeleteItem** request with a [DeleteItemResponse](https://msdn.microsoft.com/library/86463d66-fe47-4a19-a81b-e24841e816ab%28Office.15%29.aspx) message that includes a [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) value of **NoError** for each item that was removed.</span></span>
+
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
-    <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="859" MinorBuildNumber="13" Version="V2_8" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+    <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="859" MinorBuildNumber="13" Version="V2_8"
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:DeleteItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                          xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:DeleteItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                          xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:DeleteItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -761,21 +761,21 @@ public static void BatchDeleteCalendarItemsTwice(ExchangeService service, Collec
 
 ```
 
-<span data-ttu-id="c8728-173">请注意，如果**删除项**请求已被删除关联的项目后，将不引发任何异常，但服务器将在结果中返回**ErrorItemNotFound**错误。</span><span class="sxs-lookup"><span data-stu-id="c8728-173">Note that if the **DeleteItem** request is made when the associated items have already been deleted, no exception will be thrown, but the server will return an **ErrorItemNotFound** error in the result.</span></span> <span data-ttu-id="c8728-174">下面的示例显示了**删除项**请求的服务器响应时已被删除关联的项目。</span><span class="sxs-lookup"><span data-stu-id="c8728-174">The following example shows the server response to a **DeleteItem** request when the associated items have already been deleted.</span></span> 
-  
+<span data-ttu-id="10a59-173">请注意，如果在已删除关联项时发出**DeleteItem**请求，则不会引发异常，但服务器将在结果中返回**ErrorItemNotFound**错误。</span><span class="sxs-lookup"><span data-stu-id="10a59-173">Note that if the **DeleteItem** request is made when the associated items have already been deleted, no exception will be thrown, but the server will return an **ErrorItemNotFound** error in the result.</span></span> <span data-ttu-id="10a59-174">下面的示例演示在已删除关联项时，对**DeleteItem**请求的服务器响应。</span><span class="sxs-lookup"><span data-stu-id="10a59-174">The following example shows the server response to a **DeleteItem** request when the associated items have already been deleted.</span></span>
+
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
-    <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="859" MinorBuildNumber="13" Version="V2_8" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+    <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="859" MinorBuildNumber="13" Version="V2_8"
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:DeleteItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                          xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:DeleteItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                          xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:DeleteItemResponseMessage ResponseClass="Error">
           <m:MessageText>The specified object was not found in the store.</m:MessageText>
@@ -799,27 +799,27 @@ public static void BatchDeleteCalendarItemsTwice(ExchangeService service, Collec
 
 ```
 
-## <a name="verifying-that-a-batch-process-completed-successfully"></a><span data-ttu-id="c8728-175">验证批处理已成功完成</span><span class="sxs-lookup"><span data-stu-id="c8728-175">Verifying that a batch process completed successfully</span></span>
-<span data-ttu-id="c8728-176"><a name="bk_successful"> </a></span><span class="sxs-lookup"><span data-stu-id="c8728-176"></span></span>
+## <a name="verifying-that-a-batch-process-completed-successfully"></a><span data-ttu-id="10a59-175">验证批处理已成功完成</span><span class="sxs-lookup"><span data-stu-id="10a59-175">Verifying that a batch process completed successfully</span></span>
+<span data-ttu-id="10a59-176"><a name="bk_successful"> </a></span><span class="sxs-lookup"><span data-stu-id="10a59-176"><a name="bk_successful"> </a></span></span>
 
-<span data-ttu-id="c8728-177">无法处理批处理请求中的一个或多个日历项目，如请求时失败，每个日历项目将返回错误和预期所处理的批次中的日历项目的剩余部分。</span><span class="sxs-lookup"><span data-stu-id="c8728-177">When one or more calendar items in a batched request can't be processed as requested, an error is returned for each calendar item that failed, and the rest of the calendar items in the batch are processed as expected.</span></span> <span data-ttu-id="c8728-178">在批处理中可能会出现故障如果项目已删除，因此无法发送、 检索，或更新，或者如果项目移动到另一个文件夹，并因此具有新的项目 ID，并且不能使用发送的项目 ID 修改。</span><span class="sxs-lookup"><span data-stu-id="c8728-178">Failures in batch processing can occur if the item was deleted, and therefore can't be sent, retrieved, or updated, or if the item moved to a different folder, and therefore has a new item ID, and cannot be modified with the item ID sent.</span></span> <span data-ttu-id="c8728-179">本节中的信息显示如何获取有关失败的错误详细信息中的日历项目的批处理。</span><span class="sxs-lookup"><span data-stu-id="c8728-179">The information in this section shows how to get error details about failures in batch processing of calendar items.</span></span>
-  
-<span data-ttu-id="c8728-180">使用 EWS 托管 API 验证成功的批处理过程，您可以检查[ServiceResponseCollection](http://msdn.microsoft.com/en-us/library/dd633715%28v=exchg.80%29.aspx)的[OverallResult](http://msdn.microsoft.com/en-us/library/dd634515%28v=exchg.80%29.aspx)属性等于[ServiceResult.Success](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresult%28v=exchg.80%29.aspx)。</span><span class="sxs-lookup"><span data-stu-id="c8728-180">To verify the success of a batch process by using the EWS Managed API, you can check that the [OverallResult](http://msdn.microsoft.com/en-us/library/dd634515%28v=exchg.80%29.aspx) property of the [ServiceResponseCollection](http://msdn.microsoft.com/en-us/library/dd633715%28v=exchg.80%29.aspx) is equal to [ServiceResult.Success](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresult%28v=exchg.80%29.aspx).</span></span> <span data-ttu-id="c8728-181">如果是这样，所有日历项目都已成功都处理。</span><span class="sxs-lookup"><span data-stu-id="c8728-181">If so, all the calendar items were processed successfully.</span></span> <span data-ttu-id="c8728-182">如果**OverallResult**不等于**ServiceResult.Success**，一个或多个日历项目的未成功处理。</span><span class="sxs-lookup"><span data-stu-id="c8728-182">If the **OverallResult** is not equal to **ServiceResult.Success**, one or more of the calendar items were not processed successfully.</span></span> <span data-ttu-id="c8728-183">每个**ServiceResponseCollection**中返回的对象包含以下属性：</span><span class="sxs-lookup"><span data-stu-id="c8728-183">Each of the objects returned in the **ServiceResponseCollection** contains the following properties:</span></span> 
-  
-- [<span data-ttu-id="c8728-184">ErrorCode</span><span class="sxs-lookup"><span data-stu-id="c8728-184">ErrorCode</span></span>](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresponse.errorcode%28v=exchg.80%29.aspx)
-    
-- [<span data-ttu-id="c8728-185">ErrorDetails</span><span class="sxs-lookup"><span data-stu-id="c8728-185">ErrorDetails</span></span>](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresponse.errordetails%28v=exchg.80%29.aspx)
-    
-- [<span data-ttu-id="c8728-186">ErrorMessage</span><span class="sxs-lookup"><span data-stu-id="c8728-186">ErrorMessage</span></span>](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresponse.errormessage%28v=exchg.80%29.aspx)
-    
-- [<span data-ttu-id="c8728-187">ErrorProperties</span><span class="sxs-lookup"><span data-stu-id="c8728-187">ErrorProperties</span></span>](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresponse.errorproperties%28v=exchg.80%29.aspx)
-    
-- [<span data-ttu-id="c8728-188">结果</span><span class="sxs-lookup"><span data-stu-id="c8728-188">Result</span></span>](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.serviceresponse.result%28v=exchg.80%29.aspx)
-    
-<span data-ttu-id="c8728-189">这些属性包含有关为什么的日历项目错误而无法处理所要求的信息。</span><span class="sxs-lookup"><span data-stu-id="c8728-189">These properties contain information about why the calendar items could not be processed as requested.</span></span> <span data-ttu-id="c8728-190">本文中的示例输出的**结果**，**错误代码**和**ErrorMessage**为每个失败的项目。</span><span class="sxs-lookup"><span data-stu-id="c8728-190">The examples in this article print out the **Result**, **ErrorCode**, and **ErrorMessage** for each failed item.</span></span> <span data-ttu-id="c8728-191">您可以使用这些结果调查问题。</span><span class="sxs-lookup"><span data-stu-id="c8728-191">You can use these results to investigate the issue.</span></span> 
-  
-<span data-ttu-id="c8728-192">Ews，若要验证成功批处理过程，检查正在处理每个项目的[ResponseClass](http://msdn.microsoft.com/library/bf57265a-d354-4cd7-bbfc-d93e19cbede6%28Office.15%29.aspx)属性。</span><span class="sxs-lookup"><span data-stu-id="c8728-192">For EWS, to verify the success of a batched process, check the [ResponseClass](http://msdn.microsoft.com/library/bf57265a-d354-4cd7-bbfc-d93e19cbede6%28Office.15%29.aspx) attribute for each item being processed.</span></span> <span data-ttu-id="c8728-193">下面是**ResponseMessageType**，派生的所有响应消息的基类型的基本结构。</span><span class="sxs-lookup"><span data-stu-id="c8728-193">The following is the basic structure of the **ResponseMessageType**, the base type from which all response messages are derived.</span></span> 
-  
+<span data-ttu-id="10a59-177">当批处理请求中的一个或多个日历项目无法按要求处理时，将为每个失败的日历项目返回一个错误，并且批处理中的其余日历项目将按预期方式处理。</span><span class="sxs-lookup"><span data-stu-id="10a59-177">When one or more calendar items in a batched request can't be processed as requested, an error is returned for each calendar item that failed, and the rest of the calendar items in the batch are processed as expected.</span></span> <span data-ttu-id="10a59-178">如果项目已被删除、无法发送、检索或更新，或者如果将项目移到其他文件夹，并因此包含了新的项目 ID，并且无法使用已发送的项目 ID 进行修改，批处理过程中可能会发生故障。</span><span class="sxs-lookup"><span data-stu-id="10a59-178">Failures in batch processing can occur if the item was deleted, and therefore can't be sent, retrieved, or updated, or if the item moved to a different folder, and therefore has a new item ID, and cannot be modified with the item ID sent.</span></span> <span data-ttu-id="10a59-179">本节中的信息演示如何获取有关批量处理日历项目失败的错误详细信息。</span><span class="sxs-lookup"><span data-stu-id="10a59-179">The information in this section shows how to get error details about failures in batch processing of calendar items.</span></span>
+
+<span data-ttu-id="10a59-180">若要通过使用 EWS 托管 API 验证批处理是否成功，可以检查[ServiceResponseCollection](https://msdn.microsoft.com/library/dd633715%28v=exchg.80%29.aspx)的[OverallResult](https://msdn.microsoft.com/library/dd634515%28v=exchg.80%29.aspx)属性是否等于[ServiceResult](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.serviceresult%28v=exchg.80%29.aspx)。</span><span class="sxs-lookup"><span data-stu-id="10a59-180">To verify the success of a batch process by using the EWS Managed API, you can check that the [OverallResult](https://msdn.microsoft.com/library/dd634515%28v=exchg.80%29.aspx) property of the [ServiceResponseCollection](https://msdn.microsoft.com/library/dd633715%28v=exchg.80%29.aspx) is equal to [ServiceResult.Success](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.serviceresult%28v=exchg.80%29.aspx).</span></span> <span data-ttu-id="10a59-181">如果是这样，则已成功处理所有日历项目。</span><span class="sxs-lookup"><span data-stu-id="10a59-181">If so, all the calendar items were processed successfully.</span></span> <span data-ttu-id="10a59-182">如果**OverallResult**不等于**ServiceResult**，则表示未成功处理一个或多个日历项目。</span><span class="sxs-lookup"><span data-stu-id="10a59-182">If the **OverallResult** is not equal to **ServiceResult.Success**, one or more of the calendar items were not processed successfully.</span></span> <span data-ttu-id="10a59-183">**ServiceResponseCollection**中返回的每个对象都包含以下属性：</span><span class="sxs-lookup"><span data-stu-id="10a59-183">Each of the objects returned in the **ServiceResponseCollection** contains the following properties:</span></span>
+
+- [<span data-ttu-id="10a59-184">ErrorCode</span><span class="sxs-lookup"><span data-stu-id="10a59-184">ErrorCode</span></span>](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.serviceresponse.errorcode%28v=exchg.80%29.aspx)
+
+- [<span data-ttu-id="10a59-185">ErrorDetails</span><span class="sxs-lookup"><span data-stu-id="10a59-185">ErrorDetails</span></span>](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.serviceresponse.errordetails%28v=exchg.80%29.aspx)
+
+- [<span data-ttu-id="10a59-186">ErrorMessage</span><span class="sxs-lookup"><span data-stu-id="10a59-186">ErrorMessage</span></span>](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.serviceresponse.errormessage%28v=exchg.80%29.aspx)
+
+- [<span data-ttu-id="10a59-187">ErrorProperties</span><span class="sxs-lookup"><span data-stu-id="10a59-187">ErrorProperties</span></span>](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.serviceresponse.errorproperties%28v=exchg.80%29.aspx)
+
+- [<span data-ttu-id="10a59-188">结果</span><span class="sxs-lookup"><span data-stu-id="10a59-188">Result</span></span>](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.serviceresponse.result%28v=exchg.80%29.aspx)
+
+<span data-ttu-id="10a59-189">这些属性包含有关无法按要求处理日历项目的原因的信息。</span><span class="sxs-lookup"><span data-stu-id="10a59-189">These properties contain information about why the calendar items could not be processed as requested.</span></span> <span data-ttu-id="10a59-190">本文中的示例将输出每个失败项的**结果**、**错误代码**和**ErrorMessage** 。</span><span class="sxs-lookup"><span data-stu-id="10a59-190">The examples in this article print out the **Result**, **ErrorCode**, and **ErrorMessage** for each failed item.</span></span> <span data-ttu-id="10a59-191">您可以使用这些结果来调查问题。</span><span class="sxs-lookup"><span data-stu-id="10a59-191">You can use these results to investigate the issue.</span></span>
+
+<span data-ttu-id="10a59-192">对于 EWS，若要验证批处理过程是否成功，请检查正在处理的每个项目的[ResponseClass](https://msdn.microsoft.com/library/bf57265a-d354-4cd7-bbfc-d93e19cbede6%28Office.15%29.aspx)属性。</span><span class="sxs-lookup"><span data-stu-id="10a59-192">For EWS, to verify the success of a batched process, check the [ResponseClass](https://msdn.microsoft.com/library/bf57265a-d354-4cd7-bbfc-d93e19cbede6%28Office.15%29.aspx) attribute for each item being processed.</span></span> <span data-ttu-id="10a59-193">下面是**ResponseMessageType**的基本结构，它是从中派生所有响应消息的基类型。</span><span class="sxs-lookup"><span data-stu-id="10a59-193">The following is the basic structure of the **ResponseMessageType**, the base type from which all response messages are derived.</span></span>
+
 ```XML
 <ResponseMessage ResponseClass="Success | Warning | Error">
             <MessageText/>
@@ -829,21 +829,19 @@ public static void BatchDeleteCalendarItemsTwice(ExchangeService service, Collec
 </ResponseMessage>
 ```
 
-<span data-ttu-id="c8728-194">如果未成功处理**ResponseClass**属性设置为**成功**如果日历项目已成功处理或**错误**。</span><span class="sxs-lookup"><span data-stu-id="c8728-194">The **ResponseClass** attribute is set to **Success** if the calendar item was processed successfully, or **Error** if it was not processed successfully.</span></span> <span data-ttu-id="c8728-195">日历项目不会批处理过程中遇到**警告**。</span><span class="sxs-lookup"><span data-stu-id="c8728-195">For calendar items, you will not encounter a **Warning** during batch processing.</span></span> <span data-ttu-id="c8728-196">如果**ResponseClass**为**成功**，后面的[ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx)元素也始终设置为**NoError**。</span><span class="sxs-lookup"><span data-stu-id="c8728-196">If the **ResponseClass** is **Success**, the [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) element that follows is also always set to **NoError**.</span></span> <span data-ttu-id="c8728-197">如果**ResponseClass** **错误**，您需要检查[MessageText](http://msdn.microsoft.com/library/59a23bdc-0d9a-4942-8b3c-9cdb11db1ab1%28Office.15%29.aspx)、 **ResponseCode**和[MessageXml](http://msdn.microsoft.com/library/bcaf9e35-d351-48f3-baad-f90c633cba8a%28Office.15%29.aspx)元素以确定问题的原因的值。</span><span class="sxs-lookup"><span data-stu-id="c8728-197">If the **ResponseClass** is **Error**, you need to check the values of the [MessageText](http://msdn.microsoft.com/library/59a23bdc-0d9a-4942-8b3c-9cdb11db1ab1%28Office.15%29.aspx), **ResponseCode**, and [MessageXml](http://msdn.microsoft.com/library/bcaf9e35-d351-48f3-baad-f90c633cba8a%28Office.15%29.aspx) elements to determine what caused the problem.</span></span> <span data-ttu-id="c8728-198">当前未使用[DescriptiveLinkKey](http://msdn.microsoft.com/library/f7f36749-00f3-4915-b17c-e3caa0af6e67%28Office.15%29.aspx) 。</span><span class="sxs-lookup"><span data-stu-id="c8728-198">[DescriptiveLinkKey](http://msdn.microsoft.com/library/f7f36749-00f3-4915-b17c-e3caa0af6e67%28Office.15%29.aspx) is currently unused.</span></span> 
-  
-## <a name="see-also"></a><span data-ttu-id="c8728-199">另请参阅</span><span class="sxs-lookup"><span data-stu-id="c8728-199">See also</span></span>
+<span data-ttu-id="10a59-194">如果成功处理了日历项目，则将**ResponseClass**属性设置为**成功**，如果未成功处理该日历项目，则设置为 "**出错**"。</span><span class="sxs-lookup"><span data-stu-id="10a59-194">The **ResponseClass** attribute is set to **Success** if the calendar item was processed successfully, or **Error** if it was not processed successfully.</span></span> <span data-ttu-id="10a59-195">对于日历项目，在批处理过程中不会出现**警告**。</span><span class="sxs-lookup"><span data-stu-id="10a59-195">For calendar items, you will not encounter a **Warning** during batch processing.</span></span> <span data-ttu-id="10a59-196">如果**ResponseClass**是**成功**的，则后面的[ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx)元素也始终设置为**NoError**。</span><span class="sxs-lookup"><span data-stu-id="10a59-196">If the **ResponseClass** is **Success**, the [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) element that follows is also always set to **NoError**.</span></span> <span data-ttu-id="10a59-197">如果**ResponseClass**为**错误**，则需要检查[MessageText](https://msdn.microsoft.com/library/59a23bdc-0d9a-4942-8b3c-9cdb11db1ab1%28Office.15%29.aspx)、 **ResponseCode**和[MessageXml](https://msdn.microsoft.com/library/bcaf9e35-d351-48f3-baad-f90c633cba8a%28Office.15%29.aspx)元素的值，以确定导致该问题的原因。</span><span class="sxs-lookup"><span data-stu-id="10a59-197">If the **ResponseClass** is **Error**, you need to check the values of the [MessageText](https://msdn.microsoft.com/library/59a23bdc-0d9a-4942-8b3c-9cdb11db1ab1%28Office.15%29.aspx), **ResponseCode**, and [MessageXml](https://msdn.microsoft.com/library/bcaf9e35-d351-48f3-baad-f90c633cba8a%28Office.15%29.aspx) elements to determine what caused the problem.</span></span> <span data-ttu-id="10a59-198">[DescriptiveLinkKey](https://msdn.microsoft.com/library/f7f36749-00f3-4915-b17c-e3caa0af6e67%28Office.15%29.aspx)当前未使用。</span><span class="sxs-lookup"><span data-stu-id="10a59-198">[DescriptiveLinkKey](https://msdn.microsoft.com/library/f7f36749-00f3-4915-b17c-e3caa0af6e67%28Office.15%29.aspx) is currently unused.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="10a59-199">另请参阅</span><span class="sxs-lookup"><span data-stu-id="10a59-199">See also</span></span>
 
 
-- [<span data-ttu-id="c8728-200">Calendars and EWS in Exchange</span><span class="sxs-lookup"><span data-stu-id="c8728-200">Calendars and EWS in Exchange</span></span>](calendars-and-ews-in-exchange.md)
-    
-- [<span data-ttu-id="c8728-201">在 Exchange 使用 EWS 获取约会和会议</span><span class="sxs-lookup"><span data-stu-id="c8728-201">Get appointments and meetings by using EWS in Exchange</span></span>](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md)
-    
-- [<span data-ttu-id="c8728-202">在 Exchange 使用 EWS 更新约会和会议</span><span class="sxs-lookup"><span data-stu-id="c8728-202">Update appointments and meetings by using EWS in Exchange</span></span>](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)
-    
-- [<span data-ttu-id="c8728-203">删除约会，并在 Exchange 使用 EWS 取消会议</span><span class="sxs-lookup"><span data-stu-id="c8728-203">Delete appointments and cancel meetings by using EWS in Exchange</span></span>](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md)
-    
-- [<span data-ttu-id="c8728-204">在 Exchange 处理批次中的日历项目</span><span class="sxs-lookup"><span data-stu-id="c8728-204">Process calendar items in batches in Exchange</span></span>](how-to-process-calendar-items-in-batches-in-exchange.md)
-    
-- [<span data-ttu-id="c8728-205">限制的 EWS 批处理请求的影响</span><span class="sxs-lookup"><span data-stu-id="c8728-205">Throttling implications for EWS batch requests</span></span>](ews-throttling-in-exchange.md#bk_ThrottlingBatch)
-    
+- [<span data-ttu-id="10a59-200">Calendars and EWS in Exchange</span><span class="sxs-lookup"><span data-stu-id="10a59-200">Calendars and EWS in Exchange</span></span>](calendars-and-ews-in-exchange.md)
 
+- [<span data-ttu-id="10a59-201">使用 Exchange 中的 EWS 获取约会和会议</span><span class="sxs-lookup"><span data-stu-id="10a59-201">Get appointments and meetings by using EWS in Exchange</span></span>](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md)
+
+- [<span data-ttu-id="10a59-202">使用 Exchange 中的 EWS 更新约会和会议</span><span class="sxs-lookup"><span data-stu-id="10a59-202">Update appointments and meetings by using EWS in Exchange</span></span>](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)
+
+- [<span data-ttu-id="10a59-203">使用 Exchange 中的 EWS 删除约会和取消会议</span><span class="sxs-lookup"><span data-stu-id="10a59-203">Delete appointments and cancel meetings by using EWS in Exchange</span></span>](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md)
+
+- [<span data-ttu-id="10a59-204">在 Exchange 中批量处理日历项目</span><span class="sxs-lookup"><span data-stu-id="10a59-204">Process calendar items in batches in Exchange</span></span>](how-to-process-calendar-items-in-batches-in-exchange.md)
+
+- [<span data-ttu-id="10a59-205">EWS 批处理请求的限制影响</span><span class="sxs-lookup"><span data-stu-id="10a59-205">Throttling implications for EWS batch requests</span></span>](ews-throttling-in-exchange.md#throttling-implications-for-ews-batch-requests)

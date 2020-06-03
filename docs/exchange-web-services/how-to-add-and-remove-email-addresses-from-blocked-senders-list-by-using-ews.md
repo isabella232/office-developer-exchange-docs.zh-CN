@@ -1,34 +1,34 @@
 ---
-title: 添加并在 Exchange 使用 EWS 从阻止发件人列表中删除电子邮件地址
+title: 使用 Exchange 中的 EWS 在阻止的发件人列表中添加和删除电子邮件地址
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: b88288ee-6af7-45b5-a55c-5929cd0c16f1
-description: 了解如何使用 EWS 托管 API 或 EWS 添加到的电子邮件地址和删除阻止的发件人列表。
-ms.openlocfilehash: c03ed585ebd62802000179d8c837786ba5f9aab4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 了解如何使用 EWS 托管 API 或 EWS 将电子邮件地址添加到阻止的发件人列表并将其从该列表中删除。
+ms.openlocfilehash: 270613a739acba165c7bac1bd2c1ef275b5d3aca
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752725"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528277"
 ---
-# <a name="add-and-remove-email-addresses-from-the-blocked-senders-list-by-using-ews-in-exchange"></a><span data-ttu-id="54e43-103">添加并在 Exchange 使用 EWS 从阻止发件人列表中删除电子邮件地址</span><span class="sxs-lookup"><span data-stu-id="54e43-103">Add and remove email addresses from the Blocked Senders List by using EWS in Exchange</span></span>
+# <a name="add-and-remove-email-addresses-from-the-blocked-senders-list-by-using-ews-in-exchange"></a><span data-ttu-id="a8b49-103">使用 Exchange 中的 EWS 在阻止的发件人列表中添加和删除电子邮件地址</span><span class="sxs-lookup"><span data-stu-id="a8b49-103">Add and remove email addresses from the Blocked Senders List by using EWS in Exchange</span></span>
 
-<span data-ttu-id="54e43-104">了解如何使用 EWS 托管 API 或 EWS 添加到的电子邮件地址和删除阻止的发件人列表。</span><span class="sxs-lookup"><span data-stu-id="54e43-104">Find out how to use the EWS Managed API or EWS to add email addresses to and remove them from the Blocked Senders List.</span></span>
+<span data-ttu-id="a8b49-104">了解如何使用 EWS 托管 API 或 EWS 将电子邮件地址添加到阻止的发件人列表并将其从该列表中删除。</span><span class="sxs-lookup"><span data-stu-id="a8b49-104">Find out how to use the EWS Managed API or EWS to add email addresses to and remove them from the Blocked Senders List.</span></span>
   
-<span data-ttu-id="54e43-105">用户的垃圾邮件选项中的阻止发件人列表提供了一种方法将从指定发件人的所有电子邮件都移动到垃圾邮件文件夹。</span><span class="sxs-lookup"><span data-stu-id="54e43-105">The Blocked Senders List in a user's Junk Email options provides a way to move all email messages from specified senders to the Junk Email folder.</span></span> <span data-ttu-id="54e43-106">您可以让您的 EWS 托管 API 或 EWS 应用程序添加到的电子邮件地址或删除被阻止发件人列表。</span><span class="sxs-lookup"><span data-stu-id="54e43-106">You can enable your EWS Managed API or EWS application to add email addresses to or remove them from the Blocked Senders List.</span></span>
+<span data-ttu-id="a8b49-105">用户的 "垃圾邮件" 选项中的 "阻止发件人" 列表提供了将所有电子邮件从指定发件人移动到 "垃圾邮件" 文件夹的方法。</span><span class="sxs-lookup"><span data-stu-id="a8b49-105">The Blocked Senders List in a user's Junk Email options provides a way to move all email messages from specified senders to the Junk Email folder.</span></span> <span data-ttu-id="a8b49-106">您可以启用您的 EWS 托管 API 或 EWS 应用程序，将电子邮件地址添加到阻止的发件人列表或从中删除它们。</span><span class="sxs-lookup"><span data-stu-id="a8b49-106">You can enable your EWS Managed API or EWS application to add email addresses to or remove them from the Blocked Senders List.</span></span>
   
-<span data-ttu-id="54e43-107">请注意之前可以添加到的电子邮件地址或从阻止的发件人列表中删除它中的电子邮件地址的邮件必须存在用户的邮箱中。</span><span class="sxs-lookup"><span data-stu-id="54e43-107">Note that a message from the email address must exist in the user's mailbox before you can add the email address to or remove it from the Blocked Senders List.</span></span> <span data-ttu-id="54e43-108">[ExchangeService.MarkAsJunk](http://msdn.microsoft.com/zh-cn/library/microsoft.exchange.webservices.data.exchangeservice.markasjunk%28v=exchg.80%29.aspx) EWS 托管 API 方法和[MarkAsJunk](http://msdn.microsoft.com/library/1f71f04d-56a9-4fee-a4e7-d1034438329e%28Office.15%29.aspx) EWS 操作使用一项 Id。</span><span class="sxs-lookup"><span data-stu-id="54e43-108">The [ExchangeService.MarkAsJunk](http://msdn.microsoft.com/zh-cn/library/microsoft.exchange.webservices.data.exchangeservice.markasjunk%28v=exchg.80%29.aspx) EWS Managed API method and the [MarkAsJunk](http://msdn.microsoft.com/library/1f71f04d-56a9-4fee-a4e7-d1034438329e%28Office.15%29.aspx) EWS operation use a collection of item IDs.</span></span> <span data-ttu-id="54e43-109">项目集合中的 Id 指示应为其更改的垃圾邮件状态的邮箱中的邮件。</span><span class="sxs-lookup"><span data-stu-id="54e43-109">The item IDs in the collection indicate messages in the mailbox for which the junk mail status should be changed.</span></span> 
+<span data-ttu-id="a8b49-107">请注意，来自电子邮件地址的邮件必须存在于用户的邮箱中，然后才能将电子邮件地址添加到阻止发件人列表或从阻止发件人列表中删除。</span><span class="sxs-lookup"><span data-stu-id="a8b49-107">Note that a message from the email address must exist in the user's mailbox before you can add the email address to or remove it from the Blocked Senders List.</span></span> <span data-ttu-id="a8b49-108">[ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.markasjunk%28v=exchg.80%29.aspx) EWS 托管 API 方法和[MarkAsJunk](https://msdn.microsoft.com/library/1f71f04d-56a9-4fee-a4e7-d1034438329e%28Office.15%29.aspx) EWS 操作使用项目 id 的集合。</span><span class="sxs-lookup"><span data-stu-id="a8b49-108">The [ExchangeService.MarkAsJunk](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.markasjunk%28v=exchg.80%29.aspx) EWS Managed API method and the [MarkAsJunk](https://msdn.microsoft.com/library/1f71f04d-56a9-4fee-a4e7-d1034438329e%28Office.15%29.aspx) EWS operation use a collection of item IDs.</span></span> <span data-ttu-id="a8b49-109">集合中的项目 Id 指示邮箱中应更改其垃圾邮件状态的邮件。</span><span class="sxs-lookup"><span data-stu-id="a8b49-109">The item IDs in the collection indicate messages in the mailbox for which the junk mail status should be changed.</span></span> 
   
-<span data-ttu-id="54e43-110">您可以使用[Get-MailboxJunkEmailConfiguration](http://technet.microsoft.com/zh-cn/library/dd979784%28v=exchg.150%29.aspx)和[Set-mailboxjunkemailconfiguration](http://technet.microsoft.com/zh-cn/library/dd979780%28v=exchg.150%29.aspx) Exchange Management Shell cmdlet 直接访问阻止发件人列表。</span><span class="sxs-lookup"><span data-stu-id="54e43-110">You can use the [Get-MailboxJunkEmailConfiguration](http://technet.microsoft.com/zh-cn/library/dd979784%28v=exchg.150%29.aspx) and [Set-MailboxJunkEmailConfiguration](http://technet.microsoft.com/zh-cn/library/dd979780%28v=exchg.150%29.aspx) Exchange Management Shell cmdlets to access the Blocked Senders List directly.</span></span> 
+<span data-ttu-id="a8b49-110">您可以使用[set-mailboxjunkemailconfiguration](https://technet.microsoft.com/library/dd979784%28v=exchg.150%29.aspx)和 Set-mailboxjunkemailconfiguration Exchange 命令行管理[程序](https://technet.microsoft.com/library/dd979780%28v=exchg.150%29.aspx)cmdlet 直接访问阻止的发件人列表。</span><span class="sxs-lookup"><span data-stu-id="a8b49-110">You can use the [Get-MailboxJunkEmailConfiguration](https://technet.microsoft.com/library/dd979784%28v=exchg.150%29.aspx) and [Set-MailboxJunkEmailConfiguration](https://technet.microsoft.com/library/dd979780%28v=exchg.150%29.aspx) Exchange Management Shell cmdlets to access the Blocked Senders List directly.</span></span> 
   
-## <a name="add-an-email-address-to-or-remove-it-from-the-blocked-senders-list-by-using-the-ews-managed-api"></a><span data-ttu-id="54e43-111">添加到的电子邮件地址或删除它从阻止的发件人列表使用 EWS 托管 API</span><span class="sxs-lookup"><span data-stu-id="54e43-111">Add an email address to or remove it from the Blocked Senders List by using the EWS Managed API</span></span>
-<span data-ttu-id="54e43-112"><a name="bk_AddRemoveEWSMA"> </a></span><span class="sxs-lookup"><span data-stu-id="54e43-112"></span></span>
+## <a name="add-an-email-address-to-or-remove-it-from-the-blocked-senders-list-by-using-the-ews-managed-api"></a><span data-ttu-id="a8b49-111">使用 EWS 托管 API 将电子邮件地址添加到阻止发件人列表或从阻止的发件人列表中删除</span><span class="sxs-lookup"><span data-stu-id="a8b49-111">Add an email address to or remove it from the Blocked Senders List by using the EWS Managed API</span></span>
+<span data-ttu-id="a8b49-112"><a name="bk_AddRemoveEWSMA"> </a></span><span class="sxs-lookup"><span data-stu-id="a8b49-112"><a name="bk_AddRemoveEWSMA"> </a></span></span>
 
-<span data-ttu-id="54e43-113">若要添加到阻止的发件人列表的电子邮件的发件人，请使用**MarkAsJunk**方法，并将**isJunk**参数设置为**true**。</span><span class="sxs-lookup"><span data-stu-id="54e43-113">To add the sender of an email message to the Blocked Senders List, use the **MarkAsJunk** method and set the **isJunk** parameter to **true**.</span></span> <span data-ttu-id="54e43-114">若要从阻止的发件人列表中删除电子邮件的发件人，请将**isJunk**参数设置为**false**。</span><span class="sxs-lookup"><span data-stu-id="54e43-114">To remove the sender of an email message from the Blocked Senders List, set the **isJunk** parameter to **false**.</span></span>
+<span data-ttu-id="a8b49-113">若要将电子邮件的发件人添加到阻止的发件人列表中，请使用**MarkAsJunk**方法并将**isJunk**参数设置为**true**。</span><span class="sxs-lookup"><span data-stu-id="a8b49-113">To add the sender of an email message to the Blocked Senders List, use the **MarkAsJunk** method and set the **isJunk** parameter to **true**.</span></span> <span data-ttu-id="a8b49-114">若要从阻止的发件人列表中删除电子邮件的发件人，请将**isJunk**参数设置为**false**。</span><span class="sxs-lookup"><span data-stu-id="a8b49-114">To remove the sender of an email message from the Blocked Senders List, set the **isJunk** parameter to **false**.</span></span>
   
-<span data-ttu-id="54e43-115">下面的示例演示如何使用**MarkAsJunk**方法可更改垃圾邮件的状态。</span><span class="sxs-lookup"><span data-stu-id="54e43-115">The following example shows how to use the **MarkAsJunk** method to change the junk status of a message.</span></span> 
+<span data-ttu-id="a8b49-115">下面的示例演示如何使用**MarkAsJunk**方法更改邮件的垃圾邮件状态。</span><span class="sxs-lookup"><span data-stu-id="a8b49-115">The following example shows how to use the **MarkAsJunk** method to change the junk status of a message.</span></span> 
   
 ```cs
 private static void MarkMessageAsJunk(ExchangeService service, ItemId messageId, bool isJunk, bool moveItem)
@@ -67,17 +67,17 @@ private static void MarkMessageAsJunk(ExchangeService service, ItemId messageId,
 }
 ```
 
-## <a name="add-an-email-address-to-or-remove-it-from-the-blocked-senders-list-by-using-ews"></a><span data-ttu-id="54e43-116">添加到的电子邮件地址或使用 EWS 将其删除阻止的发件人列表</span><span class="sxs-lookup"><span data-stu-id="54e43-116">Add an email address to or remove it from the Blocked Senders List by using EWS</span></span>
-<span data-ttu-id="54e43-117"><a name="bk_AddRemoveEWS"> </a></span><span class="sxs-lookup"><span data-stu-id="54e43-117"></span></span>
+## <a name="add-an-email-address-to-or-remove-it-from-the-blocked-senders-list-by-using-ews"></a><span data-ttu-id="a8b49-116">使用 EWS 将电子邮件地址添加到阻止发件人列表或从阻止的发件人列表中删除</span><span class="sxs-lookup"><span data-stu-id="a8b49-116">Add an email address to or remove it from the Blocked Senders List by using EWS</span></span>
+<span data-ttu-id="a8b49-117"><a name="bk_AddRemoveEWS"> </a></span><span class="sxs-lookup"><span data-stu-id="a8b49-117"><a name="bk_AddRemoveEWS"> </a></span></span>
 
-<span data-ttu-id="54e43-118">以下 EWS SOAP 请求标记为垃圾邮件通过**IsJunk**属性设置为**true**的[MarkAsJunk](http://msdn.microsoft.com/library/f06bafc6-7ee3-4b2b-9fd1-7c51328f4729%28Office.15%29.aspx)元素中的项目。</span><span class="sxs-lookup"><span data-stu-id="54e43-118">The following EWS SOAP request marks an item as junk by setting the **IsJunk** attribute on the [MarkAsJunk](http://msdn.microsoft.com/library/f06bafc6-7ee3-4b2b-9fd1-7c51328f4729%28Office.15%29.aspx) element to **true**.</span></span> <span data-ttu-id="54e43-119">它还会将邮件移到垃圾邮件文件夹通过**MoveItem**属性设置为**true**的**MarkAsJunk**元素。</span><span class="sxs-lookup"><span data-stu-id="54e43-119">It also moves the message to the Junk Email folder by setting the **MoveItem** attribute on the **MarkAsJunk** element to **true**.</span></span>
+<span data-ttu-id="a8b49-118">下面的 EWS SOAP 请求通过将[MarkAsJunk](https://msdn.microsoft.com/library/f06bafc6-7ee3-4b2b-9fd1-7c51328f4729%28Office.15%29.aspx)元素上的**IsJunk**属性设置为**true**，将项标记为垃圾。</span><span class="sxs-lookup"><span data-stu-id="a8b49-118">The following EWS SOAP request marks an item as junk by setting the **IsJunk** attribute on the [MarkAsJunk](https://msdn.microsoft.com/library/f06bafc6-7ee3-4b2b-9fd1-7c51328f4729%28Office.15%29.aspx) element to **true**.</span></span> <span data-ttu-id="a8b49-119">它还通过将**MarkAsJunk**元素上的**MoveItem**属性设置为**true**，将邮件移动到 "垃圾邮件" 文件夹。</span><span class="sxs-lookup"><span data-stu-id="a8b49-119">It also moves the message to the Junk Email folder by setting the **MoveItem** attribute on the **MarkAsJunk** element to **true**.</span></span>
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -92,21 +92,21 @@ private static void MarkMessageAsJunk(ExchangeService service, ItemId messageId,
 </soap:Envelope>
 ```
 
-<span data-ttu-id="54e43-120">以下 EWS SOAP 响应显示成功响应。</span><span class="sxs-lookup"><span data-stu-id="54e43-120">The following EWS SOAP response shows the successful response.</span></span> <span data-ttu-id="54e43-121">在响应中的[MovedItemId](http://msdn.microsoft.com/library/7d5425ab-1e75-43d1-b801-802ff5139df6%28Office.15%29.aspx)元素包含项目的项 ID 后移动。</span><span class="sxs-lookup"><span data-stu-id="54e43-121">The [MovedItemId](http://msdn.microsoft.com/library/7d5425ab-1e75-43d1-b801-802ff5139df6%28Office.15%29.aspx) element in the response contains the item ID for the item after it was moved.</span></span> 
+<span data-ttu-id="a8b49-120">下面的 EWS SOAP 响应显示成功的响应。</span><span class="sxs-lookup"><span data-stu-id="a8b49-120">The following EWS SOAP response shows the successful response.</span></span> <span data-ttu-id="a8b49-121">响应中的[MovedItemId](https://msdn.microsoft.com/library/7d5425ab-1e75-43d1-b801-802ff5139df6%28Office.15%29.aspx)元素包含项目在移动后的项目 ID。</span><span class="sxs-lookup"><span data-stu-id="a8b49-121">The [MovedItemId](https://msdn.microsoft.com/library/7d5425ab-1e75-43d1-b801-802ff5139df6%28Office.15%29.aspx) element in the response contains the item ID for the item after it was moved.</span></span> 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="712" MinorBuildNumber="22" Version="V2_3" 
-        xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-        xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
         xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:MarkAsJunkResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:MarkAsJunkResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:MarkAsJunkResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -119,13 +119,13 @@ private static void MarkMessageAsJunk(ExchangeService service, ItemId messageId,
 </s:Envelope>
 ```
 
-## <a name="see-also"></a><span data-ttu-id="54e43-122">另请参阅</span><span class="sxs-lookup"><span data-stu-id="54e43-122">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a8b49-122">另请参阅</span><span class="sxs-lookup"><span data-stu-id="a8b49-122">See also</span></span>
 
-- [<span data-ttu-id="54e43-123">Inbox management and EWS in Exchange</span><span class="sxs-lookup"><span data-stu-id="54e43-123">Inbox management and EWS in Exchange</span></span>](inbox-management-and-ews-in-exchange.md)   
-- [<span data-ttu-id="54e43-124">ExchangeService.MarkAsJunk</span><span class="sxs-lookup"><span data-stu-id="54e43-124">ExchangeService.MarkAsJunk</span></span>](http://msdn.microsoft.com/zh-cn/library/microsoft.exchange.webservices.data.exchangeservice.markasjunk%28v=exchg.80%29.aspx)   
-- [<span data-ttu-id="54e43-125">MarkAsJunk 操作</span><span class="sxs-lookup"><span data-stu-id="54e43-125">MarkAsJunk operation</span></span>](http://msdn.microsoft.com/library/1f71f04d-56a9-4fee-a4e7-d1034438329e%28Office.15%29.aspx)   
-- [<span data-ttu-id="54e43-126">Get MailboxJunkEmailConfiguration</span><span class="sxs-lookup"><span data-stu-id="54e43-126">Get-MailboxJunkEmailConfiguration</span></span>](http://technet.microsoft.com/zh-cn/library/dd979784%28v=exchg.150%29.aspx)   
-- [<span data-ttu-id="54e43-127">Set-mailboxjunkemailconfiguration</span><span class="sxs-lookup"><span data-stu-id="54e43-127">Set-MailboxJunkEmailConfiguration</span></span>](http://technet.microsoft.com/zh-cn/library/dd979780%28v=exchg.150%29.aspx) 
-- [<span data-ttu-id="54e43-128">Exchange 命令行管理程序</span><span class="sxs-lookup"><span data-stu-id="54e43-128">Exchange Management Shell</span></span>](../management/exchange-management-shell.md)
+- [<span data-ttu-id="a8b49-123">Inbox management and EWS in Exchange</span><span class="sxs-lookup"><span data-stu-id="a8b49-123">Inbox management and EWS in Exchange</span></span>](inbox-management-and-ews-in-exchange.md)   
+- [<span data-ttu-id="a8b49-124">ExchangeService。 MarkAsJunk</span><span class="sxs-lookup"><span data-stu-id="a8b49-124">ExchangeService.MarkAsJunk</span></span>](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.markasjunk%28v=exchg.80%29.aspx)   
+- [<span data-ttu-id="a8b49-125">MarkAsJunk 操作</span><span class="sxs-lookup"><span data-stu-id="a8b49-125">MarkAsJunk operation</span></span>](https://msdn.microsoft.com/library/1f71f04d-56a9-4fee-a4e7-d1034438329e%28Office.15%29.aspx)   
+- [<span data-ttu-id="a8b49-126">Set-mailboxjunkemailconfiguration</span><span class="sxs-lookup"><span data-stu-id="a8b49-126">Get-MailboxJunkEmailConfiguration</span></span>](https://technet.microsoft.com/library/dd979784%28v=exchg.150%29.aspx)   
+- [<span data-ttu-id="a8b49-127">Set-mailboxjunkemailconfiguration</span><span class="sxs-lookup"><span data-stu-id="a8b49-127">Set-MailboxJunkEmailConfiguration</span></span>](https://technet.microsoft.com/library/dd979780%28v=exchg.150%29.aspx) 
+- [<span data-ttu-id="a8b49-128">Exchange 命令行管理程序</span><span class="sxs-lookup"><span data-stu-id="a8b49-128">Exchange Management Shell</span></span>](../management/exchange-management-shell.md)
     
 
