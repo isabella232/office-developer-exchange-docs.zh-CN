@@ -12,43 +12,43 @@ ms.openlocfilehash: 3a115f40360aebfdb818580464c08e61a527ac55
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467275"
 ---
-# <a name="mailbox-string"></a><span data-ttu-id="a1711-103">邮箱 (字符串)</span><span class="sxs-lookup"><span data-stu-id="a1711-103">Mailbox (string)</span></span>
+# <a name="mailbox-string"></a><span data-ttu-id="7b658-103">邮箱 (字符串)</span><span class="sxs-lookup"><span data-stu-id="7b658-103">Mailbox (string)</span></span>
 
-<span data-ttu-id="a1711-104">**邮箱**元素包含邮箱的标识符。</span><span class="sxs-lookup"><span data-stu-id="a1711-104">The **Mailbox** element contains an identifier for a mailbox.</span></span> 
+<span data-ttu-id="7b658-104">**邮箱**元素包含邮箱的标识符。</span><span class="sxs-lookup"><span data-stu-id="7b658-104">The **Mailbox** element contains an identifier for a mailbox.</span></span> 
   
 ```XML
 <Mailbox></Mailbox>
 ```
 
-<span data-ttu-id="a1711-105">**string**</span><span class="sxs-lookup"><span data-stu-id="a1711-105">**string**</span></span>
+<span data-ttu-id="7b658-105">**string**</span><span class="sxs-lookup"><span data-stu-id="7b658-105">**string**</span></span>
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="a1711-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="a1711-106">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="7b658-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="7b658-106">Attributes and elements</span></span>
 
-<span data-ttu-id="a1711-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="a1711-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="7b658-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="7b658-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="a1711-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="a1711-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="7b658-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="7b658-108">Attributes</span></span>
 
-<span data-ttu-id="a1711-109">无。</span><span class="sxs-lookup"><span data-stu-id="a1711-109">None.</span></span>
+<span data-ttu-id="7b658-109">无。</span><span class="sxs-lookup"><span data-stu-id="7b658-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="a1711-110">子元素</span><span class="sxs-lookup"><span data-stu-id="a1711-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="7b658-110">子元素</span><span class="sxs-lookup"><span data-stu-id="7b658-110">Child elements</span></span>
 
-<span data-ttu-id="a1711-111">无。</span><span class="sxs-lookup"><span data-stu-id="a1711-111">None.</span></span>
+<span data-ttu-id="7b658-111">无。</span><span class="sxs-lookup"><span data-stu-id="7b658-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="a1711-112">父元素</span><span class="sxs-lookup"><span data-stu-id="a1711-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="7b658-112">父元素</span><span class="sxs-lookup"><span data-stu-id="7b658-112">Parent elements</span></span>
 
-<span data-ttu-id="a1711-113">[NonIndexableItemStatistic](nonindexableitemstatistic.md)  | [MailboxHoldStatus](mailboxholdstatus.md)  | [FailedMailbox](failedmailbox.md)  | [MailboxSearchScope](mailboxsearchscope.md)</span><span class="sxs-lookup"><span data-stu-id="a1711-113">[NonIndexableItemStatistic](nonindexableitemstatistic.md) | [MailboxHoldStatus](mailboxholdstatus.md) | [FailedMailbox](failedmailbox.md) | [MailboxSearchScope](mailboxsearchscope.md)</span></span>
+<span data-ttu-id="7b658-113">[NonIndexableItemStatistic](nonindexableitemstatistic.md)  | [MailboxHoldStatus](mailboxholdstatus.md)  | [FailedMailbox](failedmailbox.md)  | [MailboxSearchScope](mailboxsearchscope.md)</span><span class="sxs-lookup"><span data-stu-id="7b658-113">[NonIndexableItemStatistic](nonindexableitemstatistic.md) | [MailboxHoldStatus](mailboxholdstatus.md) | [FailedMailbox](failedmailbox.md) | [MailboxSearchScope](mailboxsearchscope.md)</span></span>
   
-## <a name="text-value"></a><span data-ttu-id="a1711-114">文本值</span><span class="sxs-lookup"><span data-stu-id="a1711-114">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="7b658-114">文本值</span><span class="sxs-lookup"><span data-stu-id="7b658-114">Text value</span></span>
 
-<span data-ttu-id="a1711-115">**邮箱**元素的文本值是邮箱的标识符。</span><span class="sxs-lookup"><span data-stu-id="a1711-115">The text value for the **Mailbox** element is the identifier for a mailbox.</span></span> 
+<span data-ttu-id="7b658-115">**邮箱**元素的文本值是邮箱的标识符。</span><span class="sxs-lookup"><span data-stu-id="7b658-115">The text value for the **Mailbox** element is the identifier for a mailbox.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="a1711-116">备注</span><span class="sxs-lookup"><span data-stu-id="a1711-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7b658-116">备注</span><span class="sxs-lookup"><span data-stu-id="7b658-116">Remarks</span></span>
 
-<span data-ttu-id="a1711-117">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="a1711-117">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="7b658-117">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="7b658-117">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="a1711-118">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="a1711-118">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="7b658-118">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="7b658-118">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
 

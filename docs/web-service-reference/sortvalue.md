@@ -12,51 +12,51 @@ ms.openlocfilehash: 099cfe248de893e1b044c3e2228bfa979e9a1243
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467254"
 ---
-# <a name="sortvalue"></a><span data-ttu-id="2ccc0-103">SortValue</span><span class="sxs-lookup"><span data-stu-id="2ccc0-103">SortValue</span></span>
+# <a name="sortvalue"></a><span data-ttu-id="e6feb-103">SortValue</span><span class="sxs-lookup"><span data-stu-id="e6feb-103">SortValue</span></span>
 
-<span data-ttu-id="2ccc0-104">**SortValue**元素指定用于排序的值。</span><span class="sxs-lookup"><span data-stu-id="2ccc0-104">The **SortValue** element specifies a value used for sorting.</span></span> 
+<span data-ttu-id="e6feb-104">**SortValue**元素指定用于排序的值。</span><span class="sxs-lookup"><span data-stu-id="e6feb-104">The **SortValue** element specifies a value used for sorting.</span></span> 
   
 ```XML
 <SortValue></SortValue>
 ```
 
- <span data-ttu-id="2ccc0-105">**string**</span><span class="sxs-lookup"><span data-stu-id="2ccc0-105">**string**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="2ccc0-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="2ccc0-106">Attributes and elements</span></span>
+ <span data-ttu-id="e6feb-105">**string**</span><span class="sxs-lookup"><span data-stu-id="e6feb-105">**string**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="e6feb-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="e6feb-106">Attributes and elements</span></span>
 
-<span data-ttu-id="2ccc0-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="2ccc0-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="e6feb-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="e6feb-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="2ccc0-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="2ccc0-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="e6feb-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="e6feb-108">Attributes</span></span>
 
-<span data-ttu-id="2ccc0-109">无。</span><span class="sxs-lookup"><span data-stu-id="2ccc0-109">None.</span></span>
+<span data-ttu-id="e6feb-109">无。</span><span class="sxs-lookup"><span data-stu-id="e6feb-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="2ccc0-110">子元素</span><span class="sxs-lookup"><span data-stu-id="2ccc0-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="e6feb-110">子元素</span><span class="sxs-lookup"><span data-stu-id="e6feb-110">Child elements</span></span>
 
-<span data-ttu-id="2ccc0-111">无。</span><span class="sxs-lookup"><span data-stu-id="2ccc0-111">None.</span></span>
+<span data-ttu-id="e6feb-111">无。</span><span class="sxs-lookup"><span data-stu-id="e6feb-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="2ccc0-112">父元素</span><span class="sxs-lookup"><span data-stu-id="2ccc0-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="e6feb-112">父元素</span><span class="sxs-lookup"><span data-stu-id="e6feb-112">Parent elements</span></span>
 
-<span data-ttu-id="2ccc0-113">[SearchPreviewItem](searchpreviewitem.md)  | [NonIndexableItemDetail](nonindexableitemdetail.md)</span><span class="sxs-lookup"><span data-stu-id="2ccc0-113">[SearchPreviewItem](searchpreviewitem.md) | [NonIndexableItemDetail](nonindexableitemdetail.md)</span></span>
+<span data-ttu-id="e6feb-113">[SearchPreviewItem](searchpreviewitem.md)  | [NonIndexableItemDetail](nonindexableitemdetail.md)</span><span class="sxs-lookup"><span data-stu-id="e6feb-113">[SearchPreviewItem](searchpreviewitem.md) | [NonIndexableItemDetail](nonindexableitemdetail.md)</span></span>
   
-## <a name="text-value"></a><span data-ttu-id="2ccc0-114">文本值</span><span class="sxs-lookup"><span data-stu-id="2ccc0-114">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="e6feb-114">文本值</span><span class="sxs-lookup"><span data-stu-id="e6feb-114">Text value</span></span>
 
-<span data-ttu-id="2ccc0-115">[SortValue](sortvalue.md)元素的文本值是用于对结果集进行排序的字段。</span><span class="sxs-lookup"><span data-stu-id="2ccc0-115">The text value of the [SortValue](sortvalue.md) element is the field used to sort the result set.</span></span> 
+<span data-ttu-id="e6feb-115">[SortValue](sortvalue.md)元素的文本值是用于对结果集进行排序的字段。</span><span class="sxs-lookup"><span data-stu-id="e6feb-115">The text value of the [SortValue](sortvalue.md) element is the field used to sort the result set.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="2ccc0-116">备注</span><span class="sxs-lookup"><span data-stu-id="2ccc0-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e6feb-116">备注</span><span class="sxs-lookup"><span data-stu-id="e6feb-116">Remarks</span></span>
 
-<span data-ttu-id="2ccc0-117">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="2ccc0-117">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="e6feb-117">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="e6feb-117">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="2ccc0-118">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="2ccc0-118">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="e6feb-118">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="e6feb-118">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="2ccc0-119">元素信息</span><span class="sxs-lookup"><span data-stu-id="2ccc0-119">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="e6feb-119">元素信息</span><span class="sxs-lookup"><span data-stu-id="e6feb-119">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="2ccc0-120">命名空间</span><span class="sxs-lookup"><span data-stu-id="2ccc0-120">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="2ccc0-121">架构名称</span><span class="sxs-lookup"><span data-stu-id="2ccc0-121">Schema name</span></span>  <br/> |<span data-ttu-id="2ccc0-122">类型架构</span><span class="sxs-lookup"><span data-stu-id="2ccc0-122">Types schema</span></span>  <br/> |
-|<span data-ttu-id="2ccc0-123">验证文件</span><span class="sxs-lookup"><span data-stu-id="2ccc0-123">Validation file</span></span>  <br/> |<span data-ttu-id="2ccc0-124">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="2ccc0-124">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="2ccc0-125">可以为空</span><span class="sxs-lookup"><span data-stu-id="2ccc0-125">Can be empty</span></span>  <br/> ||
+|<span data-ttu-id="e6feb-120">命名空间</span><span class="sxs-lookup"><span data-stu-id="e6feb-120">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="e6feb-121">架构名称</span><span class="sxs-lookup"><span data-stu-id="e6feb-121">Schema name</span></span>  <br/> |<span data-ttu-id="e6feb-122">类型架构</span><span class="sxs-lookup"><span data-stu-id="e6feb-122">Types schema</span></span>  <br/> |
+|<span data-ttu-id="e6feb-123">验证文件</span><span class="sxs-lookup"><span data-stu-id="e6feb-123">Validation file</span></span>  <br/> |<span data-ttu-id="e6feb-124">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="e6feb-124">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="e6feb-125">可以为空</span><span class="sxs-lookup"><span data-stu-id="e6feb-125">Can be empty</span></span>  <br/> ||
    
 

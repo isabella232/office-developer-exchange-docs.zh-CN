@@ -11,57 +11,57 @@ ms.openlocfilehash: dbf419d591bc0d693204df51d8259c2a9fe13c50
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466071"
 ---
-# <a name="isdefault-soap"></a><span data-ttu-id="96b52-103">IsDefault （SOAP）</span><span class="sxs-lookup"><span data-stu-id="96b52-103">IsDefault (SOAP)</span></span>
+# <a name="isdefault-soap"></a><span data-ttu-id="6431c-103">IsDefault （SOAP）</span><span class="sxs-lookup"><span data-stu-id="6431c-103">IsDefault (SOAP)</span></span>
 
-<span data-ttu-id="96b52-104">**IsDefault**元素指示文档共享位置是否为用户的默认共享位置。</span><span class="sxs-lookup"><span data-stu-id="96b52-104">The **IsDefault** element indicates whether a document sharing location is the user's default sharing location.</span></span> 
+<span data-ttu-id="6431c-104">**IsDefault**元素指示文档共享位置是否为用户的默认共享位置。</span><span class="sxs-lookup"><span data-stu-id="6431c-104">The **IsDefault** element indicates whether a document sharing location is the user's default sharing location.</span></span> 
   
 ```XML
 <IsDefault /> 
 ```
 
- <span data-ttu-id="96b52-105">**Boolean**</span><span class="sxs-lookup"><span data-stu-id="96b52-105">**Boolean**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="96b52-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="96b52-106">Attributes and elements</span></span>
+ <span data-ttu-id="6431c-105">**Boolean**</span><span class="sxs-lookup"><span data-stu-id="6431c-105">**Boolean**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="6431c-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="6431c-106">Attributes and elements</span></span>
 
-<span data-ttu-id="96b52-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="96b52-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="6431c-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="6431c-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="96b52-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="96b52-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="6431c-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="6431c-108">Attributes</span></span>
 
-<span data-ttu-id="96b52-109">无。</span><span class="sxs-lookup"><span data-stu-id="96b52-109">None.</span></span>
+<span data-ttu-id="6431c-109">无。</span><span class="sxs-lookup"><span data-stu-id="6431c-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="96b52-110">子元素</span><span class="sxs-lookup"><span data-stu-id="96b52-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="6431c-110">子元素</span><span class="sxs-lookup"><span data-stu-id="6431c-110">Child elements</span></span>
 
-<span data-ttu-id="96b52-111">无。</span><span class="sxs-lookup"><span data-stu-id="96b52-111">None.</span></span>
+<span data-ttu-id="6431c-111">无。</span><span class="sxs-lookup"><span data-stu-id="6431c-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="96b52-112">父元素</span><span class="sxs-lookup"><span data-stu-id="96b52-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="6431c-112">父元素</span><span class="sxs-lookup"><span data-stu-id="6431c-112">Parent elements</span></span>
 
-|<span data-ttu-id="96b52-113">**元素**</span><span class="sxs-lookup"><span data-stu-id="96b52-113">**Element**</span></span>|<span data-ttu-id="96b52-114">**说明**</span><span class="sxs-lookup"><span data-stu-id="96b52-114">**Description**</span></span>|
+|<span data-ttu-id="6431c-113">**元素**</span><span class="sxs-lookup"><span data-stu-id="6431c-113">**Element**</span></span>|<span data-ttu-id="6431c-114">**说明**</span><span class="sxs-lookup"><span data-stu-id="6431c-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="96b52-115">DocumentSharingLocation （SOAP）</span><span class="sxs-lookup"><span data-stu-id="96b52-115">DocumentSharingLocation (SOAP)</span></span>](documentsharinglocation-soap.md) <br/> |<span data-ttu-id="96b52-116">表示文档共享位置的位置和元数据信息。</span><span class="sxs-lookup"><span data-stu-id="96b52-116">Represents location and metadata information for a document sharing location.</span></span>  <br/> |
+|[<span data-ttu-id="6431c-115">DocumentSharingLocation （SOAP）</span><span class="sxs-lookup"><span data-stu-id="6431c-115">DocumentSharingLocation (SOAP)</span></span>](documentsharinglocation-soap.md) <br/> |<span data-ttu-id="6431c-116">表示文档共享位置的位置和元数据信息。</span><span class="sxs-lookup"><span data-stu-id="6431c-116">Represents location and metadata information for a document sharing location.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="96b52-117">文本值</span><span class="sxs-lookup"><span data-stu-id="96b52-117">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="6431c-117">文本值</span><span class="sxs-lookup"><span data-stu-id="6431c-117">Text value</span></span>
 
-<span data-ttu-id="96b52-118">**IsDefault**元素的布尔值指示共享位置是否为用户的默认共享位置。</span><span class="sxs-lookup"><span data-stu-id="96b52-118">The Boolean value of the **IsDefault** element indicates whether the sharing location is the user's default sharing location.</span></span> 
+<span data-ttu-id="6431c-118">**IsDefault**元素的布尔值指示共享位置是否为用户的默认共享位置。</span><span class="sxs-lookup"><span data-stu-id="6431c-118">The Boolean value of the **IsDefault** element indicates whether the sharing location is the user's default sharing location.</span></span> 
   
-## <a name="element-information"></a><span data-ttu-id="96b52-119">元素信息</span><span class="sxs-lookup"><span data-stu-id="96b52-119">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="6431c-119">元素信息</span><span class="sxs-lookup"><span data-stu-id="6431c-119">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="96b52-120">命名空间</span><span class="sxs-lookup"><span data-stu-id="96b52-120">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|<span data-ttu-id="96b52-121">架构名称</span><span class="sxs-lookup"><span data-stu-id="96b52-121">Schema Name</span></span>  <br/> |<span data-ttu-id="96b52-122">自动发现架构</span><span class="sxs-lookup"><span data-stu-id="96b52-122">Autodiscover schema</span></span>  <br/> |
-|<span data-ttu-id="96b52-123">验证文件</span><span class="sxs-lookup"><span data-stu-id="96b52-123">Validation File</span></span>  <br/> |<span data-ttu-id="96b52-124">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="96b52-124">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="96b52-125">可以为空</span><span class="sxs-lookup"><span data-stu-id="96b52-125">Can be Empty</span></span>  <br/> |<span data-ttu-id="96b52-126">True</span><span class="sxs-lookup"><span data-stu-id="96b52-126">True</span></span>  <br/> |
+|<span data-ttu-id="6431c-120">命名空间</span><span class="sxs-lookup"><span data-stu-id="6431c-120">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|<span data-ttu-id="6431c-121">架构名称</span><span class="sxs-lookup"><span data-stu-id="6431c-121">Schema Name</span></span>  <br/> |<span data-ttu-id="6431c-122">自动发现架构</span><span class="sxs-lookup"><span data-stu-id="6431c-122">Autodiscover schema</span></span>  <br/> |
+|<span data-ttu-id="6431c-123">验证文件</span><span class="sxs-lookup"><span data-stu-id="6431c-123">Validation File</span></span>  <br/> |<span data-ttu-id="6431c-124">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="6431c-124">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="6431c-125">可以为空</span><span class="sxs-lookup"><span data-stu-id="6431c-125">Can be Empty</span></span>  <br/> |<span data-ttu-id="6431c-126">True</span><span class="sxs-lookup"><span data-stu-id="6431c-126">True</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="96b52-127">另请参阅</span><span class="sxs-lookup"><span data-stu-id="96b52-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6431c-127">另请参阅</span><span class="sxs-lookup"><span data-stu-id="6431c-127">See also</span></span>
 
 
 
-[<span data-ttu-id="96b52-128">GetUserSettings 操作 (SOAP)</span><span class="sxs-lookup"><span data-stu-id="96b52-128">GetUserSettings operation (SOAP)</span></span>](getusersettings-operation-soap.md)
+[<span data-ttu-id="6431c-128">GetUserSettings 操作 (SOAP)</span><span class="sxs-lookup"><span data-stu-id="6431c-128">GetUserSettings operation (SOAP)</span></span>](getusersettings-operation-soap.md)
 
 
-[<span data-ttu-id="96b52-129">Exchange 的自动发现 web 服务参考</span><span class="sxs-lookup"><span data-stu-id="96b52-129">Autodiscover web service reference for Exchange</span></span>](autodiscover-web-service-reference-for-exchange.md)
+[<span data-ttu-id="6431c-129">Exchange 的自动发现 web 服务参考</span><span class="sxs-lookup"><span data-stu-id="6431c-129">Autodiscover web service reference for Exchange</span></span>](autodiscover-web-service-reference-for-exchange.md)
   
-[<span data-ttu-id="96b52-130">Exchange 2013 的 SOAP 自动发现 XML 元素</span><span class="sxs-lookup"><span data-stu-id="96b52-130">SOAP Autodiscover XML elements for Exchange 2013</span></span>](soap-autodiscover-xml-elements-for-exchange-2013.md)
+[<span data-ttu-id="6431c-130">Exchange 2013 的 SOAP 自动发现 XML 元素</span><span class="sxs-lookup"><span data-stu-id="6431c-130">SOAP Autodiscover XML elements for Exchange 2013</span></span>](soap-autodiscover-xml-elements-for-exchange-2013.md)
 

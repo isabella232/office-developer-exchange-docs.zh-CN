@@ -16,12 +16,12 @@ ms.openlocfilehash: c3a6bcce23f0bb1125dbd2a5bb86e9b20039a4e1
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466316"
 ---
-# <a name="occurrence"></a><span data-ttu-id="64056-103">重复</span><span class="sxs-lookup"><span data-stu-id="64056-103">Occurrence</span></span>
+# <a name="occurrence"></a><span data-ttu-id="3b748-103">重复</span><span class="sxs-lookup"><span data-stu-id="3b748-103">Occurrence</span></span>
 
-<span data-ttu-id="64056-104">**具体**值元素表示定期日历项目的单个修改事件。</span><span class="sxs-lookup"><span data-stu-id="64056-104">The **Occurrence** element represents a single modified occurrence of a recurring calendar item.</span></span> 
+<span data-ttu-id="3b748-104">**具体**值元素表示定期日历项目的单个修改事件。</span><span class="sxs-lookup"><span data-stu-id="3b748-104">The **Occurrence** element represents a single modified occurrence of a recurring calendar item.</span></span> 
   
 ```xml
 <Occurrence>
@@ -32,45 +32,45 @@ ms.locfileid: "44466316"
 </Occurrence>
 ```
 
-<span data-ttu-id="64056-105">**OccurrenceInfoType**</span><span class="sxs-lookup"><span data-stu-id="64056-105">**OccurrenceInfoType**</span></span>
+<span data-ttu-id="3b748-105">**OccurrenceInfoType**</span><span class="sxs-lookup"><span data-stu-id="3b748-105">**OccurrenceInfoType**</span></span>
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="64056-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="64056-106">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="3b748-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="3b748-106">Attributes and elements</span></span>
 
-<span data-ttu-id="64056-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="64056-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="3b748-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="3b748-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="64056-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="64056-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="3b748-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="3b748-108">Attributes</span></span>
 
-<span data-ttu-id="64056-109">无。</span><span class="sxs-lookup"><span data-stu-id="64056-109">None.</span></span>
+<span data-ttu-id="3b748-109">无。</span><span class="sxs-lookup"><span data-stu-id="3b748-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="64056-110">子元素</span><span class="sxs-lookup"><span data-stu-id="64056-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="3b748-110">子元素</span><span class="sxs-lookup"><span data-stu-id="3b748-110">Child elements</span></span>
 
-|<span data-ttu-id="64056-111">**元素**</span><span class="sxs-lookup"><span data-stu-id="64056-111">**Element**</span></span>|<span data-ttu-id="64056-112">**说明**</span><span class="sxs-lookup"><span data-stu-id="64056-112">**Description**</span></span>|
+|<span data-ttu-id="3b748-111">**元素**</span><span class="sxs-lookup"><span data-stu-id="3b748-111">**Element**</span></span>|<span data-ttu-id="3b748-112">**说明**</span><span class="sxs-lookup"><span data-stu-id="3b748-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="64056-113">ItemId</span><span class="sxs-lookup"><span data-stu-id="64056-113">ItemId</span></span>](itemid.md) <br/> |<span data-ttu-id="64056-114">包含定期日历项目的已修改事件的唯一标识符和更改键。</span><span class="sxs-lookup"><span data-stu-id="64056-114">Contains the unique identifier and change key of a modified occurrence of a recurring calendar item.</span></span>  <br/> |
-|[<span data-ttu-id="64056-115">开始</span><span class="sxs-lookup"><span data-stu-id="64056-115">Start</span></span>](start.md) <br/> |<span data-ttu-id="64056-116">表示定期日历项目的已修改事件的开始时间。</span><span class="sxs-lookup"><span data-stu-id="64056-116">Represents the start time of a modified occurrence of a recurring calendar item.</span></span>  <br/> |
-|[<span data-ttu-id="64056-117">停止</span><span class="sxs-lookup"><span data-stu-id="64056-117">End </span></span>](end-ex15websvcsotherref.md) <br/> |<span data-ttu-id="64056-118">表示定期日历项目的已修改事件的结束时间。</span><span class="sxs-lookup"><span data-stu-id="64056-118">Represents the end time of a modified occurrence of a recurring calendar item.</span></span>  <br/> |
-|[<span data-ttu-id="64056-119">OriginalStart</span><span class="sxs-lookup"><span data-stu-id="64056-119">OriginalStart</span></span>](originalstart.md) <br/> |<span data-ttu-id="64056-120">表示定期日历项目的已修改事件的原始开始时间。</span><span class="sxs-lookup"><span data-stu-id="64056-120">Represents the original start time of a modified occurrence of a recurring calendar item.</span></span>  <br/> |
+|[<span data-ttu-id="3b748-113">ItemId</span><span class="sxs-lookup"><span data-stu-id="3b748-113">ItemId</span></span>](itemid.md) <br/> |<span data-ttu-id="3b748-114">包含定期日历项目的已修改事件的唯一标识符和更改键。</span><span class="sxs-lookup"><span data-stu-id="3b748-114">Contains the unique identifier and change key of a modified occurrence of a recurring calendar item.</span></span>  <br/> |
+|[<span data-ttu-id="3b748-115">开始</span><span class="sxs-lookup"><span data-stu-id="3b748-115">Start</span></span>](start.md) <br/> |<span data-ttu-id="3b748-116">表示定期日历项目的已修改事件的开始时间。</span><span class="sxs-lookup"><span data-stu-id="3b748-116">Represents the start time of a modified occurrence of a recurring calendar item.</span></span>  <br/> |
+|[<span data-ttu-id="3b748-117">停止</span><span class="sxs-lookup"><span data-stu-id="3b748-117">End </span></span>](end-ex15websvcsotherref.md) <br/> |<span data-ttu-id="3b748-118">表示定期日历项目的已修改事件的结束时间。</span><span class="sxs-lookup"><span data-stu-id="3b748-118">Represents the end time of a modified occurrence of a recurring calendar item.</span></span>  <br/> |
+|[<span data-ttu-id="3b748-119">OriginalStart</span><span class="sxs-lookup"><span data-stu-id="3b748-119">OriginalStart</span></span>](originalstart.md) <br/> |<span data-ttu-id="3b748-120">表示定期日历项目的已修改事件的原始开始时间。</span><span class="sxs-lookup"><span data-stu-id="3b748-120">Represents the original start time of a modified occurrence of a recurring calendar item.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="64056-121">父元素</span><span class="sxs-lookup"><span data-stu-id="64056-121">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="3b748-121">父元素</span><span class="sxs-lookup"><span data-stu-id="3b748-121">Parent elements</span></span>
 
-|<span data-ttu-id="64056-122">**元素**</span><span class="sxs-lookup"><span data-stu-id="64056-122">**Element**</span></span>|<span data-ttu-id="64056-123">**说明**</span><span class="sxs-lookup"><span data-stu-id="64056-123">**Description**</span></span>|
+|<span data-ttu-id="3b748-122">**元素**</span><span class="sxs-lookup"><span data-stu-id="3b748-122">**Element**</span></span>|<span data-ttu-id="3b748-123">**说明**</span><span class="sxs-lookup"><span data-stu-id="3b748-123">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="64056-124">ModifiedOccurrences</span><span class="sxs-lookup"><span data-stu-id="64056-124">ModifiedOccurrences</span></span>](modifiedoccurrences.md) <br/> |<span data-ttu-id="64056-125">包含已修改的定期日历项目匹配项的集合，以便它们不同于定期主项目。</span><span class="sxs-lookup"><span data-stu-id="64056-125">Contains a collection of recurring calendar item occurrences that have been modified so that they are different than the recurrence master item.</span></span>  <br/> |
+|[<span data-ttu-id="3b748-124">ModifiedOccurrences</span><span class="sxs-lookup"><span data-stu-id="3b748-124">ModifiedOccurrences</span></span>](modifiedoccurrences.md) <br/> |<span data-ttu-id="3b748-125">包含已修改的定期日历项目匹配项的集合，以便它们不同于定期主项目。</span><span class="sxs-lookup"><span data-stu-id="3b748-125">Contains a collection of recurring calendar item occurrences that have been modified so that they are different than the recurrence master item.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="64056-126">说明</span><span class="sxs-lookup"><span data-stu-id="64056-126">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3b748-126">说明</span><span class="sxs-lookup"><span data-stu-id="3b748-126">Remarks</span></span>
 
-<span data-ttu-id="64056-127">描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="64056-127">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="3b748-127">描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="3b748-127">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="64056-128">元素信息</span><span class="sxs-lookup"><span data-stu-id="64056-128">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="3b748-128">元素信息</span><span class="sxs-lookup"><span data-stu-id="3b748-128">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="64056-129">命名空间</span><span class="sxs-lookup"><span data-stu-id="64056-129">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="64056-130">架构名称</span><span class="sxs-lookup"><span data-stu-id="64056-130">Schema name</span></span>  <br/> |<span data-ttu-id="64056-131">类型架构</span><span class="sxs-lookup"><span data-stu-id="64056-131">Types schema</span></span>  <br/> |
-|<span data-ttu-id="64056-132">验证文件</span><span class="sxs-lookup"><span data-stu-id="64056-132">Validation file</span></span>  <br/> |<span data-ttu-id="64056-133">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="64056-133">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="64056-134">可以为空</span><span class="sxs-lookup"><span data-stu-id="64056-134">Can be empty</span></span>  <br/> |<span data-ttu-id="64056-135">False</span><span class="sxs-lookup"><span data-stu-id="64056-135">False</span></span>  <br/> |
+|<span data-ttu-id="3b748-129">命名空间</span><span class="sxs-lookup"><span data-stu-id="3b748-129">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="3b748-130">架构名称</span><span class="sxs-lookup"><span data-stu-id="3b748-130">Schema name</span></span>  <br/> |<span data-ttu-id="3b748-131">类型架构</span><span class="sxs-lookup"><span data-stu-id="3b748-131">Types schema</span></span>  <br/> |
+|<span data-ttu-id="3b748-132">验证文件</span><span class="sxs-lookup"><span data-stu-id="3b748-132">Validation file</span></span>  <br/> |<span data-ttu-id="3b748-133">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="3b748-133">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="3b748-134">可以为空</span><span class="sxs-lookup"><span data-stu-id="3b748-134">Can be empty</span></span>  <br/> |<span data-ttu-id="3b748-135">False</span><span class="sxs-lookup"><span data-stu-id="3b748-135">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="64056-136">另请参阅</span><span class="sxs-lookup"><span data-stu-id="64056-136">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3b748-136">另请参阅</span><span class="sxs-lookup"><span data-stu-id="3b748-136">See also</span></span>
 
-- [<span data-ttu-id="64056-137">Exchange 中的 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="64056-137">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="3b748-137">Exchange 中的 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="3b748-137">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

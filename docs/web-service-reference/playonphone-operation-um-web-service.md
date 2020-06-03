@@ -15,20 +15,20 @@ ms.openlocfilehash: c5ff82bcd822aa2c659d1782ea4a1349d198bc80
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466232"
 ---
-# <a name="playonphone-operation-um-web-service"></a><span data-ttu-id="a73aa-103">PlayOnPhone 操作（UM web 服务）</span><span class="sxs-lookup"><span data-stu-id="a73aa-103">PlayOnPhone operation (UM web service)</span></span>
+# <a name="playonphone-operation-um-web-service"></a><span data-ttu-id="088bc-103">PlayOnPhone 操作（UM web 服务）</span><span class="sxs-lookup"><span data-stu-id="088bc-103">PlayOnPhone operation (UM web service)</span></span>
 
-<span data-ttu-id="a73aa-104">PlayOnPhone 操作发出出站呼叫，并通过**DialString**元素指定的电话播放指定的邮件。</span><span class="sxs-lookup"><span data-stu-id="a73aa-104">The PlayOnPhone operation makes an outbound call and plays a specified message over the telephone that is specified by the **DialString** element.</span></span> 
+<span data-ttu-id="088bc-104">PlayOnPhone 操作发出出站呼叫，并通过**DialString**元素指定的电话播放指定的邮件。</span><span class="sxs-lookup"><span data-stu-id="088bc-104">The PlayOnPhone operation makes an outbound call and plays a specified message over the telephone that is specified by the **DialString** element.</span></span> 
   
-## <a name="playonphone-request-example"></a><span data-ttu-id="a73aa-105">PlayOnPhone 请求示例</span><span class="sxs-lookup"><span data-stu-id="a73aa-105">PlayOnPhone request example</span></span>
+## <a name="playonphone-request-example"></a><span data-ttu-id="088bc-105">PlayOnPhone 请求示例</span><span class="sxs-lookup"><span data-stu-id="088bc-105">PlayOnPhone request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="a73aa-106">说明</span><span class="sxs-lookup"><span data-stu-id="a73aa-106">Description</span></span>
+### <a name="description"></a><span data-ttu-id="088bc-106">Description</span><span class="sxs-lookup"><span data-stu-id="088bc-106">Description</span></span>
 
-<span data-ttu-id="a73aa-107">以下示例的 PlayOnPhone 请求显示如何形成发出出站呼叫和播放邮件的请求。</span><span class="sxs-lookup"><span data-stu-id="a73aa-107">The following example of a PlayOnPhone request shows how to form a request to make an outbound call and play a message.</span></span>
+<span data-ttu-id="088bc-107">以下示例的 PlayOnPhone 请求显示如何形成发出出站呼叫和播放邮件的请求。</span><span class="sxs-lookup"><span data-stu-id="088bc-107">The following example of a PlayOnPhone request shows how to form a request to make an outbound call and play a message.</span></span>
   
-### <a name="code"></a><span data-ttu-id="a73aa-108">代码</span><span class="sxs-lookup"><span data-stu-id="a73aa-108">Code</span></span>
+### <a name="code"></a><span data-ttu-id="088bc-108">代码</span><span class="sxs-lookup"><span data-stu-id="088bc-108">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -42,13 +42,13 @@ ms.locfileid: "44466232"
 </soap:Envelope>
 ```
 
-## <a name="successful-playonphone-response-example"></a><span data-ttu-id="a73aa-109">成功的 PlayOnPhone 响应示例</span><span class="sxs-lookup"><span data-stu-id="a73aa-109">Successful PlayOnPhone response example</span></span>
+## <a name="successful-playonphone-response-example"></a><span data-ttu-id="088bc-109">成功的 PlayOnPhone 响应示例</span><span class="sxs-lookup"><span data-stu-id="088bc-109">Successful PlayOnPhone response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="a73aa-110">说明</span><span class="sxs-lookup"><span data-stu-id="a73aa-110">Description</span></span>
+### <a name="description"></a><span data-ttu-id="088bc-110">Description</span><span class="sxs-lookup"><span data-stu-id="088bc-110">Description</span></span>
 
-<span data-ttu-id="a73aa-111">下面的 PlayOnPhone 响应示例显示对 PlayOnPhone 请求的响应。</span><span class="sxs-lookup"><span data-stu-id="a73aa-111">The following example of a PlayOnPhone response shows a response to the PlayOnPhone request.</span></span>
+<span data-ttu-id="088bc-111">下面的 PlayOnPhone 响应示例显示对 PlayOnPhone 请求的响应。</span><span class="sxs-lookup"><span data-stu-id="088bc-111">The following example of a PlayOnPhone response shows a response to the PlayOnPhone request.</span></span>
   
-### <a name="code"></a><span data-ttu-id="a73aa-112">代码</span><span class="sxs-lookup"><span data-stu-id="a73aa-112">Code</span></span>
+### <a name="code"></a><span data-ttu-id="088bc-112">代码</span><span class="sxs-lookup"><span data-stu-id="088bc-112">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?> 
@@ -61,13 +61,13 @@ ms.locfileid: "44466232"
 </soap:Envelope>
 ```
 
-## <a name="see-also"></a><span data-ttu-id="a73aa-113">另请参阅</span><span class="sxs-lookup"><span data-stu-id="a73aa-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="088bc-113">另请参阅</span><span class="sxs-lookup"><span data-stu-id="088bc-113">See also</span></span>
 
 
 
-[<span data-ttu-id="a73aa-114">PlayOnPhone （UM web 服务）</span><span class="sxs-lookup"><span data-stu-id="a73aa-114">PlayOnPhone (UM web service)</span></span>](playonphone-um-web-service.md)
+[<span data-ttu-id="088bc-114">PlayOnPhone （UM web 服务）</span><span class="sxs-lookup"><span data-stu-id="088bc-114">PlayOnPhone (UM web service)</span></span>](playonphone-um-web-service.md)
   
-[<span data-ttu-id="a73aa-115">PlayOnPhoneResponse （UM web 服务）</span><span class="sxs-lookup"><span data-stu-id="a73aa-115">PlayOnPhoneResponse (UM web service)</span></span>](playonphoneresponse-um-web-service.md)
+[<span data-ttu-id="088bc-115">PlayOnPhoneResponse （UM web 服务）</span><span class="sxs-lookup"><span data-stu-id="088bc-115">PlayOnPhoneResponse (UM web service)</span></span>](playonphoneresponse-um-web-service.md)
   
-[<span data-ttu-id="a73aa-116">PlayOnPhoneGreeting 操作（UM web 服务）</span><span class="sxs-lookup"><span data-stu-id="a73aa-116">PlayOnPhoneGreeting operation (UM web service)</span></span>](playonphonegreeting-operation-um-web-service.md)
+[<span data-ttu-id="088bc-116">PlayOnPhoneGreeting 操作（UM web 服务）</span><span class="sxs-lookup"><span data-stu-id="088bc-116">PlayOnPhoneGreeting operation (UM web service)</span></span>](playonphonegreeting-operation-um-web-service.md)
 

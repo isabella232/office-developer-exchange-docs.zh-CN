@@ -12,33 +12,33 @@ ms.openlocfilehash: 10453322db2e94788115bd6d363c936044d53d49
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466176"
 ---
-# <a name="getfederateddirectorygroupresponse"></a><span data-ttu-id="5c79f-103">GetFederatedDirectoryGroupResponse</span><span class="sxs-lookup"><span data-stu-id="5c79f-103">GetFederatedDirectoryGroupResponse</span></span>
+# <a name="getfederateddirectorygroupresponse"></a><span data-ttu-id="20e77-103">GetFederatedDirectoryGroupResponse</span><span class="sxs-lookup"><span data-stu-id="20e77-103">GetFederatedDirectoryGroupResponse</span></span>
 
-<span data-ttu-id="5c79f-104">**GetFederatedDirectoryGroupResponse**元素仅供内部使用。</span><span class="sxs-lookup"><span data-stu-id="5c79f-104">The **GetFederatedDirectoryGroupResponse** element is intended for internal use only.</span></span> 
+<span data-ttu-id="20e77-104">**GetFederatedDirectoryGroupResponse**元素仅供内部使用。</span><span class="sxs-lookup"><span data-stu-id="20e77-104">The **GetFederatedDirectoryGroupResponse** element is intended for internal use only.</span></span> 
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="5c79f-105">属性和元素</span><span class="sxs-lookup"><span data-stu-id="5c79f-105">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="20e77-105">属性和元素</span><span class="sxs-lookup"><span data-stu-id="20e77-105">Attributes and elements</span></span>
 
-<span data-ttu-id="5c79f-106">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="5c79f-106">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="20e77-106">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="20e77-106">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="5c79f-107">Attributes</span><span class="sxs-lookup"><span data-stu-id="5c79f-107">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="20e77-107">Attributes</span><span class="sxs-lookup"><span data-stu-id="20e77-107">Attributes</span></span>
 
-<span data-ttu-id="5c79f-108">无。</span><span class="sxs-lookup"><span data-stu-id="5c79f-108">None.</span></span>
+<span data-ttu-id="20e77-108">无。</span><span class="sxs-lookup"><span data-stu-id="20e77-108">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="5c79f-109">子元素</span><span class="sxs-lookup"><span data-stu-id="5c79f-109">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="20e77-109">子元素</span><span class="sxs-lookup"><span data-stu-id="20e77-109">Child elements</span></span>
 
-<span data-ttu-id="5c79f-110">无。</span><span class="sxs-lookup"><span data-stu-id="5c79f-110">None.</span></span>
+<span data-ttu-id="20e77-110">无。</span><span class="sxs-lookup"><span data-stu-id="20e77-110">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="5c79f-111">父元素</span><span class="sxs-lookup"><span data-stu-id="5c79f-111">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="20e77-111">父元素</span><span class="sxs-lookup"><span data-stu-id="20e77-111">Parent elements</span></span>
 
-<span data-ttu-id="5c79f-112">无。</span><span class="sxs-lookup"><span data-stu-id="5c79f-112">None.</span></span>
+<span data-ttu-id="20e77-112">无。</span><span class="sxs-lookup"><span data-stu-id="20e77-112">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="5c79f-113">说明</span><span class="sxs-lookup"><span data-stu-id="5c79f-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="20e77-113">说明</span><span class="sxs-lookup"><span data-stu-id="20e77-113">Remarks</span></span>
 
-<span data-ttu-id="5c79f-114">Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="5c79f-114">This element was introduced in Exchange Server 2013 Service Pack 1 (SP1).</span></span>
+<span data-ttu-id="20e77-114">Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="20e77-114">This element was introduced in Exchange Server 2013 Service Pack 1 (SP1).</span></span>
   
-<span data-ttu-id="5c79f-115">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="5c79f-115">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="20e77-115">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="20e77-115">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
 
