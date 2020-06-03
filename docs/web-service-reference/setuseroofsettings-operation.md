@@ -16,7 +16,7 @@ ms.openlocfilehash: 88b5475dd2f0fe6d334bad51a0fe8d0beb767634
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463151"
 ---
 # <a name="setuseroofsettings-operation"></a>SetUserOofSettings 操作
@@ -34,7 +34,7 @@ ms.locfileid: "44463151"
    
 ## <a name="setuseroofsettings-request-example"></a>SetUserOofSettings 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 以下示例的**SetUserOofSettings**请求将 OOF 设置设置为10天。 
   
@@ -103,7 +103,7 @@ ms.locfileid: "44463151"
     
 ## <a name="successful-setuseroofsettings-response-example"></a>成功的 SetUserOofSettings 响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对**SetUserOofSettings**请求的成功响应。 
   

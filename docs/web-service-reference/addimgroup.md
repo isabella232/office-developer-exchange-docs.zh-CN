@@ -12,7 +12,7 @@ ms.openlocfilehash: dc9ae442cf546df872fc0fe4300071d3c0ec73da
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462806"
 ---
 # <a name="addimgroup"></a>AddImGroup

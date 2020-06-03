@@ -13,7 +13,7 @@ ms.openlocfilehash: b2138f9813c7b75aef9afb90089b9b874aac7532
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44461665"
 ---
 # <a name="pox-autodiscover-request-for-exchange"></a>Exchange 的 POX 自动发现请求
@@ -22,7 +22,7 @@ ms.locfileid: "44461665"
   
 ## <a name="autodiscover-request-example"></a>自动发现请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 以下 XML 示例显示了自动发现请求正文。
   

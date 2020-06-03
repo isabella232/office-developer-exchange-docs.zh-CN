@@ -16,7 +16,7 @@ ms.openlocfilehash: ac7eafd61c62b077a8d20e5fd8d004924bf06cf1
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44461287"
 ---
 # <a name="getattachment-operation"></a>GetAttachment 操作
@@ -25,7 +25,7 @@ GetAttachment 操作用于检索 Exchange 存储中项目的现有附件。
   
 ## <a name="getattachment-request-example"></a>GetAttachment 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的 GetAttachment 请求示例演示如何获取附件。
   
@@ -72,7 +72,7 @@ xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
     
 ## <a name="getattachment-response-example"></a>GetAttachment 响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对 GetAttachment 请求的成功响应。 本示例返回一个文件附件。
   

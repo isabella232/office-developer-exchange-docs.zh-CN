@@ -16,7 +16,7 @@ ms.openlocfilehash: ebc0e0abe88d1e364dee94cc24313879458778d0
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462190"
 ---
 # <a name="redirecttorecipients"></a>RedirectToRecipients

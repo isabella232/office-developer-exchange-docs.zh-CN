@@ -12,7 +12,7 @@ ms.openlocfilehash: 8808b9b45b0e0c009ff884129631f6aabde541e7
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462379"
 ---
 # <a name="originaldisplayname"></a>OriginalDisplayName

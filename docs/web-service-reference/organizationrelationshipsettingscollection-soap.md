@@ -11,7 +11,7 @@ ms.openlocfilehash: 52f84d932e74393a844f5f55fbd1d09bfb0a5d4e
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462421"
 ---
 # <a name="organizationrelationshipsettingscollection-soap"></a>OrganizationRelationshipSettingsCollection （SOAP）

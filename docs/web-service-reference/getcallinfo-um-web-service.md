@@ -15,7 +15,7 @@ ms.openlocfilehash: 34e743b561aa56a9312a82bad4b504ed3870129d
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44461217"
 ---
 # <a name="getcallinfo-um-web-service"></a>GetCallInfo （UM web 服务）

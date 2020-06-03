@@ -16,7 +16,7 @@ ms.openlocfilehash: ef768807431ff3e02c6af7277c1c2a750607ed92
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462652"
 ---
 # <a name="findconversation-operation"></a>FindConversation 操作
@@ -25,7 +25,7 @@ ms.locfileid: "44462652"
   
 ## <a name="findconversation-request-example"></a>FindConversation 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 以下示例的**FindConversation**请求显示如何在 "收件箱" 文件夹中形成查找第一个对话的请求。 
   
@@ -68,7 +68,7 @@ ms.locfileid: "44462652"
     
 ## <a name="successful-findconversation-response-example"></a>成功的 FindConversation 响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对**FindConversation**请求的成功响应。 
   
@@ -212,7 +212,7 @@ ms.locfileid: "44462652"
     
 ## <a name="findconversation-error-response-example"></a>FindConversation 错误响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对由架构验证错误导致的**FindConversation**请求的错误响应。 
   

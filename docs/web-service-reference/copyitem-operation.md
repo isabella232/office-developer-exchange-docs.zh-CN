@@ -16,7 +16,7 @@ ms.openlocfilehash: ec07700a5ebbdc8774aa2134919634b8dfd02406
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462176"
 ---
 # <a name="copyitem-operation"></a>CopyItem 操作
@@ -25,7 +25,7 @@ ms.locfileid: "44462176"
   
 ## <a name="copyitem-request-example"></a>CopyItem 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 以下示例的**CopyItem**请求显示如何构成将项目复制到收件箱的请求。 
   
@@ -74,7 +74,7 @@ ms.locfileid: "44462176"
   
 ## <a name="successful-copyitem-response"></a>成功的 CopyItem 响应
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对**CopyItem**请求的成功响应。 
   
@@ -130,7 +130,7 @@ ms.locfileid: "44462176"
   
 ## <a name="copyitem-error-response"></a>CopyItem 错误响应
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对**CopyItem**请求的错误响应。 
   

@@ -11,7 +11,7 @@ ms.openlocfilehash: 889e0ca3bdcdce4b557fe066db2918fde4abaa9b
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44461301"
 ---
 # <a name="ecpurl-extinstall-pox"></a>EcpUrl-extinstall （POX）

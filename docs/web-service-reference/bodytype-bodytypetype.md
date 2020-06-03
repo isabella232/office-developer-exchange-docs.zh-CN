@@ -12,7 +12,7 @@ ms.openlocfilehash: e9e09ea01477558f3a12abbee3d028b9268ac7eb
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44461504"
 ---
 # <a name="bodytype-bodytypetype"></a>Office.mailboxenums.bodytype （BodyTypeType）

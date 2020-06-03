@@ -12,7 +12,7 @@ ms.openlocfilehash: 47d0a7d4a49c0d256640602f43df13c9ebca471e
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462883"
 ---
 # <a name="id-string"></a>ID （字符串）

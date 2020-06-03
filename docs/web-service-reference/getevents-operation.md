@@ -16,7 +16,7 @@ ms.openlocfilehash: 9258fd003c242911866aa7abbca5eba2b9582223
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462512"
 ---
 # <a name="getevents-operation"></a>GetEvents 操作
@@ -32,7 +32,7 @@ ms.locfileid: "44462512"
   
 ## <a name="getevents-request-example"></a>GetEvents 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示如何请求与订阅标识符和水印标识的订阅相关联的事件和项目。
   
@@ -63,7 +63,7 @@ ms.locfileid: "44462512"
     
 ## <a name="successful-getevents-response-example"></a>成功的 GetEvents 响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的响应示例显示通知，自上次通知请求发送到服务器后，存在两封新邮件。
   
@@ -150,7 +150,7 @@ ms.locfileid: "44462512"
   
 ## <a name="getevents-error-response-example"></a>GetEvents 错误响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对**GetEvents**请求的错误响应。 
   

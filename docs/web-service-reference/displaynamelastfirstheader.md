@@ -12,7 +12,7 @@ ms.openlocfilehash: 4987ace53b3ad6ecabed7644071436777fb3b926
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463144"
 ---
 # <a name="displaynamelastfirstheader"></a>DisplayNameLastFirstHeader

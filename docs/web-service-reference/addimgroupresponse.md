@@ -12,7 +12,7 @@ ms.openlocfilehash: 1c3873d46c6f55cee9b7ab10114f26e6fb322b30
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462771"
 ---
 # <a name="addimgroupresponse"></a>AddImGroupResponse

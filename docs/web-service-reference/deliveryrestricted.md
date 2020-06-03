@@ -16,7 +16,7 @@ ms.openlocfilehash: 58fc85873326179d7745db4ba7d4854a76ced6a7
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462687"
 ---
 # <a name="deliveryrestricted"></a>DeliveryRestricted

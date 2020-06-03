@@ -12,7 +12,7 @@ ms.openlocfilehash: 48b762d0bfe367b966b6f1790230f6a2118c3fd6
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462969"
 ---
 # <a name="endwallclock"></a>EndWallClock

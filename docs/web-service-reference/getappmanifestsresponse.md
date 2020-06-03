@@ -12,7 +12,7 @@ ms.openlocfilehash: a01f6265d6d534e2f7868b17acf19f0f5d52a01f
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462962"
 ---
 # <a name="getappmanifestsresponse"></a>GetAppManifestsResponse

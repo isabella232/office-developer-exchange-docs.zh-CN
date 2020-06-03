@@ -12,7 +12,7 @@ ms.openlocfilehash: 1355917005d956d05064bfc095055fb72aa16c57
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462743"
 ---
 # <a name="hasstarttimechanged"></a>HasStartTimeChanged

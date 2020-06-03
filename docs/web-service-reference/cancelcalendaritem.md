@@ -16,7 +16,7 @@ ms.openlocfilehash: 45ad76d19bd43e2081aa9b9eb63547e091014803
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462253"
 ---
 # <a name="cancelcalendaritem"></a>CancelCalendarItem

@@ -16,7 +16,7 @@ ms.openlocfilehash: 9bc676da5bbaad64f11f6717fb487c2e9bcf2d89
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462477"
 ---
 # <a name="or"></a>或

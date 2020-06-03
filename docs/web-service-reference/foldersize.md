@@ -16,7 +16,7 @@ ms.openlocfilehash: 8ed493cfb0c2cabd02d28354c115a73662992473
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44461336"
 ---
 # <a name="foldersize"></a>FolderSize

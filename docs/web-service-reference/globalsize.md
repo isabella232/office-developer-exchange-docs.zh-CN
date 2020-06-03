@@ -16,7 +16,7 @@ ms.openlocfilehash: d23ab080dadb006cd5eff9d712d081fe7d94a2a8
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462449"
 ---
 # <a name="globalsize"></a>GlobalSize

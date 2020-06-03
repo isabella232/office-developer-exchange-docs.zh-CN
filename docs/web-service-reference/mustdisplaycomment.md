@@ -16,7 +16,7 @@ ms.openlocfilehash: e86b0c6e2c1d7c3cc00561c17c82b3be82d81242
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463207"
 ---
 # <a name="mustdisplaycomment"></a>MustDisplayComment

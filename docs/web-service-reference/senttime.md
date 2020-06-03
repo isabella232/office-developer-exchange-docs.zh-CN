@@ -12,7 +12,7 @@ ms.openlocfilehash: 51404b1fe12cf31f935740dd4afe3deaab0777de
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463165"
 ---
 # <a name="senttime"></a>SentTime

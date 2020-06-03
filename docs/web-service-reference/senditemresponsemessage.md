@@ -16,7 +16,7 @@ ms.openlocfilehash: fc5d4f6dc77b242c3d3d517133c23ed56956c1ca
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462267"
 ---
 # <a name="senditemresponsemessage"></a>SendItemResponseMessage

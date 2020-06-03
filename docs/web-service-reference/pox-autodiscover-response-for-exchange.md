@@ -13,7 +13,7 @@ ms.openlocfilehash: 0d903d9829fa6dc1273d8b25a1eeb0b68700d5da
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462281"
 ---
 # <a name="pox-autodiscover-response-for-exchange"></a>Exchange 的 POX 自动发现响应
@@ -22,7 +22,7 @@ ms.locfileid: "44462281"
   
 ## <a name="autodiscover-response-example"></a>自动发现响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例展示了一个成功的自动发现响应。
   
@@ -124,7 +124,7 @@ ms.locfileid: "44462281"
     
 ## <a name="autodiscover-error-response-example"></a>自动发现错误响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 以下示例显示了自动发现错误响应。
   

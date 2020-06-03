@@ -16,7 +16,7 @@ ms.openlocfilehash: c79fe4f9288a5b636d7a85412f2410fe388272fc
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44461413"
 ---
 # <a name="datetimecreated"></a>DateTimeCreated

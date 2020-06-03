@@ -12,7 +12,7 @@ ms.openlocfilehash: 1298f5c8d20447b31a9800be5b960a5bd96fb44b
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462358"
 ---
 # <a name="otherfaxes"></a>OtherFaxes

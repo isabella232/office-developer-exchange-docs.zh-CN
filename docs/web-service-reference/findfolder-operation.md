@@ -16,7 +16,7 @@ ms.openlocfilehash: f1cc199bdaf684d8d74687ed7f064eb66fee48ff
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462582"
 ---
 # <a name="findfolder-operation"></a>FindFolder 操作
@@ -47,7 +47,7 @@ FindFolder 仅返回任何 streamable 属性的前512个字节。 对于 Unicode
    
 ## <a name="findfolder-request-example"></a>FindFolder 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的**FindFolder**请求示例演示如何在请求中查找位于收件箱中的所有文件夹。 
   
@@ -92,7 +92,7 @@ FindFolder 仅返回任何 streamable 属性的前512个字节。 对于 Unicode
   
 ## <a name="findfolder-response-example"></a>FindFolder 响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的简单对象访问协议（SOAP）正文示例显示了对**FindFolder**请求的成功响应。 响应包含在使用[BaseShape](baseshape.md)的默认值时返回的元素。 
   
@@ -171,7 +171,7 @@ FindFolder 仅返回任何 streamable 属性的前512个字节。 对于 Unicode
   
 ## <a name="findfolder-error-response-example"></a>FindFolder 错误响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的 SOAP 正文示例显示当您搜索由格式错误的文件夹标识符标识的文件夹时发生的错误响应。
   

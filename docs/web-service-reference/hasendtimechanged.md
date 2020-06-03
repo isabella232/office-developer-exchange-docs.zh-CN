@@ -12,7 +12,7 @@ ms.openlocfilehash: 15ad52c7b7581cce5ca96ba5ff4e8a1c130a02cf
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44461784"
 ---
 # <a name="hasendtimechanged"></a>HasEndTimeChanged

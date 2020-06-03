@@ -16,7 +16,7 @@ ms.openlocfilehash: 499d1ee80ef323c883fa86eb125d8c037fb37d4e
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462554"
 ---
 # <a name="finditem-operation"></a>FindItem 操作

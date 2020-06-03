@@ -16,7 +16,7 @@ ms.openlocfilehash: 691409a4eace8885d36f4b30b8eef1aca8c332a6
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44461763"
 ---
 # <a name="markasread"></a>MarkAsRead

@@ -15,7 +15,7 @@ ms.openlocfilehash: 6b5664dfe16f9c74cc7175098145141b815a6355
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44461238"
 ---
 # <a name="getcallinfo-operation-um-web-service"></a>GetCallInfo 操作（UM web 服务）
@@ -24,7 +24,7 @@ GetCallInfo 操作返回[CallId （UM web 服务）](callid-um-web-service.md)�
   
 ## <a name="getcallinfo-request-example"></a>GetCallInfo 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 以下示例的 GetCallInfo 请求显示如何形成请求，以获取有关指定的出站呼叫的信息。
   
@@ -43,7 +43,7 @@ GetCallInfo 操作返回[CallId （UM web 服务）](callid-um-web-service.md)�
 
 ## <a name="successful-getcallinfo-response-example"></a>成功的 GetCallInfo 响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 以下示例的 GetCallInfo 响应显示对 GetCallInfo 请求的响应。
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: 75246153d19632c1a0ad245a460584731275565e
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463018"
 ---
 # <a name="generation"></a>生成

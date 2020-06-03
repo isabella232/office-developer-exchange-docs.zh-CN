@@ -16,7 +16,7 @@ ms.openlocfilehash: 49f2f6cb7f5c8e1171b54ff965ee1d22accc9bf2
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462113"
 ---
 # <a name="sendnotification"></a>SendNotification

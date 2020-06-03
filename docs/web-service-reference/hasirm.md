@@ -12,7 +12,7 @@ ms.openlocfilehash: 1596610ed5f6b2bac353900624fbec9140aaa693
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462778"
 ---
 # <a name="hasirm"></a>HasIrm

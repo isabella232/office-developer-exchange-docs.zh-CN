@@ -12,7 +12,7 @@ ms.openlocfilehash: cb1cd180817524fe29a100a48d90444c75a77510
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462372"
 ---
 # <a name="creating-transport-agents-for-exchange-2013"></a>创建 Exchange 2013 的传输代理

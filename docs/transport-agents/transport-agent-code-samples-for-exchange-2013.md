@@ -12,7 +12,7 @@ ms.openlocfilehash: c14a4e34102b55014cc6507e375929c186f5f6e9
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44461798"
 ---
 # <a name="transport-agent-code-samples-for-exchange-2013"></a>Exchange 2013 的传输代理代码示例

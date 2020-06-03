@@ -16,7 +16,7 @@ ms.openlocfilehash: 58a379f2cffa7ff37181e93ad1c45c9752e84f1d
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44461609"
 ---
 # <a name="recurrenceid"></a>RecurrenceId

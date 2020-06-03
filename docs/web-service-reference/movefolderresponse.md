@@ -16,7 +16,7 @@ ms.openlocfilehash: 2019321dcb03ec5e63b47a6b7579c8bd46756391
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44461735"
 ---
 # <a name="movefolderresponse"></a>MoveFolderResponse

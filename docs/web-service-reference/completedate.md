@@ -16,7 +16,7 @@ ms.openlocfilehash: fff3d5d3105bf63c9cdd34cbcf828d57ca287b86
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44461420"
 ---
 # <a name="completedate"></a>CompleteDate

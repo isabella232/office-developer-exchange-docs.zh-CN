@@ -12,7 +12,7 @@ ms.openlocfilehash: 792cd20a361d038e797e64b461c565f85cada251
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462463"
 ---
 # <a name="organizationmainphones"></a>OrganizationMainPhones

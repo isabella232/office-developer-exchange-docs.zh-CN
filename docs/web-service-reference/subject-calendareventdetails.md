@@ -16,7 +16,7 @@ ms.openlocfilehash: 268e5fa4bb8d02d83154267fc8e475c6d2b7c31c
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463053"
 ---
 # <a name="subject-calendareventdetails"></a>Subject （CalendarEventDetails）

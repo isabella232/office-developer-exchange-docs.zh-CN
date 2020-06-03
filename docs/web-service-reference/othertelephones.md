@@ -12,7 +12,7 @@ ms.openlocfilehash: b47b6bac7efcfd7bd3dc1a84fa6b0b089fbeb160
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462344"
 ---
 # <a name="othertelephones"></a>OtherTelephones

@@ -15,7 +15,7 @@ ms.openlocfilehash: 42176d9cd0288af6515aeea616a4f216a419410c
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462470"
 ---
 # <a name="getumproperties-operation-um-web-service"></a>GetUMProperties 操作（UM web 服务）
@@ -24,7 +24,7 @@ GetUMProperties 操作获取发出请求的用户的邮箱的所有统一消息�
   
 ## <a name="getumproperties-request-example"></a>GetUMProperties 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 以下示例的 GetUMProperties 请求显示如何形成请求以获取邮箱的统一消息属性。
   
@@ -41,7 +41,7 @@ GetUMProperties 操作获取发出请求的用户的邮箱的所有统一消息�
 
 ## <a name="successful-getumproperties-response-example"></a>成功的 GetUMProperties 响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的 GetUMProperties 响应示例显示对 GetUMProperties 请求的响应。
   

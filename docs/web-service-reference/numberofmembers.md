@@ -16,7 +16,7 @@ ms.openlocfilehash: c91087f42d806afb0a0d3d607cc84f14a1a6c1b0
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462596"
 ---
 # <a name="numberofmembers"></a>NumberOfMembers

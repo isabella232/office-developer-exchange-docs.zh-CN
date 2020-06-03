@@ -16,7 +16,7 @@ ms.openlocfilehash: 01bb95da5f620fddc8777f88b1d3eb1a7e6069b1
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44461483"
 ---
 # <a name="contentlocation"></a>ContentLocation

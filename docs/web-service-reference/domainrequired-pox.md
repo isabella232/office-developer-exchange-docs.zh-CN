@@ -13,7 +13,7 @@ ms.openlocfilehash: 97d602c40b247f9a6650cc4440b53bf23c18482e
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44461322"
 ---
 # <a name="domainrequired-pox"></a>DomainRequired （POX）

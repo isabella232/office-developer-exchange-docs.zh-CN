@@ -12,7 +12,7 @@ ms.openlocfilehash: 93a4d3a6b6bba53e508468c2114447384b34f4ef
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44461826"
 ---
 # <a name="getencryptionconfigurationresponse"></a>GetEncryptionConfigurationResponse

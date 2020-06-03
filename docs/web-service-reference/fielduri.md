@@ -16,7 +16,7 @@ ms.openlocfilehash: 6b84e6ef0a5e33217677b7c92e0ef6dc32d68ac4
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44461231"
 ---
 # <a name="fielduri"></a>FieldURI

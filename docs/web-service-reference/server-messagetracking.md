@@ -16,7 +16,7 @@ ms.openlocfilehash: 1a5d2e223acfc402ae964c619598845e4212b639
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462043"
 ---
 # <a name="server-messagetracking"></a>服务器（MessageTracking）

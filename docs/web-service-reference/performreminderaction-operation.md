@@ -12,7 +12,7 @@ ms.openlocfilehash: 4c069d541e9a42167c447a50c405399958d3608d
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462288"
 ---
 # <a name="performreminderaction-operation"></a>PerformReminderAction 操作
