@@ -1,87 +1,87 @@
 ---
-title: 从 Exchange 服务器获取域设置
+title: 获取来自 Exchange 服务器的域设置
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 2f9acb81-5135-4f72-94e8-65c235d725e6
-description: 了解如何使用自动发现服务获取从 Exchange 服务器的域设置。
-ms.openlocfilehash: 0dd990cc82762936e7827115685ce0178eafb5ae
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 了解如何使用自动发现服务从 Exchange 服务器获取域设置。
+localization_priority: Priority
+ms.openlocfilehash: e77810089b77f614f6bca064b2e5cf6bde2bff7c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752780"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455805"
 ---
-# <a name="get-domain-settings-from-an-exchange-server"></a><span data-ttu-id="9bc4e-103">从 Exchange 服务器获取域设置</span><span class="sxs-lookup"><span data-stu-id="9bc4e-103">Get domain settings from an Exchange server</span></span>
+# <a name="get-domain-settings-from-an-exchange-server"></a><span data-ttu-id="b7ef1-103">获取来自 Exchange 服务器的域设置</span><span class="sxs-lookup"><span data-stu-id="b7ef1-103">Get domain settings from an Exchange server</span></span>
 
-<span data-ttu-id="9bc4e-104">了解如何使用自动发现服务获取从 Exchange 服务器的域设置。</span><span class="sxs-lookup"><span data-stu-id="9bc4e-104">Learn how to get domain settings from an Exchange server by using the Autodiscover service.</span></span>
+<span data-ttu-id="b7ef1-104">了解如何使用自动发现服务从 Exchange 服务器获取域设置。</span><span class="sxs-lookup"><span data-stu-id="b7ef1-104">Learn how to get domain settings from an Exchange server by using the Autodiscover service.</span></span>
   
-<span data-ttu-id="9bc4e-105">您可以通过使用自动发现服务来检索配置信息的电子邮件域。</span><span class="sxs-lookup"><span data-stu-id="9bc4e-105">You can retrieve configuration information for an email domain by using the Autodiscover service.</span></span> <span data-ttu-id="9bc4e-106">自动发现服务提供您的应用程序与连接到特定域的正确的服务终结点的过程。</span><span class="sxs-lookup"><span data-stu-id="9bc4e-106">The Autodiscover service provides your application with a process for connecting to the correct service endpoint for a specific domain.</span></span>
+<span data-ttu-id="b7ef1-105">您可以使用自动发现服务检索电子邮件域的配置信息。</span><span class="sxs-lookup"><span data-stu-id="b7ef1-105">You can retrieve configuration information for an email domain by using the Autodiscover service.</span></span> <span data-ttu-id="b7ef1-106">自动发现服务向应用程序提供连接到特定域的正确服务终结点的过程。</span><span class="sxs-lookup"><span data-stu-id="b7ef1-106">The Autodiscover service provides your application with a process for connecting to the correct service endpoint for a specific domain.</span></span>
   
-<span data-ttu-id="9bc4e-107">您可以使用以下开发技术之一访问自动发现服务：</span><span class="sxs-lookup"><span data-stu-id="9bc4e-107">You can use one of the following development technologies to access the Autodiscover service:</span></span>
+<span data-ttu-id="b7ef1-107">您可以使用以下一种开发技术来访问自动发现服务：</span><span class="sxs-lookup"><span data-stu-id="b7ef1-107">You can use one of the following development technologies to access the Autodiscover service:</span></span>
   
-- <span data-ttu-id="9bc4e-108">Exchange Web Services (EWS) 托管的 API</span><span class="sxs-lookup"><span data-stu-id="9bc4e-108">The Exchange Web Services (EWS) Managed API</span></span>
+- <span data-ttu-id="b7ef1-108">Exchange Web 服务（EWS）托管 API</span><span class="sxs-lookup"><span data-stu-id="b7ef1-108">The Exchange Web Services (EWS) Managed API</span></span>
     
-- <span data-ttu-id="9bc4e-109">EWS</span><span class="sxs-lookup"><span data-stu-id="9bc4e-109">EWS</span></span>
+- <span data-ttu-id="b7ef1-109">EWS</span><span class="sxs-lookup"><span data-stu-id="b7ef1-109">EWS</span></span>
     
-    <span data-ttu-id="9bc4e-110">如果您使用 EWS，您可以使用以下方法检索用户设置：</span><span class="sxs-lookup"><span data-stu-id="9bc4e-110">If you are using EWS, you can use the following methods to retrieve user settings:</span></span>
+    <span data-ttu-id="b7ef1-110">如果您使用 EWS，则可以使用以下方法来检索用户设置：</span><span class="sxs-lookup"><span data-stu-id="b7ef1-110">If you are using EWS, you can use the following methods to retrieve user settings:</span></span>
     
-  - <span data-ttu-id="9bc4e-111">基于 SOAP 的自动发现服务</span><span class="sxs-lookup"><span data-stu-id="9bc4e-111">The SOAP-based Autodiscover service</span></span>
+  - <span data-ttu-id="b7ef1-111">基于 SOAP 的自动发现服务</span><span class="sxs-lookup"><span data-stu-id="b7ef1-111">The SOAP-based Autodiscover service</span></span>
     
-  - <span data-ttu-id="9bc4e-112">XML (POX) 自动发现服务</span><span class="sxs-lookup"><span data-stu-id="9bc4e-112">The XML (POX) Autodiscover service</span></span>
+  - <span data-ttu-id="b7ef1-112">XML （POX）自动发现服务</span><span class="sxs-lookup"><span data-stu-id="b7ef1-112">The XML (POX) Autodiscover service</span></span>
     
-  - <span data-ttu-id="9bc4e-113">生成从 SOAP 或 XML 自动发现服务自动生成代理</span><span class="sxs-lookup"><span data-stu-id="9bc4e-113">An autogenerated proxy generated from the SOAP or XML Autodiscover service</span></span>
+  - <span data-ttu-id="b7ef1-113">从 SOAP 或 XML 自动发现服务生成的自动生成的代理</span><span class="sxs-lookup"><span data-stu-id="b7ef1-113">An autogenerated proxy generated from the SOAP or XML Autodiscover service</span></span>
     
-    <span data-ttu-id="9bc4e-114">有关这些方法的详细信息，请参阅[exchange 自动发现](autodiscover-for-exchange.md)。</span><span class="sxs-lookup"><span data-stu-id="9bc4e-114">For more information about these methods, see [Autodiscover for Exchange](autodiscover-for-exchange.md).</span></span>
+    <span data-ttu-id="b7ef1-114">有关这些方法的详细信息，请参阅[Exchange 的自动发现](autodiscover-for-exchange.md)。</span><span class="sxs-lookup"><span data-stu-id="b7ef1-114">For more information about these methods, see [Autodiscover for Exchange](autodiscover-for-exchange.md).</span></span>
     
-<span data-ttu-id="9bc4e-115">EWS 托管 API 以检索用户设置提供基于对象的接口。</span><span class="sxs-lookup"><span data-stu-id="9bc4e-115">The EWS Managed API provides an object-based interface for retrieving user settings.</span></span> <span data-ttu-id="9bc4e-116">如果您的客户端应用程序使用托管的代码，我们建议您使用 EWS 托管 API。</span><span class="sxs-lookup"><span data-stu-id="9bc4e-116">If your client application uses managed code, we recommend that you use the EWS Managed API.</span></span> <span data-ttu-id="9bc4e-117">EWS 托管 API 界面更好地专为一个简单的对象模型比典型的自动生成 web 服务代理。</span><span class="sxs-lookup"><span data-stu-id="9bc4e-117">The EWS Managed API interface is better optimized for a simple object model than the typical autogenerated web service proxy.</span></span> 
+<span data-ttu-id="b7ef1-115">EWS 托管 API 提供了用于检索用户设置的基于对象的接口。</span><span class="sxs-lookup"><span data-stu-id="b7ef1-115">The EWS Managed API provides an object-based interface for retrieving user settings.</span></span> <span data-ttu-id="b7ef1-116">如果客户端应用程序使用托管代码，建议使用 EWS 托管 API。</span><span class="sxs-lookup"><span data-stu-id="b7ef1-116">If your client application uses managed code, we recommend that you use the EWS Managed API.</span></span> <span data-ttu-id="b7ef1-117">对简单对象模型而言，EWS 托管 API 接口比典型的自动生成 web 服务代理更好地优化。</span><span class="sxs-lookup"><span data-stu-id="b7ef1-117">The EWS Managed API interface is better optimized for a simple object model than the typical autogenerated web service proxy.</span></span> 
   
-<span data-ttu-id="9bc4e-118">如果您使用 EWS，我们建议您使用 SOAP 自动发现服务，因为它支持比 POX 自动发现服务更丰富的功能。</span><span class="sxs-lookup"><span data-stu-id="9bc4e-118">If you are using EWS, we suggest that you use the SOAP Autodiscover service, because it supports a richer set of features than the POX Autodiscover service.</span></span>
+<span data-ttu-id="b7ef1-118">如果使用 EWS，则建议您使用 SOAP 自动发现服务，因为它支持的功能集比 POX 自动发现服务更丰富。</span><span class="sxs-lookup"><span data-stu-id="b7ef1-118">If you are using EWS, we suggest that you use the SOAP Autodiscover service, because it supports a richer set of features than the POX Autodiscover service.</span></span>
   
-<span data-ttu-id="9bc4e-119">自动发现服务返回仅请求的配置设置。</span><span class="sxs-lookup"><span data-stu-id="9bc4e-119">The Autodiscover service returns only the requested configuration settings.</span></span> <span data-ttu-id="9bc4e-120">下表列出了可返回自动发现服务的域配置设置。</span><span class="sxs-lookup"><span data-stu-id="9bc4e-120">The following table lists the domain configuration settings that the Autodiscover service can return.</span></span>
+<span data-ttu-id="b7ef1-119">自动发现服务仅返回请求的配置设置。</span><span class="sxs-lookup"><span data-stu-id="b7ef1-119">The Autodiscover service returns only the requested configuration settings.</span></span> <span data-ttu-id="b7ef1-120">下表列出了自动发现服务可以返回的域配置设置。</span><span class="sxs-lookup"><span data-stu-id="b7ef1-120">The following table lists the domain configuration settings that the Autodiscover service can return.</span></span>
   
-<span data-ttu-id="9bc4e-121">**表 1： 域配置设置**</span><span class="sxs-lookup"><span data-stu-id="9bc4e-121">**Table 1: Domain configuration settings**</span></span>
+<span data-ttu-id="b7ef1-121">**表1：域配置设置**</span><span class="sxs-lookup"><span data-stu-id="b7ef1-121">**Table 1: Domain configuration settings**</span></span>
 
-|<span data-ttu-id="9bc4e-122">**配置设置**</span><span class="sxs-lookup"><span data-stu-id="9bc4e-122">**Configuration setting**</span></span>|<span data-ttu-id="9bc4e-123">**说明**</span><span class="sxs-lookup"><span data-stu-id="9bc4e-123">**Description**</span></span>|
+|<span data-ttu-id="b7ef1-122">**配置设置**</span><span class="sxs-lookup"><span data-stu-id="b7ef1-122">**Configuration setting**</span></span>|<span data-ttu-id="b7ef1-123">**说明**</span><span class="sxs-lookup"><span data-stu-id="b7ef1-123">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="9bc4e-124">ExternalEwsUrl</span><span class="sxs-lookup"><span data-stu-id="9bc4e-124">ExternalEwsUrl</span></span>  <br/> |<span data-ttu-id="9bc4e-125">EWS 的外部 URL。</span><span class="sxs-lookup"><span data-stu-id="9bc4e-125">The external URL for EWS.</span></span>  <br/> |
-|<span data-ttu-id="9bc4e-126">ExternalEwsVersion</span><span class="sxs-lookup"><span data-stu-id="9bc4e-126">ExternalEwsVersion</span></span>  <br/> |<span data-ttu-id="9bc4e-127">Exchange server 承载 EWS URL 的版本。</span><span class="sxs-lookup"><span data-stu-id="9bc4e-127">The version of the Exchange server that hosts the EWS URL.</span></span>  <br/> |
+|<span data-ttu-id="b7ef1-124">ExternalEwsUrl</span><span class="sxs-lookup"><span data-stu-id="b7ef1-124">ExternalEwsUrl</span></span>  <br/> |<span data-ttu-id="b7ef1-125">EWS 的外部 URL。</span><span class="sxs-lookup"><span data-stu-id="b7ef1-125">The external URL for EWS.</span></span>  <br/> |
+|<span data-ttu-id="b7ef1-126">ExternalEwsVersion</span><span class="sxs-lookup"><span data-stu-id="b7ef1-126">ExternalEwsVersion</span></span>  <br/> |<span data-ttu-id="b7ef1-127">承载 EWS URL 的 Exchange 服务器的版本。</span><span class="sxs-lookup"><span data-stu-id="b7ef1-127">The version of the Exchange server that hosts the EWS URL.</span></span>  <br/> |
    
-## <a name="prerequisites-for-getting-domain-settings"></a><span data-ttu-id="9bc4e-128">获取域设置的先决条件</span><span class="sxs-lookup"><span data-stu-id="9bc4e-128">Prerequisites for getting domain settings</span></span>
-<span data-ttu-id="9bc4e-129"><a name="bk_Prereq"> </a></span><span class="sxs-lookup"><span data-stu-id="9bc4e-129"></span></span>
+## <a name="prerequisites-for-getting-domain-settings"></a><span data-ttu-id="b7ef1-128">获取域设置的先决条件</span><span class="sxs-lookup"><span data-stu-id="b7ef1-128">Prerequisites for getting domain settings</span></span>
+<span data-ttu-id="b7ef1-129"><a name="bk_Prereq"> </a></span><span class="sxs-lookup"><span data-stu-id="b7ef1-129"><a name="bk_Prereq"> </a></span></span>
 
-<span data-ttu-id="9bc4e-130">创建的应用程序连接到自动发现服务获取域设置之前，请确保您有权访问以下：</span><span class="sxs-lookup"><span data-stu-id="9bc4e-130">Before you create an application that connects to the Autodiscover service to get domain settings, make sure that you have access to the following:</span></span>
+<span data-ttu-id="b7ef1-130">在创建连接到自动发现服务的应用程序以获取域设置之前，请确保您有权访问以下内容：</span><span class="sxs-lookup"><span data-stu-id="b7ef1-130">Before you create an application that connects to the Autodiscover service to get domain settings, make sure that you have access to the following:</span></span>
   
-- <span data-ttu-id="9bc4e-131">Exchange Online、 Exchange Online 作为 Office 365 的一部分或运行的开头 Exchange 2007 的 Exchange 版本的服务器。</span><span class="sxs-lookup"><span data-stu-id="9bc4e-131">Exchange Online, Exchange Online as part of Office 365, or a server running a version of Exchange starting with Exchange 2007.</span></span> <span data-ttu-id="9bc4e-132">如果您使用的基于 EWS SOAP 的自动发现服务，运行的开头 Exchange 2010 的 Exchange 版本的服务器。</span><span class="sxs-lookup"><span data-stu-id="9bc4e-132">If you are using the EWS SOAP-based Autodiscover service, a server running a version of Exchange starting with Exchange 2010.</span></span>
+- <span data-ttu-id="b7ef1-131">Exchange Online、作为 Office 365 的一部分的 Exchange Online 或运行 Exchange 2007 的 Exchange 版本的服务器。</span><span class="sxs-lookup"><span data-stu-id="b7ef1-131">Exchange Online, Exchange Online as part of Office 365, or a server running a version of Exchange starting with Exchange 2007.</span></span> <span data-ttu-id="b7ef1-132">如果使用的是基于 EWS SOAP 的自动发现服务，则运行从 Exchange 2010 开始的 Exchange 版本的服务器。</span><span class="sxs-lookup"><span data-stu-id="b7ef1-132">If you are using the EWS SOAP-based Autodiscover service, a server running a version of Exchange starting with Exchange 2010.</span></span>
     
-- <span data-ttu-id="9bc4e-133">Exchange 服务器配置为接受来自客户端应用程序的连接。</span><span class="sxs-lookup"><span data-stu-id="9bc4e-133">An Exchange server that is configured to accept connections from your client application.</span></span> <span data-ttu-id="9bc4e-134">有关如何配置您的 Exchange 服务器的信息，请参阅[在 Exchange 控制客户端应用程序访问 EWS](controlling-client-application-access-to-ews-in-exchange.md)。</span><span class="sxs-lookup"><span data-stu-id="9bc4e-134">For information about how to configure your Exchange server, see [Controlling client application access to EWS in Exchange](controlling-client-application-access-to-ews-in-exchange.md).</span></span>
+- <span data-ttu-id="b7ef1-133">一种配置为接受来自客户端应用程序的连接的 Exchange 服务器。</span><span class="sxs-lookup"><span data-stu-id="b7ef1-133">An Exchange server that is configured to accept connections from your client application.</span></span> <span data-ttu-id="b7ef1-134">有关如何配置 Exchange server 的信息，请参阅[控制 exchange 中对 EWS 的客户端应用程序访问](controlling-client-application-access-to-ews-in-exchange.md)。</span><span class="sxs-lookup"><span data-stu-id="b7ef1-134">For information about how to configure your Exchange server, see [Controlling client application access to EWS in Exchange](controlling-client-application-access-to-ews-in-exchange.md).</span></span>
     
-- <span data-ttu-id="9bc4e-135">有权使用 EWS 帐户。</span><span class="sxs-lookup"><span data-stu-id="9bc4e-135">An account that is authorized to use EWS.</span></span> <span data-ttu-id="9bc4e-136">有关如何配置帐户的信息，请参阅[在 Exchange 控制客户端应用程序访问 EWS](controlling-client-application-access-to-ews-in-exchange.md)。</span><span class="sxs-lookup"><span data-stu-id="9bc4e-136">For information about how to configure an account, see [Controlling client application access to EWS in Exchange](controlling-client-application-access-to-ews-in-exchange.md).</span></span>
+- <span data-ttu-id="b7ef1-135">有权使用 EWS 的帐户。</span><span class="sxs-lookup"><span data-stu-id="b7ef1-135">An account that is authorized to use EWS.</span></span> <span data-ttu-id="b7ef1-136">有关如何配置帐户的信息，请参阅[控制 Exchange 中的客户端应用程序对 EWS 的访问](controlling-client-application-access-to-ews-in-exchange.md)。</span><span class="sxs-lookup"><span data-stu-id="b7ef1-136">For information about how to configure an account, see [Controlling client application access to EWS in Exchange](controlling-client-application-access-to-ews-in-exchange.md).</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="9bc4e-137">如果您使用 EWS 托管 API，您必须提供在某些情况下证书验证回调。</span><span class="sxs-lookup"><span data-stu-id="9bc4e-137">If you are using the EWS Managed API, you must provide a certificate validation callback in some circumstances.</span></span> <span data-ttu-id="9bc4e-138">您可能还需要使用某些生成的代理库，如那些通过 Visual Studio 创建的证书验证回调。</span><span class="sxs-lookup"><span data-stu-id="9bc4e-138">You may also need a certificate validation callback with some generated proxy libraries, such as those created by Visual Studio.</span></span> <span data-ttu-id="9bc4e-139">有关详细信息，请参阅[验证 EWS 托管 API 服务器证书](how-to-validate-a-server-certificate-for-the-ews-managed-api.md)。</span><span class="sxs-lookup"><span data-stu-id="9bc4e-139">For more information, see [Validate a server certificate for the EWS Managed API](how-to-validate-a-server-certificate-for-the-ews-managed-api.md).</span></span> 
+> <span data-ttu-id="b7ef1-137">如果使用 EWS 托管 API，则必须在某些情况下提供证书验证回调。</span><span class="sxs-lookup"><span data-stu-id="b7ef1-137">If you are using the EWS Managed API, you must provide a certificate validation callback in some circumstances.</span></span> <span data-ttu-id="b7ef1-138">您可能还需要具有一些生成的代理库（如由 Visual Studio 创建的代理库）的证书验证回调。</span><span class="sxs-lookup"><span data-stu-id="b7ef1-138">You may also need a certificate validation callback with some generated proxy libraries, such as those created by Visual Studio.</span></span> <span data-ttu-id="b7ef1-139">有关详细信息，请参阅[验证 EWS 托管 API 的服务器证书](how-to-validate-a-server-certificate-for-the-ews-managed-api.md)。</span><span class="sxs-lookup"><span data-stu-id="b7ef1-139">For more information, see [Validate a server certificate for the EWS Managed API](how-to-validate-a-server-certificate-for-the-ews-managed-api.md).</span></span> 
   
-### <a name="core-concepts-for-getting-domain-settings"></a><span data-ttu-id="9bc4e-140">用于获取域设置的核心概念</span><span class="sxs-lookup"><span data-stu-id="9bc4e-140">Core concepts for getting domain settings</span></span>
-<span data-ttu-id="9bc4e-141"><a name="bk_Core"> </a></span><span class="sxs-lookup"><span data-stu-id="9bc4e-141"></span></span>
+### <a name="core-concepts-for-getting-domain-settings"></a><span data-ttu-id="b7ef1-140">用于获取域设置的核心概念</span><span class="sxs-lookup"><span data-stu-id="b7ef1-140">Core concepts for getting domain settings</span></span>
+<span data-ttu-id="b7ef1-141"><a name="bk_Core"> </a></span><span class="sxs-lookup"><span data-stu-id="b7ef1-141"><a name="bk_Core"> </a></span></span>
 
-<span data-ttu-id="9bc4e-142">您可以使用自动发现来获取域设置之前，您应熟悉以下表中列出的概念。</span><span class="sxs-lookup"><span data-stu-id="9bc4e-142">Before you use Autodiscover to get domain settings, you should be familiar with the concepts listed in the following table.</span></span>
+<span data-ttu-id="b7ef1-142">在使用自动发现来获取域设置之前，您应该先熟悉下表中列出的概念。</span><span class="sxs-lookup"><span data-stu-id="b7ef1-142">Before you use Autodiscover to get domain settings, you should be familiar with the concepts listed in the following table.</span></span>
   
-|<span data-ttu-id="9bc4e-143">**概念**</span><span class="sxs-lookup"><span data-stu-id="9bc4e-143">**Concept**</span></span>|<span data-ttu-id="9bc4e-144">**说明**</span><span class="sxs-lookup"><span data-stu-id="9bc4e-144">**Description**</span></span>|
+|<span data-ttu-id="b7ef1-143">**概念**</span><span class="sxs-lookup"><span data-stu-id="b7ef1-143">**Concept**</span></span>|<span data-ttu-id="b7ef1-144">**说明**</span><span class="sxs-lookup"><span data-stu-id="b7ef1-144">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="9bc4e-145">Exchange 自动发现</span><span class="sxs-lookup"><span data-stu-id="9bc4e-145">Autodiscover for Exchange</span></span>](autodiscover-for-exchange.md) <br/> |<span data-ttu-id="9bc4e-146">提供自动发现服务的工作原理的概述。</span><span class="sxs-lookup"><span data-stu-id="9bc4e-146">Provides an overview of how the Autodiscover service works.</span></span>  <br/> |
-|[<span data-ttu-id="9bc4e-147">使用 Autodiscover 以查找连接点</span><span class="sxs-lookup"><span data-stu-id="9bc4e-147">Use Autodiscover to find connection points</span></span>](how-to-use-autodiscover-to-find-connection-points.md) <br/> |<span data-ttu-id="9bc4e-148">描述自动发现服务用于将重定向到正确的服务终结点的客户端应用程序的过程。</span><span class="sxs-lookup"><span data-stu-id="9bc4e-148">Describes the process used by the Autodiscover service to redirect your client application to the correct service endpoint.</span></span>  <br/> |
+|[<span data-ttu-id="b7ef1-145">Exchange 自动发现</span><span class="sxs-lookup"><span data-stu-id="b7ef1-145">Autodiscover for Exchange</span></span>](autodiscover-for-exchange.md) <br/> |<span data-ttu-id="b7ef1-146">提供自动发现服务的工作原理的概述。</span><span class="sxs-lookup"><span data-stu-id="b7ef1-146">Provides an overview of how the Autodiscover service works.</span></span>  <br/> |
+|[<span data-ttu-id="b7ef1-147">使用自动发现查找连接点</span><span class="sxs-lookup"><span data-stu-id="b7ef1-147">Use Autodiscover to find connection points</span></span>](how-to-use-autodiscover-to-find-connection-points.md) <br/> |<span data-ttu-id="b7ef1-148">描述自动发现服务用于将客户端应用程序重定向到正确的服务终结点的过程。</span><span class="sxs-lookup"><span data-stu-id="b7ef1-148">Describes the process used by the Autodiscover service to redirect your client application to the correct service endpoint.</span></span>  <br/> |
    
-<span data-ttu-id="9bc4e-149">如果您使用 EWS 托管 API，您使用[Microsoft.Exchange.WebServices.Data.ExchangeService](http://msdn.microsoft.com/zh-cn/library/exchange/dd635811%28v=exchg.80%29.aspx)类[Microsoft.Exchange.WebServices.Data](http://msdn.microsoft.com/zh-cn/library/exchange/dd633907%28v=exchg.80%29.aspx)命名空间中管理与 EWS 的连接。</span><span class="sxs-lookup"><span data-stu-id="9bc4e-149">If you are using the EWS Managed API, you use the [Microsoft.Exchange.WebServices.Data.ExchangeService](http://msdn.microsoft.com/zh-cn/library/exchange/dd635811%28v=exchg.80%29.aspx) class in the [Microsoft.Exchange.WebServices.Data](http://msdn.microsoft.com/zh-cn/library/exchange/dd633907%28v=exchg.80%29.aspx) namespace to manage your connection to EWS.</span></span> <span data-ttu-id="9bc4e-150">本节中的代码示例假定您在您的代码中引用的以下命名空间：</span><span class="sxs-lookup"><span data-stu-id="9bc4e-150">The code examples in this section assume that you reference the following namespaces in your code:</span></span> 
+<span data-ttu-id="b7ef1-149">如果使用的是 EWS 托管 API，请使用 WebServices 命名空间中的 ExchangeService 类来管理到 EWS 的[连接的名称](https://msdn.microsoft.com/library/exchange/dd633907%28v=exchg.80%29.aspx)的[Microsoft.Exchange.WebServices.Data.ExchangeService](https://msdn.microsoft.com/library/exchange/dd635811%28v=exchg.80%29.aspx) 。</span><span class="sxs-lookup"><span data-stu-id="b7ef1-149">If you are using the EWS Managed API, you use the [Microsoft.Exchange.WebServices.Data.ExchangeService](https://msdn.microsoft.com/library/exchange/dd635811%28v=exchg.80%29.aspx) class in the [Microsoft.Exchange.WebServices.Data](https://msdn.microsoft.com/library/exchange/dd633907%28v=exchg.80%29.aspx) namespace to manage your connection to EWS.</span></span> <span data-ttu-id="b7ef1-150">本节中的代码示例假定您在代码中引用了以下命名空间：</span><span class="sxs-lookup"><span data-stu-id="b7ef1-150">The code examples in this section assume that you reference the following namespaces in your code:</span></span> 
   
-- <span data-ttu-id="9bc4e-151">**System.Net**</span><span class="sxs-lookup"><span data-stu-id="9bc4e-151">**System.Net**</span></span>
+- <span data-ttu-id="b7ef1-151">**System.Net**</span><span class="sxs-lookup"><span data-stu-id="b7ef1-151">**System.Net**</span></span>
     
-- <span data-ttu-id="9bc4e-152">**Microsoft.Exchange.WebServices.Data.ExchangeService**</span><span class="sxs-lookup"><span data-stu-id="9bc4e-152">**Microsoft.Exchange.WebServices.Data.ExchangeService**</span></span>
+- <span data-ttu-id="b7ef1-152">**WebServices。 ExchangeService 的**</span><span class="sxs-lookup"><span data-stu-id="b7ef1-152">**Microsoft.Exchange.WebServices.Data.ExchangeService**</span></span>
     
-## <a name="get-domain-settings-by-using-the-ews-managed-api"></a><span data-ttu-id="9bc4e-153">通过使用 EWS 托管 API 获取域设置</span><span class="sxs-lookup"><span data-stu-id="9bc4e-153">Get domain settings by using the EWS Managed API</span></span>
-<span data-ttu-id="9bc4e-154"><a name="bk_Managed"> </a></span><span class="sxs-lookup"><span data-stu-id="9bc4e-154"></span></span>
+## <a name="get-domain-settings-by-using-the-ews-managed-api"></a><span data-ttu-id="b7ef1-153">使用 EWS 托管 API 获取域设置</span><span class="sxs-lookup"><span data-stu-id="b7ef1-153">Get domain settings by using the EWS Managed API</span></span>
+<span data-ttu-id="b7ef1-154"><a name="bk_Managed"> </a></span><span class="sxs-lookup"><span data-stu-id="b7ef1-154"><a name="bk_Managed"> </a></span></span>
 
-<span data-ttu-id="9bc4e-155">如果您使用 EWS 托管 API，您可以使用[Microsoft.Exchange.WebServices.Data.AutodiscoverService](http://msdn.microsoft.com/zh-cn/library/exchange/dd634321%28v=exchg.80%29.aspx)对象的[Microsoft.Exchange.WebServices.Data.AutodiscoverSettings.GetUserSettings](http://msdn.microsoft.com/zh-cn/library/exchange/microsoft.exchange.webservices.autodiscover.autodiscoverservice.getusersettings%28v=exchg.80%29.aspx)方法生成请求下面的示例中所示的检索一个域，配置信息。</span><span class="sxs-lookup"><span data-stu-id="9bc4e-155">If you are using the EWS Managed API, you can use the [Microsoft.Exchange.WebServices.Data.AutodiscoverSettings.GetUserSettings](http://msdn.microsoft.com/zh-cn/library/exchange/microsoft.exchange.webservices.autodiscover.autodiscoverservice.getusersettings%28v=exchg.80%29.aspx) method of the [Microsoft.Exchange.WebServices.Data.AutodiscoverService](http://msdn.microsoft.com/zh-cn/library/exchange/dd634321%28v=exchg.80%29.aspx) object to generate the request that retrieves configuration information for a domain, as shown in the following example.</span></span> <span data-ttu-id="9bc4e-156">本示例中，只将某些可能域设置请求，并从服务器返回请求的设置。</span><span class="sxs-lookup"><span data-stu-id="9bc4e-156">In this example, only some of the possible domain settings are requested, and only the requested settings are returned from the server.</span></span> 
+<span data-ttu-id="b7ef1-155">如果使用的是 EWS 托管 API，则可以使用 WebServices 对象的 AutodiscoverSettings 方法来生成检索域的配置信息的请求，如下面的示例所示，您可以使用对象的[GetUserSettings](https://msdn.microsoft.com/library/exchange/microsoft.exchange.webservices.autodiscover.autodiscoverservice.getusersettings%28v=exchg.80%29.aspx) [方法。](https://msdn.microsoft.com/library/exchange/dd634321%28v=exchg.80%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="b7ef1-155">If you are using the EWS Managed API, you can use the [Microsoft.Exchange.WebServices.Data.AutodiscoverSettings.GetUserSettings](https://msdn.microsoft.com/library/exchange/microsoft.exchange.webservices.autodiscover.autodiscoverservice.getusersettings%28v=exchg.80%29.aspx) method of the [Microsoft.Exchange.WebServices.Data.AutodiscoverService](https://msdn.microsoft.com/library/exchange/dd634321%28v=exchg.80%29.aspx) object to generate the request that retrieves configuration information for a domain, as shown in the following example.</span></span> <span data-ttu-id="b7ef1-156">在此示例中，仅请求某些可能的域设置，并且仅从服务器返回请求的设置。</span><span class="sxs-lookup"><span data-stu-id="b7ef1-156">In this example, only some of the possible domain settings are requested, and only the requested settings are returned from the server.</span></span> 
   
 ```cs
 AutodiscoverService autodiscoverService = new AutodiscoverService("domain.contoso.com");
@@ -95,7 +95,7 @@ GetDomainSettingsResponse domainresponse = autodiscoverService.GetDomainSettings
     DomainSettingName.ExternalEwsVersion);
 ```
 
-<span data-ttu-id="9bc4e-157">您可以分析返回访问每个键/值对的集合。</span><span class="sxs-lookup"><span data-stu-id="9bc4e-157">You can parse the collection returned to access each key/value pair.</span></span> <span data-ttu-id="9bc4e-158">下面的示例演示如何返回的每个元素通过分析和显示名称和每个键/值对的值。</span><span class="sxs-lookup"><span data-stu-id="9bc4e-158">The following example shows how to parse through each returned element and display the name and value of each key/value pair.</span></span>
+<span data-ttu-id="b7ef1-157">您可以分析返回的集合，以访问每个键/值对。</span><span class="sxs-lookup"><span data-stu-id="b7ef1-157">You can parse the collection returned to access each key/value pair.</span></span> <span data-ttu-id="b7ef1-158">下面的示例演示如何分析每个返回的元素并显示每个键/值对的名称和值。</span><span class="sxs-lookup"><span data-stu-id="b7ef1-158">The following example shows how to parse through each returned element and display the name and value of each key/value pair.</span></span>
   
 ```cs
 // Display each retrieved value. The settings are part of a key/value pair.
@@ -105,31 +105,31 @@ foreach (KeyValuePair<DomainSettingName, Object> domainsetting in domainresponse
 }
 ```
 
-<span data-ttu-id="9bc4e-159">此外，您可以获取特定设置的值。</span><span class="sxs-lookup"><span data-stu-id="9bc4e-159">Alternatively, you can obtain the value of a specific setting.</span></span> <span data-ttu-id="9bc4e-160">以下示例中，在**ExternalEwsUrl**设置是显示。</span><span class="sxs-lookup"><span data-stu-id="9bc4e-160">In the following example, the **ExternalEwsUrl** setting is to be displayed.</span></span> 
+<span data-ttu-id="b7ef1-159">或者，您可以获取特定设置的值。</span><span class="sxs-lookup"><span data-stu-id="b7ef1-159">Alternatively, you can obtain the value of a specific setting.</span></span> <span data-ttu-id="b7ef1-160">在下面的示例中，将显示**ExternalEwsUrl**设置。</span><span class="sxs-lookup"><span data-stu-id="b7ef1-160">In the following example, the **ExternalEwsUrl** setting is to be displayed.</span></span> 
   
 ```cs
 // Display a specific setting, such as ExternalEwsUrl.
 Console.WriteLine(domainresponse.Settings[DomainSettingName.ExternalEwsUrl]);
 ```
 
-## <a name="get-user-settings-by-using-ews-soap-autodiscover"></a><span data-ttu-id="9bc4e-161">通过使用 EWS SOAP 自动发现获取用户设置</span><span class="sxs-lookup"><span data-stu-id="9bc4e-161">Get user settings by using EWS SOAP Autodiscover</span></span>
-<span data-ttu-id="9bc4e-162"><a name="bk_SOAP"> </a></span><span class="sxs-lookup"><span data-stu-id="9bc4e-162"></span></span>
+## <a name="get-user-settings-by-using-ews-soap-autodiscover"></a><span data-ttu-id="b7ef1-161">使用 EWS SOAP 自动发现获取用户设置</span><span class="sxs-lookup"><span data-stu-id="b7ef1-161">Get user settings by using EWS SOAP Autodiscover</span></span>
+<span data-ttu-id="b7ef1-162"><a name="bk_SOAP"> </a></span><span class="sxs-lookup"><span data-stu-id="b7ef1-162"><a name="bk_SOAP"> </a></span></span>
 
-<span data-ttu-id="9bc4e-163">下面的示例演示 XML SOAP 请求从自动发现服务获取两个域设置。</span><span class="sxs-lookup"><span data-stu-id="9bc4e-163">The following example shows a SOAP XML request to get both domain settings from the Autodiscover service.</span></span>
+<span data-ttu-id="b7ef1-163">下面的示例演示了从自动发现服务中获取两个域设置的 SOAP XML 请求。</span><span class="sxs-lookup"><span data-stu-id="b7ef1-163">The following example shows a SOAP XML request to get both domain settings from the Autodiscover service.</span></span>
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:a="http://schemas.microsoft.com/exchange/2010/Autodiscover" 
+<soap:Envelope xmlns:a="https://schemas.microsoft.com/exchange/2010/Autodiscover" 
         xmlns:wsa="http://www.w3.org/2005/08/addressing" 
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-        xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+        xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <a:RequestedServerVersion>Exchange2013</a:RequestedServerVersion>
-    <wsa:Action>http://schemas.microsoft.com/exchange/2010/Autodiscover/Autodiscover/GetDomainSettings</wsa:Action>
+    <wsa:Action>https://schemas.microsoft.com/exchange/2010/Autodiscover/Autodiscover/GetDomainSettings</wsa:Action>
     <wsa:To>https://autodiscover.exchange.microsoft.com/autodiscover/autodiscover.svc</wsa:To>
   </soap:Header>
   <soap:Body>
-    <a:GetDomainSettingsRequestMessage xmlns:a="http://schemas.microsoft.com/exchange/2010/Autodiscover">
+    <a:GetDomainSettingsRequestMessage xmlns:a="https://schemas.microsoft.com/exchange/2010/Autodiscover">
       <a:Request>
         <a:Domains>
           <a:Domain>domain</a:Domain>
@@ -145,15 +145,15 @@ Console.WriteLine(domainresponse.Settings[DomainSettingName.ExternalEwsUrl]);
 </soap:Envelope>
 ```
 
-<span data-ttu-id="9bc4e-164">下面的示例演示后分析来自客户端的请求服务器返回的 XML 响应。</span><span class="sxs-lookup"><span data-stu-id="9bc4e-164">The following example shows the XML response that is returned by the server after it parses the request from the client.</span></span>
+<span data-ttu-id="b7ef1-164">下面的示例演示在分析来自客户端的请求之后，服务器返回的 XML 响应。</span><span class="sxs-lookup"><span data-stu-id="b7ef1-164">The following example shows the XML response that is returned by the server after it parses the request from the client.</span></span>
   
 ```XML
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" 
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/" 
         xmlns:a="http://www.w3.org/2005/08/addressing">
   <s:Header>
-    <a:Action s:mustUnderstand="1">http://schemas.microsoft.com/exchange/2010/
+    <a:Action s:mustUnderstand="1">https://schemas.microsoft.com/exchange/2010/
           Autodiscover/Autodiscover/GetDomainSettingsResponse</a:Action>
-    <h:ServerVersionInfo xmlns:h="http://schemas.microsoft.com/exchange/2010/Autodiscover" 
+    <h:ServerVersionInfo xmlns:h="https://schemas.microsoft.com/exchange/2010/Autodiscover" 
           xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
       <h:MajorVersion>15</h:MajorVersion>
       <h:MinorVersion>0</h:MinorVersion>
@@ -163,7 +163,7 @@ Console.WriteLine(domainresponse.Settings[DomainSettingName.ExternalEwsUrl]);
     </h:ServerVersionInfo>
   </s:Header>
   <s:Body>
-    <GetDomainSettingsResponseMessage xmlns="http://schemas.microsoft.com/exchange/2010/Autodiscover">
+    <GetDomainSettingsResponseMessage xmlns="https://schemas.microsoft.com/exchange/2010/Autodiscover">
       <Response xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
         <ErrorCode>NoError</ErrorCode>
         <ErrorMessage />
@@ -191,20 +191,20 @@ Console.WriteLine(domainresponse.Settings[DomainSettingName.ExternalEwsUrl]);
 </s:Envelope>
 ```
 
-## <a name="next-steps"></a><span data-ttu-id="9bc4e-165">后续步骤</span><span class="sxs-lookup"><span data-stu-id="9bc4e-165">Next steps</span></span>
-<span data-ttu-id="9bc4e-166"><a name="bk_Next"> </a></span><span class="sxs-lookup"><span data-stu-id="9bc4e-166"></span></span>
+## <a name="next-steps"></a><span data-ttu-id="b7ef1-165">后续步骤</span><span class="sxs-lookup"><span data-stu-id="b7ef1-165">Next steps</span></span>
+<span data-ttu-id="b7ef1-166"><a name="bk_Next"> </a></span><span class="sxs-lookup"><span data-stu-id="b7ef1-166"><a name="bk_Next"> </a></span></span>
 
-<span data-ttu-id="9bc4e-167">域设置提供了您的客户端需要连接到 EWS 的基本信息。</span><span class="sxs-lookup"><span data-stu-id="9bc4e-167">Domain settings provide the basic information that your client needs to connect to EWS.</span></span> <span data-ttu-id="9bc4e-168">您可以使用此信息连接到 EWS，也可以从服务器中检索的电子邮件帐户的额外的配置设置。</span><span class="sxs-lookup"><span data-stu-id="9bc4e-168">You can use this information to connect to EWS, or you can retrieve additional configuration settings for an email account from the server.</span></span> <span data-ttu-id="9bc4e-169">有关详细信息，请参阅以下文章：</span><span class="sxs-lookup"><span data-stu-id="9bc4e-169">For more information, see the following article:</span></span>
+<span data-ttu-id="b7ef1-167">域设置提供了客户端连接到 EWS 所需的基本信息。</span><span class="sxs-lookup"><span data-stu-id="b7ef1-167">Domain settings provide the basic information that your client needs to connect to EWS.</span></span> <span data-ttu-id="b7ef1-168">您可以使用此信息连接到 EWS，也可以从服务器检索电子邮件帐户的其他配置设置。</span><span class="sxs-lookup"><span data-stu-id="b7ef1-168">You can use this information to connect to EWS, or you can retrieve additional configuration settings for an email account from the server.</span></span> <span data-ttu-id="b7ef1-169">有关详细信息，请参阅以下文章：</span><span class="sxs-lookup"><span data-stu-id="b7ef1-169">For more information, see the following article:</span></span>
   
-- [<span data-ttu-id="9bc4e-170">通过使用自动发现 Exchange 中获取用户设置</span><span class="sxs-lookup"><span data-stu-id="9bc4e-170">Get user settings from Exchange by using Autodiscover</span></span>](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
+- [<span data-ttu-id="b7ef1-170">使用自动发现从 Exchange 获取用户设置</span><span class="sxs-lookup"><span data-stu-id="b7ef1-170">Get user settings from Exchange by using Autodiscover</span></span>](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
     
-## <a name="see-also"></a><span data-ttu-id="9bc4e-171">另请参阅</span><span class="sxs-lookup"><span data-stu-id="9bc4e-171">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b7ef1-171">另请参阅</span><span class="sxs-lookup"><span data-stu-id="b7ef1-171">See also</span></span>
 
 
-- [<span data-ttu-id="9bc4e-172">EWS 应用程序设置</span><span class="sxs-lookup"><span data-stu-id="9bc4e-172">Setting up your EWS application</span></span>](setting-up-your-ews-application.md)
+- [<span data-ttu-id="b7ef1-172">设置 EWS 应用程序</span><span class="sxs-lookup"><span data-stu-id="b7ef1-172">Setting up your EWS application</span></span>](setting-up-your-ews-application.md)
     
-- [<span data-ttu-id="9bc4e-173">Exchange 的自动发现 web 服务引用</span><span class="sxs-lookup"><span data-stu-id="9bc4e-173">Autodiscover web service reference for Exchange</span></span>](http://msdn.microsoft.com/library/a01124a8-a8cf-4b80-8625-d7ee05690bca%28Office.15%29.aspx)
+- [<span data-ttu-id="b7ef1-173">Exchange 的自动发现 web 服务参考</span><span class="sxs-lookup"><span data-stu-id="b7ef1-173">Autodiscover web service reference for Exchange</span></span>](https://msdn.microsoft.com/library/a01124a8-a8cf-4b80-8625-d7ee05690bca%28Office.15%29.aspx)
     
-- [<span data-ttu-id="9bc4e-174">Exchange 的 EWS 引用</span><span class="sxs-lookup"><span data-stu-id="9bc4e-174">EWS reference for Exchange</span></span>](http://msdn.microsoft.com/library/2a873474-1bb2-4cb1-a556-40e8c4159f4a%28Office.15%29.aspx)
+- [<span data-ttu-id="b7ef1-174">Exchange 的 EWS 引用</span><span class="sxs-lookup"><span data-stu-id="b7ef1-174">EWS reference for Exchange</span></span>](https://msdn.microsoft.com/library/2a873474-1bb2-4cb1-a556-40e8c4159f4a%28Office.15%29.aspx)
     
 
