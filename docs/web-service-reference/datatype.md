@@ -16,7 +16,7 @@ ms.openlocfilehash: a7df8d38e10f0ab31038d790d8f35208d1be66d5
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458829"
 ---
 # <a name="datatype"></a>DataType

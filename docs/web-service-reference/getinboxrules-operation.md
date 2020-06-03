@@ -16,7 +16,7 @@ ms.openlocfilehash: f4c4c03f55c9f32be4a067024f4387888edd5fe9
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457933"
 ---
 # <a name="getinboxrules-operation"></a>GetInboxRules 操作
@@ -25,7 +25,7 @@ ms.locfileid: "44457933"
   
 ## <a name="getinboxrules-request-example"></a>GetInboxRules 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示客户端发送到服务器的请求 XML。 请求在[MailboxSmtpAddress](mailboxsmtpaddress.md)元素中标识用户。 标识的用户的所有收件箱规则将在响应中返回。 
   
@@ -56,7 +56,7 @@ ms.locfileid: "44457933"
     
 ## <a name="successful-getinboxrules-response-example"></a>成功的 GetInboxRules 响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的简单对象访问协议（SOAP）正文示例显示了对**GetInboxRules**请求的成功响应。 在此示例中，响应包含一个规则。 
   

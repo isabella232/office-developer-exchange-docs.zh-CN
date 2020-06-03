@@ -16,7 +16,7 @@ ms.openlocfilehash: f6aaa9ed8e8257f19780492d6137fb015c1b6136
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458864"
 ---
 # <a name="createitem-operation"></a>CreateItem 操作

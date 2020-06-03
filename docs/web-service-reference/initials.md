@@ -16,7 +16,7 @@ ms.openlocfilehash: 60160fa0f63dd94d6a2cedc3e8b5815959a4842a
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458192"
 ---
 # <a name="initials"></a>Initials

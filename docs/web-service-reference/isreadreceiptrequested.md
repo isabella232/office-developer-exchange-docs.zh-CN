@@ -16,7 +16,7 @@ ms.openlocfilehash: ff0c512ef23b315d4de1194432408f5b408029d9
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457786"
 ---
 # <a name="isreadreceiptrequested"></a>IsReadReceiptRequested

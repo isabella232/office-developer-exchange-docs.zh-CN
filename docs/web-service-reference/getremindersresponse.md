@@ -12,7 +12,7 @@ ms.openlocfilehash: 4e4d6a662d2b734b8bb93e3dd4b325bf6e46a6fc
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458290"
 ---
 # <a name="getremindersresponse"></a>GetRemindersResponse

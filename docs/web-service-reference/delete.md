@@ -1,5 +1,5 @@
 ---
-title: 删除
+title: Delete
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -16,10 +16,10 @@ ms.openlocfilehash: 5460f9e49b126ca6b039c6f11aaa3c6eb4a40544
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457352"
 ---
-# <a name="delete"></a>删除
+# <a name="delete"></a>Delete
 
 **Delete**元素指示客户端是否可以删除文件夹或项目。 
   

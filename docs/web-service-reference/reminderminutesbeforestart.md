@@ -16,7 +16,7 @@ ms.openlocfilehash: 056ba06c5d8f878e13c72859746242f1694528e9
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458542"
 ---
 # <a name="reminderminutesbeforestart"></a>ReminderMinutesBeforeStart

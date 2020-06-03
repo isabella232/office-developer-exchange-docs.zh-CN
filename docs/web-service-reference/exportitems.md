@@ -16,7 +16,7 @@ ms.openlocfilehash: 6e4996f62ea5051e6dc235ee7255057f16b3855b
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457268"
 ---
 # <a name="exportitems"></a>ExportItems

@@ -16,7 +16,7 @@ ms.openlocfilehash: 1c5a6974c8d3abc318ff122f3db09d8c3472dc65
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457618"
 ---
 # <a name="ids"></a>Id

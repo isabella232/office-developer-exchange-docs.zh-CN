@@ -16,7 +16,7 @@ ms.openlocfilehash: af7349888a2f194a8f4ff1043ec8c38a90b3dfff
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458843"
 ---
 # <a name="createitemresponse"></a>CreateItemResponse

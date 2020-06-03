@@ -16,7 +16,7 @@ ms.openlocfilehash: c2a971a6b827553a1632c2a86e4d36e3b83a2de3
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457541"
 ---
 # <a name="createfolder"></a>CreateFolder

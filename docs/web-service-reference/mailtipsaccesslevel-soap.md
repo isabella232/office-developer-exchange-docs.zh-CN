@@ -11,7 +11,7 @@ ms.openlocfilehash: 8e3a467f7aa8484fc8a4bfb23f8b4ac4c138ccad
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458066"
 ---
 # <a name="mailtipsaccesslevel-soap"></a>MailTipsAccessLevel （SOAP）

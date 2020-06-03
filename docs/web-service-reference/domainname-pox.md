@@ -13,7 +13,7 @@ ms.openlocfilehash: ff38d6a876e396317dedece0a81a9f9f0db0f587
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458423"
 ---
 # <a name="domainname-pox"></a>DomainName （POX）

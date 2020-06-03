@@ -16,7 +16,7 @@ ms.openlocfilehash: a6713b9e0c47d68480724c3902086da6a8647dd7
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458059"
 ---
 # <a name="oldfolderid"></a>OldFolderId

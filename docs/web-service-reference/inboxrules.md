@@ -16,7 +16,7 @@ ms.openlocfilehash: a3107c3c317a912d0bd3e60d03da4168f2f3a0a9
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458269"
 ---
 # <a name="inboxrules"></a>InboxRules

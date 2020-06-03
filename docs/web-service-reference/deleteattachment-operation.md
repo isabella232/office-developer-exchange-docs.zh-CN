@@ -16,7 +16,7 @@ ms.openlocfilehash: 1d34ce4c5ba1d955989a35dafb8ab3c5d229d505
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457331"
 ---
 # <a name="deleteattachment-operation"></a>DeleteAttachment 操作
@@ -29,7 +29,7 @@ DeleteAttachment 操作用于从 Exchange 存储中的现有项目中删除文�
   
 ## <a name="deleteattachment-request-example"></a>DeleteAttachment 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 以下示例的 DeleteAttachment 请求显示如何删除项目附件。
   
@@ -68,7 +68,7 @@ DeleteAttachment 操作用于从 Exchange 存储中的现有项目中删除文�
     
 ## <a name="deleteattachment-response-example"></a>DeleteAttachment 响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对 DeleteAttachment 请求的成功响应。
   

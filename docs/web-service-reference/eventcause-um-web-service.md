@@ -15,7 +15,7 @@ ms.openlocfilehash: 9d49fd4b16236d0dd87889fbbd039f2e271a5968
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458675"
 ---
 # <a name="eventcause-um-web-service"></a>EventCause （UM web 服务）

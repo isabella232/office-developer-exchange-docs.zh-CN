@@ -12,7 +12,7 @@ ms.openlocfilehash: a25dd45bc0717af8f949d14b88793af3821ca69f
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458248"
 ---
 # <a name="includepersonalarchive"></a>IncludePersonalArchive

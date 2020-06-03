@@ -15,7 +15,7 @@ ms.openlocfilehash: b1478f5a113059251fe1b036ac7d77e5a4ab4f50
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458234"
 ---
 # <a name="isumenabled-operation-um-web-service"></a>IsUMEnabled 操作（UM web 服务）
@@ -24,7 +24,7 @@ IsUMEnabled 操作确定是否为邮箱启用统一消息。
   
 ## <a name="isumenabled-request-example"></a>IsUMEnabled 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 以下示例的 IsUMEnabled 请求显示了如何形成一个请求，以确定是否为统一消息启用了邮箱。
   
@@ -41,7 +41,7 @@ IsUMEnabled 操作确定是否为邮箱启用统一消息。
 
 ## <a name="successful-isumenabled-response-example"></a>成功的 IsUMEnabled 响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对 IsUMEnabled 请求的成功响应。
   

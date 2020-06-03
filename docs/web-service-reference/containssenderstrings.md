@@ -16,7 +16,7 @@ ms.openlocfilehash: e7b78f1311d288db7969a0024bde84433e18d37f
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458976"
 ---
 # <a name="containssenderstrings"></a>ContainsSenderStrings

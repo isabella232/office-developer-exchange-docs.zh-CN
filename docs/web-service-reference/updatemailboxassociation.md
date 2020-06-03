@@ -12,7 +12,7 @@ ms.openlocfilehash: 4aeb5220785c7b750b2798737e0cd6fb9bb2a173
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457912"
 ---
 # <a name="updatemailboxassociation"></a>UpdateMailboxAssociation

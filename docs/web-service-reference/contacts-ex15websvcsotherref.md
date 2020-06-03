@@ -16,7 +16,7 @@ ms.openlocfilehash: c2b7bbadd494081a3e47b7b6c489218fab31d574
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458388"
 ---
 # <a name="contacts"></a>联系人

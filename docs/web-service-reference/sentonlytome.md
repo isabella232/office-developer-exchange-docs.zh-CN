@@ -16,7 +16,7 @@ ms.openlocfilehash: 3127550b09d6f5ccf5ba87ad34557afd047f8be0
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458647"
 ---
 # <a name="sentonlytome"></a>SentOnlyToMe

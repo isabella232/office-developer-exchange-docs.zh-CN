@@ -12,7 +12,7 @@ ms.openlocfilehash: ddeb5386e56653a32ca2e6d212518704cd0f0c58
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457779"
 ---
 # <a name="getconversationitems-operation"></a>GetConversationItems 操作
@@ -227,7 +227,7 @@ Exchange Server 2013 中引入了此操作。
     
 - [项目（NonEmptyArrayOfAllItemsType）](items-nonemptyarrayofallitemstype.md)
     
-- [邮件](message-ex15websvcsotherref.md)
+- [消息](message-ex15websvcsotherref.md)
     
 - [ItemId](itemid.md)
     

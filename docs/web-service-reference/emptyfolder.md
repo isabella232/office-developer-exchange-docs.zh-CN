@@ -12,7 +12,7 @@ ms.openlocfilehash: a42e4e3f25741a96ee65fe6f87fc3236b68f4dc9
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457275"
 ---
 # <a name="emptyfolder"></a>EmptyFolder

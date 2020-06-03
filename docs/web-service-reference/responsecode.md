@@ -16,7 +16,7 @@ ms.openlocfilehash: 6481272c61aab3dc9aeb2fd988e3544169306f06
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457464"
 ---
 # <a name="responsecode"></a>ResponseCode
@@ -101,7 +101,7 @@ ms.locfileid: "44457464"
 
 如果使用此元素，则需要一个 text 值。 下表介绍了使用此元素返回的值。
   
-|值|说明|
+|值|Description|
 |:-----|:-----|
 |NoError  <br/> |请求未发生错误。  <br/> |
 |ErrorAccessDenied  <br/> |当呼叫帐户没有执行请求的操作的权限时，将发生此错误。  <br/> |

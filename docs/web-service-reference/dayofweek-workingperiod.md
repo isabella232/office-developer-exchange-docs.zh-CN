@@ -16,7 +16,7 @@ ms.openlocfilehash: 06d4a7d5541b3b71fcbf9be9beb7512d06853283
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457443"
 ---
 # <a name="dayofweek-workingperiod"></a>DayOfWeek （WorkingPeriod）

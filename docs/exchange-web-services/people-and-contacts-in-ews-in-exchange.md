@@ -10,7 +10,7 @@ ms.openlocfilehash: f0590a0d8a99b8320cc1b316829177e05e443de6
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457669"
 ---
 # <a name="people-and-contacts-in-ews-in-exchange"></a>人员和 Exchange 中的 EWS 中的联系人

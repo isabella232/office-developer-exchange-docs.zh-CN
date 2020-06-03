@@ -16,7 +16,7 @@ ms.openlocfilehash: d1393a6a5e99b7e0a7e354d2b7dd035d04356ec2
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458276"
 ---
 # <a name="getroomlists-operation"></a>GetRoomLists 操作
@@ -36,7 +36,7 @@ ms.locfileid: "44458276"
    
 ## <a name="getroomlists-request-example"></a>GetRoomLists 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面是一个**GetRoomLists**请求的示例，该请求返回服务器上可用的会议室列表。 
   
@@ -66,7 +66,7 @@ ms.locfileid: "44458276"
     
 ## <a name="successful-getroomlists-response-example"></a>成功的 GetRoomLists 响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示了对**GetRoomLists**请求的响应。 此响应显示服务器上的一个会议室列表。 
   
@@ -115,7 +115,7 @@ ms.locfileid: "44458276"
     
 ### <a name="getroomlists-error-response-example"></a>GetRoomLists 错误响应示例
 
-#### <a name="description"></a>说明
+#### <a name="description"></a>Description
 
 下面的示例演示尝试从未定义任何会议室列表的服务器中获取会议室列表的响应。
   

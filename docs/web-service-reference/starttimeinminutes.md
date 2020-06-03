@@ -16,7 +16,7 @@ ms.openlocfilehash: b33cb12299a146b577dd17939a0585a15d50fb07
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458528"
 ---
 # <a name="starttimeinminutes"></a>StartTimeInMinutes

@@ -16,7 +16,7 @@ ms.openlocfilehash: fb28e88d1a47b0ea8f63ed33b1efacae8538e1c8
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458206"
 ---
 # <a name="getuserconfiguration-operation"></a>GetUserConfiguration 操作
@@ -25,7 +25,7 @@ ms.locfileid: "44458206"
   
 ## <a name="getuserconfiguration-request-example"></a>GetUserConfiguration 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 以下示例的**GetUserConfiguration**请求显示如何在 "草稿" 文件夹中形成获取用户配置对象的请求。 
   
@@ -54,7 +54,7 @@ ms.locfileid: "44458206"
 
 ## <a name="getuserconfiguration-response-example"></a>GetUserConfiguration 响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对**GetUserConfiguration**请求的成功响应。 
   

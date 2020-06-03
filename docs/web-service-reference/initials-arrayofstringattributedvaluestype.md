@@ -12,7 +12,7 @@ ms.openlocfilehash: 16133192fa1d9ef066e46a181f490248a8197e5b
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458199"
 ---
 # <a name="initials-arrayofstringattributedvaluestype"></a>缩写（ArrayOfStringAttributedValuesType）

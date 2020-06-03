@@ -16,7 +16,7 @@ ms.openlocfilehash: 125a6d212e5eaf85ace71c048de809f3a05ba9b6
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457548"
 ---
 # <a name="createfolder-operation"></a>CreateFolder 操作
@@ -25,7 +25,7 @@ CreateFolder 操作将创建文件夹、日历文件夹、联系人文件夹、�
   
 ## <a name="createfolder-request-example"></a>CreateFolder 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 以下示例的 CreateFolder 请求显示如何在邮箱根目录中形成创建两个新文件夹的请求。
   
@@ -81,7 +81,7 @@ CreateFolder 操作将创建文件夹、日历文件夹、联系人文件夹、�
   
 ## <a name="successful-createfolder-response-example"></a>成功的 CreateFolder 响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对 CreateFolder 请求的成功响应。 在此示例中，响应返回新文件夹的标识符。
   
@@ -150,7 +150,7 @@ CreateFolder 操作将创建文件夹、日历文件夹、联系人文件夹、�
   
 ## <a name="createfolder-error-response"></a>CreateFolder 错误响应
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对 CreateFolder 请求的错误响应。
   

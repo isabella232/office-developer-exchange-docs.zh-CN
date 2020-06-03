@@ -12,7 +12,7 @@ ms.openlocfilehash: 2d10a78b18b977518ee6c8301da40d2bd5a58900
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457422"
 ---
 # <a name="rightsmanagedmessagedecryptionstatus"></a>RightsManagedMessageDecryptionStatus

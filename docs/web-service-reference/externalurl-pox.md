@@ -11,7 +11,7 @@ ms.openlocfilehash: 94265051be68ed06d1dab8d46dd4ce29d8694c93
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457954"
 ---
 # <a name="externalurl-pox"></a>ExternalUrl （POX）

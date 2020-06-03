@@ -12,7 +12,7 @@ ms.openlocfilehash: e3ccda98d23b05349a27711b5bff6b68744c9269
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458052"
 ---
 # <a name="base64binary"></a>Base64Binary

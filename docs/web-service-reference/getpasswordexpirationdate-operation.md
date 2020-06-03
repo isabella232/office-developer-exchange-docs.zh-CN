@@ -12,7 +12,7 @@ ms.openlocfilehash: 4184092cf98161e4c2f74446cef5439722ae71a1
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457891"
 ---
 # <a name="getpasswordexpirationdate-operation"></a>GetPasswordExpirationDate 操作
@@ -32,7 +32,7 @@ ms.locfileid: "44457891"
    
 ## <a name="getpasswordexpirationdate-operation-request-example"></a>GetPasswordExpirationDate 操作请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 以下示例的**GetPasswordExpirationDate**操作请求显示如何获取电子邮件帐户的密码到期日期。 
   

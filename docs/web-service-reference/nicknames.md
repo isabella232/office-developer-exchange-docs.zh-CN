@@ -12,7 +12,7 @@ ms.openlocfilehash: c6b7de5e1c93797603a2950b4a9527c5d370f93d
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457772"
 ---
 # <a name="nicknames"></a>昵称

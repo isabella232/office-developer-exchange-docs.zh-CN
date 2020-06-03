@@ -15,7 +15,7 @@ ms.openlocfilehash: 7df806eedc2d6d037394f31ec4ccbfe28aaf3372
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458640"
 ---
 # <a name="setplayonphonedialstring-operation-um-web-service"></a>SetPlayOnPhoneDialString 操作（UM web 服务）
@@ -24,7 +24,7 @@ SetPlayOnPhoneDialString 操作将拨号字符串设置为[PlayOnPhone 操作（
   
 ## <a name="setplayonphonedialstring-request-example"></a>SetPlayOnPhoneDialString 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 以下示例的 SetPlayOnPhoneDialString 请求显示如何形成请求以设置邮箱的默认拨号字符串。
   
@@ -43,7 +43,7 @@ SetPlayOnPhoneDialString 操作将拨号字符串设置为[PlayOnPhone 操作（
 
 ## <a name="successful-setplayonphonedialstring-response-example"></a>成功的 SetPlayOnPhoneDialString 响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的 SetPlayOnePhoneDialString 响应示例显示对 SetPlayOnPhoneDialString 请求的响应。
   

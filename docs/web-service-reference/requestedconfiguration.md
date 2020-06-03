@@ -16,7 +16,7 @@ ms.openlocfilehash: bbc503e6d6f7c56c785365924106bc2468965d0b
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457149"
 ---
 # <a name="requestedconfiguration"></a>RequestedConfiguration

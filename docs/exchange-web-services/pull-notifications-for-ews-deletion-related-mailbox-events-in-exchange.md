@@ -10,7 +10,7 @@ ms.openlocfilehash: c3d98ff798e3d0f6d214111d51da2c81278fd17d
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457653"
 ---
 # <a name="pull-notifications-for-ews-deletion-related-mailbox-events-in-exchange"></a>Exchange 中有关与 EWS 删除相关邮箱事件的拉取通知

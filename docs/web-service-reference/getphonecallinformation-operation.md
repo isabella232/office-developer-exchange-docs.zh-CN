@@ -16,7 +16,7 @@ ms.openlocfilehash: 231b160713526f44433188e2b1e3bd98012370b1
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458311"
 ---
 # <a name="getphonecallinformation-operation"></a>GetPhoneCallInformation 操作
@@ -25,7 +25,7 @@ ms.locfileid: "44458311"
   
 ## <a name="getphonecallinformation-request-example"></a>GetPhoneCallInformation 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 以下示例的**GetPhoneCallInformation**请求显示如何形成请求，以获取有关特定电话呼叫的信息。 
   
@@ -51,7 +51,7 @@ ms.locfileid: "44458311"
 
 ## <a name="getphonecallinformation-response-example"></a>GetPhoneCallInformation 响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对**GetPhoneCallInformation**请求的成功响应。 响应表示当前已连接的电话呼叫。 
   

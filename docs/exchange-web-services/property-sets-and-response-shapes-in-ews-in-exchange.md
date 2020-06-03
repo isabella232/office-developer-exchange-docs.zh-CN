@@ -1,5 +1,5 @@
 ---
-title: Exchange 中 EWS 的属性集和响应形状
+title: 属性集和响应形状在 EWS 在 Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,10 +10,10 @@ ms.openlocfilehash: 8f539a2131798e764574ef92f75deb654c02c90f
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457660"
 ---
-# <a name="property-sets-and-response-shapes-in-ews-in-exchange"></a>Exchange 中 EWS 的属性集和响应形状
+# <a name="property-sets-and-response-shapes-in-ews-in-exchange"></a>属性集和响应形状在 EWS 在 Exchange
 
 了解如何管理由 EWS 托管 API 和 Exchange 中的 EWS 返回的响应形状和属性集。
   
@@ -39,7 +39,7 @@ EWS 包括一组用于文件夹和项目的默认响应形状。
   
 **表2。默认文件夹属性**
 
-|**Property**|**收件箱**|**日历**|**联系人**|**已删除项目**|**模**|**注释**|**其他文件夹**|**件**|
+|**Property**|**收件箱**|**日历**|**联系人**|**已删除项目**|**模**|**备注**|**其他文件夹**|**件**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |可分辨名称 (DN)  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |
 |文件夹 ID  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |

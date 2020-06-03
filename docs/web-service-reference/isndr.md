@@ -16,7 +16,7 @@ ms.openlocfilehash: 3476331ccece347686b7f98edf49df5d48b8562e
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458157"
 ---
 # <a name="isndr"></a>IsNDR

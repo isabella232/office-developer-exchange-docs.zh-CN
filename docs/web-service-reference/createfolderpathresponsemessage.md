@@ -12,7 +12,7 @@ ms.openlocfilehash: 3c0c4e98b568a6398dcd0e71a6e6931a3f47e3da
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458885"
 ---
 # <a name="createfolderpathresponsemessage"></a>CreateFolderPathResponseMessage

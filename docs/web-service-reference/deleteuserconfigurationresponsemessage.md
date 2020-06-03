@@ -16,7 +16,7 @@ ms.openlocfilehash: d8d15d0fb57b5f7fc16454fb6b03713faee22a03
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458752"
 ---
 # <a name="deleteuserconfigurationresponsemessage"></a>DeleteUserConfigurationResponseMessage

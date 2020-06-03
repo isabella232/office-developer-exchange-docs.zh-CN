@@ -16,7 +16,7 @@ ms.openlocfilehash: 622faa622b0ea231a6331ff62631885d4252c1f5
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457695"
 ---
 # <a name="getuseroofsettings-operation"></a>GetUserOofSettings 操作
@@ -41,7 +41,7 @@ ms.locfileid: "44457695"
   
 ## <a name="getuseroofsettings-request-example"></a>GetUserOofSettings 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示一个**GetUserOofSettings**请求，该请求获取单个用户的 OOF 信息。 
   
@@ -74,7 +74,7 @@ ms.locfileid: "44457695"
     
 ## <a name="successful-getuseroofsettings-response-example"></a>成功的 GetUserOofSettings 响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 以下示例显示了带有 OOF 邮件的已禁用 OOF 状态。
   
@@ -142,13 +142,13 @@ ms.locfileid: "44457695"
     
 - [ExternalReply](externalreply.md)
     
-- [邮件](message-ex15websvcsotherref.md)
+- [消息](message-ex15websvcsotherref.md)
     
 - [AllowExternalOof](allowexternaloof.md)
     
 ## <a name="getuseroofsettings-error-response-example"></a>GetUserOofSettings 错误响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示尝试访问另一个用户的 OOF 信息时导致的错误响应。
   

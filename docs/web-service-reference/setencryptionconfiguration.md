@@ -12,7 +12,7 @@ ms.openlocfilehash: a4f0d2118fbefb5ed345a96b4760e5eb152a604e
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459018"
 ---
 # <a name="setencryptionconfiguration"></a>SetEncryptionConfiguration

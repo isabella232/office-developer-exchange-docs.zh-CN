@@ -16,7 +16,7 @@ ms.openlocfilehash: 8b078f61d08864970a123f81688981ffba2864ff
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458955"
 ---
 # <a name="containssubjectstrings"></a>ContainsSubjectStrings

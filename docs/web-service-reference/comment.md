@@ -16,7 +16,7 @@ ms.openlocfilehash: 5c13b4085f856dd9a689ec4d6acc89b39e482663
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457387"
 ---
 # <a name="comment"></a>评论

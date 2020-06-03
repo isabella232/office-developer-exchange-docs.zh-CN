@@ -15,7 +15,7 @@ ms.openlocfilehash: a00d957927a7a97d12c0d8c0c662956a18529cde
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458451"
 ---
 # <a name="disconnect-um-web-service"></a>断开连接（UM web 服务）

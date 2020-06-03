@@ -10,7 +10,7 @@ ms.openlocfilehash: b1faa057e5a0c1a96498efcc23738c83d25ae986
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457401"
 ---
 # <a name="persistent-application-settings-in-ews-in-exchange"></a>在交换 EWS 持久应用程序设置
@@ -97,7 +97,7 @@ ms.locfileid: "44457401"
     
 - [Exchange 的 EWS 客户端设计概述](ews-client-design-overview-for-exchange.md)
     
-- [Exchange 中 EWS 的属性和扩展属性](properties-and-extended-properties-in-ews-in-exchange.md)
+- [属性和交换中的 EWS 中的扩展的属性](properties-and-extended-properties-in-ews-in-exchange.md)
     
 - [使用 Exchange 中的 EWS 处理文件夹](how-to-work-with-folders-by-using-ews-in-exchange.md)
     

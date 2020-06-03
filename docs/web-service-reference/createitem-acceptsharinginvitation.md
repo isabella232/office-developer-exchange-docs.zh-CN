@@ -16,7 +16,7 @@ ms.openlocfilehash: eda846b72f42fe886497b355d9cddade7c5f4044
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457513"
 ---
 # <a name="createitem-acceptsharinginvitation"></a>CreateItem （AcceptSharingInvitation）
@@ -25,7 +25,7 @@ ms.locfileid: "44457513"
   
 ## <a name="accept-sharing-invitation-request-example"></a>接受共享邀请请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例展示了如何接受共享邀请。
   
@@ -65,7 +65,7 @@ ms.locfileid: "44457513"
   
 ## <a name="successful-accept-sharing-invitation-response-example"></a>成功的接受共享邀请响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对**CreateItem**请求的成功响应。 
   
@@ -117,7 +117,7 @@ ms.locfileid: "44457513"
     
 ## <a name="accept-sharing-invitation-error-response-example"></a>接受共享邀请错误响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对**CreateItem**请求的错误响应。 此错误是由于尝试接受在 Exchange 存储中找不到的共享邀请而引起的。 
   

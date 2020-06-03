@@ -16,7 +16,7 @@ ms.openlocfilehash: 5bc060504ea734ec2d7e01707ef6bbdb0aa665d3
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457884"
 ---
 # <a name="getphonecallinformationresponse"></a>GetPhoneCallInformationResponse

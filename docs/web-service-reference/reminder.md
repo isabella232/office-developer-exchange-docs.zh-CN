@@ -12,7 +12,7 @@ ms.openlocfilehash: 71e54d920a169b8060d22bb7d7d294208c344c2e
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457485"
 ---
 # <a name="reminder"></a>提醒

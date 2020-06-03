@@ -16,7 +16,7 @@ ms.openlocfilehash: e84223b7c41846ca2f174293bff46a8825777a0e
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457303"
 ---
 # <a name="member"></a>成员

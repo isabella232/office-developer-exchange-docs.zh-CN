@@ -15,7 +15,7 @@ ms.openlocfilehash: f0395945927fa99c03278ee965e8d423bcb64360
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458619"
 ---
 # <a name="setplayonphonedialstringresponse-um-web-service"></a>SetPlayOnPhoneDialStringResponse （UM web 服务）

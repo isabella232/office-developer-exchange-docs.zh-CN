@@ -16,7 +16,7 @@ ms.openlocfilehash: d2fe33a6d7893d45fa116a1516fcc6ab2dea3bcf
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457289"
 ---
 # <a name="movefolder"></a>MoveFolder

@@ -16,7 +16,7 @@ ms.openlocfilehash: 535edf9fe567bc3063a5b853f01d604ea4c7eb95
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457499"
 ---
 # <a name="createitem-operation-calendar-item"></a>CreateItem 操作（日历项目）
@@ -29,7 +29,7 @@ CreateItem 操作创建约会、会议和会议请求。 如果日历项目是�
   
 ## <a name="createitem-calendar-item-request-example"></a>CreateItem （日历项目）请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 以下示例的 CreateItem 请求显示了如何使用两个必需的与会者创建会议。 此请求会将会议请求发送给两个与会者。
   
@@ -123,7 +123,7 @@ CreateItem 操作创建约会、会议和会议请求。 如果日历项目是�
     
 ## <a name="successful-createitem-calendar-item-response"></a>成功的 CreateItem （日历项目）响应
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对 CreateItem 请求的成功响应。
   
