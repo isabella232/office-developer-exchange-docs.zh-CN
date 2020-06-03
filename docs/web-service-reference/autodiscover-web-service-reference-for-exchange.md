@@ -13,7 +13,7 @@ ms.openlocfilehash: ce7f2bbd662a5e61959c7e3c6748f0cf40cc4fb3
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466869"
 ---
 # <a name="autodiscover-web-service-reference-for-exchange"></a>Exchange 的自动发现 web 服务参考
@@ -42,7 +42,7 @@ SOAP 和 POX 自动发现服务都可以提供您的客户端将用于创建与 
     
 ## <a name="see-also"></a>另请参阅
 
-- [Exchange Web 服务应用](web-services-reference-for-exchange.md)
+- [Exchange Web 服务参考](web-services-reference-for-exchange.md)
 - [自动发现服务（SOAP）](https://msdn.microsoft.com/library/e24d1a1f-0d20-4bd9-ae4c-9112ecacea78%28Office.15%29.aspx)
 - [自动发现服务（POX）](https://msdn.microsoft.com/library/13c54de3-a91c-4424-8732-99dd8f2162ec%28Office.15%29.aspx)
     

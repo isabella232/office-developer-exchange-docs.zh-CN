@@ -16,7 +16,7 @@ ms.openlocfilehash: eb7e85acf3c2b898b3f0bff4b63168d344e1daa8
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465854"
 ---
 # <a name="recipient"></a>收件人

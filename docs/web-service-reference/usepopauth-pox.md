@@ -13,7 +13,7 @@ ms.openlocfilehash: 8d5bfffaab31c382ad43915e18b8a7a2b2737c21
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466505"
 ---
 # <a name="usepopauth-pox"></a>UsePOPAuth （POX）

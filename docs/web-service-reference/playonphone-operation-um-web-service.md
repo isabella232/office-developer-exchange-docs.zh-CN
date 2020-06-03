@@ -15,7 +15,7 @@ ms.openlocfilehash: c5ff82bcd822aa2c659d1782ea4a1349d198bc80
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466232"
 ---
 # <a name="playonphone-operation-um-web-service"></a>PlayOnPhone 操作（UM web 服务）
@@ -24,7 +24,7 @@ PlayOnPhone 操作发出出站呼叫，并通过**DialString**元素指定的电
   
 ## <a name="playonphone-request-example"></a>PlayOnPhone 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 以下示例的 PlayOnPhone 请求显示如何形成发出出站呼叫和播放邮件的请求。
   
@@ -44,7 +44,7 @@ PlayOnPhone 操作发出出站呼叫，并通过**DialString**元素指定的电
 
 ## <a name="successful-playonphone-response-example"></a>成功的 PlayOnPhone 响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的 PlayOnPhone 响应示例显示对 PlayOnPhone 请求的响应。
   

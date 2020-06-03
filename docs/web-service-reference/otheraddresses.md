@@ -12,7 +12,7 @@ ms.openlocfilehash: 9c5c7f81ab7dcf4c70576b2e6baf9ad6b9711c00
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467681"
 ---
 # <a name="otheraddresses"></a>OtherAddresses

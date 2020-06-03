@@ -12,7 +12,7 @@ ms.openlocfilehash: 83f763944f23195b01f473ed8363b96d13949d1e
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466974"
 ---
 # <a name="rawmastertablexml"></a>RawMasterTableXml

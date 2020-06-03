@@ -12,7 +12,7 @@ ms.openlocfilehash: 2d644ff45fe89061ccd90279773f3a5a5b7fe7cc
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466470"
 ---
 # <a name="value-personapostaladdresstype"></a>Value （PersonaPostalAddressType）

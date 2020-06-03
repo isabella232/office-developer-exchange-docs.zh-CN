@@ -16,7 +16,7 @@ ms.openlocfilehash: 92352e59da9b5f0e51b650d2a6fb36575f6542be
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466540"
 ---
 # <a name="sensitivity"></a>Sensitivity

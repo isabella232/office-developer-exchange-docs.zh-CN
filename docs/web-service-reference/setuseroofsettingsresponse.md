@@ -16,7 +16,7 @@ ms.openlocfilehash: 9b02d905f82488965f5ae0514a52eb6062aaff7d
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466127"
 ---
 # <a name="setuseroofsettingsresponse"></a>SetUserOofSettingsResponse

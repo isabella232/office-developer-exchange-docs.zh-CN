@@ -16,7 +16,7 @@ ms.openlocfilehash: f996dc4bcf30db32e1d73fb302ab137f0a6ad4d4
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466239"
 ---
 # <a name="flaggedforaction"></a>FlaggedForAction

@@ -12,7 +12,7 @@ ms.openlocfilehash: 0275e97ce02e41cc377f4003aee12c6fff0995e2
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467387"
 ---
 # <a name="ttl-clientaccesstokentypetype"></a>TTL （ClientAccessTokenTypeType）

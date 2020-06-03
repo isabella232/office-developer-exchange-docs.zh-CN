@@ -16,7 +16,7 @@ ms.openlocfilehash: 9ba401cf639ef7988fa7a1437a64d09ff54c5960
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466449"
 ---
 # <a name="includeslastfolderinrange"></a>IncludesLastFolderInRange

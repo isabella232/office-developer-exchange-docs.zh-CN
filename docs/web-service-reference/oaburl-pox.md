@@ -13,7 +13,7 @@ ms.openlocfilehash: ea6efc3160a130a2293fa09534bfd0f76171e7cd
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465889"
 ---
 # <a name="oaburl-pox"></a>OABUrl （POX）

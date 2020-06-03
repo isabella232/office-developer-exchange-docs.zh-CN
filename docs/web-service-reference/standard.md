@@ -16,7 +16,7 @@ ms.openlocfilehash: 1214a1debb53c9a31ca7c92a0c9e5c0722960d75
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467562"
 ---
 # <a name="standard"></a>标准

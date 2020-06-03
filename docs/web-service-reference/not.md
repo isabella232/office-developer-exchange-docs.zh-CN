@@ -16,7 +16,7 @@ ms.openlocfilehash: 84c64a6d9d39f260d416fc32e4e5f5fcdef027e5
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466715"
 ---
 # <a name="not"></a>不

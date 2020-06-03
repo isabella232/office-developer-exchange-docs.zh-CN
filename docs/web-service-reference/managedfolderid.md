@@ -16,7 +16,7 @@ ms.openlocfilehash: eacfe580342e6667fd9fc84ad953a5e4070b6ed7
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465819"
 ---
 # <a name="managedfolderid"></a>ManagedFolderId

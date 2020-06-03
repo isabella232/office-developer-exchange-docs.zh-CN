@@ -12,7 +12,7 @@ ms.openlocfilehash: ef003b6da20031f82d9a8be1dc1d1187288d6f60
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467632"
 ---
 # <a name="specificusers"></a>SpecificUsers

@@ -12,7 +12,7 @@ ms.openlocfilehash: a06f72e478e7dc5bd1a499dceefeb352b14d7362
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466092"
 ---
 # <a name="inplaceholdidentity"></a>InPlaceHoldIdentity

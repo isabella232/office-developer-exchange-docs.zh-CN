@@ -13,7 +13,7 @@ ms.openlocfilehash: 79e617e65e7cecffa1b8ca7ccfe9ac799bb475b9
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467751"
 ---
 # <a name="minorversion-soap"></a>MinorVersion (SOAP)

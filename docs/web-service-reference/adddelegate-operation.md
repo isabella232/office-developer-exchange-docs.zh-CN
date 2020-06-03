@@ -16,7 +16,7 @@ ms.openlocfilehash: 80adbe71d69be1025dc9593c6a9002bc68fdcb76
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466512"
 ---
 # <a name="adddelegate-operation"></a>AddDelegate 操作
@@ -36,7 +36,7 @@ ms.locfileid: "44466512"
    
 ## <a name="adddelegate-request-example"></a>AddDelegate 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的**AddDelegate**请求示例显示了向用户2拥有的文件夹授予对 user1 委派权限的尝试。 User1 拥有对 user2's 联系人文件夹的 user2's 日历文件夹和审阅者级别权限的作者级别权限。 User1 将不会收到会议邮件的副本，并且无法查看 user2's 邮箱中的私人项目。 将向 user1 和用户2发送会议请求。 
   
@@ -75,7 +75,7 @@ ms.locfileid: "44466512"
 
 ## <a name="adddelegate-response-example"></a>AddDelegate 响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的**AddDelegate**响应示例显示了对**AddDelegate**请求的成功响应。 
   
@@ -120,7 +120,7 @@ ms.locfileid: "44466512"
 
 ## <a name="adddelegate-error-response-example"></a>AddDelegate 错误响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对添加代理（已添加到主体邮箱）的请求的响应。
   

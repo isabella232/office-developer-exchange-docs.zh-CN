@@ -12,7 +12,7 @@ ms.openlocfilehash: dbb073263740ccdf75367f85f672b7d5ec78f7a0
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466834"
 ---
 # <a name="seektoconditionpageitemview"></a>SeekToConditionPageItemView

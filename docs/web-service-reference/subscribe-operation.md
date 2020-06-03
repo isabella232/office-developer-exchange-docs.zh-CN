@@ -16,7 +16,7 @@ ms.openlocfilehash: c40e0e434f698c6535ff5d03fd4d45a453959dd6
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/01/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467044"
 ---
 # <a name="subscribe-operation"></a>订阅操作
@@ -25,7 +25,7 @@ ms.locfileid: "44467044"
   
 ## <a name="pull-subscription-subscribe-request-example"></a>请求订阅订阅请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的代码示例演示如何订阅 pull 事件通知订阅。 如果新邮件已添加到收件箱中，并且从收件箱中删除了某个项目，订阅将通知客户端应用程序。 如果客户端未在10分钟内请求有关事件的信息，订阅将超时。 如果订阅过期，则必须建立新订阅才能继续请求通知。
   
@@ -74,7 +74,7 @@ ms.locfileid: "44467044"
   
 ## <a name="successful-pull-subscription-subscribe-response-example"></a>成功的请求订阅订阅响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例展示了一个成功的请求订阅响应。 响应包含订阅标识符和用于获取与订阅关联的事件数组的水印。 订阅标识符还用于从订阅中取消订阅客户端。
   
@@ -125,7 +125,7 @@ ms.locfileid: "44467044"
     
 ## <a name="pull-subscription-subscribe-error-response-example"></a>请求订阅订阅错误响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对订阅请求的错误响应。 此错误是由于尝试使用代理访问来订阅通知而引起的。
   
@@ -176,7 +176,7 @@ ms.locfileid: "44467044"
     
 ## <a name="push-subscription-request-example"></a>推送订阅请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的代码示例演示如何订阅推送事件通知订阅。 请求标识要监视的文件夹、要监视的事件类型、状态通知的频率以及侦听推送通知的客户端 Web 服务的 URL。
   
@@ -237,7 +237,7 @@ ms.locfileid: "44467044"
     
 ## <a name="successful-push-subscription-response-example"></a>成功的推送订阅响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例展示了一个成功的推送订阅响应。 
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: 4373dba9dce92de8e175948d889f0806e100fa6c
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466022"
 ---
 # <a name="ismanagedfoldersroot"></a>IsManagedFoldersRoot

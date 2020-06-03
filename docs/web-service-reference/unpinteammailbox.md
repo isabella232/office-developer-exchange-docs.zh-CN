@@ -12,7 +12,7 @@ ms.openlocfilehash: a6b01bfa9c5908765ff04ef7f5edbef0b99a9be2
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467240"
 ---
 # <a name="unpinteammailbox"></a>UnpinTeamMailbox

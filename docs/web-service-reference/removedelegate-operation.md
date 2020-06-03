@@ -16,7 +16,7 @@ ms.openlocfilehash: b2e342225e7e79c44dcd86b76b4b7d47b16b860b
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466596"
 ---
 # <a name="removedelegate-operation"></a>RemoveDelegate 操作
@@ -36,7 +36,7 @@ ms.locfileid: "44466596"
    
 ## <a name="removedelegate-request-example"></a>RemoveDelegate 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的代码示例演示如何从 user1's 邮箱中删除两个代理。 在此示例中，将使用代理的主 SMTP 地址删除一个委派，并使用代理的安全标识符（SID）删除另一个委派。
   
@@ -74,7 +74,7 @@ ms.locfileid: "44466596"
   
 ## <a name="removedelegate-response-example"></a>RemoveDelegate 响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的**RemoveDelegate**响应示例显示了对**RemoveDelegate**请求的成功响应。 响应包含从邮箱中删除的每个代理的**DelegateUserResponseMessageType**元素。 
   
@@ -113,7 +113,7 @@ ms.locfileid: "44466596"
 
 ## <a name="removedelegate-error-response-example"></a>RemoveDelegate 错误响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的**RemoveDelegate**错误响应示例显示请求删除不存在的代理的结果。 
   

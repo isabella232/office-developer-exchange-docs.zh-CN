@@ -12,7 +12,7 @@ ms.openlocfilehash: b91684168022220745a2f6c7dbcf0984f5e9b1b7
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467716"
 ---
 # <a name="portaltext-encryptionconfigurationresponsetype"></a>PortalText （EncryptionConfigurationResponseType）

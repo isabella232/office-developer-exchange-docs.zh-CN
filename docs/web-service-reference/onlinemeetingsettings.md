@@ -12,7 +12,7 @@ ms.openlocfilehash: a89b89d2fa602e46925bcdae51631df0d9573300
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467205"
 ---
 # <a name="onlinemeetingsettings"></a>OnlineMeetingSettings

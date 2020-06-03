@@ -16,7 +16,7 @@ ms.openlocfilehash: fb894d9f42358b67f81e9fe8ae41ba61e6f46460
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467359"
 ---
 # <a name="updatefolder-operation"></a>UpdateFolder 操作
@@ -37,11 +37,11 @@ UpdateFolder 操作用于修改 Exchange 存储中现有项的属性。 每个 U
 |:-----|:-----|
 |Append  <br/> |Append 操作将数据添加到现有属性中。 它保留当前在其中的数据。 Append 不适用于所有属性。  <br/> |
 |Set  <br/> |如果属性包含数据，则 set 操作将替换该属性的数据，或者创建该属性并设置其值（如果不存在）。 Set 操作仅适用于可写属性。  <br/> |
-|删除  <br/> |"删除" 操作从文件夹中删除属性。 这与将其设置为空值不同。 完成后，该文件夹的属性不存在。 删除仅适用于可写属性。  <br/> |
+|Delete  <br/> |"删除" 操作从文件夹中删除属性。 这与将其设置为空值不同。 完成后，该文件夹的属性不存在。 删除仅适用于可写属性。  <br/> |
    
 ## <a name="updatefolder-request-example"></a>UpdateFolder 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 以下示例的 UpdateFolder 请求显示如何更新文件夹显示名称。 
   
@@ -108,7 +108,7 @@ UpdateFolder 操作用于修改 Exchange 存储中现有项的属性。 每个 U
   
 ## <a name="updatefolder-response-example"></a>UpdateFolder 响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对 UpdateFolder 请求的成功响应。 在此示例中，将返回新的更改密钥，以反映该文件夹的更新状态。
   
@@ -171,7 +171,7 @@ UpdateFolder 操作用于修改 Exchange 存储中现有项的属性。 每个 U
     
 ## <a name="updatefolder-error-response-example"></a>UpdateFolder 错误响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对 UpdateFolder 请求的错误响应。
   

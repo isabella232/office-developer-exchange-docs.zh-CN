@@ -12,7 +12,7 @@ ms.openlocfilehash: 291d875085f9bc13e92a14b844b66878f5e6eb2a
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/01/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466113"
 ---
 # <a name="annotation"></a>Annotation

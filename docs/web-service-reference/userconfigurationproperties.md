@@ -16,7 +16,7 @@ ms.openlocfilehash: af6bee64516a7410d96ecc7581e8e819f550ddc1
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466491"
 ---
 # <a name="userconfigurationproperties"></a>UserConfigurationProperties

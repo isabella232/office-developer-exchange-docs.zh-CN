@@ -12,7 +12,7 @@ ms.openlocfilehash: 5155b82781321b16d1b58fdcaffe7b8cf2372717
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467128"
 ---
 # <a name="userroles"></a>Userroles.xml

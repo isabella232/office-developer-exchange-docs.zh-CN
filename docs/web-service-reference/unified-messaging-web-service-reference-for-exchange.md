@@ -15,7 +15,7 @@ ms.openlocfilehash: e4bb63f34650dae8fc28016196c97a6b79e69df0
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467373"
 ---
 # <a name="unified-messaging-web-service-reference-for-exchange"></a>Exchange 的统一消息 web 服务参考
@@ -43,6 +43,6 @@ UM web 服务没有显式架构。
 
 - [Exchange 的自动发现 web 服务参考](autodiscover-web-service-reference-for-exchange.md)
 - [Exchange 自动发现](../exchange-web-services/autodiscover-for-exchange.md)
-- [开始使用 Exchange 中的 Web 服务](../exchange-web-services/start-using-web-services-in-exchange.md)
+- [Start using web services in Exchange](../exchange-web-services/start-using-web-services-in-exchange.md)
     
 

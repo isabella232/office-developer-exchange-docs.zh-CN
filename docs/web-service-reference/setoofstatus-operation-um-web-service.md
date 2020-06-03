@@ -15,7 +15,7 @@ ms.openlocfilehash: 2311b6137ac25d15ad3d06668450c1d0f7ec1fad
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467352"
 ---
 # <a name="setoofstatus-operation-um-web-service"></a>SetOofStatus 操作（UM web 服务）
@@ -24,7 +24,7 @@ SetOofStatus 操作设置一个值，该值指示是否应为发出请求的用�
   
 ## <a name="setoofstatus-request-example"></a>SetOofStatus 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 以下示例的 SetOofStatus 请求显示了如何形成请求以启用邮箱的 "外出" 问候语。
   
@@ -43,7 +43,7 @@ SetOofStatus 操作设置一个值，该值指示是否应为发出请求的用�
 
 ## <a name="successful-setoofstatus-response-example"></a>成功的 SetOofStatus 响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的 SetOofStatus 响应示例显示对 SetOofStatus 请求的响应。
   

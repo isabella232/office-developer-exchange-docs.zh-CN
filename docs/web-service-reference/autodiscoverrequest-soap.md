@@ -13,7 +13,7 @@ ms.openlocfilehash: ed7d4095dafaba6a7800927f2d3ece412b57ae36
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466848"
 ---
 # <a name="autodiscoverrequest-soap"></a>AutodiscoverRequest （SOAP）

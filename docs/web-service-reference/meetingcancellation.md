@@ -16,7 +16,7 @@ ms.openlocfilehash: b0fca0a2dcbdf8685f7b9fb2197db1c3123d54b1
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/01/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467527"
 ---
 # <a name="meetingcancellation"></a>MeetingCancellation

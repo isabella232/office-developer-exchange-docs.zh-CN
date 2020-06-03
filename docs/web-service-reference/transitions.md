@@ -16,7 +16,7 @@ ms.openlocfilehash: d48fb8872b2f7e052f733c32e5dd1c9b4d04d898
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467436"
 ---
 # <a name="transitions"></a>移交

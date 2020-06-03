@@ -13,7 +13,7 @@ ms.openlocfilehash: d5e4d80c448180baa18d2d90eb0440e12c2ed02b
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466988"
 ---
 # <a name="minorbuildnumber-soap"></a>MinorBuildNumber （SOAP）

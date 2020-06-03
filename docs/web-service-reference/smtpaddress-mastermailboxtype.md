@@ -12,7 +12,7 @@ ms.openlocfilehash: a9bd9cae206026124216289db8b1e1a47856ecc8
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467261"
 ---
 # <a name="smtpaddress-mastermailboxtype"></a>SmtpAddress （MasterMailboxType）

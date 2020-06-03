@@ -13,7 +13,7 @@ ms.openlocfilehash: cf57b3a6046b1b9b030b7cae81381189eee92c1c
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467639"
 ---
 # <a name="spa-pox"></a>SPA （POX）

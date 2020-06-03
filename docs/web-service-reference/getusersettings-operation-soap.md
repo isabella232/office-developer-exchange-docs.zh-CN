@@ -13,7 +13,7 @@ ms.openlocfilehash: e274fd4e1ca954ea25ea91a52e363c9a434b290a
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466141"
 ---
 # <a name="getusersettings-operation-soap"></a>GetUserSettings 操作 (SOAP)
@@ -22,7 +22,7 @@ ms.locfileid: "44466141"
   
 ## <a name="getusersettings-request-example"></a>GetUserSettings 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 以下 XML 示例显示了自动发现请求正文，该正文请求用户的显示名称、可分辨名称、部署 ID、邮箱服务器、邮箱可分辨名称、Active Directory 服务器、客户端访问服务器版本和受支持的 Exchange Web 服务架构。
   
@@ -86,7 +86,7 @@ ms.locfileid: "44466141"
     
 ## <a name="getusersettings-response-example"></a>GetUserSettings 响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例展示了一个成功的**GetUserSettings**响应。 
   

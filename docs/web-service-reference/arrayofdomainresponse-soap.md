@@ -13,7 +13,7 @@ ms.openlocfilehash: 382a62ed14e7015c2a25f06b6f9cfc1be4f9e66b
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/01/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466015"
 ---
 # <a name="arrayofdomainresponse-soap"></a>ArrayOfDomainResponse （SOAP）

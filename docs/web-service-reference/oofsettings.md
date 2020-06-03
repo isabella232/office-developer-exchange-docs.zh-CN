@@ -16,7 +16,7 @@ ms.openlocfilehash: c1b214fd8bfab5b7a82d41a5187cf6e0fc4ba79c
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467191"
 ---
 # <a name="oofsettings"></a>OofSettings

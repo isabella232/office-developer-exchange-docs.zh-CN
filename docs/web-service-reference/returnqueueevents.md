@@ -16,7 +16,7 @@ ms.openlocfilehash: 9d07bc8c3d32f1cd532febaf4ae04e4a2d31d243
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466589"
 ---
 # <a name="returnqueueevents"></a>ReturnQueueEvents

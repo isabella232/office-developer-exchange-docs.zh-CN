@@ -12,7 +12,7 @@ ms.openlocfilehash: 8cae575f739803b847ac2d3df471cb9147d5412a
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467660"
 ---
 # <a name="requestedextensionids"></a>RequestedExtensionIds

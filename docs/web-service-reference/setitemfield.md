@@ -16,7 +16,7 @@ ms.openlocfilehash: b4606eb7d94b9d0c4c5bcd5a2b56d73a4d4270cb
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467422"
 ---
 # <a name="setitemfield"></a>SetItemField
@@ -252,7 +252,7 @@ ms.locfileid: "44467422"
 |[IndexedFieldURI](indexedfielduri.md) <br/> |标识词典中的各个成员。  <br/> |
 |[ExtendedFieldURI](extendedfielduri.md) <br/> |确定要设置的扩展 MAPI 属性。  <br/> |
 |[项目](item.md) <br/> |表示 Exchange 存储中的项。  <br/> |
-|[邮件](message-ex15websvcsotherref.md) <br/> |表示要更新的 Exchange 电子邮件。  <br/> |
+|[消息](message-ex15websvcsotherref.md) <br/> |表示要更新的 Exchange 电子邮件。  <br/> |
 |[CalendarItem](calendaritem.md) <br/> |表示要更新的 Exchange 日历项目。  <br/> |
 |[联系人](contact.md) <br/> |表示要更新的 Exchange 联系人项目。  <br/> |
 |[DistributionList](distributionlist.md) <br/> |表示要更新的通讯组列表。  <br/> |
@@ -260,7 +260,7 @@ ms.locfileid: "44467422"
 |[MeetingRequest](meetingrequest.md) <br/> |表示要更新的会议请求。  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |表示要更新的会议响应。  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |表示要更新的会议取消。  <br/> |
-|[Task](task.md) <br/> |表示要更新的任务。  <br/> |
+|[任务](task.md) <br/> |表示要更新的任务。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 

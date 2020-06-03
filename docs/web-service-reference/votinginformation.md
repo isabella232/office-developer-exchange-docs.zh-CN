@@ -12,7 +12,7 @@ ms.openlocfilehash: d946ba8c71d19c8cbb1befbe8c4e43e93590ccae
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/01/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467744"
 ---
 # <a name="votinginformation"></a>VotingInformation
@@ -41,7 +41,7 @@ ms.locfileid: "44467744"
   
 ### <a name="parent-elements"></a>父元素
 
-[邮件](message-ex15websvcsotherref.md)
+[消息](message-ex15websvcsotherref.md)
   
 ## <a name="remarks"></a>说明
 
@@ -62,7 +62,7 @@ Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
 
 
 
-[邮件](message-ex15websvcsotherref.md)
+[消息](message-ex15websvcsotherref.md)
 
 
 - [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)

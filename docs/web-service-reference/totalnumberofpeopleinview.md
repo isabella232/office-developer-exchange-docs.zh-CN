@@ -12,7 +12,7 @@ ms.openlocfilehash: d89aa65d595814a7277f85e569ca10f9058c6aac
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467506"
 ---
 # <a name="totalnumberofpeopleinview"></a>TotalNumberOfPeopleInView

@@ -16,7 +16,7 @@ ms.openlocfilehash: e2c09a67255106ad9afddb86fa19b7a4a5762ee5
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466246"
 ---
 # <a name="playonphone-exchange-web-services"></a>PlayOnPhone （Exchange Web 服务）

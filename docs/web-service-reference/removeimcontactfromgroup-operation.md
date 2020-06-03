@@ -12,7 +12,7 @@ ms.openlocfilehash: 4750ef57794c3da540ac36baa8ef6ef093939ea1
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466967"
 ---
 # <a name="removeimcontactfromgroup-operation"></a>RemoveImContactFromGroup 操作

@@ -16,7 +16,7 @@ ms.openlocfilehash: f336f1eda122bb170aafb22a028e3faf84f4d782
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465973"
 ---
 # <a name="mailboxfull"></a>MailboxFull

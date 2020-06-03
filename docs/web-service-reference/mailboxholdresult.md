@@ -12,7 +12,7 @@ ms.openlocfilehash: 3895c1351587db45881c661809a19dad1929b4a9
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466393"
 ---
 # <a name="mailboxholdresult"></a>MailboxHoldResult

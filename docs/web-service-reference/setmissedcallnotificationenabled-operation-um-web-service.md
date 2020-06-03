@@ -15,7 +15,7 @@ ms.openlocfilehash: ca4942942a81bc187e8e18a5e6f003f8587f79d1
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467394"
 ---
 # <a name="setmissedcallnotificationenabled-operation-um-web-service"></a>SetMissedCallNotificationEnabled 操作（UM web 服务）
@@ -24,7 +24,7 @@ SetMissedCallNotificationEnabled 操作启用或禁用未接来电通知。
   
 ## <a name="setmissedcallnotificationenabled-request-example"></a>SetMissedCallNotificationEnabled 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 以下示例的 SetMissedCallNotificationEnabled 请求显示如何构成启用未接来电通知的请求。
   
@@ -43,7 +43,7 @@ SetMissedCallNotificationEnabled 操作启用或禁用未接来电通知。
 
 ## <a name="successful-setmissedcallnotificationenabled-response-example"></a>成功的 SetMissedCallNotificationEnabled 响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的 PlayOnPhoneGreeting 响应示例显示对 SetMissedCallNotificationEnabled 请求的响应。
   

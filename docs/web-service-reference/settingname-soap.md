@@ -13,7 +13,7 @@ ms.openlocfilehash: d492b82b7385d6403f15c08356db5d0503792d54
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466722"
 ---
 # <a name="settingname-soap"></a>SettingName （SOAP）

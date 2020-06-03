@@ -12,7 +12,7 @@ ms.openlocfilehash: 39118bf845429bb198874ae4e6b424c6339b1964
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467296"
 ---
 # <a name="itemclasses-arrayofitemclasstype"></a>ItemClasses (ArrayOfItemClassType)

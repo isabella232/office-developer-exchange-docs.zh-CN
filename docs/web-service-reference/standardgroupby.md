@@ -16,7 +16,7 @@ ms.openlocfilehash: 3e135feba322979de3d66d5a45d423654ccc9100
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467555"
 ---
 # <a name="standardgroupby"></a>StandardGroupBy

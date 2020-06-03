@@ -16,7 +16,7 @@ ms.openlocfilehash: 66e288a5e66eecf404698135cc3257085b852034
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466330"
 ---
 # <a name="netshowurl"></a>NetShowUrl

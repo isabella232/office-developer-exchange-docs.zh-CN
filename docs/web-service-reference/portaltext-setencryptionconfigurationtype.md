@@ -12,7 +12,7 @@ ms.openlocfilehash: aa53a34d48b02b50876a041e95fc1b68b7835145
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466995"
 ---
 # <a name="portaltext-setencryptionconfigurationtype"></a>PortalText （SetEncryptionConfigurationType）

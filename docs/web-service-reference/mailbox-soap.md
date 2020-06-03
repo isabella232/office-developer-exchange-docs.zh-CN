@@ -13,7 +13,7 @@ ms.openlocfilehash: e050cd9d3ca4a2d2450f315f1eedd3862328d096
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467282"
 ---
 # <a name="mailbox-soap"></a>邮箱（SOAP）

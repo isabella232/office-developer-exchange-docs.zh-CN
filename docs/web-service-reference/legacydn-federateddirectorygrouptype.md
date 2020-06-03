@@ -12,7 +12,7 @@ ms.openlocfilehash: 76bd57295860c0e9f98ce6fd38e1d0c6c4b9a844
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466351"
 ---
 # <a name="legacydn-federateddirectorygrouptype"></a>LegacyDn （FederatedDirectoryGroupType）
