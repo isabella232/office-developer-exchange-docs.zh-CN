@@ -1,28 +1,28 @@
 ---
-title: 在 Exchange 使用 EWS 获取约会和会议
+title: 使用 Exchange 中的 EWS 获取约会和会议
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 1bae582a-8cb3-4e77-be2a-7e107fad26fe
-description: 了解如何在 Exchange 使用 EWS 托管 API 或 EWS 获取约会和会议。
-ms.openlocfilehash: c78d70ca2266bd192b82f644d902ad8c958d2d4a
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: 了解如何使用 Exchange 中的 EWS 托管 API 或 EWS 获取约会和会议。
+localization_priority: Priority
+ms.openlocfilehash: d951bfeccdf50ae1397ecdd4887ed05548b25001
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353691"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528088"
 ---
-# <a name="get-appointments-and-meetings-by-using-ews-in-exchange"></a>在 Exchange 使用 EWS 获取约会和会议
+# <a name="get-appointments-and-meetings-by-using-ews-in-exchange"></a>使用 Exchange 中的 EWS 获取约会和会议
 
-了解如何在 Exchange 使用 EWS 托管 API 或 EWS 获取约会和会议。
+了解如何使用 Exchange 中的 EWS 托管 API 或 EWS 获取约会和会议。
   
-可以通过使用[CalendarFolder.FindAppointments](http://msdn.microsoft.com/en-us/library/dd636179%28v=exchg.80%29.aspx) EWS 托管 API 方法或[FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) EWS 操作从日历文件夹检索约会和会议。 
+您可以使用[CalendarFolder](https://msdn.microsoft.com/library/dd636179%28v=exchg.80%29.aspx) EWS 托管 API 方法或[FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) ews 操作从 "日历" 文件夹中检索约会和会议。 
   
-## <a name="get-appointments-by-using-the-ews-managed-api"></a>获取约会使用 EWS 托管 API
+## <a name="get-appointments-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 获取约会
 <a name="bk_retrieveappsEWSMA"> </a>
 
-下面的代码示例演示如何使用 EWS 托管 API 来检索位于指定的开始和结束时间之间的用户的约会。
+下面的代码示例演示如何使用 EWS 托管 API 检索介于指定开始时间和结束时间之间的用户约会。
   
 ```cs
        // Initialize values for the start and end times, and the number of appointments to retrieve.
@@ -52,7 +52,7 @@ ms.locfileid: "21353691"
 
 <br/>
 
-下面是代码示例的输出。
+以下是代码示例中的输出。
   
 ```text
 The first five appointments on your calendar from 8/21/2013 to 9/20/2013 are: 
@@ -68,17 +68,17 @@ Subject: Tennis at the club Start: 8/22/2013 11:00:00 AM End: 8/22/2013 12:00:00
 Subject: Online training webcast: 8/22/2013 2:00:00 PM End: 8/22/2013 3:00:00 PM
 ```
 
-## <a name="get-appointments-by-using-ews"></a>通过使用 EWS 获取约会
+## <a name="get-appointments-by-using-ews"></a>使用 EWS 获取约会
 <a name="bk_xml"> </a>
 
-以下 XML 显示了[GetFolder](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx)操作请求返回[FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)操作文件夹 ID。 
+下面的 XML 显示[GetFolder](https://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx)操作请求，以返回[FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)操作的文件夹 ID。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-       xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-       xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+       xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+       xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
   </soap:Header>
@@ -97,20 +97,20 @@ Subject: Online training webcast: 8/22/2013 2:00:00 PM End: 8/22/2013 3:00:00 PM
 
 <br/>
 
-以下 XML 显示了**GetFolder**响应。 请注意，以便于阅读缩短**文件夹 Id**和**更改密钥**属性。 
+下面的 XML 显示**GetFolder**响应。 请注意， **FolderID**和**ChangeKey**属性会因可读性而缩短。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="731" MinorBuildNumber="10" Version="V2_3" 
- xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
- xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+ xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+ xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
  xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:GetFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
- xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:GetFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+ xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:GetFolderResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -128,14 +128,14 @@ Subject: Online training webcast: 8/22/2013 2:00:00 PM End: 8/22/2013 3:00:00 PM
 
 <br/>
 
-以下 XML 显示了用于返回请求的约会**FindItem**请求。 请注意，以便于阅读缩短**文件夹 Id**和**更改密钥**属性。 
+下面的 XML 显示了用于返回请求的约会的**FindItem**请求。 请注意， **FolderID**和**ChangeKey**属性会因可读性而缩短。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-       xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-       xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+       xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+       xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
   </soap:Header>
@@ -160,21 +160,21 @@ Subject: Online training webcast: 8/22/2013 2:00:00 PM End: 8/22/2013 3:00:00 PM
 
 <br/>
 
-以下 XML 显示了**FindItem**响应。 请注意，以便于阅读缩短**ItemID**和**更改密钥**属性。 
+下面的 XML 显示**FindItem**响应。 请注意， **ItemID**和**ChangeKey**属性将缩短以提高可读性。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="731" MinorBuildNumber="10" Version="V2_3" 
- xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
- xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+ xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+ xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
  xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:FindItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:FindItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:FindItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -222,17 +222,17 @@ xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
 ## <a name="recurring-meetings-and-the-calendar-view"></a>定期会议和日历视图
 <a name="bk_recurring"> </a>
 
-因为定期系列和定期系列的例外发生次数不是实际的项目中邮箱，而不内部存储为附件定期主日历文件夹从邮箱中的其他文件夹稍有不同。 这意味着，虽然您可以创建 EWS 请求的返回值之间一**开始**和**结束**值使用 EWS 托管 API **FindItems**重载方法，如[ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)或 EWS [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)操作，EWS 不外观通过附件表中的每个日历项目，以查找例外和匹配项。 
+"日历" 文件夹与邮箱中的其他文件夹略有不同，因为定期系列中的事件和定期系列的例外并不是邮箱中的实际项目，而是作为定期母版的附件在内部存储。 这意味着，尽管您可以使用 EWS 托管 API **FindItems**重载方法（如[EXCHANGESERVICE FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)或 EWS [FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)操作）创建在一组**开始**值和**结束**值之间返回值的 EWS 请求，但 ews 不会在每个日历项的附件表中查找异常和匹配项。 
   
-相反，您确实要执行操作是有下面应用*Dataview*到的两个 SQL 表，联合使用[CalendarView](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.calendarview%28v=exchg.80%29.aspx)对象。 请注意，出于性能原因，我们建议您使用的[属性集](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.propertyset%28v=exchg.80%29.aspx)属性以通过指示约会或会议要返回，以及所需的特定属性的数量限制的响应的大小。 
+相反，您真正想要做的是，使用[CalendarView](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.calendarview%28v=exchg.80%29.aspx)对象将*Dataview*应用到两个 SQL 表的联合中是类似的。 请注意，出于性能原因，建议使用[PropertySet](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.propertyset%28v=exchg.80%29.aspx)属性来限制响应的大小，方法是指明要返回的约会或会议的数目，以及所需的特定属性。 
   
 ## <a name="see-also"></a>另请参阅
 <a name="bk_additional"> </a>
 
 - [Calendars and EWS in Exchange](calendars-and-ews-in-exchange.md)   
-- [使用 Exchange 2013 中的 EWS 中创建约会和会议](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)  
-- [在 Exchange 使用 EWS 更新约会和会议](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)  
-- [删除约会，并在 Exchange 使用 EWS 取消会议](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md) 
+- [使用 Exchange 2013 中的 EWS 创建约会和会议](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)  
+- [使用 Exchange 中的 EWS 更新约会和会议](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)  
+- [使用 Exchange 中的 EWS 删除约会和取消会议](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md) 
 - [开发 Exchange Web 服务客户端](develop-web-service-clients-for-exchange.md)
     
 

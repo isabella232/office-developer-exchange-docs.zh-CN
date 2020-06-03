@@ -1,34 +1,34 @@
 ---
-title: 有关在 Exchange 中使用 EWS 邮箱事件流通知
+title: 在 Exchange 中使用 EWS 流式处理有关邮箱事件的通知
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: fe9bde1e-da0e-413c-a109-077f399f67a3
-description: 了解如何使用 EWS 托管 API 或 EWS 订阅流式处理通知并获取事件。
-ms.openlocfilehash: aad7604511687d1482914183979e954f79572af9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 了解如何使用 EWS 托管 API 或 EWS 订阅流式通知和获取事件。
+localization_priority: Priority
+ms.openlocfilehash: 97784be8ab13509f950355f532f97167e9b6f43e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752880"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527717"
 ---
-# <a name="stream-notifications-about-mailbox-events-by-using-ews-in-exchange"></a>有关在 Exchange 中使用 EWS 邮箱事件流通知
+# <a name="stream-notifications-about-mailbox-events-by-using-ews-in-exchange"></a>在 Exchange 中使用 EWS 流式处理有关邮箱事件的通知
 
-了解如何使用 EWS 托管 API 或 EWS 订阅流式处理通知并获取事件。
+了解如何使用 EWS 托管 API 或 EWS 订阅流式通知和获取事件。
   
-EWS 在 Exchange 使用流式处理通知，以接收由服务器通过保持连接发送的通知打开指定的时间段。
+Exchange 中的 EWS 使用流式通知通过在指定时间段内仍处于打开状态的连接来接收由服务器发送的通知。
   
-如果您正在订阅通知流使用 EWS 托管 API，您[订阅和获取流式处理通知](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_cestreamewsma)使用[SubscribeToStreamingNotifications](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.subscribetostreamingnotifications%28v=exchg.80%29.aspx)方法。 您随后可以通过使用[StreamingSubscriptionConnection](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.streamingsubscriptionconnection.streamingsubscriptionconnection%28v=exchg.80%29.aspx)对象创建与订阅的连接。 
+如果要使用 EWS 托管 API 订阅流式通知，请使用[SubscribeToStreamingNotifications](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.subscribetostreamingnotifications%28v=exchg.80%29.aspx)方法[订阅和获取流式处理](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_cestreamewsma)通知。 然后，使用[StreamingSubscriptionConnection](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.streamingsubscriptionconnection.streamingsubscriptionconnection%28v=exchg.80%29.aspx)对象创建到订阅的连接。 
   
-若要使用 EWS 订阅流式通知，通过使用[订阅操作](http://msdn.microsoft.com/library/f17c3d08-c79e-41f1-ba31-6e41e7aafd87%28Office.15%29.aspx)，您[创建订阅](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_cestreamews)响应，然后[获取流式通知](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_cegetnotifsews)使用分析[GetStreamingEvents 操作](http://msdn.microsoft.com/library/8da95423-72bc-4034-90a8-162eedcd059b%28Office.15%29.aspx)请求。 
+若要使用 EWS 订阅流式通知，请使用[订阅操作](https://msdn.microsoft.com/library/f17c3d08-c79e-41f1-ba31-6e41e7aafd87%28Office.15%29.aspx)[创建订阅](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_cestreamews)，分析响应，然后使用[GetStreamingEvents 操作](https://msdn.microsoft.com/library/8da95423-72bc-4034-90a8-162eedcd059b%28Office.15%29.aspx)请求[获取流式处理通知](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_cegetnotifsews)。 
   
-客户端接收通知的更改，或在服务器上创建项目后，[下一步](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_nextsteps)是将更改同步。 
+客户端在服务器上收到已更改或已创建的项目的通知后，[下一步](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_nextsteps)是同步这些更改。 
   
-## <a name="subscribe-to-and-get-streaming-notifications-by-using-the-ews-managed-api"></a>订阅并获取使用 EWS 托管 API 流通知
+## <a name="subscribe-to-and-get-streaming-notifications-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 订阅和获取流式处理通知
 <a name="bk_cestreamewsma"> </a>
 
-下面的代码示例演示如何使用[SubscribeToStreamingNotifications](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.endsubscribetostreamingnotifications%28v=exchg.80%29.aspx)方法订阅流式处理的收件箱文件夹中的所有事件通知。 通过创建[StreamingSubscriptionConnection](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.streamingsubscriptionconnection.streamingsubscriptionconnection%28v=exchg.80%29.aspx)对象然后创建订阅的连接。 本示例中，我们假定该**服务**是一个有效的[ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)绑定。 
+下面的代码示例演示如何使用[SubscribeToStreamingNotifications](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.endsubscribetostreamingnotifications%28v=exchg.80%29.aspx)方法来订阅 "收件箱" 文件夹中所有事件的流通知。 然后，它通过创建[StreamingSubscriptionConnection](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.streamingsubscriptionconnection.streamingsubscriptionconnection%28v=exchg.80%29.aspx)对象为订阅创建连接。 在此示例中，我们假定**服务**是有效的[ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)绑定。 
   
 ```cs
 // Subscribe to streaming notifications in the Inbox. 
@@ -50,19 +50,19 @@ connection.OnDisconnect += OnDisconnect;
 connection.Open();
 ```
 
-已从服务器接收事件后，[下一步](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_nextsteps)是与服务器同步这些更改。 使用[表 4](notification-subscriptions-mailbox-events-and-ews-in-exchange.md#bk_notifunsubscribe)中列出的 unsubscribe 方法之一结束与服务器的订阅，当不再需要订阅。 
+从服务器接收到事件后，[下一步](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_nextsteps)是将这些更改与服务器同步。 当不再需要订阅时，使用[表 4](notification-subscriptions-mailbox-events-and-ews-in-exchange.md#bk_notifunsubscribe)中列出的其中一个取消订阅方法可结束与服务器的订阅。 
   
-## <a name="subscribe-to-streaming-notifications-by-using-ews"></a>使用 EWS 流通知订阅
+## <a name="subscribe-to-streaming-notifications-by-using-ews"></a>使用 EWS 订阅流式通知
 <a name="bk_cestreamews"> </a>
 
-下面的示例演示 XML 请求发送的客户端到服务器时客户端调用[Subscribe 操作](http://msdn.microsoft.com/library/f17c3d08-c79e-41f1-ba31-6e41e7aafd87%28Office.15%29.aspx)以订阅收件箱文件夹中的所有[EventTypes](http://msdn.microsoft.com/library/29ded9e5-f191-4aa3-bc3e-500de2fc8818%28Office.15%29.aspx) 。 这也是使用[SubscribeToStreamingNotifications](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.endsubscribetostreamingnotifications%28v=exchg.80%29.aspx)方法订阅流式通知时，将发送 EWS 托管 API 的 XML 请求。 
+下面的示例演示当客户端调用[订阅操作](https://msdn.microsoft.com/library/f17c3d08-c79e-41f1-ba31-6e41e7aafd87%28Office.15%29.aspx)以订阅 "收件箱" 文件夹中的所有[EventTypes](https://msdn.microsoft.com/library/29ded9e5-f191-4aa3-bc3e-500de2fc8818%28Office.15%29.aspx)时，客户端向服务器发送的 XML 请求。 这也是在使用[SubscribeToStreamingNotifications](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.endsubscribetostreamingnotifications%28v=exchg.80%29.aspx)方法订阅流式通知时，EWS 托管 API 发送的 XML 请求。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -87,26 +87,26 @@ connection.Open();
 </soap:Envelope>
 ```
 
-下面的 XML 示例演示从服务器发送到客户端对[订阅操作](http://msdn.microsoft.com/library/f17c3d08-c79e-41f1-ba31-6e41e7aafd87%28Office.15%29.aspx)请求响应中的[SubscribeResponse](http://msdn.microsoft.com/library/fd87e9b7-c231-44fa-9f5b-19ae96cda5cc%28Office.15%29.aspx)消息。 包含[ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx)元素的 NoError 值意味着已成功创建订阅。 [SubscriptionId](http://msdn.microsoft.com/library/77c0abab-69e8-428e-8c20-22258e4ef71b%28Office.15%29.aspx)元素唯一地标识的服务器上的流式通知订阅。 
+下面的 XML 示例显示从服务器发送到客户端以响应[订阅操作](https://msdn.microsoft.com/library/f17c3d08-c79e-41f1-ba31-6e41e7aafd87%28Office.15%29.aspx)请求的[SubscribeResponse](https://msdn.microsoft.com/library/fd87e9b7-c231-44fa-9f5b-19ae96cda5cc%28Office.15%29.aspx)消息。 [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx)元素的 NoError 值的包含意味着已成功创建订阅。 [SubscriptionId](https://msdn.microsoft.com/library/77c0abab-69e8-428e-8c20-22258e4ef71b%28Office.15%29.aspx)元素唯一标识服务器上的流式通知订阅。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15"
                          MinorVersion="0"
                          MajorBuildNumber="785"
                          MinorBuildNumber="6"
                          Version="V2_6"
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:SubscribeResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:SubscribeResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
           <m:SubscribeResponseMessage ResponseClass="Success">
             <m:ResponseCode>NoError</m:ResponseCode>
@@ -118,19 +118,19 @@ connection.Open();
   </s:Envelope>
 ```
 
-创建订阅后, 您可以立即[获取流式的事件](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_cegetnotifsews)使用[SubscriptionId](http://msdn.microsoft.com/library/77c0abab-69e8-428e-8c20-22258e4ef71b%28Office.15%29.aspx) [SubscribeResponse](http://msdn.microsoft.com/library/fd87e9b7-c231-44fa-9f5b-19ae96cda5cc%28Office.15%29.aspx)邮件中返回。 
+创建订阅后，您现在可以使用[SubscribeResponse](https://msdn.microsoft.com/library/fd87e9b7-c231-44fa-9f5b-19ae96cda5cc%28Office.15%29.aspx)邮件中返回的[SubscriptionId](https://msdn.microsoft.com/library/77c0abab-69e8-428e-8c20-22258e4ef71b%28Office.15%29.aspx) [获取流式处理事件](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_cegetnotifsews)。 
   
-## <a name="get-streaming-events-by-using-ews"></a>使用 EWS 获取流事件
+## <a name="get-streaming-events-by-using-ews"></a>使用 EWS 获取流式处理事件
 <a name="bk_cegetnotifsews"> </a>
 
-下面的 XML 示例演示客户端发送到服务器以获得的[SubscriptionId](http://msdn.microsoft.com/library/77c0abab-69e8-428e-8c20-22258e4ef71b%28Office.15%29.aspx)通知[GetStreamingEvents 操作](http://msdn.microsoft.com/library/8da95423-72bc-4034-90a8-162eedcd059b%28Office.15%29.aspx)请求消息[SubscribeResponse](http://msdn.microsoft.com/library/fd87e9b7-c231-44fa-9f5b-19ae96cda5cc%28Office.15%29.aspx)邮件中返回。 [GetStreamingEvents 操作](http://msdn.microsoft.com/library/8da95423-72bc-4034-90a8-162eedcd059b%28Office.15%29.aspx)请求指示连接的长度是长 30 分钟。 
+下面的 XML 示例显示客户端向服务器发送的[GetStreamingEvents 操作](https://msdn.microsoft.com/library/8da95423-72bc-4034-90a8-162eedcd059b%28Office.15%29.aspx)请求消息，以获取[SubscribeResponse](https://msdn.microsoft.com/library/fd87e9b7-c231-44fa-9f5b-19ae96cda5cc%28Office.15%29.aspx)邮件中返回的[订阅](https://msdn.microsoft.com/library/77c0abab-69e8-428e-8c20-22258e4ef71b%28Office.15%29.aspx)的通知。 [GetStreamingEvents 操作](https://msdn.microsoft.com/library/8da95423-72bc-4034-90a8-162eedcd059b%28Office.15%29.aspx)请求指示连接的长度为30分钟长。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -145,27 +145,27 @@ connection.Open();
 </soap:Envelope>
 ```
 
-下面的 XML 示例演示从服务器发送到客户端以响应[GetStreamingEvents 操作](http://msdn.microsoft.com/library/8da95423-72bc-4034-90a8-162eedcd059b%28Office.15%29.aspx)请求[GetStreamingEventsResponse](http://msdn.microsoft.com/library/ea1e7e7e-1b19-4e07-ba42-5dbd888c6db2%28Office.15%29.aspx)消息。 它包含 CreatedEvent 和项 NewMailEvent ModifiedEvent 文件夹，所有这些时发生收到新邮件。 
+下面的 XML 示例展示了从服务器发送到客户端以响应[GetStreamingEvents 操作](https://msdn.microsoft.com/library/8da95423-72bc-4034-90a8-162eedcd059b%28Office.15%29.aspx)请求的[GetStreamingEventsResponse](https://msdn.microsoft.com/library/ea1e7e7e-1b19-4e07-ba42-5dbd888c6db2%28Office.15%29.aspx)消息。 它包含项目的 CreatedEvent 和 NewMailEvent，以及该文件夹的 ModifiedEvent，这是在收到新邮件时发生的。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15"
                          MinorVersion="0"
                          MajorBuildNumber="785"
                          MinorBuildNumber="6"
                          Version="V2_6"
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
   </s:Header>
-  <soap:Body xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <m:GetStreamingEventsResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-                                xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                                xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                                xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
     <m:ResponseMessages>
       <m:GetStreamingEventsResponseMessage ResponseClass="Success">
         <m:ResponseCode>NoError</m:ResponseCode>
@@ -196,23 +196,23 @@ connection.Open();
 </soap:Body>
 ```
 
-已从服务器接收事件后，[下一步](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_nextsteps)是与服务器同步这些更改。 使用[取消操作](http://msdn.microsoft.com/library/994a9d2b-1501-4804-90f0-12bd914496ec%28Office.15%29.aspx)结束与服务器的订阅，当不再需要订阅。 
+从服务器接收到事件后，[下一步](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_nextsteps)是将这些更改与服务器同步。 当不再需要订阅时，使用[取消订阅操作](https://msdn.microsoft.com/library/994a9d2b-1501-4804-90f0-12bd914496ec%28Office.15%29.aspx)可在服务器上结束订阅。 
   
 ## <a name="next-steps"></a>后续步骤
 <a name="bk_nextsteps"> </a>
 
-已收到通知后，您可以[同步文件夹层次结构](how-to-synchronize-folders-by-using-ews-in-exchange.md)或[同步的文件夹的更改的内容](how-to-synchronize-items-by-using-ews-in-exchange.md)。
+收到通知后，可以[同步文件夹层次结构](how-to-synchronize-folders-by-using-ews-in-exchange.md)或[同步已更改的文件夹的内容](how-to-synchronize-items-by-using-ews-in-exchange.md)。
   
 ## <a name="see-also"></a>另请参阅
 
 
 - [Notification subscriptions, mailbox events, and EWS in Exchange](notification-subscriptions-mailbox-events-and-ews-in-exchange.md)
     
-- [在 Exchange 使用 EWS 提取有关邮箱事件的通知](how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md)
+- [使用 Exchange 中的 EWS 获取有关邮箱事件的通知](how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md)
     
-- [在 Exchange 维护一组订阅和邮箱服务器之间的关联](how-to-maintain-affinity-between-group-of-subscriptions-and-mailbox-server.md)
+- [维护 Exchange 中的一组订阅和邮箱服务器之间的相关性](how-to-maintain-affinity-between-group-of-subscriptions-and-mailbox-server.md)
     
-- [在 Exchange 处理与通知相关 EWS 中的错误](handling-notification-related-errors-in-ews-in-exchange.md)
+- [在 Exchange 中处理 EWS 中与通知相关的错误](handling-notification-related-errors-in-ews-in-exchange.md)
     
 - [邮箱同步和交换中的 EWS](mailbox-synchronization-and-ews-in-exchange.md)
     

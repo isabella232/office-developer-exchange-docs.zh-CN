@@ -1,55 +1,55 @@
 ---
-title: 在 Exchange 使用 EWS 添加附件
+title: 使用 Exchange 中的 EWS 添加附件
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 0cbce436-2ae6-4fcc-bd8b-f517a0724e55
-description: 了解如何创建新项目的附件，或通过使用 EWS 的 EWS 托管 API 在 Exchange 中添加现有项目的附件。
-ms.openlocfilehash: dbfff879c92dafeec588d79cddd92e294b763c06
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 了解如何通过使用 Exchange 中的 EWS 托管 API 或 EWS，创建包含附件的新项目，或向现有项目添加附件。
+localization_priority: Priority
+ms.openlocfilehash: fa98eb437d1289f25cfb827b6fa9b351d842bd40
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752773"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528263"
 ---
-# <a name="add-attachments-by-using-ews-in-exchange"></a>在 Exchange 使用 EWS 添加附件
+# <a name="add-attachments-by-using-ews-in-exchange"></a>使用 Exchange 中的 EWS 添加附件
 
-了解如何创建新项目的附件，或通过使用 EWS 的 EWS 托管 API 在 Exchange 中添加现有项目的附件。
+了解如何通过使用 Exchange 中的 EWS 托管 API 或 EWS，创建包含附件的新项目，或向现有项目添加附件。
   
-您可以通过使用 EWS 托管 API 或 EWS 添加的文件附件或新的或现有项目的项目附件。 如果您使用 EWS 托管 API，您可以使用相同的方法来将附件添加到新的或现有项目;但是，方法可更改如果您使用的文件或项目的附件。 相反，如果您使用 EWS，您使用相同的操作将文件或项目将附件添加到项目，但该操作将更改如果您要添加到新的或现有项目的附件。
+您可以使用 EWS 托管 API 或 EWS 将文件附件或项目附件添加到新项目或现有项目中。 如果使用 EWS 托管 API，则可以使用相同的方法将附件添加到新项目或现有项目中;但是，如果您使用的是文件或项目附件，则此方法会更改。 相反，如果使用 EWS，则可以使用相同的操作将文件或项目附件添加到项目中，但如果要将附件添加到新项目或现有项目中，则该操作会更改。
   
-**表 1。EWS 托管 API 方法和添加附件的 EWS 操作**
+**表1。用于添加附件的 EWS 托管 API 方法和 EWS 操作**
 
 |**任务**|**EWS 托管的 API 方法**|**EWS 操作**|
 |:-----|:-----|:-----|
-|添加新的或现有的电子邮件的文件附件  <br/> |[AttachmentCollection.AddFileAttachment](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.attachmentcollection.addfileattachment%28v=exchg.80%29.aspx) <br/> |[CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx)为新的电子邮件的  <br/> [CreateAttachment](http://msdn.microsoft.com/library/e066db95-6963-4507-a8d0-8efad287f550%28Office.15%29.aspx)将添加到现有的电子邮件  <br/> |
-|添加到新的或现有的电子邮件项目附件  <br/> |[AttachmentCollection.AddItemAttachment](http://msdn.microsoft.com/en-us/library/dd634986%28v=exchg.80%29.aspx) <br/> |[CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx)为新的电子邮件的  <br/> [CreateAttachment](http://msdn.microsoft.com/library/e066db95-6963-4507-a8d0-8efad287f550%28Office.15%29.aspx)将添加到现有的电子邮件  <br/> |
+|将文件附件添加到新的或现有的电子邮件  <br/> |[AttachmentCollection.AddFileAttachment](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.attachmentcollection.addfileattachment%28v=exchg.80%29.aspx) <br/> |新电子邮件的[CreateItem](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx)  <br/> 要添加到现有电子邮件中的[CreateAttachment](https://msdn.microsoft.com/library/e066db95-6963-4507-a8d0-8efad287f550%28Office.15%29.aspx)  <br/> |
+|将项目附件添加到新的或现有的电子邮件  <br/> |[AttachmentCollection.AddItemAttachment](https://msdn.microsoft.com/library/dd634986%28v=exchg.80%29.aspx) <br/> |新电子邮件的[CreateItem](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx)  <br/> 要添加到现有电子邮件中的[CreateAttachment](https://msdn.microsoft.com/library/e066db95-6963-4507-a8d0-8efad287f550%28Office.15%29.aspx)  <br/> |
    
-## <a name="create-an-email-with-file-and-item-attachments-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 创建的文件和项目的附件的电子邮件
+## <a name="create-an-email-with-file-and-item-attachments-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 创建包含文件和项目附件的电子邮件
 <a name="bk_createattachewsma"> </a>
 
-下面的代码示例演示如何创建包含多个文件附件和项目附件的电子邮件： 
+下面的代码示例演示如何通过以下方式创建包含多个文件附件和项目附件的电子邮件： 
   
-1. 使用[EmailMessage](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage%28v=exchg.80%29.aspx)对象创建一封电子邮件。 
+1. 使用[EmailMessage](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage%28v=exchg.80%29.aspx)对象创建电子邮件。 
     
-2. 使用[AttachmentCollection.AddFileAttachment](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.attachmentcollection.addfileattachment%28v=exchg.80%29.aspx)和[AttachmentCollection.AddItemAttachment](http://msdn.microsoft.com/en-us/library/dd634986%28v=exchg.80%29.aspx)方法添加到邮件的附件。 
+2. 使用 AddFileAttachment 和[AttachmentCollection](https://msdn.microsoft.com/library/dd634986%28v=exchg.80%29.aspx)方法将附件添加到邮件中。 [AttachmentCollection](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.attachmentcollection.addfileattachment%28v=exchg.80%29.aspx) 
     
-3. 使用[EmailMessage.SendAndSaveCopy](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.sendandsavecopy%28v=exchg.80%29.aspx)方法向收件人发送邮件并将邮件保存在已发送邮件文件夹。 
+3. 使用[EmailMessage](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.sendandsavecopy%28v=exchg.80%29.aspx)方法将邮件发送给收件人，并将邮件保存在 "已发送邮件" 文件夹中。 
     
-此代码示例演示在其中的文件附件可以添加到项目使用 EWS 托管 API 的四个方法：
+此代码示例演示使用 EWS 托管 API 将文件附件添加到项目的四种方式：
   
 - 通过使用完全限定的文件位置。
     
-- 使用完全限定的文件位置和新的附件名称。
+- 通过使用完全限定的文件位置和新的附件名称。
     
-- 通过使用一个字节数组。
+- 通过使用字节数组。
     
-- 使用 stream。
+- 使用流。
     
-请注意，在此示例中的项目附件创建电子邮件时。 若要添加为项目附件的现有电子邮件，请参阅[的现有项添加到使用 MimeContent 和 EWS 托管 API 的新电子邮件](#bk_addexistingemailewsma)。
+请注意，此示例中的项目附件是在电子邮件的同一时间创建的。 若要将现有电子邮件添加为项目附件，请参阅[使用 MimeContent 和 EWS 托管 API 将现有项目添加到新电子邮件](#bk_addexistingemailewsma)。
   
-此示例假定 **service** 是有效的 [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) 对象，并且已向 Exchange 服务器对该用户进行身份验证。 
+此示例假定 **service** 是有效的 [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) 对象，且用户已通过 Exchange 服务器的身份验证。 
   
 ```cs
 public static void CreateEmailWithAttachments(ExchangeService service)
@@ -90,19 +90,19 @@ public static void CreateEmailWithAttachments(ExchangeService service)
 }
 ```
 
-## <a name="create-an-email-with-file-and-item-attachments-by-using-ews"></a>使用 EWS 创建的文件和项目的附件的电子邮件
+## <a name="create-an-email-with-file-and-item-attachments-by-using-ews"></a>使用 EWS 创建包含文件和项目附件的电子邮件
 <a name="bk_createattachews"> </a>
 
-下面的代码示例演示如何使用[CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) operation，以创建具有四个附件的文件和一个项目附件的电子邮件。 这也是一个 XML 请求 EWS 托管 API 发送时您[创建的文件和项目的附件的电子邮件](#bk_createattachewsma)。
+下面的代码示例演示如何使用[CreateItem](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx)操作创建包含四个文件附件和一个项目附件的电子邮件。 这也是在您[创建包含文件和项目附件的电子邮件](#bk_createattachewsma)时，EWS 托管 API 发送的 XML 请求之一。
   
-请注意，在此示例中的项目附件创建电子邮件时。 若要添加为项目附件的现有电子邮件，请参阅[的现有项添加到使用 MimeContent 和 EWS 托管 API 的新电子邮件](#bk_addexistingemailewsma)。
+请注意，此示例中的项目附件是在电子邮件的同一时间创建的。 若要将现有电子邮件添加为项目附件，请参阅[使用 MimeContent 和 EWS 托管 API 将现有项目添加到新电子邮件](#bk_addexistingemailewsma)。
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
   </soap:Header>
@@ -170,26 +170,26 @@ public static void CreateEmailWithAttachments(ExchangeService service)
 </soap:Envelope>
 ```
 
-服务器响应包含**NoError**，这表明该电子邮件和附件已成功创建[ResponseCode](http://msdn.microsoft.com/en-us/library/aa580757%28v=exchg.150%29.aspx)值的[CreateItemResponse](http://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx)消息的**CreateItem**请求。 [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx)新创建的消息和附件的每个[AttachmentId](http://msdn.microsoft.com/library/55a5fd77-60d1-40fa-8144-770600cedc6a%28Office.15%29.aspx)值，也包含在响应中。 为便于阅读变短了某些属性的值。 
+服务器使用[CreateItemResponse](https://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx)邮件响应**CreateItem**请求，其中包括[ResponseCode](https://msdn.microsoft.com/library/aa580757%28v=exchg.150%29.aspx)值为**NoError**，表示已成功创建电子邮件和附件。 新创建的邮件的[ItemId](https://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx)和每个附件的[AttachmentId](https://msdn.microsoft.com/library/55a5fd77-60d1-40fa-8144-770600cedc6a%28Office.15%29.aspx)值也包含在响应中。 为了提高可读性，某些属性的值已缩短。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15"
                          MinorVersion="0"
                          MajorBuildNumber="939"
                          MinorBuildNumber="12"
                          Version="V2_11"
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:CreateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                          xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:CreateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                          xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:CreateItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -223,20 +223,20 @@ public static void CreateEmailWithAttachments(ExchangeService service)
 </s:Envelope>
 ```
 
-为[发送这个新创建的消息](how-to-send-email-messages-by-using-ews-in-exchange.md)，请在调用[SendItem](http://msdn.microsoft.com/library/337b89ef-e1b7-45ed-92f3-8abe4200e4c7%28Office.15%29.aspx)操作。 
+若要[发送此新创建的邮件](how-to-send-email-messages-by-using-ews-in-exchange.md)，请调用[SendItem](https://msdn.microsoft.com/library/337b89ef-e1b7-45ed-92f3-8abe4200e4c7%28Office.15%29.aspx)操作。 
   
-## <a name="add-an-existing-item-to-a-new-email-by-using-the-mimecontent-and-the-ews-managed-api"></a>将现有项添加到新的电子邮件，使用 MimeContent 和 EWS 托管 API
+## <a name="add-an-existing-item-to-a-new-email-by-using-the-mimecontent-and-the-ews-managed-api"></a>使用 MimeContent 和 EWS 托管 API 将现有项添加到新电子邮件
 <a name="bk_addexistingemailewsma"> </a>
 
-若要作为项目附件转发到另一个项目中添加现有项，您需要创建一个新的项目附件，并将现有项目的内容复制到新项目。 有两种方法来执行此操作： 
+若要将现有项目作为项目附件添加到另一个项目，您需要创建新的项目附件并将现有项目的内容复制到新项目中。 可通过 2 种方法执行此操作： 
   
-1. 如果您正在专门使用电子邮件，可以将[MimeContent](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.mimecontent%28v=exchg.80%29.aspx)属性的值从电子邮件复制到新创建的项附件。 在此过程，后续标志和类别，例如，您将会丢失一些属性，但它非常适用于标准电子邮件。 
+1. 如果您使用的是电子邮件，则可以将[MimeContent](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.mimecontent%28v=exchg.80%29.aspx)属性的值从电子邮件复制到新创建的项目附件中。 在此过程中，您将丢失一些属性，如后续标志和类别，但它对标准电子邮件非常有用。 
     
-2. 如果您的所有项目类型需要全保真方式，可以将绑定到现有项目和复制到新附件的所有属性和扩展的属性。
+2. 如果您需要所有项目类型的完全保真，则可以绑定到现有项目并将所有属性和扩展属性复制到新的附件中。
     
-下面的代码示例显示第一种方法，将**MimeContent**复制到新的项目附件。 此示例后面是说明如何修改代码以使用第二种方法的过程。 
+下面的代码示例演示了第一种方法，即将**MimeContent**复制到新项附件中。 下面的示例展示了如何修改代码以使用第二种方法的过程。 
   
-此示例假定该**服务**是有效的[ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象的用户已经过身份验证到 Exchange 服务器，和[ItemId](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.itemid%28v=exchg.80%29.aspx)项目的附加的**itemId** 。 
+此示例假定**service**是有效的[ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象，并且用户已通过 Exchange 服务器的身份验证，并且**itemid**是要附加的项的[itemid](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.itemid%28v=exchg.80%29.aspx) 。 
   
 ```cs
 public static void CreateEmailExistingItem(ExchangeService service, ItemId itemId)
@@ -260,61 +260,61 @@ public static void CreateEmailExistingItem(ExchangeService service, ItemId itemI
 }
 ```
 
-要修改此示例将每个对现有项目属性复制到新的项目附件，请执行以下操作： 
+若要修改此示例以将现有项的每个属性复制到新项附件中，请执行以下操作： 
   
-1. 更改属性设置为包括**PropertySet.FirstClassProperties**和任何其他属性或所需的扩展的属性。 
+1. 将属性集更改为包含**PropertySet**以及所需的任何其他属性或扩展属性。 
     
   ```cs
   // Add additional properties to the PropertySet.
   EmailMessage msgToAttach = EmailMessage.Bind(service, itemId, new PropertySet(PropertySet.FirstClassProperties));
   ```
 
-2. 删除下面一行，因为您无需**MimeContent**属性。 
+2. 删除以下行，因为您不需要**MimeContent**属性。 
     
   ```cs
   itemAttachment.Item.MimeContent = msgToAttach.MimeContent;
   ```
 
-3. 重复每个属性，将从现有的项目复制到新附件的以下的行。 不要到新的项目附件复制**ItemId** ，因为这是只读属性。 
+3. 对每个要从现有项目复制到新附件的属性重复此代码行。 请勿将**ItemId**复制到新项目附件中，因为这是只读属性。 
     
   ```cs
   itemAttachment.Item.Subject = msgToAttach.Subject;
   ```
 
-4. 设置为**已发送**附件[PidTagMessageFlags](http://msdn.microsoft.com/en-us/library/cc839733.aspx) (0x0E070003) 属性。
+4. 将附件上的[PidTagMessageFlags](https://msdn.microsoft.com/library/cc839733.aspx) （0x0E070003）属性设置为 "**已发送**"。
     
   ```cs
   ExtendedPropertyDefinition sent = new ExtendedPropertyDefinition(3591, MapiPropertyType.Integer);
   msgToAttach.Item.SetExtendedProperty(sent, "1");
   ```
 
-## <a name="add-an-existing-item-to-a-new-email-by-using-the-mimecontent-and-ews"></a>使用 MimeContent 和 EWS 现有项目添加到新的电子邮件
+## <a name="add-an-existing-item-to-a-new-email-by-using-the-mimecontent-and-ews"></a>使用 MimeContent 和 EWS 将现有项添加到新电子邮件中
 <a name="bk_addexistingemailews"> </a>
 
-有两种方法的新项目添加现有项： 
+有两种方法可将现有项添加到新项： 
   
-1. 如果您正在专门使用电子邮件，可以将[MimeContent](http://msdn.microsoft.com/library/4f472a08-5653-4c54-ba65-831dfe32f20f%28Office.15%29.aspx)元素的值从电子邮件复制到新创建的项附件。 在此过程，后续标志和类别，例如，您将会丢失一些属性，但它非常适用于标准电子邮件。 
+1. 如果您使用的是电子邮件，则可以将[MimeContent](https://msdn.microsoft.com/library/4f472a08-5653-4c54-ba65-831dfe32f20f%28Office.15%29.aspx)元素的值从电子邮件复制到新创建的项目附件中。 在此过程中，您将丢失一些属性，如后续标志和类别，但它对标准电子邮件非常有用。 
     
-2. 如果您的所有项目类型需要全保真方式，可以将绑定到现有项目和复制到新附件的所有属性和扩展的属性。
+2. 如果您需要所有项目类型的完全保真，则可以绑定到现有项目并将所有属性和扩展属性复制到新的附件中。
     
-下面的代码示例演示如何使用**MimeContent**元素将原始项目的内容复制到新的项目附件的**MimeContent**值。 该示例使用以下操作： 
+下面的代码示例演示如何使用**MimeContent**元素将原始项的内容复制到新项附件的**MimeContent**值中。 此示例使用以下操作： 
   
-1. [GetItem](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) — 要获取的**MimeContent**和将成为新邮件项目附件的邮件的[主题](http://msdn.microsoft.com/library/c140d6c2-deb1-4f67-a908-9397197c4ae7%28Office.15%29.aspx)。 
+1. [GetItem](https://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) —获取将成为新邮件的项目附件的邮件的**MimeContent**和[主题](https://msdn.microsoft.com/library/c140d6c2-deb1-4f67-a908-9397197c4ae7%28Office.15%29.aspx)。 
     
-2. [CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) — 创建新的电子邮件。 
+2. [CreateItem](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) —创建新的电子邮件。 
     
-3. [CreateAttachment](http://msdn.microsoft.com/library/e066db95-6963-4507-a8d0-8efad287f550%28Office.15%29.aspx)— 若要创建新附件，使用**MimeContent**和**主题**检索**GetItem**操作。 
+3. [CreateAttachment](https://msdn.microsoft.com/library/e066db95-6963-4507-a8d0-8efad287f550%28Office.15%29.aspx)—使用由**GetItem**操作检索到的**MimeContent**和**主题**来创建新附件。 
     
-4. [SendItem](http://msdn.microsoft.com/library/337b89ef-e1b7-45ed-92f3-8abe4200e4c7%28Office.15%29.aspx) — 发送和保存邮件。 
+4. [SendItem](https://msdn.microsoft.com/library/337b89ef-e1b7-45ed-92f3-8abe4200e4c7%28Office.15%29.aspx) —发送和保存邮件。 
     
-此示例首先会检索**MimeContent**和现有项目的**主题**。 
+该示例首先检索现有项的**MimeContent**和**主题**。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
     <m:GetItem>
       <m:ItemShape>
@@ -332,26 +332,26 @@ public static void CreateEmailExistingItem(ExchangeService service, ItemId itemI
 </soap:Envelope>
 ```
 
-服务器响应**GetItem**请求[GetItemResponse](http://msdn.microsoft.com/library/8b66de1b-26a6-476c-9585-a96059125716%28Office.15%29.aspx)邮件包含**NoError**，这表明已成功检索电子邮件，以及**MimeContent**和**[ResponseCode](http://msdn.microsoft.com/en-us/library/aa580757%28v=exchg.150%29.aspx)值主题**电子邮件。 
+服务器使用[GetItemResponse](https://msdn.microsoft.com/library/8b66de1b-26a6-476c-9585-a96059125716%28Office.15%29.aspx)邮件响应**GetItem**请求，其中包括[ResponseCode](https://msdn.microsoft.com/library/aa580757%28v=exchg.150%29.aspx)值**NoError**，表示电子邮件已成功检索，以及电子邮件的**MimeContent**和**主题**。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15"
                          MinorVersion="0"
                          MajorBuildNumber="944"
                          MinorBuildNumber="11"
                          Version="V2_12"
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:GetItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:GetItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:GetItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -370,14 +370,14 @@ public static void CreateEmailExistingItem(ExchangeService service, ItemId itemI
 </s:Envelope>
 ```
 
-接下来，调用**CreateItem** operation，创建新的电子邮件。 
+接下来，调用**CreateItem**操作以创建新的电子邮件。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010" />
   </soap:Header>
@@ -399,16 +399,16 @@ public static void CreateEmailExistingItem(ExchangeService service, ItemId itemI
 </soap:Envelope>
 ```
 
-服务器响应包含[ResponseCode](http://msdn.microsoft.com/en-us/library/aa580757%28v=exchg.150%29.aspx)值**NoError**，这表明已成功创建电子邮件的[CreateItemResponse](http://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx)消息的**CreateItem**请求。
+服务器使用[CreateItemResponse](https://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx)邮件响应**CreateItem**请求，其中包括[ResponseCode](https://msdn.microsoft.com/library/aa580757%28v=exchg.150%29.aspx)值**NoError**，表示已成功创建电子邮件。
   
-接下来，创建新的项目附件使用**MimeContent**和**主题** **GetItem**操作检索的。 使用**CreateItem**响应中返回的**ItemId**值填充[ParentItemId](http://msdn.microsoft.com/library/72dc4391-72db-44d2-85d9-4718d59886a7%28Office.15%29.aspx)元素的值。 
+接下来，使用**MimeContent**和**GetItem**操作检索到的**主题**创建新的项目附件。 使用**CreateItem**响应中返回的**ItemId**值填充[ParentItemId](https://msdn.microsoft.com/library/72dc4391-72db-44d2-85d9-4718d59886a7%28Office.15%29.aspx)元素的值。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010" />
   </soap:Header>
@@ -429,16 +429,16 @@ public static void CreateEmailExistingItem(ExchangeService service, ItemId itemI
 </soap:Envelope>
 ```
 
-服务器响应**CreateAttachment**请求[CreateAttachmentResponse](http://msdn.microsoft.com/library/cf6bd8bb-5317-4a03-bd75-297dd359b5da%28Office.15%29.aspx)邮件包含**NoError**，这表明已成功创建附件，并[[ResponseCode](http://msdn.microsoft.com/en-us/library/aa580757%28v=exchg.150%29.aspx)值AttachmentId](http://msdn.microsoft.com/library/55a5fd77-60d1-40fa-8144-770600cedc6a%28Office.15%29.aspx)的新创建的附件。 
+服务器使用[CreateAttachmentResponse](https://msdn.microsoft.com/library/cf6bd8bb-5317-4a03-bd75-297dd359b5da%28Office.15%29.aspx)邮件响应**CreateAttachment**请求，其中包括 ResponseCode 值为**NoError**的[ResponseCode](https://msdn.microsoft.com/library/aa580757%28v=exchg.150%29.aspx)值，这表示附件已成功创建，以及新创建的附件的[AttachmentId](https://msdn.microsoft.com/library/55a5fd77-60d1-40fa-8144-770600cedc6a%28Office.15%29.aspx) 。 
   
-既然已经创建新邮件，并附加项目，您还可以[发送这个新创建的邮件](how-to-send-email-messages-by-using-ews-in-exchange.md)通过调用[SendItem](http://msdn.microsoft.com/library/337b89ef-e1b7-45ed-92f3-8abe4200e4c7%28Office.15%29.aspx)操作。 
+现在已创建新邮件，并且已附加项目，您可以通过调用[SendItem](https://msdn.microsoft.com/library/337b89ef-e1b7-45ed-92f3-8abe4200e4c7%28Office.15%29.aspx)操作[发送此新创建的邮件](how-to-send-email-messages-by-using-ews-in-exchange.md)。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010" />
   </soap:Header>
@@ -456,22 +456,22 @@ public static void CreateEmailExistingItem(ExchangeService service, ItemId itemI
 </soap:Envelope>
 ```
 
-服务器使用 **SendItemResponse** 邮件响应 [SendItem](http://msdn.microsoft.com/library/26ac41c7-57d9-473e-ab7a-bae93e1d2aba%28Office.15%29.aspx) 请求，其中包括 [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) 值 **NoError**，表示电子邮件已成功发送。
+服务器使用 **SendItemResponse** 邮件响应 [SendItem](https://msdn.microsoft.com/library/26ac41c7-57d9-473e-ab7a-bae93e1d2aba%28Office.15%29.aspx) 请求，其中包括 [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) 值 **NoError**，表示电子邮件已成功发送。
   
-## <a name="create-an-email-with-an-inline-attachment-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 创建与内嵌附件的电子邮件
+## <a name="create-an-email-with-an-inline-attachment-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 创建带有内嵌附件的电子邮件
 <a name="bk_createinlineattachewsma"> </a>
 
-下面的代码示例演示如何创建与内嵌附件的电子邮件：
+下面的代码示例演示如何通过以下方式创建包含内联附件的电子邮件：
   
-1. 使用[EmailMessage](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage%28v=exchg.80%29.aspx)对象创建一封电子邮件。 
+1. 使用[EmailMessage](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage%28v=exchg.80%29.aspx)对象创建电子邮件。 
     
-2. [EmailMessage.Body](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.body%28v=exchg.80%29.aspx)属性设置为 HTML 正文包含内嵌附件。 
+2. 将[EmailMessage](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.body%28v=exchg.80%29.aspx)属性设置为包含内联附件的 HTML 正文。 
     
-3. 使用[AttachmentCollection.AddFileAttachment](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.attachmentcollection.addfileattachment%28v=exchg.80%29.aspx)方法添加到邮件的附件。 
+3. 使用 AddFileAttachment 方法可将附件添加到邮件中。 [AttachmentCollection](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.attachmentcollection.addfileattachment%28v=exchg.80%29.aspx) 
     
-4. 使用[EmailMessage.SendAndSaveCopy](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.sendandsavecopy%28v=exchg.80%29.aspx)方法向收件人发送邮件并将邮件保存在已发送邮件文件夹。 
+4. 使用[EmailMessage](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.sendandsavecopy%28v=exchg.80%29.aspx)方法将邮件发送给收件人，并将邮件保存在 "已发送邮件" 文件夹中。 
     
-此示例假定 **service** 是有效的 [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) 对象，并且已向 Exchange 服务器对该用户进行身份验证。 
+此示例假定 **service** 是有效的 [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) 对象，且用户已通过 Exchange 服务器的身份验证。 
   
 ```cs
 public static void CreateEmailWithInlineAttachment(ExchangeService service)
@@ -502,17 +502,17 @@ public static void CreateEmailWithInlineAttachment(ExchangeService service)
 }
 ```
 
-## <a name="create-an-email-with-an-inline-attachment-by-using-ews"></a>使用 EWS 创建与内嵌附件的电子邮件
+## <a name="create-an-email-with-an-inline-attachment-by-using-ews"></a>使用 EWS 创建带有内嵌附件的电子邮件
 <a name="bk_createinlineattachewsma"> </a>
 
-下面的代码示例演示如何使用[CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx)操作创建带有内嵌文件附件的电子邮件。 [Body](http://msdn.microsoft.com/library/7851ea9b-9f87-4adc-a26f-7a27df4a9bca%28Office.15%29.aspx)元素的**BodyType**属性指示内容采用 HTML 格式，并包括图像源。 这也就是一个 EWS 托管 API 时您使用 EWS 托管 API[创建电子邮件与内嵌附件](#bk_createinlineattachewsma)发送的请求的 XML。
+下面的代码示例演示如何使用[CreateItem](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx)操作创建包含内联文件附件的电子邮件。 [Body](https://msdn.microsoft.com/library/7851ea9b-9f87-4adc-a26f-7a27df4a9bca%28Office.15%29.aspx)元素的**office.mailboxenums.bodytype**属性指示内容为 HTML 格式，并包含图像源。 这也是当您使用 EWS 托管 API[创建带有内嵌附件的电子邮件](#bk_createinlineattachewsma)时，EWS 托管 api 发送的 XML 请求之一。
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010" />
   </soap:Header>
@@ -542,22 +542,22 @@ public static void CreateEmailWithInlineAttachment(ExchangeService service)
 </soap:Envelope>
 ```
 
-服务器使用 **CreateItemResponse** 邮件响应 [CreateItem](http://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) 请求，其中包括 [ResponseCode](http://msdn.microsoft.com/en-us/library/aa580757%28v=exchg.150%29.aspx) 值 **NoError**（表示电子邮件创建成功）和新创建邮件的 [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx)。 
+服务器使用 **CreateItemResponse** 邮件响应 [CreateItem](https://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) 请求，其中包括 [ResponseCode](https://msdn.microsoft.com/library/aa580757%28v=exchg.150%29.aspx) 值 **NoError**（表示电子邮件创建成功）和新创建邮件的 [ItemId](https://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx)。 
   
-为[发送这个新创建的消息](how-to-send-email-messages-by-using-ews-in-exchange.md)，请在调用[SendItem](http://msdn.microsoft.com/library/337b89ef-e1b7-45ed-92f3-8abe4200e4c7%28Office.15%29.aspx)操作。 
+若要[发送此新创建的邮件](how-to-send-email-messages-by-using-ews-in-exchange.md)，请调用[SendItem](https://msdn.microsoft.com/library/337b89ef-e1b7-45ed-92f3-8abe4200e4c7%28Office.15%29.aspx)操作。 
   
-## <a name="add-an-attachment-to-an-existing-email-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 添加到现有的电子邮件附件
+## <a name="add-an-attachment-to-an-existing-email-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 将附件添加到现有电子邮件
 <a name="bk_createinlineattachewsma"> </a>
 
-下面的代码示例演示如何添加到现有的电子邮件的附件： 
+下面的代码示例演示如何通过以下方式向现有电子邮件添加附件： 
   
-1. 使用[EmailMessage.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.bind%28v=exchg.80%29.aspx)方法将绑定到现有电子邮件。 
+1. 使用[EmailMessage](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.bind%28v=exchg.80%29.aspx)方法可绑定到现有电子邮件。 
     
-2. 使用**AddFileAttachment**方法添加到邮件的文件附件。 
+2. 使用**AddFileAttachment**方法将文件附件添加到邮件中。 
     
-3. 通过调用[EmailMessage.Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.update%28v=exchg.80%29.aspx)方法保存更新。 
+3. 通过调用[EmailMessage](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.update%28v=exchg.80%29.aspx)方法保存更新。 
     
-此示例假定 **service** 是有效的 [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) 对象，并且已向 Exchange 服务器对该用户进行身份验证。 
+此示例假定 **service** 是有效的 [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) 对象，且用户已通过 Exchange 服务器的身份验证。 
   
 ```XML
 public static void AddAttachmentToExisting(ExchangeService service, ItemId itemId)
@@ -570,17 +570,17 @@ public static void AddAttachmentToExisting(ExchangeService service, ItemId itemI
 }
 ```
 
-## <a name="add-an-attachment-to-an-existing-email-by-using-ews"></a>使用 EWS 添加到现有的电子邮件附件
+## <a name="add-an-attachment-to-an-existing-email-by-using-ews"></a>使用 EWS 将附件添加到现有电子邮件
 <a name="bk_createinlineattachewsma"> </a>
 
-下面的代码示例演示如何使用[CreateAttachment](http://msdn.microsoft.com/library/e066db95-6963-4507-a8d0-8efad287f550%28Office.15%29.aspx)操作添加到现有的电子邮件的文件附件。 这也就是一个 EWS 托管 API 时您使用 EWS 托管 API[添加到现有的电子邮件附件](#bk_createinlineattachewsma)发送的请求的 XML。
+下面的代码示例演示如何使用[CreateAttachment](https://msdn.microsoft.com/library/e066db95-6963-4507-a8d0-8efad287f550%28Office.15%29.aspx)操作将文件附件添加到现有电子邮件中。 这也是当您使用 EWS 托管 API[将附件添加到现有电子邮件](#bk_createinlineattachewsma)中时，EWS 托管 api 发送的 XML 请求之一。
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
     <t:TimeZoneContext>
@@ -601,26 +601,26 @@ public static void AddAttachmentToExisting(ExchangeService service, ItemId itemI
 </soap:Envelope>
 ```
 
-服务器响应**CreateAttachment**请求[CreateAttachmentResponse](http://msdn.microsoft.com/library/cf6bd8bb-5317-4a03-bd75-297dd359b5da%28Office.15%29.aspx)邮件包含**NoError**，这表明已成功创建附件，并[[ResponseCode](http://msdn.microsoft.com/en-us/library/aa580757%28v=exchg.150%29.aspx)值AttachmentId](http://msdn.microsoft.com/library/55a5fd77-60d1-40fa-8144-770600cedc6a%28Office.15%29.aspx)的新创建的附件。 
+服务器使用[CreateAttachmentResponse](https://msdn.microsoft.com/library/cf6bd8bb-5317-4a03-bd75-297dd359b5da%28Office.15%29.aspx)邮件响应**CreateAttachment**请求，其中包括 ResponseCode 值为**NoError**的[ResponseCode](https://msdn.microsoft.com/library/aa580757%28v=exchg.150%29.aspx)值，这表示附件已成功创建，以及新创建的附件的[AttachmentId](https://msdn.microsoft.com/library/55a5fd77-60d1-40fa-8144-770600cedc6a%28Office.15%29.aspx) 。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15"
                          MinorVersion="0"
                          MajorBuildNumber="939"
                          MinorBuildNumber="12"
                          Version="V2_11"
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:CreateAttachmentResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                                xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:CreateAttachmentResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                                xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:CreateAttachmentResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -643,12 +643,12 @@ public static void AddAttachmentToExisting(ExchangeService service, ItemId itemI
 
 - [附件和 EWS Exchange 中](attachments-and-ews-in-exchange.md)
     
-- [在 Exchange 使用 EWS 添加附件](how-to-add-attachments-by-using-ews-in-exchange.md)
+- [使用 Exchange 中的 EWS 添加附件](how-to-add-attachments-by-using-ews-in-exchange.md)
     
-- [使用 EWS 在 Exchange 中删除附件](how-to-delete-attachments-by-using-ews-in-exchange.md)
+- [使用 Exchange 中的 EWS 删除附件](how-to-delete-attachments-by-using-ews-in-exchange.md)
     
-- [使用 EWS 在 Exchange 服务器获取附件](how-to-get-attachments-by-using-ews-in-exchange.md)
+- [使用 Exchange 中的 EWS 获取附件](how-to-get-attachments-by-using-ews-in-exchange.md)
     
-- [在 Exchange 使用 EWS 发送电子邮件](how-to-send-email-messages-by-using-ews-in-exchange.md)
+- [使用 Exchange 中的 EWS 发送电子邮件](how-to-send-email-messages-by-using-ews-in-exchange.md)
     
 

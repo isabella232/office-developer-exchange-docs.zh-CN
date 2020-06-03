@@ -1,37 +1,37 @@
 ---
-title: 使用 Exchange 2013 中的 EWS 中创建约会和会议
+title: 使用 Exchange 2013 中的 EWS 创建约会和会议
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: fdea70a4-9267-4e5d-9152-b749e2acc3b0
-description: 了解如何通过使用 EWS 的 EWS 托管 API 在 Exchange 中创建约会和会议。
-ms.openlocfilehash: 1c840fac2ecca9fb51a28044dfac6299cb4fc038
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 了解如何使用 Exchange 中的 EWS 托管 API 或 EWS 创建约会和会议。
+localization_priority: Priority
+ms.openlocfilehash: b617519b839fb5ad310fbcaf6fae065f71f0f165
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752766"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528228"
 ---
-# <a name="create-appointments-and-meetings-by-using-ews-in-exchange-2013"></a>使用 Exchange 2013 中的 EWS 中创建约会和会议
+# <a name="create-appointments-and-meetings-by-using-ews-in-exchange-2013"></a>使用 Exchange 2013 中的 EWS 创建约会和会议
 
-了解如何通过使用 EWS 的 EWS 托管 API 在 Exchange 中创建约会和会议。
+了解如何使用 Exchange 中的 EWS 托管 API 或 EWS 创建约会和会议。
   
-会议和约会的基本区别是，会议具有与会者，并且不约会。 约会和会议可以是单个实例或定期系列的一部分，但约会不包括与会者、 聊天室或资源，因为它们不需要发送一条消息。 内部 Exchange 使用相同的对象的会议和约会。 使用 EWS 托管 API[约会类](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx)或 EWS[日历项目](http://msdn.microsoft.com/library/Title Topic ID Project Name Writer Editor Publish Preview.aspx)元素以使用会议和约会。 
+会议和约会之间的基本区别在于会议具有与会者，而约会则不是。 约会和会议既可以是单个实例，也可以是定期系列的一部分，但由于约会不包括与会者、会议室或资源，因此它们不需要发送邮件。 在内部，Exchange 对会议和约会使用相同的对象。 您可以使用 EWS 托管 API[约会类](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx)或 ews [CalendarItem](https://msdn.microsoft.com/library/Title Topic ID Project Name Writer Editor Publish Preview.aspx)元素来处理会议和约会。 
   
-**表 1。EWS 托管 API 方法和用于处理约会和会议的 EWS 操作**
+**表1。用于处理约会和会议的 EWS 托管 API 方法和 EWS 操作**
 
 |**EWS 托管的 API 方法**|**EWS 操作**|
 |:-----|:-----|
-|[Appointment.Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) <br/> |[CreateItem operation，（日历项）](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) <br/> |
-|[Item.Bind](http://msdn.microsoft.com/en-us/library/dd634410%28v=exchg.80%29.aspx) <br/> |[GetItem 操作 （日历项）](http://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) <br/> |
+|[约会. 保存](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) <br/> |[CreateItem 操作（日历项目）](https://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) <br/> |
+|[Item.Bind](https://msdn.microsoft.com/library/dd634410%28v=exchg.80%29.aspx) <br/> |[GetItem 操作（日历项目）](https://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) <br/> |
    
 ## <a name="create-an-appointment-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 创建约会
 <a name="bk_CreateApptEWSMA"> </a>
 
-下面的代码示例演示如何使用[Appointment 对象](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx)来创建约会和[Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx)方法以将其保存到您日历文件夹中，验证已创建约会的[Item.Bind](http://msdn.microsoft.com/en-us/library/dd634410%28v=exchg.80%29.aspx)方法。 
+下面的代码示例演示如何使用[约会对象](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx)创建约会、[保存方法以](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx)将其保存到 "日历" 文件夹，以及用于验证约会是否已创建的[Item 方法。](https://msdn.microsoft.com/library/dd634410%28v=exchg.80%29.aspx) 
   
-此示例假定您具有身份验证向 Exchange 服务器，并已获取名为**服务** [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象。 
+此示例假定您已通过 Exchange 服务器的身份验证，并获取了名为 "**服务**" 的[ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象。 
   
 ```cs
 Appointment appointment = new Appointment(service);
@@ -50,23 +50,23 @@ Console.WriteLine("\nAppointment created: " + item.Subject + "\n");
 
 ```
 
-Appointment 对象上设置的属性后, 保存约会对日历文件夹使用 appointment 对象的[Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx)方法。 
+设置约会对象上的属性后，可以使用约会对象的[save](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx)方法将约会保存到 "日历" 文件夹中。 
   
-请注意，在验证步骤中，您使用项目[Id](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.id%28v=exchg.80%29.aspx)与约会关联验证该约会是在日历文件夹中。 作为最佳实践，限制返回您只需到服务器的属性，在这种情况下，约会的主题。 
+请注意，在验证步骤中，使用与约会关联的项目[Id](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.id%28v=exchg.80%29.aspx)来验证约会是否在 "日历" 文件夹中。 作为最佳实践，应将服务器返回的属性限制为仅为您需要的内容，在此示例中为约会的主题。 
   
 ## <a name="create-an-appointment-by-using-ews"></a>使用 EWS 创建约会
 <a name="bk_CreateApptEWS"> </a>
 
-请求和响应 XML 下面的示例中对应于所做的[创建约会使用 EWS 托管 API](#bk_CreateApptEWSMA)中的 EWS 托管 API 代码的呼叫。 以及显示请求和响应验证约会项在日历文件夹中的 XML。
+以下示例中的请求和响应 XML 对应于通过[使用 Ews 托管 Api 创建约会](#bk_CreateApptEWSMA)中的 EWS 托管 api 代码进行的调用。 同时还会显示用于验证约会项目是否位于 "日历" 文件夹中的请求和响应 XML。
   
-使用[CreateItem](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) operation，来创建约会时，下面的示例演示请求 XML。 
+下面的示例演示使用[CreateItem](https://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx)操作创建约会时的请求 XML。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-       xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-       xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+       xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+       xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
     <t:TimeZoneContext>
@@ -91,24 +91,24 @@ Appointment 对象上设置的属性后, 保存约会对日历文件夹使用 ap
 </soap:Envelope>
 ```
 
- 下面的示例显示了响应由**CreateItem**操作返回的 XML。 
+ 下面的示例演示由**CreateItem**操作返回的响应 XML。 
   
 > [!NOTE]
-> 为便于阅读变短了**ItemId**和**更改密钥**属性。 
+> 为了提高可读性， **ItemId**和**ChangeKey**属性已缩短。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="775" MinorBuildNumber="7" Version="V2_4" 
- xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
- xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+ xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+ xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
  xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:CreateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:CreateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:CreateItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -125,17 +125,17 @@ Appointment 对象上设置的属性后, 保存约会对日历文件夹使用 ap
 
 ```
 
-下面的示例演示的请求创建使用[GetItem](http://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx)操作时，确认约会生成的 XML。 
+下面的示例演示在使用[GetItem](https://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx)操作来验证约会是否已创建时生成的请求 XML。 
   
 > [!NOTE]
-> 为便于阅读变短了**ItemId**和**更改密钥**属性。 
+> 为了提高可读性， **ItemId**和**ChangeKey**属性已缩短。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-       xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-       xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+       xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+       xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
     <t:TimeZoneContext>
@@ -159,23 +159,23 @@ Appointment 对象上设置的属性后, 保存约会对日历文件夹使用 ap
 
 ```
 
- 下面的示例显示了响应由**GetItem**操作返回的 XML。 
+ 下面的示例演示由**GetItem**操作返回的响应 XML。 
   
 > [!NOTE]
-> 为便于阅读变短了**ItemId**和**更改密钥**属性。 
+> 为了提高可读性， **ItemId**和**ChangeKey**属性已缩短。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="775" MinorBuildNumber="7" Version="V2_4" 
- xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
- xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+ xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+ xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
  xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:GetItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:GetItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:GetItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -195,9 +195,9 @@ Appointment 对象上设置的属性后, 保存约会对日历文件夹使用 ap
 ## <a name="create-a-meeting-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 创建会议
 <a name="bk_CreateMtgEWSMA"> </a>
 
-创建会议，除了将项目保存到日历文件夹中，您通常还希望向与会者发送会议请求。 下面的代码示例演示如何创建会议并发送会议请求。
+在创建会议时，除了将项目保存到 "日历" 文件夹之外，您通常还需要向与会者发送会议请求。 下面的代码示例演示如何创建会议并发送会议请求。
   
-此示例假定您具有身份验证向 Exchange 服务器，并已获取名为**服务** [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象。 
+此示例假定您已通过 Exchange 服务器的身份验证，并获取了名为 "**服务**" 的[ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象。 
   
 ```cs
 Appointment meeting = new Appointment(service);
@@ -219,21 +219,21 @@ Console.WriteLine("\nMeeting created: " + item.Subject + "\n");
 
 ```
 
-[Appointment](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx)对象上设置的属性之后, 会议将保存到日历文件夹使用[Save](http://msdn.microsoft.com/en-us/library/dd635394%28v=exchg.80%29.aspx)方法。 时[SendInvitationsMode](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.sendinvitationsmode%28v=exchg.80%29.aspx)枚举值设置为**SendOnlyToAll**或**SendToAllAndSaveCopy**时，向与会者发送邀请。
+在设置了[约会](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx)对象的属性后，使用[save](https://msdn.microsoft.com/library/dd635394%28v=exchg.80%29.aspx)方法将会议保存到 "日历" 文件夹中。 当您将[SendInvitationsMode](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.sendinvitationsmode%28v=exchg.80%29.aspx)枚举值设置为**SendOnlyToAll**或**SendToAllAndSaveCopy**时，会向与会者发送邀请。
   
-使用项目与会议相关[Id](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.id%28v=exchg.80%29.aspx)验证已保存在日历文件夹中。 作为最佳实践，限制返回的属性由服务器到仅所需-在此情况下，会议的主题。 
+使用与会议关联的项目[Id](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.id%28v=exchg.80%29.aspx)验证会议是否保存在 "日历" 文件夹中。 作为最佳实践，请将服务器返回的属性限制为仅限您需要的内容-在此示例中为会议的主题。 
   
 ## <a name="create-a-meeting-by-using-ews"></a>使用 EWS 创建会议
 <a name="bk_CreateMtgEWS"> </a>
 
-请求和响应 XML 下面的示例中对应于所做的[创建会议使用 EWS 托管 API](#bk_CreateMtgEWSMA)中的 EWS 托管 API 代码的呼叫。 以及显示请求和响应验证会议项目在日历文件夹中的 XML。
+以下示例中的请求和响应 XML 对应于通过[使用 Ews 托管 Api 创建会议](#bk_CreateMtgEWSMA)中的 EWS 托管 api 代码进行的调用。 同时显示了确认会议项目是否位于 "日历" 文件夹中的请求和响应 XML。
   
-使用[CreateItem](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) operation，创建一个会议时，下面的示例演示请求 XML。 
+下面的示例演示使用[CreateItem](https://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx)操作创建会议时的请求 XML。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
     <t:TimeZoneContext>
@@ -277,22 +277,22 @@ Console.WriteLine("\nMeeting created: " + item.Subject + "\n");
 </soap:Envelope>
 ```
 
-下面的示例显示了响应由**CreateItem**操作返回的 XML。 
+下面的示例演示由**CreateItem**操作返回的响应 XML。 
   
 > [!NOTE]
-> 为便于阅读变短了**ItemId**和**更改密钥**属性。 
+> 为了提高可读性， **ItemId**和**ChangeKey**属性已缩短。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="775" MinorBuildNumber="7" Version="V2_4" 
- xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
- xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+ xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+ xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
  xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:CreateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:CreateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:CreateItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -308,15 +308,15 @@ Console.WriteLine("\nMeeting created: " + item.Subject + "\n");
 </s:Envelope>
 ```
 
-下面的示例演示请求验证已创建会议时，由[GetItem](http://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx)操作生成的 XML。 
+下面的示例演示在验证会议是否已创建时由[GetItem](https://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx)操作生成的请求 XML。 
   
 > [!NOTE]
-> 为便于阅读变短了**ItemId**和**更改密钥**属性。 
+> 为了提高可读性， **ItemId**和**ChangeKey**属性已缩短。 
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
     <t:TimeZoneContext>
@@ -339,22 +339,22 @@ Console.WriteLine("\nMeeting created: " + item.Subject + "\n");
 </soap:Envelope>
 ```
 
-下面的示例显示了响应由**GetItem**操作返回的 XML。 
+下面的示例演示由**GetItem**操作返回的响应 XML。 
   
 > [!NOTE]
-> 为便于阅读变短了**ItemId**和**更改密钥**属性。 
+> 为了提高可读性， **ItemId**和**ChangeKey**属性已缩短。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="775" MinorBuildNumber="7" Version="V2_4" 
- xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
- xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+ xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+ xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
  xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:GetItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:GetItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:GetItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -374,9 +374,9 @@ Console.WriteLine("\nMeeting created: " + item.Subject + "\n");
 ## <a name="see-also"></a>另请参阅
 
 - [Calendars and EWS in Exchange](calendars-and-ews-in-exchange.md)  
-- [在 Exchange 使用 EWS 获取约会和会议](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md)  
-- [在 Exchange 使用 EWS 更新约会和会议](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md) 
-- [删除约会，并在 Exchange 使用 EWS 取消会议](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md) 
-- [建议在 Exchange 使用 EWS 的新的会议时间](how-to-propose-a-new-meeting-time-by-using-ews-in-exchange.md)
+- [使用 Exchange 中的 EWS 获取约会和会议](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md)  
+- [使用 Exchange 中的 EWS 更新约会和会议](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md) 
+- [使用 Exchange 中的 EWS 删除约会和取消会议](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md) 
+- [使用 Exchange 中的 EWS 建议新的会议时间](how-to-propose-a-new-meeting-time-by-using-ews-in-exchange.md)
     
 

@@ -5,40 +5,40 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
 api_name:
 - Exchange
 api_type:
 - schema
 ms.assetid: 4653466a-a596-456f-bbff-7da4ef1d18d3
-description: 在 Exchange 中查找参考信息的 EWS XML 元素。
-ms.openlocfilehash: 046a985ae4696616d28a0891ffe0aa8cc0552307
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 在 Exchange 中查找 EWS XML 元素的参考信息。
+localization_priority: Priority
+ms.openlocfilehash: 29b90ad137141e30484ef804b6fcb6bb049ef3e8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754180"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526114"
 ---
 # <a name="ews-xml-elements-in-exchange"></a>Exchange 中的 EWS XML 元素
 
-在 Exchange 中查找参考信息的 EWS XML 元素。
+在 Exchange 中查找 EWS XML 元素的参考信息。
   
-Exchange Web Services (EWS) 是一个基于 SOAP web 服务，这意味着在客户端和服务器之间发送的请求和响应消息所组成的 XML 元素。 本节中的文档基于客户端和服务器之间发送的 XML 实例。 在承载 EWS 虚拟目录中的位置的 WSDL 和架构文件中定义的 XML 实例。 如果您是经过身份验证的用户，您可以浏览到所 WSDL 和架构文件使用以下 Url，其中\<yourclientaccessserver\>是您的客户端访问服务器的名称：
+Exchange Web 服务（EWS）是基于 SOAP 的 web 服务，这意味着在客户端和服务器之间发送的请求和响应消息由 XML 元素组成。 本节中的文档基于在客户端和服务器之间发送的 XML 实例。 XML 实例是在 WSDL 和 schema 文件中定义的，这些文件位于承载 EWS 的虚拟目录中。 如果您是已通过身份验证的用户，则可以使用以下 Url 浏览到 WSDL 和 schema 文件，其中 \<yourclientaccessserver\> 是客户端访问服务器的名称：
   
-- http://\<yourclientaccessserver\>.com/ews/services.wsdl — WSDL 文件的位置。
+- http:// \<yourclientaccessserver\> /ews/服务-wsdl 文件的位置。
     
-- http://\<yourclientaccessserver\>.com/ews/messages.xsd — 消息架构的位置。
+- http:// \<yourclientaccessserver\> /ews/消息（xsd）-邮件架构的位置。
     
-- http://\<yourclientaccessserver\>.com/ews/types.xsd — 类型架构的位置。
+- http:// \<yourclientaccessserver\> /ews/类型 .xsd-类型架构的位置。
     
-描述 EWS XML 元素的架构文件提供可能为请求响应消息交互的 XML 结构的常规路线图。 客户端和服务器之间发送的实际 XML 结构会有所不同，根据调用的操作、 请求的信息和服务器端设置。
+描述 EWS XML 元素的架构文件提供了可用于请求-响应邮件交互的 XML 结构的一般路线图。 在客户端和服务器之间发送的实际 XML 结构根据所调用的操作、所请求的信息和服务器端设置的不同而不同。
   
-EWS WSDL 文件、 services.wsdl，不完全符合 WSDL 标准因为它不包括 WSDL 服务定义。 这是因为 EWS 不旨在承载有预定义的地址的计算机上。 您可以使用自动发现服务获取 EWS 终结点地址。 有些客户端对象模型生成器分析 WSDL 和可能会遇到错误条件，因为 WSDL 文件不包含 WSDL 服务定义。 如果您对象模型生成器遇到错误，您可以插入 WSDL 服务定义一个占位符。
+EWS WSDL 文件（wsdl.exe）不完全符合 WSDL 标准，因为它不包含 WSDL 服务定义。 这是因为，EWS 不适合在具有预定义地址的计算机上托管。 您可以使用自动发现服务来获取 EWS 终结点地址。 某些客户端对象模型生成器会分析 WSDL，并且可能会遇到错误条件，因为 WSDL 文件不包含 WSDL 服务定义。 如果您的对象模型生成器遇到错误，则可以插入占位符 WSDL 服务定义。
   
 > [!TIP]
-> 如果您使用.NET Framework 开发应用程序，我们建议您使用[EWS 托管 API](http://aka.ms/ews-managed-api-readme)，而不是对象模型生成器。 EWS 托管 API 提供了易于使用对象模型来处理的序列化和反序列化的 EWS XML。 有关详细信息，请参阅[入门 EWS 托管 API 客户端应用程序](http://msdn.microsoft.com/library/c2267733-6f4f-49e5-9614-1e4a24c3af1a%28Office.15%29.aspx)。 
+> 如果使用 .NET Framework 开发应用程序，我们建议使用[EWS 托管 API](http://aka.ms/ews-managed-api-readme)，而不是对象模型生成器。 EWS 托管 API 提供易于使用的对象模型来处理 EWS XML 的序列化和反序列化。 有关详细信息，请参阅[开始使用 EWS 托管 API 客户端应用程序](https://msdn.microsoft.com/library/c2267733-6f4f-49e5-9614-1e4a24c3af1a%28Office.15%29.aspx)。 
   
-Messages.xsd 架构文件包含的元素定义的 SOAP 正文中的顶级元素。 错误响应代码，除外了特定于操作大部分 messages.xsd 中的定义。 Types.xsd 架构包含 SOAP 标头的定义和共享跨操作的所有常见的定义。
+消息 .xsd 架构文件包含 SOAP 正文中顶级元素的元素定义。 除了错误响应代码，邮件中的大多数定义都是特定于操作的。 类型 .xsd 架构包含 SOAP 标头的定义以及在各个操作之间共享的所有通用定义。
   
 ## <a name="see-also"></a>另请参阅
 

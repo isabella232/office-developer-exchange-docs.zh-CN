@@ -1,86 +1,86 @@
 ---
-title: 身份验证和 Exchange 中的 EWS
+title: Exchange 中的身份验证和 EWS
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 9a83df96-aca0-42b3-b8f5-2b414f0363f1
-description: 查找可帮助您选择您的 Exchange 的 EWS 应用程序的正确的身份验证标准的信息。
-ms.openlocfilehash: a4aae4678f1d6ffa5c08350f0bcccce5a4885f20
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: 查找信息，以帮助您为面向 Exchange 的 EWS 应用程序选择正确的身份验证标准。
+localization_priority: Priority
+ms.openlocfilehash: 69018b6f88fc80e1e18edd96ed0e16d52064572d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353663"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528480"
 ---
-# <a name="authentication-and-ews-in-exchange"></a>身份验证和 Exchange 中的 EWS
+# <a name="authentication-and-ews-in-exchange"></a>Exchange 中的身份验证和 EWS
 
-查找可帮助您选择您的 Exchange 的 EWS 应用程序的正确的身份验证标准的信息。
+查找信息，以帮助您为面向 Exchange 的 EWS 应用程序选择正确的身份验证标准。
   
-身份验证是 Exchange Web Services (EWS) 应用程序的关键部分。 Exchange Online、 Exchange Online 作为 Office 365 的一部分和本地版本的开头 Exchange Server 2013 的 Exchange 支持标准 web 身份验证协议，以帮助保护您的应用程序和 Exchange 服务器之间的通信。
+身份验证是 Exchange Web 服务（EWS）应用程序的关键部分。 Exchange Online、Exchange Online （作为 Office 365 的一部分）和本地版本的 Exchange 以 Exchange Server 2013 开头。支持标准 web 身份验证协议，以帮助保护应用程序和 Exchange 服务器之间的通信。
   
-如果您正在面向 Exchange Online，您选择的身份验证方法必须使用 HTTPS 进行加密的请求和应用程序发送的响应。 尽管您可以与 Exchange 本地服务器使用 HTTP，我们建议您的应用程序将发送到 EWS 终结点可帮助您的应用程序和 Exchange 服务器之间的安全通信任何请求使用 HTTPS。
+如果您针对的是 Exchange Online，则您选择的身份验证方法必须使用 HTTPS 加密您的应用程序发送的请求和响应。 虽然您可以将 HTTP 与 Exchange 本地服务器结合使用，但我们建议对应用程序发送到 EWS 终结点的任何请求使用 HTTPS，以帮助确保应用程序与 Exchange 服务器之间的通信安全。
   
-Exchange 提供了您可供选择的以下身份验证选项： 
+Exchange 提供了以下身份验证选项供您选择： 
   
-- OAuth 2.0 (Exchange Online 仅)
+- OAuth 2.0 （仅限 Exchange Online）
     
-- NTLM （Exchange 内部部署仅）
+- NTLM （仅限本地 Exchange）
     
-- Basic （不再推荐）
+- 基本（不再推荐）
     
-您选择的身份验证方法取决于您的组织，您使用的 Exchange Online 或 Exchange 的本地和您是否有权访问可以发出 OAuth 令牌的第三方提供程序的安全要求。 本文提供了将帮助您选择适合您的应用程序的身份验证标准的信息。
+您选择的身份验证方法取决于您的组织的安全要求、是使用 Exchange Online 还是本地 Exchange，以及您是否有权访问可颁发 OAuth 令牌的第三方提供程序。 本文提供的信息可帮助您选择适合您的应用程序的身份验证标准。
   
 ## <a name="oauth-authentication"></a>OAuth 身份验证
 
-我们建议所有新应用程序使用此 OAuth 标准能够连接到 Exchange Online 服务。 基本身份验证安全性优于值得应用程序中实现 OAuth 所需的其他工作。 对于该记录，但是，有还应注意的一些缺点。
+我们建议所有新应用程序都使用 OAuth 标准连接到 Exchange Online services。 安全性优于基本身份验证的优点是，在应用程序中实现 OAuth 所需的额外工作。 但对于记录而言，还有一些应注意的缺点。
   
-**表 1。使用 OAuth 的优点和缺点**
+**表1。使用 OAuth 的优点和缺点**
 
 |**优点**|**缺点**|
 |:-----|:-----|
-| OAuth 是行业标准身份验证协议。<br/><br/>第三方提供程序管理身份验证。 您的应用程序没有收集和存储 Exchange 凭据。<br/><br/>更少担心，因为您的应用程序将不透明的令牌仅接收身份验证提供程序;因此，在您的应用程序安全性遭到破坏仅可以公开令牌，而不是用户的 Exchange 凭据。  <br/> | OAuth 依赖于第三方身份验证提供程序。 这可以施加额外的成本，在您的组织或您的客户。<br/><br/>此 OAuth 标准是更加难以实现比基本身份验证。<br/><br/>若要实现 OAuth，您需要将您的应用程序与身份验证提供程序和 Exchange 服务器集成。  <br/> |
+| OAuth 是行业标准的身份验证协议。<br/><br/>身份验证由第三方提供程序进行管理。 您的应用程序不需要收集和存储 Exchange 凭据。<br/><br/>由于您的应用程序仅从身份验证提供程序接收到不透明令牌，因此为你提供了更少的照管。因此，应用程序中的安全破坏只能公开令牌，而不是用户的 Exchange 凭据。  <br/> | OAuth 依赖于第三方身份验证提供程序。 这可能会给你的组织或客户带来额外的成本。<br/><br/>与基本身份验证相比，OAuth 标准更难实现。<br/><br/>若要实现 OAuth，您需要将您的应用程序与身份验证提供程序和 Exchange 服务器集成。  <br/> |
    
-为了帮助减少缺点，您可以使用[Microsoft Azure AD 身份验证库](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries)(ADAL) 为在云中还是内部部署 Active Directory 域服务 (AD DS) 的用户进行身份验证，然后获取访问令牌的保护呼叫到Exchange 服务器。 Exchange Online 要求由受支持的 ADAL; Azure Active Directory 服务颁发的令牌但是，您可以使用任何第三方库。 
+为了帮助最大限度地降低缺点，可以使用[Microsoft AZURE AD 身份验证库](https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-libraries)（ADAL）对用户进行身份验证，以便在云中或内部部署中对 Active Directory 域服务（AD DS）进行身份验证，然后获取访问令牌以保护对 Exchange 服务器的呼叫。 Exchange Online 需要由受 ADAL 支持的 Azure Active Directory 服务颁发的令牌;不过，您可以使用任何第三方库。 
   
-若要了解有关 EWS 应用程序中使用 OAuth 身份验证的详细信息，请参阅以下资源：
+若要了解有关在 EWS 应用程序中使用 OAuth 身份验证的详细信息，请参阅以下资源：
   
-- [Office 365 试用版](https://docs.microsoft.com/en-us/office/developer-program/office-365-developer-program)，设置要用于测试客户端应用程序的 Exchange 服务器。
+- [Office 365 试用版](https://docs.microsoft.com/office/developer-program/office-365-developer-program)，用于设置用于测试客户端应用程序的 Exchange 服务器。
     
-- [适用于.NET的Azure AD身份验证库](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries)
+- [适用于.NET的Azure AD身份验证库](https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-libraries)
     
-- [配置 Azure Active Directory](http://msdn.microsoft.com/library/055e1155-2d4d-4c85-b44e-d406872ba595%28Office.15%29.aspx)，若要启用应用程序使用 OAuth 令牌的身份验证。
+- [配置 Azure Active Directory](https://msdn.microsoft.com/library/055e1155-2d4d-4c85-b44e-d406872ba595%28Office.15%29.aspx)，以使应用程序能够使用 OAuth 令牌进行身份验证。
     
-- 查看[Authenticate EWS 应用程序使用 OAuth](how-to-authenticate-an-ews-application-by-using-oauth.md)例如可以研究的代码中的示例代码。 
+- 通过使用可研究的示例代码的 OAuth，查看[对 EWS 应用程序进行身份验证](how-to-authenticate-an-ews-application-by-using-oauth.md)的示例代码。 
     
 ## <a name="ntlm-authentication"></a>NTLM 身份验证
 
-NTLM 身份验证功能仅适用于 Exchange 内部部署服务器。 对于运行在企业防火墙内部的应用程序，NTLM 身份验证和.NET Framework 之间的集成提供内置意味着您的应用程序进行身份验证。 
+NTLM 身份验证仅适用于 Exchange 本地服务器。 对于在企业防火墙内部运行的应用程序，在 NTLM 身份验证和 .NET Framework 之间集成提供了对应用程序进行身份验证的内置方法。 
   
-**表 2。使用 NTLM 身份验证的优点和缺点**
+**表2。使用 NTLM 身份验证的优点和缺点**
 
 |**优点**|**缺点**|
 |:-----|:-----|
-| "开"适用于您的 Exchange 服务器。 您可以使用[Exchange 命令行管理程序 cmdlet](how-to-control-access-to-ews-in-exchange.md)配置 Exchange 服务的访问权限。<br/><br/>使用.NET Framework [CredentialCache](http://msdn2.microsoft.com/EN-US/library/615e0wsd)对象以自动获取用户的凭据。<br/><br/>[代码示例都可用](http://code.msdn.microsoft.com/office/Exchange-2013-101-Code-3c38582c)，使用了已登录用户的凭据进行身份验证内部部署 Exchange 服务器。  <br/> | 用户必须登录到要使用 NTLM 身份验证的域。<br/><br/>很难访问未与用户的域帐户关联的电子邮件帐户。<br/><br/>服务应用程序必须具有充分利用 NTLM 身份验证的域帐户。  <br/> |
+| 与 Exchange 服务器配合使用 "开箱即用"。 您可以使用[Exchange 命令行管理程序 cmdlet](how-to-control-access-to-ews-in-exchange.md)配置对 Exchange 服务的访问权限。<br/><br/>使用 .NET Framework [CredentialCache](https://msdn2.microsoft.com/library/615e0wsd)对象自动获取用户的凭据。<br/><br/>可以使用已登录用户的凭据进行本地 Exchange server 身份验证的[代码示例](https://code.msdn.microsoft.com/office/Exchange-2013-101-Code-3c38582c)。  <br/> | 用户必须登录到域才能使用 NTLM 身份验证。<br/><br/>很难访问与用户的域帐户不关联的电子邮件帐户。<br/><br/>服务应用程序必须具有域帐户才能充分利用 NTLM 身份验证。  <br/> |
+
    
 ## <a name="basic-authentication"></a>基本身份验证
 
-基本身份验证提供一个很基本级别的客户端应用程序的安全性。 我们建议所有新应用程序进行身份验证; 使用 NTLM 或 OAuth 协议但是，基本身份验证可以是在某些情况下应用程序的正确选择。
+基本身份验证为客户端应用程序提供了一种基本的安全级别。 我们建议所有新应用程序都使用 NTLM 或 OAuth 协议进行身份验证;但是，在某些情况下，基本身份验证可能是应用程序的正确选择。
   
-**表 3。使用基本身份验证的优点和缺点**
+**表3。使用基本身份验证的优点和缺点**
 
 |**优点**|**缺点**|
 |:-----|:-----|
-| "开"适用于您的 Exchange 服务器。 您可以使用[Exchange 命令行管理程序 cmdlet](how-to-control-access-to-ews-in-exchange.md)配置 Exchange 服务的访问权限。<br/><br/>Windows 应用程序可以使用登录的用户的默认凭据。<br/><br/>多个[代码示例可](http://code.msdn.microsoft.com/office/Exchange-2013-101-Code-3c38582c)向您演示如何调用 EWS 使用基本身份验证。  <br/> | 需要您的应用程序，以收集和存储用户的凭据。<br/><br/>您必须关闭所有用户使用基本身份验证的 NTLM 身份验证。<br/><br/>如果您的应用程序中发生安全性遭到破坏，它可以公开用户的电子邮件地址和密码攻击者。  <br/> |
+| 与 Exchange 服务器配合使用 "开箱即用"。 您可以使用[Exchange 命令行管理程序 cmdlet](how-to-control-access-to-ews-in-exchange.md)配置对 Exchange 服务的访问权限。<br/><br/>Windows 应用程序可以使用已登录用户的默认凭据。<br/><br/>提供了许多[代码示例](https://code.msdn.microsoft.com/office/Exchange-2013-101-Code-3c38582c)，向您展示了如何使用基本身份验证来调用 EWS。  <br/> | 要求您的应用程序收集和存储用户的凭据。<br/><br/>如果您希望强制所有用户使用基本身份验证，则必须关闭 NTLM 身份验证。<br/><br/>如果应用程序中发生安全破坏，它可以向攻击者公开用户的电子邮件地址和密码。  <br/> |
    
-您需要确定基本身份验证是否符合您的组织和客户的安全要求。 基本身份验证可以正确的选择，如果您想要避免广泛安装任务，例如对于简单的测试或演示应用程序。
+您需要确定基本身份验证是否符合组织和客户的安全要求。 如果您想要避免大量的设置任务（例如简单的测试或演示应用程序），则基本身份验证可能是正确的选择。
   
 ## <a name="see-also"></a>另请参阅
 
-- [Start using web services in Exchange](start-using-web-services-in-exchange.md)   
-- [单一登录添加到 Web 应用程序使用 Microsoft Azure AD](http://msdn.microsoft.com/library/055e1155-2d4d-4c85-b44e-d406872ba595%28Office.15%29.aspx)    
-- [在 Exchange 控制对 EWS 的访问](how-to-control-access-to-ews-in-exchange.md)    
-- [在 Exchange 控制客户端应用程序访问 EWS](controlling-client-application-access-to-ews-in-exchange.md)    
-- [支持的令牌和声明类型](http://msdn.microsoft.com/library/9d35e4bc-7b72-49d1-b723-5464eee6be2c%28Office.15%29.aspx)
-    
-
+- [开始使用 Exchange 中的 Web 服务](start-using-web-services-in-exchange.md)   
+- [使用 Microsoft Azure AD 将登录添加到 Web 应用程序](https://msdn.microsoft.com/library/055e1155-2d4d-4c85-b44e-d406872ba595%28Office.15%29.aspx)    
+- [在 Exchange 中控制对 EWS 的访问](how-to-control-access-to-ews-in-exchange.md)    
+- [控制对 Exchange 中的 EWS 的客户端应用程序访问](controlling-client-application-access-to-ews-in-exchange.md)   
+- [支持的令牌和声明类型](https://msdn.microsoft.com/library/9d35e4bc-7b72-49d1-b723-5464eee6be2c%28Office.15%29.aspx)
+ 

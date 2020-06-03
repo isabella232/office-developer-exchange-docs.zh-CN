@@ -1,40 +1,40 @@
 ---
-title: 删除约会，并在 Exchange 使用 EWS 取消会议
+title: 使用 Exchange 中的 EWS 删除约会和取消会议
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 42412265-3968-468a-a8c2-7e8af3c6deb9
-description: 了解如何通过使用 EWS 的 EWS 托管 API 在 Exchange 中删除约会和会议。
-ms.openlocfilehash: c71272bf753432a9f343adc917b444424fe3ba33
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: 了解如何使用 Exchange 中的 EWS 托管 API 或 EWS 删除约会和会议。
+localization_priority: Priority
+ms.openlocfilehash: 6a2fdaa357f4088da4bbd0643187d05a5bc51c0c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21354076"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528130"
 ---
-# <a name="delete-appointments-and-cancel-meetings-by-using-ews-in-exchange"></a>删除约会，并在 Exchange 使用 EWS 取消会议
+# <a name="delete-appointments-and-cancel-meetings-by-using-ews-in-exchange"></a>使用 Exchange 中的 EWS 删除约会和取消会议
 
-了解如何通过使用 EWS 的 EWS 托管 API 在 Exchange 中删除约会和会议。
+了解如何使用 Exchange 中的 EWS 托管 API 或 EWS 删除约会和会议。
   
-会议和约会的基本区别是，会议具有与会者，并且不约会。 约会和会议可以是单个实例或定期系列的一部分，但约会不包括与会者、 聊天室或资源，因为它们不需要发送一条消息。 内部 Exchange 使用相同的对象的会议和约会。 使用 EWS 托管 API[约会类](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx)或 EWS[日历项目](http://msdn.microsoft.com/library/Title Topic ID Project Name Writer Editor Publish Preview.aspx)元素以使用会议和约会。 
+会议和约会之间的基本区别在于会议具有与会者，而约会则不是。 约会和会议既可以是单个实例，也可以是定期系列的一部分，但由于约会不包括与会者、会议室或资源，因此它们不需要发送邮件。 在内部，Exchange 对会议和约会使用相同的对象。 您可以使用 EWS 托管 API[约会类](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx)或 ews [CalendarItem](https://msdn.microsoft.com/library/Title Topic ID Project Name Writer Editor Publish Preview.aspx)元素来处理会议和约会。 
   
-**表 1。EWS 托管 API 方法和删除约会和会议的 EWS 操作**
+**表1。用于删除约会和会议的 EWS 托管 API 方法和 EWS 操作**
 
 |**EWS 托管的 API 方法**|**EWS 操作**|**功能**|
 |:-----|:-----|:-----|
-|[Appointment.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) <br/> |[DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |删除约会。  <br/> |
-|[Appointment.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) <br/> |[CreateItem （日历项）](../web-service-reference/createitem-operation-calendar-item.md) <br/> |删除会议。  <br/> |
+|[约会. 删除](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) <br/> |[DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |删除约会。  <br/> |
+|[约会. 删除](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) <br/> |[CreateItem （日历项目）](../web-service-reference/createitem-operation-calendar-item.md) <br/> |删除会议。  <br/> |
    
-请注意，通过使用 EWS 删除约会时，您使用[删除项](../web-service-reference/deleteitem-operation.md)操作，但不是删除会议时，使用[CreateItem](../web-service-reference/createitem-operation-calendar-item.md)操作。 这看起来可能起来不够直观，但这是因为您需要创建一个会议与会者到邮件要发送会议取消通知的响应对象。 
+请注意，使用 EWS 删除约会时，可以使用[DeleteItem](../web-service-reference/deleteitem-operation.md)操作，但在删除会议时，将使用[CreateItem](../web-service-reference/createitem-operation-calendar-item.md)操作。 这可能看起来 counterintuitive，但这是因为您必须创建一个会议响应对象才能向与会者发送会议取消邮件。 
 
 <a name="bk_DeleteApptEWSMA"> </a>
 
 ## <a name="delete-an-appointment-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 删除约会
 
-下面的代码示例演示如何使用[Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx)方法从日历文件夹，删除约会和[ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)方法以验证通过在已删除邮件文件夹中查找的约会已被删除。 
+下面的代码示例演示如何使用[delete](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx)方法从 "日历" 文件夹中删除约会，并使用[ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)方法通过在 "已删除邮件" 文件夹中查找约会来验证是否已将其删除。 
   
-此示例假定您具有身份验证向 Exchange 服务器，并已获取名为**服务** [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象。 本地变量`appointmentId`是与现有约会关联的标识符。 
+此示例假定您已通过 Exchange 服务器的身份验证，并获取了名为 "**服务**" 的[ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象。 本地变量 `appointmentId` 是与现有约会相关联的标识符。 
   
 ```cs
 // Instantiate an appointment object by binding to it by using the ItemId.
@@ -55,21 +55,21 @@ Console.WriteLine("The appointment " + "\"" + deletedItem.Subject + "\"" + " is 
 
 ```
 
-本示例显示一种简单的方式，验证已删除约会，通过验证主题的已删除邮件文件夹中的第一项匹配的已删除的约会。 您选择要验证已删除约会而有所不同基于您的应用程序的需求。
+本示例演示如何通过验证 "已删除项目" 文件夹中第一项的主题与已删除约会的主题相匹配，来验证是否已删除约会的简单方法。 如何选择验证是否已删除约会将根据您的应用程序的需要而有所不同。
   
-您可以看到，删除约会是简单和几乎预期。 注意当您创建您的验证步骤已删除邮件文件夹中的约会项日历文件夹中具有不同 ItemId 比约会项目。 该项目是复制和删除而不是只需移至已删除邮件文件夹。 
+正如您所看到的，删除约会非常简单，并且几乎可以预期。 注释当您创建 "已删除邮件" 文件夹中的约会项目与 "日历" 文件夹中的 "约会" 项目具有不同的 ItemId 时的验证步骤。 该项目将被复制和删除，而不只是移到 "已删除邮件" 文件夹。 
   
 ## <a name="delete-an-appointment-by-using-ews"></a>使用 EWS 删除约会
 <a name="bk_DeleteApptEWSMA"> </a>
 
-请求和响应 XML 下面的示例中对应于中[删除通过使用 EWS 托管 API 约会](#bk_DeleteApptEWSMA)的 EWS 托管 API 代码进行调用。 请求和响应以及显示验证约会项目处于已删除邮件文件夹的 XML。
+以下示例中的请求和响应 XML 对应于通过[使用 EWS 托管 Api 删除约会](#bk_DeleteApptEWSMA)中的 EWS 托管 api 代码进行的调用。 同时还会显示用于验证约会项目是否位于 "已删除邮件" 文件夹中的请求和响应 XML。
   
-下面的示例演示请求 XML[删除项](../web-service-reference/deleteitem-operation.md)操作删除约会。 
+下面的示例演示用于删除约会的[DeleteItem](../web-service-reference/deleteitem-operation.md)操作的请求 XML。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
     <t:TimeZoneContext>
@@ -87,20 +87,20 @@ Console.WriteLine("The appointment " + "\"" + deletedItem.Subject + "\"" + " is 
 
 ```
 
-下面的示例显示了响应由[删除项](../web-service-reference/deleteitem-operation.md)操作返回的 XML。 为便于阅读缩短**ItemId**和**更改密钥**属性。 
+下面的示例演示由[DeleteItem](../web-service-reference/deleteitem-operation.md)操作返回的响应 XML。 为提高可读性，将缩短**ItemId**和**ChangeKey**属性。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="800" MinorBuildNumber="5" Version="V2_6" 
- xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
- xmlns="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+ xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+ xmlns="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:DeleteItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:DeleteItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:DeleteItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -112,12 +112,12 @@ Console.WriteLine("The appointment " + "\"" + deletedItem.Subject + "\"" + " is 
 
 ```
 
-下面的示例演示请求 XML [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)操作以比较项目的主题的已删除的 appointment 对象检索已删除邮件文件夹中的第一项。 
+下面的示例演示[FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)操作的请求 XML，该操作检索 "已删除邮件" 文件夹中的第一项，以便将项目的主题与已删除的约会对象的主题进行比较。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages
-" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages
+" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
     <t:TimeZoneContext>
@@ -144,23 +144,23 @@ Console.WriteLine("The appointment " + "\"" + deletedItem.Subject + "\"" + " is 
 
 ```
 
-下面的示例显示了响应[FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)操作期间验证步骤返回的 XML。 
+下面的示例演示在验证步骤中由[FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)操作返回的响应 XML。 
   
 > [!NOTE]
-> 为便于阅读缩短**ItemId**和**更改密钥**属性。 
+> 为提高可读性，将缩短**ItemId**和**ChangeKey**属性。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="800" MinorBuildNumber="5" Version="V2_6" 
- xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
- xmlns="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+ xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+ xmlns="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:FindItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:FindItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:FindItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -185,19 +185,19 @@ xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
 
 ## <a name="delete-a-meeting-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 删除会议
 
-删除会议，除了从日历文件夹中，删除约会项目时可能还希望向与会者发送会议取消。 您可以使用以下三种方法取消会议：
+当您删除会议时，除了从 "日历" 文件夹中删除约会项目之外，您可能还需要向与会者发送会议取消通知。 您可以使用以下三种方法取消会议：
   
-- [Appointment.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx)
+- [约会. 删除](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx)
     
-- [Appointment.CancelMeeting](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.cancelmeeting%28v=exchg.80%29.aspx)
+- [CancelMeeting](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.cancelmeeting%28v=exchg.80%29.aspx)
     
-- [CancelMeetingMessage](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.cancelmeetingmessage%28v=exchg.80%29.aspx)
+- [CancelMeetingMessage](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.cancelmeetingmessage%28v=exchg.80%29.aspx)
     
-您选择的方法取决于您需要在您取消消息中提供的详细程度。 [Appointment.CancelMeeting](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.cancelmeeting%28v=exchg.80%29.aspx)容易通过作为参数传递的更新的消息更新取消消息。 [CancelMeetingMessage](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.cancelmeetingmessage%28v=exchg.80%29.aspx)可以发送取消通知，以便您可以执行诸如请求回执之前修改您的消息的属性。 
+您选择的方法取决于您在取消邮件中需要提供的详细信息级别。 [CancelMeeting](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.cancelmeeting%28v=exchg.80%29.aspx)通过将更新的邮件作为参数传递，使您能够轻松地更新取消邮件。 [CancelMeetingMessage](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.cancelmeetingmessage%28v=exchg.80%29.aspx)允许您在发送取消前修改邮件的属性，以便您可以执行类似请求回执的操作。 
   
-本节中的代码示例显示删除会议并发送会议取消的不同方法。 该示例假定您具有身份验证向 Exchange 服务器，并已获取名为**服务** [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象。 本地变量`meetingId`是其中目标用户是会议组织者与现有会议相关联的标识符。 
+本节中的代码示例演示了删除会议和发送会议取消的不同方法。 此示例假定您已通过 Exchange 服务器的身份验证，并获取了名为 "**服务**" 的[ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象。 本地变量 `meetingId` 是与现有会议关联的标识符，其中目标用户是会议组织者。 
   
-下面的代码示例演示如何使用[Appointment.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx)方法删除会议。 
+下面的代码示例演示如何使用[约会](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx)delete 方法删除会议。 
   
 ```cs
 // Instantiate an appointment object for the meeting by binding to it using the ItemId.
@@ -219,7 +219,7 @@ Console.WriteLine("The meeting " + "\"" + deletedItem.Subject + "\"" + " is now 
 
 ```
 
-下面的代码示例演示如何使用[CancelMeeting](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.cancelmeeting%28v=exchg.80%29.aspx)方法删除会议。 
+下面的代码示例演示如何使用[CancelMeeting](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.cancelmeeting%28v=exchg.80%29.aspx)方法删除会议。 
   
 ```cs
 // Instantiate an appointment object by binding to it using the ItemId.
@@ -230,7 +230,7 @@ meeting.CancelMeeting("The outdoor meeting has been cancelled due to hailstorms.
 
 ```
 
-下面的代码示例演示如何使用[Appointment.CreateCancelMeetingMessage](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.createcancelmeetingmessage%28v=exchg.80%29.aspx)方法删除会议。 
+下面的代码示例演示如何使用[CreateCancelMeetingMessage](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.createcancelmeetingmessage%28v=exchg.80%29.aspx)方法删除会议。 
   
 ```cs
 // Instantiate an appointment object by binding to it using the ItemId.
@@ -247,14 +247,14 @@ cancelMessage.SendAndSaveCopy();
 ## <a name="delete-a-meeting-by-using-ews"></a>使用 EWS 删除会议
 <a name="bk_EWSDeleteApptAndMeeting"> </a>
 
-请求和响应 XML 下面的示例中对应于所做的[删除会议使用 EWS 托管 API](#bk_DeleteMtgEWSMA)中的 EWS 托管 API 代码使用[Appointment.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx)方法的调用。 
+以下示例中的请求和响应 XML 对应于通过使用 "[约会](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx)" 的[ews 托管 api，通过使用 ews 托管 api 在删除会议时删除会议](#bk_DeleteMtgEWSMA)中的 ews 托管 api 代码进行的调用。 
   
-使用[CreateItem](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) operation，将取消邮件发送给与会者并删除会议时，下面的示例演示请求 XML。 
+下面的示例演示使用[CreateItem](https://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx)操作向与会者发送取消邮件和删除会议时的请求 XML。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
     <t:TimeZoneContext>
@@ -275,22 +275,22 @@ cancelMessage.SendAndSaveCopy();
 
 ```
 
-下面的示例演示用于删除会议[CreateItem](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) operation 请求的响应中返回的 XML。 
+下面的示例演示为响应用于删除会议的[CreateItem](https://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx)操作请求而返回的 XML。 
   
 > [!NOTE]
-> 为便于阅读缩短**ItemId**和**更改密钥**属性。 
+> 为提高可读性，将缩短**ItemId**和**ChangeKey**属性。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="800" MinorBuildNumber="5" Version="V2_6" 
- xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
- xmlns="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+ xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+ xmlns="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:CreateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:CreateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:CreateItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -307,12 +307,12 @@ cancelMessage.SendAndSaveCopy();
 
 ```
 
-下面的示例演示请求 XML [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)操作以比较项目的主题的已删除的 appointment 对象检索已删除邮件文件夹中的第一项。 
+下面的示例演示[FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)操作的请求 XML，该操作检索 "已删除邮件" 文件夹中的第一项，以便将项目的主题与已删除的约会对象的主题进行比较。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
     <t:TimeZoneContext>
@@ -339,23 +339,23 @@ cancelMessage.SendAndSaveCopy();
 
 ```
 
-下面的示例演示[FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)操作期间验证步骤返回的 XML。 
+下面的示例演示在验证步骤中由[FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)操作返回的 XML。 
   
 > [!NOTE]
-> 为便于阅读缩短**Id**和**更改密钥**属性。 
+> 为了提高可读性， **Id**和**ChangeKey**属性被缩短。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="800" MinorBuildNumber="5" Version="V2_6" 
- xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
- xmlns="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+ xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+ xmlns="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:FindItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:FindItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:FindItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -379,10 +379,10 @@ xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
 ## <a name="see-also"></a>另请参阅
 
 - [Calendars and EWS in Exchange](calendars-and-ews-in-exchange.md)    
-- [使用 Exchange 2013 中的 EWS 中创建约会和会议](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)  
-- [在 Exchange 使用 EWS 获取约会和会议](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md) 
-- [在 Exchange 使用 EWS 更新约会和会议](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)  
-- [建议在 Exchange 使用 EWS 的新的会议时间](how-to-propose-a-new-meeting-time-by-using-ews-in-exchange.md) 
-- [建议在 Exchange 使用 EWS 的新的会议时间](how-to-propose-a-new-meeting-time-by-using-ews-in-exchange.md)
+- [使用 Exchange 2013 中的 EWS 创建约会和会议](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)  
+- [使用 Exchange 中的 EWS 获取约会和会议](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md) 
+- [使用 Exchange 中的 EWS 更新约会和会议](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)  
+- [使用 Exchange 中的 EWS 建议新的会议时间](how-to-propose-a-new-meeting-time-by-using-ews-in-exchange.md) 
+- [使用 Exchange 中的 EWS 建议新的会议时间](how-to-propose-a-new-meeting-time-by-using-ews-in-exchange.md)
     
 

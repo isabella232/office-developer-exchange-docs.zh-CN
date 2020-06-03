@@ -1,36 +1,36 @@
 ---
-title: 在 Exchange 使用 EWS 更新约会和会议
+title: 使用 Exchange 中的 EWS 更新约会和会议
 manager: sethgros
 ms.date: 12/9/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 13256625-083e-4a17-8fd1-2bed1f7cc14e
-description: 了解如何通过使用 EWS 的 EWS 托管 API 在 Exchange 中更新约会和会议。
-ms.openlocfilehash: a4265a14a46c146c584a3daa61cef5486958e14e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 了解如何使用 Exchange 中的 EWS 托管 API 或 EWS 更新约会和会议。
+localization_priority: Priority
+ms.openlocfilehash: 553f52e3d9c7119ee249e0e162d057e4acc993ff
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752887"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527605"
 ---
-# <a name="update-appointments-and-meetings-by-using-ews-in-exchange"></a>在 Exchange 使用 EWS 更新约会和会议
+# <a name="update-appointments-and-meetings-by-using-ews-in-exchange"></a>使用 Exchange 中的 EWS 更新约会和会议
 
-了解如何通过使用 EWS 的 EWS 托管 API 在 Exchange 中更新约会和会议。
+了解如何使用 Exchange 中的 EWS 托管 API 或 EWS 更新约会和会议。
   
-会议和约会的基本区别是，会议具有与会者，并且不约会。 约会和会议可以是单个实例或定期系列的一部分，但约会不包括与会者、 聊天室或资源，因为它们不需要发送一条消息。 内部 Exchange 使用相同的对象的会议和约会。 使用 EWS 托管 API[约会类](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx)或 EWS[日历项目](http://msdn.microsoft.com/library/b0c1fd27-b6da-46e5-88b8-88f00c71ba80%28Office.15%29.aspx)元素以使用会议和约会。 
+会议和约会之间的基本区别在于会议具有与会者，而约会则不是。 约会和会议既可以是单个实例，也可以是定期系列的一部分，但由于约会不包括与会者、会议室或资源，因此它们不需要发送邮件。 在内部，Exchange 对会议和约会使用相同的对象。 您可以使用 EWS 托管 API[约会类](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx)或 ews [CalendarItem](https://msdn.microsoft.com/library/b0c1fd27-b6da-46e5-88b8-88f00c71ba80%28Office.15%29.aspx)元素来处理会议和约会。 
   
-**表 1。EWS 托管 API 方法和更新约会和会议的 EWS 操作**
+**表1。用于更新约会和会议的 EWS 托管 API 方法和 EWS 操作**
 
 |**EWS 托管的 API 方法**|**相应的 EWS 操作**|
 |:-----|:-----|
-|[Appointment.Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.update%28v=exchg.80%29.aspx) <br/> |[UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx)<br/><br/>          [UpdateItemResponse](http://msdn.microsoft.com/library/023b79b4-c675-4669-9112-d85499ec4fc4%28Office.15%29.aspx) <br/> |
+|[约会。更新](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.update%28v=exchg.80%29.aspx) <br/> |[UpdateItem](https://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx)<br/><br/>          [UpdateItemResponse](https://msdn.microsoft.com/library/023b79b4-c675-4669-9112-d85499ec4fc4%28Office.15%29.aspx) <br/> |
    
 ## <a name="update-an-appointment-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 更新约会
 <a name="bk_UpdateApptEWSMA"> </a>
 
-下面的代码示例演示如何使用[Appointment 对象](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx)可更新与约会和[更新](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.update%28v=exchg.80%29.aspx)方法将约会保存到您的日历文件夹关联的属性。 
+下面的代码示例演示如何使用[约会对象](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx)更新与约会关联的属性和[update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.update%28v=exchg.80%29.aspx)方法将约会保存到 "日历" 文件夹中。 
   
-此示例假定您具有身份验证向 Exchange 服务器，并已获取名为**服务** [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象。 本地变量`appointmentId`是与现有约会关联的标识符。 
+此示例假定您已通过 Exchange 服务器的身份验证，并获取了名为 "**服务**" 的[ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象。 本地变量 `appointmentId` 是与现有约会相关联的标识符。 
   
 ```cs
 // Instantiate an appointment object by binding to it by using the ItemId.
@@ -56,14 +56,14 @@ Console.WriteLine("Subject for the appointment was \"" + oldSubject + "\". The n
 ## <a name="update-an-appointment-by-using-ews"></a>使用 EWS 更新约会
 <a name="bk_UpdateApptEWS"> </a>
 
-请求和响应 XML 下面的示例中对应于所做的[更新使用 EWS 托管 API 约会](#bk_UpdateApptEWSMA)中的 EWS 托管 API 代码的呼叫。
+以下示例中的请求和响应 XML 对应于在[使用 Ews 托管 Api 更新约会](#bk_UpdateApptEWSMA)的 EWS 托管 api 代码中进行的调用。
   
-下面的示例演示请求 XML，当您使用[UpdateItem](http://msdn.microsoft.com/library/34643d58-2743-45b0-a08d-bff6dc1da61d%28Office.15%29.aspx)操作更新约会。 
+下面的示例演示使用[UpdateItem](https://msdn.microsoft.com/library/34643d58-2743-45b0-a08d-bff6dc1da61d%28Office.15%29.aspx)操作更新约会时的请求 XML。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
     <t:TimeZoneContext>
@@ -91,18 +91,18 @@ Console.WriteLine("Subject for the appointment was \"" + oldSubject + "\". The n
 
 ```
 
-下面的示例演示[UpdateItem](http://msdn.microsoft.com/library/34643d58-2743-45b0-a08d-bff6dc1da61d%28Office.15%29.aspx)请求的响应中返回的 XML。 为便于阅读变短了**ItemId**和**更改密钥**属性。 
+下面的示例演示为响应[UpdateItem](https://msdn.microsoft.com/library/34643d58-2743-45b0-a08d-bff6dc1da61d%28Office.15%29.aspx)请求而返回的 XML。 为了提高可读性， **ItemId**和**ChangeKey**属性已缩短。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="815" MinorBuildNumber="6" Version="V2_7" 
- xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+ xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
  xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:UpdateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exc
+    <m:UpdateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="https://schemas.microsoft.com/exc
 hange/services/2006/types">
       <m:ResponseMessages>
         <m:UpdateItemResponseMessage ResponseClass="Success">
@@ -126,9 +126,9 @@ hange/services/2006/types">
 ## <a name="update-a-meeting-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 更新会议
 <a name="bk_UpdateMtgEWSMA"> </a>
 
-当更新一次会议，除了将修改后的约会项目保存到日历文件夹中，您通常还希望向与会者发送更新的会议请求。 下面的代码示例演示如何更新会议并发送会议请求。
+当您更新会议时，除了将已修改的约会项目保存到 "日历" 文件夹之外，您通常还需要向与会者发送更新的会议请求。 下面的代码示例演示如何更新会议和发送会议请求。
   
-此示例假定您具有身份验证向 Exchange 服务器，并已获取名为**服务** [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象。 本地变量`meetingId`是与现有约会相关联的标识符。 
+此示例假定您已通过 Exchange 服务器的身份验证，并获取了名为 "**服务**" 的[ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象。 本地变量 `meetingId` 是与现有约会相关联的标识符。 
   
 ```cs
 // Instantiate an appointment object by binding to it using the ItemId.
@@ -150,27 +150,27 @@ Console.WriteLine("Subject for the meeting was \"" + oldSubject + "\". The new s
 
 ```
 
-后[Appointment](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx)对象上设置的属性，对日历文件夹中保存会议并使用[Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.update%28v=exchg.80%29.aspx)方法来发送更新的会议请求。 
+设置[约会](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx)对象的属性后，将会议保存到 "日历" 文件夹，并使用[Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.update%28v=exchg.80%29.aspx)方法发送更新的会议请求。 
   
-调用[Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.update%28v=exchg.80%29.aspx)方法时，您可以在两个枚举值之一传递作为参数： 
+调用[Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.update%28v=exchg.80%29.aspx)方法时，可以将两个枚举值之一作为参数传递： 
   
-- [ConflictResolutionMode 枚举](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.conflictresolutionmode%28v=exchg.80%29.aspx)— 确定如何处理状态客户端和服务器之间的冲突。 
+- [ConflictResolutionMode 枚举](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.conflictresolutionmode%28v=exchg.80%29.aspx)—确定如何处理客户端和服务器之间的冲突状态。 
     
-- [SendInvitationsOrCancellationsMode 枚举](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.sendinvitationsorcancellationsmode%28v=exchg.80%29.aspx)— 影响的发送和保存会议更新请求。 
+- [SendInvitationsOrCancellationsMode 枚举](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.sendinvitationsorcancellationsmode%28v=exchg.80%29.aspx)—影响会议更新请求的发送和保存。 
     
-当[ConflictResolutionMode](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.conflictresolutionmode%28v=exchg.80%29.aspx)枚举值设置为**AlwaysOverwrite**后时，您的会议版本将始终保存到日历文件夹。
+当您将[ConflictResolutionMode](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.conflictresolutionmode%28v=exchg.80%29.aspx)枚举值设置为**AlwaysOverwrite**时，您的会议版本将始终保存到 "日历" 文件夹中。
   
 ## <a name="update-a-meeting-by-using-ews"></a>使用 EWS 更新会议
 <a name="bk_UpdateMtgEWS"> </a>
 
-请求和响应 XML 下面的示例中对应于所做的[更新使用 EWS 托管 API 会议](#bk_UpdateMtgEWSMA)中的 EWS 托管 API 代码的呼叫。 
+以下示例中的请求和响应 XML 对应于通过[使用 Ews 托管 Api 更新会议](#bk_UpdateMtgEWSMA)中的 EWS 托管 api 代码进行的调用。 
   
-下面的示例演示请求 XML，当您使用[UpdateItem](http://msdn.microsoft.com/library/34643d58-2743-45b0-a08d-bff6dc1da61d%28Office.15%29.aspx)操作更新会议。 
+下面的示例演示使用[UpdateItem](https://msdn.microsoft.com/library/34643d58-2743-45b0-a08d-bff6dc1da61d%28Office.15%29.aspx)操作更新会议时的请求 XML。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
     <t:TimeZoneContext>
@@ -241,19 +241,19 @@ Console.WriteLine("Subject for the meeting was \"" + oldSubject + "\". The new s
 </soap:Envelope>
 ```
 
- 下面的示例演示[UpdateItem](http://msdn.microsoft.com/library/34643d58-2743-45b0-a08d-bff6dc1da61d%28Office.15%29.aspx)请求的响应中返回的 XML。 为便于阅读变短了**更改密钥**和**ItemId**属性。 
+ 下面的示例演示为响应[UpdateItem](https://msdn.microsoft.com/library/34643d58-2743-45b0-a08d-bff6dc1da61d%28Office.15%29.aspx)请求而返回的 XML。 为了提高可读性， **ChangeKey**和**ItemId**属性已缩短。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="815" MinorBuildNumber="6" Version="V2_7" 
- xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
- xmlns="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+ xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+ xmlns="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:UpdateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:UpdateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:UpdateItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -275,9 +275,9 @@ Console.WriteLine("Subject for the meeting was \"" + oldSubject + "\". The new s
 ## <a name="see-also"></a>另请参阅
 
 - [Calendars and EWS in Exchange](calendars-and-ews-in-exchange.md)   
-- [使用 Exchange 2013 中的 EWS 中创建约会和会议](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)   
-- [在 Exchange 使用 EWS 获取约会和会议](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md)  
-- [删除约会，并在 Exchange 使用 EWS 取消会议](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md)  
-- [建议在 Exchange 使用 EWS 的新的会议时间](how-to-propose-a-new-meeting-time-by-using-ews-in-exchange.md)
+- [使用 Exchange 2013 中的 EWS 创建约会和会议](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)   
+- [使用 Exchange 中的 EWS 获取约会和会议](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md)  
+- [使用 Exchange 中的 EWS 删除约会和取消会议](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md)  
+- [使用 Exchange 中的 EWS 建议新的会议时间](how-to-propose-a-new-meeting-time-by-using-ews-in-exchange.md)
     
 

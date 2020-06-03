@@ -1,39 +1,39 @@
 ---
-title: 在 Exchange 使用 EWS 从电子邮件提取实体
+title: 使用 Exchange 中的 EWS 从电子邮件中提取实体
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 6396b009-5f6e-41eb-a75a-224d43e864ae
-description: 了解如何使用 EWS 托管 API 或 EWS 在 Exchange 中从电子邮件的正文中提取信息。
-ms.openlocfilehash: d3d5c4b756347a4cedede184709884d5ed8f08b4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 了解如何通过使用 Exchange 中的 EWS 托管 API 或 EWS 从电子邮件正文中提取信息。
+localization_priority: Priority
+ms.openlocfilehash: fb90eb05441667e6b327b09d568117f5040e6fd8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752775"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528109"
 ---
-# <a name="extract-an-entity-from-an-email-message-by-using-ews-in-exchange"></a>在 Exchange 使用 EWS 从电子邮件提取实体
+# <a name="extract-an-entity-from-an-email-message-by-using-ews-in-exchange"></a>使用 Exchange 中的 EWS 从电子邮件中提取实体
 
-了解如何使用 EWS 托管 API 或 EWS 在 Exchange 中从电子邮件的正文中提取信息。
+了解如何通过使用 Exchange 中的 EWS 托管 API 或 EWS 从电子邮件正文中提取信息。
   
-您可以使用 EWS 托管 API 的 EWS 访问地址、 联系人、 电子邮件地址、 会议建议、 电话号码、 任务和 Exchange 服务器中提取电子邮件中的 Url。 对新应用程序或建议跟进现有应用程序中的操作，然后可以使用此信息。 例如，如果电子邮件中标识的 contact 实体，会议建议或任务建议，您的应用程序可以建议，创建一个新项预填充的信息。 您可以通过使用提取的实体，将大写后面数据用途 — 并帮助用户将其电子邮件消息内容无缝集成到可操作的结果。
+可以使用 EWS 托管 API 或 EWS 访问 Exchange server 从电子邮件中提取的地址、联系人、电子邮件地址、会议建议、电话号码、任务和 Url。 然后，可以将此信息用于新的应用程序或建议在现有应用程序中执行后续操作。 例如，如果电子邮件中标识了联系人实体、会议建议或任务建议，则应用程序可以建议创建具有预填充信息的新项目。 通过使用提取的实体，可以实现数据的用途，并帮助用户将其电子邮件内容无缝集成到可操作的结果中。
   
-Exchange 存储中的每个项目中已经内置实体提取的地址、 联系人、 电子邮件地址、 会议建议、 电话号码、 任务和 Url。 如果您正在使用 EWS 托管 API， [Item.EntityExtractionResult](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.entityextractionresult%28v=exchg.80%29.aspx)属性会检索实体为您在[Item.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx)方法调用中。 如果您正在使用 EWS， [EntityExtractionResult](http://msdn.microsoft.com/library/643b99ab-ff90-4411-864c-1077623028d6%28Office.15%29.aspx)元素获取您具有[GetItem](http://msdn.microsoft.com/library/dcf40fa7-7796-4a5c-bf5b-7a509a18d208%28Office.15%29.aspx)操作调用中提取所有实体。 检索已提取实体的结果后，您可以引导每个实体集收集相关信息。 例如，如果已提取会议建议，可以检索建议的会议主题、 与会者列表、 开始时间和结束时间。 
+地址、联系人、电子邮件地址、会议建议、电话号码、任务和 Url 的实体提取已内置到 Exchange 存储中的每个项目中。 如果您使用的是 EWS 托管 API，则[EntityExtractionResult](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.entityextractionresult%28v=exchg.80%29.aspx)属性在项目中检索实体。[绑定](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx)方法调用。 如果使用 EWS，则[EntityExtractionResult](https://msdn.microsoft.com/library/643b99ab-ff90-4411-864c-1077623028d6%28Office.15%29.aspx)元素将在[GetItem](https://msdn.microsoft.com/library/dcf40fa7-7796-4a5c-bf5b-7a509a18d208%28Office.15%29.aspx)操作调用中获取所有提取的实体。 检索提取的实体的结果后，可以遍历每个实体集合以收集相关信息。 例如，如果已提取会议建议，则可以检索建议的会议主题、与会者列表、开始时间和结束时间。 
   
-**表 1。EWS 托管 API 属性和包含提取的实体的 EWS 元素**
+**表1。包含提取实体的 EWS 托管 API 属性和 EWS 元素**
 
 |**提取的实体**|**EWS 托管 API 属性**|**EWS 元素**|
 |:-----|:-----|:-----|
-|地址  <br/> |[EntityExtractionResult.Addresses](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.entityextractionresult.addresses%28v=exchg.80%29.aspx) <br/> |[地址](http://msdn.microsoft.com/library/0c1f3fd3-1b78-46ee-8dd4-b2aff51e767e%28Office.15%29.aspx) <br/> |
-|联系人  <br/> |[EntityExtractionResult.Contacts](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.entityextractionresult.contacts%28v=exchg.80%29.aspx) <br/> |[联系人](http://msdn.microsoft.com/library/a2c1e833-5f8c-438d-bad7-bb5dcc29ca9e%28Office.15%29.aspx) <br/> |
-|电子邮件地址  <br/> |[EntityExtractionResult.EmailAddresses](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.entityextractionresult.emailaddresses%28v=exchg.80%29.aspx) <br/> |[EmailAddresses](http://msdn.microsoft.com/library/2fc4a8e8-5377-4059-8fb4-3fdabfd30fe3%28Office.15%29.aspx) <br/> |
-|会议建议  <br/> |[EntityExtractionResult.MeetingSuggestions](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.entityextractionresult.meetingsuggestions%28v=exchg.80%29.aspx) <br/> |[MeetingSuggestions](http://msdn.microsoft.com/library/c99e9a60-9e38-425d-ad03-47c8917f41da%28Office.15%29.aspx) <br/> |
-|电话号码  <br/> |[EntityExtractionResult.PhoneNumbers](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.entityextractionresult.phonenumbers%28v=exchg.80%29.aspx) <br/> |[PhoneNumbers](http://msdn.microsoft.com/library/9ff6ae98-34a1-47f7-bde5-608251a789f7%28Office.15%29.aspx) <br/> |
-|任务建议  <br/> |[EntityExtractionResult.TaskSuggestions](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.entityextractionresult.addresses%28v=exchg.80%29.aspx) <br/> |[TaskSuggestions](http://msdn.microsoft.com/library/7d3c6314-2a5c-4fc3-b5f9-ae6d4946aac3%28Office.15%29.aspx) <br/> |
-|URL  <br/> |[EntityExtractionResult.Urls](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.entityextractionresult.addresses%28v=exchg.80%29.aspx) <br/> |[Urls](http://msdn.microsoft.com/library/c39744ea-0cee-4954-8653-8279d6b10161%28Office.15%29.aspx) <br/> |
+|地址  <br/> |[EntityExtractionResult](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.entityextractionresult.addresses%28v=exchg.80%29.aspx) <br/> |[地址](https://msdn.microsoft.com/library/0c1f3fd3-1b78-46ee-8dd4-b2aff51e767e%28Office.15%29.aspx) <br/> |
+|联系人  <br/> |[EntityExtractionResult](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.entityextractionresult.contacts%28v=exchg.80%29.aspx) <br/> |[联系人](https://msdn.microsoft.com/library/a2c1e833-5f8c-438d-bad7-bb5dcc29ca9e%28Office.15%29.aspx) <br/> |
+|电子邮件地址  <br/> |[EntityExtractionResult。 EmailAddresses](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.entityextractionresult.emailaddresses%28v=exchg.80%29.aspx) <br/> |[EmailAddresses](https://msdn.microsoft.com/library/2fc4a8e8-5377-4059-8fb4-3fdabfd30fe3%28Office.15%29.aspx) <br/> |
+|会议建议  <br/> |[EntityExtractionResult。 MeetingSuggestions](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.entityextractionresult.meetingsuggestions%28v=exchg.80%29.aspx) <br/> |[MeetingSuggestions](https://msdn.microsoft.com/library/c99e9a60-9e38-425d-ad03-47c8917f41da%28Office.15%29.aspx) <br/> |
+|电话号码  <br/> |[EntityExtractionResult。 PhoneNumbers](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.entityextractionresult.phonenumbers%28v=exchg.80%29.aspx) <br/> |[PhoneNumbers](https://msdn.microsoft.com/library/9ff6ae98-34a1-47f7-bde5-608251a789f7%28Office.15%29.aspx) <br/> |
+|任务建议  <br/> |[EntityExtractionResult。 TaskSuggestions](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.entityextractionresult.addresses%28v=exchg.80%29.aspx) <br/> |[TaskSuggestions](https://msdn.microsoft.com/library/7d3c6314-2a5c-4fc3-b5f9-ae6d4946aac3%28Office.15%29.aspx) <br/> |
+|URL  <br/> |[EntityExtractionResult](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.entityextractionresult.addresses%28v=exchg.80%29.aspx) <br/> |[Urls](https://msdn.microsoft.com/library/c39744ea-0cee-4954-8653-8279d6b10161%28Office.15%29.aspx) <br/> |
    
-由于实体提取依赖于自然语言识别，可能非确定性的实体的识别和成功有时依赖的上下文。 若要演示自然语言中识别的工作原理，本文中的示例时，可使用以下电子邮件作为输入。
+由于实体提取依赖于自然语言识别，因此实体的识别可以是非确定性的，且成功有时依赖上下文。 为了演示自然语言识别的工作方式，本文中的示例使用以下电子邮件作为输入。
   
  `From: Ronnie Sturgis`
   
@@ -57,12 +57,12 @@ Exchange 存储中的每个项目中已经内置实体提取的地址、 联系�
   
  `Ronnie`
   
-## <a name="extract-all-entities-from-an-email-by-using-the-ews-managed-api"></a>从电子邮件中提取所有实体，通过使用 EWS 托管 API
+## <a name="extract-all-entities-from-an-email-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 从电子邮件中提取所有实体
 <a name="bk_extractewsma"> </a>
 
-下面的代码示例演示如何显示提取的服务器上，通过使用[Item.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx)方法，并通过提取的实体及其属性的每个然后枚举中的所有实体。 
+下面的代码示例演示如何使用[Item](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx)方法显示服务器提取的所有实体，然后枚举每个提取的实体及其属性。 
   
-本示例假定**服务**是有效的[ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象，并且该**ItemId**是[Id](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.id%28v=exchg.80%29.aspx)的电子邮件移动或复制。 
+此示例假定**service**是有效的[ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象，并且**ItemId**是要移动或复制的电子邮件的[Id](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.id%28v=exchg.80%29.aspx) 。 
   
 ```cs
 public static void ExtractEntities(ExchangeService service, ItemId ItemId)
@@ -178,7 +178,7 @@ public static void ExtractEntities(ExchangeService service, ItemId ItemId)
 }
 ```
 
-在控制台上显示以下输出。
+控制台上显示以下输出。
   
 ```text
 The following entities have been extracted from the message:
@@ -223,23 +223,23 @@ Task string:      Also, can you forward this to Magdalena?
 URL: http://www.bestforyouorganics.com
 ```
 
-请注意预期的提取所有地址、 联系人、 电子邮件地址、 电话号码、 任务和 Url。 但是，会议建议，是更复杂的。 注意的开始时间和会议建议结束时间的是不是您可能预期。 电子邮件中的开始时间"7 在此星期五"，但在开始时间值的已提取处于 10/1/0104年 2:00:00。 这是因为的开始时间和结束时间服务器提取经过编码的日期。 有关如何解释会议建议中的**日期时间**值的详细信息，请参阅[[MS OXCEXT]: 客户端扩展消息对象协议](http://msdn.microsoft.com/en-us/library/hh968601%28v=exchg.80%29.aspx)。
+请注意，所有地址、联系人、电子邮件地址、电话号码、任务和 Url 都按预期方式提取。 但是，会议建议更复杂一些。 请注意会议建议的开始时间和结束时间不是你预期的。 电子邮件中的开始时间是 "此星期五位于 7"，但起始时间的提取值为 10/1/0104 2:00:00 PM。 这是因为服务器提取的开始时间和结束时间是经过编码的日期。 有关如何解释会议建议中的**日期时间**值的详细信息，请参阅[[MS-OXCEXT]：客户端扩展邮件对象协议](https://msdn.microsoft.com/library/hh968601%28v=exchg.80%29.aspx)。
   
-## <a name="extract-all-entities-from-an-email-by-using-ews"></a>通过使用 EWS 从电子邮件中提取所有实体
+## <a name="extract-all-entities-from-an-email-by-using-ews"></a>使用 EWS 从电子邮件中提取所有实体
 <a name="bk_extractews"> </a>
 
-下面的代码示例演示如何使用[GetItem](http://msdn.microsoft.com/library/dcf40fa7-7796-4a5c-bf5b-7a509a18d208%28Office.15%29.aspx)操作和[EntityExtractionResult](http://msdn.microsoft.com/library/643b99ab-ff90-4411-864c-1077623028d6%28Office.15%29.aspx)元素从项目中检索的已提取的实体。 
+下面的代码示例演示如何使用[GetItem](https://msdn.microsoft.com/library/dcf40fa7-7796-4a5c-bf5b-7a509a18d208%28Office.15%29.aspx)操作和[EntityExtractionResult](https://msdn.microsoft.com/library/643b99ab-ff90-4411-864c-1077623028d6%28Office.15%29.aspx)元素从项中检索提取的实体。 
   
-这也是 XML 请求发送的 EWS 托管 API 时您使用**绑定**到[提取所有实体使用 EWS 托管 API 电子邮件从](#bk_extractewsma)方法。
+这也是在使用[Ews 托管 api 从电子邮件中提取所有实体](#bk_extractewsma)时，由**Bind** EWS 托管 api 发送的 XML 请求。
   
-为便于阅读将被截[ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx)元素的值。 
+为了提高可读性， [ItemId](https://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx)元素的值被缩短。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -259,28 +259,28 @@ URL: http://www.bestforyouorganics.com
 </soap:Envelope>
 ```
 
-服务器响应包含[ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx)值**NoError**，这表明已成功检索电子邮件的[GetItemResponse](http://msdn.microsoft.com/library/8b66de1b-26a6-476c-9585-a96059125716%28Office.15%29.aspx)消息的**GetItem**请求。 响应还包括**EntityExtractionResult**为每个已提取实体。 
+服务器使用[GetItemResponse](https://msdn.microsoft.com/library/8b66de1b-26a6-476c-9585-a96059125716%28Office.15%29.aspx)邮件响应**GetItem**请求，其中包括[ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx)值**NoError**，表示电子邮件已成功检索。 该响应还包括每个提取的实体的**EntityExtractionResult** 。 
   
-为便于阅读将被截**ItemId**元素的值。 
+为了提高可读性， **ItemId**元素的值被缩短。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15"
                          MinorVersion="0"
                          MajorBuildNumber="883"
                          MinorBuildNumber="10"
                          Version="V2_10"
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:GetItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:GetItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:GetItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -366,12 +366,12 @@ URL: http://www.bestforyouorganics.com
 </s:Envelope>
 ```
 
-请注意预期的提取所有地址、 联系人、 电子邮件地址、 电话号码、 任务和 Url。 但是，会议建议，是更复杂的。 注意的开始时间和会议建议结束时间的是不是您可能预期。 电子邮件中的开始时间"7 在此星期五"，但的开始时间的已提取的值是 10/1/0104年 2:00:00。 这是因为的开始时间和结束时间服务器提取经过编码的日期。 有关解释会议建议中的**日期时间**值的详细信息，请参阅[[MS OXCEXT]: 客户端扩展消息对象协议](http://msdn.microsoft.com/en-us/library/hh968601%28v=exchg.80%29.aspx)。
+请注意，所有地址、联系人、电子邮件地址、电话号码、任务和 Url 都按预期方式提取。 但是，会议建议更复杂一些。 请注意会议建议的开始时间和结束时间不是你预期的。 电子邮件中的开始时间是 "此星期五（位于7日）"，但起始时间的提取值为 10/1/0104 2:00:00 PM。 这是因为服务器提取的开始时间和结束时间是经过编码的日期。 有关解释会议建议中的**日期时间**值的详细信息，请参阅[[MS-OXCEXT]：客户端扩展邮件对象协议](https://msdn.microsoft.com/library/hh968601%28v=exchg.80%29.aspx)。
   
 ## <a name="see-also"></a>另请参阅
 
-- [电子邮件和 Exchange 中的 EWS](email-and-ews-in-exchange.md)
-- [Item.EntityExtractionResult](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.entityextractionresult%28v=exchg.80%29.aspx)    
-- [EntityExtractionResult](http://msdn.microsoft.com/library/643b99ab-ff90-4411-864c-1077623028d6%28Office.15%29.aspx)
+- [Exchange 中的电子邮件和 EMS](email-and-ews-in-exchange.md)
+- [EntityExtractionResult](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.entityextractionresult%28v=exchg.80%29.aspx)    
+- [EntityExtractionResult](https://msdn.microsoft.com/library/643b99ab-ff90-4411-864c-1077623028d6%28Office.15%29.aspx)
     
 

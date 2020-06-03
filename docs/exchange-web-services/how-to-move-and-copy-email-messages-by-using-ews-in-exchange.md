@@ -1,41 +1,41 @@
 ---
-title: 移动和复制在 Exchange 使用 EWS 的电子邮件
+title: 使用 Exchange 中的 EWS 移动和复制电子邮件
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 4771668f-5623-4397-a5c0-b75a7ba01698
-description: 了解如何移动和复制在 Exchange 使用 EWS 托管 API 或 EWS 的电子邮件。
-ms.openlocfilehash: 44d5834176b55ad041befbad2230b8b507a12ecc
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: 了解如何在 Exchange 中使用 EWS 托管 API 或 EWS 移动和复制电子邮件。
+localization_priority: Priority
+ms.openlocfilehash: d13e84648f194dd4f431cf128396daf016addb22
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353467"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527934"
 ---
-# <a name="move-and-copy-email-messages-by-using-ews-in-exchange"></a>移动和复制在 Exchange 使用 EWS 的电子邮件
+# <a name="move-and-copy-email-messages-by-using-ews-in-exchange"></a>使用 Exchange 中的 EWS 移动和复制电子邮件
 
-了解如何移动和复制在 Exchange 使用 EWS 托管 API 或 EWS 的电子邮件。
+了解如何在 Exchange 中使用 EWS 托管 API 或 EWS 移动和复制电子邮件。
   
-您可以使用 EWS 托管 API 或 EWS 移动和复制电子邮件的邮箱中的邮件。
+您可以使用 EWS 托管 API 或 EWS 在邮箱中移动和复制电子邮件。
   
-**表 1。EWS 托管 API 方法和移动和复制电子邮件的 EWS 操作**
+**表1。用于移动和复制电子邮件的 EWS 托管 API 方法和 EWS 操作**
 
 |**任务**|**EWS 托管的 API 方法**|**EWS 操作**|
 |:-----|:-----|:-----|
-|移动电子邮件  <br/> |[EmailMessage.Move](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.emailmessage.move%28v=exchg.80%29.aspx) <br/> |[MoveItem](http://msdn.microsoft.com/library/dcf40fa7-7796-4a5c-bf5b-7a509a18d208%28Office.15%29.aspx) <br/> |
-|复制电子邮件  <br/> |[EmailMessage.Copy](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.emailmessage.copy%28v=exchg.80%29.aspx) <br/> |[CopyItem](http://msdn.microsoft.com/library/bcc68f9e-d511-4c29-bba6-ed535524624a%28Office.15%29.aspx) <br/> |
+|移动电子邮件  <br/> |[EmailMessage](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.emailmessage.move%28v=exchg.80%29.aspx) <br/> |[MoveItem](https://msdn.microsoft.com/library/dcf40fa7-7796-4a5c-bf5b-7a509a18d208%28Office.15%29.aspx) <br/> |
+|复制电子邮件  <br/> |[EmailMessage](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.emailmessage.copy%28v=exchg.80%29.aspx) <br/> |[CopyItem](https://msdn.microsoft.com/library/bcc68f9e-d511-4c29-bba6-ed535524624a%28Office.15%29.aspx) <br/> |
    
-请务必注意当移动或复制到一个不同的文件夹的电子邮件时，在新文件夹中具有唯一项目 ID，创建一个新项，而且原始邮件将被删除。 如果您正在移动或复制电子邮件中的同一邮箱的两个文件夹之间，将新项返回响应，它可以访问新项目 id。 但是，如果您正在移动或复制或邮箱和公用文件夹之间的两个邮箱的电子邮件，在响应中不返回新项目。 若要访问该方案中的移动的消息，使用 EWS 托管 API [FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)方法或 EWS [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)操作，为[PidTagSearchKey](http://msdn.microsoft.com/en-us/library/cc839918.aspx) (0x300B0102) 属性中，[创建扩展的属性定义](properties-and-extended-properties-in-ews-in-exchange.md)或创建和设置自定义扩展属性，然后搜索新文件夹中的自定义扩展属性。 
+请务必注意，当您将电子邮件移动或复制到另一个文件夹中时，将会在具有唯一项目 ID 的新文件夹中创建一个新项目，并删除原始邮件。 如果要在同一邮箱中的两个文件夹之间移动或复制电子邮件，则会在响应中返回新项目，从而使您可以访问新的项目 ID。 但是，如果要在两个邮箱之间或邮箱与公用文件夹之间移动或复制电子邮件，响应中不会返回新项目。 若要在该方案中访问移动的邮件，请使用 EWS 托管 API [FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)方法或 EWS [FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)操作，为[PidTagSearchKey](https://msdn.microsoft.com/library/cc839918.aspx) （0x300B0102）属性[创建扩展属性定义](properties-and-extended-properties-in-ews-in-exchange.md)，或者创建和设置自定义扩展属性，然后在新文件夹中搜索自定义扩展属性。 
   
-删除电子邮件是不同于项目移动到已删除邮件文件夹。 如果您使用 EWS 托管 API [Item.Delete](http://msdn.microsoft.com/en-us/library/office/dd635072%28v=exchg.80%29.aspx)方法或 EWS[删除项](../web-service-reference/deleteitem-operation.md)操作，在请求中指定的项已从原始文件夹，并副本处于已删除邮件文件夹具有新的项 id。 与移动或复制任何项，不同的新项目不会返回**Delete**方法或**删除项**操作响应中。 [删除电子邮件使用 EWS 托管 API](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_deleteewsma)涉及的步骤或[EWS](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_deleteews)从 Exchange 存储中删除任何泛型项目相同。 
+删除电子邮件与将项目移动到 "已删除邮件" 文件夹中的邮件不同。 如果使用 EWS 托管 API[项。 Delete](https://msdn.microsoft.com/library/office/dd635072%28v=exchg.80%29.aspx)方法或 EWS [DeleteItem](../web-service-reference/deleteitem-operation.md)操作，将从原始文件夹中删除在请求中指定的项目，并将副本放在 "已删除邮件" 文件夹中，同时包含一个新的项目 ID。 与移动或复制任何项不同时， **Delete**方法或**DeleteItem**操作响应中不会返回新项。 [使用 EWS 托管 API 或 EWS 删除电子邮件](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_deleteewsma)所涉及的步骤与[EWS](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_deleteews)从 Exchange 存储中删除任何通用项的步骤相同。 
   
 ## <a name="move-an-email-message-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 移动电子邮件
 <a name="bk_moveewsma"> </a>
 
-下面的代码示例演示如何[EmailMessage.Move](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.emailmessage.move%28v=exchg.80%29.aspx)方法用于移动到另一个文件夹中现有的电子邮件。 
+下面的代码示例演示如何使用[EmailMessage](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.emailmessage.move%28v=exchg.80%29.aspx)方法将现有电子邮件从一个文件夹移动到另一个文件夹。 
   
-本示例假定**服务**是有效的[ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象，并且该**ItemId**是[Id](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.item.id%28v=exchg.80%29.aspx)的电子邮件移动或复制。 
+此示例假定**service**是有效的[ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象，并且**ItemId**是要移动或复制的电子邮件的[Id](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.item.id%28v=exchg.80%29.aspx) 。 
   
 ```cs
 // As a best practice, limit the properties returned by the Bind method to only those that are required.
@@ -55,16 +55,16 @@ Console.WriteLine("An email message with the subject '" + beforeMessage.Subject 
 ## <a name="move-an-email-message-by-using-ews"></a>使用 EWS 移动电子邮件
 <a name="bk_moveews"> </a>
 
-下面的代码示例演示如何使用[MoveItem](http://msdn.microsoft.com/library/dcf40fa7-7796-4a5c-bf5b-7a509a18d208%28Office.15%29.aspx)操作将电子邮件移动到垃圾邮件文件夹。 
+下面的代码示例演示如何使用[MoveItem](https://msdn.microsoft.com/library/dcf40fa7-7796-4a5c-bf5b-7a509a18d208%28Office.15%29.aspx)操作将电子邮件移动到 "垃圾邮件" 文件夹。 
   
-这也是 XML 请求发送的 EWS 托管 API 调用[Move](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.emailmessage.move%28v=exchg.80%29.aspx)方法时。 为了方便读取，已缩短一些属性和元素的值。 
+这也是在调用[Move](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.emailmessage.move%28v=exchg.80%29.aspx)方法时由 EWS 托管 API 发送的 XML 请求。 为了方便读取，已缩短一些属性和元素的值。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -82,14 +82,14 @@ Console.WriteLine("An email message with the subject '" + beforeMessage.Subject 
 </soap:Envelope>
 ```
 
-服务器响应包含[ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx)值**NoError**，这表明已成功移动电子邮件的[MoveItemResponse](http://msdn.microsoft.com/library/77be5104-1e09-4d50-abec-4fadb3a230e5%28Office.15%29.aspx)消息的**MoveItem**请求。 响应在新文件夹中，这是重要存储，因为**ItemId**位于不同的新文件夹还包括**ItemId**的电子邮件。 
+服务器使用[MoveItemResponse](https://msdn.microsoft.com/library/77be5104-1e09-4d50-abec-4fadb3a230e5%28Office.15%29.aspx)邮件响应**MoveItem**请求，其中包括[ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx)值**NoError**，表示电子邮件已成功移动。 该响应还包括新文件夹中电子邮件的**ItemId** ，这一点对于存储很重要，因为新文件夹中的**ItemId**是不同的。 
   
 ## <a name="copy-an-email-message-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 复制电子邮件
 <a name="bk_copyewsma"> </a>
 
-下面的代码示例演示如何使用[EmailMessage.Copy](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.emailmessage.copy%28v=exchg.80%29.aspx)方法可将现有电子邮件从一个文件夹复制到另一个。 
+下面的代码示例演示如何使用[EmailMessage](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.emailmessage.copy%28v=exchg.80%29.aspx)方法将现有电子邮件从一个文件夹复制到另一个文件夹。 
   
-本示例假定**服务**是有效的[ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象，并且该**ItemId**是电子邮件将复制的[Id](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.item.id%28v=exchg.80%29.aspx) 。 为便于阅读变短了一些参数的值。 
+此示例假定**service**是有效的[ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象，并且**ItemId**是要复制的电子邮件的[Id](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.item.id%28v=exchg.80%29.aspx) 。 为了提高可读性，某些参数的值已缩短。 
   
 ```cs
 // As a best practice, limit the properties returned by the Bind method to only those that are required.
@@ -109,16 +109,16 @@ Console.WriteLine("An email message with the subject '" + originalMessage.Subjec
 ## <a name="copy-an-email-message-by-using-ews"></a>使用 EWS 复制电子邮件
 <a name="bk_copyews"> </a>
 
-下面的代码示例演示如何使用[CopyItem](http://msdn.microsoft.com/library/bcc68f9e-d511-4c29-bba6-ed535524624a%28Office.15%29.aspx)操作将通过发送电子邮件移动， [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx)和[ToFolderId 中指定的目标文件夹复制到不同的文件夹中的同一邮箱的电子邮件](http://msdn.microsoft.com/library/bd6a4265-ad40-43f6-bcc4-0bf5df4e984c%28Office.15%29.aspx)元素。 
+下面的代码示例演示如何使用[CopyItem](https://msdn.microsoft.com/library/bcc68f9e-d511-4c29-bba6-ed535524624a%28Office.15%29.aspx)操作将电子邮件复制到同一邮箱中的不同文件夹中，方法是发送要移动的电子邮件的[ItemId](https://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) ，并在[ToFolderId](https://msdn.microsoft.com/library/bd6a4265-ad40-43f6-bcc4-0bf5df4e984c%28Office.15%29.aspx)元素中指定目标文件夹。 
   
-这也是 XML 请求时调用[的复制](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.emailmessage.copy%28v=exchg.80%29.aspx)方法，EWS 托管 API 所发送的。 为了方便读取，已缩短一些属性和元素的值。 
+这也是在调用[Copy](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.emailmessage.copy%28v=exchg.80%29.aspx)方法时由 EWS 托管 API 发送的 XML 请求。 为了方便读取，已缩短一些属性和元素的值。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -136,13 +136,13 @@ Console.WriteLine("An email message with the subject '" + originalMessage.Subjec
 </soap:Envelope>
 ```
 
-服务器响应包含[ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx)值**NoError**，这表明已成功复制电子邮件的[CopyItemResponse](http://msdn.microsoft.com/library/ae402bc1-4589-45e0-a929-f368c916a7e4%28Office.15%29.aspx)消息的**CopyItem**请求。 响应在新文件夹中，这是重要存储，因为**ItemId**位于不同的新文件夹还包括**ItemId**的电子邮件。 
+服务器使用[CopyItemResponse](https://msdn.microsoft.com/library/ae402bc1-4589-45e0-a929-f368c916a7e4%28Office.15%29.aspx)邮件响应**CopyItem**请求，其中包括[ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx)值**NoError**，表示电子邮件已成功复制。 该响应还包括新文件夹中电子邮件的**ItemId** ，这一点对于存储很重要，因为新文件夹中的**ItemId**是不同的。 
   
 ## <a name="see-also"></a>另请参阅
 
 
-- [电子邮件和 Exchange 中的 EWS](email-and-ews-in-exchange.md)
+- [Exchange 中的电子邮件和 EMS](email-and-ews-in-exchange.md)
     
-- [在 Exchange 使用 EWS 发送电子邮件](how-to-send-email-messages-by-using-ews-in-exchange.md)
+- [使用 Exchange 中的 EWS 发送电子邮件](how-to-send-email-messages-by-using-ews-in-exchange.md)
     
 

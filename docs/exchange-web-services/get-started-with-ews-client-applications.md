@@ -1,61 +1,62 @@
 ---
-title: EWS 客户端应用程序入门
+title: 开始使用 EWS 客户端应用程序
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: e6fd5c23-0ba5-4a7b-bdde-4a553447069f
-description: 使用 Exchange Web Services (EWS) 在 Exchange 中创建首个应用程序。
-ms.openlocfilehash: 06606bdc2b37c8bf65b8b10dc7a516bdc911b256
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: 使用 exchange 中的 Exchange Web 服务（EWS）创建您的第一个应用程序。
+localization_priority: Priority
+ms.openlocfilehash: fd02c46777dabd04b492ba3c4420a0737640c5eb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353775"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528396"
 ---
-# <a name="get-started-with-ews-client-applications"></a>EWS 客户端应用程序入门
+# <a name="get-started-with-ews-client-applications"></a>开始使用 EWS 客户端应用程序
 
-使用 Exchange Web Services (EWS) 在 Exchange 中创建首个应用程序。
+使用 exchange 中的 Exchange Web 服务（EWS）创建您的第一个应用程序。
   
-EWS 运行状况不全面的服务应用程序可用于访问几乎所有存储的信息在 Exchange Online 中，作为 Office 365 的一部分 Exchange Online 或 Exchange 本地邮箱。 EWS 使用标准 web 协议来提供对 Exchange server; 访问[EWS 托管 API](get-started-with-ews-managed-api-client-applications.md)的类似的库换行 EWS 操作，以提供面向对象的接口。 您已运行本文中的示例后，您将具有基本了解如何使用 EWS。 
+EWS 是一项全面的服务，您的应用程序可以使用它访问 Exchange Online 中存储的几乎所有信息、作为 Office 365 一部分的 Exchange Online 或 Exchange 内部部署邮箱。 EWS 使用标准 web 协议来提供对 Exchange 服务器的访问权限;像[Ews 托管 API](get-started-with-ews-managed-api-client-applications.md)这样的库可包装 ews 操作，以提供面向对象的接口。 在运行本文中的示例后，您将有基本的了解可以使用 EWS 执行的操作。 
   
-您可以从任何操作系统或语言，调用 EWS 操作，因为 EWS 请求和响应使用 SOAP 协议。 本文中的示例使用 C# 编写的并使用.NET Framework [HttpWebRequest](https://msdn.microsoft.com/library/System.Net.HttpWebRequest.aspx)和[HttpWebResponse](https://msdn.microsoft.com/library/System.Net.HttpWebResponse.aspx)对象;但是，代码的重要部分是用于发出 EWS 请求并从服务器返回的 XML 响应的 XML。 代码示例强调的 XML 事务并不处理 XML。 
+您可以从任何操作系统或语言调用 EWS 操作，因为 EWS 请求和响应使用 SOAP 协议。 本文中的示例使用 c # 编写，并使用 .NET Framework [HttpWebRequest](https://msdn.microsoft.com/library/System.Net.HttpWebRequest.aspx)和[HttpWebResponse](https://msdn.microsoft.com/library/System.Net.HttpWebResponse.aspx)对象;但是，代码的重要部分是用于生成 EWS 请求和从服务器返回的 XML 响应的 XML。 代码示例强调 XML 事务，而不是处理 XML。 
   
-## <a name="youll-need-an-exchange-server"></a>您将需要 Exchange 服务器
+## <a name="youll-need-an-exchange-server"></a>你将需要 Exchange 服务器
 
-如果已在 Exchange 邮箱帐户，则可以跳过此步骤。 否则，必须设置为第一个 EWS 应用程序将 Exchange 邮箱的以下选项：
+如果您已经有一个 Exchange 邮箱帐户，则可以跳过此步骤。 否则，您可以使用以下选项为第一个 EWS 应用程序设置 Exchange 邮箱：
   
-- [获取 Office 365 开发人员网站](http://msdn.microsoft.com/en-us/library/office/fp179924.aspx)（推荐）。 这是您要获取 Exchange 邮箱的最快方法。
+- [获取 Office 365 开发人员网站](https://msdn.microsoft.com/library/office/fp179924.aspx)（推荐）。 这是获取 Exchange 邮箱的最快方法。
     
-- 下载 [Exchange Server](http://office.microsoft.com/en-us/exchange/microsoft-exchange-try-or-buy-exchange-we-can-help-you-decide-FX103746846.aspx?WT%2Eintid1=ODC%5FENUS%5FFX103472230%5FXT103965589)。
+- 下载 [Exchange Server](https://office.microsoft.com/exchange/microsoft-exchange-try-or-buy-exchange-we-can-help-you-decide-FX103746846.aspx?WT%2Eintid1=ODC%5FENUS%5FFX103472230%5FXT103965589)。
+
     
-验证了您可以发送和接收电子邮件从 Exchange 服务器后，即可设置开发环境。 您可以使用 Outlook Web App 验证可以发送电子邮件。
+确认您可以从 Exchange 服务器发送和接收电子邮件后，即可设置您的开发环境。 您可以使用 Outlook Web App 验证您是否可以发送电子邮件。
   
-您还需要知道的 EWS 终结点的您的服务器的 URL。 在生产应用程序，您应使用[自动发现](autodiscover-for-exchange.md)来确定 EWS URL。 本文中的示例使用 Office 365 EWS 终结点 URL， `https://outlook.office365.com/EWS/Exchange.asmx`。 准备就绪后，[下一步](#bk_next)部分的自动发现的详细信息链接。 
+您还需要知道您的服务器的 EWS 终结点的 URL。 在生产应用程序中，您可以使用[自动发现](autodiscover-for-exchange.md)来确定 EWS URL。 本文中的示例使用 Office 365 EWS 终结点 URL `https://outlook.office365.com/EWS/Exchange.asmx` 。 "[后续步骤](#bk_next)" 部分包含有关 "准备就绪时自动发现" 的详细信息的链接。 
   
-如果您要测试您的应用程序使用 Exchange 服务器的默认自签名证书，您需要创建满足组织的安全要求的[证书验证方法](how-to-validate-a-server-certificate-for-the-ews-managed-api.md)。 
+如果使用具有默认自签名证书的 Exchange 服务器测试应用程序，则需要创建符合组织的安全要求的[证书验证方法](how-to-validate-a-server-certificate-for-the-ews-managed-api.md)。 
   
 ## <a name="set-up-your-development-environment"></a>设置开发环境
 
-用于创建第一个 EWS 应用程序的工具取决于的操作系统和您使用，并且是主要的喜好与否的语言。 如果您想要随本文中的 C# 示例，您将需要： 
+用于创建第一台 EWS 应用程序的工具取决于所使用的操作系统和语言，并且主要是一项口味的考虑事项。 如果您希望按照本文中的 c # 示例操作，您将需要： 
   
-- 任何版本的 Visual Studio 的支持.NET Framework 4.0。 
+- 支持 .NET Framework 4.0 的任何版本的 Visual Studio。 
     
-- Internet 连接的开发计算机可用于联系您的 Exchange 服务器。 如果您可以使用 Outlook Web App 与 DNS 名称，而不是 IP 地址连接到您的 Exchange 服务器，您的设置。
+- 您的开发计算机可用于联系您的 Exchange 服务器的 Internet 连接。 如果您可以使用具有 DNS 名称的 Outlook Web App （而不是 IP 地址）连接到您的 Exchange 服务器，则会进行设置。
     
-## <a name="create-your-first-ews-application"></a>创建第一个 EWS 应用程序
+## <a name="create-your-first-ews-application"></a>创建您的第一个 EWS 应用程序
 
-您将创建的 EWS 应用程序显示两个使用 EWS 的典型方案：
+您将创建的 EWS 应用程序显示了使用 EWS 的两种典型方案：
   
-1. 获取从 Exchange 邮箱的信息，以及向用户显示该信息。
+1. 从 Exchange 邮箱中获取信息，并向用户显示该信息。
     
-2. 执行操作，如发送电子邮件，并检查以查看是否操作成功响应。
+2. 执行操作（如发送电子邮件），并检查响应以查看操作是否成功。
     
-我们开始吧。
+让我们开始吧。
   
 ### <a name="set-up-the-solution"></a>设置解决方案
 
-首先，创建一个新的控制台应用程序解决方案，它使用 Visual Studio。 解决方案准备就绪后，创建一个名 Tracing.cs 新对象。 使用此对象将信息写入控制台和日志文件，以便您可以在运行代码后查看结果。 将以下代码粘贴到 Tracing.cs 文件。
+首先，使用 Visual Studio 创建一个新的控制台应用程序解决方案。 在解决方案准备就绪后，创建一个名为 Tracing.cs 的新对象。 使用此对象可将信息写入控制台和日志文件中，以便您可以在运行代码后查看结果。 将以下代码粘贴到 Tracing.cs 文件中。
   
 ```cs
 using System;
@@ -94,17 +95,17 @@ namespace Microsoft.Exchange.Samples.EWS
 }
 ```
 
-接下来，打开 Program.cs 文件中。 该示例的代码的其余部分将置于此文件。
+接下来，打开 Program.cs 文件。 将示例代码的其余部分放在此文件中。
   
-首先，在命令行管理程序的设置。 将该程序： 
+首先，设置程序的命令行管理程序。 程序将： 
   
-1. 创建日志文件，以便可以写入磁盘的更高版本的研究请求和响应。
+1. 创建一个日志文件，以便可以将该请求和响应写入磁盘，以供后续研究使用。
     
-2. 获取电子邮件地址和密码，您可以访问的帐户。
+2. 获取你将访问的帐户的电子邮件地址和密码。
     
 3. 调用示例方法。
     
-替换`Main`替换为以下代码 Program.cs 中的方法。 
+`Main`将 Program.cs 中的方法替换为以下代码。 
   
 ```cs
     static void Main(string[] args)
@@ -146,7 +147,7 @@ namespace Microsoft.Exchange.Samples.EWS
     }
 ```
 
-您需要执行的最后一项是添加`GetPasswordFromConsole`静态方法。 此方法返回一个包含在控制台键入密码[SecureString](https://msdn.microsoft.com/library/System.Security.SecureString.aspx)对象。 
+您需要做的最后一件事是添加 `GetPasswordFromConsole` 静态方法。 此方法返回一个[SecureString](https://msdn.microsoft.com/library/System.Security.SecureString.aspx)对象，该对象包含在控制台中键入的密码。 
   
 ```cs
     private static SecureString GetPasswordFromConsole()
@@ -190,30 +191,30 @@ namespace Microsoft.Exchange.Samples.EWS
     }
 ```
 
-### <a name="get-the-number-of-new-messages-in-an-inbox"></a>收件箱中获取新消息的数目
+### <a name="get-the-number-of-new-messages-in-an-inbox"></a>获取收件箱中的新邮件数
 
-EWS 应用程序中的常见操作是以获取有关电子邮件、 约会、 会议和将它们存储的文件夹的信息。 此示例获取帐户的收件箱中的消息数，并显示消息的总数和未读邮件数。 演示 EWS 应用程序的以下常见操作：
+EWS 应用程序中的常见操作是获取有关电子邮件、约会、会议和存储它们的文件夹的信息。 本示例获取帐户收件箱中的邮件数，并显示邮件总数和未读邮件数。 它演示了对 EWS 应用程序的以下常见操作：
   
-- 到 Exchange 服务器发出 EWS 请求。
+- 向 Exchange 服务器发出 EWS 请求。
     
-- 分析返回的 XML 响应的请求的信息。
+- 分析所请求的信息的返回 XML 响应。
     
 - 处理常见异常和错误消息。
     
-添加以下代码为`ShowNumberOfMessagesInInbox`存根后的 main 方法的方法。 当您运行应用程序时，它将打印该帐户的收件箱中的消息的数目和收件箱中的未读邮件数。 运行应用程序后，您可以打开 GetStartedWithEWS.log 文件以查看 XML 请求发送到 Exchange 服务器和服务器返回的响应。 
+将下面的代码添加到在 `ShowNumberOfMessagesInInbox` main 方法后无存根的方法中。 运行应用程序时，它将打印帐户收件箱中的邮件数以及收件箱中未读邮件的数量。 运行应用程序后，可以打开 GetStartedWithEWS 文件，以查看发送到 Exchange 服务器的 XML 请求以及服务器返回的响应。 
   
 ```cs
       /// This is the XML request that is sent to the Exchange server.
       var getFolderSOAPRequest =
 "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n" +
-"<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\"\n" +
-"   xmlns:t=\"http://schemas.microsoft.com/exchange/services/2006/types\">\n" +
+"<soap:Envelope xmlns:soap=\"https://schemas.xmlsoap.org/soap/envelope/\"\n" +
+"   xmlns:t=\"https://schemas.microsoft.com/exchange/services/2006/types\">\n" +
 "<soap:Header>\n" +
 "    <t:RequestServerVersion Version=\"Exchange2007_SP1\" />\n" +
 "  </soap:Header>\n" +
 "  <soap:Body>\n" +
-"    <GetFolder xmlns=\"http://schemas.microsoft.com/exchange/services/2006/messages\"\n" +
-"               xmlns:t=\"http://schemas.microsoft.com/exchange/services/2006/types\">\n" +
+"    <GetFolder xmlns=\"https://schemas.microsoft.com/exchange/services/2006/messages\"\n" +
+"               xmlns:t=\"https://schemas.microsoft.com/exchange/services/2006/types\">\n" +
 "      <FolderShape>\n" +
 "        <t:BaseShape>Default</t:BaseShape>\n" +
 "      </FolderShape>\n" +
@@ -254,7 +255,7 @@ EWS 应用程序中的常见操作是以获取有关电子邮件、 约会、 �
             Tracing.WriteLine(stringBuilder.ToString());
             // Check the response for error codes. If there is an error, throw an application exception.
             IEnumerable<XElement> errorCodes = from errorCode in responseEnvelope.Descendants
-                                               ("{http://schemas.microsoft.com/exchange/services/2006/messages}ResponseCode")
+                                               ("{https://schemas.microsoft.com/exchange/services/2006/messages}ResponseCode")
                                                select errorCode;
             foreach (var errorCode in errorCodes)
             {
@@ -274,26 +275,26 @@ EWS 应用程序中的常见操作是以获取有关电子邮件、 约会、 �
             // Process the response.
             IEnumerable<XElement> folders = from folderElement in
                                               responseEnvelope.Descendants
-                                              ("{http://schemas.microsoft.com/exchange/services/2006/messages}Folders")
+                                              ("{https://schemas.microsoft.com/exchange/services/2006/messages}Folders")
                                             select folderElement;
             foreach (var folder in folders)
             {
               Tracing.Write("Folder name:     ");
               var folderName = from folderElement in
                                  folder.Descendants
-                                 ("{http://schemas.microsoft.com/exchange/services/2006/types}DisplayName")
+                                 ("{https://schemas.microsoft.com/exchange/services/2006/types}DisplayName")
                                select folderElement.Value;
               Tracing.WriteLine(folderName.ElementAt(0));
               Tracing.Write("Total messages:  ");
               var totalCount = from folderElement in
                                  folder.Descendants
-                                   ("{http://schemas.microsoft.com/exchange/services/2006/types}TotalCount")
+                                   ("{https://schemas.microsoft.com/exchange/services/2006/types}TotalCount")
                                select folderElement.Value;
               Tracing.WriteLine(totalCount.ElementAt(0));
               Tracing.Write("Unread messages: ");
               var unreadCount = from folderElement in
                                  folder.Descendants
-                                   ("{http://schemas.microsoft.com/exchange/services/2006/types}UnreadCount")
+                                   ("{https://schemas.microsoft.com/exchange/services/2006/types}UnreadCount")
                                select folderElement.Value;
               Tracing.WriteLine(unreadCount.ElementAt(0));
             }
@@ -315,23 +316,23 @@ EWS 应用程序中的常见操作是以获取有关电子邮件、 约会、 �
 
 ### <a name="send-an-email-message"></a>发送电子邮件
 
-EWS 应用程序的另一个常见操作是发送电子邮件或会议请求。 此示例创建并发送电子邮件使用之前已输入的用户凭据。 演示这些常见的 EWS 应用程序任务：
+EWS 应用程序的另一个常见操作是发送电子邮件或会议请求。 本示例使用之前输入的用户凭据创建并发送一封电子邮件。 它演示了这些常见的 EWS 应用程序任务：
   
 - 创建和发送电子邮件。
     
-- 分析返回的 XML 响应，以确定是否已正确发送电子邮件。
+- 分析返回的 XML 响应以确定是否已正确发送电子邮件。
     
 - 处理常见异常和错误消息。
     
-将以下代码添加到已后的 main 方法存根 SendTestEmail 方法。 运行应用程序后，您可以打开 GetStartedWithEWS.log 文件以查看 XML 请求发送到 Exchange 服务器和服务器返回的响应。
+将以下代码添加到 SendTestEmail 方法，该方法在 main 方法之后无存根。 运行应用程序后，可以打开 GetStartedWithEWS 文件，以查看发送到 Exchange 服务器的 XML 请求以及服务器返回的响应。
   
 ```cs
 var createItemSOAPRequest =
       "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n" +
       "<soap:Envelope xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" \n" +
-      "               xmlns:m=\"http://schemas.microsoft.com/exchange/services/2006/messages\" \n" +
-      "               xmlns:t=\"http://schemas.microsoft.com/exchange/services/2006/types\" \n" +
-      "               xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n" +
+      "               xmlns:m=\"https://schemas.microsoft.com/exchange/services/2006/messages\" \n" +
+      "               xmlns:t=\"https://schemas.microsoft.com/exchange/services/2006/types\" \n" +
+      "               xmlns:soap=\"https://schemas.xmlsoap.org/soap/envelope/\">\n" +
       "  <soap:Header>\n" +
       "    <t:RequestServerVersion Version=\"Exchange2007_SP1\" />\n" +
       "  </soap:Header>\n" +
@@ -385,7 +386,7 @@ var createItemSOAPRequest =
             Tracing.WriteLine(stringBuilder.ToString());
             // Check the response for error codes. If there is an error, throw an application exception.
             IEnumerable<XElement> errorCodes = from errorCode in responseEnvelope.Descendants
-                                               ("{http://schemas.microsoft.com/exchange/services/2006/messages}ResponseCode")
+                                               ("{https://schemas.microsoft.com/exchange/services/2006/messages}ResponseCode")
                                                select errorCode;
             foreach (var errorCode in errorCodes)
             {
@@ -422,24 +423,23 @@ var createItemSOAPRequest =
 
 ## <a name="next-steps"></a>后续步骤
 
-既然您编写了第一个 EWS 应用程序，您便可以发现使用 EWS 的其他方法。 下面是您入门的一些方法：
+现在，您已编写了第一个 EWS 应用程序，您就可以发现其他使用 EWS 的方法了。 下面是一些可让你入门的建议：
   
-- 应用程序中实现[自动发现](autodiscover-for-exchange.md)，以便您的应用程序将连接到正确的 Exchange server 基于用户的电子邮件地址。 另请参阅[Exchange 2013： 获取使用自动发现的用户设置](http://code.msdn.microsoft.com/Exchange-2013-Get-user-7e22c86e)示例。 
+- 在应用程序中实现[自动发现](autodiscover-for-exchange.md)，以便应用程序将根据用户的电子邮件地址连接到正确的 Exchange 服务器。 另请参阅[Exchange 2013：使用自动发现示例获取用户设置](https://code.msdn.microsoft.com/Exchange-2013-Get-user-7e22c86e)。 
     
-- 查看有关 EWS [EWS 引用](http://msdn.microsoft.com/library/2a873474-1bb2-4cb1-a556-40e8c4159f4a%28Office.15%29.aspx)。 
+- 有关 EWS 的详细信息，请参阅[ews 参考](https://msdn.microsoft.com/library/2a873474-1bb2-4cb1-a556-40e8c4159f4a%28Office.15%29.aspx)。 
     
-- 请参阅[EWS 操作](http://msdn.microsoft.com/library/cf6fd871-9a65-4f34-8557-c8c71dd7ce09%28Office.15%29.aspx)有关的可用操作的信息。 
+- 有关可用操作的信息，请参阅[EWS 操作](https://msdn.microsoft.com/library/cf6fd871-9a65-4f34-8557-c8c71dd7ce09%28Office.15%29.aspx)。 
     
-- 使用[EWS 编辑器](http://ewseditor.codeplex.com/)查看发送到 / 发送服务器的 SOAP 通信。 
+- 使用[EWS 编辑器](http://ewseditor.codeplex.com/)查看发送到服务器和从服务器发送的 SOAP 流量。 
     
-如果您遇到的任何问题与您的应用程序，[请尝试发布问题或在论坛中的注释](http://social.technet.microsoft.com/Forums/exchange/en-US/home?forum=exchangesvrdevelopment)（以及别忘了，请阅读第一个文章）。 
+如果你的应用程序遇到任何问题，请[尝试在论坛中发布问题或评论](https://social.technet.microsoft.com/Forums/exchange/home?forum=exchangesvrdevelopment)（不要忘记阅读第一篇文章）。 
   
 ## <a name="see-also"></a>另请参阅
 
-- [Start using web services in Exchange](start-using-web-services-in-exchange.md)   
+- [开始使用 Exchange 中的 Web 服务](start-using-web-services-in-exchange.md)   
 - [在 Exchange 中浏览 EWS 托管 API、EWS 和 Web 服务](explore-the-ews-managed-api-ews-and-web-services-in-exchange.md) 
 - [Exchange 的 EWS 客户端设计概述](ews-client-design-overview-for-exchange.md)   
 - [开发 Exchange Web 服务客户端](develop-web-service-clients-for-exchange.md)  
 - [EWS 托管 API 客户端应用程序入门](get-started-with-ews-managed-api-client-applications.md)
     
-
