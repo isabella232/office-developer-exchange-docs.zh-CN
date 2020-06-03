@@ -16,23 +16,23 @@ ms.openlocfilehash: 064e1ace2c2f51783431ce42670b2a4fd8146b54
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44451465"
 ---
-# <a name="deleteuserconfiguration-operation"></a><span data-ttu-id="534f4-103">DeleteUserConfiguration 操作</span><span class="sxs-lookup"><span data-stu-id="534f4-103">DeleteUserConfiguration operation</span></span>
+# <a name="deleteuserconfiguration-operation"></a><span data-ttu-id="ba031-103">DeleteUserConfiguration 操作</span><span class="sxs-lookup"><span data-stu-id="ba031-103">DeleteUserConfiguration operation</span></span>
 
-<span data-ttu-id="534f4-104">**DeleteUserConfiguration**操作删除文件夹上的用户配置对象。</span><span class="sxs-lookup"><span data-stu-id="534f4-104">The **DeleteUserConfiguration** operation deletes a user configuration object on a folder.</span></span> 
+<span data-ttu-id="ba031-104">**DeleteUserConfiguration**操作删除文件夹上的用户配置对象。</span><span class="sxs-lookup"><span data-stu-id="ba031-104">The **DeleteUserConfiguration** operation deletes a user configuration object on a folder.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="534f4-105">**DeleteUserConfiguration**操作将触发事件通知系统的移动事件。</span><span class="sxs-lookup"><span data-stu-id="534f4-105">The **DeleteUserConfiguration** operation will trigger a move event for the event notification system.</span></span> <span data-ttu-id="534f4-106">用户配置对象将被移动到转储程序。</span><span class="sxs-lookup"><span data-stu-id="534f4-106">The user configuration object will be moved to the dumpster.</span></span> 
+> <span data-ttu-id="ba031-105">**DeleteUserConfiguration**操作将触发事件通知系统的移动事件。</span><span class="sxs-lookup"><span data-stu-id="ba031-105">The **DeleteUserConfiguration** operation will trigger a move event for the event notification system.</span></span> <span data-ttu-id="ba031-106">用户配置对象将被移动到转储程序。</span><span class="sxs-lookup"><span data-stu-id="ba031-106">The user configuration object will be moved to the dumpster.</span></span> 
   
-## <a name="deleteuserconfiguration-request-example"></a><span data-ttu-id="534f4-107">DeleteUserConfiguration 请求示例</span><span class="sxs-lookup"><span data-stu-id="534f4-107">DeleteUserConfiguration request example</span></span>
+## <a name="deleteuserconfiguration-request-example"></a><span data-ttu-id="ba031-107">DeleteUserConfiguration 请求示例</span><span class="sxs-lookup"><span data-stu-id="ba031-107">DeleteUserConfiguration request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="534f4-108">说明</span><span class="sxs-lookup"><span data-stu-id="534f4-108">Description</span></span>
+### <a name="description"></a><span data-ttu-id="ba031-108">Description</span><span class="sxs-lookup"><span data-stu-id="ba031-108">Description</span></span>
 
-<span data-ttu-id="534f4-109">以下示例的**DeleteUserConfiguration**请求显示如何在 "草稿" 文件夹中形成删除用户配置对象的请求。</span><span class="sxs-lookup"><span data-stu-id="534f4-109">The following example of a **DeleteUserConfiguration** request shows how to form a request to delete a user configuration object on the Drafts folder.</span></span> 
+<span data-ttu-id="ba031-109">以下示例的**DeleteUserConfiguration**请求显示如何在 "草稿" 文件夹中形成删除用户配置对象的请求。</span><span class="sxs-lookup"><span data-stu-id="ba031-109">The following example of a **DeleteUserConfiguration** request shows how to form a request to delete a user configuration object on the Drafts folder.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="534f4-110">代码</span><span class="sxs-lookup"><span data-stu-id="534f4-110">Code</span></span>
+### <a name="code"></a><span data-ttu-id="ba031-110">代码</span><span class="sxs-lookup"><span data-stu-id="ba031-110">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -54,13 +54,13 @@ ms.locfileid: "44451465"
 </soap:Envelope>
 ```
 
-## <a name="deleteuserconfiguration-response-example"></a><span data-ttu-id="534f4-111">DeleteUserConfiguration 响应示例</span><span class="sxs-lookup"><span data-stu-id="534f4-111">DeleteUserConfiguration response example</span></span>
+## <a name="deleteuserconfiguration-response-example"></a><span data-ttu-id="ba031-111">DeleteUserConfiguration 响应示例</span><span class="sxs-lookup"><span data-stu-id="ba031-111">DeleteUserConfiguration response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="534f4-112">说明</span><span class="sxs-lookup"><span data-stu-id="534f4-112">Description</span></span>
+### <a name="description"></a><span data-ttu-id="ba031-112">Description</span><span class="sxs-lookup"><span data-stu-id="ba031-112">Description</span></span>
 
-<span data-ttu-id="534f4-113">下面的示例演示对**DeleteUserConfiguration**请求的成功响应。</span><span class="sxs-lookup"><span data-stu-id="534f4-113">The following example shows a successful response to the **DeleteUserConfiguration** request.</span></span> 
+<span data-ttu-id="ba031-113">下面的示例演示对**DeleteUserConfiguration**请求的成功响应。</span><span class="sxs-lookup"><span data-stu-id="ba031-113">The following example shows a successful response to the **DeleteUserConfiguration** request.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="534f4-114">代码</span><span class="sxs-lookup"><span data-stu-id="534f4-114">Code</span></span>
+### <a name="code"></a><span data-ttu-id="ba031-114">代码</span><span class="sxs-lookup"><span data-stu-id="ba031-114">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -90,8 +90,8 @@ ms.locfileid: "44451465"
 </s:Envelope>
 ```
 
-## <a name="see-also"></a><span data-ttu-id="534f4-115">另请参阅</span><span class="sxs-lookup"><span data-stu-id="534f4-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ba031-115">另请参阅</span><span class="sxs-lookup"><span data-stu-id="ba031-115">See also</span></span>
 
-- [<span data-ttu-id="534f4-116">Exchange 中的 EWS 操作</span><span class="sxs-lookup"><span data-stu-id="534f4-116">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md) 
-- [<span data-ttu-id="534f4-117">Exchange 中的 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="534f4-117">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="ba031-116">Exchange 中的 EWS 操作</span><span class="sxs-lookup"><span data-stu-id="ba031-116">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md) 
+- [<span data-ttu-id="ba031-117">Exchange 中的 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="ba031-117">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

@@ -12,12 +12,12 @@ ms.openlocfilehash: 2535ef43228c8ecca958da88178cfb2cb6584ad3
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44452781"
 ---
-# <a name="getnonindexableitemstatisticsresponse"></a><span data-ttu-id="9d671-103">GetNonIndexableItemStatisticsResponse</span><span class="sxs-lookup"><span data-stu-id="9d671-103">GetNonIndexableItemStatisticsResponse</span></span>
+# <a name="getnonindexableitemstatisticsresponse"></a><span data-ttu-id="d5286-103">GetNonIndexableItemStatisticsResponse</span><span class="sxs-lookup"><span data-stu-id="d5286-103">GetNonIndexableItemStatisticsResponse</span></span>
 
-<span data-ttu-id="9d671-104">**GetNonIndexableItemStatisticsResponse**元素指定对**GetNonIndexableItemStatistics**请求的响应。</span><span class="sxs-lookup"><span data-stu-id="9d671-104">The **GetNonIndexableItemStatisticsResponse** element specifies the response to a **GetNonIndexableItemStatistics** request.</span></span> 
+<span data-ttu-id="d5286-104">**GetNonIndexableItemStatisticsResponse**元素指定对**GetNonIndexableItemStatistics**请求的响应。</span><span class="sxs-lookup"><span data-stu-id="d5286-104">The **GetNonIndexableItemStatisticsResponse** element specifies the response to a **GetNonIndexableItemStatistics** request.</span></span> 
   
 ```XML
 <GetNonIndexableItemStatisticsResponse>
@@ -29,36 +29,36 @@ ms.locfileid: "44452781"
 </GetNonIndexableItemStatisticsResponse>
 ```
 
- <span data-ttu-id="9d671-105">**GetNonIndexableItemStatisticsResponseMessageType**</span><span class="sxs-lookup"><span data-stu-id="9d671-105">**GetNonIndexableItemStatisticsResponseMessageType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="9d671-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="9d671-106">Attributes and elements</span></span>
+ <span data-ttu-id="d5286-105">**GetNonIndexableItemStatisticsResponseMessageType**</span><span class="sxs-lookup"><span data-stu-id="d5286-105">**GetNonIndexableItemStatisticsResponseMessageType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="d5286-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="d5286-106">Attributes and elements</span></span>
 
-<span data-ttu-id="9d671-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="9d671-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="d5286-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="d5286-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="9d671-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="9d671-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="d5286-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="d5286-108">Attributes</span></span>
 
-<span data-ttu-id="9d671-109">无。</span><span class="sxs-lookup"><span data-stu-id="9d671-109">None.</span></span>
+<span data-ttu-id="d5286-109">无。</span><span class="sxs-lookup"><span data-stu-id="d5286-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="9d671-110">子元素</span><span class="sxs-lookup"><span data-stu-id="9d671-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="d5286-110">子元素</span><span class="sxs-lookup"><span data-stu-id="d5286-110">Child elements</span></span>
 
-<span data-ttu-id="9d671-111">[MessageText](messagetext.md)  | [ResponseCode](responsecode.md)  | [DescriptiveLinkKey](descriptivelinkkey.md)  | [MessageXml](messagexml.md)  | [GetNonIndexableItemStatistics](getnonindexableitemstatistics.md)</span><span class="sxs-lookup"><span data-stu-id="9d671-111">[MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md) | [GetNonIndexableItemStatistics](getnonindexableitemstatistics.md)</span></span>
+<span data-ttu-id="d5286-111">[MessageText](messagetext.md)  | [ResponseCode](responsecode.md)  | [DescriptiveLinkKey](descriptivelinkkey.md)  | [MessageXml](messagexml.md)  | [GetNonIndexableItemStatistics](getnonindexableitemstatistics.md)</span><span class="sxs-lookup"><span data-stu-id="d5286-111">[MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md) | [GetNonIndexableItemStatistics](getnonindexableitemstatistics.md)</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="9d671-112">父元素</span><span class="sxs-lookup"><span data-stu-id="9d671-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="d5286-112">父元素</span><span class="sxs-lookup"><span data-stu-id="d5286-112">Parent elements</span></span>
 
-[<span data-ttu-id="9d671-113">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="9d671-113">ResponseMessages</span></span>](responsemessages.md)
+[<span data-ttu-id="d5286-113">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="d5286-113">ResponseMessages</span></span>](responsemessages.md)
   
-## <a name="remarks"></a><span data-ttu-id="9d671-114">备注</span><span class="sxs-lookup"><span data-stu-id="9d671-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d5286-114">备注</span><span class="sxs-lookup"><span data-stu-id="d5286-114">Remarks</span></span>
 
-<span data-ttu-id="9d671-115">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="9d671-115">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="d5286-115">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="d5286-115">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="9d671-116">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="9d671-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="d5286-116">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="d5286-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="9d671-117">元素信息</span><span class="sxs-lookup"><span data-stu-id="9d671-117">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="d5286-117">元素信息</span><span class="sxs-lookup"><span data-stu-id="d5286-117">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="9d671-118">命名空间</span><span class="sxs-lookup"><span data-stu-id="9d671-118">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="9d671-119">架构名称</span><span class="sxs-lookup"><span data-stu-id="9d671-119">Schema name</span></span>  <br/> |<span data-ttu-id="9d671-120">消息架构</span><span class="sxs-lookup"><span data-stu-id="9d671-120">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="9d671-121">验证文件</span><span class="sxs-lookup"><span data-stu-id="9d671-121">Validation file</span></span>  <br/> |<span data-ttu-id="9d671-122">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="9d671-122">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="9d671-123">可以为空</span><span class="sxs-lookup"><span data-stu-id="9d671-123">Can be empty</span></span>  <br/> |<span data-ttu-id="9d671-124">false</span><span class="sxs-lookup"><span data-stu-id="9d671-124">false</span></span>  <br/> |
+|<span data-ttu-id="d5286-118">命名空间</span><span class="sxs-lookup"><span data-stu-id="d5286-118">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="d5286-119">架构名称</span><span class="sxs-lookup"><span data-stu-id="d5286-119">Schema name</span></span>  <br/> |<span data-ttu-id="d5286-120">消息架构</span><span class="sxs-lookup"><span data-stu-id="d5286-120">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="d5286-121">验证文件</span><span class="sxs-lookup"><span data-stu-id="d5286-121">Validation file</span></span>  <br/> |<span data-ttu-id="d5286-122">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="d5286-122">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="d5286-123">可以为空</span><span class="sxs-lookup"><span data-stu-id="d5286-123">Can be empty</span></span>  <br/> |<span data-ttu-id="d5286-124">false</span><span class="sxs-lookup"><span data-stu-id="d5286-124">false</span></span>  <br/> |
    
 

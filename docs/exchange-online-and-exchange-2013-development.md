@@ -10,11 +10,11 @@ ms.openlocfilehash: 16f6cc4a317b2eeb661c0bbd81192aac292ba377
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456232"
 ---
-# <a name="exchange-online-and-exchange-2013-development"></a><span data-ttu-id="20121-104">Exchange Online 和 Exchange 2013 开发</span><span class="sxs-lookup"><span data-stu-id="20121-104">Exchange Online and Exchange 2013 development</span></span>
+# <a name="exchange-online-and-exchange-2013-development"></a><span data-ttu-id="2011f-104">Exchange Online 和 Exchange 2013 开发</span><span class="sxs-lookup"><span data-stu-id="2011f-104">Exchange Online and Exchange 2013 development</span></span>
 
 > [!NOTE] 
-> <span data-ttu-id="20121-105">此页面已停用。</span><span class="sxs-lookup"><span data-stu-id="20121-105">This page has been retired.</span></span> <span data-ttu-id="20121-106">有关最新更新，请转到 [Exchange Online 和 Exchange 开发](exchange-server-development.md)。</span><span class="sxs-lookup"><span data-stu-id="20121-106">For the latest updates, go to [Exchange Online and Exchange development](exchange-server-development.md).</span></span>
+> <span data-ttu-id="2011f-105">此页面已停用。</span><span class="sxs-lookup"><span data-stu-id="2011f-105">This page has been retired.</span></span> <span data-ttu-id="2011f-106">有关最新更新，请转到 [Exchange Online 和 Exchange 开发](exchange-server-development.md)。</span><span class="sxs-lookup"><span data-stu-id="2011f-106">For the latest updates, go to [Exchange Online and Exchange development](exchange-server-development.md).</span></span>
 

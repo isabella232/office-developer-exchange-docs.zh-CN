@@ -12,12 +12,12 @@ ms.openlocfilehash: 8e31e2688b9313d7db6c73e2d1f92e8d7cf4f246
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455609"
 ---
-# <a name="getpersona"></a><span data-ttu-id="5c0ec-103">GetPersona</span><span class="sxs-lookup"><span data-stu-id="5c0ec-103">GetPersona</span></span>
+# <a name="getpersona"></a><span data-ttu-id="6b3dd-103">GetPersona</span><span class="sxs-lookup"><span data-stu-id="6b3dd-103">GetPersona</span></span>
 
-<span data-ttu-id="5c0ec-104">**GetPersona**元素包含获取角色的请求。</span><span class="sxs-lookup"><span data-stu-id="5c0ec-104">The **GetPersona** element contains the request to get a persona.</span></span> 
+<span data-ttu-id="6b3dd-104">**GetPersona**元素包含获取角色的请求。</span><span class="sxs-lookup"><span data-stu-id="6b3dd-104">The **GetPersona** element contains the request to get a persona.</span></span> 
   
 ```XML
 <GetPersona>
@@ -25,36 +25,36 @@ ms.locfileid: "44455609"
 </GetPersona>
 ```
 
- <span data-ttu-id="5c0ec-105">**GetPersonaType**</span><span class="sxs-lookup"><span data-stu-id="5c0ec-105">**GetPersonaType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="5c0ec-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="5c0ec-106">Attributes and elements</span></span>
+ <span data-ttu-id="6b3dd-105">**GetPersonaType**</span><span class="sxs-lookup"><span data-stu-id="6b3dd-105">**GetPersonaType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="6b3dd-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="6b3dd-106">Attributes and elements</span></span>
 
-<span data-ttu-id="5c0ec-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="5c0ec-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="6b3dd-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="6b3dd-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="5c0ec-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="5c0ec-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="6b3dd-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="6b3dd-108">Attributes</span></span>
 
-<span data-ttu-id="5c0ec-109">无。</span><span class="sxs-lookup"><span data-stu-id="5c0ec-109">None.</span></span>
+<span data-ttu-id="6b3dd-109">无。</span><span class="sxs-lookup"><span data-stu-id="6b3dd-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="5c0ec-110">子元素</span><span class="sxs-lookup"><span data-stu-id="5c0ec-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="6b3dd-110">子元素</span><span class="sxs-lookup"><span data-stu-id="6b3dd-110">Child elements</span></span>
 
-[<span data-ttu-id="5c0ec-111">PersonaId</span><span class="sxs-lookup"><span data-stu-id="5c0ec-111">PersonaId</span></span>](personaid.md)
+[<span data-ttu-id="6b3dd-111">PersonaId</span><span class="sxs-lookup"><span data-stu-id="6b3dd-111">PersonaId</span></span>](personaid.md)
   
-### <a name="parent-elements"></a><span data-ttu-id="5c0ec-112">父元素</span><span class="sxs-lookup"><span data-stu-id="5c0ec-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="6b3dd-112">父元素</span><span class="sxs-lookup"><span data-stu-id="6b3dd-112">Parent elements</span></span>
 
-<span data-ttu-id="5c0ec-113">无。</span><span class="sxs-lookup"><span data-stu-id="5c0ec-113">None.</span></span>
+<span data-ttu-id="6b3dd-113">无。</span><span class="sxs-lookup"><span data-stu-id="6b3dd-113">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="5c0ec-114">说明</span><span class="sxs-lookup"><span data-stu-id="5c0ec-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6b3dd-114">说明</span><span class="sxs-lookup"><span data-stu-id="6b3dd-114">Remarks</span></span>
 
-<span data-ttu-id="5c0ec-115">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="5c0ec-115">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="6b3dd-115">Exchange Server 2013 中引入了此元素。</span><span class="sxs-lookup"><span data-stu-id="6b3dd-115">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="5c0ec-116">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="5c0ec-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="6b3dd-116">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="6b3dd-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="5c0ec-117">元素信息</span><span class="sxs-lookup"><span data-stu-id="5c0ec-117">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="6b3dd-117">元素信息</span><span class="sxs-lookup"><span data-stu-id="6b3dd-117">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="5c0ec-118">命名空间</span><span class="sxs-lookup"><span data-stu-id="5c0ec-118">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="5c0ec-119">架构名称</span><span class="sxs-lookup"><span data-stu-id="5c0ec-119">Schema name</span></span>  <br/> |<span data-ttu-id="5c0ec-120">消息架构</span><span class="sxs-lookup"><span data-stu-id="5c0ec-120">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="5c0ec-121">验证文件</span><span class="sxs-lookup"><span data-stu-id="5c0ec-121">Validation file</span></span>  <br/> |<span data-ttu-id="5c0ec-122">消息 .xsd</span><span class="sxs-lookup"><span data-stu-id="5c0ec-122">messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="5c0ec-123">可以为空</span><span class="sxs-lookup"><span data-stu-id="5c0ec-123">Can be empty</span></span>  <br/> ||
+|<span data-ttu-id="6b3dd-118">命名空间</span><span class="sxs-lookup"><span data-stu-id="6b3dd-118">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="6b3dd-119">架构名称</span><span class="sxs-lookup"><span data-stu-id="6b3dd-119">Schema name</span></span>  <br/> |<span data-ttu-id="6b3dd-120">消息架构</span><span class="sxs-lookup"><span data-stu-id="6b3dd-120">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="6b3dd-121">验证文件</span><span class="sxs-lookup"><span data-stu-id="6b3dd-121">Validation file</span></span>  <br/> |<span data-ttu-id="6b3dd-122">消息 .xsd</span><span class="sxs-lookup"><span data-stu-id="6b3dd-122">messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="6b3dd-123">可以为空</span><span class="sxs-lookup"><span data-stu-id="6b3dd-123">Can be empty</span></span>  <br/> ||
    
 

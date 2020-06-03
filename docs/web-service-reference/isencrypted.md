@@ -16,57 +16,57 @@ ms.openlocfilehash: 7470fa3163596f87badfda2ca698b096e02f1196
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455301"
 ---
-# <a name="isencrypted"></a><span data-ttu-id="fa5a6-103">IsEncrypted</span><span class="sxs-lookup"><span data-stu-id="fa5a6-103">IsEncrypted</span></span>
+# <a name="isencrypted"></a><span data-ttu-id="d5510-103">IsEncrypted</span><span class="sxs-lookup"><span data-stu-id="d5510-103">IsEncrypted</span></span>
 
-<span data-ttu-id="fa5a6-104">**IsEncrypted**元素指示是否必须对传入邮件进行 S/MIME 加密，以便条件或例外情况适用。</span><span class="sxs-lookup"><span data-stu-id="fa5a6-104">The **IsEncrypted** element indicates whether incoming messages must be S/MIME encrypted in order for the condition or exception to apply.</span></span> 
+<span data-ttu-id="d5510-104">**IsEncrypted**元素指示是否必须对传入邮件进行 S/MIME 加密，以便条件或例外情况适用。</span><span class="sxs-lookup"><span data-stu-id="d5510-104">The **IsEncrypted** element indicates whether incoming messages must be S/MIME encrypted in order for the condition or exception to apply.</span></span> 
   
 ```XML
 <IsEncrypted>true | false</IsEncrypted>
 ```
 
- <span data-ttu-id="fa5a6-105">**Boolean**</span><span class="sxs-lookup"><span data-stu-id="fa5a6-105">**Boolean**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="fa5a6-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="fa5a6-106">Attributes and elements</span></span>
+ <span data-ttu-id="d5510-105">**Boolean**</span><span class="sxs-lookup"><span data-stu-id="d5510-105">**Boolean**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="d5510-106">属性和元素</span><span class="sxs-lookup"><span data-stu-id="d5510-106">Attributes and elements</span></span>
 
-<span data-ttu-id="fa5a6-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="fa5a6-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="d5510-107">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="d5510-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="fa5a6-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="fa5a6-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="d5510-108">Attributes</span><span class="sxs-lookup"><span data-stu-id="d5510-108">Attributes</span></span>
 
-<span data-ttu-id="fa5a6-109">无。</span><span class="sxs-lookup"><span data-stu-id="fa5a6-109">None.</span></span>
+<span data-ttu-id="d5510-109">无。</span><span class="sxs-lookup"><span data-stu-id="d5510-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="fa5a6-110">子元素</span><span class="sxs-lookup"><span data-stu-id="fa5a6-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="d5510-110">子元素</span><span class="sxs-lookup"><span data-stu-id="d5510-110">Child elements</span></span>
 
-<span data-ttu-id="fa5a6-111">无。</span><span class="sxs-lookup"><span data-stu-id="fa5a6-111">None.</span></span>
+<span data-ttu-id="d5510-111">无。</span><span class="sxs-lookup"><span data-stu-id="d5510-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="fa5a6-112">父元素</span><span class="sxs-lookup"><span data-stu-id="fa5a6-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="d5510-112">父元素</span><span class="sxs-lookup"><span data-stu-id="d5510-112">Parent elements</span></span>
 
-|<span data-ttu-id="fa5a6-113">**元素**</span><span class="sxs-lookup"><span data-stu-id="fa5a6-113">**Element**</span></span>|<span data-ttu-id="fa5a6-114">**说明**</span><span class="sxs-lookup"><span data-stu-id="fa5a6-114">**Description**</span></span>|
+|<span data-ttu-id="d5510-113">**元素**</span><span class="sxs-lookup"><span data-stu-id="d5510-113">**Element**</span></span>|<span data-ttu-id="d5510-114">**说明**</span><span class="sxs-lookup"><span data-stu-id="d5510-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="fa5a6-115">条件</span><span class="sxs-lookup"><span data-stu-id="fa5a6-115">Conditions</span></span>](conditions.md) <br/> |<span data-ttu-id="fa5a6-116">表示履行时将触发规则的规则操作的条件。</span><span class="sxs-lookup"><span data-stu-id="fa5a6-116">Represents the conditions that, when fulfilled, will trigger the rule actions for a rule.</span></span>  <br/> |
-|[<span data-ttu-id="fa5a6-117">异常</span><span class="sxs-lookup"><span data-stu-id="fa5a6-117">Exceptions</span></span>](exceptions.md) <br/> |<span data-ttu-id="fa5a6-118">代表收件箱规则的所有可用的规则例外条件。</span><span class="sxs-lookup"><span data-stu-id="fa5a6-118">Represents all the available rule exception conditions for an Inbox rule.</span></span>  <br/> |
+|[<span data-ttu-id="d5510-115">条件</span><span class="sxs-lookup"><span data-stu-id="d5510-115">Conditions</span></span>](conditions.md) <br/> |<span data-ttu-id="d5510-116">表示履行时将触发规则的规则操作的条件。</span><span class="sxs-lookup"><span data-stu-id="d5510-116">Represents the conditions that, when fulfilled, will trigger the rule actions for a rule.</span></span>  <br/> |
+|[<span data-ttu-id="d5510-117">异常</span><span class="sxs-lookup"><span data-stu-id="d5510-117">Exceptions</span></span>](exceptions.md) <br/> |<span data-ttu-id="d5510-118">代表收件箱规则的所有可用的规则例外条件。</span><span class="sxs-lookup"><span data-stu-id="d5510-118">Represents all the available rule exception conditions for an Inbox rule.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="fa5a6-119">文本值</span><span class="sxs-lookup"><span data-stu-id="fa5a6-119">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="d5510-119">文本值</span><span class="sxs-lookup"><span data-stu-id="d5510-119">Text value</span></span>
 
-<span data-ttu-id="fa5a6-120">如果文本值为**true** ，则表示必须对邮件进行 S/MIME 加密，以便条件或例外情况适用。</span><span class="sxs-lookup"><span data-stu-id="fa5a6-120">A text value of **true** indicates that the message must be S/MIME encrypted in order for the condition or exception to apply.</span></span> <span data-ttu-id="fa5a6-121">如果值为**false** ，则表示该邮件不必为 S/MIME，这样就可以应用条件或例外情况。</span><span class="sxs-lookup"><span data-stu-id="fa5a6-121">A value of **false** indicates that the message does not have to be S/MIME in order for the condition or exception to apply.</span></span> 
+<span data-ttu-id="d5510-120">如果文本值为**true** ，则表示必须对邮件进行 S/MIME 加密，以便条件或例外情况适用。</span><span class="sxs-lookup"><span data-stu-id="d5510-120">A text value of **true** indicates that the message must be S/MIME encrypted in order for the condition or exception to apply.</span></span> <span data-ttu-id="d5510-121">如果值为**false** ，则表示该邮件不必为 S/MIME，这样就可以应用条件或例外情况。</span><span class="sxs-lookup"><span data-stu-id="d5510-121">A value of **false** indicates that the message does not have to be S/MIME in order for the condition or exception to apply.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="fa5a6-122">说明</span><span class="sxs-lookup"><span data-stu-id="fa5a6-122">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d5510-122">说明</span><span class="sxs-lookup"><span data-stu-id="d5510-122">Remarks</span></span>
 
-<span data-ttu-id="fa5a6-123">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="fa5a6-123">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="d5510-123">描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="d5510-123">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="fa5a6-124">元素信息</span><span class="sxs-lookup"><span data-stu-id="fa5a6-124">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="d5510-124">元素信息</span><span class="sxs-lookup"><span data-stu-id="d5510-124">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="fa5a6-125">命名空间</span><span class="sxs-lookup"><span data-stu-id="fa5a6-125">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="fa5a6-126">架构名称</span><span class="sxs-lookup"><span data-stu-id="fa5a6-126">Schema Name</span></span>  <br/> |<span data-ttu-id="fa5a6-127">消息架构</span><span class="sxs-lookup"><span data-stu-id="fa5a6-127">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="fa5a6-128">验证文件</span><span class="sxs-lookup"><span data-stu-id="fa5a6-128">Validation File</span></span>  <br/> |<span data-ttu-id="fa5a6-129">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="fa5a6-129">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="fa5a6-130">可以为空</span><span class="sxs-lookup"><span data-stu-id="fa5a6-130">Can be Empty</span></span>  <br/> |<span data-ttu-id="fa5a6-131">True</span><span class="sxs-lookup"><span data-stu-id="fa5a6-131">True</span></span>  <br/> |
+|<span data-ttu-id="d5510-125">命名空间</span><span class="sxs-lookup"><span data-stu-id="d5510-125">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="d5510-126">架构名称</span><span class="sxs-lookup"><span data-stu-id="d5510-126">Schema Name</span></span>  <br/> |<span data-ttu-id="d5510-127">消息架构</span><span class="sxs-lookup"><span data-stu-id="d5510-127">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="d5510-128">验证文件</span><span class="sxs-lookup"><span data-stu-id="d5510-128">Validation File</span></span>  <br/> |<span data-ttu-id="d5510-129">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="d5510-129">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="d5510-130">可以为空</span><span class="sxs-lookup"><span data-stu-id="d5510-130">Can be Empty</span></span>  <br/> |<span data-ttu-id="d5510-131">True</span><span class="sxs-lookup"><span data-stu-id="d5510-131">True</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="fa5a6-132">另请参阅</span><span class="sxs-lookup"><span data-stu-id="fa5a6-132">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d5510-132">另请参阅</span><span class="sxs-lookup"><span data-stu-id="d5510-132">See also</span></span>
 
 
 
-- [<span data-ttu-id="fa5a6-133">Exchange 中的 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="fa5a6-133">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="d5510-133">Exchange 中的 EWS XML 元素</span><span class="sxs-lookup"><span data-stu-id="d5510-133">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

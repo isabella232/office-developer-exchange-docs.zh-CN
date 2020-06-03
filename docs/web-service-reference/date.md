@@ -16,63 +16,63 @@ ms.openlocfilehash: bcc152ed6aba94907189b5579b998815be45db16
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44443786"
 ---
-# <a name="date"></a><span data-ttu-id="18621-103">日期</span><span class="sxs-lookup"><span data-stu-id="18621-103">Date</span></span>
+# <a name="date"></a><span data-ttu-id="4f1bf-103">日期</span><span class="sxs-lookup"><span data-stu-id="4f1bf-103">Date</span></span>
 
-<span data-ttu-id="18621-104">**Date**元素表示包含建议的会议时间的日期。</span><span class="sxs-lookup"><span data-stu-id="18621-104">The **Date** element represents the date that contains the suggested meeting times.</span></span> 
+<span data-ttu-id="4f1bf-104">**Date**元素表示包含建议的会议时间的日期。</span><span class="sxs-lookup"><span data-stu-id="4f1bf-104">The **Date** element represents the date that contains the suggested meeting times.</span></span> 
   
-- [<span data-ttu-id="18621-105">GetUserAvailabilityResponse</span><span class="sxs-lookup"><span data-stu-id="18621-105">GetUserAvailabilityResponse</span></span>](getuseravailabilityresponse.md) 
-- [<span data-ttu-id="18621-106">SuggestionsResponse</span><span class="sxs-lookup"><span data-stu-id="18621-106">SuggestionsResponse</span></span>](suggestionsresponse.md) 
-- [<span data-ttu-id="18621-107">SuggestionDayResultArray</span><span class="sxs-lookup"><span data-stu-id="18621-107">SuggestionDayResultArray</span></span>](suggestiondayresultarray.md)  
-- [<span data-ttu-id="18621-108">SuggestionDayResult</span><span class="sxs-lookup"><span data-stu-id="18621-108">SuggestionDayResult</span></span>](suggestiondayresult.md)  
-- [<span data-ttu-id="18621-109">Date</span><span class="sxs-lookup"><span data-stu-id="18621-109">Date</span></span>](date.md)
+- [<span data-ttu-id="4f1bf-105">GetUserAvailabilityResponse</span><span class="sxs-lookup"><span data-stu-id="4f1bf-105">GetUserAvailabilityResponse</span></span>](getuseravailabilityresponse.md) 
+- [<span data-ttu-id="4f1bf-106">SuggestionsResponse</span><span class="sxs-lookup"><span data-stu-id="4f1bf-106">SuggestionsResponse</span></span>](suggestionsresponse.md) 
+- [<span data-ttu-id="4f1bf-107">SuggestionDayResultArray</span><span class="sxs-lookup"><span data-stu-id="4f1bf-107">SuggestionDayResultArray</span></span>](suggestiondayresultarray.md)  
+- [<span data-ttu-id="4f1bf-108">SuggestionDayResult</span><span class="sxs-lookup"><span data-stu-id="4f1bf-108">SuggestionDayResult</span></span>](suggestiondayresult.md)  
+- [<span data-ttu-id="4f1bf-109">Date</span><span class="sxs-lookup"><span data-stu-id="4f1bf-109">Date</span></span>](date.md)
   
 ```xml
 <Date>...</Date>
 ```
 
-<span data-ttu-id="18621-110">**dateTime**</span><span class="sxs-lookup"><span data-stu-id="18621-110">**dateTime**</span></span>
+<span data-ttu-id="4f1bf-110">**dateTime**</span><span class="sxs-lookup"><span data-stu-id="4f1bf-110">**dateTime**</span></span>
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="18621-111">属性和元素</span><span class="sxs-lookup"><span data-stu-id="18621-111">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="4f1bf-111">属性和元素</span><span class="sxs-lookup"><span data-stu-id="4f1bf-111">Attributes and elements</span></span>
 
-<span data-ttu-id="18621-112">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="18621-112">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="4f1bf-112">下面各部分介绍了属性、子元素和父元素。</span><span class="sxs-lookup"><span data-stu-id="4f1bf-112">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="18621-113">Attributes</span><span class="sxs-lookup"><span data-stu-id="18621-113">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="4f1bf-113">Attributes</span><span class="sxs-lookup"><span data-stu-id="4f1bf-113">Attributes</span></span>
 
-<span data-ttu-id="18621-114">无。</span><span class="sxs-lookup"><span data-stu-id="18621-114">None.</span></span>
+<span data-ttu-id="4f1bf-114">无。</span><span class="sxs-lookup"><span data-stu-id="4f1bf-114">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="18621-115">子元素</span><span class="sxs-lookup"><span data-stu-id="18621-115">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="4f1bf-115">子元素</span><span class="sxs-lookup"><span data-stu-id="4f1bf-115">Child elements</span></span>
 
-<span data-ttu-id="18621-116">无。</span><span class="sxs-lookup"><span data-stu-id="18621-116">None.</span></span>
+<span data-ttu-id="4f1bf-116">无。</span><span class="sxs-lookup"><span data-stu-id="4f1bf-116">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="18621-117">父元素</span><span class="sxs-lookup"><span data-stu-id="18621-117">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="4f1bf-117">父元素</span><span class="sxs-lookup"><span data-stu-id="4f1bf-117">Parent elements</span></span>
 
-|<span data-ttu-id="18621-118">**元素**</span><span class="sxs-lookup"><span data-stu-id="18621-118">**Element**</span></span>|<span data-ttu-id="18621-119">**说明**</span><span class="sxs-lookup"><span data-stu-id="18621-119">**Description**</span></span>|
+|<span data-ttu-id="4f1bf-118">**元素**</span><span class="sxs-lookup"><span data-stu-id="4f1bf-118">**Element**</span></span>|<span data-ttu-id="4f1bf-119">**说明**</span><span class="sxs-lookup"><span data-stu-id="4f1bf-119">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="18621-120">SuggestionDayResult</span><span class="sxs-lookup"><span data-stu-id="18621-120">SuggestionDayResult</span></span>](suggestiondayresult.md) <br/> |<span data-ttu-id="18621-121">表示包含建议会议时间的一天。</span><span class="sxs-lookup"><span data-stu-id="18621-121">Represents a single day that contains suggested meeting times.</span></span>  <br/><br/><span data-ttu-id="18621-122">以下是此元素的 XPath 2.0 表达式：</span><span class="sxs-lookup"><span data-stu-id="18621-122">The following is the XPath 2.0 expression to this element:</span></span><br/><br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]` <br/> |
+|[<span data-ttu-id="4f1bf-120">SuggestionDayResult</span><span class="sxs-lookup"><span data-stu-id="4f1bf-120">SuggestionDayResult</span></span>](suggestiondayresult.md) <br/> |<span data-ttu-id="4f1bf-121">表示包含建议会议时间的一天。</span><span class="sxs-lookup"><span data-stu-id="4f1bf-121">Represents a single day that contains suggested meeting times.</span></span>  <br/><br/><span data-ttu-id="4f1bf-122">以下是此元素的 XPath 2.0 表达式：</span><span class="sxs-lookup"><span data-stu-id="4f1bf-122">The following is the XPath 2.0 expression to this element:</span></span><br/><br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]` <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="18621-123">文本值</span><span class="sxs-lookup"><span data-stu-id="18621-123">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="4f1bf-123">文本值</span><span class="sxs-lookup"><span data-stu-id="4f1bf-123">Text value</span></span>
 
-<span data-ttu-id="18621-124">文本值是必需的。</span><span class="sxs-lookup"><span data-stu-id="18621-124">A text value is required.</span></span> <span data-ttu-id="18621-125">查看万维网联合会（W3C）架构数据类型建议，以了解 dateTime 基元数据类型的格式。</span><span class="sxs-lookup"><span data-stu-id="18621-125">Review the World Wide Web Consortium (W3C) schema datatype recommendations for the format of the dateTime primitive datatype.</span></span>
+<span data-ttu-id="4f1bf-124">文本值是必需的。</span><span class="sxs-lookup"><span data-stu-id="4f1bf-124">A text value is required.</span></span> <span data-ttu-id="4f1bf-125">查看万维网联合会（W3C）架构数据类型建议，以了解 dateTime 基元数据类型的格式。</span><span class="sxs-lookup"><span data-stu-id="4f1bf-125">Review the World Wide Web Consortium (W3C) schema datatype recommendations for the format of the dateTime primitive datatype.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="18621-126">说明</span><span class="sxs-lookup"><span data-stu-id="18621-126">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4f1bf-126">说明</span><span class="sxs-lookup"><span data-stu-id="4f1bf-126">Remarks</span></span>
 
-<span data-ttu-id="18621-127">描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="18621-127">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="4f1bf-127">描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。</span><span class="sxs-lookup"><span data-stu-id="4f1bf-127">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="18621-128">元素信息</span><span class="sxs-lookup"><span data-stu-id="18621-128">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="4f1bf-128">元素信息</span><span class="sxs-lookup"><span data-stu-id="4f1bf-128">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="18621-129">命名空间</span><span class="sxs-lookup"><span data-stu-id="18621-129">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="18621-130">架构名称</span><span class="sxs-lookup"><span data-stu-id="18621-130">Schema Name</span></span>  <br/> |<span data-ttu-id="18621-131">类型架构</span><span class="sxs-lookup"><span data-stu-id="18621-131">Types schema</span></span>  <br/> |
-|<span data-ttu-id="18621-132">验证文件</span><span class="sxs-lookup"><span data-stu-id="18621-132">Validation File</span></span>  <br/> |<span data-ttu-id="18621-133">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="18621-133">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="18621-134">可以为空</span><span class="sxs-lookup"><span data-stu-id="18621-134">Can be Empty</span></span>  <br/> |<span data-ttu-id="18621-135">False</span><span class="sxs-lookup"><span data-stu-id="18621-135">False</span></span>  <br/> |
+|<span data-ttu-id="4f1bf-129">命名空间</span><span class="sxs-lookup"><span data-stu-id="4f1bf-129">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="4f1bf-130">架构名称</span><span class="sxs-lookup"><span data-stu-id="4f1bf-130">Schema Name</span></span>  <br/> |<span data-ttu-id="4f1bf-131">类型架构</span><span class="sxs-lookup"><span data-stu-id="4f1bf-131">Types schema</span></span>  <br/> |
+|<span data-ttu-id="4f1bf-132">验证文件</span><span class="sxs-lookup"><span data-stu-id="4f1bf-132">Validation File</span></span>  <br/> |<span data-ttu-id="4f1bf-133">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="4f1bf-133">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="4f1bf-134">可以为空</span><span class="sxs-lookup"><span data-stu-id="4f1bf-134">Can be Empty</span></span>  <br/> |<span data-ttu-id="4f1bf-135">False</span><span class="sxs-lookup"><span data-stu-id="4f1bf-135">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="18621-136">另请参阅</span><span class="sxs-lookup"><span data-stu-id="18621-136">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4f1bf-136">另请参阅</span><span class="sxs-lookup"><span data-stu-id="4f1bf-136">See also</span></span>
 
-- [<span data-ttu-id="18621-137">GetUserAvailability 操作</span><span class="sxs-lookup"><span data-stu-id="18621-137">GetUserAvailability operation</span></span>](getuseravailability-operation.md) 
-- [<span data-ttu-id="18621-138">GetUserAvailabilityResponse</span><span class="sxs-lookup"><span data-stu-id="18621-138">GetUserAvailabilityResponse</span></span>](getuseravailabilityresponse.md)
-- [<span data-ttu-id="18621-139">Getting User Availability</span><span class="sxs-lookup"><span data-stu-id="18621-139">Getting User Availability</span></span>](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [<span data-ttu-id="4f1bf-137">GetUserAvailability 操作</span><span class="sxs-lookup"><span data-stu-id="4f1bf-137">GetUserAvailability operation</span></span>](getuseravailability-operation.md) 
+- [<span data-ttu-id="4f1bf-138">GetUserAvailabilityResponse</span><span class="sxs-lookup"><span data-stu-id="4f1bf-138">GetUserAvailabilityResponse</span></span>](getuseravailabilityresponse.md)
+- [<span data-ttu-id="4f1bf-139">Getting User Availability</span><span class="sxs-lookup"><span data-stu-id="4f1bf-139">Getting User Availability</span></span>](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 
