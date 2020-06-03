@@ -12,7 +12,7 @@ ms.openlocfilehash: 5b01fc6924f82e76943795df877ae84b1fde087b
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456386"
 ---
 # <a name="transaction-logs-and-checkpoint-files-for-backup-and-restore-in-exchange"></a>用于在 Exchange 中进行备份和还原的事务日志和检查点文件

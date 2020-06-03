@@ -10,7 +10,7 @@ ms.openlocfilehash: 55f927b7b301bdfaa298bcd254b18a00cf1692d9
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456155"
 ---
 # <a name="configuration-options-for-ews-in-exchange"></a>Exchange 中 EWS 的配置选项

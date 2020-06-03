@@ -12,7 +12,7 @@ ms.openlocfilehash: 310842eca68fc3987e0a0374c6b7bd5bc686c6d8
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44435035"
 ---
 # <a name="additemtomycalendar"></a>AddItemToMyCalendar

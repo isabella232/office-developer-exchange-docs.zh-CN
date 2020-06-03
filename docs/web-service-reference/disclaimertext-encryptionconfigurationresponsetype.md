@@ -12,7 +12,7 @@ ms.openlocfilehash: 1ef078c3fbe07b56dcffdbc20c66d4ece46a30c2
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455630"
 ---
 # <a name="disclaimertext-encryptionconfigurationresponsetype"></a>DisclaimerText （EncryptionConfigurationResponseType）

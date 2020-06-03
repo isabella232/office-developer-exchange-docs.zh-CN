@@ -16,7 +16,7 @@ ms.openlocfilehash: 502108843193e7ed8377b0fade9e106ef3d1976c
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457100"
 ---
 # <a name="createitem-operation-task"></a>CreateItem 操作（任务）
@@ -25,7 +25,7 @@ CreateItem 操作在 Exchange 存储中创建任务项。
   
 ## <a name="task-createitem-request"></a>任务 CreateItem 请求
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的 CreateItem 请求示例演示如何在邮箱中创建任务项。
   
@@ -85,7 +85,7 @@ CreateItem 操作在 Exchange 存储中创建任务项。
     
 - [项目（NonEmptyArrayOfAllItemsType）](items-nonemptyarrayofallitemstype.md)
     
-- [Task](task.md)
+- [任务](task.md)
     
 - [主题](subject.md)
     
@@ -95,7 +95,7 @@ CreateItem 操作在 Exchange 存储中创建任务项。
     
 ## <a name="successful-task-createitem-response"></a>成功的任务 CreateItem 响应
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对 CreateItem 请求的成功响应。
   
@@ -145,7 +145,7 @@ CreateItem 操作在 Exchange 存储中创建任务项。
     
 - [项目（NonEmptyArrayOfAllItemsType）](items-nonemptyarrayofallitemstype.md)
     
-- [Task](task.md)
+- [任务](task.md)
     
 - [ItemId](itemid.md)
     

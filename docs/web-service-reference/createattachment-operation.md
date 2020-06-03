@@ -16,7 +16,7 @@ ms.openlocfilehash: 8028c56aa306774b54b39e5ee1ac0382b9113fa0
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456568"
 ---
 # <a name="createattachment-operation"></a>CreateAttachment 操作
@@ -25,7 +25,7 @@ CreateAttachment 操作创建一个项目或文件附件，并将其附加到指
   
 ## <a name="file-createattachment-request-example"></a>File CreateAttachment 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的 CreateAttachment 请求示例演示如何创建文件附件。
   
@@ -77,7 +77,7 @@ CreateAttachment 操作创建一个项目或文件附件，并将其附加到指
     
 ## <a name="successful-file-createattachment-response-example"></a>成功的文件 CreateAttachment 响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对 CreateAttachment 请求的成功响应。
   
@@ -137,7 +137,7 @@ CreateAttachment 操作创建一个项目或文件附件，并将其附加到指
     
 ## <a name="item-createattachment-request-example"></a>Item CreateAttachment 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 以下示例的 CreateAttachment 请求显示了如何创建项目附件。
   
@@ -186,13 +186,13 @@ CreateAttachment 操作创建一个项目或文件附件，并将其附加到指
     
 - [名称（AttachmentType）](name-attachmenttype.md)
     
-- [邮件](message-ex15websvcsotherref.md)
+- [消息](message-ex15websvcsotherref.md)
     
 - [主题](subject.md)
     
 ## <a name="successful-item-createattachment-response-example"></a>成功的项目 CreateAttachment 响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对 CreateAttachment 请求的成功响应。
   
@@ -252,7 +252,7 @@ CreateAttachment 操作创建一个项目或文件附件，并将其附加到指
     
 ## <a name="createattachment-error-response-example"></a>CreateAttachment 错误响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对 CreateAttachment 请求的错误响应。 错误是由于未指定附件的名称。
   

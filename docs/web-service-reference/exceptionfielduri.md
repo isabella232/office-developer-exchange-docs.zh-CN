@@ -16,7 +16,7 @@ ms.openlocfilehash: a47d44098f85d8bacb1e7a2c48a33e478e56c7ac
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44454342"
 ---
 # <a name="exceptionfielduri"></a>ExceptionFieldURI

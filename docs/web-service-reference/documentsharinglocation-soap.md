@@ -11,7 +11,7 @@ ms.openlocfilehash: 6fed933da979ab3e3fca51ba606127b7f0a4e3f8
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457058"
 ---
 # <a name="documentsharinglocation-soap"></a>DocumentSharingLocation （SOAP）

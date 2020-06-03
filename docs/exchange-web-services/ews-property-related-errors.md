@@ -10,7 +10,7 @@ ms.openlocfilehash: 5863ab4e06bd968aa38b6fdec471e09c5e23f54a
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455406"
 ---
 # <a name="ews-property-related-errors"></a>EWS 与属性相关的错误
@@ -55,7 +55,7 @@ ms.locfileid: "44455406"
 
 - [属性和交换中的 EWS 中的扩展的属性](properties-and-extended-properties-in-ews-in-exchange.md)
     
-- [Start using web services in Exchange](start-using-web-services-in-exchange.md)
+- [开始使用 Exchange 中的 Web 服务](start-using-web-services-in-exchange.md)
     
 - [开发 Exchange Web 服务客户端](develop-web-service-clients-for-exchange.md)
     

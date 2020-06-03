@@ -16,7 +16,7 @@ ms.openlocfilehash: 384ed8ff653029c2b7db0b36986d85842b0a06cf
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457114"
 ---
 # <a name="createitem-operation-email-message"></a>CreateItem 操作（电子邮件）
@@ -25,7 +25,7 @@ CreateItem 操作用于创建电子邮件。
   
 ## <a name="createitem-request-example"></a>CreateItem 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的 CreateItem 请求示例演示如何创建新的电子邮件，发送邮件，并将其副本保存在 "草稿" 文件夹中。
   
@@ -68,7 +68,7 @@ CreateItem 操作用于创建电子邮件。
     
 - [项目（NonEmptyArrayOfAllItemsType）](items-nonemptyarrayofallitemstype.md)
     
-- [邮件](message-ex15websvcsotherref.md)
+- [消息](message-ex15websvcsotherref.md)
     
 - [ItemClass](itemclass.md)
     
@@ -88,7 +88,7 @@ CreateItem 操作用于创建电子邮件。
   
 ## <a name="successful-createitem-response"></a>成功的 CreateItem 响应
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对 CreateItem 请求的成功响应。
   
@@ -135,7 +135,7 @@ CreateItem 操作用于创建电子邮件。
   
 ## <a name="error-createitem-response"></a>错误 CreateItem 响应
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对 CreateItem 请求的错误响应。
   

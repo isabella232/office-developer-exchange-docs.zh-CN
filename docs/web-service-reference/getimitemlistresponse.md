@@ -12,7 +12,7 @@ ms.openlocfilehash: e1e6e30bc1304cf4898b125d3a041c1f0a8a9ab6
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456050"
 ---
 # <a name="getimitemlistresponse"></a>GetImItemListResponse

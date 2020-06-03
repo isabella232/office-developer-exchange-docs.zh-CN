@@ -12,7 +12,7 @@ ms.openlocfilehash: a8944be111a8dcbe914601ffc4e31794422d58aa
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44441574"
 ---
 # <a name="isquickcontact"></a>IsQuickContact

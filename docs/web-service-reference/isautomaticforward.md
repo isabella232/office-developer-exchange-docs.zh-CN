@@ -16,7 +16,7 @@ ms.openlocfilehash: 800d38bab30245d88b3c09609e6235e6de8fed25
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455574"
 ---
 # <a name="isautomaticforward"></a>IsAutomaticForward

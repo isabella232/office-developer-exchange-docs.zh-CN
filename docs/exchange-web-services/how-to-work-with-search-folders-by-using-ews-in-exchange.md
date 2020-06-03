@@ -10,7 +10,7 @@ ms.openlocfilehash: 880c14bc99c4f6c674d4f7566036c4b8f5f19e55
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456365"
 ---
 # <a name="work-with-search-folders-by-using-ews-in-exchange"></a>使用 Exchange 中的 EWS 处理搜索文件夹

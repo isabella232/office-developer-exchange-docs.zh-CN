@@ -10,7 +10,7 @@ ms.openlocfilehash: 7c88015386dc882f14184765e0046a866e8c0e10
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456311"
 ---
 # <a name="inbox-management-and-ews-in-exchange"></a>Inbox management and EWS in Exchange

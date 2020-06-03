@@ -10,7 +10,7 @@ ms.openlocfilehash: 06faf7dd7459b14792abbea21761e909c8eb9fb6
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455343"
 ---
 # <a name="access-contacts-as-a-delegate-by-using-ews-in-exchange"></a>在 Exchange 中使用 EWS 以代理的形式访问联系人
@@ -299,7 +299,7 @@ EWS 使您可以使用委派用户的服务对象来解析邮箱所有者的 "�
   
 **表3。用于将联系人作为代理使用的 EWS 操作**
 
-|**Task**|**EWS 操作**|**示例**|
+|**任务**|**EWS 操作**|**示例**|
 |:-----|:-----|:-----|
 |获取联系人  <br/> |[GetItem](https://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) <br/> |[使用 EWS 获取项](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_getews) <br/> |
 |更新联系人  <br/> |[GetItem](https://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx)后接[UpdateItem](https://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> |[使用 EWS 更新项](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_updateews) <br/> |

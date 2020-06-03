@@ -16,7 +16,7 @@ ms.openlocfilehash: 8edaf057538e2c1136465f0ff7937c14477b2c47
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44454048"
 ---
 # <a name="expanddl-operation"></a>ExpandDL 操作
@@ -58,7 +58,7 @@ ExpandDL 操作使用位于位于 .asmx 中的 Web 服务。 此 Web 服务方�
   
 ## <a name="expanddl-private-distribution-list-request-example"></a>ExpandDL 私有通讯组列表请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 以下示例的 ExpandDL 请求显示如何构成展开私有通讯组列表的请求。
   
@@ -86,7 +86,7 @@ ExpandDL 操作使用位于位于 .asmx 中的 Web 服务。 此 Web 服务方�
   
 ## <a name="expanddl-public-distribution-list-request-example"></a>ExpandDL 公共通讯组列表请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 以下示例的 ExpandDL 请求显示如何构成展开公共通讯组列表的请求。 该示例演示如何使用显示名称展开通讯组列表。
   
@@ -126,7 +126,7 @@ ExpandDL 操作使用位于位于 .asmx 中的 Web 服务。 此 Web 服务方�
   
 ## <a name="successful-expanddl-response-example"></a>成功的 ExpandDL 响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的 ExpandDL 响应示例显示对上面所述请求的响应。 通讯组列表扩展介绍了以下内容： 
   
@@ -221,7 +221,7 @@ ExpandDL 操作使用位于位于 .asmx 中的 Web 服务。 此 Web 服务方�
   
 ## <a name="expanddl-error-response"></a>ExpandDL 错误响应
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对 ExpandDL 请求的错误响应。
   

@@ -8,7 +8,7 @@ ms.openlocfilehash: fbe4eaefc5befcc173096c9b8526adebf74a0aad
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44438432"
 ---
 # <a name="authenticate-an-imap-pop-or-smtp-connection-using-oauth"></a>使用 OAuth 对 IMAP、POP 或 SMTP 连接进行身份验证

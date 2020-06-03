@@ -10,7 +10,7 @@ ms.openlocfilehash: b433b9f88905ee255720e8b341d560fa0e464975
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456211"
 ---
 # <a name="archiving-in-ews-in-exchange"></a>在 Exchange 中 EWS 存档
@@ -34,7 +34,7 @@ Exchange Online，Exchange Online 作为 Office 365 的一部分，Exchange Serv
 
 - [开发 Exchange Web 服务客户端](develop-web-service-clients-for-exchange.md)
     
-- [开始使用 Exchange 中的 Web 服务](start-using-web-services-in-exchange.md)
+- [Start using web services in Exchange](start-using-web-services-in-exchange.md)
     
 - [Exchange 的 EWS 客户端设计概述](ews-client-design-overview-for-exchange.md)
     

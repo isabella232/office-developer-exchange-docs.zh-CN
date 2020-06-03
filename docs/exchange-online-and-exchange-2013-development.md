@@ -10,7 +10,7 @@ ms.openlocfilehash: 16f6cc4a317b2eeb661c0bbd81192aac292ba377
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456232"
 ---
 # <a name="exchange-online-and-exchange-2013-development"></a>Exchange Online 和 Exchange 2013 开发

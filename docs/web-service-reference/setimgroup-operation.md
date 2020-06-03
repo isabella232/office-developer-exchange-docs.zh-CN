@@ -12,7 +12,7 @@ ms.openlocfilehash: 37b290559fff0b2de57669741547ba4b1b56c28c
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44438073"
 ---
 # <a name="setimgroup-operation"></a>SetImGroup 操作

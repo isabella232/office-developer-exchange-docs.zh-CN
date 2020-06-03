@@ -16,7 +16,7 @@ ms.openlocfilehash: cd0154f87390be3516ced4be53f5371d4a348c49
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456218"
 ---
 # <a name="convertidresponsemessage"></a>ConvertIdResponseMessage

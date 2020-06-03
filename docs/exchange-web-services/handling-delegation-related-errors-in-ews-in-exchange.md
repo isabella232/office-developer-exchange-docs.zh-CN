@@ -10,7 +10,7 @@ ms.openlocfilehash: 145783c4e7f49ed6e2aa3a2dbe0d10909e06d7e8
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455350"
 ---
 # <a name="handling-delegation-related-errors-in-ews-in-exchange"></a>在 Exchange 中处理 EWS 中与委派相关的错误

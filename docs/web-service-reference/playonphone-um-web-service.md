@@ -15,7 +15,7 @@ ms.openlocfilehash: 9acbf9edbf4a889506558b24f5736a44d5015d3f
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44434076"
 ---
 # <a name="playonphone-um-web-service"></a>PlayOnPhone （UM web 服务）

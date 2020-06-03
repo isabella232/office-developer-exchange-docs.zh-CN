@@ -10,7 +10,7 @@ ms.openlocfilehash: 14f2bc6bef1ce3c3529f03e213e3ada7c45a5a71
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455784"
 ---
 # <a name="get-user-photos-by-using-ews-in-exchange"></a>使用 Exchange 中的 EWS 获取用户照片

@@ -16,7 +16,7 @@ ms.openlocfilehash: fe8551d01e6f9e813da8936f15b0b7ba1d4ce56c
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455525"
 ---
 # <a name="issigned"></a>IsSigned

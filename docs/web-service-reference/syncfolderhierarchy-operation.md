@@ -16,7 +16,7 @@ ms.openlocfilehash: 1c7ad2413064161ba54e8a7a30bfcd6f23f218bd
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456428"
 ---
 # <a name="syncfolderhierarchy-operation"></a>SyncFolderHierarchy 操作
@@ -28,7 +28,7 @@ SyncFolderHierarchy 操作将在运行 Microsoft Exchange Server 2010 的计算�
   
 ## <a name="syncfolderhierarchy-request-example"></a>SyncFolderHierarchy 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 以下示例的 SyncFolderHierarchy 请求显示如何将客户端文件夹层次结构与 Exchange 服务器同步。 此示例显示至少已同步一次的文件夹层次结构。 在第一次尝试将客户端与 Exchange 服务器同步时，请求中不包含[SyncState](syncstate-ex15websvcsotherref.md)元素。 第一个请求将返回邮箱中的所有文件夹。 [SyncState](syncstate-ex15websvcsotherref.md)元素将在[SyncFolderHierarchyResponse](syncfolderhierarchyresponse.md)中返回。 此元素用于同步后续 SyncFolderHierarchy 请求的状态。
   
@@ -70,7 +70,7 @@ SyncFolderHierarchy 操作将在运行 Microsoft Exchange Server 2010 的计算�
   
 ## <a name="successful-syncfolderhierarchy-response"></a>成功的 SyncFolderHierarchy 响应
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对 SyncFolderHierarchy 请求的成功响应。 在此示例中，已同步一个新文件夹。
   
@@ -159,7 +159,7 @@ SyncFolderHierarchy 操作将在运行 Microsoft Exchange Server 2010 的计算�
     
 ## <a name="syncfolderhierarchy-error-response"></a>SyncFolderHierarchy 错误响应
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对 SyncFolderHierarchy 请求的错误响应。 此错误是由无效的 SyncState 所致。
   

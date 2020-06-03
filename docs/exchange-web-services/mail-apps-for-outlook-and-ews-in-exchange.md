@@ -10,7 +10,7 @@ ms.openlocfilehash: 2b0cee2017c24d714fa444c094ab1797be1fbe99
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456274"
 ---
 # <a name="outlook-add-ins-and-ews-in-exchange"></a>Outlook 加载项和 Exchange 中的 EWS

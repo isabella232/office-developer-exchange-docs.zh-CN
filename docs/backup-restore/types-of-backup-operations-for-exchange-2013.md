@@ -12,7 +12,7 @@ ms.openlocfilehash: dd07226acb3a3bb055e98f861a5c01375ee50dda
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456283"
 ---
 # <a name="types-of-backup-operations-for-exchange-2013"></a>Exchange 2013 的备份操作类型

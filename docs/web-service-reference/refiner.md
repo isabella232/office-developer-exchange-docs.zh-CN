@@ -12,7 +12,7 @@ ms.openlocfilehash: 5be73cfd0a5005f79651e9de76fd5aaf18ba0119
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456730"
 ---
 # <a name="refiner"></a>精简程序

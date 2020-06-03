@@ -12,7 +12,7 @@ ms.openlocfilehash: 74b3cc8b570f0a039a85de4289362ac53941323d
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455553"
 ---
 # <a name="isclutter"></a>IsClutter

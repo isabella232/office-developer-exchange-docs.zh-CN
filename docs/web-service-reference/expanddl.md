@@ -16,7 +16,7 @@ ms.openlocfilehash: 52b1ea1b51ce185c7a266e3002a4484e4b813bc0
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456932"
 ---
 # <a name="expanddl"></a>ExpandDL

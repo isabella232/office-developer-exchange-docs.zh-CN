@@ -10,7 +10,7 @@ ms.openlocfilehash: ab7b3ef5f87d8a26a412ca7187dc93c58d73112f
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455728"
 ---
 # <a name="manage-persistent-application-settings-by-using-ews-in-exchange"></a>使用 Exchange 中的 EWS 管理持久应用程序设置

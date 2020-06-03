@@ -12,7 +12,7 @@ ms.openlocfilehash: 185666b72cc96dd88605b7baa6433d070e7ebc91
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44452284"
 ---
 # <a name="itemholdperiod"></a>ItemHoldPeriod

@@ -16,7 +16,7 @@ ms.openlocfilehash: f9e6bd1742e6a30d08736ea67c0ff80b7a18e88a
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457107"
 ---
 # <a name="createitem-operation-meeting-request"></a>CreateItem 操作（会议请求）
@@ -29,7 +29,7 @@ CreateItem 操作提供了三个用于响应会议请求的选项： "接受"、
   
 ## <a name="accept-meeting-request-example"></a>接受会议请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例展示了如何接受会议请求邀请。
   
@@ -73,7 +73,7 @@ CreateItem 操作提供了三个用于响应会议请求的选项： "接受"、
     
 ## <a name="successful-accept-meeting-response-example"></a>成功的接受会议响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对 CreateItem 请求的成功响应。
   
@@ -121,7 +121,7 @@ CreateItem 操作提供了三个用于响应会议请求的选项： "接受"、
     
 ## <a name="accept-meeting-error-response-example"></a>接受会议错误响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对 CreateItem 请求的错误响应。 此错误是由于尝试接受在 Exchange 存储中找不到的会议请求而引起的。
   

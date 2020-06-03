@@ -16,7 +16,7 @@ ms.openlocfilehash: 6e30ddc7f7248fe7ff7136e19ba58c7d5d8a800f
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44454678"
 ---
 # <a name="delete-itemsync"></a>Delete （ItemSync）

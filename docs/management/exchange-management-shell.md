@@ -12,7 +12,7 @@ ms.openlocfilehash: 38e75339a4ad97cf8ff99e1cbe9c01059e157941
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44435805"
 ---
 # <a name="exchange-management-shell"></a>Exchange 命令行管理程序
@@ -32,7 +32,7 @@ Exchange 命令行管理程序基于 Windows PowerShell 平台提供了一组丰
 |可用测试和调试工具  <br/> |您可以使用许多第三方应用程序之一来测试和调试 Exchange 命令行管理程序脚本。  <br/> 您可以使用 Visual Studio 和第三方工具来测试和调试托管 Exchange 命令行管理程序应用程序。  <br/> |
 |服务器平台要求  <br/> |您可以在安装了 Windows PowerShell 2.0 的任何 Exchange 服务器上使用 Exchange 命令行管理程序。  <br/> |
 |客户端平台要求  <br/> |Exchange 命令行管理程序客户端应用程序需要 Windows PowerShell 2.0。  <br/> |
-|权限  <br/> |运行 Exchange 命令行管理程序应用程序要求用户对 Exchange 存储上受影响的数据具有基于角色的访问控制权限。<br/>有关基于角色的访问控制的详细信息，请参阅[了解基于角色的访问控制](https://technet.microsoft.com/library/dd298183.aspx)。  <br/> |
+|Permissions  <br/> |运行 Exchange 命令行管理程序应用程序要求用户对 Exchange 存储上受影响的数据具有基于角色的访问控制权限。<br/>有关基于角色的访问控制的详细信息，请参阅[了解基于角色的访问控制](https://technet.microsoft.com/library/dd298183.aspx)。  <br/> |
    
 本节中的文章介绍了 Exchange 命令行管理程序功能，对于创建 Exchange 管理工具来说非常重要。 有关规划、配置或维护 Exchange 的信息，请参阅[exchange](https://docs.microsoft.com/exchange/)网站。
   

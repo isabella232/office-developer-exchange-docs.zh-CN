@@ -12,7 +12,7 @@ ms.openlocfilehash: 9cff2af802392a241f2257d42741cb2f5a0e277e
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456001"
 ---
 # <a name="removeimgroupresponse"></a>RemoveImGroupResponse

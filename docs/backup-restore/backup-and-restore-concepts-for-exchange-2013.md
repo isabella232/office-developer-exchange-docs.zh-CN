@@ -12,7 +12,7 @@ ms.openlocfilehash: fd35699839af105dd3fe285776b071c1d03d58dd
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44437982"
 ---
 # <a name="backup-and-restore-concepts-for-exchange-2013"></a>Exchange 2013 的备份和还原概念
@@ -29,7 +29,7 @@ Exchange 2013 包括最高为100个数据库的支持。 每个 Exchange 2013 �
   
 **表1。Exchange 2013 数据库文件**
 
-|文件类型|扩展名|说明|
+|文件类型|扩展名|Description|
 |:-----|:-----|:-----|
 |数据库文件  <br/> |\*.edb  <br/> |记录已提交到内存中数据库的所有更改。  <br/> |
 |事务日志流  <br/> |\*.log  <br/> |记录将提交到数据库的操作，例如创建或修改邮件。 限制为每个大小的 1 MB。  <br/> |

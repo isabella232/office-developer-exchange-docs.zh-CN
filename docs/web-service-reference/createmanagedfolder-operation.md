@@ -16,7 +16,7 @@ ms.openlocfilehash: 779c730b55b9b441644108a6837f9e22d39cc2f4
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44444591"
 ---
 # <a name="createmanagedfolder-operation"></a>CreateManagedFolder 操作
@@ -40,7 +40,7 @@ CreateManagedFolder 操作将托管自定义文件夹添加到用户的邮箱中
   
 ## <a name="createmanagedfolder-request-example"></a>CreateManagedFolder 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 以下示例的 CreateManagedFolder 请求显示如何将名为 Test Managed Folder 的托管文件夹添加到邮箱。
   
@@ -79,7 +79,7 @@ CreateManagedFolder 操作将托管自定义文件夹添加到用户的邮箱中
   
 ## <a name="successful-createmanagedfolder-response"></a>成功的 CreateManagedFolder 响应
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的代码示例演示对 CreateManagedFolder 请求的成功响应。
   
@@ -138,7 +138,7 @@ CreateManagedFolder 操作将托管自定义文件夹添加到用户的邮箱中
   
 ## <a name="createmanagedfolder-error-response"></a>CreateManagedFolder 错误响应
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的代码示例演示对 CreateManagedFolder 请求的错误响应。
   

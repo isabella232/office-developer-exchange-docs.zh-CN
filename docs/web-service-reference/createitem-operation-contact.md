@@ -16,7 +16,7 @@ ms.openlocfilehash: e1d78392b94d328cf687655cd93e6c9568f6274f
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457121"
 ---
 # <a name="createitem-operation-contact"></a>CreateItem 操作（联系人）
@@ -29,7 +29,7 @@ CreateItem 操作用于在 Exchange 存储区中创建联系人。
   
 ## <a name="createitem-request-example"></a>CreateItem 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 以下是有效 CreateItem SOAP 请求的示例演示如何在默认的 "联系人" 文件夹中创建联系人。
   
@@ -120,7 +120,7 @@ CreateItem 操作用于在 Exchange 存储区中创建联系人。
     
 ## <a name="successful-createitem-request"></a>成功的 CreateItem 请求
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对创建了联系人的 CreateItem 请求的成功响应。 在此示例中，响应包含新创建的项目的标识符。
   
@@ -180,7 +180,7 @@ CreateItem 操作用于在 Exchange 存储区中创建联系人。
     
 ## <a name="invalid-createitem-request-example"></a>CreateItem 请求示例无效
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示一个包含有效的 XML 但不兼容的指令的请求。 无法在搜索文件夹中创建联系人。
   
@@ -208,7 +208,7 @@ CreateItem 操作用于在 Exchange 存储区中创建联系人。
 
 ## <a name="createitem-contact-error-response"></a>CreateItem （联系人）错误响应
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对 CreateItem （联系人）请求的错误响应。
   

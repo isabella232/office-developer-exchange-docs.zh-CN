@@ -16,7 +16,7 @@ ms.openlocfilehash: 3c8f749a03b4aa251bf9312eba5d7e2d46c91fae
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44452893"
 ---
 # <a name="cchksgfilespgnofromfileoffset-function"></a>CChkSGFiles 函数

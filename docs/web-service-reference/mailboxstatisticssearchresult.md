@@ -12,7 +12,7 @@ ms.openlocfilehash: c300c6c2ec9ab3c772709edd3e6a1c7fea19d6e3
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44440846"
 ---
 # <a name="mailboxstatisticssearchresult"></a>MailboxStatisticsSearchResult

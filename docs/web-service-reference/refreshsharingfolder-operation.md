@@ -16,7 +16,7 @@ ms.openlocfilehash: dd7136ae82353841db09497d23eabe450c1c8b13
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456736"
 ---
 # <a name="refreshsharingfolder-operation"></a>RefreshSharingFolder 操作
@@ -34,7 +34,7 @@ ms.locfileid: "44456736"
    
 ## <a name="refreshsharingfolder-request-example"></a>RefreshSharingFolder 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示如何使用要共享的文件夹中的最新数据来组成刷新指定本地文件夹的请求。 [SharingFolderId](sharingfolderid.md)元素指定要刷新的本地文件夹的标识符。 
   
@@ -70,7 +70,7 @@ ms.locfileid: "44456736"
     
 ## <a name="successful-refreshsharingfolder-response"></a>成功的 RefreshSharingFolder 响应
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对**RefreshSharingFolder**请求的成功响应。 
   
@@ -112,7 +112,7 @@ ms.locfileid: "44456736"
     
 ## <a name="refreshsharingfolder-error-response"></a>RefreshSharingFolder 错误响应
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对**RefreshSharingFolder**请求的错误响应。 在此示例中， **RefreshSharingFolder**请求失败，因为找不到与指定的本地文件夹相对应的订阅。 
   

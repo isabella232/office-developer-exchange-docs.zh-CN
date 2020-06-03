@@ -16,7 +16,7 @@ ms.openlocfilehash: 5a2d32da114391a623d5b0cc2d6c5ca49db78148
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455504"
 ---
 # <a name="cchksgfilesidbinvalid-enumeration"></a>IDbInvalid 枚举 CChkSGFiles

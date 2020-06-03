@@ -10,7 +10,7 @@ ms.openlocfilehash: 3a8ce889ec7a6b9e70ec25a95ac248902f48ca6c
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456302"
 ---
 # <a name="instrumenting-client-requests-for-ews-and-rest-in-exchange"></a>检测对 EWS 和 REST 在 Exchange 中的客户端请求
@@ -25,7 +25,7 @@ ms.locfileid: "44456302"
   
 **表1。用于故障排除的请求标头**
 
-|**HTTP 标头（EWS）**|**EWS 托管 API 等效项**|**注释**|
+|**HTTP 标头（EWS）**|**EWS 托管 API 等效项**|**备注**|
 |:-----|:-----|:-----|
 |用户代理  <br/> |[ExchangeService。 UserAgent](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.useragent%28v=exchg.80%29.aspx) <br/> |将此值设置为标识客户端应用程序的唯一值。<br/><br/> 如果你的应用程序发送的所有请求使用相同的值，Microsoft 可以在出现呼叫故障时帮助解决呼叫故障。  <br/> |
 |客户端请求 id  <br/> |[ExchangeService。 ClientRequestId](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.clientrequestid%28v=exchg.80%29.aspx) <br/> |对于您的应用程序发送的每个请求，请将此值设置为不同的唯一值。<br/><br/> 建议使用 GUID。 此唯一标识符用于在两个系统之间关联活动，以便在发生错误时进行关联。  <br/> |

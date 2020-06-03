@@ -16,7 +16,7 @@ ms.openlocfilehash: 5c69134c1613b0a4595a6aa876fa09fde63043ea
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44441546"
 ---
 # <a name="items-nonemptyarrayofuploaditemstype"></a>项目（NonEmptyArrayOfUploadItemsType）

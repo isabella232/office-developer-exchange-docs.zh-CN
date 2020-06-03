@@ -12,7 +12,7 @@ ms.openlocfilehash: f8a332d0816792f8888c97a8394886b026f5204b
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455268"
 ---
 # <a name="build-backup-and-restore-applications-for-exchange-2013"></a>为 Exchange 2013 生成备份和还原应用程序

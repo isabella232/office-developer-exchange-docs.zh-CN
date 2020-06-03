@@ -10,7 +10,7 @@ ms.openlocfilehash: c0c0364a7d69364e12db902f1f22d65c4b5a0cc5
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455875"
 ---
 # <a name="find-autodiscover-endpoints-by-using-scp-lookup-in-exchange"></a>通过使用 Exchange 中的 SCP 查找来找到自动发现终结点

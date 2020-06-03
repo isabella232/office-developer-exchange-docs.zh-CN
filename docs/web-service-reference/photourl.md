@@ -12,7 +12,7 @@ ms.openlocfilehash: f14b62da13ba407355b5422bc61b3cefc869fa96
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44434062"
 ---
 # <a name="photourl"></a>PhotoUrl

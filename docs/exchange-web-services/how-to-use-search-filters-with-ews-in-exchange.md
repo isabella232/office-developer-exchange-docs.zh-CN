@@ -10,7 +10,7 @@ ms.openlocfilehash: 04a74ec92d4bced8abd58d164a1c186d6405e679
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455833"
 ---
 # <a name="use-search-filters-with-ews-in-exchange"></a>在 Exchange 中将搜索筛选器与 EWS 结合使用

@@ -10,7 +10,7 @@ ms.openlocfilehash: 0c6ac49629ad4cdb4419cc8638d8e60ecb6509d6
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455399"
 ---
 # <a name="ews-throttling-in-exchange"></a>Exchange 中的 EWS 限制

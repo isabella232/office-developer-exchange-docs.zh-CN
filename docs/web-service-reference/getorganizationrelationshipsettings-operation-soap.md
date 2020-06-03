@@ -11,7 +11,7 @@ ms.openlocfilehash: bf3a249b1380f60dced985acbfae5a6aa0e8ac8a
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44452746"
 ---
 # <a name="getorganizationrelationshipsettings-operation-soap"></a>GetOrganizationRelationshipSettings 操作（SOAP）

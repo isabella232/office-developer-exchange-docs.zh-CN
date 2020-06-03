@@ -16,7 +16,7 @@ ms.openlocfilehash: b7830a94237b721d02409e2d93b27c2c5ef015e7
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455280"
 ---
 # <a name="isfoldercontact"></a>IsFolderContact

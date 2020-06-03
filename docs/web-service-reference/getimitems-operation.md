@@ -12,7 +12,7 @@ ms.openlocfilehash: 960f4683dd478b0e5f8cf18fa8d1593b7433a249
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456043"
 ---
 # <a name="getimitems-operation"></a>GetImItems 操作

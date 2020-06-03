@@ -12,7 +12,7 @@ ms.openlocfilehash: 2c5f0e7b21c66963275c27711258824155a5698e
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44448665"
 ---
 # <a name="rmstemplateid"></a>RMSTemplateId

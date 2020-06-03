@@ -10,7 +10,7 @@ ms.openlocfilehash: 0ac4fe1be0800008af572ebc296e004aa29d8daf
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455420"
 ---
 # <a name="ews-client-design-overview-for-exchange"></a>Exchange 的 EWS 客户端设计概述

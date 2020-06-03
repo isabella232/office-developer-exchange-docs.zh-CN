@@ -10,7 +10,7 @@ ms.openlocfilehash: a8032e16cdd9100289666d8f2ce742fe054ede2e
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456029"
 ---
 # <a name="ews-functionality-in-exchange-product-versions"></a>Exchange 产品版本中的 EWS 功能

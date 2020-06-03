@@ -16,7 +16,7 @@ ms.openlocfilehash: dbc76601a808f79ce3ed5b5dc9fbe4cf92efb015
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455252"
 ---
 # <a name="cchksgfileserr-enumeration"></a>CChkSGFiles 枚举 

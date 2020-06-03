@@ -16,7 +16,7 @@ ms.openlocfilehash: e9bb9199027c2af2cbbb664ef7ad4fa70b7ef718
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455742"
 ---
 # <a name="deletefolder-operation"></a>DeleteFolder 操作
@@ -25,7 +25,7 @@ ms.locfileid: "44455742"
   
 ## <a name="deletefolder-request-example"></a>DeleteFolder 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的**DeleteFolder**请求示例演示如何在表单中组成删除文件夹的请求。 
   
@@ -71,7 +71,7 @@ ms.locfileid: "44455742"
   
 ## <a name="successful-deletefolder-response"></a>成功的 DeleteFolder 响应
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对**DeleteFolder**请求的成功响应。 
   
@@ -118,7 +118,7 @@ ms.locfileid: "44455742"
   
 ## <a name="deletefolder-error-response"></a>DeleteFolder 错误响应
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对**DeleteFolder**请求的错误响应。 此错误是由于请求删除邮箱中不存在的文件夹所致。 
   

@@ -10,7 +10,7 @@ ms.openlocfilehash: 064f99997b7c3d1197cb8d1ee6a24f8fb874f706
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455840"
 ---
 # <a name="update-the-time-zone-for-an-appointment-by-using-ews-in-exchange"></a>使用 Exchange 中的 EWS 更新约会的时区

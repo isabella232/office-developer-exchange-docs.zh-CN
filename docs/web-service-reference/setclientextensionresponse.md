@@ -12,7 +12,7 @@ ms.openlocfilehash: 97c3a54c6bbaeb1bf22bc87505d7f7f59d10c20b
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44438087"
 ---
 # <a name="setclientextensionresponse"></a>SetClientExtensionResponse

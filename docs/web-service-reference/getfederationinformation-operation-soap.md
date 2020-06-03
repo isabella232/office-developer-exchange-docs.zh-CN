@@ -13,7 +13,7 @@ ms.openlocfilehash: 533b2f6d282e3287f4945df56b169f5bc93ff445
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455623"
 ---
 # <a name="getfederationinformation-operation-soap"></a>GetFederationInformation 操作 (SOAP)
@@ -24,7 +24,7 @@ ms.locfileid: "44455623"
   
 ## <a name="getfederationinformation-request-example"></a>GetFederationInformation 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 以下示例的**GetFederationInformation**请求显示了用户的联合身份验证信息的请求。 客户端将此请求发送到服务器。 
   
@@ -72,7 +72,7 @@ ms.locfileid: "44455623"
     
 ## <a name="getfederationinformation-response-example"></a>GetFederationInformation 响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对服务器发送到客户端的**GetFederationInformation**请求的成功响应。 
   

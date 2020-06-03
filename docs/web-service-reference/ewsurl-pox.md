@@ -11,7 +11,7 @@ ms.openlocfilehash: 295e65ddf14524a41c5cb714df78703dbf855a05
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44454349"
 ---
 # <a name="ewsurl-pox"></a>Mailbox.ewsurl （POX）

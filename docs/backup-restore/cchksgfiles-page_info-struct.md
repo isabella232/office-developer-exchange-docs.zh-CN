@@ -16,7 +16,7 @@ ms.openlocfilehash: 5ec9f4303b26ea95b125adac6943945ae1276439
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456337"
 ---
 # <a name="cchksgfilespage_info-struct"></a>CChkSGFiles 结构 PAGE_INFO 结构

@@ -16,7 +16,7 @@ ms.openlocfilehash: 064e1ace2c2f51783431ce42670b2a4fd8146b54
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44451465"
 ---
 # <a name="deleteuserconfiguration-operation"></a>DeleteUserConfiguration 操作
@@ -28,7 +28,7 @@ ms.locfileid: "44451465"
   
 ## <a name="deleteuserconfiguration-request-example"></a>DeleteUserConfiguration 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 以下示例的**DeleteUserConfiguration**请求显示如何在 "草稿" 文件夹中形成删除用户配置对象的请求。 
   
@@ -56,7 +56,7 @@ ms.locfileid: "44451465"
 
 ## <a name="deleteuserconfiguration-response-example"></a>DeleteUserConfiguration 响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对**DeleteUserConfiguration**请求的成功响应。 
   

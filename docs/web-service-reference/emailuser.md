@@ -12,7 +12,7 @@ ms.openlocfilehash: c090106a536f4f40908d364cc3c9c43f6fe42beb
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456533"
 ---
 # <a name="emailuser"></a>Emailuser.displayname

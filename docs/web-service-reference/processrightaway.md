@@ -16,7 +16,7 @@ ms.openlocfilehash: 58d2b926c48db5e7395df64e1f8ee9d6a8f0e73c
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44434069"
 ---
 # <a name="processrightaway"></a>ProcessRightAway

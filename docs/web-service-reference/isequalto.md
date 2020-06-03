@@ -16,7 +16,7 @@ ms.openlocfilehash: 857192443ab0520bb26ead399bc5364cc862a4fb
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455294"
 ---
 # <a name="isequalto"></a>IsEqualTo

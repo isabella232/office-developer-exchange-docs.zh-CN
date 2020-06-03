@@ -10,7 +10,7 @@ ms.openlocfilehash: dd225030d62a2e8211b7063ee78a59fd1a070263
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455854"
 ---
 # <a name="trace-requests-and-responses-to-troubleshoot-ews-managed-api-apps"></a>跟踪对 EWS 托管 API 应用程序进行故障排除的请求和响应

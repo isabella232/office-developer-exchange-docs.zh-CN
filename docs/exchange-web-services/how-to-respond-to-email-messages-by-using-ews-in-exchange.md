@@ -1,5 +1,5 @@
 ---
-title: 在 Exchange 中使用 EWS 响应电子邮件
+title: 使用 Exchange 中的 EWS 响应电子邮件
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,10 +10,10 @@ ms.openlocfilehash: 81599051f603654cdf8a50b789b37d7e76664a53
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455707"
 ---
-# <a name="respond-to-email-messages-by-using-ews-in-exchange"></a>在 Exchange 中使用 EWS 响应电子邮件
+# <a name="respond-to-email-messages-by-using-ews-in-exchange"></a>使用 Exchange 中的 EWS 响应电子邮件
 
 了解如何使用 Exchange 中的 EWS 托管 API 或 EWS 对电子邮件进行响应。
   

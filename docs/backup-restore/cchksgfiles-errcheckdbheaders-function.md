@@ -16,7 +16,7 @@ ms.openlocfilehash: a62c5940322d3d7a71f2db93214f1e970fc6859b
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455245"
 ---
 # <a name="cchksgfileserrcheckdbheaders-function"></a>CChkSGFiles 函数

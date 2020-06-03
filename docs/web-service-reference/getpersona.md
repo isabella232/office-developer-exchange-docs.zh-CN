@@ -12,7 +12,7 @@ ms.openlocfilehash: 8e31e2688b9313d7db6c73e2d1f92e8d7cf4f246
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455609"
 ---
 # <a name="getpersona"></a>GetPersona

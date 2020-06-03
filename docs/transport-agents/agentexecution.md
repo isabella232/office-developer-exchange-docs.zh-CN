@@ -16,7 +16,7 @@ ms.openlocfilehash: 457257e59fb37659daf2f91b0fa5dfced5c48c03
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44446488"
 ---
 # <a name="agentexecution"></a>agentExecution

@@ -12,7 +12,7 @@ ms.openlocfilehash: 9be702b05e89857913023a8ec34b78ea4c309274
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455287"
 ---
 # <a name="isexternalmailbox"></a>IsExternalMailbox

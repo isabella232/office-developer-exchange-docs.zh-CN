@@ -16,7 +16,7 @@ ms.openlocfilehash: 546dde782b3b20cd76acb625067b5f2d8f568854
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44445319"
 ---
 # <a name="createdevent"></a>CreatedEvent

@@ -13,7 +13,7 @@ ms.openlocfilehash: 90cb29dd4ce4026211a5b592f149c8190dc81d29
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456414"
 ---
 # <a name="response-soap"></a>响应（SOAP）

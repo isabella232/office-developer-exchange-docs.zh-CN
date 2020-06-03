@@ -16,7 +16,7 @@ ms.openlocfilehash: 31d46b2b41b4b22ca5afeb842d7b0e0d16677920
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455413"
 ---
 # <a name="itemclass"></a>ItemClass

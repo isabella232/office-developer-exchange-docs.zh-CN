@@ -16,7 +16,7 @@ ms.openlocfilehash: 45740d1a31d9b04bbc5062e7ff8b05629abd84c4
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455378"
 ---
 # <a name="lastresponsetime"></a>LastResponseTime

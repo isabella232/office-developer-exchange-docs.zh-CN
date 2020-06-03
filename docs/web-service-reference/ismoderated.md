@@ -16,7 +16,7 @@ ms.openlocfilehash: 930d5a7e09712f35d22850a93462d051a34785a1
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44435483"
 ---
 # <a name="ismoderated"></a>IsModerated

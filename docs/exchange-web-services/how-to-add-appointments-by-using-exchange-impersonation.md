@@ -10,7 +10,7 @@ ms.openlocfilehash: b1473d72113f8cc07d05364a4d87fedf23c7351d
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455329"
 ---
 # <a name="add-appointments-by-using-exchange-impersonation"></a>使用 Exchange 模拟添加约会

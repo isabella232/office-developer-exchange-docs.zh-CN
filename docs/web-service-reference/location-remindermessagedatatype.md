@@ -12,7 +12,7 @@ ms.openlocfilehash: 16474c1b635a3e2337a89b98b6660293276774bf
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44433719"
 ---
 # <a name="location-remindermessagedatatype"></a>Location （ReminderMessageDataType）

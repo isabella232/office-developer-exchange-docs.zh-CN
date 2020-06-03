@@ -16,7 +16,7 @@ ms.openlocfilehash: 0daf9c1422f7ba3894f9785aacac58263c5e721e
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457212"
 ---
 # <a name="start"></a>开始
