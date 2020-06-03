@@ -1,37 +1,37 @@
 ---
-title: 使用 EWS 在 Exchange 服务器获取附件
+title: 使用 Exchange 中的 EWS 获取附件
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 12ce3cc0-a201-42e4-93e1-1f57961ff711
-description: 了解如何从 EWS 项目使用 EWS 托管 API 或 EWS 在 Exchange 服务器获取附件。
-ms.openlocfilehash: 2e1b3cfb346abd068695f66b01f9e34f1f5ff03f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 了解如何通过在 Exchange 中使用 EWS 托管 API 或 EWS 从 EWS 项目中获取附件。
+localization_priority: Priority
+ms.openlocfilehash: de3e3ebfbcb16935130203dfed50f255bd59be7b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19752781"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528081"
 ---
-# <a name="get-attachments-by-using-ews-in-exchange"></a><span data-ttu-id="46113-103">使用 EWS 在 Exchange 服务器获取附件</span><span class="sxs-lookup"><span data-stu-id="46113-103">Get attachments by using EWS in Exchange</span></span>
+# <a name="get-attachments-by-using-ews-in-exchange"></a><span data-ttu-id="b97e1-103">使用 Exchange 中的 EWS 获取附件</span><span class="sxs-lookup"><span data-stu-id="b97e1-103">Get attachments by using EWS in Exchange</span></span>
 
-<span data-ttu-id="46113-104">了解如何从 EWS 项目使用 EWS 托管 API 或 EWS 在 Exchange 服务器获取附件。</span><span class="sxs-lookup"><span data-stu-id="46113-104">Learn how to get attachments from EWS items by using the EWS Managed API or EWS in Exchange.</span></span>
+<span data-ttu-id="b97e1-104">了解如何通过在 Exchange 中使用 EWS 托管 API 或 EWS 从 EWS 项目中获取附件。</span><span class="sxs-lookup"><span data-stu-id="b97e1-104">Learn how to get attachments from EWS items by using the EWS Managed API or EWS in Exchange.</span></span>
   
-<span data-ttu-id="46113-105">您可以通过使用 EWS 托管 API 或 EWS 获取从项目的附件。</span><span class="sxs-lookup"><span data-stu-id="46113-105">You can get attachments from an item by using the EWS Managed API or EWS.</span></span> <span data-ttu-id="46113-106">获取项的初始调用仅包含有关项目的附件集合的元数据，因为始终多检索附件是一个两步过程。</span><span class="sxs-lookup"><span data-stu-id="46113-106">Because the initial call to get an item only includes metadata about the attachment collection on the item, retrieving attachments is always a two-step process.</span></span> <span data-ttu-id="46113-107">首先，检索项目。</span><span class="sxs-lookup"><span data-stu-id="46113-107">First, retrieve the item.</span></span> <span data-ttu-id="46113-108">接下来，检索附件。</span><span class="sxs-lookup"><span data-stu-id="46113-108">Next, retrieve the attachment.</span></span>
+<span data-ttu-id="b97e1-105">您可以使用 EWS 托管 API 或 EWS 从项目中获取附件。</span><span class="sxs-lookup"><span data-stu-id="b97e1-105">You can get attachments from an item by using the EWS Managed API or EWS.</span></span> <span data-ttu-id="b97e1-106">由于最初对获取项目的调用包含有关项目上的附件集合的元数据，因此检索附件的过程始终为两个步骤。</span><span class="sxs-lookup"><span data-stu-id="b97e1-106">Because the initial call to get an item only includes metadata about the attachment collection on the item, retrieving attachments is always a two-step process.</span></span> <span data-ttu-id="b97e1-107">首先，检索项目。</span><span class="sxs-lookup"><span data-stu-id="b97e1-107">First, retrieve the item.</span></span> <span data-ttu-id="b97e1-108">接下来，检索附件。</span><span class="sxs-lookup"><span data-stu-id="b97e1-108">Next, retrieve the attachment.</span></span>
   
-<span data-ttu-id="46113-109">**表 1。EWS 托管 API 方法和添加附件的 EWS 操作**</span><span class="sxs-lookup"><span data-stu-id="46113-109">**Table 1. EWS Managed API methods and EWS operations for adding attachments**</span></span>
+<span data-ttu-id="b97e1-109">**表1。用于添加附件的 EWS 托管 API 方法和 EWS 操作**</span><span class="sxs-lookup"><span data-stu-id="b97e1-109">**Table 1. EWS Managed API methods and EWS operations for adding attachments**</span></span>
 
-|<span data-ttu-id="46113-110">**任务**</span><span class="sxs-lookup"><span data-stu-id="46113-110">**Task**</span></span>|<span data-ttu-id="46113-111">**EWS 托管的 API 方法**</span><span class="sxs-lookup"><span data-stu-id="46113-111">**EWS Managed API method**</span></span>|<span data-ttu-id="46113-112">**EWS 操作**</span><span class="sxs-lookup"><span data-stu-id="46113-112">**EWS operation**</span></span>|
+|<span data-ttu-id="b97e1-110">**任务**</span><span class="sxs-lookup"><span data-stu-id="b97e1-110">**Task**</span></span>|<span data-ttu-id="b97e1-111">**EWS 托管的 API 方法**</span><span class="sxs-lookup"><span data-stu-id="b97e1-111">**EWS Managed API method**</span></span>|<span data-ttu-id="b97e1-112">**EWS 操作**</span><span class="sxs-lookup"><span data-stu-id="b97e1-112">**EWS operation**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="46113-113">获取项目附件</span><span class="sxs-lookup"><span data-stu-id="46113-113">Get item attachments</span></span>  <br/> |<span data-ttu-id="46113-114">[Item.Bind](http://msdn.microsoft.com/zh-cn/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx)跟[ItemAttachment.Load](http://msdn.microsoft.com/zh-cn/library/microsoft.exchange.webservices.data.itemattachment.load%28v=exchg.80%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="46113-114">[Item.Bind](http://msdn.microsoft.com/zh-cn/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) followed by [ItemAttachment.Load](http://msdn.microsoft.com/zh-cn/library/microsoft.exchange.webservices.data.itemattachment.load%28v=exchg.80%29.aspx)</span></span> <br/> |<span data-ttu-id="46113-115">[GetItem](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx)跟[GetAttachment](http://msdn.microsoft.com/library/24d10a15-b942-415e-9024-a6375708f326%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="46113-115">[GetItem](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) followed by [GetAttachment](http://msdn.microsoft.com/library/24d10a15-b942-415e-9024-a6375708f326%28Office.15%29.aspx)</span></span> <br/> |
-|<span data-ttu-id="46113-116">获取文件附件</span><span class="sxs-lookup"><span data-stu-id="46113-116">Get file attachments</span></span>  <br/> |<span data-ttu-id="46113-117">[Item.Bind](http://msdn.microsoft.com/zh-cn/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx)跟[FileAttachment.Load](http://msdn.microsoft.com/zh-cn/library/microsoft.exchange.webservices.data.fileattachment.load%28v=exchg.80%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="46113-117">[Item.Bind](http://msdn.microsoft.com/zh-cn/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) followed by [FileAttachment.Load](http://msdn.microsoft.com/zh-cn/library/microsoft.exchange.webservices.data.fileattachment.load%28v=exchg.80%29.aspx)</span></span> <br/> |<span data-ttu-id="46113-118">[GetItem](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx)跟[GetAttachment](http://msdn.microsoft.com/library/24d10a15-b942-415e-9024-a6375708f326%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="46113-118">[GetItem](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) followed by [GetAttachment](http://msdn.microsoft.com/library/24d10a15-b942-415e-9024-a6375708f326%28Office.15%29.aspx)</span></span> <br/> |
+|<span data-ttu-id="b97e1-113">获取项目附件</span><span class="sxs-lookup"><span data-stu-id="b97e1-113">Get item attachments</span></span>  <br/> |<span data-ttu-id="b97e1-114">先绑定后接[ItemAttachment](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.itemattachment.load%28v=exchg.80%29.aspx)的[项](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="b97e1-114">[Item.Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) followed by [ItemAttachment.Load](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.itemattachment.load%28v=exchg.80%29.aspx)</span></span> <br/> |<span data-ttu-id="b97e1-115">[GetItem](https://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx)后接[GetAttachment](https://msdn.microsoft.com/library/24d10a15-b942-415e-9024-a6375708f326%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="b97e1-115">[GetItem](https://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) followed by [GetAttachment](https://msdn.microsoft.com/library/24d10a15-b942-415e-9024-a6375708f326%28Office.15%29.aspx)</span></span> <br/> |
+|<span data-ttu-id="b97e1-116">获取文件附件</span><span class="sxs-lookup"><span data-stu-id="b97e1-116">Get file attachments</span></span>  <br/> |<span data-ttu-id="b97e1-117">先绑定后接[FileAttachment](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.fileattachment.load%28v=exchg.80%29.aspx)的[项](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="b97e1-117">[Item.Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) followed by [FileAttachment.Load](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.fileattachment.load%28v=exchg.80%29.aspx)</span></span> <br/> |<span data-ttu-id="b97e1-118">[GetItem](https://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx)后接[GetAttachment](https://msdn.microsoft.com/library/24d10a15-b942-415e-9024-a6375708f326%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="b97e1-118">[GetItem](https://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) followed by [GetAttachment](https://msdn.microsoft.com/library/24d10a15-b942-415e-9024-a6375708f326%28Office.15%29.aspx)</span></span> <br/> |
    
-## <a name="get-attachments-from-an-email-by-using-the-ews-managed-api"></a><span data-ttu-id="46113-119">从电子邮件使用 EWS 托管 API 服务器获取附件</span><span class="sxs-lookup"><span data-stu-id="46113-119">Get attachments from an email by using the EWS Managed API</span></span>
-<span data-ttu-id="46113-120"><a name="bk_getattachewsma"> </a></span><span class="sxs-lookup"><span data-stu-id="46113-120"></span></span>
+## <a name="get-attachments-from-an-email-by-using-the-ews-managed-api"></a><span data-ttu-id="b97e1-119">使用 EWS 托管 API 从电子邮件获取附件</span><span class="sxs-lookup"><span data-stu-id="b97e1-119">Get attachments from an email by using the EWS Managed API</span></span>
+<span data-ttu-id="b97e1-120"><a name="bk_getattachewsma"> </a></span><span class="sxs-lookup"><span data-stu-id="b97e1-120"><a name="bk_getattachewsma"> </a></span></span>
 
-<span data-ttu-id="46113-121">下面的代码示例演示如何使用**绑定**方法，获取[EmailMessage](http://msdn.microsoft.com/zh-cn/library/microsoft.exchange.webservices.data.emailmessage%28v=exchg.80%29.aspx)对象然后循环访问附件集合并对每个调用**FileAttachment.Load**或**ItemAttachment.Load**方法根据附件。</span><span class="sxs-lookup"><span data-stu-id="46113-121">The following code example shows how to get an [EmailMessage](http://msdn.microsoft.com/zh-cn/library/microsoft.exchange.webservices.data.emailmessage%28v=exchg.80%29.aspx) object by using the **Bind** method, then iterate through the attachment collection and call the **FileAttachment.Load** or **ItemAttachment.Load** method on each attachment as appropriate.</span></span> <span data-ttu-id="46113-122">每个文件附件保存到 C:\temp\ 文件夹中，并加载到内存中每个项目附件。</span><span class="sxs-lookup"><span data-stu-id="46113-122">Each file attachment is saved to the C:\temp\ folder, and each item attachment is loaded into memory.</span></span> <span data-ttu-id="46113-123">有关如何保存项目附件的信息，请参阅[保存使用 EWS 托管 API 附加电子邮件](#bk_saveitemattach)。</span><span class="sxs-lookup"><span data-stu-id="46113-123">For information about how to save an item attachment, see [Save an attached email by using the EWS Managed API](#bk_saveitemattach).</span></span>
+<span data-ttu-id="b97e1-121">下面的代码示例演示如何使用**Bind**方法获取[EmailMessage](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage%28v=exchg.80%29.aspx)对象，然后循环访问附件集合，并根据需要对每个附件调用**FileAttachment**或**ItemAttachment**方法。</span><span class="sxs-lookup"><span data-stu-id="b97e1-121">The following code example shows how to get an [EmailMessage](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage%28v=exchg.80%29.aspx) object by using the **Bind** method, then iterate through the attachment collection and call the **FileAttachment.Load** or **ItemAttachment.Load** method on each attachment as appropriate.</span></span> <span data-ttu-id="b97e1-122">每个文件附件都保存到 C:\temp\ 文件夹，每个项目附件都会加载到内存中。</span><span class="sxs-lookup"><span data-stu-id="b97e1-122">Each file attachment is saved to the C:\temp\ folder, and each item attachment is loaded into memory.</span></span> <span data-ttu-id="b97e1-123">有关如何保存项目附件的信息，请参阅[使用 EWS 托管 API 保存附加的电子邮件](#bk_saveitemattach)。</span><span class="sxs-lookup"><span data-stu-id="b97e1-123">For information about how to save an item attachment, see [Save an attached email by using the EWS Managed API](#bk_saveitemattach).</span></span>
   
-<span data-ttu-id="46113-124">此示例假定该**服务**是有效[ExchangeService](http://msdn.microsoft.com/zh-cn/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象，该**itemId**为[ItemId](http://msdn.microsoft.com/zh-cn/library/microsoft.exchange.webservices.data.itemid%28v=exchg.80%29.aspx)从中将检索附件，并且用户已经过身份验证到 Exchange 服务器的邮件。</span><span class="sxs-lookup"><span data-stu-id="46113-124">This example assumes that **service** is a valid [ExchangeService](http://msdn.microsoft.com/zh-cn/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object, that **itemId** is the [ItemId](http://msdn.microsoft.com/zh-cn/library/microsoft.exchange.webservices.data.itemid%28v=exchg.80%29.aspx) of the message from which attachments will be retrieved, and that the user has been authenticated to an Exchange server.</span></span> 
+<span data-ttu-id="b97e1-124">此示例假定**service**是有效的[ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象，则**itemid**是将从中检索附件的邮件的[itemid](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.itemid%28v=exchg.80%29.aspx) ，并且用户已通过 Exchange 服务器的身份验证。</span><span class="sxs-lookup"><span data-stu-id="b97e1-124">This example assumes that **service** is a valid [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object, that **itemId** is the [ItemId](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.itemid%28v=exchg.80%29.aspx) of the message from which attachments will be retrieved, and that the user has been authenticated to an Exchange server.</span></span> 
   
 ```cs
 public static void GetAttachmentsFromEmail(ExchangeService service, ItemId itemId)
@@ -64,19 +64,19 @@ public static void GetAttachmentsFromEmail(ExchangeService service, ItemId itemI
 }
 ```
 
-## <a name="get-an-attachment-from-an-email-by-using-ews"></a><span data-ttu-id="46113-125">从电子邮件的使用 EWS 获取附件</span><span class="sxs-lookup"><span data-stu-id="46113-125">Get an attachment from an email by using EWS</span></span>
-<span data-ttu-id="46113-126"><a name="bk_getattachewsma"> </a></span><span class="sxs-lookup"><span data-stu-id="46113-126"></span></span>
+## <a name="get-an-attachment-from-an-email-by-using-ews"></a><span data-ttu-id="b97e1-125">使用 EWS 从电子邮件获取附件</span><span class="sxs-lookup"><span data-stu-id="b97e1-125">Get an attachment from an email by using EWS</span></span>
+<span data-ttu-id="b97e1-126"><a name="bk_getattachewsma"> </a></span><span class="sxs-lookup"><span data-stu-id="b97e1-126"><a name="bk_getattachewsma"> </a></span></span>
 
-<span data-ttu-id="46113-127">若要使用 EWS 获取附件，首先需要检索邮件和附件集合获取附件[AttachmentId （GetAttachment 和 DeleteAttachment）](http://msdn.microsoft.com/library/4bea1cb5-0a0f-4e14-9b09-f91af8cf9899%28Office.15%29.aspx)检索。</span><span class="sxs-lookup"><span data-stu-id="46113-127">To get attachments by using EWS, you first need to retrieve the message and the attachment collection to get the [AttachmentId (GetAttachment and DeleteAttachment)](http://msdn.microsoft.com/library/4bea1cb5-0a0f-4e14-9b09-f91af8cf9899%28Office.15%29.aspx) of the attachment to retrieve.</span></span> <span data-ttu-id="46113-128">要检索的一个或多个**AttachmentId**值后，调用[GetAttachment](http://msdn.microsoft.com/library/24d10a15-b942-415e-9024-a6375708f326%28Office.15%29.aspx)操作加载附件的所有属性。</span><span class="sxs-lookup"><span data-stu-id="46113-128">After you have one or more **AttachmentId** values to retrieve, call the [GetAttachment](http://msdn.microsoft.com/library/24d10a15-b942-415e-9024-a6375708f326%28Office.15%29.aspx) operation to load all the properties for the attachment.</span></span> 
+<span data-ttu-id="b97e1-127">若要使用 EWS 获取附件，首先需要检索邮件和附件集合，以获取要检索的附件的[AttachmentId （GetAttachment 和 DeleteAttachment）](https://msdn.microsoft.com/library/4bea1cb5-0a0f-4e14-9b09-f91af8cf9899%28Office.15%29.aspx) 。</span><span class="sxs-lookup"><span data-stu-id="b97e1-127">To get attachments by using EWS, you first need to retrieve the message and the attachment collection to get the [AttachmentId (GetAttachment and DeleteAttachment)](https://msdn.microsoft.com/library/4bea1cb5-0a0f-4e14-9b09-f91af8cf9899%28Office.15%29.aspx) of the attachment to retrieve.</span></span> <span data-ttu-id="b97e1-128">在具有一个或多个要检索的**AttachmentId**值之后，调用[GetAttachment](https://msdn.microsoft.com/library/24d10a15-b942-415e-9024-a6375708f326%28Office.15%29.aspx)操作以加载附件的所有属性。</span><span class="sxs-lookup"><span data-stu-id="b97e1-128">After you have one or more **AttachmentId** values to retrieve, call the [GetAttachment](https://msdn.microsoft.com/library/24d10a15-b942-415e-9024-a6375708f326%28Office.15%29.aspx) operation to load all the properties for the attachment.</span></span> 
   
-<span data-ttu-id="46113-129">下面的代码示例演示如何使用[GetItem](http://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx)操作获取邮件上的电子邮件和附件的集合。</span><span class="sxs-lookup"><span data-stu-id="46113-129">The following code example shows how to use the [GetItem](http://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) operation to get an email message and the collection of attachments on the message.</span></span> <span data-ttu-id="46113-130">这也是使用 EWS 托管 API[获取电子邮件中的所有附件](#bk_getattachewsma)时，将发送 EWS 托管 API 的第一个 XML 请求。</span><span class="sxs-lookup"><span data-stu-id="46113-130">This is also the first XML request that the EWS Managed API sends when you use the EWS Managed API to [get all attachments from an email](#bk_getattachewsma).</span></span> <span data-ttu-id="46113-131">为便于阅读缩短某些属性的值。</span><span class="sxs-lookup"><span data-stu-id="46113-131">The values of some attributes are shortened for readability.</span></span>
+<span data-ttu-id="b97e1-129">下面的代码示例演示如何使用[GetItem](https://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx)操作来获取电子邮件和邮件附件的集合。</span><span class="sxs-lookup"><span data-stu-id="b97e1-129">The following code example shows how to use the [GetItem](https://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) operation to get an email message and the collection of attachments on the message.</span></span> <span data-ttu-id="b97e1-130">这也是当您使用 EWS 托管 API[从电子邮件获取所有附件](#bk_getattachewsma)时，EWS 托管 api 发送的第一个 XML 请求。</span><span class="sxs-lookup"><span data-stu-id="b97e1-130">This is also the first XML request that the EWS Managed API sends when you use the EWS Managed API to [get all attachments from an email](#bk_getattachewsma).</span></span> <span data-ttu-id="b97e1-131">为了提高可读性，某些属性的值会缩短。</span><span class="sxs-lookup"><span data-stu-id="b97e1-131">The values of some attributes are shortened for readability.</span></span>
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange207_SP1" />
   </soap:Header>
@@ -96,26 +96,26 @@ public static void GetAttachmentsFromEmail(ExchangeService service, ItemId itemI
 </soap:Envelope>
 ```
 
-<span data-ttu-id="46113-132">服务器响应**GetItem**请求[GetItemResponse](http://msdn.microsoft.com/library/8b66de1b-26a6-476c-9585-a96059125716%28Office.15%29.aspx)邮件包含**NoError**，这表明已成功检索电子邮件， [ResponseCode](http://msdn.microsoft.com/zh-cn/library/aa580757%28v=exchg.150%29.aspx)值和[AttachmentId](http://msdn.microsoft.com/library/55a5fd77-60d1-40fa-8144-770600cedc6a%28Office.15%29.aspx)值现有的附件。</span><span class="sxs-lookup"><span data-stu-id="46113-132">The server responds to the **GetItem** request with a [GetItemResponse](http://msdn.microsoft.com/library/8b66de1b-26a6-476c-9585-a96059125716%28Office.15%29.aspx) message that includes a [ResponseCode](http://msdn.microsoft.com/zh-cn/library/aa580757%28v=exchg.150%29.aspx) value of **NoError**, which indicates that the email was retrieved successfully, and the [AttachmentId](http://msdn.microsoft.com/library/55a5fd77-60d1-40fa-8144-770600cedc6a%28Office.15%29.aspx) values of the existing attachments.</span></span> 
+<span data-ttu-id="b97e1-132">服务器使用[GetItemResponse](https://msdn.microsoft.com/library/8b66de1b-26a6-476c-9585-a96059125716%28Office.15%29.aspx)邮件响应**GetItem**请求，其中包括 ResponseCode 值为**NoError**的[ResponseCode](https://msdn.microsoft.com/library/aa580757%28v=exchg.150%29.aspx)值，该值指示电子邮件已成功检索，以及现有附件的[AttachmentId](https://msdn.microsoft.com/library/55a5fd77-60d1-40fa-8144-770600cedc6a%28Office.15%29.aspx)值。</span><span class="sxs-lookup"><span data-stu-id="b97e1-132">The server responds to the **GetItem** request with a [GetItemResponse](https://msdn.microsoft.com/library/8b66de1b-26a6-476c-9585-a96059125716%28Office.15%29.aspx) message that includes a [ResponseCode](https://msdn.microsoft.com/library/aa580757%28v=exchg.150%29.aspx) value of **NoError**, which indicates that the email was retrieved successfully, and the [AttachmentId](https://msdn.microsoft.com/library/55a5fd77-60d1-40fa-8144-770600cedc6a%28Office.15%29.aspx) values of the existing attachments.</span></span> 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15"
                          MinorVersion="0"
                          MajorBuildNumber="939"
                          MinorBuildNumber="12"
                          Version="V2_11"
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:GetItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:GetItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:GetItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -150,14 +150,14 @@ public static void GetAttachmentsFromEmail(ExchangeService service, ItemId itemI
 
 ```
 
-<span data-ttu-id="46113-133">既然您已经[AttachmentId](http://msdn.microsoft.com/library/55a5fd77-60d1-40fa-8144-770600cedc6a%28Office.15%29.aspx)值，调用[GetAttachment](http://msdn.microsoft.com/library/24d10a15-b942-415e-9024-a6375708f326%28Office.15%29.aspx)上要检索每个附件。</span><span class="sxs-lookup"><span data-stu-id="46113-133">Now that you have the [AttachmentId](http://msdn.microsoft.com/library/55a5fd77-60d1-40fa-8144-770600cedc6a%28Office.15%29.aspx) values, call [GetAttachment](http://msdn.microsoft.com/library/24d10a15-b942-415e-9024-a6375708f326%28Office.15%29.aspx) on each attachment you want to retrieve.</span></span> 
+<span data-ttu-id="b97e1-133">现在您已拥有[AttachmentId](https://msdn.microsoft.com/library/55a5fd77-60d1-40fa-8144-770600cedc6a%28Office.15%29.aspx)值，请在要检索的每个附件上调用[GetAttachment](https://msdn.microsoft.com/library/24d10a15-b942-415e-9024-a6375708f326%28Office.15%29.aspx) 。</span><span class="sxs-lookup"><span data-stu-id="b97e1-133">Now that you have the [AttachmentId](https://msdn.microsoft.com/library/55a5fd77-60d1-40fa-8144-770600cedc6a%28Office.15%29.aspx) values, call [GetAttachment](https://msdn.microsoft.com/library/24d10a15-b942-415e-9024-a6375708f326%28Office.15%29.aspx) on each attachment you want to retrieve.</span></span> 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
   </soap:Header>
@@ -171,26 +171,26 @@ public static void GetAttachmentsFromEmail(ExchangeService service, ItemId itemI
 </soap:Envelope>
 ```
 
-<span data-ttu-id="46113-134">检索项目附件时, 服务器响应[GetAttachmentResponse](http://msdn.microsoft.com/library/cb65f449-309b-4b6e-8d22-d1967135490c%28Office.15%29.aspx)消息，其中包括**NoError**，这表明已检索附件[ResponseCode](http://msdn.microsoft.com/zh-cn/library/aa580757%28v=exchg.150%29.aspx)值的**GetAttachment**请求成功，并附加项目，在这种情况下是一封电子邮件的所有元素。</span><span class="sxs-lookup"><span data-stu-id="46113-134">When retrieving an item attachment, the server responds to the **GetAttachment** request with a [GetAttachmentResponse](http://msdn.microsoft.com/library/cb65f449-309b-4b6e-8d22-d1967135490c%28Office.15%29.aspx) message that includes a [ResponseCode](http://msdn.microsoft.com/zh-cn/library/aa580757%28v=exchg.150%29.aspx) value of **NoError**, which indicates that the attachment was retrieved successfully, and all the elements for the attached item, which in this case is an email message.</span></span>
+<span data-ttu-id="b97e1-134">检索项目附件时，服务器会使用[GetAttachmentResponse](https://msdn.microsoft.com/library/cb65f449-309b-4b6e-8d22-d1967135490c%28Office.15%29.aspx)邮件响应**GetAttachment**请求，其中包括[ResponseCode](https://msdn.microsoft.com/library/aa580757%28v=exchg.150%29.aspx)值**NoError**，表示已成功检索附件，并且附加项目的所有元素（在此示例中为电子邮件）。</span><span class="sxs-lookup"><span data-stu-id="b97e1-134">When retrieving an item attachment, the server responds to the **GetAttachment** request with a [GetAttachmentResponse](https://msdn.microsoft.com/library/cb65f449-309b-4b6e-8d22-d1967135490c%28Office.15%29.aspx) message that includes a [ResponseCode](https://msdn.microsoft.com/library/aa580757%28v=exchg.150%29.aspx) value of **NoError**, which indicates that the attachment was retrieved successfully, and all the elements for the attached item, which in this case is an email message.</span></span>
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15"
                          MinorVersion="0"
                          MajorBuildNumber="939"
                          MinorBuildNumber="12"
                          Version="V2_11"
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:GetAttachmentResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                             xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:GetAttachmentResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                             xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:GetAttachmentResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -259,26 +259,26 @@ public static void GetAttachmentsFromEmail(ExchangeService service, ItemId itemI
 </s:Envelope>
 ```
 
-<span data-ttu-id="46113-135">检索文件附件时, 服务器响应[GetAttachmentResponse](http://msdn.microsoft.com/library/cb65f449-309b-4b6e-8d22-d1967135490c%28Office.15%29.aspx)消息，其中包括**NoError**，这表明已检索附件[ResponseCode](http://msdn.microsoft.com/zh-cn/library/aa580757%28v=exchg.150%29.aspx)值的**GetAttachment**请求成功的附件文件的所有元素。</span><span class="sxs-lookup"><span data-stu-id="46113-135">When retrieving a file attachment, the server responds to the **GetAttachment** request with a [GetAttachmentResponse](http://msdn.microsoft.com/library/cb65f449-309b-4b6e-8d22-d1967135490c%28Office.15%29.aspx) message that includes a [ResponseCode](http://msdn.microsoft.com/zh-cn/library/aa580757%28v=exchg.150%29.aspx) value of **NoError**, which indicates that the attachment was retrieved successfully, and all the elements of the file attachment.</span></span>
+<span data-ttu-id="b97e1-135">检索文件附件时，服务器会使用[GetAttachmentResponse](https://msdn.microsoft.com/library/cb65f449-309b-4b6e-8d22-d1967135490c%28Office.15%29.aspx)邮件响应**GetAttachment**请求，其中包括[ResponseCode](https://msdn.microsoft.com/library/aa580757%28v=exchg.150%29.aspx)值**NoError**，表示已成功检索附件，并且文件附件的所有元素。</span><span class="sxs-lookup"><span data-stu-id="b97e1-135">When retrieving a file attachment, the server responds to the **GetAttachment** request with a [GetAttachmentResponse](https://msdn.microsoft.com/library/cb65f449-309b-4b6e-8d22-d1967135490c%28Office.15%29.aspx) message that includes a [ResponseCode](https://msdn.microsoft.com/library/aa580757%28v=exchg.150%29.aspx) value of **NoError**, which indicates that the attachment was retrieved successfully, and all the elements of the file attachment.</span></span>
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15"
                          MinorVersion="0"
                          MajorBuildNumber="939"
                          MinorBuildNumber="12"
                          Version="V2_11"
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:GetAttachmentResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                             xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:GetAttachmentResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                             xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:GetAttachmentResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -296,12 +296,12 @@ public static void GetAttachmentsFromEmail(ExchangeService service, ItemId itemI
 </s:Envelope>
 ```
 
-## <a name="save-an-attached-email-by-using-the-ews-managed-api"></a><span data-ttu-id="46113-136">通过使用 EWS 托管 API 来保存附加电子邮件</span><span class="sxs-lookup"><span data-stu-id="46113-136">Save an attached email by using the EWS Managed API</span></span>
-<span data-ttu-id="46113-137"><a name="bk_saveitemattach"> </a></span><span class="sxs-lookup"><span data-stu-id="46113-137"></span></span>
+## <a name="save-an-attached-email-by-using-the-ews-managed-api"></a><span data-ttu-id="b97e1-136">使用 EWS 托管 API 保存附加的电子邮件</span><span class="sxs-lookup"><span data-stu-id="b97e1-136">Save an attached email by using the EWS Managed API</span></span>
+<span data-ttu-id="b97e1-137"><a name="bk_saveitemattach"> </a></span><span class="sxs-lookup"><span data-stu-id="b97e1-137"><a name="bk_saveitemattach"> </a></span></span>
 
-<span data-ttu-id="46113-138">为了节省使用 EWS 托管 API 的电子邮件附件的内容，您需要将[MimeContent](http://msdn.microsoft.com/zh-cn/library/microsoft.exchange.webservices.data.item.mimecontent%28v=exchg.80%29.aspx)保存到文件。</span><span class="sxs-lookup"><span data-stu-id="46113-138">In order to save the contents of an email attachment using the EWS Managed API, you need to save the [MimeContent](http://msdn.microsoft.com/zh-cn/library/microsoft.exchange.webservices.data.item.mimecontent%28v=exchg.80%29.aspx) to a file.</span></span> <span data-ttu-id="46113-139">这样，则将丢失的项，如后续标志和类别设置的所有扩展的属性。</span><span class="sxs-lookup"><span data-stu-id="46113-139">In doing so, you will lose any extended properties set on the item, such as follow-up flags and categories.</span></span> <span data-ttu-id="46113-140">本示例将保存到的电子邮件附件 C:\temp\ 文件夹。</span><span class="sxs-lookup"><span data-stu-id="46113-140">This example saves the email attachment to the to the C:\temp\ folder.</span></span> 
+<span data-ttu-id="b97e1-138">为了使用 EWS 托管 API 保存电子邮件附件的内容，您需要将[MimeContent](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.mimecontent%28v=exchg.80%29.aspx)保存到文件中。</span><span class="sxs-lookup"><span data-stu-id="b97e1-138">In order to save the contents of an email attachment using the EWS Managed API, you need to save the [MimeContent](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.mimecontent%28v=exchg.80%29.aspx) to a file.</span></span> <span data-ttu-id="b97e1-139">在执行此操作时，将丢失对项目设置的任何扩展属性，例如后续标志和类别。</span><span class="sxs-lookup"><span data-stu-id="b97e1-139">In doing so, you will lose any extended properties set on the item, such as follow-up flags and categories.</span></span> <span data-ttu-id="b97e1-140">此示例将电子邮件附件保存到 "C:\temp\" 文件夹中。</span><span class="sxs-lookup"><span data-stu-id="b97e1-140">This example saves the email attachment to the to the C:\temp\ folder.</span></span> 
   
-<span data-ttu-id="46113-141">请注意，您无法移动或复制到另一个文件夹的项目附件，因为项目附件的强类型的项，因此如果您正在尝试移动到另一个文件夹，附件使用下面的代码示例，然后[将文件导](how-to-import-items-by-using-ews-in-exchange.md)入不同的文件夹。</span><span class="sxs-lookup"><span data-stu-id="46113-141">Note that you cannot move or copy the item attachment to another folder because the item attachment is not a strongly-typed item, so if you're trying to move an attachment to a different folder, use the following code example and then [import the file](how-to-import-items-by-using-ews-in-exchange.md) into a different folder.</span></span> 
+<span data-ttu-id="b97e1-141">请注意，不能将项目附件移动或复制到另一个文件夹，因为项目附件不是强类型项目，因此，如果您尝试将附件移动到其他文件夹，请使用以下代码示例，然后将[该文件导入](how-to-import-items-by-using-ews-in-exchange.md)到其他文件夹中。</span><span class="sxs-lookup"><span data-stu-id="b97e1-141">Note that you cannot move or copy the item attachment to another folder because the item attachment is not a strongly-typed item, so if you're trying to move an attachment to a different folder, use the following code example and then [import the file](how-to-import-items-by-using-ews-in-exchange.md) into a different folder.</span></span> 
   
 ```cs
 public static void SaveEmailAttachment(ExchangeService service, ItemId itemId)
@@ -325,13 +325,13 @@ public static void SaveEmailAttachment(ExchangeService service, ItemId itemId)
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="46113-142">另请参阅</span><span class="sxs-lookup"><span data-stu-id="46113-142">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b97e1-142">另请参阅</span><span class="sxs-lookup"><span data-stu-id="b97e1-142">See also</span></span>
 
 
-- [<span data-ttu-id="46113-143">附件和 EWS Exchange 中</span><span class="sxs-lookup"><span data-stu-id="46113-143">Attachments and EWS in Exchange</span></span>](attachments-and-ews-in-exchange.md)
+- [<span data-ttu-id="b97e1-143">附件和 EWS Exchange 中</span><span class="sxs-lookup"><span data-stu-id="b97e1-143">Attachments and EWS in Exchange</span></span>](attachments-and-ews-in-exchange.md)
     
-- [<span data-ttu-id="46113-144">在 Exchange 使用 EWS 添加附件</span><span class="sxs-lookup"><span data-stu-id="46113-144">Add attachments by using EWS in Exchange</span></span>](how-to-add-attachments-by-using-ews-in-exchange.md)
+- [<span data-ttu-id="b97e1-144">使用 Exchange 中的 EWS 添加附件</span><span class="sxs-lookup"><span data-stu-id="b97e1-144">Add attachments by using EWS in Exchange</span></span>](how-to-add-attachments-by-using-ews-in-exchange.md)
     
-- [<span data-ttu-id="46113-145">使用 EWS 在 Exchange 中删除附件</span><span class="sxs-lookup"><span data-stu-id="46113-145">Delete attachments by using EWS in Exchange</span></span>](how-to-delete-attachments-by-using-ews-in-exchange.md)
+- [<span data-ttu-id="b97e1-145">使用 Exchange 中的 EWS 删除附件</span><span class="sxs-lookup"><span data-stu-id="b97e1-145">Delete attachments by using EWS in Exchange</span></span>](how-to-delete-attachments-by-using-ews-in-exchange.md)
     
 

@@ -3,82 +3,82 @@ title: 使用自动发现查找连接点
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 03896542-549b-4c45-973c-98f9025ea26c
-description: 了解如何使用自动发现服务来定向客户端应用程序，到正确的 Exchange 服务器。
-ms.openlocfilehash: eb3fb3664e5789638c097a43cf48f757bb0713ae
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: 了解如何使用自动发现服务将客户端应用程序定向到正确的 Exchange 服务器。
+localization_priority: Priority
+ms.openlocfilehash: c1895fa0d2cce489467a726614e9457052624ef6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353978"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527591"
 ---
-# <a name="use-autodiscover-to-find-connection-points"></a><span data-ttu-id="7de0b-103">使用自动发现查找连接点</span><span class="sxs-lookup"><span data-stu-id="7de0b-103">Use Autodiscover to find connection points</span></span>
+# <a name="use-autodiscover-to-find-connection-points"></a><span data-ttu-id="d5fef-103">使用自动发现查找连接点</span><span class="sxs-lookup"><span data-stu-id="d5fef-103">Use Autodiscover to find connection points</span></span>
 
-<span data-ttu-id="7de0b-104">了解如何使用自动发现服务来定向客户端应用程序，到正确的 Exchange 服务器。</span><span class="sxs-lookup"><span data-stu-id="7de0b-104">Find out how to use the Autodiscover service to direct your client application to the correct Exchange server.</span></span>
+<span data-ttu-id="d5fef-104">了解如何使用自动发现服务将客户端应用程序定向到正确的 Exchange 服务器。</span><span class="sxs-lookup"><span data-stu-id="d5fef-104">Find out how to use the Autodiscover service to direct your client application to the correct Exchange server.</span></span>
   
-<span data-ttu-id="7de0b-105">Exchange 自动发现服务客户端应用程序提供承载的电子邮件帐户配置设置 Exchange Online、 Exchange Online 作为 Office 365 的一部分或运行的 Exchange 版本的 Exchange 服务器上启动与 Exchange2013。</span><span class="sxs-lookup"><span data-stu-id="7de0b-105">The Exchange Autodiscover service provides your client application with configuration settings for email accounts that are hosted on Exchange Online, Exchange Online as part of Office 365, or an Exchange server running a version of Exchange starting with Exchange 2013.</span></span> <span data-ttu-id="7de0b-106">自动发现服务是一种 web 服务，提供配置设置。</span><span class="sxs-lookup"><span data-stu-id="7de0b-106">The Autodiscover service is a web service that provides configuration settings.</span></span> <span data-ttu-id="7de0b-107">自动发现服务是一种 web 服务，提供 Exchange 服务器到客户端应用程序的配置信息。</span><span class="sxs-lookup"><span data-stu-id="7de0b-107">The Autodiscover service is a web service that provides Exchange server configuration information to your client application.</span></span> <span data-ttu-id="7de0b-108">客户端应用程序使用自动发现可确定特定邮箱的自动发现服务的终结点。</span><span class="sxs-lookup"><span data-stu-id="7de0b-108">Client applications use Autodiscover to determine the endpoint of the Autodiscover service for a specific mailbox.</span></span> <span data-ttu-id="7de0b-109">本文介绍如何执行从 Exchange 服务器以查找正确的终结点的响应。</span><span class="sxs-lookup"><span data-stu-id="7de0b-109">This article explains how to follow the responses from an Exchange server to find the correct endpoint.</span></span> 
+<span data-ttu-id="d5fef-105">Exchange 自动发现服务为您的客户端应用程序提供了托管在 Exchange Online 上的电子邮件帐户、作为 Office 365 的一部分的 Exchange Online 或从 Exchange 2013 开始运行 Exchange 版本的 Exchange 服务器的配置设置。</span><span class="sxs-lookup"><span data-stu-id="d5fef-105">The Exchange Autodiscover service provides your client application with configuration settings for email accounts that are hosted on Exchange Online, Exchange Online as part of Office 365, or an Exchange server running a version of Exchange starting with Exchange 2013.</span></span> <span data-ttu-id="d5fef-106">自动发现服务是一种提供配置设置的 web 服务。</span><span class="sxs-lookup"><span data-stu-id="d5fef-106">The Autodiscover service is a web service that provides configuration settings.</span></span> <span data-ttu-id="d5fef-107">自动发现服务是向客户端应用程序提供 Exchange server 配置信息的 web 服务。</span><span class="sxs-lookup"><span data-stu-id="d5fef-107">The Autodiscover service is a web service that provides Exchange server configuration information to your client application.</span></span> <span data-ttu-id="d5fef-108">客户端应用程序使用自动发现来确定特定邮箱的自动发现服务的终结点。</span><span class="sxs-lookup"><span data-stu-id="d5fef-108">Client applications use Autodiscover to determine the endpoint of the Autodiscover service for a specific mailbox.</span></span> <span data-ttu-id="d5fef-109">本文介绍如何跟踪来自 Exchange 服务器的响应以查找正确的终结点。</span><span class="sxs-lookup"><span data-stu-id="d5fef-109">This article explains how to follow the responses from an Exchange server to find the correct endpoint.</span></span> 
   
-<span data-ttu-id="7de0b-110">有关如何获取电子邮件地址配置设置的信息，请参阅[获取使用自动发现 Exchange 中的用户设置](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)和[获取从 Exchange 服务器的域设置](how-to-get-domain-settings-from-an-exchange-server.md)。</span><span class="sxs-lookup"><span data-stu-id="7de0b-110">For information about how to get email address configuration settings, see [Get user settings from Exchange by using Autodiscover](how-to-get-user-settings-from-exchange-by-using-autodiscover.md) and [Get domain settings from an Exchange server](how-to-get-domain-settings-from-an-exchange-server.md).</span></span>
+<span data-ttu-id="d5fef-110">有关如何获取电子邮件地址配置设置的信息，请参阅使用自动发现和从[exchange 服务器获取域设置](how-to-get-domain-settings-from-an-exchange-server.md)中的[从 exchange 获取用户设置](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)。</span><span class="sxs-lookup"><span data-stu-id="d5fef-110">For information about how to get email address configuration settings, see [Get user settings from Exchange by using Autodiscover](how-to-get-user-settings-from-exchange-by-using-autodiscover.md) and [Get domain settings from an Exchange server](how-to-get-domain-settings-from-an-exchange-server.md).</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="7de0b-111">查找正确的终结点的过程的用户或域设置请求的一部分。</span><span class="sxs-lookup"><span data-stu-id="7de0b-111">The process for finding the correct endpoint is part of the request for user or domain settings.</span></span> <span data-ttu-id="7de0b-112">自动发现服务使用的重定向响应的一系列发送电子邮件地址的正确终结点将客户端应用程序。</span><span class="sxs-lookup"><span data-stu-id="7de0b-112">The Autodiscover service uses a series of redirect responses to send the client application to the correct endpoint for an email address.</span></span> 
+> <span data-ttu-id="d5fef-111">查找正确终结点的过程是用户或域设置请求的一部分。</span><span class="sxs-lookup"><span data-stu-id="d5fef-111">The process for finding the correct endpoint is part of the request for user or domain settings.</span></span> <span data-ttu-id="d5fef-112">自动发现服务使用一系列重定向响应将客户端应用程序发送到电子邮件地址的正确终结点。</span><span class="sxs-lookup"><span data-stu-id="d5fef-112">The Autodiscover service uses a series of redirect responses to send the client application to the correct endpoint for an email address.</span></span> 
   
-<span data-ttu-id="7de0b-113">您可以使用以下 Exchange 开发技术之一访问自动发现服务：</span><span class="sxs-lookup"><span data-stu-id="7de0b-113">You can use one of the following Exchange development technologies to access the Autodiscover service:</span></span>
+<span data-ttu-id="d5fef-113">您可以使用以下 Exchange 开发技术之一来访问自动发现服务：</span><span class="sxs-lookup"><span data-stu-id="d5fef-113">You can use one of the following Exchange development technologies to access the Autodiscover service:</span></span>
 
-- <span data-ttu-id="7de0b-114">Exchange Web Services (EWS) 托管的 API</span><span class="sxs-lookup"><span data-stu-id="7de0b-114">The Exchange Web Services (EWS) Managed API</span></span>
+- <span data-ttu-id="d5fef-114">Exchange Web 服务（EWS）托管 API</span><span class="sxs-lookup"><span data-stu-id="d5fef-114">The Exchange Web Services (EWS) Managed API</span></span>
     
-- <span data-ttu-id="7de0b-115">EWS</span><span class="sxs-lookup"><span data-stu-id="7de0b-115">EWS</span></span>
+- <span data-ttu-id="d5fef-115">EWS</span><span class="sxs-lookup"><span data-stu-id="d5fef-115">EWS</span></span>
     
-<span data-ttu-id="7de0b-116">如果您使用 EWS，您可以使用以下方法检索用户设置：</span><span class="sxs-lookup"><span data-stu-id="7de0b-116">If you are using EWS, you can use the following methods to retrieve user settings:</span></span>
+<span data-ttu-id="d5fef-116">如果您使用 EWS，则可以使用以下方法来检索用户设置：</span><span class="sxs-lookup"><span data-stu-id="d5fef-116">If you are using EWS, you can use the following methods to retrieve user settings:</span></span>
     
-- <span data-ttu-id="7de0b-117">基于 SOAP 的自动发现服务</span><span class="sxs-lookup"><span data-stu-id="7de0b-117">The SOAP-based Autodiscover service</span></span>
+- <span data-ttu-id="d5fef-117">基于 SOAP 的自动发现服务</span><span class="sxs-lookup"><span data-stu-id="d5fef-117">The SOAP-based Autodiscover service</span></span>
     
-- <span data-ttu-id="7de0b-118">XML (POX) 自动发现服务</span><span class="sxs-lookup"><span data-stu-id="7de0b-118">The XML (POX) Autodiscover service</span></span>
+- <span data-ttu-id="d5fef-118">XML （POX）自动发现服务</span><span class="sxs-lookup"><span data-stu-id="d5fef-118">The XML (POX) Autodiscover service</span></span>
     
-- <span data-ttu-id="7de0b-119">生成从 SOAP 或 XML 自动发现服务自动生成代理</span><span class="sxs-lookup"><span data-stu-id="7de0b-119">An autogenerated proxy generated from the SOAP or XML Autodiscover service</span></span>
+- <span data-ttu-id="d5fef-119">从 SOAP 或 XML 自动发现服务生成的自动生成的代理</span><span class="sxs-lookup"><span data-stu-id="d5fef-119">An autogenerated proxy generated from the SOAP or XML Autodiscover service</span></span>
     
-<span data-ttu-id="7de0b-120">有关这些方法的详细信息，请参阅[exchange 自动发现](autodiscover-for-exchange.md)。</span><span class="sxs-lookup"><span data-stu-id="7de0b-120">For more information about these methods, see [Autodiscover for Exchange](autodiscover-for-exchange.md).</span></span>
+<span data-ttu-id="d5fef-120">有关这些方法的详细信息，请参阅[Exchange 的自动发现](autodiscover-for-exchange.md)。</span><span class="sxs-lookup"><span data-stu-id="d5fef-120">For more information about these methods, see [Autodiscover for Exchange](autodiscover-for-exchange.md).</span></span>
 
-<span data-ttu-id="7de0b-121">有关这些 Exchange 开发技术的详细信息，请参阅[在 Exchange 浏览 EWS 托管 API 和 EWS，web services](explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)。</span><span class="sxs-lookup"><span data-stu-id="7de0b-121">For more information about these Exchange development technologies, see [Explore the EWS Managed API, EWS, and web services in Exchange](explore-the-ews-managed-api-ews-and-web-services-in-exchange.md).</span></span> 
+<span data-ttu-id="d5fef-121">有关这些 Exchange 开发技术的详细信息，请参阅[在 exchange 中浏览 EWS 托管 API、ews 和 web 服务](explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)。</span><span class="sxs-lookup"><span data-stu-id="d5fef-121">For more information about these Exchange development technologies, see [Explore the EWS Managed API, EWS, and web services in Exchange](explore-the-ews-managed-api-ews-and-web-services-in-exchange.md).</span></span> 
 
-<span data-ttu-id="7de0b-122">EWS 托管 API 以检索用户设置提供基于对象的接口。</span><span class="sxs-lookup"><span data-stu-id="7de0b-122">The EWS Managed API provides an object-based interface for retrieving user settings.</span></span> <span data-ttu-id="7de0b-123">如果您的客户端应用程序使用托管的代码，我们建议您使用 EWS 托管 API。</span><span class="sxs-lookup"><span data-stu-id="7de0b-123">If your client application uses managed code, we recommend that you use the EWS Managed API.</span></span> <span data-ttu-id="7de0b-124">EWS 托管 API 界面更好地专为一个简单的对象模型比典型的自动生成 web 服务代理。</span><span class="sxs-lookup"><span data-stu-id="7de0b-124">The EWS Managed API interface is better optimized for a simple object model than the typical autogenerated web service proxy.</span></span> 
+<span data-ttu-id="d5fef-122">EWS 托管 API 提供了用于检索用户设置的基于对象的接口。</span><span class="sxs-lookup"><span data-stu-id="d5fef-122">The EWS Managed API provides an object-based interface for retrieving user settings.</span></span> <span data-ttu-id="d5fef-123">如果客户端应用程序使用托管代码，建议使用 EWS 托管 API。</span><span class="sxs-lookup"><span data-stu-id="d5fef-123">If your client application uses managed code, we recommend that you use the EWS Managed API.</span></span> <span data-ttu-id="d5fef-124">对简单对象模型而言，EWS 托管 API 接口比典型的自动生成 web 服务代理更好地优化。</span><span class="sxs-lookup"><span data-stu-id="d5fef-124">The EWS Managed API interface is better optimized for a simple object model than the typical autogenerated web service proxy.</span></span> 
   
-<span data-ttu-id="7de0b-125">如果您使用 EWS，我们建议您使用 SOAP 自动发现服务，因为它支持比 POX 自动发现服务更丰富的功能。</span><span class="sxs-lookup"><span data-stu-id="7de0b-125">If you are using EWS, we suggest that you use the SOAP Autodiscover service, because it supports a richer set of features than the POX Autodiscover service.</span></span>
+<span data-ttu-id="d5fef-125">如果使用 EWS，则建议您使用 SOAP 自动发现服务，因为它支持的功能集比 POX 自动发现服务更丰富。</span><span class="sxs-lookup"><span data-stu-id="d5fef-125">If you are using EWS, we suggest that you use the SOAP Autodiscover service, because it supports a richer set of features than the POX Autodiscover service.</span></span>
   
-## <a name="prerequisites-for-finding-an-endpoint"></a><span data-ttu-id="7de0b-126">查找终结点的先决条件</span><span class="sxs-lookup"><span data-stu-id="7de0b-126">Prerequisites for finding an endpoint</span></span>
-<span data-ttu-id="7de0b-127"><a name="bk_Prereq"> </a></span><span class="sxs-lookup"><span data-stu-id="7de0b-127"></span></span>
+## <a name="prerequisites-for-finding-an-endpoint"></a><span data-ttu-id="d5fef-126">查找终结点的先决条件</span><span class="sxs-lookup"><span data-stu-id="d5fef-126">Prerequisites for finding an endpoint</span></span>
+<span data-ttu-id="d5fef-127"><a name="bk_Prereq"> </a></span><span class="sxs-lookup"><span data-stu-id="d5fef-127"><a name="bk_Prereq"> </a></span></span>
 
-<span data-ttu-id="7de0b-128">您可以创建使用自动发现服务的客户端应用程序之前，您需要有权访问以下：</span><span class="sxs-lookup"><span data-stu-id="7de0b-128">Before you can create a client application that uses the Autodiscover service, you need to have access to the following:</span></span>
+<span data-ttu-id="d5fef-128">在创建使用自动发现服务的客户端应用程序之前，您需要具有以下权限：</span><span class="sxs-lookup"><span data-stu-id="d5fef-128">Before you can create a client application that uses the Autodiscover service, you need to have access to the following:</span></span>
   
-- <span data-ttu-id="7de0b-129">Exchange Online 或正在运行的 Exchange 版本开始 Exchange 2007 sp1 的服务器。</span><span class="sxs-lookup"><span data-stu-id="7de0b-129">Exchange Online or a server that is running a version of Exchange starting with Exchange 2007 SP1.</span></span> <span data-ttu-id="7de0b-130">如果您使用基于 SOAP 的自动发现服务、 Exchange Online 或 Exchange 启动与 Exchange 2010 的版本。</span><span class="sxs-lookup"><span data-stu-id="7de0b-130">If you are using the SOAP-based Autodiscover service, Exchange Online or a version of Exchange starting with Exchange 2010.</span></span>
+- <span data-ttu-id="d5fef-129">Exchange Online 或运行 Exchange 版本（从 Exchange 2007 SP1 开始）的服务器。</span><span class="sxs-lookup"><span data-stu-id="d5fef-129">Exchange Online or a server that is running a version of Exchange starting with Exchange 2007 SP1.</span></span> <span data-ttu-id="d5fef-130">如果使用基于 SOAP 的自动发现服务，则 Exchange Online 或从 Exchange 2010 开始的 Exchange 版本。</span><span class="sxs-lookup"><span data-stu-id="d5fef-130">If you are using the SOAP-based Autodiscover service, Exchange Online or a version of Exchange starting with Exchange 2010.</span></span>
     
-- <span data-ttu-id="7de0b-131">Exchange 服务器配置为接受来自客户端应用程序的连接。</span><span class="sxs-lookup"><span data-stu-id="7de0b-131">An Exchange server that is configured to accept connections from your client application.</span></span> <span data-ttu-id="7de0b-132">有关如何配置您的 Exchange 服务器的信息，请参阅[在 Exchange 控制客户端应用程序访问 EWS](controlling-client-application-access-to-ews-in-exchange.md)。</span><span class="sxs-lookup"><span data-stu-id="7de0b-132">For information about how to configure your Exchange server, see [Controlling client application access to EWS in Exchange](controlling-client-application-access-to-ews-in-exchange.md).</span></span>
+- <span data-ttu-id="d5fef-131">一种配置为接受来自客户端应用程序的连接的 Exchange 服务器。</span><span class="sxs-lookup"><span data-stu-id="d5fef-131">An Exchange server that is configured to accept connections from your client application.</span></span> <span data-ttu-id="d5fef-132">有关如何配置 Exchange server 的信息，请参阅[控制 exchange 中对 EWS 的客户端应用程序访问](controlling-client-application-access-to-ews-in-exchange.md)。</span><span class="sxs-lookup"><span data-stu-id="d5fef-132">For information about how to configure your Exchange server, see [Controlling client application access to EWS in Exchange](controlling-client-application-access-to-ews-in-exchange.md).</span></span>
     
-- <span data-ttu-id="7de0b-133">有权使用 EWS 帐户。</span><span class="sxs-lookup"><span data-stu-id="7de0b-133">An account that is authorized to use EWS.</span></span> <span data-ttu-id="7de0b-134">有关如何配置帐户的信息，请参阅[在 Exchange 控制客户端应用程序访问 EWS](controlling-client-application-access-to-ews-in-exchange.md)。</span><span class="sxs-lookup"><span data-stu-id="7de0b-134">For information about how to configure an account, see [Controlling client application access to EWS in Exchange](controlling-client-application-access-to-ews-in-exchange.md).</span></span>
+- <span data-ttu-id="d5fef-133">有权使用 EWS 的帐户。</span><span class="sxs-lookup"><span data-stu-id="d5fef-133">An account that is authorized to use EWS.</span></span> <span data-ttu-id="d5fef-134">有关如何配置帐户的信息，请参阅[控制 Exchange 中的客户端应用程序对 EWS 的访问](controlling-client-application-access-to-ews-in-exchange.md)。</span><span class="sxs-lookup"><span data-stu-id="d5fef-134">For information about how to configure an account, see [Controlling client application access to EWS in Exchange](controlling-client-application-access-to-ews-in-exchange.md).</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="7de0b-135">如果您使用 EWS 托管 API，您必须提供在某些情况下证书验证回调。</span><span class="sxs-lookup"><span data-stu-id="7de0b-135">If you are using the EWS Managed API, you must provide a certificate validation callback in some circumstances.</span></span> <span data-ttu-id="7de0b-136">您可能还需要使用某些生成的代理库，如那些通过 Visual Studio 创建的证书验证回调。</span><span class="sxs-lookup"><span data-stu-id="7de0b-136">You may also need a certificate validation callback with some generated proxy libraries, such as those created by Visual Studio.</span></span> <span data-ttu-id="7de0b-137">有关详细信息，请参阅[验证 EWS 托管 API 服务器证书](how-to-validate-a-server-certificate-for-the-ews-managed-api.md)。</span><span class="sxs-lookup"><span data-stu-id="7de0b-137">For more information, see [Validate a server certificate for the EWS Managed API](how-to-validate-a-server-certificate-for-the-ews-managed-api.md).</span></span> 
+> <span data-ttu-id="d5fef-135">如果使用 EWS 托管 API，则必须在某些情况下提供证书验证回调。</span><span class="sxs-lookup"><span data-stu-id="d5fef-135">If you are using the EWS Managed API, you must provide a certificate validation callback in some circumstances.</span></span> <span data-ttu-id="d5fef-136">您可能还需要具有一些生成的代理库（如由 Visual Studio 创建的代理库）的证书验证回调。</span><span class="sxs-lookup"><span data-stu-id="d5fef-136">You may also need a certificate validation callback with some generated proxy libraries, such as those created by Visual Studio.</span></span> <span data-ttu-id="d5fef-137">有关详细信息，请参阅[验证 EWS 托管 API 的服务器证书](how-to-validate-a-server-certificate-for-the-ews-managed-api.md)。</span><span class="sxs-lookup"><span data-stu-id="d5fef-137">For more information, see [Validate a server certificate for the EWS Managed API](how-to-validate-a-server-certificate-for-the-ews-managed-api.md).</span></span> 
   
-### <a name="core-concepts-for-finding-an-endpoint"></a><span data-ttu-id="7de0b-138">查找终结点的核心概念</span><span class="sxs-lookup"><span data-stu-id="7de0b-138">Core concepts for finding an endpoint</span></span>
-<span data-ttu-id="7de0b-139"><a name="bk_Core"> </a></span><span class="sxs-lookup"><span data-stu-id="7de0b-139"></span></span>
+### <a name="core-concepts-for-finding-an-endpoint"></a><span data-ttu-id="d5fef-138">查找终结点的核心概念</span><span class="sxs-lookup"><span data-stu-id="d5fef-138">Core concepts for finding an endpoint</span></span>
+<span data-ttu-id="d5fef-139"><a name="bk_Core"> </a></span><span class="sxs-lookup"><span data-stu-id="d5fef-139"><a name="bk_Core"> </a></span></span>
 
-<span data-ttu-id="7de0b-140">您使用自动发现查找终结点之前，您应熟悉以下表中列出的概念。</span><span class="sxs-lookup"><span data-stu-id="7de0b-140">Before you use Autodiscover to find an endpoint, you should be familiar with the concepts listed in the following table.</span></span>
+<span data-ttu-id="d5fef-140">在使用自动发现查找终结点之前，应该先熟悉下表中列出的概念。</span><span class="sxs-lookup"><span data-stu-id="d5fef-140">Before you use Autodiscover to find an endpoint, you should be familiar with the concepts listed in the following table.</span></span>
   
-|<span data-ttu-id="7de0b-141">**概念**</span><span class="sxs-lookup"><span data-stu-id="7de0b-141">**Concept**</span></span>|<span data-ttu-id="7de0b-142">**说明**</span><span class="sxs-lookup"><span data-stu-id="7de0b-142">**Description**</span></span>|
+|<span data-ttu-id="d5fef-141">**概念**</span><span class="sxs-lookup"><span data-stu-id="d5fef-141">**Concept**</span></span>|<span data-ttu-id="d5fef-142">**说明**</span><span class="sxs-lookup"><span data-stu-id="d5fef-142">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="7de0b-143">Exchange 自动发现</span><span class="sxs-lookup"><span data-stu-id="7de0b-143">Autodiscover for Exchange</span></span>](autodiscover-for-exchange.md) <br/> |<span data-ttu-id="7de0b-144">提供自动发现服务的工作原理的概述。</span><span class="sxs-lookup"><span data-stu-id="7de0b-144">Provides an overview of how the Autodiscover service works.</span></span>  <br/> |
+|[<span data-ttu-id="d5fef-143">Exchange 自动发现</span><span class="sxs-lookup"><span data-stu-id="d5fef-143">Autodiscover for Exchange</span></span>](autodiscover-for-exchange.md) <br/> |<span data-ttu-id="d5fef-144">提供自动发现服务的工作原理的概述。</span><span class="sxs-lookup"><span data-stu-id="d5fef-144">Provides an overview of how the Autodiscover service works.</span></span>  <br/> |
    
-<span data-ttu-id="7de0b-145">如果您使用 EWS 托管 API，您使用[Microsoft.Exchange.WebServices.Data.ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)类[Microsoft.Exchange.WebServices.Data](http://msdn.microsoft.com/en-us/library/dd633907%28v=exchg.80%29.aspx)命名空间中管理与 EWS 的连接。</span><span class="sxs-lookup"><span data-stu-id="7de0b-145">If you are using the EWS Managed API, you use the [Microsoft.Exchange.WebServices.Data.ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) class in the [Microsoft.Exchange.WebServices.Data](http://msdn.microsoft.com/en-us/library/dd633907%28v=exchg.80%29.aspx) namespace to manage your connection to EWS.</span></span> <span data-ttu-id="7de0b-146">要使用本文中的 EWS 托管 API 代码示例，您需要以引用您的代码中的以下命名空间：</span><span class="sxs-lookup"><span data-stu-id="7de0b-146">To use the EWS Managed API code samples in this article, you need to reference the following namespaces in your code:</span></span> 
+<span data-ttu-id="d5fef-145">如果使用的是 EWS 托管 API，请使用 WebServices 命名空间中的 ExchangeService 类来管理到 EWS 的[连接的名称](https://msdn.microsoft.com/library/dd633907%28v=exchg.80%29.aspx)的[Microsoft.Exchange.WebServices.Data.ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) 。</span><span class="sxs-lookup"><span data-stu-id="d5fef-145">If you are using the EWS Managed API, you use the [Microsoft.Exchange.WebServices.Data.ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) class in the [Microsoft.Exchange.WebServices.Data](https://msdn.microsoft.com/library/dd633907%28v=exchg.80%29.aspx) namespace to manage your connection to EWS.</span></span> <span data-ttu-id="d5fef-146">若要使用本文中的 EWS 托管 API 代码示例，您需要在代码中引用以下命名空间：</span><span class="sxs-lookup"><span data-stu-id="d5fef-146">To use the EWS Managed API code samples in this article, you need to reference the following namespaces in your code:</span></span> 
   
-- <span data-ttu-id="7de0b-147">**System.Net**</span><span class="sxs-lookup"><span data-stu-id="7de0b-147">**System.Net**</span></span>
+- <span data-ttu-id="d5fef-147">**System.Net**</span><span class="sxs-lookup"><span data-stu-id="d5fef-147">**System.Net**</span></span>
     
-- <span data-ttu-id="7de0b-148">**Microsoft.Exchange.WebServices.Data.ExchangeService**</span><span class="sxs-lookup"><span data-stu-id="7de0b-148">**Microsoft.Exchange.WebServices.Data.ExchangeService**</span></span>
+- <span data-ttu-id="d5fef-148">**WebServices。 ExchangeService 的**</span><span class="sxs-lookup"><span data-stu-id="d5fef-148">**Microsoft.Exchange.WebServices.Data.ExchangeService**</span></span>
     
-## <a name="find-the-correct-endpoint-by-using-the-ews-managed-api"></a><span data-ttu-id="7de0b-149">使用 EWS 托管 API 来查找正确的终结点</span><span class="sxs-lookup"><span data-stu-id="7de0b-149">Find the correct endpoint by using the EWS Managed API</span></span>
-<span data-ttu-id="7de0b-150"><a name="bk_Managed"> </a></span><span class="sxs-lookup"><span data-stu-id="7de0b-150"></span></span>
+## <a name="find-the-correct-endpoint-by-using-the-ews-managed-api"></a><span data-ttu-id="d5fef-149">使用 EWS 托管 API 查找正确的终结点</span><span class="sxs-lookup"><span data-stu-id="d5fef-149">Find the correct endpoint by using the EWS Managed API</span></span>
+<span data-ttu-id="d5fef-150"><a name="bk_Managed"> </a></span><span class="sxs-lookup"><span data-stu-id="d5fef-150"><a name="bk_Managed"> </a></span></span>
 
-<span data-ttu-id="7de0b-151">如果您使用 EWS 托管 API，由**ExchangeService**类处理对自动发现服务的调用。</span><span class="sxs-lookup"><span data-stu-id="7de0b-151">If you are using the EWS Managed API, calls to the Autodiscover service are handled by the **ExchangeService** class.</span></span> <span data-ttu-id="7de0b-152">若要确定正确的终结点的电子邮件帐户，请 **[ExchangeService]** 对象上调用**AutodiscoverUrl**方法。</span><span class="sxs-lookup"><span data-stu-id="7de0b-152">To determine the correct endpoint for an email account, you call the **AutodiscoverUrl** method on an **[ExchangeService]** object.</span></span> <span data-ttu-id="7de0b-153">下面的代码示例演示如何使用 EWS 托管 API Exchange.asmx 文件正确的客户端访问服务器上设置电子邮件地址的 EWS web 服务终结点。</span><span class="sxs-lookup"><span data-stu-id="7de0b-153">The following code example shows how to set the EWS web service endpoint for an email address to the Exchange.asmx file on the correct Client Access server by using the EWS Managed API.</span></span> 
+<span data-ttu-id="d5fef-151">如果使用 EWS 托管 API，则对自动发现服务的调用由**ExchangeService**类处理。</span><span class="sxs-lookup"><span data-stu-id="d5fef-151">If you are using the EWS Managed API, calls to the Autodiscover service are handled by the **ExchangeService** class.</span></span> <span data-ttu-id="d5fef-152">若要确定电子邮件帐户的正确终结点，请对 **[ExchangeService]** 对象调用**AutodiscoverUrl**方法。</span><span class="sxs-lookup"><span data-stu-id="d5fef-152">To determine the correct endpoint for an email account, you call the **AutodiscoverUrl** method on an **[ExchangeService]** object.</span></span> <span data-ttu-id="d5fef-153">下面的代码示例演示如何使用 EWS 托管 API 将电子邮件地址的 EWS web 服务终结点设置为正确的客户端访问服务器上的 Exchange .asmx 文件。</span><span class="sxs-lookup"><span data-stu-id="d5fef-153">The following code example shows how to set the EWS web service endpoint for an email address to the Exchange.asmx file on the correct Client Access server by using the EWS Managed API.</span></span> 
   
 ```cs
 NetworkCredential credentials = new NetworkCredential(securelyStoredEmail, securelyStoredPassword);
@@ -87,28 +87,28 @@ service.Credentials = credentials;
 service.AutodiscoverUrl("User1@contoso.com");
 ```
 
-## <a name="find-the-correct-endpoint-by-using-ews"></a><span data-ttu-id="7de0b-154">使用 EWS 查找正确的终结点</span><span class="sxs-lookup"><span data-stu-id="7de0b-154">Find the correct endpoint by using EWS</span></span>
-<span data-ttu-id="7de0b-155"><a name="bk_SOAP"> </a></span><span class="sxs-lookup"><span data-stu-id="7de0b-155"></span></span>
+## <a name="find-the-correct-endpoint-by-using-ews"></a><span data-ttu-id="d5fef-154">使用 EWS 查找正确的终结点</span><span class="sxs-lookup"><span data-stu-id="d5fef-154">Find the correct endpoint by using EWS</span></span>
+<span data-ttu-id="d5fef-155"><a name="bk_SOAP"> </a></span><span class="sxs-lookup"><span data-stu-id="d5fef-155"><a name="bk_SOAP"> </a></span></span>
 
-<span data-ttu-id="7de0b-156">SOAP 自动发现服务可能使用的请求和响应的一系列定向到正确的终结点 EWS 的应用程序。</span><span class="sxs-lookup"><span data-stu-id="7de0b-156">The SOAP Autodiscover service may use a series of requests and responses to direct your application to the correct endpoint for EWS.</span></span> <span data-ttu-id="7de0b-157">有关确定的电子邮件帐户的正确终结点的过程的信息，请参阅[exchange 自动发现](autodiscover-for-exchange.md)。</span><span class="sxs-lookup"><span data-stu-id="7de0b-157">For information about the process for determining the correct endpoint for an email account, see [Autodiscover for Exchange](autodiscover-for-exchange.md).</span></span> <span data-ttu-id="7de0b-158">下面的 XML 示例演示请求和响应，您可以预期发出 SOAP 自动发现请求以查找正确的终结点时的系列。</span><span class="sxs-lookup"><span data-stu-id="7de0b-158">The following XML examples show the series of requests and responses that you can expect when making a SOAP Autodiscover request to find the correct endpoint.</span></span>
+<span data-ttu-id="d5fef-156">SOAP 自动发现服务可能使用一系列请求和响应将应用程序定向到 EWS 的正确终结点。</span><span class="sxs-lookup"><span data-stu-id="d5fef-156">The SOAP Autodiscover service may use a series of requests and responses to direct your application to the correct endpoint for EWS.</span></span> <span data-ttu-id="d5fef-157">有关确定电子邮件帐户的正确终结点的过程的信息，请参阅[Exchange 的自动发现](autodiscover-for-exchange.md)。</span><span class="sxs-lookup"><span data-stu-id="d5fef-157">For information about the process for determining the correct endpoint for an email account, see [Autodiscover for Exchange](autodiscover-for-exchange.md).</span></span> <span data-ttu-id="d5fef-158">下面的 XML 示例显示在建立 SOAP 自动发现请求查找正确的终结点时，您可以预料到的请求和响应系列。</span><span class="sxs-lookup"><span data-stu-id="d5fef-158">The following XML examples show the series of requests and responses that you can expect when making a SOAP Autodiscover request to find the correct endpoint.</span></span>
   
-### <a name="soap-autodiscover-endpoint-request"></a><span data-ttu-id="7de0b-159">SOAP 自动发现终结点请求</span><span class="sxs-lookup"><span data-stu-id="7de0b-159">SOAP Autodiscover endpoint request</span></span>
+### <a name="soap-autodiscover-endpoint-request"></a><span data-ttu-id="d5fef-159">SOAP 自动发现终结点请求</span><span class="sxs-lookup"><span data-stu-id="d5fef-159">SOAP Autodiscover endpoint request</span></span>
 
-<span data-ttu-id="7de0b-160">下面的示例演示发送到自动发现服务以查找正确的终结点的 XML 请求。</span><span class="sxs-lookup"><span data-stu-id="7de0b-160">The following example shows an XML request that is sent to the Autodiscover service to find the correct endpoint.</span></span>
+<span data-ttu-id="d5fef-160">下面的示例演示发送到自动发现服务以查找正确终结点的 XML 请求。</span><span class="sxs-lookup"><span data-stu-id="d5fef-160">The following example shows an XML request that is sent to the Autodiscover service to find the correct endpoint.</span></span>
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:a="http://schemas.microsoft.com/exchange/2010/Autodiscover" 
+<soap:Envelope xmlns:a="https://schemas.microsoft.com/exchange/2010/Autodiscover" 
         xmlns:wsa="http://www.w3.org/2005/08/addressing" 
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-        xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+        xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <a:RequestedServerVersion>Exchange2013</a:RequestedServerVersion>
-    <wsa:Action>http://schemas.microsoft.com/exchange/2010/Autodiscover/Autodiscover/GetUserSettings</wsa:Action>
+    <wsa:Action>https://schemas.microsoft.com/exchange/2010/Autodiscover/Autodiscover/GetUserSettings</wsa:Action>
     <wsa:To>https://mail.microsoft.com/autodiscover/autodiscover.svc</wsa:To>
   </soap:Header>
   <soap:Body>
-    <a:GetUserSettingsRequestMessage xmlns:a="http://schemas.microsoft.com/exchange/2010/Autodiscover">
+    <a:GetUserSettingsRequestMessage xmlns:a="https://schemas.microsoft.com/exchange/2010/Autodiscover">
       <a:Request>
         <a:Users>
           <a:User>
@@ -126,21 +126,21 @@ service.AutodiscoverUrl("User1@contoso.com");
 
 ```
 
-### <a name="soap-autodiscover-redirection-response"></a><span data-ttu-id="7de0b-161">SOAP 自动发现重定向响应</span><span class="sxs-lookup"><span data-stu-id="7de0b-161">SOAP Autodiscover redirection response</span></span>
+### <a name="soap-autodiscover-redirection-response"></a><span data-ttu-id="d5fef-161">SOAP 自动发现重定向响应</span><span class="sxs-lookup"><span data-stu-id="d5fef-161">SOAP Autodiscover redirection response</span></span>
 
-<span data-ttu-id="7de0b-162">自动发现服务会使用两种重定向响应之一响应： HTTP 302 重定向或 SOAP 重定向响应。</span><span class="sxs-lookup"><span data-stu-id="7de0b-162">The Autodiscover service may respond with one of two redirection responses: an HTTP 302 redirect, or a SOAP redirection response.</span></span> <span data-ttu-id="7de0b-163">如果从 Exchange 服务器响应 HTTP 302 重定向，客户端应用程序应验证重定向地址是可以接受，然后按照重定向响应。</span><span class="sxs-lookup"><span data-stu-id="7de0b-163">If the response from the Exchange server is an HTTP 302 redirect, the client application should validate that the redirection address is acceptable and then follow the redirection response.</span></span>
+<span data-ttu-id="d5fef-162">自动发现服务可能会通过以下两个重定向响应之一进行响应： HTTP 302 重定向或 SOAP 重定向响应。</span><span class="sxs-lookup"><span data-stu-id="d5fef-162">The Autodiscover service may respond with one of two redirection responses: an HTTP 302 redirect, or a SOAP redirection response.</span></span> <span data-ttu-id="d5fef-163">如果来自 Exchange 服务器的响应是 HTTP 302 重定向，则客户端应用程序应验证重定向地址是否可接受，然后遵循重定向响应。</span><span class="sxs-lookup"><span data-stu-id="d5fef-163">If the response from the Exchange server is an HTTP 302 redirect, the client application should validate that the redirection address is acceptable and then follow the redirection response.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="7de0b-164">用于验证重定向响应的条件，请参阅[exchange 自动发现](autodiscover-for-exchange.md)。</span><span class="sxs-lookup"><span data-stu-id="7de0b-164">For criteria for validating a redirection response, see [Autodiscover for Exchange](autodiscover-for-exchange.md).</span></span> 
+> <span data-ttu-id="d5fef-164">有关验证重定向响应的条件，请参阅[Exchange 的自动发现](autodiscover-for-exchange.md)。</span><span class="sxs-lookup"><span data-stu-id="d5fef-164">For criteria for validating a redirection response, see [Autodiscover for Exchange](autodiscover-for-exchange.md).</span></span> 
   
-<span data-ttu-id="7de0b-165">如果自动发现服务将返回一个重定向响应，指示[错误代码](http://msdn.microsoft.com/library/0bb00cee-c66b-4f34-b99d-355458f5e83b%28Office.15%29.aspx)元素**用户回音**元素的客户端应用程序应使用**RedirectTarget**元素来构建是新设置请求发送到指定的重定向响应中的服务器。</span><span class="sxs-lookup"><span data-stu-id="7de0b-165">If the Autodiscover service returns a redirection response, indicated by the [ErrorCode](http://msdn.microsoft.com/library/0bb00cee-c66b-4f34-b99d-355458f5e83b%28Office.15%29.aspx) element of the **UserResponse** element, your client application should use the **RedirectTarget** element to construct a new settings request that is sent to the server specified in the redirection response.</span></span> <span data-ttu-id="7de0b-166">下面的示例显示服务器的重定向响应。</span><span class="sxs-lookup"><span data-stu-id="7de0b-166">The following example shows a redirection response from the server.</span></span> 
+<span data-ttu-id="d5fef-165">如果自动发现服务返回一个重定向响应（由**UserResponse**元素的[ErrorCode](https://msdn.microsoft.com/library/0bb00cee-c66b-4f34-b99d-355458f5e83b%28Office.15%29.aspx)元素指示），则客户端应用程序应使用**RedirectTarget**元素构建一个新的设置请求，该请求将发送到重定向响应中指定的服务器。</span><span class="sxs-lookup"><span data-stu-id="d5fef-165">If the Autodiscover service returns a redirection response, indicated by the [ErrorCode](https://msdn.microsoft.com/library/0bb00cee-c66b-4f34-b99d-355458f5e83b%28Office.15%29.aspx) element of the **UserResponse** element, your client application should use the **RedirectTarget** element to construct a new settings request that is sent to the server specified in the redirection response.</span></span> <span data-ttu-id="d5fef-166">以下示例显示来自服务器的重定向响应。</span><span class="sxs-lookup"><span data-stu-id="d5fef-166">The following example shows a redirection response from the server.</span></span> 
   
 ```XML
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" xmlns:a="http://www.w3.org/2005/08/addressing">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/" xmlns:a="http://www.w3.org/2005/08/addressing">
   <s:Header>
-    <a:Action s:mustUnderstand="1">http://schemas.microsoft.com/exchange/2010/
+    <a:Action s:mustUnderstand="1">https://schemas.microsoft.com/exchange/2010/
         Autodiscover/Autodiscover/GetUserSettingsResponse</a:Action>
-    <h:ServerVersionInfo xmlns:h="http://schemas.microsoft.com/exchange/2010/Autodiscover" 
+    <h:ServerVersionInfo xmlns:h="https://schemas.microsoft.com/exchange/2010/Autodiscover" 
         xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
       <h:MajorVersion>15</h:MajorVersion>
       <h:MinorVersion>0</h:MinorVersion>
@@ -150,7 +150,7 @@ service.AutodiscoverUrl("User1@contoso.com");
     </h:ServerVersionInfo>
   </s:Header>
   <s:Body>
-    <GetUserSettingsResponseMessage xmlns="http://schemas.microsoft.com/exchange/2010/Autodiscover">
+    <GetUserSettingsResponseMessage xmlns="https://schemas.microsoft.com/exchange/2010/Autodiscover">
       <Response xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
         <ErrorCode>NoError</ErrorCode>
         <ErrorMessage />
@@ -170,22 +170,22 @@ service.AutodiscoverUrl("User1@contoso.com");
 
 ```
 
-<span data-ttu-id="7de0b-167">后重定向，客户端使用的重定向 URL 准备另一个请求。</span><span class="sxs-lookup"><span data-stu-id="7de0b-167">After a redirection, the client uses the redirection URL to prepare another request.</span></span> <span data-ttu-id="7de0b-168">下面的代码演示的请求重定向响应中创建的示例。</span><span class="sxs-lookup"><span data-stu-id="7de0b-168">The following code shows an example of the request that you create from the redirection response.</span></span>
+<span data-ttu-id="d5fef-167">重定向后，客户端使用重定向 URL 准备另一个请求。</span><span class="sxs-lookup"><span data-stu-id="d5fef-167">After a redirection, the client uses the redirection URL to prepare another request.</span></span> <span data-ttu-id="d5fef-168">以下代码显示了您通过重定向响应创建的请求的示例。</span><span class="sxs-lookup"><span data-stu-id="d5fef-168">The following code shows an example of the request that you create from the redirection response.</span></span>
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:a="http://schemas.microsoft.com/exchange/2010/Autodiscover" 
+<soap:Envelope xmlns:a="https://schemas.microsoft.com/exchange/2010/Autodiscover" 
         xmlns:wsa="http://www.w3.org/2005/08/addressing" 
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-        xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+        xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <a:RequestedServerVersion>Exchange2013</a:RequestedServerVersion>
-    <wsa:Action>http://schemas.microsoft.com/exchange/2010/
+    <wsa:Action>https://schemas.microsoft.com/exchange/2010/
         Autodiscover/Autodiscover/GetUserSettings</wsa:Action>
     <wsa:To>https://autodiscover.exchange.microsoft.com/autodiscover/autodiscover.svc</wsa:To>
   </soap:Header>
   <soap:Body>
-    <a:GetUserSettingsRequestMessage xmlns:a="http://schemas.microsoft.com/exchange/2010/Autodiscover">
+    <a:GetUserSettingsRequestMessage xmlns:a="https://schemas.microsoft.com/exchange/2010/Autodiscover">
       <a:Request>
         <a:Users>
           <a:User>
@@ -203,15 +203,15 @@ service.AutodiscoverUrl("User1@contoso.com");
 
 ```
 
-<span data-ttu-id="7de0b-169">当客户端应用程序具有已定向到的正确的终结点的自动发现服务时，服务器将发送与[ErrorCode](http://msdn.microsoft.com/library/0bb00cee-c66b-4f34-b99d-355458f5e83b%28Office.15%29.aspx)元素**用户回音**元素设置为**NoError**和包含请求的响应用户设置。</span><span class="sxs-lookup"><span data-stu-id="7de0b-169">When the client application has been directed to the correct endpoint for the Autodiscover service, the server will send a response with the [ErrorCode](http://msdn.microsoft.com/library/0bb00cee-c66b-4f34-b99d-355458f5e83b%28Office.15%29.aspx) element of the **UserResponse** element set to **NoError** and containing the requested user settings.</span></span> <span data-ttu-id="7de0b-170">仅请求的用户设置， **InternalEwsUrl**和**ExternalEwsUrl**，则返回。</span><span class="sxs-lookup"><span data-stu-id="7de0b-170">Only the requested user settings, **InternalEwsUrl** and **ExternalEwsUrl**, are returned.</span></span> <span data-ttu-id="7de0b-171">下面的示例显示来自服务器的响应。</span><span class="sxs-lookup"><span data-stu-id="7de0b-171">The following example shows the response from the server.</span></span> 
+<span data-ttu-id="d5fef-169">当客户端应用程序定向到自动发现服务的正确终结点时，服务器将向 NoError 发送响应，并将**UserResponse**元素的[ErrorCode](https://msdn.microsoft.com/library/0bb00cee-c66b-4f34-b99d-355458f5e83b%28Office.15%29.aspx)元素设置为**NoError** ，并包含请求的用户设置。</span><span class="sxs-lookup"><span data-stu-id="d5fef-169">When the client application has been directed to the correct endpoint for the Autodiscover service, the server will send a response with the [ErrorCode](https://msdn.microsoft.com/library/0bb00cee-c66b-4f34-b99d-355458f5e83b%28Office.15%29.aspx) element of the **UserResponse** element set to **NoError** and containing the requested user settings.</span></span> <span data-ttu-id="d5fef-170">仅返回请求的用户设置**InternalEwsUrl**和**ExternalEwsUrl**。</span><span class="sxs-lookup"><span data-stu-id="d5fef-170">Only the requested user settings, **InternalEwsUrl** and **ExternalEwsUrl**, are returned.</span></span> <span data-ttu-id="d5fef-171">下面的示例演示来自服务器的响应。</span><span class="sxs-lookup"><span data-stu-id="d5fef-171">The following example shows the response from the server.</span></span> 
   
 ```XML
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" 
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/" 
         xmlns:a="http://www.w3.org/2005/08/addressing">
   <s:Header>
-    <a:Action s:mustUnderstand="1">http://schemas.microsoft.com/exchange/2010/
+    <a:Action s:mustUnderstand="1">https://schemas.microsoft.com/exchange/2010/
         Autodiscover/Autodiscover/GetUserSettingsResponse</a:Action>
-    <h:ServerVersionInfo xmlns:h="http://schemas.microsoft.com/exchange/2010/Autodiscover" 
+    <h:ServerVersionInfo xmlns:h="https://schemas.microsoft.com/exchange/2010/Autodiscover" 
         xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
       <h:MajorVersion>15</h:MajorVersion>
       <h:MinorVersion>0</h:MinorVersion>
@@ -221,7 +221,7 @@ service.AutodiscoverUrl("User1@contoso.com");
     </h:ServerVersionInfo>
   </s:Header>
   <s:Body>
-    <GetUserSettingsResponseMessage xmlns="http://schemas.microsoft.com/exchange/2010/Autodiscover">
+    <GetUserSettingsResponseMessage xmlns="https://schemas.microsoft.com/exchange/2010/Autodiscover">
       <Response xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
         <ErrorCode>NoError</ErrorCode>
         <ErrorMessage />
@@ -249,19 +249,19 @@ service.AutodiscoverUrl("User1@contoso.com");
 </s:Envelope>
 ```
 
-## <a name="next-steps"></a><span data-ttu-id="7de0b-172">后续步骤</span><span class="sxs-lookup"><span data-stu-id="7de0b-172">Next steps</span></span>
-<span data-ttu-id="7de0b-173"><a name="bk_Next"> </a></span><span class="sxs-lookup"><span data-stu-id="7de0b-173"></span></span>
+## <a name="next-steps"></a><span data-ttu-id="d5fef-172">后续步骤</span><span class="sxs-lookup"><span data-stu-id="d5fef-172">Next steps</span></span>
+<span data-ttu-id="d5fef-173"><a name="bk_Next"> </a></span><span class="sxs-lookup"><span data-stu-id="d5fef-173"><a name="bk_Next"> </a></span></span>
 
-<span data-ttu-id="7de0b-174">按照自动发现过程查找终结点返回请求的域或用户设置。</span><span class="sxs-lookup"><span data-stu-id="7de0b-174">Finding the endpoint by following the Autodiscover process returns the requested domain or user settings.</span></span> <span data-ttu-id="7de0b-175">有关发出请求的特定设置的信息，请参阅以下文章：</span><span class="sxs-lookup"><span data-stu-id="7de0b-175">For information about making a request for specific settings, see the following articles:</span></span>
+<span data-ttu-id="d5fef-174">按照自动发现过程查找终结点将返回请求的域或用户设置。</span><span class="sxs-lookup"><span data-stu-id="d5fef-174">Finding the endpoint by following the Autodiscover process returns the requested domain or user settings.</span></span> <span data-ttu-id="d5fef-175">有关为特定设置发出请求的信息，请参阅以下文章：</span><span class="sxs-lookup"><span data-stu-id="d5fef-175">For information about making a request for specific settings, see the following articles:</span></span>
   
-- [<span data-ttu-id="7de0b-176">从 Exchange 服务器获取域设置</span><span class="sxs-lookup"><span data-stu-id="7de0b-176">Get domain settings from an Exchange server</span></span>](how-to-get-domain-settings-from-an-exchange-server.md)    
-- [<span data-ttu-id="7de0b-177">通过使用自动发现 Exchange 中获取用户设置</span><span class="sxs-lookup"><span data-stu-id="7de0b-177">Get user settings from Exchange by using Autodiscover</span></span>](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
+- [<span data-ttu-id="d5fef-176">获取来自 Exchange 服务器的域设置</span><span class="sxs-lookup"><span data-stu-id="d5fef-176">Get domain settings from an Exchange server</span></span>](how-to-get-domain-settings-from-an-exchange-server.md)    
+- [<span data-ttu-id="d5fef-177">使用自动发现从 Exchange 获取用户设置</span><span class="sxs-lookup"><span data-stu-id="d5fef-177">Get user settings from Exchange by using Autodiscover</span></span>](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
     
-## <a name="see-also"></a><span data-ttu-id="7de0b-178">另请参阅</span><span class="sxs-lookup"><span data-stu-id="7de0b-178">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d5fef-178">另请参阅</span><span class="sxs-lookup"><span data-stu-id="d5fef-178">See also</span></span>
 
-- [<span data-ttu-id="7de0b-179">设置 EWS 应用程序</span><span class="sxs-lookup"><span data-stu-id="7de0b-179">Setting up your EWS application</span></span>](setting-up-your-ews-application.md)   
-- [<span data-ttu-id="7de0b-180">Exchange 自动发现</span><span class="sxs-lookup"><span data-stu-id="7de0b-180">Autodiscover for Exchange</span></span>](autodiscover-for-exchange.md)    
-- [<span data-ttu-id="7de0b-181">Exchange 的自动发现 web 服务引用</span><span class="sxs-lookup"><span data-stu-id="7de0b-181">Autodiscover web service reference for Exchange</span></span>](http://msdn.microsoft.com/library/a01124a8-a8cf-4b80-8625-d7ee05690bca%28Office.15%29.aspx)    
-- [<span data-ttu-id="7de0b-182">Exchange 的 EWS 引用</span><span class="sxs-lookup"><span data-stu-id="7de0b-182">EWS reference for Exchange</span></span>](http://msdn.microsoft.com/library/2a873474-1bb2-4cb1-a556-40e8c4159f4a%28Office.15%29.aspx)
+- [<span data-ttu-id="d5fef-179">设置 EWS 应用程序</span><span class="sxs-lookup"><span data-stu-id="d5fef-179">Setting up your EWS application</span></span>](setting-up-your-ews-application.md)   
+- [<span data-ttu-id="d5fef-180">Exchange 自动发现</span><span class="sxs-lookup"><span data-stu-id="d5fef-180">Autodiscover for Exchange</span></span>](autodiscover-for-exchange.md)    
+- [<span data-ttu-id="d5fef-181">Exchange 的自动发现 web 服务参考</span><span class="sxs-lookup"><span data-stu-id="d5fef-181">Autodiscover web service reference for Exchange</span></span>](https://msdn.microsoft.com/library/a01124a8-a8cf-4b80-8625-d7ee05690bca%28Office.15%29.aspx)    
+- [<span data-ttu-id="d5fef-182">Exchange 的 EWS 引用</span><span class="sxs-lookup"><span data-stu-id="d5fef-182">EWS reference for Exchange</span></span>](https://msdn.microsoft.com/library/2a873474-1bb2-4cb1-a556-40e8c4159f4a%28Office.15%29.aspx)
     
 

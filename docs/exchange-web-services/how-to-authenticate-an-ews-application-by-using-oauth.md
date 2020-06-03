@@ -1,183 +1,304 @@
 ---
 title: 使用 OAuth 对 EWS 应用程序进行身份验证
 manager: sethgros
-ms.date: 07/27/2018
+ms.date: 05/17/2019
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 1d8d57f9-4df5-4f21-9bbb-a89e0e259052
-description: 了解如何使用 EWS 托管 API 应用程序的 OAuth 身份验证。
-ms.openlocfilehash: 8b6a3fd72e42a36e31f261205292de28ef341270
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: 了解如何将 OAuth 身份验证与您的 EWS 托管 API 应用程序结合使用。
+localization_priority: Priority
+ms.openlocfilehash: e2bcb339ddac51b888660b6f982a8377591b1a29
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353579"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528249"
 ---
-# <a name="authenticate-an-ews-application-by-using-oauth"></a><span data-ttu-id="aa5e5-103">使用 OAuth 对 EWS 应用程序进行身份验证</span><span class="sxs-lookup"><span data-stu-id="aa5e5-103">Authenticate an EWS application by using OAuth</span></span>
+<!-- markdownlint-disable MD025 -->
+# <a name="authenticate-an-ews-application-by-using-oauth"></a><span data-ttu-id="8357b-103">使用 OAuth 对 EWS 应用程序进行身份验证</span><span class="sxs-lookup"><span data-stu-id="8357b-103">Authenticate an EWS application by using OAuth</span></span>
+<!-- markdownlint-enable MD025 -->
 
-<span data-ttu-id="aa5e5-104">了解如何使用 EWS 托管 API 应用程序的 OAuth 身份验证。</span><span class="sxs-lookup"><span data-stu-id="aa5e5-104">Learn how to use OAuth authentication with your EWS Managed API applications.</span></span>
-  
-<span data-ttu-id="aa5e5-105">您可以使用 Azure Active Directory 所提供的 OAuth 身份验证服务与 Office 365 REST Api 使用的相同的身份验证模型集成 EWS 托管 API 应用程序。</span><span class="sxs-lookup"><span data-stu-id="aa5e5-105">You can use the OAuth authentication service provided by Azure Active Directory to integrate your EWS Managed API applications with the same authentication model used by the Office 365 REST APIs.</span></span> <span data-ttu-id="aa5e5-106">若要使用 OAuth 在应用程序，您将需要：</span><span class="sxs-lookup"><span data-stu-id="aa5e5-106">To use OAuth with your application you will need to:</span></span>
-  
-1. <span data-ttu-id="aa5e5-107">与 Azure Active Directory 中[注册您的应用程序](#bk_register)。</span><span class="sxs-lookup"><span data-stu-id="aa5e5-107">[Register your application](#bk_register) with Azure Active Directory.</span></span> 
-    
-2. <span data-ttu-id="aa5e5-108">[添加代码以获取身份验证令牌](#bk_getToken)以从令牌服务器获取身份验证令牌。</span><span class="sxs-lookup"><span data-stu-id="aa5e5-108">[Add code to get an authentication token](#bk_getToken) to get an authentication token from a token server.</span></span> 
-    
-3. <span data-ttu-id="aa5e5-109">[添加身份验证令牌 EWS 请求](#bk_useToken)所发送。</span><span class="sxs-lookup"><span data-stu-id="aa5e5-109">[Add an authentication token to EWS requests](#bk_useToken) that you send.</span></span> 
-    
+<span data-ttu-id="8357b-104">了解如何将 OAuth 身份验证与您的 EWS 托管 API 应用程序结合使用。</span><span class="sxs-lookup"><span data-stu-id="8357b-104">Learn how to use OAuth authentication with your EWS Managed API applications.</span></span>
+
+<span data-ttu-id="8357b-105">您可以使用 Azure Active Directory 提供的 OAuth 身份验证服务，以便您的 EWS 托管 API 应用程序能够访问 Office 365 中的 Exchange Online。</span><span class="sxs-lookup"><span data-stu-id="8357b-105">You can use the OAuth authentication service provided by Azure Active Directory to enable your EWS Managed API applications to access Exchange Online in Office 365.</span></span> <span data-ttu-id="8357b-106">若要将 OAuth 与您的应用程序一起使用，您需要执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="8357b-106">To use OAuth with your application you will need to:</span></span>
+
+1. <span data-ttu-id="8357b-107">向 Azure Active Directory[注册应用程序](#register-your-application)。</span><span class="sxs-lookup"><span data-stu-id="8357b-107">[Register your application](#register-your-application) with Azure Active Directory.</span></span>
+
+2. <span data-ttu-id="8357b-108">[添加代码以获取](#add-code-to-get-an-authentication-token)用于从令牌服务器获取身份验证令牌的身份验证令牌。</span><span class="sxs-lookup"><span data-stu-id="8357b-108">[Add code to get an authentication token](#add-code-to-get-an-authentication-token) to get an authentication token from a token server.</span></span>
+
+3. <span data-ttu-id="8357b-109">向您发送的[EWS 请求添加身份验证令牌](#add-an-authentication-token-to-ews-requests)。</span><span class="sxs-lookup"><span data-stu-id="8357b-109">[Add an authentication token to EWS requests](#add-an-authentication-token-to-ews-requests) that you send.</span></span>
+
 > [!NOTE]
-> <span data-ttu-id="aa5e5-110">EWS 的 OAuth 身份验证在 Exchange 中的 Office 365 一部分才可用。</span><span class="sxs-lookup"><span data-stu-id="aa5e5-110">OAuth authentication for EWS is only available in Exchange as part of Office 365.</span></span> <span data-ttu-id="aa5e5-111">EWS 应用程序要求"完全访问用户邮箱"权限。</span><span class="sxs-lookup"><span data-stu-id="aa5e5-111">EWS applications require the "Full access to user's mailbox" permission.</span></span> 
-  
-<span data-ttu-id="aa5e5-112">若要使用本文中的代码，您将需要有权访问以下：</span><span class="sxs-lookup"><span data-stu-id="aa5e5-112">To use the code in this article, you will need to have access to the following:</span></span>
-  
-- <span data-ttu-id="aa5e5-113">[Office 365 开发人员帐户](https://docs.microsoft.com/en-us/office/developer-program/office-365-developer-program)。</span><span class="sxs-lookup"><span data-stu-id="aa5e5-113">An [Office 365 developer account](https://docs.microsoft.com/en-us/office/developer-program/office-365-developer-program).</span></span> <span data-ttu-id="aa5e5-114">试用帐户可用于测试您的应用程序。</span><span class="sxs-lookup"><span data-stu-id="aa5e5-114">You can use a trial account to test your application.</span></span>
-    
-- <span data-ttu-id="aa5e5-115">[用于.NET 的 Azure AD 身份验证库](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries)。</span><span class="sxs-lookup"><span data-stu-id="aa5e5-115">The [Azure AD Authentication Library for .NET](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries).</span></span>
-    
-- <span data-ttu-id="aa5e5-116">[EWS 托管 API](https://github.com/officedev/ews-managed-api.aspx)。</span><span class="sxs-lookup"><span data-stu-id="aa5e5-116">[The EWS Managed API](https://github.com/officedev/ews-managed-api.aspx).</span></span>
+> <span data-ttu-id="8357b-110">EWS 的 OAuth 身份验证仅在 Exchange 中作为 Office 365 的一部分提供。</span><span class="sxs-lookup"><span data-stu-id="8357b-110">OAuth authentication for EWS is only available in Exchange as part of Office 365.</span></span> <span data-ttu-id="8357b-111">使用 OAuth 的 EWS 应用程序必须注册到 Azure Active Directory。</span><span class="sxs-lookup"><span data-stu-id="8357b-111">EWS applications that use OAuth must be registered with Azure Active Directory.</span></span>
 
-<span data-ttu-id="aa5e5-117"><a name="bk_register"> </a></span><span class="sxs-lookup"><span data-stu-id="aa5e5-117"></span></span>
+<span data-ttu-id="8357b-112">若要使用本文中的代码，您需要具有以下权限：</span><span class="sxs-lookup"><span data-stu-id="8357b-112">To use the code in this article, you will need to have access to the following:</span></span>
 
-## <a name="register-your-application"></a><span data-ttu-id="aa5e5-118">注册您的应用程序</span><span class="sxs-lookup"><span data-stu-id="aa5e5-118">Register your application</span></span>
+- <span data-ttu-id="8357b-113">包含 Exchange Online 邮箱的 Office 365 帐户。</span><span class="sxs-lookup"><span data-stu-id="8357b-113">An Office 365 account with an Exchange Online mailbox.</span></span> <span data-ttu-id="8357b-114">如果没有 Office 365 帐户，可以[注册 office 365 开发人员计划](https://developer.microsoft.com/office/dev-program)以获取免费的 office 365 订阅。</span><span class="sxs-lookup"><span data-stu-id="8357b-114">If you do not have an Office 365 account, you can [sign up for the Office 365 Developer Program](https://developer.microsoft.com/office/dev-program) to get a free Office 365 subscription.</span></span>
 
-<span data-ttu-id="aa5e5-119">若要使用 OAuth，应用程序必须具有一个客户端标识符和应用程序标识应用程序的 URI。</span><span class="sxs-lookup"><span data-stu-id="aa5e5-119">To use OAuth, an application must have a client identifier and an application URI that identifies the application.</span></span> <span data-ttu-id="aa5e5-120">如果您尚未尚未注册您的应用程序与 Azure Active Directory 服务，您将需要手动将您的应用程序添加按照在[注册您的应用程序](https://apps.dev.microsoft.com/#/appList)的步骤。</span><span class="sxs-lookup"><span data-stu-id="aa5e5-120">If you have not yet registered your application with Azure Active Directory Services, you'll need to manually add your application by following the steps at [Register your app](https://apps.dev.microsoft.com/#/appList).</span></span>
+- <span data-ttu-id="8357b-115">[适用于 .net 的 Microsoft 身份验证库](/dotnet/api/microsoft.identity.client?view=azure-dotnet)。</span><span class="sxs-lookup"><span data-stu-id="8357b-115">The [Microsoft Authentication Library for .NET](/dotnet/api/microsoft.identity.client?view=azure-dotnet).</span></span>
 
-<span data-ttu-id="aa5e5-121"><a name="bk_getToken"> </a></span><span class="sxs-lookup"><span data-stu-id="aa5e5-121"></span></span>
+- <span data-ttu-id="8357b-116">[EWS 托管 API](https://github.com/officedev/ews-managed-api)。</span><span class="sxs-lookup"><span data-stu-id="8357b-116">The [EWS Managed API](https://github.com/officedev/ews-managed-api).</span></span>
 
-## <a name="add-code-to-get-an-authentication-token"></a><span data-ttu-id="aa5e5-122">添加代码以获取身份验证令牌</span><span class="sxs-lookup"><span data-stu-id="aa5e5-122">Add code to get an authentication token</span></span>
 
-<span data-ttu-id="aa5e5-123">用于.NET 的 Azure AD 身份验证库简化了从 Azure Active Directory 获取身份验证令牌，以便您可以在您的应用程序中使用令牌。</span><span class="sxs-lookup"><span data-stu-id="aa5e5-123">The Azure AD Authentication Library for .NET simplifies getting an authentication token from Azure Active Directory so that you can use the token in your application.</span></span> <span data-ttu-id="aa5e5-124">您需要提供的信息获取令牌的四个部分：</span><span class="sxs-lookup"><span data-stu-id="aa5e5-124">You need to provide four pieces of information to get the token:</span></span>
-  
-1. <span data-ttu-id="aa5e5-125">令牌的服务器的 URI。</span><span class="sxs-lookup"><span data-stu-id="aa5e5-125">The URI of the token server.</span></span> <span data-ttu-id="aa5e5-126">令牌的服务器是对用户进行身份验证并返回您的应用程序可用于访问 EWS 的令牌**颁发机构**。</span><span class="sxs-lookup"><span data-stu-id="aa5e5-126">The token server is the **authority** that authenticates the user and returns a token that your application can use to access EWS.</span></span> 
-    
-2. <span data-ttu-id="aa5e5-127">使用 Azure Active Directory 中注册您的应用程序时创建应用程序客户端 ID。</span><span class="sxs-lookup"><span data-stu-id="aa5e5-127">The application client ID created when you registered your application with Azure Active Directory.</span></span>
-    
-3. <span data-ttu-id="aa5e5-128">应用程序客户端与 Azure Active Directory 中注册您的应用程序时创建的 URI。</span><span class="sxs-lookup"><span data-stu-id="aa5e5-128">The application client URI created when you registered your application with Azure Active Directory.</span></span>
-    
-4. <span data-ttu-id="aa5e5-129">EWS 服务器的 URI 和的 EWS 终结点 URI。</span><span class="sxs-lookup"><span data-stu-id="aa5e5-129">The URI of the EWS server and the URI of the EWS endpoint.</span></span> <span data-ttu-id="aa5e5-130">对于 Exchange 作为 Office 365 的一部分，这将为`https://<server name>/ews/exchange.asmx`。</span><span class="sxs-lookup"><span data-stu-id="aa5e5-130">For Exchange as part of Office 365, this will be  `https://<server name>/ews/exchange.asmx`.</span></span>
-    
-<span data-ttu-id="aa5e5-131">下面的代码演示如何使用 Azure AD 身份验证库获取身份验证令牌。</span><span class="sxs-lookup"><span data-stu-id="aa5e5-131">The following code shows how to use the Azure AD Authentication Library to get an authentication token.</span></span> <span data-ttu-id="aa5e5-132">该示例假定在 App.config 文件中的应用程序的存储进行身份验证请求所需的信息。</span><span class="sxs-lookup"><span data-stu-id="aa5e5-132">It assumes that the information required to make the authentication request is stored in the application's App.config file.</span></span> <span data-ttu-id="aa5e5-133">本示例不包括错误检查，请参阅[代码示例](#bk_codeSample)的完整代码。</span><span class="sxs-lookup"><span data-stu-id="aa5e5-133">This example does not include error checking, see the [Code sample](#bk_codeSample) for the complete code.</span></span> 
-  
+<span data-ttu-id="8357b-117">有两种类型的 OAuth 权限可用于访问 Exchange Online 中的 EWS Api。</span><span class="sxs-lookup"><span data-stu-id="8357b-117">There are two types of OAuth permissions that can be used to access EWS APIs in Exchange Online.</span></span> <span data-ttu-id="8357b-118">在继续使用教程之前，您需要选择要使用的特定权限类型。</span><span class="sxs-lookup"><span data-stu-id="8357b-118">Before you proceed with the tutorial, you will need to choose the specific permission type to use.</span></span>
+
+* <span data-ttu-id="8357b-119">**委派权限**供已有用户登录的应用使用。</span><span class="sxs-lookup"><span data-stu-id="8357b-119">**Delegated permissions** are used by apps that have a signed-in user present.</span></span> <span data-ttu-id="8357b-120">对于这些应用程序，用户或管理员同意应用程序请求的权限，并且应用可以在进行 API 调用时充当登录用户。</span><span class="sxs-lookup"><span data-stu-id="8357b-120">For these apps, either the user or an administrator consents to the permissions that the app requests and the app can act as the signed-in user when making API calls.</span></span> 
+* <span data-ttu-id="8357b-121">**应用程序权限**由在没有登录用户的情况下运行的应用程序使用;例如，作为后台服务或守护程序运行的应用程序，可以访问多个邮箱。</span><span class="sxs-lookup"><span data-stu-id="8357b-121">**Application permissions** are used by apps that run without a signed-in user present; for example, apps that run as background services or daemons and can access multiple mailboxes.</span></span>
+
+## <a name="register-your-application"></a><span data-ttu-id="8357b-122">注册应用程序</span><span class="sxs-lookup"><span data-stu-id="8357b-122">Register your application</span></span>
+
+<span data-ttu-id="8357b-123">若要使用 OAuth，应用程序必须具有由 Azure Active Directory 颁发的应用程序 ID。</span><span class="sxs-lookup"><span data-stu-id="8357b-123">To use OAuth, an application must have an application ID issued by Azure Active Directory.</span></span> <span data-ttu-id="8357b-124">在本教程中，假定应用程序是一个控制台应用程序，因此您需要将应用程序注册为具有 Azure Active Directory 的公共客户端。</span><span class="sxs-lookup"><span data-stu-id="8357b-124">In this tutorial, it is assumed that the application is a console application, so you need to register your application as a public client with Azure Active Directory.</span></span>
+
+1. <span data-ttu-id="8357b-125">打开浏览器，并转到 [Azure Active Directory 管理中心](https://aad.portal.azure.com)。然后，使用**个人帐户**（亦称为“Microsoft 帐户”）或**工作或学校帐户**登录。</span><span class="sxs-lookup"><span data-stu-id="8357b-125">Open a browser and navigate to the [Azure Active Directory admin center](https://aad.portal.azure.com) and login using a **personal account** (aka: Microsoft Account) or **Work or School Account**.</span></span>
+
+1. <span data-ttu-id="8357b-126">选择左侧导航栏中的“**Azure Active Directory**”，再选择“**管理**”下的“**应用注册**”。</span><span class="sxs-lookup"><span data-stu-id="8357b-126">Select **Azure Active Directory** in the left-hand navigation, then select **App registrations** under **Manage**.</span></span>
+
+1. <span data-ttu-id="8357b-127">选择“新注册”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="8357b-127">Select **New registration**.</span></span> <span data-ttu-id="8357b-128">在“注册应用”\*\*\*\* 页上，按如下方式设置值。</span><span class="sxs-lookup"><span data-stu-id="8357b-128">On the **Register an application** page, set the values as follows.</span></span>
+
+    - <span data-ttu-id="8357b-129">将**名称**设置为您的应用程序的友好名称。</span><span class="sxs-lookup"><span data-stu-id="8357b-129">Set **Name** to a friendly name for your app.</span></span>
+    - <span data-ttu-id="8357b-130">将**支持的帐户类型**设置为适合您的方案的选项。</span><span class="sxs-lookup"><span data-stu-id="8357b-130">Set **Supported account types** to the choice that makes sense for your scenario.</span></span>
+    - <span data-ttu-id="8357b-131">对于 "**重定向 URI**"，将 dropdown 更改为 "**公用客户端（移动 & 桌面）** "，并将值设置为 `urn:ietf:wg:oauth:2.0:oob` 。</span><span class="sxs-lookup"><span data-stu-id="8357b-131">For **Redirect URI**, change the dropdown to **Public client (mobile & desktop)** and set the value to `urn:ietf:wg:oauth:2.0:oob`.</span></span>
+
+1. <span data-ttu-id="8357b-132">选择“注册”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="8357b-132">Choose **Register**.</span></span> <span data-ttu-id="8357b-133">在下一页上，复制**应用程序（客户端） ID**的值并将其保存，稍后将需要它。</span><span class="sxs-lookup"><span data-stu-id="8357b-133">On the next page, copy the value of the **Application (client) ID** and save it, you will need it later.</span></span>
+
+1. <span data-ttu-id="8357b-134">在 "**管理**" 下的左侧导航栏中选择 " **API 权限**"。</span><span class="sxs-lookup"><span data-stu-id="8357b-134">Select **API permissions** in the left-hand navigation under **Manage**.</span></span> 
+
+1. <span data-ttu-id="8357b-135">选择 "**添加权限**"。</span><span class="sxs-lookup"><span data-stu-id="8357b-135">Select **Add a permission**.</span></span> <span data-ttu-id="8357b-136">在 "**请求 API 权限**" 页面上，选择 "**受支持的旧版 api**" 下的**Exchange** 。</span><span class="sxs-lookup"><span data-stu-id="8357b-136">On the **Request API permissions** page, select **Exchange** under **Supported legacy APIs**.</span></span> 
+
+1. <span data-ttu-id="8357b-137">若要使用委派权限，请选择 "**委派权限**"，然后选择 " **EWS"。Directory.accessasuser.all**在**EWS**下。</span><span class="sxs-lookup"><span data-stu-id="8357b-137">To use Delegated permissions, select **Delegated permissions** and then select **EWS.AccessAsUser.All** under **EWS**.</span></span> <span data-ttu-id="8357b-138">单击 "**添加权限**"。</span><span class="sxs-lookup"><span data-stu-id="8357b-138">Click on **Add permissions**.</span></span> 
+
+<span data-ttu-id="8357b-139">若要使用应用程序权限，请执行以下附加步骤。</span><span class="sxs-lookup"><span data-stu-id="8357b-139">To use Application permissions, follow these additional steps.</span></span>
+
+1. <span data-ttu-id="8357b-140">选择 "**应用程序权限**"，然后选择 " **full_access_as_app**"。</span><span class="sxs-lookup"><span data-stu-id="8357b-140">Select **Application permissions** and then select **full_access_as_app**.</span></span> <span data-ttu-id="8357b-141">单击 "**添加权限**"。</span><span class="sxs-lookup"><span data-stu-id="8357b-141">Click on **Add permissions**.</span></span>
+
+1. <span data-ttu-id="8357b-142">选择 "**授予对组织的管理员同意**" 并接受 "同意" 对话框。</span><span class="sxs-lookup"><span data-stu-id="8357b-142">Select **Grant admin consent for org** and accept the consent dialog.</span></span> 
+
+1. <span data-ttu-id="8357b-143">在 "**管理**" 下的左侧导航栏中选择 "**证书 & 密码**"。</span><span class="sxs-lookup"><span data-stu-id="8357b-143">Select **Certificates & Secrets** in the left-hand navigation under **Manage**.</span></span> 
+
+1. <span data-ttu-id="8357b-144">选择 "**新建客户端密码**"，输入简短说明，然后选择 "**添加**"。</span><span class="sxs-lookup"><span data-stu-id="8357b-144">Select **New client secret**, enter a short description and select **Add**.</span></span>
+
+1. <span data-ttu-id="8357b-145">复制新添加的客户端密码的**值**并将其保存，稍后将需要它。</span><span class="sxs-lookup"><span data-stu-id="8357b-145">Copy the **Value** of the newly added client secret and save it, you will need it later.</span></span> 
+
+## <a name="add-code-to-get-an-authentication-token"></a><span data-ttu-id="8357b-146">添加代码以获取身份验证令牌</span><span class="sxs-lookup"><span data-stu-id="8357b-146">Add code to get an authentication token</span></span>
+
+<span data-ttu-id="8357b-147">下面的代码段演示如何使用 Microsoft 身份验证库获取委派权限和应用程序权限的身份验证令牌。</span><span class="sxs-lookup"><span data-stu-id="8357b-147">The following code snippets show how to use the Microsoft Authentication Library to get authentication tokens for delegated permissions and application permissions.</span></span> <span data-ttu-id="8357b-148">这些代码片段假定进行身份验证请求所需的信息存储在应用程序的 app.config**文件中。**</span><span class="sxs-lookup"><span data-stu-id="8357b-148">These snippets assume that the information required to make the authentication request is stored in the application's **App.config** file.</span></span> <span data-ttu-id="8357b-149">这些示例不包括错误检查，请参阅完整代码的[代码示例](#code-samples)。</span><span class="sxs-lookup"><span data-stu-id="8357b-149">These examples do not include error checking, see the [Code samples](#code-samples) for the complete code.</span></span>
+
+### <a name="delegated-permissions"></a><span data-ttu-id="8357b-150">委派权限</span><span class="sxs-lookup"><span data-stu-id="8357b-150">Delegated permissions</span></span>
+
 ```cs
-string authority = ConfigurationManager.AppSettings["authority"];
-string clientID = ConfigurationManager.AppSettings["clientID"];
-Uri clientAppUri = new Uri(ConfigurationManager.AppSettings["clientAppUri"];
-string serverName = ConfigurationManager.AppSettings["serverName"];
-AuthenticationContext authenticationContext = new AuthenticationContext(authority, false);
-AuthenticationResult authenticationResult = authenticationContext.AcquireToken(serverName, clientId, clientAppUri);
+// Configure the MSAL client to get tokens
+var pcaOptions = new PublicClientApplicationOptions
+{
+    ClientId = ConfigurationManager.AppSettings["appId"],
+    TenantId = ConfigurationManager.AppSettings["tenantId"]
+};
+
+var pca = PublicClientApplicationBuilder
+    .CreateWithApplicationOptions(pcaOptions).Build();
+
+// The permission scope required for EWS access
+var ewsScopes = new string[] { "https://outlook.office.com/EWS.AccessAsUser.All" };
+
+// Make the interactive token request
+var authResult = await pca.AcquireTokenInteractive(ewsScopes).ExecuteAsync();
+```
+
+### <a name="application-permissions"></a><span data-ttu-id="8357b-151">应用权限</span><span class="sxs-lookup"><span data-stu-id="8357b-151">Application permissions</span></span>
+
+```cs
+// Configure the MSAL client to get tokens
+var app = ConfidentialClientApplicationBuilder
+    .Create(ConfigurationManager.AppSettings["appId"])
+    .WithAuthority(AzureCloudInstance.AzurePublic, ConfigurationManager.AppSettings["tenantId"])
+    .WithClientSecret(ConfigurationManager.AppSettings["clientSecret"]).Build();
+
+// The permission scope required for EWS access
+var ewsScopes = new string[] { "https://outlook.office.com/.default" };
+
+//Make the toekn request
+AuthenticationResult authResult = await app.AcquireTokenForClient(ewsScopes).ExecuteAsync();
 
 ```
 
-<span data-ttu-id="aa5e5-134"><a name="bk_useToken"> </a></span><span class="sxs-lookup"><span data-stu-id="aa5e5-134"></span></span>
+## <a name="add-an-authentication-token-to-ews-requests"></a><span data-ttu-id="8357b-152">向 EWS 请求添加身份验证令牌</span><span class="sxs-lookup"><span data-stu-id="8357b-152">Add an authentication token to EWS requests</span></span>
 
-## <a name="add-an-authentication-token-to-ews-requests"></a><span data-ttu-id="aa5e5-135">将身份验证令牌添加到 EWS 请求</span><span class="sxs-lookup"><span data-stu-id="aa5e5-135">Add an authentication token to EWS requests</span></span>
+<span data-ttu-id="8357b-153">在收到**AuthenticationResult**对象之后，可以使用**AccessToken**属性获取令牌服务所颁发的令牌。</span><span class="sxs-lookup"><span data-stu-id="8357b-153">After you've received the **AuthenticationResult** object you can use the **AccessToken** property to get the token issued by the token service.</span></span>
 
-<span data-ttu-id="aa5e5-136">已收到的**AuthenticationResult**对象后可以使用**AccessToken**属性获取令牌颁发的令牌服务。</span><span class="sxs-lookup"><span data-stu-id="aa5e5-136">After you've received the **AuthenticationResult** object you can use the **AccessToken** property to get the token issued by the token service.</span></span> 
-  
 ```cs
-ExchangeService exchangeService = new ExchangeService(ExchangeVersion.Exchange2013);
-exchangeService.Url = new Uri(ConfigurationManager.AppSettings["serverName"]+"ews/exchange.asmx");
-exchangeService.TraceEnabled = true;
-exchangeService.TraceFlags = TraceFlags.All;
-exchangeService.Credentials = new OAuthCredentials(authenticationResult.AccessToken));
-exchangeService.FindFolders(WellKnownFolderName.Root, new Folderview(10));
+// Configure the ExchangeService with the access token
+var ewsClient = new ExchangeService();
+ewsClient.Url = new Uri("https://outlook.office365.com/EWS/Exchange.asmx");
+ewsClient.Credentials = new OAuthCredentials(authResult.AccessToken);
 ```
 
-<span data-ttu-id="aa5e5-137"><a name="bk_codeSample"> </a></span><span class="sxs-lookup"><span data-stu-id="aa5e5-137"></span></span>
+<span data-ttu-id="8357b-154">若要使用应用程序权限，您还需要明确模拟您要访问的邮箱。</span><span class="sxs-lookup"><span data-stu-id="8357b-154">To use Application permissions, you will also need to explictly impersonate a mailbox that you would like to access.</span></span> 
 
-## <a name="code-sample"></a><span data-ttu-id="aa5e5-138">代码示例</span><span class="sxs-lookup"><span data-stu-id="aa5e5-138">Code sample</span></span>
-
-<span data-ttu-id="aa5e5-139">以下是完整代码示例，演示如何使 OAuth 身份验证 EWS 请求。</span><span class="sxs-lookup"><span data-stu-id="aa5e5-139">The following is the complete code sample that demonstrates making an OAuth-authenticated EWS request.</span></span>
-  
 ```cs
-using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
-using System.Web.Script.Serialization;
-using Microsoft.Exchange.WebServices.Autodiscover;
+//Impersonate the mailbox you'd like to access.
+ewsClient.ImpersonatedUserId = new ImpersonatedUserId(ConnectingIdType.SmtpAddress, "test@demotenant.onmicrosoft.com");
+```
+
+## <a name="code-samples"></a><span data-ttu-id="8357b-155">代码示例</span><span class="sxs-lookup"><span data-stu-id="8357b-155">Code samples</span></span>
+
+### <a name="delegated-permissions"></a><span data-ttu-id="8357b-156">委派权限</span><span class="sxs-lookup"><span data-stu-id="8357b-156">Delegated permissions</span></span>
+
+<span data-ttu-id="8357b-157">下面是完整的代码示例，该示例演示如何使用委派权限创建通过 OAuth 身份验证的 EWS 请求。</span><span class="sxs-lookup"><span data-stu-id="8357b-157">The following is the complete code sample that demonstrates making an OAuth-authenticated EWS request using Delegated permissions.</span></span>
+
+```cs
 using Microsoft.Exchange.WebServices.Data;
-using Microsoft.IdentityModel.Clients.ActiveDirectory;
-namespace TestV1App
+using Microsoft.Identity.Client;
+using System;
+using System.Configuration;
+
+namespace EwsOAuth
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var t = new Thread(Run);
-            t.SetApartmentState(ApartmentState.STA);
-            t.Start();
-            t.Join();
+            MainAsync(args).Wait();
+
+            if (System.Diagnostics.Debugger.IsAttached)
+            {
+                Console.WriteLine("Hit any key to exit...");
+                Console.ReadKey();
+            }
         }
-        static void Run()
+
+        static async System.Threading.Tasks.Task MainAsync(string[] args)
         {
-           string authority = ConfigurationManager.AppSettings["authority"];
-           string clientID = ConfigurationManager.AppSettings["clientID"];
-           Uri clientAppUri = new Uri(ConfigurationManager.AppSettings["clientAppUri"];
-           string serverName = ConfigurationManager.AppSettings["serverName"];
-            AuthenticationResult authenticationResult = null;
-            AuthenticationContext authenticationContext = new AuthenticationContext(authority, false);
-            
-            string errorMessage = null;
+            // Configure the MSAL client to get tokens
+            var pcaOptions = new PublicClientApplicationOptions
+            {
+                ClientId = ConfigurationManager.AppSettings["appId"],
+                TenantId = ConfigurationManager.AppSettings["tenantId"]
+            };
+
+            var pca = PublicClientApplicationBuilder
+                .CreateWithApplicationOptions(pcaOptions).Build();
+
+            var ewsScopes = new string[] { "https://outlook.office.com/EWS.AccessAsUser.All" };
+
             try
             {
-                Console.WriteLine("Trying to acquire token");
-                authenticationResult = authenticationContext.AcquireToken(serverName, clientId, clientAppUri);
-            }
-                catch (AdalException ex)
-            {
-                errorMessage = ex.Message;
-                if (ex.InnerException != null)
+                // Make the interactive token request
+                var authResult = await pca.AcquireTokenInteractive(ewsScopes).ExecuteAsync();
+
+                // Configure the ExchangeService with the access token
+                var ewsClient = new ExchangeService();
+                ewsClient.Url = new Uri("https://outlook.office365.com/EWS/Exchange.asmx");
+                ewsClient.Credentials = new OAuthCredentials(authResult.AccessToken);
+
+                // Make an EWS call
+                var folders = ewsClient.FindFolders(WellKnownFolderName.MsgFolderRoot, new FolderView(10));
+                foreach(var folder in folders)
                 {
-                    errorMessage += "\nInnerException : " + ex.InnerException.Message;
+                    Console.WriteLine($"Folder: {folder.DisplayName}");
                 }
             }
-            catch (ArgumentException ex)
+            catch (MsalException ex)
             {
-                errorMessage = ex.Message;
+                Console.WriteLine($"Error acquiring access token: {ex.ToString()}");
             }
-            if (!string.IsNullOrEmpty(errorMessage))
+            catch (Exception ex)
             {
-                Console.WriteLine("Failed: {0}" + errorMessage);
-                return;
+                Console.WriteLine($"Error: {ex.ToString()}");
             }
-            Console.WriteLine("\nMaking the protocol call\n");
-            ExchangeService exchangeService = new ExchangeService(ExchangeVersion.Exchange2013);
-            exchangeService.Url = new Uri(resource + "ews/exchange.asmx");
-            exchangeService.TraceEnabled = true;
-            exchangeService.TraceFlags = TraceFlags.All;
-            exchangeService.Credentials = new OAuthCredentials(authenticationResult.AccessToken);
-            exchangeService.FindFolders(WellKnownFolderName.Root, new FolderView(10));
         }
     }
 }
-
 ```
 
-<span data-ttu-id="aa5e5-140">示例代码需要以下条目 App.config 文件：</span><span class="sxs-lookup"><span data-stu-id="aa5e5-140">The sample code requires an App.config file with the following entries:</span></span>
-  
+### <a name="application-permissions"></a><span data-ttu-id="8357b-158">应用权限</span><span class="sxs-lookup"><span data-stu-id="8357b-158">Application permissions</span></span>
+
+<span data-ttu-id="8357b-159">下面是完整的代码示例，演示如何使用应用程序权限创建通过 OAuth 身份验证的 EWS 请求。</span><span class="sxs-lookup"><span data-stu-id="8357b-159">The following is the complete code sample that demonstrates making an OAuth-authenticated EWS request using Application permissions.</span></span>
+
+```cs
+using System;
+using System.Configuration;
+using Microsoft.Exchange.WebServices.Data;
+using Microsoft.Identity.Client;
+
+namespace ews_oauth_samples
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            MainAsync(args).Wait();
+
+            if (System.Diagnostics.Debugger.IsAttached)
+            {
+                Console.WriteLine("Hit any key to exit...");
+                Console.ReadKey();
+            }
+        }
+        
+        static async System.Threading.Tasks.Task MainAsync(string[] args)
+        {
+            // Configure the MSAL client to get tokens
+            var ewsScopes = new string[] { "https://outlook.office.com/.default" };
+
+            var app = ConfidentialClientApplicationBuilder.Create(ConfigurationManager.AppSettings["appId"])
+                .WithAuthority(AzureCloudInstance.AzurePublic, ConfigurationManager.AppSettings["tenantId"])
+                .WithClientSecret(ConfigurationManager.AppSettings["clientSecret"])
+                .Build();
+
+            AuthenticationResult result = null;
+
+            try
+            {
+                // Make the interactive token request
+                result = await app.AcquireTokenForClient(ewsScopes)
+                    .ExecuteAsync();
+
+                // Configure the ExchangeService with the access token
+                var ewsClient = new ExchangeService();
+                ewsClient.Url = new Uri("https://outlook.office365.com/EWS/Exchange.asmx");
+                ewsClient.Credentials = new OAuthCredentials(result.AccessToken);
+
+                //Impersonate the mailbox you'd like to access.
+                ewsClient.ImpersonatedUserId = new ImpersonatedUserId(ConnectingIdType.SmtpAddress, "test@demotenant.onmicrosoft.com");
+
+                // Make an EWS call
+                var folders = ewsClient.FindFolders(WellKnownFolderName.MsgFolderRoot, new FolderView(10));
+                foreach (var folder in folders)
+                {
+                    Console.WriteLine($"Folder: {folder.DisplayName}");
+                }
+            }
+            catch (MsalException ex)
+            {
+                Console.WriteLine($"Error acquiring access token: {ex.ToString()}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.ToString()}");
+            }
+        }
+    }
+}
+```
+
+<span data-ttu-id="8357b-160">两种情况下的示例代码都需要具有以下条目的**app.config**文件：</span><span class="sxs-lookup"><span data-stu-id="8357b-160">The sample code in both cases requires an **App.config** file with the following entries:</span></span>
+
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <configuration>
   <startup>
-    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5" />
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2" />
   </startup>
   <appSettings>
-    <add key="authority" value="http://login.windows.net/<devAccountName>.onmicrosoft.com" />
-    <add key="clientId" value="<ID generated by Azure Active Directory"/>
-    <add key="clientAppUri" value="<URI registered with Azure Active Directory"/>
-    <add key="serverName" value="outlook.office365.com" />
+    <!-- The application ID from your app registration -->
+    <add key="appId" value="YOUR_APP_ID_HERE" />
+    <!-- If you registered your app to support only users in your organization, change the value
+           of this key to your tenant ID -->
+    <add key="tenantId" value="common"/>
+    <!-- The application's client secret from your app registration. Needed for application permission access -->
+    <add key="clientSecret" value="YOUR_CLIENT_SECRET_HERE"/>
   </appSettings>
 </configuration>
 ```
 
-## <a name="see-also"></a><span data-ttu-id="aa5e5-141">另请参阅</span><span class="sxs-lookup"><span data-stu-id="aa5e5-141">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8357b-161">另请参阅</span><span class="sxs-lookup"><span data-stu-id="8357b-161">See also</span></span>
 
-- [<span data-ttu-id="aa5e5-142">身份验证和 Exchange 中的 EWS</span><span class="sxs-lookup"><span data-stu-id="aa5e5-142">Authentication and EWS in Exchange</span></span>](authentication-and-ews-in-exchange.md)    
-
-    
-
+- [<span data-ttu-id="8357b-162">Exchange 中的身份验证和 EWS</span><span class="sxs-lookup"><span data-stu-id="8357b-162">Authentication and EWS in Exchange</span></span>](authentication-and-ews-in-exchange.md)
