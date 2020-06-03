@@ -16,7 +16,7 @@ ms.openlocfilehash: 055fb7eeb12e241739eb860cecbe398b8a322bd2
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459144"
 ---
 # <a name="getstreamingeventsresponsemessage"></a>GetStreamingEventsResponseMessage

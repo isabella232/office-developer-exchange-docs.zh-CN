@@ -12,7 +12,7 @@ ms.openlocfilehash: cecfdfaf67b00b6f8cf02188e7a4df7062a732e4
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459985"
 ---
 # <a name="status-holdstatustype"></a>状态（HoldStatusType）

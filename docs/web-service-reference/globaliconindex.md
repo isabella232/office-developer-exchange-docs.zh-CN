@@ -12,7 +12,7 @@ ms.openlocfilehash: 9900a80136a1a7eaae4634afd31568679f6dba1b
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459459"
 ---
 # <a name="globaliconindex"></a>GlobalIconIndex

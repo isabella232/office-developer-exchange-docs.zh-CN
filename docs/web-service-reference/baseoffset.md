@@ -16,7 +16,7 @@ ms.openlocfilehash: 1e29f123dfac2e29807e0a2077d47adb14844f4e
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460258"
 ---
 # <a name="baseoffset"></a>BaseOffset

@@ -16,7 +16,7 @@ ms.openlocfilehash: b8ea2cef366a52765850dddcc8c1ef1e8fa68b22
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460909"
 ---
 # <a name="getserviceconfiguration-operation"></a>GetServiceConfiguration 操作
@@ -25,7 +25,7 @@ ms.locfileid: "44460909"
   
 ## <a name="getserviceconfiguration-request-example"></a>GetServiceConfiguration 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 以下示例的**GetServiceConfiguration**请求显示如何形成获取统一消息服务的配置信息的请求。 
   
@@ -53,7 +53,7 @@ ms.locfileid: "44460909"
 
 ## <a name="getserviceconfiguration-response-example"></a>GetServiceConfiguration 响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对**GetServiceConfiguration**请求的成功响应。 
   
@@ -95,7 +95,7 @@ ms.locfileid: "44460909"
 
 ## <a name="getserviceconfiguration-error-response-example"></a>GetServiceConfiguration 错误响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对**GetServiceConfiguration**请求的错误响应。 此错误是由不正确的配置名称引起的。 
   

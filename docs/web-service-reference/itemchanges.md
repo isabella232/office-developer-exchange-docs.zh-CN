@@ -16,7 +16,7 @@ ms.openlocfilehash: ea6fb2023b88360f9558057e80c7fe0d855173b5
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459908"
 ---
 # <a name="itemchanges"></a>ItemChanges

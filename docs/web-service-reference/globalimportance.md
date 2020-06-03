@@ -16,7 +16,7 @@ ms.openlocfilehash: c760168afa3edac20ca0ae7bc677610d8456d178
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459445"
 ---
 # <a name="globalimportance"></a>GlobalImportance

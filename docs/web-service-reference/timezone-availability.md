@@ -16,7 +16,7 @@ ms.openlocfilehash: ba4b0a4805dba54450e01e89c5e9ef746404b716
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460272"
 ---
 # <a name="timezone-availability"></a>时区（可用性）

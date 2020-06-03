@@ -16,7 +16,7 @@ ms.openlocfilehash: 400bf5d1cafcbb789aaa749c62c7a908622d4ddb
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44461063"
 ---
 # <a name="getdelegate-operation"></a>GetDelegate 操作
@@ -36,7 +36,7 @@ ms.locfileid: "44461063"
    
 ## <a name="getdelegate-request-example"></a>GetDelegate 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的代码示例演示如何检索 user3's 邮箱上设置的所有代理的代理设置。 在响应中返回每个用户的所有权限。
   
@@ -70,7 +70,7 @@ ms.locfileid: "44461063"
   
 ## <a name="getdelegate-response-example"></a>GetDelegate 响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的**GetDelegate**响应示例显示了对**GetDelegate**请求的成功响应。 响应包含有关代理访问权限的信息，代理是否可以查看私人项目、代理是否接收会议邮件的副本以及会议请求的送达者。 
   

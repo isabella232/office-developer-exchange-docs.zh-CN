@@ -16,7 +16,7 @@ ms.openlocfilehash: 66e1b91ea3154d8a501339aed7b398970e8f5392
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459824"
 ---
 # <a name="updateitem-operation-contact"></a>UpdateItem 操作（联系人）
@@ -25,7 +25,7 @@ UpdateItem 操作用于更新 Exchange 存储中的联系人项目属性。
   
 ## <a name="updateitem-contact-request-example"></a>UpdateItem （Contact）请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的代码示例演示如何更新联系人的电子邮件地址。
   
@@ -90,7 +90,7 @@ UpdateItem 操作用于更新 Exchange 存储中的联系人项目属性。
     
 ## <a name="successful-updateitem-contact-response"></a>成功的 UpdateItem （联系人）响应
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的代码示例演示一个成功的 UpdateItem 响应。
   
@@ -150,7 +150,7 @@ UpdateItem 操作用于更新 Exchange 存储中的联系人项目属性。
     
 ## <a name="invalid-updateitem-contact-request-example"></a>无效的 UpdateItem （Contact）请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的代码示例演示一个无效请求。
   
@@ -191,7 +191,7 @@ UpdateItem 操作用于更新 Exchange 存储中的联系人项目属性。
   
 ## <a name="updateitem-contact-error-response"></a>UpdateItem （联系人）错误响应
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的代码示例演示对 UpdateItem （联系人）请求的错误响应。
   

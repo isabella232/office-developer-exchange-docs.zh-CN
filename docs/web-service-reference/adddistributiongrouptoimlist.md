@@ -12,7 +12,7 @@ ms.openlocfilehash: 90a84b23678fb0740158f601967905a8847286fd
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460377"
 ---
 # <a name="adddistributiongrouptoimlist"></a>AddDistributionGroupToImList

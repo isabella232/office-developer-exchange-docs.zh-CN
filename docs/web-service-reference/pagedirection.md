@@ -12,7 +12,7 @@ ms.openlocfilehash: 22816ff73af49e0f029b5618fa3d45f8880d0f82
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459726"
 ---
 # <a name="pagedirection"></a>PageDirection

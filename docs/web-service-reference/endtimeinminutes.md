@@ -16,7 +16,7 @@ ms.openlocfilehash: cb564f9de944848734749a30c813a94d6b5c4187
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459649"
 ---
 # <a name="endtimeinminutes"></a>EndTimeInMinutes

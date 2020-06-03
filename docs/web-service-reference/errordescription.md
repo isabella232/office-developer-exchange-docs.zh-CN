@@ -12,7 +12,7 @@ ms.openlocfilehash: d12e8b3dfc377097f649ef6f863bc59c1a59df9a
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460069"
 ---
 # <a name="errordescription"></a>ErrorDescription

@@ -16,7 +16,7 @@ ms.openlocfilehash: bd7fb55800b51eb2d69184bc4e04cdef3e6b9a89
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44461028"
 ---
 # <a name="getdelegate"></a>GetDelegate

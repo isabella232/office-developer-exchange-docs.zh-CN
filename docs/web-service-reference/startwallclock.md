@@ -12,7 +12,7 @@ ms.openlocfilehash: 6022de4659dd12579b0545b5d3ffd2ea9b8a103d
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460006"
 ---
 # <a name="startwallclock"></a>StartWallClock

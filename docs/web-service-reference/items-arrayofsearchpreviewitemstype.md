@@ -12,7 +12,7 @@ ms.openlocfilehash: 99d8af67370b75774def0db3b6c274c65a432aab
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459859"
 ---
 # <a name="items-arrayofsearchpreviewitemstype"></a>项目（ArrayOfSearchPreviewItemsType）

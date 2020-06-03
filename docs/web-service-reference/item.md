@@ -16,7 +16,7 @@ ms.openlocfilehash: 72d8b1344bea3bcd105a0e293365b17f37193ac3
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460314"
 ---
 # <a name="item"></a>项目

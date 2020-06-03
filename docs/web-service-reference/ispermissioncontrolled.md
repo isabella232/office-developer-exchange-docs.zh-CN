@@ -16,7 +16,7 @@ ms.openlocfilehash: 5fba06c1c56512f4a362f773f119ea346a4c0d2b
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460384"
 ---
 # <a name="ispermissioncontrolled"></a>IsPermissionControlled

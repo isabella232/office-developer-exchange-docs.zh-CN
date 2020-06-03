@@ -16,7 +16,7 @@ ms.openlocfilehash: 5a8dbe19055e3b697149c10df610d081cb65430b
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460923"
 ---
 # <a name="getservertimezonesresponse"></a>GetServerTimeZonesResponse

@@ -15,7 +15,7 @@ ms.openlocfilehash: 3247489a305c694c10764d7a0c6f02b1fad51ebf
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459123"
 ---
 # <a name="getumpropertiesresponse-um-web-service"></a>GetUMPropertiesResponse （UM web 服务）

@@ -10,7 +10,7 @@ ms.openlocfilehash: e921a77b250e11e974b0c47b1d28a8e020837d44
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460209"
 ---
 # <a name="public-folder-access-with-ews-in-exchange"></a>使用 EWS 在 Exchange 公用文件夹访问。

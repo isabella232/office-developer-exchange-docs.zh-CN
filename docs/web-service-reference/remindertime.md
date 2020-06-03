@@ -12,7 +12,7 @@ ms.openlocfilehash: e5a1194af43e038a608bf928313909519e7d44e7
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460027"
 ---
 # <a name="remindertime"></a>ReminderTime

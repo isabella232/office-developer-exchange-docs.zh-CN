@@ -13,7 +13,7 @@ ms.openlocfilehash: fd655e088b73372bc1dd68a740ebc2b516d1804a
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460965"
 ---
 # <a name="getdomainsettings-operation-soap"></a>GetDomainSettings 操作 (SOAP)
@@ -22,7 +22,7 @@ ms.locfileid: "44460965"
   
 ## <a name="getdomainsettings-request-example"></a>GetDomainSettings 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 以下示例的**GetDomainSettings**请求显示了对用户的**ExternalEWSUrl**域设置的请求。 客户端将此请求发送到服务器。 
   
@@ -76,7 +76,7 @@ ms.locfileid: "44460965"
     
 ## <a name="getdomainsettings-response-example"></a>GetDomainSettings 响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对服务器发送到客户端的**GetDomainSettings**请求的成功响应。 
   

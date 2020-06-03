@@ -16,7 +16,7 @@ ms.openlocfilehash: 5c9a98a3083d02f3900cc263e0b99a570203b544
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459873"
 ---
 # <a name="uniquesenders"></a>UniqueSenders

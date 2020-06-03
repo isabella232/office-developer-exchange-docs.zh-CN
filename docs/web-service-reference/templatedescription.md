@@ -12,7 +12,7 @@ ms.openlocfilehash: 0f5443213fa75c5c05b4cba4609130bb1b3f371e
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459943"
 ---
 # <a name="templatedescription"></a>TemplateDescription

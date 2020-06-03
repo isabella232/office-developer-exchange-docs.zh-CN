@@ -16,7 +16,7 @@ ms.openlocfilehash: 4cb124b96637b9fcdca15595faebb2ce4d304de0
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460545"
 ---
 # <a name="getrooms-operation"></a>GetRooms 操作
@@ -36,7 +36,7 @@ ms.locfileid: "44460545"
    
 ## <a name="getrooms-request-example"></a>GetRooms 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面是一个**GetRooms**请求的示例，该请求获取与会议室列表相关联的会议室。 
   
@@ -75,7 +75,7 @@ ms.locfileid: "44460545"
     
 ## <a name="successful-getrooms-response-example"></a>成功的 GetRooms 响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 以下响应显示与会议室列表关联的聊天室的电子邮件地址信息。
   
@@ -137,7 +137,7 @@ ms.locfileid: "44460545"
     
 ## <a name="getrooms-error-response-example"></a>GetRooms 错误响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示由于尝试获取不存在的会议室列表的会议室信息而导致的错误响应。
   

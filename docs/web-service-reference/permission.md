@@ -16,7 +16,7 @@ ms.openlocfilehash: 0f7515dbb06f8423f8d4d95e1391496e8ac73653
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459256"
 ---
 # <a name="permission"></a>权限

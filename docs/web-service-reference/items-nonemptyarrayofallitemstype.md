@@ -16,7 +16,7 @@ ms.openlocfilehash: 0f70f1fe4348b5b74cef6be6414618af1e3de260
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459852"
 ---
 # <a name="items-nonemptyarrayofallitemstype"></a>项目（NonEmptyArrayOfAllItemsType）
@@ -63,7 +63,7 @@ ms.locfileid: "44459852"
 |**元素**|**说明**|
 |:-----|:-----|
 |[项目](item.md) <br/> |表示 Exchange 存储中的项。  <br/> |
-|[邮件](message-ex15websvcsotherref.md) <br/> |表示 Exchange 电子邮件。  <br/> |
+|[消息](message-ex15websvcsotherref.md) <br/> |表示 Exchange 电子邮件。  <br/> |
 |[CalendarItem](calendaritem.md) <br/> |表示 Exchange 日历项。  <br/> |
 |[Contact](contact.md) <br/> |表示 Exchange 联系人项目。  <br/> |
 |[DistributionList](distributionlist.md) <br/> |表示通讯组列表。  <br/> |

@@ -12,7 +12,7 @@ ms.openlocfilehash: 249dcf3d42ccc5202a2a62bbbb67bc33a2fa2fff
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460804"
 ---
 # <a name="calendarurl-mastermailboxtype"></a>CalendarUrl (MasterMailboxType)

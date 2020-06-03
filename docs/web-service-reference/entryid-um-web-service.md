@@ -15,7 +15,7 @@ ms.openlocfilehash: 5b0ad5c5af682f7589d94219955dde646cd2897a
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460692"
 ---
 # <a name="entryid-um-web-service"></a>entryId （UM web 服务）

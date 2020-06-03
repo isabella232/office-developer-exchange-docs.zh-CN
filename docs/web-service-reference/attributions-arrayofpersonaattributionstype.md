@@ -12,7 +12,7 @@ ms.openlocfilehash: a9883e06a8adbd5c9d3bc7e1edd28c62418df653
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460321"
 ---
 # <a name="attributions-arrayofpersonaattributionstype"></a>归属（ArrayOfPersonaAttributionsType）

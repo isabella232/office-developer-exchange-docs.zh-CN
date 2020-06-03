@@ -16,7 +16,7 @@ ms.openlocfilehash: 6c2e2c5452b6379171e49cf6aea2d437152ecb9b
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459116"
 ---
 # <a name="getuseravailabilityrequest"></a>GetUserAvailabilityRequest

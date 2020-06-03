@@ -16,7 +16,7 @@ ms.openlocfilehash: 09fe92af12f03ce4cebd1e98f4e01c087ace64f9
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460615"
 ---
 # <a name="getitem-operation-calendar-item"></a>GetItem 操作（日历项目）
@@ -25,7 +25,7 @@ GetItem 操作从 Exchange 存储中获取日历项目。
   
 ## <a name="getitem-request-example"></a>GetItem 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 以下示例的 GetItem 请求显示如何形成请求以获取项目的标识和主题。
   
@@ -76,7 +76,7 @@ GetItem 操作从 Exchange 存储中获取日历项目。
   
 ## <a name="successful-getitem-response"></a>成功的 GetItem 响应
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对 GetItem 请求的成功响应。 创建此响应的请求使用 IdOnly baseshape。 在此示例中，响应仅返回项目的 ID。 
   

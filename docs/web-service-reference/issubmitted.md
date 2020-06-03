@@ -16,7 +16,7 @@ ms.openlocfilehash: 4f28c1577a3586cf751804c51a28205bfda3ae0b
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459922"
 ---
 # <a name="issubmitted"></a>IsSubmitted

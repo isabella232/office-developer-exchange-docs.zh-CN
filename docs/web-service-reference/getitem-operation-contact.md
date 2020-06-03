@@ -16,7 +16,7 @@ ms.openlocfilehash: 93e8dbe28e130ab64d4b8d12d2befde1f77ae8fa
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460020"
 ---
 # <a name="getitem-operation-contact"></a>GetItem 操作（联系人）
@@ -25,7 +25,7 @@ GetItem 操作用于从 Exchange 存储中获取联系人项目。
   
 ## <a name="getitem-contact-request-example"></a>GetItem （Contact）请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示如何从 Exchange 存储中获取项目。
   
@@ -72,7 +72,7 @@ GetItem 操作用于从 Exchange 存储中获取联系人项目。
     
 ## <a name="successful-getitem-contact-response"></a>成功的 GetItem （联系人）响应
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的代码示例演示了对**AllProperties**[BaseShape](baseshape.md)的成功的 GetItem 响应。
   
@@ -253,7 +253,7 @@ GetItem 操作用于从 Exchange 存储中获取联系人项目。
     
 ## <a name="invalid-getitem-contact-request-example"></a>无效的 GetItem （Contact）请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的代码示例演示一个无效请求。
   
@@ -284,7 +284,7 @@ GetItem 操作用于从 Exchange 存储中获取联系人项目。
   
 ## <a name="getitem-contact-error-response"></a>GetItem （联系人）错误响应
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的代码示例演示对 GetItem （联系人）请求的错误响应。
   

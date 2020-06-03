@@ -12,7 +12,7 @@ ms.openlocfilehash: 71d139a20700ab208c6c53ffaa67c0902cd940bf
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460825"
 ---
 # <a name="calendarurl-federateddirectorygrouptype"></a>CalendarUrl (FederatedDirectoryGroupType)

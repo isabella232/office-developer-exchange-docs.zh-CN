@@ -16,7 +16,7 @@ ms.openlocfilehash: cf66eb390b0287e89bb8402f26a2e728868a2b18
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460510"
 ---
 # <a name="getsharingfolder-operation"></a>GetSharingFolder 操作
@@ -90,7 +90,7 @@ ms.locfileid: "44460510"
   
 ## <a name="successful-getsharingfolder-response"></a>成功的 GetSharingFolder 响应
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对**GetSharingFolder**请求的成功响应。 [SharingFolderId](sharingfolderid.md)元素的**Id**属性表示共享关系中的本地文件夹的标识符。 
   
@@ -123,7 +123,7 @@ ms.locfileid: "44460510"
 
 ## <a name="getsharingfolder-error-response"></a>GetSharingFolder 错误响应
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对**GetSharingFolder**请求的错误响应。 在此示例中，由于请求同时指定了[SharingFolderId](sharingfolderid.md)和[DataType](datatype.md)元素，导致错误发生。 请注意，只能指定这两个元素中的一个或多个，但不能同时指定这两个元素。 
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: ee5d382251a66ab5fbcd8054e6b5cfac82b5f994
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460055"
 ---
 # <a name="folderclass"></a>FolderClass

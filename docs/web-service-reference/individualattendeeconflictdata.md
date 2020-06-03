@@ -16,7 +16,7 @@ ms.openlocfilehash: 55210230259b78e5ed9c4f0744aae003cf2e7ae5
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459312"
 ---
 # <a name="individualattendeeconflictdata"></a>IndividualAttendeeConflictData

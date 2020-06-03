@@ -12,7 +12,7 @@ ms.openlocfilehash: cbe36bef7ce9b9f68ebc0dff69c3c62090fce996
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460713"
 ---
 # <a name="imagebase64-encryptionconfigurationresponsetype"></a>ImageBase64 (EncryptionConfigurationResponseType)

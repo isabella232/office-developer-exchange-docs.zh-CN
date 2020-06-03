@@ -16,7 +16,7 @@ ms.openlocfilehash: caf96b6e95f2e63d0e544ead26fbea18cd637861
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460083"
 ---
 # <a name="maxchangesreturned"></a>MaxChangesReturned

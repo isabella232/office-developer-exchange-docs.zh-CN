@@ -16,7 +16,7 @@ ms.openlocfilehash: 123aa0db83f58996924baadb0a87946db6934450
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459999"
 ---
 # <a name="state"></a>状态

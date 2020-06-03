@@ -12,7 +12,7 @@ ms.openlocfilehash: fb102e21d6e7866110735cacd60cd2c3c68a9675
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459488"
 ---
 # <a name="term"></a>术语

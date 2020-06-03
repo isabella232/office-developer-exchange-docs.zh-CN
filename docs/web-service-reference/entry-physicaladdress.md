@@ -16,7 +16,7 @@ ms.openlocfilehash: 5e8343e9abebeeff8c2b81327b2e0f4ddcf45364
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459628"
 ---
 # <a name="entry-physicaladdress"></a>条目（PhysicalAddress）

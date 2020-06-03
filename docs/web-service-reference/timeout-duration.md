@@ -12,7 +12,7 @@ ms.openlocfilehash: b5b0e77d794080cd8e0da1e14acf4cb059b80b08
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460279"
 ---
 # <a name="timeout-duration"></a>超时（持续时间）

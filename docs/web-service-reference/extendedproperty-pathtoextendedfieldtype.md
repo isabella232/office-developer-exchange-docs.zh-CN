@@ -12,7 +12,7 @@ ms.openlocfilehash: f6c283d5cce3bc927662ad0d9c796c0589e7054c
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460139"
 ---
 # <a name="extendedproperty-pathtoextendedfieldtype"></a>ExtendedProperty （PathToExtendedFieldType）

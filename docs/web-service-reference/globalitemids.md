@@ -16,7 +16,7 @@ ms.openlocfilehash: aa656e7f2fb78dafe5bf6013c1f7ad14e2372ba1
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459424"
 ---
 # <a name="globalitemids"></a>GlobalItemIds

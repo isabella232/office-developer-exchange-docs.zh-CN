@@ -16,7 +16,7 @@ ms.openlocfilehash: b67d3f461e0edaa82f074f75b0c1c54efc8af4d0
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459572"
 ---
 # <a name="freebusyviewoptions"></a>FreeBusyViewOptions

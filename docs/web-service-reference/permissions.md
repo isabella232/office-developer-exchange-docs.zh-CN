@@ -16,10 +16,10 @@ ms.openlocfilehash: b8616cefdb8c453106753fb0788a6c7d6a0ded79
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459214"
 ---
-# <a name="permissions"></a>权限
+# <a name="permissions"></a>Permissions
 
 **权限**元素包含文件夹权限的集合。 
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: b6cc37447eb0f231e9e852a6c3cd64d6e1f3a89f
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460699"
 ---
 # <a name="entry-imaddress"></a>条目（IMAddress）

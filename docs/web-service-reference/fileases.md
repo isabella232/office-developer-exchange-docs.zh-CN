@@ -12,7 +12,7 @@ ms.openlocfilehash: 9d97c2c7210e9ae20326d7327c9de4159d5df5a6
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44461077"
 ---
 # <a name="fileases"></a>FileAses

@@ -12,7 +12,7 @@ ms.openlocfilehash: 821c5e1429c160e326f6d99df3ff4fcc831b83d1
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44461000"
 ---
 # <a name="getdiscoverysearchconfiguration"></a>GetDiscoverySearchConfiguration

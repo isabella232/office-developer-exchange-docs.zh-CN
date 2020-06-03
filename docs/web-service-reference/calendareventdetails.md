@@ -16,7 +16,7 @@ ms.openlocfilehash: 3e1dbba00bce4a1fdc53f3330527764c516890ab
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459067"
 ---
 # <a name="calendareventdetails"></a>CalendarEventDetails

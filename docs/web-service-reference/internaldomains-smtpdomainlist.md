@@ -16,7 +16,7 @@ ms.openlocfilehash: ec7ef2d72ae922c751f8f50b72ff7d6b31b212ca
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459964"
 ---
 # <a name="internaldomains-smtpdomainlist"></a>InternalDomains （SmtpDomainList）

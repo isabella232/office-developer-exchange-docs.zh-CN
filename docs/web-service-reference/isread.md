@@ -16,7 +16,7 @@ ms.openlocfilehash: b6f2c2d72dd550f7ec8ed9a3415dc0715b3e376f
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460370"
 ---
 # <a name="isread"></a>IsRead

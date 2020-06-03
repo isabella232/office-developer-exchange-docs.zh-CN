@@ -10,7 +10,7 @@ ms.openlocfilehash: 2a99b1922e021a8f5f221381d7f2965c3e1ab504
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459346"
 ---
 # <a name="notification-subscriptions-mailbox-events-and-ews-in-exchange"></a>Notification subscriptions, mailbox events, and EWS in Exchange

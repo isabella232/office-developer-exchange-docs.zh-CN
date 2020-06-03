@@ -11,7 +11,7 @@ ms.openlocfilehash: a96a1eaa7339021188a768a980c13350be00e8ac
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44461007"
 ---
 # <a name="fileextension-soap"></a>文件扩展名（SOAP）

@@ -10,7 +10,7 @@ ms.openlocfilehash: 681dfee7e0a66a483b8638810da5e4e0ac0f05ac
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459326"
 ---
 # <a name="recurrence-patterns-and-ews"></a>定期模式和 EWS

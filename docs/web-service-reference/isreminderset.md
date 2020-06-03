@@ -16,7 +16,7 @@ ms.openlocfilehash: e2f5fa072b549bdaf636a15313e7dfe72172f768
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460335"
 ---
 # <a name="isreminderset"></a>IsReminderSet

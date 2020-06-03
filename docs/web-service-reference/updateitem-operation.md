@@ -16,7 +16,7 @@ ms.openlocfilehash: c001b7656862144023e9704cb04e6b4c0030f9df
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459389"
 ---
 # <a name="updateitem-operation"></a>UpdateItem 操作
@@ -31,7 +31,7 @@ ms.locfileid: "44459389"
 |:-----|:-----|
 |Append  <br/> |将数据添加到现有属性。 此操作将保留当前数据。 Append 不应用于所有属性。  <br/> |
 |Set  <br/> |如果属性包含数据，则替换属性的数据; 或者，如果属性不存在，则创建属性并设置其值。 Set 操作仅适用于可写属性。  <br/> |
-|删除  <br/> |从项目中删除属性。 这与将属性设置为空值不同。 完成此操作后，该项目的属性不存在。 删除仅适用于可写属性。  <br/> |
+|Delete  <br/> |从项目中删除属性。 这与将属性设置为空值不同。 完成此操作后，该项目的属性不存在。 删除仅适用于可写属性。  <br/> |
    
 **UpdateItem**调用可用于修改一个或多个项目，以及每个项目上的一个或多个属性。 [ItemChanges](itemchanges.md)元素包含要作为此调用的一部分执行的所有修改。 [ItemChange](itemchange.md)元素（ [ItemChanges](itemchanges.md)元素的子元素）表示要对单个项目执行的修改。 [ItemChange](itemchange.md)元素包含一组可对单个项目执行的更新操作。 这些更改包含在[Updates （Item）](updates-item.md)元素中。 [ItemId](itemid.md)元素标识要更新的项。 若要更新一个项的多个属性，必须为需要更新的每个属性提供[SetItemField](setitemfield.md)、 [AppendToItemField](appendtoitemfield.md)或[DeleteItemField](deleteitemfield.md) 。 
   
@@ -46,7 +46,7 @@ ms.locfileid: "44459389"
   
 ## <a name="setitemfield-request-example"></a>SetItemField 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 以下示例的**UpdateItem**请求显示如何设置项目的敏感度属性。 
   
@@ -101,13 +101,13 @@ ms.locfileid: "44459389"
     
 - [FieldURI](fielduri.md)
     
-- [邮件](message-ex15websvcsotherref.md)
+- [消息](message-ex15websvcsotherref.md)
     
 - [Sensitivity](sensitivity.md)
     
 ## <a name="appendtoitemfield-request-example"></a>AppendToItemField 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 以下示例的**UpdateItem**请求显示如何将文本追加到项的 body 属性。 
   
@@ -170,13 +170,13 @@ ms.locfileid: "44459389"
     
 - [FieldURI](fielduri.md)
     
-- [邮件](message-ex15websvcsotherref.md)
+- [消息](message-ex15websvcsotherref.md)
     
 - [Body](body.md)
     
 ## <a name="deleteitemfield-request-example"></a>DeleteItemField 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的**UpdateItem**请求示例演示如何删除项的属性。 
   
@@ -229,7 +229,7 @@ ms.locfileid: "44459389"
     
 ## <a name="successful-response-example"></a>成功的响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对**UpdateItem**请求的成功响应。 
   
@@ -283,7 +283,7 @@ ms.locfileid: "44459389"
     
 - [Items](items.md)
     
-- [邮件](message-ex15websvcsotherref.md)
+- [消息](message-ex15websvcsotherref.md)
     
 - [ItemId](itemid.md)
     

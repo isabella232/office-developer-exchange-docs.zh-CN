@@ -12,7 +12,7 @@ ms.openlocfilehash: 25fccaf0441fa3d9e258ae35f938ad0fc7a5a9eb
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460867"
 ---
 # <a name="homecity"></a>HomeCity

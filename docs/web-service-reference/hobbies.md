@@ -12,7 +12,7 @@ ms.openlocfilehash: c76f4fc0463928814c61b8d1fb63e4255d6be63d
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460951"
 ---
 # <a name="hobbies"></a>兴趣

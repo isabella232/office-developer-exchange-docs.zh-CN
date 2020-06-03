@@ -13,7 +13,7 @@ ms.openlocfilehash: c5f666102be8aaeee001a23706732e9e6c44b560
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459586"
 ---
 # <a name="request-getdomainsettings-soap"></a>请求 (GetDomainSettings) (SOAP)

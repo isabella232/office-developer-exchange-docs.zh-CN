@@ -12,7 +12,7 @@ ms.openlocfilehash: e7148ac706025f01809d0d3bc53fa8c31e9cfe71
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459207"
 ---
 # <a name="photourl-federateddirectorygrouptype"></a>PhotoUrl (FederatedDirectoryGroupType)

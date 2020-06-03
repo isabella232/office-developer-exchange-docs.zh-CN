@@ -13,7 +13,7 @@ ms.openlocfilehash: 8b9bb41e460c0c9d15c9823acb509b0f837eef32
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459768"
 ---
 # <a name="usersetting-soap"></a>UserSetting （SOAP）

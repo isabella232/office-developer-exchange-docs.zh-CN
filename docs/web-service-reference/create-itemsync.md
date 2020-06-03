@@ -16,7 +16,7 @@ ms.openlocfilehash: b9c0f28333594a6c17ee9581a227fc4773874fd6
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460797"
 ---
 # <a name="create-itemsync"></a>创建（ItemSync）
@@ -104,7 +104,7 @@ ms.locfileid: "44460797"
 |**元素**|**说明**|
 |:-----|:-----|
 |[Item](item.md) <br/> |表示要创建的通用 Exchange 项。  <br/> |
-|[邮件](message-ex15websvcsotherref.md) <br/> |表示要创建的 Exchange 电子邮件。  <br/> |
+|[消息](message-ex15websvcsotherref.md) <br/> |表示要创建的 Exchange 电子邮件。  <br/> |
 |[CalendarItem](calendaritem.md) <br/> |代表要创建的 Exchange 日历项目。  <br/> |
 |[联系人](contact.md) <br/> |表示要创建的 Exchange 联系人项。  <br/> |
 |[DistributionList](distributionlist.md) <br/> |表示要创建的通讯组列表。  <br/> |
@@ -112,7 +112,7 @@ ms.locfileid: "44460797"
 |[MeetingRequest](meetingrequest.md) <br/> |表示要创建的会议请求。  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |表示要创建的会议响应。  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |表示要创建的会议取消。  <br/> |
-|[Task](task.md) <br/> |表示要创建的任务。  <br/> |
+|[任务](task.md) <br/> |表示要创建的任务。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 

@@ -16,7 +16,7 @@ ms.openlocfilehash: dc572130ca3b2f2b152abbb4a8b68cc6f67790e8
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460580"
 ---
 # <a name="movefolder-operation"></a>MoveFolder 操作
@@ -29,7 +29,7 @@ MoveFolder 操作类似于 CopyFolder 操作。 无法移动可分辨文件夹�
   
 ## <a name="movefolder-request-example"></a>MoveFolder 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 以下示例的 MoveFolder 请求显示如何形成一个请求，以移动[FolderId](folderid.md)标识的文件夹，并将该文件夹放在 "垃圾邮件" 可分辨文件夹中。 
   
@@ -78,7 +78,7 @@ MoveFolder 操作类似于 CopyFolder 操作。 无法移动可分辨文件夹�
   
 ## <a name="successful-movefolder-response-example"></a>成功的 MoveFolder 响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对 MoveFolder 请求的成功响应。 
   
@@ -139,7 +139,7 @@ MoveFolder 响应包括以下元素：
     
 ## <a name="movefolder-error-response-example"></a>MoveFolder 错误响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示在尝试移动可分辨文件夹时发生的错误响应。
   

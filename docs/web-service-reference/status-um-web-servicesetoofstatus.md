@@ -15,7 +15,7 @@ ms.openlocfilehash: 865152baf28c22578664e16db2dcd5f82a04af98
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459978"
 ---
 # <a name="status-um-web-service---setoofstatus"></a>Status （UM web 服务-SetOofStatus）
