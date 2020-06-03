@@ -16,7 +16,7 @@ ms.openlocfilehash: 6fda7b5602f172bae84ad7b211db2811def4f883
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463263"
 ---
 # <a name="changes-items"></a>更改（项目）

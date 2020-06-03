@@ -12,7 +12,7 @@ ms.openlocfilehash: e91cc067b4161b366e6713a9adc16873e63b1562
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465027"
 ---
 # <a name="addnewimcontacttogroup-operation"></a>AddNewImContactToGroup 操作

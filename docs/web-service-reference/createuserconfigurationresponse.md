@@ -16,7 +16,7 @@ ms.openlocfilehash: d1b3e2a0ab156c5175f9c1e676866690c33ace9f
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463767"
 ---
 # <a name="createuserconfigurationresponse"></a>CreateUserConfigurationResponse

@@ -16,7 +16,7 @@ ms.openlocfilehash: b5e0105a1fdb1564b3115a4c3a8411019f725483
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/01/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44464957"
 ---
 # <a name="ruleoperationerror"></a>RuleOperationError

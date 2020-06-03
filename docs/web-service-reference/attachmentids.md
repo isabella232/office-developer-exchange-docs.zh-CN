@@ -16,7 +16,7 @@ ms.openlocfilehash: cff1cb5658690fd6dd2c6a7812e1f600a4c80e29
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44464250"
 ---
 # <a name="attachmentids"></a>会话

@@ -12,7 +12,7 @@ ms.openlocfilehash: 19e6bccabeb781f30f9802cba7b9e8a16e771b3f
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463515"
 ---
 # <a name="alias-federateddirectorygrouptype"></a>别名（FederatedDirectoryGroupType）

@@ -12,7 +12,7 @@ ms.openlocfilehash: 597946b48649d997f8dd57823b4e0fcc091a6f84
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465161"
 ---
 # <a name="state-teammailboxlifecyclestatetype"></a>State （TeamMailboxLifecycleStateType）

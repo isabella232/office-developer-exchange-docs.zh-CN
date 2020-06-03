@@ -12,7 +12,7 @@ ms.openlocfilehash: f32fa0ceb301fca88cb0275e99ee9417dea87d2e
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465217"
 ---
 # <a name="retentionid"></a>RetentionId

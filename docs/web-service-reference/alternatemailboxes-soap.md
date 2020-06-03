@@ -13,7 +13,7 @@ ms.openlocfilehash: b68b0b15ad2a06d3be9e8fcbc3b9a4d61e4ee8be
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44464838"
 ---
 # <a name="alternatemailboxes-soap"></a>AlternateMailboxes （SOAP）

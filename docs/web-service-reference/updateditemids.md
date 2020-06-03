@@ -12,7 +12,7 @@ ms.openlocfilehash: 4a87bf50f90e80c0c887ee3a66b9f201ea1c8440
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465034"
 ---
 # <a name="updateditemids"></a>UpdatedItemIds

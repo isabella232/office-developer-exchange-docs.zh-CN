@@ -16,7 +16,7 @@ ms.openlocfilehash: 28fda7abbbbfd43be38d1ac4e5c37d37037993bc
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/01/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44464992"
 ---
 # <a name="ruleid"></a>RuleId

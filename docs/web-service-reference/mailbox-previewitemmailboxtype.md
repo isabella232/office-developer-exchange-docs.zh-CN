@@ -12,7 +12,7 @@ ms.openlocfilehash: 4dc5ee45c00945c30a699daa0158c96679189ab1
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463893"
 ---
 # <a name="mailbox-previewitemmailboxtype"></a>邮箱（PreviewItemMailboxType）

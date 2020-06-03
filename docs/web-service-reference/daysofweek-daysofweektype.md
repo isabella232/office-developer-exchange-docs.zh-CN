@@ -16,7 +16,7 @@ ms.openlocfilehash: 3036cbe3f93ff87b9a4d5dc7bf164e3e952b06fd
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463718"
 ---
 # <a name="daysofweek-daysofweektype"></a>DaysOfWeek （DaysOfWeekType）

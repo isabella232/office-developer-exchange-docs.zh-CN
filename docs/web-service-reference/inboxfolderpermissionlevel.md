@@ -16,7 +16,7 @@ ms.openlocfilehash: 8a497a38a58e6455f2bd754aa8da97b421a2bca3
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465707"
 ---
 # <a name="inboxfolderpermissionlevel"></a>InboxFolderPermissionLevel

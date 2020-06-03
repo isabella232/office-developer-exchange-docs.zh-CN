@@ -16,7 +16,7 @@ ms.openlocfilehash: ba898ccd77518971afaf713d1c7c7955f46465d5
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44464733"
 ---
 # <a name="and-protectionruleandtype"></a>和 (ProtectionRuleAndType)

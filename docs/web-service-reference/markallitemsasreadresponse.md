@@ -12,7 +12,7 @@ ms.openlocfilehash: 011aa34886b4f50542c68661d9b61be3a3ce3a1f
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463886"
 ---
 # <a name="markallitemsasreadresponse"></a>MarkAllItemsAsReadResponse

@@ -12,7 +12,7 @@ ms.openlocfilehash: 8b04b75e91cc16be7f88c9a0ac08c5e36855056e
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463459"
 ---
 # <a name="emailaddress-emailaddresstype"></a>EmailAddress （EmailAddressType）

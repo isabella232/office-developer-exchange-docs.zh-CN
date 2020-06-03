@@ -12,7 +12,7 @@ ms.openlocfilehash: 971dcbb16c0477490f7daf2de487043cd3d8926f
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44464866"
 ---
 # <a name="exchange-management-shell-cmdlet-input-and-output-types"></a>Exchange 命令行管理程序 cmdlet 的输入和输出类型

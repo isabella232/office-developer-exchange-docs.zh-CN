@@ -16,7 +16,7 @@ ms.openlocfilehash: cdbd21df235a62a9e201e1eaae1d82a8ac10cdd2
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/01/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465077"
 ---
 # <a name="rule-ruletype"></a>规则 (RuleType)

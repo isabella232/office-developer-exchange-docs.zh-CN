@@ -12,7 +12,7 @@ ms.openlocfilehash: 23167f3c96a6756fe4c6d915a4de91e815e620d9
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44464761"
 ---
 # <a name="archivetag"></a>ArchiveTag
@@ -49,7 +49,7 @@ ms.locfileid: "44464761"
 |[DistributionList](distributionlist.md) <br/> |表示通讯组列表。  <br/> |
 |[Folder](folder.md) <br/> |定义要创建、获取、查找、同步或更新的文件夹。  <br/> |
 |[项](item.md) <br/> |表示 Exchange 存储中的一般项目。  <br/> |
-|[邮件](message-ex15websvcsotherref.md) <br/> |表示 Microsoft Exchange 电子邮件。  <br/> |
+|[消息](message-ex15websvcsotherref.md) <br/> |表示 Microsoft Exchange 电子邮件。  <br/> |
 |[PostItem](postitem.md) <br/> |表示 Exchange 存储中的公告项。  <br/> |
 |[SearchFolder](searchfolder.md) <br/> |表示邮箱中包含的搜索文件夹。  <br/> |
 |[任务](task.md) <br/> |表示 Exchange 存储中的任务。  <br/> |

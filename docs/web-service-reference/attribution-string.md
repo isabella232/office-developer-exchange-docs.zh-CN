@@ -12,7 +12,7 @@ ms.openlocfilehash: 9a3243904c02c3bdeea7e4a4e7dcb240d4ad3563
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44464159"
 ---
 # <a name="attribution-string"></a>特性（string）

@@ -16,7 +16,7 @@ ms.openlocfilehash: 9b566ec1938ec206e45cddf9c7f00083af2d8a9c
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463614"
 ---
 # <a name="displayname-string"></a>DisplayName （string）

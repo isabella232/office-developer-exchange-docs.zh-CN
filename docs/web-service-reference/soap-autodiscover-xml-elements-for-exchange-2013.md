@@ -13,7 +13,7 @@ ms.openlocfilehash: 3b88429488dbecd4ed7c3adf56462f34fa0d4b17
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465182"
 ---
 # <a name="soap-autodiscover-xml-elements-for-exchange-2013"></a>Exchange 2013 的 SOAP 自动发现 XML 元素
@@ -40,6 +40,6 @@ SOAP 自动发现 WSDL 和架构文件的位置根据 Exchange 安装的不同�
 
 - [Exchange 的自动发现 web 服务参考](autodiscover-web-service-reference-for-exchange.md)
 - [Exchange 自动发现](../exchange-web-services/autodiscover-for-exchange.md)
-- [开始使用 Exchange 中的 Web 服务](../exchange-web-services/start-using-web-services-in-exchange.md)
+- [Start using web services in Exchange](../exchange-web-services/start-using-web-services-in-exchange.md)
     
 

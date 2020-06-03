@@ -16,7 +16,7 @@ ms.openlocfilehash: 3bad638aa21019472df8f487f1e065d2e725e750
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465749"
 ---
 # <a name="parentfolderid"></a>ParentFolderId
@@ -63,7 +63,7 @@ ms.locfileid: "44465749"
 |[MeetingMessage](meetingmessage.md) <br/> |表示邮箱中的会议邮件。  <br/> |
 |[MeetingRequest](meetingrequest.md) <br/> |表示邮箱中的会议请求。  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |表示邮箱中的会议响应。  <br/> |
-|[邮件](message-ex15websvcsotherref.md) <br/> |表示邮箱中的电子邮件。  <br/> |
+|[消息](message-ex15websvcsotherref.md) <br/> |表示邮箱中的电子邮件。  <br/> |
 |[ModifiedEvent](modifiedevent.md) <br/> |表示在其中修改项或文件夹的事件。  <br/> |
 |[MovedEvent](movedevent.md) <br/> |代表将项目或文件夹从一个父文件夹移动到另一个父文件夹的事件。  <br/> |
 |[NewMailEvent](newmailevent.md) <br/> |代表由邮箱中的新邮件项目触发的事件。  <br/> |
@@ -71,7 +71,7 @@ ms.locfileid: "44465749"
 |[TentativelyAcceptItem](tentativelyacceptitem.md) <br/> |表示一个暂定答复会议要求。  <br/> |
 |[DeclineItem](declineitem.md) <br/> |表示谢绝答复会议要求。  <br/> |
 |[RemoveItem](removeitem.md) <br/> |从 Exchange 存储中删除一个项目。  <br/> |
-|[Task](task.md) <br/> |表示邮箱中的任务项。  <br/> |
+|[任务](task.md) <br/> |表示邮箱中的任务项。  <br/> |
 |[ReplyToItem](replytoitem.md) <br/> |包含对 Exchange 存储中的项的创建者的答复。  <br/> |
 |[ReplyAllToItem](replyalltoitem.md) <br/> |包含对所有确定收件人的 Exchange 存储中的项的答复。  <br/> |
 |[ForwardItem](forwarditem.md) <br/> |包含要转发给收件人的 Exchange 存储区项。  <br/> |

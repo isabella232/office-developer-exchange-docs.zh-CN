@@ -12,7 +12,7 @@ ms.openlocfilehash: 3a07f231c1de984e39c6ebc4bd79b42142af6309
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463984"
 ---
 # <a name="audiodata"></a>AudioData

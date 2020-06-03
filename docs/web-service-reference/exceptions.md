@@ -16,7 +16,7 @@ ms.openlocfilehash: 1afc2980391ee588f9b9b813b87c2c699de3a6df
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463354"
 ---
 # <a name="exceptions"></a>异常

@@ -13,7 +13,7 @@ ms.openlocfilehash: 3c0ca368f4427be7759e2db58fb418b4822dea8e
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465651"
 ---
 # <a name="pox-autodiscover-web-service-reference-for-exchange"></a>Exchange 的 POX 自动发现 web 服务参考
@@ -43,6 +43,6 @@ ms.locfileid: "44465651"
 - [Exchange 的自动发现 web 服务参考](autodiscover-web-service-reference-for-exchange.md)
 - [Exchange 自动发现](../exchange-web-services/autodiscover-for-exchange.md)   
 - [Exchange 的 SOAP 自动发现 web 服务参考](soap-autodiscover-web-service-reference-for-exchange.md)
-- [开始使用 Exchange 中的 Web 服务](../exchange-web-services/start-using-web-services-in-exchange.md)
+- [Start using web services in Exchange](../exchange-web-services/start-using-web-services-in-exchange.md)
     
 

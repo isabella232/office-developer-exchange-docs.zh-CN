@@ -16,7 +16,7 @@ ms.openlocfilehash: ba5b006804c66b32781d3e48d88e95ab36c09617
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465140"
 ---
 # <a name="timezone-item"></a>时区（项目）

@@ -16,7 +16,7 @@ ms.openlocfilehash: cdab239a5b0b1406d2ce31f4604e4737d037cd7e
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463501"
 ---
 # <a name="applyconversationaction-operation"></a>ApplyConversationAction 操作
@@ -25,7 +25,7 @@ ms.locfileid: "44463501"
   
 ## <a name="applyconversationaction-request-example"></a>ApplyConversationAction 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 以下示例的**ApplyConversationAction**请求显示如何将指定对话中的项目移动到另一个文件夹。 添加到对话中的项目也将移到指定的文件夹。 
   
@@ -63,7 +63,7 @@ ms.locfileid: "44463501"
   
 ## <a name="applyconversationaction-response-example"></a>ApplyConversationAction 响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对**ApplyConversationAction**请求的成功响应。 
   

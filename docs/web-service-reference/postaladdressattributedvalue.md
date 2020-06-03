@@ -12,7 +12,7 @@ ms.openlocfilehash: bf5becca8ee0f143728010c5d0b1ed5a380838ff
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465378"
 ---
 # <a name="postaladdressattributedvalue"></a>PostalAddressAttributedValue

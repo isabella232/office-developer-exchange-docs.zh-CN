@@ -12,7 +12,7 @@ ms.openlocfilehash: c6e11fa5b55aa514b12f4f52bc9346ac213d3781
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463725"
 ---
 # <a name="create-exchange-management-shell-tools"></a>创建 Exchange 命令行管理程序工具

@@ -12,7 +12,7 @@ ms.openlocfilehash: 1ed2b3317251321d9593feb83d8ed4550425c3e9
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465133"
 ---
 # <a name="retentionpolicytagid"></a>RetentionPolicyTagId

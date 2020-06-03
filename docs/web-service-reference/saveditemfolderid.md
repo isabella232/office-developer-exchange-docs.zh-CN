@@ -16,7 +16,7 @@ ms.openlocfilehash: 8e18b8863a54aa4e9d6e65f7a54e20904f5a9599
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465273"
 ---
 # <a name="saveditemfolderid"></a>SavedItemFolderId

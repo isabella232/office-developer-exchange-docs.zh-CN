@@ -12,7 +12,7 @@ ms.openlocfilehash: e1694619c90160084980cb8f3a7c8a0ed1876295
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463403"
 ---
 # <a name="archiveitem"></a>ArchiveItem

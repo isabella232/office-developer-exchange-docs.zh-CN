@@ -16,7 +16,7 @@ ms.openlocfilehash: 7c89095e24af799df22a848be06a0fd65d53be7f
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463578"
 ---
 # <a name="adjacentmeetings"></a>AdjacentMeetings

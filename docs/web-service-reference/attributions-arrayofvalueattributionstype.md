@@ -12,7 +12,7 @@ ms.openlocfilehash: 9fd552670c529009838125063869f65e130c1e63
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463991"
 ---
 # <a name="attributions-arrayofvalueattributionstype"></a>归属（ArrayOfValueAttributionsType）

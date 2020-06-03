@@ -16,7 +16,7 @@ ms.openlocfilehash: 17a23d4c2a35761e831610f3514c980a5a67e12b
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463333"
 ---
 # <a name="getitem-operation-task"></a>GetItem 操作（任务）
@@ -29,7 +29,7 @@ GetItem 操作用于从 Exchange 存储中获取任务。
   
 ## <a name="task-getitem-request-example"></a>Task GetItem 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的 GetItem 请求示例演示如何获取任务项。
   
@@ -76,7 +76,7 @@ xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
     
 ## <a name="task-getitem-response-example"></a>Task GetItem 响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对 GetItem 请求的成功响应。
   
@@ -154,7 +154,7 @@ xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
     
 - [Items](items.md)
     
-- [Task](task.md)
+- [任务](task.md)
     
 - [ItemId](itemid.md)
     

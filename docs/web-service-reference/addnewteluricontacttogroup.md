@@ -12,7 +12,7 @@ ms.openlocfilehash: 151c5b1dab7a3ffc9630fb4e4192b90bd1d4ae38
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44464929"
 ---
 # <a name="addnewteluricontacttogroup"></a>AddNewTelUriContactToGroup

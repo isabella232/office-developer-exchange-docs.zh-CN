@@ -12,7 +12,7 @@ ms.openlocfilehash: 3cf85525147bec5d6dfc6fe2b2af5916d42c44be
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463284"
 ---
 # <a name="language-discoverysearchconfigurationtype"></a>语言（DiscoverySearchConfigurationType）

@@ -12,7 +12,7 @@ ms.openlocfilehash: bf82e7f1054a20de7e5ce8b9b0d5889669570a63
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465602"
 ---
 # <a name="intent"></a>意图

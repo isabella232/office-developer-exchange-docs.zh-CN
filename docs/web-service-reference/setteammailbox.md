@@ -12,7 +12,7 @@ ms.openlocfilehash: e4b7ebd308f4b58b6b6491289f24b9176c5dcf15
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465259"
 ---
 # <a name="setteammailbox"></a>SetTeamMailbox

@@ -12,7 +12,7 @@ ms.openlocfilehash: f6fcc7942a530ada2d6e72c3e38286a7595b09ec
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465105"
 ---
 # <a name="type-elcfoldertype"></a>类型（ElcFolderType）

@@ -12,7 +12,7 @@ ms.openlocfilehash: 3e98273e859dbe2128b0ad3b4df42c8016fd3bc5
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44464712"
 ---
 # <a name="assignees"></a>代理人

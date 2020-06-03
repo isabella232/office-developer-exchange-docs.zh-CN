@@ -16,7 +16,7 @@ ms.openlocfilehash: d4229f2857a5c99cc9bb7ff9b9b103de099a0055
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465084"
 ---
 # <a name="routingtype-emailaddresstype"></a>RoutingType （EmailAddressType）

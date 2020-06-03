@@ -16,7 +16,7 @@ ms.openlocfilehash: 6c18a2bd026893cd333bc7007203abf04a6f0be7
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/01/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44464999"
 ---
 # <a name="rule"></a>Rule

@@ -16,7 +16,7 @@ ms.openlocfilehash: d4a49367c4a012e8e3c64aa16a4661b285474e0d
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465434"
 ---
 # <a name="owner"></a>所有者

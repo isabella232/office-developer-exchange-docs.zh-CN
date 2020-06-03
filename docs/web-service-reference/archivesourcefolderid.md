@@ -12,7 +12,7 @@ ms.openlocfilehash: 403f40cb4529cf72f07b8a04c0803d757c24e470
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463382"
 ---
 # <a name="archivesourcefolderid"></a>ArchiveSourceFolderId

@@ -16,7 +16,7 @@ ms.openlocfilehash: 522fe485482bd8159927f9925b7a5582ba2e1c22
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465336"
 ---
 # <a name="tasksfolder"></a>TasksFolder

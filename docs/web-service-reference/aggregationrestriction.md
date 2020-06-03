@@ -12,7 +12,7 @@ ms.openlocfilehash: f07e54235cf13b43da26ed1c56596d3c7c357bf2
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463522"
 ---
 # <a name="aggregationrestriction"></a>AggregationRestriction

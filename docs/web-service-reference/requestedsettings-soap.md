@@ -13,7 +13,7 @@ ms.openlocfilehash: e94c02d8f92d7aaac619c58f093c536cc1a098bf
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465294"
 ---
 # <a name="requestedsettings-soap"></a>RequestedSettings （SOAP）

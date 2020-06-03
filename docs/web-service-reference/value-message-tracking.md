@@ -16,7 +16,7 @@ ms.openlocfilehash: 4f6b5cb9d82a35bbe010b36e409cdc9f3a70173d
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465006"
 ---
 # <a name="value-message-tracking"></a>值（邮件跟踪）

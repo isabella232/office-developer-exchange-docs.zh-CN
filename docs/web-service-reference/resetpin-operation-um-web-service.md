@@ -15,7 +15,7 @@ ms.openlocfilehash: 8de64ce7a47e9c426f8eb9298e1ca00508fb616c
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/01/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465490"
 ---
 # <a name="resetpin-operation-um-web-service"></a>ResetPIN 操作（UM web 服务）
@@ -28,7 +28,7 @@ ResetPIN 操作根据 PIN 策略创建新 PIN。 如果操作成功，则会将�
   
 ## <a name="resetpin-request-example"></a>ResetPIN 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 以下示例的 ResetPIN 请求显示如何形成一个重置邮箱的 PIN 的请求。
   
@@ -45,7 +45,7 @@ ResetPIN 操作根据 PIN 策略创建新 PIN。 如果操作成功，则会将�
 
 ## <a name="successful-resetpin-response-example"></a>成功的 ResetPIN 响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的 ResetPIN 响应示例显示对 ResetPIN 请求的响应。
   

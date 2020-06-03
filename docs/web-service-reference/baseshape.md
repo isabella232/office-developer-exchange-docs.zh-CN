@@ -16,7 +16,7 @@ ms.openlocfilehash: 9b3f00ff94fbfe6ad6373b16ad95eb9136f81c64
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44464488"
 ---
 # <a name="baseshape"></a>BaseShape

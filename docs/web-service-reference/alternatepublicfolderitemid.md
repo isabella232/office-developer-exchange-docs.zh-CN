@@ -16,7 +16,7 @@ ms.openlocfilehash: 11a9fafec78a9bd14e4d98982fd38954d45e4d1a
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44464768"
 ---
 # <a name="alternatepublicfolderitemid"></a>AlternatePublicFolderItemId

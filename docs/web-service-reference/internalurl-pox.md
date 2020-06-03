@@ -11,7 +11,7 @@ ms.openlocfilehash: 9c6ba621a681ec54d88089de6b7ae1eefdebc679
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465574"
 ---
 # <a name="internalurl-pox"></a>InternalUrl （POX）
