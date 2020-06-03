@@ -16,7 +16,7 @@ ms.openlocfilehash: 45d582f2642c0e3d8f6330b09946230c8842618d
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467842"
 ---
 # <a name="detailedsuggestionswindow"></a>DetailedSuggestionsWindow

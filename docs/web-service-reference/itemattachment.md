@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 089ee599-f45e-46f5-a18a-5cfb3d2851ff
-description: ItemAttachment 元素均表示一个 Exchange 项目附加到另一个 Exchange 项目。
-ms.openlocfilehash: 7bd3d22430fe04f1b28ae240102500609fe8d703
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: ItemAttachment 元素表示附加到另一个 Exchange 项目的 Exchange 项目。
+ms.openlocfilehash: c3a07fa091c05654a03cbff58fb20204c26c9061
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353145"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526436"
 ---
 # <a name="itemattachment"></a>ItemAttachment
 
-**ItemAttachment**元素均表示一个 Exchange 项目附加到另一个 Exchange 项目。 
+**ItemAttachment**元素表示附加到另一个 exchange 项目的 exchange 项目。 
   
 ```xml
 <ItemAttachment>
@@ -164,17 +164,17 @@ ms.locfileid: "21353145"
 |**元素**|**说明**|
 |:-----|:-----|
 |[AttachmentId](attachmentid.md) <br/> |标识附件。  <br/> |
-|[Name (AttachmentType)](name-attachmenttype.md) <br/> |表示附件的名称。  <br/> |
-|[ContentType](contenttype.md) <br/> |描述附件内容多用途 Internet 邮件扩展 (MIME) 类型。  <br/> |
-|[ContentId](contentid.md) <br/> |表示附件的内容的标识符。 [ContentId](contentid.md)可以设置为任何字符串值。 应用程序可以使用[ContentId](contentid.md)来实现自己标识机制。  <br/> |
-|[ContentLocation](contentlocation.md) <br/> |包含附件的内容的位置所对应的统一资源标识符 (URI)。  <br/> |
-|[Size](size.md) <br/> |表示以字节为单位的附件文件的大小。  <br/> |
-|[LastModifiedTime](lastmodifiedtime.md) <br/> |表示上次修改附件时。  <br/> |
-|[IsInline](isinline.md) <br/> |表示是否附件显示为内嵌项目中。  <br/> |
-|[Item](item.md) <br/> |代表一个通用的 Exchange 项目附件。  <br/> |
-|[邮件](message-ex15websvcsotherref.md) <br/> |代表 Exchange 电子邮件附件。  <br/> |
-|[CalendarItem](calendaritem.md) <br/> |代表 Exchange 日历项目附件。  <br/> |
-|[Contact](contact.md) <br/> |代表 Exchange 联系人项目附件。  <br/> |
+|[名称（AttachmentType）](name-attachmenttype.md) <br/> |代表附件的名称。  <br/> |
+|[ContentType](contenttype.md) <br/> |描述附件内容的多用途 Internet 邮件扩展（MIME）类型。  <br/> |
+|[ContentId](contentid.md) <br/> |表示附件内容的标识符。 [ContentId](contentid.md)可以设置为任何字符串值。 应用程序可以使用[ContentId](contentid.md)来实现自己的标识机制。  <br/> |
+|[ContentLocation](contentlocation.md) <br/> |包含与附件内容的位置相对应的统一资源标识符（URI）。  <br/> |
+|[大小](size.md) <br/> |表示文件附件的大小（以字节为单位）。  <br/> |
+|[LastModifiedTime](lastmodifiedtime.md) <br/> |表示上次修改附件的时间。  <br/> |
+|[IsInline](isinline.md) <br/> |表示附件是否内联显示在项目中。  <br/> |
+|[项](item.md) <br/> |表示通用 Exchange 项附件。  <br/> |
+|[消息](message-ex15websvcsotherref.md) <br/> |表示 Exchange 电子邮件附件。  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |代表 Exchange 日历项附件。  <br/> |
+|[联系人](contact.md) <br/> |表示 Exchange 联系人项目附件。  <br/> |
 |[任务](task.md) <br/> |代表 Exchange 任务附件。  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |表示 Exchange 存储中的会议。  <br/> |
 |[MeetingRequest](meetingrequest.md) <br/> |表示 Exchange 存储中的会议请求。  <br/> |
@@ -185,7 +185,7 @@ ms.locfileid: "21353145"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[附件](attachments-ex15websvcsotherref.md) <br/> |包含项目和/或附加到 Exchange 存储中的项目文件。  <br/> |
+|[附件](attachments-ex15websvcsotherref.md) <br/> |包含附加到 Exchange 存储中的项目的项目和/或文件。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
@@ -199,12 +199,12 @@ ms.locfileid: "21353145"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

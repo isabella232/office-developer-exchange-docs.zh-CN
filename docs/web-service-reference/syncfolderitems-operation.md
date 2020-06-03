@@ -16,7 +16,7 @@ ms.openlocfilehash: 1a28d895eda11dd43f77ec2662a60a426cfc463c
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468143"
 ---
 # <a name="syncfolderitems-operation"></a>SyncFolderItems 操作
@@ -31,7 +31,7 @@ SyncFolderItems 类似于 FindItem 操作，因为它无法返回正文或附件
   
 ## <a name="syncfolderitems-request-example"></a>SyncFolderItems 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的 SyncFolderItems 请求示例演示如何同步文件夹中的项目。 本示例显示 "已发送邮件" 文件夹中未发生的第一次同步的文件夹项目同步。 在第一次尝试将客户端与 Exchange 服务器同步时，请求中不包含[SyncState](syncstate-ex15websvcsotherref.md)元素。 第一次尝试同步文件夹层次结构中的项时，将返回邮箱中的所有项，而不包括在[Ignore](ignore.md)元素中标识的项。 此 SyncFolderItems 请求将尝试同步自上次同步之后对文件夹项所做的所有更改。 此请求将忽略对[ignore](ignore.md)元素中标识的项进行同步的尝试。 
   
@@ -87,7 +87,7 @@ SyncFolderItems 类似于 FindItem 操作，因为它无法返回正文或附件
     
 ## <a name="successful-syncfolderitems-response"></a>成功的 SyncFolderItems 响应
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对 SyncFolderItems 请求的成功响应。 在此示例中，会议请求将从 "已发送邮件" 文件夹中同步。
   
@@ -202,7 +202,7 @@ SyncFolderItems 类似于 FindItem 操作，因为它无法返回正文或附件
     
 ## <a name="syncfolderitems-error-response"></a>SyncFolderItems 错误响应
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对 SyncFolderItems 请求的错误响应。 此错误是由无效的 SyncState 所致。
   

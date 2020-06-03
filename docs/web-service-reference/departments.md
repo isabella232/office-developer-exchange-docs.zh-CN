@@ -12,7 +12,7 @@ ms.openlocfilehash: 17590793e00a914cb53b479994bcc89e37bb0e31
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467933"
 ---
 # <a name="departments"></a>部

@@ -12,7 +12,7 @@ ms.openlocfilehash: ad4063964d7de197ba39c91f5605a86755fa0ce1
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468451"
 ---
 # <a name="ispinned-federateddirectorygrouptype"></a>IsPinned (FederatedDirectoryGroupType)

@@ -16,7 +16,7 @@ ms.openlocfilehash: 18af810160e72856599f296c4faa83cf9c73c393
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467954"
 ---
 # <a name="playonphone-operation-ews"></a>PlayOnPhone 操作（EWS）
@@ -25,7 +25,7 @@ ms.locfileid: "44467954"
   
 ## <a name="playonphone-request-example"></a>PlayOnPhone 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的**PlayOnPhone**请求示例演示如何在手机上形成请求以播放邮件。 
   
@@ -52,7 +52,7 @@ ms.locfileid: "44467954"
 
 ## <a name="playonphone-response-example"></a>PlayOnPhone 响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对**PlayOnPhone**请求的成功响应。 
   

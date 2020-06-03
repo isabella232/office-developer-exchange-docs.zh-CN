@@ -16,7 +16,7 @@ ms.openlocfilehash: d881c617374bc9545552ad77f2f2b355efdf2359
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/01/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468633"
 ---
 # <a name="month-item-recurrence"></a>月（项目定期）

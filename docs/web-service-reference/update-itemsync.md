@@ -16,7 +16,7 @@ ms.openlocfilehash: 12248cbbd5d47a19e36d49fcebe6d4753a2e162f
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468885"
 ---
 # <a name="update-itemsync"></a>Update （ItemSync）
@@ -104,7 +104,7 @@ ms.locfileid: "44468885"
 |**元素**|**说明**|
 |:-----|:-----|
 |[Item](item.md) <br/> |表示要更新的通用 Exchange 项。  <br/> |
-|[邮件](message-ex15websvcsotherref.md) <br/> |表示要更新的 Exchange 电子邮件。  <br/> |
+|[消息](message-ex15websvcsotherref.md) <br/> |表示要更新的 Exchange 电子邮件。  <br/> |
 |[CalendarItem](calendaritem.md) <br/> |表示要更新的 Exchange 日历项目。  <br/> |
 |[联系人](contact.md) <br/> |表示要更新的 Exchange 联系人项目。  <br/> |
 |[DistributionList](distributionlist.md) <br/> |表示要更新的通讯组列表。  <br/> |
@@ -112,7 +112,7 @@ ms.locfileid: "44468885"
 |[MeetingRequest](meetingrequest.md) <br/> |表示要更新的会议请求。  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |表示要更新的会议响应。  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |表示要更新的会议取消。  <br/> |
-|[Task](task.md) <br/> |表示要更新的任务。  <br/> |
+|[任务](task.md) <br/> |表示要更新的任务。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 

@@ -11,7 +11,7 @@ ms.openlocfilehash: ba28ce4ded83c55f7b3f799c0bfe6f9509e375fd
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468689"
 ---
 # <a name="locationurl-soap"></a>LocationUrl （SOAP）

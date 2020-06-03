@@ -16,7 +16,7 @@ ms.openlocfilehash: 46d5c35a83034b8b968901fbc4ee57d046b6c164
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/01/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468416"
 ---
 # <a name="maximumresultsbyday"></a>MaximumResultsByDay

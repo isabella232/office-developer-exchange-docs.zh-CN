@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: bad7311f-7ecd-4f0c-b8e7-dd8f7d378f55
-description: UserParameters 元素包含已启用和禁用客户端扩展名的列表。
-ms.openlocfilehash: e0a72fe13255380ee56b32c863fb3bffb2e1ac5e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: UserParameters 元素包含已启用和已禁用的客户端扩展的列表。
+ms.openlocfilehash: 76bf858adfb6d2ef76a25c234117131752c60d7b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838482"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526751"
 ---
 # <a name="userparameters"></a>UserParameters
 
-**UserParameters**元素包含已启用和禁用客户端扩展名的列表。 
+**UserParameters**元素包含已启用和已禁用的客户端扩展的列表。 
   
 ```XML
 <UserParameters UserId="" EnabledOnly="">
@@ -29,18 +29,18 @@ ms.locfileid: "19838482"
  **GetClientExtensionUserParametersType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**说明**|
 |:-----|:-----|
-|UserId  <br/> |**UserId**属性的文本值是用户的标识符。  <br/> |
-|EnabledOnly  <br/> |**EnabledOnly**的文本值指示是否响应仅包含已启用的扩展。  <br/> |
+|UserID  <br/> |**UserId**属性的文本值是用户的标识符。  <br/> |
+|EnabledOnly  <br/> |**EnabledOnly**的文本值指示响应是否仅包含已启用的扩展。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
-[UserEnabledExtensions](userenabledextensions.md) | [UserDisabledExtensions](userdisabledextensions.md)
+[UserEnabledExtensions](userenabledextensions.md)  | [UserDisabledExtensions](userdisabledextensions.md)
   
 ### <a name="parent-elements"></a>父元素
 
@@ -56,7 +56,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> ||

@@ -16,7 +16,7 @@ ms.openlocfilehash: b609abed481359fa6562f41a551645eb613ddfa0
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/01/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468878"
 ---
 # <a name="physicaladdresses"></a>PhysicalAddresses

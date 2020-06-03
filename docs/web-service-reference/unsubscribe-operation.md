@@ -16,7 +16,7 @@ ms.openlocfilehash: 054f89af1ba5c780c7de5016a6dfe34086c97f02
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468024"
 ---
 # <a name="unsubscribe-operation"></a>取消订阅操作
@@ -25,7 +25,7 @@ ms.locfileid: "44468024"
   
 ## <a name="unsubscribe-request-example"></a>取消订阅请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例显示发送到从通知服务取消订阅客户端的 SOAP XML 消息。
   
@@ -53,7 +53,7 @@ ms.locfileid: "44468024"
     
 ## <a name="successful-unsubscribe-response-example"></a>成功的取消订阅响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对取消订阅请求的成功响应。
   
@@ -98,7 +98,7 @@ ms.locfileid: "44468024"
     
 ## <a name="unsubscribe-error-response-example"></a>取消订阅错误响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 以下是取消订阅错误响应的示例，以响应使用无法位于 Exchange 存储中的订阅标识符进行取消订阅。
   

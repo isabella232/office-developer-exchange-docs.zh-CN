@@ -12,7 +12,7 @@ ms.openlocfilehash: 7aa544cb8b63face7cd41054eebb55b0ed84b35d
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467856"
 ---
 # <a name="tokenvalue"></a>TokenValue

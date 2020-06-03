@@ -16,7 +16,7 @@ ms.openlocfilehash: ad66586e0a5abca31f69f9d0e8d275691ef1649d
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468038"
 ---
 # <a name="sipresponsecode"></a>SIPResponseCode

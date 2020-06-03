@@ -16,7 +16,7 @@ ms.openlocfilehash: 53d08731653b9dd22af2d33a1f0ece0ad0305096
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468206"
 ---
 # <a name="spousename"></a>SpouseName

@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1acbb8a3-9110-4427-a06c-7e6e627e969f
-description: UserOptions 元素指定的投票上一条消息选项的列表。
-ms.openlocfilehash: 8a5bdbc254e3c0bce8822633d2714bc928f15f13
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: UserOptions 元素指定邮件上的投票选项列表。
+ms.openlocfilehash: 2e0bbb373f423bbe9e913775b1f19d06dfd53f5f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838477"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526758"
 ---
 # <a name="useroptions"></a>UserOptions
 
-**UserOptions**元素指定的上一条消息的投票选项的列表。 
+**UserOptions**元素指定邮件上的投票选项列表。 
   
 ```XML
 <UserOptions>
@@ -28,9 +28,9 @@ ms.locfileid: "19838477"
  **ArrayOfVotingOptionDataType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,7 +42,7 @@ ms.locfileid: "19838477"
 
 [VotingInformation](votinginformation.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   
@@ -52,7 +52,7 @@ Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
@@ -64,5 +64,5 @@ Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
 [VotingInformation](votinginformation.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

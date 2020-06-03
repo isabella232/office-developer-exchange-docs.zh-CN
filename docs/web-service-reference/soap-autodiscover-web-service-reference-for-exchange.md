@@ -13,7 +13,7 @@ ms.openlocfilehash: bfca8e8e260a6262d12542bd6834894a2375453f
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468423"
 ---
 # <a name="soap-autodiscover-web-service-reference-for-exchange"></a>Exchange 的 SOAP 自动发现 web 服务参考
@@ -54,6 +54,6 @@ ms.locfileid: "44468423"
 - [使用自动发现查找连接点](https://msdn.microsoft.com/library/03896542-549b-4c45-973c-98f9025ea26c%28Office.15%29.aspx)
 - [使用自动发现从 Exchange 获取用户设置](https://msdn.microsoft.com/library/6d90c305-4802-4e18-8d52-f60349feaa8d%28Office.15%29.aspx)
 - [获取来自 Exchange 服务器的域设置](https://msdn.microsoft.com/library/2f9acb81-5135-4f72-94e8-65c235d725e6%28Office.15%29.aspx)
-- [开始使用 Exchange 中的 Web 服务](../exchange-web-services/start-using-web-services-in-exchange.md)
+- [Start using web services in Exchange](../exchange-web-services/start-using-web-services-in-exchange.md)
     
 

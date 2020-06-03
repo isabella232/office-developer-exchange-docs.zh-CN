@@ -16,7 +16,7 @@ ms.openlocfilehash: 1f9a7a3f3ede2d3cf8f9d41677d8ce0487266f17
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/01/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468892"
 ---
 # <a name="copyfolder-operation"></a>CopyFolder 操作
@@ -29,7 +29,7 @@ CopyFolder 操作类似于[MoveFolder 操作](movefolder-operation.md)。 它会
   
 ## <a name="copyfolder-request-example"></a>CopyFolder 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 以下示例的 CopyFolder 请求显示如何将文件夹复制到 "收件箱" 文件夹中。
   
@@ -81,7 +81,7 @@ CopyFolder 操作类似于[MoveFolder 操作](movefolder-operation.md)。 它会
   
 ## <a name="successful-copyfolder-response"></a>成功的 CopyFolder 响应
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对 CopyFolder 请求的成功响应。 
   
@@ -146,7 +146,7 @@ CopyFolder 操作类似于[MoveFolder 操作](movefolder-operation.md)。 它会
   
 ## <a name="copyfolder-error-response"></a>CopyFolder 错误响应
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对 CopyFolder 请求的错误响应。 出现此错误的原因是已经存在具有相同显示名称的文件夹。
   

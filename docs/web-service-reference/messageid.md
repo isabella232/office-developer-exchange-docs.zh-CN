@@ -16,7 +16,7 @@ ms.openlocfilehash: 014c028c9625ff6b80ed16137df097071bcdb584
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/01/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468682"
 ---
 # <a name="messageid"></a>MessageId

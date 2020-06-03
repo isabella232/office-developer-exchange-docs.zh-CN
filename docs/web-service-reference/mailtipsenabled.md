@@ -16,7 +16,7 @@ ms.openlocfilehash: 6be923733f1cbd584010ce5f8ee5b96178d5c2c0
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468010"
 ---
 # <a name="mailtipsenabled"></a>MailTipsEnabled

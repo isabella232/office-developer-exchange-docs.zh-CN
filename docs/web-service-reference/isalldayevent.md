@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 29140a64-9d7a-4a14-a10d-c98197c9831b
-description: IsAllDayEvent 元素指示日历项目或会议请求是否表示全天事件。
-ms.openlocfilehash: 81cf1e7d8338275540f264de7cbf194005e7770c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: IsAllDayEvent 元素指示 calendar 项目或会议请求是否代表全天事件。
+ms.openlocfilehash: f0c975deecf96e94599a47ef2c33e54a7d1a80b9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825983"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526534"
 ---
 # <a name="isalldayevent"></a>IsAllDayEvent
 
-**IsAllDayEvent**元素指示日历项目或会议请求是否表示全天事件。 
+**IsAllDayEvent**元素指示 calendar 项目或会议请求是否代表全天事件。 
   
 ```xml
 <IsAllDayEvent/>
@@ -30,9 +30,9 @@ ms.locfileid: "19825983"
  **Boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -44,16 +44,16 @@ ms.locfileid: "19825983"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[日历项目](calendaritem.md) <br/> |表示 Exchange 日历项。  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |表示 Exchange 日历项。  <br/> |
 |[MeetingRequest](meetingrequest.md) <br/> |表示 Exchange 存储中的会议请求。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-如果此元素是包含，则需要一个文本值，它代表一个布尔值。 值为**true**指示该项表示全天事件。 如果值为**false**指示项目跨越小于用户的工作时间。 
+如果包含此元素，则需要一个表示布尔值的文本值。 **如果值为 true** ，则表示项目表示全天事件。 **如果值为 false** ，则表示项的范围少于用户的工作时间。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-全天事件跨持续时间的工作时间内定义的邮箱。
+全天事件会跨越为邮箱定义的工作时间的持续时间。
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -61,7 +61,7 @@ ms.locfileid: "19825983"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -70,5 +70,5 @@ ms.locfileid: "19825983"
 
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

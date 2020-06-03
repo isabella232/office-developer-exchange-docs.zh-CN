@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 7753aec5-3f93-4aeb-a28e-8b9b42ca7f9b
-description: EnableAlwaysDelete 元素指定允许的所有新项目在对话中删除的标志。
-ms.openlocfilehash: f86765c641604afbf13ac962f4b34fbd8de56200
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: EnableAlwaysDelete 元素指定一个标志，该标志为对话中的所有新项目启用删除。
+ms.openlocfilehash: 14784d3a6ba52c76b64b81e15c0522d66d125cbf
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754104"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526205"
 ---
 # <a name="enablealwaysdelete"></a>EnableAlwaysDelete
 
-**EnableAlwaysDelete**元素指定允许的所有新项目在对话中删除的标志。 
+**EnableAlwaysDelete**元素指定一个标志，该标志为对话中的所有新项目启用删除。 
   
 [ApplyConversationAction](applyconversationaction.md)
   
@@ -35,12 +35,12 @@ ms.locfileid: "19754104"
 <EnableAlwaysDelete/>
 ```
 
- **xs: boolean**
+ **xs： boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -52,11 +52,11 @@ ms.locfileid: "19754104"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ConversationAction](conversationaction.md) <br/> |包含要应用于单个会话的单个操作。  <br/> |
+|[ConversationAction](conversationaction.md) <br/> |包含要应用于单个对话的单个操作。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**EnableAlwaysDelete**元素的文本值为**true**以启用对话; 中的所有项的删除否则为**false**。
+**EnableAlwaysDelete**元素的文本值为**true** ，以启用删除对话中的所有项目;否则**为 false**。
   
 ## <a name="remarks"></a>备注
 
@@ -66,7 +66,7 @@ ms.locfileid: "19754104"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |

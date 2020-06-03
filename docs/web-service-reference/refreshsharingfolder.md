@@ -16,7 +16,7 @@ ms.openlocfilehash: 4454607fa2c3114cc7279fd7c30f8aee74707baa
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467926"
 ---
 # <a name="refreshsharingfolder"></a>RefreshSharingFolder

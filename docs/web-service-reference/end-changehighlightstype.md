@@ -1,5 +1,5 @@
 ---
-title: 结束 (ChangeHighlightsType)
+title: End （ChangeHighlightsType）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 62b7d14c-8d71-4f28-b93e-8fe42d99022b
-description: 元素指定对所做更改结束会议结束时间会议更新时发生。
-ms.openlocfilehash: 1b5d9736d8450c41316bcac8e1aaa4e5ff630c68
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: End 元素指定在会议更新发生时对会议结束时间所做的更改。
+ms.openlocfilehash: 61d8c46af1999a506258dfa0cebf3a712962772a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754108"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526198"
 ---
-# <a name="end-changehighlightstype"></a>结束 (ChangeHighlightsType)
+# <a name="end-changehighlightstype"></a>End （ChangeHighlightsType）
 
-**结束**元素指定对会议进行的更改结束会议更新当发生的时间。 
+**End**元素指定在会议更新发生时对会议结束时间所做的更改。 
   
 ```XML
 <End></End>
@@ -26,9 +26,9 @@ ms.locfileid: "19754108"
  **dateTime**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -42,7 +42,7 @@ ms.locfileid: "19754108"
   
 ## <a name="text-value"></a>文本值
 
-会议的新结束时间的**End**元素的文本值。 
+**End**元素的文本值是会议的新结束时间。 
   
 ## <a name="remarks"></a>备注
 
@@ -54,7 +54,7 @@ Exchange Server 2013 中引入了此元素。
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> ||

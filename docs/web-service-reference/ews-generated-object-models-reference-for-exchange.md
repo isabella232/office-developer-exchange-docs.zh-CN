@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 67d7d831-9c53-46da-80e4-18f562e71284
 description: 若要根据 EWS 生成的对象模型参考来开发 Exchange 应用程序，请了解其他 EWS 开发选项。
-ms.openlocfilehash: 94735a205748116457cb74efc2a75b0b2aa2c9ec
-ms.sourcegitcommit: 4221fd619bc309d2f8ab0497ec780b427acc6530
-ms.translationtype: HT
+ms.openlocfilehash: 0ab659fa57a591939b85ab8cfbc4104c9c775060
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/08/2018
-ms.locfileid: "25441531"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526163"
 ---
 # <a name="ews-generated-object-models-for-exchange"></a>EWS 生成的 Exchange 对象模型
 
@@ -56,4 +56,4 @@ EWS 托管 API：
 
 - [Exchange Web 服务参考](web-services-reference-for-exchange.md)
 - [探索 Exchange 中 EWS 托管 API、EWS 和 Web 服务](../exchange-web-services/explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)
-- [Exchange 中 EWS 和其他 Web 服务的最近更新](../exchange-web-services/whats-new-in-ews-and-other-web-services-in-exchange.md)
+- [EWS 中的新增功能和 Exchange 中的 其他 Web 服务](../exchange-web-services/whats-new-in-ews-and-other-web-services-in-exchange.md)

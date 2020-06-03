@@ -16,7 +16,7 @@ ms.openlocfilehash: a67800687f24dc323c3d80e4166ca9dd34dfc4fc
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468290"
 ---
 # <a name="requiredattendees"></a>RequiredAttendees

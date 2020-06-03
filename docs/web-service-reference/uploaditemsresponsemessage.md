@@ -16,7 +16,7 @@ ms.openlocfilehash: 4049772c560f3d54a31351fe1fbed77fe5780bf8
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468493"
 ---
 # <a name="uploaditemsresponsemessage"></a>UploadItemsResponseMessage

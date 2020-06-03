@@ -16,7 +16,7 @@ ms.openlocfilehash: 7812b52dd57fed0a9b6f1a8fc4e77660932a60dc
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468080"
 ---
 # <a name="trackingpropertytype"></a>TrackingPropertyType

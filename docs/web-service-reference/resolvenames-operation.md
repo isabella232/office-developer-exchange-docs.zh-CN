@@ -16,7 +16,7 @@ ms.openlocfilehash: 51728addddd2bfb9d35b874ae8c11e83a4c8629b
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468276"
 ---
 # <a name="resolvenames-operation"></a>ResolveNames 操作
@@ -37,7 +37,7 @@ ResolveNames 响应将返回最大为100个候选人。 返回的100候选项是
   
 ## <a name="resolvenames-request-example"></a>ResolveNames 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 以下示例的**ResolveNames**请求显示如何解析用户的输入。
   
@@ -84,7 +84,7 @@ ResolveNames 响应将返回最大为100个候选人。 返回的100候选项是
     
 ## <a name="successful-resolvenames-operation-response-example"></a>成功的 ResolveNames 操作响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对**ResolveNames**请求的成功响应。 
   
@@ -170,7 +170,7 @@ ResolveNames 响应将返回最大为100个候选人。 返回的100候选项是
     
 ## <a name="resolvenames-operation-error-response"></a>ResolveNames 操作错误响应
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对**ResolveNames**请求的错误响应。 错误是由尝试解析无法解析的名称导致的。 
   

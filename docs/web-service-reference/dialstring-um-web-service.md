@@ -15,7 +15,7 @@ ms.openlocfilehash: 028ea789efabf49a64bc1d5022d9eb2d8df61c51
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467821"
 ---
 # <a name="dialstring-um-web-service"></a>dialString （UM web 服务）

@@ -13,7 +13,7 @@ ms.openlocfilehash: 755ecd20cc3707b4a8c36b832ff1d6fe91ec9169
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/01/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468066"
 ---
 # <a name="value-soap"></a>Value （SOAP）

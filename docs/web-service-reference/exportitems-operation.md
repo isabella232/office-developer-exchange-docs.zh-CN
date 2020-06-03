@@ -11,23 +11,23 @@ api_name:
 api_type:
 - schema
 ms.assetid: e2846abb-0b16-4732-bbd8-038a674672f6
-description: ExportItems 操作将邮箱出的项目导出。
-ms.openlocfilehash: 6f0760705c05de2a615544fe52ac50b398be6040
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: ExportItems 操作将项目从邮箱中导出。
+ms.openlocfilehash: 547a490a27d2414d2eda1d89cdac036a34eddccd
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754209"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526044"
 ---
 # <a name="exportitems-operation"></a>ExportItems 操作
 
-**ExportItems**操作将邮箱出的项目导出。 
+**ExportItems**操作将项目从邮箱中导出。 
   
 ## <a name="exportitems-request-example"></a>ExportItems 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
-**ExportItems**请求的下面的示例演示如何获取三项从邮箱导出请求的表单。 
+以下示例的**ExportItems**请求显示如何构成请求以获取从邮箱导出的三个项目。 
   
 ### <a name="code"></a>代码
 
@@ -36,8 +36,8 @@ ms.locfileid: "19754209"
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xmlns:xsd="http://www.w3.org/2001/XMLSchema"
       xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-      xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+      xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010_SP1" />
   </soap:Header>
@@ -53,11 +53,11 @@ ms.locfileid: "19754209"
 </soap:Envelope>
 ```
 
-### <a name="comment"></a>Comment
+### <a name="comment"></a>评论
 
-在示例中的项标识符具有已缩短要保留可读性。
+示例中的项标识符已缩短，以保持可读性。
   
-### <a name="request-elements"></a>请求元素
+### <a name="request-elements"></a>Request 元素
 
 请求中使用以下元素：
   
@@ -69,11 +69,11 @@ ms.locfileid: "19754209"
     
 - [ItemId](itemid.md)
     
-## <a name="successful-exportitems-response-example"></a>成功 ExportItems 响应示例
+## <a name="successful-exportitems-response-example"></a>成功的 ExportItems 响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
-下面的示例演示对**ExportItems**请求成功响应。 
+下面的示例演示对**ExportItems**请求的成功响应。 
   
 ### <a name="code"></a>代码
 
@@ -86,15 +86,15 @@ ms.locfileid: "19754209"
     MajorBuildNumber="139"
     MinorBuildNumber="0"
     Version="Exchange2010_SP1"
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-    xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+    xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:ExportItemsResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:ExportItemsResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:ExportItemsResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -147,13 +147,13 @@ ms.locfileid: "19754209"
 </s:Envelope>
 ```
 
-### <a name="comment"></a>Comment
+### <a name="comment"></a>评论
 
-已缩短的项标识符和更改键在示例中，若要保留可读性。
+示例中的项标识符和更改键已缩短，以保持可读性。
   
-### <a name="response-elements"></a>响应元素
+### <a name="response-elements"></a>Response 元素
 
-在响应中使用以下元素：
+响应中使用以下元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -167,13 +167,13 @@ ms.locfileid: "19754209"
     
 - [ItemId](itemid.md)
     
-- [数据 (base64Binary)](data-base64binary.md)
+- [Data （base64Binary）](data-base64binary.md)
     
 ## <a name="exportitems-error-response-example"></a>ExportItems 错误响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
-下面的示例演示包含两个错误和成功导出的一项**ExportItems**请求的响应。 在示例中的第一项成功导出。 第二个项目包含不正确的更改密钥。 第三项表示尝试导出错误的邮箱项目。 
+下面的示例演示对**ExportItems**请求的响应，其中包含两个错误和一个已成功导出的项目。 成功导出了示例中的第一个项目。 第二个项包含不正确的更改键。 第三项表示尝试从错误的邮箱中导出项目。 
   
 ### <a name="code"></a>代码
 
@@ -186,15 +186,15 @@ ms.locfileid: "19754209"
                          MajorBuildNumber="164" 
                          MinorBuildNumber="0" 
                          Version="Exchange2010_SP1" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:ExportItemsResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                           xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:ExportItemsResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                           xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:ExportItemsResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -227,9 +227,9 @@ ms.locfileid: "19754209"
 
 ```
 
-### <a name="comments"></a>注释
+### <a name="comments"></a>备注
 
-项标识符，更改键，并在示例中的数据具有缩短，若要保留可读性。
+示例中的项标识符、更改键和数据已缩短，以保持可读性。
   
 ### <a name="error-response-elements"></a>错误响应元素
 
@@ -247,7 +247,7 @@ ms.locfileid: "19754209"
     
 - [ItemId](itemid.md)
     
-- [数据 (base64Binary)](data-base64binary.md)
+- [Data （base64Binary）](data-base64binary.md)
     
 - [MessageText](messagetext.md)
     
@@ -258,7 +258,7 @@ ms.locfileid: "19754209"
 - **值**
     
 > [!NOTE]
-> **Value**元素不存在架构中。 此元素是有效的因为[MessageXml](messagexml.md)元素中，在其中**值**实例元素发生，可以包含任何有效的 XML。 
+> 架构中不存在**Value**元素。 此元素是有效的，因为**Value** instance 元素中出现的[MessageXml](messagexml.md)元素可以包含任何格式良好的 XML。 
   
 ## <a name="see-also"></a>另请参阅
 
@@ -269,5 +269,5 @@ ms.locfileid: "19754209"
 
 [Exchange 中的 EWS 操作](ews-operations-in-exchange.md)
   
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

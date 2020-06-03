@@ -16,7 +16,7 @@ ms.openlocfilehash: af6ef5107b5e4f2b3071c0bc9b4b528efea6dcca
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468269"
 ---
 # <a name="readitems-permissiontype"></a>ReadItems （PermissionType）

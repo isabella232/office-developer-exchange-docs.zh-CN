@@ -16,7 +16,7 @@ ms.openlocfilehash: 6228ee5b66202634e6bb3b6c1ad6b8897a109d58
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468787"
 ---
 # <a name="mergedfreebusyintervalinminutes"></a>MergedFreeBusyIntervalInMinutes

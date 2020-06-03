@@ -16,7 +16,7 @@ ms.openlocfilehash: 57e722c7775baa090736875077781cee869c3b01
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468500"
 ---
 # <a name="uploaditems-operation"></a>UploadItems 操作
@@ -28,7 +28,7 @@ ms.locfileid: "44468500"
   
 ## <a name="uploaditems-request-example"></a>UploadItems 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 以下示例的**UploadItems**请求显示如何将两个项目上传到邮箱中。 第一项是一个新项。 第二个项目是邮箱中现有项目的更新版本。 
   
@@ -102,7 +102,7 @@ ms.locfileid: "44468500"
     
 ## <a name="successful-uploaditems-response-example"></a>成功的 UploadItems 响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对**UploadItems**请求的成功响应。 
   
@@ -163,7 +163,7 @@ ms.locfileid: "44468500"
     
 ## <a name="uploaditems-error-response-example"></a>UploadItems 错误响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对**UploadItems**请求的响应，该请求包含尝试更新无法在邮箱中找到的项目时导致的错误。 
   

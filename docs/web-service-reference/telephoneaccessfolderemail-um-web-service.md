@@ -15,7 +15,7 @@ ms.openlocfilehash: 8da4065921b736313d4bbf5bb96edb51761a4bdb
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468626"
 ---
 # <a name="telephoneaccessfolderemail-um-web-service"></a>TelephoneAccessFolderEmail （UM web 服务）

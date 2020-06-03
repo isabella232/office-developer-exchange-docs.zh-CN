@@ -16,7 +16,7 @@ ms.openlocfilehash: 1566a8b22fd285f8c56d2a6579006ba906dd899c
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468507"
 ---
 # <a name="proxysecuritycontext"></a>ProxySecurityContext

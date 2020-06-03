@@ -11,7 +11,7 @@ ms.openlocfilehash: a5e4445b24395f1530e072f8aa9b5a9eed02f671
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468738"
 ---
 # <a name="referenceattachment"></a>ReferenceAttachment

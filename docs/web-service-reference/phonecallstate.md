@@ -16,7 +16,7 @@ ms.openlocfilehash: d2088b9b2811befe80684188d49c8034c577cc55
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468528"
 ---
 # <a name="phonecallstate"></a>PhoneCallState

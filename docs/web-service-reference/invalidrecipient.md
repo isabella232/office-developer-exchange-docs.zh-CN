@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 9e2d3433-22d7-444b-9883-e5649297d8fe
-description: InvalidRecipient 元素包含无效的收件人和信息收件人为什么是无效的 SMTP 地址。
-ms.openlocfilehash: 800056666e486e9337dcd1c2786f7e6db1e060bb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: InvalidRecipient 元素包含无效收件人的 SMTP 地址，以及有关收件人无效的原因的信息。
+ms.openlocfilehash: f301b31c1054625151ce90e41fca5e3efc21f473
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19825961"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526548"
 ---
 # <a name="invalidrecipient"></a>InvalidRecipient
 
-**InvalidRecipient**元素包含无效的收件人和信息收件人为什么是无效的 SMTP 地址。 
+**InvalidRecipient**元素包含无效收件人的 SMTP 地址，以及有关收件人无效的原因的信息。 
   
 ```XML
 <InvalidRecipient>
@@ -35,9 +35,9 @@ ms.locfileid: "19825961"
  **InvalidRecipientType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
-如下章节中介绍了属性、子元素和父元素。
+下面各部分介绍了属性、子元素和父元素。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   
@@ -45,17 +45,17 @@ ms.locfileid: "19825961"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[SmtpAddress](smtpaddress.md) <br/> |包含无效的收件人的 SMTP 地址。 此元素是必需的。  <br/> |
-|[ResponseCode (InvalidRecipientResponseCodeType)](responsecode-invalidrecipientresponsecodetype.md) <br/> |提供标识的特定错误的请求时遇到的错误代码。 此元素是必需的。  <br/> |
-|[MessageText](messagetext.md) <br/> |提供的响应状态的文本说明。 此元素是可选的。  <br/> |
+|[SmtpAddress](smtpaddress.md) <br/> |包含无效收件人的 SMTP 地址。 此元素是必需的。  <br/> |
+|[ResponseCode （InvalidRecipientResponseCodeType）](responsecode-invalidrecipientresponsecodetype.md) <br/> |提供用于标识请求遇到的特定错误的错误代码。 此元素是必需的。  <br/> |
+|[MessageText](messagetext.md) <br/> |提供响应状态的文本说明。 此元素为可选。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[InvalidRecipients](invalidrecipients.md) <br/> |代表共享请求的文件夹中的收件人，无效。  <br/> |
+|[InvalidRecipients](invalidrecipients.md) <br/> |表示无效的文件夹共享请求的收件人。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -63,7 +63,7 @@ ms.locfileid: "19825961"
 
 |||
 |:-----|:-----|
-|命名空间  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
 |验证文件  <br/> |Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
@@ -75,5 +75,5 @@ ms.locfileid: "19825961"
 [GetSharingMetadata 操作](getsharingmetadata-operation.md)
 
 
-- [在交换 EWS XML 元素](ews-xml-elements-in-exchange.md)
+- [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

@@ -16,7 +16,7 @@ ms.openlocfilehash: e078d4ef4a629ea06bab0c2eb02b4f67b4fbf651
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467870"
 ---
 # <a name="descriptivelinkkey"></a>DescriptiveLinkKey

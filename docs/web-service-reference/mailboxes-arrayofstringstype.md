@@ -12,7 +12,7 @@ ms.openlocfilehash: 376bd1f007e4b3d27bc44076a7b09993c49bd416
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468157"
 ---
 # <a name="mailboxes-arrayofstringstype"></a>邮箱（ArrayOfStringsType）

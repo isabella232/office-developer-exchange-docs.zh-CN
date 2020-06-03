@@ -16,7 +16,7 @@ ms.openlocfilehash: b7cf5325d925f8d6588115a8657a2077e940f9d2
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/01/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468556"
 ---
 # <a name="updatedelegate-operation"></a>UpdateDelegate 操作
@@ -36,7 +36,7 @@ ms.locfileid: "44468556"
    
 ## <a name="updatedelegate-request-example"></a>UpdateDelegate 请求示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的**UpdateDelegate**请求示例演示如何在 user1's 帐户上更新委派权限。 为操作2授予 "任务" 文件夹的 "无" 权限级别，并向其授予查看私人性质项目的权限。 User3 将为 "日记" 文件夹授予 "审阅者" 权限。 将会议请求发送给代理，并向 User1 发送有关请求的信息。 
   
@@ -86,7 +86,7 @@ ms.locfileid: "44468556"
   
 ## <a name="updatedelegate-response-example"></a>UpdateDelegate 响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对**UpdateDelegate**操作的成功响应。 
   
@@ -143,7 +143,7 @@ ms.locfileid: "44468556"
 
 ## <a name="updatedelegate-error-response-example"></a>UpdateDelegate 错误响应示例
 
-### <a name="description"></a>说明
+### <a name="description"></a>Description
 
 下面的示例演示对**UpdateDelegate**请求的错误响应。 由于委派在主体的代理列表中不存在，因此生成错误。 
   
