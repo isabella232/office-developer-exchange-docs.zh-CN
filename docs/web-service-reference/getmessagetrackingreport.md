@@ -16,7 +16,7 @@ ms.openlocfilehash: 30596acd209580147e0f03e12a7868502159b29c
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/02/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466575"
 ---
 # <a name="getmessagetrackingreport"></a>GetMessageTrackingReport

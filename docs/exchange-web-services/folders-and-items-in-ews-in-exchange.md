@@ -10,7 +10,7 @@ ms.openlocfilehash: 5e206d6973d148c6f70a17a8e7891bf3de7c1533
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/02/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455977"
 ---
 # <a name="folders-and-items-in-ews-in-exchange"></a>文件夹和交换中的 EWS 中的项目

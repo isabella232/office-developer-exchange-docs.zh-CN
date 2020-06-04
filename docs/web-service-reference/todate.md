@@ -12,7 +12,7 @@ ms.openlocfilehash: 1efff3d9484aa39562ad3d1e8ab01479999dda8a
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/02/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468780"
 ---
 # <a name="todate"></a>ToDate
