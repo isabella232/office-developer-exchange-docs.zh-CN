@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 82dfa204-e316-432f-a753-5bd97f576389
 description: UnpinTeamMailboxResponse 元素包含对解锁网站邮箱的请求的响应。
 ms.openlocfilehash: ba1f61a7b5b5b4d5af6805c13d84ee15e3559751
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.sourcegitcommit: eeda51cb037aa25566adb293f25574674fdb2d9e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44467233"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45012578"
 ---
 # <a name="unpinteammailboxresponse"></a>UnpinTeamMailboxResponse
 
