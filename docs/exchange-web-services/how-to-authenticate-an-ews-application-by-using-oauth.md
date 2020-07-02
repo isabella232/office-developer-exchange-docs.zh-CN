@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: 1d8d57f9-4df5-4f21-9bbb-a89e0e259052
 description: 了解如何将 OAuth 身份验证与您的 EWS 托管 API 应用程序结合使用。
 localization_priority: Priority
-ms.openlocfilehash: e2bcb339ddac51b888660b6f982a8377591b1a29
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 0375095faac918859354da026118ea4ccfd6792b
+ms.sourcegitcommit: eeda51cb037aa25566adb293f25574674fdb2d9e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44528249"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45012564"
 ---
 <!-- markdownlint-disable MD025 -->
 # <a name="authenticate-an-ews-application-by-using-oauth"></a>使用 OAuth 对 EWS 应用程序进行身份验证
@@ -80,7 +80,7 @@ ms.locfileid: "44528249"
 
 ## <a name="add-code-to-get-an-authentication-token"></a>添加代码以获取身份验证令牌
 
-下面的代码段演示如何使用 Microsoft 身份验证库获取委派权限和应用程序权限的身份验证令牌。 这些代码片段假定进行身份验证请求所需的信息存储在应用程序的 app.config**文件中。** 这些示例不包括错误检查，请参阅完整代码的[代码示例](#code-samples)。
+下面的代码段演示如何使用 Microsoft 身份验证库获取委派权限和应用程序权限的身份验证令牌。 这些代码片段假定进行身份验证请求所需的信息存储在应用程序的**App.config**文件中。 这些示例不包括错误检查，请参阅完整代码的[代码示例](#code-samples)。
 
 ### <a name="delegated-permissions"></a>委派权限
 
@@ -114,7 +114,7 @@ var app = ConfidentialClientApplicationBuilder
 // The permission scope required for EWS access
 var ewsScopes = new string[] { "https://outlook.office.com/.default" };
 
-//Make the toekn request
+//Make the token request
 AuthenticationResult authResult = await app.AcquireTokenForClient(ewsScopes).ExecuteAsync();
 
 ```
@@ -279,7 +279,7 @@ namespace ews_oauth_samples
 }
 ```
 
-两种情况下的示例代码都需要具有以下条目的**app.config**文件：
+两种情况下的示例代码都需要具有以下条目的**App.config**文件：
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>

@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: b4fff4c9-c625-4d2a-9d14-bb28a5da5baf
 description: 了解在使用 Exchange 时影响 EWS 的限制策略。
 localization_priority: Priority
-ms.openlocfilehash: 0c6ac49629ad4cdb4419cc8638d8e60ecb6509d6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 27db12c01180abbaf92b5b9a09a072212b6012ec
+ms.sourcegitcommit: eeda51cb037aa25566adb293f25574674fdb2d9e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455399"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45012550"
 ---
 # <a name="ews-throttling-in-exchange"></a>Exchange 中的 EWS 限制
 
@@ -239,7 +239,7 @@ Concurrency 指特定用户的连接数。 在收到请求后，才会将连接�
 
 如果通知应用程序是多线程的，并发出同时连接请求，以获取有关用户帐户收到的特定邮件的详细信息，则可以超出**限制**策略限制。 为此，请考虑监视应用程序中的并发连接，包括服务器可能使用的连接，以及在客户端上实现请求队列。
 
-**HangingConnectionLimit**仅适用于流式通知。 此限制是在 web.config 文件中设置的，这意味着 Exchange 管理员可以在本地 Exchange 服务器上设置此值，但 Exchange Online 邮箱必须使用此限制的默认值，即 Exchange Online 和 Exchange 2013 的默认值为3。 若要了解详细信息，请参阅[我需要考虑哪些限制值？](how-to-maintain-affinity-between-group-of-subscriptions-and-mailbox-server.md#bk_throttling)。
+**HangingConnectionLimit**仅适用于流式通知。 此限制设置在 web.config 文件中，这意味着 Exchange 管理员可以在内部部署 Exchange 服务器上设置此值，但 Exchange Online 邮箱必须使用此限制的默认值，即 exchange Online 为10、Exchange 2019、Exchange 2016 和3对应 Exchange 2013。 若要了解详细信息，请参阅[我需要考虑哪些限制值？](how-to-maintain-affinity-between-group-of-subscriptions-and-mailbox-server.md#bk_throttling)。
 
 ## <a name="throttling-policy-and-application-performance"></a>限制策略和应用程序性能
 
