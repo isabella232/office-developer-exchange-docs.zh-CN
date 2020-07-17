@@ -4,12 +4,12 @@ description: 了解如何对 IMAP、POP 和 SMTP 应用程序使用 OAuth 身份
 author: svpsiva
 ms.date: 02/19/2020
 ms.audience: Developer
-ms.openlocfilehash: fbe4eaefc5befcc173096c9b8526adebf74a0aad
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: f83a932790cde558e741ece1e87403103aff18fd
+ms.sourcegitcommit: eeda51cb037aa25566adb293f25574674fdb2d9e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44438432"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45012557"
 ---
 # <a name="authenticate-an-imap-pop-or-smtp-connection-using-oauth"></a>使用 OAuth 对 IMAP、POP 或 SMTP 连接进行身份验证
 
@@ -91,6 +91,10 @@ base64("user=test@contoso.onmicrosoft.com^Aauth=Bearer EwBAAl3BAAUFFpUAo7J3Ve0bj
 dXNlcj10ZXN0QGNvbnRvc28ub25taWNyb3NvZnQuY29tAWF1dGg9QmVhcmVy
 IEV3QkFBbDNCQUFVRkZwVUFvN0ozVmUwYmpMQldaV0NjbFJDM0VvQUEBAQ==
 ```
+
+### <a name="sasl-xoauth2-authentication-for-shared-mailboxes-in-office-365"></a>Office 365 中的共享邮箱的 SASL XOAUTH2 身份验证
+
+如果使用 OAuth 的共享邮箱访问，应用程序需要代表用户获取访问令牌，而将 SASL XOAUTH2 编码字符串中的 userName 字段替换为共享邮箱的电子邮件地址。 
 
 ### <a name="imap-protocol-exchange"></a>IMAP 协议交换
 
