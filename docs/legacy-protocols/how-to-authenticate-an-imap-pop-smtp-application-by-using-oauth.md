@@ -4,20 +4,20 @@ description: 了解如何对 IMAP、POP 和 SMTP 应用程序使用 OAuth 身份
 author: svpsiva
 ms.date: 02/19/2020
 ms.audience: Developer
-ms.openlocfilehash: f83a932790cde558e741ece1e87403103aff18fd
-ms.sourcegitcommit: eeda51cb037aa25566adb293f25574674fdb2d9e
+ms.openlocfilehash: e1bef8e35d78c35693dadc94b24b6aeecaf4e439
+ms.sourcegitcommit: 636c05a929279812c6ef87d75b01c166a4a05584
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45012557"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47254984"
 ---
 # <a name="authenticate-an-imap-pop-or-smtp-connection-using-oauth"></a>使用 OAuth 对 IMAP、POP 或 SMTP 连接进行身份验证
 
 了解如何使用 OAuth 身份验证连接 IMAP、POP 或 SMTP 协议以及访问 Office 365 用户的电子邮件数据。
 
-> Outlook.com 用户不支持 OAuth2 支持 IMAP、POP、SMTP 协议（如下所述）。
+> OAuth2 支持 IMAP、POP、SMTP 协议（如下面所述）对 Microsoft 365 (（包括 web 上的 Office) 和 Outlook.com 用户）都受支持。
 
-如果你不熟悉 OAuth 2.0，请先阅读[Microsoft identity platform （2.0）概述](/azure/active-directory/develop/v2-overview)。 该文档向你介绍 Microsoft identity platform 的不同组件，包括 Sdk。
+如果你不熟悉 OAuth 2.0，请先阅读 [Microsoft identity platform (2.0 版) 概述](/azure/active-directory/develop/v2-overview)。 该文档向你介绍 Microsoft identity platform 的不同组件，包括 Sdk。
 
 您可以使用 Azure Active Directory 提供的 OAuth 身份验证服务，使应用程序能够与 IMAP、POP 或 SMTP 协议连接，以便在 Office 365 中访问 Exchange Online。 若要将 OAuth 与应用程序一起使用，您需要执行以下操作：
 
@@ -30,13 +30,13 @@ ms.locfileid: "45012557"
 
 若要使用 OAuth，必须向 Azure Active Directory 注册应用程序。
 
-按照在[Microsoft identity platform 中注册应用程序](/azure/active-directory/develop/quickstart-register-app)中列出的说明创建新的应用程序。
+按照在 [Microsoft identity platform 中注册应用程序](/azure/active-directory/develop/quickstart-register-app) 中列出的说明创建新的应用程序。
 
 ## <a name="configure-your-application"></a>配置应用程序
 
 按照[Configure a client application to access Web api](/azure/active-directory/develop/quickstart-configure-app-access-web-apis)中列出的说明操作。
 
-确保添加以下一个或多个与要与之集成的协议对应的权限范围。 在 "**添加权限**向导" 中，选择 " **Microsoft Graph** "，然后选择 "**委派权限**" 以查找列出的以下权限范围。
+确保添加以下一个或多个与要与之集成的协议对应的权限范围。 在 " **添加权限** 向导" 中，选择 " **Microsoft Graph** "，然后选择 " **委派权限** " 以查找列出的以下权限范围。
 
 | 协议  | 权限范围        |
 |-----------|-------------------------|
@@ -46,7 +46,7 @@ ms.locfileid: "45012557"
 
 ## <a name="get-an-access-token"></a>获取访问令牌
 
-您可以使用我们的[MSAL 客户端库](/azure/active-directory/develop/msal-overview)之一从客户端应用程序中获取访问令牌。
+您可以使用我们的 [MSAL 客户端库](/azure/active-directory/develop/msal-overview) 之一从客户端应用程序中获取访问令牌。
 
 或者，也可以从以下列表中选择一个合适的流，并按照相应的步骤调用基础标识平台 REST Api 并检索访问令牌。
 
@@ -63,11 +63,11 @@ ms.locfileid: "45012557"
 | 弹出式       | `https://outlook.office.com/POP.AccessAsUser.All`  |
 | SMTP 身份验证 | `https://outlook.office.com/SMTP.Send`             |
 
-此外，还可以请求[offline_access](/azure/active-directory/develop/v2-permissions-and-consent#offline_access)范围。 当用户批准 offline_access 范围时，您的应用程序可以从 Microsoft identity platform 令牌终结点接收刷新令牌。 刷新令牌的生存期较长。 您的应用程序可以将新的访问令牌作为旧令牌过期。
+此外，还可以请求 [offline_access](/azure/active-directory/develop/v2-permissions-and-consent#offline_access) 范围。 当用户批准 offline_access 范围时，您的应用程序可以从 Microsoft identity platform 令牌终结点接收刷新令牌。 刷新令牌的生存期较长。 您的应用程序可以将新的访问令牌作为旧令牌过期。
 
 ## <a name="authenticate-connection-requests"></a>对连接请求进行身份验证
 
-您可以使用[适用于 office 365 的 IMAP 和 POP 电子邮件设置](https://support.office.com/article/pop-and-imap-email-settings-for-outlook-8361e398-8af4-4e97-b147-6c6c4ac95353)，启动到 office 365 邮件服务器的连接。
+您可以使用 [适用于 office 365 的 IMAP 和 POP 电子邮件设置](https://support.office.com/article/pop-and-imap-email-settings-for-outlook-8361e398-8af4-4e97-b147-6c6c4ac95353)，启动到 office 365 邮件服务器的连接。
 
 ### <a name="sasl-xoauth2"></a>SASL XOAUTH2
 
@@ -77,7 +77,7 @@ ms.locfileid: "45012557"
 base64("user=" + userName + "^Aauth=Bearer " + accessToken + "^A^A")
 ```
 
-`^A`代表 a**控件**  +  **A** （ `%x01` ）。
+`^A`表示**Control**  +  **A** () 的控件 `%x01` 。
 
 例如，使用 access 令牌访问的 SASL XOAUTH2 格式 `test@contoso.onmicrosoft.com` `EwBAAl3BAAUFFpUAo7J3Ve0bjLBWZWCclRC3EoAA` 为：
 
