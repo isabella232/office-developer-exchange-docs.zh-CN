@@ -4,12 +4,12 @@ description: 了解如何对 IMAP、POP 和 SMTP 应用程序使用 OAuth 身份
 author: svpsiva
 ms.date: 02/19/2020
 ms.audience: Developer
-ms.openlocfilehash: e1bef8e35d78c35693dadc94b24b6aeecaf4e439
-ms.sourcegitcommit: 636c05a929279812c6ef87d75b01c166a4a05584
+ms.openlocfilehash: 4662aa904ed162edcced6c096eac8cf636180f6a
+ms.sourcegitcommit: 37d4ecd4f469690ba1de87baad2f2f58c40c96ba
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47254984"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49348813"
 ---
 # <a name="authenticate-an-imap-pop-or-smtp-connection-using-oauth"></a>使用 OAuth 对 IMAP、POP 或 SMTP 连接进行身份验证
 
@@ -17,11 +17,11 @@ ms.locfileid: "47254984"
 
 > OAuth2 支持 IMAP、POP、SMTP 协议（如下面所述）对 Microsoft 365 (（包括 web 上的 Office) 和 Outlook.com 用户）都受支持。
 
-如果你不熟悉 OAuth 2.0，请先阅读 [Microsoft identity platform (2.0 版) 概述](/azure/active-directory/develop/v2-overview)。 该文档向你介绍 Microsoft identity platform 的不同组件，包括 Sdk。
+如果你不熟悉 OAuth 2.0 协议，请先阅读 [Microsoft identity platform 概述中的 OAuth 2.0 协议](/azure/active-directory/develop/active-directory-v2-protocols)。 若要了解有关 Microsoft 身份验证 Libariers (MSAL) 的详细信息，该协议可实施 OAuth 2.0 协议以对用户进行身份验证并访问安全 Api，请阅读 [MSAL 概述](/azure/active-directory/develop/msal-overview)。
 
 您可以使用 Azure Active Directory 提供的 OAuth 身份验证服务，使应用程序能够与 IMAP、POP 或 SMTP 协议连接，以便在 Office 365 中访问 Exchange Online。 若要将 OAuth 与应用程序一起使用，您需要执行以下操作：
 
-1. 向 Azure Active Directory[注册应用程序](#register-your-application)。
+1. 使用 Azure Active Directory [注册应用程序](#register-your-application)。
 1. 在 Azure Active Directory 中[配置应用程序](#configure-your-application)。
 1. 从令牌服务器[获取访问令牌](#get-an-access-token)。
 1. 使用访问令牌[对连接请求进行身份验证](#authenticate-connection-requests)。
@@ -77,7 +77,7 @@ ms.locfileid: "47254984"
 base64("user=" + userName + "^Aauth=Bearer " + accessToken + "^A^A")
 ```
 
-`^A`表示**Control**  +  **A** () 的控件 `%x01` 。
+`^A`表示 **Control**  +  **A** () 的控件 `%x01` 。
 
 例如，使用 access 令牌访问的 SASL XOAUTH2 格式 `test@contoso.onmicrosoft.com` `EwBAAl3BAAUFFpUAo7J3Ve0bjLBWZWCclRC3EoAA` 为：
 
@@ -194,7 +194,7 @@ S: 535 5.7.3 Authentication unsuccessful [SN2PR00CA0018.namprd00.prod.outlook.co
 
 ## <a name="see-also"></a>另请参阅
 
-- [Exchange 中的身份验证和 EWS](../exchange-web-services/authentication-and-ews-in-exchange.md)
+- [在 Exchange 中的身份验证和 EWS](../exchange-web-services/authentication-and-ews-in-exchange.md)
 - [IMAP、POP 连接设置](https://support.office.com/article/pop-and-imap-email-settings-for-outlook-8361e398-8af4-4e97-b147-6c6c4ac95353)
 - [Internet 邮件访问协议](https://tools.ietf.org/html/rfc3501)
 - [邮局协议](https://tools.ietf.org/html/rfc1081)

@@ -1,84 +1,84 @@
 ---
-title: 通过使用 Exchange 中的 SCP 查找来找到自动发现终结点
+title: 使用 Exchange 中的“SCP 查找”来找到自动发现终结点
 manager: kelbow
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.assetid: b24228a8-5127-4bac-aef0-9c9e8843c9ff
-description: 了解如何查找 Active Directory 域服务（AD DS）中的自动发现 SCP 对象，并使用它们查找要与 Exchange 自动发现服务一起使用的自动发现终结点 Url。
+description: 了解如何在 Active Directory 域服务 (AD DS) 中找到自动发现 SCP 对象并用它们来查找要用于 Exchange 自动发现服务的自动发现终结点 URL。
 localization_priority: Priority
-ms.openlocfilehash: c0c0364a7d69364e12db902f1f22d65c4b5a0cc5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
-ms.translationtype: MT
+ms.openlocfilehash: 5468c18b6d614016915c292c2e02c1a4b570ae37
+ms.sourcegitcommit: 37d4ecd4f469690ba1de87baad2f2f58c40c96ba
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455875"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49348806"
 ---
-# <a name="find-autodiscover-endpoints-by-using-scp-lookup-in-exchange"></a>通过使用 Exchange 中的 SCP 查找来找到自动发现终结点
+# <a name="find-autodiscover-endpoints-by-using-scp-lookup-in-exchange"></a>使用 Exchange 中的“SCP 查找”来找到自动发现终结点
 
-了解如何查找 Active Directory 域服务（AD DS）中的自动发现 SCP 对象，并使用它们查找要与 Exchange 自动发现服务一起使用的自动发现终结点 Url。
+了解如何在 Active Directory 域服务 (AD DS) 中找到自动发现 SCP 对象并用它们来查找要用于 Exchange 自动发现服务的自动发现终结点 URL。
   
-自动发现使您能够轻松地检索连接到 Exchange 服务器上的邮箱所需的信息。 但是，若要使用自动发现，需要一种方法来查找适用于要检索其设置的用户的自动发现服务器。 AD DS 中的服务连接点（SCP）对象为加入域的客户端提供了一种用于查找自动发现服务器的简单方法。 
+借助自动发现功能，可轻松检索连接到 Exchange 服务器上的邮箱所需的信息。 但若要使用自动发现功能，你需要一种方式来查找适用于你正在检索其设置的用户的自动发现服务。 AD DS 中的服务连接点 (SCP) 对象为加入域的客户端提供了一种简单的方法来查找自动发现服务器。 
   
-## <a name="get-set-up-to-find-autodiscover-endpoints"></a>设置以查找自动发现终结点
+## <a name="get-set-up-to-find-autodiscover-endpoints"></a>进行设置来查找自动发现终结点
 <a name="bk_PreReqs"> </a>
 
-若要在 AD DS 中查找自动发现 SCP 对象，您需要具有以下权限：
+若要在 AD DS 中找到自动发现 SCP 对象，你需要有权访问以下内容：
   
-- 运行本地 Exchange 版本（从 Exchange 2007 SP1 开始）的服务器。
+- 运行 Exchange 本地版本（最低版本为 Exchange 2007 SP1）的服务器。
     
-- 加入到安装了 Exchange server 的域的客户端计算机。
+- 已加入安装 Exchange 服务器的域的客户端计算机。
     
-- 在 Exchange 服务器上拥有邮箱的用户帐户。 
+- 在 Exchange 服务器上有邮箱的用户帐户。 
     
-此外，在开始之前，您需要熟悉一些基本概念。 下面是一些可帮助您了解的资源。
+此外，在开始之前，你还需要熟悉一些基本概念。 下面是将帮助到你的一些资源。
   
-**表1。用于从 SCP 对象中查找自动发现终结点的相关文章**
+**表 1. 有关从 SCP 对象查找自动发现终结点的相关文章**
 
-|**阅读本文**|**若要了解 .。。**|
+|**阅读本文**|**若要了解…**|
 |:-----|:-----|
 |[Exchange 自动发现](autodiscover-for-exchange.md) <br/> |自动发现服务的工作方式。  <br/> |
-|[使用服务连接点进行发布](https://msdn.microsoft.com/library/3544aa64-ecb0-48a1-ae49-05247a983842%28Office.15%29.aspx) <br/> |如何使用 SCP 对象发布服务特定的数据。  <br/> |
+|[使用服务连接点进行发布](https://msdn.microsoft.com/library/3544aa64-ecb0-48a1-ae49-05247a983842%28Office.15%29.aspx) <br/> |SCP 对象如何用于发布服务特定的数据。  <br/> |
    
-## <a name="locate-autodiscover-scp-objects-in-ad-ds"></a>在 AD DS 中查找自动发现 SCP 对象
+## <a name="locate-autodiscover-scp-objects-in-ad-ds"></a>在 AD DS 中找到自动发现 SCP 对象
 <a name="bk_LocateScpObjects"> </a>
 
-在 AD DS 中查找已发布的自动发现终结点的第一步是找到自动发现 SCP 对象。 Exchange 发布了两种类型的 SCP 对象进行自动发现：
+要找到在 AD DS 中发布的自动发现终结点，首先是找到自动发现 SCP 对象。 Exchange 针对自动发现发布了两种类型的 SCP 对象：
   
-- **SCP 指针**—这些信息包含指向特定 LDAP 服务器的信息，这些服务器应用于查找用户域的自动发现 SCP 对象。 使用以下 GUID 对 SCP 指针进行标记：67661d7F-8FC4-4fa7-BFAC-E1D7794C1F68。 
+- **SCP 指针** - 其中包含指向特定 LDAP 服务器的信息，此信息应该用于查找用户的域的自动发现 SCP 对象。 使用以下 GUID 标记 SCP 指针：67661d7F-8FC4-4fa7-BFAC-E1D7794C1F68。 
     
-- **SCP url** ，其中包含自动发现终结点的 url。 将使用以下 GUID 标记 SCP Url：77378F46-2C66-4aa9-A6A6-3E7A48B19596。 
+- **SCP URL** - 其中包含自动发现终结点的 URL。 使用以下 GUID 标记 SCP URL：77378F46-2C66-4aa9-A6A6-3E7A48B19596。 
     
-### <a name="to-locate-autodiscover-scp-objects"></a>查找自动发现 SCP 对象
+### <a name="to-locate-autodiscover-scp-objects"></a>若要查找自动发现 SCP 对象
 
-1. 阅读 AD DS 中的根 DSE 条目的**configurationNamingContext**属性，以获取域的配置命名上下文的路径。 您可以使用[DirectoryEntry](https://msdn2.microsoft.com/library/z9cddzaa)类或任何其他可对 AD DS 进行的 API 来执行此操作。 
+1. 读取 AD DS 中根 DSE 条目的 **configurationNamingContext** 属性，获取指向域的配置命名上下文的路径。 可使用 [DirectoryEntry](https://msdn2.microsoft.com/library/z9cddzaa) 类或可访问 AD DS 的任何其他 API 来实现这一点。 
     
-2. 在具有 SCP 指针 GUID 或 "**关键字**" 属性中的 "scp URL" guid 的配置命名上下文中搜索 SCP 对象。 
+2. 在配置命名上下文中搜索 **keywords** 属性中具有 SCP 指针 GUID 或 SCP URL GUID 的 SCP 对象。 
     
-3. 通过检查等于的条目的**关键字**属性，检查您找到的适用于用户域的 scp 指针的 scp 对象 `"Domain=<domain>"` 。 例如，如果用户的电子邮件地址为 elvin@contoso.com，则会查找 "**关键字**" 属性中的条目等于的 SCP 指针 `"Domain=contoso.com"` 。 如果找到匹配的 SCP 指针，请丢弃 SCP 对象集，并通过在第1步中使用**serviceBindingInformation**属性的值作为要连接到根 DSE 条目的服务器来重新开始。 
+3. 通过检查等于 `"Domain=<domain>"` 的条目的 **keywords** 属性，检查你为范围是用户域的 SCP 指针找到的 SCP 对象。 例如，如果用户的电子邮件地址是 elvin@contoso.com，则你要使用 **keywords** 属性中等于 `"Domain=contoso.com"` 的条目查找 SCP 指针。 如果找到匹配的 SCP 指针，请放弃一组 SCP 对象，并从步骤 1 开始操作，对于根 DSE 条目，使用 **serviceBindingInformation** 属性的值作为要连接到的服务器。 
     
-4. 如果找不到作用域为用户域的任何 SCP 指针，请检查是否有作用域的任何不是任何域的 SCP 指针，并将**serviceBindingInformation**属性的值另存为 "回退" 服务器，以防当前服务器不提供任何结果。 
+4. 如果找不到任何范围是用户域的 SCP 指针，请检查范围不是任何域的所有 SCP 指针，并将 **serviceBindingInformation** 属性的值保存为“回退”服务器，以防当前服务器不返回任何结果。 
     
-5. 如果找不到作用域的任何 SCP 指针，则可以继续执行下一步：从结果中生成自动发现终结点的优先级列表。
+5. 如果找不到任何范围是域的 SCP 指针，则表示你可继续到下一步，也就是基于结果生成一个已排列优先级的自动发现终结点列表。
     
-## <a name="generate-a-prioritized-list-of-autodiscover-endpoints"></a>生成自动发现终结点的优先级列表
+## <a name="generate-a-prioritized-list-of-autodiscover-endpoints"></a>生成已排列优先级的自动发现终结点列表
 <a name="bk_GenerateList"> </a>
 
-您可以通过执行以下操作，使用您找到的 SCP 对象集生成自动发现终结点 Url 的优先级列表：
+你可执行以下操作，使用你找到的那组 SCP 对象生成一个已排列优先级的自动发现终结点 URL 的列表：
   
 1. 获取客户端计算机的 Active Directory 站点名称。
     
-2. 检查找到的一组 SCP 对象中的每个 SCP URL 上的**关键字**属性，并根据以下规则将优先级分配给 url： 
+2. 在你找到的那组 SCP 对象中检查每个 SCP URL 上的 **keywords** 属性，然后根据以下规则向 URL 分配一个优先级： 
     
-  - 如果**关键字**属性包含的值为 `"Site=<site name>"` ，其中 `<site name>` 等于在上一步中检索到的 Active Directory 站点的名称，请为 URL 分配优先级1。 
+  - 如果 **keywords** 属性包含一个 `"Site=<site name>"` 值，其中 `<site name>` 等于你在上一步中检索到的 Active Directory 站点的名称，请向 URL 分配优先级 1。 
     
-  - 如果**关键字**属性不包含以值开头的条目 `"Site="` ，请将 URL 的优先级分配为2。 
+  - 如果 **keywords** 属性中没有以 `"Site="` 开头的值的条目，那么请向 URL 分配优先级 2。 
     
-  - 如果**关键字**属性包含的值 `"Site=<site name>` `<site name>` 不等于在上一步中检索到的 Active Directory 站点的名称，则为 URL 分配优先级为3。 
+  - 如果 **keywords** 属性包含一个 `"Site=<site name>` 值，其中 `<site name>` 不等于你在上一步中检索到的 Active Directory 站点的名称，请向 URL 分配优先级 3。 
     
 ## <a name="code-example-performing-an-scp-lookup"></a>代码示例：执行 SCP 查找
 <a name="bk_CodeExample"> </a>
 
-在下面的代码示例中，您将了解如何查找自动发现 SCP 对象并生成自动发现终结点的按优先级排序的列表。
+在下面的代码示例中，你将了解如何查找自动发现 SCP 对象和生成已排列优先级的自动发现终结点列表。
   
 ```cs
 using System;
@@ -173,7 +173,7 @@ namespace ScpLookup
                     {
                         // Save the first SCP pointer that is not scoped to a domain as a fallback
                         // in case you do not get any results from this server.
-                        if (entryKeywords.Count == 1 &amp;&amp; string.IsNullOrEmpty(fallBackLdapPath))
+                        if (entryKeywords.Count == 1 && string.IsNullOrEmpty(fallBackLdapPath))
                         {
                             fallBackLdapPath = ptrLdapPath;
                             Console.WriteLine("Saved fallback SCP pointer: " + fallBackLdapPath);
@@ -283,7 +283,7 @@ namespace ScpLookup
                 }
                 // If after all this, you still have no URLs in your list,
                 // try the fallback SCP pointer, if you have one.
-                if (scpUrlList.Count == 0 &amp;&amp; fallBackLdapPath != null)
+                if (scpUrlList.Count == 0 && fallBackLdapPath != null)
                 {
                     return GetScpUrls(fallBackLdapPath, domain);
                 }
@@ -323,7 +323,7 @@ namespace ScpLookup
 ## <a name="next-steps"></a>后续步骤
 <a name="bk_NextSteps"> </a>
 
-自动发现过程中的下一步是将自动发现请求发送到找到的 Url，从优先级为1的 Url 开始，然后是优先级2个 url，最后是优先级为3的 Url。 若要了解有关如何发送自动发现请求和处理响应的详细信息，请阅读以下文章：
+在自动发现过程中，下一步是将自动发现请求发送至你找到的 URL，首先发给优先级为 1 的 URL，然后是优先级为 2 的URL，最后是优先级为 3 的 URL。 若要详细了解如何发送自动发现请求和处理响应，请阅读以下文章：
   
 - [使用自动发现从 Exchange 获取用户设置](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
     
