@@ -1,17 +1,17 @@
 ---
 title: 使用 OAuth 对 EWS 应用程序进行身份验证
 manager: sethgros
-ms.date: 11/19/2020
+ms.date: 11/25/2020
 ms.audience: Developer
 ms.assetid: 1d8d57f9-4df5-4f21-9bbb-a89e0e259052
 description: 了解如何一起使用 OAuth 身份验证和 EWS 托管 API 应用程序。
 localization_priority: Priority
-ms.openlocfilehash: c52b254f14cadd287a709bb68f8464e7cfe1837a
-ms.sourcegitcommit: 2d16ba247a8cb4b6c8ca9941cb079f75202aae1e
+ms.openlocfilehash: a7b1d2a099cf5f3c95f8453605363de12ff33c54
+ms.sourcegitcommit: 843a2e030a94b12aec70c553ca4e06e39ac02d82
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49356491"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49603825"
 ---
 <!-- markdownlint-disable MD025 -->
 # <a name="authenticate-an-ews-application-by-using-oauth"></a>使用 OAuth 对 EWS 应用程序进行身份验证
@@ -57,7 +57,7 @@ ms.locfileid: "49356491"
 
 ### <a name="configure-for-delegated-authentication"></a>配置以进行委派身份验证
 
-如果应用程序使用委派的身份验证，则无需进行进一步配置。 [Microsoft 标识平台] 允许应用动态请求权限，因此无需预配置应用注册的权限。 但是，在某些情况下（例如 [流代表](/azure/active-directory/develop/v2-oauth2-on-behalf-of-flow)）预配置权限是必需的。 使用以下步骤预配置 EWS 权限。
+如果应用程序使用委派的身份验证，则无需进行进一步配置。 [Microsoft 标识平台](/azure/active-directory/develop/v2-overview) 允许应用动态请求权限，因此无需预配置应用注册的权限。 但是，在某些情况下（例如 [流代表](/azure/active-directory/develop/v2-oauth2-on-behalf-of-flow)）预配置权限是必需的。 使用以下步骤预配置 EWS 权限。
 
 1. 在“**管理**”下的左侧导航中，选择 “**清单**”。
 
@@ -119,12 +119,19 @@ ms.locfileid: "49356491"
 
 ```cs
 // Using Microsoft.Identity.Client 4.22.0
+
+// Configure the MSAL client to get tokens
+var pcaOptions = new PublicClientApplicationOptions
+{
+    ClientId = ConfigurationManager.AppSettings["appId"],
+    TenantId = ConfigurationManager.AppSettings["tenantId"]
+};
+
 var pca = PublicClientApplicationBuilder
-    .Create(ConfigurationManager.AppSettings["appId"])
-    .Build();
+    .CreateWithApplicationOptions(pcaOptions).Build();
 
 // The permission scope required for EWS access
-var ewsScopes = new string[] { "EWS.AccessAsUser.All" };
+var ewsScopes = new string[] { "https://outlook.office365.com/EWS.AccessAsUser.All" };
 
 // Make the interactive token request
 var authResult = await pca.AcquireTokenInteractive(ewsScopes).ExecuteAsync();
@@ -144,7 +151,7 @@ var cca = ConfidentialClientApplicationBuilder
 var ewsScopes = new string[] { "https://outlook.office365.com/.default" };
 
 //Make the token request
-var authResult = await app.AcquireTokenForClient(ewsScopes).ExecuteAsync();
+var authResult = await cca.AcquireTokenForClient(ewsScopes).ExecuteAsync();
 ```
 
 ## <a name="add-an-authentication-token-to-ews-requests"></a>向 EWS 请求添加身份验证令牌
@@ -184,11 +191,19 @@ namespace EwsOAuth
         static async System.Threading.Tasks.Task Main(string[] args)
         {
             // Using Microsoft.Identity.Client 4.22.0
-            var pca = PublicClientApplicationBuilder
-                .Create(ConfigurationManager.AppSettings["appId"])
-                .Build();
 
-            var ewsScopes = new string[] { "EWS.AccessAsUser.All" };
+            // Configure the MSAL client to get tokens
+            var pcaOptions = new PublicClientApplicationOptions
+            {
+                ClientId = ConfigurationManager.AppSettings["appId"],
+                TenantId = ConfigurationManager.AppSettings["tenantId"]
+            };
+
+            var pca = PublicClientApplicationBuilder
+                .CreateWithApplicationOptions(pcaOptions).Build();
+
+            // The permission scope required for EWS access
+            var ewsScopes = new string[] { "https://outlook.office365.com/EWS.AccessAsUser.All" };
 
             try
             {
