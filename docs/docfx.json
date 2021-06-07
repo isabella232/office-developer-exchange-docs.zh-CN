@@ -38,7 +38,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-
+"ocv-translation-feedback": true,
       "breadcrumb_path": "/exchange/client-developer/breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "ms.topic": "conceptual",
