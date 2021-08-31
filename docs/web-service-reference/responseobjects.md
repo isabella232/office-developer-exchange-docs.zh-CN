@@ -11,23 +11,24 @@ api_name:
 api_type:
 - schema
 ms.assetid: ad29e064-3f3d-4b7b-aa4c-9ec27326381d
-description: ResponseObjects 元素包含与 Exchange 存储中的项目关联的所有响应对象的集合。
-ms.openlocfilehash: 675bfda4addb38535736efc0c790577ff4739108
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ResponseObjects 元素包含与项目存储中的项目关联的所有响应Exchange集合。
+ms.openlocfilehash: 9f80fd9703dcd7d9293a3a51eccb6cf2b6903064
+ms.sourcegitcommit: 357b882a02e37b380a23b8a45b15f9c006a40b02
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457436"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "58764579"
 ---
 # <a name="responseobjects"></a>ResponseObjects
 
-**ResponseObjects**元素包含与 Exchange 存储中的项目关联的所有响应对象的集合。 
+**ResponseObjects** 元素包含与项目存储中的项目关联的所有响应Exchange的集合。 
   
 ```XML
 <ResponseObjects>
    <AcceptItem/>
    <TentativelyAcceptItem/>
    <DeclineItem/>
+   <ProposeNewTime>
    <ReplyToItem/>
    <ForwardItem/>
    <ReplyAllToItem/>
@@ -55,14 +56,15 @@ ms.locfileid: "44457436"
 |[AcceptItem](acceptitem.md) <br/> |表示接受答复会议要求。  <br/> |
 |[TentativelyAcceptItem](tentativelyacceptitem.md) <br/> |表示一个暂定答复会议要求。  <br/> |
 |[DeclineItem](declineitem.md) <br/> |表示谢绝答复会议要求。  <br/> |
+|[ProposeNewTime](proposenewtime.md) <br/> |指示与会者可以建议新的会议时间。 此元素是在 sp1 Microsoft Exchange Server 2013 Service Pack 1 (中) 。  <br/> |
 |[ReplyToItem](replytoitem.md) <br/> |包含对 Exchange 存储中的项的创建者的答复。  <br/> |
 |[ForwardItem](forwarditem.md) <br/> |包含要转发给收件人的 Exchange 存储区项。  <br/> |
 |[ReplyAllToItem](replyalltoitem.md) <br/> |包含对所有确定收件人的 Exchange 存储中的项的答复。  <br/> |
-|[CancelCalendarItem](cancelcalendaritem.md) <br/> |表示用于取消会议的响应对象。  <br/> |
+|[CancelCalendarItem](cancelcalendaritem.md) <br/> |代表用于取消会议的响应对象。  <br/> |
 |[RemoveItem](removeitem.md) <br/> |从 Exchange 存储中删除一个项目。  <br/> |
-|[PostReplyItem](postreplyitem.md) <br/> |包含对帖子项的答复。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。  <br/> |
-|[SuppressReadReceipt](suppressreadreceipt.md) <br/> |用于禁止阅读回执请求。  <br/> |
-|[AcceptSharingInvitation](acceptsharinginvitation.md) <br/> |用于接受允许访问其他用户的 "日历" 或 "联系人" 数据的邀请。  <br/> |
+|[PostReplyItem](postreplyitem.md) <br/> |包含对帖子项目的回复。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。  <br/> |
+|[SuppressReadReceipt](suppressreadreceipt.md) <br/> |用于禁止已读回执请求。  <br/> |
+|[AcceptSharingInvitation](acceptsharinginvitation.md) <br/> |用于接受允许访问其他用户的日历或联系人数据的邀请。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
