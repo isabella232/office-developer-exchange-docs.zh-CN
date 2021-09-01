@@ -8,19 +8,21 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 70c324d5-2196-406d-a674-73323f8d8b92
 description: ManagerMailbox元素包含标识联系人的经理的邮箱的 SMTP 信息。
-ms.openlocfilehash: da9e26c3efdd22000694839f5962a6bb0256f748
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: c30a343ad7071e92c826925407f8447ae6baccae
+ms.sourcegitcommit: 63e48eaf2891a6db1a718b55cd69e3a0433c4a9c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44453964"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "58851112"
 ---
 # <a name="managermailbox"></a>ManagerMailbox
 
-本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **ManagerMailbox**元素包含标识联系人的经理的邮箱的 SMTP 信息。 
+本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **ManagerMailbox** 元素包含标识联系人的经理的邮箱的 SMTP 信息。 
   
 ```XML
-<ManagerMailbox/>
+<ManagerMailbox>
+   <Mailbox/>
+</ManagerMailbox>
 ```
 
  **SingleRecipientType**
@@ -34,18 +36,16 @@ ms.locfileid: "44453964"
   
 ### <a name="child-elements"></a>子元素
 
-无。
+|**元素**|**说明**|
+|:-----|:-----|
+|[Mailbox](mailbox.md) <br/> |标识标识发件人的启用邮件的 Active Directory 对象。  <br/> |
   
 ### <a name="parent-elements"></a>父元素
 
 |**元素名**|**说明**|
 |:-----|:-----|
 |[联系人](contact.md) <br/> |表示对 Exchange 存储中的联系人项目。  <br/> |
-   
-## <a name="text-value"></a>文本值
 
-无。
-  
 ## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
