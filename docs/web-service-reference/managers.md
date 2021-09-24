@@ -1,23 +1,23 @@
 ---
-title: 能够
+title: Managers
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9be5f734-af42-4bf1-9eb4-f3e4f0917640
-description: 经理元素为角色指定管理器名称和其源归属的标识符的数组。
-ms.openlocfilehash: 49fccb4e6e4b920887d6f8fbc41c5ccdba1cbbe2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Managers 元素指定经理名称的数组及其来源属性的标识符。
+ms.openlocfilehash: a36b85ccefa7e13f9bdc482d5d613044532c7347
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530893"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524005"
 ---
-# <a name="managers"></a>能够
+# <a name="managers"></a>Managers
 
-**经理**元素为角色指定管理器名称和其源归属的标识符的数组。 
+**Managers** 元素指定经理名称的数组及其来源属性的标识符。 
   
 ```XML
 <Managers>
@@ -42,7 +42,7 @@ ms.locfileid: "44530893"
 
 [角色](persona.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

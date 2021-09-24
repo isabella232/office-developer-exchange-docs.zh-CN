@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - YearlyRegeneration
 api_type:
 - schema
 ms.assetid: 23538bca-738e-4319-944e-f459ff8a7eba
-description: YearlyRegeneration 元素描述任务重新生成的频率（以年为单位）。
-ms.openlocfilehash: 7a6796c433bc54d145d5a769e01f9bba46897735
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: YearlyRegeneration 元素描述任务重新生成的频率（以年表示）。
+ms.openlocfilehash: f38460eab5ff53a033d99835f23a128e9dc00d19
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457877"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522381"
 ---
 # <a name="yearlyregeneration"></a>YearlyRegeneration
 
-**YearlyRegeneration**元素描述任务重新生成的频率（以年为单位）。 
+**YearlyRegeneration** 元素描述任务重新生成的频率（以年表示）。 
   
 ```xml
 <YearlyRegeneratingPatternType>
@@ -43,13 +43,13 @@ ms.locfileid: "44457877"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Interval](interval.md) <br/> |定义在任务完成后重新生成新任务的间隔（以年为单位）。  <br/> |
+|[Interval](interval.md) <br/> |定义在任务完成后重新生成新任务的时间间隔（以年为单位）。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[重复周期（TaskRecurrenceType）](recurrence-taskrecurrencetype.md) <br/> |包含定期任务的定期信息。  <br/> |
+|[Recurrence (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |包含定期任务的定期信息。  <br/> |
    
 ## <a name="remarks"></a>说明
 

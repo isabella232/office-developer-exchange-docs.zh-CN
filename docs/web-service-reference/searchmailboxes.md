@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5d8c367a-67e9-43b3-8be0-6362d2152431
-description: SearchMailboxes 元素指示 SearchMailboxes 请求的开头。
-ms.openlocfilehash: 7ccc94157ef6bde7b6ba86e70c16ef6e90d712fa
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SearchMailboxes 元素指示 SearchMailboxes 请求的开始。
+ms.openlocfilehash: 3c734e49869a17fa58252668ddae606d702f3047
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456799"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521591"
 ---
 # <a name="searchmailboxes"></a>SearchMailboxes
 
-**SearchMailboxes**元素指示**SearchMailboxes**请求的开头。 
+**SearchMailboxes** 元素指示 **SearchMailboxes** 请求的开始。 
   
 ```XML
 <SearchMailboxes>
@@ -44,13 +44,13 @@ ms.locfileid: "44456799"
   
 ### <a name="child-elements"></a>子元素
 
-[SearchQueries](searchqueries.md)  | [ResultType](resulttype.md)  | [PreviewItemResponseShape](previewitemresponseshape.md)  | [SortBy](sortby.md)  | [语言](language.md)  | [删除](deduplication.md)  | [PageSize](pagesize.md)  | [PageItemReference](pageitemreference.md)  | [PageDirection](pagedirection.md)
+[SearchQueries](searchqueries.md)  | [ResultType](resulttype.md)  | [PreviewItemResponseShape](previewitemresponseshape.md)  | [SortBy](sortby.md)  | [语言](language.md)  | [重复数据删除](deduplication.md)  | [PageSize](pagesize.md)  | [PageItemReference](pageitemreference.md)  | [PageDirection](pagedirection.md)
   
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

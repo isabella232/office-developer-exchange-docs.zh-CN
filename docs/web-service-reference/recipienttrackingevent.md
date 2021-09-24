@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - RecipientTrackingEvent
 api_type:
 - schema
 ms.assetid: 2bffdac7-c2f5-4805-ae7e-bd865301acb6
 description: RecipientTrackingEvent 元素包含收件人的单个事件的信息。
-ms.openlocfilehash: e9a014cdfac122f112205cfa5032535a770f9d82
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 30d9cd4ca075fda9607b191f576cac1b7a529988
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465483"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525761"
 ---
 # <a name="recipienttrackingevent"></a>RecipientTrackingEvent
 
-**RecipientTrackingEvent**元素包含收件人的单个事件的信息。 
+**RecipientTrackingEvent** 元素包含收件人的单个事件的信息。 
   
 ```XML
 <RecipientTrackingEvent>
@@ -53,18 +53,18 @@ ms.locfileid: "44465483"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Date （MessageTracking）](date-messagetracking.md) <br/> |此元素是必需的。  <br/> |
+|[Date (MessageTracking)](date-messagetracking.md) <br/> |此元素是必需的。  <br/> |
 |[收件人](recipient.md) <br/> |此元素是必需的。  <br/> |
 |[DeliveryStatus](deliverystatus.md) <br/> |此元素是必需的。  <br/> |
 |[EventDescription](eventdescription.md) <br/> |此元素是必需的。  <br/> |
 |[EventData](eventdata.md) <br/> |此元素为可选。  <br/> |
-|[服务器（MessageTracking）](server-messagetracking.md) <br/> |此元素是必需的。  <br/> |
+|[Server (MessageTracking)](server-messagetracking.md) <br/> |此元素是必需的。  <br/> |
 |[InternalId](internalid.md) <br/> |此元素是必需的。  <br/> |
 |[BccRecipient](bccrecipient.md) <br/> |此元素为可选。  <br/> |
 |[HiddenRecipient](hiddenrecipient.md) <br/> |此元素为可选。  <br/> |
 |[UniquePathId](uniquepathid.md) <br/> |此元素为可选。  <br/> |
 |[RootAddress](rootaddress.md) <br/> |此元素为可选。  <br/> |
-|[Properties （ArrayOfTrackingPropertiesType）](properties-arrayoftrackingpropertiestype.md) <br/> |此元素为可选。  <br/> |
+|[Properties (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md) <br/> |此元素为可选。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -76,7 +76,7 @@ ms.locfileid: "44465483"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

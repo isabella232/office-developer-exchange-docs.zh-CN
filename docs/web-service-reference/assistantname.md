@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AssistantName
 api_type:
 - schema
 ms.assetid: bc7ae5e5-7d76-4ea9-a372-868dc7545774
 description: AssitantName 元素表示联系人的助理。
-ms.openlocfilehash: 5d83e7ab8e51fd0c2cf895733c26b46dcb393761
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: ca334378a4e16293115a4fe783a1ee76babe3154
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461546"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525167"
 ---
 # <a name="assistantname"></a>AssistantName
 
-**AssitantName**元素表示联系人的助理。 
+**AssitantName** 元素表示联系人的助理。 
   
 ```xml
 <AssistantName/>
@@ -48,7 +48,7 @@ ms.locfileid: "44461546"
    
 ## <a name="text-value"></a>文本值
 
-如果使用此元素，则需要一个表示字符串的文本值。
+如果使用此元素，则代表字符串的文本值是必需的。
   
 ## <a name="remarks"></a>说明
 

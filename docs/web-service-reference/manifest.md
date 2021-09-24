@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: af0d7435-fef6-4f0d-bd22-00e3fa576315
-description: 清单元素包含 base64 编码的应用程序清单文件。
-ms.openlocfilehash: faac517bf8a8f03c6ae8abffddaf10421eed1699
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Manifest 元素包含 base64 编码的应用清单文件。
+ms.openlocfilehash: 418191c47af0422c2d555b577dd804e02f0e38ce
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530535"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524761"
 ---
 # <a name="manifest"></a>清单
 
-**清单**元素包含 base64 编码的应用程序清单文件。 
+Manifest 元素包含 base64 编码的应用清单文件。 
   
 ```XML
 <Manifest></Manifest>
@@ -42,9 +42,9 @@ ms.locfileid: "44530535"
   
 ## <a name="text-value"></a>文本值
 
-Manifest 元素的文本值是客户端应用程序清单文件的 base64 二进制编码形式的 ASCII 表示形式。
+Manifest 元素的文本值是客户端应用清单文件的 base64 二进制编码形式的 ASCII 表示形式。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

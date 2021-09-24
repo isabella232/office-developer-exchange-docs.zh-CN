@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ddb62dce-c87a-4714-8023-a6b697a29699
-description: SearchDumpster 元素指定是否在 Exchange 转储程序中进行搜索。
-ms.openlocfilehash: 067bf8ea3e589aa392c6b8ba6d4dc10b430c1f28
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SearchDumpster 元素指定是否在垃圾站中Exchange搜索。
+ms.openlocfilehash: 4d8f05393691e38e3a4154e955d03c8591064a1a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460489"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521688"
 ---
 # <a name="searchdumpster"></a>SearchDumpster
 
-**SearchDumpster**元素指定是否在 Exchange 转储程序中进行搜索。 
+**SearchDumpster** 元素指定是否在垃圾站中Exchange搜索。 
   
 ```XML
 <SearchDumpster> true | false </SearchDumpster>
@@ -42,9 +42,9 @@ ms.locfileid: "44460489"
   
 ## <a name="text-value"></a>文本值
 
-如果**SearchDumpster**元素的文本值为**true** ，则表示邮箱统计信息搜索包括 Exchange 转储程序。 **如果值为 false** ，则表示不搜索 Exchange 转储程序。 
+**SearchDumpster** 元素的文本值 **true** 指示邮箱统计信息搜索包括 Exchange Dumpster。 false **值表示** 不Exchange垃圾站。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

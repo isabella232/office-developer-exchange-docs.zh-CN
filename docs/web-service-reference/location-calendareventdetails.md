@@ -1,27 +1,27 @@
 ---
-title: Location （CalendarEventDetails）
+title: Location (CalendarEventDetails)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Location
 api_type:
 - schema
 ms.assetid: 883cce6e-66b8-4dbc-935c-83ef5100a953
 description: Location 元素表示日历项目的位置字段。
-ms.openlocfilehash: 4a590c315d2211ce9128305a514e68f1c785596c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 7264d086b295b442b51376ac0a4e2b1b03521249
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467996"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524901"
 ---
-# <a name="location-calendareventdetails"></a>Location （CalendarEventDetails）
+# <a name="location-calendareventdetails"></a>Location (CalendarEventDetails)
 
-**Location**元素表示日历项目的位置字段。 
+**Location** 元素表示日历项目的位置字段。 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -37,7 +37,7 @@ ms.locfileid: "44467996"
   
 [CalendarEventDetails](calendareventdetails.md)
   
-[Location （CalendarEventDetails）](location-calendareventdetails.md)
+[Location (CalendarEventDetails)](location-calendareventdetails.md)
   
 ```xml
 <Location/>
@@ -64,11 +64,11 @@ ms.locfileid: "44467996"
    
 ## <a name="text-value"></a>文本值
 
-如果在响应中返回此元素，则需要一个 text 值。 此元素可以包含空字符串。 如果使用[CalendarEventDetails](calendareventdetails.md)元素，则此元素是可选的。 
+如果在响应中返回此元素，则文本值是必需的。 此元素可以包含空字符串。 如果使用 [CalendarEventDetails](calendareventdetails.md) 元素，则此元素是可选的。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-此元素映射到 PR_Location MAPI 命名属性。
+此元素映射到 MAPI PR_Location属性。
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

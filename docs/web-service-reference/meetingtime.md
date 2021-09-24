@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MeetingTime
 api_type:
 - schema
 ms.assetid: 6e6d2d8b-e8a2-43e6-a715-0fc7d6dd44b9
 description: MeetingTime 元素表示建议的会议时间。
-ms.openlocfilehash: 3a7031e70eb8b22adc8030c1cec09d33399332ee
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: efe74951bcefe665790e7efdb49feb94e93aa733
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530448"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523949"
 ---
 # <a name="meetingtime"></a>MeetingTime
 
-**MeetingTime**元素表示建议的会议时间。 
+**MeetingTime** 元素表示建议的会议时间。 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -62,11 +62,11 @@ ms.locfileid: "44530448"
    
 ## <a name="text-value"></a>文本值
 
-需要一个代表**dateTime**值的文本值。 
+需要一个代表 **dateTime 值** 的文本值。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-[MeetingTime](meetingtime.md)元素是[建议](suggestion.md)元素的必需子元素。 
+[MeetingTime](meetingtime.md)元素是 Suggestion 元素的必需[子](suggestion.md)元素。 
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

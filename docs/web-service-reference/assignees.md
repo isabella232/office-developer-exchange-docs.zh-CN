@@ -1,23 +1,23 @@
 ---
-title: 代理人
+title: Assignees
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 20ef18c2-daa0-4f65-a515-e84e9993a77f
-description: "\"代理人\" 元素指定向其分配任务的人员。"
-ms.openlocfilehash: 3e98273e859dbe2128b0ad3b4df42c8016fd3bc5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Assignees 元素指定任务分配到的人。
+ms.openlocfilehash: 1b5368dbe478e51a23f1f0761635e017b935911d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464712"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525188"
 ---
-# <a name="assignees"></a>代理人
+# <a name="assignees"></a>Assignees
 
-"**代理人**" 元素指定向其分配任务的人员。 
+**Assignees** 元素指定任务分配到的人。 
   
 ```XML
 <Assignees>
@@ -39,8 +39,8 @@ ms.locfileid: "44464712"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[名称（EmailAddress）](name-emailaddress.md) <br/> |表示邮箱用户的显示名称。  <br/> |
-|[UserId （string）](userid-string.md) <br/> |指定电子邮件用户的用户标识符。  <br/> |
+|[Name (EmailAddress)](name-emailaddress.md) <br/> |表示显示名称的用户的邮箱。  <br/> |
+|[UserId (string)](userid-string.md) <br/> |指定电子邮件用户的用户标识符。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -48,7 +48,7 @@ ms.locfileid: "44464712"
 |:-----|:-----|
 |[TaskSuggestion](tasksuggestion.md) <br/> |指定建议的任务。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -60,7 +60,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

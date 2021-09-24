@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - NotSentToMe
 api_type:
 - schema
 ms.assetid: 7cb63269-622c-4198-9a21-f5a021bf6901
-description: NotSentToMe 元素指示邮箱的所有者是否必须不在传入邮件的 ToRecipients 属性中，以便条件或例外情况适用。
-ms.openlocfilehash: 58efe4381fe0c9f5bd0645a9eba471a13b5e4064
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: NotSentToMe 元素指示邮箱的所有者是否不得在传入邮件的 ToRecipients 属性中，以便条件或例外情况适用。
+ms.openlocfilehash: f3c2994778298c1c8a27626fb0d4b32d6d2963cb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462610"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518104"
 ---
 # <a name="notsenttome"></a>NotSentToMe
 
-**NotSentToMe**元素指示邮箱的所有者是否必须不在传入邮件的**ToRecipients**属性中，以便条件或例外情况适用。 
+**NotSentToMe** 元素指示邮箱的所有者是否不得在传入邮件的 **ToRecipients** 属性中，以便条件或例外情况适用。 
   
 ```xml
 <NotSentToMe>true | false</NotSentToMe>
@@ -49,7 +49,7 @@ ms.locfileid: "44462610"
    
 ## <a name="text-value"></a>文本值
 
-如果文本值为**true** ，则表示邮箱的所有者不得在传入邮件的**ToRecipients**属性中，以便条件或例外情况适用。 如果值为**false** ，则表示邮箱的所有者必须位于传入邮件的**ToRecipients**属性中，以便条件或例外情况适用。 
+如果文本值为 **true，** 则表明邮箱所有者不得在传入邮件的 **ToRecipients** 属性中，以便条件或例外适用。 false **值指示** 邮箱所有者必须在传入邮件的 **ToRecipients** 属性中，以便条件或例外情况适用。 
   
 ## <a name="remarks"></a>说明
 

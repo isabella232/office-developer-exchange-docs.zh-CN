@@ -5,40 +5,40 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - RemoveDelegate
 api_type:
 - schema
 ms.assetid: 1d42d5ff-8fde-4f8a-b18d-57b1ef7a946a
-description: RemoveDelegate 操作将从用户的邮箱中删除一个或多个代理。
-ms.openlocfilehash: b2e342225e7e79c44dcd86b76b4b7d47b16b860b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: RemoveDelegate 操作从用户邮箱中删除一个或多个代理。
+ms.openlocfilehash: 1e18b1122ac24e0463fc487a2a3e51fb44aab54b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466596"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517978"
 ---
 # <a name="removedelegate-operation"></a>RemoveDelegate 操作
 
-**RemoveDelegate**操作将从用户的邮箱中删除一个或多个代理。 
+**RemoveDelegate** 操作从用户邮箱中删除一个或多个代理。 
   
 ## <a name="soap-headers"></a>SOAP 标头
 
-**RemoveDelegate**操作可以使用下表中列出和描述的 SOAP 标头。 
+**RemoveDelegate** 操作可以使用下表中列出和描述的 SOAP 标头。 
   
 |**Header**|**元素**|**说明**|
 |:-----|:-----|:-----|
-|模拟  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |标识客户端应用程序模拟的用户。  <br/> |
-|MailboxCulture  <br/> |[MailboxCulture](mailboxculture.md) <br/> |标识要用于访问邮箱的 RFC3066 区域性。  <br/> |
+|模拟  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |标识客户端应用程序正在模拟的用户。  <br/> |
+|MailboxCulture  <br/> |[MailboxCulture](mailboxculture.md) <br/> |标识用于访问邮箱的 RFC3066 区域性。  <br/> |
 |RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。  <br/> |
-|ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器版本。  <br/> |
+|ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器的版本。  <br/> |
    
 ## <a name="removedelegate-request-example"></a>RemoveDelegate 请求示例
 
 ### <a name="description"></a>Description
 
-下面的代码示例演示如何从 user1's 邮箱中删除两个代理。 在此示例中，将使用代理的主 SMTP 地址删除一个委派，并使用代理的安全标识符（SID）删除另一个委派。
+以下代码示例演示如何从 user1 的邮箱中删除两个代理。 本示例使用委派的主 SMTP 地址删除一个代理，使用 SID 地址删除另一 (一个) 。
   
 ### <a name="code"></a>代码
 
@@ -70,13 +70,13 @@ ms.locfileid: "44466596"
 
 ### <a name="comments"></a>备注
 
-**RemoveDelegate**操作不要求指定的代理用户拥有邮箱或存在于 Active Directory 目录服务中。 如果委派条目是孤立的， **RemoveDelegate**操作将会成功。 
+**RemoveDelegate** 操作不需要指定的委派用户拥有邮箱或存在于 Active Directory 目录服务中。 如果 **委派条目是孤立项，RemoveDelegate** 操作将成功。 
   
 ## <a name="removedelegate-response-example"></a>RemoveDelegate 响应示例
 
 ### <a name="description"></a>Description
 
-下面的**RemoveDelegate**响应示例显示了对**RemoveDelegate**请求的成功响应。 响应包含从邮箱中删除的每个代理的**DelegateUserResponseMessageType**元素。 
+以下 **RemoveDelegate** 响应示例显示 **对 RemoveDelegate** 请求的成功响应。 该响应包含从邮箱中删除的每个代理的 **DelegateUserResponseMessageType** 元素。 
   
 ### <a name="code"></a>代码
 
@@ -115,7 +115,7 @@ ms.locfileid: "44466596"
 
 ### <a name="description"></a>Description
 
-下面的**RemoveDelegate**错误响应示例显示请求删除不存在的代理的结果。 
+以下 **RemoveDelegate 错误** 响应示例显示删除不存在的委托的请求的结果。 
   
 ### <a name="code"></a>代码
 

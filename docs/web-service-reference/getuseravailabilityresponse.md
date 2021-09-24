@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetUserAvailabilityResponse
 api_type:
 - schema
 ms.assetid: 6999510a-d60e-43da-8964-57b5fb3e9d11
-description: GetUserAvailabilityResponse 元素是根元素，其中包含用于定义用户可用性信息或建议的会议时间信息的属性。
-ms.openlocfilehash: ceb24bc8b31a7d7313add213c26bef5efd3c89ae
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetUserAvailabilityResponse 元素是根元素，其中包含定义用户可用性信息或建议的会议时间信息的属性。
+ms.openlocfilehash: 16a6f79f6ccc930e3847867a560bc042657f12a3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458213"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521905"
 ---
 # <a name="getuseravailabilityresponse"></a>GetUserAvailabilityResponse
 
-**GetUserAvailabilityResponse**元素是根元素，其中包含用于定义用户可用性信息或建议的会议时间信息的属性。 
+**GetUserAvailabilityResponse** 元素是根元素，其中包含定义用户可用性信息或建议的会议时间信息的属性。 
   
 ```xml
 <GetUserAvailabilityResponse>
@@ -50,13 +50,13 @@ ms.locfileid: "44458213"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
 ## <a name="example"></a>示例
 
-以下示例的 GetUserAvailability 响应显示对 GetUserAvailability 请求的响应。
+GetUserAvailability 响应的以下示例显示对 GetUserAvailability 请求的响应。
   
 ```
 <?xml version="1.0" encoding="utf-8" ?>
@@ -118,7 +118,7 @@ ms.locfileid: "44458213"
 </GetUserAvailabilityResponse>
 ```
 
-[ID](id.md)元素内容被缩短以保持可读性。 
+[ID](id.md)元素内容已缩短，以保持可读性。 
   
 ## <a name="element-information"></a>元素信息
 

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b8769d30-045a-4fa7-814d-d00702f0c258
 description: ParentInternetMessageId 元素指定对话中父邮件的 Internet 邮件标识符。
-ms.openlocfilehash: c53bc8c74f2b352d12880c885ebbe626693a54d2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 7c75f4f688984da58aeeea8bf6b3ece4af342f75
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529971"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521703"
 ---
 # <a name="parentinternetmessageid"></a>ParentInternetMessageId
 
-**ParentInternetMessageId**元素指定对话中父邮件的 Internet 邮件标识符。 
+**ParentInternetMessageId** 元素指定对话中父邮件的 Internet 邮件标识符。 
   
 ```XML
 <ParentInternetMessageId></ParentInternetMessageId>
@@ -43,9 +43,9 @@ ms.locfileid: "44529971"
   
 ## <a name="text-value"></a>文本值
 
-**ParentInternetMessageId**元素的文本值是对话中父邮件的 Internet 邮件标识符。 
+**ParentInternetMessageId** 元素的文本值是对话中父邮件的 Internet 邮件标识符。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

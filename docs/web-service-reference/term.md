@@ -1,23 +1,23 @@
 ---
-title: 术语
+title: Term
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1a796535-7e83-4aa8-850a-d217059050f8
 description: Term 元素指定 FindConversation 或 FindItem 响应中突出显示的术语。
-ms.openlocfilehash: fb102e21d6e7866110735cacd60cd2c3c68a9675
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 12aba499ebfcad392a4e72b29a8cb3522a4f964f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459488"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522535"
 ---
-# <a name="term"></a>术语
+# <a name="term"></a>Term
 
-**Term**元素指定**FindConversation**或**FindItem**响应中突出显示的术语。 
+**Term** 元素指定 **FindConversation** 或 **FindItem** 响应中突出显示的术语。 
   
 ```XML
 <Term>
@@ -37,13 +37,13 @@ ms.locfileid: "44459488"
   
 ### <a name="child-elements"></a>子元素
 
-[范围（HighlightTermType）](scope-highlighttermtype.md)  | [值](value.md)
+[Scope (HighlightTermType) ](scope-highlighttermtype.md)  | [值](value.md)
   
 ### <a name="parent-elements"></a>父元素
 
 [HighlightTerms](highlightterms.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

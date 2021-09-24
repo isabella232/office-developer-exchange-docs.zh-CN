@@ -1,23 +1,23 @@
 ---
-title: ActionType （ReminderActionType）
+title: ActionType (ReminderActionType)
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0ffcdcf4-8ea3-483c-bb7f-0cd84126120c
-description: ActionType 元素指定要对提醒执行的操作。
-ms.openlocfilehash: 5c62b2dd945b23a5ff2bb824385c45dbc617a5a5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ActionType 元素指定对提醒要执行的操作。
+ms.openlocfilehash: d78725c75ad13a71d69d7749f0a71cd99d606929
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465056"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522255"
 ---
-# <a name="actiontype-reminderactiontype"></a>ActionType （ReminderActionType）
+# <a name="actiontype-reminderactiontype"></a>ActionType (ReminderActionType)
 
-**ActionType**元素指定要对提醒执行的操作。 
+**ActionType** 元素指定对提醒要执行的操作。 
   
 ```XML
 <ActionType> Dismiss | Snooze </ActionType>
@@ -42,9 +42,9 @@ ms.locfileid: "44465056"
   
 ## <a name="text-value"></a>文本值
 
-**ActionType**元素的文本值指定要对提醒执行的操作。 "**取消**" 文本值表示应消除提醒。 "**推迟**" 的文本值表示提醒应延迟到[NewReminderTime](newremindertime.md)元素指定的时间。 
+**ActionType** 元素的文本值指定对提醒要执行的操作。 Dismiss **的文本值指示** 应消除提醒。 **Snooze 的文本** 值指示提醒应延迟到 [NewReminderTime](newremindertime.md)元素指定的时间。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

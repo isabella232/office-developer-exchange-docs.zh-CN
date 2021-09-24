@@ -1,24 +1,24 @@
 ---
-title: AuthenticationMethods （SOAP）
+title: AuthenticationMethods (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: ae97c802-f6ef-46da-b774-ca0a5feb664f
 description: AuthenticationMethods 元素描述可用于 Web 客户端的身份验证方法。
-ms.openlocfilehash: 5891cd53c306a0a3927579813f8095e4c67ab74d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: aa7181c876c81f5f5e9564bec0bf46b093b02910
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463970"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524357"
 ---
-# <a name="authenticationmethods-soap"></a>AuthenticationMethods （SOAP）
+# <a name="authenticationmethods-soap"></a>AuthenticationMethods (SOAP)
 
-**AuthenticationMethods**元素描述可用于 Web 客户端的身份验证方法。 
+**AuthenticationMethods** 元素描述可用于 Web 客户端的身份验证方法。 
   
 ```XML
 <AuthenticationMethods/>
@@ -41,11 +41,11 @@ ms.locfileid: "44463970"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[WebClientUrl （SOAP）](webclienturl-soap.md) <br/> |表示 Outlook Web App 客户端的 URL。  <br/> |
+|[WebClientUrl (SOAP)](webclienturl-soap.md) <br/> |表示客户端Outlook Web App URL。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**AuthenticationMethods**元素的文本值是 Outlook Web App 客户端的 URL。 
+**AuthenticationMethods 元素** 的文本值是客户端Outlook Web App URL。 
   
 ## <a name="element-information"></a>元素信息
 

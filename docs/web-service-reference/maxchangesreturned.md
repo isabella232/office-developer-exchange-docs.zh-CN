@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MaxChangesReturned
 api_type:
 - schema
 ms.assetid: f471db84-a666-4dfa-9993-8ca9113a0384
 description: MaxChangesReturned 元素描述同步响应中可返回的最大更改数。
-ms.openlocfilehash: caf96b6e95f2e63d0e544ead26fbea18cd637861
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 8169e1a87ed22b68e5115cd7eaaa1084e44e8f33
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460083"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523929"
 ---
 # <a name="maxchangesreturned"></a>MaxChangesReturned
 
-**MaxChangesReturned**元素描述同步响应中可返回的最大更改数。 
+**MaxChangesReturned** 元素描述同步响应中可返回的最大更改数。 
   
 [SyncFolderItems](syncfolderitems.md)
   
@@ -48,11 +48,11 @@ ms.locfileid: "44460083"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[SyncFolderItems](syncfolderitems.md) <br/> |定义对 Exchange 存储文件夹中的项目进行同步的请求。  <br/> |
+|[SyncFolderItems](syncfolderitems.md) <br/> |定义同步邮件存储文件夹中Exchange的请求。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-该文本值表示一个整数，该整数描述在单个同步调用中返回的最大项目数。 该值必须介于1和512之间（含这两个值）。
+文本值表示一个整数，该整数描述单个同步调用中返回的最大项目数。 该值必须介于 1 和 512 之间（包含两者）。
   
 ## <a name="remarks"></a>说明
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ServerReplyWithMessage
 api_type:
 - schema
 ms.assetid: 113c6ff2-9592-44f0-b542-54e4d5122ccb
-description: ServerReplyWithMessage 元素指示要发送为对传入邮件的答复的模板邮件的 ID。
-ms.openlocfilehash: faaa054018a17be3ff59b9fc385b3d846d39c3f1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ServerReplyWithMessage 元素指示要作为传入邮件回复发送的模板邮件的 ID。
+ms.openlocfilehash: a6d207af4c58f9531cc52312111f3a2a53f450a6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461973"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521453"
 ---
 # <a name="serverreplywithmessage"></a>ServerReplyWithMessage
 
-**ServerReplyWithMessage**元素指示要发送为对传入邮件的答复的模板邮件的 ID。 
+**ServerReplyWithMessage** 元素指示要作为传入邮件回复发送的模板邮件的 ID。 
   
 ```XML
 <ServerReplyWithMessage>
@@ -42,7 +42,7 @@ ms.locfileid: "44461973"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ItemId](itemid.md) <br/> |表示 Exchange 存储中项的唯一标识符和更改键。  <br/> |
+|[ItemId](itemid.md) <br/> |表示 Exchange 存储中项目的唯一标识符和更改键。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -54,7 +54,7 @@ ms.locfileid: "44461973"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

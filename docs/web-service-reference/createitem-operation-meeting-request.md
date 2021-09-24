@@ -5,33 +5,33 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateItem
 api_type:
 - schema
 ms.assetid: fe136881-a804-456a-8552-8a1bea5eb9c8
 description: CreateItem 操作用于响应会议请求。
-ms.openlocfilehash: f9e6bd1742e6a30d08736ea67c0ff80b7a18e88a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: de845271bc47f08e60a1b4943a00551a42056388
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457107"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524369"
 ---
 # <a name="createitem-operation-meeting-request"></a>CreateItem 操作（会议请求）
 
 CreateItem 操作用于响应会议请求。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-CreateItem 操作提供了三个用于响应会议请求的选项： "接受"、"暂定接受" 或 "拒绝"。 
+CreateItem 操作提供了三种响应会议请求的选项：接受、暂时接受或拒绝。 
   
 ## <a name="accept-meeting-request-example"></a>接受会议请求示例
 
 ### <a name="description"></a>Description
 
-下面的示例展示了如何接受会议请求邀请。
+以下示例演示如何接受会议请求邀请。
   
 ### <a name="code"></a>代码
 
@@ -55,27 +55,27 @@ CreateItem 操作提供了三个用于响应会议请求的选项： "接受"、
 
 ### <a name="comments"></a>备注
 
-若要暂时接受或拒绝会议请求，请使用[TentativelyAcceptItem](tentativelyacceptitem.md)或[DeclineItem](declineitem.md)元素代替[AcceptItem](acceptitem.md)元素。 
+若要暂时接受或拒绝会议请求，请使用 [TentativelyAcceptItem](tentativelyacceptitem.md) 或 [DeclineItem](declineitem.md) 元素来表示 [AcceptItem](acceptitem.md) 元素。 
   
-项目标识符和更改密钥已缩短，以保持可读性。
+已缩短项目标识符和更改键以保持可读性。
   
 ### <a name="accepting-meeting-request-elements"></a>接受会议请求元素
 
-请求中使用以下元素：
+请求中会使用下列元素：
   
 - [CreateItem](createitem.md)
     
-- [项目（NonEmptyArrayOfAllItemsType）](items-nonemptyarrayofallitemstype.md)
+- [Items (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)
     
 - [AcceptItem](acceptitem.md)
     
 - [ReferenceItemId](referenceitemid.md)
     
-## <a name="successful-accept-meeting-response-example"></a>成功的接受会议响应示例
+## <a name="successful-accept-meeting-response-example"></a>成功接受会议响应示例
 
 ### <a name="description"></a>Description
 
-下面的示例演示对 CreateItem 请求的成功响应。
+以下示例显示了对 CreateItem 请求的成功响应。
   
 ### <a name="code"></a>代码
 
@@ -105,7 +105,7 @@ CreateItem 操作提供了三个用于响应会议请求的选项： "接受"、
 
 ### <a name="successful-response-elements"></a>成功的响应元素
 
-响应中使用以下元素：
+响应中会使用下列元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -123,7 +123,7 @@ CreateItem 操作提供了三个用于响应会议请求的选项： "接受"、
 
 ### <a name="description"></a>Description
 
-下面的示例演示对 CreateItem 请求的错误响应。 此错误是由于尝试接受在 Exchange 存储中找不到的会议请求而引起的。
+以下示例显示对 CreateItem 请求的错误响应。 此错误由尝试接受在活动存储中找不到的会议Exchange导致。
   
 ### <a name="code"></a>代码
 
@@ -155,7 +155,7 @@ CreateItem 操作提供了三个用于响应会议请求的选项： "接受"、
 
 ### <a name="error-response-elements"></a>错误响应元素
 
-错误响应中使用以下元素：
+错误响应中会使用下列元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     

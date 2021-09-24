@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - WithinSizeRange
 api_type:
 - schema
 ms.assetid: 6f98650e-3399-4f87-9b7f-40bf20cdb821
-description: WithinSizeRange 元素指定传入邮件必须满足的最小和最大大小，以便条件或例外情况适用。
-ms.openlocfilehash: 31da5815b70e20c47594da89b0b7ccab87eaf8f3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: WithinSizeRange 元素指定传入邮件必须达到的最小和最大大小，以便条件或例外情况适用。
+ms.openlocfilehash: c9bc0e30171e826468e59f3ea1b6f087d8decc4a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459740"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521226"
 ---
 # <a name="withinsizerange"></a>WithinSizeRange
 
-**WithinSizeRange**元素指定传入邮件必须满足的最小和最大大小，以便条件或例外情况适用。 
+**WithinSizeRange** 元素指定传入邮件必须达到的最小和最大大小，以便条件或例外情况适用。 
   
 ```XML
 <WithinSizeRange>
@@ -43,21 +43,21 @@ ms.locfileid: "44459740"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[MinimumSize](minimumsize.md) <br/> |指定当条件或例外情况适用时，邮件必须满足的最小大小。  <br/> |
-|[MaximumSize](maximumsize.md) <br/> |指定要应用的条件或例外的邮件必须满足的最大大小。  <br/> |
+|[MinimumSize](minimumsize.md) <br/> |指定邮件必须达到的最小大小，以便条件或例外情况适用。  <br/> |
+|[MaximumSize](maximumsize.md) <br/> |指定邮件必须达到的最大大小，以便条件或例外情况适用。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
 |[条件](conditions.md) <br/> |表示履行时将触发规则的规则操作的条件。  <br/> |
-|[异常](exceptions.md) <br/> |代表收件箱规则的所有可用的规则例外条件。  <br/> |
+|[异常](exceptions.md) <br/> |代表收件箱规则的所有可用规则例外条件。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

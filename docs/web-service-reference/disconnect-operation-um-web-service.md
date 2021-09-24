@@ -1,32 +1,32 @@
 ---
-title: 断开连接操作（UM web 服务）
+title: Disconnect 操作（UM Web 服务）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Disconnect
 api_type:
 - schema
 ms.assetid: a987000b-d6e6-49d7-944c-e9c278d0236f
-description: 断开连接操作将终止由指定的 CallId （UM web 服务）标识的呼叫。
-ms.openlocfilehash: a1268f9ea3d879f472e019bf1847fc13d65d1819
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Disconnect 操作将终止由 UM Web 服务应用程序指定的 CallId (标识的) 。
+ms.openlocfilehash: 42e069233fbfc255d43983571c0bb28475a1fe90
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529068"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522010"
 ---
-# <a name="disconnect-operation-um-web-service"></a>断开连接操作（UM web 服务）
+# <a name="disconnect-operation-um-web-service"></a>Disconnect 操作（UM Web 服务）
 
-断开连接操作将终止由指定的[CallId （UM web 服务）](callid-um-web-service.md)标识的呼叫。
+Disconnect 操作终止由 UM Web 服务指定的[CallId (标识的) 。 ](callid-um-web-service.md)
   
 ## <a name="disconnect-request-example"></a>断开连接请求示例
 
 ### <a name="description"></a>Description
 
-下面的一个断开请求示例演示如何形成一个请求以断开呼叫。
+以下示例的 Disconnect 请求显示如何形成断开呼叫连接的请求。
   
 ### <a name="code"></a>代码
 
@@ -41,11 +41,11 @@ ms.locfileid: "44529068"
 </soap:Envelope>
 ```
 
-## <a name="successful-disconnect-response-example"></a>成功的断开连接响应示例
+## <a name="successful-disconnect-response-example"></a>成功断开连接响应示例
 
 ### <a name="description"></a>Description
 
-以下示例中的 "断开连接" 响应显示对断开连接请求的响应。
+以下示例的 Disconnect 响应显示对 Disconnect 请求的响应。
   
 ### <a name="code"></a>代码
 
@@ -60,7 +60,7 @@ ms.locfileid: "44529068"
 
 ## <a name="see-also"></a>另请参阅
 
-- [断开连接（UM web 服务）](disconnect-um-web-service.md) 
-- [DisconnectResponse （UM web 服务）](disconnectresponse-um-web-service.md) 
-- [CallId （UM web 服务）](callid-um-web-service.md)
+- [Disconnect（UM Web 服务）](disconnect-um-web-service.md) 
+- [DisconnectResponse（UM Web 服务）](disconnectresponse-um-web-service.md) 
+- [CallId（UM Web 服务）](callid-um-web-service.md)
 

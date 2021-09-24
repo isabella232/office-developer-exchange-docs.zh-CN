@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SecurityIdentifier
 api_type:
 - schema
 ms.assetid: f7656729-f2c9-41cc-b1ec-60f480fc4dab
-description: SecurityIdentifier 元素表示安全标识符（SID）的安全描述符定义语言（SDDL）形式。
-ms.openlocfilehash: c55e4a7f7f0b8f8a40e6fcaf8d18e253a6da2679
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SecurityIdentifier 元素表示安全描述符定义语言 (SDDL) SID (形式) 。
+ms.openlocfilehash: 803c8c0efae1ccd6356d9ce3b5aa85e1d86aa565
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468801"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521594"
 ---
 # <a name="securityidentifier"></a>SecurityIdentifier
 
-**SecurityIdentifier**元素表示安全标识符（ [SID](sid.md)）的安全描述符定义语言（SDDL）形式。
+**SecurityIdentifier** 元素表示安全描述符定义语言 (SDDL) SID ([形式的 SDDL](sid.md)) 。
   
 ```xml
 <SecurityIdentifier/>
@@ -44,12 +44,12 @@ ms.locfileid: "44468801"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GroupIdentifier](groupidentifier.md) <br/> |代表帐户所属的 Active Directory 对象组的单个安全标识符和属性。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/SerializedSecurityContext/GroupSids/GroupIdentifier[i]` <br/> |
-|[RestrictedGroupIdentifier](restrictedgroupidentifier.md) <br/> |代表用户令牌中的受限制组的组安全标识符和属性。  <br/> |
+|[GroupIdentifier](groupidentifier.md) <br/> |表示帐户是其中一个成员的 Active Directory 对象组的单个安全标识符和属性。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/SerializedSecurityContext/GroupSids/GroupIdentifier[i]` <br/> |
+|[RestrictedGroupIdentifier](restrictedgroupidentifier.md) <br/> |表示用户令牌中受限组的组安全标识符和属性。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-此元素在简单对象访问协议（SOAP）标头中使用。
+此元素用于 Simple Object Access Protocol (SOAP) 标头。
   
 描述此元素的架构位于正在运行 Microsoft Exchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

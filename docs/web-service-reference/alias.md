@@ -1,23 +1,23 @@
 ---
-title: 别名
+title: Alias
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 18aafbcd-a221-463a-935c-bc7c3fdbb08f
 description: Alias 元素包含联系人的电子邮件别名。
-ms.openlocfilehash: 2d5675ea8220aa4ced522eb510e3075a38627d92
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 31d57f3ac604cbeed56a6a10a87ac9a6505c8366
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465020"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525363"
 ---
-# <a name="alias"></a>别名
+# <a name="alias"></a>Alias
 
-**Alias**元素包含联系人的电子邮件别名。 
+**Alias** 元素包含联系人的电子邮件别名。 
   
 ```XML
 <Alias/>
@@ -44,7 +44,7 @@ ms.locfileid: "44465020"
    
 ## <a name="text-value"></a>文本值
 
-Text 值是一个字符串，表示联系人的电子邮件别名。
+文本值是一个字符串，表示联系人的电子邮件别名。
   
 ## <a name="remarks"></a>说明
 

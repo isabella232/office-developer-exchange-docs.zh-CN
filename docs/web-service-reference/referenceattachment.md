@@ -4,19 +4,19 @@ ms.date: 7/7/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b9bde862-6b75-4a81-8033-00a47be4dc2f
 description: ReferenceAttachment 元素指定 XXX。
-ms.openlocfilehash: a5e4445b24395f1530e072f8aa9b5a9eed02f671
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 76290b5b0d42f027029a85e3fc5fb0b74a534228
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468738"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525629"
 ---
 # <a name="referenceattachment"></a>ReferenceAttachment
 
-**ReferenceAttachment**元素指定 XXX。 
+**ReferenceAttachment** 元素指定 XXX。 
   
 ```XML
 <RecurringMasterItemIdRanges Id="" ChangeKey="">
@@ -33,18 +33,18 @@ ms.locfileid: "44468738"
 
 |**属性**|**说明**|
 |:-----|:-----|
-|**Id** <br/> |**Id**属性的文本值是定期主项目的唯一标识符。 这是一个**字符串**值。  <br/> |
-|**ChangeKey** <br/> |**ChangeKey**属性的文本值是定期主项目的更改密钥。 这是一个**字符串**值。  <br/> |
+|**Id** <br/> |**Id** 属性的文本值是定期主项目的唯一标识符。 这是一 **个字符串** 值。  <br/> |
+|**ChangeKey** <br/> |**ChangeKey** 属性的文本值是定期主项目的更改键。 这是一 **个字符串** 值。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
-Range
+范围
   
 ### <a name="parent-elements"></a>父元素
 
-ItemIds |GlobalItemIds |DraftItemIds |ContactIds |Groupid
+ItemIds |GlobalItemIds |DraftItemIds|ContactIds |GroupIds
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

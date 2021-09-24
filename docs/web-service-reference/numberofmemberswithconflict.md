@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - NumberOfMembersWithConflict
 api_type:
 - schema
 ms.assetid: e61154f7-d262-43ec-b2bf-1ba6804b28dc
-description: NumberOfMembersWithConflict 元素表示与建议的会议时间有冲突的通讯组列表成员的数量。 此元素表示状态为 "忙碌"、"OOF" 或 "暂定" 的成员。
-ms.openlocfilehash: 3ed81fc8adece140e8a94b08a9c2d94c2d9787c9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: NumberOfMembersWithConflict 元素表示与建议的会议时间发生冲突的通讯组列表成员的数量。 此元素表示状态为 Busy、OOF 或 Tentative 的成员。
+ms.openlocfilehash: 60036335ace3ecfb160d8697f27330c34d767aaa
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529033"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518097"
 ---
 # <a name="numberofmemberswithconflict"></a>NumberOfMembersWithConflict
 
-**NumberOfMembersWithConflict**元素表示与建议的会议时间有冲突的通讯组列表成员的数量。 此元素表示状态为 "**忙碌**"、" **OOF**" 或 "**暂定**" 的成员。
+**NumberOfMembersWithConflict** 元素表示与建议的会议时间发生冲突的通讯组列表成员的数量。 此元素表示状态为 Busy、OOF或 Tentative **的成员**。 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -62,7 +62,7 @@ ms.locfileid: "44529033"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GroupAttendeeConflictData](groupattendeeconflictdata.md) <br/> |包含有关可用用户数的聚合冲突信息、有冲突的用户数以及在通讯组列表中没有可用性信息的用户数量建议的会议时间。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray/GroupAttendeeConflictData[i]` <br/> |
+|[GroupAttendeeConflictData](groupattendeeconflictdata.md) <br/> |包含有关可用用户数、发生冲突的用户数和在建议的会议时间通讯组列表中没有可用性信息的用户数的聚合冲突信息。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray/GroupAttendeeConflictData[i]` <br/> |
    
 ## <a name="remarks"></a>说明
 

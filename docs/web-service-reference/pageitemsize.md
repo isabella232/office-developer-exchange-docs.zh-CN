@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7cbd6b60-69fc-4007-aeb9-bdf41c45cba3
-description: PageItemSize 元素指定要在搜索结果分页中返回的项目数。
-ms.openlocfilehash: e4f02d9b0012d0514903e41e74677e37b6cafcca
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: PageItemSize 元素指定在搜索结果分页中返回的项目数。
+ms.openlocfilehash: c642b3eedf2e2294bcbbefc146275e0e672f7532
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462330"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521786"
 ---
 # <a name="pageitemsize"></a>PageItemSize
 
-**PageItemSize**元素指定要在搜索结果分页中返回的项目数。 
+**PageItemSize** 元素指定在搜索结果分页中返回的项目数。 
   
 ```XML
 <PageItemSize></PageItemSize>
@@ -42,9 +42,9 @@ ms.locfileid: "44462330"
   
 ## <a name="text-value"></a>文本值
 
-**PageItemSize**元素的文本值是在搜索结果分页中返回的项目数。 
+**PageItemSize** 元素的文本值是在搜索结果分页中返回的项数。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

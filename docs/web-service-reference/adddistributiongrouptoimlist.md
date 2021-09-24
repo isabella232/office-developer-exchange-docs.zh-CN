@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: adbffbfc-e436-4620-acfc-5dfd41a88cb8
-description: AddDistributionGroupToImList 元素定义将通讯组列表添加到即时消息列表的请求。
-ms.openlocfilehash: 90a84b23678fb0740158f601967905a8847286fd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: AddDistributionGroupToImList 元素定义向即时消息列表添加通讯组列表的请求。
+ms.openlocfilehash: 8b2425a05d184b203f8b65f74a6119d5b6d09946
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460377"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525406"
 ---
 # <a name="adddistributiongrouptoimlist"></a>AddDistributionGroupToImList
 
-**AddDistributionGroupToImList**元素定义将通讯组列表添加到即时消息列表的请求。 
+**AddDistributionGroupToImList** 元素定义向即时消息列表添加通讯组列表的请求。 
   
 ```XML
 <AddDistributionGroupToImList>
@@ -37,13 +37,13 @@ ms.locfileid: "44460377"
   
 ### <a name="child-elements"></a>子元素
 
-[SmtpAddress](smtpaddress.md)  | [DisplayName （NonEmptyStringType）](displayname-nonemptystringtype.md)
+[SmtpAddress](smtpaddress.md)  | [DisplayName (NonEmptyStringType) ](displayname-nonemptystringtype.md)
   
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

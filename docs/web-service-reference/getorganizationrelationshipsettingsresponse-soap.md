@@ -1,22 +1,22 @@
 ---
-title: GetOrganizationRelationshipSettingsResponse （SOAP）
+title: GetOrganizationRelationshipSettingsResponse (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2f43b817-92c2-4e04-8095-479d790f768c
-description: GetOrganizationRelationshipSettingsResponse 元素包含 GetOrganizationRelationshipSettings 操作（SOAP）响应。 GetOrganizationRelationshipSettingsResponse 元素仅供内部使用。 客户端不使用此元素。
-ms.openlocfilehash: 0f34fbc6577b379dd0ac379564c5e6bbd940d379
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetOrganizationRelationshipSettingsResponse 元素包含 SOAP 响应 (GetOrganizationRelationshipSettings) 操作。 GetOrganizationRelationshipSettingsResponse 元素仅供内部使用。 此元素不由客户端使用。
+ms.openlocfilehash: e62496b70c89477fa87a50de256aa8a6b37f3111
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457919"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524243"
 ---
-# <a name="getorganizationrelationshipsettingsresponse-soap"></a>GetOrganizationRelationshipSettingsResponse （SOAP）
+# <a name="getorganizationrelationshipsettingsresponse-soap"></a>GetOrganizationRelationshipSettingsResponse (SOAP)
 
-**GetOrganizationRelationshipSettingsResponse**元素包含[GETORGANIZATIONRELATIONSHIPSETTINGS 操作（SOAP）](getorganizationrelationshipsettings-operation-soap.md)响应。 **GetOrganizationRelationshipSettingsResponse**元素仅供内部使用。 客户端不使用此元素。 
+**GetOrganizationRelationshipSettingsResponse** 元素包含 SOAP 响应 ([GetOrganizationRelationshipSettings)](getorganizationrelationshipsettings-operation-soap.md)操作。 **GetOrganizationRelationshipSettingsResponse** 元素仅供内部使用。 此元素不由客户端使用。 
   
 ```XML
 <GetOrganizationRelationshipSettingResponse>
@@ -39,9 +39,9 @@ ms.locfileid: "44457919"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ErrorCode （SOAP）](errorcode-soap.md) <br/> |表示自动发现服务返回的错误代码。  <br/> |
-|[ErrorMessage （SOAP）](errormessage-soap.md) <br/> |表示与自动发现服务返回的错误代码相关联的消息。  <br/> |
-|[OrganizationRelationshipSettingsCollection （SOAP）](organizationrelationshipsettingscollection-soap.md) <br/> |表示与查询匹配的组织关系的集合。  <br/> |
+|[ErrorCode (SOAP)](errorcode-soap.md) <br/> |表示自动发现服务返回的错误代码。  <br/> |
+|[ErrorMessage (SOAP)](errormessage-soap.md) <br/> |表示与自动发现服务返回的错误代码相关联的消息。  <br/> |
+|[OrganizationRelationshipSettingsCollection (SOAP)](organizationrelationshipsettingscollection-soap.md) <br/> |表示与查询匹配的组织关系的集合。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -64,5 +64,5 @@ ms.locfileid: "44457919"
 
 
 
-[GetOrganizationRelationshipSettings 操作（SOAP）](getorganizationrelationshipsettings-operation-soap.md)
+[GetOrganizationRelationshipSettings 操作 (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
 

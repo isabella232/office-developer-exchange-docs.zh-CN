@@ -1,23 +1,23 @@
 ---
-title: Get-retentionpolicytag
+title: RetentionPolicyTag
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f46679d0-9236-41e2-8624-72300079c67c
-description: Get-retentionpolicytag 元素指定邮箱项目的保留策略。
-ms.openlocfilehash: 3ece841e14e6cf11ab15e4a4d8b83a778ae32e46
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: RetentionPolicyTag 元素指定邮箱项目的保留策略。
+ms.openlocfilehash: 58ca3016bed0be625b213a57e5ead1b38a301bfa
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465175"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524544"
 ---
-# <a name="retentionpolicytag"></a>Get-retentionpolicytag
+# <a name="retentionpolicytag"></a>RetentionPolicyTag
 
-**Get-retentionpolicytag**元素指定邮箱项目的保留策略。 
+**RetentionPolicyTag** 元素指定邮箱项目的保留策略。 
   
 ```XML
 <RetentionPolicyTag>
@@ -44,13 +44,13 @@ ms.locfileid: "44465175"
   
 ### <a name="child-elements"></a>子元素
 
-[DisplayName （string）](displayname-string.md)  | [RetentionId](retentionid.md)  | [RetentionPeriod](retentionperiod.md)  | [类型（ElcFolderType）](type-elcfoldertype.md)  | [RetentionAction](retentionaction.md)  | [说明](description.md)  | [IsVisible](isvisible.md)  | [OptedInto](optedinto.md)  | [IsArchive](isarchive.md)
+[DisplayName (字符串) ](displayname-string.md)  | [RetentionId](retentionid.md)  | [RetentionPeriod](retentionperiod.md)  | [键入 (ElcFolderType) ](type-elcfoldertype.md)  | [RetentionAction](retentionaction.md)  | [说明](description.md)  | [IsVisible](isvisible.md)  | [OptedInto](optedinto.md)  | [IsArchive](isarchive.md)
   
 ### <a name="parent-elements"></a>父元素
 
 [RetentionPolicyTags](retentionpolicytags.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

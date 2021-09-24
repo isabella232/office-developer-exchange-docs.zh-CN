@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - WorkingHours
 api_type:
 - schema
 ms.assetid: bbe97777-f728-46c5-b2aa-565112c24f3a
-description: WorkingHours 元素表示所请求的邮箱用户的时区设置和工作时间。
-ms.openlocfilehash: 9cb21e72f7024b96b4b5f252a8a3b85bb704e67c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: WorkingHours 元素表示请求的邮箱用户的时区设置和工作时间。
+ms.openlocfilehash: 6453ddbf3d1bf96ce09073ff62a65bd5a6ccc515
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468339"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525496"
 ---
 # <a name="workinghours"></a>WorkingHours
 
-**WorkingHours**元素表示所请求的邮箱用户的时区设置和工作时间。 
+**WorkingHours** 元素表示请求的邮箱用户的时区设置和工作时间。 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -53,8 +53,8 @@ ms.locfileid: "44468339"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[时区（可用性）](timezone-availability.md) <br/> |包含标识时区信息的元素。 此元素还包含有关标准时间和夏时制之间转换的信息。 如果使用**WorkingHours**元素，则此元素是必需的。  <br/> |
-|[WorkingPeriodArray](workingperiodarray.md) <br/> |包含邮箱用户的工作时间段信息。 如果使用**WorkingHours**元素，则此元素是必需的。  <br/> |
+|[TimeZone (Availability)](timezone-availability.md) <br/> |包含标识时区信息的元素。 此元素还包含有关标准时间和夏令时之间的转换的信息。 如果使用 **WorkingHours** 元素，则此元素是必需的。  <br/> |
+|[WorkingPeriodArray](workingperiodarray.md) <br/> |包含邮箱用户的工作时间信息。 如果使用 **WorkingHours** 元素，则此元素是必需的。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -62,9 +62,9 @@ ms.locfileid: "44468339"
 |:-----|:-----|
 |[FreeBusyView](freebusyview.md) <br/> |包含特定用户的可用性信息。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-所有子元素都按它们出现的顺序列出。 此元素提供的详细信息级别取决于授予请求者的权限。
+所有子元素都按其发生顺序列出。 此元素提供的详细信息级别取决于授予请求者的权限。
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

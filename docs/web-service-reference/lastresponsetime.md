@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - LastResponseTime
 api_type:
 - schema
 ms.assetid: 8e66979e-4e3b-4183-aaf5-a45d8380ede5
 description: LastResponseTime 元素表示收到的最新响应的日期和时间。
-ms.openlocfilehash: 45740d1a31d9b04bbc5062e7ff8b05629abd84c4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: cc0b04e545ffe956d08314b53f9ff6c51477600e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455378"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524929"
 ---
 # <a name="lastresponsetime"></a>LastResponseTime
 
-**LastResponseTime**元素表示收到的最新响应的日期和时间。 
+**LastResponseTime** 元素表示收到的最新响应的日期和时间。 
   
 ```xml
 <LastResponseTime/>
@@ -44,15 +44,15 @@ ms.locfileid: "44455378"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[与会者](attendee.md) <br/> |表示会议的与会者和资源。  <br/> |
+|[与会者](attendee.md) <br/> |表示会议与会者和资源。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-需要表示最新响应的日期和时间的文本值。
+需要一个表示最新响应的日期和时间的文本值。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-描述此元素的架构位于运行 MicrosoftExchange 2007 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
+描述此元素的架构位于运行已安装客户端访问服务器角色的 MicrosoftExchange 2007 的计算机的 EWS 虚拟目录中。
   
 ## <a name="element-information"></a>元素信息
 

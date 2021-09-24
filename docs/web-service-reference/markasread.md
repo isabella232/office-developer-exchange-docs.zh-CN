@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MarkAsRead
 api_type:
 - schema
 ms.assetid: 404842e1-fbdb-480d-a1d8-ba1ab2c9fb1e
-description: MarkAsRead 元素指示是否将邮件标记为已读。
-ms.openlocfilehash: 691409a4eace8885d36f4b30b8eef1aca8c332a6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: MarkAsRead 元素指示邮件是否标记为已读。
+ms.openlocfilehash: 0597380d5fdd4771f69263729449eebe5220b077
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461763"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523984"
 ---
 # <a name="markasread"></a>MarkAsRead
 
-**MarkAsRead**元素指示是否将邮件标记为已读。 
+**MarkAsRead** 元素指示邮件是否标记为已读。 
   
 ```XML
 <MarkAsRead>true | false</MarkAsRead>
@@ -48,7 +48,7 @@ ms.locfileid: "44461763"
    
 ## <a name="text-value"></a>文本值
 
-如果文本值为**true** ，则表示必须将邮件标记为已读。 **如果值为 false，则**表示邮件不能标记为已读。 
+如果文本值为 **true，** 则表明必须将邮件标记为已读。 false **值指示** 邮件不得标记为已读。 
   
 ## <a name="remarks"></a>说明
 

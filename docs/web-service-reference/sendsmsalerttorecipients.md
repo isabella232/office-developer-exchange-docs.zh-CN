@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SendSMSAlertToRecipients
 api_type:
 - schema
 ms.assetid: c4dd000b-11b6-4b7b-91e0-dbfeae11d770
 description: SendSMSAlertToRecipients元素指示一条短消息服务 (SMS) 的警报将发送到移动电话号码。
-ms.openlocfilehash: ed17bf9ad20a51cbead4b86f385a53d19562fa64
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: ed53ef0cdd420eea53103c1579e8c53f334d0f3c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464845"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521527"
 ---
 # <a name="sendsmsalerttorecipients"></a>SendSMSAlertToRecipients
 
-本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **SendSMSAlertToRecipients**元素指示一条短消息服务 (SMS) 的警报将发送到移动电话号码。 
+本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **SendSMSAlertToRecipients** 元素指示一条短消息服务 (SMS) 的警报将发送到移动电话号码。 
   
 ```XML
 <SendSMSAlertToRecipients>
@@ -54,7 +54,7 @@ ms.locfileid: "44464845"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

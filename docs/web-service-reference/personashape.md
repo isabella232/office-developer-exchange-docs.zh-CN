@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 61d87cd5-3270-40d1-bab7-d0d5bf938607
-description: PersonaShape 元素指定要从 FindPeople 请求中返回的角色属性集。
-ms.openlocfilehash: 49cbae714a3b854496dc91ea6102f4b676623690
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: PersonaShape 元素指定从 FindPeople 请求返回的一组 persona 属性。
+ms.openlocfilehash: 41c37be586a033965f5102e7e14af7d7fe205e8f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457569"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524579"
 ---
 # <a name="personashape"></a>PersonaShape
 
-**PersonaShape**元素指定要从**FindPeople**请求中返回的角色属性集。 
+**PersonaShape** 元素指定从 FindPeople 请求返回的 **一组 persona 属性**。 
   
 ```XML
 <PersonaShape>
@@ -43,7 +43,7 @@ ms.locfileid: "44457569"
 
 [FindPeople](findpeople.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

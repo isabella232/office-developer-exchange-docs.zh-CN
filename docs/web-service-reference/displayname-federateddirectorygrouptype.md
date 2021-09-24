@@ -1,23 +1,23 @@
 ---
-title: DisplayName （FederatedDirectoryGroupType）
+title: DisplayName (FederatedDirectoryGroupType)
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2ae9ff27-8b26-49e5-bbae-01f76cf061d9
-description: DisplayName （FederatedDirectoryGroupType）元素仅供内部使用。
-ms.openlocfilehash: 0c3b359b8fa0dc65d366d3703fe4ab0982998989
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DisplayName (FederatedDirectoryGroupType) 仅供内部使用。
+ms.openlocfilehash: aa9bc289830d5940c2aa2351e4e948fbc63cd064
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461364"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522108"
 ---
-# <a name="displayname-federateddirectorygrouptype"></a>DisplayName （FederatedDirectoryGroupType）
+# <a name="displayname-federateddirectorygrouptype"></a>DisplayName (FederatedDirectoryGroupType)
 
-**DisplayName （FederatedDirectoryGroupType）** 元素仅供内部使用。 
+DisplayName **(FederatedDirectoryGroupType)** 仅供内部使用。 
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
@@ -35,7 +35,7 @@ ms.locfileid: "44461364"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   

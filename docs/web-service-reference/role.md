@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0718d2cc-8b70-4569-9008-b3e19857327e
-description: Role 元素指定表示管理角色的字符串。
-ms.openlocfilehash: d7649d5b885d4d36ea0ee36dd3b17598e305c35f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Role 元素指定一个代表管理角色的字符串。
+ms.openlocfilehash: dbc30cee18e88d00b54ba9f7a9f766cf3058e815
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460559"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525559"
 ---
 # <a name="role"></a>Role
 
-**Role**元素指定表示管理角色的字符串。 
+**Role** 元素指定一个代表管理角色的字符串。 
   
 ```XML
 <Role></Role>
@@ -38,13 +38,13 @@ ms.locfileid: "44460559"
   
 ### <a name="parent-elements"></a>父元素
 
-[Userroles.xml](userroles.md)  | [ApplicationRoles](applicationroles.md)
+[UserRoles](userroles.md)  | [ApplicationRoles](applicationroles.md)
   
 ## <a name="text-value"></a>文本值
 
-**Role**元素的文本值是角色的名称。 
+**Role** 元素的文本值是角色的名称。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

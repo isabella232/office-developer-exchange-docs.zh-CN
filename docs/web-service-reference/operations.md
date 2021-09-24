@@ -1,27 +1,27 @@
 ---
-title: 操作
+title: 运营
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: ITPro
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Operations
 api_type:
 - schema
 ms.assetid: d8cd41b1-28ae-4c95-9ff6-8b25c8e18306
-description: 操作元素包含可在收件箱中执行的一组规则操作。
-ms.openlocfilehash: 4bbec4ad6424f802bb6781a870d65f23705e88c4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Operations 元素包含可以在收件箱上执行的规则操作数组。
+ms.openlocfilehash: 48679c9c7c0482ab53d3af5c661dc6efe513e637
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462484"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518069"
 ---
-# <a name="operations"></a>操作
+# <a name="operations"></a>运营
 
-**操作**元素包含可在收件箱中执行的一组规则操作。 
+**Operations** 元素包含可以在收件箱上执行的规则操作数组。 
   
 [UpdateInboxRules](updateinboxrules.md)
   
@@ -46,7 +46,7 @@ ms.locfileid: "44462484"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[CreateRuleOperation](createruleoperation.md) <br/> |表示用于创建新的收件箱规则的操作。  <br/> |
+|[CreateRuleOperation](createruleoperation.md) <br/> |表示创建新收件箱规则的操作。  <br/> |
 |[SetRuleOperation](setruleoperation.md) <br/> |表示更新收件箱规则的操作。  <br/> |
 |[DeleteRuleOperation](deleteruleoperation.md) <br/> |表示删除收件箱规则的操作。  <br/> |
    
@@ -54,7 +54,7 @@ ms.locfileid: "44462484"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[UpdateInboxRules](updateinboxrules.md) <br/> |定义更新服务器存储中的邮箱的收件箱规则的请求。  <br/> |
+|[UpdateInboxRules](updateinboxrules.md) <br/> |定义更新服务器存储中邮箱中的收件箱规则的请求。  <br/> |
    
 ## <a name="remarks"></a>说明
 

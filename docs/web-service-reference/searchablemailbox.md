@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 339005cd-a3b9-47dd-bc7b-a860b699625b
 description: SearchableMailbox元素指定邮箱GetSearchableMailboxes请求中返回。
-ms.openlocfilehash: f790d9a707f10f64a776b2fc35255c233ad854b6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 75d5680de8b0776b1ecf441ff71266ee74c4aa66
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467450"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524425"
 ---
 # <a name="searchablemailbox"></a>SearchableMailbox
 
-本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **SearchableMailbox**元素指定邮箱 **GetSearchableMailboxes**请求中返回。 
+本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **SearchableMailbox** 元素指定邮箱 **GetSearchableMailboxes** 请求中返回。 
   
 ```XML
 <SearchableMailbox>
@@ -48,7 +48,7 @@ ms.locfileid: "44467450"
 
 [SearchableMailboxes](searchablemailboxes.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

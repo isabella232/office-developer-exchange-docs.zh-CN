@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - TimeOffset
 api_type:
 - schema
 ms.assetid: b70bf498-cc3a-4fa6-8236-514acb973b33
 description: TimeOffset元素代表的时间偏移时区转换为协调世界时 (UTC)。
-ms.openlocfilehash: 8cfd43477f0548227204da9ebc6d7e9307786845
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: ac2da7d6ab1d59d075111390513b1a3dd58a892e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460286"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522542"
 ---
 # <a name="timeoffset"></a>TimeOffset
 
-本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **TimeOffset**元素代表的时间偏移时区转换为协调世界时 (UTC)。 
+本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **TimeOffset** 元素代表的时间偏移时区转换为协调世界时 (UTC)。 
   
 ```XML
 <TimeOffset/>
@@ -49,7 +49,7 @@ ms.locfileid: "44460286"
    
 ## <a name="text-value"></a>文本值
 
-**TimeOffset**元素的文本值是指定从 UTC 时间偏移量的时区转换的持续时间。 
+**TimeOffset** 元素的文本值是指定从 UTC 时间偏移量的时区转换的持续时间。 
   
 ## <a name="remarks"></a>说明
 

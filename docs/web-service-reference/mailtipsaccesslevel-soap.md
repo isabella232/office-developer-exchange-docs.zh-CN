@@ -1,22 +1,22 @@
 ---
-title: MailTipsAccessLevel （SOAP）
+title: MailTipsAccessLevel (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 730e349e-8250-4236-af53-cd9039c74d8f
-description: MailTipsAccessLevel 元素表示 MailTipsAccessLevel 属性。 MailTipsAccessLevel 元素仅供内部使用。 客户端不使用此元素。
-ms.openlocfilehash: 8e3a467f7aa8484fc8a4bfb23f8b4ac4c138ccad
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: MailTipsAccessLevel 元素表示 MailTipsAccessLevel 属性。 MailTipsAccessLevel 元素仅供内部使用。 此元素不由客户端使用。
+ms.openlocfilehash: 275bdab1be5a754aa0cfa57eea232175e3d39ff3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458066"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524040"
 ---
-# <a name="mailtipsaccesslevel-soap"></a>MailTipsAccessLevel （SOAP）
+# <a name="mailtipsaccesslevel-soap"></a>MailTipsAccessLevel (SOAP)
 
-**MailTipsAccessLevel**元素表示**MailTipsAccessLevel**属性。 **MailTipsAccessLevel**元素仅供内部使用。 客户端不使用此元素。 
+**MailTipsAccessLevel** 元素表示 **MailTipsAccessLevel** 属性。 **MailTipsAccessLevel** 元素仅供内部使用。 此元素不由客户端使用。 
   
 ```XML
 <MailTipsAccessLevel/>
@@ -39,9 +39,9 @@ ms.locfileid: "44458066"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[OrganizationRelationshipSettings （SOAP）](organizationrelationshipsettings-soap.md) <br/> |表示单个组织的组织关系列表。  <br/> |
+|[OrganizationRelationshipSettings (SOAP)](organizationrelationshipsettings-soap.md) <br/> |表示单个组织的组织关系列表。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素指定响应中将返回的邮件提示详细信息的最大数量。
   
@@ -58,5 +58,5 @@ ms.locfileid: "44458066"
 
 
 
-[GetOrganizationRelationshipSettings 操作（SOAP）](getorganizationrelationshipsettings-operation-soap.md)
+[GetOrganizationRelationshipSettings 操作 (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
 

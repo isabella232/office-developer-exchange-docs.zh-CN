@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MarkImportance
 api_type:
 - schema
 ms.assetid: 32b8b08f-65e9-4764-b40a-63245551f4a3
-description: MarkImportance 元素指定要在邮件上标记的重要性。
-ms.openlocfilehash: 051307c0943a22e0c46439410806d168603d8a69
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: MarkImportance 元素指定在邮件上标记的重要性。
+ms.openlocfilehash: 3c0084423a690b2acf758bf6cd91ae65194020b3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530879"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523977"
 ---
 # <a name="markimportance"></a>MarkImportance
 
-**MarkImportance**元素指定要在邮件上标记的重要性。 
+**MarkImportance** 元素指定在邮件上标记的重要性。 
   
 ```XML
 <MarkImportance/>
@@ -48,7 +48,7 @@ ms.locfileid: "44530879"
    
 ## <a name="text-value"></a>文本值
 
-此元素的文本值被限制为以下字符串值之一：
+此元素的文本值限制为以下字符串值之一：
   
 - 低
     

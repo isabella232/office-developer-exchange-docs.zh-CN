@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cc52f7f5-c2a8-4cfb-937b-dfec6cd3ea0f
-description: MaximumBodySize 元素指定要在响应中返回的项目正文的最大大小。
-ms.openlocfilehash: 21958c87aafc12a7369f957c87f86f80116cdf69
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: MaximumBodySize 元素指定在响应中返回的项目正文的最大大小。
+ms.openlocfilehash: 2b44ca42c38b19e092343dc7bec7d4538c4749ad
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530514"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524691"
 ---
 # <a name="maximumbodysize"></a>MaximumBodySize
 
-**MaximumBodySize**元素指定要在响应中返回的项目正文的最大大小。 
+**MaximumBodySize** 元素指定在响应中返回的项目正文的最大大小。 
   
 ```XML
 <MaximumBodySize></MaximumBodySize>
@@ -42,9 +42,9 @@ ms.locfileid: "44530514"
   
 ## <a name="text-value"></a>文本值
 
-**MaximumBodySize**元素的文本值指示响应中返回的[Body](body.md)属性的最大大小。 以 kb 为单位度量。 
+**MaximumBodySize** 元素的文本值指示响应中返回 [的 Body](body.md)属性的最大大小。 以 KB 为单位度量。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

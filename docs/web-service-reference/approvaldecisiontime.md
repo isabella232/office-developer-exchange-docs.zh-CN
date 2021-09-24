@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e70f1a3d-03cf-4252-804f-3eef0ce4a1a9
-description: ApprovalDecisionTime 元素指定进行审批决定的时间。
-ms.openlocfilehash: 2c76d949d366050139978586cd9e784f2728d767
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ApprovalDecisionTime 元素指定做出审批决定的时间。
+ms.openlocfilehash: 5e3dbe51a9301a5b23e73c563dcac7271e11d532
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464782"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525302"
 ---
 # <a name="approvaldecisiontime"></a>ApprovalDecisionTime
 
-**ApprovalDecisionTime**元素指定进行审批决定的时间。 
+**ApprovalDecisionTime** 元素指定做出审批决定的时间。 
   
 ```XML
 <ApprovalDecisionTime />
@@ -42,7 +42,7 @@ ms.locfileid: "44464782"
   
 ## <a name="text-value"></a>文本值
 
-**ApprovalDecisionTime**元素的文本值表示进行审批决定的时间和日期。 
+**ApprovalDecisionTime** 元素的文本值表示做出审批决策的时间和日期。 
   
 ## <a name="remarks"></a>说明
 

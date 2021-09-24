@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MaxRecipientsPerGetMailTipsRequest
 api_type:
 - schema
 ms.assetid: 8ff5df18-1989-4217-b4c0-599232911d0c
-description: MaxRecipientsPerGetMailTipsRequest 元素指示可传递给 GetMailTips 操作的最大收件人数。
-ms.openlocfilehash: cec343182b364fce040d5e32928cbeb569a22124
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: MaxRecipientsPerGetMailTipsRequest 元素指示可以传递给 GetMailTips 操作的最大收件人数。
+ms.openlocfilehash: 27a67a5ff5a048dbd23bf5dc530a82f82b422e14
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468402"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524677"
 ---
 # <a name="maxrecipientspergetmailtipsrequest"></a>MaxRecipientsPerGetMailTipsRequest
 
-**MaxRecipientsPerGetMailTipsRequest**元素指示可传递给[GetMailTips 操作](getmailtips-operation.md)的最大收件人数。
+**MaxRecipientsPerGetMailTipsRequest** 元素指示可以传递给 [GetMailTips](getmailtips-operation.md)操作的最大收件人数。
   
 ```XML
 <MaxRecipientsPerGetMailTipsRequest/>
@@ -48,7 +48,7 @@ ms.locfileid: "44468402"
    
 ## <a name="text-value"></a>文本值
 
-Text 值是一个整数，表示可传递给[GetMailTips 操作](getmailtips-operation.md)的最大收件人数。
+文本值是一个整数，表示可以传递给 [GetMailTips](getmailtips-operation.md)操作的最大收件人数。
   
 ## <a name="remarks"></a>说明
 

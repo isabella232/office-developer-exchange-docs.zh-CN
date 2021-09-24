@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsFromMe
 api_type:
 - schema
 ms.assetid: d3c5fbf0-a95c-46e5-890f-953e50ac49d6
-description: IsFromMe 元素指示用户是否向他或她发送了一项。
-ms.openlocfilehash: eb69aa493d5ba8b0497fde4c52ad80fe17c92f1c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: IsFromMe 元素指示用户是否向自己发送了项目。
+ms.openlocfilehash: b29e56eb58f30604e8155bbdca821991a4201f62
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468017"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524208"
 ---
 # <a name="isfromme"></a>IsFromMe
 
-**IsFromMe**元素指示用户是否向他或她发送了一项。 
+**IsFromMe** 元素指示用户是否向自己发送了项目。 
   
 ```xml
 <IsFromMe/>
@@ -58,7 +58,7 @@ ms.locfileid: "44468017"
    
 ## <a name="text-value"></a>文本值
 
-如果文本值为**true** ，则表示该项目已由用户发送给他或她。 如果值为**false** ，则表示该项目未由用户发送给他或她。 
+true **的文本值表示** 项目由用户发送给他/她。 false **值表示** 用户未将项目发送给他/她。 
   
 ## <a name="remarks"></a>说明
 

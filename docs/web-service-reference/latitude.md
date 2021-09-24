@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: aefecfe3-bf4d-4efe-833b-cdd15ecd1f8c
-description: 纬度元素指定关联邮政地址的位置的纬度。
-ms.openlocfilehash: 7038ca04f09eb88669a945e179806d8a0cfff1da
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Latitude 元素指定关联邮政地址位置的纬度。
+ms.openlocfilehash: 0f7a2d1819eebfcfc028d4564d0e1449f21cdf7b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530766"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524936"
 ---
 # <a name="latitude"></a>Latitude
 
-**纬度**元素指定关联邮政地址的位置的纬度。 
+**Latitude** 元素指定关联邮政地址位置的纬度。 
   
 ```XML
 <Latitude></Latitude>
 ```
 
- **加倍**
+ **double**
 ## <a name="attributes-and-elements"></a>属性和元素
 
 下面各部分介绍了属性、子元素和父元素。
@@ -38,13 +38,13 @@ ms.locfileid: "44530766"
   
 ### <a name="parent-elements"></a>父元素
 
-[Value （PersonaPostalAddressType）](value-personapostaladdresstype.md)  | [省略（PersonaPostalAddressType）](postaladdress-personapostaladdresstype.md)
+[Value (PersonaPostalAddressType) ](value-personapostaladdresstype.md)  | [PostalAddress (PersonaPostalAddressType) ](postaladdress-personapostaladdresstype.md)
   
 ## <a name="text-value"></a>文本值
 
-**纬度**元素的文本值是关联的邮政地址的纬度。 
+**Latitude** 元素的文本值是关联邮政地址的纬度。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

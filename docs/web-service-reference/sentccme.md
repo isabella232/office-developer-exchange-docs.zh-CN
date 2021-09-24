@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SentCcMe
 api_type:
 - schema
 ms.assetid: bf5044e4-cbdf-4e24-a16f-b6454a51fcd5
-description: SentCcMe 元素指示邮箱的所有者是否必须在传入邮件的 CcRecipients 属性中，以便条件或例外情况适用。
-ms.openlocfilehash: 1fae56a8e7d4e56c56884e5fff051ecd9f138a6d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SentCcMe 元素指示邮箱所有者是否必须拥有传入邮件的 CcRecipients 属性才能应用条件或例外。
+ms.openlocfilehash: 82123a44cccf953bf1db6dfaf916d4ebf851851e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465476"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521520"
 ---
 # <a name="sentccme"></a>SentCcMe
 
-**SentCcMe**元素指示邮箱的所有者是否必须在传入邮件的**CcRecipients**属性中，以便条件或例外情况适用。 
+**SentCcMe** 元素指示邮箱所有者是否必须拥有传入邮件的 **CcRecipients** 属性才能应用条件或例外。 
   
 ```XML
 <SentCcMe>true | false</SentCcMe>
@@ -45,11 +45,11 @@ ms.locfileid: "44465476"
 |**元素**|**说明**|
 |:-----|:-----|
 |[条件](conditions.md) <br/> |表示履行时将触发规则的规则操作的条件。  <br/> |
-|[异常](exceptions.md) <br/> |代表收件箱规则的所有可用的规则例外条件。  <br/> |
+|[异常](exceptions.md) <br/> |代表收件箱规则的所有可用规则例外条件。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-如果文本值为**true** ，则表示邮箱的所有者必须位于传入邮件的**CcRecipients**属性中，以便条件或例外情况适用。 如果值为**false** ，则表示邮箱的所有者不得在传入邮件的**CcRecipients**属性中，以便条件或例外情况适用。 
+如果文本值为 **true，** 则表明邮箱所有者必须在传入邮件的 **CcRecipients** 属性中才能应用条件或例外。 false **值指示** 邮箱所有者不得在传入邮件的 **CcRecipients** 属性中，以便条件或例外适用。 
   
 ## <a name="remarks"></a>说明
 

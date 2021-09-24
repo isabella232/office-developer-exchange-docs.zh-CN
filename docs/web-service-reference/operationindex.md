@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - OperationIndex
 api_type:
 - schema
 ms.assetid: 289f173c-26fa-4981-95dd-652e1921bdc6
-description: OperationIndex 元素指定导致规则操作错误的请求中的操作的索引。
-ms.openlocfilehash: a95f194231200520d2f3feb328b3608e2921826c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: OperationIndex 元素指定导致规则操作错误的请求中的操作索引。
+ms.openlocfilehash: 27c3f9943d103abde9f6dfe32930812c0b652671
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462491"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518076"
 ---
 # <a name="operationindex"></a>OperationIndex
 
-**OperationIndex**元素指定导致规则操作错误的请求中的操作的索引。 
+**OperationIndex** 元素指定导致规则操作错误的请求中的操作索引。 
   
 ```XML
 <OperationIndex/>

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - RequiredAttendees
 api_type:
 - schema
 ms.assetid: 422f8d44-b0eb-49ca-af0f-0e22b54c78d2
 description: RequiredAttendees 元素表示参加会议所需的与会者。
-ms.openlocfilehash: a67800687f24dc323c3d80e4166ca9dd34dfc4fc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 593ea08f9c3486360c4718e293164f37bae2830f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468290"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521730"
 ---
 # <a name="requiredattendees"></a>RequiredAttendees
 
-**RequiredAttendees**元素表示参加会议所需的与会者。 
+**RequiredAttendees** 元素表示参加会议所需的与会者。 
   
 ```xml
 <RequiredAttendees>
@@ -42,7 +42,7 @@ ms.locfileid: "44468290"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[与会者](attendee.md) <br/> |表示会议的与会者和资源。  <br/> |
+|[与会者](attendee.md) <br/> |表示会议与会者和资源。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 

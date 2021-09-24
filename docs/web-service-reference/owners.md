@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 53b6befb-a1b7-4f56-904a-9a32306570e3
-description: 物主元素仅供内部使用。
-ms.openlocfilehash: 299871843a3755d98ac3658767bce1c13dfa5129
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Owners 元素仅供内部使用。
+ms.openlocfilehash: a0f7222febbc8ae8376fd083ebd8e80caf7c98d9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457254"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518020"
 ---
 # <a name="owners"></a>所有者
 
-**物主**元素仅供内部使用。 
+**Owners** 元素仅供内部使用。 
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
@@ -35,7 +35,7 @@ ms.locfileid: "44457254"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   

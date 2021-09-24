@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ResponseMessages
 api_type:
 - schema
 ms.assetid: c7cfa0d1-fcb2-441f-8489-3a549da33b34
 description: ResponseMessages 元素包含一组服务配置响应消息。
-ms.openlocfilehash: cf271224141ffeb6dc00069abf430ab33d3ca2fa
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 6ea5ccf62e22927911252d56a52d2fc40b2da68e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457450"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521723"
 ---
 # <a name="responsemessages-arrayofserviceconfigurationresponsemessagetype"></a>ResponseMessages (ArrayOfServiceConfigurationResponseMessageType)
 
-**ResponseMessages**元素包含一组服务配置响应消息。 
+**ResponseMessages** 元素包含一组服务配置响应消息。 
   
 ```XML
 <ResponseMessages>
@@ -54,7 +54,7 @@ ms.locfileid: "44457450"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - OriginalStart
 api_type:
 - schema
 ms.assetid: 4599dd34-15ee-4d57-b886-732081b50784
 description: OriginalStart 元素表示日历项目的原始开始时间。
-ms.openlocfilehash: 5346a65c432b8e96cb95e412e3e88fbc40ce36e8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 9f36f63edfc9b185be49f11a1d05d334cc4f858d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462365"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524656"
 ---
 # <a name="originalstart"></a>OriginalStart
 
-**OriginalStart**元素表示日历项目的原始开始时间。 
+**OriginalStart** 元素表示日历项目的原始开始时间。 
   
 ```xml
 <OriginalStart/>
@@ -44,15 +44,15 @@ ms.locfileid: "44462365"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[CalendarItem](calendaritem.md) <br/> |表示 Exchange 存储中的日历项目。  <br/> |
-|[FirstOccurrence](firstoccurrence.md) <br/> |表示定期日历项目的第一个匹配项。  <br/> |
-|[LastOccurrence](lastoccurrence.md) <br/> |表示定期日历项目的最后一个事件。  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |表示应用商店中的日历Exchange项。  <br/> |
+|[FirstOccurrence](firstoccurrence.md) <br/> |表示第一次出现的定期日历项目。  <br/> |
+|[LastOccurrence](lastoccurrence.md) <br/> |表示最后一次出现的定期日历项目。  <br/> |
 |[MeetingRequest](meetingrequest.md) <br/> |表示 Exchange 存储中的会议请求。  <br/> |
-|[重复](occurrence.md) <br/> |代表定期日历项目的单个修改事件。  <br/> |
+|[Occurrence](occurrence.md) <br/> |表示定期日历项目的单个修改事件。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-如果使用此元素，则表示日期和时间的文本值是必需的。
+如果使用此元素，则代表日期和时间的文本值是必需的。
   
 ## <a name="remarks"></a>说明
 

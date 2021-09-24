@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MessageCount
 api_type:
 - schema
 ms.assetid: 5efc5903-fcb3-44cf-aabb-b6912268df8e
 description: MessageCount 元素包含当前文件夹中的对话项目总数。
-ms.openlocfilehash: f0b6ffce370ccf8195a9132146e062f0660163c8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: ef02d4e03136a4dead0be7e1d0fe95ff32a21e4b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468703"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523956"
 ---
 # <a name="messagecount"></a>MessageCount
 
-**MessageCount**元素包含当前文件夹中的对话项目总数。 
+**MessageCount** 元素包含当前文件夹中的对话项目总数。 
   
 [FindConversationResponse](findconversationresponse.md)
   
@@ -35,7 +35,7 @@ ms.locfileid: "44468703"
 <MessageCount/>
 ```
 
- **xs： int**
+ **xs：int**
 ## <a name="attributes-and-elements"></a>属性和元素
 
 下面各部分介绍了属性、子元素和父元素。
@@ -56,9 +56,9 @@ ms.locfileid: "44468703"
    
 ## <a name="text-value"></a>文本值
 
-**MessageCount**元素的文本值是文件夹中的会话项目总数。 
+**MessageCount** 元素的文本值是文件夹中的对话项目总数。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   

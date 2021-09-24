@@ -1,27 +1,27 @@
 ---
-title: To
+title: 到
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - To
 api_type:
 - schema
 ms.assetid: d14e46da-14bd-4a33-a78e-8ee314d9c1d8
-description: To 元素指定时区转换的目标。 目标为时区时间段或时区转换组。
-ms.openlocfilehash: 8cce700eedd64035f2e21be4db6b517f3f85d98d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: To 元素指定时区转换的目标。 目标是时区时段或一组时区转换。
+ms.openlocfilehash: 64f3f3258fd7c2bad051eabb1b33617bb056ab39
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468794"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522549"
 ---
-# <a name="to"></a>To
+# <a name="to"></a>到
 
-**To**元素指定时区转换的目标。 目标为时区时间段或时区转换组。 
+To 元素指定时区转换的目标。 目标是时区时段或一组时区转换。 
   
 ```xml
 <To Kind=""/>
@@ -36,14 +36,14 @@ ms.locfileid: "44468794"
 
 |**属性**|**说明**|
 |:-----|:-----|
-|Kind  <br/> |指示时区转换目标是时区转换的时间段还是一组时区转换。  <br/> |
+|Kind  <br/> |指示时区转换目标是时区时段还是一组时区转换。  <br/> |
    
-#### <a name="kind-attribute-values"></a>Kind 属性值
+#### <a name="kind-attribute-values"></a>类型属性值
 
 |**值**|**说明**|
 |:-----|:-----|
-|句点  <br/> |指定时区转换目标为时区时间段。  <br/> |
-|Group  <br/> |指定时区转换目标是一组时区转换。  <br/> |
+|Period  <br/> |指定时区转换目标为时区时间段。  <br/> |
+|Group  <br/> |指定时区转换目标为一组时区转换。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -51,20 +51,20 @@ ms.locfileid: "44468794"
   
 ### <a name="parent-elements"></a>父元素
 
-|**元素**|**描述**|
+|**元素**|**说明**|
 |:-----|:-----|
-|[AbsoluteDateTransition](absolutedatetransition.md) <br/> |表示在特定日期和特定时间发生的时区转换。  <br/> |
+|[AbsoluteDateTransition](absolutedatetransition.md) <br/> |表示特定日期和特定时间发生的时区转换。  <br/> |
 |[RecurringDayTransition](recurringdaytransition.md) <br/> |表示时区转换发生在每年的同一天。  <br/> |
-|[RecurringDateTransition](recurringdatetransition.md) <br/> |表示在指定的一年中的某一天发生的时区转换。  <br/> |
-|[移交](transition.md) <br/> |表示时区转换。  <br/> |
+|[RecurringDateTransition](recurringdatetransition.md) <br/> |表示在一年中的指定日期发生的时区转换。  <br/> |
+|[Transition](transition.md) <br/> |表示时区转换。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-Text 值是一个字符串，它指定作为时区转换目标的[句点](period.md)或[TransitionsGroup](transitionsgroup.md)的唯一标识符。 
+文本值是一个字符串，用于指定作为时区转换目标的 [Period](period.md) 或 [TransitionsGroup](transitionsgroup.md) 的唯一标识符。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-描述此元素的架构位于运行 Microsoft Exchange Server 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
+描述此元素的架构位于运行安装了客户端访问服务器角色Microsoft Exchange Server的计算机的 EWS 虚拟目录中。
   
 ## <a name="element-information"></a>元素信息
 

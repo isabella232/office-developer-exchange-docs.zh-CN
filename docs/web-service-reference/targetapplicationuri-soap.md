@@ -1,22 +1,22 @@
 ---
-title: TargetApplicationUri （SOAP）
+title: TargetApplicationUri (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e13c0edd-2ab1-49bb-a993-54a8db2dfbb9
-description: TargetApplicationUri 元素定义目标应用程序 URI。 TargetApplicationUri 元素仅供内部使用。 客户端不使用此元素。
-ms.openlocfilehash: 88968aac604b77cd057dbc69c396227a489ac9a8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: TargetApplicationUri 元素定义目标应用程序 URI。 TargetApplicationUri 元素仅供内部使用。 此元素不由客户端使用。
+ms.openlocfilehash: 3bed26b697fc3638782de5abd53a68fd04f031e6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457086"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522570"
 ---
-# <a name="targetapplicationuri-soap"></a>TargetApplicationUri （SOAP）
+# <a name="targetapplicationuri-soap"></a>TargetApplicationUri (SOAP)
 
-**TargetApplicationUri**元素定义目标应用程序 URI。 **TargetApplicationUri**元素仅供内部使用。 客户端不使用此元素。 
+**TargetApplicationUri** 元素定义目标应用程序 URI。 **TargetApplicationUri** 元素仅供内部使用。 此元素不由客户端使用。 
   
 ```XML
 <TargetApplicationUri/>
@@ -39,9 +39,9 @@ ms.locfileid: "44457086"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[OrganizationRelationshipSettings （SOAP）](organizationrelationshipsettings-soap.md) <br/> |表示单个组织的组织关系列表  <br/> |
+|[OrganizationRelationshipSettings (SOAP)](organizationrelationshipsettings-soap.md) <br/> |表示单个组织的组织关系列表  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素定义外部组织的目标 URI。
   
@@ -58,5 +58,5 @@ ms.locfileid: "44457086"
 
 
 
-[GetOrganizationRelationshipSettings 操作（SOAP）](getorganizationrelationshipsettings-operation-soap.md)
+[GetOrganizationRelationshipSettings 操作 (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
 

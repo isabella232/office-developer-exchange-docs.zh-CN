@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SIPResponseText
 api_type:
 - schema
 ms.assetid: 359a9085-50c0-4c94-8a12-216339ba2018
 description: SIPResponseText 元素指定 SIP 响应文本。
-ms.openlocfilehash: 6249e4bb651ba62eb99537d0cdec5bea60670f61
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 34ea11b91aef777c2e40d62946847be00eac0dc3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460461"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521359"
 ---
 # <a name="sipresponsetext"></a>SIPResponseText
 
-**SIPResponseText**元素指定 SIP 响应文本。 
+**SIPResponseText** 元素指定 SIP 响应文本。 
   
 ```xml
 <SIPResponseText/>
@@ -50,9 +50,9 @@ ms.locfileid: "44460461"
 
 SIP 响应文本。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-描述此元素的架构位于安装了客户端访问服务器角色的运行 Exchange Server 的计算机的/ews/目录中。
+描述此元素的架构位于在安装了客户端访问服务器角色Exchange Server运行的计算机的 /ews/ 目录中。
   
 ## <a name="element-information"></a>元素信息
 

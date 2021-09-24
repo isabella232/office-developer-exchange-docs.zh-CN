@@ -1,30 +1,30 @@
 ---
-title: AcceptableResponseSchema （POX）
+title: AcceptableResponseSchema (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 2f0f77bd-4cbe-4c02-880d-a93b387141d9
 description: AcceptableResponseSchema 元素标识自动发现响应的架构。
-ms.openlocfilehash: ffc06f33144af7c8f06e81a12bcb5077719b15b8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 96a3957683879897377c3182bc8b5a95d6c7a2b5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460405"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522269"
 ---
-# <a name="acceptableresponseschema-pox"></a>AcceptableResponseSchema （POX）
+# <a name="acceptableresponseschema-pox"></a>AcceptableResponseSchema (POX)
 
-**AcceptableResponseSchema**元素标识自动发现响应的架构。 
+**AcceptableResponseSchema** 元素标识自动发现响应的架构。 
   
-- [自动发现（POX）](autodiscover-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md)
   
-- [请求（POX）](request-pox.md)
+- [Request (POX)](request-pox.md)
   
-- [AcceptableResponseSchema （POX）](acceptableresponseschema-pox.md)
+- [AcceptableResponseSchema (POX)](acceptableresponseschema-pox.md)
   
 ```xml
 <AcceptableResponseSchema/>
@@ -46,13 +46,13 @@ ms.locfileid: "44460405"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[请求（POX）](request-pox.md) <br/> |包含对自动发现服务的请求。  <br/> |
+|[Request (POX)](request-pox.md) <br/> |包含对自动发现服务的请求。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-该文本值标识自动发现响应架构的位置。
+文本值标识自动发现响应架构的位置。
   
 ## <a name="see-also"></a>另请参阅
 
-- [Exchange 的 POX 自动发现 XML 元素](pox-autodiscover-xml-elements-for-exchange.md)
+- [用于存储的 POX 自动发现 XML Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

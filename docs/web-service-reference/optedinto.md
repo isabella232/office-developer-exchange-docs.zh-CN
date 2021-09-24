@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 083a23d9-acc3-4c15-9d30-c20bf7e6808d
-description: OptedInto 元素指定一个布尔值，该值指示用户是否选择保留策略。
-ms.openlocfilehash: 1095a8c2527546b8c945dd7efb5c0218f9a151c8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: OptedInto 元素指定一个布尔值，该值指示用户是否选择加入保留策略。
+ms.openlocfilehash: 6dbfe898ad6eb3141b265d51c8ec0cb830916a9d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468766"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518062"
 ---
 # <a name="optedinto"></a>OptedInto
 
-**OptedInto**元素指定一个布尔值，该值指示用户是否选择保留策略。 
+**OptedInto** 元素指定一个布尔值，该值指示用户是否选择加入保留策略。 
   
 ```XML
 <OptedInto>true | false</OptedInto>
@@ -38,13 +38,13 @@ ms.locfileid: "44468766"
   
 ### <a name="parent-elements"></a>父元素
 
-[Get-retentionpolicytag](retentionpolicytag.md)
+[RetentionPolicyTag](retentionpolicytag.md)
   
 ## <a name="text-value"></a>文本值
 
-如果**OptedInto**元素的文本值为**true** ，则指示用户选择保留策略。 **如果值为 false** ，则表示用户未选择保留策略。 
+**OptedInto** 元素的文本值 **true** 指示用户已选择加入保留策略。 false **值表示** 用户未选择加入保留策略。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

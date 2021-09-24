@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - StatusFrequency
 api_type:
 - schema
 ms.assetid: 917474e2-a426-4166-b825-53783a41dad4
-description: StatusFrequency 元素表示服务器尝试重试的最大超时值（以分钟为单位）。
-ms.openlocfilehash: db14ecfd54584188b3da16bb369db6c8089c70f4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: StatusFrequency 元素表示服务器尝试重试的最大超时值（分钟）。
+ms.openlocfilehash: f0359bab58167bbe7be5cce8c250240bebc7cc08
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468241"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525531"
 ---
 # <a name="statusfrequency"></a>StatusFrequency
 
-**StatusFrequency**元素表示服务器尝试重试的最大超时值（以分钟为单位）。 
+**StatusFrequency** 元素表示服务器尝试重试的最大超时值（分钟）。 
   
-[订阅](subscribe.md)
+[Subscribe](subscribe.md)
   
 [PushSubscriptionRequest](pushsubscriptionrequest.md)
   
@@ -54,24 +54,24 @@ ms.locfileid: "44468241"
    
 ## <a name="text-value"></a>文本值
 
-如果使用此元素，则需要一个表示整数的文本值。 此元素的可能值为1到1440（包含这两个值）。 此元素为可选。 默认值为 30 分钟。
+如果使用此元素，则代表整数的文本值是必需的。 此元素的可能值为 1 到 1440（包括 1 和 1440）。 此元素为可选。 默认值为 30 分钟。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-当服务器未收到对推送通知或来自客户端的状态 ping 的响应时，服务器使用**StatusFrequency**值重试推送通知。 如果服务器没有收到响应，则在停止发送通知之前，它会多次重试发送通知。 在 EWS 中，默认重试间隔为30秒，随后重试次数始终为上次重试间隔的时间的两倍。 重试次数并不完全取决于服务器上的其他负载是否会延迟。 下表显示了在由默认**StatusFrequency**值（假定服务器未遇到任何延迟）分配的30分钟内重试间隔的发生方式。 
+当服务器未收到来自客户端的推送通知响应或状态 ping 时，它使用 **StatusFrequency** 值重试推送通知。 如果服务器未收到响应，它会在停止发送通知之前多次重试发送通知。 在 EWS 中，默认重试间隔为 30 秒，后续重试时间始终为上次重试间隔的两倍。 重试时间并不精确，因为它们可能会由于服务器上其他负载而延迟。 下表显示了在 30 分钟内重试间隔如何发生，该间隔由默认 **StatusFrequency** 值 (假定服务器未遇到任何延迟) 。 
   
 |**重试**|**秒**|**Time**|
 |:-----|:-----|:-----|
 |0  <br/> |0  <br/> |初始同步  <br/> |
-|1   <br/> |30  <br/> |00:30  <br/> |
-|双面  <br/> |60  <br/> |01:00  <br/> |
-|第三章  <br/> |120  <br/> |02:00  <br/> |
+|1  <br/> |30  <br/> |00:30  <br/> |
+|2  <br/> |60  <br/> |01:00  <br/> |
+|3  <br/> |120  <br/> |02:00  <br/> |
 |4   <br/> |240  <br/> |04:00  <br/> |
-|5   <br/> |480  <br/> |08:00  <br/> |
+|5  <br/> |480  <br/> |08:00  <br/> |
 |6   <br/> |960  <br/> |16:00  <br/> |
-|7   <br/> |1920  <br/> |32:00-超过**StatusFrequency**的默认值30，不发送重试  <br/> |
+|7   <br/> |1920  <br/> |32：00 - **StatusFrequency** 默认值超过 30，未发送重试  <br/> |
    
-如果客户端在超过**StatusFrequency**指定时间的一段时间内未收到来自服务器的通知消息，客户端应执行重新创建订阅等操作。 
+如果客户端在超过 **StatusFrequency** 指定的两倍的时间的一段时间内没有收到来自服务器的通知消息，则客户端应执行一些操作，如重新创建订阅。 
   
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -92,7 +92,7 @@ ms.locfileid: "44468241"
   
 [GetEvents 操作](getevents-operation.md)
   
-[取消订阅操作](unsubscribe-operation.md)
+[Unsubscribe 操作](unsubscribe-operation.md)
   
 [Watermark](watermark.md)
 

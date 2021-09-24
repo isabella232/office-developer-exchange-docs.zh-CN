@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AssignCategories
 api_type:
 - schema
 ms.assetid: f5c73fed-7b00-446d-8296-71a0c86e7fc6
 description: AssignCategories 元素表示在电子邮件上标记的类别。
-ms.openlocfilehash: e2dad0e2ef46421ae92a0d2826d161e5e2af3b93
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 9ef23f03f54f0c10ed8bdbf287f949119626cd51
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464740"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525216"
 ---
 # <a name="assigncategories"></a>AssignCategories
 
-**AssignCategories**元素表示在电子邮件上标记的类别。 
+**AssignCategories** 元素表示在电子邮件上标记的类别。 
   
 - [规则 (RuleType)](rule-ruletype.md)
   
@@ -46,7 +46,7 @@ ms.locfileid: "44464740"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[字符串](string.md) <br/> |包含用于标识单个类别的字符串。  <br/> |
+|[字符串](string.md) <br/> |包含标识单个类别的字符串。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -58,7 +58,7 @@ ms.locfileid: "44464740"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

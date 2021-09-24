@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Rule
 api_type:
 - schema
 ms.assetid: c30f3851-bd56-4473-9106-dc85e9619486
-description: Rule 元素包含一个保护规则。
-ms.openlocfilehash: 6c18a2bd026893cd333bc7007203abf04a6f0be7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Rule 元素包含单个保护规则。
+ms.openlocfilehash: 45fb13ae6e1aacb78e7e8520f8678097796e339f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464999"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517873"
 ---
 # <a name="rule"></a>Rule
 
-**Rule**元素包含一个保护规则。 
+**Rule** 元素包含单个保护规则。 
   
 ```XML
 <Rule Name="" UserOverridable=="" Priority="">
@@ -39,28 +39,28 @@ ms.locfileid: "44464999"
 
 |**属性**|**说明**|
 |:-----|:-----|
-|**名称** <br/> |标识规则的名称。 一个必需的 string 类型的属性，最小长度为1。  <br/> |
-|**UserOverridable** <br/> |指定规则是否是必需的。 如果规则是必需的，则此属性值必须为**false**。 一个 Boolean 类型的必需属性。  <br/> |
-|**Priority** <br/> |指定规则优先级。 类型为 int 且最小值为1的必需属性。  <br/> |
+|**名称** <br/> |标识规则的名称。 字符串类型的必需属性，最小长度为 1。  <br/> |
+|**UserOverridable** <br/> |指定规则是否是必需的。 如果该规则是必需的，则此属性值必须为 **false**。 Boolean 类型的必需属性。  <br/> |
+|**优先级** <br/> |指定规则优先级。 int 类型的必需属性，最小值为 1。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
 |**元素**|**说明**|
 |:-----|:-----|
 |[条件](condition.md) <br/> |确定要执行该规则的操作部分必须满足的条件。  <br/> |
-|[Action （ProtectionRuleActionType）](action-protectionruleactiontype.md) <br/> |确定当规则的条件部分匹配时，必须执行的操作。  <br/> |
+|[Action (ProtectionRuleActionType)](action-protectionruleactiontype.md) <br/> |标识在规则的条件部分匹配时必须执行的操作。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[原则](rules-ex15websvcsotherref.md) <br/> |包含保护规则的数组。  <br/> |
+|[规则 ](rules-ex15websvcsotherref.md) <br/> |包含一组保护规则。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

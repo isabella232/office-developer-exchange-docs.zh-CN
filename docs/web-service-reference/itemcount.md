@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 47e42f5d-d3cb-4ee2-8370-1fd0539b6ee6
-description: ItemCount 元素指定搜索结果中的总项目数。
-ms.openlocfilehash: 9635d22356e729b770505d399e91218cf1581d6e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ItemCount 元素指定搜索结果中的项目总数。
+ms.openlocfilehash: 1f59cef2244bc2341cbc066187a5c2b9bfcdf658
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461770"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525006"
 ---
 # <a name="itemcount"></a>ItemCount
 
-**ItemCount**元素指定搜索结果中的总项目数。 
+**ItemCount** 元素指定搜索结果中的项目总数。 
   
 ```XML
 <ItemCount></ItemCount>
@@ -42,9 +42,9 @@ ms.locfileid: "44461770"
   
 ## <a name="text-value"></a>文本值
 
-**ItemCount**元素的文本值标识搜索结果中的总项数。 
+**ItemCount** 元素的文本值标识搜索结果中的项目总数。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

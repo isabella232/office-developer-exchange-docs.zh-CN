@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DayQuality
 api_type:
 - schema
 ms.assetid: cd0eb239-6e7f-4a5a-b245-659f170550b7
-description: DayQuality 元素表示用于包含质量建议会议时间的日的质量。
-ms.openlocfilehash: 41cc8313dccb1a5172fefc167e6ed90a21109ec5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DayQuality 元素表示一天中用于包含建议会议时间的质量。
+ms.openlocfilehash: 849ce4bef88c8c77223b03ce209ca31d857c906c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455112"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525118"
 ---
 # <a name="dayquality"></a>DayQuality
 
-**DayQuality**元素表示用于包含质量建议会议时间的日的质量。 
+**DayQuality** 元素表示一天中用于包含建议会议时间的质量。 
   
 - [GetUserAvailabilityResponse](getuseravailabilityresponse.md)  
 - [SuggestionsResponse](suggestionsresponse.md) 
@@ -51,7 +51,7 @@ ms.locfileid: "44455112"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[SuggestionDayResult](suggestiondayresult.md) <br/> |表示包含建议会议时间的一天。  <br/><br/>以下是此元素的 XPath 2.0 表达式：<br/><br/>`/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]` <br/> |
+|[SuggestionDayResult](suggestiondayresult.md) <br/> |表示包含建议的会议时间的单天。  <br/><br/>下面是此元素的 XPath 2.0 表达式：<br/><br/>`/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]` <br/> |
    
 ## <a name="text-value"></a>文本值
 
@@ -59,7 +59,7 @@ ms.locfileid: "44455112"
   
 - **极好**   
 - **Good**    
-- **大量**    
+- **Fair**    
 - **较差**
     
 ## <a name="remarks"></a>说明

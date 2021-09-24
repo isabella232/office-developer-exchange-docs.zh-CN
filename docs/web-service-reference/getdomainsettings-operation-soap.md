@@ -4,27 +4,27 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: a6f4a53d-d7f6-4ad1-8afb-78745c500eaa
-description: GetDomainSettings 操作为用户检索域的指定设置。 自动发现将返回要发现的域以及这些域的请求设置。
-ms.openlocfilehash: fd655e088b73372bc1dd68a740ebc2b516d1804a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetDomainSettings 操作检索用户的域的指定设置。 自动发现返回要发现的域以及这些域的请求设置。
+ms.openlocfilehash: 7f52ea840bd7f46198d95ba5f0c07894873cf6e5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460965"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525048"
 ---
 # <a name="getdomainsettings-operation-soap"></a>GetDomainSettings 操作 (SOAP)
 
-**GetDomainSettings**操作为用户检索域的指定设置。 自动发现将返回要发现的域以及这些域的请求设置。 
+**GetDomainSettings** 操作检索用户的域的指定设置。 自动发现返回要发现的域以及这些域的请求设置。 
   
 ## <a name="getdomainsettings-request-example"></a>GetDomainSettings 请求示例
 
 ### <a name="description"></a>Description
 
-以下示例的**GetDomainSettings**请求显示了对用户的**ExternalEWSUrl**域设置的请求。 客户端将此请求发送到服务器。 
+**GetDomainSettings** 请求的以下示例显示用户 **ExternalEWSUrl** 域设置的请求。 客户端将此请求发送到服务器。 
   
 ### <a name="code"></a>代码
 
@@ -58,27 +58,27 @@ ms.locfileid: "44460965"
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Request 元素
+### <a name="request-elements"></a>请求元素
 
-请求中使用以下元素：
+请求中会使用下列元素：
   
-- [GetDomainSettingsRequestMessage （SOAP）](getdomainsettingsrequestmessage-soap.md)
+- [GetDomainSettingsRequestMessage (SOAP)](getdomainsettingsrequestmessage-soap.md)
     
 - [请求 (SOAP)](request-soap.md)
     
-- [域（SOAP）](domains-soap.md)
+- [Domains (SOAP)](domains-soap.md)
     
-- [域（SOAP）](domain-soap.md)
+- [Domain (SOAP)](domain-soap.md)
     
-- [RequestedSettings （SOAP）](requestedsettings-soap.md)
+- [RequestedSettings (SOAP)](requestedsettings-soap.md)
     
-- [设置（SOAP）](setting-soap.md)
+- [Setting (SOAP)](setting-soap.md)
     
 ## <a name="getdomainsettings-response-example"></a>GetDomainSettings 响应示例
 
 ### <a name="description"></a>Description
 
-下面的示例演示对服务器发送到客户端的**GetDomainSettings**请求的成功响应。 
+以下示例显示服务器发送给客户端的 **GetDomainSettings** 请求的成功响应。 
   
 ### <a name="code"></a>代码
 
@@ -124,31 +124,31 @@ ms.locfileid: "44460965"
 
 ### <a name="response-elements"></a>Response 元素
 
-响应中使用以下元素：
+响应中会使用下列元素：
   
-- [GetDomainSettingsResponseMessage （SOAP）](getdomainsettingsresponsemessage-soap.md)
+- [GetDomainSettingsResponseMessage (SOAP)](getdomainsettingsresponsemessage-soap.md)
     
-- [响应（SOAP）](response-soap.md)
+- [Response (SOAP)](response-soap.md)
     
-- [ErrorCode （SOAP）](errorcode-soap.md)
+- [ErrorCode (SOAP)](errorcode-soap.md)
     
-- [ErrorMessage （SOAP）](errormessage-soap.md)
+- [ErrorMessage (SOAP)](errormessage-soap.md)
     
-- [DomainResponses （SOAP）](domainresponses-soap.md)
+- [DomainResponses (SOAP)](domainresponses-soap.md)
     
-- [DomainResponse （SOAP）](domainresponse-soap.md)
+- [DomainResponse (SOAP)](domainresponse-soap.md)
     
-- [DomainSettingErrors （SOAP）](domainsettingerrors-soap.md)
+- [DomainSettingErrors (SOAP)](domainsettingerrors-soap.md)
     
-- [DomainSettings （SOAP）](domainsettings-soap.md)
+- [DomainSettings (SOAP)](domainsettings-soap.md)
     
-- [DomainSetting （SOAP）](domainsetting-soap.md)
+- [DomainSetting (SOAP)](domainsetting-soap.md)
     
-- [名称（SOAP）](name-soap.md)
+- [Name (SOAP)](name-soap.md)
     
-- [Value （SOAP）](value-soap.md)
+- [Value (SOAP)](value-soap.md)
     
-- [RedirectTarget （SOAP）](redirecttarget-soap.md)
+- [RedirectTarget (SOAP)](redirecttarget-soap.md)
     
 ## <a name="see-also"></a>另请参阅
 

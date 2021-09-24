@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0c1df5e2-b56a-4947-a047-2b73b32e5fb7
-description: RetentionDate 元素指定项目必须保留的最后一个日期。
-ms.openlocfilehash: a1b109414d02814f9ede74c59796d5a1ff042da5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: RetentionDate 元素指定项目必须保留的最后一天。
+ms.openlocfilehash: d8c2b0af08f00d6363f30cf49a3bd84a33f9071b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465224"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517929"
 ---
 # <a name="retentiondate"></a>RetentionDate
 
-**RetentionDate**元素指定项目必须保留的最后一个日期。 
+**RetentionDate** 元素指定项目必须保留的最后一天。 
   
 ```XML
 <RetentionDate></RetentionDate>
@@ -38,13 +38,13 @@ ms.locfileid: "44465224"
   
 ### <a name="parent-elements"></a>父元素
 
-[SearchPreviewItem](searchpreviewitem.md)  | [项](item.md)  | [联系人](contact.md)  | [邮件](message-ex15websvcsotherref.md)  | [DistributionList](distributionlist.md)  | [CalendarItem](calendaritem.md)  | [PostItem](postitem.md)  | [任务](task.md)
+[SearchPreviewItem](searchpreviewitem.md)  | [Item](item.md)  | [联系人](contact.md)  | [邮件](message-ex15websvcsotherref.md)  | [DistributionList](distributionlist.md)  | [CalendarItem](calendaritem.md)  | [PostItem](postitem.md)  | [任务](task.md)
   
 ## <a name="text-value"></a>文本值
 
-**RetentionDate**元素的文本值表示不应再保留项目的日期。 
+**RetentionDate** 元素的文本值表示不再保留项目的日期。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

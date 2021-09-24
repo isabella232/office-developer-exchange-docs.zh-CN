@@ -5,47 +5,47 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8a67c1d8-d021-4e68-aa62-35f7d9c2edc7
 description: 查找有关 SearchMailboxes EWS 操作的信息。
-ms.openlocfilehash: 9ec7e9dd4ef17f22f236e64ca1fdbeb65e6e56fe
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 6e154525f5ff2c3d4f24ddc50e1dae1b04a891ba
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456751"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521676"
 ---
 # <a name="searchmailboxes-operation"></a>SearchMailboxes 操作
 
 > [!NOTE]
-> 此操作已弃用，Microsoft 不再支持它。  作为替换，请使用[FindItem](finditem-operation.md)操作。
+> 此操作已弃用，并且不再受 Microsoft 支持。  作为替代，请使用 [FindItem](finditem-operation.md) 操作。
 
-查找有关**SearchMailboxes** EWS 操作的信息。 
+查找有关 **SearchMailboxes** EWS 操作的信息。 
   
-**SearchMailboxes**操作在邮箱中搜索邮箱项目中出现的术语。 
+**SearchMailboxes** 操作在邮箱邮箱中搜索字词在邮箱项中的出现次数。 
   
 Exchange Server 2013 中引入了此操作。
   
 ## <a name="using-the-searchmailboxes-operation"></a>使用 SearchMailboxes 操作
 
-**SearchMailboxes**操作可以使用多个同时进行的搜索查询对多个邮箱执行发现搜索。 结果可以是有关搜索词发生次数的统计信息，也可以是包含搜索词的项目的预览。 
+**SearchMailboxes** 操作可以使用许多同时搜索查询在多个邮箱上执行发现搜索。 结果可以是有关搜索词出现次数的统计信息，或者是包含搜索词的项目预览。 
   
 ### <a name="searchmailboxes-operation-soap-headers"></a>SearchMailboxes 操作 SOAP 标头
 
-**SearchMailboxes**操作可以使用下表中列出的 SOAP 标头。 
+**SearchMailboxes** 操作可以使用下表中列出的 SOAP 标头。 
   
 |**标头名称**|**元素**|**说明**|
 |:-----|:-----|:-----|
-|**Get-managementrole** <br/> |[Get-managementrole](managementrole.md) <br/> |标识调用方发出请求所需的服务器角色。 此标头适用于请求。  <br/> |
+|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |标识调用方进行请求所需的服务器角色。 此标头适用于请求。  <br/> |
 |**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。 此标头适用于请求。  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器版本。 此标头适用于响应。  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器的版本。 此标头适用于响应。  <br/> |
    
-## <a name="searchmailboxes-operation-request-example-search-mailboxes-for-number-of-search-term-hits"></a>SearchMailboxes 操作请求示例：搜索邮箱中搜索词命中数
+## <a name="searchmailboxes-operation-request-example-search-mailboxes-for-number-of-search-term-hits"></a>SearchMailboxes 操作请求示例：搜索邮箱搜索搜索词命中数
 
-下面的**SearchMailboxes**操作请求示例演示如何使用两个不同的查询来搜索三个不同的邮箱，以获取有关每个邮箱中某个术语出现次数的统计信息。 
+下面的 **SearchMailboxes** 操作请求示例演示如何使用两个不同的查询来搜索三个不同的邮箱，以查找有关术语在每个邮箱中出现多少次的统计信息。 
   
 > [!NOTE]
-> 在此示例中，将 intentionaly 的[查询](query.md)元素留空。 这说明了成功的请求如何基于每个邮箱搜索来包含错误条件。 
+> 本示例中 [，Query](query.md) 元素有意保留为空。 这显示成功请求如何基于每个邮箱搜索包含错误条件。 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -110,7 +110,7 @@ Exchange Server 2013 中引入了此操作。
     
 ## <a name="successful-searchmailboxes-operation-response"></a>成功的 SearchMailboxes 操作响应
 
-下面的示例演示对**SearchMailboxes**操作请求的成功响应，以获取有关在目标邮箱中找到的搜索词次数的统计信息。 最后一个查询包含一个空的**查询**元素，该元素显示失败的邮箱搜索。 
+以下示例显示了对 **SearchMailboxes** 操作请求的成功响应，以获取有关在目标邮箱中查找搜索词次数的统计信息。 最后一个查询包含一个空 **的 Query** 元素，该元素显示失败的邮箱搜索。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -208,7 +208,7 @@ Exchange Server 2013 中引入了此操作。
     
 - [ItemCount](itemcount.md)
     
-- [大小（long）](size-long.md)
+- [Size (long)](size-long.md)
     
 - [PageItemCount](pageitemcount.md)
     
@@ -234,7 +234,7 @@ Exchange Server 2013 中引入了此操作。
     
 ## <a name="searchmailboxes-operation-error-response"></a>SearchMailboxes 操作错误响应
 
-下面的示例演示对**SearchMailboxes**操作请求的错误响应。 这是对邮箱标识符不正确时搜索邮箱的请求的响应。 
+以下示例显示对 **SearchMailboxes** 操作请求的错误响应。 这是对邮箱标识符不正确时搜索邮箱的请求的响应。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -325,7 +325,7 @@ Exchange Server 2013 中引入了此操作。
     
 - [ItemCount](itemcount.md)
     
-- [大小（long）](size-long.md)
+- [Size (long)](size-long.md)
     
 - [PageItemCount](pageitemcount.md)
     
@@ -343,11 +343,11 @@ Exchange Server 2013 中引入了此操作。
     
 - [IsArchive](isarchive.md)
     
-有关对 EWS 通用的其他错误代码以及特定于此操作的错误代码，请参阅[ResponseCode](responsecode.md)。
+有关 EWS 通用且特定于此操作的其他错误代码，请参阅 [ResponseCode](responsecode.md)。
   
 ## <a name="see-also"></a>另请参阅
 
-- [Exchange 中的 EWS 操作](ews-operations-in-exchange.md)
+- [EWS 操作在Exchange](ews-operations-in-exchange.md)
     
 - [GetSearchableMailboxes 操作](getsearchablemailboxes-operation.md)
     

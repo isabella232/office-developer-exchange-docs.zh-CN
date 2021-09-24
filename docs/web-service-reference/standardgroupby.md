@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - StandardGroupBy
 api_type:
 - schema
 ms.assetid: 04a84f71-b7eb-44dc-ac2c-ed504b52c463
 description: StandardGroupBy 元素表示分组 FindItem 操作的标准分组和聚合机制。
-ms.openlocfilehash: 3e135feba322979de3d66d5a45d423654ccc9100
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: b19157b9ff3a19379880b7f6b9c52835c170df21
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467555"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521275"
 ---
 # <a name="standardgroupby"></a>StandardGroupBy
 
-**StandardGroupBy**元素表示分组 FindItem 操作的标准分组和聚合机制。 
+**StandardGroupBy** 元素表示分组 FindItem 操作的标准分组和聚合机制。 
   
 [FindItem](finditem.md)
   
@@ -50,11 +50,11 @@ ms.locfileid: "44467555"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[DistinguishedGroupBy](distinguishedgroupby.md) <br/> |提供 FindItem 查询的标准分组。  <br/> |
+|[DistinguishedGroupBy](distinguishedgroupby.md) <br/> |为 FindItem 查询提供标准分组。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-文本值是必需的。 可用于此元素的唯一值是**ConversationTopic**。 **ConversationTopic**按邮件分组： ConversationTopic 和项目合计： DateTimeReceived （最大值）。 有关聚合的详细信息，请参阅[AggregateOn](aggregateon.md)。
+文本值是必需的。 此元素可以使用的唯一值是 **ConversationTopic**。 **ConversationTopic** 组，按 message：ConversationTopic 和 item：DateTimeReceived 聚合 (最大) 。 有关聚合的信息，请参阅 [AggregateOn](aggregateon.md)。
   
 ## <a name="remarks"></a>说明
 

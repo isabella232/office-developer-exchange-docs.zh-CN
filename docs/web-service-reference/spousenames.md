@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e18f46fe-ab83-4df1-b1a5-9c8e73173ccf
-description: SpouseNames 元素指定配偶或合作伙伴名称的数组以及关联角色的源归属的标识符。
-ms.openlocfilehash: 9b7960e7aee8652d16561f8dd2eb3d891fb8d694
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SpouseNames 元素指定配偶或合作伙伴名称的数组，以及其关联人物的源属性的标识符。
+ms.openlocfilehash: 6856674db8ef1e636631c2b381f5b21bbc857495
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467625"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521303"
 ---
 # <a name="spousenames"></a>SpouseNames
 
-**SpouseNames**元素指定配偶或合作伙伴名称的数组以及关联角色的源归属的标识符。 
+**SpouseNames** 元素指定配偶或合作伙伴名称的数组，以及其关联人物的源属性的标识符。 
   
 ```XML
 <SpouseNames>
@@ -42,7 +42,7 @@ ms.locfileid: "44467625"
 
 [角色](persona.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

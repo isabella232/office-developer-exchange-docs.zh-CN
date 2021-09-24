@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - YomiLastName
 api_type:
 - schema
 ms.assetid: 8dd97506-de8a-48ac-bc72-35b4db886588
-description: YomiLastName 元素表示在日本用于日语姓氏的可搜索或拼音拼写的名称。
-ms.openlocfilehash: ee85400a1516dfa428e4d378b2fa333fb6556896
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: YomiLastName 元素表示日本用于日语姓氏的可搜索或拼音拼写的名称。
+ms.openlocfilehash: 6eef982fec7a169aa9ed1372d32479d6ee4eed7e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467107"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522290"
 ---
 # <a name="yomilastname"></a>YomiLastName
 
-**YomiLastName**元素表示在日本用于日语姓氏的可搜索或拼音拼写的名称。 
+**YomiLastName** 元素表示日本用于日语姓氏的可搜索或拼音拼写的名称。 
   
 ```xml
 <YomiLastName/>

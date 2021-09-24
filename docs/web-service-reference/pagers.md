@@ -1,23 +1,23 @@
 ---
-title: 机
+title: Pagers
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fde3caef-ebbe-4a0b-a839-b1fb8157dcb4
-description: 呼机元素指定呼机电话号码的数组以及关联角色的源归属的标识符。
-ms.openlocfilehash: 196fae886d5a12bc03e0688c2be15e4fbd22e443
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Pagers 元素指定寻呼机电话号码的数组及其关联人物的源属性的标识符。
+ms.openlocfilehash: 517e7bf4318e6d48b6c6a2177a7d14aacb236a03
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462323"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521737"
 ---
-# <a name="pagers"></a>机
+# <a name="pagers"></a>Pagers
 
-**呼机**元素指定呼机电话号码的数组以及关联角色的源归属的标识符。 
+**Pagers** 元素指定寻呼机电话号码的数组及其关联人物的源属性的标识符。 
   
 ```XML
 <Pagers>
@@ -43,7 +43,7 @@ ms.locfileid: "44462323"
 
 [角色](persona.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

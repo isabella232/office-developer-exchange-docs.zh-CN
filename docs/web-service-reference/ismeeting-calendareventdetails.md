@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsMeeting
 api_type:
 - schema
 ms.assetid: dd6900e4-e4a3-471a-909d-7240ebec501b
-description: IsMeeting 元素指示日历事件是否为会议或约会。
-ms.openlocfilehash: b75dfba203177d6451f3847bf8d1f68014612e1c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: IsMeeting 元素指示日历事件是会议还是约会。
+ms.openlocfilehash: 6d398397de9147e0c9c8b0977a8a9f46a9da3ebd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465994"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524159"
 ---
 # <a name="ismeeting-calendareventdetails"></a>IsMeeting (CalendarEventDetails)
 
-**IsMeeting**元素指示日历事件是否为会议或约会。 
+**IsMeeting** 元素指示日历事件是会议还是约会。 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -64,11 +64,11 @@ ms.locfileid: "44465994"
    
 ## <a name="text-value"></a>文本值
 
-如果在响应中返回此元素，则需要一个 text 值。 如果使用[CalendarEventDetails](calendareventdetails.md)元素，则此元素是必需的。 
+如果在响应中返回此元素，则文本值是必需的。 如果使用 [CalendarEventDetails](calendareventdetails.md) 元素，则此元素是必需的。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-会议和约会的区别在于会议是包含与会者的日历项目;约会是不包含与会者的日历项目。
+会议与约会的区别在于会议是包含与会者的日历项目;约会是不包括与会者的日历项目。
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

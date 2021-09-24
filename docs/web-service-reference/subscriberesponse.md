@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SubscribeResponse
 api_type:
 - schema
 ms.assetid: fd87e9b7-c231-44fa-9f5b-19ae96cda5cc
-description: SubscribeResponse 元素定义对订阅请求的响应。
-ms.openlocfilehash: 1f7079694c873aacbf44b1030e495cbe2f48d163
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SubscribeResponse 元素定义对 Subscribe 请求的响应。
+ms.openlocfilehash: b916c7f62e6c74f7732b315ed88a9e82d8d912cb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530949"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522563"
 ---
 # <a name="subscriberesponse"></a>SubscribeResponse
 
-**SubscribeResponse**元素定义对订阅请求的响应。 
+**SubscribeResponse** 元素定义对 Subscribe 请求的响应。 
   
 [SubscribeResponse](subscriberesponse.md)
   
@@ -44,13 +44,13 @@ ms.locfileid: "44530949"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |包含 Exchange Web 服务请求的响应消息。  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |包含 Web 服务请求Exchange消息。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于正在运行 Microsoft Exchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

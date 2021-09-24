@@ -1,23 +1,23 @@
 ---
-title: 别名（MasterMailboxType）
+title: Alias (MasterMailboxType)
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: db21bc31-0e83-46ea-8570-1865e90ebde7
-description: Alias （MasterMailboxType）元素仅供内部使用。
-ms.openlocfilehash: b49836a83dc0224a58b1bf0d0739d26dad26a3d3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: MasterMailboxType (的 Alias) 仅供内部使用。
+ms.openlocfilehash: 6411c8625f7057200818803415592b316440cf9c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463508"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522262"
 ---
-# <a name="alias-mastermailboxtype"></a>别名（MasterMailboxType）
+# <a name="alias-mastermailboxtype"></a>Alias (MasterMailboxType)
 
-**Alias （MasterMailboxType）** 元素仅供内部使用。 
+**MasterMailboxType** (的 Alias) 仅供内部使用。 
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
@@ -35,7 +35,7 @@ ms.locfileid: "44463508"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   

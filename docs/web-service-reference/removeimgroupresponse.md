@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 55d6f802-a32c-45c6-b53c-b8b495d1e62f
 description: RemoveImGroupResponse 元素表示对 RemoveImGroup 请求的响应。
-ms.openlocfilehash: 9cff2af802392a241f2257d42741cb2f5a0e277e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 4018c89e963b89938698ef21978f423cb3268d97
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456001"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525601"
 ---
 # <a name="removeimgroupresponse"></a>RemoveImGroupResponse
 
-**RemoveImGroupResponse**元素表示对**RemoveImGroup**请求的响应。 
+**RemoveImGroupResponse** 元素表示对 **RemoveImGroup 请求** 的响应。 
   
 ```XML
 <RemoveImGroupResponse>
@@ -45,7 +45,7 @@ ms.locfileid: "44456001"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

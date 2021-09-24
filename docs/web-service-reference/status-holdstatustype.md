@@ -1,23 +1,23 @@
 ---
-title: 状态（HoldStatusType）
+title: Status (HoldStatusType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fee3f1f9-e868-49fa-a554-7ff096964718
 description: Status 元素指定邮箱的保留状态。
-ms.openlocfilehash: cecfdfaf67b00b6f8cf02188e7a4df7062a732e4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: a055dde61ae52c266f2349036c881d2b00557171
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459985"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521233"
 ---
-# <a name="status-holdstatustype"></a>状态（HoldStatusType）
+# <a name="status-holdstatustype"></a>Status (HoldStatusType)
 
-**Status**元素指定邮箱的保留状态。 
+**Status** 元素指定邮箱的保留状态。 
   
 ```XML
 <Status> NotOnHold | Pending | OnHold | PartialHold | Failed </Status>
@@ -42,19 +42,19 @@ ms.locfileid: "44459985"
   
 ## <a name="text-value"></a>文本值
 
-**Status**元素的文本值是邮箱的保留状态。 **Status**元素的值可以是下表中的值。 
+**Status** 元素的文本值是邮箱的保留状态。 **Status** 元素具有以下列表中的值。 
   
-> NotOnHold-邮箱未处于保留状态。
+> NotOnHold - 邮箱未置于保留状态。
     
-> 待处理-邮箱挂起或处于保留状态。 
+> Pending - 邮箱处于待定状态，或处于保留状态。 
     
-> OnHold-已成功将保留应用到邮箱。 
+> OnHold - 已成功将保留应用于邮箱。 
     
-> PartialHold-已成功将保留应用于某些邮箱，而不是所有邮箱。
+> PartialHold - 保留已成功应用于某些邮箱，而不是所有邮箱。
     
-> 失败-保留无法应用于邮箱。
+> 失败 - 无法将保留应用于邮箱。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

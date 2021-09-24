@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cce5344c-b622-44d4-bc14-a0de346c9335
-description: SearchArchiveOnly 元素指示是否仅搜索存档邮箱中没有可建立索引的项目。
-ms.openlocfilehash: 9014044ed06c697cc43dd62103d7a1a907bda5a8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SearchArchiveOnly 元素指示是否仅搜索存档邮箱中的不可索引项目。
+ms.openlocfilehash: a4766e101394bb83a0dcebdfe5b92f576f4a4160
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460496"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521675"
 ---
 # <a name="searcharchiveonly"></a>SearchArchiveOnly
 
-**SearchArchiveOnly**元素指示是否仅搜索存档邮箱中没有可建立索引的项目。 
+**SearchArchiveOnly** 元素指示是否仅搜索存档邮箱中的不可索引项目。 
   
 ```xml
 <SearchArchiveOnly>true | false</SearchArchiveOnly>
@@ -38,13 +38,13 @@ ms.locfileid: "44460496"
   
 ### <a name="parent-elements"></a>父元素
 
-[GetNonIndexableItemStatistics](getnonindexableitemstatistics.md) │ [GetNonIndexableItemDetails](getnonindexableitemdetails.md)
+[GetNonIndexableItemStatistics](getnonindexableitemstatistics.md) ？ [GetNonIndexableItemDetails](getnonindexableitemdetails.md)
   
 ## <a name="text-value"></a>文本值
 
-如果**SearchArchiveOnly**元素的文本值为**true** ，则表示仅对存档邮箱执行非索引项目搜索。 如果文本值为**false** ，则表示对主邮箱和存档邮箱执行搜索。 
+**SearchArchiveOnly** 元素的文本值 **true** 指示仅对存档邮箱执行不可编制索引的项目搜索。 文本值 **false** 表示对主邮箱和存档邮箱执行搜索。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

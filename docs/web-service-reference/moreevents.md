@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MoreEvents
 api_type:
 - schema
 ms.assetid: 76a7ea58-a44f-49b8-baba-d21302d742ad
-description: MoreEvents 元素指示队列中是否存在要传递到客户端的更多事件。
-ms.openlocfilehash: fd12dd2e2e64ce1711e553ba5eb29bd0eb64c892
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: MoreEvents 元素指示队列中是否有更多事件要传递到客户端。
+ms.openlocfilehash: 7a19349e406a7e55e52c8a8cf0c3febba0a7301b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462729"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521807"
 ---
 # <a name="moreevents"></a>MoreEvents
 
-**MoreEvents**元素指示队列中是否存在要传递到客户端的更多事件。 
+**MoreEvents** 元素指示队列中是否有更多事件要传递到客户端。 
   
 ```xml
 <MoreEvents/>
@@ -44,17 +44,17 @@ ms.locfileid: "44462729"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[通知](notification-ex15websvcsotherref.md) <br/> |包含有关订阅以及上次通知之后发生的事件的信息。  <br/> |
+|[通知](notification-ex15websvcsotherref.md) <br/> |包含有关订阅和自上次通知以来已发生事件的信息。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-该文本值表示一个布尔值。 **如果值为 true，则**表示队列中有更多事件。 **如果值为 false** ，则表示队列中没有其他事件。 此属性是只读的。 
+文本值表示一个布尔值。 true **值表示** 队列中有更多事件。 false **值表示** 队列中不再有事件。 此属性是只读的。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-在请求通知的情况下，此元素中的**true**值指示客户端应发出另一个 GetEvents 请求，以获取剩余事件。 假定客户端规范要求的事件通知的最低延迟，则 GetEvents 请求应持续持续连续，直到返回**false** **MoreEvents**值。 
+对于 Pull 通知，此元素中的 **true** 值向客户端指示应发出另一个 GetEvents 请求以获取其余事件。 假定客户端规范需要事件通知的最小延迟，GetEvents 请求应继续连续，直到返回 **false** **MoreEvents** 值。 
   
-在推送通知的情况下， **MoreEvents**的**true**值向客户端指明将向客户端发送另一个通知请求，以传递其余事件。 与 Pull 通知类似，这些后续请求将继续连续持续连续，直到客户端访问服务器上的事件队列为空。 
+对于推送通知 **，MoreEvents** 的 **true** 值指示向客户端发送另一个通知请求以传递剩余事件。 与"拉取通知"类似，这些后续请求将继续连续进行，直到客户端访问服务器上的事件队列为空。 
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -75,5 +75,5 @@ ms.locfileid: "44462729"
   
 [GetEvents 操作](getevents-operation.md)
   
-[取消订阅操作](unsubscribe-operation.md)
+[Unsubscribe 操作](unsubscribe-operation.md)
 

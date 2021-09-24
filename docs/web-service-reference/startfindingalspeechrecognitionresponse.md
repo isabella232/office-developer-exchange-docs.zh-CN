@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: df97f1bd-9571-4b73-bb02-437541ae06a0
 description: StartFindInGALSpeechRecognitionResponse 元素仅供内部使用。
-ms.openlocfilehash: 3a1311123d9853d85cff4f1520f70400e7c426b4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 2226e891fc63e4bcc8c1c66382169a2c8ba75f8b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530301"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521254"
 ---
 # <a name="startfindingalspeechrecognitionresponse"></a>StartFindInGALSpeechRecognitionResponse
 
-**StartFindInGALSpeechRecognitionResponse**元素仅供内部使用。 
+**StartFindInGALSpeechRecognitionResponse** 元素仅供内部使用。 
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
@@ -35,7 +35,7 @@ ms.locfileid: "44530301"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

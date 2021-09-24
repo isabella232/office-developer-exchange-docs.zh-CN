@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ec32b455-59c8-4cf5-978e-bb9f255bc93c
 description: SortValue 元素指定用于排序的值。
-ms.openlocfilehash: 099cfe248de893e1b044c3e2228bfa979e9a1243
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 282879124802c30725b13bd6dbe52edb7739e126
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467254"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521373"
 ---
 # <a name="sortvalue"></a>SortValue
 
-**SortValue**元素指定用于排序的值。 
+**SortValue** 元素指定用于排序的值。 
   
 ```XML
 <SortValue></SortValue>
@@ -42,9 +42,9 @@ ms.locfileid: "44467254"
   
 ## <a name="text-value"></a>文本值
 
-[SortValue](sortvalue.md)元素的文本值是用于对结果集进行排序的字段。 
+[SortValue](sortvalue.md)元素的文本值是一个字段，用于对结果集。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

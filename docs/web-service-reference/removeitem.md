@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - RemoveItem
 api_type:
 - schema
 ms.assetid: 766878e3-9007-454f-8501-45139bc5c0e2
-description: RemoveItem 元素表示一个 response 对象，该对象用于在收到 MeetingCancellation 邮件时删除会议项目。
-ms.openlocfilehash: c0cd5c1f9894287ee78c2f7a65b8f4d3b943414e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: RemoveItem 元素表示响应对象，该对象用于接收 MeetingCancellation 消息时删除会议项目。
+ms.openlocfilehash: 4dbe9ede36bf6e3c008a2186cfe617519ecfae1f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467688"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517957"
 ---
 # <a name="removeitem"></a>RemoveItem
 
-**RemoveItem**元素表示一个 response 对象，该对象用于在收到 MeetingCancellation 邮件时删除会议项目。 
+**RemoveItem** 元素表示响应对象，该对象用于接收 MeetingCancellation 消息时删除会议项目。 
   
 ```xml
 <RemoveItem ObjectName="">
@@ -38,7 +38,7 @@ ms.locfileid: "44467688"
 
 |**属性**|**说明**|
 |:-----|:-----|
-|**ObjectName** <br/> |将 RemoveItem reply 对象类的名称表示为英文字符串。  <br/> |
+|**ObjectName** <br/> |以英语字符串形式表示 RemoveItem 答复对象类的名称。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -50,19 +50,19 @@ ms.locfileid: "44467688"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[项目（NonEmptyArrayOfAllItemsType）](items-nonemptyarrayofallitemstype.md) <br/> |包含要在由[ParentFolderId （TargetFolderIdType）](parentfolderid-targetfolderidtype.md)元素标识的文件夹中创建的项的数组。  <br/> |
-|[ResponseObjects](responseobjects.md) <br/> |包含与 Exchange 存储中的项目关联的所有响应对象的集合。  <br/> |
+|[Items (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md) <br/> |包含在由 [TargetFolderIdType 元素的 ParentFolderId ](parentfolderid-targetfolderidtype.md) (标识的文件夹中) 数组。  <br/> |
+|[ResponseObjects](responseobjects.md) <br/> |包含与项目存储中的项目关联的所有响应Exchange的集合。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
- **RemoveItem**仅对[MeetingCancellation](meetingcancellation.md)有效。 否则，将引发错误。
+ **RemoveItem** 仅对 [MeetingCancellation 有效](meetingcancellation.md)。 否则，将引发错误。
   
 > [!NOTE]
-> 会议取消的[ItemClass](itemclass.md)为 IPM。日程安排. 会议. 已取消。 
+> 会议 [取消的 ItemClass](itemclass.md) 为 IPM。Schedule.Meeting.Canceled。 
   
-若要删除[MeetingRequest](meetingrequest.md)和关联的[CalendarItem](calendaritem.md)，请使用[DeclineItem](declineitem.md) Response 对象，而不是**RemoveItem**。
+若要删除 [MeetingRequest](meetingrequest.md) 和关联的 [CalendarItem](calendaritem.md)，请使用 [DeclineItem](declineitem.md) 响应对象，而不是 **RemoveItem**。
   
- 代理访问不支持**RemoveItem** 。 
+ **委派访问不支持 RemoveItem。** 
   
 描述此元素的架构位于正在运行 Microsoft Exchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

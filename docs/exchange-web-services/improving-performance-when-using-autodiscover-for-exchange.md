@@ -3,15 +3,15 @@ title: 为 Exchange 使用自动发现时提高性能
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e65ff6b2-3810-43ad-9728-27308891b193
 description: 了解如何提高性能的应用程序中的自动发现过程。
-ms.openlocfilehash: 844b56084b4f0b5e49b4ee095688d58ce469baca
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: c0920f71c230f63658dfa8d29b34ca75bb796db0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456330"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520995"
 ---
 # <a name="improving-performance-when-using-autodiscover-for-exchange"></a>为 Exchange 使用自动发现时提高性能
 
@@ -33,7 +33,7 @@ ms.locfileid: "44456330"
 
 存在并已配置好 SCP 对象时，他们可以加快自动发现过程。在其他情况下，但是，他们会降低它。如果在您的环境中不使用 SCP，跳过节省时间的自动发现过程的整个 SCP 查找部分。
   
-EWS 托管 API 使该轻松： 只需将[ExchangeService.EnableScpLookup](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.enablescplookup%28v=exchg.80%29.aspx)属性设为 **false**调用[ExchangeService.AutodiscoverUrl](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.autodiscoverurl%28v=exchg.80%29.aspx)方法之前。如果您正在使用[AutodiscoverService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.autodiscover.autodiscoverservice%28v=exchg.80%29.aspx)类， [AutodiscoverService.EnableScpLookup](https://msdn.microsoft.com/library/microsoft.exchange.webservices.autodiscover.autodiscoverservice.enablescplookup%28v=exchg.80%29.aspx)属性设置为 **false**在调用其任何方法之前。 
+EWS 托管 API 使该轻松： 只需将 [ExchangeService.EnableScpLookup](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.enablescplookup%28v=exchg.80%29.aspx)属性设为 **false** 调用 [ExchangeService.AutodiscoverUrl](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.autodiscoverurl%28v=exchg.80%29.aspx)方法之前。如果您正在使用 [AutodiscoverService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.autodiscover.autodiscoverservice%28v=exchg.80%29.aspx)类， [AutodiscoverService.EnableScpLookup](https://msdn.microsoft.com/library/microsoft.exchange.webservices.autodiscover.autodiscoverservice.enablescplookup%28v=exchg.80%29.aspx)属性设置为 **false** 在调用其任何方法之前。 
   
 ## <a name="use-autodiscover-less-often"></a>经常使用自动发现较少
 
@@ -45,7 +45,7 @@ EWS 托管 API 使该轻松： 只需将[ExchangeService.EnableScpLookup](https:
 
 If you're using the **AutodiscoverService** class in the EWS Managed API, or the [GetUserSettings 操作 (SOAP)](https://msdn.microsoft.com/library/758d965c-ef63-4de4-9120-e293abf14ff8%28Office.15%29.aspx) operation via SOAP, you have direct control over what settings are returned in the response. Although you can request quite a few settings, chances are that your application only needs a handful of them. Every setting that you request requires more processing on the server, which means more time waiting for a response. Evaluate the settings you are requesting, and eliminate any that you don't need. 
   
-如果使用的 EWS 托管 API 中的 **ExchangeService.AutodiscoverUrl** 方法，则无法更改您请求的设置。已经非常高效 ； 但是，此方法它只从 **UserSettingName 枚举**请求的 **ExternalEwsUrl** 和 [InternalEwsUrl](https://msdn.microsoft.com/library/microsoft.exchange.webservices.autodiscover.usersettingname%28v=exchg.80%29.aspx) 设置。
+如果使用的 EWS 托管 API 中的 **ExchangeService.AutodiscoverUrl** 方法，则无法更改您请求的设置。已经非常高效 ； 但是，此方法它只从 **UserSettingName 枚举** 请求的 **ExternalEwsUrl** 和 [InternalEwsUrl](https://msdn.microsoft.com/library/microsoft.exchange.webservices.autodiscover.usersettingname%28v=exchg.80%29.aspx) 设置。
   
 如果您使用的 POX 自动发现服务，[您不能请求特定的属性](autodiscover-for-exchange.md#bk_Options)。
   

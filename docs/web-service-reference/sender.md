@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Sender
 api_type:
 - schema
 ms.assetid: 26d1a46e-e1d3-44b8-a02d-fa6f83aa5cda
 description: Sender 元素标识项目的发件人。
-ms.openlocfilehash: f056fefdd5c5832d4b5bf20416e07e376f6a03de
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 759bf120f852643e0076191c79486c52863bfe0b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530577"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521597"
 ---
 # <a name="sender"></a>发件人
 
-**Sender**元素标识项目的发件人。 
+**Sender** 元素标识项目的发件人。 
   
 ```xml
 <Sender>
@@ -42,7 +42,7 @@ ms.locfileid: "44530577"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Mailbox](mailbox.md) <br/> |标识已启用邮件的 Active Directory 对象，用于标识发件人。  <br/> |
+|[Mailbox](mailbox.md) <br/> |标识标识发件人的启用邮件的 Active Directory 对象。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -60,8 +60,8 @@ ms.locfileid: "44530577"
 |[ReplyToItem](replytoitem.md) <br/> |包含对 Exchange 存储中的项的创建者的答复。  <br/> |
 |[ReplyAllToItem](replyalltoitem.md) <br/> |包含对所有确定收件人的 Exchange 存储中的项的答复。  <br/> |
 |[ForwardItem](forwarditem.md) <br/> |包含要转发给收件人的 Exchange 存储区项。  <br/> |
-|[CancelCalendarItem](cancelcalendaritem.md) <br/> |表示用于取消会议的响应对象。  <br/> |
-|[PostItem](postitem.md) <br/> |表示 Exchange 存储中的公告项。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。  <br/> |
+|[CancelCalendarItem](cancelcalendaritem.md) <br/> |代表用于取消会议的响应对象。  <br/> |
+|[PostItem](postitem.md) <br/> |表示应用商店中的Exchange项。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。  <br/> |
    
 ## <a name="remarks"></a>说明
 

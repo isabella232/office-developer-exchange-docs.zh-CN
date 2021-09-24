@@ -1,23 +1,23 @@
 ---
-title: 别名（FederatedDirectoryGroupType）
+title: Alias (FederatedDirectoryGroupType)
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 38bf6de4-1522-4c59-bcb2-1912dca287e2
-description: Alias （FederatedDirectoryGroupType）元素仅供内部使用。
-ms.openlocfilehash: 19e6bccabeb781f30f9802cba7b9e8a16e771b3f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Alias (FederatedDirectoryGroupType) 仅供内部使用。
+ms.openlocfilehash: 4aa292e0abd9dbe8cea2207dfaeb150508342e25
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463515"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522171"
 ---
-# <a name="alias-federateddirectorygrouptype"></a>别名（FederatedDirectoryGroupType）
+# <a name="alias-federateddirectorygrouptype"></a>Alias (FederatedDirectoryGroupType)
 
-**Alias （FederatedDirectoryGroupType）** 元素仅供内部使用。 
+Alias **(FederatedDirectoryGroupType)** 仅供内部使用。 
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
@@ -35,7 +35,7 @@ ms.locfileid: "44463515"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   

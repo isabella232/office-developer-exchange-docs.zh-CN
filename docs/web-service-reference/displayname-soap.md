@@ -1,24 +1,24 @@
 ---
-title: DisplayName （SOAP）
+title: DisplayName (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 37c31ecb-a21e-47c8-befe-1bf4415f244c
-description: DisplayName 元素表示显示名称。
-ms.openlocfilehash: 894c80f86b4532453ef0b7186c8b7558e882a3b5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DisplayName 元素表示一显示名称。
+ms.openlocfilehash: 7df5f13249f862459598af539223ef4f2d27b63b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526898"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521990"
 ---
-# <a name="displayname-soap"></a>DisplayName （SOAP）
+# <a name="displayname-soap"></a>DisplayName (SOAP)
 
-**DisplayName**元素表示显示名称。 
+**DisplayName** 元素表示一显示名称。 
   
 ```XML
 <DisplayName/>
@@ -41,12 +41,12 @@ ms.locfileid: "44526898"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[AlternateMailbox （SOAP）](alternatemailbox-soap.md) <br/> |代表备用邮箱。  <br/> |
-|[DocumentSharingLocation （SOAP）](documentsharinglocation-soap.md) <br/> |表示文档共享位置的位置和元数据信息。  <br/> |
+|[AlternateMailbox (SOAP)](alternatemailbox-soap.md) <br/> |代表备用邮箱。  <br/> |
+|[DocumentSharingLocation (SOAP)](documentsharinglocation-soap.md) <br/> |表示文档共享位置的位置和元数据信息。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**DisplayName**元素的文本值是设置的显示名称。 
+**DisplayName** 元素的文本值是显示名称的值。 
   
 ## <a name="element-information"></a>元素信息
 
@@ -59,5 +59,5 @@ ms.locfileid: "44526898"
    
 ## <a name="see-also"></a>另请参阅
 
-- [AlternateMailbox （SOAP）](alternatemailbox-soap.md)
+- [AlternateMailbox (SOAP)](alternatemailbox-soap.md)
 

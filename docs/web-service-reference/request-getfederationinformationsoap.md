@@ -1,24 +1,24 @@
 ---
-title: 请求（GetFederationInformation）（SOAP）
+title: Request (GetFederationInformation) (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: beeb5371-f57b-4346-9753-035dd42c6bee
-description: Request 元素表示 GetFederationInformationRequest （SOAP）请求。
-ms.openlocfilehash: dbd88537d03f6325cf0025d08c63ae486544d705
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Request 元素表示 SOAP 请求 (GetFederationInformationRequest) GetFederationInformationRequest。
+ms.openlocfilehash: 77ea1f14e98ed09a2a60efed4045ef8d903b3b05
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459579"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525580"
 ---
-# <a name="request-getfederationinformation-soap"></a>请求（GetFederationInformation）（SOAP）
+# <a name="request-getfederationinformation-soap"></a>Request (GetFederationInformation) (SOAP)
 
-**Request**元素表示[GetFederationInformationRequest （SOAP）](getfederationinformationrequest-soap.md)请求。 
+**Request** 元素表示 SOAP 请求 ([GetFederationInformationRequest) 。](getfederationinformationrequest-soap.md) 
   
 ```XML
 <Request>
@@ -39,13 +39,13 @@ ms.locfileid: "44459579"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Domain （GetFederationInformation）（SOAP）](domain-getfederationinformationsoap.md) <br/> |标识具有联合身份验证信任的域。  <br/> |
+|[Domain (GetFederationInformation) (SOAP)](domain-getfederationinformationsoap.md) <br/> |标识具有联合身份验证信任的域。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GetFederationInformationRequestMessage （SOAP）](getfederationinformationrequestmessage-soap.md) <br/> |准备对服务器的调用，以请求安全令牌服务（STS）的配置数据。  <br/> |
+|[GetFederationInformationRequestMessage (SOAP)](getfederationinformationrequestmessage-soap.md) <br/> |准备对服务器的调用，以请求 STS 安全令牌服务 (配置) 。  <br/> |
    
 ## <a name="element-information"></a>元素信息
 

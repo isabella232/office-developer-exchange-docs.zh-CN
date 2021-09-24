@@ -1,23 +1,23 @@
 ---
-title: 应用
+title: 应用程序
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f6f0a2ca-22dd-4789-9eed-f0c1ec9036c4
-description: Apps 元素包含有关在邮箱中安装的应用程序的所有 XML 清单文件的信息。
-ms.openlocfilehash: b2d6f13241f68cbed449a9f9821f9a6ec6ff687a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Apps 元素包含有关邮箱中安装的应用的所有 XML 清单文件的信息。
+ms.openlocfilehash: 8a8b6c459a014517936d1c2753c4ce125892dacb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527444"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525301"
 ---
-# <a name="apps"></a>应用
+# <a name="apps"></a>应用程序
 
-**Apps**元素包含有关在邮箱中安装的应用程序的所有 XML 清单文件的信息。 
+**Apps** 元素包含有关邮箱中安装的应用的所有 XML 清单文件的信息。 
   
 ```XML
 <Apps>
@@ -35,7 +35,7 @@ ms.locfileid: "44527444"
   
 ### <a name="child-elements"></a>子元素
 
-[App](app.md)
+[应用](app.md)
   
 ### <a name="parent-elements"></a>父元素
 
@@ -58,7 +58,7 @@ Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
    
 ## <a name="see-also"></a>另请参阅
 
-- [App](app.md)
+- [应用](app.md)
 - [GetAppManifestsResponse](getappmanifestsresponse.md)
 - [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

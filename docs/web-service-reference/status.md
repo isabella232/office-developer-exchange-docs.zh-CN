@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Status
 api_type:
 - schema
 ms.assetid: 80121e41-291b-4fc0-a55e-6f677d4b5fb5
 description: Status 元素表示任务项的状态。
-ms.openlocfilehash: 5d022827990b96fd8790ae9566ef49028ebe404c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 5ec50e3f0c06ad3ec8301ddbe8e7bd249b1e8fe9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459957"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525538"
 ---
 # <a name="status"></a>状态
 
-**Status**元素表示任务项的状态。 
+**Status** 元素表示任务项的状态。 
   
 ```xml
 <Status/>
@@ -48,21 +48,21 @@ ms.locfileid: "44459957"
    
 ## <a name="text-value"></a>文本值
 
-文本值是必需的。 以下是此元素的可能的文本值：
+文本值是必需的。 以下是此元素的可能文本值：
   
 - NotStarted
     
 - InProgress
     
-- Completed
+- 已完成
     
 - WaitingOnOthers
     
-- 关联表
+- 延迟
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-设置[CompleteDate](completedate.md)与将[百分比](percentcomplete.md)设置为100或将**状态**设置为 "已**完成**" 具有相同的效果。 在设置至少两个属性中的一个请求中，最后处理的属性将确定为这些元素设置的值。 例如，如果**百分比**为100， **CompleteDate**为1/1/2007，**状态**为 NotStarted，并且按此顺序对属性进行了流式处理，则效果是将任务的**状态**设置为 NotStarted，将**CompleteDate**设置为**null**，并将**百分比**为0。 
+设置 [CompleteDate](completedate.md) 与将 [PercentComplete](percentcomplete.md) 设置为 100 或 **将 Status** 设置为 **Completed 的效果相同**。 在至少设置其中两个属性的请求中，最后处理的属性将确定为这些元素设置的值。 例如，如果 **PercentComplete** 为 100，CompleteDate 为 1/1/2007，Status 为 NotStarted，并且按此顺序流式处理属性，则效果将为将任务的 **Status** 设置为 NotStarted，**将 CompleteDate** 设置为 **null，** 将 **PercentComplete** 设置为 0。   
   
 描述此元素的架构位于正在运行 Microsoft Exchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

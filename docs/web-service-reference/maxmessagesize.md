@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MaxMessageSize
 api_type:
 - schema
 ms.assetid: bb98ac72-9409-4332-81bb-ee3bebb9a00e
-description: MaxMessageSize 元素表示收件人可接受的最大邮件大小。
-ms.openlocfilehash: 727eed38a129800b7d38aa49c41cdacfa13e7a36
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: MaxMessageSize 元素表示收件人可以接受的最大邮件大小。
+ms.openlocfilehash: a89d43ed5958a3e39ff0e5b5ab9e9d2c1dac660c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468409"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524698"
 ---
 # <a name="maxmessagesize"></a>MaxMessageSize
 
-**MaxMessageSize**元素表示收件人可接受的最大邮件大小。 
+**MaxMessageSize** 元素表示收件人可以接受的最大邮件大小。 
   
 ```XML
 <MaxMessageSize/>
@@ -44,12 +44,12 @@ ms.locfileid: "44468409"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[邮件提示](mailtips.md) <br/> |表示各种邮件提示类型的值。  <br/> |
+|[邮件提示](mailtips.md) <br/> |表示各种类型的邮件提示的值。  <br/> |
 |[MailTipsConfiguration (MailTipsServiceConfiguration)](mailtipsconfiguration-mailtipsserviceconfiguration.md) <br/> |包含邮件提示服务的服务配置信息。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-Text 值是一个整数，表示收件人可接受的最大邮件大小。 此值可以以千字节或兆字节为单位。
+文本值是一个整数，表示收件人可以接受的最大邮件大小。 此值可以以 KB 或 MB 为单位测量。
   
 ## <a name="remarks"></a>说明
 

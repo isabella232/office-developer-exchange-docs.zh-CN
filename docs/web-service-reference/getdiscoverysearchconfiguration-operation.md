@@ -5,47 +5,47 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8a54a6dc-110c-4972-a8bc-5ddb43c4b857
 description: 查找有关 GetDiscoverySearchConfiguration EWS 操作的信息。
-ms.openlocfilehash: 4db435988a9954b921e7851986b6f92ffedbad94
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 62cadc818219e13199aa246e87066571d78c4e3d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461021"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525076"
 ---
 # <a name="getdiscoverysearchconfiguration-operation"></a>GetDiscoverySearchConfiguration 操作
 
-查找有关**GetDiscoverySearchConfiguration** EWS 操作的信息。 
+查找有关 **GetDiscoverySearchConfiguration** EWS 操作的信息。 
   
-**GetDiscoverySearchConfiguration**操作返回就地保留的配置信息、已保存的发现搜索以及为发现搜索启用的邮箱。 
+**GetDiscoverySearchConfiguration** 操作返回就地保留、保存的发现搜索以及启用发现搜索的邮箱的配置信息。 
   
 Exchange Server 2013 中引入了此操作。
   
 ## <a name="using-the-getdiscoverysearchconfiguration-operation"></a>使用 GetDiscoverySearchConfiguration 操作
 
-**GetDiscoverySearchConfiguration**操作提供发现搜索的配置信息。 请求可以包含以下一个或多个参数： 
+**GetDiscoverySearchConfiguration** 操作提供发现搜索的配置信息。 请求可以包含下列一个或多个参数： 
   
-1. [SearchId](searchid.md) —标识已保存的发现搜索。 如果在请求中发送此参数，则忽略其他参数的值。 
+1. [SearchId](searchid.md) — 标识保存的发现搜索。 如果在请求中发送此参数，则忽略其他参数的值。 
     
-2. [ExpandGroupMembership](expandgroupmembership.md) —指示是否在响应中展开组成员资格。 值**为 true**表示组成员身份已展开，以便在响应中返回所有可搜索的邮箱。 **如果值为 false** ，则表示只在响应中返回组。 
+2. [ExpandGroupMembership](expandgroupmembership.md) - 指示是否在响应中扩展组成员身份。 true **值表示** 展开组成员身份，以便所有可搜索的邮箱在响应中返回。 false **值表示** 响应中仅返回组。 
     
-3. [InPlaceHoldConfigurationOnly](inplaceholdconfigurationonly.md) —指示除了就地保留配置之外，是否还返回所有可搜索的邮箱。 **True**值表示仅返回就地保留配置。 **如果值为 false** ，则表示除了就地保留标识符之外，还返回所有可搜索的邮箱标识符。 如果此元素不存在，则默认行为等效于值**false**。 
+3. [InPlaceHoldConfigurationOnly](inplaceholdconfigurationonly.md) - 指示除了就地保留配置之外，是否返回所有可搜索的邮箱。 true **值表示** 仅返回就地保留配置。 false **值表示** 除了就地保留标识符之外，还返回所有可搜索邮箱标识符。 如果此元素不存在，则默认行为与值 **false 等效**。 
     
 ### <a name="getdiscoverysearchconfiguration-operation-soap-headers"></a>GetDiscoverySearchConfiguration 操作 SOAP 标头
 
-**GetDiscoverySearchConfiguration**操作可以使用下表中列出的 SOAP 标头。 
+**GetDiscoverySearchConfiguration** 操作可以使用下表中列出的 SOAP 标头。 
   
 |**标头名称**|**元素**|**说明**|
 |:-----|:-----|:-----|
-|**Get-managementrole** <br/> |[Get-managementrole](managementrole.md) <br/> |标识调用方发出请求所需的服务器角色。 此标头适用于请求。  <br/> |
+|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |标识调用方进行请求所需的服务器角色。 此标头适用于请求。  <br/> |
 |**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。 此标头适用于请求。  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器版本。 此标头适用于响应。  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器的版本。 此标头适用于响应。  <br/> |
    
-## <a name="getdiscoverysearchconfiguration-operation-request-example-get-the-discovery-search-configuration-for-a-saved-search"></a>GetDiscoverySearchConfiguration 操作请求示例：获取保存的搜索的发现搜索配置
+## <a name="getdiscoverysearchconfiguration-operation-request-example-get-the-discovery-search-configuration-for-a-saved-search"></a>GetDiscoverySearchConfiguration 操作请求示例：获取已保存搜索的发现搜索配置
 
-以下示例的**GetDiscoverySearchConfiguration**操作请求显示如何请求配置名为 "MyDiscSearchFor-sbrown" 的已保存搜索。 [ExpandGroupMembership](expandgroupmembership.md)和[InPlaceHoldConfigurationOnly](inplaceholdconfigurationonly.md)元素的参数将被忽略。 
+**GetDiscoverySearchConfiguration** 操作请求的以下示例显示如何请求配置名为"MyDiscSearchFor-sbrown"的已保存搜索。 [ExpandGroupMembership 和](expandgroupmembership.md) [InPlaceHoldConfigurationOnly](inplaceholdconfigurationonly.md)元素的参数将被忽略。 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -76,9 +76,9 @@ Exchange Server 2013 中引入了此操作。
     
 - [InPlaceHoldConfigurationOnly](inplaceholdconfigurationonly.md)
     
-## <a name="successful-getdiscoverysearchconfiguration-operation-response-request-for-a-single-saved-search"></a>成功的 GetDiscoverySearchConfiguration 操作响应：请求单个已保存的搜索
+## <a name="successful-getdiscoverysearchconfiguration-operation-response-request-for-a-single-saved-search"></a>成功的 GetDiscoverySearchConfiguration 操作响应：请求单个保存的搜索
 
-下面的示例演示对**GetDiscoverySearchConfiguration**操作请求的成功响应，以获取名为 "MyDiscSearchFor-sbrown" 的已保存搜索的配置。 
+以下示例显示成功响应 **GetDiscoverySearchConfiguration** 操作请求，获取名为"MyDiscSearchFor-sbrown"的已保存搜索的配置。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -131,7 +131,7 @@ Exchange Server 2013 中引入了此操作。
     
 - [Guid](guid-ex15websvcsotherref.md)
     
-- [PrimarySmtpAddress （字符串）](primarysmtpaddress-string.md)
+- [PrimarySmtpAddress (string)](primarysmtpaddress-string.md)
     
 - [IsExternalMailbox](isexternalmailbox.md)
     
@@ -145,7 +145,7 @@ Exchange Server 2013 中引入了此操作。
     
 ## <a name="successful-getdiscoverysearchconfiguration-operation-response-request-for-in-place-holds"></a>成功的 GetDiscoverySearchConfiguration 操作响应：就地保留请求
 
-下面的示例演示对**GetDiscoverySearchConfiguration**操作请求的成功响应，仅获取就地保留。 
+以下示例显示了对仅获取就地保留的 **GetDiscoverySearchConfiguration** 操作请求的成功响应。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -204,9 +204,9 @@ Exchange Server 2013 中引入了此操作。
     
 - [ManagedByOrganization](managedbyorganization.md)
     
-## <a name="successful-getdiscoverysearchconfiguration-operation-response-request-for-all-saved-discovery-search-configurations"></a>成功的 GetDiscoverySearchConfiguration 操作响应：请求所有已保存的发现搜索配置
+## <a name="successful-getdiscoverysearchconfiguration-operation-response-request-for-all-saved-discovery-search-configurations"></a>成功的 GetDiscoverySearchConfiguration 操作响应：请求所有保存的发现搜索配置
 
-下面的示例演示对**GetDiscoverySearchConfiguration**操作请求的成功响应，以获取所有已保存的发现搜索。 
+以下示例显示成功响应 **GetDiscoverySearchConfiguration** 操作请求，以获取所有保存的发现搜索。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -293,7 +293,7 @@ Exchange Server 2013 中引入了此操作。
     
 - [Guid](guid-ex15websvcsotherref.md)
     
-- [PrimarySmtpAddress （字符串）](primarysmtpaddress-string.md)
+- [PrimarySmtpAddress (string)](primarysmtpaddress-string.md)
     
 - [IsExternalMailbox](isexternalmailbox.md)
     
@@ -307,7 +307,7 @@ Exchange Server 2013 中引入了此操作。
     
 ## <a name="getdiscoverysearchconfiguration-operation-error-response"></a>GetDiscoverySearchConfiguration 操作错误响应
 
-下面的示例演示对**GetDiscoverySearchConfiguration**操作请求的错误响应。 这是对获取在服务器上找不到的已保存搜索的请求的响应。 
+以下示例显示对 **GetDiscoverySearchConfiguration** 操作请求的错误响应。 这是对请求的响应，请求获取服务器上找不到的已保存搜索。 
   
 ```XML
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
@@ -348,11 +348,11 @@ Exchange Server 2013 中引入了此操作。
     
 - [DiscoverySearchConfigurations](discoverysearchconfigurations.md)
     
-有关对 EWS 通用的其他错误代码以及特定于此操作的错误代码，请参阅[ResponseCode](responsecode.md)。
+有关 EWS 通用且特定于此操作的其他错误代码，请参阅 [ResponseCode](responsecode.md)。
   
 ## <a name="see-also"></a>另请参阅
 
-- [Exchange 中的 EWS 操作](ews-operations-in-exchange.md)
+- [EWS 操作在Exchange](ews-operations-in-exchange.md)
     
 - [GetSearchableMailboxes](getsearchablemailboxes.md)
     

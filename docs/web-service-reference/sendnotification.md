@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SendNotification
 api_type:
 - schema
 ms.assetid: e45c4451-a286-4aec-a691-119ec41c58e0
-description: SendNotification 元素包含运行 Microsoft Exchange Server 2007 的计算机发送给客户端应用程序的推送通知。
-ms.openlocfilehash: 49f2f6cb7f5c8e1171b54ff965ee1d22accc9bf2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SendNotification 元素包含由运行 Microsoft Exchange Server 2007 的计算机发送到客户端应用程序的推送通知。
+ms.openlocfilehash: 11eebbcb93808d0576b5a6790bf9997fe1518412
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462113"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521576"
 ---
 # <a name="sendnotification"></a>SendNotification
 
-**SendNotification**元素包含运行 Microsoft Exchange Server 2007 的计算机发送给客户端应用程序的推送通知。 
+**SendNotification** 元素包含由运行 Microsoft Exchange Server 2007 的计算机发送到客户端应用程序的推送通知。 
   
 ```xml
 <SendNotification>
@@ -48,7 +48,7 @@ ms.locfileid: "44462113"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

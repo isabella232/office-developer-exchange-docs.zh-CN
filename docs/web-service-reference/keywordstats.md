@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 79b24034-6456-4c9c-adf6-03d06024c4e8
 description: KeywordStats 元素指定一个或多个 KeywordStat 元素的列表。
-ms.openlocfilehash: bf471c1712a96b44dbc533a2cb26e32546a6db38
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: cca29bf94b7f5991488db81c0006817a91958204
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463291"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524124"
 ---
 # <a name="keywordstats"></a>KeywordStats
 
-**KeywordStats**元素指定一个或多个**KeywordStat**元素的列表。 
+**KeywordStats** 元素指定一个或多个 **KeywordStat 元素** 的列表。 
   
 ```XML
 <KeywordStats>
@@ -42,7 +42,7 @@ ms.locfileid: "44463291"
 
 [SearchMailboxesResult](searchmailboxesresult.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

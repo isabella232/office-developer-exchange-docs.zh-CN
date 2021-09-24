@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SourceIds
 api_type:
 - schema
 ms.assetid: 0043abd5-ba9c-4d67-8832-325f32bf7651
 description: SourceIds 元素包含要转换的源标识符。
-ms.openlocfilehash: 1c4990f2185788c5cfaab5483cb6a54a0d850596
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: e6a0767de0928578fb6ae16996ff39908580d45c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466106"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521338"
 ---
 # <a name="sourceids"></a>SourceIds
 
-**SourceIds**元素包含要转换的源标识符。 
+**SourceIds** 元素包含要转换的源标识符。 
   
 [ConvertId](convertid.md)
   
@@ -48,19 +48,19 @@ ms.locfileid: "44466106"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[AlternateId](alternateid.md) <br/> |描述要转换的项或文件夹标识符。  <br/> |
+|[AlternateId](alternateid.md) <br/> |描述要转换的项目或文件夹标识符。  <br/> |
 |[AlternatePublicFolderId](alternatepublicfolderid.md) <br/> |描述要转换的公用文件夹标识符。  <br/> |
-|[AlternatePublicFolderItemId](alternatepublicfolderitemid.md) <br/> |描述要转换的公用文件夹项目标识符。  <br/> |
+|[AlternatePublicFolderItemId](alternatepublicfolderitemid.md) <br/> |描述要转换的公用文件夹项标识符。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ConvertId](convertid.md) <br/> |定义在 Exchange 支持的格式之间转换项目和文件夹标识符的请求。  <br/> |
+|[ConvertId](convertid.md) <br/> |定义在受支持的格式之间转换项目标识符Exchange文件夹标识符的请求。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-描述此元素的架构位于运行 Exchange Server 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
+描述此元素的架构位于运行已安装客户端访问服务器角色Exchange Server的计算机的 EWS 虚拟目录中。
   
 ## <a name="element-information"></a>元素信息
 

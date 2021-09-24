@@ -1,23 +1,23 @@
 ---
-title: Value （EmailAddressType）
+title: Value (EmailAddressType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 24eaa473-0024-47e2-b7d2-051d5dd4f53c
-description: Value 元素指定与归属数组相关联的 EmailAddress 的值。
-ms.openlocfilehash: 45af2aaab7d2475ae46ae24ed13b1435f5b352c6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Value 元素指定与属性数组关联的 EmailAddress 的值。
+ms.openlocfilehash: 21859c6cc4c05e55029758ce25bdf312b5f084fa
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467597"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522514"
 ---
-# <a name="value-emailaddresstype"></a>Value （EmailAddressType）
+# <a name="value-emailaddresstype"></a>Value (EmailAddressType)
 
-**Value**元素指定与归属数组相关联的**EmailAddress**的值。 
+**Value** 元素指定与属性数组关联的 **EmailAddress** 的值。 
   
 ```XML
 <Value>
@@ -42,13 +42,13 @@ ms.locfileid: "44467597"
   
 ### <a name="child-elements"></a>子元素
 
-[名称（字符串）](name-string.md)  | [EmailAddress （NonEmptyStringType）](emailaddress-nonemptystringtype.md)  | [RoutingType （EmailAddressType）](routingtype-emailaddresstype.md)  | [MailboxType](mailboxtype.md)  | [ItemId](itemid.md)  | [OriginalDisplayName](originaldisplayname.md)
+[名称 (字符串) ](name-string.md)  | [EmailAddress (NonEmptyStringType) ](emailaddress-nonemptystringtype.md)  | [RoutingType (EmailAddressType) ](routingtype-emailaddresstype.md)  | [MailboxType](mailboxtype.md)  | [ItemId](itemid.md)  | [OriginalDisplayName](originaldisplayname.md)
   
 ### <a name="parent-elements"></a>父元素
 
 [EmailAddressAttributedValue](emailaddressattributedvalue.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

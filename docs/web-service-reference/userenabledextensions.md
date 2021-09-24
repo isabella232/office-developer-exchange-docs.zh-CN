@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 13719747-08b7-4083-a400-5cfb5e99f177
-description: UserEnabledExtensions 元素列出已启用的应用程序。
-ms.openlocfilehash: c09afe1c7ff9617d200a7faeea87efbbe2656b45
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: UserEnabledExtensions 元素列出已启用的应用。
+ms.openlocfilehash: dd815141da34df3e193b5c033ee68bb631829a0b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460216"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522402"
 ---
 # <a name="userenabledextensions"></a>UserEnabledExtensions
 
-**UserEnabledExtensions**元素列出已启用的应用程序。 
+**UserEnabledExtensions** 元素列出已启用的应用。 
   
 ```XML
 <UserEnabledExtensions>
@@ -42,7 +42,7 @@ ms.locfileid: "44460216"
 
 [UserParameters](userparameters.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsSigned
 api_type:
 - schema
 ms.assetid: a4f90fe5-2834-4621-9aa3-b561f74d4674
-description: IsSigned 元素指示是否必须签署传入的邮件，以便条件或例外情况适用。
-ms.openlocfilehash: fe8551d01e6f9e813da8936f15b0b7ba1d4ce56c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: IsSigned 元素指示传入邮件是否必须签名，以便条件或例外情况适用。
+ms.openlocfilehash: 556b5a723a3201721651000264274ebd0cd001e1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455525"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524089"
 ---
 # <a name="issigned"></a>IsSigned
 
-**IsSigned**元素指示是否必须签署传入的邮件，以便条件或例外情况适用。 
+**IsSigned** 元素指示传入邮件是否必须签名，以便条件或例外情况适用。 
   
 ```XML
 <IsSigned>true | false</IsSigned>
@@ -49,7 +49,7 @@ ms.locfileid: "44455525"
    
 ## <a name="text-value"></a>文本值
 
-如果文本值为**true** ，则表示必须对邮件进行签名，以便条件或例外情况适用。 如果文本值为**false** ，则表示无需签署该邮件即可应用的条件或例外。 
+如果文本值为 **true，** 则表明必须对邮件进行签名才能应用条件或例外。 false **文本值** 表示无需对邮件进行签名，条件或例外情况即适用。 
   
 ## <a name="remarks"></a>说明
 

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3bdf5955-1212-48a1-b3b5-743086866c91
-description: RetentionAction 元素指定对带有保留标记的项目执行的操作。
-ms.openlocfilehash: c16988413e732ddc3cd6ebc355cb73c4d96550c7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: RetentionAction 元素指定对具有保留标记的项目执行的操作。
+ms.openlocfilehash: ecea4326f0e50460635966991cd55badf8946993
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465231"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517943"
 ---
 # <a name="retentionaction"></a>RetentionAction
 
-**RetentionAction**元素指定对带有保留标记的项目执行的操作。 
+**RetentionAction** 元素指定对具有保留标记的项目执行的操作。 
   
 ```XML
 <RetentionAction> None | MoveToDeletedItems | MoveToFolder | DeleteAndAllowRecovery | PermanentlyDelete | MarkAsPastRetentionLimit | MoveToArchive <RetentionAction>
@@ -38,27 +38,27 @@ ms.locfileid: "44465231"
   
 ### <a name="parent-elements"></a>父元素
 
-[Get-retentionpolicytag](retentionpolicytag.md)
+[RetentionPolicyTag](retentionpolicytag.md)
   
 ## <a name="text-value"></a>文本值
 
-**RetentionAction**元素的文本值是对项目执行的操作。 以下列表包含**RetentionAction**元素的文本值。 
+**RetentionAction** 元素的文本值是项目上执行的操作。 下面的列表包含 **RetentionAction** 元素的文本值。 
   
-> **无**-对项目不执行任何操作。 
+> **无** - 不对项目执行任何操作。 
     
-> **MoveToDeletedItems** -将项目移动到默认的 "已删除邮件" 文件夹。 
+> **MoveToDeletedItems** - 项目移至默认"已删除邮件"文件夹。 
     
-> **MoveToFolder** -将项目移动到指定的文件夹。 
+> **MoveToFolder** - 项目移动到指定文件夹。 
     
-> **DeleteAndAllowRecovery** -将删除该项目并将其放入转储程序中。 
+> **DeleteAndAllowRecovery** - 项目被删除并放入垃圾站中。 
     
-> **PermanentlyDelete** -项目从邮箱中永久删除。 
+> **PermanentlyDelete** - 从邮箱中永久删除项目。 
     
-> **MarkAsPastRetentionLimit** -项目被标记为已超过保留时间限制。 
+> **MarkAsPastRetentionLimit** - 项目标记为已超出保留时间限制。 
     
-> **MoveToArchive** -将项目移动到存档邮箱。 
+> **MoveToArchive** - 项目已移动到存档邮箱。 
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

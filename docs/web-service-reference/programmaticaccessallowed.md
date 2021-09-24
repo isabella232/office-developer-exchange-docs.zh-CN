@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a1fc7dff-a303-4809-b7f4-9672f86c183c
-description: ProgrammaticAccessAllowed 元素指定是否对权限托管数据启用编程访问。
-ms.openlocfilehash: 8a5cf4e57a97807e5940a0402768d7123b9912d2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ProgrammaticAccessAllowed 元素指定是否对权限管理数据启用编程访问。
+ms.openlocfilehash: 3e7f16a148fe1d81bbf942c098591f108529d456
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465637"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523844"
 ---
 # <a name="programmaticaccessallowed"></a>ProgrammaticAccessAllowed
 
-**ProgrammaticAccessAllowed**元素指定是否对权限托管数据启用编程访问。 
+**ProgrammaticAccessAllowed** 元素指定是否对权限管理数据启用编程访问。 
   
 ```XML
 <ProgrammaticAccessAllowed> true | false </ProgrammaticAccessAllowed>
@@ -42,9 +42,9 @@ ms.locfileid: "44465637"
   
 ## <a name="text-value"></a>文本值
 
-如果**ProgrammaticAccessAllowed**元素的文本值为**true** ，则表示以编程方式访问数据。 值**为 false**表示无法以编程方式访问数据。 
+**ProgrammaticAccessAllowed** 元素的文本值 **true** 指示可通过编程方式访问数据。 false **值表示** 无法以编程方式访问数据。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f3ab8bf1-abc5-45cf-a2e1-d7602f2c24ec
 description: AppStatus 元素值指示邮件应用程序的状态。
-ms.openlocfilehash: d833947fd62d500418f257829d241a2e0b3bca9c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 69f481b197db513761b97d4fbba38452bbb4a9a1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464775"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525314"
 ---
 # <a name="appstatus"></a>AppStatus
 
-**AppStatus**元素值指示邮件应用程序的状态。 
+**AppStatus** 元素值指示邮件应用程序的状态。 
   
 ```XML
 <AppStatus/>
@@ -42,24 +42,24 @@ ms.locfileid: "44464775"
   
 ## <a name="text-value"></a>文本值
 
-**AppStatus**元素的文本值指示邮件应用程序的状态。 如果用户可以修复与邮件应用程序状态相关的问题， [ActionUrl](actionurl.md)元素将提供用于执行修补程序的 URL。 
+**AppStatus 元素** 的文本值指示邮件应用程序的状态。 如果用户可以修复与邮件应用程序状态相关的问题， [则 ActionUrl](actionurl.md) 元素将提供用于执行修复的 URL。 
   
-**表1。AppStatus 值**
+**表 1.AppStatus 值**
 
 |**值**|**说明**|
 |:-----|:-----|
-|Null 或0  <br/> |邮件应用程序的状态为 "正常"。  <br/> |
-|1.0  <br/> |无法自动更新邮件应用程序。 需要从 Office 应用商店重新安装邮件应用程序。  <br/> |
-|1.1  <br/> |无法自动更新邮件应用程序。 邮件应用程序需要增加权限，这需要您的审阅和确认才能安装。  <br/> |
-|1.2  <br/> |无法自动更新邮件应用程序。 当前许可证已过期或无效。 请从 Office 应用商店更新邮件应用程序。  <br/> |
-|2.0  <br/> |无法自动更新邮件应用程序许可证。 需要从 Office 应用商店恢复邮件应用程序的许可证。  <br/> |
-|2.1  <br/> |无法自动更新邮件应用程序许可证。 当前许可证已过期。 需要从 Office 应用商店安装此应用程序的新许可证。  <br/> |
-|3.0  <br/> |邮件应用程序的 Office 应用商店状态已更改。 这可能表示邮件应用程序出现问题。 有关详细信息，请转到 Office 应用商店中的 "邮件应用程序" 页面。  <br/> |
-|3.1  <br/> |邮件应用程序已从 Office 应用商店中删除。  <br/> |
-|3.2  <br/> |已发现邮件应用程序的问题，并且已从 Office 应用商店中暂时提取了该问题。  <br/> |
-|3.3  <br/> |将在30天内从 Office 应用商店中删除邮件应用程序。  <br/> |
+|Null 或 0  <br/> |邮件应用程序状态正常。  <br/> |
+|1.0  <br/> |邮件应用程序无法自动更新。 需要从应用商店中重新安装Office应用程序。  <br/> |
+|1.1  <br/> |邮件应用程序无法自动更新。 邮件应用程序需要增加权限，这要求您进行审阅和确认才能安装。  <br/> |
+|1.2  <br/> |邮件应用程序无法自动更新。 当前许可证已过期或无效。 请从应用商店更新Office应用程序。  <br/> |
+|2.0  <br/> |无法自动更新邮件应用程序许可证。 需要从邮件应用商店恢复邮件Office许可证。  <br/> |
+|2.1  <br/> |无法自动更新邮件应用程序许可证。 当前许可证已过期。 需要从应用商店安装此应用的新Office许可证。  <br/> |
+|3.0  <br/> |邮件Office的"应用商店"状态已更改。 这可能表示邮件应用程序存在问题。 有关详细信息，请转到 Office 应用商店中的邮件应用程序页面。  <br/> |
+|3.1  <br/> |邮件应用程序已从应用商店Office中删除。  <br/> |
+|3.2  <br/> |发现邮件应用程序存在问题，已从应用商店临时Office问题。  <br/> |
+|3.3  <br/> |邮件应用程序将在 30 天内从 Office 应用商店中删除。  <br/> |
 |4.0  <br/> |邮件客户端已自动禁用邮件应用程序。  <br/> |
-|4.1  <br/> |由于性能原因，Outlook 禁用了邮件应用程序。  <br/> |
+|4.1  <br/> |由于性能原因，邮件Outlook已禁用。  <br/> |
    
 ## <a name="remarks"></a>说明
 

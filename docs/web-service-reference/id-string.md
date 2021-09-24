@@ -1,23 +1,23 @@
 ---
-title: ID （字符串）
+title: ID (String)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3febe5b5-9c42-4074-b4d9-75b871b2f582
-description: ID 元素指定应用程序的标识符。
-ms.openlocfilehash: 47d0a7d4a49c0d256640602f43df13c9ebca471e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ID 元素指定应用的标识符。
+ms.openlocfilehash: 062833cd10947baed55c4801d219c33f8bcadca5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462883"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525034"
 ---
-# <a name="id-string"></a>ID （字符串）
+# <a name="id-string"></a>ID (String)
 
-**ID**元素指定应用程序的标识符。 
+**ID** 元素指定应用的标识符。 
   
 ```XML
 <ID></ID>
@@ -42,9 +42,9 @@ ms.locfileid: "44462883"
   
 ## <a name="text-value"></a>文本值
 
-**ID**元素的文本值是应用的标识符。 
+**ID** 元素的文本值是应用的标识符。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

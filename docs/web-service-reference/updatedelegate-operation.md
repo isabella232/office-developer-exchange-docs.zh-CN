@@ -5,40 +5,40 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UpdateDelegate
 api_type:
 - schema
 ms.assetid: 03f618ac-ad1a-4772-9b81-c5bb0f12d6ab
-description: UpdateDelegate 操作将更新对主体邮箱的委派权限。
-ms.openlocfilehash: b7cf5325d925f8d6588115a8657a2077e940f9d2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: UpdateDelegate 操作更新主体邮箱的委派权限。
+ms.openlocfilehash: 0adf17e45490d9b3e8d498b7e95094497c451f80
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468556"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522486"
 ---
 # <a name="updatedelegate-operation"></a>UpdateDelegate 操作
 
-**UpdateDelegate**操作将更新对主体邮箱的委派权限。 
+**UpdateDelegate** 操作更新主体邮箱的委派权限。 
   
 ## <a name="soap-headers"></a>SOAP 标头
 
-**UpdateDelegate**操作可以使用下表中列出和描述的 SOAP 标头。 
+**UpdateDelegate** 操作可以使用下表中列出和描述的 SOAP 标头。 
   
 |**Header**|**元素**|**说明**|
 |:-----|:-----|:-----|
-|模拟  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |标识客户端应用程序模拟的用户。  <br/> |
-|MailboxCulture  <br/> |[MailboxCulture](mailboxculture.md) <br/> |标识要用于访问邮箱的 RFC3066 区域性。  <br/> |
+|模拟  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |标识客户端应用程序正在模拟的用户。  <br/> |
+|MailboxCulture  <br/> |[MailboxCulture](mailboxculture.md) <br/> |标识用于访问邮箱的 RFC3066 区域性。  <br/> |
 |RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。  <br/> |
-|ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器版本。  <br/> |
+|ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器的版本。  <br/> |
    
 ## <a name="updatedelegate-request-example"></a>UpdateDelegate 请求示例
 
 ### <a name="description"></a>Description
 
-下面的**UpdateDelegate**请求示例演示如何在 user1's 帐户上更新委派权限。 为操作2授予 "任务" 文件夹的 "无" 权限级别，并向其授予查看私人性质项目的权限。 User3 将为 "日记" 文件夹授予 "审阅者" 权限。 将会议请求发送给代理，并向 User1 发送有关请求的信息。 
+下面的 **UpdateDelegate** 请求示例演示如何更新 user1 帐户的委派权限。 用户 2 被授予"任务"文件夹的"无"权限级别，并被授予查看私人项目的权限。 用户 3 被授予"日记"文件夹的审阅者权限。 会议请求将发送给代理人，有关请求的信息将发送给 User1。 
   
 ### <a name="code"></a>代码
 
@@ -82,13 +82,13 @@ ms.locfileid: "44468556"
 
 ### <a name="comments"></a>备注
 
-[UpdateDelegate](updatedelegate.md)请求不要求将更新应用到委派。 客户端只能更改**DeliverMeetingMessage**设置。 
+[UpdateDelegate](updatedelegate.md)请求不要求将更新应用于代理人。 客户端只能更改 **DeliverMeetingMessage** 设置。 
   
 ## <a name="updatedelegate-response-example"></a>UpdateDelegate 响应示例
 
 ### <a name="description"></a>Description
 
-下面的示例演示对**UpdateDelegate**操作的成功响应。 
+以下示例显示对 **UpdateDelegate** 操作的成功响应。 
   
 ### <a name="code"></a>代码
 
@@ -145,7 +145,7 @@ ms.locfileid: "44468556"
 
 ### <a name="description"></a>Description
 
-下面的示例演示对**UpdateDelegate**请求的错误响应。 由于委派在主体的代理列表中不存在，因此生成错误。 
+以下示例显示对 **UpdateDelegate** 请求的错误响应。 由于主体的委派列表中不存在委派，因此生成了错误。 
   
 ### <a name="code"></a>代码
 

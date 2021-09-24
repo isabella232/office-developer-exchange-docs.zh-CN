@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3ba567bf-2c6c-4a6b-9ae8-3eea22d849de
-description: YomiCompanyName 元素指定关联的角色的拼音日语公司名称。
-ms.openlocfilehash: 52966aaec8e0ea0ec0f89c15c0ff0dc83521881d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: YomiCompanyName 元素指定关联人物的日文公司名称。
+ms.openlocfilehash: 0b98b4b9a9cdf65b409914562f0f2b48f5ff21fd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467114"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521205"
 ---
 # <a name="yomicompanyname"></a>YomiCompanyName
 
-**YomiCompanyName**元素指定关联的角色的拼音日语公司名称。 
+**YomiCompanyName** 元素指定关联人物的日文公司名称。 
   
 ```XML
 <YomiCompanyName></YomiCompanyName>
@@ -42,9 +42,9 @@ ms.locfileid: "44467114"
   
 ## <a name="text-value"></a>文本值
 
-**YomiCompanyName**元素的文本值是相关联的角色的拼音日语公司名称。 
+**YomiCompanyName** 元素的文本值是关联人物的日文公司名称。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

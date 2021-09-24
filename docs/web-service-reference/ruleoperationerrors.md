@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f15c7b9e-a670-4a11-bb62-2a298c91f142
 description: RuleOperationErrors元素表示一个数组的规则上有一个错误的每个规则字段的验证错误。
-ms.openlocfilehash: d547155f3cbf9eedd0f9bfac7bf3768b3630b50e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 2428d68719e7d9ef5d1fdf87ec94f1f9390bf631
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464950"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524495"
 ---
 # <a name="ruleoperationerrors"></a>RuleOperationErrors
 
-本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **RuleOperationErrors**元素表示一个数组的规则上有一个错误的每个规则字段的验证错误。 
+本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **RuleOperationErrors** 元素表示一个数组的规则上有一个错误的每个规则字段的验证错误。 
   
 [UpdateInboxRulesResponse](updateinboxrulesresponse.md)
   
@@ -54,7 +54,7 @@ ms.locfileid: "44464950"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

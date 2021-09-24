@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a2192ff3-25c9-424a-ae4a-506ab7b0993d
-description: ProposedStart 元素指定会议的建议开始时间。
-ms.openlocfilehash: 607129fb16c25bf19e98a40e624aa528478a21f9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ProposedStart 元素指定建议的会议开始时间。
+ms.openlocfilehash: 5b8456ee7cf8b10da1bd3e5c857d86ca5d47c162
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465546"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523921"
 ---
 # <a name="proposedstart"></a>ProposedStart
 
-**ProposedStart**元素指定会议的建议开始时间。 
+**ProposedStart** 元素指定建议的会议开始时间。 
   
 ```XML
 <ProposedStart></ProposedStart>
@@ -42,9 +42,9 @@ ms.locfileid: "44465546"
   
 ## <a name="text-value"></a>文本值
 
-**ProposedStart**元素的文本值是由与会者发送给会议组织者的建议开始时间。 
+**ProposedStart 元素** 的文本值是与会者发送给会议组织者的建议开始时间。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

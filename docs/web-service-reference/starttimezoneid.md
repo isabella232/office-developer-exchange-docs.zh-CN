@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f4adfc48-2d51-4d2d-9ddc-b91c3e96cb02
-description: StartTimeZoneId 元素指定会议发生时所在的时区。
-ms.openlocfilehash: 30ccbbf75963615ba16a991370a007a46e684930
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: StartTimeZoneId 元素指定会议开始的时区。
+ms.openlocfilehash: 31a2ad3ecd1e0756b2103b648b665a2e70dfcca0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44448119"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521240"
 ---
 # <a name="starttimezoneid"></a>StartTimeZoneId
 
-**StartTimeZoneId**元素指定会议发生时所在的时区。 
+**StartTimeZoneId** 元素指定会议开始的时区。 
   
 ```XML
 <StartTimeZoneId></StartTimeZoneId>
@@ -43,9 +43,9 @@ ms.locfileid: "44448119"
   
 ## <a name="text-value"></a>文本值
 
-**StartTimeZoneId**元素的文本值是[开始](start.md)元素中所用时区的时区标识符。 
+**StartTimeZoneId** 元素的文本值是 Start 元素中使用的时区 [的时区标识符](start.md)。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

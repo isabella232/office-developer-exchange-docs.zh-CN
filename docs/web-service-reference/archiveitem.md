@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c2172e61-876a-4f76-bc9c-263c8be11429
-description: ArchiveItem 元素包含源文件夹 Id 和关联存档项的项 Id 的数组。
-ms.openlocfilehash: e1694619c90160084980cb8f3a7c8a0ed1876295
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ArchiveItem 元素包含源文件夹 ID 和关联的存档项目的项目 ID 数组。
+ms.openlocfilehash: 876c86321c688e20fc3b5539c542bc46e67ba343
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463403"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525293"
 ---
 # <a name="archiveitem"></a>ArchiveItem
 
-**ArchiveItem**元素包含源文件夹 Id 和关联存档项的项 id 的数组。 
+**ArchiveItem** 元素包含源文件夹 ID 和关联的存档项目的项目 ID 数组。 
   
 ```XML
 <ArchiveItem>
@@ -43,7 +43,7 @@ ms.locfileid: "44463403"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -55,7 +55,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
-|验证文件  <br/> |消息 .xsd  <br/> |
+|验证文件  <br/> |messages.xsd  <br/> |
 |可以为空  <br/> |false  <br/> |
    
 

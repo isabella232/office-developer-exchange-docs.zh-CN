@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsAutomaticReply
 api_type:
 - schema
 ms.assetid: 280e9baf-199d-422c-8fdf-1d0751a3e77d
-description: IsAutomaticReply 元素指示传入的邮件是否必须是自动答复，以便条件或例外情况适用。
-ms.openlocfilehash: 7521dbbb458cf7683b52b2fe4fddacd276b40256
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: IsAutomaticReply 元素指示传入的邮件是否必须为自动答复，以便条件或例外情况适用。
+ms.openlocfilehash: 64708ecb129727fdd47f34307d17b85df00b460c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455560"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525782"
 ---
 # <a name="isautomaticreply"></a>IsAutomaticReply
 
-**IsAutomaticReply**元素指示传入的邮件是否必须是自动答复，以便条件或例外情况适用。 
+**IsAutomaticReply** 元素指示传入的邮件是否必须为自动答复，以便条件或例外情况适用。 
   
 ```XML
 <IsAutomaticReply> true | false</IsAutomaticReply>
@@ -45,11 +45,11 @@ ms.locfileid: "44455560"
 |**元素**|**说明**|
 |:-----|:-----|
 |[条件](conditions.md) <br/> |表示履行时将触发规则的规则操作的条件。  <br/> |
-|[异常](exceptions.md) <br/> |代表收件箱规则的所有可用的规则例外条件。  <br/> |
+|[异常](exceptions.md) <br/> |代表收件箱规则的所有可用规则例外条件。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-如果文本值为**true** ，则表示邮件必须为自动答复，以便条件或例外情况适用。 如果值为**false** ，则表示该邮件不一定是自动答复，以便条件或例外情况适用。 
+如果文本值为 **true，** 则表明邮件必须是自动答复，以便条件或例外适用。 false **值指示** 邮件不需要自动答复，以便条件或例外情况适用。 
   
 ## <a name="remarks"></a>说明
 

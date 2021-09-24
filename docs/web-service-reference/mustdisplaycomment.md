@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MustDisplayComment
 api_type:
 - schema
 ms.assetid: 11d4d3c3-4652-4ed4-9b29-a0b5f85b82b7
 description: MustDisplayComment 元素指示是否必须显示托管文件夹注释。
-ms.openlocfilehash: e86b0c6e2c1d7c3cc00561c17c82b3be82d81242
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: da1a5e01c1cf244385964db0a3c1a4be705cc25f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463207"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518125"
 ---
 # <a name="mustdisplaycomment"></a>MustDisplayComment
 
-**MustDisplayComment**元素指示是否必须显示托管文件夹注释。 
+**MustDisplayComment** 元素指示是否必须显示托管文件夹注释。 
   
 ```xml
 <MustDisplayComment/>
@@ -48,7 +48,7 @@ ms.locfileid: "44463207"
    
 ## <a name="text-value"></a>文本值
 
-该文本值表示一个布尔值。 **如果值为 true** ，则表示必须显示注释;**如果值为 false** ，则表示不需要显示批注。 
+文本值表示一个布尔值。 true **值表示** 必须显示注释;false **值表示** 无需显示注释。 
   
 ## <a name="remarks"></a>说明
 

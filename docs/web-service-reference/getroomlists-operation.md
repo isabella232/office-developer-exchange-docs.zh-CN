@@ -5,40 +5,40 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetRoomLists
 api_type:
 - schema
 ms.assetid: 55d451f9-547f-44ac-872e-9cb220ea7b7c
-description: GetRoomLists 操作获取 Exchange 组织中可用的会议室列表。
-ms.openlocfilehash: d1393a6a5e99b7e0a7e354d2b7dd035d04356ec2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetRoomLists 操作获取在组织内部可用的Exchange列表。
+ms.openlocfilehash: 017936dd7d36ffc4c69183380f95e14f7a529913
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458276"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521940"
 ---
 # <a name="getroomlists-operation"></a>GetRoomLists 操作
 
-**GetRoomLists**操作获取 Exchange 组织中可用的会议室列表。 
+**GetRoomLists** 操作获取在组织内部可用的Exchange列表。 
   
 ## <a name="soap-headers"></a>SOAP 标头
 
-**GetRoomLists**操作可以使用下表中列出和描述的 SOAP 标头。 
+**GetRoomLists** 操作可以使用下表中列出和描述的 SOAP 标头。 
   
 |**Header**|**元素**|**说明**|
 |:-----|:-----|:-----|
-|模拟  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |标识客户端应用程序模拟的用户。  <br/> |
-|MailboxCulture  <br/> |[MailboxCulture](mailboxculture.md) <br/> |标识要用于访问邮箱的 RFC3066 区域性。  <br/> |
+|模拟  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |标识客户端应用程序正在模拟的用户。  <br/> |
+|MailboxCulture  <br/> |[MailboxCulture](mailboxculture.md) <br/> |标识用于访问邮箱的 RFC3066 区域性。  <br/> |
 |RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。  <br/> |
-|ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器版本。  <br/> |
+|ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器的版本。  <br/> |
    
 ## <a name="getroomlists-request-example"></a>GetRoomLists 请求示例
 
 ### <a name="description"></a>Description
 
-下面是一个**GetRoomLists**请求的示例，该请求返回服务器上可用的会议室列表。 
+下面是返回服务器上可用的会议室列表的 **GetRoomLists** 请求示例。 
   
 ### <a name="code"></a>代码
 
@@ -58,9 +58,9 @@ ms.locfileid: "44458276"
 
 ```
 
-### <a name="request-elements"></a>Request 元素
+### <a name="request-elements"></a>请求元素
 
-在请求中使用以下元素：
+请求中会使用以下元素：
   
 - [GetRoomLists](getroomlists.md)
     
@@ -68,7 +68,7 @@ ms.locfileid: "44458276"
 
 ### <a name="description"></a>Description
 
-下面的示例演示了对**GetRoomLists**请求的响应。 此响应显示服务器上的一个会议室列表。 
+下面是对 **GetRoomLists** 请求的响应示例。 此响应显示服务器上一个会议室列表。 
   
 ### <a name="code"></a>代码
 
@@ -97,7 +97,7 @@ ms.locfileid: "44458276"
 
 ### <a name="successful-getroomlists-response-elements"></a>成功的 GetRoomLists 响应元素
 
-响应中使用以下元素：
+响应中会使用下列元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -117,7 +117,7 @@ ms.locfileid: "44458276"
 
 #### <a name="description"></a>Description
 
-下面的示例演示尝试从未定义任何会议室列表的服务器中获取会议室列表的响应。
+以下示例显示对尝试从未定义任何会议室列表的服务器获取会议室列表的响应。
   
 #### <a name="code"></a>代码
 
@@ -139,7 +139,7 @@ ms.locfileid: "44458276"
 
 #### <a name="getroomlists-error-response-elements"></a>GetRoomLists 错误响应元素
 
-错误响应中使用以下元素：
+错误响应中会使用下列元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -153,7 +153,7 @@ ms.locfileid: "44458276"
 
 
 
-[Exchange 中的 EWS 操作](ews-operations-in-exchange.md)
+[EWS 操作在Exchange](ews-operations-in-exchange.md)
   
 - [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

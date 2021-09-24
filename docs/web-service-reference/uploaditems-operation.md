@@ -5,32 +5,32 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UploadItems
 api_type:
 - schema
 ms.assetid: a88cbe99-7968-454d-a545-4f92c330909f
-description: UploadItems 操作将项目流上载到 Exchange 邮箱中。
-ms.openlocfilehash: 57e722c7775baa090736875077781cee869c3b01
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: UploadItems 操作将项目流上载到Exchange邮箱。
+ms.openlocfilehash: 333b72eb93395bb1fc0b97a90951ae68285794b3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468500"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522423"
 ---
 # <a name="uploaditems-operation"></a>UploadItems 操作
 
-**UploadItems**操作将项目流上载到 Exchange 邮箱中。 
+**UploadItems** 操作将项目流上载到Exchange邮箱。 
   
 > [!IMPORTANT]
-> **UploadItems**操作在 MicrosoftExchange Server 2010 Service Pack 1 （SP1）中受到限制，可在 base64 编码数据的25MB 中使用最大的导入负载。 可以在 web.config 文件中更改该设置。 
+> MicrosoftExchange Server 2010 Service Pack 1 (SP1) 中的 **UploadItems** 操作限制为 base64 编码数据的最大导入有效负载为 25MB。 该设置可以在更新文件中web.config更改。 
   
 ## <a name="uploaditems-request-example"></a>UploadItems 请求示例
 
 ### <a name="description"></a>Description
 
-以下示例的**UploadItems**请求显示如何将两个项目上传到邮箱中。 第一项是一个新项。 第二个项目是邮箱中现有项目的更新版本。 
+**UploadItems** 请求的以下示例显示如何将两个项目上载到邮箱中。 第一项是新项。 第二个项目是邮箱中现有项目的更新版本。 
   
 ### <a name="code"></a>代码
 
@@ -80,23 +80,23 @@ ms.locfileid: "44468500"
 
 ### <a name="comments"></a>备注
 
-标识符和项目数据已缩短，以保持可读性。
+标识符和项数据已缩短，以保持可读性。
   
-### <a name="request-elements"></a>Request 元素
+### <a name="request-elements"></a>请求元素
 
-请求中使用以下元素：
+请求中会使用下列元素：
   
 - [RequestServerVersion](requestserverversion.md)
     
 - [UploadItems](uploaditems.md)
     
-- [项目（NonEmptyArrayOfUploadItemsType）](items-nonemptyarrayofuploaditemstype.md)
+- [Items (NonEmptyArrayOfUploadItemsType)](items-nonemptyarrayofuploaditemstype.md)
     
-- [Item （UploadItemType）](item-uploaditemtype.md)
+- [Item (UploadItemType)](item-uploaditemtype.md)
     
 - [ParentFolderId](parentfolderid.md)
     
-- [Data （base64Binary）](data-base64binary.md)
+- [Data (base64Binary)](data-base64binary.md)
     
 - [ItemId](itemid.md)
     
@@ -104,7 +104,7 @@ ms.locfileid: "44468500"
 
 ### <a name="description"></a>Description
 
-下面的示例演示对**UploadItems**请求的成功响应。 
+以下示例显示对 **UploadItems** 请求的成功响应。 
   
 ### <a name="code"></a>代码
 
@@ -143,11 +143,11 @@ ms.locfileid: "44468500"
 
 ### <a name="comments"></a>备注
 
-项目标识符已缩短，以保持可读性。
+已缩短项目标识符以保持可读性。
   
 ### <a name="response-elements"></a>Response 元素
 
-响应中使用以下元素：
+响应中会使用下列元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -165,7 +165,7 @@ ms.locfileid: "44468500"
 
 ### <a name="description"></a>Description
 
-下面的示例演示对**UploadItems**请求的响应，该请求包含尝试更新无法在邮箱中找到的项目时导致的错误。 
+以下示例显示对 **UploadItems** 请求的响应，该请求包含由尝试更新邮箱中找不到的项目导致的一个错误。 
   
 ### <a name="code"></a>代码
 
@@ -201,7 +201,7 @@ ms.locfileid: "44468500"
 
 ### <a name="error-response-elements"></a>错误响应元素
 
-错误响应中使用以下元素：
+错误响应中会使用下列元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -224,7 +224,7 @@ ms.locfileid: "44468500"
 [ExportItems 操作](exportitems-operation.md)
 
 
-[Exchange 中的 EWS 操作](ews-operations-in-exchange.md)
+[EWS 操作在Exchange](ews-operations-in-exchange.md)
   
 - [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

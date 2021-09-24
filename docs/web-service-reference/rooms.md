@@ -1,31 +1,31 @@
 ---
-title: 所属
+title: Rooms
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Rooms
 api_type:
 - schema
 ms.assetid: 57b6079a-3d83-4429-861e-c551e9e1a991
-description: 聊天室元素是表示会议室的一个或多个元素的列表。
-ms.openlocfilehash: f8b60a9680f6abba459ebecc96613abfdd93766d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Rooms 元素是表示会议室的一个或多个元素的列表。
+ms.openlocfilehash: bcefa1fb380599e556b7c3e99235afc2057b1017
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466183"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524481"
 ---
-# <a name="rooms"></a>所属
+# <a name="rooms"></a>Rooms
 
-**聊天室**元素是表示会议室的一个或多个元素的列表。 
+Rooms 元素是表示会议室的一个或多个元素的列表。 
   
 [GetRoomsResponse](getroomsresponse.md)
   
-[所属](rooms.md)
+[Rooms](rooms.md)
   
 ```xml
 <Rooms>   <Room/></Rooms>
@@ -44,7 +44,7 @@ ms.locfileid: "44466183"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[房间](room.md) <br/> |定义表示会议室的电子邮件地址和显示名称。  <br/> |
+|[Room](room.md) <br/> |定义一个代表会议室显示名称电子邮件地址和电子邮件地址。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -52,9 +52,9 @@ ms.locfileid: "44466183"
 |:-----|:-----|
 |[GetRoomsResponse](getroomsresponse.md) <br/> ||
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-描述此元素的架构位于运行 Microsoft Exchange Server 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
+描述此元素的架构位于运行安装了客户端访问服务器角色Microsoft Exchange Server的计算机的 EWS 虚拟目录中。
   
 ## <a name="element-information"></a>元素信息
 

@@ -5,33 +5,33 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MoveFolder
 api_type:
 - schema
 ms.assetid: c7233966-6c87-4a14-8156-b1610760176d
-description: MoveFolder 操作将文件夹从指定文件夹移动，并将其放在另一个文件夹中。
-ms.openlocfilehash: dc572130ca3b2f2b152abbb4a8b68cc6f67790e8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: MoveFolder 操作将文件夹从指定文件夹移动，并放在另一个文件夹中。
+ms.openlocfilehash: e0b0e93bd070354d03c511382b6096f2d3a07508
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460580"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523857"
 ---
 # <a name="movefolder-operation"></a>MoveFolder 操作
 
-MoveFolder 操作将文件夹从指定文件夹移动，并将其放在另一个文件夹中。
+MoveFolder 操作将文件夹从指定文件夹移动，并放在另一个文件夹中。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-MoveFolder 操作类似于 CopyFolder 操作。 无法移动可分辨文件夹。 您可以一次将多个文件夹移动到目标文件夹。
+MoveFolder 操作类似于 CopyFolder 操作。 不能移动可分辨文件夹。 你可以一次将多个文件夹移动到目标文件夹。
   
 ## <a name="movefolder-request-example"></a>MoveFolder 请求示例
 
 ### <a name="description"></a>Description
 
-以下示例的 MoveFolder 请求显示如何形成一个请求，以移动[FolderId](folderid.md)标识的文件夹，并将该文件夹放在 "垃圾邮件" 可分辨文件夹中。 
+下面的 MoveFolder 请求示例演示如何形成一个请求，以移动 [由 FolderId](folderid.md) 标识的文件夹，以及将文件夹放入垃圾邮件可分辨文件夹。 
   
 ### <a name="code"></a>代码
 
@@ -55,9 +55,9 @@ MoveFolder 操作类似于 CopyFolder 操作。 无法移动可分辨文件夹�
 ### <a name="comments"></a>备注
 
 > [!NOTE]
-> 为了提高可读性， [FolderId](folderid.md)元素的 ID 属性值已缩短。 
+> 为可读性，已缩短 [FolderId](folderid.md) 元素的 ID 属性的值。 
   
-### <a name="request-elements"></a>Request 元素
+### <a name="request-elements"></a>请求元素
 
 此 MoveFolder 请求包括以下元素：
   
@@ -74,13 +74,13 @@ MoveFolder 操作类似于 CopyFolder 操作。 无法移动可分辨文件夹�
 有关可用于形成 MoveFolder 请求的其他元素，请参阅架构。
   
 > [!NOTE]
-> 架构的默认位置在安装了客户端访问服务器角色的计算机上的 EWS 虚拟目录中。 
+> 架构的默认位置在安装了客户端访问服务器角色的计算机上 EWS 虚拟目录中。 
   
 ## <a name="successful-movefolder-response-example"></a>成功的 MoveFolder 响应示例
 
 ### <a name="description"></a>Description
 
-下面的示例演示对 MoveFolder 请求的成功响应。 
+以下示例显示了对 MoveFolder 请求的成功响应。 
   
 ### <a name="code"></a>代码
 
@@ -115,9 +115,9 @@ MoveFolder 操作类似于 CopyFolder 操作。 无法移动可分辨文件夹�
 ### <a name="comments"></a>备注
 
 > [!NOTE]
-> 文件夹 ID 和更改密钥已缩短，以保持可读性。 
+> 已缩短文件夹 ID 和更改键以保持可读性。 
   
-响应中返回的 FolderId 表示移动到新文件夹位置的文件夹。
+响应中返回的 FolderId 表示已移动到新文件夹位置的文件夹。
   
 ### <a name="response-elements"></a>Response 元素
 
@@ -141,7 +141,7 @@ MoveFolder 响应包括以下元素：
 
 ### <a name="description"></a>Description
 
-下面的示例演示在尝试移动可分辨文件夹时发生的错误响应。
+以下示例显示尝试移动可分辨文件夹时发生的错误响应。
   
 ### <a name="code"></a>代码
 

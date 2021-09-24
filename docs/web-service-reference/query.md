@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ccb4cd62-9779-4ca7-a4fe-5a96e6af8f48
-description: Query 元素包含用于保留的搜索查询。
-ms.openlocfilehash: 52b7f58ee0304621d37fc592a0377f5fd82cea29
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Query 元素包含保留的搜索查询。
+ms.openlocfilehash: a9e66a0861a07336aa3a02eaca5b65ab97a3d6cd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468857"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523788"
 ---
 # <a name="query"></a>查询
 
-**Query**元素包含用于保留的搜索查询。 
+**Query** 元素包含保留的搜索查询。 
   
 ```XML
 <Query></Query>
@@ -42,9 +42,9 @@ ms.locfileid: "44468857"
   
 ## <a name="text-value"></a>文本值
 
-**查询**元素的文本值是发现搜索的搜索查询字符串。 
+**Query** 元素的文本值是发现搜索的搜索查询字符串。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

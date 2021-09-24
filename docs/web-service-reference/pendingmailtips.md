@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PendingMailTips
 api_type:
 - schema
 ms.assetid: 0cd70eea-8d36-4b1b-bf80-5edf359e7ba7
-description: PendingMailTips 元素指示在服务器的处理超时过期之前无法评估此元素中的邮件提示。
-ms.openlocfilehash: 715d68b367c3b7251c7406c10c1ec52dcd992a59
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: PendingMailTips 元素指示在服务器的处理超时到期之前，无法评估此元素中的邮件提示。
+ms.openlocfilehash: cadf1839acaeb7c25d1bbf42af5fc866f6c7a4cd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529964"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521758"
 ---
 # <a name="pendingmailtips"></a>PendingMailTips
 
-**PendingMailTips**元素指示在服务器的处理超时过期之前无法评估此元素中的邮件提示。 
+**PendingMailTips** 元素指示在服务器的处理超时到期之前，无法评估此元素中的邮件提示。 
   
 ```XML
 <PendingMailTips>All | OutOfOfficeMessage | MailboxFullStatus | CustomMailTip | ExternalMemberCount | TotalMemberCount | MaxMessageSize | DeliveryRestriction | ModerateStatus | InvalidRecipient</PendingMailTips>
@@ -42,25 +42,25 @@ ms.locfileid: "44529964"
   
 ### <a name="parent-elements"></a>父元素
 
-|**元素**|**描述**|
+|**元素**|**说明**|
 |:-----|:-----|
-|[邮件提示](mailtips.md) <br/> |表示各种邮件提示类型的值。  <br/> |
+|[邮件提示](mailtips.md) <br/> |表示各种类型的邮件提示的值。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-下表列出了**PendingMailTips**元素的可能值。 
+下表列出了 **PendingMailTips** 元素的可能值。 
   
 |**值**|**说明**|
 |:-----|:-----|
-|所有  <br/> |表示所有可用的邮件提示。  <br/> |
-|OutOfOfficeMessage  <br/> |代表 "外出" （OOF）邮件。  <br/> |
+|全部  <br/> |表示所有可用的邮件提示。  <br/> |
+|OutOfOfficeMessage  <br/> |代表"外出Office (OOF) 消息。  <br/> |
 |MailboxFullStatus  <br/> |表示邮箱已满的状态。  <br/> |
-|CustomMailTip  <br/> |代表自定义邮件提示。  <br/> |
+|CustomMailTip  <br/> |表示自定义邮件提示。  <br/> |
 |ExternalMemberCount  <br/> |表示外部成员的计数。  <br/> |
 |TotalMemberCount  <br/> |表示所有成员的计数。  <br/> |
-|MaxMessageSize  <br/> |表示收件人可接受的最大邮件大小。  <br/> |
-|DeliveryRestriction  <br/> |指示传递限制是否将阻止发件人的邮件到达收件人。  <br/> |
-|ModerationStatus  <br/> |指示审阅者是否会检查发件人的邮件。  <br/> |
+|MaxMessageSize  <br/> |表示收件人可以接受的最大邮件大小。  <br/> |
+|DeliveryRestriction  <br/> |指示传递限制是否阻止发件人的邮件到达收件人。  <br/> |
+|ModerationStatus  <br/> |指示审查方是否将审阅发件人的邮件。  <br/> |
 |InvalidRecipient  <br/> |指示收件人是否无效。  <br/> |
    
 ## <a name="remarks"></a>说明

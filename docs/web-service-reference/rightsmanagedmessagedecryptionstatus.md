@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 17c7af54-aa44-4065-86ce-ac9f2edbf464
-description: RightsManagedMessageDecryptionStatus 元素指定项的权限管理解密状态。
-ms.openlocfilehash: 2d10a78b18b977518ee6c8301da40d2bd5a58900
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: RightsManagedMessageDecryptionStatus 元素指定项目权限管理解密状态。
+ms.openlocfilehash: a662f86bd0fa22ee2f79eee6f4dfc9d80ba213b1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457422"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524537"
 ---
 # <a name="rightsmanagedmessagedecryptionstatus"></a>RightsManagedMessageDecryptionStatus
 
-**RightsManagedMessageDecryptionStatus**元素指定项的权限管理解密状态。 
+**RightsManagedMessageDecryptionStatus** 元素指定项目权限管理解密状态。 
   
 ```XML
 <RightsManagedMessageDecryptionStatus></RightsManagedMessageDecryptionStatus>
 ```
 
- **整除**
+ **integer**
 ## <a name="attributes-and-elements"></a>属性和元素
 
 下面各部分介绍了属性、子元素和父元素。
@@ -42,9 +42,9 @@ ms.locfileid: "44457422"
   
 ## <a name="text-value"></a>文本值
 
-**RightsManagedMessageDecryptionStatus**元素的文本值是受权限保护的项的解密状态。 
+**RightsManagedMessageDecryptionStatus** 元素的文本值是受权限保护的项目的解密状态。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

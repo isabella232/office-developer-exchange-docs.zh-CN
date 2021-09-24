@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: de1d2a60-aeeb-4625-8b11-23c42e1e7bae
-description: MakeItemImmutable 元素指定一个布尔值，该值指示是否应将项目设为只读。
-ms.openlocfilehash: 05c6e3343b8ba892048174ad98c9d31fe8da685b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: MakeItemImmutable 元素指定一个布尔值，该值指示项目是否应该成为只读的。
+ms.openlocfilehash: 0e1d28f19492bb6dc013957aa5957b59e791b24b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465861"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524824"
 ---
 # <a name="makeitemimmutable"></a>MakeItemImmutable
 
-**MakeItemImmutable**元素指定一个布尔值，该值指示是否应将项目设为只读。 
+**MakeItemImmutable** 元素指定一个布尔值，该值指示项目是否应该成为只读的。 
   
 ```XML
 <MakeItemImmutable>true | false</MakeItemImmutable>
@@ -42,9 +42,9 @@ ms.locfileid: "44465861"
   
 ## <a name="text-value"></a>文本值
 
-如果**MakeItemImmutable**元素的文本值为**true** ，则表示应将该项设为只读。 **如果值为 false** ，则表示项目允许读写访问。 
+**MakeItemImmutable** 元素的文本值 **true** 指示应使该项目成为只读。 false **值表示** 项目允许读写访问。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -56,7 +56,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
-|验证文件  <br/> |消息 .xsd  <br/> |
+|验证文件  <br/> |messages.xsd  <br/> |
 |可以为空  <br/> ||
    
 

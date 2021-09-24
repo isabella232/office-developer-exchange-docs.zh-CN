@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 89650cd4-c790-4a37-b5e5-46a57501e100
 description: SyncState 元素指定对话的同步状态。
-ms.openlocfilehash: 85c525176931b66354ebdd8873673f04c6a722f3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: e5096dd6f0fa9abfd92e725343d3f8f7fd08c103
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468136"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522576"
 ---
 # <a name="syncstate-base64binary"></a>SyncState (base64Binary)
 
-**SyncState**元素指定对话的同步状态。 
+**SyncState** 元素指定对话的同步状态。 
   
 ```XML
 <SyncState></SyncState>
@@ -38,13 +38,13 @@ ms.locfileid: "44468136"
   
 ### <a name="parent-elements"></a>父元素
 
-[对话（ConversationRequestType）](conversation-conversationrequesttype.md)  | [对话（ConversationResponseType）](conversation-conversationresponsetype.md)
+[Conversation (ConversationRequestType) ](conversation-conversationrequesttype.md)  | [Conversation (ConversationResponseType) ](conversation-conversationresponsetype.md)
   
 ## <a name="text-value"></a>文本值
 
-**SyncState**元素的文本值是对话的同步状态。 
+**SyncState** 元素的文本值是对话的同步状态。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

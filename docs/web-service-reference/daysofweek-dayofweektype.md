@@ -1,27 +1,27 @@
 ---
-title: DaysOfWeek （DayOfWeekType）
+title: DaysOfWeek (DayOfWeekType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DaysOfWeek
 api_type:
 - schema
 ms.assetid: ba8f990d-d37d-403d-b31f-55e5208c8ad5
-description: DaysOfWeek 元素描述在项目定期模式中使用的一周中的日期。
-ms.openlocfilehash: 44552350679df1fec3d237d9b09f1a5feb9cc4b6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DaysOfWeek 元素描述项目定期模式中使用的星期几。
+ms.openlocfilehash: f30184755117c7561b66e93491cbd68534064eeb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458822"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525104"
 ---
-# <a name="daysofweek-dayofweektype"></a>DaysOfWeek （DayOfWeekType）
+# <a name="daysofweek-dayofweektype"></a>DaysOfWeek (DayOfWeekType)
 
-**DaysOfWeek**元素描述在项目定期模式中使用的一周中的日期。 
+**DaysOfWeek** 元素描述项目定期模式中使用的星期几。 
   
 ```xml
 <DaysOfWeek/>
@@ -45,8 +45,8 @@ ms.locfileid: "44458822"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[RelativeYearlyRecurrence](relativeyearlyrecurrence.md) <br/> |介绍相对年定期模式。  <br/> |
-|[RelativeMonthlyRecurrence](relativemonthlyrecurrence.md) <br/> |介绍相对月定期模式。  <br/> |
+|[RelativeYearlyRecurrence](relativeyearlyrecurrence.md) <br/> |描述相对每年定期模式。  <br/> |
+|[RelativeMonthlyRecurrence](relativemonthlyrecurrence.md) <br/> |描述相对每月定期模式。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
@@ -59,13 +59,13 @@ ms.locfileid: "44458822"
 - 星期四    
 - 星期五    
 - 星期六    
-- Day （不在 TimeChangePatternTypes 中使用）    
-- 工作日（不在 TimeChangePatternTypes 中使用）    
-- WeekendDay （不在 TimeChangePatternTypes 中使用）
+- TimeChangePatternTypes (中未使用的日)     
+- Weekday (在 TimeChangePatternTypes 属性中)     
+- WeekendDay (TimeChangePatternTypes 属性中) 
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-描述此元素的架构位于运行 Microsoft Exchange Server 2010 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
+描述此元素的架构位于运行安装了客户端访问服务器角色的 Microsoft Exchange Server 2010 的计算机的 EWS 虚拟目录中。
   
 ## <a name="element-information"></a>元素信息
 

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 893409f1-fe76-40a4-ad7b-8a6bbc2bce12
-description: YomiLastNames 元素为关联的角色指定拼音日语姓氏的数组以及其源归属的标识符。
-ms.openlocfilehash: bc0ffcd796a29a24be3edbc7129333cc332596b6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: YomiLastNames 元素指定一个包含日文姓氏的 Phonetic 数组，以及关联人物的源属性的标识符。
+ms.openlocfilehash: 420077e59cf0dde897ce5c87c0463f128cf45a9d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467086"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525461"
 ---
 # <a name="yomilastnames"></a>YomiLastNames
 
-**YomiLastNames**元素为关联的角色指定拼音日语姓氏的数组以及其源归属的标识符。 
+**YomiLastNames** 元素指定一个包含日文姓氏的 Phonetic 数组，以及关联人物的源属性的标识符。 
   
 ```XML
 <YomiLastNames>
@@ -42,7 +42,7 @@ ms.locfileid: "44467086"
 
 [角色](persona.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

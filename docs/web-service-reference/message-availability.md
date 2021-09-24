@@ -1,27 +1,27 @@
 ---
-title: 邮件（可用性）
+title: Message (Availability)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Message
 api_type:
 - schema
 ms.assetid: 1eec24dd-c981-41f4-a2f0-c51d43f1d7c0
-description: Message 元素包含外出（OOF）响应。
-ms.openlocfilehash: 13d118422ccb5a2897c21b6d124f170bf461dbf6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Message 元素包含 OOF Office (的) 。
+ms.openlocfilehash: d5698e8eeca25d0386ccad04b36dcfbf9dfa8d14
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467002"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523942"
 ---
-# <a name="message-availability"></a>邮件（可用性）
+# <a name="message-availability"></a>Message (Availability)
 
-**Message**元素包含外出（OOF）响应。 
+Message 元素包含 OOF Office (响应) Out。 
   
 ```xml
 <Message/> 
@@ -44,13 +44,13 @@ ms.locfileid: "44467002"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[InternalReply](internalreply.md) <br/> | 包含发送给发件人域中其他用户的 OOF 邮件。 <br/> <br/>  以下是此元素的可能的 XPath 表达式： <br/> <br/>  `/SetUserOofSettingsRequest/UserOofSettings/InternalReply` <br/><br/>  `/GetUserOofSettingsResponse/OofSettings/InternalReply` <br/> |
-|[ExternalReply](externalreply.md) <br/> | 包含发送到发件人域外部地址的 OOF 邮件。  <br/> <br/> 以下是此元素的可能的 XPath 表达式：  <br/><br/>  `/SetUserOofSettingsRequest/UserOofSettings/ExternalReply` <br/><br/>  `/GetUserOofSettingsResponse/OofSettings/ExternalReply` <br/> |
-|[ReplyBody](replybody.md) <br/> |包含 OOF 邮件和邮件所用的语言。  <br/> |
+|[InternalReply](internalreply.md) <br/> | 包含发送给发件人域中其他用户的 OOF 邮件。 <br/> <br/>  以下是此元素的可能 XPath 表达式： <br/> <br/>  `/SetUserOofSettingsRequest/UserOofSettings/InternalReply` <br/><br/>  `/GetUserOofSettingsResponse/OofSettings/InternalReply` <br/> |
+|[ExternalReply](externalreply.md) <br/> | 包含发送到发件人域外部地址的 OOF 邮件。  <br/> <br/> 以下是此元素的可能 XPath 表达式：  <br/><br/>  `/SetUserOofSettingsRequest/UserOofSettings/ExternalReply` <br/><br/>  `/GetUserOofSettingsResponse/OofSettings/ExternalReply` <br/> |
+|[ReplyBody](replybody.md) <br/> |包含 OOF 邮件和用于邮件的语言。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-设置 OOF 邮件需要一个文本值。
+设置 OOF 邮件需要文本值。
   
 ## <a name="remarks"></a>说明
 
@@ -58,7 +58,7 @@ ms.locfileid: "44467002"
   
 ## <a name="example"></a>示例
 
-以下示例的[SetUserOofSettings 操作](setuseroofsettings-operation.md)请求将[OofState](oofstate.md)设置为 "**启用**"，将 "OOF" 的持续时间设置为10天，并设置内部和外部 OOF 邮件。
+[SetUserOofSettings](setuseroofsettings-operation.md)操作请求的以下示例将 [OofState](oofstate.md)设置为 **Enabled，** 将 OOF 的持续时间设置为 10 天，并设置内部和外部 OOF 邮件。
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

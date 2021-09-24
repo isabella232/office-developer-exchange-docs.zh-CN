@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9697f2e5-a5f7-471a-a052-ae79e06eb09d
 description: ActionUrl 元素标识用户应导航到的 URL，以便修复 AppStatus 元素指示的问题。
-ms.openlocfilehash: 2335595b4be6452f41c25f15d359e6939609c9b9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 21bffd1d9300488dad5eec5f0eb67b8a48ec3f00
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529670"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522192"
 ---
 # <a name="actionurl"></a>ActionUrl
 
-**ActionUrl**元素标识用户应导航到的 URL，以便修复[AppStatus](appstatus-ex15websvcsotherref.md)元素指示的问题。 
+**ActionUrl** 元素标识用户应导航到的 URL，以便修复 [AppStatus 元素](appstatus-ex15websvcsotherref.md)指示的问题。 
   
 ```XML
 <ActionUrl/>
@@ -42,7 +42,7 @@ ms.locfileid: "44529670"
   
 ## <a name="text-value"></a>文本值
 
-**ActionUrl**元素的文本值标识用户应导航到的 URL，以便修复**AppStatus**元素指示的问题。 
+**ActionUrl** 元素的文本值标识用户应导航到的 URL，以便修复 **AppStatus 元素** 指示的问题。 
   
 ## <a name="remarks"></a>说明
 

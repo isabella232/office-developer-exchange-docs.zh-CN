@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsWorkTime
 api_type:
 - schema
 ms.assetid: 5243dd19-3593-4a81-bb2d-90496e04cb98
-description: IsWorkTime 元素表示建议的会议时间是否在安排的工作时间内发生。
-ms.openlocfilehash: a3f3c73d585bee6f73863e2be64eea245be674f4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: IsWorkTime 元素表示建议的会议时间是否发生在计划工作时间。
+ms.openlocfilehash: caa00221d36d67957fb20e9b245bac0c3b9e9c3f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467576"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525027"
 ---
 # <a name="isworktime"></a>IsWorkTime
 
-**IsWorkTime**元素表示建议的会议时间是否在安排的工作时间内发生。 
+**IsWorkTime** 元素表示建议的会议时间是否发生在计划工作时间。 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   

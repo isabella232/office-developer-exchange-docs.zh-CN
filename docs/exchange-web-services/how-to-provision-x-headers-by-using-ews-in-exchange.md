@@ -1,33 +1,33 @@
 ---
-title: 使用 Exchange 中的 EWS 设置 x 标头
+title: 使用 EWS 在 Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 45a99a14-a85f-47f8-af48-18eb6c6cc230
-description: 了解如何通过使用 Exchange 中的 EWS 托管 API 或 EWS 设置邮箱的 x 标头。
-ms.openlocfilehash: 409ddb944bbac7a60242de39cdf7ae13b17cc76a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: 了解如何使用 EWS 托管 API 或 Exchange 中的 EWS 设置邮箱的 x 标头。
+ms.openlocfilehash: e60092e0d40d5815cdf3fd4ed588e2f74978c245
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527766"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521114"
 ---
-# <a name="provision-x-headers-by-using-ews-in-exchange"></a>使用 Exchange 中的 EWS 设置 x 标头
+# <a name="provision-x-headers-by-using-ews-in-exchange"></a>使用 EWS 在 Exchange
 
-了解如何通过使用 Exchange 中的 EWS 托管 API 或 EWS 设置邮箱的 x 标头。
+了解如何使用 EWS 托管 API 或 Exchange 中的 EWS 设置邮箱的 x 标头。
   
-X 标头是添加到电子邮件的头集合以传达信息的非标准标头。 例如，Exchange 将带有**X-MS** --SCL 标头的邮件标记为表示电子邮件的垃圾邮件可信度（SCL）。 Outlook 等电子邮件客户端可以使用该信息来确定对电子邮件执行的操作类型（例如，Outlook 可以阻止显示图像，除非用户采取了措施）。 
+X 标头是添加到电子邮件头集合中的非标准标头，用于传达信息。 例如，Exchange **使用 X-MS-Exchange-Organization-SCL** 标头标记邮件，以指示 (SCL) 的垃圾邮件可信度。 电子邮件客户端（如 Outlook）可以使用该信息来确定对电子邮件执行哪种类型的操作 (例如，Outlook 可以阻止显示图像，除非用户执行) 。 
   
-Exchange 会在邮箱架构中添加传入的 x 头作为命名属性，这是第一次收到该 x 标头的电子邮件时。 X 头值不保存在第一封电子邮件上;但是，它会保存在包含 x 标头的所有后续电子邮件上。 因此，您的应用程序应预配 x 标头，然后再预期使用它们。 在电子邮件到邮箱的传输传递过程中出现命名属性和 x 标头之间的映射。 这意味着，您需要通过传输传递来接收电子邮件;您不能只保存包含 x 头的电子邮件到邮箱，以创建到命名属性的映射。
+Exchange第一次收到包含该 x 标头的电子邮件时，将传入的 x 标头作为命名属性添加到邮箱架构中。 x 标头值不会保存在第一封电子邮件上;但是，它将保存在包含 x 标头的所有后续电子邮件中。 因此，应用程序应在你预期使用 x 标头之前预配 x 标头。 命名属性和 x 标头之间的映射发生在电子邮件到邮箱的传输传递中。 这意味着你需要通过传输传递接收电子邮件;不能只将包含 x 标头的电子邮件保存到邮箱，以创建到命名属性的映射。
   
 > [!NOTE]
-> 如果发现不保存 x 标头，请确定[传输代理](https://code.msdn.microsoft.com/Exchange-2013-Build-an-32f62f5a)或[头防火墙](https://technet.microsoft.com/library/bb232136%28v=exchg.150%29.aspx)在到达邮箱之前是否筛选出您的 x 标头。 r
+> 如果发现 x 标头未保存，请确定传输代理或邮件头防火墙[](https://code.msdn.microsoft.com/Exchange-2013-Build-an-32f62f5a)是否在到达邮箱[](https://technet.microsoft.com/library/bb232136%28v=exchg.150%29.aspx)之前筛选出 x 标头。 r
   
-## <a name="provision-an-x-header-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 设置 x 标头
+## <a name="provision-an-x-header-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 预配 x 标头
 <a name="bk_example1"> </a>
 
-下面的代码示例演示如何使用 EWS 托管 API [EmailMessage](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.emailmessage.send%28v=exchg.80%29.aspx)方法来设置邮箱的 x 标头。 此示例假定**service**是有效的[ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象，且目标邮箱尚未超过[命名属性的配额](https://technet.microsoft.com/library/bb851492%28v=EXCHG.80%29.aspx)。
+以下代码示例演示如何使用 EWS 托管 API [EmailMessage.Send](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.emailmessage.send%28v=exchg.80%29.aspx) 方法设置邮箱的 x 标头。 此示例 **假定服务是有效的** [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) 对象，并且目标邮箱没有超出命名 [属性的配额](https://technet.microsoft.com/library/bb851492%28v=EXCHG.80%29.aspx)。
   
 ```cs
 private static void ProvisionCustomXHeaderByEmail(ExchangeService service)
@@ -63,10 +63,10 @@ private static void ProvisionCustomXHeaderByEmail(ExchangeService service)
 }
 ```
 
-## <a name="provision-an-x-header-by-using-ews"></a>使用 EWS 设置 x 标头
+## <a name="provision-an-x-header-by-using-ews"></a>使用 EWS 预配 x 标头
 <a name="bk_example1"> </a>
 
-下面的代码示例演示如何使用 EWS [CreateItem](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx)操作创建并发送电子邮件，以设置具有 x 标头的邮箱。 这是通过[使用 Ews 托管 Api 设置 x 标头](#bk_example1)时由 EWS 托管 api 发送的 XML 请求。
+以下代码示例演示如何使用 EWS [CreateItem](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) 操作创建和发送电子邮件来设置具有 x 标头的邮箱。 这是当您使用 EWS 托管 API 预配 [x 标头时，EWS 托管 API 发送的 XML 请求](#bk_example1)。
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -103,25 +103,25 @@ private static void ProvisionCustomXHeaderByEmail(ExchangeService service)
 ## <a name="version-differences"></a>版本差异
 <a name="bk_example1"> </a>
 
-首次在 Exchange Online 中设置 x 标头，将 Exchange Online 作为 Office 365 的一部分，或从 Exchange Server 2010 开始的本地 Exchange 版本，将不会将新的自定义 x 标头的值写入到存储的邮件中。 这是因为必须首先将 x 标头映射到用户邮箱中的命名属性。 映射发生在首次请求添加命名属性时。 当后续请求创建命名属性时，属性和值存储在邮件上。 在 Exchange 2007 中，第一次将 x 标头写入邮箱数据库时，会在邮箱数据库中为 x 标头创建一个映射，这是一个命名属性。 在后续请求创建命名属性时，将对 Exchange 2007 数据库中的任何邮箱处理和存储 x 标头。
+第一次在 Exchange Online 中预配 x 标头、将 Exchange Online 作为 Office 365 的一部分或 Exchange 本地版本（从 Exchange Server 2010 开始）时，不会将新的自定义 x 标头的值写入存储的邮件。 这是因为必须先将 x 标头映射到用户邮箱中的命名属性。 该映射发生在第一次请求添加命名属性时。 当创建命名属性的后续请求发生时，该属性和值将存储在邮件上。 在 Exchange 2007 中，第一次将 x 标头写入邮箱数据库时，会为 x 标头创建到邮箱数据库中的命名属性的映射。 当创建命名属性的后续请求发生时，x 标头将处理和存储到 Exchange 2007 数据库中。
   
 ## <a name="next-steps"></a>后续步骤
 <a name="bk_example1"> </a>
 
-本文介绍如何通过向用户发送电子邮件来为单个邮箱设置 x 标头。 您还可以通过将[批处理电子邮件发送到](how-to-process-email-messages-in-batches-by-using-ews-in-exchange.md)呼叫者组织中的收件人列表，为多个用户预配 x 标头。 
+本文演示如何通过向用户发送电子邮件来设置单个邮箱的 x 标头。 您还可以通过向呼叫者的组织中收件人列表发送批处理电子邮件，[](how-to-process-email-messages-in-batches-by-using-ews-in-exchange.md)为许多用户设置 x 标头。 
   
 ## <a name="see-also"></a>另请参阅
 
 
 - [属性和交换中的 EWS 中的扩展的属性](properties-and-extended-properties-in-ews-in-exchange.md)
     
-- [Exchange 2013：以编程方式设置自定义 X 标头](https://code.msdn.microsoft.com/exchange/Exchange-2013-Provision-d4ef5719)
+- [Exchange 2013：以编程方式预配自定义 X 标头](https://code.msdn.microsoft.com/exchange/Exchange-2013-Provision-d4ef5719)
     
-- [命名属性、X 标头和您](https://blogs.technet.com/b/exchange/archive/2009/04/06/3407221.aspx)
+- [命名属性、X-Header 和 You](https://blogs.technet.com/b/exchange/archive/2009/04/06/3407221.aspx)
     
-- [命名属性，圆形2：提前](https://blogs.technet.com/b/exchange/archive/2009/06/12/3407672.aspx)
+- [命名属性，第 2 轮：前面是什么](https://blogs.technet.com/b/exchange/archive/2009/06/12/3407672.aspx)
     
-- [标头防火墙](https://technet.microsoft.com/library/bb232136%28v=exchg.150%29.aspx)
+- [邮件头防火墙](https://technet.microsoft.com/library/bb232136%28v=exchg.150%29.aspx)
     
 - [EWS、MIME 和缺少的 Internet 邮件头](https://msdn.microsoft.com/library/office/hh545614%28v=exchg.140%29.aspx)
     

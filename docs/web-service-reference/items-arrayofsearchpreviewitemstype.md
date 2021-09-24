@@ -1,23 +1,23 @@
 ---
-title: 项目（ArrayOfSearchPreviewItemsType）
+title: Items (ArrayOfSearchPreviewItemsType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6b860638-d655-4a49-91c4-60e59b596b48
-description: Items 元素指定可供预览的项的列表用作 SearchMailboxes 操作的结果。
-ms.openlocfilehash: 99d8af67370b75774def0db3b6c274c65a432aab
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Items 元素指定可供预览的项目列表作为 SearchMailboxes 操作的结果。
+ms.openlocfilehash: 6df2c8c9c1072c6cc85fdf88e72c54e303b37e8e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459859"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524096"
 ---
-# <a name="items-arrayofsearchpreviewitemstype"></a>项目（ArrayOfSearchPreviewItemsType）
+# <a name="items-arrayofsearchpreviewitemstype"></a>Items (ArrayOfSearchPreviewItemsType)
 
-**Items**元素指定可供预览的项的列表用作**SearchMailboxes**操作的结果。 
+Items 元素指定可供预览的项目列表作为 **SearchMailboxes** 操作的结果。 
   
 ```XML
 <Items>
@@ -42,7 +42,7 @@ ms.locfileid: "44459859"
 
 [SearchMailboxesResult](searchmailboxesresult.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

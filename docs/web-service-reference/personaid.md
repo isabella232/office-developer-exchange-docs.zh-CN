@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: eec3a468-afd5-4d72-a61e-cd1964fb686c
-description: PersonaId 元素指定关联角色的角色标识符。
-ms.openlocfilehash: 3d7315097a14fb1eed5f378422cba80414601675
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: PersonaId 元素指定关联人物的人物标识符。
+ms.openlocfilehash: fe6416332c20ea2506cf8b2a29234bfc6058246a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457240"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524572"
 ---
 # <a name="personaid"></a>PersonaId
 
-**PersonaId**元素指定关联角色的角色标识符。 
+**PersonaId** 元素指定关联人物的人物标识符。 
   
 ```XML
 <PersonaId Id="" ChangeKey=""/>
@@ -32,8 +32,8 @@ ms.locfileid: "44457240"
 
 |**属性**|**说明**|
 |:-----|:-----|
-|Id  <br/> |**Id**属性的文本值是角色的标识符。  <br/> |
-|ChangeKey  <br/> |**ChangeKey**属性的文本值是角色的更改键。  <br/> |
+|Id  <br/> |**Id** 属性的文本值是 Persona 的标识符。  <br/> |
+|ChangeKey  <br/> |**ChangeKey** 属性的文本值是人员更改键。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -43,7 +43,7 @@ ms.locfileid: "44457240"
 
 [GetPersona](getpersona.md)  | [Persona](persona.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

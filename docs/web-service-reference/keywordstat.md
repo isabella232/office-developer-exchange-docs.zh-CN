@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5af26dc5-6aaf-44a0-8d05-c1d116930a51
 description: KeywordStat 元素指定关键字统计信息。
-ms.openlocfilehash: d9c0524de04e256e94e279fd1ae0bbfd6a5de0f9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: d6e55c2793455c3476dd3591f37c7a44b71d6f67
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458115"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524943"
 ---
 # <a name="keywordstat"></a>KeywordStat
 
-**KeywordStat**元素指定关键字统计信息。 
+**KeywordStat** 元素指定关键字统计信息。 
   
 ```XML
 <KeywordStat>
@@ -38,13 +38,13 @@ ms.locfileid: "44458115"
   
 ### <a name="child-elements"></a>子元素
 
-[关键字](keyword.md)  | [ItemHits](itemhits.md)  | [大小（long）](size-long.md)
+[关键字](keyword.md)  | [ItemHits](itemhits.md)  | [大小 (长) ](size-long.md)
   
 ### <a name="parent-elements"></a>父元素
 
 [KeywordStats](keywordstats.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

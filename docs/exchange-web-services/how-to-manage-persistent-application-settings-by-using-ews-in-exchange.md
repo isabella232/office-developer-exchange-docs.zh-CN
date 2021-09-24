@@ -1,29 +1,29 @@
 ---
-title: 使用 Exchange 中的 EWS 管理持久应用程序设置
+title: 在应用程序中使用 EWS 管理永久性Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 90f561f2-e40e-4f5b-b321-f86dbf4a1b71
-description: 了解如何通过使用 Exchange 中的 EWS 托管 API 或 EWS 创建、查找、获取、更新和删除持久应用程序设置。
-ms.openlocfilehash: ab7b3ef5f87d8a26a412ca7187dc93c58d73112f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: 了解如何使用 EWS 托管 API 或 Exchange 中的 EWS 创建、查找、获取、更新和删除永久性应用程序Exchange。
+ms.openlocfilehash: 0756f8dabe5f0b898619102b8565b65a536791b9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455728"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522276"
 ---
-# <a name="manage-persistent-application-settings-by-using-ews-in-exchange"></a>使用 Exchange 中的 EWS 管理持久应用程序设置
+# <a name="manage-persistent-application-settings-by-using-ews-in-exchange"></a>在应用程序中使用 EWS 管理永久性Exchange
 
-了解如何通过使用 Exchange 中的 EWS 托管 API 或 EWS 创建、查找、获取、更新和删除持久应用程序设置。 
+了解如何使用 EWS 托管 API 或 Exchange 中的 EWS 创建、查找、获取、更新和删除永久性应用程序Exchange。 
   
-用户配置对象是存储 Exchange 客户端应用程序的配置设置的最佳选择，主要是因为它们在大多数客户端应用程序中的搜索结果中是隐藏的。 客户端应用程序通常会隐藏这些设置，因为最终用户不需要查看这些设置，因此用户不会意外地访问此信息。 本文中的代码示例展示了如何使用用户配置对象来管理持久设置，包括如何创建、查找、获取、更新和删除存储在用户配置对象中的持久应用程序设置。
+用户配置对象是存储 Exchange 客户端应用程序配置设置的最佳选项，主要是因为在大多数客户端应用程序中的搜索结果中隐藏它们。 客户端应用程序通常会隐藏这些设置，因为最终用户不需要查看它们，因此用户不会意外访问此信息。 本文中的代码示例介绍了如何使用用户配置对象来管理永久性设置，包括如何创建、查找、获取、更新和删除存储在用户配置对象中的永久应用程序设置。
 
 <a name="createconfiguration"> </a>
 
 ## <a name="create-an-application-setting-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 创建应用程序设置
 
-您可以使用[UserConfiguration 中](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.userconfiguration.save%28v=exchg.80%29.aspx)的 "保存 EWS" API 方法来创建自定义配置设置。 用户配置对象可以包含 XML、二进制、数据字典或这三种数据类型的组合。 下面的示例演示如何使用 EWS 托管 API 将包含二进制数据的名为 ContosoDraftSettings 的用户配置对象保存到您的 "草稿" 文件夹中。 如果要存储有关草稿项目在客户端应用程序中的显示方式的配置信息，这可能很有用。 
+可以使用 [UserConfiguration.Save](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.userconfiguration.save%28v=exchg.80%29.aspx) EWS 托管 API 方法创建自定义配置设置。 用户配置对象可以包含 XML、二进制、数据字典或这三种数据类型的组合。 以下示例演示如何使用 EWS 托管 API 将包含二进制数据的用户配置对象 ContosoDraftSettings 保存到"草稿"文件夹中。 如果要存储有关草稿项在客户端应用程序中的显示方式的配置信息，这可能很有用。 
   
 ```cs
 private static void CreateUserConfiguration(ExchangeService service, byte[] binaryData)
@@ -41,7 +41,7 @@ private static void CreateUserConfiguration(ExchangeService service, byte[] bina
 ## <a name="create-an-application-setting-by-using-ews"></a>使用 EWS 创建应用程序设置
 <a name="bk_createEWS"> </a>
 
-您可以使用[CreateUserConfiguration](https://msdn.microsoft.com/library/eb5b8ab6-9743-481c-aac9-f9aa889bd353%28Office.15%29.aspx) EWS 操作创建自定义配置设置。 下面的示例演示用于创建名为 ContosoDraftSettings 的用户配置对象的请求 XML。 请求尝试将二进制流保存到 "草稿" 文件夹上的 "用户配置" 对象。 这是由 EWS 托管 API 示例生成的 XML。 
+可以使用 [CreateUserConfiguration](https://msdn.microsoft.com/library/eb5b8ab6-9743-481c-aac9-f9aa889bd353%28Office.15%29.aspx) EWS 操作创建自定义配置设置。 以下示例显示用于创建名为 ContosoDraftSettings 的用户配置对象的请求 XML。 该请求尝试将二进制流保存到"草稿"文件夹上的用户配置对象。 这是由 EWS 托管 API 示例生成的同一 XML。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -65,12 +65,12 @@ private static void CreateUserConfiguration(ExchangeService service, byte[] bina
 </soap:Envelope>
 ```
 
-[响应 XML](https://msdn.microsoft.com/library/eb5b8ab6-9743-481c-aac9-f9aa889bd353%28Office.15%29.aspx)很简单，指示创建请求是否成功，或者是否发生了错误。 
+响应 [XML](https://msdn.microsoft.com/library/eb5b8ab6-9743-481c-aac9-f9aa889bd353%28Office.15%29.aspx) 非常简单，指示创建请求是否成功或是否发生了错误。 
   
 ## <a name="find-an-application-setting-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 查找应用程序设置
 <a name="findconfiguration"> </a>
 
-您可以使用[FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx) EWS 托管 API 方法和关联的遍历选项来查找用户配置对象。 下面的代码示例演示如何使用 EWS 托管 API 查找存储在 "草稿" 文件夹中的用户配置对象。 
+可以将 [Folder.FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx) EWS 托管 API 方法与关联的遍历选项一起用于查找用户配置对象。 以下代码示例演示如何使用 EWS 托管 API 查找存储在"草稿"文件夹中的用户配置对象。 
   
 ```cs
 private static void FindAssociated(ExchangeService service)
@@ -110,9 +110,9 @@ private static void FindAssociated(ExchangeService service)
 ## <a name="find-an-application-setting-by-using-ews"></a>使用 EWS 查找应用程序设置
 <a name="bk_findEWS"> </a>
 
-您可以使用[FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) EWS 操作查找用户配置对象。 
+可以使用 [FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) EWS 操作查找用户配置对象。 
   
-下面的示例演示用于查找用户配置对象的请求 XML。 这是由 EWS 托管 API 示例生成的 XML。
+以下示例显示用于查找用户配置对象的请求 XML。 这是由 EWS 托管 API 示例生成的同一 XML。
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -140,13 +140,13 @@ private static void FindAssociated(ExchangeService service)
 </soap:Envelope>
 ```
 
-下面的示例演示用于查找用户配置对象的成功响应 XML。 这是由 EWS 托管 API 示例处理的 XML。 请注意此响应 XML 中的以下内容： 
+以下示例显示查找用户配置对象的成功响应 XML。 这是由 EWS 托管 API 示例处理的同一 XML。 在此响应 XML 中，请注意以下事项： 
   
-- 我们缩短了标识符，并更改了可读性的键。
+- 我们缩短了标识符和更改键的可读性。
     
-- 这两个用户配置对象以邮件的形式返回。 这是因为**FindItem**操作返回在 EWS 架构中未定义为邮件项目的所有项目。 
+- 两个用户配置对象作为消息返回。 这是因为 **FindItem** 操作返回未在 EWS 架构中定义为邮件项目的所有项。 
     
-- 两个用户配置对象的[ItemClass](https://msdn.microsoft.com/library/56020078-50b4-4880-894a-a9f234033cfb%28Office.15%29.aspx)属性不同。 第一个用户配置对象是使用 EWS 创建的。 第二个对象是由另一个 API 创建的。 
+- 两个用户配置对象的 [ItemClass](https://msdn.microsoft.com/library/56020078-50b4-4880-894a-a9f234033cfb%28Office.15%29.aspx) 属性不同。 第一个用户配置对象是使用 EWS 创建的。 第二个对象由另一个 API 创建。 
     
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -193,7 +193,7 @@ private static void FindAssociated(ExchangeService service)
 ## <a name="get-and-update-application-settings-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 获取和更新应用程序设置
 <a name="getconfiguration"> </a>
 
-在找到用户配置对象之后，可以使用[UserConfiguration](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.userconfiguration.bind%28v=exchg.80%29.aspx) EWS 托管 API 方法从邮箱中获取配置对象。 获取 configuration 对象后，可以使用[UserConfiguration](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.userconfiguration.bind%28v=exchg.80%29.aspx)方法对其进行更新。 下面的示例演示如何使用 EWS 托管 API 获取和更新用户配置对象。 
+找到用户配置对象后，可以使用 [UserConfiguration.Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.userconfiguration.bind%28v=exchg.80%29.aspx) EWS 托管 API 方法从邮箱获取配置对象。 获取配置对象后，可以使用 [UserConfiguration.Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.userconfiguration.bind%28v=exchg.80%29.aspx) 方法来更新它。 以下示例演示如何使用 EWS 托管 API 获取和更新用户配置对象。 
   
 ```cs
 private static void GetAndUpdateUserConfiguration(ExchangeService service)
@@ -233,7 +233,7 @@ private static void GetAndUpdateUserConfiguration(ExchangeService service)
 ## <a name="get-and-update-application-settings-by-using-ews"></a>使用 EWS 获取和更新应用程序设置
 <a name="bk_getEWS"> </a>
 
-您可以使用[GetUserConfiguration](https://msdn.microsoft.com/library/71d50e3c-92bd-435f-8118-b28bb85f8138%28Office.15%29.aspx) EWS 操作检索邮箱中的配置对象，并使用[UpdateUserConfiguration](https://msdn.microsoft.com/library/eda73b62-6a3a-43ae-8fd9-f30892811f27%28Office.15%29.aspx)更新对象。 下面的示例演示用于获取名为 TestConfig 的用户配置对象的请求 XML。 请求声明应在响应中返回所有配置。 这是由 EWS 托管 API 示例生成的 XML。 
+您可以使用 [GetUserConfiguration](https://msdn.microsoft.com/library/71d50e3c-92bd-435f-8118-b28bb85f8138%28Office.15%29.aspx) EWS 操作从邮箱检索配置对象，并使用 [UpdateUserConfiguration](https://msdn.microsoft.com/library/eda73b62-6a3a-43ae-8fd9-f30892811f27%28Office.15%29.aspx) 更新该对象。 以下示例显示用于获取名为 TestConfig 的用户配置对象的请求 XML。 请求指出应在响应中返回所有配置。 这是由 EWS 托管 API 示例生成的同一 XML。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -255,7 +255,7 @@ private static void GetAndUpdateUserConfiguration(ExchangeService service)
 </soap:Envelope>
 ```
 
-下面的示例演示用于获取用户配置对象的成功响应 XML。 响应包含数据字典。 这是由 EWS 托管 API 示例处理的 XML。 
+以下示例显示用于获取用户配置对象的成功响应 XML。 该响应包含数据字典。 这是由 EWS 托管 API 示例处理的同一 XML。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -313,7 +313,7 @@ private static void GetAndUpdateUserConfiguration(ExchangeService service)
 </s:Envelope>
 ```
 
-下面的示例演示用于更新用户配置对象的请求 XML。 请求声明应在响应中返回所有配置。 此 XML 与调用**UserConfiguration**方法的 EWS 托管 API 示例生成的 XML 相同。 您可以看到，更新 XML 包含现有词典条目和更新前添加的内容。 
+以下示例显示用于更新用户配置对象的请求 XML。 请求指出应在响应中返回所有配置。 这是由调用 **UserConfiguration.Update** 方法的 EWS 托管 API 示例生成的同一 XML。 可以看到，更新 XML 包含现有词典条目以及更新前添加的其他词典条目。 
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -368,12 +368,12 @@ private static void GetAndUpdateUserConfiguration(ExchangeService service)
 </soap:Envelope>
 ```
 
-[响应 XML](https://msdn.microsoft.com/library/eda73b62-6a3a-43ae-8fd9-f30892811f27%28Office.15%29.aspx)很简单，并指示更新是否成功或是否发生了错误。 
+响应 [XML](https://msdn.microsoft.com/library/eda73b62-6a3a-43ae-8fd9-f30892811f27%28Office.15%29.aspx) 非常简单，指示更新是否成功或是否发生了错误。 
   
 ## <a name="delete-an-application-setting-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 删除应用程序设置
 <a name="deleteconfiguration"> </a>
 
-您可以使用[UserConfiguration 中](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.userconfiguration.delete%28v=exchg.80%29.aspx)的 EWS 托管 API 方法删除用户配置对象。 下面的代码示例演示如何使用 EWS 托管 API 删除 ContosoDraftSettings 用户配置对象。 
+可以使用 [UserConfiguration.Delete](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.userconfiguration.delete%28v=exchg.80%29.aspx) EWS 托管 API 方法删除用户配置对象。 以下代码示例演示如何使用 EWS 托管 API 删除 ContosoDraftSettings 用户配置对象。 
   
 ```cs
 private static void DeleteUserConfiguration(ExchangeService service)
@@ -392,9 +392,9 @@ private static void DeleteUserConfiguration(ExchangeService service)
 ## <a name="delete-an-application-setting-by-using-ews"></a>使用 EWS 删除应用程序设置
 <a name="bk_deleteEWS"> </a>
 
-您可以使用[DeleteUserConfiguration](https://msdn.microsoft.com/library/93e44690-be2d-4fdb-96a8-4ded3c193aed%28Office.15%29.aspx) EWS 操作删除用户配置对象。 
+可以使用 [DeleteUserConfiguration](https://msdn.microsoft.com/library/93e44690-be2d-4fdb-96a8-4ded3c193aed%28Office.15%29.aspx) EWS 操作删除用户配置对象。 
   
-以下示例显示了用于删除应用于 "草稿" 文件夹的名为 "ContosoDraftSettings" 的用户配置对象的请求 XML。 这是由 EWS 托管 API 示例生成的 XML。
+以下示例显示用于删除已应用于"草稿"文件夹的用户配置对象 ContosoDraftSettings 的请求 XML。 这是由 EWS 托管 API 示例生成的同一 XML。
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -415,7 +415,7 @@ private static void DeleteUserConfiguration(ExchangeService service)
 </soap:Envelope>
 ```
 
-[响应 XML](https://msdn.microsoft.com/library/93e44690-be2d-4fdb-96a8-4ded3c193aed%28Office.15%29.aspx)很简单，指示删除请求是成功还是发生错误。 
+响应 [XML](https://msdn.microsoft.com/library/93e44690-be2d-4fdb-96a8-4ded3c193aed%28Office.15%29.aspx) 非常简单，指示删除请求是否成功或是否发生了错误。 
   
 ## <a name="see-also"></a>另请参阅
 

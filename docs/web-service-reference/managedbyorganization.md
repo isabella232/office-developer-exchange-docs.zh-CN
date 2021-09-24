@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 009058b0-c5a7-4fdc-b1a1-af0abaf70ab9
 description: ManagedByOrganization 元素指定管理组织。
-ms.openlocfilehash: ee46a39c4573f0f2088992ec9bd2a0d60ec8fdcf
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 487db5aef2358d1cfc325247ad3b08a44d0dfc82
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465840"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524831"
 ---
 # <a name="managedbyorganization"></a>ManagedByOrganization
 
-**ManagedByOrganization**元素指定管理组织。 
+**ManagedByOrganization** 元素指定管理组织。 
   
 ```XML
 <ManagedByOrganization></ManagedByOrganization>
@@ -42,9 +42,9 @@ ms.locfileid: "44465840"
   
 ## <a name="text-value"></a>文本值
 
-**ManagedByOrganization**元素的文本值标识管理发现搜索的组织。 
+**ManagedByOrganization** 元素的文本值标识管理发现搜索的组织。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

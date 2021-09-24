@@ -1,22 +1,22 @@
 ---
-title: GetOrganizationRelationshipSettingsResponseMessage （SOAP）
+title: GetOrganizationRelationshipSettingsResponseMessage (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fb087ac9-bac7-4635-a54f-3b115d9f5dc4
-description: GetOrganizationRelationshipSettingsResponseMessage 元素定义对 GetOrganizationRelationshipSettings 操作（SOAP）请求的响应。 GetOrganizationRelationshipSettingsResponseMessage 元素仅供内部使用。 客户端不使用此元素。
-ms.openlocfilehash: 806f062824e7e8d937f54cd3d38000aba42acf1e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetOrganizationRelationshipSettingsResponseMessage 元素定义对 SOAP (GetOrganizationRelationshipSettings 操作) 的响应。 GetOrganizationRelationshipSettingsResponseMessage 元素仅供内部使用。 此元素不由客户端使用。
+ms.openlocfilehash: 98038e19fd1e85b0d915f250db98ca13ac1b9721
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466169"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521953"
 ---
-# <a name="getorganizationrelationshipsettingsresponsemessage-soap"></a>GetOrganizationRelationshipSettingsResponseMessage （SOAP）
+# <a name="getorganizationrelationshipsettingsresponsemessage-soap"></a>GetOrganizationRelationshipSettingsResponseMessage (SOAP)
 
-**GetOrganizationRelationshipSettingsResponseMessage**元素定义对[GETORGANIZATIONRELATIONSHIPSETTINGS 操作（SOAP）](getorganizationrelationshipsettings-operation-soap.md)请求的响应。 **GetOrganizationRelationshipSettingsResponseMessage**元素仅供内部使用。 客户端不使用此元素。 
+**GetOrganizationRelationshipSettingsResponseMessage** 元素定义对 SOAP ([GetOrganizationRelationshipSettings](getorganizationrelationshipsettings-operation-soap.md)操作) 的响应。 **GetOrganizationRelationshipSettingsResponseMessage** 元素仅供内部使用。 此元素不由客户端使用。 
   
 ```XML
 <GetOrganizationRelationshipSettingsResponseMessage>
@@ -36,7 +36,7 @@ ms.locfileid: "44466169"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[响应（GetOrganizationRelationship）（SOAP）](response-getorganizationrelationshipsoap.md) <br/> |包含[GetOrganizationRelationshipSettings 操作（SOAP）](getorganizationrelationshipsettings-operation-soap.md)响应信息。  <br/> |
+|[Response (GetOrganizationRelationship) (SOAP)](response-getorganizationrelationshipsoap.md) <br/> |包含 [SOAP 响应 (GetOrganizationRelationshipSettings) ](getorganizationrelationshipsettings-operation-soap.md) 操作。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -55,5 +55,5 @@ ms.locfileid: "44466169"
 
 
 
-[GetOrganizationRelationshipSettings 操作（SOAP）](getorganizationrelationshipsettings-operation-soap.md)
+[GetOrganizationRelationshipSettings 操作 (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
 

@@ -1,27 +1,27 @@
 ---
-title: 建议
+title: Suggestion
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Suggestion
 api_type:
 - schema
 ms.assetid: 040a5c8f-b62f-4d1d-9d2c-dc3c5e01481f
-description: 建议元素表示单个会议建议。
-ms.openlocfilehash: 25821abd5463ddba86a487709c8d2f8d928a94cc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Suggestion 元素表示单个会议建议。
+ms.openlocfilehash: 8fe9500e0a822fc635e9c57c48d1778509963244
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530378"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524439"
 ---
-# <a name="suggestion"></a>建议
+# <a name="suggestion"></a>Suggestion
 
-**建议**元素表示单个会议建议。 
+Suggestion 元素表示单个会议建议。 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -58,15 +58,15 @@ ms.locfileid: "44530378"
 |**元素**|**说明**|
 |:-----|:-----|
 |[MeetingTime](meetingtime.md) <br/> |表示建议的会议时间。  <br/> |
-|[IsWorkTime](isworktime.md) <br/> |表示建议的会议时间是否在安排的工作时间内发生。  <br/> |
-|[SuggestionQuality](suggestionquality.md) <br/> |表示建议会议时间的质量。  <br/> |
-|[AttendeeConflictDataArray](attendeeconflictdataarray.md) <br/> |包含描述用户和资源之间的冲突以及建议的会议时间的信息数组。  <br/> |
+|[IsWorkTime](isworktime.md) <br/> |表示建议的会议时间是否发生在计划的工作时间。  <br/> |
+|[SuggestionQuality](suggestionquality.md) <br/> |表示建议的会议时间的质量。  <br/> |
+|[AttendeeConflictDataArray](attendeeconflictdataarray.md) <br/> |包含描述用户和资源之间冲突以及建议的会议时间的信息数组。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[SuggestionArray](suggestionarray.md) <br/> |包含建议会议时间的数组。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray` <br/> |
+|[SuggestionArray](suggestionarray.md) <br/> |包含建议的会议时间数组。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray` <br/> |
    
 ## <a name="remarks"></a>说明
 
