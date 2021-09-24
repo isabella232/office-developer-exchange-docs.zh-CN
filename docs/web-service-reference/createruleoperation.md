@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateRuleOperation
 api_type:
 - schema
 ms.assetid: e9f70726-db08-4089-839e-a41007d0a473
-description: CreateRuleOperation 元素表示用于创建新的收件箱规则的操作。
-ms.openlocfilehash: df857544e6d5840a3f738740114195e4c4bb5798
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: CreateRuleOperation 元素表示创建新收件箱规则的操作。
+ms.openlocfilehash: cdd6c40ad1e6042d51d72e1ea6effb083bc1da17
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460769"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536262"
 ---
 # <a name="createruleoperation"></a>CreateRuleOperation
 
-**CreateRuleOperation**元素表示用于创建新的收件箱规则的操作。 
+**CreateRuleOperation** 元素表示创建新收件箱规则的操作。 
   
 [UpdateInboxRules](updateinboxrules.md)
   
@@ -46,19 +46,19 @@ ms.locfileid: "44460769"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[规则 (RuleType)](rule-ruletype.md) <br/> |代表要在用户邮箱中创建的规则。  <br/> |
+|[规则 (RuleType)](rule-ruletype.md) <br/> |表示在用户邮箱中创建的规则。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Operations](operations.md) <br/> |包含可在收件箱中执行的操作。  <br/> |
+|[Operations](operations.md) <br/> |包含可在收件箱上执行的操作。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

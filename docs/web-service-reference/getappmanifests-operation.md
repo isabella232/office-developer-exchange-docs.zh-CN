@@ -1,44 +1,44 @@
 ---
-title: Getappmanifests 已操作
+title: GetAppManifests 操作
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 21a4987c-c24d-4a6e-ace4-e81edcda6303
-description: 查找有关 Getappmanifests 已 EWS 操作的信息。
-ms.openlocfilehash: 4d4c1d32f14cf144335ddfdf8c9cd4c88a4421d0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: 查找有关 GetAppManifests EWS 操作的信息。
+ms.openlocfilehash: 979a09d24d0c9365a92e589aa169bebf2340411b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463004"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509915"
 ---
-# <a name="getappmanifests-operation"></a>Getappmanifests 已操作
+# <a name="getappmanifests-operation"></a>GetAppManifests 操作
 
-查找有关**getappmanifests 已**EWS 操作的信息。 
+查找有关 **GetAppManifests** EWS 操作的信息。 
   
-**Getappmanifests 已**操作检索应用程序清单。 
+**GetAppManifests** 操作检索应用程序清单。 
   
 Exchange Server 2013 中引入了此操作。
   
-## <a name="using-the-getappmanifests-operation"></a>使用 Getappmanifests 已操作
+## <a name="using-the-getappmanifests-operation"></a>使用 GetAppManifests 操作
 
-**Getappmanifests 已**操作不采用任何参数来请求邮箱的应用程序清单。 响应将包含在邮箱中安装的每个应用程序的 base64 编码的 XML 清单文件。 
+**GetAppManifests** 操作不获取任何参数来请求邮箱的应用程序清单。 该响应将包含邮箱中安装的每个应用的 base64 编码的 XML 清单文件。 
   
-### <a name="getappmanifests-operation-soap-headers"></a>Getappmanifests 已操作 SOAP 标头
+### <a name="getappmanifests-operation-soap-headers"></a>GetAppManifests 操作 SOAP 标头
 
-**Getappmanifests 已**操作可以使用下表中列出的 SOAP 标头。 
+**GetAppManifests** 操作可以使用下表中列出的 SOAP 标头。 
   
 |**标头名称**|**元素**|**说明**|
 |:-----|:-----|:-----|
 |**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。 此标头适用于请求。  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器版本。 此标头适用于响应。  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器的版本。 此标头适用于响应。  <br/> |
    
-## <a name="getappmanifests-operation-request-example-get-the-app-manifests-for-a-mailbox"></a>Getappmanifests 已操作请求示例：获取邮箱的应用程序清单
+## <a name="getappmanifests-operation-request-example-get-the-app-manifests-for-a-mailbox"></a>GetAppManifests 操作请求示例：获取邮箱的应用程序清单
 
-下面的**getappmanifests 已**操作请求示例演示如何获取邮箱的应用程序清单。 [ApiVersionSupported](apiversionsupported.md)元素和[SchemaVersionSupported](schemaversionsupported.md)元素是可选的。 
+**GetAppManifests** 操作请求的以下示例显示如何获取邮箱的应用程序清单。 [ApiVersionSupported](apiversionsupported.md)元素和[SchemaVersionSupported](schemaversionsupported.md)元素是可选的。 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -64,18 +64,18 @@ Exchange Server 2013 中引入了此操作。
 
 请求 SOAP 正文包含以下元素：
   
-- [Getappmanifests 已](getappmanifests.md)
+- [GetAppManifests](getappmanifests.md)
     
 - [ApiVersionSupported](apiversionsupported.md)
     
 - [SchemaVersionSupported](schemaversionsupported.md)
     
-## <a name="successful-getappmanifests-operation-response"></a>成功的 Getappmanifests 已操作响应
+## <a name="successful-getappmanifests-operation-response"></a>成功的 GetAppManifests 操作响应
 
-下面的示例演示对**getappmanifests 已**操作请求的成功响应，以获取邮箱的应用程序清单。 
+以下示例显示成功响应 **GetAppManifests** 操作请求，以获取邮箱的应用程序清单。 
   
 > [!NOTE]
-> 已随意截断所有 base64 应用清单以保持可读性。 
+> 所有 base64 应用清单已被任意截断，以保持可读性。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -114,7 +114,7 @@ Exchange Server 2013 中引入了此操作。
     
 - [应用](apps.md)
     
-- [App](app.md)
+- [应用](app.md)
     
 - [清单](manifest.md)
     
@@ -122,9 +122,9 @@ Exchange Server 2013 中引入了此操作。
   
 - [清单](manifests.md)
     
-## <a name="getappmanifests-operation-error-response"></a>Getappmanifests 已操作错误响应
+## <a name="getappmanifests-operation-error-response"></a>GetAppManifests 操作错误响应
 
-为此操作返回的错误与输入参数的无效格式或为常规的 EWS 错误相关。 有关对 EWS 通用的错误代码以及特定于此操作的错误代码，请参阅[ResponseCode](responsecode.md)。
+此操作返回的错误与输入参数格式无效或常规 EWS 错误有关。 有关 EWS 通用且特定于此操作的错误代码，请参阅 [ResponseCode](responsecode.md)。
   
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -157,7 +157,7 @@ Exchange Server 2013 中引入了此操作。
 
 ## <a name="see-also"></a>另请参阅
 
-- [Exchange 中的 EWS 操作](ews-operations-in-exchange.md)
+- [EWS 操作在Exchange](ews-operations-in-exchange.md)
     
 - [DisableApp 操作](disableapp-operation.md)
     

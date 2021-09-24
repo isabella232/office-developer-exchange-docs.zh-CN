@@ -5,39 +5,39 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetServerTimeZones
 api_type:
 - schema
 ms.assetid: 680173e1-e916-466b-b573-5a3182316345
-description: GetServerTimeZones 操作将返回来自 Exchange 服务器上可用的时区定义的信息。
-ms.openlocfilehash: 1afe7fe13501af4a14f72c731703fe41e1f33049
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetServerTimeZones 操作从可用于服务器中的时区定义Exchange信息。
+ms.openlocfilehash: f46222251729d5e82042f267d4b6293afb16de00
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460538"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516949"
 ---
 # <a name="getservertimezones-operation"></a>GetServerTimeZones 操作
 
-**GetServerTimeZones**操作将返回来自 Exchange 服务器上可用的时区定义的信息。 
+**GetServerTimeZones** 操作从可用于服务器中的时区定义Exchange信息。 
   
 ## <a name="soap-headers"></a>SOAP 标头
 
-**GetServerTimeZones**操作可以使用下表中列出和描述的 SOAP 标头。 
+**GetServerTimeZones** 操作可以使用下表中列出和描述的 SOAP 标头。 
   
 |**Header**|**元素**|**说明**|
 |:-----|:-----|:-----|
-|MailboxCulture  <br/> |[MailboxCulture](mailboxculture.md) <br/> |标识要用于访问邮箱的 RFC3066 区域性。  <br/> |
+|MailboxCulture  <br/> |[MailboxCulture](mailboxculture.md) <br/> |标识用于访问邮箱的 RFC3066 区域性。  <br/> |
 |RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。  <br/> |
-|ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器版本。  <br/> |
+|ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器的版本。  <br/> |
    
 ## <a name="getservertimezones-request-examples"></a>GetServerTimeZones 请求示例
 
 ### <a name="getting-the-name-and-identifier-of-each-time-zone"></a>获取每个时区的名称和标识符
 
-下面的代码示例演示如何检索东部标准时间和太平洋标准时间时区的名称和标识符。
+以下代码示例演示如何检索东部标准时间和太平洋标准时区的名称和标识符。
   
 ### <a name="code"></a>代码
 
@@ -63,11 +63,11 @@ ms.locfileid: "44460538"
 
 ### <a name="comments"></a>备注
 
-每个[Id （时区）](id-timezone.md)元素包含所请求的时区定义的标识符。 若要请求所有时区的信息，请省略请求中的[id](ids.md)元素。 
+[TimeZone (元素) ](id-timezone.md) Id 包含所请求的时区定义的标识符。 若要请求所有时区的信息，请省略 [请求中的 Ids](ids.md) 元素。 
   
 ### <a name="getting-the-full-definition-of-each-time-zone"></a>获取每个时区的完整定义
 
-下面的代码示例演示如何检索东部标准时间时区的完整时区定义。
+以下代码示例演示如何检索东部标准时区的完整时区定义。
   
 ### <a name="code"></a>代码
 
@@ -92,13 +92,13 @@ ms.locfileid: "44460538"
 
 ### <a name="comments"></a>备注
 
-每个[Id （时区）](id-timezone.md)元素包含所请求的时区定义的标识符。 若要请求所有时区的信息，请省略请求中的[id](ids.md)元素。 
+[TimeZone (元素) ](id-timezone.md) Id 包含所请求的时区定义的标识符。 若要请求所有时区的信息，请省略 [请求中的 Ids](ids.md) 元素。 
   
 ## <a name="getservertimezones-response-examples"></a>GetServerTimeZones 响应示例
 
 ### <a name="receiving-the-time-zone-name-and-identifier-only"></a>仅接收时区名称和标识符
 
-下面的**GetServerTimeZones**响应示例显示了对**ReturnFullTimeZoneData**属性设置为**false**的**GetServerTimeZones**请求的成功响应。 响应包含东部标准时间和太平洋标准时间时区的名称和标识符。
+**GetServerTimeZones** 响应的以下示例显示对 **GetServerTimeZones** 请求的成功响应，其中 **ReturnFullTimeZoneData** 属性设置为 **false**。 该响应包含东部标准时间和太平洋标准时区的名称和标识符。
   
 ### <a name="code"></a>代码
 
@@ -134,7 +134,7 @@ ms.locfileid: "44460538"
 
 ### <a name="receiving-a-full-time-zone-definition"></a>接收完整时区定义
 
-下面的**GetServerTimeZones**响应示例显示了对**ReturnFullTimeZoneData**属性设置为**true**的**GetServerTimeZones**请求的成功响应。 响应包含东部标准时间时区的完整时区定义。
+**GetServerTimeZones** 响应的以下示例显示对 **GetServerTimeZones** 请求的成功响应，其中 **ReturnFullTimeZoneData** 属性设置为 **true**。 该响应包含东部标准时区的完整时区定义。
   
 ### <a name="code"></a>代码
 
@@ -228,7 +228,7 @@ ms.locfileid: "44460538"
  **GetServerTimeZonesType**
 
 
-[Exchange 中的 EWS 操作](ews-operations-in-exchange.md)
+[EWS 操作在Exchange](ews-operations-in-exchange.md)
   
 - [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetServerTimeZonesResponse
 api_type:
 - schema
 ms.assetid: 97c94d32-10f1-4c3e-ab20-9fd7e8257e50
 description: GetServerTimeZonesResponse 元素定义对 GetServerTimeZones 操作请求的响应。
-ms.openlocfilehash: 5a8dbe19055e3b697149c10df610d081cb65430b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 7e98903b19d988e7fdf6b06d8889eec3fce507f8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460923"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509803"
 ---
 # <a name="getservertimezonesresponse"></a>GetServerTimeZonesResponse
 
-**GetServerTimeZonesResponse**元素定义对[GetServerTimeZones 操作](getservertimezones-operation.md)请求的响应。 
+**GetServerTimeZonesResponse** 元素定义对 [GetServerTimeZones](getservertimezones-operation.md)操作请求的响应。 
   
 ```XML
 <GetServerTimeZonesResponse>
@@ -42,13 +42,13 @@ ms.locfileid: "44460923"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |包含 Exchange Web 服务请求的响应消息。  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |包含 Web 服务请求Exchange消息。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

@@ -5,47 +5,47 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateManagedFolder
 api_type:
 - schema
 ms.assetid: 60a668a2-b4e9-4db9-ac76-9b181e47b302
-description: CreateManagedFolder 操作在 Exchange 存储中创建一个托管文件夹。
-ms.openlocfilehash: 779c730b55b9b441644108a6837f9e22d39cc2f4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: CreateManagedFolder 操作在邮件存储中Exchange文件夹。
+ms.openlocfilehash: 2b00691fbaba294950a091d5caafb8054f3e2073
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44444591"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536422"
 ---
 # <a name="createmanagedfolder-operation"></a>CreateManagedFolder 操作
 
-CreateManagedFolder 操作在 Exchange 存储中创建一个托管文件夹。
+CreateManagedFolder 操作在邮件存储中Exchange文件夹。
   
 ## <a name="using-the-createmanagedfolder-operation"></a>使用 CreateManagedFolder 操作
 
-CreateManagedFolder 操作将托管自定义文件夹添加到用户的邮箱中。 您可以使用 Exchange 命令行管理程序**get-managedfolder** cmdlet 查找要添加的可用托管文件夹。 虽然此 cmdlet 返回托管自定义文件夹和托管默认文件夹，但只能添加托管自定义文件夹。 托管自定义文件夹由 ManagedCustomFolder 文件夹类型标识。 System.directoryservices 命名空间还包含可用于发现可用托管文件夹的名称的类型。 
+CreateManagedFolder 操作将托管自定义文件夹添加到用户的邮箱。 可以使用命令行管理Exchange **Get-ManagedFolder** cmdlet 查找要添加的可用托管文件夹。 尽管此 cmdlet 同时返回托管自定义文件夹和托管默认文件夹，但只能添加托管自定义文件夹。 托管自定义文件夹由 ManagedCustomFolder 文件夹类型标识。 System.DirectoryServices 命名空间还包括可用于发现可用托管文件夹名称的类型。 
   
 > [!NOTE]
-> 您不能使用 Exchange Web 服务查找要添加到邮箱中的可用托管文件夹的名称。 
+> 不能使用 Exchange Web 服务查找要添加到邮箱的可用托管文件夹的名称。 
   
-您可以使用 FindFolder 和 GetFolder 操作来访问托管文件夹。 FindFolder 用于搜索指定父文件夹中的文件夹。 可以使用此操作，以便在尝试将重复的托管自定义文件夹添加到同一目录中之前，可以在文件夹中发现托管文件夹。 GetFolder 在 FindFolder 操作之后使用，以获取有关托管自定义文件夹的详细信息。
+可以使用 FindFolder 和 GetFolder 操作访问托管文件夹。 FindFolder 用于搜索指定父文件夹中的文件夹。 这可用于在尝试将重复的托管自定义文件夹添加到同一目录之前在文件夹中发现托管文件夹。 GetFolder 在 FindFolder 操作之后使用，可获取有关托管自定义文件夹详细信息。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-有关如何设置邮件记录管理（MRM）策略的信息，请参阅[如何创建托管文件夹邮箱策略](https://go.microsoft.com/fwlink/?LinkId=100975)。
+有关如何使用 MRM 策略设置邮件 (管理) ，请参阅如何 [创建托管文件夹邮箱策略](https://go.microsoft.com/fwlink/?LinkId=100975)。
   
-有关如何从邮箱中删除托管自定义文件夹的信息，请参阅[get-managedfolder](https://go.microsoft.com/fwlink/?LinkId=100976)。
+若要了解如何从邮箱中删除托管自定义文件夹，请参阅 [Remove-ManagedFolder](https://go.microsoft.com/fwlink/?LinkId=100976)。
   
 ## <a name="createmanagedfolder-request-example"></a>CreateManagedFolder 请求示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-以下示例的 CreateManagedFolder 请求显示如何将名为 Test Managed Folder 的托管文件夹添加到邮箱。
+CreateManagedFolder 请求的以下示例显示如何将名为 Test Managed Folder 的托管文件夹添加到邮箱。
   
 > [!NOTE]
-> 您还可以使用代理访问来添加托管自定义文件夹。 
+> 您还可以使用委派访问权限添加托管自定义文件夹。 
   
 ### <a name="code"></a>代码
 
@@ -65,9 +65,9 @@ CreateManagedFolder 操作将托管自定义文件夹添加到用户的邮箱中
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Request 元素
+### <a name="request-elements"></a>请求元素
 
-请求中使用以下元素：
+请求中会使用下列元素：
   
 - [CreateManagedFolder](createmanagedfolder.md)
     
@@ -75,16 +75,16 @@ CreateManagedFolder 操作将托管自定义文件夹添加到用户的邮箱中
     
 - [FolderName](foldername.md)
     
-若要查找 CreateManagedFolder 操作的请求消息的其他选项，请浏览架构层次结构。 从[CreateManagedFolder](createmanagedfolder.md)元素开始。 
+若要查找 CreateManagedFolder 操作的请求消息的其他选项，请浏览架构层次结构。 从 [CreateManagedFolder 元素](createmanagedfolder.md) 开始。 
   
 ## <a name="successful-createmanagedfolder-response"></a>成功的 CreateManagedFolder 响应
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-下面的代码示例演示对 CreateManagedFolder 请求的成功响应。
+以下代码示例显示了对 CreateManagedFolder 请求的成功响应。
   
 > [!NOTE]
-> 为了保持可读性， **Id**和**ChangeKey**属性值已缩短。 
+> **Id** 和 **ChangeKey** 属性值已缩短，以保持可读性。 
   
 ### <a name="code"></a>代码
 
@@ -118,7 +118,7 @@ CreateManagedFolder 操作将托管自定义文件夹添加到用户的邮箱中
 
 ### <a name="successful-response-elements"></a>成功的响应元素
 
-响应中使用以下元素： 
+响应中会使用下列元素： 
   
 - [CreateManagedFolderResponse](createmanagedfolderresponse.md)
     
@@ -134,13 +134,13 @@ CreateManagedFolder 操作将托管自定义文件夹添加到用户的邮箱中
     
 - [FolderId](folderid.md)
     
-若要查找 CreateManagedFolder 操作的响应邮件的其他选项，请浏览架构层次结构。 从[CreateManagedFolderResponse](createmanagedfolderresponse.md)元素开始。 
+若要查找 CreateManagedFolder 操作的响应消息的其他选项，请浏览架构层次结构。 从 [CreateManagedFolderResponse 元素](createmanagedfolderresponse.md) 开始。 
   
 ## <a name="createmanagedfolder-error-response"></a>CreateManagedFolder 错误响应
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-下面的代码示例演示对 CreateManagedFolder 请求的错误响应。
+以下代码示例显示了对 CreateManagedFolder 请求的错误响应。
   
 ### <a name="code"></a>代码
 
@@ -172,7 +172,7 @@ CreateManagedFolder 操作将托管自定义文件夹添加到用户的邮箱中
 
 ### <a name="error-response-elements"></a>错误响应元素
 
-错误响应中使用以下元素：
+错误响应中会使用下列元素：
   
 - [CreateManagedFolderResponse](createmanagedfolderresponse.md)
     

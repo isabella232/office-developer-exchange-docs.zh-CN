@@ -1,33 +1,33 @@
 ---
-title: 取消订阅操作
+title: Unsubscribe 操作
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Unsubscribe
 api_type:
 - schema
 ms.assetid: 994a9d2b-1501-4804-90f0-12bd914496ec
-description: 取消订阅操作用于结束拉取通知订阅。 使用此操作，而不是允许订阅超时。 此操作仅对 pull 通知有效。
-ms.openlocfilehash: 054f89af1ba5c780c7de5016a6dfe34086c97f02
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: 取消订阅操作用于结束拉取通知订阅。 使用此操作，而不是让订阅超时。 此操作仅对拉取通知有效。
+ms.openlocfilehash: 96d30bcd585b07a7ed0497a4a4c723485e8626ab
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468024"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517502"
 ---
-# <a name="unsubscribe-operation"></a>取消订阅操作
+# <a name="unsubscribe-operation"></a>Unsubscribe 操作
 
-取消订阅操作用于结束拉取通知订阅。 使用此操作，而不是允许订阅超时。 此操作仅对 pull 通知有效。
+取消订阅操作用于结束拉取通知订阅。 使用此操作，而不是让订阅超时。 此操作仅对拉取通知有效。
   
 ## <a name="unsubscribe-request-example"></a>取消订阅请求示例
 
 ### <a name="description"></a>Description
 
-下面的示例显示发送到从通知服务取消订阅客户端的 SOAP XML 消息。
+以下示例显示发送的 SOAP XML 消息以取消订阅通知服务中的客户端。
   
 ### <a name="code"></a>代码
 
@@ -45,17 +45,17 @@ ms.locfileid: "44468024"
 
 ### <a name="unsubscribe-request-elements"></a>取消订阅请求元素
 
-请求中使用以下元素：
+请求中会使用下列元素：
   
 - [取消订阅](unsubscribe.md)
     
-- [SubscriptionId （GetEvents）](subscriptionid-getevents.md)
+- [SubscriptionId (GetEvents)](subscriptionid-getevents.md)
     
 ## <a name="successful-unsubscribe-response-example"></a>成功的取消订阅响应示例
 
 ### <a name="description"></a>Description
 
-下面的示例演示对取消订阅请求的成功响应。
+以下示例显示取消订阅请求的成功响应。
   
 ### <a name="code"></a>代码
 
@@ -84,7 +84,7 @@ ms.locfileid: "44468024"
 
 ### <a name="unsubscribe-response-elements"></a>取消订阅响应元素
 
-响应中使用以下元素：
+响应中会使用下列元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -100,7 +100,7 @@ ms.locfileid: "44468024"
 
 ### <a name="description"></a>Description
 
-以下是取消订阅错误响应的示例，以响应使用无法位于 Exchange 存储中的订阅标识符进行取消订阅。
+以下示例的"取消订阅"错误响应是作为对使用订阅标识符取消订阅的尝试的响应，该标识符不能位于Exchange存储区中。
   
 ### <a name="code"></a>代码
 
@@ -131,7 +131,7 @@ ms.locfileid: "44468024"
 
 ### <a name="unsubscribe-error-response-elements"></a>取消订阅错误响应元素
 
-错误响应中使用以下元素：
+错误响应中会使用下列元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -151,5 +151,5 @@ ms.locfileid: "44468024"
 
 - [订阅操作](subscribe-operation.md)
 - [GetEvents 操作](getevents-operation.md)
-- [使用请求订阅](https://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
+- [使用拉取订阅](https://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
 

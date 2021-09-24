@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CompanyName
 api_type:
 - schema
 ms.assetid: 5ebf0478-6d0e-4aa8-98ad-2d021ab74bc1
-description: "\"公司名称\" 元素表示与联系人关联的公司名称。"
-ms.openlocfilehash: 35ce49303c1e6009ce6c12b00c51713b39b64ca0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: CompanyName 元素表示与联系人关联的公司名称。
+ms.openlocfilehash: 17c98d3cc1e4a3ec59477e771c50a0e6b2fd5f23
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459053"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523186"
 ---
 # <a name="companyname"></a>CompanyName
 
-"**公司名称" 元素**表示与联系人关联的公司名称。 
+**CompanyName** 元素表示与联系人关联的公司名称。 
   
 ```xml
 <CompanyName/>
@@ -48,7 +48,7 @@ ms.locfileid: "44459053"
    
 ## <a name="text-value"></a>文本值
 
-如果使用此元素，则需要一个 text 值。
+如果此元素已使用，则文本值是必需的。
   
 ## <a name="remarks"></a>说明
 

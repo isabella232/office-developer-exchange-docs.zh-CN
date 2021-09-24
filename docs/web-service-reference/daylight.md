@@ -1,27 +1,27 @@
 ---
-title: 夏时制
+title: Daylight
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Daylight
 api_type:
 - schema
 ms.assetid: ea400839-fba8-4a5e-a5d1-9b677afc0ff9
-description: 夏令元素表示时间从标准时间更改为夏时制的日期和时间。
-ms.openlocfilehash: bf2041cb4677f837ddb5b399041f1c19a7b5f577
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Daylight 元素表示从标准时间到夏令时的时间更改的日期和时间。
+ms.openlocfilehash: 750d7cb97d9e2967d3477a93ae833229d20619dc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457457"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517215"
 ---
-# <a name="daylight"></a>夏时制
+# <a name="daylight"></a>Daylight
 
-**夏令**元素表示时间从标准时间更改为夏时制的日期和时间。 
+**Daylight** 元素表示从标准时间到夏令时的时间更改的日期和时间。 
   
 ```xml
 <Daylight TimeZoneName="">
@@ -55,10 +55,10 @@ ms.locfileid: "44457457"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Offset](offset.md) <br/> |描述[BaseOffset](baseoffset.md)中的偏移量。 除此偏移量之外的基础偏移根据其是标准还是夏时制来标识时间。  <br/> |
-|[RelativeYearlyRecurrence](relativeyearlyrecurrence.md) <br/> |描述时区转换日期模式的相对年定期模式。  <br/> |
-|[AbsoluteDate](absolutedate.md) <br/> |表示从标准或夏时制的时间更改的日期。  <br/> |
-|[Time （TimeChangeType）](time-timechangetype.md) <br/> |描述在标准时间和夏时制时间之间的时间更改时间。  <br/> |
+|[Offset](offset.md) <br/> |描述与 [BaseOffset 的偏移](baseoffset.md)量。 除此偏移外，基准偏移量根据它是标准时间还是夏令时来标识时间。  <br/> |
+|[RelativeYearlyRecurrence](relativeyearlyrecurrence.md) <br/> |描述时区定期模式日期模式的相对每年变化量。  <br/> |
+|[AbsoluteDate](absolutedate.md) <br/> |表示时间从标准时间或夏令时更改的日期。  <br/> |
+|[Time (TimeChangeType)](time-timechangetype.md) <br/> |描述时间在标准时间和夏令时之间变化的时间。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 

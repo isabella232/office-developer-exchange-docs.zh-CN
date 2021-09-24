@@ -1,23 +1,23 @@
 ---
-title: Value （ExtendedPropertyType）
+title: Value (ExtendedPropertyType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7a210393-0e8e-4f43-9360-4512b6dcba35
-description: Value 元素指定角色的扩展属性的数组。
-ms.openlocfilehash: 1a658a6fb2e7987a64b7a6e826bac77190964844
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Value 元素指定一个包含一个人物的扩展属性的数组。
+ms.openlocfilehash: 30cc8e0907eccc88c029a7eb929b34c849a2977a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467583"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510643"
 ---
-# <a name="value-extendedpropertytype"></a>Value （ExtendedPropertyType）
+# <a name="value-extendedpropertytype"></a>Value (ExtendedPropertyType)
 
-**Value**元素指定角色的扩展属性的数组。 
+**Value** 元素指定一个包含一个人物的扩展属性的数组。 
   
 ```XML
 <Value>
@@ -45,7 +45,7 @@ ms.locfileid: "44467583"
 
 [ExtendedPropertyAttributedValue](extendedpropertyattributedvalue.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

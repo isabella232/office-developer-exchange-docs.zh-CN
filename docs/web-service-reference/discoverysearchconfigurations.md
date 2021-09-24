@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f04b14c9-384c-4016-b113-52a49e15e73b
 description: DiscoverySearchConfigurations 元素指定 DiscoverySearchConfiguration 元素的数组。
-ms.openlocfilehash: 6af4c8198f2ad73f8b39f9718e11b88aa8075c39
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 0bb104451d4bfe24e5e1bc9c5d2c98f226794c22
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461378"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535531"
 ---
 # <a name="discoverysearchconfigurations"></a>DiscoverySearchConfigurations
 
-**DiscoverySearchConfigurations**元素指定**DiscoverySearchConfiguration**元素的数组。 
+**DiscoverySearchConfigurations** 元素指定 **DiscoverySearchConfiguration 元素的** 数组。 
   
 ```XML
 <DiscoverySearchConfigurations>
@@ -44,9 +44,9 @@ ms.locfileid: "44461378"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GetDiscoverySearchConfigurationResponseMessage](getdiscoverysearchconfigurationresponsemessage.md) <br/> |指定**GetDiscoverySearchConfiguration**请求的响应消息。  <br/> |
+|[GetDiscoverySearchConfigurationResponseMessage](getdiscoverysearchconfigurationresponsemessage.md) <br/> |指定 **GetDiscoverySearchConfiguration** 请求的响应消息。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -58,7 +58,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
-|验证文件  <br/> |消息 .xsd  <br/> |
+|验证文件  <br/> |messages.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

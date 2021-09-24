@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SyncFolderId
 api_type:
 - schema
 ms.assetid: 3645fa03-236d-4e5f-b8b9-5d98f7f35fa2
 description: SyncFolderId 元素表示包含要同步的项目的文件夹。
-ms.openlocfilehash: 35b66579116a00d27df722629ff980471ca0272e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 018d35ebdcb5afb3de2f1415bc792ecfbd910ffd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530294"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517544"
 ---
 # <a name="syncfolderid"></a>SyncFolderId
 
-**SyncFolderId**元素表示包含要同步的项目的文件夹。 
+**SyncFolderId** 元素表示包含要同步的项目的文件夹。 
   
 ```xml
 <SyncFolderId>
@@ -56,12 +56,12 @@ ms.locfileid: "44530294"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[SyncFolderHierarchy](syncfolderhierarchy.md) <br/> |定义在 Exchange 存储中同步文件夹层次结构的请求。  <br/> |
-|[SyncFolderItems](syncfolderitems.md) <br/> |定义对 Exchange 存储文件夹中的项目进行同步的请求。  <br/> |
+|[SyncFolderHierarchy](syncfolderhierarchy.md) <br/> |定义同步文件夹存储中的文件夹层次结构Exchange请求。  <br/> |
+|[SyncFolderItems](syncfolderitems.md) <br/> |定义同步邮件存储文件夹中Exchange的请求。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-描述此元素的架构位于运行 Exchange Server 2007 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
+描述此元素的架构位于运行 Exchange Server 2007（已安装客户端访问服务器角色）的计算机的 EWS 虚拟目录中。
   
 ## <a name="element-information"></a>元素信息
 

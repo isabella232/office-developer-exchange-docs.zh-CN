@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 15ff513d-f39e-44ed-a13f-ab3f86fa37e1
 description: HasChanged 元素指示用户的照片是否已更改。
-ms.openlocfilehash: d777220f55d33cde548d8257cf249b57481a43f8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 456660272815aac27ea99919eb92a02f754fb4ff
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462785"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516788"
 ---
 # <a name="haschanged"></a>HasChanged
 
-**HasChanged**元素指示用户的照片是否已更改。 
+**HasChanged** 元素指示用户的照片是否已更改。 
   
 ```XML
 <HasChanged> true | false </HasChanged>
@@ -42,9 +42,9 @@ ms.locfileid: "44462785"
   
 ## <a name="text-value"></a>文本值
 
-如果**HasChanged**元素的文本值为**true** ，则表示自上次返回后照片已发生更改。 **如果值为 false** ，则表示照片自上次返回后未发生更改。 
+**HasChanged** 元素的文本值 **true** 表示自上次返回照片以来照片已更改。 false **值表示** 照片自上次返回以来没有更改。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

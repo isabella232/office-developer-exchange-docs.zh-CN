@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 943c3d5d-7d29-4d70-932c-8a4fe44a0037
 description: GetReminders 元素指定获取提醒的请求。
-ms.openlocfilehash: 8b869730f39876b838fbcbef3c39661238ed203c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 3f4e512d18adb12e27e7c132a54b5ff2238e2b27
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458297"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535008"
 ---
 # <a name="getreminders"></a>GetReminders
 
-**GetReminders**元素指定获取提醒的请求。 
+**GetReminders** 元素指定获取提醒的请求。 
   
 ```XML
 <GetReminders>
@@ -40,13 +40,13 @@ ms.locfileid: "44458297"
   
 ### <a name="child-elements"></a>子元素
 
-[BeginTime](begintime.md)  | [EndTime （ReminderMessageDataType）](endtime-remindermessagedatatype.md)  | [MaxItems](maxitems.md)  | [ReminderType](remindertype.md)
+[BeginTime](begintime.md)  | [EndTime (ReminderMessageDataType) ](endtime-remindermessagedatatype.md)  | [MaxItems](maxitems.md)  | [ReminderType](remindertype.md)
   
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

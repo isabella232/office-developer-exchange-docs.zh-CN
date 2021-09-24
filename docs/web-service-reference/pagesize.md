@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 61c87c48-eed0-45b5-b5a7-c9da0dec71ec
-description: PageSize 元素包含要在搜索结果的单个页面中返回的项目数。
-ms.openlocfilehash: efdca920d3ff0da5b10d3a343e86dfe9a2c7ed30
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: PageSize 元素包含单个页面中要返回的搜索结果项目数。
+ms.openlocfilehash: 4e285e91e60eda71cb3a35a4af98e98454774ced
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467730"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59534896"
 ---
 # <a name="pagesize"></a>PageSize
 
-**PageSize**元素包含要在搜索结果的单个页面中返回的项目数。 
+**PageSize** 元素包含单个页面中要返回的搜索结果项目数。 
   
 ```XML
 <PageSize></PageSize>
@@ -42,9 +42,9 @@ ms.locfileid: "44467730"
   
 ## <a name="text-value"></a>文本值
 
-**PageSize**元素的文本值是在搜索结果集的单个页面中返回的项目数。 
+**PageSize** 元素的文本值是搜索列表的单个页面中返回结果集。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

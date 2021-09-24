@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c6973aee-ec7b-44c1-b328-f2204d9de5d1
-description: NormalizedBodyType 元素指定是否以文本或 HTML 格式返回正常化的正文。
-ms.openlocfilehash: e5d968673403eba24a68c67175e3ebcbb35eca39
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: NormalizedBodyType 元素指定以文本格式还是 HTML 格式返回规范化正文。
+ms.openlocfilehash: 69ce440e30d921b052782af60057fff2d9e9d68f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462659"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59537564"
 ---
 # <a name="normalizedbodytype"></a>NormalizedBodyType
 
-**NormalizedBodyType**元素指定是否以文本或 HTML 格式返回正常化的正文。 
+**NormalizedBodyType** 元素指定以文本格式还是 HTML 格式返回规范化正文。 
   
 ```XML
 <NormalizedBodyType> Best | HTML | Text </NormalizedBodyType>
@@ -42,15 +42,15 @@ ms.locfileid: "44462659"
   
 ## <a name="text-value"></a>文本值
 
-**NormalizedBodyType**元素的文本值指示在中返回正常化正文的格式。 下表列出了此元素的可能值。 
+**NormalizedBodyType** 元素的文本值指示返回规范化正文的格式。 下表列出了此元素的可能值。 
   
 ****
 
 |**值**|**说明**|
 |:-----|:-----|
-|最好  <br/> |响应将返回正文文本的最丰富的可用内容。 如果不知道内容是文本还是 HTML，这将非常有用。  <br/> 如果存储的正文为纯文本，则返回的正文将为文本。 否则，如果存储的正文是 HTML 格式或 RTF 格式，则响应将返回 HTML。  <br/> 此值为默认值。  <br/> |
-|HTML  <br/> |响应将以 HTML 形式返回正常化的正文。  <br/> |
-|文本  <br/> |响应将以纯文本形式返回正常化的正文。  <br/> |
+|最好  <br/> |该响应将返回最丰富的正文文本可用内容。 如果内容是文本还是 HTML，这很有用。  <br/> 如果存储的正文是纯文本，则返回的正文将是文本。 否则，如果存储的正文采用 HTML 或 RTF 格式，响应将返回 HTML。  <br/> 此值为默认值。  <br/> |
+|HTML  <br/> |响应将返回 HTML 格式的规范化正文。  <br/> |
+|文本  <br/> |响应将返回纯文本格式的规范化正文。  <br/> |
    
 ## <a name="remarks"></a>说明
 

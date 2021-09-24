@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8f5fcbcb-05ed-462a-99cf-a6b112a4aef6
 description: GlobalParentFolderIds 元素指定全局父文件夹的标识符。
-ms.openlocfilehash: 11c520fa0f4a1ed6d6c9d694b407e39cd036b9cd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 7ab3d1ba627c5568b2c1f4579689c43c96624558
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459095"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516823"
 ---
 # <a name="globalparentfolderids"></a>GlobalParentFolderIds
 
-**GlobalParentFolderIds**元素指定全局父文件夹的标识符。 
+**GlobalParentFolderIds** 元素指定全局父文件夹的标识符。 
   
 ```XML
 <GlobalParentFolderIds>
@@ -48,7 +48,7 @@ ms.locfileid: "44459095"
 |:-----|:-----|
 |[对话 (ConversationType)](conversation-conversationtype.md) <br/> |表示单个对话。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -60,7 +60,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - EndDateTime
 api_type:
 - schema
 ms.assetid: 54d14e47-a8f7-400b-a859-c7ea7ce4c6a4
 description: EndDateTime 元素指定规则或搜索的结束日期和时间。
-ms.openlocfilehash: 9556e4c1ef405ae66a71d19d99d9a71a61f54efc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 19f2e64e37323f90f5c576acd5551675105f3bd3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460132"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517089"
 ---
 # <a name="enddatetime"></a>EndDateTime
 
-**EndDateTime**元素指定规则或搜索的结束日期和时间。 
+**EndDateTime** 元素指定规则或搜索的结束日期和时间。 
   
 ```XML
 <EndDateTime/>
@@ -45,11 +45,11 @@ ms.locfileid: "44460132"
 |**元素**|**说明**|
 |:-----|:-----|
 |[FindMessageTrackingReport](findmessagetrackingreport.md) <br/> |包含要查找的邮件的类型的条件。  <br/> |
-|[WithinDateRange](withindaterange.md) <br/> |指定要在其中接收传入邮件的日期范围，以便条件或例外情况适用。  <br/> |
+|[WithinDateRange](withindaterange.md) <br/> |指定必须接收传入邮件的日期范围，以便条件或例外情况适用。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-如果使用此元素，则表示日期/时间的文本值是必需的。
+如果使用此元素，则代表日期/时间的文本值是必需的。
   
 ## <a name="remarks"></a>说明
 

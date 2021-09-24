@@ -1,27 +1,27 @@
 ---
-title: PlayOnPhoneDialString （Exchange Web 服务）
+title: 'PlayOnPhoneDialString (Exchange Web 服务) '
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PlayOnPhoneDialString
 api_type:
 - schema
 ms.assetid: 02b77f6a-042d-49a9-9445-342885c43e99
-description: PlayOnPhoneDialString 元素标识电话拨入式拨号字符串。
-ms.openlocfilehash: 310934895295af179e651b94c33dfb86d0f94e1d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: PlayOnPhoneDialString 元素标识"播放时播放电话字符串。
+ms.openlocfilehash: dba106f1de87efecb6a7d9b1ba5d378a29c2f2cc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466218"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516529"
 ---
-# <a name="playonphonedialstring-exchange-web-services"></a>PlayOnPhoneDialString （Exchange Web 服务）
+# <a name="playonphonedialstring-exchange-web-services"></a>PlayOnPhoneDialString (Exchange Web 服务) 
 
-**PlayOnPhoneDialString**元素标识电话拨入式拨号字符串。 
+**PlayOnPhoneDialString** 元素标识"播放时电话字符串。 
   
 ```XML
 <PlayOnPhoneDialString/>
@@ -48,9 +48,9 @@ ms.locfileid: "44466218"
    
 ## <a name="text-value"></a>文本值
 
-此元素的文本值是 "在电话上播放" 拨号字符串。
+此元素的文本值是"在拨号时播放电话字符串。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素是必需的。
   

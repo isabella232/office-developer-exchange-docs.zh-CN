@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8e69ae44-0e6d-4fb8-97c6-37cf23577c38
-description: OrganizationMainPhones 元素指定组织的主要电话号码的数组以及关联角色的源归属的标识符。
-ms.openlocfilehash: 792cd20a361d038e797e64b461c565f85cada251
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: OrganizationMainPhones 元素指定一组组织主电话号码及其关联人员来源属性的标识符。
+ms.openlocfilehash: bdee726138ef6a433bfd0b9827f54eb6f89c1461
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462463"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59534970"
 ---
 # <a name="organizationmainphones"></a>OrganizationMainPhones
 
-**OrganizationMainPhones**元素指定组织的主要电话号码的数组以及关联角色的源归属的标识符。 
+**OrganizationMainPhones** 元素指定一组组织主电话号码及其关联人员来源属性的标识符。 
   
 ```XML
 <OrganizationMainPhones>
@@ -42,7 +42,7 @@ ms.locfileid: "44462463"
 
 [角色](persona.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

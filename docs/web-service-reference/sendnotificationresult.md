@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SendNotificationResult
 api_type:
 - schema
 ms.assetid: fa9d6202-fa66-4f10-9858-53f4f1ce14bc
-description: SendNotificationResult 元素包含客户端应用程序到推送通知的响应。
-ms.openlocfilehash: 4ee9a0dda3d887f8fbfa2c2b34a9a077e7af37ba
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SendNotificationResult 元素包含客户端应用程序对推送通知的响应。
+ms.openlocfilehash: 682fb916f0f522455e599b7d589e0b7ae530f330
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464887"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517824"
 ---
 # <a name="sendnotificationresult"></a>SendNotificationResult
 
-**SendNotificationResult**元素包含客户端应用程序到推送通知的响应。 
+**SendNotificationResult** 元素包含客户端应用程序对推送通知的响应。 
   
 ```xml
 <SendNotificationResult>
@@ -48,7 +48,7 @@ ms.locfileid: "44464887"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

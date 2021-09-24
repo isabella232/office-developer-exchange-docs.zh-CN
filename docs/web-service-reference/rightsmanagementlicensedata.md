@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 38f0b7f4-2338-4e90-af67-e0951e8edfa3
-description: RightsManagementLicenseData 元素指定有关项目的权限管理许可证的信息。
-ms.openlocfilehash: 892edfd6775838b1e6329e8db0ee9bb8e3c519ff
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: RightsManagementLicenseData 元素指定有关项目权限管理许可证的信息。
+ms.openlocfilehash: 8875e9bad425224f86b6de5149f87a36c2a2581e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463186"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523466"
 ---
 # <a name="rightsmanagementlicensedata"></a>RightsManagementLicenseData
 
-**RightsManagementLicenseData**元素指定有关项目的权限管理许可证的信息。 
+**RightsManagementLicenseData** 元素指定有关项目权限管理许可证的信息。 
   
 ```XML
 <RightsManagementLicenseData>
@@ -55,9 +55,9 @@ ms.locfileid: "44463186"
   
 ### <a name="parent-elements"></a>父元素
 
-[项](item.md)  | [邮件](message-ex15websvcsotherref.md)  | [MeetingMessage](meetingmessage.md)  | [MeetingRequest](meetingrequest.md)  | [MeetingResponse](meetingresponse.md)  | [MeetingCancellation](meetingcancellation.md)  | [任务](task.md)  | [PostItem](postitem.md)  | [CalendarItem](calendaritem.md)  | [联系人](contact.md)  | [DistributionList](distributionlist.md)
+[Item](item.md)  | [邮件](message-ex15websvcsotherref.md)  | [MeetingMessage](meetingmessage.md)  | [MeetingRequest](meetingrequest.md)  | [MeetingResponse](meetingresponse.md)  | [MeetingCancellation](meetingcancellation.md)  | [任务](task.md)  | [PostItem](postitem.md)  | [CalendarItem](calendaritem.md)  | [联系人](contact.md)  | [DistributionList](distributionlist.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

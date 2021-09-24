@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FieldURIOrConstant
 api_type:
 - schema
 ms.assetid: 89d7a87e-7c93-49b8-83ec-8798e08c1052
-description: FieldURIOrConstant 元素表示与其他属性进行比较时要使用的属性或常数值。
-ms.openlocfilehash: 8b5cb888a3bd2026b15e38fc8c005ab5ef5a2b11
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: FieldURIOrConstant 元素表示与另一个属性比较时所使用的属性或常量值。
+ms.openlocfilehash: bc7edb4542c68e02e9661ff0a4c7066362a04081
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461224"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535239"
 ---
 # <a name="fielduriorconstant"></a>FieldURIOrConstant
 
-**FieldURIOrConstant**元素表示与其他属性进行比较时要使用的属性或常数值。 
+**FieldURIOrConstant** 元素表示与另一个属性比较时所使用的属性或常量值。 
   
 ```xml
 <FieldURIOrConstant>
@@ -70,12 +70,12 @@ ms.locfileid: "44461224"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[IsEqualTo](isequalto.md) <br/> |表示搜索表达式，该表达式将属性与常数值或其他属性进行比较，如果它们相等，则计算结果为 true。  <br/> |
-|[IsGreaterThan](isgreaterthan.md) <br/> |表示用于将属性与常数值或其他属性进行比较的搜索表达式，如果第一个属性较大，则返回 true。  <br/> |
-|[IsGreaterThanOrEqualTo](isgreaterthanorequalto.md) <br/> |表示一个搜索表达式，该表达式将属性与一个常数值或另一个属性进行比较，如果第一个属性大于或等于第二个值或属性，则返回 true。  <br/> |
-|[IsLessThan](islessthan.md) <br/> |表示一个搜索表达式，该表达式将属性与一个常数值或另一个属性进行比较，如果第一个属性小于第二个值或属性，则返回 true。  <br/> |
-|[IsLessThanOrEqualTo](islessthanorequalto.md) <br/> |表示一个搜索表达式，该表达式将属性与一个常数值或另一个属性进行比较，如果第一个属性小于或等于第二个值或属性，则返回 true。  <br/> |
-|[IsNotEqualTo](isnotequalto.md) <br/> |表示用于将属性与常量值或其他属性进行比较的搜索表达式，如果值不相同，则返回 true。  <br/> |
+|[IsEqualTo](isequalto.md) <br/> |表示一个搜索表达式，该表达式将属性与常量值或其他属性进行比较，如果相等，则计算结果为 true。  <br/> |
+|[IsGreaterThan](isgreaterthan.md) <br/> |表示一个搜索表达式，该表达式将属性与常量值或另一个属性进行比较，如果第一个属性更大，则返回 true。  <br/> |
+|[IsGreaterThanOrEqualTo](isgreaterthanorequalto.md) <br/> |表示一个搜索表达式，该表达式将属性与常量值或其他属性进行比较，如果第一个属性大于或等于第二个值或属性，则返回 true。  <br/> |
+|[IsLessThan](islessthan.md) <br/> |表示一个搜索表达式，该表达式将属性与常量值或其他属性进行比较，如果第一个属性小于第二个值或属性，则返回 true。  <br/> |
+|[IsLessThanOrEqualTo](islessthanorequalto.md) <br/> |表示一个搜索表达式，该表达式将属性与常量值或其他属性进行比较，如果第一个属性小于或等于第二个值或属性，则返回 true。  <br/> |
+|[IsNotEqualTo](isnotequalto.md) <br/> |表示一个搜索表达式，该表达式将属性与常量值或其他属性进行比较，如果值不同，则返回 true。  <br/> |
    
 ## <a name="remarks"></a>说明
 
@@ -83,7 +83,7 @@ ms.locfileid: "44461224"
   
 ## <a name="example"></a>示例
 
-以下 XML 示例显示了与常量和字段 URI 一起使用的 FieldURIOrConstant 元素。
+以下 XML 示例演示用于常量和字段 URI 的 FieldURIOrConstant 元素。
   
 ```xml
 <Restriction>

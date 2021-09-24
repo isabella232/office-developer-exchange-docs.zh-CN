@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5c8a35b8-a940-4b3e-8768-9ba95766fd79
-description: ConversationNodes 元素指定会话节点的集合。
-ms.openlocfilehash: 39ffb97f1004535e2fc70b58f8d56afe129e8ee2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ConversationNodes 元素指定对话节点的集合。
+ms.openlocfilehash: 8bacbc83676d9642ae8f842affbc11338cbdff0c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461392"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536622"
 ---
 # <a name="conversationnodes"></a>ConversationNodes
 
-**ConversationNodes**元素指定会话节点的集合。 
+**ConversationNodes** 元素指定对话节点的集合。 
   
 ```XML
 <ConversationNodes>
@@ -44,9 +44,9 @@ ms.locfileid: "44461392"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[对话（ConversationResponseType）](conversation-conversationresponsetype.md) <br/> |代表**GetConversationItems**响应中返回的单个对话。  <br/> |
+|[Conversation (ConversationResponseType)](conversation-conversationresponsetype.md) <br/> |表示 **GetConversationItems 响应中返回的单个** 对话。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -58,7 +58,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

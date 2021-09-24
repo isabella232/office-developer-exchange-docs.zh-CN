@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateItem
 api_type:
 - schema
 ms.assetid: fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1
 description: CreateItem 操作用于创建电子邮件。
-ms.openlocfilehash: 384ed8ff653029c2b7db0b36986d85842b0a06cf
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 74784d72ed14fa139c616cd11740a62efd17b338
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457114"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536466"
 ---
 # <a name="createitem-operation-email-message"></a>CreateItem 操作（电子邮件）
 
@@ -25,9 +25,9 @@ CreateItem 操作用于创建电子邮件。
   
 ## <a name="createitem-request-example"></a>CreateItem 请求示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-下面的 CreateItem 请求示例演示如何创建新的电子邮件，发送邮件，并将其副本保存在 "草稿" 文件夹中。
+CreateItem 请求的以下示例显示如何创建新电子邮件、发送邮件并将其副本保存在"草稿"文件夹中。
   
 ### <a name="code"></a>代码
 
@@ -58,15 +58,15 @@ CreateItem 操作用于创建电子邮件。
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Request 元素
+### <a name="request-elements"></a>请求元素
 
-请求中使用以下元素： 
+请求中会使用下列元素： 
   
 - [CreateItem](createitem.md)
     
 - [SavedItemFolderId](saveditemfolderid.md)
     
-- [项目（NonEmptyArrayOfAllItemsType）](items-nonemptyarrayofallitemstype.md)
+- [Items (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)
     
 - [消息](message-ex15websvcsotherref.md)
     
@@ -74,7 +74,7 @@ CreateItem 操作用于创建电子邮件。
     
 - [主题](subject.md)
     
-- [Body](body.md)
+- [正文](body.md)
     
 - [ToRecipients](torecipients.md)
     
@@ -84,13 +84,13 @@ CreateItem 操作用于创建电子邮件。
     
 - [IsRead](isread.md)
     
-若要查找 CreateItem 操作的请求消息的其他选项，请浏览架构层次结构。 从[CreateItem](createitem.md)元素开始。 
+若要查找 CreateItem 操作的请求消息的其他选项，请浏览架构层次结构。 从 [CreateItem 元素](createitem.md) 开始。 
   
 ## <a name="successful-createitem-response"></a>成功的 CreateItem 响应
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-下面的示例演示对 CreateItem 请求的成功响应。
+以下示例显示了对 CreateItem 请求的成功响应。
   
 ### <a name="code"></a>代码
 
@@ -131,13 +131,13 @@ CreateItem 操作用于创建电子邮件。
     
 - [Items](items.md)
     
-若要查找 CreateItem 操作的响应邮件的其他选项，请浏览架构层次结构。 从[CreateItemResponse](createitemresponse.md)元素开始。 
+若要查找 CreateItem 操作的响应消息的其他选项，请浏览架构层次结构。 从 [CreateItemResponse 元素](createitemresponse.md) 开始。 
   
 ## <a name="error-createitem-response"></a>错误 CreateItem 响应
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-下面的示例演示对 CreateItem 请求的错误响应。
+以下示例显示对 CreateItem 请求的错误响应。
   
 ### <a name="code"></a>代码
 
@@ -168,7 +168,7 @@ CreateItem 操作用于创建电子邮件。
 
 ### <a name="error-response-elements"></a>错误响应元素
 
-错误响应中使用以下元素： 
+错误响应中会使用下列元素： 
   
 - [CreateItemResponse](createitemresponse.md)
     
@@ -184,7 +184,7 @@ CreateItem 操作用于创建电子邮件。
     
 - [Items](items.md)
     
-若要查找 CreateItem 操作的错误响应消息的其他选项，请浏览架构层次结构。 从[CreateItemResponse](createitemresponse.md)元素开始。 
+若要查找 CreateItem 操作的错误响应消息的其他选项，请浏览架构层次结构。 从 [CreateItemResponse 元素](createitemresponse.md) 开始。 
   
 ## <a name="see-also"></a>另请参阅
 

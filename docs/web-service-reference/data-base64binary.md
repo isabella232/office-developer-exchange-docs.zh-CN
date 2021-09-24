@@ -1,33 +1,33 @@
 ---
-title: Data （base64Binary）
+title: Data (base64Binary)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Data
 api_type:
 - schema
 ms.assetid: 26d8c2d0-bed2-4aed-b381-20e2ace6892f
 description: Data 元素包含要上载到邮箱中的单个导出项目或项目的数据。
-ms.openlocfilehash: 43ee16ca7caf634756ca00a88715d9834adad92b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 69e15746f17febb74a0ec2f56eef0eaa1e298015
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526968"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535932"
 ---
-# <a name="data-base64binary"></a>Data （base64Binary）
+# <a name="data-base64binary"></a>Data (base64Binary)
 
-**Data**元素包含要上载到邮箱中的单个导出项目或项目的数据。 
+**Data** 元素包含要上载到邮箱中的单个导出项目或项目的数据。 
   
 ```XML
 <Data/>
 ```
 
-**xs： base64Binary**
+**xs：base64Binary**
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
@@ -46,13 +46,13 @@ ms.locfileid: "44526968"
 |**元素**|**说明**|
 |:-----|:-----|
 |[ExportItemsResponseMessage](exportitemsresponsemessage.md) <br/> |包含导出单个邮箱项目的请求的状态和结果。  <br/> |
-|[Item （UploadItemType）](item-uploaditemtype.md) <br/> |代表要上传到邮箱中的单个项目。  <br/> |
+|[Item (UploadItemType)](item-uploaditemtype.md) <br/> |表示要上载到邮箱中的单个项目。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**Data**元素包含导出项目的属性名称和值，或将上载到邮箱中的项目。 
+**Data** 元素包含要上载到邮箱中的已导出项目或项目的属性名称和值。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   

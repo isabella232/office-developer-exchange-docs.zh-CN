@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MoveItem
 api_type:
 - schema
 ms.assetid: a4593377-22dd-415f-b01d-387389ef650f
-description: MoveItem 元素定义了在 Exchange 存储中移动项目的请求。
-ms.openlocfilehash: 61dbb91cc20a71f50999241b3daa21bf8ebfbcc8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: MoveItem 元素定义在项目存储中移动Exchange请求。
+ms.openlocfilehash: 5df569722534b8a248da64b71f21219866173aab
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530399"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509600"
 ---
 # <a name="moveitem"></a>MoveItem
 
-**MoveItem**元素定义了在 Exchange 存储中移动项目的请求。 
+**MoveItem** 元素定义在项目存储中移动Exchange请求。 
   
 ```XML
 <MoveItem>
@@ -44,9 +44,9 @@ ms.locfileid: "44530399"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ToFolderId](tofolderid.md) <br/> |表示所移动的项的目标文件夹。  <br/> |
-|[ItemIds](itemids.md) <br/> |包含标识的项的数组，这些项将移至[ToFolderId](tofolderid.md)元素所表示的文件夹中。  <br/> |
-|[ReturnNewItemIds](returnnewitemids.md) <br/> |指示响应中是否返回新项的项标识符。  <br/> |
+|[ToFolderId](tofolderid.md) <br/> |表示已移动项目的目标文件夹。  <br/> |
+|[ItemIds](itemids.md) <br/> |包含要移动到由 [ToFolderId](tofolderid.md) 元素表示的文件夹的已标识项目的数组。  <br/> |
+|[ReturnNewItemIds](returnnewitemids.md) <br/> |指示是否在响应中返回新项的项目标识符。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -56,7 +56,7 @@ ms.locfileid: "44530399"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

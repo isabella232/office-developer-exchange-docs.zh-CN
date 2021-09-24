@@ -1,27 +1,27 @@
 ---
-title: Time （TimeChangeType）
+title: Time (TimeChangeType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Time
 api_type:
 - schema
 ms.assetid: be12e41e-6871-4f6b-b2d4-3dfa404f9ea1
-description: Time 元素描述在标准时间和夏时制时间之间的时间更改时间。
-ms.openlocfilehash: c25d0bc3394fdfab42a29eab8b370bc4263618ed
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Time 元素描述时间在标准时间和夏令时之间变化的时间。
+ms.openlocfilehash: 0c669340778496958ef6dff082e48b5b7f6209b5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465735"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523305"
 ---
-# <a name="time-timechangetype"></a>Time （TimeChangeType）
+# <a name="time-timechangetype"></a>Time (TimeChangeType)
 
-**Time**元素描述在标准时间和夏时制时间之间的时间更改时间。 
+**Time** 元素描述时间在标准时间和夏令时之间变化的时间。 
   
 ```xml
 <Time/>
@@ -49,7 +49,7 @@ ms.locfileid: "44465735"
    
 ## <a name="text-value"></a>文本值
 
-Text 值表示在标准时间和夏时制时间之间的时间更改时间。
+文本值表示时间在标准时间和夏令时之间变化的时间。
   
 ## <a name="remarks"></a>说明
 

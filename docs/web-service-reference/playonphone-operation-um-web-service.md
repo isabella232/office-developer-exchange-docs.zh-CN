@@ -1,32 +1,32 @@
 ---
-title: PlayOnPhone 操作（UM web 服务）
+title: PlayOnPhone 操作（UM Web 服务）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PlayOnPhone
 api_type:
 - schema
 ms.assetid: 7d55be55-f8b6-4e96-a61e-26fa190217fd
-description: PlayOnPhone 操作发出出站呼叫，并通过 DialString 元素指定的电话播放指定的邮件。
-ms.openlocfilehash: c5ff82bcd822aa2c659d1782ea4a1349d198bc80
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: PlayOnPhone 操作发出出站呼叫，并通过电话播放由 DialString 元素指定的指定消息。
+ms.openlocfilehash: 4d18727da18c36e6410c3cc6ab3bbf873993be72
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466232"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516562"
 ---
-# <a name="playonphone-operation-um-web-service"></a>PlayOnPhone 操作（UM web 服务）
+# <a name="playonphone-operation-um-web-service"></a>PlayOnPhone 操作（UM Web 服务）
 
-PlayOnPhone 操作发出出站呼叫，并通过**DialString**元素指定的电话播放指定的邮件。 
+PlayOnPhone 操作发出出站呼叫，并通过电话播放由 **DialString** 元素指定的指定消息。 
   
 ## <a name="playonphone-request-example"></a>PlayOnPhone 请求示例
 
 ### <a name="description"></a>Description
 
-以下示例的 PlayOnPhone 请求显示如何形成发出出站呼叫和播放邮件的请求。
+PlayOnPhone 请求的以下示例显示如何形成发出出站呼叫和播放消息的请求。
   
 ### <a name="code"></a>代码
 
@@ -46,7 +46,7 @@ PlayOnPhone 操作发出出站呼叫，并通过**DialString**元素指定的电
 
 ### <a name="description"></a>Description
 
-下面的 PlayOnPhone 响应示例显示对 PlayOnPhone 请求的响应。
+以下 PlayOnPhone 响应示例显示对 PlayOnPhone 请求的响应。
   
 ### <a name="code"></a>代码
 
@@ -65,9 +65,9 @@ PlayOnPhone 操作发出出站呼叫，并通过**DialString**元素指定的电
 
 
 
-[PlayOnPhone （UM web 服务）](playonphone-um-web-service.md)
+[PlayOnPhone（UM Web 服务）](playonphone-um-web-service.md)
   
-[PlayOnPhoneResponse （UM web 服务）](playonphoneresponse-um-web-service.md)
+[PlayOnPhoneResponse（UM Web 服务）](playonphoneresponse-um-web-service.md)
   
-[PlayOnPhoneGreeting 操作（UM web 服务）](playonphonegreeting-operation-um-web-service.md)
+[PlayOnPhoneGreeting 操作（UM Web 服务）](playonphonegreeting-operation-um-web-service.md)
 

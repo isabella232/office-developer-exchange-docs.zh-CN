@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AllInternal
 api_type:
 - schema
 ms.assetid: b7e5072f-5d9f-4ee0-b58b-4d75d878ea1c
 description: 如果电子邮件的所有收件人均为发件人组织的内部人员，AllInternal 元素的值为 true。
-ms.openlocfilehash: c5ffe15eca5d680994acb62913ebf5effacce214
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 5ccc484de19449bc47a39f170f691649ae4beb7f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464831"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523227"
 ---
 # <a name="allinternal"></a>AllInternal
 

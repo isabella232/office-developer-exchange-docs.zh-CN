@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3d4c9816-54bb-4932-b4ba-f057c9173a1a
 description: FailedMailbox元素指定搜索邮箱失败的错误消息。
-ms.openlocfilehash: 404084bc342eb555db61c4216e936bee6ced9c36
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 5e2bfbce5da35ecacd1757a9c612ed226af963ee
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461959"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535256"
 ---
 # <a name="failedmailbox"></a>FailedMailbox
 
-本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **FailedMailbox**元素指定搜索邮箱失败的错误消息。 
+本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **FailedMailbox** 元素指定搜索邮箱失败的错误消息。 
   
 ```XML
 <FailedMailbox>
@@ -52,7 +52,7 @@ ms.locfileid: "44461959"
 |:-----|:-----|
 |[FailedMailboxes](failedmailboxes.md) <br/> |指定数组的邮箱失败。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -64,7 +64,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

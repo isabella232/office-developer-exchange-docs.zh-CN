@@ -1,27 +1,27 @@
 ---
-title: 条目（PhysicalAddress）
+title: Entry (PhysicalAddress)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Entry
 api_type:
 - schema
 ms.assetid: 9e5b6515-453e-4f4c-b55e-6ffefe23c31b
 description: Entry 元素描述联系人项目的单个物理地址。
-ms.openlocfilehash: 5e8343e9abebeeff8c2b81327b2e0f4ddcf45364
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: b951c8c099a9653635e8fa95fe06204659b7d1fd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459628"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517103"
 ---
-# <a name="entry-physicaladdress"></a>条目（PhysicalAddress）
+# <a name="entry-physicaladdress"></a>Entry (PhysicalAddress)
 
-**Entry**元素描述联系人项目的单个物理地址。 
+**Entry** 元素描述联系人项目的单个物理地址。 
   
 ```xml
 <Entry Key="">
@@ -42,16 +42,16 @@ ms.locfileid: "44459628"
 
 |**属性**|**说明**|
 |:-----|:-----|
-|**Key** <br/> | 标识物理地址。<br/><br/> 以下是该属性可能的值：<br/>  <br/>-业务  <br/>-主页  <br/>-其他  <br/> |
+|**键** <br/> | 标识物理地址。<br/><br/> 以下是该属性可能的值：<br/>  <br/>- 商务  <br/>- 主页  <br/>- 其他  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[地址](street.md) <br/> |表示联系人项目的街道地址。  <br/> |
+|[Street](street.md) <br/> |表示联系人项目的街道地址。  <br/> |
 |[市/县](city.md) <br/> |表示与联系人关联的城市名称。  <br/> |
-|[State](state-ex15websvcsotherref.md) <br/> |表示联系人项目的居住状态。  <br/> |
-|[CountryOrRegion](countryorregion.md) <br/> |表示给定物理地址所在的国家或地区。  <br/> |
+|[状态](state-ex15websvcsotherref.md) <br/> |表示联系人项目的居住地状态。  <br/> |
+|[CountryOrRegion](countryorregion.md) <br/> |表示给定物理地址的一个或多个国家/地区。  <br/> |
 |[PostalCode](postalcode.md) <br/> |表示联系人项目的邮政编码。  <br/> |
    
 ### <a name="parent-elements"></a>父元素

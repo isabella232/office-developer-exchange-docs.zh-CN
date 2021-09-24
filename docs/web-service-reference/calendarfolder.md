@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CalendarFolder
 api_type:
 - schema
 ms.assetid: 48687a78-e757-4c04-9641-bf4302c6b565
 description: CalendarFolder元素表示主要包含日历项目的文件夹。
-ms.openlocfilehash: dcd0ab9d7dea1152766997de0618b3dcceed5567
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 95feefa88af7b961154e742987737db7e6e9fe19
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461490"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59537064"
 ---
 # <a name="calendarfolder"></a>CalendarFolder
 
-本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **CalendarFolder**元素表示主要包含日历项目的文件夹。 
+本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **CalendarFolder** 元素表示主要包含日历项目的文件夹。 
   
 ```xml
 <CalendarFolder>
@@ -62,7 +62,7 @@ ms.locfileid: "44461490"
 |[ManagedFolderInformation](managedfolderinformation.md) <br/> |包含有关托管文件夹的信息。  <br/> |
 |[EffectiveRights](effectiverights.md) <br/> |包含客户端的权利基础的项或文件夹的权限设置。此元素是只读的。  <br/> |
 |[SharingEffectiveRights (CalendarPermissionReadAccessType)](sharingeffectiverights-calendarpermissionreadaccesstype.md) <br/> |指示用户正在共享的日历数据的权限。  <br/> |
-|[PermissionSet （CalendarPermissionSetType）](permissionset-calendarpermissionsettype.md) <br/> |包含日历文件夹的所有已配置的权限。  <br/> |
+|[PermissionSet (CalendarPermissionSetType)](permissionset-calendarpermissionsettype.md) <br/> |包含日历文件夹的所有已配置的权限。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 

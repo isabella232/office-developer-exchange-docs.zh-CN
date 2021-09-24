@@ -1,23 +1,23 @@
 ---
-title: 邮箱（NonEmptyArrayOfLegacyDNsType）
+title: Mailboxes (NonEmptyArrayOfLegacyDNsType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8e44bc49-8c99-472c-a507-0b5c25db9322
-description: 邮箱元素指定由旧版可分辨名称标识的邮箱数组。
-ms.openlocfilehash: 7e84a0d1c9ff53e45f8e844136f61de66f6d0ab4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Mailboxes 元素指定由旧版可分辨名称标识的邮箱数组。
+ms.openlocfilehash: 1b11798fc7de6f94bff733f73bda9f57864cc503
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465980"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509607"
 ---
-# <a name="mailboxes-nonemptyarrayoflegacydnstype"></a>邮箱（NonEmptyArrayOfLegacyDNsType）
+# <a name="mailboxes-nonemptyarrayoflegacydnstype"></a>Mailboxes (NonEmptyArrayOfLegacyDNsType)
 
-**邮箱**元素指定由旧版可分辨名称标识的邮箱数组。 
+**Mailboxes** 元素指定由旧版可分辨名称标识的邮箱数组。 
   
 ```XML
 <Mailboxes>
@@ -43,7 +43,7 @@ ms.locfileid: "44465980"
 
 [GetNonIndexableItemStatistics](getnonindexableitemstatistics.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

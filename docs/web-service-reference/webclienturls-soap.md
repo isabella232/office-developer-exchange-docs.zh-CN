@@ -1,30 +1,30 @@
 ---
-title: WebClientUrls （SOAP）
+title: WebClientUrls (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: fdfe6059-a861-4fa2-a20e-ee6ab820bee9
-description: WebClientUrls 元素表示包含 WebClientUrl （SOAP）元素集合的用户设置。
-ms.openlocfilehash: 80c8ab36e30146c78f4bdb4f40eb9f87a335199c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: WebClientUrls 元素表示包含 WebClientUrl 集合的用户设置 (SOAP) 元素。
+ms.openlocfilehash: c414b92b3105b7e4ffd6eea2745451fe49c3c6fd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464922"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509327"
 ---
-# <a name="webclienturls-soap"></a>WebClientUrls （SOAP）
+# <a name="webclienturls-soap"></a>WebClientUrls (SOAP)
 
-**WebClientUrls**元素表示包含[WebClientUrl （SOAP）](webclienturl-soap.md)元素集合的用户设置。 
+**WebClientUrls** 元素表示包含 [WebClientUrl](webclienturl-soap.md)集合的用户设置 (SOAP) 元素。 
   
-[UserSetting （SOAP）](usersetting-soap.md)
+[UserSetting (SOAP)](usersetting-soap.md)
   
-[WebClientUrls （SOAP）](webclienturls-soap.md)
+[WebClientUrls (SOAP)](webclienturls-soap.md)
   
-[WebClientUrl （SOAP）](webclienturl-soap.md)
+[WebClientUrl (SOAP)](webclienturl-soap.md)
   
 ```XML
 <WebClientUrls>
@@ -46,13 +46,13 @@ ms.locfileid: "44464922"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[WebClientUrl （SOAP）](webclienturl-soap.md) <br/> |表示一个 Exchange 客户端 URL。  <br/> |
+|[WebClientUrl (SOAP)](webclienturl-soap.md) <br/> |表示Exchange URL。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[UserSetting （SOAP）](usersetting-soap.md) <br/> |表示对 GetUserSettings 请求的响应。  <br/> |
+|[UserSetting (SOAP)](usersetting-soap.md) <br/> |表示对 GetUserSettings 请求的响应。  <br/> |
    
 ## <a name="element-information"></a>元素信息
 
@@ -67,5 +67,5 @@ ms.locfileid: "44464922"
 
 
 
-[WebClientUrl （SOAP）](webclienturl-soap.md)
+[WebClientUrl (SOAP)](webclienturl-soap.md)
 

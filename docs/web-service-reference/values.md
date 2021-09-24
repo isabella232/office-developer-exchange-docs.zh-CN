@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Values
 api_type:
 - schema
 ms.assetid: 4b14c714-51fa-4225-82ad-83ba9f611824
-description: Values 元素包含扩展属性值的集合。
-ms.openlocfilehash: 2018f7a734725abe8d8e456492862d1142fda205
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Values 元素包含扩展属性的值的集合。
+ms.openlocfilehash: 405f558a17b3ec66c1e0427e1d17d2dcef310647
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465203"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510622"
 ---
 # <a name="values"></a>值
 
-**Values**元素包含扩展属性值的集合。 
+Values 元素包含扩展属性的值的集合。 
   
 ```xml
 <Values>
@@ -49,7 +49,7 @@ ms.locfileid: "44465203"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ExtendedProperty](extendedproperty.md) <br/> |标识文件夹和项的扩展属性。  <br/> |
+|[ExtendedProperty](extendedproperty.md) <br/> |标识文件夹和项目的扩展属性。  <br/> |
    
 ## <a name="remarks"></a>说明
 

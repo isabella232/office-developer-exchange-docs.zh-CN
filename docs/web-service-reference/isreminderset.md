@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsReminderSet
 api_type:
 - schema
 ms.assetid: 6aea4cb7-ca14-4949-8e7f-660b565f6556
 description: IsReminderSet 元素指示是否已为日历事件设置提醒。
-ms.openlocfilehash: e2f5fa072b549bdaf636a15313e7dfe72172f768
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: fb1af55c53d3328d00d80cf50cf3df3c9d029eda
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460335"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509649"
 ---
 # <a name="isreminderset"></a>IsReminderSet
 
-**IsReminderSet**元素指示是否已为日历事件设置提醒。 
+**IsReminderSet** 元素指示是否已为日历事件设置提醒。 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -64,7 +64,7 @@ ms.locfileid: "44460335"
    
 ## <a name="text-value"></a>文本值
 
-如果在响应中返回此元素，则需要一个 text 值。 如果使用[CalendarEventDetails](calendareventdetails.md)元素，则此元素是必需的，除非[IsPrivate](isprivate.md)元素设置为**true**。
+如果在响应中返回此元素，则文本值是必需的。 如果使用 [CalendarEventDetails](calendareventdetails.md) 元素，则此元素是必需的，除非 [IsPrivate](isprivate.md) 元素设置为 **true**。
   
 ## <a name="remarks"></a>说明
 

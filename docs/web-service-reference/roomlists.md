@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - RoomLists
 api_type:
 - schema
 ms.assetid: 2b190823-b11e-4635-97e4-3aba5865fd05
 description: RoomLists 元素是表示会议室列表的一个或多个地址的列表。
-ms.openlocfilehash: 8f6393b617331e5878e48113c94ca3546cba095e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: e2825ccf5f660e00da61a605282613c07678a74b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459046"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523487"
 ---
 # <a name="roomlists"></a>RoomLists
 
-**RoomLists**元素是表示会议室列表的一个或多个地址的列表。 
+**RoomLists** 元素是表示会议室列表的一个或多个地址的列表。 
   
 [GetRoomListsResponse](getroomlistsresponse.md)
   
@@ -44,17 +44,17 @@ ms.locfileid: "44459046"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[地址 (EmailAddressType)](address-emailaddresstype.md) <br/> |定义表示会议室列表的电子邮件地址和显示名称。 此元素为可选。  <br/> |
+|[地址 (EmailAddressType)](address-emailaddresstype.md) <br/> |定义代表会议室列表显示名称和电子邮件地址。 此元素为可选。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GetRoomListsResponse](getroomlistsresponse.md) <br/> |包含[GetRoomLists 操作](getroomlists-operation.md)请求的状态和结果。  <br/> |
+|[GetRoomListsResponse](getroomlistsresponse.md) <br/> |包含 [GetRoomLists](getroomlists-operation.md) 操作请求的状态和结果。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-描述此元素的架构位于运行 Exchange Server 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
+描述此元素的架构位于在安装了客户端访问服务器角色Exchange Server运行的计算机的 EWS 虚拟目录中。
   
 ## <a name="element-information"></a>元素信息
 

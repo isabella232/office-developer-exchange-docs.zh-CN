@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ViewPrivateItems
 api_type:
 - schema
 ms.assetid: 80b949ac-440c-4a01-b428-ebafb5b1b802
-description: ViewPrivateItems 元素指示代理用户或客户端应用程序是否有权查看主体邮箱中的私人项目。
-ms.openlocfilehash: 4e1375f7c4a3c660cc5de885deff8d094250ca7b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ViewPrivateItems 元素指示委派用户或客户端应用程序是否有权查看主体邮箱中的私人项目。
+ms.openlocfilehash: fcc63534603ea4cc6e5a7f91569a14c742b10a98
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44525967"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509313"
 ---
 # <a name="viewprivateitems"></a>ViewPrivateItems
 
-**ViewPrivateItems**元素指示代理用户或客户端应用程序是否有权查看主体邮箱中的私人项目。 
+**ViewPrivateItems** 元素指示委派用户或客户端应用程序是否有权查看主体邮箱中的私人项目。 
   
 ```XML
 <ViewPrivateItems>true | false</ViewPrivateItems>
@@ -44,12 +44,12 @@ ms.locfileid: "44525967"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[DelegateUser](delegateuser.md) <br/> |标识要在邮箱中添加或更新的单个代理。  <br/> |
+|[DelegateUser](delegateuser.md) <br/> |标识要添加或更新邮箱中的单个代理。  <br/> |
 |[EffectiveRights](effectiverights.md) <br/> |包含客户端的权利基础的项或文件夹的权限设置。此元素是只读的。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**如果值为 true** ，则表示代理或客户端可以查看主体邮箱中的私人项目。 **如果值为 false** ，则表示私人性质项目对代理人或客户端是不可见的。 
+true **值表示** 代理或客户端可以查看主体邮箱中的私人项目。 false **值表示** 私有项目对代理或客户端不可见。 
   
 ## <a name="remarks"></a>说明
 
@@ -76,5 +76,5 @@ ms.locfileid: "44525967"
 - [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 
 
-[添加委派](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
+[添加代理人](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
 

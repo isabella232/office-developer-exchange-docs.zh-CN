@@ -1,23 +1,23 @@
 ---
-title: Phonenumber.phonestring
+title: PhoneString
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 54fd2192-54ca-4e42-b630-a3fbdd8e4239
-description: Phonenumber.phonestring 元素指定提取的联系人的电话号码。
-ms.openlocfilehash: cc528b74034d1fd76c19247e72bb5ac00e7734d9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: PhoneString 元素指定提取的联系人的电话号码。
+ms.openlocfilehash: 569522337c681ce445309182c1c8010d494564e3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44528886"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516648"
 ---
-# <a name="phonestring"></a>Phonenumber.phonestring
+# <a name="phonestring"></a>PhoneString
 
-**Phonenumber.phonestring**元素指定提取的联系人的电话号码。 
+**PhoneString** 元素指定提取的联系人的电话号码。 
   
 ```XML
 <PhoneString></PhoneString>
@@ -38,13 +38,13 @@ ms.locfileid: "44528886"
   
 ### <a name="parent-elements"></a>父元素
 
-[电话](phone.md)  | [电话（PhoneEntityType）](phone-phoneentitytype.md)
+[电话](phone.md)  | [电话 (PhoneEntityType) ](phone-phoneentitytype.md)
   
 ## <a name="text-value"></a>文本值
 
-**PhoneSting**元素的文本值是提取的联系人的电话号码。 
+**PhoneSting** 元素的文本值是提取的联系人的电话号码。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

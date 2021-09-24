@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CurrentMeetingTime
 api_type:
 - schema
 ms.assetid: 1ff68154-24b5-465a-a31c-3d3bab0d491e
-description: CurrentMeetingTime 元素表示您想要使用会议与会者建议的会议时间更新的会议的开始时间。
-ms.openlocfilehash: e79616fd735cbf6410e85450bd75c1276923f171
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: CurrentMeetingTime 元素表示要更新的会议的开始时间，会议时间由与会者建议。
+ms.openlocfilehash: ef208d232a376d3a7fcffc08db1b8864635c0d0a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458773"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536153"
 ---
 # <a name="currentmeetingtime"></a>CurrentMeetingTime
 
-**CurrentMeetingTime**元素表示您想要使用会议与会者建议的会议时间更新的会议的开始时间。 
+**CurrentMeetingTime** 元素表示要更新的会议的开始时间，会议时间由与会者建议。 
   
 [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
@@ -50,14 +50,14 @@ ms.locfileid: "44458773"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |包含用于获取会议建议信息的选项。  <br/> 以下是此元素的 XPath：  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
+|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |包含用于获取会议建议信息的选项。  <br/> 下面是此元素的 XPath：  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素不是必需的。
   
 > [!NOTE]
-> 描述此元素的架构位于运行 MicrosoftExchange Server 2007 且安装了客户端访问服务器角色的计算机的/EWS/目录中。 
+> 描述此元素的架构位于运行已安装客户端访问服务器角色的 MicrosoftExchange Server 2007 的计算机的 /EWS/ 目录中。 
   
 ## <a name="element-information"></a>元素信息
 

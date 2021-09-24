@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 72cec5ec-8485-431c-95b7-b9c2247669d6
-description: LegacyDN 元素根据邮箱的旧版可分辨名称来标识邮箱。
-ms.openlocfilehash: b5eb23d285925f97cc25f53b56bca669bbbb5840
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: LegacyDN 元素按旧版可分辨名称标识邮箱。
+ms.openlocfilehash: c40f76ec37407a0ac6db27bcccad0c5b9d5924b9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463235"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509620"
 ---
 # <a name="legacydn"></a>LegacyDN
 
-**LegacyDN**元素根据邮箱的旧版可分辨名称来标识邮箱。 
+**LegacyDN** 元素按旧版可分辨名称标识邮箱。 
   
 ```XML
 <LegacyDN></LegacyDN>
@@ -39,13 +39,13 @@ ms.locfileid: "44463235"
   
 ### <a name="parent-elements"></a>父元素
 
-[邮箱（NonEmptyArrayOfLegacyDNsType）](mailboxes-nonemptyarrayoflegacydnstype.md)
+[Mailboxes (NonEmptyArrayOfLegacyDNsType)](mailboxes-nonemptyarrayoflegacydnstype.md)
   
 ## <a name="text-value"></a>文本值
 
-**LegacyDN**元素的文本值是目标邮箱的旧版可分辨名称。 
+**LegacyDN** 元素的文本值是目标邮箱的旧版可分辨名称。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AllowExternalOof
 api_type:
 - schema
 ms.assetid: e5387172-5b92-4bb1-8394-180e9c7ff771
-description: AllowExternalOof 元素包含一个值，该值标识向其发送外部外出（OOF）邮件的人员。
-ms.openlocfilehash: e4934bc4bc86e1f9f764279a13ecaeca073d9e5d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: AllowExternalOof 元素包含一个值，该值标识 OOF 邮件Office (外部) 发送到谁。
+ms.openlocfilehash: 7d2e34797af8a9e9d11570a5ea2e618db7630f0c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464810"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523222"
 ---
 # <a name="allowexternaloof"></a>AllowExternalOof
 
-**AllowExternalOof**元素包含一个值，该值标识向其发送外部外出（OOF）邮件的人员。 
+**AllowExternalOof** 元素包含一个值，该值标识 OOF 邮件Office (外部) 发送到谁。 
   
 - [GetUserOofSettingsResponse](getuseroofsettingsresponse.md)
   
@@ -46,23 +46,23 @@ ms.locfileid: "44464810"
   
 ### <a name="parent-elements"></a>父元素
 
-|**元素**|**描述**|
+|**元素**|**说明**|
 |:-----|:-----|
 |[GetUserOofSettingsResponse](getuseroofsettingsresponse.md) <br/> |包含用户的响应结果和 OOF 设置。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-此元素需要一个文本值。 下表列出了此元素的可能值。
+此元素需要文本值。 下表列出了此元素的可能值。
   
 |**值**|**说明**|
 |:-----|:-----|
-|**无** <br/> |向用户发送邮件的邮箱用户组织外部的电子邮件发件人将不会收到外部 OOF 邮件响应。  <br/> |
-|**叫做** <br/> |如果邮箱用户的组织外部的电子邮件发件人向用户发送邮件，则仅会收到外部 OOF 邮件响应（如果发件人位于用户的 Exchange 存储联系人列表中）。  <br/> |
-|**All** <br/> |将邮件发送给用户的邮箱用户的组织外部的电子邮件发件人将收到外部 OOF 邮件响应。  <br/> |
+|**无** <br/> |向用户发送邮件的邮箱用户组织外部的电子邮件发件人不会收到外部 OOF 邮件响应。  <br/> |
+|**已知** <br/> |邮箱用户组织外部向用户发送邮件的电子邮件发件人将仅收到外部 OOF 邮件响应（如果发件人位于用户的应用商店Exchange列表中）。  <br/> |
+|**全部** <br/> |向用户发送邮件的邮箱用户组织外部的电子邮件发件人将收到外部 OOF 邮件响应。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-此元素与[ExternalAudience](externalaudience.md)元素共享相同的类型。 
+此元素与 [ExternalAudience 元素共享同一](externalaudience.md) 类型。 
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

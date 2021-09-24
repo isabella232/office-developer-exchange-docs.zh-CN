@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 16409652-21e4-4bd3-9373-67e1882236b4
 description: PolicyTipsEnabled 元素指示是否启用策略提示。
-ms.openlocfilehash: 26a527022d60dd4b98f70c2b3bf020b649066057
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: de0fdc224f2e4a94d5270e0f1920eb28b0f29405
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468514"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516508"
 ---
 # <a name="policytipsenabled"></a>PolicyTipsEnabled
 
-**PolicyTipsEnabled**元素指示是否启用策略提示。 
+**PolicyTipsEnabled** 元素指示是否启用策略提示。 
   
 ```XML
 <PolicyTipsEnabled> true | false </PolicyTipsEnabled>
@@ -42,9 +42,9 @@ ms.locfileid: "44468514"
   
 ## <a name="text-value"></a>文本值
 
-如果**PolicyTipsEnabled**元素的文本值为**true，则**表示为邮箱启用了策略提示。 **如果值为 false** ，则表示没有为邮箱启用策略提示。 
+**PolicyTipsEnabled** 元素的文本值 **true** 指示为邮箱启用了策略提示。 false **值表示** 未为邮箱启用策略提示。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

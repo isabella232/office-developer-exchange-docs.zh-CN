@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UniqueSenders
 api_type:
 - schema
 ms.assetid: 1f55f2fe-b2f2-4169-83c1-fa5c752bd695
-description: UniqueSenders 元素包含当前文件夹中所有会话项目的所有发件人的列表。 此元素是只读的。
-ms.openlocfilehash: 5c9a98a3083d02f3900cc263e0b99a570203b544
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: UniqueSenders 元素包含当前文件夹中会话项目的所有发件人的列表。 此元素是只读的。
+ms.openlocfilehash: 805f76c5cf9c37496eb42b6e02a3f7f7ed685ff7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459873"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523212"
 ---
 # <a name="uniquesenders"></a>UniqueSenders
 
-**UniqueSenders**元素包含当前文件夹中所有会话项目的所有发件人的列表。 此元素是只读的。 
+**UniqueSenders** 元素包含当前文件夹中会话项目的所有发件人的列表。 此元素是只读的。 
   
 [FindConversationResponse](findconversationresponse.md)
   
@@ -62,7 +62,7 @@ ms.locfileid: "44459873"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   

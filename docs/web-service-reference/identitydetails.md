@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d6fa8d08-20f4-4440-8973-c9ca74d42512
 description: IdentityDetails 元素仅供内部使用。
-ms.openlocfilehash: cb657ec7548c27497f7587edbd0a231d10baf344
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: ebe60b158631d4bba4e3fa6ac14e9f275143eeec
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44442211"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516704"
 ---
 # <a name="identitydetails"></a>IdentityDetails
 
-**IdentityDetails**元素仅供内部使用。 
+**IdentityDetails** 元素仅供内部使用。 
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
@@ -35,7 +35,7 @@ ms.locfileid: "44442211"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   

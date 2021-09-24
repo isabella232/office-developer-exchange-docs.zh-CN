@@ -5,44 +5,44 @@ ms.date: 01/24/2020
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9157f329-80b4-4cd0-a158-378064966ae6
 description: 查找有关 GetHoldOnMailboxes EWS 操作的信息。
-ms.openlocfilehash: 867f38be87e60af8708eeb0b9d0e3ac8eee6ff64
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 3e87aed618b98cbaf556b31f59365f5ed97bec85
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457730"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516991"
 ---
 # <a name="getholdonmailboxes-operation"></a>GetHoldOnMailboxes 操作
 
 > [!IMPORTANT]
-> 从2020年4月1日起，GetHoldOnMailboxes 操作将不再在 Exchange Online 中可用。 此操作不会受到 Exchange Server 内部部署版本的影响。 有关详细信息，请参阅[在 Exchange Online 中停用旧版电子数据展示工具](https://docs.microsoft.com/microsoft-365/compliance/legacy-ediscovery-retirement#getsearchablemailboxes-setholdonmailboxes-and-getholdonmailboxes-operations-in-the-ews-api)。
+> 从 2020 年 4 月 1 日起，GetHoldOnMailboxes 操作将不再在 Exchange Online。 此操作在内部部署版本的 Exchange Server。 有关详细信息，请参阅停用旧版[电子数据展示Exchange Online。](https://docs.microsoft.com/microsoft-365/compliance/legacy-ediscovery-retirement#getsearchablemailboxes-setholdonmailboxes-and-getholdonmailboxes-operations-in-the-ews-api)
 
-查找有关**GetHoldOnMailboxes** EWS 操作的信息。 
+查找有关 **GetHoldOnMailboxes** EWS 操作的信息。 
   
-**GetHoldOnMailboxes**操作获取特定保留中的邮箱和关联的保留查询。 
+**GetHoldOnMailboxes** 操作获取特定保留和关联保留查询下的邮箱。 
   
 Exchange Server 2013 中引入了此操作。
   
 ## <a name="using-the-getholdonmailboxes-operation"></a>使用 GetHoldOnMailboxes 操作
 
-**GetHoldOnMailboxes**操作提供了有关在特定保留下放置了哪些邮箱的客户端信息、有关与每个保留关联的保留查询的信息（如果适用）以及有关每个邮箱的保留状态的信息。 有关邮箱保留（包括基于查询的保留）的详细信息，请参阅 TechNet 上的[就地保留](https://technet.microsoft.com/library/ff637980%28v=exchg.150%29)。 
+**GetHoldOnMailboxes** 操作向客户端提供有关将哪些邮箱置于特定保留下的信息、有关与每个保留关联的保留查询的信息（如果适用）以及有关每个邮箱的保留状态的信息。 有关邮箱保留（包括基于查询的保留）的信息，请参阅 TechNet [上的](https://technet.microsoft.com/library/ff637980%28v=exchg.150%29) 就地保留。 
   
 ### <a name="getholdonmailboxes-operation-soap-headers"></a>GetHoldOnMailboxes 操作 SOAP 标头
 
-**GetHoldOnMailboxes**操作可以使用下表中列出的 SOAP 标头。 
+**GetHoldOnMailboxes** 操作可以使用下表中列出的 SOAP 标头。 
   
 |**标头名称**|**元素**|**说明**|
 |:-----|:-----|:-----|
-|**Get-managementrole** <br/> |[Get-managementrole](managementrole.md) <br/> |标识调用方发出请求所需的服务器角色。 此标头适用于请求。  <br/> |
+|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |标识调用方进行请求所需的服务器角色。 此标头适用于请求。  <br/> |
 |**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。 此标头适用于请求。  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器版本。 此标头适用于响应。  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器的版本。 此标头适用于响应。  <br/> |
    
 ## <a name="getholdonmailboxes-operation-request-example-get-mailbox-hold-information"></a>GetHoldOnMailboxes 操作请求示例：获取邮箱保留信息
 
-以下示例的**GetHoldOnMailboxes**操作请求显示如何获取 HoldId2 邮箱保留的邮箱保留信息。 
+**GetHoldOnMailboxes** 操作请求的以下示例显示如何获取 HoldId2 邮箱保留的邮箱保留信息。 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -69,7 +69,7 @@ Exchange Server 2013 中引入了此操作。
     
 ## <a name="successful-getholdonmailboxes-operation-response"></a>成功的 GetHoldOnMailboxes 操作响应
 
-下面的示例演示对**GetHoldOnMailboxes**操作请求的成功响应，以获取 HoldId2 邮箱保留的邮箱保留信息。 
+以下示例显示成功响应 **GetHoldOnMailboxes** 操作请求，以获取 HoldId2 邮箱保留的邮箱保留信息。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -130,13 +130,13 @@ Exchange Server 2013 中引入了此操作。
     
 - [邮箱 (字符串)](mailbox-string.md)
     
-- [状态（HoldStatusType）](status-holdstatustype.md)
+- [Status (HoldStatusType)](status-holdstatustype.md)
     
 - [AdditionalInfo](additionalinfo.md)
     
 ## <a name="getholdonmailboxes-operation-error-response"></a>GetHoldOnMailboxes 操作错误响应
 
-下面的示例演示对**GetHoldOnMailboxes**操作请求的错误响应。 这是对获取已删除保留的请求的响应。 
+以下示例显示 **GetHoldOnMailboxes** 操作请求的错误响应。 这是对请求的响应，请求获取已删除的保留。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -175,11 +175,11 @@ Exchange Server 2013 中引入了此操作。
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-有关对 EWS 通用的其他错误代码以及特定于此操作的错误代码，请参阅[ResponseCode](responsecode.md)。
+有关 EWS 通用且特定于此操作的其他错误代码，请参阅 [ResponseCode](responsecode.md)。
   
 ## <a name="see-also"></a>另请参阅
 
-- [Exchange 中的 EWS 操作](ews-operations-in-exchange.md)
+- [EWS 操作在Exchange](ews-operations-in-exchange.md)
     
 - [GetSearchableMailboxes 操作](getsearchablemailboxes-operation.md)
     

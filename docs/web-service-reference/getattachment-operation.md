@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetAttachment
 api_type:
 - schema
 ms.assetid: 24d10a15-b942-415e-9024-a6375708f326
-description: GetAttachment 操作用于检索 Exchange 存储中项目的现有附件。
-ms.openlocfilehash: ac7eafd61c62b077a8d20e5fd8d004924bf06cf1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetAttachment 操作用于检索邮件存储中项目Exchange附件。
+ms.openlocfilehash: 44a9e1988deb513039f7700e11c645c366641519
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461287"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509935"
 ---
 # <a name="getattachment-operation"></a>GetAttachment 操作
 
-GetAttachment 操作用于检索 Exchange 存储中项目的现有附件。
+GetAttachment 操作用于检索邮件存储中项目Exchange附件。
   
 ## <a name="getattachment-request-example"></a>GetAttachment 请求示例
 
 ### <a name="description"></a>Description
 
-下面的 GetAttachment 请求示例演示如何获取附件。
+GetAttachment 请求的以下示例显示如何获取附件。
   
 ### <a name="code"></a>代码
 
@@ -51,30 +51,30 @@ xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
 
 ### <a name="comments"></a>备注
 
-[AttachmentShape](attachmentshape.md)元素允许您指定应返回的附件信息。 空的[AttachmentShape](attachmentshape.md)元素有效，并将呈现不包含任何其他属性的项目附件的 MIME 内容的附件。 
+[AttachmentShape](attachmentshape.md)元素允许您指定应返回的附件信息。 空 [的 AttachmentShape](attachmentshape.md) 元素有效，它将呈现附件，而项目附件没有 MIME 内容，具有文本正文类型，且没有任何其他属性。 
   
-[会话](attachmentids.md)集合允许您指定一个或多个要返回的附件标识符。 请注意，这些类型的类型为 RequestAttachmentIdType，因此从**CreateAttachment**收到的任何会话在将其传递到**RootItemChangeKey**之前，必须删除**RootItemId**和**GetAttachment**属性。
+[AttachmentIds](attachmentids.md)集合允许您指定要返回的一个或多个附件标识符。 请注意，这些类型为 RequestAttachmentIdType，因此从 **CreateAttachment** 接收的任何 AttachmentId 都必须在将 **RootItemId** 和 **RootItemChangeKey** 属性传递到 **GetAttachment** 之前删除。
   
 > [!NOTE]
-> 附件标识符和更改密钥已缩短，以保持可读性。 
+> 附件标识符和更改键已缩短，以保持可读性。 
   
-### <a name="request-elements"></a>Request 元素
+### <a name="request-elements"></a>请求元素
 
-请求中使用以下元素：
+请求中会使用下列元素：
   
 - [GetAttachment](getattachment.md)
     
 - [AttachmentShape](attachmentshape.md)
     
-- [会话](attachmentids.md)
+- [AttachmentIds](attachmentids.md)
     
-- [AttachmentId （GetAttachment 和 DeleteAttachment）](attachmentid-getattachment-and-deleteattachment.md)
+- [AttachmentId (GetAttachment and DeleteAttachment)](attachmentid-getattachment-and-deleteattachment.md)
     
 ## <a name="getattachment-response-example"></a>GetAttachment 响应示例
 
 ### <a name="description"></a>Description
 
-下面的示例演示对 GetAttachment 请求的成功响应。 本示例返回一个文件附件。
+以下示例显示 GetAttachment 请求的成功响应。 本示例返回文件附件。
   
 ### <a name="code"></a>代码
 
@@ -110,11 +110,11 @@ xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
 
 ### <a name="comments"></a>备注
 
-GetAttachment 的响应邮件始终包含完整的附件;也就是说，将始终包含所有属性。 对于文件附件，这些属性是[名称（AttachmentType）](name-attachmenttype.md)、 [ContentType](contenttype.md)、 [ContentId](contentid.md)、 [ContentLocation](contentlocation.md)和[Content](content.md)。 对于项目附件，这些属性是[名称（AttachmentType）](name-attachmenttype.md)、 [ContentType](contenttype.md)、 [ContentId](contentid.md)、 [ContentLocation](contentlocation.md)和项目的所有属性，就像**AllProperties**形状已在 GetItem 调用中使用一样。 [AttachmentShape](attachmentshape.md)元素（如果存在）将允许使用者应用程序请求项目附件的其他扩展属性。 
+GetAttachment 的响应邮件将始终包含完整附件;即，将始终包含所有属性。 对于文件附件，这些属性是[Name (AttachmentType) 、ContentType、ContentId、ContentLocation](name-attachmenttype.md)和[Content](content.md)。 [](contenttype.md) [](contentid.md) [](contentlocation.md) 对于项目附件，这些属性是 [Name (AttachmentType](name-attachmenttype.md)) 、ContentType、ContentId、ContentLocation [](contentlocation.md)以及项目的所有属性，就像 [](contenttype.md)**AllProperties** 形状已在 GetItem 调用中使用的一样。 [](contentid.md) [AttachmentShape](attachmentshape.md)元素（如果存在）将允许使用者应用程序请求项目附件的其他扩展属性。 
   
 ### <a name="successful-response-elements"></a>成功的响应元素
 
-响应中使用以下元素：
+响应中会使用下列元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -130,9 +130,9 @@ GetAttachment 的响应邮件始终包含完整的附件;也就是说，将始�
     
 - [FileAttachment](fileattachment.md)
     
-- [AttachmentId （GetAttachment 和 DeleteAttachment）](attachmentid-getattachment-and-deleteattachment.md)
+- [AttachmentId (GetAttachment and DeleteAttachment)](attachmentid-getattachment-and-deleteattachment.md)
     
-- [名称（AttachmentType）](name-attachmenttype.md)
+- [Name (AttachmentType)](name-attachmenttype.md)
     
 - [Content](content.md)
     

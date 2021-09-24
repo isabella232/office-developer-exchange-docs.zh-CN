@@ -1,23 +1,23 @@
 ---
-title: ConversationIndex （字符串）
+title: ConversationIndex (string)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dda6534d-7e52-4654-b746-3631c454cb4d
 description: ConversationIndex 元素指定对话中节点的位置。
-ms.openlocfilehash: 2475c42d1ee1c0bef55fe7d5e96d555c981d775d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 42db965428ea828c409aa41685b5eb0efe83a158
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461441"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510363"
 ---
-# <a name="conversationindex-string"></a>ConversationIndex （字符串）
+# <a name="conversationindex-string"></a>ConversationIndex (string)
 
-**ConversationIndex**元素指定对话中节点的位置。 
+**ConversationIndex** 元素指定对话中节点的位置。 
   
 ```XML
 <ConversationIndex></ConversationIndex>
@@ -46,11 +46,11 @@ ms.locfileid: "44461441"
 
 表示对话索引的字符串值。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素是必需的。
   
-**ConversationIndex**元素适用于面向 exchange Online 的客户端和从 exchange 2013 开始的 Microsoft Exchange Server 版本。 
+**ConversationIndex** 元素适用于从 Exchange 2013 Exchange Online 2013 Microsoft Exchange Server版本的客户端。 
   
 ## <a name="element-information"></a>元素信息
 
@@ -58,7 +58,7 @@ ms.locfileid: "44461441"
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

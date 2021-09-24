@@ -1,23 +1,23 @@
 ---
-title: 类型（字符串）
+title: Type (string)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d5eea7a8-c40d-42a6-8e0d-67f3252496cf
-description: Type 元素指定邮政地址或电话号码的类型，例如，HomeorBusiness。
-ms.openlocfilehash: 83dd6576e8a365be61c4e6d2f3afc8a59aba92a6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Type 元素指定邮政地址或电话号码的类型，例如 HomeorBusiness。
+ms.openlocfilehash: 341c79758c3cbf5133bb79a6986a676903a48ef0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465714"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523206"
 ---
-# <a name="type-string"></a>类型（字符串）
+# <a name="type-string"></a>Type (string)
 
-**Type**元素指定邮寄地址或电话号码的类型，例如 "住宅" 或 "商务"。 
+**Type** 元素指定邮政地址或电话号码的类型，例如，"Home"或"Business"。 
   
 ```XML
 <Type></Type>
@@ -38,13 +38,13 @@ ms.locfileid: "44465714"
   
 ### <a name="parent-elements"></a>父元素
 
-[电话](phone.md)  | [PhoneNumber](phonenumber.md)  | [Value （PersonaPostalAddressType）](value-personapostaladdresstype.md)  | [省略（PersonaPostalAddressType）](postaladdress-personapostaladdresstype.md)
+[电话](phone.md)  | [PhoneNumber](phonenumber.md)  | [Value (PersonaPostalAddressType) ](value-personapostaladdresstype.md)  | [PostalAddress (PersonaPostalAddressType) ](postaladdress-personapostaladdresstype.md)
   
 ## <a name="text-value"></a>文本值
 
-**Type**元素的文本值是邮政地址或电话号码的类型。 例如，值 "Home" 或 "Business" 是**Type**元素的预期值。 
+**Type** 元素的文本值是邮政地址或电话号码的类型。 例如，值"Home"或"Business"是 **Type** 元素的预期值。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b6942ac5-9942-4c68-876c-d02d049e7966
 description: TemplateName 元素指定权限管理模板的名称。
-ms.openlocfilehash: 211f5792ac29496557f5d69969195680e4fec950
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 3ae69c811cf520930547da4d058eac1d3eefb3cf
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526765"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523312"
 ---
 # <a name="templatename"></a>TemplateName
 
-**TemplateName**元素指定权限管理模板的名称。 
+**TemplateName** 元素指定权限管理模板的名称。 
   
 ```XML
 <TemplateName></TemplateName>
@@ -42,9 +42,9 @@ ms.locfileid: "44526765"
   
 ## <a name="text-value"></a>文本值
 
-**TemplateName**元素的文本值是应用于项目的权限管理模板的名称。 
+**TemplateName** 元素的文本值是应用于项目权限管理模板的名称。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5d33f557-c9d5-4f7f-82c0-d800412f8b7e
-description: Preview 元素指定要显示的项的前256个字符。
-ms.openlocfilehash: 883a9b7ed45add423cbe942d1eabb90c53ac1ddf
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Preview 元素指定要显示的项的前 256 个字符。
+ms.openlocfilehash: f91423133cb0944e323680d905ed06486ec0d0b1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468108"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59534661"
 ---
 # <a name="preview"></a>预览
 
-**Preview**元素指定要显示的项的前256个字符。 
+Preview 元素指定要显示的项的前 256 个字符。 
   
 ```XML
 <Preview></Preview>
@@ -38,13 +38,13 @@ ms.locfileid: "44468108"
   
 ### <a name="parent-elements"></a>父元素
 
-[对话（ConversationType）](conversation-conversationtype.md)  | [SearchPreviewItem](searchpreviewitem.md)  | [项](item.md)  | [联系人](contact.md)  | [邮件](message-ex15websvcsotherref.md)  | [DistributionList](distributionlist.md)  | [CalendarItem](calendaritem.md)  | [PostItem](postitem.md)  | [任务](task.md)
+[Conversation (ConversationType) ](conversation-conversationtype.md)  | [SearchPreviewItem](searchpreviewitem.md)  | [Item](item.md)  | [联系人](contact.md)  | [邮件](message-ex15websvcsotherref.md)  | [DistributionList](distributionlist.md)  | [CalendarItem](calendaritem.md)  | [PostItem](postitem.md)  | [任务](task.md)
   
 ## <a name="text-value"></a>文本值
 
-Preview 元素的文本值是项目的前256个字符。
+Preview 元素的文本值是项的前 256 个字符。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

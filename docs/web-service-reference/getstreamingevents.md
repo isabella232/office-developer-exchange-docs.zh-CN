@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetStreamingEvents
 api_type:
 - schema
 ms.assetid: dbe83857-c4f8-4d98-813f-e03c289697a1
-description: GetStreamingEvents 元素表示客户端用来从服务器请求流通知的操作。
-ms.openlocfilehash: ec133ecd69c05a2208e95f925133570af0233cf2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetStreamingEvents 元素表示客户端用于从服务器请求流通知的操作。
+ms.openlocfilehash: 8a68b3edbb53b623e4dc709e0128c5b3ebc94f91
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457317"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523048"
 ---
 # <a name="getstreamingevents"></a>GetStreamingEvents
 
-**GetStreamingEvents**元素表示客户端用来从服务器请求流通知的操作。 
+**GetStreamingEvents** 元素表示客户端用于从服务器请求流通知的操作。 
   
 [GetStreamingEvents](getstreamingevents.md)
   
@@ -45,7 +45,7 @@ ms.locfileid: "44457317"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[SubscriptionId （GetStreamingEvents）](subscriptionid-getstreamingevents.md) <br/> |表示查询事件的订阅的标识符。  <br/> |
+|[SubscriptionId (GetStreamingEvents)](subscriptionid-getstreamingevents.md) <br/> |表示查询事件的订阅的标识符。  <br/> |
 |[ConnectionTimeout](connectiontimeout.md) <br/> |表示保持连接打开的分钟数。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
@@ -56,7 +56,7 @@ ms.locfileid: "44457317"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   
@@ -77,7 +77,7 @@ ms.locfileid: "44457317"
   
 [GetStreamingEvents 操作](getstreamingevents-operation.md)
   
-[取消订阅操作](unsubscribe-operation.md)
+[Unsubscribe 操作](unsubscribe-operation.md)
 
 
 - [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)

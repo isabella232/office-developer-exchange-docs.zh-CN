@@ -1,27 +1,27 @@
 ---
-title: 后缀
+title: Suffix
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Suffix
 api_type:
 - schema
 ms.assetid: ead92079-c4a7-4f54-a132-86653b488bdb
-description: 后缀元素表示联系人姓名的后缀。
-ms.openlocfilehash: dc4cadedb44e67deb02cb0af1403dc8641def6a6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Suffix 元素表示联系人姓名的后缀。
+ms.openlocfilehash: e845856ea51f7c6624c21815a17a07be69156315
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44531012"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517656"
 ---
-# <a name="suffix"></a>后缀
+# <a name="suffix"></a>Suffix
 
-**后缀**元素表示联系人姓名的后缀。 
+**Suffix** 元素表示联系人姓名的后缀。 
   
 ```xml
 <Suffix/>

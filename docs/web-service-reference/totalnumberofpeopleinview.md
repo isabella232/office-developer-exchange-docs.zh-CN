@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f1037fef-628b-4e44-96e7-a701a9ca8404
-description: TotalNumberOfPeopleInView 元素指定在 FindPeople 响应中返回的总角色数。
-ms.openlocfilehash: d89aa65d595814a7277f85e569ca10f9058c6aac
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: TotalNumberOfPeopleInView 元素指定 FindPeople 响应中返回的角色总数。
+ms.openlocfilehash: 350dcaf4a498a590350c7f2b72d542057ae6eb7b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467506"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523277"
 ---
 # <a name="totalnumberofpeopleinview"></a>TotalNumberOfPeopleInView
 
-**TotalNumberOfPeopleInView**元素指定在**FindPeople**响应中返回的总角色数。 
+**TotalNumberOfPeopleInView** 元素指定 **FindPeople** 响应中返回的角色总数。 
   
 ```XML
 <TotalNumberOfPeopleInView></TotalNumberOfPeopleInView>
@@ -42,9 +42,9 @@ ms.locfileid: "44467506"
   
 ## <a name="text-value"></a>文本值
 
-**TotalNumberOfPeopleInView**元素的文本值是**FindPeople**响应中返回的总角色数。 
+**TotalNumberOfPeopleInView** 元素的文本值是在 **FindPeople** 响应中返回的角色总数。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -56,7 +56,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
-|验证文件  <br/> |消息 .xsd  <br/> |
+|验证文件  <br/> |messages.xsd  <br/> |
 |可以为空  <br/> ||
    
 

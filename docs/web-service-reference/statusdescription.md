@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - StatusDescription
 api_type:
 - schema
 ms.assetid: afdae979-29a7-4ab9-a6bf-a8c2168d0278
 description: StatusDescription 元素包含任务状态的说明。
-ms.openlocfilehash: 7babcb719ed83c73fadb786f29ef98265cb2a7e0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: e65deed68ae8dee5fafc6600b518e757ec5f755e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465413"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509348"
 ---
 # <a name="statusdescription"></a>StatusDescription
 
-**StatusDescription**元素包含任务状态的说明。 
+**StatusDescription** 元素包含任务状态的说明。 
   
 ```xml
 <StatusDescription/>

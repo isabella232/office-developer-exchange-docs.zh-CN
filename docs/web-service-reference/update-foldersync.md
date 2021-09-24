@@ -1,32 +1,32 @@
 ---
-title: 更新 (FolderSync)
+title: Update (FolderSync)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Update
 api_type:
 - schema
 ms.assetid: 47ed8edb-2a94-471b-b965-93f91456252e
 description: Update 元素标识要在本地客户端存储中更新的单个文件夹。
-ms.openlocfilehash: 5c1b5b1fd87e4651125293eac431c56f732c6c02
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 460d1d9efb3f5dde34bfbb85c332ed150fe4d17a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467135"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517488"
 ---
-# <a name="update-foldersync"></a>更新 (FolderSync)
+# <a name="update-foldersync"></a>Update (FolderSync)
 
-**Update**元素标识要在本地客户端存储中更新的单个文件夹。 
+**Update** 元素标识要在本地客户端存储中更新的单个文件夹。 
   
 - [SyncFolderHierarchyResponse](syncfolderhierarchyresponse.md) 
 - [ResponseMessages](responsemessages.md) 
 - [SyncFolderHierarchyResponseMessage](syncfolderhierarchyresponsemessage.md)  
-- [更改（层次结构）](changes-hierarchy.md) 
+- [Changes (Hierarchy)](changes-hierarchy.md) 
 - [更新 (FolderSync)](update-foldersync.md)
   
 ```xml
@@ -74,16 +74,16 @@ ms.locfileid: "44467135"
 |**元素**|**说明**|
 |:-----|:-----|
 |[Folder](folder.md) <br/> |定义要创建、获取、查找、同步或更新的文件夹。  <br/> |
-|[CalendarFolder](calendarfolder.md) <br/> |代表主要包含日历项目的文件夹。  <br/> |
+|[CalendarFolder](calendarfolder.md) <br/> |表示一个主要包含日历项目的文件夹。  <br/> |
 |[ContactsFolder](contactsfolder.md) <br/> |表示邮箱中的联系人文件夹。  <br/> |
-|[SearchFolder](searchfolder.md) <br/> |表示邮箱中包含的搜索文件夹。  <br/> |
-|[TasksFolder](tasksfolder.md) <br/> |表示邮箱中 thcontained 的任务文件夹 t。  <br/> |
+|[SearchFolder](searchfolder.md) <br/> |表示包含在邮箱中的搜索文件夹。  <br/> |
+|[TasksFolder](tasksfolder.md) <br/> |表示邮箱中包含的任务文件夹 t。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[更改（层次结构）](changes-hierarchy.md) <br/> |包含更改类型的序列化数组，这些类型代表客户端上的文件夹和 Exchange 服务器上的文件夹之间的差异类型。  <br/> |
+|[Changes (Hierarchy)](changes-hierarchy.md) <br/> |包含一个更改类型的排序数组，这些更改类型表示客户端上的文件夹和服务器上文件夹Exchange的类型。  <br/> |
    
 ## <a name="remarks"></a>说明
 

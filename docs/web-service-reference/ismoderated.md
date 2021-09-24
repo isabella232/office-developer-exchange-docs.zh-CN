@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsModerated
 api_type:
 - schema
 ms.assetid: a7562256-feb9-41a1-857e-b5d41cbed680
-description: IsModerated 元素指示是否正在仲裁收件人的邮箱。
-ms.openlocfilehash: 930d5a7e09712f35d22850a93462d051a34785a1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: IsModerated 元素指示是否正在对收件人的邮箱进行主持。
+ms.openlocfilehash: e06e7e01e08cb8418adafaae09cae94ceb5c3b2c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44435483"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522899"
 ---
 # <a name="ismoderated"></a>IsModerated
 
-**IsModerated**元素指示是否正在仲裁收件人的邮箱。 
+**IsModerated** 元素指示是否正在对收件人的邮箱进行主持。 
   
 ```XML
 <IsModerated>true | false</IsModerated>
@@ -44,11 +44,11 @@ ms.locfileid: "44435483"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[邮件提示](mailtips.md) <br/> |表示各种邮件提示类型的值。  <br/> |
+|[邮件提示](mailtips.md) <br/> |表示各种类型的邮件提示的值。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-如果收件人的邮箱正在被仲裁，则此元素的文本值为**true** 。 如果未对收件人的邮箱进行仲裁，则该值为**false** 。 
+如果收件人的邮箱正在接受 **主持** ，则此元素的文本值为 true。 如果收件人的邮箱未进行主持，则值为 **false。** 
   
 ## <a name="remarks"></a>说明
 

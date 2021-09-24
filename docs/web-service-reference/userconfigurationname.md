@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UserConfigurationName
 api_type:
 - schema
 ms.assetid: 6947dd03-9727-4379-9b9d-42373fa120c7
-description: UserConfigurationName 元素表示用户配置对象的名称。 "用户配置" 对象名称是 "用户配置" 对象的标识符。
-ms.openlocfilehash: 020b55919f7f81602a5eb072652d82168607d306
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: UserConfigurationName 元素表示用户配置对象的名称。 用户配置对象名称是用户配置对象的标识符。
+ms.openlocfilehash: 7563435f25a5307aa908a64baceffb3c81138149
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466029"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517383"
 ---
 # <a name="userconfigurationname"></a>UserConfigurationName
 
-**UserConfigurationName**元素表示用户配置对象的名称。 "用户配置" 对象名称是 "用户配置" 对象的标识符。 
+**UserConfigurationName** 元素表示用户配置对象的名称。 用户配置对象名称是用户配置对象的标识符。 
   
 ```XML
 <UserConfigurationName Name="">
@@ -45,7 +45,7 @@ ms.locfileid: "44466029"
 
 |**属性**|**说明**|
 |:-----|:-----|
-|**名称** <br/> |包含一个 string 值，它代表用户配置对象的名称。 此特性是必需的。  <br/> |
+|**名称** <br/> |包含一个字符串值，它代表用户配置对象的名称。 此特性是必需的。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -58,7 +58,7 @@ ms.locfileid: "44466029"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[DeleteUserConfiguration](deleteuserconfiguration.md) <br/> |表示一个删除用户配置对象的请求。  <br/> |
+|[DeleteUserConfiguration](deleteuserconfiguration.md) <br/> |表示删除用户配置对象的请求。  <br/> |
 |[GetUserConfiguration](getuserconfiguration.md) <br/> |表示获取用户配置对象的请求。  <br/> |
 |[UserConfiguration](userconfiguration.md) <br/> |定义单个用户配置对象。  <br/> |
    
@@ -66,7 +66,7 @@ ms.locfileid: "44466029"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

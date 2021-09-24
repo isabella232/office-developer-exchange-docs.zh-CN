@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b4ffdf0f-1210-429d-8eea-665db2aad3bb
 description: LastAttemptTime 元素包含上次尝试对项目编制索引的时间和日期。
-ms.openlocfilehash: 8ef7d8d436f7e12a5c1e6a1d0762fcf777a95d05
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 7bc0ffa9a0b7b6fd0079ce2430689d1b5f5f2f35
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459845"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509628"
 ---
 # <a name="lastattempttime"></a>LastAttemptTime
 
-**LastAttemptTime**元素包含上次尝试对项目编制索引的时间和日期。 
+**LastAttemptTime** 元素包含上次尝试对项目编制索引的时间和日期。 
   
 ```XML
 <LastAttemptTime></LastAttemptTime>
@@ -42,9 +42,9 @@ ms.locfileid: "44459845"
   
 ## <a name="text-value"></a>文本值
 
-**LastAttemptTime**元素的文本值代表上次尝试建立项目索引的时间和日期。 
+**LastAttemptTime** 元素的文本值表示上次尝试对项目编制索引的时间和日期。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

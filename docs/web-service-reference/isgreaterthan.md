@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsGreaterThan
 api_type:
 - schema
 ms.assetid: a6e9d462-cfa7-40ec-903e-128c95050352
-description: IsGreaterThan 元素表示搜索表达式，该表达式将属性与常数值或其他属性进行比较，如果第一个属性较大，则返回 true。
-ms.openlocfilehash: 52f2c1b84e4072649092637de091c0dbd8187032
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: IsGreaterThan 元素表示搜索表达式，该表达式将属性与常量值或其他属性进行比较，如果第一个属性更大，则返回 true。
+ms.openlocfilehash: 975b63be8dce414131dfbfef9851f7540fbd1b89
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530041"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523025"
 ---
 # <a name="isgreaterthan"></a>IsGreaterThan
 
-**IsGreaterThan**元素表示搜索表达式，该表达式将属性与常数值或其他属性进行比较，如果第一个属性较大，则返回**true** 。 
+**IsGreaterThan** 元素表示搜索表达式，该表达式将属性与常量值或其他属性进行比较，如果第一个属性更大，则返回 true。 
   
 ```xml
 <IsGreaterThan>
@@ -61,7 +61,7 @@ ms.locfileid: "44530041"
 |[FieldURI](fielduri.md) <br/> |标识由 URI 频繁引用的属性。  <br/> |
 |[IndexedFieldURI](indexedfielduri.md) <br/> |标识词典中的各个成员。  <br/> |
 |[ExtendedFieldURI](extendedfielduri.md) <br/> |标识 MAPI 属性。  <br/> |
-|[FieldURIOrConstant](fielduriorconstant.md) <br/> |表示与其他属性进行比较时要使用的属性或常数值。  <br/> |
+|[FieldURIOrConstant](fielduriorconstant.md) <br/> |表示与另一个属性比较时所使用的属性或常量值。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -70,7 +70,7 @@ ms.locfileid: "44530041"
 |[限制](restriction.md) <br/> |表示用于在 FindItem/FindFolder 中筛选项目或文件夹和搜索文件夹操作的限制或查询。  <br/> |
 |[not](not.md) <br/> |表示对其包含的搜索表达式的布尔值求反的搜索表达式。  <br/> |
 |[And](and.md) <br/> |表示能够使您在两个或多个搜索表达式之间执行布尔 And 操作的搜索表达式。如果 And 中包含的搜索表达式为 **true**，则 And 操作的结果为 **true**。  <br/> |
-|[或](or.md) <br/> |表示在其包含的搜索表达式上执行逻辑 OR 的搜索表达式。 如果其任何子级返回 [true](or.md)，则 **或** 将返回 **true**。  <br/> |
+|[或](or.md) <br/> |表示对包含的搜索表达式执行逻辑 OR 的搜索表达式。 如果其任何子级返回 [true](or.md)，则 **或** 将返回 **true**。  <br/> |
    
 ## <a name="remarks"></a>说明
 

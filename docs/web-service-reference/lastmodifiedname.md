@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - LastModifiedName
 api_type:
 - schema
 ms.assetid: 4f1a90c1-e27e-4e16-93c3-e79d4cb720d1
-description: LastModifiedName 元素包含上次修改项目的用户的显示名称。 此元素是只读的。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
-ms.openlocfilehash: 485514d9f72956083d8a7a0633478f3d9e694845
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: LastModifiedName 元素包含显示名称用户修改项目的详细信息。 此元素是只读的。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
+ms.openlocfilehash: a821508a69517b92d6b453fe8355f7e8c3f1d6fc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455385"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509614"
 ---
 # <a name="lastmodifiedname"></a>LastModifiedName
 
-**LastModifiedName**元素包含上次修改项目的用户的显示名称。 此元素是只读的。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
+**LastModifiedName** 元素包含显示名称用户修改项目的详细信息。 此元素是只读的。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
   
 ```xml
 <LastModifiedName/>
@@ -47,7 +47,7 @@ ms.locfileid: "44455385"
 |[CalendarItem](calendaritem.md) <br/> |表示 Exchange 日历项。  <br/> |
 |[Contact](contact.md) <br/> |表示 Exchange 联系人项目。  <br/> |
 |[DistributionList](distributionlist.md) <br/> |表示通讯组列表。  <br/> |
-|[项](item.md) <br/> |表示通用 Exchange 项。  <br/> |
+|[项目](item.md) <br/> |表示常规Exchange项。  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |表示 Exchange 存储中的会议取消。  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |表示 Exchange 存储中的会议。  <br/> |
 |[MeetingRequest](meetingrequest.md) <br/> |表示 Exchange 存储中的会议请求。  <br/> |
@@ -55,11 +55,11 @@ ms.locfileid: "44455385"
 |[Message](message-ex15websvcsotherref.md) <br/> |表示 Exchange 电子邮件。  <br/> |
 |[RemoveItem](removeitem.md) <br/> |从 Exchange 存储中删除一个项目。  <br/> |
 |[任务](task.md) <br/> |表示 Exchange 存储中的任务。  <br/> |
-|[PostItem](postitem.md) <br/> |表示 Exchange 存储中的公告项。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
+|[PostItem](postitem.md) <br/> |代表应用商店中的Exchange项。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-Text 值是一个 string 值，表示最后一个修改项目的用户的显示名称。
+文本值是一个字符串值，显示名称最后一个用户修改项的字符串值。
   
 ## <a name="remarks"></a>说明
 

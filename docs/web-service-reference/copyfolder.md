@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CopyFolder
 api_type:
 - schema
 ms.assetid: 7d5cd08a-fe81-4cb6-a5a0-6dec2d3c93d4
 description: CopyFolder元素定义要在 Exchange 存储中的邮箱复制文件夹的请求。
-ms.openlocfilehash: fa75272540169a96d5567181d27b8a8f056cce42
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 85810ac0b2a2d805e91521a02c469383d40d86b8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44452508"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510338"
 ---
 # <a name="copyfolder"></a>CopyFolder
 
-本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **CopyFolder**元素定义要在 Exchange 存储中的邮箱复制文件夹的请求。 
+本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **CopyFolder** 元素定义要在 Exchange 存储中的邮箱复制文件夹的请求。 
   
 ```xml
 <CopyFolder>
@@ -50,7 +50,7 @@ ms.locfileid: "44452508"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

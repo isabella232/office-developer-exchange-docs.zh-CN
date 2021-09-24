@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 00422885-0e7b-4b50-a9ca-01f24ff9858f
 description: GetImItemListResponse 元素定义对 GetImItemList 请求的响应。
-ms.openlocfilehash: e1e6e30bc1304cf4898b125d3a041c1f0a8a9ab6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 68631bbcdeaec55654872376a106fb3aab397cc8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456050"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509873"
 ---
 # <a name="getimitemlistresponse"></a>GetImItemListResponse
 
-**GetImItemListResponse**元素定义对**GetImItemList**请求的响应。 
+**GetImItemListResponse** 元素定义对 **GetImItemList** 请求的响应。 
   
 ```XML
 <GetImItemListResponse>
@@ -46,7 +46,7 @@ ms.locfileid: "44456050"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -58,7 +58,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
-|验证文件  <br/> |消息 .xsd  <br/> |
+|验证文件  <br/> |messages.xsd  <br/> |
 |可以为空  <br/> ||
    
 

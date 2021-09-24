@@ -1,23 +1,23 @@
 ---
-title: 子级（ArrayOfStringArrayAttributedValuesType）
+title: Children (ArrayOfStringArrayAttributedValuesType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d37b3fd5-63f1-4003-a6ec-54adfce23d52
-description: Child 元素为关联的角色指定其源归属的子名称和标识符的数组。
-ms.openlocfilehash: f4217f8a444bfdb6d86ff7b912294cfad9cbdcdc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Children 元素指定子名称数组及其源属性的标识符，这些子元素用于关联人员。
+ms.openlocfilehash: 878f491af3047d313920cd0f3574de2daa8c21f0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460230"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536972"
 ---
-# <a name="children-arrayofstringarrayattributedvaluestype"></a>子级（ArrayOfStringArrayAttributedValuesType）
+# <a name="children-arrayofstringarrayattributedvaluestype"></a>Children (ArrayOfStringArrayAttributedValuesType)
 
-Child**元素为**关联的角色指定其源归属的子名称和标识符的数组。 
+**Children** 元素指定子名称数组及其源属性的标识符，这些子元素用于关联人员。 
   
 ```XML
 <Children>
@@ -38,15 +38,15 @@ Child**元素为**关联的角色指定其源归属的子名称和标识符的�
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[StringArrayAttributedValue](stringarrayattributedvalue.md) <br/> |指定一个 persona 元素的字符串数据数组的实例。  <br/> |
+|[StringArrayAttributedValue](stringarrayattributedvalue.md) <br/> |指定 persona 元素的字符串数据数组的实例。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[角色](persona.md) <br/> |指定由**GetPersona**请求返回的一组角色数据。  <br/> |
+|[角色](persona.md) <br/> |指定由 **GetPersona** 请求返回的一组人员数据。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -58,7 +58,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

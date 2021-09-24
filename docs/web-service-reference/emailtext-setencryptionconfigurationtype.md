@@ -1,23 +1,23 @@
 ---
-title: EmailText （SetEncryptionConfigurationType）
+title: EmailText (SetEncryptionConfigurationType)
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: df981e16-c8b2-416f-90dc-9732065a20bf
-description: EmailText （SetEncryptionConfigurationType）元素仅供内部使用。
-ms.openlocfilehash: 38cf4082a47366a1549df31424cd4cdc189c6ae9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: The EmailText (SetEncryptionConfigurationType) element istended for internal use only.
+ms.openlocfilehash: 05e569c10769033f2a70e1bfb1d7abfe9e9098a2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460181"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517117"
 ---
-# <a name="emailtext-setencryptionconfigurationtype"></a>EmailText （SetEncryptionConfigurationType）
+# <a name="emailtext-setencryptionconfigurationtype"></a>EmailText (SetEncryptionConfigurationType)
 
-**EmailText （SetEncryptionConfigurationType）** 元素仅供内部使用。 
+**The EmailText (SetEncryptionConfigurationType)** element istended for internal use only. 
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
@@ -35,7 +35,7 @@ ms.locfileid: "44460181"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   

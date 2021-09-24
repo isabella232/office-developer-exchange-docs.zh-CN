@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bfd516a4-15f5-4303-b695-820537636b11
-description: RequestedExtensionIds 元素包含扩展标识符的数组。
-ms.openlocfilehash: 8cae575f739803b847ac2d3df471cb9147d5412a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: RequestedExtensionIds 元素包含一个扩展标识符数组。
+ms.openlocfilehash: 398ab39f8d6ce38b30ed0d40a2aef839bf7ad6f1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467660"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523599"
 ---
 # <a name="requestedextensionids"></a>RequestedExtensionIds
 
-**RequestedExtensionIds**元素包含扩展标识符的数组。 
+**RequestedExtensionIds** 元素包含一个扩展标识符数组。 
   
 ```XML
 <RequestedExtensionIds>
@@ -42,7 +42,7 @@ ms.locfileid: "44467660"
 
 [GetClientExtension](getclientextension.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

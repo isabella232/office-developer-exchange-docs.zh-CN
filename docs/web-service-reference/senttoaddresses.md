@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SentToAddresses
 api_type:
 - schema
 ms.assetid: 086130d2-93b1-4de1-9553-10ec10322a0c
 description: SentToAddresses 元素指示传入邮件必须发送到的电子邮件地址，以便条件或例外情况适用。
-ms.openlocfilehash: 9a901a93b666144092bf9cc8ebbf03222ac7bf6b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 2b58b1771266a932c35dfda781d802ca6bb32bac
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457415"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517803"
 ---
 # <a name="senttoaddresses"></a>SentToAddresses
 
-**SentToAddresses**元素指示传入邮件必须发送到的电子邮件地址，以便条件或例外情况适用。 
+**SentToAddresses** 元素指示传入邮件必须发送到的电子邮件地址，以便条件或例外情况适用。 
   
 ```XML
 <SentToAddresses>
@@ -49,13 +49,13 @@ ms.locfileid: "44457415"
 |**元素**|**说明**|
 |:-----|:-----|
 |[条件](conditions.md) <br/> |表示履行时将触发规则的规则操作的条件。  <br/> |
-|[异常](exceptions.md) <br/> |代表收件箱规则的所有可用的规则例外条件。  <br/> |
+|[异常](exceptions.md) <br/> |代表收件箱规则的所有可用规则例外条件。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

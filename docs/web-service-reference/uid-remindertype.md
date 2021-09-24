@@ -1,23 +1,23 @@
 ---
-title: UID （ReminderType）
+title: UID (ReminderType)
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 169e7825-4480-46d2-9f84-cdab27c8bcfb
-description: UID （ReminderType）元素标识与提醒相关联的日历项目。
-ms.openlocfilehash: ab7e59725a87ff21bb2df052b5893abf6217f78a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: UID (ReminderType) 元素标识与提醒关联的日历项目。
+ms.openlocfilehash: e8abb5890bd82a78b019a9d9f66e008095384c1a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530371"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517509"
 ---
-# <a name="uid-remindertype"></a>UID （ReminderType）
+# <a name="uid-remindertype"></a>UID (ReminderType)
 
-**UID （ReminderType）** 元素标识与提醒相关联的日历项目。 
+ReminderType **(UID**) 元素标识与提醒关联的日历项目。 
   
 ```XML
 <UID />
@@ -38,9 +38,9 @@ ms.locfileid: "44530371"
   
 ## <a name="text-value"></a>文本值
 
-**UID （ReminderType）** 元素的文本值标识日历项目。 
+ReminderType 元素中 **UID (文本)** 标识日历项目。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

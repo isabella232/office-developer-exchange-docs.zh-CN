@@ -5,32 +5,32 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DeleteUserConfiguration
 api_type:
 - schema
 ms.assetid: 93e44690-be2d-4fdb-96a8-4ded3c193aed
-description: DeleteUserConfiguration 操作删除文件夹上的用户配置对象。
-ms.openlocfilehash: 064e1ace2c2f51783431ce42670b2a4fd8146b54
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DeleteUserConfiguration 操作删除文件夹中的用户配置对象。
+ms.openlocfilehash: 4332515a91d9207f3ef8f9905edd2b9155042d65
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44451465"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510174"
 ---
 # <a name="deleteuserconfiguration-operation"></a>DeleteUserConfiguration 操作
 
-**DeleteUserConfiguration**操作删除文件夹上的用户配置对象。 
+**DeleteUserConfiguration** 操作删除文件夹中的用户配置对象。 
   
 > [!IMPORTANT]
-> **DeleteUserConfiguration**操作将触发事件通知系统的移动事件。 用户配置对象将被移动到转储程序。 
+> **DeleteUserConfiguration** 操作将触发事件通知系统的移动事件。 用户配置对象将移动到垃圾站。 
   
 ## <a name="deleteuserconfiguration-request-example"></a>DeleteUserConfiguration 请求示例
 
 ### <a name="description"></a>Description
 
-以下示例的**DeleteUserConfiguration**请求显示如何在 "草稿" 文件夹中形成删除用户配置对象的请求。 
+**DeleteUserConfiguration** 请求的以下示例显示如何形成删除"草稿"文件夹上的用户配置对象的请求。 
   
 ### <a name="code"></a>代码
 
@@ -58,7 +58,7 @@ ms.locfileid: "44451465"
 
 ### <a name="description"></a>Description
 
-下面的示例演示对**DeleteUserConfiguration**请求的成功响应。 
+以下示例显示了对 **DeleteUserConfiguration** 请求的成功响应。 
   
 ### <a name="code"></a>代码
 
@@ -92,6 +92,6 @@ ms.locfileid: "44451465"
 
 ## <a name="see-also"></a>另请参阅
 
-- [Exchange 中的 EWS 操作](ews-operations-in-exchange.md) 
+- [EWS 操作在Exchange](ews-operations-in-exchange.md) 
 - [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

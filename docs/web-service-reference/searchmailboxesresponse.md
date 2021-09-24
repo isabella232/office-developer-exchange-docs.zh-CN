@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b4a8914b-3e5e-4766-adf8-6b4f80a65e35
 description: SearchMailboxesResponse 元素包含对 SearchMailboxes WSDL 操作请求的响应。
-ms.openlocfilehash: 5d704c584e75cab967ae3d2dff234059d12b88b8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 1c39dbae0390c2ff1495c0fad2d6f07ece3d22b3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530322"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523424"
 ---
 # <a name="searchmailboxesresponse"></a>SearchMailboxesResponse
 
-**SearchMailboxesResponse**元素包含对**SearchMailboxes** WSDL 操作请求的响应。 
+**SearchMailboxesResponse** 元素包含对 **SearchMailboxes** WSDL 操作请求的响应。 
   
 ```XML
 <SearchMailboxesResponse>
@@ -42,7 +42,7 @@ ms.locfileid: "44530322"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

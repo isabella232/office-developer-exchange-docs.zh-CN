@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f3488d56-a00d-4c41-a348-45aad4af6439
-description: OfficeLocations 元素指定 office 位置的数组以及关联角色的源归属的标识符。
-ms.openlocfilehash: 57493c69288b3d6cfb5e2df311d8d311b87507cd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: OfficeLocations 元素指定一个办公室位置数组，以及相关人员的来源属性的标识符。
+ms.openlocfilehash: baa9013e25177c3d2342669ccedbb78761e37e7b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467058"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509532"
 ---
 # <a name="officelocations"></a>OfficeLocations
 
-**OfficeLocations**元素指定 office 位置的数组以及关联角色的源归属的标识符。 
+**OfficeLocations** 元素指定一个 Office 位置数组，以及相关人员的来源属性的标识符。 
   
 ```XML
 <OfficeLocations>   
@@ -42,7 +42,7 @@ ms.locfileid: "44467058"
 
 [角色](persona.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

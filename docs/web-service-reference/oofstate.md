@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - OofState
 api_type:
 - schema
 ms.assetid: 3c486a38-06da-4382-ad20-664d067d76ac
-description: OofState 元素用于获取或设置用户的外出（OOF）状态。
-ms.openlocfilehash: 6aef7d989ee6978019a483f2673895e68a88a7c5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: OofState 元素用于获取或设置用户的外出 OOF Office (状态) 状态。
+ms.openlocfilehash: 4d0d893e364fc85d36e37400538a336473832efd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459733"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509531"
 ---
 # <a name="oofstate"></a>OofState
 
-**OofState**元素用于获取或设置用户的外出（OOF）状态。 
+**OofState** 元素用于获取或设置用户的外出状态Office (OOF) 状态。 
   
 ```xml
 <OofState>Disabled or Enabled or Scheduled</OofState>
@@ -49,25 +49,25 @@ ms.locfileid: "44459733"
    
 ## <a name="text-value"></a>文本值
 
-**OofState**元素需要 text 值。 以下列表包含此元素的可能值： 
+**OofState** 元素需要文本值。 以下列表包含此元素的可能值： 
   
 - **Disabled**
     
 - **Enabled**
     
-- **Scheduled**
+- **计划**
     
-"**计划**的值" 表示将 OOF 状态设置为 "[持续时间（UserOofSettings）](duration-useroofsettings.md) " 元素所标识的时间段内的 "**已启用**"。 
+Scheduled的值指示 OOF 状态在 Duration ( [UserOofSettings](duration-useroofsettings.md)元素标识的) 设置为 Enabled。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-SetUsersOofSettingRequest 消息和 GetUserOofSettingResponse 消息中都需要此元素。
+SetUsersOofSettingRequest 消息和 GetUserOofSettingResponse 邮件中都需要此元素。
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
 ## <a name="example"></a>示例
 
-下面的 SetUserOofSettings 请求示例启用**OofState**。
+SetUserOofSettings 请求的以下示例启用 **OofState**。
   
 ```
 <?xml version="1.0" encoding="utf-8"?>

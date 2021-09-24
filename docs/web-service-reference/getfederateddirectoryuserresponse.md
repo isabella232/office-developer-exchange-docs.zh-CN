@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: db465f20-96d2-41be-87ee-ee992c30e7a4
 description: GetFederatedDirectoryUserResponse 元素仅供内部使用。
-ms.openlocfilehash: 014154b14b86a81fc69bb5b2483e810c3262c2c3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 48aafc589759a1f0113e7a7e0dbaf4e18f7a11a0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456589"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509887"
 ---
 # <a name="getfederateddirectoryuserresponse"></a>GetFederatedDirectoryUserResponse
 
-**GetFederatedDirectoryUserResponse**元素仅供内部使用。 
+**GetFederatedDirectoryUserResponse** 元素仅供内部使用。 
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
@@ -35,7 +35,7 @@ ms.locfileid: "44456589"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   

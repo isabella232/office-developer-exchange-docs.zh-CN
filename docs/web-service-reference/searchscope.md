@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4a53989e-eca6-45c4-afac-4d6ac19597d2
 description: SearchScope 元素指定搜索的范围。
-ms.openlocfilehash: df11c8db418ac90d1166030aeed3672c0b810052
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: d4caa87cd552a633812b99d7e97f2419b156fb78
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466862"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523396"
 ---
 # <a name="searchscope"></a>SearchScope
 
-**SearchScope**元素指定搜索的范围。 
+**SearchScope** 元素指定搜索的范围。 
   
 ```XML
 <SearchScope> PrimaryOnly | ArchiveOnly | All </SearchScope>
@@ -42,9 +42,9 @@ ms.locfileid: "44466862"
   
 ## <a name="text-value"></a>文本值
 
-**SearchScope**元素的文本值指示要搜索发现搜索的邮箱类型。 **PrimaryOnly**的文本值表示搜索主邮箱。 **ArchiveOnly**的文本值表示已搜索存档邮箱。 Text 值为**All**表示主邮箱和存档邮箱都将被搜索。 
+**SearchScope** 元素的文本值指示搜索发现搜索的邮箱类型。 **PrimaryOnly** 的文本值指示已搜索主邮箱。 **ArchiveOnly 的文本** 值指示已搜索存档邮箱。 文本值 **All** 指示同时搜索主邮箱和存档邮箱。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4958764f-64dd-4ae7-ade1-0255cb414fcc
 description: DirectoryId 元素包含联系人的目录 ID。
-ms.openlocfilehash: bdc75f72cecd6424a3e85588b7af24003bf45d6b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 544cee39a5581bb44556f2879d2a8b99c23c3756
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462092"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510160"
 ---
 # <a name="directoryid"></a>DirectoryId
 
-**DirectoryId**元素包含联系人的目录 ID。 
+**DirectoryId** 元素包含联系人的目录 ID。 
   
 ```XML
 <DirectoryId/>
@@ -44,7 +44,7 @@ ms.locfileid: "44462092"
    
 ## <a name="text-value"></a>文本值
 
-Text 值是一个字符串，表示联系人的目录 ID。
+文本值是一个字符串，表示联系人的目录 ID。
   
 ## <a name="remarks"></a>说明
 

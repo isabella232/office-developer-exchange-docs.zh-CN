@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cfaea527-613c-4bbf-b174-f408147d9768
-description: WorkCitySortKey 元素包含与角色关联的工作城市值的排序关键字。
-ms.openlocfilehash: d5084882f30066cd8046af8fd18269f4af86020d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: WorkCitySortKey 元素包含与某个人物相关联的工作城市值的排序键。
+ms.openlocfilehash: dad387065d484bb0940e7a3f0f4a3516407307fa
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459691"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509299"
 ---
 # <a name="workcitysortkey"></a>WorkCitySortKey
 
-**WorkCitySortKey**元素包含与角色关联的工作城市值的排序关键字。 
+**WorkCitySortKey** 元素包含与某个人物相关联的工作城市值的排序键。 
   
 ```XML
 <WorkCitySortKey></WorkCitySortKey>
@@ -42,9 +42,9 @@ ms.locfileid: "44459691"
   
 ## <a name="text-value"></a>文本值
 
-**WorkCitySortKey**元素的文本值包含一个排序关键字，用于对构成角色的联系人的工作城市属性进行排序。 
+**WorkCitySortKey** 元素的文本值包含一个排序键，用于对构成人物的联系人的工作城市属性进行排序。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

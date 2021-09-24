@@ -1,24 +1,24 @@
 ---
-title: GetFederationInformationResponseMessage （SOAP）
+title: GetFederationInformationResponseMessage (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: b2b409b1-ea3d-41f4-be0b-ff4c780fc23e
-description: GetFederationInformationResponseMessage 元素定义对 GetFederationInformation 操作（SOAP）请求的响应。
-ms.openlocfilehash: c3ec4517515e21dcf45cdee5c27c0f17894f8d0b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetFederationInformationResponseMessage 元素定义对 SOAP) 请求的 GetFeder (ationInformation 操作的响应。
+ms.openlocfilehash: 34c0efb091311d3aaed0b92d67ac9508f8259664
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460034"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523165"
 ---
-# <a name="getfederationinformationresponsemessage-soap"></a>GetFederationInformationResponseMessage （SOAP）
+# <a name="getfederationinformationresponsemessage-soap"></a>GetFederationInformationResponseMessage (SOAP)
 
-**GetFederationInformationResponseMessage**元素定义对[GETFEDERATIONINFORMATION 操作（SOAP）](getfederationinformation-operation-soap.md)请求的响应。 
+**GetFederationInformationResponseMessage 元素** 定义对 SOAP ([GetFederationInformation](getfederationinformation-operation-soap.md)) 的响应。 
   
 ```XML
 <GetFederationInformationResponseMessage>
@@ -39,7 +39,7 @@ ms.locfileid: "44460034"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[响应（GetFederationInformation）（SOAP）](response-getfederationinformationsoap.md) <br/> |包含[GetFederationInformation 操作（SOAP）](getfederationinformation-operation-soap.md)响应信息。  <br/> |
+|[Response (GetFederationInformation) (SOAP)](response-getfederationinformationsoap.md) <br/> |包含 [SOAP 响应 (GetFederationInformation) ](getfederationinformation-operation-soap.md) 操作。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 

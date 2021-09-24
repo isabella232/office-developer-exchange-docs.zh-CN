@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateItem
 api_type:
 - schema
 ms.assetid: 12c5da4d-290c-4a8a-a965-0bf5d55c7978
-description: CreateItem 操作在 Exchange 存储中创建任务项。
-ms.openlocfilehash: 502108843193e7ed8377b0fade9e106ef3d1976c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: CreateItem 操作在任务存储区中Exchange项。
+ms.openlocfilehash: 814a32e82cd5c1c95be252d1b53387741898dd40
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457100"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510253"
 ---
 # <a name="createitem-operation-task"></a>CreateItem 操作（任务）
 
-CreateItem 操作在 Exchange 存储中创建任务项。
+CreateItem 操作在任务存储区中Exchange项。
   
 ## <a name="task-createitem-request"></a>任务 CreateItem 请求
 
 ### <a name="description"></a>Description
 
-下面的 CreateItem 请求示例演示如何在邮箱中创建任务项。
+下面的 CreateItem 请求示例演示如何在邮箱中创建任务项目。
   
 ### <a name="code"></a>代码
 
@@ -55,35 +55,35 @@ CreateItem 操作在 Exchange 存储中创建任务项。
 
 ### <a name="comments"></a>备注
 
-如果运行 Microsoft Exchange Server 2007 且安装了客户端访问服务器角色的计算机收到定期任务的请求，则会更改这些请求。 将发生以下更改：
+当运行 2007 年 Microsoft Exchange Server服务器角色的计算机收到定期任务请求时，会更改这些请求。 将发生以下更改：
   
-- 仅为任务的定期日期范围的开始日期[（定期）](startdate-recurrence.md)属性保存日期。 时间部分将被截断。 
+- 仅保存任务的定期范围的 [StartDate (Recurrence) ](startdate-recurrence.md) 属性的日期。 将截断时间部分。 
     
-- "开始[日期" （定期）](startdate-recurrence.md)属性可能会根据定期模式进行调整。 例如，如果定期模式被指定为每周一次，并且起始日期设置为10月26日2006，即星期四，则开始日期将调整为10月 30 2006 日，即下个星期一。 
+- [StartDate (Recurrence) ](startdate-recurrence.md)属性可能会进行调整，具体取决于定期模式。 例如，如果将 定期模式 指定为每周一，并且 StartDate 设置为 2006 年 10 月 26 日（星期四）则 StartDate 将调整为 2006 年 10 月 30 日（即下一个星期一）。 
     
-- 如果设置了任务的 "开始[日期](startdate.md)" 属性，则会进行更新，以匹配定期范围的开始[日期（定期）](startdate-recurrence.md) 。 此外，还将根据新的[起始日期](startdate.md)更新任务的[DueDate](duedate.md)属性。
+- 如果 [设置任务的 StartDate](startdate.md) 属性，则更新该属性以匹配定期 ([定期) 的 StartDate ](startdate-recurrence.md) 属性。 任务的 [DueDate](duedate.md) 属性也会基于新的 [StartDate 进行更新](startdate.md)。
     
-- 如果未设置[起始日期](startdate.md)，则仅更新[DueDate](duedate.md)属性以匹配定期范围的开始[日期（定期）](startdate-recurrence.md) 。 
+- 如果未 [设置 StartDate，](startdate.md) 则仅更新 [DueDate](duedate.md) 属性以匹配定期范围的 [StartDate ](startdate-recurrence.md) (Recurrence) 。 
     
-下表显示了客户端访问服务器对具有任务的定期任务进行的更改。每个星期一的模式。
+下表显示客户端访问服务器对每周一具有 Task.Recurrence.Pattern 的定期任务所做的更改。
   
-**对定期任务的更改**
+**对定期任务所做的更改**
 
-|**Property**|**原始值**|**更新值**|
+|**Property**|**原始值**|**更新的值**|
 |:-----|:-----|:-----|
-|任务. 起始日期  <br/> |2006年1月1日  <br/> |2006年10月30日  <br/> |
-|DueDate  <br/> |2006年1月3日  <br/> |2006年11月1日  <br/> |
-|定期开始日期范围. 开始日期  <br/> |2006年10月26日  <br/> |2006年10月30日  <br/> |
+|Task.StartDate  <br/> |2006 年 1 月 1 日  <br/> |2006 年 10 月 30 日  <br/> |
+|Task.DueDate  <br/> |2006 年 1 月 3 日  <br/> |2006 年 11 月 1 日  <br/> |
+|Task.Recurrence.Range.StartDate  <br/> |2006 年 10 月 26 日  <br/> |2006 年 10 月 30 日  <br/> |
    
-默认情况下，如果未指定目标文件夹，则会在 "任务" 文件夹中创建任务项目。
+默认情况下，如果未指定目标文件夹，任务项目是在任务文件夹中创建的。
   
-### <a name="request-elements"></a>Request 元素
+### <a name="request-elements"></a>请求元素
 
-请求中使用以下元素：
+请求中会使用下列元素：
   
 - [CreateItem](createitem.md)
     
-- [项目（NonEmptyArrayOfAllItemsType）](items-nonemptyarrayofallitemstype.md)
+- [Items (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)
     
 - [任务](task.md)
     
@@ -91,13 +91,13 @@ CreateItem 操作在 Exchange 存储中创建任务项。
     
 - [DueDate](duedate.md)
     
-- [Status](status.md)
+- [状态](status.md)
     
-## <a name="successful-task-createitem-response"></a>成功的任务 CreateItem 响应
+## <a name="successful-task-createitem-response"></a>成功任务 CreateItem 响应
 
 ### <a name="description"></a>Description
 
-下面的示例演示对 CreateItem 请求的成功响应。
+以下示例显示了对 CreateItem 请求的成功响应。
   
 ### <a name="code"></a>代码
 
@@ -143,7 +143,7 @@ CreateItem 操作在 Exchange 存储中创建任务项。
     
 - [ResponseCode](responsecode.md)
     
-- [项目（NonEmptyArrayOfAllItemsType）](items-nonemptyarrayofallitemstype.md)
+- [Items (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)
     
 - [任务](task.md)
     

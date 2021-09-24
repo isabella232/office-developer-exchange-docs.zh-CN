@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ConflictingMeetingCount
 api_type:
 - schema
 ms.assetid: 11f4d93a-b514-4a27-8d19-f4f0a35a185e
-description: ConflictingMeetingCount 元素表示与日历项目相冲突的会议数。
-ms.openlocfilehash: d53245e1b5d1f0182b28b15bf55ba9742bbb2a07
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ConflictingMeetingCount 元素表示与日历项目冲突的会议数。
+ms.openlocfilehash: e6929160dacdf026ba8551bbcf6f991fbdc0b909
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463858"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536880"
 ---
 # <a name="conflictingmeetingcount"></a>ConflictingMeetingCount
 
-**ConflictingMeetingCount**元素表示与日历项目相冲突的会议数。 
+**ConflictingMeetingCount** 元素表示与日历项目冲突的会议数。 
   
 ```xml
 <ConflictingMeetingCount/>
@@ -51,9 +51,9 @@ ms.locfileid: "44463858"
 
 文本值表示一个整数。 此属性是只读的。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-如果日历项目至少发生在同一日历文件夹中的其他日历项目，则被视为冲突。 如果日历项目位于 noncalendar 文件夹中，则会与默认 "日历" 文件夹中的 "日历" 项目进行比较。 会议请求将与默认 "日历" 文件夹中的日历项目进行比较。
+如果日历项目与同一日历文件夹中的另一个日历项目同时出现（至少部分发生），则认为它存在冲突。 如果日历项目位于非日历文件夹中，则它将与默认日历文件夹中的日历项目进行比较。 会议请求与默认日历文件夹中的日历项目进行比较。
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

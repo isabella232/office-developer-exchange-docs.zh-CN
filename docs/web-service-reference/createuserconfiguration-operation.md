@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateUserConfiguration
 api_type:
 - schema
 ms.assetid: eb5b8ab6-9743-481c-aac9-f9aa889bd353
-description: CreateUserConfiguration 操作将在文件夹上创建一个用户配置对象。
-ms.openlocfilehash: 0c9233146d21c7014be15896426b968106485200
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: CreateUserConfiguration 操作在文件夹上创建用户配置对象。
+ms.openlocfilehash: 7b18bf732126ab7296cdc9afd598470102e17c60
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463781"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536269"
 ---
 # <a name="createuserconfiguration-operation"></a>CreateUserConfiguration 操作
 
-**CreateUserConfiguration**操作将在文件夹上创建一个用户配置对象。 
+**CreateUserConfiguration** 操作在文件夹上创建用户配置对象。 
   
 ## <a name="createuserconfiguration-request-example"></a>CreateUserConfiguration 请求示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-以下示例的**CreateUserConfiguration**请求显示如何在 "草稿" 文件夹中形成创建用户配置对象的请求。 
+**CreateUserConfiguration** 请求的以下示例显示如何形成在"草稿"文件夹上创建用户配置对象的请求。 
   
 ### <a name="code"></a>代码
 
@@ -69,9 +69,9 @@ ms.locfileid: "44463781"
 
 ## <a name="createuserconfiguration-response-example"></a>CreateUserConfiguration 响应示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-下面的示例演示对**CreateUserConfiguration**请求的成功响应。 
+以下示例显示了对 **CreateUserConfiguration** 请求的成功响应。 
   
 ### <a name="code"></a>代码
 
@@ -107,7 +107,7 @@ ms.locfileid: "44463781"
 
 
 
-[Exchange 中的 EWS 操作](ews-operations-in-exchange.md)
+[EWS 操作在Exchange](ews-operations-in-exchange.md)
   
 - [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: ITPro
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: de9a7e43-518e-49aa-9826-f54bab4279a3
-description: SharePointSiteURL 元素包含与网站邮箱链接的 SharePoint 网站的统一资源定位器（URL）。
-ms.openlocfilehash: 461ca904e9a050d20b9e067cb40875939608c101
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SharePointSiteURL 元素包含与网站邮箱 (的网站) 统一SharePoint URL URL。
+ms.openlocfilehash: c36dacadddf2706437a8a51dd2e115529210d542
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467303"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517678"
 ---
 # <a name="sharepointsiteurl"></a>SharePointSiteUrl
 
-**SharePointSiteURL**元素包含与网站邮箱链接的 SharePoint 网站的统一资源定位器（URL）。 
+**SharePointSiteURL** 元素包含网站邮箱 (统一) URL SharePoint网站的统一资源定位器 URL。 
   
 ```XML
 <SharePointSiteURL></SharePointSiteURL>
@@ -43,9 +43,9 @@ ms.locfileid: "44467303"
   
 ## <a name="text-value"></a>文本值
 
-**SharePointSiteURL**元素的文本值是与网站邮箱链接的 SharePoint 网站的 URL。 
+**SharePointSiteURL** 元素的文本值是网站SharePoint的网站的 URL。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ReminderDueBy
 api_type:
 - schema
 ms.assetid: e28a0485-86af-4a4e-a2ba-3ad2d4ebff6f
-description: ReminderDueBy 元素表示事件发生的日期和时间。 ReminderMinutesBeforeStart 元素使用此元素来确定何时显示提醒。
-ms.openlocfilehash: 206534da4498e871e99635b236e500dec573eb5a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ReminderDueBy 元素表示事件发生的日期和时间。 ReminderMinutesBeforeStart 元素使用此功能来确定何时显示提醒。
+ms.openlocfilehash: a94fd9507428fb588eff1b3610a572c858aa0de7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44528725"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523614"
 ---
 # <a name="reminderdueby"></a>ReminderDueBy
 
-**ReminderDueBy**元素表示事件发生的日期和时间。 [ReminderMinutesBeforeStart](reminderminutesbeforestart.md)元素使用此元素来确定何时显示提醒。 
+**ReminderDueBy** 元素表示事件发生的日期和时间。 [ReminderMinutesBeforeStart](reminderminutesbeforestart.md)元素使用此功能来确定何时显示提醒。 
   
 ```xml
 <ReminderDueBy/>

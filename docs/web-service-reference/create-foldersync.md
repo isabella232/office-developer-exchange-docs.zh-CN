@@ -1,27 +1,27 @@
 ---
-title: 创建 (FolderSync)
+title: Create (FolderSync)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Create
 api_type:
 - schema
 ms.assetid: 6b463d0a-70e9-40c5-ade4-c7d9a5f36bc1
-description: Create 元素标识要在本地客户端存储中创建的单个文件夹。
-ms.openlocfilehash: 43f6a6b3c084c8ecae767c512181bbdf50c7e786
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Create 元素标识要在本地客户端存储创建的单个文件夹。
+ms.openlocfilehash: 941fb580e3f10270cf213a7d9b78e4ef5b199d7c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458374"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536546"
 ---
-# <a name="create-foldersync"></a>创建 (FolderSync)
+# <a name="create-foldersync"></a>Create (FolderSync)
 
-**Create**元素标识要在本地客户端存储中创建的单个文件夹。 
+**Create** 元素标识要在本地客户端存储创建的单个文件夹。 
   
 [SyncFolderHierarchyResponse](syncfolderhierarchyresponse.md)
   
@@ -29,7 +29,7 @@ ms.locfileid: "44458374"
   
 [SyncFolderHierarchyResponseMessage](syncfolderhierarchyresponsemessage.md)
   
-[更改（层次结构）](changes-hierarchy.md)
+[Changes (Hierarchy)](changes-hierarchy.md)
   
 [创建 (FolderSync)](create-foldersync.md)
   
@@ -57,16 +57,16 @@ ms.locfileid: "44458374"
 |**元素**|**说明**|
 |:-----|:-----|
 |[Folder](folder.md) <br/> |定义要创建、获取、查找、同步或更新的文件夹。  <br/> |
-|[CalendarFolder](calendarfolder.md) <br/> |代表主要包含日历项目的文件夹。  <br/> |
+|[CalendarFolder](calendarfolder.md) <br/> |表示一个主要包含日历项目的文件夹。  <br/> |
 |[ContactsFolder](contactsfolder.md) <br/> |表示邮箱中的联系人文件夹。  <br/> |
-|[SearchFolder](searchfolder.md) <br/> |表示邮箱中包含的搜索文件夹。  <br/> |
-|[TasksFolder](tasksfolder.md) <br/> |表示邮箱中包含的任务文件夹。  <br/> |
+|[SearchFolder](searchfolder.md) <br/> |表示包含在邮箱中的搜索文件夹。  <br/> |
+|[TasksFolder](tasksfolder.md) <br/> |表示包含在邮箱中的任务文件夹。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[更改（层次结构）](changes-hierarchy.md) <br/> |包含更改类型的序列数组，这些类型表示客户端上的项与 Exchange 服务器上的项之间的差异类型。  <br/> |
+|[Changes (Hierarchy)](changes-hierarchy.md) <br/> |包含一个变更类型的序列数组，这些更改类型表示客户端上的项目与客户端服务器上项目Exchange的类型。  <br/> |
    
 ## <a name="remarks"></a>说明
 

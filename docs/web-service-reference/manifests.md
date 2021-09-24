@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 650d9fc0-1504-4db4-95d6-d3ba86df66ca
-description: 清单元素包含为电子邮件帐户安装的 base64 编码的应用程序清单的集合。
-ms.openlocfilehash: 91239e2337f7a1886d8947f558a86110755a93df
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Manifests 元素包含为电子邮件帐户安装的 base64 编码的应用清单的集合。
+ms.openlocfilehash: e29a892fa69f33e9b7bb81f8abc9cc13b4649c51
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44450814"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522668"
 ---
 # <a name="manifests"></a>清单
 
-**清单**元素包含为电子邮件帐户安装的 base64 编码的应用程序清单的集合。 
+**Manifests** 元素包含为电子邮件帐户安装的 base64 编码的应用清单的集合。 
   
 ```XML
 <Manifests>
@@ -42,7 +42,7 @@ ms.locfileid: "44450814"
 
 [GetAppManifestsResponse](getappmanifestsresponse.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -54,7 +54,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
-|验证文件  <br/> |消息 .xsd  <br/> |
+|验证文件  <br/> |messages.xsd  <br/> |
 |可以为空  <br/> ||
    
 

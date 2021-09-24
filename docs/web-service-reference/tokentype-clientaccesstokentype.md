@@ -1,23 +1,23 @@
 ---
-title: TokenType （ClientAccessTokenType）
+title: TokenType (ClientAccessTokenType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 96103f15-a3e0-497c-af21-90adbf9a4b14
 description: TokenType 元素标识将在 GetClientAccessToken 响应中返回的客户端访问令牌的类型。
-ms.openlocfilehash: 49ba2973967b12396e0c7f56129c89c40ccbcf97
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 967d64796799147876ef6443b40b16154b55c01a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466050"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523354"
 ---
-# <a name="tokentype-clientaccesstokentype"></a>TokenType （ClientAccessTokenType）
+# <a name="tokentype-clientaccesstokentype"></a>TokenType (ClientAccessTokenType)
 
-**TokenType**元素标识将在**GetClientAccessToken**响应中返回的客户端访问令牌的类型。 
+**TokenType** 元素标识将在 **GetClientAccessToken** 响应中返回的客户端访问令牌的类型。 
   
 ```XML
 <TokenType>CallerIdentity | ExtensionCallback | ScopedToken</TokenType>
@@ -38,13 +38,13 @@ ms.locfileid: "44466050"
   
 ### <a name="parent-elements"></a>父元素
 
-[TokenRequest](tokenrequest.md)  | [令牌（ClientAccessTokenType）](token-clientaccesstokentype.md)
+[TokenRequest](tokenrequest.md)  | [ClientAccessTokenType (令牌](token-clientaccesstokentype.md)) 
   
 ## <a name="text-value"></a>文本值
 
-**CallerIdentity**的文本值表示返回调用方标识客户端访问令牌。 **ExtensionCallback**的文本值表示返回一个扩展回调客户端访问令牌。 **ScopedToken**的文本值指示客户端访问令牌是作用域内的令牌。 
+CallerIdentity **的文本值** 表示返回调用方标识客户端访问令牌。 **ExtensionCallback 的文本值** 指示返回了扩展回调客户端访问令牌。 **ScopedToken** 的文本值指示客户端访问令牌是作用域内令牌。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

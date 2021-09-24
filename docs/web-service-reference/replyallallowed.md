@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d22f68cf-b18b-45d0-a9ff-414b7db0e67e
-description: ReplyAllAllowed 元素指定是否允许对权限托管数据进行全部答复。
-ms.openlocfilehash: 56dfe7670ed87581999bfe0a340bcc72c99d04ea
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ReplyAllAllowed 元素指定是否允许权限管理数据全部答复。
+ms.openlocfilehash: 56b383e4273ca78ee291eeb658d69873109593f3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467912"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523592"
 ---
 # <a name="replyallallowed"></a>ReplyAllAllowed
 
-**ReplyAllAllowed**元素指定是否允许对权限托管数据进行全部答复。 
+**ReplyAllAllowed** 元素指定是否允许权限管理数据全部答复。 
   
 ```XML
 <ReplyAllAllowed> true | false </ReplyAllAllowed>
@@ -42,9 +42,9 @@ ms.locfileid: "44467912"
   
 ## <a name="text-value"></a>文本值
 
-如果**ReplyAllAllowed**元素的文本值为**true** ，则表示允许权限托管数据的全部答复。 **如果值为 false** ，则表示不允许全部答复。 
+**ReplyAllAllowed** 元素的文本值为 **true** 表示权限管理数据允许全部答复。 false **值表示** 不允许全部答复。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

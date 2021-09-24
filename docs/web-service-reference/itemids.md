@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ItemIds
 api_type:
 - schema
 ms.assetid: 6b82122b-5544-4adf-91b7-ef2db7d5046f
-description: ItemIds 元素包含项目、具体值项目和定期主项目的唯一标识，这些标识用于删除、发送、获取、移动或复制 Exchange 存储中的项目。
-ms.openlocfilehash: bbd594ce2610bd625b0e16a0383fda552ee9eb19
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ItemIds 元素包含项目、发生项和用于删除、发送、获取、移动或复制项目（用于删除、发送、获取、移动或复制项目）Exchange标识。
+ms.openlocfilehash: 7341b8214b4d61564bd87707a9d8c76fbca07628
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460601"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522885"
 ---
 # <a name="itemids"></a>ItemIds
   
-**ItemIds**元素包含项目、具体值项目和定期主项目的唯一标识，这些标识用于删除、发送、获取、移动或复制 Exchange 存储中的项目。
+**ItemIds** 元素包含项目、发生项和用于删除、发送、获取、移动或复制项目（用于删除、发送、获取、移动或复制项目）Exchange标识。
   
 ```xml
 <ItemIds>
@@ -45,20 +45,20 @@ ms.locfileid: "44460601"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ItemId](itemid.md) <br/> |包含 Exchange 存储中某项的唯一标识符和更改键。  <br/> |
-|[OccurrenceItemId](occurrenceitemid.md) <br/> |标识定期项目的单个事件。  <br/> |
-|[RecurringMasterItemId](recurringmasteritemid.md) <br/> |通过标识一个 "定期" 主项目的 "标识符" 标识该项目。  <br/> |
+|[ItemId](itemid.md) <br/> |包含项目存储中项的唯一标识符Exchange项。  <br/> |
+|[OccurrenceItemId](occurrenceitemid.md) <br/> |标识定期项目的单个匹配项。  <br/> |
+|[RecurringMasterItemId](recurringmasteritemid.md) <br/> |通过标识其相关事件项的标识符之一来标识定期主项。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
 |[对话 (ConversationType)](conversation-conversationtype.md) <br/> |表示单个对话。  <br/> |
-|[DeleteItem](deleteitem.md) <br/> |定义在 Exchange 存储中删除项目的请求。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/DeleteItem` <br/> |
-|[SendItem](senditem.md) <br/> |定义在 Exchange 存储中发送邮件的请求的根元素。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/SendItem` <br/> |
-|[GetItem](getitem.md) <br/> |定义从 Exchange 存储中获取项目的请求。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/GetItem` <br/> |
-|[MoveItem](moveitem.md) <br/> |定义在 Exchange 存储中移动项目的请求。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/MoveItem` <br/> |
-|[CopyItem](copyitem.md) <br/> |定义在 Exchange 存储中复制项目的请求。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/CopyItem` <br/> |
+|[DeleteItem](deleteitem.md) <br/> |定义一个删除邮件存储中Exchange的请求。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/DeleteItem` <br/> |
+|[SendItem](senditem.md) <br/> |定义发送项目请求的根元素Exchange存储区。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/SendItem` <br/> |
+|[GetItem](getitem.md) <br/> |定义从应用商店获取Exchange请求。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/GetItem` <br/> |
+|[MoveItem](moveitem.md) <br/> |定义一个请求，以移动项目Exchange存储区。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/MoveItem` <br/> |
+|[CopyItem](copyitem.md) <br/> |定义一个请求，以复制Exchange项。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/CopyItem` <br/> |
    
 ## <a name="remarks"></a>说明
 

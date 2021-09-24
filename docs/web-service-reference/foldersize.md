@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FolderSize
 api_type:
 - schema
 ms.assetid: 27e5f0cd-e23a-4ddd-943a-9f17bf0fd87b
-description: FolderSize 元素描述托管文件夹中所有内容的总大小。
-ms.openlocfilehash: 8ed493cfb0c2cabd02d28354c115a73662992473
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: FolderSize 元素描述托管文件夹所有内容的总大小。
+ms.openlocfilehash: 0e877e035e8bc4f1b81f0d939fac21d178ea805c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461336"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509985"
 ---
 # <a name="foldersize"></a>FolderSize
 
-**FolderSize**元素描述托管文件夹中所有内容的总大小。 
+**FolderSize** 元素描述托管文件夹所有内容的总大小。 
   
 ```xml
 <FolderSize/>
@@ -48,7 +48,7 @@ ms.locfileid: "44461336"
    
 ## <a name="text-value"></a>文本值
 
-该文本值表示文件夹的总大小（以 mb 为单位）。
+文本值表示文件夹的总大小（以 MB 为单位）。
   
 ## <a name="remarks"></a>说明
 

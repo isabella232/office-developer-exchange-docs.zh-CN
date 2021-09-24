@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 48d831cf-10d8-480b-86d2-f9c0b14b8167
-description: RecurringMasterItemId （ItemIdType）元素通过标识一个定期主项目的相关发生项的标识符来标识该项目。
-ms.openlocfilehash: c725998ad3a728ef1f47ff6491592b461753b895
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: RecurringMasterItemId (ItemIdType) 元素通过标识定期主项目的相关项目之一的标识符来标识定期主项目。
+ms.openlocfilehash: 491bb6686ad6cc9ee8169144b659d828e3920e45
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468437"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522738"
 ---
 # <a name="recurringmasteritemid-itemidtype"></a>RecurringMasterItemId (ItemIdType)
 
-**RecurringMasterItemId （ItemIdType）** 元素通过标识一个定期主项目的相关发生项的标识符来标识该项目。 
+**RecurringMasterItemId (ItemIdType**) 元素通过标识其某个相关项的标识符来标识定期主项目。 
   
 ```XML
 <RecurringMasterItemId Id="" ChangeKey=""/>
@@ -34,8 +34,8 @@ ms.locfileid: "44468437"
 
 |**属性**|**说明**|
 |:-----|:-----|
-|Id  <br/> |标识定期主项目的单个事件。 此特性是必需的。  <br/> |
-|ChangeKey  <br/> |标识定期主项目的单个事件的特定版本。 此外，还会标识定期主项目，因为它和单个事件将包含相同的更改密钥。 此特性是可选的。  <br/> |
+|Id  <br/> |标识定期主项目的单个匹配项。 此特性是必需的。  <br/> |
+|ChangeKey  <br/> |标识定期主项目的单个匹配项的特定版本。 此外，还标识了定期主项目，因为它和单个项目将包含相同的更改键。 此特性是可选的。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 

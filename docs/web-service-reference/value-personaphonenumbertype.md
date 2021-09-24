@@ -1,23 +1,23 @@
 ---
-title: Value （PersonaPhoneNumberType）
+title: Value (PersonaPhoneNumberType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 963eff79-5aa0-4b9f-8eff-80f9fb7ad654
-description: Value 元素指定电话号码和类型信息，并与一组归属相关联。
-ms.openlocfilehash: 8d9024e8155d54dd68bca98ed165480475ebc229
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Value 元素指定电话号码和类型信息，并且与一组属性相关联。
+ms.openlocfilehash: 651a60c7cf9cd172d84ba2b9accd14f677f21541
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465245"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510629"
 ---
-# <a name="value-personaphonenumbertype"></a>Value （PersonaPhoneNumberType）
+# <a name="value-personaphonenumbertype"></a>Value (PersonaPhoneNumberType)
 
-**Value**元素指定电话号码和类型信息，并与一组归属相关联。 
+**Value** 元素指定电话号码和类型信息，并且与一组属性相关联。 
   
 ```XML
 <Value>
@@ -38,13 +38,13 @@ ms.locfileid: "44465245"
   
 ### <a name="child-elements"></a>子元素
 
-[号码](number.md)  | [类型（字符串）](type-string.md)
+[Number](number.md)  | [键入 (字符串) ](type-string.md)
   
 ### <a name="parent-elements"></a>父元素
 
 [PhoneNumberAttributedValue](phonenumberattributedvalue.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3365e58c-adb3-4d92-92cc-acc95ce36cca
 description: SetClientExtensionResponseMessage 元素指定 SetClientExtension 请求的响应消息。
-ms.openlocfilehash: 3743d2f1643bece044ff7b7c8ccac95bbd7401ea
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 0d0dbb0ba92760f36a0aeffe0089f82651bfb122
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468717"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517705"
 ---
 # <a name="setclientextensionresponsemessage"></a>SetClientExtensionResponseMessage
 
-**SetClientExtensionResponseMessage**元素指定**SetClientExtension**请求的响应消息。 
+**SetClientExtensionResponseMessage** 元素指定 **SetClientExtension** 请求的响应消息。 
   
 ```XML
 <SetClientExtensionResponseMessage>
@@ -45,7 +45,7 @@ ms.locfileid: "44468717"
 
 [ResponseMessages](responsemessages.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

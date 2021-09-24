@@ -1,27 +1,27 @@
 ---
-title: RoutingType （EmailAddressType）
+title: RoutingType (EmailAddressType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - RoutingType
 api_type:
 - schema
 ms.assetid: 683216be-9972-4f48-a148-c34bfe7f53e5
 description: RoutingType 元素定义邮箱的地址类型。
-ms.openlocfilehash: d4229f2857a5c99cc9bb7ff9b9b103de099a0055
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: fdbe40bd74debe517739e0fe0c47ed108bd614c6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465084"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509363"
 ---
-# <a name="routingtype-emailaddresstype"></a>RoutingType （EmailAddressType）
+# <a name="routingtype-emailaddresstype"></a>RoutingType (EmailAddressType)
 
-**RoutingType**元素定义邮箱的地址类型。 
+**RoutingType** 元素定义邮箱的地址类型。 
   
 ```XML
 <RoutingType/>
@@ -44,17 +44,17 @@ ms.locfileid: "44465084"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ActingAs](actingas.md) <br/> |标识呼叫者发送的人。  <br/> |
+|[ActingAs](actingas.md) <br/> |标识呼叫者发送身份。  <br/> |
 |[邮箱](mailbox.md) <br/> |标识完全解析的电子邮件地址。  <br/> |
 |[RoomList](roomlist.md) <br/> |标识会议室列表。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-该文本值表示路由类型。 SMTP 是此元素的典型文本值。
+文本值表示传送类型。 SMTP 是此元素的典型文本值。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-此元素在[邮箱](mailbox.md)元素中是可选的。 另一个[RoutingType （EmailAddress）](routingtype-emailaddress.md)元素用于可用性操作。 
+此元素在 [Mailbox](mailbox.md) 元素中是可选的。 另 [一个 RoutingType (EmailAddress) ](routingtype-emailaddress.md) 元素用于 Availability 操作。 
   
 描述此元素的架构位于正在运行 Microsoft Exchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

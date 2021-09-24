@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0073d195-75fd-4c89-97e0-2ad6d91f99f9
-description: ClientExtensions 元素包含有关应用程序的用户和配置信息的数组。
-ms.openlocfilehash: 016b4c910f3c21a20d72b926a1c568925aa9d37e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ClientExtensions 元素包含一组有关应用的用户和配置信息。
+ms.openlocfilehash: f9cd68ebdd0a376d57fe1e413ec094f8304c2cd3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461455"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536887"
 ---
 # <a name="clientextensions"></a>ClientExtensions
 
-**ClientExtensions**元素包含有关应用程序的用户和配置信息的数组。 
+**ClientExtensions** 元素包含一组有关应用的用户和配置信息。 
   
 ```XML
 <ClientExtensions>
@@ -38,15 +38,15 @@ ms.locfileid: "44461455"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ClientExtension](clientextension.md) <br/> |包含有关应用程序的用户和配置信息。  <br/> |
+|[ClientExtension](clientextension.md) <br/> |包含有关应用的用户和配置信息。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GetClientExtensionResponse](getclientextensionresponse.md) <br/> |表示获取有关应用程序的配置信息的响应。  <br/> |
+|[GetClientExtensionResponse](getclientextensionresponse.md) <br/> |表示获取应用配置信息的响应。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

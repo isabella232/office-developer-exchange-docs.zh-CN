@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsFolderContact
 api_type:
 - schema
 ms.assetid: 8b456255-f4ae-4ca0-845a-13c195f1c867
-description: IsFolderContact 元素指示用户是否为文件夹的联系人。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
-ms.openlocfilehash: b7830a94237b721d02409e2d93b27c2c5ef015e7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: IsFolderContact 元素指示用户是否是文件夹的联系人。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
+ms.openlocfilehash: 21f5f55a07b6f5acc6310398a7578154b3428265
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455280"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522969"
 ---
 # <a name="isfoldercontact"></a>IsFolderContact
 
-**IsFolderContact**元素指示用户是否为文件夹的联系人。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
+**IsFolderContact** 元素指示用户是否是文件夹的联系人。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
   
 ```xml
 <IsFolderContact/>
@@ -49,7 +49,7 @@ ms.locfileid: "44455280"
    
 ## <a name="text-value"></a>文本值
 
-如果文本值为**true** ，则表示用户是指定文件夹的联系人。 **如果值为 false** ，则表示用户不是指定文件夹的联系人。 
+文本值为 **true** 表示用户是指定文件夹的联系人。 false **值表示** 用户不是指定文件夹的联系人。 
   
 ## <a name="remarks"></a>说明
 

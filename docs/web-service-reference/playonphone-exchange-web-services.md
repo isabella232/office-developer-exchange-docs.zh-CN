@@ -1,27 +1,27 @@
 ---
-title: PlayOnPhone （Exchange Web 服务）
+title: 'PlayOnPhone (Exchange Web 服务) '
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PlayOnPhone
 api_type:
 - schema
 ms.assetid: 486612be-470c-4f99-929a-f2b283e055c1
-description: PlayOnPhone 元素表示在电话上读取项目的请求。
-ms.openlocfilehash: e2c09a67255106ad9afddb86fa19b7a4a5762ee5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: PlayOnPhone 元素表示在手机上读取项的请求。
+ms.openlocfilehash: b25e04920c3b4241ec73a9c9f2067ebca84e4058
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466246"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516556"
 ---
-# <a name="playonphone-exchange-web-services"></a>PlayOnPhone （Exchange Web 服务）
+# <a name="playonphone-exchange-web-services"></a>PlayOnPhone (Exchange Web 服务) 
 
-**PlayOnPhone**元素表示在电话上读取项目的请求。 
+**PlayOnPhone** 元素表示在手机上读取项的请求。 
   
 ```xml
 <PlayOnPhone>   <ItemId/>   <DialString/></PlayOnPhone>
@@ -40,16 +40,16 @@ ms.locfileid: "44466246"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ItemId](itemid.md) <br/> |表示要在电话上播放的项的标识符。 此元素是必需的。  <br/> |
-|[DialString （Exchange Web 服务）](dialstring-exchange-web-services.md) <br/> |表示呼叫通过电话播放某个项目的电话号码的拨号字符串。 此元素是必需的。  <br/> |
+|[ItemId](itemid.md) <br/> |表示在手机上播放的项的标识符。 此元素是必需的。  <br/> |
+|[DialString (Exchange Web 服务) ](dialstring-exchange-web-services.md) <br/> |表示通过电话播放项目而调用的电话号码的拨号字符串。 此元素是必需的。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-描述此元素的架构位于运行 Microsoft Exchange Server 2010 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
+描述此元素的架构位于运行安装了客户端访问服务器角色的 Microsoft Exchange Server 2010 的计算机的 EWS 虚拟目录中。
   
 ## <a name="element-information"></a>元素信息
 

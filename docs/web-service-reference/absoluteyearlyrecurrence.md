@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AbsoluteYearlyRecurrence
 api_type:
 - schema
 ms.assetid: 96f53e2c-3893-4f6e-a78a-ac179f45c5db
-description: AbsoluteYearlyRecurrence 元素表示每年定期模式。
-ms.openlocfilehash: 19b617dfd5c0a3d206d62439c880da084fd5f5f0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: AbsoluteYearlyRecurrence 元素表示每年一定期模式。
+ms.openlocfilehash: b7aedae92900fcac724b3047470568036a40c49e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460412"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510391"
 ---
 # <a name="absoluteyearlyrecurrence"></a>AbsoluteYearlyRecurrence
 
-**AbsoluteYearlyRecurrence**元素表示每年定期模式。 
+**AbsoluteYearlyRecurrence** 元素表示每年一定期模式。 
   
 ```xml
 <AbsoluteYearlyRecurrence>
@@ -43,15 +43,15 @@ ms.locfileid: "44460412"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[DayOfMonth](dayofmonth.md) <br/> |描述定期项目发生在一个月中的哪一天。 此属性的值的范围是1到31。 如果特定月份的值大于该月的天数，则此属性假定为该月的最后一天。  <br/> |
-|[月（项目定期）](month-item-recurrence.md) <br/> |描述每年定期项目发生的月份。  <br/> |
+|[DayOfMonth](dayofmonth.md) <br/> |描述发生定期项目的月份中的哪一天。 此属性的值的范围为 1 到 31。 如果对于某个特定月份，此值大于月份中的天数，则假定此属性为月的最后一天。  <br/> |
+|[Month (Item Recurrence)](month-item-recurrence.md) <br/> |描述发生年度定期项目的月份。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[重复周期（TaskRecurrenceType）](recurrence-taskrecurrencetype.md) <br/> |包含定期任务的定期信息。  <br/> |
-|[重复周期（RecurrenceType）](recurrence-recurrencetype.md) <br/> |包含日历项目和会议请求的定期模式。  <br/> |
+|[Recurrence (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |包含定期任务的定期信息。  <br/> |
+|[Recurrence (RecurrenceType)](recurrence-recurrencetype.md) <br/> |包含定期模式项和会议请求的联系人。  <br/> |
    
 ## <a name="remarks"></a>说明
 

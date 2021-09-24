@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7d5425ab-1e75-43d1-b801-802ff5139df6
-description: MovedItemId 元素指定 MarkAsJunk 操作移动的项的标识符。
-ms.openlocfilehash: 5cf8800ec672278691348bbcd8c6c8cc7a12905b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: MovedItemId 元素指定 MarkAsJunk 操作移动的项目的标识符。
+ms.openlocfilehash: 0775aaed119242fc2a2057fb20807d5be30692e5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468612"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509593"
 ---
 # <a name="moveditemid"></a>MovedItemId
 
-**MovedItemId**元素指定**MarkAsJunk**操作移动的项的标识符。 
+**MovedItemId** 元素指定 **MarkAsJunk** 操作移动的项目的标识符。 
   
 ```XML
 <MovedItemId Id="" ChangeKey=""/>
@@ -32,8 +32,8 @@ ms.locfileid: "44468612"
 
 |**属性**|**说明**|
 |:-----|:-----|
-|Id  <br/> |**Id**属性的值是由**MarkAsJunk**操作移动的项的项标识符。 移动后项目标识符将保持不变。  <br/> |
-|ChangeKey  <br/> |**ChangeKey**属性的值是已移动项的更改键。 在**MarkAsJunk**操作移动项目之后更改密钥更改。  <br/> |
+|Id  <br/> |**Id** 属性的值是由 **MarkAsJunk** 操作移动的项目的项目标识符。 项目标识符在移动后保持不变。  <br/> |
+|ChangeKey  <br/> |**ChangeKey** 属性的值为已移动项目的更改键。 更改键在 **MarkAsJunk** 操作移动项目后更改。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -43,7 +43,7 @@ ms.locfileid: "44468612"
 
 [MarkAsJunkResponseMessage](markasjunkresponsemessage.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -55,7 +55,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
-|验证文件  <br/> |消息 .xsd  <br/> |
+|验证文件  <br/> |messages.xsd  <br/> |
 |可以为空  <br/> ||
    
 

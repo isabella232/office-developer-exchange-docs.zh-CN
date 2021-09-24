@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 287d7fcb-b871-454c-a436-c8e3c95f413a
 description: UpdateMailboxAssociation元素旨在仅供内部使用。
-ms.openlocfilehash: 4aeb5220785c7b750b2798737e0cd6fb9bb2a173
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 7c8710f89ce29ddc737b332ddea0a7f090c3cf45
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457912"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517481"
 ---
 # <a name="updatemailboxassociation"></a>UpdateMailboxAssociation
 
-本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **UpdateMailboxAssociation**元素旨在仅供内部使用。 
+本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **UpdateMailboxAssociation** 元素旨在仅供内部使用。 
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
@@ -35,7 +35,7 @@ ms.locfileid: "44457912"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   

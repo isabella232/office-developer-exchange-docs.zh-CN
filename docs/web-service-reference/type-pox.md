@@ -1,34 +1,34 @@
 ---
-title: 类型（POX）
+title: Type (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 9a627244-554f-4223-b9d8-a601b81a4a1a
-description: Type 元素标识配置的邮件帐户的类型。
-ms.openlocfilehash: ad3570094ebe28498dfdc375cf7fc255434ba20d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Type 元素标识已配置的邮件帐户的类型。
+ms.openlocfilehash: bb92913071509fec46736341bce56b1a00730f6b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465098"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517523"
 ---
-# <a name="type-pox"></a>类型（POX）
+# <a name="type-pox"></a>Type (POX)
 
-**Type**元素标识配置的邮件帐户的类型。 
+**Type** 元素标识已配置的邮件帐户的类型。 
   
-[自动发现（POX）](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[响应（POX）](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[帐户（POX）](account-pox.md)
+[Account (POX)](account-pox.md)
   
-[协议（POX）](protocol-pox.md)
+[Protocol (POX)](protocol-pox.md)
   
-[类型（POX）](type-pox.md)
+[Type (POX)](type-pox.md)
   
 ```XML
 <Type>WEB or EXCH or EXPR or EXHTTP</Type>
@@ -48,28 +48,28 @@ ms.locfileid: "44465098"
   
 ### <a name="parent-elements"></a>父元素
 
-|**元素**|**描述**|
+|**元素**|**说明**|
 |:-----|:-----|
-|[协议（POX）](protocol-pox.md) <br/> |包含用于将客户端连接到 Exchange 服务器的规范。  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |包含用于将客户端连接到 Exchange 服务器的规范。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-该文本值表示邮件帐户的类型。 下表列出了可能的值。
+文本值表示邮件帐户的类型。 下表列出了可能的值。
   
 |**值**|**说明**|
 |:-----|:-----|
-|EXCH  <br/> |用于连接到服务器的协议为 Exchange RPC。  <br/> |
+|EXCH  <br/> |用于连接到服务器的协议由 RPC Exchange。  <br/> |
 |EXHTTP  <br/> |用于连接到服务器 RPC/HTTP 连接的协议。  <br/> |
-|表达式  <br/> |用于连接到服务器的协议是 Exchange RPC over HTTP （使用 RPC 代理服务器）。  <br/> 仅当[AccountType （POX）](accounttype-pox.md)元素设置为 "电子邮件" 时，此设置才适用。  <br/> |
-|网络  <br/> |通过使用在[服务器（POX）](server-pox.md)元素中指定的 URL，可以从 Web 浏览器访问电子邮件。  <br/> 仅当[AccountType （POX）](accounttype-pox.md)元素设置为 "电子邮件" 时，此设置才适用。  <br/> |
+|EXPR  <br/> |用于连接到服务器的协议通过 HTTP Exchange RPC over HTTP。  <br/> This is only applicable when the [AccountType (POX) ](accounttype-pox.md) element is set to email.  <br/> |
+|WEB  <br/> |通过使用 Server (POX) 元素中指定的 URL，从 Web [浏览器访问 ](server-pox.md) 电子邮件。  <br/> This is only applicable when the [AccountType (POX) ](accounttype-pox.md) element is set to email.  <br/> |
    
 ### <a name="version-differences"></a>版本差异
 
-如果将服务器配置为接受 RPC/HTTP 连接，并且客户端包含包含 "ExHttpInfo" 的[X-ClientCanHandle](pox-autodiscover-request-for-exchange.md)标头，则 Office 365、exchange Online 和本地 exchange （从 build 15.00.0995.014 开始）将返回值 "EXHTTP"。 
+Office 365版本 15.00.0995.014 的 Exchange、Exchange Online 和本地版本仅在服务器配置为接受 RPC/HTTP 连接并且客户端包含包含"ExHttpInfo"的[X-ClientCanHandle](pox-autodiscover-request-for-exchange.md)标头时，才返回"EXHTTP"值。 
   
 ## <a name="see-also"></a>另请参阅
 
 
 
-[Exchange 的 POX 自动发现 XML 元素](pox-autodiscover-xml-elements-for-exchange.md)
+[用于存储的 POX 自动发现 XML Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

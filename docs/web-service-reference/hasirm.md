@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fedc04e0-cfd2-4652-a2a8-51de859ae847
-description: HasIrm 元素指定会话中是否至少有一封邮件，以及当前文件夹是否为受 IRM 保护的邮件。
-ms.openlocfilehash: 1596610ed5f6b2bac353900624fbec9140aaa693
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: HasIrm 元素指定会话和当前文件夹中是否至少有一封邮件是受 IRM 保护的邮件。
+ms.openlocfilehash: ef194c045bfd2b416e382c12381afd68ba56dcf3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462778"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516690"
 ---
 # <a name="hasirm"></a>HasIrm
 
-**HasIrm**元素指定会话中是否至少有一封邮件，以及当前文件夹是否为受 IRM 保护的邮件。 
+**HasIrm** 元素指定会话和当前文件夹中是否至少有一封邮件是受 IRM 保护的邮件。 
   
 ```XML
 <HasIrm> true | false </HasIrm>
@@ -42,7 +42,7 @@ ms.locfileid: "44462778"
   
 ## <a name="text-value"></a>文本值
 
-如果对话中至少有一封邮件，并且当前文件夹中有 IRM，则**HasIrm**元素的文本值为**true** 。 否则，该值为**false**。
+如果对话中至少有一封邮件并且当前文件夹具有IRM，**则 HasIrm** 元素的文本值为 true。 否则，值为 **false**。
   
 ## <a name="remarks"></a>说明
 

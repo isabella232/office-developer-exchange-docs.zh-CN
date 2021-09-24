@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5f24dc30-3ac2-4c82-9dfc-be9dbdb585be
-description: MailboxStat 元素指定通过发现搜索搜索的邮箱的统计信息。
-ms.openlocfilehash: 417f63f5e1aa34c2157b1d5ad868461113afec7b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: MailboxStat 元素指定由发现搜索搜索的邮箱的统计信息。
+ms.openlocfilehash: d48f033df4cfec47313ce690acd19d916b963c00
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44451430"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522808"
 ---
 # <a name="mailboxstat"></a>MailboxStat
 
-**MailboxStat**元素指定通过发现搜索搜索的邮箱的统计信息。 
+**MailboxStat** 元素指定由发现搜索搜索的邮箱的统计信息。 
   
 ```XML
 <MailboxStat>
@@ -40,13 +40,13 @@ ms.locfileid: "44451430"
   
 ### <a name="child-elements"></a>子元素
 
-[MailboxId](mailboxid.md)  | [DisplayName （string）](displayname-string.md)  | [ItemCount](itemcount.md)  | [大小（long）](size-long.md)
+[MailboxId](mailboxid.md)  | [DisplayName (字符串) ](displayname-string.md)  | [ItemCount](itemcount.md)  | [大小 (长) ](size-long.md)
   
 ### <a name="parent-elements"></a>父元素
 
 [MailboxStats](mailboxstats.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

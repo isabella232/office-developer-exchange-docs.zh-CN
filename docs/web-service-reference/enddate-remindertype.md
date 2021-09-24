@@ -1,23 +1,23 @@
 ---
-title: 结束日期（ReminderType）
+title: EndDate (ReminderType)
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 616e9a88-afd2-4df3-aa3b-f126bdebfaec
-description: 结束日期元素指定提醒所针对的项目的结束日期。
-ms.openlocfilehash: 37ebb31f4ff94e7e5eeacf218c9cbccdaf4f3ace
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: EndDate 元素指定提醒所针对项目的结束日期。
+ms.openlocfilehash: 66c5a6b0b03ca2b240b469bd232d5b6b6487e15d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460153"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517096"
 ---
-# <a name="enddate-remindertype"></a>结束日期（ReminderType）
+# <a name="enddate-remindertype"></a>EndDate (ReminderType)
 
-**结束**日期元素指定提醒所针对的项目的结束日期。 
+**EndDate** 元素指定提醒所针对项目的结束日期。 
   
 ```XML
 <EndDate/>
@@ -42,9 +42,9 @@ ms.locfileid: "44460153"
   
 ## <a name="text-value"></a>文本值
 
-**结束日期元素的**文本值是项目的结束日期。 
+**EndDate 元素** 的文本值是项目的结束日期。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

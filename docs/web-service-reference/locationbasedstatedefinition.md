@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2bb2cb78-e168-414e-8d07-414ab5c69185
 description: LocationBasedStateDefinition 元素仅供内部使用。
-ms.openlocfilehash: dd1e97b2071eeb82f7c9032b83ea52f83ee4a1ec
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: f3ad52225e34082b3dc507a45ec0ab147a3c0fcc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460300"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522836"
 ---
 # <a name="locationbasedstatedefinition"></a>LocationBasedStateDefinition
 
-**LocationBasedStateDefinition**元素仅供内部使用。 
+**LocationBasedStateDefinition** 元素仅供内部使用。 
   
 ```XML
 <LocationBasedStateDefinition />
@@ -39,7 +39,7 @@ ms.locfileid: "44460300"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

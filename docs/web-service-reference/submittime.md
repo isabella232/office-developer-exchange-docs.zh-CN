@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SubmitTime
 api_type:
 - schema
 ms.assetid: 97e4b71e-f45c-4bdb-80f9-805934916c0f
 description: SubmitTime 元素表示邮件发送到服务器的时间。
-ms.openlocfilehash: e4409d962988ee308e0c0b461f9448ef68067fe8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 8a6a70da6a59942b13f5000666fd7581ce65bf37
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467051"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59537379"
 ---
 # <a name="submittime"></a>SubmitTime
 
-**SubmitTime**元素表示邮件发送到服务器的时间。 
+**SubmitTime** 元素表示邮件发送到服务器的时间。 
   
 ```XML
 <SubmitTime/>
@@ -44,11 +44,11 @@ ms.locfileid: "44467051"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Search-messagetrackingreport](messagetrackingreport.md) <br/> |包含在[GetMessageTrackingReport 操作](getmessagetrackingreport-operation.md)中返回一条消息。  <br/> |
+|[MessageTrackingReport](messagetrackingreport.md) <br/> |包含在[GetMessageTrackingReport 操作](getmessagetrackingreport-operation.md)中返回一条消息。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-如果使用此元素，则表示日期/时间的文本值是必需的。
+如果使用此元素，则代表日期/时间的文本值是必需的。
   
 ## <a name="remarks"></a>说明
 

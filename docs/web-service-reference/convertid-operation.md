@@ -5,83 +5,83 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ConvertId
 api_type:
 - schema
 ms.assetid: 47d96cf6-9e2f-4fc0-9682-7258d3fbf918
 description: 查找有关 ConvertId EWS 操作的信息。
-ms.openlocfilehash: 36bd47d3fc7c7ca7cea7b38222abb25fba6074ac
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 04f20d8446ab3117adb3f00ea17f93c068eeffb9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44452550"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536629"
 ---
 # <a name="convertid-operation"></a>ConvertId 操作
 
-查找有关**ConvertId** EWS 操作的信息。 
+查找有关 **ConvertId** EWS 操作的信息。 
   
-**ConvertId** Exchange Web 服务（EWS）操作将项目和文件夹标识符转换为 exchange online、exchange Online 作为 Office 365 的一部分以及从 exchange Server 2013 开始的 exchange 内部部署版本之间的格式。 
+**ConvertId** Exchange Web 服务 (EWS) 操作在 Exchange Online 接受的格式、Exchange Online 作为 Office 365 的一部分以及从 Exchange Server 2013 开始本地版本的 Exchange 之间转换项和文件夹标识符。 
   
 ## <a name="using-the-convertid-operation"></a>使用 ConvertId 操作
 <a name="bk_usingConvertId"> </a>
 
-您可以使用**ConvertId**操作来转换以下标识符： 
+可以使用 **ConvertId** 操作转换以下标识符： 
   
-- Exchange 2007 的初始发布版本中的 EWS 标识符格式。 这由 `EwsLegacyId` [IdFormat](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx)枚举中的枚举值表示。 
+- 2007 年 10 月初版中 EWS 的Exchange格式。 这由  `EwsLegacyId` [IdFormat](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx) 枚举中的枚举值表示。 
     
-- Exchange 2007 SP1 或 Exchange 2010 中的 EWS 的标识符格式。 这由 `EwsId` [IdFormat](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx)中的枚举值表示。
+- 2007 SP1 或 Exchange 2010 中 EWS Exchange格式。 这由  `EwsId` [IdFormat](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx)中的枚举值表示。
     
-- MAPI 标识符，如**PR_ENTRYID**属性中所示。 这由 `EntryId` [IdFormat](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx)枚举中的枚举值表示。 
+- MAPI 标识符，如 **PR_ENTRYID** 属性。 这由  `EntryId` [IdFormat](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx) 枚举中的枚举值表示。 
     
-- 可用性日历事件标识符。 这是**PR_ENTRYID**属性的十六进制编码表示形式。 这由 `HexEntryId` [IdFormat](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx)中的枚举值表示。
+- 可用性日历事件标识符。 这是一个十六进制编码的 PR_ENTRYID **表示形式** 。 这由  `HexEntryId` [IdFormat](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx)中的枚举值表示。
     
-- Exchange 存储标识符。 这由 `StoreId` [IdFormat](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx)中的枚举值表示。 **ConvertId**操作不会将公用文件夹标识符从 EWS 标识符转换为存储标识符。 
+- 存储Exchange标识符。 这由  `StoreId` [IdFormat](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx)中的枚举值表示。 **ConvertId** 操作不会将公用文件夹标识符从 EWS 标识符转换为存储标识符。 
     
-- Outlook Web App 标识符。 这由 `OwaId` [IdFormat](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx)中的枚举值表示
+- Outlook Web App标识符。 这由 `OwaId` [IdFormat](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx)中的枚举值表示
     
-    不支持将从此标识符创建的 Url 传递到 Outlook Web App。 Outlook Web App 标识符适用于 Exchange 2007 和 Exchange 2010。 适用于 Exchange Online 的 Outlook Web App 和从 Exchange Server 2013 开始的 Exchange 版本使用 EWS 标识符。
+    不支持将从此标识符创建的 URL 传递到Outlook Web App URL。 此Outlook Web App标识符适用于 2007 Exchange 2010 Exchange 2010。 Outlook Web App 2013 Exchange Online 2013 Exchange EWS 标识符Exchange Server版本和版本。
     
-在将公用文件夹标识符从 EWS 标识符转换为 Exchange Online 和 Exchange 2013 中的存储标识符时， **ConvertId**操作不会按预期工作。 您可以手动更新作为解决方法返回的标识符。 若要手动更新标识符： 
+**ConvertId** 操作在将公用文件夹标识符从 EWS 标识符转换为 Exchange Online 和 Exchange 2013 中的存储标识符时不起作用。 你可以手动更新作为解决方法返回的标识符。 若要手动更新标识符，请执行以下操作： 
   
 1. 在应用程序代码中，确定目标项目/文件夹是否位于公用文件夹中。 
     
-2. 对 Base64 编码的标识符字符串进行解码。
+2. 解码 Base64 编码的标识符字符串。
     
-3. 验证类型 "字节（21字节）" 的值是否为7。 值为7表示标识符的格式不正确。
+3. 验证类型字节类型 (21 字节) 值为 7。 值 7 表示标识符的格式不正确。
     
-4. 跳过前四个字节。 必须将其设置为零。
+4. 跳过前四个字节。 它们必须设置为零。
     
-5. 使用以下 GUID 更新接下来的16个字节：1A447390AA6611CD9BC800AA002FC45A
+5. 使用以下 GUID 更新接下来的 16 个字节：1A447390AA6611CD9BC800AA002FC45A
     
-6. 更新值为9的下一个字节（类型为 byte）。
+6. 更新下一个 (字节类型) 值为 9。
     
 7. 将标识符更改为 Base64 编码的字符串。
     
 > [!NOTE]
-> **ConvertId**操作验证给定的 SMTP 地址是否具有有效的格式。 该操作不确定 SMTP 地址是否表示有效邮箱。 
+> **ConvertId** 操作验证给定的 SMTP 地址是否具有有效的格式。 此操作无法确定 SMTP 地址是否表示有效的邮箱。 
   
-**ConvertId**操作可以使用下表中列出的 SOAP 标头。 
+**ConvertId** 操作可以使用下表中列出的 SOAP 标头。 
   
-**表1。ConvertId 操作 SOAP 标头**
+**表 1.ConvertId 操作 SOAP 标头**
 
 |**Header**|**元素**|**说明**|
 |:-----|:-----|:-----|
-|模拟  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |标识客户端应用程序模拟的用户。 这适用于请求。  <br/> |
-|RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识适用于请求的操作请求的架构版本。  <br/> |
-|ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器版本。 这适用于响应。  <br/> |
+|模拟  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |标识客户端应用程序正在模拟的用户。 这适用于请求。  <br/> |
+|RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本 这适用于请求。  <br/> |
+|ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器的版本。 这适用于响应。  <br/> |
    
 ## <a name="convertid-operation-request-example"></a>ConvertId 操作请求示例
 <a name="bk_usingConvertId"> </a>
 
-以下示例的**ConvertId**请求显示如何从 EWS 标识符转换为 Outlook Web App 标识符。 
+ConvertId 请求的以下示例演示如何从 EWS 标识符转换为Outlook Web App标识符。 
   
-必须将 SOAP 标头中的[RequestServerVersion](requestserverversion.md)元素设置为 Exchange2007_SP1 或更高版本，才能使此操作生效。 
+SOAP 标头中的 [RequestServerVersion](requestserverversion.md) 元素必须设置为 Exchange2007_SP1或更高版本，此操作正常运行。 
   
 > [!NOTE]
-> 项目标识符已缩短，以保持可读性。 
+> 已缩短项目标识符以保持可读性。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -106,10 +106,10 @@ ms.locfileid: "44452550"
 ## <a name="convertid-operation-response-example"></a>ConvertId 操作响应示例
 <a name="bk_usingConvertId"> </a>
 
-下面的示例演示对**ConvertId**请求的成功响应。 此响应示例包含 Outlook Web App 标识符。 
+以下示例显示了对 **ConvertId** 请求的成功响应。 此响应示例包含一个Outlook Web App标识符。 
   
 > [!NOTE]
-> Outlook Web App 标识符已缩短，以保持可读性。 
+> 已Outlook Web App标识符以保留可读性。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -139,7 +139,7 @@ ms.locfileid: "44452550"
 ## <a name="convertid-operation-error-response-example"></a>ConvertId 操作错误响应示例
 <a name="bk_usingConvertId"> </a>
 
-下面的示例演示对包含错误类型的标识符格式的请求的响应。
+以下示例显示对包含错误标识符格式类型的请求的响应。
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -169,9 +169,9 @@ ms.locfileid: "44452550"
 ## <a name="version-differences"></a>版本差异
 <a name="bk_ConvertIdVersionDiff"> </a>
 
-在 Exchange 2007 和 Exchange 2007 Service Pack 1 （SP1）的初始发行版之间更改了 EWS 标识符格式。 Exchange Online 作为 Office 365、Exchange Online 和 Exchange 内部部署版本的一部分从 exchange 2010 开始使用 Exchange 2007 SP1 使用的相同标识符格式。
+EWS 标识符格式在 Exchange 2007 的初始发行版和 Exchange 2007 Service Pack 1 (SP1 版本) 。 Exchange Online Office 365、Exchange Online 和本地版本的 Exchange（从 Exchange 2010 开始）的一部分，请使用 Exchange 2007 SP1 使用的相同标识符格式。
   
-**ConvertId**操作将公用文件夹标识符从 EWS 标识符转换为 exchange 2007 和 exchange 2010 中的存储标识符。 
+**ConvertId** 操作将公用文件夹标识符从 EWS 标识符转换为 Exchange 2007 和 Exchange 2010 中的存储标识符。 
   
 ## <a name="see-also"></a>另请参阅
 <a name="bk_ConvertIdVersionDiff"> </a>

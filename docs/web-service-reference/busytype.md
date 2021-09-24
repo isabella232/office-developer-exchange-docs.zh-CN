@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - BusyType
 api_type:
 - schema
 ms.assetid: 26d4fae0-8c78-4705-b5e8-d6033712c41e
-description: BusyType 元素表示为日历事件设置的忙/闲状态。
-ms.openlocfilehash: 7c2d18c21156a8603d3caeeb796a56c5d8afcba5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: BusyType 元素表示日历事件的忙/闲状态集。
+ms.openlocfilehash: eedea1e98ec84342d79dda2107adb050c2216401
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459081"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59537135"
 ---
 # <a name="busytype"></a>BusyType
 
-**BusyType**元素表示为日历事件设置的忙/闲状态。 
+**BusyType** 元素表示日历事件的忙/闲状态集。 
   
 ```xml
 <BusyType>Free or Tentative or Busy or OOF or NoData</BusyType>
@@ -45,15 +45,15 @@ ms.locfileid: "44459081"
 |**元素**|**说明**|
 |:-----|:-----|
 |[IndividualAttendeeConflictData](individualattendeeconflictdata.md) <br/> |包含与建议的会议时间同时发生的时间窗口的用户或联系人的忙/闲状态。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray/IndividualAttendeeConflictData` <br/> |
-|[CalendarEvent](calendarevent.md) <br/> |代表唯一的日历项目事件。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]` <br/> |
+|[CalendarEvent](calendarevent.md) <br/> |表示唯一的日历项目事件。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]` <br/> |
    
 ## <a name="text-value"></a>文本值
 
-此元素需要一个文本值。 值为字符串类型。 以下是[BusyType](busytype.md)元素的可能值： 
+此元素需要文本值。 该值为字符串类型。 下面是 [BusyType](busytype.md) 元素的可能值： 
   
 - 空闲
     
-- 暂
+- 暂定
     
 - 忙碌
     

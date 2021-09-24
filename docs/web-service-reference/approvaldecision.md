@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5e7c5687-cb9e-4f0b-ac8f-b82591914a39
-description: ApprovalDecision 元素指定在审批请求邮件上做出的决定。
-ms.openlocfilehash: a8dc168edec882ba97cdea764f8d20c71ed85f8a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ApprovalDecision 元素指定对审批请求邮件做出的决定。
+ms.openlocfilehash: 903b75f04255a19ebb7a9b4d0e47b685f22d4339
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463445"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517229"
 ---
 # <a name="approvaldecision"></a>ApprovalDecision
 
-**ApprovalDecision**元素指定在审批请求邮件上做出的决定。 
+**ApprovalDecision** 元素指定对审批请求邮件做出的决定。 
   
 ```XML
 <ApprovalDecision> 1 | 2 </ApprovalDecision>
@@ -42,7 +42,7 @@ ms.locfileid: "44463445"
   
 ## <a name="text-value"></a>文本值
 
-**ApprovalDecision**元素的文本值为1（如果已批准），如果被拒绝，则为2。 
+**ApprovalDecision** 元素的文本值为 1（如果已批准）和 2（如果被拒绝）。 
   
 ## <a name="remarks"></a>说明
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsEncrypted
 api_type:
 - schema
 ms.assetid: 68a30e92-c2b1-4af5-bb16-ba38afb80c43
-description: IsEncrypted 元素指示是否必须对传入邮件进行 S/MIME 加密，以便条件或例外情况适用。
-ms.openlocfilehash: 7470fa3163596f87badfda2ca698b096e02f1196
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: IsEncrypted 元素指示传入的邮件是否必须经过 S/MIME 加密才能应用条件或例外。
+ms.openlocfilehash: 54e0be5262ab14bac72152028091fe56b37f90a3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455301"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509761"
 ---
 # <a name="isencrypted"></a>IsEncrypted
 
-**IsEncrypted**元素指示是否必须对传入邮件进行 S/MIME 加密，以便条件或例外情况适用。 
+**IsEncrypted** 元素指示传入的邮件是否必须经过 S/MIME 加密才能应用条件或例外。 
   
 ```XML
 <IsEncrypted>true | false</IsEncrypted>
@@ -45,11 +45,11 @@ ms.locfileid: "44455301"
 |**元素**|**说明**|
 |:-----|:-----|
 |[条件](conditions.md) <br/> |表示履行时将触发规则的规则操作的条件。  <br/> |
-|[异常](exceptions.md) <br/> |代表收件箱规则的所有可用的规则例外条件。  <br/> |
+|[异常](exceptions.md) <br/> |代表收件箱规则的所有可用规则例外条件。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-如果文本值为**true** ，则表示必须对邮件进行 S/MIME 加密，以便条件或例外情况适用。 如果值为**false** ，则表示该邮件不必为 S/MIME，这样就可以应用条件或例外情况。 
+如果文本值为 **true，** 则表明邮件必须经过 S/MIME 加密才能应用条件或例外。 false **值表示** 邮件不需要为 S/MIME，条件或例外情况适用。 
   
 ## <a name="remarks"></a>说明
 

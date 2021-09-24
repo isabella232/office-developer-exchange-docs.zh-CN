@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 615fa52d-86ff-4630-b188-5fdb9391eee2
-description: CompanyNames 元素包含公司名称的数组以及关联角色的源归属的标识符。
-ms.openlocfilehash: 25daa43873fe00837004217e3f814a7201638450
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: CompanyNames 元素包含一个数组，其中包含公司名称及其关联人物的源属性的标识符。
+ms.openlocfilehash: ca5be5960ab0b1c154809c5d6acc9b5503e52169
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463256"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517236"
 ---
 # <a name="companynames"></a>CompanyNames
 
-**CompanyNames**元素包含公司名称的数组以及关联角色的源归属的标识符。 
+**CompanyNames** 元素包含一个数组，其中包含公司名称及其关联人物的源属性的标识符。 
   
 ```XML
 <CompanyNames>
@@ -38,15 +38,15 @@ ms.locfileid: "44463256"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[StringAttributedValue](stringattributedvalue.md) <br/> |指定与 persona 元素相关联的属性数组中的实例。  <br/> |
+|[StringAttributedValue](stringattributedvalue.md) <br/> |指定与 persona 元素关联的属性数组中的实例。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[角色](persona.md) <br/> |指定由**GetPersona**请求返回的一组角色数据。  <br/> |
+|[角色](persona.md) <br/> |指定由 **GetPersona** 请求返回的一组人员数据。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -58,7 +58,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

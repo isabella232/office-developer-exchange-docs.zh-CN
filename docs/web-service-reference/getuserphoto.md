@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0e524a09-86f8-4a71-ac5c-66527ae70790
 description: GetUserPhoto 元素包含获取用户照片的请求。
-ms.openlocfilehash: 64b0ec67abd70fb237549eb0fed1968275c615ba
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 16697acbf3d6559915ea0e72f908cc72da971d58
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463907"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522976"
 ---
 # <a name="getuserphoto"></a>GetUserPhoto
 
-**GetUserPhoto**元素包含获取用户照片的请求。 
+**GetUserPhoto** 元素包含获取用户照片的请求。 
   
 ```XML
 <GetUserPhoto>
@@ -37,13 +37,13 @@ ms.locfileid: "44463907"
   
 ### <a name="child-elements"></a>子元素
 
-[Email （String）](email-string.md)  | [SizeRequested](sizerequested.md)
+[电子邮件 (字符串) ](email-string.md)  | [SizeRequested](sizerequested.md)
   
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -55,7 +55,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
-|验证文件  <br/> |消息 .xsd  <br/> |
+|验证文件  <br/> |messages.xsd  <br/> |
 |可以为空  <br/> ||
    
 

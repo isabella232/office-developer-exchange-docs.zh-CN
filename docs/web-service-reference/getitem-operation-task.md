@@ -5,33 +5,33 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetItem
 api_type:
 - schema
 ms.assetid: 8265dd06-1752-4470-8074-5f0e3e970f52
-description: GetItem 操作用于从 Exchange 存储中获取任务。
-ms.openlocfilehash: 17a23d4c2a35761e831610f3514c980a5a67e12b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetItem 操作用于从存储Exchange任务。
+ms.openlocfilehash: 36e7b5ecc37c05f64c3b6617f45396805be0e532
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463333"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509838"
 ---
 # <a name="getitem-operation-task"></a>GetItem 操作（任务）
 
-GetItem 操作用于从 Exchange 存储中获取任务。
+GetItem 操作用于从存储Exchange任务。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-任务的 GetItem 请求的格式与任何其他项目类型的 GetItem 相同。 唯一的区别在于，响应形状中可以请求其他属性。 此类附加属性必须是与任务相关的属性或扩展属性。
+对于任何其他项目类型，GetItem 任务请求的格式与 GetItem 相同。 唯一的区别是可以在响应形状内请求其他属性。 此类附加属性必须是与任务相关的属性或扩展属性。
   
-## <a name="task-getitem-request-example"></a>Task GetItem 请求示例
+## <a name="task-getitem-request-example"></a>任务 GetItem 请求示例
 
 ### <a name="description"></a>Description
 
-下面的 GetItem 请求示例演示如何获取任务项。
+GetItem 请求的以下示例显示如何获取任务项。
   
 ### <a name="code"></a>代码
 
@@ -58,11 +58,11 @@ xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
 ### <a name="comments"></a>备注
 
 > [!NOTE]
-> 项目标识符和更改密钥已缩短，以保持可读性。 
+> 已缩短项目标识符和更改键以保持可读性。 
   
-### <a name="request-elements"></a>Request 元素
+### <a name="request-elements"></a>请求元素
 
-请求中使用以下元素：
+请求中会使用下列元素：
   
 - [GetItem](getitem.md)
     
@@ -74,11 +74,11 @@ xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
     
 - [ItemId](itemid.md)
     
-## <a name="task-getitem-response-example"></a>Task GetItem 响应示例
+## <a name="task-getitem-response-example"></a>任务 GetItem 响应示例
 
 ### <a name="description"></a>Description
 
-下面的示例演示对 GetItem 请求的成功响应。
+以下示例显示 GetItem 请求的成功响应。
   
 ### <a name="code"></a>代码
 
@@ -136,11 +136,11 @@ xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
 ### <a name="comments"></a>备注
 
 > [!NOTE]
-> 项目和文件夹标识符和更改密钥已缩短，以保持可读性。 
+> 已缩短项和文件夹标识符和更改键以保持可读性。 
   
 ### <a name="successful-response-elements"></a>成功的响应元素
 
-响应中使用以下元素：
+响应中会使用下列元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -166,11 +166,11 @@ xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
     
 - [Sensitivity](sensitivity.md)
     
-- [Body](body.md)
+- [正文](body.md)
     
 - [DateTimeReceived](datetimereceived.md)
     
-- [大小](size.md)
+- [尺寸](size.md)
     
 - [Importance](importance.md)
     
@@ -200,7 +200,7 @@ xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
     
 - [PercentComplete](percentcomplete.md)
     
-- [Status](status.md)
+- [状态](status.md)
     
 - [StatusDescription](statusdescription.md)
     

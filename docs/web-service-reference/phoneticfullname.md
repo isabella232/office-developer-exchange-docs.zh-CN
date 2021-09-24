@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ed08dee7-ba01-4b10-a53a-d28b8e1c3bf9
-description: PhoneticFullName 元素包含联系人的全名，包括按发音拼写的名字和姓氏。
-ms.openlocfilehash: a206a33742499858066acd91f02529d35f22b001
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: PhoneticFullName 元素包含用拼音拼写的联系人的完整姓名，包括名字和姓氏。
+ms.openlocfilehash: 6f82a0c4ddc7c67053793d9f6693681176d8c424
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44528837"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516655"
 ---
 # <a name="phoneticfullname"></a>PhoneticFullName
 
-**PhoneticFullName**元素包含联系人的全名，包括按发音拼写的名字和姓氏。 
+**PhoneticFullName** 元素包含用拼音拼写的联系人的完整姓名，包括名字和姓氏。 
   
 ```XML
 <PhoneticFullName/>
@@ -44,7 +44,7 @@ ms.locfileid: "44528837"
    
 ## <a name="text-value"></a>文本值
 
-Text 值是一个字符串，表示联系人的全名，包括按发音拼写的名字和姓氏。
+文本值是一个字符串，表示用拼音拼写的联系人的全名，包括名字和姓氏。
   
 ## <a name="remarks"></a>说明
 

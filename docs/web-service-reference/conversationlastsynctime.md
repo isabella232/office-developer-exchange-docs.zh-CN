@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ConversationLastSyncTime
 api_type:
 - schema
 ms.assetid: 90f8f9e3-5fc6-4a6a-bdfb-fc91fa51f8a2
-description: ConversationLastSyncTime 元素包含上次同步会话的日期和时间。 在尝试删除会话中的所有已收到指定时间的项目时，必须存在此元素。
-ms.openlocfilehash: f7cc6e205ab9936685d7b8c1f34129b799a53021
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ConversationLastSyncTime 元素包含上次同步对话的日期和时间。 尝试删除对话中截至指定时间接收的所有项目时，必须存在此元素。
+ms.openlocfilehash: d71f455fa00226c84b157ba04b391b80df95f1bd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461427"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536666"
 ---
 # <a name="conversationlastsynctime"></a>ConversationLastSyncTime
 
-**ConversationLastSyncTime**元素包含上次同步会话的日期和时间。 在尝试删除会话中的所有已收到指定时间的项目时，必须存在此元素。 
+**ConversationLastSyncTime** 元素包含上次同步对话的日期和时间。 尝试删除对话中截至指定时间接收的所有项目时，必须存在此元素。 
   
 [ApplyConversationAction](applyconversationaction.md)
   
@@ -35,7 +35,7 @@ ms.locfileid: "44461427"
 <ConversationLastSyncTime/>
 ```
 
- **xs： dateTime**
+ **xs：dateTime**
 ## <a name="attributes-and-elements"></a>属性和元素
 
 下面各部分介绍了属性、子元素和父元素。
@@ -56,9 +56,9 @@ ms.locfileid: "44461427"
    
 ## <a name="text-value"></a>文本值
 
-**ConversationLastSyncTime**的文本值指示上次同步会话的时间。 
+**ConversationLastSyncTime** 的文本值指示上次同步对话的时间。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   

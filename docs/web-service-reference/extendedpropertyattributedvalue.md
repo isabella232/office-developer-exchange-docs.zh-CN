@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 90f3c5c5-f612-4e1b-b1f5-f92dd8524179
-description: ExtendedPropertyAttributedValue 元素指定角色的扩展属性。
-ms.openlocfilehash: 5c2ad5918d7ac666d5e26af6597b2c4c3dde6202
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ExtendedPropertyAttributedValue 元素指定某个人物的扩展属性。
+ms.openlocfilehash: 338c2a12d89cd7b1305be2fc75692782b1b3a466
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460125"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535378"
 ---
 # <a name="extendedpropertyattributedvalue"></a>ExtendedPropertyAttributedValue
 
-**ExtendedPropertyAttributedValue**元素指定角色的扩展属性。 
+**ExtendedPropertyAttributedValue** 元素指定某个人物的扩展属性。 
   
 ```XML
 <ExtendedPropertyAttributedValue>
@@ -39,16 +39,16 @@ ms.locfileid: "44460125"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Value （ExtendedPropertyType）](value-extendedpropertytype.md) <br/> |指定角色的扩展属性的数组。  <br/> |
-|[归属（ArrayOfValueAttributionsType）](attributions-arrayofvalueattributionstype.md) <br/> |为其关联的**Value**元素指定归属的数组。  <br/> |
+|[Value (ExtendedPropertyType)](value-extendedpropertytype.md) <br/> |指定一个包含一个人物的扩展属性的数组。  <br/> |
+|[Attributions (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md) <br/> |指定与其关联的 Value 元素的属性 **数组** 。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ExtendedProperties (ArrayOfExtendedPropertyAttributedValueType)](extendedproperties-arrayofextendedpropertyattributedvaluetype.md) <br/> |包含用于统一联系人存储操作的扩展属性。  <br/> |
+|[ExtendedProperties (ArrayOfExtendedPropertyAttributedValueType)](extendedproperties-arrayofextendedpropertyattributedvaluetype.md) <br/> |包含用于统一联系人存储操作扩展属性。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -60,7 +60,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

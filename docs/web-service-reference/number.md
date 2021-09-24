@@ -1,23 +1,23 @@
 ---
-title: 编号
+title: 数字
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 19866c08-d670-4791-bcda-95eed0b73a7c
-description: Number 元素指定一个电话号码。
-ms.openlocfilehash: d54e76d64061aeefc4c2bfa4e30b0b6fff6d4f6c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Number 元素指定电话号码。
+ms.openlocfilehash: 7fac124e114119572c17a702e1140ab004d4e630
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462603"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59537462"
 ---
-# <a name="number"></a>编号
+# <a name="number"></a>数字
 
-**Number**元素指定一个电话号码。 
+**Number** 元素指定电话号码。 
   
 ```XML
 <Number></Number>
@@ -38,13 +38,13 @@ ms.locfileid: "44462603"
   
 ### <a name="parent-elements"></a>父元素
 
-[Value （PersonaPhoneNumberType）](value-personaphonenumbertype.md)  | [PhoneNumber](phonenumber.md)
+[Value (PersonaPhoneNumberType) ](value-personaphonenumbertype.md)  | [PhoneNumber](phonenumber.md)
   
 ## <a name="text-value"></a>文本值
 
-**Number**元素的文本值是以字符串格式表示的电话号码。 
+**Number** 元素的文本值是字符串格式表示的电话号码。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

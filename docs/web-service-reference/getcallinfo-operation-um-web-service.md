@@ -1,32 +1,32 @@
 ---
-title: GetCallInfo 操作（UM web 服务）
+title: GetCallInfo 操作（UM Web 服务）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetCallInfo
 api_type:
 - schema
 ms.assetid: 6bccd418-caf7-4eb9-8a6f-410e56a635c3
-description: GetCallInfo 操作返回 CallId （UM web 服务）指定的出站呼叫的状态。
-ms.openlocfilehash: 6b5664dfe16f9c74cc7175098145141b815a6355
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetCallInfo 操作返回由 CallId 指定的出站呼叫的状态 (UM Web) 。
+ms.openlocfilehash: 0563190ab267b3a48d7ccacbdb1e136c6e3da0b4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461238"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509941"
 ---
-# <a name="getcallinfo-operation-um-web-service"></a>GetCallInfo 操作（UM web 服务）
+# <a name="getcallinfo-operation-um-web-service"></a>GetCallInfo 操作（UM Web 服务）
 
-GetCallInfo 操作返回[CallId （UM web 服务）](callid-um-web-service.md)指定的出站呼叫的状态。
+GetCallInfo 操作返回由 CallId 指定的出站呼叫的状态[ (UM Web 服务) 。 ](callid-um-web-service.md)
   
 ## <a name="getcallinfo-request-example"></a>GetCallInfo 请求示例
 
 ### <a name="description"></a>Description
 
-以下示例的 GetCallInfo 请求显示如何形成请求，以获取有关指定的出站呼叫的信息。
+GetCallInfo 请求的以下示例显示如何形成请求，以获取有关指定出站呼叫的信息。
   
 ### <a name="code"></a>代码
 
@@ -45,7 +45,7 @@ GetCallInfo 操作返回[CallId （UM web 服务）](callid-um-web-service.md)�
 
 ### <a name="description"></a>Description
 
-以下示例的 GetCallInfo 响应显示对 GetCallInfo 请求的响应。
+GetCallInfo 响应的以下示例显示对 GetCallInfo 请求的响应。
   
 ### <a name="code"></a>代码
 
@@ -67,13 +67,13 @@ GetCallInfo 操作返回[CallId （UM web 服务）](callid-um-web-service.md)�
 
 
 
-[GetCallInfo （UM web 服务）](getcallinfo-um-web-service.md)
+[GetCallInfo（UM Web 服务）](getcallinfo-um-web-service.md)
   
-[GetCallInfoResponse （UM web 服务）](getcallinforesponse-um-web-service.md)
+[GetCallInfoResponse（UM Web 服务）](getcallinforesponse-um-web-service.md)
   
-[CallId （UM web 服务）](callid-um-web-service.md)
+[CallId（UM Web 服务）](callid-um-web-service.md)
   
-[CallState （UM web 服务）](callstate-um-web-service.md)
+[CallState（UM Web 服务）](callstate-um-web-service.md)
   
-[EventCause （UM web 服务）](eventcause-um-web-service.md)
+[EventCause（UM Web 服务）](eventcause-um-web-service.md)
 

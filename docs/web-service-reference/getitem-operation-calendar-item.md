@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetItem
 api_type:
 - schema
 ms.assetid: a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8
-description: GetItem 操作从 Exchange 存储中获取日历项目。
-ms.openlocfilehash: 09fe92af12f03ce4cebd1e98f4e01c087ace64f9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetItem 操作从应用商店获取日历Exchange项。
+ms.openlocfilehash: ff118be17e3e084a11dd74a0434db3f6c0e8bd8d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460615"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516963"
 ---
 # <a name="getitem-operation-calendar-item"></a>GetItem 操作（日历项目）
 
-GetItem 操作从 Exchange 存储中获取日历项目。
+GetItem 操作从应用商店获取日历Exchange项。
   
 ## <a name="getitem-request-example"></a>GetItem 请求示例
 
 ### <a name="description"></a>Description
 
-以下示例的 GetItem 请求显示如何形成请求以获取项目的标识和主题。
+GetItem 请求的以下示例显示如何形成请求，以获取项目的标识和主题。
   
 ### <a name="code"></a>代码
 
@@ -51,9 +51,9 @@ GetItem 操作从 Exchange 存储中获取日历项目。
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Request 元素
+### <a name="request-elements"></a>请求元素
 
-请求中使用以下元素：
+请求中会使用下列元素：
   
 - [GetItem](getitem.md)
     
@@ -72,16 +72,16 @@ GetItem 操作从 Exchange 存储中获取日历项目。
 > [!NOTE]
 > 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。 
   
-若要查找 GetItem 操作的请求消息的其他选项，请浏览架构层次结构。 从[GetItem](getitem.md)元素开始。 
+若要查找 GetItem 操作的请求消息的其他选项，请浏览架构层次结构。 从 [GetItem 元素](getitem.md) 开始。 
   
 ## <a name="successful-getitem-response"></a>成功的 GetItem 响应
 
 ### <a name="description"></a>Description
 
-下面的示例演示对 GetItem 请求的成功响应。 创建此响应的请求使用 IdOnly baseshape。 在此示例中，响应仅返回项目的 ID。 
+以下示例显示 GetItem 请求的成功响应。 创建此响应的请求使用了 IdOnly 基元。 本示例中，响应仅返回项目的 ID。 
   
 > [!NOTE]
-> 项目 ID 和更改密钥已缩短，以保持可读性。 
+> 已缩短项目 ID 和更改键以保持可读性。 
   
 ### <a name="code"></a>代码
 
@@ -115,10 +115,10 @@ GetItem 操作从 Exchange 存储中获取日历项目。
 
 ### <a name="description"></a>说明
 
-下面的示例演示对 GetItem 请求的成功响应。 创建此响应的请求使用默认 baseshape。 在此示例中，响应返回日历项目的默认形状。
+以下示例显示 GetItem 请求的成功响应。 创建此响应的请求使用了 Default 基元。 本示例中，响应返回日历项目的默认形状。
   
 > [!NOTE]
-> 项目 ID 和更改密钥已缩短，以保持可读性。 
+> 已缩短项目 ID 和更改键以保持可读性。 
   
 ### <a name="code"></a>代码
 
@@ -166,7 +166,7 @@ GetItem 操作从 Exchange 存储中获取日历项目。
 
 ### <a name="description"></a>说明
 
-下面的示例演示对 GetItem 请求的成功响应。 创建此响应的请求使用 AllProperties baseshape。 在此示例中，响应返回日历项目的 AllProperties 形状。
+以下示例显示 GetItem 请求的成功响应。 创建此响应的请求使用了 AllProperties 基元。 本示例中，响应返回日历项目的 AllProperties 形状。
   
 ### <a name="code"></a>代码
 
@@ -265,11 +265,11 @@ GetItem 操作从 Exchange 存储中获取日历项目。
 
 ### <a name="comments"></a>备注
 
-若要查找 GetItem 操作的响应邮件的其他选项，请浏览架构层次结构。 从[GetItemResponse](getitemresponse.md)元素开始。 
+若要查找 GetItem 操作的响应消息的其他选项，请浏览架构层次结构。 从 [GetItemResponse 元素](getitemresponse.md) 开始。 
   
 ### <a name="successful-response-elements"></a>成功的响应元素
 
-响应中使用以下元素：
+响应中会使用下列元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -293,11 +293,11 @@ GetItem 操作从 Exchange 存储中获取日历项目。
     
 - [Sensitivity](sensitivity.md)
     
-- [Body](body.md)
+- [正文](body.md)
     
 - [DateTimeReceived](datetimereceived.md)
     
-- [大小](size.md)
+- [尺寸](size.md)
     
 - [Importance](importance.md)
     
@@ -333,9 +333,9 @@ GetItem 操作从 Exchange 存储中获取日历项目。
     
 - [Culture](culture.md)
     
-- [开始](start.md)
+- [Start](start.md)
     
-- [停止](end-ex15websvcsotherref.md)
+- [End ](end-ex15websvcsotherref.md)
     
 - [IsAllDayEvent](isalldayevent.md)
     
@@ -361,7 +361,7 @@ GetItem 操作从 Exchange 存储中获取日历项目。
     
 - [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md)
     
-- [RoutingType （EmailAddressType）](routingtype-emailaddresstype.md)
+- [RoutingType (EmailAddressType)](routingtype-emailaddresstype.md)
     
 - [ConflictingMeetingCount](conflictingmeetingcount.md)
     
@@ -369,11 +369,11 @@ GetItem 操作从 Exchange 存储中获取日历项目。
     
 - [ConflictingMeetings](conflictingmeetings.md)
     
-- [Location](location.md)
+- [位置](location.md)
     
-- [持续时间（项目）](duration-items.md)
+- [Duration (Items)](duration-items.md)
     
-- [时区（项目）](timezone-item.md)
+- [TimeZone (Item)](timezone-item.md)
     
 - [AppointmentSequenceNumber](appointmentsequencenumber.md)
     

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8af93c14-c4f0-4ec3-a1e6-4742a0a14eee
 description: GetHoldOnMailboxes 元素包含获取邮箱的保留状态的请求。
-ms.openlocfilehash: fee6cd4781533cb779a971ebba46707527623dcc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 36d183b2d3cb71d8767764821bda85aaad8f3ba6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462834"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516956"
 ---
 # <a name="getholdonmailboxesresponse"></a>GetHoldOnMailboxesResponse
 
-**GetHoldOnMailboxes**元素包含获取邮箱的保留状态的请求。 
+**GetHoldOnMailboxes** 元素包含获取邮箱的保留状态的请求。 
   
 ```XML
 <GetHoldOnMailboxes>
@@ -42,7 +42,7 @@ ms.locfileid: "44462834"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -54,7 +54,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
-|验证文件  <br/> |消息 .xsd  <br/> |
+|验证文件  <br/> |messages.xsd  <br/> |
 |可以为空  <br/> ||
    
 

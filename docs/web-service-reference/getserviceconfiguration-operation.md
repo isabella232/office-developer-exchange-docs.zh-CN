@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetServiceConfiguration
 api_type:
 - schema
 ms.assetid: 070cbfe5-325a-4955-8e4a-8230ea0459a7
-description: GetServiceConfiguration 操作获取指定类型的服务的配置信息。 此操作可以返回统一消息、保护规则和邮件提示服务的配置设置。
-ms.openlocfilehash: b8ea2cef366a52765850dddcc8c1ef1e8fa68b22
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetServiceConfiguration 操作获取指定类型的服务的配置信息。 此操作可以返回统一消息、保护规则和邮件服务的配置使用技巧设置。
+ms.openlocfilehash: 29246e17313e4f3d9fb02532513eb3fbd033a86e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460909"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516928"
 ---
 # <a name="getserviceconfiguration-operation"></a>GetServiceConfiguration 操作
 
-**GetServiceConfiguration**操作获取指定类型的服务的配置信息。 此操作可以返回统一消息、保护规则和邮件提示服务的配置设置。 
+**GetServiceConfiguration** 操作获取指定类型的服务的配置信息。 此操作可以返回统一消息、保护规则和邮件服务的配置使用技巧设置。 
   
 ## <a name="getserviceconfiguration-request-example"></a>GetServiceConfiguration 请求示例
 
 ### <a name="description"></a>Description
 
-以下示例的**GetServiceConfiguration**请求显示如何形成获取统一消息服务的配置信息的请求。 
+**GetServiceConfiguration** 请求的以下示例显示如何形成请求，以获取统一消息服务的配置信息。 
   
 ### <a name="code"></a>代码
 
@@ -55,7 +55,7 @@ ms.locfileid: "44460909"
 
 ### <a name="description"></a>Description
 
-下面的示例演示对**GetServiceConfiguration**请求的成功响应。 
+以下示例显示了对 **GetServiceConfiguration** 请求的成功响应。 
   
 ### <a name="code"></a>代码
 
@@ -97,7 +97,7 @@ ms.locfileid: "44460909"
 
 ### <a name="description"></a>Description
 
-下面的示例演示对**GetServiceConfiguration**请求的错误响应。 此错误是由不正确的配置名称引起的。 
+以下示例显示对 **GetServiceConfiguration** 请求的错误响应。 此错误由不正确的配置名称导致。 
   
 ### <a name="code"></a>代码
 
@@ -133,7 +133,7 @@ ms.locfileid: "44460909"
 
 
 
-[Exchange 中的 EWS 操作](ews-operations-in-exchange.md)
+[EWS 操作在Exchange](ews-operations-in-exchange.md)
   
 - [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

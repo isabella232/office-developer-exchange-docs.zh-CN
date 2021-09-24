@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4ac8fb39-6b92-4a88-bc13-17715ef6b63c
-description: NewDisplayName 元素包含即时消息组的更新的显示名称。
-ms.openlocfilehash: e3355cfd990eb9c00ccd514dcc914a3e3831b08f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: NewDisplayName 元素包含显示名称消息组的已更新属性。
+ms.openlocfilehash: 27a4a6e9bd041c9074bcad1250cd59bea435ccda
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466841"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509521"
 ---
 # <a name="newdisplayname"></a>NewDisplayName
 
-**NewDisplayName**元素包含即时消息组的更新的显示名称。 
+**NewDisplayName** 元素包含显示名称消息组的已更新属性。 
   
 ```XML
 <NewDisplayName></NewDisplayName>
@@ -42,9 +42,9 @@ ms.locfileid: "44466841"
   
 ## <a name="text-value"></a>文本值
 
-**NewDisplayName**元素的文本值是即时消息组的更新的显示名称。 
+**NewDisplayName** 元素的文本值是显示名称消息组的更新值。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

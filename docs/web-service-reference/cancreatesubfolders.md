@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CanCreateSubFolders
 api_type:
 - schema
 ms.assetid: 4404a1cc-6d3f-4996-9647-58a740e8f883
 description: CanCreateSubFolders元素指示用户是否有权限的文件夹中创建子文件夹。在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
-ms.openlocfilehash: d8e89c7a07ef1788717f5012840f5b8f79d319e6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: c0491dd62034df03ccfb4adea13b06760dd2fd5b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461595"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523199"
 ---
 # <a name="cancreatesubfolders"></a>CanCreateSubFolders
 
-本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **CanCreateSubFolders**元素指示用户是否有权限的文件夹中创建子文件夹。在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
+本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **CanCreateSubFolders** 元素指示用户是否有权限的文件夹中创建子文件夹。在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
   
 ```xml
 <CanCreateSubFolders/>
@@ -49,7 +49,7 @@ ms.locfileid: "44461595"
    
 ## <a name="text-value"></a>文本值
 
-**true**的一个文字值指示用户可以在该文件夹中创建子文件夹。 **false**表示用户不能在文件夹中创建子文件夹。 
+**true** 的一个文字值指示用户可以在该文件夹中创建子文件夹。 **false** 表示用户不能在文件夹中创建子文件夹。 
   
 ## <a name="remarks"></a>说明
 

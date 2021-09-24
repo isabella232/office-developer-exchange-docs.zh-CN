@@ -1,23 +1,23 @@
 ---
-title: 昵称
+title: Nicknames
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bbafce39-7fc6-4099-bc27-b40c0ad44c77
-description: 昵称元素指定昵称值的数组以及关联角色的源归属标识符。
-ms.openlocfilehash: c6b7de5e1c93797603a2950b4a9527c5d370f93d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Nicknames 元素指定昵称值的数组及其关联人物的源属性的标识符。
+ms.openlocfilehash: 38ae06233a6b6f9eb07881faec1e530f5c0cb559
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457772"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59537622"
 ---
-# <a name="nicknames"></a>昵称
+# <a name="nicknames"></a>Nicknames
 
-**昵称**元素指定昵称值的数组以及关联角色的源归属标识符。 
+**Nicknames** 元素指定昵称值的数组及其关联人物的源属性的标识符。 
   
 ```XML
 <Nicknames>
@@ -43,7 +43,7 @@ ms.locfileid: "44457772"
 
 [角色](persona.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

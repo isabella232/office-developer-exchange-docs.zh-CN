@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DataType
 api_type:
 - schema
 ms.assetid: 267fe5aa-f9b1-4d4c-ac11-0f2e50ec2627
-description: DataType 元素描述共享文件夹共享的数据类型。
-ms.openlocfilehash: a7df8d38e10f0ab31038d790d8f35208d1be66d5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DataType 元素描述共享文件夹共享的数据的类型。
+ms.openlocfilehash: 858165f32aebd523b10840246425c015353d659a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458829"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535854"
 ---
 # <a name="datatype"></a>DataType
 
-**DataType**元素描述共享文件夹共享的数据类型。 
+**DataType** 元素描述共享文件夹共享的数据的类型。 
   
 ```xml
 <DataType>Calendar or Contacts</DataType>
@@ -43,13 +43,13 @@ ms.locfileid: "44458829"
   
 ### <a name="parent-elements"></a>父元素
 
-|**元素**|**描述**|
+|**元素**|**说明**|
 |:-----|:-----|
 |[GetSharingFolder](getsharingfolder.md) <br/> |定义获取指定共享文件夹的本地文件夹标识符的请求。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-下表列出了**DataType**元素的可能值。 
+下表列出了 **DataType** 元素的可能值。 
   
 **DataType 元素值**
 

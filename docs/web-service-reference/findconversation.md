@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FindConversation
 api_type:
 - schema
 ms.assetid: 94b7083c-60cf-478b-a9af-a88f7acb30fb
 description: FindConversation 元素定义在邮箱中查找对话的请求。
-ms.openlocfilehash: 98d692132ed9375d981c95d24600b0e2c4b1d8c1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: e48e0d9fd71dac12fe6848031b2c056ea9a913ce
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462645"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535168"
 ---
 # <a name="findconversation"></a>FindConversation
 
-**FindConversation**元素定义在邮箱中查找对话的请求。 
+**FindConversation** 元素定义在邮箱中查找对话的请求。 
   
 [FindConversation](findconversation.md)
   
@@ -57,8 +57,8 @@ ms.locfileid: "44462645"
 
 |**值**|**说明**|
 |:-----|:-----|
-|浅  <br/> |指示浅遍历。  <br/> |
-|深  <br/> |指示深度遍历。  <br/> |
+|浅  <br/> |指示浅表遍历。  <br/> |
+|深  <br/> |指示深层遍历。  <br/> |
    
 #### <a name="viewfilter-attribute-values"></a>ViewFilter 属性值
 
@@ -66,34 +66,34 @@ ms.locfileid: "44462645"
 
 |**值**|**说明**|
 |:-----|:-----|
-|所有  <br/> |查找所有对话。  <br/> |
-|带  <br/> |查找已标记的对话。  <br/> |
-|HasAttachment  <br/> |查找有关附件的对话。  <br/> |
-|ToOrCcMe  <br/> |查找解决或抄送给我的对话。  <br/> |
+|全部  <br/> |查找所有对话。  <br/> |
+|已标记  <br/> |查找带标记的对话。  <br/> |
+|HasAttachment  <br/> |查找带附件的对话。  <br/> |
+|ToOrCcMe  <br/> |查找已解决或抄送我的对话。  <br/> |
 |未读  <br/> |查找未读对话。  <br/> |
 |TaskActive  <br/> |查找活动任务。  <br/> |
-|TaskOverdue  <br/> |查找过期的任务。  <br/> |
+|TaskOverdue  <br/> |查找过期任务。  <br/> |
 |TaskCompleted  <br/> |查找已完成的任务。  <br/> |
 |NoClutter  <br/> |仅供内部使用。  <br/> |
 |混乱邮件  <br/> |仅供内部使用。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
-|**元素**|**描述**|
+|**元素**|**说明**|
 |:-----|:-----|
 |[IndexedPageItemView](indexedpageitemview.md) <br/> |介绍如何返回分页对话信息。  <br/> |
-|[SeekToConditionPageItemView](seektoconditionpageitemview.md) <br/> |指定用于标识搜索的结束的条件、搜索的起始索引、要返回的最大项数以及**FindItem**或**FindConversation**搜索的搜索说明。  <br/> |
-|[SortOrder](sortorder.md) <br/> |定义如何在[FindConversation 操作](findconversation-operation.md)请求中对项目进行排序。 **对话： LastDeliveryTime**属性是在使用**FindConversation**操作时，支持排序的唯一属性。  <br/> |
-|[ParentFolderId （TargetFolderIdType）](parentfolderid-targetfolderidtype.md) <br/> |标识用于搜索对话的文件夹。  <br/> |
-|[MailboxScope](mailboxscope.md) <br/> |指定对话的搜索或获取是否应跨越主邮箱、存档邮箱或同时位于主邮箱和存档邮箱中。  <br/> |
-|[QueryString （QueryStringType）](querystring-querystringtype.md) <br/> |指定基于高级查询语法（AQS）的邮箱查询字符串。  <br/> |
-|[ConversationShape](conversationshape.md) <br/> |标识设置为在[FindConversation 操作](findconversation-operation.md)响应中返回的属性。  <br/> |
+|[SeekToConditionPageItemView](seektoconditionpageitemview.md) <br/> |指定用于标识搜索结束的条件、搜索的起始索引、要返回的最大条目以及 **FindItem** 或 **FindConversation** 搜索的搜索方向。  <br/> |
+|[SortOrder](sortorder.md) <br/> |定义如何在 [FindConversation](findconversation-operation.md) 操作请求中对项目进行排序。 **conversation：LastDeliveryTime** 属性是使用 **FindConversation** 操作时唯一支持进行排序的属性。  <br/> |
+|[ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md) <br/> |标识要搜索对话的文件夹。  <br/> |
+|[MailboxScope](mailboxscope.md) <br/> |指定搜索或提取对话应跨越主邮箱、存档邮箱还是同时跨越主邮箱和存档邮箱。  <br/> |
+|[QueryString (QueryStringType)](querystring-querystringtype.md) <br/> |指定基于高级查询语法的邮箱查询字符串 (AQS) 。  <br/> |
+|[ConversationShape](conversationshape.md) <br/> |标识在 [FindConversation](findconversation-operation.md) 操作响应中要返回的属性集。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   

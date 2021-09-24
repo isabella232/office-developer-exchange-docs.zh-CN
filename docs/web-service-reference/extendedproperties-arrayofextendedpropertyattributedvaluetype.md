@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 262d0bf6-107e-48af-af2d-4356612154ac
-description: ExtendedProperties 元素包含用于角色的扩展属性。
-ms.openlocfilehash: 3a3b238fee8c0ef3f243de3eb91c1a80f5369960
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ExtendedProperties 元素包含用于人物的扩展属性。
+ms.openlocfilehash: 345dcb85c88f87e82ce70ec5eb55e378114b6d16
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463123"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523088"
 ---
 # <a name="extendedproperties-arrayofextendedpropertyattributedvaluetype"></a>ExtendedProperties (ArrayOfExtendedPropertyAttributedValueType)
 
-**ExtendedProperties**元素包含用于角色的扩展属性。 
+**ExtendedProperties** 元素包含用于人物的扩展属性。 
   
 ```XML
 <ExtendedProperties>
@@ -42,7 +42,7 @@ ms.locfileid: "44463123"
 
 [角色](persona.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

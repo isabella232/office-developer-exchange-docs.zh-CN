@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ConnectionStatus
 api_type:
 - schema
 ms.assetid: 4300f9d6-8bf9-48c2-9f07-d80197864e17
-description: ConnectionStatus 元素提供流式订阅的状态的文本说明。
-ms.openlocfilehash: 928537201041950011ae06444e3c412228d252ea
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ConnectionStatus 元素提供流式订阅状态的文本说明。
+ms.openlocfilehash: 05ff80ac3e6c3c8bf1341a179a14c9d052c9947f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462715"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536849"
 ---
 # <a name="connectionstatus"></a>ConnectionStatus
 
-**ConnectionStatus**元素提供流式订阅的状态的文本说明。 
+**ConnectionStatus** 元素提供流式订阅状态的文本说明。 
   
 ```xml
 <ConnectionStatus>OK or Closed</ConnectionStatus>
@@ -44,17 +44,17 @@ ms.locfileid: "44462715"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GetStreamingEventsResponseMessage](getstreamingeventsresponsemessage.md) <br/> |包含单个[GetStreamingEvents 操作](getstreamingevents-operation.md)请求的状态和结果。  <br/> |
+|[GetStreamingEventsResponseMessage](getstreamingeventsresponsemessage.md) <br/> |包含单个 [GetStreamingEvents](getstreamingevents-operation.md) 操作请求的状态和结果。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-文本值是必需的。 以下是此元素的可能的文本值：
+文本值是必需的。 以下是此元素的可能文本值：
   
 - 确定
     
-- Closed
+- 已结束
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   

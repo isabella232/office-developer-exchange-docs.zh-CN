@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 643f8663-1fab-4625-a7e9-5724e352972b
 description: FormattedAddress 元素指定关联的邮政地址的格式化显示值。
-ms.openlocfilehash: 9150a3bb5bc81f7afecdafbf0cc33fafff597578
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 379b02a4ed667ec1a01b54f26dd6d58c7f66fa89
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461938"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535103"
 ---
 # <a name="formattedaddress"></a>FormattedAddress
 
-**FormattedAddress**元素指定关联的邮政地址的格式化显示值。 
+**FormattedAddress** 元素指定关联的邮政地址的格式化显示值。 
   
 ```XML
 <FormattedAddress></FormattedAddress>
@@ -40,14 +40,14 @@ ms.locfileid: "44461938"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Value （PersonaPostalAddressType）](value-personapostaladdresstype.md) <br/> |指定与邮政地址相关联的信息。  <br/> |
-|[省略（PersonaPostalAddressType）](postaladdress-personapostaladdresstype.md) <br/> |指定位置的邮政地址。  <br/> |
+|[Value (PersonaPostalAddressType)](value-personapostaladdresstype.md) <br/> |指定与邮政地址关联的信息。  <br/> |
+|[PostalAddress (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md) <br/> |指定位置的邮政地址。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**FormattedAddress**元素的文本值是一个 string 值，用于指定已设置格式的地址。 
+**FormattedAddress** 元素的文本值是一个指定已设置格式的地址的字符串值。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -59,7 +59,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

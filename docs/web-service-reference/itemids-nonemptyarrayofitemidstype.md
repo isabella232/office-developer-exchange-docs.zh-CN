@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ItemIds
 api_type:
 - schema
 ms.assetid: e895782a-74fe-4216-8ac2-c3c88c4b232d
-description: ItemIds 元素包含项标识符的数组，这些标识符标识要从邮箱中导出的项。
-ms.openlocfilehash: 16c2633528e2ecbc863cfdde645e0f431b4c4297
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ItemIds 元素包含标识要从邮箱导出的项目的项目标识符数组。
+ms.openlocfilehash: 3009bf1f7012e62e21d019530cd7eac1bbbcb8a7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468591"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522828"
 ---
 # <a name="itemids-nonemptyarrayofitemidstype"></a>ItemIds (NonEmptyArrayOfItemIdsType)
 
-**ItemIds**元素包含项标识符的数组，这些标识符标识要从邮箱中导出的项。 
+**ItemIds** 元素包含标识要从邮箱导出的项目的项目标识符数组。 
   
 [ExportItems](exportitems.md)
   
@@ -46,7 +46,7 @@ ms.locfileid: "44468591"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ItemId](itemid.md) <br/> |包含 Exchange 存储中某项的唯一标识符和更改键。  <br/> |
+|[ItemId](itemid.md) <br/> |包含项目存储中项的唯一标识符Exchange项。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -58,7 +58,7 @@ ms.locfileid: "44468591"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   

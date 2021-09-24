@@ -1,23 +1,23 @@
 ---
-title: 对话（ConversationResponseType）
+title: Conversation (ConversationResponseType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 57310ba7-f411-43fa-a096-acef0481afec
-description: 会话（GetConversationItemsResponseMessageType）元素表示 GetConversationItems 响应中返回的单个对话。
-ms.openlocfilehash: e729a9525030ec1e7abc2ffcb40fc92812b17001
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetConversationItemsResponseMessageType) 元素中的 Conversation (表示 GetConversationItems 响应中返回的单个对话。
+ms.openlocfilehash: 093ad09368844e284400aa7a43bd9d08b019a4f6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466771"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517222"
 ---
-# <a name="conversation-conversationresponsetype"></a>对话（ConversationResponseType）
+# <a name="conversation-conversationresponsetype"></a>Conversation (ConversationResponseType)
 
-**会话**（GetConversationItemsResponseMessageType）元素表示**GetConversationItems**响应中返回的单个对话。 
+GetConversationItemsResponseMessageType) 元素中的 **Conversation** (表示 **GetConversationItems** 响应中返回的单个对话。 
   
 ```XML
 <Conversation />
@@ -42,23 +42,23 @@ ms.locfileid: "44466771"
    
 ### <a name="child-elements"></a>子元素
 
-|**元素**|**描述**|
+|**元素**|**说明**|
 |:-----|:-----|
 |||
    
 ### <a name="parent-elements"></a>父元素
 
-|**元素**|**描述**|
+|**元素**|**说明**|
 |:-----|:-----|
 |||
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
 ## <a name="example"></a>示例
 
-Microsoft. RegistryKey # 4
+Microsoft.Win32.RegistryKey#4
   
 ## <a name="element-information"></a>元素信息
 

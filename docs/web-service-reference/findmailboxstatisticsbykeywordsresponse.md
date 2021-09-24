@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: af1dd9bf-df47-473d-a2ce-ab9a01a37606
 description: FindMailboxStatisticsByKeywordsResponse 元素指定对 FindMailboxStatisticsByKeywords 请求的响应。
-ms.openlocfilehash: a0595ec9ee0cedf5150852dc39eca50b598e15aa
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 8b4b5ebed303382aa4accb9176a09d77150e53e0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460986"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510104"
 ---
 # <a name="findmailboxstatisticsbykeywordsresponse"></a>FindMailboxStatisticsByKeywordsResponse
 
-**FindMailboxStatisticsByKeywordsResponse**元素指定对**FindMailboxStatisticsByKeywords**请求的响应。 
+**FindMailboxStatisticsByKeywordsResponse** 元素指定 **对 FindMailboxStatisticsByKeywords** 请求的响应。 
   
 ```XML
 <FindMailboxStatisticsByKeywordsResponse>
@@ -38,13 +38,13 @@ ms.locfileid: "44460986"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |包含 Exchange Web 服务（EWS）请求的响应消息。  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |包含 EWS 请求Exchange EWS (响应) 消息。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -54,7 +54,7 @@ ms.locfileid: "44460986"
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
-|验证文件  <br/> |消息 .xsd  <br/> |
+|验证文件  <br/> |messages.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

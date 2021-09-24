@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - WeeklyRegeneration
 api_type:
 - schema
 ms.assetid: f128fdaa-ca3d-4614-8e55-f25e76a67b6c
-description: WeeklyRegeneration 元素描述任务重新生成的频率（以周为单位）。
-ms.openlocfilehash: dc333e051fd2213942e629a3f2764c72abfaeba5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: WeeklyRegeneration 元素描述任务重新生成的频率（以周表示）。
+ms.openlocfilehash: 179299ca0beae23ffd7ad8636729f6117eaa0aad
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459747"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509319"
 ---
 # <a name="weeklyregeneration"></a>WeeklyRegeneration
 
-**WeeklyRegeneration**元素描述任务重新生成的频率（以周为单位）。 
+**WeeklyRegeneration** 元素描述任务重新生成的频率（以周表示）。 
   
 ```xml
 <WeeklyRegeneration>
@@ -42,13 +42,13 @@ ms.locfileid: "44459747"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Interval](interval.md) <br/> |定义自任务完成后重新生成新任务之后的间隔（以周为单位）。  <br/> |
+|[Interval](interval.md) <br/> |定义任务完成后的间隔（以周为单位）后将重新生成新任务。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[重复周期（TaskRecurrenceType）](recurrence-taskrecurrencetype.md) <br/> |包含定期任务的定期信息。  <br/> |
+|[Recurrence (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |包含定期任务的定期信息。  <br/> |
    
 ## <a name="remarks"></a>说明
 

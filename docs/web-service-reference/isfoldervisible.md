@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsFolderVisible
 api_type:
 - schema
 ms.assetid: dd611fb5-9424-4ff9-bb27-c882c73c0c74
 description: IsFolderVisible 元素指示用户是否可以查看文件夹。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
-ms.openlocfilehash: 7efe7eef3c10027c38a3dad2dd3ec1d8684c322a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: d107a49107c626f27d8abe22e99652fe6dc71728
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459298"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509740"
 ---
 # <a name="isfoldervisible"></a>IsFolderVisible
 
-**IsFolderVisible**元素指示用户是否可以查看文件夹。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
+**IsFolderVisible** 元素指示用户是否可以查看文件夹。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
   
 ```xml
 <IsFolderVisible/>
@@ -49,7 +49,7 @@ ms.locfileid: "44459298"
    
 ## <a name="text-value"></a>文本值
 
-如果文本值为**true** ，则表示用户可以查看该文件夹。 **如果值为 false** ，则表示用户无法查看该文件夹。 
+文本值为 **true** 表示用户可以查看文件夹。 false **值表示** 用户无法查看文件夹。 
   
 ## <a name="remarks"></a>说明
 

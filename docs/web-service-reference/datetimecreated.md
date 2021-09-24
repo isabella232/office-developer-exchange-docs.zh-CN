@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DateTimeCreated
 api_type:
 - schema
 ms.assetid: 42ae0067-4688-49d9-93c5-c4dbeb54cee1
-description: DateTimeCreated 元素表示邮箱中的项目的创建日期和时间。
-ms.openlocfilehash: c79fe4f9288a5b636d7a85412f2410fe388272fc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DateTimeCreated 元素表示创建邮箱中的项目的日期和时间。
+ms.openlocfilehash: 065ad1b362ba903cc2e29f071347cbb0d19d8452
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461413"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535701"
 ---
 # <a name="datetimecreated"></a>DateTimeCreated
 
-**DateTimeCreated**元素表示邮箱中的项目的创建日期和时间。 
+**DateTimeCreated** 元素表示创建邮箱中的项目的日期和时间。 
   
 ```xml
 <DateTimeCreated/>
@@ -59,11 +59,11 @@ ms.locfileid: "44461413"
    
 ## <a name="text-value"></a>文本值
 
-Text 值表示邮箱中的项目的创建日期和时间。
+文本值表示创建邮箱中的项目的日期和时间。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-使用日历响应对象更新关联的日历项目上的[DateTimeCreated](datetimecreated.md)属性。 预期的行为是**DateTimeCreated**属性保持不变。 例如，用户 A 向用户 B 发送会议请求。用户 B 接受会议请求，并提供会议请求的标识符。 关联日历项目的**DateTimeCreated**属性已更改。 
+使用日历响应对象更新关联的日历项目上的 [DateTimeCreated](datetimecreated.md) 属性。 预期行为是 **使 DateTimeCreated** 属性保持不变。 例如，用户 A 向用户 B 发送会议请求。用户 B 接受包含会议请求标识符的会议请求。 关联的 **日历项目的 DateTimeCreated** 属性已更改。 
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

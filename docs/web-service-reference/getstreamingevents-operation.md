@@ -5,31 +5,31 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetStreamingEvents
 api_type:
 - schema
 ms.assetid: 8da95423-72bc-4034-90a8-162eedcd059b
 description: 查找有关 GetStreamingEvents EWS 操作的信息。
-ms.openlocfilehash: 27744ec40d7c7cb551f35ed5f6fcb726f23d4865
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 794407c2224e606be4f32cc610eff9f95e65a83b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530167"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523060"
 ---
 # <a name="getstreamingevents-operation"></a>GetStreamingEvents 操作
 
-查找有关**GetStreamingEvents** EWS 操作的信息。 
+查找有关 **GetStreamingEvents** EWS 操作的信息。 
   
-流式订阅客户端使用**GetStreamingEvents**操作从客户端访问服务器中请求通知。 **GetStreamingEvents**响应返回自上次通知以来在邮箱中发生的项和事件的数组。 
+**GetStreamingEvents** 操作由流式订阅客户端用于从客户端访问服务器请求通知。 **GetStreamingEvents** 响应返回自上次通知以来邮箱中发生的项目和事件的数组。 
   
 ## <a name="getstreamingevents-request-example"></a>GetStreamingEvents 请求示例
 
 ### <a name="description"></a>Description
 
-下面的**GetStreamingEvents**操作示例演示如何请求与订阅标识符标识的订阅相关联的事件和项目。 
+下面的 **GetStreamingEvents** 操作示例演示如何请求与订阅标识符标识的订阅关联的事件和项目。 
   
 ### <a name="code"></a>代码
 
@@ -49,11 +49,11 @@ ms.locfileid: "44530167"
 
 ### <a name="getstreamingevents-request-elements"></a>GetStreamingEvents 请求元素
 
-请求中使用以下元素：
+请求中会使用下列元素：
   
 - [GetStreamingEvents](getstreamingevents.md)
     
-- [SubscriptionId （GetStreamingEvents）](subscriptionid-getstreamingevents.md)
+- [SubscriptionId (GetStreamingEvents)](subscriptionid-getstreamingevents.md)
     
 - [ConnectionTimeout](connectiontimeout.md)
     
@@ -61,7 +61,7 @@ ms.locfileid: "44530167"
 
 ### <a name="description"></a>Description
 
-下面的**GetStreamingEvents**响应示例显示收到新电子邮件时发送给客户端的通知。 它包括针对以下事件的通知： CreatedEvent、NewMail 和 ModifiedEvent。 
+**GetStreamingEvents** 响应的以下示例显示收到新电子邮件时发送给客户端的通知。 它包含以下事件的通知：CreatedEvent、NewMail 和 ModifiedEvent。 
   
 ### <a name="code"></a>代码
 
@@ -104,7 +104,7 @@ ms.locfileid: "44530167"
 
 ### <a name="getstreamingevents-response-elements"></a>GetStreamingEvents 响应元素
 
-响应中使用以下元素：
+响应中会使用下列元素：
   
 - [GetStreamingEventsResponse](getstreamingeventsresponse.md)
     
@@ -116,15 +116,15 @@ ms.locfileid: "44530167"
     
 - [通知](notification-ex15websvcsotherref.md)
     
-- [SubscriptionId （GetStreamingEvents）](subscriptionid-getstreamingevents.md)
+- [SubscriptionId (GetStreamingEvents)](subscriptionid-getstreamingevents.md)
     
-若要查找**GetStreamingEvents**操作的响应邮件的其他选项，请浏览架构层次结构。 从[通知](notification-ex15websvcsotherref.md)元素开始。 
+若要查找 **GetStreamingEvents** 操作的响应消息的其他选项，请浏览架构层次结构。 从 [Notification 元素](notification-ex15websvcsotherref.md) 开始。 
   
 ## <a name="getstreamingevents-error-response-example"></a>GetStreamingEvents 错误响应示例
 
 ### <a name="description"></a>Description
 
-下面的示例演示对**GetStreamingEvents**请求的错误响应。 
+以下示例显示对 **GetStreamingEvents** 请求的错误响应。 
   
 ### <a name="code"></a>代码
 
@@ -153,23 +153,23 @@ ms.locfileid: "44530167"
 </soap:Envelope>
 ```
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-在处理**GetStreamingEvents**请求时，客户端访问服务器将执行以下步骤： 
+处理 **GetStreamingEvents** 请求时，客户端访问服务器将执行以下步骤： 
   
-1. 将请求的[SubscriptionId （GetStreamingEvents）](subscriptionid-getstreamingevents.md)确认为在客户端访问服务器上承载的有效订阅。 如果不是，则**GetStreamingEvents**调用将失败。 
+1. 请求 [ (GetStreamingEvents ](subscriptionid-getstreamingevents.md)) 的 SubscriptionId 已确认为托管在客户端访问服务器上的有效订阅。 如果不是 **，GetStreamingEvents 调用** 将失败。 
     
-2. 对请求的经过身份验证的用户的 SMTP 地址进行验证，以获得模拟权限。 如果不是，则**GetStreamingEvents**请求将失败。 
+2. 验证请求的已验证用户的 SMTP 地址具有模拟权限。 如果没有 **，GetStreamingEvents 请求** 将失败。 
     
-3. 将查询订阅队列中等待发送到客户端的事件。 如果队列不为空，则会从队列中提取队列中的前50个事件并将其编码到通知中。
+3. 查询订阅队列，了解正在等待发送到客户端的事件。 如果队列不为空，则队列中前 50 个事件从队列中提取并编码为通知。
     
-4. 如果队列中未找到任何事件，则会生成[StatusEvent](statusevent.md)并将其编码到通知响应中。 
+4. 如果在队列中未找到任何事件，则 [生成 StatusEvent，](statusevent.md) 并编码为通知响应。 
     
 5. 通知响应将返回到客户端。
     
-6. 通知中包含的事件将从订阅队列中删除，并且客户端访问服务器-订阅的本地最后的水印将设置为返回的最后一个事件的水印。
+6. 通知中包含的事件将从订阅队列中删除，并且订阅的客户端访问服务器本地最后一个水印设置为返回的最后一个事件水印。
     
-7. 订阅的超时计时器将重置。
+7. 重置订阅的超时计时器。
     
 ## <a name="see-also"></a>另请参阅
 
@@ -177,5 +177,5 @@ ms.locfileid: "44530167"
 
 [订阅操作](subscribe-operation.md)
   
-[取消订阅操作](unsubscribe-operation.md)
+[Unsubscribe 操作](unsubscribe-operation.md)
 

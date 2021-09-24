@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DateTimeReceived
 api_type:
 - schema
 ms.assetid: 8f489bd4-2434-4d0a-91fe-1b5ba7eb5765
-description: DateTimeReceived 元素表示邮箱中的项目的接收日期和时间。
-ms.openlocfilehash: ad57af46b0ff22c42bfa327532d13e79280dd8b0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DateTimeReceived 元素表示接收邮箱中的项目的日期和时间。
+ms.openlocfilehash: 86c46d029476b9617a6a1086bddc76946e25068c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456561"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535684"
 ---
 # <a name="datetimereceived"></a>DateTimeReceived
 
-**DateTimeReceived**元素表示邮箱中的项目的接收日期和时间。 
+**DateTimeReceived** 元素表示接收邮箱中的项目的日期和时间。 
   
 ```xml
 <DateTimeReceived/>

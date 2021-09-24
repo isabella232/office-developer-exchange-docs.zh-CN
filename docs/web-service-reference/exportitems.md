@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: ITPro
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ExportItems
 api_type:
 - schema
 ms.assetid: bbbc56e4-8cc1-43ae-b70a-9a8d6bb0f399
 description: ExportItems 元素表示从邮箱导出项目的请求。
-ms.openlocfilehash: 6e4996f62ea5051e6dc235ee7255057f16b3855b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: a27395b0a11a92c303644eb7ce9e785b27d2b613
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457268"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535426"
 ---
 # <a name="exportitems"></a>ExportItems
 
-**ExportItems**元素表示从邮箱导出项目的请求。 
+**ExportItems** 元素表示从邮箱导出项目的请求。 
   
 [ExportItems](exportitems.md)
   
@@ -44,7 +44,7 @@ ms.locfileid: "44457268"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ItemIds (NonEmptyArrayOfItemIdsType)](itemids-nonemptyarrayofitemidstype.md) <br/> |包含项标识符的数组，这些标识符标识要从邮箱中导出的项。  <br/> |
+|[ItemIds (NonEmptyArrayOfItemIdsType)](itemids-nonemptyarrayofitemidstype.md) <br/> |包含标识要从邮箱导出的项目的项目标识符数组。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -54,7 +54,7 @@ ms.locfileid: "44457268"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   

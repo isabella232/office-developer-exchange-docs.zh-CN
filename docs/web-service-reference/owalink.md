@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a0d217b6-d7c0-4b99-ada9-19c758ae4a5b
-description: OwaLink 元素指定用于预览 Microsoft Outlook Web App 中的项目的链接。
-ms.openlocfilehash: 176484387d690bb8e0040507c11feffd6b4f4be5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: OwaLink 元素指定用于预览项目链接Microsoft Outlook Web App。
+ms.openlocfilehash: 38b90251cf5aa1b4d058d2be70d12f9fd4c25424
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467457"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59534903"
 ---
 # <a name="owalink"></a>OwaLink
 
-**OwaLink**元素指定用于预览 Microsoft Outlook Web App 中的项目的链接。 
+**OwaLink** 元素指定用于预览项目链接Microsoft Outlook Web App。 
   
 ```XML
 <OwaLink></OwaLink>
@@ -42,9 +42,9 @@ ms.locfileid: "44467457"
   
 ## <a name="text-value"></a>文本值
 
-**OwaLink**元素的文本值是在 Outlook Web App 中查看项目的 URL。 
+**OwaLink** 元素的文本值是要查看项目在Outlook Web App。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

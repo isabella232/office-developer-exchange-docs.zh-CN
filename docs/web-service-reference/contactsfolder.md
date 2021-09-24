@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ContactsFolder
 api_type:
 - schema
 ms.assetid: 6c299de8-2087-4aeb-8e66-2bc7586509a6
 description: ContactsFolder元素表示的邮箱中包含联系人文件夹。
-ms.openlocfilehash: 997b4f603198e6d05a011c4ef6bac7fe4dfbfe52
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 54a91b74160ffacdc5f54a658919ee60519ea803
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529432"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536811"
 ---
 # <a name="contactsfolder"></a>ContactsFolder
 
-本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **ContactsFolder**元素表示的邮箱中包含联系人文件夹。 
+本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **ContactsFolder** 元素表示的邮箱中包含联系人文件夹。 
   
 ```xml
 <ContactsFolder>
@@ -78,7 +78,7 @@ ms.locfileid: "44529432"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

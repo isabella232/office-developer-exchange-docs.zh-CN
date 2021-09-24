@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - WorkingPeriod
 api_type:
 - schema
 ms.assetid: 3b4e48af-9880-42b9-a0dc-dae7ac43c264
 description: WorkingPeriod 元素包含邮箱用户的工作周天数和小时数。
-ms.openlocfilehash: 5c217169fb193d4bb6dae4e18570873d55de6127
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 052d0e053b5a5c29da093bc63ddf5d2c9e640541
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459677"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59537217"
 ---
 # <a name="workingperiod"></a>WorkingPeriod
 
-**WorkingPeriod**元素包含邮箱用户的工作周天数和小时数。 
+**WorkingPeriod** 元素包含邮箱用户的工作周天数和小时数。 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -58,19 +58,19 @@ ms.locfileid: "44459677"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[DayOfWeek （WorkingPeriod）](dayofweek-workingperiod.md) <br/> |包含为邮箱用户计划的工作日列表。  <br/> |
-|[StartTimeInMinutes](starttimeinminutes.md) <br/> |表示邮箱用户的工作日的开始日期。  <br/> |
-|[EndTimeInMinutes](endtimeinminutes.md) <br/> |表示邮箱用户的工作日的结束日期。  <br/> |
+|[DayOfWeek (WorkingPeriod)](dayofweek-workingperiod.md) <br/> |包含为邮箱用户安排的工作天列表。  <br/> |
+|[StartTimeInMinutes](starttimeinminutes.md) <br/> |表示邮箱用户的工作日开始。  <br/> |
+|[EndTimeInMinutes](endtimeinminutes.md) <br/> |表示邮箱用户的工作日结束。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[WorkingPeriodArray](workingperiodarray.md) <br/> |包含邮箱用户的工作时间段信息。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/WorkingPeriodArray` <br/> |
+|[WorkingPeriodArray](workingperiodarray.md) <br/> |包含邮箱用户的工作时间信息。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/WorkingPeriodArray` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-所有子元素都按它们出现的顺序列出。 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
+所有子元素都按其发生顺序列出。 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
 ## <a name="element-information"></a>元素信息
 

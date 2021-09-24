@@ -5,38 +5,38 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetSharingMetadata
 api_type:
 - schema
 ms.assetid: eaf29427-ecf8-4a5e-9a54-db2e6414b35e
-description: GetSharingMetadata 操作获取一个不透明的身份验证令牌，用于标识共享邀请。
-ms.openlocfilehash: 0390b9caa7b2e9847b1e8dcdc1b911a35e3c5864
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetSharingMetadata 操作获取标识共享邀请的不透明身份验证令牌。
+ms.openlocfilehash: c7b2d021f618abe5e49022949e85aa212184800c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530181"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516900"
 ---
 # <a name="getsharingmetadata-operation"></a>GetSharingMetadata 操作
 
-**GetSharingMetadata**操作获取一个不透明的身份验证令牌，用于标识共享邀请。 
+**GetSharingMetadata** 操作获取标识共享邀请的不透明身份验证令牌。 
   
 ## <a name="soap-headers"></a>SOAP 标头
 
-**GetSharingMetadata**操作可以使用下表中列出和描述的 SOAP 标头。 
+**GetSharingMetadata** 操作可以使用下表中列出和描述的 SOAP 标头。 
   
 |**Header**|**元素**|**说明**|
 |:-----|:-----|:-----|
 |RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。  <br/> |
-|ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器版本。  <br/> |
+|ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器的版本。  <br/> |
    
 ## <a name="getsharingmetadata-request-example"></a>GetSharingMetadata 请求示例
 
 ### <a name="description"></a>Description
 
-下面的示例演示如何形成请求以获取标识共享邀请的不透明身份验证令牌。 在此示例中，user1@contoso.com 想要共享由[IdOfFolderToShare](idoffoldertoshare.md)元素使用 user1@fabikam.com 和 user2@test.com 指定的文件夹。 
+以下示例演示如何形成请求，以获取标识共享邀请的不透明身份验证令牌。 本示例中，user1@contoso.com 希望将 [IdOfFolderToShare](idoffoldertoshare.md) 元素指定的文件夹与 user1@fabikam.com 和 user2@test.com。 
   
 ### <a name="code"></a>代码
 
@@ -65,13 +65,13 @@ ms.locfileid: "44530181"
 
 ### <a name="comments"></a>备注
 
-[收件人（ArrayOfSmtpAddressType）](recipients-arrayofsmtpaddresstype.md)元素包含共享邀请的每个预期收件人的一个[SmtpAddress](smtpaddress.md)元素。 
+[Recipients (ArrayOfSmtpAddressType) ](recipients-arrayofsmtpaddresstype.md)元素包含共享邀请的每个预期收件人的一个[SmtpAddress](smtpaddress.md)元素。 
   
 ## <a name="successful-getsharingmetadata-response"></a>成功的 GetSharingMetadata 响应
 
 ### <a name="description"></a>Description
 
-下面的示例演示对**GetSharingMetadata**请求的成功响应。 在此示例中，在对应的**GetSharingMetadata**请求中指定了两个收件人： user1@fabrikam.com 和 user2@test.com。 
+以下示例显示了对 **GetSharingMetadata** 请求的成功响应。 本示例在对应的 **GetSharingMetadata** 请求中指定了两个收件人：user1@fabrikam.com 和 user2@test.com。 
   
 ### <a name="code"></a>代码
 
@@ -156,17 +156,17 @@ ms.locfileid: "44530181"
 
 ### <a name="comments"></a>备注
 
-响应包含由**GetSharingMetadata**请求中指定的有效收件人表示的每个组织的一个[EncryptedSharedFolderData](encryptedsharedfolderdata.md)元素。 
+该响应包含每个组织的一个 [EncryptedSharedFolderData](encryptedsharedfolderdata.md) 元素，该元素由 **GetSharingMetadata** 请求中指定的有效收件人表示。 
   
-即使在请求中指定了无效的收件人， **GetSharingMetadata**请求也将成功。 [InvalidRecipients](invalidrecipients.md)元素包含有关无效收件人的信息。 有关收件人可能无效的原因的信息，请参阅[ResponseCode （InvalidRecipientResponseCodeType）](responsecode-invalidrecipientresponsecodetype.md)。
+**GetSharingMetadata** 请求将成功，即使请求中指定了无效收件人。 [InvalidRecipients](invalidrecipients.md)元素包含有关无效收件人的信息。 有关收件人可能无效的原因的信息，请参阅 [ResponseCode (InvalidRecipientResponseCodeType) ](responsecode-invalidrecipientresponsecodetype.md)。
   
-如果所有预期收件人都无效，则[EncryptedSharedFolderDataCollection](encryptedsharedfolderdatacollection.md)元素将为空。 
+如果所有目标收件人都无效， [则 EncryptedSharedFolderDataCollection](encryptedsharedfolderdatacollection.md) 元素将为空。 
   
 ## <a name="getsharingmetadata-error-response"></a>GetSharingMetadata 错误响应
 
 ### <a name="description"></a>Description
 
-下面的示例演示对**GetSharingMetadata**请求的错误响应。 
+以下示例显示对 **GetSharingMetadata** 请求的错误响应。 
   
 ### <a name="code"></a>代码
 
@@ -209,7 +209,7 @@ ms.locfileid: "44530181"
 [GetSharingMetadataResponseMessageType](https://msdn.microsoft.com/library/ExchangeWebServices.GetSharingMetadataResponseMessageType.aspx)
 
 
-[Exchange 中的 EWS 操作](ews-operations-in-exchange.md)
+[EWS 操作在Exchange](ews-operations-in-exchange.md)
   
 - [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

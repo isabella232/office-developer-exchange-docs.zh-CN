@@ -1,31 +1,31 @@
 ---
-title: 房间
+title: Room
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Room
 api_type:
 - schema
 ms.assetid: a2cde8b8-2d31-4ebf-8171-f4dfd650d079
-description: 聊天室元素表示会议室。
-ms.openlocfilehash: 3d5d587853e435016fdff6b9d268892a35fea825
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Room 元素表示会议室。
+ms.openlocfilehash: 062b89652ba809f245c1ac3ccee1005cbf0eabbd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460531"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523536"
 ---
-# <a name="room"></a>房间
+# <a name="room"></a>Room
 
-**聊天室**元素表示会议室。 
+**Room** 元素表示会议室。 
   
-[所属](rooms.md)
+[Rooms](rooms.md)
   
-[房间](room.md)
+[Room](room.md)
   
 ```XML
 <Room>
@@ -46,13 +46,13 @@ ms.locfileid: "44460531"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Id （EmailAddressType）](id-emailaddresstype.md) <br/> |包含表示会议室的电子邮件地址和显示名称的标识符。  <br/> |
+|[Id (EmailAddressType)](id-emailaddresstype.md) <br/> |包含电子邮件地址和代表会议室显示名称标识符。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[所属](rooms.md) <br/> |定义与常见功能相关联的会议室的列表，如位于同一建筑物中。  <br/> |
+|[Rooms](rooms.md) <br/> |定义与常见功能（如位于同一大楼）关联的会议室列表。  <br/> |
    
 ## <a name="remarks"></a>说明
 

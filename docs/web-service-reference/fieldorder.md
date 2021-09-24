@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FieldOrder
 api_type:
 - schema
 ms.assetid: b9364842-bbe2-4221-afef-bf5022bc89ec
-description: FieldOrder 元素表示对结果进行排序所依据的单个字段，并指示排序的方向。
-ms.openlocfilehash: 19dee7175d541dd99b53e004ea8ccd785b619184
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: FieldOrder 元素表示一个字段，用于对结果进行排序，并指示排序方向。
+ms.openlocfilehash: 9130e3ccb5319408399628d280f8101c9e1697aa
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461259"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510073"
 ---
 # <a name="fieldorder"></a>FieldOrder
 
-**FieldOrder**元素表示对结果进行排序所依据的单个字段，并指示排序的方向。 
+**FieldOrder** 元素表示一个字段，用于对结果进行排序，并指示排序方向。 
   
 ```xml
 <FieldOrder Order="">
@@ -51,7 +51,7 @@ ms.locfileid: "44461259"
 
 |**属性**|**说明**|
 |:-----|:-----|
-|**Order** <br/> | 描述排序次序的方向。<br/><br/> 以下是可能的值： <br/> <br/>-升序  <br/>-降序  <br/> |
+|**Order** <br/> | 描述排序顺序方向。<br/><br/> 以下是可能的值： <br/> <br/>- 升序  <br/>- 降序  <br/> |
    
 ### <a name="child-elements"></a>子元素
 

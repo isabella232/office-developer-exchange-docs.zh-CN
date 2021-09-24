@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DLExpansion
 api_type:
 - schema
 ms.assetid: 9e50278d-fe6a-45e2-a72b-0fb06809e128
-description: DLExpansion 元素包含一个包含在通讯组列表中的邮箱数组。
-ms.openlocfilehash: 079ad1c0f114d201f5d1b91c3fd9bb45b943cc1a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DLExpansion 元素包含一组包含在通讯组列表中的邮箱。
+ms.openlocfilehash: 7c214948b133ea2f30a47b2321c27b555b90e2fa
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456995"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517208"
 ---
 # <a name="dlexpansion"></a>DLExpansion
 
-**DLExpansion**元素包含一个包含在通讯组列表中的邮箱数组。 
+**DLExpansion** 元素包含一组包含在通讯组列表中的邮箱。 
   
 - [ExpandDLResponse](expanddlresponse.md) 
 - [ResponseMessages](responsemessages.md) 
@@ -43,10 +43,10 @@ ms.locfileid: "44456995"
 
 |**属性**|**说明**|
 |:-----|:-----|
-|**IndexedPagingOffset** <br/> |表示在使用索引页视图时应用于下一个请求的下一个索引。  <br/> |
-|**NumeratorOffset** <br/> |表示在使用分数页面视图时用于下一个请求的新的分子值。  <br/> |
-|**AbsoluteDenominator** <br/> |表示使用分数页面视图时用于下一个请求的下一个分母。  <br/> |
-|**IncludesLastItemInRange** <br/> |指示当前结果是否包含查询中的最后一项，以便不需要进行其他分页。  <br/> |
+|**IndexedPagingOffset** <br/> |表示应在使用索引页面视图时用于下一个请求的下一个索引。  <br/> |
+|**NumeratorOffset** <br/> |表示使用分数页面视图时用于下一个请求的新分子值。  <br/> |
+|**AbsoluteDenominator** <br/> |表示在使用分数页面视图时用于下一个请求的下一个分母。  <br/> |
+|**IncludesLastItemInRange** <br/> |指示当前结果是否包含查询中的最后一项，以便不需要其他分页。  <br/> |
 |**TotalItemsInView** <br/> |表示视图中的项目总数。  <br/> |
    
 ### <a name="child-elements"></a>子元素

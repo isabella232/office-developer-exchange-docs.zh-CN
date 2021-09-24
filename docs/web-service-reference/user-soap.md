@@ -1,24 +1,24 @@
 ---
-title: User （SOAP）
+title: User (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: c6bc0031-bc1d-41bd-84e4-9074a5b77012
 description: User 元素表示单个用户的标识。
-ms.openlocfilehash: f151ffa8050a10cdbb4562471d815f8692596cc3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 545869e21726d60ecdd503106c743d66fc752414
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456344"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517376"
 ---
-# <a name="user-soap"></a>User （SOAP）
+# <a name="user-soap"></a>User (SOAP)
 
-**User**元素表示单个用户的标识。 
+**User** 元素表示单个用户的标识。 
   
 ```XML
 <User>
@@ -41,15 +41,15 @@ ms.locfileid: "44456344"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[LegacyDN （SOAP）](legacydn-soap.md) <br/> |表示备用邮箱旧版可分辨名称。  <br/> |
-|[邮箱（SOAP）](mailbox-soap.md) <br/> |包含要发现的用户的电子邮件地址。  <br/> |
-|[RequestedSettings （SOAP）](requestedsettings-soap.md) <br/> |包含所请求的配置设置的名称。  <br/> |
+|[LegacyDN (SOAP)](legacydn-soap.md) <br/> |表示备用邮箱旧版可分辨名称。  <br/> |
+|[Mailbox (SOAP)](mailbox-soap.md) <br/> |包含要发现的用户的电子邮件地址。  <br/> |
+|[RequestedSettings (SOAP)](requestedsettings-soap.md) <br/> |包含请求的配置设置的名称。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Users （SOAP）](users-soap.md) <br/> |表示**用户**元素的集合。  <br/> |
+|[Users (SOAP)](users-soap.md) <br/> |表示 User **元素** 的集合。  <br/> |
    
 ## <a name="text-value"></a>文本值
 

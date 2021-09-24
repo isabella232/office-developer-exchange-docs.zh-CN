@@ -1,27 +1,27 @@
 ---
-title: 数据
+title: Data
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Data
 api_type:
 - schema
 ms.assetid: f875e6c2-be18-439a-a7b1-bb49a149b538
 description: Data 元素包含表示共享数据的加密数据。
-ms.openlocfilehash: cd13d68afcd0f40486865887676d2b5669c276f8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 1c28790467674e3ef44c9f0dc9e1fd706f880641
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529215"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535861"
 ---
-# <a name="data"></a>数据
+# <a name="data"></a>Data
 
-**Data**元素包含表示共享数据的加密数据。 
+**Data** 元素包含表示共享数据的加密数据。 
   
 - [EncryptedSharedFolderData](encryptedsharedfolderdata.md)  
 - [Data](data.md)
@@ -54,7 +54,7 @@ ms.locfileid: "44529215"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

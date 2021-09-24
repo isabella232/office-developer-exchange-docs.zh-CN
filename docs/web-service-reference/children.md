@@ -1,27 +1,27 @@
 ---
-title: 子代
+title: Children
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Children
 api_type:
 - schema
 ms.assetid: ceaffddd-f9bc-43ea-b348-a20fdade738f
-description: "\"子女\" 元素包含联系人子女的姓名。"
-ms.openlocfilehash: de398c93590a4a9ae93b6aa46994c9295d051b84
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Children 元素包含联系人的子项的名称。
+ms.openlocfilehash: 6090dc1a2b684ddff4ab0964de3308ceed25b876
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460223"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536904"
 ---
-# <a name="children"></a>子代
+# <a name="children"></a>Children
 
-"**子女**" 元素包含联系人子女的姓名。 
+**Children** 元素包含联系人的子项的名称。 
   
 ```xml
 <Children>
@@ -42,7 +42,7 @@ ms.locfileid: "44460223"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[字符串](string.md) <br/> |包含联系人子女的姓名。  <br/> |
+|[字符串](string.md) <br/> |包含联系人的子级的名称。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 

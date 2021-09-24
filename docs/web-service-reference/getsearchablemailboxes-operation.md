@@ -5,53 +5,53 @@ ms.date: 01/24/2020
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 47f8ff57-4835-4d2d-9136-44afb31a4cbe
 description: 查找有关 GetSearchableMailboxes EWS 操作的信息。
-ms.openlocfilehash: e893a66eb1b638479eeccc6bd7548cb020f37243
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 385a1e317069641c51249c9522cf404ecf961722
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530837"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523081"
 ---
 # <a name="getsearchablemailboxes-operation"></a>GetSearchableMailboxes 操作
 
 > [!IMPORTANT]
-> 从2020年4月1日起，GetSearchableMailboxes 操作将不再在 Exchange Online 中可用。 此操作不会受到 Exchange Server 内部部署版本的影响。 有关详细信息，请参阅[在 Exchange Online 中停用旧版电子数据展示工具](https://docs.microsoft.com/microsoft-365/compliance/legacy-ediscovery-retirement#getsearchablemailboxes-setholdonmailboxes-and-getholdonmailboxes-operations-in-the-ews-api)。
+> 从 2020 年 4 月 1 日起，GetSearchableMailboxes 操作将不再在 Exchange Online。 此操作在内部部署版本的 Exchange Server。 有关详细信息，请参阅停用旧版[电子数据展示Exchange Online。](https://docs.microsoft.com/microsoft-365/compliance/legacy-ediscovery-retirement#getsearchablemailboxes-setholdonmailboxes-and-getholdonmailboxes-operations-in-the-ews-api)
 
-查找有关**GetSearchableMailboxes** EWS 操作的信息。 
+查找有关 **GetSearchableMailboxes** EWS 操作的信息。 
   
-**GetSearchableMailboxes**操作获取用于发现搜索的可搜索邮箱的范围集合。 响应中返回的可搜索邮箱的范围由搜索筛选器和是否扩展通讯组成员资格决定。 
+**GetSearchableMailboxes** 操作获取发现搜索的一组作用域内可搜索邮箱。 响应中返回的可搜索邮箱的范围由搜索筛选器以及是否扩展通讯组成员身份决定。 
 
 > [!NOTE] 
-> 此操作旨在用于搜索筛选器，并仅检索前几千位;它并不用于详尽的检索。
+> 此操作旨在与搜索筛选器一同使用，并且只检索前几千个;它并不用于详尽检索。
   
 Exchange Server 2013 中引入了此操作。
   
 ## <a name="using-the-getsearchablemailboxes-operation"></a>使用 GetSearchableMailboxes 操作
 
-**GetSearchableMailboxes**操作获取有关可搜索邮箱的信息。 可以在请求中传递以下参数： 
+**GetSearchableMailboxes** 操作获取有关可搜索邮箱的信息。 可以在请求中传递下列参数： 
   
-- [过滤](searchfilter.md)-接受一个电子邮件别名作为参数。 
+- [SearchFilter](searchfilter.md) - 接受单个电子邮件别名作为参数。 
     
-- [ExpandGroupMembership](expandgroupmembership.md) -指示是否在响应中返回的结果中扩展通讯组成员资格。 
+- [ExpandGroupMembership](expandgroupmembership.md) - 指示是否在响应返回的结果中展开通讯组成员身份。 
     
-如果搜索筛选器中设置的电子邮件别名是通讯组，且通讯组成员身份未扩展，则响应将包含通讯组的邮箱信息。 如果搜索筛选器中设置的电子邮件别名是通讯组，并且展开了通讯组成员身份，则响应将包含作为通讯组成员的每个邮箱的邮箱信息。 如果搜索筛选器包含单个用户的别名，则响应将包含单个用户的邮箱信息。 如果[GetSearchableMailboxes](getsearchablemailboxes.md)元素为空，则响应将包含所有可搜索的邮箱。 这与将空的[过滤](searchfilter.md)元素和[ExpandGroupMembership](expandgroupmembership.md)元素设置为**false**相同。
+如果在搜索筛选器中设置的电子邮件别名是通讯组，并且通讯组成员身份未扩展，则响应将包含通讯组的邮箱信息。 如果在搜索筛选器中设置的电子邮件别名是通讯组，并且通讯组成员身份已扩展，则响应中将包含该通讯组的成员的每个邮箱的邮箱信息。 如果搜索筛选器包含单个用户的别名，则响应将包含单个用户的邮箱信息。 如果 [GetSearchableMailboxes](getsearchablemailboxes.md) 元素为空，响应将包含所有可搜索的邮箱。 这与将空 [的 SearchFilter](searchfilter.md) 元素和 [ExpandGroupMembership](expandgroupmembership.md) 元素设置为 **false 相同**。
   
 ### <a name="getsearchablemailboxes-operation-soap-headers"></a>GetSearchableMailboxes 操作 SOAP 标头
 
-**GetSearchableMailboxes**操作可以使用下表中列出的 SOAP 标头。 
+**GetSearchableMailboxes** 操作可以使用下表中列出的 SOAP 标头。 
   
 |头名称|元素|说明|
 |:-----|:-----|:-----|
-|**Get-managementrole** <br/> |[Get-managementrole](managementrole.md) <br/> |标识调用方发出请求所需的服务器角色。 此标头适用于请求。  <br/> |
+|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |标识调用方进行请求所需的服务器角色。 此标头适用于请求。  <br/> |
 |**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。 此标头适用于请求。  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器版本。 此标头适用于响应。  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器的版本。 此标头适用于响应。  <br/> |
    
 ## <a name="getsearchablemailboxes-operation-request-example-request-information-about-a-distribution-group"></a>GetSearchableMailboxes 操作请求示例：请求有关通讯组的信息
 
-以下示例的**GetSearchableMailboxes**操作请求显示如何获取 lolgroup 通讯组的邮箱信息。 
+**GetSearchableMailboxes** 操作请求的以下示例显示如何获取 lolgroup 通讯组的邮箱信息。 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -74,12 +74,12 @@ Exchange Server 2013 中引入了此操作。
 请求 SOAP 正文包含以下元素：
   
 - [GetSearchableMailboxes](getsearchablemailboxes.md)   
-- [过滤](searchfilter.md)    
+- [SearchFilter](searchfilter.md)    
 - [ExpandGroupMembership](expandgroupmembership.md)
     
 ## <a name="successful-getsearchablemailboxes-operation-response-get-information-about-a-distribution-group"></a>成功的 GetSearchableMailboxes 操作响应：获取有关通讯组的信息
 
-下面的示例演示对**GetSearchableMailboxes**操作请求的成功响应，以获取 lolgroup 通讯组的发现信息。 
+以下示例显示成功响应 **GetSearchableMailboxes** 操作请求，以获取 lolgroup 通讯组的发现信息。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -133,7 +133,7 @@ Exchange Server 2013 中引入了此操作。
     
 ## <a name="successful-getsearchablemailboxes-operation-response-get-information-about-an-expanded-distribution-group"></a>成功的 GetSearchableMailboxes 操作响应：获取有关展开的通讯组的信息
 
-下面的示例演示对**GetSearchableMailboxes**操作请求的成功响应，以获取有关已展开的 lolgroup 通讯组的成员的发现信息。 
+以下示例显示成功响应 **GetSearchableMailboxes** 操作请求，以获取有关展开的 lolgroup 通讯组的成员的发现信息。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -194,7 +194,7 @@ Exchange Server 2013 中引入了此操作。
     
 ## <a name="getsearchablemailboxes-operation-error-response"></a>GetSearchableMailboxes 操作错误响应
 
-下面的示例演示对**GetSearchableMailboxes**操作请求的错误响应。 这是对在**ExpandGroupMembership**参数设置为**true**时获取所有可搜索邮箱的请求的响应。 
+以下示例显示对 **GetSearchableMailboxes** 操作请求的错误响应。 这是对在 **ExpandGroupMembership** 参数设置为 true 时获取所有可搜索邮箱的请求 **的响应**。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -232,11 +232,11 @@ Exchange Server 2013 中引入了此操作。
 - [DescriptiveLinkKey](descriptivelinkkey.md) 
 - [SearchableMailboxes](searchablemailboxes.md)
     
-有关对 EWS 通用的其他错误代码以及特定于此操作的错误代码，请参阅[ResponseCode](responsecode.md)。
+有关 EWS 通用且特定于此操作的其他错误代码，请参阅 [ResponseCode](responsecode.md)。
   
 ## <a name="see-also"></a>另请参阅
 
-- [Exchange 中的 EWS 操作](ews-operations-in-exchange.md)   
+- [EWS 操作在Exchange](ews-operations-in-exchange.md)   
 - [SetHoldOnMailboxes 操作](setholdonmailboxes-operation.md)   
 - [SearchMailboxes 操作](searchmailboxes-operation.md)   
 - [GetHoldOnMailboxes 操作](getholdonmailboxes-operation.md)    

@@ -1,26 +1,26 @@
 ---
-title: WebClientUrlCollectionSetting （SOAP）
+title: WebClientUrlCollectionSetting (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: d49329d7-e095-474f-8391-c3d61cac2e95
-description: WebClientUrlCollectionSetting （SOAP）元素表示一个用户设置，该设置是 Exchange Web 客户端 Url 的集合。
-ms.openlocfilehash: 5cfa82517ebfa7f6c019ad179fb8b2def8a35265
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: WebClientUrlCollectionSetting (SOAP) 元素表示作为 Web 客户端 URL Exchange集合的用户设置。
+ms.openlocfilehash: 622c3fe49a89eb2288d3bd56a6a452e656a25e9b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464964"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517264"
 ---
-# <a name="webclienturlcollectionsetting-soap"></a>WebClientUrlCollectionSetting （SOAP）
+# <a name="webclienturlcollectionsetting-soap"></a>WebClientUrlCollectionSetting (SOAP)
 
-[WebClientUrlCollectionSetting （SOAP）](webclienturlcollectionsetting-soap.md)元素表示一个用户设置，该设置是 Exchange Web 客户端 url 的集合。 
+[WebClientUrlCollectionSetting](webclienturlcollectionsetting-soap.md) (SOAP) 元素表示作为 Web 客户端 URL Exchange集合的用户设置。 
   
-[WebClientUrlCollectionSetting （SOAP）](webclienturlcollectionsetting-soap.md)
+[WebClientUrlCollectionSetting (SOAP)](webclienturlcollectionsetting-soap.md)
   
 ```XML
 <WebClientUrlCollection>
@@ -41,7 +41,7 @@ ms.locfileid: "44464964"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[WebClientUrl （SOAP）](webclienturl-soap.md) <br/> |表示 Exchange Web 客户端的 URL。  <br/> |
+|[WebClientUrl (SOAP)](webclienturl-soap.md) <br/> |表示 Web 客户端Exchange URL。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -57,7 +57,7 @@ ms.locfileid: "44464964"
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |架构名称  <br/> |自动发现架构  <br/> |
-|验证文件  <br/> |消息 .xsd  <br/> |
+|验证文件  <br/> |messages.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
    
 

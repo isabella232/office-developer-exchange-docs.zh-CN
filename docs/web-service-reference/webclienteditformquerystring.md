@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - WebClientEditFormQueryString
 api_type:
 - schema
 ms.assetid: 9e571021-d58f-424b-8db2-48cf683533dc
-description: WebClientEditFormQueryString 元素表示用于连接到 Outlook web App 终结点以在 Outlook Web App 中编辑项目的 URL。
-ms.openlocfilehash: d6f20d1342746a764f754a6b20633a7bded3f6c1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: WebClientEditFormQueryString 元素表示连接到 Outlook Web App 终结点以编辑网站中的项目的 URL Outlook Web App。
+ms.openlocfilehash: d6e67d34de5b58624060beaadb4db1c322230bc0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464985"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59537292"
 ---
 # <a name="webclienteditformquerystring"></a>WebClientEditFormQueryString
 
-**WebClientEditFormQueryString**元素表示用于连接到 Outlook web app 终结点以在 Outlook web app 中编辑项目的 URL。 
+**WebClientEditFormQueryString** 元素表示要连接到 Outlook Web App 终结点以编辑网站中的项目的 URL Outlook Web App。 
   
 ```XML
 <WebClientEditFormQueryString/>
@@ -53,16 +53,16 @@ ms.locfileid: "44464985"
 |[MeetingRequest](meetingrequest.md) <br/> |表示 Exchange 存储中的会议请求。  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |表示 Exchange 存储中的会议响应。  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |表示 Exchange 电子邮件。  <br/> |
-|[PostItem](postitem.md) <br/> |表示 Exchange 存储中的公告项。  <br/> |
+|[PostItem](postitem.md) <br/> |代表应用商店中的Exchange项。  <br/> |
 |[任务](task.md) <br/> |表示 Exchange 存储中的任务。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-如果使用此元素，则需要一个表示字符串的文本值。
+如果使用此元素，则代表字符串的文本值是必需的。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-对于从 Exchange Server 2013 （包括 Exchange Online）开始的 Exchange 版本，请使用[WebClientReadFormQueryString](webclientreadformquerystring.md)元素中的信息在 Outlook Web App 中打开草稿项目，然后使用 UI 编辑草稿项目。 **WebClientEditFormQueryString**元素不适用于从 exchange Server 2013 （包括 exchange Online）开始的 exchange 版本。 
+对于 Exchange 从 Exchange Server 2013 开始的版本（包括 Exchange Online），请使用[WebClientReadFormQueryString](webclientreadformquerystring.md)元素的信息在 Outlook Web App 中打开草稿项，然后使用 UI 编辑草稿项。 **WebClientEditFormQueryString** 元素不适用于从 Exchange 2013 Exchange Server的版本，包括 Exchange Online。 
   
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 57fa2599-8629-438a-85a7-dd3d54cfb8da
 description: PasswordExpirationDate 元素提供邮箱帐户的密码到期日期。
-ms.openlocfilehash: 7bdca88739b911c37cb95228d3b36653faa1b7fd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 2fca95252607da3cd490d5017a9c67e68de896d9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465721"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59534821"
 ---
 # <a name="passwordexpirationdate"></a>PasswordExpirationDate
 
-**PasswordExpirationDate**元素提供邮箱帐户的密码到期日期。 
+**PasswordExpirationDate** 元素提供邮箱帐户的密码到期日期。 
   
 ```XML
 <PasswordExpirationDate
@@ -40,13 +40,13 @@ ms.locfileid: "44465721"
 
 |**元素名**|**说明**|
 |:-----|:-----|
-|[GetPasswordExpirationDate 操作](getpasswordexpirationdate-operation.md) <br/> |定义获取电子邮件帐户的密码到期日期的请求。  <br/> |
+|[GetPasswordExpirationDate 操作](getpasswordexpirationdate-operation.md) <br/> |定义一个请求，请求获取电子邮件帐户的密码到期日期。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

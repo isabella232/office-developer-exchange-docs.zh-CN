@@ -1,32 +1,32 @@
 ---
-title: Mailbox.ewsurl （POX）
+title: EwsUrl (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 73cebc8c-770a-4f1b-b93e-51e7e2f3e342
-description: Mailbox.ewsurl 元素指定启用邮件的用户的 Exchange Web 服务（EWS）的最佳终结点实例的 URL。
-ms.openlocfilehash: 295e65ddf14524a41c5cb714df78703dbf855a05
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: EwsUrl 元素为启用邮件的用户指定 Exchange Web 服务 (EWS) 的最佳终结点实例的 URL。
+ms.openlocfilehash: de69805729520965f0d92f98aa9caaef178b8bc9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44454349"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535463"
 ---
-# <a name="ewsurl-pox"></a>Mailbox.ewsurl （POX）
+# <a name="ewsurl-pox"></a>EwsUrl (POX)
 
-**Mailbox.ewsurl**元素指定启用邮件的用户的 Exchange Web 服务（EWS）的最佳终结点实例的 URL。 
+**EwsUrl** 元素为启用邮件的用户指定 Exchange Web 服务 (EWS) 的最佳终结点实例的 URL。 
   
-[自动发现（POX）](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[响应（POX）](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[帐户（POX）](account-pox.md)
+[Account (POX)](account-pox.md)
   
-[协议（POX）](protocol-pox.md)
+[Protocol (POX)](protocol-pox.md)
   
-[Mailbox.ewsurl （POX）](ewsurl-pox.md)
+[EwsUrl (POX)](ewsurl-pox.md)
   
 ```XML
 <EwsUrl/>
@@ -48,19 +48,19 @@ ms.locfileid: "44454349"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[协议（POX）](protocol-pox.md) <br/> |包含将客户端连接到运行 Microsoft Exchange Server 且安装了客户端访问服务器角色的计算机的规范。  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |包含用于将客户端连接到运行已安装客户端访问服务器角色Microsoft Exchange Server的计算机的规范。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
 文本值表示用户的 EWS 终结点的 URL。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-**Mailbox.ewsurl**元素是**Protocol**元素的可选子元素。 
+**EwsUrl** 元素是 Protocol 元素的可选 **子** 元素。 
   
 ## <a name="see-also"></a>另请参阅
 
 
 
-[Exchange 的 POX 自动发现 XML 元素](pox-autodiscover-xml-elements-for-exchange.md)
+[用于存储的 POX 自动发现 XML Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

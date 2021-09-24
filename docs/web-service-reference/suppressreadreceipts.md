@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f0805560-7a2f-455b-94d2-ec4f1e3652c3
-description: SuppressReadReceipts 元素指示是否应禁止显示已读回执。
-ms.openlocfilehash: aa604d4907582bd73727ba664958a589a222f9cb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SuppressReadReceipts 元素指示是否应该抑制已读回执。
+ms.openlocfilehash: 1f63f46f4e74a3123661caba39b737910bc2ef30
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455931"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517649"
 ---
 # <a name="suppressreadreceipts"></a>SuppressReadReceipts
 
-**SuppressReadReceipts**元素指示是否应禁止显示已读回执。 
+**SuppressReadReceipts** 元素指示是否应该抑制已读回执。 
   
 ```XML
 <SuppressReadReceipts>true | false</SuppressReadReceipts>
@@ -42,9 +42,9 @@ ms.locfileid: "44455931"
   
 ## <a name="text-value"></a>文本值
 
-如果**SuppressReadReciepts**元素的文本值为**true** ，则表示已取消阅读回执。 **如果值为 false** ，则表示已读回执将发送给发件人。 
+**SuppressReadReciepts** 元素的文本值 **true** 指示抑制已读回执。 false **值表示** 将已读回执发送给发件人。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

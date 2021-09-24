@@ -5,47 +5,47 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9279c3ad-f7c8-4bbc-b0a7-2c78416cb39a
 description: 查找有关 GetNonIndexableItemDetails EWS 操作的信息。
-ms.openlocfilehash: a443e04b0622ddbaaeb1bc8c04bfd05679c6207e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: d494765d56bc06c2e7f90b99174622b00449116d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530209"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516970"
 ---
 # <a name="getnonindexableitemdetails-operation"></a>GetNonIndexableItemDetails 操作
 
-查找有关**GetNonIndexableItemDetails** EWS 操作的信息。 
+查找有关 **GetNonIndexableItemDetails** EWS 操作的信息。 
   
-**GetNonIndexableItemDetails**操作检索有关无法编制索引的项目的详细信息。 这包括但不限于项目标识符、错误代码、错误说明、对项目编制索引时，以及有关文件的其他信息。 
+**GetNonIndexableItemDetails** 操作检索有关无法编制索引的项目的详细信息。 这包括（但不限于）项目标识符、错误代码、错误描述、尝试对项目编制索引时以及有关文件的其他信息。 
   
 > [!NOTE]
-> 虽然架构指示可以搜索多个邮箱，但在 Exchange 2013 的初始发行版中，该服务仅支持获取单个邮箱中 nonindexable 项目的项目详细信息。 
+> 尽管架构指示可以搜索多个邮箱，但在 Exchange 2013 的初始发布版本中，该服务仅支持获取单个邮箱中不可搜索的项目的项目详细信息。 
   
 Exchange Server 2013 中引入了此操作。
   
 ## <a name="using-the-getnonindexableitemdetails-operation"></a>使用 GetNonIndexableItemDetails 操作
 
-**GetNonIndexableItemDetails**操作标识无法编制索引的邮箱项目，并提供有关无法对这些项目编制索引的原因的信息。 在发现搜索过程中不会搜索无法编制索引的项目。 
+**GetNonIndexableItemDetails** 操作标识无法编制索引的邮箱项目，并提供有关无法对项目编制索引的原因的信息。 无法在发现搜索期间搜索无法编制索引的项目。 
   
 ### <a name="getnonindexableitemdetails-operation-soap-headers"></a>GetNonIndexableItemDetails 操作 SOAP 标头
 
-**GetNonIndexableItemDetails**操作可以使用下表中列出的 SOAP 标头。 
+**GetNonIndexableItemDetails** 操作可以使用下表中列出的 SOAP 标头。 
   
 |**标头名称**|**元素**|**说明**|
 |:-----|:-----|:-----|
-|**Get-managementrole** <br/> |[Get-managementrole](managementrole.md) <br/> |标识调用方发出请求所需的服务器角色。 此标头适用于请求。  <br/> |
+|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |标识调用方进行请求所需的服务器角色。 此标头适用于请求。  <br/> |
 |**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。 此标头适用于请求。  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器版本。 此标头适用于响应。  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器的版本。 此标头适用于响应。  <br/> |
    
 ## <a name="getnonindexableitemdetails-operation-request-example-get-the-details-of-an-item-that-cannot-be-indexed"></a>GetNonIndexableItemDetails 操作请求示例：获取无法编制索引的项目的详细信息
 
-以下示例的**GetNonIndexableItemDetails**操作请求显示如何请求无法为单个邮箱编制索引的项目的详细信息。 同时在主邮箱和存档邮箱中执行搜索。 
+**GetNonIndexableItemDetails** 操作请求的以下示例显示如何请求无法为单个邮箱编制索引的项目的详细信息。 搜索在主邮箱和存档邮箱之间执行。 
   
 > [!NOTE]
-> 此示例中的所有旧版域名都将被缩短以保持可读性。 
+> 此示例中所有旧域名已缩短，以保持可读性。 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -71,7 +71,7 @@ Exchange Server 2013 中引入了此操作。
   
 - [GetNonIndexableItemDetails](getnonindexableitemdetails.md)
     
-- [邮箱（NonEmptyArrayOfLegacyDNsType）](mailboxes-nonemptyarrayoflegacydnstype.md)
+- [Mailboxes (NonEmptyArrayOfLegacyDNsType)](mailboxes-nonemptyarrayoflegacydnstype.md)
     
 - [LegacyDN](legacydn.md)
     
@@ -79,7 +79,7 @@ Exchange Server 2013 中引入了此操作。
     
 ## <a name="successful-getnonindexableitemdetails-operation-response"></a>成功的 GetNonIndexableItemDetails 操作响应
 
-下面的示例演示对**GetNonIndexableItemDetails**操作请求的成功响应，以获取无法为单个邮箱编制索引的项目。 此示例中无法编制索引的项目是 binaryfile 文件，该文件的格式未知。 
+以下示例显示成功响应 **GetNonIndexableItemDetails** 操作请求，以获取无法为单个邮箱编制索引的项目。 本示例中无法编制索引的项是 binaryfile.abc 文件，其格式未知。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -133,7 +133,7 @@ Exchange Server 2013 中引入了此操作。
     
 - [ItemId](itemid.md)
     
-- [ErrorCode （ItemIndexErrorType）](errorcode-itemindexerrortype.md)
+- [ErrorCode (ItemIndexErrorType)](errorcode-itemindexerrortype.md)
     
 - [ErrorDescription](errordescription.md)
     
@@ -151,7 +151,7 @@ Exchange Server 2013 中引入了此操作。
     
 ## <a name="getnonindexableitemdetails-operation-error-response"></a>GetNonIndexableItemDetails 操作错误响应
 
-下面的示例演示对**GetNonIndexableItemDetails**操作请求的错误响应。 这是对获取无法从多个邮箱编制索引的项目的项目详细信息的请求的响应。 
+以下示例显示对 **GetNonIndexableItemDetails** 操作请求的错误响应。 这是对请求的响应，请求获取无法从多个邮箱编制索引的项目的项目详细信息。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -187,11 +187,11 @@ Exchange Server 2013 中引入了此操作。
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-有关对 EWS 通用的其他错误代码以及特定于此操作的错误代码，请参阅[ResponseCode](responsecode.md)。
+有关 EWS 通用且特定于此操作的其他错误代码，请参阅 [ResponseCode](responsecode.md)。
   
 ## <a name="see-also"></a>另请参阅
 
-- [Exchange 中的 EWS 操作](ews-operations-in-exchange.md)
+- [EWS 操作在Exchange](ews-operations-in-exchange.md)
     
 - [GetSearchableMailboxes 操作](getsearchablemailboxes-operation.md)
     

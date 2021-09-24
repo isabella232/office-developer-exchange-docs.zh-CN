@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - WeddingAnniversary
 api_type:
 - schema
 ms.assetid: 75e3add5-a08f-4a5c-a34c-c36b8291d187
-description: WeddingAnniversary 元素包含联系人的婚礼周年纪念。
-ms.openlocfilehash: 784e4da9587a4153871e0c20f84c4cb1cfb381fc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: 一周年纪念日由一位联系人的一周年纪念日包含在一起。
+ms.openlocfilehash: 3b9f204ff66094ef7b030f2e30485d614b4c2309
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464873"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509285"
 ---
 # <a name="weddinganniversary"></a>WeddingAnniversary
 
-**WeddingAnniversary**元素包含联系人的婚礼周年纪念。 
+**一周年纪念** 日由一位联系人的一周年纪念日包含在一起。 
   
 ```xml
 <WeddingAnniversary/>
@@ -48,7 +48,7 @@ ms.locfileid: "44464873"
    
 ## <a name="text-value"></a>文本值
 
-该文本值表示联系人的婚礼周年纪念的日期。
+文本值表示联系人的周年日期。
   
 ## <a name="remarks"></a>说明
 

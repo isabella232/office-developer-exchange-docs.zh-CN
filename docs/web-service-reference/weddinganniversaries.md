@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9e1388cc-ddc4-42f7-889b-17d781e80ace
-description: WeddingAnniversaries 元素指定婚礼周年日期的数组，存储为字符串，并为关联角色的源归属标识符。
-ms.openlocfilehash: 0aa55af7a546a7a403a75e2dabb753bb8d76ece7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: 一个将周年日期存储为字符串的 ArrayAnniversaries 元素指定数组，以及关联人物的源属性的标识符。
+ms.openlocfilehash: 254bd2dcb95bed66f39edb20e065d55d6691034d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464880"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517257"
 ---
 # <a name="weddinganniversaries"></a>WeddingAnniversaries
 
-**WeddingAnniversaries**元素指定婚礼周年日期的数组，存储为字符串，并为关联角色的源归属标识符。 
+一个将周年日期存储为字符串的 **ArrayAnniversaries** 元素指定数组，以及关联人物的源属性的标识符。 
   
 ```XML
 <WeddingAnniversaries>
@@ -42,7 +42,7 @@ ms.locfileid: "44464880"
 
 [角色](persona.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 32fa8946-3d5d-4123-8127-efc2ac369553
-description: CreationTime 元素指定创建角色的时间。
-ms.openlocfilehash: 81ad700121a48355426da7432de413daacef66cd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: CreationTime 元素指定创建人员的时间。
+ms.openlocfilehash: d35d1901dc8bcd0314fa9fd4a215b11104b5555b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44443828"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536145"
 ---
 # <a name="creationtime"></a>CreationTime
 
-**CreationTime**元素指定创建角色的时间。 
+**CreationTime** 元素指定创建人员的时间。 
   
 ```XML
 <CreationTime></CreationTime>
@@ -42,9 +42,9 @@ ms.locfileid: "44443828"
   
 ## <a name="text-value"></a>文本值
 
-**CreationTime**元素的文本值是角色创建的日期和时间。 
+**CreationTime** 元素的文本值是创建人物的日期和时间。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

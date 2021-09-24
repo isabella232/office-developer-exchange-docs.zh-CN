@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - OldParentFolderId
 api_type:
 - schema
 ms.assetid: da1b8c88-c650-455d-b749-0cd160b012d8
-description: OldParentFolderId 元素包含已复制或移动的项或文件夹的父文件夹的标识符。
-ms.openlocfilehash: ad787e95f95b551393878b15783461d93ac08481
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: OldParentFolderId 元素包含已复制或移动的项目或文件夹的父文件夹的标识符。
+ms.openlocfilehash: 9cf7eb834c0c7b70f234df26b466977e8e11957a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467226"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59537455"
 ---
 # <a name="oldparentfolderid"></a>OldParentFolderId
 
-**OldParentFolderId**元素包含已复制或移动的项或文件夹的父文件夹的标识符。 
+**OldParentFolderId** 元素包含已复制或移动的项目或文件夹的父文件夹的标识符。 
   
 ```xml
 <OldParentFolderId Id="" ChangeKey=""/>
@@ -36,8 +36,8 @@ ms.locfileid: "44467226"
 
 |**属性**|**说明**|
 |:-----|:-----|
-|**Id** <br/> |包含标识 Exchange 存储中的文件夹的字符串。 此特性是必需的。  <br/> |
-|**ChangeKey** <br/> |包含标识由 Id 属性标识的文件夹版本的字符串。 此特性是可选的。 使用此属性可确保使用的是正确的文件夹版本。  <br/> |
+|**Id** <br/> |包含一个字符串，用于标识Exchange文件夹。 此特性是必需的。  <br/> |
+|**ChangeKey** <br/> |包含一个标识由 Id 属性标识的文件夹版本的字符串。 此特性是可选的。 使用此属性确保使用正确版本的文件夹。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -47,8 +47,8 @@ ms.locfileid: "44467226"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[CopiedEvent](copiedevent.md) <br/> |表示在其中复制项目或文件夹的事件。  <br/> |
-|[MovedEvent](movedevent.md) <br/> |代表将项目或文件夹从一个父文件夹移动到另一个父文件夹的事件。  <br/> |
+|[CopiedEvent](copiedevent.md) <br/> |表示复制项目或文件夹的事件。  <br/> |
+|[MovedEvent](movedevent.md) <br/> |表示一个事件，其中项目或文件夹从一个父文件夹移动到另一个父文件夹。  <br/> |
    
 ## <a name="remarks"></a>说明
 
@@ -71,7 +71,7 @@ ms.locfileid: "44467226"
   
 [GetEvents 操作](getevents-operation.md)
   
-[取消订阅操作](unsubscribe-operation.md)
+[Unsubscribe 操作](unsubscribe-operation.md)
 
 
 - [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)

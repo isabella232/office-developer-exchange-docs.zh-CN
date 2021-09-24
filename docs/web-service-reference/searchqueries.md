@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 67328dab-321b-45ad-929e-cd83e65ad87e
-description: SearchQueries 元素包含邮箱和发现搜索的关联查询的列表。
-ms.openlocfilehash: 66015d71238b4a1055a71aff539ca50150f2a247
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SearchQueries 元素包含用于发现搜索的邮箱和关联查询的列表。
+ms.openlocfilehash: db28c5cf461832447a9426dc8376c4326c1aa9ed
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466911"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523410"
 ---
 # <a name="searchqueries"></a>SearchQueries
 
-**SearchQueries**元素包含邮箱和发现搜索的关联查询的列表。 
+**SearchQueries** 元素包含用于发现搜索的邮箱和关联查询的列表。 
   
 ```XML
 <SearchQueries>
@@ -42,7 +42,7 @@ ms.locfileid: "44466911"
 
 [SearchMailboxes](searchmailboxes.md)  | [SearchMailboxesResult](searchmailboxesresult.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

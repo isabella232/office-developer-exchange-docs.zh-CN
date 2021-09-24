@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DisconnectPhoneCall
 api_type:
 - schema
 ms.assetid: f9252536-9852-4dd9-9ebc-91f5cf281171
-description: DisconnectPhoneCall 元素表示一个断开呼叫的请求。
-ms.openlocfilehash: 8d64ecb9dce1d8b7efcebc70686db8fcbf867217
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DisconnectPhoneCall 元素表示断开呼叫连接的请求。
+ms.openlocfilehash: 587e18472ed3983631a19468a0a85d71e75cc6f2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529705"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523074"
 ---
 # <a name="disconnectphonecall"></a>DisconnectPhoneCall
 
-**DisconnectPhoneCall**元素表示一个断开呼叫的请求。 
+**DisconnectPhoneCall** 元素表示断开呼叫连接的请求。 
   
 ```xml
 <DisconnectPhoneCall>
@@ -42,7 +42,7 @@ ms.locfileid: "44529705"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[PhoneCallId](phonecallid.md) <br/> |指定要断开连接的呼叫的标识符。 此元素是必需的。  <br/> |
+|[PhoneCallId](phonecallid.md) <br/> |指定要断开连接的调用的标识符。 此元素是必需的。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -52,7 +52,7 @@ ms.locfileid: "44529705"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: abce5b3e-971d-42fc-aeea-caa7202214de
-description: RetentionPolicyType 元素指定应用于会话中的项目的保留策略类型。
-ms.openlocfilehash: 3900718f10e1e11d5864ebf7e64a3e1e22aa45c7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: RetentionPolicyType 元素指定应用于对话中的项目的保留策略类型。
+ms.openlocfilehash: 961f72c35443e9f265e9313166fa77c8cd93d654
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462869"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509383"
 ---
 # <a name="retentionpolicytype"></a>RetentionPolicyType
 
-**RetentionPolicyType**元素指定应用于会话中的项目的保留策略类型。 
+**RetentionPolicyType** 元素指定应用于对话中的项目的保留策略类型。 
   
 ```XML
 <RetentionPolicyType> Delete | Archive </RetentionPolicyType>
@@ -42,9 +42,9 @@ ms.locfileid: "44462869"
   
 ## <a name="text-value"></a>文本值
 
-**RetentionPolicyType**元素的文本值是应用于会话中的项目的保留类型。 "**删除**" 的文本值表示当保留挂起过期时，会话中的项目将被删除。 **存档**的文本值表示在保留挂起过期时，会话中的项目将移动到存档邮箱中。 
+**RetentionPolicyType 元素** 的文本值是应用于对话中的项目的保留类型。 Delete **的文本值指示** 在保留保留到期时删除对话中的项目。 Archive **的文本值指示** 保留保留到期时，对话中的项目将移动到存档邮箱。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

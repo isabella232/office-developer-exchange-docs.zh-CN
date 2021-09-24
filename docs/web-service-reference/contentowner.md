@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a1741eda-c232-4d89-8abc-50b2627ad29b
 description: ContentOwner 元素指定内容所有者的名称。
-ms.openlocfilehash: 08dafcac2f9ad4be19e0cb3ccd03249a997e0fa3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 94da97aad80318d9c70d1f871bc4c8e71d545aca
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461476"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523130"
 ---
 # <a name="contentowner"></a>ContentOwner
 
-**ContentOwner**元素指定内容所有者的名称。 
+**ContentOwner** 元素指定内容所有者的名称。 
   
 ```XML
 <ContentOwner></ContentOwner>
@@ -46,7 +46,7 @@ ms.locfileid: "44461476"
 
 ContentOwner 元素的文本值是一个字符串，用于指定内容的到期日期。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -58,7 +58,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

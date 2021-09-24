@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ExtendedProperty
 api_type:
 - schema
 ms.assetid: f9701409-b620-4afe-b9ee-4c1e95507af7
 description: ExtendedProperty 元素标识文件夹和项目的扩展 MAPI 属性。
-ms.openlocfilehash: 99ede097d803d6fbf534cde0e77c08cec054bfa3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 2c4b6d3fbb3c2178206ef966381614319d1c9bd0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530605"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510125"
 ---
 # <a name="extendedproperty"></a>ExtendedProperty
 
-**ExtendedProperty**元素标识文件夹和项目的扩展 MAPI 属性。 
+**ExtendedProperty** 元素标识文件夹和项目的扩展 MAPI 属性。 
   
 ```xml
 <ExtendedProperty>
@@ -70,11 +70,11 @@ ms.locfileid: "44530605"
 |[Message](message-ex15websvcsotherref.md) <br/> |表示 Exchange 电子邮件。  <br/> |
 |[RemoveItem](removeitem.md) <br/> |从 Exchange 存储中删除一个项目。  <br/> |
 |[任务](task.md) <br/> |表示 Exchange 存储中的任务。  <br/> |
-|[CalendarFolder](calendarfolder.md) <br/> |代表主要包含日历项目的文件夹。  <br/> |
-|[ContactsFolder](contactsfolder.md) <br/> |表示邮箱中的 "联系人" 文件夹。  <br/> |
+|[CalendarFolder](calendarfolder.md) <br/> |表示一个主要包含日历项目的文件夹。  <br/> |
+|[ContactsFolder](contactsfolder.md) <br/> |表示邮箱中的联系人文件夹。  <br/> |
 |[Folder](folder.md) <br/> |表示要创建、获取、查找、同步或更新的文件夹。  <br/> |
-|[SearchFolder](searchfolder.md) <br/> |表示邮箱中包含的搜索文件夹。  <br/> |
-|[TasksFolder](tasksfolder.md) <br/> |表示邮箱中包含的 "任务" 文件夹。  <br/> |
+|[SearchFolder](searchfolder.md) <br/> |表示包含在邮箱中的搜索文件夹。  <br/> |
+|[TasksFolder](tasksfolder.md) <br/> |表示包含在邮箱中的任务文件夹。  <br/> |
    
 ## <a name="remarks"></a>说明
 

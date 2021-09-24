@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ItemChanges
 api_type:
 - schema
 ms.assetid: cd307892-2f69-4494-8325-219bdb5c3ad5
-description: ItemChanges 元素包含 ItemChange 元素的数组，这些元素标识项目以及要应用于这些项目的更新。
-ms.openlocfilehash: ea6fb2023b88360f9558057e80c7fe0d855173b5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ItemChanges 元素包含 ItemChange 元素的数组，用于标识项目以及要应用于项目的更新。
+ms.openlocfilehash: 69a90f7bce330910b9ff44c63656f38509438981
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459908"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516683"
 ---
 # <a name="itemchanges"></a>ItemChanges
 
-**ItemChanges**元素包含[ItemChange](itemchange.md)元素的数组，这些元素标识项目以及要应用于这些项目的更新。 
+**ItemChanges** 元素包含 [ItemChange](itemchange.md)元素的数组，用于标识项目以及要应用于项目的更新。 
   
 [UpdateItem](updateitem.md)
   
@@ -52,7 +52,7 @@ ms.locfileid: "44459908"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[UpdateItem](updateitem.md) <br/> |定义对邮箱中的项目的更新请求。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/UpdateItem` <br/> |
+|[UpdateItem](updateitem.md) <br/> |定义更新邮箱中的项目的请求。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/UpdateItem` <br/> |
    
 ## <a name="remarks"></a>说明
 

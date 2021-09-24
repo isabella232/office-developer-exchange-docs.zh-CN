@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 30369db5-4d45-40e8-bc83-3236667fc404
-description: ItemHoldPeriod 元素指定保留与邮箱查询匹配的内容的时间长度。
-ms.openlocfilehash: 185666b72cc96dd88605b7baa6433d070e7ebc91
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ItemHoldPeriod 元素指定保留与邮箱查询匹配的内容的时间。
+ms.openlocfilehash: de56c410c876917bbe8d545c9ef4f38ee6948b21
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44452284"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522850"
 ---
 # <a name="itemholdperiod"></a>ItemHoldPeriod
 
-**ItemHoldPeriod**元素指定保留与邮箱查询匹配的内容的时间长度。 
+**ItemHoldPeriod** 元素指定保留与邮箱查询匹配的内容的时间。 
   
 ```XML
 <ItemHoldPeriod/>
@@ -42,7 +42,7 @@ ms.locfileid: "44452284"
   
 ## <a name="text-value"></a>文本值
 
-文本值可以是 "无限制"，也可以是任何[Timespan](https://msdn.microsoft.com/library/1ecy8h51%28v=vs.110%29.aspx)值的字符串值。 
+文本值可以是"Unlimited"或任何 [Timespan](https://msdn.microsoft.com/library/1ecy8h51%28v=vs.110%29.aspx) 值的字符串值。 
   
 ## <a name="remarks"></a>说明
 

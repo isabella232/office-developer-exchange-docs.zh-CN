@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 83c650eb-7ab8-480c-a7c9-df60072ee042
 description: TokenType 元素指定令牌的类型。
-ms.openlocfilehash: a42849dce9ed0253c3c5d4d4e899367b8e105594
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: a51ddfdd097a94370168077b9eca8be2e0581603
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459880"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523318"
 ---
 # <a name="tokentype"></a>TokenType
 
-**TokenType**元素指定令牌的类型。 
+**TokenType** 元素指定令牌的类型。 
   
 ```XML
 <TokenType> CallerIdentity | ExtensionCallback | ScopedToken </TokenType>
@@ -42,9 +42,9 @@ ms.locfileid: "44459880"
   
 ## <a name="text-value"></a>文本值
 
-**TokenType**元素的文本值为令牌类型。 **CallerIdentity**的文本值指示令牌是调用方标识令牌。 **ExtensionCallback**的文本值指示令牌适用于扩展回调。 **ScopedToken**的文本值指示客户端访问令牌是作用域内的令牌。 
+**TokenType** 元素的文本值为令牌类型。 **CallerIdentity 的文本值** 指示令牌是调用方标识令牌。 **ExtensionCallback 的文本** 值指示令牌用于扩展回调。 **ScopedToken** 的文本值指示客户端访问令牌是作用域内令牌。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

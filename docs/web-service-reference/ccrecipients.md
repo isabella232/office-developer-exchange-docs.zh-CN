@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CcRecipients
 api_type:
 - schema
 ms.assetid: 5c20ec3a-0bee-4e67-b220-586ed0d601c9
 description: CcRecipients元素代表将收到一份邮件的收件人的集合。
-ms.openlocfilehash: 57d0e2d3b2c44fbd7bb30696002b27e83d1e274e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 428bf8a20a197152f765b369a3e13a0dd4826324
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462204"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59537006"
 ---
 # <a name="ccrecipients"></a>CcRecipients
 
-本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **CcRecipients**元素代表将收到一份邮件的收件人的集合。 
+本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **CcRecipients** 元素代表将收到一份邮件的收件人的集合。 
   
 ```xml
 <CcRecipients>
@@ -62,7 +62,7 @@ ms.locfileid: "44462204"
 |[ForwardItem](forwarditem.md) <br/> |包含要转发给收件人的 Exchange 存储区项。  <br/> |
 |[CancelCalendarItem](cancelcalendaritem.md) <br/> |表示用于取消会议的响应对象。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 您无法通过使用 FindItem 请求获取 **CcRecipients** 。使用一个 GetItem 请求来获取 **CcRecipients**。
   

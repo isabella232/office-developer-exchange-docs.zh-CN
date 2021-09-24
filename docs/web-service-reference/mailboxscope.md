@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c9778823-f290-4827-ba19-5f391ed4f877
-description: MailboxScope 元素确定对话的搜索或获取是否应跨越主邮箱、存档邮箱或主邮箱和存档邮箱。
-ms.openlocfilehash: 92823c06d4fe186917c3cfb532eda821bd6a95a7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: MailboxScope 元素标识搜索或提取对话应跨越主邮箱、存档邮箱还是同时跨越主邮箱和存档邮箱。
+ms.openlocfilehash: 705c72ae2aefbb16599f392eb712d080668490b0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455371"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522878"
 ---
 # <a name="mailboxscope"></a>MailboxScope
 
-**MailboxScope**元素确定对话的搜索或获取是否应跨越主邮箱、存档邮箱或主邮箱和存档邮箱。 
+**MailboxScope** 元素标识搜索或提取对话应跨越主邮箱、存档邮箱还是同时跨越主邮箱和存档邮箱。 
   
 ```XML
 <MailboxScope> PrimaryOnly | ArchiveOnly | All </MailboxScope>
@@ -39,13 +39,13 @@ ms.locfileid: "44455371"
   
 ### <a name="parent-elements"></a>父元素
 
-[FindConversation](findconversation.md)  | [GetConversationItems](getconversationitems.md)  | [对话（ConversationType）](conversation-conversationtype.md)
+[FindConversation](findconversation.md)  | [GetConversationItems](getconversationitems.md)  | [Conversation (ConversationType) ](conversation-conversationtype.md)
   
 ## <a name="text-value"></a>文本值
 
-**MailboxScope**元素的文本值是在整个主邮箱、存档邮箱或主邮箱和存档邮箱中查找或获取项目的作用域。 **PrimaryOnly**的文本值表示针对某个用户的主邮箱的作用域。 **ArchiveOnly**的文本值表示针对某个用户的存档邮箱的作用域。 "**全部**" 文本值表示一个作用域，该作用域面向主邮箱和存档邮箱。 
+**MailboxScope** 元素的文本值是跨主邮箱、存档邮箱或主邮箱和存档邮箱查找或获取对话中的项目的范围。 **PrimaryOnly** 的文本值指示面向用户的主邮箱的范围。 **ArchiveOnly 的文本** 值指示面向用户的存档邮箱的范围。 文本值 **All** 指示同时面向主邮箱和存档邮箱的作用域。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

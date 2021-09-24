@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d0278642-2b15-4605-974e-325b829a0528
 description: KeywordStatisticsSearchResult 元素包含单个关键字搜索结果。
-ms.openlocfilehash: f433640aecb10a01c66f890bb30b7a120df3298f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 21e4dfd8c30ff8340b213f6ed5c5b72bddc3fa6d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530034"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522871"
 ---
 # <a name="keywordstatisticssearchresult"></a>KeywordStatisticsSearchResult
 
-**KeywordStatisticsSearchResult**元素包含单个关键字搜索结果。 
+**KeywordStatisticsSearchResult** 元素包含单个关键字搜索结果。 
   
 
   
@@ -40,13 +40,13 @@ ms.locfileid: "44530034"
   
 ### <a name="child-elements"></a>子元素
 
-[关键字](keyword.md)  | [ItemHits](itemhits.md)  | [大小（long）](size-long.md)
+[关键字](keyword.md)  | [ItemHits](itemhits.md)  | [大小 (长) ](size-long.md)
   
 ### <a name="parent-elements"></a>父元素
 
 [MailboxStatisticsSearchResult](mailboxstatisticssearchresult.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

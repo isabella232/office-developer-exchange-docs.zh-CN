@@ -1,23 +1,23 @@
 ---
-title: 发件人（字符串）
+title: Sender (string)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2c4c94b7-2d81-4585-b7b5-38646f990594
-description: Sender 元素指定发送项目的人员的电子邮件地址。
-ms.openlocfilehash: 530b875729e860d2b4f2069fb4e07fb5b3236d7a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Sender 元素指定发送项目的人的电子邮件地址。
+ms.openlocfilehash: 064f5ec3bad13ed8dafc05501327014451fb6d15
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455315"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523397"
 ---
-# <a name="sender-string"></a>发件人（字符串）
+# <a name="sender-string"></a>Sender (string)
 
-**Sender**元素指定发送项目的人员的电子邮件地址。 
+**Sender** 元素指定发送项目的人的电子邮件地址。 
   
 ```XML
 <Sender></Sender>
@@ -42,9 +42,9 @@ ms.locfileid: "44455315"
   
 ## <a name="text-value"></a>文本值
 
-**发件人**元素的文本值是通过执行发现搜索找到的电子邮件的发件人。 
+**Sender** 元素的文本值是执行发现搜索找到的电子邮件的发件人。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

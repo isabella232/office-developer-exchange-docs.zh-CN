@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ParentFolderId
 api_type:
 - schema
 ms.assetid: 258f4b1f-367e-4c7d-9c29-eb775a2398c7
-description: ParentFolderId 元素表示包含项或文件夹的父文件夹的标识符。
-ms.openlocfilehash: 3bad638aa21019472df8f487f1e065d2e725e750
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ParentFolderId 元素表示包含项目或文件夹的父文件夹的标识符。
+ms.openlocfilehash: 6075e7aade7a05aad965efb95b326a2f1effb4bd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465749"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59534828"
 ---
 # <a name="parentfolderid"></a>ParentFolderId
 
-**ParentFolderId**元素表示包含项或文件夹的父文件夹的标识符。 
+**ParentFolderId** 元素表示包含项目或文件夹的父文件夹的标识符。 
   
 ```XML
 <ParentFolderId Id="" ChangeKey=""/>
@@ -37,8 +37,8 @@ ms.locfileid: "44465749"
 
 |**属性**|**说明**|
 |:-----|:-----|
-|**Id** <br/> |包含标识 Exchange 存储中的文件夹的字符串。 此特性是必需的。  <br/> |
-|**ChangeKey** <br/> |包含标识由**Id**属性标识的文件夹版本的字符串。 此特性是可选的。 使用此属性可确保使用的是正确的文件夹版本。  <br/> |
+|**Id** <br/> |包含一个字符串，用于标识 Exchange 存储区中的文件夹。 此特性是必需的。  <br/> |
+|**ChangeKey** <br/> |包含一个标识由 **Id** 属性标识的文件夹版本的字符串。 此特性是可选的。 使用此属性确保使用正确版本的文件夹。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -48,25 +48,25 @@ ms.locfileid: "44465749"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[CalendarFolder](calendarfolder.md) <br/> |代表邮箱中的 "日历" 文件夹。  <br/> |
+|[CalendarFolder](calendarfolder.md) <br/> |表示邮箱中的日历文件夹。  <br/> |
 |[CalendarItem](calendaritem.md) <br/> |表示邮箱中的日历项目。  <br/> |
 |[联系人](contact.md) <br/> |表示邮箱中的联系人项目。  <br/> |
-|[ContactsFolder](contactsfolder.md) <br/> |表示邮箱中的 "联系人" 文件夹。  <br/> |
-|[CopiedEvent](copiedevent.md) <br/> |表示在其中复制项目或文件夹的事件。  <br/> |
-|[CreatedEvent](createdevent.md) <br/> |代表在其中创建项目或文件夹的事件。  <br/> |
-|[DeletedEvent](deletedevent.md) <br/> |代表在其中删除项目或文件夹的事件。  <br/> |
+|[ContactsFolder](contactsfolder.md) <br/> |表示邮箱中的联系人文件夹。  <br/> |
+|[CopiedEvent](copiedevent.md) <br/> |表示复制项目或文件夹的事件。  <br/> |
+|[CreatedEvent](createdevent.md) <br/> |表示创建项目或文件夹的事件。  <br/> |
+|[DeletedEvent](deletedevent.md) <br/> |表示一个删除项目或文件夹的事件。  <br/> |
 |[DistributionList](distributionlist.md) <br/> |表示邮箱中的专用通讯组列表。  <br/> |
 |[Folder](folder.md) <br/> |表示邮箱中的文件夹。  <br/> |
-|[项](item.md) <br/> |表示通用 Exchange 项。  <br/> |
-|[Item （UploadItemType）](item-uploaditemtype.md) <br/> |代表要上传到邮箱中的单个项目。  <br/> |
+|[项目](item.md) <br/> |表示常规Exchange项。  <br/> |
+|[Item (UploadItemType)](item-uploaditemtype.md) <br/> |表示要上载到邮箱中的单个项目。  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |表示邮箱中的会议取消。  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |表示邮箱中的会议邮件。  <br/> |
 |[MeetingRequest](meetingrequest.md) <br/> |表示邮箱中的会议请求。  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |表示邮箱中的会议响应。  <br/> |
 |[消息](message-ex15websvcsotherref.md) <br/> |表示邮箱中的电子邮件。  <br/> |
-|[ModifiedEvent](modifiedevent.md) <br/> |表示在其中修改项或文件夹的事件。  <br/> |
-|[MovedEvent](movedevent.md) <br/> |代表将项目或文件夹从一个父文件夹移动到另一个父文件夹的事件。  <br/> |
-|[NewMailEvent](newmailevent.md) <br/> |代表由邮箱中的新邮件项目触发的事件。  <br/> |
+|[ModifiedEvent](modifiedevent.md) <br/> |表示项目或文件夹被修改的事件。  <br/> |
+|[MovedEvent](movedevent.md) <br/> |表示一个事件，其中项目或文件夹从一个父文件夹移动到另一个父文件夹。  <br/> |
+|[NewMailEvent](newmailevent.md) <br/> |表示由邮箱中的新邮件项目触发的事件。  <br/> |
 |[AcceptItem](acceptitem.md) <br/> |表示接受答复会议要求。  <br/> |
 |[TentativelyAcceptItem](tentativelyacceptitem.md) <br/> |表示一个暂定答复会议要求。  <br/> |
 |[DeclineItem](declineitem.md) <br/> |表示谢绝答复会议要求。  <br/> |

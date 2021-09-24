@@ -1,23 +1,23 @@
 ---
-title: 人数
+title: Personas
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a7d2bbd6-5fb8-44d3-8d0d-ad623a117870
-description: "\"角色\" 元素指定从 GetImItems 和 GetImItemList 操作返回的角色数组。"
-ms.openlocfilehash: 4ac2ffb68e5328fb99b9bda25ef21762e446e90b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Personas 元素指定从 GetImItems 和 GetImItemList 操作返回的一组角色。
+ms.openlocfilehash: a48e147ea2c0e7d67ad56fb1e41febd3c7e7a4f6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465658"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59534675"
 ---
-# <a name="personas"></a>人数
+# <a name="personas"></a>Personas
 
-"**角色**" 元素指定从**GetImItems**和**GetImItemList**操作返回的角色数组。 
+**Personas** 元素指定从 **GetImItems** 和 **GetImItemList** 操作返回的一组角色。 
   
 ```XML
 <Personas>
@@ -42,7 +42,7 @@ ms.locfileid: "44465658"
 
 [ImItemList](imitemlist.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

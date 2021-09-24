@@ -1,27 +1,27 @@
 ---
-title: 时间
+title: When
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - When
 api_type:
 - schema
 ms.assetid: c7df1333-a33d-4cc6-a08a-34b68843f47d
-description: When 元素提供有关何时发生日历或会议项目的信息。
-ms.openlocfilehash: 7c5f85184f966d909960bf1d79f5b8d33c67b51a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: When 元素提供有关日历或会议项目何时发生的信息。
+ms.openlocfilehash: 08c4b9e445a1050d8b2625abd019082739c3bac9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461854"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510559"
 ---
-# <a name="when"></a>时间
+# <a name="when"></a>When
 
-**When**元素提供有关何时发生日历或会议项目的信息。 
+**When** 元素提供有关日历或会议项目何时发生的信息。 
   
 ```xml
 <When/>
@@ -49,7 +49,7 @@ ms.locfileid: "44461854"
    
 ## <a name="text-value"></a>文本值
 
-Text 值是一个描述日历项目何时发生的字符串。
+文本值是描述日历项目何时发生的字符串。
   
 ## <a name="remarks"></a>说明
 

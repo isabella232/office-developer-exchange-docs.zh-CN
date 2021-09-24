@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fb7c3ab3-ef97-44c7-83e0-93cfe8c48e84
-description: MaximumSize 元素表示必须满足的最大邮件大小，以便条件或例外情况适用。
-ms.openlocfilehash: 250e0c6aed37b934f5cf6eaed9d93b9f56159d93
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: MaximumSize 元素表示邮件必须达到的最大大小，以便条件或例外情况适用。
+ms.openlocfilehash: cfc0e65674fc96e31f3daebe6a6c378309b1aa3f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461749"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522642"
 ---
 # <a name="maximumsize"></a>MaximumSize
 
-**MaximumSize**元素表示必须满足的最大邮件大小，以便条件或例外情况适用。 
+**MaximumSize** 元素表示邮件必须达到的最大大小，以便条件或例外情况适用。 
   
 ```XML
 <Maximum/>
@@ -40,11 +40,11 @@ ms.locfileid: "44461749"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[WithinSizeRange](withinsizerange.md) <br/> |指定传入邮件必须满足的最小和最大大小，以便条件或例外情况适用。  <br/> |
+|[WithinSizeRange](withinsizerange.md) <br/> |指定传入邮件必须达到的最小和最大大小，以便条件或例外适用。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-Text 值是一个整数，用于标识邮件的最大大小（以字节为单位）。
+文本值是一个整数，用于标识邮件的最大大小（以字节为单位）。
   
 ## <a name="remarks"></a>说明
 

@@ -1,23 +1,23 @@
 ---
-title: 错误
+title: ErrorCode
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0bb00cee-c66b-4f34-b99d-355458f5e83b
-description: ErrorCode 元素表示一个规则验证错误代码，该代码描述对每个规则谓词或操作的验证失败的情况。
-ms.openlocfilehash: 6432aeee786d74a9afcb346cb66765f9001257de
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ErrorCode 元素表示规则验证错误代码，该代码描述每个规则谓词或操作验证失败的内容。
+ms.openlocfilehash: a582b09a579074a6728bb79b351b8c7a120c05de
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460076"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517110"
 ---
-# <a name="errorcode"></a>错误
+# <a name="errorcode"></a>ErrorCode
 
-**ErrorCode**元素表示一个规则验证错误代码，该代码描述对每个规则谓词或操作的验证失败的情况。 
+**ErrorCode** 元素表示规则验证错误代码，该代码描述每个规则谓词或操作验证失败的内容。 
   
 ```XML
 <ErrorCode/>
@@ -40,11 +40,11 @@ ms.locfileid: "44460076"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Error](error.md) <br/> |表示特定规则属性值、谓词属性值或 action 属性值上的单个验证错误。  <br/> |
+|[Error](error.md) <br/> |表示特定规则属性值、谓词属性值或操作属性值上的单个验证错误。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-此元素的文本值被限制为以下字符串之一：
+此元素的文本值仅限于以下字符串之一：
   
 - ADOperationFailure
     

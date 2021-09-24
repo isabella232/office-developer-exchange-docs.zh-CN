@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 135d7fc3-7d5b-4e30-9a6f-62eb02d7ab98
-description: ReminderItemActions 元素指定提醒项目的操作。
-ms.openlocfilehash: c9b42e420f81cd0cb15bf1bd17366d9a996f1b0b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ReminderItemActions 元素指定提醒项的操作。
+ms.openlocfilehash: 4694a32883ef08e830c855efa5f719a3333cecb3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458556"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523616"
 ---
 # <a name="reminderitemactions"></a>ReminderItemActions
 
-**ReminderItemActions**元素指定提醒项目的操作。 
+**ReminderItemActions** 元素指定提醒项的操作。 
   
 ```XML
 <ReminderItemActions>
@@ -42,7 +42,7 @@ ms.locfileid: "44458556"
 
 [PerformReminderAction](performreminderaction.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

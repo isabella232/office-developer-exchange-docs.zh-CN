@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9d91aa89-9f9f-4877-846d-aaf48bbeec7c
-description: ReadFlag 元素指示要对文件夹中的项目设置的读取状态。
-ms.openlocfilehash: 1d3b9f3fe199ed2e63bdb632135120a5f89f4d1f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ReadFlag 元素指示对文件夹中的项目设置的读取状态。
+ms.openlocfilehash: ac079f6adbdb2686221dd52d748b05ac4141d6c6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529894"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523648"
 ---
 # <a name="readflag"></a>ReadFlag
 
-**ReadFlag**元素指示要对文件夹中的项目设置的读取状态。 
+**ReadFlag** 元素指示对文件夹中的项目设置的读取状态。 
   
 ```XML
 <ReadFlag>true | false</ReadFlag>
@@ -42,9 +42,9 @@ ms.locfileid: "44529894"
   
 ## <a name="text-value"></a>文本值
 
-如果**ReadFlag**元素的文本值为**true** ，则表示该文件夹中的项目将被标记为已读。 如果值为**false** ，则表示文件夹中的项目将被标记为未读。 
+**ReadFlag** 元素的文本值 **true** 指示文件夹中的项目将被标记为已读。 false **值表示** 文件夹中的项目将被标记为未读。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

@@ -1,33 +1,33 @@
 ---
-title: PlayOnPhone 操作（EWS）
+title: 'EWS (PlayOnPhone) '
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PlayOnPhone
 api_type:
 - schema
 ms.assetid: 70e6ef33-2046-4eb8-9987-e106009be04b
-description: PlayOnPhone 操作启动出站呼叫，并通过电话播放一封邮件。
-ms.openlocfilehash: 18af810160e72856599f296c4faa83cf9c73c393
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: PlayOnPhone 操作启动出站呼叫并通过电话播放消息。
+ms.openlocfilehash: f6f5ef30849e1ed536316fe48a8dd29d3d68b230
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467954"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516549"
 ---
-# <a name="playonphone-operation-ews"></a>PlayOnPhone 操作（EWS）
+# <a name="playonphone-operation-ews"></a>EWS (PlayOnPhone) 
 
-**PlayOnPhone**操作启动出站呼叫，并通过电话播放一封邮件。 
+**PlayOnPhone** 操作启动出站呼叫并通过电话播放消息。 
   
 ## <a name="playonphone-request-example"></a>PlayOnPhone 请求示例
 
 ### <a name="description"></a>Description
 
-下面的**PlayOnPhone**请求示例演示如何在手机上形成请求以播放邮件。 
+**PlayOnPhone** 请求的以下示例显示如何形成在手机上播放消息的请求。 
   
 ### <a name="code"></a>代码
 
@@ -54,7 +54,7 @@ ms.locfileid: "44467954"
 
 ### <a name="description"></a>Description
 
-下面的示例演示对**PlayOnPhone**请求的成功响应。 
+以下示例显示对 **PlayOnPhone** 请求的成功响应。 
   
 ### <a name="code"></a>代码
 
@@ -85,6 +85,6 @@ ms.locfileid: "44467954"
 
 ## <a name="see-also"></a>另请参阅
 
-- [Exchange 中的 EWS 操作](ews-operations-in-exchange.md)
+- [EWS 操作在Exchange](ews-operations-in-exchange.md)
 - [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ChildFolderCount
 api_type:
 - schema
 ms.assetid: e0e4eabd-802f-4dd0-9911-89e08c66a15e
-description: ChildFolderCount 元素表示文件夹中包含的直接子文件夹的数目。 此属性是只读的。
-ms.openlocfilehash: 6ea3b9c000c7836b55c6bf359c95870ed28350e0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ChildFolderCount 元素表示文件夹中包含的直接子文件夹的数量。 此属性是只读的。
+ms.openlocfilehash: c05d93e3f9df2d2acbb1b65f1116dab1aea24a3b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463942"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536999"
 ---
 # <a name="childfoldercount"></a>ChildFolderCount
 
-**ChildFolderCount**元素表示文件夹中包含的直接子文件夹的数目。 此属性是只读的。 
+**ChildFolderCount** 元素表示文件夹中包含的直接子文件夹的数量。 此属性是只读的。 
   
 ```xml
 <ChildFolderCount/>
@@ -45,10 +45,10 @@ ms.locfileid: "44463942"
 |**元素**|**说明**|
 |:-----|:-----|
 |[Folder](folder.md) <br/> |表示邮箱中的文件夹。  <br/> |
-|[CalendarFolder](calendarfolder.md) <br/> |代表邮箱中的 "日历" 文件夹。  <br/> |
-|[ContactsFolder](contactsfolder.md) <br/> |表示邮箱中的 "联系人" 文件夹。  <br/> |
+|[CalendarFolder](calendarfolder.md) <br/> |表示邮箱中的日历文件夹。  <br/> |
+|[ContactsFolder](contactsfolder.md) <br/> |代表邮箱中的"联系人"文件夹。  <br/> |
 |[SearchFolder](searchfolder.md) <br/> |表示邮箱中的搜索文件夹。  <br/> |
-|[TasksFolder](tasksfolder.md) <br/> |表示邮箱中的任务文件夹。  <br/> |
+|[TasksFolder](tasksfolder.md) <br/> |代表邮箱中的"任务"文件夹。  <br/> |
    
 ## <a name="text-value"></a>文本值
 

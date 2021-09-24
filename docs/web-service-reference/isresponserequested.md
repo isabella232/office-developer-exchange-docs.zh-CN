@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsResponseRequested
 api_type:
 - schema
 ms.assetid: 8cb874ed-a538-4de6-ab22-2631092dcdd0
-description: IsResponseRequested 元素指示是否对项目的响应进行请求。
-ms.openlocfilehash: 51bfda5ffa97baed6285a995b6877ec65183c2a2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: IsResponseRequested 元素指示是否请求对项的响应。
+ms.openlocfilehash: 7520f82c97e7aa21901ba3446b42a95a250b3fb1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459929"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509642"
 ---
 # <a name="isresponserequested"></a>IsResponseRequested
 
-**IsResponseRequested**元素指示是否对项目的响应进行请求。 
+**IsResponseRequested** 元素指示是否请求对项的响应。 
   
 ```xml
 <IsResponseRequested/>
@@ -54,7 +54,7 @@ ms.locfileid: "44459929"
    
 ## <a name="text-value"></a>文本值
 
-如果文本值为**true** ，则表示请求响应。 
+文本值 **true** 表示请求响应。 
   
 ## <a name="remarks"></a>说明
 

@@ -1,23 +1,23 @@
 ---
-title: Location （ReminderMessageDataType）
+title: Location (ReminderMessageDataType)
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 173148af-5dda-4322-8d0c-da3ba3780a43
-description: Location （ReminderMessageDataType）元素指定提醒所针对的日历项目的位置。
-ms.openlocfilehash: 16474c1b635a3e2337a89b98b6660293276774bf
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Location (ReminderMessageDataType) 元素指定提醒所针对的日历项目的位置。
+ms.openlocfilehash: db6b8ab0ff5970d6d18af6c7baf4e6ba6609ccd7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44433719"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509635"
 ---
-# <a name="location-remindermessagedatatype"></a>Location （ReminderMessageDataType）
+# <a name="location-remindermessagedatatype"></a>Location (ReminderMessageDataType)
 
-**Location （ReminderMessageDataType）** 元素指定提醒所针对的日历项目的位置。 
+**Location (ReminderMessageDataType**) 元素指定提醒所针对的日历项目的位置。 
   
 ```xml
 <Location/>
@@ -42,9 +42,9 @@ ms.locfileid: "44433719"
   
 ## <a name="text-value"></a>文本值
 
-**Location**元素的文本值是日历项目的位置。 
+**Location** 元素的文本值是日历项目的位置。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

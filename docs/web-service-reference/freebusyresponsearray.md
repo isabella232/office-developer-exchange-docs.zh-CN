@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FreeBusyResponseArray
 api_type:
 - schema
 ms.assetid: 5592a37e-cf4b-4643-8a2a-fa58c40345b9
 description: FreeBusyResponseArray 元素包含请求的用户的可用性信息和响应状态。
-ms.openlocfilehash: b45938c19b76a377fca125fb6a19f9d712718db6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: dc28e384b4e8a9e8bbfc3bfe714059b31bcfbfac
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457807"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509978"
 ---
 # <a name="freebusyresponsearray"></a>FreeBusyResponseArray
 
-**FreeBusyResponseArray**元素包含请求的用户的可用性信息和响应状态。 
+**FreeBusyResponseArray** 元素包含请求的用户的可用性信息和响应状态。 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -52,11 +52,11 @@ ms.locfileid: "44457807"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GetUserAvailabilityResponse](getuseravailabilityresponse.md) <br/> |包含用于定义用户可用性信息或建议的会议时间信息的属性。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/GetUserAvailabilityResponse` <br/> |
+|[GetUserAvailabilityResponse](getuseravailabilityresponse.md) <br/> |包含定义用户可用性信息或建议的会议时间信息的属性。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/GetUserAvailabilityResponse` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-如果不请求忙/闲信息，则 GetUserAvailability 响应中不包含此元素。
+如果未请求忙/闲信息，则 GetUserAvailability 响应中不包含此元素。
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

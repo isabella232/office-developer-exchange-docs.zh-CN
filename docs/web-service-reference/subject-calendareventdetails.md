@@ -1,27 +1,27 @@
 ---
-title: Subject （CalendarEventDetails）
+title: Subject (CalendarEventDetails)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Subject
 api_type:
 - schema
 ms.assetid: 05e955b5-8e90-4043-b06b-6ce523eaed9b
 description: Subject 元素表示日历项目的主题。
-ms.openlocfilehash: 268e5fa4bb8d02d83154267fc8e475c6d2b7c31c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: a52e660d9c11a677609f8a42261d725af20a6df5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463053"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517663"
 ---
-# <a name="subject-calendareventdetails"></a>Subject （CalendarEventDetails）
+# <a name="subject-calendareventdetails"></a>Subject (CalendarEventDetails)
 
-**Subject**元素表示日历项目的主题。 
+**Subject** 元素表示日历项目的主题。 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -37,7 +37,7 @@ ms.locfileid: "44463053"
   
 [CalendarEventDetails](calendareventdetails.md)
   
-[Subject （CalendarEventDetails）](subject-calendareventdetails.md)
+[Subject (CalendarEventDetails)](subject-calendareventdetails.md)
   
 ```xml
 <Subject/>
@@ -64,7 +64,7 @@ ms.locfileid: "44463053"
    
 ## <a name="text-value"></a>文本值
 
-如果在响应中返回此元素，则需要一个 text 值。 如果[IsPrivate](isprivate.md)元素的值等于**true**，则不会返回此元素。 此元素可以包含空字符串。 如果使用[CalendarEventDetails](calendareventdetails.md)元素，则此元素是可选的。 
+如果在响应中返回此元素，则文本值是必需的。 如果 [IsPrivate](isprivate.md) 元素值等于 **true，将不会返回此元素**。 此元素可以包含空字符串。 如果使用 [CalendarEventDetails](calendareventdetails.md) 元素，则此元素是可选的。 
   
 ## <a name="remarks"></a>说明
 

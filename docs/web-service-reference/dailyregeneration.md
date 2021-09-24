@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DailyRegeneration
 api_type:
 - schema
 ms.assetid: cafb57e4-c518-45e0-b565-2babd0dab1df
-description: DailyRegeneration 元素描述任务重新生成的频率（以天为单位）。
-ms.openlocfilehash: 518e4666031131f4a5fc80cc72c28a2110b468c5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DailyRegeneration 元素描述任务重新生成的频率（以天表示）。
+ms.openlocfilehash: 7fbcb05e45a8700a3d23d1e8ed0d6f9e2ba75db2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462162"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535946"
 ---
 # <a name="dailyregeneration"></a>DailyRegeneration
 
-**DailyRegeneration**元素描述任务重新生成的频率（以天为单位）。 
+**DailyRegeneration** 元素描述任务重新生成的频率（以天表示）。 
   
 ```xml
 <DailyRegeneration>
@@ -43,13 +43,13 @@ ms.locfileid: "44462162"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Interval](interval.md) <br/> |定义两个连续定期项目之间的间隔（以天为单位）。 该值必须介于1到999之间。  <br/> |
+|[Interval](interval.md) <br/> |定义两个连续定期项目之间的间隔（以天为单位）。 该值必须在 1 到 999 之间。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[重复周期（TaskRecurrenceType）](recurrence-taskrecurrencetype.md) <br/> |包含定期任务的定期信息。  <br/> |
+|[Recurrence (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |包含定期任务的定期信息。  <br/> |
    
 ## <a name="remarks"></a>说明
 

@@ -1,27 +1,27 @@
 ---
-title: 年份
+title: Year
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Year
 api_type:
 - schema
 ms.assetid: 93bf2847-53fa-496c-9a1e-dc9a9ffd0b9f
-description: Year 元素用于定义根据年份变化的时区。 此元素为可选。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
-ms.openlocfilehash: cc83f9b2137f151f3f8ef0ceaf603ec036989961
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Year 元素用于定义根据年份更改的时区。 此元素为可选。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
+ms.openlocfilehash: 80b4ce642a7a08631140e583fb9d92143f485ea3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465168"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509278"
 ---
-# <a name="year"></a>年份
+# <a name="year"></a>Year
 
-**Year**元素用于定义根据年份变化的时区。 此元素为可选。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
+**Year** 元素用于定义根据年份更改的时区。 此元素为可选。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
   
 ```xml
 <Year/>
@@ -45,12 +45,12 @@ ms.locfileid: "44465168"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[StandardTime](standardtime.md) <br/> |表示相对于[偏差（utc）](bias-utc.md)元素所表示的协调世界时（utc）的时间的偏移量。  <br/> |
-|[DaylightTime](daylighttime.md) <br/> |表示相对于协调世界时（UTC）的时间的偏移量，由观察到夏时制的区域中的[偏置（utc）](bias-utc.md)元素表示。  <br/> |
+|[StandardTime](standardtime.md) <br/> |表示相对于与协调世界时 (UTC) ，由 偏置 ([UTC ](bias-utc.md)) 元素的时间偏移。  <br/> |
+|[DaylightTime](daylighttime.md) <br/> |表示相对于协调世界时 (UTC) 的时差，该时间由观测到夏令时的区域中的 [Bias (UTC) ](bias-utc.md) 元素表示。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-Year 元素接受表示一年的字符串。 年格式为 YYYY。
+Year 元素接受表示年份的字符串。 年格式为 YYYY。
   
 ## <a name="remarks"></a>说明
 

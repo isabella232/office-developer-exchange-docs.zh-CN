@@ -1,24 +1,24 @@
 ---
-title: Url （SOAP）
+title: Url (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 12e8c9a4-61e5-41a5-a9ea-423ce6f464af
 description: Url 元素包含 Web 客户端的 URL。
-ms.openlocfilehash: 73d52107ede3fa951ab71e1706af51185b341b74
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: b2ca87be53b5a02a953b313ff2bd89c4e74b572d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468346"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517390"
 ---
-# <a name="url-soap"></a>Url （SOAP）
+# <a name="url-soap"></a>Url (SOAP)
 
-**Url**元素包含 Web 客户端的 url。 
+**Url** 元素包含 Web 客户端的 URL。 
   
 ```XML
 <Url/>
@@ -41,11 +41,11 @@ ms.locfileid: "44468346"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[WebClientUrl （SOAP）](webclienturl-soap.md) <br/> |表示 Exchange Web 客户端的 URL。  <br/> |
+|[WebClientUrl (SOAP)](webclienturl-soap.md) <br/> |表示 Web 客户端Exchange URL。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-该文本值是 Web 客户端的 URL。
+文本值是 Web 客户端的 URL。
   
 ## <a name="element-information"></a>元素信息
 

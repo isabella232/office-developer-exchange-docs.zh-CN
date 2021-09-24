@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DeletedOccurrences
 api_type:
 - schema
 ms.assetid: 736fb305-9528-4be8-ad37-65d7556edbf2
-description: DeletedOccurrences 元素包含定期日历项目的已删除事件数组。
-ms.openlocfilehash: be39ff95b5529481a36b7549e638818a20e01283
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DeletedOccurrences 元素包含定期日历项目的已删除事件的数组。
+ms.openlocfilehash: b1e60bfee9dbc8e5691db2a13474a945da0484af
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463704"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510244"
 ---
 # <a name="deletedoccurrences"></a>DeletedOccurrences
 
-**DeletedOccurrences**元素包含定期日历项目的已删除事件数组。 
+**DeletedOccurrences** 元素包含定期日历项目的已删除事件的数组。 
   
 ```xml
 <DeletedOccurrences>
@@ -42,7 +42,7 @@ ms.locfileid: "44463704"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[DeletedOccurrence](deletedoccurrence.md) <br/> |表示定期日历项目的已删除事件。  <br/> |
+|[DeletedOccurrence](deletedoccurrence.md) <br/> |表示定期日历项目的已删除匹配项。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -51,9 +51,9 @@ ms.locfileid: "44463704"
 |[CalendarItem](calendaritem.md) <br/> |表示 Exchange 日历项。  <br/> |
 |[MeetingRequest](meetingrequest.md) <br/> |表示 Exchange 存储中的会议请求。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-如果将 RecurringMaster 文本值用于[CalendarItemType](calendaritemtype.md)元素，则此元素有效。 
+如果 [CalendarItemType](calendaritemtype.md) 元素使用 RecurringMaster 文本值，则此元素有效。 
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

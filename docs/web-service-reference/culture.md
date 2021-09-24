@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Culture
 api_type:
 - schema
 ms.assetid: 71bd62c6-3fec-48db-9a5e-02121e9bc20b
-description: Culture 元素表示邮箱中的给定项目的区域性。
-ms.openlocfilehash: ee0fa4d25f3be769aff0a9a50c2f311ab6179b31
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Culture 元素表示邮箱中给定项目的区域性。
+ms.openlocfilehash: d760acc60c3f7802f837d8125d2d92c03284e293
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458339"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536132"
 ---
 # <a name="culture"></a>Culture
 
-**Culture**元素表示邮箱中的给定项目的区域性。 
+**Culture** 元素表示邮箱中给定项目的区域性。 
   
 ```xml
 <Culture/>
@@ -58,7 +58,7 @@ ms.locfileid: "44458339"
    
 ## <a name="text-value"></a>文本值
 
-该文本值指示在 Exchange Web 服务操作中使用的语言。 区域性是使用 RFC 1766 区域性标识符指定的;例如，en-us。
+文本值指示 Web 服务操作中使用的Exchange语言。 使用 RFC 1766 区域性标识符指定区域性;例如，en-US。
   
 ## <a name="remarks"></a>说明
 

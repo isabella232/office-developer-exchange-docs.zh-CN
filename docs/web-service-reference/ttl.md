@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cfefc053-1e3c-46fb-8014-b56a654f2fb3
-description: TTL 元素指定令牌有效的时间（以分钟为单位）。
-ms.openlocfilehash: 3d5b4ec7e2184035737dbc94f3bb1ad83eb3fef4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: TTL 元素指定令牌的有效时间（分钟）。
+ms.openlocfilehash: b5fc6b529452641ababe8f308bf38dc70ef276db
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456393"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517530"
 ---
 # <a name="ttl"></a>TTL
 
-**TTL**元素指定令牌有效的时间（以分钟为单位）。 
+**TTL** 元素指定令牌的有效时间（分钟）。 
   
 ```XML
 <TTL></TTL>
 ```
 
- **整除**
+ **integer**
 ## <a name="attributes-and-elements"></a>属性和元素
 
 下面各部分介绍了属性、子元素和父元素。
@@ -42,9 +42,9 @@ ms.locfileid: "44456393"
   
 ## <a name="text-value"></a>文本值
 
-**TTL**元素的文本值是令牌有效的时间（以分钟为单位）。 
+**TTL** 元素的文本值是令牌有效的时间（分钟）。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetUserConfiguration
 api_type:
 - schema
 ms.assetid: 71d50e3c-92bd-435f-8118-b28bb85f8138
 description: GetUserConfiguration 操作从文件夹中获取用户配置对象。
-ms.openlocfilehash: fb28e88d1a47b0ea8f63ed33b1efacae8538e1c8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: be6c662cf49a7c2441f94084dd909e86fe703e20
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458206"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516844"
 ---
 # <a name="getuserconfiguration-operation"></a>GetUserConfiguration 操作
 
-**GetUserConfiguration**操作从文件夹中获取用户配置对象。 
+**GetUserConfiguration** 操作从文件夹中获取用户配置对象。 
   
 ## <a name="getuserconfiguration-request-example"></a>GetUserConfiguration 请求示例
 
 ### <a name="description"></a>Description
 
-以下示例的**GetUserConfiguration**请求显示如何在 "草稿" 文件夹中形成获取用户配置对象的请求。 
+**GetUserConfiguration** 请求的以下示例显示如何形成请求，以在"草稿"文件夹中获取用户配置对象。 
   
 ### <a name="code"></a>代码
 
@@ -56,7 +56,7 @@ ms.locfileid: "44458206"
 
 ### <a name="description"></a>Description
 
-下面的示例演示对**GetUserConfiguration**请求的成功响应。 
+以下示例显示了对 **GetUserConfiguration** 请求的成功响应。 
   
 ### <a name="code"></a>代码
 
@@ -110,7 +110,7 @@ ms.locfileid: "44458206"
 
 
 
-[Exchange 中的 EWS 操作](ews-operations-in-exchange.md)
+[EWS 操作在Exchange](ews-operations-in-exchange.md)
   
 - [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

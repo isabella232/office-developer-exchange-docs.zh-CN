@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateUserConfiguration
 api_type:
 - schema
 ms.assetid: 43e12e8b-5629-4f5f-9cbd-a99084d8460f
-description: CreateUserConfiguration 元素表示一个创建用户配置对象的请求。
-ms.openlocfilehash: 1d9194baf309936cb4be088a7ff56250dfa349cc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: CreateUserConfiguration 元素表示创建用户配置对象的请求。
+ms.openlocfilehash: 14fe5f739772d073d0ebbf78928a22c5d5b1d29e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463774"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536191"
 ---
 # <a name="createuserconfiguration"></a>CreateUserConfiguration
 
-**CreateUserConfiguration**元素表示一个创建用户配置对象的请求。 
+**CreateUserConfiguration** 元素表示创建用户配置对象的请求。 
   
 ```xml
 <CreateUserConfiguration>
@@ -52,7 +52,7 @@ ms.locfileid: "44463774"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

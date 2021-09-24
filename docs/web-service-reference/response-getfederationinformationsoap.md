@@ -1,24 +1,24 @@
 ---
-title: 响应（GetFederationInformation）（SOAP）
+title: Response (GetFederationInformation) (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: ca48a4b3-5006-4bb7-973e-d9137ce67e16
-description: Response 元素包含 GetFederationInformation 操作（SOAP）响应信息。
-ms.openlocfilehash: 0b9a2c518b968faa6ef86b7c1f544eac40f8e5c8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Response 元素包含 SOAP 响应 (GetFederationInformation) 操作。
+ms.openlocfilehash: b5618dc1d2c862e504ea3134b28edca39c71f62c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530584"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523522"
 ---
-# <a name="response-getfederationinformation-soap"></a>响应（GetFederationInformation）（SOAP）
+# <a name="response-getfederationinformation-soap"></a>Response (GetFederationInformation) (SOAP)
 
-**Response**元素包含[GETFEDERATIONINFORMATION 操作（SOAP）](getfederationinformation-operation-soap.md)响应信息。 
+**Response** 元素包含 SOAP 响应 ([GetFederationInformation)](getfederationinformation-operation-soap.md)操作。 
   
 ```XML
 <Response>
@@ -42,16 +42,16 @@ ms.locfileid: "44530584"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ErrorCode （SOAP）](errorcode-soap.md) <br/> |表示自动发现服务返回的错误代码。  <br/> |
-|[ErrorMessage （SOAP）](errormessage-soap.md) <br/> |表示与自动发现服务返回的错误代码相关联的消息。  <br/> |
-|[ApplicationUri （SOAP）](applicationuri-soap.md) <br/> |定义应用程序的位置。  <br/> |
-|[域（SOAP）](domains-soap.md) <br/> |代表域集合在[GetDomainSettings 操作（soap）](getdomainsettings-operation-soap.md)中返回的配置，或组织在[GETFEDERATIONINFORMATION 操作（soap）](getfederationinformation-operation-soap.md)中联合的域。  <br/> |
+|[ErrorCode (SOAP)](errorcode-soap.md) <br/> |表示自动发现服务返回的错误代码。  <br/> |
+|[ErrorMessage (SOAP)](errormessage-soap.md) <br/> |表示与自动发现服务返回的错误代码相关联的消息。  <br/> |
+|[ApplicationUri (SOAP)](applicationuri-soap.md) <br/> |定义应用程序的位置。  <br/> |
+|[Domains (SOAP)](domains-soap.md) <br/> |表示域集合 [GetDomainSettings ](getdomainsettings-operation-soap.md)操作 (SOAP) 中返回的配置，或组织在 [GetFederationInformation ](getfederationinformation-operation-soap.md)操作 (SOAP) 中联合的域。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GetFederationInformationResponseMessage （SOAP）](getfederationinformationresponsemessage-soap.md) <br/> |定义对[GetFederationInformation 操作（SOAP）](getfederationinformation-operation-soap.md)请求的响应。  <br/> |
+|[GetFederationInformationResponseMessage (SOAP)](getfederationinformationresponsemessage-soap.md) <br/> |定义 SOAP 请求中 [对 GetFederationInformation () ](getfederationinformation-operation-soap.md) 的响应。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
@@ -63,7 +63,7 @@ ms.locfileid: "44530584"
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |架构名称  <br/> |自动发现架构  <br/> |
-|验证文件  <br/> |消息 .xsd  <br/> |
+|验证文件  <br/> |messages.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>另请参阅

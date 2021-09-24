@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - NumberOfMembersAvailable
 api_type:
 - schema
 ms.assetid: e367a278-1622-4b65-955f-2d4b2fc6e4d7
-description: NumberOfMembersAvailable 元素表示可用于建议会议时间的通讯组列表成员的数量。 此元素表示其状态为 "空闲" 的成员。
-ms.openlocfilehash: 947e1c133cc49fb7e322962e95e184fe77e09353
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: NumberOfMembersAvailable 元素表示可用于建议的会议时间通讯组列表成员的数量。 此元素表示其状态为"空闲"的成员。
+ms.openlocfilehash: 6c80080cb2205e46dfa72f8354dea3974d5c066e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462589"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509550"
 ---
 # <a name="numberofmembersavailable"></a>NumberOfMembersAvailable
 
-**NumberOfMembersAvailable**元素表示可用于建议会议时间的通讯组列表成员的数量。 此元素表示其状态为 "**空闲**" 的成员。
+**NumberOfMembersAvailable** 元素表示可用于建议的会议时间通讯组列表成员的数量。 此元素表示其状态为 Free **的成员**。
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -62,7 +62,7 @@ ms.locfileid: "44462589"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GroupAttendeeConflictData](groupattendeeconflictdata.md) <br/> |包含有关可用用户数的聚合冲突信息、有冲突的用户数以及在通讯组列表中没有可用性信息的用户数量建议的会议时间。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray/GroupAttendeeConflictData[i]` <br/> |
+|[GroupAttendeeConflictData](groupattendeeconflictdata.md) <br/> |包含有关可用用户数、发生冲突的用户数和在建议的会议时间通讯组列表中没有可用性信息的用户数的聚合冲突信息。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray/GroupAttendeeConflictData[i]` <br/> |
    
 ## <a name="remarks"></a>说明
 

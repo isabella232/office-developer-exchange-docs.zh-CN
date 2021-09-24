@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DateTimeStamp
 api_type:
 - schema
 ms.assetid: c996c319-28f1-4bed-ab7a-4d0fc866e675
-description: DateTimeStamp 元素指示日历对象的实例的创建日期和时间。
-ms.openlocfilehash: 96c3f005e0ffd403afe723bb8b274b7ac2abca1b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DateTimeStamp 元素指示创建日历对象实例的日期和时间。
+ms.openlocfilehash: c99e1ac53f0a9dcc367c9dc96dc517f2fa3662ca
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461406"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535569"
 ---
 # <a name="datetimestamp"></a>DateTimeStamp
 
-**DateTimeStamp**元素指示日历对象的实例的创建日期和时间。 
+**DateTimeStamp** 元素指示创建日历对象实例的日期和时间。 
   
 ```xml
 <DateTimeStamp/>
@@ -46,14 +46,14 @@ ms.locfileid: "44461406"
 |**元素**|**说明**|
 |:-----|:-----|
 |[CalendarItem](calendaritem.md) <br/> |表示 Exchange 日历项。  <br/> |
-|[MeetingMessage](meetingmessage.md) <br/> |表示会议邮件。  <br/> |
+|[MeetingMessage](meetingmessage.md) <br/> |代表会议消息。  <br/> |
 |[MeetingRequest](meetingrequest.md) <br/> |表示会议请求。  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |表示会议响应。  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |表示会议取消。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-该文本值表示用于标识日历发生情况的日期/时间值。
+文本值表示标识日历事件的日期/时间值。
   
 ## <a name="element-information"></a>元素信息
 

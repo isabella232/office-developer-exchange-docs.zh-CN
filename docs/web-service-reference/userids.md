@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UserIds
 api_type:
 - schema
 ms.assetid: 78a09c3a-1646-4c55-95a2-1109fb11e1c6
-description: UserIds 元素包含要从主体邮箱中获取或删除的委派用户的数组。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
-ms.openlocfilehash: de4661226c154ef0d2d5ac55c57405e20c4d2aee
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: UserIds 元素包含要从主体邮箱获取或删除的委派用户数组。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
+ms.openlocfilehash: c99c39a75060780974cb26546e3a9d2947a9dfb8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459775"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517356"
 ---
 # <a name="userids"></a>UserIds
 
-**UserIds**元素包含要从主体邮箱中获取或删除的委派用户的数组。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
+**UserIds** 元素包含要从主体邮箱获取或删除的委派用户数组。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
   
 ```xml
 <UserIds>
@@ -42,7 +42,7 @@ ms.locfileid: "44459775"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[UserId](userid.md) <br/> |标识要从主体邮箱中获取或删除的代理。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
+|[UserId](userid.md) <br/> |标识要从主体邮箱获取或删除的代理。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bc213f0e-a655-44e9-9ac9-bc1673bae1fe
-description: ExtractAllowed 元素指定实体提取是否已启用。
-ms.openlocfilehash: f9fcae72d6241e51f549fbf650f5b2aebe019e46
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ExtractAllowed 元素指定是否启用实体提取。
+ms.openlocfilehash: a51adaba24ef6ee285acf786398d6e6cdfbfee35
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461980"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535325"
 ---
 # <a name="extractallowed"></a>ExtractAllowed
 
-**ExtractAllowed**元素指定实体提取是否已启用。 
+**ExtractAllowed** 元素指定是否启用实体提取。 
   
 ```XML
 <ExtractAllowed>true | false</ExtractAllowed
@@ -44,9 +44,9 @@ ms.locfileid: "44461980"
    
 ## <a name="text-value"></a>文本值
 
-如果**ExtractAllowed**元素的文本值为**true** ，则表示实体提取已启用。 **如果值为 false** ，则表示未启用实体提取。 
+**ExtractAllowed** 元素的文本值 **true** 指示已启用实体提取。 false **值表示** 未启用实体提取。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -58,7 +58,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

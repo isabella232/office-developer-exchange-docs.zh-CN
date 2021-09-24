@@ -1,23 +1,23 @@
 ---
-title: 范围（HighlightTermType）
+title: Scope (HighlightTermType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3b16170c-cb46-4ac5-9ce1-884f1b00b974
 description: Scope 元素指定要突出显示的字符串。
-ms.openlocfilehash: 6cd8035831bae4f9e1e73ebe2238e5eb89b7d31c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 061c64b3fddee6db45ca4dbc44a039ce94549a89
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530357"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509376"
 ---
-# <a name="scope-highlighttermtype"></a>范围（HighlightTermType）
+# <a name="scope-highlighttermtype"></a>Scope (HighlightTermType)
 
-**Scope**元素指定要突出显示的字符串。 
+**Scope** 元素指定要突出显示的字符串。 
   
 ```XML
 <Scope></Scope>
@@ -42,9 +42,9 @@ ms.locfileid: "44530357"
   
 ## <a name="text-value"></a>文本值
 
-**Scope**元素的文本值是突出显示术语的作用域。 
+**Scope** 元素的文本值是突出显示术语的范围。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

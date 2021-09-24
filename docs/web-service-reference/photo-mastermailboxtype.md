@@ -1,23 +1,23 @@
 ---
-title: Photo （MasterMailboxType）
+title: Photo (MasterMailboxType)
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 10cdefab-2c21-4a7d-b534-e1aa1d209476
-description: Photo （MasterMailboxType）元素仅供内部使用。
-ms.openlocfilehash: b088f4310ba27e6fae2db096e3bad5270bac4c9c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: MasterMailboxType (元素) 仅供内部使用。
+ms.openlocfilehash: a277ee6ab880ffc0cbb2fc7903ec7433d0982006
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529936"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516641"
 ---
-# <a name="photo-mastermailboxtype"></a>Photo （MasterMailboxType）
+# <a name="photo-mastermailboxtype"></a>Photo (MasterMailboxType)
 
-**Photo （MasterMailboxType）** 元素仅供内部使用。 
+**MasterMailboxType** (元素) 仅供内部使用。 
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
@@ -35,7 +35,7 @@ ms.locfileid: "44529936"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   

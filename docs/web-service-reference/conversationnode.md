@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b7f7acd3-ed65-441e-9976-8b4ed5f12c0b
-description: ConversationNode 元素指定会话中的节点。
-ms.openlocfilehash: 074209c1b5669db8dd1ea4ba7f9dea064628afbd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ConversationNode 元素指定对话中的节点。
+ms.openlocfilehash: 2668d3cfaa8b43812a4a20ab8d92f419d636e368
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462701"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510356"
 ---
 # <a name="conversationnode"></a>ConversationNode
 
-**ConversationNode**元素指定会话中的节点。 
+**ConversationNode** 元素指定对话中的节点。 
   
 ```XML
 <ConversationNode>
@@ -42,15 +42,15 @@ ms.locfileid: "44462701"
 |:-----|:-----|
 |[InternetMessageId](internetmessageid.md) <br/> |表示项目的 Internet 邮件标识符。  <br/> |
 |[ParentInternetMessageId](parentinternetmessageid.md) <br/> |指定父 Internet 邮件的标识符。  <br/> |
-|[ItemIds (NonEmptyArrayOfItemIdsType)](itemids-nonemptyarrayofitemidstype.md) <br/> |指定对话节点中的所有项目。  <br/> |
+|[ItemIds (NonEmptyArrayOfItemIdsType)](itemids-nonemptyarrayofitemidstype.md) <br/> |指定对话节点中所有的项目。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ConversationNodes](conversationnodes.md) <br/> |指定会话节点的集合。  <br/> |
+|[ConversationNodes](conversationnodes.md) <br/> |指定对话节点的集合。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -62,7 +62,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

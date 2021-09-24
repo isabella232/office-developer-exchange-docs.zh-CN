@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 593e0c79-9ec2-4040-a6a3-3c5c61cbdf7c
 description: NonIndexableItemStatistic 元素包含无法编制索引的项目的单个统计信息
-ms.openlocfilehash: cc7bee9fd2759a16dd16538d6712e40ceb005fec
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 93bdaad2f10adf52ef99f51106596f155af2f18c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462680"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509544"
 ---
 # <a name="nonindexableitemstatistic"></a>NonIndexableItemStatistic
 
-**NonIndexableItemStatistic**元素包含无法编制索引的项目的单个统计信息 
+**NonIndexableItemStatistic** 元素包含无法编制索引的项目的单个统计信息 
   
 ```XML
 <NonIndexableItemStatistic>
@@ -38,13 +38,13 @@ ms.locfileid: "44462680"
   
 ### <a name="child-elements"></a>子元素
 
-[邮箱（字符串）](mailbox-string.md)  | [ItemCount](itemcount.md)  | [ErrorMessage](errormessage.md)
+[邮箱 (字符串) ](mailbox-string.md)  | [ItemCount](itemcount.md)  | [ErrorMessage](errormessage.md)
   
 ### <a name="parent-elements"></a>父元素
 
 [NonIndexableItemStatistics](nonindexableitemstatistics.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

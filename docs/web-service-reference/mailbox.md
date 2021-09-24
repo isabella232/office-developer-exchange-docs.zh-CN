@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Mailbox
 api_type:
 - schema
 ms.assetid: befc70fd-51cb-4258-884c-80c9050f0e82
 description: Mailbox 元素标识启用了邮件的 Active Directory 对象。
-ms.openlocfilehash: 284c3ff6f9fece57611169a4ec41eeaa273c6ad3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 8065c0472c3b847d538422aa77cd93f75d919a9b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468199"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535001"
 ---
 # <a name="mailbox"></a>邮箱
 
@@ -82,7 +82,7 @@ ms.locfileid: "44468199"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) 和 [ItemId](itemid.md) 元素识别邮箱或通讯组列表。 
 

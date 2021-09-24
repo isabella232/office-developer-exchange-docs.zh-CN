@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CustomMailTip
 api_type:
 - schema
 ms.assetid: eb57dc71-96e5-4718-a51a-a1b9c62abd6f
-description: CustomMailTip 元素表示自定义的邮件提示消息。
-ms.openlocfilehash: 70810b9c2a73703586d06a4141d31c0fd39abb5d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: CustomMailTip 元素表示自定义的邮件提示邮件。
+ms.openlocfilehash: 0146d645c24747eba2310fbc9328c8b93b0b347f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458332"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536159"
 ---
 # <a name="custommailtip"></a>CustomMailTip
 
-**CustomMailTip**元素表示自定义的邮件提示消息。 
+**CustomMailTip** 元素表示自定义的邮件提示邮件。 
   
 ```XML
 <CustomMailTip/>
@@ -44,11 +44,11 @@ ms.locfileid: "44458332"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[邮件提示](mailtips.md) <br/> |表示各种邮件提示类型的值。  <br/> |
+|[邮件提示](mailtips.md) <br/> |表示各种类型的邮件提示的值。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-如果使用此元素，则需要一个表示字符串的文本值。
+如果使用此元素，则代表字符串的文本值是必需的。
   
 ## <a name="remarks"></a>说明
 
