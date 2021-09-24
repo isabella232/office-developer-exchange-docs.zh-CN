@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ShowExternalRecipientCount
 api_type:
 - schema
 ms.assetid: db28dbcb-d051-4e5c-a9c2-4b8d5149b4e1
-description: ShowExternalRecipientCount 元素指示 GetMailTips 操作的使用者是否必须显示指示向其发送邮件的外部收件人数的邮件提示。
-ms.openlocfilehash: fc32e5c4a95f0e33b5532af9c77d31bd6446e641
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ShowExternalRecipientCount 元素指示 GetMailTips 操作使用者是否必须显示邮件提示，以指示邮件要发送到的外部收件人的数量。
+ms.openlocfilehash: 30615dcb1091dff01cf13679e3e1ed68c8b25af9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460468"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539098"
 ---
 # <a name="showexternalrecipientcount"></a>ShowExternalRecipientCount
 
-**ShowExternalRecipientCount**元素指示[GetMailTips 操作](getmailtips-operation.md)的使用者是否必须显示指示向其发送邮件的外部收件人数的邮件提示。 
+**ShowExternalRecipientCount** 元素指示 [GetMailTips](getmailtips-operation.md)操作使用者是否必须显示邮件提示，以指示邮件要发送到的外部收件人的数量。 
   
 ```XML
 <ShowExternalRecipientCount>true | false</ShowExternalRecipientCount>
@@ -48,7 +48,7 @@ ms.locfileid: "44460468"
    
 ## <a name="text-value"></a>文本值
 
-如果[GetMailTips 操作](getmailtips-operation.md)的使用者必须显示指示邮件的目标外部收件人数的邮件提示，则此元素的文本值为**true** 。 如果[GetMailTips 操作](getmailtips-operation.md)的使用者不一定要显示指示邮件地址为的外部收件人数的邮件提示，则值为**false** 。 
+如果[GetMailTips](getmailtips-operation.md) 操作使用者必须显示指示邮件所寻址的外部收件人数的邮件提示，则此元素的文本值为 true。 如果 [GetMailTips](getmailtips-operation.md)操作使用者无需显示指示邮件所寻址的外部收件人数的邮件提示，则值为 **false。** 
   
 ## <a name="remarks"></a>说明
 

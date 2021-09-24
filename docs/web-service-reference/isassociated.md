@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsAssociated
 api_type:
 - schema
 ms.assetid: 637f0798-6680-487f-bcbf-aaddc4a74186
-description: IsAssociated 元素指示项目是否与文件夹相关联。
-ms.openlocfilehash: 64a96a16d0303da3e0d8815fc51e6f5ffd342aa4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: IsAssociated 元素指示项目是否与文件夹关联。
+ms.openlocfilehash: 39dbfd20b7d19f66bfe26a5587801c169cf148f0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466085"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512868"
 ---
 # <a name="isassociated"></a>IsAssociated
 
-**IsAssociated**元素指示项目是否与文件夹相关联。 
+**IsAssociated** 元素指示项目是否与文件夹关联。 
   
 ```XML
 <IsAssociated/>
@@ -53,13 +53,13 @@ ms.locfileid: "44466085"
 |[MeetingRequest](meetingrequest.md) <br/> |表示 Exchange 存储中的会议请求。  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |表示 Exchange 存储中的会议响应。  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |表示 Exchange 电子邮件。  <br/> |
-|[PostItem](postitem.md) <br/> |表示 Exchange 存储中的公告项。  <br/> |
+|[PostItem](postitem.md) <br/> |表示应用商店中的Exchange项。  <br/> |
 |[RemoveItem](removeitem.md) <br/> |从 Exchange 存储中删除一个项目。  <br/> |
 |[任务](task.md) <br/> |表示 Exchange 存储中的任务。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-如果文本值为**true** ，则表示项目与文件夹相关联;**如果值为 false** ，则表示项目不与文件夹相关联。 
+文本值为 **true** 表示项目与文件夹关联;false **值表示** 项目未与文件夹关联。 
   
 ## <a name="remarks"></a>说明
 

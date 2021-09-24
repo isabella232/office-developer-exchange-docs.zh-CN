@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - TimeZoneDefinition
 api_type:
 - schema
 ms.assetid: b005a80c-addb-4409-beff-e5162076752c
-description: TimeZoneDefinition 元素指定用于定义时区的周期和转换。
-ms.openlocfilehash: 58d34556686bfc77244b5829798eada51a1df843
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: TimeZoneDefinition 元素指定定义时区的时间段和转换。
+ms.openlocfilehash: 6f2b580d2c3e31826ca74034cfda938cff71ee53
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466064"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538812"
 ---
 # <a name="timezonedefinition"></a>TimeZoneDefinition
 
-**TimeZoneDefinition**元素指定用于定义时区的周期和转换。 
+**TimeZoneDefinition** 元素指定用于定义时区的时间段和转换。 
   
 ```XML
 <TimeZoneDefinition Id="" Name="">
@@ -48,16 +48,16 @@ ms.locfileid: "44466064"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[课时](periods.md) <br/> |表示用于定义时区的不同阶段的时间偏移量的[Period](period.md)元素的数组。  <br/> |
-|[TransitionsGroups](transitionsgroups.md) <br/> |表示[TransitionsGroup](transitionsgroup.md)元素的数组，这些元素指定时区转换。  <br/> |
-|[移交](transitions.md) <br/> |表示时区转换的数组。  <br/> |
+|[Periods](periods.md) <br/> |表示 Period [元素的](period.md) 数组，这些元素定义时区的不同阶段的时间偏移。  <br/> |
+|[TransitionsGroups](transitionsgroups.md) <br/> |表示指定时区转换 [的 TransitionsGroup](transitionsgroup.md) 元素的数组。  <br/> |
+|[Transitions](transitions.md) <br/> |表示时区转换的数组。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
 |[TimeZoneDefinitions](timezonedefinitions.md) <br/> |表示时区定义的数组。  <br/> |
-|[TimeZoneContext](timezonecontext.md) <br/> |表示用于限定使用 Exchange Web 服务（EWS）创建、更新和检索的对象的日期/时间属性的默认时区定义。  <br/> |
+|[TimeZoneContext](timezonecontext.md) <br/> |表示默认时区定义，该定义用于对使用 Exchange Web Services (EWS) 创建、更新和检索的对象的 DateTime 属性进行范围) 。  <br/> |
    
 ## <a name="remarks"></a>说明
 

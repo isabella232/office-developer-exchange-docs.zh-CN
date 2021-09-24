@@ -1,29 +1,29 @@
 ---
-title: TTL （ClientAccessTokenTypeType）
+title: TTL (ClientAccessTokenTypeType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cc8f8caa-fced-49b6-9861-d112590b218a
-description: TTL 元素指示令牌的生存时间值。
-ms.openlocfilehash: 0275e97ce02e41cc377f4003aee12c6fff0995e2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: TTL 元素指示令牌生存值的时间。
+ms.openlocfilehash: 9f8fa983a4cbe1fd7f9f1862eeca1030a7446916
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467387"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538742"
 ---
-# <a name="ttl-clientaccesstokentypetype"></a>TTL （ClientAccessTokenTypeType）
+# <a name="ttl-clientaccesstokentypetype"></a>TTL (ClientAccessTokenTypeType)
 
-**TTL**元素指示令牌的生存时间值。 
+**TTL** 元素指示令牌生存值的时间。 
   
 ```XML
 <TTL></TTL>
 ```
 
- **整除**
+ **integer**
 ## <a name="attributes-and-elements"></a>属性和元素
 
 下面各部分介绍了属性、子元素和父元素。
@@ -42,9 +42,9 @@ ms.locfileid: "44467387"
   
 ## <a name="text-value"></a>文本值
 
-**TTL**元素的文本值指示令牌保持有效的时间长度。 
+**TTL** 元素的文本值指示令牌保持有效的时间。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

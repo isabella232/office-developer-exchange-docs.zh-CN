@@ -1,24 +1,24 @@
 ---
-title: 域（SOAP）
+title: Domains (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 5f81d1b7-c6a4-456f-9935-13d04a3d92d7
-description: Domain 元素表示在 GetDomainSettings 操作（SOAP）中返回的域集合、组织在 GetFederationInformation 操作（SOAP）中进行了联合的域，或者由 GetOrganizationRelationshipSettings 操作（SOAP）返回的具有组织关系关系的域。
-ms.openlocfilehash: c56fb72841776c0060c1300b52b2f6a06b1ec0ed
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Domains 元素表示 GetDomainSettings 操作 (SOAP) 中返回的域集合、组织在 GetFederationInformation 操作 (SOAP) 中联合的域，或由 GetOrganizationRelationshipSettings 操作 (SOAP) 返回的具有组织关系的域。
+ms.openlocfilehash: 667b2611ce8b393252f9bdda6dd7ec201b605047
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526303"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538321"
 ---
-# <a name="domains-soap"></a>域（SOAP）
+# <a name="domains-soap"></a>Domains (SOAP)
 
-Domain**元素表示**在[GETDOMAINSETTINGS 操作（soap）](getdomainsettings-operation-soap.md)中返回的域集合、组织在[GetFederationInformation 操作（soap）](getfederationinformation-operation-soap.md)中进行了联合的域，或者由[GetOrganizationRelationshipSettings 操作（soap）](getorganizationrelationshipsettings-operation-soap.md)返回的具有组织关系关系的域。
+**Domains** 元素表示 [GetDomainSettings](getdomainsettings-operation-soap.md)操作 (SOAP) 中返回的域集合、组织在 [GetFederationInformation](getfederationinformation-operation-soap.md)操作 (SOAP) 中联合的域，或 [由 GetOrganizationRelationshipSettings](getorganizationrelationshipsettings-operation-soap.md)操作 (SOAP) 返回的具有组织关系的域。
   
 ```XML
 <Domains>
@@ -39,15 +39,15 @@ Domain**元素表示**在[GETDOMAINSETTINGS 操作（soap）](getdomainsettings-
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[域（SOAP）](domain-soap.md) <br/> |代表单个域。  <br/> |
+|[Domain (SOAP)](domain-soap.md) <br/> |表示单个域。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GetDomainSettingsRequest （SOAP）](getdomainsettingsrequest-soap.md) <br/> |表示[GetDomainSettings 操作（SOAP）](getdomainsettings-operation-soap.md)请求。  <br/> |
-|[响应（GetFederationInformation）（SOAP）](response-getfederationinformationsoap.md) <br/> |包含[GetFederationInformation 操作（SOAP）](getfederationinformation-operation-soap.md)响应信息。  <br/> |
-|[GetOrganizationRelationshipSettingsRequest （SOAP）](getorganizationrelationshipsettingsrequest-soap.md) <br/> |表示[GetOrganizationRelationshipSettings 操作（SOAP）](getorganizationrelationshipsettings-operation-soap.md)请求。  <br/> |
+|[GetDomainSettingsRequest (SOAP)](getdomainsettingsrequest-soap.md) <br/> |表示 [SOAP 请求 (GetDomainSettings) ](getdomainsettings-operation-soap.md) 操作。  <br/> |
+|[Response (GetFederationInformation) (SOAP)](response-getfederationinformationsoap.md) <br/> |包含 [SOAP 响应 (GetFederationInformation) ](getfederationinformation-operation-soap.md) 操作。  <br/> |
+|[GetOrganizationRelationshipSettingsRequest (SOAP)](getorganizationrelationshipsettingsrequest-soap.md) <br/> |表示 [SOAP 请求 (GetOrganizationRelationshipSettings) ](getorganizationrelationshipsettings-operation-soap.md) 操作。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
@@ -64,6 +64,6 @@ Domain**元素表示**在[GETDOMAINSETTINGS 操作（soap）](getdomainsettings-
    
 ## <a name="see-also"></a>另请参阅
 
-- [GetDomainSettingsRequest （SOAP）](getdomainsettingsrequest-soap.md)  
-- [GetFederationInformationResponse （SOAP）](getfederationinformationresponse-soap.md)
+- [GetDomainSettingsRequest (SOAP)](getdomainsettingsrequest-soap.md)  
+- [GetFederationInformationResponse (SOAP)](getfederationinformationresponse-soap.md)
 

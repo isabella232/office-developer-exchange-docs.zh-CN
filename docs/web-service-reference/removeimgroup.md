@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7121ba52-726f-48c1-9b32-8c8a4468d9f0
-description: RemoveImGroup 元素表示一个删除即时消息组的请求。
-ms.openlocfilehash: 08b13d5474b2da52f8a56a2c2ee4434462a17dbd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: RemoveImGroup 元素表示删除即时消息组的请求。
+ms.openlocfilehash: 95e9324c97717e03363fea10f0a8924d2326e150
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460013"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513379"
 ---
 # <a name="removeimgroup"></a>RemoveImGroup
 
-**RemoveImGroup**元素表示一个删除即时消息组的请求。 
+**RemoveImGroup** 元素表示删除即时消息组的请求。 
   
 ```XML
 <RemoveImGroup>
@@ -42,7 +42,7 @@ ms.locfileid: "44460013"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

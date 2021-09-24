@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DayOfMonth
 api_type:
 - schema
 ms.assetid: 09b7504e-08d8-42f9-88cc-a2a37a2e2b8b
-description: DayOfMonth 元素描述定期项目出现在一个月中的哪一天。
-ms.openlocfilehash: dc333a46283d5e8eba3a79f62f8c22c22f56e190
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DayOfMonth 元素描述一个月中定期项目发生的那一天。
+ms.openlocfilehash: 73b83b83a6d9522f4a92f8a845bee788fb8dee33
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44442827"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513000"
 ---
 # <a name="dayofmonth"></a>DayOfMonth
 
-**DayOfMonth**元素描述定期项目出现在一个月中的哪一天。 
+**DayOfMonth** 元素描述定期项目在一个月内发生的那一天。 
   
 ```xml
 <DayOfMonth/>
@@ -50,7 +50,7 @@ ms.locfileid: "44442827"
    
 ## <a name="text-value"></a>文本值
 
-一个代表1到31范围内的整数的文本值是必需的。 如果特定月份的值大于该月中的天数，则假定为该月的最后一天。
+需要一个表示 1 到 31 范围内的整数的文本值。 如果对于某个特定月份，此值大于该月中的天数，则假定为月的最后一天。
   
 ## <a name="remarks"></a>说明
 

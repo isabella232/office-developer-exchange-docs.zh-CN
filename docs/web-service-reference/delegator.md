@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Delegator
 api_type:
 - schema
 ms.assetid: d359f7e8-765f-40ba-a7a0-9ce428f84523
-description: 代理者元素包含分配了任务的代理者的名称。
-ms.openlocfilehash: 63f97838d732c29e1e434783e7a12cf45e195e76
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Delegator 元素包含分配任务的委派者的名称。
+ms.openlocfilehash: 29fa0d7bc773af83fb3d9969528729dbef04e317
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457359"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519854"
 ---
 # <a name="delegator"></a>Delegator
 
-**代理者**元素包含分配了任务的代理者的名称。 
+**Delegator** 元素包含分配任务的委派者的名称。 
   
 ```xml
 <Delegator/>
@@ -49,7 +49,7 @@ ms.locfileid: "44457359"
    
 ## <a name="text-value"></a>文本值
 
-该文本值表示代理者的名称。
+文本值表示委派者的名称。
   
 ## <a name="remarks"></a>说明
 

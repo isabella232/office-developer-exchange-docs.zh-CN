@@ -1,24 +1,24 @@
 ---
-title: UserSetting （SOAP）
+title: UserSetting (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: aac6dc31-edd2-49d7-b845-1df4d77da58c
-description: UserSetting （SOAP）元素表示单个用户设置。
-ms.openlocfilehash: 8b9bb41e460c0c9d15c9823acb509b0f837eef32
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: UserSetting (SOAP) 元素表示单个用户设置。
+ms.openlocfilehash: e59f997f925f7d9885fab27df618d474269eacac
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459768"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538490"
 ---
-# <a name="usersetting-soap"></a>UserSetting （SOAP）
+# <a name="usersetting-soap"></a>UserSetting (SOAP)
 
-[UserSetting （SOAP）](usersetting-soap.md)元素表示单个用户设置。 
+[UserSetting (SOAP) ](usersetting-soap.md)元素表示单个用户设置。 
   
 ```XML
 <UserSetting>
@@ -39,13 +39,13 @@ ms.locfileid: "44459768"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[名称（SOAP）](name-soap.md) <br/> |代表用户设置的名称。  <br/> |
+|[Name (SOAP)](name-soap.md) <br/> |表示用户设置的名称。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[UserSettings （SOAP）](usersettings-soap.md) <br/> |表示用户设置的集合。  <br/> |
+|[UserSettings (SOAP)](usersettings-soap.md) <br/> |表示用户设置的集合。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
@@ -57,7 +57,7 @@ ms.locfileid: "44459768"
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |架构名称  <br/> |自动发现架构  <br/> |
-|验证文件  <br/> |消息 .xsd  <br/> |
+|验证文件  <br/> |messages.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
    
 

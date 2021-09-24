@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - HasPicture
 api_type:
 - schema
 ms.assetid: 922a43fe-01bd-49f2-9261-e00e4699b8da
-description: HasPicture 元素指示联系人项目是否具有表示联系人图片的文件附件。
-ms.openlocfilehash: 0f0758e38807587d47b9469f40b10bd9c6ea5012
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: HasPicture 元素指示联系人项目是否有表示联系人图片的文件附件。
+ms.openlocfilehash: c00a51b5f43d951beb7325dbb6e10ae70ec94d04
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462435"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519525"
 ---
 # <a name="haspicture"></a>HasPicture
 
-**HasPicture**元素指示联系人项目是否具有表示联系人图片的文件附件。 
+**HasPicture** 元素指示联系人项目是否有表示联系人图片的文件附件。 
   
 [联系人](contact.md)
   
@@ -52,7 +52,7 @@ ms.locfileid: "44462435"
    
 ## <a name="text-value"></a>文本值
 
-**HasPicture**元素的文本值可以是**true**或**false**。 默认值为 **false**。
+**HasPicture 元素** 的文本值可以是 **true** 或 **false**。 默认值为 **false**。
   
 ## <a name="remarks"></a>说明
 

@@ -1,23 +1,23 @@
 ---
-title: Meetingsuggestion.meetingstring
+title: MeetingString
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 713a30fe-17ad-48a3-88a2-4f83da9db7a5
-description: Meetingsuggestion.meetingstring 元素指定实体提取的结果会议的名称。
-ms.openlocfilehash: 1ad5d7a7d9b6f84a0ecc30129c9f1cd2ca3153f8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: MeetingString 元素指定作为实体提取结果的会议名称。
+ms.openlocfilehash: 27976e0c67907e3228bb7f0de44ef868d03295e5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466323"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532552"
 ---
-# <a name="meetingstring"></a>Meetingsuggestion.meetingstring
+# <a name="meetingstring"></a>MeetingString
 
-**Meetingsuggestion.meetingstring**元素指定实体提取的结果会议的名称。 
+**MeetingString** 元素指定作为实体提取结果的会议名称。 
   
 ```XML
 <MeetingString></MeetingString>
@@ -42,9 +42,9 @@ ms.locfileid: "44466323"
   
 ## <a name="text-value"></a>文本值
 
-**Meetingsuggestion.meetingstring**元素的文本值是会议的名称。 
+**MeetingString** 元素的文本值是会议的名称。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

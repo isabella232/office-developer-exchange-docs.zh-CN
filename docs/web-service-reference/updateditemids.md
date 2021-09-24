@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9199aeb2-abdf-40c5-8743-40b61853c951
 description: UpdatedItemIds 元素指定更新的提醒项的标识符。
-ms.openlocfilehash: 4a87bf50f90e80c0c887ee3a66b9f201ea1c8440
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 59e17e32d5df3f8a6000b05899f2fe0c5de2ec00
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465034"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538609"
 ---
 # <a name="updateditemids"></a>UpdatedItemIds
 
-**UpdatedItemIds**元素指定更新的提醒项的标识符。 
+**UpdatedItemIds** 元素指定更新的提醒项的标识符。 
   
 ```XML
 <UpdatedItemIds>
@@ -43,13 +43,13 @@ ms.locfileid: "44465034"
 
 [PerformReminderActionResponse](performreminderactionresponse.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
-如果[PerformReminderAction](performreminderaction-operation.md)操作未成功完成，或者服务器上未进行任何更改，则**UpdatedItemIds**元素将作为空值返回。 
+如果 [PerformReminderAction](performreminderaction-operation.md) 操作未成功完成，或者服务器上没有进行更改， **则 UpdatedItemIds** 元素将返回为空值。 
   
 ## <a name="element-information"></a>元素信息
 

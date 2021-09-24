@@ -1,23 +1,23 @@
 ---
-title: Refiners
+title: 精简程序
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fb70326a-2b34-43d1-a1a1-5fb0049d32f3
-description: 精简程序元素指定一个或多个精简程序元素的列表。
-ms.openlocfilehash: a89a18550355ccc9ef916637305a189276ee2224
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Refiners 元素指定一个或多个 Refiner 元素的列表。
+ms.openlocfilehash: 1b22b7255e15227aaa6d9a53518c7120d20f67fd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457219"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513498"
 ---
-# <a name="refiners"></a>Refiners
+# <a name="refiners"></a>精简程序
 
-**精简**程序元素指定一个或多个**精简**程序元素的列表。 
+**Refiners** 元素指定一个或多个 **Refiner** 元素的列表。 
   
 ```XML
 <Refiners>
@@ -36,13 +36,13 @@ ms.locfileid: "44457219"
   
 ### <a name="child-elements"></a>子元素
 
-[精简程序](refiner.md)
+[Refiner](refiner.md)
   
 ### <a name="parent-elements"></a>父元素
 
 [SearchMailboxesResult](searchmailboxesresult.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

@@ -1,23 +1,23 @@
 ---
-title: 指示
+title: Flag
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7b47bc74-a60d-4308-8674-5d52444a1753
 description: Flag 元素指定邮箱项目的标志。
-ms.openlocfilehash: 7229a26181ee9baf80be5c32c0ef99483310ccb3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: dffc550dc4235c2121b6641f3a6eac30594f75b3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466260"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513694"
 ---
-# <a name="flag"></a>指示
+# <a name="flag"></a>Flag
 
-**Flag**元素指定邮箱项目的标志。 
+**Flag** 元素指定邮箱项目的标志。 
   
 ```XML
 <Flag>
@@ -41,19 +41,19 @@ ms.locfileid: "44466260"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[FlagStatus](flagstatus.md) <br/> |包含当前文件夹中的项目的汇总标志状态。  <br/> |
+|[FlagStatus](flagstatus.md) <br/> |包含当前文件夹中项目的聚合标志状态。  <br/> |
 |[StartDate](startdate.md) <br/> |表示项目的开始日期。  <br/> |
-|[DueDate](duedate.md) <br/> |表示项目的截止日期。  <br/> |
-|[CompleteDate](completedate.md) <br/> |表示项目完成的日期。  <br/> |
+|[DueDate](duedate.md) <br/> |表示项目到期的日期。  <br/> |
+|[CompleteDate](completedate.md) <br/> |表示项目的完成日期。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
 |[ConversationAction](conversationaction.md) <br/> |包含要应用于单个对话的单个操作。  <br/> |
-|[项](item.md) <br/> |表示 Exchange 存储中的一般项目。  <br/> |
+|[项目](item.md) <br/> |表示数据存储区中的Exchange项。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -65,7 +65,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

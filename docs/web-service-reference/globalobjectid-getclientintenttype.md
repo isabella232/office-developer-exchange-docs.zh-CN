@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7244dda1-cb35-4513-a64f-301e7645e790
 description: GlobalObjectId 元素仅供内部使用。
-ms.openlocfilehash: 5b78873bef5cdec08394864f9bcb7e7ea0c41466
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: e18c484a36b05aeb47b88d34528d2c4132181c88
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459088"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533320"
 ---
 # <a name="globalobjectid-getclientintenttype"></a>GlobalObjectId (GetClientIntentType)
 
-**GlobalObjectId**元素仅供内部使用。 
+**GlobalObjectId** 元素仅供内部使用。 
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
@@ -35,7 +35,7 @@ ms.locfileid: "44459088"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

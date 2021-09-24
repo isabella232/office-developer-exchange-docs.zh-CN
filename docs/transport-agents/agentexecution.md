@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - agentExecution
 api_type:
 - schema
 ms.assetid: 600c4690-941c-45af-a906-5528748d09cd
-description: 上次修改时间：2015年9月17日
-ms.openlocfilehash: 457257e59fb37659daf2f91b0fa5dfced5c48c03
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: 上次修改时间：2015 年 9 月 17 日
+ms.openlocfilehash: 04a53e2698c66326943bcd083c775b53f5c6d5d5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44446488"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513057"
 ---
 # <a name="agentexecution"></a>agentExecution
   
-**适用于：** Exchange Server 2013 
+**适用于：Exchange Server** 2013 
   
-**AgentExecution**元素定义客户端访问或邮箱服务器等待代理在写入事件日志之前从事件返回的时间（以毫秒为单位）。 
+**agentExecution** 元素定义客户端访问或邮箱服务器等待代理在写入事件日志之前从事件返回的时间（以毫秒为单位）。 
   
 - [configuration](configuration.md)  
 - [监视](monitoring.md)
@@ -33,7 +33,7 @@ ms.locfileid: "44446488"
 <agentExecution timeLimitInMilliseconds="" />
 ```
 
-**agentExecutionType （复杂类型）**
+**agentExecutionType (complexType)**
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
@@ -43,7 +43,7 @@ ms.locfileid: "44446488"
 
 |**属性**|**说明**|
 |:-----|:-----|
-|**timeLimitInMilliseconds** <br/> |一个正整数值，指定服务器在将警告写入事件日志之前等待代理从事件返回的时间（以毫秒为单位）。 如果此值太小，则性能可能会降低。 此属性的建议值为300000，相当于5分钟。  <br/> |
+|**timeLimitInMilliseconds** <br/> |一个正整数值，指定服务器等待代理在向事件日志写入警告之前从事件返回的时间（以毫秒为单位）。 如果此值太小，性能可能会降低。 此属性的建议值为 300，000，等于 5 分钟。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -53,7 +53,7 @@ ms.locfileid: "44446488"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[监视](monitoring.md) <br/> |包含定义前端传输服务或传输服务如何以及何时监视安装的代理的配置信息。  <br/> |
+|[监视](monitoring.md) <br/> |包含配置信息，用于定义前端传输服务或传输服务监视所安装的代理时和方式。  <br/> |
    
 ## <a name="element-information"></a>元素信息
 

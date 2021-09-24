@@ -1,23 +1,23 @@
 ---
-title: EmailAddress （字符串）
+title: EmailAddress (string)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5b847017-fa89-4094-bfa1-cc436b760207
-description: EmailAddress 元素指定一个电子邮件地址。
-ms.openlocfilehash: b245611868d473e35f96e0d0b37f7cb4fbe9c94c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: EmailAddress 元素指定单个电子邮件地址。
+ms.openlocfilehash: 84e41d4346bc280e07587b0ed192de03e56ffab0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526226"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520800"
 ---
-# <a name="emailaddress-string"></a>EmailAddress （字符串）
+# <a name="emailaddress-string"></a>EmailAddress (string)
 
-**EmailAddress**元素指定一个电子邮件地址。 
+**EmailAddress** 元素指定单个电子邮件地址。 
   
 ```XML
 <EmailAddress></EmailAddress>
@@ -40,13 +40,13 @@ ms.locfileid: "44526226"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[EmailAddressEntity](emailaddressentity.md) <br/> |指定一个电子邮件地址实体。  <br/> |
+|[EmailAddressEntity](emailaddressentity.md) <br/> |指定单个电子邮件地址实体。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**EmailAddress**元素的文本值是一个指定电子邮件地址的字符串值。 
+**EmailAddress** 元素的文本值是一个指定电子邮件地址的字符串值。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -58,7 +58,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GlobalFlagStatus
 api_type:
 - schema
 ms.assetid: 3ba300f3-3355-4cab-9e77-0dcc2902e712
 description: GlobalFlagStatus 元素包含邮箱中所有会话项目的聚合标志状态。
-ms.openlocfilehash: f9984a1bb7e8205a98dd3ef91f841b48a7ab9389
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 2f9b0e05770eef497323150888c1302d5895f345
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459502"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519651"
 ---
 # <a name="globalflagstatus"></a>GlobalFlagStatus
 
-**GlobalFlagStatus**元素包含邮箱中所有会话项目的聚合标志状态。 
+**GlobalFlagStatus** 元素包含邮箱中所有会话项目的聚合标志状态。 
   
 [FindConversationResponse](findconversationresponse.md)
   
@@ -56,15 +56,15 @@ ms.locfileid: "44459502"
    
 ## <a name="text-value"></a>文本值
 
-**GlobalFlagStatus**元素的文本值是当前文件夹中的会话项目的聚合标志状态。 以下是可能的文本值： 
+**GlobalFlagStatus** 元素的文本值是当前文件夹中会话项目的聚合标志状态。 以下是可能的文本值： 
   
-- **NotFlagged** -指示未标记的状态。 
+- **NotFlagged** - 指示未标记的状态。 
     
-- 已**标记**-指示已标记的状态。 
+- **已标记** - 指示已标记的状态。 
     
-- **完成**-指示完整的标志状态。 
+- **Complete** - 指示完整的标志状态。 
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UnresolvedEntry
 api_type:
 - schema
 ms.assetid: 5ac6116a-3b24-40f8-a877-dbe9a6935919
 description: UnresolvedEntry 元素包含要解析的联系人或通讯组列表的名称。
-ms.openlocfilehash: 0f157c1be6c327187456a795c4c1000b8c35b620
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 77074d5aed0a799d355fd176a8c9c06f2dffec5a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459838"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538665"
 ---
 # <a name="unresolvedentry"></a>UnresolvedEntry
 
-**UnresolvedEntry**元素包含要解析的联系人或通讯组列表的名称。 
+**UnresolvedEntry** 元素包含要解析的联系人或通讯组列表的名称。 
   
 [ResolveNames](resolvenames.md)
   
@@ -52,17 +52,17 @@ ms.locfileid: "44459838"
    
 ## <a name="text-value"></a>文本值
 
-该文本值代表公共联系人或通讯组列表的名称。 字符串的最小长度为一个字符。
+文本值表示公共联系人或通讯组列表的名称。 字符串的最小长度为一个字符。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-此元素的文本值用于针对以下字段解析名称：
+此元素的文本值用于根据以下字段解析名称：
   
 - 名
     
 - 姓
     
-- 可分辨名称 (DN)
+- 显示名称
     
 - 全名
     
@@ -72,7 +72,7 @@ ms.locfileid: "44459838"
     
 - SMTP 地址
     
-带有前缀路由类型（如 smtp 或 sip）的电子邮件地址保存在多值数组中。 当您在未解析名称的开头添加路由类型（如 "sip:User1@Contoso.com"）时， [ResolveNames 操作](resolvenames-operation.md)将对该数组的每个值执行部分匹配。 如果不指定路由类型， **ResolveNames**操作将默认为 smtp 的路由类型，将其与主 smtp 地址属性相匹配，而不会搜索多值数组。 
+前缀路由类型（如 smtp 或 sip）的电子邮件地址保存在多值数组中。 当您在未解析名称的开头添加路由类型时 [，ResolveNames](resolvenames-operation.md) 操作将针对该数组的每个值执行部分匹配，例如"sip:User1@Contoso.com"。 如果不指定路由类型 **，ResolveNames** 操作将默认为 smtp 的路由类型，将它与主 SMTP 地址属性匹配，而不是搜索多值数组。 
   
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

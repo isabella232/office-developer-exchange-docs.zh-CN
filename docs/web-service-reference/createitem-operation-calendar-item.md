@@ -5,33 +5,33 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateItem
 api_type:
 - schema
 ms.assetid: aa4a7c94-f668-4bd2-8079-c855f6ab17e1
-description: CreateItem 操作在 Exchange 存储中创建日历项目。
-ms.openlocfilehash: 535edf9fe567bc3063a5b853f01d604ea4c7eb95
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: CreateItem 操作在活动存储Exchange项。
+ms.openlocfilehash: 4b2506dd4d5353c7670cab0ddb029e542d5861ba
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457499"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538420"
 ---
 # <a name="createitem-operation-calendar-item"></a>CreateItem 操作（日历项目）
 
-CreateItem 操作在 Exchange 存储中创建日历项目。
+CreateItem 操作在活动存储Exchange项。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-CreateItem 操作创建约会、会议和会议请求。 如果日历项目是在没有与会者的情况下创建的，则会将其视为约会。 如果指定了与会者，则日历项目是会议。 使用 CreateItem 操作创建会议时，如果 SendMeetingInvitations 属性设置为发送会议请求，则会自动向已标识的与会者发送会议请求。
+CreateItem 操作创建约会、会议和会议请求。 如果创建日历项目时没有与会者，则被视为约会。 如果指定与会者，则日历项目为会议。 使用 CreateItem 操作创建会议时，如果将 SendMeetingInvitations 属性设置为发送会议请求，则会自动将会议请求发送给标识的与会者。
   
-## <a name="createitem-calendar-item-request-example"></a>CreateItem （日历项目）请求示例
+## <a name="createitem-calendar-item-request-example"></a>CreateItem (日历项目) 请求示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-以下示例的 CreateItem 请求显示了如何使用两个必需的与会者创建会议。 此请求会将会议请求发送给两个与会者。
+CreateItem 请求的以下示例显示如何创建具有两个必需与会者的会议。 此请求将向两个与会者发送会议请求。
   
 ### <a name="code"></a>代码
 
@@ -79,11 +79,11 @@ CreateItem 操作创建约会、会议和会议请求。 如果日历项目是�
 
 ### <a name="comments"></a>备注
 
-有关如何响应会议请求的示例，请参阅[CreateItem 操作（会议请求）](createitem-operation-meeting-request.md)主题。 
+有关如何响应会议请求的示例，请参阅 [CreateItem operation (meeting request) ](createitem-operation-meeting-request.md) topic。 
   
-### <a name="request-elements"></a>Request 元素
+### <a name="request-elements"></a>请求元素
 
-请求中使用以下元素：
+请求中会使用下列元素：
   
 - [CreateItem](createitem.md)
     
@@ -91,27 +91,27 @@ CreateItem 操作创建约会、会议和会议请求。 如果日历项目是�
     
 - [DistinguishedFolderId](distinguishedfolderid.md)
     
-- [项目（NonEmptyArrayOfAllItemsType）](items-nonemptyarrayofallitemstype.md)
+- [Items (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)
     
 - [CalendarItem](calendaritem.md)
     
 - [主题](subject.md)
     
-- [Body](body.md)
+- [正文](body.md)
     
 - [ReminderIsSet](reminderisset.md)
     
 - [ReminderMinutesBeforeStart](reminderminutesbeforestart.md)
     
-- [开始](start.md)
+- [Start](start.md)
     
-- [停止](end-ex15websvcsotherref.md)
+- [End ](end-ex15websvcsotherref.md)
     
 - [IsAllDayEvent](isalldayevent.md)
     
 - [LegacyFreeBusyStatus](legacyfreebusystatus.md)
     
-- [Location](location.md)
+- [位置](location.md)
     
 - [RequiredAttendees](requiredattendees.md)
     
@@ -121,11 +121,11 @@ CreateItem 操作创建约会、会议和会议请求。 如果日历项目是�
     
 - [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md)
     
-## <a name="successful-createitem-calendar-item-response"></a>成功的 CreateItem （日历项目）响应
+## <a name="successful-createitem-calendar-item-response"></a>成功的 CreateItem (日历项目) 响应
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-下面的示例演示对 CreateItem 请求的成功响应。
+以下示例显示了对 CreateItem 请求的成功响应。
   
 ### <a name="code"></a>代码
 
@@ -159,11 +159,11 @@ CreateItem 操作创建约会、会议和会议请求。 如果日历项目是�
 
 ### <a name="comments"></a>备注
 
-[ItemId](itemid.md)元素**Id**和**ChangeKey**属性已缩短，以保持可读性。 
+[ItemId](itemid.md)元素 **Id** 和 **ChangeKey** 属性已缩短，以保持可读性。 
   
 ### <a name="successful-response-elements"></a>成功的响应元素
 
-响应中使用以下元素：
+响应中会使用下列元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     

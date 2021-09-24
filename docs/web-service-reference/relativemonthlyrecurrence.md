@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - RelativeMonthlyRecurrence
 api_type:
 - schema
 ms.assetid: a76595db-7460-44ac-ac2a-53241caa33a7
-description: RelativeMonthlyRecurrence 元素描述相对月定期模式。
-ms.openlocfilehash: 90aa0e43684bfb09a3e13cf86ec96f680e80a714
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: RelativeMonthlyRecurrence 元素描述相对每月定期模式。
+ms.openlocfilehash: 326e6581e55e64ffd2bcc9bdfa5108cf63089633
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457506"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513442"
 ---
 # <a name="relativemonthlyrecurrence"></a>RelativeMonthlyRecurrence
 
-**RelativeMonthlyRecurrence**元素描述相对月定期模式。 
+**RelativeMonthlyRecurrence** 元素描述相对每月定期模式。 
   
 ```xml
 <RelativeMonthlyRecurrence>
@@ -44,16 +44,16 @@ ms.locfileid: "44457506"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Interval](interval.md) <br/> |定义两个连续的每月定期模式项目之间的间隔。 此值的范围是1到99。  <br/> |
-|[DaysOfWeek （DayOfWeekType）](daysofweek-dayofweektype.md) <br/> |描述星期几的相对于每月定期模式。  <br/> |
-|[DayOfWeekIndex](dayofweekindex.md) <br/> |描述在相对月定期模式中使用哪一周。  <br/> |
+|[Interval](interval.md) <br/> |定义两个连续的每月定期模式项之间的间隔。 此值的范围为 1 到 99。  <br/> |
+|[DaysOfWeek (DayOfWeekType)](daysofweek-dayofweektype.md) <br/> |描述一周中的哪几天是相对每月定期模式。  <br/> |
+|[DayOfWeekIndex](dayofweekindex.md) <br/> |描述在相对每月更新中使用的周定期模式。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[重复周期（RecurrenceType）](recurrence-recurrencetype.md) <br/> |包含日历项目和会议请求的定期模式。  <br/> |
-|[重复周期（TaskRecurrenceType）](recurrence-taskrecurrencetype.md) <br/> |包含定期任务的定期信息。  <br/> |
+|[Recurrence (RecurrenceType)](recurrence-recurrencetype.md) <br/> |包含定期模式项和会议请求的联系人。  <br/> |
+|[Recurrence (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |包含定期任务的定期信息。  <br/> |
    
 ## <a name="remarks"></a>说明
 

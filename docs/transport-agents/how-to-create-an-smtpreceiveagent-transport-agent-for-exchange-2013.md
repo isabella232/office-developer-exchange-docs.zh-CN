@@ -5,46 +5,46 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cdc7c462-74a7-49d6-95b2-155d783840e9
-description: 了解如何创建自定义 SmtpReceiveAgent 传输代理以与 Exchange 2013 一起使用。
-ms.openlocfilehash: 5ba021d02849ffc7e125029f0fd18ebf14c3f8da
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: 了解如何创建自定义 SmtpReceiveAgent 传输代理以用于 Exchange 2013。
+ms.openlocfilehash: a441f93113798c10421e9073e266c28fd87bca8d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459137"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513029"
 ---
 # <a name="create-an-smtpreceiveagent-transport-agent-for-exchange-2013"></a>为 Exchange 2013 创建 SmtpReceiveAgent 传输代理
 
-了解如何创建自定义 SmtpReceiveAgent 传输代理以与 Exchange 2013 一起使用。
+了解如何创建自定义 SmtpReceiveAgent 传输代理以用于 Exchange 2013。
   
-**适用于：** Exchange Server 2013
+**适用于：Exchange Server** 2013
   
-相关的代码段和示例应用程序：
+相关代码段和示例应用：
 
-- [Exchange 2013：生成正文转换传输代理](https://code.msdn.microsoft.com/Exchange/Exchange-2013-Build-a-body-ed36ecb0)
+- [Exchange 2013：构建正文转换传输代理](https://code.msdn.microsoft.com/Exchange/Exchange-2013-Build-a-body-ed36ecb0)
   
-[SmtpReceiveAgentFactory](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgentFactory.aspx)和[SmtpReceiveAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.aspx)类使您能够在客户端访问服务器或邮箱服务器上的传输服务上扩展前端传输服务的行为。 可以使用这些类来实现传输代理，这些代理旨在在邮件进入您的组织时对其做出响应。 
+[SmtpReceiveAgentFactory](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgentFactory.aspx)和[SmtpReceiveAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.aspx)类使您能够扩展客户端访问服务器或邮箱服务器上传输服务前端传输服务的行为。 可以使用这些类来实现传输代理，这些传输代理旨在响应进入组织的邮件。 
   
 [SmtpReceiveAgentFactory](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgentFactory.aspx)和[SmtpReceiveAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.aspx)类包括下表中列出的事件。 
   
-**表1。SmtpReceiveAgent 类事件**
+**表 1.SmtpReceiveAgent 类事件**
 
 |**Event**|**说明**|
 |:-----|:-----|
-|[OnAuthCommand](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.OnAuthCommand.aspx) <br/> |当代理需要仅在 SMTP **AUTH**命令中提供的信息（如接受或拒绝基于所使用的身份验证方法的发送邮件的尝试的代理）时使用。  <br/> |
-|[OnConnect](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.OnConnect.aspx) <br/> |当您的代理需要仅当通过 SMTP 将连接打开到前端传输服务时提供的信息，例如，基于远程 SMTP 服务器的地址或域执行操作的代理时使用。  <br/> |
-|[OnDataCommand](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.OnDataCommand.aspx) <br/> |当您的代理需要 SMTP**数据**命令中提供的信息时，请使用此事件。  <br/> |
-|[OnDisconnect](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.OnDisconnect.aspx) <br/> |如果代理需要在断开连接时可用的信息（如当前日期和时间），以便执行时间计算，请使用。  <br/> |
-|[OnEhloCommand](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.OnEhloCommand.aspx) <br/> |当代理需要 SMTP **EHLO**命令中提供的信息时使用;例如，如果您的代理根据**EHLO**命令中提供的标识接受或拒绝邮件。  <br/> |
-|[OnEndOfAuthentication](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.OnEndOfAuthentication.aspx) <br/> |当您的代理需要在远程服务器完成身份验证过程后可用的信息时，请使用。例如，对于基于远程 SMTP 服务器或客户端提供的身份验证信息对邮件执行操作的代理。  <br/> |
-|[OnEndOfData](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.OnEndOfData.aspx) <br/> |当代理必须基于邮件中提供的数据执行操作时使用。 在前端传输服务上不会触发此事件。 如果您的传输代理必须使用此事件，则必须将其安装在邮箱服务器上。  <br/> |
-|[OnEndOfHeaders](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.OnEndOfHeaders.aspx) <br/> |在代理必须基于提交的邮件的邮件头中提供的信息执行操作时使用。  <br/> |
+|[OnAuthCommand](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.OnAuthCommand.aspx) <br/> |当代理需要仅在 SMTP **AUTH** 命令中提供的信息（例如，根据所使用的身份验证方法类型接受或拒绝传递邮件的尝试）时使用。  <br/> |
+|[OnConnect](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.OnConnect.aspx) <br/> |当代理需要仅在通过 SMTP 打开与前端传输服务的连接（如基于远程 SMTP 服务器的地址或域执行一个操作）时提供的信息时使用。  <br/> |
+|[OnDataCommand](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.OnDataCommand.aspx) <br/> |当代理需要 SMTP **DATA** 命令中提供的信息时，请使用此事件。  <br/> |
+|[OnDisconnect](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.OnDisconnect.aspx) <br/> |当代理需要断开连接时可用的信息（如当前日期和时间）时使用，以便执行时间计算。  <br/> |
+|[OnEhloCommand](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.OnEhloCommand.aspx) <br/> |在代理需要 SMTP **EHLO** 命令中提供的信息时使用;例如，如果代理根据 **EHLO** 命令中提供的标识接受或拒绝邮件。  <br/> |
+|[OnEndOfAuthentication](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.OnEndOfAuthentication.aspx) <br/> |在代理需要远程服务器完成身份验证过程后可用的信息时使用;例如，对于基于远程 SMTP 服务器或客户端提供的身份验证信息对邮件执行该操作的代理。  <br/> |
+|[OnEndOfData](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.OnEndOfData.aspx) <br/> |当代理必须基于邮件中可用的数据执行操作时，请使用 。 前端传输服务上不会发生此事件。 如果您的传输代理必须使用此事件，您必须将其安装在邮箱服务器上。  <br/> |
+|[OnEndOfHeaders](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.OnEndOfHeaders.aspx) <br/> |当代理必须基于提交的邮件头中提供的信息执行一个操作时使用。  <br/> |
    
 ## <a name="creating-a-custom-smtpreceiveagent-transport-agent"></a>创建自定义 SmtpReceiveAgent 传输代理
 
-下面的过程介绍如何创建自定义 SmtpReceiveAgent 传输代理。 
+以下过程介绍如何创建自定义 SmtpReceiveAgent 传输代理。 
   
 ### <a name="to-create-the-transport-agent"></a>创建传输代理
 
@@ -58,9 +58,9 @@ ms.locfileid: "44459137"
   
    ```
 
-   您可以在 Exchange 2013 服务器上找到这些命名空间。 当您添加对这些命名空间的引用时，您将有权访问[SmtpReceiveAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.aspx)成员以及在 Exchange 2013 中使用的其他类[：构建正文转换传输代理](https://code.msdn.microsoft.com/Exchange/Exchange-2013-Build-a-body-ed36ecb0)示例。 
+   您可以在 Exchange 2013 服务器上找到这些命名空间。 当您添加对这些命名空间的引用时，您将有权访问[SmtpReceiveAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.aspx)成员以及[Exchange 2013： Build a body conversion transport agent](https://code.msdn.microsoft.com/Exchange/Exchange-2013-Build-a-body-ed36ecb0)示例中使用的其他类。 
     
-2. 为[SmtpReceiveAgentFactory](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgentFactory.aspx)类实现派生类。 
+2. 为 [SmtpReceiveAgentFactory 类实现派生](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgentFactory.aspx) 类。 
     
    ```cs
       public class BodyConversionFactory : SmtpReceiveAgentFactory
@@ -78,7 +78,7 @@ ms.locfileid: "44459137"
   
    ```
 
-   此代码将实例化派生类并重写**CreateAgent**方法，以创建新的自定义代理的实例。 
+   此代码将实例化派生的类并重写 **CreateAgent** 方法以创建新的自定义代理的实例。 
     
 3. 定义代理。
     
@@ -98,7 +98,7 @@ ms.locfileid: "44459137"
   
    ```
 
-   在定义代理类之后，可以添加自定义功能。 在此示例中， [OnEndOfData](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.OnEndOfData.aspx)事件被重定向到自定义事件处理程序。 
+   定义代理类后，可以添加自定义功能。 本示例中 [，OnEndOfData](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.OnEndOfData.aspx) 事件重定向到自定义事件处理程序。 
     
 ## <a name="see-also"></a>另请参阅
 

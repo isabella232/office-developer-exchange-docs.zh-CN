@@ -1,23 +1,23 @@
 ---
-title: SharePointUrl （MasterMailboxType）
+title: SharePointUrl (MasterMailboxType)
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2c0e86ed-8156-48de-9b22-c627db273e1e
-description: SharePointUrl （MasterMailboxType）元素仅供内部使用。
-ms.openlocfilehash: a4c9f83c8717f9f96293faf3fbc944bad693fe7a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SharePointUrl (MasterMailboxType) 仅供内部使用。
+ms.openlocfilehash: cb45fcfd1bf5b8e310a5c12d51f981e65b6c3c69
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458612"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539057"
 ---
-# <a name="sharepointurl-mastermailboxtype"></a>SharePointUrl （MasterMailboxType）
+# <a name="sharepointurl-mastermailboxtype"></a>SharePointUrl (MasterMailboxType)
 
-**SharePointUrl （MasterMailboxType）** 元素仅供内部使用。 
+**SharePointUrl (MasterMailboxType)** 仅供内部使用。 
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
@@ -35,7 +35,7 @@ ms.locfileid: "44458612"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   

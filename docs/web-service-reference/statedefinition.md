@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 771039e6-5438-49ef-b213-58dd969e156b
 description: StateDefinition 元素仅供内部使用。
-ms.openlocfilehash: faca89c2c78febe8373cf02f8d84732f2611a6fb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 1831a21e382b7fb739bff3172ec8935a72fe4c9e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459509"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538952"
 ---
 # <a name="statedefinition"></a>StateDefinition
 
-**StateDefinition**元素仅供内部使用。 
+**StateDefinition** 元素仅供内部使用。 
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
@@ -35,7 +35,7 @@ ms.locfileid: "44459509"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 59b0b2db-a0ae-4162-a2cb-5f37f42fe872
-description: SearchPreviewItem 元素指定发现搜索的项预览。
-ms.openlocfilehash: ab48353b0ffaf4bc3b9409f1a620d145bffc7a13
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SearchPreviewItem 元素指定发现搜索的项目预览。
+ms.openlocfilehash: 7ecc034de3386ed35f0071403c013e91b79d13c5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466932"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59534299"
 ---
 # <a name="searchpreviewitem"></a>SearchPreviewItem
 
-**SearchPreviewItem**元素指定发现搜索的项预览。 
+**SearchPreviewItem** 元素指定发现搜索的项目预览。 
   
 ```XML
 <SearchPreviewItem>
@@ -56,13 +56,13 @@ ms.locfileid: "44466932"
   
 ### <a name="child-elements"></a>子元素
 
-[ID （ItemIdType）](id-itemidtype.md)  | [邮箱（PreviewItemMailboxType）](mailbox-previewitemmailboxtype.md)  | [ParentId](parentid.md)  | [ItemClass](itemclass.md)  | [UniqueHash](uniquehash.md)  | [SortValue](sortvalue.md)  | [OwaLink](owalink.md)  | [发件人（字符串）](sender-string.md)  | [ToRecipients （ArrayOfSmtpAddressType）](torecipients-arrayofsmtpaddresstype.md)  | [CcRecipients](ccrecipients.md)  | [BccRecipients](bccrecipients.md)  | [CreatedTime](createdtime.md)  | [ReceivedTime](receivedtime.md)  | [SentTime](senttime.md)  | [主题](subject.md)  | [大小（long）](size-long.md)  | [预览](preview-ex15websvcsotherref.md)  | [重要性](importance.md)  | [阅读](read.md)  | [HasAttachment](hasattachment.md)  | [ExtendedProperties （NonEmptyArrayOfExtendedPropertyType）](extendedproperties-nonemptyarrayofextendedpropertytype.md)
+[Id (ItemIdType) ](id-itemidtype.md)  | [Mailbox (PreviewItemMailboxType) ](mailbox-previewitemmailboxtype.md)  | [ParentId](parentid.md)  | [ItemClass](itemclass.md)  | [UniqueHash](uniquehash.md)  | [SortValue](sortvalue.md)  | [OwaLink](owalink.md)  | [发件人 (字符串) ](sender-string.md)  | [ToRecipients (ArrayOfSmtpAddressType) ](torecipients-arrayofsmtpaddresstype.md)  | [CcRecipients](ccrecipients.md)  | [BccRecipients](bccrecipients.md)  | [CreatedTime](createdtime.md)  | [ReceivedTime](receivedtime.md)  | [SentTime](senttime.md)  | [主题](subject.md)  | [长 (大小) ](size-long.md)  | [预览](preview-ex15websvcsotherref.md)  | [重要性](importance.md)  | [读取](read.md)  | [HasAttachment](hasattachment.md)  | [ExtendedProperties (NonEmptyArrayOfExtendedPropertyType) ](extendedproperties-nonemptyarrayofextendedpropertytype.md)
   
 ### <a name="parent-elements"></a>父元素
 
-[项目（ArrayOfSearchPreviewItemsType）](items-arrayofsearchpreviewitemstype.md)
+[Items (ArrayOfSearchPreviewItemsType)](items-arrayofsearchpreviewitemstype.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

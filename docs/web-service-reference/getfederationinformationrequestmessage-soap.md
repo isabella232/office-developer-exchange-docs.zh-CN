@@ -1,24 +1,24 @@
 ---
-title: GetFederationInformationRequestMessage （SOAP）
+title: GetFederationInformationRequestMessage (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 3b0f5841-0c8f-4a9d-be75-cdf6cc2c35ab
-description: GetFederationInformationRequestMessage 元素准备对服务器的调用，以请求安全令牌服务（STS）的配置数据。
-ms.openlocfilehash: cc1e4d67f5bba6e571aeb94d3f27b67baac4c224
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetFederationInformationRequestMessage 元素准备对服务器的调用，以请求 STS (安全令牌服务) 。
+ms.openlocfilehash: d8deb65d4aecb471f270871a837bb0d340cb2c74
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467023"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513638"
 ---
-# <a name="getfederationinformationrequestmessage-soap"></a>GetFederationInformationRequestMessage （SOAP）
+# <a name="getfederationinformationrequestmessage-soap"></a>GetFederationInformationRequestMessage (SOAP)
 
-**GetFederationInformationRequestMessage**元素准备对服务器的调用，以请求安全令牌服务（STS）的配置数据。 
+**GetFederationInformationRequestMessage** 元素准备对服务器的调用，以请求 STS (安全令牌服务) 。 
   
 ```XML
 <GetFederationInformationRequestMessage>
@@ -39,7 +39,7 @@ ms.locfileid: "44467023"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[请求（GetFederationInformation）（SOAP）](request-getfederationinformationsoap.md) <br/> |表示**GetFederationInformation**请求。  <br/> |
+|[Request (GetFederationInformation) (SOAP)](request-getfederationinformationsoap.md) <br/> |表示 **GetFederationInformation** 请求。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f99e9590-8388-4203-ac30-1ea394f351a6
 description: BodyContentAttributedValue 元素指定项目的正文内容。
-ms.openlocfilehash: 3550d9307e9bd652afc217f72610379a0a5b2f68
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 294bb0baf4915180a34701775a45e9dafbd99753
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527395"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520016"
 ---
 # <a name="bodycontentattributedvalue"></a>BodyContentAttributedValue
 
-**BodyContentAttributedValue**元素指定项目的正文内容。 
+**BodyContentAttributedValue** 元素指定项目的正文内容。 
   
 ```XML
 <BodyContentAttributedValue>
@@ -39,16 +39,16 @@ ms.locfileid: "44527395"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Value （BodyContentType）](value-bodycontenttype.md) <br/> |指定**BodyContentAttributedValue**元素的值。  <br/> |
-|[归属（ArrayOfPersonaAttributionsType）](attributions-arrayofpersonaattributionstype.md) <br/> |为聚合到关联角色中的一个或多个联系人或 active directory 收件人指定归属信息的数组。  <br/> |
+|[Value (BodyContentType)](value-bodycontenttype.md) <br/> |指定 **BodyContentAttributedValue 元素** 的值。  <br/> |
+|[Attributions (ArrayOfPersonaAttributionsType)](attributions-arrayofpersonaattributionstype.md) <br/> |指定聚合到关联人员中的一个或多个联系人或 Active Directory 收件人的属性信息数组。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[团体](bodies.md) <br/> |指定**BodyContentAttributedValue**元素的数组。  <br/> |
+|[Bodies](bodies.md) <br/> |指定 **BodyContentAttributedValue 元素** 的数组。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -60,7 +60,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

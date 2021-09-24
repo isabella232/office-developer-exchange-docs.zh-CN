@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ContainsRecipientStrings
 api_type:
 - schema
 ms.assetid: a7fd13ac-0f13-4610-ac9b-98e27ac3940b
 description: ContainsRecipientStrings 元素指示必须出现在传入邮件的 ToRecipients 或 CcRecipients 属性中的字符串，以便条件或例外情况适用。
-ms.openlocfilehash: ba717de6b3c53b37d12c4c0be8301083b2080c8b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 9d4bb53e4963af6d25fd5e2aaf3819ac20a39479
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458983"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520932"
 ---
 # <a name="containsrecipientstrings"></a>ContainsRecipientStrings
 
-**ContainsRecipientStrings**元素指示必须出现在传入邮件的**ToRecipients**或**CcRecipients**属性中的字符串，以便条件或例外情况适用。 
+**ContainsRecipientStrings** 元素指示必须出现在传入邮件的 **ToRecipients** 或 **CcRecipients** 属性中的字符串，以便条件或例外情况适用。 
   
 ```XML
 <ContainsRecipientStrings>
@@ -42,7 +42,7 @@ ms.locfileid: "44458983"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[字符串](string.md) <br/> |表示必须出现在传入邮件的**ToRecipients**或**CcRecipients**属性中的字符串，以便条件或例外情况适用。  <br/> |
+|[字符串](string.md) <br/> |表示必须出现在传入邮件的 **ToRecipients** 或 **CcRecipients** 属性中才能应用条件或例外的字符串。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -55,7 +55,7 @@ ms.locfileid: "44458983"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

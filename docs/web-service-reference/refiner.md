@@ -1,23 +1,23 @@
 ---
-title: 精简程序
+title: Refiner
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8395b45f-3b94-4473-82ac-2a12c4309170
-description: 精简元素指定搜索精简程序。
-ms.openlocfilehash: 5be73cfd0a5005f79651e9de76fd5aaf18ba0119
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Refiner 元素指定搜索精简条件。
+ms.openlocfilehash: 4338a3aa1c7551663b657cd082b159c9e81935be
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456730"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512534"
 ---
-# <a name="refiner"></a>精简程序
+# <a name="refiner"></a>Refiner
 
-**精简**元素指定搜索精简程序。 
+**Refiner** 元素指定搜索精简条件。 
   
 ```XML
 <Refiner>
@@ -39,13 +39,13 @@ ms.locfileid: "44456730"
   
 ### <a name="child-elements"></a>子元素
 
-[名称（字符串）](name-string.md)  | [值](value.md)  | [计数](count.md)  | [标记（String）](token-string.md)
+[名称 (字符串) ](name-string.md)  | [值](value.md)  | [Count](count.md)  | [令牌 (字符串) ](token-string.md)
   
 ### <a name="parent-elements"></a>父元素
 
 [精简程序](refiners.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

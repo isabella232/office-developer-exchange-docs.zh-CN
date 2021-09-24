@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetServerTimeZones
 api_type:
 - schema
 ms.assetid: 2a89098b-d89b-4d01-827b-50be00f7cbe9
-description: GetServerTimeZones 元素是请求中的根元素，用于检索来自 Exchange 服务器的时区定义。
-ms.openlocfilehash: 797e4543c94b0628242bcf544fe9a735ebaa5a63
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetServerTimeZones 元素是请求从服务器检索时区定义的根Exchange元素。
+ms.openlocfilehash: b710334e5778f8bc27ba7ac07c6bf9c2e2d3392e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460937"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533537"
 ---
 # <a name="getservertimezones"></a>GetServerTimeZones
 
-**GetServerTimeZones**元素是请求中的根元素，用于检索来自 Exchange 服务器的时区定义。 
+**GetServerTimeZones** 元素是请求从服务器检索时区定义的根Exchange元素。 
   
 ```xml
 <GetServerTimeZones ReturnFullTimeZoneData="">   <Ids/></GetServerTimeZones>
@@ -36,28 +36,28 @@ ms.locfileid: "44460937"
 
 |**属性**|**说明**|
 |:-----|:-----|
-|**ReturnFullTimeZoneData** <br/> |指定[GetServerTimeZones 操作](getservertimezones-operation.md)是返回完整定义还是仅返回每个时区的名称和标识符。 此特性是可选的。 默认值为 **true** 。  <br/> |
+|**ReturnFullTimeZoneData** <br/> |指定 [GetServerTimeZones 操作](getservertimezones-operation.md) 是返回完整定义还是仅返回每个时区的名称和标识符。 此特性是可选的。 默认值为 **true** 。  <br/> |
    
 #### <a name="returnfulltimezonedata-attribute"></a>ReturnFullTimeZoneData 属性
 
 |**值**|**说明**|
 |:-----|:-----|
 |**true** <br/> |返回每个时区的完整定义。  <br/> |
-|**该值** <br/> |仅返回每个时区的名称和标识符。  <br/> |
+|**false** <br/> |仅返回每个时区的名称和标识符。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
-|**元素**|**描述**|
+|**元素**|**说明**|
 |:-----|:-----|
-|[Id](ids.md) <br/> |包含时区定义标识符的数组，该数组指定请求的时区定义。 此元素为可选。 如果此元素未包含在[GetServerTimeZones 操作](getservertimezones-operation.md)请求中，则会在响应中返回服务器上可用的所有时区定义。  <br/> |
+|[Ids](ids.md) <br/> |包含指定请求的时区定义的时区定义标识符数组。 此元素为可选。 如果 [GetServerTimeZones](getservertimezones-operation.md) 操作请求中不包含此元素，响应中将返回服务器上可用的所有时区定义。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-描述此元素的架构位于运行 Microsoft Exchange Server 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
+描述此元素的架构位于运行已安装客户端访问服务器角色Microsoft Exchange Server的计算机的 EWS 虚拟目录中。
   
 ## <a name="element-information"></a>元素信息
 

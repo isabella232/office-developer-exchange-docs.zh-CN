@@ -1,27 +1,27 @@
 ---
-title: 持续时间（项目）
+title: Duration (Items)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Duration
 api_type:
 - schema
 ms.assetid: c6a9bafd-a15b-4b04-8070-6e0a693f9683
 description: Duration 元素表示日历项目的持续时间。
-ms.openlocfilehash: 2434ae081fcdd0fa06f0ffbc016537691132a4cf
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 3bb466348e6f3d0442c3a4b88737ff719595f0d7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463550"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538315"
 ---
-# <a name="duration-items"></a>持续时间（项目）
+# <a name="duration-items"></a>Duration (Items)
 
-**Duration**元素表示日历项目的持续时间。 
+**Duration** 元素表示日历项目的持续时间。 
   
 ```xml
 <Duration/>
@@ -49,7 +49,7 @@ ms.locfileid: "44463550"
    
 ## <a name="text-value"></a>文本值
 
-该文本值表示日历项目的持续时间。 此属性是只读的。
+文本值表示日历项目的持续时间。 此属性是只读的。
   
 ## <a name="remarks"></a>说明
 

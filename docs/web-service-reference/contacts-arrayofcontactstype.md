@@ -1,23 +1,23 @@
 ---
-title: 联系人（ArrayOfContactsType）
+title: Contacts (ArrayOfContactsType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a2c1e833-5f8c-438d-bad7-bb5dcc29ca9e
-description: "\"联系人\" 元素指定联系人数组。"
-ms.openlocfilehash: eeb202f41fcf5ec7aad12a8a2b8e6dd539b3dba4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Contacts 元素指定联系人数组。
+ms.openlocfilehash: dedae597acf86c70e215382140a9d2312a7fc615
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529439"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519931"
 ---
-# <a name="contacts-arrayofcontactstype"></a>联系人（ArrayOfContactsType）
+# <a name="contacts-arrayofcontactstype"></a>Contacts (ArrayOfContactsType)
 
-"**联系人**" 元素指定联系人数组。 
+**Contacts** 元素指定联系人数组。 
   
 ```XML
 <Contacts>
@@ -38,15 +38,15 @@ ms.locfileid: "44529439"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Contact （ContactType）](contact-contacttype.md) <br/> |指定统一联系人存储库中的联系人。  <br/> |
+|[Contact (ContactType)](contact-contacttype.md) <br/> |指定统一联系人存储中的联系人。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[EntityExtractionResult](entityextractionresult.md) <br/> |指定项的**EntityExtractionResult**属性。  <br/> |
+|[EntityExtractionResult](entityextractionresult.md) <br/> |指定项目的 **EntityExtractionResult** 属性。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -58,7 +58,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

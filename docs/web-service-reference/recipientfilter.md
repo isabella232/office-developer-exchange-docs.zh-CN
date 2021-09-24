@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - RecipientFilter
 api_type:
 - schema
 ms.assetid: 956c287a-a38a-49a7-a877-6d2088dfbc06
 description: RecipientFilter 元素表示要用于指定邮件跟踪报告的收件人地址。
-ms.openlocfilehash: 945adf9155434e0690debfccc7caf70ba0cb94ec
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: bae574f83ca05a6c91c328909877d8c685849737
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465805"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59534519"
 ---
 # <a name="recipientfilter"></a>RecipientFilter
 
-**RecipientFilter**元素表示要用于指定邮件跟踪报告的收件人地址。 
+**RecipientFilter** 元素表示要用于指定邮件跟踪报告的收件人地址。 
   
 ```XML
  <RecipientFilter>
@@ -47,22 +47,22 @@ ms.locfileid: "44465805"
 |**元素**|**说明**|
 |:-----|:-----|
 |[名称 (EmailAddressType)](name-emailaddresstype.md) <br/> |表示邮箱用户的名称。 此元素为可选。  <br/> |
-|[EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) <br/> |定义邮箱用户的主要简单邮件传输协议（SMTP）地址。 此元素为可选。  <br/> |
+|[EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) <br/> |定义邮箱用户的主简单邮件传输 (SMTP) 地址。 此元素为可选。  <br/> |
 |[RoutingType (EmailAddress)](routingtype-emailaddress.md) <br/> |表示此收件人的路由协议。 默认值为 SMTP。 此元素为可选。  <br/> |
-|[MailboxType](mailboxtype.md) <br/> |代表电子邮件地址所代表的邮箱类型。 此元素为可选。  <br/> |
+|[MailboxType](mailboxtype.md) <br/> |表示由电子邮件地址表示的邮箱的类型。 此元素为可选。  <br/> |
 |[ItemId](itemid.md) <br/> |定义用户的联系人文件夹中的收件人的联系人或个人通讯组列表的项标识符。此元素是可选的。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GetMessageTrackingReport](getmessagetrackingreport.md) <br/> |包含[GetMessageTrackingReport 操作](getmessagetrackingreport-operation.md)的请求，以检索指定 ID 的完整邮件跟踪报告。  <br/> |
+|[GetMessageTrackingReport](getmessagetrackingreport.md) <br/> |包含 [GetMessageTrackingReport](getmessagetrackingreport-operation.md) 操作的请求，以检索指定 ID 的完整邮件跟踪报告。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - WebClientReadFormQueryString
 api_type:
 - schema
 ms.assetid: 13e8871a-32a6-4bb9-9493-864c4c07efff
-description: WebClientReadFormQueryString 元素表示用于连接到 Outlook web App 终结点以在 Outlook Web App 中读取项目的 URL。
-ms.openlocfilehash: d7102ef288c0aafa6cdada09eda321b546edddb7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: WebClientReadFormQueryString 元素表示要连接到 Outlook Web App 终结点以读取项目在Outlook Web App。
+ms.openlocfilehash: 10035aa001c74926ae36e96e09b5b2995844cb68
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464978"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538469"
 ---
 # <a name="webclientreadformquerystring"></a>WebClientReadFormQueryString
 
-**WebClientReadFormQueryString**元素表示用于连接到 Outlook web app 终结点以在 Outlook web app 中读取项目的 URL。 
+**WebClientReadFormQueryString** 元素表示连接到 Outlook Web App 终结点以读取项目在Outlook Web App。 
   
 ```XML
 <WebClientReadFormQueryString/>
@@ -53,25 +53,25 @@ ms.locfileid: "44464978"
 |[MeetingRequest](meetingrequest.md) <br/> |表示 Exchange 存储中的会议请求。  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |表示 Exchange 存储中的会议响应。  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |表示 Exchange 电子邮件。  <br/> |
-|[PostItem](postitem.md) <br/> |表示 Exchange 存储中的公告项。  <br/> |
+|[PostItem](postitem.md) <br/> |代表应用商店中的Exchange项。  <br/> |
 |[RemoveItem](removeitem.md) <br/> |从 Exchange 存储中删除一个项目。  <br/> |
 |[任务](task.md) <br/> |表示 Exchange 存储中的任务。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-如果使用此元素，则需要一个表示字符串的文本值。
+如果使用此元素，则代表字符串的文本值是必需的。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-Outlook Web App URL 的项目标识符是项目的 EWS 标识符。 您可以对 EWS 项标识符进行 URL 编码，并将其追加到查询字符串，以获取项目的 Outlook Web App URL。
+项目 URL 的项目标识符Outlook Web App项的 EWS 标识符。 您可以对 EWS 项标识符进行 URL 编码，并将其追加到查询字符串，Outlook Web App项的 URL。
   
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
 ### <a name="version-differences"></a>版本差异
 
-Exchange 的版本从主要版本15开始，以 Exchange Server 2013 build 15.0.775.38 （CU3）和 Exchange Online 版本15.00.0775.009 在**WebClientReadFormQueryString**元素中不返回正确的查询字符串片段。 
+Exchange 版本从主要版本 15 开始到 Exchange Server 2013 内部版本 15.0.775.38 (CU3) 和 Exchange Online 版本 15.00.0775.009，不会在 **WebClientReadFormQueryString** 元素中返回正确的查询字符串片段。 
   
-在低于主要版本15的 Exchange 版本中，Outlook Web App Url 的项目标识符是 Outlook Web App 标识符。 如果要将低于主要版本15的 Exchange 作为目标，则必须使用[ConvertId 操作](convertid-operation.md)来转换标识符。 
+在主要Exchange 15 之前的版本版本中，Outlook Web App URL 的项目标识符是Outlook Web App标识符。 如果要面向主要版本 15 Exchange版本，您必须使用[ConvertId](convertid-operation.md)操作转换标识符。 
   
 ## <a name="element-information"></a>元素信息
 

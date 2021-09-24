@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 81c157f0-16ae-4cd5-abf3-6aaf22ca8c70
-description: PersonaType 元素指定角色的类型，例如，个人或通讯组列表。
-ms.openlocfilehash: 9b62d2b8f1545e84a5b726fec0085dd7c9c898f5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: PersonaType 元素指定人员类型，例如人员或通讯组列表。
+ms.openlocfilehash: 8662da90bd0d0ab07bebf623fe4daa442a4d5b78
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457562"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539127"
 ---
 # <a name="personatype"></a>PersonaType
 
-**PersonaType**元素指定角色的类型，例如，个人或通讯组列表。 
+**PersonaType** 元素指定人员类型，例如人员或通讯组列表。 
   
 ```XML
 <PersonaType></PersonaType>
@@ -42,9 +42,9 @@ ms.locfileid: "44457562"
   
 ## <a name="text-value"></a>文本值
 
-**PersonaType**元素的文本值是角色的类型。 
+**PersonaType** 元素的文本值是 personaType 的类型。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

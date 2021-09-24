@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Mileage
 api_type:
 - schema
 ms.assetid: 461ba447-1b04-4115-9919-dc378fd3bf24
-description: 里程元素表示任务或联系人项目的里程。
-ms.openlocfilehash: 20cbed08d41599a433f3e2aa6e4a662018fbdc48
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Mileage 元素表示任务或联系人项目的里程。
+ms.openlocfilehash: d16366eec875c1ea28241a942c35797280461d8d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465777"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512894"
 ---
 # <a name="mileage"></a>Mileage
 
-**里程**元素表示任务或联系人项目的里程。 
+**Mileage** 元素表示任务或联系人项目的里程。 
   
 ```xml
 <Mileage/>
@@ -49,7 +49,7 @@ ms.locfileid: "44465777"
    
 ## <a name="text-value"></a>文本值
 
-如果使用此元素，则需要一个 text 值。
+如果此元素已使用，则文本值是必需的。
   
 ## <a name="remarks"></a>说明
 

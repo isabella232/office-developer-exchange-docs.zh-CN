@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f348e832-47a7-4c14-a5b9-2fc9b47d01e9
 description: ReceivedTime 元素指定接收项目的时间。
-ms.openlocfilehash: 32f7148f8d717a51f831aa13d740f1342c943912
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 73942b5bdaf2aafbe931a2d6adc6382883285a42
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468213"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59534533"
 ---
 # <a name="receivedtime"></a>ReceivedTime
 
-**ReceivedTime**元素指定接收项目的时间。 
+**ReceivedTime** 元素指定接收项目的时间。 
   
 ```XML
 <ReceivedTime></ReceivedTime>
@@ -42,9 +42,9 @@ ms.locfileid: "44468213"
   
 ## <a name="text-value"></a>文本值
 
-**ReceivedTime**元素的文本值是接收项目的日期和时间。 
+**ReceivedTime** 元素的文本值是接收项目的日期和时间。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

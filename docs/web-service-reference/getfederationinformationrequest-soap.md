@@ -1,24 +1,24 @@
 ---
-title: GetFederationInformationRequest （SOAP）
+title: GetFederationInformationRequest (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: df5bface-f070-49e0-8527-6129ed8e8095
-description: GetFederationInformationRequest 元素表示对 GetFederationInformation 操作（SOAP）操作的调用的参数。
-ms.openlocfilehash: 1df0a88ed8fbc75eb5723d1390baeefd3ad73652
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetFederationInformationRequest 元素表示 SOAP (GetFederationInformation 操作调用) 参数。
+ms.openlocfilehash: b4f2c9fa060bf0701072b462233b2d4217e8b8b6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456582"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538077"
 ---
-# <a name="getfederationinformationrequest-soap"></a>GetFederationInformationRequest （SOAP）
+# <a name="getfederationinformationrequest-soap"></a>GetFederationInformationRequest (SOAP)
 
-**GetFederationInformationRequest**元素表示对[GETFEDERATIONINFORMATION 操作（SOAP）](getfederationinformation-operation-soap.md)操作的调用的参数。
+**GetFederationInformationRequest** 元素表示 SOAP ([GetFederationInformation](getfederationinformation-operation-soap.md)操作调用) 参数。
   
 ```XML
 <GetFederationInformationRequest>
@@ -40,7 +40,7 @@ ms.locfileid: "44456582"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Domain （GetFederationInformation）（SOAP）](domain-getfederationinformationsoap.md) <br/> |标识具有联合身份验证信任的域。  <br/> |
+|[Domain (GetFederationInformation) (SOAP)](domain-getfederationinformationsoap.md) <br/> |标识具有联合身份验证信任的域。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 

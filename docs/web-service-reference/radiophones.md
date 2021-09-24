@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ea650c84-0b3e-4099-bb76-9619949b4092
-description: RadioPhones 元素指定收音机电话号码的数组以及关联角色的源归属的标识符。
-ms.openlocfilehash: d77980c40e3b87bab9a3d82ead079cc5dd651d33
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: RadioPhones 元素指定无线电话号码的数组及其关联人物的源属性的标识符。
+ms.openlocfilehash: 1253016c12e2db0e41f9b2742cbf31bdeb5e0d31
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461630"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512546"
 ---
 # <a name="radiophones"></a>RadioPhones
 
-**RadioPhones**元素指定收音机电话号码的数组以及关联角色的源归属的标识符。 
+**RadioPhones** 元素指定无线电话号码的数组及其关联人物的源属性的标识符。 
   
 ```XML
 <RadioPhones>
@@ -42,7 +42,7 @@ ms.locfileid: "44461630"
 
 [角色](persona.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

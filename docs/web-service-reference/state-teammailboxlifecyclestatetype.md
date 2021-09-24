@@ -1,23 +1,23 @@
 ---
-title: State （TeamMailboxLifecycleStateType）
+title: State (TeamMailboxLifecycleStateType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3b1bc531-6988-41c3-9aad-3f5ad5b732a9
-description: State 元素包含在网站邮箱上设置的生命周期状态。
-ms.openlocfilehash: 597946b48649d997f8dd57823b4e0fcc091a6f84
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: State 元素包含在站点邮箱上设置的生命周期状态。
+ms.openlocfilehash: 5189ee8573fd33d2265fd60c47bb40d17b16b8fe
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465161"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538966"
 ---
-# <a name="state-teammailboxlifecyclestatetype"></a>State （TeamMailboxLifecycleStateType）
+# <a name="state-teammailboxlifecyclestatetype"></a>State (TeamMailboxLifecycleStateType)
 
-**State**元素包含在网站邮箱上设置的生命周期状态。 
+**State** 元素包含在站点邮箱上设置的生命周期状态。 
   
 ```XML
 <State> Active | Closed | Unlinked | PendingDelete </State>
@@ -43,9 +43,9 @@ ms.locfileid: "44465161"
   
 ## <a name="text-value"></a>文本值
 
-**State**元素的文本值是在网站邮箱上设置的生命周期状态。 **活动**的文本值表示网站邮箱处于活动使用状态。 "**已关闭**" 文本值表示网站邮箱已关闭，未处于活动使用状态。 未**链接**的文本值表示网站邮箱未链接到基于 web 的协作环境。 **活动**、**闭合**和**PendingDelete**值是互斥的，但未**链接**的值不与其他值互斥。 文本值为**PendingDelete**表示网站邮箱正在等待删除。 必须先关闭网站邮箱，然后才能将其设置为**PendingDelete**。
+**State** 元素的文本值是在站点邮箱上设置的生命周期状态。 Active **的文本值表示** 站点邮箱正被使用。 文本值 **Closed** 表示已关闭网站邮箱，并且未在活动使用中。 "未链接 **"的文本** 值表示网站邮箱未链接到基于 Web 的协作环境。 **Active、Closed** 和 **PendingDelete** 值相互排斥，但 **Unlinked** 值不相互排斥其他值。  **PendingDelete 的文本** 值指示网站邮箱正在等待删除。 网站邮箱必须关闭才能设置为 **PendingDelete**。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ef4e7fae-205b-461c-a222-b4287bb24aea
-description: CompanyNameSortKey 元素包含公司名称的排序关键字。
-ms.openlocfilehash: 61cc335336ae565980f337cb16f216914e5e675f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: CompanyNameSortKey 元素包含公司名称的排序键。
+ms.openlocfilehash: 3f0f78fdf049e83d665edc29925d74638d0088a9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463249"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519945"
 ---
 # <a name="companynamesortkey"></a>CompanyNameSortKey
 
-**CompanyNameSortKey**元素包含公司名称的排序关键字。 
+**CompanyNameSortKey** 元素包含公司名称的排序键。 
   
 ```XML
 <CompanyNameSortKey></CompanyNameSortKey>
@@ -42,9 +42,9 @@ ms.locfileid: "44463249"
   
 ## <a name="text-value"></a>文本值
 
-**CompanyNameSortKey**元素的文本值是公司名称的排序关键字。 
+**CompanyNameSortKey** 元素的文本值是公司名称的排序键。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

@@ -1,27 +1,27 @@
 ---
-title: Action （ProtectionRuleActionType）
+title: Action (ProtectionRuleActionType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Action
 api_type:
 - schema
 ms.assetid: ca090dec-e2c5-49c8-a057-8d1f2409147f
-description: Action 元素标识当规则的条件部分匹配时，必须执行的操作。
-ms.openlocfilehash: 220a6fea16abb9ea823ae6239537b8c121702589
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Action 元素标识在规则的条件部分匹配时必须执行哪些操作。
+ms.openlocfilehash: 6ca051622bb05b2ae2690f6b32ee11662161a4c1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527507"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59534003"
 ---
-# <a name="action-protectionruleactiontype"></a>Action （ProtectionRuleActionType）
+# <a name="action-protectionruleactiontype"></a>Action (ProtectionRuleActionType)
 
-**Action**元素标识当规则的条件部分匹配时，必须执行的操作。 
+**Action** 元素标识在规则的条件部分匹配时必须执行哪些操作。 
   
 ```xml
 <Action Name="">
@@ -45,13 +45,13 @@ ms.locfileid: "44527507"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[参数](argument.md) <br/> |指定操作的参数。 如果指定的操作不需要指定参数，则不会出现此元素。 如果操作需要一个或多个参数，则此元素可能出现一次或多次。 **RightsProtectMessage**操作将包含单个参数。  <br/> |
+|[参数](argument.md) <br/> |指定操作的参数。 如果指定的操作不需要指定参数，则不会发生此元素。 如果操作需要一个或多个参数，则此元素可能会发生一次或多次。 **RightsProtectMessage** 操作将包含一个参数。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Rule](rule.md) <br/> |包含一个保护规则。  <br/> |
+|[Rule](rule.md) <br/> |包含单个保护规则。  <br/> |
    
 ## <a name="remarks"></a>说明
 

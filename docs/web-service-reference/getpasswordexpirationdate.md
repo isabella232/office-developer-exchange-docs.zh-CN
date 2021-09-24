@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f4f958ed-9cf4-4ebf-9b01-e2df9a7cbd63
-description: GetPasswordExpirationDate 元素定义一个请求，以获取电子邮件帐户的密码到期日期。 此元素是 GetPasswordExpirationDate 操作操作的基本元素。
-ms.openlocfilehash: ececbf51f71c7d87705d727229fce2314d922efb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetPasswordExpirationDate 元素定义获取电子邮件帐户密码到期日期的请求。 此元素是 GetPasswordExpirationDate 操作操作的基本元素。
+ms.openlocfilehash: e5c74cc773438780fad0448cd2ae449dae07738f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456491"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520512"
 ---
 # <a name="getpasswordexpirationdate"></a>GetPasswordExpirationDate
 
-**GetPasswordExpirationDate**元素定义一个请求，以获取电子邮件帐户的密码到期日期。 此元素是[GetPasswordExpirationDate 操作](getpasswordexpirationdate-operation.md)操作的基本元素。 
+**GetPasswordExpirationDate** 元素定义获取电子邮件帐户密码到期日期的请求。 此元素是 [GetPasswordExpirationDate 操作操作的基本](getpasswordexpirationdate-operation.md) 元素。 
   
 ```XML
 <GetPasswordExpirationDate>
@@ -38,13 +38,13 @@ ms.locfileid: "44456491"
 
 |**元素名**|**说明**|
 |:-----|:-----|
-|[MailboxSmtpAddress](mailboxsmtpaddress.md) <br/> |表示要为其返回密码到期日期的电子邮件帐户的电子邮件地址。  <br/> |
+|[MailboxSmtpAddress](mailboxsmtpaddress.md) <br/> |表示要返回其密码到期日期的电子邮件帐户的电子邮件地址。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 880af57e-0fa1-473c-b87c-f02f1133ba5e
-description: ReplyAllowed 元素指定是否允许对权限托管数据进行答复。
-ms.openlocfilehash: f9aa97fc5d85837323d6d9e3e1e13c7b9fd11715
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ReplyAllowed 元素指定是否允许对权限管理数据进行答复。
+ms.openlocfilehash: 44de73f641b864dcf2c9f7d37882133407a32a39
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529859"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513358"
 ---
 # <a name="replyallowed"></a>ReplyAllowed
 
-**ReplyAllowed**元素指定是否允许对权限托管数据进行答复。 
+**ReplyAllowed** 元素指定是否允许对权限管理数据进行答复。 
   
 ```XML
 <ReplyAllowed> true | false </ReplyAllowed>
@@ -42,9 +42,9 @@ ms.locfileid: "44529859"
   
 ## <a name="text-value"></a>文本值
 
-**ReplyAllowed**元素的文本值为**true**表示允许对权限管理数据进行答复。 **如果值为 false** ，则表示不允许答复。 
+**ReplyAllowed** 元素的文本值 **true** 指示允许对权限管理数据进行答复。 false **值表示** 不允许答复。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

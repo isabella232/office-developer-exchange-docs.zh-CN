@@ -1,23 +1,23 @@
 ---
-title: 提醒
+title: Reminder
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 54dd748a-23a5-4ea2-88f2-b74c68a3c48f
-description: "\"提醒\" 元素指定任务或日历项目的提醒。"
-ms.openlocfilehash: 71e54d920a169b8060d22bb7d7d294208c344c2e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Reminder 元素指定任务或日历项目的提醒。
+ms.openlocfilehash: 97b4a1dfb2739ff9ea335bca1e61e264715ced30
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457485"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512490"
 ---
-# <a name="reminder"></a>提醒
+# <a name="reminder"></a>Reminder
 
-"**提醒**" 元素指定任务或日历项目的提醒。 
+**Reminder** 元素指定任务或日历项目的提醒。 
   
 ```XML
 <Reminder>
@@ -45,13 +45,13 @@ ms.locfileid: "44457485"
   
 ### <a name="child-elements"></a>子元素
 
-[主题](subject.md)  | [位置](location.md)  | [ReminderTime](remindertime.md)  | [起始日期](startdate.md)  | [结束日期（ReminderType）](enddate-remindertype.md)  | [ItemId](itemid.md)  | [RecurringMasterItemId （ItemIdType）](recurringmasteritemid-itemidtype.md)  | [ReminderGroup](remindergroup.md)  | [UID](uid.md)
+[主题](subject.md)  | [位置](location.md)  | [ReminderTime](remindertime.md)  | [StartDate](startdate.md)  | [EndDate (ReminderType) ](enddate-remindertype.md)  | [ItemId](itemid.md)  | [RecurringMasterItemId (ItemIdType) ](recurringmasteritemid-itemidtype.md)  | [ReminderGroup](remindergroup.md)  | [UID](uid.md)
   
 ### <a name="parent-elements"></a>父元素
 
 [提醒](reminders.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

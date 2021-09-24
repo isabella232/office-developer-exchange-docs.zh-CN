@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - TotalMemberCount
 api_type:
 - schema
 ms.assetid: fa86bfa6-10aa-4736-938c-9a23525aef8d
 description: TotalMemberCount 元素表示组中所有成员的计数。
-ms.openlocfilehash: 3a489dff1e2352a16367238be7b20b204cbc547f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 2f5bcf805d5bb20e4f04fb7530ddbdc5a76cbd4b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467513"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538763"
 ---
 # <a name="totalmembercount"></a>TotalMemberCount
 
-**TotalMemberCount**元素表示组中所有成员的计数。 
+**TotalMemberCount** 元素表示组中所有成员的计数。 
   
 ```XML
 <TotalMemberCount/>
@@ -44,11 +44,11 @@ ms.locfileid: "44467513"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[邮件提示](mailtips.md) <br/> |表示各种邮件提示类型的值。  <br/> |
+|[邮件提示](mailtips.md) <br/> |表示各种类型的邮件提示的值。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-Text 值是一个整数，表示组中的成员数。
+文本值是一个整数，表示组中成员的数量。
   
 ## <a name="remarks"></a>说明
 

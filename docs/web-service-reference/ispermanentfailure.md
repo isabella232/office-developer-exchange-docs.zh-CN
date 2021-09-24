@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 18dc3a97-cc0a-4092-934e-a6e86f52e668
-description: IsPermanentFailure 元素指示先前对项目编制索引的尝试是否未成功。
-ms.openlocfilehash: 48a13eebfa16c538c1b10d92f080d51f1b318d12
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: IsPermanentFailure 元素指示上一次对项目编制索引的尝试是否失败。
+ms.openlocfilehash: e5ed20de3c3de9c39d1487e3177c1b6ec358d990
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460391"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532718"
 ---
 # <a name="ispermanentfailure"></a>IsPermanentFailure
 
-**IsPermanentFailure**元素指示先前对项目编制索引的尝试是否未成功。 
+**IsPermanentFailure** 元素指示上一次对项目编制索引的尝试是否失败。 
   
 ```XML
 <IsPermanentFailure>true | false</IsPermanentFailure>
@@ -42,9 +42,9 @@ ms.locfileid: "44460391"
   
 ## <a name="text-value"></a>文本值
 
-如果**IsPermanentFailure**元素的文本值为**true，则**表示以前对邮箱项目的索引尝试未成功。 **如果值为 false** ，则表示之前对邮箱项目的索引尝试已成功。 
+**IsPermanentFailure** 元素的文本值 **true** 表示上一次对邮箱项目编制索引的尝试失败。 false **值表示** 上一次尝试为邮箱项目编制索引已成功。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

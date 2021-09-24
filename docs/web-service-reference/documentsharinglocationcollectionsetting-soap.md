@@ -1,24 +1,24 @@
 ---
-title: DocumentSharingLocationCollectionSetting （SOAP）
+title: DocumentSharingLocationCollectionSetting (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0e3346f9-7a55-4e87-b121-9b1ee7f227f4
 description: DocumentSharingLocationCollectionSetting 元素表示一个用户设置，该设置是文档共享位置和元数据的集合。
-ms.openlocfilehash: 2a52f639a1f1bf638aacc78666c58aed1fae0fa0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 75c420deae5dfd9b441c7f73bf3565018d3bfbd6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457051"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538364"
 ---
-# <a name="documentsharinglocationcollectionsetting-soap"></a>DocumentSharingLocationCollectionSetting （SOAP）
+# <a name="documentsharinglocationcollectionsetting-soap"></a>DocumentSharingLocationCollectionSetting (SOAP)
 
-**DocumentSharingLocationCollectionSetting**元素表示一个用户设置，该设置是文档共享位置和元数据的集合。 
+**DocumentSharingLocationCollectionSetting** 元素表示一个用户设置，该设置是文档共享位置和元数据的集合。 
   
-[DocumentSharingLocationCollectionSetting （SOAP）](documentsharinglocationcollectionsetting-soap.md)
+[DocumentSharingLocationCollectionSetting (SOAP)](documentsharinglocationcollectionsetting-soap.md)
   
 ```XML
 <DocumentSharingLocationCollectionSetting>
@@ -39,13 +39,13 @@ ms.locfileid: "44457051"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[DocumentSharingLocations （SOAP）](documentsharinglocations-soap.md) <br/> |表示文档共享位置列表的位置和元数据。  <br/> |
+|[DocumentSharingLocations (SOAP)](documentsharinglocations-soap.md) <br/> |表示文档共享位置列表的位置和元数据。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[UserSettings （SOAP）](usersettings-soap.md) <br/> |表示用户设置的集合。  <br/> |
+|[UserSettings (SOAP)](usersettings-soap.md) <br/> |表示用户设置的集合。  <br/> |
    
 ## <a name="element-information"></a>元素信息
 
@@ -59,6 +59,6 @@ ms.locfileid: "44457051"
 ## <a name="see-also"></a>另请参阅
 
 - [GetUserSettings 操作 (SOAP)](getusersettings-operation-soap.md)
-- [Exchange 的自动发现 web 服务参考](autodiscover-web-service-reference-for-exchange.md)
+- [自动发现 Web 服务引用Exchange](autodiscover-web-service-reference-for-exchange.md)
 - [Exchange 2013 的 SOAP 自动发现 XML 元素](soap-autodiscover-xml-elements-for-exchange-2013.md)
 

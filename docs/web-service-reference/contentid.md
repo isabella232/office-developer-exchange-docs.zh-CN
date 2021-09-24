@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ContentId
 api_type:
 - schema
 ms.assetid: bc59100d-6079-414b-a6e0-7c15feaa3184
-description: ContentId 元素表示附件内容的标识符。 ContentId 可以设置为任何字符串值。 应用程序可以使用 ContentId 来实现自己的标识机制。
-ms.openlocfilehash: ca89c8790e839326412003f26b738ad1ee956211
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ContentId 元素表示附件内容的标识符。 ContentId 可以设置为任何字符串值。 应用程序可以使用 ContentId 实现自己的标识机制。
+ms.openlocfilehash: 786a76d312e4b8f276a9b5c7082754b873b0061c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529264"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519910"
 ---
 # <a name="contentid"></a>ContentId
 
-**ContentId**元素表示附件内容的标识符。 **ContentId**可以设置为任何字符串值。 应用程序可以使用**ContentId**来实现自己的标识机制。 
+**ContentId** 元素表示附件内容的标识符。 **ContentId** 可以设置为任何字符串值。 应用程序可以使用 **ContentId** 实现自己的标识机制。 
   
 ```xml
 <ContentId/>
@@ -44,8 +44,8 @@ ms.locfileid: "44529264"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ItemAttachment](itemattachment.md) <br/> |表示附加到另一个 Exchange 项目的 Exchange 项目。  <br/> |
-|[FileAttachment](fileattachment.md) <br/> |代表附加到 Exchange 存储中的项目的文件。  <br/> |
+|[ItemAttachment](itemattachment.md) <br/> |代表Exchange附加到其他项目的项目Exchange项。  <br/> |
+|[FileAttachment](fileattachment.md) <br/> |表示附加到项目存储中的Exchange文件。  <br/> |
    
 ## <a name="text-value"></a>文本值
 

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ea5b3ce2-40db-41e8-a8cd-934e8f72e782
-description: GetPersona 元素包含获取角色的请求。
-ms.openlocfilehash: 8e31e2688b9313d7db6c73e2d1f92e8d7cf4f246
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetPersona 元素包含获取人物的请求。
+ms.openlocfilehash: 401a1a302a4894e5e7e6a908c2912d5322195e53
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455609"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533544"
 ---
 # <a name="getpersona"></a>GetPersona
 
-**GetPersona**元素包含获取角色的请求。 
+**GetPersona** 元素包含获取人物的请求。 
   
 ```XML
 <GetPersona>
@@ -42,7 +42,7 @@ ms.locfileid: "44455609"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -54,7 +54,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
-|验证文件  <br/> |消息 .xsd  <br/> |
+|验证文件  <br/> |messages.xsd  <br/> |
 |可以为空  <br/> ||
    
 

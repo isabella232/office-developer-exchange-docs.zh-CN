@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ReminderMinutesBeforeStart
 api_type:
 - schema
 ms.assetid: 65ea14bc-5f19-48cc-aef1-46227e06f5f5
-description: ReminderMinutesBeforeStart 元素表示在显示提醒时事件发生前的分钟数。
-ms.openlocfilehash: 056ba06c5d8f878e13c72859746242f1694528e9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ReminderMinutesBeforeStart 元素表示显示提醒时事件发生前的分钟数。
+ms.openlocfilehash: d2020aa1602f01bca8b110ecd9579e9c4f929e3e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458542"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513414"
 ---
 # <a name="reminderminutesbeforestart"></a>ReminderMinutesBeforeStart
 
-**ReminderMinutesBeforeStart**元素表示在显示提醒时事件发生前的分钟数。 
+**ReminderMinutesBeforeStart** 元素表示显示提醒时事件发生前的分钟数。 
   
 ```xml
 <ReminderMinutesBeforeStart/>
@@ -58,7 +58,7 @@ ms.locfileid: "44458542"
    
 ## <a name="text-value"></a>文本值
 
-Text 值表示在显示提醒时事件发生前的时间（以分钟为单位）。
+文本值表示在显示提醒时事件发生的时间（以分钟表示）。
   
 ## <a name="remarks"></a>说明
 

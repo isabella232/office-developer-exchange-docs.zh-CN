@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetMailTips
 api_type:
 - schema
 ms.assetid: 4a24ff79-f1ae-43a1-9ac2-49baf3eaa173
 description: GetMailTips 元素表示要检索的邮件提示的收件人和类型。
-ms.openlocfilehash: 8ff71ed5d52f713e11188b07c8c93aeee7dfa44d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 03c416f7e60e9677d77a389ab052aa0057e278da
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458633"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533748"
 ---
 # <a name="getmailtips"></a>GetMailTips
 
-**GetMailTips**元素表示要检索的邮件提示的收件人和类型。 
+**GetMailTips** 元素表示要检索的邮件提示的收件人和类型。 
   
 ```XML
 <GetMailTips>
@@ -44,9 +44,9 @@ ms.locfileid: "44458633"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[SendingAs](sendingas.md) <br/> |包含用户尝试作为其发送的电子邮件地址。  <br/> |
-|[收件人（ArrayOfRecipientsType）](recipients-arrayofrecipientstype.md) <br/> |包含要检查邮件提示的收件人列表。  <br/> |
-|[MailTipsRequested](mailtipsrequested.md) <br/> |包含从服务请求的邮件提示的类型。  <br/> |
+|[SendingAs](sendingas.md) <br/> |包含用户尝试发送的电子邮件地址。  <br/> |
+|[Recipients (ArrayOfRecipientsType)](recipients-arrayofrecipientstype.md) <br/> |包含要检查邮件提示的收件人列表。  <br/> |
+|[MailTipsRequested](mailtipsrequested.md) <br/> |包含从服务请求的邮件提示类型。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -56,7 +56,7 @@ ms.locfileid: "44458633"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

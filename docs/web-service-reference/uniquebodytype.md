@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8f7276aa-e354-40e4-b9cb-950fad46ac93
-description: UniqueBodyType 元素指定是否以文本或 HTML 格式返回唯一正文。
-ms.openlocfilehash: 7e6c4631ef589555ce4d5da747c200ffe956f3a1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: UniqueBodyType 元素指定以文本格式还是 HTML 格式返回唯一正文。
+ms.openlocfilehash: a0149e41da24646fdf38a465434bfad3557ece22
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459438"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520267"
 ---
 # <a name="uniquebodytype"></a>UniqueBodyType
 
-**UniqueBodyType**元素指定是否以文本或 HTML 格式返回唯一正文。 
+**UniqueBodyType** 元素指定以文本格式还是 HTML 格式返回唯一正文。 
   
 ```XML
 <UniqueBodyType> Best | HTML | Text </UniqueBodyType>
@@ -42,15 +42,15 @@ ms.locfileid: "44459438"
   
 ## <a name="text-value"></a>文本值
 
-**UniqueBodyType**元素的文本值指示中返回的唯一正文的格式。 下表列出了此元素的可能值。 
+**UniqueBodyType** 元素的文本值指示返回唯一正文的格式。 下表列出了此元素的可能值。 
   
 ****
 
 |**值**|**说明**|
 |:-----|:-----|
-|最好  <br/> |响应将返回正文文本的最丰富的可用内容。 如果不知道内容是文本还是 HTML，这将非常有用。  <br/> 如果存储的正文为纯文本，则返回的正文将为文本。 否则，如果存储的正文是 HTML 格式或 RTF 格式，则响应将返回 HTML。  <br/> 此值为默认值。  <br/> |
-|HTML  <br/> |响应将以 HTML 形式返回唯一正文。  <br/> |
-|文本  <br/> |响应将以纯文本形式返回唯一正文。  <br/> |
+|最好  <br/> |该响应将返回最丰富的正文文本可用内容。 如果内容是文本还是 HTML，这很有用。  <br/> 如果存储的正文是纯文本，则返回的正文将是文本。 否则，如果存储的正文采用 HTML 或 RTF 格式，响应将返回 HTML。  <br/> 此值为默认值。  <br/> |
+|HTML  <br/> |该响应将返回 HTML 格式的唯一正文。  <br/> |
+|文本  <br/> |响应将返回纯文本格式的唯一正文。  <br/> |
    
 ## <a name="remarks"></a>说明
 

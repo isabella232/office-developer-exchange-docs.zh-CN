@@ -1,47 +1,47 @@
 ---
-title: 使用 Exchange 中的 EWS 为另一个用户设置文件夹权限
+title: 使用 EWS 设置其他用户的文件夹Exchange
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7eb81676-a780-4c56-b4f2-c4ed2697107d
-description: 了解如何通过使用 Exchange 中的 EWS 托管 API 或 EWS 来设置文件夹的权限级别。
-ms.openlocfilehash: e25f1a49a430e8c95829d404fa53451b76cab167
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: 了解如何使用 EWS 托管 API 或 Exchange 中的 EWS 设置文件夹的权限Exchange。
+ms.openlocfilehash: 15288af0448a48c176529912604f628ae9bc2f19
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455868"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513085"
 ---
-# <a name="set-folder-permissions-for-another-user-by-using-ews-in-exchange"></a>使用 Exchange 中的 EWS 为另一个用户设置文件夹权限
+# <a name="set-folder-permissions-for-another-user-by-using-ews-in-exchange"></a>使用 EWS 设置其他用户的文件夹Exchange
 
-了解如何通过使用 Exchange 中的 EWS 托管 API 或 EWS 来设置文件夹的权限级别。
+了解如何使用 EWS 托管 API 或 Exchange 中的 EWS 设置文件夹的权限Exchange。
   
-通过文件夹级权限，用户可以访问其他用户的邮箱中的一个或多个文件夹。 文件夹权限类似于代理访问，但它们的区别在于以下几种： 
+文件夹级别的权限使用户能够访问其他用户邮箱中的一个或多个文件夹。 文件夹权限类似于委派访问权限，但它们在以下方面有所不同： 
   
-- 文件夹权限不允许用户 "代表发送" 或 "代理发送" 其他用户。 他们只启用对文件夹的访问。 用户可以在这些文件夹中创建项目，但不能发送它们。
+- 文件夹权限不允许用户"代表"或"代理发送"其他用户。 它们仅允许访问文件夹。 用户可以在这些文件夹中创建项目，但他们无法发送它们。
     
-- 可以在邮箱中的任何文件夹上设置文件夹权限，但只能将代理添加到 "日历"、"联系人"、"收件箱"、"日记"、"便笺" 和 "任务" 文件夹中。
+- 您可以设置邮箱中任何文件夹的文件夹权限，但只能将代理添加到日历、联系人、收件箱、日记、便笺和任务文件夹。
     
-- 您可以设置[特定文件夹](#bk_folderperms)的多个权限。 在添加委派时，可以仅分配[五个权限级别](delegate-access-and-ews-in-exchange.md#bk_delegateperms)之一。
+- 您可以设置特定 [文件夹上的多个权限](#bk_folderperms)。 添加代理时，只能分配五个权限 [级别之一](delegate-access-and-ews-in-exchange.md#bk_delegateperms)。
     
-- 您可以为匿名用户和默认用户设置文件夹权限。 您只能将代理访问权限授予已启用邮件的帐户。
+- 您可以为匿名用户和默认用户设置文件夹权限。 只能向启用邮件的帐户授予委派访问权限。
     
-如果您熟悉访问控制条目（Ace）和随机访问控制列表（Dacl），您就会知道用户每个文件夹只能有一组权限。 如果您尝试为用户添加一组权限，并且这些权限已经具有一组权限，则会出现错误。 在对文件夹添加、删除或更新权限时，您将获得当前的 DACL，添加或删除任何 Ace，然后发送更新的 DACL。 您不能为同一个用户添加多个 Ace。 当您使用 EWS 托管 API 更新权限时，您需要删除用户的当前 ACE，然后将其新的 ACE 添加到集合中。 如果使用的是 EWS，只需使用新的 Ace 替换之前的 Ace 集。
+如果您熟悉访问控制项 (ACL) 和任意访问控制列表 (DACLs) ，则你知道用户只能拥有每个文件夹的一组权限。 如果您尝试为用户添加一组权限，并且他们已有一组权限，您将看到错误消息。 在文件夹上添加、删除或更新权限时，会获取当前的 DACL，添加或删除任何 ACL，然后发送更新的 DACL。 不能为同一个用户添加多个 AES。 使用 EWS 托管 API 更新权限时，需要删除用户的当前 ACE，然后将他们新的 ACE 添加到集合中。 如果使用的是 EWS，只需将上一组 AS 替换为新 AES。
   
-如果对单个文件夹进行了多个权限更改，则可以批量添加、删除或更新，只需注意您不能在多个文件夹上对用户更新进行批处理。 若要获取对单个文件夹的权限，需要执行一次调用，以更新该文件夹的权限。 在添加、删除或更新用户权限时，对每个任务使用相同的两个方法调用或操作。
+如果要对单个文件夹进行多个权限更改，可以批量添加、删除或更新 ，只需注意，不能对多个文件夹进行用户更新批处理。 一次调用需要获取单个文件夹的权限，第二次调用需要更新该文件夹的权限。 添加、删除或更新用户权限时，将针对每个任务使用相同的两个方法调用或操作。
   
-**表1。用于设置文件夹权限的 EWS 托管 API 方法和 EWS 操作**
+**表 1.用于设置文件夹权限的 EWS 托管 API 方法和 EWS 操作**
 
-|如果您想要 .。。|使用此 EWS 托管 API 方法 .。。|使用此 EWS 操作 .。。|
+|如果你想要...|使用此 EWS 托管 API 方法...|使用此 EWS 操作...|
 |:-----|:-----|:-----|
-|启用、删除或更新文件夹权限  <br/> |先[绑定文件夹](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) [. 更新](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.reply%28v=exchg.80%29.aspx) <br/> |[GetFolder](https://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx)后接[UpdateFolder](https://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx) <br/> |
-|创建文件夹并定义文件夹权限  <br/> |[文件夹。保存](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.save%28v=exchg.80%29.aspx) <br/> |[CreateFolder](https://msdn.microsoft.com/library/6f6c334c-b190-4e55-8f0a-38f2a018d1b3%28Office.15%29.aspx) <br/> |
+|启用、删除或更新文件夹权限  <br/> |[Folder.Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) 后跟 [Folder.Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.reply%28v=exchg.80%29.aspx) <br/> |[GetFolder](https://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) 后跟 [UpdateFolder](https://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx) <br/> |
+|创建文件夹并定义文件夹权限  <br/> |[Folder.Save](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.save%28v=exchg.80%29.aspx) <br/> |[CreateFolder](https://msdn.microsoft.com/library/6f6c334c-b190-4e55-8f0a-38f2a018d1b3%28Office.15%29.aspx) <br/> |
    
 ## <a name="folder-permissions"></a>文件夹权限
 <a name="bk_folderperms"> </a>
 
-在对特定文件夹设置文件夹权限时，有很多选项。 您可以为每个用户设置一个文件夹上的权限级别，这将为 DACL 添加一组预定义的单个权限，也可以对文件夹设置单个权限，但不能混合和匹配。
+在设置特定文件夹的文件夹权限时，你具有很多选项。 您可以为每个用户设置文件夹的权限级别，这将向 DACL 添加一组预定义的单个权限，也可以对文件夹设置单个权限，但无法混合和匹配。
   
 以下各个权限可用：
   
@@ -54,53 +54,53 @@ ms.locfileid: "44455868"
 - 删除项目    
 - 读取项目
     
-此外，还提供了以下权限级别，其中定义了各个权限和值的子集，如表2中所示：
+此外，以下权限级别可用，可定义单个权限和值的子集，如表 2 所示：
   
 - 无    
 - 所有者    
-- Publishingeditorcreateitems    
+- PublishingEditor    
 - 编辑器    
-- Publishingauthorcreateitems    
+- PublishingAuthor    
 - 作者    
-- Noneditingauthorcreateitems    
+- NoneditingAuthor    
 - Reviewer    
 - 参与者   
-- Custom-应用程序不能设置此值。 如果应用程序包含单个权限的自定义集合，则服务器将设置此值。    
-- FreeBusyTimeOnly-只能在日历文件夹上设置此设置。   
-- FreeBusyTimeAndSubjectAndLocation-只能在日历文件夹上设置此设置。
+- Custom - 应用程序无法设置此值。 如果应用程序包含单个权限的自定义集合，则服务器将设置此值。    
+- FreeBusyTimeOnly - 只能在日历文件夹上设置。   
+- FreeBusyTimeAndSubjectAndLocation - 只能在日历文件夹上设置。
     
-下表显示了默认情况下基于权限级别应用的各个权限。
+下表显示了默认情况下根据权限级别应用哪些单个权限。
   
-**表2。按权限级别的各个权限**
+**表 2.按权限级别表示的单个权限**
 
-|权限级别|可以创建项目|可以创建子文件夹|是文件夹所有者|文件夹是否可见|是文件夹联系人|编辑项目|删除项目|可以读取项目|
+|权限级别|可以创建项目|可以创建子文件夹|是文件夹所有者|文件夹是否可见|是文件夹联系人|编辑项目|删除项目|可读取项目|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|无  <br/> |False  <br/> |False  <br/> |False  <br/> |False  <br/> |False  <br/> |无  <br/> |无  <br/> |无  <br/> |
-|所有者  <br/> |True  <br/> |True  <br/> |True  <br/> |True  <br/> |True  <br/> |所有  <br/> |所有  <br/> |FullDetails  <br/> |
-|Publishingeditorcreateitems  <br/> |True  <br/> |True  <br/> |False  <br/> |True  <br/> |False  <br/> |所有  <br/> |所有  <br/> |FullDetails  <br/> |
-|编辑器  <br/> |True  <br/> |False  <br/> |False  <br/> |True  <br/> |False  <br/> |所有  <br/> |所有  <br/> |FullDetails  <br/> |
-|Publishingauthorcreateitems  <br/> |True  <br/> |True  <br/> |False  <br/> |True  <br/> |False  <br/> |所有权  <br/> |所有权  <br/> |FullDetails  <br/> |
-|作者  <br/> |True  <br/> |False  <br/> |False  <br/> |True  <br/> |False  <br/> |所有权  <br/> |所有权  <br/> |FullDetails  <br/> |
-|Noneditingauthorcreateitems  <br/> |True  <br/> |False  <br/> |False  <br/> |True  <br/> |False  <br/> |无  <br/> |所有权  <br/> |FullDetails  <br/> |
-|Reviewer  <br/> |False  <br/> |False  <br/> |False  <br/> |True  <br/> |False  <br/> |无  <br/> |无  <br/> |FullDetails  <br/> |
-|参与者  <br/> |True  <br/> |False  <br/> |False  <br/> |True  <br/> |False  <br/> |无  <br/> |无  <br/> |无  <br/> |
+|无  <br/> |错误  <br/> |错误  <br/> |错误  <br/> |错误  <br/> |错误  <br/> |无  <br/> |无  <br/> |无  <br/> |
+|所有者  <br/> |True  <br/> |True  <br/> |True  <br/> |True  <br/> |True  <br/> |所有  <br/> |全部  <br/> |FullDetails  <br/> |
+|PublishingEditor  <br/> |True  <br/> |True  <br/> |False  <br/> |True  <br/> |错误  <br/> |所有  <br/> |全部  <br/> |FullDetails  <br/> |
+|编辑器  <br/> |True  <br/> |错误  <br/> |False  <br/> |True  <br/> |错误  <br/> |全部  <br/> |全部  <br/> |FullDetails  <br/> |
+|PublishingAuthor  <br/> |True  <br/> |True  <br/> |False  <br/> |True  <br/> |错误  <br/> |拥有  <br/> |拥有  <br/> |FullDetails  <br/> |
+|作者  <br/> |True  <br/> |错误  <br/> |False  <br/> |True  <br/> |错误  <br/> |拥有  <br/> |拥有  <br/> |FullDetails  <br/> |
+|NoneditingAuthor  <br/> |True  <br/> |错误  <br/> |False  <br/> |True  <br/> |错误  <br/> |无  <br/> |拥有  <br/> |FullDetails  <br/> |
+|Reviewer  <br/> |错误  <br/> |错误  <br/> |False  <br/> |True  <br/> |错误  <br/> |无  <br/> |无  <br/> |FullDetails  <br/> |
+|参与者  <br/> |True  <br/> |错误  <br/> |False  <br/> |True  <br/> |错误  <br/> |无  <br/> |无  <br/> |无  <br/> |
    
-如果您在文件夹级权限请求中指定非自定义权限级别，则无需指定单独的权限设置。 如果您在设置权限级别时指定了单个权限，则会在响应中返回一个**ErrorInvalidPermissionSettings**错误。 
+如果在文件夹级权限请求中指定非自定义权限级别，则不需要指定单个权限设置。 如果在设置权限级别时指定了单个权限，响应中将返回 **ErrorInvalidPermissionSettings** 错误。 
   
 ## <a name="adding-folder-permissions-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 添加文件夹权限
 <a name="bk_enableewsma"> </a>
 
-下面的代码示例演示如何使用 EWS 托管 API 执行以下操作： 
+以下代码示例演示如何使用 EWS 托管 API 执行以下操作： 
   
-- 为新用户创建新的[FolderPermission](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folderpermission%28v=exchg.80%29.aspx)对象。 
+- 为新 [用户创建新的 FolderPermission](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folderpermission%28v=exchg.80%29.aspx) 对象。 
     
-- 使用[Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx)方法获取文件夹的当前权限。 
+- 使用 Bind 方法获取文件夹[的当前权限。](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) 
     
-- 将新的**FolderPermissions**添加到[文件夹。权限](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.permissions%28v=exchg.80%29.aspx)属性。 
+- 将新的 **FolderPermissions** 添加到 [Folder.Permissions](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.permissions%28v=exchg.80%29.aspx) 属性。 
     
-- 调用[Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.update%28v=exchg.80%29.aspx)方法以将新权限保存到服务器。 
+- 调用 [Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.update%28v=exchg.80%29.aspx) 方法以将新权限保存到服务器。 
     
-本示例假定**服务**是邮箱所有者的有效[ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象，并且该用户已通过 Exchange 服务器的身份验证。 
+本示例 **假定服务是** 邮箱所有者的有效 [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象，并且用户已通过身份验证Exchange服务器。 
   
 ```cs
 static void EnableFolderPermissions(ExchangeService service)
@@ -121,7 +121,7 @@ static void EnableFolderPermissions(ExchangeService service)
 }
 ```
 
-下面的代码行指定权限级别。
+以下代码行指定权限级别。
   
 ```cs
     FolderPermission fldperm = new FolderPermission("sadie@contoso.com", FolderPermissionLevel.Editor);
@@ -137,16 +137,16 @@ fldperm.CanCreateSubFolders = true;
 …
 ```
 
-在创建具有自定义权限级别的**FolderPermission**对象时，可以设置任意或所有可写[FolderPermission 属性](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folderpermission_properties%28v=exchg.80%29.aspx)。 但请注意， [FolderPermissionLevel](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folderpermissionlevel%28v=exchg.80%29.aspx)永远不会显式设置为由应用程序**自定义**。 仅当创建**FolderPermission**对象并设置各个权限时， **FolderPermissionLevel**设置为 Custom。 
+创建具有自定义权限级别的 [FolderPermission](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folderpermission_properties%28v=exchg.80%29.aspx) 对象时，可以设置任意或所有可写 **FolderPermission** 属性。 但是请注意 [，FolderPermissionLevel](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folderpermissionlevel%28v=exchg.80%29.aspx)从不由应用程序显式设置为 **Custom。** 只有在 **创建 FolderPermission** 对象并设置单个权限时 **，FolderPermissionLevel** 才设置为 Custom。 
   
 ## <a name="adding-folder-permissions-by-using-ews"></a>使用 EWS 添加文件夹权限
 <a name="bk_enableews"> </a>
 
-下面的 EWS 代码示例演示如何通过检索当前权限，然后提交新权限列表，向特定文件夹添加权限。
+以下 EWS 代码示例显示如何检索当前权限，然后提交新权限列表，以向特定文件夹添加权限。
   
-第一步是发送[GetFolder](https://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx)请求，其中[DistinguishedFolderId](https://msdn.microsoft.com/library/50018162-2941-4227-8a5b-d6b4686bb32f%28Office.15%29.aspx)值指定要在其中添加权限的文件夹（在此示例中为 "已发送的项目" 文件夹）， [FieldURI](https://msdn.microsoft.com/library/24af8e3b-3074-4c8c-8d0a-52446508d044%28Office.15%29.aspx)值包括 folder： PermissionSet。 此请求将检索指定文件夹的权限设置。 
+第一步是发送 [GetFolder](https://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) 请求， [其中 DistinguishedFolderId](https://msdn.microsoft.com/library/50018162-2941-4227-8a5b-d6b4686bb32f%28Office.15%29.aspx) 值指定要添加权限的文件夹 (本示例中的"已发送邮件"文件夹) [FieldURI](https://msdn.microsoft.com/library/24af8e3b-3074-4c8c-8d0a-52446508d044%28Office.15%29.aspx) 值包括 folder：PermissionSet。 此请求将检索指定文件夹的权限设置。 
   
-这也是在调用**Bind**方法[添加文件夹权限](#bk_enableewsma)时，EWS 托管 API 发送的 XML 请求。
+这也是调用 Bind 方法以添加文件夹权限时 EWS 托管 API发送的 XML[请求](#bk_enableewsma)。
   
 ```XML
   <?xml version="1.0" encoding="utf-8"?>
@@ -173,7 +173,7 @@ fldperm.CanCreateSubFolders = true;
   </soap:Envelope>
 ```
 
-服务器使用[GetFolderResponse](https://msdn.microsoft.com/library/47abeec8-78dd-4297-8525-099174ec880d%28Office.15%29.aspx)邮件响应**GetFolder**请求，其中包含[ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx)元素值为**NoError**，表示已成功检索该文件夹。 为了提高可读性， [FolderId](https://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx)和[ParentFolderId](https://msdn.microsoft.com/library/258f4b1f-367e-4c7d-9c29-eb775a2398c7%28Office.15%29.aspx)值已缩短。 
+服务器使用 [GetFolderResponse](https://msdn.microsoft.com/library/47abeec8-78dd-4297-8525-099174ec880d%28Office.15%29.aspx)消息响应 **GetFolder** 请求，其中包含 **NoError** 的 [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx)元素值，指示已成功检索文件夹。 [为可读性，已缩短 FolderId](https://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx)和[ParentFolderId](https://msdn.microsoft.com/library/258f4b1f-367e-4c7d-9c29-eb775a2398c7%28Office.15%29.aspx)值。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -241,9 +241,9 @@ fldperm.CanCreateSubFolders = true;
 </s:Envelope>
 ```
 
-接下来，使用**UpdateFolder**操作发送更新的[PermissionSet](https://msdn.microsoft.com/library/6ac1bd17-a089-46bb-b9e6-f5b1dfe1076d%28Office.15%29.aspx)，其中包括新用户的[权限](https://msdn.microsoft.com/library/b8d0429a-0e58-4480-9847-4901970c7033%28Office.15%29.aspx)。 请注意，包括[UpdateFolder](https://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx)操作中各个文件夹的[SetFolderField](https://msdn.microsoft.com/library/8c69db7b-54b5-4ae2-abca-4d6e0937a790%28Office.15%29.aspx)元素将覆盖文件夹中的所有权限设置。 同样，包括**UpdateFolder**操作的[DeleteFolderField](https://msdn.microsoft.com/library/f9c2187b-4c60-4358-b4b4-ede50eadae48%28Office.15%29.aspx)选项也会删除文件夹上的所有权限设置。 
+接下来，使用 **UpdateFolder** 操作发送更新的 [PermissionSet](https://msdn.microsoft.com/library/6ac1bd17-a089-46bb-b9e6-f5b1dfe1076d%28Office.15%29.aspx)，其中包括 [新用户的权限](https://msdn.microsoft.com/library/b8d0429a-0e58-4480-9847-4901970c7033%28Office.15%29.aspx) 。 请注意，在 [UpdateFolder](https://msdn.microsoft.com/library/8c69db7b-54b5-4ae2-abca-4d6e0937a790%28Office.15%29.aspx) 操作中将相应文件夹的 [SetFolderField](https://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx) 元素包含将覆盖文件夹上的所有权限设置。 同样，包括[UpdateFolder 操作 DeleteFolderField](https://msdn.microsoft.com/library/f9c2187b-4c60-4358-b4b4-ede50eadae48%28Office.15%29.aspx)选项也将删除文件夹上的所有权限设置。 
   
-这也是在调用**Update**方法[添加文件夹权限](#bk_enableewsma)时，EWS 托管 API 发送的 XML 请求。
+这也是调用 **Update** 方法以添加文件夹权限时 EWS 托管 API 发送的 XML [请求](#bk_enableewsma)。
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -296,7 +296,7 @@ fldperm.CanCreateSubFolders = true;
 </soap:Envelope>
 ```
 
-下面的代码行指定权限级别。
+以下代码行指定权限级别。
   
 ```xml
 <t:Permission>
@@ -326,26 +326,26 @@ fldperm.CanCreateSubFolders = true;
 </t:Permission>
 ```
 
-服务器使用[UpdateFolderResponse](https://msdn.microsoft.com/library/31f47739-dc9c-46ba-9e3f-cce25dc85e6e%28Office.15%29.aspx)邮件响应**UpdateFolder**请求，其中包含[ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx)元素值为**NoError**，表示该文件夹已成功更新。
+服务器使用 [UpdateFolderResponse](https://msdn.microsoft.com/library/31f47739-dc9c-46ba-9e3f-cce25dc85e6e%28Office.15%29.aspx)消息响应 **UpdateFolder** 请求，其中包含 **NoError** 的 [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx)元素值，指示已成功更新文件夹。
   
 ## <a name="removing-folder-permissions-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 删除文件夹权限
 <a name="bk_removeewsma"> </a>
 
-下面的代码示例演示如何使用 EWS 托管 API 删除特定文件夹（默认权限和匿名权限除外）的所有用户权限，具体方法为：
+以下代码示例演示如何使用 EWS 托管 API 删除特定文件夹上的用户权限，默认权限和匿名权限除外，方法如下：
   
-1. 使用**Bind**方法获取文件夹的当前权限。 
+1. 使用 **Bind** 方法获取文件夹的当前权限。 
     
-2. 循环访问**权限**集合，并移除单个用户的权限。 
+2. 对 **Permissions** 集合进行访问并删除单个用户的权限。 
     
-3. 调用**Update**方法以保存更改。 
+3. 调用 **Update** 方法来保存更改。 
     
-本示例将删除对文件夹的所有用户权限。 如果要修改此示例以仅删除特定用户的权限，请更改以下代码行，以标识用户的显示名称或 SMTP 地址。
+本示例删除文件夹上的用户权限。 如果要修改此示例以仅删除特定用户的权限，请更改以下代码行以标识用户的 显示名称 或 SMTP 地址。
   
 ```cs
 if (sentItemsFolder.Permissions[t].UserId.DisplayName != null || sentItemsFolder.Permissions[t].UserId.PrimarySmtpAddress != null)
 ```
 
-本示例假定**服务**是邮箱所有者的有效[ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象，并且该用户已通过 Exchange 服务器的身份验证。 
+本示例 **假定服务是** 邮箱所有者的有效 [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)对象，并且用户已通过身份验证Exchange服务器。 
   
 ```cs
 static void RemoveFolderPermissions(ExchangeService service)
@@ -377,11 +377,11 @@ static void RemoveFolderPermissions(ExchangeService service)
 ## <a name="removing-folder-permissions-by-using-ews"></a>使用 EWS 删除文件夹权限
 <a name="bk_removeews"> </a>
 
-下面的 EWS 代码示例展示了如何删除对特定文件夹的所有用户权限，默认权限和匿名权限除外。
+以下 EWS 代码示例显示如何删除特定文件夹上的用户权限，默认权限和匿名权限除外。
   
-首先，发送[GetFolder](https://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx)请求，其中[DistinguishedFolderId](https://msdn.microsoft.com/library/50018162-2941-4227-8a5b-d6b4686bb32f%28Office.15%29.aspx)值指定要在其中删除权限的文件夹（此示例中的 "已发送的项目" 文件夹）， [FieldURI](https://msdn.microsoft.com/library/24af8e3b-3074-4c8c-8d0a-52446508d044%28Office.15%29.aspx)值包括 folder： PermissionSet。 此请求将检索指定文件夹的[PermissionSet](https://msdn.microsoft.com/library/6ac1bd17-a089-46bb-b9e6-f5b1dfe1076d%28Office.15%29.aspx) 。 
+首先，发送一个 [GetFolder](https://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) 请求， [其中 DistinguishedFolderId](https://msdn.microsoft.com/library/50018162-2941-4227-8a5b-d6b4686bb32f%28Office.15%29.aspx) 值指定要从中删除权限的文件夹 (本示例中的"已发送邮件"文件夹) [FieldURI](https://msdn.microsoft.com/library/24af8e3b-3074-4c8c-8d0a-52446508d044%28Office.15%29.aspx) 值包括 folder：PermissionSet。 此请求将检索[指定文件夹的 PermissionSet。](https://msdn.microsoft.com/library/6ac1bd17-a089-46bb-b9e6-f5b1dfe1076d%28Office.15%29.aspx) 
   
-这也是在调用**Bind**方法以[删除文件夹权限](#bk_removeewsma)时，EWS 托管 API 发送的 XML 请求。
+这也是调用 Bind 方法以删除文件夹权限时 EWS 托管 API发送的 XML[请求](#bk_removeewsma)。
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -412,7 +412,7 @@ static void RemoveFolderPermissions(ExchangeService service)
 </soap:Envelope>
 ```
 
-服务器使用[GetFolderResponse](https://msdn.microsoft.com/library/47abeec8-78dd-4297-8525-099174ec880d%28Office.15%29.aspx)邮件响应**GetFolder**请求，其中包含[ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx)元素值为**NoError**，表示已成功检索该文件夹。 为了提高可读性， **FolderId**和**ParentFolderId**元素的值已缩短。 
+服务器使用 [GetFolderResponse](https://msdn.microsoft.com/library/47abeec8-78dd-4297-8525-099174ec880d%28Office.15%29.aspx)消息响应 **GetFolder** 请求，其中包含 **NoError** 的 [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx)元素值，指示已成功检索文件夹。 为可读性，已缩短 **FolderId** 和 **ParentFolderId** 元素的值。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -512,9 +512,9 @@ static void RemoveFolderPermissions(ExchangeService service)
 </s:Envelope>
 ```
 
-接下来，使用**UpdateFolder**操作发送更新的**PermissionSet**，其中不包括已删除用户的**权限**。 
+接下来，使用 **UpdateFolder** 操作发送更新的 **PermissionSet**，其中不包括已删除用户的权限。 
   
-这也是在调用**Update**方法以[删除文件夹权限](#bk_removeewsma)时，EWS 托管 API 发送的 XML 请求。
+这也是 EWS 托管 API 在调用 **Update** 方法以删除文件夹权限时 [发送的](#bk_removeewsma)XML 请求。
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -561,48 +561,48 @@ static void RemoveFolderPermissions(ExchangeService service)
 </soap:Envelope>
 ```
 
-服务器使用**UpdateFolderResponse**邮件响应**UpdateFolder**请求，其中包含[ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx)元素值为**NoError**，表示更新已成功。
+服务器使用 **UpdateFolderResponse** 消息响应 **UpdateFolder** 请求，其中包含 **NoError** 的 [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx)元素值，指示更新成功。
   
 ## <a name="updating-folder-permissions-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 更新文件夹权限
 <a name="bk_updateewsma"> </a>
 
 您还可以使用 EWS 托管 API 更新特定文件夹的文件夹权限。 若要更新权限，请执行以下操作： 
   
-1. 删除对过期权限的[文件夹权限](#bk_removeewsma)，但不要调用**Update**方法（尚不调用）。 
+1. [删除过期权限](#bk_removeewsma) 的文件夹权限，但不要调用 **Update** 方法 () 。 
     
-2. [为新的或更改的用户添加文件夹权限](#bk_enableewsma)。
+2. [为新的或已更改的用户添加文件夹权限](#bk_enableewsma)。
     
-3. 调用**Update**方法以保存更改。 
+3. 调用 **Update** 方法以保存更改。 
     
-如果您尝试为同一用户添加两组权限，您将收到**ServiceResponseException**错误，并显示以下说明： "指定的权限集包含重复的 UserIds"。 在这种情况下，从**权限**集合中删除当前权限，然后将新权限添加到**权限**集合中。 
+如果您尝试为同一用户添加两组权限，您将收到 **ServiceResponseException** 错误，说明如下："指定的权限集包含重复的 UserIds"。 在这种情况下，从 **Permission** 集合中删除当前权限，然后将新权限添加到 **Permission** 集合。 
   
 ## <a name="updating-folder-permissions-by-using-ews"></a>使用 EWS 更新文件夹权限
 <a name="bk_updateews"> </a>
 
-您还可以通过使用 EWS 组合删除和添加过程来更新特定文件夹的文件夹权限。 若要更新权限，请执行以下操作： 
+您还可以通过结合删除和添加过程，使用 EWS 更新特定文件夹的文件夹权限。 若要更新权限，请执行以下操作： 
   
-1. 使用**GetFolder**操作检索文件夹的当前权限。 
+1. 使用 **GetFolder** 操作检索文件夹的当前权限。 
     
-2. 使用**UpdateFolder**操作发送已更新的权限列表。 
+2. 使用 **UpdateFolder** 操作发送更新后的权限列表。 
     
-这两个操作用于[启用](#bk_enableews)或删除使用 EWS 的[访问权限](#bk_removeews)。 唯一的区别是，当您收到**GetFolder**响应时，它将包含用户的**权限**集。 只需将该现有**权限**元素替换为新的**权限**元素，然后使用新**权限**值或值发送**UpdateFolder**操作。 
+这些操作与使用 EWS [启用](#bk_enableews) 或删除 [访问](#bk_removeews) 使用的两个操作相同。 唯一的区别是，当您收到 **GetFolder** 响应时，它将包含用户 **的权限** 集。 只需将现有的 **Permission** 元素替换为新的 **Permission** 元素，然后使用新的 **Permission** 值发送 **UpdateFolder** 操作。 
   
-如果您尝试为同一用户添加两组权限，您将收到**ResponseCode**值**ErrorDuplicateUserIdsSpecified**。 在这种情况下，请从请求中删除用户的过期权限值，然后重试该请求。
+如果您尝试为同一用户添加两组权限，您将收到 **ErrorDuplicateUserIdsSpecified** 的 **ResponseCode** 值。 在这种情况下，请从请求中删除用户过时的 Permission 值，然后重试请求。
 
 ## <a name="next-steps"></a>后续步骤
 
-授予用户对特定文件夹的权限后，用户可以将该文件夹作为代理访问。 有关详细信息，请参阅：
+向用户授予对特定文件夹的权限后，用户可以作为代理访问该文件夹。 有关详细信息，请参阅：
   
-- [在 Exchange 中使用 EWS 以代理的形式访问电子邮件](how-to-access-email-as-a-delegate-by-using-ews-in-exchange.md)
+- [使用 EWS 在电子邮件中以代理Exchange](how-to-access-email-as-a-delegate-by-using-ews-in-exchange.md)
     
-- [在 Exchange 中使用 EWS 作为代理访问日历](how-to-access-a-calendar-as-a-delegate-by-using-ews-in-exchange.md)
+- [在日历中通过使用 EWS 以代理Exchange](how-to-access-a-calendar-as-a-delegate-by-using-ews-in-exchange.md)
     
-- [在 Exchange 中使用 EWS 以代理的形式访问联系人](how-to-access-contacts-as-a-delegate-by-using-ews-in-exchange.md)
+- [在代理中通过使用 EWS 访问联系人Exchange](how-to-access-contacts-as-a-delegate-by-using-ews-in-exchange.md)
     
 ## <a name="see-also"></a>另请参阅
 
-- [代理访问和 Exchange 中的 EWS](delegate-access-and-ews-in-exchange.md)   
-- [使用 Exchange 中的 EWS 添加和删除委派](how-to-add-and-remove-delegates-by-using-ews-in-exchange.md)    
+- [Exchange 中的代理访问和 EWS](delegate-access-and-ews-in-exchange.md)   
+- [使用 Exchange 中的 EWS 添加和删除Exchange](how-to-add-and-remove-delegates-by-using-ews-in-exchange.md)    
 - [文件夹和交换中的 EWS 中的项目](folders-and-items-in-ews-in-exchange.md)
     
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PostalAddressIndex
 api_type:
 - schema
 ms.assetid: 170fec26-5cb7-4578-ac09-140da9a6c84e
 description: PostalAddressIndex 元素表示物理地址的显示类型。
-ms.openlocfilehash: ee2c4c30c82abf74edb5e83daab68a3fcd2d6050
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 8b2b8eedc7e422ca06810ba42e895d4e0f4165f6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529915"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512623"
 ---
 # <a name="postaladdressindex"></a>PostalAddressIndex
 
-**PostalAddressIndex**元素表示物理地址的显示类型。 
+**PostalAddressIndex** 元素表示物理地址的显示类型。 
   
 ```xml
 <PostalAddressIndex/>
@@ -48,7 +48,7 @@ ms.locfileid: "44529915"
    
 ## <a name="text-value"></a>文本值
 
-文本值是必需的。 以下是此元素的可能的文本值：
+文本值是必需的。 以下是此元素的可能文本值：
   
 - 无
     

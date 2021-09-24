@@ -5,38 +5,38 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - RefreshSharingFolder
 api_type:
 - schema
 ms.assetid: 1b047e34-40f0-459f-ac9e-e9f8e7349479
-description: RefreshSharingFolder 操作将使用所共享的文件夹中的最新数据刷新指定的本地文件夹。
-ms.openlocfilehash: dd7136ae82353841db09497d23eabe450c1c8b13
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: RefreshSharingFolder 操作使用共享文件夹中的最新数据刷新指定的本地文件夹。
+ms.openlocfilehash: 4bf30132d84c4288123c91247afa8bd13a05348c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456736"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512533"
 ---
 # <a name="refreshsharingfolder-operation"></a>RefreshSharingFolder 操作
 
-**RefreshSharingFolder**操作将使用所共享的文件夹中的最新数据刷新指定的本地文件夹。 
+**RefreshSharingFolder** 操作使用共享文件夹中的最新数据刷新指定的本地文件夹。 
   
 ## <a name="soap-headers"></a>SOAP 标头
 
-**RefreshSharingFolder**操作可以使用下表中列出和描述的 SOAP 标头。 
+**RefreshSharingFolder** 操作可以使用下表中列出和描述的 SOAP 标头。 
   
 |**Header**|**元素**|**说明**|
 |:-----|:-----|:-----|
 |RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。  <br/> |
-|ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器版本。  <br/> |
+|ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器的版本。  <br/> |
    
 ## <a name="refreshsharingfolder-request-example"></a>RefreshSharingFolder 请求示例
 
 ### <a name="description"></a>Description
 
-下面的示例演示如何使用要共享的文件夹中的最新数据来组成刷新指定本地文件夹的请求。 [SharingFolderId](sharingfolderid.md)元素指定要刷新的本地文件夹的标识符。 
+以下示例演示如何创建请求，以使用共享文件夹中的最新数据刷新指定的本地文件夹。 [SharingFolderId](sharingfolderid.md)元素指定要刷新的本地文件夹的标识符。 
   
 ### <a name="code"></a>代码
 
@@ -58,9 +58,9 @@ ms.locfileid: "44456736"
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Request 元素
+### <a name="request-elements"></a>请求元素
 
-请求中使用以下元素：
+请求中会使用下列元素：
   
 - [RequestServerVersion](requestserverversion.md)
     
@@ -72,7 +72,7 @@ ms.locfileid: "44456736"
 
 ### <a name="description"></a>Description
 
-下面的示例演示对**RefreshSharingFolder**请求的成功响应。 
+以下示例显示对 **RefreshSharingFolder** 请求的成功响应。 
   
 ### <a name="code"></a>代码
 
@@ -102,7 +102,7 @@ ms.locfileid: "44456736"
 
 ### <a name="successful-response-elements"></a>成功的响应元素
 
-响应中使用以下元素：
+响应中会使用下列元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -114,7 +114,7 @@ ms.locfileid: "44456736"
 
 ### <a name="description"></a>Description
 
-下面的示例演示对**RefreshSharingFolder**请求的错误响应。 在此示例中， **RefreshSharingFolder**请求失败，因为找不到与指定的本地文件夹相对应的订阅。 
+以下示例显示对 **RefreshSharingFolder** 请求的错误响应。 本示例中 **，RefreshSharingFolder** 请求失败，因为找不到与指定本地文件夹对应的订阅。 
   
 ### <a name="code"></a>代码
 
@@ -149,7 +149,7 @@ ms.locfileid: "44456736"
 
 ### <a name="error-response-elements"></a>错误响应元素
 
-错误响应中使用以下元素：
+错误响应中会使用下列元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -176,7 +176,7 @@ ms.locfileid: "44456736"
 [RefreshSharingFolderResponseMessageType](https://msdn.microsoft.com/library/ExchangeWebServices.RefreshSharingFolderResponseMessageType.aspx)
 
 
-[Exchange 中的 EWS 操作](ews-operations-in-exchange.md)
+[EWS 操作在Exchange](ews-operations-in-exchange.md)
   
 - [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

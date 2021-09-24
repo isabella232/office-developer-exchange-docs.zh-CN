@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 65554e4c-c0d9-485e-9f01-ed1baa8280ab
-description: AddImContactToGroup 元素定义将现有即时消息联系人添加到即时消息组的请求。
-ms.openlocfilehash: b86b1cb69a1ebc7034e5a27047c14efbab7236ea
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: AddImContactToGroup 元素定义向即时消息组添加现有即时消息联系人的请求。
+ms.openlocfilehash: 3bc779db71ab6fa9fd10d14e124db1d37ba6534e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459663"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520162"
 ---
 # <a name="addimcontacttogroup"></a>AddImContactToGroup
 
-**AddImContactToGroup**元素定义将现有即时消息联系人添加到即时消息组的请求。 
+**AddImContactToGroup** 元素定义向即时消息组添加现有即时消息联系人的请求。 
   
 ```XML
 <AddImContactToGroup>
@@ -43,7 +43,7 @@ ms.locfileid: "44459663"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -55,7 +55,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
-|验证文件  <br/> |消息 .xsd  <br/> |
+|验证文件  <br/> |messages.xsd  <br/> |
 |可以为空  <br/> |false  <br/> |
    
 

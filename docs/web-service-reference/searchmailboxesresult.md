@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ddb276c4-6c8a-46ef-a2eb-46b6a0bfce09
 description: SearchMailboxesResult 元素包含 SearchMailboxes 请求的结果。
-ms.openlocfilehash: 79d593d99762aedc6290578b5458f9ac3cad3d26
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: dee1e12a6d083ca3f8d3ddb509775b454e3e8fc0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466701"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59534403"
 ---
 # <a name="searchmailboxesresult"></a>SearchMailboxesResult
 
-**SearchMailboxesResult**元素包含**SearchMailboxes**请求的结果。 
+**SearchMailboxesResult** 元素包含 **SearchMailboxes** 请求的结果。 
   
 ```XML
 <SearchMailboxesResult>
@@ -46,13 +46,13 @@ ms.locfileid: "44466701"
   
 ### <a name="child-elements"></a>子元素
 
-[SearchQueries](searchqueries.md)  | [ResultType](resulttype.md)  | [ItemCount](itemcount.md)  | [大小（long）](size-long.md)  | [PageItemCount](pageitemcount.md)  | [PageItemSize](pageitemsize.md)  | [KeywordStats](keywordstats.md)  | [项目（ArrayOfSearchPreviewItemsType）](items-arrayofsearchpreviewitemstype.md)  | [FailedMailboxes](failedmailboxes.md)  | [精简条件](refiners.md)  | [MailboxStats](mailboxstats.md)
+[SearchQueries](searchqueries.md)  | [ResultType](resulttype.md)  | [ItemCount](itemcount.md)  | [长 (大小) ](size-long.md)  | [PageItemCount](pageitemcount.md)  | [PageItemSize](pageitemsize.md)  | [KeywordStats](keywordstats.md)  | [ArrayOfSearchPreviewItemsType (项) ](items-arrayofsearchpreviewitemstype.md)  | [FailedMailboxes](failedmailboxes.md)  | [精简条件](refiners.md)  | [MailboxStats](mailboxstats.md)
   
 ### <a name="parent-elements"></a>父元素
 
 [SearchMailboxesResponseMessage](searchmailboxesresponsemessage.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

@@ -5,41 +5,41 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e2146df0-53d0-4caf-9758-b600bbc14b6a
 description: 查找有关 GetPersona EWS 操作的信息。
-ms.openlocfilehash: 2b335c694a85f87c96432ea6d7c1c674613d2f17
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 47713ee42b7d726693efe91a5bc29c10f3aea91c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460944"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533551"
 ---
 # <a name="getpersona-operation"></a>GetPersona 操作
 
-查找有关**GetPersona** EWS 操作的信息。 
+查找有关 **GetPersona** EWS 操作的信息。 
   
-**GetPersona**操作返回一组与角色相关联的属性。 
+**GetPersona** 操作返回一组与人物相关联的属性。 
   
 Exchange Server 2013 中引入了此操作。
   
 ## <a name="using-the-getpersona-operation"></a>使用 GetPersona 操作
 
-**GetPersona**操作提供对角色的形式的聚合联系人信息的访问。 请求中的[PersonaId](personaid.md)元素标识要在响应中返回的角色。 响应可以包含一组默认的角色属性或自定义属性集。 我们建议您指定自定义属性集，以便不会处理未使用的属性，也不会将其从服务器发送到客户端。 
+**GetPersona** 操作提供对以人物形式聚合的联系人信息的访问。 请求 [中的 PersonaId](personaid.md) 元素标识响应中要返回的人物。 该响应可以包含一组默认的角色属性或自定义属性集。 建议您指定一个自定义属性集，以便不处理未使用的属性，并且不会从服务器发送到客户端。 
   
 ### <a name="getpersona-operation-soap-headers"></a>GetPersona 操作 SOAP 标头
 
-**GetPersona**操作可以使用下表中列出的 SOAP 标头。 
+**GetPersona** 操作可以使用下表中列出的 SOAP 标头。 
   
 |**标头名称**|**元素**|**说明**|
 |:-----|:-----|:-----|
-|**模拟** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |标识客户端应用程序模拟的用户。 此标头适用于请求。  <br/> |
+|**模拟** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |标识客户端应用程序正在模拟的用户。 此标头适用于请求。  <br/> |
 |**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。 此标头适用于请求。  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器版本。 此标头适用于响应。  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器的版本。 此标头适用于响应。  <br/> |
    
-## <a name="getpersona-operation-request-example-return-a-default-set-of-properties-for-a-persona"></a>GetPersona 操作请求示例：返回角色的默认属性集
+## <a name="getpersona-operation-request-example-return-a-default-set-of-properties-for-a-persona"></a>GetPersona 操作请求示例：返回一组默认属性
 
-下面的**GetPersona**操作请求示例演示如何返回与角色关联的一组默认属性。 
+**GetPersona** 操作请求的以下示例显示如何返回与一个人物相关联的默认属性集。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -65,10 +65,10 @@ Exchange Server 2013 中引入了此操作。
     
 ## <a name="successful-getpersona-operation-response"></a>成功的 GetPersona 操作响应
 
-下面的示例演示对**GetPersona**操作请求的成功响应。 
+以下示例显示了对 **GetPersona** 操作请求的成功响应。 
   
 > [!NOTE]
-> 本文中的所有项目标识符和更改密钥都已缩短，以保持可读性。 
+> 本文中所有项标识符和更改键已缩短，以保持可读性。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -204,19 +204,19 @@ Exchange Server 2013 中引入了此操作。
     
 - [GivenName](givenname.md)
     
-- [姓氏](surname.md)
+- [Surname](surname.md)
     
 - [CompanyName](companyname.md)
     
 - [RelevanceScore](relevancescore.md)
     
-- [归属（ArrayOfValueAttributionsType）](attributions-arrayofvalueattributionstype.md)
+- [Attributions (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md)
     
-- [特性（string）](attribution-string.md)
+- [Attribution (string)](attribution-string.md)
     
-- [ID （字符串）](id-string.md)
+- [ID (String)](id-string.md)
     
-- [SourceId](sourceid.md)SourceId 
+- [SourceId](sourceid.md) SourceId 
     
 - [显示名称 (字符串)](displayname-string.md)
     
@@ -232,11 +232,11 @@ Exchange Server 2013 中引入了此操作。
     
 - [StringAttributedValue](stringattributedvalue.md)
     
-- [Value （ArrayOfStringValueType）](value-arrayofstringvaluetype.md)
+- [Value (ArrayOfStringValueType)](value-arrayofstringvaluetype.md)
     
-- [归属（ArrayOfPersonaAttributionsType）](attributions-arrayofpersonaattributionstype.md)
+- [Attributions (ArrayOfPersonaAttributionsType)](attributions-arrayofpersonaattributionstype.md)
     
-- [归属（PersonaAttributionType）](attribution-personaattributiontype.md)
+- [Attribution (PersonaAttributionType)](attribution-personaattributiontype.md)
     
 - [FileAses](fileases.md)
     
@@ -250,17 +250,17 @@ Exchange Server 2013 中引入了此操作。
     
 - [PhoneNumberAttributedValue](phonenumberattributedvalue.md)
     
-- [Value （PersonaPhoneNumberType）](value-personaphonenumbertype.md)
+- [Value (PersonaPhoneNumberType)](value-personaphonenumbertype.md)
     
 - [Number](number.md)
     
-- [类型（字符串）](type-string.md)
+- [键入 (字符串) ](type-string.md)
     
 - [CompanyNames](companynames.md)
     
 ## <a name="getpersona-operation-error-response"></a>GetPersona 操作错误响应
 
-下面的示例演示对**GetPersona**操作请求的错误响应。 这是对包含错误指定的角色标识符的请求的响应。 
+以下示例显示对 **GetPersona** 操作请求的错误响应。 这是对包含错误指定人员标识符的请求的响应。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -298,11 +298,11 @@ Exchange Server 2013 中引入了此操作。
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-有关对 EWS 通用的其他错误代码以及特定于此操作的错误代码，请参阅[ResponseCode](responsecode.md)。
+有关 EWS 通用且特定于此操作的其他错误代码，请参阅 [ResponseCode](responsecode.md)。
   
 ## <a name="see-also"></a>另请参阅
 
-- [Exchange 中的 EWS 操作](ews-operations-in-exchange.md)
+- [EWS 操作在Exchange](ews-operations-in-exchange.md)
     
 - [人员和 Exchange 中的 EWS 中的联系人](https://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx)
     

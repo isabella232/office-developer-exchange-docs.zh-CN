@@ -1,23 +1,23 @@
 ---
-title: Member
+title: 成员
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Member
 api_type:
 - schema
 ms.assetid: af9c5ff8-02a4-41fc-876d-14ac05f1ee77
 description: Member 元素表示通讯组列表成员。
-ms.openlocfilehash: e84223b7c41846ca2f174293bff46a8825777a0e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 1cd8132e8383af0901c53e9432254b383c5c6215
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457303"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532395"
 ---
 # <a name="member"></a>成员
 

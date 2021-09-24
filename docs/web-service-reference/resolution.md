@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Resolution
 api_type:
 - schema
 ms.assetid: 573bed4b-d7b1-4baf-b16f-0795cdebf1a7
-description: 解析元素包含一个已解析的实体。
-ms.openlocfilehash: 63c80f3c8d7dabf7e6dc1494df04c0be821b28bf
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Resolution 元素包含单个已解析的实体。
+ms.openlocfilehash: 41e37c7224ca269bbd7c37b084806e9b8ecc67f3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468283"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539078"
 ---
 # <a name="resolution"></a>解决方案
 
-**解析**元素包含一个已解析的实体。 
+**Resolution** 元素包含单个已解析的实体。 
   
 [ResolveNamesResponse](resolvenamesresponse.md)
   
@@ -60,7 +60,7 @@ ms.locfileid: "44468283"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ResolutionSet](resolutionset.md) <br/> |包含一个不明确名称的分辨率数组。  <br/> |
+|[ResolutionSet](resolutionset.md) <br/> |包含一组用于不明确名称的解决方法。  <br/> |
    
 ## <a name="remarks"></a>说明
 

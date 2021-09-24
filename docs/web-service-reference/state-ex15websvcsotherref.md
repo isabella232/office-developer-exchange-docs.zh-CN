@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - State
 api_type:
 - schema
 ms.assetid: bcce7b0e-d504-4a1f-a530-db80b207f201
-description: State 元素表示联系人项目的居住状态。
-ms.openlocfilehash: 123aa0db83f58996924baadb0a87946db6934450
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: State 元素表示联系人项目的居住地状态。
+ms.openlocfilehash: 007751aca3671d75fb4257698733e47694a1249e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459999"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539001"
 ---
 # <a name="state"></a>状态
 
-**State**元素表示联系人项目的居住状态。 
+**State** 元素表示联系人项目的居住地状态。 
   
 ```xml
 <State/>
@@ -45,11 +45,11 @@ ms.locfileid: "44459999"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[条目（PhysicalAddress）](entry-physicaladdress.md) <br/> |描述联系人项目的单个物理地址。  <br/> |
+|[Entry (PhysicalAddress)](entry-physicaladdress.md) <br/> |描述联系人项目的单个物理地址。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-如果使用此元素，则为表示 state 的名称的 string 值。
+如果使用此元素，则代表状态名称的字符串值是必需的。
   
 ## <a name="remarks"></a>说明
 

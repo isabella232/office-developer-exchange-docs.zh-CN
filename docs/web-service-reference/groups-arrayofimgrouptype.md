@@ -1,23 +1,23 @@
 ---
-title: 组（ArrayOfImGroupType）
+title: Groups (ArrayOfImGroupType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 544dbb60-d6cb-47e1-b157-f0166147b6cf
-description: Groups 元素表示即时消息（IM）组的数组。
-ms.openlocfilehash: ad866afdecbcac0e555978647e3a46a033361672
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Groups 元素表示即时消息和 IM (组) 数组。
+ms.openlocfilehash: 692d50deef065fc993e97efe61f532d4fe1549f0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530069"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59537893"
 ---
-# <a name="groups-arrayofimgrouptype"></a>组（ArrayOfImGroupType）
+# <a name="groups-arrayofimgrouptype"></a>Groups (ArrayOfImGroupType)
 
-**Groups**元素表示即时消息（IM）组的数组。 
+**Groups** 元素表示即时消息和 IM (组) 数组。 
   
 ```XML
 <Groups>
@@ -43,7 +43,7 @@ ms.locfileid: "44530069"
 
 [ImItemList](imitemlist.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

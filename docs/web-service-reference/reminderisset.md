@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ReminderIsSet
 api_type:
 - schema
 ms.assetid: fa366afe-77a0-4c14-9edb-ffc9699131ba
-description: ReminderIsSet 元素指示是否已为 Exchange 存储中的项目设置提醒。
-ms.openlocfilehash: 293391866ae769f697f865749335c9323839a1d9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ReminderIsSet 元素指示是否已为应用商店中的项目设置Exchange提醒。
+ms.openlocfilehash: 2faa32b9b58789ecefd3b0c412d764765d5afada
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44528718"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513421"
 ---
 # <a name="reminderisset"></a>ReminderIsSet
 
-**ReminderIsSet**元素指示是否已为 Exchange 存储中的项目设置提醒。 
+**ReminderIsSet** 元素指示是否已为应用商店中的项目设置Exchange提醒。 
   
 ```xml
 <ReminderIsSet/>
@@ -58,7 +58,7 @@ ms.locfileid: "44528718"
    
 ## <a name="text-value"></a>文本值
 
-如果文本值为**true，则**表示已设置提醒。 
+文本值为 **true** 表示已设置提醒。 
   
 ## <a name="remarks"></a>说明
 

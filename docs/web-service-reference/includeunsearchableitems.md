@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9a9bd2dc-f5b9-4b82-a6a0-f643d2951080
 description: IncludeUnsearchableItems 元素指定是否包括无法搜索的项目。
-ms.openlocfilehash: 19fe450f5b1647be2df75138dbe67dd9e1c05c21
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 3bffd68c20623aa4c63dd295d8b4619999c1d4a5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465700"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533102"
 ---
 # <a name="includeunsearchableitems"></a>IncludeUnsearchableItems
 
-**IncludeUnsearchableItems**元素指定是否包括无法搜索的项目。 
+**IncludeUnsearchableItems** 元素指定是否包含无法搜索的项目。 
   
 ```XML
 <IncludeUnsearchableItems>true | false</IncludeUnsearchableItems>
@@ -44,9 +44,9 @@ ms.locfileid: "44465700"
    
 ## <a name="text-value"></a>文本值
 
-如果**IncludeUnsearchableItems**元素的文本值为**true** ，则表示不包含可搜索的项目的统计信息。 值为**false**表示对不可搜索的项目包含统计信息。 
+**IncludeUnsearchableItems** 元素的文本值 **true** 指示不包括不可搜索的项目的统计信息。 false **值表示** 包含不可搜索的项目的统计信息。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -58,7 +58,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
-|验证文件  <br/> |消息 .xsd  <br/> |
+|验证文件  <br/> |messages.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

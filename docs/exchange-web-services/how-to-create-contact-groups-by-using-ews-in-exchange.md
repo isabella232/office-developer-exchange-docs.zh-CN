@@ -1,30 +1,30 @@
 ---
-title: 使用 Exchange 中的 EWS 创建联系人组
+title: 在联系人组中使用 EWS 创建Exchange
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: acec6e73-c016-419d-be1a-8ec5d993addb
-description: 了解如何通过使用 Exchange 中的 EWS 托管 API 或 EWS 创建联系人组。
-ms.openlocfilehash: 1da876bbda72f5bea08fd9855aa3f554135d54aa
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: 了解如何使用 EWS 托管 API 或 Exchange 中的 EWS 创建联系人Exchange。
+ms.openlocfilehash: ade7fa68b00b055268cd5f0c34a75e0abbdb18ee
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44528137"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513218"
 ---
-# <a name="create-contact-groups-by-using-ews-in-exchange"></a>使用 Exchange 中的 EWS 创建联系人组
+# <a name="create-contact-groups-by-using-ews-in-exchange"></a>在联系人组中使用 EWS 创建Exchange
 
-了解如何通过使用 Exchange 中的 EWS 托管 API 或 EWS 创建联系人组。
+了解如何使用 EWS 托管 API 或 Exchange 中的 EWS 创建联系人Exchange。
   
-您可以使用 EWS 托管 API 或 EWS 创建一个私有[通讯组](distribution-groups-and-ews-in-exchange.md)的联系人组。 若要创建联系人组，请使用[ContactGroup](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.contactgroup%28v=exchg.80%29.aspx) EWS 托管 API 类中的方法，或使用[CreateItem](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) EWS 操作。 
+可以使用 EWS 托管 API 或[](distribution-groups-and-ews-in-exchange.md)EWS 创建联系人组，这是一个专用通讯组。 若要创建联系人组，请使用 [ContactGroup](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.contactgroup%28v=exchg.80%29.aspx) EWS 托管 API 类中的方法，或使用 [CreateItem](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) EWS 操作。 
   
-请注意，不能使用 EWS 托管 API 或 EWS 创建通用通讯组或安全组。 若要创建通用通讯组或安全组，您可以使用[New-distributiongroup](https://technet.microsoft.com/library/aa998856%28v=exchg.150%29.aspx)[Exchange 命令行管理程序 cmdlet](https://msdn.microsoft.com/library/ff326159%28v=exchg.140%29.aspx)。 
+请注意，你无法使用 EWS 托管 API 或 EWS 创建通用通讯组或安全组。 若要创建通用通讯组或安全组，可以使用[New-DistributionGroup](https://technet.microsoft.com/library/aa998856%28v=exchg.150%29.aspx)Exchange[命令行管理程序 cmdlet](https://msdn.microsoft.com/library/ff326159%28v=exchg.140%29.aspx)。 
   
 ## <a name="create-a-contact-group-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 创建联系人组
 <a name="bk_EWSMA"> </a>
 
-若要创建联系人组，只需提供以下几条信息：组的名称和要添加到组的成员。 下面的示例演示如何创建包含两个组成员的简单联系人组。
+若要创建联系人组，只需几条信息：该组的名称以及要添加到组的成员。 以下示例演示如何创建一个包含几个组的成员的简单联系人组。
   
 ```cs
 // Create a new contact group object.
@@ -42,7 +42,7 @@ myContactGroup.Save();
 ## <a name="create-a-contact-group-by-using-ews"></a>使用 EWS 创建联系人组
 <a name="bk_EWSMA"> </a>
 
-它可能需要几行代码，但您可以通过使用[CreateItem](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) EWS 操作来创建联系人组。 下面的 XML 请求示例演示如何创建联系人组。 这也是当您[使用 EWS 托管 API 创建联系人组](#bk_EWSMA)时发送的 XML 请求。
+可能需要多几行代码，但可以使用 [CreateItem](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) EWS 操作创建联系人组。 以下 XML 请求示例演示如何创建联系人组。 这也是使用 [EWS](#bk_EWSMA)托管 API 创建联系人组时发送的 XML 请求。
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -74,7 +74,7 @@ MessageDisposition="SaveOnly">
    </CreateItem>
 ```
 
-下面的示例演示了对请求的成功的 XML 响应。 请注意，返回的值包括新联系人组的项 ID，以及可以在其他代码中用来修改联系人组或展开组以查看成员的更改密钥。 为了提高可读性，项目 ID 被缩短。
+下面是成功响应请求的 XML 示例。 请注意，返回的值包括新联系人组的项目 ID 和可在其他代码中用于修改联系人组或展开该组以查看成员的更改密钥。 为可读性，项目 ID 已缩短。
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -102,6 +102,6 @@ MessageDisposition="SaveOnly">
 
 - [通讯组和 Exchange 中的 EWS](distribution-groups-and-ews-in-exchange.md)
     
-- [使用 Exchange 2013 中的 EWS 展开通讯组](how-to-expand-distribution-groups-by-using-ews-in-exchange-2013.md)
+- [在 2013 年 10 月Exchange EWS 展开通讯组](how-to-expand-distribution-groups-by-using-ews-in-exchange-2013.md)
     
 

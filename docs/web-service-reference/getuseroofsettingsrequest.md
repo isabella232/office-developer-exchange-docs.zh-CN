@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetUserOofSettingsRequest
 api_type:
 - schema
 ms.assetid: 15dea99c-7f5d-4af1-82ff-4255127fe567
-description: GetUserOofSettingsRequest 元素是根元素，其中包含用于获取邮箱用户的外出（OOF）设置的参数。
-ms.openlocfilehash: f515e8cf016d3aff6c652ae92a0da71a8f0a5f6b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetUserOofSettingsRequest 元素是根元素，其中包含用于获取邮箱用户的 Out of Office (OOF) 设置的参数。
+ms.openlocfilehash: ea14636dbcf3042a0286ac64fa4fc701144e4920
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457828"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519679"
 ---
 # <a name="getuseroofsettingsrequest"></a>GetUserOofSettingsRequest
 
-**GetUserOofSettingsRequest**元素是根元素，其中包含用于获取邮箱用户的外出（OOF）设置的参数。 
+**GetUserOofSettingsRequest** 元素是根元素，其中包含用于获取邮箱用户的 Out of Office (OOF) 设置的参数。 
   
 ```xml
 <GetUserOofSettingsRequest>
@@ -42,19 +42,19 @@ ms.locfileid: "44457828"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[邮箱（可用性）](mailbox-availability.md) <br/> |标识 SetUserOofSettings 或 GetUserOofSettings 请求的邮箱用户。  <br/> |
+|[Mailbox (Availability)](mailbox-availability.md) <br/> |标识 SetUserOofSettings 或 GetUserOofSettings 请求的邮箱用户。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
 ## <a name="example"></a>示例
 
-下面是一个 GetUserOofSettings 请求的示例，该请求获取单个用户的 OOF 信息。
+下面是获取单个用户的 OOF 信息的 GetUserOofSettings 请求的示例。
   
 ```
 <?xml version="1.0" encoding="utf-8"?>

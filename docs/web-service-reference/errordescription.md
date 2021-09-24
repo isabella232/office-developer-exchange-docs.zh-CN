@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 409c7893-7b69-4b0b-9d5b-112a0dfacde7
 description: ErrorDescription 元素描述在有关无法编制索引的项目的信息中返回的错误。
-ms.openlocfilehash: d12e8b3dfc377097f649ef6f863bc59c1a59df9a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 22910f02bf31a85606ed2f68c3fadefa681b7691
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460069"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520652"
 ---
 # <a name="errordescription"></a>ErrorDescription
 
-**ErrorDescription**元素描述在有关无法编制索引的项目的信息中返回的错误。 
+**ErrorDescription** 元素描述在有关无法编制索引的项目的信息中返回的错误。 
   
 ```XML
 <ErrorDescription></ErrorDescription>
@@ -42,9 +42,9 @@ ms.locfileid: "44460069"
   
 ## <a name="text-value"></a>文本值
 
-**ErrorDescription**元素的文本值包含项目级错误的说明。 
+**ErrorDescription** 元素的文本值包含项目级错误的说明。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

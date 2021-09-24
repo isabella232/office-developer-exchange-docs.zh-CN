@@ -1,34 +1,34 @@
 ---
-title: 使用 Exchange 中的 EWS 同步项目
+title: 使用 EWS 同步Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 886e7d35-9096-480b-8a8c-a7db27da06c2
-description: 了解如何使用 EWS 托管 API 或 EWS 获取文件夹中所有项目的列表，或获取文件夹中已发生的更改的列表，以便同步客户端。
-ms.openlocfilehash: e75f90b2d28d782465de89000796deccdd125e25
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: 了解如何使用 EWS 托管 API 或 EWS 获取文件夹中所有项目的列表，或文件夹中发生的更改列表，以便同步客户端。
+ms.openlocfilehash: 82d9304f4060583a5bbffdcf4020c5822ab7c006
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527710"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513078"
 ---
-# <a name="synchronize-items-by-using-ews-in-exchange"></a>使用 Exchange 中的 EWS 同步项目
+# <a name="synchronize-items-by-using-ews-in-exchange"></a>使用 EWS 同步Exchange
 
-了解如何使用 EWS 托管 API 或 EWS 获取文件夹中所有项目的列表，或获取文件夹中已发生的更改的列表，以便同步客户端。
+了解如何使用 EWS 托管 API 或 EWS 获取文件夹中所有项目的列表，或文件夹中发生的更改列表，以便同步客户端。
   
-Exchange 中的 EWS 使用项目同步和文件夹同步来同步客户端和服务器之间的邮箱内容。 项目同步获取文件夹中项目的初始列表，然后随着时间的推移，获取对这些项目所做的更改，并获取新项目。
+Exchange中的 EWS 使用项目同步和文件夹同步在客户端和服务器之间同步邮箱内容。 项目同步获取文件夹中项目的初始列表，然后随着时间的推移，获取对这些项目所做的更改，并获取新项。
   
-请注意，在将项目同步到客户端之前，首先必须[同步文件夹层次结构](how-to-synchronize-folders-by-using-ews-in-exchange.md)。 在客户端上的文件夹层次结构就绪后，如果正在使用 EWS 托管 API 执行项目同步，则首先使用[ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.syncfolderitems%28v=exchg.80%29.aspx)方法[获取收件箱中的项目的初始列表](#bk_cesyncongoingewsma)。 然后，在随后的调用中更新_cSyncState_参数的值，以获取收件箱中已更改项目的列表。 
+请注意，在将项目同步到客户端之前，首先必须 [同步文件夹层次结构](how-to-synchronize-folders-by-using-ews-in-exchange.md)。 在客户端上设置文件夹层次结构后，如果使用 EWS 托管 API 执行项目同步，则首先使用[ExchangeService.SyncFolderItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.syncfolderitems%28v=exchg.80%29.aspx)方法获取收件箱中项目的初始列表。 [](#bk_cesyncongoingewsma) 然后，在后续调用过程中更新  _cSyncState_ 参数的值，获取收件箱中已更改项目的列表。 
   
-若要使用 EWS 执行项目同步，请在[同步文件夹层次结构](how-to-synchronize-folders-by-using-ews-in-exchange.md)后，通过使用[SyncFolderItems 操作](https://msdn.microsoft.com/library/7f0de089-8876-47ec-a871-df118ceae75d%28Office.15%29.aspx)来请求[收件箱中的项目的初始列表](#bk_ewsexamplea)，分析响应，然后在将来某个时间[获取对邮箱中的项目所做的更改](#bk_ewsexamplec)，并分析响应。 客户端收到初始或更改的项目的列表后，[会在本地进行更新](#bk_nextsteps)。 在将来检索更改的方式和时间取决于应用程序使用的[同步设计模式](mailbox-synchronization-and-ews-in-exchange.md#bk_syncpatterns)。 
+若要使用 EWS 执行项目同步，在[](how-to-synchronize-folders-by-using-ews-in-exchange.md)同步文件夹层次结构后，使用[SyncFolderItems](https://msdn.microsoft.com/library/7f0de089-8876-47ec-a871-df118ceae75d%28Office.15%29.aspx)操作请求收件箱中项目的初始列表，分析响应，然后在将来某个时候获取对邮箱中的项目所做的更改，然后分析响应。 [](#bk_ewsexamplec) [](#bk_ewsexamplea) 客户端收到初始项或已更改项的列表后，会 [在本地进行更新](#bk_nextsteps)。 将来检索更改的方式和时间取决于 [应用程序使用的](mailbox-synchronization-and-ews-in-exchange.md#bk_syncpatterns) 同步设计模式。 
   
-## <a name="get-the-list-of-all-items-or-changed-items-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 获取所有项目或更改的项目的列表
+## <a name="get-the-list-of-all-items-or-changed-items-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 获取所有项或已更改项的列表
 <a name="bk_cesyncongoingewsma"> </a>
 
-下面的代码示例演示如何获取 "收件箱" 文件夹中所有项目的初始列表，然后获取对 "收件箱" 文件夹中的项目所做的更改的列表，自上一次同步以来发生。 在对[SyncFolderItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.syncfolderitems%28v=exchg.80%29.aspx)方法的初始调用过程中，将_cSyncState_值设置为 null。 方法完成后，将_cSyncState_值保存在本地，以在下一个**SyncFolderItems**方法调用中使用。 在初始调用和后续调用中，将使用对**SyncFolderItems**方法的连续调用以批处理10的形式检索项目，直到不再保留更改。 
+以下代码示例演示如何获取"收件箱"文件夹中所有项目的初始列表，然后获取自上一次同步以来"收件箱"文件夹中项目的更改列表。 在首次调用 [SyncFolderItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.syncfolderitems%28v=exchg.80%29.aspx) 方法期间，将  _cSyncState_ 值设置为 null。 方法完成后，在本地保存  _cSyncState_ 值，以用于下一 **个 SyncFolderItems** 方法调用。 在初始调用和后续调用中，通过使用 **对 SyncFolderItems** 方法的连续调用，分十批检索项目，直到不再有变化。 
   
-本示例将_propertySet_参数设置为 IdOnly，以减少对 Exchange 数据库的调用，这是一种[同步最佳实践](mailbox-synchronization-and-ews-in-exchange.md#bk_bestpractices)。 在此示例中，我们假定**service**是有效的**ExchangeService**对象绑定，并且_cSyncState_表示以前对**SyncFolderItems**返回的同步状态。 
+此示例将 _propertySet_ 参数设置为 IdOnly，以减少对 Exchange 数据库的调用，这是 [一种同步最佳实践](mailbox-synchronization-and-ews-in-exchange.md#bk_bestpractices)。 在此例中，我们假定 **服务** 是有效的 **ExchangeService** 对象绑定，并且  _cSyncState_ 表示之前调用 **SyncFolderItems 时返回的同步状态**。 
   
 ```cs
 // Track whether there are more items available for download on the server.
@@ -74,14 +74,14 @@ while (moreChangesAvailable);
 
 ```
 
-**SyncFolderItems**方法类似于[FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)方法，因为它无法返回[正文](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.body%28v=exchg.80%29.aspx)或[附件](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.attachments%28v=exchg.80%29.aspx)等属性。 如果您需要**SyncFolderItems**方法无法返回的属性，请在调用**SyncFolderItems**时指定[IdOnly](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.propertyset.idonly%28v=exchg.80%29.aspx)属性集，然后使用[ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.loadpropertiesforitems%28v=exchg.80%29.aspx)方法获取**LoadPropertiesForItems**方法所返回的项目所需的属性。 
+**SyncFolderItems** 方法类似于 [FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)方法，因为它不能返回 Body 或 Attachments [等](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.body%28v=exchg.80%29.aspx)[属性](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.attachments%28v=exchg.80%29.aspx)。 如果需要 **SyncFolderItems** 方法无法返回的属性，请指定调用 **SyncFolderItems** 时 [设置的 IdOnly](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.propertyset.idonly%28v=exchg.80%29.aspx)属性，然后使用 [ExchangeService.LoadPropertiesForItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.loadpropertiesforitems%28v=exchg.80%29.aspx)方法获取 **SyncFolderItems** 方法返回的项目所需的属性。 
   
-在服务器上检索新的或更改的项目的列表后，[创建或更新客户端上的项目](#bk_nextsteps)。
+检索服务器上新项或已更改项的列表后，在客户端上创建 [或更新项](#bk_nextsteps)。
   
 ## <a name="get-the-initial-list-of-items-by-using-ews"></a>使用 EWS 获取项目的初始列表
 <a name="bk_ewsexamplea"> </a>
 
-下面的示例演示使用[SyncFolderItems 操作](https://msdn.microsoft.com/library/7f0de089-8876-47ec-a871-df118ceae75d%28Office.15%29.aspx)获取收件箱中的项目的初始列表的 XML 请求。 这也是在[使用 SyncFolderItems 方法检索项列表](#bk_cesyncongoingewsma)时，EWS 托管 API 发送的 XML 请求。 **SyncFolderItems**操作的[SyncState](https://msdn.microsoft.com/library/e5ebaae3-0f07-481d-ac67-d9687a3c7ac3%28Office.15%29.aspx)元素不包含在内，因为这是初始同步。 本示例将[BaseShape](https://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx)元素设置为**IdOnly** ，以减少对 Exchange 数据库的调用，这是一种[同步最佳实践](mailbox-synchronization-and-ews-in-exchange.md#bk_bestpractices)。
+下面的示例展示了使用 [SyncFolderItems](https://msdn.microsoft.com/library/7f0de089-8876-47ec-a871-df118ceae75d%28Office.15%29.aspx)操作获取收件箱中项目的初始列表的 XML 请求。 这也是 EWS 托管 API 在使用 [SyncFolderItems](#bk_cesyncongoingewsma)方法检索项目列表时发送的 XML 请求。 **SyncFolderItems** 操作中的 [SyncState](https://msdn.microsoft.com/library/e5ebaae3-0f07-481d-ac67-d9687a3c7ac3%28Office.15%29.aspx)元素不包括在内，因为这是初始同步。 此示例将 [BaseShape](https://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx)元素设置 **为 IdOnly，** 以减少Exchange数据库的调用，这是 [一种同步最佳实践](mailbox-synchronization-and-ews-in-exchange.md#bk_bestpractices)。
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -109,7 +109,7 @@ while (moreChangesAvailable);
 
 <a name="bk_responsesyncfolderitems"> </a>
 
-下面的示例显示了由服务器在处理来自客户端的**SyncFolderItems**操作请求后返回的 XML 响应。 初始响应包括五个项目的[Create](https://msdn.microsoft.com/library/cb5e64a2-66a5-4447-921e-7c13efb8f6bf%28Office.15%29.aspx)元素，因为在初始同步过程中，所有项目都被视为新的。 为了方便读取，已缩短一些属性和元素的值。 
+以下示例显示服务器处理来自客户端的 **SyncFolderItems** 操作请求后返回的 XML 响应。 初始响应包括 [为](https://msdn.microsoft.com/library/cb5e64a2-66a5-4447-921e-7c13efb8f6bf%28Office.15%29.aspx) 五个项目创建元素，因为所有项在初始同步过程中都被视为新项。 为了方便读取，已缩短一些属性和元素的值。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -173,12 +173,12 @@ while (moreChangesAvailable);
 </s:Envelope>
 ```
 
-在服务器上检索新项目的列表后，在[客户端上创建这些项目](#bk_nextsteps)。
+检索服务器上新项的列表后， [在客户端 上创建项目](#bk_nextsteps)。
   
-## <a name="get-the-changes-since-the-last-sync-by-using-ews"></a>通过使用 EWS 获取上次同步以来的更改
+## <a name="get-the-changes-since-the-last-sync-by-using-ews"></a>使用 EWS 获取自上次同步以来的更改
 <a name="bk_ewsexamplec"> </a>
 
-下面的示例演示使用[SyncFolderItems](https://msdn.microsoft.com/library/7f0de089-8876-47ec-a871-df118ceae75d%28Office.15%29.aspx)操作获取对收件箱中的项目所做更改列表的 XML 请求。 这也是 EWS 托管 API 在[检索到收件箱的更改列表](#bk_cesyncongoingewsma)时发送的 XML 请求。 本示例将[SyncState](https://msdn.microsoft.com/library/e5ebaae3-0f07-481d-ac67-d9687a3c7ac3%28Office.15%29.aspx)元素的值设置为[上一次响应](#bk_responsesyncfolderitems)中返回的值。 出于演示目的，本示例将[BaseShape](https://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx)元素设置为**AllProperties** ，而不是**IdOnly**以显示返回的其他属性。 将[BaseShape](https://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx)元素设置为**IdOnly**是一种[同步最佳实践](mailbox-synchronization-and-ews-in-exchange.md#bk_bestpractices)。 为了提高可读性， **SyncState**的值已缩短。 
+下面的示例展示了使用 [SyncFolderItems](https://msdn.microsoft.com/library/7f0de089-8876-47ec-a871-df118ceae75d%28Office.15%29.aspx) 操作获取收件箱中项目更改列表的 XML 请求。 这也是 EWS 托管 API 在检索收件箱的更改列表时发送的 XML [请求](#bk_cesyncongoingewsma)。 本示例将 [SyncState](https://msdn.microsoft.com/library/e5ebaae3-0f07-481d-ac67-d9687a3c7ac3%28Office.15%29.aspx) 元素值设置成上一个响应中 [返回的值](#bk_responsesyncfolderitems)。 出于演示目的，此示例将 [BaseShape](https://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx)元素（而不是 **IdOnly）** 设置为 **AllProperties，** 以显示返回的其他属性。 将 [BaseShape](https://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) 元素设置为 **IdOnly** 是 [一种同步最佳实践](mailbox-synchronization-and-ews-in-exchange.md#bk_bestpractices)。 **SyncState** 的值已缩短，可读。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -205,7 +205,7 @@ while (moreChangesAvailable);
 </soap:Envelope>
 ```
 
-下面的示例显示了由服务器在处理来自客户端的**SyncFolderItems**操作请求后返回的 XML 响应。 此响应指示更新了一个项目，创建了两个项目，更改了一个项目的读取标志，并且一项自上次同步后已被删除。 为了方便读取，已缩短一些属性和元素的值。 
+以下示例显示服务器处理来自客户端的 **SyncFolderItems** 操作请求后返回的 XML 响应。 此响应指示更新了一个项目，创建了两个项目，更改了一个项目的读取标志，并且自之前同步后删除了一个项目。 为了方便读取，已缩短一些属性和元素的值。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -420,25 +420,25 @@ while (moreChangesAvailable);
 </s:Envelope>
 ```
 
-**SyncFolderItems**操作类似于[FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)方法，因为它无法返回元素，如[Body](https://msdn.microsoft.com/library/7851ea9b-9f87-4adc-a26f-7a27df4a9bca%28Office.15%29.aspx)或[Attachments](https://msdn.microsoft.com/library/b470e614-34bb-44f0-8790-7ddbdcbbd29d%28Office.15%29.aspx)元素。 如果需要**SyncFolderItems**操作无法返回的属性，请在调用**SyncFolderItems**时将[BaseShape](https://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx)元素的值设置为 IdOnly，然后使用[GetItem 操作](https://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx)获取**SyncFolderItems**操作返回的项所需的属性。 
+**SyncFolderItems** 操作类似于 [FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)方法，因为它无法返回 [Body](https://msdn.microsoft.com/library/7851ea9b-9f87-4adc-a26f-7a27df4a9bca%28Office.15%29.aspx)或 Attachments 元素 [等](https://msdn.microsoft.com/library/b470e614-34bb-44f0-8790-7ddbdcbbd29d%28Office.15%29.aspx)元素。 如果需要 **SyncFolderItems** 操作无法返回的属性，在调用 **SyncFolderItems** 时将 [BaseShape](https://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx)元素的值设置为 IdOnly，然后使用 [GetItem](https://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx)操作获取 **SyncFolderItems** 操作返回的项目所需的属性。 
   
-在服务器上检索已更改项目的列表后，[更新客户端上的项目](#bk_nextsteps)。
+检索服务器上已更改项目的列表后， [更新客户端 上的项](#bk_nextsteps)。
   
 ## <a name="update-the-client"></a>更新客户端
 <a name="bk_nextsteps"> </a>
 
-如果使用 EWS 托管 API，则在获取新项目或已更改项目的列表后，使用[LoadPropertiesForItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.loadpropertiesforitems%28v=exchg.80%29.aspx)方法获取新项目或已更改项目的属性，将属性与本地值进行比较，并更新客户端上的项目。 
+如果使用的是 EWS 托管 API，则获取新项或已更改项的列表后，使用 [LoadPropertiesForItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.loadpropertiesforitems%28v=exchg.80%29.aspx) 方法获取新项或已更改项的属性，将属性与本地值进行比较，并更新客户端上的项。 
   
-如果使用的是 EWS，请使用[GetItem 操作](https://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx)获取新项目或已更改项目的属性，并更新客户端上的项目。 
+如果使用的是 EWS，请使用 [GetItem](https://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) 操作获取新项或已更改项的属性，并更新客户端上的项。 
   
 ## <a name="see-also"></a>另请参阅
 
 
-- [邮箱同步和交换中的 EWS](mailbox-synchronization-and-ews-in-exchange.md)
+- [邮箱同步和 Exchange 中的 EWS](mailbox-synchronization-and-ews-in-exchange.md)
     
-- [使用 Exchange 中的 EWS 同步文件夹](how-to-synchronize-folders-by-using-ews-in-exchange.md)
+- [在文件夹中使用 EWS 同步Exchange](how-to-synchronize-folders-by-using-ews-in-exchange.md)
     
-- [在 Exchange 中处理 EWS 中与同步相关的错误](handling-synchronization-related-errors-in-ews-in-exchange.md)
+- [处理 EWS 中与同步相关的Exchange](handling-synchronization-related-errors-in-ews-in-exchange.md)
     
 - [Notification subscriptions, mailbox events, and EWS in Exchange](notification-subscriptions-mailbox-events-and-ews-in-exchange.md)
     

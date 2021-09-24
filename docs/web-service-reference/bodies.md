@@ -1,23 +1,23 @@
 ---
-title: 团体
+title: Bodies
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a71a75f0-0b77-4cb9-8f9d-319de72fc1fd
-description: 主体元素指定 BodyContentAttributedValue 元素的数组。
-ms.openlocfilehash: d7087cf213d3c659a55458e021f4b8f0400efb1d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Body 元素指定 BodyContentAttributedValue 元素的数组。
+ms.openlocfilehash: efabf20b4b831862cb65e797f10a8563061de9bf
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461511"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520017"
 ---
-# <a name="bodies"></a>团体
+# <a name="bodies"></a>Bodies
 
-**主体**元素指定**BodyContentAttributedValue**元素的数组。 
+**Body** 元素指定 **BodyContentAttributedValue 元素** 的数组。 
   
 ```XML
 <Bodies>
@@ -44,9 +44,9 @@ ms.locfileid: "44461511"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[角色](persona.md) <br/> |指定由**GetPersona**请求返回的一组角色数据。  <br/> |
+|[角色](persona.md) <br/> |指定由 **GetPersona** 请求返回的一组人员数据。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -58,7 +58,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

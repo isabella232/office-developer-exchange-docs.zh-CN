@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ReceivedRepresenting
 api_type:
 - schema
 ms.assetid: 1157b042-6dce-4cdc-9700-e22b749da39f
-description: ReceivedRepresenting 元素标识代理访问方案中的主体。
-ms.openlocfilehash: f444fb88be9c0df174f0c1490cf7c499cc0c0539
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ReceivedRepresenting 元素标识委派访问方案中的主体。
+ms.openlocfilehash: 4be5d6273534cab9537604b48b60a23baec82eea
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468220"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532229"
 ---
 # <a name="receivedrepresenting"></a>ReceivedRepresenting
 
-**ReceivedRepresenting**元素标识代理访问方案中的主体。 
+**ReceivedRepresenting** 元素标识委派访问方案中的主体。 
   
 ```xml
 <ReceivedRepresenting>
@@ -61,19 +61,19 @@ ms.locfileid: "44468220"
 |[ForwardItem](forwarditem.md) <br/> |包含要转发给收件人的 Exchange 存储区项。  <br/> |
 |[CancelCalendarItem](cancelcalendaritem.md) <br/> |表示用于取消会议的响应对象。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-**ReceivedRepresenting**元素与代理访问方案中的**From**和**ReceivedBy**元素一起使用。 下表列出了这些元素在代理访问方案中表示的实体。 
+**ReceivedRepresenting** 元素与委托访问方案中的 **From** 和 **ReceivedBy** 元素一同使用。 下表列出了这些元素在委派访问方案中表示的实体。 
   
-**代理访问方案中的元素**
+**委派访问方案中的元素**
 
-|**元素**|**元素所表示的实体**|
+|**元素**|**元素表示的实体**|
 |:-----|:-----|
 |[From](from.md) <br/> |ThirdParty  <br/> |
 |[ReceivedBy](receivedby.md) <br/> |委派用户  <br/> |
 |[ReceivedRepresenting](receivedrepresenting.md) <br/> |校长  <br/> |
    
-在代理访问方案中，如果 ThirdParty 向具有代理的主体发送会议请求，则代理将看到一个新的会议请求。 这些元素使代理能够区分直接发送给他们的邮件和发送给他们的邮件，因为它是一个代理转发规则。
+在委派访问方案中，如果 ThirdParty 向具有代理人的主体发送会议请求，则代理人将看到新的会议请求。 通过这些元素，代理可以区分直接发送给它们的邮件和由于委派转发规则而发送给它们的邮件。
   
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

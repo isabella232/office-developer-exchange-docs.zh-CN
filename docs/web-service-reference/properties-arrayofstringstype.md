@@ -1,23 +1,23 @@
 ---
-title: Properties （ArrayOfStringsType）
+title: Properties (ArrayOfStringsType)
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ec7a1009-b06d-4578-8cc6-52b83684458c
 description: Properties 元素仅供内部使用。
-ms.openlocfilehash: d61a602f504b53eecc94ac79927cfc5bfecd0525
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 153e1b0908643589aacd627986c4f0416c04d2c8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461637"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520421"
 ---
-# <a name="properties-arrayofstringstype"></a>Properties （ArrayOfStringsType）
+# <a name="properties-arrayofstringstype"></a>Properties (ArrayOfStringsType)
 
-**Properties**元素仅供内部使用。 
+**Properties** 元素仅供内部使用。 
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
@@ -35,7 +35,7 @@ ms.locfileid: "44461637"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 013947f3-cf3c-40b1-baf6-405f26bd375e
-description: PageDirection 元素包含在搜索结果中进行分页的方向。 值为上一个或下一个。
-ms.openlocfilehash: 22816ff73af49e0f029b5618fa3d45f8880d0f82
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: PageDirection 元素包含搜索结果中分页的方向。 值为 Previous 或 Next。
+ms.openlocfilehash: d6e0cd7b1654e5a8f371f3812ee21858662fcf9f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459726"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539150"
 ---
 # <a name="pagedirection"></a>PageDirection
 
-**PageDirection**元素包含在搜索结果中进行分页的方向。 值为上一个或下一个。 
+**PageDirection** 元素包含搜索结果中分页的方向。 值为 Previous 或 Next。 
   
 ```XML
 <PageDirection> Previous | Next </PageDirection>
@@ -42,9 +42,9 @@ ms.locfileid: "44459726"
   
 ## <a name="text-value"></a>文本值
 
-**PageDirection**元素的文本值是对搜索结果进行分页的方向。 
+**PageDirection** 元素的文本值是搜索结果分页的方向。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

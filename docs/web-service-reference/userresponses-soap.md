@@ -1,24 +1,24 @@
 ---
-title: UserResponses （SOAP）
+title: UserResponses (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: a48766df-4cc8-47c2-a8c1-826daec94e5a
 description: UserResponses 元素包含每个请求的用户的配置设置。
-ms.openlocfilehash: db2bab16334b90395d29dc03353dce05b0e45357
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 301706af0ad876c6e93df246c4a598636d91068d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526744"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538532"
 ---
-# <a name="userresponses-soap"></a>UserResponses （SOAP）
+# <a name="userresponses-soap"></a>UserResponses (SOAP)
 
-**UserResponses**元素包含每个请求的用户的配置设置。 
+**UserResponses** 元素包含每个请求的用户的配置设置。 
   
 ```XML
 <UserResponses>
@@ -39,13 +39,13 @@ ms.locfileid: "44526744"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[UserResponse （SOAP）](userresponse-soap.md) <br/> |表示对单个用户的[GetUserSettings 操作（SOAP）](getusersettings-operation-soap.md)请求的响应。  <br/> |
+|[UserResponse (SOAP)](userresponse-soap.md) <br/> |表示对针对单个用户 ([SOAP) GetUserSettings ](getusersettings-operation-soap.md) 操作的响应。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[响应（SOAP）](response-soap.md) <br/> |包含对[GetUserSettings 操作（SOAP）](getusersettings-operation-soap.md)请求的响应。  <br/> |
+|[Response (SOAP)](response-soap.md) <br/> |包含对 SOAP 请求的[GetUserSettings (的响应) 。](getusersettings-operation-soap.md)  <br/> |
    
 ## <a name="element-information"></a>元素信息
 

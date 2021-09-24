@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5c31552f-22b8-4bf0-8cac-046fd92ac0d4
-description: GroupType 元素指定即时消息（IM）组的组类。
-ms.openlocfilehash: b8790a23507c51dfffceaddf3641ce820223c366
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GroupType 元素指定即时消息的组类 (IM) 组。
+ms.openlocfilehash: f54a78c5780d7d435531be0dc74e354594b754bb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462799"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533136"
 ---
 # <a name="grouptype"></a>GroupType
 
-**GroupType**元素指定即时消息（IM）组的组类。 
+**GroupType** 元素指定即时消息和 IM (的) 类。 
   
 ```XML
 <GroupType></GroupType>
@@ -44,9 +44,9 @@ ms.locfileid: "44462799"
    
 ## <a name="text-value"></a>文本值
 
-**GroupType**元素的文本值是一个 string 值，用于指定组的类型。 
+**GroupType** 元素的文本值是一个指定组类型的字符串值。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -58,7 +58,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>另请参阅

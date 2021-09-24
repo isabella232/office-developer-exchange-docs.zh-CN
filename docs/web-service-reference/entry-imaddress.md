@@ -1,27 +1,27 @@
 ---
-title: 条目（IMAddress）
+title: Entry (IMAddress)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Entry
 api_type:
 - schema
 ms.assetid: ee444170-7353-4e86-86c6-d7300a2f1777
-description: Entry 元素表示联系人的即时消息（IM）地址。
-ms.openlocfilehash: b6cc37447eb0f231e9e852a6c3cd64d6e1f3a89f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Entry 元素表示联系人的即时消息 (IM) 地址。
+ms.openlocfilehash: 76025f9ad47e1f62555f7a3e9d0222b86fc7b042
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460699"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520659"
 ---
-# <a name="entry-imaddress"></a>条目（IMAddress）
+# <a name="entry-imaddress"></a>Entry (IMAddress)
 
-**Entry**元素表示联系人的即时消息（IM）地址。 
+**Entry** 元素表示联系人的即时消息 (IM) 地址。 
   
 ```xml
 <Entry Key=""/>
@@ -36,7 +36,7 @@ ms.locfileid: "44460699"
 
 |**属性**|**说明**|
 |:-----|:-----|
-|**Key** <br/> | 标识 IM 地址。<br/><br/>以下是该属性可能的值：<br/><br/>- ImAddress1  <br/>- ImAddress2  <br/>- ImAddress3  <br/> |
+|**键** <br/> | 标识 IM 地址。<br/><br/>以下是该属性可能的值：<br/><br/>- ImAddress1  <br/>- ImAddress2  <br/>- ImAddress3  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -50,7 +50,7 @@ ms.locfileid: "44460699"
    
 ## <a name="text-value"></a>文本值
 
-如果使用此元素，则表示 IM 地址的文本值是必需的。
+如果使用此元素，则代表 IM 地址的文本值是必需的。
   
 ## <a name="remarks"></a>说明
 

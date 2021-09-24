@@ -1,28 +1,28 @@
 ---
-title: PlayOnPhoneGreetingResponse （UM web 服务）
+title: PlayOnPhoneGreetingResponse（UM Web 服务）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PlayOnPhoneGreetingResponse
 api_type:
 - schema
 ms.assetid: 7189d69a-9288-4fc8-8d78-4977ee1a7253
-description: PlayOnPhoneGreetingResponse 元素定义对 PlayOnPhoneGreeting 操作（UM web 服务）请求的响应。
-ms.openlocfilehash: ca448860ef0e59607f73421c71d9c8f75c740773
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: PlayOnPhoneGreetingResponse 元素定义对 UM Web 服务 (PlayOnPhoneGreeting 操作) 的响应。
+ms.openlocfilehash: f8370d8ed93cc18eb29df100e68bddaa22c35fca
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44528851"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512630"
 ---
-# <a name="playonphonegreetingresponse-um-web-service"></a>PlayOnPhoneGreetingResponse （UM web 服务）
+# <a name="playonphonegreetingresponse-um-web-service"></a>PlayOnPhoneGreetingResponse（UM Web 服务）
 
-**PlayOnPhoneGreetingResponse**元素定义对[PLAYONPHONEGREETING 操作（UM web 服务）](playonphonegreeting-operation-um-web-service.md)请求的响应。 
+**PlayOnPhoneGreetingResponse** 元素定义对 UM Web 服务 ([PlayOnPhoneGreeting](playonphonegreeting-operation-um-web-service.md)操作) 的响应。 
   
-[PlayOnPhoneGreetingResponse （UM web 服务）](playonphonegreetingresponse-um-web-service.md)
+[PlayOnPhoneGreetingResponse（UM Web 服务）](playonphonegreetingresponse-um-web-service.md)
   
 ```xml
 <PlayOnPhoneGreetingResponse />
@@ -47,14 +47,14 @@ ms.locfileid: "44528851"
   
 ## <a name="text-value"></a>文本值
 
-文本值是必需的。 文本值包含用于[GetCallInfo 操作（um web 服务）](getcallinfo-operation-um-web-service.md)请求或[断开连接操作（um web 服务）](disconnect-operation-um-web-service.md)请求中的[CallId （um web 服务](callid-um-web-service.md)）值的值。 
+文本值是必需的。 文本值包含在[GetCallInfo](getcallinfo-operation-um-web-service.md)操作[ (UM Web](callid-um-web-service.md)服务) ) 请求或 Disconnect 操作 (UM Web 服务) 请求中 CallId ([UM Web 服务) ](disconnect-operation-um-web-service.md)的值。 
   
 ## <a name="element-information"></a>元素信息
 
 |||
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|架构名称  <br/> |邮件  <br/> |
+|架构名称  <br/> |消息  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
    
@@ -62,11 +62,11 @@ ms.locfileid: "44528851"
 
 
 
-[PlayOnPhoneGreeting 操作（UM web 服务）](playonphonegreeting-operation-um-web-service.md)
+[PlayOnPhoneGreeting 操作（UM Web 服务）](playonphonegreeting-operation-um-web-service.md)
   
-[CallId （UM web 服务）](callid-um-web-service.md)
+[CallId（UM Web 服务）](callid-um-web-service.md)
   
-[GetCallInfo 操作（UM web 服务）](getcallinfo-operation-um-web-service.md)
+[GetCallInfo 操作（UM Web 服务）](getcallinfo-operation-um-web-service.md)
   
-[断开连接操作（UM web 服务）](disconnect-operation-um-web-service.md)
+[Disconnect 操作（UM Web 服务）](disconnect-operation-um-web-service.md)
 

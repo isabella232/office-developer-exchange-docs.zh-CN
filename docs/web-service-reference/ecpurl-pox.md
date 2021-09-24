@@ -1,32 +1,32 @@
 ---
-title: EcpUrl （POX）
+title: EcpUrl (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7cbd6076-9981-4c65-a296-5e57518671b5
-description: EcpUrl 元素指定启用邮件的用户的 Exchange 控制面板的 URL。
-ms.openlocfilehash: b761147dc5912652bca2847bd5ec0d305e0624b3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: EcpUrl 元素指定启用邮件Exchange控制面板的 URL。
+ms.openlocfilehash: b9f46dd7bcefde8e32c935dbb29f190c26799f5b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461273"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538287"
 ---
-# <a name="ecpurl-pox"></a>EcpUrl （POX）
+# <a name="ecpurl-pox"></a>EcpUrl (POX)
 
-**EcpUrl**元素指定启用邮件的用户的 Exchange 控制面板的 URL。 
+**EcpUrl** 元素指定启用邮件Exchange控制面板的 URL。 
   
-[自动发现（POX）](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[响应（POX）](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[帐户（POX）](account-pox.md)
+[Account (POX)](account-pox.md)
   
-[协议（POX）](protocol-pox.md)
+[Protocol (POX)](protocol-pox.md)
   
-[EcpUrl （POX）](ecpurl-pox.md)
+[EcpUrl (POX)](ecpurl-pox.md)
   
 ```XML
 <EcpUrl/>
@@ -48,19 +48,19 @@ ms.locfileid: "44461273"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[协议（POX）](protocol-pox.md) <br/> |包含将客户端连接到运行 Microsoft Exchange Server 且安装了客户端访问服务器角色的计算机的规范。  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |包含用于将客户端连接到运行已安装客户端访问服务器角色Microsoft Exchange Server的计算机的规范。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-文本值表示用户的 Exchange 控制面板的 URL。
+文本值表示用户Exchange控制面板的 URL。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-**EcpUrl**元素是**Protocol**元素的可选子元素。 
+**EcpUrl** 元素是 Protocol 元素的可选 **子** 元素。 
   
 ## <a name="see-also"></a>另请参阅
 
 
 
-[Exchange 的 POX 自动发现 XML 元素](pox-autodiscover-xml-elements-for-exchange.md)
+[用于存储的 POX 自动发现 XML Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - TooBigGroupAttendeeConflictData
 api_type:
 - schema
 ms.assetid: 1512428d-ce22-4da9-b1c1-446b4bcd0a21
-description: TooBigGroupAttendeeConflictData 元素表示作为通讯组列表解析但通讯组列表太大而无法展开的与会者。
-ms.openlocfilehash: 407a4a49e5f32c81439063f47df2e131dd663a4f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: TooBigGroupAttendeeConflictData 元素表示作为通讯组列表解析的与会者，但通讯组列表太大，不可展开。
+ms.openlocfilehash: f91e7f31b26b7a7903ed96ba17afa53256996a89
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468598"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538805"
 ---
 # <a name="toobiggroupattendeeconflictdata"></a>TooBigGroupAttendeeConflictData
 
-**TooBigGroupAttendeeConflictData**元素表示作为通讯组列表解析但通讯组列表太大而无法展开的与会者。 
+**TooBigGroupAttendeeConflictData** 元素表示作为通讯组列表解析的与会者，但通讯组列表太大，不可展开。 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -60,11 +60,11 @@ ms.locfileid: "44468598"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[AttendeeConflictDataArray](attendeeconflictdataarray.md) <br/> |包含[GetUserAvailabilityRequest](getuseravailabilityrequest.md)中标识的与会者的冲突数据数组。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray` <br/> |
+|[AttendeeConflictDataArray](attendeeconflictdataarray.md) <br/> |包含 [GetUserAvailabilityRequest](getuseravailabilityrequest.md)中标识的与会者的冲突数据数组。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-包含超过100个成员的通讯组列表无法展开。
+不能展开包含 100 多个成员的通讯组列表。
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

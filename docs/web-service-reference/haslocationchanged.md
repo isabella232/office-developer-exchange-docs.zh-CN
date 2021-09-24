@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5fd465b4-6070-4cd0-9ac3-ed9d2bfd5951
-description: HasLocationChanged 元素指定会议的 location 属性是否已更改。
-ms.openlocfilehash: 4f774adcf4a7666f40524931504f1172e15ba24d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: HasLocationChanged 元素指定会议的位置属性是否已更改。
+ms.openlocfilehash: f59bca138d0baee87afd12470d9c50704edc75bd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462442"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519546"
 ---
 # <a name="haslocationchanged"></a>HasLocationChanged
 
-**HasLocationChanged**元素指定会议的 location 属性是否已更改。 
+**HasLocationChanged** 元素指定会议的位置属性是否已更改。 
   
 ```XML
 <HasLocationChanged> true | false </HasLocationChanged>
@@ -40,13 +40,13 @@ ms.locfileid: "44462442"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ChangeHighlights](changehighlights.md) <br/> |指定会议请求邮件的两个版本之间的变化。  <br/> |
+|[ChangeHighlights](changehighlights.md) <br/> |指定两个版本的会议请求邮件之间已更改内容。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-如果**HasLocationChanged**元素的文本值为**true** ，则表示会议的 location 属性已更改。 值**为 false**表示会议的 location 属性未发生更改。 
+**HasLocationChanged** 元素的文本值 **true** 指示会议的位置属性已更改。 值 **false** 表示会议的位置属性未更改。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -58,7 +58,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

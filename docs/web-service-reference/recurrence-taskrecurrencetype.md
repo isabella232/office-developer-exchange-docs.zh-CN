@@ -1,27 +1,27 @@
 ---
-title: 重复周期（TaskRecurrenceType）
+title: Recurrence (TaskRecurrenceType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Recurrence
 api_type:
 - schema
 ms.assetid: 99f8414a-9110-4721-a6e5-ebf225d7ed0a
-description: 定期元素包含定期任务的定期信息。
-ms.openlocfilehash: 933fd6b003d8d193e1561f2a22b65ac00237c345
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Recurrence 元素包含定期任务的定期信息。
+ms.openlocfilehash: 08356b20c3abea7dd4f4cd9aae08e7016c674d63
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44528830"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59534465"
 ---
-# <a name="recurrence-taskrecurrencetype"></a>重复周期（TaskRecurrenceType）
+# <a name="recurrence-taskrecurrencetype"></a>Recurrence (TaskRecurrenceType)
 
-**定期**元素包含定期任务的定期信息。 
+**Recurrence** 元素包含定期任务的定期信息。 
   
 ```xml
 <Recurrence>
@@ -248,19 +248,19 @@ ms.locfileid: "44528830"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[RelativeYearlyRecurrence](relativeyearlyrecurrence.md) <br/> |描述定期任务的相对年定期模式。  <br/> |
-|[AbsoluteYearlyRecurrence](absoluteyearlyrecurrence.md) <br/> |表示定期任务的每年定期模式。  <br/> |
-|[RelativeMonthlyRecurrence](relativemonthlyrecurrence.md) <br/> |描述定期任务的每月相对定期模式。  <br/> |
-|[AbsoluteMonthlyRecurrence](absolutemonthlyrecurrence.md) <br/> |表示定期任务的每月定期模式。  <br/> |
-|[WeeklyRecurrence](weeklyrecurrence.md) <br/> |描述频率（以周为单位）和任务的重复发生日期。  <br/> |
+|[RelativeYearlyRecurrence](relativeyearlyrecurrence.md) <br/> |描述定期任务定期模式相关的年度任务。  <br/> |
+|[AbsoluteYearlyRecurrence](absoluteyearlyrecurrence.md) <br/> |表示定期定期模式每年一次的任务。  <br/> |
+|[RelativeMonthlyRecurrence](relativemonthlyrecurrence.md) <br/> |描述定期任务定期模式月相对活动。  <br/> |
+|[AbsoluteMonthlyRecurrence](absolutemonthlyrecurrence.md) <br/> |表示定期定期模式的每月订阅。  <br/> |
+|[WeeklyRecurrence](weeklyrecurrence.md) <br/> |描述任务重复发生的频率（以周和天表示）。  <br/> |
 |[DailyRecurrence](dailyrecurrence.md) <br/> |描述任务重复出现的频率（以天为单位）。  <br/> |
-|[DailyRegeneration](dailyregeneration.md) <br/> |介绍当前任务完成后的天数，下一次事件将到期。  <br/> |
-|[WeeklyRegeneration](weeklyregeneration.md) <br/> |介绍当前任务完成后的星期数，下一次事件将到期。  <br/> |
-|[MonthlyRegeneration](monthlyregeneration.md) <br/> |介绍当前任务完成后，下一次事件将到期的月数。  <br/> |
-|[YearlyRegeneration](yearlyregeneration.md) <br/> |介绍当前任务完成后的年数，下一次事件将到期。  <br/> |
-|[NoEndRecurrence](noendrecurrence.md) <br/> |介绍没有定义的结束日期的定期模式。  <br/> 使用此元素不包括[EndDateRecurrence](enddaterecurrence.md)和[NumberedRecurrence](numberedrecurrence.md)元素的使用。  <br/> |
-|[EndDateRecurrence](enddaterecurrence.md) <br/> |描述项目定期模式的开始日期和结束日期。  <br/> 使用此元素不包括[NoEndRecurrence](noendrecurrence.md)和[NumberedRecurrence](numberedrecurrence.md)元素的使用。  <br/> [EndDateRecurrence](enddaterecurrence.md)不能与再生模式一起使用。  <br/> |
-|[NumberedRecurrence](numberedrecurrence.md) <br/> |描述定期项目的开始日期和发生次数。  <br/> 使用此元素不包括[NoEndRecurrence](noendrecurrence.md)和[EndDateRecurrence](enddaterecurrence.md)元素的使用。  <br/> |
+|[DailyRegeneration](dailyregeneration.md) <br/> |描述当前任务完成后的下一个事件将到期的天数。  <br/> |
+|[WeeklyRegeneration](weeklyregeneration.md) <br/> |描述当前任务完成后的下一个事件将到期的周数。  <br/> |
+|[MonthlyRegeneration](monthlyregeneration.md) <br/> |描述当前任务完成后的下一个事件将到期的月数。  <br/> |
+|[YearlyRegeneration](yearlyregeneration.md) <br/> |描述当前任务完成后的下一个事件将到期的年数。  <br/> |
+|[NoEndRecurrence](noendrecurrence.md) <br/> |描述定期模式没有定义的结束日期的约会。  <br/> 使用此元素将排除 [EndDateRecurrence](enddaterecurrence.md) 和 [NumberedRecurrence 元素](numberedrecurrence.md) 的使用。  <br/> |
+|[EndDateRecurrence](enddaterecurrence.md) <br/> |描述项目的开始日期和结束日期定期模式。  <br/> 使用此元素将不使用 [NoEndRecurrence](noendrecurrence.md) 和 [NumberedRecurrence](numberedrecurrence.md) 元素。  <br/> [EndDateRecurrence](enddaterecurrence.md) 不能与更新模式一同使用。  <br/> |
+|[NumberedRecurrence](numberedrecurrence.md) <br/> |描述开始日期和定期项目的发生次数。  <br/> 使用此元素将不使用 [NoEndRecurrence](noendrecurrence.md) 和 [EndDateRecurrence](enddaterecurrence.md) 元素。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 

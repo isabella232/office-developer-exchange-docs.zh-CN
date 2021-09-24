@@ -1,28 +1,28 @@
 ---
-title: GetUMProperties （UM web 服务）
+title: GetUMProperties（UM Web 服务）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetUMProperties
 api_type:
 - schema
 ms.assetid: 19873b72-ec12-4811-ae5f-6b61f2dbf0cc
-description: GetUMProperties 元素定义 GetUMProperties 操作（UM web 服务）请求。
-ms.openlocfilehash: 2cab45ec6b1058f459b65992cf7345f1be171ce7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetUMProperties 元素定义 UM Web 服务请求 (GetUMProperties) 操作。
+ms.openlocfilehash: 3f13eeb445300dabe6ae3cafc8f89ba7d9cd5411
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459130"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538053"
 ---
-# <a name="getumproperties-um-web-service"></a>GetUMProperties （UM web 服务）
+# <a name="getumproperties-um-web-service"></a>GetUMProperties（UM Web 服务）
 
-**GetUMProperties**元素定义[GETUMPROPERTIES 操作（UM web 服务）](getumproperties-operation-um-web-service.md)请求。 
+**GetUMProperties** 元素定义 UM Web 服务请求 ([GetUMProperties)](getumproperties-operation-um-web-service.md)操作。 
   
-[GetUMProperties （UM web 服务）](getumproperties-um-web-service.md)
+[GetUMProperties（UM Web 服务）](getumproperties-um-web-service.md)
   
 ```xml
 <GetUMProperties />
@@ -54,7 +54,7 @@ ms.locfileid: "44459130"
 |||
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|架构名称  <br/> |邮件  <br/> |
+|架构名称  <br/> |消息  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
    
@@ -62,5 +62,5 @@ ms.locfileid: "44459130"
 
 
 
-[GetUMProperties 操作（UM web 服务）](getumproperties-operation-um-web-service.md)
+[GetUMProperties 操作（UM Web 服务）](getumproperties-operation-um-web-service.md)
 

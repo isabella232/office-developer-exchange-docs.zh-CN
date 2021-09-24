@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c5e0582d-c1e1-453b-93ed-c31165c82697
 description: InstallAppResponse 元素指定对 InstallApp 请求的响应。
-ms.openlocfilehash: 0f7690e2df7e71c4e478dec191671af24f96294b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: c124757d60a1e4fedd583cc677afddaa5a32e856
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465665"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532925"
 ---
 # <a name="installappresponse"></a>InstallAppResponse
 
-**InstallAppResponse**元素指定对**InstallApp**请求的响应。 
+**InstallAppResponse** 元素指定对 **InstallApp 请求** 的响应。 
   
 ```xml
 <InstallAppResponse ResponseClass="">
@@ -49,26 +49,26 @@ ms.locfileid: "44465665"
    
 ### <a name="child-elements"></a>子元素
 
-|**元素**|**描述**|
+|**元素**|**说明**|
 |:-----|:-----|
-|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |当前未使用，并已保留以供将来使用。  <br/> |
+|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |当前未使用，保留以供将来使用。  <br/> |
 |[MessageText](messagetext.md) <br/> |提供响应状态的文本说明。  <br/> |
 |[MessageXml](messagexml.md) <br/> |提供其他错误响应信息。  <br/> |
 |[ResponseCode](responsecode.md) <br/> |提供有关请求的状态信息。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
-|**元素**|**描述**|
+|**元素**|**说明**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |包含 Exchange Web 服务请求的响应消息。  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |包含 Web 服务请求Exchange消息。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-**GetAppManifestsResponseMessage**元素适用于面向 exchange Online 的客户端和从 exchange 2013 开始的 Microsoft Exchange Server 版本。 
+**GetAppManifestsResponseMessage** 元素适用于从 2013 Exchange Online起面向 Microsoft Exchange Server 和 Exchange 版本的客户端。 
   
 ## <a name="element-information"></a>元素信息
 
@@ -76,7 +76,7 @@ ms.locfileid: "44465665"
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
-|验证文件  <br/> |消息 .xsd  <br/> |
+|验证文件  <br/> |messages.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

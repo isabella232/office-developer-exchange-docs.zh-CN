@@ -1,23 +1,23 @@
 ---
-title: FieldUri (规则)
+title: FieldUri (Rule)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cecdea78-de9c-48be-ae31-03877feafeec
 description: FieldURI 元素指定导致验证错误的规则字段的 URI。
-ms.openlocfilehash: 3d88efdf951af580f81b5e2e7a544dcdf70ea830
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: c1390f6643614216fa86053368ba012cd0883ff7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461245"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513729"
 ---
-# <a name="fielduri-rule"></a>FieldUri (规则)
+# <a name="fielduri-rule"></a>FieldUri (Rule)
 
-**FieldURI**元素指定导致验证错误的规则字段的 URI。 
+FieldURI 元素指定导致验证错误的规则字段的 **URI。** 
   
 ```XML
 <FieldURI/>
@@ -40,11 +40,11 @@ ms.locfileid: "44461245"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Error](error.md) <br/> |表示特定规则属性值、谓词属性值或 action 属性值上的单个验证错误。  <br/> |
+|[Error](error.md) <br/> |表示特定规则属性值、谓词属性值或操作属性值上的单个验证错误。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-此元素的文本值被限制为以下字符串之一：
+此元素的文本值仅限于以下字符串之一：
   
 - RuleId
     
@@ -58,165 +58,165 @@ ms.locfileid: "44461245"
     
 - 条件：类别
     
-- 条件： ContainsBodyStrings
+- Condition：ContainsBodyStrings
     
-- 条件： ContainsHeaderStrings
+- Condition：ContainsHeaderStrings
     
-- 条件： ContainsRecipientStrings
+- Condition：ContainsRecipientStrings
     
-- 条件： ContainsSenderStrings
+- Condition：ContainsSenderStrings
     
-- 条件： ContainsSubjectOrBodyStrings
+- Condition：ContainsSubjectOrBodyStrings
     
-- 条件： ContainsSubjectStrings
+- Condition：ContainsSubjectStrings
     
-- 条件： FlaggedForAction
+- Condition：FlaggedForAction
     
-- 条件： FromAddresses
+- Condition：FromAddresses
     
-- 条件： FromConnectedAccounts
+- Condition：FromConnectedAccounts
     
-- 条件： HasAttachments
+- Condition：HasAttachments
     
 - 条件：重要性
     
-- 条件： IsApprovalRequest
+- Condition：IsApprovalRequest
     
-- 条件： IsAutomaticForward
+- Condition：IsAutomaticForward
     
-- 条件： IsAutomaticReply
+- Condition：IsAutomaticReply
     
-- 条件： IsEncrypted
+- 条件：IsEncrypted
     
-- 条件： IsMeetingRequest
+- Condition：IsMeetingRequest
     
-- 条件： IsMeetingResponse
+- Condition：IsMeetingResponse
     
-- 条件： IsNDR
+- 条件：IsNDR
     
-- 条件： IsPermissionControlled
+- Condition：IsPermissionControlled
     
-- 条件： IsReadReceipt
+- Condition：IsReadReceipt
     
-- 条件： IsSigned
+- Condition：IsSigned
     
-- 条件： IsVoicemail
+- Condition：IsVoicemail
     
-- 条件： ItemClasses
+- Condition：ItemClasses
     
-- 条件： MessageClassifications
+- Condition：MessageClassifications
     
-- 条件： NotSentToMe
+- Condition：NotSentToMe
     
-- 条件： SentCcMe
+- Condition：SentCcMe
     
-- 条件： SentOnlyToMe
+- Condition：SentOnlyToMe
     
-- 条件： SentToAddresses
+- Condition：SentToAddresses
     
-- 条件： SentToMe
+- Condition：SentToMe
     
-- 条件： SentToOrCcMe
+- Condition：SentToOrCcMe
     
 - 条件：敏感度
     
-- 条件： WithinDateRange
+- Condition：WithinDateRange
     
-- 条件： WithinSizeRange
+- Condition：WithinSizeRange
     
 - 异常：类别
     
-- 异常： ContainsBodyStrings
+- 异常：ContainsBodyStrings
     
-- 异常： ContainsHeaderStrings
+- 异常：ContainsHeaderStrings
     
-- 异常： ContainsRecipientStrings
+- 异常：ContainsRecipientStrings
     
-- 异常： ContainsSenderStrings
+- 异常：ContainsSenderStrings
     
-- 异常： ContainsSubjectOrBodyStrings
+- 异常：ContainsSubjectOrBodyStrings
     
-- 异常： ContainsSubjectStrings
+- 异常：ContainsSubjectStrings
     
-- 异常： FlaggedForAction
+- 异常：FlaggedForAction
     
-- 异常： FromAddresses
+- 异常：FromAddresses
     
-- 异常： FromConnectedAccounts
+- 异常：FromConnectedAccounts
     
-- 异常： HasAttachments
+- 异常：HasAttachments
     
 - 异常：重要性
     
-- 异常： IsApprovalRequest
+- 异常：IsApprovalRequest
     
-- 异常： IsAutomaticForward
+- 异常：IsAutomaticForward
     
-- 异常： IsAutomaticReply
+- 异常：IsAutomaticReply
     
-- 异常： IsEncrypted
+- 异常：IsEncrypted
     
-- 异常： IsMeetingRequest
+- 异常：IsMeetingRequest
     
-- 异常： IsMeetingResponse
+- 异常：IsMeetingResponse
     
-- 异常： IsNDR
+- 异常：IsNDR
     
-- 异常： IsPermissionControlled
+- 异常：IsPermissionControlled
     
-- 异常： IsReadReceipt
+- 异常：IsReadReceipt
     
-- 异常： IsSigned
+- 异常：IsSigned
     
-- 异常： IsVoicemail
+- 异常：IsVoicemail
     
-- 异常： ItemClasses
+- 异常：ItemClasses
     
-- 异常： MessageClassifications
+- 异常：MessageClassifications
     
-- 异常： NotSentToMe
+- 异常：NotSentToMe
     
-- 异常： SentCcMe
+- 异常：SentCcMe
     
-- 异常： SentOnlyToMe
+- 异常：SentOnlyToMe
     
-- 异常： SentToAddresses
+- 异常：SentToAddresses
     
-- 异常： SentToMe
+- 异常：SentToMe
     
-- 异常： SentToOrCcMe
+- 异常：SentToOrCcMe
     
 - 异常：敏感度
     
-- 异常： WithinDateRange
+- Exception：WithinDateRange
     
-- 异常： WithinSizeRange
+- 异常：WithinSizeRange
     
-- 操作： AssignCategories
+- Action：AssignCategories
     
-- 操作： CopyToFolder
+- Action：CopyToFolder
     
 - 操作：删除
     
-- 操作： ForwardAsAttachmentToRecipients
+- Action：ForwardAsAttachmentToRecipients
     
-- 操作： ForwardToRecipients
+- Action：ForwardToRecipients
     
-- 操作： MarkImportance
+- Action：MarkImportance
     
-- 操作： MarkAsRead
+- Action：MarkAsRead
     
-- 操作： MoveToFolder
+- Action：MoveToFolder
     
-- 操作： PermanentDelete
+- Action：PermanentDelete
     
-- 操作： RedirectToRecipients
+- Action：RedirectToRecipients
     
-- 操作： SendSMSAlertToRecipients
+- Action：SendSMSAlertToRecipients
     
-- 操作： ServerReplyWithMessage
+- Action：ServerReplyWithMessage
     
-- 操作： StopProcessingRules
+- Action：StopProcessingRules
     
 - IsEnabled
     
@@ -224,7 +224,7 @@ ms.locfileid: "44461245"
     
 - 条件
     
-- 异常
+- 例外
     
 ## <a name="remarks"></a>说明
 

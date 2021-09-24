@@ -1,27 +1,27 @@
 ---
-title: 姓氏
+title: Surname
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Surname
 api_type:
 - schema
 ms.assetid: 73fc74f1-3be1-435c-9af9-233b3b12b603
-description: 姓元素表示联系人的姓氏。
-ms.openlocfilehash: cc3c9ca89757735c5aa5cb9e335486f8daa07ccf
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Surname 元素表示联系人的姓氏。
+ms.openlocfilehash: 5158955e56a3f27e847513abe9be796b9ef52e86
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455924"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538945"
 ---
-# <a name="surname"></a>姓氏
+# <a name="surname"></a>Surname
 
-**姓**元素表示联系人的姓氏。 
+**Surname** 元素表示联系人的姓氏。 
   
 ```xml
 <Surname/>

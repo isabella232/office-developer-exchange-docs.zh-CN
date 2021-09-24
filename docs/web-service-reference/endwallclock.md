@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bc04e44e-e6d1-4355-a2b1-feb6663dc647
-description: EndWallClock 元素指定会议在发生的位置所在的时区的结束时间。
-ms.openlocfilehash: 48b762d0bfe367b966b6f1790230f6a2118c3fd6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: EndWallClock 元素以会议发生位置的时区指定会议结束时间。
+ms.openlocfilehash: e54999046fd586a755340f5a4597b750aa9a5baa
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462969"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520687"
 ---
 # <a name="endwallclock"></a>EndWallClock
 
-**EndWallClock**元素指定会议在发生的位置所在的时区的结束时间。 
+**EndWallClock** 元素以会议发生位置的时区指定会议结束时间。 
   
 ```XML
 <EndWallClock></EndWallClock>
@@ -40,13 +40,13 @@ ms.locfileid: "44462969"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[角色](persona.md) <br/> |指定由**GetPersona**请求返回的一组角色数据。  <br/> |
+|[角色](persona.md) <br/> |指定由 **GetPersona** 请求返回的一组人员数据。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**EndWallClock**元素的文本值是指定时区标识符的字符串值。 
+**EndWallClock** 元素的文本值是一个指定时区标识符的字符串值。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -58,7 +58,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

@@ -1,27 +1,27 @@
 ---
-title: DisplayName （string）
+title: DisplayName (string)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DisplayName
 api_type:
 - schema
 ms.assetid: e7efbbe1-6629-4d11-bed1-ed899e3f9d77
-description: DisplayName 元素定义文件夹、联系人、通讯组列表、代理用户、位置或规则的显示名称。
-ms.openlocfilehash: 9b566ec1938ec206e45cddf9c7f00083af2d8a9c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DisplayName 元素定义显示名称、联系人、通讯组列表、委派用户、位置或规则的名称。
+ms.openlocfilehash: 3fc0faca0425bc6de3f71c154926991d922c8a79
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463614"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520861"
 ---
-# <a name="displayname-string"></a>DisplayName （string）
+# <a name="displayname-string"></a>DisplayName (string)
 
-**DisplayName**元素定义文件夹、联系人、通讯组列表、代理用户、位置或规则的显示名称。 
+**DisplayName** 元素定义显示名称、联系人、通讯组列表、委派用户、位置或规则的名称。 
   
 ```XML
 <DisplayName/>
@@ -44,19 +44,19 @@ ms.locfileid: "44463614"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[CalendarFolder](calendarfolder.md) <br/> |代表邮箱中的 "日历" 文件夹。  <br/> |
+|[CalendarFolder](calendarfolder.md) <br/> |表示邮箱中的日历文件夹。  <br/> |
 |[Contact](contact.md) <br/> |表示 Exchange 联系人项目。  <br/> |
 |[ContactsFolder](contactsfolder.md) <br/> |表示邮箱中的联系人文件夹。  <br/> |
 |[DistributionList](distributionlist.md) <br/> |表示通讯组列表。  <br/> |
 |[Folder](folder.md) <br/> |表示邮箱中的文件夹。  <br/> |
-|[规则 (RuleType)](rule-ruletype.md) <br/> |代表用户邮箱中的规则。  <br/> |
+|[规则 (RuleType)](rule-ruletype.md) <br/> |表示用户邮箱中的规则。  <br/> |
 |[SearchFolder](searchfolder.md) <br/> |表示邮箱中的搜索文件夹。  <br/> |
 |[TasksFolder](tasksfolder.md) <br/> |表示邮箱中的任务文件夹。  <br/> |
-|[UserId](userid.md) <br/> |标识代理用户或具有文件夹访问权限的用户。  <br/> |
+|[UserId](userid.md) <br/> |标识委派用户或具有文件夹访问权限的用户。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-如果使用此元素，则表示显示名称的文本值是必需的。
+如果此元素显示名称文本值，则此元素是必需的。
   
 ## <a name="remarks"></a>说明
 
@@ -64,7 +64,7 @@ ms.locfileid: "44463614"
   
 ## <a name="example"></a>示例
 
-下面的示例演示如何创建新文件夹并将文件夹的 DisplayName 设置为 "TestFolder"。
+以下示例演示如何创建新文件夹，以及如何将文件夹的 DisplayName 设置为"TestFolder"。
   
 ```cs
 FolderType folder = new FolderType();

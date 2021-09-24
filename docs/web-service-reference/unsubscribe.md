@@ -1,27 +1,27 @@
 ---
-title: 取消订阅
+title: Unsubscribe
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Unsubscribe
 api_type:
 - schema
 ms.assetid: 5584db5f-553a-47ce-85fb-f9902c9990ab
-description: 退订元素包含用于取消订阅订阅的属性。
-ms.openlocfilehash: d3d9c3bf9ad97cc0fdabf574c6505c797583838a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Unsubscribe 元素包含用于取消订阅的属性。
+ms.openlocfilehash: 9d3c7c7067138c75297d9576f3c14b4c3c921265
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467212"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538630"
 ---
-# <a name="unsubscribe"></a>取消订阅
+# <a name="unsubscribe"></a>Unsubscribe
 
-**退订**元素包含用于取消订阅订阅的属性。 
+Unsubscribe 元素包含用于取消订阅的属性。 
   
 [取消订阅](unsubscribe.md)
   
@@ -44,13 +44,13 @@ ms.locfileid: "44467212"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[SubscriptionId （GetEvents）](subscriptionid-getevents.md) <br/> |表示订阅的标识符。  <br/> |
+|[SubscriptionId (GetEvents)](subscriptionid-getevents.md) <br/> |表示订阅的标识符。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -71,5 +71,5 @@ ms.locfileid: "44467212"
   
 [GetEvents 操作](getevents-operation.md)
   
-[取消订阅操作](unsubscribe-operation.md)
+[Unsubscribe 操作](unsubscribe-operation.md)
 

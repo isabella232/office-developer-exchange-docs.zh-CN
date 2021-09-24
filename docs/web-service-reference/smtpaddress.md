@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SmtpAddress
 api_type:
 - schema
 ms.assetid: 779305a6-ad1e-424e-8a69-4e3bef61d787
-description: SmtpAddress 元素表示要用于模拟的帐户的简单邮件传输协议（SMTP）地址或日历或联系人共享请求的简单邮件传输协议（SMTP）收件人地址。
-ms.openlocfilehash: 915ff328cc384c1f2884e9fbea8c10c1ebc79288
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SmtpAddress 元素表示要用于模拟的帐户的简单邮件传输协议 (SMTP) 地址或日历或联系人共享请求的简单邮件传输协议 (SMTP) 收件人地址。
+ms.openlocfilehash: c10e18ce77a1002a9c7a94718e8e9a2bd3877d8d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466687"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539085"
 ---
 # <a name="smtpaddress"></a>SmtpAddress
 
-**SmtpAddress**元素表示要用于模拟的帐户的简单邮件传输协议（smtp）地址或日历或联系人共享请求的简单邮件传输协议（smtp）收件人地址。 
+**SmtpAddress** 元素表示要用于模拟的帐户的简单邮件传输协议 (SMTP) 地址或日历或联系人共享请求的简单邮件传输协议 (SMTP) 收件人地址。 
   
 ```xml
 <SmtpAddress/>
@@ -46,8 +46,8 @@ ms.locfileid: "44466687"
 |**元素**|**说明**|
 |:-----|:-----|
 |[ConnectingSID](connectingsid.md) <br/> |表示在使用 ExchangeImpersonation SOAP 标头时要模拟的帐户。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/ExchangeImpersonation/ConnectingSID` <br/> |
-|[InvalidRecipient](invalidrecipient.md) <br/> |代表 "日历共享" 或 "联系人共享邮件" 的无效收件人。  <br/> |
-|[收件人（ArrayOfSmtpAddressType）](recipients-arrayofsmtpaddresstype.md) <br/> |表示将被授予对共享文件夹的访问权限的收件人的集合。  <br/> |
+|[InvalidRecipient](invalidrecipient.md) <br/> |表示日历共享或联系人共享邮件的无效收件人。  <br/> |
+|[Recipients (ArrayOfSmtpAddressType)](recipients-arrayofsmtpaddresstype.md) <br/> |表示将被授予共享文件夹访问权限的收件人的集合。  <br/> |
 |[GetSharingFolder](getsharingfolder.md) <br/> |定义获取指定共享文件夹的本地文件夹标识符的请求。  <br/> |
    
 ## <a name="text-value"></a>文本值

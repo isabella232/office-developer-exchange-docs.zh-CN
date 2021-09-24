@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - EndTimeInMinutes
 api_type:
 - schema
 ms.assetid: ef05bdda-7a66-44db-bb73-a2ce8316c257
-description: EndTimeInMinutes 元素表示邮箱用户的工作日的结束日期。
-ms.openlocfilehash: cb564f9de944848734749a30c813a94d6b5c4187
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: EndTimeInMinutes 元素表示邮箱用户的工作日结束。
+ms.openlocfilehash: 32d386969dd1f918de5f88c570f2e3e3bc97c82f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459649"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520680"
 ---
 # <a name="endtimeinminutes"></a>EndTimeInMinutes
 
-**EndTimeInMinutes**元素表示邮箱用户的工作日的结束日期。 
+**EndTimeInMinutes** 元素表示邮箱用户的工作日结束。 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -64,9 +64,9 @@ ms.locfileid: "44459649"
    
 ## <a name="text-value"></a>文本值
 
-文本值是必需的。 该文本值表示自一天开始以来经过的分钟数的结束日期。 例如，结束时间为下午6点。 由1080分钟表示。
+文本值是必需的。 文本值表示每天的结束时间，表示自该天开始以来经过的分钟数。 例如，结束时间 6 P.M. 表示为 1080 分钟。
   
-此元素的可能值的范围是0到1440。
+此元素的可能值的范围是 0 到 1440。
   
 ## <a name="remarks"></a>说明
 

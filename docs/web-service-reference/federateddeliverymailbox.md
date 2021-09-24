@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FederatedDeliveryMailbox
 api_type:
 - schema
 ms.assetid: cd56bcc0-d24a-4e8b-87bd-999bf69234b7
 description: FederatedDeliveryMailbox元素表示跨内部消息发送到该邮箱。
-ms.openlocfilehash: d493ed81e82237b7257e8c469f4552d931b73aa6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 41224f9d630bb0b98b27a2d969ec490c3379eee2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461945"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513736"
 ---
 # <a name="federateddeliverymailbox"></a>FederatedDeliveryMailbox
 
-本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **FederatedDeliveryMailbox**元素表示跨内部消息发送到该邮箱。 
+本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **FederatedDeliveryMailbox** 元素表示跨内部消息发送到该邮箱。 
   
 ```XML
 <FederatedDeliveryMailbox>
@@ -62,7 +62,7 @@ ms.locfileid: "44461945"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

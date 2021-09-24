@@ -1,22 +1,22 @@
 ---
-title: SupportedFileExtensions （SOAP）
+title: SupportedFileExtensions (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6f73d18c-7bb1-4ab6-a23b-6d948e590b53
-description: SupportedFileExtensions 元素列出可存储在文档共享位置的文件扩展名。
-ms.openlocfilehash: d783b147a25ebbe3bff59c2142012b50bd80004e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SupportedFileExtensions 元素列出了可存储在文档共享位置的文件扩展名。
+ms.openlocfilehash: 0b0fd8bb36bf284155cbdad1da70f38b22a0a2b6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44433985"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538959"
 ---
-# <a name="supportedfileextensions-soap"></a>SupportedFileExtensions （SOAP）
+# <a name="supportedfileextensions-soap"></a>SupportedFileExtensions (SOAP)
 
-**SupportedFileExtensions**元素列出可存储在文档共享位置的文件扩展名。 
+**SupportedFileExtensions** 元素列出了可存储在文档共享位置的文件扩展名。 
   
 ```XML
 <SupportedFileExtensions /> 
@@ -35,13 +35,13 @@ ms.locfileid: "44433985"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[文件扩展名（SOAP）](fileextension-soap.md) <br/> |表示文件扩展名。  <br/> |
+|[FileExtension (SOAP)](fileextension-soap.md) <br/> |表示文件扩展名。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[DocumentSharingLocation （SOAP）](documentsharinglocation-soap.md) <br/> |表示文档共享位置的位置和元数据信息。  <br/> |
+|[DocumentSharingLocation (SOAP)](documentsharinglocation-soap.md) <br/> |表示文档共享位置的位置和元数据信息。  <br/> |
    
 ## <a name="element-information"></a>元素信息
 
@@ -59,7 +59,7 @@ ms.locfileid: "44433985"
 [GetUserSettings 操作 (SOAP)](getusersettings-operation-soap.md)
 
 
-[Exchange 的自动发现 web 服务参考](autodiscover-web-service-reference-for-exchange.md)
+[自动发现 Web 服务参考Exchange](autodiscover-web-service-reference-for-exchange.md)
   
 [Exchange 2013 的 SOAP 自动发现 XML 元素](soap-autodiscover-xml-elements-for-exchange-2013.md)
 

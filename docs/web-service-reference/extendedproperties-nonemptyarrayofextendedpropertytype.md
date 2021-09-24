@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a7034730-210d-4916-b992-dda342f890f8
-description: ExtendedProperties 元素指定其他属性数组。
-ms.openlocfilehash: 36011e0252ed391daefab190d4da679fb3a3f856
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ExtendedProperties 元素指定其他属性的数组。
+ms.openlocfilehash: 69099842ad25a0d4f65250b3477563537c569907
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463095"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520561"
 ---
 # <a name="extendedproperties-nonemptyarrayofextendedpropertytype"></a>ExtendedProperties (NonEmptyArrayOfExtendedPropertyType)
 
-**ExtendedProperties**元素指定其他属性数组。 
+**ExtendedProperties** 元素指定其他属性的数组。 
   
 ```XML
 <ExtendedProperties>
@@ -45,9 +45,9 @@ ms.locfileid: "44463095"
 |**元素**|**说明**|
 |:-----|:-----|
 |[ImGroup](imgroup.md) <br/> |表示即时消息组。  <br/> |
-|[SearchPreviewItem](searchpreviewitem.md) <br/> |指定在不打开项目的情况下预览邮箱项目的前256个字符。  <br/> |
+|[SearchPreviewItem](searchpreviewitem.md) <br/> |指定用于预览的邮箱项目的前 256 个字符，而无需打开该项目。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -59,7 +59,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

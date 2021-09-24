@@ -1,23 +1,23 @@
 ---
-title: End （ChangeHighlightsType）
+title: End (ChangeHighlightsType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 62b7d14c-8d71-4f28-b93e-8fe42d99022b
 description: End 元素指定在会议更新发生时对会议结束时间所做的更改。
-ms.openlocfilehash: 61d8c46af1999a506258dfa0cebf3a712962772a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 584ddbe4aea23e7940506fc4ce46ffa9e8cb5683
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526198"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520701"
 ---
-# <a name="end-changehighlightstype"></a>End （ChangeHighlightsType）
+# <a name="end-changehighlightstype"></a>End (ChangeHighlightsType)
 
-**End**元素指定在会议更新发生时对会议结束时间所做的更改。 
+**End** 元素指定在会议更新发生时对会议结束时间所做的更改。 
   
 ```XML
 <End></End>
@@ -42,9 +42,9 @@ ms.locfileid: "44526198"
   
 ## <a name="text-value"></a>文本值
 
-**End**元素的文本值是会议的新结束时间。 
+**End** 元素的文本值是会议的新结束时间。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

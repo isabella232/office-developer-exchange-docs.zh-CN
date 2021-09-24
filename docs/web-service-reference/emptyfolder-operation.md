@@ -5,28 +5,28 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 98161486-e2f2-480f-8d5d-708ba81b208a
-description: EmptyFolder 操作将清空邮箱中的文件夹。 （可选）此操作使您可以删除指定文件夹的子文件夹。 删除子文件夹时，子文件夹和子文件夹中的邮件将被删除。
-ms.openlocfilehash: 1913db74d33f1e6750cd158df5870f257d0e7839
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: EmptyFolder 操作清空邮箱中的文件夹。 （可选）此操作使您可以删除指定文件夹的子文件夹。 删除子文件夹时，子文件夹和子文件夹内的邮件将被删除。
+ms.openlocfilehash: 8191dc7ecea7038a6d885f30d08fe561a59c4ed2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530682"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519665"
 ---
 # <a name="emptyfolder-operation"></a>EmptyFolder 操作
 
-**EmptyFolder**操作将清空邮箱中的文件夹。 （可选）此操作使您可以删除指定文件夹的子文件夹。 删除子文件夹时，子文件夹和子文件夹中的邮件将被删除。 
+**EmptyFolder** 操作清空邮箱中的文件夹。 （可选）此操作使您可以删除指定文件夹的子文件夹。 删除子文件夹时，子文件夹和子文件夹内的邮件将被删除。 
   
 ## <a name="emptyfolder-request-example"></a>EmptyFolder 请求示例
 
 ### <a name="description"></a>Description
 
-以下示例的**EmptyFolder**请求显示了如何形成空文件夹的请求。 本示例删除已标识文件夹的所有子文件夹。 
+以下 **EmptyFolder** 请求示例显示如何形成清空文件夹的请求。 本示例删除标识的文件夹的所有子文件夹。 
   
 > [!NOTE]
-> 为了提高可读性， [FolderId](folderid.md)元素的**Id**和**ChangeKey**属性的值已缩短。 
+> 为可读性，已缩短 [FolderId](folderid.md)元素的 **Id** 和 **ChangeKey** 属性的值。 
   
 ### <a name="code"></a>代码
 
@@ -53,11 +53,11 @@ ms.locfileid: "44530682"
 
 本示例对文件夹执行硬删除。
   
-可以通过[DistinguishedFolderId](distinguishedfolderid.md)元素或[FolderId](folderid.md)元素标识文件夹，以便在[FolderIds](folderids.md)元素中使用。 
+文件夹可以通过 [DistinguishedFolderId](distinguishedfolderid.md) 元素或 [FolderId](folderid.md) 元素进行标识，以用于 [FolderIds](folderids.md) 元素。 
   
-### <a name="request-elements"></a>Request 元素
+### <a name="request-elements"></a>请求元素
 
-请求中使用以下元素：
+请求中会使用下列元素：
   
 - [EmptyFolder](emptyfolder.md)
     
@@ -69,7 +69,7 @@ ms.locfileid: "44530682"
 
 ### <a name="description"></a>Description
 
-下面的示例演示对**EmptyFolder**请求的成功响应。 
+以下示例显示对 **EmptyFolder** 请求的成功响应。 
   
 ### <a name="code"></a>代码
 
@@ -104,7 +104,7 @@ ms.locfileid: "44530682"
 
 ### <a name="successful-response-elements"></a>成功的响应元素
 
-响应中使用以下元素：
+响应中会使用下列元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -120,7 +120,7 @@ ms.locfileid: "44530682"
 
 ### <a name="description"></a>Description
 
-下面的示例演示对**Emptyfolder**请求的错误响应。 已创建错误，因为该操作尝试清空 Exchange 存储中未找到的文件夹。 
+以下示例显示对 **Emptyfolder** 请求的错误响应。 导致此错误的原因是：操作尝试清空在邮件存储中找不到Exchange文件夹。 
   
 ### <a name="code"></a>代码
 
@@ -158,7 +158,7 @@ ms.locfileid: "44530682"
 
 ### <a name="error-response-elements"></a>错误响应元素
 
-响应中使用以下元素：
+响应中会使用下列元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     

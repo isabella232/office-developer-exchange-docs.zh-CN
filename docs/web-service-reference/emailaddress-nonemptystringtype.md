@@ -4,23 +4,23 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - EmailAddress
 api_type:
 - schema
 ms.assetid: c0c708d1-b016-4902-a294-9af44aea2050
 description: EmailAddress 元素定义邮箱用户的主 SMTP 地址。
-ms.openlocfilehash: fcc3e650d5fc32344022ed6f015d4096a4461f63
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 8740f6f7f67269de86aaa7383a7ad8f3cdf07a4a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463130"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512994"
 ---
 # <a name="emailaddress-nonemptystringtype"></a>EmailAddress (NonEmptyStringType)
 
-**EmailAddress**元素定义邮箱用户的主 SMTP 地址。 
+**EmailAddress** 元素定义邮箱用户的主 SMTP 地址。 
   
 ```XML
 <EmailAddress/>
@@ -43,17 +43,17 @@ ms.locfileid: "44463130"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ActingAs](actingas.md) <br/> |标识呼叫者发送的人。  <br/> |
-|[邮箱](mailbox.md) <br/> | 标识完全解析的电子邮件地址。  <br/><br/>以下是此元素的一些 XPath 表达式：<br/><br/>`/CreateItem/ParentFolderId/DistinguishedFolderId/Mailbox`<br/><br/>`/CreateFolder/ParentFolderId/DistinguishedFolderId/Mailbox`<br/><br/>`CreateItem/Items/AcceptItem/ToRecipients/Mailbox`<br/><br/>`SyncFolderItemsResponseMessage/Changes/Create/CalendarItem/ConflictingMeetings/AcceptItem/CcRecipients/Mailbox`<br/><br/>以下是邮箱元素的其他父元素：<br/><br/>- [BccRecipients](bccrecipients.md) <br/>- [ReplyTo](replyto.md) <br/>- [给](sender.md) <br/>- [从](from.md) <br/>- [组织者](organizer.md) <br/>- [DistinguishedFolderId](distinguishedfolderid.md) <br/>- [办法](resolution.md) <br/>- [DLExpansion](dlexpansion.md) <br/>- [与会](attendee.md) <br/> |
-|[RoomList](roomlist.md) <br/> |通过电子邮件地址标识会议室列表。  <br/> |
+|[ActingAs](actingas.md) <br/> |标识呼叫者发送身份。  <br/> |
+|[邮箱](mailbox.md) <br/> | 标识完全解析的电子邮件地址。  <br/><br/>下面是此元素的一些 XPath 表达式：<br/><br/>`/CreateItem/ParentFolderId/DistinguishedFolderId/Mailbox`<br/><br/>`/CreateFolder/ParentFolderId/DistinguishedFolderId/Mailbox`<br/><br/>`CreateItem/Items/AcceptItem/ToRecipients/Mailbox`<br/><br/>`SyncFolderItemsResponseMessage/Changes/Create/CalendarItem/ConflictingMeetings/AcceptItem/CcRecipients/Mailbox`<br/><br/>以下是 Mailbox 元素的其他父元素：<br/><br/>- [BccRecipients](bccrecipients.md) <br/>- [ReplyTo](replyto.md) <br/>- [发件人](sender.md) <br/>- [从](from.md) <br/>- [组织者](organizer.md) <br/>- [DistinguishedFolderId](distinguishedfolderid.md) <br/>- [解决方案](resolution.md) <br/>- [DLExpansion](dlexpansion.md) <br/>- [Attendee](attendee.md) <br/> |
+|[RoomList](roomlist.md) <br/> |按电子邮件地址标识会议室列表。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
 需要一个代表 SMTP 地址的文本值。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-**EmailAddress**元素可以表示 SMTP 或旧版 Exchange 可分辨名称（也称为 DN）地址。 **EmailAddress**元素是唯一一个必需的[邮箱](mailbox.md)元素。 
+**EmailAddress** 元素可以表示 SMTP 或旧版 Exchange可分辨 (也称为 DN) 地址。 **EmailAddress** 元素是唯一必需的 [Mailbox](mailbox.md)元素。 
   
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

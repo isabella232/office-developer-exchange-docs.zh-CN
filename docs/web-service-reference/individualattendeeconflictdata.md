@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IndividualAttendeeConflictData
 api_type:
 - schema
 ms.assetid: d45d3c34-abe1-40da-afd3-23bc5c3ef474
-description: IndividualAttendeeConflictData 元素包含用户或联系人的忙/闲状态，该时间窗口与建议元素中标识的建议会议时间同时发生。
-ms.openlocfilehash: 55210230259b78e5ed9c4f0744aae003cf2e7ae5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: IndividualAttendeeConflictData 元素包含与 Suggestion 元素中标识的建议会议时间同时发生的时间窗口的用户或联系人的忙/闲状态。
+ms.openlocfilehash: e7308ca951e906edf4e4606c058f5e0e7a61fd5c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459312"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532987"
 ---
 # <a name="individualattendeeconflictdata"></a>IndividualAttendeeConflictData
 
-**IndividualAttendeeConflictData**元素包含用户或联系人的忙/闲状态，该时间窗口与[建议元素中标识的建议会议](suggestion.md)时间同时发生。 
+**IndividualAttendeeConflictData** 元素包含与 [Suggestion](suggestion.md)元素中标识的建议会议时间同时发生的时间窗口的用户或联系人的忙/闲状态。 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -58,13 +58,13 @@ ms.locfileid: "44459312"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[BusyType](busytype.md) <br/> |表示建议会议时间的用户的忙/闲状态。  <br/> |
+|[BusyType](busytype.md) <br/> |表示建议的会议时间的用户忙/闲状态。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[AttendeeConflictDataArray](attendeeconflictdataarray.md) <br/> |包含[GetUserAvailabilityRequest](getuseravailabilityrequest.md)中标识的与会者的冲突数据数组。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray` <br/> |
+|[AttendeeConflictDataArray](attendeeconflictdataarray.md) <br/> |包含 [GetUserAvailabilityRequest](getuseravailabilityrequest.md)中标识的与会者的冲突数据数组。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray` <br/> |
    
 ## <a name="remarks"></a>说明
 

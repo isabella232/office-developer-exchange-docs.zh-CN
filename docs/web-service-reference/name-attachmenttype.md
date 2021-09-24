@@ -1,27 +1,27 @@
 ---
-title: 名称（AttachmentType）
+title: Name (AttachmentType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Name
 api_type:
 - schema
 ms.assetid: 8ee00842-2d59-4346-9659-fa105bee747b
 description: Name 元素表示附件的名称。
-ms.openlocfilehash: ee4a273b753a3025f6e4b0bae17872981730ba0c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: bcffb16bfe6d7b02e1488bdfc99f3d16a2dc9375
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463193"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59537713"
 ---
-# <a name="name-attachmenttype"></a>名称（AttachmentType）
+# <a name="name-attachmenttype"></a>Name (AttachmentType)
 
-**Name**元素表示附件的名称。 
+**Name** 元素表示附件的名称。 
   
 ```xml
 <Name/>
@@ -45,12 +45,12 @@ ms.locfileid: "44463193"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[FileAttachment](fileattachment.md) <br/> |代表附加到 Exchange 存储中的项目的文件。  <br/> |
-|[ItemAttachment](itemattachment.md) <br/> |表示附加到另一个 Exchange 项目的 Exchange 项目。  <br/> |
+|[FileAttachment](fileattachment.md) <br/> |表示附加到项目存储中的Exchange文件。  <br/> |
+|[ItemAttachment](itemattachment.md) <br/> |代表Exchange附加到其他项目的项目Exchange项。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-Text 值是一个 string 值，它代表附件的名称。
+文本值是一个字符串值，表示附件的名称。
   
 ## <a name="remarks"></a>说明
 

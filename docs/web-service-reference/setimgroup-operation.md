@@ -5,45 +5,45 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2d48aa07-8152-4c3d-a519-061253e80174
 description: 查找有关 SetImGroup EWS 操作的信息。
-ms.openlocfilehash: 37b290559fff0b2de57669741547ba4b1b56c28c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 3499647aa9aaa62b56336f5e016344a05cf7578f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44438073"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59534291"
 ---
 # <a name="setimgroup-operation"></a>SetImGroup 操作
 
-查找有关**SetImGroup** EWS 操作的信息。 
+查找有关 **SetImGroup** EWS 操作的信息。 
   
-**SetImGroup**操作更改即时消息（IM）组的显示名称。 
+**SetImGroup** 操作更改即时消息显示名称 IM (组) 设置。 
   
 Exchange Server 2013 中引入了此操作。
   
 ## <a name="using-the-setimgroup-operation"></a>使用 SetImGroup 操作
 
-**SetImGroup**操作仅采用一个显示名称参数。 
+**SetImGroup** 操作仅采用单个 显示名称 参数。 
   
 ### <a name="setimgroup-operation-soap-headers"></a>SetImGroup 操作 SOAP 标头
 
-**SetImGroup**操作可以使用下表中列出的 SOAP 标头。 
+**SetImGroup** 操作可以使用下表中列出的 SOAP 标头。 
   
 |**标头名称**|**元素**|**说明**|
 |:-----|:-----|:-----|
-|**模拟** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |标识客户端应用程序模拟的用户。 此标头适用于请求。  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |确定用于访问邮箱的区域性（如 RFC 3066 中定义的用于标识语言的标记）。 此标头适用于请求。  <br/> |
+|**模拟** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |标识客户端应用程序正在模拟的用户。 此标头适用于请求。  <br/> |
+|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |标识用于访问邮箱的区域性，如 RFC 3066"语言标识标记"中的定义。 此标头适用于请求。  <br/> |
 |**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。 此标头适用于请求。  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器版本。 此标头适用于响应。  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器的版本。 此标头适用于响应。  <br/> |
    
 ## <a name="setimgroup-operation-request-example"></a>SetImGroup 操作请求示例
 
-以下示例的**SetImGroup**操作请求显示如何将 IM 组显示名称更改为 "MyNewGroupName"。 
+**SetImGroup** 操作请求的以下示例演示如何将 IM 组显示名称"MyNewGroupName"。 
   
 > [!NOTE]
-> 已缩短 Exchange 存储标识符以保持可读性。 
+> 已Exchange存储标识符，以保持可读性。 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -74,7 +74,7 @@ Exchange Server 2013 中引入了此操作。
     
 ## <a name="successful-setimgroup-operation-response"></a>成功的 SetImGroup 操作响应
 
-下面的示例演示对**SetImGroup**操作请求的成功响应。 
+以下示例显示对 **SetImGroup** 操作请求的成功响应。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -108,7 +108,7 @@ Exchange Server 2013 中引入了此操作。
     
 ## <a name="setimgroup-operation-error-response"></a>SetImGroup 操作错误响应
 
-下面的示例演示对**SetImGroup**操作请求的错误响应。 当尝试将组显示名称更改为现有的组显示名称时，将发生以下错误响应。 
+以下示例显示对 **SetImGroup** 操作请求的错误响应。 当尝试将组更改为现有组时，显示名称错误响应显示名称。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -146,7 +146,7 @@ Exchange Server 2013 中引入了此操作。
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-有关对 EWS 通用的其他错误代码以及特定于此操作的错误代码，请参阅[ResponseCode](responsecode.md)。
+有关 EWS 通用且特定于此操作的其他错误代码，请参阅 [ResponseCode](responsecode.md)。
   
 ## <a name="see-also"></a>另请参阅
 

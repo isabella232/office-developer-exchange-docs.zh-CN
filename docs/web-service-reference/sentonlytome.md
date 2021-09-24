@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SentOnlyToMe
 api_type:
 - schema
 ms.assetid: b6d4dea5-812d-4b29-917d-071ebd7ddd92
-description: SentOnlyToMe 元素指示在传入邮件的 ToRecipients 属性中，邮箱的所有者是否必须是唯一的，以便条件或例外情况适用。
-ms.openlocfilehash: 3127550b09d6f5ccf5ba87ad34557afd047f8be0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SentOnlyToMe 元素指示邮箱所有者是否必须成为传入邮件的 ToRecipients 属性中的唯一所有者，以便条件或例外情况适用。
+ms.openlocfilehash: c82989cbfc3725b1c8a4fea560d9f8ce30956ea5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458647"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59534302"
 ---
 # <a name="sentonlytome"></a>SentOnlyToMe
 
-**SentOnlyToMe**元素指示在传入邮件的**ToRecipients**属性中，邮箱的所有者是否必须是唯一的，以便条件或例外情况适用。 
+**SentOnlyToMe** 元素指示邮箱所有者是否必须成为传入邮件 **的 ToRecipients** 属性中的唯一所有者，以便条件或例外情况适用。 
   
 ```XML
 <SentOnlyToMe/>true | false</SentOnlyToMe>
@@ -45,11 +45,11 @@ ms.locfileid: "44458647"
 |**元素**|**说明**|
 |:-----|:-----|
 |[条件](conditions.md) <br/> |表示履行时将触发规则的规则操作的条件。  <br/> |
-|[异常](exceptions.md) <br/> |代表收件箱规则的所有可用的规则例外条件。  <br/> |
+|[异常](exceptions.md) <br/> |代表收件箱规则的所有可用规则例外条件。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-如果文本值为**true** ，则表示在传入邮件的**ToRecipients**属性中，邮箱的所有者必须是唯一的，以便条件或例外情况适用。 **False**值表示在传入邮件的**ToRecipients**属性中不能只有邮箱的所有者，以便条件或例外情况适用。 
+如果文本值为 **true，** 则表明邮箱所有者必须是传入邮件 **的 ToRecipients** 属性中的唯一所有者，以便条件或例外情况适用。 false **值指示** 邮箱所有者不能是传入邮件的 **ToRecipients** 属性中的唯一所有者，以便条件或例外情况适用。 
   
 ## <a name="remarks"></a>说明
 

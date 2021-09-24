@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UniqueBody
 api_type:
 - schema
 ms.assetid: 06bc95d7-121c-433b-bd27-c2b0eb8c011f
-description: UniqueBody 元素表示一个 HTML 片段或纯文本，表示此对话的唯一正文。
-ms.openlocfilehash: 0a8d52c7d4eb8bda9fd41c4c25e448523185df93
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: UniqueBody 元素表示 HTML 片段或纯文本，表示此对话的唯一正文。
+ms.openlocfilehash: 419247aaa952f1d15633fe431912f87ad4d6db85
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461917"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538671"
 ---
 # <a name="uniquebody"></a>UniqueBody
 
-**UniqueBody**元素表示一个 HTML 片段或纯文本，表示此对话的唯一正文。 
+**UniqueBody** 元素表示 HTML 片段或纯文本，表示此对话的唯一正文。 
   
 ```XML
 <UniqueBody BodyType=""/>
@@ -36,13 +36,13 @@ ms.locfileid: "44461917"
 
 |**属性**|**说明**|
 |:-----|:-----|
-|**BodyType** <br/> |介绍项正文在项中的存储方式。  <br/> |
+|**BodyType** <br/> |介绍如何在项中存储项目正文。  <br/> |
    
-#### <a name="bodytype-attribute"></a>Office.mailboxenums.bodytype 属性
+#### <a name="bodytype-attribute"></a>BodyType 属性
 
 |**值**|**说明**|
 |:-----|:-----|
-|**HTML** <br/> |将所有正文转换为 HTML。  <br/> |
+|**HTML** <br/> |将所有主体转换为 HTML。  <br/> |
 |**Text** <br/> |将所有正文转换为纯文本。  <br/> |
    
 ### <a name="child-elements"></a>子元素
@@ -51,7 +51,7 @@ ms.locfileid: "44461917"
   
 ### <a name="parent-elements"></a>父元素
 
-|**元素**|**描述**|
+|**元素**|**说明**|
 |:-----|:-----|
 |[CalendarItem](calendaritem.md) <br/> |表示 Exchange 日历项。  <br/> |
 |[Contact](contact.md) <br/> |表示 Exchange 联系人项目。  <br/> |
@@ -62,7 +62,7 @@ ms.locfileid: "44461917"
 |[MeetingRequest](meetingrequest.md) <br/> |表示 Exchange 存储中的会议请求。  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |表示 Exchange 存储中的会议响应。  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |表示 Exchange 电子邮件。  <br/> |
-|[PostItem](postitem.md) <br/> |表示 Exchange 存储中的公告项。  <br/> |
+|[PostItem](postitem.md) <br/> |代表应用商店中的Exchange项。  <br/> |
 |[RemoveItem](removeitem.md) <br/> |从 Exchange 存储中删除一个项目。  <br/> |
 |[任务](task.md) <br/> |表示 Exchange 存储中的任务。  <br/> |
    
@@ -70,7 +70,7 @@ ms.locfileid: "44461917"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d6b8a258-50a9-4105-9ede-241a5d0c31f6
-description: PhoneNumber 元素指定关联角色的默认电话号码。
-ms.openlocfilehash: 432aacbada4df82fe5b96cb67ca774a49b557e56
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: PhoneNumber 元素指定关联人员的默认电话号码。
+ms.openlocfilehash: 1a089eaee6b443f6b9229f4e87167c9778777d89
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457765"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512644"
 ---
 # <a name="phonenumber"></a>PhoneNumber
 
-**PhoneNumber**元素指定关联角色的默认电话号码。 
+**PhoneNumber** 元素指定关联人员的默认电话号码。 
   
 ```XML
 <PhoneNumber>
@@ -37,13 +37,13 @@ ms.locfileid: "44457765"
   
 ### <a name="child-elements"></a>子元素
 
-[号码](number.md)  | [类型（字符串）](type-string.md)
+[Number](number.md)  | [键入 (字符串) ](type-string.md)
   
 ### <a name="parent-elements"></a>父元素
 
 [角色](persona.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

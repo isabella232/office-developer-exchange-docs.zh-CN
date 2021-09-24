@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - TimeZoneDefinitions
 api_type:
 - schema
 ms.assetid: 9ca1584e-65b8-49ba-a408-e3e8597e6607
 description: TimeZoneDefinitions 元素表示时区定义的数组。
-ms.openlocfilehash: 16a25eb4fdcad2554ebd19626d0a0bc7f6391ac5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: d7f4f660cfa1ba87795c3e7486577d3c1cbf420f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468759"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538798"
 ---
 # <a name="timezonedefinitions"></a>TimeZoneDefinitions
 
-**TimeZoneDefinitions**元素表示时区定义的数组。 
+**TimeZoneDefinitions** 元素表示时区定义的数组。 
   
 ```XML
 <TimeZoneDefinitions>
@@ -42,13 +42,13 @@ ms.locfileid: "44468759"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[TimeZoneDefinition](timezonedefinition.md) <br/> |指定用于定义时区的周期和转换。  <br/> |
+|[TimeZoneDefinition](timezonedefinition.md) <br/> |指定用于定义时区的时间段和转换。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GetServerTimeZonesResponseMessage](getservertimezonesresponsemessage.md) <br/> |包含[GetServerTimeZones 操作](getservertimezones-operation.md)请求的状态和结果。  <br/> |
+|[GetServerTimeZonesResponseMessage](getservertimezonesresponsemessage.md) <br/> |包含 [GetServerTimeZones](getservertimezones-operation.md) 操作请求的状态和结果。  <br/> |
    
 ## <a name="remarks"></a>说明
 

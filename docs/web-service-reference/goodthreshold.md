@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GoodThreshold
 api_type:
 - schema
 ms.assetid: 68f607f5-7271-46a6-8ffc-91878185a683
-description: GoodThreshold 元素指定必须处于打开状态的与会者的百分比，以使时间段的时间段处于限定状态以作为一个合理的建议会议时间。
-ms.openlocfilehash: 34ea433ad7315d61df8cf8e22bae1166d3210af3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GoodThreshold 元素指定必须打开时间段的与会者百分比，以便时间段限定为良好的建议会议时间。
+ms.openlocfilehash: bec5159b46a350cb01f8d573c68e1925aeb40ac9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457310"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533218"
 ---
 # <a name="goodthreshold"></a>GoodThreshold
 
-**GoodThreshold**元素指定必须处于打开状态的与会者的百分比，以使时间段的时间段处于限定状态以作为一个合理的建议会议时间。 
+**GoodThreshold** 元素指定必须打开时间段的与会者百分比，以便时间段限定为良好的建议会议时间。 
   
 [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
@@ -50,15 +50,15 @@ ms.locfileid: "44457310"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |包含用于获取会议建议信息的选项。  <br/> 以下是此元素的 XPath：  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
+|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |包含用于获取会议建议信息的选项。  <br/> 下面是此元素的 XPath：  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
    
 ## <a name="text-value"></a>文本值
 
-文本值是必需的。 预期的整数值介于0到50之间。
+文本值是必需的。 预期的整数值介于 0 到 50 之间。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-如果使用[SuggestionsViewOptions](suggestionsviewoptions.md)元素，则此元素是必需的。 **GoodThreshold**元素还确定哪些会议被视为公平。 其冲突的与会者所占的百分比小于 "好" 阈值和高于50%，建议会议时间为 "公平"。 正常阈值加上50等于定义正常/公平阈值的百分比。 
+如果使用 [SuggestionsViewOptions](suggestionsviewoptions.md) 元素，则此元素是必需的。 **GoodThreshold** 元素还确定哪些会议被视为公平。 冲突与会者的百分比小于"良好阈值"且高于 50%，建议的会议时间限定为"公平"。 "良好阈值"加 50 等于定义"良好/公平"阈值的百分比。 
   
 > [!NOTE]
 > 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。 

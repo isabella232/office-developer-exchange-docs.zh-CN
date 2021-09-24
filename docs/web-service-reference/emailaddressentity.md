@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 20049467-c01a-4c7d-8ada-ca1801cc95ed
 description: EmailAddressEntity 元素指定单个电子邮件地址实体。
-ms.openlocfilehash: b76b08f93e60c8492906f3cc94e60f5725c8a9dc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: ecdf97d64e5c743cab3002091196deeba509c5eb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526219"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513008"
 ---
 # <a name="emailaddressentity"></a>EmailAddressEntity
 
-**EmailAddressEntity**元素指定单个电子邮件地址实体。 
+**EmailAddressEntity** 元素指定单个电子邮件地址实体。 
   
 ```XML
 <EmailAddressEntity>
@@ -38,15 +38,15 @@ ms.locfileid: "44526219"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[EmailAddress （字符串）](emailaddress-string.md) <br/> |指定一个电子邮件地址。  <br/> |
+|[EmailAddress (string)](emailaddress-string.md) <br/> |指定单个电子邮件地址。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[EmailAddresses （ArrayOfEmailAddressEntitiesType）](emailaddresses-arrayofemailaddressentitiestype.md) <br/> |指定电子邮件地址实体的数组。  <br/> |
+|[EmailAddresses (ArrayOfEmailAddressEntitiesType)](emailaddresses-arrayofemailaddressentitiestype.md) <br/> |指定电子邮件地址实体的数组。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -58,7 +58,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

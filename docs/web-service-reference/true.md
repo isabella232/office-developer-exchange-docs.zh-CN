@@ -5,21 +5,21 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 96b4c288-c4d5-4378-8fc1-1a3ae98eedc9
 description: True 元素指定始终匹配的条件。
-ms.openlocfilehash: 6ac0bc407c9c4cab23805d042e67d99359900137
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 8dca53009dd6dd22db32a294324c5b9745de894a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467401"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520302"
 ---
 # <a name="true"></a>True
 
-**True**元素指定始终匹配的条件。 
+**True** 元素指定始终匹配的条件。 
   
 ```xml
 <True/>

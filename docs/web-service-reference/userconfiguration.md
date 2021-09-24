@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UserConfiguration
 api_type:
 - schema
 ms.assetid: 1811df99-ca5b-48a3-b160-b3fd70320c34
 description: UserConfiguration 元素定义单个用户配置对象。
-ms.openlocfilehash: 1217f5d591570c2d8df49a116b6bf35c243d1e0e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 3821cabf777143de4a68d20a90cb78acedcff552
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468906"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538553"
 ---
 # <a name="userconfiguration"></a>UserConfiguration
 
-**UserConfiguration**元素定义单个用户配置对象。 
+**UserConfiguration** 元素定义单个用户配置对象。 
   
 ```XML
 <UserConfiguration>
@@ -47,8 +47,8 @@ ms.locfileid: "44468906"
 |**元素**|**说明**|
 |:-----|:-----|
 |[UserConfigurationName](userconfigurationname.md) <br/> |表示用户配置对象的名称。 创建用户配置对象时，必须使用此元素。  <br/> |
-|[ItemId](itemid.md) <br/> |定义 "用户配置对象" 项标识符。  <br/> |
-|"词典" <br/> |为用户配置对象定义一组字典属性项。  <br/> |
+|[ItemId](itemid.md) <br/> |定义用户配置对象项标识符。  <br/> |
+|"词典" <br/> |定义用户配置对象的一组字典属性条目。  <br/> |
 |[XmlData](xmldata.md) <br/> |包含用户配置对象的 XML 数据属性内容。  <br/> |
 |[BinaryData](binarydata.md) <br/> |包含用户配置对象的二进制数据属性内容。  <br/> |
    
@@ -58,7 +58,7 @@ ms.locfileid: "44468906"
 |:-----|:-----|
 |[CreateUserConfiguration](createuserconfiguration.md) <br/> |表示创建用户配置对象的请求。  <br/> |
 |[GetUserConfigurationResponseMessage](getuserconfigurationresponsemessage.md) <br/> |表示返回用户配置对象的响应。  <br/> |
-|[UpdateUserConfiguration](updateuserconfiguration.md) <br/> |表示一个更新用户配置对象的请求。  <br/> |
+|[UpdateUserConfiguration](updateuserconfiguration.md) <br/> |表示更新用户配置对象的请求。  <br/> |
    
 ## <a name="remarks"></a>说明
 

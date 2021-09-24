@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsCancelled
 api_type:
 - schema
 ms.assetid: 50c1e97f-2913-47a1-8457-60428a3c5b92
-description: IsCancelled 元素指示约会或会议是否已被取消。
-ms.openlocfilehash: 946c9d956da9cf31e9fa08d4ab6f4950b11214b9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: IsCancelled 元素指示约会或会议是否已取消。
+ms.openlocfilehash: 2fa7033025d6fe86c8ad98cd1eea5c19aa85999d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455567"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512924"
 ---
 # <a name="iscancelled"></a>IsCancelled
 
-**IsCancelled**元素指示约会或会议是否已被取消。 
+**IsCancelled** 元素指示约会或会议是否已取消。 
   
 ```xml
 <IsCancelled/>
@@ -49,7 +49,7 @@ ms.locfileid: "44455567"
    
 ## <a name="text-value"></a>文本值
 
-如果包含此元素，则需要一个表示布尔值的文本值。 **如果值为 true** ，则表示已取消日历项目。 **如果值为 false** ，则表示日历项目尚未取消。 
+如果包含此元素，则代表布尔值的文本值是必需的。 值为 **true** 表示日历项目已取消。 false **值表示** 尚未取消日历项目。 
   
 ## <a name="remarks"></a>说明
 

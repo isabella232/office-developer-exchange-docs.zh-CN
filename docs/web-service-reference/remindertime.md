@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6081777a-ae91-43d2-bf83-f3742030aa70
-description: ReminderTime 元素指定提醒的发生时间。
-ms.openlocfilehash: e5a1194af43e038a608bf928313909519e7d44e7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ReminderTime 元素指定提醒发生的时间。
+ms.openlocfilehash: 5fe4167d901f84c21273071ec14fbc48a7bee2ac
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460027"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513400"
 ---
 # <a name="remindertime"></a>ReminderTime
 
-**ReminderTime**元素指定提醒的发生时间。 
+**ReminderTime** 元素指定提醒发生的时间。 
   
 ```XML
 <ReminderTime/>
@@ -42,9 +42,9 @@ ms.locfileid: "44460027"
   
 ## <a name="text-value"></a>文本值
 
-**ReminderTime**元素的文本值是提醒发生的时间。 
+**ReminderTime** 元素的文本值是提醒发生的时间。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

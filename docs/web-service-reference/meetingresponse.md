@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MeetingResponse
 api_type:
 - schema
 ms.assetid: 9f798e79-dafd-4d4d-9967-95fd8e5c0502
 description: MeetingResponse 元素表示会议存储区中的Exchange响应。
-ms.openlocfilehash: 5f1e8b4c220f2b93d339d50541c266a11cb5262b
-ms.sourcegitcommit: 357b882a02e37b380a23b8a45b15f9c006a40b02
+ms.openlocfilehash: 7fa4c8d618291e69a668fcc2f9ddcd72e9ca28bc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "58764621"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532613"
 ---
 # <a name="meetingresponse"></a>MeetingResponse
 
@@ -101,10 +101,10 @@ ms.locfileid: "58764621"
 |[ItemClass](itemclass.md) <br/> |表示项目的邮件类。  <br/> |
 |[主题](subject.md) <br/> |表示用于存储Exchange响应对象的主题。 主题限制为 255 个字符。  <br/> |
 |[Sensitivity](sensitivity.md) <br/> |指示项目的敏感度级别。  <br/> |
-|[Body](body.md) <br/> |表示邮件的实际正文内容。  <br/> |
+|[正文](body.md) <br/> |表示邮件的实际正文内容。  <br/> |
 |[附件](attachments-ex15websvcsotherref.md) <br/> |包含附加到项目存储中的项目或Exchange文件。  <br/> |
 |[DateTimeReceived](datetimereceived.md) <br/> |表示邮箱中项目的接收数据和时间。  <br/> |
-|[Size](size.md) <br/> |表示项目的大小（以字节为单位）。 此属性是只读的。  <br/> |
+|[尺寸](size.md) <br/> |表示项目的大小（以字节为单位）。 此属性是只读的。  <br/> |
 |[Categories](categories-ex15websvcsotherref.md) <br/> |表示标识邮箱中项目属于哪些类别的字符串集合。  <br/> |
 |[Importance](importance.md) <br/> |描述项目的重要性。  <br/> |
 |[InReplyTo](inreplyto.md) <br/> |表示此项是答复项的标识符。  <br/> |
@@ -137,7 +137,7 @@ ms.locfileid: "58764621"
 |[InternetMessageId](internetmessageid.md) <br/> |表示项目的 Internet 邮件标识符。  <br/> |
 |[IsRead](isread.md) <br/> |指示是否已阅读邮件。  <br/> |
 |[IsResponseRequested](isresponserequested.md) <br/> |指示是否请求对电子邮件的响应。  <br/> |
-|[参考](references.md) <br/> |代表用于将答复与其原始邮件关联的 Usenet 头。  <br/> |
+|[References](references.md) <br/> |代表用于将答复与其原始邮件关联的 Usenet 头。  <br/> |
 |[ReplyTo](replyto.md) <br/> |标识答复应发送到的一组地址。  <br/> |
 |[AssociatedCalendarItemId](associatedcalendaritemid.md) <br/> |表示与 [MeetingMessage 关联的日历项目](meetingmessage.md)。  <br/> |
 |[IsDelegated](isdelegated.md) <br/> |指示会议是否由具有委派访问权限的帐户处理。  <br/> |
@@ -163,7 +163,7 @@ ms.locfileid: "58764621"
 |[Create (ItemSync)](create-itemsync.md) <br/> |标识要在本地客户端存储中创建的单个项目。  <br/> |
 |[Items](items.md) <br/> |包含项目数组。  <br/> |
 |[Items (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md) <br/> |包含要创建的项数组。  <br/> |
-|[ItemAttachment](itemattachment.md) <br/> |表示附加到Exchange项目的项目Exchange项。  <br/> |
+|[ItemAttachment](itemattachment.md) <br/> |代表Exchange项目附加的Exchange项。  <br/> |
 |[SetItemField](setitemfield.md) <br/> |表示对 [UpdateItem](updateitem-operation.md)操作中某个项目的单个属性的更新。  <br/> |
 |[Update (ItemSync)](update-itemsync.md) <br/> |标识要在本地客户端存储中更新的单个项目。  <br/> |
    

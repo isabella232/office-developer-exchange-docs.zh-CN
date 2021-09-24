@@ -1,27 +1,27 @@
 ---
-title: 收件人（ArrayOfSmtpAddressType）
+title: Recipients (ArrayOfSmtpAddressType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Recipients
 api_type:
 - schema
 ms.assetid: cf68417d-85cf-49e0-857a-f987d3675344
-description: 收件人元素指定邮件的收件人数组。
-ms.openlocfilehash: 4c2478a81836c2e52baad9c928d112108679b837
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Recipients 元素指定邮件的收件人数组。
+ms.openlocfilehash: 20083c001df5097ded2033bed881ec3a39f98789
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465504"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59534492"
 ---
-# <a name="recipients-arrayofsmtpaddresstype"></a>收件人（ArrayOfSmtpAddressType）
+# <a name="recipients-arrayofsmtpaddresstype"></a>Recipients (ArrayOfSmtpAddressType)
 
-**收件人**元素指定邮件的收件人数组。 
+**Recipients** 元素指定邮件的收件人数组。 
   
 ```xml
 <Recipients>   <SmtpAddress/></Recipients>
@@ -40,13 +40,13 @@ ms.locfileid: "44465504"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[SmtpAddress](smtpaddress.md) <br/> |表示日历或联系人共享请求的简单邮件传输协议（SMTP）收件人地址。  <br/> |
+|[SmtpAddress](smtpaddress.md) <br/> |代表日历或联系人 (SMTP) 地址的简单邮件传输协议。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GetSharingMetadata](getsharingmetadata.md) <br/> |定义一个请求，以获取标识共享邀请的不透明身份验证令牌。  <br/> |
+|[GetSharingMetadata](getsharingmetadata.md) <br/> |定义获取标识共享邀请的不透明身份验证令牌的请求。  <br/> |
    
 ## <a name="remarks"></a>说明
 

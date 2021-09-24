@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0480b7f5-9312-4efe-bb37-9fffcd7e7a9d
-description: LocationUri 元素包含一个字符串，该字符串指定关联的通信地址的统一资源标识符（URI）。
-ms.openlocfilehash: 1cf857e29b67fdacdb73fc5bd921973d7dbd481e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: LocationUri 元素包含一个字符串，该字符串指定关联的 (URI) 统一资源标识符。
+ms.openlocfilehash: 443df5d79fb958ebb9576f7fe169602a3be39f0e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467093"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513547"
 ---
 # <a name="locationuri"></a>LocationUri
 
-**LocationUri**元素包含一个字符串，该字符串指定关联的通信地址的统一资源标识符（URI）。 
+**LocationUri** 元素包含一个字符串，该字符串指定关联的 (URI) 统一资源标识符。 
   
 ```XML
 <LocationUri></LocationUri>
@@ -38,13 +38,13 @@ ms.locfileid: "44467093"
   
 ### <a name="parent-elements"></a>父元素
 
-[Value （PersonaPostalAddressType）](value-personapostaladdresstype.md)  | [省略（PersonaPostalAddressType）](postaladdress-personapostaladdresstype.md)
+[Value (PersonaPostalAddressType) ](value-personapostaladdresstype.md)  | [PostalAddress (PersonaPostalAddressType) ](postaladdress-personapostaladdresstype.md)
   
 ## <a name="text-value"></a>文本值
 
-**LocationUri**元素的文本值是一个字符串，它指定有关邮政地址的信息的 URI。 
+**LocationUri** 元素的文本值是一个字符串，用于指定有关邮政地址信息的 URI。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

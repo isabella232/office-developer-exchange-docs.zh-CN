@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - EmailAddresses
 api_type:
 - schema
 ms.assetid: fd4d773c-f7dc-4a04-9025-e772d7a45fdf
 description: EmailAddresses 元素表示联系人的电子邮件地址的集合。
-ms.openlocfilehash: 9d247f6159d621124ecdd9968ee468ed2b4fe84b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: c35788a6a2154d3a2768097398be68b787764433
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456176"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519728"
 ---
 # <a name="emailaddresses"></a>EmailAddresses
 
-**EmailAddresses**元素表示联系人的电子邮件地址的集合。 
+**EmailAddresses** 元素表示联系人的电子邮件地址的集合。 
   
 ```xml
 <EmailAddresses>
@@ -42,7 +42,7 @@ ms.locfileid: "44456176"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[条目（EmailAddress）](entry-emailaddress.md) <br/> |表示联系人的单个电子邮件地址。  <br/> |
+|[Entry (EmailAddress)](entry-emailaddress.md) <br/> |代表联系人的单个电子邮件地址。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 

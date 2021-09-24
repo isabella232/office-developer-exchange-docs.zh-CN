@@ -1,23 +1,23 @@
 ---
-title: 操作（RuleActionsType）
+title: Actions (RuleActionsType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2afba70c-65f7-458c-a4e6-a2cd9bccc0f9
-description: Actions 元素包含与收件箱规则关联的操作的列表。
-ms.openlocfilehash: fbef3b69b1688d7c612af018d6a19f9ec1728066
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Actions 元素包含与收件箱规则关联的操作列表。
+ms.openlocfilehash: d91a76889778b363ea931afb98ae9817e3b7c3c1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529677"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520176"
 ---
-# <a name="actions-ruleactionstype"></a>操作（RuleActionsType）
+# <a name="actions-ruleactionstype"></a>Actions (RuleActionsType)
 
-**Actions**元素包含与收件箱规则关联的操作的列表。 
+Actions 元素包含与收件箱规则关联的操作列表。 
   
 ```XML
 <Actions>
@@ -54,7 +54,7 @@ ms.locfileid: "44529677"
 
 [规则 (RuleType)](rule-ruletype.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

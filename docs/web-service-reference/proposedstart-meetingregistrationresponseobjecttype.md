@@ -1,23 +1,23 @@
 ---
-title: ProposedStart （MeetingRegistrationResponseObjectType）
+title: ProposedStart (MeetingRegistrationResponseObjectType)
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8c58cef7-bc43-493a-a323-ba4dc6a33704
-description: ProposedStart （MeetingRegistrationResponseObjectType）元素指定与会者为会议建议的新开始时间。
-ms.openlocfilehash: 6f105556c39fa6549b3bec2f7a6fee50d4049358
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ProposedStart (MeetingRegistrationResponseObjectType) 元素指定与会者建议的新会议开始时间。
+ms.openlocfilehash: 98866001465083c924dc990c5a0199e4dbcc5d1f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465588"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532354"
 ---
-# <a name="proposedstart-meetingregistrationresponseobjecttype"></a>ProposedStart （MeetingRegistrationResponseObjectType）
+# <a name="proposedstart-meetingregistrationresponseobjecttype"></a>ProposedStart (MeetingRegistrationResponseObjectType)
 
-**ProposedStart （MeetingRegistrationResponseObjectType）** 元素指定与会者为会议建议的新开始时间。 
+**ProposedStart (MeetingRegistrationResponseObjectType)** 元素指定与会者建议的新会议开始时间。 
   
 ```XML
 <ProposedStart />
@@ -42,7 +42,7 @@ ms.locfileid: "44465588"
   
 ## <a name="text-value"></a>文本值
 
-**ProposedStart （MeetingRegistrationResponseObjectType）** 元素的文本值是会议的建议开始日期和时间。 
+**MeetingRegistrationResponseObjectType)  (元素的 ProposedStart** 元素的文本值是建议的会议开始日期和时间。 
   
 ## <a name="remarks"></a>说明
 

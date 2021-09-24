@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ApplyConversationAction
 api_type:
 - schema
 ms.assetid: e0ee8f30-529b-4d87-8bc0-b6616e75fb6b
-description: ApplyConversationAction 元素定义一个请求，以将操作应用于会话中的项目。
-ms.openlocfilehash: 659b3392778bb1a318c3942a0c8e314f12110c12
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ApplyConversationAction 元素定义对对话中的项目应用操作的请求。
+ms.openlocfilehash: 5d63f573d84c4a9ca3fc16983c4ef508214e0780
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461686"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520092"
 ---
 # <a name="applyconversationaction"></a>ApplyConversationAction
 
-**ApplyConversationAction**元素定义一个请求，以将操作应用于会话中的项目。 
+**ApplyConversationAction** 元素定义对对话中的项目应用操作的请求。 
   
 [ApplyConversationAction](applyconversationaction.md)
   
@@ -44,7 +44,7 @@ ms.locfileid: "44461686"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ConversationActions](conversationactions.md) <br/> |包含对话的集合以及要应用于它们的操作。  <br/> |
+|[ConversationActions](conversationactions.md) <br/> |包含对话集合以及要应用于对话的操作。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -54,7 +54,7 @@ ms.locfileid: "44461686"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   

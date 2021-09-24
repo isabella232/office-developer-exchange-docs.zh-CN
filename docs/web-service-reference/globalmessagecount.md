@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GlobalMessageCount
 api_type:
 - schema
 ms.assetid: e2ac4677-9645-4a1e-911c-17a5a08e2b21
-description: GlobalMessageCount 元素包含邮箱中的对话项目总数。
-ms.openlocfilehash: fd828970bddb2dcc4dedf429ac5eb6cf31f9fb57
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GlobalMessageCount 元素包含邮箱中的会话项目总数。
+ms.openlocfilehash: 2730d4cb56ed63c64f298ba1b0b59e7ad3aed908
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459403"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519623"
 ---
 # <a name="globalmessagecount"></a>GlobalMessageCount
 
-**GlobalMessageCount**元素包含邮箱中的对话项目总数。 
+**GlobalMessageCount** 元素包含邮箱中的会话项目总数。 
   
 [FindConversationResponse](findconversationresponse.md)
   
@@ -35,7 +35,7 @@ ms.locfileid: "44459403"
 <GlobalMessageCount/>
 ```
 
- **xs： int**
+ **xs：int**
 ## <a name="attributes-and-elements"></a>属性和元素
 
 下面各部分介绍了属性、子元素和父元素。
@@ -56,9 +56,9 @@ ms.locfileid: "44459403"
    
 ## <a name="text-value"></a>文本值
 
-**GlobalMessageCount**元素的文本值是邮箱中的会话项目总数。 
+**GlobalMessageCount** 元素的文本值是邮箱中的会话项目总数。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   

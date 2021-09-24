@@ -1,33 +1,33 @@
 ---
-title: Delete （ItemSync）
+title: Delete (ItemSync)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Delete
 api_type:
 - schema
 ms.assetid: 4f372d57-2e39-46af-9d83-6c8c55108587
-description: Delete 元素标识要在本地客户端存储中删除的单个项。
-ms.openlocfilehash: 6e30ddc7f7248fe7ff7136e19ba58c7d5d8a800f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Delete 元素标识要在本地客户端存储中删除的单个项目。
+ms.openlocfilehash: ae8a34506791a2b0e09aea4c7af40ffbba34d523
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44454678"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519861"
 ---
-# <a name="delete-itemsync"></a>Delete （ItemSync）
+# <a name="delete-itemsync"></a>Delete (ItemSync)
 
-**Delete**元素标识要在本地客户端存储中删除的单个项。 
+Delete 元素标识要在本地客户端存储中删除的单个项目。 
   
 - [SyncFolderItemsResponse](syncfolderitemsresponse.md)  
 - [ResponseMessages](responsemessages.md) 
 - [SyncFolderItemsResponseMessage](syncfolderitemsresponsemessage.md)  
-- [更改（项目）](changes-items.md)  
-- [Delete （ItemSync）](delete-itemsync.md)
+- [Changes (Items)](changes-items.md)  
+- [Delete (ItemSync)](delete-itemsync.md)
   
 ```xml
 <Delete>
@@ -49,13 +49,13 @@ ms.locfileid: "44454678"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ItemId](itemid.md) <br/> |包含 Exchange 存储中某项的唯一标识符和更改键。  <br/> |
+|[ItemId](itemid.md) <br/> |包含项目在项目存储中的唯一标识符Exchange项。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[更改（项目）](changes-items.md) <br/> |包含更改类型的序列数组，这些类型表示客户端上的项与 Exchange 服务器上的项之间的差异类型。  <br/> |
+|[Changes (Items)](changes-items.md) <br/> |包含一个变更类型的序列数组，这些更改类型表示客户端上的项目与客户端服务器上项目Exchange的类型。  <br/> |
    
 ## <a name="remarks"></a>说明
 

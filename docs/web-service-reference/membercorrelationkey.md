@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 60cc7094-2e31-49d2-8598-181bcfb5f130
-description: MemberCorrelationKey 元素指定作为即时消息（IM）组一部分的联系人的标识符。
-ms.openlocfilehash: 8aad013e978f9ddb4fcc31f100010c94f49af139
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: MemberCorrelationKey 元素指定作为即时消息传递组一部分的联系人的标识符 (IM) 组。
+ms.openlocfilehash: df8ab00f7ddbf2d558d5511b53ad6346f7d5da63
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530441"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532402"
 ---
 # <a name="membercorrelationkey"></a>MemberCorrelationKey
 
-**MemberCorrelationKey**元素指定作为即时消息（IM）组一部分的联系人的标识符。 
+**MemberCorrelationKey** 元素指定即时消息传递组（IM 消息组） (联系人) 标识符。 
   
 ```XML
 <MemberCorrelationKey>
@@ -43,7 +43,7 @@ ms.locfileid: "44530441"
 
 [ImGroup](imgroup.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

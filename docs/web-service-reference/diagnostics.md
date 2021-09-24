@@ -1,27 +1,27 @@
 ---
-title: 过程
+title: 诊断
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Diagnostics
 api_type:
 - schema
 ms.assetid: fecea440-970a-49da-9796-534ca470cbd6
-description: Diagnostics 元素提供用于在数据中心中进行报告的计时和性能信息。
-ms.openlocfilehash: 9eb46ef7ceb877372aff9b029190af8c8d8115cd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Diagnostics 元素提供用于报告数据中心的时间和性能信息。
+ms.openlocfilehash: 203df6a3856dcf54e17ce403053deb8631fe14db
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467835"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519791"
 ---
-# <a name="diagnostics"></a>过程
+# <a name="diagnostics"></a>诊断
 
-**Diagnostics**元素提供用于在数据中心中进行报告的计时和性能信息。 
+**Diagnostics** 元素提供用于报告数据中心的时间和性能信息。 
   
 ```XML
 <Diagnostics>
@@ -49,14 +49,14 @@ ms.locfileid: "44467835"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) <br/> |包含单个[FindMessageTrackingReport 操作](findmessagetrackingreport-operation.md)请求的状态和结果。  <br/> |
-|[GetMessageTrackingReportResponse](getmessagetrackingreportresponse.md) <br/> |包含[GetMessageTrackingReport 操作](getmessagetrackingreport-operation.md)的响应。  <br/> |
+|[FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) <br/> |包含单个 [FindMessageTrackingReport](findmessagetrackingreport-operation.md) 操作请求的状态和结果。  <br/> |
+|[GetMessageTrackingReportResponse](getmessagetrackingreportresponse.md) <br/> |包含 [GetMessageTrackingReport 操作的响应](getmessagetrackingreport-operation.md)。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

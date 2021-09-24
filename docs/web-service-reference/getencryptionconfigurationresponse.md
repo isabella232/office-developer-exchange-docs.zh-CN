@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6e80af47-6ec4-48f6-9c5d-10bf1324510e
 description: GetEncryptionConfigurationResponse 元素仅供内部使用。
-ms.openlocfilehash: 93a4d3a6b6bba53e508468c2114447384b34f4ef
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 7484ab024f4425c798e86264bf2e995ddf4c4043
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461826"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538122"
 ---
 # <a name="getencryptionconfigurationresponse"></a>GetEncryptionConfigurationResponse
 
-**GetEncryptionConfigurationResponse**元素仅供内部使用。 
+**GetEncryptionConfigurationResponse** 元素仅供内部使用。 
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
@@ -35,7 +35,7 @@ ms.locfileid: "44461826"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   

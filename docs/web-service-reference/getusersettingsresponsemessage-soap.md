@@ -1,24 +1,24 @@
 ---
-title: GetUserSettingsResponseMessage （SOAP）
+title: GetUserSettingsResponseMessage (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: f004e2ef-4a33-49f0-b7b8-c2fd5235bf6a
-description: GetUserSettingsResponseMessage 元素定义对 GetUserSettings 操作（SOAP）请求的响应。
-ms.openlocfilehash: 0defabcd554d9aad77f8ca1e826cf57cb7cb61ae
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetUserSettingsResponseMessage 元素定义对 SOAP (GetUserSettings) 的响应。
+ms.openlocfilehash: c38af901b8a172eda77a1b799b41b629df619bd4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530139"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538029"
 ---
-# <a name="getusersettingsresponsemessage-soap"></a>GetUserSettingsResponseMessage （SOAP）
+# <a name="getusersettingsresponsemessage-soap"></a>GetUserSettingsResponseMessage (SOAP)
 
-**GetUserSettingsResponseMessage**元素定义对[GETUSERSETTINGS 操作（SOAP）](getusersettings-operation-soap.md)请求的响应。 
+**GetUserSettingsResponseMessage 元素** 定义对 SOAP ([GetUserSettings](getusersettings-operation-soap.md)) 的响应。 
   
 ```XML
 <GetUserSettingsResponseMessage>
@@ -38,7 +38,7 @@ ms.locfileid: "44530139"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[响应（SOAP）](response-soap.md) <br/> |包含对[GetUserSettings 操作（SOAP）](getusersettings-operation-soap.md)请求的响应。  <br/> |
+|[Response (SOAP)](response-soap.md) <br/> |包含对 SOAP 请求的[GetUserSettings (的响应) 。](getusersettings-operation-soap.md)  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 

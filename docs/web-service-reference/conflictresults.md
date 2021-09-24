@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ConflictResults
 api_type:
 - schema
 ms.assetid: 08cdd547-4de7-4c7a-b60f-e618dc217d20
 description: ConflictResults 元素包含 UpdateItem 操作响应中的冲突数。
-ms.openlocfilehash: 923c7950e21039adf28e232486f4df5fc04889d1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 44b9c6952905274128c3651999b97cb2ee0c1fe8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460167"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519938"
 ---
 # <a name="conflictresults"></a>ConflictResults
 
-[ConflictResults](conflictresults.md)元素包含[UpdateItem 操作](updateitem-operation.md)响应中的冲突数。 
+[ConflictResults](conflictresults.md)元素包含[UpdateItem](updateitem-operation.md)操作响应中的冲突数。 
   
 [UpdateItemResponse](updateitemresponse.md)
   
@@ -50,17 +50,17 @@ ms.locfileid: "44460167"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Count](count.md) <br/> |包含[UpdateItem 操作](updateitem-operation.md)响应中的冲突数。  <br/> |
+|[Count](count.md) <br/> |包含 [UpdateItem](updateitem-operation.md) 操作响应中的冲突数。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[UpdateItemResponseMessage](updateitemresponsemessage.md) <br/> |包含单个[UpdateItem 操作](updateitem-operation.md)请求的状态和结果。  <br/> |
+|[UpdateItemResponseMessage](updateitemresponsemessage.md) <br/> |包含单个 [UpdateItem](updateitem-operation.md) 操作请求的状态和结果。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-描述此元素的架构位于运行 Exchange Server 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
+描述此元素的架构位于在安装了客户端访问服务器角色Exchange Server运行的计算机的 EWS 虚拟目录中。
   
 ## <a name="element-information"></a>元素信息
 

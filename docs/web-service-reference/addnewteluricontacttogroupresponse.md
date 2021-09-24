@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: abff2306-a3a7-489a-b548-2edbc1eb5cc4
 description: AddNewTelUriContactToGroupResponse 元素指定 AddNewTelUriContactToGroup WSDL 操作的结果数据。
-ms.openlocfilehash: dfbf208cd5fc59902b16661658985442d4fa57e8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 553606fd8d4b944ed755aef374e80709958fab87
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464915"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520946"
 ---
 # <a name="addnewteluricontacttogroupresponse"></a>AddNewTelUriContactToGroupResponse
 
-**AddNewTelUriContactToGroupResponse**元素指定**AddNewTelUriContactToGroup** WSDL 操作的结果数据。 
+**AddNewTelUriContactToGroupResponse** 元素指定 **AddNewTelUriContactToGroup** WSDL 操作的结果数据。 
   
 ```XML
 <AddNewTelUriContactToGroupResponse>
@@ -45,7 +45,7 @@ ms.locfileid: "44464915"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

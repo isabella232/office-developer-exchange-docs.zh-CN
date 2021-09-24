@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DeliverMeetingRequests
 api_type:
 - schema
 ms.assetid: 04b999af-0b27-4e6d-a8b1-400955a1afaa
-description: DeliverMeetingRequests 元素定义如何在代理和主体之间处理会议请求。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
-ms.openlocfilehash: 3998443613437bca2267678f7bc2c5584b779135
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DeliverMeetingRequests 元素定义如何在委派和主体之间处理会议请求。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
+ms.openlocfilehash: 8e61af87337cb1fc8936b4de7753fca2d6c1161e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463676"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519826"
 ---
 # <a name="delivermeetingrequests"></a>DeliverMeetingRequests
 
-**DeliverMeetingRequests**元素定义如何在代理和主体之间处理会议请求。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
+**DeliverMeetingRequests** 元素定义如何在委派和主体之间处理会议请求。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
   
 ```XML
 <DeliverMeetingRequests>DelegatesOnly or DelegatesAndMe or DelegatesAndSendInformationToMe or NoForward</DeliverMeetingRequests>
@@ -42,7 +42,7 @@ ms.locfileid: "44463676"
   
 ### <a name="parent-elements"></a>父元素
 
-|**元素**|**描述**|
+|**元素**|**说明**|
 |:-----|:-----|
 |[AddDelegate](adddelegate.md) <br/> |定义请求以将代理人添加到邮箱。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
 |[UpdateDelegate](updatedelegate.md) <br/> |定义请求以更新邮箱中的代理人。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
@@ -50,20 +50,20 @@ ms.locfileid: "44463676"
    
 ## <a name="text-value"></a>文本值
 
-下表列出了**DeliverMeetingRequests**元素的可能值。 
+下表列出了 **DeliverMeetingRequests** 元素的可能值。 
   
 **DeliverMeetingRequests 元素值**
 
 |**值**|**说明**|
 |:-----|:-----|
-|DelegatesOnly  <br/> |将会议请求转发到代理并移动到主体邮箱中的 "已删除邮件" 文件夹。  <br/> |
-|DelegatesAndMe  <br/> |会议请求将转发给代理，并保留在主体邮箱的 "收件箱" 文件夹中。  <br/> |
-|DelegatesAndSendInformationToMe  <br/> |会议请求将转发给代理，并保留在主体邮箱的 "收件箱" 文件夹中，但 "接受"、"暂定" 和 "拒绝" 按钮不会显示在 Microsoft Office Outlook 阅读窗格中。  <br/> |
-|NoForward  <br/> |不会将会议请求转发给代理。  <br/> |
+|DelegatesOnly  <br/> |会议请求将转发给代理，并移至主体邮箱中的"已删除邮件"文件夹。  <br/> |
+|DelegatesAndMe  <br/> |会议请求将转发给代理，并保留在主体邮箱的"收件箱"文件夹中。  <br/> |
+|DelegatesAndSendInformationToMe  <br/> |会议请求将转发给代理并保留在主体邮箱的"收件箱"文件夹中，但"接受"、暂定和"拒绝"按钮不会显示在Microsoft Office Outlook窗格中。  <br/> |
+|NoForward  <br/> |不会将会议请求转发给代理人。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-**DeliverMeetingRequests**设置影响主体邮箱中的所有委派。 
+**DeliverMeetingRequests** 设置影响主体邮箱中所有代理人。 
   
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -82,5 +82,5 @@ ms.locfileid: "44463676"
 - [UpdateDelegate 操作](updatedelegate-operation.md)  
 - [GetDelegate 操作](getdelegate-operation.md)
 - [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
-- [添加委派](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
+- [添加代理人](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
 

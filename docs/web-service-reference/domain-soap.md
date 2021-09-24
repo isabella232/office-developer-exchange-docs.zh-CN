@@ -1,24 +1,24 @@
 ---
-title: 域（SOAP）
+title: Domain (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 849629a0-0467-422f-88f6-3b8a95c17bba
-description: Domain 元素在 GetFederationInformation 响应中包含一个联合域，或者包含一个域，在 GetDomainSettings 请求中请求的配置设置。
-ms.openlocfilehash: f90c608ee1fc3356a227bca6411eaeff0c1e8b22
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Domain 元素包含 GetFederationInformation 响应中的联合域，或包含 GetDomainSettings 请求中请求其配置设置的域。
+ms.openlocfilehash: a2e69dc845f9841931263fe90e39550bceb81ab8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456981"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520820"
 ---
-# <a name="domain-soap"></a>域（SOAP）
+# <a name="domain-soap"></a>Domain (SOAP)
 
-**Domain**元素在**GetFederationInformation**响应中包含一个联合域，或者包含一个域，在**GetDomainSettings**请求中请求的配置设置。 
+**Domain** 元素包含 **GetFederationInformation** 响应中的联合域，或包含 **GetDomainSettings** 请求中请求其配置设置的域。 
   
 ```XML
 <Domain/> 
@@ -41,11 +41,11 @@ ms.locfileid: "44456981"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[域（SOAP）](domains-soap.md) <br/> |表示在**GetDomainSettings**操作中返回的配置设置或组织在**GetFederationInformation**操作中联合的域的域。  <br/> |
+|[Domains (SOAP)](domains-soap.md) <br/> |表示在 **GetDomainSettings** 操作中返回的配置设置的域或组织在 **GetFederationInformation** 操作中联合的域。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**Domain**元素的文本值表示一个域的名称。 
+**Domain** 元素的文本值表示域名。 
   
 ## <a name="element-information"></a>元素信息
 

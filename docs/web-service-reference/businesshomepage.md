@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - BusinessHomePage
 api_type:
 - schema
 ms.assetid: d7e16e32-c811-42d1-b6e9-cd9b7fbf3e0c
-description: BusinessHomePage 元素表示联系人的主页（Web 地址）。
-ms.openlocfilehash: 55d96adc4703646b9abf07272c03125cb02b854b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: BusinessHomePage 元素表示联系人 (主页) Web 地址。
+ms.openlocfilehash: fdbbc7c0b5f229086cf48f5f514e10462379d002
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465917"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519973"
 ---
 # <a name="businesshomepage"></a>BusinessHomePage
 
-**BusinessHomePage**元素表示联系人的主页（Web 地址）。 
+**BusinessHomePage** 元素表示联系人 (主页) Web 地址。 
   
 ```xml
 <BusinessHomePage/>
@@ -48,7 +48,7 @@ ms.locfileid: "44465917"
    
 ## <a name="text-value"></a>文本值
 
-该文本值表示主页的统一资源标识符（URI）。
+文本值表示主页的 URI (统) 标识符。
   
 ## <a name="remarks"></a>说明
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Timeout
 api_type:
 - schema
 ms.assetid: c2e1ca5a-6667-4f6f-aac4-89de33bddc54
-description: Timeout 元素表示订阅可以保持空闲状态的持续时间（以分钟为单位），而无需客户端的 GetEvents 请求。
-ms.openlocfilehash: 6f3228cd480bf0eaf259c4f321bc74d0845b9bba
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Timeout 元素表示订阅在没有来自客户端的 GetEvents 请求的情况下可以保持空闲的持续时间（分钟）。
+ms.openlocfilehash: d0b5945f5d116e0ebb7a24a23970e785761fb0c9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459894"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59534165"
 ---
 # <a name="timeout"></a>Timeout
 
-**Timeout**元素表示订阅可以保持空闲状态的持续时间（以分钟为单位），而无需客户端的 GetEvents 请求。 
+**Timeout** 元素表示订阅在没有来自客户端的 GetEvents 请求的情况下可以保持空闲的持续时间（分钟）。 
   
 ```xml
 <Timeout/>
@@ -44,13 +44,13 @@ ms.locfileid: "44459894"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[PullSubscriptionRequest](pullsubscriptionrequest.md) <br/> |表示对基于请求的事件通知订阅的订阅。  <br/> |
+|[PullSubscriptionRequest](pullsubscriptionrequest.md) <br/> |表示对基于拉取的事件通知订阅的订阅。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-如果使用此元素，则需要一个表示整数的文本值。 此元素的可能值为1到1440（包含这两个值）。 此元素是必需的。
+如果使用此元素，则代表整数的文本值是必需的。 此元素的可能值为 1 到 1440（包括 1 和 1440）。 此元素是必需的。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 订阅的超时计时器由成功的 GetEvents 请求重置。
   
@@ -73,5 +73,5 @@ ms.locfileid: "44459894"
   
 [GetEvents 操作](getevents-operation.md)
   
-[取消订阅操作](unsubscribe-operation.md)
+[Unsubscribe 操作](unsubscribe-operation.md)
 

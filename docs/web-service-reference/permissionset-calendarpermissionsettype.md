@@ -1,27 +1,27 @@
 ---
-title: PermissionSet （CalendarPermissionSetType）
+title: PermissionSet (CalendarPermissionSetType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PermissionSet
 api_type:
 - schema
 ms.assetid: 75f20033-85eb-4627-b4f8-be85e4889e96
-description: PermissionSet 元素包含为 "日历" 文件夹配置的所有权限。
-ms.openlocfilehash: 9564608397ac8a5ab0ddd4508eacd8cad665d76e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: PermissionSet 元素包含为日历文件夹配置的所有权限。
+ms.openlocfilehash: 26351be8fd9fbe56ea5abb2dd346cb9c9458c463
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458031"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539149"
 ---
-# <a name="permissionset-calendarpermissionsettype"></a>PermissionSet （CalendarPermissionSetType）
+# <a name="permissionset-calendarpermissionsettype"></a>PermissionSet (CalendarPermissionSetType)
 
-**PermissionSet**元素包含为 "日历" 文件夹配置的所有权限。 
+**PermissionSet** 元素包含为日历文件夹配置的所有权限。 
   
 ```XML
 <PermissionSet>
@@ -30,7 +30,7 @@ ms.locfileid: "44458031"
 </PermissionSet>
 ```
 
- **CalendarPermissonSetType**
+ **CalendarPermi创建SetType**
 ## <a name="attributes-and-elements"></a>属性和元素
 
 下面各部分介绍了属性、子元素和父元素。
@@ -50,17 +50,17 @@ ms.locfileid: "44458031"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[CalendarFolder](calendarfolder.md) <br/> |代表主要包含日历项目的文件夹。  <br/> |
+|[CalendarFolder](calendarfolder.md) <br/> |表示一个主要包含日历项目的文件夹。  <br/> |
    
 ## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
-此元素是在 Exchange Server 2007 Service Pack 1 （SP1）中引入的。
+此元素在 sp1 Exchange Server 2007 Service Pack 1 (中) 。
   
 ### <a name="version-differences"></a>版本差异
 
-对于面向 Exchange Online 的应用程序，Exchange Online 作为 Office 365 的一部分，或从 Exchange 2013 开始的 Exchange 内部部署版本，当[BaseShape](baseshape.md)元素的[GetFolder](getfolder-operation.md)操作请求中的值为**AllProperties**时，不会返回文件夹权限。 若要检索文件夹权限，请将[PermissionSet （PermissionSetType）](permissionset-permissionsettype.md)元素添加到**GetFolder**请求中的[AdditionalProperties](additionalproperties.md)元素。 
+对于面向 Exchange Online、Exchange Online 作为 Office 365 一部分的应用程序或从 Exchange 2013 开始本地版本的 Exchange 的应用程序，当 [BaseShape](baseshape.md)元素在 [GetFolder](getfolder-operation.md)中具有 **AllProperties** 的值时，不会返回文件夹权限操作请求。 若要检索文件夹权限，将 PermissionSet ([PermissionSetType)](permissionset-permissionsettype.md)添加到 **GetFolder** 请求中的 [AdditionalProperties](additionalproperties.md)元素。 
   
 ## <a name="element-information"></a>元素信息
 

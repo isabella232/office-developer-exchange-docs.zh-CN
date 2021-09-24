@@ -1,33 +1,33 @@
 ---
-title: 使用 Exchange 中的 EWS 管理用户访问
+title: 使用 EWS 管理用户对Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 48f0170c-8786-405f-86cb-568b7314a425
-description: 了解用于管理用户帐户对 Exchange 服务器的访问权限的选项。
-ms.openlocfilehash: 476292d4db206f22cd84134ce2b46957e9fe85fc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: 了解管理用户帐户对 Exchange 服务器的访问权限的选项。
+ms.openlocfilehash: 431f61a0cbdfcc522eb1481399ffab1f31df9e62
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456240"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520974"
 ---
-# <a name="managing-user-access-by-using-ews-in-exchange"></a>使用 Exchange 中的 EWS 管理用户访问
+# <a name="managing-user-access-by-using-ews-in-exchange"></a>使用 EWS 管理用户对Exchange
 
-了解用于管理用户帐户对 Exchange 服务器的访问权限的选项。
+了解管理用户帐户对 Exchange 服务器的访问权限的选项。
   
-Exchange Web 服务（EWS）和 EWS 托管 API 提供有限数量的操作，可用于管理 Exchange Online 上的帐户、Exchange Online 作为 Office 365 的一部分或从 Exchange 2013 开始的 Exchange 版本。 您可以使用下图中所示的操作来管理委派和为其他帐户设置文件夹访问权限。 
+ExchangeWeb 服务 (EWS) 和 EWS 托管 API 提供有限数量的操作，可用于管理 Exchange Online 上的帐户、Exchange Online 作为 Office 365 的一部分或 Exchange 版本（从 Exchange 2013 开始）。 可以使用下图中显示的操作来管理代理并设置其他帐户的文件夹访问权限。 
   
 **用于委派和文件夹访问的 EWS 操作**
 
 ![EWS 用户管理选项。](media/Exchange_ManagingUserAccess_1.png)
   
-如果您的应用程序需要对 Exchange 服务器上的帐户进行更多控制，则可以使用 Exchange 命令行管理程序 cmdlet 来管理帐户。 您可以通过执行以下操作之一来调用 Exchange 命令行管理程序 cmdlet：
+如果应用程序需要额外控制 Exchange 上的帐户，可以使用 Exchange 命令行管理程序 cmdlet 管理帐户。 可以通过执行以下操作Exchange调用命令行管理程序 cmdlet：
   
-- 使用 c # 或 Visual Basic 编写调用 Exchange 命令行管理程序 cmdlet 的应用程序。 您可以查看[Exchange 命令行管理程序 API 文档](../management/exchange-management-shell.md)中的示例代码，以了解如何调用 cmdlet。 
+- 使用调用命令行C# cmdlet Visual Basic或Exchange编写应用程序。 你可以查看命令行管理程序 API 文档中Exchange[代码](../management/exchange-management-shell.md)，了解如何调用 cmdlet。 
     
-- 使用 Windows PowerShell 和 Windows PowerShell 脚本调用 Exchange 命令行管理程序 cmdlet。 您可以找到[Exchange Server PowerShell （Exchange 命令行管理程序）](https://docs.microsoft.com/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps)的完整列表，以及演示如何使用它们的示例。 
+- 使用 Windows PowerShell 和 Windows PowerShell 脚本调用 Exchange 命令行管理程序 cmdlet。 你可以找到[PowerShell ](https://docs.microsoft.com/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps)Exchange Server命令行管理 (Exchange的完整) ，以及显示如何使用它们的示例。 
     
 ## <a name="see-also"></a>另请参阅
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - EnableAlwaysDelete
 api_type:
 - schema
 ms.assetid: 7753aec5-3f93-4aeb-a28e-8b9b42ca7f9b
-description: EnableAlwaysDelete 元素指定一个标志，该标志为对话中的所有新项目启用删除。
-ms.openlocfilehash: 14784d3a6ba52c76b64b81e15c0522d66d125cbf
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: EnableAlwaysDelete 元素指定一个标志，该标记允许删除对话中所有新项。
+ms.openlocfilehash: 7b0704ebd7187ac06293589277aefd53f6bceaaa
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526205"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520722"
 ---
 # <a name="enablealwaysdelete"></a>EnableAlwaysDelete
 
-**EnableAlwaysDelete**元素指定一个标志，该标志为对话中的所有新项目启用删除。 
+**EnableAlwaysDelete** 元素指定一个标志，该标记允许删除对话中所有新项。 
   
 [ApplyConversationAction](applyconversationaction.md)
   
@@ -35,7 +35,7 @@ ms.locfileid: "44526205"
 <EnableAlwaysDelete/>
 ```
 
- **xs： boolean**
+ **xs：boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
 下面各部分介绍了属性、子元素和父元素。
@@ -56,9 +56,9 @@ ms.locfileid: "44526205"
    
 ## <a name="text-value"></a>文本值
 
-**EnableAlwaysDelete**元素的文本值为**true** ，以启用删除对话中的所有项目;否则**为 false**。
+**EnableAlwaysDelete** 元素的文本值为 **true，** 以允许删除对话中所有项目;否则为 **false**。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   

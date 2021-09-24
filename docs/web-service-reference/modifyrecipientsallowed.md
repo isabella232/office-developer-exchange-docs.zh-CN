@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3f25e673-0df0-4285-bf03-a083a395cdab
-description: ModifyRecipientsAllowed 元素指定是否启用对收件人所做的修改。
-ms.openlocfilehash: 3154ec3aceb2da7911002d505e0c452bf920d71f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ModifyRecipientsAllowed 元素指定是否启用收件人修改。
+ms.openlocfilehash: 4366f9ed0a6843f9a297718cb999fb8c3a02ee17
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465693"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520392"
 ---
 # <a name="modifyrecipientsallowed"></a>ModifyRecipientsAllowed
 
-**ModifyRecipientsAllowed**元素指定是否启用对收件人所做的修改。 
+**ModifyRecipientsAllowed** 元素指定是否启用收件人修改。 
   
 ```XML
 <ModifyRecipientsAllowed> true | false </ModifyRecipientsAllowed>
@@ -42,9 +42,9 @@ ms.locfileid: "44465693"
   
 ## <a name="text-value"></a>文本值
 
-如果**ModifyRecipientsAllowed**元素的文本值为**true** ，则表示项目收件人列表对在其上启用了权限管理的项目是可修改的。 **如果值为 false** ，则表示收件人列表不可修改。 
+**ModifyRecipientsAllowed** 元素的文本值 **true** 指示项目收件人列表可修改对项目启用了权限管理的项目。 false **值表示** 收件人列表不可修改。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DisplayTo
 api_type:
 - schema
 ms.assetid: 16a0b22d-063b-417c-8aba-efcf9490b072
-description: DisplayTo 元素表示用于 "To" 框的内容的显示字符串。 这是所有收件人显示名称的串联字符串。
-ms.openlocfilehash: 3bc0b322d6a4f00388247bebcf8e3e7fb110da1d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DisplayTo 元素表示用于"To"框内容的显示字符串。 这是所有"收件人"收件人显示名称的串联字符串。
+ms.openlocfilehash: 19db4bed5f22f21fb4cf4094c9ec4b75e8d2af23
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461357"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520842"
 ---
 # <a name="displayto"></a>DisplayTo
 
-**DisplayTo**元素表示用于 "To" 框的内容的显示字符串。 这是所有收件人显示名称的串联字符串。 
+**DisplayTo** 元素表示用于"To"框内容的显示字符串。 这是所有"收件人"收件人显示名称的串联字符串。 
   
 ```xml
 <DisplayTo/>
@@ -57,7 +57,7 @@ ms.locfileid: "44461357"
    
 ## <a name="text-value"></a>文本值
 
-Text 值表示用于 "To" 框的内容的显示字符串。
+文本值表示用于"To"框内容的显示字符串。
   
 ## <a name="remarks"></a>说明
 

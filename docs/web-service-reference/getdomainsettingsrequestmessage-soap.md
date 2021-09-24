@@ -1,24 +1,24 @@
 ---
-title: GetDomainSettingsRequestMessage （SOAP）
+title: GetDomainSettingsRequestMessage (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 34913595-794c-4c62-9622-877f30931c73
-description: GetDomainSettingsRequestMessage 元素表示 GetDomainSettings 操作（SOAP）操作请求。
-ms.openlocfilehash: 71648e3df609edfce73ebccf372a82311c03d49d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetDomainSettingsRequestMessage 元素表示 SOAP (请求) GetDomainSettings 操作。
+ms.openlocfilehash: 78ddc0a904a0a23e0ed0499f014bcb531e7cb99b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462029"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512980"
 ---
-# <a name="getdomainsettingsrequestmessage-soap"></a>GetDomainSettingsRequestMessage （SOAP）
+# <a name="getdomainsettingsrequestmessage-soap"></a>GetDomainSettingsRequestMessage (SOAP)
 
-**GetDomainSettingsRequestMessage**元素表示[GETDOMAINSETTINGS 操作（SOAP）](getdomainsettings-operation-soap.md)操作请求。 
+**GetDomainSettingsRequestMessage 元素** 表示 SOAP (请求) [GetDomainSettings](getdomainsettings-operation-soap.md)操作。 
   
 ```XML
 <GetDomainSettingsRequestMessage>

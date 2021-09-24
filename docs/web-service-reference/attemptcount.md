@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 70399ab7-0530-4d22-9cfb-ffcc58588ef5
 description: AttemptCount 元素表示对项目编制索引的尝试次数。
-ms.openlocfilehash: 90ae6d7e095fcce54709e69c1d6d08075a791178
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: bc006bed33159ceda929b218d30a8f8aafba4b8d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527437"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538441"
 ---
 # <a name="attemptcount"></a>AttemptCount
 
-**AttemptCount**元素表示对项目编制索引的尝试次数。 
+**AttemptCount** 元素表示对项目编制索引的尝试次数。 
   
 ```XML
 <AttemptCount></AttemptCount>
 ```
 
- **整除**
+ **integer**
 ## <a name="attributes-and-elements"></a>属性和元素
 
 下面各部分介绍了属性、子元素和父元素。
@@ -42,9 +42,9 @@ ms.locfileid: "44527437"
   
 ## <a name="text-value"></a>文本值
 
-**AttemptCount**元素的值是对项目编制索引所做的尝试次数。 
+**AttemptCount** 元素的值为对项目编制索引的尝试次数。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

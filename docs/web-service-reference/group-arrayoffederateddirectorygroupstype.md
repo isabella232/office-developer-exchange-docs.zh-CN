@@ -1,23 +1,23 @@
 ---
-title: Group （ArrayOfFederatedDirectoryGroupsType）
+title: Group (ArrayOfFederatedDirectoryGroupsType)
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0474a5b4-1a48-4df6-a094-baf35d9a1083
-description: Group （ArrayOfFederatedDirectoryGroupsType）元素仅供内部使用。
-ms.openlocfilehash: 7938b571f7cc48dd60b14429b8e21bad1eb26300
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ArrayOfFederatedDirectoryGroupsType (的 Group) 仅供内部使用。
+ms.openlocfilehash: 0e5d11b82fa14ab84043067a15da57a964723bfc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462827"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59537924"
 ---
-# <a name="group-arrayoffederateddirectorygroupstype"></a>Group （ArrayOfFederatedDirectoryGroupsType）
+# <a name="group-arrayoffederateddirectorygroupstype"></a>Group (ArrayOfFederatedDirectoryGroupsType)
 
-**Group （ArrayOfFederatedDirectoryGroupsType）** 元素仅供内部使用。 
+**ArrayOfFederatedDirectoryGroupsType** (的 Group 元素) 仅供内部使用。 
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
@@ -35,7 +35,7 @@ ms.locfileid: "44462827"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   

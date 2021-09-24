@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 22cb5a30-75d9-49a8-9d98-255f2e8a722d
-description: SendPrompt 元素指定允许用于投票选项的操作类型。
-ms.openlocfilehash: 98ffc69cdc94c3f7b9c325bee0c1ebaeb407ee96
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SendPrompt 元素指定允许投票选项的操作类型。
+ms.openlocfilehash: 32537210aadce91911d1fb5002fbafcaa70aa9ab
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462099"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532130"
 ---
 # <a name="sendprompt"></a>SendPrompt
 
-**SendPrompt**元素指定允许用于投票选项的操作类型。 
+**SendPrompt** 元素指定允许投票选项的操作类型。 
   
 ```XML
 <SendPrompt> None | Send | VotingOption </SendPrompt>
@@ -42,7 +42,7 @@ ms.locfileid: "44462099"
   
 ## <a name="text-value"></a>文本值
 
-**SendPrompt**元素的文本值是投票选项操作。 下表列出了此元素的可能值。 
+**SendPrompt** 元素的文本值是投票选项操作。 下表列出了此元素的可能值。 
   
 ****
 

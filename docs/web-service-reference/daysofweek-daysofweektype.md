@@ -1,27 +1,27 @@
 ---
-title: DaysOfWeek （DaysOfWeekType）
+title: DaysOfWeek (DaysOfWeekType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DaysOfWeek
 api_type:
 - schema
 ms.assetid: c56f997d-28f3-4590-97b0-cb71f016dbe4
-description: DaysOfWeek 元素描述在项目定期模式中使用的一周中的日期。
-ms.openlocfilehash: 3036cbe3f93ff87b9a4d5dc7bf164e3e952b06fd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DaysOfWeek 元素描述项目定期模式中使用的星期几。
+ms.openlocfilehash: 9b0786149f943c47ab77bcb69b74542cbc08edd5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463718"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519868"
 ---
-# <a name="daysofweek-daysofweektype"></a>DaysOfWeek （DaysOfWeekType）
+# <a name="daysofweek-daysofweektype"></a>DaysOfWeek (DaysOfWeekType)
 
-**DaysOfWeek**元素描述在项目定期模式中使用的一周中的日期。 
+**DaysOfWeek** 元素描述项目定期模式中使用的星期几。 
   
 ```XML
 <DaysOfWeek/>
@@ -45,7 +45,7 @@ ms.locfileid: "44463718"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[WeeklyRecurrence](weeklyrecurrence.md) <br/> |介绍每周定期模式。  <br/> |
+|[WeeklyRecurrence](weeklyrecurrence.md) <br/> |介绍每周一定期模式。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
@@ -58,15 +58,15 @@ ms.locfileid: "44463718"
 - 星期四    
 - 星期五    
 - 星期六    
-- Day （此值对于每周定期模式无效）    
-- 工作日（此值对于每周定期模式无效）    
-- WeekendDay （此值对于每周定期模式无效）
+- 每周 (一天无效此值定期模式)     
+- 工作日 (此值无效每周一次定期模式)     
+- WeekendDay (此值无效每周一次定期模式) 
     
-每周定期模式可包含多个值。 值之间用空格字符分隔。 例如，对于星期二和星期四的每周重复，文本值将为 "星期二星期四"。
+每周一定期模式可包含多个值。 值由空格字符分隔。 例如，对于每周星期二和星期四定期，文本值将为"星期二星期四"。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-描述此元素的架构位于运行 Microsoft Exchange Server 2010 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
+描述此元素的架构位于运行安装了客户端访问服务器角色的 Microsoft Exchange Server 2010 的计算机的 EWS 虚拟目录中。
   
 ## <a name="element-information"></a>元素信息
 

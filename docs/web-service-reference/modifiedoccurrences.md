@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ModifiedOccurrences
 api_type:
 - schema
 ms.assetid: 552932fc-b3b4-486e-8d73-32c0bb10bd68
-description: ModifiedOccurrences 元素包含已修改的定期日历项目匹配项的数组，以便它们不同于定期主项目。
-ms.openlocfilehash: d599e3d232bfffc5bedd37f3dae4d8b10a82ffde
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ModifiedOccurrences 元素包含一个已修改的定期日历项目事件的数组，以便它们不同于定期主项目。
+ms.openlocfilehash: 0c6a6d873ce6b155d9f6f86a192d9b657b9119ab
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530420"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512908"
 ---
 # <a name="modifiedoccurrences"></a>ModifiedOccurrences
 
-**ModifiedOccurrences**元素包含已修改的定期日历项目匹配项的数组，以便它们不同于定期主项目。 
+**ModifiedOccurrences** 元素包含一个已修改的定期日历项目事件的数组，以便它们不同于定期主项目。 
   
 ```xml
 <ModifiedOccurrences>
@@ -42,7 +42,7 @@ ms.locfileid: "44530420"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[重复](occurrence.md) <br/> |代表定期日历项目的单个修改事件。  <br/> |
+|[Occurrence](occurrence.md) <br/> |表示定期日历项目的单个修改事件。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -51,9 +51,9 @@ ms.locfileid: "44530420"
 |[CalendarItem](calendaritem.md) <br/> |表示 Exchange 日历项。  <br/> |
 |[MeetingRequest](meetingrequest.md) <br/> |表示 Exchange 存储中的会议请求。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-如果[CalendarItemType](calendaritemtype.md)具有 RecurringMaster 值，则此元素有效。 
+如果 [CalendarItemType](calendaritemtype.md) 具有 RecurringMaster 值，则此元素有效。 
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

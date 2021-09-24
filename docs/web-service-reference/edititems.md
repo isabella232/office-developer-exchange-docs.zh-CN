@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - EditItems
 api_type:
 - schema
 ms.assetid: 1cb14493-c999-4d66-b82c-ecb410dc1c00
-description: EditItems 元素指示用户有权编辑的文件夹中的项目。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
-ms.openlocfilehash: 0c3800b4d242dccb7455e0d0dea74e766db22854
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: EditItems 元素指示用户有权编辑的文件夹中的哪些项目。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
+ms.openlocfilehash: 51c038cf93d43fffe785b1946a52c8bcb5c1c302
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459249"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538259"
 ---
 # <a name="edititems"></a>EditItems
 
-**EditItems**元素指示用户有权编辑的文件夹中的项目。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
+**EditItems** 元素指示用户有权编辑的文件夹中的哪些项目。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
   
 ```xml
 <EditItems>None or Owned or All</EditItems>
@@ -42,21 +42,21 @@ ms.locfileid: "44459249"
   
 ### <a name="parent-elements"></a>父元素
 
-|**元素**|**描述**|
+|**元素**|**说明**|
 |:-----|:-----|
 |[权限](permission.md) <br/> |到文件夹定义用户拥有的访问权限。在 Exchange 2007 SP1 引入了此元素。  <br/> |
 |[CalendarPermission](calendarpermission.md) <br/> |定义日历文件夹的用户具有的访问权限。在 Exchange 2007 SP1 引入了此元素。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-下表列出了**EditItems**元素的可能值。 
+下表列出了 **EditItems** 元素的可能值。 
   
 **EditItems 元素文本值**
 
 |**值**|**说明**|
 |:-----|:-----|
-|无  <br/> |指示用户不具有编辑文件夹中的项目的权限。  <br/> |
-|所有权  <br/> |指示用户有权编辑文件夹中的用户所拥有的项目。  <br/> |
+|无  <br/> |指示用户无权编辑文件夹中的项目。  <br/> |
+|拥有  <br/> |指示用户有权编辑用户在文件夹中拥有的项目。  <br/> |
 |所有  <br/> |指示用户有权编辑文件夹中的所有项目。  <br/> |
    
 ## <a name="remarks"></a>说明

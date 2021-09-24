@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GlobalSize
 api_type:
 - schema
 ms.assetid: 23c24437-8dab-4c86-888d-471d23af675a
-description: GlobalSize 元素包含从邮箱中所有会话项目的大小计算出的对话的大小。
-ms.openlocfilehash: d23ab080dadb006cd5eff9d712d081fe7d94a2a8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GlobalSize 元素包含根据邮箱中所有会话项目的大小计算的对话大小。
+ms.openlocfilehash: 39172ecb719de61eb3144ddd2f365c4e97c9822e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462449"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533289"
 ---
 # <a name="globalsize"></a>GlobalSize
 
-**GlobalSize**元素包含从邮箱中所有会话项目的大小计算出的对话的大小。 
+**GlobalSize** 元素包含根据邮箱中所有会话项目的大小计算的对话大小。 
   
 [FindConversationResponse](findconversationresponse.md)
   
@@ -35,7 +35,7 @@ ms.locfileid: "44462449"
 <GlobalSize/>
 ```
 
- **xs： int**
+ **xs：int**
 ## <a name="attributes-and-elements"></a>属性和元素
 
 下面各部分介绍了属性、子元素和父元素。
@@ -56,9 +56,9 @@ ms.locfileid: "44462449"
    
 ## <a name="text-value"></a>文本值
 
-**GlobalSize**元素的文本值是从邮箱中所有会话项目的大小计算出的对话的大小。 
+**GlobalSize** 元素的文本值是根据邮箱中所有会话项目的大小计算的对话大小。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   

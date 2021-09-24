@@ -1,23 +1,23 @@
 ---
-title: EmailAddress （GetPersonaType）
+title: EmailAddress (GetPersonaType)
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 052055b5-4630-40ed-9b24-9e7f4bf7ba1d
-description: EmailAddress （GetPersonaType）元素指定与角色关联的电子邮件地址。
-ms.openlocfilehash: b58f61202cd94ff282b21138b47b40887b38752a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetPersonaType (的 EmailAddress) 元素指定与人员相关联的电子邮件地址。
+ms.openlocfilehash: 7d024234c66c2b90bdd5d04f25d67db54770bdb5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463452"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520801"
 ---
-# <a name="emailaddress-getpersonatype"></a>EmailAddress （GetPersonaType）
+# <a name="emailaddress-getpersonatype"></a>EmailAddress (GetPersonaType)
 
-**EmailAddress （GetPersonaType）** 元素指定与角色关联的电子邮件地址。 
+**EmailAddress (GetPersonaType)** 元素指定与人员相关联的电子邮件地址。 
   
 ```XML
 <EmailAddress>
@@ -41,7 +41,7 @@ ms.locfileid: "44463452"
   
 ### <a name="child-elements"></a>子元素
 
-[名称（字符串）](name-string.md)  | [EmailAddress （NonEmptyStringType）](emailaddress-nonemptystringtype.md)  | [RoutingType （EmailAddressType）](routingtype-emailaddresstype.md)  | [MailboxType](mailboxtype.md)  | [ItemId](itemid.md)  | [OriginalDisplayName](originaldisplayname.md)
+[名称 (字符串) ](name-string.md)  | [EmailAddress (NonEmptyStringType) ](emailaddress-nonemptystringtype.md)  | [RoutingType (EmailAddressType) ](routingtype-emailaddresstype.md)  | [MailboxType](mailboxtype.md)  | [ItemId](itemid.md)  | [OriginalDisplayName](originaldisplayname.md)
   
 ### <a name="parent-elements"></a>父元素
 

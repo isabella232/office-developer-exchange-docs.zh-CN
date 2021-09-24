@@ -1,23 +1,23 @@
 ---
-title: Tasksuggestion.taskstring
+title: TaskString
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4f2c8e66-698c-4313-98d0-24d7298489f6
-description: Tasksuggestion.taskstring 元素包含建议的任务。
-ms.openlocfilehash: a48a47917dd2ec47678b53f04f00c99887eec0b5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: TaskString 元素包含建议的任务。
+ms.openlocfilehash: 74bb36ac96803bbc2db0173f61af85442b95e576
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530872"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538902"
 ---
-# <a name="taskstring"></a>Tasksuggestion.taskstring
+# <a name="taskstring"></a>TaskString
 
-**Tasksuggestion.taskstring**元素包含建议的任务。 
+**TaskString** 元素包含建议的任务。 
   
 ```XML
 <TaskString></TaskString>
@@ -43,9 +43,9 @@ ms.locfileid: "44530872"
   
 ## <a name="text-value"></a>文本值
 
-**Tasksuggestion.taskstring**元素的文本值是从从邮箱中的项目提取的任务实体产生的建议任务。 
+**TaskString** 元素的文本值是从邮箱中的项目提取的任务实体所建议的任务。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

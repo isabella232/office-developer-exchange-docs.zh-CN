@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ApplyConversationActionResponse
 api_type:
 - schema
 ms.assetid: 682d47a6-f9fe-4cc6-a56c-c5db835d5ec6
 description: ApplyConversationActionResponse 元素定义对 ApplyConversationAction 操作请求的响应。
-ms.openlocfilehash: 22955378f8982c92b4cd0e9b8880b6907f47aa0c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 99c86b791050691ab3b3b39a42af8e94acdc16f6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461672"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520085"
 ---
 # <a name="applyconversationactionresponse"></a>ApplyConversationActionResponse
 
-**ApplyConversationActionResponse**元素定义对[ApplyConversationAction 操作](applyconversationaction-operation.md)请求的响应。 
+**ApplyConversationActionResponse** 元素定义对 [ApplyConversationAction](applyconversationaction-operation.md)操作请求的响应。 
   
 [ApplyConversationActionResponse](applyconversationactionresponse.md)
   
@@ -44,7 +44,7 @@ ms.locfileid: "44461672"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |包含 Exchange Web 服务请求的响应消息。  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |包含 Web 服务请求Exchange消息。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -54,7 +54,7 @@ ms.locfileid: "44461672"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   

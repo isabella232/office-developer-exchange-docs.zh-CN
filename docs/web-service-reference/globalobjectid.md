@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GlobalObjectId
 api_type:
 - schema
 ms.assetid: ef5618d3-9b52-4a00-ab66-159dc1091e93
-description: 不使用 GlobalObjectId 元素。
-ms.openlocfilehash: c5d9fa91709cf979fa2143b791fbb880425e2ccd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GlobalObjectId 元素未使用。
+ms.openlocfilehash: dfe8e0860143b059f5e00e35857f99085b607dc5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459375"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59537992"
 ---
 # <a name="globalobjectid"></a>GlobalObjectId
 
-不使用**GlobalObjectId**元素。 
+**GlobalObjectId** 元素未使用。 
   
 [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
@@ -51,7 +51,7 @@ ms.locfileid: "44459375"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |包含用于获取会议建议信息的选项。  <br/> 以下是此元素的 XPath：  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
+|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |包含用于获取会议建议信息的选项。  <br/> 下面是此元素的 XPath：  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
    
 ## <a name="element-information"></a>元素信息
 

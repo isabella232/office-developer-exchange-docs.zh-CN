@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ApplyConversationAction
 api_type:
 - schema
 ms.assetid: 73d7943d-d361-4f8b-9948-d85f886efa1a
-description: ApplyConversationAction 操作将对对话中的所有项目设置一次性或后续操作。 ApplyConversationAction 操作允许您对对话中的所有项目进行分类、移动、复制、删除和设置读取状态。 还可以为对话中的新邮件设置操作。
-ms.openlocfilehash: cdab239a5b0b1406d2ce31f4604e4737d037cd7e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ApplyConversationAction 操作对对话中所有项目设置一次或后续操作。 ApplyConversationAction 操作允许您对对话中所有项目的读取状态进行分类、移动、复制、删除和设置。 还可以为对话中的新邮件设置操作。
+ms.openlocfilehash: ed3ed02dc045a095bcc86124b8d3e1c5a65dae84
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463501"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520099"
 ---
 # <a name="applyconversationaction-operation"></a>ApplyConversationAction 操作
 
-**ApplyConversationAction**操作将对对话中的所有项目设置一次性或后续操作。 **ApplyConversationAction**操作允许您对对话中的所有项目进行分类、移动、复制、删除和设置读取状态。 还可以为对话中的新邮件设置操作。 
+**ApplyConversationAction** 操作对对话中所有项目设置一次或后续操作。 **ApplyConversationAction** 操作允许您对对话中所有项目的读取状态进行分类、移动、复制、删除和设置。 还可以为对话中的新邮件设置操作。 
   
 ## <a name="applyconversationaction-request-example"></a>ApplyConversationAction 请求示例
 
 ### <a name="description"></a>Description
 
-以下示例的**ApplyConversationAction**请求显示如何将指定对话中的项目移动到另一个文件夹。 添加到对话中的项目也将移到指定的文件夹。 
+以下示例的 **ApplyConversationAction** 请求演示如何将指定对话中的项目移动到另一个文件夹。 添加到对话中的项目也将移动到指定的文件夹。 
   
 ### <a name="code"></a>代码
 
@@ -57,15 +57,15 @@ ms.locfileid: "44463501"
 </soap:Envelope>
 ```
 
-### <a name="remarks"></a>备注
+### <a name="remarks"></a>注解
 
-对话和文件夹标识符已缩短，以保持可读性。
+已缩短会话和文件夹标识符以保持可读性。
   
 ## <a name="applyconversationaction-response-example"></a>ApplyConversationAction 响应示例
 
 ### <a name="description"></a>Description
 
-下面的示例演示对**ApplyConversationAction**请求的成功响应。 
+以下示例显示了对 **ApplyConversationAction** 请求的成功响应。 
   
 ### <a name="code"></a>代码
 
@@ -100,7 +100,7 @@ ms.locfileid: "44463501"
 ## <a name="see-also"></a>另请参阅
 
 - [ApplyConversationAction 操作](applyconversationaction-operation.md)
-- [Exchange 中的 EWS 操作](ews-operations-in-exchange.md)
+- [EWS 操作在Exchange](ews-operations-in-exchange.md)
 - [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 - [Conversations in EWS](https://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
 

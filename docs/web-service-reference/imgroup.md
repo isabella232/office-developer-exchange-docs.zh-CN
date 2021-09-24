@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ab7b884e-ecf1-4e58-86ec-856b13a95f2b
 description: ImGroup 元素表示即时消息组。
-ms.openlocfilehash: a0ff3fcb82e7f18837af5a6f5daa16e90043034d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 6bcf3a8c587ba1c14aadfaa792cbd2f9405c69ce
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460685"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533109"
 ---
 # <a name="imgroup"></a>ImGroup
 
-**ImGroup**元素表示即时消息组。 
+**ImGroup** 元素表示即时消息组。 
   
 ```XML
 <ImGroup>
@@ -41,13 +41,13 @@ ms.locfileid: "44460685"
   
 ### <a name="child-elements"></a>子元素
 
-[DisplayName （NonEmptyStringType）](displayname-nonemptystringtype.md)  | [GroupType](grouptype.md)  | [ExchangeStoreId](exchangestoreid.md)  | [MemberCorrelationKey](membercorrelationkey.md)  | [ExtendedProperties （NonEmptyArrayOfExtendedPropertyType）](extendedproperties-nonemptyarrayofextendedpropertytype.md)  | [SmtpAddress](smtpaddress.md)
+[DisplayName (NonEmptyStringType) ](displayname-nonemptystringtype.md)  | [GroupType](grouptype.md)  | [ExchangeStoreId](exchangestoreid.md)  | [MemberCorrelationKey](membercorrelationkey.md)  | [ExtendedProperties (NonEmptyArrayOfExtendedPropertyType) ](extendedproperties-nonemptyarrayofextendedpropertytype.md)  | [SmtpAddress](smtpaddress.md)
   
 ### <a name="parent-elements"></a>父元素
 
-[组（ArrayOfImGroupType）](groups-arrayofimgrouptype.md)  | [AddDistributionGroupToImListResponse](adddistributiongrouptoimlistresponse.md)  | [AddImGroupResponse](addimgroupresponse.md)
+[ArrayOfImGroupType (组) ](groups-arrayofimgrouptype.md)  | [AddDistributionGroupToImListResponse](adddistributiongrouptoimlistresponse.md)  | [AddImGroupResponse](addimgroupresponse.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

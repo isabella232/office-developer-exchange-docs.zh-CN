@@ -5,54 +5,54 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1b56f83f-3b87-4b55-8259-fde6692da681
 description: 查找有关 GetReminders EWS 操作的信息。
-ms.openlocfilehash: dcbe20c674d7524a7776d374fa6964899abf472f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: e47dbb6ffceac3535bb72f93ee27bbb3f3f259e6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458304"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513561"
 ---
 # <a name="getreminders-operation"></a>GetReminders 操作
 
-查找有关**GetReminders** EWS 操作的信息。 
+查找有关 **GetReminders** EWS 操作的信息。 
   
-**GetReminders** Exchange Web 服务（EWS）操作检索日历和任务项目的提醒。 
+**GetReminders** Exchange Web (EWS) 操作检索日历和任务项目的提醒。 
   
 Exchange Server 2013 中引入了此操作。
   
 ## <a name="using-the-getreminders-operation"></a>使用 GetReminders 操作
 
-**GetReminders**操作将根据请求中传递的元素值，在用户的邮箱中获取当前和将来的日历和任务项目的提醒。 该操作可以检索当前和将来的所有日历项目以及具有提醒集的任务。 私有日历项目包含在响应中。 没有提醒的任务不会包含在响应中，也不会包含提醒或后续标志的电子邮件。 
+**GetReminders** 操作根据请求中传递的元素值，获取用户邮箱中当前和将来的日历和任务项目的提醒。 该操作可以检索所有当前和将来的日历项目以及设置了提醒的任务。 私人日历项目包含在响应中。 无提醒的任务不包括在响应中，带提醒的电子邮件也不包含后续标志。 
   
-若要检索所有当前提醒，建议将[ReminderType](remindertype.md)设置为 "**所有**"，并将 "[结束](endtime-remindermessagedatatype.md)" 设置为 "当前时间"。 
+若要检索所有当前提醒，我们建议将 [ReminderType 设置为](remindertype.md) **All，** 将 [EndTime](endtime-remindermessagedatatype.md) 设置为当前时间。 
   
-如果请求中包含[BeginTime](begintime.md)和**EndTime**元素，则该响应包括在**BeginTime**和**EndTime**之间发生提醒之间发生的任何日历和任务项目的提醒。
+如果 [请求中包含 BeginTime](begintime.md) 和 **EndTime** 元素，响应中会包含发生在 **BeginTime** 和 **EndTime** 之间的任何日历和任务项目的提醒。
   
-下表介绍了在包含**BeginTime**和**EndTime**元素时**ReminderType**元素的行为。 
+下表介绍了 **包含 BeginTime** 和 **EndTime** 元素时 **ReminderType** 元素的行为。 
   
-|ReminderType * * 元素值 * *|**说明**|
+|ReminderType** 元素值**|**说明**|
 |:-----|:-----|
-|所有  <br/> |在**BeginTime**和**EndTime**之间发生的提醒。  <br/> |
-|Current  <br/> |**全部**提醒，以及早于请求的时间窗口的提醒（如果事件仍在进行）以及所有约会（无论期限是什么）。  <br/> |
-|Old  <br/> |除所有尚未完成的事件、减去所有约会之外的**全部**、负事件返回的提醒。 必须将**BeginTime**和**EndTime**元素设置为使用**旧**值。  <br/> |
+|所有  <br/> |BeginTime 和 **EndTime** 之间发生的 **提醒**。  <br/> |
+|Current  <br/> |由 All **返回的提醒**，以及早于请求的时间窗口的提醒（如果事件仍在进行中）以及所有约会（不考虑年龄）。  <br/> |
+|旧  <br/> |由 All **返回的提醒** 减去尚未完成的事件，减去所有约会。 **必须将 BeginTime** 和 **EndTime** 元素设置为使用 **Old** 值。  <br/> |
    
 ### <a name="getreminders-operation-soap-headers"></a>GetReminders 操作 SOAP 标头
 
-**GetReminders**操作可以使用下表中列出的 SOAP 标头。 
+**GetReminders** 操作可以使用下表中列出的 SOAP 标头。 
   
 |**标头名称**|**元素**|**说明**|
 |:-----|:-----|:-----|
-|**模拟** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |标识客户端应用程序模拟的用户。 此标头适用于请求。  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |确定用于访问邮箱的区域性（如 RFC 3066 中定义的用于标识语言的标记）。 此标头适用于请求。  <br/> |
+|**模拟** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |标识客户端应用程序正在模拟的用户。 此标头适用于请求。  <br/> |
+|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |标识用于访问邮箱的区域性，如 RFC 3066"语言标识标记"中的定义。 此标头适用于请求。  <br/> |
 |**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。 此标头适用于请求。  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器版本。 此标头适用于响应。  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器的版本。 此标头适用于响应。  <br/> |
    
 ## <a name="getreminders-operation-request-example"></a>GetReminders 操作请求示例
 
-以下示例的**GetReminders**操作请求显示如何检索**BeginTime**和**EndTime**之间发生的前五个日历项目。
+**GetReminders** 操作请求的以下示例显示如何检索 **BeginTime** 和 EndTime 之间发生的前五 **个日历项目**。
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -72,7 +72,7 @@ Exchange Server 2013 中引入了此操作。
 </soap:Envelope>
 ```
 
-示例请求 SOAP body 包含以下元素：
+示例请求 SOAP 正文包含以下元素：
   
 - [GetReminders](getreminders.md)
     
@@ -88,10 +88,10 @@ SOAP 正文还可以包含以下元素：
     
 ## <a name="successful-getreminders-operation-response"></a>成功的 GetReminders 操作响应
 
-下面的示例演示对**GetReminders**操作请求的成功响应。 响应包含 "团队会议" 日历项目的提醒和 "任务以发送会议笔记" 任务的提醒。 
+以下示例显示了对 **GetReminders** 操作请求的成功响应。 该响应包含"团队会议"日历项目的提醒和"发送会议备注的任务"任务的提醒。 
   
 > [!NOTE]
-> 为了保持可读性，标识符已被缩短。 
+> 已缩短标识符以保持可读性。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -152,7 +152,7 @@ SOAP 正文还可以包含以下元素：
     
 - [主题](subject.md)
     
-- [Location](location-remindermessagedatatype.md)
+- [位置](location-remindermessagedatatype.md)
     
 - [ReminderTime](remindertime.md)
     
@@ -170,7 +170,7 @@ SOAP 正文还可以包含以下元素：
     
 ## <a name="getreminders-operation-error-response-example"></a>GetReminders 操作错误响应示例
 
-下面的示例演示对**GetReminders**操作请求的错误响应。 这是对结束日期早于开始日期的请求的响应。 
+以下示例显示对 **GetReminders** 操作请求的错误响应。 这是对结束日期早于开始日期的请求的响应。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -208,7 +208,7 @@ SOAP 正文还可以包含以下元素：
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-有关对 EWS 通用的其他错误代码以及特定于此操作的错误代码，请参阅[ResponseCode](responsecode.md)。
+有关 EWS 通用且特定于此操作的其他错误代码，请参阅 [ResponseCode](responsecode.md)。
   
 ## <a name="see-also"></a>另请参阅
 

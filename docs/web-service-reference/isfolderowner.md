@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsFolderOwner
 api_type:
 - schema
 ms.assetid: 6541ee78-d6e6-42a7-8e7a-d8736172b245
-description: IsFolderOwner 元素指示用户是否为文件夹的所有者。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
-ms.openlocfilehash: 1a06682152b89f4b554b2dd99989a72f6fe49608
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: IsFolderOwner 元素指示用户是否是文件夹的所有者。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
+ms.openlocfilehash: 693c103fc50c8a9a3c00f065d16bd2341df7ff5e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457576"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532837"
 ---
 # <a name="isfolderowner"></a>IsFolderOwner
 
-**IsFolderOwner**元素指示用户是否为文件夹的所有者。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
+**IsFolderOwner** 元素指示用户是否是文件夹的所有者。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
   
 ```xml
 <IsFolderOwner/>
@@ -49,7 +49,7 @@ ms.locfileid: "44457576"
    
 ## <a name="text-value"></a>文本值
 
-如果文本值为**true** ，则表示该用户是该文件夹的所有者。 如果值为**false** ，则表示用户不是文件夹的所有者。 
+如果文本值为 **true，** 则表明用户是文件夹的所有者。 false **值表示** 用户不是文件夹的所有者。 
   
 ## <a name="remarks"></a>说明
 

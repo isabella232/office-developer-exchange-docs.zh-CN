@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Permission
 api_type:
 - schema
 ms.assetid: b8d0429a-0e58-4480-9847-4901970c7033
-description: 权限元素定义用户对文件夹所拥有的访问权限。
-ms.openlocfilehash: 0f7515dbb06f8423f8d4d95e1391496e8ac73653
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Permission 元素定义用户对文件夹具有的访问权限。
+ms.openlocfilehash: bc3e140aaf7bd9ea7f1a4993c9bea1dcad8d39fa
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459256"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512665"
 ---
 # <a name="permission"></a>权限
 
-**权限**元素定义用户对文件夹所拥有的访问权限。 
+**Permission** 元素定义用户对文件夹具有的访问权限。 
   
 ```XML
 <Permission>
@@ -55,12 +55,12 @@ ms.locfileid: "44459256"
 |[CanCreateSubFolders](cancreatesubfolders.md) <br/> |指示用户是否有权在文件夹中创建子文件夹。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
 |[DeleteItems](deleteitems.md) <br/> |指示用户是否有权删除文件夹中的项目。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
 |[EditItems](edititems.md) <br/> |指示用户是否有权编辑文件夹中的项目。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
-|[IsFolderContact](isfoldercontact.md) <br/> |指示用户是否为文件夹的联系人。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
-|[IsFolderOwner](isfolderowner.md) <br/> |指示用户是否为文件夹的所有者。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
+|[IsFolderContact](isfoldercontact.md) <br/> |指示用户是否是文件夹的联系人。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
+|[IsFolderOwner](isfolderowner.md) <br/> |指示用户是否是文件夹的所有者。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
 |[IsFolderVisible](isfoldervisible.md) <br/> |指示用户是否可以查看文件夹。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
-|[PermissionLevel](permissionlevel.md) <br/> |代表用户对文件夹所拥有的权限的组合。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
-|[ReadItems （PermissionType）](readitems-permissiontype.md) <br/> |指示用户是否有权读取文件夹中的项目。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
-|[UserId](userid.md) <br/> |标识代理用户或具有文件夹访问权限的用户。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
+|[PermissionLevel](permissionlevel.md) <br/> |表示用户对文件夹拥有的权限的组合。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
+|[ReadItems (PermissionType)](readitems-permissiontype.md) <br/> |指示用户是否有权读取文件夹中的项目。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
+|[UserId](userid.md) <br/> |标识委派用户或具有文件夹访问权限的用户。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -72,11 +72,11 @@ ms.locfileid: "44459256"
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
-此元素是在 Exchange Server 2007 Service Pack 1 （SP1）中引入的。
+2007 年 2 Exchange Server Service Pack 1 sp1 (中引入了此) 。
   
 ### <a name="version-differences"></a>版本差异
 
-对于面向 Exchange Online 的应用程序，Exchange Online 作为 Office 365 的一部分，或从 Exchange 2013 开始的 Exchange 内部部署版本，当[BaseShape](baseshape.md)元素的[GetFolder](getfolder-operation.md)操作请求中的值为**AllProperties**时，不会返回文件夹权限。 若要检索文件夹权限，请将[PermissionSet （PermissionSetType）](permissionset-permissionsettype.md)元素添加到**GetFolder**请求中的[AdditionalProperties](additionalproperties.md)元素。 
+对于面向 Exchange Online、Exchange Online 作为 Office 365 一部分的应用程序或从 Exchange 2013 开始本地版本的 Exchange 的应用程序，当 [BaseShape](baseshape.md)元素在 [GetFolder](getfolder-operation.md)中具有 **AllProperties** 的值时，不会返回文件夹权限操作请求。 若要检索文件夹权限，将 PermissionSet ([PermissionSetType)](permissionset-permissionsettype.md)添加到 **GetFolder** 请求中的 [AdditionalProperties](additionalproperties.md)元素。 
   
 ## <a name="element-information"></a>元素信息
 

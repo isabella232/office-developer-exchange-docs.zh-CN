@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e26b37e7-0f82-4fd3-98af-53e02001c3df
 description: PerformReminderActionResponse 元素指定对 PerformReminderAction 请求的响应。
-ms.openlocfilehash: 565c87b34dca2ea1fd0cd44794da009ee825252a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: f850a32943fc54a7cac6ac2fb44c935893b8dae9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529950"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512887"
 ---
 # <a name="performreminderactionresponse"></a>PerformReminderActionResponse
 
-**PerformReminderActionResponse**元素指定对**PerformReminderAction**请求的响应。 
+**PerformReminderActionResponse** 元素指定 **对 PerformReminderAction** 请求的响应。 
   
 ```XML
 <PerformReminderActionResponse>
@@ -42,7 +42,7 @@ ms.locfileid: "44529950"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

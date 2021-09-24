@@ -1,23 +1,23 @@
 ---
-title: DisplayName （VotingOptionDataType）
+title: DisplayName (VotingOptionDataType)
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 08e89583-438c-4c9f-8475-3bc28f555e95
-description: DisplayName （VotingOptionDataType）元素指定投票选项的显示名称。
-ms.openlocfilehash: 42291dc032517a13259fde01217b3543d3329f7d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DisplayName (VotingOptionDataType) 元素指定显示名称选项的名称。
+ms.openlocfilehash: a238421aa17f81a990e968a3094a352b27eeb82d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463599"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520845"
 ---
-# <a name="displayname-votingoptiondatatype"></a>DisplayName （VotingOptionDataType）
+# <a name="displayname-votingoptiondatatype"></a>DisplayName (VotingOptionDataType)
 
-**DisplayName （VotingOptionDataType）** 元素指定投票选项的显示名称。 
+DisplayName **(VotingOptionDataType)** 元素指定显示名称选项的名称。 
   
 ```XML
 <DisplayName />
@@ -42,7 +42,7 @@ ms.locfileid: "44463599"
   
 ## <a name="text-value"></a>文本值
 
-**DisplayName （VotingOptionDataType）** 元素的文本值是投票选项的显示名称。 
+**VotingOptionDataType** 元素的 DisplayName (是) 选项显示名称的文本值。 
   
 ## <a name="remarks"></a>说明
 

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ce3994c1-3bb4-4571-b026-34a6c5705410
-description: GetNonIndexableItemDetails 元素指定检索 nonindexable 项详细信息的请求。
-ms.openlocfilehash: 1c04b4cd7a86183210be869973c9779188fa0adf
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetNonIndexableItemDetails 元素指定检索不可检索的项目详细信息的请求。
+ms.openlocfilehash: 896b978b9b222454b9e3f016aa0593521e92e33d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458598"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533609"
 ---
 # <a name="getnonindexableitemdetails"></a>GetNonIndexableItemDetails
 
-**GetNonIndexableItemDetails**元素指定检索 nonindexable 项详细信息的请求。 
+**GetNonIndexableItemDetails** 元素指定检索不可检索的项目详细信息的请求。 
   
 ```XML
 <GetNonIndexableItemDetails>
@@ -41,16 +41,16 @@ ms.locfileid: "44458598"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[邮箱（NonEmptyArrayOfLegacyDNsType）](mailboxes-nonemptyarrayoflegacydnstype.md) <br/> |指定**邮箱**元素的数组。  <br/> |
-|[PageSize](pagesize.md) <br/> |包含要在单个页面中返回的搜索结果的项目数。  <br/> |
-|[PageItemReference](pageitemreference.md) <br/> |指定对页面项的引用。  <br/> |
-|[PageDirection](pagedirection.md) <br/> |包含在搜索结果中进行分页的方向。  <br/> |
+|[Mailboxes (NonEmptyArrayOfLegacyDNsType)](mailboxes-nonemptyarrayoflegacydnstype.md) <br/> |指定 Mailbox 元素 **的** 数组。  <br/> |
+|[PageSize](pagesize.md) <br/> |包含搜索结果的单个页面中要返回的项目数。  <br/> |
+|[PageItemReference](pageitemreference.md) <br/> |指定页面项的引用。  <br/> |
+|[PageDirection](pagedirection.md) <br/> |包含搜索结果中分页的方向。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -62,7 +62,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
-|验证文件  <br/> |消息 .xsd  <br/> |
+|验证文件  <br/> |messages.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

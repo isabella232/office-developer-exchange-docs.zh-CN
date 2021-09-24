@@ -1,27 +1,27 @@
 ---
-title: 类型（UserConfiguration）
+title: Type (UserConfiguration)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Type
 api_type:
 - schema
 ms.assetid: d09a9621-6950-451a-90dc-920af9cab35c
-description: Type 元素指定 dictionary 对象类型。
-ms.openlocfilehash: ea196e070279bb809cc2e4c2a51dd2453dd9b331
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Type 元素指定词典对象类型。
+ms.openlocfilehash: f0bafa9023a42fdf8464891e8df7931a0766b416
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458871"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538728"
 ---
-# <a name="type-userconfiguration"></a>类型（UserConfiguration）
+# <a name="type-userconfiguration"></a>Type (UserConfiguration)
 
-**Type**元素指定 dictionary 对象类型。 
+**Type** 元素指定词典对象类型。 
   
 ```xml
 <Type>DateTime or Boolean or Byte or String or Integer32 or UnsignedInteger32 or Integer64 or UnsignedInteger64 or StringArray or ByteArray</Type> 
@@ -42,21 +42,21 @@ ms.locfileid: "44458871"
   
 ### <a name="parent-elements"></a>父元素
 
-|**元素**|**描述**|
+|**元素**|**说明**|
 |:-----|:-----|
-|[DictionaryKey](dictionarykey.md) <br/> |指定 dictionary 属性的字典键。  <br/> |
-|[DictionaryValue](dictionaryvalue.md) <br/> |指定 dictionary 属性的字典值。  <br/> |
+|[DictionaryKey](dictionarykey.md) <br/> |指定字典属性的字典键。  <br/> |
+|[DictionaryValue](dictionaryvalue.md) <br/> |指定字典属性的字典值。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-下表列出了**Type**元素的可能值。 
+下表列出了 **Type** 元素的可能值。 
   
-**类型元素值**
+**Type 元素值**
 
 |**值**|**说明**|
 |:-----|:-----|
-|日期/时间  <br/> ||
-|Boolean  <br/> ||
+|日期时间  <br/> ||
+|布尔值  <br/> ||
 |字节  <br/> ||
 |String  <br/> ||
 |Integer32  <br/> ||
@@ -66,9 +66,9 @@ ms.locfileid: "44458871"
 |StringArray  <br/> ||
 |ByteArray  <br/> ||
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-描述此元素的架构位于运行 Microsoft Exchange Server 2010 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
+描述此元素的架构位于运行安装了客户端访问服务器角色的 Microsoft Exchange Server 2010 的计算机的 EWS 虚拟目录中。
   
 ## <a name="element-information"></a>元素信息
 

@@ -5,50 +5,50 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0cb5525f-faa3-48f1-9551-df55ffc26f46
 description: 查找有关 AddNewImContactToGroup EWS 操作的信息。
-ms.openlocfilehash: e91cc067b4161b366e6713a9adc16873e63b1562
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 0060b7a0f169e5d8ce0034625ea0c4b367521301
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465027"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520134"
 ---
 # <a name="addnewimcontacttogroup-operation"></a>AddNewImContactToGroup 操作
 
-查找有关**AddNewImContactToGroup** EWS 操作的信息。 
+查找有关 **AddNewImContactToGroup** EWS 操作的信息。 
   
-**AddNewImContactToGroup**操作将新联系人添加到即时消息（IM）组。 
+**AddNewImContactToGroup** 操作将新联系人添加到即时消息 (IM) 组中。 
   
 Exchange Server 2013 中引入了此操作。
   
 ## <a name="using-the-addnewimcontacttogroup-operation"></a>使用 AddNewImContactToGroup 操作
 
-**AddNewImContactToGroup**操作使用以下三个参数将新联系人添加到 IM 组： 
+**AddNewImContactToGroup** 操作采用以下三个参数将新联系人添加到 IM 组： 
   
-- **ImAddress**属性-标识联系人的 IM 地址。 此属性是必需的。 
+- **ImAddress** 属性 - 标识联系人的 IM 地址。 此属性是必需项。 
     
-- **DisplayName**属性-标识联系人的显示名称。 
+- **DisplayName** 属性 - 标识联系人显示名称。 
     
-- **GroupId**属性-标识将联系人添加到的组。 
+- **GroupId** 属性 - 标识将联系人添加到的组。 
     
-此操作将返回已添加到组中的联系人的角色。
+此操作返回已添加到组的联系人的人物。
   
 ### <a name="addnewimcontacttogroup-operation-soap-headers"></a>AddNewImContactToGroup 操作 SOAP 标头
 
-**AddNewImContactToGroup**操作可以使用下表中列出的 SOAP 标头。 
+**AddNewImContactToGroup** 操作可以使用下表中列出的 SOAP 标头。 
   
 |**标头名称**|**元素**|**说明**|
 |:-----|:-----|:-----|
-|**模拟** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |标识客户端应用程序模拟的用户。 此标头适用于请求。  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |确定用于访问邮箱的区域性（如 RFC 3066 中定义的用于标识语言的标记）。 此标头适用于请求。  <br/> |
+|**模拟** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |标识客户端应用程序正在模拟的用户。 此标头适用于请求。  <br/> |
+|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |标识用于访问邮箱的区域性，如 RFC 3066"语言标识标记"中的定义。 此标头适用于请求。  <br/> |
 |**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。 此标头适用于请求。  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器版本。 此标头适用于响应。  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器的版本。 此标头适用于响应。  <br/> |
    
-## <a name="addnewimcontacttogroup-operation-request-example-add-a-new-im-contact-to-a-group"></a>AddNewImContactToGroup 操作请求示例：向组添加新的 IM 联系人
+## <a name="addnewimcontacttogroup-operation-request-example-add-a-new-im-contact-to-a-group"></a>AddNewImContactToGroup 操作请求示例：向组添加新 IM 联系人
 
-以下示例的**AddNewImContactToGroup**操作请求显示如何将新联系人添加到现有 IM 组。 此示例的**GroupId**属性值是从[AddImGroup 操作](addimgroup-operation.md)的结果返回的。 **ExchangeStoreId**属性包含**GroupId**属性值。 
+**AddNewImContactToGroup** 操作请求的以下示例显示如何将新联系人添加到现有 IM 组。 此示例的 **GroupId** 属性值从 [AddImGroup 操作的结果中返回](addimgroup-operation.md)。 **ExchangeStoreId** 属性包含 **GroupId** 属性值。 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -74,13 +74,13 @@ Exchange Server 2013 中引入了此操作。
 ```
 
 > [!NOTE]
-> 为了保持可读性， **GroupId**值已缩短。 
+> **已缩短 GroupId** 值以保持可读性。 
   
 请求 SOAP 正文包含以下元素：
   
 - [AddNewImContactToGroup](addnewimcontacttogroup.md)
     
-- [ImAddress （字符串）](imaddress-string.md)
+- [ImAddress (String)](imaddress-string.md)
     
 - [显示名称 (字符串)](displayname-string.md)
     
@@ -88,10 +88,10 @@ Exchange Server 2013 中引入了此操作。
     
 ## <a name="successful-addnewimcontacttogroup-operation-response"></a>成功的 AddNewImContactToGroup 操作响应
 
-下面的示例演示对**AddNewImContactToGroup**操作请求的成功响应。 响应包含新创建的联系人的角色。 该联系人将添加到 Exchange 中的 "快速联系人" 文件夹中。 
+以下示例显示了对 **AddNewImContactToGroup** 操作请求的成功响应。 该响应包含新创建的联系人的人物。 联系人将添加到"快速联系人"文件夹中Exchange。 
   
 > [!NOTE]
-> 为了保持可读性，标识符已被缩短。 
+> 已缩短标识符以保持可读性。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -210,23 +210,23 @@ Exchange Server 2013 中引入了此操作。
     
 - [FileAsId](fileasid.md)
     
-- [EmailAddress （EmailAddressType）](emailaddress-emailaddresstype.md)
+- [EmailAddress (EmailAddressType)](emailaddress-emailaddresstype.md)
     
 - [名称 (EmailAddressType)](name-emailaddresstype.md)
     
-- [Address （string）](address-string.md)
+- [Address (string)](address-string.md)
     
-- [RoutingType （EmailAddressType）](routingtype-emailaddresstype.md)
+- [RoutingType (EmailAddressType)](routingtype-emailaddresstype.md)
     
-- [ImAddress （字符串）](imaddress-string.md)
+- [ImAddress (String)](imaddress-string.md)
     
 - [RelevanceScore](relevancescore.md)
     
-- [归属（ArrayOfPersonaAttributionsType）](attributions-arrayofpersonaattributionstype.md)
+- [Attributions (ArrayOfPersonaAttributionsType)](attributions-arrayofpersonaattributionstype.md)
     
-- [归属（PersonaAttributionType）](attribution-personaattributiontype.md)
+- [Attribution (PersonaAttributionType)](attribution-personaattributiontype.md)
     
-- [ID （字符串）](id-string.md)
+- [ID (String)](id-string.md)
     
 - [SourceId](sourceid.md)
     
@@ -242,7 +242,7 @@ Exchange Server 2013 中引入了此操作。
     
 - [StringAttributedValue](stringattributedvalue.md)
     
-- [Value （ArrayOfStringValueType）](value-arrayofstringvaluetype.md)
+- [Value (ArrayOfStringValueType)](value-arrayofstringvaluetype.md)
     
 - [FileAsIds](fileasids.md)
     
@@ -254,7 +254,7 @@ Exchange Server 2013 中引入了此操作。
     
 ## <a name="addnewimcontacttogroup-operation-error-response"></a>AddNewImContactToGroup 操作错误响应
 
-下面的示例演示对**AddNewImContactToGroup**操作请求的错误响应。 这是对向不在请求者邮箱中的组添加联系人的请求的响应。 
+以下示例显示对 **AddNewImContactToGroup** 操作请求的错误响应。 这是对将联系人添加到不在请求者邮箱中的组的请求的响应。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -297,7 +297,7 @@ Exchange Server 2013 中引入了此操作。
     
 - [MessageXml](messagexml.md)
     
-有关对 EWS 通用的其他错误代码以及特定于此操作的错误代码，请参阅[ResponseCode](responsecode.md)。
+有关 EWS 通用且特定于此操作的其他错误代码，请参阅 [ResponseCode](responsecode.md)。
   
 ## <a name="see-also"></a>另请参阅
 

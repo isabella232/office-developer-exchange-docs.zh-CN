@@ -1,23 +1,23 @@
 ---
-title: ErrorMessage （NonIndexableItemStatisticType）
+title: ErrorMessage (NonIndexableItemStatisticType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b676d5be-07f8-4b0b-80bc-28a79a4a7cf4
-description: ErrorMessage 元素包含描述某个项目不可编制索引的原因的错误消息。
-ms.openlocfilehash: f476793d647554f7e4be2d8d2dd415717674597c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ErrorMessage 元素包含一条错误消息，该消息描述项目无法编制索引的原因。
+ms.openlocfilehash: dbad5f17b7e94bbafe3a819ef03dfec7281006c7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460062"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520645"
 ---
-# <a name="errormessage-nonindexableitemstatistictype"></a>ErrorMessage （NonIndexableItemStatisticType）
+# <a name="errormessage-nonindexableitemstatistictype"></a>ErrorMessage (NonIndexableItemStatisticType)
 
-**ErrorMessage**元素包含描述某个项目不可编制索引的原因的错误消息。 
+**ErrorMessage** 元素包含一条错误消息，该消息描述项目无法编制索引的原因。 
   
 ```XML
 <ErrorMessage></ErrorMessage>
@@ -42,9 +42,9 @@ ms.locfileid: "44460062"
   
 ## <a name="text-value"></a>文本值
 
-**ErrorMessage**元素的文本值是一条错误消息，描述了为什么某个项目是不可编制索引的。 
+**ErrorMessage** 元素的文本值是一条错误消息，描述项目无法编制索引的原因。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

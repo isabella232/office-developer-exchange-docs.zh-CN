@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ddeb11db-797d-4939-91d5-3e44be5f0778
 description: HasBlockedImages 元素指定一个布尔值，该值指示项目是否已阻止图像。
-ms.openlocfilehash: 370ab4b12ae841815faa344b2fd3a6d3ddc16bcb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 1f4031f95ce5040eabf6993320a184afaf469bd1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462792"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59537832"
 ---
 # <a name="hasblockedimages"></a>HasBlockedImages
 
-**HasBlockedImages**元素指定一个布尔值，该值指示项目是否已阻止图像。 
+**HasBlockedImages** 元素指定一个布尔值，该值指示项目是否已阻止图像。 
   
 ```XML
 <HasBlockedImages> true | false </HasBlockedImages>
@@ -40,13 +40,13 @@ ms.locfileid: "44462792"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Item](item.md) <br/> |表示 Exchange 存储中的一般项目。  <br/> |
+|[Item](item.md) <br/> |表示活动存储中的Exchange项。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-如果**HasBlockedImages**元素的文本值为**true** ，则表示该项目具有阻止的图像。 **如果值为 false** ，则表示项目没有任何被阻止的图像。 
+**HasBlockedImages** 元素的文本值 **true** 指示项目已阻止图像。 false **值表示** 该项没有任何被阻止的图像。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -58,7 +58,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

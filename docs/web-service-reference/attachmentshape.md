@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AttachmentShape
 api_type:
 - schema
 ms.assetid: 734914b5-3a16-4744-90a5-741fd30c4676
-description: AttachmentShape 元素标识要在 GetAttachment 请求的响应中返回的其他属性。
-ms.openlocfilehash: e70fbaad0f649c5afdc151b777efef0f8927ba1c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: AttachmentShape 元素标识响应 GetAttachment 请求时要返回的其他属性。
+ms.openlocfilehash: 2c7ceb25f481ec07577117e46e26537e657e18c7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529663"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520036"
 ---
 # <a name="attachmentshape"></a>AttachmentShape
 
-**AttachmentShape**元素标识要在[GetAttachment](getattachment.md)请求的响应中返回的其他属性。 
+**AttachmentShape** 元素标识响应 [GetAttachment](getattachment.md)请求时要返回的其他属性。 
   
 - [GetAttachment](getattachment.md)
   
@@ -49,22 +49,22 @@ ms.locfileid: "44529663"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[IncludeMimeContent](includemimecontent.md) <br/> |指定响应中是否返回项目或附件的多用途 Internet 邮件扩展（MIME）内容。 此元素为可选。  <br/> |
-|[BodyType](bodytype.md) <br/> |标识正文文本在响应中的格式。 此元素为可选。  <br/> |
-|[FilterHtmlContent](filterhtmlcontent.md) <br/> |指定是否从附件中筛选出可能不安全的 HTML 内容。 此元素为可选。  <br/> |
-|[AdditionalProperties](additionalproperties.md) <br/> |标识要在响应中返回的其他属性。 此元素为可选。  <br/> |
+|[IncludeMimeContent](includemimecontent.md) <br/> |指定是否在响应中返回项目或 (MIME) 多用途 Internet 邮件扩展或 MIME 邮件扩展。 此元素为可选。  <br/> |
+|[BodyType](bodytype.md) <br/> |标识如何在响应中设置正文文本的格式。 此元素为可选。  <br/> |
+|[FilterHtmlContent](filterhtmlcontent.md) <br/> |指定是否从附件筛选可能不安全的 HTML 内容。 此元素为可选。  <br/> |
+|[AdditionalProperties](additionalproperties.md) <br/> |标识响应中要返回的其他属性。 此元素为可选。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GetAttachment](getattachment.md) <br/> |定义从 Exchange 存储中的邮箱获取附件的请求的元素。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/GetAttachment` <br/> |
+|[GetAttachment](getattachment.md) <br/> |定义从邮箱存储中的邮箱获取附件Exchange元素。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/GetAttachment` <br/> |
    
 ## <a name="text-value"></a>文本值
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

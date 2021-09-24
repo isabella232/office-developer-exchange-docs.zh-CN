@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a3ab9bcf-7dab-44f0-9ab6-b06543c0fdc2
-description: PostOfficeBox 元素指定邮寄地址的 thepost office boxportion。
-ms.openlocfilehash: dede39a7b053172157858686f8287466f982c4ab
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: PostOfficeBox 元素指定邮政地址的邮政信箱。
+ms.openlocfilehash: 850b0bdb2c7b8fd167415cc2883c82e1aee37dab
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458024"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512602"
 ---
 # <a name="postofficebox"></a>PostOfficeBox
 
-**PostOfficeBox**元素指定邮寄地址的 "邮政信箱" 部分。 
+**PostOfficeBox** 元素指定邮政地址的"邮政信箱"部分。 
   
 ```XML
 <PostOfficeBox></PostOfficeBox>
@@ -38,13 +38,13 @@ ms.locfileid: "44458024"
   
 ### <a name="parent-elements"></a>父元素
 
-[省略（PersonaPostalAddressType）](postaladdress-personapostaladdresstype.md)  | [Value （PersonaPostalAddressType）](value-personapostaladdresstype.md)
+[PostalAddress (PersonaPostalAddressType) ](postaladdress-personapostaladdresstype.md)  | [Value (PersonaPostalAddressType) ](value-personapostaladdresstype.md)
   
 ## <a name="text-value"></a>文本值
 
-**PostOfficeBox**元素的文本值是邮局盒标识符。 
+**PostOfficeBox** 元素的文本值是邮政信箱标识符。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

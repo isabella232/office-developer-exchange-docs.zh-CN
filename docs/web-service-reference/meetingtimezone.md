@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MeetingTimeZone
 api_type:
 - schema
 ms.assetid: 413b47d9-8126-462c-9a4f-4e771a5e8889
-description: MeetingTimeZone 元素表示会议的托管位置的时区。
-ms.openlocfilehash: aef4ac4e7571ded6920cbaf90e2895d421068f55
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: MeetingTimeZone 元素表示承载会议的位置的时区。
+ms.openlocfilehash: 5920e05b09ff02fafe58f38e94e3671a8234fd21
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465469"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532446"
 ---
 # <a name="meetingtimezone"></a>MeetingTimeZone
 
-**MeetingTimeZone**元素表示会议的托管位置的时区。 
+**MeetingTimeZone** 元素表示承载会议的位置的时区。 
   
 ```xml
 <MeetingTimeZone>
@@ -46,9 +46,9 @@ ms.locfileid: "44465469"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[BaseOffset](baseoffset.md) <br/> |表示当前时区与 UTC 的每小时偏移量。  <br/> |
+|[BaseOffset](baseoffset.md) <br/> |表示当前时区每小时与 UTC 的偏移量。  <br/> |
 |[标准](standard.md) <br/> |表示当时间从夏令时更改为标准时间时的日期和时间。  <br/> |
-|[夏时制](daylight.md) <br/> |表示时间从标准时间更改为夏时制的日期和时间。  <br/> |
+|[夏时制](daylight.md) <br/> |表示从标准时间到夏令时的时间更改的日期和时间。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 

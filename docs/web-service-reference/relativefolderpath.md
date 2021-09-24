@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 54e3ba52-08a6-4d48-8a44-6fd5fdbffb25
-description: RelativeFolderPath 元素包含一个文件夹数组，这些文件夹指示要创建的文件夹路径的相对文件夹路径。
-ms.openlocfilehash: 8a0fc0020943afdbe6cd4c79d51d61337f8dd329
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: RelativeFolderPath 元素包含一个文件夹数组，该数组指示要创建的文件夹路径的相对文件夹路径。
+ms.openlocfilehash: f9a1f193678e9dbd7686376c630ab2fbd0eaf1bd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457156"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513456"
 ---
 # <a name="relativefolderpath"></a>RelativeFolderPath
 
-**RelativeFolderPath**元素包含一个文件夹数组，这些文件夹指示要创建的文件夹路径的相对文件夹路径。 
+**RelativeFolderPath** 元素包含一个文件夹数组，该数组指示要创建的文件夹路径的相对文件夹路径。 
   
 ```XML
 <RelativeFolderPath>
@@ -40,13 +40,13 @@ ms.locfileid: "44457156"
   
 ### <a name="child-elements"></a>子元素
 
-[文件夹](folder.md)  | [CalendarFolder](calendarfolder.md)  | [ContactsFolder](contactsfolder.md)  | [SearchFolder](searchfolder.md)  | [TasksFolder](tasksfolder.md)
+[Folder](folder.md)  | [CalendarFolder](calendarfolder.md)  | [ContactsFolder](contactsfolder.md)  | [SearchFolder](searchfolder.md)  | [TasksFolder](tasksfolder.md)
   
 ### <a name="parent-elements"></a>父元素
 
 [CreateFolderPath](createfolderpath.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

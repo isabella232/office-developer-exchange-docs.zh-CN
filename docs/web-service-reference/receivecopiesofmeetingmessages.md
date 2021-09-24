@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ReceiveCopiesOfMeetingMessages
 api_type:
 - schema
 ms.assetid: 65217ca8-6aea-47eb-a989-e6cce25f5f09
-description: ReceiveCopiesOfMeetingMessages 元素指示代理是否接收发往主体的与会议相关的邮件的副本。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
-ms.openlocfilehash: af6e220304f88c4db00ab675077dcd9bf581ea9e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ReceiveCopiesOfMeetingMessages 元素指示代理是否接收发送给主体的会议相关邮件的副本。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
+ms.openlocfilehash: 0ce5d15fbe5111bf319cfaf3dd7ed520c24ea77b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468262"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512552"
 ---
 # <a name="receivecopiesofmeetingmessages"></a>ReceiveCopiesOfMeetingMessages
 
-**ReceiveCopiesOfMeetingMessages**元素指示代理是否接收发往主体的与会议相关的邮件的副本。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
+**ReceiveCopiesOfMeetingMessages** 元素指示代理是否接收发送给主体的会议相关邮件的副本。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
   
 ```xml
 <ReceiveCopiesOfMeetingMessages>true or false</ReceiveCopiesOfMeetingMessages>
@@ -44,15 +44,15 @@ ms.locfileid: "44468262"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[DelegateUser](delegateuser.md) <br/> |标识要在邮箱中添加或更新的单个代理。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
+|[DelegateUser](delegateuser.md) <br/> |标识要添加或更新邮箱中的单个代理。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-如果文本值为**true，则**表示代理将接收会议邮件的副本。 如果文本值为**false** ，则表示代理不会收到会议邮件的副本。 
+文本值 **true** 表示代理接收会议邮件的副本。 文本值 **false** 表示代理未收到会议消息的副本。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-当**ReceiveCopiesOfMeetingMessages**设置为**false**时，代理仍可以代表主体发送邮件，但不会收到任何与会议相关的邮件。
+当 **ReceiveCopiesOfMeetingMessages** 设置为 **false** 时，代理仍可代表主体发送邮件，但是不会收到任何与会议相关的消息。
   
 描述此元素的架构位于正在运行 Microsoft Exchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -77,5 +77,5 @@ ms.locfileid: "44468262"
 - [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 
 
-[添加委派](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
+[添加代理人](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
 

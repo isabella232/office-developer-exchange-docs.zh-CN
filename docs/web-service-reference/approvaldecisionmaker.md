@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 12e055c3-e7a4-4dbc-8385-bbf69571a0ce
-description: ApprovalDecisionMaker 元素指定做出审批决策的人员的显示名称。
-ms.openlocfilehash: d64b9d1816d4df99093ef4d60610e9946f3f98ec
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ApprovalDecisionMaker 元素显示名称做出审批决定的人的级别。
+ms.openlocfilehash: e81bd3bd10febde73ebae50ec6b3c15413c31c86
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461644"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520057"
 ---
 # <a name="approvaldecisionmaker"></a>ApprovalDecisionMaker
 
-**ApprovalDecisionMaker**元素指定做出审批决策的人员的显示名称。 
+**ApprovalDecisionMaker** 元素显示名称做出审批决定的人的级别。 
   
 ```XML
 <ApprovalDecisionMaker />
@@ -42,7 +42,7 @@ ms.locfileid: "44461644"
   
 ## <a name="text-value"></a>文本值
 
-**ApprovalDecisionMaker**元素的文本值是一个显示名称。 
+**ApprovalDecisionMaker** 元素的文本值是显示名称。 
   
 ## <a name="remarks"></a>说明
 

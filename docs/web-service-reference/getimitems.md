@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 455e5709-6c06-49fd-bfb2-403fc912287c
-description: GetImItems request 元素定义一个请求，以获取有关指定的即时消息组和即时消息联系人角色的信息。
-ms.openlocfilehash: e3973cbbf800ffe91472b9c733c4d4a927b91c9f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetImItems 请求元素定义一个请求，用于获取有关指定的即时消息组和即时消息联系人角色的信息。
+ms.openlocfilehash: 99be8e898623b5bc8c517886132b77da40a7fb1e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456449"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513589"
 ---
 # <a name="getimitems"></a>GetImItems
 
-**GetImItems** request 元素定义一个请求，以获取有关指定的即时消息组和即时消息联系人角色的信息。 
+**GetImItems** 请求元素定义一个请求，用于获取有关指定的即时消息组和即时消息联系人角色的信息。 
   
 ```XML
 <GetImItems>
@@ -38,13 +38,13 @@ ms.locfileid: "44456449"
   
 ### <a name="child-elements"></a>子元素
 
-[ContactIds](contactids.md)  | [Groupid](groupids.md)  | [ExtendedProperties （NonEmptyArrayOfExtendedFieldURIs）](extendedproperties-nonemptyarrayofextendedfielduris.md)
+[ContactIds](contactids.md)  | [GroupIds](groupids.md)  | [ExtendedProperties (NonEmptyArrayOfExtendedFieldURIs) ](extendedproperties-nonemptyarrayofextendedfielduris.md)
   
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -56,7 +56,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
-|验证文件  <br/> |消息 .xsd  <br/> |
+|验证文件  <br/> |messages.xsd  <br/> |
 |可以为空  <br/> ||
    
 

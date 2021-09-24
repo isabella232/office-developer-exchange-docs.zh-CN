@@ -1,24 +1,24 @@
 ---
-title: ProtocolConnections （SOAP）
+title: ProtocolConnections (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: afcacecd-f081-4419-a6d5-e45070839f9a
 description: ProtocolConnections 元素包含零个或多个协议连接。
-ms.openlocfilehash: 6272bdf3aec8ba6572b07659416413c393954d93
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 8f4fdc18c0c9b3e5b39424e6360641b51890c602
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457758"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532287"
 ---
-# <a name="protocolconnections-soap"></a>ProtocolConnections （SOAP）
+# <a name="protocolconnections-soap"></a>ProtocolConnections (SOAP)
 
-**ProtocolConnections**元素包含零个或多个协议连接。 
+**ProtocolConnections** 元素包含零个或多个协议连接。 
   
 ```XML
 <ProtocolConnections>
@@ -39,13 +39,13 @@ ms.locfileid: "44457758"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ProtocolConnections （SOAP）](protocolconnections-soap.md) <br/> |包含零个或多个协议连接。  <br/> |
+|[ProtocolConnections (SOAP)](protocolconnections-soap.md) <br/> |包含零个或多个协议连接。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ProtocolConnectionCollectionSetting （SOAP）](protocolconnectioncollectionsetting-soap.md) <br/> |表示服务器协议连接设置的集合。  <br/> |
+|[ProtocolConnectionCollectionSetting (SOAP)](protocolconnectioncollectionsetting-soap.md) <br/> |表示服务器协议连接设置的集合。  <br/> |
    
 ## <a name="text-value"></a>文本值
 

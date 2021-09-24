@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 410efc09-5c38-46fb-85b5-eb365be0ba35
-description: HomeCity 元素指定关联角色的住宅地址所在的城市。
-ms.openlocfilehash: 25fccaf0441fa3d9e258ae35f938ad0fc7a5a9eb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: HomeCity 元素指定关联人物住宅地址的城市。
+ms.openlocfilehash: 6704bec857f3978c54774a6a985fa65021120ce1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460867"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59537805"
 ---
 # <a name="homecity"></a>HomeCity
 
-**HomeCity**元素指定关联角色的住宅地址所在的城市。 
+**HomeCity** 元素指定关联人物住宅地址的城市。 
   
 ```XML
 <HomeCity></HomeCity>
@@ -40,13 +40,13 @@ ms.locfileid: "44460867"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[角色](persona.md) <br/> |指定由**GetPersona**请求返回的一组角色数据。  <br/> |
+|[角色](persona.md) <br/> |指定由 **GetPersona** 请求返回的一组人员数据。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**HomeCity**元素的文本值是一个指定城市的字符串值。 
+**HomeCity** 元素的文本值是一个字符串值，用于指定城市。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -58,7 +58,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

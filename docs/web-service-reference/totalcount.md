@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - TotalCount
 api_type:
 - schema
 ms.assetid: c48c6388-8449-4622-bc38-6f0e84293872
-description: TotalCount 元素表示给定文件夹中项的总计数。
-ms.openlocfilehash: 3d068b558cddf73265b6bbff9fb0760738e54cec
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: TotalCount 元素表示给定文件夹中的项目总数。
+ms.openlocfilehash: d17e2c10fa1d542225f33ab61a934fdf832ad6fc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467520"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538770"
 ---
 # <a name="totalcount"></a>TotalCount
 
-**TotalCount**元素表示给定文件夹中项的总计数。 
+**TotalCount** 元素表示给定文件夹中的项目总数。 
   
 ```xml
 <TotalCount/>
@@ -45,14 +45,14 @@ ms.locfileid: "44467520"
 |**元素**|**说明**|
 |:-----|:-----|
 |[Folder](folder.md) <br/> |表示邮箱中的文件夹。  <br/> |
-|[CalendarFolder](calendarfolder.md) <br/> |代表邮箱中的 "日历" 文件夹。  <br/> |
-|[ContactsFolder](contactsfolder.md) <br/> |表示邮箱中的 "联系人" 文件夹。  <br/> |
+|[CalendarFolder](calendarfolder.md) <br/> |表示邮箱中的日历文件夹。  <br/> |
+|[ContactsFolder](contactsfolder.md) <br/> |表示邮箱中的联系人文件夹。  <br/> |
 |[SearchFolder](searchfolder.md) <br/> |表示邮箱中的搜索文件夹。  <br/> |
 |[TasksFolder](tasksfolder.md) <br/> |表示邮箱中的任务文件夹。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-该文本值表示一个整数值。 此属性是只读的。
+文本值表示整数值。 此属性是只读的。
   
 ## <a name="remarks"></a>说明
 

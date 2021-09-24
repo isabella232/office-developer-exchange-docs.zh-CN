@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - HasBeenProcessed
 api_type:
 - schema
 ms.assetid: 46d4af8e-0f11-4a74-9365-1d983731fed8
 description: HasBeenProcessed 元素指示是否已处理会议邮件项目。
-ms.openlocfilehash: 7251ca86e07a0b72c186c65094b6469331dfd12e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 0eca17dbcc5e26e01798b5ac88b4e1b4f705f45b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462891"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533094"
 ---
 # <a name="hasbeenprocessed"></a>HasBeenProcessed
 
-**HasBeenProcessed**元素指示是否已处理会议邮件项目。 
+**HasBeenProcessed** 元素指示是否已处理会议邮件项目。 
   
 ```xml
 <HasBeenProcessed/>
@@ -51,7 +51,7 @@ ms.locfileid: "44462891"
    
 ## <a name="text-value"></a>文本值
 
-如果文本值为**true** ，则表示已处理会议邮件。 
+如果文本值为 **true，** 则表明已处理会议邮件。 
   
 ## <a name="remarks"></a>说明
 

@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetItem
 api_type:
 - schema
 ms.assetid: 6b96dace-1260-4b83-869a-7c31c5583daa
-description: GetItem 操作用于从 Exchange 存储中获取联系人项目。
-ms.openlocfilehash: 93e8dbe28e130ab64d4b8d12d2befde1f77ae8fa
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetItem 操作用于从应用商店获取联系人Exchange项。
+ms.openlocfilehash: 1a055791f1b6dd5085ae914c1f7b2ae7e97d6090
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460020"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520533"
 ---
 # <a name="getitem-operation-contact"></a>GetItem 操作（联系人）
 
-GetItem 操作用于从 Exchange 存储中获取联系人项目。
+GetItem 操作用于从应用商店获取联系人Exchange项。
   
-## <a name="getitem-contact-request-example"></a>GetItem （Contact）请求示例
+## <a name="getitem-contact-request-example"></a>GetItem (Contact) 请求示例
 
 ### <a name="description"></a>Description
 
-下面的示例演示如何从 Exchange 存储中获取项目。
+以下示例演示如何从应用商店获取Exchange项。
   
 ### <a name="code"></a>代码
 
@@ -51,14 +51,14 @@ GetItem 操作用于从 Exchange 存储中获取联系人项目。
 
 ### <a name="comments"></a>备注
 
-从 Exchange 存储区获取项目的请求将为所有项目类型采用相同的表单。 对不同项目的请求的响应将有所不同，因为不同的项目会返回基于响应形状的不同信息。
+从项目存储获取Exchange请求采用所有项目类型的相同形式。 对不同项目请求的响应将有所不同，因为不同的项目根据响应形状返回不同的信息。
   
 > [!NOTE]
-> 项目标识符已缩短，以保持可读性。 
+> 已缩短项目标识符以保持可读性。 
   
-### <a name="request-elements"></a>Request 元素
+### <a name="request-elements"></a>请求元素
 
-请求中使用以下元素：
+请求中会使用下列元素：
   
 - [GetItem](getitem.md)
     
@@ -70,11 +70,11 @@ GetItem 操作用于从 Exchange 存储中获取联系人项目。
     
 - [ItemId](itemid.md)
     
-## <a name="successful-getitem-contact-response"></a>成功的 GetItem （联系人）响应
+## <a name="successful-getitem-contact-response"></a>成功的 GetItem (Contact) Response
 
 ### <a name="description"></a>Description
 
-下面的代码示例演示了对**AllProperties**[BaseShape](baseshape.md)的成功的 GetItem 响应。
+下面的代码示例演示 **AllProperties**[BaseShape](baseshape.md)的 GetItem 响应成功。
   
 ### <a name="code"></a>代码
 
@@ -153,11 +153,11 @@ GetItem 操作用于从 Exchange 存储中获取联系人项目。
 
 ### <a name="comments"></a>备注
 
-项目标识符已缩短，以保持可读性。
+已缩短项目标识符以保持可读性。
   
 ### <a name="successful-response-elements"></a>成功的响应元素
 
-以下元素用于响应 GetItem 请求，其中包含联系人项目的**AllProperties**的响应形状。 
+以下元素用于对 GetItem 请求的响应，该请求的响应形状为联系人项目的 **AllProperties。** 
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -181,11 +181,11 @@ GetItem 操作用于从 Exchange 存储中获取联系人项目。
     
 - [Sensitivity](sensitivity.md)
     
-- [Body](body.md)
+- [正文](body.md)
     
 - [DateTimeReceived](datetimereceived.md)
     
-- [大小](size.md)
+- [尺寸](size.md)
     
 - [Importance](importance.md)
     
@@ -229,33 +229,33 @@ GetItem 操作用于从 Exchange 存储中获取联系人项目。
     
 - [EmailAddresses](emailaddresses.md)
     
-- [条目（EmailAddress）](entry-emailaddress.md)
+- [Entry (EmailAddress)](entry-emailaddress.md)
     
 - [PhysicalAddresses](physicaladdresses.md)
     
-- [条目（PhysicalAddress）](entry-physicaladdress.md)
+- [Entry (PhysicalAddress)](entry-physicaladdress.md)
     
-- [地址](street.md)
+- [Street](street.md)
     
 - [市/县](city.md)
     
-- [State](state-ex15websvcsotherref.md)
+- [状态](state-ex15websvcsotherref.md)
     
 - [CountryOrRegion](countryorregion.md)
     
 - [PhoneNumbers](phonenumbers.md)
     
-- [条目（PhoneNumber）](entry-phonenumber.md)
+- [Entry (PhoneNumber)](entry-phonenumber.md)
     
 - [JobTitle](jobtitle.md)
     
-- [姓氏](surname.md)
+- [Surname](surname.md)
     
-## <a name="invalid-getitem-contact-request-example"></a>无效的 GetItem （Contact）请求示例
+## <a name="invalid-getitem-contact-request-example"></a>无效的 GetItem (Contact) 请求示例
 
 ### <a name="description"></a>Description
 
-下面的代码示例演示一个无效请求。
+以下代码示例演示了无效的请求。
   
 ### <a name="code"></a>代码
 
@@ -280,13 +280,13 @@ GetItem 操作用于从 Exchange 存储中获取联系人项目。
 
 ### <a name="comments"></a>备注
 
-项目标识符已缩短，以保持可读性。
+已缩短项目标识符以保持可读性。
   
-## <a name="getitem-contact-error-response"></a>GetItem （联系人）错误响应
+## <a name="getitem-contact-error-response"></a>GetItem (Contact) 错误响应
 
 ### <a name="description"></a>Description
 
-下面的代码示例演示对 GetItem （联系人）请求的错误响应。
+以下代码示例显示对 GetItem 联系人请求 (错误) 响应。
   
 ### <a name="code"></a>代码
 
@@ -318,7 +318,7 @@ GetItem 操作用于从 Exchange 存储中获取联系人项目。
 
 ### <a name="error-response-elements"></a>错误响应元素
 
-错误响应中使用以下元素：
+错误响应中会使用下列元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     

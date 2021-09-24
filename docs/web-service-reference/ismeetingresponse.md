@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsMeetingResponse
 api_type:
 - schema
 ms.assetid: 85090943-81c6-4fbe-a2db-007dced6a4cf
 description: IsMeetngResponsequest 元素指示传入的邮件是否必须是会议响应，以便条件或例外情况适用。
-ms.openlocfilehash: 40714b7e926768f55207d870b79f21f07163bb37
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: ff6008eef7ae5198738e68db62303b06a619e41d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465931"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532749"
 ---
 # <a name="ismeetingresponse"></a>IsMeetingResponse
 
-**IsMeetngResponsequest**元素指示传入的邮件是否必须是会议响应，以便条件或例外情况适用。 
+**IsMeetngResponsequest** 元素指示传入的邮件是否必须是会议响应，以便条件或例外情况适用。 
   
 ```XML
 <IsMeetingResponse/>true | false</IsMeetingResponse>
@@ -45,11 +45,11 @@ ms.locfileid: "44465931"
 |**元素**|**说明**|
 |:-----|:-----|
 |[条件](conditions.md) <br/> |表示履行时将触发规则的规则操作的条件。  <br/> |
-|[异常](exceptions.md) <br/> |代表收件箱规则的所有可用的规则例外条件。  <br/> |
+|[异常](exceptions.md) <br/> |代表收件箱规则的所有可用规则例外条件。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-如果文本值为**true** ，则表示邮件必须是会议响应，以便条件或例外情况适用。 如果文本值为**false** ，则表示邮件必须不是会议响应，以便条件或例外情况适用。 
+如果文本值为 **true，** 则表明邮件必须是会议响应才能应用条件或例外。 文本值 **false** 指示邮件不能是会议响应，以便条件或例外情况适用。 
   
 ## <a name="remarks"></a>说明
 

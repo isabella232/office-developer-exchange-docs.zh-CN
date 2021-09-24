@@ -1,34 +1,34 @@
 ---
-title: 使用 Exchange 中的 EWS 获取有关邮箱事件的通知
+title: 在 Exchange 上使用 EWS 时关于邮箱事件的拉取通知
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: eb25cbd1-2244-4c3f-a71a-5ee20f81c41f
 description: 了解如何使用 EWS 托管 API 或 EWS 订阅拉取通知和获取事件。
-ms.openlocfilehash: 3d77c0d4efb8fc853eea64ff2429af5c3dbead27
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: eb694eddd16567e42ccc43b2854f0432c54dc6b1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456726"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513099"
 ---
-# <a name="pull-notifications-about-mailbox-events-by-using-ews-in-exchange"></a>使用 Exchange 中的 EWS 获取有关邮箱事件的通知
+# <a name="pull-notifications-about-mailbox-events-by-using-ews-in-exchange"></a>在 Exchange 上使用 EWS 时关于邮箱事件的拉取通知
 
 了解如何使用 EWS 托管 API 或 EWS 订阅拉取通知和获取事件。
   
-Exchange 中的 EWS 使用拉取通知，使客户端能够请求（或拉取）对邮箱的更改通知到客户端。
+EWS in Exchange uses pull notifications to enable clients to request (or pull) notifications about changes to the mailbox from the server to the client.
   
-如果你正在订阅使用 EWS 托管 API 请求获取通知，请使用[SubscribeToPullNotifications](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.subscribetopullnotifications%28v=exchg.80%29.aspx)方法[订阅并获取拉取通知](how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_cepullewsma)。 然后，通过使用[GetEvents](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.pullsubscription.getevents%28v=exchg.80%29.aspx)方法从服务器获取事件。 
+如果要使用 EWS 托管 API 订阅拉取通知，可以使用[SubscribeToPullNotifications](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.subscribetopullnotifications%28v=exchg.80%29.aspx)方法订阅并获取拉取通知。 [](how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_cepullewsma) 然后，使用 [GetEvents](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.pullsubscription.getevents%28v=exchg.80%29.aspx) 方法从服务器获取事件。 
   
-若要使用 EWS 订阅拉取通知，请使用[订阅操作](https://msdn.microsoft.com/library/f17c3d08-c79e-41f1-ba31-6e41e7aafd87%28Office.15%29.aspx)[创建订阅](how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_cepullews)，分析响应，然后使用[GetEvents 操作](https://msdn.microsoft.com/library/f268efe5-9a1a-41a2-b6a6-51fcde7720a1%28Office.15%29.aspx)[获取通知](how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_getpull)。
+若要使用 EWS 订阅拉取通知，[](how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_cepullews)可以使用[Subscribe](https://msdn.microsoft.com/library/f17c3d08-c79e-41f1-ba31-6e41e7aafd87%28Office.15%29.aspx)操作创建订阅，分析响应，然后使用[GetEvents](https://msdn.microsoft.com/library/f268efe5-9a1a-41a2-b6a6-51fcde7720a1%28Office.15%29.aspx)操作获取通知。 [](how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_getpull)
   
-在客户端收到在服务器上发生更改或创建的项目的通知后，它便可以[同步更改](how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_nextsteps)。
+客户端收到服务器上更改或创建的项目通知后，可以 [同步更改](how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_nextsteps)。
   
 ## <a name="subscribe-to-and-get-pull-notifications-by-using-the-ews-managed-api"></a>使用 EWS 托管 API 订阅和获取拉取通知
 <a name="bk_cepullewsma"> </a>
 
-下面的代码示例演示如何使用[SubscribeToPullNotifications](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.subscribetopullnotifications%28v=exchg.80%29.aspx)方法为 "收件箱" 文件夹中的所有事件订阅 pull 通知。 然后，该示例使用[GetEvents](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.pullsubscription.getevents%28v=exchg.80%29.aspx)方法从服务器检索事件。 在此示例中，我们假定**服务**是有效的[ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)绑定。 
+以下代码示例演示如何使用 [SubscribeToPullNotifications](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.subscribetopullnotifications%28v=exchg.80%29.aspx) 方法订阅"收件箱"文件夹中所有事件的拉取通知。 然后，该示例使用 [GetEvents](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.pullsubscription.getevents%28v=exchg.80%29.aspx) 方法从服务器检索事件。 在此例中，我们假定 **服务** 是有效的 [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) 绑定。 
   
 ```cs
 // Subscribe to pull notifications in the Inbox.
@@ -41,12 +41,12 @@ PullSubscription subscription = service.SubscribeToPullNotifications(
 GetEventsResults events = subscription.GetEvents(); 
 ```
 
-从服务器接收到事件后，可以[将这些更改与服务器同步](how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_nextsteps)。 使用在 "[如何取消订阅通知？](notification-subscriptions-mailbox-events-and-ews-in-exchange.md#bk_notifunsubscribe) " 中指定的取消订阅方法之一，以便在不再需要订阅时结束与服务器的订阅。 
+从服务器接收事件后，可以将 [这些更改与服务器同步](how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_nextsteps)。 使用如何取消订阅通知 [？](notification-subscriptions-mailbox-events-and-ews-in-exchange.md#bk_notifunsubscribe) 中指定的取消订阅方法之一，在不再需要订阅时终止服务器订阅。 
   
 ## <a name="subscribe-to-pull-notifications-by-using-ews"></a>使用 EWS 订阅拉取通知
 <a name="bk_cepullews"> </a>
 
-下面的示例演示使用[订阅操作](https://msdn.microsoft.com/library/f17c3d08-c79e-41f1-ba31-6e41e7aafd87%28Office.15%29.aspx)发送到服务器以订阅 "收件箱" 文件夹中所有[EventTypes](https://msdn.microsoft.com/library/29ded9e5-f191-4aa3-bc3e-500de2fc8818%28Office.15%29.aspx)的 XML 请求。 这也是在通过使用[SubscribeToPullNotifications](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.subscribetopullnotifications%28v=exchg.80%29.aspx)方法订阅拉取通知时，EWS 托管 API 发送的 XML 请求。 
+以下示例显示通过使用 Subscribe 操作发送到服务器以订阅收件箱文件夹中的所有 [EventTypes](https://msdn.microsoft.com/library/29ded9e5-f191-4aa3-bc3e-500de2fc8818%28Office.15%29.aspx) 的 XML [请求](https://msdn.microsoft.com/library/f17c3d08-c79e-41f1-ba31-6e41e7aafd87%28Office.15%29.aspx)。 这也是 EWS 托管 API 在订阅使用 [SubscribeToPullNotifications](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.subscribetopullnotifications%28v=exchg.80%29.aspx) 方法拉取通知时发送的 XML 请求。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -70,7 +70,7 @@ GetEventsResults events = subscription.GetEvents();
 </Subscribe>
 ```
 
-下面的 XML 示例显示从服务器发送到客户端以响应**订阅**操作请求的[SubscribeResponse](https://msdn.microsoft.com/library/fd87e9b7-c231-44fa-9f5b-19ae96cda5cc%28Office.15%29.aspx)消息。 [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx)元素的 NoError 值的包含意味着已成功创建订阅。 [SubscriptionId](https://msdn.microsoft.com/library/77c0abab-69e8-428e-8c20-22258e4ef71b%28Office.15%29.aspx)元素唯一标识服务器上的拉取通知订阅。 [水印](https://msdn.microsoft.com/library/e1545046-94f9-4ac7-af1c-ea81dfb6822c%28Office.15%29.aspx)元素表示邮箱事件队列中的书签。 
+以下 XML 示例显示了为响应 Subscribe 操作请求而从服务器发送到客户端的[SubscribeResponse](https://msdn.microsoft.com/library/fd87e9b7-c231-44fa-9f5b-19ae96cda5cc%28Office.15%29.aspx)消息。  包含 [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) 元素的 NoError 值意味着订阅已成功创建。 [SubscriptionId](https://msdn.microsoft.com/library/77c0abab-69e8-428e-8c20-22258e4ef71b%28Office.15%29.aspx)元素唯一标识服务器上拉取通知订阅。 [Watermark](https://msdn.microsoft.com/library/e1545046-94f9-4ac7-af1c-ea81dfb6822c%28Office.15%29.aspx)元素表示邮箱事件队列中的书签。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -86,12 +86,12 @@ GetEventsResults events = subscription.GetEvents();
 </SubscribeResponse>
 ```
 
-创建订阅后，您现在可以使用**SubscribeResponse**邮件中返回的**SubscriptionId**获取事件。 
+创建订阅后，你现在可以使用 **SubscribeResponse** 消息中返回的 **SubscriptionId** 获取事件。 
   
 ## <a name="get-pull-notifications-by-using-ews"></a>使用 EWS 获取拉取通知
 <a name="bk_getpull"> </a>
 
-下面的 XML 示例显示从客户端发送到服务器的[GetEvents 操作](https://msdn.microsoft.com/library/f268efe5-9a1a-41a2-b6a6-51fcde7720a1%28Office.15%29.aspx)请求消息，以获取[SubscribeResponse](https://msdn.microsoft.com/library/fd87e9b7-c231-44fa-9f5b-19ae96cda5cc%28Office.15%29.aspx)邮件中返回的[SubscriptionId](https://msdn.microsoft.com/library/77c0abab-69e8-428e-8c20-22258e4ef71b%28Office.15%29.aspx)的通知。 对于第一个**GetEvents**请求，使用**订阅**响应中返回的[水印](https://msdn.microsoft.com/library/e1545046-94f9-4ac7-af1c-ea81dfb6822c%28Office.15%29.aspx)。 对于后续的**GetEvents**请求，请使用上一**GetEvents**请求中返回的最后一个**水印**。 
+以下 XML 示例显示[GetEvents](https://msdn.microsoft.com/library/f268efe5-9a1a-41a2-b6a6-51fcde7720a1%28Office.15%29.aspx)操作请求消息，该消息从客户端发送到服务器，用于获取[SubscribeResponse](https://msdn.microsoft.com/library/fd87e9b7-c231-44fa-9f5b-19ae96cda5cc%28Office.15%29.aspx)消息中返回的[SubscriptionId](https://msdn.microsoft.com/library/77c0abab-69e8-428e-8c20-22258e4ef71b%28Office.15%29.aspx)的通知。 对于第一 **个 GetEvents** 请求，请使用 Subscribe 响应中返回 **的 Watermark。** [](https://msdn.microsoft.com/library/e1545046-94f9-4ac7-af1c-ea81dfb6822c%28Office.15%29.aspx) 对于后续 **GetEvents** 请求，请使用上一个 **GetEvents** 请求中返回的最后一个 **Watermark。** 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -102,7 +102,7 @@ GetEventsResults events = subscription.GetEvents();
 </GetEvents>
 ```
 
-下面的 XML 示例展示了从服务器发送到客户端的**GetEvents**响应消息。 每个**GetEvents**响应都包含有关一个或多个事件的信息。 为每个事件返回一个**水印**。 必须保存最后一个**水印**并将其用于下一个**GetEvents**请求。 如果自上次**GetEvents**请求以来未发生任何存储事件，则返回一个 status 事件。 
+以下 XML 示例显示从服务器发送到客户端的 **GetEvents** 响应消息。 每个 **GetEvents** 响应包含有关一个或多个事件的信息。 将 **返回** 每个事件水印。 必须在下一个 **GetEvents** 请求中保存并使用最后一个 **Watermark。** 如果自上次 **GetEvents** 请求以来未发生存储事件，则返回状态事件。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -127,24 +127,24 @@ GetEventsResults events = subscription.GetEvents();
 </GetEventsResponse>
 ```
 
-从服务器接收到事件后，[将更改同步到客户端](how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_nextsteps)。 当不再需要订阅时，使用[取消订阅操作](https://msdn.microsoft.com/library/994a9d2b-1501-4804-90f0-12bd914496ec%28Office.15%29.aspx)可在服务器上结束订阅。 
+从服务器接收事件后， [将更改同步到客户端](how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_nextsteps)。 使用 ["取消订阅](https://msdn.microsoft.com/library/994a9d2b-1501-4804-90f0-12bd914496ec%28Office.15%29.aspx) "操作在不再需要订阅时终止服务器订阅。 
   
 ## <a name="next-steps"></a>后续步骤
 <a name="bk_nextsteps"> </a>
 
-收到通知后，可以[同步文件夹层次结构](how-to-synchronize-folders-by-using-ews-in-exchange.md)或[同步已更改的文件夹的内容](how-to-synchronize-items-by-using-ews-in-exchange.md)。
+收到通知后，可以同步文件夹层次结构或[](how-to-synchronize-folders-by-using-ews-in-exchange.md)[同步已更改的文件夹的内容](how-to-synchronize-items-by-using-ews-in-exchange.md)。
   
 ## <a name="see-also"></a>另请参阅
 
 
 - [Notification subscriptions, mailbox events, and EWS in Exchange](notification-subscriptions-mailbox-events-and-ews-in-exchange.md)
     
-- [在 Exchange 中使用 EWS 流式处理有关邮箱事件的通知](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md)
+- [在 Exchange 上使用 EWS 时关于邮箱事件的流式通知](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md)
     
-- [维护 Exchange 中的一组订阅和邮箱服务器之间的相关性](how-to-maintain-affinity-between-group-of-subscriptions-and-mailbox-server.md)
+- [在 Exchange 中保持一组订阅和邮箱服务器之间的相关性](how-to-maintain-affinity-between-group-of-subscriptions-and-mailbox-server.md)
     
-- [在 Exchange 中处理 EWS 中与通知相关的错误](handling-notification-related-errors-in-ews-in-exchange.md)
+- [在 Exchange 中使用 EWS 时处理通知相关的错误](handling-notification-related-errors-in-ews-in-exchange.md)
     
-- [邮箱同步和交换中的 EWS](mailbox-synchronization-and-ews-in-exchange.md)
+- [邮箱同步和 Exchange 中的 EWS](mailbox-synchronization-and-ews-in-exchange.md)
     
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsEnabled
 api_type:
 - schema
 ms.assetid: c7e3035e-a4ef-4c11-8cb0-214790a554ff
-description: IsEnabled 元素指示是否已启用该规则。
-ms.openlocfilehash: 7a150dc4a27cf4ff7da9825d1daae2b747088539
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: IsEnabled 元素指示是否启用规则。
+ms.openlocfilehash: 481b55aee6d2c4b591324caf6eeab947e2902da2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455308"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520505"
 ---
 # <a name="isenabled"></a>IsEnabled
 
-**IsEnabled**元素指示是否已启用该规则。 
+**IsEnabled** 元素指示是否启用规则。 
   
 ```XML
 <IsEnabled/>
@@ -48,7 +48,7 @@ ms.locfileid: "44455308"
    
 ## <a name="text-value"></a>文本值
 
-如果文本值为**true** ，则表示已启用并可执行该规则。 **如果值为 false** ，则表示无法执行该规则。 
+如果文本值为 **true，** 则表明规则已启用，可以执行。 false **值表示** 无法执行规则。 
   
 ## <a name="remarks"></a>说明
 

@@ -1,24 +1,24 @@
 ---
-title: Domain （GetFederationInformation）（SOAP）
+title: Domain (GetFederationInformation) (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 56aeb659-8309-47a6-8c41-9f8b0436438c
 description: Domain 元素标识具有联合身份验证信任的域。
-ms.openlocfilehash: 2fcb51154d2eb9a2eeaf8b13e67aa0bd8769c53a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: bda5986133db19e2b11a213050cf88b6757fda4d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457030"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538329"
 ---
-# <a name="domain-getfederationinformation-soap"></a>Domain （GetFederationInformation）（SOAP）
+# <a name="domain-getfederationinformation-soap"></a>Domain (GetFederationInformation) (SOAP)
 
-**Domain**元素标识具有联合身份验证信任的域。 
+**Domain** 元素标识具有联合身份验证信任的域。 
   
 ```XML
 <Domain/>
@@ -41,11 +41,11 @@ ms.locfileid: "44457030"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[请求（GetFederationInformation）（SOAP）](request-getfederationinformationsoap.md) <br/> |表示[GetFederationInformation 操作（SOAP）](getfederationinformation-operation-soap.md)请求。  <br/> |
+|[Request (GetFederationInformation) (SOAP)](request-getfederationinformationsoap.md) <br/> |表示 [SOAP 请求 (GetFederationInformation) ](getfederationinformation-operation-soap.md) 操作。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-该文本值表示包含联合身份验证信任的域的域名。
+文本值表示包含联合身份验证信任的域的域名。
   
 ## <a name="element-information"></a>元素信息
 
