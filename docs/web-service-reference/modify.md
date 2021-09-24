@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Modify
 api_type:
 - schema
 ms.assetid: 7a51e9e1-addb-4343-8a22-78f23763c0a8
 description: Modify 元素指示客户端是否可以修改文件夹或项目。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
-ms.openlocfilehash: e7712644ac9c32afab06be49b438ad83bbb31058
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 23fbf3dba79eee5dfc4d94c57361cbce0f879605
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530413"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518167"
 ---
 # <a name="modify"></a>修改
 
-**Modify**元素指示客户端是否可以修改文件夹或项目。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
+**Modify** 元素指示客户端是否可以修改文件夹或项目。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
   
 ```xml
 <Modify>true or false</Modify>
@@ -44,11 +44,11 @@ ms.locfileid: "44530413"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[EffectiveRights](effectiverights.md) <br/> |基于项目或文件夹的权限设置，包含客户端的权限。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
+|[EffectiveRights](effectiverights.md) <br/> |包含基于项目或文件夹的权限设置的客户端权限。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-如果文本值为**true，则**表示客户端可以修改项或文件夹。 
+如果文本值为 **true，** 则表明客户端可以修改项目或文件夹。 
   
 ## <a name="remarks"></a>说明
 

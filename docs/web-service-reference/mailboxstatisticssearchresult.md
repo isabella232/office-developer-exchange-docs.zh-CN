@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 73499df7-3d50-4e39-895d-6e15dd8b2777
 description: MailboxStatisticsSearchResult 元素包含关键字搜索的结果。
-ms.openlocfilehash: c300c6c2ec9ab3c772709edd3e6a1c7fea19d6e3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: f73a789d0931e9c15d052444f6a191ae70cbff24
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44440846"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511108"
 ---
 # <a name="mailboxstatisticssearchresult"></a>MailboxStatisticsSearchResult
 
-**MailboxStatisticsSearchResult**元素包含关键字搜索的结果。 
+**MailboxStatisticsSearchResult** 元素包含关键字搜索的结果。 
   
 ```XML
 <MailboxStatisticsSearchResult>
@@ -44,7 +44,7 @@ ms.locfileid: "44440846"
 
 [FindMailboxStatisticsByKeywordsResponseMessage](findmailboxstatisticsbykeywordsresponsemessage.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -56,7 +56,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |邮件架构  <br/> |
-|验证文件  <br/> |消息 .xsd  <br/> |
+|验证文件  <br/> |messages.xsd  <br/> |
 |可以为空  <br/> ||
    
 

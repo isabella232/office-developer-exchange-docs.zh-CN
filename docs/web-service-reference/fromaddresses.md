@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FromAddresses
 api_type:
 - schema
 ms.assetid: b219f315-c20a-4633-af3e-94bd3e4526b6
-description: FromAddresses 元素指示必须将传入邮件发送到的电子邮件地址，以便条件或例外情况适用。
-ms.openlocfilehash: 4fbb44d02f5010c4395cf691cb6160da4dbb6930
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: FromAddresses 元素指示必须发送传入邮件的电子邮件地址，以便条件或例外情况适用。
+ms.openlocfilehash: b58f805b71329ea779c894427eb9fc73ef414902
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459537"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541271"
 ---
 # <a name="fromaddresses"></a>FromAddresses
 
-**FromAddresses**元素指示必须将传入邮件发送到的电子邮件地址，以便条件或例外情况适用。 
+**FromAddresses** 元素指示必须发送传入邮件的电子邮件地址，以便条件或例外情况适用。 
   
 ```XML
 <FromAddresses>
@@ -49,13 +49,13 @@ ms.locfileid: "44459537"
 |**元素**|**说明**|
 |:-----|:-----|
 |[条件](conditions.md) <br/> |表示履行时将触发规则的规则操作的条件。  <br/> |
-|[异常](exceptions.md) <br/> |代表收件箱规则的所有可用的规则例外条件。  <br/> |
+|[异常](exceptions.md) <br/> |代表收件箱规则的所有可用规则例外条件。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

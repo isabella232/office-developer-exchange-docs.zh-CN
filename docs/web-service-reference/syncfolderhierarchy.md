@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SyncFolderHierarchy
 api_type:
 - schema
 ms.assetid: 55df4d01-e48e-4263-a851-78a66ad1093a
-description: SyncFolderHierarchy 元素定义一个请求，以在客户端上同步文件夹层次结构。
-ms.openlocfilehash: 68b607dbf603e955f74dfaccadd3ce6c4c9fb6ab
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SyncFolderHierarchy 元素定义同步客户端上的文件夹层次结构的请求。
+ms.openlocfilehash: ebe8ecd613fee02275326be6377544959f85afb5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466645"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59531512"
 ---
 # <a name="syncfolderhierarchy"></a>SyncFolderHierarchy
 
-**SyncFolderHierarchy**元素定义一个请求，以在客户端上同步文件夹层次结构。 
+**SyncFolderHierarchy** 元素定义同步客户端上的文件夹层次结构的请求。 
   
 ```xml
 <SyncFolderHierarchy>
@@ -43,15 +43,15 @@ ms.locfileid: "44466645"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[FolderShape](foldershape.md) <br/> |标识要包含在[SyncFolderHierarchy](syncfolderhierarchy.md)响应中的文件夹属性。  <br/> |
+|[FolderShape](foldershape.md) <br/> |标识要包括在 [SyncFolderHierarchy 响应中的文件夹](syncfolderhierarchy.md) 属性。  <br/> |
 |[SyncFolderId](syncfolderid.md) <br/> |表示包含要同步的项目的文件夹。 此元素为可选。  <br/> |
-|[SyncState](syncstate-ex15websvcsotherref.md) <br/> |包含在每次成功请求后更新的、base64 编码的格式的同步数据。 这用于标识同步状态。  <br/> |
+|[SyncState](syncstate-ex15websvcsotherref.md) <br/> |包含每次成功请求后更新的经过 base64 编码的同步数据形式。 这用于标识同步状态。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

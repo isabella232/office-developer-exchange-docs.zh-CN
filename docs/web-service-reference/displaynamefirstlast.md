@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 013c17c9-cb37-4028-9fe6-c3f47441d0f7
-description: DisplayNameFirstLast 元素指定 "名称"、"姓"、"姓" 格式的关联角色的显示名称。
-ms.openlocfilehash: 6ba35b6a17a64d46655e51691847b9aecbf52f40
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DisplayNameFirstLast 元素以显示名称，名字，姓氏的格式指定关联的人员名称。
+ms.openlocfilehash: c7955c62b69d3ba41d1dec04a3c45384b8c40dde
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464110"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518580"
 ---
 # <a name="displaynamefirstlast"></a>DisplayNameFirstLast
 
-**DisplayNameFirstLast**元素指定 "名"、"First name"、"Last name" 格式的关联角色的显示名称。 
+**DisplayNameFirstLast** 元素以显示名称"First Name"、"Last Name"的格式指定关联人员的姓名。 
   
 ```XML
 <DisplayNameFirstLast>
@@ -40,13 +40,13 @@ ms.locfileid: "44464110"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[角色](persona.md) <br/> |指定由**GetPersona**请求返回的一组角色数据。  <br/> |
+|[角色](persona.md) <br/> |指定由 **GetPersona** 请求返回的一组人员数据。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**DisplayNameFirstLast**元素的文本值是一个包含显示名称的字符串值，其中先具有给定的名称。 
+**DisplayNameFirstLast** 元素的文本值是一个字符串值，其中包含显示名称，首先给定名称。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -58,7 +58,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

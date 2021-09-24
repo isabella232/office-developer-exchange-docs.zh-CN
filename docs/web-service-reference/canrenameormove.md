@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CanRenameOrMove
 api_type:
 - schema
 ms.assetid: fe0cdb04-5f2b-4f1d-9d12-7ace0883cd86
 description: CanRenameOrMove 元素指示客户是否可以重命名或移动托管文件夹。
-ms.openlocfilehash: eb6aaeb8b0edcab5b67212c426a44daf32a0cf73
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 7c452ed65860939e834d77894bdb5e913ecb36a8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463361"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518805"
 ---
 # <a name="canrenameormove"></a>CanRenameOrMove
 
-**CanRenameOrMove**元素指示客户是否可以重命名或移动托管文件夹。 
+**CanRenameOrMove** 元素指示客户是否可以重命名或移动托管文件夹。 
   
 ```xml
 <CanRenameOrMove/>
@@ -48,7 +48,7 @@ ms.locfileid: "44463361"
    
 ## <a name="text-value"></a>文本值
 
-该文本值表示一个布尔值。 **如果值为 true** ，则表示可以重命名或移动文件夹;**如果值为 false** ，则表示无法重命名或移动文件夹。 
+文本值表示一个布尔值。 true **值表示** 可以重命名或移动文件夹;false **值表示** 无法重命名或移动文件夹。 
   
 ## <a name="remarks"></a>说明
 

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c66c28a5-1b2c-4913-b0c5-e3d9849aa4af
-description: PhoneticFirstName 元素包含按发音拼写的联系人的第一个名称。
-ms.openlocfilehash: a72ae885473e670ab197134fcd44e5d82ce6e450
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: PhoneticFirstName 元素包含用拼音拼写的联系人的名字。
+ms.openlocfilehash: ec4623c6d44128366c9ef1b1c4bdfea53df7e060
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529943"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528198"
 ---
 # <a name="phoneticfirstname"></a>PhoneticFirstName
 
-**PhoneticFirstName**元素包含按发音拼写的联系人的第一个名称。 
+**PhoneticFirstName** 元素包含用拼音拼写的联系人的名字。 
   
 ```XML
 <PhoneticFirstName/>
@@ -44,7 +44,7 @@ ms.locfileid: "44529943"
    
 ## <a name="text-value"></a>文本值
 
-Text 值是一个字符串，表示按发音拼写的联系人的第一个名称。
+文本值是一个字符串，表示通过拼音拼写的联系人的名字。
   
 ## <a name="remarks"></a>说明
 

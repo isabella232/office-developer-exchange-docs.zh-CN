@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c444f818-412b-41ac-9523-50246e50eae0
-description: ContactIds 元素包含联系人项标识符的数组。
-ms.openlocfilehash: 5c3b5621808a6931760433148e0cfe3239cd75f1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ContactIds 元素包含联系人项目标识符的数组。
+ms.openlocfilehash: 05c26af6dc1a5b826025e4145116d3df5eee8d62
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460188"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529215"
 ---
 # <a name="contactids"></a>ContactIds
 
-**ContactIds**元素包含联系人项标识符的数组。 
+**ContactIds** 元素包含联系人项目标识符的数组。 
   
 ```XML
 <ContactIds>
@@ -45,7 +45,7 @@ ms.locfileid: "44460188"
 
 [GetImItems](getimitems.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -57,7 +57,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> |false  <br/> |
    
 

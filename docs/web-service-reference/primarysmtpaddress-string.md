@@ -1,23 +1,23 @@
 ---
-title: PrimarySmtpAddress （字符串）
+title: PrimarySmtpAddress (string)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 706c6387-c648-4ccc-85e6-12a07b66da2f
-description: PrimarySmtpAddress 元素指定邮箱的主要简单邮件传输协议（SMTP）地址。
-ms.openlocfilehash: 5881e3f7cff709318d38943799d5f9c0f3779c15
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: PrimarySmtpAddress 元素指定邮箱的主简单邮件传输 (SMTP) 地址。
+ms.openlocfilehash: a98c768df9c5dc39ca5e6adff62c6c8954556f90
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466190"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59527864"
 ---
-# <a name="primarysmtpaddress-string"></a>PrimarySmtpAddress （字符串）
+# <a name="primarysmtpaddress-string"></a>PrimarySmtpAddress (string)
 
-**PrimarySmtpAddress**元素指定邮箱的主要简单邮件传输协议（SMTP）地址。 
+**PrimarySmtpAddress** 元素指定邮箱的主简单邮件传输 (SMTP) 地址。 
   
 ```XML
 <PrimarySmtpAddress></PrimarySmtpAddress>
@@ -38,13 +38,13 @@ ms.locfileid: "44466190"
   
 ### <a name="parent-elements"></a>父元素
 
-[UserId （string）](userid-string.md)  | [邮箱（PreviewItemMailboxType）](mailbox-previewitemmailboxtype.md)  | [SearchableMailbox](searchablemailbox.md)
+[UserId (字符串) ](userid-string.md)  | [Mailbox (PreviewItemMailboxType) ](mailbox-previewitemmailboxtype.md)  | [SearchableMailbox](searchablemailbox.md)
   
 ## <a name="text-value"></a>文本值
 
-**PrimarySmtpAddress**元素的文本值是邮箱的主 SMTP 地址。 
+**PrimarySmtpAddress** 元素的文本值是邮箱的主 SMTP 地址。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

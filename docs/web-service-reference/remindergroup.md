@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3e23c2a1-05d8-4fec-897c-f684a5b97e4c
-description: ReminderGroup 元素指定提醒是用于日历项目还是任务。
-ms.openlocfilehash: be6f4a7d7e9d495ed7b42ed40c60f016468e8c2c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ReminderGroup 元素指定提醒针对的是日历项目还是任务。
+ms.openlocfilehash: 7ec19505e9237680aee1b3a31332db7fdc4c0dd4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529866"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512469"
 ---
 # <a name="remindergroup"></a>ReminderGroup
 
-**ReminderGroup**元素指定提醒是用于日历项目还是任务。 
+**ReminderGroup** 元素指定提醒针对的是日历项目还是任务。 
   
 ```XML
 <ReminderGroup> Calendar | Task </ReminderGroup>
@@ -42,9 +42,9 @@ ms.locfileid: "44529866"
   
 ## <a name="text-value"></a>文本值
 
-**ReminderGroup**元素的文本值是提醒的组类型。 **Calendar**的文本值指定 "日历" 项目的提醒。 **任务**的文本值指定该提醒针对的是任务项。 
+**ReminderGroup** 元素的文本值是提醒的组类型。 Calendar 的文本 **值** 指定提醒用于日历项目。 Task **的文本值指定** 提醒用于任务项。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

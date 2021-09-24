@@ -1,30 +1,30 @@
 ---
-title: base64FolderId （UM web 服务）
+title: base64FolderId（UM Web 服务）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - base64FolderId
 api_type:
 - schema
 ms.assetid: 662f8f2f-49a7-4c7a-9065-98a02a49cfcd
-description: Base64FolderId 元素包含要指定为默认电子邮件文件夹的文件夹的标识符，统一消息在 SetTelephoneAccessFolderEmail 操作（UM web 服务）请求中通过电话读取邮件。
-ms.openlocfilehash: ea31c7a0f93188e563bf95c4a3e6e91f0866746c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: base64FolderId 元素包含要指定为默认电子邮件文件夹的文件夹的标识符，统一消息通过该文件夹通过电话在 SetTelephoneAccessFolderEmail 操作 (UM Web 服务) 请求中读取邮件。
+ms.openlocfilehash: 149ad55d0ab09f57b0dc3ace7eb0e17c96265e3f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458045"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518930"
 ---
-# <a name="base64folderid-um-web-service"></a>base64FolderId （UM web 服务）
+# <a name="base64folderid-um-web-service"></a>base64FolderId（UM Web 服务）
 
-**Base64FolderId**元素包含要指定为默认电子邮件文件夹的文件夹的标识符，统一消息在[SETTELEPHONEACCESSFOLDEREMAIL 操作（UM web 服务）](settelephoneaccessfolderemail-operation-um-web-service.md)请求中通过电话读取邮件。 
+**base64FolderId** 元素包含要指定为默认电子邮件文件夹的文件夹的标识符，统一消息通过 [SetTelephoneAccessFolderEmail](settelephoneaccessfolderemail-operation-um-web-service.md)操作 (UM Web 服务) 请求通过电话读取邮件。 
   
-[SetTelephoneAccessFolderEmail （UM web 服务）](settelephoneaccessfolderemail-um-web-service.md)
+[SetTelephoneAccessFolderEmail（UM Web 服务）](settelephoneaccessfolderemail-um-web-service.md)
   
-[base64FolderId （UM web 服务）](base64folderid-um-web-service.md)
+[base64FolderId（UM Web 服务）](base64folderid-um-web-service.md)
   
 ```xml
 <base64FolderId/>
@@ -47,22 +47,22 @@ ms.locfileid: "44458045"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[SetTelephoneAccessFolderEmail （UM web 服务）](settelephoneaccessfolderemail-um-web-service.md) <br/> |定义设置电话访问电子邮件文件夹的请求。  <br/> |
+|[SetTelephoneAccessFolderEmail（UM Web 服务）](settelephoneaccessfolderemail-um-web-service.md) <br/> |定义设置电话访问电子邮件文件夹的请求。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-文本值是必需的。 该文本值表示文件夹的 MAPI ID。
+文本值是必需的。 文本值表示文件夹的 MAPI ID。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-若要设置电话访问电子邮件文件夹，请使用[SetTelephoneAccessFolderEmail 操作（UM web 服务）](settelephoneaccessfolderemail-operation-um-web-service.md)。
+若要设置电话访问电子邮件文件夹，请使用 [SetTelephoneAccessFolderEmail 操作 ](settelephoneaccessfolderemail-operation-um-web-service.md) (UM Web) 。
   
 ## <a name="element-information"></a>元素信息
 
 |||
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|架构名称  <br/> |邮件  <br/> |
+|架构名称  <br/> |消息  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
    
@@ -70,9 +70,9 @@ ms.locfileid: "44458045"
 
 
 
-[SetTelephoneAccessFolderEmail （UM web 服务）](settelephoneaccessfolderemail-um-web-service.md)
+[SetTelephoneAccessFolderEmail（UM Web 服务）](settelephoneaccessfolderemail-um-web-service.md)
   
-[SetTelephoneAccessFolderEmail 操作（UM web 服务）](settelephoneaccessfolderemail-operation-um-web-service.md)
+[SetTelephoneAccessFolderEmail 操作（UM Web 服务）](settelephoneaccessfolderemail-operation-um-web-service.md)
   
 [FindFolder 操作](findfolder-operation.md)
   

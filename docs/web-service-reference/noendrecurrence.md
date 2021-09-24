@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - NoEndRecurrence
 api_type:
 - schema
 ms.assetid: ab2ebd9c-388e-45f1-abf9-56e293ef123b
-description: NoEndRecurrence 元素描述不具有定义的结束日期的项目定期模式的开始日期。
-ms.openlocfilehash: 31a3bd6ae2d7ce94debbeebc4fd4f536447433a7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: NoEndRecurrence 元素描述没有定义结束日期定期模式项目的开始日期。
+ms.openlocfilehash: 862bd58c295aabe807768f93506b4002d83c4552
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466792"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529805"
 ---
 # <a name="noendrecurrence"></a>NoEndRecurrence
 
-**NoEndRecurrence**元素描述不具有定义的结束日期的项目定期模式的开始日期。 
+**NoEndRecurrence** 元素描述没有定义结束日期定期模式项目的开始日期。 
   
 ```xml
 <NoEndRecurrence>
@@ -42,14 +42,14 @@ ms.locfileid: "44466792"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[起始日期（定期）](startdate-recurrence.md) <br/> |表示定期任务或日历项的开始日期。  <br/> |
+|[StartDate (Recurrence)](startdate-recurrence.md) <br/> |表示定期任务或日历项目的开始日期。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[重复周期（RecurrenceType）](recurrence-recurrencetype.md) <br/> |包含日历项目和会议请求的定期模式。  <br/> |
-|[重复周期（TaskRecurrenceType）](recurrence-taskrecurrencetype.md) <br/> |包含定期任务的定期信息。  <br/> |
+|[Recurrence (RecurrenceType)](recurrence-recurrencetype.md) <br/> |包含定期模式项和会议请求的联系人。  <br/> |
+|[Recurrence (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |包含定期任务的定期信息。  <br/> |
    
 ## <a name="remarks"></a>说明
 

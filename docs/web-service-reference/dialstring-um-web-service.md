@@ -1,31 +1,31 @@
 ---
-title: dialString （UM web 服务）
+title: dialString（UM Web 服务）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - dialString
 api_type:
 - schema
 ms.assetid: d1e3cd23-48fe-4ebc-a5c5-2226d223f800
-description: DialString 元素包含要拨打的电话号码的值。
-ms.openlocfilehash: 028ea789efabf49a64bc1d5022d9eb2d8df61c51
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: dialString 元素包含要拨打的电话号码的值。
+ms.openlocfilehash: dc5643f5aedfb128cf207b895fe96812e9a69496
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467821"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528868"
 ---
-# <a name="dialstring-um-web-service"></a>dialString （UM web 服务）
+# <a name="dialstring-um-web-service"></a>dialString（UM Web 服务）
 
-**DialString**元素包含要拨打的电话号码的值。 
+**dialString** 元素包含要拨打的电话号码的值。 
   
-- [PlayOnPhone （UM web 服务）](playonphone-um-web-service.md) 
-- [dialString （UM web 服务）](dialstring-um-web-service.md) 
-- [PlayOnPhoneGreeting （UM web 服务）](playonphonegreeting-um-web-service.md) 
-- [dialString （UM web 服务）](dialstring-um-web-service.md)
+- [PlayOnPhone（UM Web 服务）](playonphone-um-web-service.md) 
+- [dialString（UM Web 服务）](dialstring-um-web-service.md) 
+- [PlayOnPhoneGreeting（UM Web 服务）](playonphonegreeting-um-web-service.md) 
+- [dialString（UM Web 服务）](dialstring-um-web-service.md)
   
 ```xml
 <dialString/>
@@ -48,8 +48,8 @@ ms.locfileid: "44467821"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[PlayOnPhone （UM web 服务）](playonphone-um-web-service.md) <br/> |定义在电话上播放邮件的请求。  <br/> |
-|[PlayOnPhoneGreeting （UM web 服务）](playonphonegreeting-um-web-service.md) <br/> |定义在电话上播放问候语的请求。  <br/> |
+|[PlayOnPhone（UM Web 服务）](playonphone-um-web-service.md) <br/> |定义在电话上播放消息的请求。  <br/> |
+|[PlayOnPhoneGreeting（UM Web 服务）](playonphonegreeting-um-web-service.md) <br/> |定义在电话上播放问候语的请求。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
@@ -60,14 +60,14 @@ ms.locfileid: "44467821"
 |||
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|架构名称  <br/> |邮件  <br/> |
+|架构名称  <br/> |消息  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
-- [PlayOnPhone （UM web 服务）](playonphone-um-web-service.md)  
-- [PlayOnPhone 操作（UM web 服务）](playonphone-operation-um-web-service.md)  
-- [PlayOnPhoneGreeting （UM web 服务）](playonphonegreeting-um-web-service.md)  
-- [PlayOnPhoneGreeting 操作（UM web 服务）](playonphonegreeting-operation-um-web-service.md)
+- [PlayOnPhone（UM Web 服务）](playonphone-um-web-service.md)  
+- [PlayOnPhone 操作（UM Web 服务）](playonphone-operation-um-web-service.md)  
+- [PlayOnPhoneGreeting（UM Web 服务）](playonphonegreeting-um-web-service.md)  
+- [PlayOnPhoneGreeting 操作（UM Web 服务）](playonphonegreeting-operation-um-web-service.md)
 

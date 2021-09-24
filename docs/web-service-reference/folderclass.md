@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FolderClass
 api_type:
 - schema
 ms.assetid: 0041d135-2869-4612-89a5-d1aa86aa1093
 description: FolderClass 元素表示文件夹的文件夹类。
-ms.openlocfilehash: ee5d382251a66ab5fbcd8054e6b5cfac82b5f994
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: c94fd7aa889e9b4ba3fbd22df6c8593f4592a0d1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460055"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511739"
 ---
 # <a name="folderclass"></a>FolderClass
 
-**FolderClass**元素表示文件夹的文件夹类。 
+**FolderClass** 元素表示文件夹的文件夹类。 
   
 ```xml
 <FolderClass/>
@@ -45,14 +45,14 @@ ms.locfileid: "44460055"
 |**元素**|**说明**|
 |:-----|:-----|
 |[Folder](folder.md) <br/> |表示邮箱中的文件夹。  <br/> |
-|[CalendarFolder](calendarfolder.md) <br/> |代表邮箱中的 "日历" 文件夹。  <br/> |
-|[ContactsFolder](contactsfolder.md) <br/> |表示邮箱中的 "联系人" 文件夹。  <br/> |
+|[CalendarFolder](calendarfolder.md) <br/> |表示邮箱中的日历文件夹。  <br/> |
+|[ContactsFolder](contactsfolder.md) <br/> |表示邮箱中的联系人文件夹。  <br/> |
 |[SearchFolder](searchfolder.md) <br/> |表示邮箱中的搜索文件夹。  <br/> |
 |[TasksFolder](tasksfolder.md) <br/> |表示邮箱中的任务文件夹。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-文本值是必需的。 文件夹类通常以 "IPF" 开头。
+文本值是必需的。 文件夹类通常以"IPF"开始。
   
 ## <a name="remarks"></a>说明
 

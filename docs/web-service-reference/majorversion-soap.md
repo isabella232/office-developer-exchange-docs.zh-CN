@@ -4,21 +4,21 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 0b2a83cf-e173-4073-9603-b2ea3b36ec1a
 description: MajorVersion元素表示为服务器的主版本号。
-ms.openlocfilehash: 2c564b110ec7497a2e9c92a00bfb7f376a657849
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: eb6bed958e36cbd3c0c35825ff10d857ea839cff
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44531005"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511094"
 ---
 # <a name="majorversion-soap"></a>MajorVersion (SOAP)
 
-本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **MajorVersion**元素表示为服务器的主版本号。 
+本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **MajorVersion** 元素表示为服务器的主版本号。 
   
 ```XML
 <MajorVersion/>
@@ -45,7 +45,7 @@ ms.locfileid: "44531005"
    
 ## <a name="text-value"></a>文本值
 
-**MajorVersion**元素的文本值是一个整数，表示处理请求的服务器的主版本号。 
+**MajorVersion** 元素的文本值是一个整数，表示处理请求的服务器的主版本号。 
   
 ## <a name="element-information"></a>元素信息
 

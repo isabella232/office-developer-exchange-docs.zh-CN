@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CanCreateItems
 api_type:
 - schema
 ms.assetid: c4574e9a-3c42-40a1-a5f9-79b6560e9b30
 description: CanCreateItems 元素指示用户是否有权在文件夹中创建项目。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
-ms.openlocfilehash: 73d3d967774d9fcff53722d0936462025e02b659
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: b2d426e103bf50536d72c47d9fc62d062847e62f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458780"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59526734"
 ---
 # <a name="cancreateitems"></a>CanCreateItems
 
-**CanCreateItems**元素指示用户是否有权在文件夹中创建项目。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
+**CanCreateItems** 元素指示用户是否有权在文件夹中创建项目。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
   
 ```xml
 <CanCreateItems/>
@@ -49,7 +49,7 @@ ms.locfileid: "44458780"
    
 ## <a name="text-value"></a>文本值
 
-如果文本值为**true** ，则表示用户可以在文件夹中创建项目。 **如果值为 false** ，则表示用户无法在文件夹中创建项目。 
+true **的文本值指示** 用户可以在文件夹中创建项目。 false **值表示** 用户无法在文件夹中创建项目。 
   
 ## <a name="remarks"></a>说明
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MovedEvent
 api_type:
 - schema
 ms.assetid: 572f8b40-dfa8-47bc-b0c1-e1a7138506fd
-description: MovedEvent 元素表示一个事件，其中的项或文件夹将从一个父文件夹移动到另一个父文件夹。
-ms.openlocfilehash: 1f8fb57dba7edb769fe0dd658d89c032dccf8c5f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: MovedEvent 元素表示一个事件，其中项目或文件夹从一个父文件夹移动到另一个父文件夹。
+ms.openlocfilehash: 4e0795fc3f335139e22fb51a4cf215a870ec62c6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530406"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518132"
 ---
 # <a name="movedevent"></a>MovedEvent
 
-**MovedEvent**元素表示一个事件，其中的项或文件夹将从一个父文件夹移动到另一个父文件夹。 
+**MovedEvent** 元素表示一个事件，其中项目或文件夹从一个父文件夹移动到另一个父文件夹。 
   
 ```xml
 <MovedEvent>
@@ -60,20 +60,20 @@ ms.locfileid: "44530406"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Watermark](watermark.md) <br/> |代表 "邮箱事件" 表中的事件书签。  <br/> |
+|[Watermark](watermark.md) <br/> |表示邮箱事件表中的事件书签。  <br/> |
 |[TimeStamp](timestamp.md) <br/> |表示移动项目/文件夹邮箱事件的时间戳。  <br/> |
 |[FolderId](folderid.md) <br/> |表示已移动文件夹的标识符。  <br/> |
-|[ItemId](itemid.md) <br/> |表示已移动项的标识符。  <br/> |
-|[ParentFolderId](parentfolderid.md) <br/> |表示包含已移动的项或文件夹的文件夹的标识符。  <br/> |
+|[ItemId](itemid.md) <br/> |表示已移动项目的标识符。  <br/> |
+|[ParentFolderId](parentfolderid.md) <br/> |表示包含移动的项目或文件夹的文件夹的标识符。  <br/> |
 |[OldFolderId](oldfolderid.md) <br/> |包含原始文件夹在移动或复制之前的文件夹标识符。  <br/> |
-|[OldItemId](olditemid.md) <br/> |包含原始项目在移动前的唯一标识符。  <br/> |
-|[OldParentFolderId](oldparentfolderid.md) <br/> |包含移动的项或文件夹的原始父文件夹的标识符。  <br/> |
+|[OldItemId](olditemid.md) <br/> |包含原始项在移动之前的唯一标识符。  <br/> |
+|[OldParentFolderId](oldparentfolderid.md) <br/> |包含移动的项目或文件夹的原始父文件夹的标识符。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[通知](notification-ex15websvcsotherref.md) <br/> |包含有关订阅以及上次通知之后发生的事件的信息。  <br/> |
+|[通知](notification-ex15websvcsotherref.md) <br/> |包含有关订阅和自上次通知以来已发生事件的信息。  <br/> |
    
 ## <a name="remarks"></a>说明
 
@@ -92,5 +92,5 @@ ms.locfileid: "44530406"
 
 - [订阅操作](subscribe-operation.md) 
 - [GetEvents 操作](getevents-operation.md) 
-- [取消订阅操作](unsubscribe-operation.md)
+- [Unsubscribe 操作](unsubscribe-operation.md)
 

@@ -1,27 +1,27 @@
 ---
-title: 成员 (MemberListType)
+title: Members (MemberListType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Members
 api_type:
 - schema
 ms.assetid: cbd38049-2ef7-40bf-9bec-0469af0f58ec
-description: Members 元素提供通讯组列表成员的列表。
-ms.openlocfilehash: 2cdfb81dfbc223db365d49ed44d4893339eb4653
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Members 元素提供通讯组列表的成员列表。
+ms.openlocfilehash: 805e7e043db11a98e154524aa2649cea8257b160
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462428"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518251"
 ---
-# <a name="members-memberlisttype"></a>成员 (MemberListType)
+# <a name="members-memberlisttype"></a>Members (MemberListType)
 
-**Members**元素提供通讯组列表成员的列表。 
+Members 元素提供通讯组列表的成员列表。 
   
 ```xml
 <Members>

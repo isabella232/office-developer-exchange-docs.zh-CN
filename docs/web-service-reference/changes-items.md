@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Changes
 api_type:
 - schema
 ms.assetid: d3139fef-0455-4b89-babd-5d6783b50a58
-description: Changes 元素包含更改类型的序列数组，这些更改类型表示客户端上的项目与客户端服务器上项目之间的差异Exchange类型。
-ms.openlocfilehash: ede81d8ecae9751c477ae05cbd13f914fedf8e0f
-ms.sourcegitcommit: 357b882a02e37b380a23b8a45b15f9c006a40b02
+description: Changes 元素包含更改类型的序列数组，这些更改类型表示客户端上的项目与客户端服务器上项目Exchange类型。
+ms.openlocfilehash: 3c6cbc72e4de10401de12df715129a004f8c5d7e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "58764628"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518790"
 ---
 # <a name="changes-items"></a>Changes (Items)
 

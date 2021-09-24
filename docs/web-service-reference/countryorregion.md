@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CountryOrRegion
 api_type:
 - schema
 ms.assetid: e978cd19-96ce-4ebf-81df-eadf2d775132
-description: 国家/地区元素表示给定物理地址的国家或地区。
-ms.openlocfilehash: 2e5b8ec40676123c17d6c7f987f139246dbd0493
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Country 元素表示给定物理地址的一个或多个国家/地区。
+ms.openlocfilehash: d29180568be12bc45eb0c38806f4acc5c0f69257
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527094"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518650"
 ---
 # <a name="countryorregion"></a>CountryOrRegion
 
-**国家/地区**元素表示给定物理地址的国家或地区。 
+**Country** 元素表示给定物理地址的一个或多个国家/地区。 
   
 ```xml
 <Country/>
@@ -44,11 +44,11 @@ ms.locfileid: "44527094"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[条目（PhysicalAddress）](entry-physicaladdress.md) <br/> |描述联系人项目的单个物理地址。  <br/> |
+|[Entry (PhysicalAddress)](entry-physicaladdress.md) <br/> |描述联系人项目的单个物理地址。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-Text 值是一个 string 值，它代表国家/地区的名称。
+文本值是一个字符串值，表示国家/地区的名称。
   
 ## <a name="remarks"></a>说明
 

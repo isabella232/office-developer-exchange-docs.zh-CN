@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FileAs
 api_type:
 - schema
 ms.assetid: df50524e-471c-49d2-89fe-b2d0f61a1365
-description: FileAs 元素表示联系人或通讯组列表在 "联系人" 文件夹中的存档方式。
-ms.openlocfilehash: be756d86d7608fcb758dd54f2ada9f03a04343e2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: FileAs 元素表示联系人或通讯组列表在"联系人"文件夹中的存档方式。
+ms.openlocfilehash: 1ebed8365396feb42f4bfceac646ae7692dd6579
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461196"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59530574"
 ---
 # <a name="fileas"></a>FileAs
 
-**FileAs**元素表示联系人或通讯组列表在 "联系人" 文件夹中的存档方式。 
+**FileAs** 元素表示联系人或通讯组列表在"联系人"文件夹中的存档方式。 
   
 ```xml
 <FileAs/>
@@ -49,11 +49,11 @@ ms.locfileid: "44461196"
    
 ## <a name="text-value"></a>文本值
 
-如果使用此元素，则需要一个表示字符串的文本值。
+如果使用此元素，则代表字符串的文本值是必需的。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-**FileAs**元素用于按姓名（而不是全名或公司名称）对联系人和通讯组列表进行排序。 
+**FileAs** 元素用于按除全名或公司名称外的名称对联系人和通讯组列表进行排序。 
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

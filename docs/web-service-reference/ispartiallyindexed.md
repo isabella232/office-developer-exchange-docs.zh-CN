@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 542e7b90-eafe-4711-a9d7-71bbc30d9646
-description: IsPartiallyIndexed 元素指示是否对项目进行部分索引。
-ms.openlocfilehash: 4bf0c3e5dd7b75a90ac087958fbceda334306af1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: IsPartiallyIndexed 元素指示项目是否部分索引。
+ms.openlocfilehash: 3917f14bbdae13f4485edcbbcd595989c3cd907f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466484"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540984"
 ---
 # <a name="ispartiallyindexed"></a>IsPartiallyIndexed
 
-**IsPartiallyIndexed**元素指示是否对项目进行部分索引。 
+**IsPartiallyIndexed** 元素指示项目是否部分索引。 
   
 ```XML
 <IsPartiallyIndexed>true | false</IsPartiallyIndexed>
@@ -42,9 +42,9 @@ ms.locfileid: "44466484"
   
 ## <a name="text-value"></a>文本值
 
-如果**IsPartiallyIndexed**元素的文本值为**true** ，则表示该邮箱项目已部分编制索引。 如果值为**false** ，则表示未对邮箱项目进行部分索引。 
+**IsPartiallyIndexed** 元素的文本值 **true** 指示邮箱项目已部分索引。 false **值表示** 邮箱项目未部分编制索引。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

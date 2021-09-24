@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4b806441-0429-44c4-90b7-1ae5c6ab9128
-description: SetImListMigrationCompleted 元素表示一个请求，以指示 Exchange 存储区是否包含即时消息客户端使用的即时消息项目。
-ms.openlocfilehash: e5b16044ee72a9e931a2707d3f7823931f8a642a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SetImListMigrationCompleted 元素表示一个请求，Exchange存储是否包含即时消息客户端使用的即时消息项目。
+ms.openlocfilehash: 80ba542fac320a81fbcd044300bfed94f52c34f5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464824"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510881"
 ---
 # <a name="setimlistmigrationcompleted"></a>SetImListMigrationCompleted
 
-**SetImListMigrationCompleted**元素表示一个请求，以指示 Exchange 存储区是否包含即时消息客户端使用的即时消息项目。 
+**SetImListMigrationCompleted** 元素表示一个请求，Exchange存储是否包含即时消息客户端使用的即时消息项目。 
   
 ```XML
 <SetImListMigrationCompleted>
@@ -42,7 +42,7 @@ ms.locfileid: "44464824"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

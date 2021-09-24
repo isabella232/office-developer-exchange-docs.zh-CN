@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - RecipientAddress
 api_type:
 - schema
 ms.assetid: 9ae6351a-2c60-4715-a489-5681a13641f9
 description: RecipientAddress 元素表示收件人的邮箱。
-ms.openlocfilehash: f4b6edd034dd91471e6496f6b0cca65bd3ffb69a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 23fdf9b1b340aac2049229f27d63161c8e05b10b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465847"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59527647"
 ---
 # <a name="recipientaddress"></a>RecipientAddress
 
-**RecipientAddress**元素表示收件人的邮箱。 
+**RecipientAddress** 元素表示收件人的邮箱。 
   
 ```xml
 <RecipientAddress>
@@ -49,14 +49,14 @@ ms.locfileid: "44465847"
 |[名称 (EmailAddressType)](name-emailaddresstype.md) <br/> |表示邮箱用户的名称。 此元素为可选。  <br/> |
 |[EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) <br/> |定义邮箱用户的简单邮件传输协议 (SMTP)地址。此元素是可选的。  <br/> |
 |[RoutingType (EmailAddress)](routingtype-emailaddress.md) <br/> |表示收件人的路由协议。 默认为 SMTP。 此元素为可选。  <br/> |
-|[MailboxType](mailboxtype.md) <br/> |代表电子邮件地址所代表的邮箱类型。  <br/> |
+|[MailboxType](mailboxtype.md) <br/> |表示由电子邮件地址表示的邮箱的类型。  <br/> |
 |[ItemId](itemid.md) <br/> |定义用户联系人文件夹收件人的联系人或私人通讯组列表的项标识符。此元素为可选。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[邮件提示](mailtips.md) <br/> |表示各种邮件提示类型的值。  <br/> |
+|[邮件提示](mailtips.md) <br/> |表示各种类型的邮件提示的值。  <br/> |
    
 ## <a name="remarks"></a>说明
 

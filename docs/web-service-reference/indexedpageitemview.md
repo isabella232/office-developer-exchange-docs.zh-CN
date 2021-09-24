@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IndexedPageItemView
 api_type:
 - schema
 ms.assetid: 6d1b0b04-cc35-4a57-bd7a-824136d14fda
-description: IndexedPageItemView 元素介绍如何为 FindItem 操作或 FindConversation 操作请求返回分页对话或项目信息。
-ms.openlocfilehash: 0a66f17855fd425082e3651886d3eeec4f217ac4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: IndexedPageItemView 元素描述如何返回 FindItem 操作或 FindConversation 操作请求的分页对话或项目信息。
+ms.openlocfilehash: bf46bdbd457c4f4fa47e6b575d3b797b74f58995
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456911"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541124"
 ---
 # <a name="indexedpageitemview"></a>IndexedPageItemView
 
-**IndexedPageItemView**元素介绍如何为[FindItem 操作](finditem-operation.md)或[FindConversation 操作](findconversation-operation.md)请求返回分页对话或项目信息。 
+**IndexedPageItemView** 元素描述如何返回 [FindItem](finditem-operation.md)操作或 [FindConversation](findconversation-operation.md)操作请求的分页对话或项目信息。 
   
 ```XML
 <IndexedPageViewItemView MaxEntriesReturned="" Offset="" BasePoint=""/>
@@ -36,15 +36,15 @@ ms.locfileid: "44456911"
 
 |**属性**|**说明**|
 |:-----|:-----|
-|**MaxEntriesReturned** <br/> |描述要在响应中返回的项目或对话的最大数量。 此特性是可选的。  <br/> |
-|**Offset** <br/> |描述**BasePoint**中的偏移量。 如果**BasePoint**等于开头，则偏移量为正值。 如果**BasePoint**等于 End，则处理的是负的偏移量。 这标识在响应中将首先传递哪个项目或对话。 此特性是必需的。  <br/> |
-|**BasePoint** <br/> |描述项目或对话的页面是从使用搜索条件找到的项目或对话集的开头还是结尾开始。 从末尾进行的查找始终向后搜索。 此特性是必需的。  <br/> |
+|**MaxEntriesReturned** <br/> |描述在响应中返回的最大项目数或对话数。 此特性是可选的。  <br/> |
+|**Offset** <br/> |描述与 **BasePoint 的偏移** 量。 如果 **BasePoint** 等于 Beginning，则偏移量为正。 如果 **BasePoint** 等于 End，则处理偏移量就像负值一样。 这将标识哪个项目或对话将在响应中第一个传递。 此特性是必需的。  <br/> |
+|**BasePoint** <br/> |描述项目或对话页面是否从通过使用搜索条件找到的项目或对话集的开头或结尾开始。 从末尾查找始终向后搜索。 此特性是必需的。  <br/> |
    
 #### <a name="basepoint-attribute"></a>BasePoint 属性
 
 |**值**|**说明**|
 |:-----|:-----|
-|始  <br/> |分页视图从找到的对话或项目集的开头开始。  <br/> |
+|开始  <br/> |分页视图从找到的对话或项目集的开头开始。  <br/> |
 |End  <br/> |分页视图从找到的对话或项目集的末尾开始。  <br/> |
    
 ### <a name="child-elements"></a>子元素
@@ -53,20 +53,20 @@ ms.locfileid: "44456911"
   
 ### <a name="parent-elements"></a>父元素
 
-|**元素**|**描述**|
+|**元素**|**说明**|
 |:-----|:-----|
-|[FindItem](finditem.md) <br/> |定义在邮箱中查找项目的请求。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/FindItem` <br/> |
+|[FindItem](finditem.md) <br/> |定义查找邮箱中的项目的请求。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/FindItem` <br/> |
 |[FindConversation](findconversation.md) <br/> |定义在邮箱中查找对话的请求。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-从末尾进行查找包括移到由偏移量标识的源。 此外，还会按请求的记录数向后移动指针。 例如，如果有100条记录，偏移量是从末尾到25，则搜索从75开始。 如果返回10个记录，指针将向后移动10条记录到65，并返回记录65至75。 下一个索引为64。 距页面末尾的下一个偏移量是100减去64，等于36。 36是来自 end 的下一个偏移量的值，以获取下一个索引页。
+从末尾进行寻找涉及移动到由偏移标识的原点。 此外，指针将移回所请求的记录数。 例如，如果有 100 条记录，并且从结尾偏移 25，则搜索从 75 开始。 如果返回 10 条记录，则指针向后移动 10 条记录到 65，并返回记录 65 到 75。 下一个索引为 64。 页面末尾的下一个偏移量是 100 减 64，等于 36。 36 是距离末尾的下一偏移量的值，用于获取下一个索引页。
   
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
 ## <a name="example"></a>示例
 
-下面的示例展示了一个[FindItem 操作](finditem-operation.md)请求。 每个项目都返回其 ID 和主题。 响应中最多可返回6个项目，如**MaxEntriesReturned**属性指定。 项目按重要性分组按升序排列。 组中的项目按主题进行聚合。 
+下面的示例展示了 [FindItem 操作](finditem-operation.md) 请求。 返回每个项目及其 ID 和主题。 响应中最多返回 6 个项目，如 **MaxEntriesReturned 属性** 指定。 这些项目按重要性的升序分组列出。 组中项目按主题聚合。 
   
 ```XML
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"

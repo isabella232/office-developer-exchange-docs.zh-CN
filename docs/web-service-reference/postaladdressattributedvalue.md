@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0f92aa41-1499-4d96-a973-24529ec64d24
-description: PostalAddressAttributedValue 元素指定邮政地址数组及其关联的归属的实例。
-ms.openlocfilehash: bf5becca8ee0f143728010c5d0b1ed5a380838ff
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: PostalAddressAttributedValue 元素指定一组邮政地址及其关联属性的实例。
+ms.openlocfilehash: a4f89b7b2dd54aafe51e0b20da032cc28a90cfeb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465378"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519217"
 ---
 # <a name="postaladdressattributedvalue"></a>PostalAddressAttributedValue
 
-**PostalAddressAttributedValue**元素指定邮政地址数组及其关联的归属的实例。 
+**PostalAddressAttributedValue** 元素指定一组邮政地址及其关联属性的实例。 
   
 ```XML
 <PostalAddressAttributedValue>
@@ -37,13 +37,13 @@ ms.locfileid: "44465378"
   
 ### <a name="child-elements"></a>子元素
 
-[Value （PersonaPostalAddressType）](value-personapostaladdresstype.md)  | [归属（ArrayOfValueAttributionsType）](attributions-arrayofvalueattributionstype.md)
+[Value (PersonaPostalAddressType) ](value-personapostaladdresstype.md)  | [ArrayOfValueAttributionsType (属性) ](attributions-arrayofvalueattributionstype.md)
   
 ### <a name="parent-elements"></a>父元素
 
 [BusinessAddresses](businessaddresses.md)  | [HomeAddresses](homeaddresses.md)  | [OtherAddresses](otheraddresses.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Conversations
 api_type:
 - schema
 ms.assetid: 1d18f98c-6457-45e9-a934-32da20885ac6
-description: 对话元素包含在 FindConversation 响应中返回的一组对话。
-ms.openlocfilehash: 8af1023db51dd955c544422520ec5565f09f5372
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Conversations 元素包含在 FindConversation 响应中返回的对话数组。
+ms.openlocfilehash: 7c1c4d4ad91317946b64db609d67cafa5f0e7283
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463795"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518664"
 ---
 # <a name="conversations"></a>对话
 
-**对话**元素包含在**FindConversation**响应中返回的一组对话。 
+**Conversations** 元素包含在 **FindConversation** 响应中返回的对话数组。 
   
 [FindConversationResponse](findconversationresponse.md)
   
@@ -52,13 +52,13 @@ ms.locfileid: "44463795"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[FindConversationResponse](findconversationresponse.md) <br/> |定义对**FindConversation**请求的响应。  <br/> |
+|[FindConversationResponse](findconversationresponse.md) <br/> |定义对 **FindConversation 请求** 的响应。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   

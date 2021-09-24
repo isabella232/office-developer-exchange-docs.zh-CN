@@ -1,23 +1,23 @@
 ---
-title: EmailAddresses （ArrayOfEmailAddressEntitiesType）
+title: EmailAddresses (ArrayOfEmailAddressEntitiesType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2fc4a8e8-5377-4059-8fb4-3fdabfd30fe3
 description: EmailAddresses 元素指定电子邮件地址实体的数组。
-ms.openlocfilehash: bd478b369f3b359edc6007db9231af50c36877e8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: acb784e89bbc4cc6618bf5bad6e5cf0c7274bdfb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463424"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59531012"
 ---
-# <a name="emailaddresses-arrayofemailaddressentitiestype"></a>EmailAddresses （ArrayOfEmailAddressEntitiesType）
+# <a name="emailaddresses-arrayofemailaddressentitiestype"></a>EmailAddresses (ArrayOfEmailAddressEntitiesType)
 
-**EmailAddresses**元素指定电子邮件地址实体的数组。 
+**EmailAddresses** 元素指定电子邮件地址实体的数组。 
   
 ```XML
 <EmailAddresses>
@@ -38,15 +38,15 @@ ms.locfileid: "44463424"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[EmailAddressEntity](emailaddressentity.md) <br/> |指定一个电子邮件地址实体。  <br/> |
+|[EmailAddressEntity](emailaddressentity.md) <br/> |指定单个电子邮件地址实体。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[EntityExtractionResult](entityextractionresult.md) <br/> |指定项的**EntityExtractionResult**属性。  <br/> |
+|[EntityExtractionResult](entityextractionresult.md) <br/> |指定项目的 **EntityExtractionResult** 属性。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -58,7 +58,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

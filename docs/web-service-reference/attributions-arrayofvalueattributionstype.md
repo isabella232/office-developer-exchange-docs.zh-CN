@@ -1,23 +1,23 @@
 ---
-title: 归属（ArrayOfValueAttributionsType）
+title: Attributions (ArrayOfValueAttributionsType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7f36b6ee-8ecf-48c9-8cb6-dfb2da0ce2a2
-description: 归属元素为其关联的 Value 元素指定归属的数组。
-ms.openlocfilehash: 9fd552670c529009838125063869f65e130c1e63
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Attributions 元素指定与其关联的 Value 元素的属性数组。
+ms.openlocfilehash: e5483e8e7ef4745e8025106ae1f1c52e91987183
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463991"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529326"
 ---
-# <a name="attributions-arrayofvalueattributionstype"></a>归属（ArrayOfValueAttributionsType）
+# <a name="attributions-arrayofvalueattributionstype"></a>Attributions (ArrayOfValueAttributionsType)
 
-**归属**元素为其关联的**Value**元素指定归属的数组。 
+**Attributions** 元素指定与其关联的 **Value** 元素的属性数组。 
   
 ```XML
 <Attributions>
@@ -38,21 +38,21 @@ ms.locfileid: "44463991"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[特性（string）](attribution-string.md) <br/> |指定用于标识属性的字符串。  <br/> |
+|[Attribution (string)](attribution-string.md) <br/> |指定用于标识属性的字符串。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
 |[BodyContentAttributedValue](bodycontentattributedvalue.md) <br/> |指定项目的正文内容。  <br/> |
-|[EmailAddressAttributedValue](emailaddressattributedvalue.md) <br/> |指定电子邮件地址数组的实例及其关联的归属。  <br/> |
-|[ExtendedPropertyAttributedValue](extendedpropertyattributedvalue.md) <br/> |指定角色的扩展属性。  <br/> |
-|[PhoneNumberAttributedValue](phonenumberattributedvalue.md) <br/> |指定电话号码数组的实例及其关联的归属。  <br/> |
-|[PostalAddressAttributedValue](postaladdressattributedvalue.md) <br/> |指定邮政地址数组的实例及其关联的归属。  <br/> |
-|[StringArrayAttributedValue](stringarrayattributedvalue.md) <br/> |指定一个 persona 元素的字符串数据数组的实例。  <br/> |
-|[StringAttributedValue](stringattributedvalue.md) <br/> |指定与 persona 元素相关联的属性数组中的实例。  <br/> |
+|[EmailAddressAttributedValue](emailaddressattributedvalue.md) <br/> |指定电子邮件地址数组及其关联属性的实例。  <br/> |
+|[ExtendedPropertyAttributedValue](extendedpropertyattributedvalue.md) <br/> |指定一个人物的扩展属性。  <br/> |
+|[PhoneNumberAttributedValue](phonenumberattributedvalue.md) <br/> |指定电话号码数组及其关联属性的实例。  <br/> |
+|[PostalAddressAttributedValue](postaladdressattributedvalue.md) <br/> |指定一个邮政地址数组及其关联属性的实例。  <br/> |
+|[StringArrayAttributedValue](stringarrayattributedvalue.md) <br/> |指定 persona 元素的字符串数据数组的实例。  <br/> |
+|[StringAttributedValue](stringattributedvalue.md) <br/> |指定与 persona 元素关联的属性数组中的实例。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -64,7 +64,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

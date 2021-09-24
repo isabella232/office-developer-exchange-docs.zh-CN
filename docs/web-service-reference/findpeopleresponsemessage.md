@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ba686738-e654-404d-ab54-83c71d030350
 description: FindPeopleResponseMessage 元素指定 FindPeople 请求的响应消息。
-ms.openlocfilehash: 5a2ce7b8643fff9d4a93b62459638d3a99605c98
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 3c949340dfdbd68d2b6af3007afcde64cdd0ca08
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466372"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59530505"
 ---
 # <a name="findpeopleresponsemessage"></a>FindPeopleResponseMessage
 
-**FindPeopleResponseMessage**元素指定**FindPeople**请求的响应消息。 
+**FindPeopleResponseMessage** 元素指定 **FindPeople** 请求的响应消息。 
   
 ```XML
 <FindPeopleResponseMessage>
@@ -47,7 +47,7 @@ ms.locfileid: "44466372"
 
 [ResponseMessages](responsemessages.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

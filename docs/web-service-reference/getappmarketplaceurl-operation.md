@@ -5,40 +5,40 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2c016fc3-0e13-4624-9a5b-d3e84577a860
 description: 查找有关 GetAppMarketplaceUrl EWS 操作的信息。
-ms.openlocfilehash: 6797af44c3aaa6653c440b3d53a282d8c90a4381
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: f9dd41a43b92910ec596b95a0ce1e99a239ba01e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459523"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59530088"
 ---
 # <a name="getappmarketplaceurl-operation"></a>GetAppMarketplaceUrl 操作
 
-查找有关**GetAppMarketplaceUrl** EWS 操作的信息。 
+查找有关 **GetAppMarketplaceUrl** EWS 操作的信息。 
   
-**GetAppMarketplaceUrl**操作检索应用程序市场的 URL，客户端可以访问该 URL 以获取要安装在邮箱中的应用程序。 
+**GetAppMarketplaceUrl** 操作检索客户端访问的应用程序市场的 URL，以获取要安装在邮箱中的应用程序。 
   
 Exchange Server 2013 中引入了此操作。
   
 ## <a name="using-the-getappmarketplaceurl-operation"></a>使用 GetAppMarketplaceUrl 操作
 
-**GetAppMarketplaceUrl**操作不采用任何参数来请求客户端可以从中安装应用程序的 MARKETPLACE 的 URL。 响应将包含指向应用市场的 URL。 
+**GetAppMarketplaceUrl** 操作不获取任何参数来请求客户端可以从中安装应用程序的市场 URL。 该响应将包含应用程序市场的 URL。 
   
 ### <a name="getappmarketplaceurl-operation-soap-headers"></a>GetAppMarketplaceUrl 操作 SOAP 标头
 
-**GetAppMarketplaceUrl**操作可以使用下表中列出的 SOAP 标头。 
+**GetAppMarketplaceUrl** 操作可以使用下表中列出的 SOAP 标头。 
   
 |**标头名称**|**元素**|**说明**|
 |:-----|:-----|:-----|
 |**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。 此标头适用于请求。  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器版本。 此标头适用于响应。  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器的版本。 此标头适用于响应。  <br/> |
    
 ## <a name="getappmarketplaceurl-operation-request-example-get-the-app-marketplace-url-for-a-mailbox"></a>GetAppMarketplaceUrl 操作请求示例：获取邮箱的应用程序市场 URL
 
-以下示例的**GetAppMarketplaceUrl**操作请求显示如何获取邮箱的应用程序市场 URL。 
+**GetAppMarketplaceUrl** 操作请求的以下示例显示如何获取邮箱的应用程序市场 URL。 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -72,10 +72,10 @@ Exchange Server 2013 中引入了此操作。
     
 ## <a name="successful-getappmarketplaceurl-operation-response"></a>成功的 GetAppMarketplaceUrl 操作响应
 
-下面的示例演示对**GetAppMarketplaceUrl**操作请求的成功响应，以获取邮箱的应用程序市场 URL。 
+以下示例显示成功响应 **GetAppMarketplaceUrl** 操作请求，以获取邮箱的应用程序市场 URL。 
   
 > [!NOTE]
-> 应用程序市场 URL 已更改，以保留可读性。 
+> 已更改应用程序市场 URL 以保持可读性。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -113,9 +113,9 @@ Exchange Server 2013 中引入了此操作。
     
 ## <a name="getappmarketplaceurl-operation-error-response"></a>GetAppMarketPlaceUrl 操作错误响应
 
-为此操作返回的错误是与不正确的服务配置相关的，也可能是一般性的 EWS 错误。 有关对 EWS 通用的错误代码以及特定于此操作的错误代码，请参阅[ResponseCode](responsecode.md)。 
+此操作返回的错误要么与不正确的服务配置有关，要么与常规 EWS 错误有关。 有关 EWS 通用且特定于此操作的错误代码，请参阅 [ResponseCode](responsecode.md)。 
   
-下面的示例演示在未配置外部 Exchange 控制面板（ECP）时返回的错误响应。
+以下示例显示未配置外部控制面板Exchange ECP (时) 错误响应。
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -155,7 +155,7 @@ Exchange Server 2013 中引入了此操作。
     
 ## <a name="see-also"></a>另请参阅
 
-- [Exchange 中的 EWS 操作](ews-operations-in-exchange.md)
+- [EWS 操作在Exchange](ews-operations-in-exchange.md)
     
 - [DisableApp 操作](disableapp-operation.md)
     
@@ -163,6 +163,6 @@ Exchange Server 2013 中引入了此操作。
     
 - [UninstallApp 操作](uninstallapp-operation.md)
     
-- [Getappmanifests 已操作](getappmanifests-operation.md)
+- [GetAppManifests 操作](getappmanifests-operation.md)
     
 

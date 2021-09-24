@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FirstHopServer
 api_type:
 - schema
 ms.assetid: 79c89d74-b0ad-4643-9177-b75d3baa3b67
-description: FirstHopServer 元素包含在林中第一次接受邮件的服务器的名称。
-ms.openlocfilehash: 46b494ecd112359ecbb3a80545cefb652bbc2d47
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: FirstHopServer 元素包含林中第一次接受邮件的服务器的名称。
+ms.openlocfilehash: 69f2b96868fd59145a829b3771ac75b2e94a50c1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530244"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59530427"
 ---
 # <a name="firsthopserver"></a>FirstHopServer
 
-**FirstHopServer**元素包含在林中第一次接受邮件的服务器的名称。 
+**FirstHopServer** 元素包含林中第一次接受邮件的服务器的名称。 
   
 ```xml
 <FirstHopServer/>
@@ -44,13 +44,13 @@ ms.locfileid: "44530244"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[MessageTrackingSearchResult](messagetrackingsearchresult.md) <br/> |包含[FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md)元素的单个邮件结果。  <br/> |
+|[MessageTrackingSearchResult](messagetrackingsearchresult.md) <br/> |包含 [FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) 元素的单个邮件结果。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   

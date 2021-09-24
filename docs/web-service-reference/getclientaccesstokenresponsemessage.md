@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 45ca2500-ceab-4c98-9576-cb9e158e5896
 description: GetClientAccessTokenResponseMessage 元素指定 GetClientAccessToken 请求的响应消息。
-ms.openlocfilehash: e842353dfe91fa7df410203b53e22d5ec53e1e39
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 4921e47b6f5c082ed7daf9f0d5250a4a14682bcc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526681"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511555"
 ---
 # <a name="getclientaccesstokenresponsemessage"></a>GetClientAccessTokenResponseMessage
 
-**GetClientAccessTokenResponseMessage**元素指定**GetClientAccessToken**请求的响应消息。 
+**GetClientAccessTokenResponseMessage** 元素指定 **GetClientAccessToken** 请求的响应消息。 
   
 ```XML
 <GetClientAccessTokenResponseMessage ResponseClass=" Success | Warning | Error ">
@@ -50,21 +50,21 @@ ms.locfileid: "44526681"
    
 ### <a name="child-elements"></a>子元素
 
-|**元素**|**描述**|
+|**元素**|**说明**|
 |:-----|:-----|
-|[令牌（ClientAccessTokenType）](token-clientaccesstokentype.md) <br/> |指定客户端访问令牌。  <br/> |
-|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |当前未使用，并已保留以供将来使用。  <br/> |
+|[Token (ClientAccessTokenType)](token-clientaccesstokentype.md) <br/> |指定客户端访问令牌。  <br/> |
+|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |当前未使用，保留以供将来使用。  <br/> |
 |[MessageText](messagetext.md) <br/> |提供响应状态的文本说明。  <br/> |
 |[MessageXml](messagexml.md) <br/> |提供其他错误响应信息。  <br/> |
 |[ResponseCode](responsecode.md) <br/> |提供有关请求的状态信息。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
-|**元素**|**描述**|
+|**元素**|**说明**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |包含 Exchange Web 服务（EWS）请求的响应消息。  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |包含 EWS 请求Exchange EWS (响应) 消息。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -76,7 +76,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
-|验证文件  <br/> |消息 .xsd  <br/> |
+|验证文件  <br/> |messages.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

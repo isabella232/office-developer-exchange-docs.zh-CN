@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 60363698-7603-4051-a66e-007c02db17cb
-description: DisplayNamePrefix 元素指定关联角色的显示名称的前缀。
-ms.openlocfilehash: e7c723bb8da0834b96987f82e8f1c03c88c8d68c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DisplayNamePrefix 元素指定关联显示名称的前缀。
+ms.openlocfilehash: 9a1f9f048c24a71998aa880f50043a44565c5954
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458738"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511827"
 ---
 # <a name="displaynameprefix"></a>DisplayNamePrefix
 
-**DisplayNamePrefix**元素指定关联角色的显示名称的前缀。 
+**DisplayNamePrefix** 元素指定关联显示名称的前缀。 
   
 ```xml
 <DisplayNamePrefix></DisplayNamePrefix>
@@ -40,13 +40,13 @@ ms.locfileid: "44458738"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[角色](persona.md) <br/> |指定由**GetPersona**请求返回的一组角色数据。  <br/> |
+|[角色](persona.md) <br/> |指定由 **GetPersona** 请求返回的一组人员数据。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**DisplayNamePrefix**元素的文本值是一个 string 值，它指定显示名称的前缀。 
+**DisplayNamePrefix** 元素的文本值是一个字符串值，用于指定 显示名称。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -58,7 +58,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

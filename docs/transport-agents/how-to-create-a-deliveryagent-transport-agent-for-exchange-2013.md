@@ -5,35 +5,35 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4af904d7-b315-4849-92b1-66018f76ffdf
-description: 了解如何创建自定义 DeliveryAgent 传输代理以与 Exchange 2013 一起使用。
-ms.openlocfilehash: b349f0b6d835ba3d6195b43e80d1dcd21750bf82
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: 了解如何创建自定义 DeliveryAgent 传输代理以用于 Exchange 2013。
+ms.openlocfilehash: b465c3bbd4658bea700d5be9f4eb16ae81693717
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527570"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59526931"
 ---
 # <a name="create-a-deliveryagent-transport-agent-for-exchange-2013"></a>为 Exchange 2013 创建 DeliveryAgent 传输代理
 
-了解如何创建自定义 DeliveryAgent 传输代理以与 Exchange 2013 一起使用。
+了解如何创建自定义 DeliveryAgent 传输代理以用于 Exchange 2013。
   
-**适用于：** Exchange Server 2013
+**适用于：Exchange Server** 2013
   
-[DeliveryAgentFactory \<Manager\> ](https://msdn.microsoft.com/library/dd877550(v=exchg.150).aspx)和[DeliveryAgent](https://msdn.microsoft.com/library/microsoft.exchange.data.transport.delivery.deliveryagent(v=exchg.150).aspx)类是用于传输代理的基类，这些类旨在在 Exchange Server 2013 邮箱服务器上的传输服务上运行。 您可以在 DeliveryAgent 传输代理中为下表中列出的[DeliveryAgent](https://msdn.microsoft.com/library/microsoft.exchange.data.transport.delivery.deliveryagent(v=exchg.150).aspx)类提供的事件实现处理程序。 
+[DeliveryAgentFactory \<Manager\> ](https://msdn.microsoft.com/library/dd877550(v=exchg.150).aspx)和[DeliveryAgent](https://msdn.microsoft.com/library/microsoft.exchange.data.transport.delivery.deliveryagent(v=exchg.150).aspx)类是传输代理的基类，这些代理设计为在 Exchange Server 2013 邮箱服务器上运行。 您可以在 DeliveryAgent 传输代理中为下表中列出的 [DeliveryAgent](https://msdn.microsoft.com/library/microsoft.exchange.data.transport.delivery.deliveryagent(v=exchg.150).aspx) 类提供的事件实现处理程序。 
   
-**表1。DeliveryAgent 类事件**
+**表 1.DeliveryAgent 类事件**
 
 |**Event**|**说明**|
 |:-----|:-----|
-|[OnCloseConnection](https://msdn.microsoft.com/library/microsoft.exchange.data.transport.delivery.deliveryagent.oncloseconnection(v=exchg.150).aspx) <br/> |在最后一个邮件项传递且连接关闭之后发生。  <br/> |
-|[OnDeliverMailItem](https://msdn.microsoft.com/library/microsoft.exchange.data.transport.delivery.deliveryagent.ondelivermailitem(v=exchg.150).aspx) <br/> |当已准备好传递邮件项目时发生此事件。  <br/> |
-|[OnOpenConnection](https://msdn.microsoft.com/library/microsoft.exchange.data.transport.delivery.deliveryagent.onopenconnection(v=exchg.150).aspx) <br/> |打开传递代理进行邮件传递时发生。  <br/> |
+|[OnCloseConnection](https://msdn.microsoft.com/library/microsoft.exchange.data.transport.delivery.deliveryagent.oncloseconnection(v=exchg.150).aspx) <br/> |在传递最后一个邮件项目并关闭连接后发生。  <br/> |
+|[OnDeliverMailItem](https://msdn.microsoft.com/library/microsoft.exchange.data.transport.delivery.deliveryagent.ondelivermailitem(v=exchg.150).aspx) <br/> |在准备好传递邮件项目时发生。  <br/> |
+|[OnOpenConnection](https://msdn.microsoft.com/library/microsoft.exchange.data.transport.delivery.deliveryagent.onopenconnection(v=exchg.150).aspx) <br/> |在打开传递代理进行邮件传递时发生。  <br/> |
    
 ## <a name="creating-a-custom-deliveryagent-transport-agent"></a>创建自定义 DeliveryAgent 传输代理
 
-下面的过程介绍如何创建自定义 DeliveryAgent 传输代理。 
+以下过程介绍如何创建自定义 DeliveryAgent 传输代理。 
   
 ### <a name="to-create-the-transport-agent"></a>创建传输代理
 
@@ -45,9 +45,9 @@ ms.locfileid: "44527570"
     
    ```
 
-   您可以在您的 Exchange 服务器上找到这些命名空间。 通过添加对这些命名空间的引用，您将有权访问[DeliveryAgent](https://msdn.microsoft.com/library/microsoft.exchange.data.transport.delivery.deliveryagent(v=exchg.150).aspx)成员。 
+   您可以在您的 Exchange 服务器上找到这些命名空间。 通过添加对这些命名空间的引用，你将有权访问 [DeliveryAgent](https://msdn.microsoft.com/library/microsoft.exchange.data.transport.delivery.deliveryagent(v=exchg.150).aspx) 成员。 
     
-2. 为[DeliveryAgentFactory \<Manager\> ](https://msdn.microsoft.com/library/dd877550(v=exchg.150).aspx)类实现派生类。 
+2. 实现[DeliveryAgentFactory 类的派生 \<Manager\> ](https://msdn.microsoft.com/library/dd877550(v=exchg.150).aspx)类。 
     
    ```cs
       public class MyDeliveryAgentFactory : DeliveryAgentFactory<MyDeliveryAgentFactory.MyDeliveryAgentManager>
@@ -73,7 +73,7 @@ ms.locfileid: "44527570"
   
    ```
 
-   此代码将实例化派生类并重写**CreateAgent**方法，以创建新的自定义代理的实例。 此外，还可以在此类中重写其他方法（如**Close**），以执行自定义代码。 创建一个[DeliveryAgentManager](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Delivery.DeliveryAgentManager.aspx)类以重写[SupportedDeliveryProtocol](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Delivery.DeliveryAgentManager.SupportedDeliveryProtocol.aspx)属性，并设置您的代理将使用的协议。 
+   此代码将实例化派生的类并重写 **CreateAgent** 方法以创建新的自定义代理的实例。 其他方法（如 **Close）** 也可以重写在此类中以执行自定义代码。 创建 [DeliveryAgentManager](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Delivery.DeliveryAgentManager.aspx) 类以覆盖 [SupportedDeliveryProtocol](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Delivery.DeliveryAgentManager.SupportedDeliveryProtocol.aspx) 属性并设置代理将使用的协议。 
     
 3. 定义代理。
     
@@ -90,7 +90,7 @@ ms.locfileid: "44527570"
   
    ```
 
-   在定义代理类之后，可以添加自定义功能。 在此示例中，将三个事件、 [OnCloseConnection](https://msdn.microsoft.com/library/microsoft.exchange.data.transport.delivery.deliveryagent.oncloseconnection(v=exchg.150).aspx)、 [OnDeliverMailItem](https://msdn.microsoft.com/library/microsoft.exchange.data.transport.delivery.deliveryagent.ondelivermailitem(v=exchg.150).aspx)和[OnOpenConnection](https://msdn.microsoft.com/library/microsoft.exchange.data.transport.delivery.deliveryagent.onopenconnection(v=exchg.150).aspx)重定向到您的自定义事件处理程序。 
+   定义代理类后，可以添加自定义功能。 本示例中，三个事件 OnCloseConnection、OnDeliverMailItem 和[OnOpenConnection](https://msdn.microsoft.com/library/microsoft.exchange.data.transport.delivery.deliveryagent.onopenconnection(v=exchg.150).aspx)被重定向到自定义事件处理程序。 [](https://msdn.microsoft.com/library/microsoft.exchange.data.transport.delivery.deliveryagent.oncloseconnection(v=exchg.150).aspx) [](https://msdn.microsoft.com/library/microsoft.exchange.data.transport.delivery.deliveryagent.ondelivermailitem(v=exchg.150).aspx) 
     
 ## <a name="see-also"></a>另请参阅
 

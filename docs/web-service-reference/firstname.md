@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FirstName
 api_type:
 - schema
 ms.assetid: 5a791c10-17fa-41db-a625-5b0f1b735237
-description: FirstName 元素表示联系人的第一个名称。
-ms.openlocfilehash: 52072167e149950ef006b23d32ec3adf97df5cae
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: FirstName 元素表示联系人的名字。
+ms.openlocfilehash: 3fe15c6b729ee65c3e0ddec1db449cc68d1e1802
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466302"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59530434"
 ---
 # <a name="firstname"></a>FirstName
 
-**FirstName**元素表示联系人的第一个名称。 
+**FirstName** 元素表示联系人的名字。 
   
 ```xml
 <FirstName/>

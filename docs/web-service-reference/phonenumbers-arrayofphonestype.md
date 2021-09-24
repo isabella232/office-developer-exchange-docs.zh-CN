@@ -1,23 +1,23 @@
 ---
-title: PhoneNumbers （ArrayOfPhonesType）
+title: PhoneNumbers (ArrayOfPhonesType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 748663cc-13ef-4799-91ce-f559050a9fb1
-description: PhoneNumbers 元素指定电话号码的数组。
-ms.openlocfilehash: de777fd27072a8b7767717b46b7d5674e960bbc2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: PhoneNumbers 元素指定电话号码数组。
+ms.openlocfilehash: 906dfc1ca835d85822edec7c2b4cd27c3a12d17e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461693"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528232"
 ---
-# <a name="phonenumbers-arrayofphonestype"></a>PhoneNumbers （ArrayOfPhonesType）
+# <a name="phonenumbers-arrayofphonestype"></a>PhoneNumbers (ArrayOfPhonesType)
 
-**PhoneNumbers**元素指定电话号码的数组。 
+**PhoneNumbers** 元素指定电话号码数组。 
   
 ```XML
 <PhoneNumbers>
@@ -40,9 +40,9 @@ ms.locfileid: "44461693"
   
 ### <a name="parent-elements"></a>父元素
 
-[Contact （ContactType）](contact-contacttype.md)
+[Contact (ContactType)](contact-contacttype.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

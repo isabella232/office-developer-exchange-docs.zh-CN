@@ -1,27 +1,27 @@
 ---
-title: 生成
+title: Generation
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Generation
 api_type:
 - schema
 ms.assetid: a4812843-8aec-4fc4-945f-3aeb17a6593a
-description: 世代元素代表联系人的全名后面的一种代缩写。
-ms.openlocfilehash: 75246153d19632c1a0ad245a460584731275565e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Generation 元素表示联系人的全名后代缩写。
+ms.openlocfilehash: 80065d52605c3ceb6647e9f80d009fdcc3c0758d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463018"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541277"
 ---
-# <a name="generation"></a>生成
+# <a name="generation"></a>Generation
 
-**世代**元素代表联系人的全名后面的一种代缩写。 
+**Generation** 元素表示联系人的全名后代缩写。 
   
 ```xml
 <Generation/>
@@ -48,11 +48,11 @@ ms.locfileid: "44463018"
    
 ## <a name="text-value"></a>文本值
 
-如果使用此元素，则需要一个 text 值。
+如果此元素已使用，则文本值是必需的。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-此元素表示 PR_Generation MAPI 属性所表示的相同信息。
+此元素表示 MAPI 属性所代表的PR_Generation信息。
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

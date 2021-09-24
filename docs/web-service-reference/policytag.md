@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fa4b1447-dc7b-47ad-a677-78fcee443dc6
-description: PolicyTag 元素指定项目或文件夹中的保留标识符。
-ms.openlocfilehash: ddc4d890d1e514586ba5ea7f6a8b541b2e4786c7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: PolicyTag 元素指定项目或文件夹的保留标识符。
+ms.openlocfilehash: 16759748dded6978e68450a6b8d504dd378c04be
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460895"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519252"
 ---
 # <a name="policytag"></a>PolicyTag
 
-**PolicyTag**元素指定项目或文件夹中的保留标识符。 
+**PolicyTag** 元素指定项目或文件夹的保留标识符。 
   
 ```xml
 <PolicyTag IsExplicit="true | false"></PolicyTag>
@@ -32,7 +32,7 @@ ms.locfileid: "44460895"
 
 |**属性**|**说明**|
 |:-----|:-----|
-|IsExplicit  <br/> |指示是否对项目或文件夹显式设置了策略标记。  <br/> **IsExplicit**属性的文本值为**true**表示已在项或文件夹上显式设置了策略标记。 如果文本值为**false** ，则表示已基于父文件夹策略标记对项目或文件夹隐式设置了策略标记。  <br/> |
+|IsExplicit  <br/> |指示是否已对项目或文件夹显式设置策略标记。  <br/> **IsExplicit** 属性的文本值 **true** 指示策略标记在项目或文件夹上显式设置。 false **的文本值表示** 策略标记已基于父文件夹策略标记隐式设置在项目或文件夹上。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -40,13 +40,13 @@ ms.locfileid: "44460895"
   
 ### <a name="parent-elements"></a>父元素
 
-[SearchPreviewItem](searchpreviewitem.md)  | [项](item.md)  | [联系人](contact.md)  | [邮件](message-ex15websvcsotherref.md)  | [DistributionList](distributionlist.md)  | [CalendarItem](calendaritem.md)  | [PostItem](postitem.md)  | [任务](task.md)
+[SearchPreviewItem](searchpreviewitem.md)  | [Item](item.md)  | [联系人](contact.md)  | [邮件](message-ex15websvcsotherref.md)  | [DistributionList](distributionlist.md)  | [CalendarItem](calendaritem.md)  | [PostItem](postitem.md)  | [任务](task.md)
   
 ## <a name="text-value"></a>文本值
 
-**PolicyTag**元素的文本值是策略标记标识符。 策略标记标识符是一个 GUID。 
+**PolicyTag** 元素的文本值是策略标记标识符。 策略标记标识符是一个 GUID。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

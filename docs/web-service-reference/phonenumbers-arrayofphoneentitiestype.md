@@ -1,23 +1,23 @@
 ---
-title: PhoneNumbers （ArrayOfPhoneEntitiesType）
+title: PhoneNumbers (ArrayOfPhoneEntitiesType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9ff6ae98-34a1-47f7-bde5-608251a789f7
-description: PhoneNumbers 元素指定一组已提取的电话号码。
-ms.openlocfilehash: 857847a8bc202ba0d630915ac10f197264d840a3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: PhoneNumbers 元素指定提取的电话号码的数组。
+ms.openlocfilehash: fe0758536a27d24f181bb413a838943490bacb59
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461700"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528286"
 ---
-# <a name="phonenumbers-arrayofphoneentitiestype"></a>PhoneNumbers （ArrayOfPhoneEntitiesType）
+# <a name="phonenumbers-arrayofphoneentitiestype"></a>PhoneNumbers (ArrayOfPhoneEntitiesType)
 
-**PhoneNumbers**元素指定一组已提取的电话号码。 
+**PhoneNumbers** 元素指定提取的电话号码的数组。 
   
 ```XML
 <PhoneNumbers>
@@ -36,13 +36,13 @@ ms.locfileid: "44461700"
   
 ### <a name="child-elements"></a>子元素
 
-[电话（PhoneEntityType）](phone-phoneentitytype.md)
+[Phone (PhoneEntityType)](phone-phoneentitytype.md)
   
 ### <a name="parent-elements"></a>父元素
 
 [EntityExtractionResult](entityextractionresult.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

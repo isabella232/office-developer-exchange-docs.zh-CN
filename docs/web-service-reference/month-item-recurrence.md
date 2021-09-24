@@ -1,27 +1,27 @@
 ---
-title: 月（项目定期）
+title: Month (Item Recurrence)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Month
 api_type:
 - schema
 ms.assetid: d2352001-f959-436a-afd5-a0a07b8ae02a
-description: Month 元素描述每年定期项目发生的月份。
-ms.openlocfilehash: d881c617374bc9545552ad77f2f2b355efdf2359
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Month 元素描述发生年度定期项目的月份。
+ms.openlocfilehash: 01d8874db3b539ba1f4c64b3fbd9b83b5b0828b6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468633"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510958"
 ---
-# <a name="month-item-recurrence"></a>月（项目定期）
+# <a name="month-item-recurrence"></a>Month (Item Recurrence)
 
-**Month**元素描述每年定期项目发生的月份。 
+**Month** 元素描述发生年度定期项目的月份。 
   
 ```xml
 <Month/>
@@ -45,35 +45,35 @@ ms.locfileid: "44468633"
 |**元素**|**说明**|
 |:-----|:-----|
 |[AbsoluteYearlyRecurrence](absoluteyearlyrecurrence.md) <br/> |代表每年定期模式。  <br/> |
-|[RelativeYearlyRecurrence](relativeyearlyrecurrence.md) <br/> |介绍相对年定期模式。  <br/> |
+|[RelativeYearlyRecurrence](relativeyearlyrecurrence.md) <br/> |描述相对每年定期模式。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-文本值是必需的。 以下是此元素的可能的文本值：
+文本值是必需的。 以下是此元素的可能文本值：
   
-- 年1月
+- 1 月
     
-- 2
+- 2 月
     
-- 31
+- 3 月
     
-- 年4月
+- 4 月
     
-- 有时
+- 5 月
     
-- 7
+- 6 月
     
-- 年7月
+- 7 月
     
-- 年8月
+- 8 月
     
-- 月份
+- 九月
     
-- 年
+- 10 月
     
-- 2007
+- 十一月
     
-- 12
+- 12 月
     
 ## <a name="remarks"></a>说明
 

@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 04dd4987-baaf-4ebe-ae58-ad962c2f8fa1
-description: ReminderMessageData 元素指定提醒邮件中的数据。
-ms.openlocfilehash: f2632062cd02581c426f7dbfa2a33d53e5594d72
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ReminderMessageData 元素指定提醒消息中的数据。
+ms.openlocfilehash: d916e1526f11795efa54cdf186d606bc293656e0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458549"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512448"
 ---
 # <a name="remindermessagedata"></a>ReminderMessageData
 
-**ReminderMessageData**元素指定提醒邮件中的数据。 
+**ReminderMessageData** 元素指定提醒消息中的数据。 
   
 ```XML
 <ReminderMessageData>
@@ -41,7 +41,7 @@ ms.locfileid: "44458549"
   
 ### <a name="child-elements"></a>子元素
 
-[ReminderText](remindertext.md)  | [位置](location.md)  | [StartTime （ReminderMessageDataType）](starttime-remindermessagedatatype.md)  | [EndTime （ReminderMessageDataType）](endtime-remindermessagedatatype.md)  | [AssociatedCalendarItemId](associatedcalendaritemid.md)
+[ReminderText](remindertext.md)  | [位置](location.md)  | [StartTime (ReminderMessageDataType) ](starttime-remindermessagedatatype.md)  | [EndTime (ReminderMessageDataType) ](endtime-remindermessagedatatype.md)  | [AssociatedCalendarItemId](associatedcalendaritemid.md)
   
 ### <a name="parent-elements"></a>父元素
 
@@ -53,7 +53,7 @@ Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
-从内部版本号15.00.0913.09 开始的 Exchange 版本可以将**AssociatedCalendarItemId**元素作为**ReminderMessageData**元素的子元素包括在内。 
+从内部Exchange号 15.00.0913.09 开始的版本可以包含 **AssociatedCalendarItemId** 元素作为 **ReminderMessageData** 元素的子元素。 
   
 ## <a name="element-information"></a>元素信息
 

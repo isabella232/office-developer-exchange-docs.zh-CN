@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SuggestionArray
 api_type:
 - schema
 ms.assetid: c1c26008-7b14-4563-8db5-bceb0f475b1b
-description: SuggestionArray 元素包含一个会议建议数组。
-ms.openlocfilehash: ec982417c39569820beef82ae837eacbe316740c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SuggestionArray 元素包含一组会议建议。
+ms.openlocfilehash: 60b7f02915c609e108136957511dfe42717344f9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466673"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59531574"
 ---
 # <a name="suggestionarray"></a>SuggestionArray
 
-**SuggestionArray**元素包含一个会议建议数组。 
+**SuggestionArray** 元素包含一组会议建议。 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -58,7 +58,7 @@ ms.locfileid: "44466673"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[SuggestionDayResult](suggestiondayresult.md) <br/> |表示包含建议会议时间的一天。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]` <br/> |
+|[SuggestionDayResult](suggestiondayresult.md) <br/> |表示包含建议的会议时间的单天。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]` <br/> |
    
 ## <a name="remarks"></a>说明
 

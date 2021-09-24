@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DeleteFolderField
 api_type:
 - schema
 ms.assetid: f9c2187b-4c60-4358-b4b4-ede50eadae48
-description: DeleteFolderField 元素表示在 UpdateFolder 调用过程中从文件夹中删除给定属性的操作。
-ms.openlocfilehash: a0b48b667c8c8afbd5729d5deb84359a6a6ccc25
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DeleteFolderField 元素表示在 UpdateFolder 调用期间从文件夹中删除给定属性的操作。
+ms.openlocfilehash: b2a7b94cb1f017960ea7ae553cefe9bc390d9256
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462155"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528983"
 ---
 # <a name="deletefolderfield"></a>DeleteFolderField
 
-**DeleteFolderField**元素表示在 UpdateFolder 调用过程中从文件夹中删除给定属性的操作。 
+**DeleteFolderField** 元素表示在 UpdateFolder 调用期间从文件夹中删除给定属性的操作。 
   
 - [UpdateFolder](updatefolder.md) 
 - [FolderChanges](folderchanges.md)  
@@ -62,14 +62,14 @@ ms.locfileid: "44462155"
 |**元素**|**说明**|
 |:-----|:-----|
 |[FieldURI](fielduri.md) <br/> |标识由 URI 频繁引用的属性。  <br/> |
-|[IndexedFieldURI](indexedfielduri.md) <br/> |标识 dictionary 属性的各个成员。  <br/> |
-|[ExtendedFieldURI](extendedfielduri.md) <br/> |标识扩展 MAPI 属性。  <br/> |
+|[IndexedFieldURI](indexedfielduri.md) <br/> |标识字典属性的单个成员。  <br/> |
+|[ExtendedFieldURI](extendedfielduri.md) <br/> |标识扩展的 MAPI 属性。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Updates 文件夹](updates-folder.md) <br/> |包含一组元素，这些元素定义追加、设置和删除对文件夹属性所做的更改。  <br/> 下面是此元素的 XPath 表达式:  `/UpdateFolder/FolderChanges/FolderChange[i]/Updates` <br/> |
+|[Updates 文件夹](updates-folder.md) <br/> |包含一组元素，这些元素定义对文件夹属性的追加、设置和删除更改。  <br/> 下面是此元素的 XPath 表达式:  `/UpdateFolder/FolderChanges/FolderChange[i]/Updates` <br/> |
    
 ## <a name="remarks"></a>说明
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ToRecipients
 api_type:
 - schema
 ms.assetid: 72dc3be8-30bb-4ae1-acf4-fb94ff490631
 description: ToRecipients元素中包含收件人的项的数组。这是一项主要收件人。
-ms.openlocfilehash: 39ee359e1eaf3d0b6455fb1734222e78054dc7f3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 1e49a3113328b0573124948056f684de72f27b3f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467541"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59527249"
 ---
 # <a name="torecipients"></a>ToRecipients
 
-本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **ToRecipients**元素中包含收件人的项的数组。这是一项主要收件人。 
+本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **ToRecipients** 元素中包含收件人的项的数组。这是一项主要收件人。 
   
 ```xml
 <ToRecipients>
@@ -62,7 +62,7 @@ ms.locfileid: "44467541"
 |[ForwardItem](forwarditem.md) <br/> |包含要转发给收件人的 Exchange 存储区项。  <br/> |
 |[CancelCalendarItem](cancelcalendaritem.md) <br/> |表示用于取消会议的响应对象。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 您无法通过使用 FindItem 请求获取 **ToRecipients** 。使用一个 GetItem 请求来获取 **ToRecipients**。
   

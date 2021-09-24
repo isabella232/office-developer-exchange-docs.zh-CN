@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e4b496f7-63fa-479a-b045-73276573f64f
 description: MailboxQuery 元素指定查询和发现搜索的范围。
-ms.openlocfilehash: 754a2a6dec50c8c4074ed6a01f04ba176c66c0d4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 9ab2d44822012a264fe136f0c170c91ad5b62f22
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44531019"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519336"
 ---
 # <a name="mailboxquery"></a>MailboxQuery
 
-**MailboxQuery**元素指定查询和发现搜索的范围。 
+**MailboxQuery** 元素指定查询和发现搜索的范围。 
   
 ```XML
 <MailboxQuery>
@@ -44,7 +44,7 @@ ms.locfileid: "44531019"
 
 [SearchQueries](searchqueries.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

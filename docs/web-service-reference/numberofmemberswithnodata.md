@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - NumberOfMembersWithNoData
 api_type:
 - schema
 ms.assetid: 7ca9c57c-9519-442c-a9f4-dca2b0309716
-description: NumberOfMembersWithNoData 元素表示没有发布的忙/闲数据的通讯组列表成员的数量，以与建议的会议时间进行比较。 此元素表示通讯组列表的成员过大或没有数据状态的成员。
-ms.openlocfilehash: df41adc14f4c35c0e24d0f3c54f74a63527859d6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: NumberOfMembersWithNoData 元素表示未发布忙/闲数据以与建议的会议时间进行比较的通讯组列表成员的数量。 此元素表示过大的通讯组列表的成员或具有"无数据"状态的成员。
+ms.openlocfilehash: 4b021ce75a84eca3e1b5a66cf51f6b5d7adec86b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462547"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529683"
 ---
 # <a name="numberofmemberswithnodata"></a>NumberOfMembersWithNoData
 
-**NumberOfMembersWithNoData**元素表示没有发布的忙/闲数据的通讯组列表成员的数量，以与建议的会议时间进行比较。 此元素表示通讯组列表的成员过大或没有**数据**状态的成员。 
+**NumberOfMembersWithNoData** 元素表示未发布忙/闲数据以与建议的会议时间进行比较的通讯组列表成员的数量。 此元素表示过大的通讯组列表的成员或具有"无 **数据"状态** 的成员。 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -62,15 +62,15 @@ ms.locfileid: "44462547"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GroupAttendeeConflictData](groupattendeeconflictdata.md) <br/> |包含有关可用用户数的聚合冲突信息、有冲突的用户数以及在通讯组列表中没有可用性信息的用户数量建议的会议时间。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray/GroupAttendeeConflictData` <br/> |
+|[GroupAttendeeConflictData](groupattendeeconflictdata.md) <br/> |包含有关可用用户数、发生冲突的用户数和在建议的会议时间通讯组列表中没有可用性信息的用户数的聚合冲突信息。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray/GroupAttendeeConflictData` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-没有邮箱的组中的联系人是不具有日历数据的通讯组列表成员的一个示例。 由于以下原因，联系人也可能没有**数据**状态： 
+没有邮箱的组中的联系人是没有日历数据的通讯组列表成员的示例。 出于以下原因 **，联系人** 可能还具有"无数据"状态： 
   
 - 权限不足。
     
-- 通讯组列表太大，无法扩展。
+- 通讯组列表太大，展开不展开。
     
 - Active Directory 目录服务不可用。
     

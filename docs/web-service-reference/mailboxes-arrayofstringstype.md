@@ -1,23 +1,23 @@
 ---
-title: 邮箱（ArrayOfStringsType）
+title: Mailboxes (ArrayOfStringsType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 20596ebd-ed0f-4ad0-8631-e504220f1016
-description: 邮箱元素包含受保留影响的邮箱的列表。
-ms.openlocfilehash: 376bd1f007e4b3d27bc44076a7b09993c49bd416
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Mailboxes 元素包含受保留影响的邮箱列表。
+ms.openlocfilehash: d7eab2b3fb6566380f2ccc4d2419f5eb4a45460a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468157"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528528"
 ---
-# <a name="mailboxes-arrayofstringstype"></a>邮箱（ArrayOfStringsType）
+# <a name="mailboxes-arrayofstringstype"></a>Mailboxes (ArrayOfStringsType)
 
-**邮箱**元素包含受保留影响的邮箱的列表。 
+**Mailboxes** 元素包含受保留影响的邮箱列表。 
   
 ```XML
 <Mailboxes>
@@ -43,7 +43,7 @@ ms.locfileid: "44468157"
 
 [SetHoldOnMailboxes](setholdonmailboxes.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

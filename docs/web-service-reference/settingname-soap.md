@@ -1,24 +1,24 @@
 ---
-title: SettingName （SOAP）
+title: SettingName (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 8bcb0411-58b0-4e37-b97e-00c07dcbecb1
-description: SettingName 元素表示响应中的设置的名称。
-ms.openlocfilehash: d492b82b7385d6403f15c08356db5d0503792d54
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SettingName 元素表示响应中设置的名称。
+ms.openlocfilehash: 1a676f55ad86496ae8bdbdfbeaeb9827b1aa6646
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466722"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59531879"
 ---
-# <a name="settingname-soap"></a>SettingName （SOAP）
+# <a name="settingname-soap"></a>SettingName (SOAP)
 
-**SettingName**元素表示响应中的设置的名称。 
+**SettingName** 元素表示响应中设置的名称。 
   
 ```XML
 <SettingName/>
@@ -41,12 +41,12 @@ ms.locfileid: "44466722"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[UserSettingError （SOAP）](usersettingerror-soap.md) <br/> |表示检索用户设置时返回的错误。  <br/> |
-|[DomainSettingError （SOAP）](domainsettingerror-soap.md) <br/> |表示检索域设置时发生的错误。 这表示来自**GetDomainSettings**请求的一个错误。  <br/> |
+|[UserSettingError (SOAP)](usersettingerror-soap.md) <br/> |表示检索用户设置时返回的错误。  <br/> |
+|[DomainSettingError (SOAP)](domainsettingerror-soap.md) <br/> |表示检索域设置时发生的错误。 这表示来自 **GetDomainSettings 请求** 的错误。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**SettingName**元素的值表示响应中的设置的名称。 
+**SettingName** 元素的值表示响应中设置的名称。 
   
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

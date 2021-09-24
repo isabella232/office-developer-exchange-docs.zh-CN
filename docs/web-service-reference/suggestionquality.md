@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SuggestionQuality
 api_type:
 - schema
 ms.assetid: 734f1a58-adda-4830-973e-e84bf7b870d5
 description: SuggestionQuality 元素表示建议的会议时间的质量。
-ms.openlocfilehash: 3f8c15ccabd03687dc386a0328020cbc0bc802c4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 4d8a504e60e8f043bfb120080a89733e78b16b9e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457975"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59531550"
 ---
 # <a name="suggestionquality"></a>SuggestionQuality
 
-**SuggestionQuality**元素表示建议的会议时间的质量。 
+**SuggestionQuality** 元素表示建议的会议时间的质量。 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -62,19 +62,19 @@ ms.locfileid: "44457975"
    
 ## <a name="text-value"></a>文本值
 
-一个代表**SuggestionQuality**值的文本值是必需的。 以下是可能的值： 
+需要一个代表 **SuggestionQuality 值** 的文本值。 以下是可能的值： 
   
-- **理想**的100% 的用户和资源可用于建议的会议时间。 
+-  100% 的出色用户和资源都可用于建议的会议时间。 
     
-- **正常**可用的用户和资源的最小百分比等于或大于[GoodThreshold](goodthreshold.md)元素的值加上50。 
+- **良好** 可用用户和资源的最小百分比等于或大于 [GoodThreshold](goodthreshold.md) 元素值加 50。 
     
-- **公平**可用于建议会议时间的用户和资源的最大百分比等于[GoodThreshold](goodthreshold.md)元素值加上50。 **合理**质量会议时间的最小值为50%。 
+- **Fair** 建议的会议时间可用的用户和资源的最大百分比等于 [GoodThreshold](goodthreshold.md) 元素值加 50。 公平质量会议 **时间** 最小值为 50%。 
     
-- **较差**少于50% 的用户和资源可用于建议的会议时间。 
+- **较差** 少于 50% 的用户和资源可用于建议的会议时间。 
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-**SuggestionQuality**类型也是[DayQuality](dayquality.md)和[MinimumSuggestionQuality](minimumsuggestionquality.md)元素的类型。 
+**SuggestionQuality** 类型也是 [DayQuality](dayquality.md)和 [MinimumSuggestionQuality 元素](minimumsuggestionquality.md)的类型。 
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

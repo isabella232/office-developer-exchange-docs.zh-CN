@@ -4,29 +4,29 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: c6666a42-a18f-4e4b-beb6-b25ff62cfcc5
-description: GetFederationInformation 操作提供有关组织的联合身份验证状态的信息，例如，在请求此组织的目标令牌时要使用的目标 URI，以及组织同时也是联合的其他域。
-ms.openlocfilehash: 533b2f6d282e3287f4945df56b169f5bc93ff445
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetFederationInformation 操作提供有关组织的联盟状态的信息，例如请求以该组织为目标的令牌时所使用的目标 URI，以及组织还联合的其他域。
+ms.openlocfilehash: 915498440e4bc3d7262ed3a55350f7d3723d47d8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455623"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529952"
 ---
 # <a name="getfederationinformation-operation-soap"></a>GetFederationInformation 操作 (SOAP)
 
-**GetFederationInformation**操作提供有关组织的联合身份验证状态的信息，例如，在请求此组织的目标令牌时要使用的目标 URI，以及组织同时也是联合的其他域。 
+**GetFederationInformation** 操作提供有关组织的联盟状态的信息，例如请求以该组织为目标的令牌时所使用的目标 URI，以及组织还联合的其他域。 
   
-只有联合组织可以将日历、联系人和邮件共享给外部用户。
+只有联盟组织才能与外部用户共享日历、联系人和邮件。
   
 ## <a name="getfederationinformation-request-example"></a>GetFederationInformation 请求示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-以下示例的**GetFederationInformation**请求显示了用户的联合身份验证信息的请求。 客户端将此请求发送到服务器。 
+**GetFederationInformation** 请求的以下示例显示用户联合信息的请求。 客户端将此请求发送到服务器。 
   
 ### <a name="code"></a>代码
 
@@ -60,21 +60,21 @@ ms.locfileid: "44455623"
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Request 元素
+### <a name="request-elements"></a>请求元素
 
-请求中使用以下元素：
+请求中会使用下列元素：
   
-- [GetFederationInformationRequestMessage （SOAP）](getfederationinformationrequestmessage-soap.md)
+- [GetFederationInformationRequestMessage (SOAP)](getfederationinformationrequestmessage-soap.md)
     
 - [请求 (SOAP)](request-soap.md)
     
-- [域（SOAP）](domain-soap.md)
+- [Domain (SOAP)](domain-soap.md)
     
 ## <a name="getfederationinformation-response-example"></a>GetFederationInformation 响应示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-下面的示例演示对服务器发送到客户端的**GetFederationInformation**请求的成功响应。 
+以下示例显示服务器发送给客户端的 **GetFederationInformation** 请求的成功响应。 
   
 ### <a name="code"></a>代码
 
@@ -107,21 +107,21 @@ xmlns:a="http://www.w3.org/2005/08/addressing">
 
 ### <a name="response-elements"></a>Response 元素
 
-响应中使用以下元素：
+响应中会使用下列元素：
   
-- [GetFederationInformationResponseMessage （SOAP）](getfederationinformationresponsemessage-soap.md)
+- [GetFederationInformationResponseMessage (SOAP)](getfederationinformationresponsemessage-soap.md)
     
-- [响应（SOAP）](response-soap.md)
+- [Response (SOAP)](response-soap.md)
     
-- [ErrorCode （SOAP）](errorcode-soap.md)
+- [ErrorCode (SOAP)](errorcode-soap.md)
     
-- [ErrorMessage （SOAP）](errormessage-soap.md)
+- [ErrorMessage (SOAP)](errormessage-soap.md)
     
-- [ApplicationUri （SOAP）](applicationuri-soap.md)
+- [ApplicationUri (SOAP)](applicationuri-soap.md)
     
-- [域（SOAP）](domains-soap.md)
+- [Domains (SOAP)](domains-soap.md)
     
-- [域（SOAP）](domain-soap.md)
+- [Domain (SOAP)](domain-soap.md)
     
 ## <a name="see-also"></a>另请参阅
 

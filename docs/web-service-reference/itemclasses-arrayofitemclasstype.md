@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 971784d1-6860-4833-bb26-0e930fa11c21
-description: ItemClasses 元素包含项类的列表，这些类表示当前文件夹中的会话项目的所有项目类。
-ms.openlocfilehash: 39118bf845429bb198874ae4e6b424c6339b1964
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ItemClasses 元素包含表示当前文件夹中的对话项目的所有项目类的项目类的列表。
+ms.openlocfilehash: 6193828cb6589c2c0225f894a196a5460a6bfb54
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467296"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511397"
 ---
 # <a name="itemclasses-arrayofitemclasstype"></a>ItemClasses (ArrayOfItemClassType)
 
-**ItemClasses**元素包含项类的列表，这些类表示当前文件夹中的会话项目的所有项目类。 
+**ItemClasses** 元素包含表示当前文件夹中的对话项目的所有项目类的项目类的列表。 
   
 [FindConversationResponse](findconversationresponse.md)
   
@@ -58,7 +58,7 @@ ms.locfileid: "44467296"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   

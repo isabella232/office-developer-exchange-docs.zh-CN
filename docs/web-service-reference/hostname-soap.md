@@ -1,24 +1,24 @@
 ---
-title: Hostname （SOAP）
+title: Hostname (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 2ef2ab0d-ba70-46bd-80bb-c1e08da9e9bd
 description: Hostname 元素表示计算机的完整计算机名称的主机名部分。
-ms.openlocfilehash: 2c368e710dc192302bc63bd74bba35d84c5ab705
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: b607776940233f6df689256e50ba96970f6d033f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460811"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529884"
 ---
-# <a name="hostname-soap"></a>Hostname （SOAP）
+# <a name="hostname-soap"></a>Hostname (SOAP)
 
-**Hostname**元素表示计算机的完整计算机名称的主机名部分。 
+**Hostname** 元素表示计算机的完整计算机名称的主机名部分。 
   
 ```XML
 <Hostname/>
@@ -41,11 +41,11 @@ ms.locfileid: "44460811"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ProtocolConnection （SOAP）](protocolconnection-soap.md) <br/> |表示服务器 Web 客户端的协议连接。  <br/> |
+|[ProtocolConnection (SOAP)](protocolconnection-soap.md) <br/> |表示服务器 Web 客户端的协议连接。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**Hostname**元素的文本值是计算机的完整计算机名称的主机名部分。 
+**Hostname** 元素的文本值是计算机的完整计算机名称的主机名部分。 
   
 ## <a name="element-information"></a>元素信息
 

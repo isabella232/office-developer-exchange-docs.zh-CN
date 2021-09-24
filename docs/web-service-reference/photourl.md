@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0d6d1709-01b2-4599-8145-47f51da4bb26
 description: PhotoUrl 元素仅供内部使用。
-ms.openlocfilehash: f14b62da13ba407355b5422bc61b3cefc869fa96
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: e001c45f3fb32249dfa14659a2912c8b519928ca
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44434062"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528028"
 ---
 # <a name="photourl"></a>PhotoUrl
 
-**PhotoUrl**元素仅供内部使用。 
+**PhotoUrl** 元素仅供内部使用。 
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
@@ -35,7 +35,7 @@ ms.locfileid: "44434062"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   

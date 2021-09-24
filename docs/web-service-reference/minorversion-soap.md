@@ -4,21 +4,21 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 2ef4e181-7324-4c88-94a9-1cffefc8c008
 description: MinorVersion元素表示为服务器的版本号。
-ms.openlocfilehash: 79e617e65e7cecffa1b8ca7ccfe9ac799bb475b9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 4518a1cb342187099aefa9ac9d9d5069e51fa9ca
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467751"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518195"
 ---
 # <a name="minorversion-soap"></a>MinorVersion (SOAP)
 
-本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **MinorVersion**元素表示为服务器的版本号。 
+本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **MinorVersion** 元素表示为服务器的版本号。 
   
 ```XML
 <MinorVersion/>
@@ -53,7 +53,7 @@ ms.locfileid: "44467751"
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |架构名称  <br/> |自动发现架构  <br/> |
-|验证文件  <br/> |消息 .xsd  <br/> |
+|验证文件  <br/> |messages.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
    
 

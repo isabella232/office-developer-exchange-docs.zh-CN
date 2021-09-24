@@ -1,27 +1,27 @@
 ---
-title: Message
+title: InternetMessageHeaders
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - InternetMessageHeaders
 api_type:
 - schema
 ms.assetid: 4dcf8671-96df-4a2d-9836-7e8e3a67e0db
-description: Message 元素包含邮箱中的项目中包含的某些 Internet 邮件头的集合。 若要获取 Internet 邮件头的整个集合，请使用 PR_TRANSPORT_MESSAGE_HEADERS 属性。 有关 EWS 和 Internet 邮件头的详细信息，seeGetting Internet message headersin EWS、MIME 和缺少的 Internet 邮件头。
-ms.openlocfilehash: 4719050c02590e021b29173c234466de3fdc58a4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: InternetMessageHeaders 元素包含邮箱中的项目中包含的一些 Internet 邮件头的集合。 若要获取整个 Internet 邮件头集合，请使用 PR_TRANSPORT_MESSAGE_HEADERS 属性。 有关 EWS 和 Internet 邮件头详细信息，请参阅在 EWS、MIME 中获取 Internet 邮件头和缺少的 Internet 邮件头。
+ms.openlocfilehash: 1ea49f2d5cc31aef09a9bc6d38dff25652696842
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467324"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541077"
 ---
-# <a name="internetmessageheaders"></a>Message
+# <a name="internetmessageheaders"></a>InternetMessageHeaders
 
-**Message**元素包含邮箱中的项目中包含的某些 Internet 邮件头的集合。 若要获取 Internet 邮件头的整个集合，请使用**PR_TRANSPORT_MESSAGE_HEADERS**属性。 有关 EWS 和 Internet 邮件头的详细信息，请参阅 EWS 中的 "获取 Internet 邮件头" [、"MIME" 和 "缺少 Internet 邮件头](https://msdn.microsoft.com/library/exchange/hh545614%28v=exchg.140%29.aspx)"。
+**InternetMessageHeaders** 元素包含邮箱中的项目中包含的一些 Internet 邮件头的集合。 若要获取整个 Internet 邮件头集合，请使用 **PR_TRANSPORT_MESSAGE_HEADERS** 属性。 有关 EWS 和 Internet 邮件头的信息，请参阅 [EWS、MIME](https://msdn.microsoft.com/library/exchange/hh545614%28v=exchg.140%29.aspx)中的"获取 Internet 邮件头"和缺少的 Internet 邮件头。
   
 ```XML
 <InternetMessageHeaders>
@@ -42,7 +42,7 @@ ms.locfileid: "44467324"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[InternetMessageHeader](internetmessageheader.md) <br/> |表示标头集合中给定标头的 Internet 邮件头。  <br/> |
+|[InternetMessageHeader](internetmessageheader.md) <br/> |代表 headers 集合中给定邮件头的 Internet 邮件头。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -63,9 +63,9 @@ ms.locfileid: "44467324"
 |[任务](task.md) <br/> |表示 Exchange 存储中的任务。  <br/> |
 |[TentativelyAcceptItem](tentativelyacceptitem.md) <br/> |表示暂时接受的会议请求答复。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-下面是**PR_TRANSPORT_MESSAGE_HEADERS**属性的 EWS 托管 API 扩展属性定义。 
+下面是 EWS 托管 API 扩展属性定义的 PR_TRANSPORT_MESSAGE_HEADERS **属性。** 
   
 ```cs
 ExtendedPropertyDefinition transportMsgHdr = new ExtendedPropertyDefinition(0x007D, MapiPropertyType.String);

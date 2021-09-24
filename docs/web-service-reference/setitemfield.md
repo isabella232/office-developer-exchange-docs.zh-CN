@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SetItemField
 api_type:
 - schema
 ms.assetid: 85284fcb-bd1e-4fda-9dab-cb4cd637cd5b
-description: SetItemField 元素表示对 UpdateItem 操作中项的单个属性的更新。
-ms.openlocfilehash: b4606eb7d94b9d0c4c5bcd5a2b56d73a4d4270cb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SetItemField 元素表示对 UpdateItem 操作中某个项目的单个属性的更新。
+ms.openlocfilehash: ab54bf10fb457ff92dfb9f797068022aab627bd2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467422"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532021"
 ---
 # <a name="setitemfield"></a>SetItemField
 
-**SetItemField**元素表示对[UpdateItem 操作](updateitem-operation.md)中项的单个属性的更新。
+**SetItemField** 元素表示对 [UpdateItem](updateitem-operation.md)操作中某个项目的单个属性的更新。
   
 ```xml
 <SetItemField>
@@ -250,13 +250,13 @@ ms.locfileid: "44467422"
 |:-----|:-----|
 |[FieldURI](fielduri.md) <br/> |标识由 URI 频繁引用的属性。  <br/> |
 |[IndexedFieldURI](indexedfielduri.md) <br/> |标识词典中的各个成员。  <br/> |
-|[ExtendedFieldURI](extendedfielduri.md) <br/> |确定要设置的扩展 MAPI 属性。  <br/> |
+|[ExtendedFieldURI](extendedfielduri.md) <br/> |标识要设置的扩展 MAPI 属性。  <br/> |
 |[项目](item.md) <br/> |表示 Exchange 存储中的项。  <br/> |
-|[消息](message-ex15websvcsotherref.md) <br/> |表示要更新的 Exchange 电子邮件。  <br/> |
-|[CalendarItem](calendaritem.md) <br/> |表示要更新的 Exchange 日历项目。  <br/> |
-|[联系人](contact.md) <br/> |表示要更新的 Exchange 联系人项目。  <br/> |
+|[消息](message-ex15websvcsotherref.md) <br/> |表示Exchange电子邮件的收件人。  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |表示要Exchange的日历项目。  <br/> |
+|[联系人](contact.md) <br/> |表示要Exchange联系人项目的详细信息。  <br/> |
 |[DistributionList](distributionlist.md) <br/> |表示要更新的通讯组列表。  <br/> |
-|[MeetingMessage](meetingmessage.md) <br/> |表示要更新的会议邮件。  <br/> |
+|[MeetingMessage](meetingmessage.md) <br/> |表示要更新的会议消息。  <br/> |
 |[MeetingRequest](meetingrequest.md) <br/> |表示要更新的会议请求。  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |表示要更新的会议响应。  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |表示要更新的会议取消。  <br/> |
@@ -266,7 +266,7 @@ ms.locfileid: "44467422"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[更新（项目）](updates-item.md) <br/> |包含一组元素，这些元素定义追加、设置和删除对项目属性所做的更改。  <br/> |
+|[Updates (Item)](updates-item.md) <br/> |包含一组元素，这些元素定义对项目属性的追加、设置和删除更改。  <br/> |
    
 ## <a name="remarks"></a>说明
 

@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - agentList
 api_type:
 - schema
 ms.assetid: e877b7ef-e303-4270-964d-8d116ff2a865
-description: 上次修改时间：2015年9月17日
-ms.openlocfilehash: 99e4e24c3bca77c7e7d5f2c59bb21cee1317fed2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: 上次修改时间：2015 年 9 月 17 日
+ms.openlocfilehash: eadae2a22e4c844f1f2edce9211100bb9ef2776d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44446390"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529354"
 ---
 # <a name="agentlist"></a>agentList
   
-**适用于：** Exchange Server 2013
+**适用于：Exchange Server** 2013
   
-**AgentList**元素包含每个已安装代理的[代理](agent.md)元素。 
+**agentList** 元素包含每个 [已安装](agent.md)代理的代理元素。 
   
 - [configuration](configuration.md)
 - [mexRuntime](mexruntime.md)
@@ -35,7 +35,7 @@ ms.locfileid: "44446390"
 </agentList>
 ```
 
-**agentListType （复杂类型）**
+**agentListType (complexType)**
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
@@ -49,13 +49,13 @@ ms.locfileid: "44446390"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[代理](agent.md) <br/> |包含有关已安装代理的配置信息。  <br/> |
+|[agent](agent.md) <br/> |包含有关已安装代理的配置信息。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[mexRuntime](mexruntime.md) <br/> |包含定义有关已安装代理的代理监视和配置信息的配置信息的元素。  <br/> |
+|[mexRuntime](mexruntime.md) <br/> |包含用于定义代理监视的配置信息和有关已安装代理的配置信息的元素。  <br/> |
    
 ## <a name="element-information"></a>元素信息
 

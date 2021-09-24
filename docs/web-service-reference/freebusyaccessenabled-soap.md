@@ -1,22 +1,22 @@
 ---
-title: FreeBusyAccessEnabled （SOAP）
+title: FreeBusyAccessEnabled (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8d2d3276-b180-424e-a707-7256d14a1776
-description: FreeBusyAccessEnabled 元素表示 FreeBusyAccessEnabled （）标志。 FreeBusyAccessEnabled 元素仅供内部使用。 客户端不使用此元素。
-ms.openlocfilehash: c148d8fa1301339f8579884dc02b6c9e452f3035
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: FreeBusyAccessEnabled 元素表示 FreeBusyAccessEnabled () 标志。 FreeBusyAccessEnabled 元素仅供内部使用。 此元素不由客户端使用。
+ms.openlocfilehash: faf51798ba211b4219a3f2abee3b3e5e9ce4ab29
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461294"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59530211"
 ---
-# <a name="freebusyaccessenabled-soap"></a>FreeBusyAccessEnabled （SOAP）
+# <a name="freebusyaccessenabled-soap"></a>FreeBusyAccessEnabled (SOAP)
 
-**FreeBusyAccessEnabled**元素表示**FreeBusyAccessEnabled （）** 标志。 **FreeBusyAccessEnabled**元素仅供内部使用。 客户端不使用此元素。 
+**FreeBusyAccessEnabled** 元素表示 **FreeBusyAccessEnabled ()** 标志。 **FreeBusyAccessEnabled** 元素仅供内部使用。 此元素不由客户端使用。 
   
 ```XML
 <FreeBusyAccessEnabled>true | false</FreeBusyAccessEnabled>
@@ -39,15 +39,15 @@ ms.locfileid: "44461294"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[OrganizationRelationshipSettings （SOAP）](organizationrelationshipsettings-soap.md) <br/> |表示单个组织的组织关系列表。  <br/> |
+|[OrganizationRelationshipSettings (SOAP)](organizationrelationshipsettings-soap.md) <br/> |表示单个组织的组织关系列表。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-如果**FreeBusyAccessEnabled**元素的文本值为**true** ，则表示应使用共享关系从组织中的用户检索忙/闲信息。 **如果值为 false** ，则表示应取消共享关系。 
+**FreeBusyAccessEnabled** 元素的文本值 **true** 指示应该使用共享关系从组织的用户检索忙/闲信息。 false **值指示** 应禁止共享关系。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-使用此元素可允许或禁止显示服务器中的忙/闲信息。 
+使用此元素可允许或禁止来自服务器的忙/闲信息。 
   
 ## <a name="element-information"></a>元素信息
 
@@ -62,5 +62,5 @@ ms.locfileid: "44461294"
 
 
 
-[GetOrganizationRelationshipSettings 操作（SOAP）](getorganizationrelationshipsettings-operation-soap.md)
+[GetOrganizationRelationshipSettings 操作 (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
 

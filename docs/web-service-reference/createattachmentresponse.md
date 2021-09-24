@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateAttachmentResponse
 api_type:
 - schema
 ms.assetid: cf6bd8bb-5317-4a03-bd75-297dd359b5da
 description: CreateAttachmentResponse 元素定义对 CreateAttachment 请求的响应。
-ms.openlocfilehash: df2b0e37adaeaef32f845e5a28615ce874cb3447
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 507d7794c566331f7abf1de1f9016c6b20f1320b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466414"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528997"
 ---
 # <a name="createattachmentresponse"></a>CreateAttachmentResponse
 
-**CreateAttachmentResponse**元素定义对 CreateAttachment 请求的响应。 
+**CreateAttachmentResponse** 元素定义对 CreateAttachment 请求的响应。 
   
 ```xml
 <CreateAttachmentResponse>
@@ -42,13 +42,13 @@ ms.locfileid: "44466414"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |包含 Exchange Web 服务请求的响应消息。  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |包含 Web 服务请求Exchange消息。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

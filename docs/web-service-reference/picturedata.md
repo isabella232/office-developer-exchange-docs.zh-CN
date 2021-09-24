@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1124eac3-ebf2-4b81-96d3-96838c840433
 description: PictureData 元素包含图片数据流。
-ms.openlocfilehash: 1d131e88a4927b0b0d3d873ea73973389b46e615
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 623ddf6d1340ef1d37eec73d501414704bcef434
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466253"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528021"
 ---
 # <a name="picturedata"></a>PictureData
 
-**PictureData**元素包含图片数据流。 
+**PictureData** 元素包含图片数据流。 
   
 ```XML
 <PictureData></PictureData>
@@ -42,9 +42,9 @@ ms.locfileid: "44466253"
   
 ## <a name="text-value"></a>文本值
 
-**PictureData**元素的文本值是 base64 编码的图片数据流。 
+**PictureData** 元素的文本值是经过 base64 编码的图片数据流。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

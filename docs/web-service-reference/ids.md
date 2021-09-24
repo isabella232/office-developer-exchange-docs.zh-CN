@@ -1,27 +1,27 @@
 ---
-title: Id
+title: Ids
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Ids
 api_type:
 - schema
 ms.assetid: c54cdeaf-6761-4d1a-a329-fb279f0e2a64
 description: Ids 元素包含时区定义标识符的数组。
-ms.openlocfilehash: 1c5a6974c8d3abc318ff122f3db09d8c3472dc65
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: a5ff1899a50b13213e07005210609194ece61542
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457618"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529780"
 ---
-# <a name="ids"></a>Id
+# <a name="ids"></a>Ids
 
-**Ids**元素包含时区定义标识符的数组。 
+**Ids** 元素包含时区定义标识符的数组。 
   
 ```XML
 <Ids>
@@ -42,13 +42,13 @@ ms.locfileid: "44457618"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Id （时区）](id-timezone.md) <br/> |标识单个时区定义的元素。  <br/> |
+|[Id (TimeZone)](id-timezone.md) <br/> |标识单个时区定义的 元素。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GetServerTimeZones](getservertimezones.md) <br/> |定义从 Exchange 服务器检索时区定义的请求。  <br/> |
+|[GetServerTimeZones](getservertimezones.md) <br/> |定义从服务器检索时区定义Exchange请求。  <br/> |
    
 ## <a name="element-information"></a>元素信息
 

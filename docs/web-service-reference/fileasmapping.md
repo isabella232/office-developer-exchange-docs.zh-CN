@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FileAsMapping
 api_type:
 - schema
 ms.assetid: 2c98e7c6-09b0-47b3-bbf7-8c4ef9510280
-description: FileAsMapping 元素定义如何构建联系人的显示内容。
-ms.openlocfilehash: d846c0af0fbad4df9ee800fe136a4ffcc74c8608
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: FileAsMapping 元素定义如何构造为联系人显示的内容。
+ms.openlocfilehash: 35397ebd5cb9235ad55093b43bde89eef466e672
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461035"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518503"
 ---
 # <a name="fileasmapping"></a>FileAsMapping
 
-**FileAsMapping**元素定义如何构建联系人的显示内容。 
+**FileAsMapping** 元素定义如何构造为联系人显示的内容。 
   
 ```xml
 <FileAsMapping/>
@@ -48,7 +48,7 @@ ms.locfileid: "44461035"
    
 ## <a name="text-value"></a>文本值
 
-此元素的文本值被限制为以下字符串值之一：
+此元素的文本值限制为以下字符串值之一：
   
 - 无
     
@@ -62,7 +62,7 @@ ms.locfileid: "44461035"
     
 - CompanyLastFirst
     
-- 名字
+- LastFirst
     
 - LastFirstCompany
     
@@ -86,9 +86,9 @@ ms.locfileid: "44461035"
     
 - Empty
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-描述此元素的架构位于运行 Microsoft Exchange Server 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
+描述此元素的架构位于运行已安装客户端访问服务器角色Microsoft Exchange Server的计算机的 EWS 虚拟目录中。
   
 ## <a name="element-information"></a>元素信息
 

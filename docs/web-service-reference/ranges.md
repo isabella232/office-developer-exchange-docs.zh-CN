@@ -1,23 +1,23 @@
 ---
-title: Range
+title: 范围
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a573b4af-9bed-41cf-aea4-5f9cc0ab43a6
-description: 范围元素指定重复范围的数组。
-ms.openlocfilehash: 884ef5d8ffbc5dd0fbc153a7b17430ccc7e131c5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Ranges 元素指定定期范围的数组。
+ms.openlocfilehash: bce20ee1ff5490c7084ba26aa8aa4267012f79d4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44528873"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519091"
 ---
-# <a name="ranges"></a>Range
+# <a name="ranges"></a>范围
 
-**范围**元素指定重复范围的数组。 
+**Ranges** 元素指定定期范围的数组。 
   
 ```XML
 <Ranges>
@@ -42,7 +42,7 @@ ms.locfileid: "44528873"
 
 [RecurringMasterItemIdRanges](recurringmasteritemidranges.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

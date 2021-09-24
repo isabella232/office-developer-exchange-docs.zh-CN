@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ContainsSubjectOrBodyStrings
 api_type:
 - schema
 ms.assetid: 22aebf31-d9f4-4e03-bbff-c675409518d1
 description: ContainsSubjectOrBodyStrings 元素指示必须出现在传入邮件正文或主题中的字符串，以便条件或例外情况适用。
-ms.openlocfilehash: 6f9c7862912632e7e86a0b704e760c7fd0f5f14c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 95749ca89c2e4e21cc0f9956f8163f889a10fea4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466820"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511998"
 ---
 # <a name="containssubjectorbodystrings"></a>ContainsSubjectOrBodyStrings
 
-**ContainsSubjectOrBodyStrings**元素指示必须出现在传入邮件正文或主题中的字符串，以便条件或例外情况适用。 
+**ContainsSubjectOrBodyStrings** 元素指示必须出现在传入邮件正文或主题中的字符串，以便条件或例外情况适用。 
   
 ```XML
 <ContainsSubjectOrBodyStrings>
@@ -42,7 +42,7 @@ ms.locfileid: "44466820"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[字符串](string.md) <br/> |表示必须出现在传入邮件正文或主题中的字符串，以便条件或例外情况适用。  <br/> |
+|[字符串](string.md) <br/> |表示必须出现在正文或传入邮件主题中的字符串，以便条件或例外情况适用。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -55,7 +55,7 @@ ms.locfileid: "44466820"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

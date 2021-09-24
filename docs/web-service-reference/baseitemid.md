@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - BaseItemId
 api_type:
 - schema
 ms.assetid: c762e60e-08bb-430a-af5e-fa991f33a44f
-description: BaseItemId 元素表示表示邮箱中的项目的 Id 的基类。 这是一个抽象类，因此不会出现在实例文档中。
-ms.openlocfilehash: d4f690bc044ed4a1bc0aa154bd3921a3078d6b45
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: BaseItemId 元素表示表示邮箱中的项目的 ID 的基类。 这是一个抽象类，因此不会在实例文档中出现。
+ms.openlocfilehash: 28c933947a582de4245dcb89d86142a3a92debad
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527423"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518916"
 ---
 # <a name="baseitemid"></a>BaseItemId
 
-**BaseItemId**元素表示表示邮箱中的项目的 id 的基类。 这是一个抽象类，因此不会出现在实例文档中。 
+**BaseItemId** 元素表示表示邮箱中的项目的 ID 的基类。 这是一个抽象类，因此不会在实例文档中出现。 
   
 ```xml
 <BaseItemId/>
@@ -44,9 +44,9 @@ ms.locfileid: "44527423"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此元素是项标识符的抽象基类型。 Web 服务调用中不使用此元素。
+此元素是项目标识符的抽象基类型。 此元素不用于 Web 服务调用。
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

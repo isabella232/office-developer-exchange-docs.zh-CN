@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2d8cefc4-b16a-45d0-9ad7-543f83a8eb15
-description: PhoneticLastName 元素包含按发音拼写的联系人的姓氏。
-ms.openlocfilehash: b99262f54716af01ee4a07de91363058d05fbe88
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: PhoneticLastName 元素包含用拼音拼写的联系人姓氏。
+ms.openlocfilehash: 39b7c5a05740071263002a1ddd33f5dd18400cbd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459670"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528134"
 ---
 # <a name="phoneticlastname"></a>PhoneticLastName
 
-**PhoneticLastName**元素包含按发音拼写的联系人的姓氏。 
+**PhoneticLastName** 元素包含用拼音拼写的联系人姓氏。 
   
 ```XML
 <PhoneticLastName/>
@@ -44,7 +44,7 @@ ms.locfileid: "44459670"
    
 ## <a name="text-value"></a>文本值
 
-Text 值是一个字符串，表示按发音拼写的联系人的姓氏。
+文本值是一个字符串，表示以拼音拼写的联系人姓氏。
   
 ## <a name="remarks"></a>说明
 

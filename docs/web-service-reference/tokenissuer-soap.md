@@ -1,22 +1,22 @@
 ---
-title: TokenIssuer （SOAP）
+title: TokenIssuer (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2d7be675-626c-4173-89e9-e32beef81ad5
-description: TokenIssuer 元素指定安全令牌服务的 Uri （SOAP）和终结点（SOAP）。
-ms.openlocfilehash: e9c0b4140de26c7ff05daf4e863b3e8a17fedc62
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: TokenIssuer 元素指定安全令牌服务的 Uri (SOAP) 和 Endpoint (SOAP) 。
+ms.openlocfilehash: ea1c93493e4f47a6f2551c24586e54614f4f45e6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526324"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59527263"
 ---
-# <a name="tokenissuer-soap"></a>TokenIssuer （SOAP）
+# <a name="tokenissuer-soap"></a>TokenIssuer (SOAP)
 
-**TokenIssuer**元素指定安全令牌服务的[Uri （Soap）](uri-soap.md)和[终结点（soap）](endpoint-soap.md) 。 
+**TokenIssuer** 元素指定 [安全令牌服务的 Uri (SOAP](uri-soap.md)) [和 Endpoint (SOAP](endpoint-soap.md)) 。 
   
 ```XML
 <TokenIssuer>
@@ -38,18 +38,18 @@ ms.locfileid: "44526324"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Uri （SOAP）](uri-soap.md) <br/> |颁发安全令牌的 security token service 的 URI。  <br/> |
-|[终结点（SOAP）](endpoint-soap.md) <br/> |Web 服务终结点 URI。  <br/> |
+|[Uri (SOAP)](uri-soap.md) <br/> |颁发安全令牌的安全令牌服务的 URI。  <br/> |
+|[Endpoint (SOAP)](endpoint-soap.md) <br/> |Web 服务终结点 URI。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[TokenIssuers （SOAP）](tokenissuers-soap.md) <br/> |表示安全令牌服务[Uri （soap）](uri-soap.md)和[终结点（soap）](endpoint-soap.md)的集合。  <br/> |
+|[TokenIssuers (SOAP)](tokenissuers-soap.md) <br/> |表示安全令牌服务 [Uri ](uri-soap.md) (SOAP) [和 Endpoint (SOAP) ](endpoint-soap.md)。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-使用**TokenIssuer**元素来指定安全令牌在使用安全令牌时的服务。 
+使用安全令牌时，使用 **TokenIssuer** 元素指定安全令牌服务。 
   
 ## <a name="element-information"></a>元素信息
 
@@ -64,7 +64,7 @@ ms.locfileid: "44526324"
 
 
 
-[Exchange 的自动发现 web 服务参考](autodiscover-web-service-reference-for-exchange.md)
+[自动发现 Web 服务引用Exchange](autodiscover-web-service-reference-for-exchange.md)
   
 [Exchange 2013 的 SOAP 自动发现 XML 元素](soap-autodiscover-xml-elements-for-exchange-2013.md)
 

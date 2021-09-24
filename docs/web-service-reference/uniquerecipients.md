@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UniqueRecipients
 api_type:
 - schema
 ms.assetid: 9f46ed05-5370-46ee-80f5-83f97224c76e
 description: UniqueRecipients元素中包含的收件人列表的特定文件夹中的对话。此元素是只读的。
-ms.openlocfilehash: d7f6b0aa01aceb6a251fb0c46d89b34cad260acd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: d611efa7d632a07e14740bd211c4bfa796173a68
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530724"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510790"
 ---
 # <a name="uniquerecipients"></a>UniqueRecipients
 
-本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **UniqueRecipients**元素中包含的收件人列表的特定文件夹中的对话。此元素是只读的。 
+本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **UniqueRecipients** 元素中包含的收件人列表的特定文件夹中的对话。此元素是只读的。 
   
 [FindConversationResponse](findconversationresponse.md)
   
@@ -62,7 +62,7 @@ ms.locfileid: "44530724"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   

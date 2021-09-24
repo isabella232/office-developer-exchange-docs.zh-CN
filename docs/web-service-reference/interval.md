@@ -1,23 +1,23 @@
 ---
-title: Interval
+title: 时间间隔
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Interval
 api_type:
 - schema
 ms.assetid: d0c97a5f-96be-40c6-b7d4-abf4c3870adf
 description: Interval 元素定义两个连续周期性项目之间的间隔。
-ms.openlocfilehash: 70a41cfc438f057cbe11d792f0004d46d0abcc85
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 6df46865d7a89a0bfde9afc5f84ffdb78d956a30
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526562"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541026"
 ---
 # <a name="interval"></a>时间间隔
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - HomePage
 api_type:
 - schema
 ms.assetid: eec2c41e-a975-42f6-8150-caf8c6e26462
-description: 主页元素指定将作为托管文件夹的默认主页的 URL。
-ms.openlocfilehash: b56a273bab3ec34d03e84ba8f7e2d6feddeb3e88
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: HomePage 元素指定将成为托管文件夹的默认主页的 URL。
+ms.openlocfilehash: 32b943570802b440c347abcf8ffdf4ff675c92b0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460839"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541166"
 ---
 # <a name="homepage"></a>HomePage
 
-**主页**元素指定将作为托管文件夹的默认主页的 URL。 
+**HomePage** 元素指定将成为托管文件夹的默认主页的 URL。 
   
 ```xml
 <HomePage/>
@@ -48,7 +48,7 @@ ms.locfileid: "44460839"
    
 ## <a name="text-value"></a>文本值
 
-Text 值是表示 URL 的字符串值。
+文本值是表示 URL 的字符串值。
   
 ## <a name="remarks"></a>说明
 

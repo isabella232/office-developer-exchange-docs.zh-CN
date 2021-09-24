@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - NumberOfOccurrences
 api_type:
 - schema
 ms.assetid: 9ec86ceb-b271-4718-97ca-b6a532ea7223
-description: NumberOfOccurrences 元素包含定期项目的次数。
-ms.openlocfilehash: f9b72611e87c5f2b98deb14c25988e574a324491
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: NumberOfOccurrences 元素包含定期项目的发生次数。
+ms.openlocfilehash: dea7ac17a32c49021876d83faddfa6d84f436220
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462540"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529534"
 ---
 # <a name="numberofoccurrences"></a>NumberOfOccurrences
 
-**NumberOfOccurrences**元素包含定期项目的次数。 
+**NumberOfOccurrences** 元素包含定期项目的发生次数。 
   
 ```xml
 <NumberOfOccurrences/>
@@ -44,11 +44,11 @@ ms.locfileid: "44462540"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[NumberedRecurrence](numberedrecurrence.md) <br/> |描述定期项目的开始日期和发生次数。  <br/> |
+|[NumberedRecurrence](numberedrecurrence.md) <br/> |描述开始日期和定期项目的发生次数。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-Text 值是一个整数，表示定期项目的次数。 该值必须是介于1到999之间的整数。
+文本值是一个整数，表示定期项目出现次数。 该值必须是 1 到 999 范围内的整数。
   
 ## <a name="remarks"></a>说明
 

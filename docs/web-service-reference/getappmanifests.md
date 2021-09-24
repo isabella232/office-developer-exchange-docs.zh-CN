@@ -1,23 +1,23 @@
 ---
-title: Getappmanifests 已
+title: GetAppManifests
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 689cd498-4ee0-4a41-8907-4f0d7137477e
-description: Getappmanifests 已元素是返回应用程序清单的请求的基本元素。
-ms.openlocfilehash: 067075741d5f4eca3f41e327d8bd17fc54450fdd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetAppManifests 元素是请求返回应用清单的基元素。
+ms.openlocfilehash: 26ce82c5a0ac73644f75043589c576de857bd02a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462997"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541215"
 ---
-# <a name="getappmanifests"></a>Getappmanifests 已
+# <a name="getappmanifests"></a>GetAppManifests
 
-**Getappmanifests 已**元素是返回应用程序清单的请求的基本元素。 
+**GetAppManifests** 元素是请求返回应用清单的基元素。 
   
 ```xml
 <GetAppManifests />
@@ -44,9 +44,9 @@ ms.locfileid: "44462997"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-**Getappmanifests 已**元素适用于面向 exchange Online 的客户端和从 exchange 2013 开始的 Microsoft Exchange Server 版本。 
+**GetAppManifests** 元素适用于从 Exchange Online 2013 Microsoft Exchange Server面向 Exchange 版本的客户端。 
   
 ## <a name="element-information"></a>元素信息
 
@@ -54,7 +54,7 @@ ms.locfileid: "44462997"
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
-|验证文件  <br/> |消息 .xsd  <br/> |
+|验证文件  <br/> |messages.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

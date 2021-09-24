@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - InternetMessageHeader
 api_type:
 - schema
 ms.assetid: c70675f8-6feb-4c89-ba48-bce0479b308b
-description: InternetMessageHeader 元素表示标头集合中的给定标头的 Internet 邮件头。 若要获取 Internet 邮件头的整个集合，请使用 PR_TRANSPORT_MESSAGE_HEADERS 属性。 有关 EWS 和 Internet 邮件头的详细信息，请 seeGetting Internet 邮件头在 EWS、MIME 和缺少的 Internet 邮件头中。
-ms.openlocfilehash: 7b662617e0b1a1fcdcce3449b729485ba6e0956b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: InternetMessageHeader 元素代表 headers 集合中给定邮件头的 Internet 邮件头。 若要获取整个 Internet 邮件头集合，请使用 PR_TRANSPORT_MESSAGE_HEADERS 属性。 有关 EWS 和 Internet 邮件头的信息，请参阅在 EWS、MIME 中获取 Internet 邮件头和缺少的 Internet 邮件头。
+ms.openlocfilehash: 4b3072611e8a3debf87ce2a023f4f68ee4487185
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459305"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541079"
 ---
 # <a name="internetmessageheader"></a>InternetMessageHeader
 
-**InternetMessageHeader**元素表示标头集合中的给定标头的 Internet 邮件头。 若要获取 Internet 邮件头的整个集合，请使用**PR_TRANSPORT_MESSAGE_HEADERS**属性。 有关 EWS 和 Internet 邮件头的详细信息，请参阅 "在 Ews 中获取 Internet 邮件头" [、"MIME" 和 "缺少 internet 邮件头](https://msdn.microsoft.com/library/exchange/hh545614%28v=exchg.140%29.aspx)"。
+**InternetMessageHeader** 元素代表 headers 集合中给定邮件头的 Internet 邮件头。 若要获取整个 Internet 邮件头集合，请使用 **PR_TRANSPORT_MESSAGE_HEADERS** 属性。 有关 EWS 和 Internet 邮件头的信息，请参阅"在 [EWS、MIME](https://msdn.microsoft.com/library/exchange/hh545614%28v=exchg.140%29.aspx)中获取 Internet 邮件头和缺少的 Internet 邮件头。"
   
 ```XML
 <InternetMessageHeader HeaderName=""/>
@@ -46,15 +46,15 @@ ms.locfileid: "44459305"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Message](internetmessageheaders.md) <br/> |表示邮箱中的项目所包含的所有 Internet 邮件头的集合。  <br/> |
+|[InternetMessageHeaders](internetmessageheaders.md) <br/> |表示包含在邮箱中的项目的所有 Internet 邮件头的集合。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
 文本值表示标头的值。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-下面是**PR_TRANSPORT_MESSAGE_HEADERS**属性的 EWS 托管 API 扩展属性定义。 
+下面是 EWS 托管 API 扩展属性定义的 PR_TRANSPORT_MESSAGE_HEADERS **属性。** 
   
 ```cs
 ExtendedPropertyDefinition transportMsgHdr = new ExtendedPropertyDefinition(0x007D, MapiPropertyType.String);

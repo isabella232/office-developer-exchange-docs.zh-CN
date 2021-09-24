@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CalendarItemType
 api_type:
 - schema
 ms.assetid: 1feb0788-adf7-4a7c-830c-005214ad930f
 description: CalendarItemType 元素表示日历项目的类型。
-ms.openlocfilehash: 05e93b6db3ae574c03f6e43c5ebec2288edec3e5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: fcb661bb219944e03479abc6bf1d579db58f29fb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527192"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59526771"
 ---
 # <a name="calendaritemtype"></a>CalendarItemType
 
-**CalendarItemType**元素表示日历项目的类型。 
+**CalendarItemType** 元素表示日历项目的类型。 
   
 ```xml
 <CalendarItemType/>
@@ -49,15 +49,15 @@ ms.locfileid: "44527192"
    
 ## <a name="text-value"></a>文本值
 
-如果使用此元素，则需要一个 text 值。 以下是此元素的可能值：
+如果此元素已使用，则文本值是必需的。 以下是此元素的可能值：
   
-- **单一**项目不与定期日历项目相关联。 
+- **单一** 项目不与定期日历项目关联。 
     
-- **事件**项目是定期日历项的发生。 
+- **Occurrence** 该项目是定期日历项目的一个匹配项。 
     
-- **异常**项目是定期日历项目的例外。 
+- **异常** 该项目是定期日历项目的例外。 
     
-- **RecurringMaster**项目是一组定期日历项目的主控形状。 
+- **RecurringMaster** 该项目是一组定期日历项目的主控项。 
     
 ## <a name="remarks"></a>说明
 

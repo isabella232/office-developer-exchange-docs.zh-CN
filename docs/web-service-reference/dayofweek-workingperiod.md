@@ -1,27 +1,27 @@
 ---
-title: DayOfWeek （WorkingPeriod）
+title: DayOfWeek (WorkingPeriod)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DayOfWeek
 api_type:
 - schema
 ms.assetid: 7a8a8cc1-392b-4db5-bb76-710477e31396
-description: DayOfWeek 元素包含为邮箱用户计划的工作日的列表。
-ms.openlocfilehash: 06d4a7d5541b3b71fcbf9be9beb7512d06853283
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DayOfWeek 元素包含为邮箱用户安排的工作日列表。
+ms.openlocfilehash: 97950d7f2d6db76ac76253979e9187bddc5c99e1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457443"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529004"
 ---
-# <a name="dayofweek-workingperiod"></a>DayOfWeek （WorkingPeriod）
+# <a name="dayofweek-workingperiod"></a>DayOfWeek (WorkingPeriod)
 
-**DayOfWeek**元素包含为邮箱用户计划的工作日的列表。 
+**DayOfWeek** 元素包含为邮箱用户安排的工作日列表。 
   
 - [GetUserAvailabilityResponse](getuseravailabilityresponse.md)  
 - [FreeBusyResponseArray](freebusyresponsearray.md)  
@@ -30,7 +30,7 @@ ms.locfileid: "44457443"
 - [WorkingHours](workinghours-ex15websvcsotherref.md)  
 - [WorkingPeriodArray](workingperiodarray.md) 
 - [WorkingPeriod](workingperiod.md)  
-- [DayOfWeek （WorkingPeriod）](dayofweek-workingperiod.md)
+- [DayOfWeek (WorkingPeriod)](dayofweek-workingperiod.md)
   
 ```xml
 <DayOfWeek>Sunday Monday Tuesday Wednesday Thursday Friday Saturday</DayOfWeek>
@@ -58,7 +58,7 @@ ms.locfileid: "44457443"
    
 ## <a name="text-value"></a>文本值
 
-如果邮箱用户的天数设置为表示工作周，则返回一个文本值。 以下是此元素的可能值：
+如果邮箱用户设置了代表工作周的天数，则返回文本值。 以下是此元素的可能值：
   
 - 星期日    
 - 星期一    
@@ -70,9 +70,9 @@ ms.locfileid: "44457443"
     
 文本值将按该顺序返回。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-请务必注意，此元素与可用性[DayOfWeek （时区）](dayofweek-timezone.md)元素之间的差异在于类型。 
+值得注意的是，此元素与 Availability [DayOfWeek ](dayofweek-timezone.md) 和 TimeZone (之间的) 类型。 
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

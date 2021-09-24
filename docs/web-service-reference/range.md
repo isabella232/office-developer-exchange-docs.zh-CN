@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ee2891e4-3aa6-4258-9727-1f2ee9622508
-description: Range 元素指定重复日历项目的日历项目发生的范围。
-ms.openlocfilehash: b5fb41709905290326b47e2662383031c34fd9c9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Range 元素指定重复日历项目的日历项目发生次数范围。
+ms.openlocfilehash: 0d16dad24dda48f084b3011d7b96eb719431d9da
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465308"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519098"
 ---
 # <a name="range"></a>范围
 
-**Range**元素指定重复日历项目的日历项目发生的范围。 
+**Range** 元素指定重复日历项目的日历项目发生次数范围。 
   
 ```XML
 <Range Start="" End="" Count="" CompareOriginalStartTime=""/>
@@ -32,10 +32,10 @@ ms.locfileid: "44465308"
 
 |**属性**|**说明**|
 |:-----|:-----|
-|**Start** <br/> |**Start**属性的文本值是定期项目范围的开始日期。 这是一个**日期/时间**值。  <br/> |
-|**End** <br/> |**End**属性的文本值是定期项目范围的结束日期。 这是一个**日期/时间**值。  <br/> |
-|**Count** <br/> |**Count**属性的文本值是定期项目的次数。 这是**整数**值。  <br/> |
-|**CompareOriginalStartTime** <br/> |如果**CompareOriginalStartTime**属性的文本值为**true，则**表示客户端应将原始开始时间与新的开始时间进行比较。 **如果值为 false** ，则表示客户端无需将原始开始时间与新开始时间进行比较。  <br/> |
+|**Start** <br/> |**Start** 属性的文本值是定期项目范围的开始日期。 这是 **dateTime** 值。  <br/> |
+|**End** <br/> |**End** 属性的文本值是定期项目范围的结束日期。 这是 **dateTime** 值。  <br/> |
+|**Count** <br/> |**Count** 属性的文本值是定期项目出现次数。 这是一个 **整数** 值。  <br/> |
+|**CompareOriginalStartTime** <br/> |**CompareOriginalStartTime** 属性的文本值 **true** 指示客户端应比较原始开始时间和新开始时间。 false **值表示** 客户端不需要将原始开始时间与新的开始时间进行比较。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -45,7 +45,7 @@ ms.locfileid: "44465308"
 
 [Ranges](ranges.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

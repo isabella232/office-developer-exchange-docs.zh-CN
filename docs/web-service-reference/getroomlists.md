@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetRoomLists
 api_type:
 - schema
 ms.assetid: adfa95f8-0e92-4d21-b94f-94fac7117ece
-description: GetRoomLists 元素是请求中的根元素，用于表示可用聊天室列表的电子邮件地址的列表。
-ms.openlocfilehash: 681a59131306506d31ee753467483e67b59a3de4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetRoomLists 元素是请求表示可用会议室列表的电子邮件地址列表的根元素。
+ms.openlocfilehash: 9c8c1c7e946a809f914b54db319ea866273e098d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460552"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518335"
 ---
 # <a name="getroomlists"></a>GetRoomLists
 
-**GetRoomLists**元素是请求中的根元素，用于表示可用聊天室列表的电子邮件地址的列表。 
+**GetRoomLists** 元素是请求表示可用会议室列表的电子邮件地址列表的根元素。 
   
 ```XML
 <GetRoomLists/>
@@ -44,7 +44,7 @@ ms.locfileid: "44460552"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

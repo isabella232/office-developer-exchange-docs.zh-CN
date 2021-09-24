@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5c9c89b5-4ce8-437b-a332-fa7ed35c8388
-description: RecurringMasterItemIdRanges 元素指定发生的范围的数组。
-ms.openlocfilehash: 784676844c5c58c65b8cc6177843bf26d351b7d9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: RecurringMasterItemIdRanges 元素指定事件范围的数组。
+ms.openlocfilehash: 582cbe27d468c1ff7ec22f03ba9f6976d244e234
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44528753"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529368"
 ---
 # <a name="recurringmasteritemidranges"></a>RecurringMasterItemIdRanges
 
-**RecurringMasterItemIdRanges**元素指定发生的范围的数组。 
+**RecurringMasterItemIdRanges** 元素指定事件范围的数组。 
   
 ```XML
 <RecurringMasterItemIdRanges Id="" ChangeKey="">
@@ -34,8 +34,8 @@ ms.locfileid: "44528753"
 
 |**属性**|**说明**|
 |:-----|:-----|
-|**Id** <br/> |**Id**属性的文本值是定期主项目的唯一标识符。 这是一个**字符串**值。  <br/> |
-|**ChangeKey** <br/> |**ChangeKey**属性的文本值是定期主项目的更改密钥。 这是一个**字符串**值。  <br/> |
+|**Id** <br/> |**Id** 属性的文本值是定期主项目的唯一标识符。 这是一 **个字符串** 值。  <br/> |
+|**ChangeKey** <br/> |**ChangeKey** 属性的文本值是定期主项目的更改键。 这是一 **个字符串** 值。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -43,9 +43,9 @@ ms.locfileid: "44528753"
   
 ### <a name="parent-elements"></a>父元素
 
-[ItemIds](itemids.md)  | [GlobalItemIds](globalitemids.md)  | [DraftItemIds](draftitemids.md)  | [ContactIds](contactids.md)  | [Groupid](groupids.md)
+[ItemIds](itemids.md)  | [GlobalItemIds](globalitemids.md)  | [DraftItemIds](draftitemids.md)  | [ContactIds](contactids.md)  | [GroupIds](groupids.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

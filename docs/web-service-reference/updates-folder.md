@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Updates
 api_type:
 - schema
 ms.assetid: b047e3a4-a5ab-4098-b7a0-273bc809e702
 description: Updates元素中包含的一组定义的元素追加、 设置，以及删除对文件夹属性的更改。
-ms.openlocfilehash: 3282171dfc188a9d4735a19a97e80fe0e2f79b89
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: cb40f2a5b66f407b02c636c5115bcab5d382a6fd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457177"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510762"
 ---
-# <a name="updates-folder"></a>Updates 文件夹
+# <a name="updates-folder"></a>Updates (Folder)
 
-本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **Updates**元素中包含的一组定义的元素追加、 设置，以及删除对文件夹属性的更改。 
+本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **Updates** 元素中包含的一组定义的元素追加、 设置，以及删除对文件夹属性的更改。 
   
 - [UpdateFolder](updatefolder.md)
   

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d2932d04-4427-4fc7-97a1-1c57cf736072
-description: OtherPhones2 元素指定电话值的数组以及关联角色的源归属的标识符。
-ms.openlocfilehash: 3b33005e4001fd675c2ea2b6f8446648db23c8d0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: OtherPhones2 元素指定手机值的数组及其关联人物的源属性的标识符。
+ms.openlocfilehash: b0c24a8341445643cda6ddb0f3127e3f88e96b53
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462351"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529548"
 ---
 # <a name="otherphones2"></a>OtherPhones2
 
-**OtherPhones2**元素指定电话值的数组以及关联角色的源归属的标识符。 
+**OtherPhones2** 元素指定手机值的数组及其关联人物的源属性的标识符。 
   
 ```XML
 <OtherPhones2>
@@ -43,7 +43,7 @@ ms.locfileid: "44462351"
 
 [角色](persona.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

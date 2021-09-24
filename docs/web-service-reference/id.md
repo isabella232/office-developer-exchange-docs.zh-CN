@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ID
 api_type:
 - schema
 ms.assetid: 8caf922f-56bd-466a-a68f-d6cb236f2eec
 description: ID 元素表示日历项目的条目 ID。
-ms.openlocfilehash: 429413bbfb0206effc3ea97eb11527449c67211c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 75916d2598429362e238e645d33c474308b92535
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456484"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529898"
 ---
 # <a name="id"></a>ID
 
-**ID**元素表示日历项目的条目 ID。 
+**ID** 元素表示日历项目的条目 ID。 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -64,7 +64,7 @@ ms.locfileid: "44456484"
    
 ## <a name="text-value"></a>文本值
 
-如果在响应中返回此元素，则需要一个 text 值。 如果使用[CalendarEventDetails](calendareventdetails.md)元素，则此元素是必需的。 
+如果在响应中返回此元素，则文本值是必需的。 如果使用 [CalendarEventDetails](calendareventdetails.md) 元素，则此元素是必需的。 
   
 ## <a name="remarks"></a>说明
 

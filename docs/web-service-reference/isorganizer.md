@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a31ac268-5061-4272-a433-ffaea2fbcfa9
-description: IsOrganizer 元素指定一个布尔值，该值指示此人是否为会议的组织者。
-ms.openlocfilehash: 45b7a66068dc00f6e60b7380240bea6836282fd4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: IsOrganizer 元素指定一个布尔值，该值指示此人是否是会议的组织者。
+ms.openlocfilehash: a60485146e333e69391dc1771b2c72ef25043a8b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466561"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518265"
 ---
 # <a name="isorganizer"></a>IsOrganizer
 
-**IsOrganizer**元素指定一个布尔值，该值指示此人是否为会议的组织者。 
+**IsOrganizer** 元素指定一个布尔值，该值指示此人是否是会议的组织者。 
   
 ```XML
 <IsOrganizer>true | false</IsOrganizer>
@@ -41,13 +41,13 @@ ms.locfileid: "44466561"
 |**元素**|**说明**|
 |:-----|:-----|
 |[CalendarItem](calendaritem.md) <br/> |表示 Exchange 日历项。  <br/> |
-|[MeetingMessage](meetingmessage.md) <br/> |表示会议邮件。  <br/> |
+|[MeetingMessage](meetingmessage.md) <br/> |代表会议消息。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-如果**IsOrganizer**元素的文本值为**true** ，则表示日历项目或会议邮件是由用户创建的。 **如果值为 false** ，则表示未 bv 用户创建日历项目或会议邮件。 
+**IsOrganizer** 元素的文本值 **true** 指示日历项目或会议邮件是由用户创建的。 false **值表示** 日历项目或会议邮件不是为用户创建的。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -59,7 +59,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

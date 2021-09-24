@@ -1,27 +1,27 @@
 ---
-title: ReadItems （CalendarPermissionType）
+title: ReadItems (CalendarPermissionType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ReadItems
 api_type:
 - schema
 ms.assetid: bec01982-26a1-4373-b1e6-2e0c838d83c4
 description: ReadItems 元素指示用户是否有权读取日历文件夹中的项目。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
-ms.openlocfilehash: e040b643016781f9f890050f189191356f8d4f0b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: a12b5316eaebfdf6d0d70468f172f227db7ab3ef
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468297"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519084"
 ---
-# <a name="readitems-calendarpermissiontype"></a>ReadItems （CalendarPermissionType）
+# <a name="readitems-calendarpermissiontype"></a>ReadItems (CalendarPermissionType)
 
-**ReadItems**元素指示用户是否有权读取日历文件夹中的项目。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
+**ReadItems** 元素指示用户是否有权读取日历文件夹中的项目。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
   
 ```xml
 <ReadItems>None or TimeOnly or TimeAndSubjectAndLocation or FullDetails</ReadItems>
@@ -42,22 +42,22 @@ ms.locfileid: "44468297"
   
 ### <a name="parent-elements"></a>父元素
 
-|**元素**|**描述**|
+|**元素**|**说明**|
 |:-----|:-----|
 |[CalendarPermission](calendarpermission.md) <br/> |定义日历文件夹的用户具有的访问权限。在 Exchange 2007 SP1 引入了此元素。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-下表列出了**ReadItems**元素的可能值。 
+下表列出了 **ReadItems** 元素的可能值。 
   
 **ReadItems 元素文本值**
 
 |**值**|**说明**|
 |:-----|:-----|
-|无  <br/> |指示用户不具有查看日历中的项目的权限。  <br/> |
-|TimeOnly  <br/> |指示用户具有仅查看日历中的忙/闲时间的权限。  <br/> |
+|无  <br/> |指示用户无权查看日历中的项目。  <br/> |
+|TimeOnly  <br/> |指示用户有权仅查看日历中的忙/闲时间。  <br/> |
 |TimeAndSubjectAndLocation  <br/> |指示用户有权查看日历中的忙/闲时间以及约会的主题和位置。  <br/> |
-|FullDetails  <br/> |指示用户有权查看日历中的所有项目，包括忙/闲时间、主题、位置和约会的详细信息。  <br/> |
+|FullDetails  <br/> |指示用户有权查看日历中所有项目，包括忙/闲时间和主题、位置以及约会的详细信息。  <br/> |
    
 ## <a name="remarks"></a>说明
 

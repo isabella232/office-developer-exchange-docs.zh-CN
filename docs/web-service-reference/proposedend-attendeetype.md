@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fc9c0a57-f8b0-440f-97dd-88af47840625
-description: ProposedEnd （AttendeeType）元素指定与会者为会议建议的结束时间。
-ms.openlocfilehash: 892a80197a269f806fe7520d6660d09e1cfb38ff
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ProposedEnd (AttendeeType) 元素指定与会者建议的会议结束时间。
+ms.openlocfilehash: 15a7673c49c0f2695323f437bda1011e2bff59b8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465567"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510917"
 ---
 # <a name="proposedend-attendeetype"></a>ProposedEnd (AttendeeType)
 
-**ProposedEnd （AttendeeType）** 元素指定与会者为会议建议的结束时间。 
+**ProposedEnd (AttendeeType)** 元素指定与会者建议的会议结束时间。 
   
 ```XML
 <ProposedEnd/>
@@ -42,7 +42,7 @@ ms.locfileid: "44465567"
   
 ## <a name="text-value"></a>文本值
 
-**ProposedEnd （AttendeeType）** 元素的文本值是会议的建议结束日期和时间。 
+**ProposedEnd** (AttendeeType) 元素的文本值是建议的会议结束日期和时间。 
   
 ## <a name="remarks"></a>说明
 

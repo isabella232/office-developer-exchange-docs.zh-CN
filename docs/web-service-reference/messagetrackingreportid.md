@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MessageTrackingReportId
 api_type:
 - schema
 ms.assetid: 9c604ca3-10fe-4760-b7fd-8b52f1a0c712
-description: MessageTrackingReportId 元素表示邮件的邮件 ID、在其中找到邮件的组织、提交邮件的服务器以及唯一标识该邮件的内部 ID。
-ms.openlocfilehash: d6e92593d55608e260634602c2aab694804d716d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: MessageTrackingReportId 元素按邮件 ID、找到邮件的组织、提交邮件的服务器以及唯一标识邮件的内部 ID 来表示邮件。
+ms.openlocfilehash: 8ed8ddcfe20c9008a208035f2b101fb5241f432d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460594"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518258"
 ---
 # <a name="messagetrackingreportid"></a>MessageTrackingReportId
 
-**MessageTrackingReportId**元素表示邮件的邮件 ID、在其中找到邮件的组织、提交邮件的服务器以及唯一标识该邮件的内部 ID。 
+**MessageTrackingReportId** 元素按邮件 ID、找到邮件的组织、提交邮件的服务器以及唯一标识邮件的内部 ID 来表示邮件。 
   
 ```XML
 <MessageTrackingReportId/>
@@ -44,12 +44,12 @@ ms.locfileid: "44460594"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GetMessageTrackingReport](getmessagetrackingreport.md) <br/> |包含[GetMessageTrackingReport 操作](getmessagetrackingreport-operation.md)的请求，以检索指定 ID 的完整邮件跟踪报告。  <br/> |
-|[MessageTrackingSearchResult](messagetrackingsearchresult.md) <br/> |包含[FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md)元素的单个邮件结果。  <br/> |
+|[GetMessageTrackingReport](getmessagetrackingreport.md) <br/> |包含 [GetMessageTrackingReport](getmessagetrackingreport-operation.md) 操作的请求，以检索指定 ID 的完整邮件跟踪报告。  <br/> |
+|[MessageTrackingSearchResult](messagetrackingsearchresult.md) <br/> |包含 [FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) 元素的单个邮件结果。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-如果使用此元素，则需要一个表示字符串的文本值。
+如果使用此元素，则代表字符串的文本值是必需的。
   
 ## <a name="remarks"></a>说明
 

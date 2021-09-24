@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsResend
 api_type:
 - schema
 ms.assetid: 8f758b6b-dcee-4f95-9d39-e4be2bd92961
-description: IsResend 元素指示以前是否已发送过该项目。
-ms.openlocfilehash: ec0981ceb733389bf2755646c2a85b357a84d348
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: IsResend 元素指示项目之前是否已发送。
+ms.openlocfilehash: 543d0555839e4eb940a7aafb7c464e2b992b533c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467849"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511572"
 ---
 # <a name="isresend"></a>IsResend
 
-**IsResend**元素指示以前是否已发送过该项目。 
+**IsResend** 元素指示项目之前是否已发送。 
   
 ```xml
 <IsResend/>
@@ -58,7 +58,7 @@ ms.locfileid: "44467849"
    
 ## <a name="text-value"></a>文本值
 
-如果文本值为**true** ，则表示以前已发送该项目。 
+如果文本值为 **true，** 则表明该项目之前已发送。 
   
 ## <a name="remarks"></a>说明
 

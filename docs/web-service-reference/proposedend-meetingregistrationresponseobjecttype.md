@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3e5d2567-a5a2-4791-b209-c29082894a9e
-description: ProposedEnd （MeetingRegistrationResponseObjectType）元素指定与会者为会议建议的新结束时间。
-ms.openlocfilehash: f6aafe157c653776dca511a104ceeb9518812d98
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: MeetingRegistrationResponseObjectType) 元素中的 ProposedEnd (元素指定与会者建议的新会议结束时间。
+ms.openlocfilehash: 91d44d4321ec275aea5c6edaf2529dedc7445d5f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466981"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59527827"
 ---
 # <a name="proposedend-meetingregistrationresponseobjecttype"></a>ProposedEnd (MeetingRegistrationResponseObjectType)
 
-**ProposedEnd （MeetingRegistrationResponseObjectType）** 元素指定与会者为会议建议的新结束时间。 
+**MeetingRegistrationResponseObjectType (中的 ProposedEnd**) 元素指定与会者建议的新会议结束时间。 
   
 ```XML
 <ProposedEnd />
@@ -42,7 +42,7 @@ ms.locfileid: "44466981"
   
 ## <a name="text-value"></a>文本值
 
-**ProposedEnd （MeetingRegistrationResponseObjectType）** 元素的文本值是会议的建议结束日期和时间。 
+**MeetingRegistrationResponseObjectType) 元素的 Proposed (End** 元素的文本值是建议的会议结束日期和时间。 
   
 ## <a name="remarks"></a>说明
 

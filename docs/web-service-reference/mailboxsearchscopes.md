@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8b9a1979-a364-4c8f-b013-4fc04c0eeb9c
-description: MailboxSearchScopes 元素指定发现搜索的一个或多个邮箱以及关联的搜索范围的列表。
-ms.openlocfilehash: 172c9d1da46c8c9a8ac73224b3395a026d9e6551
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: MailboxSearchScopes 元素指定一个或多个邮箱的列表以及发现搜索的关联搜索范围。
+ms.openlocfilehash: f85297f0e6459bbe842950839ae3c6858ce7b9df
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530549"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511469"
 ---
 # <a name="mailboxsearchscopes"></a>MailboxSearchScopes
 
-**MailboxSearchScopes**元素指定发现搜索的一个或多个邮箱以及关联的搜索范围的列表。 
+**MailboxSearchScopes** 元素指定一个或多个邮箱的列表以及发现搜索的关联搜索范围。 
   
 ```XML
 <MailboxSearchScopes>
@@ -43,7 +43,7 @@ ms.locfileid: "44530549"
 
 [MailboxQuery](mailboxquery.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

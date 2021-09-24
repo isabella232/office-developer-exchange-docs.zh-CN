@@ -1,30 +1,30 @@
 ---
-title: PlayOnPhoneDialString （UM web 服务）
+title: PlayOnPhoneDialString（UM Web 服务）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PlayOnPhoneDialString
 api_type:
 - schema
 ms.assetid: 81ce51b9-c201-4a7d-b29b-351a697970b7
-description: PlayOnPhoneDialString 元素包含 GetUMProperties 操作（UM web 服务）请求中的默认拨号字符串的值。
-ms.openlocfilehash: 31fb9961b5c4b902414fbca15101abf3e3beb965
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: PlayOnPhoneDialString 元素包含 UM Web 服务请求的 GetUMProperties 操作中的 (字符串) 值。
+ms.openlocfilehash: 2ce4d461be6bbbcb7c89868044c542f27ea84420
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459200"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59527973"
 ---
-# <a name="playonphonedialstring-um-web-service"></a>PlayOnPhoneDialString （UM web 服务）
+# <a name="playonphonedialstring-um-web-service"></a>PlayOnPhoneDialString（UM Web 服务）
 
-**PlayOnPhoneDialString**元素包含[GETUMPROPERTIES 操作（UM web 服务）](getumproperties-operation-um-web-service.md)请求中的默认拨号字符串的值。 
+**PlayOnPhoneDialString** 元素包含 UM Web 服务请求的 [GetUMProperties](getumproperties-operation-um-web-service.md)操作 (默认拨号) 值。 
   
-[GetUMPropertiesResponse （UM web 服务）](getumpropertiesresponse-um-web-service.md)
+[GetUMPropertiesResponse（UM Web 服务）](getumpropertiesresponse-um-web-service.md)
   
-[PlayOnPhoneDialString （UM web 服务）](playonphonedialstring-um-web-service.md)
+[PlayOnPhoneDialString（UM Web 服务）](playonphonedialstring-um-web-service.md)
   
 ```xml
 <PlayOnPhoneDialString/>
@@ -47,7 +47,7 @@ ms.locfileid: "44459200"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GetUMPropertiesResponse （UM web 服务）](getumpropertiesresponse-um-web-service.md) <br/> |定义对[GetUMProperties 操作（UM web 服务）](getumproperties-operation-um-web-service.md)请求的响应。  <br/> |
+|[GetUMPropertiesResponse（UM Web 服务）](getumpropertiesresponse-um-web-service.md) <br/> |定义对 UM Web 服务请求 ([GetUMProperties) ](getumproperties-operation-um-web-service.md) 的响应。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
@@ -58,7 +58,7 @@ ms.locfileid: "44459200"
 |||
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|架构名称  <br/> |邮件  <br/> |
+|架构名称  <br/> |消息  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
    
@@ -66,7 +66,7 @@ ms.locfileid: "44459200"
 
 
 
-[GetUMProperties 操作（UM web 服务）](getumproperties-operation-um-web-service.md)
+[GetUMProperties 操作（UM Web 服务）](getumproperties-operation-um-web-service.md)
   
-[SetPlayOnPhoneDialString 操作（UM web 服务）](setplayonphonedialstring-operation-um-web-service.md)
+[SetPlayOnPhoneDialString 操作（UM Web 服务）](setplayonphonedialstring-operation-um-web-service.md)
 

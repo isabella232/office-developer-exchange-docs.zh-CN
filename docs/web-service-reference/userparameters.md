@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bad7311f-7ecd-4f0c-b8e7-dd8f7d378f55
-description: UserParameters 元素包含已启用和已禁用的客户端扩展的列表。
-ms.openlocfilehash: 76bf858adfb6d2ef76a25c234117131752c60d7b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: UserParameters 元素包含已启用和已禁用客户端扩展的列表。
+ms.openlocfilehash: 1d93ec0f4e44b238fcb9aca23672c262795290a6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526751"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510727"
 ---
 # <a name="userparameters"></a>UserParameters
 
-**UserParameters**元素包含已启用和已禁用的客户端扩展的列表。 
+**UserParameters** 元素包含已启用和已禁用客户端扩展的列表。 
   
 ```XML
 <UserParameters UserId="" EnabledOnly="">
@@ -35,8 +35,8 @@ ms.locfileid: "44526751"
 
 |**属性**|**说明**|
 |:-----|:-----|
-|UserID  <br/> |**UserId**属性的文本值是用户的标识符。  <br/> |
-|EnabledOnly  <br/> |**EnabledOnly**的文本值指示响应是否仅包含已启用的扩展。  <br/> |
+|UserID  <br/> |**UserId** 属性的文本值是用户的标识符。  <br/> |
+|EnabledOnly  <br/> |**EnabledOnly** 的文本值指示响应是否仅包含已启用的扩展。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -46,7 +46,7 @@ ms.locfileid: "44526751"
 
 [GetClientExtension](getclientextension.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

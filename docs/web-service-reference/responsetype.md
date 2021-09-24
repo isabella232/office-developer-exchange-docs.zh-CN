@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ResponseType
 api_type:
 - schema
 ms.assetid: cdc09dda-ce20-4504-880d-9da6025ca812
-description: ResponseType 元素表示接收会议的收件人响应的类型。
-ms.openlocfilehash: ef8183b71e267a20427873ca44b269b828686cbe
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ResponseType 元素表示为会议收到的收件人响应的类型。
+ms.openlocfilehash: d986eff544dc55d257903a2114e87af16eefea97
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465392"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518965"
 ---
 # <a name="responsetype"></a>ResponseType
 
-**ResponseType**元素表示接收会议的收件人响应的类型。 
+**ResponseType** 元素表示为会议收到的收件人响应的类型。 
   
 ```xml
 <ResponseType/>
@@ -44,21 +44,21 @@ ms.locfileid: "44465392"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[与会者](attendee.md) <br/> |表示会议的与会者和资源。  <br/> |
-|[MeetingCancellation](meetingcancellation.md) <br/> |表示 Exchange 存储中的会议取消  <br/> |
-|[MeetingMessage](meetingmessage.md) <br/> |表示 Exchange 存储中的会议邮件。  <br/> |
+|[与会者](attendee.md) <br/> |表示会议与会者和资源。  <br/> |
+|[MeetingCancellation](meetingcancellation.md) <br/> |表示会议商店中的Exchange取消  <br/> |
+|[MeetingMessage](meetingmessage.md) <br/> |表示会议存储中的Exchange消息。  <br/> |
 |[MeetingRequest](meetingrequest.md) <br/> |表示 Exchange 存储中的会议请求。  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |表示 Exchange 存储中的会议响应。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-文本值是必需的。 以下是此元素的可能的文本值：
+文本值是必需的。 以下是此元素的可能文本值：
   
 - 未知
     
-- Organizer
+- 组织者
     
-- 暂
+- 暂定
     
 - 接受
     

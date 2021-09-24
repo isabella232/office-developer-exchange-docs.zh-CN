@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 74c4b9d8-d336-4954-b9c2-7563bc7740fa
 description: CompleteFindInGALSpeechRecognitionResponse 元素仅供内部使用。
-ms.openlocfilehash: 659a4b6357c1095dc076e1103e91c322ca47a4c5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 331910bb1f8cc38d3c36ca52723751d2a79f1a24
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459025"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512049"
 ---
 # <a name="completefindingalspeechrecognitionresponse"></a>CompleteFindInGALSpeechRecognitionResponse
 
-**CompleteFindInGALSpeechRecognitionResponse**元素仅供内部使用。 
+**CompleteFindInGALSpeechRecognitionResponse** 元素仅供内部使用。 
   
 ```XML
 <CompleteFindInGALSpeechRecognitionResponse />
@@ -39,7 +39,7 @@ ms.locfileid: "44459025"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -51,7 +51,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
-|验证文件  <br/> |消息 .xsd  <br/> |
+|验证文件  <br/> |messages.xsd  <br/> |
 |可以为空  <br/> ||
    
 

@@ -1,23 +1,23 @@
 ---
-title: 演讲
+title: 演示者
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 01057872-4f1a-4246-86ba-73d10ef854a0
-description: 演示者元素指定联机会议的演示者。
-ms.openlocfilehash: 0236457020dfc4684569e84d3d54e357af00d102
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Presenters 元素指定联机会议演示者。
+ms.openlocfilehash: 1c9bf9093450e675245b647c98d7b1d00101ce9e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529908"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519140"
 ---
-# <a name="presenters"></a>演讲
+# <a name="presenters"></a>演示者
 
-**演示者**元素指定联机会议的演示者。 
+**Presenters** 元素指定联机会议演示者。 
   
 ```XML
 <Presenters> Disabled | Internal | Everyone </Presenters>
@@ -42,17 +42,17 @@ ms.locfileid: "44529908"
   
 ## <a name="text-value"></a>文本值
 
-**演示者**元素的文本值是可以成为联机会议的演示者的用户的类型。 下表介绍了**演示者**元素的文本值。 
+**Presenters 元素** 的文本值是可以是联机会议演示者的用户的类型。 下表介绍了 **Presenters** 元素的文本值。 
   
-**演示者元素文本值**
+**Presenters 元素文本值**
 
 |**值**|**说明**|
 |:-----|:-----|
-|已禁用  <br/> |演示者已禁用。  <br/> |
-|内部  <br/> |只有内部参与者可以成为演示者。  <br/> |
-|每个人  <br/> |任何参与者都可以成为演示者。  <br/> |
+|已禁用  <br/> |演示者被禁用。  <br/> |
+|内部  <br/> |只有内部参与者才能成为演示者。  <br/> |
+|所有人  <br/> |任何参与者都可以是演示者。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

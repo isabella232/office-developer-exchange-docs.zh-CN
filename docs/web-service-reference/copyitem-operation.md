@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CopyItem
 api_type:
 - schema
 ms.assetid: bcc68f9e-d511-4c29-bba6-ed535524624a
-description: CopyItem 操作将复制项目，并将项目放在不同的文件夹中。
-ms.openlocfilehash: ec07700a5ebbdc8774aa2134919634b8dfd02406
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: CopyItem 操作复制项目并将这些项目放在不同的文件夹中。
+ms.openlocfilehash: 62785d9acb784bcffe7d3279de8a80abc803adf4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462176"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518643"
 ---
 # <a name="copyitem-operation"></a>CopyItem 操作
 
-**CopyItem**操作将复制项目，并将项目放在不同的文件夹中。 
+**CopyItem** 操作复制项目并将这些项目放在不同的文件夹中。 
   
 ## <a name="copyitem-request-example"></a>CopyItem 请求示例
 
 ### <a name="description"></a>Description
 
-以下示例的**CopyItem**请求显示如何构成将项目复制到收件箱的请求。 
+**CopyItem** 请求的以下示例显示如何形成将项目复制到收件箱的请求。 
   
 ### <a name="code"></a>代码
 
@@ -51,11 +51,11 @@ ms.locfileid: "44462176"
 ### <a name="comments"></a>备注
 
 > [!NOTE]
-> 文件夹 ID 和更改密钥已缩短，以保持可读性。 
+> 已缩短文件夹 ID 和更改键以保持可读性。 
   
-### <a name="request-elements"></a>Request 元素
+### <a name="request-elements"></a>请求元素
 
-请求中使用以下元素：
+请求中会使用下列元素：
   
 - [CopyItem](copyitem.md)
     
@@ -68,17 +68,17 @@ ms.locfileid: "44462176"
 - [ItemId](itemid.md)
     
 > [!NOTE]
-> 描述此元素的架构位于运行 Microsoft Exchange Server 2010 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。 
+> 描述此元素的架构位于运行 Microsoft Exchange Server 2010（已安装客户端访问服务器角色）的计算机的 EWS 虚拟目录中。 
   
-若要查找**CopyItem**操作的请求消息的其他选项，请浏览架构层次结构。 从[CopyItem](copyitem.md)元素开始。 
+若要查找 **CopyItem** 操作的请求消息的其他选项，请浏览架构层次结构。 从 [CopyItem 元素](copyitem.md) 开始。 
   
 ## <a name="successful-copyitem-response"></a>成功的 CopyItem 响应
 
 ### <a name="description"></a>Description
 
-下面的示例演示对**CopyItem**请求的成功响应。 
+以下示例显示了对 **CopyItem** 请求的成功响应。 
   
-在响应消息中返回新项目的项目标识符。 在对跨邮箱或邮箱到公用文件夹**CopyItem**操作的响应中，不会返回项目标识符。 
+在响应消息中返回新项的项目标识符。 在响应跨邮箱或邮箱到公用文件夹 **CopyItem** 操作时不会返回项目标识符。 
   
 ### <a name="code"></a>代码
 
@@ -112,7 +112,7 @@ ms.locfileid: "44462176"
 
 ### <a name="successful-response-elements"></a>成功的响应元素
 
-响应中使用以下元素：
+响应中会使用下列元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -126,13 +126,13 @@ ms.locfileid: "44462176"
     
 - [Items](items.md)
     
-若要查找**CopyItem**操作的响应邮件的其他选项，请浏览架构层次结构。 从[CopyItemResponse](copyitemresponse.md)元素开始。 
+若要查找 **CopyItem** 操作的响应消息的其他选项，请浏览架构层次结构。 从 [CopyItemResponse 元素](copyitemresponse.md) 开始。 
   
 ## <a name="copyitem-error-response"></a>CopyItem 错误响应
 
 ### <a name="description"></a>Description
 
-下面的示例演示对**CopyItem**请求的错误响应。 
+以下示例显示 **CopyItem** 请求的错误响应。 
   
 ### <a name="code"></a>代码
 
@@ -164,7 +164,7 @@ ms.locfileid: "44462176"
 
 ### <a name="error-response-elements"></a>错误响应元素
 
-错误响应中使用以下元素：
+错误响应中会使用下列元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -182,7 +182,7 @@ ms.locfileid: "44462176"
     
 - [Items](items.md)
     
-若要查找**CopyItem**操作的错误响应消息的其他选项，请浏览架构层次结构。 从[CopyItemResponse](copyitemresponse.md)元素开始。 
+若要查找 **CopyItem** 操作的错误响应消息的其他选项，请浏览架构层次结构。 从 [CopyItemResponse 元素](copyitemresponse.md) 开始。 
   
 ## <a name="see-also"></a>另请参阅
 

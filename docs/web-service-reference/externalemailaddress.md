@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f7fc08e6-a906-4a18-93cd-56a5b8d460b0
 description: ExternalEmailAddress 元素包含邮箱的外部电子邮件地址。
-ms.openlocfilehash: c530e0c1a9efb5da3a0e147de3a3ec6e0d7569fc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 926b553c6ed1c1c0c479092d70ebe22bebb51324
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456925"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518538"
 ---
 # <a name="externalemailaddress"></a>ExternalEmailAddress
 
-**ExternalEmailAddress**元素包含邮箱的外部电子邮件地址。 
+**ExternalEmailAddress** 元素包含邮箱的外部电子邮件地址。 
   
 ```XML
 <ExternalEmailAddress></ExternalEmailAddress>
@@ -43,9 +43,9 @@ ms.locfileid: "44456925"
   
 ## <a name="text-value"></a>文本值
 
-**ExternalEmailAddress**元素的文本值是邮箱的外部电子邮件地址。 
+**ExternalEmailAddress** 元素的文本值是邮箱的外部电子邮件地址。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DistinguishedGroupBy
 api_type:
 - schema
 ms.assetid: 6ff3ac48-02ba-40ec-a71b-c401bb2b127c
-description: DistinguishedGroupBy 元素提供了 FindItem 查询的标准分组。
-ms.openlocfilehash: 004613d55419a19f69e960203ae13d8d906b74c8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DistinguishedGroupBy 元素为 FindItem 查询提供标准分组。
+ms.openlocfilehash: 8b6001994603e49cd1c77288a93cfb9270d51e21
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463137"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511833"
 ---
 # <a name="distinguishedgroupby"></a>DistinguishedGroupBy
 
-**DistinguishedGroupBy**元素提供了 FindItem 查询的标准分组。 
+**DistinguishedGroupBy** 元素为 FindItem 查询提供标准分组。 
   
 - [FindItem](finditem.md) 
 - [DistinguishedGroupBy](distinguishedgroupby.md)
@@ -45,17 +45,17 @@ ms.locfileid: "44463137"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[StandardGroupBy](standardgroupby.md) <br/> |表示分组的 FindItem 操作的标准分组和聚合机制。  <br/> |
+|[StandardGroupBy](standardgroupby.md) <br/> |表示分组 FindItem 操作的标准分组和聚合机制。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[FindItem](finditem.md) <br/> |定义在邮箱中查找项目的请求。<br/><br/>下面是此元素的 XPath 表达式:  `/FindItem` <br/> |
+|[FindItem](finditem.md) <br/> |定义查找邮箱中的项目的请求。<br/><br/>下面是此元素的 XPath 表达式:  `/FindItem` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-当必须对结果进行分组并在其中一个标准组满足分组要求时，可以将**DistinguishedGroupBy**元素添加到 FindItem 操作中。 如果**DistinguishedGroupBy**元素和[GroupBy](groupby.md)元素都未指定，则 FindItem 结果将被取消组合。 
+当结果必须分组且其中一个标准组满足分组要求时，可以将 **DistinguishedGroupBy** 元素添加到 FindItem 操作。 如果未指定 **DistinguishedGroupBy** 元素和 [GroupBy](groupby.md) 元素，FindItem 结果将重新取消分组。 
   
 描述此元素的架构位于正在运行 Microsoft Exchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

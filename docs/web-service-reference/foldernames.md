@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FolderNames
 api_type:
 - schema
 ms.assetid: 6cbe4083-5705-4695-a54e-8dab3e472662
-description: FolderNames 元素包含一个数组，其中包含要添加到邮箱中的已命名托管文件夹。
-ms.openlocfilehash: 00cb1a81f420469033ccbc745313d2719b155aff
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: FolderNames 元素包含要添加到邮箱的命名托管文件夹的数组。
+ms.openlocfilehash: be9b11ca9ca9c81914082f26ee61dbcd1990e9f6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530984"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59530295"
 ---
 # <a name="foldernames"></a>FolderNames
 
-**FolderNames**元素包含一个数组，其中包含要添加到邮箱中的已命名托管文件夹。 
+**FolderNames** 元素包含要添加到邮箱的命名托管文件夹的数组。 
   
 [CreateManagedFolder](createmanagedfolder.md)
   
@@ -46,13 +46,13 @@ ms.locfileid: "44530984"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[FolderName](foldername.md) <br/> |标识要添加到邮箱中的单个托管文件夹。  <br/> |
+|[FolderName](foldername.md) <br/> |标识要添加到邮箱的单个托管文件夹。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[CreateManagedFolder](createmanagedfolder.md) <br/> |将托管文件夹添加到邮箱的请求中的根元素。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/CreateManagedFolder` <br/> |
+|[CreateManagedFolder](createmanagedfolder.md) <br/> |向邮箱添加托管文件夹的请求中的根元素。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/CreateManagedFolder` <br/> |
    
 ## <a name="remarks"></a>说明
 

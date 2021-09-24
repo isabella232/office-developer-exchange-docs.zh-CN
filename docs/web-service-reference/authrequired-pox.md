@@ -1,34 +1,34 @@
 ---
-title: Resolver.rst.authrequired （POX）
+title: AuthRequired (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 241a23ee-d2a2-4724-b794-d0d523d480a2
-description: Resolver.rst.authrequired 元素指定是否需要身份验证。
-ms.openlocfilehash: 25e3aff6a6db719c7f466e30fd6166e602f2d418
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: AuthRequired 元素指定是否需要身份验证。
+ms.openlocfilehash: e40325f0327cec8dbd647e05cd18951aa991340b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461623"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59526870"
 ---
-# <a name="authrequired-pox"></a>Resolver.rst.authrequired （POX）
+# <a name="authrequired-pox"></a>AuthRequired (POX)
 
-**Resolver.rst.authrequired**元素指定是否需要身份验证。 
+**AuthRequired** 元素指定是否需要身份验证。 
   
-- [自动发现（POX）](autodiscover-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md)
   
-- [响应（POX）](response-pox.md)
+- [Response (POX)](response-pox.md)
   
-- [帐户（POX）](account-pox.md)
+- [Account (POX)](account-pox.md)
   
-- [协议（POX）](protocol-pox.md)
+- [Protocol (POX)](protocol-pox.md)
   
-- [Resolver.rst.authrequired （POX）](authrequired-pox.md)
+- [AuthRequired (POX)](authrequired-pox.md)
   
 ```xml
 <AuthRequired>on or off</AuthRequired>
@@ -50,13 +50,13 @@ ms.locfileid: "44461623"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[协议（POX）](protocol-pox.md) <br/> |包含用于将客户端连接到运行 Microsoft Exchange Server 2007 且安装了客户端访问服务器角色的计算机的规范。  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |包含用于将客户端连接到运行 2007 Microsoft Exchange Server客户端访问服务器角色的计算机的规范。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-该文本值指定是否需要身份验证。 可能的值为 **"开" 或 "** **关**"。 如果未指定值，则默认值为**on**。 
+文本值指定是否需要身份验证。 可能的值为 **on 和** **off。** 如果未指定值，则默认值在 **上**。 
   
 ## <a name="see-also"></a>另请参阅
 
-- [Exchange 的 POX 自动发现 XML 元素](pox-autodiscover-xml-elements-for-exchange.md)
+- [用于存储的 POX 自动发现 XML Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

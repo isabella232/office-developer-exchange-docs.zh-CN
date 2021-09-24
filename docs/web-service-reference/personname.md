@@ -1,23 +1,23 @@
 ---
-title: Contact.personname
+title: PersonName
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dbd102b8-db70-4196-affe-d7ed66bf3371
-description: Contact.personname 元素指定通过实体提取找到的单个的名称。
-ms.openlocfilehash: 7784cf1abb9098c181450baeb80468faf46c7d99
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: PersonName 元素指定通过实体提取找到的个人的名称。
+ms.openlocfilehash: a3525559d409c6c06f85637fa622350156f10e06
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44434083"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528467"
 ---
-# <a name="personname"></a>Contact.personname
+# <a name="personname"></a>PersonName
 
-**Contact.personname**元素指定通过实体提取找到的单个的名称。 
+**PersonName** 元素指定通过实体提取找到的个人的名称。 
   
 ```XML
 <PersonName></PersonName>
@@ -38,13 +38,13 @@ ms.locfileid: "44434083"
   
 ### <a name="parent-elements"></a>父元素
 
-[Contact （ContactType）](contact-contacttype.md)
+[Contact (ContactType)](contact-contacttype.md)
   
 ## <a name="text-value"></a>文本值
 
-**Contact.personname**元素的文本值是实体提取的结果找到的人员的名称。 
+**PersonName** 元素的文本值是实体提取结果所找到人员的姓名。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

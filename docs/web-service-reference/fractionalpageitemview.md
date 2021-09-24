@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FractionalPageItemView
 api_type:
 - schema
 ms.assetid: 4111afec-35e7-4c6f-b291-9bbba603f633
-description: FractionalPageItemView 元素说明分页视图的起始位置以及在 FindItem 请求中返回的最大项目数。
-ms.openlocfilehash: cbf45838558873dc5846823c2d1b26cf2c8af514
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: FractionalPageItemView 元素描述分页视图的起始位置以及 FindItem 请求中返回的最大项目数。
+ms.openlocfilehash: 0d948bad0ba24c4a105be32daa645d1864cb4f3b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461308"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59530244"
 ---
 # <a name="fractionalpageitemview"></a>FractionalPageItemView
 
-**FractionalPageItemView**元素说明分页视图的起始位置以及在[FindItem](finditem.md)请求中返回的最大项目数。 
+**FractionalPageItemView** 元素描述分页视图的起始位置以及 [FindItem](finditem.md)请求中返回的最大项目数。 
   
 [FindItem](finditem.md)
   
@@ -40,9 +40,9 @@ ms.locfileid: "44461308"
 
 |**属性**|**说明**|
 |:-----|:-----|
-|**MaxEntriesReturned** <br/> |标识要在[FindItem](finditem.md)响应中返回的最大结果数。 此特性是可选的。 如果未指定此属性，则该调用将返回所有可用项目。  <br/> |
-|**分子** <br/> |表示从结果集的开头的小数偏移量的分子。 此特性是必需的。 分子必须等于或小于分母。 此属性必须代表等于或大于零的整数值。  <br/> 有关详细信息，请参阅本主题后面的 "备注"。  <br/> |
-|**母** <br/> |表示从结果集内的项目总数开始的小数偏移量的分母。 此特性是必需的。 此属性必须代表大于1的整数值。  <br/> 有关详细信息，请参阅本主题后面的 "备注"。  <br/> |
+|**MaxEntriesReturned** <br/> |标识在 [FindItem](finditem.md) 响应中返回的最大结果数。 此特性是可选的。 如果未指定此属性，调用将返回所有可用项。  <br/> |
+|**Numerator** <br/> |表示从起始位置开始的小数偏移的结果集。 此特性是必需的。 分子必须等于或小于分母。 此属性必须表示等于或大于零的整数值。  <br/> 有关详细信息，请参阅本主题稍后的"说明"。  <br/> |
+|**Denominator** <br/> |表示从项目总数开始的小数偏移的分母结果集。 此特性是必需的。 此属性必须表示大于 1 的整数值。  <br/> 有关详细信息，请参阅本主题稍后的"说明"。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -52,22 +52,22 @@ ms.locfileid: "44461308"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[FindItem](finditem.md) <br/> |定义在邮箱中查找项目的请求。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/FindItem` <br/> |
+|[FindItem](finditem.md) <br/> |定义查找邮箱中的项目的请求。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/FindItem` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-从一组找到的项目开始的分页视图偏移量按分数进行描述。 由**分子**和**分母**属性定义的小数描述了信息页面的起始位置。 例如，如果**分子**等于四，**分母**等于5，则返回的信息的页面从 fifths 中的一个条目开始，该条目位于结果集内。 
+从找到的项目集开始分页的视图偏移量由一个分数描述。 分数（由 **Numerator** 和 **Denominator** 属性定义）描述信息页的起始位置。 例如，如果 **Numerator** 等于 4 且 **Denominator** 等于 5，则返回信息的页面从位于进入该数字的 4/5 结果集。 
   
-如果分式的计算结果为零，则指示结果集的开头。 如果该分数的计算结果为1，则指示结果集的结尾。
+如果分数计算结果为零，则指示结果集的开始。 如果分数计算结果为 1，则表明结果结果集。
   
 > [!NOTE]
-> 分数表示页面的起始点，而不是返回结果集中的结果数。 
+> 分数表示页面的起始点，而不是返回结果集的结果数。 
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
 ## <a name="example"></a>示例
 
-下面的示例展示了一个[FindItem](finditem.md)请求。 请求返回搜索结果中的项目，这些项目在结果集内的所有项目的第二个第二个之后开始。 
+下面的示例展示了 [FindItem](finditem.md) 请求。 该请求从搜索结果中返回项目，这些结果在项目的所有项目的第二个三结果集。 
   
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -98,7 +98,7 @@ ms.locfileid: "44461308"
 </soap:Envelope>
 ```
 
-例如，如果结果集包含九个项目，分页视图将返回最长12个项目，从项目中的第一到结果集中找到了三分之二。 在这种情况下，页面从第七个项目开始。 页面将包含第七个、第八个和第九个项目。 如果分子设置为零，则页面视图将返回结果集中的所有项，前提是该数字小于**MaxEntriesReturned**属性。 
+例如，如果 结果集包含 9 个项目，则分页视图将返回最多 12 个项目，从找到的项的三分之二开始结果集。 在这种情况下，页面从第七个项目开始。 该页面将包含第七项、第八项和第九项。 如果分子设置为零，则页面视图将返回该数字结果集只要数字小于 **MaxEntriesReturned** 属性。 
   
 ## <a name="element-information"></a>元素信息
 

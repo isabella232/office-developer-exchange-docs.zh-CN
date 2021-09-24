@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PercentComplete
 api_type:
 - schema
 ms.assetid: 58a67f8a-c4dc-42dc-97ae-a9e5cc672d2d
-description: 百分比元素描述任务的完成状态。
-ms.openlocfilehash: b7dd2f18bd3ef6addeb6d3a7b004510f35b9cb3d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: PercentComplete 元素描述任务的完成状态。
+ms.openlocfilehash: 48e6163377d51d64f63e966c525def48f930733e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456883"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519245"
 ---
 # <a name="percentcomplete"></a>PercentComplete
 
-**百分比**元素描述任务的完成状态。 
+**PercentComplete** 元素描述任务的完成状态。 
   
 ```xml
 <PercentComplete/>
 ```
 
- **加倍**
+ **double**
 ## <a name="attributes-and-elements"></a>属性和元素
 
 下面各部分介绍了属性、子元素和父元素。
@@ -48,11 +48,11 @@ ms.locfileid: "44456883"
    
 ## <a name="text-value"></a>文本值
 
-一个代表0到100之间的整数的文本值是必需的。
+需要一个表示 0 到 100 之间的整数的文本值。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-将**百分比**设置为100与设置[CompleteDate](completedate.md)元素或将[Status](status.md)元素设置为 "**已完成**" 具有相同的效果。 在设置至少两个属性中的一个请求中，最后处理的属性将确定为这些元素设置的值。 例如，如果**百分比**为100，则[CompleteDate](completedate.md)为 2007 1 月1日，且[状态](status.md)为 NotStarted，并且按此顺序对属性进行流式处理，则效果是将任务的[状态](status.md)设置为 NotStarted，将[CompleteDate](completedate.md)设置为**null**，并将**百分比**为0。 
+将 **PercentComplete** 设置为 100 与设置 [CompleteDate](completedate.md) 元素或将 [Status](status.md) 元素设置为 **Completed** 的效果相同。 在至少设置其中两个属性的请求中，最后处理的属性将确定为这些元素设置的值。 例如，如果 **PercentComplete** 为 100，CompleteDate 为 2007 年 1 月 1 日 [，Status](status.md)为 NotStarted，并且按此顺序流式处理属性，则效果将为将任务的 [Status](status.md)设置为 NotStarted，[将 CompleteDate](completedate.md)设置为 **null，** 将 **PercentComplete** 设置为 0。 [](completedate.md) 
   
 描述此元素的架构位于正在运行 Microsoft Exchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

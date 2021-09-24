@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 89513c26-b751-4619-a300-0ed8f55b0102
-description: SearchItemKind 元素指示要在其中搜索 FindMailboxStatisticsByKeyword 操作的项目的类型。
-ms.openlocfilehash: e0625ac169c3083702494c094da15d38d220fe67
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SearchItemKind 元素指示为 FindMailboxStatisticsByKeyword 操作搜索的项目类型。
+ms.openlocfilehash: 93803d181f32d88c30ab0fa9a72bb92f22907dde
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463998"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510853"
 ---
 # <a name="searchitemkind"></a>SearchItemKind
 
-**SearchItemKind**元素指示要在其中搜索**FindMailboxStatisticsByKeyword**操作的项目的类型。 
+**SearchItemKind** 元素指示为 **FindMailboxStatisticsByKeyword** 操作搜索的项目类型。 
   
 ```XML
 <SearchItemKind>Email | Meetings | Tasks | Notes | Docs | Journals | Contacts | Im | Voicemail | Faxes | Posts | Rssfeeds</SearchItemKind>
@@ -42,33 +42,33 @@ ms.locfileid: "44463998"
   
 ## <a name="text-value"></a>文本值
 
-**SearchItemKind**元素的文本值是要搜索关键字的项的类型。 以下列表包含可在**SearchItemKind**元素中使用的文本值。 
+**SearchItemKind** 元素的文本值是搜索关键字的项目类型。 以下列表包含可在 **SearchItemKind** 元素中使用的文本值。 
   
-- **电子**邮件-指示将搜索电子邮件中的关键字。 
+- **Email** - 指示电子邮件搜索关键字。 
     
-- **会议**-指示搜索会议的关键字。 
+- **会议** - 指示在会议中搜索关键字。 
     
-- **任务**-指示搜索任务的关键字。 
+- **Tasks** - 指示搜索任务中的关键字。 
     
-- **备注**-指示搜索笔记中的关键字。 
+- **备注** - 指示搜索关键字的注释。 
     
-- **文档**-指示搜索文档中的关键字。 
+- **Docs** - 指示文档搜索关键字。 
     
-- "**日记**"-指示搜索日记以查找关键字。 
+- **月** 日 - 指示搜索关键字的日记。 
     
-- **联系人**-表示搜索联系人的关键字。 
+- **联系人** - 指示搜索联系人的关键字。 
     
-- **Im** -指示搜索即时消息中的关键字。 
+- **Im** - 指示在即时消息中搜索关键字。 
     
-- **语音邮件**-指示搜索语音邮件中的关键字。 
+- **语音邮件** - 指示语音邮件搜索关键字。 
     
-- "**传真**"-指示搜索传真以查找关键字。 
+- **Faxes** - 指示搜索传真的关键字。 
     
-- **帖子**-表示搜索帖子中的关键字。 
+- **帖子** - 指示搜索文章的关键字。 
     
-- **Rssfeeds** -指示将搜索 RSS 源以查找关键字。 
+- **Rssfeeds** - 指示搜索 RSS 源的关键字。 
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

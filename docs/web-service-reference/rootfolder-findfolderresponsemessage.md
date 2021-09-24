@@ -1,27 +1,27 @@
 ---
-title: RootFolder （FindFolderResponseMessage）
+title: RootFolder (FindFolderResponseMessage)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - RootFolder
 api_type:
 - schema
 ms.assetid: 5089c815-663f-46be-bc59-aed9ee20f94a
-description: RootFolder 元素包含在 FindFolder 操作过程中搜索单个根文件夹的结果。
-ms.openlocfilehash: b5601d6abec67196c9991908e272a2122a201d69
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: RootFolder 元素包含在 FindFolder 操作期间对单个根文件夹进行搜索的结果。
+ms.openlocfilehash: 582d4642bb4ecd2816beba6df863eb274762f804
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457135"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512273"
 ---
-# <a name="rootfolder-findfolderresponsemessage"></a>RootFolder （FindFolderResponseMessage）
+# <a name="rootfolder-findfolderresponsemessage"></a>RootFolder (FindFolderResponseMessage)
 
-**RootFolder**元素包含在[FindFolder 操作](findfolder-operation.md)过程中搜索单个根文件夹的结果。
+**RootFolder** 元素包含在 FindFolder 操作期间对单个根文件夹 [进行搜索的结果](findfolder-operation.md)。
   
 ```xml
 <RootFolder IndexedPagingOffset="" NumeratorOffset="" AbsoluteDenominator="" IncludesLastItemInRange="" TotalItemsInView="">
@@ -38,27 +38,27 @@ ms.locfileid: "44457135"
 
 |**属性**|**说明**|
 |:-----|:-----|
-|IndexedPagingOffset  <br/> |表示在使用索引分页视图时应用于下一个请求的下一个索引。  <br/> |
-|NumeratorOffset  <br/> |表示在使用分数页面视图时用于下一个请求的新的分子值。  <br/> |
-|AbsoluteDenominator  <br/> |表示执行分数分页时用于下一个请求的下一个分母。  <br/> |
-|IncludesLastItemInRange  <br/> |指示当前结果是否包含查询中的最后一个文件夹，以便不需要进一步分页。  <br/> |
-|TotalItemsInView  <br/> |表示传递限制的文件夹总数。  <br/> |
+|IndexedPagingOffset  <br/> |表示在使用索引分页视图时，下一个请求应该使用的下一个索引。  <br/> |
+|NumeratorOffset  <br/> |表示使用小数页面视图时用于下一个请求的新分子值。  <br/> |
+|AbsoluteDenominator  <br/> |表示执行小数分页时要用于下一个请求的下一个分母。  <br/> |
+|IncludesLastItemInRange  <br/> |指示当前结果是否包含查询中的最后一个文件夹，因此不需要进一步分页。  <br/> |
+|TotalItemsInView  <br/> |表示通过限制的文件夹总数。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Folders](folders-ex15websvcsotherref.md) <br/> |包含通过使用[FindFolder 操作](findfolder-operation.md)找到的文件夹数组。  <br/> |
+|[Folders](folders-ex15websvcsotherref.md) <br/> |包含使用 [FindFolder](findfolder-operation.md)操作找到的文件夹数组。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[FindFolderResponseMessage](findfolderresponsemessage.md) <br/> |包含[FindFolder 操作](findfolder-operation.md)请求的状态和结果。  <br/> |
+|[FindFolderResponseMessage](findfolderresponsemessage.md) <br/> |包含 [FindFolder](findfolder-operation.md) 操作请求的状态和结果。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-描述此元素的架构位于运行 Microsoft Exchange Server 2010 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
+描述此元素的架构位于运行安装了客户端访问服务器角色的 Microsoft Exchange Server 2010 的计算机的 EWS 虚拟目录中。
   
 ## <a name="element-information"></a>元素信息
 

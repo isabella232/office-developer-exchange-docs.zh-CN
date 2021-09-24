@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - JobTitle
 api_type:
 - schema
 ms.assetid: 52e0de8a-fb21-4f6c-83cb-5a39132d7685
-description: JobTitle 元素表示联系人的职务。
-ms.openlocfilehash: e2c52794f441dee05944ebc1fb7364abfb35cfab
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: JobTitle 元素表示联系人的工作职务。
+ms.openlocfilehash: 41c111e63f98991e3b1244e4d425b2d16c6f6968
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466477"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511403"
 ---
 # <a name="jobtitle"></a>JobTitle
 
-**JobTitle**元素表示联系人的职务。 
+**JobTitle** 元素表示联系人的工作职务。 
   
 ```xml
 <JobTitle/>
@@ -48,7 +48,7 @@ ms.locfileid: "44466477"
    
 ## <a name="text-value"></a>文本值
 
-如果使用此元素，则需要一个 text 值。
+如果此元素已使用，则文本值是必需的。
   
 ## <a name="remarks"></a>说明
 

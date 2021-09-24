@@ -1,23 +1,23 @@
 ---
-title: Get-managementrole
+title: ManagementRole
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a5ee3299-1b2c-4a2a-9fe4-997febc7267a
-description: Get-managementrole 元素指定用户和应用程序管理角色的列表。
-ms.openlocfilehash: 4e4ac1b38869d3c5dabe142c63b2aac9477036fd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ManagementRole 元素指定用户和应用程序管理角色的列表。
+ms.openlocfilehash: 806b27c36eec3715e44db2dbc6762ba2472e7a09
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44450912"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519343"
 ---
-# <a name="managementrole"></a>Get-managementrole
+# <a name="managementrole"></a>ManagementRole
 
-**Get-managementrole**元素指定用户和应用程序管理角色的列表。 
+**ManagementRole** 元素指定用户和应用程序管理角色的列表。 
   
 ```XML
 <ManagementRole>
@@ -37,13 +37,13 @@ ms.locfileid: "44450912"
   
 ### <a name="child-elements"></a>子元素
 
-[Userroles.xml](userroles.md)  | [ApplicationRoles](applicationroles.md)
+[UserRoles](userroles.md)  | [ApplicationRoles](applicationroles.md)
   
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

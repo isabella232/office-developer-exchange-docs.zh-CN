@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4ddba6b8-0f38-42cd-96a1-0d4283f6375b
-description: MaxItems 元素指定要在请求中返回的最大项目数。
-ms.openlocfilehash: f16e9d46b59c0f562aabd5383f7f445d93414f68
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: MaxItems 元素指定在请求中返回的最大项目数。
+ms.openlocfilehash: 23a78db874ef3678be8c6703fb7004fc5f8a1425
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461742"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511114"
 ---
 # <a name="maxitems"></a>MaxItems
 
-**MaxItems**元素指定要在请求中返回的最大项目数。 
+**MaxItems** 元素指定在请求中返回的最大项目数。 
   
 ```XML
 <MaxItems/>
@@ -42,9 +42,9 @@ ms.locfileid: "44461742"
   
 ## <a name="text-value"></a>文本值
 
-**MaxItems**元素的文本值是请求中返回的最大项目数。 此数字不能小于零或大于200。 
+**MaxItems** 元素的文本值是在请求中返回的最大项目数。 此数字不能小于零或大于 200。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

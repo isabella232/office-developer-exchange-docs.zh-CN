@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b5d18516-a617-4daf-8baf-c7ce29c76f6b
-description: FoldersToIgnore 元素标识在对话中获取项目时被忽略的文件夹的列表。 GetConversationItems 响应中不会返回已忽略文件夹中的所有对话项目。
-ms.openlocfilehash: 07813a54a9a3afa3de23ae94f1c9b191d1cb6fac
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: FoldersToIgnore 元素标识在获取对话中的项目时忽略的文件夹列表。 GetConversationItems 响应中不会返回忽略的文件夹中所有对话项目。
+ms.openlocfilehash: c0102d12b24df2cadd5e307e80c5acda9a3c0589
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44453355"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528657"
 ---
 # <a name="folderstoignore"></a>FoldersToIgnore
 
-**FoldersToIgnore**元素标识在对话中获取项目时被忽略的文件夹的列表。 **GetConversationItems**响应中不会返回已忽略文件夹中的所有对话项目。 
+**FoldersToIgnore** 元素标识在获取对话中的项目时忽略的文件夹列表。 GetConversationItems 响应中不会返回忽略 **的文件夹中所有对话** 项目。 
   
 ```XML
 <FoldersToIgnore>
@@ -43,7 +43,7 @@ ms.locfileid: "44453355"
 
 [GetConversationItems](getconversationitems.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

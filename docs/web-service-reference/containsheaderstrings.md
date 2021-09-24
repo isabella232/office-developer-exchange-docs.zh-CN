@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ContainsHeaderStrings
 api_type:
 - schema
 ms.assetid: 5f68427b-990a-4a27-bfb3-fce3115b02d7
-description: ContainsHeaderStrings 元素指示必须出现在传入邮件的标头中的字符串，以便条件或例外情况适用。
-ms.openlocfilehash: 23e3d0e7cff9c78edbac10a6275514af93cab325
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ContainsHeaderStrings 元素指示必须出现在传入邮件头中的字符串，以便条件或例外情况适用。
+ms.openlocfilehash: 9a58c32146a457181f72954af23165e9773192aa
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458990"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518685"
 ---
 # <a name="containsheaderstrings"></a>ContainsHeaderStrings
 
-**ContainsHeaderStrings**元素指示必须出现在传入邮件的标头中的字符串，以便条件或例外情况适用。 
+**ContainsHeaderStrings** 元素指示必须出现在传入邮件头中的字符串，以便条件或例外情况适用。 
   
 ```XML
 <ContainsHeaderStrings>
@@ -55,7 +55,7 @@ ms.locfileid: "44458990"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

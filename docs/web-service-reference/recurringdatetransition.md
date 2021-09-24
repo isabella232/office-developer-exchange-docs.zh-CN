@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - RecurringDateTransition
 api_type:
 - schema
 ms.assetid: 52fe1e05-3c50-40a1-8752-5c3c64c9f1ed
 description: RecurringDateTransition 元素表示每年的特定日期发生的时区转换。
-ms.openlocfilehash: 2acbd3afb50a92d4e4f3d7b552eecb36fe59be8b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 864f3f539c5440fbfc539ca6c2042b3d9edca267
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461574"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529361"
 ---
 # <a name="recurringdatetransition"></a>RecurringDateTransition
 
-**RecurringDateTransition**元素表示每年的特定日期发生的时区转换。 
+**RecurringDateTransition** 元素表示每年的特定日期发生的时区转换。 
   
 ```xml
 <RecurringDateTransition>
@@ -45,23 +45,23 @@ ms.locfileid: "44461574"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[To](to.md) <br/> |指定作为时区转换目标的[时间段](period.md)或[TransitionsGroup](transitionsgroup.md) 。  <br/> |
-|[TimeOffset](timeoffset.md) <br/> |表示时区转换与协调世界时（UTC）之间的持续时间偏移量。  <br/> |
-|[Month （时区转换）](month-time-zone-transition.md) <br/> |表示发生时区转换的月份。  <br/> |
-|[Day](day.md) <br/> |表示在每月的哪一天发生时区转换。  <br/> |
+|[To](to.md) <br/> |指定[作为时区](period.md)转换目标的 Period 或[TransitionsGroup。](transitionsgroup.md)  <br/> |
+|[TimeOffset](timeoffset.md) <br/> |表示与时区转换的协调世界时 (UTC) 的持续时间偏移量。  <br/> |
+|[Month (Time Zone Transition)](month-time-zone-transition.md) <br/> |表示时区转换发生的月份。  <br/> |
+|[Day](day.md) <br/> |表示发生时区转换的月份中的哪一天。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[移交](transitions.md) <br/> |表示时区转换的集合。  <br/> |
+|[Transitions](transitions.md) <br/> |表示时区转换的集合。  <br/> |
 |[TransitionsGroup](transitionsgroup.md) <br/> |表示时区转换的集合。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-[RecurringDateTransition](recurringdatetransition.md)元素可以表示的时区转换的一个示例是每年3月15日发生的转换。 
+由 [RecurringDateTransition](recurringdatetransition.md) 元素表示的时区转换示例是每年 3 月 15 日发生的转换。 
   
-描述此元素的架构位于运行 Microsoft Exchange Server 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
+描述此元素的架构位于运行已安装客户端访问服务器角色Microsoft Exchange Server的计算机的 EWS 虚拟目录中。
   
 ## <a name="element-information"></a>元素信息
 

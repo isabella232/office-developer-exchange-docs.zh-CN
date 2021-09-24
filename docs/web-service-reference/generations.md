@@ -1,23 +1,23 @@
 ---
-title: 间
+title: Generations
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 637560b5-2b08-4787-a5d8-e0467f83acca
-description: 世代元素为关联的角色指定代值数组和其源归属的标识符。
-ms.openlocfilehash: a3ef0e2c73e2ebd7c121f817b8ea97c5e4d4d333
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Generations 元素指定一个生成值数组，以及关联人物的源属性的标识符。
+ms.openlocfilehash: bbb76241a7e207b44ff6911f166eaded9306a9c5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463011"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541264"
 ---
-# <a name="generations"></a>间
+# <a name="generations"></a>Generations
 
-世代**元素为**关联的角色指定代值数组和其源归属的标识符。 
+**Generations** 元素指定一个生成值数组，以及关联人物的源属性的标识符。 
   
 ```XML
 <Generations>
@@ -38,15 +38,15 @@ ms.locfileid: "44463011"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[StringAttributedValue](stringattributedvalue.md) <br/> |指定与 persona 元素相关联的属性数组中的实例。  <br/> |
+|[StringAttributedValue](stringattributedvalue.md) <br/> |指定与 persona 元素关联的属性数组中的实例。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[角色](persona.md) <br/> |指定由**GetPersona**请求返回的一组角色数据。  <br/> |
+|[角色](persona.md) <br/> |指定由 **GetPersona** 请求返回的一组人员数据。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -58,7 +58,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

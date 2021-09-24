@@ -1,34 +1,34 @@
 ---
-title: Internal （POX）
+title: Internal (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 69c22546-ebd6-4a03-b0b4-bbac72ec5551
-description: Internal 元素包含客户端可用于从组织的网络内部连接到 Exchange 的 Url 的集合。
-ms.openlocfilehash: 8164a018a11f9bae9c3abcbfebf6cf0694ca4183
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Internal 元素包含一组 URL，客户端可以使用这些 URL Exchange组织网络内部的 URL。
+ms.openlocfilehash: f87c5e21eff87965c9b6ff6f3d59e2b3a37b87f1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465595"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541117"
 ---
-# <a name="internal-pox"></a>Internal （POX）
+# <a name="internal-pox"></a>Internal (POX)
 
-**Internal**元素包含客户端可用于从组织的网络内部连接到 Exchange 的 url 的集合。 
+**Internal** 元素包含客户端可用于从组织网络Exchange内部连接到客户端的 URL 的集合。 
   
-[自动发现（POX）](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[响应（POX）](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[帐户（POX）](account-pox.md)
+[Account (POX)](account-pox.md)
   
-[协议（POX）](protocol-pox.md)
+[Protocol (POX)](protocol-pox.md)
   
-[Internal （POX）](internal-pox.md)
+[Internal (POX)](internal-pox.md)
   
 ```xml
 <Internal>
@@ -52,22 +52,22 @@ ms.locfileid: "44465595"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[OWAUrl （POX）](owaurl-pox.md) <br/> |介绍用于访问运行 Microsoft Exchange Server 的特定计算机的 URL 和身份验证架构，该计算机安装了承载 Outlook Web Access 的客户端访问服务器角色。  <br/> |
-|[协议（POX）](protocol-pox.md) <br/> |包含将客户端连接到运行 Microsoft Exchange Server 且安装了客户端访问服务器角色的计算机的规范。 此**协议**元素只有两个子元素：一个指定连接协议的[类型（POX）](type-pox.md)元素和一个[ASUrl （POX）](asurl-pox.md)元素，指定了可用性 web 服务的 EWS 终结点。  <br/> |
+|[OWAUrl (POX)](owaurl-pox.md) <br/> |介绍 URL 和身份验证架构，该架构用于访问运行 Microsoft Exchange Server安装了客户端访问服务器角色且承载 Web Access Outlook的计算机。  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |包含用于将客户端连接到运行已安装客户端访问服务器角色Microsoft Exchange Server的计算机的规范。 此 **Protocol** 元素只有两个子元素：一个指定连接协议的 [Type (POX)](type-pox.md) 元素和一个指定可用性 Web 服务的 EWS 终结点的 [ASUrl (POX)](asurl-pox.md) 元素。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[协议（POX）](protocol-pox.md) <br/> |包含将客户端连接到运行 Microsoft Exchange Server 且安装了客户端访问服务器角色的计算机的规范。  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |包含用于将客户端连接到运行已安装客户端访问服务器角色Microsoft Exchange Server的计算机的规范。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-**Internal**元素是**Protocol**元素的可选子元素。 
+**Internal** 元素是 Protocol 元素的可选 **子** 元素。 
   
 ## <a name="see-also"></a>另请参阅
 
 
 
-[Exchange 的 POX 自动发现 XML 元素](pox-autodiscover-xml-elements-for-exchange.md)
+[用于存储的 POX 自动发现 XML Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

@@ -1,24 +1,24 @@
 ---
-title: 响应（SOAP）
+title: Response (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 4c2bcdeb-95ce-4ffa-bd83-118af53b534f
-description: Response 元素包含对 GetUserSettings 操作（SOAP）、GetDomainSettings 操作（SOAP）或 GetFederationInformation 操作（SOAP）请求的响应。
-ms.openlocfilehash: 90cb29dd4ce4026211a5b592f149c8190dc81d29
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Response 元素包含对 GetUserSettings 操作的响应 (SOAP) 、GetDomainSettings 操作 (SOAP) 或 GetFederationInformation 操作 (SOAP) 请求。
+ms.openlocfilehash: d42014991db8e93f88b80bed97970f043290cfb1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456414"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512357"
 ---
-# <a name="response-soap"></a>响应（SOAP）
+# <a name="response-soap"></a>Response (SOAP)
 
-**Response**元素包含对[GETUSERSETTINGS 操作（soap）](getusersettings-operation-soap.md)、 [GetDomainSettings 操作（soap）](getdomainsettings-operation-soap.md)或[GetFederationInformation 操作（soap）](getfederationinformation-operation-soap.md)请求的响应。 
+**Response** 元素包含对 [GetUserSettings](getusersettings-operation-soap.md)操作的响应 (SOAP) 、GetDomainSettings [操作 (SOAP)](getdomainsettings-operation-soap.md)或 [GetFederationInformation 操作 (SOAP)](getfederationinformation-operation-soap.md)请求。 
   
 ```XML
 <Response>
@@ -41,17 +41,17 @@ ms.locfileid: "44456414"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ErrorCode （SOAP）](errorcode-soap.md) <br/> |表示自动发现服务返回的错误代码。  <br/> |
-|[ErrorMessage （SOAP）](errormessage-soap.md) <br/> |表示与自动发现服务返回的错误代码相关联的消息。  <br/> |
-|[UserResponses （SOAP）](userresponses-soap.md) <br/> |包含每个请求的用户的配置设置。  <br/> |
+|[ErrorCode (SOAP)](errorcode-soap.md) <br/> |表示自动发现服务返回的错误代码。  <br/> |
+|[ErrorMessage (SOAP)](errormessage-soap.md) <br/> |表示与自动发现服务返回的错误代码相关联的消息。  <br/> |
+|[UserResponses (SOAP)](userresponses-soap.md) <br/> |包含每个请求的用户的配置设置。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GetUserSettingsResponseMessage （SOAP）](getusersettingsresponsemessage-soap.md) <br/> |定义对[GetUserSettingsRequest （SOAP）](getusersettingsrequest-soap.md)的响应 <br/> |
-|[GetDomainSettingsResponseMessage （SOAP）](getdomainsettingsresponsemessage-soap.md) <br/> |定义对[GetDomainSettingsRequest （SOAP）](getdomainsettingsrequest-soap.md)的响应。  <br/> |
-|[GetFederationInformationResponseMessage （SOAP）](getfederationinformationresponsemessage-soap.md) <br/> |定义对[GetFederationInformationRequest （SOAP）](getfederationinformationrequest-soap.md)的响应。  <br/> |
+|[GetUserSettingsResponseMessage (SOAP)](getusersettingsresponsemessage-soap.md) <br/> |定义对 SOAP ([GetUserSettingsRequest](getusersettingsrequest-soap.md))  <br/> |
+|[GetDomainSettingsResponseMessage (SOAP)](getdomainsettingsresponsemessage-soap.md) <br/> |定义对 [GETDomainSettingsRequest ](getdomainsettingsrequest-soap.md) (SOAP) 的响应。  <br/> |
+|[GetFederationInformationResponseMessage (SOAP)](getfederationinformationresponsemessage-soap.md) <br/> |定义对 SOAP ([GetFederationInformationRequest) 的响应 ](getfederationinformationrequest-soap.md)。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
@@ -73,7 +73,7 @@ ms.locfileid: "44456414"
 [GetUserSettings 操作 (SOAP)](getusersettings-operation-soap.md)
 
 
-[Exchange 的自动发现 web 服务参考](autodiscover-web-service-reference-for-exchange.md)
+[自动发现 Web 服务引用Exchange](autodiscover-web-service-reference-for-exchange.md)
   
 [Exchange 2013 的 SOAP 自动发现 XML 元素](soap-autodiscover-xml-elements-for-exchange-2013.md)
 

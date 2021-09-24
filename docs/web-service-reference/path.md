@@ -1,27 +1,27 @@
 ---
-title: 路径
+title: Path
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Path
 api_type:
 - schema
 ms.assetid: 5829149e-7bfe-4820-bcc6-910e9264acc9
-description: Path 元素是所有属性标识符的基本架构类型。 此类型是抽象的，永远不会直接出现在实例文档中。
-ms.openlocfilehash: 5ba18084243e9720a76b9ac28023778c6d546bc4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Path 元素是所有属性标识符的基本架构类型。 此类型为抽象类型，绝不会直接在实例文档中出现。
+ms.openlocfilehash: 3d0f95e27c788a911ed11b0eb86444c5fc273fbc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529012"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519259"
 ---
-# <a name="path"></a>路径
+# <a name="path"></a>Path
 
-**Path**元素是所有属性标识符的基本架构类型。 此类型是抽象的，永远不会直接出现在实例文档中。 
+**Path** 元素是所有属性标识符的基本架构类型。 此类型为抽象类型，绝不会直接在实例文档中出现。 
   
 ```xml
 <Path/>
@@ -44,9 +44,9 @@ ms.locfileid: "44529012"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-以下元素用于替换**Path**元素： 
+以下元素用于替换 **Path** 元素： 
   
 - [FieldURI](fielduri.md)
     

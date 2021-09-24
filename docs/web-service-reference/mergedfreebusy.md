@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MergedFreeBusy
 api_type:
 - schema
 ms.assetid: ea45590d-476e-4b68-9fe8-ae392feadfea
 description: MergedFreeBusy 元素包含合并的忙/闲数据流。
-ms.openlocfilehash: a1483449534f0d886e3c97a23d28c5d78f865042
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: db451d6b2e67313836771604fae57b14b6b3db10
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468724"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511028"
 ---
 # <a name="mergedfreebusy"></a>MergedFreeBusy
 
-**MergedFreeBusy**元素包含合并的忙/闲数据流。 
+**MergedFreeBusy** 元素包含合并的忙/闲数据流。 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -58,7 +58,7 @@ ms.locfileid: "44468724"
    
 ## <a name="text-value"></a>文本值
 
-如果[FreeBusyViewType](freebusyviewtype.md)元素的值是下列值之一，则由服务器提供一个文本值： 
+如果 [FreeBusyViewType](freebusyviewtype.md) 元素的值为下列值之一，则服务器会提供文本值： 
   
 - DetailedMerged
     
@@ -66,21 +66,21 @@ ms.locfileid: "44468724"
     
 - MergedOnly
     
-该文本值是一种忙/闲信息流。 
+文本值是一个忙/闲信息流。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-此元素提供的数据流由[MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md)和[TimeWindow](timewindow.md)元素定义。 [TimeWindow](timewindow.md)元素定义查询可用性的时间跨度。 [MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md)元素定义如何将[TimeWindow](timewindow.md)元素中的时间分成**MergedFreeBusy**元素中返回的间隔。 **MergedFreeBusy**流中的每个数字表示一个由[MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md)元素定义的间隔。 下表列出了单个间隔的可能值。 
+此元素提供的数据流由 [MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md) 和 [TimeWindow 元素](timewindow.md) 定义。 [TimeWindow](timewindow.md)元素定义查询可用性的时间跨度。 [MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md)元素定义如何将 [TimeWindow](timewindow.md)元素的时间分解为 **MergedFreeBusy** 元素中返回的时间间隔。 **MergedFreeBusy** 流中的每个数字代表 [MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md)元素定义的单个间隔。 下表列出了单个间隔的可能值。 
   
 |**数字**|**可用性**|
 |:-----|:-----|
 |0  <br/> |空闲  <br/> |
-|1   <br/> |暂  <br/> |
-|双面  <br/> |忙碌  <br/> |
-|第三章  <br/> |外出 (OOF)  <br/> |
+|1  <br/> |暂定  <br/> |
+|2  <br/> |忙碌  <br/> |
+|3  <br/> |外出 (OOF)  <br/> |
 |4   <br/> |无数据  <br/> |
    
-例如，忙/闲数据的请求包含一个[TimeWindow](timewindow.md)元素，该元素表示四个小时，一个[MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md)元素表示60分钟。 如果请求的用户的日历为前60分钟的 OOF，在时间窗口中等待以下90分钟，并对最后的90分钟进行了非计划，则**MergedFreeBusy**流将为3220。 如果某个间隔包含多个可用性分类，则将使用最大数量对该间隔进行分类。 
+例如，对忙/闲数据的请求包括一个表示四小时的 [TimeWindow](timewindow.md) 元素和一个表示 60 分钟的 [MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md) 元素。 如果请求的用户的日历是前 60 分钟的 OOF，忙碌了 90 分钟，在时间窗口的最后 90 分钟内未计划， **则 MergedFreeBusy** 流将为 3220。 如果一个间隔包含多个可用性分类，则使用最高的数字来分类该间隔。 
   
 此元素提供的详细信息级别取决于授予请求者的权限。
   

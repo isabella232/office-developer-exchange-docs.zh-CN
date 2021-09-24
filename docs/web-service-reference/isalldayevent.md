@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsAllDayEvent
 api_type:
 - schema
 ms.assetid: 29140a64-9d7a-4a14-a10d-c98197c9831b
-description: IsAllDayEvent 元素指示 calendar 项目或会议请求是否代表全天事件。
-ms.openlocfilehash: f0c975deecf96e94599a47ef2c33e54a7d1a80b9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: IsAllDayEvent 元素指示日历项目或会议请求是否表示全天事件。
+ms.openlocfilehash: 6dd40851f09fc25ebc8141ad059d7c6c908e92a3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526534"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541012"
 ---
 # <a name="isalldayevent"></a>IsAllDayEvent
 
-**IsAllDayEvent**元素指示 calendar 项目或会议请求是否代表全天事件。 
+**IsAllDayEvent** 元素指示日历项目或会议请求是否表示全天事件。 
   
 ```xml
 <IsAllDayEvent/>
@@ -49,11 +49,11 @@ ms.locfileid: "44526534"
    
 ## <a name="text-value"></a>文本值
 
-如果包含此元素，则需要一个表示布尔值的文本值。 **如果值为 true** ，则表示项目表示全天事件。 **如果值为 false** ，则表示项的范围少于用户的工作时间。 
+如果包含此元素，则代表布尔值的文本值是必需的。 true **值表示** 项目代表全天事件。 false **值表示** 项目所跨越的工作时间小于用户的工作时间。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-全天事件会跨越为邮箱定义的工作时间的持续时间。
+全天事件跨越为邮箱定义的工作时间的持续时间。
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

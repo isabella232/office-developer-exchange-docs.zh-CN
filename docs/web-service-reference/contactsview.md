@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ContactsView
 api_type:
 - schema
 ms.assetid: 8534f44b-a5af-4a9f-9621-23a3eff5f9d8
-description: ContactsView 元素根据字母显示名称定义对联系人项目的搜索。
-ms.openlocfilehash: 23c3fe13c44cdd0e5a054ecb3378bc3d633e55aa
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ContactsView 元素根据显示名称的字母顺序定义联系人项目的搜索。
+ms.openlocfilehash: a96da6270d2396e5e82851dcc200f818cec5a7ed
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463816"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59531097"
 ---
 # <a name="contactsview"></a>ContactsView
 
-**ContactsView**元素根据字母显示名称定义对联系人项目的搜索。 
+**ContactsView** 元素根据显示名称的字母顺序定义联系人项目的搜索。 
   
 [FindItem](finditem.md)
   
@@ -41,9 +41,9 @@ ms.locfileid: "44463816"
 
 |**属性**|**说明**|
 |:-----|:-----|
-|**MaxEntriesReturned** <br/> |描述在[FindItem](finditem.md)响应中返回的最大结果数。  <br/> |
-|**InitialName** <br/> |定义要在响应中返回的 "联系人" 列表中的第一个名称。 如果指定的初始名称不在 "联系人" 列表中，则将返回由区域性上下文定义的下一个字母名称，但在**FinalName**后面的下一个名称除外。 如果省略了**InitialName**属性，则响应将包含以联系人列表中的第一个名称开头的联系人列表。 此特性是可选的。  <br/> |
-|**FinalName** <br/> |定义要在响应中返回的 "联系人" 列表中的最后一个名称。 如果省略了**FinalName**属性，则响应将包含指定的排序顺序中的所有后续联系人。 如果指定的最终名称不在联系人列表中，则将排除由区域性上下文定义的下一个按字母顺序排列的名称。  <br/><br/>例如，如果 FinalName = "Name"，但名称不在 "联系人" 列表中，则将不包含显示名称为 "Name1" 或 "名称" 的联系人。  <br/><br/>此特性是可选的。  <br/> |
+|**MaxEntriesReturned** <br/> |描述在 [FindItem](finditem.md) 响应中返回的最大结果数。  <br/> |
+|**InitialName** <br/> |定义在响应中返回的联系人列表中的名字。 如果指定的初始名称不在联系人列表中，将返回由文化上下文定义的下一个字母名称，除非下一个名称位于 **FinalName 之后**。 如果 **省略 InitialName** 属性，响应将包含联系人列表中以名字开头的联系人列表。 此特性是可选的。  <br/> |
+|**FinalName** <br/> |定义在响应中返回的联系人列表中的姓氏。 如果 **省略 FinalName** 属性，响应将包含指定排序顺序的所有后续联系人。 如果指定的最终姓名不在联系人列表中，将排除由文化上下文定义的下一个字母名称。  <br/><br/>例如，如果 FinalName="Name"，但 Name 不在联系人列表中，将不会包括显示名称为 Name1 或 NAME 的联系人。  <br/><br/>此特性是可选的。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -53,7 +53,7 @@ ms.locfileid: "44463816"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[FindItem](finditem.md) <br/> |定义在邮箱中查找项目的请求。<br/><br/> 下面是此元素的 XPath 表达式：   <br/>  `/FindItem` <br/> |
+|[FindItem](finditem.md) <br/> |定义查找邮箱中的项目的请求。<br/><br/> 下面是此元素的 XPath 表达式：   <br/>  `/FindItem` <br/> |
    
 ## <a name="remarks"></a>说明
 
@@ -61,7 +61,7 @@ ms.locfileid: "44463816"
   
 ## <a name="example"></a>示例
 
-下面的请求示例演示如何查找从具有 "王凯利" 显示名称的联系人开始的前三个联系人。
+请求的以下示例演示了如何查找以具有 Kelly Rollin 显示名称的联系人开始。
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>

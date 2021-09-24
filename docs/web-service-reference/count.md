@@ -1,27 +1,27 @@
 ---
-title: Count
+title: 记数
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Count
 api_type:
 - schema
 ms.assetid: 68314b4a-1e17-4e21-9c2e-224d70ef7a32
 description: Count 元素包含 UpdateItem 操作响应中的冲突数。
-ms.openlocfilehash: a43896a1b8b6a9d96ab02afe64f9e553639e478e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 0504b0517e3337e0b985a8755a907ca460f90ccf
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466757"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511886"
 ---
-# <a name="count"></a>Count
+# <a name="count"></a>记数
 
-[Count](count.md)元素包含[UpdateItem 操作](updateitem-operation.md)响应中的冲突数。 
+[Count](count.md)元素包含[UpdateItem](updateitem-operation.md)操作响应中的冲突数。 
   
 [UpdateItemResponse](updateitemresponse.md)
   
@@ -54,15 +54,15 @@ ms.locfileid: "44466757"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ConflictResults](conflictresults.md) <br/> |包含[UpdateItem 操作](updateitem-operation.md)响应中的冲突数。  <br/> |
+|[ConflictResults](conflictresults.md) <br/> |包含 [UpdateItem](updateitem-operation.md) 操作响应中的冲突数。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-Text 值是一个整数，表示[UpdateItem 操作](updateitem-operation.md)响应中的冲突数。 
+文本值是一个整数，表示 [UpdateItem](updateitem-operation.md) 操作响应中的冲突数。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-描述此元素的架构位于运行 Microsoft Exchange Server 2010 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
+描述此元素的架构位于运行安装了客户端访问服务器角色的 Microsoft Exchange Server 2010 的计算机的 EWS 虚拟目录中。
   
 ## <a name="element-information"></a>元素信息
 

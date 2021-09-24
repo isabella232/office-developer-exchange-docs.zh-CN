@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 38318ed6-3774-4342-b1bf-1d551ecf077c
-description: Photo 元素包含对联系人照片进行编码的值。
-ms.openlocfilehash: 5e356982dc75d8cd4edb5f5d17f26a3dc2e93698
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Photo 元素包含一个值，该值对联系人的照片进行编码。
+ms.openlocfilehash: 2af544124de6ec2bfaaec4671c0e4df5903a94cd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457170"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528127"
 ---
 # <a name="photo"></a>Photo
 
-**Photo**元素包含对联系人照片进行编码的值。 
+**Photo** 元素包含一个值，该值对联系人的照片进行编码。 
   
 ```XML
 <Photo/>
@@ -47,7 +47,7 @@ ms.locfileid: "44457170"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

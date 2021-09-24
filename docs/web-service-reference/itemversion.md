@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dd8275df-11ad-4d24-95c4-291b123e8509
 description: ItemVersion 元素仅供内部使用。
-ms.openlocfilehash: 94d45e98f144840138ef3bc21c0a98d0196543b1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 6af6abb3f4859261c9fa40b81f3b9e01f41cb32e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459270"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511418"
 ---
 # <a name="itemversion"></a>ItemVersion
 
-**ItemVersion**元素仅供内部使用。 
+**ItemVersion** 元素仅供内部使用。 
   
 ```XML
 <ItemVersion />
@@ -40,7 +40,7 @@ ms.locfileid: "44459270"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ecbe4f1c-1c9e-44e0-a8f7-08c160a0fddb
-description: BusinessPhoneNumbers 元素指定业务电话号码的数组以及关联角色的源归属的标识符。
-ms.openlocfilehash: 8713af3ad302a2940cab247ff7188e55e8021ca0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: BusinessPhoneNumbers 元素指定一组业务电话号码及其关联人员来源属性的标识符。
+ms.openlocfilehash: 6de6bb2be8632c2872ff7ac771d559121c6454a0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461616"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518881"
 ---
 # <a name="businessphonenumbers"></a>BusinessPhoneNumbers
 
-**BusinessPhoneNumbers**元素指定业务电话号码的数组以及关联角色的源归属的标识符。 
+**BusinessPhoneNumbers** 元素指定一组业务电话号码及其关联人员来源属性的标识符。 
   
 ```XML
 <BusinessPhoneNumbers>
@@ -39,16 +39,16 @@ ms.locfileid: "44461616"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Value （PersonaPhoneNumberType）](value-personaphonenumbertype.md) <br/> |指定电话号码和类型信息，并与一组归属相关联。  <br/> |
-|[归属（ArrayOfValueAttributionsType）](attributions-arrayofvalueattributionstype.md) <br/> |为其关联的**Value**元素指定归属的数组。  <br/> |
+|[Value (PersonaPhoneNumberType)](value-personaphonenumbertype.md) <br/> |指定电话号码和类型信息，并且与一组属性相关联。  <br/> |
+|[Attributions (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md) <br/> |指定与其关联的 Value 元素的属性 **数组** 。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[角色](persona.md) <br/> |指定由**GetPersona**请求返回的一组角色数据。  <br/> |
+|[角色](persona.md) <br/> |指定由 **GetPersona** 请求返回的一组人员数据。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -60,7 +60,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

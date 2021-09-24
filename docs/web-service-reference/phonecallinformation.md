@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PhoneCallInformation
 api_type:
 - schema
 ms.assetid: a0363c42-6d35-4074-bc17-946eb12736ff
 description: PhoneCallInformation 元素指定电话呼叫的状态信息。
-ms.openlocfilehash: 75370bccb841818a8302bdd055ad96fd16b2e8df
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 815e0ffac761b12969483752f5022f8580f6cc62
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468843"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528324"
 ---
 # <a name="phonecallinformation"></a>PhoneCallInformation
 
-**PhoneCallInformation**元素指定电话呼叫的状态信息。 
+**PhoneCallInformation** 元素指定电话呼叫的状态信息。 
   
 ```XML
 <PhoneCallInformation>
@@ -54,7 +54,7 @@ ms.locfileid: "44468843"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GetPhoneCallInformationResponse](getphonecallinformationresponse.md) <br/> |定义对[GetPhoneCallInformation 操作](getphonecallinformation-operation.md)请求的响应。  <br/> |
+|[GetPhoneCallInformationResponse](getphonecallinformationresponse.md) <br/> |定义对 [GetPhoneCallInformation 操作请求](getphonecallinformation-operation.md) 的响应。  <br/> |
    
 ## <a name="remarks"></a>说明
 

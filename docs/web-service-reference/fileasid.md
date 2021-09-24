@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7773f92c-cddc-44e5-9fd5-06b1dac355d8
 description: FileAsId 元素指定 FileAs 标识符。
-ms.openlocfilehash: f534dd9283608eefe94b02718a69ff60651d414a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: a2f298123b4c92b17799141066b1ee459efbf785
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461049"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541348"
 ---
 # <a name="fileasid"></a>FileAsId
 
-**FileAsId**元素指定**FileAs**标识符。 
+**FileAsId** 元素指定 **FileAs** 标识符。 
   
 ```XML
 <FileAsId></FileAsId
@@ -40,13 +40,13 @@ ms.locfileid: "44461049"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[角色](persona.md) <br/> |指定由**GetPersona**请求返回的一组角色数据。  <br/> |
+|[角色](persona.md) <br/> |指定由 **GetPersona** 请求返回的一组人员数据。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**FileAsId**元素的文本值指定**FileAs**标识符。 
+**FileAsId** 元素的文本值指定 **FileAs** 标识符。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -58,7 +58,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

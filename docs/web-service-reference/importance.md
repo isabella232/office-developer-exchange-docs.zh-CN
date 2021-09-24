@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Importance
 api_type:
 - schema
 ms.assetid: 1557f59a-41f2-43fb-9ded-88f3ec5c76cb
-description: 重要性元素说明项目的重要性或当前文件夹中的会话中所有项目的合计重要性。
-ms.openlocfilehash: c49d6e84a41f1eb546eef19e2e7279fdb30b48e4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Importance 元素描述项目的重要性或当前文件夹中对话中所有项目的聚合重要性。
+ms.openlocfilehash: 38dc05bd08a49d95b7cacd776dde6a07b1a92522
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464789"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541138"
 ---
 # <a name="importance"></a>Importance
 
-**重要性**元素说明项目的重要性或当前文件夹中的会话中所有项目的合计重要性。 
+Importance 元素描述项目的重要性或当前文件夹中对话中所有项目的聚合重要性。 
   
 ```XML
 <Importance/>
@@ -49,7 +49,7 @@ ms.locfileid: "44464789"
 |[对话 (ConversationType)](conversation-conversationtype.md) <br/> |表示单个对话。  <br/> |
 |[Contact](contact.md) <br/> |表示 Exchange 联系人项目。  <br/> |
 |[DistributionList](distributionlist.md) <br/> |表示通讯组列表。  <br/> |
-|[异常](exceptions.md) <br/> |表示代表收件箱规则的所有可用的规则例外条件的例外。  <br/> |
+|[异常](exceptions.md) <br/> |代表代表收件箱规则的所有可用规则例外条件的例外。  <br/> |
 |[项目](item.md) <br/> |表示 Exchange 存储中的项。  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |表示 Exchange 存储中的会议取消。  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |表示 Exchange 存储中的会议。  <br/> |

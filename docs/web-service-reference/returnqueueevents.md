@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ReturnQueueEvents
 api_type:
 - schema
 ms.assetid: 69d22417-320c-4c6f-9fb4-2020f2480bb2
-description: ReturnQueueEvents 元素指示正在运行该任务的人员处于特权角色中。
-ms.openlocfilehash: 9d07bc8c3d32f1cd532febaf4ae04e4a2d31d243
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ReturnQueueEvents 元素指示正在运行该任务的人具有特权角色。
+ms.openlocfilehash: d80513b8acdae04e447f63c5736622e577ece040
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466589"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512259"
 ---
 # <a name="returnqueueevents"></a>ReturnQueueEvents
 
-**ReturnQueueEvents**元素指示正在运行该任务的人员处于特权角色中。 
+**ReturnQueueEvents** 元素指示正在运行该任务的人具有特权角色。 
   
 ```XML
 <ReturnQueueEvents>true | false</ReturnQueueEvents>
@@ -44,11 +44,11 @@ ms.locfileid: "44466589"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GetMessageTrackingReport](getmessagetrackingreport.md) <br/> |包含[GetMessageTrackingReport 操作](getmessagetrackingreport-operation.md)的请求，以检索指定 ID 的完整邮件跟踪报告。  <br/> |
+|[GetMessageTrackingReport](getmessagetrackingreport.md) <br/> |包含 [GetMessageTrackingReport](getmessagetrackingreport-operation.md) 操作的请求，以检索指定 ID 的完整邮件跟踪报告。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-表示一个布尔值的文本值是必需的。 **如果值为 true** ，则表示运行该任务的人员处于特权角色中;**如果值为 false** ，则表示运行该任务的人员不在特权角色中。 
+表示一个布尔值的文本值是必需的。 值为 **true** 表示正在运行该任务的人担任特权角色;false **值表示** 正在运行该任务的用户不在特权角色中。 
   
 ## <a name="remarks"></a>说明
 

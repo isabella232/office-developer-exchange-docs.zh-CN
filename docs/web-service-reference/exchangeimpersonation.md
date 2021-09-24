@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ExchangeImpersonation
 api_type:
 - schema
 ms.assetid: d8cbac49-47d0-4745-a2a7-545d33f8da93
-description: 在请求的 SOAP 标头中使用 ExchangeImpersonation 元素。 存在此元素时，调用方将尝试模拟 ExchangeImpersonation 元素中包含的帐户。
-ms.openlocfilehash: 188219d95453dc45378c6ca65ab93c2de7db4eac
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ExchangeImpersonation 元素在请求的 SOAP 标头中使用。 存在此元素时，呼叫者将尝试模拟包含在 ExchangeImpersonation 元素中的帐户。
+ms.openlocfilehash: 88a0ae18a869c14b9ae3ef2eb3cdfc189c8c60ea
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463347"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59530764"
 ---
 # <a name="exchangeimpersonation"></a>ExchangeImpersonation
 
-在请求的 SOAP 标头中使用**ExchangeImpersonation**元素。 存在此元素时，调用方将尝试模拟**ExchangeImpersonation**元素中包含的帐户。 
+**ExchangeImpersonation** 元素在请求的 SOAP 标头中使用。 存在此元素时，呼叫者将尝试模拟 **包含在 ExchangeImpersonation** 元素中的帐户。 
   
 [ExchangeImpersonation](exchangeimpersonation.md)
   
@@ -50,9 +50,9 @@ ms.locfileid: "44463347"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-对于包含要模拟的邮箱的邮箱数据库或 Active Directory User/Contact 对象，呼叫帐户必须在客户端访问服务器上和**ms-exch-MayImpersonate**权限中直接具有**exch-模拟**权限。 
+调用帐户必须在客户端访问服务器上具有 **ms-exch-impersonation** 权限，并且 **ms-exch-MayImpersonate** 权限位于包含要模拟的邮箱的邮箱数据库或 Active Directory 用户/联系人对象上。 
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

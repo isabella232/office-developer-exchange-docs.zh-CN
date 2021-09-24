@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4cf8b357-a58d-4837-994f-c2ba9b1eca4b
 description: RetentionPolicyTagId 元素指定保留策略标记的标识符。
-ms.openlocfilehash: 1ed2b3317251321d9593feb83d8ed4550425c3e9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: f284dc5191e1eac5086caf3f1897f83012c165cd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465133"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512350"
 ---
 # <a name="retentionpolicytagid"></a>RetentionPolicyTagId
 
-**RetentionPolicyTagId**元素指定保留策略标记的标识符。 
+**RetentionPolicyTagId** 元素指定保留策略标记的标识符。 
   
 ```XML
 <RetentionPolicyTagId></RetentionPolicyTagId>
@@ -42,9 +42,9 @@ ms.locfileid: "44465133"
   
 ## <a name="text-value"></a>文本值
 
-**RetentionPolicyTagId**元素的文本值是应用于会话中的项目的策略标记标识符。 
+**RetentionPolicyTagId 元素** 的文本值是应用于对话中的项目的策略标记标识符。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

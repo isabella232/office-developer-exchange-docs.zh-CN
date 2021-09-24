@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Categories
 api_type:
 - schema
 ms.assetid: d84d4927-b524-4e62-bf3d-1f12fec8c21a
-description: "\"类别\" 元素包含一个字符串集合，这些字符串标识邮箱中的项目所属的类别。"
-ms.openlocfilehash: 0d9f7068aa81306a10436ed0ca0d45f6d3b2c3a3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Categories 元素包含标识邮箱中项目所属的类别的字符串集合。
+ms.openlocfilehash: a7d9b42b1ce6a5ec26de76c59c713279c134a15c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462211"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518783"
 ---
 # <a name="categories"></a>类别
 
-"**类别**" 元素包含一个字符串集合，这些字符串标识邮箱中的项目所属的类别。 
+**Categories** 元素包含标识邮箱中项目所属的类别的字符串集合。 
   
 ```XML
 <Categories>
@@ -42,7 +42,7 @@ ms.locfileid: "44462211"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[字符串](string.md) <br/> |包含用于标识单个类别的字符串。  <br/> |
+|[字符串](string.md) <br/> |包含标识单个类别的字符串。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -61,14 +61,14 @@ ms.locfileid: "44462211"
 |[Contact](contact.md) <br/> |表示 Exchange 联系人项目。  <br/> |
 |[DistributionList](distributionlist.md) <br/> |表示通讯组列表。  <br/> |
 |[条件](conditions.md) <br/> |表示履行时将触发规则的规则操作的条件。  <br/> |
-|[异常](exceptions.md) <br/> |代表收件箱规则的所有可用的规则例外条件。  <br/> |
+|[异常](exceptions.md) <br/> |代表收件箱规则的所有可用规则例外条件。  <br/> |
 |[ConversationAction](conversationaction.md) <br/> |包含要应用于单个对话的单个操作。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

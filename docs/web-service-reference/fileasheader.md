@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0dbc22f8-9b71-4b8f-b1d4-6ae2e4bc1db6
-description: FileAsHeader 指定 File As 选项的头。
-ms.openlocfilehash: e7f72745bad26f13b432cb9feabf8668770d1351
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: FileAsHeader 指定"文件为"选项的标题。
+ms.openlocfilehash: 4066ff45bc4543d216f4f7d02d6c72224dbd98ca
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461056"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518517"
 ---
 # <a name="fileasheader"></a>FileAsHeader
 
-**FileAsHeader**指定**File As**选项的头。 
+**FileAsHeader** 指定"文件为"**选项** 的标题。 
   
 ```XML
 <FileAsHeader></FileAsHeader>
@@ -40,13 +40,13 @@ ms.locfileid: "44461056"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[角色](persona.md) <br/> |指定由**GetPersona**请求返回的一组角色数据。  <br/> |
+|[角色](persona.md) <br/> |指定由 **GetPersona** 请求返回的一组人员数据。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**FileAsHeader**元素的文本值指定标头。 
+**FileAsHeader** 元素的文本值指定标头。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -58,7 +58,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

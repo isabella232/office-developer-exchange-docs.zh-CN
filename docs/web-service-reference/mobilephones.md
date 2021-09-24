@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c67069e9-0c11-47c5-8b99-82932a6b7f98
-description: MobilePhones 元素指定移动电话号码的数组以及关联角色的源归属的标识符。
-ms.openlocfilehash: a38a6c3912535d5d886cac82407b4819373da00f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: MobilePhones 元素指定一组移动电话号码及其关联人员来源属性的标识符。
+ms.openlocfilehash: e315c5915e4a939fe16d2e157931e15bcbe6f295
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466659"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510979"
 ---
 # <a name="mobilephones"></a>MobilePhones
 
-**MobilePhones**元素指定移动电话号码的数组以及关联角色的源归属的标识符。 
+**MobilePhones** 元素指定一组移动电话号码及其关联人员来源属性的标识符。 
   
 ```XML
 <MobilePhones>
@@ -42,7 +42,7 @@ ms.locfileid: "44466659"
 
 [角色](persona.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

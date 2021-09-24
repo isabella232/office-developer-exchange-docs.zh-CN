@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FlaggedForAction
 api_type:
 - schema
 ms.assetid: 6a08c48a-7b32-4754-8940-adbda55e8133
-description: FlaggedForAction 元素指定必须出现在传入邮件上的 action 值标志，以便条件或例外情况适用。
-ms.openlocfilehash: f996dc4bcf30db32e1d73fb302ab137f0a6ad4d4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: FlaggedForAction 元素指定操作值的标志，操作值必须出现在传入邮件上，以便条件或例外适用。
+ms.openlocfilehash: 978d10286785f341437e3213ddbd3c296c4621fc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466239"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518377"
 ---
 # <a name="flaggedforaction"></a>FlaggedForAction
 
-**FlaggedForAction**元素指定必须出现在传入邮件上的 action 值标志，以便条件或例外情况适用。 
+**FlaggedForAction** 元素指定操作值的标志，操作值必须出现在传入邮件上，以便条件或例外适用。 
   
 ```XML
 <FlaggedForAction/>
@@ -49,23 +49,23 @@ ms.locfileid: "44466239"
    
 ## <a name="text-value"></a>文本值
 
-文本值是必需的。 以下是此元素的可能的文本值：
+文本值是必需的。 以下是此元素的可能文本值：
   
-- 任意
+- 任何
     
 - 呼叫
     
 - DoNotForward
     
-- 努力
+- FollowUp
     
-- 仅供参考
+- FYI
     
 - 转发
     
 - NoResponseNecessary
     
-- 阅读
+- 读取
     
 - 答复
     

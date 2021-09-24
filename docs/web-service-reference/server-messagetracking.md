@@ -1,27 +1,27 @@
 ---
-title: 服务器（MessageTracking）
+title: Server (MessageTracking)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Server
 api_type:
 - schema
 ms.assetid: eb5408bd-6fa5-4415-9224-24d5e07ec5b3
 description: Server 元素表示发生事件的物理服务器。
-ms.openlocfilehash: 1a5d2e223acfc402ae964c619598845e4212b639
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 76a8d7642cdee8d4fa2ebed1e164341a41af3197
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462043"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59527521"
 ---
-# <a name="server-messagetracking"></a>服务器（MessageTracking）
+# <a name="server-messagetracking"></a>Server (MessageTracking)
 
-**Server**元素表示发生事件的物理服务器。 
+**Server** 元素表示发生事件的物理服务器。 
   
 ```XML
 <Server/>
@@ -48,7 +48,7 @@ ms.locfileid: "44462043"
    
 ## <a name="text-value"></a>文本值
 
-如果使用此元素，则需要一个表示字符串的文本值。
+如果使用此元素，则代表字符串的文本值是必需的。
   
 ## <a name="remarks"></a>说明
 

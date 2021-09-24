@@ -1,32 +1,32 @@
 ---
-title: SetPlayOnPhoneDialString 操作（UM web 服务）
+title: SetPlayOnPhoneDialString 操作（UM Web 服务）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SetPlayOnPhoneDialString
 api_type:
 - schema
 ms.assetid: a68479f2-d900-4dd8-a5ce-dbea8247e841
-description: SetPlayOnPhoneDialString 操作将拨号字符串设置为 PlayOnPhone 操作（UM web 服务）和 PlayOnPhoneGreeting 操作（UM web 服务）的默认值。
-ms.openlocfilehash: 7df806eedc2d6d037394f31ec4ccbfe28aaf3372
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SetPlayOnPhoneDialString 操作将拨号串设置为用作 PlayOnPhone 操作 (UM Web 服务) 和 PlayOnPhoneGreeting 操作 (UM Web 服务) 的默认值。
+ms.openlocfilehash: 89f83d7b0a1d56cb0adeccbf4fa0bb67f1197253
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458640"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59531907"
 ---
-# <a name="setplayonphonedialstring-operation-um-web-service"></a>SetPlayOnPhoneDialString 操作（UM web 服务）
+# <a name="setplayonphonedialstring-operation-um-web-service"></a>SetPlayOnPhoneDialString 操作（UM Web 服务）
 
-SetPlayOnPhoneDialString 操作将拨号字符串设置为[PlayOnPhone 操作（um web 服务）](playonphone-operation-um-web-service.md)和[PLAYONPHONEGREETING 操作（um web 服务）](playonphonegreeting-operation-um-web-service.md)的默认值。
+SetPlayOnPhoneDialString 操作将拨号串设置为用作 [PlayOnPhone ](playonphone-operation-um-web-service.md) 操作 (UM Web 服务) 和 [PlayOnPhoneGreeting ](playonphonegreeting-operation-um-web-service.md)操作 (UM Web 服务) 的默认值。
   
 ## <a name="setplayonphonedialstring-request-example"></a>SetPlayOnPhoneDialString 请求示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-以下示例的 SetPlayOnPhoneDialString 请求显示如何形成请求以设置邮箱的默认拨号字符串。
+SetPlayOnPhoneDialString 请求的以下示例显示如何形成设置邮箱的默认拨号字符串的请求。
   
 ### <a name="code"></a>代码
 
@@ -43,9 +43,9 @@ SetPlayOnPhoneDialString 操作将拨号字符串设置为[PlayOnPhone 操作（
 
 ## <a name="successful-setplayonphonedialstring-response-example"></a>成功的 SetPlayOnPhoneDialString 响应示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-下面的 SetPlayOnePhoneDialString 响应示例显示对 SetPlayOnPhoneDialString 请求的响应。
+SetPlayOnePhoneDialString 响应的以下示例显示对 SetPlayOnPhoneDialString 请求的响应。
   
 ### <a name="code"></a>代码
 
@@ -62,9 +62,9 @@ SetPlayOnPhoneDialString 操作将拨号字符串设置为[PlayOnPhone 操作（
 
 
 
-[SetPlayOnPhoneDialString （UM web 服务）](setplayonphonedialstring-um-web-service.md)
+[SetPlayOnPhoneDialString（UM Web 服务）](setplayonphonedialstring-um-web-service.md)
   
-[SetPlayOnPhoneDialStringResponse （UM web 服务）](setplayonphonedialstringresponse-um-web-service.md)
+[SetPlayOnPhoneDialStringResponse（UM Web 服务）](setplayonphonedialstringresponse-um-web-service.md)
   
-[dialString （UM web 服务）](dialstring-um-web-service.md)
+[dialString（UM Web 服务）](dialstring-um-web-service.md)
 

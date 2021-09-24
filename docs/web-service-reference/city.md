@@ -1,27 +1,27 @@
 ---
-title: 市/县
+title: 城市
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - City
 api_type:
 - schema
 ms.assetid: 7497777e-4e0a-4d1d-9ea7-caf63ec415da
 description: City 元素表示与联系人关联的城市名称。
-ms.openlocfilehash: 59d8dd44bbad055afb1ae973ae64313e8ed5cbfb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 35a96ab50f2d0a4b8f1e2d94da4dc4a9c262b13c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460202"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512084"
 ---
-# <a name="city"></a>市/县
+# <a name="city"></a>城市
 
-**City**元素表示与联系人关联的城市名称。 
+**City** 元素表示与联系人关联的城市名称。 
   
 ```xml
 <City/>
@@ -44,11 +44,11 @@ ms.locfileid: "44460202"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[条目（PhysicalAddress）](entry-physicaladdress.md) <br/> |描述联系人项目的单个物理地址。  <br/> |
+|[Entry (PhysicalAddress)](entry-physicaladdress.md) <br/> |描述联系人项目的单个物理地址。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-Text 值是一个 string 值，它代表城市的名称。
+文本值是一个字符串值，表示城市的名称。
   
 ## <a name="remarks"></a>说明
 

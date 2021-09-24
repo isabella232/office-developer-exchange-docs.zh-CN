@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsTeamTask
 api_type:
 - schema
 ms.assetid: af0095da-e5bb-4138-a01c-c203f1a5a33f
-description: IsTeamTask 元素指示任务是否归工作组所有。
-ms.openlocfilehash: 27b5efbac028dbe7cf5858b198e3a33f9f6cdc86
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: IsTeamTask 元素指示任务是否归团队所有。
+ms.openlocfilehash: aa644bd812f046bc708f9839a70d088468d558be
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468444"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529781"
 ---
 # <a name="isteamtask"></a>IsTeamTask
 
-**IsTeamTask**元素指示任务是否归工作组所有。 
+**IsTeamTask** 元素指示任务是否归团队所有。 
   
 ```xml
 <IsTeamTask/>
@@ -48,7 +48,7 @@ ms.locfileid: "44468444"
    
 ## <a name="text-value"></a>文本值
 
-该文本值表示一个布尔值，该值指示任务是否归工作组所有。 这是一个只读属性。
+文本值表示一个布尔值，该值指示任务是否归团队所有。 这是一个只读属性。
   
 ## <a name="remarks"></a>说明
 

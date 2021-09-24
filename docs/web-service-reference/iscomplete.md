@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsComplete
 api_type:
 - schema
 ms.assetid: 5331f0a8-51b2-46e1-a07b-a2358f2d5ab0
 description: IsComplete 元素指示任务是否已完成。
-ms.openlocfilehash: cad2bd1972c71e4cc63991567fb5db7e91529cb4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 04584d09b74dfb00203de7873f8416b8c384067c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465532"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541019"
 ---
 # <a name="iscomplete"></a>IsComplete
 
-**IsComplete**元素指示任务是否已完成。 
+**IsComplete** 元素指示任务是否已完成。 
   
 ```xml
 <IsComplete/>
@@ -48,7 +48,7 @@ ms.locfileid: "44465532"
    
 ## <a name="text-value"></a>文本值
 
-Text 值是一个布尔值，指示任务是否已完成。
+文本值是一个布尔值，指示任务是否已完成。
   
 ## <a name="remarks"></a>说明
 

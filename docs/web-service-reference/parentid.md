@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bb7aaa46-3a04-4197-aebb-8881ff10603f
-description: ParentId 元素指定搜索预览中的父项的标识符。
-ms.openlocfilehash: e09b5f9e463c7ecdfc595c87a84584f69cab3f2c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ParentId 元素指定搜索预览中父项的标识符。
+ms.openlocfilehash: cbef7b9419af8821f830a77a6f8e295375c975d5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529019"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519266"
 ---
 # <a name="parentid"></a>ParentId
 
-**ParentId**元素指定搜索预览中的父项的标识符。 
+**ParentId** 元素指定搜索预览中父项的标识符。 
   
 ```XML
 <ParentId Id="" ChangeKey=""/>
@@ -33,8 +33,8 @@ ms.locfileid: "44529019"
 
 |**属性**|**说明**|
 |:-----|:-----|
-|Id  <br/> |**Id**属性的文本值是父项的标识符。  <br/> |
-|ChangeKey  <br/> |**ChangeKey**属性的文本值是父项的更改键。  <br/> |
+|Id  <br/> |**Id** 属性的文本值是父项的标识符。  <br/> |
+|ChangeKey  <br/> |**ChangeKey** 属性的文本值是父项目的更改键。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -44,7 +44,7 @@ ms.locfileid: "44529019"
 
 [SearchPreviewItem](searchpreviewitem.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

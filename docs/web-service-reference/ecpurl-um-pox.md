@@ -1,32 +1,32 @@
 ---
-title: EcpUrl-um （POX）
+title: EcpUrl-um (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 455c77c6-c03f-49a7-a8ca-aa0023b6e73b
-description: EcpUrl 元素指定一个部分 URL，该 URL 可以与 EcpUrl （POX）元素的值结合使用，以生成一个 URL，该 url 可用于访问启用邮件的用户的语音邮件设置。
-ms.openlocfilehash: 0fa3d42113d7d9accd6bba3d3b065477baf4d484
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: EcpUrl-um 元素指定可以与 EcpUrl (POX) 元素的值组合的部分 URL，以生成可用于访问启用邮件的用户的语音邮件设置的 URL。
+ms.openlocfilehash: 33037765750581f20bd993254fed83e202e538a9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463487"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528650"
 ---
-# <a name="ecpurl-um-pox"></a>EcpUrl-um （POX）
+# <a name="ecpurl-um-pox"></a>EcpUrl-um (POX)
 
-**EcpUrl**元素指定一个部分 url，该 url 可以与[EcpUrl （POX）](ecpurl-pox.md)元素的值结合使用，以生成一个 url，该 url 可用于访问启用邮件的用户的语音邮件设置。 
+**EcpUrl-um** 元素指定可以与 [EcpUrl (POX)](ecpurl-pox.md)元素的值组合的部分 URL，以生成可用于访问启用邮件的用户的语音邮件设置的 URL。 
   
-[自动发现（POX）](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[响应（POX）](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[帐户（POX）](account-pox.md)
+[Account (POX)](account-pox.md)
   
-[协议（POX）](protocol-pox.md)
+[Protocol (POX)](protocol-pox.md)
   
-[EcpUrl-um （POX）](ecpurl-um-pox.md)
+[EcpUrl-um (POX)](ecpurl-um-pox.md)
   
 ```XML
 <EcpUrl-um/>
@@ -48,19 +48,19 @@ ms.locfileid: "44463487"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[协议（POX）](protocol-pox.md) <br/> |包含将客户端连接到运行 Microsoft Exchange Server 且安装了客户端访问服务器角色的计算机的规范。  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |包含用于将客户端连接到运行已安装客户端访问服务器角色Microsoft Exchange Server的计算机的规范。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-Text 值表示一个可与[EcpUrl （POX）](ecpurl-pox.md)元素的值结合使用的部分 url，以生成可用于访问用户的语音邮件设置的 URL。 
+文本值表示可以与 [EcpUrl (POX) ](ecpurl-pox.md) 元素的值组合的部分 URL，以生成可用于访问用户的语音邮件设置的 URL。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-**EcpUrl**元素是**Protocol**元素的可选子元素。 
+**EcpUrl-um** 元素是 Protocol 元素的可选 **子** 元素。 
   
 ## <a name="see-also"></a>另请参阅
 
 
 
-[Exchange 的 POX 自动发现 XML 元素](pox-autodiscover-xml-elements-for-exchange.md)
+[用于存储的 POX 自动发现 XML Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

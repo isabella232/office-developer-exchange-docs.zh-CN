@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fef0db2a-f126-4a38-b433-64194b22eab4
-description: MaxItemsToReturn 元素标识要在 GetConversationItems 响应中返回的最大对话项目数。
-ms.openlocfilehash: 5d3c509a35c3b7abc42fc7e0ec0d8447eaf5a977
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: MaxItemsToReturn 元素标识 GetConversationItems 响应中要返回的对话项目的最大数目。
+ms.openlocfilehash: c3f0e2f27c5d43dd388d191daf85328d73d278b8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466337"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519273"
 ---
 # <a name="maxitemstoreturn"></a>MaxItemsToReturn
 
-**MaxItemsToReturn**元素标识要在**GetConversationItems**响应中返回的最大对话项目数。 
+**MaxItemsToReturn** 元素标识 **GetConversationItems** 响应中要返回的对话项目的最大数目。 
   
 ```XML
 <MaxItemsToReturn></MaxItemsToReturn>
@@ -42,9 +42,9 @@ ms.locfileid: "44466337"
   
 ## <a name="text-value"></a>文本值
 
-**MaxItemsToReturn**元素的文本值是响应中返回的最大对话项目数。 
+**MaxItemsToReturn** 元素的文本值是在响应中返回的对话项目的最大数目。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

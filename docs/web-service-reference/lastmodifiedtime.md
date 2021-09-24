@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - LastModifiedTime
 api_type:
 - schema
 ms.assetid: 6db2cabc-e7f4-4d71-962b-789de6a192a4
-description: LastModifiedTime 元素指示项目的上次修改时间。 此元素是只读的。
-ms.openlocfilehash: 82130cbf211d5e8ac63ae8c290ea7a539582ccb7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: LastModifiedTime 元素指示上次修改项目的时间。 此元素是只读的。
+ms.openlocfilehash: aa511b29072c8d3aa1401d7b9011854249c85d80
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459831"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519398"
 ---
 # <a name="lastmodifiedtime"></a>LastModifiedTime
 
-**LastModifiedTime**元素指示项目的上次修改时间。 此元素是只读的。 
+**LastModifiedTime** 元素指示上次修改项目的时间。 此元素是只读的。 
   
 ```xml
 <LastModifiedTime/>
@@ -47,9 +47,9 @@ ms.locfileid: "44459831"
 |[CalendarItem](calendaritem.md) <br/> |表示 Exchange 日历项。  <br/> |
 |[Contact](contact.md) <br/> |表示 Exchange 联系人项目。  <br/> |
 |[DistributionList](distributionlist.md) <br/> |表示通讯组列表。  <br/> |
-|[FileAttachment](fileattachment.md) <br/> |代表附加到 Exchange 存储中的项目的文件。  <br/> |
-|[项](item.md) <br/> |表示通用 Exchange 项。  <br/> |
-|[ItemAttachment](itemattachment.md) <br/> |表示附加到另一个 Exchange 项目的 Exchange 项目。  <br/> |
+|[FileAttachment](fileattachment.md) <br/> |表示附加到项目存储中的Exchange文件。  <br/> |
+|[项目](item.md) <br/> |表示常规Exchange项。  <br/> |
+|[ItemAttachment](itemattachment.md) <br/> |代表Exchange附加到其他项目的项目Exchange项。  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |表示 Exchange 存储中的会议取消。  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |表示 Exchange 存储中的会议。  <br/> |
 |[MeetingRequest](meetingrequest.md) <br/> |表示 Exchange 存储中的会议请求。  <br/> |
@@ -57,11 +57,11 @@ ms.locfileid: "44459831"
 |[Message](message-ex15websvcsotherref.md) <br/> |表示 Exchange 电子邮件。  <br/> |
 |[RemoveItem](removeitem.md) <br/> |从 Exchange 存储中删除一个项目。  <br/> |
 |[任务](task.md) <br/> |表示 Exchange 存储中的任务。  <br/> |
-|[PostItem](postitem.md) <br/> |表示 Exchange 存储中的公告项。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
+|[PostItem](postitem.md) <br/> |表示应用商店中的Exchange项。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-Text 值表示最后一个用户修改项的时间。
+文本值表示最后一个用户修改项目的时间。
   
 ## <a name="remarks"></a>说明
 

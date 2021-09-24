@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1e10ca10-3cf6-4f84-92f1-61eaa277f83a
-description: TTYTDDPhoneNumbers 元素为关联角色指定 TTY 或 TDD 文本电话号码的数组以及其源归属的标识符。
-ms.openlocfilehash: 2a68953537b2f1e1e9a60da8f41c98024451ea36
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: TTYTDDPhoneNumbers 元素指定 TTY 或 TDD 文本电话号码的数组及其关联人物的源属性的标识符。
+ms.openlocfilehash: 087e3560515f65135cc6db84febb129e293f6386
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457065"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59527225"
 ---
 # <a name="ttytddphonenumbers"></a>TTYTDDPhoneNumbers
 
-**TTYTDDPhoneNumbers**元素为关联角色指定 TTY 或 TDD 文本电话号码的数组以及其源归属的标识符。 
+**TTYTDDPhoneNumbers** 元素指定 TTY 或 TDD 文本电话号码的数组，以及关联人物的源属性的标识符。 
   
 ```XML
 <TTYTDDPhoneNumbers>
@@ -42,7 +42,7 @@ ms.locfileid: "44457065"
 
 [角色](persona.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

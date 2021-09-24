@@ -1,23 +1,23 @@
 ---
-title: 电话
+title: 电话版
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: ITPro
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9381d8e0-b705-49fd-a822-00fb485bdbab
-description: Phone 元素指定通过联系人实体提取产生的单个电话号码。
-ms.openlocfilehash: 7b0047eda90f2e2bb94fd7d0b8d317715ac5d2c9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: the 电话 element specifies a single phone number that results from a contact entity extraction.
+ms.openlocfilehash: fa9e0be88c2142b30304c3c5b758624fa73da7d1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459705"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528358"
 ---
-# <a name="phone"></a>电话
+# <a name="phone"></a>电话版
 
-**Phone**元素指定通过联系人实体提取产生的单个电话号码。 
+the **电话** element specifies a single phone number that results from a contact entity extraction. 
   
 ```XML
 <Phone>
@@ -38,13 +38,13 @@ ms.locfileid: "44459705"
   
 ### <a name="child-elements"></a>子元素
 
-[Phonenumber.originalphonestring](originalphonestring.md)  | [Phonenumber.phonestring](phonestring.md)  | [类型（字符串）](type-string.md)
+[OriginalPhoneString](originalphonestring.md)  | [PhoneString](phonestring.md)  | [键入 (字符串) ](type-string.md)
   
 ### <a name="parent-elements"></a>父元素
 
-[PhoneNumbers （ArrayOfPhonesType）](phonenumbers-arrayofphonestype.md)
+[PhoneNumbers (ArrayOfPhonesType)](phonenumbers-arrayofphonestype.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

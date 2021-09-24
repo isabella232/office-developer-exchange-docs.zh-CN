@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: eb0a7897-c642-4c93-a238-be03128af54e
-description: SearchableMailboxes 元素包含从 GetSearchableMailboxes 请求返回的邮箱的数组。
-ms.openlocfilehash: 5de15e1c2ae4a587052f836b189651450a1e7482
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SearchableMailboxes 元素包含从 GetSearchableMailboxes 请求返回的邮箱数组。
+ms.openlocfilehash: 5d8b1f19a4d4e2e78ab4d4a251d3c7538ccdd9ff
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467443"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510839"
 ---
 # <a name="searchablemailboxes"></a>SearchableMailboxes
 
-**SearchableMailboxes**元素包含从**GetSearchableMailboxes**请求返回的邮箱的数组。 
+**SearchableMailboxes** 元素包含从 **GetSearchableMailboxes** 请求返回的邮箱数组。 
   
 ```XML
 <SearchableMailboxes>
@@ -42,7 +42,7 @@ ms.locfileid: "44467443"
 
 [GetSearchableMailboxesResponse](getsearchablemailboxesresponse.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

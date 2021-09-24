@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ResponseMessages
 api_type:
 - schema
 ms.assetid: 00878187-fac2-45b9-ba1c-df7ffac71089
 description: ResponseMessages 元素表示邮件提示响应邮件的列表。
-ms.openlocfilehash: 2db58029ead9332b832006bc81d751d77df54b07
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: fda62e93c8cc0c6eee6f97e360695eb9a690ba3c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465448"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518972"
 ---
 # <a name="responsemessages-arrayofmailtipsresponsemessagetype"></a>ResponseMessages (ArrayOfMailTipsResponseMessageType)
 
-**ResponseMessages**元素表示邮件提示响应邮件的列表。 
+**ResponseMessages** 元素表示邮件提示响应邮件的列表。 
   
 ```XML
 <ResponseMessages>
@@ -42,19 +42,19 @@ ms.locfileid: "44465448"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[MailTipsResponseMessageType](mailtipsresponsemessagetype.md) <br/> |代表 "邮件提示设置"。  <br/> |
+|[MailTipsResponseMessageType](mailtipsresponsemessagetype.md) <br/> |代表邮件提示设置。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GetMailTipsResponse](getmailtipsresponse.md) <br/> |表示[GetMailTips 操作](getmailtips-operation.md)的响应消息。  <br/> |
+|[GetMailTipsResponse](getmailtipsresponse.md) <br/> |表示 [GetMailTips 操作的响应邮件](getmailtips-operation.md)。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ConversationTopic
 api_type:
 - schema
 ms.assetid: 46cacf42-4039-4c8a-9b20-c42cdd9f2760
 description: ConversationTopic 元素表示对话主题。
-ms.openlocfilehash: 3f4f30acad2f5dd7d6fea25dda3ea4e39ddc2492
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 38b208b957d36a2b0c876b33ef5c64a443b2f393
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457597"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529208"
 ---
 # <a name="conversationtopic"></a>ConversationTopic
 
-**ConversationTopic**元素表示对话主题。 
+**ConversationTopic** 元素表示对话主题。 
   
 ```xml
 <ConversationTopic/>
@@ -57,16 +57,16 @@ ms.locfileid: "44457597"
 |[ReplyAllToItem](replyalltoitem.md) <br/> |包含对所有确定收件人的 Exchange 存储中的项的答复。  <br/> |
 |[ForwardItem](forwarditem.md) <br/> |包含要转发给收件人的 Exchange 存储区项。  <br/> |
 |[CancelCalendarItem](cancelcalendaritem.md) <br/> |表示用于取消会议的响应对象。  <br/> |
-|[PostItem](postitem.md) <br/> |表示 Exchange 存储中的公告项。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。  <br/> |
+|[PostItem](postitem.md) <br/> |表示应用商店中的Exchange项。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。  <br/> |
 |[对话 (ConversationType)](conversation-conversationtype.md) <br/> |表示单个对话。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-Text 值表示会话线程的主题。
+文本值表示对话线程的主题。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-对话主题通常是线程中的第一封电子邮件的主题。
+对话主题通常是线程中第一封电子邮件的主题。
   
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

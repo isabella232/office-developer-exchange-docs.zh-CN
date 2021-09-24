@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CopyItem
 api_type:
 - schema
 ms.assetid: ffb4c13e-e7ea-4e6b-87a0-509ce5371100
-description: CopyItem 元素定义一个请求，以在 Exchange 存储区中复制邮箱中的项目。
-ms.openlocfilehash: b9af1670fd580107de08ad3b950191399436388d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: CopyItem 元素定义复制邮件存储中邮箱Exchange请求。
+ms.openlocfilehash: 7f083f09a587b4788180711039e1cfdbbe6a10cd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458500"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529174"
 ---
 # <a name="copyitem"></a>CopyItem
 
-**CopyItem**元素定义一个请求，以在 Exchange 存储区中复制邮箱中的项目。 
+**CopyItem** 元素定义一个请求，以复制邮件存储中Exchange项目。 
   
 ```XML
 <CopyItem>
@@ -44,15 +44,15 @@ ms.locfileid: "44458500"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ToFolderId](tofolderid.md) <br/> |表示复制的项的目标文件夹。  <br/> |
-|[ItemIds](itemids.md) <br/> |包含要复制到[ToFolderId](tofolderid.md)元素所表示的文件夹中的已标识项的数组。  <br/> |
-|[ReturnNewItemIds](returnnewitemids.md) <br/> |指示响应中是否返回新项的项标识符。  <br/> |
+|[ToFolderId](tofolderid.md) <br/> |表示复制的项目的目标文件夹。  <br/> |
+|[ItemIds](itemids.md) <br/> |包含要复制到由 [ToFolderId](tofolderid.md) 元素表示的文件夹的已标识项目的数组。  <br/> |
+|[ReturnNewItemIds](returnnewitemids.md) <br/> |指示是否在响应中返回新项的项目标识符。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

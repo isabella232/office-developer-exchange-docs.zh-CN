@@ -1,22 +1,22 @@
 ---
-title: 文件扩展名（SOAP）
+title: FileExtension (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1864182b-26f1-444e-b697-a654c2f68982
-description: 文件扩展名元素表示文件扩展名。
-ms.openlocfilehash: a96a1eaa7339021188a768a980c13350be00e8ac
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: FileExtension 元素表示文件扩展名。
+ms.openlocfilehash: 437ef854861009fdfd23b5f01649591aed6a5b78
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461007"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518489"
 ---
-# <a name="fileextension-soap"></a>文件扩展名（SOAP）
+# <a name="fileextension-soap"></a>FileExtension (SOAP)
 
-**文件扩展名**元素表示文件扩展名。 
+**FileExtension** 元素表示文件扩展名。 
   
 ```XML
 <FileExtension/>
@@ -39,11 +39,11 @@ ms.locfileid: "44461007"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[SupportedFileExtensions （SOAP）](supportedfileextensions-soap.md) <br/> |包含文档共享位置中的文件扩展名的列表。  <br/> |
+|[SupportedFileExtensions (SOAP)](supportedfileextensions-soap.md) <br/> |包含文档共享位置中的文件扩展名列表。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**文件扩展名**元素的文本值是文档共享位置的有效文件扩展名。 
+**FileExtension** 元素的文本值是文档共享位置的有效文件扩展名。 
   
 ## <a name="element-information"></a>元素信息
 
@@ -61,7 +61,7 @@ ms.locfileid: "44461007"
 [GetUserSettings 操作 (SOAP)](getusersettings-operation-soap.md)
 
 
-[Exchange 的自动发现 web 服务参考](autodiscover-web-service-reference-for-exchange.md)
+[自动发现 Web 服务引用Exchange](autodiscover-web-service-reference-for-exchange.md)
   
 [Exchange 2013 的 SOAP 自动发现 XML 元素](soap-autodiscover-xml-elements-for-exchange-2013.md)
 

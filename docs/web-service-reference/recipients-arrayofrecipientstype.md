@@ -1,27 +1,27 @@
 ---
-title: 收件人（ArrayOfRecipientsType）
+title: Recipients (ArrayOfRecipientsType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Recipients
 api_type:
 - schema
 ms.assetid: f4b71403-cbae-4176-8b2e-3597048c057b
-description: 收件人元素表示接收邮件副本的收件人的集合。
-ms.openlocfilehash: 0e18152a8143b888ad27f48137c06613694f5713
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Recipients 元素表示接收邮件副本的收件人集合。
+ms.openlocfilehash: 232dbb88f54cb551f4f8017ff9d18049a4984783
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463872"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529540"
 ---
-# <a name="recipients-arrayofrecipientstype"></a>收件人（ArrayOfRecipientsType）
+# <a name="recipients-arrayofrecipientstype"></a>Recipients (ArrayOfRecipientsType)
 
-**收件人**元素表示接收邮件副本的收件人的集合。 
+**Recipients** 元素表示接收邮件副本的收件人集合。 
   
 ```XML
 <Recipients>
@@ -42,7 +42,7 @@ ms.locfileid: "44463872"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Mailbox](mailbox.md) <br/> |标识已启用邮件的 Active Directory 对象。  <br/> |
+|[Mailbox](mailbox.md) <br/> |标识启用邮件的 Active Directory 对象。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -54,7 +54,7 @@ ms.locfileid: "44463872"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

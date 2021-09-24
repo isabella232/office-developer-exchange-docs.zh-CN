@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ea0f0afc-32fe-46cb-8530-62a6ce9490f6
-description: IsOwner 元素指定指定的电子邮件用户是否为所有者。
-ms.openlocfilehash: 2dd085aba34052d95efd1e72edca7be4aba71155
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: IsOwner 元素指定指定的电子邮件用户是否是所有者。
+ms.openlocfilehash: 7e3baaf0f3fb2eac028117622eedd57088d71612
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466519"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541005"
 ---
 # <a name="isowner"></a>IsOwner
 
-**IsOwner**元素指定指定的电子邮件用户是否为所有者。 
+**IsOwner** 元素指定指定的电子邮件用户是否是所有者。 
   
 ```XML
 <IsOwner>true | false</IsOwner>
@@ -44,9 +44,9 @@ ms.locfileid: "44466519"
    
 ## <a name="text-value"></a>文本值
 
-如果**IsOwner**元素的文本值为**true** ，则表示用户是对项目颁发的权限的所有者。 如果值为**false** ，则表示用户不是对项目颁发的权限的所有者。 
+**IsOwner** 元素的文本值 **true** 表示用户是某个项目所颁发权限的所有者。 false **值表示** 用户不是对项目所颁发权限的所有者。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -58,7 +58,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

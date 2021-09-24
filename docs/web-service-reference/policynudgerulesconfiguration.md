@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e6f7c824-1284-4a65-a459-9fc22b66e30a
 description: PolicyNudgeRulesConfiguration 元素包含数据丢失防护配置数据。
-ms.openlocfilehash: dd801fe140dee66d153e388781f97254d1a2f2ef
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: ad0bee85bb9b03a3584baa39a2436c8ad68b7e4d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459607"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59527929"
 ---
 # <a name="policynudgerulesconfiguration"></a>PolicyNudgeRulesConfiguration
 
-**PolicyNudgeRulesConfiguration**元素包含数据丢失防护配置数据。 
+**PolicyNudgeRulesConfiguration** 元素包含数据丢失防护配置数据。 
   
 ```XML
 <PolicyNudgeRulesConfiguration></PolicyNudgeRulesConfiguration>
@@ -40,9 +40,9 @@ ms.locfileid: "44459607"
 
 [ServiceConfigurationResponseMessageType](serviceconfigurationresponsemessagetype.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-**PolicyNudgeRulesConfiguration**元素内容未定义为 Exchange Web Services 架构。 
+**PolicyNudgeRulesConfiguration** 元素内容未Exchange Web 服务架构。 
   
 Exchange Server 2013 中引入了此元素。
   

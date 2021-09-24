@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MaximumNonWorkHourResultsByDay
 api_type:
 - schema
 ms.assetid: 9fb7314d-779c-4b1f-9d7c-b5cb092ed134
-description: MaximumNonWorkHourResultsByDay 元素指定会议时间在每天的常规工作小时之外的建议结果数。
-ms.openlocfilehash: 410d6bd84838d979af6bc53ca47f445ae55a09e6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: MaximumNonWorkHourResultsByDay 元素指定每天常规工作时间以外的会议时间的建议结果数。
+ms.openlocfilehash: e5fc7be91b8551215d14783d4d7640a722d50968
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465497"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511150"
 ---
 # <a name="maximumnonworkhourresultsbyday"></a>MaximumNonWorkHourResultsByDay
 
-**MaximumNonWorkHourResultsByDay**元素指定会议时间在每天的常规工作小时之外的建议结果数。 
+**MaximumNonWorkHourResultsByDay** 元素指定每天正常工作时间以外的会议时间的建议结果数。 
   
 [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
@@ -50,7 +50,7 @@ ms.locfileid: "44465497"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |包含用于获取会议建议信息的选项。  <br/> 以下是此元素的 XPath：  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
+|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |包含用于获取会议建议信息的选项。  <br/> 下面是此元素的 XPath：  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
    
 ## <a name="text-value"></a>文本值
 
@@ -58,7 +58,7 @@ ms.locfileid: "44465497"
   
 ## <a name="remarks"></a>说明
 
-如果使用[SuggestionsViewOptions](suggestionsviewoptions.md)元素，则此元素是必需的。 
+如果使用 [SuggestionsViewOptions](suggestionsviewoptions.md) 元素，则此元素是必需的。 
   
 > [!NOTE]
 > 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。 

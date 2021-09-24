@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FindConversation
 api_type:
 - schema
 ms.assetid: 2384908a-c203-45b6-98aa-efd6a4c23aac
 description: FindConversation 操作枚举文件夹中的对话列表。
-ms.openlocfilehash: ef768807431ff3e02c6af7277c1c2a750607ed92
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: e3fed534127a976897e33bd266188d01aff6354c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462652"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59530526"
 ---
 # <a name="findconversation-operation"></a>FindConversation 操作
 
-**FindConversation**操作枚举文件夹中的对话列表。 
+**FindConversation** 操作枚举文件夹中的对话列表。 
   
 ## <a name="findconversation-request-example"></a>FindConversation 请求示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-以下示例的**FindConversation**请求显示如何在 "收件箱" 文件夹中形成查找第一个对话的请求。 
+**FindConversation** 请求的以下示例显示如何形成请求以查找"收件箱"文件夹中的第一个对话。 
   
 ### <a name="code"></a>代码
 
@@ -52,9 +52,9 @@ ms.locfileid: "44462652"
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Request 元素
+### <a name="request-elements"></a>请求元素
 
-请求中使用以下元素：
+请求中会使用下列元素：
   
 - [RequestServerVersion](requestserverversion.md)
     
@@ -68,9 +68,9 @@ ms.locfileid: "44462652"
     
 ## <a name="successful-findconversation-response-example"></a>成功的 FindConversation 响应示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-下面的示例演示对**FindConversation**请求的成功响应。 
+以下示例显示了对 **FindConversation** 请求的成功响应。 
   
 ### <a name="code"></a>代码
 
@@ -148,11 +148,11 @@ ms.locfileid: "44462652"
 
 ### <a name="comment"></a>评论
 
-示例中的项和对话标识符已缩短，以保持可读性。
+示例中的项目和对话标识符已缩短，以保持可读性。
   
 ### <a name="successful-response-elements"></a>成功的响应元素
 
-响应中使用以下元素：
+响应中会使用下列元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -190,7 +190,7 @@ ms.locfileid: "44462652"
     
 - [UnreadCount](unreadcount.md)
     
-- [大小](size.md)
+- [尺寸](size.md)
     
 - [GlobalSize](globalsize.md)
     
@@ -212,9 +212,9 @@ ms.locfileid: "44462652"
     
 ## <a name="findconversation-error-response-example"></a>FindConversation 错误响应示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-下面的示例演示对由架构验证错误导致的**FindConversation**请求的错误响应。 
+以下示例显示对由架构验证错误导致的 **FindConversation** 请求的错误响应。 
   
 ### <a name="code"></a>代码
 
@@ -241,17 +241,17 @@ ms.locfileid: "44462652"
 
 ### <a name="error-response-elements"></a>错误响应元素
 
-错误响应中使用以下元素：
+错误响应中会使用下列元素：
   
 - faultcode
     
 - faultstring
     
-- 介绍
+- detail
     
 - [ResponseCode](responsecode.md)
     
-- 消息
+- 邮件
     
 - [MessageXml](messagexml.md)
     
@@ -259,7 +259,7 @@ ms.locfileid: "44462652"
     
 - LinePosition
     
-- 非法
+- 冲突
     
 ## <a name="see-also"></a>另请参阅
 
@@ -268,7 +268,7 @@ ms.locfileid: "44462652"
 [ApplyConversationAction 操作](applyconversationaction-operation.md)
 
 
-[Exchange 中的 EWS 操作](ews-operations-in-exchange.md)
+[EWS 操作在Exchange](ews-operations-in-exchange.md)
   
 - [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

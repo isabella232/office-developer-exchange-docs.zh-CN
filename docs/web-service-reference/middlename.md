@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MiddleName
 api_type:
 - schema
 ms.assetid: 279361e4-71b3-43b0-8106-d8f80416044b
-description: 称谓元素表示联系人的中间名。
-ms.openlocfilehash: 497c973fc312d1b51e87b14f4df21995a17eb2e9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: MiddleName 元素表示联系人的中间名。
+ms.openlocfilehash: a9f4f08828c4cbcaa930a5f517f1315f87b05506
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465798"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510909"
 ---
 # <a name="middlename"></a>MiddleName
 
-**称谓**元素表示联系人的中间名。 
+**MiddleName** 元素表示联系人的中间名。 
   
 ```xml
 <MiddleName/>
@@ -49,7 +49,7 @@ ms.locfileid: "44465798"
    
 ## <a name="text-value"></a>文本值
 
-一个表示联系人的中间名的字符串。
+一个代表联系人中间名的字符串。
   
 ## <a name="remarks"></a>说明
 

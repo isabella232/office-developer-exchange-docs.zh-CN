@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - RequestedConfiguration
 api_type:
 - schema
 ms.assetid: 24921387-f676-49e6-8d7a-ef3115024866
 description: RequestedConfiguration 元素包含请求的服务配置。
-ms.openlocfilehash: bbc503e6d6f7c56c785365924106bc2468965d0b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 90279503e9db6a7bfffc111489442d58f51f6538
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457149"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518993"
 ---
 # <a name="requestedconfiguration"></a>RequestedConfiguration
 
-**RequestedConfiguration**元素包含请求的服务配置。 
+**RequestedConfiguration** 元素包含请求的服务配置。 
   
 ```XML
 <RequestedConfiguration>
@@ -54,7 +54,7 @@ ms.locfileid: "44457149"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

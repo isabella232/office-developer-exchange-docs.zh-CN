@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e74b4a03-45b0-469c-8889-c7cc5aa88a68
-description: SentTime 元素指定发送项目的时间。
-ms.openlocfilehash: 51404b1fe12cf31f935740dd4afe3deaab0777de
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SentTime 元素指定项目的发送时间。
+ms.openlocfilehash: dd7f80c51be9ceeabdd9bb648b27d3b4f2b7c77f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463165"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532123"
 ---
 # <a name="senttime"></a>SentTime
 
-**SentTime**元素指定发送项目的时间。 
+**SentTime** 元素指定项目的发送时间。 
   
 ```XML
 <SentTime></SentTime>
@@ -42,9 +42,9 @@ ms.locfileid: "44463165"
   
 ## <a name="text-value"></a>文本值
 
-**SentTime**元素的文本值是发送项目的日期和时间。 
+**SentTime** 元素的文本值是发送项目的日期和时间。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - StartDate
 api_type:
 - schema
 ms.assetid: 2ed85fff-0358-48ef-b7f5-90d06cd8d8c4
-description: 起始日期元素表示项目的开始日期。
-ms.openlocfilehash: fcf7ee628872064e71b38e6c3849be1317bc2bb0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: StartDate 元素表示项目的开始日期。
+ms.openlocfilehash: 877460c05598f4ddadd0e185232c2d1afec0235a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459004"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59531675"
 ---
 # <a name="startdate"></a>StartDate
 
-**起始**日期元素表示项目的开始日期。 
+**StartDate** 元素表示项目的开始日期。 
   
 ```xml
 <StartDate/>
@@ -50,7 +50,7 @@ ms.locfileid: "44459004"
    
 ## <a name="text-value"></a>文本值
 
-该文本值表示任务的开始日期。
+文本值表示任务的开始日期。
   
 ## <a name="remarks"></a>说明
 

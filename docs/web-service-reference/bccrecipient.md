@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - BccRecipient
 api_type:
 - schema
 ms.assetid: 4ef0cff5-8a5a-4d76-9d2b-938774d8fc1b
-description: BccRecipient 元素表示接收电子邮件的密件抄送（Bcc）的收件人。
-ms.openlocfilehash: 8296af1d74338bdfb1f4cb7bc7449ad91a9cd531
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: BccRecipient 元素表示接收密件抄送邮件 (密) 密件抄送邮件的收件人。
+ms.openlocfilehash: 178606d9c27becbf6fea5e7a9a694fb67feadc49
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461525"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59526863"
 ---
 # <a name="bccrecipient"></a>BccRecipient
 
-**BccRecipient**元素表示接收电子邮件的密件抄送（Bcc）的收件人。 
+**BccRecipient** 元素表示接收密件抄送邮件 (密) 密件抄送邮件的收件人。 
   
 ```XML
 <BccRecipient>true | false</BccRecipient>
@@ -48,7 +48,7 @@ ms.locfileid: "44461525"
    
 ## <a name="text-value"></a>文本值
 
-此元素可以是**true** ，也可以是**false**。 **如果值为 true** ，则表示收件人已复制密件抄送;**如果值为 false** ，则表示收件人不复制密件抄送。 
+此元素可以是 **true** 或 **false**。 如果值为 **true，** 则表明收件人是已复制的收件人;false **值表示** 收件人不是复制的盲。 
   
 ## <a name="remarks"></a>说明
 

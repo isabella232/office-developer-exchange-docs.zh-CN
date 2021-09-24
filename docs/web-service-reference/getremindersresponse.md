@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1b1c7288-2a98-4142-8961-4d2ebca5c37c
 description: GetRemindersResponse 元素指定对 GetReminders 请求的响应。
-ms.openlocfilehash: 4e4d6a662d2b734b8bb93e3dd4b325bf6e46a6fc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 0ddabd8eb617713ada5aeef7bbc4aa504ba3cce3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458290"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518349"
 ---
 # <a name="getremindersresponse"></a>GetRemindersResponse
 
-**GetRemindersResponse**元素指定对**GetReminders**请求的响应。 
+**GetRemindersResponse** 元素指定对 **GetReminders** 请求的响应。 
   
 ```XML
 <GetRemindersResponse>
@@ -43,7 +43,7 @@ ms.locfileid: "44458290"
 
 [ResponseMessages](responsemessages.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

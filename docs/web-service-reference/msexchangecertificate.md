@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c514f22f-be3e-4cad-ac56-bdff6bafcee6
-description: MSExchangeCertificate 元素包含一个对联系人的 Microsoft Exchange 证书进行编码的值。
-ms.openlocfilehash: 60bbcfb45e52dc92140d03cdd24a251ea84217b1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: MSExchangeCertificate 元素包含一个值，该值对联系人的 Microsoft Exchange证书进行编码。
+ms.openlocfilehash: 14993f2a1067334bba5c8980bc57eaff550f09d0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465672"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529783"
 ---
 # <a name="msexchangecertificate"></a>MSExchangeCertificate
 
-**MSExchangeCertificate**元素包含一个对联系人的 Microsoft Exchange 证书进行编码的值。 
+**MSExchangeCertificate** 元素包含一个值，该值对联系人Exchange Microsoft 证书进行编码。 
   
 ```XML
 <MSExchangeCertificate/>
@@ -48,7 +48,7 @@ ms.locfileid: "44465672"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

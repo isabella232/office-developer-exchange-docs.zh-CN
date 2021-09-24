@@ -5,38 +5,38 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SetUserOofSettings
 api_type:
 - schema
 ms.assetid: 36277ef0-18ee-4b35-9e6e-8c321d8f5433
-description: SetUserOofSettings Web 方法设置邮箱用户的外出（OOF）设置和邮件。
-ms.openlocfilehash: 88b5475dd2f0fe6d334bad51a0fe8d0beb767634
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SetUserOofSettings Web 方法设置邮箱用户的"外出Office (OOF) 设置和邮件。
+ms.openlocfilehash: 21a860b2a1ae4a660e08554d7d67049c1ae0d858
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463151"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59531872"
 ---
 # <a name="setuseroofsettings-operation"></a>SetUserOofSettings 操作
 
-**SetUserOofSettings** Web 方法设置邮箱用户的外出（OOF）设置和邮件。 
+**SetUserOofSettings** Web 方法设置邮箱用户的"外出Office (OOF) 设置和邮件。 
   
 ## <a name="soap-headers"></a>SOAP 标头
 
-**SetUserOofSettings**操作可以使用下表中列出和描述的 SOAP 标头。 
+**SetUserOofSettings** 操作可以使用下表中列出和描述的 SOAP 标头。 
   
 |**Header**|**元素**|**说明**|
 |:-----|:-----|:-----|
-|模拟  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |标识客户端应用程序模拟的用户。  <br/> |
-|ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器版本。  <br/> |
+|模拟  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |标识客户端应用程序正在模拟的用户。  <br/> |
+|ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器的版本。  <br/> |
    
 ## <a name="setuseroofsettings-request-example"></a>SetUserOofSettings 请求示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-以下示例的**SetUserOofSettings**请求将 OOF 设置设置为10天。 
+**SetUserOofSettings** 请求的以下示例将 OOF 设置设置为 10 天。 
   
 ### <a name="code"></a>代码
 
@@ -69,17 +69,17 @@ ms.locfileid: "44463151"
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Request 元素
+### <a name="request-elements"></a>请求元素
 
-请求中使用以下元素：
+请求中会使用下列元素：
   
 - [SetUserOofSettingsRequest](setuseroofsettingsrequest.md)
     
-- [邮箱（可用性）](mailbox-availability.md)
+- [Mailbox (Availability)](mailbox-availability.md)
     
-- [名称（EmailAddress）](name-emailaddress.md)
+- [Name (EmailAddress)](name-emailaddress.md)
     
-- [Address （string）](address-string.md)
+- [Address (string)](address-string.md)
     
 - [RoutingType (EmailAddress)](routingtype-emailaddress.md)
     
@@ -89,7 +89,7 @@ ms.locfileid: "44463151"
     
 - [ExternalAudience](externalaudience.md)
     
-- [持续时间（UserOofSettings）](duration-useroofsettings.md)
+- [Duration (UserOofSettings)](duration-useroofsettings.md)
     
 - [StartTime](starttime.md)
     
@@ -97,15 +97,15 @@ ms.locfileid: "44463151"
     
 - [InternalReply](internalreply.md)
     
-- [邮件（可用性）](message-availability.md)
+- [Message (Availability)](message-availability.md)
     
 - [ExternalReply](externalreply.md)
     
 ## <a name="successful-setuseroofsettings-response-example"></a>成功的 SetUserOofSettings 响应示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-下面的示例演示对**SetUserOofSettings**请求的成功响应。 
+以下示例显示对 **SetUserOofSettings** 请求的成功响应。 
   
 ### <a name="code"></a>代码
 
@@ -129,7 +129,7 @@ ms.locfileid: "44463151"
 
 ### <a name="successful-response-elements"></a>成功的响应元素
 
-响应中使用以下元素：
+响应中会使用下列元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     

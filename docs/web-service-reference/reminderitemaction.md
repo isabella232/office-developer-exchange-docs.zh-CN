@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fe67512c-5b15-4f07-8628-74cf873c2d71
-description: ReminderItemAction 元素指定提醒项目的操作。
-ms.openlocfilehash: 60722235ed3e73e6a9923df8d3c63a6fc123599a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ReminderItemAction 元素指定提醒项的操作。
+ms.openlocfilehash: 7cd6898bb44ecd442a02f162008225d904396ba0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466225"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512462"
 ---
 # <a name="reminderitemaction"></a>ReminderItemAction
 
-**ReminderItemAction**元素指定提醒项目的操作。 
+**ReminderItemAction** 元素指定提醒项的操作。 
   
 ```XML
 <ReminderItemAction>
@@ -38,13 +38,13 @@ ms.locfileid: "44466225"
   
 ### <a name="child-elements"></a>子元素
 
-[ActionType （ReminderActionType）](actiontype-reminderactiontype.md)  | [ItemId](itemid.md)  | [NewReminderTime](newremindertime.md)
+[ActionType (ReminderActionType) ](actiontype-reminderactiontype.md)  | [ItemId](itemid.md)  | [NewReminderTime](newremindertime.md)
   
 ### <a name="parent-elements"></a>父元素
 
 [ReminderItemActions](reminderitemactions.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

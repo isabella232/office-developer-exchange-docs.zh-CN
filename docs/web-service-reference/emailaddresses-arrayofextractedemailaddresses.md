@@ -1,23 +1,23 @@
 ---
-title: EmailAddresses （ArrayOfExtractedEmailAddresses）
+title: EmailAddresses (ArrayOfExtractedEmailAddresses)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2c1996b7-a711-416a-9792-998290a87835
-description: EmailAddresses 元素指定一组已提取的电子邮件地址。
-ms.openlocfilehash: 2a93829d5079b5b71af7bb29124ed03ac929ab1b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: EmailAddresses 元素指定提取的电子邮件地址数组。
+ms.openlocfilehash: bc2410eca7301ca663b4a0b4ed24d874a69e817a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456183"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528643"
 ---
-# <a name="emailaddresses-arrayofextractedemailaddresses"></a>EmailAddresses （ArrayOfExtractedEmailAddresses）
+# <a name="emailaddresses-arrayofextractedemailaddresses"></a>EmailAddresses (ArrayOfExtractedEmailAddresses)
 
-**EmailAddresses**元素指定一组已提取的电子邮件地址。 
+**EmailAddresses** 元素指定提取的电子邮件地址数组。 
   
 ```XML
 <EmailAddresses>
@@ -36,13 +36,13 @@ ms.locfileid: "44456183"
   
 ### <a name="child-elements"></a>子元素
 
-[EmailAddress （字符串）](emailaddress-string.md)
+[EmailAddress (string)](emailaddress-string.md)
   
 ### <a name="parent-elements"></a>父元素
 
-[Contact （ContactType）](contact-contacttype.md)
+[Contact (ContactType)](contact-contacttype.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

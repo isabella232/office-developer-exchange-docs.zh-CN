@@ -1,27 +1,27 @@
 ---
-title: 时区（项目）
+title: TimeZone (Item)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - TimeZone
 api_type:
 - schema
 ms.assetid: aa49074a-50ca-4959-bee2-6ab90ef2f26e
-description: "\"时区\" 元素提供了时区的文本说明。"
-ms.openlocfilehash: ba5b006804c66b32781d3e48d88e95ab36c09617
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: TimeZone 元素提供时区的文本说明。
+ms.openlocfilehash: 5a44e1abe7ef709803c49f3b8e43246a33ac681f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465140"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59527284"
 ---
-# <a name="timezone-item"></a>时区（项目）
+# <a name="timezone-item"></a>TimeZone (Item)
 
-"**时区**" 元素提供了时区的文本说明。 
+**TimeZone** 元素提供时区的文本说明。 
   
 ```xml
 <TimeZone/>
@@ -49,7 +49,7 @@ ms.locfileid: "44465140"
    
 ## <a name="text-value"></a>文本值
 
-Text 值描述时区。 此属性是只读的。
+文本值描述时区。 此属性是只读的。
   
 ## <a name="remarks"></a>说明
 

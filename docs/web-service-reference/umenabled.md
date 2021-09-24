@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UmEnabled
 api_type:
 - schema
 ms.assetid: 87382d9b-0c02-49ec-85dc-3f5918df3195
-description: UmEnabled 元素指示是否为帐户启用统一消息。
-ms.openlocfilehash: 7ba7be69868cb439177702f74ff4a2f12875b7ff
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: UmEnabled 元素指示是否对帐户启用统一消息。
+ms.openlocfilehash: 9ff6432324e3a15b9ae805a7d6d836c9c895059c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468353"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59527151"
 ---
 # <a name="umenabled"></a>UmEnabled
 
-**UmEnabled**元素指示是否为帐户启用统一消息。 
+**UmEnabled** 元素指示是否对帐户启用统一消息。 
   
 ```XML
 <UmEnabled>true | false</UmEnabled>
@@ -48,9 +48,9 @@ ms.locfileid: "44468353"
    
 ## <a name="text-value"></a>文本值
 
-如果为帐户启用了统一消息，则**UmEnabled**元素的文本值为**true** ; 否则为 false。否则，该值为**false**。
+如果为帐户启用了统一 **消息，则 UmEnabled** 元素的文本值为 true; 否则，值为 **false**。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素是必需的。
   

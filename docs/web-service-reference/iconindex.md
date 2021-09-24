@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 92020822-2a86-4dfc-aee1-3067af4d4edf
 description: IconIndex 元素标识项目或对话的图标索引。
-ms.openlocfilehash: 0f932f5632422a8786e74500bf83cb1337f780c3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: f0c024eeedcbda9aa5ad8afdea09a68f2499798e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460783"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541159"
 ---
 # <a name="iconindex"></a>IconIndex
 
-**IconIndex**元素标识项目或对话的图标索引。 
+**IconIndex** 元素标识项目或对话的图标索引。 
   
 ```XML
 <IconIndex>Default | PostItem | MailRead | MailUnread | MailReplied | MailForwarded | MailEncrypted | MailSmimeSigned | MailEncrytedReplied | MailSmimeSignedReplied | MailEncryptedForwarded | MailSmimeSignedForwarded | MailEncryptedRead | MailSmimeSignedRead | MailIrm | MailIrmForwarded | MailIrmReplied | SmsSubmitted | SmsRoutedToDeliveryPoint | SmsRoutedToExternalMessagingSystem | SmsDelivered | OutlookDefaultForContacts | AppointmentItem | AppointmentRecur | AppointmentMeet | AppointmentMeetRecur | AppointmentMeetNY | AppointmentMeetYes | AppointmentMeetNo | AppointmentMeetMaybe | AppointmentMeetCancel | AppointmentMeetInfo | TaskItem | TaskRecur | TaskOwned | TaskDelegated</IconIndex>
@@ -38,53 +38,53 @@ ms.locfileid: "44460783"
   
 ### <a name="parent-elements"></a>父元素
 
-[对话（ConversationType）](conversation-conversationtype.md)  | [项](item.md)  | [联系人](contact.md)  | [DistributionList](distributionlist.md)  | [邮件](message-ex15websvcsotherref.md)  | [CalendarItem](calendaritem.md)  | [PostItem](postitem.md)  | [任务](task.md)
+[Conversation (ConversationType) ](conversation-conversationtype.md)  | [Item](item.md)  | [联系人](contact.md)  | [DistributionList](distributionlist.md)  | [邮件](message-ex15websvcsotherref.md)  | [CalendarItem](calendaritem.md)  | [PostItem](postitem.md)  | [任务](task.md)
   
 ## <a name="text-value"></a>文本值
 
-下表包含**IconIndex**元素的可能的文本值。 
+下表包含 **IconIndex** 元素的可能文本值。 
   
 |**值**|**说明**|
 |:-----|:-----|
 |||
-|默认  <br/> |指定默认图标。  <br/> |
-|PostItem  <br/> |指定公告项的图标。  <br/> |
-|MailRead  <br/> |指定邮件读取图标。  <br/> |
-|MailUnread  <br/> |指定 "未读邮件" 图标。  <br/> |
-|MailReplied  <br/> |指定 "答复邮件" 图标。  <br/> |
+|默认值  <br/> |指定默认图标。  <br/> |
+|PostItem  <br/> |指定发布项目的图标。  <br/> |
+|MailRead  <br/> |指定邮件阅读图标。  <br/> |
+|MailUnread  <br/> |指定未读邮件图标。  <br/> |
+|MailReplied  <br/> |指定答复的邮件图标。  <br/> |
 |MailForwarded  <br/> |指定转发的邮件图标。  <br/> |
 |MailEncrypted  <br/> |指定加密的邮件图标。  <br/> |
-|MailSmimeSigned  <br/> |指定 "安全/多用途 Internet 邮件扩展（S/MIME）" "签名邮件" 图标。  <br/> |
-|MailEncryptedReplied  <br/> |指定已加密答复邮件图标。  <br/> |
-|MailSmimeSignedReplied  <br/> |指定 S/MIME 签名答复邮件图标。  <br/> |
-|MailEncryptedForwarded  <br/> |指定加密的转发邮件图标。  <br/> |
-|MailSmimeSignedForwarded  <br/> |指定 S/MIME 签名的已转发邮件图标。  <br/> |
-|MailEncryptedRead  <br/> |指定加密的 "已读邮件" 图标。  <br/> |
+|MailSmimeSigned  <br/> |指定安全/多用途 Internet 邮件扩展 (S/MIME) 签名的邮件图标。  <br/> |
+|MailEncryptedReplied  <br/> |指定已加密答复的邮件图标。  <br/> |
+|MailSmimeSignedReplied  <br/> |指定答复邮件图标的 S/MIME 签名。  <br/> |
+|MailEncryptedForwarded  <br/> |指定加密转发的邮件图标。  <br/> |
+|MailSmimeSignedForwarded  <br/> |指定 S/MIME 签名转发的邮件图标。  <br/> |
+|MailEncryptedRead  <br/> |指定加密的阅读邮件图标。  <br/> |
 |MailSmimeSignedRead  <br/> |指定 S/MIME 签名的阅读邮件图标。  <br/> |
-|MailIrm  <br/> |指定信息权限管理（IRM）保护的邮件图标。  <br/> |
+|MailIrm  <br/> |指定受 IRM (邮件) 信息权限管理"  <br/> |
 |MailIrmForwarded  <br/> |指定受 IRM 保护的转发邮件图标。  <br/> |
-|MailIrmReplied  <br/> |指定受 IRM 保护的 "已答复邮件" 图标。  <br/> |
-|SmsSubmitted  <br/> |指定为短信服务（SMS）路由提交的图标邮件。  <br/> |
-|SmsRoutedToDeliveryPoint  <br/> |指定用于将 SMS 路由到外部传递点的图标。  <br/> |
-|SmsRoutedToExternalMessagingSystem  <br/> |指定用于将 SMS 路由到外部邮件系统的图标。  <br/> |
-|SmsDelivered  <br/> |指定 "发送短信邮件" 图标。  <br/> |
+|MailIrmReplied  <br/> |指定受 IRM 保护的已答复邮件图标。  <br/> |
+|SmsSubmitted  <br/> |指定为短信服务提交发送的图标邮件 (短信) 路由。  <br/> |
+|SmsRoutedToDeliveryPoint  <br/> |指定到外部传递点的短信路由图标。  <br/> |
+|SmsRoutedToExternalMessagingSystem  <br/> |指定到外部消息系统的短信路由图标。  <br/> |
+|SmsDelivered  <br/> |指定短信传递的邮件图标。  <br/> |
 |OutlookDefaultForContacts  <br/> |指定联系人的默认图标。  <br/> |
-|AppointmentItem  <br/> |指定约会项图标。  <br/> |
+|AppointmentItem  <br/> |指定约会项目图标。  <br/> |
 |AppointmentRecur  <br/> |指定定期约会图标。  <br/> |
 |AppointmentMeet  <br/> |指定会议图标。  <br/> |
 |AppointmentMeetRecur  <br/> |指定定期会议图标。  <br/> |
-|AppointmentMeetNY  <br/> |指定对会议的暂定响应的图标。  <br/> |
-|AppointmentMeetYes  <br/> |指定 "接受会议" 图标。  <br/> |
-|AppointmentMeetNo  <br/> |指定 "已拒绝会议" 图标。  <br/> |
-|AppointmentMeetMaybe  <br/> |指定可能响应会议的图标。  <br/> |
+|AppointmentMeetNY  <br/> |指定对会议暂定响应的图标。  <br/> |
+|AppointmentMeetYes  <br/> |指定会议接受图标。  <br/> |
+|AppointmentMeetNo  <br/> |指定会议拒绝图标。  <br/> |
+|AppointmentMeetMaybe  <br/> |指定会议可能响应的图标。  <br/> |
 |AppointmentMeetCancel  <br/> |指定会议取消图标。  <br/> |
-|AppointmentMeetInfo  <br/> |指定 "会议信息" 图标。  <br/> |
+|AppointmentMeetInfo  <br/> |指定会议信息图标。  <br/> |
 |TaskItem  <br/> |指定任务项图标。  <br/> |
 |TaskRecur  <br/> |指定定期任务图标。  <br/> |
-|TaskOwned  <br/> |指定任务拥有的图标。  <br/> |
-|TaskDelegated  <br/> |指定 "任务委派" 图标。  <br/> |
+|TaskOwned  <br/> |指定任务拥有图标。  <br/> |
+|TaskDelegated  <br/> |指定任务委派图标。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

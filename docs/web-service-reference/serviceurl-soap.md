@@ -1,22 +1,22 @@
 ---
-title: ServiceUrl （SOAP）
+title: ServiceUrl (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 70946a1a-a121-4b47-8e67-ccbc1a25b0f1
-description: ServiceUrl 元素表示文档共享 web 服务的 URL。
-ms.openlocfilehash: 14b553f53c9af3f746a111d6e48a443ba33646dc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ServiceUrl 元素表示文档共享 Web 服务的 URL。
+ms.openlocfilehash: a193732878de94b7ed1a807ee3fb42149ab4b6cf
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465770"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532062"
 ---
-# <a name="serviceurl-soap"></a>ServiceUrl （SOAP）
+# <a name="serviceurl-soap"></a>ServiceUrl (SOAP)
 
-**ServiceUrl**元素表示文档共享 web 服务的 URL。 
+**ServiceUrl** 元素表示文档共享 Web 服务的 URL。 
   
 ```XML
 <ServiceUrl />
@@ -39,11 +39,11 @@ ms.locfileid: "44465770"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[DocumentSharingLocation （SOAP）](documentsharinglocation-soap.md) <br/> |表示文档共享位置的位置和元数据信息。  <br/> |
+|[DocumentSharingLocation (SOAP)](documentsharinglocation-soap.md) <br/> |表示文档共享位置的位置和元数据信息。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**ServiceUrl**元素的文本值是文档共享 web 服务的 URL。 
+**ServiceUrl** 元素的文本值是文档共享 Web 服务的 URL。 
   
 ## <a name="element-information"></a>元素信息
 
@@ -61,7 +61,7 @@ ms.locfileid: "44465770"
 [GetUserSettings 操作 (SOAP)](getusersettings-operation-soap.md)
 
 
-[Exchange 的自动发现 web 服务参考](autodiscover-web-service-reference-for-exchange.md)
+[自动发现 Web 服务引用Exchange](autodiscover-web-service-reference-for-exchange.md)
   
 [Exchange 2013 的 SOAP 自动发现 XML 元素](soap-autodiscover-xml-elements-for-exchange-2013.md)
 

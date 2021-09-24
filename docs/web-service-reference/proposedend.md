@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a8b574dd-ce26-424f-b0f5-3311d93a4806
-description: ProposedEnd 元素指定会议的建议结束时间。
-ms.openlocfilehash: 68ad4bb7c3a4d78695ccb88c0994cafd0956828f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ProposedEnd 元素指定建议的会议结束时间。
+ms.openlocfilehash: 13d74c1fda54fce028ea64d62dbbfbe9a076b234
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529901"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519154"
 ---
 # <a name="proposedend"></a>ProposedEnd
 
-**ProposedEnd**元素指定会议的建议结束时间。 
+**ProposedEnd** 元素指定建议的会议结束时间。 
   
 ```XML
 <ProposedEnd></ProposedEnd>
@@ -42,9 +42,9 @@ ms.locfileid: "44529901"
   
 ## <a name="text-value"></a>文本值
 
-**ProposedEnd**元素的文本值是由与会者发送给会议组织者的建议结束时间。 
+**ProposedEnd** 元素的文本值是与会者发送给会议组织者的建议结束时间。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

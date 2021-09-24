@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 475351f7-e8c1-4494-92e5-83bdb4bf2eaf
 description: ContentExpiryDate 元素指定内容的到期日期。
-ms.openlocfilehash: 80081de9cd45d8d63b8a1a1e29da38514f2c2d82
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 57c60d8c438179fad30d58ee8670435c018dcdaf
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527108"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511984"
 ---
 # <a name="contentexpirydate"></a>ContentExpiryDate
 
-**ContentExpiryDate**元素指定内容的到期日期。 
+**ContentExpiryDate** 元素指定内容的到期日期。 
   
 ```XML
 <ContentExpiryDate></ContentExpiryDate>
@@ -44,9 +44,9 @@ ms.locfileid: "44527108"
    
 ## <a name="text-value"></a>文本值
 
-**ContentExpiryDate**元素的文本值是一个字符串，用于指定内容的到期日期。 
+**ContentExpiryDate** 元素的文本值是一个字符串，用于指定内容的到期日期。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -58,7 +58,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

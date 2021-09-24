@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 90841617-3b83-4124-8125-0293c9470f4a
-description: IsUndecidedApprovalRequest 元素指定是否已对审批请求邮件执行操作。
-ms.openlocfilehash: 0949cf64b8583c4b3fa5a1700475f01cc480f69f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: IsUndecidedApprovalRequest 元素指定是否对审批请求邮件进行了处理。
+ms.openlocfilehash: 5204793490015bd2999322c0f029445c7df91e02
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458171"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511411"
 ---
 # <a name="isundecidedapprovalrequest"></a>IsUndecidedApprovalRequest
 
-**IsUndecidedApprovalRequest**元素指定是否已对审批请求邮件执行操作。 
+**IsUndecidedApprovalRequest** 元素指定是否对审批请求邮件进行了处理。 
   
 ```XML
 <IsUndecidedApprovalRequest> true | false </IsUndecidedApprovalRequest>
@@ -42,7 +42,7 @@ ms.locfileid: "44458171"
   
 ## <a name="text-value"></a>文本值
 
-如果尚未处理审批请求邮件，则**IsUndecidedApprovalRequest**元素的文本值为**true** 。 **如果值为 false** ，则表示已决定批准请求。 
+如果尚未处理审批请求邮件 **，IsUndecidedApprovalRequest** 元素的文本值为 **true。** false **值表示** 批准请求已决定。 
   
 ## <a name="remarks"></a>说明
 
