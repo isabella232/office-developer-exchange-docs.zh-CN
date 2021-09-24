@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ResolveNames
 api_type:
 - schema
 ms.assetid: c85207e1-1315-443b-94ec-2b58f405076b
-description: ResolveNames 元素定义一个请求以解析不明确的名称。
-ms.openlocfilehash: 9c36a5f84451f91e90a8e7148cf384b5cacd7f29
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ResolveNames 元素定义解析不明确名称的请求。
+ms.openlocfilehash: 8fbf933593b43de656bf8731aa86cc8c8eb76bb4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467947"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514142"
 ---
 # <a name="resolvenames"></a>ResolveNames
 
-**ResolveNames**元素定义一个请求以解析不明确的名称。 
+**ResolveNames** 元素定义解析不明确名称的请求。 
   
 ```XML
 <ResolveNames ReturnFullContactData="" SearchScope="" ContactDataShape="">
@@ -39,46 +39,46 @@ ms.locfileid: "44467947"
 
 |**属性**|**说明**|
 |:-----|:-----|
-|**ReturnFullContactData** <br/> |描述是否在响应中返回有关已解析名称的公用联系人的完整联系人详细信息。 此属性是公共联系人所必需的。 此值不影响私有联系人和私人通讯组列表，其[ItemId](itemid.md)始终返回。  <br/> |
+|**ReturnFullContactData** <br/> |描述是否在响应中返回已解析名称的公共联系人的完整联系人详细信息。 公共联系人需要此属性。 此值不影响始终返回 [ItemId](itemid.md) 的私人联系人和专用通讯组列表。  <br/> |
 |**SearchScope** <br/> |标识 ResolveNames 搜索的顺序和范围。  <br/> |
-|ContactDataShape  <br/> |标识为联系人返回的属性集。 此属性是在 Exchange Server 2010 Service Pack 2 （SP2）中引入的。  <br/> |
+|ContactDataShape  <br/> |标识为联系人返回的属性集。 此属性是在 SP2 Exchange Server 2010 Service Pack 2 (中引入) 。  <br/> |
    
 #### <a name="returnfullcontactdata-attribute-values"></a>ReturnFullContactData 属性值
 
 |**值**|**说明**|
 |:-----|:-----|
-|True  <br/> |返回公用联系人的完整联系人详细信息。  <br/> |
-|False  <br/> |不返回公用联系人的完整联系人详细信息。  <br/> |
+|True  <br/> |返回公共联系人的完整联系人详细信息。  <br/> |
+|错误  <br/> |不返回公共联系人的完整联系人详细信息。  <br/> |
    
 #### <a name="searchscope-attribute-values"></a>SearchScope 属性值
 
 |**值**|**说明**|
 |:-----|:-----|
 |ActiveDirectory  <br/> |仅搜索 Active Directory 目录服务。  <br/> |
-|ActiveDirectoryContacts  <br/> |首先搜索 Active Directory，然后在[ParentFolderIds](parentfolderids.md)属性中指定的联系人文件夹中进行搜索。  <br/> |
-|联系人  <br/> |仅搜索由[ParentFolderIds](parentfolderids.md)属性标识的联系人文件夹。  <br/> |
-|ContactsActiveDirectory  <br/> |首先搜索由[ParentFolderIds](parentfolderids.md)属性标识的联系人文件夹，然后搜索 Active Directory。  <br/> |
+|ActiveDirectoryContacts  <br/> |首先搜索 Active Directory，然后搜索 [ParentFolderIds](parentfolderids.md) 属性中指定的联系人文件夹。  <br/> |
+|联系人  <br/> |仅搜索由 [ParentFolderIds](parentfolderids.md) 属性标识的联系人文件夹。  <br/> |
+|ContactsActiveDirectory  <br/> |首先搜索 [由 ParentFolderIds](parentfolderids.md) 属性标识的联系人文件夹，然后搜索 Active Directory。  <br/> |
    
 #### <a name="contactdatashape-attribute-values"></a>ContactDataShape 属性值
 
 |**值**|**说明**|
 |:-----|:-----|
-|IdOnly  <br/> |将返回 "联系人项目标识符" 属性。  <br/> |
-|默认  <br/> |将返回默认的联系人项目属性集。 有关详细信息，请参阅[EWS 中的响应形状](https://msdn.microsoft.com/library/1c5ddc0a-c4e0-4488-8972-7543b5b464df%28Office.15%29.aspx)。  <br/> |
-|AllProperties  <br/> |将返回 AllProperties 的联系人项目属性集。 有关详细信息，请参阅[EWS 中的响应形状](https://msdn.microsoft.com/library/1c5ddc0a-c4e0-4488-8972-7543b5b464df%28Office.15%29.aspx)。  <br/> |
+|IdOnly  <br/> |返回联系人项目标识符属性。  <br/> |
+|默认值  <br/> |返回默认的联系人项目属性集。 有关详细信息，请参阅 [EWS 中的响应形状](https://msdn.microsoft.com/library/1c5ddc0a-c4e0-4488-8972-7543b5b464df%28Office.15%29.aspx)。  <br/> |
+|AllProperties  <br/> |将返回联系人项目属性的 AllProperties 集合。 有关详细信息，请参阅 [EWS 中的响应形状](https://msdn.microsoft.com/library/1c5ddc0a-c4e0-4488-8972-7543b5b464df%28Office.15%29.aspx)。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
-|**元素**|**描述**|
+|**元素**|**说明**|
 |:-----|:-----|
-|[ParentFolderIds](parentfolderids.md) <br/> |包含联系人文件夹标识符的数组，如果将**SearchScope**属性设置为 ActiveDirectoryContacts、Contact 或 ContactsActiveDirectory，则会搜索这些标识符。 ParentFolderIds 数组仅可包含单个联系人文件夹标识符。 如果**ParentFolderIds**元素不存在，则会搜索默认的 "联系人" 文件夹。  <br/> 文件夹标识符可用于代理访问。  <br/> Active Directory 搜索通过使用访问控制列表（Acl）来执行。 某些用户可能没有查看某些 Active Directory 对象的权限。  <br/> 此元素为可选。  <br/> |
+|[ParentFolderIds](parentfolderids.md) <br/> |包含将 **SearchScope** 属性设置为 ActiveDirectoryContacts、Contacts 或 ContactsActiveDirectory 时将搜索的联系人文件夹标识符数组。 ParentFolderIds 数组只能包含一个联系人文件夹标识符。 如果 **ParentFolderIds** 元素不存在，则搜索默认的"联系人"文件夹。  <br/> 文件夹标识符可用于委派访问。  <br/> Active Directory 搜索通过使用访问控制列表和 ACL (执行) 。 某些用户可能没有查看某些 Active Directory 对象的权利。  <br/> 此元素为可选。  <br/> |
 |[UnresolvedEntry](unresolvedentry.md) <br/> |包含要解析的联系人或通讯组列表的名称。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

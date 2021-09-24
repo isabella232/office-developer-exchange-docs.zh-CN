@@ -1,23 +1,23 @@
 ---
-title: 邮箱（PreviewItemMailboxType）
+title: Mailbox (PreviewItemMailboxType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e898d737-b6e4-4403-9c2c-aec52a48a83d
-description: 邮箱元素包含邮箱标识符和用户的主要简单邮件传输协议（SMTP）地址。
-ms.openlocfilehash: 4dc5ee45c00945c30a699daa0158c96679189ab1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Mailbox 元素包含邮箱标识符和用户的主简单邮件传输协议 (SMTP) 地址。
+ms.openlocfilehash: 1a2dcc08d3e1595aede21e6982b36a60e6efafb5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463893"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514296"
 ---
-# <a name="mailbox-previewitemmailboxtype"></a>邮箱（PreviewItemMailboxType）
+# <a name="mailbox-previewitemmailboxtype"></a>Mailbox (PreviewItemMailboxType)
 
-**邮箱**元素包含邮箱标识符和用户的主要简单邮件传输协议（SMTP）地址。 
+Mailbox 元素包含邮箱标识符和用户的主简单邮件传输协议 (SMTP) 地址。 
   
 ```XML
 <Mailbox>
@@ -38,13 +38,13 @@ ms.locfileid: "44463893"
   
 ### <a name="child-elements"></a>子元素
 
-[MailboxId](mailboxid.md)  | [PrimarySmtpAddress （字符串）](primarysmtpaddress-string.md)
+[MailboxId](mailboxid.md)  | [PrimarySmtpAddress (字符串) ](primarysmtpaddress-string.md)
   
 ### <a name="parent-elements"></a>父元素
 
 [SearchPreviewItem](searchpreviewitem.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

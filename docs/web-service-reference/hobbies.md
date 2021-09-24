@@ -1,23 +1,23 @@
 ---
-title: 兴趣
+title: Hobbies
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f771b066-e42e-4880-bf18-709ad033d2af
-description: 业余爱好元素指定相关角色的爱好的数组和其源归属的标识符。
-ms.openlocfilehash: c76f4fc0463928814c61b8d1fb63e4255d6be63d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Hobbies 元素指定一组爱好及其关联人物的源属性标识符。
+ms.openlocfilehash: 5be8b65a7f24a9034da3b384fe63a42ff8b7fc19
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460951"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514667"
 ---
-# <a name="hobbies"></a>兴趣
+# <a name="hobbies"></a>Hobbies
 
-**业余爱好**元素指定相关角色的爱好的数组和其源归属的标识符。 
+**Hobbies** 元素指定一组爱好及其关联人物的源属性标识符。 
   
 ```XML
 <Hobbies>
@@ -38,15 +38,15 @@ ms.locfileid: "44460951"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[StringAttributedValue](stringattributedvalue.md) <br/> |指定与 persona 元素相关联的属性数组中的实例。  <br/> |
+|[StringAttributedValue](stringattributedvalue.md) <br/> |指定与 persona 元素关联的属性数组中的实例。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[角色](persona.md) <br/> |指定由**GetPersona**请求返回的一组角色数据。  <br/> |
+|[角色](persona.md) <br/> |指定由 **GetPersona** 请求返回的一组人员数据。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -58,7 +58,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

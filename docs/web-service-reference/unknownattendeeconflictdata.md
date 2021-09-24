@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UnknownAttendeeConflictData
 api_type:
 - schema
 ms.assetid: 70e41268-c231-4587-9d23-e46927fe5272
-description: UnknownAttendeeConflictData 元素表示不能解析的与会者或不是用户、通讯组列表或联系人的与会者。
-ms.openlocfilehash: b4362e0117e3939c21342a1ab8079d95512aec79
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: UnknownAttendeeConflictData 元素表示不可解析的与会者或不是用户、通讯组列表或联系人的与会者。
+ms.openlocfilehash: e7aec79a2aa15cfd149e47affb1efb2b215497e1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459866"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515087"
 ---
 # <a name="unknownattendeeconflictdata"></a>UnknownAttendeeConflictData
 
-**UnknownAttendeeConflictData**元素表示不能解析的与会者或不是用户、通讯组列表或联系人的与会者。 
+**UnknownAttendeeConflictData** 元素表示不可解析的与会者或不是用户、通讯组列表或联系人的与会者。 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -60,11 +60,11 @@ ms.locfileid: "44459866"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[AttendeeConflictDataArray](attendeeconflictdataarray.md) <br/> |包含在[GetUserAvailability 操作](getuseravailability-operation.md)中标识的被查询的与会者的冲突数据数组。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray` <br/> |
+|[AttendeeConflictDataArray](attendeeconflictdataarray.md) <br/> |包含 [GetUserAvailability](getuseravailability-operation.md)操作中标识的已查询与会者的冲突数据数组。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-如果某个与会者无法针对 Active Directory 目录服务对象进行解析，则该与会者是未知的。 如果与会者无法确定为用户、组或联系人，则无法解析该与会者。 例如，如果某个与会者是已启用邮件的公用文件夹，则不会对其进行解析。
+如果无法针对 Active Directory 目录服务对象解析与会者，则与会者未知。 如果无法确定与会者是用户、组或联系人，则与会者无法解析。 例如，如果与会者是已启用邮件的公用文件夹，则不能解析该与会者。
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

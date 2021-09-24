@@ -1,30 +1,30 @@
 ---
-title: entryId （UM web 服务）
+title: entryId（UM Web 服务）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - entryId
 api_type:
 - schema
 ms.assetid: ce62eab5-0079-493b-be1f-52b62fdf35dc
-description: EntryId 元素包含一个值，该值表示要在 PlayOnPhone 操作（UM web 服务）请求中的电话上播放的项目的标识符。
-ms.openlocfilehash: 5b0ad5c5af682f7589d94219955dde646cd2897a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: entryId 元素包含一个值，该值代表在 UM Web 服务请求的 PlayOnPhone 操作中 (在电话上) 标识符。
+ms.openlocfilehash: faeaa9f4684214412c2fa0dd4d4efa22756b2320
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460692"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539941"
 ---
-# <a name="entryid-um-web-service"></a>entryId （UM web 服务）
+# <a name="entryid-um-web-service"></a>entryId（UM Web 服务）
 
-**EntryId**元素包含一个值，该值表示要在[PLAYONPHONE 操作（UM web 服务）](playonphone-operation-um-web-service.md)请求中的电话上播放的项目的标识符。 
+**entryId** 元素包含一个值，该值代表在 UM Web 服务请求的 [PlayOnPhone](playonphone-operation-um-web-service.md)操作中 (在电话上) 标识符。 
   
-[PlayOnPhone （UM web 服务）](playonphone-um-web-service.md)
+[PlayOnPhone（UM Web 服务）](playonphone-um-web-service.md)
   
-[entryId （UM web 服务）](entryid-um-web-service.md)
+[entryId（UM Web 服务）](entryid-um-web-service.md)
   
 ```xml
 <PlayOnPhone>
@@ -49,7 +49,7 @@ ms.locfileid: "44460692"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[PlayOnPhone （UM web 服务）](playonphone-um-web-service.md) <br/> |定义在电话上播放项目的请求。  <br/> |
+|[PlayOnPhone（UM Web 服务）](playonphone-um-web-service.md) <br/> |定义在电话上播放项目的请求。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
@@ -60,7 +60,7 @@ ms.locfileid: "44460692"
 |||
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|架构名称  <br/> |邮件  <br/> |
+|架构名称  <br/> |消息  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
    
@@ -68,9 +68,9 @@ ms.locfileid: "44460692"
 
 
 
-[PlayOnPhone 操作（UM web 服务）](playonphone-operation-um-web-service.md)
+[PlayOnPhone 操作（UM Web 服务）](playonphone-operation-um-web-service.md)
   
-[PlayOnPhone （UM web 服务）](playonphone-um-web-service.md)
+[PlayOnPhone（UM Web 服务）](playonphone-um-web-service.md)
   
 [FindItem 操作](finditem-operation.md)
 

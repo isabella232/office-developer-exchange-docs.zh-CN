@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d2ec9ea4-cc25-48c3-9b35-a479a41b6b48
 description: HoldId 元素包含邮箱保留标识符。
-ms.openlocfilehash: 09a8fbe7f48f409dd340d8a4d56d7feec451d5e5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: fdb3f8e05e81713fae2a149f18c5c09668c00e76
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460930"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514625"
 ---
 # <a name="holdid"></a>HoldId
 
-**HoldId**元素包含邮箱保留标识符。 
+**HoldId** 元素包含邮箱保留标识符。 
   
 ```XML
 <HoldId></HoldId>
@@ -42,9 +42,9 @@ ms.locfileid: "44460930"
   
 ## <a name="text-value"></a>文本值
 
-**HoldId**元素的文本值是邮箱保留的唯一标识符。 
+**HoldId** 元素的文本值是邮箱保留的唯一标识符。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

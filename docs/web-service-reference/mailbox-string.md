@@ -1,23 +1,23 @@
 ---
-title: 邮箱 (字符串)
+title: Mailbox (string)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 15a1758e-6a5c-4e85-acb9-374abe81b9c7
-description: 邮箱元素包含邮箱的标识符。
-ms.openlocfilehash: 3a115f40360aebfdb818580464c08e61a527ac55
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Mailbox 元素包含邮箱的标识符。
+ms.openlocfilehash: 750bd6531e8f6472eca77b256e1320bc0230b25d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467275"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514275"
 ---
-# <a name="mailbox-string"></a>邮箱 (字符串)
+# <a name="mailbox-string"></a>Mailbox (string)
 
-**邮箱**元素包含邮箱的标识符。 
+Mailbox 元素包含邮箱的标识符。 
   
 ```XML
 <Mailbox></Mailbox>
@@ -43,9 +43,9 @@ ms.locfileid: "44467275"
   
 ## <a name="text-value"></a>文本值
 
-**邮箱**元素的文本值是邮箱的标识符。 
+**Mailbox** 元素的文本值是邮箱的标识符。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

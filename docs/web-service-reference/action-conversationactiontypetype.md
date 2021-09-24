@@ -1,27 +1,27 @@
 ---
-title: Action （ConversationActionTypeType）
+title: Action (ConversationActionTypeType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Action
 api_type:
 - schema
 ms.assetid: 8bbc12f2-76c5-4fda-828f-56b2086a0454
-description: Action 元素包含要对 ConversationId 元素指定的会话执行的操作。
-ms.openlocfilehash: f97b04b98cdc29bee9aff5fa1fc6f37400b8314c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Action 元素包含对 ConversationId 元素指定的对话执行的操作。
+ms.openlocfilehash: e75d9d5df75894d1de9831b0022269e7ace4fa63
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527542"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514891"
 ---
-# <a name="action-conversationactiontypetype"></a>Action （ConversationActionTypeType）
+# <a name="action-conversationactiontypetype"></a>Action (ConversationActionTypeType)
 
-**Action**元素包含要对[ConversationId](conversationid.md)元素指定的会话执行的操作。 
+**Action** 元素包含对 [ConversationId](conversationid.md)元素指定的对话执行的操作。 
   
 - [ApplyConversationAction](applyconversationaction.md)
   
@@ -29,7 +29,7 @@ ms.locfileid: "44527542"
   
 - [ConversationAction](conversationaction.md)
   
-- [Action （ConversationActionTypeType）](action-conversationactiontypetype.md)
+- [Action (ConversationActionTypeType)](action-conversationactiontypetype.md)
   
 ```XML
 <Action> AlwaysCategorize | AlwaysDelete | AlwaysMove | Delete | Move | Copy | SetReadState </Action>
@@ -56,25 +56,25 @@ ms.locfileid: "44527542"
    
 ## <a name="text-value"></a>文本值
 
-**Action**元素的文本值指示将对对话执行的操作。 以下是可能的文本值和相应的操作： 
+**Action** 元素的文本值指示将在对话中执行的操作。 以下是可能的文本值和相应的操作： 
   
-- **AlwaysCategorize** -将自动使用在 "[类别](categories-ex15websvcsotherref.md)" 元素中标识的类别设置对话中的当前项目和新项目。 
+- **AlwaysCategorize** - 对话中的当前项目和新项将自动使用 Categories 元素中标识的 [类别进行](categories-ex15websvcsotherref.md) 设置。 
     
-- **AlwaysDelete** -将自动删除对话中的当前项目和新项目。 删除模式由[DeleteType](deletetype.md)元素设置。 
+- **AlwaysDelete** - 对话中的当前项目和新项将自动删除。 删除模式由 [DeleteType 元素](deletetype.md) 设置。 
     
-- **AlwaysMove** -将自动将对话中的当前项目和新项目移至[DestinationFolderId](destinationfolderid.md)元素所标识的文件夹。 
+- **AlwaysMove** - 对话中的当前项目和新项将自动移动到 [DestinationFolderId](destinationfolderid.md) 元素标识的文件夹。 
     
-- **删除**-对话中的当前项目将被删除。 会话中的后续项目不会被删除。 删除模式由[DeleteType](deletetype.md)元素设置。 
+- **Delete** - 将删除对话中的当前项目。 不会删除对话中的后续项目。 删除模式由 [DeleteType 元素](deletetype.md) 设置。 
     
-- **Move** -对话中的当前项目将被移动到由[DestinationFolderId](destinationfolderid.md)元素标识的文件夹。 会话中的后续项目将不会移动。 
+- **Move** - 对话中的当前项目将移动到 [DestinationFolderId](destinationfolderid.md) 元素标识的文件夹。 不会移动对话中的后续项目。 
     
-- **复制**-将对话中的当前项目复制到由[DestinationFolderId](destinationfolderid.md)元素标识的文件夹。 会话中的后续项目不会被复制。 
+- **Copy** - 对话中的当前项目将复制到 [DestinationFolderId](destinationfolderid.md) 元素标识的文件夹。 不会复制对话中的后续项目。 
     
-- **SetReadState** -对话中的当前项目将设置为其读取状态。 读取状态由[IsRead](isread.md)元素设置。 
+- **SetReadState** - 对话中的当前项目将设置其读取状态。 读取状态由 [IsRead 元素](isread.md) 设置。 
     
-- **标记**-对话中的当前项目的[标志元素所](flag.md)定义的标志。 
+- **Flag** - 对话中的当前项目将具有由 Flag 元素定义的 [标记](flag.md) 。 
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   

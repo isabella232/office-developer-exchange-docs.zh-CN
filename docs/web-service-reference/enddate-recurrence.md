@@ -1,27 +1,27 @@
 ---
-title: 结束日期（定期）
+title: EndDate (Recurrence)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - EndDate
 api_type:
 - schema
 ms.assetid: 16026595-26f8-4770-8a6d-0d3e4157effd
-description: 结束日期元素表示定期任务或具有 EndDateRecurrence 模式类型的日历项目的结束日期。
-ms.openlocfilehash: 53d9b04faf1d8f740c858080b5fcbeadf577df0d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: EndDate 元素表示定期任务的结束日期或具有 EndDateRecurrence 模式类型的日历项目。
+ms.openlocfilehash: c53d83a3fb2f3a6a841d7e16c94d20dd3c7a92a4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460160"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540089"
 ---
-# <a name="enddate-recurrence"></a>结束日期（定期）
+# <a name="enddate-recurrence"></a>EndDate (Recurrence)
 
-**结束**日期元素表示定期任务或具有 EndDateRecurrence 模式类型的日历项目的结束日期。 
+**EndDate** 元素表示定期任务的结束日期或具有 EndDateRecurrence 模式类型的日历项目。 
   
 ```xml
 <EndDate/>
@@ -44,11 +44,11 @@ ms.locfileid: "44460160"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[EndDateRecurrence](enddaterecurrence.md) <br/> |描述项目定期模式的开始日期和结束日期。  <br/> |
+|[EndDateRecurrence](enddaterecurrence.md) <br/> |描述项目的开始日期和结束日期定期模式。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-如果使用此元素，则表示日期的文本值是必需的。 值不能大于 4500 00:00:00 的9月1日。
+如果使用此元素，则代表日期的文本值是必需的。 该值不能大于 4500 年 9 月 1 日 00：00：00。
   
 ## <a name="remarks"></a>说明
 

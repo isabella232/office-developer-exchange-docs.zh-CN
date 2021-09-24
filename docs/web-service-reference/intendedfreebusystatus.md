@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IntendedFreeBusyStatus
 api_type:
 - schema
 ms.assetid: 0e0fa898-69a4-4c57-8bb2-52f716b5b478
-description: IntendedFreeBusyStatus 元素表示与会议请求相关联的日历项目的预期状态。
-ms.openlocfilehash: c5502bcfb308aa2f02a9575ab43f80261b5fa4ed
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: IntendedFreeBusyStatus 元素表示与会议请求关联的日历项目预期状态。
+ms.openlocfilehash: fcadc2a155f2263410dbf81d200d202d718e2893
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465616"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539554"
 ---
 # <a name="intendedfreebusystatus"></a>IntendedFreeBusyStatus
 
-**IntendedFreeBusyStatus**元素表示与会议请求相关联的日历项目的预期状态。 
+**IntendedFreeBusyStatus** 元素表示与会议请求关联的日历项目预期状态。 
   
 ```xml
 <IntendedFreeBusyStatus/>
@@ -52,7 +52,7 @@ ms.locfileid: "44465616"
   
 - 空闲
     
-- 暂
+- 暂定
     
 - 忙碌
     

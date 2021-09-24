@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GivenName
 api_type:
 - schema
 ms.assetid: 8efc46fd-6056-4439-9af3-fc9e13ee6d9a
-description: GivenName 元素包含联系人的名字。
-ms.openlocfilehash: a22c5ef99844b55fa75f60acb8667ee423420336
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GivenName 元素包含联系人的给定姓名。
+ms.openlocfilehash: b102c6137c597da15217e65bdc0a68fdac1cd305
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530132"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525916"
 ---
 # <a name="givenname"></a>GivenName
 
-**GivenName**元素包含联系人的名字。 
+**GivenName** 元素包含联系人的给定姓名。 
   
 ```xml
 <GivenName/>
@@ -48,11 +48,11 @@ ms.locfileid: "44530132"
    
 ## <a name="text-value"></a>文本值
 
-如果使用此元素，则需要一个表示联系人的名字的文本值。
+如果此元素已使用，则代表联系人的给定姓名的文本值是必需的。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-给定名称通常是个人的名字。
+给定姓名通常是人员的名字。
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsPrivate
 api_type:
 - schema
 ms.assetid: 1712bc94-9789-4507-8521-bde1be51e331
-description: IsPrivate 元素指示日历项目是否是私有的。
-ms.openlocfilehash: c36c659414700439436cd2ca903e443164c1473b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: IsPrivate 元素指示日历项目是否私有。
+ms.openlocfilehash: 0b9eb8d7086f951e448e7ee620637b7f39934610
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457800"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539407"
 ---
 # <a name="isprivate"></a>IsPrivate
 
-**IsPrivate**元素指示日历项目是否是私有的。 
+**IsPrivate** 元素指示日历项目是否私有。 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -66,9 +66,9 @@ ms.locfileid: "44457800"
 
 表示一个布尔值的文本值是必需的。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-如果使用此元素，则[CalendarEventDetails](calendareventdetails.md)元素中的其他元素将不包含在响应中。 
+如果使用此元素， [则 CalendarEventDetails](calendareventdetails.md) 元素中的其他元素将不会包含在响应中。 
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

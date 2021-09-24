@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IncludesLastItemInRange
 api_type:
 - schema
 ms.assetid: e7d6c7d3-548e-48b0-a313-bfef81e4832a
-description: IncludesLastItemInRange 元素指示是否已在响应中包含要同步的最后一个项目。
-ms.openlocfilehash: bc526a38c7320609915864507f715890bedd0c9d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: IncludesLastItemInRange 元素指示响应中是否包含要同步的最后一个项目。
+ms.openlocfilehash: 60798d076eb204e2b89610cfb20e2be1c2b9b4fb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530048"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514583"
 ---
 # <a name="includeslastiteminrange"></a>IncludesLastItemInRange
 
-**IncludesLastItemInRange**元素指示是否已在响应中包含要同步的最后一个项目。 
+**IncludesLastItemInRange** 元素指示响应中是否包含要同步的最后一个项目。 
   
 [SyncFolderItemsResponse](syncfolderitemsresponse.md)
   

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - BaseShape
 api_type:
 - schema
 ms.assetid: 42c04f3b-abaa-4197-a3d6-d21677ffb1c0
-description: BaseShape 元素标识要在项目或文件夹响应中返回的属性集。
-ms.openlocfilehash: 9b3f00ff94fbfe6ad6373b16ad95eb9136f81c64
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: BaseShape 元素标识项目或文件夹响应中要返回的属性集。
+ms.openlocfilehash: b4e7f5c6d6520e7338f274b6275e371366b1bed5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464488"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514856"
 ---
 # <a name="baseshape"></a>BaseShape
 
-**BaseShape**元素标识要在项目或文件夹响应中返回的属性集。 
+**BaseShape** 元素标识项目或文件夹响应中要返回的属性集。 
   
 ```xml
 <BaseShape>IdOnly or Default or AllProperties</BaseShape>
@@ -42,7 +42,7 @@ ms.locfileid: "44464488"
   
 ### <a name="parent-elements"></a>父元素
 
-|**元素**|**描述**|
+|**元素**|**说明**|
 |:-----|:-----|
 |[FolderShape](foldershape.md) <br/> | 标识要包括在 GetFolder、FindFolder 或 SyncFolderHierarchy 响应中的文件夹属性。<br/><br/>下面是此元素的 XPath 表达式：<br/><br/>`/GetFolder/FolderShape` <br/>  `/FindFolder/FolderShape` <br/>  `/SyncFolderHierarchy/FolderShape` <br/> |
 |[ItemShape](itemshape.md) <br/> | 标识要包括在 GetItem、FindItem 或 SyncFolderItems 响应中的项目属性和内容。<br/><br/>下面是此元素的 XPath 表达式：<br/><br/>`/GetItem/ItemShape` <br/>  `/FindItem/ItemShape` <br/>  `/SyncFolderItems/ItemShape` <br/> |
@@ -55,29 +55,29 @@ ms.locfileid: "44464488"
 
 |**值**|**说明**|
 |:-----|:-----|
-|IdOnly  <br/> |仅返回项或文件夹 ID。  <br/> |
-|默认  <br/> |返回一组属性，这些属性定义为项或文件夹的默认值。  <br/> |
-|AllProperties  <br/> |返回 Exchange 业务逻辑层用来构造文件夹的所有属性。  <br/> |
+|IdOnly  <br/> |仅返回项目或文件夹 ID。  <br/> |
+|默认值  <br/> |返回定义为项目或文件夹的默认值的属性集。  <br/> |
+|AllProperties  <br/> |返回业务逻辑层Exchange构造文件夹的所有属性。  <br/> |
    
-下表列出了为 FindFolder 请求返回的默认属性。 给定文件夹的所有子文件夹按名称的顺序返回。
+下表列出了为 FindFolder 请求返回的默认属性。 按名称顺序返回给定文件夹的所有子文件夹。
   
 **默认属性**
 
 |**Folder**|**默认属性**|
 |:-----|:-----|
 |Inbox  <br/> |FolderId、显示名称、未读计数、总计计数、子文件夹计数  <br/> |
-|联系人  <br/> |FolderId、显示名称、总计计数、子文件夹计数  <br/> |
+|联系人  <br/> |FolderId、显示名称、总计、子文件夹计数  <br/> |
 |日历  <br/> |FolderId、显示名称、子文件夹计数  <br/> |
 |草稿  <br/> |FolderId、显示名称、未读计数、总计计数、子文件夹计数  <br/> |
 |已删除项目  <br/> |FolderId、显示名称、未读计数、总计计数、子文件夹计数  <br/> |
 |其他文件夹  <br/> |FolderId、显示名称、未读计数、总计计数、子文件夹计数  <br/> |
 |发件箱  <br/> |FolderId、显示名称、未读计数、总计计数、子文件夹计数  <br/> |
-|任务  <br/> |FolderId、显示名称、过期计数、总计计数、子文件夹计数  <br/> |
-|注释  <br/> |FolderId、显示名称、总计计数、子文件夹计数  <br/> |
+|Tasks  <br/> |FolderId、显示名称、过去到期计数、总计数、子文件夹计数  <br/> |
+|注意  <br/> |FolderId、显示名称、总计、子文件夹计数  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-若要返回除[BaseShape](baseshape.md)元素标识的属性之外的属性，请使用[AdditionalProperties](additionalproperties.md)元素。 
+若要返回 [BaseShape](baseshape.md) 元素标识的属性之外的属性，请使用 [AdditionalProperties](additionalproperties.md) 元素。 
   
 ## <a name="example"></a>示例
 

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ba9bb159-362d-48e0-889d-823cb46ecebf
-description: HomePhones2 元素指定 HomePhone2 值的数组以及关联角色的源归属的标识符。
-ms.openlocfilehash: 5763b38506655828cd86f6633b462873362e8062
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: HomePhones2 元素指定一组 HomePhone2 值，以及相关人物的源属性标识符。
+ms.openlocfilehash: 39833532fba65d809f50f60be240ab89a03a9496
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460818"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515703"
 ---
 # <a name="homephones2"></a>HomePhones2
 
-**HomePhones2**元素指定**HomePhone2**值的数组以及关联角色的源归属的标识符。 
+**HomePhones2** 元素指定一组 **HomePhone2** 值及其关联人物的源属性标识符。 
   
 ```XML
 <HomePhones2>
@@ -38,15 +38,15 @@ ms.locfileid: "44460818"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[PhoneNumberAttributedValue](phonenumberattributedvalue.md) <br/> |包含角色的单个属性电话号码。  <br/> |
+|[PhoneNumberAttributedValue](phonenumberattributedvalue.md) <br/> |包含一个已属性的电话号码。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[角色](persona.md) <br/> |指定由**GetPersona**请求返回的一组角色数据。  <br/> |
+|[角色](persona.md) <br/> |指定由 **GetPersona** 请求返回的一组人员数据。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -58,7 +58,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

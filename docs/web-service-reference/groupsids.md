@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GroupSids
 api_type:
 - schema
 ms.assetid: ebb00653-83f0-4080-a902-c38df6719800
 description: GroupSids 元素表示 Active Directory 目录服务组对象安全标识符的集合。
-ms.openlocfilehash: 40f36176fcaa3e2160237f269fb2dc3b12bf8af2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 9dde1c87a82dbef2a9e1278de2cc202189f309c7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530062"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539673"
 ---
 # <a name="groupsids"></a>GroupSids
 
-**GroupSids**元素表示 Active directory 目录服务组对象安全标识符的集合。 
+**GroupSids** 元素表示 Active Directory 目录服务组对象安全标识符的集合。 
   
 ```xml
 <GroupSids>
@@ -42,13 +42,13 @@ ms.locfileid: "44530062"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GroupIdentifier](groupidentifier.md) <br/> |代表帐户所属的 Active Directory 对象组的单个安全标识符和属性。  <br/> |
+|[GroupIdentifier](groupidentifier.md) <br/> |表示帐户是其中一个成员的 Active Directory 对象组的单个安全标识符和属性。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[SerializedSecurityContext](serializedsecuritycontext.md) <br/> |在服务器到服务器身份验证中用于令牌序列化的简单对象访问协议（SOAP）标头中使用。 不支持令牌序列化。  <br/> |
+|[SerializedSecurityContext](serializedsecuritycontext.md) <br/> |在 SIMPLE OBJECT ACCESS PROTOCOL (SOAP) 标头中用于服务器到服务器身份验证中的令牌序列化。 不支持令牌序列化。  <br/> |
    
 ## <a name="remarks"></a>说明
 

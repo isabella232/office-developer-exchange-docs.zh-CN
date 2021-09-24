@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsOutOfDate
 api_type:
 - schema
 ms.assetid: 2b6005a6-56a9-4848-b998-32908c13e2e2
-description: IsOutOfDate 元素指示会议消息、请求、响应或取消是否已过期。
-ms.openlocfilehash: b50b021e48789ba63016582450404b5da3ff86e1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: IsOutOfDate 元素指示会议邮件、请求、响应或取消是否过期。
+ms.openlocfilehash: 935055d12f96407a3e58a4f8d196187fece5d070
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466547"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514485"
 ---
 # <a name="isoutofdate"></a>IsOutOfDate
 
-**IsOutOfDate**元素指示会议消息、请求、响应或取消是否已过期。 
+**IsOutOfDate** 元素指示会议邮件、请求、响应或取消是否过期。 
   
 ```xml
 <IsOutOfDate/>
@@ -51,7 +51,7 @@ ms.locfileid: "44466547"
    
 ## <a name="text-value"></a>文本值
 
-如果文本值为**true** ，则表示会议项目已过期。 
+如果文本值为 **true，** 则表明会议项目已过期。 
   
 ## <a name="remarks"></a>说明
 

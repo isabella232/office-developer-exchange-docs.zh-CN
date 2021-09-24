@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UnknownEntries
 api_type:
 - schema
 ms.assetid: 107ec73e-083a-4956-9d37-33d4734cc157
-description: UnknownEntries 元素包含无法针对 Active Directory 目录服务解析的未知权限条目数组。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
-ms.openlocfilehash: 68cb2518b895ca0a74e6b9ed649ee92b7502ab05
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: UnknownEntries 元素包含一个未知权限条目数组，这些权限条目无法针对 Active Directory 目录服务进行解析。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
+ms.openlocfilehash: 9ada724abbecddf192b5f345c1800ac38a8b41aa
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459417"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514079"
 ---
 # <a name="unknownentries"></a>UnknownEntries
 
-**UnknownEntries**元素包含无法针对 Active directory 目录服务解析的未知权限条目数组。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
+**UnknownEntries** 元素包含一个未知权限条目数组，这些权限条目无法针对 Active Directory 目录服务进行解析。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
   
 ```xml
 <UnknownEntries>
@@ -42,18 +42,18 @@ ms.locfileid: "44459417"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[UnknownEntry](unknownentry.md) <br/> |代表单个无法对 Active Directory 进行解析的未知权限条目。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
+|[UnknownEntry](unknownentry.md) <br/> |表示无法针对 Active Directory 解析的单个未知权限条目。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
 |[PermissionSet (PermissionSetType)](permissionset-permissionsettype.md) <br/> |包含为文件夹配置的所有权限。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
-|[PermissionSet （CalendarPermissionSetType）](permissionset-calendarpermissionsettype.md) <br/> |包含为 "日历" 文件夹配置的所有权限。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
+|[PermissionSet (CalendarPermissionSetType)](permissionset-calendarpermissionsettype.md) <br/> |包含为日历文件夹配置的所有权限。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-您可以通过将 UpdateFolder 操作与[SetFolderField](setfolderfield.md)元素一起使用，从文件夹中删除未知条目。 使用 UpdateFolder 操作的 SetFolderField 选项重置 PermissionSet 时，将删除未知的条目。 Exchange Web 服务不支持删除单个条目。 
+可以通过对 [SetFolderField](setfolderfield.md) 元素使用 UpdateFolder 操作从文件夹中删除未知条目。 当您使用 UpdateFolder 操作中的 SetFolderField 选项重置 PermissionSet 时，将删除未知条目。 ExchangeWeb 服务不支持删除单个条目。 
   
 描述此元素的架构位于正在运行 Microsoft Exchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

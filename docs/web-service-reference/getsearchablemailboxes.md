@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 949871f7-0d10-498e-84aa-f0652f1193be
-description: GetSearchableMailboxes 元素包含一个请求，用于获取客户端有权执行电子数据展示搜索的邮箱列表。
-ms.openlocfilehash: a327f8766e53e9f1fae6928179d5a4b8e3d044a8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetSearchableMailboxes 元素包含一个请求，请求获取客户端有权执行电子数据展示搜索的邮箱列表。
+ms.openlocfilehash: 7c5902af3e0aa88c77a8e13d7c4ec521aa444d6b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530188"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515843"
 ---
 # <a name="getsearchablemailboxes"></a>GetSearchableMailboxes
 
-**GetSearchableMailboxes**元素包含一个请求，用于获取客户端有权执行电子数据展示搜索的邮箱列表。 
+**GetSearchableMailboxes** 元素包含一个请求，请求获取客户端有权执行电子数据展示搜索的邮箱列表。 
   
 ```XML
 <GetSearchableMailboxes>
@@ -37,13 +37,13 @@ ms.locfileid: "44530188"
   
 ### <a name="child-elements"></a>子元素
 
-[过滤](searchfilter.md)  | [ExpandGroupMembership](expandgroupmembership.md)
+[SearchFilter](searchfilter.md)  | [ExpandGroupMembership](expandgroupmembership.md)
   
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -55,7 +55,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
-|验证文件  <br/> |消息 .xsd  <br/> |
+|验证文件  <br/> |messages.xsd  <br/> |
 |可以为空  <br/> ||
    
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MeetingDurationInMinutes
 api_type:
 - schema
 ms.assetid: bb86b275-9c29-4daf-8196-8d505b87a4f4
 description: MeetingDurationInMinutes 元素指定要建议的会议持续时间。
-ms.openlocfilehash: b41e234be40c2ad8b28047ae2e812edfd66af644
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: af2fa447ef278ec79b4215486368c7bbeceb4163
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467485"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539379"
 ---
 # <a name="meetingdurationinminutes"></a>MeetingDurationInMinutes
 
-**MeetingDurationInMinutes**元素指定要建议的会议持续时间。 
+**MeetingDurationInMinutes** 元素指定要建议的会议持续时间。 
   
 [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
@@ -50,7 +50,7 @@ ms.locfileid: "44467485"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |包含用于获取会议建议信息的选项。  <br/> 以下是此元素的 XPath：  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
+|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |包含用于获取会议建议信息的选项。  <br/> 下面是此元素的 XPath：  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
    
 ## <a name="text-value"></a>文本值
 
@@ -58,7 +58,7 @@ ms.locfileid: "44467485"
   
 ## <a name="remarks"></a>说明
 
-如果使用[SuggestionsViewOptions](suggestionsviewoptions.md)元素，则此元素是必需的。 
+如果使用 [SuggestionsViewOptions](suggestionsviewoptions.md) 元素，则此元素是必需的。 
   
 > [!NOTE]
 > 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。 

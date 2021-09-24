@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a5c3eac6-b4e4-4155-8555-3b5df3f4da17
-description: ReminderNextTime 元素指定下一个提醒的日期和时间。
-ms.openlocfilehash: ed382304435bf0c0e656848c11b6660c021b5d58
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ReminderNextTime 元素指定下一次提醒的日期和时间。
+ms.openlocfilehash: 8909d95344e8fabb0b9b64059644655a88743641
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458535"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540585"
 ---
 # <a name="remindernexttime"></a>ReminderNextTime
 
-**ReminderNextTime**元素指定下一个提醒的日期和时间。 
+**ReminderNextTime** 元素指定下一个提醒的日期和时间。 
   
 ```XML
 <ReminderNextTime></ReminderNextTime>
@@ -38,13 +38,13 @@ ms.locfileid: "44458535"
   
 ### <a name="parent-elements"></a>父元素
 
-[SearchPreviewItem](searchpreviewitem.md)  | [项](item.md)  | [联系人](contact.md)  | [邮件](message-ex15websvcsotherref.md)  | [DistributionList](distributionlist.md)  | [CalendarItem](calendaritem.md)  | [PostItem](postitem.md)  | [任务](task.md)
+[SearchPreviewItem](searchpreviewitem.md)  | [Item](item.md)  | [联系人](contact.md)  | [邮件](message-ex15websvcsotherref.md)  | [DistributionList](distributionlist.md)  | [CalendarItem](calendaritem.md)  | [PostItem](postitem.md)  | [任务](task.md)
   
 ## <a name="text-value"></a>文本值
 
-**ReminderNextTime**元素的文本值是下一个计划提醒的日期和时间。 
+**ReminderNextTime** 元素的文本值是下一个计划提醒的日期和时间。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

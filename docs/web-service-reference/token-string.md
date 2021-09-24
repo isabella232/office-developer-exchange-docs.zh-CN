@@ -1,23 +1,23 @@
 ---
-title: 标记（String）
+title: Token (String)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f77af99d-5c77-4f46-851e-261faa03f68a
-description: Token 元素包含搜索精简程序令牌。
-ms.openlocfilehash: b4a819be260e9ba4eecf329011241c9c2b89f332
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Token 元素包含搜索精简条件令牌。
+ms.openlocfilehash: 8a0e2db3fbb19296573224a97bd78dd524a4ef39
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462820"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515156"
 ---
-# <a name="token-string"></a>标记（String）
+# <a name="token-string"></a>Token (String)
 
-**Token**元素包含搜索精简程序令牌。 
+Token 元素包含搜索精简条件令牌。 
   
 ```XML
 <Token></Token>
@@ -38,13 +38,13 @@ ms.locfileid: "44462820"
   
 ### <a name="parent-elements"></a>父元素
 
-[精简程序](refiner.md)
+[Refiner](refiner.md)
   
 ## <a name="text-value"></a>文本值
 
-**Token**元素的文本值是发现搜索的搜索精简令牌。 
+**Token** 元素的文本值是发现搜索的搜索精简条件令牌。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

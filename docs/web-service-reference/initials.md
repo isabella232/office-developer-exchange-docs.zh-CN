@@ -1,23 +1,23 @@
 ---
-title: 缩写
+title: Initials
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Initials
 api_type:
 - schema
 ms.assetid: 6cc529c9-32de-4422-971e-da6078c7be97
 description: Initials 元素表示联系人的姓名缩写。
-ms.openlocfilehash: 60160fa0f63dd94d6a2cedc3e8b5815959a4842a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 2a339004ad752f3bbf12ab7781e9e862b5301b9f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458192"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539617"
 ---
 # <a name="initials"></a>Initials
 

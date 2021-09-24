@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UpdateUserConfigurationResponse
 api_type:
 - schema
 ms.assetid: 4a4b87d5-be95-4fde-a80b-e7f61dcd13e5
 description: UpdateUserConfigurationResponse 元素定义对单个 UpdateUserConfiguration 请求的响应。
-ms.openlocfilehash: e2f9f279a41c5d391f19d741628046c598be95cd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 24d640df51b69a66f1b399eeab74b291fc4e221e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468535"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515010"
 ---
 # <a name="updateuserconfigurationresponse"></a>UpdateUserConfigurationResponse
 
-**UpdateUserConfigurationResponse**元素定义对单个 UpdateUserConfiguration 请求的响应。 
+**UpdateUserConfigurationResponse** 元素定义对单个 UpdateUserConfiguration 请求的响应。 
   
 ```xml
 <UpdateUserConfigurationResponse>   <ResponseMessages/></UpdateUserConfigurationResponse>
@@ -40,15 +40,15 @@ ms.locfileid: "44468535"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |包含 Exchange Web 服务请求的响应消息。  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |包含 Web 服务请求Exchange消息。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-描述此元素的架构位于运行 Microsoft Exchange Server 2010 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
+描述此元素的架构位于运行安装了客户端访问服务器角色的 Microsoft Exchange Server 2010 的计算机的 EWS 虚拟目录中。
   
 ## <a name="element-information"></a>元素信息
 

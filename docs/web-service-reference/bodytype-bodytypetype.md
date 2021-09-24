@@ -1,23 +1,23 @@
 ---
-title: Office.mailboxenums.bodytype （BodyTypeType）
+title: BodyType (BodyTypeType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d730e3af-3102-4242-a2f1-c2873af188f9
-description: Office.mailboxenums.bodytype 元素指定项的正文的类型。
-ms.openlocfilehash: e9e09ea01477558f3a12abbee3d028b9268ac7eb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: BodyType 元素指定项目正文的类型。
+ms.openlocfilehash: 7d687dea668b9ac21f9cbf88ca0bcad6e3f66d03
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461504"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514835"
 ---
-# <a name="bodytype-bodytypetype"></a>Office.mailboxenums.bodytype （BodyTypeType）
+# <a name="bodytype-bodytypetype"></a>BodyType (BodyTypeType)
 
-**Office.mailboxenums.bodytype**元素指定项的正文的类型。 
+**BodyType** 元素指定项目正文的类型。 
   
 ```XML
 <BodyType> HTML | Text</BodyType>
@@ -38,20 +38,20 @@ ms.locfileid: "44461504"
   
 ### <a name="parent-elements"></a>父元素
 
-|**元素**|**描述**|
+|**元素**|**说明**|
 |:-----|:-----|
-|[Body](body.md) <br/> |指定项的正文。  <br/> |
+|[正文](body.md) <br/> |指定项目的正文。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**Office.mailboxenums.bodytype 元素文本值**
+**BodyType 元素文本值**
 
 |**值**|**说明**|
 |:-----|:-----|
 |HTML  <br/> |指示正文为 HTML。  <br/> |
-|文本  <br/> |指示正文为文本。  <br/> |
+|文本  <br/> |指示正文是文本。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -63,7 +63,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

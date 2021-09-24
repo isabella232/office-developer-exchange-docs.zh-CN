@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UserConfigurationProperties
 api_type:
 - schema
 ms.assetid: c143a6ec-62ad-4d48-b844-b1ad88054bc1
-description: UserConfigurationProperties 元素指定要在 GetUserConfiguration 操作中获取的属性类型。
-ms.openlocfilehash: af6bee64516a7410d96ecc7581e8e819f550ddc1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: UserConfigurationProperties 元素指定在 GetUserConfiguration 操作中要获取的属性类型。
+ms.openlocfilehash: 0aed3ffc680ac881410469fe762349739ba924a1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466491"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515003"
 ---
 # <a name="userconfigurationproperties"></a>UserConfigurationProperties
 
-**UserConfigurationProperties**元素指定要在 GetUserConfiguration 操作中获取的属性类型。 
+**UserConfigurationProperties** 元素指定在 GetUserConfiguration 操作中要获取的属性类型。 
   
 ```xml
 <UserConfigurationProperties>Id | Dictionary | XmlData | BinaryData | All</UserConfigurationProperties>
@@ -42,13 +42,13 @@ ms.locfileid: "44466491"
   
 ### <a name="parent-elements"></a>父元素
 
-|**元素**|**描述**|
+|**元素**|**说明**|
 |:-----|:-----|
 |[GetUserConfiguration](getuserconfiguration.md) <br/> |指定获取用户配置对象的请求。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-下表列出了**UserConfigurationProperties**元素的可能值。 
+下表列出了 **UserConfigurationProperties** 元素的可能值。 
   
 |**值**|**说明**|
 |:-----|:-----|

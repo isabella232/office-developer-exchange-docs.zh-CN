@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - TransitionsGroups
 api_type:
 - schema
 ms.assetid: ad0849f8-5158-4a23-9c36-a49f5be1d1e1
 description: TransitionsGroups 元素表示时区转换组的数组。
-ms.openlocfilehash: 35244e122ee31045359afd0833459bbb94fd0aa1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: cd394d0ec333f639542c44cef6c992b24b69f65c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467408"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515120"
 ---
 # <a name="transitionsgroups"></a>TransitionsGroups
 
-**TransitionsGroups**元素表示时区转换组的数组。 
+**TransitionsGroups** 元素表示时区转换组的数组。 
   
 ```XML
 <TransitionsGroups>
@@ -48,8 +48,8 @@ ms.locfileid: "44467408"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[StartTimeZone](starttimezone.md) <br/> |定义[CalendarItem](calendaritem.md)或[MeetingRequest](meetingrequest.md)的开始时间的时区。  <br/> |
-|[EndTimeZone](endtimezone.md) <br/> |定义[CalendarItem](calendaritem.md)或[MeetingRequest](meetingrequest.md)的结束时间的时区。  <br/> |
+|[StartTimeZone](starttimezone.md) <br/> |定义 [CalendarItem](calendaritem.md) 或 [MeetingRequest](meetingrequest.md)的开始时间的时区。  <br/> |
+|[EndTimeZone](endtimezone.md) <br/> |定义 [CalendarItem](calendaritem.md) 或 [MeetingRequest](meetingrequest.md)的结束时间时区。  <br/> |
 |[TimeZoneDefinition](timezonedefinition.md) <br/> |定义时区。  <br/> |
    
 ## <a name="remarks"></a>说明

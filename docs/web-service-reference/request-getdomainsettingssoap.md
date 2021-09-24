@@ -1,24 +1,24 @@
 ---
-title: 请求 (GetDomainSettings) (SOAP)
+title: Request (GetDomainSettings) (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 3ea026fc-74f1-4118-86ae-908ed4f82a4b
-description: Request 元素包含一个返回域设置的请求。
-ms.openlocfilehash: c5f666102be8aaeee001a23706732e9e6c44b560
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Request 元素包含返回域设置的请求。
+ms.openlocfilehash: fbee6479b844ac9026b0cfc0218cdc542ea0f2fd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459586"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540543"
 ---
-# <a name="request-getdomainsettings-soap"></a>请求 (GetDomainSettings) (SOAP)
+# <a name="request-getdomainsettings-soap"></a>Request (GetDomainSettings) (SOAP)
 
-**Request**元素包含一个返回域设置的请求。 
+**Request** 元素包含返回域设置的请求。 
   
 ```xml
 <Request>
@@ -40,14 +40,14 @@ ms.locfileid: "44459586"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[域（SOAP）](domains-soap.md) <br/> |表示在[GetDomainSettings 操作（soap）](getdomainsettings-operation-soap.md)或组织在[GETFEDERATIONINFORMATION 操作（soap）](getfederationinformation-operation-soap.md)中进行了联合的域中返回的配置的域。  <br/> |
-|[RequestedSettings （SOAP）](requestedsettings-soap.md) <br/> |包含所请求的配置设置的名称。  <br/> |
+|[Domains (SOAP)](domains-soap.md) <br/> |表示在 [GetDomainSettings ](getdomainsettings-operation-soap.md) 操作 (SOAP) 中返回的配置或组织在 [GetFederationInformation ](getfederationinformation-operation-soap.md)操作 (SOAP) 中联合的域。  <br/> |
+|[RequestedSettings (SOAP)](requestedsettings-soap.md) <br/> |包含请求的配置设置的名称。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GetDomainSettingsRequestMessage （SOAP）](getdomainsettingsrequestmessage-soap.md) <br/> |表示[GetDomainSettings 操作（SOAP）](getdomainsettings-operation-soap.md)请求。  <br/> |
+|[GetDomainSettingsRequestMessage (SOAP)](getdomainsettingsrequestmessage-soap.md) <br/> |表示 SOAP 请求 [ (GetDomainSettings) ](getdomainsettings-operation-soap.md)操作。  <br/> |
    
 ## <a name="text-value"></a>文本值
 

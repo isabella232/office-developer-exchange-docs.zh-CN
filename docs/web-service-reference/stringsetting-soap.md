@@ -1,24 +1,24 @@
 ---
-title: StringSetting （SOAP）
+title: StringSetting (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: bf7096d8-42d4-4bf5-bbdd-851af2754000
-description: StringSetting 元素表示用户设置其值的类型为 string 类型。
-ms.openlocfilehash: 215d1187c0968577e894c9f9cddea050789697b9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: StringSetting 元素表示用户设置其类型为 string 的值。
+ms.openlocfilehash: 16a59475c82a4088421f5916f1416ab91e7d78d6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463074"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540389"
 ---
-# <a name="stringsetting-soap"></a>StringSetting （SOAP）
+# <a name="stringsetting-soap"></a>StringSetting (SOAP)
 
-**StringSetting**元素表示用户设置其值的类型为 string 类型。 
+**StringSetting** 元素表示用户设置其类型为 string 的值。 
   
 ```XML
 <StringSetting>
@@ -40,8 +40,8 @@ ms.locfileid: "44463074"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[名称（SOAP）](name-soap.md) <br/> |代表用户设置名称。  <br/> |
-|[Value （SOAP）](value-soap.md) <br/> |表示用户设置值。  <br/> |
+|[Name (SOAP)](name-soap.md) <br/> |表示用户设置名称。  <br/> |
+|[Value (SOAP)](value-soap.md) <br/> |表示用户设置值。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -51,9 +51,9 @@ ms.locfileid: "44463074"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-**StringSetting**类型扩展了**UserSetting**类型。 
+**StringSetting** 类型扩展 **UserSetting** 类型。 
   
 ## <a name="element-information"></a>元素信息
 

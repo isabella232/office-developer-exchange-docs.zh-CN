@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ff1b6b1c-3557-41d4-8aa6-9528fdb3a21a
 description: NewReminderTime 元素指定提醒的新时间。
-ms.openlocfilehash: a10f7e481b474501f33dba4c09060766568952b0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 9e6cb75396f35f606bcd974e374f24957ee5d1ec
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465952"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515444"
 ---
 # <a name="newremindertime"></a>NewReminderTime
 
-**NewReminderTime**元素指定提醒的新时间。 
+**NewReminderTime** 元素指定提醒的新时间。 
   
 ```XML
 <NewReminderTime/>
@@ -42,9 +42,9 @@ ms.locfileid: "44465952"
   
 ## <a name="text-value"></a>文本值
 
-**NewReminderTime**元素的文本值是提醒的新时间。 当[ActionType](actiontype-reminderactiontype.md)元素设置为 "**暂停**" 时，将使用**NewReminderTime**元素，以便延迟提醒。 **NewReminderTime**的值必须大于[GetReminders 操作](getreminders-operation.md)返回的[ReminderTime](remindertime.md) 。
+**NewReminderTime** 元素的文本值是提醒的新时间。 **NewReminderTime** 元素在 [ActionType](actiontype-reminderactiontype.md)元素设置为 **Snooze** 时使用，以便延迟提醒。 **NewReminderTime** 的值必须大于 [GetReminders](getreminders-operation.md)操作返回的 [ReminderTime。](remindertime.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

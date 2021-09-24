@@ -5,28 +5,28 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DeleteItemField
 api_type:
 - schema
 ms.assetid: 3893be6a-49a7-49f6-bf53-c7f819ec3f87
-description: DeleteItemField 元素表示在 UpdateItem 调用过程中从项中删除给定属性的操作。
-ms.openlocfilehash: e6f5ee8a1130d7c040f3ddd94021eff6d4a758b0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DeleteItemField 元素表示在 UpdateItem 调用期间从项中删除给定属性的操作。
+ms.openlocfilehash: 7f29dd4e4c14262d7954fb7422e5bee35112e2e4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455672"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540186"
 ---
 # <a name="deleteitemfield"></a>DeleteItemField
 
-**DeleteItemField**元素表示在 UpdateItem 调用过程中从项中删除给定属性的操作。 
+**DeleteItemField** 元素表示在 UpdateItem 调用期间从项中删除给定属性的操作。 
  
 - [UpdateItem](updateitem.md)  
 - [ItemChanges](itemchanges.md) 
 - [ItemChange](itemchange.md) 
-- [更新（项目）](updates-item.md) 
+- [Updates (Item)](updates-item.md) 
 - [DeleteItemField](deleteitemfield.md)
   
 ```xml
@@ -62,14 +62,14 @@ ms.locfileid: "44455672"
 |**元素**|**说明**|
 |:-----|:-----|
 |[FieldURI](fielduri.md) <br/> |标识由 URI 频繁引用的属性。  <br/> |
-|[IndexedFieldURI](indexedfielduri.md) <br/> |标识 dictionary 属性的各个成员。  <br/> |
-|[ExtendedFieldURI](extendedfielduri.md) <br/> |标识扩展 MAPI 属性。  <br/> |
+|[IndexedFieldURI](indexedfielduri.md) <br/> |标识字典属性的单个成员。  <br/> |
+|[ExtendedFieldURI](extendedfielduri.md) <br/> |标识扩展的 MAPI 属性。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[更新（项目）](updates-item.md) <br/> |包含一组元素，这些元素定义追加、设置和删除对项目属性所做的更改。  <br/><br/>下面是此元素的 XPath 表达式： <br/>`/UpdateItem/ItemChanges/ItemChange[i]/Updates` <br/> |
+|[Updates (Item)](updates-item.md) <br/> |包含一组元素，这些元素定义对项目属性的追加、设置和删除更改。  <br/><br/>下面是此元素的 XPath 表达式： <br/>`/UpdateItem/ItemChanges/ItemChange[i]/Updates` <br/> |
    
 ## <a name="remarks"></a>说明
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - EncryptedSharedFolderDataCollection
 api_type:
 - schema
 ms.assetid: 25c6ae87-bbb9-4dd5-a85a-d669fcea137f
-description: EncryptedSharedFolderDataCollection 元素包含一组数据结构，客户端可以使用这些结构来授权共享其日历或联系人数据与其他客户端的共享。
-ms.openlocfilehash: e8ed9221952892abda7b4eac62b16cdc4976c6e2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: EncryptedSharedFolderDataCollection 元素包含一组数据结构，客户端可以使用这些数据结构授权与其他客户端共享其日历或联系人数据。
+ms.openlocfilehash: 868bff4e1afc905196bd4c48eba966cb8b7b08a4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461266"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540074"
 ---
 # <a name="encryptedsharedfolderdatacollection"></a>EncryptedSharedFolderDataCollection
 
-**EncryptedSharedFolderDataCollection**元素包含一组数据结构，客户端可以使用这些结构来授权共享其日历或联系人数据与其他客户端的共享。 
+**EncryptedSharedFolderDataCollection** 元素包含一组数据结构，客户端可以使用这些数据结构授权与其他客户端共享其日历或联系人数据。 
   
 ```xml
 <EncryptedSharedFolderDataCollection>   <EncryptedSharedFolderData/></EncryptedSharedFolderDataCollection>

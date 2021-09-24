@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsSubmitted
 api_type:
 - schema
 ms.assetid: 2399e27e-bd8c-46b6-a3aa-674842e098c9
-description: IsSubmitted 元素指示是否已将项目提交到 "发件箱" 默认文件夹。
-ms.openlocfilehash: 4f28c1577a3586cf751804c51a28205bfda3ae0b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: IsSubmitted 元素指示项目是否已提交到发件箱默认文件夹。
+ms.openlocfilehash: 4914064db10bb2cf9e865a3b1ca8cc65c41f6400
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459922"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514464"
 ---
 # <a name="issubmitted"></a>IsSubmitted
 
-**IsSubmitted**元素指示是否已将项目提交到 "发件箱" 默认文件夹。 
+**IsSubmitted** 元素指示项目是否已提交到发件箱默认文件夹。 
   
 ```xml
 <IsSubmitted/>
@@ -58,7 +58,7 @@ ms.locfileid: "44459922"
    
 ## <a name="text-value"></a>文本值
 
-如果文本值为**true** ，则表示项目已提交到 "发件箱" 文件夹。 
+如果文本值为 **true，** 则表明该项目已提交到发件箱文件夹。 
   
 ## <a name="remarks"></a>说明
 

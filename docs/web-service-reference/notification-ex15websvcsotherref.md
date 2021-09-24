@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Notification
 api_type:
 - schema
 ms.assetid: c9070936-0930-438e-839c-91127256a6c8
-description: Notification 元素包含有关订阅的信息以及自上次通知之后发生的事件。
-ms.openlocfilehash: c4a5206c14985ec46cf40162a9ce4eaec68242ff
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Notification 元素包含有关订阅和自上次通知以来已发生事件的信息。
+ms.openlocfilehash: affd44bb4c1f16029d6da92419908aeac3c26a44
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530385"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515409"
 ---
 # <a name="notification"></a>通知
 
-**Notification**元素包含有关订阅的信息以及自上次通知之后发生的事件。 
+**Notification** 元素包含有关订阅和自上次通知以来已发生事件的信息。 
   
 ```xml
 <Notification>
@@ -109,16 +109,16 @@ ms.locfileid: "44530385"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[SubscriptionId （GetEvents）](subscriptionid-getevents.md) <br/> |表示订阅的标识符。  <br/> |
-|[PreviousWatermark](previouswatermark.md) <br/> |表示成功传递给订阅客户端的最新事件的水印。  <br/> |
-|[MoreEvents](moreevents.md) <br/> |指示队列中是否存在要传递到客户端的更多事件。  <br/> |
-|[CopiedEvent](copiedevent.md) <br/> |表示在其中复制项目或文件夹的事件。  <br/> |
-|[CreatedEvent](createdevent.md) <br/> |代表在其中创建项目或文件夹的事件。  <br/> |
-|[DeletedEvent](deletedevent.md) <br/> |代表在其中删除项目或文件夹的事件。  <br/> |
-|[ModifiedEvent](modifiedevent.md) <br/> |表示在其中修改项或文件夹的事件。  <br/> |
-|[MovedEvent](movedevent.md) <br/> |代表将项目或文件夹从一个父文件夹移动到另一个父文件夹的事件。  <br/> |
-|[NewMailEvent](newmailevent.md) <br/> |代表由邮箱中的新邮件项目触发的事件。  <br/> |
-|[StatusEvent](statusevent.md) <br/> |表示未在邮箱中发生任何新活动的通知。  <br/> |
+|[SubscriptionId (GetEvents)](subscriptionid-getevents.md) <br/> |表示订阅的标识符。  <br/> |
+|[PreviousWatermark](previouswatermark.md) <br/> |表示已成功向客户端传递订阅的最新事件水印。  <br/> |
+|[MoreEvents](moreevents.md) <br/> |指示队列中是否有更多要传递到客户端的事件。  <br/> |
+|[CopiedEvent](copiedevent.md) <br/> |表示复制项目或文件夹的事件。  <br/> |
+|[CreatedEvent](createdevent.md) <br/> |表示创建项目或文件夹的事件。  <br/> |
+|[DeletedEvent](deletedevent.md) <br/> |表示一个删除项目或文件夹的事件。  <br/> |
+|[ModifiedEvent](modifiedevent.md) <br/> |表示项目或文件夹被修改的事件。  <br/> |
+|[MovedEvent](movedevent.md) <br/> |表示一个事件，其中项目或文件夹从一个父文件夹移动到另一个父文件夹。  <br/> |
+|[NewMailEvent](newmailevent.md) <br/> |表示由邮箱中的新邮件项目触发的事件。  <br/> |
+|[StatusEvent](statusevent.md) <br/> |表示邮箱中未发生新活动的通知。  <br/> |
 |[FreeBusyChangedEvent](freebusychangedevent.md) <br/> |表示项目的忙/闲时间已更改的事件。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
@@ -132,7 +132,7 @@ ms.locfileid: "44530385"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
@@ -150,5 +150,5 @@ ms.locfileid: "44530385"
 - [订阅操作](subscribe-operation.md) 
 - [GetEvents 操作](getevents-operation.md) 
 - [GetStreamingEvents 操作](getstreamingevents-operation.md) 
-- [取消订阅操作](unsubscribe-operation.md)
+- [Unsubscribe 操作](unsubscribe-operation.md)
 

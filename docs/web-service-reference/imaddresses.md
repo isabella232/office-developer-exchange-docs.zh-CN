@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ImAddresses
 api_type:
 - schema
 ms.assetid: 29f614a7-7fe6-47fa-b5f2-8feff106aa99
 description: ImAddresses 元素表示联系人的即时消息地址的集合。
-ms.openlocfilehash: 24ff74d29c918d71116e25e097878b6e4e0a8ead
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 83f2b79644e311eb3b7b21f215c7e00df7f1c420
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460426"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515689"
 ---
 # <a name="imaddresses"></a>ImAddresses
 
-**ImAddresses**元素表示联系人的即时消息地址的集合。 
+**ImAddresses** 元素表示联系人的即时消息地址的集合。 
   
 ```xml
 <ImAddresses>
@@ -42,7 +42,7 @@ ms.locfileid: "44460426"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[条目（IMAddress）](entry-imaddress.md) <br/> |表示联系人的即时消息地址。  <br/> |
+|[Entry (IMAddress)](entry-imaddress.md) <br/> |表示联系人的即时消息地址。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 

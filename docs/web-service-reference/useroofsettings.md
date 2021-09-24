@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UserOofSettings
 api_type:
 - schema
 ms.assetid: 0a95ca63-660e-4cc0-82e4-3f74fb4ae21c
-description: UserOofSettings 元素指定 "外出" （OOF）设置。
-ms.openlocfilehash: 417c3d5061a6229d41eb57f72e89f03213acf460
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: UserOofSettings 元素指定 Out of Office (OOF) 设置。
+ms.openlocfilehash: 0fa550a97464414570faf391d3633243ff2e2144
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461903"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513967"
 ---
 # <a name="useroofsettings"></a>UserOofSettings
 
-**UserOofSettings**元素指定 "外出" （OOF）设置。 
+**UserOofSettings** 元素指定 Out of Office (OOF) 设置。 
   
 [SetUserOofSettingsRequest](setuseroofsettingsrequest.md)
   
@@ -51,10 +51,10 @@ ms.locfileid: "44461903"
 |**元素**|**说明**|
 |:-----|:-----|
 |[OofState](oofstate.md) <br/> |设置用户的 OOF 状态。  <br/> |
-|[ExternalAudience](externalaudience.md) <br/> |设置或包含一个值，该值确定要向其发送外部 OOF 邮件的人员。  <br/> |
-|[持续时间（UserOofSettings）](duration-useroofsettings.md) <br/> |如果将[OofState](oofstate.md)元素设置为 "**计划**"，则指定启用了 OOF 状态的持续时间。 如果将[OofState](oofstate.md)元素设置为 "**启用**" 或 "**禁用**"，则忽略此元素的值。  <br/> |
-|[InternalReply](internalreply.md) <br/> |包含发送给用户域或受信任域中的其他用户的 OOF 响应。  <br/> |
-|[ExternalReply](externalreply.md) <br/> |包含发送给收件人域或受信任域外部的地址的 OOF 响应。  <br/> |
+|[ExternalAudience](externalaudience.md) <br/> |设置或包含一个值，该值确定外部 OOF 邮件的发送对象。  <br/> |
+|[Duration (UserOofSettings)](duration-useroofsettings.md) <br/> |指定在 OofState 元素设置为 **Scheduled** 时 [启用 OOF](oofstate.md)状态的持续时间。 如果 [OofState](oofstate.md) 元素设置为 **Enabled** 或 **Disabled，** 则忽略此元素的值。  <br/> |
+|[InternalReply](internalreply.md) <br/> |包含发送给用户域或受信任域中其他用户的 OOF 响应。  <br/> |
+|[ExternalReply](externalreply.md) <br/> |包含发送到收件人域或受信任域外部地址的 OOF 响应。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -68,7 +68,7 @@ ms.locfileid: "44461903"
   
 ## <a name="example"></a>示例
 
-以下示例的 SetUserOofSettings 请求将 OoFState 设置为 "**启用**"，将 "OOF" 的持续时间设置为10天，并设置内部和外部 OOF 邮件。
+SetUserOofSettings 请求的以下示例将 OoFState 设置为 **Enabled，** 将 OOF 的持续时间设置为 10 天，并设置内部和外部 OOF 邮件。
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>

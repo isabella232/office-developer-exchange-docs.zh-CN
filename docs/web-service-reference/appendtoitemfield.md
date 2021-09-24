@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AppendToItemField
 api_type:
 - schema
 ms.assetid: 66dbcb4a-ae6d-4648-8610-67187bdb105c
-description: AppendToItemField 元素标识在 UpdateItem 操作过程中追加到项的单个属性的数据。
-ms.openlocfilehash: 902239155bff45d6f81989de954c9459cf012288
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: AppendToItemField 元素标识在 UpdateItem 操作期间追加到项目的单个属性的数据。
+ms.openlocfilehash: 8e94ca9174d11f1f6e4a0dd2fcfabeb30a64a40d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466043"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540326"
 ---
 # <a name="appendtoitemfield"></a>AppendToItemField
 
-**AppendToItemField**元素标识在[UpdateItem 操作](updateitem-operation.md)过程中追加到项的单个属性的数据。
+**AppendToItemField** 元素标识在 [UpdateItem](updateitem-operation.md)操作过程中追加到项目的单个属性的数据。
   
 - [UpdateItem](updateitem.md)
   
@@ -29,7 +29,7 @@ ms.locfileid: "44466043"
   
 - [ItemChange](itemchange.md)
   
-- [更新（项目）](updates-item.md)
+- [Updates (Item)](updates-item.md)
   
 - [AppendToItemField](appendtoitemfield.md)
   
@@ -71,16 +71,16 @@ ms.locfileid: "44466043"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[更新（项目）](updates-item.md) <br/> |包含定义追加、设置和删除对项属性所做的更改的数组。  <br/> 下面是此元素的 XPath 表达式:  `/UpdateItem/ItemChanges/ItemChange[i]/Updates` <br/> |
+|[Updates (Item)](updates-item.md) <br/> |包含一个数组，该数组定义对项目属性的追加、设置和删除更改。  <br/> 下面是此元素的 XPath 表达式:  `/UpdateItem/ItemChanges/ItemChange[i]/Updates` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-只有某些属性支持 append 操作。 如果尝试追加到不支持追加的属性，则会导致错误。
+只有某些属性支持追加操作。 尝试追加到不支持追加的属性将导致错误。
   
-对于更新操作，只能在单个请求中修改一个属性。 必须在[Path](path.md)元素中引用该单个属性。 然后，派生类中的**Item**元素可以仅保留与单个**Path**元素一致的单个属性。 
+对于更新操作，一个请求中只能修改一个属性。 必须在 Path 元素中引用该 [单个](path.md) 属性。 然后 **，** 派生类中的 Item 元素只能保留与单个 **Path** 元素一致的唯一属性。 
   
 > [!NOTE]
-> [Path](path.md)元素是抽象的。 它必须由[FieldURI](fielduri.md)、 [IndexedFieldURI](indexedfielduri.md)或[ExtendedFieldURI](extendedfielduri.md)元素替代。 
+> [Path](path.md)元素为抽象元素。 它必须替换为[FieldURI、IndexedFieldURI](indexedfielduri.md)或[](fielduri.md)[ExtendedFieldURI](extendedfielduri.md)元素。 
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - HiddenRecipient
 api_type:
 - schema
 ms.assetid: a8209f75-0070-4424-8dcd-273cfd192728
-description: HiddenRecipient 元素指示收件人是由应对非特权用户隐藏的组织策略添加的。
-ms.openlocfilehash: bfe57fabc02ff00c801672b71ccdb0bf1b916bd9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: HiddenRecipient 元素指示收件人是由组织策略添加的，该策略应该对非特权用户隐藏。
+ms.openlocfilehash: 24d7dcad5b8b744351804160ef8d9988b9e393a3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457639"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539687"
 ---
 # <a name="hiddenrecipient"></a>HiddenRecipient
 
-**HiddenRecipient**元素指示收件人是由应对非特权用户隐藏的组织策略添加的。 
+**HiddenRecipient** 元素指示收件人是由组织策略添加的，该策略应该对非特权用户隐藏。 
   
 ```XML
 <HiddenRecipient>true | false</HiddenRecipient>
@@ -48,7 +48,7 @@ ms.locfileid: "44457639"
    
 ## <a name="text-value"></a>文本值
 
-此元素可以是**true** ，也可以是**false**。 **如果值为 true** ，则表示用户是由组织策略添加的;**如果值为 false** ，则表示组织策略未添加用户。 
+此元素可以是 **true** 或 **false**。 值为 **true** 表示用户是由组织策略添加的;false **值表示** 用户不是由组织策略添加的。 
   
 ## <a name="remarks"></a>说明
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CalendarEventDetails
 api_type:
 - schema
 ms.assetid: 2dca0192-b91b-4154-aa09-84da74e875e9
 description: CalendarEventDetails 元素提供有关日历事件的其他信息。
-ms.openlocfilehash: 3e1dbba00bce4a1fdc53f3330527764c516890ab
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: c332d17b1bb630b9635e64c484b4c5fd989f9845
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459067"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516088"
 ---
 # <a name="calendareventdetails"></a>CalendarEventDetails
 
-**CalendarEventDetails**元素提供有关日历事件的其他信息。 
+**CalendarEventDetails** 元素提供有关日历事件的其他信息。 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -63,28 +63,28 @@ ms.locfileid: "44459067"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ID](id.md) <br/> |代表日历项目的条目 ID。  <br/> |
-|[Subject （CalendarEventDetails）](subject-calendareventdetails.md) <br/> |代表 "日历" 项目的主题。  <br/> |
-|[Location （CalendarEventDetails）](location-calendareventdetails.md) <br/> |代表 "日历" 项目的 "位置" 字段。  <br/> |
-|[IsMeeting (CalendarEventDetails)](ismeeting-calendareventdetails.md) <br/> |指示日历事件是否为会议或约会。  <br/> |
-|[IsRecurring （CalendarEventDetails）](isrecurring-calendareventdetails.md) <br/> |指示日历事件是定期日历项目的实例还是单个日历项目。  <br/> |
-|[IsException](isexception.md) <br/> |指示定期日历项目的实例是否已从主控形状更改。  <br/> |
+|[ID](id.md) <br/> |表示日历项目的条目 ID。  <br/> |
+|[Subject (CalendarEventDetails)](subject-calendareventdetails.md) <br/> |表示日历项目的主题。  <br/> |
+|[Location (CalendarEventDetails)](location-calendareventdetails.md) <br/> |表示日历项目的位置字段。  <br/> |
+|[IsMeeting (CalendarEventDetails)](ismeeting-calendareventdetails.md) <br/> |指示日历事件是会议还是约会。  <br/> |
+|[IsRecurring (CalendarEventDetails)](isrecurring-calendareventdetails.md) <br/> |指示日历事件是定期日历项目的实例还是单个日历项目的实例。  <br/> |
+|[IsException](isexception.md) <br/> |指示是否从主控对象更改了定期日历项目的实例。  <br/> |
 |[IsReminderSet](isreminderset.md) <br/> |指示是否已为日历事件设置提醒。  <br/> |
-|[IsPrivate](isprivate.md) <br/> |指示日历项目是否为私有。  <br/> |
+|[IsPrivate](isprivate.md) <br/> |指示日历项目是否私有。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[CalendarEvent](calendarevent.md) <br/> |代表唯一的日历项目事件。  <br/> 以下是此元素的 XPath 2.0 表达式：  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]` <br/> |
+|[CalendarEvent](calendarevent.md) <br/> |表示唯一的日历项目事件。  <br/> 下面是此元素的 XPath 2.0 表达式：  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-所有子元素都按它们出现的顺序列出。 
+所有子元素都按其发生顺序列出。 
   
-如果[IsPrivate](isprivate.md)元素为**true**，则不会在响应中返回[CalendarEventDetails](calendareventdetails.md)元素中的所有其他元素。 
+如果 [IsPrivate](isprivate.md) 元素 **为 true，** 则响应中不会返回 [CalendarEventDetails](calendareventdetails.md) 元素中的所有其他元素。 
   
-除非呼叫者拥有对目标用户日历的读取访问权限，否则 GetUserAvailability 操作不会返回详细的呼叫者信息。 您可以使用 Exchange 命令行管理程序设置访问权限。
+GetUserAvailability 操作不会返回详细的呼叫者信息，除非呼叫者对目标用户的日历具有读取访问权限。 可以使用命令行管理程序设置Exchange权限。
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

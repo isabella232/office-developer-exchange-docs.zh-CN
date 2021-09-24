@@ -1,23 +1,23 @@
 ---
-title: LegacyDn （NonEmptyArrayOfLegacyDNsType）
+title: LegacyDn (NonEmptyArrayOfLegacyDNsType)
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 194f7ce3-8f6c-4da7-abc5-bf8283bdfb83
-description: LegacyDn （NonEmptyArrayOfLegacyDNsType）元素仅供内部使用。
-ms.openlocfilehash: d4daf06ea7d58224def4b2f2bea64637398532a3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: LegacyDn (NonEmptyArrayOfLegacyDNsType) 仅供内部使用。
+ms.openlocfilehash: aeb388725341427b2cd354abcc3f61985777e2d6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530759"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540851"
 ---
-# <a name="legacydn-nonemptyarrayoflegacydnstype"></a>LegacyDn （NonEmptyArrayOfLegacyDNsType）
+# <a name="legacydn-nonemptyarrayoflegacydnstype"></a>LegacyDn (NonEmptyArrayOfLegacyDNsType)
 
-**LegacyDn （NonEmptyArrayOfLegacyDNsType）** 元素仅供内部使用。 
+LegacyDn **(NonEmptyArrayOfLegacyDNsType**) 仅供内部使用。 
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
@@ -35,7 +35,7 @@ ms.locfileid: "44530759"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   

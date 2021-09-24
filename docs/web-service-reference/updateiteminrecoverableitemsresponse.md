@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2f61b038-eba0-40fc-8af2-c3db5cc5a420
 description: UpdateItemInRecoverableItemsResponse 元素指定对 UpdateItemInRecoverableItems 请求的响应。
-ms.openlocfilehash: 02e030774949e895bc89579cb9364d08c7844ce3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: e5020ac3c8263d0b837636f998302754aafb8687
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466554"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514030"
 ---
 # <a name="updateiteminrecoverableitemsresponse"></a>UpdateItemInRecoverableItemsResponse
 
-**UpdateItemInRecoverableItemsResponse**元素指定对**UpdateItemInRecoverableItems**请求的响应。 
+**UpdateItemInRecoverableItemsResponse** 元素指定 **对 UpdateItemInRecoverableItems** 请求的响应。 
   
 ```XML
 <UpdateItemInRecoverableItemsResponse>
@@ -42,13 +42,13 @@ ms.locfileid: "44466554"
   
 ### <a name="child-elements"></a>子元素
 
-[MessageText](messagetext.md)  | [ResponseCode](responsecode.md)  | [DescriptiveLinkKey](descriptivelinkkey.md)  | [MessageXml](messagexml.md)  | [项目](items.md)  | [附件](attachments-ex15websvcsotherref.md)  | [ConflictResults](conflictresults.md)
+[MessageText](messagetext.md)  | [ResponseCode](responsecode.md)  | [DescriptiveLinkKey](descriptivelinkkey.md)  | [MessageXml](messagexml.md)  | [Items](items.md)  | [附件](attachments-ex15websvcsotherref.md)  | [ConflictResults](conflictresults.md)
   
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

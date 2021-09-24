@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7055c86f-c364-42d3-87b4-c741ccb15c57
-description: CreatedTime 元素指定创建项目的时间。
-ms.openlocfilehash: 709e6021e48a9f2b4857b9283750306d5e513c72
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: CreatedTime 元素指定项目的创建时间。
+ms.openlocfilehash: d1ad8a0bff805589aa8fb430a2287ea28abe5258
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44445312"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515857"
 ---
 # <a name="createdtime"></a>CreatedTime
 
-**CreatedTime**元素指定创建项目的时间。 
+**CreatedTime** 元素指定项目的创建时间。 
   
 ```xml
 <CreatedTime></CreatedTime>
@@ -40,13 +40,13 @@ ms.locfileid: "44445312"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[SearchPreviewItem](searchpreviewitem.md) <br/> |指定在不打开项目的情况下预览邮箱项目的前256个字符。  <br/> |
+|[SearchPreviewItem](searchpreviewitem.md) <br/> |指定用于预览的邮箱项目的前 256 个字符，而无需打开该项目。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-CreatedTime 元素的文本值是创建项目的时间。 
+CreatedTime 元素的文本值是项目创建的时间。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -58,7 +58,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

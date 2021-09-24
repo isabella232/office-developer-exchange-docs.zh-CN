@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 04a6968d-7fb5-47ee-b66e-dc99c35dbb63
-description: HasStartTimeChanged 元素指定会议的开始时间是否已更改。
-ms.openlocfilehash: 1355917005d956d05064bfc095055fb72aa16c57
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: HasStartTimeChanged 元素指定是否更改了会议开始时间。
+ms.openlocfilehash: 7f04c4d34a081b91adbb0796019e93bc50bfb8ab
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462743"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539645"
 ---
 # <a name="hasstarttimechanged"></a>HasStartTimeChanged
 
-**HasStartTimeChanged**元素指定会议的开始时间是否已更改。 
+**HasStartTimeChanged** 元素指定是否更改了会议开始时间。 
   
 ```XML
 <HasStartTimeChanged> true | false </HasStartTimeChanged>
@@ -40,13 +40,13 @@ ms.locfileid: "44462743"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ChangeHighlights](changehighlights.md) <br/> |指定会议请求邮件的两个版本之间的变化。  <br/> |
+|[ChangeHighlights](changehighlights.md) <br/> |指定两个版本的会议请求邮件之间已更改内容。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-如果**HasStartTimeChanged**元素的文本值为**true** ，则表示会议的开始时间已更改。 **如果值为 false** ，则表示开始时间尚未更改。 
+**HasStartTimeChanged** 元素的文本值 **true** 指示会议开始时间已更改。 false **值表示** 开始时间未更改。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -58,7 +58,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

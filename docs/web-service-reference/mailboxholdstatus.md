@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 92608b77-8aa4-403b-a4de-01e3a60af3e0
 description: MailboxHoldStatus 元素指定邮箱的保留状态。
-ms.openlocfilehash: 2ac575275fc00d2e3ba38cb4ec7335567ee82da6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: de63acb14862e9f8cefded7130318c7f8cbd685f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468808"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540767"
 ---
 # <a name="mailboxholdstatus"></a>MailboxHoldStatus
 
-**MailboxHoldStatus**元素指定邮箱的保留状态。 
+**MailboxHoldStatus** 元素指定邮箱的保留状态。 
   
 ```XML
 <MailboxHoldStatus>
@@ -39,13 +39,13 @@ ms.locfileid: "44468808"
   
 ### <a name="child-elements"></a>子元素
 
-[邮箱（字符串）](mailbox-string.md)  | [状态（HoldStatusType）](status-holdstatustype.md)  | [AdditionalInfo](additionalinfo.md)
+[邮箱 (字符串) ](mailbox-string.md)  | [Status (HoldStatusType) ](status-holdstatustype.md)  | [AdditionalInfo](additionalinfo.md)
   
 ### <a name="parent-elements"></a>父元素
 
 [MailboxHoldStatuses](mailboxholdstatuses.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

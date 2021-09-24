@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DisplayCc
 api_type:
 - schema
 ms.assetid: af386e06-80f3-42c7-8b3c-1f7993c49d10
-description: DisplayCc 元素表示用于 "抄送" 框内容的显示字符串。 这是所有 Cc 收件人显示名称的串联字符串。
-ms.openlocfilehash: 74e033751a464111a8451247d0bdb08c35b55708
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DisplayCc 元素表示用于"抄送"框内容的显示字符串。 这是所有"抄送"收件人显示名称的串联字符串。
+ms.openlocfilehash: 9c0ec732256cd45b0c7aa1f12136620981af6944
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456540"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513806"
 ---
 # <a name="displaycc"></a>DisplayCc
 
-**DisplayCc**元素表示用于 "抄送" 框内容的显示字符串。 这是所有 Cc 收件人显示名称的串联字符串。 
+**DisplayCc** 元素表示用于"抄送"框内容的显示字符串。 这是所有"抄送"收件人显示名称的串联字符串。 
   
 ```xml
 <DisplayCc/>
@@ -57,7 +57,7 @@ ms.locfileid: "44456540"
    
 ## <a name="text-value"></a>文本值
 
-Text 值表示用于 "抄送" 框中的内容的显示字符串。
+文本值表示用于"抄送"框内容的显示字符串。
   
 ## <a name="remarks"></a>说明
 

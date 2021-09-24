@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c9850a25-1560-4ed8-969c-dc3e59dde207
-description: WorkCity 元素指定关联角色的工作所在的城市。
-ms.openlocfilehash: 712544d60fde15b3d630ecd00b9b5dfbb16a7dd5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: WorkCity 元素指定相关人员工作的城市。
+ms.openlocfilehash: c498c40d66b6bd57833f37bbe88c12bef85f9a99
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459712"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514954"
 ---
 # <a name="workcity"></a>WorkCity
 
-**WorkCity**元素指定关联角色的工作所在的城市。 
+**WorkCity** 元素指定相关人员工作的城市。 
   
 ```XML
 <WorkCity></WorkCity>
@@ -42,9 +42,9 @@ ms.locfileid: "44459712"
   
 ## <a name="text-value"></a>文本值
 
-**WorkCity**元素的文本值是关联的角色在其中工作的城市。 
+**WorkCity** 元素的文本值是相关人物工作的城市。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

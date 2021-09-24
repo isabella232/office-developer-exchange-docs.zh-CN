@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 841d229c-140c-48bd-b3a7-21478fcea2fb
-description: MinimumSize 元素表示要应用的条件或例外的邮件必须满足的最小大小。
-ms.openlocfilehash: b43a8b5916747c4e3e4ca9b66cf8b9d73f5f8942
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: MinimumSize 元素表示邮件必须达到的最小大小，以便条件或例外适用。
+ms.openlocfilehash: c3f1284a5a82731093863b0a621bcf2f7f55cf22
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464201"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540648"
 ---
 # <a name="minimumsize"></a>MinimumSize
 
-**MinimumSize**元素表示要应用的条件或例外的邮件必须满足的最小大小。 
+**MinimumSize** 元素表示邮件必须达到的最小大小，以便条件或例外适用。 
   
 ```XML
 <MinimumSize/>
@@ -40,11 +40,11 @@ ms.locfileid: "44464201"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[WithinSizeRange](withinsizerange.md) <br/> |指定传入邮件必须满足的最小和最大大小，以便条件或例外情况适用。  <br/> |
+|[WithinSizeRange](withinsizerange.md) <br/> |指定传入邮件必须达到的最小和最大大小，以便条件或例外适用。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-Text 值是一个整数，用于标识邮件的最小大小（以字节为单位）。
+文本值是一个整数，用于标识邮件的最小大小（以字节为单位）。
   
 ## <a name="remarks"></a>说明
 

@@ -1,23 +1,23 @@
 ---
-title: 名称（字符串）
+title: Name (string)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cffb41de-b8d0-4efd-8a39-2804025332fe
 description: Name 元素指定搜索精简条件名称。
-ms.openlocfilehash: 017734cae2aaff41f16f1caa9120824666ab9887
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 80edad0097924868463b126a270bc6497401129a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466876"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539286"
 ---
-# <a name="name-string"></a>名称（字符串）
+# <a name="name-string"></a>Name (string)
 
-**Name**元素指定搜索精简条件名称。 
+**Name** 元素指定搜索精简条件名称。 
   
 ```XML
 <Name></Name>
@@ -39,13 +39,13 @@ ms.locfileid: "44466876"
   
 ### <a name="parent-elements"></a>父元素
 
-[精简程序](refiner.md)
+[Refiner](refiner.md)
   
 ## <a name="text-value"></a>文本值
 
-**Name**元素的文本值是搜索精简程序的名称。 
+**Name** 元素的文本值是搜索精简条件的名称。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

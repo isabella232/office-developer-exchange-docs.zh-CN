@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bb4dbe9b-aea0-4527-b7d6-e928066caf38
-description: InstanceKey 元素指定项或对话的实例键。
-ms.openlocfilehash: a6b55b9021fe63be7f678f0a1bcb24e88aeba005
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: InstanceKey 元素指定项目或对话的实例键。
+ms.openlocfilehash: 4665620d49f153fe70a57c5214b3bd28cd97ca50
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459971"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539561"
 ---
 # <a name="instancekey"></a>InstanceKey
 
-**InstanceKey**元素指定项或对话的实例键。 
+**InstanceKey** 元素指定项目或对话的实例键。 
   
 ```XML
 <InstanceKey></InstanceKey>
@@ -41,13 +41,13 @@ ms.locfileid: "44459971"
 |**元素**|**说明**|
 |:-----|:-----|
 |[对话 (ConversationType)](conversation-conversationtype.md) <br/> |表示单个对话。  <br/> |
-|[项](item.md) <br/> |表示 Exchange 存储中的一般项目。  <br/> |
+|[项目](item.md) <br/> |表示活动存储中的Exchange项。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**InstanceKey**元素的文本值是项目或对话的实例键。 
+**InstanceKey** 元素的文本值是项目或对话的实例键。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -59,7 +59,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

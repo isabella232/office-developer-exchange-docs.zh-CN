@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c1834b40-ab2a-4c67-a93a-eaadc9523fda
-description: 关键字元素指定单个关键字。
-ms.openlocfilehash: cdb944aa7b5a8335d840555400381f1d863ded82
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Keyword 元素指定单个关键字。
+ms.openlocfilehash: 62d993f0f36a3d02991f15f4e37435c6db19c24f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458101"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514429"
 ---
 # <a name="keyword"></a>关键字
 
-**关键字**元素指定单个关键字。 
+Keyword 元素指定单个关键字。 
   
 ```XML
 <Keyword></Keyword>
@@ -42,9 +42,9 @@ ms.locfileid: "44458101"
   
 ## <a name="text-value"></a>文本值
 
-**关键字**元素的文本值是代表单个关键字统计信息的单个关键字的名称。 
+**Keyword** 元素的文本值是表示单个关键字统计信息的单个关键字的名称。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

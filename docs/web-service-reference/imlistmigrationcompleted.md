@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6eed9502-5d9e-4345-ba23-3582ff487147
-description: ImListMigrationCompleted 元素指示 Exchange 存储是否包含即时消息客户端使用的即时消息项目。
-ms.openlocfilehash: 09f37d6e3663aab7cb98fc922f727ddd604f2acd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ImListMigrationCompleted 元素指示Exchange存储是否包含即时消息客户端使用的即时消息项目。
+ms.openlocfilehash: b55f3d72259897d7bdf46b351421b0148a41b93e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456022"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514611"
 ---
 # <a name="imlistmigrationcompleted"></a>ImListMigrationCompleted
 
-**ImListMigrationCompleted**元素指示 Exchange 存储是否包含即时消息客户端使用的即时消息项目。 
+**ImListMigrationCompleted** 元素指示Exchange存储是否包含即时消息客户端使用的即时消息项目。 
   
 ```XML
 <ImListMigrationCompleted>true | false</ImListMigrationCompleted>
@@ -42,9 +42,9 @@ ms.locfileid: "44456022"
   
 ## <a name="text-value"></a>文本值
 
-如果**ImListMigrationCompleted**元素的文本值为**true** ，则表示即时消息联系人存储已迁移到 Exchange 存储。 **如果值为 false** ，则表示即时消息联系人存储尚未迁移。 
+**ImListMigrationCompleted** 元素的文本值 **true** 指示即时消息联系人存储已迁移到 Exchange 存储。 false **值表示** 尚未迁移即时消息联系人存储。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

@@ -1,27 +1,27 @@
 ---
-title: 事件（时区转换）
+title: Occurrence (Time Zone Transition)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Occurrence
 api_type:
 - schema
 ms.assetid: 5c1142b1-c51f-42e1-bbb2-57e00cad0fdb
-description: 具体值元素表示发生时区转换的月份中的一周中的某一天的匹配项。
-ms.openlocfilehash: 846f6b22f43bcda07b9408d768d0845a5acfe668
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Occurrence 元素表示发生时区转换的一周中的一天。
+ms.openlocfilehash: 9790b0e9541da0c22f2eac59850b8a361645c7b4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467975"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539274"
 ---
-# <a name="occurrence-time-zone-transition"></a>事件（时区转换）
+# <a name="occurrence-time-zone-transition"></a>Occurrence (Time Zone Transition)
 
-**具体**值元素表示发生时区转换的月份中的一周中的某一天的匹配项。 
+**Occurrence** 元素表示发生时区转换的一周中的一天。 
   
 ```xml
 <Occurrence/>
@@ -43,28 +43,28 @@ ms.locfileid: "44467975"
   
 ### <a name="parent-elements"></a>父元素
 
-|**元素**|**描述**|
+|**元素**|**说明**|
 |:-----|:-----|
 |[RecurringDayTransition](recurringdaytransition.md) <br/> |表示时区转换发生在每年的同一天。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-Text 值是一个整数，表示发生时区转换的月份中的某一天的匹配项。 下表列出了可能的值。
+文本值是一个整数，表示发生时区转换的一周中的一天。 下表列出了可能的值。
   
 |**值**|**说明**|
 |:-----|:-----|
-|1  <br/> |指定的一周中第一天的第一次发生，从月初算起。  <br/> |
-|双面  <br/> |第二次在一周中的某一天中指定的一天。  <br/> |
-|第三章  <br/> |一周中指定日期的第三个匹配项。  <br/> |
-|4   <br/> |从一月开始算起的指定星期几的第四个事件。  <br/> |
-|-1  <br/> |一周中指定的一天的第一个匹配项，从月初结束。  <br/> |
-|-2  <br/> |第二次出现在一周中的某一天，从月末结束。  <br/> |
-|-3  <br/> |一周中指定的某一天的第三个事件（月份结束）。  <br/> |
-|-4  <br/> |一周中指定日期的第四个事件（月份结束）。  <br/> |
+|1  <br/> |从该月开始一周中指定日期的第一次出现。  <br/> |
+|2  <br/> |从该月开始一周中指定日期的第二次出现。  <br/> |
+|3  <br/> |从该月开始一周中指定日期的第三次发生。  <br/> |
+|4   <br/> |从该月开始一周中指定日期的第四次发生。  <br/> |
+|-1  <br/> |从当月结束的一周中的指定日期的第一次出现。  <br/> |
+|-2  <br/> |从当月结束起一周中指定日期的第二次出现。  <br/> |
+|-3  <br/> |从当月结束的一周中的指定日期的第三次出现。  <br/> |
+|-4  <br/> |从当月结束起一周中指定日期的第四次发生。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-描述此元素的架构位于运行 Microsoft Exchange Server 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
+描述此元素的架构位于运行已安装客户端访问服务器角色Microsoft Exchange Server的计算机的 EWS 虚拟目录中。
   
 ## <a name="element-information"></a>元素信息
 

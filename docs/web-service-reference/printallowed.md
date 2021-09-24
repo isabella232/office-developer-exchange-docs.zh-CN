@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7232505a-bab0-4d78-87bc-6cc4b568937a
 description: PrintAllowed 元素指定是否启用打印。
-ms.openlocfilehash: ac38491d563916160b4d00165b743c51cb29fe00
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 4de966d498914d78e385e482b500b3f0fac76144
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468745"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516410"
 ---
 # <a name="printallowed"></a>PrintAllowed
 
-**PrintAllowed**元素指定是否启用打印。 
+**PrintAllowed** 元素指定是否启用打印。 
   
 ```XML
 <PrintAllowed> true | false </PrintAllowed>
@@ -42,9 +42,9 @@ ms.locfileid: "44468745"
   
 ## <a name="text-value"></a>文本值
 
-如果**PrintAllowed**元素的文本值为**true** ，则表示权限管理项的打印内容是允许的。 **如果值为 false** ，则表示不允许打印。 
+**PrintAllowed** 元素的文本值 **true** 指示允许打印权限管理项的内容。 false **值表示** 不允许打印。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

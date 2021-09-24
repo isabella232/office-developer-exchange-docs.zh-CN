@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateFolder
 api_type:
 - schema
 ms.assetid: 6f6c334c-b190-4e55-8f0a-38f2a018d1b3
-description: CreateFolder 操作将创建文件夹、日历文件夹、联系人文件夹、任务文件夹和搜索文件夹。
-ms.openlocfilehash: 125a6d212e5eaf85ace71c048de809f3a05ba9b6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: CreateFolder 操作创建文件夹、日历文件夹、联系人文件夹、任务文件夹和搜索文件夹。
+ms.openlocfilehash: 1b6259ba15e31ee9976c08afa8971ead9a1d5b16
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457548"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515850"
 ---
 # <a name="createfolder-operation"></a>CreateFolder 操作
 
-CreateFolder 操作将创建文件夹、日历文件夹、联系人文件夹、任务文件夹和搜索文件夹。
+CreateFolder 操作创建文件夹、日历文件夹、联系人文件夹、任务文件夹和搜索文件夹。
   
 ## <a name="createfolder-request-example"></a>CreateFolder 请求示例
 
 ### <a name="description"></a>Description
 
-以下示例的 CreateFolder 请求显示如何在邮箱根目录中形成创建两个新文件夹的请求。
+CreateFolder 请求的以下示例显示如何形成请求，以在邮箱根目录下创建两个新文件夹。
   
 ### <a name="code"></a>代码
 
@@ -53,13 +53,13 @@ CreateFolder 操作将创建文件夹、日历文件夹、联系人文件夹、�
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Request 元素
+### <a name="request-elements"></a>请求元素
 
-请求中使用以下元素：
+请求中会使用下列元素：
   
 - [CreateFolder](createfolder.md)
     
-- [ParentFolderId （TargetFolderIdType）](parentfolderid-targetfolderidtype.md)
+- [ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md)
     
 - [DistinguishedFolderId](distinguishedfolderid.md)
     
@@ -70,23 +70,23 @@ CreateFolder 操作将创建文件夹、日历文件夹、联系人文件夹、�
 - [显示名称 (字符串)](displayname-string.md)
     
 > [!NOTE]
-> 描述这些元素的架构位于运行 MicrosoftExchange Server 2007 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。 
+> 描述这些元素的架构位于运行安装了客户端访问服务器角色的 MicrosoftExchange Server 2007 的计算机的 EWS 虚拟目录中。 
   
-若要查找 CreateFolder 操作的请求消息的其他选项，请浏览架构层次结构。 从[CreateFolder](createfolder.md)元素开始。 
+若要查找 CreateFolder 操作的请求消息的其他选项，请浏览架构层次结构。 从 [CreateFolder 元素](createfolder.md) 开始。 
   
 > [!NOTE]
-> 如果使用**calendar：管理器**属性创建具有限制的搜索文件夹，后续的 get 文件夹调用将返回限制，并显示邮件的位置 **： from**属性。 这两个属性映射到相同的基础 MAPI 属性。 
+> 如果使用 **calendar：Organizer** 属性创建具有限制的搜索文件夹，后续的 get 文件夹调用将返回限制，其位置为 **message：from** 属性。 这两个属性映射到相同的基础 MAPI 属性。 
   
-仅当使用通用文件夹 type 元素创建文件夹并设置**FolderClass**元素时，CreateFolder 操作才支持创建自定义文件夹类。 
+只有在使用通用文件夹类型元素创建文件夹并设置 FolderClass 元素时 **，CreateFolder** 操作才支持创建自定义文件夹类。 
   
 ## <a name="successful-createfolder-response-example"></a>成功的 CreateFolder 响应示例
 
 ### <a name="description"></a>Description
 
-下面的示例演示对 CreateFolder 请求的成功响应。 在此示例中，响应返回新文件夹的标识符。
+以下示例显示了对 CreateFolder 请求的成功响应。 本示例中，响应返回新文件夹的标识符。
   
 > [!NOTE]
-> 文件夹 ID 和更改密钥已缩短，以保持可读性。 
+> 已缩短文件夹 ID 和更改键以保持可读性。 
   
 ### <a name="code"></a>代码
 
@@ -128,7 +128,7 @@ CreateFolder 操作将创建文件夹、日历文件夹、联系人文件夹、�
 
 ### <a name="successful-response-elements"></a>成功的响应元素
 
-响应中使用以下元素：
+响应中会使用下列元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -146,13 +146,13 @@ CreateFolder 操作将创建文件夹、日历文件夹、联系人文件夹、�
     
 - [FolderId](folderid.md)
     
-若要查找 CreateFolder 操作的响应邮件的其他选项，请浏览架构层次结构。 从[CreateFolderResponse](createfolderresponse.md)元素开始。 
+若要查找 CreateFolder 操作的响应消息的其他选项，请浏览架构层次结构。 从 [CreateFolderResponse 元素](createfolderresponse.md) 开始。 
   
 ## <a name="createfolder-error-response"></a>CreateFolder 错误响应
 
 ### <a name="description"></a>Description
 
-下面的示例演示对 CreateFolder 请求的错误响应。
+以下示例显示对 CreateFolder 请求的错误响应。
   
 ### <a name="code"></a>代码
 
@@ -184,7 +184,7 @@ CreateFolder 操作将创建文件夹、日历文件夹、联系人文件夹、�
 
 ### <a name="error-response-elements"></a>错误响应元素
 
-错误响应中使用以下元素：
+错误响应中会使用下列元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -202,7 +202,7 @@ CreateFolder 操作将创建文件夹、日历文件夹、联系人文件夹、�
     
 - [Folders](folders-ex15websvcsotherref.md)
     
-若要查找 CreateFolder 操作的错误响应消息的其他选项，请浏览架构层次结构。 从[CreateFolderResponse](createfolderresponse.md)元素开始。 
+若要查找 CreateFolder 操作的错误响应消息的其他选项，请浏览架构层次结构。 从 [CreateFolderResponse 元素](createfolderresponse.md) 开始。 
   
 ## <a name="see-also"></a>另请参阅
 

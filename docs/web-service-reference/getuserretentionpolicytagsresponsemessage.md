@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9991d6e0-8c31-4e73-8af3-da4298474b66
 description: GetUserRetentionPolicyTagsResponseMessage 元素指定 GetUserRetentionPolicyTags 请求的响应消息。
-ms.openlocfilehash: e65266e72010f42a2052bbb8cfab21ea4059f92b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 2d37a28f3babfdc5abc862338f53796ed187ec6c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461805"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515794"
 ---
 # <a name="getuserretentionpolicytagsresponsemessage"></a>GetUserRetentionPolicyTagsResponseMessage
 
-**GetUserRetentionPolicyTagsResponseMessage**元素指定**GetUserRetentionPolicyTags**请求的响应消息。 
+**GetUserRetentionPolicyTagsResponseMessage** 元素指定 **GetUserRetentionPolicyTags** 请求的响应消息。 
   
 ```XML
 <GetUserRetentionPolicyTagsResponseMessage>
@@ -46,7 +46,7 @@ ms.locfileid: "44461805"
 
 [ResponseMessages](responsemessages.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -58,7 +58,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
-|验证文件  <br/> |消息 .xsd  <br/> |
+|验证文件  <br/> |messages.xsd  <br/> |
 |可以为空  <br/> |false  <br/> |
    
 

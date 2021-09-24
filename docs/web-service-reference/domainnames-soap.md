@@ -1,22 +1,22 @@
 ---
-title: DomainNames （SOAP）
+title: DomainNames (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 79ffc3f9-25c4-40b5-84ce-09a3c5f892fa
-description: DomainNames 元素表示域名集合。 DomainNames 元素仅供内部使用。 客户端不使用此元素。
-ms.openlocfilehash: 0b425b3cd4c0e7cb2427920d61feb04010a3b123
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DomainNames 元素表示域名集合。 DomainNames 元素供内部使用。 此元素不由客户端使用。
+ms.openlocfilehash: 7697b05d7432051b9048837cb41894684f52be15
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458416"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59526414"
 ---
-# <a name="domainnames-soap"></a>DomainNames （SOAP）
+# <a name="domainnames-soap"></a>DomainNames (SOAP)
 
-**DomainNames**元素表示域名集合。 **DomainNames**元素仅供内部使用。 客户端不使用此元素。 
+**DomainNames** 元素表示域名集合。 **DomainNames** 元素供内部使用。 此元素不由客户端使用。 
   
 ```XML
 <DomainNames>
@@ -37,19 +37,19 @@ ms.locfileid: "44458416"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[域（SOAP）](domains-soap.md) <br/> |表示从[GetDomainSettings 操作（soap）](getdomainsettings-operation-soap.md)、 [GETFEDERATIONINFORMATION 操作（Soap）](getfederationinformation-operation-soap.md)或[GetOrganizationRelationshipSettings 操作（soap）](getorganizationrelationshipsettings-operation-soap.md)返回的域的集合。  <br/> |
+|[Domains (SOAP)](domains-soap.md) <br/> |表示从 [GetDomainSettings ](getdomainsettings-operation-soap.md)操作 (SOAP [) 、GetFederationInformation 操作 (SOAP) ](getfederationinformation-operation-soap.md)或 [GetOrganizationRelationshipSettings ](getorganizationrelationshipsettings-operation-soap.md)操作 (SOAP) 返回的域的集合。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[OrganizationRelationshipSettings （SOAP）](organizationrelationshipsettings-soap.md) <br/> |表示单个组织的组织关系列表。  <br/> |
+|[OrganizationRelationshipSettings (SOAP)](organizationrelationshipsettings-soap.md) <br/> |表示单个组织的组织关系列表。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此元素表示外部组织的 SMTP 域。
   
@@ -64,5 +64,5 @@ ms.locfileid: "44458416"
    
 ## <a name="see-also"></a>另请参阅
 
-- [GetOrganizationRelationshipSettings 操作（SOAP）](getorganizationrelationshipsettings-operation-soap.md)
+- [GetOrganizationRelationshipSettings 操作 (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
 

@@ -1,22 +1,22 @@
 ---
-title: Uri （SOAP）
+title: Uri (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4a82162a-716d-4002-820e-5bbcfb4a9696
 description: URI 元素指定颁发安全令牌的安全令牌服务。
-ms.openlocfilehash: f4b22551eebcc318b2063feb70799839acd62c17
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 956f326790645db48f0ffe41334b4130d1e176a3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526569"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513974"
 ---
-# <a name="uri-soap"></a>Uri （SOAP）
+# <a name="uri-soap"></a>Uri (SOAP)
 
-**URI**元素指定颁发安全令牌的安全令牌服务。 
+**URI** 元素指定颁发安全令牌的安全令牌服务。 
   
 ```XML
 <Uri/>
@@ -39,11 +39,11 @@ ms.locfileid: "44526569"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[TokenIssuer （SOAP）](tokenissuer-soap.md) <br/> |指定安全令牌服务的 URI 和终结点。  <br/> |
+|[TokenIssuer (SOAP)](tokenissuer-soap.md) <br/> |指定安全令牌服务的 URI 和 Endpoint。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-该文本值表示安全令牌服务的 URI。
+文本值表示安全令牌服务的 URI。
   
 ## <a name="element-information"></a>元素信息
 

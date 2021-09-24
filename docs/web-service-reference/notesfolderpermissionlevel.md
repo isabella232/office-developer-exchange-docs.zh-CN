@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - NotesFolderPermissionLevel
 api_type:
 - schema
 ms.assetid: 76a2520c-f453-4fd7-b3eb-1c5f4666680a
-description: NotesFolderPermissionLevel 元素包含默认 "便笺" 文件夹的权限。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
-ms.openlocfilehash: 205802592a1fc01451b4fc497e9e0c4c66afd478
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: NotesFolderPermissionLevel 元素包含默认 Notes 文件夹的权限。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
+ms.openlocfilehash: c7dbcbad6213c9ceccbcdf03b8e684c8523627e2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462624"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539260"
 ---
 # <a name="notesfolderpermissionlevel"></a>NotesFolderPermissionLevel
 
-**NotesFolderPermissionLevel**元素包含默认 "便笺" 文件夹的权限。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
+**NotesFolderPermissionLevel** 元素包含默认 Notes 文件夹的权限。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
   
 ```xml
 <NotesFolderPermissionLevel>
@@ -46,7 +46,7 @@ ms.locfileid: "44462624"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[DelegatePermissions](delegatepermissions.md) <br/> |包含用户的代理权限级别设置。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
+|[DelegatePermissions](delegatepermissions.md) <br/> |包含用户的委派权限级别设置。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
@@ -56,11 +56,11 @@ ms.locfileid: "44462624"
 
 |**权限级别**|**说明**|
 |:-----|:-----|
-|无  <br/> |代理用户对 "便笺" 文件夹没有访问权限。  <br/> |
-|Reviewer  <br/> |代理用户可以读取 "便笺" 文件夹中的项目。  <br/> |
-|作者  <br/> |代理用户可以读取和创建 "便笺" 文件夹中的项目。  <br/> |
-|编辑器  <br/> |代理用户可以读取、创建和修改 "便笺" 文件夹中的项目。  <br/> |
-|自定义警报  <br/> |代理用户对 "便笺" 文件夹具有自定义访问权限。  <br/> |
+|无  <br/> |代理用户对"便笺"文件夹没有访问权限。  <br/> |
+|Reviewer  <br/> |代理用户可以读取"便笺"文件夹中的项目。  <br/> |
+|作者  <br/> |代理用户可以读取和创建"便笺"文件夹中的项目。  <br/> |
+|编辑器  <br/> |代理用户可以读取、创建和修改"便笺"文件夹中的项目。  <br/> |
+|自定义警报  <br/> |代理用户具有对"便笺"文件夹的自定义访问权限。  <br/> |
    
 ## <a name="remarks"></a>说明
 
@@ -87,5 +87,5 @@ ms.locfileid: "44462624"
 - [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 
 
-[添加委派](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
+[添加代理人](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
 

@@ -1,23 +1,23 @@
 ---
-title: ImAddress （字符串）
+title: ImAddress (String)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fa10fcdb-f947-4958-ad5a-afaed1661f52
-description: ImAddress 元素包含角色的主即时消息地址。
-ms.openlocfilehash: 2cfb8c7e0ccf5454fd5a201819882acbe0924e4a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ImAddress 元素包含一个人物的主即时消息地址。
+ms.openlocfilehash: df962c97faabaec2874136159abebd657b60719c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456463"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515696"
 ---
-# <a name="imaddress-string"></a>ImAddress （字符串）
+# <a name="imaddress-string"></a>ImAddress (String)
 
-**ImAddress**元素包含角色的主即时消息地址。 
+**ImAddress** 元素包含一个人物的主即时消息地址。 
   
 ```XML
 <ImAddress></ImAddress>
@@ -42,9 +42,9 @@ ms.locfileid: "44456463"
   
 ## <a name="text-value"></a>文本值
 
-**ImAddress**元素的文本值是角色的主即时消息地址。 
+**ImAddress 元素** 的文本值是一个人物的主即时消息地址。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

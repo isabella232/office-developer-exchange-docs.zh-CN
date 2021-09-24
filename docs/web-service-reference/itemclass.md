@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ItemClass
 api_type:
 - schema
 ms.assetid: 56020078-50b4-4880-894a-a9f234033cfb
 description: ItemClass 元素表示项目的邮件类。
-ms.openlocfilehash: 31d46b2b41b4b22ca5afeb842d7b0e0d16677920
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 612fe582a1136cdba519d5a5f153999770095463
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455413"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540871"
 ---
 # <a name="itemclass"></a>ItemClass
 
-**ItemClass**元素表示项目的邮件类。 
+**ItemClass** 元素表示项目的邮件类。 
   
 ```XML
 <ItemClass/>
@@ -50,8 +50,8 @@ ms.locfileid: "44455413"
 |[对话 (ConversationType)](conversation-conversationtype.md) <br/> |表示单个对话。  <br/> |
 |[DeclineItem](declineitem.md) <br/> |表示谢绝答复会议要求。  <br/> |
 |[DistributionList](distributionlist.md) <br/> |表示通讯组列表。  <br/> |
-|[GlobalItemClasses](globalitemclasses.md) <br/> |包含表示邮箱中会话项目的所有项目类别的项目类别的列表。  <br/> |
-|[项](item.md) <br/> |表示通用 Exchange 项。  <br/> |
+|[GlobalItemClasses](globalitemclasses.md) <br/> |包含表示邮箱中会话项目的所有项目类的项目类列表。  <br/> |
+|[项目](item.md) <br/> |表示常规Exchange项。  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |表示 Exchange 存储中的会议取消。  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |表示 Exchange 存储中的会议。  <br/> |
 |[MeetingRequest](meetingrequest.md) <br/> |表示 Exchange 存储中的会议请求。  <br/> |
@@ -63,9 +63,9 @@ ms.locfileid: "44455413"
    
 ## <a name="text-value"></a>文本值
 
-可能需要与项目类型一致的文本值。 例如，如果要创建或更新邮件，IPM。注释或另一个与消息一致的类是必需的。 不允许使用空值。 但如果要创建或更新项，则空类型是有效的。
+可能需要与项目类型一致的文本值。 例如，如果要创建或更新邮件，则 IPM。Note 或另一个与邮件一致的类是必需的。 不允许空值。 但是，如果要创建或更新项目，则空类型有效。
   
-如果**ItemClass**设置为与项目类型不一致的值，则返回错误。 例如，不能将邮件的**ItemClass**设置为任务的**ItemClass**值。 
+如果将 **ItemClass** 设置为与项目类型不一致的值，则返回错误。 例如，邮件的 **ItemClass** 不能设置为 **Task 的 ItemClass** 值。 
   
 ## <a name="remarks"></a>说明
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsDelegated
 api_type:
 - schema
 ms.assetid: c12907db-be80-4924-9469-8e58612cf42c
-description: IsDelegated 元素指示会议是否由具有代理访问权限的帐户进行处理。
-ms.openlocfilehash: 2c62b59665431d5ea203e972a506aa90afc76601
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: IsDelegated 元素指示会议是否由具有委派访问权限的帐户处理。
+ms.openlocfilehash: 60adde1b370d15bc583c11ae29da430a64b46016
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456442"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515556"
 ---
 # <a name="isdelegated"></a>IsDelegated
 
-**IsDelegated**元素指示会议是否由具有代理访问权限的帐户进行处理。 
+**IsDelegated** 元素指示会议是否由具有委派访问权限的帐户处理。 
   
 ```xml
 <IsDelegated/>
@@ -51,7 +51,7 @@ ms.locfileid: "44456442"
    
 ## <a name="text-value"></a>文本值
 
-如果文本值**为 true** ，则表示该会议由具有代理访问权限的帐户进行处理。 
+文本值 **true** 表示会议由具有委派访问权限的帐户处理。 
   
 ## <a name="remarks"></a>说明
 

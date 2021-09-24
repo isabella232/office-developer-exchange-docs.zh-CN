@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ContainsSenderStrings
 api_type:
 - schema
 ms.assetid: 3e16163f-cffe-4c4e-9a2a-00245d25ba96
-description: ContainsSenderStrings 元素指示必须出现在传入邮件的 From 属性中的字符串，以便条件或例外情况适用。
-ms.openlocfilehash: e7b78f1311d288db7969a0024bde84433e18d37f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ContainsSenderStrings 元素指示必须出现在传入邮件的 From 属性中的字符串，以便条件或例外适用。
+ms.openlocfilehash: bf4fbe30bc5ed58ad4ac780b82d79965136c8d5d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458976"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514744"
 ---
 # <a name="containssenderstrings"></a>ContainsSenderStrings
 
-**ContainsSenderStrings**元素指示必须出现在传入邮件的**From**属性中的字符串，以便条件或例外情况适用。 
+**ContainsSenderStrings** 元素指示必须出现在传入邮件的 **From** 属性中的字符串，以便条件或例外适用。 
   
 ```XML
 <ContainsSenderStrings>
@@ -42,7 +42,7 @@ ms.locfileid: "44458976"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[字符串](string.md) <br/> |表示必须出现在传入邮件的**From**属性中的字符串，以便条件或例外情况适用。  <br/> |
+|[字符串](string.md) <br/> |表示必须出现在传入邮件的 **From** 属性中才能应用条件或例外的字符串。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -55,7 +55,7 @@ ms.locfileid: "44458976"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

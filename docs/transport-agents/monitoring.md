@@ -1,29 +1,29 @@
 ---
-title: 监视
+title: monitoring
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - monitoring
 api_type:
 - schema
 ms.assetid: 350d7b46-9260-41a7-8613-3cb8cc1b29a5
-description: 上次修改时间：2015年9月17日
-ms.openlocfilehash: 5614ac2c6428da9b6845769a9335486d3ded5754
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: 上次修改时间：2015 年 9 月 17 日
+ms.openlocfilehash: 215737fb43e1dbef9b7dd11baea1d3f922df7d34
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455826"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540362"
 ---
-# <a name="monitoring"></a>监视
+# <a name="monitoring"></a>monitoring
   
-**适用于：** Exchange Server 2013
+**适用于：Exchange Server** 2013
   
-**Monitoring**元素包含配置信息，用于定义前端传输服务或传输服务如何以及何时监视安装的代理。 
+监控 **元素** 包含配置信息，用于定义前端传输服务或传输服务监视所安装的代理方式和时间。 
   
 - [configuration](configuration.md)  
 - [mexRuntime](mexruntime.md)  
@@ -36,7 +36,7 @@ ms.locfileid: "44455826"
 </monitoring>
 ```
 
-**monitoringType （复杂类型）**
+**monitoringType (complexType)**
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
@@ -51,13 +51,13 @@ ms.locfileid: "44455826"
 |**元素**|**说明**|
 |:-----|:-----|
 |[agentExecution](agentexecution.md) <br/> |定义客户端访问或邮箱服务器等待代理在写入事件日志之前从事件返回的时间（以毫秒为单位）。  <br/> |
-|[messageSnapshot](messagesnapshot.md) <br/> |包含一个属性，该属性指定是否为客户端访问或邮箱服务器启用管道跟踪功能。  <br/> |
+|[messageSnapshot](messagesnapshot.md) <br/> |包含一个属性，该属性指定是否对客户端访问或邮箱服务器启用管道跟踪功能。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[mexRuntime](mexruntime.md) <br/> |包含用于定义代理监视的配置信息和安装的 SMTP 和路由代理的配置信息的元素。  <br/> |
+|[mexRuntime](mexruntime.md) <br/> |包含用于定义代理监视的配置信息的元素，以及所安装的 SMTP 和路由代理的配置信息。  <br/> |
    
 ## <a name="element-information"></a>元素信息
 

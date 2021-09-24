@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c0d41b95-36b9-4e7a-a442-cdea37467abd
-description: Url 元素表示用于推送通知的客户端 Web 服务的位置。
-ms.openlocfilehash: 62e139c441eef68db5cf13226d15a83f67135026
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Url 元素表示推送通知的客户端 Web 服务的位置。
+ms.openlocfilehash: 322cae9e8924b0264909923286ecb22d4adcf070
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530928"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514996"
 ---
 # <a name="url"></a>URL
 
-**Url**元素表示用于推送通知的客户端 Web 服务的位置。 
+**Url** 元素表示推送通知的客户端 Web 服务的位置。 
   
 ```XML
 <Url></Url>
@@ -44,7 +44,7 @@ ms.locfileid: "44530928"
    
 ## <a name="text-value"></a>文本值
 
-**Url**元素的文本值是用于推送通知的客户端 Web 服务的位置。 
+**Url** 元素的文本值是推送通知的客户端 Web 服务的位置。 
   
 ## <a name="remarks"></a>说明
 

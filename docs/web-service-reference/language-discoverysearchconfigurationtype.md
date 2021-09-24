@@ -1,23 +1,23 @@
 ---
-title: 语言（DiscoverySearchConfigurationType）
+title: Language (DiscoverySearchConfigurationType)
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 34eab81c-d832-4925-9f76-d69f24b36931
-description: Language （DiscoverySearchConfigurationType）元素标识要用于特定于区域的日期范围格式的区域性。 它还指定在搜索查询中使用的语言。
-ms.openlocfilehash: 3cf85525147bec5d6dfc6fe2b2af5916d42c44be
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DiscoverySearchConfigurationType (的 Language) 元素标识要用于日期范围的区域性特定格式的区域性。 它还指定搜索查询中使用的语言。
+ms.openlocfilehash: 5d51960aa00b2c47d96972abc05e4d6027eeecb3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463284"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540893"
 ---
-# <a name="language-discoverysearchconfigurationtype"></a>语言（DiscoverySearchConfigurationType）
+# <a name="language-discoverysearchconfigurationtype"></a>Language (DiscoverySearchConfigurationType)
 
-**Language （DiscoverySearchConfigurationType）** 元素标识要用于特定于区域的日期范围格式的区域性。 它还指定在搜索查询中使用的语言。 
+**DiscoverySearchConfigurationType** (的 Language) 元素标识要用于日期范围的区域性特定格式的区域性。 它还指定搜索查询中使用的语言。 
   
 ```XML
 <Language />
@@ -42,11 +42,11 @@ ms.locfileid: "44463284"
   
 ## <a name="text-value"></a>文本值
 
-**Language （DiscoverySearchConfigurationType）** 元素的文本值是一种区域性或语言。 
+**DiscoverySearchConfigurationType ()** Language 元素的文本值是区域性或语言。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-此元素指定在[SearchMailboxes 操作](searchmailboxes-operation.md)或[SetHoldOnMailboxes 操作](setholdonmailboxes-operation.md)中指定的日期范围的格式。
+此元素指定 [SearchMailboxes](searchmailboxes-operation.md) 操作或 [SetHoldOnMailboxes](setholdonmailboxes-operation.md)操作中指定的日期范围的格式。
   
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   

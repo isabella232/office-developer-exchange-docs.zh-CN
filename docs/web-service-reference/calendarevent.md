@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CalendarEvent
 api_type:
 - schema
 ms.assetid: 91958c01-1fcb-4ac0-8601-5e5b434c988a
 description: CalendarEvent 元素表示唯一的日历项目事件。
-ms.openlocfilehash: 8bf37c907ed726e33dd2b1eff9add5d6235704da
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: fd57517595659f2081c82fe9f4665ce2c39059fe
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459074"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514821"
 ---
 # <a name="calendarevent"></a>CalendarEvent
 
-**CalendarEvent**元素表示唯一的日历项目事件。 
+**CalendarEvent** 元素表示唯一的日历项目事件。 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -59,18 +59,18 @@ ms.locfileid: "44459074"
 |:-----|:-----|
 |[StartTime](starttime.md) <br/> |表示日历事件的开始。 这是必需的子元素。  <br/> |
 |[EndTime](endtime.md) <br/> |表示日历事件的结束。 这是必需的子元素。  <br/> |
-|[BusyType](busytype.md) <br/> |代表日历事件的忙/闲状态设置。 这是必需的子元素。  <br/> |
-|[CalendarEventDetails](calendareventdetails.md) <br/> |提供日历事件的其他信息。 这是一个可选的子元素。  <br/> |
+|[BusyType](busytype.md) <br/> |表示日历事件的忙/闲状态集。 这是必需的子元素。  <br/> |
+|[CalendarEventDetails](calendareventdetails.md) <br/> |提供日历事件的其他信息。 这是可选子元素。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[CalendarEventArray](calendareventarray.md) <br/> |包含一组代表所请求用户的可用性的唯一的日历项目匹配项。  <br/> 以下是此元素的 XPath 2.0 表达式：  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray` <br/> |
+|[CalendarEventArray](calendareventarray.md) <br/> |包含一组唯一的日历项目事件，这些事件表示请求的用户的可用性。  <br/> 下面是此元素的 XPath 2.0 表达式：  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-约会和会议时间按客户端的时区返回。 所有子元素都按它们出现的顺序列出。 此元素提供的详细信息级别取决于授予请求者的权限。
+在客户端的时区返回约会和会议时间。 所有子元素都按其发生顺序列出。 此元素提供的详细信息级别取决于授予请求者的权限。
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

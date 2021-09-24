@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsNotSupported
 api_type:
 - schema
 ms.assetid: 4db469ae-1515-47ea-9905-6aabf199febd
-description: IsNotSupported 元素指示是否不能使用托管代码 Api 修改规则。
-ms.openlocfilehash: e2d0c506209978fd5e8702e0de6cddf2e9c4b7fa
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: IsNotSupported 元素指示是否无法使用托管代码 API 修改规则。
+ms.openlocfilehash: 4a123acbce3019d9ac5fcdb4cbfa2b60dd4529fe
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465833"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514541"
 ---
 # <a name="isnotsupported"></a>IsNotSupported
 
-**IsNotSupported**元素指示是否不能使用托管代码 api 修改规则。 
+**IsNotSupported** 元素指示是否无法使用托管代码 API 修改规则。 
   
 ```XML
 <IsNotSupported/>
@@ -48,7 +48,7 @@ ms.locfileid: "44465833"
    
 ## <a name="text-value"></a>文本值
 
-如果文本值为**true** ，则表示无法使用托管代码 api 修改规则。 **如果值为 false** ，则表示可以使用托管代码 api 修改规则。 
+如果文本值为 **true，** 则表明不能使用托管代码 API 修改规则。 false **值表示** 可以使用托管代码 API 修改规则。 
   
 ## <a name="remarks"></a>说明
 

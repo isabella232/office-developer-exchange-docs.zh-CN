@@ -1,27 +1,27 @@
 ---
-title: 课时
+title: Periods
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Periods
 api_type:
 - schema
 ms.assetid: 7920d81d-abba-4232-8bfe-49267b6c9a36
-description: 时段元素表示定义时区的不同阶段的时间偏移量的一组句点。
-ms.openlocfilehash: 773457a6e4c0237eaeaf23109a7022427cc7dd0d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Periods 元素表示一个时间段数组，该数组定义时区的不同阶段的时间偏移。
+ms.openlocfilehash: e4a614c71e7194dd85db740da1796b69d9f25d69
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467772"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515311"
 ---
-# <a name="periods"></a>课时
+# <a name="periods"></a>Periods
 
-**时段**元素表示定义时区的不同阶段的时间偏移量的一组句点。 
+**Periods** 元素表示一个时间段数组，该数组定义时区的不同阶段的时间偏移。 
   
 ```xml
 <Periods>
@@ -42,19 +42,19 @@ ms.locfileid: "44467772"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Period](period.md) <br/> |定义时区的特定阶段的名称、时间偏移和唯一标识符。  <br/> |
+|[句号](period.md) <br/> |定义时区特定阶段的名称、时间偏移和唯一标识符。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[StartTimeZone](starttimezone.md) <br/> |定义[CalendarItem](calendaritem.md)或[MeetingRequest](meetingrequest.md)的开始时间的时区。  <br/> |
-|[EndTimeZone](endtimezone.md) <br/> |定义[CalendarItem](calendaritem.md)或[MeetingRequest](meetingrequest.md)的结束时间的时区。  <br/> |
+|[StartTimeZone](starttimezone.md) <br/> |定义 [CalendarItem](calendaritem.md) 或 [MeetingRequest](meetingrequest.md)的开始时间的时区。  <br/> |
+|[EndTimeZone](endtimezone.md) <br/> |定义 [CalendarItem](calendaritem.md) 或 [MeetingRequest](meetingrequest.md)的结束时间时区。  <br/> |
 |[TimeZoneDefinition](timezonedefinition.md) <br/> |定义时区。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-描述此元素的架构位于运行 Microsoft Exchange Server 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
+描述此元素的架构位于运行已安装客户端访问服务器角色Microsoft Exchange Server的计算机的 EWS 虚拟目录中。
   
 ## <a name="element-information"></a>元素信息
 

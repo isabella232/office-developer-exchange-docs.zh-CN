@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c49816b1-dbb5-4716-86c7-30790e86f30e
-description: UpdateItemInRecoverableItems 元素指定用于更新可恢复项目中的项目的请求。
-ms.openlocfilehash: f3dae55097c613b84a80795185baad559e312b90
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: UpdateItemInRecoverableItems 元素指定更新可恢复项中的项的请求。
+ms.openlocfilehash: 8d3ffdd2d3f60e48514ae1a9d7cb4ca4e1bf06ac
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459782"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515016"
 ---
 # <a name="updateiteminrecoverableitems"></a>UpdateItemInRecoverableItems
 
-**UpdateItemInRecoverableItems**元素指定用于更新可恢复项目中的项目的请求。 
+**UpdateItemInRecoverableItems** 元素指定更新可恢复项中的项的请求。 
   
 ```XML
 <UpdateItemInRecoverableItems>
@@ -39,13 +39,13 @@ ms.locfileid: "44459782"
   
 ### <a name="child-elements"></a>子元素
 
-[ItemId](itemid.md)  | [更新（项目）](updates-item.md)  | [附件](attachments-ex15websvcsotherref.md)  | [MakeItemImmutable](makeitemimmutable.md)
+[ItemId](itemid.md)  | [更新 (项) ](updates-item.md)  | [附件](attachments-ex15websvcsotherref.md)  | [MakeItemImmutable](makeitemimmutable.md)
   
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

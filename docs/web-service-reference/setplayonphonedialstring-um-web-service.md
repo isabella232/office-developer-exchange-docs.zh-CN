@@ -1,28 +1,28 @@
 ---
-title: SetPlayOnPhoneDialString （UM web 服务）
+title: SetPlayOnPhoneDialString（UM Web 服务）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SetPlayOnPhoneDialString
 api_type:
 - schema
 ms.assetid: 513a5072-c3ac-405f-98c2-0ab982d0a360
-description: SetPlayOnPhoneDialString 元素定义一个请求，用于设置 PlayOnPhone 操作（UM web 服务）和 PlayOnPhoneGreeting 操作（UM web 服务）请求的默认拨号字符串。
-ms.openlocfilehash: 40021e9dedafb5fafda91bf3612d8a6485dae8e7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SetPlayOnPhoneDialString 元素定义为 PlayOnPhone 操作 (UM Web 服务) 和 PlayOnPhoneGreeting 操作 (UM Web 服务) 请求设置默认拨号字符串的请求。
+ms.openlocfilehash: e485fd092da29a3f54b1acc2b7e50167084e13fa
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458626"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540501"
 ---
-# <a name="setplayonphonedialstring-um-web-service"></a>SetPlayOnPhoneDialString （UM web 服务）
+# <a name="setplayonphonedialstring-um-web-service"></a>SetPlayOnPhoneDialString（UM Web 服务）
 
-**SetPlayOnPhoneDialString**元素定义一个请求，用于设置[PLAYONPHONE 操作（um web 服务）](playonphone-operation-um-web-service.md)和[PlayOnPhoneGreeting 操作（um web 服务）](playonphonegreeting-operation-um-web-service.md)请求的默认拨号字符串。 
+**SetPlayOnPhoneDialString** 元素定义为 [PlayOnPhone](playonphone-operation-um-web-service.md)操作 (UM Web 服务) 和 [PlayOnPhoneGreeting](playonphonegreeting-operation-um-web-service.md)操作 (UM Web 服务) 请求设置默认拨号字符串的请求。 
   
-[SetPlayOnPhoneDialString （UM web 服务）](setplayonphonedialstring-um-web-service.md)
+[SetPlayOnPhoneDialString（UM Web 服务）](setplayonphonedialstring-um-web-service.md)
   
 ```xml
 <SetPlayOnPhoneDialString>
@@ -43,7 +43,7 @@ ms.locfileid: "44458626"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[dialString （UM web 服务）](dialstring-um-web-service.md) <br/> |要设置为默认拨号字符串的电话号码。  <br/> |
+|[dialString（UM Web 服务）](dialstring-um-web-service.md) <br/> |要设置为默认拨号串的电话号码。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -58,7 +58,7 @@ ms.locfileid: "44458626"
 |||
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|架构名称  <br/> |邮件  <br/> |
+|架构名称  <br/> |消息  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
    
@@ -66,5 +66,5 @@ ms.locfileid: "44458626"
 
 
 
-[SetPlayOnPhoneDialString 操作（UM web 服务）](setplayonphonedialstring-operation-um-web-service.md)
+[SetPlayOnPhoneDialString 操作（UM Web 服务）](setplayonphonedialstring-operation-um-web-service.md)
 

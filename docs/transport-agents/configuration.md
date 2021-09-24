@@ -1,29 +1,29 @@
 ---
-title: 设置
+title: configuration
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - configuration
 api_type:
 - schema
 ms.assetid: 6fc04e4d-657a-4999-9431-186ccb7832b5
-description: 上次修改时间：2015年9月17日
-ms.openlocfilehash: b886851b9a0c17d58428f49281d664930d0e4070
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: 上次修改时间：2015 年 9 月 17 日
+ms.openlocfilehash: 35fcb131fbe552a38d9f7eb6022eb5fb52db44b7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461560"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516144"
 ---
-# <a name="configuration"></a>设置
+# <a name="configuration"></a>configuration
   
-**适用于：** Exchange Server 2013
+**适用于：Exchange Server** 2013
   
-**Configuration**元素是代理配置文件的根元素。 
+**configuration** 元素是代理配置文件的根元素。 
   
 - [configuration](configuration.md) 
 - [mexRuntime](mexruntime.md)
@@ -34,7 +34,7 @@ ms.locfileid: "44461560"
 </configuration>
 ```
 
-**configurationType （复杂类型）**
+**configurationType (complexType)**
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
@@ -48,7 +48,7 @@ ms.locfileid: "44461560"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[mexRuntime](mexruntime.md) <br/> |包含用于定义代理监视的配置信息和安装的 SMTP 和路由代理的配置信息的元素。  <br/> |
+|[mexRuntime](mexruntime.md) <br/> |包含用于定义代理监视的配置信息的元素，以及所安装的 SMTP 和路由代理的配置信息。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 

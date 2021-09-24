@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetPhoneCallInformation
 api_type:
 - schema
 ms.assetid: 418bd6ca-39d9-49a9-841e-7a71ede1fa51
-description: GetPhoneCallInformation 操作将返回有关指定电话呼叫的信息。
-ms.openlocfilehash: 231b160713526f44433188e2b1e3bd98012370b1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetPhoneCallInformation 操作返回有关指定电话呼叫的信息。
+ms.openlocfilehash: 7cb9ecbb30e6cdd4d85b60215f40e0be5f4aaa84
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458311"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539955"
 ---
 # <a name="getphonecallinformation-operation"></a>GetPhoneCallInformation 操作
 
-**GetPhoneCallInformation**操作将返回有关指定电话呼叫的信息。 
+**GetPhoneCallInformation** 操作返回有关指定电话呼叫的信息。 
   
 ## <a name="getphonecallinformation-request-example"></a>GetPhoneCallInformation 请求示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-以下示例的**GetPhoneCallInformation**请求显示如何形成请求，以获取有关特定电话呼叫的信息。 
+**GetPhoneCallInformation** 请求的以下示例显示如何形成请求，以获取有关特定电话呼叫的信息。 
   
 ### <a name="code"></a>代码
 
@@ -51,9 +51,9 @@ ms.locfileid: "44458311"
 
 ## <a name="getphonecallinformation-response-example"></a>GetPhoneCallInformation 响应示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-下面的示例演示对**GetPhoneCallInformation**请求的成功响应。 响应表示当前已连接的电话呼叫。 
+以下示例显示了对 **GetPhoneCallInformation** 请求的成功响应。 该响应表示当前已连接的电话呼叫。 
   
 ### <a name="code"></a>代码
 
@@ -87,6 +87,6 @@ ms.locfileid: "44458311"
 
 ## <a name="see-also"></a>另请参阅
 
-- [Exchange 中的 EWS 操作](ews-operations-in-exchange.md)
+- [EWS 操作在Exchange](ews-operations-in-exchange.md)
 - [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

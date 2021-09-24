@@ -1,24 +1,24 @@
 ---
-title: 邮箱（SOAP）
+title: Mailbox (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 4ad59e5b-4047-4c34-a318-ca06c31d3de8
-description: 邮箱元素包含要发现的用户的电子邮件地址。
-ms.openlocfilehash: e050cd9d3ca4a2d2450f315f1eedd3862328d096
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Mailbox 元素包含要发现的用户的电子邮件地址。
+ms.openlocfilehash: 6349a28b7ed97cfaa2bb8ef8f68d93e16d81c377
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467282"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514282"
 ---
-# <a name="mailbox-soap"></a>邮箱（SOAP）
+# <a name="mailbox-soap"></a>Mailbox (SOAP)
 
-**邮箱**元素包含要发现的用户的电子邮件地址。 
+**Mailbox** 元素包含要发现的用户的电子邮件地址。 
   
 ```XML
 <Mailbox/>
@@ -42,11 +42,11 @@ ms.locfileid: "44467282"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[User （SOAP）](user-soap.md) <br/> |表示单个用户的标识。  <br/> |
+|[User (SOAP)](user-soap.md) <br/> |表示单个用户的标识。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**邮箱**元素的文本值是要搜索的用户的电子邮件地址。 
+**Mailbox** 元素的文本值是要发现的用户的电子邮件地址。 
   
 ## <a name="element-information"></a>元素信息
 

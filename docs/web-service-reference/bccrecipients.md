@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - BccRecipients
 api_type:
 - schema
 ms.assetid: c4e05168-d36b-4740-a526-4b7da53553c1
 description: BccRecipients元素表示要接收电子邮件的密件抄送 (Bcc) 的收件人的集合。
-ms.openlocfilehash: 96070415c6d92a893f6c560884d9d191c7d5f15b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 3a816ea67c9bda45743741b3650fb217a753814f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529502"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514842"
 ---
 # <a name="bccrecipients"></a>BccRecipients
 
-本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **BccRecipients**元素表示要接收电子邮件的密件抄送 (Bcc) 的收件人的集合。 
+本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **BccRecipients** 元素表示要接收电子邮件的密件抄送 (Bcc) 的收件人的集合。 
   
 ```xml
 <BccRecipients>
@@ -62,7 +62,7 @@ ms.locfileid: "44529502"
 |[ForwardItem](forwarditem.md) <br/> |包含要转发给收件人的 Exchange 存储区项。  <br/> |
 |[CancelCalendarItem](cancelcalendaritem.md) <br/> |表示用于取消会议的响应对象。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 您无法通过使用 FindItem 请求获取 **BccRecipients** 。使用一个 GetItem 请求来获取 **BccRecipients**。
   

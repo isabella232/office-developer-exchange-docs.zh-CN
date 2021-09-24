@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - TotalWork
 api_type:
 - schema
 ms.assetid: 1348ffab-bd19-48fc-90dc-fd35e7031700
-description: TotalWork 元素包含与任务相关联的工时的说明。
-ms.openlocfilehash: 39abd8c670cd8365198d7ebb7b25b865ab8d5188
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: TotalWork 元素包含与任务关联的工作数的说明。
+ms.openlocfilehash: 55dc2a3f27c52f0a4b33043a2e279faffcb0bdd5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467499"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515116"
 ---
 # <a name="totalwork"></a>TotalWork
 
-**TotalWork**元素包含与任务相关联的工时的说明。 
+**TotalWork** 元素包含与任务关联的工作数的说明。 
   
 ```xml
 <TotalWork/>
@@ -48,7 +48,7 @@ ms.locfileid: "44467499"
    
 ## <a name="text-value"></a>文本值
 
-该文本值对应于一个整数，表示与任务相关联的总工作量。
+文本值对应于一个整数，该整数表示与任务关联的总工作量。
   
 ## <a name="remarks"></a>说明
 

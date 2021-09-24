@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Bias
 api_type:
 - schema
 ms.assetid: ae10aa44-e6d3-483d-a3e6-bb9c45966810
 description: Bias 元素表示由标准时间和夏令时的 偏置 (UTC) 元素标识的与协调世界时 (UTC) 时差的时差。此值以分钟为单位。
-ms.openlocfilehash: 6c9dce88f3eece9c793fb018114f07a85c7cb89b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 557605380dbda8c980272edcf445bb8099e14ada
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460237"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516095"
 ---
 # <a name="bias"></a>Bias
 

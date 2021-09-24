@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsManagedFoldersRoot
 api_type:
 - schema
 ms.assetid: 00823fb9-bf8b-49bb-8e1b-d698c6d4063f
-description: IsManagedFoldersRoot 元素指示托管文件夹是否为所有托管文件夹的根。
-ms.openlocfilehash: 4373dba9dce92de8e175948d889f0806e100fa6c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: IsManagedFoldersRoot 元素指示托管文件夹是否是所有托管文件夹的根文件夹。
+ms.openlocfilehash: 85c806f1bb3f3613f8faf33b763e2a8c20f5ef40
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466022"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539491"
 ---
 # <a name="ismanagedfoldersroot"></a>IsManagedFoldersRoot
 
-**IsManagedFoldersRoot**元素指示托管文件夹是否为所有托管文件夹的根。 
+**IsManagedFoldersRoot** 元素指示托管文件夹是否是所有托管文件夹的根文件夹。 
   
 ```xml
 <IsManagedFoldersRoot/>
@@ -48,7 +48,7 @@ ms.locfileid: "44466022"
    
 ## <a name="text-value"></a>文本值
 
-如果存在此元素，则需要一个表示布尔值的文本值。 **如果值为 true** ，则表示该文件夹是托管文件夹的根文件夹;**如果值为 false** ，则表示该文件夹不是托管文件夹的根文件夹。 
+如果此元素存在，则代表布尔值的文本值是必需的。 true **值表示** 文件夹是托管文件夹的根文件夹;false **值表示** 文件夹不是托管文件夹的根文件夹。 
   
 ## <a name="remarks"></a>说明
 

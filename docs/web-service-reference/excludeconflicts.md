@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ExcludeConflicts
 api_type:
 - schema
 ms.assetid: ec33ef23-8537-41eb-8d89-7eb906a1fad7
-description: ExcludeConflicts 元素指定是否为在与会者之间发生冲突的日历时间返回建议的时间。
-ms.openlocfilehash: d20c594ae600abf110681ea678b2d95a23bf7809
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ExcludeConflicts 元素指定是否返回与会者之间发生冲突的日历时间的建议时间。
+ms.openlocfilehash: 6182ff8faed62cefc39015d3242bf7e669660b4a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456974"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539906"
 ---
 # <a name="excludeconflicts"></a>ExcludeConflicts
 
-**ExcludeConflicts**元素指定是否为在与会者之间发生冲突的日历时间返回建议的时间。 
+**ExcludeConflicts** 元素指定是否返回与会者之间发生冲突的日历时间的建议时间。 
   
 [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
@@ -52,18 +52,18 @@ ms.locfileid: "44456974"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[MailboxData](mailboxdata.md) <br/> |代表单个邮箱用户以及有关邮箱用户要返回的数据类型的选项。  <br/> 以下是此元素的 XPath：  <br/>  `/GetUserAvailabilityRequest/MailboxDataArray/MailboxData` <br/> |
+|[MailboxData](mailboxdata.md) <br/> |表示单个邮箱用户和要返回的邮箱用户数据类型的选项。  <br/> 下面是此元素的 XPath：  <br/>  `/GetUserAvailabilityRequest/MailboxDataArray/MailboxData` <br/> |
    
 ## <a name="text-value"></a>文本值
 
-文本值是必需的。 可能的值为布尔值**true**或**false**。
+文本值是必需的。 可能的值为 true 或 false布尔 **值**。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素是必需的。
   
 > [!NOTE]
-> 描述此元素的架构位于运行 MicrosoftExchange Server 2007 且安装了客户端访问服务器角色的计算机的/EWS/目录中。 
+> 描述此元素的架构位于运行已安装客户端访问服务器角色的 MicrosoftExchange Server 2007 的计算机的 /EWS/ 目录中。 
   
 ## <a name="element-information"></a>元素信息
 

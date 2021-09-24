@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - OfficeLocation
 api_type:
 - schema
 ms.assetid: 88f314a1-b5cb-47aa-bbae-324561e3a5e3
-description: OfficeLocation 元素表示联系人的办公室位置。
-ms.openlocfilehash: ebb0c2d3d2e2e31614c6bdd63fe28a6b3cfa1f9b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: OfficeLocation 元素表示联系人的办公地点。
+ms.openlocfilehash: 4ba65ea63e3c29c8827c14bcd2af67465493086c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468360"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515395"
 ---
 # <a name="officelocation"></a>OfficeLocation
 
-**OfficeLocation**元素表示联系人的办公室位置。 
+**OfficeLocation** 元素表示联系人的办公地点。 
   
 ```xml
 <OfficeLocation/>
@@ -48,7 +48,7 @@ ms.locfileid: "44468360"
    
 ## <a name="text-value"></a>文本值
 
-如果使用此元素，则需要一个 text 值。
+如果此元素已使用，则文本值是必需的。
   
 ## <a name="remarks"></a>说明
 

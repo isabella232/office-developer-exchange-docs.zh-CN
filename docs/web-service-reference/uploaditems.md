@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UploadItems
 api_type:
 - schema
 ms.assetid: fd2b9545-7213-4427-95ae-71a155b75971
-description: UploadItems 元素表示将项目上传到邮箱的请求。
-ms.openlocfilehash: 8fdb7253926e030085374b650e792349e598ee4a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: UploadItems 元素表示将项目上载到邮箱的请求。
+ms.openlocfilehash: cd45be853edc6abf447a446677850b7dbc11bace
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468822"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513995"
 ---
 # <a name="uploaditems"></a>UploadItems
 
-**UploadItems**元素表示将项目上传到邮箱的请求。 
+**UploadItems** 元素表示将项目上载到邮箱的请求。 
   
 [UploadItems](uploaditems.md)
   
@@ -44,7 +44,7 @@ ms.locfileid: "44468822"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[项目（NonEmptyArrayOfUploadItemsType）](items-nonemptyarrayofuploaditemstype.md) <br/> |包含要上载到邮箱中的项的数组。  <br/> |
+|[Items (NonEmptyArrayOfUploadItemsType)](items-nonemptyarrayofuploaditemstype.md) <br/> |包含要上传到邮箱的项目数组。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -54,7 +54,7 @@ ms.locfileid: "44468822"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   

@@ -1,528 +1,528 @@
 ---
-title: 新的和更新的 Exchange 命令行管理程序 cmdlet
+title: 命令行管理程序 cmdlet Exchange和更新的 cmdlet
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5941a439-94d2-4133-81fc-7240863a13df
-description: 查找有关 exchange 中 Exchange 命令行管理程序中的新增功能的信息。
-ms.openlocfilehash: bda6607be20f2a21bc22d472d63615d46634d8ab
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: 在 Exchange 中的命令行管理程序Exchange新增功能的信息。
+ms.openlocfilehash: b90d7edb83f3cdcaeed11c3692e6981931eaaae1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457142"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513869"
 ---
-# <a name="new-and-updated-exchange-management-shell-cmdlets"></a>新的和更新的 Exchange 命令行管理程序 cmdlet
+# <a name="new-and-updated-exchange-management-shell-cmdlets"></a>命令行管理程序 cmdlet Exchange和更新的 cmdlet
 
-查找有关 exchange 中 Exchange 命令行管理程序中的新增功能的信息。
+在 Exchange 中的命令行管理程序Exchange新增功能的信息。
   
-**适用于：** Exchange Online |Exchange Server 2013 |Office 365
+**适用于：Exchange Online |** Exchange Server 2013 |Office 365
   
-本文提供有关以下内容的信息：新的 Exchange 命令行管理程序 cmdlet、在中修改的 cmdlet 以及从 Exchange Online、Exchange Online （作为 Office 365 的一部分）或 Exchange 的本地版本中删除的 cmdlet。
+本文提供有关新的 Exchange 命令行管理程序 cmdlet、已修改的 cmdlet 以及已从 Exchange Online 中删除的 cmdlet、Exchange Online 作为 Office 365 的一部分或本地版本的 Exchange 的信息。
   
-## <a name="new-and-updated-cmdlets-in-exchange-2013-sp1"></a>Exchange 2013 SP1 中的新增和更新的 cmdlet
+## <a name="new-and-updated-cmdlets-in-exchange-2013-sp1"></a>Exchange 2013 SP1 中新增和更新的 cmdlet
 
 ### <a name="new-cmdlets"></a>New cmdlet
 
-Build 15.00.0847.032 （Exchange Server 2013 SP1）中引入了以下 cmdlet：
+2013 SP1 版本 15.00.0847.032 中引入了以下 cmdlet (Exchange Server 2013 SP1) ：
   
-- **Authredirect-bearer**
+- **Get-AuthRedirect**
     
-- **新 Authredirect-bearer**
+- **New-AuthRedirect**
     
-- **Authredirect-bearer**
+- **Remove-AuthRedirect**
     
-- **Authredirect-bearer**
+- **Set-AuthRedirect**
     
-- **新 New-dataclassification**
+- **New-DataClassification**
     
-- **New-dataclassification**
+- **Remove-DataClassification**
     
-- **New-dataclassification**
+- **Set-DataClassification**
     
-- **新-指纹**
+- **New-FingerPrint**
     
-- **MapiVirtualDirectory\***
+- **Get-MapiVirtualDirectory\***
     
-- **新 MapiVirtualDirectory\***
+- **New-MapiVirtualDirectory\***
     
-- **MapiVirtualDirectory\***
+- **Remove-MapiVirtualDirectory\***
     
-- **MapiVirtualDirectory\***
+- **Set-MapiVirtualDirectory\***
     
-- **Set-omeconfiguration**
+- **Get-OMEConfiguration**
     
-- **Set-omeconfiguration**
+- **Set-OMEConfiguration**
     
-- **Get-smimeconfig**
+- **Get-SmimeConfig**
     
-- **Get-smimeconfig**
+- **Set-SmimeConfig**
     
-- **Get-intraorganizationconfiguration**
+- **Get-IntraOrganizationConfiguration**
     
-- **IntraOrganizationConnector**
+- **Get-IntraOrganizationConnector**
     
-- **新 IntraOrganizationConnector**
+- **New-IntraOrganizationConnector**
     
-- **IntraOrganizationConnector**
+- **Remove-IntraOrganizationConnector**
     
-- **IntraOrganizationConnector**
+- **Set-IntraOrganizationConnector**
     
-- **Start-historicalsearch**
+- **Get-HistoricalSearch**
     
-- **启动-Start-historicalsearch**
+- **Start-HistoricalSearch**
     
-- **Start-historicalsearch**
+- **Stop-HistoricalSearch**
     
-- **新 Set-searchdocumentformat**
+- **New-SearchDocumentFormat**
     
-- **Set-searchdocumentformat**
+- **Remove-SearchDocumentFormat**
     
 ### <a name="updated-cmdlets"></a>更新的 cmdlet
 
-生成15.00.0847.032 中更新了以下 cmdlet （Exchange 2013 SP1）：
+2013 SP1 版本 15.00.0847.032 中更新了以下 cmdlet (Exchange 2013 SP1) ：
   
-- **AuditLogSearch**
+- **Get-AuditLogSearch**
     
-- **Get-quarantinemessage**
+- **Get-QuarantineMessage**
     
-- **新 InboundConnector**
+- **New-InboundConnector**
     
-- **新 Set-mailboxdatabase**
+- **New-MailboxDatabase**
     
-- **新 Get-publicfoldermoverequest**
+- **New-PublicFolderMoveRequest**
     
-- **新 New-transportrule**
+- **New-TransportRule**
     
-- **Set-frontendtransportservice**
+- **Set-FrontendTransportService**
     
-- **InboundConnector**
+- **Set-InboundConnector**
     
 - **Set-Mailbox**
     
-- **Set-mailboxtransportservice**
+- **Set-MailboxTransportService**
     
-- **New-moverequest**
+- **Set-MoveRequest**
     
-- **Set-organizationconfig**
+- **Set-OrganizationConfig**
     
-- **Set-owamailboxpolicy**
+- **Set-OwaMailboxPolicy**
     
-- **Set-owavirtualdirectory**
+- **Set-OwaVirtualDirectory**
     
-- **Set-transportconfig**
+- **Set-TransportConfig**
     
-- **New-transportrule**
+- **Set-TransportRule**
     
-- **Set-transportserver**
+- **Set-TransportServer**
     
-- **Set-transportservice**
+- **Set-TransportService**
     
 - **Test-MRSHealth**
     
-- **Test-Test-oauthconnectivity**
+- **Test-OAuthConnectivity**
     
-### <a name="removed-cmdlets"></a>删除的 cmdlet
+### <a name="removed-cmdlets"></a>已删除的 cmdlet
 
-已从 build 15.00.0847.032 中删除了以下 cmdlet （Exchange 2013 SP1）：
+从 2013 SP1 版本 15.00.0847.032 (Exchange中删除了以下 cmdlet) ：
   
-- **New-availabilityreportoutage**
+- **Get-AvailabilityReportOutage**
     
-- **新 New-availabilityreportoutage**
+- **New-AvailabilityReportOutage**
     
-- **New-availabilityreportoutage**
+- **Remove-AvailabilityReportOutage**
     
-- **New-availabilityreportoutage**
+- **Set-AvailabilityReportOutage**
     
-## <a name="new-and-updated-cmdlets-in-exchange-2013"></a>Exchange 2013 中新增和更新的 cmdlet
+## <a name="new-and-updated-cmdlets-in-exchange-2013"></a>Exchange 2013 中的新增和更新的 cmdlet
 
 ### <a name="new-cmdlets"></a>New cmdlet
 <a name="bk_new"> </a>
 
-Exchange 2013 中引入了以下 cmdlet：
+2013 年 10 月Exchange cmdlet：
   
-- **Set-activesyncdeviceautoblockthreshold**
+- **Get-ActiveSyncDeviceAutoblockThreshold**
     
-- **Set-activesyncdeviceautoblockthreshold**
+- **Set-ActiveSyncDeviceAutoblockThreshold**
     
 - **Disable-App**
     
-- **启用-应用程序**
+- **Enable-App**
     
-- **获取-应用**
+- **Get-App**
     
-- **新应用程序**
+- **New-App**
     
 - **Remove-App**
     
 - **Set-App**
     
-- **AuthConfig**
+- **Get-AuthConfig**
     
-- **AuthConfig**
+- **Set-AuthConfig**
     
-- **Get-authserver**
+- **Get-AuthServer**
     
-- **新 Get-authserver**
+- **New-AuthServer**
     
-- **Get-authserver**
+- **Remove-AuthServer**
     
-- **Get-authserver**
+- **Set-AuthServer**
     
-- **新 Get-availabilityconfig**
+- **New-AvailabilityConfig**
     
-- **Get-availabilityconfig**
+- **Remove-AvailabilityConfig**
     
-- **CalendarDiagnosticAnalysis**
+- **Get-CalendarDiagnosticAnalysis**
     
-- **Get-classificationrulecollection**
+- **Get-ClassificationRuleCollection**
     
-- **新 Get-classificationrulecollection**
+- **New-ClassificationRuleCollection**
     
-- **Get-classificationrulecollection**
+- **Remove-ClassificationRuleCollection**
     
-- **Get-classificationrulecollection**
+- **Set-ClassificationRuleCollection**
     
-- **Get-connectsubscription**
+- **Get-ConnectSubscription**
     
-- **新 Get-connectsubscription**
+- **New-ConnectSubscription**
     
-- **Get-connectsubscription**
+- **Remove-ConnectSubscription**
     
-- **Get-connectsubscription**
+- **Set-ConnectSubscription**
     
-- **New-dataclassification**
+- **Get-DataClassification**
     
-- **Get-dataclassificationconfig**
+- **Get-DataClassificationConfig**
     
-- **DlpPolicy**
+- **Get-DlpPolicy**
     
-- **新 DlpPolicy**
+- **New-DlpPolicy**
     
-- **DlpPolicy**
+- **Remove-DlpPolicy**
     
-- **DlpPolicy**
+- **Set-DlpPolicy**
     
 - **Export-DlpPolicyCollection**
     
 - **Import-DlpPolicyCollection**
     
-- **Remove-dlppolicytemplate**
+- **Get-DlpPolicyTemplate**
     
-- **Import-Remove-dlppolicytemplate**
+- **Import-DlpPolicyTemplate**
     
-- **Remove-dlppolicytemplate**
+- **Remove-DlpPolicyTemplate**
     
-- **ExchangeServerAccessLicense**
+- **Get-ExchangeServerAccessLicense**
     
-- **ExchangeServerAccessLicenseUser**
+- **Get-ExchangeServerAccessLicenseUser**
     
-- **FfoMigrationReport**
+- **Get-FfoMigrationReport**
     
-- **Set-frontendtransportservice**
+- **Get-FrontendTransportService**
     
-- **Set-frontendtransportservice**
+- **Set-FrontendTransportService**
     
-- **外接 Get-globalmonitoringoverride**
+- **Add-GlobalMonitoringOverride**
     
-- **Get-globalmonitoringoverride**
+- **Get-GlobalMonitoringOverride**
     
-- **Get-globalmonitoringoverride**
+- **Remove-GlobalMonitoringOverride**
     
-- **Get-groupactivityreport**
+- **Get-GroupActivityReport**
     
-- **HealthReport**
+- **Get-HealthReport**
     
-- **Set-hostedconnectionfilterpolicy**
+- **Get-HostedConnectionFilterPolicy**
     
-- **新 Set-hostedconnectionfilterpolicy**
+- **New-HostedConnectionFilterPolicy**
     
-- **Set-hostedconnectionfilterpolicy**
+- **Remove-HostedConnectionFilterPolicy**
     
-- **Set-hostedconnectionfilterpolicy**
+- **Set-HostedConnectionFilterPolicy**
     
-- **Set-hostedcontentfilterpolicy**
+- **Get-HostedContentFilterPolicy**
     
-- **新 Set-hostedcontentfilterpolicy**
+- **New-HostedContentFilterPolicy**
     
-- **Set-hostedcontentfilterpolicy**
+- **Remove-HostedContentFilterPolicy**
     
-- **Set-hostedcontentfilterpolicy**
+- **Set-HostedContentFilterPolicy**
     
-- **HostedOutboundSpamFilterPolicy**
+- **Get-HostedOutboundSpamFilterPolicy**
     
-- **HostedOutboundSpamFilterPolicy**
+- **Set-HostedOutboundSpamFilterPolicy**
     
-- **HybridConfiguration**
+- **Remove-HybridConfiguration**
     
-- **Get-hybridmailflow**
+- **Get-HybridMailflow**
     
-- **Get-hybridmailflow**
+- **Set-HybridMailflow**
     
-- **HybridMailflowDatacenterIPs**
+- **Get-HybridMailflowDatacenterIPs**
     
-- **InboundConnector**
+- **Get-InboundConnector**
     
-- **新 InboundConnector**
+- **New-InboundConnector**
     
-- **InboundConnector**
+- **Remove-InboundConnector**
     
-- **InboundConnector**
+- **Set-InboundConnector**
     
-- **Get-mailboxactivityreport**
+- **Get-MailboxActivityReport**
     
 - **Disable-MailboxQuarantine**
     
 - **Enable-MailboxQuarantine**
     
-- **Set-mailboxtransportservice**
+- **Get-MailboxTransportService**
     
-- **Set-mailboxtransportservice**
+- **Set-MailboxTransportService**
     
-- **MailDetailDlpPolicyReport**
+- **Get-MailDetailDlpPolicyReport**
     
-- **MailDetailMalwareReport**
+- **Get-MailDetailMalwareReport**
     
-- **MailDetailReport**
+- **Get-MailDetailReport**
     
-- **MailDetailSpamReport**
+- **Get-MailDetailSpamReport**
     
-- **Get-maildetailtransportrulereport**
+- **Get-MailDetailTransportRuleReport**
     
-- **Get-mailfilterlistreport**
+- **Get-MailFilterListReport**
     
-- **MailTrafficPolicyReport**
+- **Get-MailTrafficPolicyReport**
     
-- **MailTrafficReport**
+- **Get-MailTrafficReport**
     
-- **MailTrafficSummaryReport**
+- **Get-MailTrafficSummaryReport**
     
-- **Get-mailtraffictopreport**
+- **Get-MailTrafficTopReport**
     
-- **MalwareFilteringServer**
+- **Get-MalwareFilteringServer**
     
-- **MalwareFilteringServer**
+- **Set-MalwareFilteringServer**
     
-- **Get-malwarefilterpolicy**
+- **Get-MalwareFilterPolicy**
     
-- **新 Get-malwarefilterpolicy**
+- **New-MalwareFilterPolicy**
     
-- **Get-malwarefilterpolicy**
+- **Remove-MalwareFilterPolicy**
     
-- **Get-malwarefilterpolicy**
+- **Set-MalwareFilterPolicy**
     
-- **MalwareFilterRecoveryItem**
+- **Get-MalwareFilterRecoveryItem**
     
-- **MalwareFilterRecoveryItem**
+- **Remove-MalwareFilterRecoveryItem**
     
 - **Resume-MalwareFilterRecoveryItem**
     
-- **发送 MapiSubmitSystemProbe**
+- **Send-MapiSubmitSystemProbe**
     
 - **Redirect-Message**
     
-- **MessageTrace**
+- **Get-MessageTrace**
     
-- **MessageTraceDetail**
+- **Get-MessageTraceDetail**
     
-- **完整-New-migrationbatch**
+- **Complete-MigrationBatch**
     
-- **New-migrationbatch**
+- **Remove-MigrationBatch**
     
-- **Get-migrationconfig**
+- **Get-MigrationConfig**
     
-- **Get-migrationconfig**
+- **Set-MigrationConfig**
     
-- **New-migrationendpoint**
+- **Get-MigrationEndpoint**
     
-- **新 New-migrationendpoint**
+- **New-MigrationEndpoint**
     
-- **New-migrationendpoint**
+- **Remove-MigrationEndpoint**
     
-- **New-migrationendpoint**
+- **Set-MigrationEndpoint**
     
-- **MigrationStatistics**
+- **Get-MigrationStatistics**
     
-- **Get-migrationuser**
+- **Get-MigrationUser**
     
-- **Get-migrationuser**
+- **Remove-MigrationUser**
     
-- **Get-migrationuserstatistics**
+- **Get-MigrationUserStatistics**
     
-- **Clear-Clear-mobiledevice**
+- **Clear-MobileDevice**
     
-- **Clear-mobiledevice**
+- **Get-MobileDevice**
     
-- **Clear-mobiledevice**
+- **Remove-MobileDevice**
     
-- **New-mobiledevicemailboxpolicy**
+- **Get-MobileDeviceMailboxPolicy**
     
-- **新 New-mobiledevicemailboxpolicy**
+- **New-MobileDeviceMailboxPolicy**
     
-- **New-mobiledevicemailboxpolicy**
+- **Remove-MobileDeviceMailboxPolicy**
     
-- **New-mobiledevicemailboxpolicy**
+- **Set-MobileDeviceMailboxPolicy**
     
-- **MobileDeviceStatistics**
+- **Get-MobileDeviceStatistics**
     
-- **MonitoringItemHelp**
+- **Get-MonitoringItemHelp**
     
-- **MonitoringItemIdentity**
+- **Get-MonitoringItemIdentity**
     
-- **调用 MonitoringProbe**
+- **Invoke-MonitoringProbe**
     
-- **Get 通知**
+- **Get-Notification**
     
-- **Set-通知**
+- **Set-Notification**
     
-- **Test-Test-oauthconnectivity**
+- **Test-OAuthConnectivity**
     
-- **OnPremisesOrganization**
+- **Get-OnPremisesOrganization**
     
-- **新 OnPremisesOrganization**
+- **New-OnPremisesOrganization**
     
-- **OnPremisesOrganization**
+- **Remove-OnPremisesOrganization**
     
-- **OnPremisesOrganization**
+- **Set-OnPremisesOrganization**
     
 - **Enable-OrganizationCustomization**
     
-- **OutboundConnector**
+- **Get-OutboundConnector**
     
-- **新 OutboundConnector**
+- **New-OutboundConnector**
     
-- **OutboundConnector**
+- **Remove-OutboundConnector**
     
-- **OutboundConnector**
+- **Set-OutboundConnector**
     
-- **Get-partnerapplication**
+- **Get-PartnerApplication**
     
-- **新 Get-partnerapplication**
+- **New-PartnerApplication**
     
-- **Get-partnerapplication**
+- **Remove-PartnerApplication**
     
-- **Get-partnerapplication**
+- **Set-PartnerApplication**
     
-- **Get-pendingfederateddomain**
+- **Get-PendingFederatedDomain**
     
-- **Get-pendingfederateddomain**
+- **Set-PendingFederatedDomain**
     
-- **PolicyTipConfig**
+- **Get-PolicyTipConfig**
     
-- **新 PolicyTipConfig**
+- **New-PolicyTipConfig**
     
-- **PolicyTipConfig**
+- **Remove-PolicyTipConfig**
     
-- **PolicyTipConfig**
+- **Set-PolicyTipConfig**
     
-- **Dump-Dump-provisioningcache**
+- **Dump-ProvisioningCache**
     
-- **Reset-Dump-provisioningcache**
+- **Reset-ProvisioningCache**
     
-- **更新-PublicFolderMailbox**
+- **Update-PublicFolderMailbox**
     
-- **PublicFolderMailboxDiagnostics**
+- **Get-PublicFolderMailboxDiagnostics**
     
-- **Set-publicfoldermigrationrequest**
+- **Get-PublicFolderMigrationRequest**
     
-- **新 Set-publicfoldermigrationrequest**
+- **New-PublicFolderMigrationRequest**
     
-- **Set-publicfoldermigrationrequest**
+- **Remove-PublicFolderMigrationRequest**
     
-- **Resume-Set-publicfoldermigrationrequest**
+- **Resume-PublicFolderMigrationRequest**
     
-- **Set-publicfoldermigrationrequest**
+- **Set-PublicFolderMigrationRequest**
     
-- **挂起-Set-publicfoldermigrationrequest**
+- **Suspend-PublicFolderMigrationRequest**
     
-- **Get-publicfoldermigrationrequeststatistics**
+- **Get-PublicFolderMigrationRequestStatistics**
     
-- **Get-quarantinemessage**
+- **Get-QuarantineMessage**
     
-- **发布-Get-quarantinemessage**
+- **Release-QuarantineMessage**
     
-- **Get-queuedigest**
+- **Get-QueueDigest**
     
-- **Get-resourcepolicy**
+- **Get-ResourcePolicy**
     
-- **新 Get-resourcepolicy**
+- **New-ResourcePolicy**
     
-- **Get-resourcepolicy**
+- **Remove-ResourcePolicy**
     
-- **Get-resourcepolicy**
+- **Set-ResourcePolicy**
     
-- **外接 ResubmitRequest**
+- **Add-ResubmitRequest**
     
-- **ResubmitRequest**
+- **Get-ResubmitRequest**
     
-- **ResubmitRequest**
+- **Remove-ResubmitRequest**
     
-- **ResubmitRequest**
+- **Set-ResubmitRequest**
     
-- **Set-servercomponentstate**
+- **Get-ServerComponentState**
     
-- **Set-servercomponentstate**
+- **Set-ServerComponentState**
     
-- **Get-serverhealth**
+- **Get-ServerHealth**
     
-- **ServerMonitor**
+- **Set-ServerMonitor**
     
-- **外接 Get-servermonitoringoverride**
+- **Add-ServerMonitoringOverride**
     
-- **Get-servermonitoringoverride**
+- **Get-ServerMonitoringOverride**
     
-- **SiteMailbox**
+- **Get-SiteMailbox**
     
-- **新 SiteMailbox**
+- **New-SiteMailbox**
     
-- **SiteMailbox**
+- **Set-SiteMailbox**
     
 - **Test-SiteMailbox**
     
-- **更新-SiteMailbox**
+- **Update-SiteMailbox**
     
-- **SiteMailboxDiagnostics**
+- **Get-SiteMailboxDiagnostics**
     
-- **New-sitemailboxprovisioningpolicy**
+- **Get-SiteMailboxProvisioningPolicy**
     
-- **新 New-sitemailboxprovisioningpolicy**
+- **New-SiteMailboxProvisioningPolicy**
     
-- **New-sitemailboxprovisioningpolicy**
+- **Remove-SiteMailboxProvisioningPolicy**
     
-- **New-sitemailboxprovisioningpolicy**
+- **Set-SiteMailboxProvisioningPolicy**
     
 - **Undo-SoftDeletedMailbox**
     
-- **Get-stalemailboxdetailreport**
+- **Get-StaleMailboxDetailReport**
     
-- **Get-stalemailboxreport**
+- **Get-StaleMailboxReport**
     
-- **更新-Update-storemailboxstate**
+- **Update-StoreMailboxState**
     
-- **新 SyncMailPublicFolder**
+- **New-SyncMailPublicFolder**
     
-- **Set-transportservice**
+- **Get-TransportService**
     
-- **Set-transportservice**
+- **Set-TransportService**
     
-- **Disable-Enable-umcallansweringrule**
+- **Disable-UMCallAnsweringRule**
     
-- **Enable-Enable-umcallansweringrule**
+- **Enable-UMCallAnsweringRule**
     
-- **Enable-umcallansweringrule**
+- **Get-UMCallAnsweringRule**
     
-- **新 Enable-umcallansweringrule**
+- **New-UMCallAnsweringRule**
     
-- **Enable-umcallansweringrule**
+- **Remove-UMCallAnsweringRule**
     
-- **Enable-umcallansweringrule**
+- **Set-UMCallAnsweringRule**
     
-- **Set-umcallroutersettings**
+- **Get-UMCallRouterSettings**
     
-- **Set-umcallroutersettings**
+- **Set-UMCallRouterSettings**
     
 - **Disable-UMService**
     
@@ -532,208 +532,208 @@ Exchange 2013 中引入了以下 cmdlet：
     
 - **Set-UMService**
     
-- **Set-userphoto**
+- **Get-UserPhoto**
     
-- **Set-userphoto**
+- **Remove-UserPhoto**
     
-- **Set-userphoto**
+- **Set-UserPhoto**
     
-- **WorkloadManagementPolicy**
+- **Get-WorkloadManagementPolicy**
     
-- **新 WorkloadManagementPolicy**
+- **New-WorkloadManagementPolicy**
     
-- **WorkloadManagementPolicy**
+- **Remove-WorkloadManagementPolicy**
     
-- **Get-workloadpolicy**
+- **Get-WorkloadPolicy**
     
-- **新 Get-workloadpolicy**
+- **New-WorkloadPolicy**
     
-- **Get-workloadpolicy**
+- **Remove-WorkloadPolicy**
     
-- **Get-workloadpolicy**
+- **Set-WorkloadPolicy**
     
-### <a name="modified-cmdlets"></a>修改的 cmdlet
+### <a name="modified-cmdlets"></a>修改后的 cmdlet
 <a name="bk_update"> </a>
 
-以下 cmdlet 的输入或输出类型在 Exchange 2013 中进行了修改：
+以下 cmdlet 的输入或输出类型在 2013 Exchange进行了修改：
   
-- **Clear-Clear-activesyncdevice**
+- **Clear-ActiveSyncDevice**
     
-- **Clear-activesyncdevice**
+- **Remove-ActiveSyncDevice**
     
-- **New-activesyncmailboxpolicy**
+- **Get-ActiveSyncMailboxPolicy**
     
-- **新 New-activesyncmailboxpolicy**
+- **New-ActiveSyncMailboxPolicy**
     
-- **新 Set-activesyncvirtualdirectory**
+- **New-ActiveSyncVirtualDirectory**
     
-- **新 New-autodiscovervirtualdirectory**
+- **New-AutodiscoverVirtualDirectory**
     
-- **Get-availabilityconfig**
+- **Set-AvailabilityConfig**
     
-- **Enable-Get-exchangecertificate**
+- **Enable-ExchangeCertificate**
     
-- **Export-Get-exchangecertificate**
+- **Export-ExchangeCertificate**
     
-- **Import-Get-exchangecertificate**
+- **Import-ExchangeCertificate**
     
-- **Get-exchangecertificate**
+- **Remove-ExchangeCertificate**
     
-- **Get-failedcontentindexdocuments**
+- **Get-FailedContentIndexDocuments**
     
-- **Get-federationinformation**
+- **Get-FederationInformation**
     
-- **新 HybridConfiguration**
+- **New-HybridConfiguration**
     
-- **HybridConfiguration**
+- **Set-HybridConfiguration**
     
 - **New-Mailbox**
     
-- **Resume-Update-mailboxdatabasecopy**
+- **Resume-MailboxDatabaseCopy**
     
-- **Update-mailboxdatabasecopy**
+- **Set-MailboxDatabaseCopy**
     
-- **挂起-Update-mailboxdatabasecopy**
+- **Suspend-MailboxDatabaseCopy**
     
 - **Update-MailboxDatabaseCopy**
     
-- **New-mailboxexportrequest**
+- **Get-MailboxExportRequest**
     
-- **New-mailboxexportrequest**
+- **Set-MailboxExportRequest**
     
-- **外接 Add-mailboxfolderpermission**
+- **Add-MailboxFolderPermission**
     
-- **Add-mailboxfolderpermission**
+- **Remove-MailboxFolderPermission**
     
-- **Add-mailboxfolderpermission**
+- **Set-MailboxFolderPermission**
     
-- **New-mailboximportrequest**
+- **Get-MailboxImportRequest**
     
-- **New-mailboximportrequest**
+- **Set-MailboxImportRequest**
     
-- **New-mailboxrestorerequest**
+- **Get-MailboxRestoreRequest**
     
-- **New-mailboxrestorerequest**
+- **Set-MailboxRestoreRequest**
     
-- **New-mailboxsearch**
+- **Get-MailboxSearch**
     
-- **New-mailboxsearch**
+- **Remove-MailboxSearch**
     
-- **New-mailboxsearch**
+- **Set-MailboxSearch**
     
-- **启动-New-mailboxsearch**
+- **Start-MailboxSearch**
     
-- **New-mailboxsearch**
+- **Stop-MailboxSearch**
     
-- **Disable-Enable-mailpublicfolder**
+- **Disable-MailPublicFolder**
     
-- **Enable-mailpublicfolder**
+- **Get-MailPublicFolder**
     
-- **Enable-mailpublicfolder**
+- **Set-MailPublicFolder**
     
-- **New-migrationbatch**
+- **Get-MigrationBatch**
     
-- **新 New-migrationbatch**
+- **New-MigrationBatch**
     
-- **New-migrationbatch**
+- **Set-MigrationBatch**
     
-- **Test-Test-migrationserveravailability**
+- **Test-MigrationServerAvailability**
     
-- **New-moverequest**
+- **Get-MoveRequest**
     
-- **新 Move-offlineaddressbook**
+- **New-OfflineAddressBook**
     
-- **Set-organizationconfig**
+- **Get-OrganizationConfig**
     
-- **Set-organizationconfig**
+- **Set-OrganizationConfig**
     
-- **Test-Test-outlookconnectivity**
+- **Test-OutlookConnectivity**
     
-- **Test-Test-outlookwebservices**
+- **Test-OutlookWebServices**
     
-- **Set-owamailboxpolicy**
+- **Get-OwaMailboxPolicy**
     
-- **新 Set-owavirtualdirectory**
+- **New-OwaVirtualDirectory**
     
-- **新 Get-powershellvirtualdirectory**
+- **New-PowerShellVirtualDirectory**
     
-- **Set-publicfolder**
+- **Get-PublicFolder**
     
-- **新 Set-publicfolder**
+- **New-PublicFolder**
     
-- **Set-publicfolder**
+- **Set-PublicFolder**
     
-- **外接 Add-publicfolderclientpermission**
+- **Add-PublicFolderClientPermission**
     
-- **Add-publicfolderclientpermission**
+- **Get-PublicFolderClientPermission**
     
-- **Add-publicfolderclientpermission**
+- **Remove-PublicFolderClientPermission**
     
-- **Get-publicfolderitemstatistics**
+- **Get-PublicFolderItemStatistics**
     
-- **Get-publicfolderstatistics**
+- **Get-PublicFolderStatistics**
     
 - **Get-Recipient**
     
-- **Set-resourceconfig**
+- **Set-ResourceConfig**
     
-- **Test-Test-webservicesconnectivity**
+- **Test-WebServicesConnectivity**
     
-- **新 Set-webservicesvirtualdirectory**
+- **New-WebServicesVirtualDirectory**
     
-### <a name="removed-cmdlets"></a>删除的 cmdlet
+### <a name="removed-cmdlets"></a>已删除的 cmdlet
 <a name="bk_removed"> </a>
 
-从 Exchange 2013 中删除了以下 cmdlet：
+已从 2013 Exchange cmdlet：
   
-- **更新-FileDistributionService**
+- **Update-FileDistributionService**
     
-- **还原-邮箱**
+- **Restore-Mailbox**
     
-- **Clean-Set-mailboxdatabase**
+- **Clean-MailboxDatabase**
     
 - **完整迁移**
     
-- **MigrationStatus**
+- **Get-MigrationStatus**
     
-- **更新-Set-publicfolder**
+- **Update-PublicFolder**
     
-- **外接 Remove-publicfolderadministrativepermission**
+- **Add-PublicFolderAdministrativePermission**
     
-- **Remove-publicfolderadministrativepermission**
+- **Get-PublicFolderAdministrativePermission**
     
-- **Remove-publicfolderadministrativepermission**
+- **Remove-PublicFolderAdministrativePermission**
     
-- **新 Get-publicfolderdatabase**
+- **New-PublicFolderDatabase**
     
-- **Get-publicfolderdatabase**
+- **Remove-PublicFolderDatabase**
     
-- **Get-publicfolderdatabase**
+- **Set-PublicFolderDatabase**
     
-- **新 PublicFolderDatabaseRepairRequest**
+- **New-PublicFolderDatabaseRepairRequest**
     
-- **更新-PublicFolderHierarchy**
+- **Update-PublicFolderHierarchy**
     
 - **Resume-PublicFolderReplication**
     
-- **挂起-PublicFolderReplication**
+- **Suspend-PublicFolderReplication**
     
-- **启动-RetentionAutoTagLearning**
+- **Start-RetentionAutoTagLearning**
     
-- **Test-Test-systemhealth**
+- **Test-SystemHealth**
     
-- **Disable-Disable-umserver**
+- **Disable-UMServer**
     
-- **Enable-Disable-umserver**
+- **Enable-UMServer**
     
-- **Disable-umserver**
+- **Get-UMServer**
     
-- **Disable-umserver**
+- **Set-UMServer**
     
 ## <a name="see-also"></a>另请参阅
 
 - [Exchange 命令行管理程序 cmdlet 的输入和输出类型](exchange-management-shell-cmdlet-input-and-output-types.md)    
-- [使用 Exchange 命令行管理程序获取邮件用户列表](how-to-get-a-list-of-mail-users-by-using-the-exchange-management-shell.md)    
+- [使用命令行管理程序获取邮件Exchange列表](how-to-get-a-list-of-mail-users-by-using-the-exchange-management-shell.md)    
 - [Exchange 2013 cmdlets](https://technet.microsoft.com/library/bb124413%28v=exchg.150%29.aspx)
     
 

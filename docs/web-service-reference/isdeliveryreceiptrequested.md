@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsDeliveryReceiptRequested
 api_type:
 - schema
 ms.assetid: 97776b7e-942c-4663-8277-165d64364daa
-description: IsDeliveryReceiptRequested 元素指示项目的发件人是否请求送达回执。
-ms.openlocfilehash: 94bcb79df16e5ef1d8128f2e2d1e8536d9c31603
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: IsDeliveryReceiptRequested 元素指示项目的发件人是否请求传递回执。
+ms.openlocfilehash: 10f07e5732c8bc87930337027fa59160617f438b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458178"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515563"
 ---
 # <a name="isdeliveryreceiptrequested"></a>IsDeliveryReceiptRequested
 
-**IsDeliveryReceiptRequested**元素指示项目的发件人是否请求送达回执。 
+**IsDeliveryReceiptRequested** 元素指示项目的发件人是否请求传递回执。 
   
 ```xml
 <IsDeliveryReceiptRequested/>
@@ -60,7 +60,7 @@ ms.locfileid: "44458178"
    
 ## <a name="text-value"></a>文本值
 
-如果文本值为**true** ，则表示从项目的收件人请求送达回执。 
+true **的文本值表示** 从项目的收件人请求传递回执。 
   
 ## <a name="remarks"></a>说明
 

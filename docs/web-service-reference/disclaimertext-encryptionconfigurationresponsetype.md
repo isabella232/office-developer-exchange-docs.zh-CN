@@ -1,23 +1,23 @@
 ---
-title: DisclaimerText （EncryptionConfigurationResponseType）
+title: DisclaimerText (EncryptionConfigurationResponseType)
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6180d74d-533a-4e5c-b4c1-6a1ac394bd4d
-description: DisclaimerText （EncryptionConfigurationResponseType）元素仅供内部使用。
-ms.openlocfilehash: 1ef078c3fbe07b56dcffdbc20c66d4ece46a30c2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DisclaimerText (EncryptionConfigurationResponseType) 仅供内部使用。
+ms.openlocfilehash: 48131870ac065267ba07ef1e5fdba22b5aedf181
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455630"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540193"
 ---
-# <a name="disclaimertext-encryptionconfigurationresponsetype"></a>DisclaimerText （EncryptionConfigurationResponseType）
+# <a name="disclaimertext-encryptionconfigurationresponsetype"></a>DisclaimerText (EncryptionConfigurationResponseType)
 
-**DisclaimerText （EncryptionConfigurationResponseType）** 元素仅供内部使用。 
+**DisclaimerText (EncryptionConfigurationResponseType)** 元素仅供内部使用。 
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
@@ -35,7 +35,7 @@ ms.locfileid: "44455630"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   

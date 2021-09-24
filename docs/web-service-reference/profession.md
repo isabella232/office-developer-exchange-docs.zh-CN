@@ -1,27 +1,27 @@
 ---
-title: 职业
+title: Profession
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Profession
 api_type:
 - schema
 ms.assetid: 0f6a73b1-9e8a-4736-87ab-604791c615f3
-description: 职业元素表示联系人的职业。
-ms.openlocfilehash: d7c80cb432a20147d1788919c47b25e17642aca4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Profession 元素表示联系人的工作。
+ms.openlocfilehash: 4eb0c669e90a2445423dbbd8d6f1ebb70d11a348
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462218"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515269"
 ---
-# <a name="profession"></a>职业
+# <a name="profession"></a>Profession
 
-**职业**元素表示联系人的职业。 
+**Profession** 元素表示联系人的工作。 
   
 ```xml
 <Profession/>
@@ -48,7 +48,7 @@ ms.locfileid: "44462218"
    
 ## <a name="text-value"></a>文本值
 
-一个代表职业的文本值是必需的。
+需要一个代表职业的文本值。
   
 ## <a name="remarks"></a>说明
 

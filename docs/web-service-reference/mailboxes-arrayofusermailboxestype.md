@@ -1,23 +1,23 @@
 ---
-title: 邮箱（ArrayOfUserMailboxesType）
+title: Mailboxes (ArrayOfUserMailboxesType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9e433049-3ff9-467d-ad2a-c767a22f9fbb
-description: 邮箱元素包含一个邮箱数组。
-ms.openlocfilehash: b3af9b831b7877bcfb030422b8fb44ccc6b61d5c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Mailboxes 元素包含一组邮箱。
+ms.openlocfilehash: 593a062fd52900f8500cbed0413e66038b948855
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468150"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514268"
 ---
-# <a name="mailboxes-arrayofusermailboxestype"></a>邮箱（ArrayOfUserMailboxesType）
+# <a name="mailboxes-arrayofusermailboxestype"></a>Mailboxes (ArrayOfUserMailboxesType)
 
-**邮箱**元素包含一个邮箱数组。 
+**Mailboxes** 元素包含一组邮箱。 
   
 ```XML
 <Mailboxes>
@@ -43,7 +43,7 @@ ms.locfileid: "44468150"
 
 [FindMailboxStatisticsByKeywords](findmailboxstatisticsbykeywords.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

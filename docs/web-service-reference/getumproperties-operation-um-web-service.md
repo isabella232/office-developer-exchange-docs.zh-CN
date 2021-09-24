@@ -1,32 +1,32 @@
 ---
-title: GetUMProperties 操作（UM web 服务）
+title: GetUMProperties 操作（UM Web 服务）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetUMProperties
 api_type:
 - schema
 ms.assetid: 301fb9a3-67df-44c4-8ffe-0600237fc344
-description: GetUMProperties 操作获取发出请求的用户的邮箱的所有统一消息属性。
-ms.openlocfilehash: 42176d9cd0288af6515aeea616a4f216a419410c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetUMProperties 操作获取进行请求的用户的邮箱的所有统一消息属性。
+ms.openlocfilehash: 8d051196e83e1f927692b517e1ab3e95bb0060db
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462470"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515815"
 ---
-# <a name="getumproperties-operation-um-web-service"></a>GetUMProperties 操作（UM web 服务）
+# <a name="getumproperties-operation-um-web-service"></a>GetUMProperties 操作（UM Web 服务）
 
-GetUMProperties 操作获取发出请求的用户的邮箱的所有统一消息属性。
+GetUMProperties 操作获取进行请求的用户的邮箱的所有统一消息属性。
   
 ## <a name="getumproperties-request-example"></a>GetUMProperties 请求示例
 
 ### <a name="description"></a>Description
 
-以下示例的 GetUMProperties 请求显示如何形成请求以获取邮箱的统一消息属性。
+GetUMProperties 请求的以下示例显示如何形成请求，以获取邮箱的统一消息属性。
   
 ### <a name="code"></a>代码
 
@@ -43,7 +43,7 @@ GetUMProperties 操作获取发出请求的用户的邮箱的所有统一消息�
 
 ### <a name="description"></a>Description
 
-下面的 GetUMProperties 响应示例显示对 GetUMProperties 请求的响应。
+GetUMProperties 响应的以下示例显示对 GetUMProperties 请求的响应。
   
 ### <a name="code"></a>代码
 
@@ -68,7 +68,7 @@ GetUMProperties 操作获取发出请求的用户的邮箱的所有统一消息�
 
 
 
-[GetUMProperties （UM web 服务）](getumproperties-um-web-service.md)
+[GetUMProperties（UM Web 服务）](getumproperties-um-web-service.md)
   
-[GetUMPropertiesResponse （UM web 服务）](getumpropertiesresponse-um-web-service.md)
+[GetUMPropertiesResponse（UM Web 服务）](getumpropertiesresponse-um-web-service.md)
 

@@ -1,24 +1,24 @@
 ---
-title: ArrayOfUserResponse （SOAP）
+title: ArrayOfUserResponse (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 3e5cf65c-8d0b-4fd9-8207-56c07f914acd
-description: ArrayOfUserResponse 元素包含 UserResponse （SOAP）元素的数组。
-ms.openlocfilehash: fb14b6cd714a0561e9c8e17bd1779d955ba16dfc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ArrayOfUserResponse 元素包含一组 UserResponse (SOAP) 元素。
+ms.openlocfilehash: f130d1c7c8e227ca295b1d99a023fb27e6995c63
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466008"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540270"
 ---
-# <a name="arrayofuserresponse-soap"></a>ArrayOfUserResponse （SOAP）
+# <a name="arrayofuserresponse-soap"></a>ArrayOfUserResponse (SOAP)
 
-**ArrayOfUserResponse**元素包含[UserResponse （SOAP）](userresponse-soap.md)元素的数组。 
+**ArrayOfUserResponse** 元素包含一组 [UserResponse](userresponse-soap.md) (SOAP) 元素。 
   
 ```XML
 <ArrayOfUserResponse>
@@ -39,7 +39,7 @@ ms.locfileid: "44466008"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[UserResponse （SOAP）](userresponse-soap.md) <br/> |包含指定用户的请求的设置。  <br/> |
+|[UserResponse (SOAP)](userresponse-soap.md) <br/> |包含指定用户的请求设置。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 

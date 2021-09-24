@@ -1,34 +1,34 @@
 ---
-title: SPA （POX）
+title: SPA (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: fba018d5-0c65-4e1b-9767-d1ce8b356278
-description: SPA 元素指示是否需要安全密码身份验证（SPA）。
-ms.openlocfilehash: cf57b3a6046b1b9b030b7cae81381189eee92c1c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SPA 元素指示是否需要 SPA (安全) 身份验证。
+ms.openlocfilehash: 8737a5b923d4f59c2819f7574924352223ac3673
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467639"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540410"
 ---
-# <a name="spa-pox"></a>SPA （POX）
+# <a name="spa-pox"></a>SPA (POX)
 
-**SPA**元素指示是否需要安全密码身份验证（SPA）。 
+**SPA** 元素指示是否需要 SPA (安全) 身份验证。 
   
-[自动发现（POX）](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[响应（POX）](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[帐户（POX）](account-pox.md)
+[Account (POX)](account-pox.md)
   
-[协议（POX）](protocol-pox.md)
+[Protocol (POX)](protocol-pox.md)
   
-[SPA （POX）](spa-pox.md)
+[SPA (POX)](spa-pox.md)
   
 ```xml
 <SPA/>
@@ -50,19 +50,19 @@ ms.locfileid: "44467639"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[协议（POX）](protocol-pox.md) <br/> |包含用于将客户端连接到运行 Microsoft Exchange Server 2007 且安装了客户端访问服务器角色的计算机的规范。  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |包含用于将客户端连接到运行 2007 Microsoft Exchange Server安装了客户端访问服务器角色的计算机的规范。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-该文本值指示是否需要 SPA。 如果文本值为 **"开**"，则需要 SPA。
+文本值指示是否需要 SPA。 如果文本值为 **on，** 则 SPA 是必需的。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-如果此元素不存在，则默认值设置为 **"开**"。
+如果此元素不存在，则默认值在 **上设置为**。
   
 ## <a name="see-also"></a>另请参阅
 
 
 
-[Exchange 的 POX 自动发现 XML 元素](pox-autodiscover-xml-elements-for-exchange.md)
+[用于存储的 POX 自动发现 XML Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

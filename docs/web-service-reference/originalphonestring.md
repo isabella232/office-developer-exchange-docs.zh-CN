@@ -1,23 +1,23 @@
 ---
-title: Phonenumber.originalphonestring
+title: OriginalPhoneString
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 02c42828-0d52-4007-bbed-e6571fd31cbe
-description: Phonenumber.originalphonestring 元素指定联系人或角色的原始电话号码。
-ms.openlocfilehash: 172a69ec088440ece80a2807b97171ebf81b97d3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: OriginalPhoneString 元素指定联系人或人物的原始电话号码。
+ms.openlocfilehash: 58a9b16a0cd1c747c8d9034ec81f63d91318e4dd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467037"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514212"
 ---
-# <a name="originalphonestring"></a>Phonenumber.originalphonestring
+# <a name="originalphonestring"></a>OriginalPhoneString
 
-**Phonenumber.originalphonestring**元素指定联系人或角色的原始电话号码。 
+**OriginalPhoneString** 元素指定联系人或人物的原始电话号码。 
   
 ```XML
 <OriginalPhoneString></OriginalPhoneString>
@@ -38,13 +38,13 @@ ms.locfileid: "44467037"
   
 ### <a name="parent-elements"></a>父元素
 
-[电话](phone.md)  | [电话（PhoneEntityType）](phone-phoneentitytype.md)
+[电话](phone.md)  | [电话 (PhoneEntityType) ](phone-phoneentitytype.md)
   
 ## <a name="text-value"></a>文本值
 
-**Phonenumber.originalphonestring**元素的文本值是联系人或角色的原始电话号码。 
+**OriginalPhoneString 元素** 的文本值是联系人或人物的原始电话号码。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

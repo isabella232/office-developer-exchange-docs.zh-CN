@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 37f0c542-7e4c-41b6-8629-537ef11b610b
-description: Base64Binary 元素包含一个 Base64 编码的值。
-ms.openlocfilehash: e3ccda98d23b05349a27711b5bff6b68744c9269
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Base64Binary 元素包含 Base64 编码的值。
+ms.openlocfilehash: 91957f199ab7c5e07899299a90292a7b44ea5793
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458052"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516109"
 ---
 # <a name="base64binary"></a>Base64Binary
 
-**Base64Binary**元素包含一个 Base64 编码的值。 
+**Base64Binary** 元素包含 Base64 编码的值。 
   
 ```XML
 <Base64Binary/>
@@ -40,14 +40,14 @@ ms.locfileid: "44458052"
 
 |**元素名**|**说明**|
 |:-----|:-----|
-|[UserSMIMECertificate](usersmimecertificate.md) <br/> |包含对联系人的 SMIME 证书进行编码的值。  <br/> |
-|[MSExchangeCertificate](msexchangecertificate.md) <br/> |包含对联系人的 Microsoft Exchange 证书进行编码的值。  <br/> |
+|[UserSMIMECertificate](usersmimecertificate.md) <br/> |包含一个值，该值对联系人的 SMIME 证书进行编码。  <br/> |
+|[MSExchangeCertificate](msexchangecertificate.md) <br/> |包含一个值，该值对联系人Exchange Microsoft 证书进行编码。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GlobalItemClasses
 api_type:
 - schema
 ms.assetid: 72634700-6d75-44c0-80b7-8c31743c04d6
-description: GlobalItemClasses 元素包含项类的列表，这些类表示邮箱中会话项目的所有项目类。
-ms.openlocfilehash: e4cb8a8886f8262e8cb4a550b054e81ea18a5e11
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GlobalItemClasses 元素包含表示邮箱中会话项目的所有项目类的项目类列表。
+ms.openlocfilehash: 0081a59bccf9fb6d967334d3ec5df2b379529ae8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459431"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515724"
 ---
 # <a name="globalitemclasses"></a>GlobalItemClasses
 
-**GlobalItemClasses**元素包含项类的列表，这些类表示邮箱中会话项目的所有项目类。 
+**GlobalItemClasses** 元素包含表示邮箱中会话项目的所有项目类的项目类列表。 
   
 [FindConversationResponse](findconversationresponse.md)
   
@@ -62,7 +62,7 @@ ms.locfileid: "44459431"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   

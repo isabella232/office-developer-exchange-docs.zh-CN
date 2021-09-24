@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ContentLocation
 api_type:
 - schema
 ms.assetid: d91cf587-24e3-4c13-8784-5ca29787cca7
-description: ContentLocation 元素包含与附件内容的位置相对应的统一资源标识符（URI）。
-ms.openlocfilehash: 01bb95da5f620fddc8777f88b1d3eb1a7e6069b1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ContentLocation 元素包含与附件 (位置) URI 元素对应的统一资源标识符。
+ms.openlocfilehash: 4bfb23df517f1fa7a5633ec52650f5371e599848
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461483"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515962"
 ---
 # <a name="contentlocation"></a>ContentLocation
 
-**ContentLocation**元素包含与附件内容的位置相对应的统一资源标识符（URI）。 
+**ContentLocation** 元素包含与附件 (位置) URI 元素对应的统一资源标识符。 
   
 ```xml
 <ContentLocation/>
@@ -44,12 +44,12 @@ ms.locfileid: "44461483"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ItemAttachment](itemattachment.md) <br/> |表示附加到另一个 Exchange 项目的 Exchange 项目。  <br/> |
-|[FileAttachment](fileattachment.md) <br/> |代表附加到 Exchange 存储中的项目的文件。  <br/> |
+|[ItemAttachment](itemattachment.md) <br/> |代表Exchange附加到其他项目的项目Exchange项。  <br/> |
+|[FileAttachment](fileattachment.md) <br/> |表示附加到项目存储中的Exchange文件。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-Text 值是一个代表 URI 的字符串值。
+文本值是表示 URI 的字符串值。
   
 ## <a name="remarks"></a>说明
 

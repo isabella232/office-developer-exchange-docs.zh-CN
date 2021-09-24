@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5acceb42-a757-4c74-ab1c-b1abf7bf1e0a
-description: ExchangeStoreId 元素指定即时消息（IM）组标识符。
-ms.openlocfilehash: c1b1e1830987449eeb7ea186d00743ea9cc75a77
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ExchangeStoreId 元素指定即时消息 (IM) 标识符。
+ms.openlocfilehash: dba2d97fa135583efd70ec6d555b71f356282728
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456988"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513799"
 ---
 # <a name="exchangestoreid"></a>ExchangeStoreId
 
-**ExchangeStoreId**元素指定即时消息（IM）组标识符。 
+**ExchangeStoreId** 元素指定即时消息 (IM) 组标识符。 
   
 ```XML
 <ExchangeStoreId Id="" ChangeKey=""/>
@@ -32,8 +32,8 @@ ms.locfileid: "44456988"
 
 |**属性**|**说明**|
 |:-----|:-----|
-|Id  <br/> |**Id**属性的文本值是组的标识符。  <br/> |
-|ChangeKey  <br/> |**ChangeKey**属性的文本值是组的更改键。  <br/> |
+|Id  <br/> |**Id** 属性的文本值是组的标识符。  <br/> |
+|ChangeKey  <br/> |**ChangeKey** 属性的文本值是组的更改键。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -45,7 +45,7 @@ ms.locfileid: "44456988"
 |:-----|:-----|
 |[ImGroup](imgroup.md) <br/> |表示即时消息组。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -57,7 +57,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

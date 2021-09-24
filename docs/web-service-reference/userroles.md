@@ -1,23 +1,23 @@
 ---
-title: Userroles.xml
+title: UserRoles
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: be003e12-3496-468d-a61c-48af0b819654
-description: Userroles.xml 元素指定呼叫用户的用户角色，或调用合作伙伴应用程序所充当的用户要应用于当前呼叫的用户角色。
-ms.openlocfilehash: 5155b82781321b16d1b58fdcaffe7b8cf2372717
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: UserRoles 元素指定调用用户或调用合作伙伴应用程序正在充当的用户要应用于当前呼叫的用户角色。
+ms.openlocfilehash: c861cda9a010e909c9ecc5303ddc637a14bcb824
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467128"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514975"
 ---
-# <a name="userroles"></a>Userroles.xml
+# <a name="userroles"></a>UserRoles
 
-**Userroles.xml**元素指定呼叫用户的用户角色，或调用合作伙伴应用程序所充当的用户要应用于当前呼叫的用户角色。 
+**UserRoles** 元素指定调用用户或调用合作伙伴应用程序正在充当的用户要应用于当前呼叫的用户角色。 
   
 ```XML
 <UserRoles>
@@ -40,9 +40,9 @@ ms.locfileid: "44467128"
   
 ### <a name="parent-elements"></a>父元素
 
-[Get-managementrole](managementrole.md)
+[ManagementRole](managementrole.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

@@ -1,27 +1,27 @@
 ---
-title: InvalidRecipient （邮件提示）
+title: InvalidRecipient (MailTips)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - InvalidRecipient
 api_type:
 - schema
 ms.assetid: 48959a99-bb0d-4004-963e-5a5baaa96476
 description: InvalidRecipient 元素指示收件人是否无效。
-ms.openlocfilehash: fddd75beb2228c50084bd38b4f4745064cc281dc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 747210c234ecf39bd711ace938ad16af2353eaad
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530000"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539568"
 ---
-# <a name="invalidrecipient-mailtips"></a>InvalidRecipient （邮件提示）
+# <a name="invalidrecipient-mailtips"></a>InvalidRecipient (MailTips)
 
-**InvalidRecipient**元素指示收件人是否无效。 
+**InvalidRecipient** 元素指示收件人是否无效。 
   
 ```XML
 <InvalidRecipient>true | false</InvalidRecipient>
@@ -44,11 +44,11 @@ ms.locfileid: "44530000"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[邮件提示](mailtips.md) <br/> |表示各种邮件提示类型的值。  <br/> |
+|[邮件提示](mailtips.md) <br/> |表示各种类型的邮件提示的值。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-如果收件人无效，则此元素的文本值为**true** 。 如果收件人无效，则该值为**false** 。 
+如果收件人无效，则 **此元素的文本** 值为 true。 如果收件人无效，则值为 **false。** 
   
 ## <a name="remarks"></a>说明
 

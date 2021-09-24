@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GlobalHasAttachments
 api_type:
 - schema
 ms.assetid: 3d075e93-14bc-479d-957f-9b7873d1db39
 description: GlobalHasAttachments元素中包含一个值，指示是否至少一个对话邮箱中的邮件带有附件。
-ms.openlocfilehash: e314e8e5c06ca7d7820b910c05b381765e88911f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: a5a12290e9eee4fb29ce7b5f24e9a24c44d8179e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459474"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525875"
 ---
 # <a name="globalhasattachments"></a>GlobalHasAttachments
 
-本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **GlobalHasAttachments**元素中包含一个值，指示是否至少一个对话邮箱中的邮件带有附件。 
+本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **GlobalHasAttachments** 元素中包含一个值，指示是否至少一个对话邮箱中的邮件带有附件。 
   
 [FindConversationResponse](findconversationresponse.md)
   
@@ -56,9 +56,9 @@ ms.locfileid: "44459474"
    
 ## <a name="text-value"></a>文本值
 
-**GlobalHasAttachments**元素的值指示是否至少一个对话邮箱中的邮件带有附件。表示一个布尔值的文本值是必需的。 **true**的值表示该对话有至少一个可见附件。 **false**的值表示对话既没有附件或仅包含隐藏的附件。 
+**GlobalHasAttachments** 元素的值指示是否至少一个对话邮箱中的邮件带有附件。表示一个布尔值的文本值是必需的。 **true** 的值表示该对话有至少一个可见附件。 **false** 的值表示对话既没有附件或仅包含隐藏的附件。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   

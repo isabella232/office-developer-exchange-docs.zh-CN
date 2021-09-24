@@ -1,24 +1,24 @@
 ---
-title: AutodiscoverRequest （SOAP）
+title: AutodiscoverRequest (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 3e403e81-290b-42f6-9e79-15135fc58c4b
 description: AutodiscoverRequest 元素表示所有自动发现请求的基本元素。
-ms.openlocfilehash: ed7d4095dafaba6a7800927f2d3ece412b57ae36
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: d7616bbc052427c43dd2d61fca901966ad72a9a8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466848"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514863"
 ---
-# <a name="autodiscoverrequest-soap"></a>AutodiscoverRequest （SOAP）
+# <a name="autodiscoverrequest-soap"></a>AutodiscoverRequest (SOAP)
 
-**AutodiscoverRequest**元素表示所有自动发现请求的基本元素。 
+**AutodiscoverRequest** 元素表示所有自动发现请求的基本元素。 
   
 ```XML
 <AutodiscoverRequest/>
@@ -45,9 +45,9 @@ ms.locfileid: "44466848"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-从不使用**AutodiscoverRequest**全局元素。 
+从不 **使用 AutodiscoverRequest** 全局元素。 
   
 ## <a name="element-information"></a>元素信息
 

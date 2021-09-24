@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4a20c747-4fa2-4c8d-b439-816918e8ba02
 description: ClientIntent 元素仅供内部使用。
-ms.openlocfilehash: cf791a5ddba7c3455f5738bd4bede00dc7010f0e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 5168d23ec55b3c4c6dba116116f5747edf5053f7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462183"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515990"
 ---
 # <a name="clientintent"></a>ClientIntent
 
-**ClientIntent**元素仅供内部使用。 
+**ClientIntent** 元素仅供内部使用。 
   
 ```XML
 <ClientIntent />
@@ -40,7 +40,7 @@ ms.locfileid: "44462183"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -52,7 +52,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
-|验证文件  <br/> |消息 .xsd  <br/> |
+|验证文件  <br/> |messages.xsd  <br/> |
 |可以为空  <br/> ||
    
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Dictionary
 api_type:
 - schema
 ms.assetid: 8309e468-115b-4d6e-b33c-c4719dcecc4c
-description: Dictionary 元素为用户配置对象定义一组字典属性项。
-ms.openlocfilehash: 8e5267717aab2317b2bc1581a775ead81025a08a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Dictionary 元素定义用户配置对象的一组字典属性条目。
+ms.openlocfilehash: 897cf9365f5a3db192528e5107ef2227522d5cbc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455665"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540158"
 ---
 # <a name="dictionary"></a>Dictionary
 
-**Dictionary**元素为用户配置对象定义一组字典属性项。 
+**Dictionary** 元素定义用户配置对象的一组字典属性条目。 
   
 ```xml
 <Dictionary>
@@ -42,7 +42,7 @@ ms.locfileid: "44455665"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[DictionaryEntry](dictionaryentry.md) <br/> |指定单个词典项属性的内容。  <br/> |
+|[DictionaryEntry](dictionaryentry.md) <br/> |指定单个词典条目属性的内容。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -54,7 +54,7 @@ ms.locfileid: "44455665"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

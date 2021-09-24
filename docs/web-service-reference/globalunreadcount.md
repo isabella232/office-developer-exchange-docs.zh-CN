@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GlobalUnreadCount
 api_type:
 - schema
 ms.assetid: 5e5ccf3e-2f95-4bf9-b915-8b7e59e807a5
-description: GlobalUnreadCount 元素包含邮箱中所有未读对话项的计数。
-ms.openlocfilehash: 976067078908523936769b2856712e3e6908f0c4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GlobalUnreadCount 元素包含邮箱中所有未读对话项目的计数。
+ms.openlocfilehash: 438df5821f1b8c78253b2d328ab4f9e5616295ed
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530111"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539814"
 ---
 # <a name="globalunreadcount"></a>GlobalUnreadCount
 
-**GlobalUnreadCount**元素包含邮箱中所有未读对话项的计数。 
+**GlobalUnreadCount** 元素包含邮箱中所有未读对话项目的计数。 
   
 [FindConversationResponse](findconversationresponse.md)
   
@@ -35,7 +35,7 @@ ms.locfileid: "44530111"
 <GlobalUnreadCount/>
 ```
 
- **xs： int**
+ **xs：int**
 ## <a name="attributes-and-elements"></a>属性和元素
 
 下面各部分介绍了属性、子元素和父元素。
@@ -56,9 +56,9 @@ ms.locfileid: "44530111"
    
 ## <a name="text-value"></a>文本值
 
-**GlobalUnreadCount**元素的文本值是一个整数值，表示邮箱中的所有未读对话项的计数。 
+**GlobalUnreadCount** 元素的文本值是一个整数值，表示邮箱中所有未读会话项目的计数。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   

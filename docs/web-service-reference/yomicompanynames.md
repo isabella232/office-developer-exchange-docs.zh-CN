@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5c414af9-34d0-41ce-bda9-0d4ca3f3be79
-description: YomiCompanyNames 元素指定一个拼音日文公司名称的数组以及其关联角色的源归属的标识符。
-ms.openlocfilehash: 41b97998425926750a3ecc7e17233f2066759689
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: YomiCompanyNames 元素指定一个包含日文电话公司名称的数组，以及关联人物的源属性的标识符。
+ms.openlocfilehash: c7ee24636f97bc0f568d34d862e9ea332e3204dc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457863"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540382"
 ---
 # <a name="yomicompanynames"></a>YomiCompanyNames
 
-**YomiCompanyNames**元素指定一个拼音日文公司名称的数组以及其关联角色的源归属的标识符。 
+**YomiCompanyNames** 元素指定一个包含日文电话公司名称的数组，以及关联人物的源属性的标识符。 
   
 ```XML
 <YomiCompanyNames>
@@ -42,7 +42,7 @@ ms.locfileid: "44457863"
 
 [角色](persona.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

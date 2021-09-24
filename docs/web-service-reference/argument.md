@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Argument
 api_type:
 - schema
 ms.assetid: 15b0bfb8-2448-4ceb-aeac-965115e0fb72
 description: Argument 元素指定操作的参数。
-ms.openlocfilehash: 41e3b1d891610669b0cc93f3daf6e8ee98c48396
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: e948216e733a6623f8c4113b178c2c4ff31eccd9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464754"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540263"
 ---
 # <a name="argument"></a>参数
 
-**Argument**元素指定操作的参数。 
+**Argument** 元素指定操作的参数。 
   
 ```xml
 <Argument Value=""/>
@@ -36,7 +36,7 @@ ms.locfileid: "44464754"
 
 |**属性**|**说明**|
 |:-----|:-----|
-|**值** <br/> |一个非空字符串值，表示保护规则的操作部分的参数值。 此特性是必需的。  <br/> |
+|**值** <br/> |一个非空字符串值，代表保护规则操作部分的参数值。 此特性是必需的。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -46,13 +46,13 @@ ms.locfileid: "44464754"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Action （ProtectionRuleActionType）](action-protectionruleactiontype.md) <br/> |确定当规则的条件部分匹配时，必须执行的操作。  <br/> |
+|[Action (ProtectionRuleActionType)](action-protectionruleactiontype.md) <br/> |标识在规则的条件部分匹配时必须执行的操作。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

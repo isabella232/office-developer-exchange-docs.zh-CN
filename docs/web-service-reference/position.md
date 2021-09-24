@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 46726ebb-a403-4793-8378-282aa7dc39d0
-description: Position 元素指定从邮件提取的实体的位置。
-ms.openlocfilehash: 9acd965c3e0c29f3fa91df338c0671749192b38b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Position 元素指定从邮件中提取的实体的位置。
+ms.openlocfilehash: 6b4e7c12bbcf12b8804619caa508f5c2c0bc4eda
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465420"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515290"
 ---
 # <a name="position"></a>Position
 
-**Position**元素指定从邮件提取的实体的位置。 
+**Position** 元素指定从邮件中提取的实体的位置。 
   
 ```XML
 <Position> LatestReply | Other | Subject | Signature </Position>
@@ -38,21 +38,21 @@ ms.locfileid: "44465420"
   
 ### <a name="parent-elements"></a>父元素
 
-[UrlEntity](urlentity.md)  | [AddressEntity](addressentity.md)  | [EmailAddressEntity](emailaddressentity.md)  | [MeetingSuggestion](meetingsuggestion.md)  | [Contact （ContactType）](contact-contacttype.md)  | [电话（PhoneEntityType）](phone-phoneentitytype.md)  | [TaskSuggestion](tasksuggestion.md)
+[UrlEntity](urlentity.md)  | [AddressEntity](addressentity.md)  | [EmailAddressEntity](emailaddressentity.md)  | [MeetingSuggestion](meetingsuggestion.md)  | [Contact (ContactType) ](contact-contacttype.md)  | [电话 (PhoneEntityType) ](phone-phoneentitytype.md)  | [TaskSuggestion](tasksuggestion.md)
   
 ## <a name="text-value"></a>文本值
 
-**Position**元素的文本值是提取的实体在源消息中产生的位置。 **Position**元素的文本值为： 
+**Position** 元素的文本值是提取的实体源自源邮件的位置。 **Position** 元素的文本值为： 
   
-- **LatestReply** -提取的实体源自最新的邮件答复。 
+- **LatestReply** - 提取的实体源自对邮件的最新回复。 
     
-- **其他**-提取的实体来自未定义的邮件部分。 
+- **Other** - 提取的实体源自邮件的未定义部分。 
     
-- **Subject** -提取的实体来自邮件主题。 
+- **Subject** - 提取的实体源自邮件主题。 
     
-- **签名**-提取的实体源于邮件签名。 
+- **Signature** - 提取的实体源自邮件签名。 
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

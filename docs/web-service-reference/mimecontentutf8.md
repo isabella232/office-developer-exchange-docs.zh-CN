@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 31544c95-5231-4b57-958c-2a689464d29b
 description: MimeContentUTF8 元素包含以 base64Binary 格式表示的对象的 UTF-8 MIME 流，并支持电子邮件地址国际化和 [RFC6530]。
-ms.openlocfilehash: a9214bda876c1aadac5b026b3adf38faea8ef17a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: f0ab38368d3a18be38f63c86183a238e2fd0a474
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530427"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540753"
 ---
 # <a name="mimecontentutf8"></a>MimeContentUTF8
 
-**MimeContentUTF8**元素包含以 base64Binary 格式表示的对象的 utf-8 MIME 流，并支持电子邮件地址国际化和[[RFC6530]](http://www.rfc-editor.org/rfc/rfc6530.txt)。
+**MimeContentUTF8** 元素包含以 base64Binary 格式表示的对象的 UTF-8 MIME 流，并支持电子邮件地址国际化 [和 [RFC6530]](http://www.rfc-editor.org/rfc/rfc6530.txt)。
   
 ```XML
 <MimeContentUTF8 CharacterSet="" />
@@ -40,31 +40,31 @@ ms.locfileid: "44530427"
   
 ### <a name="parent-elements"></a>父元素
 
-[CalendarItem](calendaritem.md)  | [联系人](contact.md)  | [DistributionList](distributionlist.md)  | [项](item.md)  | [MeetingCancellation](meetingcancellation.md)  | [MeetingMessage](meetingmessage.md)  | [MeetingRequest](meetingrequest.md)  | [MeetingResponse](meetingresponse.md)  | [邮件](message-ex15websvcsotherref.md)  | [RemoveItem](removeitem.md)  | [任务](task.md)
+[CalendarItem](calendaritem.md)  | [联系人](contact.md)  | [DistributionList](distributionlist.md)  | [Item](item.md)  | [MeetingCancellation](meetingcancellation.md)  | [MeetingMessage](meetingmessage.md)  | [MeetingRequest](meetingrequest.md)  | [MeetingResponse](meetingresponse.md)  | [邮件](message-ex15websvcsotherref.md)  | [RemoveItem](removeitem.md)  | [任务](task.md)
   
 ## <a name="text-value"></a>文本值
 
-如果使用此元素，则表示 base64binary MIME 流的文本值是必需的。
+如果此元素已使用，则代表 base64binary MIME 流的文本值是必需的。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-邮件内容在存储在**MimeContentUTF8**值之前，会经历以下三种编码级别： 
+邮件内容先经过以下三个级别的编码，然后再存储在 **MimeContentUTF8** 值中： 
   
-1. 邮件文本—这是正文编码，例如，日语字符的 iso-2022-jp。
+1. 消息文本 — 这是正文编码，例如 iso-2022-jp 表示日语字符。
     
-2. MIME 流—这是**MimeContentUTF8**元素的邮件文本的 UTF8 编码，或[MimeContent](mimecontent.md)元素的邮件文本的 ASCII 编码。 
+2. MIME 流 — 这是 **MimeContentUTF8** 元素的邮件文本的 UTF8 编码，或 [MimeContent](mimecontent.md) 元素的邮件文本的 ASCII 编码。 
     
-3. XML 文档—这始终是 MIME 流的 base64 编码的 ASCII 流，其中的字符（如 ""）在 XML 分析程序中是隐藏的，这些字符（如 ' \< '）对 xml 是有意义的。
+3. XML 文档 — 这始终是 MIME 流的 base64 编码的 ASCII 流，其中对 XML 有意义的字符（例如''）在 XML 分析器中 \< 隐藏。
     
-每个级别都独立于它之前的级别。
+每个级别都独立于它之前的水平。
   
-**MimeContentUTF8**元素可能包含与项目一起返回的其他属性所包含的数据。 
+**MimeContentUTF8** 元素可能包含与项目所返回的其他属性相同的数据。 
   
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
 ### <a name="version-differences"></a>版本差异
 
-此元素在从生成15.00.0986.00 开始的 Exchange 版本中可用。
+此元素在版本 15.00.0986.00 Exchange版本提供。
   
 ## <a name="element-information"></a>元素信息
 

@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5e57ce96-895d-40c5-a670-19f3bc610dbd
-description: EndNodeUrl 元素指定 Office 应用商店中邮件应用程序的 URL。
-ms.openlocfilehash: 0ace98bd41c49a31d528b08d0d0f4011d783866c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: EndNodeUrl 元素指定邮件存储中邮件Office URL。
+ms.openlocfilehash: 59cfbde63d5bd30f6f47d5e2f7f4a6e3d02b8639
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458402"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514695"
 ---
 # <a name="endnodeurl"></a>EndNodeUrl
 
-**EndNodeUrl**元素指定 Office 应用商店中邮件应用程序的 URL。 
+**EndNodeUrl** 元素指定邮件存储中邮件Office URL。 
   
 ```XML
 <EndNodeUrl/>
@@ -42,7 +42,7 @@ ms.locfileid: "44458402"
   
 ## <a name="text-value"></a>文本值
 
-**EndNodeUrl**元素的文本值是 Office 应用商店中邮件应用程序的 URL。 
+**EndNodeUrl** 元素的文本值是邮件存储中邮件Office URL。 
   
 ## <a name="remarks"></a>说明
 

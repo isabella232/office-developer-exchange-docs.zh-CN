@@ -1,22 +1,22 @@
 ---
-title: 响应（GetOrganizationRelationship）（SOAP）
+title: Response (GetOrganizationRelationship) (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e6bbe800-3cbc-48b2-87b3-2043f575e88b
-description: Response 元素包含 GetOrganizationRelationshipSettings 操作（SOAP）响应信息。 Response 元素仅供内部使用。 客户端不使用此元素。
-ms.openlocfilehash: 55f8cd549f40b780b2e7438634a851a2c3854f40
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Response 元素包含 SOAP (响应) GetOrganizationRelationshipSettings 操作。 Response 元素供内部使用。 此元素不由客户端使用。
+ms.openlocfilehash: 4aed4721fd443c5068055f4d802793e7cd1be14d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467940"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514149"
 ---
-# <a name="response-getorganizationrelationship-soap"></a>响应（GetOrganizationRelationship）（SOAP）
+# <a name="response-getorganizationrelationship-soap"></a>Response (GetOrganizationRelationship) (SOAP)
 
-**Response**元素包含[GETORGANIZATIONRELATIONSHIPSETTINGS 操作（SOAP）](getorganizationrelationshipsettings-operation-soap.md)响应信息。 **Response**元素仅供内部使用。 客户端不使用此元素。 
+**Response** 元素包含 [SOAP (响应) GetOrganizationRelationshipSettings](getorganizationrelationshipsettings-operation-soap.md)操作。 **Response** 元素供内部使用。 此元素不由客户端使用。 
   
 ```XML
 <GetOrganizationRelationshipSettingsResponse>
@@ -39,9 +39,9 @@ ms.locfileid: "44467940"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ErrorCode （SOAP）](errorcode-soap.md) <br/> |表示自动发现服务返回的错误代码。  <br/> |
-|[ErrorMessage （SOAP）](errormessage-soap.md) <br/> |表示与自动发现服务返回的错误代码相关联的消息。  <br/> |
-|[OrganizationRelationshipSettingsCollection （SOAP）](organizationrelationshipsettingscollection-soap.md) <br/> |表示与查询匹配的组织关系的列表。  <br/> |
+|[ErrorCode (SOAP)](errorcode-soap.md) <br/> |表示自动发现服务返回的错误代码。  <br/> |
+|[ErrorMessage (SOAP)](errormessage-soap.md) <br/> |表示与自动发现服务返回的错误代码相关联的消息。  <br/> |
+|[OrganizationRelationshipSettingsCollection (SOAP)](organizationrelationshipsettingscollection-soap.md) <br/> |表示与查询匹配的组织关系列表。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -64,5 +64,5 @@ ms.locfileid: "44467940"
 
 
 
-[GetOrganizationRelationshipSettings 操作（SOAP）](getorganizationrelationshipsettings-operation-soap.md)
+[GetOrganizationRelationshipSettings 操作 (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
 

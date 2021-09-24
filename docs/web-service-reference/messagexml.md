@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MessageXml
 api_type:
 - schema
 ms.assetid: bcaf9e35-d351-48f3-baad-f90c633cba8a
 description: MessageXml 元素提供其他错误响应信息。
-ms.openlocfilehash: 180b447874523742a1d29d457c4ef020e4124f7c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 714f055956cee6686acccd98881a12fb976e6c12
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466274"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540760"
 ---
 # <a name="messagexml"></a>MessageXml
 
-**MessageXml**元素提供其他错误响应信息。 
+**MessageXml** 元素提供其他错误响应信息。 
   
 - [ResponseMessage](responsemessage.md)  
 - [MessageXml](messagexml.md)
@@ -30,7 +30,7 @@ ms.locfileid: "44466274"
 <MessageXml/>
 ```
 
- **xs： any**
+ **xs：any**
 ## <a name="attributes-and-elements"></a>属性和元素
 
 下面各部分介绍了属性、子元素和父元素。
@@ -47,12 +47,12 @@ ms.locfileid: "44466274"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ResponseMessage](responsemessage.md) <br/> | 提供有关响应状态的描述性信息。 <br/> <br/>  下面是此元素的一些可能的 XPath 表达式： <br/> <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/ResponseMessage` <br/> <br/> `/GetUserAvailabilityResponse/SuggestionsResponse/ResponseMessage` <br/><br/>  `/SetUserOofSettingsResponse/ResponseMessage` <br/><br/>  `/GetUserOofSettingsResponse/ResponseMessage` <br/> |
+|[ResponseMessage](responsemessage.md) <br/> | 提供有关响应状态的描述性信息。 <br/> <br/>  以下是此元素的一些可能的 XPath 表达式： <br/> <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/ResponseMessage` <br/> <br/> `/GetUserAvailabilityResponse/SuggestionsResponse/ResponseMessage` <br/><br/>  `/SetUserOofSettingsResponse/ResponseMessage` <br/><br/>  `/GetUserOofSettingsResponse/ResponseMessage` <br/> |
 |[DeleteItemResponseMessage](deleteitemresponsemessage.md) <br/> |包含单个 DeleteItem 请求的状态和结果。  <br/> |
 |[SendItemResponseMessage](senditemresponsemessage.md) <br/> |包含单个 SendItem 请求的状态和结果。  <br/> |
 |[DeleteFolderResponseMessage](deletefolderresponsemessage.md) <br/> |包含单个 DeleteFolder 请求的状态和结果。  <br/> |
 |[DeleteAttachmentResponseMessage](deleteattachmentresponsemessage.md) <br/> |包含单个 DeleteAttachment 请求的状态和结果。  <br/> |
-|[UnsubscribeResponseMessage](unsubscriberesponsemessage.md) <br/> |包含单个取消订阅请求的状态和结果。  <br/> |
+|[UnsubscribeResponseMessage](unsubscriberesponsemessage.md) <br/> |包含单个"取消订阅"请求的状态和结果。  <br/> |
 |[CreateFolderResponseMessage](createfolderresponsemessage.md) <br/> |包含单个 CreateFolder 请求的状态和结果。  <br/> |
 |[GetFolderResponseMessage](getfolderresponsemessage.md) <br/> |包含单个 GetFolder 请求的状态和结果。  <br/> |
 |[UpdateFolderResponseMessage](updatefolderresponsemessage.md) <br/> |包含单个 UpdateFolder 请求的状态和结果。  <br/> |
@@ -70,7 +70,7 @@ ms.locfileid: "44466274"
 |[FindItemResponseMessage](finditemresponsemessage.md) <br/> |包含单个 FindItem 请求的状态和结果。  <br/> |
 |[ResolveNamesResponseMessage](resolvenamesresponsemessage.md) <br/> |包含 ResolveNames 请求的状态和结果。  <br/> |
 |[ExpandDLResponseMessage](expanddlresponsemessage.md) <br/> |包含单个 ExpandDL 请求的状态和结果。  <br/> |
-|[SubscribeResponseMessage](subscriberesponsemessage.md) <br/> |包含单个订阅请求的状态和结果。  <br/> |
+|[SubscribeResponseMessage](subscriberesponsemessage.md) <br/> |包含单个 Subscribe 请求的状态和结果。  <br/> |
 |[GetEventsResponseMessage](geteventsresponsemessage.md) <br/> |包含单个 GetEvents 请求的状态和结果。  <br/> |
 |[SendNotificationResponseMessage](sendnotificationresponsemessage.md) <br/> |包含单个 SendNotification 请求的状态和结果。  <br/> |
 |[SyncFolderHierarchyResponseMessage](syncfolderhierarchyresponsemessage.md) <br/> |包含 SyncFolderHierarchy 请求的状态和结果。  <br/> |
@@ -84,19 +84,19 @@ ms.locfileid: "44466274"
 |[GetSharingMetadataResponse](getsharingmetadataresponse.md) <br/> |定义对 GetSharingMetadata 请求的响应。  <br/> |
 |[RefreshSharingFolderResponseMessage](refreshsharingfolderresponsemessage.md) <br/> |包含 RefreshSharingFolder 请求的状态和结果。  <br/> |
 |[RefreshSharingFolderResponse](refreshsharingfolderresponse.md) <br/> |定义对 RefreshSharingFolder 请求的响应。  <br/> |
-|[FindConversationResponse](findconversationresponse.md) <br/> |包含**FindConversation**响应的状态和结果。  <br/> |
-|[EmptyFolderResponseMessage](emptyfolderresponsemessage.md) <br/> |包含**EmptyFolder**请求的状态和结果。  <br/> |
-|[UpdateInboxRulesResponse](updateinboxrulesresponse.md) <br/> |包含**UpdateInboxRules**请求的状态和结果。  <br/> |
-|[UploadItemsResponseMessage](uploaditemsresponsemessage.md) <br/> |包含**UploadItemsResponse**请求的状态和结果。  <br/> |
-|[GetInboxRulesResponse](getinboxrulesresponse.md) <br/> |包含对**GetInboxRules**请求的响应。  <br/> |
-|[GetServiceConfigurationResponse](getserviceconfigurationresponse.md) <br/> |包含对**GetServiceConfiguration**请求的响应。  <br/> |
+|[FindConversationResponse](findconversationresponse.md) <br/> |包含 **FindConversation 响应的状态和** 结果。  <br/> |
+|[EmptyFolderResponseMessage](emptyfolderresponsemessage.md) <br/> |包含 **EmptyFolder** 请求的状态和结果。  <br/> |
+|[UpdateInboxRulesResponse](updateinboxrulesresponse.md) <br/> |包含 **UpdateInboxRules** 请求的状态和结果。  <br/> |
+|[UploadItemsResponseMessage](uploaditemsresponsemessage.md) <br/> |包含 **UploadItemsResponse 请求的状态和** 结果。  <br/> |
+|[GetInboxRulesResponse](getinboxrulesresponse.md) <br/> |包含对 **GetInboxRules 请求** 的响应。  <br/> |
+|[GetServiceConfigurationResponse](getserviceconfigurationresponse.md) <br/> |包含对 **GetServiceConfiguration 请求** 的响应。  <br/> |
 |[ServiceConfigurationResponseMessageType](serviceconfigurationresponsemessagetype.md) <br/> |包含服务配置设置。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-此元素不是必需的，也不包含在所有响应中。 它包含在错误消息中。 在涉及文件夹或项目的请求中， **MessageXML**元素将包含一个或多个元素，其中包含指向导致错误的属性的 uri。 这是[FieldURI](fielduri.md)元素的一个示例。 
+此元素不是必需的，并不包含在所有响应中。 它包含在错误消息中。 在涉及文件夹或项目的请求中 **，MessageXML** 元素将包含一个或多个元素，这些元素包含导致错误的属性的 URI。 例如 [FieldURI](fielduri.md) 元素。 
   
-**MessageXML**元素的类型为**xs： any**，这意味着任何格式良好的 XML 都是此元素的有效内容。
+**MessageXML** 元素的类型为 **xs：any**，这意味着任何格式良好的 XML 都是此元素的有效内容。
   
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

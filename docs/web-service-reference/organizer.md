@@ -1,27 +1,27 @@
 ---
-title: Organizer
+title: 组织者
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Organizer
 api_type:
 - schema
 ms.assetid: 63892b57-3805-4d60-b9f7-20552a69c241
-description: 组织者元素表示会议的组织者。
-ms.openlocfilehash: c1188c9b3a894e86a08b8869045c3647e394f506
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Organizer 元素表示会议的组织者。
+ms.openlocfilehash: 05a96b7c7dfa2802f67b65800bea217a4665871e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462414"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514226"
 ---
-# <a name="organizer"></a>Organizer
+# <a name="organizer"></a>组织者
 
-**组织者**元素表示会议的组织者。 
+Organizer 元素表示会议的组织者。 
   
 ```xml
 <Organizer>

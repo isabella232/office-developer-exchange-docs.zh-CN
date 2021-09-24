@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CanDelete
 api_type:
 - schema
 ms.assetid: 55e17121-aad0-4f90-889f-2c3512e9579c
-description: CanDelete 元素指示某个托管文件夹是否可由客户删除。
-ms.openlocfilehash: 5fe16c276bdb0c5b3b73ca63099559d3e869db3e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: CanDelete 元素指示客户是否可以删除托管文件夹。
+ms.openlocfilehash: ad7e573aeb2bb72d19f05421d0eab5a2f6ac5539
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461588"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515997"
 ---
 # <a name="candelete"></a>CanDelete
 
-**CanDelete**元素指示某个托管文件夹是否可由客户删除。 
+**CanDelete** 元素指示客户是否可以删除托管文件夹。 
   
 ```xml
 <CanDelete/>
@@ -48,11 +48,11 @@ ms.locfileid: "44461588"
    
 ## <a name="text-value"></a>文本值
 
-如果存在此元素，则需要一个表示布尔值的文本值。 **如果值为 true** ，则表示可以删除文件夹;**如果值为 false** ，则表示无法删除文件夹。 
+如果此元素存在，则代表布尔值的文本值是必需的。 true **值表示** 可以删除该文件夹;false **值表示** 无法删除该文件夹。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-若要删除托管文件夹，请使用[DeleteFolder 操作](deletefolder-operation.md)。
+若要删除托管文件夹，请使用 [DeleteFolder 操作](deletefolder-operation.md)。
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

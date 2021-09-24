@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e63c4f7e-77c0-4826-b4e2-43b795d03914
 description: EditAllowed 元素指定是否可以编辑信息权限管理。
-ms.openlocfilehash: 979fbaa9fcfbd1015468a8ae00628959bad0bf56
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 2bd88dd47eb3f1964eae678412a6748ee8d28ec8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463480"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540116"
 ---
 # <a name="editallowed"></a>EditAllowed
 
-**EditAllowed**元素指定是否可以编辑信息权限管理。 
+**EditAllowed** 元素指定是否可以编辑信息权限管理。 
   
 ```XML
 <EditAllowed> true | false </EditAllowed>
@@ -44,9 +44,9 @@ ms.locfileid: "44463480"
    
 ## <a name="text-value"></a>文本值
 
-如果**EditAllowed**元素的文本值为**true，则**表示可以编辑信息权限管理（IRM）。 **如果值为 false，则**表示无法编辑 IRM。 
+**EditAllowed** 元素的文本值 **true** 指示可以编辑信息权限 (IRM) 信息权限管理。 false **值表示** 无法编辑 IRM。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -58,7 +58,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

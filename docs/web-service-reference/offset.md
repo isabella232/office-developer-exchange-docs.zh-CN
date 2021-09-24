@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Offset
 api_type:
 - schema
 ms.assetid: dcbb9d85-d90c-4363-b4c9-d081ad03f407
 description: Offset 元素描述与 BaseOffset 的时差。BaseOffset 元素和 Offset 元素一起标识时间是标准时间还是夏令时。
-ms.openlocfilehash: 74ad87026c2cb89f3b0c35218c91f81380029963
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: af9a2f7a94ae0cd736a4fe6f11b8a5a77673bbe3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459754"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515388"
 ---
 # <a name="offset"></a>Offset
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - HasQuota
 api_type:
 - schema
 ms.assetid: b6e4fef0-92a9-415f-81ae-0c5ecb7c12ad
-description: HasQuota 元素指示托管文件夹是否具有配额。
-ms.openlocfilehash: 6e32aa4c69943774be928339936cca5016c58d85
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: HasQuota 元素指示托管文件夹是否有配额。
+ms.openlocfilehash: 86192ac5dd8d7e88531aaf9c3f165f01831436c1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462750"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539659"
 ---
 # <a name="hasquota"></a>HasQuota
 
-**HasQuota**元素指示托管文件夹是否具有配额。 
+**HasQuota** 元素指示托管文件夹是否有配额。 
   
 ```xml
 <HasQuota/>
@@ -48,7 +48,7 @@ ms.locfileid: "44462750"
    
 ## <a name="text-value"></a>文本值
 
-该文本值表示一个布尔值。 **如果值为 true** ，则表示文件夹具有配额;**如果值为 false** ，则表示文件夹没有配额。 
+文本值表示一个布尔值。 true **值表示** 文件夹具有配额;false **值表示** 文件夹没有配额。 
   
 ## <a name="remarks"></a>说明
 

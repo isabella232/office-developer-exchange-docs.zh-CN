@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e05ed6eb-00ae-49c8-8341-43f6e0d728ff
-description: LobbyBypass 元素指定 "联机会议" 设置以绕过虚拟大厅。
-ms.openlocfilehash: 6940428c944b9d4d64acc6dbbf3993576e1932eb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: LobbyBypass 元素指定绕过虚拟会议厅的联机会议设置。
+ms.openlocfilehash: 41ab9c3f846112d2b679bbb477a0de355a477ffa
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458094"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540781"
 ---
 # <a name="lobbybypass"></a>LobbyBypass
 
-**LobbyBypass**元素指定 "联机会议" 设置以绕过虚拟大厅。 
+**LobbyBypass** 元素指定绕过虚拟会议厅的联机会议设置。 
   
 ```XML
 <LobbyBypass> Disabled | EnabledForGatewayParticipants </LobbyBypass>
@@ -42,9 +42,9 @@ ms.locfileid: "44458094"
   
 ## <a name="text-value"></a>文本值
 
-**LobbyBypass**元素的文本值可以是**Disabled**或**EnabledForGatewayParticipants**。 **禁用**的值指示已禁用会议厅旁路，以便所有与会者都必须通过虚拟大厅访问。 **EnabledForGatewayParticipants**值指示已为电话参与者启用会议厅旁路。 
+**LobbyBypass** 元素的文本值可以是 **Disabled** 或 **EnabledForGatewayParticipants**。 **Disabled** 值指示大厅旁路处于禁用状态，因此所有与会者都必须通过虚拟会议厅访问。 **EnabledForGatewayParticipants** 值指示为电话参与者启用了会议厅旁路功能。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

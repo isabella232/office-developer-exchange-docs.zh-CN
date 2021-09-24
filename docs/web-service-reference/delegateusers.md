@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DelegateUsers
 api_type:
 - schema
 ms.assetid: f30f80d9-20c8-41cc-afc7-a5eec1e0c5ea
-description: DelegateUsers 元素包含要添加到邮箱或在邮箱中进行更新的代理的标识。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
-ms.openlocfilehash: 69f5aab65634f41ec0f820da05dee79a300fb32e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DelegateUsers 元素包含要添加到邮箱或更新的代理的标识。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
+ms.openlocfilehash: 7eae154297eb385903c57cbd8fe9b3feeb96c816
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457373"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540207"
 ---
 # <a name="delegateusers"></a>DelegateUsers
 
-**DelegateUsers**元素包含要添加到邮箱或在邮箱中进行更新的代理的标识。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
+**DelegateUsers** 元素包含要添加到邮箱或更新的代理的标识。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
   
 ```xml
 <DelegateUsers>
@@ -43,7 +43,7 @@ ms.locfileid: "44457373"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[DelegateUser](delegateuser.md) <br/> |标识要在邮箱中添加或更新的单个代理。  <br/> |
+|[DelegateUser](delegateuser.md) <br/> |标识要添加到邮箱或更新邮箱中的单个代理。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -70,5 +70,5 @@ ms.locfileid: "44457373"
 - [AddDelegate 操作](adddelegate-operation.md) 
 - [UpdateDelegate 操作](updatedelegate-operation.md)
 - [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
-- [添加委派](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
+- [添加代理人](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
 

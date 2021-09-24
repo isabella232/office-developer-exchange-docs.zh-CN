@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SetRuleOperation
 api_type:
 - schema
 ms.assetid: 2106a85b-58fe-49be-b71d-4ca6aa66e060
-description: SetRuleOperation 元素表示用于更新现有规则的操作。
-ms.openlocfilehash: 96fba2f229003b8c729c36614e69655852a3aa8c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SetRuleOperation 元素表示更新现有规则的操作。
+ms.openlocfilehash: fd7cb0ad29e2c5146cc5bcedba078c08857afe7c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526331"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540487"
 ---
 # <a name="setruleoperation"></a>SetRuleOperation
 
-**SetRuleOperation**元素表示用于更新现有规则的操作。 
+**SetRuleOperation** 元素表示更新现有规则的操作。 
   
 [UpdateInboxRules](updateinboxrules.md)
   
@@ -46,7 +46,7 @@ ms.locfileid: "44526331"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[规则 (RuleType)](rule-ruletype.md) <br/> |代表用户邮箱中的规则。  <br/> |
+|[规则 (RuleType)](rule-ruletype.md) <br/> |表示用户邮箱中的规则。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -58,7 +58,7 @@ ms.locfileid: "44526331"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

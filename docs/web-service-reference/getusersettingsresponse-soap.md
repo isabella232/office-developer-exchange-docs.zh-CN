@@ -1,24 +1,24 @@
 ---
-title: GetUserSettingsResponse （SOAP）
+title: GetUserSettingsResponse (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: e7cd470d-5861-41e7-9e66-73ef7a59700b
-description: GetUserSettingsResponse 元素表示对 GetUserSettings 操作（SOAP）请求的响应。
-ms.openlocfilehash: a41a195a003789ddaef81f844e47aad689df0937
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetUserSettingsResponse 元素表示对 SOAP (GetUserSettings) 的响应。
+ms.openlocfilehash: cc45a652332547c0a6312536a261f0cd8b04f9c5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530146"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59526098"
 ---
-# <a name="getusersettingsresponse-soap"></a>GetUserSettingsResponse （SOAP）
+# <a name="getusersettingsresponse-soap"></a>GetUserSettingsResponse (SOAP)
 
-**GetUserSettingsResponse**元素表示对[GETUSERSETTINGS 操作（SOAP）](getusersettings-operation-soap.md)请求的响应。 
+**GetUserSettingsResponse** 元素表示对 SOAP ([GetUserSettings](getusersettings-operation-soap.md)) 的响应。 
   
 ```XML
 <GetUserSettingsResponse>
@@ -41,9 +41,9 @@ ms.locfileid: "44530146"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ErrorCode （SOAP）](errorcode-soap.md) <br/> |表示自动发现服务返回的错误代码。  <br/> |
-|[ErrorMessage （SOAP）](errormessage-soap.md) <br/> |表示与自动发现服务返回的错误代码相关联的消息。  <br/> |
-|[UserResponses （SOAP）](userresponses-soap.md) <br/> |包含每个请求的用户的配置设置。  <br/> |
+|[ErrorCode (SOAP)](errorcode-soap.md) <br/> |表示自动发现服务返回的错误代码。  <br/> |
+|[ErrorMessage (SOAP)](errormessage-soap.md) <br/> |表示与自动发现服务返回的错误代码相关联的消息。  <br/> |
+|[UserResponses (SOAP)](userresponses-soap.md) <br/> |包含每个请求的用户的配置设置。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 

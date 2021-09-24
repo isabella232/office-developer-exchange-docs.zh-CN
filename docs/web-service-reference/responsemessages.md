@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ResponseMessages
 api_type:
 - schema
 ms.assetid: 2071bed8-ea66-4627-aa4f-a1d9a025cf3d
-description: ResponseMessages 元素包含 Exchange Web 服务请求的响应消息。
-ms.openlocfilehash: 93d83fbba3ea4bfe33f574eea7991157a4f10b88
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ResponseMessages 元素包含 Web 服务请求Exchange消息。
+ms.openlocfilehash: 23fa25b29cec0377d83ecf56a094da86af6c5213
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465399"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516388"
 ---
 # <a name="responsemessages"></a>ResponseMessages
 
-**ResponseMessages**元素包含 Exchange Web 服务请求的响应消息。 
+**ResponseMessages** 元素包含 Web 服务请求Exchange消息。 
   
 ```XML
 <ResponseMessages>
@@ -323,7 +323,7 @@ ms.locfileid: "44465399"
 |[DeleteAttachmentResponseMessage](deleteattachmentresponsemessage.md) <br/> |包含单个 DeleteAttachment 请求的状态和结果。  <br/> |
 |[DeleteFolderResponseMessage](deletefolderresponsemessage.md) <br/> |包含单个 DeleteFolder 请求的状态和结果。  <br/> |
 |[DeleteItemResponseMessage](deleteitemresponsemessage.md) <br/> |包含单个 DeleteItem 请求的状态和结果。  <br/> |
-|[EmptyFolderResponseMessage](emptyfolderresponsemessage.md) <br/> |包含单个[EmptyFolder](emptyfolder.md)请求的状态和结果。  <br/> |
+|[EmptyFolderResponseMessage](emptyfolderresponsemessage.md) <br/> |包含单个 [EmptyFolder](emptyfolder.md) 请求的状态和结果。  <br/> |
 |[ExpandDLResponseMessage](expanddlresponsemessage.md) <br/> |包含单个 ExpandDL 请求的状态和结果。  <br/> |
 |[FindFolderResponseMessage](findfolderresponsemessage.md) <br/> |包含单个 FindFolder 请求的状态和结果。  <br/> |
 |[FindItemResponseMessage](finditemresponsemessage.md) <br/> |包含单个 FindItem 请求的状态和结果。  <br/> |
@@ -339,10 +339,10 @@ ms.locfileid: "44465399"
 |[ResolveNamesResponseMessage](resolvenamesresponsemessage.md) <br/> |包含 ResolveNames 请求的状态和结果。  <br/> |
 |[SendItemResponseMessage](senditemresponsemessage.md) <br/> |包含单个 SendItem 请求的状态和结果。  <br/> |
 |[SendNotificationResponseMessage](sendnotificationresponsemessage.md) <br/> |包含单个 SendNotification 请求的状态和结果。  <br/> |
-|[SubscribeResponseMessage](subscriberesponsemessage.md) <br/> |包含单个订阅请求的状态和结果。  <br/> |
+|[SubscribeResponseMessage](subscriberesponsemessage.md) <br/> |包含单个 Subscribe 请求的状态和结果。  <br/> |
 |[SyncFolderHierarchyResponseMessage](syncfolderhierarchyresponsemessage.md) <br/> |包含 SyncFolderHierarchy 请求的状态和结果。  <br/> |
 |[SyncFolderItemsResponseMessage](syncfolderitemsresponsemessage.md) <br/> |包含 SyncFolderItems 请求的状态和结果。  <br/> |
-|[UnsubscribeResponseMessage](unsubscriberesponsemessage.md) <br/> |包含单个取消订阅请求的状态和结果。  <br/> |
+|[UnsubscribeResponseMessage](unsubscriberesponsemessage.md) <br/> |包含单个"取消订阅"请求的状态和结果。  <br/> |
 |[UpdateFolderResponseMessage](updatefolderresponsemessage.md) <br/> |包含单个 UpdateFolder 请求的状态和结果。  <br/> |
 |[UpdateItemResponseMessage](updateitemresponsemessage.md) <br/> |包含单个 UpdateItem 请求的状态和结果。  <br/> |
 |[ConvertIdResponseMessage](convertidresponsemessage.md) <br/> |包含 ConvertId 请求的状态和结果。  <br/> |
@@ -358,7 +358,7 @@ ms.locfileid: "44465399"
 |[GetRemindersResponse](getremindersresponse.md) <br/> |包含 GetReminders 请求的状态和结果。  <br/> |
 |[PerformReminderActionResponse](performreminderactionresponse.md) <br/> |包含 PerformReminderAction 请求的状态和结果。  <br/> |
 |[GetServerTimeZonesResponseMessage](getservertimezonesresponsemessage.md) <br/> |包含单个 GetServerTimeZones 请求的状态和结果。  <br/> |
-|[ApplyConversationActionResponseMessage](applyconversationactionresponsemessage.md) <br/> |包含[ApplyConversationAction 操作](applyconversationaction-operation.md)请求的状态和结果。  <br/> |
+|[ApplyConversationActionResponseMessage](applyconversationactionresponsemessage.md) <br/> |包含 [ApplyConversationAction](applyconversationaction-operation.md) 操作请求的状态和结果。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -388,7 +388,7 @@ ms.locfileid: "44465399"
 |[ResolveNamesResponse](resolvenamesresponse.md) <br/> |定义对 ResolveNames 请求的响应。  <br/> |
 |[SendItemResponse](senditemresponse.md) <br/> |定义对 SendItem 请求的响应。  <br/> |
 |[SendNotificationResult](sendnotificationresult.md) <br/> |定义对 SendNotification 请求的响应。  <br/> |
-|[SubscribeResponse](subscriberesponse.md) <br/> |定义对订阅请求的响应。  <br/> |
+|[SubscribeResponse](subscriberesponse.md) <br/> |定义对 Subscribe 请求的响应。  <br/> |
 |[SyncFolderHierarchyResponse](syncfolderhierarchyresponse.md) <br/> |定义对 SyncFolderHierarchy 请求的响应。  <br/> |
 |[SyncFolderItemsResponse](syncfolderitemsresponse.md) <br/> |定义对 SyncFolderItems 请求的响应。  <br/> |
 |[UnsubscribeResponse](unsubscriberesponse.md) <br/> |定义对取消订阅请求的响应。  <br/> |
@@ -400,14 +400,14 @@ ms.locfileid: "44465399"
 |[DeleteUserConfigurationResponse](deleteuserconfigurationresponse.md) <br/> |定义对 DeleteUserConfiguration 请求的响应。  <br/> |
 |[GetUserConfigurationResponse](getuserconfigurationresponse.md) <br/> |定义对 GetUserConfiguration 请求的响应。  <br/> |
 |[UpdateUserConfigurationResponse](updateuserconfigurationresponse.md) <br/> |定义对 UpdateUserConfiguration 请求的响应。  <br/> |
-|[ApplyConversationActionResponse](applyconversationactionresponse.md) <br/> |定义对[ApplyConversationAction 操作](applyconversationaction-operation.md)请求的响应。  <br/> |
-|[GetPasswordExpirationDateResponse](getpasswordexpirationdateresponse.md) <br/> |定义对[GetPasswordExpirationDate 操作](getpasswordexpirationdate-operation.md)请求的响应。  <br/> |
+|[ApplyConversationActionResponse](applyconversationactionresponse.md) <br/> |定义对 [ApplyConversationAction 操作请求](applyconversationaction-operation.md) 的响应。  <br/> |
+|[GetPasswordExpirationDateResponse](getpasswordexpirationdateresponse.md) <br/> |定义对 [GetPasswordExpirationDate 操作请求](getpasswordexpirationdate-operation.md) 的响应。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

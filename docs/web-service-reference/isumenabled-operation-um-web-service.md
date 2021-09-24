@@ -1,32 +1,32 @@
 ---
-title: IsUMEnabled 操作（UM web 服务）
+title: IsUMEnabled 操作（UM Web 服务）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsUMEnabled
 api_type:
 - schema
 ms.assetid: fbe6cd95-f7a5-42b9-8a9d-b6159a269d55
-description: IsUMEnabled 操作确定是否为邮箱启用统一消息。
-ms.openlocfilehash: b1478f5a113059251fe1b036ac7d77e5a4ab4f50
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: IsUMEnabled 操作确定是否为邮箱启用了统一消息。
+ms.openlocfilehash: 2c637711fc34a1d1ccc484b14be3199632aaaaa3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458234"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514457"
 ---
-# <a name="isumenabled-operation-um-web-service"></a>IsUMEnabled 操作（UM web 服务）
+# <a name="isumenabled-operation-um-web-service"></a>IsUMEnabled 操作（UM Web 服务）
 
-IsUMEnabled 操作确定是否为邮箱启用统一消息。
+IsUMEnabled 操作确定是否为邮箱启用了统一消息。
   
 ## <a name="isumenabled-request-example"></a>IsUMEnabled 请求示例
 
 ### <a name="description"></a>Description
 
-以下示例的 IsUMEnabled 请求显示了如何形成一个请求，以确定是否为统一消息启用了邮箱。
+IsUMEnabled 请求的以下示例显示如何形成请求以确定邮箱是否已启用统一消息。
   
 ### <a name="code"></a>代码
 
@@ -43,7 +43,7 @@ IsUMEnabled 操作确定是否为邮箱启用统一消息。
 
 ### <a name="description"></a>Description
 
-下面的示例演示对 IsUMEnabled 请求的成功响应。
+以下示例显示了对 IsUMEnabled 请求的成功响应。
   
 ### <a name="code"></a>代码
 
@@ -62,10 +62,10 @@ IsUMEnabled 操作确定是否为邮箱启用统一消息。
 
 
 
-[IsUMEnabled （UM web 服务）](isumenabled-um-web-service.md)
+[IsUMEnabled（UM Web 服务）](isumenabled-um-web-service.md)
   
-[IsUMEnabledResponse （UM web 服务）](isumenabledresponse-um-web-service.md)
+[IsUMEnabledResponse（UM Web 服务）](isumenabledresponse-um-web-service.md)
 
 
-[Exchange 的统一消息 web 服务 XML 元素](unified-messaging-web-service-xml-elements-for-exchange.md)
+[统一消息 Web 服务 XML 元素Exchange](unified-messaging-web-service-xml-elements-for-exchange.md)
 

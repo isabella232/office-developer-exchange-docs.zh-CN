@@ -1,27 +1,27 @@
 ---
-title: 忽略
+title: Ignore
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Ignore
 api_type:
 - schema
 ms.assetid: 7789eec5-ceec-43f2-84d5-d0d15b734076
-description: Ignore 元素标识在同步过程中要跳过的项。
-ms.openlocfilehash: b65d11d8c7655279dac0e7d3cbd13f8a9317540c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Ignore 元素标识同步期间要跳过的项。
+ms.openlocfilehash: 92501b2166647c80f8515a27f443b23af14c08dc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458570"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514604"
 ---
-# <a name="ignore"></a>忽略
+# <a name="ignore"></a>Ignore
 
-**Ignore**元素标识在同步过程中要跳过的项。 
+**Ignore** 元素标识同步期间要跳过的项。 
   
 [SyncFolderItems](syncfolderitems.md)
   
@@ -46,13 +46,13 @@ ms.locfileid: "44458570"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ItemId](itemid.md) <br/> |包含 Exchange 存储中某项的唯一标识符和更改键。  <br/> |
+|[ItemId](itemid.md) <br/> |包含项目在项目存储中的唯一标识符Exchange项。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[SyncFolderItems](syncfolderitems.md) <br/> |定义对 Exchange 存储文件夹中的项目进行同步的请求。  <br/> |
+|[SyncFolderItems](syncfolderitems.md) <br/> |定义同步邮件存储文件夹中Exchange的请求。  <br/> |
    
 ## <a name="remarks"></a>说明
 

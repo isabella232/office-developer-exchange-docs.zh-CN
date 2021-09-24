@@ -1,26 +1,26 @@
 ---
-title: AutodiscoverResponse （SOAP）
+title: AutodiscoverResponse (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 203a5ac3-ebd0-4514-acbe-bc1c74638127
-description: AutodiscoverResponse （SOAP）元素表示自动发现服务返回的所有响应的基本元素。
-ms.openlocfilehash: 81fd557578bde9552d07e24386c93903e44a9afa
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: AutodiscoverResponse (SOAP) 元素表示自动发现服务返回的所有响应的基元素。
+ms.openlocfilehash: 71bbb0f1aa6602a260c163ccfdfd3c3d38442e31
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463963"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514870"
 ---
-# <a name="autodiscoverresponse-soap"></a>AutodiscoverResponse （SOAP）
+# <a name="autodiscoverresponse-soap"></a>AutodiscoverResponse (SOAP)
 
-**AutodiscoverResponse （SOAP）** 元素表示自动发现服务返回的所有响应的基本元素。 
+**AutodiscoverResponse (SOAP)** 元素表示自动发现服务返回的所有响应的基元素。 
   
-- [AutodiscoverResponse （SOAP）](autodiscoverresponse-soap.md)
+- [AutodiscoverResponse (SOAP)](autodiscoverresponse-soap.md)
   
 ```XML
 <AutodiscoverResponse>
@@ -44,9 +44,9 @@ ms.locfileid: "44463963"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[UserResponses （SOAP）](userresponses-soap.md) <br/> |表示[UserResponse （SOAP）](userresponse-soap.md)元素的集合。  <br/> |
-|[UserSettingErrors （SOAP）](usersettingerrors-soap.md) <br/> |表示[UserSettingError （SOAP）](usersettingerror-soap.md)元素的集合。  <br/> |
-|[UserSettings （SOAP）](usersettings-soap.md) <br/> |表示[UserSetting （SOAP）](usersetting-soap.md)元素的集合。  <br/> |
+|[UserResponses (SOAP)](userresponses-soap.md) <br/> |表示 [UserResponse ](userresponse-soap.md) (SOAP) 的集合。  <br/> |
+|[UserSettingErrors (SOAP)](usersettingerrors-soap.md) <br/> |表示 [UserSettingError (SOAP ](usersettingerror-soap.md)) 集合。  <br/> |
+|[UserSettings (SOAP)](usersettings-soap.md) <br/> |表示 [UserSetting ](usersetting-soap.md) 集合 (SOAP) 元素。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 

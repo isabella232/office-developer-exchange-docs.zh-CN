@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateAttachment
 api_type:
 - schema
 ms.assetid: e33b403a-b7d3-48ee-8d24-6b7abf0d70bc
-description: CreateAttachment 元素定义一个请求，用于创建到 Exchange 存储中的项目的附件。
-ms.openlocfilehash: 4cba1b8865dae5da58b9617b249a29314c67331a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: CreateAttachment 元素定义创建项目附件的请求，该请求Exchange存储区。
+ms.openlocfilehash: 6716a83b0d1ba9d7f39351da60f7009df04a3fa0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466435"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515871"
 ---
 # <a name="createattachment"></a>CreateAttachment
 
-**CreateAttachment**元素定义一个请求，用于创建到 Exchange 存储中的项目的附件。 
+**CreateAttachment** 元素定义创建项目附件的请求，该请求Exchange存储区。 
   
 ```xml
 <CreateAttachment>
@@ -43,26 +43,26 @@ ms.locfileid: "44466435"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ParentItemId](parentitemid.md) <br/> |标识包含创建的附件的父 Exchange 存储项。 [ParentItemId](parentitemid.md)元素必须提供实际 Exchange 存储项的 ID。 可以使用[GetItem 操作](getitem-operation.md)检索真实的存储项;附件是通过使用[GetAttachment 操作](getattachment-operation.md)检索的。 如果[ParentItemId](parentitemid.md)传递的是文件附件的 ID，则会发生错误。 如果[ParentItemId](parentitemid.md)代表现有项目附件的 ID，则[CreateAttachment 操作](createattachment-operation.md)会将新附件添加到现有附件中。  <br/> 此元素是[CreateAttachment 操作](createattachment-operation.md)所必需的。  <br/> |
-|[附件](attachments-ex15websvcsotherref.md) <br/> |包含要附加到 Exchange 存储中的项目的项目或文件。  <br/> |
+|[ParentItemId](parentitemid.md) <br/> |标识包含Exchange附件的父存储项目。 [ParentItemId](parentitemid.md)元素必须提供实际存储Exchange ID。 可以使用 [GetItem](getitem-operation.md)操作检索实际存储项目;使用 [GetAttachment](getattachment-operation.md)操作检索附件。 如果将 [ParentItemId](parentitemid.md) 传递给文件附件的 ID，将发生错误。 如果 [ParentItemId](parentitemid.md) 表示现有项目附件的 [ID，CreateAttachment 操作](createattachment-operation.md) 会将新附件添加到现有附件。  <br/> [CreateAttachment](createattachment-operation.md)操作需要此元素。  <br/> |
+|[附件](attachments-ex15websvcsotherref.md) <br/> |包含要附加到项目存储中的项目或Exchange文件。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-项目附件不作为存储项存在。 它仅作为项目附件或其他附件存在。 仅可使用[GetAttachment](getattachment.md)请求检索项目附件。 
+项目附件不存在为存储项目。 它仅作为项目或其他附件的附件存在。 项目附件只能使用 [GetAttachment](getattachment.md) 请求进行检索。 
   
-可以创建以下项附件：
+可创建以下项目附件：
   
-- 项目
+- Item
     
-- 消息
+- 邮件
     
 - CalendarItem
     
-- Contact
+- 联系人
     
 - 任务
     
@@ -74,7 +74,7 @@ ms.locfileid: "44466435"
   
 ## <a name="example"></a>示例
 
-下面的示例演示如何创建项目并将其附加到 Exchange 存储中的其他项目。
+以下示例演示如何创建项目并将其附加到应用商店中的另一Exchange项。
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

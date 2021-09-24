@@ -1,23 +1,23 @@
 ---
-title: SubscriptionId （GetStreamingEvents）
+title: SubscriptionId (GetStreamingEvents)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3f86c178-2311-4844-82db-c2a0e469d116
 description: SubscriptionId 元素表示流式订阅的标识符。
-ms.openlocfilehash: babf02c514e7fe8711f51ac52e425a18f3ab47f7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 8931fda5087fa985c646da328a0cb27fa2c2a708
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457996"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540375"
 ---
-# <a name="subscriptionid-getstreamingevents"></a>SubscriptionId （GetStreamingEvents）
+# <a name="subscriptionid-getstreamingevents"></a>SubscriptionId (GetStreamingEvents)
 
-**SubscriptionId**元素表示流式订阅的标识符。 
+**SubscriptionId** 元素表示流式订阅的标识符。 
   
 ```XML
 <SubscriptionId/>
@@ -40,15 +40,15 @@ ms.locfileid: "44457996"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GetStreamingEvents](getstreamingevents.md) <br/> |表示客户端用来从服务器请求流通知的操作。  <br/> |
+|[GetStreamingEvents](getstreamingevents.md) <br/> |表示客户端用于从服务器请求流式处理通知的操作。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-文本值是必需的。 该文本值是一个 GUID。
+文本值是必需的。 文本值为 GUID。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-创建订阅时，客户端访问服务器会生成表示订阅标识符的 GUID。
+表示订阅标识符的 GUID 由客户端访问服务器创建订阅时生成。
   
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

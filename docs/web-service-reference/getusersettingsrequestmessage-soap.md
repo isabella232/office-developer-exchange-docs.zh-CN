@@ -1,24 +1,24 @@
 ---
-title: GetUserSettingsRequestMessage （SOAP）
+title: GetUserSettingsRequestMessage (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: fde201a3-8b76-49aa-bee1-8cbbb1a5aa7f
-description: GetUserSettingsRequestMessage 元素表示 GetUserSettings 操作（SOAP）请求。
-ms.openlocfilehash: 67923fade1d88ba899c7c9fdb38abc31c99c1135
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetUserSettingsRequestMessage 元素表示 SOAP 请求 (GetUserSettings) 操作。
+ms.openlocfilehash: 7882d5f551d5b5c51c805aec8e43b6c21a62954a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530153"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515731"
 ---
-# <a name="getusersettingsrequestmessage-soap"></a>GetUserSettingsRequestMessage （SOAP）
+# <a name="getusersettingsrequestmessage-soap"></a>GetUserSettingsRequestMessage (SOAP)
 
-**GetUserSettingsRequestMessage**元素表示[GETUSERSETTINGS 操作（SOAP）](getusersettings-operation-soap.md)请求。 
+**GetUserSettingsRequestMessage 元素** 表示 SOAP 请求 ([GetUserSettings)](getusersettings-operation-soap.md)操作。 
   
 ```XML
 <GetUserSettingsRequestMessage>

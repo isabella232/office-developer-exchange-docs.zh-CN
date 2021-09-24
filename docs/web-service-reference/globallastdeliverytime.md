@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GlobalLastDeliveryTime
 api_type:
 - schema
 ms.assetid: a88dada9-c527-43a7-b2d3-31aad330def9
-description: GlobalLastDeliveryTime 元素包含在此对话中的邮件在邮箱中的所有文件夹中最后一次接收的传递时间。
-ms.openlocfilehash: b6d4d7c1d51c206e44973a717d25df4066845ada
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GlobalLastDeliveryTime 元素包含邮箱中所有文件夹上一次在此对话中收到的邮件的传递时间。
+ms.openlocfilehash: f012c11ec2a30680d1f6a851a4c3f3f6fc94a824
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459410"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539807"
 ---
 # <a name="globallastdeliverytime"></a>GlobalLastDeliveryTime
 
-**GlobalLastDeliveryTime**元素包含在此对话中的邮件在邮箱中的所有文件夹中最后一次接收的传递时间。 
+**GlobalLastDeliveryTime** 元素包含邮箱中所有文件夹上一次在此对话中收到的邮件的传递时间。 
   
 [FindConversationResponse](findconversationresponse.md)
   
@@ -35,7 +35,7 @@ ms.locfileid: "44459410"
 <GlobalLastDeliveryTime/>
 ```
 
- **xs： dateTime**
+ **xs：dateTime**
 ## <a name="attributes-and-elements"></a>属性和元素
 
 下面各部分介绍了属性、子元素和父元素。
@@ -56,11 +56,11 @@ ms.locfileid: "44459410"
    
 ## <a name="text-value"></a>文本值
 
-**GlobalLastDeliveryTime**元素的文本值是邮箱中的所有文件夹的最近在此对话中收到的邮件的日期和时间。 
+**GlobalLastDeliveryTime** 元素的文本值是邮箱中所有文件夹上一次在此对话中收到邮件的日期和时间。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-此元素是在 Exchange Server 2010 Service Pack 1 （SP1）中引入的。描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
+2010 Service Pack 1 Exchange Server SP1 (中引入了此元素) 。描述此元素的架构位于承载 Web 服务的 IIS 虚拟Exchange中。
   
 ## <a name="element-information"></a>元素信息
 

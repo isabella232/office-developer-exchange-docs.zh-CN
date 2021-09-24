@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsMeeting
 api_type:
 - schema
 ms.assetid: 6ce22f17-7a31-46c4-b643-0894d087e852
 description: IsMeeting 元素指示日历项目是会议还是约会。
-ms.openlocfilehash: fd72766977567210cd08b47d0723cd73aa53a622
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 2fc3917328b190923f2c554ceacb5003704f048e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465966"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539484"
 ---
 # <a name="ismeeting"></a>IsMeeting
 
-**IsMeeting**元素指示日历项目是会议还是约会。 
+**IsMeeting** 元素指示日历项目是会议还是约会。 
   
 ```xml
 <IsMeeting/>
@@ -49,7 +49,7 @@ ms.locfileid: "44465966"
    
 ## <a name="text-value"></a>文本值
 
-如果包含此元素，则需要一个表示布尔值的文本值。 **如果值为 true** ，则表示日历项目是会议。 如果值为**false** ，则表示日历项目是约会。 
+如果包含此元素，则代表布尔值的文本值是必需的。 值为 **true** 表示日历项目是会议。 false **值表示** 日历项目是约会。 
   
 ## <a name="remarks"></a>说明
 

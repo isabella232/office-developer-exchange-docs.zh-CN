@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0e3f13cc-e3b3-4eea-9128-12c98b5197f4
 description: UninstallAppResponse 元素指定对 UninstallApp 请求的响应。
-ms.openlocfilehash: 12d74669aed0c380e32dd568bb99b88c30fdb22d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 566ae5e4669373f167f8be6bf7ad8b257968e272
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459452"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514085"
 ---
 # <a name="uninstallappresponse"></a>UninstallAppResponse
 
-**UninstallAppResponse**元素指定对**UninstallApp**请求的响应。 
+**UninstallAppResponse** 元素指定对 **UninstallApp 请求** 的响应。 
   
 ```XML
 <UninstallAppResponse>
@@ -45,7 +45,7 @@ ms.locfileid: "44459452"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

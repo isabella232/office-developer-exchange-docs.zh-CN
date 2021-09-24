@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fc82c00b-979c-4d1b-a5ca-7268dbce634a
-description: TotalConversationsInView 元素包含 FindConversation 响应中返回的对话的计数。
-ms.openlocfilehash: 15a3f2a13359becc15418494aee359767d12b2a2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: TotalConversationsInView 元素包含在 FindConversation 响应中返回的对话数。
+ms.openlocfilehash: 0cb5402509ae9d7d7a28dd05ebf6244f4dec44c0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467534"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515143"
 ---
 # <a name="totalconversationsinview"></a>TotalConversationsInView
 
-**TotalConversationsInView**元素包含**FindConversation**响应中返回的对话的计数。 
+**TotalConversationsInView** 元素包含在 **FindConversation** 响应中返回的对话数。 
   
 ```XML
 <TotalConversationsInView></TotalConversationsInView>
@@ -42,9 +42,9 @@ ms.locfileid: "44467534"
   
 ## <a name="text-value"></a>文本值
 
-**TotalConversationsInView**元素的文本值是**FindConversation**响应中返回的对话的计数。 
+**TotalConversationsInView** 元素的文本值是在 **FindConversation** 响应中返回的对话计数。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -56,7 +56,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
-|验证文件  <br/> |消息 .xsd  <br/> |
+|验证文件  <br/> |messages.xsd  <br/> |
 |可以为空  <br/> ||
    
 

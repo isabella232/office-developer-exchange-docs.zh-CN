@@ -1,24 +1,24 @@
 ---
-title: 响应（GetDomainSettings）（SOAP）
+title: Response (GetDomainSettings) (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: a5b052df-93bd-4fe1-ac30-83de9a3dfcd7
 description: Response 元素表示对单个域的 GetDomainSettings 调用的响应。
-ms.openlocfilehash: 67fe7aea4533058fa0df972e49a2069749dc258b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: e8f76127d5e812bc6805430544fe334eabd29ffa
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455581"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540550"
 ---
-# <a name="response-getdomainsettings-soap"></a>响应（GetDomainSettings）（SOAP）
+# <a name="response-getdomainsettings-soap"></a>Response (GetDomainSettings) (SOAP)
 
-**Response**元素表示对单个域的**GetDomainSettings**调用的响应。 
+**Response** 元素表示对单个域 **的 GetDomainSettings** 调用的响应。 
   
 ```XML
 <Response>
@@ -41,15 +41,15 @@ ms.locfileid: "44455581"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[DomainResponses （SOAP）](domainresponses-soap.md) <br/> |包含对**GetDomainSettings**请求中请求的每个域的响应。  <br/> |
-|[ErrorCode （SOAP）](errorcode-soap.md) <br/> |包含与响应关联的错误代码（如果适用）。  <br/> |
-|[ErrorMessage （SOAP）](errormessage-soap.md) <br/> |包含与响应关联的错误消息（如果适用）。  <br/> |
+|[DomainResponses (SOAP)](domainresponses-soap.md) <br/> |包含 **GetDomainSettings** 请求中请求的每个域的响应。  <br/> |
+|[ErrorCode (SOAP)](errorcode-soap.md) <br/> |包含与响应关联的错误代码（如果适用）。  <br/> |
+|[ErrorMessage (SOAP)](errormessage-soap.md) <br/> |包含与响应关联的错误消息（如果适用）。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GetDomainSettingsResponseMessage （SOAP）](getdomainsettingsresponsemessage-soap.md) <br/> |返回到调用方的域配置设置。  <br/> |
+|[GetDomainSettingsResponseMessage (SOAP)](getdomainsettingsresponsemessage-soap.md) <br/> |向调用方返回域配置设置。  <br/> |
    
 ## <a name="text-value"></a>文本值
 

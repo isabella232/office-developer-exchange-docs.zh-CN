@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MeetingRequestType
 api_type:
 - schema
 ms.assetid: bcd5c97c-19aa-4b1d-a8e8-e8c4bd473dd9
 description: MeetingRequestType 元素描述会议请求的类型。
-ms.openlocfilehash: e90c44dd4124d698ca5ef7655f6429a7167673e6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 1a8371331691bb9dee5595b0130ec0c3c75c47c5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465784"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539372"
 ---
 # <a name="meetingrequesttype"></a>MeetingRequestType
 
-**MeetingRequestType**元素描述会议请求的类型。 
+**MeetingRequestType** 元素描述会议请求的类型。 
   
 ```xml
 <MeetingRequestType/>
@@ -42,27 +42,27 @@ ms.locfileid: "44465784"
   
 ### <a name="parent-elements"></a>父元素
 
-|**元素**|**描述**|
+|**元素**|**说明**|
 |:-----|:-----|
 |[MeetingRequest](meetingrequest.md) <br/> |表示 Exchange 存储中的会议请求。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-文本值是必需的。 下表列出了此元素可能的文本值。
+文本值是必需的。 下表列出了此元素的可能文本值。
   
 |**值**|**说明**|
 |:-----|:-----|
-|FullUpdate  <br/> |将会议请求标识为对现有请求进行完全更新。 完全更新已更新时间和信息性内容。  <br/> |
-|InformationalUpdate  <br/> |仅将会议请求标识为包含更新的信息性内容。  <br/> |
+|FullUpdate  <br/> |将会议请求标识为对现有请求的完整更新。 完整更新包含更新的时间和信息性内容。  <br/> |
+|InformationalUpdate  <br/> |将会议请求标识为仅包含更新的信息内容。  <br/> |
 |NewMeetingRequest  <br/> |将会议请求标识为新的会议请求。  <br/> |
 |无  <br/> |指示未定义会议请求类型。  <br/> |
-|过期  <br/> |将会议请求标识为过期。  <br/> |
-|PrincipalWantsCopy  <br/> |指示会议请求属于将会议邮件转发给代理并将其副本标记为信息的主体。  <br/> |
-|SilentUpdate  <br/> |将会议请求标识为对现有会议的无提示更新。  <br/> |
+|过时  <br/> |将会议请求标识为过时。  <br/> |
+|PrincipalWantsCopy  <br/> |指示会议请求属于一个主体，该主体已经将会议消息转发给代理人，并且其副本被标记为信息性。  <br/> |
+|SilentUpdate  <br/> |将会议请求标识为对现有会议进行无提示更新。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-描述此元素的架构位于运行 Microsoft Exchange Server 2010 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
+描述此元素的架构位于运行安装了客户端访问服务器角色的 Microsoft Exchange Server 2010 的计算机的 EWS 虚拟目录中。
   
 ## <a name="element-information"></a>元素信息
 

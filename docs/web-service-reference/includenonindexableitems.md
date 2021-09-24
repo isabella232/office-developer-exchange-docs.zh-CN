@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: af7f202b-2889-447e-bdeb-aaad18ce6b46
-description: IncludeNonIndexableItems 元素包含一个布尔值，指示是否包含无法编制索引的项目。
-ms.openlocfilehash: eab559e938f0b949d79626ae5bf61b3d4a838924
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: IncludeNonIndexableItems 元素包含一个布尔值，用于指示是否包括无法编制索引的项目。
+ms.openlocfilehash: 33ff8c59c3ef1d9a91f87870e0a876c5a39ce795
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460622"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514597"
 ---
 # <a name="includenonindexableitems"></a>IncludeNonIndexableItems
 
-**IncludeNonIndexableItems**元素包含一个**布尔**值，指示是否包含无法编制索引的项目。 
+**IncludeNonIndexableItems** 元素包含 **一个布尔** 值，用于指示是否包括无法编制索引的项目。 
   
 ```XML
 <IncludeNonIndexableItems>true | false</IncludeNonIndexableItems>
@@ -42,9 +42,9 @@ ms.locfileid: "44460622"
   
 ## <a name="text-value"></a>文本值
 
-**IncludeNonIndexableItems**元素的文本值为**true**表示无法编制索引的项目包含在邮箱保留中。 **如果值为 false** ，则表示邮箱保留中不包含无法编制索引的项目。 
+**IncludeNonIndexableItems** 元素的文本值 **true** 指示无法编制索引的项目包含在邮箱保留中。 false **值表示** 无法编制索引的项目不包含在邮箱保留中。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

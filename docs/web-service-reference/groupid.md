@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 656d9b9a-8a65-4a75-8466-5b0d96512dab
-description: GroupId 元素唯一标识一个组。
-ms.openlocfilehash: 3b8de4d0fef95e2caff4db0d90bb303830022d36
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GroupId 元素唯一标识组。
+ms.openlocfilehash: c0261153a0c64a2e54c053597bd3fdc1466480da
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530090"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539666"
 ---
 # <a name="groupid"></a>GroupId
 
-**GroupId**元素唯一标识一个组。 
+**GroupId** 元素唯一标识组。 
   
 ```XML
 <GroupId Id="" ChangeKey=""/>
@@ -32,8 +32,8 @@ ms.locfileid: "44530090"
 
 |**属性**|**说明**|
 |:-----|:-----|
-|Id  <br/> |**Id**属性的文本值是组的标识符。  <br/> |
-|ChangeKey  <br/> |**ChangeKey**属性的文本值是组的更改键。  <br/> |
+|Id  <br/> |**Id** 属性的文本值是组的标识符。  <br/> |
+|ChangeKey  <br/> |**ChangeKey** 属性的文本值是组的更改键。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -43,7 +43,7 @@ ms.locfileid: "44530090"
 
 [AddNewImContactToGroup](addnewimcontacttogroup.md)  | [AddNewTelUriContactToGroup](addnewteluricontacttogroup.md)  | [AddImContactToGroup](addimcontacttogroup.md)  | [RemoveContactFromImList](removecontactfromimlist.md)  | [RemoveImContactFromGroup](removeimcontactfromgroup.md)  | [RemoveImGroup](removeimgroup.md)  | [RemoveDistributionGroupFromImList](removedistributiongroupfromimlist.md)  | [SetImGroup](setimgroup.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -55,7 +55,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
-|验证文件  <br/> |消息 .xsd  <br/> |
+|验证文件  <br/> |messages.xsd  <br/> |
 |可以为空  <br/> ||
    
 

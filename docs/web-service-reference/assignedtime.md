@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AssignedTime
 api_type:
 - schema
 ms.assetid: 37b273a4-7595-47d5-87c5-32856d7a045b
-description: AssignedTime 元素表示将任务分配给联系人的时间。
-ms.openlocfilehash: 26c3fd4e117a962c690d0fff0d4dad5b5c24dd0c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: AssignedTime 元素表示任务分配给联系人的时间。
+ms.openlocfilehash: e8ccf62c6976b0510b8e84cfe9270df98ff5ca4f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464726"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540256"
 ---
 # <a name="assignedtime"></a>AssignedTime
 
-**AssignedTime**元素表示将任务分配给联系人的时间。 
+**AssignedTime** 元素表示任务分配给联系人的时间。 
   
 ```xml
 <AssignedTime/>

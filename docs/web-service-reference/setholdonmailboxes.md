@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fd5b9f0e-23e8-428c-8168-2d6b4ecd6beb
 description: SetHoldOnMailboxes 元素包含 SetHoldOnMailboxes 请求。
-ms.openlocfilehash: c96ff50cb1204d86abc66829e1c5da7124f407f1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 82ebbbdce04a5b70eae790a899ca089e38aa76d9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44448350"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516370"
 ---
 # <a name="setholdonmailboxes"></a>SetHoldOnMailboxes
 
-**SetHoldOnMailboxes**元素包含**SetHoldOnMailboxes**请求。 
+**SetHoldOnMailboxes** 元素包含 **SetHoldOnMailboxes** 请求。 
   
 ```XML
 <SetHoldOnMailboxes>
@@ -43,13 +43,13 @@ ms.locfileid: "44448350"
   
 ### <a name="child-elements"></a>子元素
 
-[ActionType （HoldActionType）](actiontype-holdactiontype.md)  | [HoldId](holdid.md)  | [查询](query.md)  | [邮箱（ArrayOfStringsType）](mailboxes-arrayofstringstype.md)  | [语言](language.md)  | [IncludeNonIndexableItems](includenonindexableitems.md)  | [删除](deduplication.md)  | [InPlaceHoldIdentity](inplaceholdidentity.md)
+[ActionType (HoldActionType) ](actiontype-holdactiontype.md)  | [HoldId](holdid.md)  | [查询](query.md)  | [Mailboxes (ArrayOfStringsType) ](mailboxes-arrayofstringstype.md)  | [语言](language.md)  | [IncludeNonIndexableItems](includenonindexableitems.md)  | [重复数据删除](deduplication.md)  | [InPlaceHoldIdentity](inplaceholdidentity.md)
   
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

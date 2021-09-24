@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SharingFolderId
 api_type:
 - schema
 ms.assetid: 5ad37ceb-2922-4420-9051-c29d0d57c420
 description: SharingFolderId 元素表示共享关系中的本地文件夹的标识符。
-ms.openlocfilehash: 02780251639ee651ca65d8eadded43260852aaf8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 9f26efa394341c8ead895a1d8e898cb48d9c2cb9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526576"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540438"
 ---
 # <a name="sharingfolderid"></a>SharingFolderId
 
-**SharingFolderId**元素表示共享关系中的本地文件夹的标识符。 
+**SharingFolderId** 元素表示共享关系中的本地文件夹的标识符。 
   
 ```xml
 <SharingFolderId Id="" ChangeKey="" />
@@ -36,8 +36,8 @@ ms.locfileid: "44526576"
 
 |**属性**|**说明**|
 |:-----|:-----|
-|Id  <br/> |包含标识 Exchange 存储中的文件夹的字符串。 此特性是必需的。  <br/> |
-|ChangeKey  <br/> |包含标识由 Id 属性标识的文件夹版本的字符串。 此特性是可选的。 使用此属性可确保使用的是正确的文件夹版本。  <br/> |
+|Id  <br/> |包含一个字符串，用于标识Exchange文件夹。 此特性是必需的。  <br/> |
+|ChangeKey  <br/> |包含一个标识由 Id 属性标识的文件夹版本的字符串。 此特性是可选的。 使用此属性确保使用正确版本的文件夹。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -47,9 +47,9 @@ ms.locfileid: "44526576"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[RefreshSharingFolder](refreshsharingfolder.md) <br/> |定义刷新指定的本地文件夹的请求。  <br/> |
-|[GetSharingFolderResponse](getsharingfolderresponse.md) <br/> |定义对[GetSharingFolder 操作](getsharingfolder-operation.md)请求的响应。  <br/> |
-|[GetSharingFolderResponseMessage](getsharingfolderresponsemessage.md) <br/> |包含单个[GetSharingFolder 操作](getsharingfolder-operation.md)请求的状态和结果。  <br/> |
+|[RefreshSharingFolder](refreshsharingfolder.md) <br/> |定义刷新指定本地文件夹的请求。  <br/> |
+|[GetSharingFolderResponse](getsharingfolderresponse.md) <br/> |定义对 [GetSharingFolder 操作请求](getsharingfolder-operation.md) 的响应。  <br/> |
+|[GetSharingFolderResponseMessage](getsharingfolderresponsemessage.md) <br/> |包含单个 [GetSharingFolder 操作请求的状态和](getsharingfolder-operation.md) 结果。  <br/> |
    
 ## <a name="remarks"></a>说明
 

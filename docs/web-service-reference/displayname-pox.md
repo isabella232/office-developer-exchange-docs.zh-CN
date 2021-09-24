@@ -1,29 +1,29 @@
 ---
-title: DisplayName （POX）
+title: DisplayName (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: dab23ed1-7fcf-4870-a634-f39d0742923a
-description: DisplayName 元素表示用户的显示名称。
-ms.openlocfilehash: 14522080a519d12a05567e4a65cba8ea00098b7d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DisplayName 元素表示用户显示名称。
+ms.openlocfilehash: 6a9a42aaede231110c9d11018b03dab507327d30
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463655"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540166"
 ---
-# <a name="displayname-pox"></a>DisplayName （POX）
+# <a name="displayname-pox"></a>DisplayName (POX)
 
-**DisplayName**元素表示用户的显示名称。 
+**DisplayName** 元素表示用户显示名称。 
   
-- [自动发现（POX）](autodiscover-pox.md) 
-- [响应（POX）](response-pox.md) 
-- [User （POX）](user-pox.md) 
-- [DisplayName （POX）](displayname-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md) 
+- [Response (POX)](response-pox.md) 
+- [User (POX)](user-pox.md) 
+- [DisplayName (POX)](displayname-pox.md)
   
 ```xml
 <DisplayName/>
@@ -45,13 +45,13 @@ ms.locfileid: "44463655"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[User （POX）](user-pox.md) <br/> |提供用户特定的信息。  <br/> |
+|[User (POX)](user-pox.md) <br/> |提供特定于用户的信息。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-该文本值代表用户的显示名称。
+文本值表示用户显示名称。
   
 ## <a name="see-also"></a>另请参阅
 
-- [Exchange 的 POX 自动发现 XML 元素](pox-autodiscover-xml-elements-for-exchange.md)
+- [用于存储的 POX 自动发现 XML Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

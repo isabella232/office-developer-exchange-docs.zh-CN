@@ -1,23 +1,23 @@
 ---
-title: LegacyDn （FederatedDirectoryGroupType）
+title: LegacyDn (FederatedDirectoryGroupType)
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6a20b0d3-3048-4349-8df4-1922ea90bae2
-description: LegacyDn （FederatedDirectoryGroupType）元素仅供内部使用。
-ms.openlocfilehash: 76bd57295860c0e9f98ce6fd38e1d0c6c4b9a844
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: LegacyDn (FederatedDirectoryGroupType) 仅供内部使用。
+ms.openlocfilehash: dedd8e72c0ecfd946d866b28b4898603c1417fa3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466351"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514317"
 ---
-# <a name="legacydn-federateddirectorygrouptype"></a>LegacyDn （FederatedDirectoryGroupType）
+# <a name="legacydn-federateddirectorygrouptype"></a>LegacyDn (FederatedDirectoryGroupType)
 
-**LegacyDn （FederatedDirectoryGroupType）** 元素仅供内部使用。 
+LegacyDn **(FederatedDirectoryGroupType)** 元素仅供内部使用。 
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
@@ -35,7 +35,7 @@ ms.locfileid: "44466351"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   

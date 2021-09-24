@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - RestrictedGroupSids
 api_type:
 - schema
 ms.assetid: 569ab552-5616-444a-a7f5-de366a684a34
-description: RestrictedGroupSids 元素表示用户令牌中受限制的组的集合。
-ms.openlocfilehash: 739a73d2ac4bdbbee03650d035271b5c8d9ea25a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: RestrictedGroupSids 元素表示来自用户令牌的受限组的集合。
+ms.openlocfilehash: 20e412eb6eb97bc33052d6625035afb7711ad34f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465357"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514107"
 ---
 # <a name="restrictedgroupsids"></a>RestrictedGroupSids
 
-**RestrictedGroupSids**元素表示用户令牌中受限制的组的集合。 
+**RestrictedGroupSids** 元素表示来自用户令牌的受限组的集合。 
   
 ```xml
 <RestrictedGroupSids>
@@ -42,13 +42,13 @@ ms.locfileid: "44465357"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[RestrictedGroupIdentifier](restrictedgroupidentifier.md) <br/> |表示受限制的组的组安全标识符（SID）和属性。  <br/> |
+|[RestrictedGroupIdentifier](restrictedgroupidentifier.md) <br/> |表示受限组 (SID) 和属性的组安全标识符。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[SerializedSecurityContext](serializedsecuritycontext.md) <br/> |在服务器到服务器身份验证中用于令牌序列化的 SOAP 标头中使用。 不支持令牌序列化。  <br/> |
+|[SerializedSecurityContext](serializedsecuritycontext.md) <br/> |在 SOAP 标头中用于服务器到服务器身份验证中的令牌序列化。 不支持令牌序列化。  <br/> |
    
 ## <a name="remarks"></a>说明
 

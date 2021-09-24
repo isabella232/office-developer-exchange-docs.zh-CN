@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MeetingRequestWasSent
 api_type:
 - schema
 ms.assetid: 9192400a-8eef-4147-9f94-aa8ea91b41d8
-description: MeetingRequestWasSent 元素指示是否已将会议请求发送到请求的与会者。
-ms.openlocfilehash: d5005eb86d5f8d2f438a69e634f0617c2311d720
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: MeetingRequestWasSent 元素指示是否已向请求的与会者发送会议请求。
+ms.openlocfilehash: 282cc074b0ed2c5bc05fbb35b0ee31f2940f1a86
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465763"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540804"
 ---
 # <a name="meetingrequestwassent"></a>MeetingRequestWasSent
 
-**MeetingRequestWasSent**元素指示是否已将会议请求发送到请求的与会者。 
+**MeetingRequestWasSent** 元素指示是否已向请求的与会者发送会议请求。 
   
 ```xml
 <MeetingRequestWasSent/>
@@ -49,7 +49,7 @@ ms.locfileid: "44465763"
    
 ## <a name="text-value"></a>文本值
 
-如果包含此元素，则需要一个表示布尔值的文本值。 **如果值为 true，则**表示会议请求已发送。 **如果值为 false** ，则表示尚未发送会议请求。 
+如果包含此元素，则代表布尔值的文本值是必需的。 值为 **true** 表示已发送会议请求。 false **值表示** 尚未发送会议请求。 
   
 ## <a name="remarks"></a>说明
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MeetingWorkspaceUrl
 api_type:
 - schema
 ms.assetid: 0ca942fe-8f57-4065-93ad-65790f9a04c3
-description: MeetingWorkspaceUrl 元素包含日历项目中包含的会议工作区的 URL。 "会议工作区" 是用于规划会议和跟踪结果的共享网站。
-ms.openlocfilehash: cd4396e590ab1471278bd44b9a4e0009fe326eaf
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: MeetingWorkspaceUrl 元素包含日历项目中包含的会议工作区的 URL。 会议工作区是一个共享网站，用于规划会议并跟踪结果。
+ms.openlocfilehash: c3d051d3529e9de9288c5ecaec2d601b317e2b0b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466281"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540795"
 ---
 # <a name="meetingworkspaceurl"></a>MeetingWorkspaceUrl
 
-**MeetingWorkspaceUrl**元素包含日历项目中包含的会议工作区的 URL。 "会议工作区" 是用于规划会议和跟踪结果的共享网站。 
+**MeetingWorkspaceUrl** 元素包含日历项目中包含的会议工作区的 URL。 会议工作区是一个共享网站，用于规划会议并跟踪结果。 
   
 ```xml
 <MeetingWorkspaceUrl/>
@@ -49,11 +49,11 @@ ms.locfileid: "44466281"
    
 ## <a name="text-value"></a>文本值
 
-如果使用此元素，则需要一个表示 URL 的文本值。
+如果使用此元素，则代表 URL 的文本值是必需的。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-对于组织者的日历项目，MeetingWorkspaceUrl 属性是可读写的。 对于会议请求和与会者的日历项目，它是只读的。
+MeetingWorkspaceUrl 属性对于组织者的日历项目是可读写的。 对于会议请求和与会者的日历项目，它是只读的。
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

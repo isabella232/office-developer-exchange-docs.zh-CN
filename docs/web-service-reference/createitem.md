@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateItem
 api_type:
 - schema
 ms.assetid: c3707feb-3fd4-4b8a-a68f-2abadd455163
-description: CreateItem 元素定义一个请求，以在 Exchange 存储中创建项目。
-ms.openlocfilehash: 235664b7baeceeccb14135fd346123f0f7d99346
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: CreateItem 元素定义在项目存储中创建Exchange请求。
+ms.openlocfilehash: 7276b88bd3b90edc68d7ac8fd4a7646324eadb61
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527059"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59526496"
 ---
 # <a name="createitem"></a>CreateItem
 
-**CreateItem**元素定义一个请求，以在 Exchange 存储中创建项目。 
+**CreateItem** 元素定义在项目存储中创建Exchange请求。 
   
 ```xml
 <CreateItem MessageDisposition="" SendMeetingInvitations="">
@@ -40,37 +40,37 @@ ms.locfileid: "44527059"
 
 |属性|说明|
 |:-----|:-----|
-|**MessageDisposition** <br/> |介绍如何在创建项目后对其进行处理。 电子邮件的属性是必需的。 此属性仅适用于电子邮件。  <br/> |
-|**SendMeetingInvitations** <br/> |介绍如何在创建会议请求后对其进行处理。 此属性是日历项目所必需的。  <br/> |
+|**MessageDisposition** <br/> |描述创建项目后如何处理该项目。 属性是电子邮件的必需属性。 此属性仅适用于电子邮件。  <br/> |
+|**SendMeetingInvitations** <br/> |介绍创建会议请求后如何处理它们。 此属性是日历项目必需的。  <br/> |
    
 #### <a name="messagedisposition-attribute"></a>MessageDisposition 属性
 
 |值|Description|
 |:-----|:-----|
-|SaveOnly  <br/> |邮件项目保存在由[SavedItemFolderId](saveditemfolderid.md)元素指定的文件夹中。 稍后可以使用[SendItem 操作](senditem-operation.md)发送邮件。 响应中返回项目标识符。 不会为除邮件项目之外的任何项目类型返回项目标识符。 其中包括 response 对象。  <br/> |
-|SendOnly  <br/> |项目已发送，但未在 "已发送邮件" 文件夹中保存副本。 响应中不返回项目标识符。<br/><br/>**注意**： **CreateItem**不支持在使用 SendOnly 选项时进行代理访问，因为无法使用此选项指定目标文件夹。 解决方法是创建项目，获取项目标识符，然后使用 SendItem 操作发送项目。           |
-|SendAndSaveCopy  <br/> |将发送项目，并将副本保存在由[SavedItemFolderId](saveditemfolderid.md)元素标识的文件夹中。 响应中不返回项目标识符。<br/><br/>**注意**：会议请求不会保存到由[SavedItemFolderId](saveditemfolderid.md)属性标识的文件夹中。 对于日历，仅可通过**SavedItemFolderId**属性指定日历项目的保存位置。 您不能控制会议请求项目的保存位置。 只会复制关联的日历项目并将其保存到由**SavedItemFolderId**属性标识的文件夹中。           |
+|SaveOnly  <br/> |邮件项目保存在 [SavedItemFolderId](saveditemfolderid.md) 元素指定的文件夹中。 以后可以使用 [SendItem](senditem-operation.md)操作发送邮件。 响应中返回项目标识符。 对于除邮件项之外的任何项目类型，不会返回项目标识符。 这包括 response 对象。  <br/> |
+|SendOnly  <br/> |该项目已发送，但"已发送项目"文件夹中未保存任何副本。 响应中不返回项目标识符。<br/><br/>**注意****：使用 SendOnly** 选项时，CreateItem 不支持委派访问，因为无法使用此选项指定目标文件夹。 解决方法是创建项目、获取项目标识符，然后使用 SendItem 操作发送该项目。           |
+|SendAndSaveCopy  <br/> |该项目将发送，副本保存在 [SavedItemFolderId](saveditemfolderid.md) 元素标识的文件夹中。 响应中不返回项目标识符。<br/><br/>**注意**：会议请求不会保存到 [SavedItemFolderId](saveditemfolderid.md) 属性标识的文件夹。 对于日历 **，SavedItemFolderId** 属性只能指定日历项目的保存位置。 您无法控制保存会议请求项目的位置。 仅将关联的日历项目复制并保存到 **SavedItemFolderId** 属性标识的文件夹中。           |
    
 #### <a name="sendmeetinginvitations-attribute"></a>SendMeetingInvitations 属性
 
 |值|Description|
 |:-----|:-----|
-|SendToNone  <br/> |如果该项目是会议请求，则会将其保存为日历项目，但不会发送。  <br/> |
-|SendOnlyToAll  <br/> |会议请求将发送给所有与会者，但不会保存在 "已发送邮件" 文件夹中。  <br/> |
-|SendToAllAndSaveCopy  <br/> |将会议请求发送给所有与会者，并将副本保存在由[SavedItemFolderId](saveditemfolderid.md)元素标识的文件夹中。  <br/> |
+|SendToNone  <br/> |如果此项是会议请求，则另存为日历项目，但不发送。  <br/> |
+|SendOnlyToAll  <br/> |会议请求将发送给所有与会者，但不保存在"已发送的项目"文件夹中。  <br/> |
+|SendToAllAndSaveCopy  <br/> |会议请求将发送给所有与会者，副本保存在 [SavedItemFolderId](saveditemfolderid.md) 元素标识的文件夹中。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
 |元素|说明|
 |:-----|:-----|
-|[SavedItemFolderId](saveditemfolderid.md) <br/> |标识可在其中创建新项目的目标文件夹。 如果将**MessageDisposition**属性设置为 SendOnly，则仅发送已创建的邮件。 该邮件不会被放在由[SavedItemFolderId](saveditemfolderid.md)元素标识的文件夹中。  <br/> |
-|[项目（NonEmptyArrayOfAllItemsType）](items-nonemptyarrayofallitemstype.md) <br/> |包含要在由[SavedItemFolderId](saveditemfolderid.md)元素标识的文件夹中创建的项的数组。  <br/> |
+|[SavedItemFolderId](saveditemfolderid.md) <br/> |标识可在其中新建项目的目标文件夹。 如果将 **MessageDisposition** 属性设置为 SendOnly，则只会发送已创建的邮件。 邮件不会放入 [SavedItemFolderId](saveditemfolderid.md) 元素标识的文件夹中。  <br/> |
+|[Items (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md) <br/> |包含在 [SavedItemFolderId](saveditemfolderid.md) 元素标识的文件夹中要创建的项数组。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

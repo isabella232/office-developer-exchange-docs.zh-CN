@@ -1,27 +1,27 @@
 ---
-title: 名称 (EmailAddressType)
+title: Name (EmailAddressType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Name
 api_type:
 - schema
 ms.assetid: 98c58c53-9acc-4e89-9fcf-03f1b05abee1
 description: Name 元素表示邮箱用户的名称。
-ms.openlocfilehash: db6eb547b5c848dc31bbaa377692989b16771673
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 096b5db4f7bc2de7d1d7355e4e0dba2684bd06d8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466925"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515514"
 ---
-# <a name="name-emailaddresstype"></a>名称 (EmailAddressType)
+# <a name="name-emailaddresstype"></a>Name (EmailAddressType)
 
-**Name**元素表示邮箱用户的名称。 
+**Name** 元素表示邮箱用户的名称。 
   
 ```xml
 <Name/>
@@ -50,11 +50,11 @@ ms.locfileid: "44466925"
    
 ## <a name="text-value"></a>文本值
 
-如果使用此元素，则需要一个表示字符串的文本值。
+如果使用此元素，则代表字符串的文本值是必需的。
   
 ## <a name="remarks"></a>说明
 
-此元素为可选。 **Name**元素存在于**AttachmentType**、 **EmailAddressType**和**EmailAddress**类型中。 "[名称" （EmailAddress）](name-emailaddress.md)元素主题中介绍了**EmailAddress**类型中的**name**元素。 
+此元素为可选。 **Name** 元素存在于 AttachmentType、EmailAddressType 和 **EmailAddress** 类型中。   **EmailAddress** 类型中的 **Name** 元素在 [Name (EmailAddress](name-emailaddress.md)) 主题中进行了介绍。 
   
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

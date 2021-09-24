@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - LargeAudienceThreshold
 api_type:
 - schema
 ms.assetid: dacd9db7-b8f0-445d-a3d1-3356b8c2bcd1
-description: LargeAudienceThreshold 元素表示客户端的大型访问群体阈值。
-ms.openlocfilehash: 6d85f9eaf8b7723713877d376876461befa92324
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: LargeAudienceThreshold 元素表示客户端的大型受众阈值。
+ms.openlocfilehash: c342fa63b19d5af52fe49362ae46b9848addaa0b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466386"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540858"
 ---
 # <a name="largeaudiencethreshold"></a>LargeAudienceThreshold
 
-**LargeAudienceThreshold**元素表示客户端的大型访问群体阈值。 
+**LargeAudienceThreshold** 元素表示客户端的大型受众阈值。 
   
 ```XML
 <LargeAudienceThreshold/>
@@ -48,7 +48,7 @@ ms.locfileid: "44466386"
    
 ## <a name="text-value"></a>文本值
 
-Text 值是一个代表访问群体阈值的整数，表示该邮件将发送给多个用户。
+文本值是一个整数，表示访问群体阈值，指示邮件将发送到多个用户。
   
 ## <a name="remarks"></a>说明
 

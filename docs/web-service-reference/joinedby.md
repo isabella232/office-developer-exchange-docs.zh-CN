@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 49c74470-fe11-4229-b4e5-1fc8588a44d7
 description: JoinedBy 元素仅供内部使用。
-ms.openlocfilehash: 61fa84923ccac77c1d6686e3bcc51c30d92bc3b4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: ccd6713c2b3b7a6ac53b7d1d836843445f666b21
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529040"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540865"
 ---
 # <a name="joinedby"></a>JoinedBy
 
-**JoinedBy**元素仅供内部使用。 
+**JoinedBy** 元素仅供内部使用。 
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
@@ -35,7 +35,7 @@ ms.locfileid: "44529040"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   

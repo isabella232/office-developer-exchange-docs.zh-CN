@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f0bd3d6f-bb21-4b5d-9e6a-b19530a1a3fd
 description: MailboxHoldStatuses 元素指定一个或多个 MailboxHoldStatus 元素的列表。
-ms.openlocfilehash: 8b51fe0ab5daadffcbd91f51963abe094bf31342
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: d2d6545f3c908a3e6908797a5ebb93429ca50caf
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466379"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540803"
 ---
 # <a name="mailboxholdstatuses"></a>MailboxHoldStatuses
 
-**MailboxHoldStatuses**元素指定一个或多个**MailboxHoldStatus**元素的列表。 
+**MailboxHoldStatuses** 元素指定一个或多个 **MailboxHoldStatus 元素** 的列表。 
   
 ```XML
 <MailboxHoldStatuses>
@@ -43,7 +43,7 @@ ms.locfileid: "44466379"
 
 [MailboxHoldResult](mailboxholdresult.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
