@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AggregateOn
 api_type:
 - schema
 ms.assetid: 9b0a03f2-3282-46e1-b1a0-cbb9a0fbe9bb
-description: AggregateOn 元素表示用于确定分组的 FindItem 结果集的分组项顺序的属性。
-ms.openlocfilehash: 04359c187ef11538d64f8f0d3ea2fe84bc3d048b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: AggregateOn 元素表示用于确定分组的 FindItem 集合的分组项结果集。
+ms.openlocfilehash: 4fa46837cc794bc6c4b23a6b5627d95509d60d70
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463564"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541551"
 ---
 # <a name="aggregateon"></a>AggregateOn
 
-**AggregateOn**元素表示用于确定分组的 FindItem 结果集的分组项顺序的属性。 
+**AggregateOn** 元素表示用于确定分组的 FindItem 集合的分组项结果集。 
   
 - [FindItem](finditem.md)  
 - [GroupBy](groupby.md)
@@ -55,7 +55,7 @@ ms.locfileid: "44463564"
 
 |**属性**|**说明**|
 |:-----|:-----|
-|**Aggregate** <br/> | 指示用于对项目组进行排序的[FieldURI](fielduri.md)元素所标识的属性的最大值或最小值。<br/><br/>以下是可能的值：  <br/><br/>-最低  <br/>-最大  <br/> |
+|**Aggregate** <br/> | 指示 [FieldURI](fielduri.md) 元素标识的属性（用于对项目组排序）的最大值或最小值。<br/><br/>以下是可能的值：  <br/><br/>- 最小值  <br/>- 最大值  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -71,23 +71,23 @@ ms.locfileid: "44463564"
 |:-----|:-----|
 |[GroupBy](groupby.md) <br/> |指定 FindItem 查询的任意分组。  <br/> 下面是此元素的 XPath 表达式:  `/FindItem/GroupBy` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-[FindItem 操作](finditem-operation.md)可以返回已分组的结果。 在分组结果中，具有给定分组属性的相同值的所有项都将一起收集，并显示为该组的子级。 例如，如果按发件人进行分组，则所有电子邮件都将根据用户是否来自发件人 A、发件人 B 等组织到不同的组中。 这些组是发件人组的子项。 
+[FindItem 操作](finditem-operation.md)可以返回分组结果。 在分组结果中，对给定分组属性具有相同值的所有项目都收集在一起，并作为该组的子项显示。 例如，如果按发件人分组，则所有电子邮件都根据它们是否来自发件人 A、发件人 B 等组织到不同的组中。 这些组是发件人组的子组。 
   
-发件人组中的每个组都包含项目的集合，例如来自每个发件人的实际电子邮件。 您可以使用[SortOrder](sortorder.md)元素对组中的项目进行排序。 但是，若要根据项目的属性值对组进行排序，则必须使用聚合。 
+发件人组内的每个组都包含一组项目，例如来自每个发件人的实际电子邮件。 可以使用 [SortOrder](sortorder.md) 元素对组内的项目进行排序。 但是，若要根据项目的属性值对组进行排序，必须使用聚合。 
   
-使用聚合，组的顺序基于组中项目的特定属性。 使用聚合对组中的项目进行排序时，必须确定对组进行排序所依据的代表性属性。 您可以使用**AggregateOn**元素来指定代表属性。 
+通过聚合，组顺序基于组中项目的特定属性。 使用聚合对组内的项目进行排序时，必须确定一个代表属性，根据该属性对组进行排序。 可以使用 **AggregateOn** 元素指定代表属性。 
   
-如果确定了代表性属性，则**聚合**属性用于指示是否根据已确定的属性的最大值或最小值对组进行排序。 如果将**Aggregate**属性设置为 "最大值"，则将从**AggregateOn**属性的最大值开始对组进行排序。 如果将**Aggregate**属性设置为 "最小值"，则将从**AggregateOn**属性的最小值开始对组进行排序。 
+当标识有代表性的属性时 **，Aggregate** 属性用于指示组是按照所标识属性的最大值还是最小值进行排序。 如果 **Aggregate** 属性设置为 Maximum，则从 **AggregateOn** 属性的最大值开始对组进行排序。 如果 **Aggregate** 属性设置为 Minimum，则从 **AggregateOn** 属性的最小值开始对组进行排序。 
   
-例如，如果您想要发出 FindItem 分组查询，按发件人进行分组，但您希望对组进行排序，以便将最近的电子邮件的组放在最上面，则可以按发件人进行分组，并按接收到最大的**聚合**属性的日期/时间进行聚合。 
+例如，如果要发出按发件人分组的 FindItem 分组查询，但希望对组进行排序，使包含最新电子邮件的组位于顶部，您可以按发件人进行分组，并按接收日期/时间聚合聚合，聚合属性为 Maximum。  
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
 ## <a name="example"></a>示例
 
-下面的示例展示了一个分组的 FindItem 请求和响应。 该示例演示返回按**ConversationTopic**属性分组的项的请求。 根据[DateTimeReceived](datetimereceived.md)属性的最大值，以降序返回两个组： A 和 B。 
+以下示例显示了分组的 FindItem 请求和响应。 该示例显示返回按 **ConversationTopic** 属性分组的项目的请求。 A 和 B 这两个组根据 [DateTimeReceived](datetimereceived.md) 属性的最大值按降序返回。 
   
 ```XML
 <!-- EXAMPLE REQUEST -->
@@ -187,10 +187,10 @@ ms.locfileid: "44463564"
 </soap:Envelope>
 ```
 
-若要对组中的项目进行排序，请使用[SortOrder](sortorder.md)元素。 
+若要对组中的项目进行排序，请使用 [SortOrder](sortorder.md) 元素。 
   
 > [!NOTE]
-> 项目标识符和更改密钥已缩短，以保持可读性。 
+> 已缩短项目标识符和更改键以保持可读性。 
   
 ## <a name="element-information"></a>元素信息
 

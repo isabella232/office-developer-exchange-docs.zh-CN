@@ -5,44 +5,44 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ed077877-9d98-4434-b8b6-a4a905e7f7a6
 description: 查找有关 GetNonIndexableItemStatistics EWS 操作的信息。
-ms.openlocfilehash: c7d49f9e0d7b4191c7403cb4d1a20e70a96c3882
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: e95cd016f73c92a75d9f366527e58045497363d0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44452816"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546236"
 ---
 # <a name="getnonindexableitemstatistics-operation"></a>GetNonIndexableItemStatistics 操作
 
-查找有关**GetNonIndexableItemStatistics** EWS 操作的信息。 
+查找有关 **GetNonIndexableItemStatistics** EWS 操作的信息。 
   
-**GetNonIndexableItemStatistics**操作检索邮箱中无法编制索引的项目数。 
+**GetNonIndexableItemStatistics** 操作检索无法在邮箱中编制索引的项目数。 
   
 Exchange Server 2013 中引入了此操作。
   
 ## <a name="using-the-getnonindexableitemstatistics-operation"></a>使用 GetNonIndexableItemStatistics 操作
 
-**GetNonIndexableItemStatistics**操作对无法编制索引的邮箱项目计数。 在发现搜索过程中不会搜索无法编制索引的项目。 
+**GetNonIndexableItemStatistics** 操作对无法编制索引的邮箱项目计数。 无法在发现搜索期间搜索无法编制索引的项目。 
   
 ### <a name="getnonindexableitemstatistics-operation-soap-headers"></a>GetNonIndexableItemStatistics 操作 SOAP 标头
 
-**GetNonIndexableItemStatistics**操作可以使用下表中列出的 SOAP 标头。 
+**GetNonIndexableItemStatistics** 操作可以使用下表中列出的 SOAP 标头。 
   
 |**标头名称**|**元素**|**说明**|
 |:-----|:-----|:-----|
-|**Get-managementrole** <br/> |[Get-managementrole](managementrole.md) <br/> |标识调用方发出请求所需的服务器角色。 此标头适用于请求。  <br/> |
+|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |标识调用方进行请求所需的服务器角色。 此标头适用于请求。  <br/> |
 |**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。 此标头适用于请求。  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器版本。 此标头适用于响应。  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器的版本。 此标头适用于响应。  <br/> |
    
-## <a name="getnonindexableitemstatistics-operation-request-example-get-the-count-of-items-that-cannot-be-indexed-in-a-mailbox"></a>GetNonIndexableItemStatistics 操作请求示例：获取邮箱中无法编制索引的项的计数
+## <a name="getnonindexableitemstatistics-operation-request-example-get-the-count-of-items-that-cannot-be-indexed-in-a-mailbox"></a>GetNonIndexableItemStatistics 操作请求示例：获取邮箱中无法编制索引的项目数
 
-以下示例的**GetNonIndexableItemStatistics**操作请求显示如何请求邮箱中无法编制索引的项目数。 
+**GetNonIndexableItemStatistics** 操作请求的以下示例显示如何请求无法在邮箱中编制索引的项目数。 
   
 > [!NOTE]
-> 此示例中的所有旧版域名都将被缩短以保持可读性。 
+> 此示例中所有旧域名已缩短，以保持可读性。 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -68,7 +68,7 @@ Exchange Server 2013 中引入了此操作。
   
 - [GetNonIndexableItemStatistics](getnonindexableitemstatistics.md)
     
-- [邮箱（NonEmptyArrayOfLegacyDNsType）](mailboxes-nonemptyarrayoflegacydnstype.md)
+- [Mailboxes (NonEmptyArrayOfLegacyDNsType)](mailboxes-nonemptyarrayoflegacydnstype.md)
     
 - [LegacyDN](legacydn.md)
     
@@ -76,7 +76,7 @@ Exchange Server 2013 中引入了此操作。
     
 ## <a name="successful-getnonindexableitemstatistics-operation-response"></a>成功的 GetNonIndexableItemStatistics 操作响应
 
-下面的示例演示对**GetNonIndexableItemStatistics**操作请求的成功响应，以获取无法在邮箱中编制索引的项的计数。 
+以下示例显示成功响应 **GetNonIndexableItemStatistics** 操作请求，获取邮箱中无法编制索引的项目数。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -125,7 +125,7 @@ Exchange Server 2013 中引入了此操作。
     
 ## <a name="getnonindexableitemstatistics-operation-error-response"></a>GetNonIndexableItemStatistics 操作错误响应
 
-下面的示例演示对**GetNonIndexableItemStatistics**操作请求的错误响应。 这是对获取无法从多个邮箱编制索引的项目数的请求的响应。 
+以下示例显示对 **GetNonIndexableItemStatistics** 操作请求的错误响应。 这是对请求的响应，请求获取无法从多个邮箱编制索引的项目数。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -164,11 +164,11 @@ Exchange Server 2013 中引入了此操作。
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-有关对 EWS 通用的其他错误代码以及特定于此操作的错误代码，请参阅[ResponseCode](responsecode.md)。
+有关 EWS 通用且特定于此操作的其他错误代码，请参阅 [ResponseCode](responsecode.md)。
   
 ## <a name="see-also"></a>另请参阅
 
-- [Exchange 中的 EWS 操作](ews-operations-in-exchange.md)
+- [EWS 操作在Exchange](ews-operations-in-exchange.md)
     
 - [GetSearchableMailboxes 操作](getsearchablemailboxes-operation.md)
     

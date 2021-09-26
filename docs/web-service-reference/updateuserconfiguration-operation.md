@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UpdateUserConfiguration
 api_type:
 - schema
 ms.assetid: eda73b62-6a3a-43ae-8fd9-f30892811f27
-description: UpdateUserConfiguration 操作将更新文件夹上的用户配置对象。
-ms.openlocfilehash: 95fe6518fa30104463ec7f0aec8f786183eb513b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: UpdateUserConfiguration 操作更新文件夹中的用户配置对象。
+ms.openlocfilehash: 18caad56d3add618c4f426af824e61ce54c15bc7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468542"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541698"
 ---
 # <a name="updateuserconfiguration-operation"></a>UpdateUserConfiguration 操作
 
-**UpdateUserConfiguration**操作将更新文件夹上的用户配置对象。 
+**UpdateUserConfiguration** 操作更新文件夹中的用户配置对象。 
   
 ## <a name="updateuserconfiguration-request-example"></a>UpdateUserConfiguration 请求示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-以下示例的**UpdateUserConfiguration**请求显示如何在 "草稿" 文件夹中形成更新用户配置对象的请求。 
+**UpdateUserConfiguration** 请求的以下示例显示如何形成请求以更新"草稿"文件夹中的用户配置对象。 
   
 ### <a name="code"></a>代码
 
@@ -67,9 +67,9 @@ ms.locfileid: "44468542"
 
 ## <a name="updateuserconfiguration-response-example"></a>UpdateUserConfiguration 响应示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-下面的示例演示对**UpdateUserConfiguration**请求的成功响应。 
+以下示例显示对 **UpdateUserConfiguration** 请求的成功响应。 
   
 ### <a name="code"></a>代码
 
@@ -105,7 +105,7 @@ ms.locfileid: "44468542"
 
 
 
-[Exchange 中的 EWS 操作](ews-operations-in-exchange.md)
+[EWS 操作在Exchange](ews-operations-in-exchange.md)
   
 - [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

@@ -1,32 +1,32 @@
 ---
-title: EcpUrl-发布（POX）
+title: EcpUrl-publish (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a51189db-f6e5-428d-833d-65a209204a5b
-description: EcpUrl 元素指定一个部分 URL，该 URL 可以与 EcpUrl （POX）元素的值相结合，以生成可用于访问启用邮件的用户的日历发布设置的 URL。
-ms.openlocfilehash: 98cac9132c1ba6e368be6337fbf3b522a02cb47a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: EcpUrl-publish 元素指定可以与 EcpUrl (POX) 元素的值组合的部分 URL，以生成可用于访问已启用邮件的用户的日历发布设置的 URL。
+ms.openlocfilehash: e48b6fa2075c12947f5f8d97ba44e9fd38dfba8e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458003"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544126"
 ---
-# <a name="ecpurl-publish-pox"></a>EcpUrl-发布（POX）
+# <a name="ecpurl-publish-pox"></a>EcpUrl-publish (POX)
 
-**EcpUrl**元素指定一个部分 url，该 url 可以与[EcpUrl （POX）](ecpurl-pox.md)元素的值相结合，以生成可用于访问启用邮件的用户的日历发布设置的 url。 
+**EcpUrl-publish** 元素指定可以与 [EcpUrl (POX)](ecpurl-pox.md)元素的值组合的部分 URL，以生成可用于访问启用邮件的用户的日历发布设置的 URL。 
   
-[自动发现（POX）](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[响应（POX）](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[帐户（POX）](account-pox.md)
+[Account (POX)](account-pox.md)
   
-[协议（POX）](protocol-pox.md)
+[Protocol (POX)](protocol-pox.md)
   
-[EcpUrl-发布（POX）](ecpurl-publish-pox.md)
+[EcpUrl-publish (POX)](ecpurl-publish-pox.md)
   
 ```XML
 <EcpUrl-publish/>
@@ -48,19 +48,19 @@ ms.locfileid: "44458003"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[协议（POX）](protocol-pox.md) <br/> |包含将客户端连接到运行 Microsoft Exchange Server 且安装了客户端访问服务器角色的计算机的规范。  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |包含用于将客户端连接到运行已安装客户端访问服务器角色Microsoft Exchange Server的计算机的规范。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-Text 值表示一个可与[EcpUrl （POX）](ecpurl-pox.md)元素的值结合使用的部分 url，以生成可用于访问用户的日历发布设置的 URL。 
+文本值表示可以与 [EcpUrl (POX) ](ecpurl-pox.md) 元素的值组合的部分 URL，以生成可用于访问用户的日历发布设置的 URL。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-**EcpUrl**元素是**Protocol**元素的可选子元素。 
+**EcpUrl-publish** 元素是 Protocol 元素的可选 **子** 元素。 
   
 ## <a name="see-also"></a>另请参阅
 
 
 
-[Exchange 的 POX 自动发现 XML 元素](pox-autodiscover-xml-elements-for-exchange.md)
+[用于存储的 POX 自动发现 XML Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

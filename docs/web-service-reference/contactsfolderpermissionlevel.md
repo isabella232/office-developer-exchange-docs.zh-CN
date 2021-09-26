@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ContactsFolderPermissionLevel
 api_type:
 - schema
 ms.assetid: 805f05e7-b320-436a-9965-ba1ee235ac41
-description: ContactsFolderPermissionLevel 元素包含默认 "联系人" 文件夹的权限。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
-ms.openlocfilehash: 8d76e00ab63714e220bd3205b10c8b72d15a4788
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ContactsFolderPermissionLevel 元素包含默认"联系人"文件夹的权限。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
+ms.openlocfilehash: 9b266efbd5817cd32bca415e2330b58586b38bd6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527122"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544274"
 ---
 # <a name="contactsfolderpermissionlevel"></a>ContactsFolderPermissionLevel
 
-**ContactsFolderPermissionLevel**元素包含默认 "联系人" 文件夹的权限。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
+**ContactsFolderPermissionLevel** 元素包含默认"联系人"文件夹的权限。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
   
 ```xml
 <ContactsFolderPermissionLevel>
@@ -46,7 +46,7 @@ ms.locfileid: "44527122"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[DelegatePermissions](delegatepermissions.md) <br/> |包含用户的代理权限级别设置。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
+|[DelegatePermissions](delegatepermissions.md) <br/> |包含用户的委派权限级别设置。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
@@ -56,11 +56,11 @@ ms.locfileid: "44527122"
 
 |**权限级别**|**说明**|
 |:-----|:-----|
-|无  <br/> |代理用户没有对 "联系人" 文件夹的访问权限。  <br/> |
-|Reviewer  <br/> |代理用户可以读取 "联系人" 文件夹中的项目。  <br/> |
-|作者  <br/> |代理用户可以读取和创建 "联系人" 文件夹中的项目。  <br/> |
-|编辑器  <br/> |代理用户可以读取、创建和修改 "联系人" 文件夹中的项目。  <br/> |
-|自定义警报  <br/> |代理用户对 "联系人" 文件夹具有自定义访问权限。  <br/> |
+|无  <br/> |代理用户对"联系人"文件夹没有访问权限。  <br/> |
+|Reviewer  <br/> |代理用户可以读取"联系人"文件夹中的项目。  <br/> |
+|作者  <br/> |代理用户可以在"联系人"文件夹中读取和创建项目。  <br/> |
+|编辑器  <br/> |代理用户可以读取、创建和修改"联系人"文件夹中的项目。  <br/> |
+|自定义警报  <br/> |代理用户具有对"联系人"文件夹的自定义访问权限。  <br/> |
    
 ## <a name="remarks"></a>说明
 
@@ -87,5 +87,5 @@ ms.locfileid: "44527122"
 - [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 
 
-[添加委派](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
+[添加代理人](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
 

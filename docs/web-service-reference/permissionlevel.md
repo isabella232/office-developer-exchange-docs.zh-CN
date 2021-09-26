@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PermissionLevel
 api_type:
 - schema
 ms.assetid: 87978600-3523-451e-a725-ef092c543e2a
 description: PermissionLevel 元素表示用户对文件夹拥有的权限级别。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
-ms.openlocfilehash: e1e441c53b5c40c16051eb852a6b35a8af7476e2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 48b8db48afe6ced137acceeade2911a044298d75
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458038"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544834"
 ---
 # <a name="permissionlevel"></a>PermissionLevel
 
-**PermissionLevel**元素表示用户对文件夹拥有的权限级别。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
+**PermissionLevel** 元素表示用户对文件夹拥有的权限级别。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
   
 ```xml
 <PermissionLevel>None or Owner or PublishingEditor or Editor or PublishingAuthor or Author or NoneditingAuthor or Reviewer or Contributor or Custom</PermissionLevel>
@@ -42,28 +42,28 @@ ms.locfileid: "44458038"
   
 ### <a name="parent-elements"></a>父元素
 
-|**元素**|**描述**|
+|**元素**|**说明**|
 |:-----|:-----|
 |[权限](permission.md) <br/> |到文件夹定义用户拥有的访问权限。在 Exchange 2007 SP1 引入了此元素。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-下表列出了**PermissionLevel**元素的可能值。 
+下表列出了 **PermissionLevel** 元素的可能值。 
   
 **PermissionLevel 元素文本值**
 
 |**值**|**说明**|
 |:-----|:-----|
 |无  <br/> |指示用户对文件夹没有权限。  <br/> |
-|所有者  <br/> |指示用户可以创建、读取、编辑和删除文件夹中的所有项目，并创建子文件夹。 用户是文件夹所有者和文件夹联系人。  <br/> |
-|Publishingeditorcreateitems  <br/> |指示用户可以创建、读取、编辑和删除文件夹中的所有项目，并创建子文件夹。  <br/> |
+|所有者  <br/> |指示用户可以创建、读取、编辑和删除文件夹中的所有项目，以及创建子文件夹。 用户既是文件夹所有者，也是文件夹联系人。  <br/> |
+|PublishingEditor  <br/> |指示用户可以创建、读取、编辑和删除文件夹中的所有项目，以及创建子文件夹。  <br/> |
 |编辑器  <br/> |指示用户可以创建、读取、编辑和删除文件夹中的所有项目。  <br/> |
-|Publishingauthorcreateitems  <br/> |指示用户可以创建和读取文件夹中的所有项目、仅编辑和删除用户创建的项目以及创建子文件夹。  <br/> |
-|作者  <br/> |指示用户可以创建和读取文件夹中的所有项目，并只编辑和删除用户创建的项目。  <br/> |
-|Noneditingauthorcreateitems  <br/> |指示用户可以创建和读取文件夹中的所有项目，并只删除用户创建的项目。  <br/> |
+|PublishingAuthor  <br/> |指示用户可以创建和读取文件夹中的所有项目，仅编辑和删除用户创建的项目，以及创建子文件夹。  <br/> |
+|作者  <br/> |指示用户可以创建和读取文件夹中的所有项目，并仅编辑和删除用户创建的项目。  <br/> |
+|NoneditingAuthor  <br/> |指示用户可以创建和读取文件夹中的所有项目，并仅删除用户创建的项目。  <br/> |
 |Reviewer  <br/> |指示用户可以读取文件夹中的所有项目。  <br/> |
 |参与者  <br/> |指示用户可以在文件夹中创建项目。 不显示文件夹的内容。  <br/> |
-|自定义警报  <br/> |指示用户对该文件夹具有自定义访问权限。  <br/> |
+|自定义警报  <br/> |指示用户对文件夹具有自定义访问权限。  <br/> |
    
 ## <a name="remarks"></a>说明
 

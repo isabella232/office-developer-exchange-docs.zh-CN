@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c900be49-3c90-41aa-aba5-bcf1116ec2aa
 description: EmptyFolderResponse 元素定义对 EmptyFolder 操作请求的响应。
-ms.openlocfilehash: 9b20df8c0b095870185aab14dbd1f7ff4fc47def
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: ca39ff598db7242193175d098b19b3b474d9a616
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530675"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544141"
 ---
 # <a name="emptyfolderresponse"></a>EmptyFolderResponse
 
-**EmptyFolderResponse**元素定义对[EmptyFolder 操作](emptyfolder-operation.md)请求的响应。 
+**EmptyFolderResponse** 元素定义对 [EmptyFolder](emptyfolder-operation.md)操作请求的响应。 
   
 ```XML
 <EmptyFolderResponse>
@@ -38,13 +38,13 @@ ms.locfileid: "44530675"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |包含 Exchange Web 服务请求的响应消息。  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |包含 Web 服务请求Exchange消息。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

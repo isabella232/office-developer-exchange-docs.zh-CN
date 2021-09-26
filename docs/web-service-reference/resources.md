@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: ITPro
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Resources
 api_type:
 - schema
 ms.assetid: a2133cf2-7c62-4f1c-b3aa-75f14d30dd74
 description: Resources 元素表示会议的计划资源。
-ms.openlocfilehash: 67b4ed93a67a48945845887aa2d08b5bfe0102d4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 391a3927710ca0ad9c3637b62727d8c63bc42a9a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455588"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544813"
 ---
 # <a name="resources"></a>资源
 
-**Resources**元素表示会议的计划资源。 
+Resources 元素表示会议的计划资源。 
   
 ```xml
 <Resources>
@@ -42,7 +42,7 @@ ms.locfileid: "44455588"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[与会者](attendee.md) <br/> |表示会议的与会者和资源。  <br/> |
+|[与会者](attendee.md) <br/> |表示会议与会者和资源。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 

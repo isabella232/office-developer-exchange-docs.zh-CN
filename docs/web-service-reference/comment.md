@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Comment
 api_type:
 - schema
 ms.assetid: be7f4b56-a741-46b7-9d72-3604514baac6
-description: Comment 元素包含与托管文件夹相关联的注释。
-ms.openlocfilehash: 5c13b4085f856dd9a689ec4d6acc89b39e482663
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Comment 元素包含与托管文件夹关联的注释。
+ms.openlocfilehash: 62b2dd8fe1d3111f528bd84c1031fb2110648ed9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457387"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543546"
 ---
 # <a name="comment"></a>评论
 
-**Comment**元素包含与托管文件夹相关联的注释。 
+**Comment** 元素包含与托管文件夹关联的注释。 
   
 ```xml
 <Comment/>
@@ -48,7 +48,7 @@ ms.locfileid: "44457387"
    
 ## <a name="text-value"></a>文本值
 
-该文本值表示与托管文件夹相关联的注释。
+文本值表示与托管文件夹关联的注释。
   
 ## <a name="remarks"></a>说明
 

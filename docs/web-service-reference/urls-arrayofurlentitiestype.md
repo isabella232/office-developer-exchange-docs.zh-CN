@@ -1,23 +1,23 @@
 ---
-title: Url （ArrayOfUrlEntitiesType）
+title: Urls (ArrayOfUrlEntitiesType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c39744ea-0cee-4954-8653-8279d6b10161
-description: Url 元素指定的 Url 数组是从邮箱中的项目提取实体的结果。
-ms.openlocfilehash: 0d30c05c23f8d2c9617244c40dc36f6faa222312
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Urls 元素指定一组 URL，这些 URL 是实体从邮箱中的项目提取的结果。
+ms.openlocfilehash: 50f3af799afddc8af14f54d47856b19b0e0bfd33
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466526"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542713"
 ---
-# <a name="urls-arrayofurlentitiestype"></a>Url （ArrayOfUrlEntitiesType）
+# <a name="urls-arrayofurlentitiestype"></a>Urls (ArrayOfUrlEntitiesType)
 
-**Url**元素指定的 url 数组是从邮箱中的项目提取实体的结果。 
+**Urls** 元素指定一组 URL，这些 URL 是实体从邮箱中的项目提取的结果。 
   
 ```XML
 <Urls>
@@ -42,7 +42,7 @@ ms.locfileid: "44466526"
 
 [EntityExtractionResult](entityextractionresult.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

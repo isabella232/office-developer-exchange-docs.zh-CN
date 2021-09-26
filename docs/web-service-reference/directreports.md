@@ -5,22 +5,24 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ab88739f-9018-4887-ae46-f1471242628c
 description: DirectReports 元素包含标识联系人的直接下属的 SMTP 信息。
-ms.openlocfilehash: d7a1077d334862df2a24e27bc23e02539a1bafb1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: a84e37836b645ec679208094ed893d04793f01d2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462071"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542349"
 ---
 # <a name="directreports"></a>DirectReports
 
-**DirectReports**元素包含标识联系人的直接下属的 SMTP 信息。 
+**DirectReports** 元素包含标识联系人的直接下属的 SMTP 信息。 
   
 ```XML
-<DirectReports/>
+<DirectReports>
+   <Mailbox/>
+</DirectReports>
 ```
 
  **SingleRecipientType**
@@ -34,18 +36,16 @@ ms.locfileid: "44462071"
   
 ### <a name="child-elements"></a>子元素
 
-无。
-  
+|**元素**|**说明**|
+|:-----|:-----|
+|[Mailbox](mailbox.md) <br/> |标识已启用邮件的Active Directory目录服务对象。  <br/> |
+     
 ### <a name="parent-elements"></a>父元素
 
 |**元素名**|**说明**|
 |:-----|:-----|
-|[Contact](contact.md) <br/> |表示 Exchange 存储中的联系人项目。  <br/> |
+|[Contact](contact.md) <br/> |表示应用商店中的联系人Exchange项。  <br/> |
    
-## <a name="text-value"></a>文本值
-
-无。
-  
 ## <a name="remarks"></a>说明
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。

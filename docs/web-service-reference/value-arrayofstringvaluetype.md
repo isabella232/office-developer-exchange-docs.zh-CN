@@ -1,23 +1,23 @@
 ---
-title: Value （ArrayOfStringValueType）
+title: Value (ArrayOfStringValueType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 83865da6-0bcd-445a-ba3c-0eff481b14ab
-description: Value 元素指定与归属数组相关联的角色属性数组中的值。
-ms.openlocfilehash: ceca9290ea93a505709d6046d1b6ab8e2c32f4ea
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Value 元素指定与属性数组关联的 persona 属性数组中的值。
+ms.openlocfilehash: 2a2631debfe3e6000fc6855e8d8859740bad4bcc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467618"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541677"
 ---
-# <a name="value-arrayofstringvaluetype"></a>Value （ArrayOfStringValueType）
+# <a name="value-arrayofstringvaluetype"></a>Value (ArrayOfStringValueType)
 
-**Value**元素指定与归属数组相关联的角色属性数组中的值。 
+**Value** 元素指定与属性数组关联的 persona 属性数组中的值。 
   
 ```XML
 <Value></Value>
@@ -39,13 +39,13 @@ ms.locfileid: "44467618"
   
 ### <a name="parent-elements"></a>父元素
 
-[Values （ArrayOfStringValueType）](values-arrayofstringvaluetype.md)
+[Values (ArrayOfStringValueType)](values-arrayofstringvaluetype.md)
   
 ## <a name="text-value"></a>文本值
 
-**Value**元素的文本值是与归属数组相关联的角色属性数组中的一个值。 
+**Value** 元素的文本值是一个与属性数组关联的 persona 属性数组中的值。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

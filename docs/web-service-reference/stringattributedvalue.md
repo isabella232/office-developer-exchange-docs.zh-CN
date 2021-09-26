@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 911fec52-bde7-44a3-9231-04f327a42107
-description: StringAttributedValue 元素指定与 persona 元素相关联的属性数组中的一个实例。
-ms.openlocfilehash: bf4f5cd67bb254bd61f293cbef3699e588c6075b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: StringAttributedValue 元素指定与 persona 元素关联的属性数组中的实例。
+ms.openlocfilehash: 197e1f93a6ae3087cdbb399d718e6c5f770859e4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463081"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543966"
 ---
 # <a name="stringattributedvalue"></a>StringAttributedValue
 
-**StringAttributedValue**元素指定与 persona 元素相关联的属性数组中的一个实例。 
+**StringAttributedValue** 元素指定与 persona 元素关联的属性数组中的实例。 
   
 ```XML
 <StringAttributedValue>
@@ -37,13 +37,13 @@ ms.locfileid: "44463081"
   
 ### <a name="child-elements"></a>子元素
 
-[值](value.md)  | [归属（ArrayOfValueAttributionsType）](attributions-arrayofvalueattributionstype.md)
+[值](value.md)  | [ArrayOfValueAttributionsType () 属性](attributions-arrayofvalueattributionstype.md)
   
 ### <a name="parent-elements"></a>父元素
 
-[DisplayNames](displaynames.md)  | [FileAses](fileases.md)  | [FileAsIds](fileasids.md)  | [DisplayNamePrefixes](displaynameprefixes.md)  | [GivenNames](givennames.md)  | [MiddleNames](middlenames.md)  | [Surnames](surnames.md)  | [生成](generations.md)  | [昵称](nicknames.md)  | [缩写](initials.md)  | [YomiCompanyNames](yomicompanynames.md)  | [YomiFirstNames](yomifirstnames.md)  | [YomiLastNames](yomilastnames.md)  | [BusinessHomePages](businesshomepages.md)  | [PersonalHomePages](personalhomepages.md)  | [OfficeLocations](officelocations.md)  | [ImAddresses](imaddresses.md)  | [ImAddresses2](imaddresses2.md)  | [ImAddresses3](imaddresses3.md)  | [标题](titles.md)  | [部门](departments.md)  | [CompanyNames](companynames.md)  | [经理](managers.md)  | [AssistantNames](assistantnames.md)  | [Professions](professions.md)  | [SpouseNames](spousenames.md)  | [学校](schools.md)  | [业余爱好](hobbies.md)  | [WeddingAnniversaries](weddinganniversaries.md)  | [生日](birthdays.md)  | [位置](locations.md)
+[DisplayNames](displaynames.md)  | [FileAses](fileases.md)  | [FileAsIds](fileasids.md)  | [DisplayNamePrefixes](displaynameprefixes.md)  | [GivenNames](givennames.md)  | [MiddleNames](middlenames.md)  | [姓](surnames.md)  | [代数](generations.md)  | [昵称](nicknames.md)  | [缩写](initials.md)  | [YomiCompanyNames](yomicompanynames.md)  | [YomiFirstNames](yomifirstnames.md)  | [YomiLastNames](yomilastnames.md)  | [BusinessHomePages](businesshomepages.md)  | [PersonalHomePages](personalhomepages.md)  | [OfficeLocations](officelocations.md)  | [ImAddresses](imaddresses.md)  | [ImAddresses2](imaddresses2.md)  | [ImAddresses3](imaddresses3.md)  | [标题](titles.md)  | [部门](departments.md)  | [CompanyNames](companynames.md)  | [经理](managers.md)  | [AssistantNames](assistantnames.md)  | [专业](professions.md)  | [SpouseNames](spousenames.md)  | [学校](schools.md)  | [爱好](hobbies.md)  | [AriesAnniversaries](weddinganniversaries.md)  | [生日](birthdays.md)  | [位置](locations.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

@@ -1,24 +1,24 @@
 ---
-title: UserSettingErrors （SOAP）
+title: UserSettingErrors (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: a9b94bae-cab9-412d-a811-801e849ed6c5
-description: UserSettingErrors 元素表示无法返回的设置的相关信息的集合。
-ms.openlocfilehash: a6cc0fe114bd511dc4136532986b552c28b0d5c2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: UserSettingErrors 元素表示有关无法返回的设置的信息集合。
+ms.openlocfilehash: dfcd2a0475857d95d1a7dadb3cb65b544e0f2c5d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467121"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541684"
 ---
-# <a name="usersettingerrors-soap"></a>UserSettingErrors （SOAP）
+# <a name="usersettingerrors-soap"></a>UserSettingErrors (SOAP)
 
-**UserSettingErrors**元素表示无法返回的设置的相关信息的集合。 
+**UserSettingErrors** 元素表示有关无法返回的设置的信息的集合。 
   
 ```XML
 <UserSettingErrors>
@@ -39,13 +39,13 @@ ms.locfileid: "44467121"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[UserSettingError （SOAP）](usersettingerror-soap.md) <br/> |表示检索用户设置时返回的错误。  <br/> |
+|[UserSettingError (SOAP)](usersettingerror-soap.md) <br/> |表示检索用户设置时返回的错误。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[UserResponse （SOAP）](userresponse-soap.md) <br/> |表示对单个用户的 GetUserSettings 请求的响应。  <br/> |
+|[UserResponse (SOAP)](userresponse-soap.md) <br/> |表示对单个用户的 GetUserSettings 请求的响应。  <br/> |
    
 ## <a name="text-value"></a>文本值
 

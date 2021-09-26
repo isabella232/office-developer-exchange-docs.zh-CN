@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ProcessRightAway
 api_type:
 - schema
 ms.assetid: f6bba68b-ae4f-41c1-b3e7-c8a31cdb1b0c
-description: ProcessRightAway 元素指示是否在操作在服务器上开始处理时立即发送响应，或者在操作完成后是否发送响应。 必须存在此元素，才能将异步向请求的操作发送异步响应。
-ms.openlocfilehash: 58d2b926c48db5e7395df64e1f8ee9d6a8f0e73c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ProcessRightAway 元素指示操作开始在服务器上进行处理后是否立即发送响应，或者是否发送响应在操作完成后发送。 此元素必须存在，响应以异步方式发送到请求的操作。
+ms.openlocfilehash: 5546bbff4e1e1ef17eee94f1f42492fbf070fe59
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44434069"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542993"
 ---
 # <a name="processrightaway"></a>ProcessRightAway
 
-**ProcessRightAway**元素指示是否在操作在服务器上开始处理时立即发送响应，或者在操作完成后是否发送响应。 必须存在此元素，才能将异步向请求的操作发送异步响应。 
+**ProcessRightAway** 元素指示操作开始在服务器上进行处理后是否立即发送响应，或者是否发送响应在操作完成后发送。 此元素必须存在，响应以异步方式发送到请求的操作。 
   
 [ApplyConversationAction](applyconversationaction.md)
   
@@ -35,7 +35,7 @@ ms.locfileid: "44434069"
 <ProcessRightAway/>
 ```
 
- **xs： boolean**
+ **xs：boolean**
 ## <a name="attributes-and-elements"></a>属性和元素
 
 下面各部分介绍了属性、子元素和父元素。
@@ -56,9 +56,9 @@ ms.locfileid: "44434069"
    
 ## <a name="text-value"></a>文本值
 
-如果文本值为**true** ，则表示在该操作在服务器上开始处理时立即发送响应。 如果文本值为**false** ，则表示响应是在操作完成后发送的。 
+文本值 **true** 表示一旦操作开始在服务器上进行处理，就会发送响应。 文本值 **false** 表示在操作完成后发送响应。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   

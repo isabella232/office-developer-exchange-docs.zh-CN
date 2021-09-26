@@ -1,24 +1,24 @@
 ---
-title: DomainSettings （SOAP）
+title: DomainSettings (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: f3d37f5a-c9ea-4ed9-a011-94d33bda64d1
 description: DomainSettings 元素表示在自动发现请求中提交或由自动发现响应返回的域设置。
-ms.openlocfilehash: 67e3753b0cf5c7c653664ff087f697ce7ae2b7a4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 9024421eed20b9a9e642b3b0147699c57fcaaa79
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530696"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544176"
 ---
-# <a name="domainsettings-soap"></a>DomainSettings （SOAP）
+# <a name="domainsettings-soap"></a>DomainSettings (SOAP)
 
-**DomainSettings**元素表示在自动发现请求中提交或由自动发现响应返回的域设置。 
+**DomainSettings** 元素表示在自动发现请求中提交或由自动发现响应返回的域设置。 
   
 ```XML
 <DomainSettings>
@@ -39,13 +39,13 @@ ms.locfileid: "44530696"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[DomainSetting （SOAP）](domainsetting-soap.md) <br/> |包含由[GetDomainSettings 操作（SOAP）](getdomainsettings-operation-soap.md)请求返回的域设置。  <br/> |
+|[DomainSetting (SOAP)](domainsetting-soap.md) <br/> |包含由 [GETDomainSettings ](getdomainsettings-operation-soap.md) 操作返回的域设置 (SOAP) 请求。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[DomainResponse （SOAP）](domainresponse-soap.md) <br/> |包含指定域的请求的设置。  <br/> |
+|[DomainResponse (SOAP)](domainresponse-soap.md) <br/> |包含指定域的请求设置。  <br/> |
    
 ## <a name="text-value"></a>文本值
 

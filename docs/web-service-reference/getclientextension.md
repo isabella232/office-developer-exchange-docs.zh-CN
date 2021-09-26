@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c96c2b4c-45cb-482a-a3bb-7a11a0fff43b
 description: GetClientExtension 元素表示获取客户端扩展的请求。
-ms.openlocfilehash: caa069195a3b82af4e5b5984dcb6e4124b11899b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: b54484dd2d21c351d757621199622ac0f9433cdb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526338"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545004"
 ---
 # <a name="getclientextension"></a>GetClientExtension
 
-**GetClientExtension**元素表示获取客户端扩展的请求。 
+**GetClientExtension** 元素表示获取客户端扩展的请求。 
   
 ```XML
 <GetClientExtension>
@@ -44,7 +44,7 @@ ms.locfileid: "44526338"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

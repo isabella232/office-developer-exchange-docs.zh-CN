@@ -5,32 +5,32 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DeleteItem
 api_type:
 - schema
 ms.assetid: 3e26c416-fa12-476e-bfd2-5c1f4bb7b348
-description: DeleteItem 操作删除 Exchange 存储中的项目。
-ms.openlocfilehash: f068e08ef0d0f590c9ed8274f77d4dae9f942995
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DeleteItem 操作将删除数据存储区Exchange项。
+ms.openlocfilehash: b62655b9046678d27ed0f24bc92d1840f3e3b343
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526933"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545410"
 ---
 # <a name="deleteitem-operation"></a>DeleteItem 操作
 
-**DeleteItem**操作删除 Exchange 存储中的项目。 
+**DeleteItem** 操作将删除数据存储区Exchange项。 
   
 > [!NOTE]
-> 如果代理尝试通过将 DisposalType 设置为 MoveToDeletedItems 来删除主体邮箱中**的项目**，则将返回包含 ErrorCannotDeleteObject 错误代码的错误响应。 若要通过将项目移动到 "已删除邮件" 文件夹来删除项目，代理必须使用[MoveItem 操作](moveitem-operation.md)。 
+> 当代理通过将 DisposalType 设置为 MoveToDeletedItems 来尝试删除主体邮箱中的项目时，将为 **DeleteItem** 操作返回包含 ErrorCannotDeleteObject 错误代码的错误响应。 若要通过将其移动到"已删除邮件"文件夹来删除项目，代理必须使用 [MoveItem 操作](moveitem-operation.md)。 
   
 ## <a name="deleteitem-request-example"></a>DeleteItem 请求示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-以下示例的**DeleteItem**请求显示如何从邮箱中执行项的硬删除。 
+**DeleteItem** 请求的以下示例显示如何从邮箱执行硬删除项目。 
   
 > [!NOTE]
 > 项目 ID 已缩短，以保持可读性。 
@@ -51,9 +51,9 @@ ms.locfileid: "44526933"
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Request 元素
+### <a name="request-elements"></a>请求元素
 
-请求中使用以下元素：
+请求中会使用下列元素：
   
 - [DeleteItem](deleteitem.md)
     
@@ -61,13 +61,13 @@ ms.locfileid: "44526933"
     
 - [ItemId](itemid.md)
     
-若要查找**DeleteItem**操作的请求消息的其他选项，请浏览架构层次结构。 从[DeleteItem](deleteitem.md)元素开始。 
+若要查找 **DeleteItem** 操作的请求消息的其他选项，请浏览架构层次结构。 从 [DeleteItem 元素](deleteitem.md) 开始。 
   
 ## <a name="successful-deleteitem-response"></a>成功的 DeleteItem 响应
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-下面的示例演示对**DeleteItem**请求的成功响应。 
+以下示例显示了对 **DeleteItem** 请求的成功响应。 
   
 ### <a name="code"></a>代码
 
@@ -96,7 +96,7 @@ ms.locfileid: "44526933"
 
 ### <a name="successful-response-elements"></a>成功的响应元素
 
-响应中使用以下元素：
+响应中会使用下列元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -108,13 +108,13 @@ ms.locfileid: "44526933"
     
 - [ResponseCode](responsecode.md)
     
-若要查找**DeleteItem**操作的响应邮件的其他选项，请浏览架构层次结构。 从[DeleteItemResponse](deleteitemresponse.md)元素开始。 
+若要查找 **DeleteItem** 操作的响应消息的其他选项，请浏览架构层次结构。 从 [DeleteItemResponse 元素](deleteitemresponse.md) 开始。 
   
 ## <a name="deleteitem-error-response"></a>DeleteItem 错误响应
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-下面的示例演示对**DeleteItem**请求的错误响应。 由于操作尝试删除在 Exchange 存储中找不到的项目，因此创建了错误。 
+以下示例显示对 **DeleteItem** 请求的错误响应。 创建此错误是因为操作尝试删除未在应用商店中Exchange项。 
   
 ### <a name="code"></a>代码
 
@@ -145,7 +145,7 @@ ms.locfileid: "44526933"
 
 ### <a name="error-response-elements"></a>错误响应元素
 
-错误响应中使用以下元素：
+错误响应中会使用下列元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -161,7 +161,7 @@ ms.locfileid: "44526933"
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-若要查找**DeleteItem**操作的错误响应消息的其他选项，请浏览架构层次结构。 从[DeleteItemResponse](deleteitemresponse.md)元素开始。 
+若要查找 **DeleteItem** 操作的错误响应消息的其他选项，请浏览架构层次结构。 从 [DeleteItemResponse 元素](deleteitemresponse.md) 开始。 
   
 ## <a name="see-also"></a>另请参阅
 

@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 351c8dfe-cf8c-45ba-a07d-d764f8189773
-description: VotingInformation 元素指定投票邮件和审批请求邮件 whereApproveandRejectare 投票选项的投票信息。
-ms.openlocfilehash: d946ba8c71d19c8cbb1befbe8c4e43e93590ccae
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: VotingInformation 元素指定投票邮件和审批请求邮件的投票信息，其中ApproveandReject是投票选项。
+ms.openlocfilehash: 7e5aedddbfe97bba935aa56b3583e2fb8b081320
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467744"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543854"
 ---
 # <a name="votinginformation"></a>VotingInformation
 
-**VotingInformation**元素指定投票邮件和审批请求邮件中的投票信息，其中 "批准" 和 "拒绝" 是投票选项。 
+**VotingInformation** 元素指定对投票邮件和审批请求邮件的投票信息，其中"批准"和"拒绝"是投票选项。 
   
 ```XML
 <VotingInformation

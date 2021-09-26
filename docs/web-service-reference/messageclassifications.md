@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MessageClassifications
 api_type:
 - schema
 ms.assetid: 041b3d48-8f43-47f3-869f-72b66bef372a
 description: MessageClassifications 元素表示必须在传入邮件上标记的邮件分类，以便条件或例外情况适用。
-ms.openlocfilehash: 63481aa8903c4e9637870130eb9154118471c3b0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 88ccd4be40d66de2fec859de67aa0e365f451bd4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467968"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542083"
 ---
 # <a name="messageclassifications"></a>MessageClassifications
 
-**MessageClassifications**元素表示必须在传入邮件上标记的邮件分类，以便条件或例外情况适用。 
+**MessageClassifications** 元素表示必须在传入邮件上标记的邮件分类，以便条件或例外情况适用。 
   
 ```XML
 <MessageClassifications>
@@ -55,7 +55,7 @@ ms.locfileid: "44467968"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

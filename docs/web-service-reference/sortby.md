@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3dc4ab23-26b0-42b3-8930-f1c7eefecdeb
 description: SortBy 元素包含用于对搜索结果进行排序的项属性。
-ms.openlocfilehash: cf2b1e633bc66e526028078833afade363e4c5e0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 8718bad3749a0409be2715b0e03001b97a4fb87e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468395"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544687"
 ---
 # <a name="sortby"></a>SortBy
 
-**SortBy**元素包含用于对搜索结果进行排序的项属性。 
+**SortBy** 元素包含用于对搜索结果进行排序的项属性。 
   
 ```XML
 <SortBy Order="">
@@ -35,7 +35,7 @@ ms.locfileid: "44468395"
 
 |**属性**|**说明**|
 |:-----|:-----|
-|Order  <br/> |**Order**属性的文本值为排序顺序。 文本值为**升序**表示结果按升序排列。 "**降序**" 文本表示结果按降序排列。  <br/> |
+|Order  <br/> |**Order** 属性的文本值是排序顺序。 文本值 **Ascending** 指示结果按升序排序。 Descending **的文本** 值指示结果按降序排列。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -45,7 +45,7 @@ ms.locfileid: "44468395"
 
 [SearchMailboxes](searchmailboxes.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

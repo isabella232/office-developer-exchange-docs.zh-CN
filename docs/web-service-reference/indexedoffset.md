@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 951ee079-417f-45a2-b47f-633e8cd6b520
 description: IndexedOffset元素指示分页的FindConversation响应的索引偏移量。
-ms.openlocfilehash: 15faef8d214f289dd79d03bba7db09427955564e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: e129f4bf9270db666f74255ca0b596a53feabf9c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467009"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542215"
 ---
 # <a name="indexedoffset"></a>IndexedOffset
 
-本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **IndexedOffset**元素指示分页的 **FindConversation**响应的索引偏移量。 
+本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **IndexedOffset** 元素指示分页的 **FindConversation** 响应的索引偏移量。 
   
 ```XML
 <IndexedOffset></IndexedOffset>
@@ -42,9 +42,9 @@ ms.locfileid: "44467009"
   
 ## <a name="text-value"></a>文本值
 
-**IndexedOffset**元素的文本值是 **FindConversation**响应页面索引偏移量。 
+**IndexedOffset** 元素的文本值是 **FindConversation** 响应页面索引偏移量。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

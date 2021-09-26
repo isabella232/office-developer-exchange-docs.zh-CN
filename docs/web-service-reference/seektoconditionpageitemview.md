@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b3b86720-d086-47c3-94af-921fdd719edf
-description: SeekToConditionPageItemView 元素标识用于标识搜索的结束的条件、搜索的起始索引、要返回的最大项数以及 FindItem 或 FindConversation 搜索的搜索说明。
-ms.openlocfilehash: dbb073263740ccdf75367f85f672b7d5ec78f7a0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SeekToConditionPageItemView 元素标识用于标识搜索结束的条件、搜索的起始索引、要返回的最大条目以及 FindItem 或 FindConversation 搜索的搜索方向。
+ms.openlocfilehash: 6f4797a6b90456a50922db1c829757711816273e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466834"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546103"
 ---
 # <a name="seektoconditionpageitemview"></a>SeekToConditionPageItemView
 
-**SeekToConditionPageItemView**元素标识用于标识搜索的结束的条件、搜索的起始索引、要返回的最大项数以及**FindItem**或**FindConversation**搜索的搜索说明。 
+**SeekToConditionPageItemView** 元素标识用于标识搜索结束的条件、搜索的起始索引、要返回的最大条目以及 **FindItem** 或 **FindConversation** 搜索的搜索方向。 
   
 ```XML
 <SeekToConditionPageItemView BasePoint="" MaxEntriesReturned="">
@@ -34,18 +34,18 @@ ms.locfileid: "44466834"
 
 |**属性**|**说明**|
 |:-----|:-----|
-|BasePoint  <br/> |**BasePoint**属性的文本值是搜索将从该处开始的基点。 文本值为 "**开始**" 指示搜索将从结果集的开头开始。 文本值为**end**表示搜索将从结果集的末尾开始。  <br/> |
-|MaxEntriesReturned  <br/> |**MaxEntriesReturned**属性的文本值是在结果集中可返回的最大项目数。  <br/> |
+|BasePoint  <br/> |**BasePoint** 属性的文本值是开始搜索的基点。 Beginning **的文本值指示** 搜索将在搜索的开头结果集。 End **的文本值指示** 搜索将在搜索结束时结果集。  <br/> |
+|MaxEntriesReturned  <br/> |**MaxEntriesReturned** 属性的文本值是可返回的最大项目数结果集。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
-[条件（RestrictionType）](condition-restrictiontype.md)
+[Condition (RestrictionType)](condition-restrictiontype.md)
   
 ### <a name="parent-elements"></a>父元素
 
 [FindConversation](findconversation.md)  | [FindItem](finditem.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

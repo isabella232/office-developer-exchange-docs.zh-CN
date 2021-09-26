@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SenderSmtpAddress
 api_type:
 - schema
 ms.assetid: e39c7df7-4bfa-455f-b4bb-1f1d05398eec
-description: SenderSmtpAddress 元素表示与包含将共享的文件夹的邮箱相对应的 SMTP 电子邮件地址。
-ms.openlocfilehash: 73047dcecfbccb55d74e373891c3154bc7baeeba
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SenderSmtpAddress 元素表示与包含要共享的文件夹的邮箱相对应的 SMTP 电子邮件地址。
+ms.openlocfilehash: 09a0c577850581c7c67c6fff241a5d848421ed71
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464894"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546089"
 ---
 # <a name="sendersmtpaddress"></a>SenderSmtpAddress
 
-**SenderSmtpAddress**元素表示与包含将共享的文件夹的邮箱相对应的 SMTP 电子邮件地址。 
+**SenderSmtpAddress** 元素表示 SMTP 电子邮件地址，该地址对应于包含要共享的文件夹的邮箱。 
   
 ```xml
 <SenderSmtpAddress/>
@@ -44,7 +44,7 @@ ms.locfileid: "44464894"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GetSharingMetadata](getsharingmetadata.md) <br/> |定义一个请求，以获取标识共享邀请的不透明身份验证令牌。  <br/> |
+|[GetSharingMetadata](getsharingmetadata.md) <br/> |定义获取标识共享邀请的不透明身份验证令牌的请求。  <br/> |
    
 ## <a name="text-value"></a>文本值
 

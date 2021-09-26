@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UpdateInboxRules
 api_type:
 - schema
 ms.assetid: d220064f-ff4d-4537-8077-adf94f2cbdbd
 description: UpdateInboxRules元素定义的请求来更新服务器存储区中邮箱的收件箱规则。
-ms.openlocfilehash: d604604d582d28c07eaa75d3239082d1b6735e65
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 823763efc9f9dfe621ccf05356f7e0f3c7bace14
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456358"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541706"
 ---
 # <a name="updateinboxrules"></a>UpdateInboxRules
 
-本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **UpdateInboxRules**元素定义的请求来更新服务器存储区中邮箱的收件箱规则。 
+本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **UpdateInboxRules** 元素定义的请求来更新服务器存储区中邮箱的收件箱规则。 
   
 ```XML
 <UpdateInboxRules>
@@ -56,7 +56,7 @@ ms.locfileid: "44456358"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

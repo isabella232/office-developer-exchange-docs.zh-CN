@@ -1,27 +1,27 @@
 ---
-title: 请求（POX）
+title: Request (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: da54eb32-7ce5-4384-9893-255a2243a959
 description: Request 元素包含对自动发现服务的请求。
-ms.openlocfilehash: bc215d614441ed8f12c0f1490f4abdbb7b574ad0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 91bc9cad6df976e8a8500eecc997f573a7df7289
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459544"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542831"
 ---
-# <a name="request-pox"></a>请求（POX）
+# <a name="request-pox"></a>Request (POX)
 
-**Request**元素包含对自动发现服务的请求。 
+**Request** 元素包含对自动发现服务的请求。 
   
-- [自动发现（POX）](autodiscover-pox.md) 
-- [请求（POX）](request-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md) 
+- [Request (POX)](request-pox.md)
   
 ```xml
 <Request>
@@ -49,17 +49,17 @@ ms.locfileid: "44459544"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[AcceptableResponseSchema （POX）](acceptableresponseschema-pox.md) <br/> |标识自动发现响应的架构。  <br/> |
+|[AcceptableResponseSchema (POX)](acceptableresponseschema-pox.md) <br/> |标识自动发现响应的架构。  <br/> |
 |[EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) <br/> |标识用户的电子邮件地址。  <br/> |
-|[LegacyDN （POX）](legacydn-pox.md) <br/> |通过旧版可分辨名称标识用户的邮箱。  <br/> |
+|[LegacyDN (POX)](legacydn-pox.md) <br/> |按旧版可分辨名称标识用户的邮箱。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[自动发现（POX）](autodiscover-pox.md) <br/> |自动发现请求中的根元素。  <br/> |
+|[AutoDiscover (POX)](autodiscover-pox.md) <br/> |自动发现请求中的根元素。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
-- [Exchange 的 POX 自动发现 XML 元素](pox-autodiscover-xml-elements-for-exchange.md)
+- [用于存储的 POX 自动发现 XML Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

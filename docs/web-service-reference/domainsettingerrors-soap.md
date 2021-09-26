@@ -1,24 +1,24 @@
 ---
-title: DomainSettingErrors （SOAP）
+title: DomainSettingErrors (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: a4ce19de-f560-4984-8047-ecbbc86c9b91
-description: DomainSettingsErrors 元素包含无法返回的设置的错误消息。
-ms.openlocfilehash: 4e7ee29c2bc680a1938b75189c2ac3c214f7d2b5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DomainSettingsErrors 元素包含无法返回的设置的错误信息。
+ms.openlocfilehash: d34fa8be4b4bc24e99fb6b1cd36d02e4c4915dd7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530703"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544211"
 ---
-# <a name="domainsettingerrors-soap"></a>DomainSettingErrors （SOAP）
+# <a name="domainsettingerrors-soap"></a>DomainSettingErrors (SOAP)
 
-**DomainSettingsErrors**元素包含无法返回的设置的错误消息。 
+**DomainSettingsErrors** 元素包含无法返回的设置的错误信息。 
   
 ```XML
 <DomainSettingsErrors>
@@ -39,13 +39,13 @@ ms.locfileid: "44530703"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[DomainSettingError （SOAP）](domainsettingerror-soap.md) <br/> |表示检索域设置时发生的错误。 这表示[GetDomainSettings 操作（SOAP）](getdomainsettings-operation-soap.md)操作请求中的一个错误。  <br/> |
+|[DomainSettingError (SOAP)](domainsettingerror-soap.md) <br/> |表示检索域设置时发生的错误。 这表示 SOAP 请求的 [GetDomainSettings (错误) ](getdomainsettings-operation-soap.md) 错误。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[DomainResponse （SOAP）](domainresponse-soap.md) <br/> |包含指定域的请求的设置。  <br/> |
+|[DomainResponse (SOAP)](domainresponse-soap.md) <br/> |包含指定域的请求设置。  <br/> |
    
 ## <a name="text-value"></a>文本值
 

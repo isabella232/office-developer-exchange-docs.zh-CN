@@ -1,24 +1,24 @@
 ---
-title: UserSettings （SOAP）
+title: UserSettings (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: ac3b827c-2e46-49ef-8c5a-f88084c0a12c
 description: UserSettings 元素表示用户设置的集合。
-ms.openlocfilehash: 0e1627d4ef42db4e3bd2f4d841bea29fcf947a82
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 4542c4ee8f5dbdc3ed20873ebd60ab626aee4a81
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530280"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542601"
 ---
-# <a name="usersettings-soap"></a>UserSettings （SOAP）
+# <a name="usersettings-soap"></a>UserSettings (SOAP)
 
-**UserSettings**元素表示用户设置的集合。 
+**UserSettings** 元素表示用户设置的集合。 
   
 ```XML
 <UserSettings>
@@ -39,13 +39,13 @@ ms.locfileid: "44530280"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[UserSetting （SOAP）](usersetting-soap.md) <br/> |代表单个用户设置。  <br/> |
+|[UserSetting (SOAP)](usersetting-soap.md) <br/> |表示单个用户设置。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[UserResponse （SOAP）](userresponse-soap.md) <br/> |表示对单个用户的 GetUserSettings 请求的响应。  <br/> |
+|[UserResponse (SOAP)](userresponse-soap.md) <br/> |表示对单个用户的 GetUserSettings 请求的响应。  <br/> |
    
 ## <a name="text-value"></a>文本值
 

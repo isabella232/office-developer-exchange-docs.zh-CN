@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - LastDeliveryTime
 api_type:
 - schema
 ms.assetid: 23d02ceb-f28e-40f2-8f63-673723a50e2a
-description: LastDeliveryTime 元素包含上次在此对话中的当前文件夹中收到的邮件的传递时间。
-ms.openlocfilehash: 77147693a9394e983575afa6fcfda242f8f76ae3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: LastDeliveryTime 元素包含当前文件夹中此对话中最后一次接收的邮件的传递时间。
+ms.openlocfilehash: bb0ad41272d26efecf36113d9c82a647c237ac47
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458108"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546173"
 ---
 # <a name="lastdeliverytime"></a>LastDeliveryTime
 
-**LastDeliveryTime**元素包含上次在此对话中的当前文件夹中收到的邮件的传递时间。 
+**LastDeliveryTime** 元素包含当前文件夹中此对话中最后一次接收的邮件的传递时间。 
   
 [FindConversationResponse](findconversationresponse.md)
   
@@ -35,7 +35,7 @@ ms.locfileid: "44458108"
 <LastDeliveryTime/>
 ```
 
- **xs： dateTime**
+ **xs：dateTime**
 ## <a name="attributes-and-elements"></a>属性和元素
 
 下面各部分介绍了属性、子元素和父元素。
@@ -56,9 +56,9 @@ ms.locfileid: "44458108"
    
 ## <a name="text-value"></a>文本值
 
-**LastDeliveryTime**元素的文本值是当前文件夹中此对话中上次收到的邮件的日期和时间。 
+**LastDeliveryTime** 元素的文本值是当前文件夹中此对话中最后一次收到邮件的日期和时间。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   

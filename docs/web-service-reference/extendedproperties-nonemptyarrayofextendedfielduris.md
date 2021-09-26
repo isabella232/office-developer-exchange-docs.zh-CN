@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 282ddb7f-00e3-4260-ab85-73fea9317c0e
-description: ExtendedProperties 元素包含用于统一联系人存储操作的扩展属性。
-ms.openlocfilehash: 78580e69c37657d1873ed95a6b3761c6a458e28f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ExtendedProperties 元素包含用于统一联系人存储操作扩展的属性。
+ms.openlocfilehash: 5b927fc3de291af5058ea8f37de8ee7065d3102e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463116"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543294"
 ---
 # <a name="extendedproperties-nonemptyarrayofextendedfielduris"></a>ExtendedProperties (NonEmptyArrayOfExtendedFieldURIs)
 
-**ExtendedProperties**元素包含用于统一联系人存储操作的扩展属性。 
+**ExtendedProperties** 元素包含用于统一联系人存储操作扩展的属性。 
   
 ```XML
 <ExtendedProperties>
@@ -36,13 +36,13 @@ ms.locfileid: "44463116"
   
 ### <a name="child-elements"></a>子元素
 
-[ExtendedProperty （PathToExtendedFieldType）](extendedproperty-pathtoextendedfieldtype.md)
+[ExtendedProperty (PathToExtendedFieldType)](extendedproperty-pathtoextendedfieldtype.md)
   
 ### <a name="parent-elements"></a>父元素
 
 [GetImItems](getimitems.md)  | [GetImItemList](getimitemlist.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

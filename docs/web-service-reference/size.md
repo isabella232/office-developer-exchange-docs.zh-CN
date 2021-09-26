@@ -1,27 +1,27 @@
 ---
-title: 大小
+title: Size
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Size
 api_type:
 - schema
 ms.assetid: 966f4daf-c20e-49f8-aeb6-965f3e2da7c3
-description: Size 元素表示当前文件夹中的某个项目或会话中的所有项目的大小（以字节为单位）。 此属性是只读的。
-ms.openlocfilehash: 406271c80db6bbb797592dae22e50ebe7c42ee85
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Size 元素表示项目或当前文件夹中对话中所有项目的大小（以字节为单位）。 此属性是只读的。
+ms.openlocfilehash: efa841732ca03b410e0a5979ff7e282cf2c7dde9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467289"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545921"
 ---
-# <a name="size"></a>大小
+# <a name="size"></a>Size
 
-**Size**元素表示当前文件夹中的某个项目或会话中的所有项目的大小（以字节为单位）。 此属性是只读的。 
+**Size** 元素表示项目或当前文件夹中对话中所有项目的大小（以字节为单位）。 此属性是只读的。 
   
 ```XML
 <Size/>
@@ -48,9 +48,9 @@ ms.locfileid: "44467289"
 |[Contact](contact.md) <br/> |表示 Exchange 联系人项目。  <br/> |
 |[对话 (ConversationType)](conversation-conversationtype.md) <br/> |表示单个对话。  <br/> |
 |[DistributionList](distributionlist.md) <br/> |表示通讯组列表。  <br/> |
-|[FileAttachment](fileattachment.md) <br/> |代表附加到 Exchange 存储中的项目的文件。  <br/> |
+|[FileAttachment](fileattachment.md) <br/> |表示附加到项目存储中的Exchange文件。  <br/> |
 |[项目](item.md) <br/> |表示 Exchange 存储中的项。  <br/> |
-|[ItemAttachment](itemattachment.md) <br/> |表示附加到另一个 Exchange 项目的 Exchange 项目。  <br/> |
+|[ItemAttachment](itemattachment.md) <br/> |代表Exchange项目附加的Exchange项。  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |表示 Exchange 存储中的会议取消。  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |表示 Exchange 存储中的会议。  <br/> |
 |[MeetingRequest](meetingrequest.md) <br/> |表示 Exchange 存储中的会议请求。  <br/> |
@@ -61,7 +61,7 @@ ms.locfileid: "44467289"
    
 ## <a name="text-value"></a>文本值
 
-Text 值是一个整数值，它标识项的大小（以字节为单位）。
+文本值是一个整数值，用于标识项目的大小（以字节为单位）。
   
 ## <a name="remarks"></a>说明
 

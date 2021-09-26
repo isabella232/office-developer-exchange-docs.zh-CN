@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 09475586-00fa-4e82-a915-5ca263ab4d1c
 description: AccessLevel 元素指定联机会议的访问级别。
-ms.openlocfilehash: 3c1375ef37ea666c6c4fafce7daa46ae0d0a2696
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: f1c85579affe7d1142b22a890808bceeb8f82d38
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462337"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544414"
 ---
 # <a name="accesslevel"></a>AccessLevel
 
-**AccessLevel**元素指定联机会议的访问级别。 
+**AccessLevel** 元素指定联机会议的访问级别。 
   
 ```XML
 <AccessLevel/>
@@ -38,22 +38,22 @@ ms.locfileid: "44462337"
   
 ### <a name="parent-elements"></a>父元素
 
-|**元素**|**描述**|
+|**元素**|**说明**|
 |:-----|:-----|
 |[OnlineMeetingSettings](onlinemeetingsettings.md) <br/> |指定联机会议的设置。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-下表列出了**AccessLevel**元素的文本值。 
+下表列出了 **AccessLevel** 元素的文本值。 
   
 **AccessLevel 元素文本值**
 
 |**值**|**说明**|
 |:-----|:-----|
-|每个人  <br/> |访问级别全部打开。  <br/> |
-|内部  <br/> |访问级别仅为 "仅限内部"。  <br/> |
-|获  <br/> |访问级别仅受邀请参与者。  <br/> |
-|已锁定  <br/> |访问级别被锁定。  <br/> |
+|所有人  <br/> |访问级别对全部开放。  <br/> |
+|内部  <br/> |访问级别仅为内部级别。  <br/> |
+|受邀  <br/> |访问级别仅为受邀参与者。  <br/> |
+|已锁定  <br/> |访问级别已锁定。  <br/> |
    
 ## <a name="remarks"></a>说明
 

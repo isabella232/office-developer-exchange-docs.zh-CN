@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0f7d0d90-d418-4ce9-8cea-afe8f14728c3
 description: GetHoldOnMailboxesResponseMessage 元素指定 GetHoldOnMailboxes 请求的响应消息。
-ms.openlocfilehash: 31832c11181bdca482e88419dd46ff1eacf77ea6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 124975139f901f6e54a29a447455b89fc0272aa7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462948"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546278"
 ---
 # <a name="getholdonmailboxesresponsemessage"></a>GetHoldOnMailboxesResponseMessage
 
-**GetHoldOnMailboxesResponseMessage**元素指定**GetHoldOnMailboxes**请求的响应消息。 
+**GetHoldOnMailboxesResponseMessage** 元素指定 **GetHoldOnMailboxes** 请求的响应消息。 
   
 ```XML
 <GetHoldOnMailboxesResponseMessage ResponseClass=" Success | Warning | Error ">
@@ -50,21 +50,21 @@ ms.locfileid: "44462948"
    
 ### <a name="child-elements"></a>子元素
 
-|**元素**|**描述**|
+|**元素**|**说明**|
 |:-----|:-----|
-|[MailboxHoldResult](mailboxholdresult.md) <br/> |包含**GetHoldOnMailboxes**请求的结果。  <br/> |
-|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |当前未使用，并已保留以供将来使用。  <br/> |
+|[MailboxHoldResult](mailboxholdresult.md) <br/> |包含 **GetHoldOnMailboxes** 请求的结果。  <br/> |
+|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |当前未使用，保留以供将来使用。  <br/> |
 |[MessageText](messagetext.md) <br/> |提供响应状态的文本说明。  <br/> |
 |[MessageXml](messagexml.md) <br/> |提供其他错误响应信息。  <br/> |
 |[ResponseCode](responsecode.md) <br/> |提供有关请求的状态信息。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
-|**元素**|**描述**|
+|**元素**|**说明**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |包含 Exchange Web 服务（EWS）请求的响应消息。  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |包含 EWS 请求Exchange EWS (响应) 消息。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -76,7 +76,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
-|验证文件  <br/> |消息 .xsd  <br/> |
+|验证文件  <br/> |messages.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AbsoluteDateTransition
 api_type:
 - schema
 ms.assetid: 8f5731eb-bed0-45bf-ba89-4aaf20c34a39
-description: AbsoluteDateTransition 元素表示在特定日期和特定时间发生的时区转换。
-ms.openlocfilehash: 514464f69c3be5496aedbe184848ef9ed9f296b9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: AbsoluteDateTransition 元素表示特定日期和特定时间发生的时区转换。
+ms.openlocfilehash: c0d4e28d8ecefaaa72ded50ab3022666d74ce479
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461721"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542545"
 ---
 # <a name="absolutedatetransition"></a>AbsoluteDateTransition
 
-**AbsoluteDateTransition**元素表示在特定日期和特定时间发生的时区转换。 
+**AbsoluteDateTransition** 元素表示特定日期和特定时间发生的时区转换。 
   
 ```xml
 <AbsoluteDateTransition>
@@ -44,14 +44,14 @@ ms.locfileid: "44461721"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[To](to.md) <br/> |指定作为时区转换目标的[时间段](period.md)或[TransitionsGroup](transitionsgroup.md) 。  <br/> |
+|[To](to.md) <br/> |指定[作为时区](period.md)转换目标的 Period 或[TransitionsGroup。](transitionsgroup.md)  <br/> |
 |[DateTime](datetime.md) <br/> |表示时区转换发生的日期和时间。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[移交](transitions.md) <br/> |表示时区转换的集合。  <br/> |
+|[Transitions](transitions.md) <br/> |表示时区转换的集合。  <br/> |
 |[TransitionsGroup](transitionsgroup.md) <br/> |表示时区转换的集合。  <br/> |
    
 ## <a name="remarks"></a>说明

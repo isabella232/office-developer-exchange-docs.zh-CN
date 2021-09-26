@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - And
 api_type:
 - schema
 ms.assetid: 790246c2-37ad-49a8-91b9-6186d743b011
 description: And 元素表示允许您在两个或多个搜索表达式之间执行布尔 AND 操作的搜索表达式。如果 And 元素中包含的所有搜索表达式为 true，则 AND 操作的结果为 true。
-ms.openlocfilehash: f5239f19c2b5a931eefa9ff4a9dd8ed9d775bae2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: b6cf8ffbb19ea3aff917493e6ae4e324025c6ac9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464719"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541530"
 ---
 # <a name="and"></a>和
 
@@ -43,7 +43,7 @@ ms.locfileid: "44464719"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[SearchExpression](searchexpression.md) <br/> | 表示某个限制范围内表达式的基类。And 操作中必须有两个或多个搜索表达式。  <br/><br/>  必须将以下元素之一替换为 **SearchExpression** 元素：<ul><li> [Exists](exists.md)</li><li>[不包括](excludes.md)</li><li>[IsEqualTo](isequalto.md)</li><li>[IsNotEqualTo](isnotequalto.md)</li><li>[IsGreaterThan](isgreaterthan.md)</li><li>[IsGreaterThanOrEqualTo](isgreaterthanorequalto.md)</li><li>[IsLessThan](islessthan.md)</li><li>[IsLessThanOrEqualTo](islessthanorequalto.md)</li><li>[Contains](contains.md)</li><li>[Not](not.md)</li><li>**And**</li><li>[或](or.md) </li></ul> |
+|[SearchExpression](searchexpression.md) <br/> | 表示某个限制范围内表达式的基类。And 操作中必须有两个或多个搜索表达式。  <br/><br/>  必须将以下元素之一替换为 **SearchExpression** 元素：<ul><li> [Exists](exists.md)</li><li>[不包括](excludes.md)</li><li>[IsEqualTo](isequalto.md)</li><li>[IsNotEqualTo](isnotequalto.md)</li><li>[IsGreaterThan](isgreaterthan.md)</li><li>[IsGreaterThanOrEqualTo](isgreaterthanorequalto.md)</li><li>[IsLessThan](islessthan.md)</li><li>[IsLessThanOrEqualTo](islessthanorequalto.md)</li><li>[Contains](contains.md)</li><li>[not](not.md)</li><li>**And**</li><li>[或](or.md) </li></ul> |
    
 ### <a name="parent-elements"></a>父元素
 

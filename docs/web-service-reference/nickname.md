@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Nickname
 api_type:
 - schema
 ms.assetid: 3d35b207-d28c-4f3f-8b00-55339d30d19a
 description: Nickname 元素表示联系人昵称。
-ms.openlocfilehash: cc562d1fc0f02cb3e6742ac951005a8b965bc543
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 2e7297b2bdaf003942796f62c7a4d56217e1f6a3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466799"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541978"
 ---
 # <a name="nickname"></a>Nickname
 

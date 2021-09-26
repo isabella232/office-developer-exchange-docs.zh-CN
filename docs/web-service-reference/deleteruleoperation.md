@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DeleteRuleOperation
 api_type:
 - schema
 ms.assetid: c5e251af-f795-43cc-baaf-95d84475677c
-description: DeleteRuleOperation 元素包含一个删除现有 "收件箱" 规则的操作。
-ms.openlocfilehash: 6b17f7f99f1fd9b9889db00fdf55fba5eef5aba8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DeleteRuleOperation 元素包含删除现有收件箱规则的操作。
+ms.openlocfilehash: 089b888f57b5d8048db0dfb0193d7f4c0804e81e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526919"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542440"
 ---
 # <a name="deleteruleoperation"></a>DeleteRuleOperation
 
-**DeleteRuleOperation**元素包含一个删除现有 "收件箱" 规则的操作。 
+**DeleteRuleOperation** 元素包含删除现有收件箱规则的操作。 
   
 - [UpdateInboxRules](updateinboxrules.md)
 - [Operations](operations.md)
@@ -57,7 +57,7 @@ ms.locfileid: "44526919"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

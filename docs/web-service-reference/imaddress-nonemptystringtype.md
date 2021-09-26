@@ -1,23 +1,23 @@
 ---
-title: ImAddress （NonEmptyStringType）
+title: ImAddress (NonEmptyStringType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 13c7b0cc-f506-490b-adaa-3d01fc2400eb
 description: ImAddress 元素包含将添加到即时消息组的新联系人的即时消息地址。
-ms.openlocfilehash: eac3b6494f3f52dec007171462a95f9d7306530e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 241ff33369a10f493d63da48e4ab80974780de0e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457604"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542244"
 ---
-# <a name="imaddress-nonemptystringtype"></a>ImAddress （NonEmptyStringType）
+# <a name="imaddress-nonemptystringtype"></a>ImAddress (NonEmptyStringType)
 
-**ImAddress**元素包含将添加到即时消息组的新联系人的即时消息地址。 
+**ImAddress** 元素包含将添加到即时消息组的新联系人的即时消息地址。 
   
 ```XML
 <ImAddress></ImAddress>
@@ -42,9 +42,9 @@ ms.locfileid: "44457604"
   
 ## <a name="text-value"></a>文本值
 
-**ImAddress**元素的文本值是即时消息地址。 
+**ImAddress 元素** 的文本值是一个即时消息地址。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

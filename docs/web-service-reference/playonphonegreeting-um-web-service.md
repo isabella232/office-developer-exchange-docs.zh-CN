@@ -1,28 +1,28 @@
 ---
-title: PlayOnPhoneGreeting （UM web 服务）
+title: PlayOnPhoneGreeting（UM Web 服务）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PlayOnPhoneGreeting
 api_type:
 - schema
 ms.assetid: 43eda596-3609-4e1b-8502-1db2636535cf
-description: PlayOnPhoneGreeting 元素定义一个请求，以在电话上播放统一消息问候语。
-ms.openlocfilehash: 197e4ba671e1711b73b1e7c239339db589357581
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: PlayOnPhoneGreeting 元素定义在电话上播放统一消息问候语的请求。
+ms.openlocfilehash: e3b6a7720be6d046a379af460adbcc88725c0ea3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529922"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543119"
 ---
-# <a name="playonphonegreeting-um-web-service"></a>PlayOnPhoneGreeting （UM web 服务）
+# <a name="playonphonegreeting-um-web-service"></a>PlayOnPhoneGreeting（UM Web 服务）
 
-**PlayOnPhoneGreeting**元素定义一个请求，以在电话上播放统一消息问候语。 
+**PlayOnPhoneGreeting** 元素定义在电话上播放统一消息问候语的请求。 
   
-[PlayOnPhoneGreeting （UM web 服务）](playonphonegreeting-um-web-service.md)
+[PlayOnPhoneGreeting（UM Web 服务）](playonphonegreeting-um-web-service.md)
   
 ```xml
 <PlayOnPhoneGreeting>
@@ -44,8 +44,8 @@ ms.locfileid: "44529922"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GreetingType （UM web 服务）](greetingtype-um-web-service.md) <br/> |定义要在[PlayOnPhoneGreeting 操作（UM web 服务）](playonphonegreeting-operation-um-web-service.md)请求中使用的问候语的类型。  <br/> |
-|[dialString （UM web 服务）](dialstring-um-web-service.md) <br/> |包含要拨打的电话号码的值。  <br/> |
+|[GreetingType（UM Web 服务）](greetingtype-um-web-service.md) <br/> |定义要用于 UM Web 服务请求的 [PlayOnPhoneGreeting (问候语) ](playonphonegreeting-operation-um-web-service.md) 类型。  <br/> |
+|[dialString（UM Web 服务）](dialstring-um-web-service.md) <br/> |包含要拨打的电话号码的值。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -60,7 +60,7 @@ ms.locfileid: "44529922"
 |||
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|架构名称  <br/> |邮件  <br/> |
+|架构名称  <br/> |消息  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
    
@@ -68,5 +68,5 @@ ms.locfileid: "44529922"
 
 
 
-[PlayOnPhoneGreeting 操作（UM web 服务）](playonphonegreeting-operation-um-web-service.md)
+[PlayOnPhoneGreeting 操作（UM Web 服务）](playonphonegreeting-operation-um-web-service.md)
 

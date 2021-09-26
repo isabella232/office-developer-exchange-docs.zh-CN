@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2fca9474-f5f8-44e8-975d-145fc7696edf
 description: AddImGroupResponse 定义对 AddImGroup 请求的响应。
-ms.openlocfilehash: 1c3873d46c6f55cee9b7ab10114f26e6fb322b30
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 5e5cda41e48579d4ed0d0cb7051ec49eeed60de8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462771"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544351"
 ---
 # <a name="addimgroupresponse"></a>AddImGroupResponse
 
-**AddImGroupResponse**定义对**AddImGroup**请求的响应。 
+**AddImGroupResponse** 定义对 **AddImGroup** 请求的响应。 
   
 ```XML
 <AddImGroupResponse>
@@ -46,7 +46,7 @@ ms.locfileid: "44462771"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

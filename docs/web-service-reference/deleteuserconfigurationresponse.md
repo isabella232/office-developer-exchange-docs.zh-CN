@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DeleteUserConfigurationResponse
 api_type:
 - schema
 ms.assetid: 034199c1-cdc3-48b8-a2cc-69bbfcdc5ce4
 description: DeleteUserConfigurationResponse 元素定义对单个 DeleteUserConfiguration 请求的响应。
-ms.openlocfilehash: 2cf1e6d30f97d6ed819a1dc8259971ffc8c16435
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: a2ec7f023f84af09d6af4129f435f3ecd373dd2e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460741"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542412"
 ---
 # <a name="deleteuserconfigurationresponse"></a>DeleteUserConfigurationResponse
 
-**DeleteUserConfigurationResponse**元素定义对单个**DeleteUserConfiguration**请求的响应。 
+**DeleteUserConfigurationResponse** 元素定义对单个 **DeleteUserConfiguration** 请求的响应。 
   
 ```xml
 <DeleteUserConfigurationResponse>   <ResponseMessages/></DeleteUserConfigurationResponse>
@@ -40,7 +40,7 @@ ms.locfileid: "44460741"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |包含 Exchange Web 服务请求的响应消息。  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |包含 Web 服务请求Exchange消息。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -50,7 +50,7 @@ ms.locfileid: "44460741"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

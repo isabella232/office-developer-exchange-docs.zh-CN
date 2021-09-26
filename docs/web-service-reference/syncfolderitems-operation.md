@@ -5,35 +5,35 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SyncFolderItems
 api_type:
 - schema
 ms.assetid: 7f0de089-8876-47ec-a871-df118ceae75d
-description: SyncFolderItems 操作在 Exchange 服务器和客户端之间同步项目。
-ms.openlocfilehash: 1a28d895eda11dd43f77ec2662a60a426cfc463c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SyncFolderItems 操作在服务器和客户端Exchange同步项目。
+ms.openlocfilehash: 07915f5f9f7ae1fc6f5a743f2e0480a32cb808a7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468143"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545830"
 ---
 # <a name="syncfolderitems-operation"></a>SyncFolderItems 操作
 
-SyncFolderItems 操作在 Exchange 服务器和客户端之间同步项目。
+SyncFolderItems 操作在服务器和客户端Exchange同步项目。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-SyncFolderItems 操作将返回最多512个更改。 必须执行后续的 SyncFolderItems 请求以获取其他更改。 
+SyncFolderItems 操作最多返回 512 个更改。 后续 SyncFolderItems 请求必须执行才能获取其他更改。 
   
-SyncFolderItems 类似于 FindItem 操作，因为它无法返回正文或附件等属性。 如果 SyncFolderItems 操作不返回所需的属性，则可以使用[GetItem 操作](getitem-operation.md)获取 SyncFolderItems 返回的每个项目的特定属性集。 
+SyncFolderItems 类似于 FindItem 操作，因为它无法返回 Body 或 Attachments 等属性。 如果 SyncFolderItems 操作没有返回所需的属性，可以使用 [GetItem](getitem-operation.md) 操作获取 SyncFolderItems 返回的每个项目的特定属性集。 
   
 ## <a name="syncfolderitems-request-example"></a>SyncFolderItems 请求示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-下面的 SyncFolderItems 请求示例演示如何同步文件夹中的项目。 本示例显示 "已发送邮件" 文件夹中未发生的第一次同步的文件夹项目同步。 在第一次尝试将客户端与 Exchange 服务器同步时，请求中不包含[SyncState](syncstate-ex15websvcsotherref.md)元素。 第一次尝试同步文件夹层次结构中的项时，将返回邮箱中的所有项，而不包括在[Ignore](ignore.md)元素中标识的项。 此 SyncFolderItems 请求将尝试同步自上次同步之后对文件夹项所做的所有更改。 此请求将忽略对[ignore](ignore.md)元素中标识的项进行同步的尝试。 
+SyncFolderItems 请求的以下示例显示如何同步文件夹中的项目。 本示例显示文件夹项的同步，该同步不是"已发送项目"文件夹的第一次同步。 第一次尝试将客户端与服务器同步的请求中不包含[SyncState](syncstate-ex15websvcsotherref.md) Exchange服务器。 第一次尝试同步文件夹层次结构中的项目将返回邮箱中所有项目，但 Ignore 元素中标识的项目 [除外](ignore.md) 。 此 SyncFolderItems 请求将尝试同步自上次同步以来对文件夹项的所有更改。 此请求将忽略同步 Ignore 元素中标识的一个项目 [的](ignore.md) 尝试。 
   
 ### <a name="code"></a>代码
 
@@ -61,11 +61,11 @@ SyncFolderItems 类似于 FindItem 操作，因为它无法返回正文或附件
 
 ### <a name="comments"></a>备注
 
-[SyncState](syncstate-ex15websvcsotherref.md)元素 base64 编码的数据和[ItemId](itemid.md)元素**Id**属性已缩短，以保持可读性。 
+[SyncState](syncstate-ex15websvcsotherref.md)元素 base64 编码的数据和 [ItemId](itemid.md)元素 **Id** 属性已缩短，以保持可读性。 
   
-### <a name="request-elements"></a>Request 元素
+### <a name="request-elements"></a>请求元素
 
-请求中使用以下元素：
+请求中会使用下列元素：
   
 - [SyncFolderItems](syncfolderitems.md)
     
@@ -87,9 +87,9 @@ SyncFolderItems 类似于 FindItem 操作，因为它无法返回正文或附件
     
 ## <a name="successful-syncfolderitems-response"></a>成功的 SyncFolderItems 响应
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-下面的示例演示对 SyncFolderItems 请求的成功响应。 在此示例中，会议请求将从 "已发送邮件" 文件夹中同步。
+以下示例显示了对 SyncFolderItems 请求的成功响应。 本示例中，会议请求从"已发送项目"文件夹同步。
   
 ### <a name="code"></a>代码
 
@@ -144,11 +144,11 @@ SyncFolderItems 类似于 FindItem 操作，因为它无法返回正文或附件
 
 ### <a name="comments"></a>备注
 
-[SyncState](syncstate-ex15websvcsotherref.md)元素 base64 编码的数据和[ItemId](itemid.md)元素**Id**属性已缩短，以保持可读性。 
+[SyncState](syncstate-ex15websvcsotherref.md)元素 base64 编码的数据和 [ItemId](itemid.md)元素 **Id** 属性已缩短，以保持可读性。 
   
 ### <a name="successful-response-elements"></a>成功的响应元素
 
-响应中使用以下元素：
+响应中会使用下列元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -164,9 +164,9 @@ SyncFolderItems 类似于 FindItem 操作，因为它无法返回正文或附件
     
 - [IncludesLastItemInRange](includeslastiteminrange.md)
     
-- [更改（项目）](changes-items.md)
+- [Changes (Items)](changes-items.md)
     
-- [创建（ItemSync）](create-itemsync.md)
+- [Create (ItemSync)](create-itemsync.md)
     
 - [MeetingRequest](meetingrequest.md)
     
@@ -184,11 +184,11 @@ SyncFolderItems 类似于 FindItem 操作，因为它无法返回正文或附件
     
 - [IntendedFreeBusyStatus](intendedfreebusystatus.md)
     
-- [开始](start.md)
+- [Start](start.md)
     
-- [停止](end-ex15websvcsotherref.md)
+- [End ](end-ex15websvcsotherref.md)
     
-- [Location](location.md)
+- [位置](location.md)
     
 - [Organizer](organizer.md)
     
@@ -198,13 +198,13 @@ SyncFolderItems 类似于 FindItem 操作，因为它无法返回正文或附件
     
 - [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md)
     
-- [RoutingType （EmailAddressType）](routingtype-emailaddresstype.md)
+- [RoutingType (EmailAddressType)](routingtype-emailaddresstype.md)
     
 ## <a name="syncfolderitems-error-response"></a>SyncFolderItems 错误响应
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-下面的示例演示对 SyncFolderItems 请求的错误响应。 此错误是由无效的 SyncState 所致。
+以下示例显示对 SyncFolderItems 请求的错误响应。 此错误由无效的 SyncState 导致。
   
 ### <a name="code"></a>代码
 
@@ -238,7 +238,7 @@ SyncFolderItems 类似于 FindItem 操作，因为它无法返回正文或附件
 
 ### <a name="error-response-elements"></a>错误响应元素
 
-错误响应中使用以下元素：
+错误响应中会使用下列元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     

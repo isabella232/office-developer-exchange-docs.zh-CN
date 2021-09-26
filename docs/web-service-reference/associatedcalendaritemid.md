@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AssociatedCalendarItemId
 api_type:
 - schema
 ms.assetid: 5b29898c-ea59-4e6a-914c-c011ec754032
-description: AssociatedCalendarItemId 元素表示与 MeetingMessage、MeetingRequest、MeetingResponse、MeetingCancellation 或 ReminderMessageData 相关联的日历项目。
-ms.openlocfilehash: 816372c38243ba0fe5a7606c264dd1c5107350f2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: AssociatedCalendarItemId 元素表示与 MeetingMessage、MeetingRequest、MeetingResponse、MeetingCancellation 或 ReminderMessageData 关联的日历项目。
+ms.openlocfilehash: 5a51c5e3e43a25ebe676bc85e80c2a6ab3705c4d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460881"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543686"
 ---
 # <a name="associatedcalendaritemid"></a>AssociatedCalendarItemId
 
-**AssociatedCalendarItemId**元素表示与[MeetingMessage](meetingmessage.md)、 [MeetingRequest](meetingrequest.md)、 [MeetingResponse](meetingresponse.md)、 [MeetingCancellation](meetingcancellation.md)或[ReminderMessageData](remindermessagedata.md)相关联的日历项目。
+**AssociatedCalendarItemId** 元素表示与 [MeetingMessage](meetingmessage.md)、 [MeetingRequest](meetingrequest.md)、 [MeetingResponse](meetingresponse.md)、 [MeetingCancellation](meetingcancellation.md)或 [ReminderMessageData](remindermessagedata.md)相关联的日历项目。
   
 ```XML
 <AssociatedCalendarItemId Id="" ChangeKey=""/>
@@ -37,7 +37,7 @@ ms.locfileid: "44460881"
 |**属性**|**说明**|
 |:-----|:-----|
 |**Id** <br/> |标识与会议关联的日历项目。  <br/> |
-|**ChangeKey** <br/> |标识与会议相关联的日历项目的特定版本。  <br/> |
+|**ChangeKey** <br/> |标识与会议关联的日历项目的特定版本。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -47,9 +47,9 @@ ms.locfileid: "44460881"
 
 [MeetingMessage](meetingmessage.md)  | [MeetingRequest](meetingrequest.md)  | [MeetingResponse](meetingresponse.md)  | [MeetingCancellation](meetingcancellation.md)  | [ReminderMessageData](remindermessagedata.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-从内部版本号15.00.0913.09 开始的 Exchange 版本可以将**AssociatedCalendarItemId**元素作为**ReminderMessageData**元素的子元素包括在内。 
+从Exchange号 15.00.0913.09 开始的版本可以包含 **AssociatedCalendarItemId** 元素作为 **ReminderMessageData** 元素的子元素。 
   
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

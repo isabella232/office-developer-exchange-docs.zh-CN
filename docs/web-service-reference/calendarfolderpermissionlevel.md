@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CalendarFolderPermissionLevel
 api_type:
 - schema
 ms.assetid: 2a5c9381-dc2c-4fc6-b9b5-893477d0970e
-description: CalendarFolderPermissionLevel 元素包含默认 "日历" 文件夹的权限。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
-ms.openlocfilehash: dcbd57da42b5e701d898c3756ce9bcc100c20af7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: CalendarFolderPermissionLevel 元素包含默认"日历"文件夹的权限。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
+ms.openlocfilehash: 1e8fe706a977d32516d4ed362c0924f81cba12f3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461462"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543560"
 ---
 # <a name="calendarfolderpermissionlevel"></a>CalendarFolderPermissionLevel
 
-**CalendarFolderPermissionLevel**元素包含默认 "日历" 文件夹的权限。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
+**CalendarFolderPermissionLevel** 元素包含默认"日历"文件夹的权限。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
   
 ```xml
 <CalendarFolderPermissionLevel>
@@ -46,7 +46,7 @@ ms.locfileid: "44461462"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[DelegatePermissions](delegatepermissions.md) <br/> |包含用户的代理权限级别设置。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
+|[DelegatePermissions](delegatepermissions.md) <br/> |包含用户的委派权限级别设置。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
@@ -56,11 +56,11 @@ ms.locfileid: "44461462"
 
 |**权限级别**|**说明**|
 |:-----|:-----|
-|无  <br/> |代理用户没有对 "日历" 文件夹的访问权限。  <br/> |
-|Reviewer  <br/> |代理用户可以读取 "日历" 文件夹中的项目。  <br/> |
-|作者  <br/> |代理用户可以读取和创建 "日历" 文件夹中的项目。  <br/> |
-|编辑器  <br/> |代理用户可以读取、创建和修改 "日历" 文件夹中的项目。  <br/> |
-|自定义警报  <br/> |委派用户对 "日历" 文件夹具有自定义访问权限。  <br/> |
+|无  <br/> |代理用户对"日历"文件夹没有访问权限。  <br/> |
+|Reviewer  <br/> |委派用户可以读取日历文件夹中的项目。  <br/> |
+|作者  <br/> |委派用户可以读取和创建日历文件夹中的项目。  <br/> |
+|编辑器  <br/> |委派用户可以读取、创建和修改"日历"文件夹中的项目。  <br/> |
+|自定义警报  <br/> |代理用户具有对"日历"文件夹的自定义访问权限。  <br/> |
    
 ## <a name="remarks"></a>说明
 
@@ -87,5 +87,5 @@ ms.locfileid: "44461462"
 - [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 
 
-[添加委派](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
+[添加代理人](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
 

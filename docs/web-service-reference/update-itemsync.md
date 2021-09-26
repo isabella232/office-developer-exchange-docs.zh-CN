@@ -1,33 +1,33 @@
 ---
-title: Update （ItemSync）
+title: Update (ItemSync)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Update
 api_type:
 - schema
 ms.assetid: 4e204446-1c80-44f9-b93b-77ce630a01a5
 description: Update 元素标识要在本地客户端存储中更新的单个项。
-ms.openlocfilehash: 12248cbbd5d47a19e36d49fcebe6d4753a2e162f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 936226c671916b974eed9dea9ad2ea39bde482a9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468885"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541817"
 ---
-# <a name="update-itemsync"></a>Update （ItemSync）
+# <a name="update-itemsync"></a>Update (ItemSync)
 
-**Update**元素标识要在本地客户端存储中更新的单个项。 
+**Update** 元素标识要在本地客户端存储中更新的单个项。 
   
 - [SyncFolderItemsResponse](syncfolderitemsresponse.md) 
 - [ResponseMessages](responsemessages.md)  
 - [SyncFolderItemsResponseMessage](syncfolderitemsresponsemessage.md)  
-- [更改（项目）](changes-items.md)  
-- [Update （ItemSync）](update-itemsync.md)
+- [Changes (Items)](changes-items.md)  
+- [Update (ItemSync)](update-itemsync.md)
   
 ```xml
 <Update>
@@ -103,12 +103,12 @@ ms.locfileid: "44468885"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Item](item.md) <br/> |表示要更新的通用 Exchange 项。  <br/> |
-|[消息](message-ex15websvcsotherref.md) <br/> |表示要更新的 Exchange 电子邮件。  <br/> |
-|[CalendarItem](calendaritem.md) <br/> |表示要更新的 Exchange 日历项目。  <br/> |
-|[联系人](contact.md) <br/> |表示要更新的 Exchange 联系人项目。  <br/> |
+|[Item](item.md) <br/> |表示要更新Exchange常规项目。  <br/> |
+|[消息](message-ex15websvcsotherref.md) <br/> |表示Exchange电子邮件的收件人。  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |表示要Exchange的日历项目。  <br/> |
+|[联系人](contact.md) <br/> |表示要Exchange联系人项目的详细信息。  <br/> |
 |[DistributionList](distributionlist.md) <br/> |表示要更新的通讯组列表。  <br/> |
-|[MeetingMessage](meetingmessage.md) <br/> |表示要更新的会议邮件。  <br/> |
+|[MeetingMessage](meetingmessage.md) <br/> |表示要更新的会议消息。  <br/> |
 |[MeetingRequest](meetingrequest.md) <br/> |表示要更新的会议请求。  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |表示要更新的会议响应。  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |表示要更新的会议取消。  <br/> |
@@ -118,7 +118,7 @@ ms.locfileid: "44468885"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[更改（项目）](changes-items.md) <br/> |包含更改类型的序列数组，这些类型表示客户端上的项与 Exchange 服务器上的项之间的差异类型。  <br/> |
+|[Changes (Items)](changes-items.md) <br/> |包含一个变更类型的序列数组，这些更改类型表示客户端上的项目与客户端服务器上项目Exchange的类型。  <br/> |
    
 ## <a name="remarks"></a>说明
 

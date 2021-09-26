@@ -1,24 +1,24 @@
 ---
-title: LegacyDN （SOAP）
+title: LegacyDN (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 837072fa-1fd9-4288-b826-5e9fdb2ea35c
 description: LegacyDN 元素表示备用邮箱旧版可分辨名称。
-ms.openlocfilehash: de7c4f98072c325e1bac34cd552598307b5a8c00
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 754b8d205cdc12542a303e1c96269b0f29e237e9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463242"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546145"
 ---
-# <a name="legacydn-soap"></a>LegacyDN （SOAP）
+# <a name="legacydn-soap"></a>LegacyDN (SOAP)
 
-**LegacyDN**元素表示备用邮箱旧版可分辨名称。 
+**LegacyDN** 元素表示备用邮箱旧版可分辨名称。 
   
 ```XML
 <LegacyDN/>
@@ -42,11 +42,11 @@ ms.locfileid: "44463242"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[AlternateMailbox （SOAP）](alternatemailbox-soap.md) <br/> |代表备用邮箱。  <br/> |
+|[AlternateMailbox (SOAP)](alternatemailbox-soap.md) <br/> |代表备用邮箱。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**LegacyDN**元素的值是备用邮箱旧版可分辨名称。 
+**LegacyDN** 元素的值是备用邮箱旧版可分辨名称。 
   
 ## <a name="element-information"></a>元素信息
 
@@ -59,5 +59,5 @@ ms.locfileid: "44463242"
    
 ## <a name="see-also"></a>另请参阅
 
-- [AlternateMailboxCollectionSetting （SOAP）](alternatemailboxcollectionsetting-soap.md)
+- [AlternateMailboxCollectionSetting (SOAP)](alternatemailboxcollectionsetting-soap.md)
 

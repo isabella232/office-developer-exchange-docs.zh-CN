@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 54fcd4ab-bfab-4b69-9841-d2ac827f4d45
 description: BusinessName 元素指定企业的名称。
-ms.openlocfilehash: cea37d61b9614084db7cf9532e5e55ec4f438554
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 71f9942e8dbe872168d0f5001ca2e9f1f468cb64
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527199"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545592"
 ---
 # <a name="businessname"></a>BusinessName
 
-**BusinessName**元素指定企业的名称。 
+**BusinessName** 元素指定企业的名称。 
   
 ```XML
 <BusinessName></BusinessName>
@@ -40,13 +40,13 @@ ms.locfileid: "44527199"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Contact （ContactType）](contact-contacttype.md) <br/> |指定统一联系人存储库中的联系人。  <br/> |
+|[Contact (ContactType)](contact-contacttype.md) <br/> |指定统一联系人存储中的联系人。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**BusinessName**元素的文本值是企业的名称。 
+**BusinessName 元素** 的文本值是公司的名称。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -58,7 +58,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

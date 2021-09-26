@@ -1,30 +1,30 @@
 ---
-title: WebClientUrl （SOAP）
+title: WebClientUrl (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 7f8cb6d6-4aac-4a1f-8bec-2dcb90fc1df6
-description: WebClientUrl 元素表示 Exchange web 客户端的 URL。
-ms.openlocfilehash: bcf9c8d4fe80de8af4c9500e5e850558a8451d4e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: WebClientUrl 元素表示 Web 客户端Exchange URL。
+ms.openlocfilehash: 73cc03411e8356fafe078df45f9ebd695e8f154b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464971"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542594"
 ---
-# <a name="webclienturl-soap"></a>WebClientUrl （SOAP）
+# <a name="webclienturl-soap"></a>WebClientUrl (SOAP)
 
-**WebClientUrl**元素表示 Exchange web 客户端的 URL。 
+**WebClientUrl** 元素表示 Web 客户端Exchange URL。 
   
-[UserSetting （SOAP）](usersetting-soap.md)
+[UserSetting (SOAP)](usersetting-soap.md)
   
-[WebClientUrls （SOAP）](webclienturls-soap.md)
+[WebClientUrls (SOAP)](webclienturls-soap.md)
   
-[WebClientUrl （SOAP）](webclienturl-soap.md)
+[WebClientUrl (SOAP)](webclienturl-soap.md)
   
 ```XML
 <WebClientUrl>
@@ -46,14 +46,14 @@ ms.locfileid: "44464971"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[AuthenticationMethods （SOAP）](authenticationmethods-soap.md) <br/> |表示在访问指定的 URL 时要使用的身份验证方法。  <br/> |
-|[Url （SOAP）](url-soap.md) <br/> |表示 URL 的 web 地址。  <br/> |
+|[AuthenticationMethods (SOAP)](authenticationmethods-soap.md) <br/> |表示访问指定 URL 时使用的身份验证方法。  <br/> |
+|[Url (SOAP)](url-soap.md) <br/> |表示 URL 的 Web 地址。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[WebClientUrls （SOAP）](webclienturls-soap.md) <br/> |表示一个用户设置，其中包含**WebClientUrl**元素的集合。  <br/> |
+|[WebClientUrls (SOAP)](webclienturls-soap.md) <br/> |表示包含 **WebClientUrl** 元素集合的用户设置。  <br/> |
    
 ## <a name="element-information"></a>元素信息
 
@@ -68,7 +68,7 @@ ms.locfileid: "44464971"
 
 
 
-[Url （SOAP）](url-soap.md)
+[Url (SOAP)](url-soap.md)
   
-[WebClientUrls （SOAP）](webclienturls-soap.md)
+[WebClientUrls (SOAP)](webclienturls-soap.md)
 

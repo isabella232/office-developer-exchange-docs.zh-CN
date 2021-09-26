@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - RequestServerVersion
 api_type:
 - schema
 ms.assetid: af4032d5-42b3-463e-9d0a-8236d78e5b75
-description: RequestServerVersion 元素包含的版本信息用于标识针对请求的目标的架构版本。
-ms.openlocfilehash: c4ae59a03c812d21153e4338734185d933d914ec
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: RequestServerVersion 元素包含版本控制信息，用于标识要针对请求的架构版本。
+ms.openlocfilehash: 4f01d5fcc2a2e08d426efc8d1f0a193d6139a038
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468318"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541873"
 ---
 # <a name="requestserverversion"></a>RequestServerVersion
 
-**RequestServerVersion**元素包含的版本信息用于标识针对请求的目标的架构版本。 
+**RequestServerVersion** 元素包含版本控制信息，用于标识要针对请求的架构版本。 
   
 ```XML
 <RequestServerVersion Version=""/>
@@ -36,19 +36,19 @@ ms.locfileid: "44468318"
 
 |**属性**|**说明**|
 |:-----|:-----|
-|版本  <br/> |介绍了请求的目标版本。 当目标服务器版本是从 Exchange Server 2010 开始的 Exchange 版本时，此属性是必需的。  <br/> |
+|版本  <br/> |描述要针对请求的版本。 当目标服务器版本是自 2010 Exchange版本时，此属性Exchange Server必需。  <br/> |
    
 #### <a name="version-attribute-values"></a>版本属性值
 
 |**值**|**说明**|
 |:-----|:-----|
-|Exchange2007  <br/> |面向 Exchange 2007 的初始发布版本的架构文件。  <br/> |
-|Exchange2007_SP1  <br/> |将 Exchange 2007 Service Pack 1 （SP1）、Exchange 2007 Service Pack 2 （SP2）和 Exchange 2007 Service Pack 3 （SP3）的架构文件作为目标。  <br/> |
-|Exchange2010  <br/> |将 Exchange 2010 的架构文件作为目标。  <br/> |
-|Exchange2010_SP1  <br/> |将 Exchange 2010 Service Pack 1 （SP1）的架构文件作为目标。  <br/> |
-|Exchange2010_SP2  <br/> |面向 Exchange 2010 Service Pack 2 （SP2）和 Exchange 2010 Service Pack 3 （SP3）的架构文件。  <br/> |
-|Exchange2013  <br/> |将 Exchange 2013 的架构文件作为目标。  <br/> |
-|Exchange2013_SP1  <br/> |将 Exchange 2013 Service Pack 1 （SP1）的架构文件作为目标。  <br/> |
+|Exchange2007  <br/> |面向 2007 年 2 月Exchange版本的架构文件。  <br/> |
+|Exchange2007_SP1  <br/> |针对 Exchange 2007 Service Pack 1 (SP1) 、Exchange 2007 Service Pack 2 (SP2) 和 Exchange 2007 Service Pack 3 (SP3) 的架构文件。  <br/> |
+|Exchange2010  <br/> |面向 2010 Exchange文件。  <br/> |
+|Exchange2010_SP1  <br/> |面向 Exchange 2010 Service Pack 1 sp1 (架构) 。  <br/> |
+|Exchange2010_SP2  <br/> |面向 Exchange 2010 Service Pack 2 (SP2) 和 Exchange 2010 Service Pack 3 (SP3) 的架构文件。  <br/> |
+|Exchange2013  <br/> |面向 2013 Exchange文件。  <br/> |
+|Exchange2013_SP1  <br/> |面向 Exchange 2013 Service Pack 1 (SP1) 。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -56,7 +56,7 @@ ms.locfileid: "44468318"
   
 ### <a name="parent-elements"></a>父元素
 
-**RequestServerVersion**元素位于 SOAP 标头中。 
+**RequestServerVersion** 元素位于 SOAP 标头中。 
   
 ## <a name="remarks"></a>说明
 

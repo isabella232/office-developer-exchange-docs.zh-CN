@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - StartTimeInMinutes
 api_type:
 - schema
 ms.assetid: 0fb60a78-6e79-4601-8e2f-5bd245c46d69
-description: StartTimeInMinutes 元素表示邮箱用户的工作日的开始日期。
-ms.openlocfilehash: b33cb12299a146b577dd17939a0585a15d50fb07
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: StartTimeInMinutes 元素表示邮箱用户的工作天的开始。
+ms.openlocfilehash: 0d6d5d89506a081814a0f5143bdc7809a0ca3520
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458528"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544645"
 ---
 # <a name="starttimeinminutes"></a>StartTimeInMinutes
 
-**StartTimeInMinutes**元素表示邮箱用户的工作日的开始日期。 
+**StartTimeInMinutes** 元素表示邮箱用户的工作天的开始。 
   
 - [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -65,9 +65,9 @@ ms.locfileid: "44458528"
    
 ## <a name="text-value"></a>文本值
 
-文本值是必需的。 该文本值表示自一天开始起经过的分钟数的开始日期。 例如，开始时间为上午8点。 由480分钟表示。
+文本值是必需的。 文本值表示从一天开始已过多少分钟的工作开始的。 例如，开始时间为 8 A.M. 表示为 480 分钟。
   
-此元素的可能值的范围是0到1440。
+此元素的可能值的范围是 0 到 1440。
   
 ## <a name="remarks"></a>说明
 

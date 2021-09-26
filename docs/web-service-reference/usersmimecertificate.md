@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 66e6b4ba-368d-4469-bd47-e59441b7d64d
-description: UserSMIMECertificate 元素包含对联系人的 SMIME 证书进行编码的值。
-ms.openlocfilehash: 7e2dbc6a9c8b04758ba99db036e237d8837850aa
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: UserSMIMECertificate 元素包含一个值，该值对联系人的 SMIME 证书进行编码。
+ms.openlocfilehash: 8e53b4bf19bb42e30cae10ce7deb085efc703fed
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467653"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541670"
 ---
 # <a name="usersmimecertificate"></a>UserSMIMECertificate
 
-**UserSMIMECertificate**元素包含对联系人的 SMIME 证书进行编码的值。 
+**UserSMIMECertificate** 元素包含一个值，该值对联系人的 SMIME 证书进行编码。 
   
 ```XML
 <UserSMIMECertificate/>
@@ -48,7 +48,7 @@ ms.locfileid: "44467653"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

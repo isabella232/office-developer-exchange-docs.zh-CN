@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SetFolderField
 api_type:
 - schema
 ms.assetid: 8c69db7b-54b5-4ae2-abca-4d6e0937a790
-description: SetFolderField 元素表示一个更新，该更新在 UpdateFolder 操作中设置文件夹中单个属性的值。
-ms.openlocfilehash: ab75a3862801b9a7b3369d9a4116c653b461781c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SetFolderField 元素表示一个更新，此更新设置 UpdateFolder 操作中文件夹上的单个属性的值。
+ms.openlocfilehash: da8ec49a4040ba52e49c737851133506c9ae93c6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530315"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545991"
 ---
 # <a name="setfolderfield"></a>SetFolderField
 
-**SetFolderField**元素表示一个更新，该更新在 UpdateFolder 操作中设置文件夹中单个属性的值。 
+**SetFolderField** 元素表示一个更新，此更新设置 UpdateFolder 操作中文件夹上的单个属性的值。 
 
 ```xml
 <SetFolderField>
@@ -145,22 +145,22 @@ ms.locfileid: "44530315"
 |:-----|:-----|
 |[FieldURI](fielduri.md) <br/> |标识由 URI 频繁引用的属性。  <br/> |
 |[IndexedFieldURI](indexedfielduri.md) <br/> |标识词典中的各个成员。  <br/> |
-|[ExtendedFieldURI](extendedfielduri.md) <br/> |标识扩展 MAPI 属性。  <br/> |
+|[ExtendedFieldURI](extendedfielduri.md) <br/> |标识扩展的 MAPI 属性。  <br/> |
 |[Folder](folder.md) <br/> |标识要更新的文件夹。  <br/> |
-|[CalendarFolder](calendarfolder.md) <br/> |代表主要包含日历项目的文件夹。  <br/> |
-|[ContactsFolder](contactsfolder.md) <br/> |表示邮箱中的 "联系人" 文件夹。  <br/> |
-|[SearchFolder](searchfolder.md) <br/> |表示邮箱中包含的搜索文件夹。  <br/> |
-|[TasksFolder](tasksfolder.md) <br/> |表示邮箱中包含的 "任务" 文件夹。  <br/> |
+|[CalendarFolder](calendarfolder.md) <br/> |表示一个主要包含日历项目的文件夹。  <br/> |
+|[ContactsFolder](contactsfolder.md) <br/> |代表邮箱中的"联系人"文件夹。  <br/> |
+|[SearchFolder](searchfolder.md) <br/> |表示包含在邮箱中的搜索文件夹。  <br/> |
+|[TasksFolder](tasksfolder.md) <br/> |代表邮箱中包含的"任务"文件夹。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Updates 文件夹](updates-folder.md) <br/> |包含一组元素，这些元素定义追加、设置和删除对文件夹属性所做的更改。  <br/> |
+|[Updates 文件夹](updates-folder.md) <br/> |包含一组元素，这些元素定义对文件夹属性的追加、设置和删除更改。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-如果该属性存在，则将属性值设置为指定的值。 如果该属性不存在，则使用指定的值创建属性。
+如果该属性存在，属性值将设置为指定值。 如果该属性不存在，则使用指定值创建该属性。
   
 描述此元素的架构位于正在运行 Microsoft Exchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 87440a49-64e2-4d97-bb1d-443c04ad24e8
-description: Surnames 元素指定一个由姓值组成的数组，以及其源归属的标识符，用于关联的角色。
-ms.openlocfilehash: 77c1278a5c7d946ded1eec9c11ffdba631f878b9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Surnames 元素指定一个姓氏值数组，以及关联人物的源属性的标识符。
+ms.openlocfilehash: bfc8bc93e08556796b5f34a9582273f9ef6587ea
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455917"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545823"
 ---
 # <a name="surnames"></a>Surnames
 
-**Surnames**元素指定一个由姓值组成的数组，以及其源归属的标识符，用于关联的角色。 
+**Surnames** 元素指定一个姓氏值数组，以及关联人物的源属性的标识符。 
   
 ```XML
 <Surnames>
@@ -42,7 +42,7 @@ ms.locfileid: "44455917"
 
 [角色](persona.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

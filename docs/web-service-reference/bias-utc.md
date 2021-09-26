@@ -1,27 +1,27 @@
 ---
-title: 偏差（UTC）
+title: Bias (UTC)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Bias
 api_type:
 - schema
 ms.assetid: 15790d5a-5134-457b-8f2b-d9dee1f807a2
-description: 偏置元素表示与协调世界时（UTC）的常规偏移量。 此值以分钟为单位。
-ms.openlocfilehash: d95284aa28e59542d1a1ee40686163138b015702
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Bias 元素表示从协调世界时到 UTC (的) 。 此值以分钟为单位。
+ms.openlocfilehash: c7dc50d13eecab72d06927ce02762e57ec2f8a3e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460244"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543651"
 ---
-# <a name="bias-utc"></a>偏差（UTC）
+# <a name="bias-utc"></a>Bias (UTC)
 
-**偏置**元素表示与协调世界时（UTC）的常规偏移量。 此值以分钟为单位。 
+**Bias** 元素表示从协调世界时到 UTC (的) 。 此值以分钟为单位。 
   
 ```xml
 <TimeZone>
@@ -47,7 +47,7 @@ ms.locfileid: "44460244"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[时区（可用性）](timezone-availability.md) <br/> | 标识请求的日期时间信息的容器。 此元素包含有关标准时间和夏时制之间的过渡的信息。  <br/><br/>下面是此元素的 XPath 表达式：<br/><br/>   `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone` <br/><br/>`/GetUserAvailabilityRequest/TimeZone` <br/> |
+|[TimeZone (Availability)](timezone-availability.md) <br/> | 标识请求的日期时间信息的容器。 此元素包含有关标准时间和夏令时之间的转换的信息。  <br/><br/>下面是此元素的 XPath 表达式：<br/><br/>   `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone` <br/><br/>`/GetUserAvailabilityRequest/TimeZone` <br/> |
    
 ## <a name="text-value"></a>文本值
 
@@ -55,11 +55,11 @@ ms.locfileid: "44460244"
   
 ## <a name="remarks"></a>说明
 
-架构中的第二个[偏向](bias.md)元素表示与协调世界时（UTC）偏移量的偏移量。 
+架构中的第二个 [Bias](bias.md) 元素表示从协调世界时到 UTC (偏移) 偏移。 
   
 ## <a name="example"></a>示例
 
-下面的示例显示了 XML 请求的一部分，它在客户端应用程序上标识从 UTC 到 UTC 的偏移量为8小时。
+以下示例显示标识客户端应用程序上与 UTC 的偏移量为 8 小时的 XML 请求的一部分。
   
 ```xml
 <TimeZone xmlns="https://schemas.microsoft.com/exchange/services/2006/types">

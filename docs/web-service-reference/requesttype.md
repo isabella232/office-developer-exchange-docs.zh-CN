@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - RequestType
 api_type:
 - schema
 ms.assetid: 4e657e57-528f-4250-a99c-f9850bbbcec5
-description: RequestType 元素标识代理请求是否为跨网站或跨林请求。
-ms.openlocfilehash: 278a65a1f2ce4cb433ae8099703d70d0a2cafa3b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: RequestType 元素标识代理请求是跨站点请求还是跨林请求。
+ms.openlocfilehash: 3390381b903c7a39a1d2ea6cae80b3fbc07eba43
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455966"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541852"
 ---
 # <a name="requesttype"></a>RequestType
 
-**RequestType**元素标识代理请求是否为跨网站或跨林请求。 
+**RequestType** 元素标识代理请求是跨站点请求还是跨林请求。 
   
 ```xml
 <RequestType>CrossSite or CrossForest</RequestType>
@@ -42,11 +42,11 @@ ms.locfileid: "44455966"
   
 ### <a name="parent-elements"></a>父元素
 
-此元素在架构中没有父级。 此元素在 SOAP 标头中使用。 有关如何使用此元素的详细信息，请参阅 WSDL 文件。
+此元素在架构中没有父级。 此元素在 SOAP 标头中使用。 有关如何使用此元素的信息，请参阅 WSDL 文件。
   
 ## <a name="text-value"></a>文本值
 
-此元素需要一个文本值。 以下是可能的值：
+此元素需要文本值。 以下是可能的值：
   
 - CrossSite
     

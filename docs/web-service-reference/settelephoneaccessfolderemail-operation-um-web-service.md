@@ -1,32 +1,32 @@
 ---
-title: SetTelephoneAccessFolderEmail 操作（UM web 服务）
+title: SetTelephoneAccessFolderEmail 操作（UM Web 服务）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SetTelephoneAccessFolderEmail
 api_type:
 - schema
 ms.assetid: 2c92d914-bdee-4337-b3ea-0655fdb658e9
-description: SetTelephoneAccessFolderEmail 操作设置一个文件夹，统一消息将从该文件夹中通过电话将邮件读回用户。
-ms.openlocfilehash: a2bb630f812ca811b4cbe68db1308dc18e5d3ba0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SetTelephoneAccessFolderEmail 操作设置统一消息通过电话将邮件读回给用户的文件夹。
+ms.openlocfilehash: cf8e80e021d6467ba3a724cc0d04e165e00e8397
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467331"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544715"
 ---
-# <a name="settelephoneaccessfolderemail-operation-um-web-service"></a>SetTelephoneAccessFolderEmail 操作（UM web 服务）
+# <a name="settelephoneaccessfolderemail-operation-um-web-service"></a>SetTelephoneAccessFolderEmail 操作（UM Web 服务）
 
-SetTelephoneAccessFolderEmail 操作设置一个文件夹，统一消息将从该文件夹中通过电话将邮件读回用户。
+SetTelephoneAccessFolderEmail 操作设置统一消息通过电话将邮件读回给用户的文件夹。
   
 ## <a name="settelephoneaccessfolderemail-request-example"></a>SetTelephoneAccessFolderEmail 请求示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-以下示例的 SetTelephoneAccessFolderEmail 请求显示如何形成一个请求，以设置通过电话将统一消息从其读取到用户的文件夹。
+SetTelephoneAccessFolderEmail 请求的以下示例显示如何形成请求，以设置统一消息通过电话向用户重新读取的文件夹。
   
 ### <a name="code"></a>代码
 
@@ -43,9 +43,9 @@ SetTelephoneAccessFolderEmail 操作设置一个文件夹，统一消息将从�
 
 ## <a name="successful-settelephoneaccessfolderemail-response-example"></a>成功的 SetTelephoneAccessFolderEmail 响应示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-下面的 SetTelephoneAccessFolderEmail 响应示例显示对 SetTelephoneAccessFolderEmail 请求的响应。
+SetTelephoneAccessFolderEmail 响应的以下示例显示对 SetTelephoneAccessFolderEmail 请求的响应。
   
 ### <a name="code"></a>代码
 
@@ -62,9 +62,9 @@ SetTelephoneAccessFolderEmail 操作设置一个文件夹，统一消息将从�
 
 
 
-[SetTelephoneAccessFolderEmail （UM web 服务）](settelephoneaccessfolderemail-um-web-service.md)
+[SetTelephoneAccessFolderEmail（UM Web 服务）](settelephoneaccessfolderemail-um-web-service.md)
   
-[SetTelephoneAccessFolderEmailResponse （UM web 服务）](settelephoneaccessfolderemailresponse-um-web-service.md)
+[SetTelephoneAccessFolderEmailResponse（UM Web 服务）](settelephoneaccessfolderemailresponse-um-web-service.md)
   
-[base64FolderId （UM web 服务）](base64folderid-um-web-service.md)
+[base64FolderId（UM Web 服务）](base64folderid-um-web-service.md)
 

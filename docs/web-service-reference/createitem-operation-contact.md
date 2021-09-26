@@ -5,33 +5,33 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateItem
 api_type:
 - schema
 ms.assetid: 417e994b-0a17-4c24-9527-04796b80b029
-description: CreateItem 操作用于在 Exchange 存储区中创建联系人。
-ms.openlocfilehash: e1d78392b94d328cf687655cd93e6c9568f6274f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: CreateItem 操作用于在应用商店中Exchange联系人。
+ms.openlocfilehash: ced103046214830db868f4c62583e73297146d25
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457121"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545501"
 ---
 # <a name="createitem-operation-contact"></a>CreateItem 操作（联系人）
 
-CreateItem 操作用于在 Exchange 存储区中创建联系人。
+CreateItem 操作用于在应用商店中Exchange联系人。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-不支持创建专用通讯组列表。 [CompleteName](completename.md)容器中的所有属性都是只读的，不能在联系人项目上进行设置。 
+不支持创建专用通讯组列表。 [CompleteName](completename.md)容器内的所有属性都是只读的，不能在联系人项目上设置。 
   
 ## <a name="createitem-request-example"></a>CreateItem 请求示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-以下是有效 CreateItem SOAP 请求的示例演示如何在默认的 "联系人" 文件夹中创建联系人。
+下面的有效 CreateItem SOAP 请求示例演示如何在默认"联系人"文件夹中创建联系人。
   
 ### <a name="code"></a>代码
 
@@ -74,9 +74,9 @@ CreateItem 操作用于在 Exchange 存储区中创建联系人。
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Request 元素
+### <a name="request-elements"></a>请求元素
 
-响应中使用以下元素：
+响应中会使用下列元素：
   
 - [CreateItem](createitem.md)
     
@@ -84,7 +84,7 @@ CreateItem 操作用于在 Exchange 存储区中创建联系人。
     
 - [DistinguishedFolderId](distinguishedfolderid.md)
     
-- [项目（NonEmptyArrayOfAllItemsType）](items-nonemptyarrayofallitemstype.md)
+- [Items (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)
     
 - [联系人](contact.md)
     
@@ -96,33 +96,33 @@ CreateItem 操作用于在 Exchange 存储区中创建联系人。
     
 - [EmailAddresses](emailaddresses.md)
     
-- [条目（EmailAddress）](entry-emailaddress.md)
+- [Entry (EmailAddress)](entry-emailaddress.md)
     
 - [PhysicalAddresses](physicaladdresses.md)
     
-- [条目（PhysicalAddress）](entry-physicaladdress.md)
+- [Entry (PhysicalAddress)](entry-physicaladdress.md)
     
-- [地址](street.md)
+- [Street](street.md)
     
 - [市/县](city.md)
     
-- [State](state-ex15websvcsotherref.md)
+- [状态](state-ex15websvcsotherref.md)
     
 - [CountryOrRegion](countryorregion.md)
     
 - [PhoneNumbers](phonenumbers.md)
     
-- [条目（PhoneNumber）](entry-phonenumber.md)
+- [Entry (PhoneNumber)](entry-phonenumber.md)
     
 - [JobTitle](jobtitle.md)
     
-- [姓氏](surname.md)
+- [Surname](surname.md)
     
 ## <a name="successful-createitem-request"></a>成功的 CreateItem 请求
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-下面的示例演示对创建了联系人的 CreateItem 请求的成功响应。 在此示例中，响应包含新创建的项目的标识符。
+以下示例显示创建联系人的 CreateItem 请求的成功响应。 本示例中，响应包含新创建的项目的标识符。
   
 ### <a name="code"></a>代码
 
@@ -156,11 +156,11 @@ CreateItem 操作用于在 Exchange 存储区中创建联系人。
 
 ### <a name="comments"></a>备注
 
-项目标识符已缩短，以保持可读性。
+已缩短项目标识符以保持可读性。
   
 ### <a name="successful-response-elements"></a>成功的响应元素
 
-响应中使用以下元素：
+响应中会使用下列元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -172,7 +172,7 @@ CreateItem 操作用于在 Exchange 存储区中创建联系人。
     
 - [ResponseCode](responsecode.md)
     
-- [项目（NonEmptyArrayOfAllItemsType）](items-nonemptyarrayofallitemstype.md)
+- [Items (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)
     
 - [联系人](contact.md)
     
@@ -180,9 +180,9 @@ CreateItem 操作用于在 Exchange 存储区中创建联系人。
     
 ## <a name="invalid-createitem-request-example"></a>CreateItem 请求示例无效
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-下面的示例演示一个包含有效的 XML 但不兼容的指令的请求。 无法在搜索文件夹中创建联系人。
+以下示例显示包含有效 XML 但不兼容指令的请求。 无法在搜索文件夹中创建联系人。
   
 ### <a name="code"></a>代码
 
@@ -206,11 +206,11 @@ CreateItem 操作用于在 Exchange 存储区中创建联系人。
 </soap:Envelope>
 ```
 
-## <a name="createitem-contact-error-response"></a>CreateItem （联系人）错误响应
+## <a name="createitem-contact-error-response"></a>CreateItem (Contact) 错误响应
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-下面的示例演示对 CreateItem （联系人）请求的错误响应。
+以下示例显示对 CreateItem 联系人请求 (错误) 响应。
   
 ### <a name="code"></a>代码
 
@@ -242,7 +242,7 @@ CreateItem 操作用于在 Exchange 存储区中创建联系人。
 
 ### <a name="error-response-elements"></a>错误响应元素
 
-错误响应中使用以下元素：
+错误响应中会使用下列元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -258,7 +258,7 @@ CreateItem 操作用于在 Exchange 存储区中创建联系人。
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-- [项目（NonEmptyArrayOfAllItemsType）](items-nonemptyarrayofallitemstype.md)
+- [Items (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)
     
 ## <a name="see-also"></a>另请参阅
 

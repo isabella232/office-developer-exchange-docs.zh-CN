@@ -1,33 +1,33 @@
 ---
-title: CreateItem （AcceptSharingInvitation）
+title: CreateItem (AcceptSharingInvitation)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateItem
 api_type:
 - schema
 ms.assetid: 710c893a-3037-4f04-b336-aefedd36c406
-description: CreateItem 操作用于接受共享其他用户的日历或联系人数据的邀请。
-ms.openlocfilehash: eda846b72f42fe886497b355d9cddade7c5f4044
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: CreateItem 操作用于接受邀请来共享其他用户的日历或联系人数据。
+ms.openlocfilehash: 37068657e77f4ceb35f9cb9601863fcae520c018
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457513"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543428"
 ---
-# <a name="createitem-acceptsharinginvitation"></a>CreateItem （AcceptSharingInvitation）
+# <a name="createitem-acceptsharinginvitation"></a>CreateItem (AcceptSharingInvitation)
 
-**CreateItem**操作用于接受共享其他用户的日历或联系人数据的邀请。 
+**CreateItem** 操作用于接受邀请来共享其他用户的日历或联系人数据。 
   
 ## <a name="accept-sharing-invitation-request-example"></a>接受共享邀请请求示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-下面的示例展示了如何接受共享邀请。
+以下示例演示如何接受共享邀请。
   
 ### <a name="code"></a>代码
 
@@ -47,9 +47,9 @@ ms.locfileid: "44457513"
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Request 元素
+### <a name="request-elements"></a>请求元素
 
-请求中使用以下元素：
+请求中会使用下列元素：
   
 - [CreateItem](createitem.md)
     
@@ -61,13 +61,13 @@ ms.locfileid: "44457513"
     
 ### <a name="comments"></a>备注
 
-项目标识符和更改密钥已缩短，以保持可读性。
+已缩短项目标识符和更改键以保持可读性。
   
-## <a name="successful-accept-sharing-invitation-response-example"></a>成功的接受共享邀请响应示例
+## <a name="successful-accept-sharing-invitation-response-example"></a>成功接受共享邀请响应示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-下面的示例演示对**CreateItem**请求的成功响应。 
+以下示例显示了对 **CreateItem** 请求的成功响应。 
   
 ### <a name="code"></a>代码
 
@@ -101,7 +101,7 @@ ms.locfileid: "44457513"
 
 ### <a name="successful-response-elements"></a>成功的响应元素
 
-响应中使用以下元素：
+响应中会使用下列元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -117,9 +117,9 @@ ms.locfileid: "44457513"
     
 ## <a name="accept-sharing-invitation-error-response-example"></a>接受共享邀请错误响应示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-下面的示例演示对**CreateItem**请求的错误响应。 此错误是由于尝试接受在 Exchange 存储中找不到的共享邀请而引起的。 
+以下示例显示对 **CreateItem** 请求的错误响应。 此错误由尝试接受在应用商店中找不到的共享邀请Exchange。 
   
 ### <a name="code"></a>代码
 
@@ -155,7 +155,7 @@ ms.locfileid: "44457513"
 
 ### <a name="error-response-elements"></a>错误响应元素
 
-错误响应中使用以下元素：
+错误响应中会使用下列元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     

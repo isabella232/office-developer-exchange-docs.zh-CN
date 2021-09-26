@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - OldFolderId
 api_type:
 - schema
 ms.assetid: da554a97-ab87-4950-9fc4-26b1972381bb
-description: OldFolderId 元素包含移动或复制的文件夹的原始标识符。
-ms.openlocfilehash: a6713b9e0c47d68480724c3902086da6a8647dd7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: OldFolderId 元素包含已移动或复制的文件夹的原始标识符。
+ms.openlocfilehash: 42260822870a0a9bac565c20447a5c29c3daccce
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458059"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541943"
 ---
 # <a name="oldfolderid"></a>OldFolderId
 
-**OldFolderId**元素包含移动或复制的文件夹的原始标识符。 
+**OldFolderId** 元素包含已移动或复制的文件夹的原始标识符。 
   
 ```xml
 <OldFolderId Id="" ChangeKey=""/>
@@ -36,8 +36,8 @@ ms.locfileid: "44458059"
 
 |**属性**|**说明**|
 |:-----|:-----|
-|**Id** <br/> |包含标识 Exchange 存储中的文件夹的字符串。 此特性是必需的。  <br/> |
-|**ChangeKey** <br/> |包含标识由 Id 属性标识的文件夹版本的字符串。 此特性是可选的。 使用此属性可确保使用的是正确的文件夹版本。  <br/> |
+|**Id** <br/> |包含一个字符串，用于标识Exchange文件夹。 此特性是必需的。  <br/> |
+|**ChangeKey** <br/> |包含一个标识由 Id 属性标识的文件夹版本的字符串。 此特性是可选的。 使用此属性确保使用正确版本的文件夹。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -47,8 +47,8 @@ ms.locfileid: "44458059"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[CopiedEvent](copiedevent.md) <br/> |表示在其中复制项目或文件夹的事件。  <br/> |
-|[MovedEvent](movedevent.md) <br/> |代表将项目或文件夹从一个父文件夹移动到另一个父文件夹的事件。  <br/> |
+|[CopiedEvent](copiedevent.md) <br/> |表示复制项目或文件夹的事件。  <br/> |
+|[MovedEvent](movedevent.md) <br/> |表示一个事件，其中项目或文件夹从一个父文件夹移动到另一个父文件夹。  <br/> |
    
 ## <a name="remarks"></a>说明
 
@@ -71,7 +71,7 @@ ms.locfileid: "44458059"
   
 [GetEvents 操作](getevents-operation.md)
   
-[取消订阅操作](unsubscribe-operation.md)
+[Unsubscribe 操作](unsubscribe-operation.md)
 
 
 - [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)

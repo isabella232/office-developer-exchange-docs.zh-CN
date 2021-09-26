@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1d47141c-3c3f-45b8-90c5-33a44adb34b2
 description: UserMailbox元素标识用户邮箱。
-ms.openlocfilehash: 9bb1b08320f5e6f4843383a8e3aff96fc3dcccad
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: c2a66b23de5e4b312f60019f0b4ecfb4088b3da2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465315"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542615"
 ---
 # <a name="usermailbox"></a>UserMailbox
 
-本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **UserMailbox**元素标识用户邮箱。 
+本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **UserMailbox** 元素标识用户邮箱。 
   
 ```XML
 <UserMailbox Id="" IsArchive=""/>
@@ -32,8 +32,8 @@ ms.locfileid: "44465315"
 
 |**属性**|**说明**|
 |:-----|:-----|
-|Id  <br/> |**Id**属性的文本值是邮箱的标识符。  <br/> |
-|IsArchive  <br/> |**IsArchive**属性的文本值指示该邮箱是否存档邮箱。 **true** **IsArchive**属性的文本值表示邮箱存档邮箱。 **false** **IsArchive**属性的值表示邮箱是一个主邮箱。 <br/> |
+|Id  <br/> |**Id** 属性的文本值是邮箱的标识符。  <br/> |
+|IsArchive  <br/> |**IsArchive** 属性的文本值指示该邮箱是否存档邮箱。 **true** **IsArchive** 属性的文本值表示邮箱存档邮箱。 **false** **IsArchive** 属性的值表示邮箱是一个主邮箱。 <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -43,7 +43,7 @@ ms.locfileid: "44465315"
 
 [邮箱 (ArrayOfUserMailboxesType)](mailboxes-arrayofusermailboxestype.md) | [MailboxStatisticsSearchResult](mailboxstatisticssearchresult.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

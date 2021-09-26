@@ -1,27 +1,27 @@
 ---
-title: 地址
+title: Street
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Street
 api_type:
 - schema
 ms.assetid: f505b40d-86cc-42aa-9ffa-9827959a4839
-description: "\"街道\" 元素表示联系人项目的街道地址。"
-ms.openlocfilehash: 539400d346fa75c1f4fd9527ddd866aa72bf9984
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Street 元素表示联系人项目的街道地址。
+ms.openlocfilehash: b64b44caff5c1719185283e920f5c2c6a3d6b75d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463109"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544540"
 ---
-# <a name="street"></a>地址
+# <a name="street"></a>Street
 
-"**街道**" 元素表示联系人项目的街道地址。 
+**Street** 元素表示联系人项目的街道地址。 
   
 ```xml
 <Street/>
@@ -44,11 +44,11 @@ ms.locfileid: "44463109"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[条目（PhysicalAddress）](entry-physicaladdress.md) <br/> |描述联系人项目的单个物理地址。  <br/> |
+|[Entry (PhysicalAddress)](entry-physicaladdress.md) <br/> |描述联系人项目的单个物理地址。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-Text 值是一个字符串，表示联系人的街道地址。
+文本值是一个字符串，表示联系人的街道地址。
   
 ## <a name="remarks"></a>说明
 

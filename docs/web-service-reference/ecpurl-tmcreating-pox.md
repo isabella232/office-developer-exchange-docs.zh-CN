@@ -1,32 +1,32 @@
 ---
-title: EcpUrl-tmCreating （POX）
+title: EcpUrl-tmCreating (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c942758e-5ff3-4acb-9080-b8672e56f696
-description: EcpUrl-tmCreating 元素指定一个可与 EcpUrl （POX）元素的值结合使用的部分 URL，以生成可用于创建新网站邮箱的 URL。
-ms.openlocfilehash: 93ea3f5752dab0028c0732e5e79c5690e35bd059
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: EcpUrl-tmCreating 元素指定一个部分 URL，该 URL 可以与 EcpUrl (POX) 元素的值结合使用，以生成可用于创建新网站邮箱的 URL。
+ms.openlocfilehash: 17fcd3174b70f751b07a4d6526c5b0c73d885561
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462057"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545263"
 ---
-# <a name="ecpurl-tmcreating-pox"></a>EcpUrl-tmCreating （POX）
+# <a name="ecpurl-tmcreating-pox"></a>EcpUrl-tmCreating (POX)
 
-**EcpUrl-tmCreating**元素指定一个可与[EcpUrl （POX）](ecpurl-pox.md)元素的值结合使用的部分 url，以生成可用于创建新网站邮箱的 url。 
+**EcpUrl-tmCreating** 元素指定一个部分 URL，该 URL 可以与 [EcpUrl (POX)](ecpurl-pox.md)元素的值结合使用，以生成可用于创建新网站邮箱的 URL。 
   
-[自动发现（POX）](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[响应（POX）](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[帐户（POX）](account-pox.md)
+[Account (POX)](account-pox.md)
   
-[协议（POX）](protocol-pox.md)
+[Protocol (POX)](protocol-pox.md)
   
-[EcpUrl-tmCreating （POX）](ecpurl-tmcreating-pox.md)
+[EcpUrl-tmCreating (POX)](ecpurl-tmcreating-pox.md)
   
 ```XML
 <EcpUrl-tmCreating/>
@@ -48,19 +48,19 @@ ms.locfileid: "44462057"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[协议（POX）](protocol-pox.md) <br/> |包含将客户端连接到运行 Microsoft Exchange Server 且安装了客户端访问服务器角色的计算机的规范。  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |包含用于将客户端连接到运行已安装客户端访问服务器角色Microsoft Exchange Server的计算机的规范。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-该文本值表示一个可与[EcpUrl （POX）](ecpurl-pox.md)元素的值结合使用的部分 url，以生成可用于创建新网站邮箱的 url。 
+文本值表示可以与 [EcpUrl ](ecpurl-pox.md) (POX) 元素的值组合的部分 URL，以生成可用于创建新网站邮箱的 URL。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-**EcpUrl-tmCreating**元素是**Protocol**元素的可选子元素。 
+**EcpUrl-tmCreating** 元素是 Protocol 元素的可选 **子** 元素。 
   
 ## <a name="see-also"></a>另请参阅
 
 
 
-[Exchange 的 POX 自动发现 XML 元素](pox-autodiscover-xml-elements-for-exchange.md)
+[用于存储的 POX 自动发现 XML Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

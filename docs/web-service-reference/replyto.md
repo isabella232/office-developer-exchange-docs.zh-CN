@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ReplyTo
 api_type:
 - schema
 ms.assetid: 6b6ae792-e2c4-4aa0-95cb-b49b446f1e08
-description: ReplyTo 元素标识应将答复发送到的地址数组。
-ms.openlocfilehash: 08f9edce76fd01111922a2a07d1a63e288a0c1ee
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ReplyTo 元素标识应发送答复的地址数组。
+ms.openlocfilehash: 6121b545f252c4cc6668775e7219344309875027
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468325"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542817"
 ---
 # <a name="replyto"></a>ReplyTo
 
-**ReplyTo**元素标识应将答复发送到的地址数组。 
+**ReplyTo** 元素标识应发送答复的地址数组。 
   
 ```xml
 <ReplyTo>
@@ -42,7 +42,7 @@ ms.locfileid: "44468325"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Mailbox](mailbox.md) <br/> |标识将答复发送到的已启用邮件的 Active Directory 目录服务对象。  <br/> |
+|[Mailbox](mailbox.md) <br/> |标识将答复发送到的启用邮件的 Active Directory 目录服务对象。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 

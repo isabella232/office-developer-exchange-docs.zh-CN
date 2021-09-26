@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FirstDayOfWeek
 api_type:
 - schema
 ms.assetid: d6cf1bd3-a19b-4d5f-9e25-8e337a4939e0
 description: FirstDayOfWeek 元素指定一周的第一天。
-ms.openlocfilehash: 1b4aee8e1ce2548cd6b0047623b0bcda47ad316b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 1b983cfc27d0e818a0487625b9af8c9e6b0afd93
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530970"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545088"
 ---
 # <a name="firstdayofweek"></a>FirstDayOfWeek
 
-**FirstDayOfWeek**元素指定一周的第一天。 
+**FirstDayOfWeek** 元素指定一周的第一天。 
   
 ```XML
 <FirstDayOfWeek> Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday</FirstDayOfWeek>
@@ -44,11 +44,11 @@ ms.locfileid: "44530970"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[WeeklyRecurrence](weeklyrecurrence.md) <br/> |介绍每周定期模式。  <br/> |
+|[WeeklyRecurrence](weeklyrecurrence.md) <br/> |介绍每周一定期模式。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**FirstDayOfWeek**元素的文本值指示将星期中的哪一天用作一周的第一天。 以下是可能的文本值： 
+**FirstDayOfWeek** 元素的文本值指示一周中的哪一天用作一周的第一天。 以下是可能的文本值： 
   
 - 星期日
     
@@ -64,7 +64,7 @@ ms.locfileid: "44530970"
     
 - 星期六
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   

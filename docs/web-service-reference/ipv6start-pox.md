@@ -1,36 +1,36 @@
 ---
-title: IPv6Start （POX）
+title: IPv6Start (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 74fed547-9999-4c9c-9566-f7df811f1048
-description: IPv6Start 元素标识用于标识网络上的计算机的 IP 版本6（IPv6）地址范围的起始地址。
-ms.openlocfilehash: a4cafc091567fd4db6a2b4c839e0c1f770fb7ddb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: IPv6Start 元素标识用于标识网络上计算机的 IP 版本 6 (IPv6) 地址范围的开始位置。
+ms.openlocfilehash: b8331289cd597d479fb873c43c88fb4a9fdfe69c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529992"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544982"
 ---
-# <a name="ipv6start-pox"></a>IPv6Start （POX）
+# <a name="ipv6start-pox"></a>IPv6Start (POX)
 
-**IPv6Start**元素标识用于标识网络上的计算机的 IP 版本6（IPv6）地址范围的起始地址。 
+**IPv6Start** 元素标识用于标识网络上计算机的 IP 版本 6 (IPv6) 地址范围的开始位置。 
   
-[自动发现（POX）](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[响应（POX）](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[帐户（POX）](account-pox.md)
+[Account (POX)](account-pox.md)
   
-[协议（POX）](protocol-pox.md)
+[Protocol (POX)](protocol-pox.md)
   
-[NetworkRequirements （POX）](networkrequirements-pox.md)
+[NetworkRequirements (POX)](networkrequirements-pox.md)
   
-[IPv6Start （POX）](ipv6start-pox.md)
+[IPv6Start (POX)](ipv6start-pox.md)
   
 ```xml
 <IPv6Start/>
@@ -52,15 +52,15 @@ ms.locfileid: "44529992"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[NetworkRequirements （POX）](networkrequirements-pox.md) <br/> |包含用于确定客户端计算机是否位于满足 Internet 服务提供商（ISP）要求以连接到服务器的网络的条件。  <br/> |
+|[NetworkRequirements (POX)](networkrequirements-pox.md) <br/> |包含用于确定客户端计算机是否位于满足 Internet 服务提供商的 (ISP 要求) 连接到服务器的条件。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-该文本值表示 IPv6 地址。
+文本值表示 IPv6 地址。
   
 ## <a name="see-also"></a>另请参阅
 
 
 
-[Exchange 的 POX 自动发现 XML 元素](pox-autodiscover-xml-elements-for-exchange.md)
+[用于存储的 POX 自动发现 XML Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

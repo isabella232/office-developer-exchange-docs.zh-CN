@@ -1,27 +1,27 @@
 ---
-title: 收件人是
+title: RecipientIs
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - RecipientIs
 api_type:
 - schema
 ms.assetid: 5d2fd7ce-6137-4b3c-a716-c0218dcc8a09
-description: 收件人是元素指定电子邮件的任何收件人与子值（ProtectionRuleValueType）元素中的任何指定收件人相匹配。
-ms.openlocfilehash: 8f27c4484ce310c62f9bab0e6ffeea2bfac1d3ef
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: RecipientIs 元素指定电子邮件的任何收件人与子 Value (ProtectionRuleValueType 元素) 收件人。
+ms.openlocfilehash: 0bf9d96469c626ddc223b128a6d7fabebbfebc84
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463879"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542895"
 ---
-# <a name="recipientis"></a>收件人是
+# <a name="recipientis"></a>RecipientIs
 
-**收件人是**元素指定电子邮件的任何收件人与子[值（ProtectionRuleValueType）](value-protectionrulevaluetype.md)元素中的任何指定收件人相匹配。 
+**RecipientIs** 元素指定电子邮件的任何收件人与子 Value ([ProtectionRuleValueType](value-protectionrulevaluetype.md)元素中的指定) 匹配。 
   
 ```xml
 <RecipientIs>   <Value/></RecipientIs>
@@ -40,18 +40,18 @@ ms.locfileid: "44463879"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Value （ProtectionRuleValueType）](value-protectionrulevaluetype.md) <br/> |标识收件人。  <br/> |
+|[Value (ProtectionRuleValueType)](value-protectionrulevaluetype.md) <br/> |标识收件人。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
 |[条件](condition.md) <br/> |确定要执行该规则的操作部分必须满足的条件。  <br/> |
-|[和 (ProtectionRuleAndType)](and-protectionruleandtype.md) <br/> |指示所有子元素都必须匹配以求值为**true**。  <br/> |
+|[和 (ProtectionRuleAndType)](and-protectionruleandtype.md) <br/> |指示所有子元素都必须匹配，计算结果为 **true**。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-描述此元素的架构位于运行 Microsoft Exchange Server 2010 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
+描述此元素的架构位于运行安装了客户端访问服务器角色的 Microsoft Exchange Server 2010 的计算机的 EWS 虚拟目录中。
   
 ## <a name="element-information"></a>元素信息
 

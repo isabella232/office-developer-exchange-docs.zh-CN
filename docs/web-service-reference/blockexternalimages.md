@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5c754dfc-a9e9-4272-9b5f-5fe3db537e62
 description: BlockExternalImages 元素指定是否在 HTML 文本正文中阻止外部图像。
-ms.openlocfilehash: 73342316024ebe476a0e35f14157befc80edcf83
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 82ddb7e53f351324783fa39e3b76c9c0534b8193
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527402"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543581"
 ---
 # <a name="blockexternalimages"></a>BlockExternalImages
 
-**BlockExternalImages**元素指定是否在 HTML 文本正文中阻止外部图像。 
+**BlockExternalImages** 元素指定是否在 HTML 文本正文中阻止外部图像。 
   
 ```XML
 <BlockExternalImages> true | false </BlockExternalImages>
@@ -45,9 +45,9 @@ ms.locfileid: "44527402"
    
 ## <a name="text-value"></a>文本值
 
-**BlockExternalImages**元素的文本值为**true**表示外部图像在 HTML 正文中被阻止。 **如果值为 false** ，则表示允许外部图像。 
+**BlockExternalImages** 元素的文本值 **true** 指示在 HTML 正文中阻止外部图像。 false **值表示** 允许外部图像。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -59,7 +59,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

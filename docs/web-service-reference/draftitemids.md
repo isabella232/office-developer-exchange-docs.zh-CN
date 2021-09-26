@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c228f7e7-6dc8-476d-9b8c-99cd5b6f9f0c
-description: DraftItemIds 元素包含项目标识符的数组，这些标识符指向对话中的草稿项目。
-ms.openlocfilehash: 5e635e354c9d2d768bab5efaafafde272fe568d3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DraftItemIds 元素包含用于草稿对话中的项目的项标识符数组。
+ms.openlocfilehash: 9c114e509418138d442ae2cf20278cda410bf9dc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463571"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541439"
 ---
 # <a name="draftitemids"></a>DraftItemIds
 
-**DraftItemIds**元素包含项目标识符的数组，这些标识符指向对话中的草稿项目。 
+**DraftItemIds** 元素包含用于草稿对话中的项目的项标识符数组。 
   
 ```XML
 <DraftItemIds>
@@ -45,7 +45,7 @@ ms.locfileid: "44463571"
 
 [对话 (ConversationType)](conversation-conversationtype.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

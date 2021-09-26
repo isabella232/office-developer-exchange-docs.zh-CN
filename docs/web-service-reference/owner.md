@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Owner
 api_type:
 - schema
 ms.assetid: 9d643246-f5ea-462c-9a76-c3b5cce8e740
 description: Owner 元素表示任务的所有者。
-ms.openlocfilehash: d4a49367c4a012e8e3c64aa16a4661b285474e0d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: bea75eed7e229822a3353c92ffbcb4a482d54be6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465434"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541901"
 ---
 # <a name="owner"></a>所有者
 
-**Owner**元素表示任务的所有者。 
+**Owner** 元素表示任务的所有者。 
   
 ```xml
 <Owner/>

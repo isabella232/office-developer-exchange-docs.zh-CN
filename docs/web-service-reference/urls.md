@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 65a7ef52-9992-49b1-b002-868fb2d3a6f6
-description: Url 元素指定角色的 Url 数组。
-ms.openlocfilehash: 1278705df0c158e8d74e6fe38501114264787d00
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Urls 元素指定某个人物的 URL 数组。
+ms.openlocfilehash: 39502d885a2731df59042ca3aac276ceeb81bfda
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467674"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542629"
 ---
 # <a name="urls"></a>URL
 
-**Url**元素指定角色的 url 数组。 
+**Urls** 元素指定某个人物的 URL 数组。 
   
 ```XML
 <Urls>
@@ -36,13 +36,13 @@ ms.locfileid: "44467674"
   
 ### <a name="child-elements"></a>子元素
 
-[Url](url-ex15websvcsotherref.md)
+[Url ](url-ex15websvcsotherref.md)
   
 ### <a name="parent-elements"></a>父元素
 
-[Contact （ContactType）](contact-contacttype.md)
+[Contact (ContactType)](contact-contacttype.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

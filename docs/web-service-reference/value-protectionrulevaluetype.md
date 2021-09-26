@@ -1,27 +1,27 @@
 ---
-title: Value （ProtectionRuleValueType）
+title: Value (ProtectionRuleValueType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Value
 api_type:
 - schema
 ms.assetid: b039bd6e-2198-47cf-9c78-a5e8b9d51c98
 description: Value 元素标识单个收件人或发件人部门。
-ms.openlocfilehash: 908ea451800abc343fb6e4d4a4ed98d57223bd23
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 2c4bbdcb3364f0ef8f608469f0dc1b289c4eeaf6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465238"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541621"
 ---
-# <a name="value-protectionrulevaluetype"></a>Value （ProtectionRuleValueType）
+# <a name="value-protectionrulevaluetype"></a>Value (ProtectionRuleValueType)
 
-**Value**元素标识单个收件人或发件人部门。 
+Value 元素标识单个收件人或发件人部门。 
   
 ```XML
 <Value/>
@@ -45,12 +45,12 @@ ms.locfileid: "44465238"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[收件人是](recipientis.md) <br/> |指定电子邮件的任何收件人与子**值**元素中的任何指定收件人相匹配。  <br/> |
-|[SenderDepartments](senderdepartments.md) <br/> |指定发件人的部门与子**值**元素中的任何指定的部门相匹配。  <br/> |
+|[RecipientIs](recipientis.md) <br/> |指定电子邮件的任何收件人与子 Value 元素中任何指定的 **收件人** 匹配。  <br/> |
+|[SenderDepartments](senderdepartments.md) <br/> |指定发件人的部门与子 **Value** 元素中指定的任何部门匹配。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-此元素必须包含非空的字符串值。
+此元素必须包含无空字符串值。
   
 ## <a name="remarks"></a>说明
 

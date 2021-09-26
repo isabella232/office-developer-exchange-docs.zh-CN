@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2a60c89c-9c21-4041-9593-b244ac1608ef
-description: BeginTime 元素指定要查询提醒的时间范围的开始时间。
-ms.openlocfilehash: 4f926b8e4931c187cd4d5b97d6182d609bc15a1b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: BeginTime 元素指定要查询提醒的时间跨度的开始。
+ms.openlocfilehash: 2e3bc6ef91e27641d131b0e2b16b70421ee59bcd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463375"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541495"
 ---
 # <a name="begintime"></a>BeginTime
 
-**BeginTime**元素指定要查询提醒的时间范围的开始时间。 
+**BeginTime** 元素指定要查询提醒的时间跨度的开始。 
   
 ```XML
 <BeginTime/>
@@ -42,9 +42,9 @@ ms.locfileid: "44463375"
   
 ## <a name="text-value"></a>文本值
 
-**BeginTime**元素的文本值是提醒所针对的项目的开始时间。 
+**BeginTime** 元素的文本值是提醒所针对项目的开始时间。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

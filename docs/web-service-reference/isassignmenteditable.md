@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsAssignmentEditable
 api_type:
 - schema
 ms.assetid: 0ddf9181-f65e-4ad6-ad69-7b074ea0f2e7
 description: IsAssignmentEditable 元素表示任务类型。
-ms.openlocfilehash: 5eb091b24e2c97f7aa6072044fed998b6c9c1651
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 10676cc8c6196a7294f3550856a47dce7d717e6a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468052"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544948"
 ---
 # <a name="isassignmenteditable"></a>IsAssignmentEditable
 
-**IsAssignmentEditable**元素表示任务类型。 
+**IsAssignmentEditable** 元素表示任务类型。 
   
 ```xml
 <IsAssignmentEditable/>
 ```
 
- **整除**
+ **integer**
 ## <a name="attributes-and-elements"></a>属性和元素
 
 下面各部分介绍了属性、子元素和父元素。
@@ -42,7 +42,7 @@ ms.locfileid: "44468052"
   
 ### <a name="parent-elements"></a>父元素
 
-|**元素**|**描述**|
+|**元素**|**说明**|
 |:-----|:-----|
 |[任务](task.md) <br/> |表示 Exchange 存储中的任务。  <br/> |
    
@@ -52,12 +52,12 @@ ms.locfileid: "44468052"
   
 |**值**|**说明**|
 |:-----|:-----|
-|0  <br/> |所有任务项目的默认值。  <br/> |
-|1   <br/> |任务要求。  <br/> |
-|双面  <br/> |从任务请求的收件人接受任务。  <br/> |
-|第三章  <br/> |从任务请求的收件人 declination 的任务。  <br/> |
+|0  <br/> |所有任务项的默认值。  <br/> |
+|1  <br/> |任务请求。  <br/> |
+|2  <br/> |任务请求的收件人接受的任务。  <br/> |
+|3  <br/> |任务请求收件人的任务减减。  <br/> |
 |4   <br/> |对上一个任务请求的更新。  <br/> |
-|5   <br/> |未使用。  <br/> |
+|5  <br/> |未使用。  <br/> |
    
 ## <a name="remarks"></a>说明
 

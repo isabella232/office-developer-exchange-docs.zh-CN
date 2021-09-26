@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FullName
 api_type:
 - schema
 ms.assetid: ed7f4504-a859-46d7-855e-7801b6f6bc8c
-description: FullName 元素表示联系人的完整名称。
-ms.openlocfilehash: c6533bfaf581e5a7bd9d451ad46b763059cc6305
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: FullName 元素表示联系人的全名。
+ms.openlocfilehash: 846471dfd98ebb50073d49e156f1e85bbd459baa
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463046"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545018"
 ---
 # <a name="fullname"></a>FullName
 
-**FullName**元素表示联系人的完整名称。 
+**FullName** 元素表示联系人的全名。 
   
 ```xml
 <FullName/>

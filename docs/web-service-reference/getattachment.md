@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetAttachment
 api_type:
 - schema
 ms.assetid: 9443cf96-b451-4530-b868-490dff798673
-description: GetAttachment 元素是从 Exchange 存储中获取附件的请求中的根元素。
-ms.openlocfilehash: d03d086ff443db87b0104a2ec83599eb9eaea6b9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetAttachment 元素是请求从邮件存储获取附件的根Exchange元素。
+ms.openlocfilehash: 057b42e78845f583cf1e52804e0108f335ef951c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463977"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546369"
 ---
 # <a name="getattachment"></a>GetAttachment
 
-**GetAttachment**元素是从 Exchange 存储中获取附件的请求中的根元素。 
+**GetAttachment** 元素是请求从邮件存储获取附件的Exchange元素。 
   
 ```xml
 <GetAttachment>
@@ -43,16 +43,16 @@ ms.locfileid: "44463977"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[AttachmentShape](attachmentshape.md) <br/> |标识要在对[GetAttachment](getattachment.md)请求的响应中返回的其他扩展项属性。 此元素为可选。  <br/> |
-|[会话](attachmentids.md) <br/> |包含附件标识符的数组。  <br/> |
+|[AttachmentShape](attachmentshape.md) <br/> |标识在响应 [GetAttachment](getattachment.md) 请求时要返回的其他扩展项属性。 此元素为可选。  <br/> |
+|[AttachmentIds](attachmentids.md) <br/> |包含附件标识符数组。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-[AttachmentShape](attachmentshape.md)元素不需要标识响应中返回的属性。 [GetAttachment 操作](getattachment-operation.md)返回文件附件的名称、ContentType、ContentId、ContentLocation 和 Content 属性。 对于项附件，返回的属性为名称、ContentType、ContentId、ContentLocation 和所有附加项的属性。 这等效于在[GetItem](getitem.md)请求中使用 AllProperties 基准形状。 
+[AttachmentShape](attachmentshape.md)元素不需要标识响应中返回的属性。 [GetAttachment 操作](getattachment-operation.md)返回文件附件的 Name、ContentType、ContentId、ContentLocation 和 Content 属性。 对于项目附件，返回的属性为 Name、ContentType、ContentId、ContentLocation 以及所有附加项目的属性。 这等效于在 [GetItem](getitem.md) 请求中使用 AllProperties 基形状。 
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

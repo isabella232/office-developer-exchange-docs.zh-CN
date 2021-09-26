@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e86f98b6-83b5-4530-80eb-dc5df42e2c62
 description: SizeRequested 元素包含 GetUserPhoto 操作请求的照片大小。
-ms.openlocfilehash: 2e79bbb158fa9a22cbd3ec08fcd6e60429e113b4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 799869a85d7f72e79753a73f9c259388a2702bf5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460454"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545914"
 ---
 # <a name="sizerequested"></a>SizeRequested
 
-**SizeRequested**元素包含**GetUserPhoto**操作请求的照片大小。 
+**SizeRequested** 元素包含 **GetUserPhoto** 操作请求的照片大小。 
   
 ```XML
 <SizeRequested>HR48x48 | HR64x64 | HR96X96 | HR120X120 | HR240X240 | HR360X360 | HR432X432 | HR504X504 | HR648X648</SizeRequested>
@@ -42,21 +42,21 @@ ms.locfileid: "44460454"
   
 ## <a name="text-value"></a>文本值
 
-**SizeRequested**元素的文本值是从服务器返回的数字图像的请求照片大小。 下表标识了**SizeRequested**元素的文本值。 
+**SizeRequested** 元素的文本值是从服务器返回的数字图像请求的照片大小。 下表标识 **SizeRequested** 元素的文本值。 
   
 |**值**|**含义**|
 |:-----|:-----|
-|HR48x48  <br/> |图像的高度为48像素，宽度为48像素。  <br/> |
-|HR64x64  <br/> |图像的高度为64像素，宽度为64像素。  <br/> |
-|HR96x96  <br/> |图像的高度为96像素，宽度为96像素。  <br/> |
-|HR120x120  <br/> |图像的高度为120像素，宽度为120像素。  <br/> |
-|HR240x240  <br/> |图像的高度为240像素，宽度为240像素。  <br/> |
-|HR360x360  <br/> |图像的高度为360像素，宽度为360像素。  <br/> |
-|HR432x432  <br/> |图像的高度为432像素，宽度为432像素。  <br/> |
-|HR504x504  <br/> |图像的高度为504像素，宽度为504像素。  <br/> |
-|HR648x648  <br/> |图像的高度为648像素，宽度为648像素。  <br/> |
+|HR48x48  <br/> |图像高 48 像素，宽 48 像素。  <br/> |
+|HR64x64  <br/> |图像高 64 像素，宽 64 像素。  <br/> |
+|HR96x96  <br/> |图像高 96 像素，宽 96 像素。  <br/> |
+|HR120x120  <br/> |图像高 120 像素，宽 120 像素。  <br/> |
+|HR240x240  <br/> |图像高 240 像素，宽 240 像素。  <br/> |
+|HR360x360  <br/> |图像高 360 像素，宽 360 像素。  <br/> |
+|HR432x432  <br/> |图像高 432 像素，宽 432 像素。  <br/> |
+|HR504x504  <br/> |图像高 504 像素，宽 504 像素。  <br/> |
+|HR648x648  <br/> |图像高 648 像素，宽 648 像素。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

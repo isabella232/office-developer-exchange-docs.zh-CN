@@ -5,33 +5,33 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 36d63aa6-1b72-4670-b5c3-da685f3017cb
 description: 查找有关 Exchange 2013 中的传输代理的信息。
-ms.openlocfilehash: 62fb259672c47242a57b939deb4887e1e5519e2a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: d005b3f09d2ced02d5cee26dd259b78a605e1ada
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461756"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544435"
 ---
 # <a name="transport-agents-in-exchange"></a>Exchange 中的传输代理
   
-Exchange 2013 提供了一个类库，其中支持 Exchange 传输行为的扩展并启用内容类型的读取、写入和转换。 您可以使用这些类创建在传输管道中读取、写入和处理邮件的 Exchange 传输应用程序。
+Exchange 2013 提供了一个类库，这些类支持 Exchange 传输行为的扩展，并支持读取、写入和转换内容类型。 可以使用这些类创建用于Exchange、写入和处理传输管道中的邮件的传输应用程序。
   
-## <a name="what-you-need-to-know-about-transport-agents"></a>您需要了解的有关传输代理的信息
+## <a name="what-you-need-to-know-about-transport-agents"></a>您需要了解的传输代理信息
 
-|如果你想要了解 .。。|请参阅这个|
+|如果你想知道...|请参阅这个|
 |:-----|:-----|
-|供应情况  <br/> |传输代理在从 Exchange 2007 开始的 Exchange 版本中可用。 Office 365 或 Exchange Online 不支持传输代理。  <br/> |
-|远程使用情况  <br/> |传输代理在 Exchange 服务器上运行，但不支持远程使用。  <br/> |
-|支持的语言  <br/> |可以使用任何 .NET Framework 语言来处理传输代理。  <br/> |
-|可用测试和调试工具  <br/> |使用 Visual studio 的版本从 Visual Studio 2012 开始，以调试传输代理。  <br/> |
-|部署方法  <br/> |您可以使用[Exchange 命令行管理](../management/exchange-management-shell.md)程序脚本安装传输代理应用程序。  <br/> |
+|可用性  <br/> |传输代理自 2007 Exchange 2007 Exchange版本中可用。 传输代理在传输代理Office 365或Exchange Online。  <br/> |
+|远程使用情况  <br/> |传输代理在 Exchange运行，不支持远程使用。  <br/> |
+|支持的语言  <br/> |可以使用任何.NET Framework语言来使用传输代理。  <br/> |
+|可用测试和调试工具  <br/> |从 2012 Visual Studio版本Visual Studio调试传输代理。  <br/> |
+|部署方法  <br/> |可以使用命令行管理程序脚本安装传输Exchange[应用程序](../management/exchange-management-shell.md)。  <br/> |
    
 ## <a name="in-this-section"></a>本节内容
 
-- [Exchange 2013 中的新的和更新的传输代理 Api](new-and-updated-transport-agent-apis-in-exchange-2013.md)
+- [Exchange 2013 中新增和更新的传输代理 API](new-and-updated-transport-agent-apis-in-exchange-2013.md)
     
 - [Exchange 2013 的传输代理代码示例](transport-agent-code-samples-for-exchange-2013.md)
     
@@ -39,7 +39,7 @@ Exchange 2013 提供了一个类库，其中支持 Exchange 传输行为的扩�
     
 - [读取和修改 Exchange 2013 传输管道中的邮件](reading-and-modifying-messages-in-the-exchange-2013-transport-pipeline.md)
     
-- [创建 Exchange 2013 的传输代理](creating-transport-agents-for-exchange-2013.md)
+- [为 Exchange 2013 创建传输代理](creating-transport-agents-for-exchange-2013.md)
     
 - [Exchange 2013 的传输代理参考](transport-agent-reference-for-exchange-2013.md)
     

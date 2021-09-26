@@ -1,32 +1,32 @@
 ---
-title: EcpUrl-extinstall （POX）
+title: EcpUrl-extinstall (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f81807e6-93de-4e47-afee-1e1ae6a85054
-description: EcpUrl-extinstall 元素指定一个部分 URL，该 URL 可以与 EcpUrl （POX）元素的值结合使用，以生成可用于查看或更改当前安装在用户邮箱中的邮件应用程序的 URL。
-ms.openlocfilehash: 889e0ca3bdcdce4b557fe066db2918fde4abaa9b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: EcpUrl-extinstall 元素指定可以与 EcpUrl (POX) 元素的值组合的部分 URL，以生成可用于查看或更改用户邮箱中当前安装的邮件应用程序的 URL。
+ms.openlocfilehash: bf91b12cbcff3b08b3b13569eac9c957dea12757
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461301"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541418"
 ---
-# <a name="ecpurl-extinstall-pox"></a>EcpUrl-extinstall （POX）
+# <a name="ecpurl-extinstall-pox"></a>EcpUrl-extinstall (POX)
 
-**EcpUrl-extinstall**元素指定一个部分 url，该 url 可以与[EcpUrl （POX）](ecpurl-pox.md)元素的值结合使用，以生成可用于查看或更改当前安装在用户邮箱中的邮件应用程序的 url。 
+**EcpUrl-extinstall** 元素指定可以与 [EcpUrl (POX)](ecpurl-pox.md)元素的值组合的部分 URL，以生成可用于查看或更改用户邮箱中当前安装的邮件应用程序的 URL。 
   
-[自动发现（POX）](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[响应（POX）](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[帐户（POX）](account-pox.md)
+[Account (POX)](account-pox.md)
   
-[协议（POX）](protocol-pox.md)
+[Protocol (POX)](protocol-pox.md)
   
-[EcpUrl-extinstall （POX）](ecpurl-extinstall-pox.md)
+[EcpUrl-extinstall (POX)](ecpurl-extinstall-pox.md)
   
 ```XML
 <EcpUrl-extinstall/>
@@ -48,19 +48,19 @@ ms.locfileid: "44461301"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[协议（POX）](protocol-pox.md) <br/> |包含将客户端连接到运行 Microsoft Exchange Server 且安装了客户端访问服务器角色的计算机的规范。  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |包含用于将客户端连接到运行已安装客户端访问服务器角色Microsoft Exchange Server的计算机的规范。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-Text 值代表可与[EcpUrl （POX）](ecpurl-pox.md)元素的值结合使用的部分 url，以生成可用于查看或更改当前安装在用户邮箱中的邮件应用程序的 url。 
+文本值表示可以与 [EcpUrl (POX) ](ecpurl-pox.md) 元素的值组合的部分 URL，以生成可用于查看或更改当前安装在用户邮箱中的邮件应用程序的 URL。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-**EcpUrl-extinstall**元素是**Protocol**元素的可选子元素。 
+**EcpUrl-extinstall** 元素是 Protocol 元素的可选 **子** 元素。 
   
 ## <a name="see-also"></a>另请参阅
 
 
 
-[Exchange 的 POX 自动发现 XML 元素](pox-autodiscover-xml-elements-for-exchange.md)
+[用于存储的 POX 自动发现 XML Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetInboxRules
 api_type:
 - schema
 ms.assetid: b4b2701a-4a23-4acc-8c75-19f7955ad7ae
-description: GetInboxRules 操作使用 Exchange Web 服务检索已标识用户的邮箱中的收件箱规则。
-ms.openlocfilehash: f4c4c03f55c9f32be4a067024f4387888edd5fe9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetInboxRules 操作使用 Exchange Web 服务检索标识用户邮箱中的收件箱规则。
+ms.openlocfilehash: 3e312ed08494b92c212595d081454b5f2ca6117e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457933"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546250"
 ---
 # <a name="getinboxrules-operation"></a>GetInboxRules 操作
 
-**GetInboxRules**操作使用 Exchange Web 服务检索已标识用户的邮箱中的收件箱规则。 
+**GetInboxRules** 操作Exchange Web 服务检索标识用户邮箱中的收件箱规则。 
   
 ## <a name="getinboxrules-request-example"></a>GetInboxRules 请求示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-下面的示例演示客户端发送到服务器的请求 XML。 请求在[MailboxSmtpAddress](mailboxsmtpaddress.md)元素中标识用户。 标识的用户的所有收件箱规则将在响应中返回。 
+以下示例显示客户端发送到服务器的请求 XML。 请求标识 [MailboxSmtpAddress](mailboxsmtpaddress.md) 元素中的用户。 将在响应中返回标识用户的所有收件箱规则。 
   
 ### <a name="code"></a>代码
 
@@ -48,20 +48,20 @@ ms.locfileid: "44457933"
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Request 元素
+### <a name="request-elements"></a>请求元素
 
-该请求包含以下可选元素：
+请求包括以下可选元素：
   
 - [MailboxSmtpAddress](mailboxsmtpaddress.md)
     
 ## <a name="successful-getinboxrules-response-example"></a>成功的 GetInboxRules 响应示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-下面的简单对象访问协议（SOAP）正文示例显示了对**GetInboxRules**请求的成功响应。 在此示例中，响应包含一个规则。 
+下面的 soap Simple Object Access Protocol (SOAP) 示例显示了 **对 GetInboxRules** 请求的成功响应。 本示例中，响应包含一个规则。 
   
 > [!NOTE]
-> [FolderId](folderid.md)元素的**Id**和**ChangeKey**属性的值已缩短，以保持可读性。 
+> 已缩短 [FolderId](folderid.md)元素 **的 Id** 和 **ChangeKey** 属性的值以保持可读性。 
   
 ### <a name="code"></a>代码
 

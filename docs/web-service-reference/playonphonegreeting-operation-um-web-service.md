@@ -1,32 +1,32 @@
 ---
-title: PlayOnPhoneGreeting 操作（UM web 服务）
+title: PlayOnPhoneGreeting 操作（UM Web 服务）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PlayOnPhoneGreeting
 api_type:
 - schema
 ms.assetid: 6deafc40-290b-4bce-9914-b6bcc529f38a
-description: PlayOnPhoneGreeting 操作发出出站呼叫，并在电话上播放两条问候语消息之一。
-ms.openlocfilehash: 3af120b9ac8d7a368742fad2850c924228488662
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: PlayOnPhoneGreeting 操作进行出站呼叫，并通过电话播放两条问候语消息之一。
+ms.openlocfilehash: 540cd44d35e70e2588446996aec19aeab17f83e9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44528892"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543133"
 ---
-# <a name="playonphonegreeting-operation-um-web-service"></a>PlayOnPhoneGreeting 操作（UM web 服务）
+# <a name="playonphonegreeting-operation-um-web-service"></a>PlayOnPhoneGreeting 操作（UM Web 服务）
 
-PlayOnPhoneGreeting 操作发出出站呼叫，并在电话上播放两条问候语消息之一。
+PlayOnPhoneGreeting 操作进行出站呼叫，并通过电话播放两条问候语消息之一。
   
 ## <a name="playonphonegreeting-request-example"></a>PlayOnPhoneGreeting 请求示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-下面的 PlayOnPhoneGreeting 请求示例演示如何在发出出站呼叫和在电话上播放普通问候语消息时形成请求。
+PlayOnPhoneGreeting 请求的以下示例显示如何形成发出出站呼叫的请求，以及如何在电话上播放常规问候语消息。
   
 ### <a name="code"></a>代码
 
@@ -44,9 +44,9 @@ PlayOnPhoneGreeting 操作发出出站呼叫，并在电话上播放两条问候
 
 ## <a name="successful-playonphonegreeting-response-example"></a>成功的 PlayOnPhoneGreeting 响应示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-下面的 PlayOnPhoneGreeting 响应示例显示对 PlayOnPhoneGreeting 请求的响应。
+PlayOnPhoneGreeting 响应的以下示例显示对 PlayOnPhoneGreeting 请求的响应。
   
 ### <a name="code"></a>代码
 
@@ -65,11 +65,11 @@ PlayOnPhoneGreeting 操作发出出站呼叫，并在电话上播放两条问候
 
 
 
-[PlayOnPhoneGreeting （UM web 服务）](playonphonegreeting-um-web-service.md)
+[PlayOnPhoneGreeting（UM Web 服务）](playonphonegreeting-um-web-service.md)
   
-[PlayOnPhoneGreetingResponse （UM web 服务）](playonphonegreetingresponse-um-web-service.md)
+[PlayOnPhoneGreetingResponse（UM Web 服务）](playonphonegreetingresponse-um-web-service.md)
   
-[GreetingType （UM web 服务）](greetingtype-um-web-service.md)
+[GreetingType（UM Web 服务）](greetingtype-um-web-service.md)
   
-[dialString （UM web 服务）](dialstring-um-web-service.md)
+[dialString（UM Web 服务）](dialstring-um-web-service.md)
 

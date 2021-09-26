@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dd16d1fb-d82d-42e5-b64a-bc6c19c48fa8
-description: GetNonIndexableItemStatistics 元素指定检索 nonindexable 项统计信息的请求。
-ms.openlocfilehash: 4b605379f20f5558566f1cfbad9ef1aa33b6fce6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetNonIndexableItemStatistics 元素指定检索不可检索的项目统计信息的请求。
+ms.openlocfilehash: 7e5b7b586a4fd6a293e62bdc9b7229eeb9f9476f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44452788"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546201"
 ---
 # <a name="getnonindexableitemstatistics"></a>GetNonIndexableItemStatistics
 
-**GetNonIndexableItemStatistics**元素指定检索 nonindexable 项统计信息的请求。 
+**GetNonIndexableItemStatistics** 元素指定检索不可检索的项目统计信息的请求。 
   
 ```XML
 <GetNonIndexableItemStatistics>
@@ -38,13 +38,13 @@ ms.locfileid: "44452788"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[邮箱（NonEmptyArrayOfLegacyDNsType）](mailboxes-nonemptyarrayoflegacydnstype.md) <br/> |指定**邮箱**元素的数组。  <br/> |
+|[Mailboxes (NonEmptyArrayOfLegacyDNsType)](mailboxes-nonemptyarrayoflegacydnstype.md) <br/> |指定 Mailbox 元素 **的** 数组。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -56,7 +56,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
-|验证文件  <br/> |消息 .xsd  <br/> |
+|验证文件  <br/> |messages.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

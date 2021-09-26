@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DisconnectPhoneCall
 api_type:
 - schema
 ms.assetid: b42fb512-2ae4-4072-906a-ccebb85edb84
-description: DisconnectPhoneCall 操作将终止电话呼叫。
-ms.openlocfilehash: e337185bc2d5c4d2d4e010605816eacea8dfa0ee
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DisconnectPhoneCall 操作终止电话呼叫。
+ms.openlocfilehash: 8f445b7e5c6f2f6343ad5b4d2fbff486ca1ab3d8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529061"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542356"
 ---
 # <a name="disconnectphonecall-operation"></a>DisconnectPhoneCall 操作
 
-**DisconnectPhoneCall**操作将终止电话呼叫。 
+**DisconnectPhoneCall** 操作终止电话呼叫。 
   
 ## <a name="disconnectphonecall-request-example"></a>DisconnectPhoneCall 请求示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-以下示例的**DisconnectPhoneCall**请求显示如何形成断开电话呼叫的请求。 
+**DisconnectPhoneCall** 请求的以下示例显示如何形成断开电话呼叫的请求。 
   
 ### <a name="code"></a>代码
 
@@ -51,9 +51,9 @@ ms.locfileid: "44529061"
 
 ## <a name="disconnectphonecall-response-example"></a>DisconnectPhoneCall 响应示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-下面的示例演示对**DisconnectPhoneCall**请求的成功响应。 
+以下示例显示对 **DisconnectPhoneCall** 请求的成功响应。 
   
 ### <a name="code"></a>代码
 
@@ -83,6 +83,6 @@ ms.locfileid: "44529061"
 
 ## <a name="see-also"></a>另请参阅
 
-- [Exchange 中的 EWS 操作](ews-operations-in-exchange.md) 
+- [EWS 操作在Exchange](ews-operations-in-exchange.md) 
 - [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

@@ -1,27 +1,27 @@
 ---
-title: Address （string）
+title: Address (string)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Address
 api_type:
 - schema
 ms.assetid: a3cdfcbd-d0c5-46d6-8daa-52405fc63ff0
 description: Address 元素表示邮箱用户的电子邮件地址。
-ms.openlocfilehash: 839107050f22df5c00cb4dea9c531563df52933d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: a3648246b6be8c4f7d6421fc979a57e782ef3598
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463641"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543798"
 ---
-# <a name="address-string"></a>Address （string）
+# <a name="address-string"></a>Address (string)
 
-**Address**元素表示邮箱用户的电子邮件地址。 
+**Address** 元素表示邮箱用户的电子邮件地址。 
   
 ```xml
 <Address>...</Address>
@@ -44,16 +44,16 @@ ms.locfileid: "44463641"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[电子邮件（EmailAddressType）](email-emailaddresstype.md) <br/> |指定 MailboxData 对象的电子邮件地址。 此元素在[GetUserAvailability 操作](getuseravailability-operation.md)中使用。<br/><br/> 以下是此元素的 XPath：<br/><br/>  `/GetUserAvailabilityRequest/MailboxDataArray/MailboxData[i]/Email` <br/> |
-|[邮箱（可用性）](mailbox-availability.md) <br/> | 表示 SetUserOofSettings 或 GetUserOofSettings 请求的邮箱用户。<br/><br/>  下面是此元素的 XPath 表达式：<br/><br/>  `/GetUserOofSettingsRequest/Mailbox` <br/>  `/SetUserOofSettingsRequest/Mailbox` <br/> |
+|[Email (EmailAddressType)](email-emailaddresstype.md) <br/> |指定 MailboxData 对象的电子邮件地址。 此元素在 [GetUserAvailability 操作中使用](getuseravailability-operation.md)。<br/><br/> 下面是此元素的 XPath：<br/><br/>  `/GetUserAvailabilityRequest/MailboxDataArray/MailboxData[i]/Email` <br/> |
+|[Mailbox (Availability)](mailbox-availability.md) <br/> | 表示 SetUserOofSettings 或 GetUserOofSettings 请求的邮箱用户。<br/><br/>  下面是此元素的 XPath 表达式：<br/><br/>  `/GetUserOofSettingsRequest/Mailbox` <br/>  `/SetUserOofSettingsRequest/Mailbox` <br/> |
    
 ## <a name="text-value"></a>文本值
 
-如果使用此元素，则需要一个 text 值。
+如果此元素已使用，则文本值是必需的。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-此元素最多可在[电子邮件（EmailAddressType）](email-emailaddresstype.md)元素和[邮箱（可用性）](mailbox-availability.md)元素中出现一次。 
+This element can occur at most one time in the [Email (EmailAddressType) ](email-emailaddresstype.md) element and the Mailbox (Availability [) ](mailbox-availability.md) element. 
   
 > [!NOTE]
 > 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。 

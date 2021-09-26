@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ConvertId
 api_type:
 - schema
 ms.assetid: 9684c22c-29d4-4f7f-befc-8cd41da56d38
-description: ConvertId 元素定义了在受支持的 Exchange 格式之间转换项目和文件夹标识符的请求。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
-ms.openlocfilehash: d421baf1f29fb59a8c6eb2b09e1fa0e8a38ffaa4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ConvertId 元素定义一个请求，用于将项目标识符和文件夹标识符转换为受支持的Exchange格式。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
+ms.openlocfilehash: fe7d46697ba72ba6458136541488f5cd498169f4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44452536"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545557"
 ---
 # <a name="convertid"></a>ConvertId
 
-**ConvertId**元素定义了在受支持的 Exchange 格式之间转换项目和文件夹标识符的请求。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
+**ConvertId** 元素定义一个请求，用于将项目标识符和文件夹标识符转换为受支持的Exchange格式。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
   
 ```xml
 <ConvertId DestinationFormat="">
@@ -38,22 +38,22 @@ ms.locfileid: "44452536"
 
 |**属性**|**说明**|
 |:-----|:-----|
-|**DestinationFormat** <br/> |描述将为所有转换的标识符返回的标识符格式。 DestinationFormat 由 IdFormatType 描述。  <br/> |
+|**DestinationFormat** <br/> |描述将为所有转换后的标识符返回的标识符格式。 DestinationFormat 由 IdFormatType 描述。  <br/> |
    
 #### <a name="destinationformat-attribute"></a>DestinationFormat 属性
 
 |**值**|**说明**|
 |:-----|:-----|
-|**EwsLegacyId** <br/> |表示用于 exchange Web 服务标识符的标识符格式，这些标识符在 Exchange 2007 的初始发布版本中提供。  <br/> |
-|**EwsId** <br/> |表示用于从 Exchange Server 2007 SP1 开始的 Exchange Web 服务标识符的标识符格式。  <br/> |
-|**EntryId** <br/> |代表 MAPI 标识符，如 PR_ENTRYID 属性中所示。  <br/> |
-|**HexEntryId** <br/> |表示可用性日历事件标识符。 这是 PR_ENTRYID 属性的十六进制编码表示形式。  <br/> |
-|**StoreId** <br/> |表示 Exchange 存储区标识符。  <br/> |
-|**OwaId** <br/> |表示 Outlook Web Access 标识符格式。  <br/> |
+|**EwsLegacyId** <br/> |表示用于 2007 Exchange发布版本中提供的 Web 服务标识符的标识符Exchange格式。  <br/> |
+|**EwsId** <br/> |表示从 2007 SP1 Exchange Web 服务标识符Exchange Server标识符格式。  <br/> |
+|**EntryId** <br/> |表示 MAPI 标识符，如 PR_ENTRYID 属性。  <br/> |
+|**HexEntryId** <br/> |表示可用性日历事件标识符。 这是一个十六进制编码的 PR_ENTRYID 表示形式。  <br/> |
+|**StoreId** <br/> |表示Exchange标识符。  <br/> |
+|**OwaId** <br/> |代表 Outlook Web Access 标识符格式。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
-|**元素**|**描述**|
+|**元素**|**说明**|
 |:-----|:-----|
 |[SourceIds](sourceids.md) <br/> |包含要转换的源标识符。  <br/> |
    
@@ -61,7 +61,7 @@ ms.locfileid: "44452536"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于正在运行 Microsoft Exchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ExportItems
 api_type:
 - schema
 ms.assetid: e2846abb-0b16-4732-bbd8-038a674672f6
-description: ExportItems 操作将项目从邮箱中导出。
-ms.openlocfilehash: 547a490a27d2414d2eda1d89cdac036a34eddccd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ExportItems 操作将项目从邮箱导出。
+ms.openlocfilehash: b53761f91b15053b0fb79a3c1068a50bce665a67
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526044"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542328"
 ---
 # <a name="exportitems-operation"></a>ExportItems 操作
 
-**ExportItems**操作将项目从邮箱中导出。 
+**ExportItems** 操作将项目从邮箱导出。 
   
 ## <a name="exportitems-request-example"></a>ExportItems 请求示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-以下示例的**ExportItems**请求显示如何构成请求以获取从邮箱导出的三个项目。 
+**ExportItems** 请求的以下示例显示如何形成请求，以从邮箱导出三个项目。 
   
 ### <a name="code"></a>代码
 
@@ -55,11 +55,11 @@ ms.locfileid: "44526044"
 
 ### <a name="comment"></a>评论
 
-示例中的项标识符已缩短，以保持可读性。
+示例中的项目标识符已缩短，以保持可读性。
   
-### <a name="request-elements"></a>Request 元素
+### <a name="request-elements"></a>请求元素
 
-请求中使用以下元素：
+请求中会使用下列元素：
   
 - [RequestServerVersion](requestserverversion.md)
     
@@ -71,9 +71,9 @@ ms.locfileid: "44526044"
     
 ## <a name="successful-exportitems-response-example"></a>成功的 ExportItems 响应示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-下面的示例演示对**ExportItems**请求的成功响应。 
+以下示例显示了对 **ExportItems** 请求的成功响应。 
   
 ### <a name="code"></a>代码
 
@@ -149,11 +149,11 @@ ms.locfileid: "44526044"
 
 ### <a name="comment"></a>评论
 
-示例中的项标识符和更改键已缩短，以保持可读性。
+示例中的项目标识符和更改键已缩短，以保持可读性。
   
 ### <a name="response-elements"></a>Response 元素
 
-响应中使用以下元素：
+响应中会使用下列元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -167,13 +167,13 @@ ms.locfileid: "44526044"
     
 - [ItemId](itemid.md)
     
-- [Data （base64Binary）](data-base64binary.md)
+- [Data (base64Binary)](data-base64binary.md)
     
 ## <a name="exportitems-error-response-example"></a>ExportItems 错误响应示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-下面的示例演示对**ExportItems**请求的响应，其中包含两个错误和一个已成功导出的项目。 成功导出了示例中的第一个项目。 第二个项包含不正确的更改键。 第三项表示尝试从错误的邮箱中导出项目。 
+以下示例显示对 **ExportItems** 请求的响应，该请求包含两个错误和一个成功导出的项目。 成功导出示例中的第一个项目。 第二项包含不正确的更改键。 第三个项目表示尝试从错误邮箱导出项目。 
   
 ### <a name="code"></a>代码
 
@@ -229,11 +229,11 @@ ms.locfileid: "44526044"
 
 ### <a name="comments"></a>备注
 
-示例中的项标识符、更改键和数据已缩短，以保持可读性。
+示例中的项目标识符、更改键和数据已缩短，以保持可读性。
   
 ### <a name="error-response-elements"></a>错误响应元素
 
-错误响应中使用以下元素：
+错误响应中会使用下列元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -247,7 +247,7 @@ ms.locfileid: "44526044"
     
 - [ItemId](itemid.md)
     
-- [Data （base64Binary）](data-base64binary.md)
+- [Data (base64Binary)](data-base64binary.md)
     
 - [MessageText](messagetext.md)
     
@@ -258,7 +258,7 @@ ms.locfileid: "44526044"
 - **值**
     
 > [!NOTE]
-> 架构中不存在**Value**元素。 此元素是有效的，因为**Value** instance 元素中出现的[MessageXml](messagexml.md)元素可以包含任何格式良好的 XML。 
+> **Value** 元素在架构中不存在。 此元素有效，因为发生 **Value** 实例元素的 [MessageXml](messagexml.md)元素可以包含任何格式良好的 XML。 
   
 ## <a name="see-also"></a>另请参阅
 
@@ -267,7 +267,7 @@ ms.locfileid: "44526044"
 [UploadItems 操作](uploaditems-operation.md)
 
 
-[Exchange 中的 EWS 操作](ews-operations-in-exchange.md)
+[EWS 操作在Exchange](ews-operations-in-exchange.md)
   
 - [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

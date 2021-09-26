@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DeliveryRestricted
 api_type:
 - schema
 ms.assetid: 05989915-121c-4f26-93cc-af8d454ab442
-description: DeliveryRestricted 元素指示传递限制是否将阻止发件人的邮件到达收件人。
-ms.openlocfilehash: 58fc85873326179d7745db4ba7d4854a76ced6a7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DeliveryRestricted 元素指示传递限制是否会阻止发件人的邮件到达收件人。
+ms.openlocfilehash: 1df5254a284989a8ffc02a8c650eaf69b2214583
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462687"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545361"
 ---
 # <a name="deliveryrestricted"></a>DeliveryRestricted
 
-**DeliveryRestricted**元素指示传递限制是否将阻止发件人的邮件到达收件人。 
+**DeliveryRestricted** 元素指示传递限制是否会阻止发件人的邮件到达收件人。 
   
 ```XML
 <DeliveryRestricted>true | false</DeliveryRestricted>
@@ -44,11 +44,11 @@ ms.locfileid: "44462687"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[邮件提示](mailtips.md) <br/> |表示各种邮件提示类型的值。  <br/> |
+|[邮件提示](mailtips.md) <br/> |表示各种类型的邮件提示的值。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-如果传递限制将阻止发件人的邮件到达收件人，则此元素的文本值为**true** 。 如果传递限制不会阻止发件人的邮件到达收件人，则该值为**false** 。 
+如果传递限制将阻止发件人的邮件到达 **收件人** ，则此元素的文本值为 true。 如果传递限制不会阻止发件人的邮件到达收件人，则值为 **false。** 
   
 ## <a name="remarks"></a>说明
 

@@ -1,23 +1,23 @@
 ---
-title: 操作（ArrayOfSetClientExtensionActionsType）
+title: Actions (ArrayOfSetClientExtensionActionsType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5ff4e97e-c64c-4742-88ca-7cbe39e597e1
-description: Actions 元素标识要对客户端扩展执行的一组操作。
-ms.openlocfilehash: 1790907f40bd839ffa56ad7ae45c0cc7f3fa412d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Actions 元素标识对客户端扩展执行的操作数组。
+ms.openlocfilehash: c5f136c58af0b43ba26fbd8a70b97965fbe1e773
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465070"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544400"
 ---
-# <a name="actions-arrayofsetclientextensionactionstype"></a>操作（ArrayOfSetClientExtensionActionsType）
+# <a name="actions-arrayofsetclientextensionactionstype"></a>Actions (ArrayOfSetClientExtensionActionsType)
 
-**Actions**元素标识要对客户端扩展执行的一组操作。 
+**Actions** 元素标识对客户端扩展执行的操作数组。 
   
 ```XML
 <Actions>
@@ -36,13 +36,13 @@ ms.locfileid: "44465070"
   
 ### <a name="child-elements"></a>子元素
 
-[Action （SetClientExtensionActionType）](action-setclientextensionactiontype.md)
+[Action (SetClientExtensionActionType)](action-setclientextensionactiontype.md)
   
 ### <a name="parent-elements"></a>父元素
 
 [SetClientExtension](setclientextension.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

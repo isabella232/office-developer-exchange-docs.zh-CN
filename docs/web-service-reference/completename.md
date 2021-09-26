@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CompleteName
 api_type:
 - schema
 ms.assetid: 22d30d1f-a84d-48bb-ad8f-ce13f8e76604
 description: CompleteName 元素表示联系人的完整名称。
-ms.openlocfilehash: 9b5d2646ec37b41cd88d7de61573bfb4a8746cdf
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 873d372657089d21e86025cdf7812659ac505491
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527171"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543553"
 ---
 # <a name="completename"></a>CompleteName
 
-**CompleteName**元素表示联系人的完整名称。 
+**CompleteName** 元素表示联系人的完整名称。 
   
 ```xml
 <CompleteName>
@@ -51,16 +51,16 @@ ms.locfileid: "44527171"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Title](title.md) <br/> |代表联系人的标题。  <br/> |
+|[Title](title.md) <br/> |表示联系人的标题。  <br/> |
 |[FirstName](firstname.md) <br/> |表示联系人的名字。  <br/> |
 |[MiddleName](middlename.md) <br/> |表示联系人的中间名。  <br/> |
 |[LastName](lastname.md) <br/> |表示联系人的姓氏。  <br/> |
 |[后缀](suffix.md) <br/> |表示联系人姓名的后缀。  <br/> |
-|[缩写](initials.md) <br/> |代表联系人的缩写。  <br/> |
-|[FullName](fullname.md) <br/> |表示联系人的完整名称。  <br/> |
-|[昵称](nickname.md) <br/> |表示联系人的昵称。  <br/> |
-|[YomiFirstName](yomifirstname.md) <br/> |代表在日本用于日语名的可搜索或语音拼写的名称。  <br/> |
-|[YomiLastName](yomilastname.md) <br/> |代表在日本用于日语姓氏的可搜索或语音拼写的名称。  <br/> |
+|[缩写](initials.md) <br/> |表示联系人的缩写。  <br/> |
+|[FullName](fullname.md) <br/> |表示联系人的全名。  <br/> |
+|[Nickname](nickname.md) <br/> |表示联系人的昵称。  <br/> |
+|[YomiFirstName](yomifirstname.md) <br/> |表示用于日语名字的可搜索或拼音拼写的日本名称。  <br/> |
+|[YomiLastName](yomilastname.md) <br/> |表示用于日语姓氏的可搜索或拼音拼写的日本名称。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -70,7 +70,7 @@ ms.locfileid: "44527171"
    
 ## <a name="remarks"></a>说明
 
-CompleteName 属性是[默认](https://docs.microsoft.com/dotnet/api/exchangewebservices.defaultshapenamestype?view=exchange-ews-proxy)形状的一部分。 在 Microsoft Exchange Server 2007 的初始发行版中，CompleteName 属性由[GetItem 操作](getitem-operation.md)返回，而不是由[FindItem 操作](finditem-operation.md)返回。 从 Exchange Server 2007 Service Pack 1 （SP1）开始， [FindItem 操作](finditem-operation.md)还将返回具有[默认](https://docs.microsoft.com/dotnet/api/exchangewebservices.defaultshapenamestype?view=exchange-ews-proxy)形状的 CompleteName 属性。 此更改不会影响架构。 
+CompleteName 属性是默认形状 [的一](https://docs.microsoft.com/dotnet/api/exchangewebservices.defaultshapenamestype?view=exchange-ews-proxy) 部分。 在 2007 Microsoft Exchange Server版本中[，CompleteName](getitem-operation.md)属性由 GetItem 操作返回，而不是[由 FindItem 操作返回](finditem-operation.md)。 从 Exchange Server 2007 Service Pack 1 (SP1) 开始[，FindItem 操作](finditem-operation.md)还返回具有["](https://docs.microsoft.com/dotnet/api/exchangewebservices.defaultshapenamestype?view=exchange-ews-proxy)默认"形状的 CompleteName 属性。 此更改不会影响架构。 
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

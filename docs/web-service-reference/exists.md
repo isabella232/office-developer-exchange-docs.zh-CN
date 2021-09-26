@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Exists
 api_type:
 - schema
 ms.assetid: 55d568bd-8dbc-4d50-b9d7-54b74a54d4b5
 description: Exists 元素表示搜索表达式，如果某个项目上存在，则该表达式会返回 true。
-ms.openlocfilehash: b5e7a24c5214574ef385cd6ffca87ed5f861c188
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 992283d42f2060b7408f40289198bdbd22e71ec6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456946"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541404"
 ---
 # <a name="exists"></a>Exists
 

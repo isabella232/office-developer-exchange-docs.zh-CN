@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - EventType
 api_type:
 - schema
 ms.assetid: 04b70f9e-c226-4130-958e-0db0275cf58b
-description: 事件类型元素用于创建订阅并标识要在通知中报告的事件类型。
-ms.openlocfilehash: 58c7ce571434b6fb8ac0b1dc2a3f8cd4fd56ff17
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: EventType 元素用于创建订阅并标识通知中要报告的事件类型。
+ms.openlocfilehash: 7378ba45b155281df9e00ad635b7c6970a270f2c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526170"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545214"
 ---
 # <a name="eventtype"></a>EventType
 
-事件**类型元素用于**创建订阅并标识要在通知中报告的事件类型。 
+**EventType** 元素用于创建订阅并标识通知中要报告的事件类型。 
   
 ```xml
 <EventType/>
@@ -64,7 +64,7 @@ ms.locfileid: "44526170"
     
 - FreeBusyChangedEvent
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   
@@ -85,5 +85,5 @@ ms.locfileid: "44526170"
   
 [GetEvents 操作](getevents-operation.md)
   
-[取消订阅操作](unsubscribe-operation.md)
+[Unsubscribe 操作](unsubscribe-operation.md)
 

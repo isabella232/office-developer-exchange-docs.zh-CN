@@ -1,30 +1,30 @@
 ---
-title: AutoDiscoverSMTPAddress （POX）
+title: AutoDiscoverSMTPAddress (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7763d11a-b338-4a02-8a01-938859c05dfb
 description: AutoDiscoverSMTPAddress 元素包含用于自动发现过程的用户的 SMTP 地址。
-ms.openlocfilehash: cd40fac8b7ab4eaa9ea50e82d6fc8bdbd4c3c7b1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: cb5871eee3cf61d388ad83b53df2bad733722d4e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463949"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543679"
 ---
-# <a name="autodiscoversmtpaddress-pox"></a>AutoDiscoverSMTPAddress （POX）
+# <a name="autodiscoversmtpaddress-pox"></a>AutoDiscoverSMTPAddress (POX)
 
-**AutoDiscoverSMTPAddress**元素包含用于自动发现过程的用户的 SMTP 地址。 
+**AutoDiscoverSMTPAddress** 元素包含用于自动发现过程的用户的 SMTP 地址。 
   
-- [自动发现（POX）](autodiscover-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md)
   
-- [响应（POX）](response-pox.md)
+- [Response (POX)](response-pox.md)
   
-- [User （POX）](user-pox.md)
+- [User (POX)](user-pox.md)
   
-- [AutoDiscoverSMTPAddress （POX）](autodiscoversmtpaddress-pox.md)
+- [AutoDiscoverSMTPAddress (POX)](autodiscoversmtpaddress-pox.md)
   
 ```XML
 <AutoDiscoverSMTPAddress/>
@@ -46,17 +46,17 @@ ms.locfileid: "44463949"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[User （POX）](user-pox.md) <br/> |提供用户特定的信息。  <br/> |
+|[User (POX)](user-pox.md) <br/> |提供特定于用户的信息。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-Text 值表示用于自动发现过程的用户的 SMTP 地址。
+文本值表示用于自动发现过程的用户的 SMTP 地址。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-**AutoDiscoverSMTPAddress**元素是**User**元素的可选子元素。 
+**AutoDiscoverSMTPAddress** 元素是 **User** 元素的可选子元素。 
   
 ## <a name="see-also"></a>另请参阅
 
-- [Exchange 的 POX 自动发现 XML 元素](pox-autodiscover-xml-elements-for-exchange.md)
+- [用于存储的 POX 自动发现 XML Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

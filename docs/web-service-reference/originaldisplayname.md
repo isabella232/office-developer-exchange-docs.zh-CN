@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1a5289b7-a631-4c24-ae46-b86dd72f15f9
-description: OriginalDisplayName 元素包含与电子邮件地址关联的原始显示名称。
-ms.openlocfilehash: 8808b9b45b0e0c009ff884129631f6aabde541e7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: OriginalDisplayName 元素包含与显示名称关联的原始名称。
+ms.openlocfilehash: bcb1b22115bd9e7773f3f264dbf4cc7069fed383
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462379"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544008"
 ---
 # <a name="originaldisplayname"></a>OriginalDisplayName
 
-**OriginalDisplayName**元素包含与电子邮件地址关联的原始显示名称。 
+**OriginalDisplayName** 元素包含与显示名称关联的原始名称。 
   
 ```XML
 <OriginalDisplayName></OriginalDisplayName>
@@ -38,13 +38,13 @@ ms.locfileid: "44462379"
   
 ### <a name="parent-elements"></a>父元素
 
-[SendingAs](sendingas.md)  | [邮箱](mailbox.md)  | [EmailAddress （EmailAddressType）](emailaddress-emailaddresstype.md)  | [RoomList](roomlist.md)  | [ActingAs](actingas.md)  | [发件人（EmailAddressType）](sender-emailaddresstype.md)  | [PurportedSender](purportedsender.md)  | [收件人](recipient.md)  | [FederatedDeliveryMailbox](federateddeliverymailbox.md)  | [RecipientFilter](recipientfilter.md)  | [地址（EmailAddressType）](address-emailaddresstype.md)  | [Id （EmailAddressType）](id-emailaddresstype.md)  | [Value （EmailAddressType）](value-emailaddresstype.md)
+[SendingAs](sendingas.md)  | [邮箱](mailbox.md)  | [EmailAddress (EmailAddressType) ](emailaddress-emailaddresstype.md)  | [RoomList](roomlist.md)  | [ActingAs](actingas.md)  | [Sender (EmailAddressType) ](sender-emailaddresstype.md)  | [PurportedSender](purportedsender.md)  | [Recipient](recipient.md)  | [FederatedDeliveryMailbox](federateddeliverymailbox.md)  | [RecipientFilter](recipientfilter.md)  | [Address (EmailAddressType) ](address-emailaddresstype.md)  | [EmailAddressType (Id) ](id-emailaddresstype.md)  | [值 (EmailAddressType) ](value-emailaddresstype.md)
   
 ## <a name="text-value"></a>文本值
 
-**OriginalDisplayName**元素的文本值是与电子邮件地址关联的原始显示名称。 
+**OriginalDisplayName** 元素的文本值是显示名称电子邮件地址关联的原始值。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

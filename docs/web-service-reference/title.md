@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Title
 api_type:
 - schema
 ms.assetid: 089c2e7c-38d1-4245-8d97-646b6a720d10
-description: Title 元素表示联系人的职务。
-ms.openlocfilehash: a9948d7a9d48e8cdb03d676992cad342861bb211
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Title 元素表示联系人的标题。
+ms.openlocfilehash: 9894b32379760b3c6364c84bfee8f11b1a649c80
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468752"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545774"
 ---
 # <a name="title"></a>标题
 
-**Title**元素表示联系人的职务。 
+**Title** 元素表示联系人的标题。 
   
 ```xml
 <Title/>
@@ -48,7 +48,7 @@ ms.locfileid: "44468752"
    
 ## <a name="text-value"></a>文本值
 
-Text 值是一个字符串，表示联系人的职务。
+文本值是一个字符串，表示联系人的标题。
   
 ## <a name="remarks"></a>说明
 

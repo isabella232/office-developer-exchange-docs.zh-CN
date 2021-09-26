@@ -1,24 +1,24 @@
 ---
-title: RequestedSettings （SOAP）
+title: RequestedSettings (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 8d713d22-580c-49a5-99f5-ee532443e89a
-description: RequestedSettings 元素包含所请求的配置设置的名称。
-ms.openlocfilehash: e94c02d8f92d7aaac619c58f093c536cc1a098bf
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: RequestedSettings 元素包含请求的配置设置的名称。
+ms.openlocfilehash: b8f3beabdd231d964cb5661a7cdd06f3860f0e06
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465294"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542825"
 ---
-# <a name="requestedsettings-soap"></a>RequestedSettings （SOAP）
+# <a name="requestedsettings-soap"></a>RequestedSettings (SOAP)
 
-**RequestedSettings**元素包含所请求的配置设置的名称。 
+**RequestedSettings** 元素包含请求的配置设置的名称。 
   
 ```XML
 <RequestedSettings>
@@ -39,15 +39,15 @@ ms.locfileid: "44465294"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[设置（SOAP）](setting-soap.md) <br/> |表示要返回的配置设置。  <br/> |
+|[Setting (SOAP)](setting-soap.md) <br/> |表示要返回的配置设置。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GetUserSettingsRequest （SOAP）](getusersettingsrequest-soap.md) <br/> |表示检索一个或多个用户的指定设置的请求。  <br/> |
+|[GetUserSettingsRequest (SOAP)](getusersettingsrequest-soap.md) <br/> |表示检索一个或多个用户的指定设置的请求。  <br/> |
 |[请求 (SOAP)](request-soap.md) <br/> |包含请求的配置设置和目标用户。  <br/> |
-|[GetDomainSettingsRequest （SOAP）](getdomainsettingsrequest-soap.md) <br/> |表示[GetDomainSettings 操作（SOAP）](getdomainsettings-operation-soap.md)请求。  <br/> |
+|[GetDomainSettingsRequest (SOAP)](getdomainsettingsrequest-soap.md) <br/> |表示 [SOAP 请求 (GetDomainSettings) ](getdomainsettings-operation-soap.md) 操作。  <br/> |
    
 ## <a name="element-information"></a>元素信息
 

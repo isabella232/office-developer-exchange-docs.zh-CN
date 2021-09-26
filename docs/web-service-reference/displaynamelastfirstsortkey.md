@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 113b049f-69a1-40a3-ab98-8a2facd32391
-description: DisplayNameLastFirstSortKey 元素包含姓氏、名字顺序中的显示名称的排序关键字。
-ms.openlocfilehash: 04f6ea5ab128a2ce9f7e6090ac260eae0ee4c722
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DisplayNameLastFirstSortKey 元素包含按姓氏、名字显示名称排序键。
+ms.openlocfilehash: 16c733730d6270420c8914ba72fff53de895a771
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530865"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543301"
 ---
 # <a name="displaynamelastfirstsortkey"></a>DisplayNameLastFirstSortKey
 
-**DisplayNameLastFirstSortKey**元素包含姓氏、名字顺序中的显示名称的排序关键字。 
+**DisplayNameLastFirstSortKey** 元素包含按姓氏、名字显示名称排序键。 
   
 ```XML
 <DisplayNameLastFirstSortKey></DisplayNameLastFirstSortKey>
@@ -42,9 +42,9 @@ ms.locfileid: "44530865"
   
 ## <a name="text-value"></a>文本值
 
-**DisplayNameLastFirstSortKey**元素的文本值是姓、名顺序中的角色名称的排序关键字。 
+**DisplayNameLastFirstSortKey** 元素的文本值是按姓氏、名字顺序命名的排序键。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

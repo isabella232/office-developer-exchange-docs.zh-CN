@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4609903b-c071-4a16-98d2-05686828cc56
 description: UrlEntity 元素标识单个提取的 URL 实体。
-ms.openlocfilehash: 2990d99009a18af8ba588244b055eb4e2d461b9c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: f193b849e7e7c3395169f653673842dbd127ba5b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465013"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542720"
 ---
 # <a name="urlentity"></a>UrlEntity
 
-**UrlEntity**元素标识单个提取的 URL 实体。 
+**UrlEntity** 元素标识单个提取的 URL 实体。 
   
 ```XML
 <UrlEntity>
@@ -37,13 +37,13 @@ ms.locfileid: "44465013"
   
 ### <a name="child-elements"></a>子元素
 
-[位置](position.md)  | [Url](url-ex15websvcsotherref.md)
+[Position](position.md)  | [Url](url-ex15websvcsotherref.md)
   
 ### <a name="parent-elements"></a>父元素
 
-[Url （ArrayOfUrlEntitiesType）](urls-arrayofurlentitiestype.md)
+[Urls (ArrayOfUrlEntitiesType)](urls-arrayofurlentitiestype.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

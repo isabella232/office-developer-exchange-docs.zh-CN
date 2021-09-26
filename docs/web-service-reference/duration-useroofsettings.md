@@ -1,27 +1,27 @@
 ---
-title: 持续时间（UserOofSettings）
+title: Duration (UserOofSettings)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Duration
 api_type:
 - schema
 ms.assetid: 01d67af3-658e-4acd-93e3-441ae827fdd3
-description: Duration 元素指定将 OofState 元素设置为 "计划" 时，"外出" （OOF）状态为 "已启用" 的持续时间。
-ms.openlocfilehash: 0ba0f1ea7498781c0cccb072c7ea0fa05414764c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Duration 元素指定当 OofState 元素设置为 Scheduled 时 (外出或 OOF) 状态启用的持续时间。
+ms.openlocfilehash: cb6529bfe3799ff41550d7fe3ce2c79b8a4197e2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457296"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544155"
 ---
-# <a name="duration-useroofsettings"></a>持续时间（UserOofSettings）
+# <a name="duration-useroofsettings"></a>Duration (UserOofSettings)
 
-**Duration**元素指定将[OofState](oofstate.md)元素设置为 "**计划**" 时，"外出" （OOF）状态为 "已启用" 的持续时间。
+**Duration** 元素指定当 [OofState](oofstate.md)元素设置为 Scheduled 时 (外出 OOF) 状态 **启用的持续时间**。
   
 ```XML
 <Duration>
@@ -43,8 +43,8 @@ ms.locfileid: "44457296"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[StartTime](starttime.md) <br/> |表示具有 OOF 状态的时间范围集的开始时间。 此元素是必需的。  <br/> |
-|[EndTime](endtime.md) <br/> |表示具有 OOF 状态的时间范围设置的结束时间。 此元素是必需的。  <br/> |
+|[StartTime](starttime.md) <br/> |代表使用 OOF 状态设置的时间跨度的开始时间。 此元素是必需的。  <br/> |
+|[EndTime](endtime.md) <br/> |表示使用 OOF 状态设置的结束时间跨度。 此元素是必需的。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -52,17 +52,17 @@ ms.locfileid: "44457296"
 |:-----|:-----|
 |[UserOofSettings](useroofsettings.md) <br/> |指定 OOF 设置。  <br/><br/>下面是此元素的 XPath 表达式： <br/><br/>`/SetUserOofSettingsRequest/UserOofSettings` <br/> |
 |[OofSettings](oofsettings.md) <br/> |包含 OOF 设置。<br/><br/>下面是此元素的 XPath 表达式： <br/><br/>`/GetUserOofSettingsResponse/OofSettings` <br/> |
-|[外出](outofoffice.md) <br/> |定义 "外出（OOF）" 响应消息和发送邮箱响应邮件的持续时间。  <br/> |
+|[OutOfOffice](outofoffice.md) <br/> |定义 Out of Office (OOF) 响应邮件和发送邮箱响应邮件的持续时间。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-**持续时间**类型也是[DetailedSuggestionsWindow](detailedsuggestionswindow.md)、 [TimeWindow](timewindow.md)和[外出](outofoffice.md)元素的类型。 
+**Duration** 类型也是 [DetailedSuggestionsWindow、TimeWindow](detailedsuggestionswindow.md)[](timewindow.md)和 [OutOfOffice 元素](outofoffice.md)的类型。 
   
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   
 ## <a name="example"></a>示例
 
-以下示例的[SetUserOofSettings 操作](setuseroofsettings-operation.md)请求将[OofState](oofstate.md)设置为 "**启用**"、"内部和外部 OOF" 邮件，并将 "oof" 的持续时间设置为10天。
+[SetUserOofSettings](setuseroofsettings-operation.md)操作请求的以下示例将 [OofState](oofstate.md)设置为 **Enabled、** 内部和外部 OOF 邮件，并设置 OOF 的持续时间为 10 天。
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

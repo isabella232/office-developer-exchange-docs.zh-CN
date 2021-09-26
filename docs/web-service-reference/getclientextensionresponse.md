@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ef4b1aba-a55d-4d64-ac80-5d4e6c4e72bd
-description: GetClientExtensionResponse 元素包含获取有关应用程序的配置信息的响应。
-ms.openlocfilehash: 65c1995fe75b3894607d27ed65548fbbdce0664a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetClientExtensionResponse 元素包含用于获取应用配置信息的响应。
+ms.openlocfilehash: 6a29ad81bb69a8d1f959b2e17d5cbf48faeca516
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459516"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546341"
 ---
 # <a name="getclientextensionresponse"></a>GetClientExtensionResponse
 
-**GetClientExtensionResponse**元素包含获取有关应用程序的配置信息的响应。 
+**GetClientExtensionResponse** 元素包含用于获取应用配置信息的响应。 
   
 ```XML
 <GetClientExtensionResponse>
@@ -47,7 +47,7 @@ ms.locfileid: "44459516"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

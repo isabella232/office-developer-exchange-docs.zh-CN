@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 40238799-25f0-431c-91be-34b915110f03
-description: InlineImageUrlTemplate 元素指定嵌入式图像 URL 的模板。
-ms.openlocfilehash: 2cb9cd31d1adf0c6fecf803a8b42bc88330a14d1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: InlineImageUrlTemplate 元素指定内嵌图像 URL 的模板。
+ms.openlocfilehash: a209d030f9f6ede56dd790731f6d1b36c8f886ac
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468731"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542202"
 ---
 # <a name="inlineimageurltemplate"></a>InlineImageUrlTemplate
 
-**InlineImageUrlTemplate**元素指定嵌入式图像 URL 的模板。 
+**InlineImageUrlTemplate** 元素指定内嵌图像 URL 的模板。 
   
 ```XML
 <InlineImageUrlTemplate></InlineImageUrlTemplate>
@@ -40,13 +40,13 @@ ms.locfileid: "44468731"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ItemShape](itemshape.md) <br/> |标识要在[GetItem 操作](getitem-operation.md)、 [FindItem 操作](finditem-operation.md)或[SyncFolderItems 操作](syncfolderitems-operation.md)响应中返回的一组属性。  <br/> |
+|[ItemShape](itemshape.md) <br/> |标识要返回 [GetItem](getitem-operation.md)操作 [、FindItem 操作](finditem-operation.md)或 [SyncFolderItems 操作响应中的一组](syncfolderitems-operation.md) 属性。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**InlineImageUrlTemplate**元素的文本值指定嵌入式图像 URL 的模板。 
+**InlineImageUrlTemplate** 元素的文本值指定内嵌图像 URL 的模板。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -58,7 +58,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

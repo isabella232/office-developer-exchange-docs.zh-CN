@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d9264e74-eba7-4279-b193-af7e5130268d
-description: ApiVersionSupported 元素包含客户端支持的适用于 Office 的 JavaScript API 版本。
-ms.openlocfilehash: 0129a33624b48d309ad0814af6eaa655b2c4e6f9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ApiVersionSupported 元素包含 JavaScript API 的版本，Office客户端支持的版本。
+ms.openlocfilehash: 4b3034e05e294564b73d99f706d325d7d75b4f88
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466057"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543713"
 ---
 # <a name="apiversionsupported"></a>ApiVersionSupported
 
-**ApiVersionSupported**元素包含客户端支持的适用于 Office 的 JavaScript API 版本。 
+**ApiVersionSupported** 元素包含 JavaScript API 的版本，Office客户端支持的版本。 
   
 ```XML
 <ApiVersionSupported />
@@ -38,11 +38,11 @@ ms.locfileid: "44466057"
   
 ### <a name="parent-elements"></a>父元素
 
-[Getappmanifests 已](getappmanifests.md)
+[GetAppManifests](getappmanifests.md)
   
 ## <a name="text-value"></a>文本值
 
-**ApiVersionSupported**元素的文本值包含客户端支持的适用于 Office 的 JavaScript API 版本。 此值指示应在响应中向客户端返回哪些应用程序清单。 
+**ApiVersionSupported** 元素的文本值包含 JavaScript API 的版本，Office客户端支持的版本。 此值指示响应中应返回到客户端的应用清单。 
   
 ## <a name="remarks"></a>说明
 
@@ -59,6 +59,6 @@ Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
    
 ## <a name="see-also"></a>另请参阅
 
-- [Getappmanifests 已](getappmanifests.md)
+- [GetAppManifests](getappmanifests.md)
 - [Exchange 中的 EWS XML 元素](ews-xml-elements-in-exchange.md)
 

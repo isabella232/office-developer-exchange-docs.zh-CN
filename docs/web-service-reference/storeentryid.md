@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f536e264-8c4d-4cc5-bab8-22a4fa38de39
-description: StoreEntryId 元素包含项目的 Exchange 存储标识符。
-ms.openlocfilehash: 669ea937da6c08b50877c24aeb450fe975326247
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: StoreEntryId 元素包含Exchange存储标识符。
+ms.openlocfilehash: 7ffd1d2ab6f68e772f27447b48fc305213aaed78
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465154"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544554"
 ---
 # <a name="storeentryid"></a>StoreEntryId
 
-**StoreEntryId**元素包含项目的 Exchange 存储标识符。 
+**StoreEntryId** 元素包含Exchange存储标识符。 
   
 ```XML
 <StoreEntryId/>
 ```
 
- **xs： base64Binary**
+ **xs：base64Binary**
 ## <a name="attributes-and-elements"></a>属性和元素
 
 下面各部分介绍了属性、子元素和父元素。
@@ -46,8 +46,8 @@ ms.locfileid: "44465154"
 |[联系人](contact.md) <br/> |表示对 Exchange 存储中的联系人项目。  <br/> |
 |[DeclineItem](declineitem.md) <br/> |表示谢绝答复会议要求。  <br/> |
 |[DistributionList](distributionlist.md) <br/> |表示通讯组列表。  <br/> |
-|[异常](exceptions.md) <br/> |代表收件箱规则的所有可用的规则例外条件。  <br/> |
-|[项](item.md) <br/> |表示通用 Exchange 项。  <br/> |
+|[异常](exceptions.md) <br/> |代表收件箱规则的所有可用规则例外条件。  <br/> |
+|[项目](item.md) <br/> |表示常规Exchange项。  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |表示 Exchange 存储中的会议取消。  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |表示 Exchange 存储中的会议。  <br/> |
 |[MeetingRequest](meetingrequest.md) <br/> |表示 Exchange 存储中的会议请求。  <br/> |
@@ -59,7 +59,7 @@ ms.locfileid: "44465154"
    
 ## <a name="text-value"></a>文本值
 
-Text 值是一个字符串，表示存储项的标识符。
+文本值是表示存储项标识符的字符串。
   
 ## <a name="remarks"></a>说明
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PrincipalName
 api_type:
 - schema
 ms.assetid: 88c142d4-0bc7-43ea-a997-d7200664d900
-description: PrincipalName 元素表示要用于 Exchange 模拟的帐户的用户主体名称（UPN）。
-ms.openlocfilehash: 31412c1461264e28bf8d52c957a457e8d1e847ef
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: PrincipalName 元素表示要用于 (帐户 (UPN) 用户主体Exchange名称。
+ms.openlocfilehash: f3cc23b1cab69e166b59d7c358f663772e71ea09
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44440188"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543014"
 ---
 # <a name="principalname"></a>PrincipalName
 
-**PrincipalName**元素表示要用于 Exchange 模拟的帐户的用户主体名称（UPN）。 
+**PrincipalName** 元素表示要用于 (模拟) 帐户的用户主体名称EXCHANGE UPN。 
   
 ```xml
 <PrincipalName/>
@@ -48,11 +48,11 @@ ms.locfileid: "44440188"
    
 ## <a name="text-value"></a>文本值
 
-该文本值表示用户的 UPN。 此值存在于 Active Directory 目录服务中的 user 对象上。 这包含用户登录名和域名，该域名用于标识用户帐户所在域的名称，格式如下： `someone@example.com` 。
+文本值表示用户的 UPN。 此值存在于 Active Directory 目录服务中的用户对象上。 其中包含用户登录名和用于标识用户帐户所在的域的域名，格式如下：  `someone@example.com` 。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-描述此元素的架构位于运行 Microsoft Exchange Server 2010 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
+描述此元素的架构位于运行安装了客户端访问服务器角色的 Microsoft Exchange Server 2010 的计算机的 EWS 虚拟目录中。
   
 ## <a name="element-information"></a>元素信息
 

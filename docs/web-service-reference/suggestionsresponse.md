@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SuggestionsResponse
 api_type:
 - schema
 ms.assetid: d25ca143-f80c-4458-b669-346fda29a5a7
 description: SuggestionsResponse 元素包含请求的会议建议的响应状态信息和建议数据。
-ms.openlocfilehash: cba344f3f97777580c2cc6d296f110f20b550063
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 92dfac3cc0a6ddce9485a8cb266f072795b18bd5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466652"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544526"
 ---
 # <a name="suggestionsresponse"></a>SuggestionsResponse
 
-**SuggestionsResponse**元素包含请求的会议建议的响应状态信息和建议数据。 
+**SuggestionsResponse** 元素包含请求的会议建议的响应状态信息和建议数据。 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -48,7 +48,7 @@ ms.locfileid: "44466652"
 |**元素**|**说明**|
 |:-----|:-----|
 |[ResponseMessage](responsemessage.md) <br/> |提供有关响应状态的描述性信息。  <br/> |
-|[SuggestionDayResultArray](suggestiondayresultarray.md) <br/> |包含按日期组织的会议建议的数组。  <br/> |
+|[SuggestionDayResultArray](suggestiondayresultarray.md) <br/> |包含按日期组织的会议建议数组。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -56,9 +56,9 @@ ms.locfileid: "44466652"
 |:-----|:-----|
 |[GetUserAvailabilityResponse](getuseravailabilityresponse.md) <br/> |包含请求的用户的可用性信息。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/GetUserAvailabilityResponse` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-如果 GetUserAvailability 请求消息中未设置[SuggestionsViewOptions](suggestionsviewoptions.md) ，则此元素不包含在 GetUserAvailability 响应中。 
+如果未在 GetUserAvailability 请求消息中设置 [SuggestionsViewOptions，](suggestionsviewoptions.md) 则 GetUserAvailability 响应中不包含此元素。 
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

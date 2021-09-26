@@ -1,30 +1,30 @@
 ---
-title: TelephoneAccessFolderEmail （UM web 服务）
+title: TelephoneAccessFolderEmail（UM Web 服务）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - TelephoneAccessFolderEmail
 api_type:
 - schema
 ms.assetid: 5d32ae22-bb9f-4352-a251-d516b66ff35b
-description: TelephoneAccessFolderEmail 元素包含一个值，该值指定了统一消息将通过电话读取邮件的电子邮件文件夹的标识符，该文件夹包含在对 GetUMProperties 操作（UM web 服务）请求的响应中。
-ms.openlocfilehash: 8da4065921b736313d4bbf5bb96edb51761a4bdb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: TelephoneAccessFolderEmail 元素包含一个值，该值指定电子邮件文件夹的标识符，统一消息将通过电话读取邮件，如 GetUMProperties 操作 (UM Web 服务) 请求的响应中包含的内容。
+ms.openlocfilehash: 2db1ca43168585d791d0d09a4042cf5af7a578e7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468626"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544505"
 ---
-# <a name="telephoneaccessfolderemail-um-web-service"></a>TelephoneAccessFolderEmail （UM web 服务）
+# <a name="telephoneaccessfolderemail-um-web-service"></a>TelephoneAccessFolderEmail（UM Web 服务）
 
-**TelephoneAccessFolderEmail**元素包含一个值，该值指定了统一消息将通过电话读取邮件的电子邮件文件夹的标识符，该文件夹包含在对[GETUMPROPERTIES 操作（UM web 服务）](getumproperties-operation-um-web-service.md)请求的响应中。 
+**TelephoneAccessFolderEmail** 元素包含一个值，该值标识电子邮件文件夹的标识符，统一消息将通过电话读取邮件，如 [GetUMProperties](getumproperties-operation-um-web-service.md)操作 (UM Web 服务) 请求的响应中包含的内容。 
   
-[GetUMPropertiesResponse （UM web 服务）](getumpropertiesresponse-um-web-service.md)
+[GetUMPropertiesResponse（UM Web 服务）](getumpropertiesresponse-um-web-service.md)
   
-[TelephoneAccessFolderEmail （UM web 服务）](telephoneaccessfolderemail-um-web-service.md)
+[TelephoneAccessFolderEmail（UM Web 服务）](telephoneaccessfolderemail-um-web-service.md)
   
 ```xml
 <TelephoneAccessFolderEmail/>
@@ -47,7 +47,7 @@ ms.locfileid: "44468626"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GetUMPropertiesResponse （UM web 服务）](getumpropertiesresponse-um-web-service.md) <br/> |定义对[GetUMProperties 操作（UM web 服务）](getumproperties-operation-um-web-service.md)请求的响应。  <br/> |
+|[GetUMPropertiesResponse（UM Web 服务）](getumpropertiesresponse-um-web-service.md) <br/> |定义对 UM Web 服务请求 ([GetUMProperties) ](getumproperties-operation-um-web-service.md) 的响应。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
@@ -58,7 +58,7 @@ ms.locfileid: "44468626"
 |||
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|架构名称  <br/> |邮件  <br/> |
+|架构名称  <br/> |消息  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
    
@@ -66,7 +66,7 @@ ms.locfileid: "44468626"
 
 
 
-[GetUMProperties 操作（UM web 服务）](getumproperties-operation-um-web-service.md)
+[GetUMProperties 操作（UM Web 服务）](getumproperties-operation-um-web-service.md)
   
-[SetTelephoneAccessFolderEmail 操作（UM web 服务）](settelephoneaccessfolderemail-operation-um-web-service.md)
+[SetTelephoneAccessFolderEmail 操作（UM Web 服务）](settelephoneaccessfolderemail-operation-um-web-service.md)
 

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 65312428-548c-4fe9-971a-d0dab3be5ddf
-description: 人员元素指定作为 FindPeople 请求的结果返回的角色数据数组。
-ms.openlocfilehash: b3920ca5cdf1d219c5fe119caeaaaf4965c39794
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: People 元素指定作为 FindPeople 请求的结果返回的一组人员数据。
+ms.openlocfilehash: 35af1da4e72829004ec054b27a5304012ebb996c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467184"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543147"
 ---
 # <a name="people"></a>人员
 
-**人员**元素指定作为**FindPeople**请求的结果返回的角色数据数组。 
+**People** 元素指定作为 **FindPeople** 请求的结果返回的一组人员数据。 
   
 ```XML
 <People>
@@ -43,7 +43,7 @@ ms.locfileid: "44467184"
 
 [FindPeopleResponse](findpeopleresponse.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

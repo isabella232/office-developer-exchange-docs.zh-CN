@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SuggestionDayResultArray
 api_type:
 - schema
 ms.assetid: eeba9eff-5eca-4002-b5a5-8fb794feaba1
-description: SuggestionDayResultArray 元素包含按日期组织的会议建议的数组。
-ms.openlocfilehash: 277d4cf71c31aba26cbff6f598eaa62769cae552
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SuggestionDayResultArray 元素包含按日期组织的会议建议数组。
+ms.openlocfilehash: 4ce2b7a7ff2c90ef1876b2d71a528b42f0951598
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457982"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543945"
 ---
 # <a name="suggestiondayresultarray"></a>SuggestionDayResultArray
 
-**SuggestionDayResultArray**元素包含按日期组织的会议建议的数组。 
+**SuggestionDayResultArray** 元素包含按日期组织的会议建议数组。 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -48,7 +48,7 @@ ms.locfileid: "44457982"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[SuggestionDayResult](suggestiondayresult.md) <br/> |表示包含建议会议时间的一天。  <br/> |
+|[SuggestionDayResult](suggestiondayresult.md) <br/> |表示包含建议的会议时间的单天。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 

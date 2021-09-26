@@ -1,24 +1,24 @@
 ---
-title: GetDomainSettingsRequest （SOAP）
+title: GetDomainSettingsRequest (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 5ac0ff6d-9e02-4e4c-973d-cd9e076661d5
-description: GetDomainSettingsRequest 元素表示 GetDomainSettings 操作（SOAP）操作请求。
-ms.openlocfilehash: 400016d0817131fb70ec7ff3db7fbfdc1b51f8f9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetDomainSettingsRequest 元素表示 SOAP (请求) GetDomainSettings 操作。
+ms.openlocfilehash: 4c222c6832b5be7da598de3390d13123749f8b0f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460958"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544990"
 ---
-# <a name="getdomainsettingsrequest-soap"></a>GetDomainSettingsRequest （SOAP）
+# <a name="getdomainsettingsrequest-soap"></a>GetDomainSettingsRequest (SOAP)
 
-**GetDomainSettingsRequest**元素表示[GETDOMAINSETTINGS 操作（SOAP）](getdomainsettings-operation-soap.md)操作请求。 
+**GetDomainSettingsRequest** 元素表示 SOAP (请求) [GetDomainSettings](getdomainsettings-operation-soap.md)操作。 
   
 ```XML
 <GetDomainSettingsRequest>
@@ -41,9 +41,9 @@ ms.locfileid: "44460958"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[域（SOAP）](domains-soap.md) <br/> |代表域标识符的集合。  <br/> |
-|[RequestedSettings （SOAP）](requestedsettings-soap.md) <br/> |包含所请求的域配置设置的名称。  <br/> |
-|[RequestedVersion （SOAP）](requestedversion-soap.md) <br/> |指定提供程序将使用的服务器版本。  <br/> |
+|[Domains (SOAP)](domains-soap.md) <br/> |表示域标识符的集合。  <br/> |
+|[RequestedSettings (SOAP)](requestedsettings-soap.md) <br/> |包含请求的域配置设置的名称。  <br/> |
+|[RequestedVersion (SOAP)](requestedversion-soap.md) <br/> |指定提供程序将使用的服务器版本。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 

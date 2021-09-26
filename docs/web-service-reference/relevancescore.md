@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 78266287-481e-43c1-b143-2cafd0063c95
-description: RelevanceScore 元素指定一个整数，该整数表示关联的角色对客户端的相关程度。
-ms.openlocfilehash: 54d0912d33a64e26ed415d8009561a32b97ce3f6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: RelevanceScore 元素指定一个整数，该整数表示关联人物与客户端的相关程度。
+ms.openlocfilehash: 0cebd8b9954b54cb2d7b275a26fc06abc1b6cebf
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457492"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542874"
 ---
 # <a name="relevancescore"></a>RelevanceScore
 
-**RelevanceScore**元素指定一个整数，该整数表示关联的角色对客户端的相关程度。 
+**RelevanceScore** 元素指定一个整数，该整数表示关联人物与客户端的相关程度。 
   
 ```XML
 <RelevanceScore></RelevanceScore>
 ```
 
- **整除**
+ **integer**
 ## <a name="attributes-and-elements"></a>属性和元素
 
 下面各部分介绍了属性、子元素和父元素。
@@ -42,9 +42,9 @@ ms.locfileid: "44457492"
   
 ## <a name="text-value"></a>文本值
 
-**RelevanceScore**元素的文本值是确定角色对客户端的关联方式。 此元素是只读的。 
+**RelevanceScore** 元素的文本值是确定某个人物与客户端的关联程度。 此元素是只读的。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

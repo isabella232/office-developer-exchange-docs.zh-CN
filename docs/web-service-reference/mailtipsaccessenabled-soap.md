@@ -1,22 +1,22 @@
 ---
-title: MailTipsAccessEnabled （SOAP）
+title: MailTipsAccessEnabled (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 205606b0-8b39-4acf-941a-e544efcedd6c
-description: MailTipsAccessEnabled 元素表示 MailTipsAccessEnabled （）标志。 MailTipsAccessEnabled 元素仅供内部使用。 客户端不使用此元素。
-ms.openlocfilehash: 72476d72a3b5faef358bba52f6038c065d51ff6f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: MailTipsAccessEnabled 元素表示 MailTipsAccessEnabled () 标志。 MailTipsAccessEnabled 元素仅供内部使用。 此元素不由客户端使用。
+ms.openlocfilehash: 5ff4ddc47a242300b20ab526521b0994f7fbb4a4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467793"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544106"
 ---
-# <a name="mailtipsaccessenabled-soap"></a>MailTipsAccessEnabled （SOAP）
+# <a name="mailtipsaccessenabled-soap"></a>MailTipsAccessEnabled (SOAP)
 
-**MailTipsAccessEnabled**元素表示**MailTipsAccessEnabled （）** 标志。 **MailTipsAccessEnabled**元素仅供内部使用。 客户端不使用此元素。 
+**MailTipsAccessEnabled** 元素表示 **MailTipsAccessEnabled** () 标志。 **MailTipsAccessEnabled** 元素仅供内部使用。 此元素不由客户端使用。 
   
 ```XML
 <MailTipsAccessEnabled>true | false</ MailTipsAccessEnabled>
@@ -39,7 +39,7 @@ ms.locfileid: "44467793"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[OrganizationRelationshipSettings （SOAP）](organizationrelationshipsettings-soap.md) <br/> |表示单个组织的组织关系列表。  <br/> |
+|[OrganizationRelationshipSettings (SOAP)](organizationrelationshipsettings-soap.md) <br/> |表示单个组织的组织关系列表。  <br/> |
    
 ## <a name="element-information"></a>元素信息
 
@@ -54,5 +54,5 @@ ms.locfileid: "44467793"
 
 
 
-[GetOrganizationRelationshipSettings 操作（SOAP）](getorganizationrelationshipsettings-operation-soap.md)
+[GetOrganizationRelationshipSettings 操作 (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
 

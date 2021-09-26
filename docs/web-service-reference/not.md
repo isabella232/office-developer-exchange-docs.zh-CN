@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Not
 api_type:
 - schema
 ms.assetid: 1aa16318-7e90-4b19-bce8-dd1a20a66223
-description: Not 元素表示对其包含的搜索表达式的布尔值求反的搜索表达式。
-ms.openlocfilehash: 84c64a6d9d39f260d416fc32e4e5f5fcdef027e5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Not 元素表示一个搜索表达式，该表达式对它包含的搜索表达式的布尔值求反。
+ms.openlocfilehash: a62a964043d85033ceffc5ca380468e0aeebdfc3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466715"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541957"
 ---
 # <a name="not"></a>不
 
-**Not**元素表示对其包含的搜索表达式的布尔值求反的搜索表达式。 
+**Not** 元素表示一个搜索表达式，该表达式对它包含的搜索表达式的布尔值求反。 
   
 ```xml
 <Not>
@@ -42,7 +42,7 @@ ms.locfileid: "44466715"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[SearchExpression](searchexpression.md) <br/> | 表示某个限制范围内表达式的基类。 <br/><br/>必须将以下元素之一替换为 **SearchExpression** 元素： <br/> <br/>- [存在](exists.md) <br/>- [除外](excludes.md) <br/>- [IsEqualTo](isequalto.md) <br/>- [IsNotEqualTo](isnotequalto.md) <br/>- [IsGreaterThan](isgreaterthan.md) <br/>- [IsGreaterThanOrEqualTo](isgreaterthanorequalto.md) <br/>- [IsLessThan](islessthan.md) <br/>- [IsLessThanOrEqualTo](islessthanorequalto.md) <br/>- [包含](contains.md) <br/>- **不要** <br/>- [并](and.md) <br/>- [和](or.md) <br/> |
+|[SearchExpression](searchexpression.md) <br/> | 表示某个限制范围内表达式的基类。 <br/><br/>必须将以下元素之一替换为 **SearchExpression** 元素： <br/> <br/>- [Exists](exists.md) <br/>- [排除](excludes.md) <br/>- [IsEqualTo](isequalto.md) <br/>- [IsNotEqualTo](isnotequalto.md) <br/>- [IsGreaterThan](isgreaterthan.md) <br/>- [IsGreaterThanOrEqualTo](isgreaterthanorequalto.md) <br/>- [IsLessThan](islessthan.md) <br/>- [IsLessThanOrEqualTo](islessthanorequalto.md) <br/>- [Contains](contains.md) <br/>- **Not** <br/>- [And](and.md) <br/>- [或](or.md) <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -50,7 +50,7 @@ ms.locfileid: "44466715"
 |:-----|:-----|
 |[限制](restriction.md) <br/> |表示用于在 FindItem/FindFolder 中筛选项目或文件夹和搜索文件夹操作的限制或查询。  <br/> |
 |**not** <br/> |表示对其包含的搜索表达式的布尔值求反的搜索表达式。  <br/> |
-|[And](and.md) <br/> |表示允许您在两个或多个搜索表达式之间执行布尔 **AND** 操作的搜索表达式。 如果**and**元素中包含的所有搜索表达式为**True**，则**and**操作的结果为**true** 。  <br/> |
+|[And](and.md) <br/> |表示允许您在两个或多个搜索表达式之间执行布尔 **AND** 操作的搜索表达式。 如果 **And** 元素中包含的所有搜索表达式都为 **true，** 则 **AND** 操作的结果 **为 true。**  <br/> |
 |[或](or.md) <br/> |表示在其包含的搜索表达式上执行逻辑 **OR** 操作的搜索表达式。如果其任何子级返回 **true**，则 **Or** 将返回 **true**。 **Or** 必须有两个或多个子级。  <br/> |
    
 ## <a name="remarks"></a>说明

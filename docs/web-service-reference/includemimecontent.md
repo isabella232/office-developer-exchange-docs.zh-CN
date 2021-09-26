@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IncludeMimeContent
 api_type:
 - schema
 ms.assetid: 3f3c2300-55cd-41c0-900e-b470b290d52f
-description: IncludeMimeContent 元素指定响应中是否返回项目或附件的多用途 Internet 邮件扩展（MIME）内容。
-ms.openlocfilehash: 6198e4bef2dc59e6e56a8d3cbe463dad13e544e8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: IncludeMimeContent 元素指定是否在响应中返回多用途 Internet 邮件扩展 (MIME) 或附件的内容。
+ms.openlocfilehash: 04d015ea450907f3968200dcbb6f411eb6343681
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457191"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542174"
 ---
 # <a name="includemimecontent"></a>IncludeMimeContent
 
-**IncludeMimeContent**元素指定响应中是否返回项目或附件的多用途 Internet 邮件扩展（MIME）内容。 
+**IncludeMimeContent** 元素指定是否在响应中返回多用途 Internet 邮件扩展 (MIME) 或附件的内容。 
   
 ```xml
 <IncludeMimeContent>true or false</IncludeMimeContent>
@@ -44,12 +44,12 @@ ms.locfileid: "44457191"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[AttachmentShape](attachmentshape.md) <br/> | 标识在对[GetAttachment](getattachment.md)请求的响应中返回的其他属性。  <br/> <br/> 下面是此元素的 XPath 表达式：   <br/><br/>  `/GetAttachment/AttachmentShape` <br/> |
+|[AttachmentShape](attachmentshape.md) <br/> | 标识响应 [GetAttachment](getattachment.md) 请求时要返回的其他属性。  <br/> <br/> 下面是此元素的 XPath 表达式：   <br/><br/>  `/GetAttachment/AttachmentShape` <br/> |
 |[ItemShape](itemshape.md) <br/> | 标识要包括在 GetItem、FindItem 或 SyncFolderItems 响应中的项目属性和内容。  <br/> <br/> 下面是此元素的 XPath 表达式：<br/>  <br/>  `/GetItem/ItemShape` <br/><br/>  `/FindItem/ItemShape` <br/><br/>  `/SyncFolderItems/ItemShape` <br/> |
    
 ## <a name="text-value"></a>文本值
 
-此元素可以是**true** ，也可以是**false**。 默认值为 **false**。 这是一个 Boolean 数据类型。
+此元素可以是 **true** 或 **false**。 默认值为 **false**。 这是一个布尔数据类型。
   
 ## <a name="remarks"></a>说明
 
@@ -59,7 +59,7 @@ ms.locfileid: "44457191"
   
 ## <a name="example"></a>示例
 
-下面的请求示例演示如何设置**IncludeMimeContent**元素。 
+请求的以下示例演示了如何设置 **IncludeMimeContent** 元素。 
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -82,7 +82,7 @@ ms.locfileid: "44457191"
 </soap:Envelope>
 ```
 
-将截断附件 Id 属性以保留可读性。
+附件 Id 属性被截断以保持可读性。
   
 ## <a name="element-information"></a>元素信息
 

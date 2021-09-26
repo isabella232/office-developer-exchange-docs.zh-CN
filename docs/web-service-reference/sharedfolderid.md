@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SharedFolderId
 api_type:
 - schema
 ms.assetid: 21181ba3-9626-4284-9717-0b1c16948e8f
-description: SharedFolderId 元素表示共享文件夹的标识符，该标识符是应由 GetSharingFolder 操作请求返回的本地文件夹标识符。
-ms.openlocfilehash: 546e148540708725bcf335f39bf69d193124d210
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SharedFolderId 元素表示共享文件夹的本地文件夹标识符的标识符，GetSharingFolder 操作请求应返回该标识符。
+ms.openlocfilehash: 7e47ba49abed99bdb3cfd00eb43d2ef276d4ef37
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466120"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545970"
 ---
 # <a name="sharedfolderid"></a>SharedFolderId
 
-**SharedFolderId**元素表示共享文件夹的标识符，该标识符是应由[GetSharingFolder 操作](getsharingfolder-operation.md)请求返回的本地文件夹标识符。 
+**SharedFolderId** 元素表示共享文件夹的本地文件夹标识符的标识符 [，GetSharingFolder](getsharingfolder-operation.md)操作请求应返回该标识符。 
   
 ```xml
 <SharedFolderId/>
@@ -48,7 +48,7 @@ ms.locfileid: "44466120"
    
 ## <a name="text-value"></a>文本值
 
-Text 值是一个字符串，表示共享文件夹的标识符，该标识符是应由[GetSharingFolder 操作](getsharingfolder-operation.md)请求返回的本地文件夹标识符。 
+文本值是一个字符串，表示由 [GetSharingFolder](getsharingfolder-operation.md) 操作请求返回的本地文件夹标识符的共享文件夹的标识符。 
   
 ## <a name="remarks"></a>说明
 

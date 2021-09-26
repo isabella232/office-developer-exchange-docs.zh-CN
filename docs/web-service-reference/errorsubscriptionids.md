@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ErrorSubscriptionIds
 api_type:
 - schema
 ms.assetid: e64e76ff-4d98-4082-9acc-a1114ae45f44
-description: ErrorSubscriptionIds 元素包含一个由无效订阅 Id 组成的数组。
-ms.openlocfilehash: bdc5c86560800464d677a9043607bed3f7872e32
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ErrorSubscriptionIds 元素包含无效订阅 ID 的数组。
+ms.openlocfilehash: 7a84a945991e0c002701586e21f5e8612c884334
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526184"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545207"
 ---
 # <a name="errorsubscriptionids"></a>ErrorSubscriptionIds
 
-**ErrorSubscriptionIds**元素包含一个由无效订阅 id 组成的数组。 
+**ErrorSubscriptionIds** 元素包含无效订阅 ID 的数组。 
   
 ```xml
 <ErrorSubscriptionIds>
@@ -42,19 +42,19 @@ ms.locfileid: "44526184"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[SubscriptionId （GetEvents）](subscriptionid-getevents.md) <br/> |表示订阅的标识符。  <br/> |
+|[SubscriptionId (GetEvents)](subscriptionid-getevents.md) <br/> |表示订阅的标识符。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GetStreamingEventsResponseMessage](getstreamingeventsresponsemessage.md) <br/> |包含单个[GetStreamingEvents 操作](getstreamingevents-operation.md)请求的状态和结果。  <br/> |
+|[GetStreamingEventsResponseMessage](getstreamingeventsresponsemessage.md) <br/> |包含单个 [GetStreamingEvents](getstreamingevents-operation.md) 操作请求的状态和结果。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   
@@ -64,7 +64,7 @@ ms.locfileid: "44526184"
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages 和 https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |邮件架构;类型架构  <br/> |
-|验证文件  <br/> |消息 .xsd;类型 .xsd  <br/> |
+|验证文件  <br/> |Messages.xsd;Types.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>另请参阅

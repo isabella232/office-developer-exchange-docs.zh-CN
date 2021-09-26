@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 30180298-2501-4369-9b8f-2f7663f02336
-description: AddBlankTargetToLinks 元素指定将 HTML 链接中的目标属性设置为打开一个新窗口。
-ms.openlocfilehash: 1d4d36c1f4b98ebee96baea683c40527d2a9ec27
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: AddBlankTargetToLinks 元素指定 HTML 链接中的目标属性设置为打开一个新窗口。
+ms.openlocfilehash: c8d7a5973e60e43638472b0da29842ce1caacc98
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465041"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543826"
 ---
 # <a name="addblanktargettolinks"></a>AddBlankTargetToLinks
 
-**AddBlankTargetToLinks**元素指定将 HTML 链接中的目标属性设置为打开一个新窗口。 
+**AddBlankTargetToLinks** 元素指定 HTML 链接中的目标属性设置为打开一个新窗口。 
   
 ```XML
 <AddBlankTargetToLinks> true | false </AddBlankTargetToLinks>
 ```
 
-**xs： Boolean**
+**xs：Boolean**
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
@@ -41,11 +41,11 @@ ms.locfileid: "44465041"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ItemShape](itemshape.md) <br/> | 标识要包括在**GetItem**、 **FindItem**、 **GetConversationItems**或**SyncFolderItems**响应中的项目属性和内容。<br/><br/>  下面是此元素的 XPath 表达式：<br/><br/>  `/GetItem/ItemShape` <br/>  `/FindItem/ItemShape` <br/>  `/SyncFolderItems/ItemShape` <br/>  `/GetConversationItems/ItemShape` <br/> |
+|[ItemShape](itemshape.md) <br/> | 标识要包括在 **GetItem、FindItem、GetConversationItems** 或 **SyncFolderItems** 响应中的项目属性和内容。  <br/><br/>  下面是此元素的 XPath 表达式：<br/><br/>  `/GetItem/ItemShape` <br/>  `/FindItem/ItemShape` <br/>  `/SyncFolderItems/ItemShape` <br/>  `/GetConversationItems/ItemShape` <br/> |
    
 ## <a name="text-value"></a>文本值
 
-如果**AddBlankTargetToLinks**元素的文本值为**true** ，则指示所有 HTML 链接都将设置为打开一个新窗口。 如果值为**false** ，则表示将在当前窗口中打开 HTML 链接。 
+**AddBlankTargetToLinks** 元素的文本值 **true** 指示所有 HTML 链接将设置为打开一个新窗口。 false **值表示** HTML 链接将在当前窗口中打开。 
   
 ## <a name="remarks"></a>说明
 
@@ -61,7 +61,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

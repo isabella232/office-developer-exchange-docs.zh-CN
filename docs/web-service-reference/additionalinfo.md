@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 50bebbab-2fef-4a27-a5a9-32d7200820b6
 description: AdditionalInfo 元素指定有关邮箱的保留状态的其他信息。
-ms.openlocfilehash: 1911ff3ac0baf7a8854c0609e08959a54cc27b6d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: d8b707fb04ffe91d5c7aa793c6b56c8bb048f160
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455819"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544316"
 ---
 # <a name="additionalinfo"></a>AdditionalInfo
 
-**AdditionalInfo**元素指定有关邮箱的保留状态的其他信息。 
+**AdditionalInfo** 元素指定有关邮箱的保留状态的其他信息。 
   
 ```XML
 <AdditionalInfo></AdditionalInfo>
 ```
 
- **xs： string**
+ **xs：string**
 ## <a name="attributes-and-elements"></a>属性和元素
 
 下面各部分介绍了属性、子元素和父元素。
@@ -45,7 +45,7 @@ ms.locfileid: "44455819"
    
 ## <a name="text-value"></a>文本值
 
-AdditionalInfo 元素的文本值是有关邮箱保留状态的其他信息。
+AdditionalInfo 元素的文本值是有关邮箱的保留状态的其他信息。
   
 ## <a name="remarks"></a>说明
 
@@ -61,7 +61,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

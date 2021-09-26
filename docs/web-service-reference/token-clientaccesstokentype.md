@@ -1,23 +1,23 @@
 ---
-title: 令牌（ClientAccessTokenType）
+title: Token (ClientAccessTokenType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cddd6075-06b6-4858-9ffa-9db4d9d9b030
 description: Token 元素指定客户端访问令牌。
-ms.openlocfilehash: d195e81d8d20eb2288e921c640c7b2898a5341ab
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: b9cd0887d082c2ddd9abe0505ebec993f0261fad
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467863"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545732"
 ---
-# <a name="token-clientaccesstokentype"></a>令牌（ClientAccessTokenType）
+# <a name="token-clientaccesstokentype"></a>Token (ClientAccessTokenType)
 
-**Token**元素指定客户端访问令牌。 
+**Token** 元素指定客户端访问令牌。 
   
 ```XML
 <Token>
@@ -39,13 +39,13 @@ ms.locfileid: "44467863"
   
 ### <a name="child-elements"></a>子元素
 
-[ID （字符串）](id-string.md)  | [TokenType](tokentype.md)  | [TokenValue](tokenvalue.md)  | [TTL](ttl.md)
+[ID (String) ](id-string.md)  | [TokenType](tokentype.md)  | [TokenValue](tokenvalue.md)  | [TTL](ttl.md)
   
 ### <a name="parent-elements"></a>父元素
 
 [GetClientAccessTokenResponseMessage](getclientaccesstokenresponsemessage.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

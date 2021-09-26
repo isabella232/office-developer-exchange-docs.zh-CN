@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PostedTime
 api_type:
 - schema
 ms.assetid: e8b3813c-fc7e-4674-a4c6-6818c13d2bcf
-description: PostedTime 元素表示 PostItem 的发布时间。 此元素是只读的。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
-ms.openlocfilehash: 5fc670bfee97a46700bc4442d489696a4489f88a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: PostedTime 元素表示发布 PostItem 的时间。 此元素是只读的。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
+ms.openlocfilehash: 9aba5d0c8fad521e54ee4c8f9d877d17607d0dd0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459193"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543105"
 ---
 # <a name="postedtime"></a>PostedTime
 
-**PostedTime**元素表示[PostItem](postitem.md)的发布时间。 此元素是只读的。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
+**PostedTime** 元素表示发布 [PostItem](postitem.md)的时间。 此元素是只读的。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
   
 ```xml
 <PostedTime/>
@@ -44,11 +44,11 @@ ms.locfileid: "44459193"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[PostItem](postitem.md) <br/> |表示 Exchange 存储中的 PostItem。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
+|[PostItem](postitem.md) <br/> |代表应用商店中的一Exchange PostItem。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-Text 值是表示**PostItem**何时发布的 dateTime。 此属性是只读的。 
+文本值是一个 dateTime，表示 **发布 PostItem** 的时间。 此属性是只读的。 
   
 ## <a name="remarks"></a>说明
 

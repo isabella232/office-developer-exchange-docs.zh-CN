@@ -1,30 +1,30 @@
 ---
-title: DirectoryPort （POX）
+title: DirectoryPort (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: ab436b54-ceba-4cd9-aeb4-134f9b93986d
-description: DirectoryPort 元素指定在使用名称服务提供程序接口（NSPI）协议时用于连接到目录的端口。
-ms.openlocfilehash: 2ba0a15cea0b4eb9b6069fab384edb3d9747a360
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DirectoryPort 元素指定使用 Name Service Provider Interface (NSPI) 连接到目录的端口。
+ms.openlocfilehash: 223e82840628e19896bde196d7467622a2ad5002
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462085"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543329"
 ---
-# <a name="directoryport-pox"></a>DirectoryPort （POX）
+# <a name="directoryport-pox"></a>DirectoryPort (POX)
 
-**DirectoryPort**元素指定在使用名称服务提供程序接口（NSPI）协议时用于连接到目录的端口。 
+**DirectoryPort** 元素指定使用 Name Service Provider Interface (NSPI) 连接到目录的端口。 
   
-- [自动发现（POX）](autodiscover-pox.md) 
-- [响应（POX）](response-pox.md)  
-- [帐户（POX）](account-pox.md)  
-- [协议（POX）](protocol-pox.md)  
-- [DirectoryPort （POX）](directoryport-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md) 
+- [Response (POX)](response-pox.md)  
+- [Account (POX)](account-pox.md)  
+- [Protocol (POX)](protocol-pox.md)  
+- [DirectoryPort (POX)](directoryport-pox.md)
   
 ```xml
 <DirectoryPort/>
@@ -46,17 +46,17 @@ ms.locfileid: "44462085"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[协议（POX）](protocol-pox.md) <br/> |包含用于将客户端连接到运行 Microsoft Exchange Server 2007 且安装了客户端访问服务器角色的计算机的规范。  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |包含用于将客户端连接到运行 2007 Microsoft Exchange Server安装了客户端访问服务器角色的计算机的规范。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-该文本值表示用于访问 Exchange 服务器的端口。
+文本值表示用于访问服务器Exchange端口。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-仅当[Type （POX）](type-pox.md)元素等于 EXCH 或 EXPR 时，才使用**DirectoryPort**元素。 
+**DirectoryPort** 元素仅在 TYPE (POX) [EXCH](type-pox.md)或 EXPR 时使用。 
   
 ## <a name="see-also"></a>另请参阅
 
-- [Exchange 的 POX 自动发现 XML 元素](pox-autodiscover-xml-elements-for-exchange.md)
+- [用于存储的 POX 自动发现 XML Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

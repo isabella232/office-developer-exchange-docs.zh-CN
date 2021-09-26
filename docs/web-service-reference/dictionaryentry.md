@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DictionaryEntry
 api_type:
 - schema
 ms.assetid: 531ea96a-d411-43e6-9fec-11fa2c959a30
-description: DictionaryEntry 元素指定单个词典项属性的内容。
-ms.openlocfilehash: 4c5d4c037f0c97b26d518d2f1386f71b31fa2d1f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DictionaryEntry 元素指定单个词典条目属性的内容。
+ms.openlocfilehash: 4a9e481f3b9d6fc2d0ef739031042354ed717bee
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455658"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545319"
 ---
 # <a name="dictionaryentry"></a>DictionaryEntry
 
-**DictionaryEntry**元素指定单个词典项属性的内容。 
+**DictionaryEntry** 元素指定单个词典条目属性的内容。 
   
 ```xml
 <DictionaryEntry>
@@ -43,20 +43,20 @@ ms.locfileid: "44455658"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[DictionaryKey](dictionarykey.md) <br/> |指定 dictionary 属性的字典键。  <br/> |
-|[DictionaryValue](dictionaryvalue.md) <br/> |指定 dictionary 属性的字典值。  <br/> |
+|[DictionaryKey](dictionarykey.md) <br/> |指定字典属性的字典键。  <br/> |
+|[DictionaryValue](dictionaryvalue.md) <br/> |指定字典属性的字典值。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|"词典" <br/> |为用户配置对象定义一组字典属性项。  <br/> |
+|"词典" <br/> |定义用户配置对象的一组字典属性条目。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

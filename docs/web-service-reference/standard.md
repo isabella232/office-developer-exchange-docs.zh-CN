@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Standard
 api_type:
 - schema
 ms.assetid: d598f0a6-e296-423f-8ce5-3da57cfd8189
-description: Standard 元素表示时间从夏时制更改为标准时间的日期和时间。
-ms.openlocfilehash: 1214a1debb53c9a31ca7c92a0c9e5c0722960d75
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Standard 元素表示从夏令时到标准时间的时间更改的日期和时间。
+ms.openlocfilehash: 8e44bc458f109975acd3d48c80726654b70373e8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467562"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544666"
 ---
 # <a name="standard"></a>标准
 
-**Standard**元素表示时间从夏时制更改为标准时间的日期和时间。 
+Standard 元素表示从夏令时到标准时间的时间更改的日期和时间。 
   
 ```xml
 <Standard TimeZoneName="">
@@ -55,10 +55,10 @@ ms.locfileid: "44467562"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Offset](offset.md) <br/> |描述[BaseOffset](baseoffset.md)中的偏移量。 **Offset**元素与**BaseOffset**元素一起标识时间是标准时间还是夏时制。  <br/> |
-|[RelativeYearlyRecurrence](relativeyearlyrecurrence.md) <br/> |描述时区转换日期的相对年定期模式。  <br/> |
-|[AbsoluteDate](absolutedate.md) <br/> |表示从标准时间或夏时制的时间更改的日期。  <br/> |
-|[Time （TimeChangeType）](time-timechangetype.md) <br/> |描述在标准时间和夏时制时间之间的时间更改时间。  <br/> |
+|[Offset](offset.md) <br/> |描述与 [BaseOffset 的偏移](baseoffset.md)量。 Offset 元素与 **BaseOffset** 元素一起标识时间是标准时间还是夏令时。  <br/> |
+|[RelativeYearlyRecurrence](relativeyearlyrecurrence.md) <br/> |描述时区定期模式日期的相对每年变化量。  <br/> |
+|[AbsoluteDate](absolutedate.md) <br/> |表示时间从标准时间或夏令时更改的日期。  <br/> |
+|[Time (TimeChangeType)](time-timechangetype.md) <br/> |描述时间在标准时间和夏令时之间变化的时间。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 

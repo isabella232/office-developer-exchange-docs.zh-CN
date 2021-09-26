@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ef4a4203-61e5-46b8-9fa4-d1a10e785aa2
-description: MailboxSearchScope 元素指定用于发现搜索的邮箱和搜索范围。
-ms.openlocfilehash: 20f528ddfb4812de8468af33bcb0b47d7d851f1d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: MailboxSearchScope 元素指定发现搜索的邮箱和搜索范围。
+ms.openlocfilehash: 832992e4e1dcf96029be4228906b2762f11f3fbe
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457184"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544120"
 ---
 # <a name="mailboxsearchscope"></a>MailboxSearchScope
 
-**MailboxSearchScope**元素指定用于发现搜索的邮箱和搜索范围。 
+**MailboxSearchScope** 元素指定发现搜索的邮箱和搜索范围。 
   
 ```XML
 <MailboxSearchScope>
@@ -38,13 +38,13 @@ ms.locfileid: "44457184"
   
 ### <a name="child-elements"></a>子元素
 
-[邮箱（字符串）](mailbox-string.md)  | [SearchScope](searchscope.md)
+[邮箱 (字符串) ](mailbox-string.md)  | [SearchScope](searchscope.md)
   
 ### <a name="parent-elements"></a>父元素
 
 [MailboxSearchScopes](mailboxsearchscopes.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DetailedSuggestionsWindow
 api_type:
 - schema
 ms.assetid: 7b348d63-6a7d-45f4-9562-5c42243d63a5
-description: DetailedSuggestionsWindow 元素标识查询的时间跨度，以获取有关建议会议时间的详细信息。
-ms.openlocfilehash: 45d582f2642c0e3d8f6330b09946230c8842618d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DetailedSuggestionsWindow 元素标识所查询的时间跨度，以详细了解建议的会议时间。
+ms.openlocfilehash: 56f66d9ee7be25de20a892823a02174c75b40601
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467842"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545333"
 ---
 # <a name="detailedsuggestionswindow"></a>DetailedSuggestionsWindow
 
-**DetailedSuggestionsWindow**元素标识查询的时间跨度，以获取有关建议会议时间的详细信息。 
+**DetailedSuggestionsWindow** 元素标识所查询的时间跨度，以详细了解建议的会议时间。 
   
 - [GetUserAvailabilityRequest](getuseravailabilityrequest.md) 
 - [SuggestionsViewOptions](suggestionsviewoptions.md) 
@@ -47,21 +47,21 @@ ms.locfileid: "44467842"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[StartTime](starttime.md) <br/> |表示查询时间跨度的开始时间，以获取有关建议会议时间的详细信息。  <br/> |
-|[EndTime](endtime.md) <br/> |表示查询时间跨度的结束时间，以获取有关建议会议时间的详细信息。  <br/> |
+|[StartTime](starttime.md) <br/> |表示查询有关建议的会议时间的详细信息的时间跨度的开始时间。  <br/> |
+|[EndTime](endtime.md) <br/> |表示查询有关建议的会议时间的详细信息的时间跨度的结束时间。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |包含用于获取会议建议信息的选项。  <br/> 以下是此元素的 XPath：  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
+|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |包含用于获取会议建议信息的选项。  <br/> 下面是此元素的 XPath：  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素不是必需的。
   
 > [!NOTE]
-> 描述此元素的架构位于运行 MicrosoftExchange Server 2007 且安装了客户端访问服务器角色的计算机的/EWS/目录中。 
+> 描述此元素的架构位于运行已安装客户端访问服务器角色的 MicrosoftExchange Server 2007 的计算机的 /EWS/ 目录中。 
   
 ## <a name="element-information"></a>元素信息
 

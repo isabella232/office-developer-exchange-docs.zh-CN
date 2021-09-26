@@ -1,28 +1,28 @@
 ---
-title: Message （POX）
+title: Message (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: b0124b70-28ab-4484-ac81-465a42f42776
-description: Message 元素包含错误发现响应的错误消息。
-ms.openlocfilehash: 5e2f9d5b2f9ad45359f180f1121a34ccf9cd89cc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Message 元素包含错误自动发现响应的错误消息。
+ms.openlocfilehash: 1b15bce5c052205b0953bbdd686ead32f32ea743
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467989"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542160"
 ---
-# <a name="message-pox"></a>Message （POX）
+# <a name="message-pox"></a>Message (POX)
 
-**Message**元素包含错误发现响应的错误消息。 
+**Message** 元素包含错误自动发现响应的错误消息。 
   
-[错误（POX）](error-pox.md)
+[Error (POX)](error-pox.md)
   
-[Message （POX）](message-pox.md)
+[Message (POX)](message-pox.md)
   
 ```xml
 <Message/>
@@ -44,15 +44,15 @@ ms.locfileid: "44467989"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[错误（POX）](error-pox.md) <br/> |包含自动发现错误响应。  <br/> |
+|[Error (POX)](error-pox.md) <br/> |包含自动发现错误响应。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-文本值表示错误发现响应的错误消息。
+文本值表示错误自动发现响应的错误消息。
   
 ## <a name="see-also"></a>另请参阅
 
 
 
-[Exchange 的 POX 自动发现 XML 元素](pox-autodiscover-xml-elements-for-exchange.md)
+[用于存储的 POX 自动发现 XML Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

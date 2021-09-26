@@ -1,32 +1,32 @@
 ---
-title: SetOofStatus 操作（UM web 服务）
+title: SetOofStatus 操作（UM Web 服务）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SetOofStatus
 api_type:
 - schema
 ms.assetid: 97c271e9-506e-43eb-89cd-46803fc47ee5
-description: SetOofStatus 操作设置一个值，该值指示是否应为发出请求的用户播放外出（OOF）问候语。
-ms.openlocfilehash: 2311b6137ac25d15ad3d06668450c1d0f7ec1fad
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SetOofStatus 操作设置一个值，该值指示是否应该为提出请求的用户Office (Out of) OOF 问候语。
+ms.openlocfilehash: ce736e7d7bea39f65843923187af3ae616ae1c86
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467352"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544750"
 ---
-# <a name="setoofstatus-operation-um-web-service"></a>SetOofStatus 操作（UM web 服务）
+# <a name="setoofstatus-operation-um-web-service"></a>SetOofStatus 操作（UM Web 服务）
 
-SetOofStatus 操作设置一个值，该值指示是否应为发出请求的用户播放外出（OOF）问候语。
+SetOofStatus 操作设置一个值，该值指示是否应该为提出请求的用户Office (Out of) OOF 问候语。
   
 ## <a name="setoofstatus-request-example"></a>SetOofStatus 请求示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-以下示例的 SetOofStatus 请求显示了如何形成请求以启用邮箱的 "外出" 问候语。
+SetOofStatus 请求的以下示例显示如何形成请求以启用邮箱的外出Office问候语。
   
 ### <a name="code"></a>代码
 
@@ -43,9 +43,9 @@ SetOofStatus 操作设置一个值，该值指示是否应为发出请求的用�
 
 ## <a name="successful-setoofstatus-response-example"></a>成功的 SetOofStatus 响应示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-下面的 SetOofStatus 响应示例显示对 SetOofStatus 请求的响应。
+SetOofStatus 响应的以下示例显示对 SetOofStatus 请求的响应。
   
 ### <a name="code"></a>代码
 
@@ -62,9 +62,9 @@ SetOofStatus 操作设置一个值，该值指示是否应为发出请求的用�
 
 
 
-[SetOofStatus （UM web 服务）](setoofstatus-um-web-service.md)
+[SetOofStatus（UM Web 服务）](setoofstatus-um-web-service.md)
   
-[SetOofStatusResponse （UM web 服务）](setoofstatusresponse-um-web-service.md)
+[SetOofStatusResponse（UM Web 服务）](setoofstatusresponse-um-web-service.md)
   
-[Status （UM web 服务-SetOofStatus）](status-um-web-servicesetoofstatus.md)
+[Status（UM Web 服务 - SetOofStatus）](status-um-web-servicesetoofstatus.md)
 

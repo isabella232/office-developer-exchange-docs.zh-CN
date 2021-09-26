@@ -4,17 +4,17 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 67d7d831-9c53-46da-80e4-18f562e71284
 description: 若要根据 EWS 生成的对象模型参考来开发 Exchange 应用程序，请了解其他 EWS 开发选项。
-ms.openlocfilehash: 0ab659fa57a591939b85ab8cfbc4104c9c775060
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 6c97ca7973da84d96d102287b9c260409a0f57ef
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526163"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541432"
 ---
 # <a name="ews-generated-object-models-for-exchange"></a>EWS 生成的 Exchange 对象模型
 

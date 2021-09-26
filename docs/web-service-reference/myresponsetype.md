@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MyResponseType
 api_type:
 - schema
 ms.assetid: 9741b71d-a310-4520-81d5-3787a1ee630f
 description: MyResponseType 元素包含日历项目的状态或响应。
-ms.openlocfilehash: 640b0595ac039cc3c119aa52aa6e791e5b695e87
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 3faf7dd17db949475ba3b7e03616dba9f260c4b7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466624"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542013"
 ---
 # <a name="myresponsetype"></a>MyResponseType
 
-**MyResponseType**元素包含日历项目的状态或响应。 
+**MyResponseType** 元素包含日历项目的状态或响应。 
   
 ```xml
 <MyResponseType/>
@@ -49,13 +49,13 @@ ms.locfileid: "44466624"
    
 ## <a name="text-value"></a>文本值
 
-文本值是必需的。 以下是此元素的可能的文本值：
+文本值是必需的。 以下是此元素的可能文本值：
   
 - 未知
     
-- Organizer
+- 组织者
     
-- 暂
+- 暂定
     
 - 接受
     

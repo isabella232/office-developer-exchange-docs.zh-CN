@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SearchFolder
 api_type:
 - schema
 ms.assetid: 1a7d408b-2e98-4391-8834-085ed6d5757c
 description: SearchFolder元素表示包含在一个邮箱中的搜索文件夹。
-ms.openlocfilehash: e1d5893e00f3b199451622061785e2566c6f32e5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 44f19dad83e8cd18045901bc7e3e48e31508b3db
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464005"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544001"
 ---
 # <a name="searchfolder"></a>SearchFolder
 
-本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **SearchFolder**元素表示包含在一个邮箱中的搜索文件夹。 
+本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **SearchFolder** 元素表示包含在一个邮箱中的搜索文件夹。 
   
 ```xml
 <SearchFolder>
@@ -76,9 +76,9 @@ ms.locfileid: "44464005"
 |[更新 (FolderSync)](update-foldersync.md) <br/> |标识要在本地客户端存储中更新单个文件夹。  <br/> |
 |[Folders](folders-ex15websvcsotherref.md) <br/> |包含文件夹在文件夹操作中使用的数组。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
- **SearchFolder**用于常规搜索文件夹和MicrosoftOfficeOutlook和Outlook Web Access的可见的文件夹中搜索。要对Outlook和Outlook Web Access是可见的搜索文件夹，必须在 SearchFolders 可分辨文件夹下创建文件夹。 
+ **SearchFolder** 用于常规搜索文件夹和MicrosoftOfficeOutlook和Outlook Web Access的可见的文件夹中搜索。要对Outlook和Outlook Web Access是可见的搜索文件夹，必须在 SearchFolders 可分辨文件夹下创建文件夹。 
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

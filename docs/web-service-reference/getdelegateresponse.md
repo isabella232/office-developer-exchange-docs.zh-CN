@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetDelegateResponse
 api_type:
 - schema
 ms.assetid: 71a418a5-5652-40e1-8f84-fe4f7c9f86af
 description: GetDelegateResponse 元素包含 GetDelegate 操作请求的状态和结果。
-ms.openlocfilehash: 81c5033cd67b79baa131d71ea0b866c788ae5e82
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: d8550ede774ebe0e84cb2da27455465c330fbf3c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462022"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546320"
 ---
 # <a name="getdelegateresponse"></a>GetDelegateResponse
 
-**GetDelegateResponse**元素包含[GetDelegate 操作](getdelegate-operation.md)请求的状态和结果。 
+**GetDelegateResponse** 元素包含 [GetDelegate](getdelegate-operation.md)操作请求的状态和结果。 
   
 ```xml
 <GetDelegateResponse>
@@ -47,20 +47,20 @@ ms.locfileid: "44462022"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[DeliverMeetingRequests](delivermeetingrequests.md) <br/> |定义在委托和主体之间如何处理会议请求。  <br/> |
-|[ResponseMessages (ArrayOfDelegateUserResponseMessageType)](responsemessages-arrayofdelegateuserresponsemessagetype.md) <br/> |包含 Exchange Web 服务委派管理请求的响应消息。  <br/> |
+|[DeliverMeetingRequests](delivermeetingrequests.md) <br/> |定义如何在代理人和主体之间处理会议请求。  <br/> |
+|[ResponseMessages (ArrayOfDelegateUserResponseMessageType)](responsemessages-arrayofdelegateuserresponsemessagetype.md) <br/> |包含 Web 服务委派Exchange请求的响应消息。  <br/> |
 |[MessageText](messagetext.md) <br/> |提供响应状态的文本说明。  <br/> |
-|[ResponseCode](responsecode.md) <br/> |提供用于标识请求遇到的特定错误的错误代码。  <br/> |
-|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |当前未使用，并保留以供将来使用。 它包含值0。  <br/> |
+|[ResponseCode](responsecode.md) <br/> |提供一个错误代码，用于标识请求遇到的特定错误。  <br/> |
+|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |当前未使用且保留以供将来使用。 它包含值 0。  <br/> |
 |[MessageXml](messagexml.md) <br/> |提供其他错误响应信息。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-描述此元素的架构位于运行 Microsoft Exchange Server 2010 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
+描述此元素的架构位于运行安装了客户端访问服务器角色的 Microsoft Exchange Server 2010 的计算机的 EWS 虚拟目录中。
   
 ## <a name="element-information"></a>元素信息
 

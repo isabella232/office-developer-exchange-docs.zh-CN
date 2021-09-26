@@ -1,23 +1,23 @@
 ---
-title: 超时（持续时间）
+title: Timeout (duration)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bb15f9a7-8ea5-4765-9877-762c3f98bf50
-description: Timeout 元素指定服务器在请求订阅超时之前的时间长度。
-ms.openlocfilehash: b5b0e77d794080cd8e0da1e14acf4cb059b80b08
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Timeout 元素指定服务器超时拉订阅之前的时间长度。
+ms.openlocfilehash: a5a9e094c25f609c0bcfa207ab96ae7f0877f43f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460279"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545767"
 ---
-# <a name="timeout-duration"></a>超时（持续时间）
+# <a name="timeout-duration"></a>Timeout (duration)
 
-**Timeout**元素指定服务器在请求订阅超时之前的时间长度。 
+**Timeout** 元素指定服务器超时拉订阅之前的时间长度。 
   
 ```XML
 <Timeout></Timeout>
@@ -42,9 +42,9 @@ ms.locfileid: "44460279"
   
 ## <a name="text-value"></a>文本值
 
-**Timeout**元素的文本值是服务器在请求订阅超时前的时间长度（以分钟为单位）。 最小值为 1;最大值为1440。 
+**Timeout** 元素的文本值是服务器超时拉订阅之前的时间长度（分钟）。 最小值为 1;最大值为 1440。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

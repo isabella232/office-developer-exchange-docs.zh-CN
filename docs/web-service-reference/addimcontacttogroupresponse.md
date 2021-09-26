@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e75f8da2-d0a4-44f4-a597-1554757fdf55
 description: AddImContactToGroupResponse 元素定义对 AddImContactToGroup 请求的响应。
-ms.openlocfilehash: 1d186c89a7fdfd978fb8f713908a4f2ebfbddfa9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 99ea8b5bef1370493a116ba4f5724b01a62f2d8a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463683"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543805"
 ---
 # <a name="addimcontacttogroupresponse"></a>AddImContactToGroupResponse
 
-**AddImContactToGroupResponse**元素定义对**AddImContactToGroup**请求的响应。 
+**AddImContactToGroupResponse** 元素定义对 **AddImContactToGroup** 请求的响应。 
   
 ```XML
 <AddImContactToGroupResponse>
@@ -45,7 +45,7 @@ ms.locfileid: "44463683"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

@@ -5,45 +5,45 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UpdateFolder
 api_type:
 - schema
 ms.assetid: 3494c996-b834-4813-b1ca-d99642d8b4e7
-description: UpdateFolder 操作用于修改 Exchange 存储中现有项的属性。 每个 UpdateFolder 操作都包含以下内容：
-ms.openlocfilehash: fb894d9f42358b67f81e9fe8ae41ba61e6f46460
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: UpdateFolder 操作用于修改项目存储中现有Exchange属性。 每个 UpdateFolder 操作都由以下内容组成：
+ms.openlocfilehash: be8e39e13681cea34e312158c348c60a94374bec
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467359"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541761"
 ---
 # <a name="updatefolder-operation"></a>UpdateFolder 操作
 
-UpdateFolder 操作用于修改 Exchange 存储中现有项的属性。 每个 UpdateFolder 操作都包含以下内容：
+UpdateFolder 操作用于修改项目存储中现有Exchange属性。 每个 UpdateFolder 操作都由以下内容组成：
   
-- 一个[FolderId](folderid.md)元素，指定要更新的文件夹。 
+- 指定要更新的文件夹的 [FolderId](folderid.md) 元素。 
     
-- 文件夹中元素的内部路径，由 folder 形状指定，该路径指定要更新的数据。
+- 文件夹中元素的内部路径，由文件夹形状指定，用于指定要更新的数据。
     
-- 包含更新的域的新值的文件夹（如果更新不是删除）。
+- 包含更新字段的新值的文件夹（如果更新不是删除）。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-可以对项目执行三个基本的更新操作。 下表中列出了这些操作。
+对项可以执行三个基本更新操作。 下表列出了这些操作。
   
 |**操作**|**说明**|
 |:-----|:-----|
-|Append  <br/> |Append 操作将数据添加到现有属性中。 它保留当前在其中的数据。 Append 不适用于所有属性。  <br/> |
-|Set  <br/> |如果属性包含数据，则 set 操作将替换该属性的数据，或者创建该属性并设置其值（如果不存在）。 Set 操作仅适用于可写属性。  <br/> |
-|Delete  <br/> |"删除" 操作从文件夹中删除属性。 这与将其设置为空值不同。 完成后，该文件夹的属性不存在。 删除仅适用于可写属性。  <br/> |
+|Append  <br/> |append 操作将数据添加到现有属性。 它保留当前存在的数据。 Append 并不适用于所有属性。  <br/> |
+|Set  <br/> |set 操作将替换属性（如果该属性包含数据）的数据，或者创建该属性并设置其值（如果该属性不存在）。 set 操作仅适用于可写属性。  <br/> |
+|删除  <br/> |删除操作从文件夹中删除属性。 这不同于将此值设置为空值。 完成后，文件夹不存在该属性。 Delete 仅适用于可写属性。  <br/> |
    
 ## <a name="updatefolder-request-example"></a>UpdateFolder 请求示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-以下示例的 UpdateFolder 请求显示如何更新文件夹显示名称。 
+下面的 UpdateFolder 请求示例演示如何更新文件夹中显示名称。 
   
 ### <a name="code"></a>代码
 
@@ -74,14 +74,14 @@ UpdateFolder 操作用于修改 Exchange 存储中现有项的属性。 每个 U
 
 ### <a name="comments"></a>备注
 
-本示例将文件夹的显示名称更改为 NewFolderName。
+本示例将文件夹显示名称 NewFolderName。
   
 > [!NOTE]
-> 为了提高可读性， [FolderId](folderid.md)元素的**Id**和**ChangeKey**属性的值已缩短。 
+> 为可读性，已缩短 [FolderId](folderid.md)元素的 **Id** 和 **ChangeKey** 属性的值。 
   
-### <a name="request-elements"></a>Request 元素
+### <a name="request-elements"></a>请求元素
 
-请求中使用以下元素：
+请求中会使用下列元素：
   
 - [UpdateFolder](updatefolder.md)
     
@@ -104,13 +104,13 @@ UpdateFolder 操作用于修改 Exchange 存储中现有项的属性。 每个 U
 有关可用于形成 UpdateFolder 请求的其他元素，请参阅架构。
   
 > [!NOTE]
-> 架构的默认位置在安装了客户端访问服务器角色的计算机上的 EWS 虚拟目录中。 
+> 架构的默认位置在安装了客户端访问服务器角色的计算机上 EWS 虚拟目录中。 
   
 ## <a name="updatefolder-response-example"></a>UpdateFolder 响应示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-下面的示例演示对 UpdateFolder 请求的成功响应。 在此示例中，将返回新的更改密钥，以反映该文件夹的更新状态。
+以下示例显示对 UpdateFolder 请求的成功响应。 本示例中，将返回新的更改键以反映文件夹的更新状态。
   
 ### <a name="code"></a>代码
 
@@ -145,13 +145,13 @@ UpdateFolder 操作用于修改 Exchange 存储中现有项的属性。 每个 U
 ### <a name="comments"></a>备注
 
 > [!NOTE]
-> 文件夹 ID 和更改密钥已缩短，以保持可读性。 
+> 已缩短文件夹 ID 和更改键以保持可读性。 
   
 响应中返回的文件夹 ID 表示更新的文件夹。
   
 ### <a name="successful-response-elements"></a>成功的响应元素
 
-响应中使用以下元素：
+响应中会使用下列元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -171,9 +171,9 @@ UpdateFolder 操作用于修改 Exchange 存储中现有项的属性。 每个 U
     
 ## <a name="updatefolder-error-response-example"></a>UpdateFolder 错误响应示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-下面的示例演示对 UpdateFolder 请求的错误响应。
+以下示例显示对 UpdateFolder 请求的错误响应。
   
 ### <a name="code"></a>代码
 
@@ -205,11 +205,11 @@ UpdateFolder 操作用于修改 Exchange 存储中现有项的属性。 每个 U
 
 ### <a name="comments"></a>备注
 
-此示例显示了由请求中的无效**ChangeKey**属性导致的错误响应。 
+此示例显示一个错误响应，该响应由请求中的 **ChangeKey** 属性无效导致。 
   
 ### <a name="error-response-elements"></a>错误响应元素
 
-错误响应中使用以下元素：
+错误响应中会使用下列元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     

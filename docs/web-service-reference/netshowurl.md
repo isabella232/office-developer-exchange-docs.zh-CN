@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - NetShowUrl
 api_type:
 - schema
 ms.assetid: a5d48fc1-b141-422c-bcb0-05d0f9ba90dd
-description: NetShowUrl 元素指定 Microsoft NetShow online 会议的 URL。
-ms.openlocfilehash: 66e288a5e66eecf404698135cc3257085b852034
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: NetShowUrl 元素指定 Microsoft NetShow 联机会议 URL。
+ms.openlocfilehash: a5fe0daac17971c868bec0088ec6b79294d6727a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466330"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541985"
 ---
 # <a name="netshowurl"></a>NetShowUrl
 
-**NetShowUrl**元素指定 Microsoft NetShow online 会议的 URL。 
+**NetShowUrl** 元素指定 Microsoft NetShow 联机会议 URL。 
   
 ```xml
 <NetShowUrl/>
@@ -49,11 +49,11 @@ ms.locfileid: "44466330"
    
 ## <a name="text-value"></a>文本值
 
-如果使用此元素，则需要一个表示 URL 的文本值。
+如果使用此元素，则代表 URL 的文本值是必需的。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-此 NetShowUrl 属性可读写组织者的日历项目。 对于会议请求和与会者，它是只读的。
+对于组织者的日历项目，此 NetShowUrl 属性是可读写的。 对于会议请求和与会者，它是只读的。
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

@@ -1,24 +1,24 @@
 ---
-title: 请求 (SOAP)
+title: Request (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 75696436-997e-49f1-a31b-eb9a8c3526f3
 description: Request 元素包含请求的配置设置和目标用户。
-ms.openlocfilehash: 4358713d19e763b75d2a43f147385026f43b1255
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 533419d6e622bb1d415f739868aaf30c79c41635
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44448987"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542803"
 ---
-# <a name="request-soap"></a>请求 (SOAP)
+# <a name="request-soap"></a>Request (SOAP)
 
-**Request**元素包含请求的配置设置和目标用户。 
+**Request** 元素包含请求的配置设置和目标用户。 
   
 ```XML
 <Request>
@@ -41,15 +41,15 @@ ms.locfileid: "44448987"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Users （SOAP）](users-soap.md) <br/> |表示应检索其设置的用户的电子邮件地址的集合。  <br/> |
-|[RequestedSettings （SOAP）](requestedsettings-soap.md) <br/> |包含所请求的配置设置的名称。  <br/> |
-|[RequestedVersion （SOAP）](requestedversion-soap.md) <br/> |指定提供程序要使用的特定服务器版本。  <br/> |
+|[Users (SOAP)](users-soap.md) <br/> |表示应检索其设置的用户的电子邮件地址的集合。  <br/> |
+|[RequestedSettings (SOAP)](requestedsettings-soap.md) <br/> |包含请求的配置设置的名称。  <br/> |
+|[RequestedVersion (SOAP)](requestedversion-soap.md) <br/> |指定提供程序希望使用的特定服务器版本。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GetUserSettingsRequestMessage （SOAP）](getusersettingsrequestmessage-soap.md) <br/> |表示[GetUserSettings 操作（SOAP）](getusersettings-operation-soap.md)请求。  <br/> |
+|[GetUserSettingsRequestMessage (SOAP)](getusersettingsrequestmessage-soap.md) <br/> |表示 [SOAP 请求 (GetUserSettings) ](getusersettings-operation-soap.md) 操作。  <br/> |
    
 ## <a name="text-value"></a>文本值
 

@@ -1,22 +1,22 @@
 ---
-title: TargetAutodiscoverEpr （SOAP）
+title: TargetAutodiscoverEpr (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fdb9cc7a-cf0a-431b-9f6f-5f1db1792db7
-description: TargetAutodiscoverEpr 元素表示 TargetAutodiscoverEpr 属性。 TargetAutodiscoverEpr 元素仅供内部使用。 客户端不使用此元素。
-ms.openlocfilehash: f8609f61021d5701f7a8fa2590a85824caf296c6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: TargetAutodiscoverEpr 元素表示 TargetAutodiscoverEpr 属性。 TargetAutodiscoverEpr 元素仅供内部使用。 此元素不由客户端使用。
+ms.openlocfilehash: f49d7b0acc59d638f2fca993ec7d8f182cd7380a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530287"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545802"
 ---
-# <a name="targetautodiscoverepr-soap"></a>TargetAutodiscoverEpr （SOAP）
+# <a name="targetautodiscoverepr-soap"></a>TargetAutodiscoverEpr (SOAP)
 
-**TargetAutodiscoverEpr**元素表示**TargetAutodiscoverEpr**属性。 **TargetAutodiscoverEpr**元素仅供内部使用。 客户端不使用此元素。 
+**TargetAutodiscoverEpr** 元素表示 **TargetAutodiscoverEpr** 属性。 **TargetAutodiscoverEpr** 元素仅供内部使用。 此元素不由客户端使用。 
   
 ```XML
 <TargetAutodiscoverEpr/>
@@ -39,13 +39,13 @@ ms.locfileid: "44530287"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[OrganizationRelationshipSettings （SOAP）](organizationrelationshipsettings-soap.md) <br/> |表示单个组织的组织关系列表。  <br/> |
+|[OrganizationRelationshipSettings (SOAP)](organizationrelationshipsettings-soap.md) <br/> |表示单个组织的组织关系列表。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-此元素的文本值是组织关系的统一资源标识符（URI）。
+此元素的文本值是组织关系 (URI) 统一资源标识符。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此元素指定外部组织的服务器的自动发现 URL。 
   
@@ -62,5 +62,5 @@ ms.locfileid: "44530287"
 
 
 
-[GetOrganizationRelationshipSettings 操作（SOAP）](getorganizationrelationshipsettings-operation-soap.md)
+[GetOrganizationRelationshipSettings 操作 (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
 

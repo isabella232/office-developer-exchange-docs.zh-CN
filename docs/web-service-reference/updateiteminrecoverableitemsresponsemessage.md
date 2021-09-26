@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 96259756-322e-4c24-ac76-0cd9c32e0d6d
 description: UpdateItemInRecoverableItemsResponseMessage 元素指定对 UpdateItemInRecoverableItems 请求的响应。
-ms.openlocfilehash: 021631f5c30eebbf4d7ae0aad35a85b99a23925f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 10112245b27acd736d7985b5cd46944486c7e006
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466533"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542776"
 ---
 # <a name="updateiteminrecoverableitemsresponsemessage"></a>UpdateItemInRecoverableItemsResponseMessage
 
-**UpdateItemInRecoverableItemsResponseMessage**元素指定对**UpdateItemInRecoverableItems**请求的响应。 
+**UpdateItemInRecoverableItemsResponseMessage** 元素指定 **对 UpdateItemInRecoverableItems** 请求的响应。 
   
 ```XML
 <UpdateItemInRecoverableItemsResponseMessage>
@@ -42,13 +42,13 @@ ms.locfileid: "44466533"
   
 ### <a name="child-elements"></a>子元素
 
-[MessageText](messagetext.md)  | [ResponseCode](responsecode.md)  | [DescriptiveLinkKey](descriptivelinkkey.md)  | [MessageXml](messagexml.md)  | [项目](items.md)  | [附件](attachments-ex15websvcsotherref.md)  | [ConflictResults](conflictresults.md)
+[MessageText](messagetext.md)  | [ResponseCode](responsecode.md)  | [DescriptiveLinkKey](descriptivelinkkey.md)  | [MessageXml](messagexml.md)  | [Items](items.md)  | [附件](attachments-ex15websvcsotherref.md)  | [ConflictResults](conflictresults.md)
   
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -60,7 +60,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/message  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
-|验证文件  <br/> |Message .xsd  <br/> |
+|验证文件  <br/> |Message.xsd  <br/> |
 |可以为空  <br/> |false  <br/> |
    
 

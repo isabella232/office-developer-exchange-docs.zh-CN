@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FlagStatus
 api_type:
 - schema
 ms.assetid: d5907ec5-3a60-4d83-bf85-406c54f95eb7
-description: FlagStatus 元素包含当前文件夹中的会话项目的聚合标志状态。
-ms.openlocfilehash: e65849c4909292c07450f8578fe7a7065c98ab44
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: FlagStatus 元素包含当前文件夹中会话项目的聚合标志状态。
+ms.openlocfilehash: 08a37b8ecced5fa0bd2b5a5b2fd413b244d1b466
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466211"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545074"
 ---
 # <a name="flagstatus"></a>FlagStatus
 
-**FlagStatus**元素包含当前文件夹中的会话项目的聚合标志状态。 
+**FlagStatus** 元素包含当前文件夹中会话项目的聚合标志状态。 
   
 [FindConversationResponse](findconversationresponse.md)
   
@@ -56,15 +56,15 @@ ms.locfileid: "44466211"
    
 ## <a name="text-value"></a>文本值
 
-**FlagStatus**元素的文本值是当前文件夹中的会话项目的聚合标志状态。 以下是可能的文本值： 
+**FlagStatus** 元素的文本值是当前文件夹中会话项目的聚合标志状态。 以下是可能的文本值： 
   
-- **NotFlagged** -指示未标记的状态。 
+- **NotFlagged** - 指示未标记的状态。 
     
-- 已**标记**-指示已标记的状态。 
+- **已标记** - 指示已标记的状态。 
     
-- **完成**-指示完整的标志状态。 
+- **Complete** - 指示完整的标志状态。 
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   

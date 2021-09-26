@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c969475a-238d-47ec-947a-fe3c53c8c1e9
 description: GetNonIndexableItemStatisticsResponseMessage 元素指定 GetNonIndexableItemStatistics 请求的响应消息。
-ms.openlocfilehash: 351db85b16f8b0f5dd4bef0374ee0edb954a1083
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 7b6ae581e5b665d243fd430b9b394631f1693220
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44452767"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546194"
 ---
 # <a name="getnonindexableitemstatisticsresponsemessage"></a>GetNonIndexableItemStatisticsResponseMessage
 
-**GetNonIndexableItemStatisticsResponseMessage**元素指定**GetNonIndexableItemStatistics**请求的响应消息。 
+**GetNonIndexableItemStatisticsResponseMessage** 元素指定 **GetNonIndexableItemStatistics** 请求的响应消息。 
   
 ```XML
 <GetNonIndexableItemStatisticsResponseMessage>
@@ -46,7 +46,7 @@ ms.locfileid: "44452767"
 
 [ResponseMessages](responsemessages.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

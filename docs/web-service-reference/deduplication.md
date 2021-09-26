@@ -1,23 +1,23 @@
 ---
-title: 项
+title: Deduplication
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a38acc3d-29a8-4466-81a4-73cb30fe5e80
-description: 重复数据删除元素指示搜索结果是否应删除重复项。
-ms.openlocfilehash: c39f980658aba7036cfabb3b51af5a41005f97b6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: 重复数据删除元素指示搜索结果是否应该删除重复项。
+ms.openlocfilehash: 6178502d102b8c24b39d7276352c31740c62352c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463711"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543406"
 ---
-# <a name="deduplication"></a>项
+# <a name="deduplication"></a>Deduplication
 
-**重复数据删除**元素指示搜索结果是否应删除重复项。 
+**重复数据删除元素** 指示搜索结果是否应该删除重复项。 
   
 ```XML
 <Deduplication> true | false </Deduplication>
@@ -43,9 +43,9 @@ ms.locfileid: "44463711"
   
 ## <a name="text-value"></a>文本值
 
-对于重复数据删除元素，文本值为**true**表示搜索结果可能不包含重复项。 **如果值为 false** ，则表示搜索结果可能包含重复项。 
+重复数据删除元素的文本值 **true** 指示搜索结果可能不包含重复项。 false **值表示** 搜索结果可能包含重复项。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -57,7 +57,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> |false  <br/> |
    
 

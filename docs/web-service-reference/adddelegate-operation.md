@@ -5,40 +5,40 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AddDelegate
 api_type:
 - schema
 ms.assetid: 012d8cc5-648c-4ba0-a155-15c422b1e994
 description: AddDelegate 操作将一个或多个委派添加到主体的邮箱，并设置特定的访问权限。
-ms.openlocfilehash: 80adbe71d69be1025dc9593c6a9002bc68fdcb76
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 687080c58a0dbde2ddb0f0049b96d543204c6018
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466512"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543812"
 ---
 # <a name="adddelegate-operation"></a>AddDelegate 操作
 
-**AddDelegate**操作将一个或多个委派添加到主体的邮箱，并设置特定的访问权限。 
+**AddDelegate** 操作将一个或多个委派添加到主体的邮箱，并设置特定的访问权限。 
   
 ## <a name="soap-headers"></a>SOAP 标头
 
-**AddDelegate**操作可以使用下表中列出和描述的 SOAP 标头。 
+**AddDelegate** 操作可以使用下表中列出和描述的 SOAP 标头。 
   
 |**Header**|**元素**|**说明**|
 |:-----|:-----|:-----|
-|模拟  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |标识客户端应用程序模拟的用户。  <br/> |
-|MailboxCulture  <br/> |[MailboxCulture](mailboxculture.md) <br/> |标识要用于访问邮箱的 RFC3066 区域性。  <br/> |
+|模拟  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |标识客户端应用程序正在模拟的用户。  <br/> |
+|MailboxCulture  <br/> |[MailboxCulture](mailboxculture.md) <br/> |标识用于访问邮箱的 RFC3066 区域性。  <br/> |
 |RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。  <br/> |
-|ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器版本。  <br/> |
+|ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器的版本。  <br/> |
    
 ## <a name="adddelegate-request-example"></a>AddDelegate 请求示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-下面的**AddDelegate**请求示例显示了向用户2拥有的文件夹授予对 user1 委派权限的尝试。 User1 拥有对 user2's 联系人文件夹的 user2's 日历文件夹和审阅者级别权限的作者级别权限。 User1 将不会收到会议邮件的副本，并且无法查看 user2's 邮箱中的私人项目。 将向 user1 和用户2发送会议请求。 
+以下 **AddDelegate** 请求示例演示了尝试向 user1 授予 user1 对 user2 拥有的文件夹的权限。 为 User1 授予了对 user2 的"日历"文件夹的"作者"级别权限，并授予了对 user2 的"联系人"文件夹的审阅者级别权限。 User1 不会接收会议邮件的副本，并且将无法查看 user2 邮箱中的私人项目。 会议请求将发送给 user1 和 user2。 
   
 ### <a name="code"></a>代码
 
@@ -75,9 +75,9 @@ ms.locfileid: "44466512"
 
 ## <a name="adddelegate-response-example"></a>AddDelegate 响应示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-下面的**AddDelegate**响应示例显示了对**AddDelegate**请求的成功响应。 
+**AddDelegate** 响应的以下示例显示了对 **AddDelegate** 请求的成功响应。 
   
 ### <a name="code"></a>代码
 
@@ -120,9 +120,9 @@ ms.locfileid: "44466512"
 
 ## <a name="adddelegate-error-response-example"></a>AddDelegate 错误响应示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-下面的示例演示对添加代理（已添加到主体邮箱）的请求的响应。
+以下示例显示对添加已添加到主体邮箱的代理人的请求的响应。
   
 ### <a name="code"></a>代码
 
@@ -158,9 +158,9 @@ ms.locfileid: "44466512"
 
 ### <a name="comments"></a>备注
 
-如果在尝试添加委派时返回 ErrorDelegateAlreadyExists 响应代码，请使用[GetDelegate 操作](getdelegate-operation.md)获取代理的所有当前权限，然后使用[UpdateDelegate 操作](updatedelegate-operation.md)来设置新权限。 
+如果在尝试添加委托时返回 ErrorDelegateAlreadyExists 响应代码，请使用 [GetDelegate](getdelegate-operation.md) 操作获取代理的所有当前权限，然后使用 [UpdateDelegate](updatedelegate-operation.md) 操作设置新权限。 
   
 ## <a name="see-also"></a>另请参阅
 
-- [添加委派](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
+- [添加代理人](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
 

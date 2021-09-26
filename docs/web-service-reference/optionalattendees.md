@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - OptionalAttendees
 api_type:
 - schema
 ms.assetid: e7c80c4d-3794-45e9-986f-6a8a687df0a4
-description: OptionalAttendees 元素表示无需参加会议的与会者。
-ms.openlocfilehash: 9eeff7151042f26fe5b00b43ec16a27946680a9f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: OptionalAttendees 元素表示不需要参加会议的与会者。
+ms.openlocfilehash: 66ccaf560d251be7a314d6abb9f9635c03a2a373
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468171"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543154"
 ---
 # <a name="optionalattendees"></a>OptionalAttendees
 
-**OptionalAttendees**元素表示无需参加会议的与会者。 
+**OptionalAttendees** 元素表示不需要参加会议的与会者。 
   
 ```xml
 <OptionalAttendees>
@@ -42,7 +42,7 @@ ms.locfileid: "44468171"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[与会者](attendee.md) <br/> |表示会议的与会者和资源。  <br/> |
+|[与会者](attendee.md) <br/> |表示会议与会者和资源。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 

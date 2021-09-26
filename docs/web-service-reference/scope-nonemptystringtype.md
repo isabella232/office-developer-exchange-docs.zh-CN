@@ -1,27 +1,27 @@
 ---
-title: 范围（NonEmptyStringType）
+title: Scope (NonEmptyStringType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Scope
 api_type:
 - schema
 ms.assetid: 7efb6fd9-1615-469e-96f6-0f7846ad9b44
 description: Scope 元素指定邮件跟踪报告的范围。
-ms.openlocfilehash: f86f6198e84e094e61ee569f6d005549316bbb9b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 036ff1007c9e7ec9cc385f8df81c045b7b9335b0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466939"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546124"
 ---
-# <a name="scope-nonemptystringtype"></a>范围（NonEmptyStringType）
+# <a name="scope-nonemptystringtype"></a>Scope (NonEmptyStringType)
 
-**Scope**元素指定邮件跟踪报告的范围。 
+**Scope** 元素指定邮件跟踪报告的范围。 
   
 ```XML
 <Scope>Organization | Forest | Site</Scope>
@@ -46,13 +46,13 @@ ms.locfileid: "44466939"
   
 ## <a name="text-value"></a>文本值
 
-下表列出了**Scope**元素的可能值。 
+下表列出了 Scope **元素的可能值** 。 
   
 |**值**|**说明**|
 |:-----|:-----|
 |组织  <br/> |邮件跟踪作用域跨越整个组织。  <br/> |
-|林  <br/> |邮件跟踪作用域跨林分布。  <br/> |
-|Site  <br/> |邮件跟踪作用域跨越一个站点。  <br/> |
+|林  <br/> |邮件跟踪作用域跨越林。  <br/> |
+|网站  <br/> |邮件跟踪范围跨网站。  <br/> |
    
 ## <a name="remarks"></a>说明
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - StartTimeZone
 api_type:
 - schema
 ms.assetid: d38c4dc1-4ecb-42a1-8d57-a451b16a2de2
-description: StartTimeZone 元素定义 CalendarItem 或 MeetingRequest 开始时间的时区。
-ms.openlocfilehash: fa88f676c0f6a7a2e934f51274942ed3bccbc789
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: StartTimeZone 元素定义 CalendarItem 或 MeetingRequest 的开始时间的时区。
+ms.openlocfilehash: 720e8b98f1ff4081f8971074bbb9323cdfb3e816
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458521"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545858"
 ---
 # <a name="starttimezone"></a>StartTimeZone
 
-**StartTimeZone**元素定义[CalendarItem](calendaritem.md)或[MeetingRequest](meetingrequest.md)开始时间的时区。
+**StartTimeZone** 元素定义 [CalendarItem](calendaritem.md)或 [MeetingRequest](meetingrequest.md)的开始时间的时区。
   
 ```xml
 <StartTimeZone Id="" Name="">
@@ -48,9 +48,9 @@ ms.locfileid: "44458521"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[课时](periods.md) <br/> |表示用于定义时区的不同阶段的时间偏移量的[Period](period.md)元素的数组。  <br/> |
-|[TransitionsGroups](transitionsgroups.md) <br/> |表示[TransitionsGroup](transitionsgroup.md)元素的数组，这些元素指定时区转换。  <br/> |
-|[移交](transitions.md) <br/> |表示时区转换的数组。  <br/> |
+|[Periods](periods.md) <br/> |表示 Period [元素的](period.md) 数组，这些元素定义时区的不同阶段的时间偏移。  <br/> |
+|[TransitionsGroups](transitionsgroups.md) <br/> |表示指定时区转换 [的 TransitionsGroup](transitionsgroup.md) 元素的数组。  <br/> |
+|[Transitions](transitions.md) <br/> |表示时区转换的数组。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -59,9 +59,9 @@ ms.locfileid: "44458521"
 |[CalendarItem](calendaritem.md) <br/> |表示 Exchange 日历项。  <br/> |
 |[MeetingRequest](meetingrequest.md) <br/> |表示 Exchange 存储中的会议请求。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-描述此元素的架构位于运行 Microsoft Exchange Server 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
+描述此元素的架构位于运行安装了客户端访问服务器角色Microsoft Exchange Server的计算机的 EWS 虚拟目录中。
   
 ## <a name="element-information"></a>元素信息
 

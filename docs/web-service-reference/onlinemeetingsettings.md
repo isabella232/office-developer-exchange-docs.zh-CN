@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4c7af00c-8dca-40f4-9420-e042a0b5303c
 description: OnlineMeetingSettings 元素指定联机会议的设置。
-ms.openlocfilehash: a89b89d2fa602e46925bcdae51631df0d9573300
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 22942f181ca4be5a9c831db9d3649e64190d97d8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467205"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541929"
 ---
 # <a name="onlinemeetingsettings"></a>OnlineMeetingSettings
 
-**OnlineMeetingSettings**元素指定联机会议的设置。 
+**OnlineMeetingSettings** 元素指定联机会议的设置。 
   
 ```XML
 <OnlineMeetingSettings>
@@ -44,7 +44,7 @@ ms.locfileid: "44467205"
 
 [CalendarItem](calendaritem.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

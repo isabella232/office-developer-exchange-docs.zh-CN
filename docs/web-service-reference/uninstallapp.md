@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8a762128-8d5f-4774-8627-49f1dc8ba30d
-description: UninstallApp 元素指定通过其标识符卸载应用程序的请求。
-ms.openlocfilehash: 822a3cb2c0242111c857e50e3c49379b8ed95fe6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: UninstallApp 元素指定按其标识符卸载应用程序的请求。
+ms.openlocfilehash: 7742fe0250329fd0e3b0c030b1d2f255bdbf8f44
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458857"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541831"
 ---
 # <a name="uninstallapp"></a>UninstallApp
 
-**UninstallApp**元素指定通过其标识符卸载应用程序的请求。 
+**UninstallApp** 元素指定按其标识符卸载应用程序的请求。 
   
 ```XML
 <UninstallApp>
@@ -36,13 +36,13 @@ ms.locfileid: "44458857"
   
 ### <a name="child-elements"></a>子元素
 
-[ID （字符串）](id-string.md)
+[ID (String)](id-string.md)
   
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

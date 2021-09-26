@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 78ed7503-7d65-45e8-b1b0-d26534217058
-description: ImTelephoneNumber 元素表示添加到即时消息（IM）组的联系人的电话号码。
-ms.openlocfilehash: df2f089b6aef9dfe6cc8aa8f3a1748029b1a37d3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ImTelephoneNumber 元素表示添加到 IM 组即时消息 (联系人) 电话号码。
+ms.openlocfilehash: e969ea2fbf5dd16e98ae5b9714980627ceeea5f1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460643"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542188"
 ---
 # <a name="imtelephonenumber"></a>ImTelephoneNumber
 
-**ImTelephoneNumber**元素表示添加到即时消息（IM）组的联系人的电话号码。 
+**ImTelephoneNumber** 元素表示添加到即时消息或 IM 组 (联系人) 电话号码。 
   
 ```XML
 <ImTelephoneNumber></ImTelephoneNumber>
@@ -42,9 +42,9 @@ ms.locfileid: "44460643"
   
 ## <a name="text-value"></a>文本值
 
-**ImTelephoneNumber**元素的文本值是联系人的电话号码。 
+**ImTelephoneNumber** 元素的文本值是联系人的电话号码。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

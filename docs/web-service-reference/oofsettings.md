@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - OofSettings
 api_type:
 - schema
 ms.assetid: 8f37d174-db11-427c-bbed-fdde754a60c7
-description: OofSettings 元素包含外出（OOF）设置。
-ms.openlocfilehash: c1b214fd8bfab5b7a82d41a5187cf6e0fc4ba79c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: OofSettings 元素包含 Out of Office (OOF) 设置。
+ms.openlocfilehash: 0a612cacb69464dfda3c1f235c32f569d3e45775
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467191"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543168"
 ---
 # <a name="oofsettings"></a>OofSettings
 
-**OofSettings**元素包含外出（OOF）设置。 
+**OofSettings** 元素包含 Out of Office (OOF) 设置。 
   
 [GetUserOofSettingsResponse](getuseroofsettingsresponse.md)
   
@@ -51,10 +51,10 @@ ms.locfileid: "44467191"
 |**元素**|**说明**|
 |:-----|:-----|
 |[OofState](oofstate.md) <br/> |包含用户的 OOF 状态。  <br/> |
-|[ExternalAudience](externalaudience.md) <br/> |包含一个值，该值确定要向其发送外部 OOF 邮件的人员。  <br/> |
-|[持续时间（UserOofSettings）](duration-useroofsettings.md) <br/> |包含在[OofState](oofstate.md)元素设置为 "已**计划**" 时启用了 OOF 状态的持续时间。 如果将[OofState](oofstate.md)元素设置为 "**启用**" 或 "**禁用**"，则忽略此元素的值。  <br/> |
-|[InternalReply](internalreply.md) <br/> |包含发送给用户域或受信任域中的其他用户的 OOF 响应。  <br/> |
-|[ExternalReply](externalreply.md) <br/> |包含发送给收件人域或受信任域外部的地址的 OOF 响应。  <br/> |
+|[ExternalAudience](externalaudience.md) <br/> |包含一个值，该值确定外部 OOF 邮件的发送对象。  <br/> |
+|[Duration (UserOofSettings)](duration-useroofsettings.md) <br/> |包含当 [OofState](oofstate.md) 元素设置为 **Scheduled** 时启用 OOF 状态的持续时间。 如果 [OofState](oofstate.md) 元素设置为 **Enabled** 或 **Disabled，** 则忽略此元素的值。  <br/> |
+|[InternalReply](internalreply.md) <br/> |包含发送给用户域或受信任域中其他用户的 OOF 响应。  <br/> |
+|[ExternalReply](externalreply.md) <br/> |包含发送到收件人域或受信任域外部地址的 OOF 响应。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 

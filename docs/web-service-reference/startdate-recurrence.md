@@ -1,33 +1,33 @@
 ---
-title: 起始日期（定期）
+title: StartDate (Recurrence)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - StartDate
 api_type:
 - schema
 ms.assetid: bd65ac06-b3ac-4c9b-9568-3e4dc94378e7
-description: 起始日期元素表示定期任务或日历项目的开始日期。
-ms.openlocfilehash: 4514f126b1de31c64a2650b9e7cb6b7412a726c7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: StartDate 元素表示定期任务或日历项目的开始日期。
+ms.openlocfilehash: 50f83e5c97d346cc3f7dfced1ee71aa3f9f38ed5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457205"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545865"
 ---
-# <a name="startdate-recurrence"></a>起始日期（定期）
+# <a name="startdate-recurrence"></a>StartDate (Recurrence)
 
-**起始**日期元素表示定期任务或日历项目的开始日期。 
+**StartDate** 元素表示定期任务或日历项目的开始日期。 
   
 ```xml
 <StartDate/>
 ```
 
-**Date**
+**日期**
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
@@ -45,13 +45,13 @@ ms.locfileid: "44457205"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[EndDateRecurrence](enddaterecurrence.md) <br/> |描述项目定期模式的开始日期和结束日期。  <br/> |
-|[NoEndRecurrence](noendrecurrence.md) <br/> |描述不具有定义的结束日期的项目定期模式的开始日期。  <br/> |
-|[NumberedRecurrence](numberedrecurrence.md) <br/> |描述定期项目的开始日期和发生次数。  <br/> |
+|[EndDateRecurrence](enddaterecurrence.md) <br/> |描述项目的开始日期和结束日期定期模式。  <br/> |
+|[NoEndRecurrence](noendrecurrence.md) <br/> |描述没有定义结束日期定期模式项目的开始日期。  <br/> |
+|[NumberedRecurrence](numberedrecurrence.md) <br/> |描述开始日期和定期项目的发生次数。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-如果使用此元素，则表示日期的文本值是必需的。 值不能小于 Apr、1、1601 00:00:00。
+如果使用此元素，则代表日期的文本值是必需的。 该值不能小于 Apr， 1， 1601 00：00：00。
   
 ## <a name="remarks"></a>说明
 

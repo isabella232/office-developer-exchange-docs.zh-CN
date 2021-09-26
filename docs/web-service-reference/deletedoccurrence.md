@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DeletedOccurrence
 api_type:
 - schema
 ms.assetid: ff24ea15-0cd7-407d-a378-73ec16451870
 description: DeletedOccurrence 元素表示定期日历项目的已删除事件。
-ms.openlocfilehash: 814a81934786963ae5e7ea3a40406834c27b64ce
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 69e77f86097fe7037fc217806e4ef1b33b99c549
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457835"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542482"
 ---
 # <a name="deletedoccurrence"></a>DeletedOccurrence
 
-**DeletedOccurrence**元素表示定期日历项目的已删除事件。 
+**DeletedOccurrence** 元素表示定期日历项目的已删除事件。 
   
 ```xml
 <DeletedOccurrence>
@@ -48,7 +48,7 @@ ms.locfileid: "44457835"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[DeletedOccurrences](deletedoccurrences.md) <br/> |包含定期日历项目的已删除事件数组。  <br/> |
+|[DeletedOccurrences](deletedoccurrences.md) <br/> |包含定期日历项目的已删除事件的数组。  <br/> |
    
 ## <a name="remarks"></a>说明
 

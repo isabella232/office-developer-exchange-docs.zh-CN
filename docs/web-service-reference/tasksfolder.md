@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - TasksFolder
 api_type:
 - schema
 ms.assetid: 5a9a4612-8064-4986-b467-c44f268c64df
 description: TasksFolder元素表示包含在邮箱任务文件夹。
-ms.openlocfilehash: 522fe485482bd8159927f9925b7a5582ba2e1c22
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 6c0225370dd4a4af700df9dd029c2e54154ad8e8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465336"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543861"
 ---
 # <a name="tasksfolder"></a>TasksFolder
 
-本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **TasksFolder**元素表示包含在邮箱任务文件夹。 
+本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **TasksFolder** 元素表示包含在邮箱任务文件夹。 
   
 ```xml
 <TasksFolder>

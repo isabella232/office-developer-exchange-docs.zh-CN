@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0eda1a43-915f-4c26-8053-cbe8608ccbc9
 description: IsClutter 元素仅供内部使用。
-ms.openlocfilehash: 74b3cc8b570f0a039a85de4289362ac53941323d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: db92d953b91c8daf2a62bfc292ebf92f8eb4e999
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455553"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544890"
 ---
 # <a name="isclutter"></a>IsClutter
 
-**IsClutter**元素仅供内部使用。 
+**IsClutter** 元素仅供内部使用。 
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
@@ -35,7 +35,7 @@ ms.locfileid: "44455553"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   

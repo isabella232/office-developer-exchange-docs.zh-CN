@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DelegationState
 api_type:
 - schema
 ms.assetid: 9dbb83ed-1ded-48f3-8e06-2489fc8b28d5
 description: DelegationState 元素表示委派任务的状态。
-ms.openlocfilehash: b938b5a2240283c265006dd47cd6ff475ad80978
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 218e96b73c1681bd9bb2fd964a735b62b9e2a94b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457366"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542503"
 ---
 # <a name="delegationstate"></a>DelegationState
 
-**DelegationState**元素表示委派任务的状态。 
+**DelegationState** 元素表示委派任务的状态。 
   
 ```xml
 <DelegationState/>
@@ -55,17 +55,17 @@ ms.locfileid: "44457366"
     
 - OwnNew
     
-- 所有权
+- 拥有
     
 - Accepted
     
-- 邀请
+- 已拒绝
     
 - Max
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-Microsoft Exchange Server 2007 中的 Exchange Web 服务不支持任务分配。
+ExchangeMicrosoft Exchange Server 2007 中的 Web 服务不支持任务分配。
   
 描述此元素的架构位于正在运行 Exchange 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

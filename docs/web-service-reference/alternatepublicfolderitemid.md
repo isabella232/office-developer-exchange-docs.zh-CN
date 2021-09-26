@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AlternatePublicFolderItemId
 api_type:
 - schema
 ms.assetid: a67df9b9-8fdb-42de-b9c5-8377b71fa3d9
-description: AlternatePublicFolderItemId 元素描述要转换为另一种标识符格式的公用文件夹项目标识符。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
-ms.openlocfilehash: 11a9fafec78a9bd14e4d98982fd38954d45e4d1a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: AlternatePublicFolderItemId 元素描述要转换为其他标识符格式的公用文件夹项标识符。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。
+ms.openlocfilehash: e3d71d17c6e9321a1accfbaf90967d2b504f5efe
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464768"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543707"
 ---
 # <a name="alternatepublicfolderitemid"></a>AlternatePublicFolderItemId
 
-**AlternatePublicFolderItemId**元素描述要转换为另一种标识符格式的公用文件夹项目标识符。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
+**AlternatePublicFolderItemId** 元素描述要转换为其他标识符格式的公用文件夹项标识符。 在 Microsoft Exchange Server 2007 Service Pack 1 (SP1) 引入了此元素。 
   
 - [ConvertId](convertid.md)
   
@@ -43,19 +43,19 @@ ms.locfileid: "44464768"
 |**属性**|**说明**|
 |:-----|:-----|
 |FolderId  <br/> |标识包含公用文件夹项目的公用文件夹。 此特性是必需的。  <br/> |
-|Format  <br/> |标识描述要转换的公用文件夹项目标识符的格式。 此特性是必需的。  <br/> |
-|ItemId  <br/> |标识符要转换的公用文件夹项目。 此特性是必需的。  <br/> |
+|格式  <br/> |标识描述要转换的公用文件夹项标识符的格式。 此特性是必需的。  <br/> |
+|ItemId  <br/> |要转换的公用文件夹项目的标识符。 此特性是必需的。  <br/> |
    
-#### <a name="format-attribute-values"></a>格式属性值
+#### <a name="format-attribute-values"></a>设置属性值的格式
 
 |**值**|**说明**|
 |:-----|:-----|
-|EwsLegacyId  <br/> |介绍 exchange 2007 的初始发布版本中的 Exchange Web 服务生成的标识符。  <br/> |
-|EwsId  <br/> |介绍了 Exchange Web 服务从 Exchange 2007 SP1 开始生成的标识符。  <br/> |
-|EntryId  <br/> |描述 MAPI 标识符，如 PR_ENTRYID 属性中所示。  <br/> |
-|HexEntryId  <br/> |描述了 PR_ENTRYID 属性的十六进制编码表示形式。 这是可用性日历事件标识符的格式。  <br/> |
-|StoreId  <br/> |描述 Exchange 存储标识符。  <br/> |
-|OwaId  <br/> |介绍 Outlook Web Access 标识符。  <br/> |
+|EwsLegacyId  <br/> |介绍由 Exchange 2007 初始发行版中的 Web 服务Exchange标识符。  <br/> |
+|EwsId  <br/> |介绍从 2007 SP1 Exchange Web 服务Exchange生成的标识符。  <br/> |
+|EntryId  <br/> |描述 MAPI 标识符，如 PR_ENTRYID 属性。  <br/> |
+|HexEntryId  <br/> |描述 PR_ENTRYID 属性的十六进制编码表示形式。 这是可用性日历事件标识符的格式。  <br/> |
+|StoreId  <br/> |描述Exchange存储标识符。  <br/> |
+|OwaId  <br/> |描述一Outlook Web Access 标识符。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -63,7 +63,7 @@ ms.locfileid: "44464768"
   
 ### <a name="parent-elements"></a>父元素
 
-|**元素**|**描述**|
+|**元素**|**说明**|
 |:-----|:-----|
 |[SourceIds](sourceids.md) <br/> |包含要转换的源标识符。 在 Exchange 2007 SP1 引入了此元素。  <br/> |
    

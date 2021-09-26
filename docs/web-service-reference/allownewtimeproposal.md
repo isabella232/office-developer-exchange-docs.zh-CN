@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AllowNewTimeProposal
 api_type:
 - schema
 ms.assetid: afdb4ec9-2daf-48a1-a0bb-a7f647f212f2
-description: AllowNewTimeProposal 元素指示与会者是否可以为会议建议新会议时间。
-ms.openlocfilehash: b3f2c569bced08c66144680a4fddd6e8bac0cecf
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: AllowNewTimeProposal 元素指示与会者是否可以为会议建议新的会议时间。
+ms.openlocfilehash: 1acb95189e1949204a25f97a82770b88590df776
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464803"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543728"
 ---
 # <a name="allownewtimeproposal"></a>AllowNewTimeProposal
 
-**AllowNewTimeProposal**元素指示与会者是否可以为会议建议新会议时间。 
+**AllowNewTimeProposal** 元素指示与会者是否可以为会议建议新的会议时间。 
   
 ```xml
 <AllowNewTimeProposal/>
@@ -49,16 +49,16 @@ ms.locfileid: "44464803"
    
 ## <a name="text-value"></a>文本值
 
-表示一个布尔值的文本值是必需的。 **True**的值表示可以创建会议时间的新建议;**如果值为 false** ，则表示不允许新的时间建议。 组织者在会议请求中设置此值。 
+表示一个布尔值的文本值是必需的。 true **值表示** 可以创建会议时间的新建议;false **值表示** 不允许新时间建议。 组织者在会议请求中设置此值。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-对于组织者的日历项目，AllowNewTimeProposal 属性是可读写的。 对于会议请求和与会者的日历项目，它是只读的。
+AllowNewTimeProposal 属性对于组织者的日历项目是可读写的。 对于会议请求和与会者的日历项目，它是只读的。
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
 > [!NOTE]
-> Exchange Web 服务不支持新的时间建议消息。 若要获取与新的时间建议邮件相关的属性，请使用扩展属性。 
+> ExchangeWeb 服务不支持新的时间建议消息。 若要获取与新时间建议消息相关的属性，请使用扩展属性。 
   
 ## <a name="element-information"></a>元素信息
 

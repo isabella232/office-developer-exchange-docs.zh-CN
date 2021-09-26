@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0cec33a6-4b10-4259-8ac3-3f39a642b34c
 description: ErrorMessage 元素表示验证错误的原因。
-ms.openlocfilehash: a35dc6af12e71c8437c13024a254000e8f477a15
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: c170c0d3b7e1975ebffce9f7508ab292bf1e31b2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526191"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545221"
 ---
 # <a name="errormessage"></a>ErrorMessage
 
-**ErrorMessage**元素表示验证错误的原因。 
+**ErrorMessage** 元素表示验证错误的原因。 
   
 ```XML
 <ErrorMessage/>
@@ -40,7 +40,7 @@ ms.locfileid: "44526191"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Error](error.md) <br/> |表示特定规则属性值、谓词属性值或 action 属性值上的单个验证错误。  <br/> |
+|[Error](error.md) <br/> |表示特定规则属性值、谓词属性值或操作属性值上的单个验证错误。  <br/> |
    
 ## <a name="text-value"></a>文本值
 

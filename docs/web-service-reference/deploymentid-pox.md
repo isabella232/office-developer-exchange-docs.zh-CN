@@ -1,29 +1,29 @@
 ---
-title: DeploymentId （POX）
+title: DeploymentId (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: b879c134-307e-4645-bb53-55d8ba4fad9c
 description: DeploymentId 元素唯一标识 Microsoft Exchange Server 2007 林。
-ms.openlocfilehash: 4986a3404763e88fb3e84d52a5d30d54c810f93a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 37d66eadb38f02e75a35d0516b36aff07dfdafa6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467919"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545354"
 ---
-# <a name="deploymentid-pox"></a>DeploymentId （POX）
+# <a name="deploymentid-pox"></a>DeploymentId (POX)
 
-**DeploymentId**元素唯一标识 Microsoft Exchange Server 2007 林。 
+**DeploymentId** 元素唯一标识 Microsoft Exchange Server 2007 林。 
   
-- [自动发现（POX）](autodiscover-pox.md)  
-- [响应（POX）](response-pox.md) 
-- [User （POX）](user-pox.md)  
-- [DeploymentId （POX）](deploymentid-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md)  
+- [Response (POX)](response-pox.md) 
+- [User (POX)](user-pox.md)  
+- [DeploymentId (POX)](deploymentid-pox.md)
   
 ```xml
 <DeploymentId/>
@@ -45,17 +45,17 @@ ms.locfileid: "44467919"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[User （POX）](user-pox.md) <br/> |提供用户特定的信息。  <br/> |
+|[User (POX)](user-pox.md) <br/> |提供特定于用户的信息。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-该文本值唯一标识采用 GUID 格式的 Exchange 2007 林。
+文本值唯一标识 guiD Exchange 2007 林。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-如果您卸载然后重新安装 Exchange 2007 并使用相同的服务器名称，则**DeploymentId**值将更改。 
+如果卸载并重新安装 Exchange 2007，并且使用相同的服务器名称 **，DeploymentId** 值将发生更改。 
   
 ## <a name="see-also"></a>另请参阅
 
-- [Exchange 的 POX 自动发现 XML 元素](pox-autodiscover-xml-elements-for-exchange.md)
+- [用于存储的 POX 自动发现 XML Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

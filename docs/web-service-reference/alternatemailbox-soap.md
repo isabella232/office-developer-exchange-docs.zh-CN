@@ -1,24 +1,24 @@
 ---
-title: AlternateMailbox （SOAP）
+title: AlternateMailbox (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: d913a70d-5a85-4b6e-becc-2fb9334b6088
 description: AlternateMailbox 元素表示备用邮箱。
-ms.openlocfilehash: 9019f85a373cc186cc9dadddceee3dc9d11b3854
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 3646efef9b63b2af8dbba41a07a86462e18ac1c1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466155"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543721"
 ---
-# <a name="alternatemailbox-soap"></a>AlternateMailbox （SOAP）
+# <a name="alternatemailbox-soap"></a>AlternateMailbox (SOAP)
 
-**AlternateMailbox**元素表示备用邮箱。 
+**AlternateMailbox** 元素表示备用邮箱。 
   
 ```XML
 <AlternateMailbox>
@@ -43,17 +43,17 @@ ms.locfileid: "44466155"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[类型（SOAP）](type-soap.md) <br/> |代表备用邮箱类型。  <br/> |
-|[DisplayName （SOAP）](displayname-soap.md) <br/> |表示备用邮箱的显示名称。  <br/> |
-|[LegacyDN （SOAP）](legacydn-soap.md) <br/> |表示备用邮箱旧版可分辨名称。  <br/> |
-|[服务器（SOAP）](server-soap.md) <br/> |代表备用邮箱服务器。  <br/> |
-|[SmtpAddress （SOAP）](smtpaddress-soap.md) <br/> |代表备用邮箱 SMTP 地址。  <br/> |
+|[Type (SOAP)](type-soap.md) <br/> |表示备用邮箱类型。  <br/> |
+|[DisplayName (SOAP)](displayname-soap.md) <br/> |代表备用邮箱显示名称。  <br/> |
+|[LegacyDN (SOAP)](legacydn-soap.md) <br/> |表示备用邮箱旧版可分辨名称。  <br/> |
+|[Server (SOAP)](server-soap.md) <br/> |代表备用邮箱服务器。  <br/> |
+|[SmtpAddress (SOAP)](smtpaddress-soap.md) <br/> |代表备用邮箱 SMTP 地址。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[AlternateMailboxes （SOAP）](alternatemailboxes-soap.md) <br/> |代表备用邮箱的集合。  <br/> |
+|[AlternateMailboxes (SOAP)](alternatemailboxes-soap.md) <br/> |表示备用邮箱的集合。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
@@ -70,5 +70,5 @@ ms.locfileid: "44466155"
    
 ## <a name="see-also"></a>另请参阅
 
-- [AlternateMailboxCollectionSetting （SOAP）](alternatemailboxcollectionsetting-soap.md)
+- [AlternateMailboxCollectionSetting (SOAP)](alternatemailboxcollectionsetting-soap.md)
 
