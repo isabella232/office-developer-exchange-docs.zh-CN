@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fb2e8ad9-bcc9-4137-acbd-7b75a556e411
-description: InboxUrl （FederatedDirectoryGroupType）元素仅供内部使用。
-ms.openlocfilehash: 3030be5b4da798e58f696f23a8a22f296a3c638d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: InboxUrl (FederatedDirectoryGroupType) 仅供内部使用。
+ms.openlocfilehash: 0e92d7dfae0d17fa8a198681d76e764fa9273f14
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464859"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547223"
 ---
 # <a name="inboxurl-federateddirectorygrouptype"></a>InboxUrl (FederatedDirectoryGroupType)
 
-**InboxUrl （FederatedDirectoryGroupType）** 元素仅供内部使用。 
+InboxUrl **(FederatedDirectoryGroupType)** 仅供内部使用。 
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
@@ -35,7 +35,7 @@ ms.locfileid: "44464859"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 Service Pack 1 (SP1) 中引入了此元素。
   

@@ -5,25 +5,25 @@ ms.date: 4/18/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 00e40197-5794-4268-b937-bd65aa044890
-description: AddEntityFeedback 操作将返回对应于服务器端问题的错误消息。
-ms.openlocfilehash: a1027a0a1ee06cf3e83833b1d84c13d77b07c0b9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: AddEntityFeedback 操作返回与服务器端问题对应的错误信息。
+ms.openlocfilehash: d4322bcc075c8c68b1f3d5f2ae22badea02be452
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458437"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546824"
 ---
 # <a name="addentityfeedback-operation"></a>AddEntityFeedback 操作
 
-**AddEntityFeedback**操作将返回对应于服务器端问题的错误消息。 
+**AddEntityFeedback** 操作返回与服务器端问题对应的错误信息。 
   
-此操作取决于所记录的事件的类型。 最重要的事件之一是**EntityAdded**，它对应于所选的实体。 此操作是批处理操作，因此可用于在单个请求中记录批次条目。 
+此操作依赖于要记录的事件的类型。 最重要的事件之一是 **EntityAdded**，对应于要选择的实体。 此操作是批处理，因此可用于记录单个请求中的条目批处理。 
   
 ## <a name="findpeople-request-examples"></a>FindPeople 请求示例
 
-**AddEntityFeedback**操作提供一种方法，使客户端可以记录与服务返回的实体进行交互的详细信息。 这可用作提高每个客户端的幕后相关性的信号。 例如，客户端可以使用此操作提供对**FindPeople**返回的人员实体的反馈。
+**AddEntityFeedback** 操作为客户端提供了一种记录与服务返回的实体交互的详细信息的方法。 这可用作一个信号，以改进每个客户端的后台相关性。 例如，客户端可以使用此操作提供有关从 FindPeople 返回的人 **实体的反馈**。
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -60,21 +60,21 @@ ms.locfileid: "44458437"
 
 ### <a name="the-request-soap-body-contents"></a>请求 SOAP 正文内容
 
-Soap 请求包含单个元素**EntityFeedbackEntries**。 这反过来又包含**EntityFeedbackEntry**对象的数组。 数组中的每个条目都可以包含以下元素。 
+soap 请求包含单个元素 **EntityFeedbackEntries**。 这反过来包含 **EntityFeedbackEntry 对象的** 数组。 数组的每个条目都可以包含以下元素。 
   
 |**请求参数**|**必需**|**说明**|**类型**|
 |:-----|:-----|:-----|:-----|
-|**ClientEventTimeUtc** <br/> |是  <br/> |在客户端上事件发生时的 UTC 时间。  <br/> |日期/时间  <br/> |
-|**ClientEventTimeLocal** <br/> |是  <br/> |在客户端上发生事件的本地时间。  <br/> |日期/时间  <br/> |
-|**ClientId** <br/> |是  <br/> |客户端的类型（例如，Outlook、OWA 等）。  <br/> |ClientIDType 枚举  <br/> |
-|**ClientSessionId** <br/> |是  <br/> |标识会话 ID 的 GUID。 在客户端上生成。  <br/> |GUID  <br/> |
-|**ClientVersion** <br/> |是  <br/> |客户端的版本（例如，15.01.0101.000）。  <br/> |String  <br/> |
-|**EntityAddSource** <br/> |否  <br/> |EntityAded 的源（例如，EntityRelevanceAPI、类型、粘贴）。  <br/> |EntityAddSource 枚举  <br/> |
-|**EntrySequenceNumber** <br/> |是  <br/> |每个客户端会话递增整数。 用于检测数据丢失。  <br/> |Int  <br/> |
-|**EventType** <br/> |是  <br/> |事件类型（例如，添加实体，删除实体）。  <br/> |String  <br/> |
-|**JSONPropertyBag** <br/> |否  <br/> |与事件关联的其他属性（JSON blob 的键/值对）。  <br/> |JSON Blob  <br/> |
-|**TargetEntityList** <br/> |否  <br/> |与事件关联的实体的列表。  <br/> |JSON 字符串  <br/> |
-|**TransactionId** <br/> |否  <br/> |ID （GUID），用于关联查询日志中的 ID。  <br/> |String  <br/> |
+|**ClientEventTimeUtc** <br/> |是  <br/> |事件发生在客户端上的 UTC 时间。  <br/> |日期时间  <br/> |
+|**ClientEventTimeLocal** <br/> |是  <br/> |在客户端上发生事件的本地时间。  <br/> |日期时间  <br/> |
+|**ClientId** <br/> |是  <br/> |客户端类型 (，例如Outlook、OWA 等) 。  <br/> |ClientIDType 枚举  <br/> |
+|**ClientSessionId** <br/> |是  <br/> |GUID 标识会话 ID。 在客户端上生成。  <br/> |GUID  <br/> |
+|**ClientVersion** <br/> |是  <br/> |客户端客户端版本 (例如 15.01.0101.000) 。  <br/> |String  <br/> |
+|**EntityAddSource** <br/> |否  <br/> |EntityAded 的 (，例如 EntityRelevanceAPI、types、pasted) 。  <br/> |EntityAddSource 枚举  <br/> |
+|**EntrySequenceNumber** <br/> |是  <br/> |每个客户端会话的增量整数。 用于检测数据丢失。  <br/> |Int  <br/> |
+|**EventType** <br/> |是  <br/> |事件类型 (，例如 Entity Added、Entity Removed) 。  <br/> |String  <br/> |
+|**JSONPropertyBag** <br/> |否  <br/> |与事件关联的其他属性 (键/值对的 JSON blob) 。  <br/> |JSON Blob  <br/> |
+|**TargetEntityList** <br/> |否  <br/> |与事件关联的实体列表。  <br/> |JSON 字符串  <br/> |
+|**TransactionId** <br/> |否  <br/> |ID (GUID) 将查询日志中的 ID 关联在一起。  <br/> |String  <br/> |
    
 ### <a name="successful-addentityfeedback-operation-response"></a>成功的 AddEntityFeedback 操作响应
 
@@ -109,11 +109,11 @@ Soap 请求包含单个元素**EntityFeedbackEntries**。 这反过来又包含*
 
 #### <a name="errors"></a>错误 
   
-API 可以记录一批反馈条目，我们记录了我们所能做的一切。 此字段表示未记录的错误条目数。
+API 可以记录一批反馈条目，我们会记录所有能够记录的反馈条目。 此字段表示未记录的错误条目数。
     
 #### <a name="errordetails"></a>ErrorDetails
   
-与以上分隔的错误相关的详细信息 `;` 。
+与上述错误相关的详细信息由 分隔 `;` 。
     
 ### <a name="currently-supported-values"></a>当前支持的值
 
@@ -128,7 +128,7 @@ API 可以记录一批反馈条目，我们记录了我们所能做的一切。 
 |移动设备  <br/> |
 |其他  <br/> |
 |Outlook  <br/> |
-|Outlookservice.swift  <br/> |
+|OutlookService  <br/> |
 |POP3  <br/> |
 |平板电脑  <br/> |
 |Web  <br/> |
@@ -147,9 +147,9 @@ API 可以记录一批反馈条目，我们记录了我们所能做的一切。 
    
 ### <a name="addentityfeedback-operation-error-response"></a>AddEntityFeedback 操作错误响应
 
-有关对 EWS 通用的错误代码，请参阅[ResponseCode](responsecode.md)。
+有关 EWS 通用的错误代码，请参阅 [ResponseCode](responsecode.md)。
   
-### <a name="example-of-addentityfeedback-in-conjunction-with-findpeople"></a>AddEntityFeedback 与 FindPeople 结合使用的示例
+### <a name="example-of-addentityfeedback-in-conjunction-with-findpeople"></a>AddEntityFeedback 与 FindPeople 联合的示例
 
 #### <a name="findpeople-request"></a>FindPeople 请求
   

@@ -1,27 +1,27 @@
 ---
-title: 地址 (EmailAddressType)
+title: Address (EmailAddressType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Address
 api_type:
 - schema
 ms.assetid: 518641c8-7f6f-496c-86f9-341e7c1bb44c
 description: Address 元素表示完全解析的电子邮件地址。
-ms.openlocfilehash: 591bc675165ec80f69407bd8ee19d16c9ddff15a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: ff26a8d6de1e9bf36bb8dff5bc0141974220cf90
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464901"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546810"
 ---
-# <a name="address-emailaddresstype"></a>地址 (EmailAddressType)
+# <a name="address-emailaddresstype"></a>Address (EmailAddressType)
 
-**Address**元素表示完全解析的电子邮件地址。 
+**Address** 元素表示完全解析的电子邮件地址。 
   
 ```XML
 <Address>
@@ -56,15 +56,15 @@ ms.locfileid: "44464901"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[OriginalRecipients](originalrecipients.md) <br/> |包含代表跟踪的邮件的原始收件人的电子邮件地址的集合。  <br/> |
-|[RoomLists](roomlists.md) <br/> |包含组织中的会议室列表。  <br/> |
+|[OriginalRecipients](originalrecipients.md) <br/> |包含表示跟踪邮件的原始收件人的电子邮件地址的集合。  <br/> |
+|[RoomLists](roomlists.md) <br/> |包含组织中会议室的列表。  <br/> |
 |[SentToAddresses](senttoaddresses.md) <br/> |包含传入邮件必须发送到的电子邮件地址列表，以便条件或例外情况适用。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

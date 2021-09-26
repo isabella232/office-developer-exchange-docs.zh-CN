@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GroupIndex
 api_type:
 - schema
 ms.assetid: 7a596ff7-6cc3-4626-a52c-538a92202337
-description: GroupIndex 元素表示用于对 FindItem 操作调用中当前项组的项进行分组的属性值。
-ms.openlocfilehash: 05f303be92885a15dddf85c85251af04910d835c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GroupIndex 元素表示用于对 FindItem 操作调用中的当前项目组的项目进行分组的属性值。
+ms.openlocfilehash: 5e6e2c36e64edec1647c844209d86ceece840b05
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530266"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547342"
 ---
 # <a name="groupindex"></a>GroupIndex
 
-**GroupIndex**元素表示用于对[FindItem 操作](finditem-operation.md)调用中当前项组的项进行分组的属性值。 
+**GroupIndex** 元素表示用于对 FindItem 操作调用中的当前项目组 [的项目进行分组的](finditem-operation.md)属性值。 
   
 [FindItemResponse](finditemresponse.md)
   
@@ -29,7 +29,7 @@ ms.locfileid: "44530266"
   
 [FindItemResponseMessage](finditemresponsemessage.md)
   
-[RootFolder （FindItemResponseMessage）](rootfolder-finditemresponsemessage.md)
+[RootFolder (FindItemResponseMessage)](rootfolder-finditemresponsemessage.md)
   
 [组](groups.md)
   
@@ -58,17 +58,17 @@ ms.locfileid: "44530266"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GroupedItems](groupeditems.md) <br/> |表示作为分组[FindItem 操作](finditem-operation.md)调用的结果的项的集合。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/FindItemResponse/ResponseMessages/FindItemResponseMessage/RootFolder/Groups/GroupedItems[i]` <br/> |
+|[GroupedItems](groupeditems.md) <br/> |表示作为分组 [FindItem](finditem-operation.md) 操作调用的结果的项目的集合。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/FindItemResponse/ResponseMessages/FindItemResponseMessage/RootFolder/Groups/GroupedItems[i]` <br/> |
    
 ## <a name="text-value"></a>文本值
 
 文本值是必需的。 此属性是只读的。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-此元素仅在[FindItem 操作](finditem-operation.md)响应中出现。 
+此元素仅在 [FindItem 操作响应中](finditem-operation.md) 发生。 
   
-描述此元素的架构位于运行 Microsoft Exchange Server 2010 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
+描述此元素的架构位于运行安装了客户端访问服务器角色的 Microsoft Exchange Server 2010 的计算机的 EWS 虚拟目录中。
   
 ## <a name="element-information"></a>元素信息
 

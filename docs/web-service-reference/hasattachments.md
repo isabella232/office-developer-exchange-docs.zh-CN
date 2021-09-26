@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - HasAttachments
 api_type:
 - schema
 ms.assetid: 538b7a85-11d7-4daa-8458-09b540760e8b
 description: HasAttachments元素表示一个属性，如果某项有至少一个可见附件或者包含附件当会话包含至少一个项的设置为true 。此属性是只读的。
-ms.openlocfilehash: cc4e4ec0eac1c749723facc8cd780da41b0d8150
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: dea1ffdc5ae29a0bc7c585e0ebee9ed104143c53
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462920"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547286"
 ---
 # <a name="hasattachments"></a>HasAttachments
 
-本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **HasAttachments**元素表示一个属性，如果某项有至少一个可见附件或者包含附件当会话包含至少一个项的设置为 **true** 。此属性是只读的。 
+本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **HasAttachments** 元素表示一个属性，如果某项有至少一个可见附件或者包含附件当会话包含至少一个项的设置为 **true** 。此属性是只读的。 
   
 ```XML
 <HasAttachments/>
@@ -60,9 +60,9 @@ ms.locfileid: "44462920"
    
 ## <a name="text-value"></a>文本值
 
-表示一个布尔值的文本值是必需的。 **true**的值表示的项或对话中有至少一个可见附件。 **false**的值意味着，项目或对话既没有附件，或只包含隐藏的附件。 
+表示一个布尔值的文本值是必需的。 **true** 的值表示的项或对话中有至少一个可见附件。 **false** 的值意味着，项目或对话既没有附件，或只包含隐藏的附件。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 **HasAttachments** 属性的布尔型 **AllAttachmentsHidden** MAPI 属性进行计算。如果一个项目没有附件，则 **AllAttachmentsHidden** 属性不存在。 **AllAttachmentsHidden** 属性是否在该项目上的所有附件都隐藏的是 **true**。 **AllAttachmentsHidden** 属性是 **false** ，如果有至少一个附件，并且附件中至少一个可见。 **AllAttachmentsHidden** 的 MAPI 属性用于搜索、 分组和排序的项目。 
   

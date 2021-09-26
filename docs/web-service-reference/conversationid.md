@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ConversationId
 api_type:
 - schema
 ms.assetid: d5f1ddb3-9af3-4677-a6ba-111b304a951e
-description: ConversationId 元素包含项或对话的标识符。
-ms.openlocfilehash: 4f12d70ae6b72773760a731f5778cf6743ce699f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ConversationId 元素包含项目或对话的标识符。
+ms.openlocfilehash: 345c7c692576abb8c1e1b9848b005ca3d0c0fa0f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461469"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547538"
 ---
 # <a name="conversationid"></a>ConversationId
 
-**ConversationId**元素包含项或对话的标识符。 
+**ConversationId** 元素包含项目或对话的标识符。 
   
 ```XML
 <ConversationId Id="" ChangeKey="" />
@@ -36,8 +36,8 @@ ms.locfileid: "44461469"
 
 |**属性**|**说明**|
 |:-----|:-----|
-|**Id** <br/> |标识 Exchange 存储中的特定项目。  <br/> |
-|**ChangeKey** <br/> | 标识项目的特定版本。 在以下情况下， **ChangeKey**是必需的：  <br/><br/>-如果**ConflictResolution**属性设置为 "自动解析"，则[UpdateItem](updateitem.md)元素需要**ChangeKey** 。 "自动解析" 是默认值。 如果不包含**ChangeKey**属性，则响应将返回一个等于**ErrorChangeKeyRequired**的[ResponseCode](responsecode.md)值。<br/><br/>- [SendItem](senditem.md)、 [DeleteItem](deleteitem.md)和[DeleteFolder](deletefolder.md)元素需要一个**ChangeKey**来测试所尝试的操作是否将对项目的最新版本进行操作。 如果**ChangeKey**属性未包含在**ItemId**中，或者如果**ChangeKey**为空，响应将返回一个等于**ErrorStaleObject**的[ResponseCode](responsecode.md)值。  <br/> |
+|**Id** <br/> |标识数据存储区中的Exchange项。  <br/> |
+|**ChangeKey** <br/> | 标识项目的特定版本。 以下 **方案需要 ChangeKey：**  <br/><br/>- 如果 **ConflictResolution** 属性设置为 AutoResolve，UpdateItem 元素需要 **ChangeKey。** [](updateitem.md) AutoResolve 是默认值。 如果未 **包括 ChangeKey** 属性，响应将返回 [一个等于](responsecode.md) **ErrorChangeKeyRequired** 的 ResponseCode 值。<br/><br/>- [SendItem、DeleteItem](senditem.md)和 [DeleteFolder](deletefolder.md)元素需要 **ChangeKey** 来测试尝试的操作是否将作用于项目的最新版本。 [](deleteitem.md) 如果 **ItemId** 中不包含 **ChangeKey** 属性或 **ChangeKey** 为空，响应将返回一个等于 **ErrorStaleObject** 的 [ResponseCode](responsecode.md)值。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -49,7 +49,7 @@ ms.locfileid: "44461469"
 |:-----|:-----|
 |[CalendarItem](calendaritem.md) <br/> |表示 Exchange 日历项。  <br/> |
 |[Contact](contact.md) <br/> |表示 Exchange 联系人项目。  <br/> |
-|[ConversationAction](conversationaction.md) <br/> |代表要应用于单个对话的单个操作。  <br/> |
+|[ConversationAction](conversationaction.md) <br/> |表示要应用于单个对话的单个操作。  <br/> |
 |[DistributionList](distributionlist.md) <br/> |表示通讯组列表。  <br/> |
 |[项目](item.md) <br/> |表示 Exchange 存储中的项。  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |表示 Exchange 存储中的会议取消。  <br/> |
@@ -57,7 +57,7 @@ ms.locfileid: "44461469"
 |[MeetingRequest](meetingrequest.md) <br/> |表示 Exchange 存储中的会议请求。  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |表示 Exchange 存储中的会议响应。  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |表示 Exchange 电子邮件。  <br/> |
-|[PostItem](postitem.md) <br/> |表示 Exchange 存储中的公告项。  <br/> |
+|[PostItem](postitem.md) <br/> |表示应用商店中的Exchange项。  <br/> |
 |[RemoveItem](removeitem.md) <br/> |从 Exchange 存储中删除一个项目。  <br/> |
 |[任务](task.md) <br/> |表示 Exchange 存储中的任务。  <br/> |
 |[对话 (ConversationType)](conversation-conversationtype.md) <br/> |表示单个对话。  <br/> |
@@ -66,7 +66,7 @@ ms.locfileid: "44461469"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

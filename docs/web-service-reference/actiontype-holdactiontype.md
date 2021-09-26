@@ -1,23 +1,23 @@
 ---
-title: ActionType （HoldActionType）
+title: ActionType (HoldActionType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f50449b9-e73b-43c5-af96-6433bf434dce
-description: ActionType 元素指示保留操作的类型。
-ms.openlocfilehash: 8f2796df818dac2bd285b055aa44fbcecd0de5e6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ActionType 元素指示保留的操作类型。
+ms.openlocfilehash: 30028da4df2a53a4cd0066823872de5e586020f1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457856"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546838"
 ---
-# <a name="actiontype-holdactiontype"></a>ActionType （HoldActionType）
+# <a name="actiontype-holdactiontype"></a>ActionType (HoldActionType)
 
-**ActionType**元素指示保留操作的类型。 
+**ActionType** 元素指示保留的操作类型。 
   
 ```XML
 <ActionType> Create | Update | Remove </ActionType>
@@ -42,9 +42,9 @@ ms.locfileid: "44457856"
   
 ## <a name="text-value"></a>文本值
 
-**ActionType**元素的文本值是邮箱上设置的保留的类型。 "**创建**的文本" 值表示将创建邮箱保留。 "**更新**的文本" 值表示将更新邮箱保留。 "**删除**" 文本值表示将删除邮箱保留。 
+**ActionType** 元素的文本值是邮箱上设置的保留类型。 Create **的文本值指示** 将创建邮箱保留。 Update **的文本值指示** 将更新邮箱保留。 Remove **的文本值指示** 将删除邮箱保留。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

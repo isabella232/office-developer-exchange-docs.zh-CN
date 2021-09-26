@@ -5,42 +5,42 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5aa9bec8-71cf-4a6e-8ec8-b4965b40fd4a
 description: 查找有关 AddDistributionGroupToImList EWS 操作的信息。
-ms.openlocfilehash: e68e21b6994af5773f5cf991d55129e1db3367ac
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 2dce8e903affb277f40b89859b234828d3ffd941
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463690"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546831"
 ---
 # <a name="adddistributiongrouptoimlist-operation"></a>AddDistributionGroupToImList 操作
 
-查找有关**AddDistributionGroupToImList** EWS 操作的信息。 
+查找有关 **AddDistributionGroupToImList** EWS 操作的信息。 
   
-**AddDistributionGroupToImList** Exchange Web 服务（EWS）操作将通讯组添加到统一联系人存储库中的即时消息（IM）列表中。 
+**AddDistributionGroupToImList** Exchange Web 服务 (EWS) 操作将通讯组添加到统一联系人存储中的即时消息 (IM) 列表中。 
   
 Exchange Server 2013 中引入了此操作。
   
 ## <a name="using-the-adddistributiongrouptoimlist-operation"></a>使用 AddDistributionGroupToImList 操作
 
-**AddDistributionGroupToImList**操作采用单个参数来标识要添加到 IM 列表中的通讯组。 此操作不会创建通讯组;必须已创建通讯组。 
+**AddDistributionGroupToImList** 操作采用一个参数，该参数标识要添加到 IM 列表中的通讯组。 此操作不会创建通讯组;必须已创建通讯组。 
   
 此操作可以使用下表中列出的 SOAP 标头。
   
-**表1。AddDistributionGroupToImList 操作 SOAP 标头**
+**表 1.AddDistributionGroupToImList 操作 SOAP 标头**
 
 |**标头名称**|**元素**|**说明**|
 |:-----|:-----|:-----|
-|**模拟** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |标识客户端应用程序模拟的用户。 这适用于请求。  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |确定用于访问邮箱的区域性（如 RFC 3066 中定义的用于标识语言的标记）。 这适用于请求。  <br/> |
+|**模拟** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |标识客户端应用程序正在模拟的用户。 这适用于请求。  <br/> |
+|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |标识用于访问邮箱的区域性，如 RFC 3066"语言标识标记"中的定义。 这适用于请求。  <br/> |
 |**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。 这适用于请求。  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器版本。 这适用于响应。  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器的版本。 这适用于响应。  <br/> |
    
 ## <a name="adddistributiongrouptoimlist-operation-request-example"></a>AddDistributionGroupToImList 操作请求示例
 
-以下示例的**AddDistributionGroupToImList**操作请求显示如何将通讯组添加到 IM 列表。 
+**AddDistributionGroupToImList** 操作请求的以下示例显示如何将通讯组添加到 IM 列表。 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -66,9 +66,9 @@ Exchange Server 2013 中引入了此操作。
     
 ## <a name="successful-adddistributiongrouptoimlist-operation-response"></a>成功的 AddDistributionGroupToImList 操作响应
 
-下面的示例演示对**AddDistributionGroupToImList**操作请求的成功响应。 
+以下示例显示对 **AddDistributionGroupToImList** 操作请求的成功响应。 
   
-成功的响应包含通讯组显示名称、通讯组的 Exchange 存储类以及新通讯组的 EWS 标识符。
+成功的响应包含通讯组显示名称、Exchange通讯组的 Exchange 存储类以及新通讯组的 EWS 标识符。
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -112,7 +112,7 @@ Exchange Server 2013 中引入了此操作。
     
 ## <a name="adddistributiongrouptoimlist-operation-errorinvalidimdistributiongroupsmtpaddress-error-response"></a>AddDistributionGroupToImList 操作 ErrorInvalidImDistributionGroupSmtpAddress 错误响应
 
-下面的示例演示对**AddDistributionGroupToImList**操作请求的错误响应。 当尝试添加 Exchange 存储中不存在的通讯组时，将发生以下错误响应。 
+以下示例显示对 **AddDistributionGroupToImList** 操作请求的错误响应。 当尝试添加通讯组（该通讯组不存在于 Exchange 时，将发生以下错误响应。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

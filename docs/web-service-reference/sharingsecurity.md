@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SharingSecurity
 api_type:
 - schema
 ms.assetid: d4831cac-a8f9-419a-ac42-481e34230cba
-description: SharingSecurity 元素用于日历或联系人共享的简单对象访问协议（SOAP）头。
-ms.openlocfilehash: 456190079cc539c170aa96e795031071b5d9f1ad
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SharingSecurity 元素用于日历或联系人共享的 Simple Object Access Protocol (SOAP) 标头中。
+ms.openlocfilehash: 32432f09b2e291aced8f87fb685f80069a4de3fd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466708"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547048"
 ---
 # <a name="sharingsecurity"></a>SharingSecurity
 
-**SharingSecurity**元素用于日历或联系人共享的简单对象访问协议（SOAP）头。 
+**SharingSecurity** 元素用于日历或联系人共享的 Simple Object Access Protocol (SOAP) 标头中。 
   
 ```xml
 <SharingSecurity/>
@@ -44,7 +44,7 @@ ms.locfileid: "44466708"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述该元素的架构位于 IIS 虚拟目录正在运行 Microsoft Exchange Server 的计算机的主机交换 Web 服务已安装了客户端访问服务器角色。
   

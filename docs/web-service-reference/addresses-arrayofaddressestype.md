@@ -1,23 +1,23 @@
 ---
-title: 地址（ArrayOfAddressesType）
+title: Addresses (ArrayOfAddressesType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 711acc90-8e5b-4658-92d2-16cd441db56e
 description: Addresses 元素指定 Address 元素的数组。
-ms.openlocfilehash: 8b3a62e22cb7fc983fba78517fe4636797d06f5b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: a82c2df7bccf3b039f673ab8dc0716358fbd3de7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463620"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546780"
 ---
-# <a name="addresses-arrayofaddressestype"></a>地址（ArrayOfAddressesType）
+# <a name="addresses-arrayofaddressestype"></a>Addresses (ArrayOfAddressesType)
 
-**Addresses**元素指定**Address**元素的数组。 
+**Addresses** 元素指定 Address 元素 **的** 数组。 
   
 ```XML
 <Addresses>
@@ -38,15 +38,15 @@ ms.locfileid: "44463620"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[地址（ContactType）](address-contacttype.md) <br/> |指定联系人的地址。  <br/> |
+|[Address (ContactType)](address-contacttype.md) <br/> |指定联系人的地址。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[Contact （ContactType）](contact-contacttype.md) <br/> |指定统一联系人存储库中的联系人。  <br/> |
+|[Contact (ContactType)](contact-contacttype.md) <br/> |指定统一联系人存储中的联系人。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -58,7 +58,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

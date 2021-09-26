@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 556457d5-a730-4131-853f-1198c27c5942
 description: ImItemList 元素包含即时消息组和即时消息联系人的列表。
-ms.openlocfilehash: 976897fd999b61207a94a8b1dc60cc1b1308acd8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: fdd2865ceb1553a7f75d7059b08ea96ce89aa096
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460671"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547244"
 ---
 # <a name="imitemlist"></a>ImItemList
 
-**ImItemList**元素包含即时消息组和即时消息联系人的列表。 
+**ImItemList** 元素包含即时消息组和即时消息联系人的列表。 
   
 ```XML
 <ImItemList>
@@ -37,13 +37,13 @@ ms.locfileid: "44460671"
   
 ### <a name="child-elements"></a>子元素
 
-[组（ArrayOfImGroupType）](groups-arrayofimgrouptype.md)  | [角色](personas-ex15websvcsotherref.md)
+[ArrayOfImGroupType (组) ](groups-arrayofimgrouptype.md)  | [角色](personas-ex15websvcsotherref.md)
   
 ### <a name="parent-elements"></a>父元素
 
 [GetImItemsResponse](getimitemsresponse.md)  | [GetImItemListResponse](getimitemlistresponse.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

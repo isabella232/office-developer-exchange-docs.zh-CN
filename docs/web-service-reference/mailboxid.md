@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bcef790d-094f-40ba-b4cf-8abd9c79cc7a
-description: MailboxId 元素指定通过发现搜索访问的邮箱的标识符。
-ms.openlocfilehash: 7ec43492010dfb54f3e847d037425f9ed919559c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: MailboxId 元素指定发现搜索访问的邮箱的标识符。
+ms.openlocfilehash: 5f9d39339e9d54476efa025622d117be0f8219a5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466365"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547132"
 ---
 # <a name="mailboxid"></a>MailboxId
 
-**MailboxId**元素指定通过发现搜索访问的邮箱的标识符。 
+**MailboxId** 元素指定发现搜索访问的邮箱的标识符。 
   
 ```XML
 <MailboxId></MailboxId>
@@ -39,13 +39,13 @@ ms.locfileid: "44466365"
   
 ### <a name="parent-elements"></a>父元素
 
-[MailboxStat](mailboxstat.md)  | [邮箱（PreviewItemMailboxType）](mailbox-previewitemmailboxtype.md)
+[MailboxStat](mailboxstat.md)  | [Mailbox (PreviewItemMailboxType) ](mailbox-previewitemmailboxtype.md)
   
 ## <a name="text-value"></a>文本值
 
-**MailboxId**元素的文本值是可用于发现搜索的邮箱的邮箱标识符。 
+**MailboxId** 元素的文本值是访问发现搜索的邮箱的邮箱标识符。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

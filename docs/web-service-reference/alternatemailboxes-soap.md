@@ -1,24 +1,24 @@
 ---
-title: AlternateMailboxes （SOAP）
+title: AlternateMailboxes (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 9a0859c5-fa23-4496-9b63-15c97818f857
 description: AlternateMailboxes 元素表示备用邮箱的集合。
-ms.openlocfilehash: b68b0b15ad2a06d3be9e8fcbc3b9a4d61e4ee8be
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: d2ba6cb22c2ee6cc4e0c5023e70a801e9f80a5a7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464838"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546740"
 ---
-# <a name="alternatemailboxes-soap"></a>AlternateMailboxes （SOAP）
+# <a name="alternatemailboxes-soap"></a>AlternateMailboxes (SOAP)
 
-**AlternateMailboxes**元素表示备用邮箱的集合。 
+**AlternateMailboxes** 元素表示备用邮箱的集合。 
   
 ```XML
 <AlternateMailboxes>
@@ -39,13 +39,13 @@ ms.locfileid: "44464838"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[AlternateMailbox （SOAP）](alternatemailbox-soap.md) <br/> |代表备用邮箱。  <br/> |
+|[AlternateMailbox (SOAP)](alternatemailbox-soap.md) <br/> |代表备用邮箱。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[AlternateMailboxCollectionSetting （SOAP）](alternatemailboxcollectionsetting-soap.md) <br/> |包含备用邮箱设置的集合。  <br/> |
+|[AlternateMailboxCollectionSetting (SOAP)](alternatemailboxcollectionsetting-soap.md) <br/> |包含备用邮箱设置的集合。  <br/> |
    
 ## <a name="text-value"></a>文本值
 

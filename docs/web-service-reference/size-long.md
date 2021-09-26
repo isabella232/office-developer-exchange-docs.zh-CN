@@ -1,23 +1,23 @@
 ---
-title: 大小（long）
+title: Size (long)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 96514301-9195-420f-ba17-5f512116ee46
 description: Size 元素指定一个或多个邮箱项目的总大小。
-ms.openlocfilehash: 622752688dd41d6e42f1f405ea1dd389eff1ee98
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: a95c0c3963364edf74647b0a7e62efd9ffad6c8c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468031"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546999"
 ---
-# <a name="size-long"></a>大小（long）
+# <a name="size-long"></a>Size (long)
 
-**Size**元素指定一个或多个邮箱项目的总大小。 
+**Size** 元素指定一个或多个邮箱项目的总大小。 
   
 ```XML
 <Size></Size>
@@ -42,9 +42,9 @@ ms.locfileid: "44468031"
   
 ## <a name="text-value"></a>文本值
 
-**Size**元素的文本值是一个或多个邮箱项目的总大小。 
+**Size** 元素的文本值是一个或多个邮箱项目的总大小。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

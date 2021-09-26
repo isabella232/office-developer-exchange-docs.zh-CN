@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SetUserOofSettingsRequest
 api_type:
 - schema
 ms.assetid: 628acf0b-3ebc-42f1-8ce2-7a02b4c8141f
-description: SetUserOofSettingsRequest 元素包含用于设置邮箱用户的外出（OOF）设置的参数。
-ms.openlocfilehash: 10edc9809fd72f80c316de1c6688eaedec4f93df
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SetUserOofSettingsRequest 元素包含用于设置邮箱用户的外出 OOF Office (设置) 参数。
+ms.openlocfilehash: c6df61eb89e32e7d9b50a8d6ee2918d7283ce4cb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466148"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547076"
 ---
 # <a name="setuseroofsettingsrequest"></a>SetUserOofSettingsRequest
 
-**SetUserOofSettingsRequest**元素包含用于设置邮箱用户的外出（OOF）设置的参数。 
+**SetUserOofSettingsRequest** 元素包含用于设置邮箱用户的 Out of Office (OOF) 设置的参数。 
   
 ```xml
 <SetUserOofSettingsRequest>
@@ -43,20 +43,20 @@ ms.locfileid: "44466148"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[邮箱（可用性）](mailbox-availability.md) <br/> |标识 SetUserOofSettings 或 GetUserOofSettings 请求的邮箱用户。  <br/> |
+|[Mailbox (Availability)](mailbox-availability.md) <br/> |标识 SetUserOofSettings 或 GetUserOofSettings 请求的邮箱用户。  <br/> |
 |[UserOofSettings](useroofsettings.md) <br/> |指定 OOF 设置。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
 ## <a name="example"></a>示例
 
-以下示例的 SetUserOofSettings 请求将 OOF 设置设置为10天。
+SetUserOofSettings 请求的以下示例将 OOF 设置设置为十天。
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>

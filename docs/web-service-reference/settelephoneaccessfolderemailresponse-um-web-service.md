@@ -1,28 +1,28 @@
 ---
-title: SetTelephoneAccessFolderEmailResponse （UM web 服务）
+title: SetTelephoneAccessFolderEmailResponse（UM Web 服务）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SetTelephoneAccessFolderEmailResponse
 api_type:
 - schema
 ms.assetid: 01d07114-5764-4ea7-948c-1ae95c287f0c
-description: SetTelephoneAccessFolderEmailResponse 元素定义对 SetTelephoneAccessFolderEmail 操作（UM web 服务）请求的响应。
-ms.openlocfilehash: 85f0f764b2a6a1555fb03d31fbe91bf3d6e2f701
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SetTelephoneAccessFolderEmailResponse 元素定义对 SetTelephoneAccessFolderEmail 操作的响应 (UM Web) 请求。
+ms.openlocfilehash: 38b019636e5a4f86912256c0b63cb30f8d283247
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467310"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547083"
 ---
-# <a name="settelephoneaccessfolderemailresponse-um-web-service"></a>SetTelephoneAccessFolderEmailResponse （UM web 服务）
+# <a name="settelephoneaccessfolderemailresponse-um-web-service"></a>SetTelephoneAccessFolderEmailResponse（UM Web 服务）
 
-**SetTelephoneAccessFolderEmailResponse**元素定义对[SETTELEPHONEACCESSFOLDEREMAIL 操作（UM web 服务）](settelephoneaccessfolderemail-operation-um-web-service.md)请求的响应。 
+**SetTelephoneAccessFolderEmailResponse** 元素定义对 UM Web 服务请求的 [SetTelephoneAccessFolderEmail](settelephoneaccessfolderemail-operation-um-web-service.md)操作 (的响应) 请求。 
   
-[SetTelephoneAccessFolderEmailResponse （UM web 服务）](settelephoneaccessfolderemailresponse-um-web-service.md)
+[SetTelephoneAccessFolderEmailResponse（UM Web 服务）](settelephoneaccessfolderemailresponse-um-web-service.md)
   
 ```xml
 <SetTelephoneAccessFolderEmailResponse />
@@ -54,7 +54,7 @@ ms.locfileid: "44467310"
 |||
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|架构名称  <br/> |邮件  <br/> |
+|架构名称  <br/> |消息  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |True  <br/> |
    
@@ -62,5 +62,5 @@ ms.locfileid: "44467310"
 
 
 
-[SetTelephoneAccessFolderEmail 操作（UM web 服务）](settelephoneaccessfolderemail-operation-um-web-service.md)
+[SetTelephoneAccessFolderEmail 操作（UM Web 服务）](settelephoneaccessfolderemail-operation-um-web-service.md)
 

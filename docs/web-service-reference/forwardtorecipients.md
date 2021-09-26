@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ForwardToRecipients
 api_type:
 - schema
 ms.assetid: dd58fd72-591d-4891-b226-465bcf12c19b
 description: ForwardToRecipients元素指示邮件被转发的电子邮件地址。
-ms.openlocfilehash: d565fa9f59794a4e10e91b05a507354a2f6ef0c9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 8fcf93f01493fb558ed3c0a1982387dae101e598
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458318"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546439"
 ---
 # <a name="forwardtorecipients"></a>ForwardToRecipients
 
-本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **ForwardToRecipients**元素指示邮件被转发的电子邮件地址。 
+本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **ForwardToRecipients** 元素指示邮件被转发的电子邮件地址。 
   
 ```XML
 <ForwardToRecipients>
@@ -54,7 +54,7 @@ ms.locfileid: "44458318"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

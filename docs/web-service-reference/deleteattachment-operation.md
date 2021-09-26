@@ -5,33 +5,33 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DeleteAttachment
 api_type:
 - schema
 ms.assetid: 4d48e595-b98c-48e7-bbeb-cacf91d12a78
-description: DeleteAttachment 操作用于从 Exchange 存储中的现有项目中删除文件和项目附件。
-ms.openlocfilehash: 1d34ce4c5ba1d955989a35dafb8ab3c5d229d505
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DeleteAttachment 操作用于从邮件存储中的现有项中删除文件和Exchange附件。
+ms.openlocfilehash: bd08776e1f4e75204819ef5463e297e3770a34a4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457331"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546684"
 ---
 # <a name="deleteattachment-operation"></a>DeleteAttachment 操作
 
-DeleteAttachment 操作用于从 Exchange 存储中的现有项目中删除文件和项目附件。
+DeleteAttachment 操作用于从邮件存储中的现有项中删除文件和Exchange附件。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此操作允许您按 ID 删除一个或多个附件。
   
 ## <a name="deleteattachment-request-example"></a>DeleteAttachment 请求示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-以下示例的 DeleteAttachment 请求显示如何删除项目附件。
+DeleteAttachment 请求的以下示例显示如何删除项目附件。
   
 ### <a name="code"></a>代码
 
@@ -56,21 +56,21 @@ DeleteAttachment 操作用于从 Exchange 存储中的现有项目中删除文�
 
 附件标识符已缩短，以保持可读性。
   
-### <a name="request-elements"></a>Request 元素
+### <a name="request-elements"></a>请求元素
 
-请求中使用以下元素：
+请求中会使用下列元素：
   
 - [DeleteAttachment](deleteattachment.md)
     
-- [会话](attachmentids.md)
+- [AttachmentIds](attachmentids.md)
     
 - [AttachmentId](attachmentid.md)
     
 ## <a name="deleteattachment-response-example"></a>DeleteAttachment 响应示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-下面的示例演示对 DeleteAttachment 请求的成功响应。
+以下示例显示了对 DeleteAttachment 请求的成功响应。
   
 ### <a name="code"></a>代码
 
@@ -100,16 +100,16 @@ DeleteAttachment 操作用于从 Exchange 存储中的现有项目中删除文�
 
 ### <a name="comments"></a>备注
 
-CreateAttachment 操作返回包含**RootItemId**和**RootItemChangeKey**的 AttachmentIdType 类型的元素。 DeleteAttachment 请求中的标识符不允许使用这些属性。 DeleteAttachment 使用 RequestAttachmentIdType 类型的元素，其中不包含这些属性。
+CreateAttachment 操作返回一个 AttachmentIdType 类型的元素，其中包含 **RootItemId** 和 **RootItemChangeKey**。 DeleteAttachment 请求中的标识符不允许使用这些属性。 DeleteAttachment 使用 RequestAttachmentIdType 类型的元素，其中不包括这些属性。
   
-DeleteAttachment 响应包括父项的 ID。 从项目中删除附件时，将修改项目的更改密钥。 可以从 DeleteAttachment 响应中获取新项目更改密钥。
+DeleteAttachment 响应包括父项的 ID。 从项目中删除附件时，将修改项目的更改键。 可以从 DeleteAttachment 响应获取新项更改密钥。
   
 > [!NOTE]
 > [RootItemId](rootitemid.md)标识符和 ChangeKey 已缩短，以保持可读性。 
   
 ### <a name="successful-response-elements"></a>成功的响应元素
 
-响应中使用以下元素：
+响应中会使用下列元素：
   
 - [ServerVersionInfo](serverversioninfo.md)
     

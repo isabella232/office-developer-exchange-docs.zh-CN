@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fccdedc0-83ed-4bb7-a1d2-623e70d1a7bf
-description: SourceId 元素指定角色中的属性化联系人的标识符。
-ms.openlocfilehash: a795f9fa2cc2084bee34c82b6df9567c79d430eb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SourceId 元素指定某个人物中属性联系人的标识符。
+ms.openlocfilehash: 7b57044c0a3b4f36199e9e14db8dcfe8ea7126eb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465756"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546978"
 ---
 # <a name="sourceid"></a>SourceId
 
-**SourceId**元素指定角色中的属性化联系人的标识符。 
+**SourceId** 元素指定某个人物中属性联系人的标识符。 
   
 ```XML
 <SourceId Id="" ChangeKey=""/>
@@ -32,8 +32,8 @@ ms.locfileid: "44465756"
 
 |**属性**|**说明**|
 |:-----|:-----|
-|Id  <br/> |**Id**属性的文本值是联系人的标识符。  <br/> |
-|ChangeKey  <br/> |**ChangeKey**属性的文本值是联系人的更改键。  <br/> |
+|Id  <br/> |**Id** 属性的文本值是联系人的标识符。  <br/> |
+|ChangeKey  <br/> |**ChangeKey** 属性的文本值是联系人的更改键。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -41,9 +41,9 @@ ms.locfileid: "44465756"
   
 ### <a name="parent-elements"></a>父元素
 
-[归属（PersonaAttributionType）](attribution-personaattributiontype.md)
+[Attribution (PersonaAttributionType)](attribution-personaattributiontype.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

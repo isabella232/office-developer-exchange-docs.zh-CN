@@ -1,24 +1,24 @@
 ---
-title: EncryptionMethod （SOAP）
+title: EncryptionMethod (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: bc632c85-ec74-4a00-baec-df5973e032fa
 description: EncryptionMethod 元素表示用于 POP、IMAP 和 SMTP 协议的加密方法。
-ms.openlocfilehash: 26236d9b08eae1bcabfd9aac59f5b01714ba9841
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 40b9f7736502f8def5389c1a70fddb61e38973aa
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530654"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546593"
 ---
-# <a name="encryptionmethod-soap"></a>EncryptionMethod （SOAP）
+# <a name="encryptionmethod-soap"></a>EncryptionMethod (SOAP)
 
-**EncryptionMethod**元素表示用于 POP、IMAP 和 SMTP 协议的加密方法。 
+**EncryptionMethod** 元素表示用于 POP、IMAP 和 SMTP 协议的加密方法。 
   
 ```XML
 <EncryptionMethod/>
@@ -41,7 +41,7 @@ ms.locfileid: "44530654"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ProtocolConnection （SOAP）](protocolconnection-soap.md) <br/> |表示服务器 Web 客户端的协议连接。  <br/> |
+|[ProtocolConnection (SOAP)](protocolconnection-soap.md) <br/> |表示服务器 Web 客户端的协议连接。  <br/> |
    
 ## <a name="text-value"></a>文本值
 

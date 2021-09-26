@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FreeBusyView
 api_type:
 - schema
 ms.assetid: cb18434f-5f41-4e05-a5ce-d921b2721a8c
 description: FreeBusyView 元素包含特定用户的可用性信息。
-ms.openlocfilehash: e5cc3bea6b57d5c400dd9be44bf9f9aaf9e43eb9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: c662e8a44118f61b4c8be642d9ac862051c3a15d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456099"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546411"
 ---
 # <a name="freebusyview"></a>FreeBusyView
 
-**FreeBusyView**元素包含特定用户的可用性信息。 
+**FreeBusyView** 元素包含特定用户的可用性信息。 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -53,10 +53,10 @@ ms.locfileid: "44456099"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[FreeBusyViewType](freebusyviewtype.md) <br/> |表示响应中返回的请求的忙/闲信息的类型。  <br/> |
+|[FreeBusyViewType](freebusyviewtype.md) <br/> |表示响应中返回的请求忙/闲信息的类型。  <br/> |
 |[MergedFreeBusy](mergedfreebusy.md) <br/> |包含合并的忙/闲数据流。  <br/> |
-|[CalendarEventArray](calendareventarray.md) <br/> |包含一组代表所请求用户的可用性的唯一的日历项目匹配项。  <br/> |
-|[WorkingHours](workinghours-ex15websvcsotherref.md) <br/> |表示所请求的邮箱用户的时区设置和工作时间。  <br/> |
+|[CalendarEventArray](calendareventarray.md) <br/> |包含一组唯一的日历项目发生次数，这些事件表示请求的用户的可用性。  <br/> |
+|[WorkingHours](workinghours-ex15websvcsotherref.md) <br/> |表示请求的邮箱用户的时区设置和工作时间。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -64,9 +64,9 @@ ms.locfileid: "44456099"
 |:-----|:-----|
 |[FreeBusyResponse](freebusyresponse.md) <br/> |包含单个邮箱用户的忙/闲信息。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse` <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-所有子元素都按它们出现的顺序列出。 此元素提供的详细信息级别取决于授予请求者的权限。
+所有子元素都按其发生顺序列出。 此元素提供的详细信息级别取决于授予请求者的权限。
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

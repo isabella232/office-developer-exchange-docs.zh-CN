@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ExternalMemberCount
 api_type:
 - schema
 ms.assetid: bd0e82da-7391-4ba3-acb4-31d3517d51d0
-description: ExternalMemberCount 元素表示组中的外部成员的计数。
-ms.openlocfilehash: a01c28a009328e163e151bbf540e8298d27d998b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: ExternalMemberCount 元素表示组中外部成员的计数。
+ms.openlocfilehash: 5c6c767029a2cd0903a500e9a1f4c391f06449bb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456918"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546523"
 ---
 # <a name="externalmembercount"></a>ExternalMemberCount
 
-**ExternalMemberCount**元素表示组中的外部成员的计数。 
+**ExternalMemberCount** 元素表示组中外部成员的计数。 
   
 ```XML
 <ExternalMemberCount/>
@@ -44,11 +44,11 @@ ms.locfileid: "44456918"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[邮件提示](mailtips.md) <br/> |表示各种邮件提示类型的值。  <br/> |
+|[邮件提示](mailtips.md) <br/> |表示各种类型的邮件提示的值。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-Text 值是一个整数，表示组中的外部成员的数量。
+文本值是一个整数，表示组中外部成员的数量。
   
 ## <a name="remarks"></a>说明
 

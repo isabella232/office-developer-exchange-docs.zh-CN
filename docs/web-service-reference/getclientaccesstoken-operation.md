@@ -5,40 +5,40 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 086876cc-e22c-4e89-89f9-19e78af51217
 description: 查找有关 GetClientAccessToken EWS 操作的信息。
-ms.openlocfilehash: 2d49d675fcedb0e7e8312a9715f095c47fcf3d77
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: f5298e29bfb05bda954716680639d00acb98d4df
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462036"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546383"
 ---
 # <a name="getclientaccesstoken-operation"></a>GetClientAccessToken 操作
 
-查找有关**GetClientAccessToken** EWS 操作的信息。 
+查找有关 **GetClientAccessToken** EWS 操作的信息。 
   
-**GetClientAccessToken**操作获取适用于 Outlook 的邮件应用程序的客户端访问令牌。 
+**GetClientAccessToken** 操作为邮件应用程序获取客户端访问Outlook。 
   
 Exchange Server 2013 中引入了此操作。
   
 ## <a name="using-the-getclientaccesstoken-operation"></a>使用 GetClientAccessToken 操作
 
-**GetClientAccessToken**操作请求采用两个必需参数：应用程序的标识符和令牌类型。 您可以使用[getappmanifests 已操作](getappmanifests-operation.md)来请求应用程序标识符。 
+**GetClientAccessToken** 操作请求采用两个必需参数：应用的标识符和令牌类型。 可以使用 [GetAppManifests 操作](getappmanifests-operation.md) 请求应用标识符。 
   
 ### <a name="getclientaccesstoken-operation-soap-headers"></a>GetClientAccessToken 操作 SOAP 标头
 
-**GetClientAccessToken**操作可以使用下表中列出的 SOAP 标头。 
+**GetClientAccessToken** 操作可以使用下表中列出的 SOAP 标头。 
   
 |**标头名称**|**元素**|**说明**|
 |:-----|:-----|:-----|
 |**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |标识操作请求的架构版本。 此标头适用于请求。  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器版本。 此标头适用于响应。  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |标识响应请求的服务器的版本。 此标头适用于响应。  <br/> |
    
-## <a name="getclientaccesstoken-operation-request-example-get-a-caller-identity-token"></a>GetClientAccessToken 操作请求示例：获取呼叫方标识令牌
+## <a name="getclientaccesstoken-operation-request-example-get-a-caller-identity-token"></a>GetClientAccessToken 操作请求示例：获取调用方标识令牌
 
-以下示例的**GetClientAccessToken**操作请求显示如何获取应用程序的呼叫者标识令牌。 
+**GetClientAccessToken** 操作请求的以下示例显示如何获取应用的调用方标识令牌。 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -70,16 +70,16 @@ Exchange Server 2013 中引入了此操作。
     
 - [TokenRequest](tokenrequest.md)
     
-- [ID （字符串）](id-string.md)
+- [ID (String)](id-string.md)
     
 - [TokenType](tokentype.md)
     
 ## <a name="successful-getclientaccesstoken-operation-response"></a>成功的 GetClientAccessToken 操作响应
 
-下面的示例演示对**GetClientAccessToken**操作请求的成功响应，以获取应用程序的呼叫者标识令牌。 
+以下示例显示成功响应 **GetClientAccessToken** 操作请求，以获取应用的调用方标识令牌。 
   
 > [!NOTE]
-> 为了保持可读性，本文中的标记值已缩短。 
+> 本文中的标记值已缩短，以保持可读性。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -126,19 +126,19 @@ Exchange Server 2013 中引入了此操作。
     
 - [ResponseCode](responsecode.md)
     
-- [令牌（ClientAccessTokenType）](token-clientaccesstokentype.md)
+- [Token (ClientAccessTokenType)](token-clientaccesstokentype.md)
     
-- [ID （字符串）](id-string.md)
+- [ID (String)](id-string.md)
     
-- [TokenType （ClientAccessTokenType）](tokentype-clientaccesstokentype.md)
+- [TokenType (ClientAccessTokenType)](tokentype-clientaccesstokentype.md)
     
 - [TokenValue](tokenvalue.md)
     
-- [TTL （ClientAccessTokenTypeType）](ttl-clientaccesstokentypetype.md)
+- [TTL (ClientAccessTokenTypeType)](ttl-clientaccesstokentypetype.md)
     
 ## <a name="getclientaccesstoken-operation-error-response"></a>GetClientAccessToken 操作错误响应
 
-下面的示例演示对**GetClientAccessToken**操作请求的错误响应。 这是对在没有适当权限的情况下获取扩展回调令牌的请求的响应。 
+以下示例显示对 **GetClientAccessToken** 操作请求的错误响应。 这是对请求的响应，请求获取没有相应权限的扩展回调令牌。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -184,13 +184,13 @@ Exchange Server 2013 中引入了此操作。
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-有关对 EWS 通用的其他错误代码以及特定于此操作的错误代码，请参阅[ResponseCode](responsecode.md)。
+有关 EWS 通用且特定于此操作的其他错误代码，请参阅 [ResponseCode](responsecode.md)。
   
 ## <a name="see-also"></a>另请参阅
 
-- [Exchange 中的 EWS 操作](ews-operations-in-exchange.md)
+- [EWS 操作在Exchange](ews-operations-in-exchange.md)
     
-- [Getappmanifests 已操作](getappmanifests-operation.md)
+- [GetAppManifests 操作](getappmanifests-operation.md)
     
 - [Outlook 外接程序](https://msdn.microsoft.com/library/71e64bc9-e347-4f5d-8948-0a47b5dd93e6%28Office.15%29.aspx)
     

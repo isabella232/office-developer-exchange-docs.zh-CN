@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AppointmentSequenceNumber
 api_type:
 - schema
 ms.assetid: eb4c48bd-f905-48dc-ae16-53a080b9b025
-description: AppointmentSequenceNumber 元素指定约会的一个版本的序列号。
-ms.openlocfilehash: daeea7a656c59923bcb6f2850539c7869d6eb181
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: AppointmentSequenceNumber 元素指定约会版本的序列号。
+ms.openlocfilehash: 48167786f1dde82b9aef546979be697f7b8811d5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461658"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546705"
 ---
 # <a name="appointmentsequencenumber"></a>AppointmentSequenceNumber
 
-**AppointmentSequenceNumber**元素指定约会的一个版本的序列号。 
+**AppointmentSequenceNumber** 元素指定约会版本的序列号。 
   
 ```xml
 <AppointmentSequenceNumber/>
@@ -49,11 +49,11 @@ ms.locfileid: "44461658"
    
 ## <a name="text-value"></a>文本值
 
-该文本值表示版本号。
+文本值表示版本号。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-在使用新信息更新约会时，将更新此值。 
+使用新信息更新约会时，将更新此值。 
   
 描述此元素的架构位于正在运行 MicrosoftExchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 54f45774-00a0-4392-af1b-8c5f2208a53f
 description: InPlaceHoldIdentity 元素指定保留邮箱项目的保留的标识。
-ms.openlocfilehash: a06f72e478e7dc5bd1a499dceefeb352b14d7362
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 0a5f02b908adf49328461c6e3676dab3698879c3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466092"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547209"
 ---
 # <a name="inplaceholdidentity"></a>InPlaceHoldIdentity
 
-**InPlaceHoldIdentity**元素指定保留邮箱项目的保留的标识。 
+**InPlaceHoldIdentity** 元素指定保留邮箱项目的保留的标识。 
   
 ```XML
 <InPlaceHoldIdentity></InPlaceHoldIdentity>
@@ -42,9 +42,9 @@ ms.locfileid: "44466092"
   
 ## <a name="text-value"></a>文本值
 
-**InPlaceHoldIdentity**元素的文本值是邮箱保留标识符。 
+**InPlaceHoldIdentity** 元素的文本值是邮箱保留标识符。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

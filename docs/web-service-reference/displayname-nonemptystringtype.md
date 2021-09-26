@@ -1,23 +1,23 @@
 ---
-title: DisplayName （NonEmptyStringType）
+title: DisplayName (NonEmptyStringType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 283322f9-8022-4e8b-a7e2-d5521cda00f4
-description: DisplayName 元素包含新的即时消息组联系人的显示名称或新即时消息组的显示名称。
-ms.openlocfilehash: 0b1dff63583c5b449980288134fb83c0256e2e8c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DisplayName 元素包含显示名称即时消息组联系人或新即时消息显示名称联系人的联系人。
+ms.openlocfilehash: 1fc82a7472e43c31d774bbcc260bdf9c96b908c8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463662"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547524"
 ---
-# <a name="displayname-nonemptystringtype"></a>DisplayName （NonEmptyStringType）
+# <a name="displayname-nonemptystringtype"></a>DisplayName (NonEmptyStringType)
 
-**DisplayName**元素包含新的即时消息组联系人的显示名称或新即时消息组的显示名称。 
+**DisplayName** 元素包含显示名称即时消息组联系人或新即时消息显示名称联系人的联系人。 
   
 ```XML
 <DisplayName></DisplayName>
@@ -42,9 +42,9 @@ ms.locfileid: "44463662"
   
 ## <a name="text-value"></a>文本值
 
-**DisplayName**元素的文本值是新的即时消息组联系人的显示名称或新即时消息组的显示名称。 
+**DisplayName** 元素的文本值是显示名称即时消息组联系人或新即时消息显示名称联系人的文本值。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -56,7 +56,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> |false  <br/> |
    
 

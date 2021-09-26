@@ -1,30 +1,30 @@
 ---
-title: Status （UM web 服务-SetOofStatus）
+title: Status（UM Web 服务 - SetOofStatus）
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Status
 api_type:
 - schema
 ms.assetid: 893bcff1-ccdc-493f-b366-ce8a68c813bd
-description: Status 元素定义要在 SetOofStatus 操作（UM web 服务）请求中使用的值。
-ms.openlocfilehash: 865152baf28c22578664e16db2dcd5f82a04af98
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Status 元素定义要用于 UM Web 服务请求的 SetOofStatus (的值) 值。
+ms.openlocfilehash: fc4806e4978ae51ec6113ff8fd45da7db223a071
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459978"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546936"
 ---
-# <a name="status-um-web-service---setoofstatus"></a>Status （UM web 服务-SetOofStatus）
+# <a name="status-um-web-service---setoofstatus"></a>Status（UM Web 服务 - SetOofStatus）
 
-**Status**元素定义要在[SETOOFSTATUS 操作（UM web 服务）](setoofstatus-operation-um-web-service.md)请求中使用的值。 
+**Status** 元素定义要用于 UM Web 服务请求的 [SetOofStatus (的值)](setoofstatus-operation-um-web-service.md)值。 
   
-[SetOofStatus （UM web 服务）](setoofstatus-um-web-service.md)
+[SetOofStatus（UM Web 服务）](setoofstatus-um-web-service.md)
   
-[Status （UM web 服务-SetOofStatus）](status-um-web-servicesetoofstatus.md)
+[Status（UM Web 服务 - SetOofStatus）](status-um-web-servicesetoofstatus.md)
   
 ```xml
 <SetOofStatus>
@@ -49,22 +49,22 @@ ms.locfileid: "44459978"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[SetOofStatus （UM web 服务）](setoofstatus-um-web-service.md) <br/> |定义一个请求，用于为发出请求的用户设置统一消息 "外出" （OOF）状态。  <br/> |
+|[SetOofStatus（UM Web 服务）](setoofstatus-um-web-service.md) <br/> |定义一个请求，用于为Office (用户) 统一消息 Out of oOF" 状态。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-布尔值是必需的。 以下是可能的值：
+需要一个布尔值。 以下是可能的值：
   
 - True
     
-- False
+- 错误
     
 ## <a name="element-information"></a>元素信息
 
 |||
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|架构名称  <br/> |邮件  <br/> |
+|架构名称  <br/> |消息  <br/> |
 |验证文件  <br/> |Messages.xsd  <br/> |
 |可以为空  <br/> |False  <br/> |
    
@@ -72,5 +72,5 @@ ms.locfileid: "44459978"
 
 
 
-[SetOofStatus 操作（UM web 服务）](setoofstatus-operation-um-web-service.md)
+[SetOofStatus 操作（UM Web 服务）](setoofstatus-operation-um-web-service.md)
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SID
 api_type:
 - schema
 ms.assetid: 2f33b29b-163b-4106-a74d-6fb76ec38951
-description: SID 元素表示用于模拟或代理访问的帐户的安全标识符（SID）的安全描述符定义语言（SDDL）形式。
-ms.openlocfilehash: 0e3f740e9a056f7c0042049d97757b5f2d3c441d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: SID 元素表示安全描述符定义语言 (SDDL) 形式的安全标识符 (SID) ，供帐户用于模拟或委派访问。
+ms.openlocfilehash: 436f284b59d5146b481a25b7b0986db4aeee67ce
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468045"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547055"
 ---
 # <a name="sid"></a>SID
 
-**SID**元素表示用于模拟或代理访问的帐户的安全标识符（SID）的安全描述符定义语言（SDDL）形式。 
+**SID** 元素表示安全描述符定义语言 (SDDL) 形式的安全标识符 (SID) ，供帐户用于模拟或委派访问。 
   
 ```xml
 <SID/>
@@ -45,15 +45,15 @@ ms.locfileid: "44468045"
 |**元素**|**说明**|
 |:-----|:-----|
 |[ConnectingSID](connectingsid.md) <br/> |表示在使用 ExchangeImpersonation SOAP 标头时要模拟的帐户。  <br/> 下面是此元素的 XPath 表达式：   <br/>  `/ExchangeImpersonation/ConnectingSID` <br/> |
-|[UserId](userid.md) <br/> |标识代理用户或具有文件夹访问权限的用户。  <br/> |
+|[UserId](userid.md) <br/> |标识具有文件夹访问权限的委派用户或用户。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
 文本值是 SID 的字符串表示形式。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-描述此元素的架构位于运行 Exchange Server 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
+描述此元素的架构位于在安装了客户端访问服务器角色Exchange Server运行的计算机的 EWS 虚拟目录中。
   
 ## <a name="element-information"></a>元素信息
 

@@ -1,23 +1,23 @@
 ---
-title: ID （ItemIdType）
+title: ID (ItemIdType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a9909ed2-fdc5-4b1f-b7db-1f517add8eb3
 description: Id 元素指定项的标识符。
-ms.openlocfilehash: bc4ffa91f9375b33e89fa4e03b2a1d6a7974dc44
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 5b153dbd62fc0231470b70087047700e8eab92cf
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459319"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547265"
 ---
-# <a name="id-itemidtype"></a>ID （ItemIdType）
+# <a name="id-itemidtype"></a>ID (ItemIdType)
 
-**Id**元素指定项的标识符。 
+**Id** 元素指定项的标识符。 
   
 ```XML
 <Id Id="" ChangeKey=""/>
@@ -32,8 +32,8 @@ ms.locfileid: "44459319"
 
 |**属性**|**说明**|
 |:-----|:-----|
-|Id  <br/> |**Id**属性的文本值是项目的标识符。  <br/> |
-|ChangeKey  <br/> |**ChangeKey**属性的文本值是项的更改键。  <br/> |
+|Id  <br/> |**Id** 属性的文本值是项的标识符。  <br/> |
+|ChangeKey  <br/> |**ChangeKey** 属性的文本值是项目的更改键。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -43,7 +43,7 @@ ms.locfileid: "44459319"
 
 [SearchPreviewItem](searchpreviewitem.md)
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   

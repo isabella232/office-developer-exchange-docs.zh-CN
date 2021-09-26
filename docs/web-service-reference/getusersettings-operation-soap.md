@@ -4,27 +4,27 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 758d965c-ef63-4de4-9120-e293abf14ff8
-description: GetUserSettings 操作包含对用户的客户端访问配置的查询。
-ms.openlocfilehash: e274fd4e1ca954ea25ea91a52e363c9a434b290a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetUserSettings 操作包含用户客户端访问配置的查询。
+ms.openlocfilehash: 79e9d5827cbcc4885c99cf5a497868284dda4494
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466141"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547405"
 ---
 # <a name="getusersettings-operation-soap"></a>GetUserSettings 操作 (SOAP)
 
-**GetUserSettings**操作包含对用户的客户端访问配置的查询。 
+**GetUserSettings** 操作包含用户客户端访问配置的查询。 
   
 ## <a name="getusersettings-request-example"></a>GetUserSettings 请求示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-以下 XML 示例显示了自动发现请求正文，该正文请求用户的显示名称、可分辨名称、部署 ID、邮箱服务器、邮箱可分辨名称、Active Directory 服务器、客户端访问服务器版本和受支持的 Exchange Web 服务架构。
+以下 XML 示例显示了一个自动发现请求正文，该正文请求用户的 显示名称、可分辨名称、部署 ID、邮箱服务器、邮箱可分辨名称、Active Directory 服务器、客户端访问服务器版本和支持的 Exchange Web 服务架构。
   
 ### <a name="code"></a>代码
 
@@ -64,31 +64,31 @@ ms.locfileid: "44466141"
 
 ```
 
-### <a name="request-elements"></a>Request 元素
+### <a name="request-elements"></a>请求元素
 
-请求正文中使用以下元素：
+请求正文中会使用下列元素：
   
-- [GetUserSettingsRequestMessage （SOAP）](getusersettingsrequestmessage-soap.md)
+- [GetUserSettingsRequestMessage (SOAP)](getusersettingsrequestmessage-soap.md)
     
-- [邮箱（SOAP）](mailbox-soap.md)
+- [Mailbox (SOAP)](mailbox-soap.md)
     
 - [请求 (SOAP)](request-soap.md)
     
-- [RequestedServerVersion （SOAP）](requestedserverversion-soap.md)
+- [RequestedServerVersion (SOAP)](requestedserverversion-soap.md)
     
-- [RequestedSettings （SOAP）](requestedsettings-soap.md)
+- [RequestedSettings (SOAP)](requestedsettings-soap.md)
     
-- [设置（SOAP）](setting-soap.md)
+- [Setting (SOAP)](setting-soap.md)
     
-- [User （SOAP）](user-soap.md)
+- [User (SOAP)](user-soap.md)
     
-- [Users （SOAP）](users-soap.md)
+- [Users (SOAP)](users-soap.md)
     
 ## <a name="getusersettings-response-example"></a>GetUserSettings 响应示例
 
-### <a name="description"></a>Description
+### <a name="description"></a>说明
 
-下面的示例展示了一个成功的**GetUserSettings**响应。 
+以下示例显示了一个成功的 **GetUserSettings** 响应。 
   
 ### <a name="code"></a>代码
 
@@ -152,31 +152,31 @@ ms.locfileid: "44466141"
 
 ### <a name="response-elements"></a>Response 元素
 
-响应正文中使用以下元素：
+响应正文中会使用下列元素：
   
-- [ErrorCode （SOAP）](errorcode-soap.md)
+- [ErrorCode (SOAP)](errorcode-soap.md)
     
-- [ErrorMessage （SOAP）](errormessage-soap.md)
+- [ErrorMessage (SOAP)](errormessage-soap.md)
     
-- [GetUserSettingsResponseMessage （SOAP）](getusersettingsresponsemessage-soap.md)
+- [GetUserSettingsResponseMessage (SOAP)](getusersettingsresponsemessage-soap.md)
     
-- [名称（SOAP）](name-soap.md)
+- [Name (SOAP)](name-soap.md)
     
-- [RedirectTarget （SOAP）](redirecttarget-soap.md)
+- [RedirectTarget (SOAP)](redirecttarget-soap.md)
     
-- [响应（SOAP）](response-soap.md)
+- [Response (SOAP)](response-soap.md)
     
-- [UserResponse （SOAP）](userresponse-soap.md)
+- [UserResponse (SOAP)](userresponse-soap.md)
     
-- [UserResponses （SOAP）](userresponses-soap.md)
+- [UserResponses (SOAP)](userresponses-soap.md)
     
-- [UserSetting （SOAP）](usersetting-soap.md)
+- [UserSetting (SOAP)](usersetting-soap.md)
     
-- [UserSettingErrors （SOAP）](usersettingerrors-soap.md)
+- [UserSettingErrors (SOAP)](usersettingerrors-soap.md)
     
-- [UserSettings （SOAP）](usersettings-soap.md)
+- [UserSettings (SOAP)](usersettings-soap.md)
     
-- [Value （SOAP）](value-soap.md)
+- [Value (SOAP)](value-soap.md)
     
 ## <a name="see-also"></a>另请参阅
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetEvents
 api_type:
 - schema
 ms.assetid: 22d4da6b-d8a8-484f-82c4-3e4b8f5431cd
-description: GetEvents 元素表示拉客户端用来从服务器请求通知的操作。
-ms.openlocfilehash: 004f782ccd32b3c5e501080bfc59419a6e7d9ce4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GetEvents 元素表示拉取客户端用于从服务器请求通知的操作。
+ms.openlocfilehash: c76672baf05efce0ce9c8221f4f2965a9bc922fc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462498"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547489"
 ---
 # <a name="getevents"></a>GetEvents
 
-**GetEvents**元素表示拉客户端用来从服务器请求通知的操作。 
+**GetEvents** 元素表示拉取客户端用于从服务器请求通知的操作。 
   
 [GetEvents](getevents.md)
   
@@ -45,14 +45,14 @@ ms.locfileid: "44462498"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[SubscriptionId （GetEvents）](subscriptionid-getevents.md) <br/> |表示查询事件的订阅的标识符。  <br/> |
-|[Watermark](watermark.md) <br/> |表示返回给客户端的最后一个水印。 如果尚未为此订阅调用 GetEvents，客户端将使用从订阅请求返回的水印。 否则，将使用最后一个 GetEvents 响应中的最后一个事件的水印。  <br/> |
+|[SubscriptionId (GetEvents)](subscriptionid-getevents.md) <br/> |表示查询事件的订阅的标识符。  <br/> |
+|[Watermark](watermark.md) <br/> |表示返回到客户端的最后一个水印。 如果尚未为此订阅调用 GetEvents，客户端将使用从 Subscribe 请求返回水印。 否则，使用上一个 GetEvents 响应中最后一个事件水印。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于正在运行 Microsoft Exchange Server 2007 的计算机（已安装客户端访问服务器角色）的 EWS 虚拟目录中。
   
@@ -73,5 +73,5 @@ ms.locfileid: "44462498"
   
 [GetEvents 操作](getevents-operation.md)
   
-[取消订阅操作](unsubscribe-operation.md)
+[Unsubscribe 操作](unsubscribe-operation.md)
 

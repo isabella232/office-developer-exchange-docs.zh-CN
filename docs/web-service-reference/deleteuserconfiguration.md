@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DeleteUserConfiguration
 api_type:
 - schema
 ms.assetid: 91b18b6a-d904-476c-996d-b041e859da1e
-description: DeleteUserConfiguration 元素表示一个删除用户配置对象的请求。
-ms.openlocfilehash: 04668ead48e7c321ed7e91cbbeb67c6154c02283
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DeleteUserConfiguration 元素表示删除用户配置对象的请求。
+ms.openlocfilehash: 83dc99f81cf5cc4edf72853d2fbade30b561c0f9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460755"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546656"
 ---
 # <a name="deleteuserconfiguration"></a>DeleteUserConfiguration
 
-**DeleteUserConfiguration**元素表示一个删除用户配置对象的请求。 
+**DeleteUserConfiguration** 元素表示删除用户配置对象的请求。 
   
 ```xml
 <DeleteUserConfiguration>
@@ -52,7 +52,7 @@ ms.locfileid: "44460755"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

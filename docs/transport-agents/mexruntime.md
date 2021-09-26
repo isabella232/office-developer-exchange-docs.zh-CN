@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - mexRuntime
 api_type:
 - schema
 ms.assetid: eabb2f12-10a7-4ce2-ae4b-9c04010c765f
-description: 上次修改时间：2015年9月17日
-ms.openlocfilehash: f192965a8375eb46d1ca5b46d3b768a3299c284d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: 上次修改时间：2015 年 9 月 17 日
+ms.openlocfilehash: c7ae630a01ac0339433a7c78859c06006efab4b5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461833"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546908"
 ---
 # <a name="mexruntime"></a>mexRuntime
   
-**适用于：** Exchange Server 2013
+**适用于：Exchange Server** 2013
   
-**MexRuntime**元素包含定义代理监视的配置信息和安装的 SMTP 和路由代理的配置信息的元素。 
+**mexRuntime** 元素包含一些元素，这些元素定义代理监视的配置信息以及所安装的 SMTP 和路由代理的配置信息。 
   
 - [configuration](configuration.md)  
 - [mexRuntime](mexruntime.md)
@@ -35,7 +35,7 @@ ms.locfileid: "44461833"
 </mexRuntime>
 ```
 
-**mexRuntimeType （复杂类型）**
+**mexRuntimeType (complexType)**
 
 ## <a name="attributes-and-elements"></a>属性和元素
 
@@ -49,8 +49,8 @@ ms.locfileid: "44461833"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[监视](monitoring.md) <br/> |包含定义如何以及何时安装的传输监视器代理的配置信息。  <br/> |
-|[agentList](agentlist.md) <br/> |包含已安装的每个代理的[代理](agent.md)元素。  <br/> |
+|[监视](monitoring.md) <br/> |包含用于定义传输监视代理安装方式和时间的配置信息。  <br/> |
+|[agentList](agentlist.md) <br/> |包含 [已安装](agent.md) 的每个代理的代理元素。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 

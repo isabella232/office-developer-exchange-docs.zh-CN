@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b373bb1a-6b1d-4959-98a1-4c4ea62973bc
-description: IncludePersonalArchive 元素指定是否在搜索中包含个人存档。
-ms.openlocfilehash: a25dd45bc0717af8f949d14b88793af3821ca69f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: IncludePersonalArchive 元素指定是否在搜索中包括个人存档。
+ms.openlocfilehash: 2567475fbb2542c7d01e651f2d348f6f91d50b78
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458248"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547216"
 ---
 # <a name="includepersonalarchive"></a>IncludePersonalArchive
 
-**IncludePersonalArchive**元素指定是否在搜索中包含个人存档。 
+**IncludePersonalArchive** 元素指定是否在搜索中包括个人存档。 
   
 ```XML
 <IncludePersonalArchive>true | false</IncludePersonalArchive>
@@ -44,7 +44,7 @@ ms.locfileid: "44458248"
    
 ## <a name="text-value"></a>文本值
 
-如果**IncludePersonalArchive**元素的文本值为**true** ，则表示该个人存档包含在搜索中。 **如果值为 false** ，则表示个人存档不包含在搜索中。 
+**IncludePersonalArchive** 元素的文本值 **true** 指示搜索中包含个人存档。 false **值表示** 搜索中不包含个人存档。 
   
 ## <a name="remarks"></a>说明
 
@@ -56,7 +56,7 @@ ms.locfileid: "44458248"
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |架构名称  <br/> |消息架构  <br/> |
-|验证文件  <br/> |消息 .xsd  <br/> |
+|验证文件  <br/> |messages.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

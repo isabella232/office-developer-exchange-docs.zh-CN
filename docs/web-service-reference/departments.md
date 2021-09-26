@@ -1,23 +1,23 @@
 ---
-title: 部
+title: Departments
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a0a6b0a4-f0dd-4945-af69-628da93f5452
-description: 部门元素为关联角色指定部门名称和其源归属的标识符的数组。
-ms.openlocfilehash: 17590793e00a914cb53b479994bcc89e37bb0e31
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Departments 元素指定一个部门名称数组，以及相关人员的来源属性的标识符。
+ms.openlocfilehash: 9c0cc12777b03d7fa8499579907f4ba2184931e7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467933"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546663"
 ---
-# <a name="departments"></a>部
+# <a name="departments"></a>Departments
 
-**部门**元素为关联角色指定部门名称和其源归属的标识符的数组。 
+**Departments** 元素指定一个部门名称数组，以及相关人员的来源属性的标识符。 
   
 ```XML
 <Departments>
@@ -38,15 +38,15 @@ ms.locfileid: "44467933"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[StringAttributedValue](stringattributedvalue.md) <br/> |指定与 persona 元素相关联的属性数组中的实例。  <br/> |
+|[StringAttributedValue](stringattributedvalue.md) <br/> |指定与 persona 元素关联的属性数组中的实例。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[角色](persona.md) <br/> |指定由**GetPersona**请求返回的一组角色数据。  <br/> |
+|[角色](persona.md) <br/> |指定由 **GetPersona** 请求返回的一组人员数据。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -58,7 +58,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

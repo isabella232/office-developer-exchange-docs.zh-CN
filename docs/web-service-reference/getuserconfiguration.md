@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetUserConfiguration
 api_type:
 - schema
 ms.assetid: 4044c0a1-cd88-41ae-9cc4-a7cf2b279094
 description: GetUserConfiguration 元素表示获取用户配置对象的请求。
-ms.openlocfilehash: 46a2a5ebbabfc038692a5de83e0a960e05295061
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 43c487edeffa358a222a111e5481eb85516a45db
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457709"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547497"
 ---
 # <a name="getuserconfiguration"></a>GetUserConfiguration
 
-**GetUserConfiguration**元素表示获取用户配置对象的请求。 
+**GetUserConfiguration** 元素表示获取用户配置对象的请求。 
   
 ```XML
 <GetUserConfiguration>
@@ -43,8 +43,8 @@ ms.locfileid: "44457709"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[UserConfigurationName](userconfigurationname.md) <br/> |表示用户配置对象的名称。 GetUserConfiguration 请求中必须存在此元素。  <br/> |
-|[UserConfigurationProperties](userconfigurationproperties.md) <br/> |指定要返回的用户配置属性类型。 GetUserConfiguration 请求中必须存在此元素。  <br/> |
+|[UserConfigurationName](userconfigurationname.md) <br/> |表示用户配置对象的名称。 此元素必须存在于 GetUserConfiguration 请求中。  <br/> |
+|[UserConfigurationProperties](userconfigurationproperties.md) <br/> |指定要返回的用户配置属性类型。 此元素必须存在于 GetUserConfiguration 请求中。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -54,7 +54,7 @@ ms.locfileid: "44457709"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

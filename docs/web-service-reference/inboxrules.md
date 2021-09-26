@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - InboxRules
 api_type:
 - schema
 ms.assetid: 7bb9896c-bd12-49ae-842a-a10b5f9a2ef6
 description: InboxRules元素表示一个数组，该用户的邮箱中的规则。
-ms.openlocfilehash: a3107c3c317a912d0bd3e60d03da4168f2f3a0a9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 6b6b399f685accca90fbaffd3ed461aa43a3c2b3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458269"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547230"
 ---
 # <a name="inboxrules"></a>InboxRules
 
-本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **InboxRules**元素表示一个数组，该用户的邮箱中的规则。 
+本文档可能包含与预发布功能或产品相关的内容，这些功能或产品在最终商业发布之前可能会有重大变化。本文档按"原样"提供，仅供参考，Microsoft 不在本文档中作出任何明示或暗示担保。 **InboxRules** 元素表示一个数组，该用户的邮箱中的规则。 
   
 [GetInboxRulesResponse](getinboxrulesresponse.md)
   
@@ -58,7 +58,7 @@ ms.locfileid: "44458269"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。
   

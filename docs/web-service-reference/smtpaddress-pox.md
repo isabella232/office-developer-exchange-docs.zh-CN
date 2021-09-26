@@ -1,32 +1,32 @@
 ---
-title: SmtpAddress （POX）
+title: SmtpAddress (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 984ccd97-c337-47b6-ba42-3405a8b55a71
 description: SmtpAddress 元素包含分配给为用户配置的公用文件夹邮件存储的 SMTP 地址。
-ms.openlocfilehash: 48703a11fb056967c6c76073c2e928d5f6efa264
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: d257b193a3254afceaa72d396a8c2724bb3165c6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468640"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546985"
 ---
-# <a name="smtpaddress-pox"></a>SmtpAddress （POX）
+# <a name="smtpaddress-pox"></a>SmtpAddress (POX)
 
-**SmtpAddress**元素包含分配给为用户配置的公用文件夹邮件存储的 SMTP 地址。 
+**SmtpAddress** 元素包含分配给为用户配置的公用文件夹邮件存储的 SMTP 地址。 
   
-- [自动发现（POX）](autodiscover-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md)
   
-- [响应（POX）](response-pox.md)
+- [Response (POX)](response-pox.md)
   
-- [帐户（POX）](account-pox.md)
+- [Account (POX)](account-pox.md)
   
-- [PublicFolderInformation （POX）](publicfolderinformation-pox.md)
+- [PublicFolderInformation (POX)](publicfolderinformation-pox.md)
   
-- [SmtpAddress （POX）](smtpaddress-pox.md)
+- [SmtpAddress (POX)](smtpaddress-pox.md)
   
 ```XML
 <SmtpAddress/>
@@ -48,17 +48,17 @@ ms.locfileid: "44468640"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[PublicFolderInformation （POX）](publicfolderinformation-pox.md) <br/> |包含客户端可用于发送自动发现请求以发现用户公用文件夹信息的信息。  <br/> |
+|[PublicFolderInformation (POX)](publicfolderinformation-pox.md) <br/> |包含客户端可用于发送自动发现请求以发现用户的公用文件夹信息的信息。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-Text 值表示分配给为用户配置的公用文件夹存储的 SMTP 地址。 此 SMTP 地址可在自动发现请求的[EMailAddress （POX）](emailaddress-pox.md)元素中使用，以发现公用文件夹设置。 
+文本值表示分配给为用户配置的公用文件夹存储的 SMTP 地址。 此 SMTP 地址可用于自动发现请求的 [EMailAddress ](emailaddress-pox.md) (POX) 元素，以发现公用文件夹设置。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-**SmtpAddress**元素是**PublicFolderInformation**元素所需的子元素。 
+**SmtpAddress** 元素是 **PublicFolderInformation** 元素的必需子元素。 
   
 ## <a name="see-also"></a>另请参阅
 
-- [Exchange 的 POX 自动发现 XML 元素](pox-autodiscover-xml-elements-for-exchange.md)
+- [用于存储的 POX 自动发现 XML Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

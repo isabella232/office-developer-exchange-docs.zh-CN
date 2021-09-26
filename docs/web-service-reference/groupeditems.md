@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GroupedItems
 api_type:
 - schema
 ms.assetid: 53170df4-4272-4b37-b23f-cd8e2d4a7396
-description: GroupedItems 元素表示作为分组 FindItem 操作调用的结果的项的集合。
-ms.openlocfilehash: 0ee1ca3c6d0cf98e2daefa60a1cb1fd096cda478
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GroupedItems 元素表示作为分组 FindItem 操作调用的结果的项目的集合。
+ms.openlocfilehash: 17848b1b36a60dd935c67dcdf9ed9640d8d3fa1e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530809"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547349"
 ---
 # <a name="groupeditems"></a>GroupedItems
 
-**GroupedItems**元素表示作为分组[FindItem 操作](finditem-operation.md)调用的结果的项的集合。 
+**GroupedItems** 元素表示作为分组 [FindItem](finditem-operation.md)操作调用的结果的项目的集合。 
   
 [FindItemResponse](finditemresponse.md)
   
@@ -29,7 +29,7 @@ ms.locfileid: "44530809"
   
 [FindItemResponseMessage](finditemresponsemessage.md)
   
-[RootFolder （FindItemResponseMessage）](rootfolder-finditemresponsemessage.md)
+[RootFolder (FindItemResponseMessage)](rootfolder-finditemresponsemessage.md)
   
 [组](groups.md)
   
@@ -55,18 +55,18 @@ ms.locfileid: "44530809"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[GroupIndex](groupindex.md) <br/> |表示用于对分组的[FindItem 操作](finditem-operation.md)调用中的项进行分组的属性值。  <br/> |
+|[GroupIndex](groupindex.md) <br/> |表示用于对分组的 [FindItem 操作调用中的项进行分组的](finditem-operation.md) 属性值。  <br/> |
 |[Items](items.md) <br/> |包含分组项的数组。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[组](groups.md) <br/> |包含使用[FindItem 操作](finditem-operation.md)请求中标识的搜索和聚合条件找到的组的集合。  <br/> |
+|[组](groups.md) <br/> |包含通过 [FindItem](finditem-operation.md) 操作请求中标识的搜索和聚合条件找到的组的集合。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-描述此元素的架构位于运行 Microsoft Exchange Server 2010 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
+描述此元素的架构位于运行 Microsoft Exchange Server 2010（已安装客户端访问服务器角色）的计算机的 EWS 虚拟目录中。
   
 ## <a name="element-information"></a>元素信息
 

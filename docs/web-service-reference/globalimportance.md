@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GlobalImportance
 api_type:
 - schema
 ms.assetid: 8bcec699-e771-4f38-b7d9-61f324af1b4e
-description: GlobalImportance 元素包含邮箱中所有会话项目的合计重要性。
-ms.openlocfilehash: c760168afa3edac20ca0ae7bc677610d8456d178
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GlobalImportance 元素包含邮箱中所有会话项目的聚合重要性。
+ms.openlocfilehash: 52564ee9d3431ffcacf15fd1731d5d50f5323db7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459445"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547384"
 ---
 # <a name="globalimportance"></a>GlobalImportance
 
-**GlobalImportance**元素包含邮箱中所有会话项目的合计重要性。 
+**GlobalImportance** 元素包含邮箱中所有会话项目的聚合重要性。 
   
 [FindConversationResponse](findconversationresponse.md)
   
@@ -64,7 +64,7 @@ ms.locfileid: "44459445"
     
 - 高
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   

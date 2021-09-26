@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GlobalUniqueSenders
 api_type:
 - schema
 ms.assetid: 6bd9e9cb-19c8-45af-b211-dfb8a6003b1b
-description: GlobalUniqueSender 元素包含邮箱中对话项目的所有发件人的列表。
-ms.openlocfilehash: 0e85e201017e175a9ffc6b923976020d4157d5b7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GlobalUniqueSender 元素包含邮箱中会话项目的所有发件人的列表。
+ms.openlocfilehash: d4dd816c548e3b2f9009f6b6bc43e96fc9ccdd46
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459061"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547363"
 ---
 # <a name="globaluniquesenders"></a>GlobalUniqueSenders
 
-**GlobalUniqueSender**元素包含邮箱中对话项目的所有发件人的列表。 
+**GlobalUniqueSender** 元素包含邮箱中会话项目的所有发件人的列表。 
   
 [FindConversationResponse](findconversationresponse.md)
   
@@ -62,7 +62,7 @@ ms.locfileid: "44459061"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   

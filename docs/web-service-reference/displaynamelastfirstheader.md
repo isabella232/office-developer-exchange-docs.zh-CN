@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ca77431e-2d6c-48e0-a20e-e8616c6fa157
-description: DisplayNameLastFirstHeader 元素指定显示名称的标头，首先是姓。
-ms.openlocfilehash: 4987ace53b3ad6ecabed7644071436777fb3b926
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: DisplayNameLastFirstHeader 元素指定域名，显示名称，姓氏。
+ms.openlocfilehash: eec9fe4de3a145b36423f123944972ea241e00d4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463144"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547517"
 ---
 # <a name="displaynamelastfirstheader"></a>DisplayNameLastFirstHeader
 
-**DisplayNameLastFirstHeader**元素指定显示名称的标头，首先是姓。 
+**DisplayNameLastFirstHeader** 元素指定域名的页眉显示名称，姓氏先。 
   
 ```xml
 <DisplayNameLastFirstHeader></DisplayNameLastFirstHeader>
@@ -40,13 +40,13 @@ ms.locfileid: "44463144"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[角色](persona.md) <br/> |指定由**GetPersona**请求返回的一组角色数据。  <br/> |
+|[角色](persona.md) <br/> |指定由 **GetPersona** 请求返回的一组人员数据。  <br/> |
    
 ## <a name="text-value"></a>文本值
 
-**DisplayNameLastFirstHeader**元素的文本值是一个 string 值，它指定显示名称 "姓"。 
+**DisplayNameLastFirstHeader** 元素的文本值是一个字符串值，它显示名称姓。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Exchange Server 2013 中引入了此元素。
   
@@ -58,7 +58,7 @@ Exchange Server 2013 中引入了此元素。
 |:-----|:-----|
 |命名空间  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |架构名称  <br/> |类型架构  <br/> |
-|验证文件  <br/> |类型 .xsd  <br/> |
+|验证文件  <br/> |types.xsd  <br/> |
 |可以为空  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AdjacentMeetings
 api_type:
 - schema
 ms.assetid: 50a9c381-9166-476e-8421-29e51b94499b
 description: AdjacentMeetings 元素标识与会议时间相邻的所有日历项目。
-ms.openlocfilehash: 7c89095e24af799df22a848be06a0fd65d53be7f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 9ce022da9cc9ca2c6a5d7866a20b749d72fb0537
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463578"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546776"
 ---
 # <a name="adjacentmeetings"></a>AdjacentMeetings
 
-**AdjacentMeetings**元素标识与会议时间相邻的所有日历项目。 
+**AdjacentMeetings** 元素标识与会议时间相邻的所有日历项目。 
   
 ```xml
 <AdjacentMeetings>
@@ -51,12 +51,12 @@ ms.locfileid: "44463578"
 |[CalendarItem](calendaritem.md) <br/> |表示 Exchange 日历项。  <br/> |
 |[MeetingRequest](meetingrequest.md) <br/> |表示 Exchange 存储中的会议请求。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-描述此元素的架构位于运行 Microsoft Exchange Server 2010 且安装了客户端访问服务器角色的计算机的 EWS 虚拟目录中。
+描述此元素的架构位于运行安装了客户端访问服务器角色的 Microsoft Exchange Server 2010 的计算机的 EWS 虚拟目录中。
   
 > [!NOTE]
-> [！注意] 根据架构，其他子元素是有效的，但[CalendarItem](calendaritem.md)元素是 Exchange Web 服务（EWS）将在**AdjacentMeetings**元素中返回的唯一子元素。 本主题不列出根据架构有效但不会由 EWS 返回的子元素。 
+> 尽管其他子元素根据架构有效，[但 CalendarItem](calendaritem.md)元素是 Exchange Web 服务 (EWS) 将在 **AdjacentMeetings** 元素中返回的唯一子元素。 本主题不列出根据架构有效但不由 EWS 返回的子元素。 
   
 ## <a name="element-information"></a>元素信息
 

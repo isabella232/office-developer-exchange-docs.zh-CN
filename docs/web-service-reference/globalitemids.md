@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GlobalItemIds
 api_type:
 - schema
 ms.assetid: b0f03ce0-a4c3-47de-9360-a880a3606e42
-description: GlobalItemIds 元素包含邮箱中所有会话项目的项标识符的集合。
-ms.openlocfilehash: aa656e7f2fb78dafe5bf6013c1f7ad14e2372ba1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: GlobalItemIds 元素包含邮箱中所有会话项目的项目标识符集合。
+ms.openlocfilehash: 8422bb6824eae78f2a7c17553385a439c693e0dd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459424"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547370"
 ---
 # <a name="globalitemids"></a>GlobalItemIds
 
-**GlobalItemIds**元素包含邮箱中所有会话项目的项标识符的集合。 
+**GlobalItemIds** 元素包含邮箱中所有会话项目的项目标识符集合。 
   
 [FindConversationResponse](findconversationresponse.md)
   
@@ -52,9 +52,9 @@ ms.locfileid: "44459424"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|[ItemId](itemid.md) <br/> |包含 Exchange 存储中某项的唯一标识符和更改键。  <br/> |
-|[OccurrenceItemId](occurrenceitemid.md) <br/> |标识定期项目的单个事件。  <br/> |
-|[RecurringMasterItemId](recurringmasteritemid.md) <br/> |通过标识一个 "定期" 主项目的 "标识符" 标识该项目。  <br/> |
+|[ItemId](itemid.md) <br/> |包含项目在项目存储中的唯一标识符Exchange项。  <br/> |
+|[OccurrenceItemId](occurrenceitemid.md) <br/> |标识定期项目的单个匹配项。  <br/> |
+|[RecurringMasterItemId](recurringmasteritemid.md) <br/> |通过标识其相关事件项的标识符之一来标识定期主项。  <br/> |
    
 ### <a name="parent-elements"></a>父元素
 
@@ -66,7 +66,7 @@ ms.locfileid: "44459424"
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 描述此元素的架构位于承载 Exchange Web Services 的 IIS 虚拟目录中。Exchange Server 2010 Service Pack 1 (SP1) 中引入了此元素。
   
