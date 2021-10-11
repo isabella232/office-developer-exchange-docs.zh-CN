@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 4b84d670-74c9-4d6d-84e7-f0a9f76f0d93
 description: ResponseCode 元素提供有关请求的状态信息。
-ms.openlocfilehash: 9d662ee93870c2aabe045d801222deb881d0a28b
-ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
+ms.openlocfilehash: fc328ffde3a21add77ce6870a87bc7092f3f46ab
+ms.sourcegitcommit: f13a3a4a61fa23ca6414b7c96ddf087adbe3dc9e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59512385"
+ms.lasthandoff: 10/11/2021
+ms.locfileid: "60262216"
 ---
 # <a name="responsecode"></a>ResponseCode
 
@@ -101,7 +101,7 @@ ms.locfileid: "59512385"
 
 如果此元素已使用，则文本值是必需的。 下表描述了此元素返回的值。
   
-|值|Description|
+|值|说明|
 |:-----|:-----|
 |NoError  <br/> |请求未发生错误。  <br/> |
 |ErrorAccessDenied  <br/> |当呼叫帐户没有权限执行所请求的操作时，将发生此错误。  <br/> |
@@ -109,14 +109,14 @@ ms.locfileid: "59512385"
 |ErrorAccountDisabled  <br/> |当禁用了有关帐户时，将发生此错误。  <br/> |
 |ErrorAddDelegatesFailed  <br/> |当无法保存具有已添加的委托的列表时，将发生此错误。  <br/> |
 |ErrorAddressSpaceNotFound  <br/> |在 Active Directory 数据库中找不到跨林可用性的地址空间记录或域名系统 (DNS) 域名时，将发生此错误。  <br/> |
-|ErrorADOperation  <br/> |当操作因 Active Directory 域服务与 AD DS 服务或 AD DS (通信问题而失败时) 。  <br/> |
+|ErrorADOperation  <br/> |当操作因 Active Directory 域服务与 AD DS 服务器之间的通信问题 (发生) 。  <br/> |
 |ErrorADSessionFilter  <br/> |当 **ResolveNames** 操作请求指定名称时，将返回此错误无效。  <br/> |
 |ErrorADUnavailable  <br/> |此错误发生在 AD DS 不可用时。 请稍后重试请求。  <br/> |
-|ErrorAffectedTaskOccurrencesRequired  <br/> |此错误指示未指定 **AffectedTaskOccurrences** 属性。 当 [DeleteItem](deleteitem.md) 元素用于删除至少一个作为任务的项目时，无论该任务是否是重复的，必须指定 **AffectedTaskOccurrences** 属性，以便 **DeleteItem** 可以确定是删除当前事件还是删除整个系列。  <br/> |
+|ErrorAffectedTaskOccurrencesRequired  <br/> |此错误指示未指定 **AffectedTaskOccurrences** 属性。 当 [DeleteItem](deleteitem.md) 元素用于删除至少一个作为任务的项目时，无论该任务是否是定期任务，必须指定 **AffectedTaskOccurrences** 属性，以便 **DeleteItem** 可以确定是删除当前事件还是删除整个系列。  <br/> |
 |ErrorArchiveFolderPathCreation  <br/> |指示创建存档文件夹路径时出错。  <br/> |
 |ErrorArchiveMailboxNotEnabled  <br/> |指示未启用存档邮箱。  <br/> |
 |ErrorArchiveMailboxServiceDiscoveryFailed  <br/> |指示存档邮箱服务发现失败。  <br/> |
-|ErrorAttachmentNestLevelLimitExceeded  <br/> |指定已尝试创建包含 10 多个嵌套附件的项目。 此值是在 sp2 Exchange Server 2010 Service Pack 2 (中引入) 。  <br/> |
+|ErrorAttachmentNestLevelLimitExceeded  <br/> |指定已尝试创建包含 10 多个嵌套附件的项目。 此值在 sp2 Exchange Server 2010 Service Pack 2 (中引入) 。  <br/> |
 |ErrorAttachmentSizeLimitExceeded  <br/> |如果试图创建大小超过 Int32.MaxValue 的附件（以字节为单位）时 [，CreateAttachment](createattachment.md) 元素将返回此错误。  <br/> 如果尝试检索大小超过 Int32.MaxValue 的现有附件（以字节为单位）时 [，GetAttachment](getattachment.md) 元素将返回此错误。  <br/> |
 |ErrorAutoDiscoverFailed  <br/> |此错误指示 Exchange Web 服务尝试确定运行 Exchange 2010 的跨林计算机的位置，该计算机使用自动发现服务安装了客户端访问服务器角色，但调用自动发现服务失败。  <br/> |
 |ErrorAvailabilityConfigNotFound  <br/> |此错误指示 AD DS 中缺少本地林的可用性配置信息。  <br/> |
@@ -131,7 +131,7 @@ ms.locfileid: "59512385"
 |ErrorCalendarInvalidAttributeValue  <br/> |此响应代码未使用。  <br/> |
 |ErrorCalendarInvalidDayForTimeChangePattern  <br/> |当 Day、WeekendDay 和 Weekday 的无效值用于定义时间更改模式时，在 **CreateItem** 或 **UpdateItem** 操作期间发生此错误。  <br/> |
 |ErrorCalendarInvalidDayForWeeklyRecurrence  <br/> |此错误发生在 **CreateItem** 或 **UpdateItem** 操作期间，当使用 Day、WeekDay 和 WeekendDay 的无效值指定每周重复周期时。  <br/> |
-|ErrorCalendarInvalidPropertyState  <br/> |当日历项目定期二进制大型对象或 BLOB 存储 (BLOB) 的状态无效Exchange发生此错误。  <br/> |
+|ErrorCalendarInvalidPropertyState  <br/> |当日历项目定期二进制大型对象或 BLOB 存储中 (BLOB) 的状态无效Exchange发生此错误。  <br/> |
 |ErrorCalendarInvalidPropertyValue  <br/> |此响应代码未使用。  <br/> |
 |ErrorCalendarInvalidRecurrence  <br/> |当无法创建指定的定期时，将发生此错误。  <br/> |
 |ErrorCalendarInvalidTimeZone  <br/> |当遇到无效时区时，将发生此错误。  <br/> |
@@ -149,8 +149,8 @@ ms.locfileid: "59512385"
 |ErrorCalendarIsOrganizerForRemove  <br/> |此错误指示 [RemoveItem](removeitem.md) 对于组织者的日历项目无效。 若要从日历中删除会议，组织者必须使用 CancelCalendarItem。  <br/> |
 |ErrorCalendarIsOrganizerForTentative  <br/> |此错误指示 [TentativelyAcceptItem](tentativelyacceptitem.md) 对组织者的日历项目无效。  <br/> |
 |ErrorCalendarMeetingRequestIsOutOfDate  <br/> |此错误指示会议请求已过期，无法更新。  <br/> |
-|ErrorCalendarOccurrenceIndexIsOutOfRecurrenceRange  <br/> |此错误指示事件索引不指向当前定期周期内的事件。 例如，如果您的定期模式定义了一组三个会议事件，并且您尝试访问第五次会议，则此响应代码将生成。  <br/> |
-|ErrorCalendarOccurrenceIsDeletedFromRecurrence  <br/> |此错误指示通过定期主 ID 和事件索引 (删除事件的任何操作) 无效。  <br/> |
+|ErrorCalendarOccurrenceIndexIsOutOfRecurrenceRange  <br/> |此错误指示事件索引不指向当前定期周期内的事件。 例如，如果定期模式定义一组三个会议事件，并且您尝试访问第五次会议，则此响应代码将生成。  <br/> |
+|ErrorCalendarOccurrenceIsDeletedFromRecurrence  <br/> |此错误指示通过定期主 ID 和 (索引对已删除事件进行的任何操作) 无效。  <br/> |
 |ErrorCalendarOutOfRange  <br/> |当属性值在范围外时，会针对日历项目或任务定期属性的 CreateItem 和 UpdateItem 操作报告此错误。 例如，指定一个月的第十五周将导致此响应代码。  <br/> |
 |ErrorCalendarViewRangeTooBig  <br/> |当 [CalendarView](calendarview.md) 元素的 Start 到 End 范围超过允许的最大值（当前为 2 年）时，将发生此错误。  <br/> |
 |ErrorCallerIsInvalidADAccount  <br/> |此错误指示请求的帐户不是目录数据库中的有效帐户。  <br/> |
@@ -175,11 +175,12 @@ ms.locfileid: "59512385"
 |ErrorCannotUseFolderIdForItemId  <br/> |当为需要项目标识符的请求提供文件夹标识符时，将发生此错误。  <br/> |
 |ErrorCannotUseItemIdForFolderId  <br/> |当为需要文件夹标识符的请求提供项目标识符时，将发生此错误。  <br/> |
 |ErrorChangeKeyRequired  <br/> |此响应代码已被 **ErrorChangeKeyRequiredForWriteOperations 取代** <br/> |
-|ErrorChangeKeyRequiredForWriteOperations  <br/> |当项目的更改键缺失或过时时，将返回此错误。 <br/><br/>对于 SendItem、UpdateItem 和 UpdateFolder 操作，调用方必须传递项的正确和当前更改键。 请注意，即使冲突解决设置为始终覆盖，UpdateItem 也如此。  <br/> |
+|ErrorChangeKeyRequiredForWriteOperations  <br/> |当项目的更改键缺失或过时时，将返回此错误。 <br/><br/>对于 SendItem、UpdateItem 和 UpdateFolder 操作，调用方必须传递项的正确和当前更改键。 请注意，即使将冲突解决设置为始终覆盖，UpdateItem 也如此。  <br/> |
 |ErrorClientDisconnected  <br/> |指定客户端已断开连接。  <br/> |
 |ErrorClientIntentInvalidStateDefinition  <br/> |此错误仅供内部使用。  <br/> |
 |ErrorClientIntentNotFound  <br/> |此错误仅供内部使用。  <br/> |
 |ErrorConnectionFailed  <br/> |当 Web 服务Exchange邮箱时，将发生此错误。  <br/> |
+|ErrorConnectionFailedTransientError  <br/> |当 Web 服务Exchange邮箱时，将发生此错误。 此错误代码指示暂时性错误。 收到此错误时，客户端可以重试连接到服务器。 <br/> |
 |ErrorContainsFilterWrongType  <br/> |此错误指示检查到 Contains 筛选器的属性不是字符串类型。  <br/> |
 |ErrorContentConversionFailed  <br/> |当 Web 服务无法检索所请求Exchange的 MIME 内容时 **，GetItem** 操作将返回此错误。 <br/><br/>当 Web 服务无法从提供的 MIME Exchange创建项目时 **，CreateItem** 操作将返回此错误。 通常，这表示项目属性已损坏或截断。  <br/> |
 |ErrorContentIndexingNotEnabled  <br/> |此错误发生在使用 QueryString 选项提出搜索请求并且未为目标邮箱启用内容索引时。  <br/> |
@@ -193,9 +194,9 @@ ms.locfileid: "59512385"
 |ErrorDataSourceOperation  <br/> |当基础数据提供程序无法完成操作时，将发生此错误。  <br/> |
 |ErrorDelegateAlreadyExists  <br/> |当指定用户已存在于委派列表中时 **，AddDelegate** 操作中将发生此错误。  <br/> |
 |ErrorDelegateCannotAddOwner  <br/> |当要添加的指定用户是邮箱的所有者时 **，AddDelegate** 操作中会出现此错误。  <br/> |
-|ErrorDelegateMissingConfiguration  <br/> |如果本地 FreeBusy 邮件上没有委派信息，或者没有 Active Directory 公共代理 (AD DS) 中没有"公共代理"或"代表发送"条目，则 **GetDelegate** 操作中会出现此错误。  <br/> |
+|ErrorDelegateMissingConfiguration  <br/> |如果本地 FreeBusy 邮件上没有委派信息，或者没有 Active Directory 公共代理 (在 AD DS) 中没有"公共代理"或没有"代表发送"条目，则 **GetDelegate** 操作中会出现此错误。  <br/> |
 |ErrorDelegateNoUser  <br/> |当指定的用户无法映射到 AD DS 中的用户时，将发生此错误。  <br/> |
-|ErrorDelegateValidationFailed  <br/> |当添加的代理用户被添加时 **，AddDelegate** 操作无效。  <br/> |
+|ErrorDelegateValidationFailed  <br/> |当添加的委派用户被添加时 **，AddDelegate** 操作无效。  <br/> |
 |ErrorDeleteDistinguishedFolder  <br/> |当尝试删除可分辨文件夹时，将发生此错误。  <br/> |
 |ErrorDeleteItemsFailed  <br/> |此响应代码未使用。  <br/> |
 |ErrorDeleteUnifiedMessagingPromptFailed  <br/> |此错误仅供内部使用。  <br/> |
@@ -221,11 +222,11 @@ ms.locfileid: "59512385"
 |ErrorFreeBusyDLLimitReached  <br/> |此错误指示为获取通讯组列表的忙/闲信息已达到最大组成员计数。  <br/> |
 |ErrorFreeBusyGenerationFailed  <br/> |如果由于中间故障而无法检索忙/闲信息，则返回此错误。  <br/> |
 |ErrorGetServerSecurityDescriptorFailed  <br/> |此响应代码未使用。  <br/> |
-|ErrorImContactLimitReached  <br/> |如果由于已达到最大联系人数 (即时消息) 联系人，则返回此错误。 此错误是在 2013 Exchange Server引入的。  <br/> |
-|ErrorImGroupDisplayNameAlreadyExists  <br/> |当尝试添加组时，将返回此错误显示名称现有组已具有相同的组显示名称。 此错误是在 2013 年 Exchange引入的。  <br/> |
-|ErrorImGroupLimitReached  <br/> |当由于已达到最大组数而无法添加新的 IM 组时，将返回此错误。 此错误是在 2013 年 Exchange引入的。  <br/> |
+|ErrorImContactLimitReached  <br/> |当由于已达到最大联系人数 (即时消息) 联系人时，将返回此错误。 此错误是在 2013 年 Exchange Server引入的。  <br/> |
+|ErrorImGroupDisplayNameAlreadyExists  <br/> |当尝试添加组时，将返回此错误显示名称现有组已具有相同的组显示名称。 此错误是在 2013 Exchange引入的。  <br/> |
+|ErrorImGroupLimitReached  <br/> |当由于已达到最大组数而无法添加新的 IM 组时，将返回此错误。 此错误是在 2013 Exchange引入的。  <br/> |
 |ErrorImpersonateUserDenied  <br/> |当调用方没有适当的权限来模拟特定用户时，Exchange模拟的服务器到服务器授权案例中返回错误。 此错误映射到 ms-Exch-MAPS-May-Impersonate 扩展 Active Directory 权限。  <br/> |
-|ErrorImpersonationDenied  <br/> |如果调用方没有适当的权限通过其请求所针对的客户端访问服务器进行模拟，则此错误在 Exchange Impersonation 的服务器到服务器授权中返回。 这会映射到 ms-Exch-MAPS-Impersonation 扩展 Active Directory 右侧。  <br/> |
+|ErrorImpersonationDenied  <br/> |当调用方没有适当的权限通过其请求所针对的客户端访问服务器进行模拟时，此错误在 Exchange Impersonation 的服务器到服务器授权中返回。 这会映射到 ms-Exch-MAPS-Impersonation 扩展 Active Directory 右侧。  <br/> |
 |ErrorImpersonationFailed  <br/> |此错误指示尝试执行服务器到服务器身份验证时出现意外错误。 此响应代码通常指示运行 Exchange Web Services 应用程序池 的服务帐户配置不正确、Exchange Web 服务无法与目录对话，或者未正确配置林之间的信任。  <br/> |
 |ErrorIncorrectSchemaVersion  <br/> |此错误指示请求对当前 Exchange Server有效，但对于指定的请求服务器版本无效。  <br/> |
 |ErrorIncorrectUpdatePropertyCount  <br/> |此错误指示 [UpdateItem](updateitem.md) 或 [UpdateFolder](updatefolder.md) 元素中的每个更改说明只能列出一个要更新的属性。  <br/> |
@@ -247,7 +248,7 @@ ms.locfileid: "59512385"
 |ErrorInvalidCrossForestCredentials  <br/> |当用于将请求代理到其他目录服务林的凭据身份验证失败时，将发生此错误。  <br/> |
 |ErrorInvalidDelegatePermission  <br/> |此错误指示指定的文件夹权限无效。  <br/> |
 |ErrorInvalidDelegateUserId  <br/> |此错误指示指定的委派用户 ID 无效。  <br/> |
-|ErrorInvalidExchangeImpersonationHeaderData  <br/> |当呼叫者未指定 UPN、电子邮件地址或用户 SID 时，Exchange模拟期间发生此错误。 如果调用方指定了其中一个或多个值且值为空，也会发生这种情况。  <br/> |
+|ErrorInvalidExchangeImpersonationHeaderData  <br/> |当呼叫者未指定 UPN Exchange电子邮件地址或用户 SID 时，此错误在模拟期间发生。 如果调用方指定了其中一个或多个值且值为空，也会发生这种情况。  <br/> |
 |ErrorInvalidExcludesRestriction  <br/> |当传递到 [Excludes](excludes.md) 元素限制的位掩码无法解析时，将发生此错误。  <br/> |
 |ErrorInvalidExpressionTypeForSubFilter  <br/> |此响应代码未使用。  <br/> |
 |ErrorInvalidExtendedProperty  <br/> | 发生以下事件时，将发生此错误： <br/> <br/>- 调用方尝试使用 Web 服务不支持的扩展Exchange属性。  <br/>- 调用方传递扩展属性的无效属性值组合。 如果未传递任何属性，也会发生这种情况。 仅允许某些组合。  <br/> |
@@ -271,9 +272,9 @@ ms.locfileid: "59512385"
 |ErrorInvalidIdStoreObjectIdTooLong  <br/> |当调用方指定的 **Id** 属性太长时，将发生此错误。  <br/> |
 |ErrorInvalidIdTooManyAttachmentLevels  <br/> |当项目的附件层次结构超过最大 255 层深度时，将返回此错误。  <br/> |
 |ErrorInvalidIdXml  <br/> |此响应代码未使用。  <br/> |
-|ErrorInvalidImContactId  <br/> |当指定的 IM 联系人标识符不代表有效标识符时，将返回此错误。 此错误是在 2013 年 Exchange引入的。  <br/> |
-|ErrorInvalidImDistributionGroupSmtpAddress  <br/> |当指定的 IM 通讯组 SMTP 地址标识符不表示有效标识符时，将返回此错误。 此错误是在 2013 年 Exchange引入的。  <br/> |
-|ErrorInvalidImGroupId  <br/> |当指定的 IM 组标识符不表示有效标识符时，将返回此错误。 此错误是在 2013 年 Exchange引入的。  <br/> |
+|ErrorInvalidImContactId  <br/> |当指定的 IM 联系人标识符不代表有效标识符时，将返回此错误。 此错误是在 2013 Exchange引入的。  <br/> |
+|ErrorInvalidImDistributionGroupSmtpAddress  <br/> |当指定的 IM 通讯组 SMTP 地址标识符不表示有效标识符时，将返回此错误。 此错误是在 2013 Exchange引入的。  <br/> |
+|ErrorInvalidImGroupId  <br/> |当指定的 IM 组标识符不表示有效标识符时，将返回此错误。 此错误是在 2013 Exchange引入的。  <br/> |
 |ErrorInvalidIndexedPagingParameters  <br/> |如果索引分页的偏移量为负数，则会发生此错误。  <br/> |
 |ErrorInvalidInternetHeaderChildNodes  <br/> |此响应代码未使用。  <br/> |
 |ErrorInvalidItemForOperationArchiveItem  <br/> |指示项目对于 **ArchiveItem** 操作无效。  <br/> |
@@ -314,21 +315,21 @@ ms.locfileid: "59512385"
 |ErrorInvalidPullSubscriptionId  <br/> |如果使用推送订阅 ID 调用 [GetEvents](getevents-operation.md) 操作或 [Unsubscribe](unsubscribe-operation.md) 操作，则会发生此错误。 若要取消订阅推送订阅，必须使用取消订阅响应响应推送请求，或者断开 Web 服务连接并等待推送通知退出。  <br/> |
 |ErrorInvalidPushSubscriptionUrl  <br/> | 当订阅操作创建"推送[](subscribe-operation.md)"订阅时，将返回此错误，并指示请求中包含的 URL 无效。<br/><br/>Web 服务必须满足以下Exchange Web 服务接受 URL： <br/> <br/>- 字符串长度 \> 0 和 \< 2083.  <br/> - 协议为 http 或 https。  <br/>- URL 可以通过 URI Microsoft .NET Framework分析。  <br/> |
 |ErrorInvalidRecipients  <br/> |此错误指示邮件上的收件人集合或日历项目上的与会者集合无效。 例如，当尝试发送没有收件人的项目时，将返回此错误。  <br/> |
-|ErrorInvalidRecipientSubfilter  <br/> |此错误指示搜索文件夹具有一个收件人表筛选器，Exchange Web 服务无法代表该筛选器。 若要绕绕此错误，无需请求搜索参数即可检索文件夹。  <br/> |
-|ErrorInvalidRecipientSubfilterComparison  <br/> |此错误指示搜索文件夹具有一个收件人表筛选器，Exchange Web 服务无法代表该筛选器。 若要绕绕此错误，无需请求搜索参数即可检索文件夹。  <br/> |
-|ErrorInvalidRecipientSubfilterOrder  <br/> |此错误指示搜索文件夹具有一个收件人表筛选器，Exchange Web 服务无法代表该筛选器。 若要绕绕此错误，无需请求搜索参数即可检索文件夹。  <br/> |
-|ErrorInvalidRecipientSubfilterTextFilter  <br/> |此错误指示搜索文件夹具有一个收件人表筛选器，Exchange Web 服务无法代表该筛选器。 若要绕绕此错误，无需请求搜索参数即可检索文件夹。  <br/> |
+|ErrorInvalidRecipientSubfilter  <br/> |此错误指示搜索文件夹具有 Web 服务无法表示的收件人Exchange筛选器。 若要绕绕此错误，无需请求搜索参数即可检索文件夹。  <br/> |
+|ErrorInvalidRecipientSubfilterComparison  <br/> |此错误指示搜索文件夹具有 Web 服务无法表示的收件人Exchange筛选器。 若要绕绕此错误，无需请求搜索参数即可检索文件夹。  <br/> |
+|ErrorInvalidRecipientSubfilterOrder  <br/> |此错误指示搜索文件夹具有 Web 服务无法表示的收件人Exchange筛选器。 若要绕绕此错误，无需请求搜索参数即可检索文件夹。  <br/> |
+|ErrorInvalidRecipientSubfilterTextFilter  <br/> |此错误指示搜索文件夹具有 Web 服务无法表示的收件人Exchange筛选器。 若要绕绕此错误，无需请求搜索参数即可检索文件夹。  <br/> |
 |ErrorInvalidReferenceItem  <br/> | 在下列情况下，此错误从 Forward 和 Reply 响应对象的 [CreateItem](createitem-operation.md) 操作返回：<br/>  <br/>- 引用的项目标识符不是 [Message](message-ex15websvcsotherref.md) [、CalendarItem](calendaritem.md)或 **Message** 或 **CalendarItem** 的后代。  <br/>- 引用项标识符用于 **CalendarItem，** 组织者尝试向自己回复或全部答复。  <br/>- 邮件为草稿，选择"答复"或"全部答复"。  <br/>- [SuppressReadReceipt](suppressreadreceipt.md)的引用项不是 **Message** 或 Message 的 **后代**。  <br/> |
 |ErrorInvalidRequest  <br/> |当 SOAP 请求具有 SOAP 操作标头，但 SOAP 正文中没有任何内容时，将发生此错误。 请注意，SOAP 操作标头不是必需的，Exchange Web 服务可以确定从 SOAP 正文中根元素的本地名称调用的方法。  <br/> |
 |ErrorInvalidRestriction  <br/> |此响应代码未使用。  <br/> |
-|ErrorInvalidRetentionTagTypeMismatch  <br/> |当指定的保留标记有一个与之关联的错误操作时，将返回此错误。 此错误是在 2013 年 Exchange引入的。  <br/> |
-|ErrorInvalidRetentionTagInvisible  <br/> |当尝试在 **PolicyTag** 属性上设置不存在或不可见的标记时，将返回此错误。 此错误是在 2013 年 Exchange引入的。  <br/> |
-|ErrorInvalidRetentionTagInheritance  <br/> |尝试在 **PolicyTag** 属性上设置隐式标记时，将返回此错误。 此错误是在 2013 年 Exchange引入的。  <br/> |
+|ErrorInvalidRetentionTagTypeMismatch  <br/> |当指定的保留标记有一个与之关联的错误操作时，将返回此错误。 此错误是在 2013 Exchange引入的。  <br/> |
+|ErrorInvalidRetentionTagInvisible  <br/> |当尝试在 **PolicyTag** 属性上设置不存在或不可见的标记时，将返回此错误。 此错误是在 2013 Exchange引入的。  <br/> |
+|ErrorInvalidRetentionTagInheritance  <br/> |尝试在 **PolicyTag** 属性上设置隐式标记时，将返回此错误。 此错误是在 2013 Exchange引入的。  <br/> |
 |ErrorInvalidRetentionTagIdGuid  <br/> |指示保留标记 GUID 无效。  <br/> |
 |ErrorInvalidRoutingType  <br/> |如果为 [EmailAddressType ](routingtype-emailaddresstype.md) 元素的 RoutingType 传递的 (类型无效，) 此错误。 通常，路由类型设置为简单邮件传输协议 (SMTP) 。  <br/> |
 |ErrorInvalidScheduledOofDuration  <br/> |如果指定的持续时间结束时间不大于开始时间，或者如果将来不发生结束时间，则会发生此错误。  <br/> |
 |ErrorInvalidSchemaVersionForMailboxVersion  <br/> |此错误指示由于版本不匹配，发送到其他服务器的代理请求无法为请求提供服务。  <br/> |
-|ErrorInvalidSecurityDescriptor  <br/> |此错误指示Exchange"日历"文件夹中的"日历"安全描述符已损坏。  <br/> |
+|ErrorInvalidSecurityDescriptor  <br/> |此错误指示存储区Exchange日历文件夹上的安全描述符已损坏。  <br/> |
 |ErrorInvalidSendItemSaveSettings  <br/> |此错误发生在尝试发送一个项目，其中 [SavedItemFolderId](saveditemfolderid.md) 在请求中指定，但 **SaveItemToFolder** 属性设置为 **false**。  <br/> |
 |ErrorInvalidSerializedAccessToken  <br/> |此错误指示标头中传递的令牌格式不正确、未引用目录中的有效帐户或缺少主组 **ConnectingSID**。  <br/> |
 |ErrorInvalidSharingData  <br/> |此错误指示共享元数据无效。 这可能会导致 XML 无效。  <br/> |
@@ -346,7 +347,7 @@ ms.locfileid: "59512385"
 |ErrorInvalidTimeInterval  <br/> |此错误指示指定的时间间隔无效。 开始时间必须大于或等于结束时间。  <br/> |
 |ErrorInvalidUserInfo  <br/> |此错误指示为权限操作指定了内部不一致的[UserId。](userid.md) 例如，如果为可分辨用户 ID (Default 或 Anonymous) ，如果您还尝试为此用户指定 SID、主 SMTP 地址或 显示名称，则返回此错误。  <br/> |
 |ErrorInvalidUserOofSettings  <br/> |此错误指示用户"外出Office (OOF) 由于缺少内部或外部答复而无效。  <br/> |
-|ErrorInvalidUserPrincipalName  <br/> |此错误发生在模拟Exchange期间。 在 SOAP 标头中传递的调用者在 SOAP 标头中传递的无效 UPN 不可在目录中访问。  <br/> |
+|ErrorInvalidUserPrincipalName  <br/> |此错误发生在模拟Exchange过程中。 在 SOAP 标头中传递的调用者在 SOAP 标头中传递的无效 UPN 不可在目录中访问。  <br/> |
 |ErrorInvalidUserSid  <br/> |在请求中传递无效 SID 时，将发生此错误。  <br/> |
 |ErrorInvalidUserSidMissingUPN  <br/> |此响应代码未使用。  <br/> |
 |ErrorInvalidValueForProperty  <br/> |此错误指示限制中的比较值对于要进行比较的属性无效。<br/><br/> 例如[，DateTimeCreated](datetimecreated.md)true 的比较  >  值将返回此响应代码。 <br/><br/>如果在比较中指定了枚举属性，但要与之比较的值不是该枚举的有效值，也会返回此响应代码。  <br/> |
@@ -396,7 +397,7 @@ ms.locfileid: "59512385"
 |ErrorMoreThanOneAccessModeSpecified  <br/> |此错误指示在请求中指定了多个 [ExchangeImpersonation](exchangeimpersonation.md) 元素值。  <br/> |
 |ErrorMoveCopyFailed  <br/> |此错误指示移动或复制操作失败。 当您接受"已删除邮件"文件夹中的会议请求时，将发生 [CreateItem](createitem-operation.md) 操作中的移动。 此外，如果拒绝会议请求、取消日历项目或者从日历中删除会议，会议将移动到"已删除邮件"文件夹。  <br/> |
 |ErrorMoveDistinguishedFolder  <br/> |如果尝试移动可分辨文件夹，则会发生此错误。  <br/> |
-|ErrorMultiLegacyMailboxAccess  <br/> |当请求尝试访问多个邮箱服务器时，将发生此错误。 此错误是在 2013 年 Exchange引入的。  <br/> |
+|ErrorMultiLegacyMailboxAccess  <br/> |当请求尝试访问多个邮箱服务器时，将发生此错误。 此错误是在 2013 Exchange引入的。  <br/> |
 |ErrorNameResolutionMultipleResults  <br/> |如果 [ResolveNames](resolvenames-operation.md) 操作返回多个结果或您指定的不明确名称与目录中多个对象匹配，则会发生此错误。 响应代码在响应数据中包含匹配的名称。  <br/> |
 |ErrorNameResolutionNoMailbox  <br/> |此错误指示呼叫者在系统上没有邮箱。 [ResolveNames 操作](resolvenames-operation.md)或[ExpandDL 操作](expanddl-operation.md)对于在没有邮箱的情况下连接用户无效。  <br/> |
 |ErrorNameResolutionNoResults  <br/> |此错误指示 [ResolveNames 操作未](resolvenames-operation.md) 返回任何结果。  <br/> |
@@ -407,9 +408,9 @@ ms.locfileid: "59512385"
 |ErrorNoDestinationCASDueToVersionMismatch  <br/> |此错误指示请求引用了另一个 Active Directory 站点中的邮箱，但目标站点中没有任何客户端访问服务器可接受产品版本来接收请求，因此无法代理该请求。  <br/> |
 |ErrorNoFolderClassOverride  <br/> |如果在创建非泛型文件夹的项目时设置 [FolderClass](folderclass.md) 元素，则会发生此错误。 对于类型文件夹（如 [CalendarFolder](calendarfolder.md) 和 [TasksFolder），](tasksfolder.md)文件夹类是隐含的。 使用 [UpdateFolder](updatefolder-operation.md) 操作将文件夹类设置为其他文件夹类型会导致 **ErrorObjectTypeChanged** 响应。 请改为使用泛型文件夹类型，但将文件夹类设置为您需要的值。 ExchangeWeb 服务将创建正确的强类型文件夹。  <br/> |
 |ErrorNoFreeBusyAccess  <br/> |此错误指示呼叫者对"日历"文件夹没有忙/闲查看权限。  <br/> |
-|ErrorNonExistentMailbox  <br/> | 此错误在下列情况下发生： <br/> <br/>- 电子邮件地址在 [CreateManagedFolder 中为空](createmanagedfolder.md)。  <br/>- 电子邮件地址不引用在正文或 SOAP 标头（例如，在 Exchange Impersonation 调用中）中采用电子邮件地址的请求中的有效帐户。  <br/> |
+|ErrorNonExistentMailbox  <br/> | 此错误在下列情况下发生： <br/> <br/>- 电子邮件地址在 [CreateManagedFolder 中为空](createmanagedfolder.md)。  <br/>- 电子邮件地址不引用在正文或 SOAP 标头中采用电子邮件地址的请求（如在 Exchange 调用中）中的有效帐户。  <br/> |
 |ErrorNonPrimarySmtpAddress  <br/> |当呼叫者传递非主 SMTP 地址时，将发生此错误。 该响应包括要使用的正确 SMTP 地址。  <br/> |
-|ErrorNoPropertyTagForCustomProperties  <br/> |此错误指示不能通过属性标记引用自定义0x8000或更大的 MAPI 属性。 您必须将 EWS 托管 API [PropertySetId](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.extendedpropertydefinition.propertysetid%28v=exchg.80%29.aspx)属性或 EWS [ExtendedFieldURI](extendedfielduri.md) 元素与 PropertySetId 属性一同使用。  <br/> |
+|ErrorNoPropertyTagForCustomProperties  <br/> |此错误指示不能通过属性标记引用自定义区域（0x8000或更大）中的 MAPI 属性。 您必须将 EWS 托管 API [PropertySetId](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.extendedpropertydefinition.propertysetid%28v=exchg.80%29.aspx)属性或 EWS [ExtendedFieldURI](extendedfielduri.md) 元素与 PropertySetId 属性一同使用。  <br/> |
 |ErrorNoPublicFolderReplicaAvailable  <br/> |此响应代码未使用。  <br/> |
 |ErrorNoPublicFolderServerAvailable  <br/> |如果没有公用文件夹服务器或调用方没有主公用服务器，则必须返回此错误代码。  <br/> |
 |ErrorNoRespondingCASInDestinationSite  <br/> |此错误指示请求引用了另一个 Active Directory 站点中的邮箱，但该站点中没有客户端访问服务器响应，因此无法代理该请求。  <br/> |
@@ -429,7 +430,7 @@ ms.locfileid: "59512385"
 |ErrorPermissionNotAllowedByPolicy  <br/> |此错误指示请求者尝试将其日历或联系人文件夹中的权限授予外部用户，但分配给请求者共享策略指示请求的权限级别高于共享策略允许的权限级别。  <br/> |
 |ErrorPhoneNumberNotDialable  <br/> |此错误指示电话号码格式不正确。  <br/> |
 |ErrorPropertyUpdate  <br/> |此错误指示更新因属性值无效而失败。 响应消息包括无效的属性路径。  <br/> |
-|ErrorPromptPublishingOperationFailed  <br/> |此错误仅供内部使用。 此错误是在 2013 年 Exchange引入的。  <br/> |
+|ErrorPromptPublishingOperationFailed  <br/> |此错误仅供内部使用。 此错误是在 2013 Exchange引入的。  <br/> |
 |ErrorPropertyValidationFailure  <br/> |此响应代码未使用。  <br/> |
 |ErrorProxiedSubscriptionCallFailure  <br/> |此错误指示请求引用了存在于另一个客户端访问服务器上，但尝试将请求代理到该客户端访问服务器失败。  <br/> |
 |ErrorProxyCallFailed  <br/> |此响应代码未使用。  <br/> |
@@ -438,11 +439,11 @@ ms.locfileid: "59512385"
 |ErrorProxyRequestProcessingFailed  <br/> |此错误指示 Web Exchange尝试将可用性请求代理到另一个客户端访问服务器以实施，但请求失败。 此响应可能是由网络连接问题或请求超时问题导致的。  <br/> |
 |ErrorProxyServiceDiscoveryFailed  <br/> |如果 Web 服务无法确定请求是在目标服务器上运行，还是将被代理到其他服务器，则必须返回此错误代码。  <br/> |
 |ErrorProxyTokenExpired  <br/> |此响应代码未使用。  <br/> |
-|ErrorPublicFolderMailboxDiscoveryFailed  <br/> |当找不到公用文件夹邮箱 URL 时，将发生此错误。 此错误仅供内部使用。 此错误是在 2013 年 Exchange引入的。  <br/> |
+|ErrorPublicFolderMailboxDiscoveryFailed  <br/> |当找不到公用文件夹邮箱 URL 时，将发生此错误。 此错误仅供内部使用。 此错误是在 2013 Exchange引入的。  <br/> |
 |ErrorPublicFolderOperationFailed  <br/> |当尝试访问公用文件夹并且尝试失败时，将发生此错误。 此错误在 Exchange 2013Exchange Server 2013 中引入。  <br/> |
-|ErrorPublicFolderRequestProcessingFailed  <br/> |当传递给[GetUserAvailability](getuseravailability-operation.md)操作的收件人位于运行 Exchange Server 版本早于 Exchange 2007 的计算机上，并且从公用文件夹服务器检索收件人的忙/闲信息的请求失败时，会发生此错误。  <br/> |
-|ErrorPublicFolderServerNotFound  <br/> |如果传递给[GetUserAvailability](getuseravailability-operation.md)操作的收件人位于运行 Exchange Server 版本早于 Exchange 2007 的计算机上，并且由于组织单位没有关联的公用文件夹服务器，因此从公用文件夹服务器检索收件人的忙/闲信息的请求失败，则会发生此错误。  <br/> |
-|ErrorPublicFolderSyncException  <br/> |当同步操作对主公用文件夹邮箱成功，但辅助公用文件夹邮箱失败时，会发生此错误。 此错误是在 2013 年 Exchange引入的。  <br/> |
+|ErrorPublicFolderRequestProcessingFailed  <br/> |当传递给[GetUserAvailability](getuseravailability-operation.md)操作的收件人位于运行 Exchange Server 版本早于 Exchange 2007 的计算机上，并且从公用文件夹服务器检索收件人的忙/闲信息的请求失败时，将发生此错误。  <br/> |
+|ErrorPublicFolderServerNotFound  <br/> |当传递给[GetUserAvailability](getuseravailability-operation.md)操作的收件人位于运行 Exchange Server 版本早于 Exchange 2007 的计算机上，并且从公用文件夹服务器检索收件人的忙/闲信息请求失败，因为组织单位没有关联的公用文件夹服务器，则会发生此错误。  <br/> |
+|ErrorPublicFolderSyncException  <br/> |当同步操作对主公用文件夹邮箱成功，但辅助公用文件夹邮箱失败时，会发生此错误。 此错误是在 2013 Exchange引入的。  <br/> |
 |ErrorQueryFilterTooLong  <br/> |此错误指示搜索文件夹限制可能有效，但不受 EWS 支持。 ExchangeWeb 服务限制最多包含 255 个筛选器表达式。 如果尝试绑定到超过 255 的现有搜索文件夹，将返回此响应代码。  <br/> |
 |ErrorQuotaExceeded  <br/> |超出邮箱配额时发生此错误。  <br/> |
 |ErrorReadEventsFailed  <br/> |当检索事件信息时发生故障时 [，GetEvents](getevents-operation.md) 操作或推送通知将返回此错误。 返回此错误时，订阅将被删除。 基于上一个已知水印重新创建事件同步。  <br/> |
@@ -452,7 +453,7 @@ ms.locfileid: "59512385"
 |ErrorRemoveDelegatesFailed  <br/> |此错误指示删除委托后无法保存委派列表。  <br/> |
 |ErrorRequestAborted  <br/> |此响应代码未使用。  <br/> |
 |ErrorRequestStreamTooBig  <br/> | 当请求流大于 400 KB 时，将发生此错误。  <br/> |
-|ErrorRequiredPropertyMissing  <br/> |当 [CreateAttachment](createattachment-operation.md) 操作请求中缺少所需属性时，将返回此错误。 响应中包含缺少的属性 URI。  <br/> |
+|ErrorRequiredPropertyMissing  <br/> |当 [CreateAttachment](createattachment-operation.md) 操作请求中缺少必需属性时，将返回此错误。 响应中包含缺少的属性 URI。  <br/> |
 |ErrorResolveNamesInvalidFolderType  <br/> |此错误指示呼叫者向 [ResolveNames](resolvenames-operation.md)操作指定了非联系人文件夹的文件夹。  <br/> |
 |ErrorResolveNamesOnlyOneContactsFolderAllowed  <br/> |此错误指示呼叫者向 [ResolveNames](resolvenames-operation.md)操作指定了多个联系人文件夹。  <br/> |
 |ErrorResponseSchemaValidation  <br/> |此响应代码未使用。  <br/> |
@@ -466,7 +467,7 @@ ms.locfileid: "59512385"
 |ErrorSendMeetingCancellationsRequired  <br/> |如果请求中缺少 **SendMeetingCancellations** 属性，并且要删除的项目是日历项目，则 [DeleteItem](deleteitem-operation.md)操作将返回此错误。  <br/> |
 |ErrorSendMeetingInvitationsOrCancellationsRequired  <br/> |如果请求中缺少 **SendMeetingInvitationsOrCancellations** 属性，并且要更新的项目是日历项目，则 [UpdateItem](updateitem-operation.md)操作将返回此错误。  <br/> |
 |ErrorSendMeetingInvitationsRequired  <br/> |如果请求中缺少 **SendMeetingInvitations** 属性，并且要创建的项目是日历项目，则 [CreateItem](createitem-operation.md)操作将返回此错误。  <br/> |
-|ErrorSentMeetingRequestUpdate  <br/> |此错误指示在组织者发送会议请求后，无法更新该请求。 若要修改会议，请修改日历项目，而不是会议请求。  <br/> |
+|ErrorSentMeetingRequestUpdate  <br/> |此错误指示在组织者发送会议请求后，无法更新请求。 若要修改会议，请修改日历项目，而不是会议请求。  <br/> |
 |ErrorSentTaskRequestUpdate  <br/> |此错误指示在任务发起人发送任务请求后，无法更新该请求。  <br/> |
 |ErrorServerBusy  <br/> |当服务器繁忙时，将发生此错误。  <br/> |
 |ErrorServiceDiscoveryFailed  <br/> |此错误指示Exchange Web 服务尝试将用户可用性请求代理到收件人的适当林，但由于服务发现失败，它无法确定将请求发送到何处。  <br/> |
@@ -479,26 +480,26 @@ ms.locfileid: "59512385"
 |ErrorSubscriptionNotFound  <br/> |如果找不到与 [GetEvents ](subscriptionid-getevents.md) (SubscriptionId) 发生此错误。 订阅可能已过期，Exchange Web 服务进程可能重新启动，或者传递了无效的订阅。 如果订阅有效，请重新创建具有最新水印的订阅。 这由 Unsubscribe [操作或](unsubscribe-operation.md) [GetEvents 操作响应](getevents-operation.md) 返回。  <br/> |
 |ErrorSubscriptionUnsubsribed  <br/> |当对已取消订阅的订阅提出请求时，必须返回此错误代码。  <br/> |
 |ErrorSyncFolderNotFound  <br/> |如果找不到指定的父文件夹 [，SyncFolderItems](syncfolderitems-operation.md) 操作将返回此错误。  <br/> |
-|ErrorTeamMailboxNotFound  <br/> |此错误指示未找到团队邮箱。 此错误是在 2013 年 Exchange引入的。  <br/> |
-|ErrorTeamMailboxNotLinkedToSharePoint  <br/> |此错误指示已找到团队邮箱，但它未链接到 SharePoint 服务器。 此错误是在 2013 年 Exchange引入的。  <br/> |
-|ErrorTeamMailboxUrlValidationFailed  <br/> |此错误指示已找到团队邮箱，但指向 SharePoint 服务器的链接无效。 此错误是在 2013 年 Exchange引入的。  <br/> |
-|ErrorTeamMailboxNotAuthorizedOwner  <br/> |此错误代码未使用。 此错误是在 2013 年 Exchange引入的。  <br/> |
-|ErrorTeamMailboxActiveToPendingDelete  <br/> |此错误代码未使用。 此错误是在 2013 年 Exchange引入的。  <br/> |
-|ErrorTeamMailboxFailedSendingNotifications  <br/> |此错误指示尝试向团队邮箱所有者发送通知失败。 此错误是在 2013 年 Exchange引入的。  <br/> |
-|ErrorTeamMailboxErrorUnknown  <br/> |此错误指示尝试访问团队邮箱时可能会发生的常规错误。 请尝试稍后提交请求。 此错误是在 2013 年 Exchange引入的。  <br/> |
+|ErrorTeamMailboxNotFound  <br/> |此错误指示未找到团队邮箱。 此错误是在 2013 Exchange引入的。  <br/> |
+|ErrorTeamMailboxNotLinkedToSharePoint  <br/> |此错误指示已找到团队邮箱，但它未链接到 SharePoint 服务器。 此错误是在 2013 Exchange引入的。  <br/> |
+|ErrorTeamMailboxUrlValidationFailed  <br/> |此错误指示已找到团队邮箱，但指向 SharePoint 服务器的链接无效。 此错误是在 2013 Exchange引入的。  <br/> |
+|ErrorTeamMailboxNotAuthorizedOwner  <br/> |此错误代码未使用。 此错误是在 2013 Exchange引入的。  <br/> |
+|ErrorTeamMailboxActiveToPendingDelete  <br/> |此错误代码未使用。 此错误是在 2013 Exchange引入的。  <br/> |
+|ErrorTeamMailboxFailedSendingNotifications  <br/> |此错误指示尝试向团队邮箱所有者发送通知失败。 此错误是在 2013 Exchange引入的。  <br/> |
+|ErrorTeamMailboxErrorUnknown  <br/> |此错误指示尝试访问团队邮箱时可能会发生的常规错误。 请尝试稍后提交请求。 此错误是在 2013 Exchange引入的。  <br/> |
 |ErrorTimeIntervalTooBig  <br/> |此错误指示指定的时间窗口大于允许的限制。 默认情况下，允许的限制是 42。  <br/> |
 |ErrorTimeoutExpired  <br/> | 当没有足够的时间完成对请求的处理时，将发生此错误。  <br/> |
 |ErrorTimeZone  <br/> |此错误指示存在时区错误。  <br/> |
 |ErrorToFolderNotFound  <br/> |此错误指示目标文件夹不存在。  <br/> |
-|ErrorTokenSerializationDenied  <br/> |如果调用方尝试执行令牌序列化请求，但在客户端访问服务器上没有 ms-Exch-CALLER-TokenSerialization 权限，则会发生此错误。  <br/> |
+|ErrorTokenSerializationDenied  <br/> |如果调用方尝试执行令牌序列化请求，但客户端访问服务器上没有 ms-Exch-CALLER-TokenSerialization 权限，则会发生此错误。  <br/> |
 |ErrorTooManyObjectsOpened  <br/> |当超出打开对象的内部限制时，将发生此错误。  <br/> |
 |ErrorUnifiedMessagingDialPlanNotFound  <br/> |此错误指示用户的拨号计划不可用。  <br/> |
-|ErrorUnifiedMessagingReportDataNotFound  <br/> |此错误仅供内部使用。 此错误是在 2013 年 Exchange引入的。  <br/> |
-|ErrorUnifiedMessagingPromptNotFound  <br/> |此错误仅供内部使用。 此错误是在 2013 年 Exchange引入的。  <br/> |
+|ErrorUnifiedMessagingReportDataNotFound  <br/> |此错误仅供内部使用。 此错误是在 2013 Exchange引入的。  <br/> |
+|ErrorUnifiedMessagingPromptNotFound  <br/> |此错误仅供内部使用。 此错误是在 2013 Exchange引入的。  <br/> |
 |ErrorUnifiedMessagingRequestFailed  <br/> |此错误指示找不到用户。  <br/> |
 |ErrorUnifiedMessagingServerNotFound  <br/> |此错误指示可以找到拨号计划的有效服务器来处理请求。  <br/> |
 |ErrorUnableToGetUserOofSettings  <br/> |此响应代码未使用。  <br/> |
-|ErrorUnableToRemoveImContactFromGroup  <br/> |如果尝试从组中删除 IM 联系人失败，则会发生此错误。 此错误是在 2013 年 Exchange引入的。  <br/> |
+|ErrorUnableToRemoveImContactFromGroup  <br/> |如果尝试从组中删除 IM 联系人失败，则会发生此错误。 此错误是在 2013 Exchange引入的。  <br/> |
 |ErrorUnsupportedCulture  <br/> |当您尝试将 **Culture** 属性设置为 **System.Globalization.CultureInfo** 类无法分析的值时，将发生此错误。  <br/> |
 |ErrorUnsupportedMapiPropertyType  <br/> |当调用方尝试使用类型对象、对象数组、错误或 null 的扩展属性时，将发生此错误。  <br/> |
 |ErrorUnsupportedMimeConversion  <br/> |当您尝试检索或设置[PostItem、Message](postitem.md)或[CalendarItem](calendaritem.md)对象外的项目的 MIME[](message-ex15websvcsotherref.md)内容时，将发生此错误。  <br/> |
@@ -544,7 +545,7 @@ ms.locfileid: "59512385"
 |ErrorInvalidFederatedOrganizationId  <br/> |指定请求者的组织联合对象未正确配置。  <br/> |
 |ErrorInvalidExternalSharingSubscriber  <br/> |指定共享消息不供呼叫者使用。  <br/> |
 |ErrorInvalidSharingData  <br/> |指定共享元数据无效。 这可能会导致 XML 无效。  <br/> |
-|ErrorInvalidSharingMessage  <br/> |指定共享邮件无效。 这由缺少属性导致。  <br/> |
+|ErrorInvalidSharingMessage  <br/> |指定共享邮件是无效。 这由缺少属性导致。  <br/> |
 |ErrorNotSupportedSharingMessage  <br/> |指定不支持共享邮件。  <br/> |
 |ErrorApplyConversationActionFailed  <br/> |如果操作不能应用于对话中的一个或多个项目，则必须返回此错误。  <br/> |
 |ErrorInboxRulesValidationError  <br/> |如果任何规则未验证，则必须返回此错误。  <br/> |
@@ -552,31 +553,31 @@ ms.locfileid: "59512385"
 |ErrorRulesOverQuota  <br/> |当超过用户的规则配额时，必须返回此错误。  <br/> |
 |ErrorNewEventStreamConnectionOpened  <br/> |如果打开了第二个订阅连接，则必须将此错误返回到第一个订阅连接。  <br/> |
 |ErrorMissedNotificationEvents  <br/> |如果错过事件通知，则必须返回此错误。  <br/> |
-|ErrorDuplicateLegacyDistinguishedName  <br/> |如果 Active Directory 域服务中的旧版可分辨名称与 AD DS (重复，则) 。 此错误是在 2013 Exchange引入的。  <br/> |
+|ErrorDuplicateLegacyDistinguishedName  <br/> |当 Active Directory 域服务中的旧版可分辨名称与 AD DS (重复时，将) 。 此错误是在 2013 Exchange引入的。  <br/> |
 |ErrorInvalidClientAccessTokenRequest  <br/> |此错误指示请求获取客户端访问令牌的请求无效。 此错误是在 2013 Exchange引入的。  <br/> |
 |ErrorNoSpeechDetected  <br/> |此错误仅供内部使用。 此错误是在 2013 Exchange引入的。  <br/> |
-|ErrorUMServerUnavailable  <br/> |此错误仅供内部使用。 此错误是在 2013 年 Exchange引入的。  <br/> |
-|ErrorRecipientNotFound  <br/> |此错误仅供内部使用。 此错误是在 2013 年 Exchange引入的。  <br/> |
-|ErrorRecognizerNotInstalled  <br/> |此错误仅供内部使用。 此错误是在 2013 年 Exchange引入的。  <br/> |
-|ErrorSpeechGrammarError  <br/> |此错误仅供内部使用。 此错误是在 2013 年 Exchange引入的。  <br/> |
-|ErrorInvalidManagementRoleHeader  <br/> |如果 SOAP 标头中的 [ManagementRole](managementrole.md) 标头不正确，则返回此错误。 此错误是在 2013 年 Exchange引入的。  <br/> |
-|ErrorLocationServicesDisabled  <br/> |此错误仅供内部使用。 此错误是在 2013 年 Exchange引入的。  <br/> |
-|ErrorLocationServicesRequestTimedOut  <br/> |此错误仅供内部使用。 此错误是在 2013 年 Exchange引入的。  <br/> |
-|ErrorLocationServicesRequestFailed  <br/> |此错误仅供内部使用。 此错误是在 2013 年 Exchange引入的。  <br/> |
-|ErrorLocationServicesInvalidRequest  <br/> |此错误仅供内部使用。 此错误是在 2013 年 Exchange引入的。  <br/> |
+|ErrorUMServerUnavailable  <br/> |此错误仅供内部使用。 此错误是在 2013 Exchange引入的。  <br/> |
+|ErrorRecipientNotFound  <br/> |此错误仅供内部使用。 此错误是在 2013 Exchange引入的。  <br/> |
+|ErrorRecognizerNotInstalled  <br/> |此错误仅供内部使用。 此错误是在 2013 Exchange引入的。  <br/> |
+|ErrorSpeechGrammarError  <br/> |此错误仅供内部使用。 此错误是在 2013 Exchange引入的。  <br/> |
+|ErrorInvalidManagementRoleHeader  <br/> |如果 SOAP 标头中的 [ManagementRole](managementrole.md) 标头不正确，则返回此错误。 此错误是在 2013 Exchange引入的。  <br/> |
+|ErrorLocationServicesDisabled  <br/> |此错误仅供内部使用。 此错误是在 2013 Exchange引入的。  <br/> |
+|ErrorLocationServicesRequestTimedOut  <br/> |此错误仅供内部使用。 此错误是在 2013 Exchange引入的。  <br/> |
+|ErrorLocationServicesRequestFailed  <br/> |此错误仅供内部使用。 此错误是在 2013 Exchange引入的。  <br/> |
+|ErrorLocationServicesInvalidRequest  <br/> |此错误仅供内部使用。 此错误是在 2013 Exchange引入的。  <br/> |
 |ErrorWeatherServiceDisabled  <br/> |此错误仅供内部使用。  <br/> |
-|ErrorMailboxScopeNotAllowedWithoutQueryString  <br/> |当在未对内容索引搜索使用 [QueryString ](querystring-string.md) (String) 的情况下执行范围搜索尝试时，将返回此错误。 这适用于 **SearchMailboxes 和** **FindConversation** 操作。 此错误是在 2013 年 Exchange引入的。  <br/> |
-|ErrorArchiveMailboxSearchFailed  <br/> |存档邮箱搜索不成功时，将返回此错误。 此错误是在 2013 年 Exchange引入的。  <br/> |
-|ErrorArchiveMailboxServiceDiscoveryFailed  <br/> |当存档邮箱的 URL 不可发现时，将返回此错误。 此错误是在 2013 年 Exchange引入的。  <br/> |
+|ErrorMailboxScopeNotAllowedWithoutQueryString  <br/> |当在未对内容索引搜索使用 [QueryString ](querystring-string.md) (String) 的情况下执行范围搜索尝试时，将返回此错误。 这适用于 **SearchMailboxes 和** **FindConversation** 操作。 此错误是在 2013 Exchange引入的。  <br/> |
+|ErrorArchiveMailboxSearchFailed  <br/> |存档邮箱搜索不成功时，将返回此错误。 此错误是在 2013 Exchange引入的。  <br/> |
+|ErrorArchiveMailboxServiceDiscoveryFailed  <br/> |当存档邮箱的 URL 不可发现时，将返回此错误。 此错误是在 2013 Exchange引入的。  <br/> |
 |ErrorGetRemoteArchiveFolderFailed  <br/> |当获取远程存档邮箱文件夹的操作失败时，将发生此错误。  <br/> |
 |ErrorFindRemoteArchiveFolderFailed  <br/> |当查找远程存档邮箱文件夹的操作失败时，将发生此错误。  <br/> |
 |ErrorGetRemoteArchiveItemFailed  <br/> |此错误发生在获取远程存档邮箱项目的操作失败时。  <br/> |
 |ErrorExportRemoteArchiveItemsFailed  <br/> |导出远程存档邮箱项目的操作失败时发生此错误。  <br/> |
-|ErrorInvalidPhotoSize  <br/> |如果从服务器请求了无效的照片大小，则返回此错误。 此错误是在 2013 年 Exchange引入的。  <br/> |
-|ErrorSearchQueryHasTooManyKeywords  <br/> |在 **GetUserPhoto** 操作请求中请求意外的照片大小时，将返回此错误。 此错误是在 2013 年 Exchange引入的。  <br/> |
-|ErrorSearchTooManyMailboxes  <br/> |当 **SearchMailboxes** 操作请求包含太多邮箱进行搜索时，将返回此错误。 此错误是在 2013 年 Exchange引入的。  <br/> |
-|ErrorInvalidRetentionTagNone  <br/> |此错误指示未找到此用户的保留标记。 此错误是在 2013 年 Exchange引入的。  <br/> |
-|ErrorDiscoverySearchesDisabled  <br/> |在租户或服务器上禁用发现搜索时，将返回此错误。 此错误是在 2013 年 Exchange引入的。  <br/> |
+|ErrorInvalidPhotoSize  <br/> |如果从服务器请求了无效的照片大小，则返回此错误。 此错误是在 2013 Exchange引入的。  <br/> |
+|ErrorSearchQueryHasTooManyKeywords  <br/> |在 **GetUserPhoto** 操作请求中请求意外的照片大小时，将返回此错误。 此错误是在 2013 Exchange引入的。  <br/> |
+|ErrorSearchTooManyMailboxes  <br/> |当 **SearchMailboxes** 操作请求包含太多邮箱进行搜索时，将返回此错误。 此错误是在 2013 Exchange引入的。  <br/> |
+|ErrorInvalidRetentionTagNone  <br/> |此错误指示未找到此用户的保留标记。 此错误是在 2013 Exchange引入的。  <br/> |
+|ErrorDiscoverySearchesDisabled  <br/> |在租户或服务器上禁用发现搜索时，将返回此错误。 此错误是在 2013 Exchange引入的。  <br/> |
 |ErrorCalendarSeekToConditionNotSupported  <br/> |此错误发生在尝试使用[SeekToConditionPageItemView](seektoconditionpageitemview.md)调用[FindItem](finditem-operation.md)操作以提取日历项目时，此操作不受支持。  <br/> |
 |ErrorCalendarIsGroupMailboxForAccept  <br/> |此错误仅供内部使用。  <br/> |
 |ErrorCalendarIsGroupMailboxForDecline  <br/> |此错误仅供内部使用。  <br/> |
@@ -586,7 +587,7 @@ ms.locfileid: "59512385"
 |ErrorInvalidLicense  <br/> |用户没有有效的许可证。  <br/> |
 |ErrorMessagePerFolderCountReceiveQuotaExceeded  <br/> |已超出每个文件夹的邮件接收配额。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
 此元素不是必需的，并不包含在所有响应中。 
   

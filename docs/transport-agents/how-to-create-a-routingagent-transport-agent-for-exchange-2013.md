@@ -1,31 +1,31 @@
 ---
 title: 为 Exchange 2013 创建 RoutingAgent 传输代理
 manager: sethgros
-ms.date: 09/17/2015
+ms.date: 09/21/2021
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 3f0e745f-9289-4f31-8877-926692a8c133
 description: 了解如何创建自定义 RoutingAgent 传输代理以用于 Exchange 2013。
-ms.openlocfilehash: 70dbfc3c25e18195bb4b42fd3e750da11b0423d6
-ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
+ms.openlocfilehash: 89c70e7d021b9b2cc46f65ee3bbff334430fecc7
+ms.sourcegitcommit: f13a3a4a61fa23ca6414b7c96ddf087adbe3dc9e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59534172"
+ms.lasthandoff: 10/11/2021
+ms.locfileid: "60262209"
 ---
 # <a name="create-a-routingagent-transport-agent-for-exchange-2013"></a>为 Exchange 2013 创建 RoutingAgent 传输代理
 
 了解如何创建自定义 RoutingAgent 传输代理以用于 Exchange 2013。
   
-**适用于：Exchange Server** 2013
+**适用于：Exchange Server** 2013 年 10 月
   
 相关代码段和示例应用：
 
-- [Exchange 2013：构建带宽日志记录传输代理](https://code.msdn.microsoft.com/Exchange/Exchange-2013-Build-a-d61a4aaa)
+- [Exchange 2013：构建带宽日志记录传输代理](/exchange/client-developer/transport-agents/transport-agent-code-samples-for-exchange-2013.md)
   
-[RoutingAgentFactory](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgentFactory.aspx)和[RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx)类是设计为在 Exchange Server 2013 邮箱服务器上运行传输代理的基类。 [RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx)类提供下表中列出的事件，您可以在 RoutingAgent 传输代理中为这些事件实现处理程序。 
+[RoutingAgentFactory](https://docs.microsoft.com/previous-versions/office/exchange-server-api/aa564164(v=exchg.150))和[RoutingAgent](https://docs.microsoft.com/previous-versions/office/exchange-server-api/aa564421(v=exchg.150))类是设计为在 Exchange Server 2013 邮箱服务器上运行传输代理的基类。 [RoutingAgent](https://docs.microsoft.com/previous-versions/office/exchange-server-api/aa564421(v=exchg.150))类提供下表中列出的事件，您可以在 RoutingAgent 传输代理中为这些事件实现处理程序。 
   
 **表 1.RoutingAgent 类事件**
 
@@ -51,7 +51,7 @@ ms.locfileid: "59534172"
   
    ```
 
-   您可以在您的 Exchange 服务器上找到这些命名空间。 通过添加对这些命名空间的引用，您将可以访问[RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx)成员以及[Exchange 2013： Build a bandwidth logging transport agent](https://code.msdn.microsoft.com/Exchange/Exchange-2013-Build-a-d61a4aaa)示例中使用的其他类。 
+   您可以在您的 Exchange 服务器上找到这些命名空间。 通过添加对这些命名空间的引用，您将有权访问[RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx)成员以及[Exchange 2013： Build a bandwidth logging transport agent](https://code.msdn.microsoft.com/Exchange/Exchange-2013-Build-a-d61a4aaa)示例中使用的其他类。 
     
 2. 为 [RoutingAgentFactory 类实现派生](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgentFactory.aspx) 类。 
     

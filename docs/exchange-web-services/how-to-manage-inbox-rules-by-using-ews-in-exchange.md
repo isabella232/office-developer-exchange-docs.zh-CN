@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 982ddb78-5606-44b0-8aba-dbffc60d6085
 description: 了解如何使用 EWS 托管 API 或 EWS 在邮件集中获取、创建、更新和删除Exchange。
-ms.openlocfilehash: 3612176041533fb5cb2a6c79fcdaff9810b681f0
-ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
+ms.openlocfilehash: 0f220ad74792e55bb5d1147b0d93ee66d469048b
+ms.sourcegitcommit: f13a3a4a61fa23ca6414b7c96ddf087adbe3dc9e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59513176"
+ms.lasthandoff: 10/11/2021
+ms.locfileid: "60262202"
 ---
 # <a name="manage-inbox-rules-by-using-ews-in-exchange"></a>在收件箱中通过使用 EWS 管理Exchange
 
@@ -26,9 +26,9 @@ ms.locfileid: "59513176"
 |获取收件箱规则  <br/> |[ExchangeService.GetInboxRules](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.getinboxrules%28v=exchg.80%29.aspx) <br/> |[GetInboxRules](https://msdn.microsoft.com/library/b4b2701a-4a23-4acc-8c75-19f7955ad7ae%28Office.15%29.aspx) <br/> |
 |创建、更新或删除收件箱规则  <br/> |[ExchangeService.UpdateInboxRules](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.updateinboxrules%28v=exchg.80%29.aspx) <br/> |[UpdateInboxRules](https://msdn.microsoft.com/library/f982a237-471e-45c5-a2b5-468cfc53150b%28Office.15%29.aspx) <br/> |
    
-若要使用 EWS 托管 API 或 EWS 创建、更新或删除收件箱规则，必须删除Outlook规则（如果存在）。 如果使用的是 EWS 托管 API，则为此，在 **ExchangeService.UpdateInboxRules** 方法调用中将 **removeOutlookRulesBlob** 参数设置为 **true。** 如果使用的是 EWS，则 **UpdateInboxRules** 操作中 [将 RemoveOutlookRuleBlob](https://msdn.microsoft.com/library/69614475-8bd3-4475-b988-614fe9cad8ef%28Office.15%29.aspx)元素的值设置为 **true。** 如果使用的是 EWS 托管 API) ，则建议应用程序检查 [RuleCollection.OutlookRuleBlobExists](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.rulecollection.outlookruleblobexists%28v=exchg.80%29.aspx) 属性 (;如果更新收件箱规则之前使用的是 EWS) ，则检查 [OutlookRuleBlobExists](https://msdn.microsoft.com/library/ae1bc448-deb9-4b5b-ab38-4b276abcb650%28Office.15%29.aspx) 元素 (。 如果此属性或元素的值为 **true，** 则应用程序应通知用户任何已禁用的规则将在更新中丢失，并且仅继续处理其权限。
+若要使用 EWS 托管 API 或 EWS 创建、更新或删除收件箱规则，必须删除Outlook规则（如果存在）。 如果使用的是 EWS 托管 API，则为此，在 **ExchangeService.UpdateInboxRules** 方法调用中将 **removeOutlookRulesBlob** 参数设置为 **true。** 如果使用的是 EWS，则 **UpdateInboxRules** 操作中 [将 RemoveOutlookRuleBlob](https://msdn.microsoft.com/library/69614475-8bd3-4475-b988-614fe9cad8ef%28Office.15%29.aspx)元素的值设置为 **true。** 如果您使用的是 EWS 托管 API) ，则建议您的应用程序检查 [RuleCollection.OutlookRuleBlobExists](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.rulecollection.outlookruleblobexists%28v=exchg.80%29.aspx) 属性 (，如果更新收件箱规则之前使用的是 EWS) ，则检查 [OutlookRuleBlobExists](https://msdn.microsoft.com/library/ae1bc448-deb9-4b5b-ab38-4b276abcb650%28Office.15%29.aspx) 元素 (。 如果此属性或元素的值为 **true，** 则应用程序应通知用户任何已禁用的规则将在更新中丢失，并且仅继续处理其权限。
   
-调用 **UpdateInboxRules** 方法时，EWS 将删除客户端发送规则。 客户端发送规则存储在客户端上的"文件夹关联信息"规则中 (FAI) 邮件和邮件。 默认情况下，EWS 会删除此规则 FAI 邮件，Outlook重新创建它。 但是Outlook无法重新创建作为扩展规则不存在的规则，并且客户端发送规则不会作为扩展规则存在。 因此，这些规则将丢失。 我们建议您在设计解决方案时考虑这一点。 
+调用 **UpdateInboxRules** 方法时，EWS 将删除客户端发送规则。 客户端发送规则存储在客户端上的规则 Folder Associated Information (FAI) Message and else。 默认情况下，EWS 将基于用户重新创建此规则Outlook FAI 邮件。 但是Outlook无法重新创建作为扩展规则不存在的规则，并且客户端发送规则不会作为扩展规则存在。 因此，这些规则将丢失。 我们建议您在设计解决方案时考虑这一点。 
   
 > [!NOTE]
 > 本文中的 EWS 托管 API 代码示例使用一组常用的 [实用程序方法](how-to-manage-inbox-rules-by-using-ews-in-exchange.md#bk_UtilitySource)。 为简洁起见，代码示例将省略这些方法。 
@@ -38,7 +38,7 @@ ms.locfileid: "59513176"
 
 若要获取当前收件箱规则，请使用 [ExchangeService.GetInboxRules](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.getinboxrules%28v=exchg.80%29.aspx) 方法。 此方法返回包含所有当前收件箱规则的 [RuleCollection](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.rulecollection%28v=exchg.80%29.aspx) 对象。 
   
-本示例中，当前收件箱中的每个规则都传递到 **ParseRuleDetails** (帮助程序函数) 显示规则的详细信息。 
+本示例中，当前收件箱中的每个规则都传递到帮助程序函数 ( **ParseRuleDetails** ) 以显示规则的详细信息。 
   
 ```cs
 using System;
@@ -166,7 +166,7 @@ private static void GetInboxRules(ExchangeService service, string emailAddress)
 
 若要创建规则，在传递给[ExchangeService.UpdateInboxRules](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.updateinboxrules%28v=exchg.80%29.aspx)方法的[RuleOperation](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.ruleoperation%28v=exchg.80%29.aspx)对象集合中包括[CreateRuleOperation](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.createruleoperation%28v=exchg.80%29.aspx)对象。 
   
-本示例中创建一个新规则，将发送到名为"Sales"的通讯组列表的邮件移动到"收件箱"的子文件夹（也称为"销售"文件夹） 中。
+本示例创建一个新规则，将发送到名为"Sales"的通讯组列表的邮件移动到"收件箱"的子文件夹（也称为"销售"文件夹） 中。
   
 ```cs
 using System;
@@ -188,13 +188,13 @@ private static void CreateInboxRule(ExchangeService service, string emailAddress
     {
         Console.WriteLine("Error getting inbox rules: {0}", ex.ErrorCode.ToString());
     }
-    if (currentRules != null &amp;&amp; currentRules.OutlookRuleBlobExists)
+    if (currentRules != null && currentRules.OutlookRuleBlobExists)
     {
         Console.WriteLine("WARNING: Adding a new rule will delete the Outlook rule BLOB.");
         Console.WriteLine("This can lead to a loss of any disabled rules.");
         Console.Write("Hit Y to proceed (any other key to cancel): ");
         ConsoleKeyInfo cki = Console.ReadKey();
-        if (cki.KeyChar != 'Y' &amp;&amp; cki.KeyChar != 'y')
+        if (cki.KeyChar != 'Y' && cki.KeyChar != 'y')
         {
             Console.WriteLine("\nCanceling addition of new rule...");
             return;
@@ -244,7 +244,7 @@ private static void CreateInboxRule(ExchangeService service, string emailAddress
 ## <a name="create-inbox-rules-by-using-ews"></a>使用 EWS 创建收件箱规则
 <a name="bk_CreateRulesEWS"> </a>
 
-以下 EWS SOAP 请求在 sadie@contoso.com 的收件箱中创建"销售"规则。
+以下 EWS SOAP 请求在 sadie@contoso.com 的"收件箱"中创建"销售"规则。
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -323,13 +323,13 @@ private static void UpdateInboxRule(ExchangeService service, string emailAddress
     {
         Console.WriteLine("Error getting inbox rules: {0}", ex.ErrorCode.ToString());
     }
-    if (currentRules != null &amp;&amp; currentRules.OutlookRuleBlobExists)
+    if (currentRules != null && currentRules.OutlookRuleBlobExists)
     {
         Console.WriteLine("WARNING: Updating an existing rule will delete the Outlook rule BLOB.");
         Console.WriteLine("This can lead to a loss of any disabled rules.");
         Console.Write("Hit Y to proceed (any other key to cancel): ");
         ConsoleKeyInfo cki = Console.ReadKey();
-        if (cki.KeyChar != 'Y' &amp;&amp; cki.KeyChar != 'y')
+        if (cki.KeyChar != 'Y' && cki.KeyChar != 'y')
         {
             Console.WriteLine("\nCanceling update of rule...");
             return;
@@ -460,13 +460,13 @@ private static void DeleteInboxRule(ExchangeService service, string emailAddress
     {
         Console.WriteLine("Error getting inbox rules: {0}", ex.ErrorCode.ToString());
     }
-    if (currentRules != null &amp;&amp; currentRules.OutlookRuleBlobExists)
+    if (currentRules != null && currentRules.OutlookRuleBlobExists)
     {
         Console.WriteLine("WARNING: Deleting a rule will delete the Outlook rule BLOB.");
         Console.WriteLine("This can lead to a loss of any disabled rules.");
         Console.Write("Hit Y to proceed (any other key to cancel): ");
         ConsoleKeyInfo cki = Console.ReadKey();
-        if (cki.KeyChar != 'Y' &amp;&amp; cki.KeyChar != 'y')
+        if (cki.KeyChar != 'Y' && cki.KeyChar != 'y')
         {
             Console.WriteLine("\nCancelling deletion of new rule...");
             return;
